@@ -1,6 +1,6 @@
 # US life: the connections
 
-Eight short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
+Nine short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
 
 ## The bigger picture
 
@@ -39,6 +39,16 @@ Compare continued app use with repeated requests for help. Ask whether people st
 3. [Personal finances and national mood can move apart](#politics)
 
 Still missing: Time spent is not proof of satisfaction or harm. A link from unresolved service problems to political trust remains untested.
+
+### When the same job gives people different tools
+
+Follow AI access from the worker's task to the customer's answer and then to the customer's ability to continue or leave. The firm may gain speed while workers and customers face different choices.
+
+1. [The same job can contain different AI access](#work)
+2. [A quicker reply may still leave a problem open](#service)
+3. [A useful app can still make leaving difficult](#attention)
+
+Still missing: The current sources do not link worker AI access to customer exit behavior or show who gained control.
 
 ## What families give up to pay the bills
 
@@ -236,6 +246,7 @@ This is a research story about companion apps and a working paper analysis; it d
 Connections:
 
 - Comparison: Company goals and customer goals may differ when a conversation continues. Related topic: A quicker reply may still leave a problem open. Longer contact may mean useful help, an unresolved problem or pressure to stay.
+- Comparison: The same firm can shape worker tasks and customer time. Related topic: The same job can contain different AI access. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 
 ## Who can get an answer or change a decision
 
@@ -351,6 +362,83 @@ Connections:
 
 - Comparison: Company goals and customer goals may differ when a conversation continues. Related topic: A useful app can still make leaving difficult. Longer contact may mean useful help, an unresolved problem or pressure to stay.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: Personal finances and national mood can move apart. No direct evidence of that chain in the current packet.
+- Question to test: Worker access to AI may change both service speed and room to decide. Related topic: The same job can contain different AI access. The current studies do not join worker access, customer resolution and worker discretion in one setting.
+
+## Who controls the work and gets the gain
+
+Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
+
+<a id="work"></a>
+
+### The same job can contain different AI access
+
+Workers doing similar tasks may have different access to AI, training and permission to use it.
+
+**Question:** Who gets the tool, and who controls its use?
+
+**Subthemes:** Access and training; Task control
+
+**Limit:** Current evidence measures use, not yet the full effect on pay, job security or bargaining power.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [From P&G to Microsoft, How Companies Are Speeding AI Adoption](https://www.library.hbs.edu/working-knowledge/from-pg-to-microsoft-how-companies-speed-ai-adoption)
+- [Generative AI at Work](https://www.nber.org/papers/w31161)
+- [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
+- [Still Waters, Rapid Currents](https://www.nber.org/papers/w33777)
+- [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677)
+- [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984)
+- [Generative AI and Firm Values](https://www.nber.org/papers/w31222)
+- [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
+- [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
+- [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
+- [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
+- [Organizational Incentives and the Returns to Technology Adoption](https://www.nber.org/papers/w35445)
+- [Empowering Inclusive Work](https://www.nber.org/papers/w35372)
+- [Women in the Platform Economy](https://www.nber.org/papers/w35467)
+- [Quantifying the Jobs Potential of AI in Latin America and the Caribbean](https://www.worldbank.org/en/results/2025/04/15/quantifying-the-jobs-potential-of-ai-in-latin-america-and-the-caribbean)
+- [Global case studies of social dialogue on AI and algorithmic management](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management)
+- [2023 TV/Theatrical Contracts](https://www.sagaftra.org/contracts-industry-resources/contracts/2023-tvtheatrical-contracts)
+- [Digital Replicas 101](https://www.sagaftra.org/sites/default/files/sa_documents/DigitalReplicas.pdf)
+- [Deutsche Telekom Digital Ethics](https://www.telekom.com/en/company/digital-responsibility/details/our-action-areas-digital-ethics-1008324)
+- [Telekom AI manifesto](https://www.telekom.com/de/konzern/details/telekom-verpflichtet-sich-auf-ki-ethik-1025794)
+- [ver.di workplace AI examples](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1152/eng%402024-09-20/source)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1262/eng%402024-09-20/source)
+- [IBM Central Holding / Group Works Council AI framework](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence)
+- [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
+- [Methodology of the AIM-WORK survey](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933)
+- [Algorithmic management and working conditions in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729)
+- [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms)
+- [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)
+- [Energy and AI](https://www.iea.org/reports/energy-and-ai)
+- [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai)
+- [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
+- [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
+- [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
+- [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
+- [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
+- [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/)
+
+#### Evidence check: AI use is spreading widely but remains uneven at work
+
+A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools.
+
+Working interpretation: the first divide may be inside the same job, between workers who have access, training or permission and those who do not. Study the work rules around the tool, not only the tool itself.
+
+The paper measures reported use and task exposure, not whether AI raised pay, reduced jobs or changed worker power. It is an early national measure, so later surveys may revise the picture.
+
+[Bick, Blandin, Deming and Schumacher, What Work Does Generative AI Do?, NBER Working Paper 35677, August 2026 abstract. Checked 2026-09-11.](https://www.nber.org/papers/w35677)
+
+
+Connections:
+
+- Question to test: Worker access to AI may change both service speed and room to decide. Related topic: A quicker reply may still leave a problem open. The current studies do not join worker access, customer resolution and worker discretion in one setting.
+- Comparison: The same firm can shape worker tasks and customer time. Related topic: A useful app can still make leaving difficult. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 
 ## Reading rule
 

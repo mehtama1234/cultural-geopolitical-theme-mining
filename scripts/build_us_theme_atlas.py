@@ -25,7 +25,7 @@ for path in paths:
     assert all(topic in nodes for topic in path["topics"])
     assert all(frozenset(pair) in edge_pairs for pair in zip(path["topics"], path["topics"][1:]))
 
-intro = "Eight short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
+intro = "Nine short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
 big = "Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior."
 md = ["# US life: the connections", "", intro, "", "## The bigger picture", "", big, ""]
 path_cards = []
@@ -134,7 +134,7 @@ html = f'''<!doctype html>
 {paths_html}
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
 <label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label></div>
-<p id="count" role="status" aria-live="polite">8 of 8 topics shown</p>
+<p id="count" role="status" aria-live="polite">{len(nodes)} of {len(nodes)} topics shown</p>
 <noscript><p>All topics, connections and sources are readable below. Search requires JavaScript.</p></noscript>
 <div id="topics">{"".join(parts)}</div>
 <footer><p>Connections marked “Question to test” are unproven. Several topics share sources, so their agreement is not independent confirmation.</p><a href="../analysis/us-theme-atlas.md">Read the same notes in Markdown</a></footer>

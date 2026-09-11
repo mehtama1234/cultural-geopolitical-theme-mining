@@ -17,6 +17,11 @@
       "id": "voice",
       "title": "Who can get an answer or change a decision",
       "meaning": "Look for actual choices and responses before claiming that trust or power changed."
+    },
+    {
+      "id": "work",
+      "title": "Who controls the work and gets the gain",
+      "meaning": "Separate time saved for workers from output gained by the firm, and ask who controls the next decision."
     }
   ],
   "nodes": [
@@ -203,6 +208,29 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md"
+    },
+    {
+      "id": "work",
+      "evidence_check": {
+        "title": "AI use is spreading widely but remains uneven at work",
+        "finding": "A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools.",
+        "meaning": "Working interpretation: the first divide may be inside the same job, between workers who have access, training or permission and those who do not. Study the work rules around the tool, not only the tool itself.",
+        "limit": "The paper measures reported use and task exposure, not whether AI raised pay, reduced jobs or changed worker power. It is an early national measure, so later surveys may revise the picture.",
+        "source": "https://www.nber.org/papers/w35677",
+        "location": "Bick, Blandin, Deming and Schumacher, What Work Does Generative AI Do?, NBER Working Paper 35677, August 2026 abstract. Checked 2026-09-11."
+      },
+      "project": "ai-work-control",
+      "title": "The same job can contain different AI access",
+      "summary": "Workers doing similar tasks may have different access to AI, training and permission to use it.",
+      "question": "Who gets the tool, and who controls its use?",
+      "limit": "Current evidence measures use, not yet the full effect on pay, job security or bargaining power.",
+      "subthemes": [
+        "Access and training",
+        "Task control"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/ai-work-control/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -223,6 +251,12 @@
       "topics": ["attention", "service", "politics"],
       "meaning": "Compare continued app use with repeated requests for help. Ask whether people stay because they benefit, cannot leave, or still need an answer; then separately test any change in trust.",
       "limit": "Time spent is not proof of satisfaction or harm. A link from unresolved service problems to political trust remains untested."
+    },
+    {
+      "title": "When the same job gives people different tools",
+      "topics": ["work", "service", "attention"],
+      "meaning": "Follow AI access from the worker's task to the customer's answer and then to the customer's ability to continue or leave. The firm may gain speed while workers and customers face different choices.",
+      "limit": "The current sources do not link worker AI access to customer exit behavior or show who gained control."
     }
   ],
   "edges": [
@@ -289,6 +323,22 @@
       "relation": "Repeated unresolved problems might weaken trust",
       "limit": "No direct evidence of that chain in the current packet.",
       "type": "open"
+    },
+    {
+      "id": "link-9",
+      "from": "work",
+      "to": "service",
+      "relation": "Worker access to AI may change both service speed and room to decide",
+      "limit": "The current studies do not join worker access, customer resolution and worker discretion in one setting.",
+      "type": "open"
+    },
+    {
+      "id": "link-10",
+      "from": "work",
+      "to": "attention",
+      "relation": "The same firm can shape worker tasks and customer time",
+      "limit": "No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.",
+      "type": "comparison"
     }
   ]
 }
