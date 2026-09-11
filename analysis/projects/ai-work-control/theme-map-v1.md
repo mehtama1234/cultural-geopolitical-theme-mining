@@ -58,6 +58,10 @@ Evidence from India, Indonesia, and Latin America shows that access depends on s
 
 ILO cases show worker representatives influencing AI and algorithmic-management decisions at several levels. Participation before deployment may be a stronger form of control than an appeal after harm. [Finding 008](findings/ai-work-control-008.md)
 
+### 9. Written oversight is not lived oversight
+
+The IBM Germany framework shows how a workplace can write risk classes, correction paths, inspection rights, and limits on personnel decisions into an agreement. The open question is whether workers can use those controls in time, without retaliation, and with effects on actual outcomes. [Finding 009](findings/ai-work-control-009.md)
+
 ### 5. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)

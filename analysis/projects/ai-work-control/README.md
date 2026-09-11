@@ -75,6 +75,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 006: Technology becomes a worker benefit through the social bargain](findings/ai-work-control-006.md)
 - [Finding 007: Flexibility is not the same as freedom](findings/ai-work-control-007.md)
 - [Finding 008: Worker voice is part of system design](findings/ai-work-control-008.md)
+- [Finding 009: A written control is not yet lived control](findings/ai-work-control-009.md)
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 - [SAG-AFTRA underlying source record](sag-aftra-digital-replica-source-record-v1.md)
 - [German works-council AI source record](german-ai-works-council-source-record-v1.md)
@@ -96,4 +97,5 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published HTML finding 006](../../../site/ai-work-control/finding-006.html)
 - [Published HTML finding 007](../../../site/ai-work-control/finding-007.html)
 - [Published HTML finding 008](../../../site/ai-work-control/finding-008.html)
+- [Published HTML finding 009](../../../site/ai-work-control/finding-009.html)
 - [Published ILO case table](../../../site/ai-work-control/ilo-social-dialogue-case-table.html)
