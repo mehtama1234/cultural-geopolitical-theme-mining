@@ -1,8 +1,8 @@
 # US source coverage
 
-55 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+56 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 92; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 94; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -699,6 +699,29 @@
 - trust, regulation and repeat purchase.
 
 [Open the source-search record](projects/us-hidden-fees-price-salience/source-search-2026-09-11.md)
+
+## US home insurance affordability
+
+**Project:** `us-home-insurance-affordability`
+
+**Status:** opening pass; price links are measured, household decisions remain open
+
+**Question:** When does keeping a home protected become a new barrier to keeping the home?
+
+**Sources recorded:** 2
+
+- [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579)
+- [Pricing Protection: Credit Scores, Disaster Risk, and Home Insurance Affordability](https://www.nber.org/papers/w34848)
+
+**Open gaps:**
+- premium, deductible and coverage changes for the same owner;
+- mortgage escrow and missed-payment records;
+- insurer withdrawal, nonrenewal and replacement coverage;
+- credit change before and after the premium change;
+- home sale, move, repair and adaptation decisions;
+- effects on renters and local housing supply.
+
+[Open the source-search record](projects/us-home-insurance-affordability/source-search-2026-09-11.md)
 
 ## US hometown business and the loss of local ownership
 

@@ -1335,6 +1335,28 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md"
+    },
+    {
+      "id": "home_insurance_affordability",
+      "evidence_check": {
+        "title": "Insurance risk can become a home and credit problem",
+        "finding": "NBER research using mortgage-linked insurance records finds that property premiums rose sharply from 2020 to 2023, with larger increases in places facing more disaster risk, and that higher premiums were reflected in slower home-price growth in exposed ZIP codes. A newer NBER study reports that credit scores affect homeowners-insurance premiums alongside disaster risk.",
+        "meaning": "Working interpretation: the cost of keeping a home may now depend on both the place's physical risk and the owner's financial record, tightening the link between insurance, credit and housing choice.",
+        "counterpoint": "A premium reflects expected loss and insurer pricing, not a complete measure of what a household can afford. Home prices, building changes, state rules and the ability to self-insure may alter the effect.",
+        "counterpoint_source": "https://www.nber.org/papers/w34848",
+        "limit": "The studies do not show whether a specific household dropped coverage, lost a mortgage, moved or reduced other spending because of the premium.",
+        "source": "https://www.nber.org/papers/w32579",
+        "location": "Keys and Mulder, Property Insurance and Disaster Risk, NBER Working Paper 32579; Weill, Pricing Protection, NBER Working Paper 34848. Checked 2026-09-11."
+      },
+      "project": "us-home-insurance-affordability",
+      "title": "Insurance risk can become a home and credit problem",
+      "summary": "Home insurance prices can connect disaster exposure and credit standing to the cost and value of staying in a home.",
+      "question": "When does keeping a home protected become a new barrier to keeping the home?",
+      "limit": "The opening evidence measures premiums and market values, not the same household's full payment and move decisions.",
+      "subthemes": ["Disaster risk and premiums", "Credit score and protection cost"],
+      "theme": "energy",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-home-insurance-affordability/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1733,6 +1755,13 @@
       "topics": ["rent_guarantee_insurance", "housing", "credit"],
       "meaning": "Follow rent protection into housing stability, then ask whether avoiding arrears also protects later credit and access to a home.",
       "limit": "The insurance evidence is modeled while the eviction and credit evidence is measured in other settings; the full path is not shown for the same tenant.",
+      "memo": null
+    },
+    {
+      "title": "When protection costs more than the home can carry",
+      "topics": ["home_insurance_affordability", "housing", "credit"],
+      "meaning": "Follow disaster and credit risk into the insurance bill, then ask whether protection changes home value, borrowing and the ability to stay.",
+      "limit": "The current studies measure premiums and market values in separate records; they do not follow one owner's full decision path.",
       "memo": null
     }
   ],
@@ -2367,6 +2396,14 @@
       "to": "housing",
       "relation": "Rent protection may preserve housing choice after a short income or health shock",
       "limit": "The current evidence is modeled and does not show actual claims, take-up or later housing stability.",
+      "type": "open"
+    },
+    {
+      "id": "link-80",
+      "from": "home_insurance_affordability",
+      "to": "housing",
+      "relation": "A rising insurance bill can change the cost and value of keeping a home",
+      "limit": "The current evidence does not show the same owner's payment, coverage, mortgage or move decision.",
       "type": "open"
     }
   ]

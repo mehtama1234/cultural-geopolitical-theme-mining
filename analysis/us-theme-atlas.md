@@ -612,6 +612,16 @@ Follow rent protection into housing stability, then ask whether avoiding arrears
 
 Still missing: The insurance evidence is modeled while the eviction and credit evidence is measured in other settings; the full path is not shown for the same tenant.
 
+### When protection costs more than the home can carry
+
+Follow disaster and credit risk into the insurance bill, then ask whether protection changes home value, borrowing and the ability to stay.
+
+1. [Insurance risk can become a home and credit problem](#home_insurance_affordability)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The current studies measure premiums and market values in separate records; they do not follow one owner's full decision path.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -887,6 +897,7 @@ Connections:
 - Question to test: A housing break can make reaching and keeping work harder. Related topic: The same job can contain different AI access. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 - Question to test: Emergency help for a housing crisis may protect the home whose loss would disrupt work. Related topic: Keeping a home may protect the next job. The current work study does not show the exact housing outcome or prove that housing continuity caused the later earnings result.
 - Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Rent insurance could move a short shock away from the tenant. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
+- Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Insurance risk can become a home and credit problem. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
 
 ### Credit can be a bridge and a later bill
 
@@ -2667,6 +2678,39 @@ The NBER project description names outcomes to study but does not establish a ge
 Connections:
 
 - Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A home can be costly to heat before anything else changes. The current sources do not show which households face a shutoff or what they do to avoid it.
+
+### Insurance risk can become a home and credit problem
+
+Home insurance prices can connect disaster exposure and credit standing to the cost and value of staying in a home.
+
+**Question:** When does keeping a home protected become a new barrier to keeping the home?
+
+**Subthemes:** Disaster risk and premiums; Credit score and protection cost
+
+**Limit:** The opening evidence measures premiums and market values, not the same household's full payment and move decisions.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579)
+- [Pricing Protection: Credit Scores, Disaster Risk, and Home Insurance Affordability](https://www.nber.org/papers/w34848)
+
+#### Evidence check: Insurance risk can become a home and credit problem
+
+NBER research using mortgage-linked insurance records finds that property premiums rose sharply from 2020 to 2023, with larger increases in places facing more disaster risk, and that higher premiums were reflected in slower home-price growth in exposed ZIP codes. A newer NBER study reports that credit scores affect homeowners-insurance premiums alongside disaster risk.
+
+Working interpretation: the cost of keeping a home may now depend on both the place's physical risk and the owner's financial record, tightening the link between insurance, credit and housing choice.
+
+**Counterpoint:** A premium reflects expected loss and insurer pricing, not a complete measure of what a household can afford. Home prices, building changes, state rules and the ability to self-insure may alter the effect.
+[Related study](https://www.nber.org/papers/w34848)
+
+The studies do not show whether a specific household dropped coverage, lost a mortgage, moved or reduced other spending because of the premium.
+
+[Keys and Mulder, Property Insurance and Disaster Risk, NBER Working Paper 32579; Weill, Pricing Protection, NBER Working Paper 34848. Checked 2026-09-11.](https://www.nber.org/papers/w32579)
+
+
+Connections:
+
+- Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
 
 ## Reading rule
 
