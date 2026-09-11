@@ -50,7 +50,7 @@
 - [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
 - [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
 
-[Open the source-search record](analysis/projects/ai-work-control/source-search-2026-09-11.md)
+[Open the source-search record](projects/ai-work-control/source-search-2026-09-11.md)
 
 ## US aging, care, and the hidden second job
 
@@ -77,7 +77,7 @@
 - differences across race, gender, disability, household type, and rural or urban place;
 - evidence that unpaid care does not materially change later work or savings.
 
-[Open the source-search record](analysis/projects/us-aging-care-strain/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
 
 ## US cost of living, trust, and political response
 
@@ -105,7 +105,7 @@
 - evidence showing that household costs do not change trust or political demand;
 - whether people respond to actual costs or to expected future costs.
 
-[Open the source-search record](analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-11.md)
 
 ## US customer service, automation, and the right to reach a person
 
@@ -133,7 +133,7 @@
 - data use, error rates, and false claims;
 - evidence that automated service improves remedies rather than only speed.
 
-[Open the source-search record](analysis/projects/us-customer-automation-recourse/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-customer-automation-recourse/source-search-2026-09-11.md)
 
 ## US digital habits, attention, and the need to leave
 
@@ -160,7 +160,7 @@
 - evidence that longer use reflects genuine benefit rather than pressure;
 - independent data beyond company and survey reports.
 
-[Open the source-search record](analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-11.md)
 
 ## US health costs and the choices people give up
 
@@ -186,7 +186,7 @@
 - how families trade medical bills against rent, food, child care, and work;
 - evidence that challenges the idea that medical costs are driving the later outcome.
 
-[Open the source-search record](analysis/projects/us-health-cost-household-choice/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-health-cost-household-choice/source-search-2026-09-11.md)
 
 ## US household financial pressure and the price of access
 
@@ -221,7 +221,7 @@
 - evidence that challenges the risk-transfer interpretation;
 - a time series that separates inflation, interest rates, income loss, and product design.
 
-[Open the source-search record](analysis/projects/us-household-financial-pressure/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-household-financial-pressure/source-search-2026-09-11.md)
 
 ## US housing, insurance, and the cost of staying put
 
@@ -250,7 +250,7 @@
 - the strongest evidence against the insurance-risk explanation;
 - whether the pattern is temporary repricing or a lasting change in where people can live.
 
-[Open the source-search record](analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
 
 ## US local business and the changing hometown
 
@@ -278,4 +278,4 @@
 - local tax base, public spending, and political participation;
 - evidence that business turnover does not change local trust or belonging.
 
-[Open the source-search record](analysis/projects/us-local-business-place/source-search-2026-09-11.md)
+[Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)

@@ -80,7 +80,8 @@ for record in records:
     md += [f"- [{s['label']}]({s['url']})" for s in record["sources"]]
     if record["gaps"]:
         md += ["", "**Open gaps:**"] + [f"- {gap}" for gap in record["gaps"]]
-    md += ["", f"[Open the source-search record]({record['path']})", ""]
+    md_path = str(Path(record["path"]).relative_to("analysis"))
+    md += ["", f"[Open the source-search record]({md_path})", ""]
 (ROOT / "analysis/us-source-coverage.md").write_text("\n".join(md))
 
 cards = []
