@@ -2,7 +2,7 @@
 
 ## Connected reading guide: current handoff
 
-Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighty-one topics now sit under five shared themes, with one hundred and thirty explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighty-one topics now sit under five shared themes, with one hundred and twenty-eight explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
 
 Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
 
