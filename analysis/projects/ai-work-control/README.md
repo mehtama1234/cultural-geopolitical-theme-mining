@@ -78,6 +78,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 - [SAG-AFTRA underlying source record](sag-aftra-digital-replica-source-record-v1.md)
 - [German works-council AI source record](german-ai-works-council-source-record-v1.md)
+- [Kenya content-moderation court record](kenya-content-moderation-court-record-v1.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
