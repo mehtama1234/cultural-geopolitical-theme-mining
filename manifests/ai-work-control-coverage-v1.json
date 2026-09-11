@@ -15,13 +15,13 @@
     "worker_inclusion_studies": 2
   },
   "published_records": {
-    "findings": 7,
+    "findings": 8,
     "company_bridges": 3,
     "theme_maps": 1,
-    "claims_in_ledger": 32
+    "claims_in_ledger": 35
   },
   "geographies": {
-    "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa", "China", "Indonesia", "Latin America and the Caribbean"],
+    "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa", "China", "Indonesia", "Latin America and the Caribbean", "North America", "Asia", "Africa"],
     "missing_priority": ["Middle East", "Southeast Asia beyond India and Indonesia", "wider Africa"]
   },
   "outcomes": {
@@ -29,7 +29,7 @@
     "missing_priority": ["promotion", "discipline", "appeals", "worker-level pay paths", "household effects", "union bargaining", "health outcomes", "data correction", "long-run firm margins"]
   },
   "worker_groups": {
-    "covered": ["novice and lower-skilled workers", "knowledge workers", "workers in exposed occupations", "EU working-age population", "deaf and hard-of-hearing workers", "women platform drivers"],
+    "covered": ["novice and lower-skilled workers", "knowledge workers", "workers in exposed occupations", "EU working-age population", "deaf and hard-of-hearing workers", "women platform drivers", "worker representatives"],
     "missing_priority": ["older workers", "migrants", "gender groups beyond women platform drivers", "contractors outside platforms", "unionized workers", "public-sector workers", "small-firm workers", "informal workers"]
   },
   "contradictions_to_preserve": [

@@ -15,7 +15,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Dimension | Present | Still missing |
 |---|---|---|
 | Source families | HBS, NBER, OECD, European Commission/JRC, ILO, Microsoft, Capgemini, Whoz | More worker-led, union, legal, and non-Western sources |
-| Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Latin America and the Caribbean | Middle East, Southeast Asia beyond India and Indonesia, wider Africa |
+| Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond India and Indonesia, wider Africa outside case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
 | Institutions | firm rules, employer governance, EU platform-work rules, HR and delivery systems | actual enforcement, bargaining, appeals, public-sector rules, courts |
@@ -24,7 +24,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 ## Evidence count
 
 - 29 claims in the ledger;
-- 7 provisional findings;
+- 8 provisional findings;
 - 3 company bridges;
 - 1 theme map;
 - 10 named geographic settings;
@@ -40,6 +40,7 @@ The exact machine-readable counts and source-family breakdown are in the JSON ma
 4. Company-reported scale and training do not prove worker benefit.
 5. Technology can improve inclusion or earnings in one setting while producing control risks in another.
 6. Flexible access can coexist with gendered safety, care, and asset constraints.
+7. Worker participation before deployment may be stronger than appeal after harm.
 
 These are not errors to smooth away. They may reflect different tools, populations, outcomes, time windows, or institutions. The next research pass must compare those differences directly.
 
@@ -68,6 +69,7 @@ These are not errors to smooth away. They may reflect different tools, populatio
 5. Verify at least one company claim with an independent outcome source.
 6. Compare technology that removes a worker barrier with technology that evaluates or disciplines.
 7. Test whether infrastructure and outside options change the returns to AI exposure.
+8. Extract the ILO social-dialogue cases and compare participation with actual system changes.
 
 ## Exhaustion rule
 
