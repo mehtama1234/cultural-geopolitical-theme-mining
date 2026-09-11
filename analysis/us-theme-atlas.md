@@ -431,6 +431,16 @@ Follow an earnings change into the public help that falls away, then ask whether
 
 Still missing: The current sources do not follow the same family through total resources, care costs and work after the change.
 
+### When the due date is part of the energy burden
+
+Follow the gap between income and the utility due date into arrears or shutoff, then ask what payment, credit or health cost follows.
+
+1. [A bill due date can become part of the energy burden](#utility_shutoff_timing)
+2. [A home can be costly to heat before anything else changes](#energy)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not establish the full later chain for every household.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1881,6 +1891,42 @@ Connections:
 - Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
 - Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
 - Comparison: The energy bill is incomplete without the cost of getting to the place. Related topic: Getting to a place is a major household cost. DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.
+- Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A bill due date can become part of the energy burden. The current sources do not show which households face a shutoff or what they do to avoid it.
+
+### A bill due date can become part of the energy burden
+
+The timing of income and utility bills may shape whether a household stays current and keeps service.
+
+**Question:** Can a timing mismatch become a service, credit or health problem?
+
+**Subthemes:** Income and bill timing; Service termination and recovery
+
+**Limit:** The opening packet identifies a testable mechanism but does not yet prove the full chain for all households.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Impact of Benefit Receipt on Financial Security Among Low-Income and Aged Households](https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new)
+- [How Bill Timing Affects Low-Income and Aged Households](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+- [Low-Income Energy Affordability Data Tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [Who Guarantees Your Workplace Is Safe for Return?](https://www.library.hbs.edu/working-knowledge/who-guarantees-your-workplace-is-safe-for-return)
+
+#### Evidence check: A bill due date can become part of the energy burden
+
+An NBER research project uses private and linked administrative data to test whether the timing of utility bills against income changes late payment, service termination, credit scores and emergency-service outcomes. DOE's energy-burden measure shows why the same bill can leave different households with different room.
+
+Working interpretation: a household may be unable to pay not only because the bill is large, but because the money and due date do not line up.
+
+**Counterpoint:** Households may move a due date, use aid or pay before a shutoff. A late bill is not automatically a shutoff or a health event.
+[Related study](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+
+The NBER project description names outcomes to study but does not establish a general estimate for every later health, credit or work effect.
+
+[NBER bill-timing research project and digest, with DOE energy-burden context. Checked 2026-09-11.](https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new)
+
+
+Connections:
+
+- Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A home can be costly to heat before anything else changes. The current sources do not show which households face a shutoff or what they do to avoid it.
 
 ## Reading rule
 

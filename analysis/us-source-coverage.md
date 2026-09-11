@@ -1,8 +1,8 @@
 # US source coverage
 
-38 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+39 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 30; HHS: 2; IEA: 1; IMF: 1; NBER: 57; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 31; HHS: 2; IEA: 1; IMF: 1; NBER: 59; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -931,6 +931,31 @@
 - whether transport cost changes work, housing or local business choice.
 
 [Open the source-search record](projects/us-transportation-household-access/source-search-2026-09-11.md)
+
+## US utility shutoff and bill timing
+
+**Project:** `us-utility-shutoff-bill-timing`
+
+**Status:** opening pass; bill timing is a concrete mechanism, wider health effects remain open
+
+**Question:** Can the date a bill is due change whether a household keeps basic utility service?
+
+**Sources recorded:** 4
+
+- [The Impact of Benefit Receipt on Financial Security Among Low-Income and Aged Households](https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new)
+- [How Bill Timing Affects Low-Income and Aged Households](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+- [Low-Income Energy Affordability Data Tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [Who Guarantees Your Workplace Is Safe for Return?](https://www.library.hbs.edu/working-knowledge/who-guarantees-your-workplace-is-safe-for-return)
+
+**Open gaps:**
+- exact income and bill dates;
+- arrears, shutoff and reconnection charges;
+- weather and medical equipment needs;
+- credit, emergency care and work outcomes after a shutoff;
+- utility rules and aid programs by state;
+- households that avoid shutoff by borrowing or family help.
+
+[Open the source-search record](projects/us-utility-shutoff-bill-timing/source-search-2026-09-11.md)
 
 ## US vehicle repair as a household shock
 

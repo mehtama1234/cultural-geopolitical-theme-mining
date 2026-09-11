@@ -119,6 +119,8 @@ The next short pass is [US owner households and the business tradeoff](analysis/
 
 The next short pass is [US benefit loss and the work choice](analysis/projects/us-benefit-cliff-work-choice/README.md), with its [source search record](analysis/projects/us-benefit-cliff-work-choice/source-search-2026-09-11.md). It tests what remains after a raise and the public help it may replace are counted together.
 
+The next short pass is [US utility shutoff and bill timing](analysis/projects/us-utility-shutoff-bill-timing/README.md), with its [source search record](analysis/projects/us-utility-shutoff-bill-timing/source-search-2026-09-11.md). It tests whether the gap between income and the due date becomes a service, credit or health problem.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

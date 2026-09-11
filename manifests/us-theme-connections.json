@@ -922,6 +922,31 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-benefit-cliff-work-choice/source-search-2026-09-11.md"
+    },
+    {
+      "id": "utility_shutoff_timing",
+      "evidence_check": {
+        "title": "A bill due date can become part of the energy burden",
+        "finding": "An NBER research project uses private and linked administrative data to test whether the timing of utility bills against income changes late payment, service termination, credit scores and emergency-service outcomes. DOE's energy-burden measure shows why the same bill can leave different households with different room.",
+        "meaning": "Working interpretation: a household may be unable to pay not only because the bill is large, but because the money and due date do not line up.",
+        "counterpoint": "Households may move a due date, use aid or pay before a shutoff. A late bill is not automatically a shutoff or a health event.",
+        "counterpoint_source": "https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households",
+        "limit": "The NBER project description names outcomes to study but does not establish a general estimate for every later health, credit or work effect.",
+        "source": "https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new",
+        "location": "NBER bill-timing research project and digest, with DOE energy-burden context. Checked 2026-09-11."
+      },
+      "project": "us-utility-shutoff-bill-timing",
+      "title": "A bill due date can become part of the energy burden",
+      "summary": "The timing of income and utility bills may shape whether a household stays current and keeps service.",
+      "question": "Can a timing mismatch become a service, credit or health problem?",
+      "limit": "The opening packet identifies a testable mechanism but does not yet prove the full chain for all households.",
+      "subthemes": [
+        "Income and bill timing",
+        "Service termination and recovery"
+      ],
+      "theme": "energy",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-utility-shutoff-bill-timing/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1194,6 +1219,13 @@
       "topics": ["benefit_cliff_work_choice", "aid", "work"],
       "meaning": "Follow an earnings change into the public help that falls away, then ask whether the household has more room and more stable work afterward.",
       "limit": "The current sources do not follow the same family through total resources, care costs and work after the change.",
+      "memo": null
+    },
+    {
+      "title": "When the due date is part of the energy burden",
+      "topics": ["utility_shutoff_timing", "energy", "money"],
+      "meaning": "Follow the gap between income and the utility due date into arrears or shutoff, then ask what payment, credit or health cost follows.",
+      "limit": "The current sources do not establish the full later chain for every household.",
       "memo": null
     }
   ],
@@ -1660,6 +1692,14 @@
       "to": "aid",
       "relation": "The value of a public benefit depends on what happens when earnings or work hours change",
       "limit": "The current evidence does not show the same family's total resources after benefit loss and added pay.",
+      "type": "open"
+    },
+    {
+      "id": "link-59",
+      "from": "utility_shutoff_timing",
+      "to": "energy",
+      "relation": "The energy burden includes when the bill is due and when household money arrives",
+      "limit": "The current sources do not show which households face a shutoff or what they do to avoid it.",
       "type": "open"
     }
   ]
