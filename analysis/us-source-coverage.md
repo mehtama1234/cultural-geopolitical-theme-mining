@@ -1,8 +1,8 @@
 # US source coverage
 
-67 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+68 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 114; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 115; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -125,6 +125,28 @@
 - what happens to small banks if switching rises sharply.
 
 [Open the source-search record](projects/us-bank-depositor-inertia/source-search-2026-09-11.md)
+
+## US bank fees and household room
+
+**Project:** `us-bank-fees-household-wellbeing`
+
+**Status:** opening pass; transaction-level fee changes are measured, full household recovery remains open
+
+**Question:** When a bank removes one fee, who gets more room and who is still pushed toward costly alternatives?
+
+**Sources recorded:** 1
+
+- [Bank Fees and Household Financial Well-Being](https://www.nber.org/papers/w34993)
+
+**Open gaps:**
+- the bill or event that caused the account shortage;
+- total fees and interest across all accounts;
+- housing, food, health and work outcomes;
+- use of family help or informal credit;
+- customer complaints, switching and trust;
+- effects of stronger account rules on payment access.
+
+[Open the source-search record](projects/us-bank-fees-household-wellbeing/source-search-2026-09-11.md)
 
 ## US benefit loss and the work choice
 

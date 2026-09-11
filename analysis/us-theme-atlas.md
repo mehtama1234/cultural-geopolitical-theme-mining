@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a bank fee becomes a wider credit problem
+
+Follow a low-cash account through a bank fee rule and into later borrowing or payment cost. The key question is whether relief stays with the household or moves to another product.
+
+1. [A fee rule can help people with cash more than people without it](#bank_fees_household)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current bank study and credit packet use different records and do not follow one household from the first shortage through every later cost.
+
 ### When the tap becomes part of the health and housing story
 
 Follow water quality from public investment into the condition of a home and then into health. Ask whether a place can look affordable while a basic service shifts risk and cost onto families.
@@ -968,6 +978,7 @@ Connections:
 - Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
 - Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: People may hear the same economic message differently by party. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
 - Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: Future public debt can change what households expect before taxes change. The current evidence does not show the same household's budget response or realized future policy.
+- Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: A fee rule can help people with cash more than people without it. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
 
 ### Keeping a home also means paying to protect it
 
@@ -1064,6 +1075,7 @@ Connections:
 - Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: A temporary payment can become a long monthly bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
 - Question to test: A payment or account record can change what credit is available later. Related topic: A payment record can become a gate to a home. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
 - Question to test: Emergency credit can reduce severe distress while adding a new repayment record. Related topic: Well-timed credit can keep a disaster from becoming bankruptcy. The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.
+- Question to test: A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question. Related topic: A fee rule can help people with cash more than people without it. The current studies do not follow the same shortage across bank and nonbank credit products.
 
 ### A student loan can follow a person into adult choices
 
@@ -1598,6 +1610,39 @@ Connections:
 
 - Question to test: Emergency credit can reduce severe distress while adding a new repayment record. Related topic: Credit can be a bridge and a later bill. The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.
 - Comparison: A disaster can create both a payment-access problem and a need for liquidity. Related topic: A power outage can turn payment choice into a basic access problem. The current studies examine different disaster channels and do not follow one household from payment failure to loan receipt and recovery.
+
+### A fee rule can help people with cash more than people without it
+
+Bank fee changes can remove a charge while leaving the households with the least cash exposed to later costs.
+
+**Question:** When does a bank rule create real room rather than move the shortage somewhere else?
+
+**Subthemes:** Bank rules and unequal relief; Fees and alternative credit
+
+**Limit:** The opening study measures account fees and later financial products, not the full household result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Bank Fees and Household Financial Well-Being](https://www.nber.org/papers/w34993)
+
+#### Evidence check: A fee rule can help people with cash more than people without it
+
+An NBER study of large US banks finds that removing non-sufficient-funds fees cut those charges across income groups. Relaxing overdraft rules reduced overdraft fees mainly for wealthier and more liquid households; only those households later had lower late fees, interest payments, account fees and payday-loan use. The changes did not substantially reduce financial stress among the most vulnerable households.
+
+Working interpretation: equal-looking bank relief can have unequal value because the starting cash position decides whether a person can avoid the next cost.
+
+**Counterpoint:** Removing a fee is still a direct gain, and overdraft access may stop a payment from failing. The study does not say that every lower-income customer was worse off or that every alternative product was used after an overdraft.
+[Related study](https://www.nber.org/papers/w34993)
+
+The opening evidence does not follow the same household from the bill that caused the shortage through payment success, later cost, housing, health or trust.
+
+[Pagel, Sridhar and Williams, Bank Fees and Household Financial Well-Being, NBER Working Paper 34993, checked 2026-09-11.](https://www.nber.org/papers/w34993)
+
+
+Connections:
+
+- Question to test: A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question. Related topic: Credit can be a bridge and a later bill. The current studies do not follow the same shortage across bank and nonbank credit products.
+- Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: The price on the screen is only part of the cost. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
 
 ## Who gives up time
 

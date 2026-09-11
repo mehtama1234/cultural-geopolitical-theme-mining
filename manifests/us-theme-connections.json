@@ -1599,9 +1599,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-safe-drinking-water/source-search-2026-09-11.md"
+    },
+    {
+      "id": "bank_fees_household",
+      "evidence_check": {
+        "title": "A fee rule can help people with cash more than people without it",
+        "finding": "An NBER study of large US banks finds that removing non-sufficient-funds fees cut those charges across income groups. Relaxing overdraft rules reduced overdraft fees mainly for wealthier and more liquid households; only those households later had lower late fees, interest payments, account fees and payday-loan use. The changes did not substantially reduce financial stress among the most vulnerable households.",
+        "meaning": "Working interpretation: equal-looking bank relief can have unequal value because the starting cash position decides whether a person can avoid the next cost.",
+        "counterpoint": "Removing a fee is still a direct gain, and overdraft access may stop a payment from failing. The study does not say that every lower-income customer was worse off or that every alternative product was used after an overdraft.",
+        "counterpoint_source": "https://www.nber.org/papers/w34993",
+        "limit": "The opening evidence does not follow the same household from the bill that caused the shortage through payment success, later cost, housing, health or trust.",
+        "source": "https://www.nber.org/papers/w34993",
+        "location": "Pagel, Sridhar and Williams, Bank Fees and Household Financial Well-Being, NBER Working Paper 34993, checked 2026-09-11."
+      },
+      "project": "us-bank-fees-household-wellbeing",
+      "title": "A fee rule can help people with cash more than people without it",
+      "summary": "Bank fee changes can remove a charge while leaving the households with the least cash exposed to later costs.",
+      "question": "When does a bank rule create real room rather than move the shortage somewhere else?",
+      "limit": "The opening study measures account fees and later financial products, not the full household result.",
+      "subthemes": ["Bank rules and unequal relief", "Fees and alternative credit"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-bank-fees-household-wellbeing/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a bank fee becomes a wider credit problem",
+      "topics": ["bank_fees_household", "credit", "money"],
+      "meaning": "Follow a low-cash account through a bank fee rule and into later borrowing or payment cost. The key question is whether relief stays with the household or moves to another product.",
+      "limit": "The current bank study and credit packet use different records and do not follow one household from the first shortage through every later cost.",
+      "memo": null
+    },
     {
       "title": "When the tap becomes part of the health and housing story",
       "topics": ["safe_drinking_water", "housing", "health"],
@@ -2875,6 +2904,22 @@
       "to": "health",
       "relation": "Lower water pollution can reduce a health risk through a public system rather than through a household purchase",
       "limit": "The mortality result concerns older Americans and does not identify each person's exposure, care path or later health spending.",
+      "type": "open"
+    },
+    {
+      "id": "link-100",
+      "from": "bank_fees_household",
+      "to": "credit",
+      "relation": "A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question",
+      "limit": "The current studies do not follow the same shortage across bank and nonbank credit products.",
+      "type": "open"
+    },
+    {
+      "id": "link-101",
+      "from": "bank_fees_household",
+      "to": "money",
+      "relation": "A fee removed at the account can change how much money remains available for the household's next need",
+      "limit": "The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.",
       "type": "open"
     }
   ]

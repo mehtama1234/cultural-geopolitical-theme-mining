@@ -177,6 +177,8 @@ The next short pass is [US fiscal news and household choice](analysis/projects/u
 
 The next short pass is [US safe drinking water](analysis/projects/us-safe-drinking-water/README.md), with its [source search record](analysis/projects/us-safe-drinking-water/source-search-2026-09-11.md). It tests whether public water quality sits underneath household health, private cost, home value and trust in a place.
 
+The next short pass is [US bank fees and household room](analysis/projects/us-bank-fees-household-wellbeing/README.md), with its [source search record](analysis/projects/us-bank-fees-household-wellbeing/source-search-2026-09-11.md). It tests whether a bank rule creates real room for low-cash households or moves the shortage into another fee or credit product.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
