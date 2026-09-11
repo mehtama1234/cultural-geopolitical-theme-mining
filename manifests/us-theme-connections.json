@@ -1731,9 +1731,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-inflation-real-wages-elections/source-search-2026-09-11.md"
+    },
+    {
+      "id": "employer_political_influence",
+      "evidence_check": {
+        "title": "A dominant employer may carry local job power into politics",
+        "finding": "An NBER study finds that workers at major local employers are more likely to report employer political communication and to say their employer influences their voting behavior and career expectations. Its model describes passive and active paths through which a dominant employer shapes expectations about wages and jobs after an election.",
+        "meaning": "Working interpretation: a job can shape political judgment through dependence and future expectations, not only through the paycheck received today.",
+        "counterpoint": "Workers may hear an employer's view without accepting it, and a large employer can provide stable jobs or useful local information. Reported influence is not proof of a changed vote.",
+        "counterpoint_source": "https://www.nber.org/papers/w35676",
+        "limit": "The opening evidence does not show the same worker's message, job dependence, belief change and vote in one record.",
+        "source": "https://www.nber.org/papers/w35676",
+        "location": "Avenancio-León, Barbalau, Hou and Piccolo, Firms as Electoral Monopsonies, NBER Working Paper 35676, checked 2026-09-11."
+      },
+      "project": "us-employer-political-influence",
+      "title": "A dominant employer may carry local job power into politics",
+      "summary": "A major local employer may shape political expectations through the worker's dependence on the job and the firm's message about the future.",
+      "question": "When does workplace power become political power?",
+      "limit": "The opening study measures reported influence and a model, not the same worker's later vote.",
+      "subthemes": ["Local job dependence", "Employer voice and voting"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-employer-political-influence/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When the biggest local employer reaches the ballot",
+      "topics": ["employer_political_influence", "work", "politics"],
+      "meaning": "Follow local job dependence into work expectations and then into political judgment. Ask whether the employer's power changes what workers think is safe to support.",
+      "limit": "The current sources do not follow the same worker from employer power through a message, belief change and vote.",
+      "memo": null
+    },
     {
       "title": "When lost buying power reaches the ballot",
       "topics": ["inflation_real_wages_elections", "price_perception", "politics"],
@@ -3153,6 +3182,30 @@
       "to": "politics",
       "relation": "A local loss of buying power may become a judgment about the party in power",
       "limit": "The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.",
+      "type": "open"
+    },
+    {
+      "id": "link-113",
+      "from": "employer_political_influence",
+      "to": "work",
+      "relation": "A dominant local employer can make the job itself part of a worker's political calculation",
+      "limit": "The current study does not show whether the employer changed pay, schedules, job options or the worker's actual decision.",
+      "type": "open"
+    },
+    {
+      "id": "link-114",
+      "from": "employer_political_influence",
+      "to": "politics",
+      "relation": "Employer communication and local job power may shape political beliefs and voting expectations",
+      "limit": "The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.",
+      "type": "open"
+    },
+    {
+      "id": "link-115",
+      "from": "work",
+      "to": "politics",
+      "relation": "A worker's job conditions and dependence may shape how an economic policy is judged",
+      "limit": "The current atlas does not follow the same worker from job condition through political belief and vote.",
       "type": "open"
     }
   ]

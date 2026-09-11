@@ -2,11 +2,11 @@
 
 ## Connected reading guide: current handoff
 
-Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Seventy-three topics now sit under five shared themes, with one hundred and twelve explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Seventy-four topics now sit under five shared themes, with one hundred and fourteen explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
 
 Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
 
-Sixty-five reading paths now link household costs, care, work, housing, credit, insurance, customer service, public help and political response. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
+Sixty-six reading paths now link household costs, care, work, housing, credit, insurance, customer service, public help and political response. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
 
 Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve search, theme filters, direct topic links, expandable sources and connections, readable phone layouts, and visible uncertainty. The [browser check](us-theme-atlas-browser-check.md) records the interactions already tested. Extend those checks when changing navigation or layout.
 

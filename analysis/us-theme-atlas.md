@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When the biggest local employer reaches the ballot
+
+Follow local job dependence into work expectations and then into political judgment. Ask whether the employer's power changes what workers think is safe to support.
+
+1. [A dominant employer may carry local job power into politics](#employer_political_influence)
+2. [The same job can contain different AI access](#work)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not follow the same worker from employer power through a message, belief change and vote.
+
 ### When lost buying power reaches the ballot
 
 Follow local pay and prices into the family's sense of room, then ask how that loss becomes blame, a vote or a demand for action.
@@ -2168,6 +2178,8 @@ Connections:
 - Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Future public debt can change what households expect before taxes change. The current study measures expectations, not blame, voting or demand for a particular policy.
 - Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current study does not measure political beliefs, voting or policy demand after the wealth change.
 - Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Falling buying power may matter more than the inflation rate alone. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
+- Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: A dominant employer may carry local job power into politics. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
+- Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: The same job can contain different AI access. The current atlas does not follow the same worker from job condition through political belief and vote.
 
 ### Help can exist but be hard to keep
 
@@ -2996,6 +3008,8 @@ Connections:
 - Question to test: A housing break can make reaching and keeping work harder. Related topic: Keeping a home also means paying to protect it. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 - Question to test: Where work happens can change the household tasks and shopping costs attached to the job. Related topic: Working from home can change what a household buys and pays. The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.
 - Question to test: A workplace saving rule changes the financial meaning of a job even when the wage does not change. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show whether workers value the added saving enough to change job choice, retention or effort.
+- Question to test: A dominant local employer can make the job itself part of a worker's political calculation. Related topic: A dominant employer may carry local job power into politics. The current study does not show whether the employer changed pay, schedules, job options or the worker's actual decision.
+- Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: Personal finances and national mood can move apart. The current atlas does not follow the same worker from job condition through political belief and vote.
 
 ### Fit can decide who gets heard at work
 
@@ -3338,6 +3352,39 @@ Connections:
 
 - Question to test: A workplace saving rule changes the financial meaning of a job even when the wage does not change. Related topic: The same job can contain different AI access. The current study does not show whether workers value the added saving enough to change job choice, retention or effort.
 - Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: The price on the screen is only part of the cost. The current study does not show the same household's take-home pay, spending, debt cost or later security.
+
+### A dominant employer may carry local job power into politics
+
+A major local employer may shape political expectations through the worker's dependence on the job and the firm's message about the future.
+
+**Question:** When does workplace power become political power?
+
+**Subthemes:** Local job dependence; Employer voice and voting
+
+**Limit:** The opening study measures reported influence and a model, not the same worker's later vote.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Firms as Electoral Monopsonies](https://www.nber.org/papers/w35676)
+
+#### Evidence check: A dominant employer may carry local job power into politics
+
+An NBER study finds that workers at major local employers are more likely to report employer political communication and to say their employer influences their voting behavior and career expectations. Its model describes passive and active paths through which a dominant employer shapes expectations about wages and jobs after an election.
+
+Working interpretation: a job can shape political judgment through dependence and future expectations, not only through the paycheck received today.
+
+**Counterpoint:** Workers may hear an employer's view without accepting it, and a large employer can provide stable jobs or useful local information. Reported influence is not proof of a changed vote.
+[Related study](https://www.nber.org/papers/w35676)
+
+The opening evidence does not show the same worker's message, job dependence, belief change and vote in one record.
+
+[Avenancio-León, Barbalau, Hou and Piccolo, Firms as Electoral Monopsonies, NBER Working Paper 35676, checked 2026-09-11.](https://www.nber.org/papers/w35676)
+
+
+Connections:
+
+- Question to test: A dominant local employer can make the job itself part of a worker's political calculation. Related topic: The same job can contain different AI access. The current study does not show whether the employer changed pay, schedules, job options or the worker's actual decision.
+- Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: Personal finances and national mood can move apart. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
 
 ## A home can be costly to heat before anything else changes
 

@@ -1,8 +1,8 @@
 # US source coverage
 
-73 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+74 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 120; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 121; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -544,6 +544,28 @@
 - whether concrete communication works without an ownership claim.
 
 [Open the source-search record](projects/us-employee-ownership-meaning/source-search-2026-09-11.md)
+
+## US employer political influence
+
+**Project:** `us-employer-political-influence`
+
+**Status:** opening pass; employer power and reported political influence are measured, the actual vote path remains open
+
+**Question:** When one employer dominates a local job market, can its economic power also shape workers' political choices?
+
+**Sources recorded:** 1
+
+- [Firms as Electoral Monopsonies](https://www.nber.org/papers/w35676)
+
+**Open gaps:**
+- employer message content and timing;
+- worker dependence and outside job options;
+- pay, schedule and benefit changes;
+- private belief before and after the message;
+- turnout and vote choice;
+- differences by occupation, income, race and place.
+
+[Open the source-search record](projects/us-employer-political-influence/source-search-2026-09-11.md)
 
 ## US household energy burden
 
