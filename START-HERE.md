@@ -155,6 +155,8 @@ The next short pass is [US rent-guarantee insurance](analysis/projects/us-rent-g
 
 The next short pass is [US home insurance affordability](analysis/projects/us-home-insurance-affordability/README.md), with its [source search record](analysis/projects/us-home-insurance-affordability/source-search-2026-09-11.md). It tests when disaster risk and credit standing make the cost of keeping a home harder to carry.
 
+The next short pass is [US remote work and shopping cost](analysis/projects/us-remote-work-shopping-cost/README.md), with its [source search record](analysis/projects/us-remote-work-shopping-cost/source-search-2026-09-11.md). It tests how moving work home changes shopping mode, prices, time and unpaid household work.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

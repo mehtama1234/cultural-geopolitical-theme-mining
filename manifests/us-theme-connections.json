@@ -1357,6 +1357,28 @@
       "theme": "energy",
       "status": "Early reading",
       "source_record": "analysis/projects/us-home-insurance-affordability/source-search-2026-09-11.md"
+    },
+    {
+      "id": "remote_work_shopping_cost",
+      "evidence_check": {
+        "title": "Working from home can change what a household buys and pays",
+        "finding": "NBER's 2026 study finds that working from home increased online shopping, weekday store trips, total spending, product quantity and range, and spending on food and general merchandise. It also finds higher prices paid, less use of deals and lower price sensitivity, with price changes concentrated among married households as shopping responsibility shifted, especially when the remote worker was male.",
+        "meaning": "Working interpretation: remote work changes the household's shopping system, not only the location of the job. The time saved from commuting may be exchanged for more quantity, more convenience or less deal hunting.",
+        "counterpoint": "More shopping and higher spending can reflect better access, more choice or useful convenience. The study does not show that higher prices made households worse off, or that the shopping shift was unwanted.",
+        "counterpoint_source": "https://www.nber.org/papers/w34883",
+        "limit": "The current evidence does not show the same household's time value, income, product need, final welfare or longer-run division of unpaid work.",
+        "source": "https://www.nber.org/papers/w34883",
+        "location": "Baker, Bloom, Johnson and Obradović, Shopping From Home, NBER Working Paper 34883, checked 2026-09-11."
+      },
+      "project": "us-remote-work-shopping-cost",
+      "title": "Working from home can change what a household buys and pays",
+      "summary": "Remote work can alter shopping time, product choice, prices paid and who carries the household shopping job.",
+      "question": "When work moves home, who gains time and who takes on the shopping system?",
+      "limit": "The opening evidence shows shopping changes but not whether the household is better off after time, price and unpaid work are counted together.",
+      "subthemes": ["Shopping mode and price", "Household roles and time"],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-remote-work-shopping-cost/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1763,6 +1785,13 @@
       "meaning": "Follow disaster and credit risk into the insurance bill, then ask whether protection changes home value, borrowing and the ability to stay.",
       "limit": "The current studies measure premiums and market values in separate records; they do not follow one owner's full decision path.",
       "memo": "../site/us-home-insurance-affordability-path-001.html"
+    },
+    {
+      "title": "When remote work changes the shopping bill",
+      "topics": ["remote_work_shopping_cost", "work", "money"],
+      "meaning": "Follow remote work into shopping mode and household spending, then ask whether time saved becomes lower prices, more goods or more unpaid work.",
+      "limit": "The shopping study does not show the same household's full time value, spending need, deal choices and unpaid-work division.",
+      "memo": null
     }
   ],
   "edges": [
@@ -2404,6 +2433,22 @@
       "to": "housing",
       "relation": "A rising insurance bill can change the cost and value of keeping a home",
       "limit": "The current evidence does not show the same owner's payment, coverage, mortgage or move decision.",
+      "type": "open"
+    },
+    {
+      "id": "link-81",
+      "from": "remote_work_shopping_cost",
+      "to": "work",
+      "relation": "Where work happens can change the household tasks and shopping costs attached to the job",
+      "limit": "The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.",
+      "type": "open"
+    },
+    {
+      "id": "link-82",
+      "from": "remote_work_shopping_cost",
+      "to": "money",
+      "relation": "A change in shopping mode can alter total spending, prices paid and the use of deals",
+      "limit": "The study does not show the household's income, budget tradeoff or final welfare from the changed spending.",
       "type": "open"
     }
   ]

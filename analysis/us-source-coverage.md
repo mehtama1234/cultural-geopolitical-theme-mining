@@ -1,8 +1,8 @@
 # US source coverage
 
-56 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+57 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 94; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 95; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1147,6 +1147,28 @@
 - long-run effects on cities, offices and local businesses.
 
 [Open the source-search record](projects/us-remote-work-contact/source-search-2026-09-11.md)
+
+## US remote work and shopping cost
+
+**Project:** `us-remote-work-shopping-cost`
+
+**Status:** opening pass; shopping effects are measured, household welfare remains open
+
+**Question:** When work moves home, who gains time and who takes on the shopping system?
+
+**Sources recorded:** 1
+
+- [Shopping From Home](https://www.nber.org/papers/w34883)
+
+**Open gaps:**
+- commute time saved and shopping time added;
+- who makes the purchases and who does related unpaid work;
+- product need, quality and substitution;
+- income, price sensitivity and deal use;
+- total household welfare and stress;
+- differences by children, gender, marriage, race, place and remote-work access.
+
+[Open the source-search record](projects/us-remote-work-shopping-cost/source-search-2026-09-11.md)
 
 ## US rent-guarantee insurance
 

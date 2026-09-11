@@ -624,6 +624,16 @@ Still missing: The current studies measure premiums and market values in separat
 
 [Read the complete connected memo](../site/us-home-insurance-affordability-path-001.html)
 
+### When remote work changes the shopping bill
+
+Follow remote work into shopping mode and household spending, then ask whether time saved becomes lower prices, more goods or more unpaid work.
+
+1. [Working from home can change what a household buys and pays](#remote_work_shopping_cost)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The shopping study does not show the same household's full time value, spending need, deal choices and unpaid-work division.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -852,6 +862,7 @@ Connections:
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: A monthly charge can survive after its value fades. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: A slower rise in prices can still feel like a loss. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 - Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: Staying with one bank can carry a quiet cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
+- Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: Working from home can change what a household buys and pays. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
 
 ### Keeping a home also means paying to protect it
 
@@ -1663,6 +1674,39 @@ Connections:
 
 - Question to test: Cash to one household member can change another member's training or care path. Related topic: A family can pay for care with time. The current evidence does not show whether the care report reflects new need, better detection or worse health.
 
+### Working from home can change what a household buys and pays
+
+Remote work can alter shopping time, product choice, prices paid and who carries the household shopping job.
+
+**Question:** When work moves home, who gains time and who takes on the shopping system?
+
+**Subthemes:** Shopping mode and price; Household roles and time
+
+**Limit:** The opening evidence shows shopping changes but not whether the household is better off after time, price and unpaid work are counted together.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Shopping From Home](https://www.nber.org/papers/w34883)
+
+#### Evidence check: Working from home can change what a household buys and pays
+
+NBER's 2026 study finds that working from home increased online shopping, weekday store trips, total spending, product quantity and range, and spending on food and general merchandise. It also finds higher prices paid, less use of deals and lower price sensitivity, with price changes concentrated among married households as shopping responsibility shifted, especially when the remote worker was male.
+
+Working interpretation: remote work changes the household's shopping system, not only the location of the job. The time saved from commuting may be exchanged for more quantity, more convenience or less deal hunting.
+
+**Counterpoint:** More shopping and higher spending can reflect better access, more choice or useful convenience. The study does not show that higher prices made households worse off, or that the shopping shift was unwanted.
+[Related study](https://www.nber.org/papers/w34883)
+
+The current evidence does not show the same household's time value, income, product need, final welfare or longer-run division of unpaid work.
+
+[Baker, Bloom, Johnson and Obradović, Shopping From Home, NBER Working Paper 34883, checked 2026-09-11.](https://www.nber.org/papers/w34883)
+
+
+Connections:
+
+- Question to test: Where work happens can change the household tasks and shopping costs attached to the job. Related topic: The same job can contain different AI access. The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.
+- Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: The price on the screen is only part of the cost. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
+
 ## Who can get an answer or change a decision
 
 Look for actual choices and responses before claiming that trust or power changed.
@@ -2329,6 +2373,7 @@ Connections:
 - Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: Health coverage can hold a job in place. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
 - Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: Average income can hide an unsafe month. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
 - Question to test: A housing break can make reaching and keeping work harder. Related topic: Keeping a home also means paying to protect it. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
+- Question to test: Where work happens can change the household tasks and shopping costs attached to the job. Related topic: Working from home can change what a household buys and pays. The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.
 
 ### Fit can decide who gets heard at work
 
