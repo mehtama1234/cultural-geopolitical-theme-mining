@@ -50,7 +50,6 @@ for theme in data["themes"]:
         related = [x for x in data["edges"] if n["id"] in (x["from"], x["to"])]
         check_html = ""
         check = n.get("evidence_check")
-        md += [f'<a id="{n["id"]}"></a>', ""]
         if check:
             assert check["source"].startswith("https://")
             check_html = f'<aside class="limit"><h4>{e(check["title"])}</h4><p>{e(check["finding"])}</p><p>{e(check["meaning"])}</p><p>{e(check["limit"])}</p><a href="{e(check["source"], quote=True)}">{e(check["location"])}</a></aside>'

@@ -64,8 +64,6 @@ Still missing: The current packets do not track the same households across insur
 
 Compare money spent with care or protection left out.
 
-<a id="money"></a>
-
 ### The price on the screen is only part of the cost
 
 Fees, rewards and payment timing can leave households with different costs for the same purchase.
@@ -108,8 +106,6 @@ Connections:
 - Question to test: Financial pressure might change whom people blame. Related topic: Personal finances and national mood can move apart. Compare changes within the same people and account for party identity.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: Keeping a home also means paying to protect it. The current sources do not follow the same households across these costs or show which bill is given up first.
 
-<a id="housing"></a>
-
 ### Keeping a home also means paying to protect it
 
 Insurance bills and gaps in coverage belong in the housing affordability story.
@@ -146,8 +142,6 @@ Connections:
 - Comparison: Cost can lead people to use less protection or care. Related topic: People can pay the bills by giving up care. Parallel household choices; neither packet proves the same people face both.
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Business counts do not tell us who belongs to a place. Needs linked evidence on owners, housing costs and business moves.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: The price on the screen is only part of the cost. The current sources do not follow the same households across these costs or show which bill is given up first.
-
-<a id="health"></a>
 
 ### People can pay the bills by giving up care
 
@@ -188,8 +182,6 @@ Connections:
 
 Compare unpaid help with time spent using a product; the reasons and benefits differ.
 
-<a id="care"></a>
-
 ### A family can pay for care with time
 
 Unpaid help uses hours that could otherwise go to work, rest or other family needs.
@@ -223,8 +215,6 @@ Connections:
 
 - Question to test: An unmet care need may require more family time. Related topic: People can pay the bills by giving up care. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Less paid work could leave less money for bills. Related topic: The price on the screen is only part of the cost. Check earnings around the start of care and borrowing afterward.
-
-<a id="attention"></a>
 
 ### A useful app can still make leaving difficult
 
@@ -264,8 +254,6 @@ Connections:
 
 Look for actual choices and responses before claiming that trust or power changed.
 
-<a id="politics"></a>
-
 ### Personal finances and national mood can move apart
 
 People judge the economy through both their circumstances and their expectations about the country.
@@ -302,8 +290,6 @@ Connections:
 - Question to test: Difficulty paying for care may become a public concern. Related topic: People can pay the bills by giving up care. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: A quicker reply may still leave a problem open. No direct evidence of that chain in the current packet.
 
-<a id="place"></a>
-
 ### Business counts do not tell us who belongs to a place
 
 Applications, lasting jobs and locally rooted owners describe different parts of a town's economy.
@@ -337,8 +323,6 @@ The paper describes differences across places; this pass does not show what caus
 Connections:
 
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Keeping a home also means paying to protect it. Needs linked evidence on owners, housing costs and business moves.
-
-<a id="service"></a>
 
 ### A quicker reply may still leave a problem open
 
@@ -379,8 +363,6 @@ Connections:
 ## Who controls the work and gets the gain
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
-
-<a id="work"></a>
 
 ### The same job can contain different AI access
 
