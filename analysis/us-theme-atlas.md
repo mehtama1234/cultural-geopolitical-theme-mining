@@ -520,6 +520,16 @@ Follow migration into customer demand, jobs and services, then ask how housing a
 
 Still missing: The current sources do not show the same place's present housing, wages, public capacity and belonging together.
 
+### When the first price is not the final price
+
+Follow a headline price into the fee shown later, then ask whether the household pays more, searches less or loses trust.
+
+1. [A low first price can hide a higher choice](#hidden_fee_price_salience)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same household from price display to final budget and repeat behavior.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -695,6 +705,7 @@ Connections:
 - Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A trade policy can reach the shelf slowly. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
 - Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
 - Question to test: A rate message may change how households read future prices and their own buying power. Related topic: Households may hear a rate increase as a price warning. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
+- Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A low first price can hide a higher choice. The current evidence does not show the same household's final cost or later budget and trust response.
 
 ### The price on the screen is only part of the cost
 
@@ -1155,6 +1166,41 @@ The current sources do not follow the same household from purchase and loan term
 Connections:
 
 - Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: Credit can be a bridge and a later bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
+
+### A low first price can hide a higher choice
+
+Fees that appear late can change comparison, purchase and the amount a household pays.
+
+**Question:** What happens when the price seen is not the price paid?
+
+**Subthemes:** Headline and final price; Search, commitment and seller power
+
+**Limit:** The opening packet measures choice and price display, not every household's later financial loss.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Price Salience and Product Choice](https://www.nber.org/papers/w25186)
+- [Do Credit Card Companies Screen for Behavioral Biases?](https://www.nber.org/papers/w22360)
+- [Price Coherence and Consumers](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers)
+- [Fixing Price Tag Confusion](https://www.library.hbs.edu/working-knowledge/fixing-price-tag-confusion)
+
+#### Evidence check: A low first price can hide a higher choice
+
+NBER clickstream evidence shows that price obfuscation makes comparison harder and leads consumers to spend more than they otherwise would. HBS reports that no-fee intermediary pricing can still produce higher retail prices and unnecessary use of the intermediary.
+
+Working interpretation: the price a household can see and compare is part of the market outcome, not only a design detail.
+
+**Counterpoint:** Separate fees can reflect real service differences, and some shoppers value the intermediary or option. The key test is whether the full price is clear before commitment.
+[Related study](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers)
+
+The current sources do not show every shopper's final household cost, whether the purchase was unwanted or how the fee changed later trust or spending.
+
+[NBER price-salience and card-fee research, with HBS intermediary and price-format reporting. Checked 2026-09-11.](https://www.nber.org/papers/w25186)
+
+
+Connections:
+
+- Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's final cost or later budget and trust response.
 
 ## Who gives up time
 

@@ -1,8 +1,8 @@
 # US source coverage
 
-47 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+48 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 40; HHS: 2; IEA: 1; IMF: 1; NBER: 77; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 42; HHS: 2; IEA: 1; IMF: 1; NBER: 79; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -602,6 +602,31 @@
 - coverage options outside the employer after a job change.
 
 [Open the source-search record](projects/us-health-insurance-job-lock/source-search-2026-09-11.md)
+
+## US hidden fees and the price people can compare
+
+**Project:** `us-hidden-fees-price-salience`
+
+**Status:** opening pass; price display changes choice, broader household burden remains open
+
+**Question:** What happens when the price a shopper sees is not the price the shopper pays?
+
+**Sources recorded:** 4
+
+- [Price Salience and Product Choice](https://www.nber.org/papers/w25186)
+- [Do Credit Card Companies Screen for Behavioral Biases?](https://www.nber.org/papers/w22360)
+- [Price Coherence and Consumers](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers)
+- [Fixing Price Tag Confusion](https://www.library.hbs.edu/working-knowledge/fixing-price-tag-confusion)
+
+**Open gaps:**
+- final price and fee by product and household;
+- when the fee becomes visible;
+- income, liquidity and search differences;
+- whether shoppers switch, cancel or complain;
+- seller margins and service value;
+- trust, regulation and repeat purchase.
+
+[Open the source-search record](projects/us-hidden-fees-price-salience/source-search-2026-09-11.md)
 
 ## US hometown business and the loss of local ownership
 

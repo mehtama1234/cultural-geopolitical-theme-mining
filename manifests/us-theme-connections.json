@@ -1147,6 +1147,31 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-immigration-local-demand/source-search-2026-09-11.md"
+    },
+    {
+      "id": "hidden_fee_price_salience",
+      "evidence_check": {
+        "title": "A low first price can hide a higher choice",
+        "finding": "NBER clickstream evidence shows that price obfuscation makes comparison harder and leads consumers to spend more than they otherwise would. HBS reports that no-fee intermediary pricing can still produce higher retail prices and unnecessary use of the intermediary.",
+        "meaning": "Working interpretation: the price a household can see and compare is part of the market outcome, not only a design detail.",
+        "counterpoint": "Separate fees can reflect real service differences, and some shoppers value the intermediary or option. The key test is whether the full price is clear before commitment.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers",
+        "limit": "The current sources do not show every shopper's final household cost, whether the purchase was unwanted or how the fee changed later trust or spending.",
+        "source": "https://www.nber.org/papers/w25186",
+        "location": "NBER price-salience and card-fee research, with HBS intermediary and price-format reporting. Checked 2026-09-11."
+      },
+      "project": "us-hidden-fees-price-salience",
+      "title": "A low first price can hide a higher choice",
+      "summary": "Fees that appear late can change comparison, purchase and the amount a household pays.",
+      "question": "What happens when the price seen is not the price paid?",
+      "limit": "The opening packet measures choice and price display, not every household's later financial loss.",
+      "subthemes": [
+        "Headline and final price",
+        "Search, commitment and seller power"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-hidden-fees-price-salience/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1482,6 +1507,13 @@
       "topics": ["immigration_local_demand", "place", "housing"],
       "meaning": "Follow migration into customer demand, jobs and services, then ask how housing and the value of the place adjust.",
       "limit": "The current sources do not show the same place's present housing, wages, public capacity and belonging together.",
+      "memo": null
+    },
+    {
+      "title": "When the first price is not the final price",
+      "topics": ["hidden_fee_price_salience", "price_perception", "money"],
+      "meaning": "Follow a headline price into the fee shown later, then ask whether the household pays more, searches less or loses trust.",
+      "limit": "The current sources do not follow the same household from price display to final budget and repeat behavior.",
       "memo": null
     }
   ],
@@ -2020,6 +2052,14 @@
       "to": "place",
       "relation": "New residents can change the local customer base, work pool and services of a place",
       "limit": "The current evidence does not show how housing, wages, public capacity and belonging change together.",
+      "type": "open"
+    },
+    {
+      "id": "link-68",
+      "from": "hidden_fee_price_salience",
+      "to": "price_perception",
+      "relation": "A fee shown late can change the price a shopper believes they are comparing",
+      "limit": "The current evidence does not show the same household's final cost or later budget and trust response.",
       "type": "open"
     }
   ]
