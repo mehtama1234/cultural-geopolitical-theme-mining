@@ -285,8 +285,20 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Charting the Decline of the Hometown Entrepreneur](https://www.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
 - [SBA 2025 US small-business profile](https://advocacy.sba.gov/wp-content/uploads/2025/06/United_States_2025-State-Profile.pdf)
 - [Census Business Formation Statistics by county](https://www.census.gov/econ/bfs/data/county.html)
+- [The Local Origins of Business Formation: Entry as a Two-Stage Process](https://www.nber.org/papers/w34881)
 - [Census BFS methodology](https://www.census.gov/econ/bfs/methodology.html)
 - [SBA state small-business data](https://web.data.sba.gov/en/dataset/state-small-business-statistics-2025)
+
+#### Evidence check: A business application is not the same as a new employer
+
+Using linked records for US business applications and employer firms, researchers separate starting an idea from putting it into operation. High-startup places have many applications; low-startup places more often have a low rate of applications becoming employer firms.
+
+Working interpretation: a town can look active in business counts while still adding few firms with paid workers. Read applications, employer starts and jobs as separate steps.
+
+The paper describes differences across places; this pass does not show what caused them or whether services, local ownership or belonging changed. An application also does not tell us whether a firm survived.
+
+[Dinlersoz, Dunne, Haltiwanger and Penciakova, The Local Origins of Business Formation, NBER Working Paper 34881, February 2026 abstract. Checked 2026-09-11.](https://www.nber.org/papers/w34881)
+
 
 Connections:
 

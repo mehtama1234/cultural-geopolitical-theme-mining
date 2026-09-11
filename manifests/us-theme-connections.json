@@ -137,6 +137,14 @@
     },
     {
       "id": "place",
+      "evidence_check": {
+        "title": "A business application is not the same as a new employer",
+        "finding": "Using linked records for US business applications and employer firms, researchers separate starting an idea from putting it into operation. High-startup places have many applications; low-startup places more often have a low rate of applications becoming employer firms.",
+        "meaning": "Working interpretation: a town can look active in business counts while still adding few firms with paid workers. Read applications, employer starts and jobs as separate steps.",
+        "limit": "The paper describes differences across places; this pass does not show what caused them or whether services, local ownership or belonging changed. An application also does not tell us whether a firm survived.",
+        "source": "https://www.nber.org/papers/w34881",
+        "location": "Dinlersoz, Dunne, Haltiwanger and Penciakova, The Local Origins of Business Formation, NBER Working Paper 34881, February 2026 abstract. Checked 2026-09-11."
+      },
       "project": "us-local-business-place",
       "title": "Business counts do not tell us who belongs to a place",
       "summary": "Applications, lasting jobs and locally rooted owners describe different parts of a town's economy.",
