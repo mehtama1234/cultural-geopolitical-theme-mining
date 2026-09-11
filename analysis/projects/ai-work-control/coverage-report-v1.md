@@ -24,7 +24,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 ## Evidence count
 
 - 57 claims in the ledger;
-- 9 provisional findings;
+- 10 provisional findings;
 - 3 company bridges;
 - 1 theme map;
 - 1 procedural timeline;
