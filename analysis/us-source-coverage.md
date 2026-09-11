@@ -1,8 +1,8 @@
 # US source coverage
 
-61 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+62 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 101; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 103; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1356,6 +1356,29 @@
 - whether debt changes political views beyond policy preference.
 
 [Open the source-search record](projects/us-student-debt-life-choices/source-search-2026-09-11.md)
+
+## US student-loan policy uncertainty
+
+**Project:** `us-student-loan-policy-uncertainty`
+
+**Status:** opening pass; payment and spending responses are measured, wider life effects remain open
+
+**Question:** What does a policy promise make households do before the promise becomes real?
+
+**Sources recorded:** 2
+
+- [Beliefs and Actions under Government Policy Uncertainty](https://www.nber.org/papers/w35319)
+- [Student Loan Forgiveness](https://www.nber.org/papers/w33462)
+
+**Open gaps:**
+- where borrowers got the policy information;
+- income, liquidity and household need;
+- nondurable and durable purchase purpose;
+- payment history, delinquency and credit access;
+- housing, work, family and political responses;
+- differences by balance, age, race, income and loan type.
+
+[Open the source-search record](projects/us-student-loan-policy-uncertainty/source-search-2026-09-11.md)
 
 ## US subscriptions and the cost of not noticing
 

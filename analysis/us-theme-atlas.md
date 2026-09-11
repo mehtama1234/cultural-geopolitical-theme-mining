@@ -674,6 +674,16 @@ Follow a public eligibility rule into which firms receive contracts or credit, t
 
 Still missing: The studies cover different support programs and shocks; they do not follow one firm, owner and worker through the same rule change.
 
+### When a debt promise changes the household budget
+
+Follow an uncertain debt promise into payments and spending, then ask whether housing and other adult choices change before the policy is settled.
+
+1. [A promise about debt can change spending before the rule is settled](#student_loan_policy_uncertainty)
+2. [A student loan can follow a person into adult choices](#student_debt)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The study measures beliefs, payments and selected spending; it does not show the same borrower's full housing or family path.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1038,6 +1048,7 @@ Connections:
 - Question to test: Payment trouble may reduce room for a housing choice. Related topic: Keeping a home also means paying to protect it. The current student-debt evidence does not establish a current effect on renting, buying or moving.
 - Comparison: Repayment rules can meet career and public-service choices. Related topic: The same job can contain different AI access. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
 - Question to test: Slower career movement may leave less room for a long education-debt payment. Related topic: Work can continue while career movement slows. No current source follows career progression and student-loan payment for the same borrower.
+- Question to test: Uncertain forgiveness or payment rules can change how a borrower carries student debt before the balance changes. Related topic: A promise about debt can change spending before the rule is settled. The current study identifies payment and spending responses but does not show the borrower's full later debt and housing path.
 
 ### Food is where a money problem becomes a daily condition
 
@@ -2322,6 +2333,39 @@ The opening paper does not show each owner's household result, customer prices, 
 Connections:
 
 - Comparison: The size rule decides which firms can reach the public support that may keep them alive after a shock. Related topic: Emergency business credit can keep local work alive. The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.
+
+### A promise about debt can change spending before the rule is settled
+
+Uncertain forgiveness or payment rules can change loan payments, spending and later delinquency before policy is final.
+
+**Question:** What does a policy promise make households do before the promise becomes real?
+
+**Subthemes:** Policy promises and household budgets; Payment pauses and later delinquency
+
+**Limit:** The opening evidence measures one US student-loan episode and does not show every household's need, belief source or later welfare.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Beliefs and Actions under Government Policy Uncertainty](https://www.nber.org/papers/w35319)
+- [Student Loan Forgiveness](https://www.nber.org/papers/w33462)
+
+#### Evidence check: A promise about debt can change spending before the rule is settled
+
+NBER's US study of the 2022 student-loan-forgiveness promise uses an information experiment linked to credit, employment and spending records. Borrowers more optimistic about forgiveness paid about $40 less per month on student loans and spent about $80 more per month on nondurables. Borrowers optimistic about payment pauses were 7.5 percentage points more likely to be delinquent after payments resumed. The authors' model says overly optimistic beliefs could cost up to 6.9% of the starting balance.
+
+Working interpretation: policy uncertainty is itself a household financial condition. A promise can change the budget before any money is cancelled, and a later reversal can turn delayed payment into delinquency.
+
+**Counterpoint:** Borrowers may have used the extra spending for needed goods or may have made a reasonable choice while the policy was being litigated. The modeled balance cost is not a direct loss for every borrower.
+[Related study](https://www.nber.org/papers/w35319)
+
+The study does not show how beliefs formed outside the experiment, which household need received the extra spending, or the full political and family effects of uncertainty.
+
+[Koustas, Weber and Yannelis, Beliefs and Actions under Government Policy Uncertainty, NBER Working Paper 35319, checked 2026-09-11.](https://www.nber.org/papers/w35319)
+
+
+Connections:
+
+- Question to test: Uncertain forgiveness or payment rules can change how a borrower carries student debt before the balance changes. Related topic: A student loan can follow a person into adult choices. The current study identifies payment and spending responses but does not show the borrower's full later debt and housing path.
 
 ## Who controls the work and gets the gain
 
