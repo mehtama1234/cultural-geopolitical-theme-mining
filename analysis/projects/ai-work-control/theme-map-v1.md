@@ -66,6 +66,10 @@ The IBM Germany framework shows how a workplace can write risk classes, correcti
 
 “AI adoption” hides whether a system assists, recommends, allocates, directs, monitors, evaluates, or affects personnel action. The JRC and NBER evidence points to different worker effects by function. The project should code the system's job before judging its effect. [Finding 010](findings/ai-work-control-010.md)
 
+### 12. Planning can change before measured output does
+
+Business expectations, capital choices, data work, and production redesign may move before output, pay, or employment shows a clear change. Measurement definitions and timing are part of the causal story, not clerical details. [Finding 011](findings/ai-work-control-011.md)
+
 ### 10. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
