@@ -972,6 +972,31 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-health-insurance-job-lock/source-search-2026-09-11.md"
+    },
+    {
+      "id": "medical_debt_relief",
+      "evidence_check": {
+        "title": "Removing medical debt can fix the record without fixing the illness",
+        "finding": "Two randomized NBER experiments covering $169 million of medical debt for 83,401 people found modest credit-access improvement in one setting, lower payments on existing medical bills, and no average effect on surveyed health, health-care use or financial wellness.",
+        "meaning": "Working interpretation: medical debt can mark a wider health and money shock. Removing the debt record may help one part of the chain while leaving the illness or care need in place.",
+        "counterpoint": "Credit access is a real improvement and may matter for housing, borrowing or recovery. Average results can also hide effects for particular groups or kinds of debt.",
+        "counterpoint_source": "https://www.nber.org/papers/w32315",
+        "limit": "The experiment concerns downstream debt sold to collectors and selected relief programs; it does not cover every medical bill or show every household's later outcome.",
+        "source": "https://www.nber.org/papers/w32315",
+        "location": "NBER randomized medical-debt-relief experiments and HBS billing research, checked 2026-09-11."
+      },
+      "project": "us-medical-debt-relief-outcomes",
+      "title": "Removing medical debt can fix the record without fixing the illness",
+      "summary": "Debt relief may improve credit while leaving the health and care problem that produced the bill unchanged.",
+      "question": "What does removing medical debt actually repair?",
+      "limit": "The opening packet gives causal results for selected debt relief, not a general answer for every medical bill or patient.",
+      "subthemes": [
+        "Debt record and health shock",
+        "Billing burden and relief"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-medical-debt-relief-outcomes/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1258,6 +1283,13 @@
       "topics": ["health_insurance_job_lock", "work", "money"],
       "meaning": "Follow employer coverage into the cost of changing jobs, then ask whether the worker gains or gives up pay, fit and family care access.",
       "limit": "The current sources do not compare the full job and coverage choice for the same worker.",
+      "memo": null
+    },
+    {
+      "title": "When debt relief fixes the record but not the illness",
+      "topics": ["medical_debt_relief", "credit", "money"],
+      "meaning": "Follow a medical bill into the credit record, then ask whether relief changes the household's later room even when the health need remains.",
+      "limit": "The current experiment does not connect the credit result to every later housing, work or care choice.",
       "memo": null
     }
   ],
@@ -1740,6 +1772,14 @@
       "to": "work",
       "relation": "The job can carry health coverage that changes the cost of leaving",
       "limit": "The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.",
+      "type": "open"
+    },
+    {
+      "id": "link-61",
+      "from": "medical_debt_relief",
+      "to": "credit",
+      "relation": "Medical debt relief can change a credit path even when the health problem remains",
+      "limit": "The current experiment does not show how the credit change affects housing, work or later household money.",
       "type": "open"
     }
   ]

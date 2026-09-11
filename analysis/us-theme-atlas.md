@@ -451,6 +451,16 @@ Follow employer coverage into the cost of changing jobs, then ask whether the wo
 
 Still missing: The current sources do not compare the full job and coverage choice for the same worker.
 
+### When debt relief fixes the record but not the illness
+
+Follow a medical bill into the credit record, then ask whether relief changes the household's later room even when the health need remains.
+
+1. [Removing medical debt can fix the record without fixing the illness](#medical_debt_relief)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current experiment does not connect the credit result to every later housing, work or care choice.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -760,6 +770,7 @@ Connections:
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Keeping a home also means paying to protect it. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 - Question to test: An unrecovered loss can reduce the household's financial buffer. Related topic: A payment problem can become a recovery problem. The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.
 - Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: A student loan can follow a person into adult choices. The current sources use different products and do not compare the same household's repayment paths.
+- Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Removing medical debt can fix the record without fixing the illness. The current experiment does not show how the credit change affects housing, work or later household money.
 
 ### A student loan can follow a person into adult choices
 
@@ -981,6 +992,40 @@ The opening sources do not follow the same US household from a repair to a misse
 Connections:
 
 - Question to test: A repair can turn a normal route to work or care into a cash and access problem. Related topic: Getting to a place is a major household cost. The current sources do not show which households lose a trip or whether another route was available.
+
+### Removing medical debt can fix the record without fixing the illness
+
+Debt relief may improve credit while leaving the health and care problem that produced the bill unchanged.
+
+**Question:** What does removing medical debt actually repair?
+
+**Subthemes:** Debt record and health shock; Billing burden and relief
+
+**Limit:** The opening packet gives causal results for selected debt relief, not a general answer for every medical bill or patient.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Effects of Medical Debt Relief](https://www.nber.org/papers/w32315)
+- [Electronic Health Records Were Supposed to Cut Medical Costs](https://www.library.hbs.edu/working-knowledge/electronic-health-records-were-supposed-to-cut-health-costs-they-haven-t)
+- [Why American Health Care Needs Its Own SEC](https://www.library.hbs.edu/working-knowledge/why-american-health-care-needs-its-own-sec)
+
+#### Evidence check: Removing medical debt can fix the record without fixing the illness
+
+Two randomized NBER experiments covering $169 million of medical debt for 83,401 people found modest credit-access improvement in one setting, lower payments on existing medical bills, and no average effect on surveyed health, health-care use or financial wellness.
+
+Working interpretation: medical debt can mark a wider health and money shock. Removing the debt record may help one part of the chain while leaving the illness or care need in place.
+
+**Counterpoint:** Credit access is a real improvement and may matter for housing, borrowing or recovery. Average results can also hide effects for particular groups or kinds of debt.
+[Related study](https://www.nber.org/papers/w32315)
+
+The experiment concerns downstream debt sold to collectors and selected relief programs; it does not cover every medical bill or show every household's later outcome.
+
+[NBER randomized medical-debt-relief experiments and HBS billing research, checked 2026-09-11.](https://www.nber.org/papers/w32315)
+
+
+Connections:
+
+- Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Credit can be a bridge and a later bill. The current experiment does not show how the credit change affects housing, work or later household money.
 
 ## Who gives up time
 

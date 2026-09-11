@@ -1,8 +1,8 @@
 # US source coverage
 
-40 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+41 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 32; HHS: 2; IEA: 1; IMF: 1; NBER: 62; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 34; HHS: 2; IEA: 1; IMF: 1; NBER: 63; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -693,6 +693,30 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US medical debt relief and what it changes
+
+**Project:** `us-medical-debt-relief-outcomes`
+
+**Status:** opening pass; causal relief evidence is available, broader household effects remain mixed
+
+**Question:** What does removing a medical debt actually repair?
+
+**Sources recorded:** 3
+
+- [The Effects of Medical Debt Relief](https://www.nber.org/papers/w32315)
+- [Electronic Health Records Were Supposed to Cut Medical Costs](https://www.library.hbs.edu/working-knowledge/electronic-health-records-were-supposed-to-cut-health-costs-they-haven-t)
+- [Why American Health Care Needs Its Own SEC](https://www.library.hbs.edu/working-knowledge/why-american-health-care-needs-its-own-sec)
+
+**Open gaps:**
+- original illness, bill and insurance decision;
+- credit, housing and employment outcomes after relief;
+- health and care effects by debt size and patient group;
+- debt that has not yet reached collections;
+- provider billing and financial-assistance decisions;
+- whether relief changes trust or willingness to seek care.
+
+[Open the source-search record](projects/us-medical-debt-relief-outcomes/source-search-2026-09-11.md)
 
 ## US multiple jobs and the cost of flexibility
 
