@@ -1,8 +1,8 @@
 # US source coverage
 
-48 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+49 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 42; HHS: 2; IEA: 1; IMF: 1; NBER: 79; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 44; HHS: 2; IEA: 1; IMF: 1; NBER: 81; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -935,6 +935,31 @@
 - whether family education spending changes later business entry.
 
 [Open the source-search record](projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md)
+
+## US payment fees and who pays
+
+**Project:** `us-payment-fee-redistribution`
+
+**Status:** opening pass; payment-user redistribution is measured, household price effects remain open
+
+**Question:** Who pays when the same store accepts payment methods with different costs?
+
+**Sources recorded:** 4
+
+- [Who Pays for Payments?](https://www.nber.org/papers/w35067)
+- [Do Credit Card Companies Screen for Behavioral Biases?](https://www.nber.org/papers/w22360)
+- [How Credit Card Rewards Became a $9.2 Billion Wealth Transfer](https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer)
+- [Price Coherence and Consumers](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers)
+
+**Open gaps:**
+- prices by payment method and merchant;
+- rewards, fees, interest and credit risk;
+- cash and debit use by income and place;
+- small-merchant margins and surcharges;
+- changes after payment regulation;
+- whether households can choose another merchant or payment method.
+
+[Open the source-search record](projects/us-payment-fee-redistribution/source-search-2026-09-11.md)
 
 ## US cash policy and public mood
 

@@ -1172,6 +1172,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-hidden-fees-price-salience/source-search-2026-09-11.md"
+    },
+    {
+      "id": "payment_fee_redistribution",
+      "evidence_check": {
+        "title": "The way a person pays can change the price they carry",
+        "finding": "NBER estimates that interchange fees transfer about $30 billion each year from cash and debit users to credit-card users, with consumer sorting and different merchant fees reducing but not removing the transfer. HBS explains how merchant fees can enter common prices while rewards return more value to premium-card users.",
+        "meaning": "Working interpretation: a payment product can redistribute money through ordinary shopping even when everyone sees the same shelf price.",
+        "counterpoint": "Cards provide security, records, credit and rewards, and merchants may gain sales or lower handling costs. The full value of the payment method still has to be counted.",
+        "counterpoint_source": "https://www.nber.org/papers/w35067",
+        "limit": "The current sources do not show every household's actual price, reward, interest cost or ability to choose another merchant or payment method.",
+        "source": "https://www.nber.org/papers/w35067",
+        "location": "NBER payment-fee and card-fee research, with HBS payment-reward reporting. Checked 2026-09-11."
+      },
+      "project": "us-payment-fee-redistribution",
+      "title": "The way a person pays can change the price they carry",
+      "summary": "Card fees and rewards can move money between shoppers through common prices.",
+      "question": "Who pays when the same store accepts payment methods with different costs?",
+      "limit": "The opening packet measures a redistribution mechanism, not every household's final net cost.",
+      "subthemes": [
+        "Payment method and price",
+        "Rewards, merchant fees and income"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-payment-fee-redistribution/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1514,6 +1539,13 @@
       "topics": ["hidden_fee_price_salience", "price_perception", "money"],
       "meaning": "Follow a headline price into the fee shown later, then ask whether the household pays more, searches less or loses trust.",
       "limit": "The current sources do not follow the same household from price display to final budget and repeat behavior.",
+      "memo": null
+    },
+    {
+      "title": "When payment choice changes who carries the price",
+      "topics": ["payment_fee_redistribution", "price_perception", "money"],
+      "meaning": "Follow a payment method into merchant fees, rewards and common prices, then ask which households carry the net cost.",
+      "limit": "The current sources do not show the same household's full price, rewards, interest and shopping alternatives.",
       "memo": null
     }
   ],
@@ -2060,6 +2092,14 @@
       "to": "price_perception",
       "relation": "A fee shown late can change the price a shopper believes they are comparing",
       "limit": "The current evidence does not show the same household's final cost or later budget and trust response.",
+      "type": "open"
+    },
+    {
+      "id": "link-69",
+      "from": "payment_fee_redistribution",
+      "to": "price_perception",
+      "relation": "A merchant payment fee can enter the common price even when shoppers use different payment methods",
+      "limit": "The current evidence does not show each household's actual price, reward and total payment cost.",
       "type": "open"
     }
   ]

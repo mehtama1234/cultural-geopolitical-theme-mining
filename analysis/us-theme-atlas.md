@@ -530,6 +530,16 @@ Follow a headline price into the fee shown later, then ask whether the household
 
 Still missing: The current sources do not follow the same household from price display to final budget and repeat behavior.
 
+### When payment choice changes who carries the price
+
+Follow a payment method into merchant fees, rewards and common prices, then ask which households carry the net cost.
+
+1. [The way a person pays can change the price they carry](#payment_fee_redistribution)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not show the same household's full price, rewards, interest and shopping alternatives.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -706,6 +716,7 @@ Connections:
 - Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
 - Question to test: A rate message may change how households read future prices and their own buying power. Related topic: Households may hear a rate increase as a price warning. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
 - Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A low first price can hide a higher choice. The current evidence does not show the same household's final cost or later budget and trust response.
+- Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: The way a person pays can change the price they carry. The current evidence does not show each household's actual price, reward and total payment cost.
 
 ### The price on the screen is only part of the cost
 
@@ -1201,6 +1212,41 @@ The current sources do not show every shopper's final household cost, whether th
 Connections:
 
 - Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's final cost or later budget and trust response.
+
+### The way a person pays can change the price they carry
+
+Card fees and rewards can move money between shoppers through common prices.
+
+**Question:** Who pays when the same store accepts payment methods with different costs?
+
+**Subthemes:** Payment method and price; Rewards, merchant fees and income
+
+**Limit:** The opening packet measures a redistribution mechanism, not every household's final net cost.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Who Pays for Payments?](https://www.nber.org/papers/w35067)
+- [Do Credit Card Companies Screen for Behavioral Biases?](https://www.nber.org/papers/w22360)
+- [How Credit Card Rewards Became a $9.2 Billion Wealth Transfer](https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer)
+- [Price Coherence and Consumers](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers)
+
+#### Evidence check: The way a person pays can change the price they carry
+
+NBER estimates that interchange fees transfer about $30 billion each year from cash and debit users to credit-card users, with consumer sorting and different merchant fees reducing but not removing the transfer. HBS explains how merchant fees can enter common prices while rewards return more value to premium-card users.
+
+Working interpretation: a payment product can redistribute money through ordinary shopping even when everyone sees the same shelf price.
+
+**Counterpoint:** Cards provide security, records, credit and rewards, and merchants may gain sales or lower handling costs. The full value of the payment method still has to be counted.
+[Related study](https://www.nber.org/papers/w35067)
+
+The current sources do not show every household's actual price, reward, interest cost or ability to choose another merchant or payment method.
+
+[NBER payment-fee and card-fee research, with HBS payment-reward reporting. Checked 2026-09-11.](https://www.nber.org/papers/w35067)
+
+
+Connections:
+
+- Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show each household's actual price, reward and total payment cost.
 
 ## Who gives up time
 
