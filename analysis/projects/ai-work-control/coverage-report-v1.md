@@ -27,6 +27,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 - 14 provisional findings;
 - 1 system-function evidence matrix;
 - 1 time-ordered adoption trace;
+- 1 country-case record;
 - 3 company bridges;
 - 1 theme map;
 - 1 procedural timeline;

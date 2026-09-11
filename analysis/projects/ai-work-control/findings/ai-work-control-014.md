@@ -83,5 +83,6 @@ External operators may deliver reliable services at lower cost than a locally bu
 - [World Bank: Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
 - [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
 - [IEA: AI and energy security](https://www.iea.org/reports/energy-and-ai/ai-and-energy-security)
+- [Romania and Malaysia AI-infrastructure case record](../romania-malaysia-ai-infrastructure-case-record-v1.md)
 - [Finding 013](ai-work-control-013.md)
 - [Finding 012](ai-work-control-012.md)
