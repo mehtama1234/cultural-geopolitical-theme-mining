@@ -56,3 +56,5 @@ The initial project brief is [analysis/projects/ai-work-control/README.md](analy
 Build a US-centered evidence system for the links among customer behavior, household security, firm strategy, financial conditions, public policy, and political response. Start with bounded topics, then follow each one from measured condition to lived effect to institutional and power change. The handoff is [analysis/US-CENTERED-RESEARCH-HANDOFF_V1.md](analysis/US-CENTERED-RESEARCH-HANDOFF_V1.md).
 
 The first new project is [US household financial pressure and the price of access](analysis/projects/us-household-financial-pressure/README.md), with its opening [source search record](analysis/projects/us-household-financial-pressure/source-search-2026-09-11.md).
+
+The next short pass is [US housing, insurance, and the cost of staying put](analysis/projects/us-housing-insurance-risk/README.md), with its [source search record](analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md).
