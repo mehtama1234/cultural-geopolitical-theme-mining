@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When the expected energy bill chooses the policy
+
+Follow a policy tool into the bill people expect, then compare that belief with the household money and energy burden the policy may create or reduce.
+
+1. [Beliefs about who pays can change which policy wins](#environmental_policy_cost_beliefs)
+2. [A home can be costly to heat before anything else changes](#energy)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same household from policy belief through actual bill, energy use and later political judgment.
+
 ### When public help changes the story of the economy
 
 Follow a benefit or benefit loss into felt household security, then ask how that feeling becomes a judgment about public help and government.
@@ -2236,6 +2246,7 @@ Connections:
 - Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: A dominant employer may carry local job power into politics. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: The same job can contain different AI access. The current atlas does not follow the same worker from job condition through political belief and vote.
 - Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Public help can change how families see the economy. The current evidence points to political effects but does not measure a changed vote for the same family.
+- Question to test: Beliefs about policy cost can change which environmental tool voters accept. Related topic: Beliefs about who pays can change which policy wins. The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.
 
 ### Help can exist but be hard to keep
 
@@ -2938,6 +2949,39 @@ Connections:
 - Question to test: A change in public cash help can alter both household room and how that help is judged. Related topic: Help can exist but be hard to keep. The current study measures perceived well-being but does not show the same family's total aid, spending or later security.
 - Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Personal finances and national mood can move apart. The current evidence points to political effects but does not measure a changed vote for the same family.
 
+### Beliefs about who pays can change which policy wins
+
+Expected energy costs can shape support for environmental rules before people see the actual bill or result.
+
+**Question:** When does a consumer cost belief change public policy?
+
+**Subthemes:** Energy cost beliefs; Policy choice and fairness
+
+**Limit:** The opening study measures beliefs and a model of policy choice, not the full household bill or environmental result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Understanding Support for Cost-Ineffective Environmental Policy Instruments](https://www.nber.org/papers/w35073)
+
+#### Evidence check: Beliefs about who pays can change which policy wins
+
+An NBER study finds that respondents think market-based environmental tools raise consumer energy bills more than standards do, unlike expert environmental economists. Its model shows that political limits and imperfect cost beliefs can push policy toward a less cost-effective standard.
+
+Working interpretation: the expected household bill can shape public policy before the actual bill or environmental result is known.
+
+**Counterpoint:** People may care about fairness, control and trust, not only total cost. A standard can be easier to understand or enforce even if another tool looks more efficient to an economist.
+[Related study](https://www.nber.org/papers/w35073)
+
+The opening evidence does not show each household's actual bill, policy knowledge, pollution result or later political action.
+
+[Shapiro and Taubinsky, Understanding Support for Cost-Ineffective Environmental Policy Instruments, NBER Working Paper 35073, checked 2026-09-11.](https://www.nber.org/papers/w35073)
+
+
+Connections:
+
+- Question to test: Expected policy costs are easiest to judge through the energy bill a household imagines paying. Related topic: A home can be costly to heat before anything else changes. The current study measures beliefs about consumer bills, not each household's actual energy use or charge.
+- Question to test: Beliefs about policy cost can change which environmental tool voters accept. Related topic: Personal finances and national mood can move apart. The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.
+
 ## Who controls the work and gets the gain
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
@@ -3518,6 +3562,7 @@ Connections:
 - Comparison: The energy bill is incomplete without the cost of getting to the place. Related topic: Getting to a place is a major household cost. DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.
 - Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A bill due date can become part of the energy burden. The current sources do not show which households face a shutoff or what they do to avoid it.
 - Question to test: Electricity and network reliability can shape whether digital money remains usable during a disaster. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.
+- Question to test: Expected policy costs are easiest to judge through the energy bill a household imagines paying. Related topic: Beliefs about who pays can change which policy wins. The current study measures beliefs about consumer bills, not each household's actual energy use or charge.
 
 ### A bill due date can become part of the energy burden
 

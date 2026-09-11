@@ -1797,9 +1797,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-child-tax-credit-sentiment/source-search-2026-09-11.md"
+    },
+    {
+      "id": "environmental_policy_cost_beliefs",
+      "evidence_check": {
+        "title": "Beliefs about who pays can change which policy wins",
+        "finding": "An NBER study finds that respondents think market-based environmental tools raise consumer energy bills more than standards do, unlike expert environmental economists. Its model shows that political limits and imperfect cost beliefs can push policy toward a less cost-effective standard.",
+        "meaning": "Working interpretation: the expected household bill can shape public policy before the actual bill or environmental result is known.",
+        "counterpoint": "People may care about fairness, control and trust, not only total cost. A standard can be easier to understand or enforce even if another tool looks more efficient to an economist.",
+        "counterpoint_source": "https://www.nber.org/papers/w35073",
+        "limit": "The opening evidence does not show each household's actual bill, policy knowledge, pollution result or later political action.",
+        "source": "https://www.nber.org/papers/w35073",
+        "location": "Shapiro and Taubinsky, Understanding Support for Cost-Ineffective Environmental Policy Instruments, NBER Working Paper 35073, checked 2026-09-11."
+      },
+      "project": "us-environmental-policy-cost-beliefs",
+      "title": "Beliefs about who pays can change which policy wins",
+      "summary": "Expected energy costs can shape support for environmental rules before people see the actual bill or result.",
+      "question": "When does a consumer cost belief change public policy?",
+      "limit": "The opening study measures beliefs and a model of policy choice, not the full household bill or environmental result.",
+      "subthemes": ["Energy cost beliefs", "Policy choice and fairness"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-environmental-policy-cost-beliefs/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When the expected energy bill chooses the policy",
+      "topics": ["environmental_policy_cost_beliefs", "energy", "money"],
+      "meaning": "Follow a policy tool into the bill people expect, then compare that belief with the household money and energy burden the policy may create or reduce.",
+      "limit": "The current sources do not follow the same household from policy belief through actual bill, energy use and later political judgment.",
+      "memo": null
+    },
     {
       "title": "When public help changes the story of the economy",
       "topics": ["child_tax_credit_sentiment", "aid", "politics"],
@@ -3296,6 +3325,22 @@
       "to": "politics",
       "relation": "A benefit experience may become a judgment about government before it becomes a vote",
       "limit": "The current evidence points to political effects but does not measure a changed vote for the same family.",
+      "type": "open"
+    },
+    {
+      "id": "link-120",
+      "from": "environmental_policy_cost_beliefs",
+      "to": "energy",
+      "relation": "Expected policy costs are easiest to judge through the energy bill a household imagines paying",
+      "limit": "The current study measures beliefs about consumer bills, not each household's actual energy use or charge.",
+      "type": "open"
+    },
+    {
+      "id": "link-121",
+      "from": "environmental_policy_cost_beliefs",
+      "to": "politics",
+      "relation": "Beliefs about policy cost can change which environmental tool voters accept",
+      "limit": "The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.",
       "type": "open"
     }
   ]

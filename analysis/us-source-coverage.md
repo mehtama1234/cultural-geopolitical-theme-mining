@@ -1,8 +1,8 @@
 # US source coverage
 
-76 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+77 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 123; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 124; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -614,6 +614,28 @@
 - whether energy and insurance costs arrive together for the same household.
 
 [Open the source-search record](projects/us-energy-household-burden/source-search-2026-09-11.md)
+
+## US environmental policy cost beliefs
+
+**Project:** `us-environmental-policy-cost-beliefs`
+
+**Status:** opening pass; policy beliefs and a political-choice model are described, actual household bills and environmental results remain open
+
+**Question:** When people think one climate or energy policy will raise their bills, how does that belief shape the policy they support?
+
+**Sources recorded:** 1
+
+- [Understanding Support for Cost-Ineffective Environmental Policy Instruments](https://www.nber.org/papers/w35073)
+
+**Open gaps:**
+- actual policy cost by household;
+- energy use and income;
+- who receives rebates or protection;
+- pollution and health results;
+- trust in experts, firms and government;
+- support after people see the real bill.
+
+[Open the source-search record](projects/us-environmental-policy-cost-beliefs/source-search-2026-09-11.md)
 
 ## US eviction as a household cascade
 
