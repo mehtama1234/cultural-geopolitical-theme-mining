@@ -104,3 +104,5 @@ The eighth connected memo is [When family care becomes paid-work time](site/us-c
 The next short project is [US transportation, household cost, and access](analysis/projects/us-transportation-household-access/README.md), with its [source search record](analysis/projects/us-transportation-household-access/source-search-2026-09-11.md). It tests whether getting to work, food, care and services is a hidden part of household energy and housing cost.
 
 The ninth connected memo is [When the trip is part of the price](site/us-transportation-access-path-001.html), with its [Markdown record](analysis/findings/us-transportation-access-path-001.md). It joins transportation spending, vehicle insurance, commute time and the value of place while keeping the benefit of access visible.
+
+The next short project is [US consumer fraud, recovery, and trust](analysis/projects/us-consumer-fraud-trust/README.md), with its [source search record](analysis/projects/us-consumer-fraud-trust/source-search-2026-09-11.md). It tests who carries a loss and whether a usable recovery path shapes trust.

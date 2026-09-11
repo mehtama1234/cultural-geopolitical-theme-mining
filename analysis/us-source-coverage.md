@@ -1,8 +1,8 @@
 # US source coverage
 
-15 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+16 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 8; CMS: 1; Census: 9; DOE: 2; EIA: 2; FTC: 4; Federal Reserve: 13; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 27; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 9; CMS: 1; Census: 9; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 14; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 28; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -131,6 +131,31 @@
 - evidence that challenges the idea that credit mainly shifts risk to households.
 
 [Open the source-search record](projects/us-consumer-credit-liquidity/source-search-2026-09-11.md)
+
+## US consumer fraud, recovery, and trust
+
+**Project:** `us-consumer-fraud-trust`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When a payment or account is used in a scam, what does the household lose and what response does the institution provide?
+
+**Sources recorded:** 5
+
+- [Federal Reserve household well-being report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
+- [FTC 2024 fraud data](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024)
+- [FTC 2025 imposter-scam data](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [NBER Consumer Surveillance and Financial Fraud](https://www.nber.org/papers/w31692)
+
+**Open gaps:**
+- recovery, dispute outcome and time spent for the same consumer;
+- differences between cards, bank transfers, crypto, checks and investment accounts;
+- age, disability, language, income and digital-access patterns;
+- firm reimbursement, account freezes and complaint resolution;
+- whether losses change later trust, use of financial services or political views.
+
+[Open the source-search record](projects/us-consumer-fraud-trust/source-search-2026-09-11.md)
 
 ## US cost of living, trust, and political response
 

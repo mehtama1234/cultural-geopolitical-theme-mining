@@ -126,6 +126,16 @@ Still missing: The current sources do not follow the same household across care 
 
 [Read the complete connected memo](../site/us-childcare-work-path-001.html)
 
+### When a trusted service becomes a dispute
+
+Follow a customer problem from the account or payment system to the effort to recover money, then ask when private frustration becomes a public demand.
+
+1. [A quicker reply may still leave a problem open](#service)
+2. [A payment problem can become a recovery problem](#fraud)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not follow one consumer from fraud through recovery and a change in trust or political behavior.
+
 ### When the trip is part of the price
 
 Follow household energy and transportation cost into the time and money needed to reach work or services.
@@ -268,6 +278,7 @@ Connections:
 - Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: A home can be costly to heat before anything else changes. The energy and credit sources do not identify the same household or the later repayment outcome.
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: The price on the screen is only part of the cost. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Keeping a home also means paying to protect it. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
+- Question to test: An unrecovered loss can reduce the household's financial buffer. Related topic: A payment problem can become a recovery problem. The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.
 
 ### Food is where a money problem becomes a daily condition
 
@@ -532,6 +543,7 @@ Connections:
 - Question to test: Difficulty paying for care may become a public concern. Related topic: People can pay the bills by giving up care. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: A quicker reply may still leave a problem open. No direct evidence of that chain in the current packet.
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Help can exist but be hard to keep. No current source measures a change in trust, blame or voting after a participation change.
+- Question to test: Repeated failure to recover a loss may become a demand for public protection. Related topic: A payment problem can become a recovery problem. No current source measures a change in trust, blame or voting after a fraud response.
 
 ### Help can exist but be hard to keep
 
@@ -570,6 +582,44 @@ Connections:
 - Comparison: Public food help can change how much room remains in the household budget. Related topic: Food is where a money problem becomes a daily condition. The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: The same job can contain different AI access. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a participation change.
+
+### A payment problem can become a recovery problem
+
+A scam can cost money, time and confidence in the institution that holds or moves it.
+
+**Question:** Who carries the loss, and who can get an answer?
+
+**Subthemes:** Unrecovered loss; Consumer recourse
+
+**Limit:** The opening evidence measures exposure and reports, not the full recovery or trust path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve household well-being report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
+- [FTC 2024 fraud data](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024)
+- [FTC 2025 imposter-scam data](https://www.ftc.gov/news-events/news/press-releases/2026/06/ftc-data-show-people-reported-losing-3-point-5-billion-imposter-scams-2025)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [NBER Consumer Surveillance and Financial Fraud](https://www.nber.org/papers/w31692)
+
+#### Evidence check: A payment problem can become a recovery problem
+
+The Federal Reserve reports that 21% of adults experienced financial fraud or scams in 2024. Among adults with non-credit-card fraud, 63% lost money and 32% said at least some was not recovered; the estimated net loss was $63 billion.
+
+Working interpretation: fraud can remove money and also force a household to spend time proving what happened and seeking a decision. Trust depends on the recovery path, not only on prevention.
+
+**Counterpoint:** Credit-card fraud losses are usually not paid directly by consumers, and the Fed estimate is self-reported. FTC complaint data also measure reports, not the full number of incidents.
+[Related study](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024)
+
+The sources do not follow the same consumer from fraud to recovery, account use or trust. Reported losses and complaint counts understate or reshape the full event.
+
+[Federal Reserve 2024 household survey, financial fraud section. Checked 2026-09-11.](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
+
+
+Connections:
+
+- Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A quicker reply may still leave a problem open. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
+- Question to test: An unrecovered loss can reduce the household's financial buffer. Related topic: Credit can be a bridge and a later bill. The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.
+- Question to test: Repeated failure to recover a loss may become a demand for public protection. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a fraud response.
 
 ### Business counts do not tell us who belongs to a place
 
@@ -641,6 +691,7 @@ Connections:
 - Comparison: Company goals and customer goals may differ when a conversation continues. Related topic: A useful app can still make leaving difficult. Longer contact may mean useful help, an unresolved problem or pressure to stay.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: Personal finances and national mood can move apart. No direct evidence of that chain in the current packet.
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: The same job can contain different AI access. The current studies do not join worker access, customer resolution and worker discretion in one setting.
+- Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A payment problem can become a recovery problem. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
 
 ## Who controls the work and gets the gain
 

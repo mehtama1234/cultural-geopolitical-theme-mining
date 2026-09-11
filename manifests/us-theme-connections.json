@@ -246,6 +246,31 @@
       "source_record": "analysis/projects/us-safety-net-access/source-search-2026-09-11.md"
     },
     {
+      "id": "fraud",
+      "evidence_check": {
+        "title": "A payment problem can become a recovery problem",
+        "finding": "The Federal Reserve reports that 21% of adults experienced financial fraud or scams in 2024. Among adults with non-credit-card fraud, 63% lost money and 32% said at least some was not recovered; the estimated net loss was $63 billion.",
+        "meaning": "Working interpretation: fraud can remove money and also force a household to spend time proving what happened and seeking a decision. Trust depends on the recovery path, not only on prevention.",
+        "counterpoint": "Credit-card fraud losses are usually not paid directly by consumers, and the Fed estimate is self-reported. FTC complaint data also measure reports, not the full number of incidents.",
+        "counterpoint_source": "https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024",
+        "limit": "The sources do not follow the same consumer from fraud to recovery, account use or trust. Reported losses and complaint counts understate or reshape the full event.",
+        "source": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+        "location": "Federal Reserve 2024 household survey, financial fraud section. Checked 2026-09-11."
+      },
+      "project": "us-consumer-fraud-trust",
+      "title": "A payment problem can become a recovery problem",
+      "summary": "A scam can cost money, time and confidence in the institution that holds or moves it.",
+      "question": "Who carries the loss, and who can get an answer?",
+      "limit": "The opening evidence measures exposure and reports, not the full recovery or trust path.",
+      "subthemes": [
+        "Unrecovered loss",
+        "Consumer recourse"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-consumer-fraud-trust/source-search-2026-09-11.md"
+    },
+    {
       "id": "place",
       "evidence_check": {
         "title": "A business application is not the same as a new employer",
@@ -456,6 +481,12 @@
       "meaning": "Separate elder or family help from childcare, then follow the time cost into paid work and control over the household schedule.",
       "limit": "The current sources do not follow the same household across care type, cost, work hours and later income.",
       "memo": "../site/us-childcare-work-path-001.html"
+    },
+    {
+      "title": "When a trusted service becomes a dispute",
+      "topics": ["service", "fraud", "politics"],
+      "meaning": "Follow a customer problem from the account or payment system to the effort to recover money, then ask when private frustration becomes a public demand.",
+      "limit": "The current sources do not follow one consumer from fraud through recovery and a change in trust or political behavior."
     },
     {
       "title": "When the trip is part of the price",
@@ -688,6 +719,30 @@
       "to": "money",
       "relation": "Vehicle, fuel and insurance costs can take room from other household payments",
       "limit": "Average spending does not show which household cut food, care, debt or savings to pay for travel.",
+      "type": "open"
+    },
+    {
+      "id": "link-29",
+      "from": "service",
+      "to": "fraud",
+      "relation": "A payment system needs a usable answer when a customer reports a loss",
+      "limit": "The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-30",
+      "from": "fraud",
+      "to": "credit",
+      "relation": "An unrecovered loss can reduce the household's financial buffer",
+      "limit": "The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.",
+      "type": "open"
+    },
+    {
+      "id": "link-31",
+      "from": "fraud",
+      "to": "politics",
+      "relation": "Repeated failure to recover a loss may become a demand for public protection",
+      "limit": "No current source measures a change in trust, blame or voting after a fraud response.",
       "type": "open"
     }
   ]
