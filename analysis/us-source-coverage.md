@@ -1,8 +1,8 @@
 # US source coverage
 
-72 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+73 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 119; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 120; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1066,6 +1066,28 @@
 - the gap between national inflation and the prices people see most often.
 
 [Open the source-search record](projects/us-inflation-price-perception/source-search-2026-09-11.md)
+
+## US inflation, real wages, and elections
+
+**Project:** `us-inflation-real-wages-elections`
+
+**Status:** opening pass; local purchasing power and election results are compared, the individual blame and vote path remains open
+
+**Question:** Do voters punish rising prices, falling buying power, or the feeling that pay no longer covers the same life?
+
+**Sources recorded:** 1
+
+- [Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections](https://www.nber.org/papers/w35301)
+
+**Open gaps:**
+- each voter's actual price basket and pay;
+- debt, housing and benefit changes;
+- media and party messages;
+- turnout and vote choice for the same person;
+- differences by race, age, income and place;
+- whether a later policy changed the household result.
+
+[Open the source-search record](projects/us-inflation-real-wages-elections/source-search-2026-09-11.md)
 
 ## US local business and the changing hometown
 

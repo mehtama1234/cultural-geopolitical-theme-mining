@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When lost buying power reaches the ballot
+
+Follow local pay and prices into the family's sense of room, then ask how that loss becomes blame, a vote or a demand for action.
+
+1. [Falling buying power may matter more than the inflation rate alone](#inflation_real_wages_elections)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not follow the same voter through prices, pay, media, blame and vote choice.
+
 ### When income risk at the top changes the price of money
 
 Follow income risk among high earners into saving and the wider money system, then ask how a financial change becomes a public argument about fairness and policy.
@@ -963,6 +973,7 @@ Connections:
 - Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: The way a person pays can change the price they carry. The current evidence does not show each household's actual price, reward and total payment cost.
 - Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: The same price rise can produce different blame. The current survey does not join each respondent's price basket, income change and belief about the cause.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
+- Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: Falling buying power may matter more than the inflation rate alone. The county study does not measure each voter's actual basket, wage or personal price belief.
 
 ### The price on the screen is only part of the cost
 
@@ -2156,6 +2167,7 @@ Connections:
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Future public debt can change what households expect before taxes change. The current study measures expectations, not blame, voting or demand for a particular policy.
 - Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current study does not measure political beliefs, voting or policy demand after the wealth change.
+- Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Falling buying power may matter more than the inflation rate alone. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
 
 ### Help can exist but be hard to keep
 
@@ -2790,6 +2802,39 @@ Connections:
 
 - Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: The price on the screen is only part of the cost. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
 - Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: Personal finances and national mood can move apart. The current study does not measure political beliefs, voting or policy demand after the wealth change.
+
+### Falling buying power may matter more than the inflation rate alone
+
+Local pay that no longer covers the same family budget may connect economic pressure to election results.
+
+**Question:** What part of a price shock becomes a political judgment?
+
+**Subthemes:** Buying power and local pay; Household cost and voting
+
+**Limit:** The opening study compares counties, not the full price, pay, belief and vote path of one person.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections](https://www.nber.org/papers/w35301)
+
+#### Evidence check: Falling buying power may matter more than the inflation rate alone
+
+An NBER study using US county data on family-budget costs, nominal income and election results from 2021 to 2024 finds that falling real wages, rather than higher inflation alone, predict gains for Republican candidates. Inflation still has an association with presidential vote share beyond the real-wage measure.
+
+Working interpretation: voters may respond to whether pay covers the same life, not only to the national price number. The local loss becomes political through a story about who is responsible.
+
+**Counterpoint:** Inflation may still matter through prices people notice, expectations or national judgment. Elections also reflect candidates, parties, identity and events outside the household budget.
+[Related study](https://www.nber.org/papers/w35301)
+
+County results do not show the same voter's price basket, pay change, blame, media path or vote. The result is predictive, not proof of one person's reason.
+
+[Riaño and Trebbi, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections, NBER Working Paper 35301, checked 2026-09-11.](https://www.nber.org/papers/w35301)
+
+
+Connections:
+
+- Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: A slower rise in prices can still feel like a loss. The county study does not measure each voter's actual basket, wage or personal price belief.
+- Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Personal finances and national mood can move apart. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
 
 ## Who controls the work and gets the gain
 
