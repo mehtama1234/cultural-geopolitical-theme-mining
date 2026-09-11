@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When the tap becomes part of the health and housing story
+
+Follow water quality from public investment into the condition of a home and then into health. Ask whether a place can look affordable while a basic service shifts risk and cost onto families.
+
+1. [A public water fix can become a health and place benefit](#safe_drinking_water)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [People can pay the bills by giving up care](#health)
+
+Still missing: The current sources do not follow the same household from water quality to bottled-water spending, home value, care or health. The path is a connected question, not a proven chain.
+
 ### When a lower bill hides an unmet need
 
 Compare going without insurance, skipping treatment and relying on family help. Spending alone may miss what a household has given up.
@@ -1006,6 +1016,7 @@ Connections:
 - Question to test: Emergency help for a housing crisis may protect the home whose loss would disrupt work. Related topic: Keeping a home may protect the next job. The current work study does not show the exact housing outcome or prove that housing continuity caused the later earnings result.
 - Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Rent insurance could move a short shock away from the tenant. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
 - Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Insurance risk can become a home and credit problem. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
+- Question to test: Water quality is part of what a household receives from a home and a place, not only a bill or building condition. Related topic: A public water fix can become a health and place benefit. The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.
 
 ### Credit can be a bridge and a later bill
 
@@ -1167,6 +1178,7 @@ Connections:
 - Question to test: An unmet care need may require more family time. Related topic: A family can pay for care with time. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: Food is where a money problem becomes a daily condition. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
+- Question to test: Lower water pollution can reduce a health risk through a public system rather than through a household purchase. Related topic: A public water fix can become a health and place benefit. The mortality result concerns older Americans and does not identify each person's exposure, care path or later health spending.
 
 ### The form of public help changes what families buy
 
@@ -2552,6 +2564,39 @@ Connections:
 
 - Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's budget response or realized future policy.
 - Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Personal finances and national mood can move apart. The current study measures expectations, not blame, voting or demand for a particular policy.
+
+### A public water fix can become a health and place benefit
+
+Water quality links public investment to health, household trust and the value of living in a place, with unequal exposure still visible.
+
+**Question:** When does a basic public service change both health and what a place is worth to the people living there?
+
+**Subthemes:** Public service quality; Health and place inequality
+
+**Limit:** The opening study measures water pollution, loans and older-adult mortality, not the full household cost or political path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Water Works: Causes and Consequences of Safe Drinking Water in America](https://www.nber.org/papers/w35288)
+
+#### Evidence check: A public water fix can become a health and place benefit
+
+A new NBER study uses decades of water tests from 48 states and Medicare records for older Americans. It finds that readings above current health standards fell by about half from 2003 to 2019, that low-income areas had higher pollution, and that Safe Drinking Water Act loans reduced pollution and older-adult mortality. The authors estimate that removing pollution above health standards could cost about $46 per person a year at the average loan cost.
+
+Working interpretation: water quality is not only an environmental measure. It can change health risk and the value people receive from a public system, with the burden still falling unevenly across places.
+
+**Counterpoint:** Pollution has fallen, and the study's loan estimates do not mean every system needs the same spending. Black and Hispanic community patterns are mixed, and a water test does not by itself show each household's exposure or response.
+[Related study](https://www.nber.org/papers/w35288)
+
+The opening evidence does not follow the same household through water exposure, bottled-water spending, health care, home value, trust or political action.
+
+[Keiser, Mazumder, Molitor and Shapiro, Water Works: Causes and Consequences of Safe Drinking Water in America, NBER Working Paper 35288, checked 2026-09-11.](https://www.nber.org/papers/w35288)
+
+
+Connections:
+
+- Question to test: Water quality is part of what a household receives from a home and a place, not only a bill or building condition. Related topic: Keeping a home also means paying to protect it. The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.
+- Question to test: Lower water pollution can reduce a health risk through a public system rather than through a household purchase. Related topic: People can pay the bills by giving up care. The mortality result concerns older Americans and does not identify each person's exposure, care path or later health spending.
 
 ## Who controls the work and gets the gain
 

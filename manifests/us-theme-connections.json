@@ -1577,9 +1577,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-fiscal-news-household/source-search-2026-09-11.md"
+    },
+    {
+      "id": "safe_drinking_water",
+      "evidence_check": {
+        "title": "A public water fix can become a health and place benefit",
+        "finding": "A new NBER study uses decades of water tests from 48 states and Medicare records for older Americans. It finds that readings above current health standards fell by about half from 2003 to 2019, that low-income areas had higher pollution, and that Safe Drinking Water Act loans reduced pollution and older-adult mortality. The authors estimate that removing pollution above health standards could cost about $46 per person a year at the average loan cost.",
+        "meaning": "Working interpretation: water quality is not only an environmental measure. It can change health risk and the value people receive from a public system, with the burden still falling unevenly across places.",
+        "counterpoint": "Pollution has fallen, and the study's loan estimates do not mean every system needs the same spending. Black and Hispanic community patterns are mixed, and a water test does not by itself show each household's exposure or response.",
+        "counterpoint_source": "https://www.nber.org/papers/w35288",
+        "limit": "The opening evidence does not follow the same household through water exposure, bottled-water spending, health care, home value, trust or political action.",
+        "source": "https://www.nber.org/papers/w35288",
+        "location": "Keiser, Mazumder, Molitor and Shapiro, Water Works: Causes and Consequences of Safe Drinking Water in America, NBER Working Paper 35288, checked 2026-09-11."
+      },
+      "project": "us-safe-drinking-water",
+      "title": "A public water fix can become a health and place benefit",
+      "summary": "Water quality links public investment to health, household trust and the value of living in a place, with unequal exposure still visible.",
+      "question": "When does a basic public service change both health and what a place is worth to the people living there?",
+      "limit": "The opening study measures water pollution, loans and older-adult mortality, not the full household cost or political path.",
+      "subthemes": ["Public service quality", "Health and place inequality"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-safe-drinking-water/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When the tap becomes part of the health and housing story",
+      "topics": ["safe_drinking_water", "housing", "health"],
+      "meaning": "Follow water quality from public investment into the condition of a home and then into health. Ask whether a place can look affordable while a basic service shifts risk and cost onto families.",
+      "limit": "The current sources do not follow the same household from water quality to bottled-water spending, home value, care or health. The path is a connected question, not a proven chain.",
+      "memo": null
+    },
     {
       "title": "When a lower bill hides an unmet need",
       "topics": ["housing", "health", "care"],
@@ -2830,6 +2859,22 @@
       "to": "politics",
       "relation": "A future public bill can become a political judgment before the bill reaches a household",
       "limit": "The current study measures expectations, not blame, voting or demand for a particular policy.",
+      "type": "open"
+    },
+    {
+      "id": "link-98",
+      "from": "safe_drinking_water",
+      "to": "housing",
+      "relation": "Water quality is part of what a household receives from a home and a place, not only a bill or building condition",
+      "limit": "The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.",
+      "type": "open"
+    },
+    {
+      "id": "link-99",
+      "from": "safe_drinking_water",
+      "to": "health",
+      "relation": "Lower water pollution can reduce a health risk through a public system rather than through a household purchase",
+      "limit": "The mortality result concerns older Americans and does not identify each person's exposure, care path or later health spending.",
       "type": "open"
     }
   ]

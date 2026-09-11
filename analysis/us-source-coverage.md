@@ -1,8 +1,8 @@
 # US source coverage
 
-66 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+67 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 113; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 114; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1354,6 +1354,28 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US safe drinking water
+
+**Project:** `us-safe-drinking-water`
+
+**Status:** opening pass; water quality and older-adult mortality are measured, the household cost and political path remain open
+
+**Question:** When does a basic public service change both health and what a place is worth to the people living there?
+
+**Sources recorded:** 1
+
+- [Water Works: Causes and Consequences of Safe Drinking Water in America](https://www.nber.org/papers/w35288)
+
+**Open gaps:**
+- household-level exposure and water use;
+- bottled water, filters and other private costs;
+- rent, home value and moving decisions;
+- local repair timing and who receives it;
+- trust, complaints and political response;
+- differences by income, race, age and place.
+
+[Open the source-search record](projects/us-safe-drinking-water/source-search-2026-09-11.md)
 
 ## US safety-net access, work rules, and the price of help
 
