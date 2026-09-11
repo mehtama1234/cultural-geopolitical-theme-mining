@@ -66,3 +66,5 @@ The next short pass is [US cost of living, trust, and political response](analys
 The following short pass is [US aging, care, and the hidden second job](analysis/projects/us-aging-care-strain/README.md), with its [source search record](analysis/projects/us-aging-care-strain/source-search-2026-09-11.md).
 
 The next short pass is [US local business and the changing hometown](analysis/projects/us-local-business-place/README.md), with its [source search record](analysis/projects/us-local-business-place/source-search-2026-09-11.md).
+
+The following short pass is [US customer service, automation, and the right to reach a person](analysis/projects/us-customer-automation-recourse/README.md), with its [source search record](analysis/projects/us-customer-automation-recourse/source-search-2026-09-11.md).
