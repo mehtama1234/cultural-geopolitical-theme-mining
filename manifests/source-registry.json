@@ -1,0 +1,41 @@
+{
+  "format": "cultural-geopolitical-theme-mining-source-registry-v1",
+  "sources": [
+    {
+      "id": "hbs-working-knowledge",
+      "name": "Harvard Business School Working Knowledge",
+      "url": "https://www.library.hbs.edu/working-knowledge",
+      "role": "research story and topic discovery",
+      "source_types": ["research_story", "faculty_explanation", "topic_collection"],
+      "license_note": "Record page metadata and links; do not copy full articles.",
+      "access_notes": "Check article date, linked study, authors, and topic collection."
+    },
+    {
+      "id": "nber-working-papers",
+      "name": "National Bureau of Economic Research Working Papers",
+      "url": "https://www.nber.org/papers",
+      "role": "primary research and paper discovery",
+      "source_types": ["working_paper", "abstract", "research_program"],
+      "license_note": "Record metadata, short quotations where allowed, and links; do not copy full papers.",
+      "access_notes": "Mark recent papers as provisional and check access, revision, and later publication status."
+    },
+    {
+      "id": "nber-metadata",
+      "name": "NBER Working Papers and Chapters Metadata",
+      "url": "https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata",
+      "role": "coverage and trend analysis",
+      "source_types": ["metadata", "paper_index", "program_index"],
+      "license_note": "Record metadata fields and source link; inspect update date before analysis.",
+      "access_notes": "Use for systematic search, not as a substitute for reading the study."
+    },
+    {
+      "id": "nber-public-data",
+      "name": "NBER Public Use Data Archive",
+      "url": "https://www.nber.org/research/data",
+      "role": "replication and extension data discovery",
+      "source_types": ["dataset", "code", "documentation"],
+      "license_note": "Check source license, update status, and permitted use for every dataset.",
+      "access_notes": "Archived data may lag the original source. Preserve vintage and checksum."
+    }
+  ]
+}
