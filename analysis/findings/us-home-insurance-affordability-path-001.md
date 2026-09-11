@@ -30,6 +30,14 @@ This last sentence is a household path to test, not a result shown by the premiu
 
 Credit records already shape access to borrowing and housing in the atlas. If credit affects insurance pricing, a payment problem and a protection problem may reinforce each other. The current sources do not show that full loop for one owner.
 
+### 5. The gap is wider where money is tighter
+
+The Federal Reserve's 2025 household survey reports that 6% of homeowners went without homeowners insurance. The share was 12% in low- or moderate-income neighborhoods and 5% in high-income neighborhoods. Roughly 2 in 10 homeowners with income below $50,000 went without coverage, and 43% of uninsured homeowners said they could not afford it. Among insured owners with income below $50,000, nearly 30% said they struggled to afford premiums.
+
+These are reported household conditions, not proof that disaster risk caused the gap. They do show that insurance is not only a market price; for some owners it is a choice between protection and other bills.
+
+[Federal Reserve 2025 housing findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm)
+
 ## The connection
 
 ```text

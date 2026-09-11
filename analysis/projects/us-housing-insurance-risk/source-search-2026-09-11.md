@@ -20,6 +20,10 @@ Is insurance cost and availability becoming a new limit on who can safely own, f
 | US-CENSUS-RENTER-BURDEN-2023 | [Census: renter cost burden](https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html) | Nearly half of renter households were cost-burdened in 2023, with differences by race | Official ACS release | Older data than the homeowner release; cost burden does not show cause |
 | US-NBER-PROPERTY-INSURANCE-32579 | [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579) | Uses more than 74 million inferred premiums from 2014–2024 and studies how disaster risk enters premiums and home values | Working paper; revised November 2025 | Working paper; review design, data construction, and alternative explanations |
 
+## Strongest distribution check
+
+The Federal Reserve's 2025 household survey reports that 6% of homeowners went without homeowners insurance. The share was 12% in low- or moderate-income neighborhoods and 5% in high-income neighborhoods. Roughly 2 in 10 homeowners with income below $50,000 went without coverage, and 43% of uninsured homeowners said they could not afford it. Among insured owners with income below $50,000, nearly 30% said they struggled to afford premiums. These are reported household conditions, not proof that climate risk caused the gap.
+
 ## First pattern to test
 
 ```text
