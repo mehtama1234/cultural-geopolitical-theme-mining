@@ -1,8 +1,8 @@
 # US source coverage
 
-74 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+75 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 121; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 122; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1138,6 +1138,28 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US local prices and the geography of consumption
+
+**Project:** `us-local-prices-consumption-geography`
+
+**Status:** opening pass; local prices and consumption are measured by income and skill group, the later move and household-choice path remains open
+
+**Question:** How much does a family's real standard of living depend on where it lives, even when its income looks the same on paper?
+
+**Sources recorded:** 1
+
+- [Where is Standard of Living the Highest? Local Prices and the Geography of Consumption](https://www.nber.org/papers/w29533)
+
+**Open gaps:**
+- the same family's income, prices and purchases;
+- housing, transport, health and food prices together;
+- service quality and product availability;
+- moving costs and job access;
+- effects by race, age, disability and family type;
+- local political response.
+
+[Open the source-search record](projects/us-local-prices-consumption-geography/source-search-2026-09-11.md)
 
 ## US low-liquidity consumption constraints
 

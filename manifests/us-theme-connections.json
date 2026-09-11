@@ -1753,9 +1753,38 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-employer-political-influence/source-search-2026-09-11.md"
+    },
+    {
+      "id": "local_prices_consumption_geography",
+      "evidence_check": {
+        "title": "The same income can buy a different life by place",
+        "finding": "An NBER study using household consumption data covering about 5% of the US population and local prices for more than 140 products finds that price differences between commuting zones are especially large for low-income households. The spatial spread of low-income price indexes is almost twice the spread for high-income households.",
+        "meaning": "Working interpretation: a national income number can hide a local customer reality. Where a family lives can change how much of its paycheck remains after ordinary purchases.",
+        "counterpoint": "High prices may come with better jobs, services or amenities, while low prices may come with fewer choices. A price index alone is not a complete measure of a place's value.",
+        "counterpoint_source": "https://www.nber.org/papers/w29533",
+        "limit": "The opening result does not show why households stay, move, change stores, change products, or experience the local price as a better or worse life.",
+        "source": "https://www.nber.org/papers/w29533",
+        "location": "Diamond and Moretti, Where is Standard of Living the Highest? Local Prices and the Geography of Consumption, NBER Working Paper 29533, revised May 2026, checked 2026-09-11."
+      },
+      "project": "us-local-prices-consumption-geography",
+      "title": "The same income can buy a different life by place",
+      "summary": "Local prices can change the real room left by a paycheck, especially for lower-income households.",
+      "question": "What does a family's income actually buy where it lives?",
+      "limit": "The opening study measures local prices and consumption, not the full move, service or household well-being path.",
+      "subthemes": ["Local prices and buying power", "Place and customer choice"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-local-prices-consumption-geography/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When place changes what a paycheck can buy",
+      "topics": ["local_prices_consumption_geography", "price_perception", "money"],
+      "meaning": "Follow local prices into the household's felt buying power, then ask how the remaining room changes purchases, savings or political judgment.",
+      "limit": "The current sources do not follow the same household through local prices, actual purchases, moving choice and political response.",
+      "memo": null
+    },
     {
       "title": "When the biggest local employer reaches the ballot",
       "topics": ["employer_political_influence", "work", "politics"],
@@ -3206,6 +3235,22 @@
       "to": "politics",
       "relation": "A worker's job conditions and dependence may shape how an economic policy is judged",
       "limit": "The current atlas does not follow the same worker from job condition through political belief and vote.",
+      "type": "open"
+    },
+    {
+      "id": "link-116",
+      "from": "local_prices_consumption_geography",
+      "to": "price_perception",
+      "relation": "The place-specific price basket shapes which costs a household sees and remembers",
+      "limit": "The local-price study measures product indexes, not each household's remembered prices or story about them.",
+      "type": "open"
+    },
+    {
+      "id": "link-117",
+      "from": "local_prices_consumption_geography",
+      "to": "money",
+      "relation": "Local prices change the real spending room left by the same nominal income",
+      "limit": "The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.",
       "type": "open"
     }
   ]

@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When place changes what a paycheck can buy
+
+Follow local prices into the household's felt buying power, then ask how the remaining room changes purchases, savings or political judgment.
+
+1. [The same income can buy a different life by place](#local_prices_consumption_geography)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same household through local prices, actual purchases, moving choice and political response.
+
 ### When the biggest local employer reaches the ballot
 
 Follow local job dependence into work expectations and then into political judgment. Ask whether the employer's power changes what workers think is safe to support.
@@ -984,6 +994,7 @@ Connections:
 - Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: The same price rise can produce different blame. The current survey does not join each respondent's price basket, income change and belief about the cause.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: Falling buying power may matter more than the inflation rate alone. The county study does not measure each voter's actual basket, wage or personal price belief.
+- Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: The same income can buy a different life by place. The local-price study measures product indexes, not each household's remembered prices or story about them.
 
 ### The price on the screen is only part of the cost
 
@@ -1043,6 +1054,7 @@ Connections:
 - Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show the same household's take-home pay, spending, debt cost or later security.
 - Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The same spending number can hide different constraints. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
 - Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
+- Question to test: Local prices change the real spending room left by the same nominal income. Related topic: The same income can buy a different life by place. The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.
 
 ### Keeping a home also means paying to protect it
 
@@ -1743,6 +1755,39 @@ Connections:
 
 - Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The price on the screen is only part of the cost. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
 - Question to test: A cash constraint may appear in what a household buys or gives up at the food counter. Related topic: Food is where a money problem becomes a daily condition. The current sources do not follow the same consumer from the spending gap to food quality, quantity or insecurity.
+
+### The same income can buy a different life by place
+
+Local prices can change the real room left by a paycheck, especially for lower-income households.
+
+**Question:** What does a family's income actually buy where it lives?
+
+**Subthemes:** Local prices and buying power; Place and customer choice
+
+**Limit:** The opening study measures local prices and consumption, not the full move, service or household well-being path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Where is Standard of Living the Highest? Local Prices and the Geography of Consumption](https://www.nber.org/papers/w29533)
+
+#### Evidence check: The same income can buy a different life by place
+
+An NBER study using household consumption data covering about 5% of the US population and local prices for more than 140 products finds that price differences between commuting zones are especially large for low-income households. The spatial spread of low-income price indexes is almost twice the spread for high-income households.
+
+Working interpretation: a national income number can hide a local customer reality. Where a family lives can change how much of its paycheck remains after ordinary purchases.
+
+**Counterpoint:** High prices may come with better jobs, services or amenities, while low prices may come with fewer choices. A price index alone is not a complete measure of a place's value.
+[Related study](https://www.nber.org/papers/w29533)
+
+The opening result does not show why households stay, move, change stores, change products, or experience the local price as a better or worse life.
+
+[Diamond and Moretti, Where is Standard of Living the Highest? Local Prices and the Geography of Consumption, NBER Working Paper 29533, revised May 2026, checked 2026-09-11.](https://www.nber.org/papers/w29533)
+
+
+Connections:
+
+- Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: A slower rise in prices can still feel like a loss. The local-price study measures product indexes, not each household's remembered prices or story about them.
+- Question to test: Local prices change the real spending room left by the same nominal income. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.
 
 ## Who gives up time
 
