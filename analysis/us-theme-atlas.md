@@ -714,6 +714,16 @@ Follow selected price news into inflation expectations and explanations of the e
 
 Still missing: The news and belief studies do not show the same household's full media exposure, price experience and later action.
 
+### When future public debt enters the household budget
+
+Follow news about future debt into inflation and spending expectations, then ask whether the household changes its budget or political judgment.
+
+1. [Future public debt can change what households expect before taxes change](#fiscal_news_household)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The US experiment measures belief changes but does not show the same household's later money or political action.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -947,6 +957,7 @@ Connections:
 - Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: Working from home can change what a household buys and pays. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
 - Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
 - Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: People may hear the same economic message differently by party. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
+- Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: Future public debt can change what households expect before taxes change. The current evidence does not show the same household's budget response or realized future policy.
 
 ### Keeping a home also means paying to protect it
 
@@ -2007,6 +2018,7 @@ Connections:
 - Question to test: Perceived party alignment can change whether an economic institution is heard as neutral or partisan. Related topic: People may hear the same economic message differently by party. The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.
 - Question to test: A story about who caused inflation can shape which policy response and political judgment seem acceptable. Related topic: The same price rise can produce different blame. The current evidence measures policy preferences, not later voting or public action.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's price basket, blame, information path and later vote.
+- Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Future public debt can change what households expect before taxes change. The current study measures expectations, not blame, voting or demand for a particular policy.
 
 ### Help can exist but be hard to keep
 
@@ -2506,6 +2518,40 @@ The studies do not show each household's complete media diet, price basket, trus
 Connections:
 
 - Question to test: Which price stories people see may shape the inflation causes and policy responses they consider. Related topic: The same price rise can produce different blame. The current studies do not connect one household's media exposure, cause belief and policy action.
+
+### Future public debt can change what households expect before taxes change
+
+Information about future public debt can change household expectations about inflation, spending and government borrowing before policy reaches the budget.
+
+**Question:** When does a future public bill change today's household choice?
+
+**Subthemes:** Future debt and household belief; Fiscal news and present choice
+
+**Limit:** The opening evidence measures expectations, not the same household's later spending, saving or political action.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Fiscal Policy and Households' Inflation Expectations](https://www.nber.org/papers/w28485)
+- [The Effects of Fiscal News on Household Expectations and Spending](https://www.nber.org/papers/w35009)
+
+#### Evidence check: Future public debt can change what households expect before taxes change
+
+A randomized NBER study of US households finds that information about current debt or deficits has little effect on inflation expectations, while information about future debt leads households to expect higher future inflation, spending and government borrowing costs. The response is to the future fiscal path, not simply to today's debt number.
+
+Working interpretation: a government plan can enter household decisions before a tax, benefit or interest-rate change arrives, because people act on what they think the future bill will be.
+
+**Counterpoint:** Expectations are not spending records, and a household may understand future debt differently from an economist. The study does not show who changes a budget or political view after receiving the information.
+[Related study](https://www.nber.org/papers/w28485)
+
+The opening evidence does not show the same household's income, debt exposure, spending, saving, political response or later realized fiscal policy.
+
+[Coibion, Gorodnichenko and Weber, Fiscal Policy and Households' Inflation Expectations, NBER Working Paper 28485, checked 2026-09-11.](https://www.nber.org/papers/w28485)
+
+
+Connections:
+
+- Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's budget response or realized future policy.
+- Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Personal finances and national mood can move apart. The current study measures expectations, not blame, voting or demand for a particular policy.
 
 ## Who controls the work and gets the gain
 

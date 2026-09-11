@@ -1555,6 +1555,28 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-news-selection-inflation/source-search-2026-09-11.md"
+    },
+    {
+      "id": "fiscal_news_household",
+      "evidence_check": {
+        "title": "Future public debt can change what households expect before taxes change",
+        "finding": "A randomized NBER study of US households finds that information about current debt or deficits has little effect on inflation expectations, while information about future debt leads households to expect higher future inflation, spending and government borrowing costs. The response is to the future fiscal path, not simply to today's debt number.",
+        "meaning": "Working interpretation: a government plan can enter household decisions before a tax, benefit or interest-rate change arrives, because people act on what they think the future bill will be.",
+        "counterpoint": "Expectations are not spending records, and a household may understand future debt differently from an economist. The study does not show who changes a budget or political view after receiving the information.",
+        "counterpoint_source": "https://www.nber.org/papers/w28485",
+        "limit": "The opening evidence does not show the same household's income, debt exposure, spending, saving, political response or later realized fiscal policy.",
+        "source": "https://www.nber.org/papers/w28485",
+        "location": "Coibion, Gorodnichenko and Weber, Fiscal Policy and Households' Inflation Expectations, NBER Working Paper 28485, checked 2026-09-11."
+      },
+      "project": "us-fiscal-news-household",
+      "title": "Future public debt can change what households expect before taxes change",
+      "summary": "Information about future public debt can change household expectations about inflation, spending and government borrowing before policy reaches the budget.",
+      "question": "When does a future public bill change today's household choice?",
+      "limit": "The opening evidence measures expectations, not the same household's later spending, saving or political action.",
+      "subthemes": ["Future debt and household belief", "Fiscal news and present choice"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-fiscal-news-household/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -2023,6 +2045,13 @@
       "topics": ["news_selection_inflation", "inflation_cause_beliefs", "price_perception"],
       "meaning": "Follow selected price news into inflation expectations and explanations of the economy, then ask whether the household changes spending or political judgment.",
       "limit": "The news and belief studies do not show the same household's full media exposure, price experience and later action.",
+      "memo": null
+    },
+    {
+      "title": "When future public debt enters the household budget",
+      "topics": ["fiscal_news_household", "money", "politics"],
+      "meaning": "Follow news about future debt into inflation and spending expectations, then ask whether the household changes its budget or political judgment.",
+      "limit": "The US experiment measures belief changes but does not show the same household's later money or political action.",
       "memo": null
     }
   ],
@@ -2785,6 +2814,22 @@
       "to": "inflation_cause_beliefs",
       "relation": "Which price stories people see may shape the inflation causes and policy responses they consider",
       "limit": "The current studies do not connect one household's media exposure, cause belief and policy action.",
+      "type": "open"
+    },
+    {
+      "id": "link-96",
+      "from": "fiscal_news_household",
+      "to": "money",
+      "relation": "Information about future public debt can change how households read future prices, spending and borrowing costs",
+      "limit": "The current evidence does not show the same household's budget response or realized future policy.",
+      "type": "open"
+    },
+    {
+      "id": "link-97",
+      "from": "fiscal_news_household",
+      "to": "politics",
+      "relation": "A future public bill can become a political judgment before the bill reaches a household",
+      "limit": "The current study measures expectations, not blame, voting or demand for a particular policy.",
       "type": "open"
     }
   ]

@@ -1,8 +1,8 @@
 # US source coverage
 
-65 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+66 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 111; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 113; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -599,6 +599,29 @@
 - differences by party, age, race, income, place and education.
 
 [Open the source-search record](projects/us-fed-partisan-trust/source-search-2026-09-11.md)
+
+## US fiscal news and household choice
+
+**Project:** `us-fiscal-news-household`
+
+**Status:** opening pass; fiscal-news belief effects are measured, later action remains open
+
+**Question:** When does a future public bill change today's household choice?
+
+**Sources recorded:** 2
+
+- [Fiscal Policy and Households' Inflation Expectations](https://www.nber.org/papers/w28485)
+- [The Effects of Fiscal News on Household Expectations and Spending](https://www.nber.org/papers/w35009)
+
+**Open gaps:**
+- income, debt and liquidity position;
+- current and expected taxes and benefits;
+- spending, saving and borrowing records;
+- media source and trust;
+- policy realization, reversal and political response;
+- differences by income, age, race, party and homeownership.
+
+[Open the source-search record](projects/us-fiscal-news-household/source-search-2026-09-11.md)
 
 ## US food, the household budget, and basic security
 
