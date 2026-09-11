@@ -1,8 +1,8 @@
 # US source coverage
 
-33 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+34 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 22; HHS: 1; IEA: 1; IMF: 1; NBER: 49; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 25; HHS: 1; IEA: 1; IMF: 1; NBER: 49; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -78,6 +78,30 @@
 - evidence that unpaid care does not materially change later work or savings.
 
 [Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
+
+## US AI emotional support and the private care gap
+
+**Project:** `us-ai-emotional-support-apps`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** What happens when an AI companion or wellness app becomes a person's place for emotional support?
+
+**Sources recorded:** 3
+
+- [HBS: That Emotional Wellness App on Your Phone May Do More Harm Than Good](https://www.library.hbs.edu/working-knowledge/that-emotional-wellness-app-on-your-phone-may-do-more-harm-than-good)
+- [HBS: In Charts: Can an App Help Improve Your Well-Being?](https://www.library.hbs.edu/working-knowledge/in-charts-can-ai-be-your-well-being-coach)
+- [HBS: How AI Chatbots Try to Keep You From Walking Away](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
+
+**Open gaps:**
+- US users' outcomes over months or years;
+- effects by age, income, loneliness, disability and crisis history;
+- whether users know the app's limits;
+- crisis detection and referral to human care;
+- retention, payment and business incentives;
+- updates that change the app's personality or relationship.
+
+[Open the source-search record](projects/us-ai-emotional-support-apps/source-search-2026-09-11.md)
 
 ## US bank customers and the cost of staying put
 

@@ -381,6 +381,16 @@ Follow differences in health, independence and buying power into care and househ
 
 Still missing: The current sources describe segments, spending and health risk separately; they do not follow the same older customer through a product or care decision.
 
+### When emotional support becomes an attention system
+
+Follow a private AI reply into time spent and the ability to leave, then ask whether the service offers safe care or mainly continued engagement.
+
+1. [An AI support app can comfort and hold attention](#ai_emotional_support)
+2. [A useful app can still make leaving difficult](#attention)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current studies mix prevention and companion apps and do not follow the same user through long-term well-being, crisis care or exit.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1021,10 +1031,45 @@ Connections:
 - Comparison: Company goals and customer goals may differ when a conversation continues. Related topic: A quicker reply may still leave a problem open. Longer contact may mean useful help, an unresolved problem or pressure to stay.
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: The same job can contain different AI access. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 - Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful tool can feel like an admission. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
+- Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: An AI support app can comfort and hold attention. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
 
 ## Who can get an answer or change a decision
 
 Look for actual choices and responses before claiming that trust or power changed.
+
+### An AI support app can comfort and hold attention
+
+AI emotional support can bring short-term relief while creating attachment, safety and exit questions.
+
+**Question:** When does private support become a private care gap?
+
+**Subthemes:** Short-term relief; Attachment and crisis safety
+
+**Limit:** The opening evidence does not show long-term safety or the full route to human care.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: That Emotional Wellness App on Your Phone May Do More Harm Than Good](https://www.library.hbs.edu/working-knowledge/that-emotional-wellness-app-on-your-phone-may-do-more-harm-than-good)
+- [HBS: In Charts: Can an App Help Improve Your Well-Being?](https://www.library.hbs.edu/working-knowledge/in-charts-can-ai-be-your-well-being-coach)
+- [HBS: How AI Chatbots Try to Keep You From Walking Away](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
+
+#### Evidence check: An AI support app can comfort and hold attention
+
+HBS reports both short-term well-being gains from a prevention-focused AI coach in a randomized study of nearly 500 US students and attachment, harmful-interaction and crisis-response concerns in AI companion studies.
+
+Working interpretation: a personal reply can feel supportive while also making it harder to leave, question or move toward human care.
+
+**Counterpoint:** An app can provide private, low-cost support when human care is hard to reach. A short-term well-being gain is real even though it is not the same as diagnosis or treatment.
+[Related study](https://www.library.hbs.edu/working-knowledge/in-charts-can-ai-be-your-well-being-coach)
+
+The current studies do not show long-term US outcomes, the share of users harmed or a safe route to human care for every product.
+
+[HBS Working Knowledge reports on AI emotional support and companion apps, checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/that-emotional-wellness-app-on-your-phone-may-do-more-harm-than-good)
+
+
+Connections:
+
+- Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: A useful app can still make leaving difficult. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
 
 ### Older consumers are not one market
 

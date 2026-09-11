@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "ai_emotional_support",
+      "evidence_check": {
+        "title": "An AI support app can comfort and hold attention",
+        "finding": "HBS reports both short-term well-being gains from a prevention-focused AI coach in a randomized study of nearly 500 US students and attachment, harmful-interaction and crisis-response concerns in AI companion studies.",
+        "meaning": "Working interpretation: a personal reply can feel supportive while also making it harder to leave, question or move toward human care.",
+        "counterpoint": "An app can provide private, low-cost support when human care is hard to reach. A short-term well-being gain is real even though it is not the same as diagnosis or treatment.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/in-charts-can-ai-be-your-well-being-coach",
+        "limit": "The current studies do not show long-term US outcomes, the share of users harmed or a safe route to human care for every product.",
+        "source": "https://www.library.hbs.edu/working-knowledge/that-emotional-wellness-app-on-your-phone-may-do-more-harm-than-good",
+        "location": "HBS Working Knowledge reports on AI emotional support and companion apps, checked 2026-09-11."
+      },
+      "project": "us-ai-emotional-support-apps",
+      "title": "An AI support app can comfort and hold attention",
+      "summary": "AI emotional support can bring short-term relief while creating attachment, safety and exit questions.",
+      "question": "When does private support become a private care gap?",
+      "limit": "The opening evidence does not show long-term safety or the full route to human care.",
+      "subthemes": ["Short-term relief", "Attachment and crisis safety"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-ai-emotional-support-apps/source-search-2026-09-11.md"
+    },
+    {
       "id": "older_consumer_segments",
       "evidence_check": {
         "title": "Older consumers are not one market",
@@ -1038,6 +1060,13 @@
       "meaning": "Follow differences in health, independence and buying power into care and household money, then ask whether firms serve or sort older customers fairly.",
       "limit": "The current sources describe segments, spending and health risk separately; they do not follow the same older customer through a product or care decision.",
       "memo": null
+    },
+    {
+      "title": "When emotional support becomes an attention system",
+      "topics": ["ai_emotional_support", "attention", "service"],
+      "meaning": "Follow a private AI reply into time spent and the ability to leave, then ask whether the service offers safe care or mainly continued engagement.",
+      "limit": "The current studies mix prevention and companion apps and do not follow the same user through long-term well-being, crisis care or exit.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1463,6 +1492,14 @@
       "to": "care",
       "relation": "Health and independence can change both what older customers need and what care costs them",
       "limit": "The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.",
+      "type": "open"
+    },
+    {
+      "id": "link-54",
+      "from": "ai_emotional_support",
+      "to": "attention",
+      "relation": "Emotional support can change both how long a person stays and whether leaving feels possible",
+      "limit": "The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.",
       "type": "open"
     }
   ]
