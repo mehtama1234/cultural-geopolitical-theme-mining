@@ -421,6 +421,16 @@ Follow a business or family shock into the owner's protection choice, then ask w
 
 Still missing: The current sources do not follow the same owner through the choice and later jobs, services or family wealth.
 
+### When a raise changes the help a family can keep
+
+Follow an earnings change into the public help that falls away, then ask whether the household has more room and more stable work afterward.
+
+1. [More work does not always mean more room](#benefit_cliff_work_choice)
+2. [Help can exist but be hard to keep](#aid)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The current sources do not follow the same family through total resources, care costs and work after the change.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1351,6 +1361,7 @@ Connections:
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: The same job can contain different AI access. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a participation change.
 - Question to test: The form and timing of public help may change how a household uses the program. Related topic: The form of public help changes what families buy. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
+- Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: More work does not always mean more room. The current evidence does not show the same family's total resources after benefit loss and added pay.
 
 ### A payment problem can become a recovery problem
 
@@ -1467,6 +1478,41 @@ Connections:
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: The same job can contain different AI access. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A payment problem can become a recovery problem. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
 - Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: Privacy rules can make people more willing to share. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
+
+### More work does not always mean more room
+
+A raise can change both pay and public help, so the household's real gain may be smaller or harder to predict.
+
+**Question:** What remains after earnings and lost help are counted together?
+
+**Subthemes:** Benefit taper and threshold; Work rules and administrative burden
+
+**Limit:** The opening packet separates work rules, benefit loss and modeled rates; it does not yet measure one family's total resources.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Disenrollment and Labor Supply Effects of SNAP Work Requirements](https://www.nber.org/papers/w32441)
+- [Employed in a SNAP?](https://www.nber.org/papers/w28877)
+- [Effective Marginal Tax Rates and Benefit Cliffs](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series)
+- [How to Keep Employees Productive: Support Caregivers](https://www.library.hbs.edu/working-knowledge/how-to-support-your-best-employees-who-are-probably-caregivers)
+
+#### Evidence check: More work does not always mean more room
+
+Recent NBER studies find that SNAP work requirements reduced participation among studied groups without increasing work. Federal analysis also models high effective loss rates as earnings rise across combinations of food, health, child care and cash programs.
+
+Working interpretation: a household may judge a raise by the help it loses and the costs it still must pay, not by the wage increase alone.
+
+**Counterpoint:** A gradual taper can let earnings replace aid while leaving a family better off. Program exit is not proof that total household resources fell.
+[Related study](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series)
+
+The current sources do not follow the same family's earnings, benefits, necessary costs and work choice across one change.
+
+[NBER SNAP work-requirement studies and US HHS benefit-cliff analysis, checked 2026-09-11.](https://www.nber.org/papers/w32441)
+
+
+Connections:
+
+- Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: Help can exist but be hard to keep. The current evidence does not show the same family's total resources after benefit loss and added pay.
 
 ## Who controls the work and gets the gain
 

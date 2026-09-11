@@ -1,8 +1,8 @@
 # US source coverage
 
-37 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+38 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 29; HHS: 1; IEA: 1; IMF: 1; NBER: 55; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 30; HHS: 2; IEA: 1; IMF: 1; NBER: 57; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -125,6 +125,31 @@
 - what happens to small banks if switching rises sharply.
 
 [Open the source-search record](projects/us-bank-depositor-inertia/source-search-2026-09-11.md)
+
+## US benefit loss and the work choice
+
+**Project:** `us-benefit-cliff-work-choice`
+
+**Status:** opening pass; work and aid link is supported, household take-home effect remains open
+
+**Question:** What happens to a family's real room when earnings rise but public help changes?
+
+**Sources recorded:** 4
+
+- [The Disenrollment and Labor Supply Effects of SNAP Work Requirements](https://www.nber.org/papers/w32441)
+- [Employed in a SNAP?](https://www.nber.org/papers/w28877)
+- [Effective Marginal Tax Rates and Benefit Cliffs](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series)
+- [How to Keep Employees Productive: Support Caregivers](https://www.library.hbs.edu/working-knowledge/how-to-support-your-best-employees-who-are-probably-caregivers)
+
+**Open gaps:**
+- total take-home resources after taxes and lost benefits;
+- benefit changes by program and state;
+- child care, health coverage and transport costs after the change;
+- actual job offers, hours and work retention;
+- differences by family structure, disability, race, place and wealth;
+- whether smoother phase-outs change work or only reduce paperwork stress.
+
+[Open the source-search record](projects/us-benefit-cliff-work-choice/source-search-2026-09-11.md)
 
 ## US career progression and the mid-level plateau
 

@@ -897,6 +897,31 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md"
+    },
+    {
+      "id": "benefit_cliff_work_choice",
+      "evidence_check": {
+        "title": "More work does not always mean more room",
+        "finding": "Recent NBER studies find that SNAP work requirements reduced participation among studied groups without increasing work. Federal analysis also models high effective loss rates as earnings rise across combinations of food, health, child care and cash programs.",
+        "meaning": "Working interpretation: a household may judge a raise by the help it loses and the costs it still must pay, not by the wage increase alone.",
+        "counterpoint": "A gradual taper can let earnings replace aid while leaving a family better off. Program exit is not proof that total household resources fell.",
+        "counterpoint_source": "https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series",
+        "limit": "The current sources do not follow the same family's earnings, benefits, necessary costs and work choice across one change.",
+        "source": "https://www.nber.org/papers/w32441",
+        "location": "NBER SNAP work-requirement studies and US HHS benefit-cliff analysis, checked 2026-09-11."
+      },
+      "project": "us-benefit-cliff-work-choice",
+      "title": "More work does not always mean more room",
+      "summary": "A raise can change both pay and public help, so the household's real gain may be smaller or harder to predict.",
+      "question": "What remains after earnings and lost help are counted together?",
+      "limit": "The opening packet separates work rules, benefit loss and modeled rates; it does not yet measure one family's total resources.",
+      "subthemes": [
+        "Benefit taper and threshold",
+        "Work rules and administrative burden"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-benefit-cliff-work-choice/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1162,6 +1187,13 @@
       "topics": ["owner_household_tradeoff", "work", "money"],
       "meaning": "Follow a business or family shock into the owner's protection choice, then ask what happens to business investment and household room.",
       "limit": "The current sources do not follow the same owner through the choice and later jobs, services or family wealth.",
+      "memo": null
+    },
+    {
+      "title": "When a raise changes the help a family can keep",
+      "topics": ["benefit_cliff_work_choice", "aid", "work"],
+      "meaning": "Follow an earnings change into the public help that falls away, then ask whether the household has more room and more stable work afterward.",
+      "limit": "The current sources do not follow the same family through total resources, care costs and work after the change.",
       "memo": null
     }
   ],
@@ -1620,6 +1652,14 @@
       "to": "work",
       "relation": "A household cash choice can change what a small business can keep investing in or offering",
       "limit": "The current evidence does not show whether the choice changes jobs, pay, service or business survival.",
+      "type": "open"
+    },
+    {
+      "id": "link-58",
+      "from": "benefit_cliff_work_choice",
+      "to": "aid",
+      "relation": "The value of a public benefit depends on what happens when earnings or work hours change",
+      "limit": "The current evidence does not show the same family's total resources after benefit loss and added pay.",
       "type": "open"
     }
   ]
