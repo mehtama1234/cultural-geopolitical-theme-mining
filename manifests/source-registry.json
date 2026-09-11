@@ -36,6 +36,105 @@
       "source_types": ["dataset", "code", "documentation"],
       "license_note": "Check source license, update status, and permitted use for every dataset.",
       "access_notes": "Archived data may lag the original source. Preserve vintage and checksum."
+    },
+    {
+      "id": "brookings",
+      "name": "Brookings Institution",
+      "url": "https://www.brookings.edu/topics/",
+      "role": "policy research and competing interpretations",
+      "source_types": ["research", "policy_analysis", "data_context"],
+      "license_note": "Use links and short notes; do not treat policy analysis as neutral measurement.",
+      "access_notes": "Pair claims with the underlying paper or public data and record funding or position where relevant."
+    },
+    {
+      "id": "pew-research-center",
+      "name": "Pew Research Center",
+      "url": "https://www.pewresearch.org/",
+      "role": "public opinion, technology use, identity, and demographic change",
+      "source_types": ["survey", "international_survey", "demographic_analysis", "data"],
+      "license_note": "Record survey wording, sample, weighting, field dates, and dataset access before using a result.",
+      "access_notes": "Survey results measure reported views or behavior; they do not by themselves prove causes."
+    },
+    {
+      "id": "world-bank-open-data",
+      "name": "World Bank Open Data",
+      "url": "https://data.worldbank.org/",
+      "role": "country and development indicators",
+      "source_types": ["official_statistic", "country_indicator", "development_data"],
+      "license_note": "Record indicator definition, source agency, revision date, and license.",
+      "access_notes": "Check missing years, country comparability, and whether an indicator is estimated."
+    },
+    {
+      "id": "oecd-data",
+      "name": "OECD Data",
+      "url": "https://data-explorer.oecd.org/",
+      "role": "comparable country data on work, firms, tax, education, and living conditions",
+      "source_types": ["official_statistic", "comparative_dataset", "policy_indicator"],
+      "license_note": "Preserve dataset version, units, definitions, and country coverage.",
+      "access_notes": "Comparability is a finding to check, not an assumption."
+    },
+    {
+      "id": "imf-data",
+      "name": "IMF Data",
+      "url": "https://data.imf.org/en",
+      "role": "macro, fiscal, trade, balance-of-payments, and financial conditions",
+      "source_types": ["official_statistic", "forecast", "macro_dataset"],
+      "license_note": "Record vintage and distinguish observed values from forecasts.",
+      "access_notes": "Read the dataset notes; country reporting quality and revisions matter."
+    },
+    {
+      "id": "ilostat",
+      "name": "ILOSTAT",
+      "url": "https://ilostat.ilo.org/",
+      "role": "work, wages, informal activity, migration, and labor standards",
+      "source_types": ["official_statistic", "labor_dataset", "projection"],
+      "license_note": "Preserve indicator definition, source survey, adjustment, and projection status.",
+      "access_notes": "Do not merge country labor measures without checking definitions and coverage."
+    },
+    {
+      "id": "fred",
+      "name": "Federal Reserve Economic Data",
+      "url": "https://fred.stlouisfed.org/",
+      "role": "high-frequency US economic series and historical revisions",
+      "source_types": ["economic_series", "official_statistic", "survey_series"],
+      "license_note": "Record series ID, source, release date, vintage, and transformation.",
+      "access_notes": "FRED is a portal; the originating agency and revision history remain important."
+    },
+    {
+      "id": "undp-human-development",
+      "name": "UNDP Human Development Reports Data Center",
+      "url": "https://hdr.undp.org/data-center",
+      "role": "human development, inequality, gender, and lived conditions",
+      "source_types": ["index", "country_data", "methodology"],
+      "license_note": "Record index method, component data, missing values, and revision date.",
+      "access_notes": "Composite indexes hide tradeoffs; inspect components before drawing a theme."
+    },
+    {
+      "id": "sipri",
+      "name": "Stockholm International Peace Research Institute",
+      "url": "https://www.sipri.org/databases",
+      "role": "arms transfers, military spending, arms industry, and peace operations",
+      "source_types": ["security_dataset", "research", "country_series"],
+      "license_note": "Record definitions, estimation rules, time period, and source notes.",
+      "access_notes": "Military data is incomplete and politically sensitive; avoid false precision."
+    },
+    {
+      "id": "chatham-house",
+      "name": "Chatham House",
+      "url": "https://www.chathamhouse.org/topics",
+      "role": "geopolitical context, institutions, security, society, and resource conflict",
+      "source_types": ["research_paper", "policy_analysis", "expert_analysis"],
+      "license_note": "Use analysis to frame hypotheses; check evidence, interests, and stated uncertainty.",
+      "access_notes": "Separate a research paper from an expert comment or policy recommendation."
+    },
+    {
+      "id": "carnegie-endowment",
+      "name": "Carnegie Endowment for International Peace",
+      "url": "https://carnegieendowment.org/research/",
+      "role": "country, regional, technology, and international-order analysis",
+      "source_types": ["research", "policy_analysis", "regional_analysis"],
+      "license_note": "Record author, program, date, and any stated policy position.",
+      "access_notes": "Use as an informed interpretation layer, not a substitute for primary records."
     }
   ]
 }
