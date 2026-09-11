@@ -1,5 +1,6 @@
 """Build a plain-language source coverage index for the US project packets."""
 import re
+from urllib.parse import urlparse
 from html import escape
 from pathlib import Path
 
@@ -31,9 +32,27 @@ for path in sorted((ROOT / "analysis/projects").glob("*/source-search-*.md")):
         "gaps": gaps,
         "path": str(path.relative_to(ROOT)),
     })
+def family(url):
+    host = urlparse(url).netloc.lower()
+    if "nber.org" in host:
+        return "NBER"
+    if "hbs.edu" in host or "library.hbs.edu" in host:
+        return "HBS"
+    if host.endswith(".gov") or ".gov/" in url:
+        return "Government"
+    if "uchicago.edu" in host or "academic.oup.com" in host:
+        return "Academic publisher"
+    return "Other"
+
+families = {}
+for record in records:
+    for source in record["sources"]:
+        label = family(source["url"])
+        families[label] = families.get(label, 0) + 1
 assert records
 
 md = ["# US source coverage", "", f"{len(records)} project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.", ""]
+md += ["**Source families recorded:** " + "; ".join(f"{name}: {count}" for name, count in sorted(families.items())), ""]
 for record in records:
     md += [f"## {record['title']}", "", f"**Project:** `{record['project']}`", "", f"**Status:** {record['status']}", "", f"**Question:** {record['question']}", "", f"**Sources recorded:** {len(record['sources'])}", ""]
     md += [f"- [{s['label']}]({s['url']})" for s in record["sources"]]
@@ -53,7 +72,7 @@ for record in records:
 <p><a href="../{escape(record["path"], quote=True)}">Open source notes</a></p></article>''')
 html = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>US source coverage</title>
 <style>:root{{--paper:#f5f3ed;--ink:#182c2a;--muted:#526560;--line:#cdd7cf;--accent:#155f51}}*{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,sans-serif}}main{{max-width:1080px;margin:auto;padding:34px 24px 80px}}a{{color:var(--accent)}}h1,h2{{font-family:Georgia,serif;font-weight:normal;line-height:1.15}}h1{{font-size:clamp(2.6rem,6vw,4.5rem);max-width:800px;margin:42px 0 20px}}h2{{font-size:1.45rem;margin:8px 0 14px}}.lede{{font-size:1.2rem;max-width:760px}}.controls{{position:sticky;top:0;background:var(--paper);padding:16px 0;border-bottom:1px solid var(--line);z-index:2}}input{{font:inherit;padding:12px;width:100%;border:1px solid #78938a;border-radius:6px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:25px}}.card{{background:#fffefa;border:1px solid var(--line);border-radius:10px;padding:24px}}.eyebrow{{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}}.count{{color:var(--accent);font-weight:600}}details{{border-top:1px solid var(--line);padding:12px 0}}summary{{cursor:pointer;font-weight:600}}li{{margin:7px 0}}[hidden]{{display:none!important}}:focus-visible{{outline:3px solid #b96722;outline-offset:4px}}@media(max-width:720px){{main{{padding:24px 16px}}.grid{{grid-template-columns:1fr}}}}</style></head><body><main>
-<nav><a href="index.html">Research home</a> / source coverage</nav><h1>US source coverage</h1><p class="lede">{len(records)} project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.</p>
+<nav><a href="index.html">Research home</a> / source coverage</nav><h1>US source coverage</h1><p class="lede">{len(records)} project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.</p><p class="families">{" · ".join(f"{name}: {count}" for name, count in sorted(families.items()))}</p>
 <div class="controls"><label>Find a project or question<input id="search" type="search" placeholder="Try housing, care, AI or political trust"></label><p id="count" role="status" aria-live="polite">{len(records)} of {len(records)} projects shown</p></div><div class="grid">{"".join(cards)}</div>
 <script>const input=document.querySelector('#search'),cards=[...document.querySelectorAll('.card')],count=document.querySelector('#count');input.addEventListener('input',()=>{{const q=input.value.toLowerCase().trim();let n=0;cards.forEach(c=>{{c.hidden=q&&!c.dataset.search.includes(q);if(!c.hidden)n++}});count.textContent=n+' of '+cards.length+' projects shown'+(n?'':'. Try fewer words.')}});</script></main></body></html>'''
 (ROOT / "site/us-source-coverage.html").write_text(html)

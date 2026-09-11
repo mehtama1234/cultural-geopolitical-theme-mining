@@ -2,6 +2,8 @@
 
 9 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
+**Source families recorded:** Government: 31; HBS: 7; NBER: 22; Other: 27
+
 ## AI, work, and control
 
 **Project:** `ai-work-control`
