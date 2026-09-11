@@ -30,6 +30,8 @@ Search terms:
 - `what work does generative AI do`
 - `firm AI investment organization capital`
 - `AI productivity workforce executives`
+- `digital surveillance managerial clarity performance`
+- `shifting work patterns generative AI`
 
 Initial records:
 
@@ -41,6 +43,8 @@ Initial records:
 | NBER-W35677 | [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677) | working paper | Task-level adoption and variation among workers doing similar work. |
 | NBER-W34984 | [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984) | working paper | Executive reports, firm size, sector differences, and labor reallocation. |
 | NBER-W31222 | [Generative AI and Firm Values](https://www.nber.org/papers/w31222) | working paper; revised | Firm exposure, data assets, labor demand, and value. |
+| NBER-W33348 | [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348) | randomized experiment; working paper | Whether surveillance and its explanation change performance. |
+| NBER-W33795 | [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795) | field experiment; working paper | Individual access, time use, and task composition across firms. |
 
 ## What remains to search
 
@@ -50,6 +54,7 @@ Initial records:
 - Add labor rules, collective bargaining, and workplace monitoring evidence.
 - Add annual reports and filings only after the research claims are stable.
 - Search non-U.S. evidence beyond Denmark and the U.S.
+- Read the full surveillance and field-experiment papers, including disclosures and appendices.
 
 ## First-pass conclusion
 
@@ -58,3 +63,7 @@ The evidence is already strong enough to open a project, but not to close it. Th
 > AI may change the structure and control of work before it changes average pay or employment.
 
 This is a hypothesis because the sources measure different units: individual workers, workplaces, firms, and national labor markets. The next pass must test whether those differences explain the apparent disagreement.
+
+## Control-layer result from the second pass
+
+The next layer is not simply “AI increases monitoring.” The first relevant studies point to a conditional mechanism: the meaning and explanation of a control system may affect performance, while individual AI access can save time without changing the mix of tasks. This makes responsibility, review rights, and worker understanding central variables for the next search.
