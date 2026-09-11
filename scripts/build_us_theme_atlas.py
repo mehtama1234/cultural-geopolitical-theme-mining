@@ -131,11 +131,11 @@ html = f'''<!doctype html>
 <nav><a href="index.html">Research home</a> / US life</nav>
 <header><p class="eyebrow">A connected reading guide · First pass</p><h1>What people pay.<br>What people give up.</h1><p>{e(intro)}</p></header>
 <aside class="big"><h2>The bigger picture</h2><p>{e(big)}</p></aside>
-{paths_html}
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
 <label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label></div>
 <p id="count" role="status" aria-live="polite">{len(nodes)} of {len(nodes)} topics shown</p>
 <noscript><p>All topics, connections and sources are readable below. Search requires JavaScript.</p></noscript>
+{paths_html}
 <div id="topics">{"".join(parts)}</div>
 <footer><p>Connections marked “Question to test” are unproven. Several topics share sources, so their agreement is not independent confirmation.</p><a href="../analysis/us-theme-atlas.md">Read the same notes in Markdown</a></footer>
 </main><script>{script}</script></body></html>'''
