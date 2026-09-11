@@ -10,7 +10,7 @@ Eighty-five reading paths now link household costs, care, work, housing, credit,
 
 Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve search, theme filters, direct topic links, expandable sources and connections, readable phone layouts, and visible uncertainty. The [browser check](us-theme-atlas-browser-check.md) records the interactions already tested. Extend those checks when changing navigation or layout.
 
-Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The sixty-six opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
+Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The eighty-three opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
 
 ## Where we are going
 
@@ -88,6 +88,6 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has sixty-six topic records, five themes, ninety-seven connections and sixty-eight reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighty-three topic records, five themes, one hundred and thirty-two connections and eighty-five reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
