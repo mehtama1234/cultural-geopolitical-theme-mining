@@ -1222,6 +1222,31 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-credit-record-visibility/source-search-2026-09-11.md"
+    },
+    {
+      "id": "eviction_cascade",
+      "evidence_check": {
+        "title": "An eviction order can narrow several choices at once",
+        "finding": "Using linked administrative data and judge assignment, NBER finds that an eviction order increases homelessness and hospital visits and reduces earnings, durable-goods consumption and credit access in the first two years. Longer-run results include more debt and lower credit scores.",
+        "meaning": "Working interpretation: an eviction can turn a housing problem into a work, health, spending and credit problem, while the earlier distress still matters.",
+        "counterpoint": "Not every filing becomes an order, and legal help, payment plans or family support can prevent a move. A move can also be voluntary or improve a household's situation.",
+        "counterpoint_source": "https://www.nber.org/papers/w30382",
+        "limit": "The study covers two urban areas and shows distress before court, so the full later fall cannot be assigned to the order alone.",
+        "source": "https://www.nber.org/papers/w30382",
+        "location": "NBER eviction, credit and legal-representation research, with HBS rental-housing context. Checked 2026-09-11."
+      },
+      "project": "us-eviction-cascade",
+      "title": "An eviction order can narrow several choices at once",
+      "summary": "An eviction order can affect housing, work, health, spending and credit, but distress often starts before court.",
+      "question": "What does an eviction order change beyond the loss of a home?",
+      "limit": "The opening packet measures a causal order effect in selected cities, not the whole path for every tenant.",
+      "subthemes": [
+        "Court order and forced move",
+        "Work, health and credit after eviction"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-eviction-cascade/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1578,6 +1603,13 @@
       "topics": ["credit_record_visibility", "credit", "housing"],
       "meaning": "Follow a late payment, overdraft or thin record into later credit access, then ask whether it changes where and how a household can live.",
       "limit": "The current sources do not identify the same household's underlying event, gatekeeper decision and later housing result.",
+      "memo": null
+    },
+    {
+      "title": "When housing court changes more than housing",
+      "topics": ["eviction_cascade", "housing", "credit"],
+      "meaning": "Follow rent trouble into an eviction order, then ask what happens to work, health, spending and future credit and housing.",
+      "limit": "The current sources do not show the same tenant's first shock, prevention path and full recovery.",
       "memo": null
     }
   ],
@@ -2140,6 +2172,14 @@
       "to": "credit",
       "relation": "A payment or account record can change what credit is available later",
       "limit": "The current evidence does not show which later decision used the record or whether the underlying event was avoidable.",
+      "type": "open"
+    },
+    {
+      "id": "link-71",
+      "from": "eviction_cascade",
+      "to": "housing",
+      "relation": "An eviction order can turn a housing payment problem into a wider loss of housing choice",
+      "limit": "The current evidence does not show the same tenant's first shock, prevention path and later recovery.",
       "type": "open"
     }
   ]

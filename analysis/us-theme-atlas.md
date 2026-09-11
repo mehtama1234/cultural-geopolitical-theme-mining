@@ -550,6 +550,16 @@ Follow a late payment, overdraft or thin record into later credit access, then a
 
 Still missing: The current sources do not identify the same household's underlying event, gatekeeper decision and later housing result.
 
+### When housing court changes more than housing
+
+Follow rent trouble into an eviction order, then ask what happens to work, health, spending and future credit and housing.
+
+1. [An eviction order can narrow several choices at once](#eviction_cascade)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The current sources do not show the same tenant's first shock, prevention path and full recovery.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -819,6 +829,7 @@ Connections:
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Credit can be a bridge and a later bill. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 - Question to test: Payment trouble may reduce room for a housing choice. Related topic: A student loan can follow a person into adult choices. The current student-debt evidence does not establish a current effect on renting, buying or moving.
 - Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Regular cash can change who can afford to live together. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
+- Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: An eviction order can narrow several choices at once. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
 
 ### Credit can be a bridge and a later bill
 
@@ -1258,6 +1269,41 @@ The current sources do not show every household's actual price, reward, interest
 Connections:
 
 - Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show each household's actual price, reward and total payment cost.
+
+### An eviction order can narrow several choices at once
+
+An eviction order can affect housing, work, health, spending and credit, but distress often starts before court.
+
+**Question:** What does an eviction order change beyond the loss of a home?
+
+**Subthemes:** Court order and forced move; Work, health and credit after eviction
+
+**Limit:** The opening packet measures a causal order effect in selected cities, not the whole path for every tenant.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Eviction and Poverty in American Cities](https://www.nber.org/papers/w30382)
+- [Does Eviction Cause Poverty?](https://www.nber.org/papers/w26139)
+- [The Effects of Legal Representation on Tenant Outcomes](https://www.nber.org/papers/w29836)
+- [Revisiting Rental Housing](https://www.library.hbs.edu/working-knowledge/podcast-revisiting-rental-housing)
+
+#### Evidence check: An eviction order can narrow several choices at once
+
+Using linked administrative data and judge assignment, NBER finds that an eviction order increases homelessness and hospital visits and reduces earnings, durable-goods consumption and credit access in the first two years. Longer-run results include more debt and lower credit scores.
+
+Working interpretation: an eviction can turn a housing problem into a work, health, spending and credit problem, while the earlier distress still matters.
+
+**Counterpoint:** Not every filing becomes an order, and legal help, payment plans or family support can prevent a move. A move can also be voluntary or improve a household's situation.
+[Related study](https://www.nber.org/papers/w30382)
+
+The study covers two urban areas and shows distress before court, so the full later fall cannot be assigned to the order alone.
+
+[NBER eviction, credit and legal-representation research, with HBS rental-housing context. Checked 2026-09-11.](https://www.nber.org/papers/w30382)
+
+
+Connections:
+
+- Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
 
 ## Who gives up time
 

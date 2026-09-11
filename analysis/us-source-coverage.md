@@ -1,8 +1,8 @@
 # US source coverage
 
-50 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+51 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 46; HHS: 2; IEA: 1; IMF: 1; NBER: 83; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 86; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -481,6 +481,31 @@
 - whether energy and insurance costs arrive together for the same household.
 
 [Open the source-search record](projects/us-energy-household-burden/source-search-2026-09-11.md)
+
+## US eviction as a household cascade
+
+**Project:** `us-eviction-cascade`
+
+**Status:** opening pass; causal effects are measured, wider national and prevention effects remain open
+
+**Question:** What does an eviction order change beyond the loss of a home?
+
+**Sources recorded:** 4
+
+- [Eviction and Poverty in American Cities](https://www.nber.org/papers/w30382)
+- [Does Eviction Cause Poverty?](https://www.nber.org/papers/w26139)
+- [The Effects of Legal Representation on Tenant Outcomes](https://www.nber.org/papers/w29836)
+- [Revisiting Rental Housing](https://www.library.hbs.edu/working-knowledge/podcast-revisiting-rental-housing)
+
+**Open gaps:**
+- filing, judgment, order, move and homelessness as separate events;
+- rent arrears and the first income or health shock;
+- legal help, rental aid and landlord payment plans;
+- work, school, care and hospital outcomes;
+- credit use, debt and later housing;
+- differences by race, gender, children, disability and place.
+
+[Open the source-search record](projects/us-eviction-cascade/source-search-2026-09-11.md)
 
 ## US family support as a hidden safety net
 
