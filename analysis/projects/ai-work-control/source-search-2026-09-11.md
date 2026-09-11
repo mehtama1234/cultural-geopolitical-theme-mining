@@ -1,0 +1,60 @@
+# Source search: AI, work, and control
+
+**Search date:** 2026-09-11  
+**Project:** AI, work, and control  
+**Status:** first pass; not exhaustive
+
+## Question used
+
+When firms adopt AI, does the main change come from better tools, tighter measurement, new supervision, or a shift in who owns the work process?
+
+## Search paths
+
+### HBS Working Knowledge
+
+Searches and pages checked:
+
+- Working Knowledge home and Artificial Intelligence collection.
+- `AI at work`, `technology adoption`, `employee trust`, `productivity`, `supervision`, `agentic operating model`.
+- [From P&G to Microsoft, How Companies Are Speeding AI Adoption](https://www.library.hbs.edu/working-knowledge/from-pg-to-microsoft-how-companies-speed-ai-adoption).
+
+This is a research story and case index, not a causal estimate. It is useful for finding firm practices, responsibility rules, adoption barriers, and linked cases. HBS says the current story draws on cases involving P&G, Microsoft, Whoz, and JPMorgan Chase. The claims about productivity and adoption in those cases must be checked against the underlying case or operating data before being treated as measured results.
+
+### NBER
+
+Search terms:
+
+- `generative AI at work`
+- `rapid adoption generative AI`
+- `labor market transformation generative AI`
+- `what work does generative AI do`
+- `firm AI investment organization capital`
+- `AI productivity workforce executives`
+
+Initial records:
+
+| ID | Source | Type | Why it is in scope |
+|---|---|---|---|
+| NBER-W31161 | [Generative AI at Work](https://www.nber.org/papers/w31161) | working paper; published version listed | Firm-level worker productivity and heterogeneity. |
+| NBER-W32966 | [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966) | working paper | Adoption, assisted hours, and reported time savings in the U.S. |
+| NBER-W33777 | [Still Waters, Rapid Currents](https://www.nber.org/papers/w33777) | working paper | Denmark: adoption and task change compared with earnings and hours. |
+| NBER-W35677 | [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677) | working paper | Task-level adoption and variation among workers doing similar work. |
+| NBER-W34984 | [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984) | working paper | Executive reports, firm size, sector differences, and labor reallocation. |
+| NBER-W31222 | [Generative AI and Firm Values](https://www.nber.org/papers/w31222) | working paper; revised | Firm exposure, data assets, labor demand, and value. |
+
+## What remains to search
+
+- Read the full papers, appendices, data notes, and later published versions.
+- Find HBS faculty papers behind the cases, where available.
+- Add worker voice, disability, gender, age, migration, and small-firm evidence.
+- Add labor rules, collective bargaining, and workplace monitoring evidence.
+- Add annual reports and filings only after the research claims are stable.
+- Search non-U.S. evidence beyond Denmark and the U.S.
+
+## First-pass conclusion
+
+The evidence is already strong enough to open a project, but not to close it. The first working hypothesis is:
+
+> AI may change the structure and control of work before it changes average pay or employment.
+
+This is a hypothesis because the sources measure different units: individual workers, workplaces, firms, and national labor markets. The next pass must test whether those differences explain the apparent disagreement.

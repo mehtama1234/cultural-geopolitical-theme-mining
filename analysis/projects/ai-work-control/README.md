@@ -32,3 +32,10 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - that a firm-wide average describes workers equally;
 - that a paper’s result travels to every country or industry;
 - that a new tool changes power unless the decision rights also change.
+
+## First research packet
+
+- [Source search record](source-search-2026-09-11.md)
+- [Claims ledger](claims-ledger-v1.md)
+- [Finding 001: AI may reorganize work before it changes average pay](findings/ai-work-control-001.md)
+- [Published HTML finding](../../../site/ai-work-control/finding-001.html)
