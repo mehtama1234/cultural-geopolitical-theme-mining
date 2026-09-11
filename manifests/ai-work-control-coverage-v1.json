@@ -15,28 +15,29 @@
     "worker_inclusion_studies": 2
   },
   "published_records": {
-    "findings": 6,
+    "findings": 7,
     "company_bridges": 3,
     "theme_maps": 1,
-    "claims_in_ledger": 29
+    "claims_in_ledger": 32
   },
   "geographies": {
-    "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa", "China"],
-    "missing_priority": ["Latin America", "Middle East", "Southeast Asia outside platform cases", "sub-Saharan Africa outside one case setting", "China outside one platform study"]
+    "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa", "China", "Indonesia", "Latin America and the Caribbean"],
+    "missing_priority": ["Middle East", "Southeast Asia beyond India and Indonesia", "wider Africa"]
   },
   "outcomes": {
     "covered": ["task productivity", "time use", "earnings", "recorded hours", "occupational mobility", "adoption", "monitoring", "autonomy", "stress", "training", "restructuring plans"],
     "missing_priority": ["promotion", "discipline", "appeals", "worker-level pay paths", "household effects", "union bargaining", "health outcomes", "data correction", "long-run firm margins"]
   },
   "worker_groups": {
-    "covered": ["novice and lower-skilled workers", "knowledge workers", "workers in exposed occupations", "EU working-age population", "deaf and hard-of-hearing workers"],
-    "missing_priority": ["disabled workers", "older workers", "migrants", "women and gender minorities", "contractors", "unionized workers", "public-sector workers", "small-firm workers", "informal workers"]
+    "covered": ["novice and lower-skilled workers", "knowledge workers", "workers in exposed occupations", "EU working-age population", "deaf and hard-of-hearing workers", "women platform drivers"],
+    "missing_priority": ["older workers", "migrants", "gender groups beyond women platform drivers", "contractors outside platforms", "unionized workers", "public-sector workers", "small-firm workers", "informal workers"]
   },
   "contradictions_to_preserve": [
     "task productivity gains can coexist with little average wage change",
     "AI assistance can save time while monitoring can reduce autonomy",
     "individual adoption can relate to occupational movement while employer initiatives show little average labor-demand effect",
-    "company-reported scale and training do not prove worker benefit"
+    "company-reported scale and training do not prove worker benefit",
+    "flexible access can coexist with gendered safety, care, and asset constraints"
   ],
   "next_required_tests": [
     "read the full JRC AIM-WORK tables and methodology",

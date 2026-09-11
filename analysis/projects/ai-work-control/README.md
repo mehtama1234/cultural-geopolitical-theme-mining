@@ -43,6 +43,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 004: Efficiency does not settle the control question](findings/ai-work-control-004.md)
 - [Finding 005: Work can become easier and more controlled at the same time](findings/ai-work-control-005.md)
 - [Finding 006: Technology becomes a worker benefit through the social bargain](findings/ai-work-control-006.md)
+- [Finding 007: Flexibility is not the same as freedom](findings/ai-work-control-007.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
@@ -58,3 +59,4 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published HTML finding 004](../../../site/ai-work-control/finding-004.html)
 - [Published HTML finding 005](../../../site/ai-work-control/finding-005.html)
 - [Published HTML finding 006](../../../site/ai-work-control/finding-006.html)
+- [Published HTML finding 007](../../../site/ai-work-control/finding-007.html)
