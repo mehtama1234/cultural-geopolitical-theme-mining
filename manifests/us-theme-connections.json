@@ -1445,6 +1445,28 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md"
+    },
+    {
+      "id": "small_business_support_size_cutoff",
+      "evidence_check": {
+        "title": "A bigger small-business rule can squeeze the smallest firms",
+        "finding": "A new NBER study uses Census administrative data and changes in US small-business program eligibility. It finds that expanding access to larger firms reduced revenue for the smallest firms, especially younger, more productive and financially constrained firms. Government contracts moved toward larger firms, while exits rose and wages and patenting fell.",
+        "meaning": "Working interpretation: a support program can look broad while shifting opportunity away from the firms with the least cash and the most growth potential.",
+        "counterpoint": "Larger firms may be able to deliver at scale, meet procurement needs or support more workers. The study concerns particular eligibility changes and does not mean every larger-firm award harms smaller firms.",
+        "counterpoint_source": "https://www.nber.org/papers/w35703",
+        "limit": "The opening paper does not show each owner's household result, customer prices, local service loss or which program design would best balance scale and access.",
+        "source": "https://www.nber.org/papers/w35703",
+        "location": "Brown, Denes, Duchin and Hackney, How Big is Small? The Economic Effects of Access to Small Business Government Support, NBER Working Paper 35703, checked 2026-09-11."
+      },
+      "project": "us-small-business-support-size-cutoff",
+      "title": "A bigger small-business rule can squeeze the smallest firms",
+      "summary": "Changing the size rule for public support can shift contracts, revenue, exits, wages and innovation between firms.",
+      "question": "Who gains when a program called small-business support reaches larger firms?",
+      "limit": "The opening evidence measures firm and market outcomes, not the full owner, worker, customer or local-service effect.",
+      "subthemes": ["Eligibility and firm size", "Procurement and market power"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-small-business-support-size-cutoff/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1878,6 +1900,13 @@
       "topics": ["small_business_disaster_liquidity", "owner_household_tradeoff", "work"],
       "meaning": "Follow disaster credit into the owner's shared household and then into jobs, revenue and local services.",
       "limit": "The firm study and owner-household study use different shocks and records; they do not show one business and household together after a disaster.",
+      "memo": null
+    },
+    {
+      "title": "When the small-business rule changes the local market",
+      "topics": ["small_business_support_size_cutoff", "small_business_disaster_liquidity", "owner_household_tradeoff"],
+      "meaning": "Follow a public eligibility rule into which firms receive contracts or credit, then ask what happens to owners, workers and local services.",
+      "limit": "The studies cover different support programs and shocks; they do not follow one firm, owner and worker through the same rule change.",
       "memo": null
     }
   ],
@@ -2577,6 +2606,14 @@
       "relation": "A recovery loan may change which side of an owner's shared cash pool absorbs the disaster",
       "limit": "The current sources do not follow the same owner, firm and household through the loan and later choices.",
       "type": "open"
+    },
+    {
+      "id": "link-88",
+      "from": "small_business_support_size_cutoff",
+      "to": "small_business_disaster_liquidity",
+      "relation": "The size rule decides which firms can reach the public support that may keep them alive after a shock",
+      "limit": "The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.",
+      "type": "comparison"
     }
   ]
 }

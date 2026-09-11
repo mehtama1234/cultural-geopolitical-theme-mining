@@ -664,6 +664,16 @@ Follow disaster credit into the owner's shared household and then into jobs, rev
 
 Still missing: The firm study and owner-household study use different shocks and records; they do not show one business and household together after a disaster.
 
+### When the small-business rule changes the local market
+
+Follow a public eligibility rule into which firms receive contracts or credit, then ask what happens to owners, workers and local services.
+
+1. [A bigger small-business rule can squeeze the smallest firms](#small_business_support_size_cutoff)
+2. [Emergency business credit can keep local work alive](#small_business_disaster_liquidity)
+3. [A small business and its household can share one cash pool](#owner_household_tradeoff)
+
+Still missing: The studies cover different support programs and shocks; they do not follow one firm, owner and worker through the same rule change.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -2281,6 +2291,38 @@ Connections:
 - Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: Keeping a home also means paying to protect it. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
 - Comparison: Cash relief and legal help address different points in the same housing crisis. Related topic: Rent aid can ease the bill without ending housing risk. The current studies do not compare both tools for the same tenant or show whether using them together works better.
 
+### A bigger small-business rule can squeeze the smallest firms
+
+Changing the size rule for public support can shift contracts, revenue, exits, wages and innovation between firms.
+
+**Question:** Who gains when a program called small-business support reaches larger firms?
+
+**Subthemes:** Eligibility and firm size; Procurement and market power
+
+**Limit:** The opening evidence measures firm and market outcomes, not the full owner, worker, customer or local-service effect.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [How Big is Small? The Economic Effects of Access to Small Business Government Support](https://www.nber.org/papers/w35703)
+
+#### Evidence check: A bigger small-business rule can squeeze the smallest firms
+
+A new NBER study uses Census administrative data and changes in US small-business program eligibility. It finds that expanding access to larger firms reduced revenue for the smallest firms, especially younger, more productive and financially constrained firms. Government contracts moved toward larger firms, while exits rose and wages and patenting fell.
+
+Working interpretation: a support program can look broad while shifting opportunity away from the firms with the least cash and the most growth potential.
+
+**Counterpoint:** Larger firms may be able to deliver at scale, meet procurement needs or support more workers. The study concerns particular eligibility changes and does not mean every larger-firm award harms smaller firms.
+[Related study](https://www.nber.org/papers/w35703)
+
+The opening paper does not show each owner's household result, customer prices, local service loss or which program design would best balance scale and access.
+
+[Brown, Denes, Duchin and Hackney, How Big is Small? The Economic Effects of Access to Small Business Government Support, NBER Working Paper 35703, checked 2026-09-11.](https://www.nber.org/papers/w35703)
+
+
+Connections:
+
+- Comparison: The size rule decides which firms can reach the public support that may keep them alive after a shock. Related topic: Emergency business credit can keep local work alive. The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.
+
 ## Who controls the work and gets the gain
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
@@ -2748,6 +2790,7 @@ The study does not show the owner's household spending, the quality of preserved
 Connections:
 
 - Question to test: A recovery loan may change which side of an owner's shared cash pool absorbs the disaster. Related topic: A small business and its household can share one cash pool. The current sources do not follow the same owner, firm and household through the loan and later choices.
+- Comparison: The size rule decides which firms can reach the public support that may keep them alive after a shock. Related topic: A bigger small-business rule can squeeze the smallest firms. The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.
 
 ## A home can be costly to heat before anything else changes
 

@@ -1,8 +1,8 @@
 # US source coverage
 
-60 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+61 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 100; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 101; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1308,6 +1308,29 @@
 - differences by race, place, industry, firm age and disaster type.
 
 [Open the source-search record](projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md)
+
+## US small-business support and size rules
+
+**Project:** `us-small-business-support-size-cutoff`
+
+**Status:** opening pass; firm effects are measured, public and household effects remain open
+
+**Question:** Who gains when a program called small-business support reaches larger firms?
+
+**Sources recorded:** 1
+
+- [How Big is Small? The Economic Effects of Access to Small Business Government Support](https://www.nber.org/papers/w35703)
+
+**Open gaps:**
+- exact eligibility and program type;
+- contracts, loans, grants and application access;
+- owner wealth and household income;
+- worker pay, hours, benefits and exit;
+- customer prices, quality and local substitutes;
+- innovation, entry and long-term competition;
+- effects by race, place, industry and firm age.
+
+[Open the source-search record](projects/us-small-business-support-size-cutoff/source-search-2026-09-11.md)
 
 ## US student debt and delayed life choices
 
