@@ -48,4 +48,4 @@ scripts/      collection, validation, and MD-to-HTML tools
 site/         published HTML pages
 ```
 
-Start with [START-HERE.md](START-HERE.md). The working method is in [RESEARCH-METHOD.md](RESEARCH-METHOD.md), and the first topic queue is in [analysis/seed-topic-queue.md](analysis/seed-topic-queue.md).
+Start with [START-HERE.md](START-HERE.md). The governing specification is [END_TO_END_GOAL_V1.md](END_TO_END_GOAL_V1.md). The working method is in [RESEARCH-METHOD.md](RESEARCH-METHOD.md), and the first topic queue is in [analysis/seed-topic-queue.md](analysis/seed-topic-queue.md).
