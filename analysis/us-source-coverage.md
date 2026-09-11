@@ -1,8 +1,8 @@
 # US source coverage
 
-34 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+35 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 25; HHS: 1; IEA: 1; IMF: 1; NBER: 49; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 26; HHS: 1; IEA: 1; IMF: 1; NBER: 51; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -857,6 +857,31 @@
 - whether transport cost changes work, housing or local business choice.
 
 [Open the source-search record](projects/us-transportation-household-access/source-search-2026-09-11.md)
+
+## US vehicle repair as a household shock
+
+**Project:** `us-vehicle-repair-household-shock`
+
+**Status:** opening pass; mechanism is plausible, same-household evidence remains open
+
+**Question:** When a car repair arrives before the next paycheck, what does the household give up to keep moving?
+
+**Sources recorded:** 4
+
+- [How Bill Timing Affects Low-Income and Aged Households](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+- [Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [Driving to Opportunity](https://www.nber.org/papers/w19922)
+- [A Road Map to Fix America's Transportation Infrastructure](https://www.library.hbs.edu/working-knowledge/a-road-map-to-fix-americas-transportation-infrastructure)
+
+**Open gaps:**
+- repair size and timing relative to pay;
+- whether the car was the only usable route;
+- work hours, care visits and food trips after the repair;
+- cash, credit, family help and delayed-payment choices;
+- differences by income, race, age, disability and place;
+- whether public transit or repair aid prevented a larger loss.
+
+[Open the source-search record](projects/us-vehicle-repair-household-shock/source-search-2026-09-11.md)
 
 ## US workplace communication and the price of fitting in
 

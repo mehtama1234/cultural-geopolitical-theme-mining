@@ -822,6 +822,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-transportation-household-access/source-search-2026-09-11.md"
+    },
+    {
+      "id": "vehicle_repair_shock",
+      "evidence_check": {
+        "title": "A vehicle repair can arrive before the next paycheck",
+        "finding": "NBER describes an unexpected car repair as a shock that can be hard to meet when savings are thin. Transportation spending and commute costs show why keeping a vehicle working can protect access to work and services.",
+        "meaning": "Working interpretation: a repair is not only a maintenance bill. For some households it may be a short deadline that tests cash, credit and the ability to reach a needed place.",
+        "counterpoint": "Paying for a repair can preserve a job, a care visit or a food trip. The payment is not automatically a loss; the key question is what remains possible afterward.",
+        "counterpoint_source": "https://www.nber.org/papers/w19922",
+        "limit": "The opening sources do not follow the same US household from a repair to a missed trip, lost work, delayed bill or later debt.",
+        "source": "https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households",
+        "location": "NBER bill-timing digest, BLS 2024 consumer spending and NBER commuting-cost research. Checked 2026-09-11."
+      },
+      "project": "us-vehicle-repair-household-shock",
+      "title": "A vehicle repair can arrive before the next paycheck",
+      "summary": "A repair can test the household's cash buffer while protecting access to work, care and food.",
+      "question": "What does a household give up to keep moving?",
+      "limit": "The opening packet measures a plausible timing and access problem, not a proven job-loss effect.",
+      "subthemes": [
+        "Repair timing",
+        "Vehicle access and cash buffer"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-vehicle-repair-household-shock/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1066,6 +1091,13 @@
       "topics": ["ai_emotional_support", "attention", "service"],
       "meaning": "Follow a private AI reply into time spent and the ability to leave, then ask whether the service offers safe care or mainly continued engagement.",
       "limit": "The current studies mix prevention and companion apps and do not follow the same user through long-term well-being, crisis care or exit.",
+      "memo": null
+    },
+    {
+      "title": "When a car repair becomes a household timing shock",
+      "topics": ["vehicle_repair_shock", "transport", "work"],
+      "meaning": "Follow an unexpected repair into the cash buffer, then ask what happens to the route to work, care and food when the vehicle is stopped.",
+      "limit": "The opening sources do not follow the same household from a repair to a missed trip, lost work or later debt.",
       "memo": null
     }
   ],
@@ -1500,6 +1532,14 @@
       "to": "attention",
       "relation": "Emotional support can change both how long a person stays and whether leaving feels possible",
       "limit": "The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.",
+      "type": "open"
+    },
+    {
+      "id": "link-55",
+      "from": "vehicle_repair_shock",
+      "to": "transport",
+      "relation": "A repair can turn a normal route to work or care into a cash and access problem",
+      "limit": "The current sources do not show which households lose a trip or whether another route was available.",
       "type": "open"
     }
   ]

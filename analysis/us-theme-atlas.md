@@ -391,6 +391,16 @@ Follow a private AI reply into time spent and the ability to leave, then ask whe
 
 Still missing: The current studies mix prevention and companion apps and do not follow the same user through long-term well-being, crisis care or exit.
 
+### When a car repair becomes a household timing shock
+
+Follow an unexpected repair into the cash buffer, then ask what happens to the route to work, care and food when the vehicle is stopped.
+
+1. [A vehicle repair can arrive before the next paycheck](#vehicle_repair_shock)
+2. [Getting to a place is a major household cost](#transport)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The opening sources do not follow the same household from a repair to a missed trip, lost work or later debt.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -885,6 +895,42 @@ Connections:
 - Question to test: Travel cost and time can change which work a household can keep. Related topic: The same job can contain different AI access. The current averages do not show whether a specific commute caused a job or hour change.
 - Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Business counts do not tell us who belongs to a place. The NBER comparison is older and does not measure current household hardship or local belonging.
 - Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: The price on the screen is only part of the cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
+- Question to test: A repair can turn a normal route to work or care into a cash and access problem. Related topic: A vehicle repair can arrive before the next paycheck. The current sources do not show which households lose a trip or whether another route was available.
+
+### A vehicle repair can arrive before the next paycheck
+
+A repair can test the household's cash buffer while protecting access to work, care and food.
+
+**Question:** What does a household give up to keep moving?
+
+**Subthemes:** Repair timing; Vehicle access and cash buffer
+
+**Limit:** The opening packet measures a plausible timing and access problem, not a proven job-loss effect.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [How Bill Timing Affects Low-Income and Aged Households](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+- [Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [Driving to Opportunity](https://www.nber.org/papers/w19922)
+- [A Road Map to Fix America's Transportation Infrastructure](https://www.library.hbs.edu/working-knowledge/a-road-map-to-fix-americas-transportation-infrastructure)
+
+#### Evidence check: A vehicle repair can arrive before the next paycheck
+
+NBER describes an unexpected car repair as a shock that can be hard to meet when savings are thin. Transportation spending and commute costs show why keeping a vehicle working can protect access to work and services.
+
+Working interpretation: a repair is not only a maintenance bill. For some households it may be a short deadline that tests cash, credit and the ability to reach a needed place.
+
+**Counterpoint:** Paying for a repair can preserve a job, a care visit or a food trip. The payment is not automatically a loss; the key question is what remains possible afterward.
+[Related study](https://www.nber.org/papers/w19922)
+
+The opening sources do not follow the same US household from a repair to a missed trip, lost work, delayed bill or later debt.
+
+[NBER bill-timing digest, BLS 2024 consumer spending and NBER commuting-cost research. Checked 2026-09-11.](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
+
+
+Connections:
+
+- Question to test: A repair can turn a normal route to work or care into a cash and access problem. Related topic: Getting to a place is a major household cost. The current sources do not show which households lose a trip or whether another route was available.
 
 ## Who gives up time
 

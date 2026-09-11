@@ -111,6 +111,8 @@ The next short pass is [US older consumers are not one market](analysis/projects
 
 The next short pass is [US AI emotional support and the private care gap](analysis/projects/us-ai-emotional-support-apps/README.md), with its [source search record](analysis/projects/us-ai-emotional-support-apps/source-search-2026-09-11.md). It tests when private AI support helps, holds attention or fails to reach human care.
 
+The next short pass is [US vehicle repair as a household shock](analysis/projects/us-vehicle-repair-household-shock/README.md), with its [source search record](analysis/projects/us-vehicle-repair-household-shock/source-search-2026-09-11.md). It tests what a household gives up to keep moving when a repair arrives before the next paycheck.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
