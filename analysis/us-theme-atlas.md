@@ -249,6 +249,16 @@ Follow a worker's financial claim into daily work and then ask whether it become
 
 Still missing: The current evidence does not show actual payouts, household wealth or worker control after the retention change.
 
+### When one office day changes the remote week
+
+Follow a planned office meeting into later coworker contact and then count the travel time and cost it requires.
+
+1. [One office day can change the remote week](#remote_contact)
+2. [The same job can contain different AI access](#work)
+3. [Getting to a place is a major household cost](#transport)
+
+Still missing: The current trial does not show which workers benefit after travel cost, care duty, disability, distance and job type are included.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -930,6 +940,7 @@ Connections:
 - Comparison: A career-level measure can show movement that titles and years alone hide. Related topic: Work can continue while career movement slows. The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.
 - Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: Ownership means little unless workers can see the link. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The price on the screen is only part of the cost. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
+- Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: One office day can change the remote week. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
 
 ### Fit can decide who gets heard at work
 
@@ -1033,6 +1044,40 @@ The study concerns one company, one equity plan and a short period. The current 
 Connections:
 
 - Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: The same job can contain different AI access. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
+
+### One office day can change the remote week
+
+A small shared meeting may matter because it creates communication and feedback that continue after workers go home.
+
+**Question:** What did the office day make possible later?
+
+**Subthemes:** Coworker contact; Remote work and commuting cost
+
+**Limit:** The opening trial measures output, communication and retention, not worker preference, pay or promotion.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: The Value of One Office Day a Month](https://www.nber.org/papers/w35331)
+- [NBER: Evidence from a Chinese Experiment on Working from Home](https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home)
+- [NBER: The Power of Proximity to Coworkers](https://www.nber.org/papers/w31880)
+
+#### Evidence check: A small shared office day changed later communication
+
+An NBER randomized trial of 248 customer-service employees reports 7.8% more calls per hour, 36 additional minutes of coworker communication after office visits, more manager feedback, and one-third lower attrition for workers assigned to attend the office together one day a month.
+
+Working interpretation: the useful part of an office day may be the relationships and feedback that continue after the day ends.
+
+**Counterpoint:** The trial concerns one multinational and workers within commuting distance. Fully remote work can reduce travel, widen hiring and help with care or health needs.
+[Related study](https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home)
+
+The paper does not establish the best schedule for all jobs or workers, or whether communication gains become pay, promotion or worker control.
+
+[Aksoy, Bloom, Davis, Marino and Ozguzel, NBER Working Paper 35331, June 2026. Abstract checked 2026-09-11.](https://www.nber.org/papers/w35331)
+
+
+Connections:
+
+- Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: The same job can contain different AI access. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
 
 ## A home can be costly to heat before anything else changes
 

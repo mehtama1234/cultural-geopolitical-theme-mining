@@ -465,6 +465,31 @@
       "source_record": "analysis/projects/us-employee-ownership-meaning/source-search-2026-09-11.md"
     },
     {
+      "id": "remote_contact",
+      "evidence_check": {
+        "title": "A small shared office day changed later communication",
+        "finding": "An NBER randomized trial of 248 customer-service employees reports 7.8% more calls per hour, 36 additional minutes of coworker communication after office visits, more manager feedback, and one-third lower attrition for workers assigned to attend the office together one day a month.",
+        "meaning": "Working interpretation: the useful part of an office day may be the relationships and feedback that continue after the day ends.",
+        "counterpoint": "The trial concerns one multinational and workers within commuting distance. Fully remote work can reduce travel, widen hiring and help with care or health needs.",
+        "counterpoint_source": "https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home",
+        "limit": "The paper does not establish the best schedule for all jobs or workers, or whether communication gains become pay, promotion or worker control.",
+        "source": "https://www.nber.org/papers/w35331",
+        "location": "Aksoy, Bloom, Davis, Marino and Ozguzel, NBER Working Paper 35331, June 2026. Abstract checked 2026-09-11."
+      },
+      "project": "us-remote-work-contact",
+      "title": "One office day can change the remote week",
+      "summary": "A small shared meeting may matter because it creates communication and feedback that continue after workers go home.",
+      "question": "What did the office day make possible later?",
+      "limit": "The opening trial measures output, communication and retention, not worker preference, pay or promotion.",
+      "subthemes": [
+        "Coworker contact",
+        "Remote work and commuting cost"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-remote-work-contact/source-search-2026-09-11.md"
+    },
+    {
       "id": "energy",
       "evidence_check": {
         "title": "Low-income homes spend a larger share on energy",
@@ -657,6 +682,13 @@
       "topics": ["employee_ownership", "work", "money"],
       "meaning": "Follow a worker's financial claim into daily work and then ask whether it becomes pay, savings or only a reason to stay.",
       "limit": "The current evidence does not show actual payouts, household wealth or worker control after the retention change.",
+      "memo": null
+    },
+    {
+      "title": "When one office day changes the remote week",
+      "topics": ["remote_contact", "work", "transport"],
+      "meaning": "Follow a planned office meeting into later coworker contact and then count the travel time and cost it requires.",
+      "limit": "The current trial does not show which workers benefit after travel cost, care duty, disability, distance and job type are included.",
       "memo": null
     }
   ],
@@ -979,6 +1011,14 @@
       "to": "money",
       "relation": "Work conditions and rewards determine whether a financial claim becomes household room",
       "limit": "The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.",
+      "type": "open"
+    },
+    {
+      "id": "link-41",
+      "from": "remote_contact",
+      "to": "work",
+      "relation": "Planned in-person contact may change communication, feedback and retention in remote work",
+      "limit": "The current trial concerns one employer and does not show effects on pay, promotion or worker choice.",
       "type": "open"
     }
   ]

@@ -1,8 +1,8 @@
 # US source coverage
 
-20 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+21 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 10; HHS: 1; IEA: 1; IMF: 1; NBER: 30; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 10; HHS: 1; IEA: 1; IMF: 1; NBER: 33; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -456,6 +456,30 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US remote work and the value of coming together
+
+**Project:** `us-remote-work-contact`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Does a small, shared office meeting change remote work through communication and feedback, and for whom?
+
+**Sources recorded:** 3
+
+- [NBER: The Value of One Office Day a Month](https://www.nber.org/papers/w35331)
+- [NBER: Evidence from a Chinese Experiment on Working from Home](https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home)
+- [NBER: The Power of Proximity to Coworkers](https://www.nber.org/papers/w31880)
+
+**Open gaps:**
+- effects by age, disability, care duty, income, housing and distance;
+- whether communication gains become promotions or pay;
+- the worker's travel and time cost;
+- results outside customer service;
+- whether remote workers prefer the arrangement;
+- long-run effects on cities, offices and local businesses.
+
+[Open the source-search record](projects/us-remote-work-contact/source-search-2026-09-11.md)
 
 ## US safety-net access, work rules, and the price of help
 
