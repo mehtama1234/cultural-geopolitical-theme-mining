@@ -1698,6 +1698,13 @@
       "meaning": "Follow rent help into housing continuity and then work and earnings, while asking whether the housing problem was actually removed.",
       "limit": "The assistance studies use different programs and outcomes; they do not show one household's housing and work path together.",
       "memo": null
+    },
+    {
+      "title": "When emergency help protects work time",
+      "topics": ["emergency_assistance_work_path", "housing", "work"],
+      "meaning": "Follow a short-term housing payment into the ability to keep working, then ask whether later earnings reflect a safer home or another change.",
+      "limit": "The work study follows tax-record outcomes but does not show the same household's full housing event, job quality or later stability.",
+      "memo": null
     }
   ],
   "edges": [
@@ -2315,6 +2322,14 @@
       "to": "work",
       "relation": "A housing break can make reaching and keeping work harder",
       "limit": "The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.",
+      "type": "open"
+    },
+    {
+      "id": "link-78",
+      "from": "emergency_assistance_work_path",
+      "to": "housing",
+      "relation": "Emergency help for a housing crisis may protect the home whose loss would disrupt work",
+      "limit": "The current work study does not show the exact housing outcome or prove that housing continuity caused the later earnings result.",
       "type": "open"
     }
   ]
