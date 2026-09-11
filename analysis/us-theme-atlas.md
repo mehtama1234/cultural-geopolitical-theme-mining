@@ -281,6 +281,16 @@ Follow a recurring charge that survives after its value fades into the household
 
 Still missing: The NBER estimate is model-based and does not follow the same US customer from an unwanted renewal to a changed budget or political view.
 
+### When the shape of aid changes the household week
+
+Follow the form and timing of public help into food spending, then ask whether short-run spending becomes real security or only a different kind of constraint.
+
+1. [The form of public help changes what families buy](#transfer_design)
+2. [Help can exist but be hard to keep](#aid)
+3. [Food is where a money problem becomes a daily condition](#food)
+
+Still missing: The new study measures short-run food-store spending and does not follow the same families through broader needs, lasting security or political response.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -564,6 +574,39 @@ Connections:
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: Food is where a money problem becomes a daily condition. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
 
+### The form of public help changes what families buy
+
+Cash, food aid, one-time payments and monthly payments can have different short-run effects even at the same value.
+
+**Question:** Does the design of help fit the need?
+
+**Subthemes:** Cash versus labeled help; One-time versus monthly aid
+
+**Limit:** The opening evidence does not yet measure lasting household security or political response.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Is a Dollar a Dollar? How Transfer Design Shapes Household Spending](https://www.nber.org/papers/w35698)
+- [NBER: The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+
+#### Evidence check: The form of public help changes what families buy
+
+A new NBER study comparing pandemic-era food and cash aid finds larger short-run food-store spending responses for in-kind and recurring benefits than for one-time and cash benefits.
+
+Working interpretation: policy does not only set the amount of help. It also shapes what the help can do in the household's week.
+
+**Counterpoint:** A larger food-store response may reflect useful protection, but it may also reflect a tighter label. Cash can help with rent, medicine, transport or debt that food aid cannot cover.
+[Related study](https://www.nber.org/papers/w32784)
+
+The new study covers pandemic-era programs and short-run food-store spending. It does not show lasting security, well-being or political trust.
+
+[Bonomo, Ruffini and Schanzenbach, Is a Dollar a Dollar? How Transfer Design Shapes Household Spending, NBER Working Paper 35698, September 2026. Checked 2026-09-11.](https://www.nber.org/papers/w35698)
+
+
+Connections:
+
+- Question to test: The form and timing of public help may change how a household uses the program. Related topic: Help can exist but be hard to keep. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
+
 ### Getting to a place is a major household cost
 
 Transportation can take money and time from the household before work, food, care or services begin.
@@ -830,6 +873,7 @@ Connections:
 - Comparison: Public food help can change how much room remains in the household budget. Related topic: Food is where a money problem becomes a daily condition. The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: The same job can contain different AI access. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a participation change.
+- Question to test: The form and timing of public help may change how a household uses the program. Related topic: The form of public help changes what families buy. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
 
 ### A payment problem can become a recovery problem
 

@@ -268,6 +268,28 @@
       "source_record": "analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md"
     },
     {
+      "id": "transfer_design",
+      "evidence_check": {
+        "title": "The form of public help changes what families buy",
+        "finding": "A new NBER study comparing pandemic-era food and cash aid finds larger short-run food-store spending responses for in-kind and recurring benefits than for one-time and cash benefits.",
+        "meaning": "Working interpretation: policy does not only set the amount of help. It also shapes what the help can do in the household's week.",
+        "counterpoint": "A larger food-store response may reflect useful protection, but it may also reflect a tighter label. Cash can help with rent, medicine, transport or debt that food aid cannot cover.",
+        "counterpoint_source": "https://www.nber.org/papers/w32784",
+        "limit": "The new study covers pandemic-era programs and short-run food-store spending. It does not show lasting security, well-being or political trust.",
+        "source": "https://www.nber.org/papers/w35698",
+        "location": "Bonomo, Ruffini and Schanzenbach, Is a Dollar a Dollar? How Transfer Design Shapes Household Spending, NBER Working Paper 35698, September 2026. Checked 2026-09-11."
+      },
+      "project": "us-transfer-design-household-spending",
+      "title": "The form of public help changes what families buy",
+      "summary": "Cash, food aid, one-time payments and monthly payments can have different short-run effects even at the same value.",
+      "question": "Does the design of help fit the need?",
+      "limit": "The opening evidence does not yet measure lasting household security or political response.",
+      "subthemes": ["Cash versus labeled help", "One-time versus monthly aid"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-transfer-design-household-spending/source-search-2026-09-11.md"
+    },
+    {
       "id": "aid",
       "evidence_check": {
         "title": "Losing help does not necessarily mean finding work",
@@ -748,6 +770,13 @@
       "meaning": "Follow a recurring charge that survives after its value fades into the household budget, then ask whether repeated private costs become a public trust question.",
       "limit": "The NBER estimate is model-based and does not follow the same US customer from an unwanted renewal to a changed budget or political view.",
       "memo": null
+    },
+    {
+      "title": "When the shape of aid changes the household week",
+      "topics": ["transfer_design", "aid", "food"],
+      "meaning": "Follow the form and timing of public help into food spending, then ask whether short-run spending becomes real security or only a different kind of constraint.",
+      "limit": "The new study measures short-run food-store spending and does not follow the same families through broader needs, lasting security or political response.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1093,6 +1122,14 @@
       "to": "money",
       "relation": "A payment that continues after value fades can reduce room in the household budget",
       "limit": "The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.",
+      "type": "open"
+    },
+    {
+      "id": "link-44",
+      "from": "transfer_design",
+      "to": "aid",
+      "relation": "The form and timing of public help may change how a household uses the program",
+      "limit": "The current evidence measures spending response, not whether one design improves access, security or later trust more than another.",
       "type": "open"
     }
   ]

@@ -1,8 +1,8 @@
 # US source coverage
 
-23 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+24 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 12; HHS: 1; IEA: 1; IMF: 1; NBER: 35; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 12; HHS: 1; IEA: 1; IMF: 1; NBER: 37; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -575,6 +575,29 @@
 - whether easier cancellation lowers useful service continuity.
 
 [Open the source-search record](projects/us-subscription-inattention/source-search-2026-09-11.md)
+
+## US public aid and the shape of a dollar
+
+**Project:** `us-transfer-design-household-spending`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When two families receive aid of the same value, does the form and timing of the aid change what happens next?
+
+**Sources recorded:** 2
+
+- [NBER: Is a Dollar a Dollar? How Transfer Design Shapes Household Spending](https://www.nber.org/papers/w35698)
+- [NBER: The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+
+**Open gaps:**
+- current US results outside pandemic-era programs;
+- spending on food versus skipped bills, care, debt and savings;
+- effects by income, family size, race, place and access to stores;
+- administrative cost and take-up under each design;
+- whether households value choice more than labeling;
+- whether aid form changes political trust or support for a program.
+
+[Open the source-search record](projects/us-transfer-design-household-spending/source-search-2026-09-11.md)
 
 ## US transportation, household cost, and access
 
