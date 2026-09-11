@@ -42,7 +42,10 @@ Amazon's 2025 filing reports $172.162 billion in third-party seller-services rev
 
 The FTC and state case record alleges that Amazon connected seller prices, seller data, advertising, Featured Offers, Prime and promotion of its own products in ways that limited competition. Those are allegations in a live legal record, not established facts.
 
+In a separate August 2026 case, the FTC and 22 states allege that hidden charges in Amazon search-ad auctions raised costs for more than one million brands and sellers, including more than 500,000 small and medium businesses. The FTC says some of those costs were likely passed to US consumers. This adds a possible visibility-cost path, but the claims are not yet a legal finding.
+
 [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm) · [FTC and states case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
+[FTC advertising case, August 2026](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)
 
 ## The connection
 
@@ -86,6 +89,7 @@ Customers with little time, weak alternatives or low ability to compare may carr
 - Customer notice comprehension, privacy choices and actual service outcomes.
 - A record of complaint, human review and remedy when the platform controls the result.
 - Results for small sellers, repeat customers, low-income customers and people with limited digital access.
+- Auction records that separate seller bids, platform charges, product prices and later customer prices.
 
 ## Next test
 
