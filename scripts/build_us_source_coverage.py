@@ -67,6 +67,7 @@ def family(url):
 
 families = {}
 for record in records:
+    record["families"] = sorted({family(source["url"]) for source in record["sources"]})
     for source in record["sources"]:
         label = family(source["url"])
         families[label] = families.get(label, 0) + 1
@@ -86,7 +87,7 @@ cards = []
 for record in records:
     source_list = "".join(f'<li><a href="{escape(s["url"], quote=True)}">{escape(s["label"])}</a></li>' for s in record["sources"])
     gaps = "".join(f"<li>{escape(gap)}</li>" for gap in record["gaps"])
-    cards.append(f'''<article class="card" data-search="{escape((record["title"]+" "+record["project"]+" "+record["question"]).lower(), quote=True)}">
+    cards.append(f'''<article class="card" data-search="{escape((record["title"]+" "+record["project"]+" "+record["question"]).lower(), quote=True)}" data-families="{escape(" ".join(record["families"]), quote=True)}">
 <p class="eyebrow">{escape(record["status"])}</p><h2>{escape(record["title"])}</h2><p>{escape(record["question"])}</p>
 <p class="count">{len(record["sources"])} sources recorded</p><details><summary>Sources</summary><ul>{source_list}</ul></details>
 {f'<details><summary>Open gaps ({len(record["gaps"])})</summary><ul>{gaps}</ul></details>' if record["gaps"] else ''}
@@ -94,7 +95,7 @@ for record in records:
 html = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>US source coverage</title>
 <style>:root{{--paper:#f5f3ed;--ink:#182c2a;--muted:#526560;--line:#cdd7cf;--accent:#155f51}}*{{box-sizing:border-box}}body{{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,sans-serif}}main{{max-width:1080px;margin:auto;padding:34px 24px 80px}}a{{color:var(--accent)}}h1,h2{{font-family:Georgia,serif;font-weight:normal;line-height:1.15}}h1{{font-size:clamp(2.6rem,6vw,4.5rem);max-width:800px;margin:42px 0 20px}}h2{{font-size:1.45rem;margin:8px 0 14px}}.lede{{font-size:1.2rem;max-width:760px}}.controls{{position:sticky;top:0;background:var(--paper);padding:16px 0;border-bottom:1px solid var(--line);z-index:2}}input{{font:inherit;padding:12px;width:100%;border:1px solid #78938a;border-radius:6px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:25px}}.card{{background:#fffefa;border:1px solid var(--line);border-radius:10px;padding:24px}}.eyebrow{{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}}.count{{color:var(--accent);font-weight:600}}details{{border-top:1px solid var(--line);padding:12px 0}}summary{{cursor:pointer;font-weight:600}}li{{margin:7px 0}}[hidden]{{display:none!important}}:focus-visible{{outline:3px solid #b96722;outline-offset:4px}}@media(max-width:720px){{main{{padding:24px 16px}}.grid{{grid-template-columns:1fr}}}}</style></head><body><main>
 <nav><a href="index.html">Research home</a> / source coverage</nav><h1>US source coverage</h1><p class="lede">{len(records)} project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.</p><p class="families">{" · ".join(f"{name}: {count}" for name, count in sorted(families.items()))}</p>
-<div class="controls"><label>Find a project or question<input id="search" type="search" placeholder="Try housing, care, AI or political trust"></label><p id="count" role="status" aria-live="polite">{len(records)} of {len(records)} projects shown</p></div><div class="grid">{"".join(cards)}</div>
-<script>const input=document.querySelector('#search'),cards=[...document.querySelectorAll('.card')],count=document.querySelector('#count');input.addEventListener('input',()=>{{const q=input.value.toLowerCase().trim();let n=0;cards.forEach(c=>{{c.hidden=q&&!c.dataset.search.includes(q);if(!c.hidden)n++}});count.textContent=n+' of '+cards.length+' projects shown'+(n?'':'. Try fewer words.')}});</script></main></body></html>'''
+<div class="controls"><label>Find a project or question<input id="search" type="search" placeholder="Try housing, care, AI or political trust"></label><label>Filter by source family<select id="family"><option value="">All source families</option>{''.join(f'<option value="{escape(name, quote=True)}">{escape(name)}</option>' for name in sorted(families))}</select></label><p id="count" role="status" aria-live="polite">{len(records)} of {len(records)} projects shown</p></div><div class="grid">{"".join(cards)}</div>
+<script>const input=document.querySelector('#search'),family=document.querySelector('#family'),cards=[...document.querySelectorAll('.card')],count=document.querySelector('#count');function filter(){{const q=input.value.toLowerCase().trim(),f=family.value;let n=0;cards.forEach(c=>{{c.hidden=(q&&!c.dataset.search.includes(q))||(f&&!c.dataset.families.split(' ').includes(f));if(!c.hidden)n++}});count.textContent=n+' of '+cards.length+' projects shown'+(n?'':'. Try fewer words or choose all source families.')}}input.addEventListener('input',filter);family.addEventListener('change',filter);</script></main></body></html>'''
 (ROOT / "site/us-source-coverage.html").write_text(html)
 print(f"Built source coverage for {len(records)} projects.")
