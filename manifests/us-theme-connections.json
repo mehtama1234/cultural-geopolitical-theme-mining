@@ -947,6 +947,31 @@
       "theme": "energy",
       "status": "Early reading",
       "source_record": "analysis/projects/us-utility-shutoff-bill-timing/source-search-2026-09-11.md"
+    },
+    {
+      "id": "health_insurance_job_lock",
+      "evidence_check": {
+        "title": "Health coverage can hold a job in place",
+        "finding": "NBER studies find that dependent coverage can increase parental job retention, and that losing public health coverage can increase job search and employment among people seeking employer coverage. Earlier work also found lower voluntary turnover among some workers with employer insurance and high medical expenses.",
+        "meaning": "Working interpretation: a job can be a wage and a route to care at the same time, so leaving may carry a cost that a wage comparison misses.",
+        "counterpoint": "Employer coverage can be a valuable part of pay and can help a worker keep needed care. Staying is not proof of regret, poor job quality or lost opportunity.",
+        "counterpoint_source": "https://www.nber.org/papers/w30200",
+        "limit": "The current sources do not compare the full value of coverage with job quality, pay, family health needs and the next available plan for the same worker.",
+        "source": "https://www.nber.org/papers/w30200",
+        "location": "NBER dependent-coverage, employment-lock and job-mobility studies, with HBS health-care analysis. Checked 2026-09-11."
+      },
+      "project": "us-health-insurance-job-lock",
+      "title": "Health coverage can hold a job in place",
+      "summary": "A job can provide wages and health coverage together, making the cost of leaving hard to see.",
+      "question": "How much of a job decision is really a health-coverage decision?",
+      "limit": "The opening packet shows a coverage-related staying choice, not a general loss of mobility or well-being.",
+      "subthemes": [
+        "Dependent coverage",
+        "Job movement and portable care"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-health-insurance-job-lock/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1226,6 +1251,13 @@
       "topics": ["utility_shutoff_timing", "energy", "money"],
       "meaning": "Follow the gap between income and the utility due date into arrears or shutoff, then ask what payment, credit or health cost follows.",
       "limit": "The current sources do not establish the full later chain for every household.",
+      "memo": null
+    },
+    {
+      "title": "When health coverage keeps a job in place",
+      "topics": ["health_insurance_job_lock", "work", "money"],
+      "meaning": "Follow employer coverage into the cost of changing jobs, then ask whether the worker gains or gives up pay, fit and family care access.",
+      "limit": "The current sources do not compare the full job and coverage choice for the same worker.",
       "memo": null
     }
   ],
@@ -1700,6 +1732,14 @@
       "to": "energy",
       "relation": "The energy burden includes when the bill is due and when household money arrives",
       "limit": "The current sources do not show which households face a shutoff or what they do to avoid it.",
+      "type": "open"
+    },
+    {
+      "id": "link-60",
+      "from": "health_insurance_job_lock",
+      "to": "work",
+      "relation": "The job can carry health coverage that changes the cost of leaving",
+      "limit": "The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.",
       "type": "open"
     }
   ]

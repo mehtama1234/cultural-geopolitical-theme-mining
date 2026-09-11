@@ -441,6 +441,16 @@ Follow the gap between income and the utility due date into arrears or shutoff, 
 
 Still missing: The current sources do not establish the full later chain for every household.
 
+### When health coverage keeps a job in place
+
+Follow employer coverage into the cost of changing jobs, then ask whether the worker gains or gives up pay, fit and family care access.
+
+1. [Health coverage can hold a job in place](#health_insurance_job_lock)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not compare the full job and coverage choice for the same worker.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1679,6 +1689,7 @@ Connections:
 - Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: One office day can change the remote week. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
 - Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: Equal income can buy a different life through several jobs. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
 - Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: A small business and its household can share one cash pool. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
+- Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: Health coverage can hold a job in place. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
 
 ### Fit can decide who gets heard at work
 
@@ -1850,6 +1861,41 @@ The current US sources do not show which owners have another cash buffer or whet
 Connections:
 
 - Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: The same job can contain different AI access. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
+
+### Health coverage can hold a job in place
+
+A job can provide wages and health coverage together, making the cost of leaving hard to see.
+
+**Question:** How much of a job decision is really a health-coverage decision?
+
+**Subthemes:** Dependent coverage; Job movement and portable care
+
+**Limit:** The opening packet shows a coverage-related staying choice, not a general loss of mobility or well-being.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200)
+- [Public Health Insurance, Labor Supply, and Employment Lock](https://www.nber.org/papers/w19220)
+- [Employment-Based Health Insurance and Job Mobility](https://www.nber.org/papers/w4476)
+- [Post-COVID Health Care: More Screens, Less Red Tape?](https://www.library.hbs.edu/working-knowledge/post-covid-health-care-more-screens-less-red-tape)
+
+#### Evidence check: Health coverage can hold a job in place
+
+NBER studies find that dependent coverage can increase parental job retention, and that losing public health coverage can increase job search and employment among people seeking employer coverage. Earlier work also found lower voluntary turnover among some workers with employer insurance and high medical expenses.
+
+Working interpretation: a job can be a wage and a route to care at the same time, so leaving may carry a cost that a wage comparison misses.
+
+**Counterpoint:** Employer coverage can be a valuable part of pay and can help a worker keep needed care. Staying is not proof of regret, poor job quality or lost opportunity.
+[Related study](https://www.nber.org/papers/w30200)
+
+The current sources do not compare the full value of coverage with job quality, pay, family health needs and the next available plan for the same worker.
+
+[NBER dependent-coverage, employment-lock and job-mobility studies, with HBS health-care analysis. Checked 2026-09-11.](https://www.nber.org/papers/w30200)
+
+
+Connections:
+
+- Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: The same job can contain different AI access. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
 
 ## A home can be costly to heat before anything else changes
 

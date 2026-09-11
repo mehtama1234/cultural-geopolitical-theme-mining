@@ -1,8 +1,8 @@
 # US source coverage
 
-39 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+40 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 31; HHS: 2; IEA: 1; IMF: 1; NBER: 59; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 32; HHS: 2; IEA: 1; IMF: 1; NBER: 62; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -505,6 +505,31 @@
 - evidence that challenges the idea that medical costs are driving the later outcome.
 
 [Open the source-search record](projects/us-health-cost-household-choice/source-search-2026-09-11.md)
+
+## US health coverage and staying in a job
+
+**Project:** `us-health-insurance-job-lock`
+
+**Status:** opening pass; coverage and job movement are linked in the evidence, broader household effects remain open
+
+**Question:** How much of a job decision is really a health-coverage decision?
+
+**Sources recorded:** 4
+
+- [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200)
+- [Public Health Insurance, Labor Supply, and Employment Lock](https://www.nber.org/papers/w19220)
+- [Employment-Based Health Insurance and Job Mobility](https://www.nber.org/papers/w4476)
+- [Post-COVID Health Care: More Screens, Less Red Tape?](https://www.library.hbs.edu/working-knowledge/post-covid-health-care-more-screens-less-red-tape)
+
+**Open gaps:**
+- premium, deductible and out-of-pocket cost by plan;
+- dependent health needs and continuity of care;
+- job quality, pay, hours and promotion forgone;
+- movement into self-employment, training or a new place;
+- differences by health, age, income, race and family structure;
+- coverage options outside the employer after a job change.
+
+[Open the source-search record](projects/us-health-insurance-job-lock/source-search-2026-09-11.md)
 
 ## US hometown business and the loss of local ownership
 
