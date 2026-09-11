@@ -4,6 +4,36 @@
 
 When firms adopt AI, does the main change come from better tools, tighter measurement, new forms of supervision, or a shift in who owns the work process?
 
+## Meaty end-to-end goal
+
+Build a source-traceable account of how workplace AI changes the distribution of capability and control.
+
+For each major system or adoption push, follow the full chain:
+
+```text
+capital and firm strategy
+  -> system purpose and data design
+  -> worker access, training, monitoring, and task rules
+  -> changes in pace, discretion, skill, pay, safety, and responsibility
+  -> worker, manager, union, regulator, and public response
+  -> changes in household security, status, trust, and local opportunity
+  -> company and sector exposure
+  -> state dependence, cross-border labor, infrastructure, and geopolitical leverage
+```
+
+The finished project should explain, in plain language:
+
+1. what the system actually does and what problem it claims to solve;
+2. which workers and firms use it, under what rules, and with what alternatives;
+3. who gains time, skill, income, safety, bargaining power, or decision rights;
+4. who bears monitoring, error, pace, health, job-loss, privacy, or retraining risk;
+5. whether worker participation changes system purpose, limits, data, pace, or remedy;
+6. how the change travels through households, communities, sectors, and public institutions;
+7. when labor, data, software, chips, cloud capacity, or infrastructure create dependence between firms or states;
+8. what evidence would disprove the proposed mechanism.
+
+The project is complete only for a bounded topic when it has a dated source universe, claims ledger, method and limits, direct evidence/inference split, counterevidence, four-map theme record, company or sector bridge, matching Markdown and HTML finding, and named gaps for groups, places, outcomes, and enforcement. It must remain open when the evidence is still case-based, modeled, company-reported, or too thin to support a wider conclusion.
+
 ## Why this project matters
 
 The visible story is usually about speed and jobs. The deeper question is who gets to decide how work is done, who sees the data, who carries the risk of mistakes, and who can refuse the new system.
@@ -45,6 +75,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 006: Technology becomes a worker benefit through the social bargain](findings/ai-work-control-006.md)
 - [Finding 007: Flexibility is not the same as freedom](findings/ai-work-control-007.md)
 - [Finding 008: Worker voice is part of system design](findings/ai-work-control-008.md)
+- [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
@@ -62,3 +93,4 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published HTML finding 006](../../../site/ai-work-control/finding-006.html)
 - [Published HTML finding 007](../../../site/ai-work-control/finding-007.html)
 - [Published HTML finding 008](../../../site/ai-work-control/finding-008.html)
+- [Published ILO case table](../../../site/ai-work-control/ilo-social-dialogue-case-table.html)

@@ -23,7 +23,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 ## Evidence count
 
-- 29 claims in the ledger;
+- 41 claims in the ledger;
 - 8 provisional findings;
 - 3 company bridges;
 - 1 theme map;
@@ -69,7 +69,7 @@ These are not errors to smooth away. They may reflect different tools, populatio
 5. Verify at least one company claim with an independent outcome source.
 6. Compare technology that removes a worker barrier with technology that evaluates or disciplines.
 7. Test whether infrastructure and outside options change the returns to AI exposure.
-8. Extract the ILO social-dialogue cases and compare participation with actual system changes.
+8. Obtain the underlying agreements and legal records behind the ILO cases, then compare participation with actual system changes.
 
 ## Exhaustion rule
 

@@ -18,7 +18,7 @@
     "findings": 8,
     "company_bridges": 3,
     "theme_maps": 1,
-    "claims_in_ledger": 35
+    "claims_in_ledger": 41
   },
   "geographies": {
     "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa", "China", "Indonesia", "Latin America and the Caribbean", "North America", "Asia", "Africa"],
@@ -44,7 +44,8 @@
     "add direct evidence on correction, appeal, promotion, and discipline",
     "add worker evidence outside Europe and the United States",
     "compare small firms, contractors, unions, and public employers",
-    "verify at least one company claim with an independent outcome source"
+    "verify at least one company claim with an independent outcome source",
+    "obtain underlying agreements and legal records behind the ILO cases"
   ],
   "exhaustion_rule": "Do not mark exhausted until new searches mostly return known evidence, priority gaps are tested, major counterarguments are read, and remaining gaps are named."
 }

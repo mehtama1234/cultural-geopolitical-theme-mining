@@ -24,7 +24,7 @@ workers and representatives receive information -> they can question the purpose
 -> the system fits work better and causes fewer avoidable harms
 ```
 
-The case study supports the existence of this governance path. It does not prove that participation produces better outcomes in every setting.
+The case study supports the existence of this governance path. Its five detailed cases include rules over digital replicas, retraining and workforce data, housekeeping task order, biometric access, and outsourced content work. It does not prove that participation produces better outcomes in every setting.
 
 ## What to record in each case
 
@@ -64,11 +64,10 @@ Case studies often select visible or successful examples. Participation may be s
 
 ## Next tests
 
-1. Extract every ILO case into a structured case table.
-2. Compare the cases with actual company AI policies and collective agreements.
-3. Track participation before deployment, during use, and after a harmful decision.
-4. Add public-sector and contractor cases.
-5. Test whether participation changes monitoring, pace, pay, job quality, or data use.
+1. Compare the [ILO case table](../ilo-social-dialogue-case-table-v1.md) with the actual agreements and legal records.
+2. Track participation before deployment, during use, and after a harmful decision.
+3. Add failed or symbolic consultation cases, public-sector cases, and contractor cases.
+4. Test whether participation changes monitoring, pace, pay, job quality, or data use.
 
 ## Sources
 
