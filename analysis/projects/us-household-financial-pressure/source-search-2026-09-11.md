@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening packet; no settled finding  
+**Status:** short opening packet; no settled finding; move on after the next verification pass
 **Search rule:** begin with HBS/NBER discovery, then move to US primary records and a small comparison layer.
 
 ## Working question

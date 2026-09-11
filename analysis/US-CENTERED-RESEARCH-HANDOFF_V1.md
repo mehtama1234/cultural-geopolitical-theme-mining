@@ -42,6 +42,12 @@ Start with topics that touch several of these at once:
 7. Look for a serious counterexample: a group, place, company, period, or policy where the proposed mechanism does not hold.
 8. Write one plain-language finding in Markdown, then a matching HTML page. No slogans, no inflated language, and no causal claim that the evidence cannot carry.
 
+## Pace and writing rule
+
+Use a short first pass for each topic. In that pass, collect a few strong sources, identify the possible deeper pattern, write down the main limit, and decide whether the topic deserves more time. Do not spend days proving a small point when the evidence is thin. Move on when the next test is clear.
+
+Write as if explaining the idea to an intelligent neighbor: short sentences, common words, concrete people and actions. Avoid business fashion words, academic fog, dramatic claims, and filler. Say “who pays,” “who decides,” “who waits,” and “what changed” instead of using a large abstract label.
+
 ## Required output for each topic
 
 - a dated search record and source universe;
