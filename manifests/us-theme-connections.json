@@ -1072,6 +1072,31 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-income-volatility-spending-risk/source-search-2026-09-11.md"
+    },
+    {
+      "id": "durable_purchase_finance",
+      "evidence_check": {
+        "title": "A temporary payment can become a long monthly bill",
+        "finding": "NBER estimates that households spent about 80% of a 2008 stimulus payment on durable goods within three months, mostly vehicles, and financed about 40 cents of each dollar of vehicle purchases with loans. HBS reports that installment checkout financing can raise spending and fees for some lower-income shoppers.",
+        "meaning": "Working interpretation: a one-time payment can improve access to a needed durable good while committing part of the future household budget.",
+        "counterpoint": "A vehicle or appliance can protect work, care or daily life and may cost less than repeated repair or travel. Borrowing can be the sensible way to spread a necessary payment.",
+        "counterpoint_source": "https://www.nber.org/papers/w35026",
+        "limit": "The current sources do not follow the same household from purchase and loan terms through repayment, access and the next financial shock.",
+        "source": "https://www.nber.org/papers/w35026",
+        "location": "NBER durable-spending research and HBS installment-financing research, checked 2026-09-11."
+      },
+      "project": "us-durable-purchase-financing",
+      "title": "A temporary payment can become a long monthly bill",
+      "summary": "A large household purchase can improve daily access now while committing future cash.",
+      "question": "What happens when a one-time payment meets a large household purchase?",
+      "limit": "The opening packet shows purchase and financing responses, not the later effect on every household.",
+      "subthemes": [
+        "Vehicle and durable replacement",
+        "Loan terms and future room"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-durable-purchase-financing/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1386,6 +1411,13 @@
       "topics": ["income_volatility_spending", "work", "money"],
       "meaning": "Follow a change in pay risk into spending and credit, then ask whether the household can still plan, borrow and keep its choices open.",
       "limit": "The current sources do not follow the same worker through pay risk, cash reserves and later household outcomes.",
+      "memo": null
+    },
+    {
+      "title": "When a temporary payment becomes a monthly bill",
+      "topics": ["durable_purchase_finance", "credit", "money"],
+      "meaning": "Follow a one-time payment into a vehicle or other durable purchase, then ask whether financing protects access or narrows later room.",
+      "limit": "The current sources do not show the same household's need, loan terms and later repayment outcome.",
       "memo": null
     }
   ],
@@ -1900,6 +1932,14 @@
       "to": "work",
       "relation": "A less predictable paycheck can change what work leaves a household able to plan and buy",
       "limit": "The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.",
+      "type": "open"
+    },
+    {
+      "id": "link-65",
+      "from": "durable_purchase_finance",
+      "to": "credit",
+      "relation": "A large purchase can turn temporary household room into a longer credit obligation",
+      "limit": "The current evidence does not show whether the financed purchase protected access or reduced later financial room.",
       "type": "open"
     }
   ]

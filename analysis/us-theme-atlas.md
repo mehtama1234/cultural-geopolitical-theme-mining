@@ -490,6 +490,16 @@ Follow a change in pay risk into spending and credit, then ask whether the house
 
 Still missing: The current sources do not follow the same worker through pay risk, cash reserves and later household outcomes.
 
+### When a temporary payment becomes a monthly bill
+
+Follow a one-time payment into a vehicle or other durable purchase, then ask whether financing protects access or narrows later room.
+
+1. [A temporary payment can become a long monthly bill](#durable_purchase_finance)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not show the same household's need, loan terms and later repayment outcome.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -801,6 +811,7 @@ Connections:
 - Question to test: An unrecovered loss can reduce the household's financial buffer. Related topic: A payment problem can become a recovery problem. The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.
 - Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: A student loan can follow a person into adult choices. The current sources use different products and do not compare the same household's repayment paths.
 - Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Removing medical debt can fix the record without fixing the illness. The current experiment does not show how the credit change affects housing, work or later household money.
+- Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: A temporary payment can become a long monthly bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
 
 ### A student loan can follow a person into adult choices
 
@@ -1090,6 +1101,40 @@ The current study does not show that every living-arrangement change lasted or i
 Connections:
 
 - Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Keeping a home also means paying to protect it. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
+
+### A temporary payment can become a long monthly bill
+
+A large household purchase can improve daily access now while committing future cash.
+
+**Question:** What happens when a one-time payment meets a large household purchase?
+
+**Subthemes:** Vehicle and durable replacement; Loan terms and future room
+
+**Limit:** The opening packet shows purchase and financing responses, not the later effect on every household.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [How Responsive are Durables Expenditures to Transitory Income Shocks?](https://www.nber.org/papers/w35026)
+- [Buy Now, Pay Later: How Retail's Hot Feature Hurts Low-Income Shoppers](https://www.library.hbs.edu/working-knowledge/buy-now-pay-later-how-retails-hot-feature-hurts-lower-income-shoppers)
+- [Consumption Dynamics During Recessions](https://www.nber.org/papers/w20175)
+
+#### Evidence check: A temporary payment can become a long monthly bill
+
+NBER estimates that households spent about 80% of a 2008 stimulus payment on durable goods within three months, mostly vehicles, and financed about 40 cents of each dollar of vehicle purchases with loans. HBS reports that installment checkout financing can raise spending and fees for some lower-income shoppers.
+
+Working interpretation: a one-time payment can improve access to a needed durable good while committing part of the future household budget.
+
+**Counterpoint:** A vehicle or appliance can protect work, care or daily life and may cost less than repeated repair or travel. Borrowing can be the sensible way to spread a necessary payment.
+[Related study](https://www.nber.org/papers/w35026)
+
+The current sources do not follow the same household from purchase and loan terms through repayment, access and the next financial shock.
+
+[NBER durable-spending research and HBS installment-financing research, checked 2026-09-11.](https://www.nber.org/papers/w35026)
+
+
+Connections:
+
+- Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: Credit can be a bridge and a later bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
 
 ## Who gives up time
 

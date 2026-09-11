@@ -1,8 +1,8 @@
 # US source coverage
 
-44 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+45 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 37; HHS: 2; IEA: 1; IMF: 1; NBER: 70; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 38; HHS: 2; IEA: 1; IMF: 1; NBER: 72; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -359,6 +359,30 @@
 - independent data beyond company and survey reports.
 
 [Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-11.md)
+
+## US durable purchases and borrowed room
+
+**Project:** `us-durable-purchase-financing`
+
+**Status:** opening pass; purchase and financing response is measured, later household cost remains open
+
+**Question:** What happens when a one-time payment meets a large household purchase?
+
+**Sources recorded:** 3
+
+- [How Responsive are Durables Expenditures to Transitory Income Shocks?](https://www.nber.org/papers/w35026)
+- [Buy Now, Pay Later: How Retail's Hot Feature Hurts Low-Income Shoppers](https://www.library.hbs.edu/working-knowledge/buy-now-pay-later-how-retails-hot-feature-hurts-lower-income-shoppers)
+- [Consumption Dynamics During Recessions](https://www.nber.org/papers/w20175)
+
+**Open gaps:**
+- whether the purchase replaced a failing essential item;
+- loan rate, term, down payment and monthly payment;
+- later delinquency, repair, insurance and fuel cost;
+- cash buffer before and after the purchase;
+- differences by income, credit history, race, place and vehicle need;
+- whether the purchase protected work or care access.
+
+[Open the source-search record](projects/us-durable-purchase-financing/source-search-2026-09-11.md)
 
 ## US real wages and the vote
 
