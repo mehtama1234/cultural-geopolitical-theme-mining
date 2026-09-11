@@ -1841,9 +1841,38 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-rideshare-licensing-customer-safety/source-search-2026-09-11.md"
+    },
+    {
+      "id": "platform_data_neutrality",
+      "evidence_check": {
+        "title": "Equal data access can open competition and reduce data investment",
+        "finding": "An NBER model studies rules that require a platform to treat affiliated and outside sellers equally when sharing data. Equal data amounts can be weakened by discriminatory data prices. Equal data and prices open competition more, but may reduce the platform's reason to improve or produce data, so customer welfare need not rise in every case.",
+        "meaning": "Working interpretation: a platform can be both the market gate and the maker of the information used in the market. Opening the gate may change the quality of the information too.",
+        "counterpoint": "Without equal access, a platform may favor its own sellers and keep rivals weak. A reduction in data investment may be small if the platform has other reasons to improve the service.",
+        "counterpoint_source": "https://www.nber.org/papers/w35159",
+        "limit": "The opening source is a model and does not test a named US platform rule, actual seller prices, data quality or customer outcomes.",
+        "source": "https://www.nber.org/papers/w35159",
+        "location": "Fang and Kim, Data Neutrality, Data Supply, and Market Competition, NBER Working Paper 35159, checked 2026-09-11."
+      },
+      "project": "us-platform-data-neutrality",
+      "title": "Equal data access can open competition and reduce data investment",
+      "summary": "A rule that opens platform data to outside sellers may improve competition while changing how much useful data the platform produces.",
+      "question": "When does a data fairness rule help customers, and when does it weaken the information they need?",
+      "limit": "The opening source is a model, not a measured result from a named US platform.",
+      "subthemes": ["Platform data access", "Competition and customer welfare"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-platform-data-neutrality/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a data rule changes the customer exchange",
+      "topics": ["platform_data_neutrality", "privacy_trust", "service"],
+      "meaning": "Follow platform data from access and control into the customer's trust and service choice. Ask whether more openness gives customers a better answer or only a different data deal.",
+      "limit": "The current model and privacy study concern different settings and do not follow one customer through data sharing, service quality and welfare.",
+      "memo": null
+    },
     {
       "title": "When customer protection changes who can provide the ride",
       "topics": ["rideshare_licensing_customer_safety", "rideshare_price_search_friction", "transport"],
@@ -3379,6 +3408,22 @@
       "relation": "A licensing rule can change the driver pool behind the prices and service choices customers compare",
       "limit": "The current studies examine licensing and price search separately and do not show their joint market effect.",
       "type": "comparison"
+    },
+    {
+      "id": "link-125",
+      "from": "platform_data_neutrality",
+      "to": "privacy_trust",
+      "relation": "A rule about data access can change what customers think they are exchanging for a service",
+      "limit": "The current model does not measure customer trust, sharing or privacy choices on a real platform.",
+      "type": "open"
+    },
+    {
+      "id": "link-126",
+      "from": "platform_data_neutrality",
+      "to": "service",
+      "relation": "Platform data rules can change the seller competition and service choices customers see",
+      "limit": "The current model does not show actual service quality, prices or customer welfare in a US market.",
+      "type": "open"
     }
   ]
 }

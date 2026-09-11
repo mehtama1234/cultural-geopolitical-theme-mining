@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a data rule changes the customer exchange
+
+Follow platform data from access and control into the customer's trust and service choice. Ask whether more openness gives customers a better answer or only a different data deal.
+
+1. [Equal data access can open competition and reduce data investment](#platform_data_neutrality)
+2. [Privacy rules can make people more willing to share](#privacy_trust)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current model and privacy study concern different settings and do not follow one customer through data sharing, service quality and welfare.
+
 ### When customer protection changes who can provide the ride
 
 Follow a licensing rule into the drivers available, the platform choices customers see, and the ride they receive. Ask whether protection improves service or narrows access.
@@ -2207,6 +2217,7 @@ The current evidence comes from one platform and does not show that users unders
 Connections:
 
 - Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: A quicker reply may still leave a problem open. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
+- Question to test: A rule about data access can change what customers think they are exchanging for a service. Related topic: Equal data access can open competition and reduce data investment. The current model does not measure customer trust, sharing or privacy choices on a real platform.
 
 ### Personal finances and national mood can move apart
 
@@ -2416,6 +2427,7 @@ Connections:
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: The same job can contain different AI access. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A payment problem can become a recovery problem. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
 - Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: Privacy rules can make people more willing to share. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
+- Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: Equal data access can open competition and reduce data investment. The current model does not show actual service quality, prices or customer welfare in a US market.
 
 ### More work does not always mean more room
 
@@ -2992,6 +3004,39 @@ Connections:
 - Question to test: A rideshare app turns a transport need into a choice among price, time and convenience. Related topic: Getting to a place is a major household cost. The current study does not show each rider's wider route, time pressure or available alternatives.
 - Question to test: A missed price comparison can leave less household money after the same trip. Related topic: The price on the screen is only part of the cost. The current study estimates fare gaps but does not measure each rider's budget or later household choice.
 - Comparison: A licensing rule can change the driver pool behind the prices and service choices customers compare. Related topic: A license rule may not improve the ride customers receive. The current studies examine licensing and price search separately and do not show their joint market effect.
+
+### Equal data access can open competition and reduce data investment
+
+A rule that opens platform data to outside sellers may improve competition while changing how much useful data the platform produces.
+
+**Question:** When does a data fairness rule help customers, and when does it weaken the information they need?
+
+**Subthemes:** Platform data access; Competition and customer welfare
+
+**Limit:** The opening source is a model, not a measured result from a named US platform.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Data Neutrality, Data Supply, and Market Competition](https://www.nber.org/papers/w35159)
+
+#### Evidence check: Equal data access can open competition and reduce data investment
+
+An NBER model studies rules that require a platform to treat affiliated and outside sellers equally when sharing data. Equal data amounts can be weakened by discriminatory data prices. Equal data and prices open competition more, but may reduce the platform's reason to improve or produce data, so customer welfare need not rise in every case.
+
+Working interpretation: a platform can be both the market gate and the maker of the information used in the market. Opening the gate may change the quality of the information too.
+
+**Counterpoint:** Without equal access, a platform may favor its own sellers and keep rivals weak. A reduction in data investment may be small if the platform has other reasons to improve the service.
+[Related study](https://www.nber.org/papers/w35159)
+
+The opening source is a model and does not test a named US platform rule, actual seller prices, data quality or customer outcomes.
+
+[Fang and Kim, Data Neutrality, Data Supply, and Market Competition, NBER Working Paper 35159, checked 2026-09-11.](https://www.nber.org/papers/w35159)
+
+
+Connections:
+
+- Question to test: A rule about data access can change what customers think they are exchanging for a service. Related topic: Privacy rules can make people more willing to share. The current model does not measure customer trust, sharing or privacy choices on a real platform.
+- Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: A quicker reply may still leave a problem open. The current model does not show actual service quality, prices or customer welfare in a US market.
 
 ## Who controls the work and gets the gain
 

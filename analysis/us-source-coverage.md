@@ -1,8 +1,8 @@
 # US source coverage
 
-78 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+79 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 125; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 126; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1370,6 +1370,28 @@
 - differences by income, age, disability, race, place and broadband access.
 
 [Open the source-search record](projects/us-payment-system-outage-resilience/source-search-2026-09-11.md)
+
+## US platform data neutrality
+
+**Project:** `us-platform-data-neutrality`
+
+**Status:** opening pass; the model maps platform data rules and welfare, direct US market evidence remains open
+
+**Question:** When a platform controls the data that sellers need, does an equal-access rule help customers or weaken the data they rely on?
+
+**Sources recorded:** 1
+
+- [Data Neutrality, Data Supply, and Market Competition](https://www.nber.org/papers/w35159)
+
+**Open gaps:**
+- named platform and current rule;
+- data quality and access price;
+- seller entry, prices and product choice;
+- customer search and welfare;
+- platform investment after regulation;
+- enforcement and political power.
+
+[Open the source-search record](projects/us-platform-data-neutrality/source-search-2026-09-11.md)
 
 ## US cash policy and public mood
 
