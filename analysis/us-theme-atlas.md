@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a tariff keeps moving after the first price rise
+
+Follow a tariff from the first import price into the existing pass-through evidence, then ask how the delayed domestic markup changes the price story a household sees.
+
+1. [A tariff can reach US prices later through domestic markups](#tariff_domestic_markup_delay)
+2. [A trade policy can reach the shelf slowly](#tariff_pass_through)
+3. [A slower rise in prices can still feel like a loss](#price_perception)
+
+Still missing: The current studies use different price measures and do not follow the same household through its basket, substitution, income and political judgment.
+
 ### When a free app charges in time
 
 Follow a no-money-price service into the time and attention it takes, then ask what the customer receives and what becomes harder to do.
@@ -1002,6 +1012,7 @@ The current studies do not show the exact bill, purchase change or political res
 Connections:
 
 - Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
+- Comparison: A delayed domestic markup adds a second stage to the tariff price path. Related topic: A tariff can reach US prices later through domestic markups. The current studies use different tariff periods and price measures and do not estimate one complete product path.
 
 ### A slower rise in prices can still feel like a loss
 
@@ -1044,6 +1055,7 @@ Connections:
 - Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: The same price rise can produce different blame. The current survey does not join each respondent's price basket, income change and belief about the cause.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: The same income can buy a different life by place. The local-price study measures product indexes, not each household's remembered prices or story about them.
+- Question to test: A price that rises in stages can make a trade policy harder to trace to the household bill. Related topic: A tariff can reach US prices later through domestic markups. The current evidence does not show what price story each household notices or who it blames.
 
 ### The price on the screen is only part of the cost
 
@@ -1839,6 +1851,39 @@ Connections:
 
 - Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: A slower rise in prices can still feel like a loss. The local-price study measures product indexes, not each household's remembered prices or story about them.
 - Question to test: Local prices change the real spending room left by the same nominal income. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.
+
+### A tariff can reach US prices later through domestic markups
+
+Tariffs can affect consumer prices directly and later through imported inputs and less import competition for US producers.
+
+**Question:** Why can the household price effect keep growing after the tariff starts?
+
+**Subthemes:** Direct and delayed price effects; Trade policy and domestic competition
+
+**Limit:** The opening study measures product-price paths, not the full household, job or political result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Anatomy of Tariff Pass-through into Consumer Prices](https://www.nber.org/papers/w35561)
+
+#### Evidence check: A tariff can reach US prices later through domestic markups
+
+Studying the 2025 US tariffs, an NBER study estimates that about 26% of the tariff increase passed through to consumer prices relative to less-exposed goods. About 64% of that increase was direct, while 36% came indirectly through imported inputs and higher domestic markups as imports became less competitive. The direct effect was quick; the indirect effect took about nine to twelve months.
+
+Working interpretation: the consumer effect of a trade policy may keep building after the first shelf-price jump because domestic firms face higher inputs and less import competition.
+
+**Counterpoint:** Domestic firms may use the pressure to invest, switch suppliers or expand production. A higher price can also reflect a change in product mix or demand, not only a tariff.
+[Related study](https://www.nber.org/papers/w35561)
+
+The estimate is relative to less-exposed goods and holds aggregate conditions fixed. It does not show the exact household bill, jobs, firm entry or the full long-run response.
+
+[Amiti, Heise and Weinstein, The Anatomy of Tariff Pass-through into Consumer Prices, NBER Working Paper 35561, checked 2026-09-11.](https://www.nber.org/papers/w35561)
+
+
+Connections:
+
+- Comparison: A delayed domestic markup adds a second stage to the tariff price path. Related topic: A trade policy can reach the shelf slowly. The current studies use different tariff periods and price measures and do not estimate one complete product path.
+- Question to test: A price that rises in stages can make a trade policy harder to trace to the household bill. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show what price story each household notices or who it blames.
 
 ## Who gives up time
 

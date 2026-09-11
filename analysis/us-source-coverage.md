@@ -1,8 +1,8 @@
 # US source coverage
 
-80 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+81 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 127; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 128; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1783,6 +1783,28 @@
 - whether easier cancellation lowers useful service continuity.
 
 [Open the source-search record](projects/us-subscription-inattention/source-search-2026-09-11.md)
+
+## US tariff price paths and delayed domestic markups
+
+**Project:** `us-tariff-domestic-markup-delay`
+
+**Status:** opening pass; direct and indirect tariff price paths are measured, full household and firm response remains open
+
+**Question:** When a tariff raises prices, how much comes from the taxed import and how much arrives later through US producers and weaker competition?
+
+**Sources recorded:** 1
+
+- [The Anatomy of Tariff Pass-through into Consumer Prices](https://www.nber.org/papers/w35561)
+
+**Open gaps:**
+- household basket and income;
+- domestic output, jobs and wages;
+- firm entry, exit and markups;
+- substitution and product quality;
+- later policy changes and retaliation;
+- political blame and vote.
+
+[Open the source-search record](projects/us-tariff-domestic-markup-delay/source-search-2026-09-11.md)
 
 ## US tariffs and the price that arrives later
 

@@ -1885,9 +1885,38 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-time-intensive-platform-consumption/source-search-2026-09-11.md"
+    },
+    {
+      "id": "tariff_domestic_markup_delay",
+      "evidence_check": {
+        "title": "A tariff can reach US prices later through domestic markups",
+        "finding": "Studying the 2025 US tariffs, an NBER study estimates that about 26% of the tariff increase passed through to consumer prices relative to less-exposed goods. About 64% of that increase was direct, while 36% came indirectly through imported inputs and higher domestic markups as imports became less competitive. The direct effect was quick; the indirect effect took about nine to twelve months.",
+        "meaning": "Working interpretation: the consumer effect of a trade policy may keep building after the first shelf-price jump because domestic firms face higher inputs and less import competition.",
+        "counterpoint": "Domestic firms may use the pressure to invest, switch suppliers or expand production. A higher price can also reflect a change in product mix or demand, not only a tariff.",
+        "counterpoint_source": "https://www.nber.org/papers/w35561",
+        "limit": "The estimate is relative to less-exposed goods and holds aggregate conditions fixed. It does not show the exact household bill, jobs, firm entry or the full long-run response.",
+        "source": "https://www.nber.org/papers/w35561",
+        "location": "Amiti, Heise and Weinstein, The Anatomy of Tariff Pass-through into Consumer Prices, NBER Working Paper 35561, checked 2026-09-11."
+      },
+      "project": "us-tariff-domestic-markup-delay",
+      "title": "A tariff can reach US prices later through domestic markups",
+      "summary": "Tariffs can affect consumer prices directly and later through imported inputs and less import competition for US producers.",
+      "question": "Why can the household price effect keep growing after the tariff starts?",
+      "limit": "The opening study measures product-price paths, not the full household, job or political result.",
+      "subthemes": ["Direct and delayed price effects", "Trade policy and domestic competition"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-tariff-domestic-markup-delay/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a tariff keeps moving after the first price rise",
+      "topics": ["tariff_domestic_markup_delay", "tariff_pass_through", "price_perception"],
+      "meaning": "Follow a tariff from the first import price into the existing pass-through evidence, then ask how the delayed domestic markup changes the price story a household sees.",
+      "limit": "The current studies use different price measures and do not follow the same household through its basket, substitution, income and political judgment.",
+      "memo": null
+    },
     {
       "title": "When a free app charges in time",
       "topics": ["time_intensive_platform_consumption", "attention", "service"],
@@ -3468,6 +3497,22 @@
       "to": "service",
       "relation": "A platform's design can change the service received and the time needed to use it",
       "limit": "The current study measures ad load and substitution, not the full quality or value of the service.",
+      "type": "open"
+    },
+    {
+      "id": "link-129",
+      "from": "tariff_domestic_markup_delay",
+      "to": "tariff_pass_through",
+      "relation": "A delayed domestic markup adds a second stage to the tariff price path",
+      "limit": "The current studies use different tariff periods and price measures and do not estimate one complete product path.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-130",
+      "from": "tariff_domestic_markup_delay",
+      "to": "price_perception",
+      "relation": "A price that rises in stages can make a trade policy harder to trace to the household bill",
+      "limit": "The current evidence does not show what price story each household notices or who it blames.",
       "type": "open"
     }
   ]
