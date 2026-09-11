@@ -1,8 +1,8 @@
 # US source coverage
 
-26 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+27 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 15; HHS: 1; IEA: 1; IMF: 1; NBER: 40; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 17; HHS: 1; IEA: 1; IMF: 1; NBER: 40; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -500,6 +500,29 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US multiple jobs and the cost of flexibility
+
+**Project:** `us-multiple-job-spending-strain`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Does equal income buy the same life when it comes from one job versus several?
+
+**Sources recorded:** 2
+
+- [HBS: The True Costs of Gig Work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+- [HBS: How Much Is Freedom Worth?](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot)
+
+**Open gaps:**
+- worker-level income stability, benefits, hours and schedule control;
+- unpaid care, health, education and household size;
+- vehicle and transport costs after net earnings;
+- whether multiple jobs lead to better or worse later work;
+- differences by race, age, place, disability and immigration status;
+- whether firms shift risk to workers while calling the arrangement flexible.
+
+[Open the source-search record](projects/us-multiple-job-spending-strain/source-search-2026-09-11.md)
 
 ## US remote work and the value of coming together
 

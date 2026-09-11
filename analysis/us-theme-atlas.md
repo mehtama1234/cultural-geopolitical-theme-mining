@@ -311,6 +311,16 @@ Follow a tariff from policy to shelf price, then into the repeated price and wag
 
 Still missing: The current studies use product prices and separate surveys; they do not follow one household from a tariff change to a purchase, budget change or political judgment.
 
+### When equal income buys a different life
+
+Follow several jobs into spending, travel and saving, then ask whether flexibility is replacing stability rather than adding to it.
+
+1. [Equal income can buy a different life through several jobs](#multiple_job_strain)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current evidence does not follow the same worker from job structure through net income, household choices and later security.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1083,6 +1093,39 @@ Connections:
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
 
+### Equal income can buy a different life through several jobs
+
+Multiple jobs can change spending, travel and saving even when take-home pay is similar.
+
+**Question:** What does equal income fail to show?
+
+**Subthemes:** Multiple jobs; Flexibility and security
+
+**Limit:** The opening evidence does not isolate the cause or measure the full value of flexibility.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: The True Costs of Gig Work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+- [HBS: How Much Is Freedom Worth?](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot)
+
+#### Evidence check: Equal income can buy a different life through several jobs
+
+HBS reports that similarly paid people working multiple jobs spent less of take-home pay, less on necessities and less on extras, while carrying higher transportation costs and saving less.
+
+Working interpretation: the number and structure of jobs can shape household life even when income looks similar.
+
+**Counterpoint:** People may choose multiple jobs for flexibility, school, care or a job transition. Lower spending may reflect a deliberate goal or a different need, not only strain caused by the work arrangement.
+[Related study](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot)
+
+The current evidence does not identify whether instability, worker choice, family need, education, health or multiple jobs itself drives the spending pattern.
+
+[HBS Working Knowledge, reporting Tsai and Buell, The Hidden Costs of Working Multiple Jobs, Working Paper 25-036, revised March 2025. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+
+
+Connections:
+
+- Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: The same job can contain different AI access. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
+
 ### The same job can contain different AI access
 
 Workers doing similar tasks may have different access to AI, training and permission to use it.
@@ -1165,6 +1208,7 @@ Connections:
 - Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: Ownership means little unless workers can see the link. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The price on the screen is only part of the cost. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 - Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: One office day can change the remote week. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
+- Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: Equal income can buy a different life through several jobs. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
 
 ### Fit can decide who gets heard at work
 

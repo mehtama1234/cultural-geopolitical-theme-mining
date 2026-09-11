@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "multiple_job_strain",
+      "evidence_check": {
+        "title": "Equal income can buy a different life through several jobs",
+        "finding": "HBS reports that similarly paid people working multiple jobs spent less of take-home pay, less on necessities and less on extras, while carrying higher transportation costs and saving less.",
+        "meaning": "Working interpretation: the number and structure of jobs can shape household life even when income looks similar.",
+        "counterpoint": "People may choose multiple jobs for flexibility, school, care or a job transition. Lower spending may reflect a deliberate goal or a different need, not only strain caused by the work arrangement.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot",
+        "limit": "The current evidence does not identify whether instability, worker choice, family need, education, health or multiple jobs itself drives the spending pattern.",
+        "source": "https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work",
+        "location": "HBS Working Knowledge, reporting Tsai and Buell, The Hidden Costs of Working Multiple Jobs, Working Paper 25-036, revised March 2025. Checked 2026-09-11."
+      },
+      "project": "us-multiple-job-spending-strain",
+      "title": "Equal income can buy a different life through several jobs",
+      "summary": "Multiple jobs can change spending, travel and saving even when take-home pay is similar.",
+      "question": "What does equal income fail to show?",
+      "limit": "The opening evidence does not isolate the cause or measure the full value of flexibility.",
+      "subthemes": ["Multiple jobs", "Flexibility and security"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-multiple-job-spending-strain/source-search-2026-09-11.md"
+    },
+    {
       "id": "subscription_inattention",
       "evidence_check": {
         "title": "A monthly charge can survive after its value fades",
@@ -835,6 +857,13 @@
       "meaning": "Follow a tariff from policy to shelf price, then into the repeated price and wage comparisons that shape a household's sense of room.",
       "limit": "The current studies use product prices and separate surveys; they do not follow one household from a tariff change to a purchase, budget change or political judgment.",
       "memo": null
+    },
+    {
+      "title": "When equal income buys a different life",
+      "topics": ["multiple_job_strain", "work", "money"],
+      "meaning": "Follow several jobs into spending, travel and saving, then ask whether flexibility is replacing stability rather than adding to it.",
+      "limit": "The current evidence does not follow the same worker from job structure through net income, household choices and later security.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1204,6 +1233,14 @@
       "to": "price_perception",
       "relation": "A delayed trade-policy cost can become part of the price people use to judge the economy",
       "limit": "The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.",
+      "type": "open"
+    },
+    {
+      "id": "link-47",
+      "from": "multiple_job_strain",
+      "to": "work",
+      "relation": "The number of jobs can change what work gives a household beyond its pay",
+      "limit": "The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.",
       "type": "open"
     }
   ]
