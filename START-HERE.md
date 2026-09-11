@@ -108,3 +108,5 @@ The ninth connected memo is [When the trip is part of the price](site/us-transpo
 The next short project is [US consumer fraud, recovery, and trust](analysis/projects/us-consumer-fraud-trust/README.md), with its [source search record](analysis/projects/us-consumer-fraud-trust/source-search-2026-09-11.md). It tests who carries a loss and whether a usable recovery path shapes trust.
 
 The tenth connected memo is [When a trusted service becomes a dispute](site/us-consumer-fraud-trust-path-001.html), with its [Markdown record](analysis/findings/us-consumer-fraud-trust-path-001.md). It separates scam attempts, reported losses, unrecovered losses and the still-unproven trust response.
+
+The next short project is [US student debt and adult life choices](analysis/projects/us-student-debt-life-choices/README.md), with its [source search record](analysis/projects/us-student-debt-life-choices/source-search-2026-09-11.md). It tests whether education debt becomes a payment, housing, work or family-choice constraint, and keeps balance measures separate from lived outcomes.

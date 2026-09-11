@@ -1,8 +1,8 @@
 # US source coverage
 
-16 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+17 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 9; CMS: 1; Census: 9; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 14; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 28; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 9; CMS: 1; Census: 10; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 29; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -433,6 +433,31 @@
 - political response beyond participation and complaints.
 
 [Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)
+
+## US student debt and delayed life choices
+
+**Project:** `us-student-debt-life-choices`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** What does student debt change after school: the monthly budget, housing, work, family timing or political views?
+
+**Sources recorded:** 5
+
+- [Federal Reserve higher education and student loans report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm)
+- [New York Fed student debt data](https://www.newyorkfed.org/microeconomics/topics/student-debt)
+- [NBER student debt, career and marriage choices](https://www.nber.org/papers/w23453)
+- [Federal Reserve SHED data](https://www.federalreserve.gov/consumerscommunities/shed_data.htm)
+- [Census SIPP program](https://www.census.gov/programs-surveys/sipp.html)
+
+**Open gaps:**
+- current payment trouble by debt size, income, education and place;
+- housing, marriage, work and family timing for the same borrower;
+- public-service work and repayment-plan choices;
+- effects of re-reporting and administrative changes on delinquency measures;
+- whether debt changes political views beyond policy preference.
+
+[Open the source-search record](projects/us-student-debt-life-choices/source-search-2026-09-11.md)
 
 ## US transportation, household cost, and access
 

@@ -102,6 +102,31 @@
       "source_record": "analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md"
     },
     {
+      "id": "student_debt",
+      "evidence_check": {
+        "title": "Payment trouble is not the same as a large balance",
+        "finding": "The Federal Reserve reports that 20% of borrowers were behind on a student loan payment or in collections in 2024. The rate was 30% among borrowers who completed some college, a technical degree or an associate degree. The New York Fed reports about $1.66 trillion in student debt and 10.3% of balances 90 days or more delinquent in 2026 Q1.",
+        "meaning": "Working interpretation: the useful unit is not debt alone. It is debt paired with income, education, payment rule and the life choice that comes next.",
+        "counterpoint": "Debt can finance education with a high return, and income-based repayment can protect some borrowers when earnings are low. A balance or delinquency rate alone does not establish a bad life outcome.",
+        "counterpoint_source": "https://www.nber.org/papers/w23453",
+        "limit": "The Fed survey and New York Fed credit panel use different units and may be affected by reporting changes. They do not follow a current borrower from payment trouble to housing, work or family choice.",
+        "source": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm",
+        "location": "Federal Reserve 2024 household survey and New York Fed student-debt data. Checked 2026-09-11."
+      },
+      "project": "us-student-debt-life-choices",
+      "title": "A student loan can follow a person into adult choices",
+      "summary": "Student debt is a long-running credit claim that can meet work, housing and family decisions after school.",
+      "question": "What does repayment make harder, and for whom?",
+      "limit": "The opening evidence measures balances and payment trouble, not the full life-choice effect.",
+      "subthemes": [
+        "Payment trouble",
+        "Work and housing choices"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-student-debt-life-choices/source-search-2026-09-11.md"
+    },
+    {
       "id": "food",
       "evidence_check": {
         "title": "Food is where a money problem can become a daily condition",
@@ -495,6 +520,12 @@
       "meaning": "Follow household energy and transportation cost into the time and money needed to reach work or services.",
       "limit": "The current sources do not show which households can change mode, move closer or absorb a vehicle repair.",
       "memo": "../site/us-transportation-access-path-001.html"
+    },
+    {
+      "title": "When education debt follows the first job",
+      "topics": ["credit", "student_debt", "housing"],
+      "meaning": "Follow a credit claim from education into payment trouble, then ask what room remains for housing and other adult choices.",
+      "limit": "The current sources do not follow the same borrower from education debt through payment, housing and work."
     }
   ],
   "edges": [
@@ -745,6 +776,30 @@
       "relation": "Repeated failure to recover a loss may become a demand for public protection",
       "limit": "No current source measures a change in trust, blame or voting after a fraud response.",
       "type": "open"
+    },
+    {
+      "id": "link-32",
+      "from": "credit",
+      "to": "student_debt",
+      "relation": "A short credit bridge and an education loan can both turn today's choice into a later payment claim",
+      "limit": "The current sources use different products and do not compare the same household's repayment paths.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-33",
+      "from": "student_debt",
+      "to": "housing",
+      "relation": "Payment trouble may reduce room for a housing choice",
+      "limit": "The current student-debt evidence does not establish a current effect on renting, buying or moving.",
+      "type": "open"
+    },
+    {
+      "id": "link-34",
+      "from": "student_debt",
+      "to": "work",
+      "relation": "Repayment rules can meet career and public-service choices",
+      "limit": "The NBER study is narrow and older; it does not establish the current effect across workers or occupations.",
+      "type": "comparison"
     }
   ]
 }

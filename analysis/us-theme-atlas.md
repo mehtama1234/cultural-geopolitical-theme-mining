@@ -150,6 +150,16 @@ Still missing: The current sources do not show which households can change mode,
 
 [Read the complete connected memo](../site/us-transportation-access-path-001.html)
 
+### When education debt follows the first job
+
+Follow a credit claim from education into payment trouble, then ask what room remains for housing and other adult choices.
+
+1. [Credit can be a bridge and a later bill](#credit)
+2. [A student loan can follow a person into adult choices](#student_debt)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not follow the same borrower from education debt through payment, housing and work.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -239,6 +249,7 @@ Connections:
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: The price on the screen is only part of the cost. The current sources do not follow the same households across these costs or show which bill is given up first.
 - Comparison: The home's condition and location can shape the energy bill. Related topic: A home can be costly to heat before anything else changes. Current sources do not join energy burden to housing insurance or moving decisions.
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Credit can be a bridge and a later bill. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
+- Question to test: Payment trouble may reduce room for a housing choice. Related topic: A student loan can follow a person into adult choices. The current student-debt evidence does not establish a current effect on renting, buying or moving.
 
 ### Credit can be a bridge and a later bill
 
@@ -281,6 +292,45 @@ Connections:
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: The price on the screen is only part of the cost. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Keeping a home also means paying to protect it. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 - Question to test: An unrecovered loss can reduce the household's financial buffer. Related topic: A payment problem can become a recovery problem. The fraud and credit sources do not follow the same household or show whether borrowing followed the loss.
+- Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: A student loan can follow a person into adult choices. The current sources use different products and do not compare the same household's repayment paths.
+
+### A student loan can follow a person into adult choices
+
+Student debt is a long-running credit claim that can meet work, housing and family decisions after school.
+
+**Question:** What does repayment make harder, and for whom?
+
+**Subthemes:** Payment trouble; Work and housing choices
+
+**Limit:** The opening evidence measures balances and payment trouble, not the full life-choice effect.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve higher education and student loans report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm)
+- [New York Fed student debt data](https://www.newyorkfed.org/microeconomics/topics/student-debt)
+- [NBER student debt, career and marriage choices](https://www.nber.org/papers/w23453)
+- [Federal Reserve SHED data](https://www.federalreserve.gov/consumerscommunities/shed_data.htm)
+- [Census SIPP program](https://www.census.gov/programs-surveys/sipp.html)
+
+#### Evidence check: Payment trouble is not the same as a large balance
+
+The Federal Reserve reports that 20% of borrowers were behind on a student loan payment or in collections in 2024. The rate was 30% among borrowers who completed some college, a technical degree or an associate degree. The New York Fed reports about $1.66 trillion in student debt and 10.3% of balances 90 days or more delinquent in 2026 Q1.
+
+Working interpretation: the useful unit is not debt alone. It is debt paired with income, education, payment rule and the life choice that comes next.
+
+**Counterpoint:** Debt can finance education with a high return, and income-based repayment can protect some borrowers when earnings are low. A balance or delinquency rate alone does not establish a bad life outcome.
+[Related study](https://www.nber.org/papers/w23453)
+
+The Fed survey and New York Fed credit panel use different units and may be affected by reporting changes. They do not follow a current borrower from payment trouble to housing, work or family choice.
+
+[Federal Reserve 2024 household survey and New York Fed student-debt data. Checked 2026-09-11.](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm)
+
+
+Connections:
+
+- Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources use different products and do not compare the same household's repayment paths.
+- Question to test: Payment trouble may reduce room for a housing choice. Related topic: Keeping a home also means paying to protect it. The current student-debt evidence does not establish a current effect on renting, buying or moving.
+- Comparison: Repayment rules can meet career and public-service choices. Related topic: The same job can contain different AI access. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
 
 ### Food is where a money problem becomes a daily condition
 
@@ -774,6 +824,7 @@ Connections:
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: Help can exist but be hard to keep. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 - Question to test: Childcare cost or disruption can change paid work time. Related topic: Family time can replace a large cash payment. Reported work loss does not by itself prove that childcare caused the change.
 - Question to test: Travel cost and time can change which work a household can keep. Related topic: Getting to a place is a major household cost. The current averages do not show whether a specific commute caused a job or hour change.
+- Comparison: Repayment rules can meet career and public-service choices. Related topic: A student loan can follow a person into adult choices. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
 
 ## A home can be costly to heat before anything else changes
 
