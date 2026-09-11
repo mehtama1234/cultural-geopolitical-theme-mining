@@ -112,6 +112,8 @@ Follow food need through the rules and practical work of keeping public help, th
 
 Still missing: The current studies do not follow the same household from program loss to food, debt or work outcomes.
 
+[Read the complete connected memo](../site/us-safety-net-access-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
