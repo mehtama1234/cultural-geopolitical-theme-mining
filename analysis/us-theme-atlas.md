@@ -321,9 +321,52 @@ Follow several jobs into spending, travel and saving, then ask whether flexibili
 
 Still missing: The current evidence does not follow the same worker from job structure through net income, household choices and later security.
 
+### When staying with a bank becomes a household choice
+
+Follow the effort of moving a deposit into the interest and household room left behind, then ask whether repeated quiet costs shape views of financial institutions.
+
+1. [Staying with one bank can carry a quiet cost](#bank_inertia)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current evidence models bank value and stability but does not follow the same US depositor from a missed rate to a changed budget or political view.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
+
+### Staying with one bank can carry a quiet cost
+
+Bank habits can leave value with the bank while also helping keep funding steady.
+
+**Question:** What is convenience worth in lost interest?
+
+**Subthemes:** Switching effort; Depositor rates and bank stability
+
+**Limit:** The opening evidence does not measure each household's net cost or benefit.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Dynamic Competition for Sleepy Deposits](https://www.nber.org/papers/w34267)
+- [HBS: Why Banks Need “Sleepy” Customers](https://www.library.hbs.edu/working-knowledge/why-banks-need-sleepy-customers)
+
+#### Evidence check: Staying with one bank can carry a quiet cost
+
+NBER reports that only 5–15% of depositors open a new account each year and estimates that depositor inactivity accounts for 57% of average deposit franchise value. The study also finds that inactivity reduced modeled default probabilities during the 2023 banking turmoil.
+
+Working interpretation: the same habit that may cost a customer interest can give a bank cheaper, steadier funding.
+
+**Counterpoint:** Staying can be rational when bill tools, local access, trust, safety or switching time matter. More switching may also make bank funding less stable.
+[Related study](https://www.nber.org/papers/w34267)
+
+The current evidence does not show the interest lost by each household or the net value of switching after fees, convenience and bank risk.
+
+[Egan, Hortaçsu, Kaplan, Sunderam and Yao, Dynamic Competition for Sleepy Deposits, NBER Working Paper 34267, revised March 2026. Checked 2026-09-11.](https://www.nber.org/papers/w34267)
+
+
+Connections:
+
+- Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: The price on the screen is only part of the cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
 
 ### A monthly charge can survive after its value fades
 
@@ -477,6 +520,7 @@ Connections:
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The same job can contain different AI access. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: A monthly charge can survive after its value fades. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: A slower rise in prices can still feel like a loss. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
+- Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: Staying with one bank can carry a quiet cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
 
 ### Keeping a home also means paying to protect it
 

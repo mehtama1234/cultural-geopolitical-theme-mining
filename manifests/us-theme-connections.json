@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "bank_inertia",
+      "evidence_check": {
+        "title": "Staying with one bank can carry a quiet cost",
+        "finding": "NBER reports that only 5–15% of depositors open a new account each year and estimates that depositor inactivity accounts for 57% of average deposit franchise value. The study also finds that inactivity reduced modeled default probabilities during the 2023 banking turmoil.",
+        "meaning": "Working interpretation: the same habit that may cost a customer interest can give a bank cheaper, steadier funding.",
+        "counterpoint": "Staying can be rational when bill tools, local access, trust, safety or switching time matter. More switching may also make bank funding less stable.",
+        "counterpoint_source": "https://www.nber.org/papers/w34267",
+        "limit": "The current evidence does not show the interest lost by each household or the net value of switching after fees, convenience and bank risk.",
+        "source": "https://www.nber.org/papers/w34267",
+        "location": "Egan, Hortaçsu, Kaplan, Sunderam and Yao, Dynamic Competition for Sleepy Deposits, NBER Working Paper 34267, revised March 2026. Checked 2026-09-11."
+      },
+      "project": "us-bank-depositor-inertia",
+      "title": "Staying with one bank can carry a quiet cost",
+      "summary": "Bank habits can leave value with the bank while also helping keep funding steady.",
+      "question": "What is convenience worth in lost interest?",
+      "limit": "The opening evidence does not measure each household's net cost or benefit.",
+      "subthemes": ["Switching effort", "Depositor rates and bank stability"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-bank-depositor-inertia/source-search-2026-09-11.md"
+    },
+    {
       "id": "multiple_job_strain",
       "evidence_check": {
         "title": "Equal income can buy a different life through several jobs",
@@ -864,6 +886,13 @@
       "meaning": "Follow several jobs into spending, travel and saving, then ask whether flexibility is replacing stability rather than adding to it.",
       "limit": "The current evidence does not follow the same worker from job structure through net income, household choices and later security.",
       "memo": null
+    },
+    {
+      "title": "When staying with a bank becomes a household choice",
+      "topics": ["bank_inertia", "money", "politics"],
+      "meaning": "Follow the effort of moving a deposit into the interest and household room left behind, then ask whether repeated quiet costs shape views of financial institutions.",
+      "limit": "The current evidence models bank value and stability but does not follow the same US depositor from a missed rate to a changed budget or political view.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1241,6 +1270,14 @@
       "to": "work",
       "relation": "The number of jobs can change what work gives a household beyond its pay",
       "limit": "The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.",
+      "type": "open"
+    },
+    {
+      "id": "link-48",
+      "from": "bank_inertia",
+      "to": "money",
+      "relation": "A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding",
+      "limit": "The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.",
       "type": "open"
     }
   ]
