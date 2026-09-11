@@ -160,6 +160,8 @@ Follow a credit claim from education into payment trouble, then ask what room re
 
 Still missing: The current sources do not follow the same borrower from education debt through payment, housing and work.
 
+[Read the complete connected memo](../site/us-student-debt-life-choices-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
