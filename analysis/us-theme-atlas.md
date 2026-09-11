@@ -694,6 +694,16 @@ Follow perceived political alignment into trust in the economic message, then as
 
 Still missing: The Fed studies measure trust and inflation beliefs; the broader household and political path remains untested.
 
+### When a household price becomes political blame
+
+Follow the price people feel into the cause they name, then ask which policy or political response follows.
+
+1. [The same price rise can produce different blame](#inflation_cause_beliefs)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The survey evidence does not show the same household's price basket, information path and later political action.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -871,6 +881,8 @@ Connections:
 - Question to test: A rate message may change how households read future prices and their own buying power. Related topic: Households may hear a rate increase as a price warning. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
 - Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A low first price can hide a higher choice. The current evidence does not show the same household's final cost or later budget and trust response.
 - Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: The way a person pays can change the price they carry. The current evidence does not show each household's actual price, reward and total payment cost.
+- Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: The same price rise can produce different blame. The current survey does not join each respondent's price basket, income change and belief about the cause.
+- Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
 
 ### The price on the screen is only part of the cost
 
@@ -1983,6 +1995,8 @@ Connections:
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Help can exist but be hard to keep. No current source measures a change in trust, blame or voting after a participation change.
 - Question to test: Repeated failure to recover a loss may become a demand for public protection. Related topic: A payment problem can become a recovery problem. No current source measures a change in trust, blame or voting after a fraud response.
 - Question to test: Perceived party alignment can change whether an economic institution is heard as neutral or partisan. Related topic: People may hear the same economic message differently by party. The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.
+- Question to test: A story about who caused inflation can shape which policy response and political judgment seem acceptable. Related topic: The same price rise can produce different blame. The current evidence measures policy preferences, not later voting or public action.
+- Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's price basket, blame, information path and later vote.
 
 ### Help can exist but be hard to keep
 
@@ -2412,6 +2426,41 @@ Connections:
 
 - Question to test: Perceived party alignment can change whether an economic institution is heard as neutral or partisan. Related topic: Personal finances and national mood can move apart. The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.
 - Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: The price on the screen is only part of the cost. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
+
+### The same price rise can produce different blame
+
+People's explanation of inflation varies by party and news source, shaping which policy response sounds reasonable.
+
+**Question:** How does a household price become a story about responsibility and action?
+
+**Subthemes:** Price experience and blame; Economic stories and policy choice
+
+**Limit:** The opening evidence measures beliefs and policy preferences, not the same person's later vote or household behavior.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [People's Understanding of Inflation](https://www.nber.org/papers/w32497)
+- [Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
+- [Perceived Political Bias of the Federal Reserve](https://www.nber.org/papers/w33071)
+
+#### Evidence check: The same price rise can produce different blame
+
+NBER's US survey and information experiments find that people see inflation as broadly negative and often name government actions, production costs, firms, oil, supply chains or recent events as causes. Party registration and news sources shape those attributions. Many respondents also understate the tradeoffs involved in fighting inflation and support policies that may conflict with their own stated theory of the problem.
+
+Working interpretation: a price shock becomes political through a story about who caused it and what should be done, not through the price number alone.
+
+**Counterpoint:** People may have good reasons for using different examples: their bills, local news and personal exposure differ. A survey answer about causes does not show later blame, voting or policy action.
+[Related study](https://www.nber.org/digest/202409/public-beliefs-about-inflation)
+
+The opening evidence is survey-based and does not link one person's price basket, information source, economic loss and political action over time.
+
+[Binetti, Nuzzi and Stantcheva, People's Understanding of Inflation, NBER Working Paper 32497, checked 2026-09-11.](https://www.nber.org/papers/w32497)
+
+
+Connections:
+
+- Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: A slower rise in prices can still feel like a loss. The current survey does not join each respondent's price basket, income change and belief about the cause.
+- Question to test: A story about who caused inflation can shape which policy response and political judgment seem acceptable. Related topic: Personal finances and national mood can move apart. The current evidence measures policy preferences, not later voting or public action.
 
 ## Who controls the work and gets the gain
 

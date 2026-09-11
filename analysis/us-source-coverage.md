@@ -1,8 +1,8 @@
 # US source coverage
 
-63 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+64 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 105; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 108; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -952,6 +952,30 @@
 - differences by race, age, gender, place and occupation.
 
 [Open the source-search record](projects/us-income-volatility-spending-risk/source-search-2026-09-11.md)
+
+## US inflation cause beliefs
+
+**Project:** `us-inflation-cause-beliefs`
+
+**Status:** opening pass; beliefs and policy preferences are measured, later action remains open
+
+**Question:** How does a household price become a story about responsibility and action?
+
+**Sources recorded:** 3
+
+- [People's Understanding of Inflation](https://www.nber.org/papers/w32497)
+- [Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
+- [Perceived Political Bias of the Federal Reserve](https://www.nber.org/papers/w33071)
+
+**Open gaps:**
+- household price basket and income change;
+- party identity, news source and local experience;
+- belief about cause and policy tradeoff;
+- trust, blame, turnout and vote;
+- changes in spending, saving and borrowing;
+- differences by income, race, age, place and education.
+
+[Open the source-search record](projects/us-inflation-cause-beliefs/source-search-2026-09-11.md)
 
 ## US inflation and the price people feel
 

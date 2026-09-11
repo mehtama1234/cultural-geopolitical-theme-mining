@@ -1511,6 +1511,28 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-fed-partisan-trust/source-search-2026-09-11.md"
+    },
+    {
+      "id": "inflation_cause_beliefs",
+      "evidence_check": {
+        "title": "The same price rise can produce different blame",
+        "finding": "NBER's US survey and information experiments find that people see inflation as broadly negative and often name government actions, production costs, firms, oil, supply chains or recent events as causes. Party registration and news sources shape those attributions. Many respondents also understate the tradeoffs involved in fighting inflation and support policies that may conflict with their own stated theory of the problem.",
+        "meaning": "Working interpretation: a price shock becomes political through a story about who caused it and what should be done, not through the price number alone.",
+        "counterpoint": "People may have good reasons for using different examples: their bills, local news and personal exposure differ. A survey answer about causes does not show later blame, voting or policy action.",
+        "counterpoint_source": "https://www.nber.org/digest/202409/public-beliefs-about-inflation",
+        "limit": "The opening evidence is survey-based and does not link one person's price basket, information source, economic loss and political action over time.",
+        "source": "https://www.nber.org/papers/w32497",
+        "location": "Binetti, Nuzzi and Stantcheva, People's Understanding of Inflation, NBER Working Paper 32497, checked 2026-09-11."
+      },
+      "project": "us-inflation-cause-beliefs",
+      "title": "The same price rise can produce different blame",
+      "summary": "People's explanation of inflation varies by party and news source, shaping which policy response sounds reasonable.",
+      "question": "How does a household price become a story about responsibility and action?",
+      "limit": "The opening evidence measures beliefs and policy preferences, not the same person's later vote or household behavior.",
+      "subthemes": ["Price experience and blame", "Economic stories and policy choice"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-inflation-cause-beliefs/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1965,6 +1987,13 @@
       "topics": ["fed_partisan_trust", "politics", "money"],
       "meaning": "Follow perceived political alignment into trust in the economic message, then ask whether personal money choices or public judgments change.",
       "limit": "The Fed studies measure trust and inflation beliefs; the broader household and political path remains untested.",
+      "memo": null
+    },
+    {
+      "title": "When a household price becomes political blame",
+      "topics": ["inflation_cause_beliefs", "price_perception", "politics"],
+      "meaning": "Follow the price people feel into the cause they name, then ask which policy or political response follows.",
+      "limit": "The survey evidence does not show the same household's price basket, information path and later political action.",
       "memo": null
     }
   ],
@@ -2695,6 +2724,30 @@
       "to": "money",
       "relation": "Trust in an economic message may change how households interpret the money conditions they face",
       "limit": "The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.",
+      "type": "open"
+    },
+    {
+      "id": "link-92",
+      "from": "inflation_cause_beliefs",
+      "to": "price_perception",
+      "relation": "A household's felt price change can shape which cause it names and which tradeoff it notices",
+      "limit": "The current survey does not join each respondent's price basket, income change and belief about the cause.",
+      "type": "open"
+    },
+    {
+      "id": "link-93",
+      "from": "inflation_cause_beliefs",
+      "to": "politics",
+      "relation": "A story about who caused inflation can shape which policy response and political judgment seem acceptable",
+      "limit": "The current evidence measures policy preferences, not later voting or public action.",
+      "type": "open"
+    },
+    {
+      "id": "link-94",
+      "from": "price_perception",
+      "to": "politics",
+      "relation": "The price people feel can become part of a political judgment about responsibility and response",
+      "limit": "The current evidence does not show the same household's price basket, blame, information path and later vote.",
       "type": "open"
     }
   ]
