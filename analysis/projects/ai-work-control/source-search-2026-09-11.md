@@ -55,6 +55,7 @@ Initial records:
 - Add annual reports and filings only after the research claims are stable.
 - Search non-U.S. evidence beyond Denmark and the U.S.
 - Read the full surveillance and field-experiment papers, including disclosures and appendices.
+- Add cross-country employer and worker-rights evidence on accountability, privacy, autonomy, and job quality.
 
 ## First-pass conclusion
 
@@ -67,3 +68,12 @@ This is a hypothesis because the sources measure different units: individual wor
 ## Control-layer result from the second pass
 
 The next layer is not simply “AI increases monitoring.” The first relevant studies point to a conditional mechanism: the meaning and explanation of a control system may affect performance, while individual AI access can save time without changing the mix of tasks. This makes responsibility, review rights, and worker understanding central variables for the next search.
+
+## Accountability search
+
+| ID | Source | Type | Why it is in scope |
+|---|---|---|---|
+| OECD-AM-2025 | [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | employer survey and working paper | More than 6,000 firms in six countries; use, effects, and governance concerns. |
+| ILO-AM-2024 | [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics) | comparative case study | Logistics and health care in France, Italy, India, and South Africa; job quality and surveillance. |
+
+The OECD report says managers report concerns about unclear accountability, difficulty following the logic of decisions, and protection of workers’ health. The ILO study examines how algorithmic management changes work organization and industrial relations in ordinary workplaces, not only digital platforms. These sources broaden the project beyond software firms, but they do not replace worker-level outcome evidence.

@@ -92,6 +92,15 @@
       "access_notes": "Comparability is a finding to check, not an assumption."
     },
     {
+      "id": "oecd-algorithmic-management",
+      "name": "OECD Algorithmic Management research",
+      "url": "https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html",
+      "role": "cross-country employer evidence on automated management, monitoring, evaluation, and governance",
+      "source_types": ["employer_survey", "working_paper", "comparative_research"],
+      "license_note": "Record survey scope, question wording, tables, and source links; do not copy the report in full.",
+      "access_notes": "Separate manager perceptions from worker outcomes and record country differences."
+    },
+    {
       "id": "imf-data",
       "name": "IMF Data",
       "url": "https://data.imf.org/en",
@@ -108,6 +117,15 @@
       "source_types": ["official_statistic", "labor_dataset", "projection"],
       "license_note": "Preserve indicator definition, source survey, adjustment, and projection status.",
       "access_notes": "Do not merge country labor measures without checking definitions and coverage."
+    },
+    {
+      "id": "ilo-algorithmic-management",
+      "name": "International Labour Organization algorithmic management research",
+      "url": "https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics",
+      "role": "work organization, job quality, industrial relations, and worker-risk evidence",
+      "source_types": ["comparative_case_study", "labor_research", "job_quality_research"],
+      "license_note": "Record study scope, country cases, short notes, and source links; do not copy the report in full.",
+      "access_notes": "Check sector, country, worker group, and research method before generalizing."
     },
     {
       "id": "fred",
