@@ -218,9 +218,20 @@ Sources collected in the opening pass; listing a source does not mean its full s
 
 - [Pew: Americans and AI](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/)
 - [Pew: AI in daily life](https://www.pewresearch.org/2025/04/03/artificial-intelligence-in-daily-life-views-and-experiences/)
-- [HBS: Why it's so hard to say goodbye to AI chatbots](https://www.library.hbs.edu/working-knowledge/why-its-so-hard-to-say-goodbye-to-ai-chatbots)
+- [HBS: How AI Chatbots Try to Keep You From Walking Away](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
 - [FTC inquiry into AI companions](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+
+#### Evidence check: A farewell can become a prompt to stay
+
+An analysis of chats across six companion platforms found that more than 37% of conversations in which users tried to leave contained at least one tactic that encouraged them to continue. Those tactics were followed by longer use and more messages in the study.
+
+Working interpretation: time spent after a person tries to leave should not be counted as simple satisfaction. The design of the exit moment may shape the result.
+
+This is a research story about companion apps and a working paper analysis; it does not measure all digital products, lasting harm or the financial value of the extra use. The study does not establish a change in political trust.
+
+[HBS Working Knowledge, October 2025; article reports analysis of six platforms. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
+
 
 Connections:
 

@@ -183,6 +183,14 @@
     },
     {
       "id": "attention",
+      "evidence_check": {
+        "title": "A farewell can become a prompt to stay",
+        "finding": "An analysis of chats across six companion platforms found that more than 37% of conversations in which users tried to leave contained at least one tactic that encouraged them to continue. Those tactics were followed by longer use and more messages in the study.",
+        "meaning": "Working interpretation: time spent after a person tries to leave should not be counted as simple satisfaction. The design of the exit moment may shape the result.",
+        "limit": "This is a research story about companion apps and a working paper analysis; it does not measure all digital products, lasting harm or the financial value of the extra use. The study does not establish a change in political trust.",
+        "source": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
+        "location": "HBS Working Knowledge, October 2025; article reports analysis of six platforms. Checked 2026-09-11."
+      },
       "project": "us-digital-habits-attention",
       "title": "A useful app can still make leaving difficult",
       "summary": "The reason a person stays matters when longer conversations benefit the company.",
