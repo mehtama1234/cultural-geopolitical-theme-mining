@@ -14,7 +14,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 | Dimension | Present | Still missing |
 |---|---|---|
-| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz | More worker-led, union, legal, and non-Western sources |
+| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank | More worker-led, union, legal, and non-Western sources |
 | Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond India and Indonesia, wider Africa outside case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
@@ -23,7 +23,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 ## Evidence count
 
-- 57 claims in the ledger;
+- 65 claims in the ledger;
 - 10 provisional findings;
 - 1 system-function evidence matrix;
 - 3 company bridges;
@@ -45,6 +45,8 @@ The exact machine-readable counts and source-family breakdown are in the JSON ma
 7. Worker participation before deployment may be stronger than appeal after harm.
 8. Reaching a lead firm in court may not produce a durable remedy when interim protections are overturned.
 9. Related appeals in one dispute can produce different procedural outcomes; case headlines conceal which protection was actually decided.
+10. Productivity and wage gains can appear alongside concentration of gains in larger firms and modeled wealth inequality.
+11. AI can look weightless at the interface while relying on concentrated electricity, grid, mineral, data, and computing systems.
 
 These are not errors to smooth away. They may reflect different tools, populations, outcomes, time windows, or institutions. The next research pass must compare those differences directly.
 
@@ -74,6 +76,7 @@ These are not errors to smooth away. They may reflect different tools, populatio
 6. Compare technology that removes a worker barrier with technology that evaluates or disciplines.
 7. Test whether infrastructure and outside options change the returns to AI exposure.
 8. Obtain the underlying agreements and legal records behind the ILO cases, then compare participation with actual system changes.
+9. Read the macro and infrastructure source packet, then test whether complementary capacity explains differences better than AI access alone.
 
 ## Exhaustion rule
 
