@@ -58,3 +58,5 @@ Build a US-centered evidence system for the links among customer behavior, house
 The first new project is [US household financial pressure and the price of access](analysis/projects/us-household-financial-pressure/README.md), with its opening [source search record](analysis/projects/us-household-financial-pressure/source-search-2026-09-11.md).
 
 The next short pass is [US housing, insurance, and the cost of staying put](analysis/projects/us-housing-insurance-risk/README.md), with its [source search record](analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md).
+
+The following short pass is [US health costs and the choices people give up](analysis/projects/us-health-cost-household-choice/README.md), with its [source search record](analysis/projects/us-health-cost-household-choice/source-search-2026-09-11.md).
