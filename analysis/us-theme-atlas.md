@@ -50,6 +50,8 @@ Follow AI access from the worker's task to the customer's answer and then to the
 
 Still missing: The current sources do not link worker AI access to customer exit behavior or show who gained control.
 
+[Read the complete connected memo](../site/us-work-service-attention-path-001.html)
+
 ### When protection becomes another household bill
 
 Follow the cost of keeping a home protected into the wider payment burden, then ask how households judge the economy. The path joins two kinds of bills without treating them as one measure.

@@ -4,6 +4,8 @@ Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdo
 
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
 
+The second is [When faster service and longer use point in different directions](site/us-work-service-attention-path-001.html), with its [Markdown record](analysis/findings/us-work-service-attention-path-001.md). It joins worker AI access, customer resolution and the ability to leave while keeping the separate-study limit visible.
+
 ## The question
 
 What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?
