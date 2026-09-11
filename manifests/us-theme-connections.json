@@ -1047,6 +1047,31 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-policy-sentiment-cash-benefit/source-search-2026-09-11.md"
+    },
+    {
+      "id": "income_volatility_spending",
+      "evidence_check": {
+        "title": "Average income can hide an unsafe month",
+        "finding": "NBER research links temporary income volatility to large welfare costs for low-liquidity households. Another NBER study finds that temporary workers face greater income risk and rationed credit, while HBS reports different spending patterns among people working multiple jobs despite comparable income.",
+        "meaning": "Working interpretation: a household can earn a similar amount over a year and still have less room if it cannot predict the next pay period.",
+        "counterpoint": "Flexible or temporary work can offer entry, control or a higher upside. A household may accept risk because the alternative is worse.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work",
+        "limit": "The current sources do not follow one worker's pay, cash buffer, credit terms and household choices through a specific job change.",
+        "source": "https://www.nber.org/papers/w32858",
+        "location": "NBER income-risk, credit and spending research, with HBS multiple-job spending evidence. Checked 2026-09-11."
+      },
+      "project": "us-income-volatility-spending-risk",
+      "title": "Average income can hide an unsafe month",
+      "summary": "Unpredictable pay can change household choices even when annual income looks similar.",
+      "question": "What does income risk do that an average wage misses?",
+      "limit": "The opening packet links income risk to spending and credit conditions but does not prove one cause for every household.",
+      "subthemes": [
+        "Pay predictability",
+        "Liquidity and credit access"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-income-volatility-spending-risk/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1354,6 +1379,13 @@
       "topics": ["policy_sentiment_cash", "aid", "politics"],
       "meaning": "Follow a household benefit from cash loss into consumer sentiment, then ask whether trust, blame or voting changes later.",
       "limit": "The current study measures sentiment and does not establish the later political step.",
+      "memo": null
+    },
+    {
+      "title": "When the same yearly income buys less certainty",
+      "topics": ["income_volatility_spending", "work", "money"],
+      "meaning": "Follow a change in pay risk into spending and credit, then ask whether the household can still plan, borrow and keep its choices open.",
+      "limit": "The current sources do not follow the same worker through pay risk, cash reserves and later household outcomes.",
       "memo": null
     }
   ],
@@ -1860,6 +1892,14 @@
       "to": "aid",
       "relation": "A benefit change can become part of how households judge the policy and the economy",
       "limit": "The current sentiment result does not show a later change in trust, turnout or vote.",
+      "type": "open"
+    },
+    {
+      "id": "link-64",
+      "from": "income_volatility_spending",
+      "to": "work",
+      "relation": "A less predictable paycheck can change what work leaves a household able to plan and buy",
+      "limit": "The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.",
       "type": "open"
     }
   ]

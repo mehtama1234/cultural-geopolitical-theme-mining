@@ -480,6 +480,16 @@ Follow a household benefit from cash loss into consumer sentiment, then ask whet
 
 Still missing: The current study measures sentiment and does not establish the later political step.
 
+### When the same yearly income buys less certainty
+
+Follow a change in pay risk into spending and credit, then ask whether the household can still plan, borrow and keep its choices open.
+
+1. [Average income can hide an unsafe month](#income_volatility_spending)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same worker through pay risk, cash reserves and later household outcomes.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1824,6 +1834,7 @@ Connections:
 - Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: Equal income can buy a different life through several jobs. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
 - Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: A small business and its household can share one cash pool. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
 - Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: Health coverage can hold a job in place. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
+- Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: Average income can hide an unsafe month. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
 
 ### Fit can decide who gets heard at work
 
@@ -2030,6 +2041,41 @@ The current sources do not compare the full value of coverage with job quality, 
 Connections:
 
 - Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: The same job can contain different AI access. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
+
+### Average income can hide an unsafe month
+
+Unpredictable pay can change household choices even when annual income looks similar.
+
+**Question:** What does income risk do that an average wage misses?
+
+**Subthemes:** Pay predictability; Liquidity and credit access
+
+**Limit:** The opening packet links income risk to spending and credit conditions but does not prove one cause for every household.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Wealth, Race, and Consumption Smoothing of Typical Income Shocks](https://www.nber.org/papers/w27552)
+- [Dual Credit Markets: Income Risk, Household Debt, and Consumption](https://www.nber.org/papers/w32858)
+- [The How and Why of Household Reactions to Income Shocks](https://www.nber.org/papers/w32191)
+- [The True Costs of Gig Work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+
+#### Evidence check: Average income can hide an unsafe month
+
+NBER research links temporary income volatility to large welfare costs for low-liquidity households. Another NBER study finds that temporary workers face greater income risk and rationed credit, while HBS reports different spending patterns among people working multiple jobs despite comparable income.
+
+Working interpretation: a household can earn a similar amount over a year and still have less room if it cannot predict the next pay period.
+
+**Counterpoint:** Flexible or temporary work can offer entry, control or a higher upside. A household may accept risk because the alternative is worse.
+[Related study](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+
+The current sources do not follow one worker's pay, cash buffer, credit terms and household choices through a specific job change.
+
+[NBER income-risk, credit and spending research, with HBS multiple-job spending evidence. Checked 2026-09-11.](https://www.nber.org/papers/w32858)
+
+
+Connections:
+
+- Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: The same job can contain different AI access. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
 
 ## A home can be costly to heat before anything else changes
 

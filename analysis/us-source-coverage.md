@@ -1,8 +1,8 @@
 # US source coverage
 
-43 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+44 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 36; HHS: 2; IEA: 1; IMF: 1; NBER: 67; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 37; HHS: 2; IEA: 1; IMF: 1; NBER: 70; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -666,6 +666,31 @@
 - whether the pattern is temporary repricing or a lasting change in where people can live.
 
 [Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
+
+## US income volatility and the room to spend
+
+**Project:** `us-income-volatility-spending-risk`
+
+**Status:** opening pass; income risk and spending changes are linked, wider political effects remain open
+
+**Question:** What does unpredictable pay do that a lower average wage measure misses?
+
+**Sources recorded:** 4
+
+- [Wealth, Race, and Consumption Smoothing of Typical Income Shocks](https://www.nber.org/papers/w27552)
+- [Dual Credit Markets: Income Risk, Household Debt, and Consumption](https://www.nber.org/papers/w32858)
+- [The How and Why of Household Reactions to Income Shocks](https://www.nber.org/papers/w32191)
+- [The True Costs of Gig Work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
+
+**Open gaps:**
+- weekly or monthly pay swings, not only annual income;
+- liquid savings and family support;
+- credit approval, rates and limits;
+- housing, health and durable-goods choices;
+- job exits, retraining and family plans;
+- differences by race, age, gender, place and occupation.
+
+[Open the source-search record](projects/us-income-volatility-spending-risk/source-search-2026-09-11.md)
 
 ## US inflation and the price people feel
 

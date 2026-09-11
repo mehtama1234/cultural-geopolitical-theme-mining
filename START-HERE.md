@@ -129,6 +129,8 @@ The next short pass is [US cash aid and household structure](analysis/projects/u
 
 The next short pass is [US cash policy and public mood](analysis/projects/us-policy-sentiment-cash-benefit/README.md), with its [source search record](analysis/projects/us-policy-sentiment-cash-benefit/source-search-2026-09-11.md). It tests whether a lost benefit changes how families judge the economy before it can be tied to trust or voting.
 
+The next short pass is [US income volatility and the room to spend](analysis/projects/us-income-volatility-spending-risk/README.md), with its [source search record](analysis/projects/us-income-volatility-spending-risk/source-search-2026-09-11.md). It tests what unpredictable pay changes that an average wage measure misses.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
