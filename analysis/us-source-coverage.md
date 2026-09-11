@@ -1,8 +1,8 @@
 # US source coverage
 
-53 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+54 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 90; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 91; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -431,6 +431,28 @@
 - whether a later recovery changes trust or only the next vote.
 
 [Open the source-search record](projects/us-economic-voting-real-wages/source-search-2026-09-11.md)
+
+## US emergency assistance and the work path
+
+**Project:** `us-emergency-assistance-work-path`
+
+**Status:** opening pass; later work gains are supported, the housing mechanism remains open
+
+**Question:** Does preventing a housing break protect work, or does work recover for another reason?
+
+**Sources recorded:** 1
+
+- [The Effect of Emergency Financial Assistance on Employment and Earnings](https://www.nber.org/papers/w32856)
+
+**Open gaps:**
+- the exact rent, utility or housing event;
+- job loss, missed shifts, commute and care constraints;
+- job quality, hours, benefits and stability;
+- housing outcome after help ends;
+- credit, debt, health and family effects;
+- results outside one hotline and city.
+
+[Open the source-search record](projects/us-emergency-assistance-work-path/source-search-2026-09-11.md)
 
 ## US employee ownership and the meaning of the work
 

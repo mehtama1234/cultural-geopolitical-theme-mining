@@ -582,6 +582,16 @@ Still missing: The aid studies do not show the same tenant's later credit path, 
 
 [Read the complete connected memo](../site/us-rental-prevention-path-001.html)
 
+### When housing help reaches the next paycheck
+
+Follow rent help into housing continuity and then work and earnings, while asking whether the housing problem was actually removed.
+
+1. [Rent aid can ease the bill without ending housing risk](#rental_assistance_eviction_prevention)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The assistance studies use different programs and outcomes; they do not show one household's housing and work path together.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -854,6 +864,7 @@ Connections:
 - Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: An eviction order can narrow several choices at once. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
 - Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
 - Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Rent aid can ease the bill without ending housing risk. The current evidence does not show the same tenant's later housing stability after assistance ends.
+- Question to test: A housing break can make reaching and keeping work harder. Related topic: The same job can contain different AI access. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 
 ### Credit can be a bridge and a later bill
 
@@ -1365,6 +1376,7 @@ Connections:
 - Question to test: Rent aid may interrupt the path from missed payment to eviction and its later household losses. Related topic: An eviction order can narrow several choices at once. The current evidence shows better immediate payment or modeled prevention for some tenants, not a complete later outcome for the same household.
 - Comparison: Cash relief and legal help address different points in the same housing crisis. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current studies do not compare both tools for the same tenant or show whether using them together works better.
 - Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same tenant's later housing stability after assistance ends.
+- Question to test: Housing help may protect work continuity, but payment relief and earnings are separate outcomes. Related topic: Keeping a home may protect the next job. The current sources do not follow the same household from rent aid through housing stability and later work.
 
 ## Who gives up time
 
@@ -2249,6 +2261,7 @@ Connections:
 - Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: A small business and its household can share one cash pool. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
 - Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: Health coverage can hold a job in place. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
 - Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: Average income can hide an unsafe month. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
+- Question to test: A housing break can make reaching and keeping work harder. Related topic: Keeping a home also means paying to protect it. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 
 ### Fit can decide who gets heard at work
 
@@ -2490,6 +2503,38 @@ The current sources do not follow one worker's pay, cash buffer, credit terms an
 Connections:
 
 - Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: The same job can contain different AI access. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
+
+### Keeping a home may protect the next job
+
+Short-term help during a housing crisis may protect employment and later earnings, especially for the lowest earners.
+
+**Question:** Does preventing a housing break protect work, or does work recover for another reason?
+
+**Subthemes:** Housing crisis and work continuity; Short-term help and later earnings
+
+**Limit:** The opening evidence follows one Chicago hotline population and does not identify the full housing event or job path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Effect of Emergency Financial Assistance on Employment and Earnings](https://www.nber.org/papers/w32856)
+
+#### Evidence check: Keeping a home may protect the next job
+
+NBER links callers to a Chicago homelessness-prevention hotline with federal tax records and uses quasi-random funding availability to compare similar families. Looking up to four years later, it finds evidence of employment and earnings gains, especially for the lowest earners, and no evidence that short-term assistance lowers work or earnings.
+
+Working interpretation: emergency help may protect work capacity by keeping a housing crisis from taking over the next job decision.
+
+**Counterpoint:** The study concerns people who reached one Chicago hotline and received short-term help. Higher later earnings may reflect who could use the help or other changes around the crisis, even with the study's comparison design.
+[Related study](https://www.nber.org/papers/w32856)
+
+The evidence does not show which housing event was prevented, whether the person kept the same job, or how the result changes across places and aid designs.
+
+[Hungerman, Phillips, Rinz and Sullivan, The Effect of Emergency Financial Assistance on Employment and Earnings, NBER Working Paper 32856, checked 2026-09-11.](https://www.nber.org/papers/w32856)
+
+
+Connections:
+
+- Question to test: Housing help may protect work continuity, but payment relief and earnings are separate outcomes. Related topic: Rent aid can ease the bill without ending housing risk. The current sources do not follow the same household from rent aid through housing stability and later work.
 
 ## A home can be costly to heat before anything else changes
 

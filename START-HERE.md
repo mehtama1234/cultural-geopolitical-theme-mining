@@ -149,6 +149,8 @@ The next short pass is [US housing-court legal help](analysis/projects/us-housin
 
 The next short pass is [US rental assistance and eviction prevention](analysis/projects/us-rental-assistance-eviction-prevention/README.md), with its [source search record](analysis/projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md). It tests whether rent aid prevents displacement or mainly buys time when the rent problem remains.
 
+The next short pass is [US emergency assistance and the work path](analysis/projects/us-emergency-assistance-work-path/README.md), with its [source search record](analysis/projects/us-emergency-assistance-work-path/source-search-2026-09-11.md). It tests whether preventing a housing break protects work and later earnings.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

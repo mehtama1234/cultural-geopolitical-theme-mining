@@ -1291,6 +1291,28 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md"
+    },
+    {
+      "id": "emergency_assistance_work_path",
+      "evidence_check": {
+        "title": "Keeping a home may protect the next job",
+        "finding": "NBER links callers to a Chicago homelessness-prevention hotline with federal tax records and uses quasi-random funding availability to compare similar families. Looking up to four years later, it finds evidence of employment and earnings gains, especially for the lowest earners, and no evidence that short-term assistance lowers work or earnings.",
+        "meaning": "Working interpretation: emergency help may protect work capacity by keeping a housing crisis from taking over the next job decision.",
+        "counterpoint": "The study concerns people who reached one Chicago hotline and received short-term help. Higher later earnings may reflect who could use the help or other changes around the crisis, even with the study's comparison design.",
+        "counterpoint_source": "https://www.nber.org/papers/w32856",
+        "limit": "The evidence does not show which housing event was prevented, whether the person kept the same job, or how the result changes across places and aid designs.",
+        "source": "https://www.nber.org/papers/w32856",
+        "location": "Hungerman, Phillips, Rinz and Sullivan, The Effect of Emergency Financial Assistance on Employment and Earnings, NBER Working Paper 32856, checked 2026-09-11."
+      },
+      "project": "us-emergency-assistance-work-path",
+      "title": "Keeping a home may protect the next job",
+      "summary": "Short-term help during a housing crisis may protect employment and later earnings, especially for the lowest earners.",
+      "question": "Does preventing a housing break protect work, or does work recover for another reason?",
+      "limit": "The opening evidence follows one Chicago hotline population and does not identify the full housing event or job path.",
+      "subthemes": ["Housing crisis and work continuity", "Short-term help and later earnings"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-emergency-assistance-work-path/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1669,6 +1691,13 @@
       "meaning": "Follow rent aid into payment and housing stability, then ask whether the household avoids the credit and housing losses that can follow an eviction.",
       "limit": "The aid studies do not show the same tenant's later credit path, and the eviction studies do not identify which prevention design came first.",
       "memo": "../site/us-rental-prevention-path-001.html"
+    },
+    {
+      "title": "When housing help reaches the next paycheck",
+      "topics": ["rental_assistance_eviction_prevention", "housing", "work"],
+      "meaning": "Follow rent help into housing continuity and then work and earnings, while asking whether the housing problem was actually removed.",
+      "limit": "The assistance studies use different programs and outcomes; they do not show one household's housing and work path together.",
+      "memo": null
     }
   ],
   "edges": [
@@ -2270,6 +2299,22 @@
       "to": "housing",
       "relation": "Rent aid may protect a household's immediate housing choice even when the rent level stays high",
       "limit": "The current evidence does not show the same tenant's later housing stability after assistance ends.",
+      "type": "open"
+    },
+    {
+      "id": "link-76",
+      "from": "rental_assistance_eviction_prevention",
+      "to": "emergency_assistance_work_path",
+      "relation": "Housing help may protect work continuity, but payment relief and earnings are separate outcomes",
+      "limit": "The current sources do not follow the same household from rent aid through housing stability and later work.",
+      "type": "open"
+    },
+    {
+      "id": "link-77",
+      "from": "housing",
+      "to": "work",
+      "relation": "A housing break can make reaching and keeping work harder",
+      "limit": "The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.",
       "type": "open"
     }
   ]
