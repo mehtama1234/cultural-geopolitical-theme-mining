@@ -20,6 +20,8 @@ Compare going without insurance, skipping treatment and relying on family help. 
 
 Still missing: These studies concern different groups. They do not show that an insurance bill caused a missed treatment or more family care.
 
+[Read the complete connected memo](../site/us-health-care-time-path-001.html)
+
 ### From family time to money and economic views
 
 Follow three separate questions: who has time to work, what money is available, and how people judge the economy. The timing of each change matters.
