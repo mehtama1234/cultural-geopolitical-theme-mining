@@ -847,6 +847,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-vehicle-repair-household-shock/source-search-2026-09-11.md"
+    },
+    {
+      "id": "family_support_buffer",
+      "evidence_check": {
+        "title": "Family help can move a shock between generations",
+        "finding": "NBER reports that parents in lower-wealth households reduce financial help to adult children after adverse events, while children increase transfers and informal help to parents. HBS describes workers balancing care for children and aging parents with paid work.",
+        "meaning": "Working interpretation: family support can keep a bill, job or care need covered while moving the cost to another person's cash, time or work room.",
+        "counterpoint": "Family help can be fast, trusted and better suited to a need than a formal program. It may protect work and care rather than only hide a burden.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness",
+        "limit": "The current sources do not follow both sides of one family around one event or show what the helper gives up afterward.",
+        "source": "https://www.nber.org/papers/w28295",
+        "location": "NBER family-support research and HBS caregiver reporting, checked 2026-09-11."
+      },
+      "project": "us-family-support-hidden-safety-net",
+      "title": "Family help can move a shock between generations",
+      "summary": "Money and unpaid care can protect one household while using another household's room to act.",
+      "question": "Who in the family catches the fall when money or health changes?",
+      "limit": "The opening packet shows a family response, not a full measure of the cost or who lacks someone able to help.",
+      "subthemes": [
+        "Intergenerational transfers",
+        "Unpaid care and work room"
+      ],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-family-support-hidden-safety-net/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1098,6 +1123,13 @@
       "topics": ["vehicle_repair_shock", "transport", "work"],
       "meaning": "Follow an unexpected repair into the cash buffer, then ask what happens to the route to work, care and food when the vehicle is stopped.",
       "limit": "The opening sources do not follow the same household from a repair to a missed trip, lost work or later debt.",
+      "memo": null
+    },
+    {
+      "title": "When family help catches the fall",
+      "topics": ["family_support_buffer", "care", "money"],
+      "meaning": "Follow a shock from one household into money or unpaid care from another, then ask who has less room afterward.",
+      "limit": "The current sources show changes in family support but do not follow both sides through work, debt and later security.",
       "memo": null
     }
   ],
@@ -1540,6 +1572,14 @@
       "to": "transport",
       "relation": "A repair can turn a normal route to work or care into a cash and access problem",
       "limit": "The current sources do not show which households lose a trip or whether another route was available.",
+      "type": "open"
+    },
+    {
+      "id": "link-56",
+      "from": "family_support_buffer",
+      "to": "care",
+      "relation": "A family may cover a shock with money or unpaid care before a formal service arrives",
+      "limit": "The current sources do not show whether the helper loses work, income, health or future security.",
       "type": "open"
     }
   ]

@@ -401,6 +401,16 @@ Follow an unexpected repair into the cash buffer, then ask what happens to the r
 
 Still missing: The opening sources do not follow the same household from a repair to a missed trip, lost work or later debt.
 
+### When family help catches the fall
+
+Follow a shock from one household into money or unpaid care from another, then ask who has less room afterward.
+
+1. [Family help can move a shock between generations](#family_support_buffer)
+2. [A family can pay for care with time](#care)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources show changes in family support but do not follow both sides through work, debt and later security.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -973,6 +983,7 @@ Connections:
 - Comparison: Different kinds of family care can use the same scarce hours. Related topic: Family time can replace a large cash payment. The current packets do not show how elder care and childcare compete within one household schedule.
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: The same job can contain different AI access. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 - Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: Older consumers are not one market. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
+- Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: Family help can move a shock between generations. The current sources do not show whether the helper loses work, income, health or future security.
 
 ### Family time can replace a large cash payment
 
@@ -1078,6 +1089,41 @@ Connections:
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: The same job can contain different AI access. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 - Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful tool can feel like an admission. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
 - Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: An AI support app can comfort and hold attention. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
+
+### Family help can move a shock between generations
+
+Money and unpaid care can protect one household while using another household's room to act.
+
+**Question:** Who in the family catches the fall when money or health changes?
+
+**Subthemes:** Intergenerational transfers; Unpaid care and work room
+
+**Limit:** The opening packet shows a family response, not a full measure of the cost or who lacks someone able to help.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Family Support in Hard Times](https://www.nber.org/papers/w28295)
+- [A Family Affair: The Effects of College on Parent and Student Finances](https://www.nber.org/papers/w33497)
+- [With Millions of Workers Juggling Caregiving](https://www.library.hbs.edu/working-knowledge/workers-juggling-caregiving-employers-need-to-rethink)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+#### Evidence check: Family help can move a shock between generations
+
+NBER reports that parents in lower-wealth households reduce financial help to adult children after adverse events, while children increase transfers and informal help to parents. HBS describes workers balancing care for children and aging parents with paid work.
+
+Working interpretation: family support can keep a bill, job or care need covered while moving the cost to another person's cash, time or work room.
+
+**Counterpoint:** Family help can be fast, trusted and better suited to a need than a formal program. It may protect work and care rather than only hide a burden.
+[Related study](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+The current sources do not follow both sides of one family around one event or show what the helper gives up afterward.
+
+[NBER family-support research and HBS caregiver reporting, checked 2026-09-11.](https://www.nber.org/papers/w28295)
+
+
+Connections:
+
+- Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: A family can pay for care with time. The current sources do not show whether the helper loses work, income, health or future security.
 
 ## Who can get an answer or change a decision
 

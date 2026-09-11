@@ -1,8 +1,8 @@
 # US source coverage
 
-35 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+36 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 26; HHS: 1; IEA: 1; IMF: 1; NBER: 51; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 28; HHS: 1; IEA: 1; IMF: 1; NBER: 53; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -383,6 +383,31 @@
 - whether energy and insurance costs arrive together for the same household.
 
 [Open the source-search record](projects/us-energy-household-burden/source-search-2026-09-11.md)
+
+## US family support as a hidden safety net
+
+**Project:** `us-family-support-hidden-safety-net`
+
+**Status:** opening pass; transfer and care links are useful, same-family cost remains open
+
+**Question:** When one household loses money or health, who in the family catches the fall?
+
+**Sources recorded:** 4
+
+- [Family Support in Hard Times](https://www.nber.org/papers/w28295)
+- [A Family Affair: The Effects of College on Parent and Student Finances](https://www.nber.org/papers/w33497)
+- [With Millions of Workers Juggling Caregiving](https://www.library.hbs.edu/working-knowledge/workers-juggling-caregiving-employers-need-to-rethink)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+**Open gaps:**
+- the size and timing of money or in-kind help;
+- unpaid care hours and missed paid work for the helper;
+- whether family help replaces credit, public aid or a missed payment;
+- differences by wealth, race, age, distance, family structure and disability;
+- whether help builds a future claim or creates conflict and debt;
+- households without a person able to help.
+
+[Open the source-search record](projects/us-family-support-hidden-safety-net/source-search-2026-09-11.md)
 
 ## US food, the household budget, and basic security
 
