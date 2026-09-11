@@ -14,7 +14,7 @@ This checks the tested interactions and opening layout. It is not a complete acc
 
 ## Reading-path checks
 
-On 2026-09-11, Chromium also verified three reading paths containing nine topic links. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.
+On 2026-09-11, Chromium also verified five reading paths containing fifteen topic links. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.
 
 ## UX audit note
 

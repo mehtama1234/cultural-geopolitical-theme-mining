@@ -50,6 +50,16 @@ Follow AI access from the worker's task to the customer's answer and then to the
 
 Still missing: The current sources do not link worker AI access to customer exit behavior or show who gained control.
 
+### When protection becomes another household bill
+
+Follow the cost of keeping a home protected into the wider payment burden, then ask how households judge the economy. The path joins two kinds of bills without treating them as one measure.
+
+1. [Keeping a home also means paying to protect it](#housing)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current packets do not track the same households across insurance payments, other payment choices and economic views.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -96,6 +106,7 @@ Connections:
 
 - Question to test: Less paid work could leave less money for bills. Related topic: A family can pay for care with time. Check earnings around the start of care and borrowing afterward.
 - Question to test: Financial pressure might change whom people blame. Related topic: Personal finances and national mood can move apart. Compare changes within the same people and account for party identity.
+- Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: Keeping a home also means paying to protect it. The current sources do not follow the same households across these costs or show which bill is given up first.
 
 <a id="housing"></a>
 
@@ -134,6 +145,7 @@ Connections:
 
 - Comparison: Cost can lead people to use less protection or care. Related topic: People can pay the bills by giving up care. Parallel household choices; neither packet proves the same people face both.
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Business counts do not tell us who belongs to a place. Needs linked evidence on owners, housing costs and business moves.
+- Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: The price on the screen is only part of the cost. The current sources do not follow the same households across these costs or show which bill is given up first.
 
 <a id="health"></a>
 
