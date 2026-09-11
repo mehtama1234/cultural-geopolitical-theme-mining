@@ -14,7 +14,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 | Dimension | Present | Still missing |
 |---|---|---|
-| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, Microsoft, Capgemini, Whoz | More worker-led, union, legal, and non-Western sources |
+| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz | More worker-led, union, legal, and non-Western sources |
 | Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond India and Indonesia, wider Africa outside case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
@@ -23,7 +23,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 ## Evidence count
 
-- 41 claims in the ledger;
+- 42 claims in the ledger;
 - 8 provisional findings;
 - 3 company bridges;
 - 1 theme map;
