@@ -1097,6 +1097,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-durable-purchase-financing/source-search-2026-09-11.md"
+    },
+    {
+      "id": "guaranteed_income_household",
+      "evidence_check": {
+        "title": "Cash can change the choices of people who did not receive it",
+        "finding": "A recent randomized NBER guaranteed-income study finds that other household members became more likely to take part in education or training. It also finds more reports that someone in the household had forgone health care, a result the authors say may reflect greater engagement with care and newly identified unmet needs.",
+        "meaning": "Working interpretation: regular cash can move time and decision power inside a household, helping one member act while making another person's unmet need more visible.",
+        "counterpoint": "More reported forgone care is not proof that cash caused worse health. It may reflect better contact with care or awareness of a need that was already there.",
+        "counterpoint_source": "https://www.nber.org/papers/w35589",
+        "limit": "The current experiment does not show how household roles, health, work and debt change after payments end.",
+        "source": "https://www.nber.org/papers/w35589",
+        "location": "NBER guaranteed-income household and balance-sheet experiments, with HBS cash-and-control reporting. Checked 2026-09-11."
+      },
+      "project": "us-guaranteed-income-household-dynamics",
+      "title": "Cash can change the choices of people who did not receive it",
+      "summary": "A payment to one person can change training, care and spending decisions across the household.",
+      "question": "What changes inside a household when only one person receives regular cash?",
+      "limit": "The opening packet shows household spillovers, not a settled health or work effect after payments end.",
+      "subthemes": [
+        "Within-household spillovers",
+        "Cash, training and revealed care needs"
+      ],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-guaranteed-income-household-dynamics/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1418,6 +1443,13 @@
       "topics": ["durable_purchase_finance", "credit", "money"],
       "meaning": "Follow a one-time payment into a vehicle or other durable purchase, then ask whether financing protects access or narrows later room.",
       "limit": "The current sources do not show the same household's need, loan terms and later repayment outcome.",
+      "memo": null
+    },
+    {
+      "title": "When cash changes the rest of the household",
+      "topics": ["guaranteed_income_household", "care", "money"],
+      "meaning": "Follow a payment to one person into another member's training, care or spending, then ask what the family gains and what need becomes visible.",
+      "limit": "The current experiment does not settle the health meaning or the lasting effect after payments end.",
       "memo": null
     }
   ],
@@ -1940,6 +1972,14 @@
       "to": "credit",
       "relation": "A large purchase can turn temporary household room into a longer credit obligation",
       "limit": "The current evidence does not show whether the financed purchase protected access or reduced later financial room.",
+      "type": "open"
+    },
+    {
+      "id": "link-66",
+      "from": "guaranteed_income_household",
+      "to": "care",
+      "relation": "Cash to one household member can change another member's training or care path",
+      "limit": "The current evidence does not show whether the care report reflects new need, better detection or worse health.",
       "type": "open"
     }
   ]

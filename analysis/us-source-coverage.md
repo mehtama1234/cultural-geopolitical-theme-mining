@@ -1,8 +1,8 @@
 # US source coverage
 
-45 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+46 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 38; HHS: 2; IEA: 1; IMF: 1; NBER: 72; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 39; HHS: 2; IEA: 1; IMF: 1; NBER: 74; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -506,6 +506,30 @@
 - whether public assistance prevents debt or only delays another shortfall.
 
 [Open the source-search record](projects/us-food-budget-security/source-search-2026-09-11.md)
+
+## US guaranteed income and household dynamics
+
+**Project:** `us-guaranteed-income-household-dynamics`
+
+**Status:** opening pass; household spillovers are measured, health meaning remains open
+
+**Question:** What does regular cash change inside a household when only one person receives it?
+
+**Sources recorded:** 3
+
+- [Income Shocks and Intrahousehold Dynamics](https://www.nber.org/papers/w35589)
+- [The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+**Open gaps:**
+- who controls the payment and how it is shared;
+- work, training and care by each household member;
+- health need, care use and out-of-pocket cost;
+- spending, saving, debt and housing changes;
+- conflict, dependence and family support;
+- results after the payment stops.
+
+[Open the source-search record](projects/us-guaranteed-income-household-dynamics/source-search-2026-09-11.md)
 
 ## US habit change and social judgment
 

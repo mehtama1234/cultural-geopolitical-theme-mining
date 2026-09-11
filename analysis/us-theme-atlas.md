@@ -500,6 +500,16 @@ Follow a one-time payment into a vehicle or other durable purchase, then ask whe
 
 Still missing: The current sources do not show the same household's need, loan terms and later repayment outcome.
 
+### When cash changes the rest of the household
+
+Follow a payment to one person into another member's training, care or spending, then ask what the family gains and what need becomes visible.
+
+1. [Cash can change the choices of people who did not receive it](#guaranteed_income_household)
+2. [A family can pay for care with time](#care)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current experiment does not settle the health meaning or the lasting effect after payments end.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1178,6 +1188,7 @@ Connections:
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: The same job can contain different AI access. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 - Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: Older consumers are not one market. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
 - Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: Family help can move a shock between generations. The current sources do not show whether the helper loses work, income, health or future security.
+- Question to test: Cash to one household member can change another member's training or care path. Related topic: Cash can change the choices of people who did not receive it. The current evidence does not show whether the care report reflects new need, better detection or worse health.
 
 ### Family time can replace a large cash payment
 
@@ -1318,6 +1329,40 @@ The current sources do not follow both sides of one family around one event or s
 Connections:
 
 - Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: A family can pay for care with time. The current sources do not show whether the helper loses work, income, health or future security.
+
+### Cash can change the choices of people who did not receive it
+
+A payment to one person can change training, care and spending decisions across the household.
+
+**Question:** What changes inside a household when only one person receives regular cash?
+
+**Subthemes:** Within-household spillovers; Cash, training and revealed care needs
+
+**Limit:** The opening packet shows household spillovers, not a settled health or work effect after payments end.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Income Shocks and Intrahousehold Dynamics](https://www.nber.org/papers/w35589)
+- [The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+#### Evidence check: Cash can change the choices of people who did not receive it
+
+A recent randomized NBER guaranteed-income study finds that other household members became more likely to take part in education or training. It also finds more reports that someone in the household had forgone health care, a result the authors say may reflect greater engagement with care and newly identified unmet needs.
+
+Working interpretation: regular cash can move time and decision power inside a household, helping one member act while making another person's unmet need more visible.
+
+**Counterpoint:** More reported forgone care is not proof that cash caused worse health. It may reflect better contact with care or awareness of a need that was already there.
+[Related study](https://www.nber.org/papers/w35589)
+
+The current experiment does not show how household roles, health, work and debt change after payments end.
+
+[NBER guaranteed-income household and balance-sheet experiments, with HBS cash-and-control reporting. Checked 2026-09-11.](https://www.nber.org/papers/w35589)
+
+
+Connections:
+
+- Question to test: Cash to one household member can change another member's training or care path. Related topic: A family can pay for care with time. The current evidence does not show whether the care report reflects new need, better detection or worse health.
 
 ## Who can get an answer or change a decision
 
