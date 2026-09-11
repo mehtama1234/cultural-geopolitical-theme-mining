@@ -1,8 +1,8 @@
 # US source coverage
 
-21 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+22 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 10; HHS: 1; IEA: 1; IMF: 1; NBER: 33; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 11; HHS: 1; IEA: 1; IMF: 1; NBER: 33; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -338,6 +338,27 @@
 - whether public assistance prevents debt or only delays another shortfall.
 
 [Open the source-search record](projects/us-food-budget-security/source-search-2026-09-11.md)
+
+## US habit change and social judgment
+
+**Project:** `us-habit-change-social-judgment`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Why might people avoid a useful aid when the aid could make their struggle visible to other people?
+
+**Sources recorded:** 1
+
+- [HBS Working Knowledge: We Have Better Ways to Break Habits Than Willpower](https://www.library.hbs.edu/working-knowledge/we-have-better-ways-to-break-habits-than-willpower-why-dont-we-use-them)
+
+**Open gaps:**
+- US consumer data on who uses blocking tools, patches or other commitment aids;
+- whether use changes later attention, health or spending behavior;
+- effects by age, income, work setting and social group;
+- whether product makers make help look normal or make failure more visible;
+- whether a private tool works differently from a shared promise or rule.
+
+[Open the source-search record](projects/us-habit-change-social-judgment/source-search-2026-09-11.md)
 
 ## US health costs and the choices people give up
 

@@ -261,6 +261,16 @@ Follow a planned office meeting into later coworker contact and then count the t
 
 Still missing: The current trial does not show which workers benefit after travel cost, care duty, disability, distance and job type are included.
 
+### When getting help becomes a social choice
+
+Follow a person's choice to use or avoid a habit-change aid into attention and then ask how products and institutions make help feel normal or exposing.
+
+1. [A useful tool can feel like an admission](#habit_change)
+2. [A useful app can still make leaving difficult](#attention)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current evidence supports social judgment in controlled tasks but does not follow the same US consumers through tool use and later behavior.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -626,6 +636,38 @@ Connections:
 - Question to test: Childcare cost or disruption can change paid work time. Related topic: The same job can contain different AI access. Reported work loss does not by itself prove that childcare caused the change.
 - Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: The price on the screen is only part of the cost. The current sources do not show which option leaves the household with more room later.
 
+### A useful tool can feel like an admission
+
+People may choose private willpower over a visible aid when using help feels socially revealing.
+
+**Question:** What does the tool say about the person?
+
+**Subthemes:** Social judgment; Private versus visible help
+
+**Limit:** The opening evidence does not yet measure the full behavior-change path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS Working Knowledge: We Have Better Ways to Break Habits Than Willpower](https://www.library.hbs.edu/working-knowledge/we-have-better-ways-to-break-habits-than-willpower-why-dont-we-use-them)
+
+#### Evidence check: A useful aid can feel like an admission
+
+HBS reports research in which people trusted a person described as using willpower more than one using a blocking app, and later rated people using commitment tools as having less integrity. Participants were also less likely to choose a tool when others might find out.
+
+Working interpretation: a product can solve a practical problem and still lose adoption if using it carries a social cost.
+
+**Counterpoint:** The research summary does not show that willpower is always weaker, that every aid works, or that social judgment is the main reason people avoid one.
+[Related study](https://www.library.hbs.edu/working-knowledge/we-have-better-ways-to-break-habits-than-willpower-why-dont-we-use-them)
+
+We do not yet have a current US consumer record linking aid choice, social judgment and later behavior for the same people.
+
+[HBS Working Knowledge, reporting research by Julian Zlatev and Ariella Kristal, October 15, 2024. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/we-have-better-ways-to-break-habits-than-willpower-why-dont-we-use-them)
+
+
+Connections:
+
+- Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful app can still make leaving difficult. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
+
 ### A useful app can still make leaving difficult
 
 The reason a person stays matters when longer conversations benefit the company.
@@ -659,6 +701,7 @@ Connections:
 
 - Comparison: Company goals and customer goals may differ when a conversation continues. Related topic: A quicker reply may still leave a problem open. Longer contact may mean useful help, an unresolved problem or pressure to stay.
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: The same job can contain different AI access. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
+- Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful tool can feel like an admission. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
 
 ## Who can get an answer or change a decision
 
