@@ -6,9 +6,45 @@ Eight short research passes, connected through everyday choices. These are early
 
 Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior.
 
+## Follow a question across topics
+
+Reading paths, not proven chains of cause and effect.
+
+### When a lower bill hides an unmet need
+
+Compare going without insurance, skipping treatment and relying on family help. Spending alone may miss what a household has given up.
+
+1. [Keeping a home also means paying to protect it](#housing)
+2. [People can pay the bills by giving up care](#health)
+3. [A family can pay for care with time](#care)
+
+Still missing: These studies concern different groups. They do not show that an insurance bill caused a missed treatment or more family care.
+
+### From family time to money and economic views
+
+Follow three separate questions: who has time to work, what money is available, and how people judge the economy. The timing of each change matters.
+
+1. [A family can pay for care with time](#care)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: Caregiving and benefit-loss studies examine different events. We have not shown that caregiving leads to borrowing, political distrust or a changed vote.
+
+### When staying does not mean being satisfied
+
+Compare continued app use with repeated requests for help. Ask whether people stay because they benefit, cannot leave, or still need an answer; then separately test any change in trust.
+
+1. [A useful app can still make leaving difficult](#attention)
+2. [A quicker reply may still leave a problem open](#service)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: Time spent is not proof of satisfaction or harm. A link from unresolved service problems to political trust remains untested.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
+
+<a id="money"></a>
 
 ### The price on the screen is only part of the cost
 
@@ -39,6 +75,8 @@ Connections:
 - Question to test: Less paid work could leave less money for bills. Related topic: A family can pay for care with time. Check earnings around the start of care and borrowing afterward.
 - Question to test: Financial pressure might change whom people blame. Related topic: Personal finances and national mood can move apart. Compare changes within the same people and account for party identity.
 
+<a id="housing"></a>
+
 ### Keeping a home also means paying to protect it
 
 Insurance bills and gaps in coverage belong in the housing affordability story.
@@ -59,10 +97,23 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Census: renter cost burden](https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html)
 - [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579)
 
+#### Evidence check: Insurance can affect both the bill and the home's value
+
+Using more than 74 million insurance premiums inferred from mortgage payments in 2014–2024, researchers estimate that rising premiums reduced home-price growth by over $40,000 in the most exposed ZIP codes.
+
+Working interpretation: a household may face a higher running cost while its main asset gains less value. Check both bills and wealth when comparing housing pressure with other household costs.
+
+This is an estimated reduction in price growth, not a $40,000 loss for every homeowner. Only the indexed NBER abstract was reviewed in this pass; full methods remain unchecked. Moves and local-business effects are unproven.
+
+[Keys and Mulder, working paper, revised November 2025. Abstract checked through search on 2026-09-11; direct page returned 403.](https://www.nber.org/papers/w32579)
+
+
 Connections:
 
 - Comparison: Cost can lead people to use less protection or care. Related topic: People can pay the bills by giving up care. Parallel household choices; neither packet proves the same people face both.
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Business counts do not tell us who belongs to a place. Needs linked evidence on owners, housing costs and business moves.
+
+<a id="health"></a>
 
 ### People can pay the bills by giving up care
 
@@ -103,6 +154,8 @@ Connections:
 
 Compare unpaid help with time spent using a product; the reasons and benefits differ.
 
+<a id="care"></a>
+
 ### A family can pay for care with time
 
 Unpaid help uses hours that could otherwise go to work, rest or other family needs.
@@ -137,6 +190,8 @@ Connections:
 - Question to test: An unmet care need may require more family time. Related topic: People can pay the bills by giving up care. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Less paid work could leave less money for bills. Related topic: The price on the screen is only part of the cost. Check earnings around the start of care and borrowing afterward.
 
+<a id="attention"></a>
+
 ### A useful app can still make leaving difficult
 
 The reason a person stays matters when longer conversations benefit the company.
@@ -163,6 +218,8 @@ Connections:
 
 Look for actual choices and responses before claiming that trust or power changed.
 
+<a id="politics"></a>
+
 ### Personal finances and national mood can move apart
 
 People judge the economy through both their circumstances and their expectations about the country.
@@ -182,11 +239,24 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059)
 - [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524)
 
+#### Evidence check: A lost benefit can leave a lasting mark on economic views
+
+A working paper estimates that each $1,000 lost when the expanded 2021 Child Tax Credit expired lowered consumer sentiment by 1.7 points. Effects lasted nearly two years and were largest among lower-income families with multiple children.
+
+Working interpretation: connect views of the economy to changes in household support as well as prices. Ask what money stopped arriving, not only what became more expensive.
+
+The study compares households with different benefit losses; it is not a randomized experiment. Only the indexed NBER abstract was reviewed in this pass. Full methods remain unchecked, and the reported result does not establish a change in votes.
+
+[Bastian and Harvey, working paper, revised August 2026. Abstract checked through search on 2026-09-11; direct page returned 403.](https://www.nber.org/papers/w35059)
+
+
 Connections:
 
 - Question to test: Financial pressure might change whom people blame. Related topic: The price on the screen is only part of the cost. Compare changes within the same people and account for party identity.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: People can pay the bills by giving up care. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: A quicker reply may still leave a problem open. No direct evidence of that chain in the current packet.
+
+<a id="place"></a>
 
 ### Business counts do not tell us who belongs to a place
 
@@ -209,6 +279,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 Connections:
 
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Keeping a home also means paying to protect it. Needs linked evidence on owners, housing costs and business moves.
+
+<a id="service"></a>
 
 ### A quicker reply may still leave a problem open
 

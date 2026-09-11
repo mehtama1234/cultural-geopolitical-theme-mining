@@ -11,3 +11,7 @@ Checked with Chromium on 2026-09-11 at 1440 × 1000 and 390 × 844.
 - Desktop and phone screenshots were visually inspected for the opening reading layout. The page uses large text, a constrained reading width, and a single column on phones.
 
 This checks the tested interactions and opening layout. It is not a complete accessibility audit or a verification of the research claims. Keyboard and screen-reader testing, full-page visual review, and evidence review remain separate work.
+
+## Reading-path checks
+
+On 2026-09-11, Chromium also verified three reading paths containing nine topic links. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.

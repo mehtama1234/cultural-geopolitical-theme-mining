@@ -37,6 +37,14 @@
     },
     {
       "id": "housing",
+      "evidence_check": {
+        "title": "Insurance can affect both the bill and the home's value",
+        "finding": "Using more than 74 million insurance premiums inferred from mortgage payments in 2014–2024, researchers estimate that rising premiums reduced home-price growth by over $40,000 in the most exposed ZIP codes.",
+        "meaning": "Working interpretation: a household may face a higher running cost while its main asset gains less value. Check both bills and wealth when comparing housing pressure with other household costs.",
+        "limit": "This is an estimated reduction in price growth, not a $40,000 loss for every homeowner. Only the indexed NBER abstract was reviewed in this pass; full methods remain unchecked. Moves and local-business effects are unproven.",
+        "source": "https://www.nber.org/papers/w32579",
+        "location": "Keys and Mulder, working paper, revised November 2025. Abstract checked through search on 2026-09-11; direct page returned 403."
+      },
       "project": "us-housing-insurance-risk",
       "title": "Keeping a home also means paying to protect it",
       "summary": "Insurance bills and gaps in coverage belong in the housing affordability story.",
@@ -98,6 +106,14 @@
     },
     {
       "id": "politics",
+      "evidence_check": {
+        "title": "A lost benefit can leave a lasting mark on economic views",
+        "finding": "A working paper estimates that each $1,000 lost when the expanded 2021 Child Tax Credit expired lowered consumer sentiment by 1.7 points. Effects lasted nearly two years and were largest among lower-income families with multiple children.",
+        "meaning": "Working interpretation: connect views of the economy to changes in household support as well as prices. Ask what money stopped arriving, not only what became more expensive.",
+        "limit": "The study compares households with different benefit losses; it is not a randomized experiment. Only the indexed NBER abstract was reviewed in this pass. Full methods remain unchecked, and the reported result does not establish a change in votes.",
+        "source": "https://www.nber.org/papers/w35059",
+        "location": "Bastian and Harvey, working paper, revised August 2026. Abstract checked through search on 2026-09-11; direct page returned 403."
+      },
       "project": "us-cost-trust-politics",
       "title": "Personal finances and national mood can move apart",
       "summary": "People judge the economy through both their circumstances and their expectations about the country.",
@@ -155,6 +171,26 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md"
+    }
+  ],
+  "reading_paths": [
+    {
+      "title": "When a lower bill hides an unmet need",
+      "topics": ["housing", "health", "care"],
+      "meaning": "Compare going without insurance, skipping treatment and relying on family help. Spending alone may miss what a household has given up.",
+      "limit": "These studies concern different groups. They do not show that an insurance bill caused a missed treatment or more family care."
+    },
+    {
+      "title": "From family time to money and economic views",
+      "topics": ["care", "money", "politics"],
+      "meaning": "Follow three separate questions: who has time to work, what money is available, and how people judge the economy. The timing of each change matters.",
+      "limit": "Caregiving and benefit-loss studies examine different events. We have not shown that caregiving leads to borrowing, political distrust or a changed vote."
+    },
+    {
+      "title": "When staying does not mean being satisfied",
+      "topics": ["attention", "service", "politics"],
+      "meaning": "Compare continued app use with repeated requests for help. Ask whether people stay because they benefit, cannot leave, or still need an answer; then separately test any change in trust.",
+      "limit": "Time spent is not proof of satisfaction or harm. A link from unresolved service problems to political trust remains untested."
     }
   ],
   "edges": [

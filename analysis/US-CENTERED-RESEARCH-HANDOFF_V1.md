@@ -1,5 +1,17 @@
 # US-centered research handoff v1
 
+## Connected reading guide: current handoff
+
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eight topics now sit under three shared themes, with eight explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+
+Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
+
+Three reading paths now link household costs and care, family time and economic views, and continued contact and trust. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
+
+Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve search, theme filters, direct topic links, expandable sources and connections, readable phone layouts, and visible uncertainty. The [browser check](us-theme-atlas-browser-check.md) records the interactions already tested. Extend those checks when changing navigation or layout.
+
+Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The eight opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
+
 ## Where we are going
 
 The next major research stream will study the United States from the inside out: what customers and households experience, how firms respond, how money and credit shape the choices available, how public institutions react, and how those changes become social and political pressure.

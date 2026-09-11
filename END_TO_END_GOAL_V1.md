@@ -4,6 +4,8 @@
 
 Build a repeatable, US-centered research system that starts with scattered evidence and ends with clear, testable findings about what is changing beneath visible events.
 
+The reading experience must connect findings, subthemes and larger themes by meaning. Explain each link, distinguish supported results from open questions, and let readers move from the big picture to related findings and their sources. Maintain matching Markdown and HTML from one shared record where practical. HTML must be easy to search, navigate and read on a phone as well as a desktop. The current starting point is the [connected reading guide](site/us-theme-atlas.html).
+
 The main object is the American customer, consumer, household, worker, investor, voter, and public institution. International evidence is used when it changes the conditions facing people or firms in the United States, or when it gives us a useful comparison. The project is not a general world-news digest.
 
 The system will mine research stories, working papers, datasets, public records, company evidence, surveys, and security data. It will connect those sources across four questions:
