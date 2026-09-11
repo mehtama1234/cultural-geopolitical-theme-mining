@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a record starts making the future
+
+Follow a score change into the record a lender sees, then into housing access. The test is whether a paper signal adds a real cost before a new household failure occurs.
+
+1. [A score can help cause the default it predicts](#self_fulfilling_credit_scores)
+2. [A payment record can become a gate to a home](#credit_record_visibility)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not follow the same borrower from score movement through lender terms, payment, housing and recovery.
+
 ### When a bank fee becomes a wider credit problem
 
 Follow a low-cash account through a bank fee rule and into later borrowing or payment cost. The key question is whether relief stays with the household or moves to another product.
@@ -1028,6 +1038,8 @@ Connections:
 - Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Rent insurance could move a short shock away from the tenant. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
 - Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Insurance risk can become a home and credit problem. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
 - Question to test: Water quality is part of what a household receives from a home and a place, not only a bill or building condition. Related topic: A public water fix can become a health and place benefit. The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.
+- Question to test: If a score makes credit harder to get, it may also change access to a home or the cost of keeping one. Related topic: A score can help cause the default it predicts. The current study does not measure rent, mortgage approval, insurance, moving or home loss.
+- Question to test: A credit record can change access to housing and the terms attached to keeping it. Related topic: A payment record can become a gate to a home. The current evidence shows that records may be used in housing decisions but does not follow one person's later rent, mortgage or move outcome.
 
 ### Credit can be a bridge and a later bill
 
@@ -2373,6 +2385,8 @@ The current sources do not identify every cause of group gaps or show that one r
 Connections:
 
 - Question to test: A payment or account record can change what credit is available later. Related topic: Credit can be a bridge and a later bill. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
+- Question to test: A score change can alter the record a lender uses even when the borrower's underlying report did not change. Related topic: A score can help cause the default it predicts. The current study identifies the score change and default response but does not show each lender's decision or term.
+- Question to test: A credit record can change access to housing and the terms attached to keeping it. Related topic: Keeping a home also means paying to protect it. The current evidence shows that records may be used in housing decisions but does not follow one person's later rent, mortgage or move outcome.
 
 ### A lawyer can stop a rent dispute from becoming a forced move
 
@@ -2642,6 +2656,39 @@ Connections:
 
 - Question to test: Water quality is part of what a household receives from a home and a place, not only a bill or building condition. Related topic: Keeping a home also means paying to protect it. The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.
 - Question to test: Lower water pollution can reduce a health risk through a public system rather than through a household purchase. Related topic: People can pay the bills by giving up care. The mortality result concerns older Americans and does not identify each person's exposure, care path or later health spending.
+
+### A score can help cause the default it predicts
+
+For people with damaged credit records, a score change that adds no new household fact may still raise the chance of default.
+
+**Question:** When does a record become a barrier that helps produce the result it forecasts?
+
+**Subthemes:** Scoring and access; Prediction and feedback
+
+**Limit:** The opening study measures score movement and default for a defined group, not the full household and housing path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Self-Fulfilling Credit Scores](https://www.nber.org/papers/w35508)
+
+#### Evidence check: A score can help cause the default it predicts
+
+An NBER study finds that an extra counted credit inquiry lowers scores by about five points without changing the credit report. Default does not change for consumers with clean records, but rises by 3.2 percentage points over two years for consumers with prior derogatory marks. At least 13% of the score-default link for that group appears self-fulfilling.
+
+Working interpretation: a financial record can become part of the event it is meant to measure when a lower score makes the next loan harder or more costly.
+
+**Counterpoint:** Scores can help lenders sort risk and may protect borrowers from loans they cannot repay. This result concerns a defined higher-risk group and does not show that removing scores would improve outcomes.
+[Related study](https://www.nber.org/papers/w35508)
+
+The opening evidence does not show which lender decision caused the default or the same borrower's later housing, work, insurance or score-recovery path.
+
+[Duarte and Fonseca, Self-Fulfilling Credit Scores, NBER Working Paper 35508, checked 2026-09-11.](https://www.nber.org/papers/w35508)
+
+
+Connections:
+
+- Question to test: A score change can alter the record a lender uses even when the borrower's underlying report did not change. Related topic: A payment record can become a gate to a home. The current study identifies the score change and default response but does not show each lender's decision or term.
+- Question to test: If a score makes credit harder to get, it may also change access to a home or the cost of keeping one. Related topic: Keeping a home also means paying to protect it. The current study does not measure rent, mortgage approval, insurance, moving or home loss.
 
 ## Who controls the work and gets the gain
 

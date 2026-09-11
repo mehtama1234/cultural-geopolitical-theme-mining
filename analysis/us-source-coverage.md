@@ -1,8 +1,8 @@
 # US source coverage
 
-68 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+69 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 115; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 116; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1423,6 +1423,28 @@
 - political response beyond participation and complaints.
 
 [Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)
+
+## US self-fulfilling credit scores
+
+**Project:** `us-self-fulfilling-credit-scores`
+
+**Status:** opening pass; a causal score-to-default effect is measured for a defined higher-risk group, the full housing and service path remains open
+
+**Question:** When does a credit score stop describing a problem and start making the problem harder to escape?
+
+**Sources recorded:** 1
+
+- [Self-Fulfilling Credit Scores](https://www.nber.org/papers/w35508)
+
+**Open gaps:**
+- the exact lender decision after the score change;
+- loan price, credit limit and approval data;
+- rent, mortgage, insurance and job effects;
+- score recovery and later access;
+- differences by income, race, age and place;
+- whether a better score rule reduces self-fulfilling defaults.
+
+[Open the source-search record](projects/us-self-fulfilling-credit-scores/source-search-2026-09-11.md)
 
 ## US small-business disaster liquidity
 

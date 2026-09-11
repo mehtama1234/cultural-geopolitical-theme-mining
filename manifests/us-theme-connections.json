@@ -1621,9 +1621,38 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-bank-fees-household-wellbeing/source-search-2026-09-11.md"
+    },
+    {
+      "id": "self_fulfilling_credit_scores",
+      "evidence_check": {
+        "title": "A score can help cause the default it predicts",
+        "finding": "An NBER study finds that an extra counted credit inquiry lowers scores by about five points without changing the credit report. Default does not change for consumers with clean records, but rises by 3.2 percentage points over two years for consumers with prior derogatory marks. At least 13% of the score-default link for that group appears self-fulfilling.",
+        "meaning": "Working interpretation: a financial record can become part of the event it is meant to measure when a lower score makes the next loan harder or more costly.",
+        "counterpoint": "Scores can help lenders sort risk and may protect borrowers from loans they cannot repay. This result concerns a defined higher-risk group and does not show that removing scores would improve outcomes.",
+        "counterpoint_source": "https://www.nber.org/papers/w35508",
+        "limit": "The opening evidence does not show which lender decision caused the default or the same borrower's later housing, work, insurance or score-recovery path.",
+        "source": "https://www.nber.org/papers/w35508",
+        "location": "Duarte and Fonseca, Self-Fulfilling Credit Scores, NBER Working Paper 35508, checked 2026-09-11."
+      },
+      "project": "us-self-fulfilling-credit-scores",
+      "title": "A score can help cause the default it predicts",
+      "summary": "For people with damaged credit records, a score change that adds no new household fact may still raise the chance of default.",
+      "question": "When does a record become a barrier that helps produce the result it forecasts?",
+      "limit": "The opening study measures score movement and default for a defined group, not the full household and housing path.",
+      "subthemes": ["Scoring and access", "Prediction and feedback"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-self-fulfilling-credit-scores/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a record starts making the future",
+      "topics": ["self_fulfilling_credit_scores", "credit_record_visibility", "housing"],
+      "meaning": "Follow a score change into the record a lender sees, then into housing access. The test is whether a paper signal adds a real cost before a new household failure occurs.",
+      "limit": "The current sources do not follow the same borrower from score movement through lender terms, payment, housing and recovery.",
+      "memo": null
+    },
     {
       "title": "When a bank fee becomes a wider credit problem",
       "topics": ["bank_fees_household", "credit", "money"],
@@ -2920,6 +2949,30 @@
       "to": "money",
       "relation": "A fee removed at the account can change how much money remains available for the household's next need",
       "limit": "The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.",
+      "type": "open"
+    },
+    {
+      "id": "link-102",
+      "from": "self_fulfilling_credit_scores",
+      "to": "credit_record_visibility",
+      "relation": "A score change can alter the record a lender uses even when the borrower's underlying report did not change",
+      "limit": "The current study identifies the score change and default response but does not show each lender's decision or term.",
+      "type": "open"
+    },
+    {
+      "id": "link-103",
+      "from": "self_fulfilling_credit_scores",
+      "to": "housing",
+      "relation": "If a score makes credit harder to get, it may also change access to a home or the cost of keeping one",
+      "limit": "The current study does not measure rent, mortgage approval, insurance, moving or home loss.",
+      "type": "open"
+    },
+    {
+      "id": "link-104",
+      "from": "credit_record_visibility",
+      "to": "housing",
+      "relation": "A credit record can change access to housing and the terms attached to keeping it",
+      "limit": "The current evidence shows that records may be used in housing decisions but does not follow one person's later rent, mortgage or move outcome.",
       "type": "open"
     }
   ]
