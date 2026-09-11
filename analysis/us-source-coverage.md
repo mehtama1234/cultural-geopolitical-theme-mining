@@ -1,8 +1,8 @@
 # US source coverage
 
-52 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+53 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 87; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 90; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1102,6 +1102,30 @@
 - long-run effects on cities, offices and local businesses.
 
 [Open the source-search record](projects/us-remote-work-contact/source-search-2026-09-11.md)
+
+## US rental assistance and eviction prevention
+
+**Project:** `us-rental-assistance-eviction-prevention`
+
+**Status:** opening pass; immediate relief is supported, lasting prevention remains open
+
+**Question:** When does rent aid prevent displacement, and when does it only buy time?
+
+**Sources recorded:** 3
+
+- [The Effects of Emergency Rental Assistance During the Pandemic](https://www.nber.org/papers/w32463)
+- [Nonpayment and Eviction in the Rental Housing Market](https://www.nber.org/papers/w33155)
+- [The Effects of Legal Representation on Tenant Outcomes](https://www.nber.org/papers/w29836)
+
+**Open gaps:**
+- the first income, health or rent shock;
+- application delay and who never receives aid;
+- rent owed, rent level and landlord payment plans;
+- interaction between legal help and cash aid;
+- housing, credit, work and health after assistance ends;
+- cost per prevented eviction and effects on landlords and neighbors.
+
+[Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
 
 ## US safety-net access, work rules, and the price of help
 

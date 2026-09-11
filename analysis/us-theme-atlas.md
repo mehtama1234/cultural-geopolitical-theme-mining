@@ -570,6 +570,16 @@ Follow legal help into the court result, then ask whether preventing an eviction
 
 Still missing: The legal-help study measures court and eviction outcomes, while the eviction studies measure later effects; the full linked path is not yet shown for the same tenant.
 
+### When prevention buys time but not a new rent level
+
+Follow rent aid into payment and housing stability, then ask whether the household avoids the credit and housing losses that can follow an eviction.
+
+1. [Rent aid can ease the bill without ending housing risk](#rental_assistance_eviction_prevention)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The aid studies do not show the same tenant's later credit path, and the eviction studies do not identify which prevention design came first.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -841,6 +851,7 @@ Connections:
 - Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Regular cash can change who can afford to live together. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
 - Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: An eviction order can narrow several choices at once. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
 - Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
+- Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Rent aid can ease the bill without ending housing risk. The current evidence does not show the same tenant's later housing stability after assistance ends.
 
 ### Credit can be a bridge and a later bill
 
@@ -1315,6 +1326,43 @@ The study covers two urban areas and shows distress before court, so the full la
 Connections:
 
 - Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
+- Question to test: Rent aid may interrupt the path from missed payment to eviction and its later household losses. Related topic: Rent aid can ease the bill without ending housing risk. The current evidence shows better immediate payment or modeled prevention for some tenants, not a complete later outcome for the same household.
+
+### Rent aid can ease the bill without ending housing risk
+
+Rental assistance can improve immediate payment and reduce fear while leaving the deeper housing problem in place.
+
+**Question:** When does rent aid prevent displacement, and when does it only buy time?
+
+**Subthemes:** Immediate payment relief; Targeting and lasting housing
+
+**Limit:** The opening evidence does not establish one national design or the lasting path after assistance ends.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Effects of Emergency Rental Assistance During the Pandemic](https://www.nber.org/papers/w32463)
+- [Nonpayment and Eviction in the Rental Housing Market](https://www.nber.org/papers/w33155)
+- [The Effects of Legal Representation on Tenant Outcomes](https://www.nber.org/papers/w29836)
+
+#### Evidence check: Rent aid can ease the bill without ending housing risk
+
+NBER's lottery-based study of emergency rental assistance in four US cities finds that aid increased rent payment and reduced concerns about eviction, with suggestive health gains, but had little overall effect on housing stability or financial distress. A separate study using landlord records finds that many tenants recover from missed payments and that broad prevention policies may have modest effects unless aimed at tenants likely to resume paying.
+
+Working interpretation: money can relieve an immediate rent gap, but prevention depends on timing, the size of the gap, the landlord's choice and whether the household can keep paying later.
+
+**Counterpoint:** A short study period or an eviction moratorium may hide a real longer-term housing benefit. Aid can also prevent a crisis that would otherwise have been much worse even if it does not move the average housing-stability measure.
+[Related study](https://www.nber.org/papers/w32463)
+
+The studies cover selected programs and rental markets; they do not identify one national best design or follow every household after assistance ends.
+
+[NBER emergency rental assistance and nonpayment research, checked 2026-09-11.](https://www.nber.org/papers/w32463)
+
+
+Connections:
+
+- Question to test: Rent aid may interrupt the path from missed payment to eviction and its later household losses. Related topic: An eviction order can narrow several choices at once. The current evidence shows better immediate payment or modeled prevention for some tenants, not a complete later outcome for the same household.
+- Comparison: Cash relief and legal help address different points in the same housing crisis. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current studies do not compare both tools for the same tenant or show whether using them together works better.
+- Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same tenant's later housing stability after assistance ends.
 
 ## Who gives up time
 
@@ -2040,6 +2088,7 @@ The study measures court and eviction outcomes in New York City; it does not sho
 Connections:
 
 - Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: Keeping a home also means paying to protect it. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
+- Comparison: Cash relief and legal help address different points in the same housing crisis. Related topic: Rent aid can ease the bill without ending housing risk. The current studies do not compare both tools for the same tenant or show whether using them together works better.
 
 ## Who controls the work and gets the gain
 

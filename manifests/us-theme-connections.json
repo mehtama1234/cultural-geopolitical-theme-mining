@@ -1269,6 +1269,28 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-housing-court-legal-help/source-search-2026-09-11.md"
+    },
+    {
+      "id": "rental_assistance_eviction_prevention",
+      "evidence_check": {
+        "title": "Rent aid can ease the bill without ending housing risk",
+        "finding": "NBER's lottery-based study of emergency rental assistance in four US cities finds that aid increased rent payment and reduced concerns about eviction, with suggestive health gains, but had little overall effect on housing stability or financial distress. A separate study using landlord records finds that many tenants recover from missed payments and that broad prevention policies may have modest effects unless aimed at tenants likely to resume paying.",
+        "meaning": "Working interpretation: money can relieve an immediate rent gap, but prevention depends on timing, the size of the gap, the landlord's choice and whether the household can keep paying later.",
+        "counterpoint": "A short study period or an eviction moratorium may hide a real longer-term housing benefit. Aid can also prevent a crisis that would otherwise have been much worse even if it does not move the average housing-stability measure.",
+        "counterpoint_source": "https://www.nber.org/papers/w32463",
+        "limit": "The studies cover selected programs and rental markets; they do not identify one national best design or follow every household after assistance ends.",
+        "source": "https://www.nber.org/papers/w32463",
+        "location": "NBER emergency rental assistance and nonpayment research, checked 2026-09-11."
+      },
+      "project": "us-rental-assistance-eviction-prevention",
+      "title": "Rent aid can ease the bill without ending housing risk",
+      "summary": "Rental assistance can improve immediate payment and reduce fear while leaving the deeper housing problem in place.",
+      "question": "When does rent aid prevent displacement, and when does it only buy time?",
+      "limit": "The opening evidence does not establish one national design or the lasting path after assistance ends.",
+      "subthemes": ["Immediate payment relief", "Targeting and lasting housing"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1639,6 +1661,13 @@
       "topics": ["housing_court_legal_help", "housing", "credit"],
       "meaning": "Follow legal help into the court result, then ask whether preventing an eviction also protects later credit and housing choice.",
       "limit": "The legal-help study measures court and eviction outcomes, while the eviction studies measure later effects; the full linked path is not yet shown for the same tenant.",
+      "memo": null
+    },
+    {
+      "title": "When prevention buys time but not a new rent level",
+      "topics": ["rental_assistance_eviction_prevention", "housing", "credit"],
+      "meaning": "Follow rent aid into payment and housing stability, then ask whether the household avoids the credit and housing losses that can follow an eviction.",
+      "limit": "The aid studies do not show the same tenant's later credit path, and the eviction studies do not identify which prevention design came first.",
       "memo": null
     }
   ],
@@ -2217,6 +2246,30 @@
       "to": "housing",
       "relation": "Legal representation may protect housing choice before a court order creates a wider loss",
       "limit": "The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.",
+      "type": "open"
+    },
+    {
+      "id": "link-73",
+      "from": "rental_assistance_eviction_prevention",
+      "to": "eviction_cascade",
+      "relation": "Rent aid may interrupt the path from missed payment to eviction and its later household losses",
+      "limit": "The current evidence shows better immediate payment or modeled prevention for some tenants, not a complete later outcome for the same household.",
+      "type": "open"
+    },
+    {
+      "id": "link-74",
+      "from": "rental_assistance_eviction_prevention",
+      "to": "housing_court_legal_help",
+      "relation": "Cash relief and legal help address different points in the same housing crisis",
+      "limit": "The current studies do not compare both tools for the same tenant or show whether using them together works better.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-75",
+      "from": "rental_assistance_eviction_prevention",
+      "to": "housing",
+      "relation": "Rent aid may protect a household's immediate housing choice even when the rent level stays high",
+      "limit": "The current evidence does not show the same tenant's later housing stability after assistance ends.",
       "type": "open"
     }
   ]
