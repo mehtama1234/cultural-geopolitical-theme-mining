@@ -461,6 +461,15 @@ Follow a medical bill into the credit record, then ask whether relief changes th
 
 Still missing: The current experiment does not connect the credit result to every later housing, work or care choice.
 
+### When cash changes the shape of a household
+
+Follow regular cash into rent or mortgage arrears and who lives together, then ask whether the added room lasts after the payment ends.
+
+1. [Regular cash can change who can afford to live together](#cash_aid_household_structure)
+2. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not show that a smaller or changed household is safer or better for every family.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -727,6 +736,7 @@ Connections:
 - Comparison: The home's condition and location can shape the energy bill. Related topic: A home can be costly to heat before anything else changes. Current sources do not join energy burden to housing insurance or moving decisions.
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Credit can be a bridge and a later bill. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 - Question to test: Payment trouble may reduce room for a housing choice. Related topic: A student loan can follow a person into adult choices. The current student-debt evidence does not establish a current effect on renting, buying or moving.
+- Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Regular cash can change who can afford to live together. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
 
 ### Credit can be a bridge and a later bill
 
@@ -1026,6 +1036,40 @@ The experiment concerns downstream debt sold to collectors and selected relief p
 Connections:
 
 - Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Credit can be a bridge and a later bill. The current experiment does not show how the credit change affects housing, work or later household money.
+
+### Regular cash can change who can afford to live together
+
+Cash aid can change housing payments and living arrangements, not only what a family buys.
+
+**Question:** What does regular cash allow a low-income family to change about its home?
+
+**Subthemes:** Housing arrears and payment room; Living arrangements and independence
+
+**Limit:** The opening packet measures housing and arrangement changes, not lasting well-being for every family.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The 2021 Child Tax Credit, Living Arrangements and Housing Affordability](https://www.nber.org/papers/w31339)
+- [The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+#### Evidence check: Regular cash can change who can afford to live together
+
+An NBER study of low-income US parents found that the monthly 2021 Child Tax Credit was associated with changes in living arrangements, fewer people in the home, fewer expected moves caused by rent or mortgage trouble, and less back-owed housing payment.
+
+Working interpretation: cash aid can create housing room to catch up, move, leave a financially necessary arrangement or reduce crowding.
+
+**Counterpoint:** A smaller household may mean needed independence or lost support. Staying together may be protective for one family and forced by money for another.
+[Related study](https://www.nber.org/papers/w31339)
+
+The current study does not show that every living-arrangement change lasted or improved safety, care, work access or child well-being.
+
+[NBER Child Tax Credit housing study, unconditional cash-transfer study and HBS cash-and-agency reporting. Checked 2026-09-11.](https://www.nber.org/papers/w31339)
+
+
+Connections:
+
+- Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Keeping a home also means paying to protect it. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
 
 ## Who gives up time
 

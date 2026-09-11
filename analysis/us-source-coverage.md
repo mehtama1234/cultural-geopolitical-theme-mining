@@ -1,8 +1,8 @@
 # US source coverage
 
-41 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+42 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 34; HHS: 2; IEA: 1; IMF: 1; NBER: 63; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 35; HHS: 2; IEA: 1; IMF: 1; NBER: 65; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -174,6 +174,30 @@
 - whether slower advancement is chosen or imposed.
 
 [Open the source-search record](projects/us-career-progression-plateau/source-search-2026-09-11.md)
+
+## US cash aid and household structure
+
+**Project:** `us-cash-aid-household-structure`
+
+**Status:** opening pass; cash and housing results are linked, longer-term effects remain open
+
+**Question:** What does regular cash allow a low-income family to change about its home?
+
+**Sources recorded:** 3
+
+- [The 2021 Child Tax Credit, Living Arrangements and Housing Affordability](https://www.nber.org/papers/w31339)
+- [The Impact of Unconditional Cash Transfers on Consumption and Household Balance Sheets](https://www.nber.org/papers/w32784)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+**Open gaps:**
+- who moved in or out and why;
+- rent, mortgage, utility and moving costs;
+- crowding, safety and child well-being;
+- work, school and care access after a move;
+- effects after the monthly payment ends;
+- differences by race, income, state and family structure.
+
+[Open the source-search record](projects/us-cash-aid-household-structure/source-search-2026-09-11.md)
 
 ## US childcare, work, and the price of family time
 

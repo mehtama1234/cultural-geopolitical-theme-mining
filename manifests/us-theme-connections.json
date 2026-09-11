@@ -997,6 +997,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-medical-debt-relief-outcomes/source-search-2026-09-11.md"
+    },
+    {
+      "id": "cash_aid_household_structure",
+      "evidence_check": {
+        "title": "Regular cash can change who can afford to live together",
+        "finding": "An NBER study of low-income US parents found that the monthly 2021 Child Tax Credit was associated with changes in living arrangements, fewer people in the home, fewer expected moves caused by rent or mortgage trouble, and less back-owed housing payment.",
+        "meaning": "Working interpretation: cash aid can create housing room to catch up, move, leave a financially necessary arrangement or reduce crowding.",
+        "counterpoint": "A smaller household may mean needed independence or lost support. Staying together may be protective for one family and forced by money for another.",
+        "counterpoint_source": "https://www.nber.org/papers/w31339",
+        "limit": "The current study does not show that every living-arrangement change lasted or improved safety, care, work access or child well-being.",
+        "source": "https://www.nber.org/papers/w31339",
+        "location": "NBER Child Tax Credit housing study, unconditional cash-transfer study and HBS cash-and-agency reporting. Checked 2026-09-11."
+      },
+      "project": "us-cash-aid-household-structure",
+      "title": "Regular cash can change who can afford to live together",
+      "summary": "Cash aid can change housing payments and living arrangements, not only what a family buys.",
+      "question": "What does regular cash allow a low-income family to change about its home?",
+      "limit": "The opening packet measures housing and arrangement changes, not lasting well-being for every family.",
+      "subthemes": [
+        "Housing arrears and payment room",
+        "Living arrangements and independence"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-cash-aid-household-structure/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1290,6 +1315,13 @@
       "topics": ["medical_debt_relief", "credit", "money"],
       "meaning": "Follow a medical bill into the credit record, then ask whether relief changes the household's later room even when the health need remains.",
       "limit": "The current experiment does not connect the credit result to every later housing, work or care choice.",
+      "memo": null
+    },
+    {
+      "title": "When cash changes the shape of a household",
+      "topics": ["cash_aid_household_structure", "housing"],
+      "meaning": "Follow regular cash into rent or mortgage arrears and who lives together, then ask whether the added room lasts after the payment ends.",
+      "limit": "The current sources do not show that a smaller or changed household is safer or better for every family.",
       "memo": null
     }
   ],
@@ -1780,6 +1812,14 @@
       "to": "credit",
       "relation": "Medical debt relief can change a credit path even when the health problem remains",
       "limit": "The current experiment does not show how the credit change affects housing, work or later household money.",
+      "type": "open"
+    },
+    {
+      "id": "link-62",
+      "from": "cash_aid_household_structure",
+      "to": "housing",
+      "relation": "Regular cash can change whether a household can stay, move or live more independently",
+      "limit": "The current evidence does not show whether the new arrangement is safer, lasting or better for every family.",
       "type": "open"
     }
   ]
