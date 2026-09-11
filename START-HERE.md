@@ -116,3 +116,5 @@ The eleventh connected memo is [When education debt follows the first job](site/
 The twelfth connected memo is [When household choices become a judgment about the country](site/us-cost-trust-politics-path-001.html), with its [Markdown record](analysis/findings/us-cost-trust-politics-path-001.md). It joins price actions, personal and national economic views, and public trust while keeping party identity and voting effects open.
 
 The thirteenth connected memo is [When family care becomes a work decision](site/us-aging-care-work-path-001.html), with its [Markdown record](analysis/findings/us-aging-care-work-path-001.md). It joins unpaid eldercare, paid work and household scheduling while keeping the direction of the work effect open.
+
+The fourteenth connected memo is [When a business idea leaves home](site/us-local-business-place-path-001.html), with its [Markdown record](analysis/findings/us-local-business-place-path-001.md). It joins founder movement, housing and local business counts while keeping lasting jobs, services and belonging as open tests.

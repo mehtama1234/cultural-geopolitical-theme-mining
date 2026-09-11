@@ -43,3 +43,13 @@ The first two links have business data. The effects on services, identity, and p
 ## Decision rule
 
 Choose one county pair, combine BFS with BLS establishment data and local records, and look for a change in service or work. If the records show only business counts, record the trend and move on.
+
+## Verification pass: 2026-09-11
+
+The HBS account reports that the gap between self-employed people and wage workers staying in their birthplace state fell from 8 percentage points in 1970 to 2 points for US-born White men in 2018. The advantage fades further for the full sample and falls below zero in the latest census used. The article links the shift partly to a move away from capital-heavy local industries, but this does not show what happened to local services or belonging.
+
+Census now provides annual county business-application data for 2005–2025. The release warns that the 2026 file uses a privacy-noise method, and its definitions distinguish applications from projected formations and employer firms. A business application is therefore an early signal, not a local job or a lasting store.
+
+[HBS hometown-entrepreneur account](https://www.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+
+[Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html)

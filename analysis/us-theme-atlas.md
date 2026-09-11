@@ -184,6 +184,17 @@ Still missing: The current time-use data show overlap, not whether care changed 
 
 [Read the complete connected memo](../site/us-aging-care-work-path-001.html)
 
+### When a business idea leaves home
+
+Follow housing and local cost conditions into where founders live, then ask whether business activity becomes lasting local jobs and services.
+
+1. [Keeping a home also means paying to protect it](#housing)
+2. [Business counts do not tell us who belongs to a place](#place)
+
+Still missing: The current sources do not show that owner movement changed a place's services, jobs, prices or belonging.
+
+[Read the complete connected memo](../site/us-local-business-place-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -720,6 +731,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [The Local Origins of Business Formation: Entry as a Two-Stage Process](https://www.nber.org/papers/w34881)
 - [Census BFS methodology](https://www.census.gov/econ/bfs/methodology.html)
 - [SBA state small-business data](https://web.data.sba.gov/en/dataset/state-small-business-statistics-2025)
+- [HBS hometown-entrepreneur account](https://www.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+- [Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html)
 
 #### Evidence check: A business application is not the same as a new employer
 
