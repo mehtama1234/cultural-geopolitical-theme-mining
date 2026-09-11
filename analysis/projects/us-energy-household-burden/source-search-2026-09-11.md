@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; the bill-to-household-choice link remains open
 
 ## Working question
 
@@ -41,3 +41,15 @@ The opening sources measure burden and supply context. They do not yet show whic
 ## Decision rule
 
 Pair one household energy-burden measure with a utility or assistance outcome. If the data only show average bills, record the burden and move on.
+
+## Verification pass: 2026-09-11
+
+DOE's LEAD tool defines energy burden as the share of gross household income spent on household energy. Its current summary puts the national average at 6% for low-income households and 2% for non-low-income households; some areas are above 30%. The tool can separate renters and owners, building age, building type, heating fuel, income and race, but it does not include transportation costs.
+
+LEAD also estimates that 52% of low-income households are renters. That matters because a renter may pay the energy bill without being able to change insulation, windows or equipment. The tool identifies this as a split between who pays and who can make the improvement; it does not show which household later cuts food, care, debt or work.
+
+EIA's 2024 RECS has preliminary housing and energy-insecurity data for an estimated 132.5 million primary homes and nearly 17,000 responding households. Consumption and expenditure data are not all in the first release, so the current evidence is strongest on housing conditions and insecurity, not the full bill-to-choice path.
+
+[DOE LEAD tool definitions and data](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+
+[EIA 2024 Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)

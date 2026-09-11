@@ -244,7 +244,7 @@
 
 **Project:** `us-energy-household-burden`
 
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; the bill-to-household-choice link remains open
 
 **Question:** When energy costs take more of a household's income, what other choice becomes harder?
 

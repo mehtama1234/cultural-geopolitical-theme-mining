@@ -548,6 +548,13 @@
       "meaning": "Follow housing and local cost conditions into where founders live, then ask whether business activity becomes lasting local jobs and services.",
       "limit": "The current sources do not show that owner movement changed a place's services, jobs, prices or belonging.",
       "memo": "../site/us-local-business-place-path-001.html"
+    },
+    {
+      "title": "When the energy bill begins with the home",
+      "topics": ["energy", "housing", "credit"],
+      "meaning": "Follow the home and its energy burden into the household's room for other payments, then ask whether credit absorbs the gap.",
+      "limit": "The current sources do not follow the same household from energy burden through arrears, borrowing or a later housing choice.",
+      "memo": "../site/us-energy-household-burden-path-001.html"
     }
   ],
   "edges": [

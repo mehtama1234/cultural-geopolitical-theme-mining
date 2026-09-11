@@ -195,6 +195,18 @@ Still missing: The current sources do not show that owner movement changed a pla
 
 [Read the complete connected memo](../site/us-local-business-place-path-001.html)
 
+### When the energy bill begins with the home
+
+Follow the home and its energy burden into the household's room for other payments, then ask whether credit absorbs the gap.
+
+1. [A home can be costly to heat before anything else changes](#energy)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The current sources do not follow the same household from energy burden through arrears, borrowing or a later housing choice.
+
+[Read the complete connected memo](../site/us-energy-household-burden-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -889,6 +901,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
 - [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
 - [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
+- [DOE LEAD tool definitions and data](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA 2024 Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
 
 #### Evidence check: Low-income homes spend a larger share on energy
 
