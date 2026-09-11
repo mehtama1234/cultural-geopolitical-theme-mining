@@ -560,6 +560,16 @@ Follow rent trouble into an eviction order, then ask what happens to work, healt
 
 Still missing: The current sources do not show the same tenant's first shock, prevention path and full recovery.
 
+### When a person at court changes the housing path
+
+Follow legal help into the court result, then ask whether preventing an eviction also protects later credit and housing choice.
+
+1. [A lawyer can stop a rent dispute from becoming a forced move](#housing_court_legal_help)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The legal-help study measures court and eviction outcomes, while the eviction studies measure later effects; the full linked path is not yet shown for the same tenant.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -830,6 +840,7 @@ Connections:
 - Question to test: Payment trouble may reduce room for a housing choice. Related topic: A student loan can follow a person into adult choices. The current student-debt evidence does not establish a current effect on renting, buying or moving.
 - Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Regular cash can change who can afford to live together. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
 - Question to test: An eviction order can turn a housing payment problem into a wider loss of housing choice. Related topic: An eviction order can narrow several choices at once. The current evidence does not show the same tenant's first shock, prevention path and later recovery.
+- Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
 
 ### Credit can be a bridge and a later bill
 
@@ -1997,6 +2008,38 @@ The current sources do not identify every cause of group gaps or show that one r
 Connections:
 
 - Question to test: A payment or account record can change what credit is available later. Related topic: Credit can be a bridge and a later bill. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
+
+### A lawyer can stop a rent dispute from becoming a forced move
+
+Legal representation can change a housing-court outcome before it becomes an eviction and a wider household loss.
+
+**Question:** Which problems can be prevented at the court door, and which remain after help arrives?
+
+**Subthemes:** Legal help before displacement; Court access and household stability
+
+**Limit:** The opening evidence is from one city program and does not measure the full household recovery path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [The Effects of Legal Representation on Tenant Outcomes in Housing Court](https://www.nber.org/papers/w29836)
+
+#### Evidence check: A lawyer can stop a rent dispute from becoming a forced move
+
+NBER's study of New York City's Universal Access to Counsel rollout finds that tenants who gained legal representation were less likely to face possession judgments, had smaller money judgments, were less likely to receive eviction warrants and were less likely to be evicted. The effects were larger in poorer places and places with more noncitizens.
+
+Working interpretation: access to a person who can answer in court may change the path before a housing problem becomes the wider eviction cascade.
+
+**Counterpoint:** Legal help does not erase unpaid rent, high housing costs or a landlord's claim. Results from one city program may not carry over to every court, tenant or form of aid.
+[Related study](https://www.nber.org/papers/w29836)
+
+The study measures court and eviction outcomes in New York City; it does not show the full later path through work, health, credit or housing recovery.
+
+[Cassidy and Currie, The Effects of Legal Representation on Tenant Outcomes in Housing Court, NBER Working Paper 29836, checked 2026-09-11.](https://www.nber.org/papers/w29836)
+
+
+Connections:
+
+- Question to test: Legal representation may protect housing choice before a court order creates a wider loss. Related topic: Keeping a home also means paying to protect it. The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.
 
 ## Who controls the work and gets the gain
 

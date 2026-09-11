@@ -1,8 +1,8 @@
 # US source coverage
 
-51 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+52 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 86; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 87; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -760,6 +760,28 @@
 - whether repeated policy surprises change trust in the Fed.
 
 [Open the source-search record](projects/us-household-monetary-policy/source-search-2026-09-11.md)
+
+## US housing-court legal help
+
+**Project:** `us-housing-court-legal-help`
+
+**Status:** opening pass; court effects are supported, the full household path remains open
+
+**Question:** Which problems can be prevented at the court door, and which remain after help arrives?
+
+**Sources recorded:** 1
+
+- [The Effects of Legal Representation on Tenant Outcomes in Housing Court](https://www.nber.org/papers/w29836)
+
+**Open gaps:**
+- rent arrears and the first household shock;
+- who receives help and who cannot reach it;
+- case resolution, payment plans and actual moves;
+- later work, school, care, health and credit;
+- differences by race, children, disability, immigration status and place;
+- cost and scale of making representation available.
+
+[Open the source-search record](projects/us-housing-court-legal-help/source-search-2026-09-11.md)
 
 ## US housing, insurance, and the cost of staying put
 

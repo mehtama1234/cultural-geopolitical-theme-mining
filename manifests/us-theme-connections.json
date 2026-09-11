@@ -1247,6 +1247,28 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-eviction-cascade/source-search-2026-09-11.md"
+    },
+    {
+      "id": "housing_court_legal_help",
+      "evidence_check": {
+        "title": "A lawyer can stop a rent dispute from becoming a forced move",
+        "finding": "NBER's study of New York City's Universal Access to Counsel rollout finds that tenants who gained legal representation were less likely to face possession judgments, had smaller money judgments, were less likely to receive eviction warrants and were less likely to be evicted. The effects were larger in poorer places and places with more noncitizens.",
+        "meaning": "Working interpretation: access to a person who can answer in court may change the path before a housing problem becomes the wider eviction cascade.",
+        "counterpoint": "Legal help does not erase unpaid rent, high housing costs or a landlord's claim. Results from one city program may not carry over to every court, tenant or form of aid.",
+        "counterpoint_source": "https://www.nber.org/papers/w29836",
+        "limit": "The study measures court and eviction outcomes in New York City; it does not show the full later path through work, health, credit or housing recovery.",
+        "source": "https://www.nber.org/papers/w29836",
+        "location": "Cassidy and Currie, The Effects of Legal Representation on Tenant Outcomes in Housing Court, NBER Working Paper 29836, checked 2026-09-11."
+      },
+      "project": "us-housing-court-legal-help",
+      "title": "A lawyer can stop a rent dispute from becoming a forced move",
+      "summary": "Legal representation can change a housing-court outcome before it becomes an eviction and a wider household loss.",
+      "question": "Which problems can be prevented at the court door, and which remain after help arrives?",
+      "limit": "The opening evidence is from one city program and does not measure the full household recovery path.",
+      "subthemes": ["Legal help before displacement", "Court access and household stability"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-housing-court-legal-help/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1610,6 +1632,13 @@
       "topics": ["eviction_cascade", "housing", "credit"],
       "meaning": "Follow rent trouble into an eviction order, then ask what happens to work, health, spending and future credit and housing.",
       "limit": "The current sources do not show the same tenant's first shock, prevention path and full recovery.",
+      "memo": null
+    },
+    {
+      "title": "When a person at court changes the housing path",
+      "topics": ["housing_court_legal_help", "housing", "credit"],
+      "meaning": "Follow legal help into the court result, then ask whether preventing an eviction also protects later credit and housing choice.",
+      "limit": "The legal-help study measures court and eviction outcomes, while the eviction studies measure later effects; the full linked path is not yet shown for the same tenant.",
       "memo": null
     }
   ],
@@ -2180,6 +2209,14 @@
       "to": "housing",
       "relation": "An eviction order can turn a housing payment problem into a wider loss of housing choice",
       "limit": "The current evidence does not show the same tenant's first shock, prevention path and later recovery.",
+      "type": "open"
+    },
+    {
+      "id": "link-72",
+      "from": "housing_court_legal_help",
+      "to": "housing",
+      "relation": "Legal representation may protect housing choice before a court order creates a wider loss",
+      "limit": "The current evidence shows better court and eviction outcomes in one city program but not the same tenant's later housing, work, health or credit path.",
       "type": "open"
     }
   ]
