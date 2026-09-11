@@ -83,5 +83,6 @@ Formal rules may be enough in many workplaces. Managers may already review recom
 - [IBM Germany AI framework source record](../german-ai-works-council-source-record-v1.md)
 - [NBER Working Paper 33348](https://www.nber.org/papers/w33348)
 - [JRC AIM-WORK](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
+- [JRC AIM-WORK source record](../jrc-aim-work-source-record-v1.md)
 - [Kenya content-moderation court record](../kenya-content-moderation-court-record-v1.md)
 - [Claims ledger](../claims-ledger-v1.md)
