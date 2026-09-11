@@ -58,3 +58,4 @@ Worker voice is part of system design, but voice only becomes a control point wh
 - [ILO publication page](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management)
 - [ILO Working Paper 144 PDF](https://www.ilo.org/sites/default/files/2025-07/wp144_web.pdf), especially pp. 36–39, 46–49, 51–54, 56–57, and 60–63.
 - [SAG-AFTRA underlying contract record](sag-aftra-digital-replica-source-record-v1.md) for the first case.
+- [German works-council AI source record](german-ai-works-council-source-record-v1.md) for the second case.

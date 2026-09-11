@@ -77,6 +77,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 008: Worker voice is part of system design](findings/ai-work-control-008.md)
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 - [SAG-AFTRA underlying source record](sag-aftra-digital-replica-source-record-v1.md)
+- [German works-council AI source record](german-ai-works-council-source-record-v1.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
