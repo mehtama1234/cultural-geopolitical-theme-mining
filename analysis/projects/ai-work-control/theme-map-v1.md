@@ -78,6 +78,10 @@ AI results depend on complements around the model: capital, data, software, trai
 
 Owning or buying a frontier model is only one layer of capability. Local language, data, skills, interoperability, inspection, public procurement, and the ability to switch providers may matter more for durable choice. [Finding 013](findings/ai-work-control-013.md)
 
+### 15. Infrastructure can build capability and dependence together
+
+Cloud migration and data-centre investment may expand public and private capacity while creating new commitments to operators, equipment, contracts, and power systems. The test is whether local skills, data control, provider choice, and public oversight grow with the asset. [Finding 014](findings/ai-work-control-014.md)
+
 ### 10. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
