@@ -75,5 +75,8 @@ The next layer is not simply “AI increases monitoring.” The first relevant s
 |---|---|---|---|
 | OECD-AM-2025 | [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | employer survey and working paper | More than 6,000 firms in six countries; use, effects, and governance concerns. |
 | ILO-AM-2024 | [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics) | comparative case study | Logistics and health care in France, Italy, India, and South Africa; job quality and surveillance. |
+| CAPGEMINI-AR-2025 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | annual report and registration document | AI training, employee data platform, role changes, workforce monitoring, and restructuring. |
 
 The OECD report says managers report concerns about unclear accountability, difficulty following the logic of decisions, and protection of workers’ health. The ILO study examines how algorithmic management changes work organization and industrial relations in ordinary workplaces, not only digital platforms. These sources broaden the project beyond software firms, but they do not replace worker-level outcome evidence.
+
+The Capgemini report adds an operator view: AI adoption is tied to training at scale, internal knowledge and employee-data systems, changes to role definitions and career paths, and workforce adaptation costs. It is a company disclosure, so it shows management’s stated plan and risk framing—not whether the plan improved workers’ lives.

@@ -43,6 +43,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 004: Efficiency does not settle the control question](findings/ai-work-control-004.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
+- [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
 - [Theme map: work is becoming legible before it becomes better](theme-map-v1.md)
 - [Published HTML finding](../../../site/ai-work-control/finding-001.html)
 - [Published HTML finding 002](../../../site/ai-work-control/finding-002.html)
@@ -50,4 +51,5 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published company bridge](../../../site/ai-work-control/company-sector-bridge-microsoft.html)
 - [Published comparison bridge](../../../site/ai-work-control/comparison-bridge-microsoft-whoz.html)
 - [Published theme map](../../../site/ai-work-control/theme-map.html)
+- [Published Capgemini bridge](../../../site/ai-work-control/company-bridge-capgemini.html)
 - [Published HTML finding 004](../../../site/ai-work-control/finding-004.html)
