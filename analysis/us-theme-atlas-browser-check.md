@@ -19,3 +19,5 @@ On 2026-09-11, Chromium also verified three reading paths containing nine topic 
 ## UX audit note
 
 The opening desktop and phone states were captured and visually inspected on 2026-09-11. Moving the topic search and theme filter directly below the bigger-picture panel makes the main task visible before the optional reading paths. The opening hierarchy, dark summary panel, two-column desktop cards and single-column phone reflow were clear in the captured states. The long page still needs a full-page reading and accessibility review; this note does not claim WCAG compliance.
+
+The controls are now sticky while a reader scrolls. Chromium checked this at 1440 × 1000 and 390 × 844, including an anchored jump to the work topic and horizontal-overflow checks. The topic remained visible below the control area.

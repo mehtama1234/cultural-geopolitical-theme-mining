@@ -78,14 +78,14 @@ for theme in data["themes"]:
     parts.append(f'<section class="theme" id="theme-{theme["id"]}"><h2>{e(theme["title"])}</h2><p>{e(theme["meaning"])}</p><div class="grid">{"".join(cards)}</div></section>')
 style = """
 :root{--paper:#f5f3ed;--ink:#182c2a;--muted:#526560;--line:#cdd7cf;--accent:#155f51}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:104px}
 body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
 main{max-width:1180px;margin:auto;padding:36px 24px 80px}a{color:var(--accent);text-underline-offset:4px}
 h1,h2,h3{font-family:Georgia,serif;line-height:1.15;font-weight:normal}h1{font-size:clamp(2.5rem,6vw,4.8rem);max-width:850px;margin:24px 0}
 h2{font-size:2rem;margin:54px 0 12px}h3{font-size:1.7rem;margin:8px 0 20px}
 header>p{max-width:760px}.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .big{background:#193f36;color:#f7f6ef;padding:28px;border-radius:12px;margin:32px 0}.big h2{margin:0 0 14px}.big p{max-width:900px}
-.controls{padding:20px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap}
+.controls{position:sticky;top:0;z-index:5;padding:16px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap;background:var(--paper)}
 label{display:flex;flex-direction:column;gap:6px;flex:1;min-width:220px;font-size:.9rem}
 input,select{font:inherit;padding:13px;border:1px solid #78938a;border-radius:6px;background:white;color:var(--ink);width:100%}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:#fffefa;border:1px solid var(--line);border-radius:10px;padding:28px;overflow-wrap:anywhere;scroll-margin-top:24px}
