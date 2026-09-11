@@ -1,8 +1,8 @@
 # US source coverage
 
-13 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+14 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 6; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 11; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 26; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 8; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 13; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 26; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -78,6 +78,30 @@
 - evidence that unpaid care does not materially change later work or savings.
 
 [Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
+
+## US childcare, work, and the price of family time
+
+**Project:** `us-childcare-work-cost`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When childcare is expensive or hard to find, what does a household give up first?
+
+**Sources recorded:** 4
+
+- [Federal Reserve care and living arrangements report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm)
+- [Census child care challenges and adaptations](https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html)
+- [Census child care data and definitions](https://www.census.gov/topics/families/child-care/about.html)
+- [Federal Reserve 2024 household report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm)
+
+**Open gaps:**
+- care cost and work hours for the same household over time;
+- availability, quality, commute and schedule fit, not only price;
+- effects by income, race, gender, disability, family type and place;
+- public subsidies, employer benefits and benefit eligibility;
+- whether lost work time changes food, credit, health or political views.
+
+[Open the source-search record](projects/us-childcare-work-cost/source-search-2026-09-11.md)
 
 ## US consumer credit and the shrinking cash buffer
 

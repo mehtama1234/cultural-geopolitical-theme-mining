@@ -114,6 +114,16 @@ Still missing: The current studies do not follow the same household from program
 
 [Read the complete connected memo](../site/us-safety-net-access-path-001.html)
 
+### When family care becomes paid-work time
+
+Separate elder or family help from childcare, then follow the time cost into paid work and control over the household schedule.
+
+1. [A family can pay for care with time](#care)
+2. [Family time can replace a large cash payment](#childcare)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The current sources do not follow the same household across care type, cost, work hours and later income.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -162,6 +172,7 @@ Connections:
 - Question to test: A high energy share can leave less room for other household payments. Related topic: A home can be costly to heat before anything else changes. The current burden measure does not show which payment households cut or delay.
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 - Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: Food is where a money problem becomes a daily condition. The current surveys do not show which bill was paid or delayed before the food outcome.
+- Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: Family time can replace a large cash payment. The current sources do not show which option leaves the household with more room later.
 
 ### Keeping a home also means paying to protect it
 
@@ -354,6 +365,44 @@ Connections:
 
 - Question to test: An unmet care need may require more family time. Related topic: People can pay the bills by giving up care. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Less paid work could leave less money for bills. Related topic: The price on the screen is only part of the cost. Check earnings around the start of care and borrowing afterward.
+- Comparison: Different kinds of family care can use the same scarce hours. Related topic: Family time can replace a large cash payment. The current packets do not show how elder care and childcare compete within one household schedule.
+
+### Family time can replace a large cash payment
+
+Childcare can take money, unpaid family hours, or paid work time, and the mix differs by household resources.
+
+**Question:** Who pays for care, and in what form?
+
+**Subthemes:** Paid care; Unpaid care and work time
+
+**Limit:** The opening evidence measures care arrangements and reported work loss, not the full household tradeoff.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve care and living arrangements report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm)
+- [Census child care challenges and adaptations](https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html)
+- [Census child care data and definitions](https://www.census.gov/topics/families/child-care/about.html)
+- [Federal Reserve 2024 household report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm)
+
+#### Evidence check: Family time can replace a large cash payment
+
+The Federal Reserve reports that 24% of parents living with children under 13 used paid childcare in the prior week in 2024, with a median weekly cost of $240. Forty-six percent used some unpaid care. Census estimates that households with care problems lost an average of 65.8 work days in 2024.
+
+Working interpretation: a family can pay for care with money, unpaid time or work time. These are different forms of support and should not be collapsed into one cost.
+
+**Counterpoint:** Paid care can make work possible, and unpaid care can be chosen and helpful. The survey measures arrangements and reported work loss, not what would happen if care prices or supply changed.
+[Related study](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm)
+
+The Fed and Census figures are descriptive and use different samples and questions. They do not establish that childcare caused a particular parent to leave work or cut another need.
+
+[Census CPS ASEC child-care working paper and Federal Reserve 2024 household survey. Checked 2026-09-11.](https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html)
+
+
+Connections:
+
+- Comparison: Different kinds of family care can use the same scarce hours. Related topic: A family can pay for care with time. The current packets do not show how elder care and childcare compete within one household schedule.
+- Question to test: Childcare cost or disruption can change paid work time. Related topic: The same job can contain different AI access. Reported work loss does not by itself prove that childcare caused the change.
+- Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: The price on the screen is only part of the cost. The current sources do not show which option leaves the household with more room later.
 
 ### A useful app can still make leaving difficult
 
@@ -615,6 +664,7 @@ Connections:
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: A quicker reply may still leave a problem open. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: A useful app can still make leaving difficult. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: Help can exist but be hard to keep. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
+- Question to test: Childcare cost or disruption can change paid work time. Related topic: Family time can replace a large cash payment. Reported work loss does not by itself prove that childcare caused the change.
 
 ## A home can be costly to heat before anything else changes
 

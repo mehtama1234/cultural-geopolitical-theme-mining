@@ -173,6 +173,31 @@
       "source_record": "analysis/projects/us-aging-care-strain/source-search-2026-09-11.md"
     },
     {
+      "id": "childcare",
+      "evidence_check": {
+        "title": "Family time can replace a large cash payment",
+        "finding": "The Federal Reserve reports that 24% of parents living with children under 13 used paid childcare in the prior week in 2024, with a median weekly cost of $240. Forty-six percent used some unpaid care. Census estimates that households with care problems lost an average of 65.8 work days in 2024.",
+        "meaning": "Working interpretation: a family can pay for care with money, unpaid time or work time. These are different forms of support and should not be collapsed into one cost.",
+        "counterpoint": "Paid care can make work possible, and unpaid care can be chosen and helpful. The survey measures arrangements and reported work loss, not what would happen if care prices or supply changed.",
+        "counterpoint_source": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm",
+        "limit": "The Fed and Census figures are descriptive and use different samples and questions. They do not establish that childcare caused a particular parent to leave work or cut another need.",
+        "source": "https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html",
+        "location": "Census CPS ASEC child-care working paper and Federal Reserve 2024 household survey. Checked 2026-09-11."
+      },
+      "project": "us-childcare-work-cost",
+      "title": "Family time can replace a large cash payment",
+      "summary": "Childcare can take money, unpaid family hours, or paid work time, and the mix differs by household resources.",
+      "question": "Who pays for care, and in what form?",
+      "limit": "The opening evidence measures care arrangements and reported work loss, not the full household tradeoff.",
+      "subthemes": [
+        "Paid care",
+        "Unpaid care and work time"
+      ],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-childcare-work-cost/source-search-2026-09-11.md"
+    },
+    {
       "id": "politics",
       "evidence_check": {
         "title": "A lost benefit can leave a lasting mark on economic views",
@@ -399,6 +424,12 @@
       "meaning": "Follow food need through the rules and practical work of keeping public help, then ask whether employment actually changes.",
       "limit": "The current studies do not follow the same household from program loss to food, debt or work outcomes.",
       "memo": "../site/us-safety-net-access-path-001.html"
+    },
+    {
+      "title": "When family care becomes paid-work time",
+      "topics": ["care", "childcare", "work"],
+      "meaning": "Separate elder or family help from childcare, then follow the time cost into paid work and control over the household schedule.",
+      "limit": "The current sources do not follow the same household across care type, cost, work hours and later income."
     }
   ],
   "edges": [
@@ -569,6 +600,30 @@
       "relation": "The experience of reaching or losing help may shape views of public institutions",
       "limit": "No current source measures a change in trust, blame or voting after a participation change.",
       "type": "open"
+    },
+    {
+      "id": "link-22",
+      "from": "care",
+      "to": "childcare",
+      "relation": "Different kinds of family care can use the same scarce hours",
+      "limit": "The current packets do not show how elder care and childcare compete within one household schedule.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-23",
+      "from": "childcare",
+      "to": "work",
+      "relation": "Childcare cost or disruption can change paid work time",
+      "limit": "Reported work loss does not by itself prove that childcare caused the change.",
+      "type": "open"
+    },
+    {
+      "id": "link-24",
+      "from": "childcare",
+      "to": "money",
+      "relation": "A household can pay for childcare with cash or with foregone earnings",
+      "limit": "The current sources do not show which option leaves the household with more room later.",
+      "type": "comparison"
     }
   ]
 }

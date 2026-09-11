@@ -96,3 +96,5 @@ The sixth connected memo is [When the budget reaches the dinner table](site/us-f
 The next short project is [US safety-net access, work rules, and the price of help](analysis/projects/us-safety-net-access/README.md), with its [source search record](analysis/projects/us-safety-net-access/source-search-2026-09-11.md). It tests whether rules and access barriers remove food support without increasing work.
 
 The seventh connected memo is [When help disappears before the need does](site/us-safety-net-access-path-001.html), with its [Markdown record](analysis/findings/us-safety-net-access-path-001.md). It joins SNAP participation, work requirements and office access while keeping program exit separate from employment.
+
+The next short project is [US childcare, work, and the price of family time](analysis/projects/us-childcare-work-cost/README.md), with its [source search record](analysis/projects/us-childcare-work-cost/source-search-2026-09-11.md). It tests whether households pay for care with cash, unpaid family hours or paid work time.
