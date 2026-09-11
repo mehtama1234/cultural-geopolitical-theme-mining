@@ -128,6 +128,15 @@
       "access_notes": "Check sector, country, worker group, and research method before generalizing."
     },
     {
+      "id": "eu-future-of-work",
+      "name": "European Commission Future of Work",
+      "url": "https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en",
+      "role": "official policy and rights evidence on algorithmic management, platform work, and worker protection",
+      "source_types": ["official_policy_page", "regulatory_context", "survey_context"],
+      "license_note": "Record policy status, dates, legal links, and short notes; do not copy the page in full.",
+      "access_notes": "Separate enacted rules, implementation timelines, consultations, and policy statements."
+    },
+    {
       "id": "fred",
       "name": "Federal Reserve Economic Data",
       "url": "https://fred.stlouisfed.org/",
