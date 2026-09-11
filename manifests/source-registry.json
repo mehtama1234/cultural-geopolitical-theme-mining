@@ -135,6 +135,60 @@
       "source_types": ["research", "policy_analysis", "regional_analysis"],
       "license_note": "Record author, program, date, and any stated policy position.",
       "access_notes": "Use as an informed interpretation layer, not a substitute for primary records."
+    },
+    {
+      "id": "imf-manmohan-singh",
+      "name": "IMF publications by Manmohan Singh",
+      "url": "https://www.imf.org/en/publications/publications-by-author?author=Manmohan%20Singh&name=Manmohan%20Singh",
+      "role": "author-level work on money, finance, crises, and macro policy",
+      "source_types": ["author_index", "working_paper", "staff_paper"],
+      "license_note": "Record publication metadata and link to the full item; do not copy full text.",
+      "access_notes": "Treat the author page as an index. Read each paper's method, date, and institutional setting."
+    },
+    {
+      "id": "bis-papers",
+      "name": "Bank for International Settlements Papers",
+      "url": "https://www.bis.org/publications/bis-paper",
+      "role": "central-bank, banking, payments, monetary, and financial-stability research",
+      "source_types": ["central_bank_paper", "conference_volume", "financial_stability_research"],
+      "license_note": "Record authors, meeting context, date, and publication type.",
+      "access_notes": "BIS Papers contain author views that are not necessarily the BIS position."
+    },
+    {
+      "id": "bea-learning-center",
+      "name": "US Bureau of Economic Analysis Learning Center",
+      "url": "https://www.bea.gov/resources/learning-center",
+      "role": "definitions and methods for national accounts and economic measures",
+      "source_types": ["methodology", "measure_definition", "national_accounts_guide"],
+      "license_note": "Use definitions and method notes with the related BEA data series.",
+      "access_notes": "A measure guide explains a statistic; it is not evidence of the statistic's latest value."
+    },
+    {
+      "id": "iea-reports",
+      "name": "International Energy Agency Reports",
+      "url": "https://www.iea.org/analysis?type=report",
+      "role": "energy systems, transition, supply security, technology, and geopolitics",
+      "source_types": ["energy_report", "scenario", "market_analysis"],
+      "license_note": "Record scenario assumptions, forecast horizon, data vintage, and policy stance.",
+      "access_notes": "Separate measured energy data from modeled scenarios and projections."
+    },
+    {
+      "id": "office-financial-research",
+      "name": "Office of Financial Research",
+      "url": "https://www.financialresearch.gov/",
+      "role": "financial-system structure, stress, market plumbing, and systemic risk",
+      "source_types": ["financial_dataset", "research", "risk_monitor"],
+      "license_note": "Preserve series definitions, release dates, and revisions.",
+      "access_notes": "Use alongside bank filings, market data, and regulatory records when tracing risk."
+    },
+    {
+      "id": "world-bank-research",
+      "name": "World Bank Research",
+      "url": "https://www.worldbank.org/en/research",
+      "role": "development research, poverty, institutions, growth, climate, and country change",
+      "source_types": ["research_paper", "policy_research", "development_evidence"],
+      "license_note": "Record paper type, data, authors, funders, and country coverage.",
+      "access_notes": "Pair research claims with the World Bank indicator definitions and country context."
     }
   ]
 }

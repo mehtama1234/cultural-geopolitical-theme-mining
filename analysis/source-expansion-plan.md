@@ -35,6 +35,17 @@ These sources ground a cultural or geopolitical story in money, work, prices, po
 
 Use this layer when an economic dependency may become a security lever. Check definitions and missing data before making comparisons.
 
+### The hidden pipes: money, energy, and measurement
+
+- [IMF publications by Manmohan Singh](https://www.imf.org/en/publications/publications-by-author?author=Manmohan%20Singh&name=Manmohan%20Singh) for author-level work on money, finance, crises, and macro policy.
+- [BIS Papers](https://www.bis.org/publications/bis-paper) for central-bank and financial-system research. BIS notes that the views in these papers are not always the BIS position.
+- [BEA Learning Center](https://www.bea.gov/resources/learning-center) for the meaning and construction of national-account measures.
+- [IEA reports](https://www.iea.org/analysis?type=report) for energy supply, demand, transition, technology, and security scenarios.
+- [Office of Financial Research](https://www.financialresearch.gov/) for financial-system structure and systemic-risk data.
+- [World Bank Research](https://www.worldbank.org/en/research) for development research that links markets, institutions, poverty, climate, and country change.
+
+These sources help expose the systems beneath visible events: how money moves, how energy limits choices, how financial risk travels, and how a statistic is made. Treat forecasts and scenarios as conditional views, not facts.
+
 ## Suggested review rule
 
 For a major theme, aim for at least:
