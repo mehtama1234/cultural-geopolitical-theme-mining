@@ -60,3 +60,5 @@ The first new project is [US household financial pressure and the price of acces
 The next short pass is [US housing, insurance, and the cost of staying put](analysis/projects/us-housing-insurance-risk/README.md), with its [source search record](analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md).
 
 The following short pass is [US health costs and the choices people give up](analysis/projects/us-health-cost-household-choice/README.md), with its [source search record](analysis/projects/us-health-cost-household-choice/source-search-2026-09-11.md).
+
+The next short pass is [US cost of living, trust, and political response](analysis/projects/us-cost-trust-politics/README.md), with its [source search record](analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md).
