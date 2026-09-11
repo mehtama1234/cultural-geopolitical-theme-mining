@@ -654,6 +654,16 @@ Follow disaster credit into bankruptcy, later purchases and household room, whil
 
 Still missing: The disaster-loan study measures credit records and selected outcomes; it does not show every household's avoided loss or full repayment burden.
 
+### When a business loan protects more than the owner
+
+Follow disaster credit into the owner's shared household and then into jobs, revenue and local services.
+
+1. [Emergency business credit can keep local work alive](#small_business_disaster_liquidity)
+2. [A small business and its household can share one cash pool](#owner_household_tradeoff)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The firm study and owner-household study use different shocks and records; they do not show one business and household together after a disaster.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -2601,6 +2611,7 @@ The current US sources do not show which owners have another cash buffer or whet
 Connections:
 
 - Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: The same job can contain different AI access. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
+- Question to test: A recovery loan may change which side of an owner's shared cash pool absorbs the disaster. Related topic: Emergency business credit can keep local work alive. The current sources do not follow the same owner, firm and household through the loan and later choices.
 
 ### Health coverage can hold a job in place
 
@@ -2704,6 +2715,39 @@ Connections:
 
 - Question to test: Housing help may protect work continuity, but payment relief and earnings are separate outcomes. Related topic: Rent aid can ease the bill without ending housing risk. The current sources do not follow the same household from rent aid through housing stability and later work.
 - Question to test: Emergency help for a housing crisis may protect the home whose loss would disrupt work. Related topic: Keeping a home also means paying to protect it. The current work study does not show the exact housing outcome or prove that housing continuity caused the later earnings result.
+
+### Emergency business credit can keep local work alive
+
+Recovery loans can reduce small-business exit while protecting employment, revenue and local economic links after a disaster.
+
+**Question:** When a small firm survives a shock, who else keeps their options?
+
+**Subthemes:** Firm survival and local work; Repair uncertainty and credit
+
+**Limit:** The opening evidence measures firm outcomes, not the full owner, worker, customer or neighborhood path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326)
+- [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+
+#### Evidence check: Emergency business credit can keep local work alive
+
+NBER's study of government recovery loans after US natural disasters finds that the loans reduced small-business exit and bankruptcy, increased employment and revenue, unlocked private credit and reduced delinquency. The authors link the effects partly to resolving uncertainty about whether repairs could be completed and find some positive spillovers on local business entry.
+
+Working interpretation: disaster liquidity can protect more than the owner's firm. It may preserve jobs, local services and the next business that depends on the damaged firm remaining open.
+
+**Counterpoint:** Government credit may keep a weak firm alive or shift risk to taxpayers and lenders. The study finds no capital reallocation away from nearby firms, but local customer and worker effects still need close measurement.
+[Related study](https://www.nber.org/papers/w32326)
+
+The study does not show the owner's household spending, the quality of preserved jobs or which local customers lose access when a firm exits.
+
+[Collier, Howell and Rendell, After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters, NBER Working Paper 32326, checked 2026-09-11.](https://www.nber.org/papers/w32326)
+
+
+Connections:
+
+- Question to test: A recovery loan may change which side of an owner's shared cash pool absorbs the disaster. Related topic: A small business and its household can share one cash pool. The current sources do not follow the same owner, firm and household through the loan and later choices.
 
 ## A home can be costly to heat before anything else changes
 

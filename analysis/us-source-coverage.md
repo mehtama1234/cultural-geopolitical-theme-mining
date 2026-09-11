@@ -1,8 +1,8 @@
 # US source coverage
 
-59 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+60 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 98; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 100; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1285,6 +1285,29 @@
 - political response beyond participation and complaints.
 
 [Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)
+
+## US small-business disaster liquidity
+
+**Project:** `us-small-business-disaster-liquidity`
+
+**Status:** opening pass; firm effects are measured, household and local-service effects remain open
+
+**Question:** When a small firm survives a shock, who else keeps their options?
+
+**Sources recorded:** 2
+
+- [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326)
+- [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+
+**Open gaps:**
+- damage, repair cost and insurance payment;
+- loan terms, approval and repayment;
+- owner household income, debt and spending;
+- worker jobs, pay, hours and benefits;
+- customer prices, access and local substitution;
+- differences by race, place, industry, firm age and disaster type.
+
+[Open the source-search record](projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md)
 
 ## US student debt and delayed life choices
 
