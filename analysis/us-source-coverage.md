@@ -1,8 +1,8 @@
 # US source coverage
 
-25 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+26 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 14; HHS: 1; IEA: 1; IMF: 1; NBER: 38; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 15; HHS: 1; IEA: 1; IMF: 1; NBER: 40; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -598,6 +598,30 @@
 - whether easier cancellation lowers useful service continuity.
 
 [Open the source-search record](projects/us-subscription-inattention/source-search-2026-09-11.md)
+
+## US tariffs and the price that arrives later
+
+**Project:** `us-tariff-price-pass-through`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** How does a trade policy become a household price, and why can the effect be hard to see at first?
+
+**Sources recorded:** 3
+
+- [NBER: Tracking the Short-Run Price Impact of US Tariffs](https://www.nber.org/papers/w34496)
+- [HBS: Tariffs Leave Consumers and Companies Splitting the Tab](https://www.library.hbs.edu/working-knowledge/tariffs-leave-consumers-and-companies-splitting-the-tab)
+- [NBER: Tariffs in 2025: Short-Run Impacts on the US Economy](https://www.nber.org/papers/w35064)
+
+**Open gaps:**
+- price effects by income, product type, retailer and region;
+- effects on quantities, quality, package size and product choice;
+- the timing of margin changes and supplier changes;
+- jobs, wages and investment alongside consumer prices;
+- whether voters connect later price changes to the policy that caused them;
+- what happens after tariff rollbacks or further changes.
+
+[Open the source-search record](projects/us-tariff-price-pass-through/source-search-2026-09-11.md)
 
 ## US public aid and the shape of a dollar
 

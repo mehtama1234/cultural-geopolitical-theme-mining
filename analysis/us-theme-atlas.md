@@ -301,6 +301,16 @@ Follow repeated prices and wage comparisons into the household's sense of room, 
 
 Still missing: The sources measure survey beliefs and retail price patterns separately; they do not follow the same household into a political response.
 
+### When trade policy becomes a delayed shelf price
+
+Follow a tariff from policy to shelf price, then into the repeated price and wage comparisons that shape a household's sense of room.
+
+1. [A trade policy can reach the shelf slowly](#tariff_pass_through)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current studies use product prices and separate surveys; they do not follow one household from a tariff change to a purchase, budget change or political judgment.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -339,6 +349,40 @@ Connections:
 
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: The price on the screen is only part of the cost. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
 
+### A trade policy can reach the shelf slowly
+
+Tariffs can move from policy to importer cost to shelf price through a delayed and partial path.
+
+**Question:** Who pays, and when does the cost become visible?
+
+**Subthemes:** Delayed price effects; Trade policy and household cost
+
+**Limit:** The opening evidence does not join policy, household purchases, wages and political response.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Tracking the Short-Run Price Impact of US Tariffs](https://www.nber.org/papers/w34496)
+- [HBS: Tariffs Leave Consumers and Companies Splitting the Tab](https://www.library.hbs.edu/working-knowledge/tariffs-leave-consumers-and-companies-splitting-the-tab)
+- [NBER: Tariffs in 2025: Short-Run Impacts on the US Economy](https://www.nber.org/papers/w35064)
+
+#### Evidence check: A trade policy can reach the shelf slowly
+
+NBER estimates about 20% retail pass-through from the 2025 US tariffs in the short run, while HBS reports that consumers carried an estimated 43% of the tariff burden after seven months and firms carried the rest.
+
+Working interpretation: a tariff can be politically visible when announced but economically quiet at first, with the household effect arriving later through prices, product choice or margins.
+
+**Counterpoint:** The price path can also reflect sourcing, retailer decisions, demand and other costs. Tariffs may change jobs or production in ways a shelf-price study does not measure.
+[Related study](https://www.nber.org/papers/w35064)
+
+The current studies do not show the exact bill, purchase change or political response for the same US household.
+
+[Cavallo, Llamas and Vazquez, Tracking the Short-Run Price Impact of US Tariffs, NBER Working Paper 34496, November 2025; HBS update checked 2026-09-11.](https://www.nber.org/papers/w34496)
+
+
+Connections:
+
+- Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
+
 ### A slower rise in prices can still feel like a loss
 
 People may judge inflation through the cheap goods and wages they see repeatedly.
@@ -372,6 +416,7 @@ The current sources do not follow the same household from price and wage changes
 Connections:
 
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: The price on the screen is only part of the cost. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
+- Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A trade policy can reach the shelf slowly. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
 
 ### The price on the screen is only part of the cost
 

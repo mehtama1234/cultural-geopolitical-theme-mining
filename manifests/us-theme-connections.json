@@ -53,6 +53,28 @@
       "source_record": "analysis/projects/us-subscription-inattention/source-search-2026-09-11.md"
     },
     {
+      "id": "tariff_pass_through",
+      "evidence_check": {
+        "title": "A trade policy can reach the shelf slowly",
+        "finding": "NBER estimates about 20% retail pass-through from the 2025 US tariffs in the short run, while HBS reports that consumers carried an estimated 43% of the tariff burden after seven months and firms carried the rest.",
+        "meaning": "Working interpretation: a tariff can be politically visible when announced but economically quiet at first, with the household effect arriving later through prices, product choice or margins.",
+        "counterpoint": "The price path can also reflect sourcing, retailer decisions, demand and other costs. Tariffs may change jobs or production in ways a shelf-price study does not measure.",
+        "counterpoint_source": "https://www.nber.org/papers/w35064",
+        "limit": "The current studies do not show the exact bill, purchase change or political response for the same US household.",
+        "source": "https://www.nber.org/papers/w34496",
+        "location": "Cavallo, Llamas and Vazquez, Tracking the Short-Run Price Impact of US Tariffs, NBER Working Paper 34496, November 2025; HBS update checked 2026-09-11."
+      },
+      "project": "us-tariff-price-pass-through",
+      "title": "A trade policy can reach the shelf slowly",
+      "summary": "Tariffs can move from policy to importer cost to shelf price through a delayed and partial path.",
+      "question": "Who pays, and when does the cost become visible?",
+      "limit": "The opening evidence does not join policy, household purchases, wages and political response.",
+      "subthemes": ["Delayed price effects", "Trade policy and household cost"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-tariff-price-pass-through/source-search-2026-09-11.md"
+    },
+    {
       "id": "price_perception",
       "evidence_check": {
         "title": "A slower rise in prices can still feel like a loss",
@@ -806,6 +828,13 @@
       "meaning": "Follow repeated prices and wage comparisons into the household's sense of room, then ask when that private loss becomes a public judgment.",
       "limit": "The sources measure survey beliefs and retail price patterns separately; they do not follow the same household into a political response.",
       "memo": null
+    },
+    {
+      "title": "When trade policy becomes a delayed shelf price",
+      "topics": ["tariff_pass_through", "price_perception", "money"],
+      "meaning": "Follow a tariff from policy to shelf price, then into the repeated price and wage comparisons that shape a household's sense of room.",
+      "limit": "The current studies use product prices and separate surveys; they do not follow one household from a tariff change to a purchase, budget change or political judgment.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1167,6 +1196,14 @@
       "to": "money",
       "relation": "Repeated prices and wage comparisons can change the room a household thinks it has",
       "limit": "The current survey and retail evidence do not measure the same household's actual budget or purchase change.",
+      "type": "open"
+    },
+    {
+      "id": "link-46",
+      "from": "tariff_pass_through",
+      "to": "price_perception",
+      "relation": "A delayed trade-policy cost can become part of the price people use to judge the economy",
+      "limit": "The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.",
       "type": "open"
     }
   ]
