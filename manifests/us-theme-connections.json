@@ -77,6 +77,29 @@
       "source_record": "analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md"
     },
     {
+      "id": "credit",
+      "evidence_check": {
+        "title": "A small shock can become a payment decision",
+        "finding": "In the Federal Reserve's 2024 household survey, 63% of adults said they could cover a $400 surprise with cash or its equivalent. Fifteen percent said they would use a credit card and pay over time, while 13% said they could not pay it right away.",
+        "meaning": "Working interpretation: credit can act as a bridge when cash is thin, but the bridge creates a later payment question. Measure the repayment and fee, not only whether credit was available.",
+        "limit": "This is a stated response to a hypothetical expense. It does not show the later balance, interest, missed payment or household outcome.",
+        "source": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm",
+        "location": "Federal Reserve, Economic Well-Being of US Households in 2024, emergency expenses section. Checked 2026-09-11."
+      },
+      "project": "us-consumer-credit-liquidity",
+      "title": "Credit can be a bridge and a later bill",
+      "summary": "When cash cannot cover a surprise, credit can preserve a purchase while moving the payment into the future.",
+      "question": "What does borrowing protect, and what does it make harder later?",
+      "limit": "The opening packet measures intended payment choices, not the full path from borrowing to repayment or loss of access.",
+      "subthemes": [
+        "Emergency liquidity",
+        "Credit records and access"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md"
+    },
+    {
       "id": "health",
       "evidence_check": {
         "title": "Removing old debt may leave today's choices unchanged",
@@ -303,6 +326,12 @@
       "meaning": "Follow the building and utility bill into the wider household budget. The path asks whether energy burden changes the room left for other costs.",
       "limit": "The current packets do not track the same households across energy bills, housing protection and payment choices.",
       "memo": "../site/us-home-cost-stack-001.html"
+    },
+    {
+      "title": "When a household bill becomes a balance",
+      "topics": ["energy", "credit", "money"],
+      "meaning": "Follow a household cost from the bill to the decision to borrow, then ask what later payment or access changes.",
+      "limit": "The current sources do not follow one household from an energy or housing bill through borrowing and repayment."
     }
   ],
   "edges": [
@@ -409,6 +438,30 @@
       "relation": "A high energy share can leave less room for other household payments",
       "limit": "The current burden measure does not show which payment households cut or delay.",
       "type": "open"
+    },
+    {
+      "id": "link-14",
+      "from": "energy",
+      "to": "credit",
+      "relation": "A high household bill may turn an energy problem into a borrowing decision",
+      "limit": "The energy and credit sources do not identify the same household or the later repayment outcome.",
+      "type": "open"
+    },
+    {
+      "id": "link-15",
+      "from": "credit",
+      "to": "money",
+      "relation": "Borrowing can preserve a purchase while leaving a later payment claim",
+      "limit": "The current sources do not show whether the later payment reduced another need or was repaid without strain.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-16",
+      "from": "credit",
+      "to": "housing",
+      "relation": "A credit record can change access to housing and other basic services",
+      "limit": "Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.",
+      "type": "comparison"
     }
   ]
 }

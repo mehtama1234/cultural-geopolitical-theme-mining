@@ -1,8 +1,8 @@
 # US source coverage
 
-10 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+11 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 4; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 7; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 22; OFR: 1; Other: 17; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 6; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 9; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 17; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -78,6 +78,32 @@
 - evidence that unpaid care does not materially change later work or savings.
 
 [Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
+
+## US consumer credit and the shrinking cash buffer
+
+**Project:** `us-consumer-credit-liquidity`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When a household cannot cover a small surprise with cash, what does credit change—and what does it leave exposed?
+
+**Sources recorded:** 5
+
+- [Federal Reserve Economic Well-Being of US Households in 2024](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm)
+- [Federal Reserve 2024 income and expenses](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [CFPB recent changes in medical collections](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
+- [CFPB medical debt and credit reports](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
+- [NBER Credit Card Banking](https://www.nber.org/papers/w35607)
+
+**Open gaps:**
+- emergency borrowing and repayment by income, race, age and place;
+- credit-card, BNPL, overdraft and family-help paths for the same event;
+- whether credit preserves housing, energy, food or medical access;
+- fees and interest paid after the first borrowing decision;
+- how lenders, employers, landlords and insurers use the resulting record;
+- evidence that challenges the idea that credit mainly shifts risk to households.
+
+[Open the source-search record](projects/us-consumer-credit-liquidity/source-search-2026-09-11.md)
 
 ## US cost of living, trust, and political response
 

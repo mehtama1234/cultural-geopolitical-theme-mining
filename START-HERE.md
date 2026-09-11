@@ -84,3 +84,5 @@ The next short pass is [US local business and the changing hometown](analysis/pr
 The following short pass is [US customer service, automation, and the right to reach a person](analysis/projects/us-customer-automation-recourse/README.md), with its [source search record](analysis/projects/us-customer-automation-recourse/source-search-2026-09-11.md).
 
 The next short pass is [US digital habits, attention, and the need to leave](analysis/projects/us-digital-habits-attention/README.md), with its [source search record](analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md).
+
+The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.

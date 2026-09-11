@@ -78,6 +78,16 @@ Still missing: The current packets do not track the same households across energ
 
 [Read the complete connected memo](../site/us-home-cost-stack-001.html)
 
+### When a household bill becomes a balance
+
+Follow a household cost from the bill to the decision to borrow, then ask what later payment or access changes.
+
+1. [A home can be costly to heat before anything else changes](#energy)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow one household from an energy or housing bill through borrowing and repayment.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -124,6 +134,7 @@ Connections:
 - Question to test: Financial pressure might change whom people blame. Related topic: Personal finances and national mood can move apart. Compare changes within the same people and account for party identity.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: Keeping a home also means paying to protect it. The current sources do not follow the same households across these costs or show which bill is given up first.
 - Question to test: A high energy share can leave less room for other household payments. Related topic: A home can be costly to heat before anything else changes. The current burden measure does not show which payment households cut or delay.
+- Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 
 ### Keeping a home also means paying to protect it
 
@@ -162,6 +173,42 @@ Connections:
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Business counts do not tell us who belongs to a place. Needs linked evidence on owners, housing costs and business moves.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: The price on the screen is only part of the cost. The current sources do not follow the same households across these costs or show which bill is given up first.
 - Comparison: The home's condition and location can shape the energy bill. Related topic: A home can be costly to heat before anything else changes. Current sources do not join energy burden to housing insurance or moving decisions.
+- Comparison: A credit record can change access to housing and other basic services. Related topic: Credit can be a bridge and a later bill. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
+
+### Credit can be a bridge and a later bill
+
+When cash cannot cover a surprise, credit can preserve a purchase while moving the payment into the future.
+
+**Question:** What does borrowing protect, and what does it make harder later?
+
+**Subthemes:** Emergency liquidity; Credit records and access
+
+**Limit:** The opening packet measures intended payment choices, not the full path from borrowing to repayment or loss of access.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve Economic Well-Being of US Households in 2024](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm)
+- [Federal Reserve 2024 income and expenses](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [CFPB recent changes in medical collections](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
+- [CFPB medical debt and credit reports](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
+- [NBER Credit Card Banking](https://www.nber.org/papers/w35607)
+
+#### Evidence check: A small shock can become a payment decision
+
+In the Federal Reserve's 2024 household survey, 63% of adults said they could cover a $400 surprise with cash or its equivalent. Fifteen percent said they would use a credit card and pay over time, while 13% said they could not pay it right away.
+
+Working interpretation: credit can act as a bridge when cash is thin, but the bridge creates a later payment question. Measure the repayment and fee, not only whether credit was available.
+
+This is a stated response to a hypothetical expense. It does not show the later balance, interest, missed payment or household outcome.
+
+[Federal Reserve, Economic Well-Being of US Households in 2024, emergency expenses section. Checked 2026-09-11.](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm)
+
+
+Connections:
+
+- Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: A home can be costly to heat before anything else changes. The energy and credit sources do not identify the same household or the later repayment outcome.
+- Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: The price on the screen is only part of the cost. The current sources do not show whether the later payment reduced another need or was repaid without strain.
+- Comparison: A credit record can change access to housing and other basic services. Related topic: Keeping a home also means paying to protect it. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 
 ### People can pay the bills by giving up care
 
@@ -230,6 +277,7 @@ Connections:
 
 - Comparison: The home's condition and location can shape the energy bill. Related topic: Keeping a home also means paying to protect it. Current sources do not join energy burden to housing insurance or moving decisions.
 - Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
+- Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
 
 ## Who gives up time
 
