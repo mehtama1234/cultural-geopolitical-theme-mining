@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "scope": "United States",
+  "status": "Discovery map, not a completed causal account",
+  "themes": [
+    {
+      "id": "cost",
+      "title": "What families give up to pay the bills",
+      "meaning": "Compare money spent with care or protection left out."
+    },
+    {
+      "id": "time",
+      "title": "Who gives up time",
+      "meaning": "Compare unpaid help with time spent using a product; the reasons and benefits differ."
+    },
+    {
+      "id": "voice",
+      "title": "Who can get an answer or change a decision",
+      "meaning": "Look for actual choices and responses before claiming that trust or power changed."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "money",
+      "project": "us-household-financial-pressure",
+      "title": "The price on the screen is only part of the cost",
+      "summary": "Fees, rewards and payment timing can leave households with different costs for the same purchase.",
+      "question": "Who pays beyond the purchase price?",
+      "limit": "The current payment finding relies on an HBS summary; the underlying paper still needs review.",
+      "subthemes": [
+        "Fees and rewards",
+        "Borrowing to buy"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-household-financial-pressure/source-search-2026-09-11.md"
+    },
+    {
+      "id": "housing",
+      "project": "us-housing-insurance-risk",
+      "title": "Keeping a home also means paying to protect it",
+      "summary": "Insurance bills and gaps in coverage belong in the housing affordability story.",
+      "question": "Who can afford protection?",
+      "limit": "The packet does not establish that insurance changes caused families to move.",
+      "subthemes": [
+        "Insurance cost",
+        "Going without coverage"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md"
+    },
+    {
+      "id": "health",
+      "project": "us-health-cost-household-choice",
+      "title": "People can pay the bills by giving up care",
+      "summary": "Skipped treatment can keep spending down while leaving a need unmet.",
+      "question": "What did the household give up?",
+      "limit": "Reported skipped care does not establish later health or job outcomes.",
+      "subthemes": [
+        "Skipped care",
+        "Medical debt"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-health-cost-household-choice/source-search-2026-09-11.md"
+    },
+    {
+      "id": "care",
+      "project": "us-aging-care-strain",
+      "title": "A family can pay for care with time",
+      "summary": "Unpaid help uses hours that could otherwise go to work, rest or other family needs.",
+      "question": "Whose time covers the need?",
+      "limit": "Care hours are not automatically lost work hours; employment effects need separate evidence.",
+      "subthemes": [
+        "Unpaid hours",
+        "Work and family choices"
+      ],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-aging-care-strain/source-search-2026-09-11.md"
+    },
+    {
+      "id": "politics",
+      "project": "us-cost-trust-politics",
+      "title": "Personal finances and national mood can move apart",
+      "summary": "People judge the economy through both their circumstances and their expectations about the country.",
+      "question": "What explains the gap between experience and belief?",
+      "limit": "The surveys do not show that bills caused a vote; party identity can shape economic views.",
+      "subthemes": [
+        "Economic expectations",
+        "Trust and blame"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md"
+    },
+    {
+      "id": "place",
+      "project": "us-local-business-place",
+      "title": "Business counts do not tell us who belongs to a place",
+      "summary": "Applications, lasting jobs and locally rooted owners describe different parts of a town's economy.",
+      "question": "What stays in the community?",
+      "limit": "Birth-state location is not hometown attachment; civic effects remain questions.",
+      "subthemes": [
+        "Owner location",
+        "Local jobs and services"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-local-business-place/source-search-2026-09-11.md"
+    },
+    {
+      "id": "service",
+      "project": "us-customer-automation-recourse",
+      "title": "A quicker reply may still leave a problem open",
+      "summary": "Response speed, a friendly tone and successful resolution need separate measures.",
+      "question": "Can someone actually fix the problem?",
+      "limit": "The service experiment is one setting; its results do not establish a general loss of appeal rights.",
+      "subthemes": [
+        "Repeat complaints",
+        "Human review"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-customer-automation-recourse/source-search-2026-09-11.md"
+    },
+    {
+      "id": "attention",
+      "project": "us-digital-habits-attention",
+      "title": "A useful app can still make leaving difficult",
+      "summary": "The reason a person stays matters when longer conversations benefit the company.",
+      "question": "Does staying reflect help or pressure?",
+      "limit": "Companion-app studies do not represent all chatbot users or establish lasting harm.",
+      "subthemes": [
+        "Pressure to stay",
+        "Control over use"
+      ],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md"
+    }
+  ],
+  "edges": [
+    {
+      "id": "link-1",
+      "from": "housing",
+      "to": "health",
+      "relation": "Cost can lead people to use less protection or care",
+      "limit": "Parallel household choices; neither packet proves the same people face both.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-2",
+      "from": "health",
+      "to": "care",
+      "relation": "An unmet care need may require more family time",
+      "limit": "Check whether skipped treatment actually increases unpaid care; this has not been shown here.",
+      "type": "open"
+    },
+    {
+      "id": "link-3",
+      "from": "care",
+      "to": "money",
+      "relation": "Less paid work could leave less money for bills",
+      "limit": "Check earnings around the start of care and borrowing afterward.",
+      "type": "open"
+    },
+    {
+      "id": "link-4",
+      "from": "service",
+      "to": "attention",
+      "relation": "Company goals and customer goals may differ when a conversation continues",
+      "limit": "Longer contact may mean useful help, an unresolved problem or pressure to stay.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-5",
+      "from": "housing",
+      "to": "place",
+      "relation": "A rise in housing costs could affect who can own a local business",
+      "limit": "Needs linked evidence on owners, housing costs and business moves.",
+      "type": "open"
+    },
+    {
+      "id": "link-6",
+      "from": "money",
+      "to": "politics",
+      "relation": "Financial pressure might change whom people blame",
+      "limit": "Compare changes within the same people and account for party identity.",
+      "type": "open"
+    },
+    {
+      "id": "link-7",
+      "from": "health",
+      "to": "politics",
+      "relation": "Difficulty paying for care may become a public concern",
+      "limit": "Concern and skipped care are separate observations, not a proven causal chain.",
+      "type": "open"
+    },
+    {
+      "id": "link-8",
+      "from": "service",
+      "to": "politics",
+      "relation": "Repeated unresolved problems might weaken trust",
+      "limit": "No direct evidence of that chain in the current packet.",
+      "type": "open"
+    }
+  ]
+}

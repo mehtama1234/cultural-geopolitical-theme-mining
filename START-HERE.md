@@ -1,5 +1,7 @@
 # Start here
 
+Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`.
+
 ## The question
 
 What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?
