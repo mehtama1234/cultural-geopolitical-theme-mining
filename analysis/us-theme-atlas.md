@@ -622,6 +622,8 @@ Follow disaster and credit risk into the insurance bill, then ask whether protec
 
 Still missing: The current studies measure premiums and market values in separate records; they do not follow one owner's full decision path.
 
+[Read the complete connected memo](../site/us-home-insurance-affordability-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
