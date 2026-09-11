@@ -98,6 +98,7 @@ h2{font-size:2rem;margin:54px 0 12px}h3{font-size:1.7rem;margin:8px 0 20px}
 header>p{max-width:760px}.eyebrow{font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
 .big{background:#193f36;color:#f7f6ef;padding:28px;border-radius:12px;margin:32px 0}.big h2{margin:0 0 14px}.big p{max-width:900px}
 .controls{position:sticky;top:0;z-index:5;padding:16px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap;background:var(--paper)}
+.theme-nav{display:flex;gap:10px;overflow-x:auto;padding:14px 0 4px;scrollbar-width:thin}.theme-nav a{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:7px 14px;text-decoration:none;background:#fffefa;font-size:.9rem}.theme-nav a:hover{border-color:var(--accent);background:#edf4ef}
 label{display:flex;flex-direction:column;gap:6px;flex:1;min-width:220px;font-size:.9rem}
 input,select{font:inherit;padding:13px;border:1px solid #78938a;border-radius:6px;background:white;color:var(--ink);width:100%}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:#fffefa;border:1px solid var(--line);border-radius:10px;padding:28px;overflow-wrap:anywhere;scroll-margin-top:24px}
@@ -136,6 +137,7 @@ function reveal(){
 window.addEventListener('hashchange',reveal);reveal();
 """
 options = "".join(f'<option value="{t["id"]}">{e(t["title"])}</option>' for t in data["themes"])
+theme_nav = "".join(f'<a href="#theme-{t["id"]}">{e(t["title"])}</a>' for t in data["themes"])
 html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>US life — the connections</title><style>{style}</style></head>
@@ -146,6 +148,7 @@ html = f'''<!doctype html>
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
 <label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label></div>
 <p id="count" role="status" aria-live="polite">{len(nodes)} of {len(nodes)} topics shown</p>
+<nav class="theme-nav" aria-label="Jump to a theme">{theme_nav}</nav>
 <noscript><p>All topics, connections and sources are readable below. Search requires JavaScript.</p></noscript>
 {paths_html}
 <div id="topics">{"".join(parts)}</div>
