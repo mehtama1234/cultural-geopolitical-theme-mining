@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; the household-to-trust link remains open
 
 ## Working question
 
@@ -44,3 +44,17 @@ The first two links have survey evidence. The last two require a design that can
 ## Decision rule
 
 Do one next pass with the NBER paper, its data or replication materials, and one household survey. If the link to behavior or politics cannot be separated from general party identity, record the topic as a perception pattern and move on.
+
+## Verification pass: 2026-09-11
+
+The 2025 Federal Reserve survey gives a clearer household starting point: 77% of adults took at least one action after higher prices, 58% said price changes made their finances worse, and 16% did not pay all bills in the prior month. The same report says only about one-fourth rated the national economy good or excellent, while 73% said they were doing okay or living comfortably. Personal and national judgments therefore should not be treated as the same measure.
+
+Pew reports that 17% of Americans trusted the federal government to do what is right most or all of the time in September 2025, one of the lowest readings in its long series. Trust also moved strongly with the party controlling the White House: 9% of Democrats and Democratic leaners and 26% of Republicans and Republican leaners expressed trust in that survey. This is a serious warning against claiming that prices alone explain trust.
+
+The useful next finding is narrower: people can change what they buy, save, borrow or delay while their view of the national economy remains much worse than their view of their own situation. A direct path from those household actions to trust or voting is still unproven.
+
+[Federal Reserve 2025 household survey](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
+
+[Federal Reserve 2025 income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
+
+[Pew long-run public-trust series](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/)

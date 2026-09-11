@@ -1,6 +1,6 @@
 # US life: the connections
 
-Ten short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
+Short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
 
 ## The bigger picture
 
@@ -161,6 +161,17 @@ Follow a credit claim from education into payment trouble, then ask what room re
 Still missing: The current sources do not follow the same borrower from education debt through payment, housing and work.
 
 [Read the complete connected memo](../site/us-student-debt-life-choices-path-001.html)
+
+### When household choices become a judgment about the country
+
+Follow a price or benefit change into the household action, then keep personal finances, national economic views and trust as separate steps.
+
+1. [The price on the screen is only part of the cost](#money)
+2. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not show that a specific price or benefit change caused a change in trust, voting or policy demand.
+
+[Read the complete connected memo](../site/us-cost-trust-politics-path-001.html)
 
 ## What families give up to pay the bills
 
@@ -579,6 +590,9 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Pew: 2026 economic views](https://www.pewresearch.org/short-reads/2026/02/23/state-of-the-union-2026-where-americans-stand-on-key-issues-facing-the-nation/)
 - [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059)
 - [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524)
+- [Federal Reserve 2025 household survey](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
+- [Federal Reserve 2025 income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
+- [Pew long-run public-trust series](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/)
 
 #### Evidence check: A lost benefit can leave a lasting mark on economic views
 

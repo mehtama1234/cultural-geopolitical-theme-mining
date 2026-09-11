@@ -25,7 +25,7 @@ for path in paths:
     assert all(topic in nodes for topic in path["topics"])
     assert all(frozenset(pair) in edge_pairs for pair in zip(path["topics"], path["topics"][1:]))
 
-intro = "Ten short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
+intro = "Short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
 big = "Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior."
 md = ["# US life: the connections", "", intro, "", "## The bigger picture", "", big, ""]
 path_cards = []

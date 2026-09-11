@@ -161,7 +161,7 @@
 
 **Project:** `us-cost-trust-politics`
 
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; the household-to-trust link remains open
 
 **Question:** Do changes in household money and choices affect how Americans judge the economy and public institutions, and how long does that effect last?
 
