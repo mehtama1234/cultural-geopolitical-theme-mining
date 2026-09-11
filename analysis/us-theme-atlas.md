@@ -634,6 +634,16 @@ Follow remote work into shopping mode and household spending, then ask whether t
 
 Still missing: The shopping study does not show the same household's full time value, spending need, deal choices and unpaid-work division.
 
+### When the power fails, payment becomes access
+
+Follow an outage into the ability to pay, then ask which households can still buy food, medicine, fuel or other essentials.
+
+1. [A power outage can turn payment choice into a basic access problem](#payment_system_outage_resilience)
+2. [The price on the screen is only part of the cost](#money)
+3. [A home can be costly to heat before anything else changes](#energy)
+
+Still missing: The payment study does not show the same household's essential purchase, outage loss and later recovery.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -863,6 +873,7 @@ Connections:
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: A slower rise in prices can still feel like a loss. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 - Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: Staying with one bank can carry a quiet cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
 - Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: Working from home can change what a household buys and pays. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
+- Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
 
 ### Keeping a home also means paying to protect it
 
@@ -2690,6 +2701,7 @@ Connections:
 - Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
 - Comparison: The energy bill is incomplete without the cost of getting to the place. Related topic: Getting to a place is a major household cost. DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.
 - Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A bill due date can become part of the energy burden. The current sources do not show which households face a shutoff or what they do to avoid it.
+- Question to test: Electricity and network reliability can shape whether digital money remains usable during a disaster. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.
 
 ### A bill due date can become part of the energy burden
 
@@ -2758,6 +2770,39 @@ The studies do not show whether a specific household dropped coverage, lost a mo
 Connections:
 
 - Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
+
+### A power outage can turn payment choice into a basic access problem
+
+When digital payment fails, cash access can decide whether households complete purchases after a disaster.
+
+**Question:** What can a household still buy when the payment network goes down?
+
+**Subthemes:** Digital payment failure; Cash as backup infrastructure
+
+**Limit:** The opening evidence shows payment and spending changes, not the full effect on food, medicine, fuel or work.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [On the Resilience of Payment Methods](https://www.nber.org/papers/w35115)
+
+#### Evidence check: A power outage can turn payment choice into a basic access problem
+
+NBER's 2026 study combines outage, weather, transaction, scanner and survey data from the United States and other countries. It finds that spending rises before disasters as households stock up, often using credit; after outages, digital payments fall and cash use rises. Nearly half of surveyed consumers could not use their preferred electronic payment during an outage, and greater cash access reduced the drop in completed purchases.
+
+Working interpretation: a payment system is part of household infrastructure. When electricity or networks fail, cash is not just an old preference; it can decide whether a person can complete a necessary purchase.
+
+**Counterpoint:** Cash also brings theft, loss and access problems, and outages differ by place and length. Offline-capable cards or other tools may provide resilience without requiring people to hold much cash.
+[Related study](https://www.nber.org/papers/w35115)
+
+The study does not show which households lose food, medicine, fuel or work access, or which payment design works best for every outage.
+
+[Alvarez, Argente and Van Patten, On the Resilience of Payment Methods, NBER Working Paper 35115, checked 2026-09-11.](https://www.nber.org/papers/w35115)
+
+
+Connections:
+
+- Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: The price on the screen is only part of the cost. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
+- Question to test: Electricity and network reliability can shape whether digital money remains usable during a disaster. Related topic: A home can be costly to heat before anything else changes. The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.
 
 ## Reading rule
 

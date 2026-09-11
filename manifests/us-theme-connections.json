@@ -1379,6 +1379,28 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-remote-work-shopping-cost/source-search-2026-09-11.md"
+    },
+    {
+      "id": "payment_system_outage_resilience",
+      "evidence_check": {
+        "title": "A power outage can turn payment choice into a basic access problem",
+        "finding": "NBER's 2026 study combines outage, weather, transaction, scanner and survey data from the United States and other countries. It finds that spending rises before disasters as households stock up, often using credit; after outages, digital payments fall and cash use rises. Nearly half of surveyed consumers could not use their preferred electronic payment during an outage, and greater cash access reduced the drop in completed purchases.",
+        "meaning": "Working interpretation: a payment system is part of household infrastructure. When electricity or networks fail, cash is not just an old preference; it can decide whether a person can complete a necessary purchase.",
+        "counterpoint": "Cash also brings theft, loss and access problems, and outages differ by place and length. Offline-capable cards or other tools may provide resilience without requiring people to hold much cash.",
+        "counterpoint_source": "https://www.nber.org/papers/w35115",
+        "limit": "The study does not show which households lose food, medicine, fuel or work access, or which payment design works best for every outage.",
+        "source": "https://www.nber.org/papers/w35115",
+        "location": "Alvarez, Argente and Van Patten, On the Resilience of Payment Methods, NBER Working Paper 35115, checked 2026-09-11."
+      },
+      "project": "us-payment-system-outage-resilience",
+      "title": "A power outage can turn payment choice into a basic access problem",
+      "summary": "When digital payment fails, cash access can decide whether households complete purchases after a disaster.",
+      "question": "What can a household still buy when the payment network goes down?",
+      "limit": "The opening evidence shows payment and spending changes, not the full effect on food, medicine, fuel or work.",
+      "subthemes": ["Digital payment failure", "Cash as backup infrastructure"],
+      "theme": "energy",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-payment-system-outage-resilience/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1791,6 +1813,13 @@
       "topics": ["remote_work_shopping_cost", "work", "money"],
       "meaning": "Follow remote work into shopping mode and household spending, then ask whether time saved becomes lower prices, more goods or more unpaid work.",
       "limit": "The shopping study does not show the same household's full time value, spending need, deal choices and unpaid-work division.",
+      "memo": null
+    },
+    {
+      "title": "When the power fails, payment becomes access",
+      "topics": ["payment_system_outage_resilience", "money", "energy"],
+      "meaning": "Follow an outage into the ability to pay, then ask which households can still buy food, medicine, fuel or other essentials.",
+      "limit": "The payment study does not show the same household's essential purchase, outage loss and later recovery.",
       "memo": null
     }
   ],
@@ -2449,6 +2478,22 @@
       "to": "money",
       "relation": "A change in shopping mode can alter total spending, prices paid and the use of deals",
       "limit": "The study does not show the household's income, budget tradeoff or final welfare from the changed spending.",
+      "type": "open"
+    },
+    {
+      "id": "link-83",
+      "from": "payment_system_outage_resilience",
+      "to": "money",
+      "relation": "A payment outage can decide whether a household can turn money into a completed purchase",
+      "limit": "The current evidence does not identify which essential purchase failed or which household carried the largest loss.",
+      "type": "open"
+    },
+    {
+      "id": "link-84",
+      "from": "payment_system_outage_resilience",
+      "to": "energy",
+      "relation": "Electricity and network reliability can shape whether digital money remains usable during a disaster",
+      "limit": "The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.",
       "type": "open"
     }
   ]

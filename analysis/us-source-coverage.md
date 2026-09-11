@@ -1,8 +1,8 @@
 # US source coverage
 
-57 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+58 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 95; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 96; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1077,6 +1077,28 @@
 - whether households can choose another merchant or payment method.
 
 [Open the source-search record](projects/us-payment-fee-redistribution/source-search-2026-09-11.md)
+
+## US payment-system outage resilience
+
+**Project:** `us-payment-system-outage-resilience`
+
+**Status:** opening pass; payment resilience is measured, essential-needs effects remain open
+
+**Question:** What can a household still buy when the payment network goes down?
+
+**Sources recorded:** 1
+
+- [On the Resilience of Payment Methods](https://www.nber.org/papers/w35115)
+
+**Open gaps:**
+- outage length, location and network failure;
+- cash access, bank access and merchant acceptance;
+- food, medicine, fuel and other essential purchases;
+- credit use and later repayment;
+- lost work, care and health effects;
+- differences by income, age, disability, race, place and broadband access.
+
+[Open the source-search record](projects/us-payment-system-outage-resilience/source-search-2026-09-11.md)
 
 ## US cash policy and public mood
 
