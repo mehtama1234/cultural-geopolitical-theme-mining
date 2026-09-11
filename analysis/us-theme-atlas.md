@@ -136,6 +136,8 @@ Follow household energy and transportation cost into the time and money needed t
 
 Still missing: The current sources do not show which households can change mode, move closer or absorb a vehicle repair.
 
+[Read the complete connected memo](../site/us-transportation-access-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.

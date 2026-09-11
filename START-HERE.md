@@ -102,3 +102,5 @@ The next short project is [US childcare, work, and the price of family time](ana
 The eighth connected memo is [When family care becomes paid-work time](site/us-childcare-work-path-001.html), with its [Markdown record](analysis/findings/us-childcare-work-path-001.md). It joins childcare cost, unpaid relative care and reported work loss while keeping support separate from burden.
 
 The next short project is [US transportation, household cost, and access](analysis/projects/us-transportation-household-access/README.md), with its [source search record](analysis/projects/us-transportation-household-access/source-search-2026-09-11.md). It tests whether getting to work, food, care and services is a hidden part of household energy and housing cost.
+
+The ninth connected memo is [When the trip is part of the price](site/us-transportation-access-path-001.html), with its [Markdown record](analysis/findings/us-transportation-access-path-001.md). It joins transportation spending, vehicle insurance, commute time and the value of place while keeping the benefit of access visible.
