@@ -22,6 +22,14 @@
   "nodes": [
     {
       "id": "money",
+      "evidence_check": {
+        "title": "The same checkout price can hide different payment costs",
+        "finding": "Using merchant payment data, researchers estimate that interchange fees move about $30 billion a year from cash and debit users to credit-card users. Different shoppers and different merchant fees reduce the estimated transfer by about 25%, but do not remove it.",
+        "meaning": "Working interpretation: the visible price does not tell us who funds the rewards. Payment choice, income and where people shop can change the result for a household.",
+        "limit": "The estimate depends on how fee costs pass through to prices and on the study's merchant and survey data. It is not a bill charged directly to each debit or cash user, and it does not prove hardship for every lower-income household.",
+        "source": "https://www.nber.org/papers/w35067",
+        "location": "Egan, Matvos, Seru, Wang and Yao, Who Pays for Payments?, NBER Working Paper 35067, April 2026 abstract. Checked 2026-09-11."
+      },
       "project": "us-household-financial-pressure",
       "title": "The price on the screen is only part of the cost",
       "summary": "Fees, rewards and payment timing can leave households with different costs for the same purchase.",

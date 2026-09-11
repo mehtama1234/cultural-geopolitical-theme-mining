@@ -59,6 +59,7 @@ Fees, rewards and payment timing can leave households with different costs for t
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [How Credit Card Rewards Became a $9.2 Billion Wealth Transfer](https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer)
+- [Who Pays for Payments?](https://www.nber.org/papers/w35067)
 - [Buy Now, Pay Later: How Retail's Hot Feature Hurts Lower-Income Shoppers](https://www.library.hbs.edu/working-knowledge/buy-now-pay-later-how-retails-hot-feature-hurts-lower-income-shoppers)
 - [The Economics of Financial Stress](https://www.nber.org/papers/w31285)
 - [Dual Credit Markets: Income Risk, Household Debt, and Consumption](https://www.nber.org/papers/w32858)
@@ -69,6 +70,17 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Credit monitoring services](https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-monitoring-service-en-1365/)
 - [BEA Digital Economy](https://bea.gov/data/special-topics/digital-economy)
 - [Federal Reserve Economic Data](https://fred.stlouisfed.org/)
+
+#### Evidence check: The same checkout price can hide different payment costs
+
+Using merchant payment data, researchers estimate that interchange fees move about $30 billion a year from cash and debit users to credit-card users. Different shoppers and different merchant fees reduce the estimated transfer by about 25%, but do not remove it.
+
+Working interpretation: the visible price does not tell us who funds the rewards. Payment choice, income and where people shop can change the result for a household.
+
+The estimate depends on how fee costs pass through to prices and on the study's merchant and survey data. It is not a bill charged directly to each debit or cash user, and it does not prove hardship for every lower-income household.
+
+[Egan, Matvos, Seru, Wang and Yao, Who Pays for Payments?, NBER Working Paper 35067, April 2026 abstract. Checked 2026-09-11.](https://www.nber.org/papers/w35067)
+
 
 Connections:
 
