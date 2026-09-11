@@ -10,8 +10,9 @@
 2. [Deutsche Telekom and Group Works Council adopt AI manifesto](https://www.telekom.com/de/konzern/details/telekom-verpflichtet-sich-auf-ki-ethik-1025794), accessed 2026-09-11.
 3. [ver.di: Mensch vor Maschine](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/), accessed 2026-09-11.
 4. [ver.di: Auch die KI macht Fehler](https://publik.verdi.de/ausgabe-202503/auch-die-ki-macht-fehler/), accessed 2026-09-11.
+5. [WageIndicator transcription of IBM Central Holding GmbH / Group Works Council AI framework, version 25 June 2020](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence), accessed 2026-09-11.
 
-These records are published by the company and the union. They verify that the parties describe a joint AI manifesto or framework and the rule “a human decides” in the IBM example. They do not independently show compliance, worker coverage outside the named German entities, or effects on pay, productivity, or stress.
+These records are published by the company, the union, and WageIndicator. The WageIndicator page reproduces the IBM framework text and identifies IBM Central Holding GmbH, its Group Works Council, and a 30 July 2020 signature date. It is an accessible archive of the agreement, not the original IBM document host. None of these records independently shows compliance, worker coverage outside the named German entities, or effects on pay, productivity, or stress.
 
 ## What the records say
 
@@ -19,7 +20,11 @@ These records are published by the company and the union. They verify that the p
 - Deutsche Telekom describes AI governance as a co-creation structure involving steering, technical, and regulatory authorities.
 - ver.di reports that IBM Germany agreed a framework agreement in 2020 for introducing and using AI systems, with the principle that AI supports human decisions and a human makes the final decision.
 - ver.di’s IBM example names a “Skill Recommendation” tool that uses workplace data to suggest development options, while retaining a human decision-maker.
-- The union and company descriptions establish rule design and institutional participation; they do not establish whether workers can veto every deployment or whether the rules prevent all individual monitoring.
+- The archived IBM framework says its rules are immediately binding within scope, requires transparency, explainability, human decision-making, non-discrimination, data and algorithm quality checks, an AI Ethics Council, and risk classification.
+- The framework prohibits category-5 systems: recommendations for or automatic decisions about personnel measures without a benefit or harm-reduction potential for a substantial part of the workforce.
+- For categories 2 through 4, the framework requires a correction process for false recommendations; for category 4, workers can contact the AI Ethics Council and the application must support rapid correction.
+- The framework gives works councils inspection rights over data-quality methods, bias analysis, transparency information, and the purpose of the AI system. It says that if an AI system eliminates a job or changes work, an equivalent job should be offered where possible and retraining provided if needed.
+- The union and company descriptions establish rule design and institutional participation; they do not establish compliance, use across all IBM entities, or whether the controls prevent all individual monitoring in practice.
 
 ## Mechanism relevance
 
@@ -27,7 +32,7 @@ These records are published by the company and the union. They verify that the p
 works-council rights -> joint review and stated limits -> bounded data use and human review
 ```
 
-This is a documented governance path. It is not yet a measured outcome path. The next evidence must show the text of the agreements, cases where a deployment was changed or stopped, and worker outcomes after implementation.
+This is a documented governance path with concrete review, correction, and exclusion rules. It is not yet a measured outcome path. The next evidence must show cases where a deployment was changed or stopped and worker outcomes after implementation.
 
 ## Coding
 
@@ -37,9 +42,9 @@ This is a documented governance path. It is not yet a measured outcome path. The
 | Worker representative | Group works council; works councils; ver.di in the IBM account |
 | Before deployment | Manifesto/framework, consultation, and stated AI-use standards |
 | Data or asset at issue | Employee data, workforce analytics, recommendations, and monitoring systems |
-| Worker remedy or leverage | Joint review and human decision requirement; exact enforcement remains open |
+| Worker remedy or leverage | Correction process, AI Ethics Council, works-council inspection, and retraining language |
 | Direct outcome measure | None in the cited records |
-| Evidence class | Company and union records |
+| Evidence class | Archived agreement text plus company and union records |
 | Main uncertainty | Agreement text, enforcement, scope, and worker-level effects |
 
 ## Relation to the ILO case table
