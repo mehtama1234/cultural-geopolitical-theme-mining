@@ -580,6 +580,8 @@ Follow rent aid into payment and housing stability, then ask whether the househo
 
 Still missing: The aid studies do not show the same tenant's later credit path, and the eviction studies do not identify which prevention design came first.
 
+[Read the complete connected memo](../site/us-rental-prevention-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
