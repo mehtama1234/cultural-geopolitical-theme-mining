@@ -1,8 +1,8 @@
 # US source coverage
 
-75 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+76 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 122; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 123; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -242,6 +242,28 @@
 - differences by race, income, state and family structure.
 
 [Open the source-search record](projects/us-cash-aid-household-structure/source-search-2026-09-11.md)
+
+## US Child Tax Credit and economic sentiment
+
+**Project:** `us-child-tax-credit-sentiment`
+
+**Status:** opening pass; benefit exposure and sentiment are measured, the later political and household action path remains open
+
+**Question:** Can a change in public help alter how a family sees its own finances and the country's economy, beyond the dollars received?
+
+**Sources recorded:** 1
+
+- [When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment](https://www.nber.org/papers/w35059)
+
+**Open gaps:**
+- actual benefit use and spending;
+- income, debt, food, housing and care changes;
+- personal versus national economic belief;
+- media and party messages;
+- policy support, turnout and vote;
+- effects after the benefit ends.
+
+[Open the source-search record](projects/us-child-tax-credit-sentiment/source-search-2026-09-11.md)
 
 ## US childcare, work, and the price of family time
 

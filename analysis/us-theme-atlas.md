@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When public help changes the story of the economy
+
+Follow a benefit or benefit loss into felt household security, then ask how that feeling becomes a judgment about public help and government.
+
+1. [Public help can change how families see the economy](#child_tax_credit_sentiment)
+2. [Help can exist but be hard to keep](#aid)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not follow the same family from benefit exposure through spending, sentiment, policy support and voting.
+
 ### When place changes what a paycheck can buy
 
 Follow local prices into the household's felt buying power, then ask how the remaining room changes purchases, savings or political judgment.
@@ -2225,6 +2235,7 @@ Connections:
 - Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Falling buying power may matter more than the inflation rate alone. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
 - Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: A dominant employer may carry local job power into politics. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: The same job can contain different AI access. The current atlas does not follow the same worker from job condition through political belief and vote.
+- Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Public help can change how families see the economy. The current evidence points to political effects but does not measure a changed vote for the same family.
 
 ### Help can exist but be hard to keep
 
@@ -2266,6 +2277,7 @@ Connections:
 - Question to test: The form and timing of public help may change how a household uses the program. Related topic: The form of public help changes what families buy. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: More work does not always mean more room. The current evidence does not show the same family's total resources after benefit loss and added pay.
 - Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: A lost benefit can change how families read the economy. The current sentiment result does not show a later change in trust, turnout or vote.
+- Question to test: A change in public cash help can alter both household room and how that help is judged. Related topic: Public help can change how families see the economy. The current study measures perceived well-being but does not show the same family's total aid, spending or later security.
 
 ### A payment problem can become a recovery problem
 
@@ -2892,6 +2904,39 @@ Connections:
 
 - Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: A slower rise in prices can still feel like a loss. The county study does not measure each voter's actual basket, wage or personal price belief.
 - Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Personal finances and national mood can move apart. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
+
+### Public help can change how families see the economy
+
+A benefit or benefit loss may change personal and national economic feeling beyond the direct income change.
+
+**Question:** When does public help become part of how people judge the economy and government?
+
+**Subthemes:** Benefit loss and felt security; Policy and economic judgment
+
+**Limit:** The opening study measures perceived economic well-being, not the same family's later spending or vote.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment](https://www.nber.org/papers/w35059)
+
+#### Evidence check: Public help can change how families see the economy
+
+An NBER study using monthly University of Michigan consumer-sentiment data and differences in likely Child Tax Credit loss finds that the policy affected perceived economic well-being beyond the change in current income. The authors point to possible effects on household activity, political attitudes and voting.
+
+Working interpretation: a public benefit can change the story a family tells about its financial position, not only the money in its account.
+
+**Counterpoint:** Families judge the economy from many prices, jobs and news stories. A benefit can change sentiment without changing long-run finances or political behavior.
+[Related study](https://www.nber.org/papers/w35059)
+
+The opening result does not show the same family's spending, saving, policy support or vote after the benefit changed.
+
+[Bastian and Harvey, When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment, NBER Working Paper 35059, checked 2026-09-11.](https://www.nber.org/papers/w35059)
+
+
+Connections:
+
+- Question to test: A change in public cash help can alter both household room and how that help is judged. Related topic: Help can exist but be hard to keep. The current study measures perceived well-being but does not show the same family's total aid, spending or later security.
+- Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Personal finances and national mood can move apart. The current evidence points to political effects but does not measure a changed vote for the same family.
 
 ## Who controls the work and gets the gain
 

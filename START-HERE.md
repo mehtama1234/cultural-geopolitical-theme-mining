@@ -193,6 +193,8 @@ The next short pass is [US employer political influence](analysis/projects/us-em
 
 The next short pass is [US local prices and consumption geography](analysis/projects/us-local-prices-consumption-geography/README.md), with its [source search record](analysis/projects/us-local-prices-consumption-geography/source-search-2026-09-11.md). It tests whether the same income buys a different life by place, especially for lower-income households.
 
+The next short pass is [US Child Tax Credit and economic sentiment](analysis/projects/us-child-tax-credit-sentiment/README.md), with its [source search record](analysis/projects/us-child-tax-credit-sentiment/source-search-2026-09-11.md). It tests whether public help changes how families judge their own economy and government beyond the direct income change.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

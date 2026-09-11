@@ -1775,9 +1775,38 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-local-prices-consumption-geography/source-search-2026-09-11.md"
+    },
+    {
+      "id": "child_tax_credit_sentiment",
+      "evidence_check": {
+        "title": "Public help can change how families see the economy",
+        "finding": "An NBER study using monthly University of Michigan consumer-sentiment data and differences in likely Child Tax Credit loss finds that the policy affected perceived economic well-being beyond the change in current income. The authors point to possible effects on household activity, political attitudes and voting.",
+        "meaning": "Working interpretation: a public benefit can change the story a family tells about its financial position, not only the money in its account.",
+        "counterpoint": "Families judge the economy from many prices, jobs and news stories. A benefit can change sentiment without changing long-run finances or political behavior.",
+        "counterpoint_source": "https://www.nber.org/papers/w35059",
+        "limit": "The opening result does not show the same family's spending, saving, policy support or vote after the benefit changed.",
+        "source": "https://www.nber.org/papers/w35059",
+        "location": "Bastian and Harvey, When Policy Shapes Perception: The 2021 Child Tax Credit and Consumer Sentiment, NBER Working Paper 35059, checked 2026-09-11."
+      },
+      "project": "us-child-tax-credit-sentiment",
+      "title": "Public help can change how families see the economy",
+      "summary": "A benefit or benefit loss may change personal and national economic feeling beyond the direct income change.",
+      "question": "When does public help become part of how people judge the economy and government?",
+      "limit": "The opening study measures perceived economic well-being, not the same family's later spending or vote.",
+      "subthemes": ["Benefit loss and felt security", "Policy and economic judgment"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-child-tax-credit-sentiment/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When public help changes the story of the economy",
+      "topics": ["child_tax_credit_sentiment", "aid", "politics"],
+      "meaning": "Follow a benefit or benefit loss into felt household security, then ask how that feeling becomes a judgment about public help and government.",
+      "limit": "The current sources do not follow the same family from benefit exposure through spending, sentiment, policy support and voting.",
+      "memo": null
+    },
     {
       "title": "When place changes what a paycheck can buy",
       "topics": ["local_prices_consumption_geography", "price_perception", "money"],
@@ -3251,6 +3280,22 @@
       "to": "money",
       "relation": "Local prices change the real spending room left by the same nominal income",
       "limit": "The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.",
+      "type": "open"
+    },
+    {
+      "id": "link-118",
+      "from": "child_tax_credit_sentiment",
+      "to": "aid",
+      "relation": "A change in public cash help can alter both household room and how that help is judged",
+      "limit": "The current study measures perceived well-being but does not show the same family's total aid, spending or later security.",
+      "type": "open"
+    },
+    {
+      "id": "link-119",
+      "from": "child_tax_credit_sentiment",
+      "to": "politics",
+      "relation": "A benefit experience may become a judgment about government before it becomes a vote",
+      "limit": "The current evidence points to political effects but does not measure a changed vote for the same family.",
       "type": "open"
     }
   ]
