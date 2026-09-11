@@ -872,6 +872,31 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-family-support-hidden-safety-net/source-search-2026-09-11.md"
+    },
+    {
+      "id": "owner_household_tradeoff",
+      "evidence_check": {
+        "title": "A small business and its household can share one cash pool",
+        "finding": "NBER's linked account data show a large business-revenue fall with a much smaller owner-consumption response during the pandemic. HBS reports linked data showing that college costs can affect both household spending and business investment.",
+        "meaning": "Working interpretation: when family and business money are tied together, a shock may be absorbed by a choice that is hard to see in either a business-only or household-only report.",
+        "counterpoint": "Holding household spending steady can protect the family and help the firm survive. Reducing business investment may be a sensible way to avoid a larger loss.",
+        "counterpoint_source": "https://www.nber.org/papers/w28151",
+        "limit": "The current US sources do not show which owners have another cash buffer or whether a household tradeoff later changes jobs, local services or business survival.",
+        "source": "https://www.library.hbs.edu/working-knowledge/what-paying-for-college-can-do-to-family-business",
+        "location": "NBER linked-account research and HBS reporting on family-business cash flow, checked 2026-09-11."
+      },
+      "project": "us-owner-household-business-tradeoff",
+      "title": "A small business and its household can share one cash pool",
+      "summary": "A business shock and a family bill can compete for the same money.",
+      "question": "When money is tight, which side gets protected?",
+      "limit": "The opening packet shows a linked cash-flow problem, not a proven effect on workers or local services.",
+      "subthemes": [
+        "Owner household cash flow",
+        "Business and family investment"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1130,6 +1155,13 @@
       "topics": ["family_support_buffer", "care", "money"],
       "meaning": "Follow a shock from one household into money or unpaid care from another, then ask who has less room afterward.",
       "limit": "The current sources show changes in family support but do not follow both sides through work, debt and later security.",
+      "memo": null
+    },
+    {
+      "title": "When the family and the business share one cash pool",
+      "topics": ["owner_household_tradeoff", "work", "money"],
+      "meaning": "Follow a business or family shock into the owner's protection choice, then ask what happens to business investment and household room.",
+      "limit": "The current sources do not follow the same owner through the choice and later jobs, services or family wealth.",
       "memo": null
     }
   ],
@@ -1580,6 +1612,14 @@
       "to": "care",
       "relation": "A family may cover a shock with money or unpaid care before a formal service arrives",
       "limit": "The current sources do not show whether the helper loses work, income, health or future security.",
+      "type": "open"
+    },
+    {
+      "id": "link-57",
+      "from": "owner_household_tradeoff",
+      "to": "work",
+      "relation": "A household cash choice can change what a small business can keep investing in or offering",
+      "limit": "The current evidence does not show whether the choice changes jobs, pay, service or business survival.",
       "type": "open"
     }
   ]

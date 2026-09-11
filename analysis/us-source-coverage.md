@@ -1,8 +1,8 @@
 # US source coverage
 
-36 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+37 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 28; HHS: 1; IEA: 1; IMF: 1; NBER: 53; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 29; HHS: 1; IEA: 1; IMF: 1; NBER: 55; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -690,6 +690,30 @@
 - whether age-friendly design improves independence.
 
 [Open the source-search record](projects/us-older-consumer-segments/source-search-2026-09-11.md)
+
+## US owner households and the business tradeoff
+
+**Project:** `us-owner-household-business-tradeoff`
+
+**Status:** opening pass; linked cash-flow evidence is useful, wider local effects remain open
+
+**Question:** When a business and a family share money, where does a shock show up first?
+
+**Sources recorded:** 3
+
+- [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+- [What Paying for College Can Do to a Family Business](https://www.library.hbs.edu/working-knowledge/what-paying-for-college-can-do-to-family-business)
+- [Investing in the Next Generation](https://www.nber.org/papers/w29816)
+
+**Open gaps:**
+- owner wealth and access to credit;
+- business investment, hiring and closure after household costs;
+- differences between family firms, sole proprietors and larger small businesses;
+- which subsidies or lenders absorb the first loss;
+- effects on local workers, prices and services;
+- whether family education spending changes later business entry.
+
+[Open the source-search record](projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md)
 
 ## US privacy rules and the decision to share
 

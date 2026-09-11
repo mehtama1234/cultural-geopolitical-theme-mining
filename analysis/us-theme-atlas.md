@@ -411,6 +411,16 @@ Follow a shock from one household into money or unpaid care from another, then a
 
 Still missing: The current sources show changes in family support but do not follow both sides through work, debt and later security.
 
+### When the family and the business share one cash pool
+
+Follow a business or family shock into the owner's protection choice, then ask what happens to business investment and household room.
+
+1. [A small business and its household can share one cash pool](#owner_household_tradeoff)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same owner through the choice and later jobs, services or family wealth.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1612,6 +1622,7 @@ Connections:
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The price on the screen is only part of the cost. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 - Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: One office day can change the remote week. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
 - Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: Equal income can buy a different life through several jobs. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
+- Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: A small business and its household can share one cash pool. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
 
 ### Fit can decide who gets heard at work
 
@@ -1749,6 +1760,40 @@ The paper does not establish the best schedule for all jobs or workers, or wheth
 Connections:
 
 - Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: The same job can contain different AI access. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
+
+### A small business and its household can share one cash pool
+
+A business shock and a family bill can compete for the same money.
+
+**Question:** When money is tight, which side gets protected?
+
+**Subthemes:** Owner household cash flow; Business and family investment
+
+**Limit:** The opening packet shows a linked cash-flow problem, not a proven effect on workers or local services.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+- [What Paying for College Can Do to a Family Business](https://www.library.hbs.edu/working-knowledge/what-paying-for-college-can-do-to-family-business)
+- [Investing in the Next Generation](https://www.nber.org/papers/w29816)
+
+#### Evidence check: A small business and its household can share one cash pool
+
+NBER's linked account data show a large business-revenue fall with a much smaller owner-consumption response during the pandemic. HBS reports linked data showing that college costs can affect both household spending and business investment.
+
+Working interpretation: when family and business money are tied together, a shock may be absorbed by a choice that is hard to see in either a business-only or household-only report.
+
+**Counterpoint:** Holding household spending steady can protect the family and help the firm survive. Reducing business investment may be a sensible way to avoid a larger loss.
+[Related study](https://www.nber.org/papers/w28151)
+
+The current US sources do not show which owners have another cash buffer or whether a household tradeoff later changes jobs, local services or business survival.
+
+[NBER linked-account research and HBS reporting on family-business cash flow, checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/what-paying-for-college-can-do-to-family-business)
+
+
+Connections:
+
+- Question to test: A household cash choice can change what a small business can keep investing in or offering. Related topic: The same job can contain different AI access. The current evidence does not show whether the choice changes jobs, pay, service or business survival.
 
 ## A home can be costly to heat before anything else changes
 
