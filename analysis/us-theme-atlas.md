@@ -249,6 +249,8 @@ Follow a worker's financial claim into daily work and then ask whether it become
 
 Still missing: The current evidence does not show actual payouts, household wealth or worker control after the retention change.
 
+[Read the complete connected memo](../site/us-employee-ownership-meaning-path-001.html)
+
 ### When one office day changes the remote week
 
 Follow a planned office meeting into later coworker contact and then count the travel time and cost it requires.

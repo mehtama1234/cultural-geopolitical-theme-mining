@@ -130,3 +130,5 @@ The next short project is [US career progression and the mid-level plateau](anal
 The next short project is [US employee ownership and the meaning of the work](analysis/projects/us-employee-ownership-meaning/README.md), with its [source search record](analysis/projects/us-employee-ownership-meaning/source-search-2026-09-11.md). It tests whether a financial claim changes worker retention and household wealth, or mainly changes the message around the job.
 
 The next short project is [US remote work and the value of coming together](analysis/projects/us-remote-work-contact/README.md), with its [source search record](analysis/projects/us-remote-work-contact/source-search-2026-09-11.md). It tests whether a small shared office day changes later communication and retention, and who carries the travel cost.
+
+The seventeenth connected memo is [When ownership means more than a promise](site/us-employee-ownership-meaning-path-001.html), with its [Markdown record](analysis/findings/us-employee-ownership-meaning-path-001.md). It tests whether a worker's financial claim becomes household wealth or only a reason to stay.
