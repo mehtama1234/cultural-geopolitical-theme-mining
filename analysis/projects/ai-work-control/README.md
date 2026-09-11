@@ -46,6 +46,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
 - [Theme map: work is becoming legible before it becomes better](theme-map-v1.md)
+- [Coverage report](coverage-report-v1.md)
 - [Published HTML finding](../../../site/ai-work-control/finding-001.html)
 - [Published HTML finding 002](../../../site/ai-work-control/finding-002.html)
 - [Published HTML finding 003](../../../site/ai-work-control/finding-003.html)

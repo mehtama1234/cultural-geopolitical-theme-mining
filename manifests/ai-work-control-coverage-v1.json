@@ -1,0 +1,48 @@
+{
+  "format": "cultural-geopolitical-theme-mining-coverage-v1",
+  "project": "ai-work-control",
+  "checked_on": "2026-09-11",
+  "status": "open_not_exhausted",
+  "physical_execution": false,
+  "source_families": {
+    "hbs": 1,
+    "nber": 10,
+    "oecd": 2,
+    "european_commission_jrc": 4,
+    "ilo": 2,
+    "company_disclosures": 3,
+    "company_product_materials": 1
+  },
+  "published_records": {
+    "findings": 5,
+    "company_bridges": 3,
+    "theme_maps": 1,
+    "claims_in_ledger": 26
+  },
+  "geographies": {
+    "covered": ["United States", "Denmark", "European Union", "France", "Germany", "Italy", "Japan", "Spain", "India", "South Africa"],
+    "missing_priority": ["Latin America", "Middle East", "Southeast Asia outside platform cases", "sub-Saharan Africa outside one case setting", "China outside one platform study"]
+  },
+  "outcomes": {
+    "covered": ["task productivity", "time use", "earnings", "recorded hours", "occupational mobility", "adoption", "monitoring", "autonomy", "stress", "training", "restructuring plans"],
+    "missing_priority": ["promotion", "discipline", "appeals", "worker-level pay paths", "household effects", "union bargaining", "health outcomes", "data correction", "long-run firm margins"]
+  },
+  "worker_groups": {
+    "covered": ["novice and lower-skilled workers", "knowledge workers", "workers in exposed occupations", "EU working-age population"],
+    "missing_priority": ["disabled workers", "older workers", "migrants", "women and gender minorities", "contractors", "unionized workers", "public-sector workers", "small-firm workers", "informal workers"]
+  },
+  "contradictions_to_preserve": [
+    "task productivity gains can coexist with little average wage change",
+    "AI assistance can save time while monitoring can reduce autonomy",
+    "individual adoption can relate to occupational movement while employer initiatives show little average labor-demand effect",
+    "company-reported scale and training do not prove worker benefit"
+  ],
+  "next_required_tests": [
+    "read the full JRC AIM-WORK tables and methodology",
+    "add direct evidence on correction, appeal, promotion, and discipline",
+    "add worker evidence outside Europe and the United States",
+    "compare small firms, contractors, unions, and public employers",
+    "verify at least one company claim with an independent outcome source"
+  ],
+  "exhaustion_rule": "Do not mark exhausted until new searches mostly return known evidence, priority gaps are tested, major counterarguments are read, and remaining gaps are named."
+}
