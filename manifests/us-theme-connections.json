@@ -1197,6 +1197,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-payment-fee-redistribution/source-search-2026-09-11.md"
+    },
+    {
+      "id": "credit_record_visibility",
+      "evidence_check": {
+        "title": "A payment record can become a gate to a home",
+        "finding": "Linked Census and credit-bureau data show large differences in credit scores and serious delinquencies by race, class and hometown that emerge in young adulthood and persist. HBS reports that overdraft fees and unpaid balances can lead to account closure and a separate bank record.",
+        "meaning": "Working interpretation: a financial record can outlast the payment event and shape whether a person can borrow, rent or keep access to a bank account.",
+        "counterpoint": "Records can help lenders price risk and extend credit to people who would otherwise be unknown. More data can help some people and expose others to harsher sorting.",
+        "counterpoint_source": "https://www.nber.org/papers/w34053",
+        "limit": "The current sources do not identify every cause of group gaps or show that one record alone caused a later housing or credit decision.",
+        "source": "https://www.nber.org/papers/w34053",
+        "location": "NBER credit-access and eviction research, with HBS overdraft and fintech reporting. Checked 2026-09-11."
+      },
+      "project": "us-credit-record-visibility",
+      "title": "A payment record can become a gate to a home",
+      "summary": "Credit visibility can open or close access to loans, housing and bank accounts long after a payment problem.",
+      "question": "How does a financial record become a map of who can borrow or rent?",
+      "limit": "The opening packet shows persistent group differences and gatekeeping risks, not one proven cause for every gap.",
+      "subthemes": [
+        "Thin and damaged records",
+        "Fees, account closure and housing access"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-credit-record-visibility/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1546,6 +1571,13 @@
       "topics": ["payment_fee_redistribution", "price_perception", "money"],
       "meaning": "Follow a payment method into merchant fees, rewards and common prices, then ask which households carry the net cost.",
       "limit": "The current sources do not show the same household's full price, rewards, interest and shopping alternatives.",
+      "memo": null
+    },
+    {
+      "title": "When a payment record becomes a housing gate",
+      "topics": ["credit_record_visibility", "credit", "housing"],
+      "meaning": "Follow a late payment, overdraft or thin record into later credit access, then ask whether it changes where and how a household can live.",
+      "limit": "The current sources do not identify the same household's underlying event, gatekeeper decision and later housing result.",
       "memo": null
     }
   ],
@@ -2100,6 +2132,14 @@
       "to": "price_perception",
       "relation": "A merchant payment fee can enter the common price even when shoppers use different payment methods",
       "limit": "The current evidence does not show each household's actual price, reward and total payment cost.",
+      "type": "open"
+    },
+    {
+      "id": "link-70",
+      "from": "credit_record_visibility",
+      "to": "credit",
+      "relation": "A payment or account record can change what credit is available later",
+      "limit": "The current evidence does not show which later decision used the record or whether the underlying event was avoidable.",
       "type": "open"
     }
   ]

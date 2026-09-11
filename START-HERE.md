@@ -141,6 +141,8 @@ The next short pass is [US hidden fees and the price people can compare](analysi
 
 The next short pass is [US payment fees and who pays](analysis/projects/us-payment-fee-redistribution/README.md), with its [source search record](analysis/projects/us-payment-fee-redistribution/source-search-2026-09-11.md). It tests whether card rewards and merchant fees move money between shoppers through common prices.
 
+The next short pass is [US credit records and financial visibility](analysis/projects/us-credit-record-visibility/README.md), with its [source search record](analysis/projects/us-credit-record-visibility/source-search-2026-09-11.md). It tests how a payment record becomes a gate to credit, housing or a bank account.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

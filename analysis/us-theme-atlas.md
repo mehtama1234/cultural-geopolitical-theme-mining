@@ -540,6 +540,16 @@ Follow a payment method into merchant fees, rewards and common prices, then ask 
 
 Still missing: The current sources do not show the same household's full price, rewards, interest and shopping alternatives.
 
+### When a payment record becomes a housing gate
+
+Follow a late payment, overdraft or thin record into later credit access, then ask whether it changes where and how a household can live.
+
+1. [A payment record can become a gate to a home](#credit_record_visibility)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not identify the same household's underlying event, gatekeeper decision and later housing result.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -854,6 +864,7 @@ Connections:
 - Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: A student loan can follow a person into adult choices. The current sources use different products and do not compare the same household's repayment paths.
 - Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Removing medical debt can fix the record without fixing the illness. The current experiment does not show how the credit change affects housing, work or later household money.
 - Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: A temporary payment can become a long monthly bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
+- Question to test: A payment or account record can change what credit is available later. Related topic: A payment record can become a gate to a home. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
 
 ### A student loan can follow a person into adult choices
 
@@ -1905,6 +1916,41 @@ The current sources do not show the same place's current housing, wages, service
 Connections:
 
 - Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not show how housing, wages, public capacity and belonging change together.
+
+### A payment record can become a gate to a home
+
+Credit visibility can open or close access to loans, housing and bank accounts long after a payment problem.
+
+**Question:** How does a financial record become a map of who can borrow or rent?
+
+**Subthemes:** Thin and damaged records; Fees, account closure and housing access
+
+**Limit:** The opening packet shows persistent group differences and gatekeeping risks, not one proven cause for every gap.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Credit Access in the United States](https://www.nber.org/papers/w34053)
+- [Are Banks the Bad Guys? Overdraft Fees](https://www.library.hbs.edu/working-knowledge/are-banks-the-bad-guys-overdraft-fees-are-crushing-low-income-customers)
+- [Eviction and Poverty in American Cities](https://www.nber.org/papers/w30382)
+- [The Dark Side of Fintech Borrowing](https://www.library.hbs.edu/working-knowledge/the-dark-side-of-fintech-borrowing)
+
+#### Evidence check: A payment record can become a gate to a home
+
+Linked Census and credit-bureau data show large differences in credit scores and serious delinquencies by race, class and hometown that emerge in young adulthood and persist. HBS reports that overdraft fees and unpaid balances can lead to account closure and a separate bank record.
+
+Working interpretation: a financial record can outlast the payment event and shape whether a person can borrow, rent or keep access to a bank account.
+
+**Counterpoint:** Records can help lenders price risk and extend credit to people who would otherwise be unknown. More data can help some people and expose others to harsher sorting.
+[Related study](https://www.nber.org/papers/w34053)
+
+The current sources do not identify every cause of group gaps or show that one record alone caused a later housing or credit decision.
+
+[NBER credit-access and eviction research, with HBS overdraft and fintech reporting. Checked 2026-09-11.](https://www.nber.org/papers/w34053)
+
+
+Connections:
+
+- Question to test: A payment or account record can change what credit is available later. Related topic: Credit can be a bridge and a later bill. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
 
 ## Who controls the work and gets the gain
 

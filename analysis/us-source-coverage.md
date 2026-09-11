@@ -1,8 +1,8 @@
 # US source coverage
 
-49 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+50 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 44; HHS: 2; IEA: 1; IMF: 1; NBER: 81; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 46; HHS: 2; IEA: 1; IMF: 1; NBER: 83; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -304,6 +304,31 @@
 - whether people respond to actual costs or to expected future costs.
 
 [Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-11.md)
+
+## US credit records and financial visibility
+
+**Project:** `us-credit-record-visibility`
+
+**Status:** opening pass; record differences and gatekeeping are visible, causes and later housing effects remain open
+
+**Question:** How does a financial record become a map of who can borrow, rent or keep a bank account?
+
+**Sources recorded:** 4
+
+- [Credit Access in the United States](https://www.nber.org/papers/w34053)
+- [Are Banks the Bad Guys? Overdraft Fees](https://www.library.hbs.edu/working-knowledge/are-banks-the-bad-guys-overdraft-fees-are-crushing-low-income-customers)
+- [Eviction and Poverty in American Cities](https://www.nber.org/papers/w30382)
+- [The Dark Side of Fintech Borrowing](https://www.library.hbs.edu/working-knowledge/the-dark-side-of-fintech-borrowing)
+
+**Open gaps:**
+- thin-file and no-file households;
+- which bills are reported and when;
+- lender, landlord and bank use of the record;
+- fees, interest and alternative products after denial;
+- housing, work and account outcomes over time;
+- differences by race, class, age, disability and place.
+
+[Open the source-search record](projects/us-credit-record-visibility/source-search-2026-09-11.md)
 
 ## US customer service, automation, and the right to reach a person
 
