@@ -1022,6 +1022,31 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-cash-aid-household-structure/source-search-2026-09-11.md"
+    },
+    {
+      "id": "policy_sentiment_cash",
+      "evidence_check": {
+        "title": "A lost benefit can change how families read the economy",
+        "finding": "An NBER study of the 2021 Child Tax Credit expiration estimates that each $1,000 in lost benefits reduced consumer sentiment by 1.7 points, with larger effects among lower-income families with multiple children; the effect persisted nearly two years.",
+        "meaning": "Working interpretation: public policy can shape economic mood through a household's own lost room, not only through prices, interest rates or jobs.",
+        "counterpoint": "Lower sentiment is not a changed vote or loss of trust. People may simply report feeling worse after a real income loss while keeping their work and longer plans unchanged.",
+        "counterpoint_source": "https://www.nber.org/papers/w35059",
+        "limit": "The current evidence does not connect the sentiment change to the same households' spending, trust, turnout or vote.",
+        "source": "https://www.nber.org/papers/w35059",
+        "location": "NBER Child Tax Credit sentiment study, housing study and HBS cash-and-control reporting. Checked 2026-09-11."
+      },
+      "project": "us-policy-sentiment-cash-benefit",
+      "title": "A lost benefit can change how families read the economy",
+      "summary": "A visible change in household cash can move public mood before it can be shown to change political behavior.",
+      "question": "Can the loss of a household benefit change how people read the economy?",
+      "limit": "The opening packet measures sentiment, not a changed vote, trust judgment or spending path.",
+      "subthemes": [
+        "Policy loss and sentiment",
+        "Household experience and public judgment"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-policy-sentiment-cash-benefit/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1322,6 +1347,13 @@
       "topics": ["cash_aid_household_structure", "housing"],
       "meaning": "Follow regular cash into rent or mortgage arrears and who lives together, then ask whether the added room lasts after the payment ends.",
       "limit": "The current sources do not show that a smaller or changed household is safer or better for every family.",
+      "memo": null
+    },
+    {
+      "title": "When a benefit loss changes the public mood",
+      "topics": ["policy_sentiment_cash", "aid", "politics"],
+      "meaning": "Follow a household benefit from cash loss into consumer sentiment, then ask whether trust, blame or voting changes later.",
+      "limit": "The current study measures sentiment and does not establish the later political step.",
       "memo": null
     }
   ],
@@ -1820,6 +1852,14 @@
       "to": "housing",
       "relation": "Regular cash can change whether a household can stay, move or live more independently",
       "limit": "The current evidence does not show whether the new arrangement is safer, lasting or better for every family.",
+      "type": "open"
+    },
+    {
+      "id": "link-63",
+      "from": "policy_sentiment_cash",
+      "to": "aid",
+      "relation": "A benefit change can become part of how households judge the policy and the economy",
+      "limit": "The current sentiment result does not show a later change in trust, turnout or vote.",
       "type": "open"
     }
   ]

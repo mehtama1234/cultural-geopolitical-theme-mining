@@ -470,6 +470,16 @@ Follow regular cash into rent or mortgage arrears and who lives together, then a
 
 Still missing: The current sources do not show that a smaller or changed household is safer or better for every family.
 
+### When a benefit loss changes the public mood
+
+Follow a household benefit from cash loss into consumer sentiment, then ask whether trust, blame or voting changes later.
+
+1. [A lost benefit can change how families read the economy](#policy_sentiment_cash)
+2. [Help can exist but be hard to keep](#aid)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current study measures sentiment and does not establish the later political step.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1471,6 +1481,7 @@ Connections:
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a participation change.
 - Question to test: The form and timing of public help may change how a household uses the program. Related topic: The form of public help changes what families buy. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: More work does not always mean more room. The current evidence does not show the same family's total resources after benefit loss and added pay.
+- Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: A lost benefit can change how families read the economy. The current sentiment result does not show a later change in trust, turnout or vote.
 
 ### A payment problem can become a recovery problem
 
@@ -1622,6 +1633,40 @@ The current sources do not follow the same family's earnings, benefits, necessar
 Connections:
 
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: Help can exist but be hard to keep. The current evidence does not show the same family's total resources after benefit loss and added pay.
+
+### A lost benefit can change how families read the economy
+
+A visible change in household cash can move public mood before it can be shown to change political behavior.
+
+**Question:** Can the loss of a household benefit change how people read the economy?
+
+**Subthemes:** Policy loss and sentiment; Household experience and public judgment
+
+**Limit:** The opening packet measures sentiment, not a changed vote, trust judgment or spending path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [When Policy Shapes Perception](https://www.nber.org/papers/w35059)
+- [The 2021 Child Tax Credit, Living Arrangements and Housing Affordability](https://www.nber.org/papers/w31339)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+#### Evidence check: A lost benefit can change how families read the economy
+
+An NBER study of the 2021 Child Tax Credit expiration estimates that each $1,000 in lost benefits reduced consumer sentiment by 1.7 points, with larger effects among lower-income families with multiple children; the effect persisted nearly two years.
+
+Working interpretation: public policy can shape economic mood through a household's own lost room, not only through prices, interest rates or jobs.
+
+**Counterpoint:** Lower sentiment is not a changed vote or loss of trust. People may simply report feeling worse after a real income loss while keeping their work and longer plans unchanged.
+[Related study](https://www.nber.org/papers/w35059)
+
+The current evidence does not connect the sentiment change to the same households' spending, trust, turnout or vote.
+
+[NBER Child Tax Credit sentiment study, housing study and HBS cash-and-control reporting. Checked 2026-09-11.](https://www.nber.org/papers/w35059)
+
+
+Connections:
+
+- Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: Help can exist but be hard to keep. The current sentiment result does not show a later change in trust, turnout or vote.
 
 ## Who controls the work and gets the gain
 

@@ -1,8 +1,8 @@
 # US source coverage
 
-42 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+43 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 35; HHS: 2; IEA: 1; IMF: 1; NBER: 65; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 36; HHS: 2; IEA: 1; IMF: 1; NBER: 67; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -812,6 +812,30 @@
 - whether family education spending changes later business entry.
 
 [Open the source-search record](projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md)
+
+## US cash policy and public mood
+
+**Project:** `us-policy-sentiment-cash-benefit`
+
+**Status:** opening pass; policy and sentiment link is supported, political behavior remains open
+
+**Question:** Can the loss of a household benefit change how people read the economy?
+
+**Sources recorded:** 3
+
+- [When Policy Shapes Perception](https://www.nber.org/papers/w35059)
+- [The 2021 Child Tax Credit, Living Arrangements and Housing Affordability](https://www.nber.org/papers/w31339)
+- [More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+
+**Open gaps:**
+- actual spending and saving after benefit loss;
+- trust in government and perceived fairness;
+- news, party identity and local economic conditions;
+- vote choice, turnout and political contact;
+- effects after the initial loss fades;
+- differences by income, family size, race and state.
+
+[Open the source-search record](projects/us-policy-sentiment-cash-benefit/source-search-2026-09-11.md)
 
 ## US privacy rules and the decision to share
 
