@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a work benefit changes the household balance sheet
+
+Follow automatic saving from the workplace into the household's account and debt position, then ask whether the job gives people more security or less room today.
+
+1. [Automatic saving can grow an account and a credit-card balance](#auto_ira_household_balance_sheets)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same worker through take-home pay, spending, credit-card repayment and later retirement security.
+
 ### When a record starts making the future
 
 Follow a score change into the record a lender sees, then into housing access. The test is whether a paper signal adds a real cost before a new household failure occurs.
@@ -989,6 +999,7 @@ Connections:
 - Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: People may hear the same economic message differently by party. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
 - Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: Future public debt can change what households expect before taxes change. The current evidence does not show the same household's budget response or realized future policy.
 - Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: A fee rule can help people with cash more than people without it. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
+- Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show the same household's take-home pay, spending, debt cost or later security.
 
 ### Keeping a home also means paying to protect it
 
@@ -2849,6 +2860,7 @@ Connections:
 - Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: Average income can hide an unsafe month. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
 - Question to test: A housing break can make reaching and keeping work harder. Related topic: Keeping a home also means paying to protect it. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 - Question to test: Where work happens can change the household tasks and shopping costs attached to the job. Related topic: Working from home can change what a household buys and pays. The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.
+- Question to test: A workplace saving rule changes the financial meaning of a job even when the wage does not change. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show whether workers value the added saving enough to change job choice, retention or effort.
 
 ### Fit can decide who gets heard at work
 
@@ -3158,6 +3170,39 @@ Connections:
 
 - Question to test: A recovery loan may change which side of an owner's shared cash pool absorbs the disaster. Related topic: A small business and its household can share one cash pool. The current sources do not follow the same owner, firm and household through the loan and later choices.
 - Comparison: The size rule decides which firms can reach the public support that may keep them alive after a shock. Related topic: A bigger small-business rule can squeeze the smallest firms. The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.
+
+### Automatic saving can grow an account and a credit-card balance
+
+A state workplace-saving rule can increase account ownership and balances while also raising credit-card debt.
+
+**Question:** Does automatic saving create a buffer, or does it move short-term pressure into another account?
+
+**Subthemes:** Workplace saving; Savings and short-term debt
+
+**Limit:** The opening study measures balance-sheet changes, not the full tradeoff between current room and later security.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [How Do State “Auto-IRA” Policies Affect Household Balance Sheets?](https://www.nber.org/papers/w35373)
+
+#### Evidence check: Automatic saving can grow an account and a credit-card balance
+
+An NBER comparison of private-sector workers likely exposed to Oregon's automatic-enrollment IRA with workers in states that had not adopted one finds increases in checking or savings account ownership and balances, along with higher credit-card debt.
+
+Working interpretation: a workplace saving rule can strengthen one part of a household balance sheet while adding pressure somewhere else. Account growth alone does not tell us whether the household has more room.
+
+**Counterpoint:** Credit-card debt is not automatically a loss if new savings are more liquid, replace a costlier loan, or help a person handle a shock. Automatic saving may reach workers who would not open an account on their own.
+[Related study](https://www.nber.org/papers/w35373)
+
+The opening evidence does not show whether the added savings are liquid, why debt rose, how take-home pay changed, or whether retirement security improved later.
+
+[Bloomfield, Dao, Lee and Slavov, How Do State Auto-IRA Policies Affect Household Balance Sheets?, NBER Working Paper 35373, checked 2026-09-11.](https://www.nber.org/papers/w35373)
+
+
+Connections:
+
+- Question to test: A workplace saving rule changes the financial meaning of a job even when the wage does not change. Related topic: The same job can contain different AI access. The current study does not show whether workers value the added saving enough to change job choice, retention or effort.
+- Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: The price on the screen is only part of the cost. The current study does not show the same household's take-home pay, spending, debt cost or later security.
 
 ## A home can be costly to heat before anything else changes
 

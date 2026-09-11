@@ -1,8 +1,8 @@
 # US source coverage
 
-69 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+70 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 116; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 117; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -102,6 +102,28 @@
 - updates that change the app's personality or relationship.
 
 [Open the source-search record](projects/us-ai-emotional-support-apps/source-search-2026-09-11.md)
+
+## US Auto-IRA and household balance sheets
+
+**Project:** `us-auto-ira-household-balance-sheets`
+
+**Status:** opening pass; state policy exposure and balance-sheet changes are measured, longer-run security remains open
+
+**Question:** When a state makes saving automatic, does a household gain a real buffer or just move money while adding another debt?
+
+**Sources recorded:** 1
+
+- [How Do State “Auto-IRA” Policies Affect Household Balance Sheets?](https://www.nber.org/papers/w35373)
+
+**Open gaps:**
+- contribution size and withdrawal behavior;
+- liquid savings versus retirement-only money;
+- take-home pay and consumption;
+- interest paid and credit limits;
+- effects by income, age, race and job type;
+- retirement outcomes after several years.
+
+[Open the source-search record](projects/us-auto-ira-household-balance-sheets/source-search-2026-09-11.md)
 
 ## US bank customers and the cost of staying put
 

@@ -1643,9 +1643,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-self-fulfilling-credit-scores/source-search-2026-09-11.md"
+    },
+    {
+      "id": "auto_ira_household_balance_sheets",
+      "evidence_check": {
+        "title": "Automatic saving can grow an account and a credit-card balance",
+        "finding": "An NBER comparison of private-sector workers likely exposed to Oregon's automatic-enrollment IRA with workers in states that had not adopted one finds increases in checking or savings account ownership and balances, along with higher credit-card debt.",
+        "meaning": "Working interpretation: a workplace saving rule can strengthen one part of a household balance sheet while adding pressure somewhere else. Account growth alone does not tell us whether the household has more room.",
+        "counterpoint": "Credit-card debt is not automatically a loss if new savings are more liquid, replace a costlier loan, or help a person handle a shock. Automatic saving may reach workers who would not open an account on their own.",
+        "counterpoint_source": "https://www.nber.org/papers/w35373",
+        "limit": "The opening evidence does not show whether the added savings are liquid, why debt rose, how take-home pay changed, or whether retirement security improved later.",
+        "source": "https://www.nber.org/papers/w35373",
+        "location": "Bloomfield, Dao, Lee and Slavov, How Do State Auto-IRA Policies Affect Household Balance Sheets?, NBER Working Paper 35373, checked 2026-09-11."
+      },
+      "project": "us-auto-ira-household-balance-sheets",
+      "title": "Automatic saving can grow an account and a credit-card balance",
+      "summary": "A state workplace-saving rule can increase account ownership and balances while also raising credit-card debt.",
+      "question": "Does automatic saving create a buffer, or does it move short-term pressure into another account?",
+      "limit": "The opening study measures balance-sheet changes, not the full tradeoff between current room and later security.",
+      "subthemes": ["Workplace saving", "Savings and short-term debt"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-auto-ira-household-balance-sheets/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a work benefit changes the household balance sheet",
+      "topics": ["auto_ira_household_balance_sheets", "work", "money"],
+      "meaning": "Follow automatic saving from the workplace into the household's account and debt position, then ask whether the job gives people more security or less room today.",
+      "limit": "The current sources do not follow the same worker through take-home pay, spending, credit-card repayment and later retirement security.",
+      "memo": null
+    },
     {
       "title": "When a record starts making the future",
       "topics": ["self_fulfilling_credit_scores", "credit_record_visibility", "housing"],
@@ -2973,6 +3002,22 @@
       "to": "housing",
       "relation": "A credit record can change access to housing and the terms attached to keeping it",
       "limit": "The current evidence shows that records may be used in housing decisions but does not follow one person's later rent, mortgage or move outcome.",
+      "type": "open"
+    },
+    {
+      "id": "link-105",
+      "from": "auto_ira_household_balance_sheets",
+      "to": "work",
+      "relation": "A workplace saving rule changes the financial meaning of a job even when the wage does not change",
+      "limit": "The current study does not show whether workers value the added saving enough to change job choice, retention or effort.",
+      "type": "open"
+    },
+    {
+      "id": "link-106",
+      "from": "auto_ira_household_balance_sheets",
+      "to": "money",
+      "relation": "Automatic saving can change current household room while building a longer-term account",
+      "limit": "The current study does not show the same household's take-home pay, spending, debt cost or later security.",
       "type": "open"
     }
   ]
