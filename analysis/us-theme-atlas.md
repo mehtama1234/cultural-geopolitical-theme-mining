@@ -684,6 +684,16 @@ Follow an uncertain debt promise into payments and spending, then ask whether ho
 
 Still missing: The study measures beliefs, payments and selected spending; it does not show the same borrower's full housing or family path.
 
+### When the price message depends on who says it
+
+Follow perceived political alignment into trust in the economic message, then ask whether personal money choices or public judgments change.
+
+1. [People may hear the same economic message differently by party](#fed_partisan_trust)
+2. [Personal finances and national mood can move apart](#politics)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The Fed studies measure trust and inflation beliefs; the broader household and political path remains untested.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -914,6 +924,7 @@ Connections:
 - Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: Staying with one bank can carry a quiet cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
 - Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: Working from home can change what a household buys and pays. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
 - Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: A power outage can turn payment choice into a basic access problem. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
+- Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: People may hear the same economic message differently by party. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
 
 ### Keeping a home also means paying to protect it
 
@@ -1971,6 +1982,7 @@ Connections:
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: A quicker reply may still leave a problem open. No direct evidence of that chain in the current packet.
 - Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Help can exist but be hard to keep. No current source measures a change in trust, blame or voting after a participation change.
 - Question to test: Repeated failure to recover a loss may become a demand for public protection. Related topic: A payment problem can become a recovery problem. No current source measures a change in trust, blame or voting after a fraud response.
+- Question to test: Perceived party alignment can change whether an economic institution is heard as neutral or partisan. Related topic: People may hear the same economic message differently by party. The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.
 
 ### Help can exist but be hard to keep
 
@@ -2366,6 +2378,40 @@ The study does not show how beliefs formed outside the experiment, which househo
 Connections:
 
 - Question to test: Uncertain forgiveness or payment rules can change how a borrower carries student debt before the balance changes. Related topic: A student loan can follow a person into adult choices. The current study identifies payment and spending responses but does not show the borrower's full later debt and housing path.
+
+### People may hear the same economic message differently by party
+
+Perceived political alignment can change trust in the Fed and how much weight households give its inflation message.
+
+**Question:** When does an economic message become a test of who people think is on their side?
+
+**Subthemes:** Institutional trust and political identity; Economic messages and belief
+
+**Limit:** The opening evidence measures trust and belief updates, not later spending, voting or policy demand.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Perceived Political Bias of the Federal Reserve](https://www.nber.org/papers/w33071)
+- [Partisan Trust in the Federal Reserve](https://www.nber.org/papers/w33684)
+
+#### Evidence check: People may hear the same economic message differently by party
+
+NBER's survey experiment with 5,205 US consumers finds that people who see the Federal Reserve as politically aligned with them report more trust, are more likely to receive or pay for its communications, and give its messages more weight when updating inflation expectations. The study finds strong in-group effects, while overall trust can stay steady as its partisan composition changes.
+
+Working interpretation: public trust is not only a view of whether prices are rising. It also affects whether people accept the institution's explanation of what happens next.
+
+**Counterpoint:** Trust and belief responses in a survey do not show actual spending, borrowing or voting. People may judge the Fed through the president, tariffs, personal finances or media rather than the institution's own message.
+[Related study](https://www.nber.org/papers/w33684)
+
+The opening evidence does not show whether a change in trust changes household action or how durable the communication effect is outside an experiment.
+
+[Kuang, Weber and Xie, Perceived Political Bias of the Federal Reserve, NBER Working Paper 33071; Binder, Couture and Smit, Partisan Trust in the Federal Reserve, NBER Working Paper 33684. Checked 2026-09-11.](https://www.nber.org/papers/w33071)
+
+
+Connections:
+
+- Question to test: Perceived party alignment can change whether an economic institution is heard as neutral or partisan. Related topic: Personal finances and national mood can move apart. The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.
+- Question to test: Trust in an economic message may change how households interpret the money conditions they face. Related topic: The price on the screen is only part of the cost. The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.
 
 ## Who controls the work and gets the gain
 

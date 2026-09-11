@@ -1,8 +1,8 @@
 # US source coverage
 
-62 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+63 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 103; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 105; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -576,6 +576,29 @@
 - households without a person able to help.
 
 [Open the source-search record](projects/us-family-support-hidden-safety-net/source-search-2026-09-11.md)
+
+## US trust in the Federal Reserve
+
+**Project:** `us-fed-partisan-trust`
+
+**Status:** opening pass; trust and belief effects are measured, later action remains open
+
+**Question:** When does an economic message become a test of who people think is on their side?
+
+**Sources recorded:** 2
+
+- [Perceived Political Bias of the Federal Reserve](https://www.nber.org/papers/w33071)
+- [Partisan Trust in the Federal Reserve](https://www.nber.org/papers/w33684)
+
+**Open gaps:**
+- actual household prices and income;
+- message source, media and repetition;
+- trust before and after a policy change;
+- spending, saving and borrowing records;
+- voting, turnout and policy demand;
+- differences by party, age, race, income, place and education.
+
+[Open the source-search record](projects/us-fed-partisan-trust/source-search-2026-09-11.md)
 
 ## US food, the household budget, and basic security
 

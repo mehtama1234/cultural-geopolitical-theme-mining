@@ -1489,6 +1489,28 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-student-loan-policy-uncertainty/source-search-2026-09-11.md"
+    },
+    {
+      "id": "fed_partisan_trust",
+      "evidence_check": {
+        "title": "People may hear the same economic message differently by party",
+        "finding": "NBER's survey experiment with 5,205 US consumers finds that people who see the Federal Reserve as politically aligned with them report more trust, are more likely to receive or pay for its communications, and give its messages more weight when updating inflation expectations. The study finds strong in-group effects, while overall trust can stay steady as its partisan composition changes.",
+        "meaning": "Working interpretation: public trust is not only a view of whether prices are rising. It also affects whether people accept the institution's explanation of what happens next.",
+        "counterpoint": "Trust and belief responses in a survey do not show actual spending, borrowing or voting. People may judge the Fed through the president, tariffs, personal finances or media rather than the institution's own message.",
+        "counterpoint_source": "https://www.nber.org/papers/w33684",
+        "limit": "The opening evidence does not show whether a change in trust changes household action or how durable the communication effect is outside an experiment.",
+        "source": "https://www.nber.org/papers/w33071",
+        "location": "Kuang, Weber and Xie, Perceived Political Bias of the Federal Reserve, NBER Working Paper 33071; Binder, Couture and Smit, Partisan Trust in the Federal Reserve, NBER Working Paper 33684. Checked 2026-09-11."
+      },
+      "project": "us-fed-partisan-trust",
+      "title": "People may hear the same economic message differently by party",
+      "summary": "Perceived political alignment can change trust in the Fed and how much weight households give its inflation message.",
+      "question": "When does an economic message become a test of who people think is on their side?",
+      "limit": "The opening evidence measures trust and belief updates, not later spending, voting or policy demand.",
+      "subthemes": ["Institutional trust and political identity", "Economic messages and belief"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-fed-partisan-trust/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1936,6 +1958,13 @@
       "topics": ["student_loan_policy_uncertainty", "student_debt", "housing"],
       "meaning": "Follow an uncertain debt promise into payments and spending, then ask whether housing and other adult choices change before the policy is settled.",
       "limit": "The study measures beliefs, payments and selected spending; it does not show the same borrower's full housing or family path.",
+      "memo": null
+    },
+    {
+      "title": "When the price message depends on who says it",
+      "topics": ["fed_partisan_trust", "politics", "money"],
+      "meaning": "Follow perceived political alignment into trust in the economic message, then ask whether personal money choices or public judgments change.",
+      "limit": "The Fed studies measure trust and inflation beliefs; the broader household and political path remains untested.",
       "memo": null
     }
   ],
@@ -2650,6 +2679,22 @@
       "to": "student_debt",
       "relation": "Uncertain forgiveness or payment rules can change how a borrower carries student debt before the balance changes",
       "limit": "The current study identifies payment and spending responses but does not show the borrower's full later debt and housing path.",
+      "type": "open"
+    },
+    {
+      "id": "link-90",
+      "from": "fed_partisan_trust",
+      "to": "politics",
+      "relation": "Perceived party alignment can change whether an economic institution is heard as neutral or partisan",
+      "limit": "The current survey evidence does not show whether trust changes voting, policy demand or behavior outside the experiment.",
+      "type": "open"
+    },
+    {
+      "id": "link-91",
+      "from": "fed_partisan_trust",
+      "to": "money",
+      "relation": "Trust in an economic message may change how households interpret the money conditions they face",
+      "limit": "The current evidence measures inflation beliefs and communication response, not actual spending, saving or borrowing.",
       "type": "open"
     }
   ]
