@@ -1865,6 +1865,28 @@
       "source_record": "analysis/projects/us-platform-data-neutrality/source-search-2026-09-11.md"
     },
     {
+      "id": "platform_owned_products_choice",
+      "evidence_check": {
+        "title": "A platform-owned product can help some customers and still raise competition concerns",
+        "finding": "In a field experiment that hid Amazon-owned brands from shoppers, an NBER study finds that customers chose similar products without more search or cross-platform switching. Some customers preferred Amazon brands, and removing them reduced estimated consumer welfare by 5.5%. Moving the brands lower in search did not raise welfare because prominent placement was valuable to some customers.",
+        "meaning": "Working interpretation: platform control can create a real conflict while the platform's own product still fits some customers better. Short-run customer benefit and long-run seller competition need separate tests.",
+        "counterpoint": "Self-preferencing can make it harder for outside sellers to grow even when some customers like the platform product. A field result in one product setting does not settle the wider market effect.",
+        "counterpoint_source": "https://www.nber.org/papers/w34135",
+        "limit": "The opening study does not show long-run seller entry, prices, platform investment, or whether the result carries to other product groups and platforms.",
+        "source": "https://www.nber.org/papers/w34135",
+        "location": "Farronato, Fradkin and MacKay, Vertical Integration and Consumer Choice: Evidence from a Field Experiment, NBER Working Paper 34135, checked 2026-09-11."
+      },
+      "project": "us-platform-owned-products-choice",
+      "title": "A platform-owned product can help some customers and still raise competition concerns",
+      "summary": "A platform-owned product can serve a real customer preference while the platform's control over search remains a competition question.",
+      "question": "When does a platform's own product help customers, and when does it close the market?",
+      "limit": "The opening study measures short-run choice and estimated welfare in one platform setting, not long-run competition.",
+      "subthemes": ["Search placement and customer fit", "Short-run benefit and long-run competition"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-platform-owned-products-choice/source-search-2026-09-11.md"
+    },
+    {
       "id": "time_intensive_platform_consumption",
       "evidence_check": {
         "title": "A free service can have time as its real price",
@@ -1932,6 +1954,13 @@
     }
   ],
   "reading_paths": [
+    {
+      "title": "When the platform is both store and seller",
+      "topics": ["platform_owned_products_choice", "platform_data_neutrality", "service"],
+      "meaning": "Follow a platform's own product through search and data control into the service customers receive. Ask whether convenience today weakens choice tomorrow.",
+      "limit": "The current studies use different platform settings and do not follow the same customer through product choice, data access, prices and long-run competition.",
+      "memo": null
+    },
     {
       "title": "When competition protects some customers first",
       "topics": ["consumer_discrimination_competition", "service", "politics"],
@@ -3558,6 +3587,22 @@
       "to": "price_perception",
       "relation": "A group-specific price can become part of how customers understand fairness in a market",
       "limit": "The current evidence does not measure each customer's price awareness, blame or later action.",
+      "type": "open"
+    },
+    {
+      "id": "link-133",
+      "from": "platform_owned_products_choice",
+      "to": "platform_data_neutrality",
+      "relation": "A platform that sells its own product also controls the data and search conditions outside sellers need",
+      "limit": "The current studies examine product placement and data rules separately and do not show their joint effect.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-134",
+      "from": "platform_owned_products_choice",
+      "to": "service",
+      "relation": "A platform-owned product can change the choices and service fit customers see at search",
+      "limit": "The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.",
       "type": "open"
     }
   ]

@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When the platform is both store and seller
+
+Follow a platform's own product through search and data control into the service customers receive. Ask whether convenience today weakens choice tomorrow.
+
+1. [A platform-owned product can help some customers and still raise competition concerns](#platform_owned_products_choice)
+2. [Equal data access can open competition and reduce data investment](#platform_data_neutrality)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current studies use different platform settings and do not follow the same customer through product choice, data access, prices and long-run competition.
+
 ### When competition protects some customers first
 
 Follow customer power and firm competition into service and price, then ask when unequal treatment becomes a public demand for rules or enforcement.
@@ -2530,6 +2540,7 @@ Connections:
 - Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: Equal data access can open competition and reduce data investment. The current model does not show actual service quality, prices or customer welfare in a US market.
 - Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A free service can have time as its real price. The current study measures ad load and substitution, not the full quality or value of the service.
 - Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: Competition can protect the customers most able to leave. The historical study measures treatment and prices but does not show today's service quality or switching path.
+- Question to test: A platform-owned product can change the choices and service fit customers see at search. Related topic: A platform-owned product can help some customers and still raise competition concerns. The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.
 
 ### More work does not always mean more room
 
@@ -3139,6 +3150,40 @@ Connections:
 
 - Question to test: A rule about data access can change what customers think they are exchanging for a service. Related topic: Privacy rules can make people more willing to share. The current model does not measure customer trust, sharing or privacy choices on a real platform.
 - Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: A quicker reply may still leave a problem open. The current model does not show actual service quality, prices or customer welfare in a US market.
+- Comparison: A platform that sells its own product also controls the data and search conditions outside sellers need. Related topic: A platform-owned product can help some customers and still raise competition concerns. The current studies examine product placement and data rules separately and do not show their joint effect.
+
+### A platform-owned product can help some customers and still raise competition concerns
+
+A platform-owned product can serve a real customer preference while the platform's control over search remains a competition question.
+
+**Question:** When does a platform's own product help customers, and when does it close the market?
+
+**Subthemes:** Search placement and customer fit; Short-run benefit and long-run competition
+
+**Limit:** The opening study measures short-run choice and estimated welfare in one platform setting, not long-run competition.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
+
+#### Evidence check: A platform-owned product can help some customers and still raise competition concerns
+
+In a field experiment that hid Amazon-owned brands from shoppers, an NBER study finds that customers chose similar products without more search or cross-platform switching. Some customers preferred Amazon brands, and removing them reduced estimated consumer welfare by 5.5%. Moving the brands lower in search did not raise welfare because prominent placement was valuable to some customers.
+
+Working interpretation: platform control can create a real conflict while the platform's own product still fits some customers better. Short-run customer benefit and long-run seller competition need separate tests.
+
+**Counterpoint:** Self-preferencing can make it harder for outside sellers to grow even when some customers like the platform product. A field result in one product setting does not settle the wider market effect.
+[Related study](https://www.nber.org/papers/w34135)
+
+The opening study does not show long-run seller entry, prices, platform investment, or whether the result carries to other product groups and platforms.
+
+[Farronato, Fradkin and MacKay, Vertical Integration and Consumer Choice: Evidence from a Field Experiment, NBER Working Paper 34135, checked 2026-09-11.](https://www.nber.org/papers/w34135)
+
+
+Connections:
+
+- Comparison: A platform that sells its own product also controls the data and search conditions outside sellers need. Related topic: Equal data access can open competition and reduce data investment. The current studies examine product placement and data rules separately and do not show their joint effect.
+- Question to test: A platform-owned product can change the choices and service fit customers see at search. Related topic: A quicker reply may still leave a problem open. The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.
 
 ### Competition can protect the customers most able to leave
 

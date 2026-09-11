@@ -1,8 +1,8 @@
 # US source coverage
 
-82 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+83 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 129; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 130; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1414,6 +1414,28 @@
 - enforcement and political power.
 
 [Open the source-search record](projects/us-platform-data-neutrality/source-search-2026-09-11.md)
+
+## US platform-owned products and customer choice
+
+**Project:** `us-platform-owned-products-choice`
+
+**Status:** opening pass; platform-owned product availability and customer welfare are measured, long-run competition remains open
+
+**Question:** When a platform sells its own products beside outside sellers, does its control over placement help customers or steer them unfairly?
+
+**Sources recorded:** 1
+
+- [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
+
+**Open gaps:**
+- seller entry and exit;
+- prices and product quality over time;
+- search ranking and sponsored placement;
+- customer groups and repeat purchases;
+- platform investment and data use;
+- results across platforms and product types.
+
+[Open the source-search record](projects/us-platform-owned-products-choice/source-search-2026-09-11.md)
 
 ## US cash policy and public mood
 
