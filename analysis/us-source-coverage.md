@@ -1,8 +1,8 @@
 # US source coverage
 
-12 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+13 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 6; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 11; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 18; Other government: 3; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 6; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 11; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 26; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -359,3 +359,28 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US safety-net access, work rules, and the price of help
+
+**Project:** `us-safety-net-access`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When food or cash is tight, does a safety-net rule move people toward work or mainly make help harder to keep?
+
+**Sources recorded:** 5
+
+- [NBER: Employed in a SNAP?](https://www.nber.org/papers/w28877)
+- [NBER: SNAP work requirements for parents](https://www.nber.org/papers/w32441)
+- [NBER: SNAP office access and participation](https://www.nber.org/papers/w34529)
+- [USDA SNAP statistics and research](https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research)
+- [GAO food-insecure college students and SNAP](https://www.gao.gov/products/gao-24-107074)
+
+**Open gaps:**
+- benefit loss and food outcomes for the same person or household;
+- earnings, hours, commute and care demands after a work rule;
+- office distance, online access, language, disability and renewal burden;
+- state differences in eligibility, benefit size and administrative practice;
+- political response beyond participation and complaints.
+
+[Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)

@@ -102,6 +102,16 @@ Still missing: The current sources use different households and time windows; th
 
 [Read the complete connected memo](../site/us-food-budget-path-001.html)
 
+### When help disappears before the need does
+
+Follow food need through the rules and practical work of keeping public help, then ask whether employment actually changes.
+
+1. [Food is where a money problem becomes a daily condition](#food)
+2. [Help can exist but be hard to keep](#aid)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The current studies do not follow the same household from program loss to food, debt or work outcomes.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -267,6 +277,7 @@ Connections:
 
 - Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: The price on the screen is only part of the cost. The current surveys do not show which bill was paid or delayed before the food outcome.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: People can pay the bills by giving up care. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
+- Comparison: Public food help can change how much room remains in the household budget. Related topic: Help can exist but be hard to keep. The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.
 
 ### People can pay the bills by giving up care
 
@@ -415,6 +426,45 @@ Connections:
 - Question to test: Financial pressure might change whom people blame. Related topic: The price on the screen is only part of the cost. Compare changes within the same people and account for party identity.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: People can pay the bills by giving up care. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: A quicker reply may still leave a problem open. No direct evidence of that chain in the current packet.
+- Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Help can exist but be hard to keep. No current source measures a change in trust, blame or voting after a participation change.
+
+### Help can exist but be hard to keep
+
+Rules, renewal work and office distance can decide whether support reaches a household, even when the need remains.
+
+**Question:** What makes help disappear before the need does?
+
+**Subthemes:** Work requirements; Administrative access
+
+**Limit:** The opening evidence shows participation and employment changes, not the full food or household outcome.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Employed in a SNAP?](https://www.nber.org/papers/w28877)
+- [NBER: SNAP work requirements for parents](https://www.nber.org/papers/w32441)
+- [NBER: SNAP office access and participation](https://www.nber.org/papers/w34529)
+- [USDA SNAP statistics and research](https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research)
+- [GAO food-insecure college students and SNAP](https://www.gao.gov/products/gao-24-107074)
+
+#### Evidence check: Losing help does not necessarily mean finding work
+
+Two NBER studies using linked administrative data found that SNAP work requirements increased program exits but did not increase employment in the studied settings. A separate study found that closing a SNAP enrollment office reduced participation in nearby census tracts by 7–9% over two years.
+
+Working interpretation: the rule or route to help can change the household's food support before it changes the household's work. Measure program exit and employment as separate outcomes.
+
+**Counterpoint:** Work rules are intended to encourage employment, and some people leave a program because their circumstances improve. The current studies are causal in their settings but do not show that every rule has the same effect.
+[Related study](https://www.nber.org/papers/w28877)
+
+The studies use defined policy settings and administrative measures. They do not yet show the same household's food, debt or health outcome after losing access.
+
+[Cook and East, revised 2025 working paper; related NBER work on work requirements and office access. Checked 2026-09-11.](https://www.nber.org/papers/w32441)
+
+
+Connections:
+
+- Comparison: Public food help can change how much room remains in the household budget. Related topic: Food is where a money problem becomes a daily condition. The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.
+- Question to test: A program rule can remove food support without increasing paid work. Related topic: The same job can contain different AI access. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
+- Question to test: The experience of reaching or losing help may shape views of public institutions. Related topic: Personal finances and national mood can move apart. No current source measures a change in trust, blame or voting after a participation change.
 
 ### Business counts do not tell us who belongs to a place
 
@@ -562,6 +612,7 @@ Connections:
 
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: A quicker reply may still leave a problem open. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: A useful app can still make leaving difficult. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
+- Question to test: A program rule can remove food support without increasing paid work. Related topic: Help can exist but be hard to keep. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 
 ## A home can be costly to heat before anything else changes
 

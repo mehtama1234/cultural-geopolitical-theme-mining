@@ -196,6 +196,31 @@
       "source_record": "analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md"
     },
     {
+      "id": "aid",
+      "evidence_check": {
+        "title": "Losing help does not necessarily mean finding work",
+        "finding": "Two NBER studies using linked administrative data found that SNAP work requirements increased program exits but did not increase employment in the studied settings. A separate study found that closing a SNAP enrollment office reduced participation in nearby census tracts by 7–9% over two years.",
+        "meaning": "Working interpretation: the rule or route to help can change the household's food support before it changes the household's work. Measure program exit and employment as separate outcomes.",
+        "counterpoint": "Work rules are intended to encourage employment, and some people leave a program because their circumstances improve. The current studies are causal in their settings but do not show that every rule has the same effect.",
+        "counterpoint_source": "https://www.nber.org/papers/w28877",
+        "limit": "The studies use defined policy settings and administrative measures. They do not yet show the same household's food, debt or health outcome after losing access.",
+        "source": "https://www.nber.org/papers/w32441",
+        "location": "Cook and East, revised 2025 working paper; related NBER work on work requirements and office access. Checked 2026-09-11."
+      },
+      "project": "us-safety-net-access",
+      "title": "Help can exist but be hard to keep",
+      "summary": "Rules, renewal work and office distance can decide whether support reaches a household, even when the need remains.",
+      "question": "What makes help disappear before the need does?",
+      "limit": "The opening evidence shows participation and employment changes, not the full food or household outcome.",
+      "subthemes": [
+        "Work requirements",
+        "Administrative access"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-safety-net-access/source-search-2026-09-11.md"
+    },
+    {
       "id": "place",
       "evidence_check": {
         "title": "A business application is not the same as a new employer",
@@ -367,6 +392,12 @@
       "meaning": "Follow household cost pressure into food, then ask what health or care choice may follow.",
       "limit": "The current sources use different households and time windows; they do not show that a specific bill caused a specific food or health change.",
       "memo": "../site/us-food-budget-path-001.html"
+    },
+    {
+      "title": "When help disappears before the need does",
+      "topics": ["food", "aid", "work"],
+      "meaning": "Follow food need through the rules and practical work of keeping public help, then ask whether employment actually changes.",
+      "limit": "The current studies do not follow the same household from program loss to food, debt or work outcomes."
     }
   ],
   "edges": [
@@ -512,6 +543,30 @@
       "to": "health",
       "relation": "Less food or lower food quality may shape health and care choices",
       "limit": "Food hardship and skipped care are separate measures; a causal link needs same-household evidence.",
+      "type": "open"
+    },
+    {
+      "id": "link-19",
+      "from": "food",
+      "to": "aid",
+      "relation": "Public food help can change how much room remains in the household budget",
+      "limit": "The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-20",
+      "from": "aid",
+      "to": "work",
+      "relation": "A program rule can remove food support without increasing paid work",
+      "limit": "The NBER results are setting-specific and do not establish the same effect for every rule or worker.",
+      "type": "open"
+    },
+    {
+      "id": "link-21",
+      "from": "aid",
+      "to": "politics",
+      "relation": "The experience of reaching or losing help may shape views of public institutions",
+      "limit": "No current source measures a change in trust, blame or voting after a participation change.",
       "type": "open"
     }
   ]
