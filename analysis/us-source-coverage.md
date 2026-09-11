@@ -2,7 +2,7 @@
 
 9 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** Government: 31; HBS: 7; NBER: 22; Other: 27
+**Source families recorded:** BEA: 2; BLS: 2; CFPB: 4; CMS: 1; Census: 5; FTC: 4; Federal Reserve: 7; HBS: 7; HHS: 1; NBER: 22; Other: 27; Other government: 1; SBA: 2; Treasury: 2
 
 ## AI, work, and control
 

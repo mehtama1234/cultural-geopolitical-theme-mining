@@ -38,8 +38,23 @@ def family(url):
         return "NBER"
     if "hbs.edu" in host or "library.hbs.edu" in host:
         return "HBS"
+    named = {
+        "federalreserve.gov": "Federal Reserve",
+        "bls.gov": "BLS",
+        "census.gov": "Census",
+        "cms.gov": "CMS",
+        "consumerfinance.gov": "CFPB",
+        "ftc.gov": "FTC",
+        "hhs.gov": "HHS",
+        "sba.gov": "SBA",
+        "bea.gov": "BEA",
+        "treasury.gov": "Treasury",
+    }
+    for domain, name in named.items():
+        if host == domain or host.endswith("." + domain):
+            return name
     if host.endswith(".gov") or ".gov/" in url:
-        return "Government"
+        return "Other government"
     if "uchicago.edu" in host or "academic.oup.com" in host:
         return "Academic publisher"
     return "Other"
