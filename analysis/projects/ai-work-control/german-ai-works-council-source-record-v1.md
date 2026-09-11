@@ -11,6 +11,7 @@
 3. [ver.di: Mensch vor Maschine](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/), accessed 2026-09-11.
 4. [ver.di: Auch die KI macht Fehler](https://publik.verdi.de/ausgabe-202503/auch-die-ki-macht-fehler/), accessed 2026-09-11.
 5. [WageIndicator transcription of IBM Central Holding GmbH / Group Works Council AI framework, version 25 June 2020](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence), accessed 2026-09-11.
+6. [BTQ Kassel interview with IBM Group Works Council representative Frank Remers](https://www.btq-kassel.de/interview_frank_remers/), 10 March 2022 interview, accessed 2026-09-11.
 
 These records are published by the company, the union, and WageIndicator. The WageIndicator page reproduces the IBM framework text and identifies IBM Central Holding GmbH, its Group Works Council, and a 30 July 2020 signature date. It is an accessible archive of the agreement, not the original IBM document host. None of these records independently shows compliance, worker coverage outside the named German entities, or effects on pay, productivity, or stress.
 
@@ -25,6 +26,8 @@ These records are published by the company, the union, and WageIndicator. The Wa
 - For categories 2 through 4, the framework requires a correction process for false recommendations; for category 4, workers can contact the AI Ethics Council and the application must support rapid correction.
 - The framework gives works councils inspection rights over data-quality methods, bias analysis, transparency information, and the purpose of the AI system. It says that if an AI system eliminates a job or changes work, an equivalent job should be offered where possible and retraining provided if needed.
 - The union and company descriptions establish rule design and institutional participation; they do not establish compliance, use across all IBM entities, or whether the controls prevent all individual monitoring in practice.
+- In the 2022 BTQ interview, the IBM works-council representative said the framework was created early, before AI applications had affected employees’ daily work, and described its purpose as setting conditions before wider use.
+- The same interview says the very-high-risk category leads IBM not to deploy such systems. This is a representative’s account of the framework’s operation, not an independently audited deployment log.
 
 ## Mechanism relevance
 
@@ -32,7 +35,7 @@ These records are published by the company, the union, and WageIndicator. The Wa
 works-council rights -> joint review and stated limits -> bounded data use and human review
 ```
 
-This is a documented governance path with concrete review, correction, and exclusion rules. It is not yet a measured outcome path. The next evidence must show cases where a deployment was changed or stopped and worker outcomes after implementation.
+This is a documented governance path with concrete review, correction, and exclusion rules. The available record also suggests it was designed before routine workplace use, so it is not yet a measured outcome path. The next evidence must show cases where a live deployment was changed or stopped and worker outcomes after implementation.
 
 ## Coding
 
@@ -45,7 +48,7 @@ This is a documented governance path with concrete review, correction, and exclu
 | Worker remedy or leverage | Correction process, AI Ethics Council, works-council inspection, and retraining language |
 | Direct outcome measure | None in the cited records |
 | Evidence class | Archived agreement text plus company and union records |
-| Main uncertainty | Agreement text, enforcement, scope, and worker-level effects |
+| Main uncertainty | Live deployment cases, enforcement, scope, and worker-level effects |
 
 ## Relation to the ILO case table
 
