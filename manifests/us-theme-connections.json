@@ -1863,9 +1863,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-platform-data-neutrality/source-search-2026-09-11.md"
+    },
+    {
+      "id": "time_intensive_platform_consumption",
+      "evidence_check": {
+        "title": "A free service can have time as its real price",
+        "finding": "Using two field experiments on Facebook and Instagram, an NBER study finds that users respond only a little to ad load, the main user cost in the setting. The share of a person's time devoted to an activity and the cost of that time affect which other online or offline activities can replace it. The paper also models the possible effect of separating the two platforms.",
+        "meaning": "Working interpretation: a service can be costly through time and attention even when no money changes hands. Competition should count the time price, not only the subscription price.",
+        "counterpoint": "People may stay because the service is valuable, familiar or socially important. More ads can be a tolerable price for a service that remains free, and time spent is not automatically time lost.",
+        "counterpoint_source": "https://www.nber.org/papers/w34743",
+        "limit": "The opening evidence does not show long-run well-being, the value of each activity, household care or work effects, or the result of an actual separation.",
+        "source": "https://www.nber.org/papers/w34743",
+        "location": "Goodman, de Frahan, Holz, List, MacMenamin, McKay, Mogstad, Sadoff and Sider, Consumer Demand and Market Competition with Time-Intensive Goods, NBER Working Paper 34743, checked 2026-09-11."
+      },
+      "project": "us-time-intensive-platform-consumption",
+      "title": "A free service can have time as its real price",
+      "summary": "Online services may compete through the time and attention they take, not only through a money price.",
+      "question": "What does a free service really cost the customer?",
+      "limit": "The opening study measures time use and ad response, not the full household or well-being result.",
+      "subthemes": ["Time as a customer cost", "Platform use and competition"],
+      "theme": "time",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-time-intensive-platform-consumption/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When a free app charges in time",
+      "topics": ["time_intensive_platform_consumption", "attention", "service"],
+      "meaning": "Follow a no-money-price service into the time and attention it takes, then ask what the customer receives and what becomes harder to do.",
+      "limit": "The current studies do not follow the same user through time use, work, care, sleep, well-being and exit.",
+      "memo": null
+    },
     {
       "title": "When a data rule changes the customer exchange",
       "topics": ["platform_data_neutrality", "privacy_trust", "service"],
@@ -3423,6 +3452,22 @@
       "to": "service",
       "relation": "Platform data rules can change the seller competition and service choices customers see",
       "limit": "The current model does not show actual service quality, prices or customer welfare in a US market.",
+      "type": "open"
+    },
+    {
+      "id": "link-127",
+      "from": "time_intensive_platform_consumption",
+      "to": "attention",
+      "relation": "The time cost of a platform is carried through the attention it holds",
+      "limit": "The current experiments do not show how time use changes work, care, sleep or well-being for the same user.",
+      "type": "open"
+    },
+    {
+      "id": "link-128",
+      "from": "time_intensive_platform_consumption",
+      "to": "service",
+      "relation": "A platform's design can change the service received and the time needed to use it",
+      "limit": "The current study measures ad load and substitution, not the full quality or value of the service.",
       "type": "open"
     }
   ]

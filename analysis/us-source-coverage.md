@@ -1,8 +1,8 @@
 # US source coverage
 
-79 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+80 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 126; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 127; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1807,6 +1807,28 @@
 - what happens after tariff rollbacks or further changes.
 
 [Open the source-search record](projects/us-tariff-price-pass-through/source-search-2026-09-11.md)
+
+## US time-intensive platform consumption
+
+**Project:** `us-time-intensive-platform-consumption`
+
+**Status:** opening pass; ad load, time use and substitution are measured, long-run customer welfare remains open
+
+**Question:** When a service uses a person's time as its real price, how should we measure competition and customer benefit?
+
+**Sources recorded:** 1
+
+- [Consumer Demand and Market Competition with Time-Intensive Goods](https://www.nber.org/papers/w34743)
+
+**Open gaps:**
+- time use by income, age and family role;
+- ad exposure and content value;
+- work, care and sleep effects;
+- switching and offline substitutes;
+- user well-being and consumer surplus;
+- actual merger or platform design change.
+
+[Open the source-search record](projects/us-time-intensive-platform-consumption/source-search-2026-09-11.md)
 
 ## US public aid and the shape of a dollar
 

@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When a free app charges in time
+
+Follow a no-money-price service into the time and attention it takes, then ask what the customer receives and what becomes harder to do.
+
+1. [A free service can have time as its real price](#time_intensive_platform_consumption)
+2. [A useful app can still make leaving difficult](#attention)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current studies do not follow the same user through time use, work, care, sleep, well-being and exit.
+
 ### When a data rule changes the customer exchange
 
 Follow platform data from access and control into the customer's trust and service choice. Ask whether more openness gives customers a better answer or only a different data deal.
@@ -1978,6 +1988,7 @@ Connections:
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: The same job can contain different AI access. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 - Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful tool can feel like an admission. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
 - Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: An AI support app can comfort and hold attention. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
+- Question to test: The time cost of a platform is carried through the attention it holds. Related topic: A free service can have time as its real price. The current experiments do not show how time use changes work, care, sleep or well-being for the same user.
 
 ### Family help can move a shock between generations
 
@@ -2080,6 +2091,39 @@ Connections:
 
 - Question to test: Where work happens can change the household tasks and shopping costs attached to the job. Related topic: The same job can contain different AI access. The current evidence does not show whether the worker or household values the changed task mix or who bears the unpaid time.
 - Question to test: A change in shopping mode can alter total spending, prices paid and the use of deals. Related topic: The price on the screen is only part of the cost. The study does not show the household's income, budget tradeoff or final welfare from the changed spending.
+
+### A free service can have time as its real price
+
+Online services may compete through the time and attention they take, not only through a money price.
+
+**Question:** What does a free service really cost the customer?
+
+**Subthemes:** Time as a customer cost; Platform use and competition
+
+**Limit:** The opening study measures time use and ad response, not the full household or well-being result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Consumer Demand and Market Competition with Time-Intensive Goods](https://www.nber.org/papers/w34743)
+
+#### Evidence check: A free service can have time as its real price
+
+Using two field experiments on Facebook and Instagram, an NBER study finds that users respond only a little to ad load, the main user cost in the setting. The share of a person's time devoted to an activity and the cost of that time affect which other online or offline activities can replace it. The paper also models the possible effect of separating the two platforms.
+
+Working interpretation: a service can be costly through time and attention even when no money changes hands. Competition should count the time price, not only the subscription price.
+
+**Counterpoint:** People may stay because the service is valuable, familiar or socially important. More ads can be a tolerable price for a service that remains free, and time spent is not automatically time lost.
+[Related study](https://www.nber.org/papers/w34743)
+
+The opening evidence does not show long-run well-being, the value of each activity, household care or work effects, or the result of an actual separation.
+
+[Goodman, de Frahan, Holz, List, MacMenamin, McKay, Mogstad, Sadoff and Sider, Consumer Demand and Market Competition with Time-Intensive Goods, NBER Working Paper 34743, checked 2026-09-11.](https://www.nber.org/papers/w34743)
+
+
+Connections:
+
+- Question to test: The time cost of a platform is carried through the attention it holds. Related topic: A useful app can still make leaving difficult. The current experiments do not show how time use changes work, care, sleep or well-being for the same user.
+- Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A quicker reply may still leave a problem open. The current study measures ad load and substitution, not the full quality or value of the service.
 
 ## Who can get an answer or change a decision
 
@@ -2428,6 +2472,7 @@ Connections:
 - Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A payment problem can become a recovery problem. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
 - Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: Privacy rules can make people more willing to share. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
 - Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: Equal data access can open competition and reduce data investment. The current model does not show actual service quality, prices or customer welfare in a US market.
+- Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A free service can have time as its real price. The current study measures ad load and substitution, not the full quality or value of the service.
 
 ### More work does not always mean more room
 

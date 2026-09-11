@@ -201,6 +201,8 @@ The next short pass is [US rideshare licensing and customer safety](analysis/pro
 
 The next short pass is [US platform data neutrality](analysis/projects/us-platform-data-neutrality/README.md), with its [source search record](analysis/projects/us-platform-data-neutrality/source-search-2026-09-11.md). It tests whether equal data access opens customer competition or weakens the platform's reason to improve the data.
 
+The next short pass is [US time-intensive platform consumption](analysis/projects/us-time-intensive-platform-consumption/README.md), with its [source search record](analysis/projects/us-time-intensive-platform-consumption/source-search-2026-09-11.md). It tests what a free service costs in time and attention, and how that changes customer benefit and competition.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
