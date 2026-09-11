@@ -239,6 +239,16 @@ Follow measured career movement into the room left for education debt and then h
 
 Still missing: The current sources do not follow the same worker from career level through debt payment and housing.
 
+### When an ownership promise meets the paycheck
+
+Follow a worker's financial claim into daily work and then ask whether it becomes pay, savings or only a reason to stay.
+
+1. [Ownership means little unless workers can see the link](#employee_ownership)
+2. [The same job can contain different AI access](#work)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current evidence does not show actual payouts, household wealth or worker control after the retention change.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -289,6 +299,7 @@ Connections:
 - Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: Food is where a money problem becomes a daily condition. The current surveys do not show which bill was paid or delayed before the food outcome.
 - Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: Family time can replace a large cash payment. The current sources do not show which option leaves the household with more room later.
 - Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: Getting to a place is a major household cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
+- Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The same job can contain different AI access. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 
 ### Keeping a home also means paying to protect it
 
@@ -917,6 +928,8 @@ Connections:
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: A family can pay for care with time. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 - Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: Fit can decide who gets heard at work. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
 - Comparison: A career-level measure can show movement that titles and years alone hide. Related topic: Work can continue while career movement slows. The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.
+- Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: Ownership means little unless workers can see the link. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
+- Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The price on the screen is only part of the cost. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 
 ### Fit can decide who gets heard at work
 
@@ -986,6 +999,40 @@ Connections:
 
 - Comparison: A career-level measure can show movement that titles and years alone hide. Related topic: The same job can contain different AI access. The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.
 - Question to test: Slower career movement may leave less room for a long education-debt payment. Related topic: A student loan can follow a person into adult choices. No current source follows career progression and student-loan payment for the same borrower.
+
+### Ownership means little unless workers can see the link
+
+A financial claim may affect whether workers stay only when the company explains how daily work could create value for them.
+
+**Question:** What did the worker actually receive?
+
+**Subthemes:** Employee ownership; Retention and worker control
+
+**Limit:** The opening evidence measures retention, not payout, wealth or decision power.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: Employees Disengaged? Show Them How They Add Value](https://www.library.hbs.edu/working-knowledge/employees-disengaged-show-them-how-they-add-value)
+- [HBS Working Paper 26-085 record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6879798)
+- [Gallup workplace data](https://www.gallup.com/workplace/236441/employee-engagement-drives-growth.aspx)
+
+#### Evidence check: A financial stake worked better when the daily link was clear
+
+An HBS account of a field experiment at a 12-location building-materials company reports that concrete guidance about how daily behavior could affect equity value reduced turnover by 13 percentage points compared with broader values messaging. The difference grew during Hurricane Helene.
+
+Working interpretation: a distant ownership promise may change behavior only when workers can see how today's work connects to a possible payout.
+
+**Counterpoint:** Retention is not wealth or decision power. A stock claim can be delayed, uncertain or worthless, and workers may still have no say in company decisions.
+[Related study](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6879798)
+
+The study concerns one company, one equity plan and a short period. The current account does not show actual payouts, long-term wealth, effort, safety or governance power.
+
+[HBS Working Knowledge account of Making Equity Incentives Actionable, HBS Working Paper 26-085. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/employees-disengaged-show-them-how-they-add-value)
+
+
+Connections:
+
+- Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: The same job can contain different AI access. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
 
 ## A home can be costly to heat before anything else changes
 

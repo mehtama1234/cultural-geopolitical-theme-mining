@@ -440,6 +440,31 @@
       "source_record": "analysis/projects/us-career-progression-plateau/source-search-2026-09-11.md"
     },
     {
+      "id": "employee_ownership",
+      "evidence_check": {
+        "title": "A financial stake worked better when the daily link was clear",
+        "finding": "An HBS account of a field experiment at a 12-location building-materials company reports that concrete guidance about how daily behavior could affect equity value reduced turnover by 13 percentage points compared with broader values messaging. The difference grew during Hurricane Helene.",
+        "meaning": "Working interpretation: a distant ownership promise may change behavior only when workers can see how today's work connects to a possible payout.",
+        "counterpoint": "Retention is not wealth or decision power. A stock claim can be delayed, uncertain or worthless, and workers may still have no say in company decisions.",
+        "counterpoint_source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6879798",
+        "limit": "The study concerns one company, one equity plan and a short period. The current account does not show actual payouts, long-term wealth, effort, safety or governance power.",
+        "source": "https://www.library.hbs.edu/working-knowledge/employees-disengaged-show-them-how-they-add-value",
+        "location": "HBS Working Knowledge account of Making Equity Incentives Actionable, HBS Working Paper 26-085. Checked 2026-09-11."
+      },
+      "project": "us-employee-ownership-meaning",
+      "title": "Ownership means little unless workers can see the link",
+      "summary": "A financial claim may affect whether workers stay only when the company explains how daily work could create value for them.",
+      "question": "What did the worker actually receive?",
+      "limit": "The opening evidence measures retention, not payout, wealth or decision power.",
+      "subthemes": [
+        "Employee ownership",
+        "Retention and worker control"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-employee-ownership-meaning/source-search-2026-09-11.md"
+    },
+    {
       "id": "energy",
       "evidence_check": {
         "title": "Low-income homes spend a larger share on energy",
@@ -625,6 +650,13 @@
       "topics": ["career_plateau", "student_debt", "housing"],
       "meaning": "Follow measured career movement into the room left for education debt and then housing choices.",
       "limit": "The current sources do not follow the same worker from career level through debt payment and housing.",
+      "memo": null
+    },
+    {
+      "title": "When an ownership promise meets the paycheck",
+      "topics": ["employee_ownership", "work", "money"],
+      "meaning": "Follow a worker's financial claim into daily work and then ask whether it becomes pay, savings or only a reason to stay.",
+      "limit": "The current evidence does not show actual payouts, household wealth or worker control after the retention change.",
       "memo": null
     }
   ],
@@ -931,6 +963,22 @@
       "to": "student_debt",
       "relation": "Slower career movement may leave less room for a long education-debt payment",
       "limit": "No current source follows career progression and student-loan payment for the same borrower.",
+      "type": "open"
+    },
+    {
+      "id": "link-39",
+      "from": "employee_ownership",
+      "to": "work",
+      "relation": "A clearly explained ownership claim may change whether workers stay and how they see daily work",
+      "limit": "The current study measures retention and identification, not effort, safety, customer outcomes or decision power.",
+      "type": "open"
+    },
+    {
+      "id": "link-40",
+      "from": "work",
+      "to": "money",
+      "relation": "Work conditions and rewards determine whether a financial claim becomes household room",
+      "limit": "The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.",
       "type": "open"
     }
   ]

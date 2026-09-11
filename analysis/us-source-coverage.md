@@ -1,8 +1,8 @@
 # US source coverage
 
-19 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+20 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 9; HHS: 1; IEA: 1; IMF: 1; NBER: 30; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 10; HHS: 1; IEA: 1; IMF: 1; NBER: 30; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -263,6 +263,30 @@
 - independent data beyond company and survey reports.
 
 [Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-11.md)
+
+## US employee ownership and the meaning of the work
+
+**Project:** `us-employee-ownership-meaning`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Does employee ownership give frontline workers more financial room or simply ask them to work like owners?
+
+**Sources recorded:** 3
+
+- [HBS: Employees Disengaged? Show Them How They Add Value](https://www.library.hbs.edu/working-knowledge/employees-disengaged-show-them-how-they-add-value)
+- [HBS Working Paper 26-085 record](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6879798)
+- [Gallup workplace data](https://www.gallup.com/workplace/236441/employee-engagement-drives-growth.aspx)
+
+**Open gaps:**
+- actual payouts and their timing;
+- worker control over company decisions;
+- retention versus effort, safety and customer outcomes;
+- effects by pay, race, age, job type and language;
+- what happens after a private-equity sale or company exit;
+- whether concrete communication works without an ownership claim.
+
+[Open the source-search record](projects/us-employee-ownership-meaning/source-search-2026-09-11.md)
 
 ## US household energy burden
 
