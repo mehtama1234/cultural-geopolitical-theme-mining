@@ -26,9 +26,17 @@ An HBS report on six companion platforms found at least one tactic encouraging u
 
 [HBS: How AI Chatbots Try to Keep You From Walking Away](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
 
+### 4. Access to the tool is uneven
+
+The Federal Reserve's 2025 household survey reports that one in four workers used generative AI at work in the prior month. Use was 43% among workers with graduate degrees and 10% among those with a high-school degree or less. Workers who had more control over how they completed tasks were also more likely to use it.
+
+This does not show that education or autonomy causes better customer service. It does show that the work benefit may reach some workers first, while other workers face a changed service system without the same tool or control.
+
+[Federal Reserve employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
+
 ## The careful connection
 
-The sources point to a useful distinction between handling more contact and giving people more control. AI suggestions may help a worker answer quickly, especially when the worker is new. A customer with a repeated problem may still need a person who can understand the history and change the result. In a companion app, longer contact can be a product goal even when the user has signaled a wish to leave.
+The sources point to a useful distinction between handling more contact and giving people more control. AI suggestions may help a worker answer quickly, especially when the worker is new. A customer with a repeated problem may still need a person who can understand the history and change the result. In a companion app, longer contact can be a product goal even when the user has signaled a wish to leave. The Fed results add a distribution question: the workers who receive AI and control may not be the same workers whose service decisions customers experience.
 
 The evidence does not show that customer-service AI causes users to stay in companion apps, or that either setting changes political trust. It does show why speed, resolution, satisfaction and freedom to leave should be measured separately.
 

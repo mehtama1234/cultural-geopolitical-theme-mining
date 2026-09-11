@@ -18,6 +18,7 @@ Does automated customer service make simple help faster while making difficult p
 | US-FTC-DONOTPAY-2025 | [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires) | FTC required the company to stop unsupported claims that its chatbot worked like a human lawyer and provide monetary relief and notices | Official enforcement record | One company and one product; does not measure the full market |
 | US-FTC-AI-CHATBOTS-2025 | [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions) | FTC requested information on safety testing, monitoring, monetization, disclosures, data use, and effects on children and teens | Official inquiry | Information request is not a finding of harm |
 | US-FTC-JOINT-AI-2023 | [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf) | FTC, CFPB, DOJ, and EEOC said existing laws apply to automated systems in consumer protection, civil rights, fair competition, and equal opportunity | Official policy statement | A statement of enforcement principles, not evidence of a particular customer outcome |
+| US-FED-SHED-AI-2025 | [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm) | One in four workers used generative AI at work in the prior month; use was 43% among workers with graduate degrees and 10% among those with a high-school degree or less. Workers with more control over how they complete tasks were also more likely to use it. | Official household survey | This measures worker use and views, not customer remedy or firm-level service quality |
 
 ## First pattern to test
 
@@ -38,6 +39,7 @@ The HBS experiment supports a possible benefit for some service work. The FTC re
 - differences by disability, language, age, income, and digital access;
 - customer complaints matched to the tool or firm;
 - worker discretion after AI suggestions are introduced;
+- who gets the tool and who keeps control over the work after it arrives;
 - data use, error rates, and false claims;
 - evidence that automated service improves remedies rather than only speed.
 
