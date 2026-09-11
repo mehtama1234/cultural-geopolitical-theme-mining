@@ -102,3 +102,32 @@ The two NBER studies add a non-European and inclusion-focused test. In Indian ga
 The regional pass adds gender and infrastructure. NBER evidence from India and Indonesia finds that women value platform flexibility and supplemental earnings, but participation is very low and shaped by safety, household constraints, harassment, discrimination, and unequal hourly returns. The World Bank/ILO regional analysis finds that Latin American AI exposure does not automatically produce benefits where digital infrastructure is missing.
 
 The ILO social-dialogue study adds a governance path before harm occurs. It examines national, regional, sectoral, company, and workplace cases in five world regions and documents how worker representatives influence decisions about employment, algorithmic management, and working conditions. It is case evidence, not a measure of how common effective participation is.
+
+## Macro, infrastructure, and country-capability pass
+
+Search terms:
+
+- `AI adoption productivity employment firm size complementary investment BIS`
+- `AI adoption inequality wealth capital returns IMF`
+- `AI output data capital productivity measurement BEA`
+- `AI data centre electricity grid critical minerals IEA`
+- `AI readiness cloud data centre connectivity power local data skills World Bank`
+- `Romania government cloud migration applications public procurement`
+- `Malaysia Johor data centre IFC Yondr Vantage financing ownership`
+
+Included records:
+
+| ID | Source | Type | Why it is in scope |
+|---|---|---|---|
+| IMF-AI-INEQUALITY-2025 | [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729) | household microdata and calibrated task model | Separates wage and wealth channels and models firm adoption choices and capital returns. |
+| BIS-AI-FIRMS-1325 | [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms) | matched firm study | Measures productivity, employment, wages, size, finance, software, data, and training across more than 12,000 firms. |
+| BEA-AI-EXPECTATIONS-2026 | [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf) | official working paper and production-account analysis | Separates expected from reported use, records a survey-definition break, and links stated motivations to capital and industry outcomes. |
+| IEA-ENERGY-AI-2025-2026 | [Energy and AI](https://www.iea.org/reports/energy-and-ai) and [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai) | global energy analysis and scenarios | Measures electricity, grids, equipment, minerals, affordability, energy security, and data-centre capacity. |
+| OFR-AR-2025 | [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf) | official institutional report | Records AI use in a financial regulator alongside public analytical infrastructure, budget, and workforce changes. |
+| WORLD-BANK-WDR2026-AI | [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026) | global development report | Provides adopt/adapt/advance and political, economic, social, and institutional AI frames. |
+| WORLD-BANK-AI-READINESS-2026 | [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai) | development-finance results brief | Names the four Cs and gives Romania and Malaysia project records. |
+| ROMANIA-MAS-IC | [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud) | government project record | Supplies a primary target, date, budget, beneficiaries, and public-cloud migration scope. |
+| IFC-YONDR-MY-49145 | [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023) | development-finance project disclosure | Records the borrower, 96 MW first phase, up-to-US$150m loan, and project structure. |
+| MALAYSIA-YONDR-VANTAGE-TRANSFER | [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers) and [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/) | operator ownership records | Tracks the campus transfer and the investment structure around the APAC platform. |
+
+The country records are not yet enough to measure realized local jobs, data control, energy burden, service quality, or switching costs. They are the first primary records for the next comparison.
