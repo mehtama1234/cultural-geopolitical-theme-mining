@@ -38,7 +38,8 @@ for path in paths:
     if path.get("memo"):
         md += [f'[Read the complete connected memo]({path["memo"]})', ""]
     steps = "".join(f'<li><a href="#{topic}">{e(nodes[topic]["title"])}</a></li>' for topic in path["topics"])
-    memo = f'<p><a href="{e(path["memo"], quote=True)}">Read the complete connected memo</a></p>' if path.get("memo") else ""
+    memo_href = Path(path["memo"]).name if path.get("memo") else ""
+    memo = f'<p><a href="{e(memo_href, quote=True)}">Read the complete connected memo</a></p>' if path.get("memo") else ""
     path_cards.append(f'<article class="path"><h3>{e(path["title"])}</h3><p>{e(path["meaning"])}</p><ol>{steps}</ol><p class="limit"><strong>Still missing:</strong> {e(path["limit"])}</p>{memo}</article>')
 paths_html = ('<section aria-labelledby="paths-title"><h2 id="paths-title">Follow a question across topics</h2><p>Reading paths, not proven chains of cause and effect.</p><div class="paths">' + "".join(path_cards) + '</div></section>') if paths else ""
 parts = []

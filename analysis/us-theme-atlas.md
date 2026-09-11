@@ -76,6 +76,8 @@ Follow the building and utility bill into the wider household budget. The path a
 
 Still missing: The current packets do not track the same households across energy bills, housing protection and payment choices.
 
+[Read the complete connected memo](../site/us-home-cost-stack-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -211,6 +213,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
 - [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
 - [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
+- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
 
 #### Evidence check: Low-income homes spend a larger share on energy
 

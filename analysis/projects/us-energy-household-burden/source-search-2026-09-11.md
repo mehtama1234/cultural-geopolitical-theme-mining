@@ -15,6 +15,7 @@ When energy costs take more of a household's income, what other choice becomes h
 | US-DOE-LEAD | [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool) | The national average energy burden for low-income households is about 6%, compared with about 2% for non-low-income households; some places are higher | Official data tool and definition | Built from modeled and survey-linked data; threshold and income definition matter |
 | US-EIA-RECS-2024 | [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/) | 2024 household characteristics and energy-insecurity data cover an estimated 132.5 million primary homes, with state-level tables | Official survey and data portal | Initial 2024 releases do not yet include all consumption and expenditure tables |
 | US-EIA-SEDS-2024 | [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php) | State-level energy prices, consumption and residential expenditures through 2024 | Official state data | State averages can hide utility, building and income differences |
+| US-GAO-HOME-INSURANCE-2026 | [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867) | Average premiums rose about 3% after inflation from 2019–2024, while some southern coastal areas rose 25% or more; higher risk can also reduce availability | Official review of premium and risk data | National averages hide local exposure; insurance is state-regulated and the report does not follow household budgets |
 
 ## First pattern to test
 
@@ -35,6 +36,7 @@ The opening sources measure burden and supply context. They do not yet show whic
 - the effect of weatherization or energy aid on later choices;
 - which households can shift fuel use or buy efficient equipment;
 - public and utility records on complaints, relief and disconnections.
+- whether energy and insurance costs arrive together for the same household.
 
 ## Decision rule
 

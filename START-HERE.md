@@ -12,6 +12,8 @@ The third is [When health costs move into family time](site/us-health-care-time-
 
 The next short project is [US household energy burden](analysis/projects/us-energy-household-burden/README.md), with its [source search record](analysis/projects/us-energy-household-burden/source-search-2026-09-11.md). It joins energy bills, housing conditions and room for other household costs.
 
+The fourth connected memo is [The cost of staying in a home is a stack of bills and risks](site/us-home-cost-stack-001.html), with its [Markdown record](analysis/findings/us-home-cost-stack-001.md). It joins energy burden, reported energy insecurity, homeowners insurance and home value while keeping the same-household gap visible.
+
 ## The question
 
 What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?

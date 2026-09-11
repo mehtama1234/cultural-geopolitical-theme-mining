@@ -2,7 +2,7 @@
 
 10 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 4; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 7; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 22; OFR: 1; Other: 17; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 4; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 7; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 22; OFR: 1; Other: 17; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -170,11 +170,12 @@
 
 **Question:** When energy costs take more of a household's income, what other choice becomes harder?
 
-**Sources recorded:** 3
+**Sources recorded:** 4
 
 - [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
 - [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
 - [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
+- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
 
 **Open gaps:**
 - shutoffs, arrears and payment plans by income and place;
@@ -183,6 +184,7 @@
 - the effect of weatherization or energy aid on later choices;
 - which households can shift fuel use or buy efficient equipment;
 - public and utility records on complaints, relief and disconnections.
+- whether energy and insurance costs arrive together for the same household.
 
 [Open the source-search record](projects/us-energy-household-burden/source-search-2026-09-11.md)
 
