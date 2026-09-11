@@ -38,4 +38,6 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Source search record](source-search-2026-09-11.md)
 - [Claims ledger](claims-ledger-v1.md)
 - [Finding 001: AI may reorganize work before it changes average pay](findings/ai-work-control-001.md)
+- [Finding 002: The first payoff may be movement, not pay](findings/ai-work-control-002.md)
 - [Published HTML finding](../../../site/ai-work-control/finding-001.html)
+- [Published HTML finding 002](../../../site/ai-work-control/finding-002.html)
