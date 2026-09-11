@@ -90,3 +90,5 @@ The next short pass is [US consumer credit and the shrinking cash buffer](analys
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
 
 The next short project is [US food, the household budget, and basic security](analysis/projects/us-food-budget-security/README.md), with its [source search record](analysis/projects/us-food-budget-security/source-search-2026-09-11.md). It tests whether financial pressure reaches food before it appears as a missed debt payment or skipped care.
+
+The sixth connected memo is [When the budget reaches the dinner table](site/us-food-budget-path-001.html), with its [Markdown record](analysis/findings/us-food-budget-path-001.md). It joins USDA food security, Fed income differences, family exposure and skipped medical care while keeping the different time windows visible.

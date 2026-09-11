@@ -100,6 +100,8 @@ Follow household cost pressure into food, then ask what health or care choice ma
 
 Still missing: The current sources use different households and time windows; they do not show that a specific bill caused a specific food or health change.
 
+[Read the complete connected memo](../site/us-food-budget-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
