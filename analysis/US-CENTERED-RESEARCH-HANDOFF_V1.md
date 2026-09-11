@@ -2,15 +2,15 @@
 
 ## Connected reading guide: current handoff
 
-Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighteen topics now sit under five shared themes, with thirty-six explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Nineteen topics now sit under five shared themes, with thirty-eight explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
 
 Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
 
-Nineteen reading paths now link household costs and care, family time and economic views, continued contact and trust, worker AI access and customer attention, housing costs and economic views, energy costs and the household budget, household bills and credit, budget pressure and food, food need and public help, family care and paid work, home energy and transportation, service problems and fraud recovery, education debt with housing choices, household actions with public trust, unpaid eldercare with paid work, housing with local business control, home energy with housing and credit, worker AI with service remedy, and workplace speech with work and service. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
+Twenty reading paths now link household costs and care, family time and economic views, continued contact and trust, worker AI access and customer attention, housing costs and economic views, energy costs and the household budget, household bills and credit, budget pressure and food, food need and public help, family care and paid work, home energy and transportation, service problems and fraud recovery, education debt with housing choices, household actions with public trust, unpaid eldercare with paid work, housing with local business control, home energy with housing and credit, worker AI with service remedy, workplace speech with work and service, and career movement with debt and housing. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
 
 Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve search, theme filters, direct topic links, expandable sources and connections, readable phone layouts, and visible uncertainty. The [browser check](us-theme-atlas-browser-check.md) records the interactions already tested. Extend those checks when changing navigation or layout.
 
-Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The eighteen opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
+Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The nineteen opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
 
 ## Where we are going
 
@@ -88,6 +88,6 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighteen topic records, five themes, thirty-six connections and nineteen reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has nineteen topic records, five themes, thirty-eight connections and twenty reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.

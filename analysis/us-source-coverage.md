@@ -1,8 +1,8 @@
 # US source coverage
 
-18 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+19 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 5; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 8; HHS: 1; IEA: 1; IMF: 1; NBER: 29; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 9; HHS: 1; IEA: 1; IMF: 1; NBER: 30; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -78,6 +78,30 @@
 - evidence that unpaid care does not materially change later work or savings.
 
 [Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
+
+## US career progression and the mid-level plateau
+
+**Project:** `us-career-progression-plateau`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Does the typical worker stop moving up long before work stops, and what household choices meet that plateau?
+
+**Sources recorded:** 3
+
+- [HBS: Most Careers Stall at Mid-Level](https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work)
+- [NBER Working Paper 34292](https://www.nber.org/papers/w34292)
+- [BLS Occupational Employment and Wage Statistics](https://www.bls.gov/oes/)
+
+**Open gaps:**
+- career movement by income, race, gender, age, education and place;
+- job control, schedule, health and security at each level;
+- title changes that do not carry more responsibility or pay;
+- career movement linked to student-loan payment, housing and family timing;
+- differences between public, nonprofit and private work;
+- whether slower advancement is chosen or imposed.
+
+[Open the source-search record](projects/us-career-progression-plateau/source-search-2026-09-11.md)
 
 ## US childcare, work, and the price of family time
 

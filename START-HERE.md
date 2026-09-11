@@ -124,3 +124,5 @@ The fifteenth connected memo is [When the energy bill begins with the home](site
 The sixteenth connected memo is [When a faster answer still leaves the case open](site/us-customer-service-recourse-path-001.html), with its [Markdown record](analysis/findings/us-customer-service-recourse-path-001.md). It joins worker AI support, repeat complaints and the customer's ability to obtain a remedy.
 
 The next short project is [US workplace communication and the price of fitting in](analysis/projects/us-workplace-communication-fit/README.md), with its [source search record](analysis/projects/us-workplace-communication-fit/source-search-2026-09-11.md). It tests whether familiar speech is read as skill and changes access to people-facing work.
+
+The next short project is [US career progression and the mid-level plateau](analysis/projects/us-career-progression-plateau/README.md), with its [source search record](analysis/projects/us-career-progression-plateau/source-search-2026-09-11.md). It tests whether years on the job translate into real movement and what a slow path may leave harder around debt and housing.

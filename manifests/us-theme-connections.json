@@ -415,6 +415,31 @@
       "source_record": "analysis/projects/us-workplace-communication-fit/source-search-2026-09-11.md"
     },
     {
+      "id": "career_plateau",
+      "evidence_check": {
+        "title": "Years of work do not guarantee a higher career level",
+        "finding": "An HBS account of an analysis of 150 million resumes and wage data reports that most workers reach a mid-level plateau. More than half of people with 10 years of work data had a seniority level of 10 or higher, but only 19% of those with 20 years of experience had reached a seniority level of 20.",
+        "meaning": "Working interpretation: time at work and visible titles can hide how little real movement a person has made.",
+        "counterpoint": "A worker may choose a stable role, change sectors, value flexibility, or gain pay without a higher title. A measured plateau is not automatically failure or harm.",
+        "counterpoint_source": "https://www.nber.org/papers/w34292",
+        "limit": "The measure does not by itself show job control, health, family security, or whether a worker wanted to advance. The current account does not connect career level to a later household choice.",
+        "source": "https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work",
+        "location": "HBS Working Knowledge account of NBER Working Paper 34292. Checked 2026-09-11."
+      },
+      "project": "us-career-progression-plateau",
+      "title": "Work can continue while career movement slows",
+      "summary": "Years on the job and a new title do not always mean more responsibility, pay or room for the next life choice.",
+      "question": "What kind of progress did the worker actually gain?",
+      "limit": "The opening evidence measures career level, not the worker's full economic or family result.",
+      "subthemes": [
+        "Career movement",
+        "Mid-level work and household room"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-career-progression-plateau/source-search-2026-09-11.md"
+    },
+    {
       "id": "energy",
       "evidence_check": {
         "title": "Low-income homes spend a larger share on energy",
@@ -593,6 +618,13 @@
       "topics": ["workplace_voice", "work", "service"],
       "meaning": "Follow familiar speech from access to people-facing work into the worker's role and the service customers receive.",
       "limit": "The current evidence does not connect speech, a manager's decision, worker advancement and customer results in one record.",
+      "memo": null
+    },
+    {
+      "title": "When career movement slows around a long payment",
+      "topics": ["career_plateau", "student_debt", "housing"],
+      "meaning": "Follow measured career movement into the room left for education debt and then housing choices.",
+      "limit": "The current sources do not follow the same worker from career level through debt payment and housing.",
       "memo": null
     }
   ],
@@ -883,6 +915,22 @@
       "to": "work",
       "relation": "Familiar speech may shape access to people-facing work and advancement",
       "limit": "The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.",
+      "type": "open"
+    },
+    {
+      "id": "link-37",
+      "from": "career_plateau",
+      "to": "work",
+      "relation": "A career-level measure can show movement that titles and years alone hide",
+      "limit": "The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-38",
+      "from": "career_plateau",
+      "to": "student_debt",
+      "relation": "Slower career movement may leave less room for a long education-debt payment",
+      "limit": "No current source follows career progression and student-loan payment for the same borrower.",
       "type": "open"
     }
   ]

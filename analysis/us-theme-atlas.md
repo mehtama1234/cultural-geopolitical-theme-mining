@@ -229,6 +229,16 @@ Follow familiar speech from access to people-facing work into the worker's role 
 
 Still missing: The current evidence does not connect speech, a manager's decision, worker advancement and customer results in one record.
 
+### When career movement slows around a long payment
+
+Follow measured career movement into the room left for education debt and then housing choices.
+
+1. [Work can continue while career movement slows](#career_plateau)
+2. [A student loan can follow a person into adult choices](#student_debt)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not follow the same worker from career level through debt payment and housing.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -400,6 +410,7 @@ Connections:
 - Comparison: A short credit bridge and an education loan can both turn today's choice into a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources use different products and do not compare the same household's repayment paths.
 - Question to test: Payment trouble may reduce room for a housing choice. Related topic: Keeping a home also means paying to protect it. The current student-debt evidence does not establish a current effect on renting, buying or moving.
 - Comparison: Repayment rules can meet career and public-service choices. Related topic: The same job can contain different AI access. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
+- Question to test: Slower career movement may leave less room for a long education-debt payment. Related topic: Work can continue while career movement slows. No current source follows career progression and student-loan payment for the same borrower.
 
 ### Food is where a money problem becomes a daily condition
 
@@ -905,6 +916,7 @@ Connections:
 - Comparison: Repayment rules can meet career and public-service choices. Related topic: A student loan can follow a person into adult choices. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: A family can pay for care with time. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 - Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: Fit can decide who gets heard at work. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
+- Comparison: A career-level measure can show movement that titles and years alone hide. Related topic: Work can continue while career movement slows. The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.
 
 ### Fit can decide who gets heard at work
 
@@ -939,6 +951,41 @@ The HBS account does not provide a current employer-level hiring, promotion or p
 Connections:
 
 - Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: The same job can contain different AI access. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
+
+### Work can continue while career movement slows
+
+Years on the job and a new title do not always mean more responsibility, pay or room for the next life choice.
+
+**Question:** What kind of progress did the worker actually gain?
+
+**Subthemes:** Career movement; Mid-level work and household room
+
+**Limit:** The opening evidence measures career level, not the worker's full economic or family result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: Most Careers Stall at Mid-Level](https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work)
+- [NBER Working Paper 34292](https://www.nber.org/papers/w34292)
+- [BLS Occupational Employment and Wage Statistics](https://www.bls.gov/oes/)
+
+#### Evidence check: Years of work do not guarantee a higher career level
+
+An HBS account of an analysis of 150 million resumes and wage data reports that most workers reach a mid-level plateau. More than half of people with 10 years of work data had a seniority level of 10 or higher, but only 19% of those with 20 years of experience had reached a seniority level of 20.
+
+Working interpretation: time at work and visible titles can hide how little real movement a person has made.
+
+**Counterpoint:** A worker may choose a stable role, change sectors, value flexibility, or gain pay without a higher title. A measured plateau is not automatically failure or harm.
+[Related study](https://www.nber.org/papers/w34292)
+
+The measure does not by itself show job control, health, family security, or whether a worker wanted to advance. The current account does not connect career level to a later household choice.
+
+[HBS Working Knowledge account of NBER Working Paper 34292. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work)
+
+
+Connections:
+
+- Comparison: A career-level measure can show movement that titles and years alone hide. Related topic: The same job can contain different AI access. The measure does not show whether slower movement was chosen or imposed, or whether work became less secure.
+- Question to test: Slower career movement may leave less room for a long education-debt payment. Related topic: A student loan can follow a person into adult choices. No current source follows career progression and student-loan payment for the same borrower.
 
 ## A home can be costly to heat before anything else changes
 
