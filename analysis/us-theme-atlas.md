@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When app convenience leaves money on the trip
+
+Follow a ride from the app screen into the travel cost and the household money left afterward. Ask whether convenience hides a choice the customer could have made.
+
+1. [Two apps can show different prices while customers still compare rarely](#rideshare_price_search_friction)
+2. [Getting to a place is a major household cost](#transport)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources do not follow the same rider through comparison, service quality, fare paid and later household room.
+
 ### When the expected energy bill chooses the policy
 
 Follow a policy tool into the bill people expect, then compare that belief with the household money and energy burden the policy may create or reduce.
@@ -49,16 +59,6 @@ Follow local job dependence into work expectations and then into political judgm
 3. [Personal finances and national mood can move apart](#politics)
 
 Still missing: The current sources do not follow the same worker from employer power through a message, belief change and vote.
-
-### When lost buying power reaches the ballot
-
-Follow local pay and prices into the family's sense of room, then ask how that loss becomes blame, a vote or a demand for action.
-
-1. [Falling buying power may matter more than the inflation rate alone](#inflation_real_wages_elections)
-2. [A slower rise in prices can still feel like a loss](#price_perception)
-3. [Personal finances and national mood can move apart](#politics)
-
-Still missing: The current sources do not follow the same voter through prices, pay, media, blame and vote choice.
 
 ### When income risk at the top changes the price of money
 
@@ -1013,7 +1013,6 @@ Connections:
 - Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: The way a person pays can change the price they carry. The current evidence does not show each household's actual price, reward and total payment cost.
 - Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: The same price rise can produce different blame. The current survey does not join each respondent's price basket, income change and belief about the cause.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
-- Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: Falling buying power may matter more than the inflation rate alone. The county study does not measure each voter's actual basket, wage or personal price belief.
 - Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: The same income can buy a different life by place. The local-price study measures product indexes, not each household's remembered prices or story about them.
 
 ### The price on the screen is only part of the cost
@@ -1075,6 +1074,7 @@ Connections:
 - Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The same spending number can hide different constraints. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
 - Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
 - Question to test: Local prices change the real spending room left by the same nominal income. Related topic: The same income can buy a different life by place. The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.
+- Question to test: A missed price comparison can leave less household money after the same trip. Related topic: Two apps can show different prices while customers still compare rarely. The current study estimates fare gaps but does not measure each rider's budget or later household choice.
 
 ### Keeping a home also means paying to protect it
 
@@ -1363,6 +1363,7 @@ Connections:
 - Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Business counts do not tell us who belongs to a place. The NBER comparison is older and does not measure current household hardship or local belonging.
 - Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: The price on the screen is only part of the cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
 - Question to test: A repair can turn a normal route to work or care into a cash and access problem. Related topic: A vehicle repair can arrive before the next paycheck. The current sources do not show which households lose a trip or whether another route was available.
+- Question to test: A rideshare app turns a transport need into a choice among price, time and convenience. Related topic: Two apps can show different prices while customers still compare rarely. The current study does not show each rider's wider route, time pressure or available alternatives.
 
 ### A vehicle repair can arrive before the next paycheck
 
@@ -2242,7 +2243,6 @@ Connections:
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Future public debt can change what households expect before taxes change. The current study measures expectations, not blame, voting or demand for a particular policy.
 - Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current study does not measure political beliefs, voting or policy demand after the wealth change.
-- Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Falling buying power may matter more than the inflation rate alone. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
 - Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: A dominant employer may carry local job power into politics. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: The same job can contain different AI access. The current atlas does not follow the same worker from job condition through political belief and vote.
 - Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Public help can change how families see the economy. The current evidence points to political effects but does not measure a changed vote for the same family.
@@ -2883,39 +2883,6 @@ Connections:
 - Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: The price on the screen is only part of the cost. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
 - Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: Personal finances and national mood can move apart. The current study does not measure political beliefs, voting or policy demand after the wealth change.
 
-### Falling buying power may matter more than the inflation rate alone
-
-Local pay that no longer covers the same family budget may connect economic pressure to election results.
-
-**Question:** What part of a price shock becomes a political judgment?
-
-**Subthemes:** Buying power and local pay; Household cost and voting
-
-**Limit:** The opening study compares counties, not the full price, pay, belief and vote path of one person.
-
-Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
-
-- [Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections](https://www.nber.org/papers/w35301)
-
-#### Evidence check: Falling buying power may matter more than the inflation rate alone
-
-An NBER study using US county data on family-budget costs, nominal income and election results from 2021 to 2024 finds that falling real wages, rather than higher inflation alone, predict gains for Republican candidates. Inflation still has an association with presidential vote share beyond the real-wage measure.
-
-Working interpretation: voters may respond to whether pay covers the same life, not only to the national price number. The local loss becomes political through a story about who is responsible.
-
-**Counterpoint:** Inflation may still matter through prices people notice, expectations or national judgment. Elections also reflect candidates, parties, identity and events outside the household budget.
-[Related study](https://www.nber.org/papers/w35301)
-
-County results do not show the same voter's price basket, pay change, blame, media path or vote. The result is predictive, not proof of one person's reason.
-
-[Riaño and Trebbi, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections, NBER Working Paper 35301, checked 2026-09-11.](https://www.nber.org/papers/w35301)
-
-
-Connections:
-
-- Question to test: Local pay and prices shape whether a household experiences inflation as a loss of buying power. Related topic: A slower rise in prices can still feel like a loss. The county study does not measure each voter's actual basket, wage or personal price belief.
-- Question to test: A local loss of buying power may become a judgment about the party in power. Related topic: Personal finances and national mood can move apart. The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.
-
 ### Public help can change how families see the economy
 
 A benefit or benefit loss may change personal and national economic feeling beyond the direct income change.
@@ -2981,6 +2948,39 @@ Connections:
 
 - Question to test: Expected policy costs are easiest to judge through the energy bill a household imagines paying. Related topic: A home can be costly to heat before anything else changes. The current study measures beliefs about consumer bills, not each household's actual energy use or charge.
 - Question to test: Beliefs about policy cost can change which environmental tool voters accept. Related topic: Personal finances and national mood can move apart. The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.
+
+### Two apps can show different prices while customers still compare rarely
+
+Rideshare customers may leave money unclaimed when app habit and search effort keep them from checking both platforms.
+
+**Question:** When does convenience weaken customer price power?
+
+**Subthemes:** Price comparison and habit; Platform convenience and customer power
+
+**Limit:** The opening study measures matched fares and app opening, not each rider's full value or switching reason.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft](https://www.nber.org/papers/w34441)
+
+#### Evidence check: Two apps can show different prices while customers still compare rarely
+
+An NBER audit of 2,238 matched New York City trips found an average absolute price gap of about $3.50, or roughly 14% of the average fare. Device data show that only about 16% of people who opened one app also opened the other, even though neither app was consistently cheaper.
+
+Working interpretation: a market can look competitive while many customers see only one price. App habit and the effort of checking can leave bargaining power with the platform.
+
+**Counterpoint:** People may value wait time, reliability, discounts, account history or habit more than the lowest fare. A higher price can buy a better service or save time.
+[Related study](https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop)
+
+The study covers one city and a short price window. It does not show each rider's income, reason for choosing an app, service quality, final cost or later switching.
+
+[Fossett, Luca and Xu, Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft, NBER Working Paper 34441; NBER Digest checked 2026-09-11.](https://www.nber.org/papers/w34441)
+
+
+Connections:
+
+- Question to test: A rideshare app turns a transport need into a choice among price, time and convenience. Related topic: Getting to a place is a major household cost. The current study does not show each rider's wider route, time pressure or available alternatives.
+- Question to test: A missed price comparison can leave less household money after the same trip. Related topic: The price on the screen is only part of the cost. The current study estimates fare gaps but does not measure each rider's budget or later household choice.
 
 ## Who controls the work and gets the gain
 

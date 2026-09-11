@@ -1133,28 +1133,6 @@
 
 [Open the source-search record](projects/us-inflation-price-perception/source-search-2026-09-11.md)
 
-## US inflation, real wages, and elections
-
-**Project:** `us-inflation-real-wages-elections`
-
-**Status:** opening pass; local purchasing power and election results are compared, the individual blame and vote path remains open
-
-**Question:** Do voters punish rising prices, falling buying power, or the feeling that pay no longer covers the same life?
-
-**Sources recorded:** 1
-
-- [Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections](https://www.nber.org/papers/w35301)
-
-**Open gaps:**
-- each voter's actual price basket and pay;
-- debt, housing and benefit changes;
-- media and party messages;
-- turnout and vote choice for the same person;
-- differences by race, age, income and place;
-- whether a later policy changed the household result.
-
-[Open the source-search record](projects/us-inflation-real-wages-elections/source-search-2026-09-11.md)
-
 ## US local business and the changing hometown
 
 **Project:** `us-local-business-place`
@@ -1530,6 +1508,28 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US rideshare price search
+
+**Project:** `us-rideshare-price-search-friction`
+
+**Status:** opening pass; matched prices and app search are measured in New York City, the broader household path remains open
+
+**Question:** When two apps offer the same trip at different prices, why do many customers not check both?
+
+**Sources recorded:** 1
+
+- [Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft](https://www.nber.org/papers/w34441)
+
+**Open gaps:**
+- rider income and time value;
+- wait time, cancellation and service quality;
+- discounts and account rewards;
+- repeated trips and switching;
+- platform rules that limit comparison tools;
+- effects outside New York City.
+
+[Open the source-search record](projects/us-rideshare-price-search-friction/source-search-2026-09-11.md)
 
 ## US rising income risk at the top
 

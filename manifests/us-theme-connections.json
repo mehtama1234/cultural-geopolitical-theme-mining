@@ -1711,28 +1711,6 @@
       "source_record": "analysis/projects/us-rising-income-risk-top/source-search-2026-09-11.md"
     },
     {
-      "id": "inflation_real_wages_elections",
-      "evidence_check": {
-        "title": "Falling buying power may matter more than the inflation rate alone",
-        "finding": "An NBER study using US county data on family-budget costs, nominal income and election results from 2021 to 2024 finds that falling real wages, rather than higher inflation alone, predict gains for Republican candidates. Inflation still has an association with presidential vote share beyond the real-wage measure.",
-        "meaning": "Working interpretation: voters may respond to whether pay covers the same life, not only to the national price number. The local loss becomes political through a story about who is responsible.",
-        "counterpoint": "Inflation may still matter through prices people notice, expectations or national judgment. Elections also reflect candidates, parties, identity and events outside the household budget.",
-        "counterpoint_source": "https://www.nber.org/papers/w35301",
-        "limit": "County results do not show the same voter's price basket, pay change, blame, media path or vote. The result is predictive, not proof of one person's reason.",
-        "source": "https://www.nber.org/papers/w35301",
-        "location": "Riaño and Trebbi, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections, NBER Working Paper 35301, checked 2026-09-11."
-      },
-      "project": "us-inflation-real-wages-elections",
-      "title": "Falling buying power may matter more than the inflation rate alone",
-      "summary": "Local pay that no longer covers the same family budget may connect economic pressure to election results.",
-      "question": "What part of a price shock becomes a political judgment?",
-      "limit": "The opening study compares counties, not the full price, pay, belief and vote path of one person.",
-      "subthemes": ["Buying power and local pay", "Household cost and voting"],
-      "theme": "voice",
-      "status": "Early reading",
-      "source_record": "analysis/projects/us-inflation-real-wages-elections/source-search-2026-09-11.md"
-    },
-    {
       "id": "employer_political_influence",
       "evidence_check": {
         "title": "A dominant employer may carry local job power into politics",
@@ -1819,9 +1797,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-environmental-policy-cost-beliefs/source-search-2026-09-11.md"
+    },
+    {
+      "id": "rideshare_price_search_friction",
+      "evidence_check": {
+        "title": "Two apps can show different prices while customers still compare rarely",
+        "finding": "An NBER audit of 2,238 matched New York City trips found an average absolute price gap of about $3.50, or roughly 14% of the average fare. Device data show that only about 16% of people who opened one app also opened the other, even though neither app was consistently cheaper.",
+        "meaning": "Working interpretation: a market can look competitive while many customers see only one price. App habit and the effort of checking can leave bargaining power with the platform.",
+        "counterpoint": "People may value wait time, reliability, discounts, account history or habit more than the lowest fare. A higher price can buy a better service or save time.",
+        "counterpoint_source": "https://www.nber.org/digest/202602/do-rideshare-users-comparison-shop",
+        "limit": "The study covers one city and a short price window. It does not show each rider's income, reason for choosing an app, service quality, final cost or later switching.",
+        "source": "https://www.nber.org/papers/w34441",
+        "location": "Fossett, Luca and Xu, Leaving Money on the Dashboard: Price Dispersion and Search Frictions on Uber and Lyft, NBER Working Paper 34441; NBER Digest checked 2026-09-11."
+      },
+      "project": "us-rideshare-price-search-friction",
+      "title": "Two apps can show different prices while customers still compare rarely",
+      "summary": "Rideshare customers may leave money unclaimed when app habit and search effort keep them from checking both platforms.",
+      "question": "When does convenience weaken customer price power?",
+      "limit": "The opening study measures matched fares and app opening, not each rider's full value or switching reason.",
+      "subthemes": ["Price comparison and habit", "Platform convenience and customer power"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-rideshare-price-search-friction/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When app convenience leaves money on the trip",
+      "topics": ["rideshare_price_search_friction", "transport", "money"],
+      "meaning": "Follow a ride from the app screen into the travel cost and the household money left afterward. Ask whether convenience hides a choice the customer could have made.",
+      "limit": "The current sources do not follow the same rider through comparison, service quality, fare paid and later household room.",
+      "memo": null
+    },
     {
       "title": "When the expected energy bill chooses the policy",
       "topics": ["environmental_policy_cost_beliefs", "energy", "money"],
@@ -1848,13 +1855,6 @@
       "topics": ["employer_political_influence", "work", "politics"],
       "meaning": "Follow local job dependence into work expectations and then into political judgment. Ask whether the employer's power changes what workers think is safe to support.",
       "limit": "The current sources do not follow the same worker from employer power through a message, belief change and vote.",
-      "memo": null
-    },
-    {
-      "title": "When lost buying power reaches the ballot",
-      "topics": ["inflation_real_wages_elections", "price_perception", "politics"],
-      "meaning": "Follow local pay and prices into the family's sense of room, then ask how that loss becomes blame, a vote or a demand for action.",
-      "limit": "The current sources do not follow the same voter through prices, pay, media, blame and vote choice.",
       "memo": null
     },
     {
@@ -3256,22 +3256,6 @@
       "type": "open"
     },
     {
-      "id": "link-111",
-      "from": "inflation_real_wages_elections",
-      "to": "price_perception",
-      "relation": "Local pay and prices shape whether a household experiences inflation as a loss of buying power",
-      "limit": "The county study does not measure each voter's actual basket, wage or personal price belief.",
-      "type": "open"
-    },
-    {
-      "id": "link-112",
-      "from": "inflation_real_wages_elections",
-      "to": "politics",
-      "relation": "A local loss of buying power may become a judgment about the party in power",
-      "limit": "The current evidence predicts county vote changes but does not show individual blame, turnout or vote choice.",
-      "type": "open"
-    },
-    {
       "id": "link-113",
       "from": "employer_political_influence",
       "to": "work",
@@ -3341,6 +3325,22 @@
       "to": "politics",
       "relation": "Beliefs about policy cost can change which environmental tool voters accept",
       "limit": "The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.",
+      "type": "open"
+    },
+    {
+      "id": "link-122",
+      "from": "rideshare_price_search_friction",
+      "to": "transport",
+      "relation": "A rideshare app turns a transport need into a choice among price, time and convenience",
+      "limit": "The current study does not show each rider's wider route, time pressure or available alternatives.",
+      "type": "open"
+    },
+    {
+      "id": "link-123",
+      "from": "rideshare_price_search_friction",
+      "to": "money",
+      "relation": "A missed price comparison can leave less household money after the same trip",
+      "limit": "The current study estimates fare gaps but does not measure each rider's budget or later household choice.",
       "type": "open"
     }
   ]

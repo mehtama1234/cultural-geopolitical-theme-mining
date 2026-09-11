@@ -187,8 +187,6 @@ The next short pass is [US low-liquidity consumption constraints](analysis/proje
 
 The next short pass is [US rising income risk at the top](analysis/projects/us-rising-income-risk-top/README.md), with its [source search record](analysis/projects/us-rising-income-risk-top/source-search-2026-09-11.md). It tests whether higher saving among high earners changes wealth gaps and the wider price of money.
 
-The next short pass is [US inflation, real wages, and elections](analysis/projects/us-inflation-real-wages-elections/README.md), with its [source search record](analysis/projects/us-inflation-real-wages-elections/source-search-2026-09-11.md). It tests whether voters respond more to lost buying power than to the headline inflation rate.
-
 The next short pass is [US employer political influence](analysis/projects/us-employer-political-influence/README.md), with its [source search record](analysis/projects/us-employer-political-influence/source-search-2026-09-11.md). It tests whether a dominant local employer can carry job dependence into political belief and voting.
 
 The next short pass is [US local prices and consumption geography](analysis/projects/us-local-prices-consumption-geography/README.md), with its [source search record](analysis/projects/us-local-prices-consumption-geography/source-search-2026-09-11.md). It tests whether the same income buys a different life by place, especially for lower-income households.
@@ -196,6 +194,8 @@ The next short pass is [US local prices and consumption geography](analysis/proj
 The next short pass is [US Child Tax Credit and economic sentiment](analysis/projects/us-child-tax-credit-sentiment/README.md), with its [source search record](analysis/projects/us-child-tax-credit-sentiment/source-search-2026-09-11.md). It tests whether public help changes how families judge their own economy and government beyond the direct income change.
 
 The next short pass is [US environmental policy cost beliefs](analysis/projects/us-environmental-policy-cost-beliefs/README.md), with its [source search record](analysis/projects/us-environmental-policy-cost-beliefs/source-search-2026-09-11.md). It tests whether beliefs about the household energy bill steer which environmental policy wins.
+
+The next short pass is [US rideshare price search](analysis/projects/us-rideshare-price-search-friction/README.md), with its [source search record](analysis/projects/us-rideshare-price-search-friction/source-search-2026-09-11.md). It tests whether app convenience leaves customers with less price power even when two platforms compete.
 
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
