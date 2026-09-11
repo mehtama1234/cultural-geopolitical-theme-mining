@@ -17,6 +17,7 @@ Does the cost of medical care move pressure from the health system into househol
 | US-CFPB-MEDICAL-COLLECTIONS | [CFPB medical collections report](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/) | Medical collections can enter credit records and affect later borrowing, renting, insurance, or work; the report uses a credit-panel sample | Official credit analysis | One credit bureau's records do not cover every collection |
 | US-CFPB-MEDICAL-RULE | [CFPB medical-information rule record](https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-regulation-v/) | A 2025 medical-debt credit-reporting rule was later vacated by a federal court; the page records both actions | Official regulatory record | Legal status and practical effects need court documents and current implementation checks |
 | US-NBER-HEALTH-DEBT | [NBER household finance search starting point](https://www.nber.org/papers) | Search base for medical debt, health shocks, employment, bankruptcy, and household finance papers | Research index | Each paper must be read for its data, period, and identification |
+| US-NBER-DEPENDENT-LOCK | [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200) | An Affordable Care Act eligibility change increased dependent coverage take-up and parental job retention, showing that a family member's coverage can affect another person's work choice | NBER working paper, revised 2025 | Job retention is not the same as job quality, satisfaction, pay, or later family well-being |
 
 ## First pattern to test
 
@@ -37,6 +38,7 @@ The first link has current survey evidence. The later links need a specific stud
 - differences by state, provider, insurer, employer, and public program;
 - whether debt relief changes care or only changes the credit record;
 - how families trade medical bills against rent, food, child care, and work;
+- how employer coverage changes the work choice of a parent or caregiver;
 - evidence that challenges the idea that medical costs are driving the later outcome.
 
 ## Decision rule

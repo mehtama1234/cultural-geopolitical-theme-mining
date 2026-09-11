@@ -24,9 +24,15 @@ Two randomized experiments relieved $169 million in medical debt for 83,401 peop
 
 [NBER Working Paper 32315](https://www.nber.org/papers/w32315)
 
+### 4. Coverage can shape another family member's job choice
+
+An NBER study uses an Affordable Care Act eligibility change and employer insurance claims. It finds that longer dependent coverage increased dependent take-up and parental job retention. This shows that the person making the work choice and the person needing coverage may be different people.
+
+[NBER Working Paper 30200](https://www.nber.org/papers/w30200)
+
 ## The careful connection
 
-The three findings fit one question: when a health need arrives, which resource is used first? Some households give time, some reduce paid work, some skip care, and some carry a bill into collections. Clearing an old debt can improve a credit record without changing the care or money available today.
+The four findings fit one question: when a health need arrives, which resource is used first? Some households give time, some reduce paid work, some skip care, some keep a job for coverage, and some carry a bill into collections. Clearing an old debt can improve a credit record without changing the care or money available today.
 
 The sources do not show that skipped care creates family caregiving, or that caregiving causes medical debt. They also concern different people and periods. The supported point is narrower: health pressure can move between money, time, work and credit, and one kind of relief may not repair another kind of loss.
 
