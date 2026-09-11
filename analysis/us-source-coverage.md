@@ -1,8 +1,8 @@
 # US source coverage
 
-24 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+25 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 12; HHS: 1; IEA: 1; IMF: 1; NBER: 37; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 14; HHS: 1; IEA: 1; IMF: 1; NBER: 38; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -449,6 +449,29 @@
 - whether the pattern is temporary repricing or a lasting change in where people can live.
 
 [Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
+
+## US inflation and the price people feel
+
+**Project:** `us-inflation-price-perception`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Why can a slower rise in prices still feel like a continuing loss?
+
+**Sources recorded:** 3
+
+- [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
+- [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey)
+- [HBS: Psychological Pricing Tactics to Fight the Inflation Blues](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues)
+
+**Open gaps:**
+- the same household's prices, wages, purchases and political views over time;
+- differences by income, age, place and product mix;
+- whether firms' price explanations change demand or trust;
+- how much trading down protects a budget and how much lowers quality;
+- the gap between national inflation and the prices people see most often.
+
+[Open the source-search record](projects/us-inflation-price-perception/source-search-2026-09-11.md)
 
 ## US local business and the changing hometown
 

@@ -91,6 +91,8 @@ The next short pass is [US subscriptions and the cost of not noticing](analysis/
 
 The next short pass is [US public aid and the shape of a dollar](analysis/projects/us-transfer-design-household-spending/README.md), with its [source search record](analysis/projects/us-transfer-design-household-spending/source-search-2026-09-11.md). It tests whether cash, food, one-time and monthly aid lead to different household choices.
 
+The next short pass is [US inflation and the price people feel](analysis/projects/us-inflation-price-perception/README.md), with its [source search record](analysis/projects/us-inflation-price-perception/source-search-2026-09-11.md). It tests why a slower rise in prices can still feel like a continuing loss.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

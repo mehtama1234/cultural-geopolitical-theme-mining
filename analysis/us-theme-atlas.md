@@ -291,6 +291,16 @@ Follow the form and timing of public help into food spending, then ask whether s
 
 Still missing: The new study measures short-run food-store spending and does not follow the same families through broader needs, lasting security or political response.
 
+### When the price people see becomes the economy they judge
+
+Follow repeated prices and wage comparisons into the household's sense of room, then ask when that private loss becomes a public judgment.
+
+1. [A slower rise in prices can still feel like a loss](#price_perception)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The sources measure survey beliefs and retail price patterns separately; they do not follow the same household into a political response.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -328,6 +338,40 @@ The sample covers one card network and 2017–2021; the model range is not a dir
 Connections:
 
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: The price on the screen is only part of the cost. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
+
+### A slower rise in prices can still feel like a loss
+
+People may judge inflation through the cheap goods and wages they see repeatedly.
+
+**Question:** Which price becomes the story of the economy?
+
+**Subthemes:** Buying power; Cheap goods and household choice
+
+**Limit:** The opening evidence does not join actual household prices, wages and political response.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
+- [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey)
+- [HBS: Psychological Pricing Tactics to Fight the Inflation Blues](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues)
+
+#### Evidence check: A slower rise in prices can still feel like a loss
+
+NBER surveys of representative US samples report that people mainly dislike inflation because they believe buying power falls when wages do not keep up with prices. HBS retail-price analysis also reports faster increases for the cheapest food products than for the most expensive during the recent inflation period.
+
+Working interpretation: people may read inflation through repeated low-cost purchases and wage comparisons, not only through the national rate.
+
+**Counterpoint:** Survey beliefs are not the same as measured household loss, and a few visible prices may stand in for a much wider basket shaped by income, housing, debt and place.
+[Related study](https://www.nber.org/papers/w32300)
+
+The current sources do not follow the same household from price and wage changes to purchases, trust or voting.
+
+[Stantcheva, Why Do We Dislike Inflation?, NBER Working Paper 32300, 2024; HBS price analysis checked 2026-09-11.](https://www.nber.org/papers/w32300)
+
+
+Connections:
+
+- Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: The price on the screen is only part of the cost. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 
 ### The price on the screen is only part of the cost
 
@@ -377,6 +421,7 @@ Connections:
 - Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: Getting to a place is a major household cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The same job can contain different AI access. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: A monthly charge can survive after its value fades. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
+- Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: A slower rise in prices can still feel like a loss. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 
 ### Keeping a home also means paying to protect it
 
