@@ -106,3 +106,5 @@ The next short project is [US transportation, household cost, and access](analys
 The ninth connected memo is [When the trip is part of the price](site/us-transportation-access-path-001.html), with its [Markdown record](analysis/findings/us-transportation-access-path-001.md). It joins transportation spending, vehicle insurance, commute time and the value of place while keeping the benefit of access visible.
 
 The next short project is [US consumer fraud, recovery, and trust](analysis/projects/us-consumer-fraud-trust/README.md), with its [source search record](analysis/projects/us-consumer-fraud-trust/source-search-2026-09-11.md). It tests who carries a loss and whether a usable recovery path shapes trust.
+
+The tenth connected memo is [When a trusted service becomes a dispute](site/us-consumer-fraud-trust-path-001.html), with its [Markdown record](analysis/findings/us-consumer-fraud-trust-path-001.md). It separates scam attempts, reported losses, unrecovered losses and the still-unproven trust response.

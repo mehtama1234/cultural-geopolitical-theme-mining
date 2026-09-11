@@ -136,6 +136,8 @@ Follow a customer problem from the account or payment system to the effort to re
 
 Still missing: The current sources do not follow one consumer from fraud through recovery and a change in trust or political behavior.
 
+[Read the complete connected memo](../site/us-consumer-fraud-trust-path-001.html)
+
 ### When the trip is part of the price
 
 Follow household energy and transportation cost into the time and money needed to reach work or services.
