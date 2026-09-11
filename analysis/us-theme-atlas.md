@@ -219,6 +219,16 @@ Still missing: The current studies do not connect worker AI use to customer reme
 
 [Read the complete connected memo](../site/us-customer-service-recourse-path-001.html)
 
+### When workplace fit becomes a work gate
+
+Follow familiar speech from access to people-facing work into the worker's role and the service customers receive.
+
+1. [Fit can decide who gets heard at work](#workplace_voice)
+2. [The same job can contain different AI access](#work)
+3. [A quicker reply may still leave a problem open](#service)
+
+Still missing: The current evidence does not connect speech, a manager's decision, worker advancement and customer results in one record.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -894,6 +904,41 @@ Connections:
 - Question to test: Travel cost and time can change which work a household can keep. Related topic: Getting to a place is a major household cost. The current averages do not show whether a specific commute caused a job or hour change.
 - Comparison: Repayment rules can meet career and public-service choices. Related topic: A student loan can follow a person into adult choices. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: A family can pay for care with time. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
+- Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: Fit can decide who gets heard at work. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
+
+### Fit can decide who gets heard at work
+
+Communication style may shape access to people-facing work before a manager measures what a person can actually do.
+
+**Question:** When does familiarity look like skill?
+
+**Subthemes:** Speech and social skill; Access to people-facing work
+
+**Limit:** The opening evidence shows job sorting, not a full hiring, pay or promotion effect.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: When Workplaces Favor People Who Sound the Same](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same)
+- [NLSY79 data](https://www.bls.gov/nls/nlsy79.htm)
+- [Census occupation data](https://www.census.gov/topics/employment/industry-occupation.html)
+
+#### Evidence check: Familiar speech may open more people-facing work
+
+An HBS account of research using Census, labor-market and audio records reports that the link between measured social skills and socially intensive work was at least 2.5 times stronger when workers spoke like the cultural group dominant in the workplace.
+
+Working interpretation: a manager may read familiarity as social skill, which can shape access to work where communication matters.
+
+**Counterpoint:** Speech, region, occupation and skill are linked in complex ways. The result is a group pattern, not proof that every hiring or promotion decision was biased.
+[Related study](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same)
+
+The HBS account does not provide a current employer-level hiring, promotion or pay audit. The audio and occupation measures also do not show what each manager heard or decided.
+
+[HBS Working Knowledge account of Workplace Communication as Systemic Disadvantage, HBS Working Paper 26-059. Checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same)
+
+
+Connections:
+
+- Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: The same job can contain different AI access. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
 
 ## A home can be costly to heat before anything else changes
 

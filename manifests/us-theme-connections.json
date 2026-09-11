@@ -390,6 +390,31 @@
       "source_record": "analysis/projects/ai-work-control/source-search-2026-09-11.md"
     },
     {
+      "id": "workplace_voice",
+      "evidence_check": {
+        "title": "Familiar speech may open more people-facing work",
+        "finding": "An HBS account of research using Census, labor-market and audio records reports that the link between measured social skills and socially intensive work was at least 2.5 times stronger when workers spoke like the cultural group dominant in the workplace.",
+        "meaning": "Working interpretation: a manager may read familiarity as social skill, which can shape access to work where communication matters.",
+        "counterpoint": "Speech, region, occupation and skill are linked in complex ways. The result is a group pattern, not proof that every hiring or promotion decision was biased.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same",
+        "limit": "The HBS account does not provide a current employer-level hiring, promotion or pay audit. The audio and occupation measures also do not show what each manager heard or decided.",
+        "source": "https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same",
+        "location": "HBS Working Knowledge account of Workplace Communication as Systemic Disadvantage, HBS Working Paper 26-059. Checked 2026-09-11."
+      },
+      "project": "us-workplace-communication-fit",
+      "title": "Fit can decide who gets heard at work",
+      "summary": "Communication style may shape access to people-facing work before a manager measures what a person can actually do.",
+      "question": "When does familiarity look like skill?",
+      "limit": "The opening evidence shows job sorting, not a full hiring, pay or promotion effect.",
+      "subthemes": [
+        "Speech and social skill",
+        "Access to people-facing work"
+      ],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-workplace-communication-fit/source-search-2026-09-11.md"
+    },
+    {
       "id": "energy",
       "evidence_check": {
         "title": "Low-income homes spend a larger share on energy",
@@ -562,6 +587,13 @@
       "meaning": "Follow the worker's AI tool into the customer's first answer, then ask who can fix a disputed loss or decision.",
       "limit": "The current studies do not connect worker AI use to customer remedy, appeal or fraud recovery in one setting.",
       "memo": "../site/us-customer-service-recourse-path-001.html"
+    },
+    {
+      "title": "When workplace fit becomes a work gate",
+      "topics": ["workplace_voice", "work", "service"],
+      "meaning": "Follow familiar speech from access to people-facing work into the worker's role and the service customers receive.",
+      "limit": "The current evidence does not connect speech, a manager's decision, worker advancement and customer results in one record.",
+      "memo": null
     }
   ],
   "edges": [
@@ -843,6 +875,14 @@
       "to": "work",
       "relation": "Unpaid eldercare can use hours that are also needed for paid work",
       "limit": "Time-use data show overlap but do not establish whether care changed employment, hours or earnings.",
+      "type": "open"
+    },
+    {
+      "id": "link-36",
+      "from": "workplace_voice",
+      "to": "work",
+      "relation": "Familiar speech may shape access to people-facing work and advancement",
+      "limit": "The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.",
       "type": "open"
     }
   ]

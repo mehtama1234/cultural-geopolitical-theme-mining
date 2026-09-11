@@ -1,8 +1,8 @@
 # US source coverage
 
-17 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+18 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 9; CMS: 1; Census: 10; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 29; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 5; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 8; HHS: 1; IEA: 1; IMF: 1; NBER: 29; OFR: 1; Other: 19; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -483,3 +483,27 @@
 - whether transport cost changes work, housing or local business choice.
 
 [Open the source-search record](projects/us-transportation-household-access/source-search-2026-09-11.md)
+
+## US workplace communication and the price of fitting in
+
+**Project:** `us-workplace-communication-fit`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Does familiar speech change access to socially intensive work, and does that become a hidden hiring or promotion filter?
+
+**Sources recorded:** 3
+
+- [HBS: When Workplaces Favor People Who Sound the Same](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same)
+- [NLSY79 data](https://www.bls.gov/nls/nlsy79.htm)
+- [Census occupation data](https://www.census.gov/topics/employment/industry-occupation.html)
+
+**Open gaps:**
+- hiring and promotion records by speech pattern and job;
+- whether speech affects pay after skill, education and experience;
+- differences across race, gender, immigrant status, region and class;
+- whether remote work changes the importance of local speech;
+- whether better structured evaluation weakens the pattern;
+- whether a different communication style is valuable in some customer or team settings.
+
+[Open the source-search record](projects/us-workplace-communication-fit/source-search-2026-09-11.md)
