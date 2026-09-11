@@ -1,8 +1,8 @@
 # US source coverage
 
-58 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+59 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 96; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 98; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -453,6 +453,29 @@
 - results outside one hotline and city.
 
 [Open the source-search record](projects/us-emergency-assistance-work-path/source-search-2026-09-11.md)
+
+## US emergency credit after a disaster
+
+**Project:** `us-emergency-credit-disaster`
+
+**Status:** opening pass; a protective effect is measured, full loan burden remains open
+
+**Question:** When does borrowing protect a household, and when does it only move the loss forward?
+
+**Sources recorded:** 2
+
+- [Credit When You Need It](https://www.nber.org/papers/w32845)
+- [On the Resilience of Payment Methods](https://www.nber.org/papers/w35115)
+
+**Open gaps:**
+- uninsured loss and the need the loan covered;
+- approval, amount, rate and repayment terms;
+- cash, insurance and aid received at the same time;
+- bankruptcy, delinquency and credit access;
+- car, home, work, health and family outcomes;
+- differences by income, race, place, disability and disaster type.
+
+[Open the source-search record](projects/us-emergency-credit-disaster/source-search-2026-09-11.md)
 
 ## US employee ownership and the meaning of the work
 

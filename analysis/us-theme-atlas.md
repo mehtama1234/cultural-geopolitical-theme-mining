@@ -644,6 +644,16 @@ Follow an outage into the ability to pay, then ask which households can still bu
 
 Still missing: The payment study does not show the same household's essential purchase, outage loss and later recovery.
 
+### When emergency credit protects the next three years
+
+Follow disaster credit into bankruptcy, later purchases and household room, while keeping the loan cost and preserved need visible.
+
+1. [Well-timed credit can keep a disaster from becoming bankruptcy](#emergency_credit_disaster)
+2. [Credit can be a bridge and a later bill](#credit)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The disaster-loan study measures credit records and selected outcomes; it does not show every household's avoided loss or full repayment burden.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -968,6 +978,7 @@ Connections:
 - Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Removing medical debt can fix the record without fixing the illness. The current experiment does not show how the credit change affects housing, work or later household money.
 - Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: A temporary payment can become a long monthly bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
 - Question to test: A payment or account record can change what credit is available later. Related topic: A payment record can become a gate to a home. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
+- Question to test: Emergency credit can reduce severe distress while adding a new repayment record. Related topic: Well-timed credit can keep a disaster from becoming bankruptcy. The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.
 
 ### A student loan can follow a person into adult choices
 
@@ -1466,6 +1477,40 @@ The study does not measure actual tenant take-up, claims, premiums, landlord beh
 Connections:
 
 - Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Keeping a home also means paying to protect it. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
+
+### Well-timed credit can keep a disaster from becoming bankruptcy
+
+Emergency credit can reduce severe financial distress after a disaster when it arrives early enough and on workable terms.
+
+**Question:** When does borrowing protect a household, and when does it only move the loss forward?
+
+**Subthemes:** Liquidity after a shock; Credit terms and recovery
+
+**Limit:** The opening evidence concerns a federal disaster-loan program and does not describe ordinary consumer credit or every household's need.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Credit When You Need It](https://www.nber.org/papers/w32845)
+- [On the Resilience of Payment Methods](https://www.nber.org/papers/w35115)
+
+#### Evidence check: Well-timed credit can keep a disaster from becoming bankruptcy
+
+NBER links US Federal Disaster Loan applications to credit records and uses an approval cutoff to compare similar applicants. It finds that approved emergency credit reduced the likelihood of bankruptcy by 61% over the following three years, with additional car purchases even three years later. The evidence points to liquidity—the ability to pay at the right time—as the main channel.
+
+Working interpretation: credit can be protective when it arrives after a shock and before missed bills compound. The timing and terms matter more than approval alone.
+
+**Counterpoint:** The loans covered uninsured damage after federally declared disasters and were available to applicants who reached the program. The result may not apply to ordinary high-interest consumer credit or households that cannot qualify.
+[Related study](https://www.nber.org/papers/w32845)
+
+The study does not show the loan's full cost, which household need was preserved, or whether the later car purchase improved or strained household finances.
+
+[Collier, Hartley, Keys and Ng, Credit When You Need It, NBER Working Paper 32845, checked 2026-09-11.](https://www.nber.org/papers/w32845)
+
+
+Connections:
+
+- Question to test: Emergency credit can reduce severe distress while adding a new repayment record. Related topic: Credit can be a bridge and a later bill. The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.
+- Comparison: A disaster can create both a payment-access problem and a need for liquidity. Related topic: A power outage can turn payment choice into a basic access problem. The current studies examine different disaster channels and do not follow one household from payment failure to loan receipt and recovery.
 
 ## Who gives up time
 
@@ -2803,6 +2848,7 @@ Connections:
 
 - Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: The price on the screen is only part of the cost. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
 - Question to test: Electricity and network reliability can shape whether digital money remains usable during a disaster. Related topic: A home can be costly to heat before anything else changes. The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.
+- Comparison: A disaster can create both a payment-access problem and a need for liquidity. Related topic: Well-timed credit can keep a disaster from becoming bankruptcy. The current studies examine different disaster channels and do not follow one household from payment failure to loan receipt and recovery.
 
 ## Reading rule
 

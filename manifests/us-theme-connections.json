@@ -1401,6 +1401,28 @@
       "theme": "energy",
       "status": "Early reading",
       "source_record": "analysis/projects/us-payment-system-outage-resilience/source-search-2026-09-11.md"
+    },
+    {
+      "id": "emergency_credit_disaster",
+      "evidence_check": {
+        "title": "Well-timed credit can keep a disaster from becoming bankruptcy",
+        "finding": "NBER links US Federal Disaster Loan applications to credit records and uses an approval cutoff to compare similar applicants. It finds that approved emergency credit reduced the likelihood of bankruptcy by 61% over the following three years, with additional car purchases even three years later. The evidence points to liquidity—the ability to pay at the right time—as the main channel.",
+        "meaning": "Working interpretation: credit can be protective when it arrives after a shock and before missed bills compound. The timing and terms matter more than approval alone.",
+        "counterpoint": "The loans covered uninsured damage after federally declared disasters and were available to applicants who reached the program. The result may not apply to ordinary high-interest consumer credit or households that cannot qualify.",
+        "counterpoint_source": "https://www.nber.org/papers/w32845",
+        "limit": "The study does not show the loan's full cost, which household need was preserved, or whether the later car purchase improved or strained household finances.",
+        "source": "https://www.nber.org/papers/w32845",
+        "location": "Collier, Hartley, Keys and Ng, Credit When You Need It, NBER Working Paper 32845, checked 2026-09-11."
+      },
+      "project": "us-emergency-credit-disaster",
+      "title": "Well-timed credit can keep a disaster from becoming bankruptcy",
+      "summary": "Emergency credit can reduce severe financial distress after a disaster when it arrives early enough and on workable terms.",
+      "question": "When does borrowing protect a household, and when does it only move the loss forward?",
+      "limit": "The opening evidence concerns a federal disaster-loan program and does not describe ordinary consumer credit or every household's need.",
+      "subthemes": ["Liquidity after a shock", "Credit terms and recovery"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-emergency-credit-disaster/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1820,6 +1842,13 @@
       "topics": ["payment_system_outage_resilience", "money", "energy"],
       "meaning": "Follow an outage into the ability to pay, then ask which households can still buy food, medicine, fuel or other essentials.",
       "limit": "The payment study does not show the same household's essential purchase, outage loss and later recovery.",
+      "memo": null
+    },
+    {
+      "title": "When emergency credit protects the next three years",
+      "topics": ["emergency_credit_disaster", "credit", "money"],
+      "meaning": "Follow disaster credit into bankruptcy, later purchases and household room, while keeping the loan cost and preserved need visible.",
+      "limit": "The disaster-loan study measures credit records and selected outcomes; it does not show every household's avoided loss or full repayment burden.",
       "memo": null
     }
   ],
@@ -2495,6 +2524,22 @@
       "relation": "Electricity and network reliability can shape whether digital money remains usable during a disaster",
       "limit": "The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.",
       "type": "open"
+    },
+    {
+      "id": "link-85",
+      "from": "emergency_credit_disaster",
+      "to": "credit",
+      "relation": "Emergency credit can reduce severe distress while adding a new repayment record",
+      "limit": "The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.",
+      "type": "open"
+    },
+    {
+      "id": "link-86",
+      "from": "emergency_credit_disaster",
+      "to": "payment_system_outage_resilience",
+      "relation": "A disaster can create both a payment-access problem and a need for liquidity",
+      "limit": "The current studies examine different disaster channels and do not follow one household from payment failure to loan receipt and recovery.",
+      "type": "comparison"
     }
   ]
 }
