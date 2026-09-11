@@ -965,6 +965,7 @@ The current evidence does not show the interest lost by each household or the ne
 Connections:
 
 - Question to test: A depositor's staying habit may leave less interest in the household budget while giving the bank steadier funding. Related topic: The price on the screen is only part of the cost. The current study does not measure the same customer's alternative rate, fees, switching cost or household use of the money.
+- Question to test: The effort and trust built into a banking relationship can make a low rate feel easier to accept than a switch. Related topic: A quicker reply may still leave a problem open. The current evidence does not measure the service value each depositor receives or the exact switching cost they face.
 
 ### A monthly charge can survive after its value fades
 
@@ -999,6 +1000,7 @@ The sample covers one card network and 2017–2021; the model range is not a dir
 Connections:
 
 - Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: The price on the screen is only part of the cost. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
+- Question to test: The value of a subscription can fade while the service keeps collecting through automatic renewal. Related topic: A quicker reply may still leave a problem open. The current evidence does not show when each customer stopped valuing the service or why they stayed.
 
 ### A trade policy can reach the shelf slowly
 
@@ -1078,6 +1080,7 @@ Connections:
 - Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: The same income can buy a different life by place. The local-price study measures product indexes, not each household's remembered prices or story about them.
 - Question to test: A price that rises in stages can make a trade policy harder to trace to the household bill. Related topic: A tariff can reach US prices later through domestic markups. The current evidence does not show what price story each household notices or who it blames.
 - Question to test: A group-specific price can become part of how customers understand fairness in a market. Related topic: Competition can protect the customers most able to leave. The current evidence does not measure each customer's price awareness, blame or later action.
+- Question to test: The price stories people select can shape which costs feel typical and which policy cause seems believable. Related topic: Bad price news can weigh more than good price news. The current evidence does not show the same person's news choices, price basket and later economic action.
 
 ### The price on the screen is only part of the cost
 
@@ -1142,6 +1145,19 @@ Connections:
 - Question to test: A household's belief about a rate change can alter spending, saving or borrowing room. Related topic: Households may hear a rate increase as a price warning. The current survey measures reported beliefs and reactions, not the same household's later financial records.
 - Question to test: Keeping a job for health coverage can change the wage and household money choices a worker can make. Related topic: Health coverage can hold a job in place. The current studies do not compare the same worker's coverage value, pay, job quality and later financial room.
 - Question to test: A due-date gap can turn the energy bill into a wider payment and household-budget problem. Related topic: A bill due date can become part of the energy burden. The current evidence does not show the same household's later arrears, borrowing, shutoff or health outcome.
+- Question to test: A benefit loss can make extra earnings leave a family with little or no extra room. Related topic: More work does not always mean more room. The current evidence does not show the full benefit, tax and work budget for the same family.
+- Question to test: A financed durable purchase trades today's need against tomorrow's monthly spending room. Related topic: A temporary payment can become a long monthly bill. The current evidence does not follow the same buyer from the purchase offer through repayment or missed payments.
+- Question to test: A worker's ownership claim matters when it changes the money, risk or security that reaches the household. Related topic: Ownership means little unless workers can see the link. The current evidence does not show the same worker's ownership value, pay, job risk and household result.
+- Question to test: Family help can protect one budget by drawing on another family's money and time. Related topic: Family help can move a shock between generations. The current evidence does not measure the full cost or later strain for the family giving help.
+- Question to test: Cash received by one person can change the spending room and work choices of the whole household. Related topic: Cash can change the choices of people who did not receive it. The current evidence does not show the same household's full income, spending and work response.
+- Question to test: A fee that is hard to see can reduce the money left after an apparently affordable choice. Related topic: A low first price can hide a higher choice. The current evidence does not measure each customer's total fee burden or later budget change.
+- Question to test: When business ownership moves away, local income and spending may no longer stay tied to the place. Related topic: The hometown tie in entrepreneurship has weakened. The current evidence measures founder location, not local income, prices, jobs or business survival.
+- Question to test: Unsteady pay changes the cash available in the month even when average income looks adequate. Related topic: Average income can hide an unsafe month. The current evidence does not follow the same household's income timing, bills, borrowing and savings.
+- Question to test: Repairing a medical debt record may open money choices without removing the health cost that caused the debt. Related topic: Removing medical debt can fix the record without fixing the illness. The current evidence does not show the same person's later care, budget, credit use and health outcome.
+- Question to test: Several jobs can make the same pay less usable after travel, schedule gaps and lost saving room. Related topic: Equal income can buy a different life through several jobs. The current evidence does not isolate worker choice from family need, health or unstable hours.
+- Question to test: Payment rules can move a small charge between the buyer, seller and the money left in the household budget. Related topic: The way a person pays can change the price they carry. The current evidence does not show each buyer's total payment cost or whether prices change after the fee moves.
+- Question to test: Unclear debt rules can make a household hold back spending even before a payment is due. Related topic: A promise about debt can change spending before the rule is settled. The current evidence does not show the same borrower's full budget, payment path and later spending.
+- Question to test: The form and timing of public help can change how much spending room reaches the household. Related topic: The form of public help changes what families buy. The current evidence does not show the same family's full transfer, spending and saving path.
 
 ### Keeping a home also means paying to protect it
 
@@ -1243,6 +1259,7 @@ Connections:
 - Question to test: A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question. Related topic: A fee rule can help people with cash more than people without it. The current studies do not follow the same shortage across bank and nonbank credit products.
 - Question to test: A rising home-insurance cost can meet the credit record and borrowing terms attached to the home. Related topic: Insurance risk can become a home and credit problem. The current sources do not follow the same owner through the premium, loan terms, payment and coverage choice.
 - Question to test: A repair deadline can turn transport access into a short-term borrowing or repayment choice. Related topic: A vehicle repair can arrive before the next paycheck. The current sources do not follow the same household from repair need through credit use and later access.
+- Question to test: A rent guarantee can move a short payment shock away from the tenant while creating a new risk and claim record. Related topic: Rent insurance could move a short shock away from the tenant. The current evidence does not show the same tenant's premium, claim, rent payment and later credit result.
 
 ### A student loan can follow a person into adult choices
 
@@ -1392,6 +1409,7 @@ The new study covers pandemic-era programs and short-run food-store spending. It
 Connections:
 
 - Question to test: The form and timing of public help may change how a household uses the program. Related topic: Help can exist but be hard to keep. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
+- Question to test: The form and timing of public help can change how much spending room reaches the household. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same family's full transfer, spending and saving path.
 
 ### Getting to a place is a major household cost
 
@@ -1503,6 +1521,7 @@ The experiment concerns downstream debt sold to collectors and selected relief p
 Connections:
 
 - Question to test: Medical debt relief can change a credit path even when the health problem remains. Related topic: Credit can be a bridge and a later bill. The current experiment does not show how the credit change affects housing, work or later household money.
+- Question to test: Repairing a medical debt record may open money choices without removing the health cost that caused the debt. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same person's later care, budget, credit use and health outcome.
 
 ### Regular cash can change who can afford to live together
 
@@ -1537,6 +1556,7 @@ The current study does not show that every living-arrangement change lasted or i
 Connections:
 
 - Question to test: Regular cash can change whether a household can stay, move or live more independently. Related topic: Keeping a home also means paying to protect it. The current evidence does not show whether the new arrangement is safer, lasting or better for every family.
+- Question to test: Who receives cash can change who is counted as part of a household that needs help. Related topic: Help can exist but be hard to keep. The current evidence does not show how household members change their living arrangement after cash support.
 
 ### A temporary payment can become a long monthly bill
 
@@ -1571,6 +1591,7 @@ The current sources do not follow the same household from purchase and loan term
 Connections:
 
 - Question to test: A large purchase can turn temporary household room into a longer credit obligation. Related topic: Credit can be a bridge and a later bill. The current evidence does not show whether the financed purchase protected access or reduced later financial room.
+- Question to test: A financed durable purchase trades today's need against tomorrow's monthly spending room. Related topic: The price on the screen is only part of the cost. The current evidence does not follow the same buyer from the purchase offer through repayment or missed payments.
 
 ### A low first price can hide a higher choice
 
@@ -1606,6 +1627,7 @@ The current sources do not show every shopper's final household cost, whether th
 Connections:
 
 - Question to test: A fee shown late can change the price a shopper believes they are comparing. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's final cost or later budget and trust response.
+- Question to test: A fee that is hard to see can reduce the money left after an apparently affordable choice. Related topic: The price on the screen is only part of the cost. The current evidence does not measure each customer's total fee burden or later budget change.
 
 ### The way a person pays can change the price they carry
 
@@ -1641,6 +1663,7 @@ The current sources do not show every household's actual price, reward, interest
 Connections:
 
 - Question to test: A merchant payment fee can enter the common price even when shoppers use different payment methods. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show each household's actual price, reward and total payment cost.
+- Question to test: Payment rules can move a small charge between the buyer, seller and the money left in the household budget. Related topic: The price on the screen is only part of the cost. The current evidence does not show each buyer's total payment cost or whether prices change after the fee moves.
 
 ### An eviction order can narrow several choices at once
 
@@ -1746,6 +1769,7 @@ The study does not measure actual tenant take-up, claims, premiums, landlord beh
 Connections:
 
 - Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Keeping a home also means paying to protect it. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
+- Question to test: A rent guarantee can move a short payment shock away from the tenant while creating a new risk and claim record. Related topic: Credit can be a bridge and a later bill. The current evidence does not show the same tenant's premium, claim, rent payment and later credit result.
 
 ### Well-timed credit can keep a disaster from becoming bankruptcy
 
@@ -1956,6 +1980,7 @@ Connections:
 - Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: Older consumers are not one market. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
 - Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: Family help can move a shock between generations. The current sources do not show whether the helper loses work, income, health or future security.
 - Question to test: Cash to one household member can change another member's training or care path. Related topic: Cash can change the choices of people who did not receive it. The current evidence does not show whether the care report reflects new need, better detection or worse health.
+- Question to test: A small return-to-office requirement can change the time a remote worker gives to travel and home life. Related topic: One office day can change the remote week. The current evidence does not measure the same worker's travel, care, output and well-being together.
 
 ### Family time can replace a large cash payment
 
@@ -2025,6 +2050,7 @@ We do not yet have a current US consumer record linking aid choice, social judgm
 Connections:
 
 - Question to test: A social cost can change whether people use a tool meant to protect their attention. Related topic: A useful app can still make leaving difficult. The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.
+- Question to test: A product that asks people to change a habit is also asking them to accept a new way of getting a service. Related topic: A quicker reply may still leave a problem open. The current evidence does not show which service features, stigma or trust make the habit change last.
 
 ### A useful app can still make leaving difficult
 
@@ -2097,6 +2123,7 @@ The current sources do not follow both sides of one family around one event or s
 Connections:
 
 - Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: A family can pay for care with time. The current sources do not show whether the helper loses work, income, health or future security.
+- Question to test: Family help can protect one budget by drawing on another family's money and time. Related topic: The price on the screen is only part of the cost. The current evidence does not measure the full cost or later strain for the family giving help.
 
 ### Cash can change the choices of people who did not receive it
 
@@ -2131,6 +2158,7 @@ The current experiment does not show how household roles, health, work and debt 
 Connections:
 
 - Question to test: Cash to one household member can change another member's training or care path. Related topic: A family can pay for care with time. The current evidence does not show whether the care report reflects new need, better detection or worse health.
+- Question to test: Cash received by one person can change the spending room and work choices of the whole household. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's full income, spending and work response.
 
 ### Working from home can change what a household buys and pays
 
@@ -2270,6 +2298,7 @@ The current sources do not show whether better marketing or age-friendly design 
 Connections:
 
 - Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: A family can pay for care with time. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
+- Question to test: Different health and living needs can make the same customer service easy for one older person and hard for another. Related topic: A quicker reply may still leave a problem open. The current evidence does not show whether better service design improves older customers' outcomes.
 
 ### The vote may respond more to lost buying power than inflation alone
 
@@ -2388,6 +2417,8 @@ Connections:
 - Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Public help can change how families see the economy. The current evidence points to political effects but does not measure a changed vote for the same family.
 - Question to test: Beliefs about policy cost can change which environmental tool voters accept. Related topic: Beliefs about who pays can change which policy wins. The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.
 - Question to test: Lost local buying power may become a broader judgment about government and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.
+- Question to test: A lost cash benefit can turn a household money change into a judgment about government. Related topic: A lost benefit can change how families read the economy. The current evidence does not identify the same person's blame, trust, turnout or vote choice.
+- Question to test: Being heard or ignored at work can shape how a person judges power and rules outside work. Related topic: Fit can decide who gets heard at work. The current evidence does not show the same worker's workplace voice, wider trust and political action.
 
 ### Help can exist but be hard to keep
 
@@ -2430,6 +2461,7 @@ Connections:
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: More work does not always mean more room. The current evidence does not show the same family's total resources after benefit loss and added pay.
 - Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: A lost benefit can change how families read the economy. The current sentiment result does not show a later change in trust, turnout or vote.
 - Question to test: A change in public cash help can alter both household room and how that help is judged. Related topic: Public help can change how families see the economy. The current study measures perceived well-being but does not show the same family's total aid, spending or later security.
+- Question to test: Who receives cash can change who is counted as part of a household that needs help. Related topic: Regular cash can change who can afford to live together. The current evidence does not show how household members change their living arrangement after cash support.
 
 ### A payment problem can become a recovery problem
 
@@ -2507,6 +2539,7 @@ Connections:
 - Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Getting to a place is a major household cost. The NBER comparison is older and does not measure current household hardship or local belonging.
 - Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: The hometown tie in entrepreneurship has weakened. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
 - Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: New residents are workers and customers at once. The current evidence does not show how housing, wages, public capacity and belonging change together.
+- Question to test: A support rule based on firm size can change which local businesses survive and which services remain nearby. Related topic: A bigger small-business rule can squeeze the smallest firms. The current evidence does not follow local firm survival, jobs, prices and customer access after the rule changes.
 
 ### A quicker reply may still leave a problem open
 
@@ -2552,6 +2585,12 @@ Connections:
 - Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: Competition can protect the customers most able to leave. The historical study measures treatment and prices but does not show today's service quality or switching path.
 - Question to test: A platform-owned product can change the choices and service fit customers see at search. Related topic: A platform-owned product can help some customers and still raise competition concerns. The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.
 - Question to test: An AI support product is also a service whose safety, remedy and route to human care must be judged. Related topic: An AI support app can comfort and hold attention. The current studies do not measure the same user's support app, service failure, human-care access and later well-being.
+- Question to test: The effort and trust built into a banking relationship can make a low rate feel easier to accept than a switch. Related topic: Staying with one bank can carry a quiet cost. The current evidence does not measure the service value each depositor receives or the exact switching cost they face.
+- Question to test: A product that asks people to change a habit is also asking them to accept a new way of getting a service. Related topic: A useful tool can feel like an admission. The current evidence does not show which service features, stigma or trust make the habit change last.
+- Comparison: New residents can add demand for local services while also changing the workers available to provide them. Related topic: New residents are workers and customers at once. The current evidence does not measure the same place's service quality, prices and customer access together.
+- Question to test: Different health and living needs can make the same customer service easy for one older person and hard for another. Related topic: Older consumers are not one market. The current evidence does not show whether better service design improves older customers' outcomes.
+- Comparison: A driver rule is useful to customers only if it changes the safety, reliability or service they receive. Related topic: A license rule may not improve the ride customers receive. The current studies do not measure all three customer outcomes in one setting over time.
+- Question to test: The value of a subscription can fade while the service keeps collecting through automatic renewal. Related topic: A monthly charge can survive after its value fades. The current evidence does not show when each customer stopped valuing the service or why they stayed.
 
 ### More work does not always mean more room
 
@@ -2587,6 +2626,7 @@ The current sources do not follow the same family's earnings, benefits, necessar
 Connections:
 
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: Help can exist but be hard to keep. The current evidence does not show the same family's total resources after benefit loss and added pay.
+- Question to test: A benefit loss can make extra earnings leave a family with little or no extra room. Related topic: The price on the screen is only part of the cost. The current evidence does not show the full benefit, tax and work budget for the same family.
 
 ### A lost benefit can change how families read the economy
 
@@ -2621,6 +2661,7 @@ The current evidence does not connect the sentiment change to the same household
 Connections:
 
 - Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: Help can exist but be hard to keep. The current sentiment result does not show a later change in trust, turnout or vote.
+- Question to test: A lost cash benefit can turn a household money change into a judgment about government. Related topic: Personal finances and national mood can move apart. The current evidence does not identify the same person's blame, trust, turnout or vote choice.
 
 ### New residents are workers and customers at once
 
@@ -2656,6 +2697,7 @@ The current sources do not show the same place's current housing, wages, service
 Connections:
 
 - Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not show how housing, wages, public capacity and belonging change together.
+- Comparison: New residents can add demand for local services while also changing the workers available to provide them. Related topic: A quicker reply may still leave a problem open. The current evidence does not measure the same place's service quality, prices and customer access together.
 
 ### A payment record can become a gate to a home
 
@@ -2758,6 +2800,7 @@ The opening paper does not show each owner's household result, customer prices, 
 Connections:
 
 - Comparison: The size rule decides which firms can reach the public support that may keep them alive after a shock. Related topic: Emergency business credit can keep local work alive. The current studies examine different support rules and do not show whether the same firms receive help before and after a disaster.
+- Question to test: A support rule based on firm size can change which local businesses survive and which services remain nearby. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not follow local firm survival, jobs, prices and customer access after the rule changes.
 
 ### A promise about debt can change spending before the rule is settled
 
@@ -2791,6 +2834,7 @@ The study does not show how beliefs formed outside the experiment, which househo
 Connections:
 
 - Question to test: Uncertain forgiveness or payment rules can change how a borrower carries student debt before the balance changes. Related topic: A student loan can follow a person into adult choices. The current study identifies payment and spending responses but does not show the borrower's full later debt and housing path.
+- Question to test: Unclear debt rules can make a household hold back spending even before a payment is due. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same borrower's full budget, payment path and later spending.
 
 ### People may hear the same economic message differently by party
 
@@ -2895,6 +2939,7 @@ The studies do not show each household's complete media diet, price basket, trus
 Connections:
 
 - Question to test: Which price stories people see may shape the inflation causes and policy responses they consider. Related topic: The same price rise can produce different blame. The current studies do not connect one household's media exposure, cause belief and policy action.
+- Question to test: The price stories people select can shape which costs feel typical and which policy cause seems believable. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same person's news choices, price basket and later economic action.
 
 ### Future public debt can change what households expect before taxes change
 
@@ -3266,6 +3311,7 @@ The current evidence measures where self-employed people stay, not local busines
 Connections:
 
 - Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
+- Question to test: When business ownership moves away, local income and spending may no longer stay tied to the place. Related topic: The price on the screen is only part of the cost. The current evidence measures founder location, not local income, prices, jobs or business survival.
 
 ### Equal income can buy a different life through several jobs
 
@@ -3299,6 +3345,7 @@ The current evidence does not identify whether instability, worker choice, famil
 Connections:
 
 - Question to test: The number of jobs can change what work gives a household beyond its pay. Related topic: The same job can contain different AI access. The current evidence shows spending differences but does not isolate the role of job structure from worker and household selection.
+- Question to test: Several jobs can make the same pay less usable after travel, schedule gaps and lost saving room. Related topic: The price on the screen is only part of the cost. The current evidence does not isolate worker choice from family need, health or unstable hours.
 
 ### The same job can contain different AI access
 
@@ -3425,6 +3472,7 @@ The HBS account does not provide a current employer-level hiring, promotion or p
 Connections:
 
 - Question to test: Familiar speech may shape access to people-facing work and advancement. Related topic: The same job can contain different AI access. The current HBS evidence shows job sorting, not a direct hiring, promotion or pay decision for a specific worker.
+- Question to test: Being heard or ignored at work can shape how a person judges power and rules outside work. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same worker's workplace voice, wider trust and political action.
 
 ### Work can continue while career movement slows
 
@@ -3494,6 +3542,7 @@ The study concerns one company, one equity plan and a short period. The current 
 Connections:
 
 - Question to test: A clearly explained ownership claim may change whether workers stay and how they see daily work. Related topic: The same job can contain different AI access. The current study measures retention and identification, not effort, safety, customer outcomes or decision power.
+- Question to test: A worker's ownership claim matters when it changes the money, risk or security that reaches the household. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same worker's ownership value, pay, job risk and household result.
 
 ### One office day can change the remote week
 
@@ -3528,6 +3577,7 @@ The paper does not establish the best schedule for all jobs or workers, or wheth
 Connections:
 
 - Question to test: Planned in-person contact may change communication, feedback and retention in remote work. Related topic: The same job can contain different AI access. The current trial concerns one employer and does not show effects on pay, promotion or worker choice.
+- Question to test: A small return-to-office requirement can change the time a remote worker gives to travel and home life. Related topic: A family can pay for care with time. The current evidence does not measure the same worker's travel, care, output and well-being together.
 
 ### A small business and its household can share one cash pool
 
@@ -3634,6 +3684,7 @@ The current sources do not follow one worker's pay, cash buffer, credit terms an
 Connections:
 
 - Question to test: A less predictable paycheck can change what work leaves a household able to plan and buy. Related topic: The same job can contain different AI access. The current evidence does not show whether the spending change came from risk, pay level, worker choice or another condition.
+- Question to test: Unsteady pay changes the cash available in the month even when average income looks adequate. Related topic: The price on the screen is only part of the cost. The current evidence does not follow the same household's income timing, bills, borrowing and savings.
 
 ### Keeping a home may protect the next job
 
@@ -3799,6 +3850,7 @@ The opening evidence does not show fares, wait times, worker income, entry costs
 Connections:
 
 - Comparison: A licensing rule can change the driver pool behind the prices and service choices customers compare. Related topic: Two apps can show different prices while customers still compare rarely. The current studies examine licensing and price search separately and do not show their joint market effect.
+- Comparison: A driver rule is useful to customers only if it changes the safety, reliability or service they receive. Related topic: A quicker reply may still leave a problem open. The current studies do not measure all three customer outcomes in one setting over time.
 
 ## A home can be costly to heat before anything else changes
 

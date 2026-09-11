@@ -3660,6 +3660,214 @@
       "relation": "An AI support product is also a service whose safety, remedy and route to human care must be judged",
       "limit": "The current studies do not measure the same user's support app, service failure, human-care access and later well-being.",
       "type": "open"
+    },
+    {
+      "id": "link-142",
+      "from": "bank_inertia",
+      "to": "service",
+      "relation": "The effort and trust built into a banking relationship can make a low rate feel easier to accept than a switch",
+      "limit": "The current evidence does not measure the service value each depositor receives or the exact switching cost they face.",
+      "type": "open"
+    },
+    {
+      "id": "link-143",
+      "from": "benefit_cliff_work_choice",
+      "to": "money",
+      "relation": "A benefit loss can make extra earnings leave a family with little or no extra room",
+      "limit": "The current evidence does not show the full benefit, tax and work budget for the same family.",
+      "type": "open"
+    },
+    {
+      "id": "link-144",
+      "from": "cash_aid_household_structure",
+      "to": "aid",
+      "relation": "Who receives cash can change who is counted as part of a household that needs help",
+      "limit": "The current evidence does not show how household members change their living arrangement after cash support.",
+      "type": "open"
+    },
+    {
+      "id": "link-145",
+      "from": "durable_purchase_finance",
+      "to": "money",
+      "relation": "A financed durable purchase trades today's need against tomorrow's monthly spending room",
+      "limit": "The current evidence does not follow the same buyer from the purchase offer through repayment or missed payments.",
+      "type": "open"
+    },
+    {
+      "id": "link-146",
+      "from": "employee_ownership",
+      "to": "money",
+      "relation": "A worker's ownership claim matters when it changes the money, risk or security that reaches the household",
+      "limit": "The current evidence does not show the same worker's ownership value, pay, job risk and household result.",
+      "type": "open"
+    },
+    {
+      "id": "link-147",
+      "from": "family_support_buffer",
+      "to": "money",
+      "relation": "Family help can protect one budget by drawing on another family's money and time",
+      "limit": "The current evidence does not measure the full cost or later strain for the family giving help.",
+      "type": "open"
+    },
+    {
+      "id": "link-148",
+      "from": "guaranteed_income_household",
+      "to": "money",
+      "relation": "Cash received by one person can change the spending room and work choices of the whole household",
+      "limit": "The current evidence does not show the same household's full income, spending and work response.",
+      "type": "open"
+    },
+    {
+      "id": "link-149",
+      "from": "habit_change",
+      "to": "service",
+      "relation": "A product that asks people to change a habit is also asking them to accept a new way of getting a service",
+      "limit": "The current evidence does not show which service features, stigma or trust make the habit change last.",
+      "type": "open"
+    },
+    {
+      "id": "link-150",
+      "from": "hidden_fee_price_salience",
+      "to": "money",
+      "relation": "A fee that is hard to see can reduce the money left after an apparently affordable choice",
+      "limit": "The current evidence does not measure each customer's total fee burden or later budget change.",
+      "type": "open"
+    },
+    {
+      "id": "link-151",
+      "from": "hometown_entrepreneurship",
+      "to": "money",
+      "relation": "When business ownership moves away, local income and spending may no longer stay tied to the place",
+      "limit": "The current evidence measures founder location, not local income, prices, jobs or business survival.",
+      "type": "open"
+    },
+    {
+      "id": "link-152",
+      "from": "immigration_local_demand",
+      "to": "service",
+      "relation": "New residents can add demand for local services while also changing the workers available to provide them",
+      "limit": "The current evidence does not measure the same place's service quality, prices and customer access together.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-153",
+      "from": "income_volatility_spending",
+      "to": "money",
+      "relation": "Unsteady pay changes the cash available in the month even when average income looks adequate",
+      "limit": "The current evidence does not follow the same household's income timing, bills, borrowing and savings.",
+      "type": "open"
+    },
+    {
+      "id": "link-154",
+      "from": "medical_debt_relief",
+      "to": "money",
+      "relation": "Repairing a medical debt record may open money choices without removing the health cost that caused the debt",
+      "limit": "The current evidence does not show the same person's later care, budget, credit use and health outcome.",
+      "type": "open"
+    },
+    {
+      "id": "link-155",
+      "from": "multiple_job_strain",
+      "to": "money",
+      "relation": "Several jobs can make the same pay less usable after travel, schedule gaps and lost saving room",
+      "limit": "The current evidence does not isolate worker choice from family need, health or unstable hours.",
+      "type": "open"
+    },
+    {
+      "id": "link-156",
+      "from": "news_selection_inflation",
+      "to": "price_perception",
+      "relation": "The price stories people select can shape which costs feel typical and which policy cause seems believable",
+      "limit": "The current evidence does not show the same person's news choices, price basket and later economic action.",
+      "type": "open"
+    },
+    {
+      "id": "link-157",
+      "from": "older_consumer_segments",
+      "to": "service",
+      "relation": "Different health and living needs can make the same customer service easy for one older person and hard for another",
+      "limit": "The current evidence does not show whether better service design improves older customers' outcomes.",
+      "type": "open"
+    },
+    {
+      "id": "link-158",
+      "from": "payment_fee_redistribution",
+      "to": "money",
+      "relation": "Payment rules can move a small charge between the buyer, seller and the money left in the household budget",
+      "limit": "The current evidence does not show each buyer's total payment cost or whether prices change after the fee moves.",
+      "type": "open"
+    },
+    {
+      "id": "link-159",
+      "from": "policy_sentiment_cash",
+      "to": "politics",
+      "relation": "A lost cash benefit can turn a household money change into a judgment about government",
+      "limit": "The current evidence does not identify the same person's blame, trust, turnout or vote choice.",
+      "type": "open"
+    },
+    {
+      "id": "link-160",
+      "from": "remote_contact",
+      "to": "care",
+      "relation": "A small return-to-office requirement can change the time a remote worker gives to travel and home life",
+      "limit": "The current evidence does not measure the same worker's travel, care, output and well-being together.",
+      "type": "open"
+    },
+    {
+      "id": "link-161",
+      "from": "rent_guarantee_insurance",
+      "to": "credit",
+      "relation": "A rent guarantee can move a short payment shock away from the tenant while creating a new risk and claim record",
+      "limit": "The current evidence does not show the same tenant's premium, claim, rent payment and later credit result.",
+      "type": "open"
+    },
+    {
+      "id": "link-162",
+      "from": "rideshare_licensing_customer_safety",
+      "to": "service",
+      "relation": "A driver rule is useful to customers only if it changes the safety, reliability or service they receive",
+      "limit": "The current studies do not measure all three customer outcomes in one setting over time.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-163",
+      "from": "small_business_support_size_cutoff",
+      "to": "place",
+      "relation": "A support rule based on firm size can change which local businesses survive and which services remain nearby",
+      "limit": "The current evidence does not follow local firm survival, jobs, prices and customer access after the rule changes.",
+      "type": "open"
+    },
+    {
+      "id": "link-164",
+      "from": "student_loan_policy_uncertainty",
+      "to": "money",
+      "relation": "Unclear debt rules can make a household hold back spending even before a payment is due",
+      "limit": "The current evidence does not show the same borrower's full budget, payment path and later spending.",
+      "type": "open"
+    },
+    {
+      "id": "link-165",
+      "from": "subscription_inattention",
+      "to": "service",
+      "relation": "The value of a subscription can fade while the service keeps collecting through automatic renewal",
+      "limit": "The current evidence does not show when each customer stopped valuing the service or why they stayed.",
+      "type": "open"
+    },
+    {
+      "id": "link-166",
+      "from": "transfer_design",
+      "to": "money",
+      "relation": "The form and timing of public help can change how much spending room reaches the household",
+      "limit": "The current evidence does not show the same family's full transfer, spending and saving path.",
+      "type": "open"
+    },
+    {
+      "id": "link-167",
+      "from": "workplace_voice",
+      "to": "politics",
+      "relation": "Being heard or ignored at work can shape how a person judges power and rules outside work",
+      "limit": "The current evidence does not show the same worker's workplace voice, wider trust and political action.",
+      "type": "open"
     }
   ]
 }
