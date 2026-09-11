@@ -1,8 +1,8 @@
 # US source coverage
 
-32 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+33 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 21; HHS: 1; IEA: 1; IMF: 1; NBER: 47; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 22; HHS: 1; IEA: 1; IMF: 1; NBER: 49; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -617,6 +617,30 @@
 - whether firms shift risk to workers while calling the arrangement flexible.
 
 [Open the source-search record](projects/us-multiple-job-spending-strain/source-search-2026-09-11.md)
+
+## US older consumers are not one market
+
+**Project:** `us-older-consumer-segments`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** How do health, wealth and independence change what older consumers need and buy?
+
+**Sources recorded:** 3
+
+- [HBS: What Brands Get Wrong About the Over-65 Market](https://www.library.hbs.edu/working-knowledge/what-brands-get-wrong-about-the-over-65-market)
+- [NBER: Explanations for the Decline in Spending at Older Ages](https://www.nber.org/papers/w30460)
+- [NBER: Old Age Risks, Consumption, and Insurance](https://www.nber.org/papers/w27348)
+
+**Open gaps:**
+- outcomes by age, health, wealth and living arrangement together;
+- customer service, prices and product access;
+- digital access and disability;
+- influence on family purchases and care decisions;
+- financial scams, insurance and medical costs;
+- whether age-friendly design improves independence.
+
+[Open the source-search record](projects/us-older-consumer-segments/source-search-2026-09-11.md)
 
 ## US privacy rules and the decision to share
 

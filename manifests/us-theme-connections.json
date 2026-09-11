@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "older_consumer_segments",
+      "evidence_check": {
+        "title": "Older consumers are not one market",
+        "finding": "HBS reports that older customers differ in health and activity while often holding substantial buying power, repeat buying and influence on younger consumers. NBER evidence shows that spending and satisfaction at older ages also vary with health, widowhood and changing enjoyment.",
+        "meaning": "Working interpretation: age alone hides different needs, resources and risks, so the same product or service can help one older customer and miss another.",
+        "counterpoint": "More detailed targeting can improve fit, but it can also lead to exclusion, higher prices or pressure to buy. Lower spending may be a choice, loss or constraint.",
+        "counterpoint_source": "https://www.nber.org/papers/w30460",
+        "limit": "The current sources do not show whether better marketing or age-friendly design improves older people's financial, health or service outcomes.",
+        "source": "https://www.library.hbs.edu/working-knowledge/what-brands-get-wrong-about-the-over-65-market",
+        "location": "HBS Working Knowledge, May 7, 2026; NBER aging studies checked 2026-09-11."
+      },
+      "project": "us-older-consumer-segments",
+      "title": "Older consumers are not one market",
+      "summary": "Health, wealth, independence and living situation can matter more than age alone.",
+      "question": "Who benefits from being seen as an older customer?",
+      "limit": "The opening evidence does not connect targeting to better household or service outcomes.",
+      "subthemes": ["Age and health", "Buying power and vulnerability"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-older-consumer-segments/source-search-2026-09-11.md"
+    },
+    {
       "id": "household_rate_response",
       "evidence_check": {
         "title": "Households may hear a rate increase as a price warning",
@@ -1009,6 +1031,13 @@
       "meaning": "Follow a central-bank decision into what households expect about prices and borrowing, then into spending, saving and financial room.",
       "limit": "The current studies use randomized information and reported expectations; they do not follow the same household's policy exposure, financial records and trust.",
       "memo": null
+    },
+    {
+      "title": "When age hides different kinds of need",
+      "topics": ["older_consumer_segments", "care", "money"],
+      "meaning": "Follow differences in health, independence and buying power into care and household money, then ask whether firms serve or sort older customers fairly.",
+      "limit": "The current sources describe segments, spending and health risk separately; they do not follow the same older customer through a product or care decision.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1426,6 +1455,14 @@
       "to": "price_perception",
       "relation": "A rate message may change how households read future prices and their own buying power",
       "limit": "The current evidence does not identify which households change beliefs and later purchases or savings in their records.",
+      "type": "open"
+    },
+    {
+      "id": "link-53",
+      "from": "older_consumer_segments",
+      "to": "care",
+      "relation": "Health and independence can change both what older customers need and what care costs them",
+      "limit": "The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.",
       "type": "open"
     }
   ]

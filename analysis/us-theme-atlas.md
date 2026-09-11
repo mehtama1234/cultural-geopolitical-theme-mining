@@ -371,6 +371,16 @@ Follow a central-bank decision into what households expect about prices and borr
 
 Still missing: The current studies use randomized information and reported expectations; they do not follow the same household's policy exposure, financial records and trust.
 
+### When age hides different kinds of need
+
+Follow differences in health, independence and buying power into care and household money, then ask whether firms serve or sort older customers fairly.
+
+1. [Older consumers are not one market](#older_consumer_segments)
+2. [A family can pay for care with time](#care)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current sources describe segments, spending and health risk separately; they do not follow the same older customer through a product or care decision.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -906,6 +916,7 @@ Connections:
 - Question to test: Less paid work could leave less money for bills. Related topic: The price on the screen is only part of the cost. Check earnings around the start of care and borrowing afterward.
 - Comparison: Different kinds of family care can use the same scarce hours. Related topic: Family time can replace a large cash payment. The current packets do not show how elder care and childcare compete within one household schedule.
 - Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: The same job can contain different AI access. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
+- Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: Older consumers are not one market. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
 
 ### Family time can replace a large cash payment
 
@@ -1014,6 +1025,40 @@ Connections:
 ## Who can get an answer or change a decision
 
 Look for actual choices and responses before claiming that trust or power changed.
+
+### Older consumers are not one market
+
+Health, wealth, independence and living situation can matter more than age alone.
+
+**Question:** Who benefits from being seen as an older customer?
+
+**Subthemes:** Age and health; Buying power and vulnerability
+
+**Limit:** The opening evidence does not connect targeting to better household or service outcomes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: What Brands Get Wrong About the Over-65 Market](https://www.library.hbs.edu/working-knowledge/what-brands-get-wrong-about-the-over-65-market)
+- [NBER: Explanations for the Decline in Spending at Older Ages](https://www.nber.org/papers/w30460)
+- [NBER: Old Age Risks, Consumption, and Insurance](https://www.nber.org/papers/w27348)
+
+#### Evidence check: Older consumers are not one market
+
+HBS reports that older customers differ in health and activity while often holding substantial buying power, repeat buying and influence on younger consumers. NBER evidence shows that spending and satisfaction at older ages also vary with health, widowhood and changing enjoyment.
+
+Working interpretation: age alone hides different needs, resources and risks, so the same product or service can help one older customer and miss another.
+
+**Counterpoint:** More detailed targeting can improve fit, but it can also lead to exclusion, higher prices or pressure to buy. Lower spending may be a choice, loss or constraint.
+[Related study](https://www.nber.org/papers/w30460)
+
+The current sources do not show whether better marketing or age-friendly design improves older people's financial, health or service outcomes.
+
+[HBS Working Knowledge, May 7, 2026; NBER aging studies checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/what-brands-get-wrong-about-the-over-65-market)
+
+
+Connections:
+
+- Question to test: Health and independence can change both what older customers need and what care costs them. Related topic: A family can pay for care with time. The current marketing and aging studies do not measure the same customer's product access, care use, price or well-being.
 
 ### The vote may respond more to lost buying power than inflation alone
 
