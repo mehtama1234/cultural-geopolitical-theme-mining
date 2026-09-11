@@ -102,6 +102,31 @@
       "source_record": "analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md"
     },
     {
+      "id": "food",
+      "evidence_check": {
+        "title": "Food is where a money problem can become a daily condition",
+        "finding": "USDA estimates that 13.7% of US households, or 18.3 million, were food insecure at some point in 2024; 5.4% experienced very low food security. In the Federal Reserve's shorter 2024 survey, 7% of adults said their household sometimes or often did not have enough to eat in the prior month, including 19% below $25,000 income and 2% at $100,000 or more.",
+        "meaning": "Working interpretation: food hardship makes household pressure visible as a daily choice, not only as a balance or price measure. Keep annual food insecurity and one-month food insufficiency separate.",
+        "counterpoint": "The national USDA rate was not statistically different from 2023, so a high level of hardship is not the same as a newly worsening trend. Food access also depends on household size, disability, stores, school meals and public programs.",
+        "counterpoint_source": "https://www.ers.usda.gov/publications/113622",
+        "limit": "USDA and Fed measures use different questions and time windows. Neither shows whether a household used credit, skipped care or reduced energy use before the food outcome.",
+        "source": "https://www.ers.usda.gov/publications/113622",
+        "location": "USDA ERS Household Food Security in the United States in 2024 and Federal Reserve 2024 household survey comparison. Checked 2026-09-11."
+      },
+      "project": "us-food-budget-security",
+      "title": "Food is where a money problem becomes a daily condition",
+      "summary": "A household can keep a bill current by changing what it buys, how much it eats, or who it asks for help.",
+      "question": "Which need gives way when the budget does not stretch?",
+      "limit": "The opening packet measures food hardship, not the order of the household's tradeoffs.",
+      "subthemes": [
+        "Food insecurity",
+        "Household tradeoffs"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-food-budget-security/source-search-2026-09-11.md"
+    },
+    {
       "id": "health",
       "evidence_check": {
         "title": "Removing old debt may leave today's choices unchanged",
@@ -335,6 +360,12 @@
       "meaning": "Follow a household cost from the bill to the decision to borrow, then ask what later payment or access changes.",
       "limit": "The current sources do not follow one household from an energy or housing bill through borrowing and repayment.",
       "memo": "../site/us-credit-buffer-path-001.html"
+    },
+    {
+      "title": "When the budget reaches the dinner table",
+      "topics": ["money", "food", "health"],
+      "meaning": "Follow household cost pressure into food, then ask what health or care choice may follow.",
+      "limit": "The current sources use different households and time windows; they do not show that a specific bill caused a specific food or health change."
     }
   ],
   "edges": [
@@ -465,6 +496,22 @@
       "relation": "A credit record can change access to housing and other basic services",
       "limit": "Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.",
       "type": "comparison"
+    },
+    {
+      "id": "link-17",
+      "from": "money",
+      "to": "food",
+      "relation": "Financial pressure can reach the food budget before it appears as a missed debt payment",
+      "limit": "The current surveys do not show which bill was paid or delayed before the food outcome.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-18",
+      "from": "food",
+      "to": "health",
+      "relation": "Less food or lower food quality may shape health and care choices",
+      "limit": "Food hardship and skipped care are separate measures; a causal link needs same-household evidence.",
+      "type": "open"
     }
   ]
 }

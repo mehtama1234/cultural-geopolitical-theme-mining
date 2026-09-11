@@ -1,8 +1,8 @@
 # US source coverage
 
-11 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+12 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 7; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 10; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 18; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 6; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 11; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 18; Other government: 3; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -216,6 +216,31 @@
 - whether energy and insurance costs arrive together for the same household.
 
 [Open the source-search record](projects/us-energy-household-burden/source-search-2026-09-11.md)
+
+## US food, the household budget, and basic security
+
+**Project:** `us-food-budget-security`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When money gets tight, what does a household change first to keep food available?
+
+**Sources recorded:** 5
+
+- [USDA Household Food Security in the United States in 2024](https://www.ers.usda.gov/publications/113622)
+- [USDA food-security key statistics](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics)
+- [Federal Reserve income and expenses report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [Census Household Trends and Outlook Pulse Survey](https://www.census.gov/newsroom/press-releases/2026/household-trends-outlook-pulse-survey.html)
+- [CFPB medical collections research](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
+
+**Open gaps:**
+- the same-household sequence of food cuts, borrowing, energy payment and skipped care;
+- food insecurity by rent, insurance, energy burden and credit status;
+- county or state changes tied to benefit rules and food prices;
+- differences between household food insecurity and individual food intake;
+- whether public assistance prevents debt or only delays another shortfall.
+
+[Open the source-search record](projects/us-food-budget-security/source-search-2026-09-11.md)
 
 ## US health costs and the choices people give up
 

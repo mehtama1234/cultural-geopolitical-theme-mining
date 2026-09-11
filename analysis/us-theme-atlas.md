@@ -90,6 +90,16 @@ Still missing: The current sources do not follow one household from an energy or
 
 [Read the complete connected memo](../site/us-credit-buffer-path-001.html)
 
+### When the budget reaches the dinner table
+
+Follow household cost pressure into food, then ask what health or care choice may follow.
+
+1. [The price on the screen is only part of the cost](#money)
+2. [Food is where a money problem becomes a daily condition](#food)
+3. [People can pay the bills by giving up care](#health)
+
+Still missing: The current sources use different households and time windows; they do not show that a specific bill caused a specific food or health change.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -137,6 +147,7 @@ Connections:
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: Keeping a home also means paying to protect it. The current sources do not follow the same households across these costs or show which bill is given up first.
 - Question to test: A high energy share can leave less room for other household payments. Related topic: A home can be costly to heat before anything else changes. The current burden measure does not show which payment households cut or delay.
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources do not show whether the later payment reduced another need or was repaid without strain.
+- Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: Food is where a money problem becomes a daily condition. The current surveys do not show which bill was paid or delayed before the food outcome.
 
 ### Keeping a home also means paying to protect it
 
@@ -218,6 +229,43 @@ Connections:
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: The price on the screen is only part of the cost. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 - Comparison: A credit record can change access to housing and other basic services. Related topic: Keeping a home also means paying to protect it. Medical-collection evidence shows possible access effects, not the effect of this emergency-borrowing path.
 
+### Food is where a money problem becomes a daily condition
+
+A household can keep a bill current by changing what it buys, how much it eats, or who it asks for help.
+
+**Question:** Which need gives way when the budget does not stretch?
+
+**Subthemes:** Food insecurity; Household tradeoffs
+
+**Limit:** The opening packet measures food hardship, not the order of the household's tradeoffs.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [USDA Household Food Security in the United States in 2024](https://www.ers.usda.gov/publications/113622)
+- [USDA food-security key statistics](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics)
+- [Federal Reserve income and expenses report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [Census Household Trends and Outlook Pulse Survey](https://www.census.gov/newsroom/press-releases/2026/household-trends-outlook-pulse-survey.html)
+- [CFPB medical collections research](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
+
+#### Evidence check: Food is where a money problem can become a daily condition
+
+USDA estimates that 13.7% of US households, or 18.3 million, were food insecure at some point in 2024; 5.4% experienced very low food security. In the Federal Reserve's shorter 2024 survey, 7% of adults said their household sometimes or often did not have enough to eat in the prior month, including 19% below $25,000 income and 2% at $100,000 or more.
+
+Working interpretation: food hardship makes household pressure visible as a daily choice, not only as a balance or price measure. Keep annual food insecurity and one-month food insufficiency separate.
+
+**Counterpoint:** The national USDA rate was not statistically different from 2023, so a high level of hardship is not the same as a newly worsening trend. Food access also depends on household size, disability, stores, school meals and public programs.
+[Related study](https://www.ers.usda.gov/publications/113622)
+
+USDA and Fed measures use different questions and time windows. Neither shows whether a household used credit, skipped care or reduced energy use before the food outcome.
+
+[USDA ERS Household Food Security in the United States in 2024 and Federal Reserve 2024 household survey comparison. Checked 2026-09-11.](https://www.ers.usda.gov/publications/113622)
+
+
+Connections:
+
+- Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: The price on the screen is only part of the cost. The current surveys do not show which bill was paid or delayed before the food outcome.
+- Question to test: Less food or lower food quality may shape health and care choices. Related topic: People can pay the bills by giving up care. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
+
 ### People can pay the bills by giving up care
 
 Skipped treatment can keep spending down while leaving a need unmet.
@@ -252,6 +300,7 @@ Connections:
 - Comparison: Cost can lead people to use less protection or care. Related topic: Keeping a home also means paying to protect it. Parallel household choices; neither packet proves the same people face both.
 - Question to test: An unmet care need may require more family time. Related topic: A family can pay for care with time. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
+- Question to test: Less food or lower food quality may shape health and care choices. Related topic: Food is where a money problem becomes a daily condition. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
 
 ### A home can be costly to heat before anything else changes
 
