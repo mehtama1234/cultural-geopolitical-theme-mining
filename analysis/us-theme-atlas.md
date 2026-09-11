@@ -173,6 +173,17 @@ Still missing: The current sources do not show that a specific price or benefit 
 
 [Read the complete connected memo](../site/us-cost-trust-politics-path-001.html)
 
+### When family care becomes a work decision
+
+Follow unpaid eldercare into paid work, earnings and the choices made around the household schedule.
+
+1. [A family can pay for care with time](#care)
+2. [The same job can contain different AI access](#work)
+
+Still missing: The current time-use data show overlap, not whether care changed employment or employment changed who provided care.
+
+[Read the complete connected memo](../site/us-aging-care-work-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -479,6 +490,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER caregiving and labor supply](https://www.nber.org/papers/w31450)
 - [Census families and living arrangements](https://www.census.gov/newsroom/press-releases/2025/families-and-living-arrangements.html)
 - [HHS caregiver tax-credit review](https://aspe.hhs.gov/reports/caregiver-tax-credit)
+- [BLS 2023–24 unpaid eldercare release](https://www.bls.gov/news.release/elcare.htm)
 
 #### Evidence check: Work can change before care starts
 
@@ -496,6 +508,7 @@ Connections:
 - Question to test: An unmet care need may require more family time. Related topic: People can pay the bills by giving up care. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Less paid work could leave less money for bills. Related topic: The price on the screen is only part of the cost. Check earnings around the start of care and borrowing afterward.
 - Comparison: Different kinds of family care can use the same scarce hours. Related topic: Family time can replace a large cash payment. The current packets do not show how elder care and childcare compete within one household schedule.
+- Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: The same job can contain different AI access. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 
 ### Family time can replace a large cash payment
 
@@ -841,6 +854,7 @@ Connections:
 - Question to test: Childcare cost or disruption can change paid work time. Related topic: Family time can replace a large cash payment. Reported work loss does not by itself prove that childcare caused the change.
 - Question to test: Travel cost and time can change which work a household can keep. Related topic: Getting to a place is a major household cost. The current averages do not show whether a specific commute caused a job or hour change.
 - Comparison: Repayment rules can meet career and public-service choices. Related topic: A student loan can follow a person into adult choices. The NBER study is narrow and older; it does not establish the current effect across workers or occupations.
+- Question to test: Unpaid eldercare can use hours that are also needed for paid work. Related topic: A family can pay for care with time. Time-use data show overlap but do not establish whether care changed employment, hours or earnings.
 
 ## A home can be costly to heat before anything else changes
 

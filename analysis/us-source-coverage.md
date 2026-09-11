@@ -56,7 +56,7 @@
 
 **Project:** `us-aging-care-strain`
 
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; the care-to-work effect remains open
 
 **Question:** Does unpaid care change work and household security before it is counted as an economic cost?
 

@@ -114,3 +114,5 @@ The next short project is [US student debt and adult life choices](analysis/proj
 The eleventh connected memo is [When education debt follows the first job](site/us-student-debt-life-choices-path-001.html), with its [Markdown record](analysis/findings/us-student-debt-life-choices-path-001.md). It joins borrower payment trouble, credit-record delinquency and a possible life-choice mechanism without treating the links as proven for every borrower.
 
 The twelfth connected memo is [When household choices become a judgment about the country](site/us-cost-trust-politics-path-001.html), with its [Markdown record](analysis/findings/us-cost-trust-politics-path-001.md). It joins price actions, personal and national economic views, and public trust while keeping party identity and voting effects open.
+
+The thirteenth connected memo is [When family care becomes a work decision](site/us-aging-care-work-path-001.html), with its [Markdown record](analysis/findings/us-aging-care-work-path-001.md). It joins unpaid eldercare, paid work and household scheduling while keeping the direction of the work effect open.

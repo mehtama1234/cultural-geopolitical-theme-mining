@@ -534,6 +534,13 @@
       "meaning": "Follow a price or benefit change into the household action, then keep personal finances, national economic views and trust as separate steps.",
       "limit": "The current sources do not show that a specific price or benefit change caused a change in trust, voting or policy demand.",
       "memo": "../site/us-cost-trust-politics-path-001.html"
+    },
+    {
+      "title": "When family care becomes a work decision",
+      "topics": ["care", "work"],
+      "meaning": "Follow unpaid eldercare into paid work, earnings and the choices made around the household schedule.",
+      "limit": "The current time-use data show overlap, not whether care changed employment or employment changed who provided care.",
+      "memo": "../site/us-aging-care-work-path-001.html"
     }
   ],
   "edges": [
@@ -808,6 +815,14 @@
       "relation": "Repayment rules can meet career and public-service choices",
       "limit": "The NBER study is narrow and older; it does not establish the current effect across workers or occupations.",
       "type": "comparison"
+    },
+    {
+      "id": "link-35",
+      "from": "care",
+      "to": "work",
+      "relation": "Unpaid eldercare can use hours that are also needed for paid work",
+      "limit": "Time-use data show overlap but do not establish whether care changed employment, hours or earnings.",
+      "type": "open"
     }
   ]
 }
