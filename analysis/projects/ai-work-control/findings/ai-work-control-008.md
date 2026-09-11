@@ -26,7 +26,7 @@ workers and representatives receive information -> they can question the purpose
 
 The case study supports the existence of this governance path. Its five detailed cases include rules over digital replicas, retraining and workforce data, housekeeping task order, biometric access, and outsourced content work. It does not prove that participation produces better outcomes in every setting.
 
-The Kenyan content-moderation dispute adds an important boundary condition. A trial court issued interim protections while workers’ claims against the contractor and lead firm were pending, but the Court of Appeal later set those interim orders aside. The appellate judgment did not decide the underlying merits. So legal reach, temporary protection, and durable remedy must be tracked as separate outcomes.
+The Kenyan content-moderation dispute adds an important boundary condition. A trial court issued interim protections while workers’ claims against the contractor and lead firm were pending. In two related appellate judgments, the Court of Appeal set aside some interim orders in the Sama/Majorel appeal but dismissed Meta’s jurisdiction and continuation-of-orders appeals. Neither judgment decided the underlying merits. So legal reach, temporary protection, and durable remedy must be tracked as separate outcomes.
 
 ## What to record in each case
 

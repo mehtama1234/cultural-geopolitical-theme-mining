@@ -23,7 +23,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 ## Evidence count
 
-- 47 claims in the ledger;
+- 49 claims in the ledger;
 - 8 provisional findings;
 - 3 company bridges;
 - 1 theme map;
@@ -42,6 +42,7 @@ The exact machine-readable counts and source-family breakdown are in the JSON ma
 6. Flexible access can coexist with gendered safety, care, and asset constraints.
 7. Worker participation before deployment may be stronger than appeal after harm.
 8. Reaching a lead firm in court may not produce a durable remedy when interim protections are overturned.
+9. Related appeals in one dispute can produce different procedural outcomes; case headlines conceal which protection was actually decided.
 
 These are not errors to smooth away. They may reflect different tools, populations, outcomes, time windows, or institutions. The next research pass must compare those differences directly.
 

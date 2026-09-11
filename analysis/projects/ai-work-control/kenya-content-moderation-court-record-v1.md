@@ -7,6 +7,7 @@
 ## Primary record
 
 - [Samasource EPZ Limited t/a Sama v Meta Platforms, Incorporated & 186 others, Kenya Court of Appeal judgment, 20 September 2024](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1152/eng%402024-09-20/source), accessed 2026-09-11.
+- [Meta Platforms, Inc & another v Motaung & another, Kenya Court of Appeal judgment, 20 September 2024](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1262/eng%402024-09-20/source), accessed 2026-09-11.
 
 The record is an appellate judgment about interim orders. It is not a final ruling on every employment, health, discrimination, or union claim.
 
@@ -16,6 +17,7 @@ The record is an appellate judgment about interim orders. It is not a final ruli
 - The trial court had issued interim orders concerning termination, contractual terms, replacement hiring, care, and immigration status while the petition was pending.
 - The Court of Appeal held that the interim mandatory orders could effectively determine parts of the dispute before a full hearing.
 - On 20 September 2024, the Court of Appeal allowed the consolidated appeals, set aside the 2 June 2023 ruling and consequential orders, and substituted an order dismissing the relevant application.
+- In a separate but related judgment on the same date, the Court of Appeal dismissed Meta’s appeals concerning jurisdiction and the continuation of interim orders, finding those appeals without merit and awarding costs to the respondents.
 
 ## What it does not establish
 
@@ -47,4 +49,4 @@ The first two links appear in the record; the third remains open. This is direct
 
 ## Relation to the ILO case table
 
-This record updates the Kenyan row in [the ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md). It makes the case a contested pathway rather than a simple example of successful worker organizing.
+These paired records update the Kenyan row in [the ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md). They make the case a contested pathway with different outcomes across different appeals, rather than a simple example of successful or unsuccessful worker organizing.
