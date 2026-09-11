@@ -68,3 +68,5 @@ The following short pass is [US aging, care, and the hidden second job](analysis
 The next short pass is [US local business and the changing hometown](analysis/projects/us-local-business-place/README.md), with its [source search record](analysis/projects/us-local-business-place/source-search-2026-09-11.md).
 
 The following short pass is [US customer service, automation, and the right to reach a person](analysis/projects/us-customer-automation-recourse/README.md), with its [source search record](analysis/projects/us-customer-automation-recourse/source-search-2026-09-11.md).
+
+The next short pass is [US digital habits, attention, and the need to leave](analysis/projects/us-digital-habits-attention/README.md), with its [source search record](analysis/projects/us-digital-habits-attention/source-search-2026-09-11.md).
