@@ -15,16 +15,16 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Dimension | Present | Still missing |
 |---|---|---|
 | Source families | HBS, NBER, OECD, European Commission/JRC, ILO, Microsoft, Capgemini, Whoz | More worker-led, union, legal, and non-Western sources |
-| Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa | Latin America, Middle East, Southeast Asia beyond one case, wider Africa, China beyond one platform study |
+| Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China | Latin America, Middle East, Southeast Asia beyond one case, wider Africa |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
-| Social outcomes | trust, autonomy, stress, status, learning, entry barriers | worker voice by age, gender, disability, migration, class, and contract type |
+| Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion | worker voice by age, gender, migration, class, and contract type |
 | Institutions | firm rules, employer governance, EU platform-work rules, HR and delivery systems | actual enforcement, bargaining, appeals, public-sector rules, courts |
 | Power | data, profiles, allocation, monitoring, responsibility, platform dependence | ownership, correction, override, exit, bargaining, and state leverage |
 
 ## Evidence count
 
-- 26 claims in the ledger;
-- 5 provisional findings;
+- 29 claims in the ledger;
+- 6 provisional findings;
 - 3 company bridges;
 - 1 theme map;
 - 10 named geographic settings;
@@ -38,6 +38,7 @@ The exact machine-readable counts and source-family breakdown are in the JSON ma
 2. AI assistance can save time while monitoring can reduce autonomy.
 3. Individual adoption can relate to occupational movement while employer initiatives show little average labor-demand effect.
 4. Company-reported scale and training do not prove worker benefit.
+5. Technology can improve inclusion or earnings in one setting while producing control risks in another.
 
 These are not errors to smooth away. They may reflect different tools, populations, outcomes, time windows, or institutions. The next research pass must compare those differences directly.
 
@@ -64,6 +65,7 @@ These are not errors to smooth away. They may reflect different tools, populatio
 3. Add worker evidence outside Europe and the United States.
 4. Compare small firms, contractors, unions, and public employers.
 5. Verify at least one company claim with an independent outcome source.
+6. Compare technology that removes a worker barrier with technology that evaluates or disciplines.
 
 ## Exhaustion rule
 

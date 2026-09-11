@@ -46,6 +46,10 @@ A tool that saves time may not improve work if people do not understand its purp
 
 EU worker evidence reports positive experiences with AI alongside associations between algorithmic management, lower autonomy, fewer breaks, and higher stress. The project must study assistance, monitoring, evaluation, and task direction as separate uses. [Finding 005](findings/ai-work-control-005.md)
 
+### 6. The worker benefit depends on the social bargain
+
+Evidence from India and China shows that a tool’s effect depends on organizational response, access, and the barrier it removes. Technology adoption is not a complete explanation. [Finding 006](findings/ai-work-control-006.md)
+
 ### 5. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
@@ -97,5 +101,6 @@ Call this a **theme**, not a settled law. Upgrade confidence only when the next 
 - [Finding 003](findings/ai-work-control-003.md)
 - [Finding 004](findings/ai-work-control-004.md)
 - [Finding 005](findings/ai-work-control-005.md)
+- [Finding 006](findings/ai-work-control-006.md)
 - [Claims ledger](claims-ledger-v1.md)
 - [Comparison bridge](comparison-bridge-microsoft-whoz-v1.md)
