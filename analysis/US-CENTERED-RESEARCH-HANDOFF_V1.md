@@ -88,6 +88,6 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The next implementation step is to create the first US-centered project brief and source-search record, then build one complete topic from source to finding using this handoff.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has nine topic records, four themes, eleven connections and five reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
