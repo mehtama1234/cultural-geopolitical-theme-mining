@@ -1,8 +1,8 @@
 # US source coverage
 
-30 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+31 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 20; HHS: 1; IEA: 1; IMF: 1; NBER: 42; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 21; HHS: 1; IEA: 1; IMF: 1; NBER: 44; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -431,6 +431,30 @@
 - evidence that challenges the idea that medical costs are driving the later outcome.
 
 [Open the source-search record](projects/us-health-cost-household-choice/source-search-2026-09-11.md)
+
+## US hometown business and the loss of local ownership
+
+**Project:** `us-hometown-entrepreneurship-decline`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Why are would-be business owners less likely to stay near where they were born, and what does that mean for the places they leave?
+
+**Sources recorded:** 3
+
+- [HBS: Charting the Decline of the Hometown Entrepreneur](https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+- [NBER: House Prices, Home Equity and Entrepreneurship](https://www.nber.org/papers/w21458)
+- [NBER: Rugged Entrepreneurs](https://www.nber.org/papers/w28606)
+
+**Open gaps:**
+- local business openings, closures, owners and workers together;
+- effects by race, gender, age, industry and place;
+- whether movers create more durable firms;
+- local customer prices, service access and wages;
+- the role of housing, credit, remote work and taxes;
+- whether local ownership changes trust or political demands.
+
+[Open the source-search record](projects/us-hometown-entrepreneurship-decline/source-search-2026-09-11.md)
 
 ## US household financial pressure and the price of access
 

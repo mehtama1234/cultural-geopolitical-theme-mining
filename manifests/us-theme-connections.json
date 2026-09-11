@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "hometown_entrepreneurship",
+      "evidence_check": {
+        "title": "The hometown tie in entrepreneurship has weakened",
+        "finding": "HBS reports that US-born self-employed White men were only 2 percentage points more likely than wage workers to stay in their birth state in 2018, down from an 8-point difference in 1970; the local advantage fell below zero for all Americans in the latest sample.",
+        "meaning": "Working interpretation: local business ownership may be less tied to local networks and more tied to mobile capital, skills and opportunity.",
+        "counterpoint": "Moving can help founders find customers, workers and capital. Birthplace is not the same as commitment, and local ownership is not always better for residents.",
+        "counterpoint_source": "https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur",
+        "limit": "The current evidence measures where self-employed people stay, not local business survival, services, jobs, prices or belonging.",
+        "source": "https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur",
+        "location": "HBS Working Knowledge, reporting Colaiacovo, Dalton, Sari Pekkala Kerr and William Kerr, August 28, 2026. Checked 2026-09-11."
+      },
+      "project": "us-hometown-entrepreneurship-decline",
+      "title": "The hometown tie in entrepreneurship has weakened",
+      "summary": "Would-be business owners are less likely to stay near where they were born.",
+      "question": "What does a place lose when ownership moves?",
+      "limit": "The opening evidence does not measure local services, jobs or customer outcomes.",
+      "subthemes": ["Mobile ownership", "Local business and place"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-hometown-entrepreneurship-decline/source-search-2026-09-11.md"
+    },
+    {
       "id": "economic_voting",
       "evidence_check": {
         "title": "The vote may respond more to lost buying power than inflation alone",
@@ -951,6 +973,13 @@
       "meaning": "Follow local prices and wages into the household's sense of room, then ask whether lost buying power becomes a vote against the party in power.",
       "limit": "The current study uses county outcomes and separate price beliefs; it does not show the same household's costs, blame, trust or vote.",
       "memo": null
+    },
+    {
+      "title": "When business ownership moves away from home",
+      "topics": ["hometown_entrepreneurship", "place", "housing"],
+      "meaning": "Follow a founder's move into local ownership and then ask how housing, services and place control change for the people who remain.",
+      "limit": "The current sources measure birthplace ties, home equity and business entry separately; they do not follow residents through a local change.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1352,6 +1381,14 @@
       "to": "price_perception",
       "relation": "Local real-wage loss may shape which prices people use to judge the economy and the party in power",
       "limit": "The current county study does not identify each voter's price basket, wage change, blame or reason for voting.",
+      "type": "open"
+    },
+    {
+      "id": "link-51",
+      "from": "hometown_entrepreneurship",
+      "to": "place",
+      "relation": "A weaker local tie among business owners may change who controls local services and opportunity",
+      "limit": "The current evidence does not show that owner movement changed local jobs, prices, services or belonging.",
       "type": "open"
     }
   ]

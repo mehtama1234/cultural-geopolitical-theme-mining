@@ -351,6 +351,16 @@ Follow local prices and wages into the household's sense of room, then ask wheth
 
 Still missing: The current study uses county outcomes and separate price beliefs; it does not show the same household's costs, blame, trust or vote.
 
+### When business ownership moves away from home
+
+Follow a founder's move into local ownership and then ask how housing, services and place control change for the people who remain.
+
+1. [The hometown tie in entrepreneurship has weakened](#hometown_entrepreneurship)
+2. [Business counts do not tell us who belongs to a place](#place)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources measure birthplace ties, home equity and business entry separately; they do not follow residents through a local change.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1179,6 +1189,7 @@ Connections:
 
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Keeping a home also means paying to protect it. Needs linked evidence on owners, housing costs and business moves.
 - Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Getting to a place is a major household cost. The NBER comparison is older and does not measure current household hardship or local belonging.
+- Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: The hometown tie in entrepreneurship has weakened. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
 
 ### A quicker reply may still leave a problem open
 
@@ -1223,6 +1234,40 @@ Connections:
 ## Who controls the work and gets the gain
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
+
+### The hometown tie in entrepreneurship has weakened
+
+Would-be business owners are less likely to stay near where they were born.
+
+**Question:** What does a place lose when ownership moves?
+
+**Subthemes:** Mobile ownership; Local business and place
+
+**Limit:** The opening evidence does not measure local services, jobs or customer outcomes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: Charting the Decline of the Hometown Entrepreneur](https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+- [NBER: House Prices, Home Equity and Entrepreneurship](https://www.nber.org/papers/w21458)
+- [NBER: Rugged Entrepreneurs](https://www.nber.org/papers/w28606)
+
+#### Evidence check: The hometown tie in entrepreneurship has weakened
+
+HBS reports that US-born self-employed White men were only 2 percentage points more likely than wage workers to stay in their birth state in 2018, down from an 8-point difference in 1970; the local advantage fell below zero for all Americans in the latest sample.
+
+Working interpretation: local business ownership may be less tied to local networks and more tied to mobile capital, skills and opportunity.
+
+**Counterpoint:** Moving can help founders find customers, workers and capital. Birthplace is not the same as commitment, and local ownership is not always better for residents.
+[Related study](https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+
+The current evidence measures where self-employed people stay, not local business survival, services, jobs, prices or belonging.
+
+[HBS Working Knowledge, reporting Colaiacovo, Dalton, Sari Pekkala Kerr and William Kerr, August 28, 2026. Checked 2026-09-11.](https://www2.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur)
+
+
+Connections:
+
+- Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
 
 ### Equal income can buy a different life through several jobs
 
