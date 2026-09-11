@@ -424,6 +424,9 @@ A nationally representative US worker survey finds that generative AI is used ac
 
 Working interpretation: the first divide may be inside the same job, between workers who have access, training or permission and those who do not. Study the work rules around the tool, not only the tool itself.
 
+**Counterpoint:** In a separate randomized field experiment across 66 firms, workers who used an AI tool spent about two fewer hours per week on email and less time working after hours, but researchers did not detect a change in the amount or mix of tasks.
+[Related study](https://www.nber.org/papers/w33795)
+
 The paper measures reported use and task exposure, not whether AI raised pay, reduced jobs or changed worker power. It is an early national measure, so later surveys may revise the picture.
 
 [Bick, Blandin, Deming and Schumacher, What Work Does Generative AI Do?, NBER Working Paper 35677, August 2026 abstract. Checked 2026-09-11.](https://www.nber.org/papers/w35677)

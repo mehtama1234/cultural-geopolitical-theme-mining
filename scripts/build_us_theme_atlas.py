@@ -52,11 +52,20 @@ for theme in data["themes"]:
         check = n.get("evidence_check")
         if check:
             assert check["source"].startswith("https://")
-            check_html = f'<aside class="limit"><h4>{e(check["title"])}</h4><p>{e(check["finding"])}</p><p>{e(check["meaning"])}</p><p>{e(check["limit"])}</p><a href="{e(check["source"], quote=True)}">{e(check["location"])}</a></aside>'
+            counterpoint = ""
+            if check.get("counterpoint"):
+                counter_link = f' <a href="{e(check["counterpoint_source"], quote=True)}">Read the related study</a>' if check.get("counterpoint_source") else ""
+                counterpoint = f'<p><strong>Counterpoint:</strong> {e(check["counterpoint"])}{counter_link}</p>'
+            check_html = f'<aside class="limit"><h4>{e(check["title"])}</h4><p>{e(check["finding"])}</p><p>{e(check["meaning"])}</p>{counterpoint}<p>{e(check["limit"])}</p><a href="{e(check["source"], quote=True)}">{e(check["location"])}</a></aside>'
         md += ["### " + n["title"], "", n["summary"], "", "**Question:** " + n["question"], "", "**Subthemes:** " + "; ".join(n["subthemes"]), "", "**Limit:** " + n["limit"], "", "Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.", ""]
         md += [f"- [{label}]({url})" for label, url in sources]
         if check:
-            md += ["", "#### Evidence check: " + check["title"], "", check["finding"], "", check["meaning"], "", check["limit"], "", f'[{check["location"]}]({check["source"]})', ""]
+            md += ["", "#### Evidence check: " + check["title"], "", check["finding"], "", check["meaning"]]
+            if check.get("counterpoint"):
+                md += ["", "**Counterpoint:** " + check["counterpoint"]]
+                if check.get("counterpoint_source"):
+                    md += [f'[Related study]({check["counterpoint_source"]})']
+            md += ["", check["limit"], "", f'[{check["location"]}]({check["source"]})', ""]
         md += ["", "Connections:", ""]
         links = []
         for x in related:
