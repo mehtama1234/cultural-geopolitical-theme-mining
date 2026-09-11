@@ -1,8 +1,8 @@
 # Cultural, social, and geopolitical theme mining
 
-This workspace studies what is changing underneath visible events.
+This workspace studies what is changing underneath visible events, with a primary focus on US customer, consumer, societal, financial, and political life.
 
-It starts with research from [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) and the [National Bureau of Economic Research](https://www.nber.org/). It may add public records, company filings, surveys, court records, trade data, demographic data, and careful reporting when those sources help test a finding.
+It starts with research from [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) and the [National Bureau of Economic Research](https://www.nber.org/). It may add US public records, company filings, surveys, court records, financial data, consumer data, demographic data, and careful reporting when those sources help test a finding. International sources are comparison and context unless a project says otherwise.
 
 The output is not a news feed and not a pile of summaries. Each project should move through this chain:
 

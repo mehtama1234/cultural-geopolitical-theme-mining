@@ -2,9 +2,11 @@
 
 ## The question
 
-What forces are changing how people live, how firms make money, and how states gain or lose room to act?
+What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?
 
 Do not begin with a grand theory. Begin with a narrow question that can be checked.
+
+The center of gravity is US customer, consumer, societal, financial, and political life. HBS, NBER, and international sources help us find and test the mechanisms; they do not automatically make the project global in scope.
 
 Examples:
 
@@ -13,6 +15,9 @@ Examples:
 - When does a local labor shortage change migration, family life, and politics?
 - When does a supply-chain change become a security problem?
 - When does a change in trust alter markets before it changes elections?
+- When does a price, credit, housing, or service shock become a political identity or voting issue?
+- When does a firm's growth model depend on households carrying more risk?
+- When does financial stress change family decisions before it appears in national statistics?
 
 ## The work loop
 
@@ -45,3 +50,7 @@ A finding must answer:
 Begin with **AI adoption, work, and the new middle layer of control**. This connects current HBS material on AI adoption and careers with NBER work on labor markets, productivity, firms, inequality, and technology. Do not assume AI is the cause. Test whether the real change is in task control, measurement, worker bargaining power, training, or ownership of the workflow.
 
 The initial project brief is [analysis/projects/ai-work-control/README.md](analysis/projects/ai-work-control/README.md).
+
+## Next major project direction
+
+Build a US-centered evidence system for the links among customer behavior, household security, firm strategy, financial conditions, public policy, and political response. Start with bounded topics, then follow each one from measured condition to lived effect to institutional and power change. The handoff is [analysis/US-CENTERED-RESEARCH-HANDOFF_V1.md](analysis/US-CENTERED-RESEARCH-HANDOFF_V1.md).

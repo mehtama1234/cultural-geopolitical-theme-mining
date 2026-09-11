@@ -2,7 +2,9 @@
 
 ## Governing goal
 
-Build a repeatable research system that starts with scattered evidence and ends with clear, testable findings about what is changing beneath visible events.
+Build a repeatable, US-centered research system that starts with scattered evidence and ends with clear, testable findings about what is changing beneath visible events.
+
+The main object is the American customer, consumer, household, worker, investor, voter, and public institution. International evidence is used when it changes the conditions facing people or firms in the United States, or when it gives us a useful comparison. The project is not a general world-news digest.
 
 The system will mine research stories, working papers, datasets, public records, company evidence, surveys, and security data. It will connect those sources across four questions:
 
@@ -41,6 +43,9 @@ The system should help answer questions such as:
 - When does a change in migration or age structure alter local business, care, and elections?
 - When does a company trend reveal a wider change in status, identity, or social behavior?
 - When does an economic dependency give one state leverage over another?
+- When does a change in prices, credit, housing, work, or service quality alter how Americans behave and what they believe?
+- When does a firm's customer strategy shift risk from a balance sheet onto households or public systems?
+- When does a financial or political incentive make a useful reform hard to carry out?
 
 ## Source architecture
 
@@ -112,6 +117,9 @@ The project must state:
 - the smallest useful unit of analysis;
 - what is outside the project;
 - what evidence could change the question itself.
+- which US population, place, market, or institution is the primary unit;
+- whether the question is about customers, consumers, workers, firms, investors, voters, or public agencies;
+- what foreign evidence is being used as comparison rather than as the main subject.
 
 Exit evidence: a project brief with a question, scope, source plan, and falsification plan.
 
@@ -168,11 +176,11 @@ Exit evidence: a mechanism map with direct evidence, inference labels, competing
 
 #### Material map
 
-Track work, wages, prices, debt, credit, energy, land, technology, health, trade, production, and physical infrastructure.
+Track US work, wages, prices, debt, credit, housing, consumption, energy, land, technology, health, trade, production, and physical infrastructure.
 
 #### Social map
 
-Track family life, care, status, trust, identity, class, race, gender, age, migration, place, and daily behavior.
+Track American family life, care, status, trust, identity, class, race, gender, age, migration, place, and daily behavior.
 
 #### Institution map
 
@@ -181,6 +189,8 @@ Track firms, schools, courts, regulators, unions, parties, media, public agencie
 #### Power map
 
 Track ownership, bargaining power, exit options, rule-setting, risk transfer, information control, waiting power, and dependence.
+
+For US political and financial work, also track who can set the terms of credit, prices, benefits, access, enforcement, and public attention.
 
 Exit evidence: each proposed theme connects at least two maps and names what is still missing from the other maps.
 
@@ -328,6 +338,20 @@ The project must compare:
 - household security and social status;
 - local political trust;
 - technology and labor dependence between states.
+
+The next major US-centered stream should extend this method from workplace AI into customer, consumer, societal, financial, and political life. It should ask how firms, credit conditions, public policy, technology, and social meaning interact in the daily experience of people in the United States.
+
+Its first recurring chain is:
+
+```text
+US condition or shock
+  -> firm, household, market, or government response
+  -> change in price, access, work, debt, security, or service quality
+  -> change in behavior, trust, identity, or political demand
+  -> institutional response and distribution of power
+  -> company, sector, financial, and geopolitical exposure
+  -> finding, counterevidence, and next test
+```
 
 The starter brief is in `analysis/projects/ai-work-control/README.md`.
 
