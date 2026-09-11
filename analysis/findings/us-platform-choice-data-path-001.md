@@ -48,6 +48,20 @@ platform sells or ranks its own product
 
 The first step is measured in the Amazon experiment. The data and privacy steps are supported by a model and a separate platform study. The full chain is still open.
 
+## The four outside views
+
+**Customer:** A platform-owned product can be a good fit, save search time and raise estimated welfare for some shoppers. A customer may still have little way to know whether the ranking, product and data deal were shaped by the platform's own interest.
+
+**Company and sector:** The platform can earn as a seller, a search gate and a data holder. Outside sellers may gain access to customers while depending on rules they cannot set. The current sources do not show whether this dependence raises or lowers prices, quality or seller entry over time.
+
+**Money and finance:** Seller data and search position can act like business assets. Equal access may move value toward outside sellers, while weaker data investment may reduce the information available to everyone. The model gives a tradeoff, not a dollar estimate for a US firm or household.
+
+**Public power:** Competition and privacy rules decide what the platform must disclose, share or separate. A customer complaint is useful only if a regulator, court or firm can inspect the result and change it. The current evidence does not show which remedy works best.
+
+## Who may feel the difference first
+
+Customers with little time, weak alternatives or low ability to compare may carry more of the search and privacy risk. Small sellers may depend more on ranking and data access than large sellers with their own audience. These are exposure questions, not findings from the opening studies.
+
 ## What is fact, inference, and unknown
 
 **Fact:** The Amazon experiment finds a short-run customer benefit from access to some platform-owned products. The data model finds a competition and data-investment tradeoff. The HBS study finds more sharing after privacy rules in one app.
@@ -63,6 +77,7 @@ The first step is measured in the Amazon experiment. The data and privacy steps 
 - Data access price, data quality and platform investment after a neutrality rule.
 - Customer notice comprehension, privacy choices and actual service outcomes.
 - A record of complaint, human review and remedy when the platform controls the result.
+- Results for small sellers, repeat customers, low-income customers and people with limited digital access.
 
 ## Next test
 
