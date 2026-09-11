@@ -3604,6 +3604,62 @@
       "relation": "A platform-owned product can change the choices and service fit customers see at search",
       "limit": "The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.",
       "type": "open"
+    },
+    {
+      "id": "link-135",
+      "from": "household_rate_response",
+      "to": "money",
+      "relation": "A household's belief about a rate change can alter spending, saving or borrowing room",
+      "limit": "The current survey measures reported beliefs and reactions, not the same household's later financial records.",
+      "type": "open"
+    },
+    {
+      "id": "link-136",
+      "from": "health_insurance_job_lock",
+      "to": "money",
+      "relation": "Keeping a job for health coverage can change the wage and household money choices a worker can make",
+      "limit": "The current studies do not compare the same worker's coverage value, pay, job quality and later financial room.",
+      "type": "open"
+    },
+    {
+      "id": "link-137",
+      "from": "home_insurance_affordability",
+      "to": "credit",
+      "relation": "A rising home-insurance cost can meet the credit record and borrowing terms attached to the home",
+      "limit": "The current sources do not follow the same owner through the premium, loan terms, payment and coverage choice.",
+      "type": "open"
+    },
+    {
+      "id": "link-138",
+      "from": "utility_shutoff_timing",
+      "to": "money",
+      "relation": "A due-date gap can turn the energy bill into a wider payment and household-budget problem",
+      "limit": "The current evidence does not show the same household's later arrears, borrowing, shutoff or health outcome.",
+      "type": "open"
+    },
+    {
+      "id": "link-139",
+      "from": "vehicle_repair_shock",
+      "to": "credit",
+      "relation": "A repair deadline can turn transport access into a short-term borrowing or repayment choice",
+      "limit": "The current sources do not follow the same household from repair need through credit use and later access.",
+      "type": "open"
+    },
+    {
+      "id": "link-140",
+      "from": "economic_voting",
+      "to": "politics",
+      "relation": "Lost local buying power may become a broader judgment about government and the party in power",
+      "limit": "The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.",
+      "type": "open"
+    },
+    {
+      "id": "link-141",
+      "from": "ai_emotional_support",
+      "to": "service",
+      "relation": "An AI support product is also a service whose safety, remedy and route to human care must be judged",
+      "limit": "The current studies do not measure the same user's support app, service failure, human-care access and later well-being.",
+      "type": "open"
     }
   ]
 }

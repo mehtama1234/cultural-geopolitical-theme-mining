@@ -931,6 +931,7 @@ The current evidence does not show which households receive the message, change 
 Connections:
 
 - Question to test: A rate message may change how households read future prices and their own buying power. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
+- Question to test: A household's belief about a rate change can alter spending, saving or borrowing room. Related topic: The price on the screen is only part of the cost. The current survey measures reported beliefs and reactions, not the same household's later financial records.
 
 ### Staying with one bank can carry a quiet cost
 
@@ -1138,6 +1139,9 @@ Connections:
 - Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
 - Question to test: Local prices change the real spending room left by the same nominal income. Related topic: The same income can buy a different life by place. The current evidence does not show the same household's budget, savings or later financial choice after the local price difference.
 - Question to test: A missed price comparison can leave less household money after the same trip. Related topic: Two apps can show different prices while customers still compare rarely. The current study estimates fare gaps but does not measure each rider's budget or later household choice.
+- Question to test: A household's belief about a rate change can alter spending, saving or borrowing room. Related topic: Households may hear a rate increase as a price warning. The current survey measures reported beliefs and reactions, not the same household's later financial records.
+- Question to test: Keeping a job for health coverage can change the wage and household money choices a worker can make. Related topic: Health coverage can hold a job in place. The current studies do not compare the same worker's coverage value, pay, job quality and later financial room.
+- Question to test: A due-date gap can turn the energy bill into a wider payment and household-budget problem. Related topic: A bill due date can become part of the energy burden. The current evidence does not show the same household's later arrears, borrowing, shutoff or health outcome.
 
 ### Keeping a home also means paying to protect it
 
@@ -1237,6 +1241,8 @@ Connections:
 - Question to test: A payment or account record can change what credit is available later. Related topic: A payment record can become a gate to a home. The current evidence does not show which later decision used the record or whether the underlying event was avoidable.
 - Question to test: Emergency credit can reduce severe distress while adding a new repayment record. Related topic: Well-timed credit can keep a disaster from becoming bankruptcy. The current study shows a bankruptcy reduction in a federal disaster-loan setting but does not measure the full loan cost or ordinary consumer-credit effect.
 - Question to test: A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question. Related topic: A fee rule can help people with cash more than people without it. The current studies do not follow the same shortage across bank and nonbank credit products.
+- Question to test: A rising home-insurance cost can meet the credit record and borrowing terms attached to the home. Related topic: Insurance risk can become a home and credit problem. The current sources do not follow the same owner through the premium, loan terms, payment and coverage choice.
+- Question to test: A repair deadline can turn transport access into a short-term borrowing or repayment choice. Related topic: A vehicle repair can arrive before the next paycheck. The current sources do not follow the same household from repair need through credit use and later access.
 
 ### A student loan can follow a person into adult choices
 
@@ -1462,6 +1468,7 @@ The opening sources do not follow the same US household from a repair to a misse
 Connections:
 
 - Question to test: A repair can turn a normal route to work or care into a cash and access problem. Related topic: Getting to a place is a major household cost. The current sources do not show which households lose a trip or whether another route was available.
+- Question to test: A repair deadline can turn transport access into a short-term borrowing or repayment choice. Related topic: Credit can be a bridge and a later bill. The current sources do not follow the same household from repair need through credit use and later access.
 
 ### Removing medical debt can fix the record without fixing the illness
 
@@ -2228,6 +2235,7 @@ The current studies do not show long-term US outcomes, the share of users harmed
 Connections:
 
 - Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: A useful app can still make leaving difficult. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
+- Question to test: An AI support product is also a service whose safety, remedy and route to human care must be judged. Related topic: A quicker reply may still leave a problem open. The current studies do not measure the same user's support app, service failure, human-care access and later well-being.
 
 ### Older consumers are not one market
 
@@ -2295,6 +2303,7 @@ The current evidence does not join one household's prices, wages, blame, trust a
 Connections:
 
 - Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: A slower rise in prices can still feel like a loss. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
+- Question to test: Lost local buying power may become a broader judgment about government and the party in power. Related topic: Personal finances and national mood can move apart. The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.
 
 ### Privacy rules can make people more willing to share
 
@@ -2378,6 +2387,7 @@ Connections:
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: The same job can contain different AI access. The current atlas does not follow the same worker from job condition through political belief and vote.
 - Question to test: A benefit experience may become a judgment about government before it becomes a vote. Related topic: Public help can change how families see the economy. The current evidence points to political effects but does not measure a changed vote for the same family.
 - Question to test: Beliefs about policy cost can change which environmental tool voters accept. Related topic: Beliefs about who pays can change which policy wins. The current evidence uses stated beliefs and a model; it does not show later voting or policy support for the same person.
+- Question to test: Lost local buying power may become a broader judgment about government and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.
 
 ### Help can exist but be hard to keep
 
@@ -2541,6 +2551,7 @@ Connections:
 - Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A free service can have time as its real price. The current study measures ad load and substitution, not the full quality or value of the service.
 - Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: Competition can protect the customers most able to leave. The historical study measures treatment and prices but does not show today's service quality or switching path.
 - Question to test: A platform-owned product can change the choices and service fit customers see at search. Related topic: A platform-owned product can help some customers and still raise competition concerns. The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.
+- Question to test: An AI support product is also a service whose safety, remedy and route to human care must be judged. Related topic: An AI support app can comfort and hold attention. The current studies do not measure the same user's support app, service failure, human-care access and later well-being.
 
 ### More work does not always mean more room
 
@@ -3587,6 +3598,7 @@ The current sources do not compare the full value of coverage with job quality, 
 Connections:
 
 - Question to test: The job can carry health coverage that changes the cost of leaving. Related topic: The same job can contain different AI access. The current sources do not show whether staying protects or limits the worker's later pay, work fit or opportunity.
+- Question to test: Keeping a job for health coverage can change the wage and household money choices a worker can make. Related topic: The price on the screen is only part of the cost. The current studies do not compare the same worker's coverage value, pay, job quality and later financial room.
 
 ### Average income can hide an unsafe month
 
@@ -3866,6 +3878,7 @@ The NBER project description names outcomes to study but does not establish a ge
 Connections:
 
 - Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A home can be costly to heat before anything else changes. The current sources do not show which households face a shutoff or what they do to avoid it.
+- Question to test: A due-date gap can turn the energy bill into a wider payment and household-budget problem. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's later arrears, borrowing, shutoff or health outcome.
 
 ### Insurance risk can become a home and credit problem
 
@@ -3899,6 +3912,7 @@ The studies do not show whether a specific household dropped coverage, lost a mo
 Connections:
 
 - Question to test: A rising insurance bill can change the cost and value of keeping a home. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same owner's payment, coverage, mortgage or move decision.
+- Question to test: A rising home-insurance cost can meet the credit record and borrowing terms attached to the home. Related topic: Credit can be a bridge and a later bill. The current sources do not follow the same owner through the premium, loan terms, payment and coverage choice.
 
 ### A power outage can turn payment choice into a basic access problem
 
