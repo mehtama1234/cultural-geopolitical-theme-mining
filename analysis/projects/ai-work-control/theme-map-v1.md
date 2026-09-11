@@ -74,6 +74,10 @@ Business expectations, capital choices, data work, and production redesign may m
 
 AI results depend on complements around the model: capital, data, software, training, electricity, connectivity, institutions, and outside options. A country or firm can access a tool while remaining dependent on the owners of the systems that make the tool useful. [Finding 012](findings/ai-work-control-012.md)
 
+### 14. Sovereignty is the ability to adapt and exit
+
+Owning or buying a frontier model is only one layer of capability. Local language, data, skills, interoperability, inspection, public procurement, and the ability to switch providers may matter more for durable choice. [Finding 013](findings/ai-work-control-013.md)
+
 ### 10. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
