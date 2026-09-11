@@ -261,6 +261,60 @@
       "source_types": ["research_paper", "policy_research", "development_evidence"],
       "license_note": "Record paper type, data, authors, funders, and country coverage.",
       "access_notes": "Pair research claims with the World Bank indicator definitions and country context."
+    },
+    {
+      "id": "federal-reserve-shed",
+      "name": "Federal Reserve Survey of Household Economics and Decisionmaking",
+      "url": "https://www.federalreserve.gov/consumerscommunities/shed.htm",
+      "role": "US household financial well-being, hardship, credit, housing, and reported economic experience",
+      "source_types": ["household_survey", "official_statistic", "microdata"],
+      "license_note": "Record survey wording, field dates, sample, weights, and data-use terms.",
+      "access_notes": "Treat reported experience as descriptive unless a design supports a causal claim; preserve survey vintage."
+    },
+    {
+      "id": "cfpb-consumer-finance",
+      "name": "Consumer Financial Protection Bureau consumer finance research",
+      "url": "https://www.consumerfinance.gov/data-research/",
+      "role": "US consumer credit markets, complaints, fees, enforcement, and household financial protection",
+      "source_types": ["regulatory_report", "administrative_data", "consumer_complaint", "enforcement_record"],
+      "license_note": "Record report or case identifier, date, definitions, and source link; do not copy full reports.",
+      "access_notes": "Separate market description, consumer report, complaint, enforcement finding, and rule statement."
+    },
+    {
+      "id": "bls-consumer-data",
+      "name": "US Bureau of Labor Statistics consumer and household data",
+      "url": "https://www.bls.gov/",
+      "role": "US prices, spending, income, employment, and household economic measures",
+      "source_types": ["official_statistic", "price_index", "consumer_expenditure_data", "labor_data"],
+      "license_note": "Record series, release date, seasonal adjustment, geography, and revision status.",
+      "access_notes": "Check definitions and denominator before comparing households, prices, or time periods."
+    },
+    {
+      "id": "census-household-data",
+      "name": "US Census Bureau household and economic data",
+      "url": "https://www.census.gov/data.html",
+      "role": "US household, demographic, income, housing, business, and place-level evidence",
+      "source_types": ["official_statistic", "household_survey", "administrative_data", "business_data"],
+      "license_note": "Record survey or program, vintage, geography, universe, and table or variable definition.",
+      "access_notes": "Preserve margins of error, missingness, and changes in survey design."
+    },
+    {
+      "id": "hbs-consumer-finance",
+      "name": "Harvard Business School Working Knowledge consumer and finance research",
+      "url": "https://www.library.hbs.edu/working-knowledge",
+      "role": "US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery",
+      "source_types": ["research_story", "faculty_explanation", "topic_collection"],
+      "license_note": "Record metadata and links; do not copy full articles.",
+      "access_notes": "Follow each story to the underlying paper, data, sample, and identification before treating it as evidence."
+    },
+    {
+      "id": "nber-household-finance",
+      "name": "NBER household finance and consumer behavior papers",
+      "url": "https://www.nber.org/papers",
+      "role": "US household debt, financial stress, credit, consumption, labor, and macro transmission research",
+      "source_types": ["working_paper", "household_finance_research", "consumer_behavior_research"],
+      "license_note": "Record paper metadata and short notes; do not copy full papers.",
+      "access_notes": "Mark working papers as provisional and check revision, publication, data access, and identification."
     }
   ]
 }
