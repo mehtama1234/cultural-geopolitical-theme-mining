@@ -2,6 +2,8 @@
 
 Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`, then validate them with `python3 scripts/validate_us_theme_atlas.py`.
 
+The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
+
 ## The question
 
 What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?

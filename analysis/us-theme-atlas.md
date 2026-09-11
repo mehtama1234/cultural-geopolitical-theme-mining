@@ -60,6 +60,8 @@ Follow the cost of keeping a home protected into the wider payment burden, then 
 
 Still missing: The current packets do not track the same households across insurance payments, other payment choices and economic views.
 
+[Read the complete connected memo](../site/us-household-cost-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
