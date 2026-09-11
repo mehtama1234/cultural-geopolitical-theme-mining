@@ -47,6 +47,15 @@
       "access_notes": "Treat company statements as disclosed claims. Separate reported scale from independent evidence of outcomes."
     },
     {
+      "id": "whoz-official",
+      "name": "Whoz official product and company materials",
+      "url": "https://www.whoz.com/en/",
+      "role": "small AI-forward firm and workforce-allocation product evidence",
+      "source_types": ["company_website", "product_claim", "customer_case", "company_history"],
+      "license_note": "Record short notes and links; do not copy marketing pages in full.",
+      "access_notes": "Treat product metrics and customer claims as self-reported marketing evidence unless independently verified."
+    },
+    {
       "id": "brookings",
       "name": "Brookings Institution",
       "url": "https://www.brookings.edu/topics/",
