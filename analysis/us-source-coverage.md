@@ -1,8 +1,8 @@
 # US source coverage
 
-22 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+23 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 11; HHS: 1; IEA: 1; IMF: 1; NBER: 33; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 12; HHS: 1; IEA: 1; IMF: 1; NBER: 35; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -551,6 +551,30 @@
 - whether debt changes political views beyond policy preference.
 
 [Open the source-search record](projects/us-student-debt-life-choices/source-search-2026-09-11.md)
+
+## US subscriptions and the cost of not noticing
+
+**Project:** `us-subscription-inattention`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When people stop valuing a subscription, what keeps the payment going?
+
+**Sources recorded:** 3
+
+- [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
+- [NBER Digest: Consumer Inattention and Subscription Renewals](https://www.nber.org/digest/202310/consumer-inattention-and-subscription-renewals)
+- [HBS Working Knowledge: With Subscription Fatigue Setting In, Companies Need to Think Hard About Fees](https://www.library.hbs.edu/working-knowledge/with-subscription-fatigue-setting-in-companies-need-to-think-hard-about-fees)
+
+**Open gaps:**
+- current US subscription counts and total monthly burden by income;
+- cancellation effort, notice design and state or federal rules;
+- overdrafts, late fees and other effects after an unwanted charge;
+- differences between entertainment, health, food, software and essential services;
+- whether customers understand renewal terms at sign-up;
+- whether easier cancellation lowers useful service continuity.
+
+[Open the source-search record](projects/us-subscription-inattention/source-search-2026-09-11.md)
 
 ## US transportation, household cost, and access
 

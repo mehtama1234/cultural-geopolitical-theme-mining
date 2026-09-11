@@ -271,9 +271,53 @@ Follow a person's choice to use or avoid a habit-change aid into attention and t
 
 Still missing: The current evidence supports social judgment in controlled tasks but does not follow the same US consumers through tool use and later behavior.
 
+### When a forgotten subscription becomes a household cost
+
+Follow a recurring charge that survives after its value fades into the household budget, then ask whether repeated private costs become a public trust question.
+
+1. [A monthly charge can survive after its value fades](#subscription_inattention)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The NBER estimate is model-based and does not follow the same US customer from an unwanted renewal to a changed budget or political view.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
+
+### A monthly charge can survive after its value fades
+
+Automatic renewal can turn a forgotten service into a recurring household cost.
+
+**Question:** When does convenience become inattention?
+
+**Subthemes:** Automatic renewal; Attention as a cost
+
+**Limit:** The opening evidence does not yet measure current US household loss or cancellation effort.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
+- [NBER Digest: Consumer Inattention and Subscription Renewals](https://www.nber.org/digest/202310/consumer-inattention-and-subscription-renewals)
+- [HBS Working Knowledge: With Subscription Fatigue Setting In, Companies Need to Think Hard About Fees](https://www.library.hbs.edu/working-knowledge/with-subscription-fatigue-setting-in-companies-need-to-think-hard-about-fees)
+
+#### Evidence check: A monthly charge can survive after its value fades
+
+The NBER payment-card study finds a sharp rise in cancellations when replaced cards force subscribers to actively renew. The authors estimate that inattention raises seller revenue by 14% to more than 200% compared with a model where customers cancel as soon as value falls below price.
+
+Working interpretation: automatic renewal can turn lost attention into recurring revenue, while the customer's cost stays hard to see until a forced choice.
+
+**Counterpoint:** Automatic renewal also prevents useful services from stopping, and the study does not prove that every customer who failed to cancel had stopped valuing the product.
+[Related study](https://www.nber.org/papers/w31547)
+
+The sample covers one card network and 2017–2021; the model range is not a direct loss for every customer or a current estimate of total US household burden.
+
+[Einav, Klopack and Mahoney, Selling Subscriptions, NBER Working Paper 31547, August 2023. Checked 2026-09-11.](https://www.nber.org/papers/w31547)
+
+
+Connections:
+
+- Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: The price on the screen is only part of the cost. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
 
 ### The price on the screen is only part of the cost
 
@@ -322,6 +366,7 @@ Connections:
 - Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: Family time can replace a large cash payment. The current sources do not show which option leaves the household with more room later.
 - Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: Getting to a place is a major household cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
 - Question to test: Work conditions and rewards determine whether a financial claim becomes household room. Related topic: The same job can contain different AI access. The current work and ownership sources do not follow the same worker from job conditions to pay, savings or wealth.
+- Question to test: A payment that continues after value fades can reduce room in the household budget. Related topic: A monthly charge can survive after its value fades. The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.
 
 ### Keeping a home also means paying to protect it
 

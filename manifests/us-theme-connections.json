@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "subscription_inattention",
+      "evidence_check": {
+        "title": "A monthly charge can survive after its value fades",
+        "finding": "The NBER payment-card study finds a sharp rise in cancellations when replaced cards force subscribers to actively renew. The authors estimate that inattention raises seller revenue by 14% to more than 200% compared with a model where customers cancel as soon as value falls below price.",
+        "meaning": "Working interpretation: automatic renewal can turn lost attention into recurring revenue, while the customer's cost stays hard to see until a forced choice.",
+        "counterpoint": "Automatic renewal also prevents useful services from stopping, and the study does not prove that every customer who failed to cancel had stopped valuing the product.",
+        "counterpoint_source": "https://www.nber.org/papers/w31547",
+        "limit": "The sample covers one card network and 2017–2021; the model range is not a direct loss for every customer or a current estimate of total US household burden.",
+        "source": "https://www.nber.org/papers/w31547",
+        "location": "Einav, Klopack and Mahoney, Selling Subscriptions, NBER Working Paper 31547, August 2023. Checked 2026-09-11."
+      },
+      "project": "us-subscription-inattention",
+      "title": "A monthly charge can survive after its value fades",
+      "summary": "Automatic renewal can turn a forgotten service into a recurring household cost.",
+      "question": "When does convenience become inattention?",
+      "limit": "The opening evidence does not yet measure current US household loss or cancellation effort.",
+      "subthemes": ["Automatic renewal", "Attention as a cost"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-subscription-inattention/source-search-2026-09-11.md"
+    },
+    {
       "id": "money",
       "evidence_check": {
         "title": "The same checkout price can hide different payment costs",
@@ -719,6 +741,13 @@
       "meaning": "Follow a person's choice to use or avoid a habit-change aid into attention and then ask how products and institutions make help feel normal or exposing.",
       "limit": "The current evidence supports social judgment in controlled tasks but does not follow the same US consumers through tool use and later behavior.",
       "memo": null
+    },
+    {
+      "title": "When a forgotten subscription becomes a household cost",
+      "topics": ["subscription_inattention", "money", "politics"],
+      "meaning": "Follow a recurring charge that survives after its value fades into the household budget, then ask whether repeated private costs become a public trust question.",
+      "limit": "The NBER estimate is model-based and does not follow the same US customer from an unwanted renewal to a changed budget or political view.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1056,6 +1085,14 @@
       "to": "attention",
       "relation": "A social cost can change whether people use a tool meant to protect their attention",
       "limit": "The current study uses stated choices and trust tasks; it does not connect aid choice to later attention use in the same US consumers.",
+      "type": "open"
+    },
+    {
+      "id": "link-43",
+      "from": "subscription_inattention",
+      "to": "money",
+      "relation": "A payment that continues after value fades can reduce room in the household budget",
+      "limit": "The current study estimates seller revenue under different attention assumptions; it does not measure the customer's later budget or hardship.",
       "type": "open"
     }
   ]
