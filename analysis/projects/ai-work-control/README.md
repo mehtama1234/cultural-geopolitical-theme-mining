@@ -40,6 +40,8 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 001: AI may reorganize work before it changes average pay](findings/ai-work-control-001.md)
 - [Finding 002: The first payoff may be movement, not pay](findings/ai-work-control-002.md)
 - [Finding 003: Control changes through meaning, not only measurement](findings/ai-work-control-003.md)
+- [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Published HTML finding](../../../site/ai-work-control/finding-001.html)
 - [Published HTML finding 002](../../../site/ai-work-control/finding-002.html)
 - [Published HTML finding 003](../../../site/ai-work-control/finding-003.html)
+- [Published company bridge](../../../site/ai-work-control/company-sector-bridge-microsoft.html)

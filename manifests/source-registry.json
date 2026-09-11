@@ -38,6 +38,15 @@
       "access_notes": "Archived data may lag the original source. Preserve vintage and checksum."
     },
     {
+      "id": "microsoft-annual-report",
+      "name": "Microsoft Fiscal Year 2025 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar25/",
+      "role": "company operating, workforce, infrastructure, and product evidence",
+      "source_types": ["annual_report", "10_k", "human_capital_disclosure", "operating_metrics"],
+      "license_note": "Record short excerpts, page or section locations, and links; do not copy the report in full.",
+      "access_notes": "Treat company statements as disclosed claims. Separate reported scale from independent evidence of outcomes."
+    },
+    {
       "id": "brookings",
       "name": "Brookings Institution",
       "url": "https://www.brookings.edu/topics/",
