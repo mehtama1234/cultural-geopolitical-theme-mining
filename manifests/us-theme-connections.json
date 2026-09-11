@@ -1687,9 +1687,38 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-low-liquidity-consumption-constraints/source-search-2026-09-11.md"
+    },
+    {
+      "id": "rising_income_risk_top",
+      "evidence_check": {
+        "title": "More income risk at the top can mean more saving and wider wealth gaps",
+        "finding": "Using newly digitized US tax returns from 1969 to 2019, an NBER study finds that permanent income risk rose across the distribution and nearly 70% among the top 5%. Large negative income shocks predict financial distress even among top earners. A life-cycle model links higher risk at the top to more saving, greater wealth inequality and a 0.7 percentage-point reduction in the modeled risk-free rate.",
+        "meaning": "Working interpretation: a change among high earners can affect the wider economy through saving and the price of money, even though the first shock is far from an ordinary checkout or rent payment.",
+        "counterpoint": "Higher saving can fund investment and provide protection against a shock. The modeled wealth and interest-rate effects depend on assumptions and do not show the same result for every household.",
+        "counterpoint_source": "https://www.nber.org/papers/w35664",
+        "limit": "The opening evidence does not show how the change reaches consumers, workers, borrowers or voters, and the tax records do not explain each saving decision.",
+        "source": "https://www.nber.org/papers/w35664",
+        "location": "Braxton, Herkenhoff, Huang, Nattinger, Rothbaum and Schmidt, Rising Income Risk at the Top, NBER Working Paper 35664, checked 2026-09-11."
+      },
+      "project": "us-rising-income-risk-top",
+      "title": "More income risk at the top can mean more saving and wider wealth gaps",
+      "summary": "Rising income risk among high earners may change saving, wealth and the price of money beyond the households first hit.",
+      "question": "When does a change at the top reach the financial room of other households?",
+      "limit": "The opening study measures income risk and modeled spillovers, not the full consumer or political path.",
+      "subthemes": ["Income risk and saving", "Wealth gaps and the price of money"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-rising-income-risk-top/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When income risk at the top changes the price of money",
+      "topics": ["rising_income_risk_top", "money", "politics"],
+      "meaning": "Follow income risk among high earners into saving and the wider money system, then ask how a financial change becomes a public argument about fairness and policy.",
+      "limit": "The current sources do not connect the same saving change to borrowing costs, household demand and political response.",
+      "memo": null
+    },
     {
       "title": "When spending hides the cash constraint",
       "topics": ["low_liquidity_consumption_constraints", "money", "food"],
@@ -3063,6 +3092,22 @@
       "to": "food",
       "relation": "A cash constraint may appear in what a household buys or gives up at the food counter",
       "limit": "The current sources do not follow the same consumer from the spending gap to food quality, quantity or insecurity.",
+      "type": "open"
+    },
+    {
+      "id": "link-109",
+      "from": "rising_income_risk_top",
+      "to": "money",
+      "relation": "More saving after income risk at the top may change the wider supply and price of money",
+      "limit": "The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.",
+      "type": "open"
+    },
+    {
+      "id": "link-110",
+      "from": "rising_income_risk_top",
+      "to": "politics",
+      "relation": "Wider wealth gaps can turn a private saving response into a public argument about who is protected",
+      "limit": "The current study does not measure political beliefs, voting or policy demand after the wealth change.",
       "type": "open"
     }
   ]

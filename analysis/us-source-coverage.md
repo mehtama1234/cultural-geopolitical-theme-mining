@@ -1,8 +1,8 @@
 # US source coverage
 
-71 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+72 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 118; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 119; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1420,6 +1420,28 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US rising income risk at the top
+
+**Project:** `us-rising-income-risk-top`
+
+**Status:** opening pass; income risk and saving responses are measured, the household and political spillovers remain open
+
+**Question:** What happens to the wider economy when high earners face more income risk and respond by saving more?
+
+**Sources recorded:** 1
+
+- [Rising Income Risk at the Top](https://www.nber.org/papers/w35664)
+
+**Open gaps:**
+- which assets receive the extra saving;
+- who bears changes in borrowing costs;
+- consumer demand and business investment;
+- labor-market and wage effects;
+- differences within the top group;
+- political response to wider wealth gaps.
+
+[Open the source-search record](projects/us-rising-income-risk-top/source-search-2026-09-11.md)
 
 ## US safe drinking water
 

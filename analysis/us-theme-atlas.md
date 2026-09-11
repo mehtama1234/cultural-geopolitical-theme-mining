@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When income risk at the top changes the price of money
+
+Follow income risk among high earners into saving and the wider money system, then ask how a financial change becomes a public argument about fairness and policy.
+
+1. [More income risk at the top can mean more saving and wider wealth gaps](#rising_income_risk_top)
+2. [The price on the screen is only part of the cost](#money)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current sources do not connect the same saving change to borrowing costs, household demand and political response.
+
 ### When spending hides the cash constraint
 
 Follow a spending number into the cash and credit room beneath it, then ask what daily need the household protects or gives up.
@@ -1011,6 +1021,7 @@ Connections:
 - Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: A fee rule can help people with cash more than people without it. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
 - Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show the same household's take-home pay, spending, debt cost or later security.
 - Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The same spending number can hide different constraints. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
+- Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
 
 ### Keeping a home also means paying to protect it
 
@@ -2144,6 +2155,7 @@ Connections:
 - Question to test: A story about who caused inflation can shape which policy response and political judgment seem acceptable. Related topic: The same price rise can produce different blame. The current evidence measures policy preferences, not later voting or public action.
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: A future public bill can become a political judgment before the bill reaches a household. Related topic: Future public debt can change what households expect before taxes change. The current study measures expectations, not blame, voting or demand for a particular policy.
+- Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: More income risk at the top can mean more saving and wider wealth gaps. The current study does not measure political beliefs, voting or policy demand after the wealth change.
 
 ### Help can exist but be hard to keep
 
@@ -2745,6 +2757,39 @@ Connections:
 
 - Question to test: A score change can alter the record a lender uses even when the borrower's underlying report did not change. Related topic: A payment record can become a gate to a home. The current study identifies the score change and default response but does not show each lender's decision or term.
 - Question to test: If a score makes credit harder to get, it may also change access to a home or the cost of keeping one. Related topic: Keeping a home also means paying to protect it. The current study does not measure rent, mortgage approval, insurance, moving or home loss.
+
+### More income risk at the top can mean more saving and wider wealth gaps
+
+Rising income risk among high earners may change saving, wealth and the price of money beyond the households first hit.
+
+**Question:** When does a change at the top reach the financial room of other households?
+
+**Subthemes:** Income risk and saving; Wealth gaps and the price of money
+
+**Limit:** The opening study measures income risk and modeled spillovers, not the full consumer or political path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Rising Income Risk at the Top](https://www.nber.org/papers/w35664)
+
+#### Evidence check: More income risk at the top can mean more saving and wider wealth gaps
+
+Using newly digitized US tax returns from 1969 to 2019, an NBER study finds that permanent income risk rose across the distribution and nearly 70% among the top 5%. Large negative income shocks predict financial distress even among top earners. A life-cycle model links higher risk at the top to more saving, greater wealth inequality and a 0.7 percentage-point reduction in the modeled risk-free rate.
+
+Working interpretation: a change among high earners can affect the wider economy through saving and the price of money, even though the first shock is far from an ordinary checkout or rent payment.
+
+**Counterpoint:** Higher saving can fund investment and provide protection against a shock. The modeled wealth and interest-rate effects depend on assumptions and do not show the same result for every household.
+[Related study](https://www.nber.org/papers/w35664)
+
+The opening evidence does not show how the change reaches consumers, workers, borrowers or voters, and the tax records do not explain each saving decision.
+
+[Braxton, Herkenhoff, Huang, Nattinger, Rothbaum and Schmidt, Rising Income Risk at the Top, NBER Working Paper 35664, checked 2026-09-11.](https://www.nber.org/papers/w35664)
+
+
+Connections:
+
+- Question to test: More saving after income risk at the top may change the wider supply and price of money. Related topic: The price on the screen is only part of the cost. The current evidence uses a model and does not show which borrowers or consumers receive the modeled rate change.
+- Question to test: Wider wealth gaps can turn a private saving response into a public argument about who is protected. Related topic: Personal finances and national mood can move apart. The current study does not measure political beliefs, voting or policy demand after the wealth change.
 
 ## Who controls the work and gets the gain
 
