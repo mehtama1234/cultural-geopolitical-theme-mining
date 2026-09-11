@@ -31,6 +31,28 @@
   ],
   "nodes": [
     {
+      "id": "economic_voting",
+      "evidence_check": {
+        "title": "The vote may respond more to lost buying power than inflation alone",
+        "finding": "A new NBER county study of the United States from 2021–2024 reports that real-wage decline, rather than higher inflation alone, predicts Republican electoral gains, while inflation remains associated with presidential vote share beyond that measure.",
+        "meaning": "Working interpretation: the political meaning of prices may depend on whether local pay keeps up with local costs.",
+        "counterpoint": "County results do not show how each person voted, and party identity, social issues, media and local candidates can outweigh economic conditions.",
+        "counterpoint_source": "https://www.nber.org/papers/w35301",
+        "limit": "The current evidence does not join one household's prices, wages, blame, trust and vote choice.",
+        "source": "https://www.nber.org/papers/w35301",
+        "location": "Riaño and Trebbi, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in US Elections, NBER Working Paper 35301, June 2026. Checked 2026-09-11."
+      },
+      "project": "us-economic-voting-real-wages",
+      "title": "The vote may respond more to lost buying power than inflation alone",
+      "summary": "Local pay falling behind local costs may matter more than the national inflation rate by itself.",
+      "question": "What economic loss reaches the ballot?",
+      "limit": "The opening evidence is county-level and does not identify each voter's reason.",
+      "subthemes": ["Real wages", "Economic blame and vote choice"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-economic-voting-real-wages/source-search-2026-09-11.md"
+    },
+    {
       "id": "privacy_trust",
       "evidence_check": {
         "title": "Privacy rules can make people more willing to share",
@@ -922,6 +944,13 @@
       "meaning": "Follow a privacy rule into a person's willingness to use a service and share data, then ask whether the new trust changes public expectations of firms and government.",
       "limit": "The current study measures sharing on one app and does not show later data use, service outcomes or political response.",
       "memo": null
+    },
+    {
+      "title": "When local buying power reaches the ballot",
+      "topics": ["economic_voting", "price_perception", "money"],
+      "meaning": "Follow local prices and wages into the household's sense of room, then ask whether lost buying power becomes a vote against the party in power.",
+      "limit": "The current study uses county outcomes and separate price beliefs; it does not show the same household's costs, blame, trust or vote.",
+      "memo": null
     }
   ],
   "edges": [
@@ -1315,6 +1344,14 @@
       "to": "service",
       "relation": "Privacy protection may change whether a person feels safe enough to use and share through a service",
       "limit": "The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.",
+      "type": "open"
+    },
+    {
+      "id": "link-50",
+      "from": "economic_voting",
+      "to": "price_perception",
+      "relation": "Local real-wage loss may shape which prices people use to judge the economy and the party in power",
+      "limit": "The current county study does not identify each voter's price basket, wage change, blame or reason for voting.",
       "type": "open"
     }
   ]

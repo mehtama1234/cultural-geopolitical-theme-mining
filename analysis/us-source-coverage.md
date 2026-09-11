@@ -1,8 +1,8 @@
 # US source coverage
 
-29 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+30 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 19; HHS: 1; IEA: 1; IMF: 1; NBER: 41; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 20; HHS: 1; IEA: 1; IMF: 1; NBER: 42; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -286,6 +286,29 @@
 - independent data beyond company and survey reports.
 
 [Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-11.md)
+
+## US real wages and the vote
+
+**Project:** `us-economic-voting-real-wages`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** Which economic change reaches the ballot: higher prices, lower real pay, or a belief that the government caused the loss?
+
+**Sources recorded:** 2
+
+- [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
+- [HBS: What Elections Can Reveal About a Country’s Economic Prospects](https://www2.library.hbs.edu/working-knowledge/what-elections-can-reveal-about-countrys-economic-prospects)
+
+**Open gaps:**
+- individual prices, wages, debt and vote behavior together;
+- effects by income, race, age, place and product basket;
+- whether voters know which policy changed prices or wages;
+- turnout versus vote choice;
+- how long a buying-power loss lasts in political memory;
+- whether a later recovery changes trust or only the next vote.
+
+[Open the source-search record](projects/us-economic-voting-real-wages/source-search-2026-09-11.md)
 
 ## US employee ownership and the meaning of the work
 

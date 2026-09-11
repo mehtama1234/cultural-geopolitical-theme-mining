@@ -341,6 +341,16 @@ Follow a privacy rule into a person's willingness to use a service and share dat
 
 Still missing: The current study measures sharing on one app and does not show later data use, service outcomes or political response.
 
+### When local buying power reaches the ballot
+
+Follow local prices and wages into the household's sense of room, then ask whether lost buying power becomes a vote against the party in power.
+
+1. [The vote may respond more to lost buying power than inflation alone](#economic_voting)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current study uses county outcomes and separate price beliefs; it does not show the same household's costs, blame, trust or vote.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -480,6 +490,7 @@ Connections:
 
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: The price on the screen is only part of the cost. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 - Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A trade policy can reach the shelf slowly. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
+- Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
 
 ### The price on the screen is only part of the cost
 
@@ -948,6 +959,39 @@ Connections:
 ## Who can get an answer or change a decision
 
 Look for actual choices and responses before claiming that trust or power changed.
+
+### The vote may respond more to lost buying power than inflation alone
+
+Local pay falling behind local costs may matter more than the national inflation rate by itself.
+
+**Question:** What economic loss reaches the ballot?
+
+**Subthemes:** Real wages; Economic blame and vote choice
+
+**Limit:** The opening evidence is county-level and does not identify each voter's reason.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
+- [HBS: What Elections Can Reveal About a Country’s Economic Prospects](https://www2.library.hbs.edu/working-knowledge/what-elections-can-reveal-about-countrys-economic-prospects)
+
+#### Evidence check: The vote may respond more to lost buying power than inflation alone
+
+A new NBER county study of the United States from 2021–2024 reports that real-wage decline, rather than higher inflation alone, predicts Republican electoral gains, while inflation remains associated with presidential vote share beyond that measure.
+
+Working interpretation: the political meaning of prices may depend on whether local pay keeps up with local costs.
+
+**Counterpoint:** County results do not show how each person voted, and party identity, social issues, media and local candidates can outweigh economic conditions.
+[Related study](https://www.nber.org/papers/w35301)
+
+The current evidence does not join one household's prices, wages, blame, trust and vote choice.
+
+[Riaño and Trebbi, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in US Elections, NBER Working Paper 35301, June 2026. Checked 2026-09-11.](https://www.nber.org/papers/w35301)
+
+
+Connections:
+
+- Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: A slower rise in prices can still feel like a loss. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
 
 ### Privacy rules can make people more willing to share
 
