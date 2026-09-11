@@ -1533,6 +1533,28 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-inflation-cause-beliefs/source-search-2026-09-11.md"
+    },
+    {
+      "id": "news_selection_inflation",
+      "evidence_check": {
+        "title": "Bad price news can weigh more than good price news",
+        "finding": "NBER's household-panel study finds that news coverage is more likely when inflation is high and that households account for this pattern imperfectly. Exposure to news about higher prices raises inflation expectations by 0.4 percentage point, while exposure to lower-price news has no significant effect.",
+        "meaning": "Working interpretation: the public picture of the economy can lean negative because the news people see is selected around bad price movements, and the correction is not equal when prices improve.",
+        "counterpoint": "Higher-price news may contain information people need, and lower-price news may be less common because falling prices are less newsworthy. A change in expectations is not the same as a change in spending or voting.",
+        "counterpoint_source": "https://www.nber.org/papers/w34088",
+        "limit": "The studies do not show each household's complete media diet, price basket, trust, spending response or political action.",
+        "source": "https://www.nber.org/papers/w33837",
+        "location": "Chahrour, Shapiro and Wilson, News Selection and Household Inflation Expectations, NBER Working Paper 33837; Binder, Frank and Ryngaert, The Causal Effect of News on Inflation Expectations, NBER Working Paper 34088. Checked 2026-09-11."
+      },
+      "project": "us-news-selection-inflation",
+      "title": "Bad price news can weigh more than good price news",
+      "summary": "The selection and timing of inflation news can make household expectations respond more to higher prices than lower ones.",
+      "question": "How does the news people receive shape the economic future they expect?",
+      "limit": "The opening evidence measures news exposure and inflation expectations, not later household or political action.",
+      "subthemes": ["News selection and price belief", "Bad news and expectation weight"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-news-selection-inflation/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1994,6 +2016,13 @@
       "topics": ["inflation_cause_beliefs", "price_perception", "politics"],
       "meaning": "Follow the price people feel into the cause they name, then ask which policy or political response follows.",
       "limit": "The survey evidence does not show the same household's price basket, information path and later political action.",
+      "memo": null
+    },
+    {
+      "title": "When the news selects the economic mood",
+      "topics": ["news_selection_inflation", "inflation_cause_beliefs", "price_perception"],
+      "meaning": "Follow selected price news into inflation expectations and explanations of the economy, then ask whether the household changes spending or political judgment.",
+      "limit": "The news and belief studies do not show the same household's full media exposure, price experience and later action.",
       "memo": null
     }
   ],
@@ -2748,6 +2777,14 @@
       "to": "politics",
       "relation": "The price people feel can become part of a political judgment about responsibility and response",
       "limit": "The current evidence does not show the same household's price basket, blame, information path and later vote.",
+      "type": "open"
+    },
+    {
+      "id": "link-95",
+      "from": "news_selection_inflation",
+      "to": "inflation_cause_beliefs",
+      "relation": "Which price stories people see may shape the inflation causes and policy responses they consider",
+      "limit": "The current studies do not connect one household's media exposure, cause belief and policy action.",
       "type": "open"
     }
   ]

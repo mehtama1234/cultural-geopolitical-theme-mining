@@ -704,6 +704,16 @@ Follow the price people feel into the cause they name, then ask which policy or 
 
 Still missing: The survey evidence does not show the same household's price basket, information path and later political action.
 
+### When the news selects the economic mood
+
+Follow selected price news into inflation expectations and explanations of the economy, then ask whether the household changes spending or political judgment.
+
+1. [Bad price news can weigh more than good price news](#news_selection_inflation)
+2. [The same price rise can produce different blame](#inflation_cause_beliefs)
+3. [A slower rise in prices can still feel like a loss](#price_perception)
+
+Still missing: The news and belief studies do not show the same household's full media exposure, price experience and later action.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -2461,6 +2471,41 @@ Connections:
 
 - Question to test: A household's felt price change can shape which cause it names and which tradeoff it notices. Related topic: A slower rise in prices can still feel like a loss. The current survey does not join each respondent's price basket, income change and belief about the cause.
 - Question to test: A story about who caused inflation can shape which policy response and political judgment seem acceptable. Related topic: Personal finances and national mood can move apart. The current evidence measures policy preferences, not later voting or public action.
+- Question to test: Which price stories people see may shape the inflation causes and policy responses they consider. Related topic: Bad price news can weigh more than good price news. The current studies do not connect one household's media exposure, cause belief and policy action.
+
+### Bad price news can weigh more than good price news
+
+The selection and timing of inflation news can make household expectations respond more to higher prices than lower ones.
+
+**Question:** How does the news people receive shape the economic future they expect?
+
+**Subthemes:** News selection and price belief; Bad news and expectation weight
+
+**Limit:** The opening evidence measures news exposure and inflation expectations, not later household or political action.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [News Selection and Household Inflation Expectations](https://www.nber.org/papers/w33837)
+- [The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)
+- [People's Understanding of Inflation](https://www.nber.org/papers/w32497)
+
+#### Evidence check: Bad price news can weigh more than good price news
+
+NBER's household-panel study finds that news coverage is more likely when inflation is high and that households account for this pattern imperfectly. Exposure to news about higher prices raises inflation expectations by 0.4 percentage point, while exposure to lower-price news has no significant effect.
+
+Working interpretation: the public picture of the economy can lean negative because the news people see is selected around bad price movements, and the correction is not equal when prices improve.
+
+**Counterpoint:** Higher-price news may contain information people need, and lower-price news may be less common because falling prices are less newsworthy. A change in expectations is not the same as a change in spending or voting.
+[Related study](https://www.nber.org/papers/w34088)
+
+The studies do not show each household's complete media diet, price basket, trust, spending response or political action.
+
+[Chahrour, Shapiro and Wilson, News Selection and Household Inflation Expectations, NBER Working Paper 33837; Binder, Frank and Ryngaert, The Causal Effect of News on Inflation Expectations, NBER Working Paper 34088. Checked 2026-09-11.](https://www.nber.org/papers/w33837)
+
+
+Connections:
+
+- Question to test: Which price stories people see may shape the inflation causes and policy responses they consider. Related topic: The same price rise can produce different blame. The current studies do not connect one household's media exposure, cause belief and policy action.
 
 ## Who controls the work and gets the gain
 

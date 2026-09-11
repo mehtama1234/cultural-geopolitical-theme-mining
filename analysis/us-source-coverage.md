@@ -1,8 +1,8 @@
 # US source coverage
 
-64 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+65 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 108; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 111; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1074,6 +1074,30 @@
 - whether firms shift risk to workers while calling the arrangement flexible.
 
 [Open the source-search record](projects/us-multiple-job-spending-strain/source-search-2026-09-11.md)
+
+## US news selection and inflation belief
+
+**Project:** `us-news-selection-inflation`
+
+**Status:** opening pass; news and expectation effects are measured, later action remains open
+
+**Question:** How does the news people receive shape the economic future they expect?
+
+**Sources recorded:** 3
+
+- [News Selection and Household Inflation Expectations](https://www.nber.org/papers/w33837)
+- [The Causal Effect of News on Inflation Expectations](https://www.nber.org/papers/w34088)
+- [People's Understanding of Inflation](https://www.nber.org/papers/w32497)
+
+**Open gaps:**
+- household price basket and income;
+- complete media exposure and source trust;
+- price news, cause belief and policy preference;
+- spending, saving and borrowing records;
+- turnout, voting and public demand;
+- differences by party, income, age, race and place.
+
+[Open the source-search record](projects/us-news-selection-inflation/source-search-2026-09-11.md)
 
 ## US older consumers are not one market
 
