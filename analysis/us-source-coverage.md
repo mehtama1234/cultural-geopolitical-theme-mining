@@ -1,8 +1,8 @@
 # US source coverage
 
-46 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+47 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 39; HHS: 2; IEA: 1; IMF: 1; NBER: 74; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 40; HHS: 2; IEA: 1; IMF: 1; NBER: 77; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -714,6 +714,31 @@
 - whether the pattern is temporary repricing or a lasting change in where people can live.
 
 [Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
+
+## US immigration, local demand and place
+
+**Project:** `us-immigration-local-demand`
+
+**Status:** opening pass; local demand effect is measurable, housing and political meaning remain open
+
+**Question:** What changes in a place when new residents add both workers and customers?
+
+**Sources recorded:** 4
+
+- [Are Immigrants a Shot in the Arm for the Local Economy?](https://www.nber.org/papers/w21123)
+- [Immigration and Entrepreneurship in the United States](https://www.nber.org/papers/w27778)
+- [The Postpandemic US Immigration Surge](https://www.nber.org/papers/w35168)
+- [When Migrants and Locals Innovate Together](https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain)
+
+**Open gaps:**
+- current local demand and service use;
+- housing supply, rents and crowding;
+- wages and job quality for immigrants and existing residents;
+- business entry, survival and ownership;
+- schools, health care, transport and public capacity;
+- local attitudes, trust and political response.
+
+[Open the source-search record](projects/us-immigration-local-demand/source-search-2026-09-11.md)
 
 ## US income volatility and the room to spend
 

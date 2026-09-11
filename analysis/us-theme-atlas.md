@@ -510,6 +510,16 @@ Follow a payment to one person into another member's training, care or spending,
 
 Still missing: The current experiment does not settle the health meaning or the lasting effect after payments end.
 
+### When new residents change the local customer base
+
+Follow migration into customer demand, jobs and services, then ask how housing and the value of the place adjust.
+
+1. [New residents are workers and customers at once](#immigration_local_demand)
+2. [Business counts do not tell us who belongs to a place](#place)
+3. [Keeping a home also means paying to protect it](#housing)
+
+Still missing: The current sources do not show the same place's present housing, wages, public capacity and belonging together.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1658,6 +1668,7 @@ Connections:
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Keeping a home also means paying to protect it. Needs linked evidence on owners, housing costs and business moves.
 - Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Getting to a place is a major household cost. The NBER comparison is older and does not measure current household hardship or local belonging.
 - Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: The hometown tie in entrepreneurship has weakened. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
+- Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: New residents are workers and customers at once. The current evidence does not show how housing, wages, public capacity and belonging change together.
 
 ### A quicker reply may still leave a problem open
 
@@ -1767,6 +1778,41 @@ The current evidence does not connect the sentiment change to the same household
 Connections:
 
 - Question to test: A benefit change can become part of how households judge the policy and the economy. Related topic: Help can exist but be hard to keep. The current sentiment result does not show a later change in trust, turnout or vote.
+
+### New residents are workers and customers at once
+
+Migration can change a local economy through both the work people add and the services they need and buy.
+
+**Question:** What changes in a place when new residents add both workers and customers?
+
+**Subthemes:** Local demand and jobs; Housing, services and belonging
+
+**Limit:** The opening packet measures selected local and national effects, not the full experience of one place today.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Are Immigrants a Shot in the Arm for the Local Economy?](https://www.nber.org/papers/w21123)
+- [Immigration and Entrepreneurship in the United States](https://www.nber.org/papers/w27778)
+- [The Postpandemic US Immigration Surge](https://www.nber.org/papers/w35168)
+- [When Migrants and Locals Innovate Together](https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain)
+
+#### Evidence check: New residents are workers and customers at once
+
+NBER estimates from US Census data that each immigrant created about 1.2 local jobs for local workers, mostly in non-traded services. Other research treats immigrants as both added labor supply and possible new business owners, while recent work finds roughly offsetting national supply and demand effects on inflation.
+
+Working interpretation: the local effect of migration depends on both the work people add and the services they buy, plus how fast housing and public systems adjust.
+
+**Counterpoint:** New demand can support local jobs, businesses and service variety. It can also add pressure where housing or public capacity expands slowly.
+[Related study](https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain)
+
+The current sources do not show the same place's current housing, wages, services, belonging and political response together.
+
+[NBER local-demand, entrepreneurship and recent immigration research, with HBS migrant-local innovation reporting. Checked 2026-09-11.](https://www.nber.org/papers/w21123)
+
+
+Connections:
+
+- Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: Business counts do not tell us who belongs to a place. The current evidence does not show how housing, wages, public capacity and belonging change together.
 
 ## Who controls the work and gets the gain
 

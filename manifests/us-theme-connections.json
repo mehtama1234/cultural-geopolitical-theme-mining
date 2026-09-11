@@ -1122,6 +1122,31 @@
       "theme": "time",
       "status": "Early reading",
       "source_record": "analysis/projects/us-guaranteed-income-household-dynamics/source-search-2026-09-11.md"
+    },
+    {
+      "id": "immigration_local_demand",
+      "evidence_check": {
+        "title": "New residents are workers and customers at once",
+        "finding": "NBER estimates from US Census data that each immigrant created about 1.2 local jobs for local workers, mostly in non-traded services. Other research treats immigrants as both added labor supply and possible new business owners, while recent work finds roughly offsetting national supply and demand effects on inflation.",
+        "meaning": "Working interpretation: the local effect of migration depends on both the work people add and the services they buy, plus how fast housing and public systems adjust.",
+        "counterpoint": "New demand can support local jobs, businesses and service variety. It can also add pressure where housing or public capacity expands slowly.",
+        "counterpoint_source": "https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain",
+        "limit": "The current sources do not show the same place's current housing, wages, services, belonging and political response together.",
+        "source": "https://www.nber.org/papers/w21123",
+        "location": "NBER local-demand, entrepreneurship and recent immigration research, with HBS migrant-local innovation reporting. Checked 2026-09-11."
+      },
+      "project": "us-immigration-local-demand",
+      "title": "New residents are workers and customers at once",
+      "summary": "Migration can change a local economy through both the work people add and the services they need and buy.",
+      "question": "What changes in a place when new residents add both workers and customers?",
+      "limit": "The opening packet measures selected local and national effects, not the full experience of one place today.",
+      "subthemes": [
+        "Local demand and jobs",
+        "Housing, services and belonging"
+      ],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-immigration-local-demand/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -1450,6 +1475,13 @@
       "topics": ["guaranteed_income_household", "care", "money"],
       "meaning": "Follow a payment to one person into another member's training, care or spending, then ask what the family gains and what need becomes visible.",
       "limit": "The current experiment does not settle the health meaning or the lasting effect after payments end.",
+      "memo": null
+    },
+    {
+      "title": "When new residents change the local customer base",
+      "topics": ["immigration_local_demand", "place", "housing"],
+      "meaning": "Follow migration into customer demand, jobs and services, then ask how housing and the value of the place adjust.",
+      "limit": "The current sources do not show the same place's present housing, wages, public capacity and belonging together.",
       "memo": null
     }
   ],
@@ -1980,6 +2012,14 @@
       "to": "care",
       "relation": "Cash to one household member can change another member's training or care path",
       "limit": "The current evidence does not show whether the care report reflects new need, better detection or worse health.",
+      "type": "open"
+    },
+    {
+      "id": "link-67",
+      "from": "immigration_local_demand",
+      "to": "place",
+      "relation": "New residents can change the local customer base, work pool and services of a place",
+      "limit": "The current evidence does not show how housing, wages, public capacity and belonging change together.",
       "type": "open"
     }
   ]

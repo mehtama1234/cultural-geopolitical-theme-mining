@@ -135,6 +135,8 @@ The next short pass is [US durable purchases and borrowed room](analysis/project
 
 The next short pass is [US guaranteed income and household dynamics](analysis/projects/us-guaranteed-income-household-dynamics/README.md), with its [source search record](analysis/projects/us-guaranteed-income-household-dynamics/source-search-2026-09-11.md). It tests what changes inside a household when only one person receives regular cash.
 
+The next short pass is [US immigration, local demand and place](analysis/projects/us-immigration-local-demand/README.md), with its [source search record](analysis/projects/us-immigration-local-demand/source-search-2026-09-11.md). It tests how new residents change local customers, jobs, housing, services and belonging.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
