@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When competition protects some customers first
+
+Follow customer power and firm competition into service and price, then ask when unequal treatment becomes a public demand for rules or enforcement.
+
+1. [Competition can protect the customers most able to leave](#consumer_discrimination_competition)
+2. [A quicker reply may still leave a problem open](#service)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current historical study and service evidence do not follow today's customer through treatment, switching, complaint and political response.
+
 ### When a tariff keeps moving after the first price rise
 
 Follow a tariff from the first import price into the existing pass-through evidence, then ask how the delayed domestic markup changes the price story a household sees.
@@ -1056,6 +1066,7 @@ Connections:
 - Question to test: The price people feel can become part of a political judgment about responsibility and response. Related topic: Personal finances and national mood can move apart. The current evidence does not show the same household's price basket, blame, information path and later vote.
 - Question to test: The place-specific price basket shapes which costs a household sees and remembers. Related topic: The same income can buy a different life by place. The local-price study measures product indexes, not each household's remembered prices or story about them.
 - Question to test: A price that rises in stages can make a trade policy harder to trace to the household bill. Related topic: A tariff can reach US prices later through domestic markups. The current evidence does not show what price story each household notices or who it blames.
+- Question to test: A group-specific price can become part of how customers understand fairness in a market. Related topic: Competition can protect the customers most able to leave. The current evidence does not measure each customer's price awareness, blame or later action.
 
 ### The price on the screen is only part of the cost
 
@@ -2518,6 +2529,7 @@ Connections:
 - Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: Privacy rules can make people more willing to share. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
 - Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: Equal data access can open competition and reduce data investment. The current model does not show actual service quality, prices or customer welfare in a US market.
 - Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A free service can have time as its real price. The current study measures ad load and substitution, not the full quality or value of the service.
+- Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: Competition can protect the customers most able to leave. The historical study measures treatment and prices but does not show today's service quality or switching path.
 
 ### More work does not always mean more room
 
@@ -3127,6 +3139,39 @@ Connections:
 
 - Question to test: A rule about data access can change what customers think they are exchanging for a service. Related topic: Privacy rules can make people more willing to share. The current model does not measure customer trust, sharing or privacy choices on a real platform.
 - Question to test: Platform data rules can change the seller competition and service choices customers see. Related topic: A quicker reply may still leave a problem open. The current model does not show actual service quality, prices or customer welfare in a US market.
+
+### Competition can protect the customers most able to leave
+
+Competition may change firm behavior unevenly when different customer groups have different power to switch.
+
+**Question:** Who does competition protect when customers do not have equal power?
+
+**Subthemes:** Customer power and competition; Unequal price and service
+
+**Limit:** The opening evidence is historical and does not establish the current online or local-service result.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Competition and Consumer Discrimination](https://www.nber.org/papers/w33547)
+
+#### Evidence check: Competition can protect the customers most able to leave
+
+Using nationwide data from three US industries before the 1964 Civil Rights Act, an NBER study finds that increases in non-discrimination were concentrated in the least competitive markets, where the threat of White customer defection was lowest. Non-discriminatory firms charged higher prices than discriminatory firms in the same local market, and Black customers were harmed through higher prices in the non-discriminatory market.
+
+Working interpretation: competition does not automatically protect every customer. Firms may respond most strongly to the group with the clearest ability to leave.
+
+**Counterpoint:** Competition can still discipline firms and open better options when customers can switch. A higher price may reflect a different service or cost, not discrimination alone.
+[Related study](https://www.nber.org/papers/w33547)
+
+This is historical evidence and does not measure today's firms, online markets, service quality or the full reason for the price difference.
+
+[Jones, Logan, Rosé and Cook, Competition and Consumer Discrimination, NBER Working Paper 33547, checked 2026-09-11.](https://www.nber.org/papers/w33547)
+
+
+Connections:
+
+- Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: A quicker reply may still leave a problem open. The historical study measures treatment and prices but does not show today's service quality or switching path.
+- Question to test: A group-specific price can become part of how customers understand fairness in a market. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not measure each customer's price awareness, blame or later action.
 
 ## Who controls the work and gets the gain
 

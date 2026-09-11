@@ -1907,9 +1907,38 @@
       "theme": "cost",
       "status": "Early reading",
       "source_record": "analysis/projects/us-tariff-domestic-markup-delay/source-search-2026-09-11.md"
+    },
+    {
+      "id": "consumer_discrimination_competition",
+      "evidence_check": {
+        "title": "Competition can protect the customers most able to leave",
+        "finding": "Using nationwide data from three US industries before the 1964 Civil Rights Act, an NBER study finds that increases in non-discrimination were concentrated in the least competitive markets, where the threat of White customer defection was lowest. Non-discriminatory firms charged higher prices than discriminatory firms in the same local market, and Black customers were harmed through higher prices in the non-discriminatory market.",
+        "meaning": "Working interpretation: competition does not automatically protect every customer. Firms may respond most strongly to the group with the clearest ability to leave.",
+        "counterpoint": "Competition can still discipline firms and open better options when customers can switch. A higher price may reflect a different service or cost, not discrimination alone.",
+        "counterpoint_source": "https://www.nber.org/papers/w33547",
+        "limit": "This is historical evidence and does not measure today's firms, online markets, service quality or the full reason for the price difference.",
+        "source": "https://www.nber.org/papers/w33547",
+        "location": "Jones, Logan, Rosé and Cook, Competition and Consumer Discrimination, NBER Working Paper 33547, checked 2026-09-11."
+      },
+      "project": "us-consumer-discrimination-competition",
+      "title": "Competition can protect the customers most able to leave",
+      "summary": "Competition may change firm behavior unevenly when different customer groups have different power to switch.",
+      "question": "Who does competition protect when customers do not have equal power?",
+      "limit": "The opening evidence is historical and does not establish the current online or local-service result.",
+      "subthemes": ["Customer power and competition", "Unequal price and service"],
+      "theme": "voice",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-consumer-discrimination-competition/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When competition protects some customers first",
+      "topics": ["consumer_discrimination_competition", "service", "politics"],
+      "meaning": "Follow customer power and firm competition into service and price, then ask when unequal treatment becomes a public demand for rules or enforcement.",
+      "limit": "The current historical study and service evidence do not follow today's customer through treatment, switching, complaint and political response.",
+      "memo": null
+    },
     {
       "title": "When a tariff keeps moving after the first price rise",
       "topics": ["tariff_domestic_markup_delay", "tariff_pass_through", "price_perception"],
@@ -3513,6 +3542,22 @@
       "to": "price_perception",
       "relation": "A price that rises in stages can make a trade policy harder to trace to the household bill",
       "limit": "The current evidence does not show what price story each household notices or who it blames.",
+      "type": "open"
+    },
+    {
+      "id": "link-131",
+      "from": "consumer_discrimination_competition",
+      "to": "service",
+      "relation": "Unequal customer power can change which groups receive fair service and which groups pay more",
+      "limit": "The historical study measures treatment and prices but does not show today's service quality or switching path.",
+      "type": "open"
+    },
+    {
+      "id": "link-132",
+      "from": "consumer_discrimination_competition",
+      "to": "price_perception",
+      "relation": "A group-specific price can become part of how customers understand fairness in a market",
+      "limit": "The current evidence does not measure each customer's price awareness, blame or later action.",
       "type": "open"
     }
   ]

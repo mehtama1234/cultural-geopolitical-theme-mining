@@ -205,6 +205,8 @@ The next short pass is [US time-intensive platform consumption](analysis/project
 
 The next short pass is [US tariff price paths and delayed domestic markups](analysis/projects/us-tariff-domestic-markup-delay/README.md), with its [source search record](analysis/projects/us-tariff-domestic-markup-delay/source-search-2026-09-11.md). It tests why the consumer price effect of a tariff can keep growing after the first import-price change.
 
+The next short pass is [US consumer discrimination and competition](analysis/projects/us-consumer-discrimination-competition/README.md), with its [source search record](analysis/projects/us-consumer-discrimination-competition/source-search-2026-09-11.md). It tests whether competition protects all customers equally when groups have different power to switch.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

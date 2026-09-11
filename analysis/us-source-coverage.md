@@ -1,8 +1,8 @@
 # US source coverage
 
-81 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+82 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 128; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 129; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -317,6 +317,28 @@
 - evidence that challenges the idea that credit mainly shifts risk to households.
 
 [Open the source-search record](projects/us-consumer-credit-liquidity/source-search-2026-09-11.md)
+
+## US consumer discrimination and competition
+
+**Project:** `us-consumer-discrimination-competition`
+
+**Status:** opening pass; historical US markets and prices are measured, current customer and political paths remain open
+
+**Question:** When firms compete for customers, does competition reduce discrimination, or can it make a firm protect the customers most likely to leave?
+
+**Sources recorded:** 1
+
+- [Competition and Consumer Discrimination](https://www.nber.org/papers/w33547)
+
+**Open gaps:**
+- current market and customer groups;
+- actual treatment and service quality;
+- switching and search ability;
+- price and cost by customer group;
+- online targeting and platform design;
+- complaints, enforcement and trust.
+
+[Open the source-search record](projects/us-consumer-discrimination-competition/source-search-2026-09-11.md)
 
 ## US consumer fraud, recovery, and trust
 
