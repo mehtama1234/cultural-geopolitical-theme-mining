@@ -331,6 +331,16 @@ Follow the effort of moving a deposit into the interest and household room left 
 
 Still missing: The current evidence models bank value and stability but does not follow the same US depositor from a missed rate to a changed budget or political view.
 
+### When privacy protection increases the data exchange
+
+Follow a privacy rule into a person's willingness to use a service and share data, then ask whether the new trust changes public expectations of firms and government.
+
+1. [Privacy rules can make people more willing to share](#privacy_trust)
+2. [A quicker reply may still leave a problem open](#service)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current study measures sharing on one app and does not show later data use, service outcomes or political response.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -939,6 +949,38 @@ Connections:
 
 Look for actual choices and responses before claiming that trust or power changed.
 
+### Privacy rules can make people more willing to share
+
+Clearer privacy control may increase data sharing while also increasing what firms know about customers.
+
+**Question:** Who gains when trust opens the door to more data?
+
+**Subthemes:** Privacy as reassurance; Data sharing and firm power
+
+**Limit:** The opening evidence does not measure later data use, customer outcomes or equal bargaining power.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+
+#### Evidence check: Privacy rules can make people more willing to share
+
+HBS reports that users of one receipt-and-reward app in California and Virginia shared 9% more information after privacy rules took effect, including more receipts, store visits and retail categories. The research points to trust as a key mechanism.
+
+Working interpretation: a privacy rule can change the feeling of the exchange, not only the legal terms, and may increase both customer comfort and firm knowledge.
+
+**Counterpoint:** More sharing may be useful when the deal is clear, but it can also give a firm more power to predict, target or price a person. Consent is not the same as equal bargaining power.
+[Related study](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+
+The current evidence comes from one platform and does not show that users understood later data uses or received better outcomes.
+
+[HBS Working Knowledge, reporting Demirci, Israeli and Ascarza, In Privacy We Trust, Working Paper 26-001, checked 2026-09-11.](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+
+
+Connections:
+
+- Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: A quicker reply may still leave a problem open. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
+
 ### Personal finances and national mood can move apart
 
 People judge the economy through both their circumstances and their expectations about the country.
@@ -1132,6 +1174,7 @@ Connections:
 - Question to test: Repeated unresolved problems might weaken trust. Related topic: Personal finances and national mood can move apart. No direct evidence of that chain in the current packet.
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: The same job can contain different AI access. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: A payment system needs a usable answer when a customer reports a loss. Related topic: A payment problem can become a recovery problem. The current service study measures resolution and satisfaction, not fraud recovery or reimbursement.
+- Question to test: Privacy protection may change whether a person feels safe enough to use and share through a service. Related topic: Privacy rules can make people more willing to share. The current evidence shows more sharing on one platform but does not measure service quality, later use or customer power.
 
 ## Who controls the work and gets the gain
 

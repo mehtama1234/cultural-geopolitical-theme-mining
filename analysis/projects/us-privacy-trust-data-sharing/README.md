@@ -1,0 +1,17 @@
+# Project: US privacy rules and the decision to share
+
+## Question
+
+Can clearer privacy rights make people more willing to share data, and who gains when trust opens the door to more collection?
+
+## Short first pass
+
+Start with the HBS report on California and Virginia privacy rules. Keep legal control, customer trust, data sharing, marketing value and actual privacy as separate questions.
+
+## Possible connection
+
+A privacy rule may work through reassurance rather than silence: people share more because they feel more protected. That can help consumers understand the deal, while also giving firms a richer record of behavior.
+
+## Decision rule
+
+Check whether the result holds across services, data types and groups, and whether people understand later uses of the data. Move on unless the evidence shows both the trust gain and the limits on firm power.
