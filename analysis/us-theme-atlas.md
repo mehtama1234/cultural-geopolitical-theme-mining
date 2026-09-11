@@ -82,6 +82,17 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [CFPB medical-information rule record](https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-regulation-v/)
 - [NBER household finance search starting point](https://www.nber.org/papers)
 
+#### Evidence check: Removing old debt may leave today's choices unchanged
+
+Two randomized experiments forgave medical debt in collections. Researchers detected no average improvement in surveyed health, care use or financial wellness. Credit access improved modestly where the debt would otherwise have been reported.
+
+Working interpretation: ask whether help changes today's available money or access to care. An old balance disappearing may work differently.
+
+This tests specific debt relief, not all help with medical costs. It does not show that medical debt is harmless.
+
+[Abstract and Introduction; published in Quarterly Journal of Economics, May 2025. Reviewed 2026-09-11.](https://academic.oup.com/qje/article/140/2/1187/7933321)
+
+
 Connections:
 
 - Comparison: Cost can lead people to use less protection or care. Related topic: Keeping a home also means paying to protect it. Parallel household choices; neither packet proves the same people face both.

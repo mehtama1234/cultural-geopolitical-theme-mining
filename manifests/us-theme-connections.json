@@ -52,6 +52,14 @@
     },
     {
       "id": "health",
+      "evidence_check": {
+        "title": "Removing old debt may leave today's choices unchanged",
+        "finding": "Two randomized experiments forgave medical debt in collections. Researchers detected no average improvement in surveyed health, care use or financial wellness. Credit access improved modestly where the debt would otherwise have been reported.",
+        "meaning": "Working interpretation: ask whether help changes today's available money or access to care. An old balance disappearing may work differently.",
+        "limit": "This tests specific debt relief, not all help with medical costs. It does not show that medical debt is harmless.",
+        "source": "https://academic.oup.com/qje/article/140/2/1187/7933321",
+        "location": "Abstract and Introduction; published in Quarterly Journal of Economics, May 2025. Reviewed 2026-09-11."
+      },
       "project": "us-health-cost-household-choice",
       "title": "People can pay the bills by giving up care",
       "summary": "Skipped treatment can keep spending down while leaving a need unmet.",

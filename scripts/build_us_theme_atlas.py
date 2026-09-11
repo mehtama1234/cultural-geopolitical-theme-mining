@@ -30,8 +30,15 @@ for theme in data["themes"]:
         text = (ROOT / n["source_record"]).read_text()
         sources = list(dict.fromkeys(re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", text)))
         related = [x for x in data["edges"] if n["id"] in (x["from"], x["to"])]
+        check_html = ""
+        check = n.get("evidence_check")
+        if check:
+            assert check["source"].startswith("https://")
+            check_html = f'<aside class="limit"><h4>{e(check["title"])}</h4><p>{e(check["finding"])}</p><p>{e(check["meaning"])}</p><p>{e(check["limit"])}</p><a href="{e(check["source"], quote=True)}">{e(check["location"])}</a></aside>'
         md += ["### " + n["title"], "", n["summary"], "", "**Question:** " + n["question"], "", "**Subthemes:** " + "; ".join(n["subthemes"]), "", "**Limit:** " + n["limit"], "", "Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.", ""]
         md += [f"- [{label}]({url})" for label, url in sources]
+        if check:
+            md += ["", "#### Evidence check: " + check["title"], "", check["finding"], "", check["meaning"], "", check["limit"], "", f'[{check["location"]}]({check["source"]})', ""]
         md += ["", "Connections:", ""]
         links = []
         for x in related:
@@ -45,6 +52,7 @@ for theme in data["themes"]:
 <p class="eyebrow">{e(n["status"])}</p><h3>{e(n["title"])}</h3>
 <p class="summary">{e(n["summary"])}</p><p><strong>{e(n["question"])}</strong></p>
 <p class="sub">{e(" · ".join(n["subthemes"]))}</p><p class="limit"><strong>What remains uncertain:</strong> {e(n["limit"])}</p>
+{check_html}
 <details><summary>See the connections ({len(related)})</summary><ul class="connections">{"".join(links)}</ul></details>
 <details><summary>Sources and research notes ({len(sources)})</summary><p>Collected in the opening pass. Full studies may still need review.</p><ul>{source_html}</ul><a href="../{n["source_record"]}">Open the source notes</a></details>
 </article>''')
@@ -114,4 +122,3 @@ md += ["## Reading rule", "", "Connections marked Question to test are unproven.
 (ROOT / "analysis/us-theme-atlas.md").write_text("\n".join(md))
 (ROOT / "site/us-theme-atlas.html").write_text(html)
 print(f"Built {len(nodes)} topics, {len(themes)} themes, {len(data['edges'])} connections.")
-
