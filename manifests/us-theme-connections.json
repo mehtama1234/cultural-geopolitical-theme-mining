@@ -75,6 +75,14 @@
     },
     {
       "id": "care",
+      "evidence_check": {
+        "title": "Work can change before care starts",
+        "finding": "A published study links reported caregiving to earnings records. Women had lower employment and earnings after care began relative to a matched group. Men entered care after substantial work disruptions.",
+        "meaning": "Working interpretation: families may arrange care around both a relative's needs and who has lost paid work. The order of events matters when deciding what help would restore income.",
+        "limit": "The publisher abstract was reviewed; full methods and subgroup tables remain unchecked. Matching is not random assignment. This does not show that all caregivers follow these paths or that care later causes borrowing.",
+        "source": "https://www.journals.uchicago.edu/doi/10.1086/728810",
+        "location": "Maestas, Messel and Truskinovsky; Journal of Labor Economics 42(S1), 2024, abstract. Checked 2026-09-11."
+      },
       "project": "us-aging-care-strain",
       "title": "A family can pay for care with time",
       "summary": "Unpaid help uses hours that could otherwise go to work, rest or other family needs.",

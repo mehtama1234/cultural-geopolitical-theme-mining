@@ -121,6 +121,17 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Census families and living arrangements](https://www.census.gov/newsroom/press-releases/2025/families-and-living-arrangements.html)
 - [HHS caregiver tax-credit review](https://aspe.hhs.gov/reports/caregiver-tax-credit)
 
+#### Evidence check: Work can change before care starts
+
+A published study links reported caregiving to earnings records. Women had lower employment and earnings after care began relative to a matched group. Men entered care after substantial work disruptions.
+
+Working interpretation: families may arrange care around both a relative's needs and who has lost paid work. The order of events matters when deciding what help would restore income.
+
+The publisher abstract was reviewed; full methods and subgroup tables remain unchecked. Matching is not random assignment. This does not show that all caregivers follow these paths or that care later causes borrowing.
+
+[Maestas, Messel and Truskinovsky; Journal of Labor Economics 42(S1), 2024, abstract. Checked 2026-09-11.](https://www.journals.uchicago.edu/doi/10.1086/728810)
+
+
 Connections:
 
 - Question to test: An unmet care need may require more family time. Related topic: People can pay the bills by giving up care. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
