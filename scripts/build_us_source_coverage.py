@@ -49,6 +49,12 @@ def family(url):
         "sba.gov": "SBA",
         "bea.gov": "BEA",
         "treasury.gov": "Treasury",
+        "imf.org": "IMF",
+        "bis.org": "BIS",
+        "iea.org": "IEA",
+        "financialresearch.gov": "OFR",
+        "worldbank.org": "World Bank",
+        "pewresearch.org": "Pew Research",
     }
     for domain, name in named.items():
         if host == domain or host.endswith("." + domain):
