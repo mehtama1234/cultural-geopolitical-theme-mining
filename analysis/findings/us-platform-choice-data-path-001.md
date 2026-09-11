@@ -36,6 +36,14 @@ An HBS analysis of nearly 16,000 users of a receipt-and-reward app found that us
 
 More sharing may bring better offers or service. It may also give the platform more power to sort, target or price people. The study does not show which result followed.
 
+### 5. The company earns from both sellers and visibility
+
+Amazon's 2025 filing reports $172.162 billion in third-party seller-services revenue and $68.635 billion in advertising-services revenue. It says seller programs can include commissions, fulfillment, shipping and other fees. These are company-reported totals, not proof of seller profit or customer harm.
+
+The FTC and state case record alleges that Amazon connected seller prices, seller data, advertising, Featured Offers, Prime and promotion of its own products in ways that limited competition. Those are allegations in a live legal record, not established facts.
+
+[Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm) · [FTC and states case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
+
 ## The connection
 
 ```text
