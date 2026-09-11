@@ -70,6 +70,10 @@ The IBM Germany framework shows how a workplace can write risk classes, correcti
 
 Business expectations, capital choices, data work, and production redesign may move before output, pay, or employment shows a clear change. Measurement definitions and timing are part of the causal story, not clerical details. [Finding 011](findings/ai-work-control-011.md)
 
+### 13. Access is not the same as capacity
+
+AI results depend on complements around the model: capital, data, software, training, electricity, connectivity, institutions, and outside options. A country or firm can access a tool while remaining dependent on the owners of the systems that make the tool useful. [Finding 012](findings/ai-work-control-012.md)
+
 ### 10. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
