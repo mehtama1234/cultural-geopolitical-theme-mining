@@ -88,6 +88,8 @@ Follow a household cost from the bill to the decision to borrow, then ask what l
 
 Still missing: The current sources do not follow one household from an energy or housing bill through borrowing and repayment.
 
+[Read the complete connected memo](../site/us-credit-buffer-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -192,16 +194,22 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [CFPB recent changes in medical collections](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
 - [CFPB medical debt and credit reports](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
 - [NBER Credit Card Banking](https://www.nber.org/papers/w35607)
+- [Federal Reserve 2024 banking and credit](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
+- [CFPB BNPL market report](https://www.consumerfinance.gov/data-research/research-reports/the-buy-now-pay-later-market/)
+- [New York Fed household debt and credit, Q4 2025](https://www.newyorkfed.org/newsevents/news/research/2026/20260210)
 
-#### Evidence check: A small shock can become a payment decision
+#### Evidence check: A payment bridge can become a late-payment gap
 
-In the Federal Reserve's 2024 household survey, 63% of adults said they could cover a $400 surprise with cash or its equivalent. Fifteen percent said they would use a credit card and pay over time, while 13% said they could not pay it right away.
+In the Federal Reserve's 2024 household survey, 15% of adults used buy now, pay later. Twenty-four percent of users paid late, including 40% of users with family income under $25,000; 57% of late users said they were charged extra.
 
-Working interpretation: credit can act as a bridge when cash is thin, but the bridge creates a later payment question. Measure the repayment and fee, not only whether credit was available.
+Working interpretation: a product can make the first purchase possible while making the next payment a new pressure. Compare the user's income, the product's terms and the later result.
 
-This is a stated response to a hypothetical expense. It does not show the later balance, interest, missed payment or household outcome.
+**Counterpoint:** Provider data tell a less severe story for the product market: the CFPB reports a 1.83% loan charge-off rate in 2023 and a 4.1% loan-level late-fee rate in its measures. These rates use different units from the Fed survey and do not cancel the household result.
+[Related study](https://www.consumerfinance.gov/data-research/research-reports/the-buy-now-pay-later-market/)
 
-[Federal Reserve, Economic Well-Being of US Households in 2024, emergency expenses section. Checked 2026-09-11.](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm)
+The Fed figures are self-reported and do not show the later balance, interest, missed payment or household outcome. The CFPB provider data cover six large firms and use different denominators.
+
+[Federal Reserve, Economic Well-Being of US Households in 2024, banking and credit section. Checked 2026-09-11.](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
 
 
 Connections:

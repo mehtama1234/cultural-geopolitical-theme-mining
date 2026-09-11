@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** verification pass complete; connected memo written, same-household path remains open
 
 ## Working question
 
@@ -17,6 +17,9 @@ When a household cannot cover a small surprise with cash, what does credit chang
 | US-CFPB-MEDICAL-COLLECTIONS | [CFPB recent changes in medical collections](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/) | The share of consumers with medical collections on credit records fell from about 14% to about 5% between March 2022 and June 2023 | Official credit-record analysis | Credit-record changes do not measure whether the medical bill was paid or whether care changed |
 | US-CFPB-MEDICAL-DEBT | [CFPB medical debt and credit reports](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/) | Medical collections can affect access to housing, car loans, insurance and work, even though they are less predictive of repayment than many other collections | Official research report | It describes possible use of the record; it does not estimate the effect for every person |
 | US-NBER-CARD-BANKING | [NBER Credit Card Banking](https://www.nber.org/papers/w35607) | Account-level regulatory data cover 550 million monthly accounts, about 90% of the US card market, and describe how card revenue is made | Working paper abstract | Market revenue facts do not by themselves show whether borrowing helps or harms a household |
+| US-FED-BNPL-2024 | [Federal Reserve 2024 banking and credit](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm) | 15% used BNPL; 24% of users paid late, rising to 40% for users with family income under $25,000; 57% of late users said they were charged extra | Official household survey | Self-reported use and late payment; it does not follow balances after the missed payment |
+| US-CFPB-BNPL-2025 | [CFPB BNPL market report](https://www.consumerfinance.gov/data-research/research-reports/the-buy-now-pay-later-market/) | Six large providers supplied 2019–2023 market data on users, loan size, late fees and charge-offs; the 2023 loan-level late-fee rate was 4.1% and charge-off rate 1.83% in the report's measures | Official product-market review | Provider data cover a large but selected part of the market; measures are not the same as the Fed's household survey rates |
+| US-NYFED-HHDC-2025Q4 | [New York Fed household debt and credit, Q4 2025](https://www.newyorkfed.org/newsevents/news/research/2026/20260210) | Credit-card balances reached $1.28 trillion; 4.8% of all outstanding debt was in some stage of delinquency, and mortgage deterioration was concentrated in lower-income areas and places with falling home prices | Official credit-record panel | Aggregate credit records do not show why a person borrowed or which bill the borrowing covered |
 
 ## First pattern to test
 
@@ -28,11 +31,11 @@ bill or income shock
   -> firm revenue, regulator action, or political demand
 ```
 
-The Fed shows the first household choice. CFPB shows that a credit record can travel into housing, insurance and work. The missing link is what happened to the same household after it borrowed or delayed payment.
+The Fed shows both the first household choice and a large difference in late payment by income. CFPB supplies product-level measures that are lower because they use different denominators and provider records. The New York Fed shows the broader debt position and place pattern. The missing link is what happened to the same household after it borrowed or delayed payment.
 
 ## Counterpoint to keep visible
 
-Credit is not only a trap. It can prevent a missed payment, preserve a needed purchase, or spread a cost across paychecks. The next pass must compare repayment, fees and later access before calling borrowing a transfer of risk.
+Credit is not only a trap. It can prevent a missed payment, preserve a needed purchase, or spread a cost across paychecks. The Fed says the leading BNPL reasons were spreading payments and convenience; the CFPB's provider data show that most loans were not charged off. The memo must compare repayment, fees and later access before calling borrowing a transfer of risk.
 
 ## Main gaps
 

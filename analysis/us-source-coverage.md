@@ -2,7 +2,7 @@
 
 11 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 6; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 9; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 17; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 7; CMS: 1; Census: 5; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 10; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 23; OFR: 1; Other: 18; Other government: 1; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -83,17 +83,20 @@
 
 **Project:** `us-consumer-credit-liquidity`
 
-**Status:** short discovery pass; no settled finding
+**Status:** verification pass complete; connected memo written, same-household path remains open
 
 **Question:** When a household cannot cover a small surprise with cash, what does credit change—and what does it leave exposed?
 
-**Sources recorded:** 5
+**Sources recorded:** 8
 
 - [Federal Reserve Economic Well-Being of US Households in 2024](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-overall-financial-well-being.htm)
 - [Federal Reserve 2024 income and expenses](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
 - [CFPB recent changes in medical collections](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
 - [CFPB medical debt and credit reports](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
 - [NBER Credit Card Banking](https://www.nber.org/papers/w35607)
+- [Federal Reserve 2024 banking and credit](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
+- [CFPB BNPL market report](https://www.consumerfinance.gov/data-research/research-reports/the-buy-now-pay-later-market/)
+- [New York Fed household debt and credit, Q4 2025](https://www.newyorkfed.org/newsevents/news/research/2026/20260210)
 
 **Open gaps:**
 - emergency borrowing and repayment by income, race, age and place;
