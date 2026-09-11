@@ -42,6 +42,10 @@ Managers report uncertainty about who answers for a wrong decision, and workers 
 
 A tool that saves time may not improve work if people do not understand its purpose or cannot correct it. Explanation, responsibility, and recourse are not soft extras; they may affect whether the system is used well. [Finding 003](findings/ai-work-control-003.md)
 
+### 5. Easier work can be more controlled work
+
+EU worker evidence reports positive experiences with AI alongside associations between algorithmic management, lower autonomy, fewer breaks, and higher stress. The project must study assistance, monitoring, evaluation, and task direction as separate uses. [Finding 005](findings/ai-work-control-005.md)
+
 ### 5. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)
@@ -92,5 +96,6 @@ Call this a **theme**, not a settled law. Upgrade confidence only when the next 
 - [Finding 002](findings/ai-work-control-002.md)
 - [Finding 003](findings/ai-work-control-003.md)
 - [Finding 004](findings/ai-work-control-004.md)
+- [Finding 005](findings/ai-work-control-005.md)
 - [Claims ledger](claims-ledger-v1.md)
 - [Comparison bridge](comparison-bridge-microsoft-whoz-v1.md)

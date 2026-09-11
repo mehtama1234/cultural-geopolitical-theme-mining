@@ -146,6 +146,15 @@
       "access_notes": "Separate enacted rules, implementation timelines, consultations, and policy statements."
     },
     {
+      "id": "jrc-aimwork",
+      "name": "European Commission JRC AIM-WORK survey",
+      "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en",
+      "role": "EU-wide worker evidence on AI use, digital monitoring, algorithmic management, autonomy, and stress",
+      "source_types": ["worker_survey", "comparative_dataset", "methodology_report", "job_quality_evidence"],
+      "license_note": "Record survey dates, sample, weighting, question definitions, and source links; do not copy reports in full.",
+      "access_notes": "Separate association from causation and preserve the survey vintage and country coverage."
+    },
+    {
       "id": "fred",
       "name": "Federal Reserve Economic Data",
       "url": "https://fred.stlouisfed.org/",

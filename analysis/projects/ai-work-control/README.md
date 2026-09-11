@@ -41,6 +41,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 002: The first payoff may be movement, not pay](findings/ai-work-control-002.md)
 - [Finding 003: Control changes through meaning, not only measurement](findings/ai-work-control-003.md)
 - [Finding 004: Efficiency does not settle the control question](findings/ai-work-control-004.md)
+- [Finding 005: Work can become easier and more controlled at the same time](findings/ai-work-control-005.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)
@@ -53,3 +54,4 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published theme map](../../../site/ai-work-control/theme-map.html)
 - [Published Capgemini bridge](../../../site/ai-work-control/company-bridge-capgemini.html)
 - [Published HTML finding 004](../../../site/ai-work-control/finding-004.html)
+- [Published HTML finding 005](../../../site/ai-work-control/finding-005.html)
