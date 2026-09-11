@@ -1,8 +1,8 @@
 # US source coverage
 
-54 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+55 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 91; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 92; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1124,6 +1124,28 @@
 - long-run effects on cities, offices and local businesses.
 
 [Open the source-search record](projects/us-remote-work-contact/source-search-2026-09-11.md)
+
+## US rent-guarantee insurance
+
+**Project:** `us-rent-guarantee-insurance`
+
+**Status:** opening pass; modeled gains are clear, actual market effects remain open
+
+**Question:** Who can buy protection before a rent shock, and who is left with the loss?
+
+**Sources recorded:** 1
+
+- [Rent Guarantee Insurance](https://www.nber.org/papers/w32582)
+
+**Open gaps:**
+- actual US product availability and take-up;
+- premium, claim and exclusion rules;
+- landlord response to insured tenants;
+- who is denied or cannot afford coverage;
+- housing, credit, work and health after a claim;
+- public cost compared with direct rental aid.
+
+[Open the source-search record](projects/us-rent-guarantee-insurance/source-search-2026-09-11.md)
 
 ## US rental assistance and eviction prevention
 

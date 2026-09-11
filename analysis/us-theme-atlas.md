@@ -602,6 +602,16 @@ Follow a short-term housing payment into the ability to keep working, then ask w
 
 Still missing: The work study follows tax-record outcomes but does not show the same household's full housing event, job quality or later stability.
 
+### When rent protection becomes a financial product
+
+Follow rent protection into housing stability, then ask whether avoiding arrears also protects later credit and access to a home.
+
+1. [Rent insurance could move a short shock away from the tenant](#rent_guarantee_insurance)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [Credit can be a bridge and a later bill](#credit)
+
+Still missing: The insurance evidence is modeled while the eviction and credit evidence is measured in other settings; the full path is not shown for the same tenant.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -876,6 +886,7 @@ Connections:
 - Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Rent aid can ease the bill without ending housing risk. The current evidence does not show the same tenant's later housing stability after assistance ends.
 - Question to test: A housing break can make reaching and keeping work harder. Related topic: The same job can contain different AI access. The current atlas compares housing and work evidence; it does not show the same household's full path from housing event to job outcome.
 - Question to test: Emergency help for a housing crisis may protect the home whose loss would disrupt work. Related topic: Keeping a home may protect the next job. The current work study does not show the exact housing outcome or prove that housing continuity caused the later earnings result.
+- Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Rent insurance could move a short shock away from the tenant. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
 
 ### Credit can be a bridge and a later bill
 
@@ -1388,6 +1399,38 @@ Connections:
 - Comparison: Cash relief and legal help address different points in the same housing crisis. Related topic: A lawyer can stop a rent dispute from becoming a forced move. The current studies do not compare both tools for the same tenant or show whether using them together works better.
 - Question to test: Rent aid may protect a household's immediate housing choice even when the rent level stays high. Related topic: Keeping a home also means paying to protect it. The current evidence does not show the same tenant's later housing stability after assistance ends.
 - Question to test: Housing help may protect work continuity, but payment relief and earnings are separate outcomes. Related topic: Keeping a home may protect the next job. The current sources do not follow the same household from rent aid through housing stability and later work.
+
+### Rent insurance could move a short shock away from the tenant
+
+Rent-guarantee insurance may share a short payment shock, but market design may exclude the households most at risk.
+
+**Question:** Who can buy protection before a rent shock, and who is left with the loss?
+
+**Subthemes:** Risk sharing before arrears; Private and public coverage
+
+**Limit:** The opening evidence is a model and does not show actual take-up, claims or later household outcomes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Rent Guarantee Insurance](https://www.nber.org/papers/w32582)
+
+#### Evidence check: Rent insurance could move a short shock away from the tenant
+
+NBER models rent-guarantee insurance that makes a limited number of payments to a landlord when an insured tenant cannot pay after an income or health shock. The model finds welfare gains, smaller security deposits and less homelessness, but says unrestricted private or public access is not financially viable. Private insurers would target better-off renters, while public insurance would need to focus on households most at risk.
+
+Working interpretation: the design of protection decides whether a product shares risk or leaves the households most likely to need it outside the market.
+
+**Counterpoint:** This is a model, not evidence from a broad US insurance rollout. A product could also add a premium, exclusions or a new screening rule that changes who can rent.
+[Related study](https://www.nber.org/papers/w32582)
+
+The study does not measure actual tenant take-up, claims, premiums, landlord behavior or later credit and housing outcomes.
+
+[Abramson and Van Nieuwerburgh, Rent Guarantee Insurance, NBER Working Paper 32582, checked 2026-09-11.](https://www.nber.org/papers/w32582)
+
+
+Connections:
+
+- Question to test: Rent protection may preserve housing choice after a short income or health shock. Related topic: Keeping a home also means paying to protect it. The current evidence is modeled and does not show actual claims, take-up or later housing stability.
 
 ## Who gives up time
 
