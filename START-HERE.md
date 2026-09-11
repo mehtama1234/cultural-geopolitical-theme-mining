@@ -64,3 +64,5 @@ The following short pass is [US health costs and the choices people give up](ana
 The next short pass is [US cost of living, trust, and political response](analysis/projects/us-cost-trust-politics/README.md), with its [source search record](analysis/projects/us-cost-trust-politics/source-search-2026-09-11.md).
 
 The following short pass is [US aging, care, and the hidden second job](analysis/projects/us-aging-care-strain/README.md), with its [source search record](analysis/projects/us-aging-care-strain/source-search-2026-09-11.md).
+
+The next short pass is [US local business and the changing hometown](analysis/projects/us-local-business-place/README.md), with its [source search record](analysis/projects/us-local-business-place/source-search-2026-09-11.md).
