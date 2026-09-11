@@ -304,40 +304,6 @@ Connections:
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: Food is where a money problem becomes a daily condition. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
 
-### A home can be costly to heat before anything else changes
-
-Energy costs depend on income, building, fuel and place, so the same price can leave households with different room to adjust.
-
-**Question:** What does the energy bill crowd out?
-
-**Subthemes:** Energy burden; Home condition and utility choice
-
-**Limit:** The opening packet measures burden, not the next household choice.
-
-Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
-
-- [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
-- [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
-- [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
-- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
-
-#### Evidence check: Low-income homes spend a larger share on energy
-
-The DOE LEAD tool reports an average energy burden of about 6% for low-income households and about 2% for non-low-income households. It also shows that burden can be much higher in some places.
-
-Working interpretation: the same energy price can leave different room for food, care, rent or debt because the bill takes a different share of income.
-
-These are modeled and survey-linked averages, not a bill for each household. Energy burden excludes transportation and does not by itself show a later cut in care, work or political trust.
-
-[US Department of Energy LEAD tool description and definition. Checked 2026-09-11.](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
-
-
-Connections:
-
-- Comparison: The home's condition and location can shape the energy bill. Related topic: Keeping a home also means paying to protect it. Current sources do not join energy burden to housing insurance or moving decisions.
-- Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
-- Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
-
 ## Who gives up time
 
 Compare unpaid help with time spent using a product; the reasons and benefits differ.
@@ -600,6 +566,40 @@ Connections:
 ## A home can be costly to heat before anything else changes
 
 Read energy bills as part of the home's condition and the household's room to absorb other costs.
+
+### A home can be costly to heat before anything else changes
+
+Energy costs depend on income, building, fuel and place, so the same price can leave households with different room to adjust.
+
+**Question:** What does the energy bill crowd out?
+
+**Subthemes:** Energy burden; Home condition and utility choice
+
+**Limit:** The opening packet measures burden, not the next household choice.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
+- [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
+- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
+
+#### Evidence check: Low-income homes spend a larger share on energy
+
+The DOE LEAD tool reports an average energy burden of about 6% for low-income households and about 2% for non-low-income households. It also shows that burden can be much higher in some places.
+
+Working interpretation: the same energy price can leave different room for food, care, rent or debt because the bill takes a different share of income.
+
+These are modeled and survey-linked averages, not a bill for each household. Energy burden excludes transportation and does not by itself show a later cut in care, work or political trust.
+
+[US Department of Energy LEAD tool description and definition. Checked 2026-09-11.](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+
+
+Connections:
+
+- Comparison: The home's condition and location can shape the energy bill. Related topic: Keeping a home also means paying to protect it. Current sources do not join energy burden to housing insurance or moving decisions.
+- Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
+- Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
 
 ## Reading rule
 

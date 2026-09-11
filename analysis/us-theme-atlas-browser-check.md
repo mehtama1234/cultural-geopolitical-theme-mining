@@ -2,7 +2,7 @@
 
 Checked with Chromium on 2026-09-11 at 1440 × 1000 and 390 × 844.
 
-- The current page contains eleven topics; the prior opening-state browser check covered the ten topics present at that time.
+- The current page contains twelve topics; the prior opening-state browser check covered the ten topics present at that time.
 - The household-cost filter shows three topics.
 - A connection from housing to local business reveals its destination even when the destination was filtered out.
 - An unmatched search produces zero results and a recovery message; clearing it restores the topics.
@@ -14,7 +14,7 @@ This checks the tested interactions and opening layout. It is not a complete acc
 
 ## Reading-path checks
 
-On 2026-09-11, Chromium verified six reading paths containing eighteen topic links. The current page has seven paths and twenty-one topic links; the new path has been checked for valid local links by the static link check, but not yet through a fresh browser interaction. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.
+On 2026-09-11, Chromium verified six reading paths containing eighteen topic links. The current page has eight paths and twenty-four topic links. A fresh check of the current page at 1440 × 1000 and 390 × 844 found twelve cards, eight paths, one visible card with the energy theme selected, and a housing destination revealed and focused from that filtered state. There was no horizontal overflow and no JavaScript error at either size. These checks were automated; they do not constitute a new full-page visual or accessibility review.
 
 ## UX audit note
 
