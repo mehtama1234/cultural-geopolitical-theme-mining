@@ -555,6 +555,13 @@
       "meaning": "Follow the home and its energy burden into the household's room for other payments, then ask whether credit absorbs the gap.",
       "limit": "The current sources do not follow the same household from energy burden through arrears, borrowing or a later housing choice.",
       "memo": "../site/us-energy-household-burden-path-001.html"
+    },
+    {
+      "title": "When service speed meets the need for an appeal",
+      "topics": ["work", "service", "fraud"],
+      "meaning": "Follow the worker's AI tool into the customer's first answer, then ask who can fix a disputed loss or decision.",
+      "limit": "The current studies do not connect worker AI use to customer remedy, appeal or fraud recovery in one setting.",
+      "memo": "../site/us-customer-service-recourse-path-001.html"
     }
   ],
   "edges": [

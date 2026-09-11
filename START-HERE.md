@@ -120,3 +120,5 @@ The thirteenth connected memo is [When family care becomes a work decision](site
 The fourteenth connected memo is [When a business idea leaves home](site/us-local-business-place-path-001.html), with its [Markdown record](analysis/findings/us-local-business-place-path-001.md). It joins founder movement, housing and local business counts while keeping lasting jobs, services and belonging as open tests.
 
 The fifteenth connected memo is [When the energy bill begins with the home](site/us-energy-household-burden-path-001.html), with its [Markdown record](analysis/findings/us-energy-household-burden-path-001.md). It joins energy burden, renter control, housing risk and the possible use of credit while keeping the later household tradeoff open.
+
+The sixteenth connected memo is [When a faster answer still leaves the case open](site/us-customer-service-recourse-path-001.html), with its [Markdown record](analysis/findings/us-customer-service-recourse-path-001.md). It joins worker AI support, repeat complaints and the customer's ability to obtain a remedy.

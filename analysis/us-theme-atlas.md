@@ -207,6 +207,18 @@ Still missing: The current sources do not follow the same household from energy 
 
 [Read the complete connected memo](../site/us-energy-household-burden-path-001.html)
 
+### When service speed meets the need for an appeal
+
+Follow the worker's AI tool into the customer's first answer, then ask who can fix a disputed loss or decision.
+
+1. [The same job can contain different AI access](#work)
+2. [A quicker reply may still leave a problem open](#service)
+3. [A payment problem can become a recovery problem](#fraud)
+
+Still missing: The current studies do not connect worker AI use to customer remedy, appeal or fraud recovery in one setting.
+
+[Read the complete connected memo](../site/us-customer-service-recourse-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -780,6 +792,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
 - [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
 
 #### Evidence check: Faster work does not mean a large jump in solved problems
 

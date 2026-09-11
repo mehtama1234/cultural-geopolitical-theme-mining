@@ -189,7 +189,7 @@
 
 **Project:** `us-customer-automation-recourse`
 
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; speed and remedy remain separate questions
 
 **Question:** Does automated customer service make simple help faster while making difficult problems harder to understand and challenge?
 

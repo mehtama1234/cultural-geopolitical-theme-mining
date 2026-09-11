@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** short verification pass; speed and remedy remain separate questions
 
 ## Working question
 
@@ -44,3 +44,12 @@ The HBS experiment supports a possible benefit for some service work. The FTC re
 ## Decision rule
 
 Find one US firm or agency with public complaint, service, or appeal records and compare automated and human paths. If only company claims are available, record the promise and move on.
+## Verification pass: 2026-09-11
+
+The HBS account of a randomized field experiment reports that AI suggestions helped 138 meal-delivery support agents respond 22% faster across 256,934 chats and raised measured customer sentiment by 0.45 points on a five-point scale. The effect was larger for less-experienced agents. The study also found less improvement for repeat complaints and some confusion after very fast transfers from a chatbot to a person.
+
+This gives a sharper question than “does AI improve service?” It may improve the first reply while doing less for the case that needs a second explanation, an exception or a decision changed. The CFPB’s 2025 annual report covers consumer complaints submitted during 2025, but complaint records still need to be matched to service path and remedy before they can show that effect.
+
+[HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+
+[CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
