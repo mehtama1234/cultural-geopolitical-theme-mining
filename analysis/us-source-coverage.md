@@ -1,8 +1,8 @@
 # US source coverage
 
-14 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+15 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 2; CFPB: 8; CMS: 1; Census: 8; DOE: 1; EIA: 2; FTC: 4; Federal Reserve: 13; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 26; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 4; CFPB: 8; CMS: 1; Census: 9; DOE: 2; EIA: 2; FTC: 4; Federal Reserve: 13; HBS: 7; HHS: 1; IEA: 1; IMF: 1; NBER: 27; OFR: 1; Other: 18; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -408,3 +408,28 @@
 - political response beyond participation and complaints.
 
 [Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)
+
+## US transportation, household cost, and access
+
+**Project:** `us-transportation-household-access`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** When movement is required for work, food or care, what does transportation take from the household budget and schedule?
+
+**Sources recorded:** 5
+
+- [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [BLS 2024 transportation spending details](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [Census commuting at a glance](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html)
+- [DOE LEAD and energy-and-transportation burden](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [NBER: Driving to Opportunity](https://www.nber.org/papers/w19922)
+
+**Open gaps:**
+- transportation burden by income, tenure, disability and place;
+- vehicle ownership, repair shocks and insurance nonrenewal;
+- commute time and childcare, food or medical access in the same household;
+- public transit reliability and actual alternatives to driving;
+- whether transport cost changes work, housing or local business choice.
+
+[Open the source-search record](projects/us-transportation-household-access/source-search-2026-09-11.md)

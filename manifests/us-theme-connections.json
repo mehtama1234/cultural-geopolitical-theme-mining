@@ -361,6 +361,31 @@
       "theme": "energy",
       "status": "Early reading",
       "source_record": "analysis/projects/us-energy-household-burden/source-search-2026-09-11.md"
+    },
+    {
+      "id": "transport",
+      "evidence_check": {
+        "title": "Getting to a place is a major household cost",
+        "finding": "BLS reports that transportation averaged $13,318 per consumer unit in 2024, or 17.0% of spending. Vehicle-insurance spending rose 12.3% in 2024 after an 11.5% increase in 2023. Census reports a mean one-way commute of 27.2 minutes in 2024.",
+        "meaning": "Working interpretation: a household can pay for access through money and time. A cheaper home or job is not necessarily cheaper if the route between them is costly.",
+        "counterpoint": "A costly trip can still buy access to a better job, school, store or care provider. Transportation spending is not automatically a loss; the next test must measure what the trip makes possible.",
+        "counterpoint_source": "https://www.nber.org/papers/w19922",
+        "limit": "These are national averages and a local-quality-of-life comparison. They do not show which households can switch modes, move closer or absorb a repair shock.",
+        "source": "https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm",
+        "location": "BLS Consumer Expenditure Surveys 2024 and Census 2024 commuting estimates. Checked 2026-09-11."
+      },
+      "project": "us-transportation-household-access",
+      "title": "Getting to a place is a major household cost",
+      "summary": "Transportation can take money and time from the household before work, food, care or services begin.",
+      "question": "What does the trip make possible, and what does it crowd out?",
+      "limit": "The opening evidence measures spending and travel time, not the household's available alternatives.",
+      "subthemes": [
+        "Travel cost",
+        "Access and place"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-transportation-household-access/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -431,6 +456,12 @@
       "meaning": "Separate elder or family help from childcare, then follow the time cost into paid work and control over the household schedule.",
       "limit": "The current sources do not follow the same household across care type, cost, work hours and later income.",
       "memo": "../site/us-childcare-work-path-001.html"
+    },
+    {
+      "title": "When the trip is part of the price",
+      "topics": ["energy", "transport", "work"],
+      "meaning": "Follow household energy and transportation cost into the time and money needed to reach work or services.",
+      "limit": "The current sources do not show which households can change mode, move closer or absorb a vehicle repair."
     }
   ],
   "edges": [
@@ -625,6 +656,38 @@
       "relation": "A household can pay for childcare with cash or with foregone earnings",
       "limit": "The current sources do not show which option leaves the household with more room later.",
       "type": "comparison"
+    },
+    {
+      "id": "link-25",
+      "from": "energy",
+      "to": "transport",
+      "relation": "The energy bill is incomplete without the cost of getting to the place",
+      "limit": "DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-26",
+      "from": "transport",
+      "to": "work",
+      "relation": "Travel cost and time can change which work a household can keep",
+      "limit": "The current averages do not show whether a specific commute caused a job or hour change.",
+      "type": "open"
+    },
+    {
+      "id": "link-27",
+      "from": "transport",
+      "to": "place",
+      "relation": "The value of a place depends on its wages, housing cost and route to opportunity",
+      "limit": "The NBER comparison is older and does not measure current household hardship or local belonging.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-28",
+      "from": "transport",
+      "to": "money",
+      "relation": "Vehicle, fuel and insurance costs can take room from other household payments",
+      "limit": "Average spending does not show which household cut food, care, debt or savings to pay for travel.",
+      "type": "open"
     }
   ]
 }

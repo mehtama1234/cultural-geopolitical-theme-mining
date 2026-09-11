@@ -100,3 +100,5 @@ The seventh connected memo is [When help disappears before the need does](site/u
 The next short project is [US childcare, work, and the price of family time](analysis/projects/us-childcare-work-cost/README.md), with its [source search record](analysis/projects/us-childcare-work-cost/source-search-2026-09-11.md). It tests whether households pay for care with cash, unpaid family hours or paid work time.
 
 The eighth connected memo is [When family care becomes paid-work time](site/us-childcare-work-path-001.html), with its [Markdown record](analysis/findings/us-childcare-work-path-001.md). It joins childcare cost, unpaid relative care and reported work loss while keeping support separate from burden.
+
+The next short project is [US transportation, household cost, and access](analysis/projects/us-transportation-household-access/README.md), with its [source search record](analysis/projects/us-transportation-household-access/source-search-2026-09-11.md). It tests whether getting to work, food, care and services is a hidden part of household energy and housing cost.

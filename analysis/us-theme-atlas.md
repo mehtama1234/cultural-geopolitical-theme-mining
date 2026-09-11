@@ -126,6 +126,16 @@ Still missing: The current sources do not follow the same household across care 
 
 [Read the complete connected memo](../site/us-childcare-work-path-001.html)
 
+### When the trip is part of the price
+
+Follow household energy and transportation cost into the time and money needed to reach work or services.
+
+1. [A home can be costly to heat before anything else changes](#energy)
+2. [Getting to a place is a major household cost](#transport)
+3. [The same job can contain different AI access](#work)
+
+Still missing: The current sources do not show which households can change mode, move closer or absorb a vehicle repair.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -175,6 +185,7 @@ Connections:
 - Comparison: Borrowing can preserve a purchase while leaving a later payment claim. Related topic: Credit can be a bridge and a later bill. The current sources do not show whether the later payment reduced another need or was repaid without strain.
 - Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: Food is where a money problem becomes a daily condition. The current surveys do not show which bill was paid or delayed before the food outcome.
 - Comparison: A household can pay for childcare with cash or with foregone earnings. Related topic: Family time can replace a large cash payment. The current sources do not show which option leaves the household with more room later.
+- Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: Getting to a place is a major household cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
 
 ### Keeping a home also means paying to protect it
 
@@ -329,6 +340,45 @@ Connections:
 - Question to test: An unmet care need may require more family time. Related topic: A family can pay for care with time. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: Food is where a money problem becomes a daily condition. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
+
+### Getting to a place is a major household cost
+
+Transportation can take money and time from the household before work, food, care or services begin.
+
+**Question:** What does the trip make possible, and what does it crowd out?
+
+**Subthemes:** Travel cost; Access and place
+
+**Limit:** The opening evidence measures spending and travel time, not the household's available alternatives.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [BLS 2024 transportation spending details](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [Census commuting at a glance](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html)
+- [DOE LEAD and energy-and-transportation burden](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [NBER: Driving to Opportunity](https://www.nber.org/papers/w19922)
+
+#### Evidence check: Getting to a place is a major household cost
+
+BLS reports that transportation averaged $13,318 per consumer unit in 2024, or 17.0% of spending. Vehicle-insurance spending rose 12.3% in 2024 after an 11.5% increase in 2023. Census reports a mean one-way commute of 27.2 minutes in 2024.
+
+Working interpretation: a household can pay for access through money and time. A cheaper home or job is not necessarily cheaper if the route between them is costly.
+
+**Counterpoint:** A costly trip can still buy access to a better job, school, store or care provider. Transportation spending is not automatically a loss; the next test must measure what the trip makes possible.
+[Related study](https://www.nber.org/papers/w19922)
+
+These are national averages and a local-quality-of-life comparison. They do not show which households can switch modes, move closer or absorb a repair shock.
+
+[BLS Consumer Expenditure Surveys 2024 and Census 2024 commuting estimates. Checked 2026-09-11.](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+
+
+Connections:
+
+- Comparison: The energy bill is incomplete without the cost of getting to the place. Related topic: A home can be costly to heat before anything else changes. DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.
+- Question to test: Travel cost and time can change which work a household can keep. Related topic: The same job can contain different AI access. The current averages do not show whether a specific commute caused a job or hour change.
+- Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Business counts do not tell us who belongs to a place. The NBER comparison is older and does not measure current household hardship or local belonging.
+- Question to test: Vehicle, fuel and insurance costs can take room from other household payments. Related topic: The price on the screen is only part of the cost. Average spending does not show which household cut food, care, debt or savings to pay for travel.
 
 ## Who gives up time
 
@@ -552,6 +602,7 @@ The paper describes differences across places; this pass does not show what caus
 Connections:
 
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Keeping a home also means paying to protect it. Needs linked evidence on owners, housing costs and business moves.
+- Comparison: The value of a place depends on its wages, housing cost and route to opportunity. Related topic: Getting to a place is a major household cost. The NBER comparison is older and does not measure current household hardship or local belonging.
 
 ### A quicker reply may still leave a problem open
 
@@ -667,6 +718,7 @@ Connections:
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: A useful app can still make leaving difficult. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
 - Question to test: A program rule can remove food support without increasing paid work. Related topic: Help can exist but be hard to keep. The NBER results are setting-specific and do not establish the same effect for every rule or worker.
 - Question to test: Childcare cost or disruption can change paid work time. Related topic: Family time can replace a large cash payment. Reported work loss does not by itself prove that childcare caused the change.
+- Question to test: Travel cost and time can change which work a household can keep. Related topic: Getting to a place is a major household cost. The current averages do not show whether a specific commute caused a job or hour change.
 
 ## A home can be costly to heat before anything else changes
 
@@ -705,6 +757,7 @@ Connections:
 - Comparison: The home's condition and location can shape the energy bill. Related topic: Keeping a home also means paying to protect it. Current sources do not join energy burden to housing insurance or moving decisions.
 - Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
 - Question to test: A high household bill may turn an energy problem into a borrowing decision. Related topic: Credit can be a bridge and a later bill. The energy and credit sources do not identify the same household or the later repayment outcome.
+- Comparison: The energy bill is incomplete without the cost of getting to the place. Related topic: Getting to a place is a major household cost. DOE's basic energy-burden measure excludes transportation, and the current sources do not provide one same-household measure.
 
 ## Reading rule
 
