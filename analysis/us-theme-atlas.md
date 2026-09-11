@@ -124,6 +124,8 @@ Separate elder or family help from childcare, then follow the time cost into pai
 
 Still missing: The current sources do not follow the same household across care type, cost, work hours and later income.
 
+[Read the complete connected memo](../site/us-childcare-work-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.

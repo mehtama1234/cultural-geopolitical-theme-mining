@@ -98,3 +98,5 @@ The next short project is [US safety-net access, work rules, and the price of he
 The seventh connected memo is [When help disappears before the need does](site/us-safety-net-access-path-001.html), with its [Markdown record](analysis/findings/us-safety-net-access-path-001.md). It joins SNAP participation, work requirements and office access while keeping program exit separate from employment.
 
 The next short project is [US childcare, work, and the price of family time](analysis/projects/us-childcare-work-cost/README.md), with its [source search record](analysis/projects/us-childcare-work-cost/source-search-2026-09-11.md). It tests whether households pay for care with cash, unpaid family hours or paid work time.
+
+The eighth connected memo is [When family care becomes paid-work time](site/us-childcare-work-path-001.html), with its [Markdown record](analysis/findings/us-childcare-work-path-001.md). It joins childcare cost, unpaid relative care and reported work loss while keeping support separate from burden.
