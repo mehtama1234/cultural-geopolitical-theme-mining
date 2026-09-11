@@ -144,6 +144,14 @@
     },
     {
       "id": "service",
+      "evidence_check": {
+        "title": "Faster work does not mean a large jump in solved problems",
+        "finding": "In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%. The share of chats marked resolved rose by only 1.3 percentage points, while customer satisfaction did not change in a meaningful way.",
+        "meaning": "Working interpretation: measure the answer customers got, not only the speed or number of chats handled. A firm can serve more contacts without making each difficult problem much easier to fix.",
+        "limit": "The tool supported human agents and was rolled out within one company. The resolution measure and customer-satisfaction measure have limits, and this study does not test appeals, repeat complaints or whether a person could overturn a decision.",
+        "source": "https://www.nber.org/papers/w31161",
+        "location": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER Working Paper 31161; NBER Digest summary and revised paper checked 2026-09-11."
+      },
       "project": "us-customer-automation-recourse",
       "title": "A quicker reply may still leave a problem open",
       "summary": "Response speed, a friendly tone and successful resolution need separate measures.",

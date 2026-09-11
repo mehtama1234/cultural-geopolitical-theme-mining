@@ -295,10 +295,22 @@ Response speed, a friendly tone and successful resolution need separate measures
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
 - [HBS: Can I Please Speak to an Actual Person?](https://www.library.hbs.edu/working-knowledge/infographic-can-i-please-speak-to-an-actual-person)
 - [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
 - [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+
+#### Evidence check: Faster work does not mean a large jump in solved problems
+
+In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%. The share of chats marked resolved rose by only 1.3 percentage points, while customer satisfaction did not change in a meaningful way.
+
+Working interpretation: measure the answer customers got, not only the speed or number of chats handled. A firm can serve more contacts without making each difficult problem much easier to fix.
+
+The tool supported human agents and was rolled out within one company. The resolution measure and customer-satisfaction measure have limits, and this study does not test appeals, repeat complaints or whether a person could overturn a decision.
+
+[Brynjolfsson, Li and Raymond, Generative AI at Work, NBER Working Paper 31161; NBER Digest summary and revised paper checked 2026-09-11.](https://www.nber.org/papers/w31161)
+
 
 Connections:
 
