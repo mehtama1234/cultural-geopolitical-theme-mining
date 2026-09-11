@@ -2,6 +2,8 @@
 
 Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`, then validate them with `python3 scripts/validate_us_theme_atlas.py`.
 
+The [US source coverage index](site/us-source-coverage.html) shows the current project packets, recorded sources and open gaps. Rebuild it with `python3 scripts/build_us_source_coverage.py`.
+
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
 
 The second is [When faster service and longer use point in different directions](site/us-work-service-attention-path-001.html), with its [Markdown record](analysis/findings/us-work-service-attention-path-001.md). It joins worker AI access, customer resolution and the ability to leave while keeping the separate-study limit visible.
