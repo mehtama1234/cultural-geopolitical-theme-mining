@@ -81,6 +81,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [German works-council AI source record](german-ai-works-council-source-record-v1.md)
 - [Kenya content-moderation court record](kenya-content-moderation-court-record-v1.md)
 - [JRC AIM-WORK survey source record](jrc-aim-work-source-record-v1.md)
+- [Kenya content-moderation procedural timeline](kenya-content-moderation-procedural-timeline-v1.md)
 - [Company and sector bridge: Microsoft](company-sector-bridge-microsoft-v1.md)
 - [Comparison bridge: Microsoft and Whoz](comparison-bridge-microsoft-whoz-v1.md)
 - [Company bridge: Capgemini](company-bridge-capgemini-v1.md)

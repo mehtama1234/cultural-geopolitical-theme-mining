@@ -49,4 +49,4 @@ The first two links appear in the record; the third remains open. This is direct
 
 ## Relation to the ILO case table
 
-These paired records update the Kenyan row in [the ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md). They make the case a contested pathway with different outcomes across different appeals, rather than a simple example of successful or unsuccessful worker organizing.
+These paired records update the Kenyan row in [the ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md). The [procedural timeline](kenya-content-moderation-procedural-timeline-v1.md) keeps the petition, interim orders, appeals, and unresolved merits separate. Together they make the case a contested pathway with different outcomes across different appeals, rather than a simple example of successful or unsuccessful worker organizing.

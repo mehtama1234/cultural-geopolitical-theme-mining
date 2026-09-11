@@ -27,6 +27,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 - 9 provisional findings;
 - 3 company bridges;
 - 1 theme map;
+- 1 procedural timeline;
 - 10 named geographic settings;
 - 4 unresolved contradictions that must remain visible.
 
