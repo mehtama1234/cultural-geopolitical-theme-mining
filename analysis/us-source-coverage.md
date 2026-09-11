@@ -1,8 +1,8 @@
 # US source coverage
 
-70 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+71 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 117; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 118; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1094,6 +1094,28 @@
 - evidence that business turnover does not change local trust or belonging.
 
 [Open the source-search record](projects/us-local-business-place/source-search-2026-09-11.md)
+
+## US low-liquidity consumption constraints
+
+**Project:** `us-low-liquidity-consumption-constraints`
+
+**Status:** opening pass; spending differences and likely sources are measured, the link to later household outcomes remains open
+
+**Question:** When people buy less or more than their income seems to allow, is that a preference, a cash limit, or a cost of changing course?
+
+**Sources recorded:** 1
+
+- [Consumption Wedges: Measuring and Diagnosing Distortions](https://www.nber.org/papers/w34891)
+
+**Open gaps:**
+- the item and need behind each spending change;
+- liquid cash and credit limits at the time;
+- price, health, family and work shocks;
+- later debt, missed care or food security;
+- whether a product or policy lowers the constraint;
+- differences by income, age, race and place.
+
+[Open the source-search record](projects/us-low-liquidity-consumption-constraints/source-search-2026-09-11.md)
 
 ## US medical debt relief and what it changes
 

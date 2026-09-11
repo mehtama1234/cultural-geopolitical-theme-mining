@@ -1665,9 +1665,38 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/us-auto-ira-household-balance-sheets/source-search-2026-09-11.md"
+    },
+    {
+      "id": "low_liquidity_consumption_constraints",
+      "evidence_check": {
+        "title": "The same spending number can hide different constraints",
+        "finding": "An NBER study using transaction records and survey expectations for middle-income US consumers with little liquid wealth finds large and varied gaps between observed spending and a no-friction benchmark. The median gap is 40% of the benchmark in absolute value; 49% of consumers spend below it and 51% above it. Borrowing limits alone cannot explain both directions. The patterns fit a mix of cash limits, present focus and the cost of changing consumption.",
+        "meaning": "Working interpretation: lower or higher spending does not tell us by itself whether people wanted that result. Cash, credit and the cost of changing a plan can sit underneath the visible purchase.",
+        "counterpoint": "Spending above or below a model benchmark is not automatically a mistake. People may have real needs or a good reason to value today more than later, and the benchmark cannot decide that alone.",
+        "counterpoint_source": "https://www.nber.org/papers/w34891",
+        "limit": "The opening evidence does not show which purchase changed, whether the change helped or harmed the household, or the later food, care, housing or debt result.",
+        "source": "https://www.nber.org/papers/w34891",
+        "location": "Indarte, Kluender, Malmendier and Stepner, Consumption Wedges: Measuring and Diagnosing Distortions, NBER Working Paper 34891, checked 2026-09-11."
+      },
+      "project": "us-low-liquidity-consumption-constraints",
+      "title": "The same spending number can hide different constraints",
+      "summary": "Observed consumer spending can reflect cash limits, credit limits, future focus or the cost of changing course, not just preference.",
+      "question": "What is underneath the purchase number?",
+      "limit": "The opening study measures model-based spending gaps, not the full household outcome behind them.",
+      "subthemes": ["Cash limits and consumer choice", "Spending and hidden need"],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-low-liquidity-consumption-constraints/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When spending hides the cash constraint",
+      "topics": ["low_liquidity_consumption_constraints", "money", "food"],
+      "meaning": "Follow a spending number into the cash and credit room beneath it, then ask what daily need the household protects or gives up.",
+      "limit": "The current study and food packet do not identify the same purchase, household constraint and later food outcome.",
+      "memo": null
+    },
     {
       "title": "When a work benefit changes the household balance sheet",
       "topics": ["auto_ira_household_balance_sheets", "work", "money"],
@@ -3018,6 +3047,22 @@
       "to": "money",
       "relation": "Automatic saving can change current household room while building a longer-term account",
       "limit": "The current study does not show the same household's take-home pay, spending, debt cost or later security.",
+      "type": "open"
+    },
+    {
+      "id": "link-107",
+      "from": "low_liquidity_consumption_constraints",
+      "to": "money",
+      "relation": "Observed spending can reflect the cash and credit room left after other household costs",
+      "limit": "The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.",
+      "type": "open"
+    },
+    {
+      "id": "link-108",
+      "from": "low_liquidity_consumption_constraints",
+      "to": "food",
+      "relation": "A cash constraint may appear in what a household buys or gives up at the food counter",
+      "limit": "The current sources do not follow the same consumer from the spending gap to food quality, quantity or insecurity.",
       "type": "open"
     }
   ]

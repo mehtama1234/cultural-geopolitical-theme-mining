@@ -183,6 +183,8 @@ The next short pass is [US self-fulfilling credit scores](analysis/projects/us-s
 
 The next short pass is [US Auto-IRA and household balance sheets](analysis/projects/us-auto-ira-household-balance-sheets/README.md), with its [source search record](analysis/projects/us-auto-ira-household-balance-sheets/source-search-2026-09-11.md). It tests whether automatic workplace saving creates a real buffer or shifts short-term pressure into credit-card debt.
 
+The next short pass is [US low-liquidity consumption constraints](analysis/projects/us-low-liquidity-consumption-constraints/README.md), with its [source search record](analysis/projects/us-low-liquidity-consumption-constraints/source-search-2026-09-11.md). It tests whether visible spending reflects preference, cash limits, credit limits or the cost of changing a plan.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

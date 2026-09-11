@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When spending hides the cash constraint
+
+Follow a spending number into the cash and credit room beneath it, then ask what daily need the household protects or gives up.
+
+1. [The same spending number can hide different constraints](#low_liquidity_consumption_constraints)
+2. [The price on the screen is only part of the cost](#money)
+3. [Food is where a money problem becomes a daily condition](#food)
+
+Still missing: The current study and food packet do not identify the same purchase, household constraint and later food outcome.
+
 ### When a work benefit changes the household balance sheet
 
 Follow automatic saving from the workplace into the household's account and debt position, then ask whether the job gives people more security or less room today.
@@ -1000,6 +1010,7 @@ Connections:
 - Question to test: Information about future public debt can change how households read future prices, spending and borrowing costs. Related topic: Future public debt can change what households expect before taxes change. The current evidence does not show the same household's budget response or realized future policy.
 - Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: A fee rule can help people with cash more than people without it. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
 - Question to test: Automatic saving can change current household room while building a longer-term account. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show the same household's take-home pay, spending, debt cost or later security.
+- Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The same spending number can hide different constraints. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
 
 ### Keeping a home also means paying to protect it
 
@@ -1177,6 +1188,7 @@ Connections:
 - Comparison: Financial pressure can reach the food budget before it appears as a missed debt payment. Related topic: The price on the screen is only part of the cost. The current surveys do not show which bill was paid or delayed before the food outcome.
 - Question to test: Less food or lower food quality may shape health and care choices. Related topic: People can pay the bills by giving up care. Food hardship and skipped care are separate measures; a causal link needs same-household evidence.
 - Comparison: Public food help can change how much room remains in the household budget. Related topic: Help can exist but be hard to keep. The sources show that SNAP improves food security on average but do not show which other bill the benefit replaces.
+- Question to test: A cash constraint may appear in what a household buys or gives up at the food counter. Related topic: The same spending number can hide different constraints. The current sources do not follow the same consumer from the spending gap to food quality, quantity or insecurity.
 
 ### People can pay the bills by giving up care
 
@@ -1666,6 +1678,39 @@ Connections:
 
 - Question to test: A low-cash account can turn a bank rule into a later overdraft, payday-loan or repayment question. Related topic: Credit can be a bridge and a later bill. The current studies do not follow the same shortage across bank and nonbank credit products.
 - Question to test: A fee removed at the account can change how much money remains available for the household's next need. Related topic: The price on the screen is only part of the cost. The bank study measures account transactions and fees, not the household's full budget or the bill it was trying to pay.
+
+### The same spending number can hide different constraints
+
+Observed consumer spending can reflect cash limits, credit limits, future focus or the cost of changing course, not just preference.
+
+**Question:** What is underneath the purchase number?
+
+**Subthemes:** Cash limits and consumer choice; Spending and hidden need
+
+**Limit:** The opening study measures model-based spending gaps, not the full household outcome behind them.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Consumption Wedges: Measuring and Diagnosing Distortions](https://www.nber.org/papers/w34891)
+
+#### Evidence check: The same spending number can hide different constraints
+
+An NBER study using transaction records and survey expectations for middle-income US consumers with little liquid wealth finds large and varied gaps between observed spending and a no-friction benchmark. The median gap is 40% of the benchmark in absolute value; 49% of consumers spend below it and 51% above it. Borrowing limits alone cannot explain both directions. The patterns fit a mix of cash limits, present focus and the cost of changing consumption.
+
+Working interpretation: lower or higher spending does not tell us by itself whether people wanted that result. Cash, credit and the cost of changing a plan can sit underneath the visible purchase.
+
+**Counterpoint:** Spending above or below a model benchmark is not automatically a mistake. People may have real needs or a good reason to value today more than later, and the benchmark cannot decide that alone.
+[Related study](https://www.nber.org/papers/w34891)
+
+The opening evidence does not show which purchase changed, whether the change helped or harmed the household, or the later food, care, housing or debt result.
+
+[Indarte, Kluender, Malmendier and Stepner, Consumption Wedges: Measuring and Diagnosing Distortions, NBER Working Paper 34891, checked 2026-09-11.](https://www.nber.org/papers/w34891)
+
+
+Connections:
+
+- Question to test: Observed spending can reflect the cash and credit room left after other household costs. Related topic: The price on the screen is only part of the cost. The current study measures a model-based spending gap and does not identify the bill or need behind each person's result.
+- Question to test: A cash constraint may appear in what a household buys or gives up at the food counter. Related topic: Food is where a money problem becomes a daily condition. The current sources do not follow the same consumer from the spending gap to food quality, quantity or insecurity.
 
 ## Who gives up time
 
