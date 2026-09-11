@@ -1,6 +1,6 @@
 # US life: the connections
 
-Nine short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
+Ten short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
 
 ## The bigger picture
 
@@ -66,6 +66,16 @@ Still missing: The current packets do not track the same households across insur
 
 [Read the complete connected memo](../site/us-household-cost-path-001.html)
 
+### When energy cost starts inside the home
+
+Follow the building and utility bill into the wider household budget. The path asks whether energy burden changes the room left for other costs.
+
+1. [A home can be costly to heat before anything else changes](#energy)
+2. [Keeping a home also means paying to protect it](#housing)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current packets do not track the same households across energy bills, housing protection and payment choices.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -111,6 +121,7 @@ Connections:
 - Question to test: Less paid work could leave less money for bills. Related topic: A family can pay for care with time. Check earnings around the start of care and borrowing afterward.
 - Question to test: Financial pressure might change whom people blame. Related topic: Personal finances and national mood can move apart. Compare changes within the same people and account for party identity.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: Keeping a home also means paying to protect it. The current sources do not follow the same households across these costs or show which bill is given up first.
+- Question to test: A high energy share can leave less room for other household payments. Related topic: A home can be costly to heat before anything else changes. The current burden measure does not show which payment households cut or delay.
 
 ### Keeping a home also means paying to protect it
 
@@ -148,6 +159,7 @@ Connections:
 - Comparison: Cost can lead people to use less protection or care. Related topic: People can pay the bills by giving up care. Parallel household choices; neither packet proves the same people face both.
 - Question to test: A rise in housing costs could affect who can own a local business. Related topic: Business counts do not tell us who belongs to a place. Needs linked evidence on owners, housing costs and business moves.
 - Question to test: Insurance can take up room in the same household budget as other payment costs. Related topic: The price on the screen is only part of the cost. The current sources do not follow the same households across these costs or show which bill is given up first.
+- Comparison: The home's condition and location can shape the energy bill. Related topic: A home can be costly to heat before anything else changes. Current sources do not join energy burden to housing insurance or moving decisions.
 
 ### People can pay the bills by giving up care
 
@@ -183,6 +195,38 @@ Connections:
 - Comparison: Cost can lead people to use less protection or care. Related topic: Keeping a home also means paying to protect it. Parallel household choices; neither packet proves the same people face both.
 - Question to test: An unmet care need may require more family time. Related topic: A family can pay for care with time. Check whether skipped treatment actually increases unpaid care; this has not been shown here.
 - Question to test: Difficulty paying for care may become a public concern. Related topic: Personal finances and national mood can move apart. Concern and skipped care are separate observations, not a proven causal chain.
+
+### A home can be costly to heat before anything else changes
+
+Energy costs depend on income, building, fuel and place, so the same price can leave households with different room to adjust.
+
+**Question:** What does the energy bill crowd out?
+
+**Subthemes:** Energy burden; Home condition and utility choice
+
+**Limit:** The opening packet measures burden, not the next household choice.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
+- [EIA State Energy Data System](https://www.eia.gov/state/seds/seds-data-complete.php)
+
+#### Evidence check: Low-income homes spend a larger share on energy
+
+The DOE LEAD tool reports an average energy burden of about 6% for low-income households and about 2% for non-low-income households. It also shows that burden can be much higher in some places.
+
+Working interpretation: the same energy price can leave different room for food, care, rent or debt because the bill takes a different share of income.
+
+These are modeled and survey-linked averages, not a bill for each household. Energy burden excludes transportation and does not by itself show a later cut in care, work or political trust.
+
+[US Department of Energy LEAD tool description and definition. Checked 2026-09-11.](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+
+
+Connections:
+
+- Comparison: The home's condition and location can shape the energy bill. Related topic: Keeping a home also means paying to protect it. Current sources do not join energy burden to housing insurance or moving decisions.
+- Question to test: A high energy share can leave less room for other household payments. Related topic: The price on the screen is only part of the cost. The current burden measure does not show which payment households cut or delay.
 
 ## Who gives up time
 
@@ -442,6 +486,10 @@ Connections:
 
 - Question to test: Worker access to AI may change both service speed and room to decide. Related topic: A quicker reply may still leave a problem open. The current studies do not join worker access, customer resolution and worker discretion in one setting.
 - Comparison: The same firm can shape worker tasks and customer time. Related topic: A useful app can still make leaving difficult. No current evidence connects workplace AI use to companion-app exit pressure; this is a comparison question.
+
+## A home can be costly to heat before anything else changes
+
+Read energy bills as part of the home's condition and the household's room to absorb other costs.
 
 ## Reading rule
 

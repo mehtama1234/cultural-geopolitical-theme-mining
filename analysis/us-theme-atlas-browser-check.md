@@ -2,7 +2,7 @@
 
 Checked with Chromium on 2026-09-11 at 1440 × 1000 and 390 × 844.
 
-- All eight topics appear initially.
+- All ten topics appear initially.
 - The household-cost filter shows three topics.
 - A connection from housing to local business reveals its destination even when the destination was filtered out.
 - An unmatched search produces zero results and a recovery message; clearing it restores the topics.
@@ -14,7 +14,7 @@ This checks the tested interactions and opening layout. It is not a complete acc
 
 ## Reading-path checks
 
-On 2026-09-11, Chromium also verified five reading paths containing fifteen topic links. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.
+On 2026-09-11, Chromium also verified six reading paths containing eighteen topic links. With the cost filter selected, a path link to politics revealed and focused the destination. The page had no horizontal overflow at 390 × 844 or 1440 × 1000, and no JavaScript errors occurred. These additional checks were automated; they do not constitute a new full-page visual or accessibility review.
 
 ## UX audit note
 

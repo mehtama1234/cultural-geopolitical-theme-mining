@@ -22,6 +22,11 @@
       "id": "work",
       "title": "Who controls the work and gets the gain",
       "meaning": "Separate time saved for workers from output gained by the firm, and ask who controls the next decision."
+    },
+    {
+      "id": "energy",
+      "title": "A home can be costly to heat before anything else changes",
+      "meaning": "Read energy bills as part of the home's condition and the household's room to absorb other costs."
     }
   ],
   "nodes": [
@@ -233,6 +238,29 @@
       "theme": "work",
       "status": "Early reading",
       "source_record": "analysis/projects/ai-work-control/source-search-2026-09-11.md"
+    },
+    {
+      "id": "energy",
+      "evidence_check": {
+        "title": "Low-income homes spend a larger share on energy",
+        "finding": "The DOE LEAD tool reports an average energy burden of about 6% for low-income households and about 2% for non-low-income households. It also shows that burden can be much higher in some places.",
+        "meaning": "Working interpretation: the same energy price can leave different room for food, care, rent or debt because the bill takes a different share of income.",
+        "limit": "These are modeled and survey-linked averages, not a bill for each household. Energy burden excludes transportation and does not by itself show a later cut in care, work or political trust.",
+        "source": "https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool",
+        "location": "US Department of Energy LEAD tool description and definition. Checked 2026-09-11."
+      },
+      "project": "us-energy-household-burden",
+      "title": "A home can be costly to heat before anything else changes",
+      "summary": "Energy costs depend on income, building, fuel and place, so the same price can leave households with different room to adjust.",
+      "question": "What does the energy bill crowd out?",
+      "limit": "The opening packet measures burden, not the next household choice.",
+      "subthemes": [
+        "Energy burden",
+        "Home condition and utility choice"
+      ],
+      "theme": "cost",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-energy-household-burden/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
@@ -268,6 +296,12 @@
       "meaning": "Follow the cost of keeping a home protected into the wider payment burden, then ask how households judge the economy. The path joins two kinds of bills without treating them as one measure.",
       "limit": "The current packets do not track the same households across insurance payments, other payment choices and economic views.",
       "memo": "../site/us-household-cost-path-001.html"
+    },
+    {
+      "title": "When energy cost starts inside the home",
+      "topics": ["energy", "housing", "money"],
+      "meaning": "Follow the building and utility bill into the wider household budget. The path asks whether energy burden changes the room left for other costs.",
+      "limit": "The current packets do not track the same households across energy bills, housing protection and payment choices."
     }
   ],
   "edges": [
@@ -357,6 +391,22 @@
       "to": "money",
       "relation": "Insurance can take up room in the same household budget as other payment costs",
       "limit": "The current sources do not follow the same households across these costs or show which bill is given up first.",
+      "type": "open"
+    },
+    {
+      "id": "link-12",
+      "from": "energy",
+      "to": "housing",
+      "relation": "The home's condition and location can shape the energy bill",
+      "limit": "Current sources do not join energy burden to housing insurance or moving decisions.",
+      "type": "comparison"
+    },
+    {
+      "id": "link-13",
+      "from": "energy",
+      "to": "money",
+      "relation": "A high energy share can leave less room for other household payments",
+      "limit": "The current burden measure does not show which payment households cut or delay.",
       "type": "open"
     }
   ]

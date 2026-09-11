@@ -10,6 +10,8 @@ The second is [When faster service and longer use point in different directions]
 
 The third is [When health costs move into family time](site/us-health-care-time-path-001.html), with its [Markdown record](analysis/findings/us-health-care-time-path-001.md). It joins unpaid care, paid work and medical debt while keeping the different-study boundary visible.
 
+The next short project is [US household energy burden](analysis/projects/us-energy-household-burden/README.md), with its [source search record](analysis/projects/us-energy-household-burden/source-search-2026-09-11.md). It joins energy bills, housing conditions and room for other household costs.
+
 ## The question
 
 What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?

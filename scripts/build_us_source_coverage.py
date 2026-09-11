@@ -48,6 +48,8 @@ def family(url):
         "hhs.gov": "HHS",
         "sba.gov": "SBA",
         "bea.gov": "BEA",
+        "eia.gov": "EIA",
+        "energy.gov": "DOE",
         "treasury.gov": "Treasury",
         "imf.org": "IMF",
         "bis.org": "BIS",
