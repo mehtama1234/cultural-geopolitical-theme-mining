@@ -1,8 +1,8 @@
 # US source coverage
 
-77 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+78 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 124; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 125; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1508,6 +1508,28 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US rideshare licensing and customer safety
+
+**Project:** `us-rideshare-licensing-customer-safety`
+
+**Status:** opening pass; licensing and trip-level customer measures are compared in New York, New Jersey and Houston, the broader fare and worker path remains open
+
+**Question:** Does requiring a rideshare driver to hold a license improve the customer's ride, or mainly change who can enter the work?
+
+**Sources recorded:** 1
+
+- [Occupational Licensing of Uber Drivers](https://www.nber.org/papers/w35635)
+
+**Open gaps:**
+- licensing cost and time for drivers;
+- fares, wait times and cancellations;
+- serious safety incidents;
+- worker entry, income and outside job options;
+- customer trust and repeat use;
+- results across more cities and platforms.
+
+[Open the source-search record](projects/us-rideshare-licensing-customer-safety/source-search-2026-09-11.md)
 
 ## US rideshare price search
 

@@ -1819,9 +1819,38 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-rideshare-price-search-friction/source-search-2026-09-11.md"
+    },
+    {
+      "id": "rideshare_licensing_customer_safety",
+      "evidence_check": {
+        "title": "A license rule may not improve the ride customers receive",
+        "finding": "An NBER study using trip-level Uber ratings and telematics-based driving measures finds no consistent evidence that occupational licensing improves consumer outcomes in its New York, New Jersey and Houston settings. In Houston, drivers entering after deregulation looked like previously licensed drivers on ratings and driving behavior despite differences in age and experience.",
+        "meaning": "Working interpretation: a rule described as customer protection may mainly change who can enter the work unless the service result is measured directly.",
+        "counterpoint": "Licensing may protect customers through checks or standards not captured by ratings and the driving measures used here. It may also matter more under different enforcement or in other cities.",
+        "counterpoint_source": "https://www.nber.org/papers/w35635",
+        "limit": "The opening evidence does not show fares, wait times, worker income, entry costs or every safety outcome, and results from two settings may not carry to all cities.",
+        "source": "https://www.nber.org/papers/w35635",
+        "location": "Hall, Hicks, Kleiner and Oh, Occupational Licensing of Uber Drivers, NBER Working Paper 35635, checked 2026-09-11."
+      },
+      "project": "us-rideshare-licensing-customer-safety",
+      "title": "A license rule may not improve the ride customers receive",
+      "summary": "Rideshare licensing may change worker entry without a clear measured gain in ratings or driving behavior for customers.",
+      "question": "When does a customer-protection rule improve the service rather than narrow access to the work?",
+      "limit": "The opening study measures ratings and driving behavior in selected settings, not the full fare, safety or worker path.",
+      "subthemes": ["Customer protection and service quality", "Licensing and worker entry"],
+      "theme": "work",
+      "status": "Early reading",
+      "source_record": "analysis/projects/us-rideshare-licensing-customer-safety/source-search-2026-09-11.md"
     }
   ],
   "reading_paths": [
+    {
+      "title": "When customer protection changes who can provide the ride",
+      "topics": ["rideshare_licensing_customer_safety", "rideshare_price_search_friction", "transport"],
+      "meaning": "Follow a licensing rule into the drivers available, the platform choices customers see, and the ride they receive. Ask whether protection improves service or narrows access.",
+      "limit": "The current sources do not follow the same city through licensing, driver entry, fares, search, wait time and safety.",
+      "memo": null
+    },
     {
       "title": "When app convenience leaves money on the trip",
       "topics": ["rideshare_price_search_friction", "transport", "money"],
@@ -3342,6 +3371,14 @@
       "relation": "A missed price comparison can leave less household money after the same trip",
       "limit": "The current study estimates fare gaps but does not measure each rider's budget or later household choice.",
       "type": "open"
+    },
+    {
+      "id": "link-124",
+      "from": "rideshare_licensing_customer_safety",
+      "to": "rideshare_price_search_friction",
+      "relation": "A licensing rule can change the driver pool behind the prices and service choices customers compare",
+      "limit": "The current studies examine licensing and price search separately and do not show their joint market effect.",
+      "type": "comparison"
     }
   ]
 }

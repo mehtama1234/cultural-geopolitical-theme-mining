@@ -10,6 +10,16 @@ Across the packets, a recurring question is what disappears when a household kee
 
 Reading paths, not proven chains of cause and effect.
 
+### When customer protection changes who can provide the ride
+
+Follow a licensing rule into the drivers available, the platform choices customers see, and the ride they receive. Ask whether protection improves service or narrows access.
+
+1. [A license rule may not improve the ride customers receive](#rideshare_licensing_customer_safety)
+2. [Two apps can show different prices while customers still compare rarely](#rideshare_price_search_friction)
+3. [Getting to a place is a major household cost](#transport)
+
+Still missing: The current sources do not follow the same city through licensing, driver entry, fares, search, wait time and safety.
+
 ### When app convenience leaves money on the trip
 
 Follow a ride from the app screen into the travel cost and the household money left afterward. Ask whether convenience hides a choice the customer could have made.
@@ -2981,6 +2991,7 @@ Connections:
 
 - Question to test: A rideshare app turns a transport need into a choice among price, time and convenience. Related topic: Getting to a place is a major household cost. The current study does not show each rider's wider route, time pressure or available alternatives.
 - Question to test: A missed price comparison can leave less household money after the same trip. Related topic: The price on the screen is only part of the cost. The current study estimates fare gaps but does not measure each rider's budget or later household choice.
+- Comparison: A licensing rule can change the driver pool behind the prices and service choices customers compare. Related topic: A license rule may not improve the ride customers receive. The current studies examine licensing and price search separately and do not show their joint market effect.
 
 ## Who controls the work and gets the gain
 
@@ -3519,6 +3530,38 @@ Connections:
 
 - Question to test: A dominant local employer can make the job itself part of a worker's political calculation. Related topic: The same job can contain different AI access. The current study does not show whether the employer changed pay, schedules, job options or the worker's actual decision.
 - Question to test: Employer communication and local job power may shape political beliefs and voting expectations. Related topic: Personal finances and national mood can move apart. The current evidence reports influence and models a channel but does not measure a changed vote for the same worker.
+
+### A license rule may not improve the ride customers receive
+
+Rideshare licensing may change worker entry without a clear measured gain in ratings or driving behavior for customers.
+
+**Question:** When does a customer-protection rule improve the service rather than narrow access to the work?
+
+**Subthemes:** Customer protection and service quality; Licensing and worker entry
+
+**Limit:** The opening study measures ratings and driving behavior in selected settings, not the full fare, safety or worker path.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Occupational Licensing of Uber Drivers](https://www.nber.org/papers/w35635)
+
+#### Evidence check: A license rule may not improve the ride customers receive
+
+An NBER study using trip-level Uber ratings and telematics-based driving measures finds no consistent evidence that occupational licensing improves consumer outcomes in its New York, New Jersey and Houston settings. In Houston, drivers entering after deregulation looked like previously licensed drivers on ratings and driving behavior despite differences in age and experience.
+
+Working interpretation: a rule described as customer protection may mainly change who can enter the work unless the service result is measured directly.
+
+**Counterpoint:** Licensing may protect customers through checks or standards not captured by ratings and the driving measures used here. It may also matter more under different enforcement or in other cities.
+[Related study](https://www.nber.org/papers/w35635)
+
+The opening evidence does not show fares, wait times, worker income, entry costs or every safety outcome, and results from two settings may not carry to all cities.
+
+[Hall, Hicks, Kleiner and Oh, Occupational Licensing of Uber Drivers, NBER Working Paper 35635, checked 2026-09-11.](https://www.nber.org/papers/w35635)
+
+
+Connections:
+
+- Comparison: A licensing rule can change the driver pool behind the prices and service choices customers compare. Related topic: Two apps can show different prices while customers still compare rarely. The current studies examine licensing and price search separately and do not show their joint market effect.
 
 ## A home can be costly to heat before anything else changes
 
