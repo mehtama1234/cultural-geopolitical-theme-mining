@@ -20,6 +20,8 @@ Follow a platform's own product through search and data control into the service
 
 Still missing: The current studies use different platform settings and do not follow the same customer through product choice, data access, prices and long-run competition.
 
+[Read the complete connected memo](../site/us-platform-choice-data-path-001.html)
+
 ### When competition protects some customers first
 
 Follow customer power and firm competition into service and price, then ask when unequal treatment becomes a public demand for rules or enforcement.
