@@ -361,9 +361,53 @@ Follow a founder's move into local ownership and then ask how housing, services 
 
 Still missing: The current sources measure birthplace ties, home equity and business entry separately; they do not follow residents through a local change.
 
+### When a rate decision becomes a household belief
+
+Follow a central-bank decision into what households expect about prices and borrowing, then into spending, saving and financial room.
+
+1. [Households may hear a rate increase as a price warning](#household_rate_response)
+2. [A slower rise in prices can still feel like a loss](#price_perception)
+3. [The price on the screen is only part of the cost](#money)
+
+Still missing: The current studies use randomized information and reported expectations; they do not follow the same household's policy exposure, financial records and trust.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
+
+### Households may hear a rate increase as a price warning
+
+Household beliefs about rates, prices and borrowing can shape spending and saving in different ways.
+
+**Question:** How does a rate decision become a household choice?
+
+**Subthemes:** Rate messages; Borrowers and savers
+
+**Limit:** The opening evidence does not match beliefs to actual household financial records.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [NBER: Monetary Policy According to Households](https://www.nber.org/papers/w35127)
+- [NBER: Forward Guidance and Household Expectations](https://www.nber.org/papers/w26778)
+- [NBER: Monetary Policy Communications and Their Effects on Household Inflation Expectations](https://www.nber.org/papers/w25482)
+
+#### Evidence check: Households may hear a rate increase as a price warning
+
+An NBER survey of more than 25,000 US households with randomized information treatments finds that people expect higher rates to raise borrowing costs and inflation, report reducing spending especially on durable goods, and change portfolios in response to inflation expectations.
+
+Working interpretation: monetary policy may reach households through their beliefs about future prices, not only through the loan rate they directly face.
+
+**Counterpoint:** A borrower, saver and renter can face opposite effects. Reported beliefs are not the same as actual spending, debt or portfolio records.
+[Related study](https://www.nber.org/papers/w35127)
+
+The current evidence does not show which households receive the message, change behavior and bear the cost in their financial records.
+
+[Grigoli, Sandri, Gorodnichenko and Coibion, Monetary Policy According to Households, NBER Working Paper 35127, April 2026. Checked 2026-09-11.](https://www.nber.org/papers/w35127)
+
+
+Connections:
+
+- Question to test: A rate message may change how households read future prices and their own buying power. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
 
 ### Staying with one bank can carry a quiet cost
 
@@ -501,6 +545,7 @@ Connections:
 - Question to test: Repeated prices and wage comparisons can change the room a household thinks it has. Related topic: The price on the screen is only part of the cost. The current survey and retail evidence do not measure the same household's actual budget or purchase change.
 - Question to test: A delayed trade-policy cost can become part of the price people use to judge the economy. Related topic: A trade policy can reach the shelf slowly. The current evidence does not connect product-level tariff effects to the same consumers' price beliefs or political views.
 - Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
+- Question to test: A rate message may change how households read future prices and their own buying power. Related topic: Households may hear a rate increase as a price warning. The current evidence does not identify which households change beliefs and later purchases or savings in their records.
 
 ### The price on the screen is only part of the cost
 

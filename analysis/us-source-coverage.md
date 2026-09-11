@@ -1,8 +1,8 @@
 # US source coverage
 
-31 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+32 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 21; HHS: 1; IEA: 1; IMF: 1; NBER: 44; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 6; CFPB: 9; CMS: 1; Census: 11; DOE: 2; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 21; HHS: 1; IEA: 1; IMF: 1; NBER: 47; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -490,6 +490,30 @@
 - a time series that separates inflation, interest rates, income loss, and product design.
 
 [Open the source-search record](projects/us-household-financial-pressure/source-search-2026-09-11.md)
+
+## US households and the meaning of an interest-rate change
+
+**Project:** `us-household-monetary-policy`
+
+**Status:** short discovery pass; no settled finding
+
+**Question:** How do households translate a central-bank rate change into a decision about spending, saving or borrowing?
+
+**Sources recorded:** 3
+
+- [NBER: Monetary Policy According to Households](https://www.nber.org/papers/w35127)
+- [NBER: Forward Guidance and Household Expectations](https://www.nber.org/papers/w26778)
+- [NBER: Monetary Policy Communications and Their Effects on Household Inflation Expectations](https://www.nber.org/papers/w25482)
+
+**Open gaps:**
+- actual spending, debt and portfolio records matched to beliefs;
+- effects by income, age, race, debt, home ownership and liquid savings;
+- whether people distinguish inflation from borrowing costs;
+- how messages travel through news and social media;
+- which households gain interest income while others pay more;
+- whether repeated policy surprises change trust in the Fed.
+
+[Open the source-search record](projects/us-household-monetary-policy/source-search-2026-09-11.md)
 
 ## US housing, insurance, and the cost of staying put
 
