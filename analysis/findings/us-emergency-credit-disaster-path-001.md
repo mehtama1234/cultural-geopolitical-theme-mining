@@ -16,6 +16,10 @@ Another family has the same damage but waits for aid, borrows from relatives, or
 
 The comparison is difficult because the families may not be interchangeable after the disaster. Approval may depend on credit, documentation, collateral, or the ability to complete an application. A denied family may have received a grant, moved in with relatives, or lost the asset entirely. Lower bankruptcy among approved applicants is strong evidence in the studied cutoff, but it is not proof that every loan is better than a grant or that every borrower preserved the same need.
 
+The first use of the money is decisive. A loan can repair a car that keeps a worker connected to a job, pay a contractor before a damaged home gets worse, or cover a deductible while insurance is pending. It can also pay overdue rent or cards, leaving the original repair unresolved. Two borrowers with the same amount of credit may therefore have very different recovery paths. The record needs to show what was preserved, not only what was borrowed.
+
+The repayment plan can change the value of the repair. A car that restores work may still be too expensive if the payment forces the household to give up food, care, or insurance. A home repair may preserve the property but make it harder to move or save. Recovery is not complete when the asset returns; it is complete only when the household can carry the resulting payment without creating the next crisis.
+
 ```text
 disaster loss or payment outage → urgent bill and lost work or mobility
 → loan, cash, insurance, aid, family help, or no bridge
@@ -42,6 +46,10 @@ The larger finding is that “recovery” has at least two clocks. The first is 
 
 This also connects credit to public trust. A household may remember the loan as the reason it kept working, or as the debt that followed a disaster it did not cause. The current evidence does not measure that judgment or show whether it changes support for disaster policy. That is a next question, not part of the observed bankruptcy result.
 
+Access can reproduce pre-disaster inequality. A family with a clean file, stable address, and time to apply may receive credit before prices and repair queues rise. A family with damaged records, language barriers, or no internet may wait until the repair costs more or the job is gone. The loan may then appear to work better for approved borrowers partly because approval selected households with more ability to use the bridge. This is why the denied and unable-to-apply paths matter.
+
+There is a public choice between speed and repayment protection. Fast approval can preserve an asset, but weak terms can leave a long debt. Careful underwriting can reduce defaults, but delay can turn a repair into displacement. A useful program may need staged money, flexible payments, grants for essential work, and clear triggers for relief. The current study points to the value of credit in one setting; it does not decide that design question.
+
 ## What remains unproven
 
 The evidence does not tell us whether the loan preserved a job, reduced health harm, or improved long-term wealth for each borrower. It does not compare the loan with a grant, insurance payment, flexible repayment, or direct repair. Nor does it show how results differ by income, race, disability, disaster type, interest rate, or the timing of aid. It also does not show which households were unable to apply or what happened to the need when they were denied.
@@ -49,6 +57,8 @@ The evidence does not tell us whether the loan preserved a job, reduced health h
 ## Next test
 
 Follow approved borrowers and similar denied applicants for five years. Join the disaster damage record to loan amount, rate, term, fees, collateral, insurance, aid, family help, cash access, repairs, purchases, work, health, delinquency, credit, bankruptcy, and household consumption. Record application barriers and the date each form of help arrived. The central comparison should be the same preserved need funded in different ways—not simply “borrower” versus “non-borrower.”
+
+Compare rapid loans, partial grants, deferred payments, and loan-plus-repair support for the same type of uninsured loss. Measure time to usable repair, work and care continuity, total repayment, missed essentials, insurance status, later credit, bankruptcy, housing, and stress. Include people who could not complete the application. The strongest result would show which design preserves the asset and the household's future room, not merely which design sends money fastest.
 
 ## Reading rule
 
