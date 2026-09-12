@@ -20,6 +20,10 @@ The timing can turn a one-year award into a lasting market change. A small firm 
 
 The threshold can create a cliff. A firm just below it may lose a contract, while a firm just above it gains a new customer and a stronger record. The first loss can make private lenders less willing to lend, which makes the public loss last longer. The cutoff may therefore change the next market, not just this year's award.
 
+The line can change behavior before the award. An owner may delay hiring, split a firm, keep workers as contractors, or refuse growth to stay eligible. Another may cross the line because the contract is worth more than the support lost. These choices may be sensible responses to the rule, but they mean the policy is shaping firm structure as well as selecting firms. A worker count on a form may no longer describe the work being done.
+
+The first loss can also be hidden inside the owner’s household. An owner may stop paying herself, use a home-equity loan, or ask family to work without pay. The firm remains open, but the household carries the risk. A later closure may then look sudden even though the cash shortage began with the eligibility change.
+
 ```text
 eligibility rule changes → larger firms gain access → contracts and support move
 → smallest firms lose revenue or exit → wages, innovation, customers, and local choice change
@@ -48,6 +52,10 @@ This creates a public-power question. A size rule is easy to administer, but eas
 
 There is also a difference between support and protection. A grant can help a firm survive a shock without deciding who wins a contract. A procurement preference changes the customer available to each firm. A loan can preserve capacity while leaving repayment risk with the owner. These tools may produce different worker and customer results even when they carry the same label of “small-business help.”
 
+Paperwork is part of market access. A firm with an accountant and a compliance worker can apply, wait for payment, and appeal a decision. A small owner may do the same work at night, while also serving customers. A program can be formally open to everyone and practically favor firms that already have administrative slack. If that is the mechanism, lowering paperwork or paying sooner may preserve more competition than simply raising the award amount.
+
+The political story can split too. A local owner may see the rule as a lost chance to grow, while a customer may see the larger provider as reliable. A worker may want the small firm to survive because it offers a nearby job, but prefer the larger firm’s benefits. Public support for “small business” does not identify which of these interests is being protected.
+
 ## What remains unproven
 
 The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. It does not show whether the threshold created a sudden financing cliff or whether firms could recover through private customers. Effects may differ by industry, place, firm age, race, and access to private credit. It also does not show whether the line was easy for small firms to understand or whether compliance capacity, rather than productive capacity, drove the award.
@@ -55,6 +63,8 @@ The evidence does not show whether the larger firms delivered better or worse se
 ## Next test
 
 Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line, recording compliance time and cost, whether the contract loss changed private credit, household withdrawals, worker stability, customer price, and the availability of a second provider. Compare a size rule with a need or performance rule where possible.
+
+Add a pre-award behavior record: hiring, contractor use, firm splitting, owner pay, family labor, applications, compliance hours, and payment delays. Follow the same firms after they cross the line and after they lose an award. This would show whether the policy supports productive growth or rewards staying just under the threshold, and whether the real bottleneck is money, paperwork, or access to a customer.
 
 ## Reading rule
 
