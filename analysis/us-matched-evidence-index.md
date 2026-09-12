@@ -114,7 +114,17 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 12. Rent aid can buy time; a lawyer can change the case
+### 12. Rent insurance may protect a home before the crisis, but access is the problem
+
+**Theme:** Cost / housing / finance
+**Route:** rent risk → pre-shock insurance → housing security
+**Still open:** market access, landlord response, and later tenant outcomes
+
+Rent-guarantee insurance is meant to pay a limited number of rents after an income or health shock. A model finds that it could raise welfare, reduce security deposits, and lower homelessness. The same model finds that broad coverage is not financially viable: private insurers would favor better-off renters, while public coverage would need to focus on people most at risk.  Observed rental evidence gives the needed counterweight. Emergency rent aid can improve payment and reduce fear without a large average housing-stability effect; legal help can change the court case. Insurance adds protection before the crisis, but it is not yet a measured US market result.
+
+[Read the HTML page](../site/us-rent-guarantee-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-insurance-matched-evidence-001.md)
+
+### 13. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -124,7 +134,7 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 13. A benefit can be lost without the need going away
+### 14. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -134,7 +144,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 14. A recovery loan can keep a local option open, but it creates another bill
+### 15. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -144,7 +154,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 15. A wider small-business rule can push the smallest firms out
+### 16. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -154,7 +164,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 16. The same dollar can do different work depending on how it arrives
+### 17. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -164,7 +174,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 17. A car repair can protect access while taking away other room
+### 18. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

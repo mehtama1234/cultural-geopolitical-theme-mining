@@ -15,3 +15,7 @@ Rent insurance shifts the question from emergency aid after a problem to risk sh
 ## Decision rule
 
 Move on after one source models the product, one source measures actual prevention aid, and one next dataset can observe premiums, claims, housing outcomes and credit. Do not describe a modeled benefit as a proven market result.
+
+## Matched evidence pass
+
+The first matched check is [Rent insurance may protect a home before the crisis, but access is the problem](../../findings/us-rent-guarantee-insurance-matched-evidence-001.md), with its [HTML reading page](../../../site/us-rent-guarantee-insurance-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It connects the model to observed rent aid and legal help while leaving market access, landlord response, and later tenant outcomes open.
