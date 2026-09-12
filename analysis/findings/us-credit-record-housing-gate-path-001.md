@@ -1,55 +1,51 @@
 # When a payment record becomes a housing gate
 
-## Short answer
+## The argument
 
-A late payment, overdraft, eviction order, or missing credit history can become a signal used to decide who may rent, borrow, or keep an account. That signal may add a cost long after the first money problem.
+A credit record is meant to describe risk. It can also help create the next risk. A late payment, overdraft, eviction order, or missing credit history can change what a bank, lender, landlord, or utility asks the household to pay. The new cost may be a higher rate, a deposit, a co-signer, a worse location, or no account at all.
 
-Records can help lenders price risk and serve people who would otherwise be unknown. The hard question is what event made the record, who used it, and what choice came next.
+The household then has less room to recover, making another late payment more likely. The important shift is that the record is not only a report about the past. It can become a gate in the future.
 
-## What the sources show
+That does not mean every record is unfair or every score is wrong. A lender may use a record to avoid a real loss. The research question is more exact: what event made the record, who saw it, what decision followed, and what alternatives did the household have?
 
-Linked Census and credit-bureau data show large differences in credit scores and serious delinquencies by race, class, and hometown that emerge in young adulthood and persist. The data show a pattern, not every cause or lender intent.
+## Follow the gate
 
-HBS describes how payment ordering can multiply overdraft fees, and how unpaid fees can lead to account closure and a separate bank record. NBER finds that an eviction order reduces earnings, durable-goods spending, and credit access in the first two years while increasing homelessness and hospital visits. HBS also reports that alternative-data lending can add loans without reliably finding safer borrowers.
+A household misses rent after a job loss. An eviction order follows. Later it applies for housing and credit. A landlord or lender sees the record, changes the terms, or denies the application. The family moves farther from work or pays more for a smaller home. Transport and rent rise, leaving less money for the next emergency.
 
-- [NBER Working Paper 34053](https://www.nber.org/papers/w34053)
-- [HBS: Are Banks the Bad Guys? Overdraft Fees](https://www.library.hbs.edu/working-knowledge/are-banks-the-bad-guys-overdraft-fees-are-crushing-low-income-customers)
-- [NBER Working Paper 30382](https://www.nber.org/papers/w30382)
-- [HBS: The Dark Side of Fintech Borrowing](https://www.library.hbs.edu/working-knowledge/the-dark-side-of-fintech-borrowing)
-
-## The connection
+The first shock was lost income. The later hardship is partly the cost of being judged after the shock. The record may be accurate and still have this effect. Accuracy does not answer whether the decision is fair or whether the household had a workable alternative.
 
 ```text
 late payment, overdraft, eviction, or thin record
   -> bank, lender, or landlord sees a signal or a blank
   -> account, credit, housing, or loan access changes
   -> household pays more, moves, borrows elsewhere, or loses a buffer
-  -> record differences become a lasting place and class divide
+  -> the new cost raises the chance of another payment problem
 ```
 
-The record may describe real risk, missing information, or the cost of an earlier gate. These are not the same thing.
+## What the sources actually establish
 
-## The four outside views
+| Evidence | Meaning | Limit |
+|---|---|---|
+| NBER finds credit-score and serious-delinquency gaps by race, class, and hometown that emerge in young adulthood and persist. | Financial visibility is not evenly distributed. | The pattern does not identify every cause or lender decision. |
+| HBS describes overdraft ordering that can multiply fees and contribute to account closure and a bank-used record. | A small cash problem can become a banking gate. | The account path differs by bank and customer. |
+| NBER finds eviction orders reduce later credit access and earnings while increasing homelessness and hospital visits. | A housing shock can make recovery harder. | The study does not show every later landlord decision. |
+| Connected evidence points to higher-cost borrowing, deposits, fewer banking options, or harder housing access. | The cost of a record can continue into the next product. | A plausible path needs household-level linkage. |
 
-**Household:** A record can open a home or loan, but a fee or thin file can force a family toward a costlier product or a worse location.
+Sources: [NBER Working Paper 34053](https://www.nber.org/papers/w34053), [HBS overdraft research](https://www.library.hbs.edu/working-knowledge/are-banks-the-bad-guys-overdraft-fees-are-crushing-low-income-customers), and [NBER Working Paper 30382](https://www.nber.org/papers/w30382).
 
-**Company and sector:** Banks, lenders, landlords, and fintech firms choose which data to use and how to act on it. More data can widen access or sharpen sorting.
+## The deeper finding
 
-**Money and finance:** A denial may mean higher interest, a deposit, a co-signer, or another loan. The cost of the record continues through the next product.
+Three things must stay separate: the event that hurt the household, the record created by the event, and the decision made after the record was seen. An eviction order is not the same as a late rent payment. A thin file is not the same as an inability to pay. An overdraft fee is not the same as a failed account.
 
-**Public power:** Reporting rules, eviction records, fee rules, fair lending, data access, and dispute systems decide how long a past event remains a gate.
+The same distinction matters for fairness. A credit-score gap can reflect unequal income, unequal access to banking, different exposure to fees, or discrimination in earlier decisions. The score alone cannot tell us which. Treating all of it as one number makes both the diagnosis and remedy vague.
 
-## What would change the finding
+## What remains unknown
 
-- The underlying bill, overdraft, eviction, income shock, or missing record.
-- Which bank, lender, or landlord saw the record and what decision followed.
-- Interest, fees, deposits, rent, location, housing quality, and later credit.
-- Thin-file and no-file households as well as households with delinquencies.
-- Differences by race, class, age, disability, and place.
+The sources support a path from earlier money or housing trouble to later credit access. They do not show that one score caused a particular family’s housing result or that every household with a record faced the same terms.
 
 ## Next test
 
-Follow households from the first payment event through three years of housing and credit decisions. Join bank, credit, landlord, eviction, rent, work, and location records, and record the alternatives after a denial.
+Follow households from the first payment event through three years of housing and credit decisions. Join the original bill, overdraft, eviction, income shock, credit record, lender or landlord decision, interest, fee, deposit, location, and later housing. Record the alternatives after a denial.
 
 ## Reading rule
 
