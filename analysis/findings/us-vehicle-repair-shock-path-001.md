@@ -16,6 +16,10 @@ Each choice protects something and exposes something else. Paying preserves the 
 
 If the repair keeps the job, it may prevent a much larger income loss. If the worker cannot raise the money, the unpaid shift becomes a second shock. The later credit balance or late rent may be recorded without anyone linking it back to the broken car.
 
+The first choice may be made before the mechanic knows the full cost. A household can pay for a temporary fix, use a cheaper part, or keep driving a vehicle that is less safe. A low repair bill can therefore be the result of taking more physical risk, while a high repair bill may buy reliability. The account needs to record what condition was restored and how long it lasted, not only the amount paid.
+
+The route is also a schedule, not just a distance. A bus that runs during the day may not replace a car for a night worker. A rideshare may cover one trip but become unaffordable over a week. A relative may provide a ride but have to miss work. When the alternative fails at the wrong hour, the household loses access even if a map shows a route exists.
+
 ```text
 unexpected repair → cash is short before payday
 → borrow, delay a bill, ask family, use another route, or stop a trip
@@ -43,6 +47,10 @@ This is also why repair aid can have a larger effect than its dollar amount sugg
 
 There is a second market question. A household may repair an older car because replacing it requires a down payment, a credit check, higher insurance, and a larger monthly payment. The repair can therefore be a way to avoid entering a more expensive vehicle-and-debt system. But repeated repairs may also become a slow drain that leaves the household with no reserve for the next shock.
 
+This creates a repair-versus-replacement trap. A lender may treat the newer car as safer collateral, while the household sees a payment it cannot carry. An insurer may charge more for an older vehicle, while the older vehicle is already paid off. A repair program may preserve mobility today but leave the household with a car that will fail again. The right outcome is stable, safe access to work and care—not simply a running vehicle on the day of the grant.
+
+The local effect can be broader than one worker. If many households lose cars after a common storm or repair-cost rise, employers may lose staff, clinics may see missed visits, and nearby businesses may lose customers. A household that moves closer to work may reduce transport costs but increase rent. These are connected outcomes to test, not automatic results of one repair bill.
+
 ## Four views of the same breakdown
 
 **Household:** What was the repair price, when was it due, and which other bill or need paid for it?
@@ -60,6 +68,8 @@ The evidence does not show the same household's repair invoice, pay date, saving
 ## Next test
 
 Follow households from repair request through three months. Join repair cost and timing to bank and credit changes, travel, work hours, wages, care visits, food trips, and missed payments. Compare car-dependent households with similar households that have a usable alternative. Record both the loss from the repair and the income and access it protected.
+
+Follow the vehicle for two years, including repeat failures, insurance, replacement offers, loan terms, safety inspection, and resale value. Compare repair grants, low-cost loans, transit vouchers, employer flexibility, and no support for similar breakdowns. Measure safe mobility, reliable work and care access, total transport cost, debt, missed essentials, and the next repair. This would distinguish a temporary bridge from a car-and-debt trap.
 
 ## Reading rule
 
