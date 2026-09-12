@@ -119,6 +119,8 @@ Collect only what is needed for the question. Separate contact details from rese
 
 The initial field definition is in [the versioned JSON schema](../manifests/us-household-calendar-schema-v1.json), and the blank collection form is in [the event-ledger template](templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md).
 
+The first public-data boundary pass is in the [source search record](projects/us-household-calendar-integration/source-search-record-v1.md). It shows which sources can support the study and which links still require a consent-based calendar panel.
+
 The starting claims and their current limits are recorded in [the integration claims ledger](projects/us-household-calendar-integration/claims-ledger-v1.md).
 
 The draft participant instrument is [the household-calendar questionnaire](templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md). It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.
