@@ -12,6 +12,10 @@ A shopper sees a low monthly price for a service. At checkout, taxes and a servi
 
 Meanwhile, the merchant may price card acceptance into goods sold to everyone. A cash or debit user receives no reward but may help fund it. Each step is small. Together they make “price” a moving target.
 
+The hidden cost can be money, time, or uncertainty. A service fee is money. A cancellation maze is time. A vague renewal date is uncertainty about the next bill. A low-quality substitute is a cost paid after the purchase. Customers with enough room can investigate or walk away; customers at the edge may accept the first workable option because the cost of searching is immediate and the hidden cost is delayed.
+
+The order of disclosure changes the choice. A customer who sees the full price before searching can compare sellers. A customer who sees it after entering information may feel committed even when cancellation is technically allowed. A recurring charge can be small enough to ignore until several charges overlap. The design does not need to force a purchase to narrow the customer's choices; it can simply make reconsideration tiring.
+
 ```text
 headline price, reward, or monthly charge → limited comparison and attention
 → fee, shared price, or renewal appears later → purchase, payment, cancellation, or complaint changes
@@ -41,6 +45,10 @@ These powers are uneven. A customer with time, cash, multiple accounts, and flex
 
 There is also a value question. A fee may pay for delivery, fraud protection, support, or a useful intermediary. A reward may be worth more than the price difference for one shopper. The point is not to call every separate charge bad. The point is that value can be judged only when the full price and service are visible before commitment.
 
+The effect can spread beyond the buyer. A business that relies on hidden add-ons may compete on a low visible price while a transparent business looks expensive. A platform that makes cancellation hard can report stable subscriptions while households lose money quietly. A card reward funded through common prices can change which customers benefit from the same merchant. Price design can therefore shape competition and distribution at the same time.
+
+Trust is damaged when the final charge violates the customer's mental model, even if the terms were technically disclosed somewhere. People may stop using a service, complain, or become more cautious with legitimate offers. But distrust also has a cost: a household may reject a useful digital payment, insurance product, or subscription because it cannot tell what will happen later. Clear pricing is therefore not only a fairness rule; it can preserve useful exchange.
+
 ## Four views of the same price
 
 **Customer:** What was visible at the first decision, what appeared later, and how hard was it to switch, cancel, or seek a remedy?
@@ -58,6 +66,8 @@ The evidence does not follow one household across hidden price information, paym
 ## Next test
 
 Choose one everyday fee or recurring service. Record the first price, final price, point when the fee appears, payment method, reward, renewal event, cancellation steps, use, complaint, and later household outcome. Compare customers with different cash room and test an all-in price shown at the beginning against the usual design.
+
+Run a randomized checkout test with headline-only, early all-in, and early all-in-plus-cancellation designs. Measure search, purchase, final cost, use, return, cancellation time, repeat charges, complaint, and later trust. Include necessary and discretionary purchases and households with different cash room. The result should show whether clearer prices reduce harmful commitment, reduce useful purchases, or simply change which fee the customer notices.
 
 ## Reading rule
 
