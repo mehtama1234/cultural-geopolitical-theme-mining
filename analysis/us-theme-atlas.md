@@ -872,6 +872,8 @@ Follow an outage into the ability to pay, then ask which households can still bu
 
 Still missing: The payment study does not show the same household's essential purchase, outage loss and later recovery.
 
+[Read the complete connected memo](../site/us-payment-system-outage-path-001.html)
+
 ### When emergency credit protects the next three years
 
 Follow disaster credit into bankruptcy, later purchases and household room, while keeping the loan cost and preserved need visible.
