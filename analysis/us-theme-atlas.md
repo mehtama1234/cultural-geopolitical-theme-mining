@@ -104,6 +104,8 @@ Follow a policy tool into the bill people expect, then compare that belief with 
 
 Still missing: The current sources do not follow the same household from policy belief through actual bill, energy use and later political judgment.
 
+[Read the complete connected memo](../site/us-environmental-policy-cost-path-001.html)
+
 ### When public help changes the story of the economy
 
 Follow a benefit or benefit loss into felt household security, then ask how that feeling becomes a judgment about public help and government.
