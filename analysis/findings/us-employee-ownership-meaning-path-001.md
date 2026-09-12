@@ -19,6 +19,10 @@ The employee may now stay longer. That can help the company avoid hiring and tra
 
 The same event must be read from both sides. A lower quit rate is a firm result. A payout, better work conditions, greater control, or stronger family finances would be worker results. They may travel together, but the first does not prove the others.
 
+The promise can also change how a worker prices risk. An employee may accept a volatile job or stay through a hard period because the possible future value feels worth it. That can be a real choice when the claim is clear and the worker can afford to wait. It becomes a weak bargain when the value depends on a sale the worker cannot influence, the claim is lost on exit, or the worker cannot see how it was calculated. The timing and exit rules are part of the compensation.
+
+The household may treat the claim as a bonus, a retirement asset, or a story told by management. Those are different uses. A worker with debt may value a smaller certain payment more than a large uncertain claim. Another may value a say in scheduling or safety more than a distant payout. A plan that improves retention but does not meet the household's actual need may work for the company and miss the worker.
+
 ```text
 financial claim → explanation of how daily work may create value
 → retention, effort, identification, or risk-taking
@@ -46,6 +50,10 @@ This creates a possible gap between the firm's reason for offering ownership and
 
 The household test is especially important. A future claim cannot pay today's rent unless it can be sold, borrowed against, or paid on a known schedule. A worker may stay because the claim is valuable in ten years while still having no buffer for a repair, illness, or job loss this month. That is why ownership should be connected to the career and debt findings: it may improve the reason to stay without increasing the room to leave.
 
+There is also a governance question. Workers may be called owners while having no information about the valuation, no vote on a sale, and no way to challenge a safety or staffing decision. In that case the claim can align attention without sharing authority. A broader form of ownership would require a visible path from daily work to value, a fair share of the result, and a voice when the decision that determines the result is made.
+
+The local effect depends on what happens when value is realized. A payout may help a household stay in the area, pay debt, or start a business. A sale may move control away and leave workers with no payment or a weaker job. A firm may survive because workers stay, but the community may still lose if wages, hours, or service quality fall. The firm result and the place result need their own measures.
+
 ## Four views of the same plan
 
 **Worker:** What is the claim, when does it vest, what can make it worth more or less, and what happens if the worker leaves?
@@ -63,6 +71,8 @@ The opening study does not show actual payouts by worker, vesting and forfeiture
 ## Next test
 
 Build an ownership ledger for each plan: claim type, vesting, valuation, payout event, worker share, tax treatment, information rights, voting rights, exit rules, and what happens after resignation or termination. Then follow workers for three years. Compare retention with pay, hours, safety, customer outcomes, actual payouts, savings, debt, and household shocks. Include a group receiving the same clear explanation without an equity claim.
+
+Run a matched plan study that varies the claim, the explanation, and the worker's information or voting rights. Measure retention, effort, safety reporting, pay, schedule, actual payout, decision influence, household debt, and the response to a job offer elsewhere. Follow the plan through a sale or valuation event if one occurs. This would show whether the intervention creates shared value, stronger attachment to a job, or only a clearer promise.
 
 ## Reading rule
 
