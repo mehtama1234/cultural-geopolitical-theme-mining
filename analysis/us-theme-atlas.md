@@ -623,6 +623,8 @@ Follow an earnings change into the public help that falls away, then ask whether
 
 Still missing: The current sources do not follow the same family through total resources, care costs and work after the change.
 
+[Read the complete connected memo](../site/us-benefit-cliff-work-choice-path-001.html)
+
 ### When the due date is part of the energy burden
 
 Follow the gap between income and the utility due date into arrears or shutoff, then ask what payment, credit or health cost follows.
