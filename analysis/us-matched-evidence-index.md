@@ -394,7 +394,17 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 40. A benefit can be lost without the need going away
+### 40. The cost of a bad choice begins after the review
+
+**Theme:** Customer / cost / voice
+**Route:** review and search → purchase → return or complaint
+**Still open:** joined post-purchase quality and remedy
+
+Reviews and search can reduce the work of choosing, but the real customer cost appears after purchase if the product is wrong, late, poor quality, or hard to return. NBER finds that eBay shoppers searched about 36 times per purchase and that more search could help find lower prices. FTC guidance shows that return windows, shipping cost, restocking fees, refund rules, records, and payment method shape recovery. The evidence does not yet show that a particular review predicted a particular return. The useful finding is a measurement rule: trust should be checked against what happened after the sale.
+
+[Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
+
+### 41. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -404,7 +414,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 41. A recovery loan can keep a local option open, but it creates another bill
+### 42. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -414,7 +424,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 42. A wider small-business rule can push the smallest firms out
+### 43. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -424,7 +434,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 43. A tariff reaches the household through a chain, not a single price
+### 44. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -434,7 +444,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 44. The same dollar can do different work depending on how it arrives
+### 45. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -444,7 +454,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 45. A car repair can protect access while taking away other room
+### 46. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

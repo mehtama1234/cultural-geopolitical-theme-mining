@@ -1,8 +1,8 @@
 # US source coverage
 
-84 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+85 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 13; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 136; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 16; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 138; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1624,6 +1624,24 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US returns, complaints, and the reality behind reviews
+
+**Project:** `us-review-outcomes-returns`
+
+**Status:** matched evidence pass complete; joined review-to-outcome evidence remains open
+
+**Question:** Do reviews predict what happens after purchase, or do returns and complaints reveal a different customer experience?
+
+**Sources recorded:** 5
+
+- [FTC: How to evaluate online reviews](https://consumer.ftc.gov/articles/how-evaluate-online-reviews)
+- [NBER: Buying Reputation as a Signal of Quality](https://www.nber.org/papers/w22584)
+- [NBER: Returns to Consumer Search](https://www.nber.org/papers/w22302)
+- [FTC: Final rule on fake reviews](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials)
+- [FTC: Online shopping](https://consumer.ftc.gov/articles/online-shopping)
+
+[Open the source-search record](projects/us-review-outcomes-returns/source-search-2026-09-11.md)
 
 ## US rideshare licensing and customer safety
 
