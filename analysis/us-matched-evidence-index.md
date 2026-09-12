@@ -133,3 +133,13 @@ After a natural disaster, a small firm may need cash before customers return or 
 When a US program lets larger firms qualify as “small,” the program may reach more firms while giving less room to the smallest ones. A Census-linked study finds lower revenue and higher exit for the smallest firms after size limits rose, with public contracts shifting toward larger firms.  The finding is not that larger firms are always bad recipients. It is that an eligibility change can quietly change who receives public demand. The next question is whether the shift changes worker pay, customer prices and quality, local choice, and owner households.
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
+
+### 14. A car repair can protect access while taking away other room
+
+**Theme:** Cost / work / time
+**Route:** repair bill → cash timing → access
+**Still open:** same-household work, care, and later-debt effects
+
+A car repair is not just a transport bill. For a household with little cash, it can arrive between paychecks and compete with food, medicine, housing, or another payment. Paying the repair may protect a job or care visit; not paying may reduce access.  The evidence supports the pressure and the value of mobility. It does not yet prove that one repair caused job loss, missed care, or later debt for the same US household. The missing fact is what the household gave up after keeping the car moving—or after losing it.
+
+[Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)

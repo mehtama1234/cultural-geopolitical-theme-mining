@@ -15,3 +15,7 @@ Vehicle repair sits between transportation and household credit. A repair can pr
 ## Decision rule
 
 Move on after one source shows the cash-timing problem, one source shows the value of transport access, and one next dataset can follow the same household. Do not turn a reference to car repair into a claim that repairs cause job loss.
+
+## Matched evidence pass
+
+The first matched check is [A car repair can protect access while taking away other room](../../findings/us-vehicle-repair-household-matched-evidence-001.md), with its [HTML reading page](../../../site/us-vehicle-repair-household-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms the timing and access pressure while leaving same-household work, care, and later-debt effects open.

@@ -19,6 +19,7 @@ routes = {
     "us-medical-debt-relief-matched-evidence-001": ("Cost / health / voice", "illness → bill → debt record → relief", "health, care, and original-bill effects"),
     "us-small-business-support-size-cutoff-matched-evidence-001": ("Work / cost / voice", "eligibility rule → public demand → firm survival", "customer, worker, and owner-household effects"),
     "us-local-business-place-matched-evidence-001": ("Work / place / voice", "local conditions → application → lasting firm", "services, belonging, and political effects"),
+    "us-vehicle-repair-household-matched-evidence-001": ("Cost / work / time", "repair bill → cash timing → access", "same-household work, care, and later-debt effects"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
