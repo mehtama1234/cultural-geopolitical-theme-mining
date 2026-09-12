@@ -20,6 +20,10 @@ Suppose a town’s only hardware store is bought by an owner who lives two state
 
 The opposite case is also possible. A hometown founder may keep the business locally owned but lack capital to replace equipment or survive a weak season. If the firm closes, local ownership did not preserve local service. Ownership can be one condition of staying, but it is not a substitute for demand, credit, workers, or a viable business model.
 
+The change may also arrive in stages. First the owner moves. Then finance, purchasing, or a key decision moves with the owner. Later the store changes hours, the firm stops buying from nearby suppliers, or a local manager loses the power to act. Residents may notice the final service change without knowing which earlier decision caused it. A useful record follows the chain instead of treating the sale or move as the whole event.
+
+The cost of leaving is not the same for every place. A town with another hardware store, a regional employer, and a bank may replace a departing firm. A town with one clinic, one repair shop, or one major employer may not. The same ownership change can therefore be ordinary business mobility in one place and a loss of basic choice in another.
+
 ```text
 capital, skills, housing, and local networks → where an owner can live and start
 → who owns firms and controls services → jobs, prices, profits, and place identity
@@ -45,6 +49,8 @@ The distribution of value matters as much as the count of firms. A business can 
 
 There is a political connection, but it is not yet proven. Residents may become more concerned about local control when a store, employer, bank, or housing owner makes a decision they cannot influence. That concern could lead to support for local procurement, business aid, zoning rules, or ownership programs. The current evidence does not show that an owner’s move caused a political response.
 
+This also creates a measurement problem for public policy. A grant may keep a storefront open while doing little for local wages or decision power. A tax rule may attract an outside firm that brings jobs but later closes when the benefit ends. A local ownership program may keep profits nearby but fail if the firm cannot buy equipment or find workers. The question is not simply whether public money saved a business. It is which local capacity survived and for how long.
+
 ## What remains unproven
 
 The evidence does not show that local ownership was lost, that a mobile owner harmed customers, or that an owner move caused a local service gap. It does not follow firms through survival, prices, wages, profits, taxes, and civic participation. Outcomes may differ by industry, town size, housing cost, and access to credit. It also does not tell us whether the owner’s location matters after we account for the firm’s size, sector, access to finance, and the demand in the place.
@@ -52,6 +58,8 @@ The evidence does not show that local ownership was lost, that a mobile owner ha
 ## Next test
 
 Link owner moves to firm records and local customer outcomes over five years. Compare places where owners leave with similar places where they stay. Track firm survival, jobs, wages, prices, service gaps, hours, housing costs, profits, taxes, local purchasing, and participation. Separate the owner’s birthplace, residence, decision location, profit destination, worker location, and customer location instead of using “local business” as one field.
+
+Add an event timeline for each ownership change: move, sale, new financing, management change, hours, prices, staffing, supplier changes, service loss, and later reopening or closure. Match each place with a similar place that did not have the change, and ask residents which services or decisions became harder to reach. Test public support only after measuring the concrete loss or gain. This would separate attachment to a hometown label from the practical value of local control.
 
 ## Reading rule
 
