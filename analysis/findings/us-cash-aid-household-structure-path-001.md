@@ -18,6 +18,10 @@ The same headline result—fewer expected moves or fewer people in a home—can 
 
 There can also be a hidden exchange inside the home. A person who stays may provide child care, rides, meals, or rent sharing. A person who moves out may gain privacy but lose that daily support. The cash can make separation possible without making every person more secure. The relevant outcome is who gained independence, who lost support, and whether the new costs were manageable.
 
+Control over the payment matters as much as the amount. If one adult receives the money, that person may decide which bill comes first, or may be expected to distribute it across the family. A payment can reduce conflict by creating room, or increase conflict if people disagree about who should benefit. Household income is not the same as equal control over household money.
+
+The housing market sets the limits of the choice. A family may want to leave a crowded home but face a deposit, a credit check, a higher utility bill, or no nearby unit. Another may want to stay together but face a rent increase that absorbs the payment. Cash opens a window; it does not create a home, care provider, or safe neighborhood. The test has to record which option was actually available.
+
 ```text
 regular cash arrives → rent or mortgage arrears fall
 → household can stay, move, separate, or reduce crowding
@@ -47,6 +51,10 @@ The right result is therefore not “cash reduced moves.” It is a more complet
 
 This is also why a housing policy can be judged differently by different family members. The parent may value staying near school; the adult child may value leaving; an older relative may value daily care. A household-level average can hide a real conflict over what “stability” means. The policy should record the person’s choice and the cost carried by each person, not only the final address.
 
+The end date can reshape the household again. A family may move out while the payment is present, then reunite when the subsidy ends. It may keep a relative at home because separation would create two unaffordable rents. A program can therefore change the address count temporarily while leaving the underlying housing shortage untouched. Duration and the cost of returning matter alongside the first move.
+
+This is a political question about what counts as independence. One person may see shared housing as family strength; another may see it as a lack of options. Public reporting that celebrates fewer moves or smaller households can misread the result if it does not ask who wanted the arrangement and who carried its unpaid work.
+
 ## Four views of the same payment
 
 **Receiving household:** What did the cash preserve or make possible—rent, food, care, privacy, a move, or a separate home?
@@ -64,6 +72,8 @@ The evidence does not show whether a changed household arrangement improved care
 ## Next test
 
 Follow families before, during, and one year after regular cash payments. Join payment records, people in the home, housing costs, arrears, utilities, moves, crowding, privacy, work, school, care, debt, and child outcomes. Ask why each person moved, stayed, or shared a home. Record who gained or lost daily support and separate chosen, prevented, and forced moves.
+
+Add a person-level money and care map: who receives the payment, who decides its use, which bill it protects, who provides unpaid help, and what changes when the payment ends. Record the actual homes considered, deposits refused, utility costs, and the distance to work, school, and care. Recontact families after any return move. This would show whether cash created a durable option, a temporary bridge, or a new conflict over control.
 
 ## Reading rule
 
