@@ -812,6 +812,8 @@ Follow rent help into housing continuity and then work and earnings, while askin
 
 Still missing: The assistance studies use different programs and outcomes; they do not show one household's housing and work path together.
 
+[Read the complete connected memo](../site/us-rental-assistance-eviction-prevention-path-001.html)
+
 ### When emergency help protects work time
 
 Follow a short-term housing payment into the ability to keep working, then ask whether later earnings reflect a safer home or another change.
