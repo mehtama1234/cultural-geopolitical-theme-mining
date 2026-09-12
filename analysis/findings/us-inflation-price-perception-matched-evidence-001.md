@@ -2,41 +2,44 @@
 
 ## The argument
 
-When inflation slows, prices are still rising. The rate has changed; the price level has not gone back.
+When inflation slows, prices are still rising. The rate has changed; the price level has not gone back. A household that paid $100 for a basket and now pays $125 does not return to the old position because the next increase is smaller.
 
-That distinction is easy to miss in public conversation and obvious at the checkout counter. A household sees the same products cost more than they did before. If wages did not rise enough, buying power has fallen. If the cheapest option rose faster than the expensive option, trading down offers less relief. If rent, debt, and transport already take most of the budget, the family cannot simply buy a different basket.
+The lived issue is repeated adjustment. The family buys a smaller package, changes stores, uses savings, delays a bill, or gives up care. If the cheapest option rose faster than the expensive one, trading down offers less relief. The price story is therefore about the basket, the wage, and the choices left after the first cut.
 
-This is why a lower inflation rate can coexist with a continuing sense of loss. The loss is not only the latest increase. It is the new price carried into every later purchase.
+## Follow the basket, not the headline
 
-## Follow the basket, not the headline rate
+A household used to buy a budget brand, cook at home, and save a small amount each month. The budget brand rises sharply. The family buys less, switches stores, or uses credit. The next month starts from the higher price, so a smaller increase does not restore the old room.
 
-Imagine a household that used to buy a budget brand, cook at home, and save a small amount each month. The budget brand rises sharply. The family buys a smaller package, switches stores, skips a purchase, or uses savings. The next month starts from the higher price, so even a smaller increase does not restore the old room.
+A national inflation rate cannot show which product disappeared, whether the substitute was worse, or what payment was delayed to make room.
 
-The household's experience is made of repeated choices. A national inflation rate does not show which product disappeared, whether the substitute was worse, or what payment was delayed to make room.
+```text
+price level rises → repeated household adjustment → less buying power or substitution
+→ food, housing, debt, care, and trust change → public blame or political response
+```
 
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
 |---|---|---|
 | Price level | A slower inflation rate still leaves prices higher than before. | “Cooling” is not a price reversal. |
-| Buying power | NBER survey evidence says people mainly dislike inflation when they think wages are not keeping up with prices. | The felt problem is the gap between pay and repeated prices. |
-| Cheap options | HBS reports the cheapest food products in its study rose 30% from January 2020 to May 2024, versus 22% for the most expensive foods. | Trading down may not protect the budget as it once did. |
-| Customer judgment | HBS research links price increases to fairness, value, and demand. | The checkout experience can change what a customer thinks is worth buying. |
-| Public response | Economic experience can shape views of firms and government. | The same-person path to a vote remains unproven. |
+| Buying power | NBER finds people mainly dislike inflation when they think wages are not keeping up with prices. | The felt problem is the pay–price gap. |
+| Cheap options | HBS reports the cheapest food products in its study rose 30% from January 2020 to May 2024, versus 22% for the most expensive foods. | Trading down may not protect the budget as before. |
+| Customer judgment | HBS research links price increases to fairness, value, and demand. | A higher price changes what a customer thinks is worth buying. |
+| Missing political link | The sources do not follow one family's basket to trust, blame, and voting. | Economic pressure is not yet a vote explanation. |
 
-Sources: [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300), [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey), and [HBS: Psychological Pricing Tactics](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues).
+Sources: [NBER Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300), [HBS Cheapflation](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey), and [HBS psychological pricing](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues).
 
-## The useful distinction
+## The deeper finding
 
-There are three different claims: prices rose, wages kept up or did not, and households changed what they bought. They should not be collapsed into “inflation hurts.”
-
-The price level can remain high while the rate slows. A household can report less buying power even when its nominal wage rose. A cheaper substitute can remain available but lose the quality or quantity that made it useful. These are different parts of the same lived price problem.
+There are three separate claims: prices rose, wages kept up or did not, and households changed what they bought. They should not be collapsed into “inflation hurts.” A family can report less buying power even when its nominal wage rose, because rent, debt, or a fixed care need leaves no easy substitute.
 
 ## What remains unproven
 
-The sources support the link from price and pay to buying-power pressure and the possibility of changed customer judgment. They do not follow one family from its exact basket to savings, debt, trust, and voting.
+The sources do not follow one family from its exact basket to savings, debt, quality, stress, trust, and voting. They also do not show whether a cheaper substitute remained equally useful or safe.
 
-The next test is a household panel linking income, location, rent, debt, purchases, package size, quality, and repeated economic views. It should show what people stopped buying and what they gave up elsewhere.
+## Next test
+
+Build a household panel linking income, location, rent, debt, purchases, package size, quality, substitution, and repeated economic views. Record what people stopped buying and what they gave up elsewhere.
 
 ## Reading rule
 

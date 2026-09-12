@@ -130,7 +130,7 @@ AI can help a service worker answer faster and with a warmer tone. The evidence 
 **Route:** local prices + pay → buying power → blame → vote or turnout
 **Still open:** individual burden, policy knowledge, and cause
 
-“Inflation hurt the party in power” is too blunt. A local price rise and a loss of buying power are not the same thing.  Prices can rise in two counties at the same rate. In one, pay rises faster. In the other, pay falls behind while rent, food, transport, and debt take more of the budget. The second household has less left after ordinary life, even though the headline inflation rate looks similar.  That is the political route worth testing. The voter may not respond to the rate itself. The voter may respond to what remains after local prices meet local pay. But a county vote is not a household diary, and a household's economic pain is not automatically the reason it voted.
+“Inflation hurt the party in power” is too blunt. A local price rise and a loss of buying power are not the same thing. Two counties can have the same inflation rate while pay rises in one and falls behind in the other.  The second county's households have less left after rent, food, transport, debt, and care. That makes lost real pay a better starting point for political research than the inflation rate alone. It still does not prove why an individual voted. Party identity, local industry, news, immigration, social issues, and trust may matter at the same time.
 
 [Read the HTML page](../site/us-economic-voting-real-wages-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-economic-voting-real-wages-matched-evidence-001.md)
 
@@ -250,7 +250,7 @@ The official data show why a broad inflation number cannot stand in for househol
 **Route:** price and wage change → buying power → trust pressure
 **Still open:** same-household basket, substitution, and vote
 
-When inflation slows, prices are still rising. The rate has changed; the price level has not gone back.  That distinction is easy to miss in public conversation and obvious at the checkout counter. A household sees the same products cost more than they did before. If wages did not rise enough, buying power has fallen. If the cheapest option rose faster than the expensive option, trading down offers less relief. If rent, debt, and transport already take most of the budget, the family cannot simply buy a different basket.  This is why a lower inflation rate can coexist with a continuing sense of loss. The loss is not only the latest increase. It is the new price carried into every later purchase.
+When inflation slows, prices are still rising. The rate has changed; the price level has not gone back. A household that paid $100 for a basket and now pays $125 does not return to the old position because the next increase is smaller.  The lived issue is repeated adjustment. The family buys a smaller package, changes stores, uses savings, delays a bill, or gives up care. If the cheapest option rose faster than the expensive one, trading down offers less relief. The price story is therefore about the basket, the wage, and the choices left after the first cut.
 
 [Read the HTML page](../site/us-inflation-price-perception-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-inflation-price-perception-matched-evidence-001.md)
 
@@ -270,7 +270,7 @@ The US has become less tied to the hometown entrepreneur. HBS reports that the l
 **Route:** place → local prices → real buying power
 **Still open:** the same household's move and well-being result
 
-A national income number can hide a local customer reality. Prices differ across the United States, especially for housing, and the gap is wider for low-income households. NBER finds that expensive places offer less real consumption to less-educated households, while the same link is much weaker for college graduates.  This does not make every low-cost place better. A place also offers jobs, services, safety, family ties, and ways to move. The careful finding is that the same paycheck does not carry the same buying power everywhere.
+A national income number can hide a local customer reality. The same paycheck buys less housing, food, transport, or care in one place than another. The difference matters most when a household cannot easily move, switch providers, work remotely, or trade down to a cheaper product.  A place is not simply cheap or expensive. It also offers jobs, services, safety, family ties, and ways to get around. The careful finding is narrower: local prices change real buying power, and the burden is not evenly spread. A low-income family has fewer ways to escape a high price than a high-income family.
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
