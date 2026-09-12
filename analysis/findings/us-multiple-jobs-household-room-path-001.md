@@ -8,6 +8,8 @@ Gross income misses the account that matters: money after travel, fuel, work equ
 
 The deeper finding is that multiple jobs can buy control and sell security at the same time. A worker may prefer several jobs because one employer is unreliable or because the schedule fits family life. Another may be assembling shifts because no single job provides enough hours or benefits. Counting jobs without asking why they were added confuses choice with constraint.
 
+The usable pay is what remains after the work system has been paid for. A delivery shift that brings in $150 may require fuel, parking, vehicle wear, unpaid waiting, and child care. It may still be worth doing if the worker needs $80 by Friday or values being able to choose the hours. But the gross number cannot tell us whether the shift created room or only stopped a bill from failing.
+
 ## Follow the second job
 
 A worker adds evening delivery shifts to a daytime job. Gross pay rises. So do fuel, car wear, waiting time, taxes, and exhaustion. The extra cash pays a bill, but the worker saves less and has less time for health, training, or children. If the daytime job cuts hours, the second job becomes necessary rather than optional.
@@ -21,6 +23,8 @@ one job is unavailable, unsuitable, or not flexible enough → several jobs or g
 → split schedule, travel, and uncertain income → spending, saving, care, and health change
 → short-run control versus long-run security
 ```
+
+The schedule can also change the household’s ability to recover. A worker who sleeps less may keep both jobs this month but miss training, a medical visit, or a shift later. A worker who turns down a shift may protect health but lose the money needed for rent. These are not just labor-market outcomes; they are choices made under a limited clock.
 
 ## What the sources actually establish
 
@@ -43,13 +47,15 @@ This is the bridge from work to company and public power. Employers can shift sc
 
 The political meaning is still open. Workers may want more predictable hours, portable benefits, better transit, or a higher wage. But the same person may value the freedom of choosing a shift and resist a rule that removes it. The useful finding is the tension between control now and security later, not a claim that all multiple-job workers want the same policy.
 
+The same spending gap can also reflect a strategy. A worker may buy in bulk, use a cheaper store, or postpone a purchase because the second job is temporary. Another may buy less because there is no time to shop or cook. Without time use and food or health outcomes, the spending result cannot tell us which story is true.
+
 ## What remains unproven
 
-The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether lower spending reflected a deliberate choice, less time, or hardship. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability, or how long the arrangement could last.
+The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether lower spending reflected a deliberate choice, less time, or hardship. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability, or how long the arrangement could last. They also do not show the net pay after vehicle, care, tax, and unpaid waiting costs.
 
 ## Next test
 
-Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Record idle time, vehicle cost, taxes, and the reason the job was added. Ask whether the second job added choice or replaced security, and whether the worker still had more room after all costs were paid.
+Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Record idle time, vehicle cost, taxes, and the reason the job was added. Ask whether the second job added choice or replaced security, and whether the worker still had more room after all costs were paid. Include time spent shopping, cooking, sleeping, and caring so lower spending is not mistaken for lower need.
 
 ## Reading rule
 
