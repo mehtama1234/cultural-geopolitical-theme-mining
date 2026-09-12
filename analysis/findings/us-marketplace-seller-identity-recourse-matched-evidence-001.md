@@ -1,18 +1,19 @@
-# A seller name is only useful if it helps the customer recover
+# When a seller name is useful only if it helps the customer recover
 
 ## The argument
 
-Knowing who sold a product is not the same as having a remedy.
+Knowing who sold a product is not the same as having a remedy. The INFORM Consumers Act requires marketplaces to collect, verify, and disclose information about many high-volume sellers. That can make a seller less anonymous and give a customer a place to start a complaint.
 
-The INFORM Consumers Act requires marketplaces to collect, verify, and disclose information about many high-volume sellers. That can make a seller less anonymous and give a customer a place to start a complaint. But a name, address, and phone number do not automatically produce a refund, replacement, safe product, or appeal.
-
-The real test begins after purchase. The customer must identify the problem, contact the seller or platform, meet a return deadline, pay or wait for shipping, and sometimes dispute the payment. If the seller does not respond, identity may only tell the customer who failed to answer.
+But a name, address, and phone number do not automatically produce a refund, replacement, safe product, or appeal. After a purchase goes wrong, the customer may still need to identify the problem, preserve records, meet a return deadline, pay shipping, dispute a charge, and move between seller, platform, and payment provider. Transparency can help while also shifting investigation work to the buyer.
 
 ## Follow the remedy, not the listing
 
-Imagine a customer buying a product from a marketplace seller. The listing shows the seller's identity. The product arrives damaged or unsafe. The customer contacts the seller, reports the listing, and asks the platform for help. The customer may still face return shipping, a restocking charge, a delayed refund, or a dispute that moves between seller, platform, and payment provider.
+A customer buys a product from a marketplace seller. The listing shows seller information. The product arrives damaged or unsafe. The customer contacts the seller, reports the listing, and asks the platform for help. The seller does not answer. The platform suspends the account but the refund is delayed. Identity created a starting point; it did not yet create recovery.
 
-The disclosure changed what the customer could see before purchase. It did not yet show whether the customer could recover after the problem.
+```text
+seller disclosure → purchase → defect, deception, or delivery failure → report and proof
+→ seller or platform decision → return, refund, replacement, appeal, or loss
+```
 
 ## What the sources actually establish
 
@@ -20,23 +21,25 @@ The disclosure changed what the customer could see before purchase. It did not y
 |---|---|---|
 | Identity | FTC says marketplaces must collect and verify information for covered high-volume sellers. | The platform has a record behind the listing. |
 | Disclosure | Covered sellers must show name, address, and contact information in defined cases. | The customer may have a contact path. |
-| Warning | Marketplaces must provide a way to report suspicious conduct and can suspend non-compliant sellers. | A report can trigger platform action. |
-| Recovery | FTC tells shoppers to check return windows, shipping, restocking fees, records, and payment protections. | Remedy depends on terms and customer effort. |
-| Trust | Seller identity and reviews shape choices before purchase. | Pre-purchase visibility is not post-purchase recovery. |
+| Reporting | Marketplaces must provide a way to report suspicious conduct and can suspend non-compliant sellers. | A report can trigger platform action. |
+| Customer work | FTC tells shoppers to check return windows, shipping, restocking fees, records, and payment protections. | Recovery depends on terms and customer effort. |
+| Limits | Guidance does not show that seller disclosure shortens recovery time, increases refunds, reduces unsafe products, or improves trust. | Pre-purchase visibility is not post-purchase protection. |
 
 Sources: [FTC INFORM Consumers Act guidance](https://www.ftc.gov/business-guidance/resources/INFORMAct), [FTC online-shopping guidance](https://consumer.ftc.gov/articles/online-shopping), and [FTC review guidance](https://consumer.ftc.gov/articles/how-evaluate-online-reviews).
 
-## The useful distinction
+## The deeper finding
 
-Keep identity, warning, responsibility, and remedy separate. A platform can know the seller and still leave the customer to prove the loss. A platform can suspend a seller and still fail to return the money. A return policy can exist and still be too costly or slow for a household to use.
+Seller identity, warning, responsibility, and remedy are separate controls. A platform can know the seller and still leave the buyer to prove the loss. It can suspend a seller and still fail to return the money. The customer becomes investigator, record keeper, return shipper, and payment disputant.
 
-Transparency can therefore shift work to the buyer. The buyer becomes the investigator, record keeper, return shipper, and payment disputant. That is not necessarily avoidable, but it is a real part of the product's cost.
+That work is part of the product's real cost. A safer marketplace would be judged by the path from a known seller to a completed remedy, not by the number of names collected.
 
 ## What remains unproven
 
-The law strengthens seller identification and reporting. FTC guidance describes customer choices. The sources do not show whether disclosure shortens recovery time, improves refund rates, reduces unsafe products, or changes platform trust.
+The law strengthens seller identification and reporting, but the sources do not show whether disclosure changes refund rates, recovery time, unsafe listings, or platform trust. They do not follow the same purchase from seller disclosure through complaint, return, refund, and final outcome.
 
-The next test is to link seller disclosure to the same purchase, complaint, return, report, refund, response time, and final remedy. Compare covered and smaller sellers.
+## Next test
+
+Link seller disclosure to the purchase, complaint, return, report, response time, refund, and final remedy. Compare covered and smaller sellers. Record whether the platform, seller, or payment provider carried each step and who absorbed the loss when the case failed.
 
 ## Reading rule
 

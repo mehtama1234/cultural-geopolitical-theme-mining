@@ -2,40 +2,44 @@
 
 ## The argument
 
-A fast reply is useful only if it moves the customer toward a solved problem. A service tool can help an employee answer sooner and sound more helpful, while the customer still cannot reverse a charge, correct a record, receive a refund, or reach someone with authority.
+A fast reply is useful only if it moves a customer toward a solved problem. A service tool can help an employee answer sooner and sound more helpful while the customer still cannot reverse a charge, correct a record, receive a refund, or reach someone who can change the decision.
 
-Picture a customer whose first delivery failed. A suggested reply may settle the first message. A repeat complaint is different: the case now needs a record, an exception, a refund, or a decision changed. That is where speed can stop being the main measure. The customer needs a route to authority, not only a warmer sentence.
+The first contact and the repeat case are different jobs. A delivery that arrived late may need a quick explanation. A repeat complaint may need an exception, a preserved record, a payment reversal, or an appeal. A human handoff without authority only changes the voice on the other end. The customer needs a route to a decision that can be changed when it is wrong.
 
-The evidence supports a benefit for some first contacts and a weaker result for repeat complaints. It does not show that automated service always removes access to people. The key question is who can change the answer and how the customer reaches them.
+## Follow one case to its end
 
-## What the sources establish
+A meal delivery fails. An AI suggestion helps an agent answer quickly. The customer writes again because the charge remains, the refund is missing, or the same failure happens a second time. The case moves from speed to ownership: who has the account history, who can authorize the remedy, and how does the customer know the case is actually closed?
 
-HBS reports a randomized field experiment with 138 agents and 256,934 online chats at a meal-delivery company. Agents using AI suggestions responded 22% faster, and measured customer sentiment rose by 0.45 points on a five-point scale. The gain was larger for less-experienced agents: response time fell 70% and sentiment rose 1.63 points.
+```text
+automated prompt or routing → faster first response → repeat complaint, exception, denial, or record request
+→ human access and authority → resolution, repeat contact, complaint, loss, or exit
+```
 
-The same account reports smaller improvement for repeat complaints and confusion when a chatbot transferred customers to a human so quickly that customers were unsure who was responding. That is a boundary, not proof of failure. It shows that first-contact speed and repeat-case resolution are different outcomes.
+## What the sources actually establish
 
-The CFPB’s 2025 Consumer Response Annual Report records complaints across financial products. A complaint proves that a consumer sought help. It does not, by itself, show whether the firm fixed the problem, explained the decision, or offered a usable appeal.
+| Step | Evidence | Meaning |
+|---|---|---|
+| First contact | HBS reports a randomized field experiment with 138 agents and 256,934 online chats at a meal-delivery company. | The study tests service work in a large live setting. |
+| Speed | Agents using AI suggestions responded 22% faster. | Suggestions can improve the first response measure. |
+| Customer feeling | Measured customer sentiment rose by 0.45 points on a five-point scale. | A faster, assisted response can feel better to customers. |
+| Uneven gain | Less-experienced agents saw a 70% response-time reduction and a 1.63-point sentiment rise. | Tools may matter more where staff have less experience. |
+| Boundary | The account reports smaller improvement for repeat complaints and confusion when a chatbot transferred customers to a human so quickly that customers were unsure who was responding. | Speed and clear ownership are not the same outcome. |
+| Complaint record | The CFPB Consumer Response report records complaints across financial products. | A complaint shows that help was sought, not that a remedy was delivered. |
 
 Sources: [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human) and [CFPB Consumer Response report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/).
 
-## Follow the case, not just the first reply
+## The deeper finding
 
-automated prompt or routing → faster first response → repeat complaint, exception, denial, or record request → human access and authority → resolution, repeat contact, complaint, loss, or exit
+Customer service has two scarce resources: time and authority. Automation can save the first while leaving the second in short supply. A customer may feel heard and still leave with the same charge, denial, or unsafe product. The fair test is therefore not whether a person answered or whether the tone improved. It is whether the customer could get the record corrected and the answer changed when needed.
 
-The first step is measured. The authority and remedy steps remain open. A human handoff without authority is only a change in voice. A customer can feel heard and still leave with the same charge or denial.
+## What remains unproven
 
-## What must stay separate
-
-- Response speed and time to resolution.
-- A polite explanation and a changed decision.
-- Human contact and human authority.
-- A complaint count and a successful remedy.
-- A first contact and a repeat case.
+The evidence does not show whether AI assistance shortens time to final resolution, increases refunds, reduces repeat contact, or changes outcomes for customers with disabilities, limited English, low digital access, or complex cases. A complaint count cannot tell us whether the firm fixed the underlying problem.
 
 ## Next test
 
-Choose one public complaint system and link first contact, repeat contact, transfer, decision, remedy, and appeal. Report results by complaint type, service channel, age, disability, language, income, and digital access. The central measure is not “Did a person answer?” but “Could the customer get the answer changed when it was wrong?”
+Choose one complaint system and link first contact, repeat contact, transfer, record access, decision, remedy, appeal, and closure. Report time to resolution and successful remedy by complaint type, channel, age, disability, language, income, and digital access. Measure authority, not just human contact.
 
 ## Reading rule
 
-A quick reply is not a solved problem. A human transfer is not the same as human authority. Ask who can change the answer.
+A quick reply is not a solved problem. A human transfer is not the same as human authority.
