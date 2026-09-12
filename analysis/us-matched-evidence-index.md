@@ -54,7 +54,17 @@ Home insurance is becoming a housing cost in places with higher disaster risk, a
 
 [Read the HTML page](../site/us-home-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-home-insurance-matched-evidence-001.md)
 
-### 6. Payment choice is a distribution question, but not yet a household welfare result
+### 6. A yearly income can hide an unsafe month
+
+**Theme:** Work / cost
+**Route:** unstable pay → cash buffer → spending room
+**Still open:** the same worker's later household choices
+
+Two workers can earn the same amount over a year and still have very different lives if one cannot predict next month's pay. Low liquid wealth makes temporary income shocks more visible in spending, and temporary workers can face both greater income risk and less access to credit.  The careful finding is that income level and income safety are different. The evidence does not yet show the same worker's full path from unstable pay to a particular missed bill, health choice, or family decision.
+
+[Read the HTML page](../site/us-income-volatility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-income-volatility-matched-evidence-001.md)
+
+### 7. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money

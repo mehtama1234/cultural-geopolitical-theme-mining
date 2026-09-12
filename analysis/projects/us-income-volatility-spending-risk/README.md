@@ -15,3 +15,7 @@ Two workers can earn the same amount over a year and still have different lives 
 ## Decision rule
 
 Move on after one source observes income risk and spending change, one source measures credit or housing access, and one next dataset can follow the same worker after a job change. Do not treat a high annual income as proof of financial room.
+
+## Matched evidence pass
+
+The first matched check is [A yearly income can hide an unsafe month](../../findings/us-income-volatility-matched-evidence-001.md), with its [HTML reading page](../../../site/us-income-volatility-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms that pay timing, liquid wealth, credit access, and spending can differ even at similar annual income.
