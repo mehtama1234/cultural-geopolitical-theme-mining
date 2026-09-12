@@ -31,6 +31,19 @@ The newer pages make the map more concrete:
 
 These are not six versions of one theory. They are six places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
 
+The newer pages also show that these are not separate lanes. They form a few repeatable chains:
+
+| Starting point | What changes next | Where the cost can end up |
+|---|---|---|
+| Unstable pay or childcare | A missed bill, extra shift, unpaid care, or expensive credit | Health, debt, family time, and the next job |
+| Utility or energy shock | A payment plan, unsafe temperature, repair, shutoff, or move | Food, medicine, work, housing, and future service access |
+| Product failure | Repair, replacement, debt, storage, or disposal | Cash reserves, useful time, waste, and local repair work |
+| Thin credit or old utility debt | Deposit, denial, higher price, or delayed service | The next home, account, commute, and ability to recover |
+| Renter or owner housing cost | Insurance, rent, energy, repairs, and transport compete | Remaining cash, safety, coverage, and ability to stay |
+| Consumer or worker rule | Search, appeal, switching, or unpaid effort | Trust, firm power, local choice, and public pressure |
+
+The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
+
 ## The five themes
 
 ### 1. What families give up to pay the bills
@@ -73,6 +86,8 @@ The useful measure is the home condition, the bill, the household's ability to c
 
 Related reading: [When the tap becomes part of the health and housing story](site/us-safe-drinking-water-path-001.html) and [The cost of staying in a home is a stack of bills and risks](site/us-home-cost-stack-001.html).
 
+The new energy pages sharpen this theme: a bill credit buys time, a repair restores equipment, and weatherization changes the home. They are not interchangeable. The right intervention depends on whether the failure is cash, equipment, building control, or an unsafe condition today.
+
 ## How the themes connect
 
 ```text
@@ -87,6 +102,8 @@ The strongest recurring bridge is from money to choice. The next bridge is from 
 
 The weakest bridge is from private experience to political action. Several packets measure sentiment, trust, blame, or election results, but few follow the same person from the bill or service failure to the public response.
 
+The new findings also sharpen a second weak bridge: firm or public success versus household success. A firm can remain open while the owner’s family works without pay. A utility can restore service while the balance grows. A platform can answer faster while the customer never gets a remedy. A landlord can receive a guarantee payment while the renter acquires debt. The first status is real, but it is not the final household result.
+
 ## What the map supports now
 
 - Some public rules and firm choices change a measurable household action: spending, sharing, work contact, credit access, or sentiment.
@@ -94,6 +111,7 @@ The weakest bridge is from private experience to political action. Several packe
 - Timing matters. A tariff, benefit, repair, payment, or rate can arrive before the household has time to adjust.
 - The gap between a firm measure and a household measure is often the important part: output is not control, use is not satisfaction, and a balance is not security.
 - The map is strongest when it follows a person, product, dollar, or decision through time.
+- A product or policy can preserve access while moving risk to a different person, account, or future date.
 
 ## What remains unproven
 
@@ -102,6 +120,7 @@ The weakest bridge is from private experience to political action. Several packe
 - That a household action changes trust, turnout, or a vote.
 - That a firm or policy caused the full later outcome rather than one step in it.
 - That an average effect applies equally by income, race, age, gender, disability, family, or place.
+- That the readable web pages and the underlying research records stay synchronized as the findings deepen.
 
 ## The next research move
 
@@ -114,6 +133,8 @@ Choose a small number of bridges where the opening evidence is strongest and joi
 5. public aid or rule → take-up, daily use, sentiment, and political response.
 
 For each bridge, find a serious counterexample. Then write only the part the records can carry.
+
+The first integrated study should use one household calendar rather than another broad average. Follow a household for twelve months and record pay, rent, utilities, insurance, transport, care, food, medical needs, credit, family help, service contacts, major purchases, and political views. For every disruption, record the date, the choice made, what it protected, what it displaced, who controlled the remedy, and whether the next month started weaker. Link only the measures that can be joined lawfully and ethically, and label all remaining links as unknown.
 
 ## Reading rule
 
