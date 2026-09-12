@@ -4,35 +4,44 @@
 
 A job can carry more than wages. It can carry the health plan a worker needs for a child, partner, or ongoing treatment. That can make a job change costly even when another job pays more or fits better.
 
-Staying is not automatically a loss. The real question is what the worker keeps, what the worker gives up, and whether the family has another safe way to stay covered. A job may be a poor fit and still be the least risky insurance plan.
+Staying is not automatically a loss. A worker may value the plan, the doctor network, the deductible, or the certainty of keeping treatment in place. Another worker may stay because a coverage gap would be dangerous and there is no affordable alternative. The same observed behavior—remaining in the job—can be a sensible choice, a delayed opportunity, or a form of job lock.
 
-## What the sources establish
+The deeper finding is that coverage changes the risk of moving. It can make a better job, a training program, a move, or a business start harder to try because the family is not only comparing pay. It is comparing the full cost of losing a network, starting a deductible, changing treatment, or leaving a dependent uncovered.
 
-An NBER study uses an Affordable Care Act eligibility change and employer insurance claims. It finds that longer dependent coverage increased dependent take-up and parental job retention. The person making the work choice and the person needing coverage may be different family members.
+## Follow one job decision
 
-An NBER study of a large Tennessee Medicaid disenrollment in 2005 finds increased job search and employment, especially among people seeking employer coverage. An early NBER study found lower voluntary turnover among workers with high medical expenses when employer coverage was available. The older and state-specific settings limit how far those results travel.
+A parent has a job with modest pay and a plan that covers a child’s ongoing treatment. A new employer offers higher wages but a narrow network and a waiting period. The parent stays, negotiates, delays the move, or accepts the risk. If the child is the person needing care, the parent’s work choice is partly a family coverage choice.
 
-Together, the studies support coverage as one reason people stay or seek a job. They do not compare the full job, coverage, pay, care, and health choice for the same worker.
+Staying may protect health and cash today while limiting pay growth tomorrow. Leaving may raise income while creating a treatment gap or a large first bill. A wage comparison alone cannot show which offer is better.
+
+```text
+job provides health coverage → worker values keeping the plan or covering dependents
+→ job change, training, move, or business start becomes harder
+→ pay, work fit, family care, and health risk change
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
+|---|---|---|
+| Dependent coverage | An NBER study uses an Affordable Care Act eligibility change and employer insurance claims; longer dependent coverage increased dependent take-up and parental job retention. | The person making the work choice and the person needing coverage may differ. |
+| Public coverage | An NBER study of a large Tennessee Medicaid disenrollment in 2005 finds increased job search and employment, especially among people seeking employer coverage. | Losing coverage can change job search and employment behavior. |
+| Employer plan | An early NBER study found lower voluntary turnover among workers with high medical expenses when employer coverage was available. | Coverage can have value beyond wages. |
+| Limits | The settings are older, state-specific, or tied to particular eligibility changes. | They support a mechanism, not a current result for every worker. |
 
 Sources: [NBER dependent coverage](https://www.nber.org/papers/w30200), [NBER Tennessee Medicaid](https://www.nber.org/papers/w19220), and [NBER job lock](https://www.nber.org/papers/w4476).
 
-## Follow the coverage choice
+## The deeper finding
 
-job provides health coverage → worker values keeping the plan or covering dependents → job change, training, move, or business start becomes harder → pay, work fit, family care, and health risk change
+Health coverage is an option value. It preserves the ability to keep treatment while changing work, but that option may be tied to one employer. The worker can appear employed and stable while losing bargaining power, pay growth, or the chance to try a different path.
 
-The plan’s value depends on premiums, deductible, network, treatment, dependents, and the risk of a gap. A higher wage may not be a better offer if it removes a needed doctor or creates a large first bill.
+## What remains unproven
 
-## What must stay separate
-
-- Staying and being trapped.
-- Wage and total job value.
-- Coverage and actual care received.
-- Employer plan and portable coverage.
-- Job change delayed and job change prevented.
+The studies do not compare the full job, coverage, pay, care, and health choice for the same worker today. They do not show whether a worker wanted to leave, whether portable coverage would change the decision, or whether staying caused lower long-term earnings. Coverage kept is not the same as care received.
 
 ## Next test
 
-Follow workers during open enrollment or a coverage-eligibility change. Compare the plan kept, jobs sought or refused, pay, hours, treatment continuity, medical debt, and family well-being for two years.
+Follow workers during open enrollment or a coverage-eligibility change for two years. Record premiums, deductible, network, treatment continuity, dependents, jobs sought or refused, pay, hours, moves, training, medical debt, and family well-being. Compare workers with similar health needs but different coverage options.
 
 ## Reading rule
 
