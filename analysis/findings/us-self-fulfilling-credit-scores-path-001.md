@@ -4,13 +4,17 @@
 
 A credit score can become more than a record of past trouble. For some people who already have marks on their record, a small score change can raise the chance of a later default even when no new fact was added to the report.
 
-The careful finding is not that every score is unfair. It is that a score rule can add a new cost, and that cost may help produce the bad result it was meant to predict.
+The careful finding is not that every score is unfair. It is that a score rule can add a new cost, and that cost may help produce the bad result it was meant to predict. The score may begin as a signal about repayment, then become a price or access decision, and then change the borrower’s ability to repay.
 
 ## What the source shows
 
 An NBER study uses a rule that treats several credit inquiries within 14 days as one. Under that rule, an extra counted inquiry lowers a score by about five points without changing the rest of the credit report. For people with clean records, default did not change. For people with prior derogatory marks, default rose by 3.2 percentage points over two years. At least 13% of the score-default link for that group appears to be self-fulfilling.
 
-The study does not show which lender changed its decision, or whether the later result affected rent, a mortgage, insurance, work, or recovery.
+The important detail is the comparison. The extra inquiry is not a new missed payment, job loss, or medical bill. It is a change in how an event is counted. The later default difference therefore raises a sharper question than “do scores predict default?” They do. The question is whether the score movement changed the terms offered to the borrower, and whether those terms helped produce the default.
+
+Imagine two people with the same income and the same report. One crosses a lender’s approval line; the other falls five points below it after the inquiry is counted differently. If the second person receives a smaller limit or higher rate, they may have less room when rent or a repair comes due. The later missed payment can then be both a sign of strain and a result of the earlier decision.
+
+The study does not show which lender changed its decision, or whether the later result affected rent, a mortgage, insurance, work, or recovery. It identifies a change in later default around a score rule; it does not by itself identify the exact contract, price, or lender action that carried the effect.
 
 - [NBER Working Paper 35508: Self-Fulfilling Credit Scores](https://www.nber.org/papers/w35508)
 
@@ -19,23 +23,24 @@ The study does not show which lender changed its decision, or whether the later 
 ```text
 credit inquiry or score rule
   -> score changes without a new household fact
-  -> lender changes price, limit, or access
-  -> payment pressure or lost credit
-  -> default and a harder next application
-  -> housing and other household choices narrow
+  -> lender changes approval, price, limit, or timing
+  -> borrower has less room or pays more
+  -> payment trouble or default becomes more likely
+  -> new score damage narrows the next choice
+  -> housing, work, and household plans adjust
 ```
 
-The opening source supports the score-to-default link for a defined higher-risk group. It does not establish every step in the wider household path.
+The opening source supports the score-to-default link for a defined higher-risk group. It does not establish every step in the wider household path. We should not turn the result into a claim that every score movement harms every borrower.
 
 ## The four outside views
 
-**Household:** A five-point change may matter when a person is close to an approval line. A higher rate or smaller limit can force a choice between the bill, food, rent, and another loan.
+**Household:** A five-point change may matter when a person is close to an approval line. A higher rate or smaller limit can force a choice between the bill, food, rent, and another loan. The same score change may do nothing to a borrower with cash savings or a strong alternative.
 
-**Company and sector:** Lenders use scores to sort risk and set terms. A lender may ignore a small movement, or it may turn that movement into a higher price or a denial. The missing fact is the actual decision.
+**Company and sector:** Lenders use scores to sort risk and set terms. A lender may ignore a small movement, or it may turn that movement into a higher price or a denial. The missing fact is the actual decision. No feedback loop can be claimed until the score movement is tied to a changed offer or approval.
 
-**Money and finance:** The key measure is the chain after the score: approval, rate, limit, payment, default, recovery, and later access. A score alone cannot show the cost of credit.
+**Money and finance:** The key measure is the chain after the score: approval, rate, limit, payment, default, recovery, and later access. A score alone cannot show the cost of credit. A higher rate can matter even when the borrower is approved, while a denial can push the borrower toward a costlier source.
 
-**Public power:** Rules for credit reporting, scoring, notice, correction, and fair access shape whether a paper signal can follow a person through the economy. A better rule must preserve useful risk sorting while limiting feedback that creates new trouble.
+**Public power:** Rules for credit reporting, scoring, notice, correction, and fair access shape whether a paper signal can follow a person through the economy. A better rule must preserve useful risk sorting while limiting feedback that creates new trouble. The policy choice is not score versus no score; it is which information may change a decision and whether the decision can create the risk it predicts.
 
 ## What would change the finding
 
@@ -49,6 +54,8 @@ The opening source supports the score-to-default link for a defined higher-risk 
 
 Follow borrowers from a score change through 24 months. Join the credit report to lender terms, payment records, housing applications, insurance prices, work needs, and score recovery. Mark the point where a record changed a decision, rather than treating the later default as the first outcome.
 
+Use a matched design around score thresholds. Compare borrowers just above and below the same approval line, then separate people with clean records from people with prior derogatory marks. Report what changed in the score, what changed in the offer, what changed in the monthly payment or available credit, and what happened later. Test whether a rule that ignores harmless inquiry timing changes access without reducing lenders’ ability to identify genuine risk.
+
 ## Reading rule
 
-Keep the score movement, lender choice, payment trouble, default, and housing loss separate. A score can help predict risk and still make that risk harder to escape for a defined group.
+Keep the score movement, lender choice, payment trouble, default, recovery, and housing result separate. A score can help predict risk and still make that risk harder to escape for a defined group.
