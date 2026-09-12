@@ -36,6 +36,8 @@ The second bridge synthesis is now recorded in [service and platform rules to re
 
 The third bridge synthesis is now recorded in [work rules and tools to control, household security, and local power](bridges/us-work-control-household-power-v1.md). It separates output, worker control, usable security, and political voice.
 
+The fourth bridge synthesis is now recorded in [housing, energy, and insurance to health, mobility, and place](bridges/us-housing-energy-insurance-place-v1.md). It separates affordability, protection, home condition, mobility, and recovery.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
