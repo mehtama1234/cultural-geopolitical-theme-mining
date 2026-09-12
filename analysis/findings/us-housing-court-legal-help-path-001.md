@@ -20,6 +20,10 @@ The landlord’s position matters too. A legal system that reduces a bad case pr
 
 The court result is therefore one link in a larger household path.
 
+The lawyer changes the balance of time as well as law. A tenant may need to find records, answer a notice, appear at a hearing, and negotiate while working or caring for children. Counsel can translate the process and create time for a response, but a court date can still force an unpaid absence. The legal remedy is usable only if the tenant can reach it before the deadline and remain able to pay the household's other bills.
+
+A payment plan can make the case look resolved while creating a new fixed charge. If the tenant owes current rent plus arrears, one missed week can restart the process. The plan may work for a short income gap and fail for rent that is too high every month. The test must follow the next due date, not stop when the parties sign an agreement.
+
 ```text
 rent shock or dispute → housing court → legal help or no legal help
 → notice, judgment, warrant, payment plan, or case loss
@@ -47,6 +51,10 @@ The deeper finding is that legal representation changes the speed and shape of a
 
 This connects legal help to the broader “loss of slack” pattern. A tenant with time, records, language access, and a lawyer can use the rules. A tenant who cannot take time off, find counsel, or understand the notice may lose the same protection on paper. Formal rights and usable rights are not the same.
 
+There is a distinction between correcting a bad case and making a good case affordable. Legal help can expose a missing notice, unsafe condition, or wrong amount. It can also negotiate a fairer exit when staying is not possible. Neither result supplies the cash, repair, care, or housing supply needed for the next month. Calling every prevented eviction a success can hide a household that remains one bill away from court.
+
+The record effect matters after the hearing. A tenant may keep the home but carry a filing, judgment, debt, or reference that changes the next application. A case may be dismissed but still visible to a screening system. Conversely, a tenant may move before judgment and avoid the formal record while losing school, work, and community stability. Court data and housing data need to be joined so the legal result is not mistaken for the whole displacement result.
+
 ## What remains unproven
 
 The study does not show whether representation produced lasting housing stability, lower debt, better health, or stronger work access. It does not show who could reach counsel, how lawyer capacity changed quality, or whether a payment plan delayed rather than solved the conflict. It does not show the landlord’s recovery, the tenant’s next rent bill, or whether a record changed the next housing search.
@@ -54,6 +62,8 @@ The study does not show whether representation produced lasting housing stabilit
 ## Next test
 
 Follow tenants from the first missed payment through three years after court. Join legal help, court, rent aid, housing, work, health, debt, credit, school, care, and next-home records. Compare similar cases with different access to counsel and record whether the tenant stayed by choice or lack of alternatives. Separate notice corrected, judgment avoided, money owed, home retained, next rent paid, and later housing access.
+
+Use a case-timing study that compares counsel available before filing, after filing, and after judgment. Record the first error found, time to contact, hours spent, payment plan, current rent, arrears, landlord response, and the next six rent dates. Follow both tenants who stay and those who move. The strongest result would show whether legal help bought a stable home, a safer transition, or only a delay before the same housing gap returned.
 
 ## Reading rule
 
