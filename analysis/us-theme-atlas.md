@@ -670,6 +670,8 @@ Follow regular cash into rent or mortgage arrears and who lives together, then a
 
 Still missing: The current sources do not show that a smaller or changed household is safer or better for every family.
 
+[Read the complete connected memo](../site/us-cash-aid-household-structure-path-001.html)
+
 ### When a benefit loss changes the public mood
 
 Follow a household benefit from cash loss into consumer sentiment, then ask whether trust, blame or voting changes later.
