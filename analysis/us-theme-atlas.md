@@ -581,6 +581,8 @@ Follow local prices and wages into the household's sense of room, then ask wheth
 
 Still missing: The current study uses county outcomes and separate price beliefs; it does not show the same household's costs, blame, trust or vote.
 
+[Read the complete connected memo](../site/us-local-buying-power-ballot-path-001.html)
+
 ### When business ownership moves away from home
 
 Follow a founder's move into local ownership and then ask how housing, services and place control change for the people who remain.
