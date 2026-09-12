@@ -1,68 +1,40 @@
 # When a faster answer still leaves the case open
 
-## Short answer
+## The argument
 
-AI can help a service worker answer more quickly and with a warmer tone. That does not tell us whether a customer with a repeat problem can get the decision explained, changed or appealed.
+A fast reply is useful only if it moves the customer toward a solved problem. A service tool can help an employee answer sooner and sound more helpful, while the customer still cannot reverse a charge, correct a record, receive a refund, or reach someone with authority.
 
-The careful finding is that speed and remedy are different outcomes. The current evidence supports a benefit for some first contacts and a weaker result for repeat complaints. It does not show that automated service generally removes a customer's right to reach a person.
+Picture a customer whose first delivery failed. A suggested reply may settle the first message. A repeat complaint is different: the case now needs a record, an exception, a refund, or a decision changed. That is where speed can stop being the main measure. The customer needs a route to authority, not only a warmer sentence.
 
-## What the sources show
+The evidence supports a benefit for some first contacts and a weaker result for repeat complaints. It does not show that automated service always removes access to people. The key question is who can change the answer and how the customer reaches them.
 
-### 1. AI can improve the first service interaction
+## What the sources establish
 
-An HBS account of a randomized field experiment reports on 138 agents and 256,934 online chats at a meal-delivery company. Agents using AI suggestions responded 22% faster, and measured customer sentiment rose by 0.45 points on a five-point scale.
+HBS reports a randomized field experiment with 138 agents and 256,934 online chats at a meal-delivery company. Agents using AI suggestions responded 22% faster, and measured customer sentiment rose by 0.45 points on a five-point scale. The gain was larger for less-experienced agents: response time fell 70% and sentiment rose 1.63 points.
 
-[HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+The same account reports smaller improvement for repeat complaints and confusion when a chatbot transferred customers to a human so quickly that customers were unsure who was responding. That is a boundary, not proof of failure. It shows that first-contact speed and repeat-case resolution are different outcomes.
 
-### 2. The gain was larger for newer workers
+The CFPB’s 2025 Consumer Response Annual Report records complaints across financial products. A complaint proves that a consumer sought help. It does not, by itself, show whether the firm fixed the problem, explained the decision, or offered a usable appeal.
 
-The reported improvement was stronger for less-experienced agents: response time fell 70% and measured sentiment rose 1.63 points. This suggests that the tool may support training and confidence, not only cut labor time.
+Sources: [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human) and [CFPB Consumer Response report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/).
 
-That is a useful counterpoint to a simple replacement story. A tool can give a worker more help while the firm still decides how much discretion that worker has.
+## Follow the case, not just the first reply
 
-### 3. Repeat complaints are a boundary
+automated prompt or routing → faster first response → repeat complaint, exception, denial, or record request → human access and authority → resolution, repeat contact, complaint, loss, or exit
 
-The HBS account says the improvement was smaller when customers returned with repeat complaints. It also reports that some customers felt confused when a chatbot transferred them to a human so quickly that they were unsure who was responding.
+The first step is measured. The authority and remedy steps remain open. A human handoff without authority is only a change in voice. A customer can feel heard and still leave with the same charge or denial.
 
-The customer problem changes at this point. A fast and sympathetic first answer may not resolve a case that needs a record, an exception, a refund or a person with authority to change the result.
+## What must stay separate
 
-### 4. Complaint records show demand for help, not the quality of the remedy
-
-The CFPB's 2025 Consumer Response Annual Report covers complaints submitted from January through December 2025 across consumer financial products. A complaint tells us that a consumer sought an answer. It does not, by itself, tell us whether the firm fixed the problem, explained the decision or offered a usable appeal.
-
-[CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
-
-## The connection
-
-```text
-automated prompt or routing
-  -> faster first response and lower service cost
-  -> repeat complaint, exception, denial, or need for records
-  -> human access and authority to change the answer
-  -> resolution, repeat contact, loss, complaint, or exit
-```
-
-The first response step is measured. The authority and remedy steps remain open.
-
-## What is fact, inference, and unknown
-
-**Fact:** The HBS experiment found faster responses and higher measured sentiment in one setting. The benefit was smaller for repeat complaints. CFPB publishes complaint records and an annual report.
-
-**Inference:** The key service divide may be between explaining an answer and changing an answer. A firm can improve the first while leaving the second untouched.
-
-**Unknown:** We do not know whether customers received refunds, corrections, exceptions or appeals; whether workers could override the system; or whether automated routing changed outcomes by disability, language, age, income or digital access.
-
-## What would change the finding
-
-- Records that link first contact, repeat contact, human transfer, decision and remedy.
-- Results by complaint type, customer group and service channel.
-- Evidence that repeat complaints are resolved as often and as quickly as first contacts.
-- A clear record of who can change an automated decision and how customers reach that person.
-- A setting where automation improves remedy, not only response speed.
+- Response speed and time to resolution.
+- A polite explanation and a changed decision.
+- Human contact and human authority.
+- A complaint count and a successful remedy.
+- A first contact and a repeat case.
 
 ## Next test
 
-Choose one public complaint system and compare first contacts with repeat contacts. Record response time, transfer, explanation, remedy and appeal separately. Use CFPB complaint data as a starting index, not as proof of poor service.
+Choose one public complaint system and link first contact, repeat contact, transfer, decision, remedy, and appeal. Report results by complaint type, service channel, age, disability, language, income, and digital access. The central measure is not “Did a person answer?” but “Could the customer get the answer changed when it was wrong?”
 
 ## Reading rule
 
