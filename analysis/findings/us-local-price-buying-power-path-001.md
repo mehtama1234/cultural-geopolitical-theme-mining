@@ -18,6 +18,10 @@ Another family in the same town has relatives nearby and a flexible job. It can 
 
 A local price index cannot show both paths without the services and travel around the purchase. It also cannot show who can use a lower price at the right hour. A discount store that closes before a night shift ends, or a clinic that requires a day off, has a different real price than its posted price suggests.
 
+The move itself has a price. A family may pay a deposit, moving cost, and weeks of double expenses before the lower rent begins. It may lose a familiar doctor, a school place, or family help. A lower monthly price can be real and still be unreachable to a household without cash for the transition. The place that looks cheaper after the move may be more expensive to enter.
+
+Quality and reliability matter when the household cannot easily return. A cheaper clinic with a long wait, a low-cost store with frequent stock gaps, or a cheaper home with repeated repairs may force the family to buy the higher-cost substitute later. A price comparison that records only the first purchase misses the cost of failed service.
+
 Moving can change the basket without changing the household's stated income. A family may leave a costly city to reduce rent, then lose a nearby job, a bus route, or a relative who provided child care. The move may improve the monthly ledger and weaken the household's ability to recover from a sick child or broken car. A place is not just where purchases happen; it is the network that makes those purchases possible.
 
 ```text
@@ -49,6 +53,10 @@ The distributional effect can become political. If residents hear that their are
 
 This also changes how to read local business data. A store can charge less and still be inaccessible; a small clinic can charge more and save a full day's wages. A new business may improve choice only if it is open when people need it, reachable without a car, and able to stay open through a weak season. Price competition becomes meaningful only after the household can physically use the alternative.
 
+The public choice is about the network as well as the price. Transit, zoning, clinic placement, school boundaries, road maintenance, and local business support can make an alternative usable or leave the household dependent on one provider. A place may report low prices while asking families to supply the missing network through cars, time, and unpaid help. This is a framework for testing, not evidence that any one local policy caused the gap.
+
+Political trust can be shaped by that mismatch. Residents may hear that their town is affordable and still feel poor because every basic errand requires a car, a long trip, or a missed shift. A higher-cost area may feel more workable if the network saves time and preserves choices. The price label is not false; it is incomplete.
+
 ## What remains unproven
 
 The study does not follow the same household’s price basket, job, care, travel, family support, and move decision. It does not show whether a low-price place improved well-being or whether higher prices bought better quality and opportunity. Results may differ by income, race, age, disability, family type, and transport access. It does not show what households do when the cheapest option is unavailable at the time they need it.
@@ -58,6 +66,8 @@ The study does not follow the same household’s price basket, job, care, travel
 Compare two commuting zones with similar household income but different price indexes. Follow one basic basket, one job path, one care path, and one move-or-stay decision. Add store distance, product quality, transit by hour, family support, car ownership, repair exposure, and local services. Record what happens when the cheapest option is closed, full, delayed, or too far away.
 
 Build a weekly household budget that prices travel time, missed work, care arrangements, car ownership, and emergency alternatives alongside rent and goods. Compare movers before and after relocation, not only residents in two places. Ask what the household expected to gain, what it actually gave up, and which backup disappeared. This would separate a lower cost of living from a lower cost that is paid in time, risk, or lost opportunity.
+
+Add transition costs and failure records: deposit, moving expense, double payments, lost provider, wait time, stockout, repair, missed work, and the substitute used. Follow households long enough to see whether the cheaper option remains usable and whether they can return after a bad move. This would distinguish a lower price that creates room from one that only looks lower after the entry and failure costs are hidden.
 
 ## Reading rule
 
