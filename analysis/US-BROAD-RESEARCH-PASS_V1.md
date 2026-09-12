@@ -46,6 +46,8 @@ The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-h
 
 The full SIPP slice now has a [weighted raw-code scan](projects/us-household-calendar-integration/sipp-weighted-code-scan-v1.md). It is a person-record/month layer using `WPFINWGT`; value labels, household weighting, variance estimates, and causal interpretation remain separate next steps.
 
+The SIPP fields are mapped to the five bridges in the [SIPP broad-bridge crosswalk](projects/us-household-calendar-integration/sipp-broad-bridge-crosswalk-v1.md). This makes SIPP a population layer for material and work conditions while keeping service, cultural, political, company, and geopolitical links open for their own sources.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
