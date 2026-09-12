@@ -8,11 +8,17 @@ An owner may move because customers, workers, credit, housing, or a better marke
 
 The deeper finding is that “local control” is a bundle, not a feeling. The location of a storefront tells us where a customer buys. It does not tell us where the owner lives, where profits go, who chooses prices, where jobs are created, or whether the firm will stay during a hard year. A place can lose hometown owners and still gain useful businesses, or keep local owners while losing services and jobs.
 
+That is why the story should not be framed as local people versus outsiders. A local owner may close a grocery store, sell to a chain, or move the business because the town cannot support it. An owner from elsewhere may open a clinic, hire locally, and keep a service available. The real question is what the ownership arrangement changes for people who live there: the service they can reach, the work they can get, the prices they pay, and the money that remains in the place.
+
 ## Follow one business move
 
 A founder leaves a small town for a larger market. The new firm gains customers and survives. The old town loses a possible employer, but another owner may fill the space. If the founder’s company supplied a needed service, the gap may show up as longer travel, higher prices, or fewer choices. If the business was marginal, the move may have changed little for residents.
 
 The customer result depends on what the firm did, not only on who owned it. The worker result depends on wages, stability, and opportunity. The civic result depends on where decisions and profits flow.
+
+Suppose a town’s only hardware store is bought by an owner who lives two states away. The store may gain better purchasing terms and lower prices. It may also close an unprofitable department, change its hours, or send profits and major decisions elsewhere. A local customer could be better served on price and worse served on repair advice or emergency availability. The ownership change creates a question about resilience, not an automatic answer.
+
+The opposite case is also possible. A hometown founder may keep the business locally owned but lack capital to replace equipment or survive a weak season. If the firm closes, local ownership did not preserve local service. Ownership can be one condition of staying, but it is not a substitute for demand, credit, workers, or a viable business model.
 
 ```text
 capital, skills, housing, and local networks → where an owner can live and start
@@ -35,13 +41,17 @@ Sources: [HBS hometown entrepreneur](https://www2.library.hbs.edu/working-knowle
 
 The real local asset may be the ability to make and keep decisions, not the owner’s birthplace. A town is more exposed when an essential service, employer, or property decision can leave without a local replacement. But a mobile owner can also bring capital, skill, and a better service. The test is whether the place keeps choice, work, and value after ownership changes.
 
+The distribution of value matters as much as the count of firms. A business can remain open while wages stay low, profits leave, and the owner’s next investment happens elsewhere. Or it can be owned from outside while hiring local workers, paying local taxes, and expanding service. The first arrangement may look local but keep little local value; the second may look less local but provide more of what residents need. “Local” should therefore be recorded as several flows rather than one label.
+
+There is a political connection, but it is not yet proven. Residents may become more concerned about local control when a store, employer, bank, or housing owner makes a decision they cannot influence. That concern could lead to support for local procurement, business aid, zoning rules, or ownership programs. The current evidence does not show that an owner’s move caused a political response.
+
 ## What remains unproven
 
-The evidence does not show that local ownership was lost, that a mobile owner harmed customers, or that an owner move caused a local service gap. It does not follow firms through survival, prices, wages, profits, taxes, and civic participation. Outcomes may differ by industry, town size, housing cost, and access to credit.
+The evidence does not show that local ownership was lost, that a mobile owner harmed customers, or that an owner move caused a local service gap. It does not follow firms through survival, prices, wages, profits, taxes, and civic participation. Outcomes may differ by industry, town size, housing cost, and access to credit. It also does not tell us whether the owner’s location matters after we account for the firm’s size, sector, access to finance, and the demand in the place.
 
 ## Next test
 
-Link owner moves to firm records and local customer outcomes over five years. Compare places where owners leave with similar places where they stay. Track firm survival, jobs, wages, prices, service gaps, housing costs, profits, taxes, and local participation.
+Link owner moves to firm records and local customer outcomes over five years. Compare places where owners leave with similar places where they stay. Track firm survival, jobs, wages, prices, service gaps, hours, housing costs, profits, taxes, local purchasing, and participation. Separate the owner’s birthplace, residence, decision location, profit destination, worker location, and customer location instead of using “local business” as one field.
 
 ## Reading rule
 
