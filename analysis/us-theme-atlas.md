@@ -56,6 +56,8 @@ Follow a no-money-price service into the time and attention it takes, then ask w
 
 Still missing: The current studies do not follow the same user through time use, work, care, sleep, well-being and exit.
 
+[Read the complete connected memo](../site/us-time-intensive-platform-path-001.html)
+
 ### When a data rule changes the customer exchange
 
 Follow platform data from access and control into the customer's trust and service choice. Ask whether more openness gives customers a better answer or only a different data deal.
