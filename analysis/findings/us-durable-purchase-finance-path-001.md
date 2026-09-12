@@ -8,6 +8,8 @@ Imagine a family whose car is failing. Replacing it may be cheaper than losing a
 
 The right question is not whether the purchase was good or bad. It is what the purchase protected, what it replaced, and what the monthly bill took away. A financed durable good is part of both the household's tools and its future risk.
 
+The monthly payment can hide the real choice. A $25,000 car with a small down payment may look manageable at $450 a month, but the household also has to carry insurance, fuel, registration, repairs, and interest. The purchase may be the least costly way to keep a job reachable. It may also leave so little cash that the next tire, medical bill, or missed shift requires another loan. The item’s use and the contract’s cost have to be counted together.
+
 ## Follow the purchase through three years
 
 A worker needs a reliable car to reach a job. The down payment is small and the loan is approved. The car protects work today, but the household now pays interest, insurance, fuel, registration, and repairs. If hours fall, the car can preserve access and also become the bill that crowds out food, care, utilities, or debt repayment.
@@ -15,6 +17,8 @@ A worker needs a reliable car to reach a job. The down payment is small and the 
 An appliance creates the same trade. A more efficient machine may lower energy use and improve a home's safety, but installation and financing can leave the family with less cash before the savings arrive. A phone may preserve work and school access but bring a plan, late fee, or replacement cost.
 
 The alternative matters. Waiting may protect cash but leave a failing car, unsafe heater, or broken appliance in place. A repair, transit route, rental, or used item may be cheaper than a new loan—or may not exist where the family lives.
+
+The deadline changes the answer. A worker who needs the car tomorrow may not be able to compare rates or wait for a used vehicle. A family replacing a refrigerator may value food safety immediately, while an efficient appliance may save money only after months. A purchase can therefore be financially sensible and still be made under pressure, with a contract that gives the household little room to correct a bad choice.
 
 ```text
 temporary income or credit → durable purchase, often with a loan
@@ -43,6 +47,8 @@ The most important number may be the distance between the purchase and the next 
 
 Financing also changes who can obtain the durable good. A lender's approval, credit score, down payment, rate, and term decide whether the household can buy the tool at all. A low monthly payment can widen entry while increasing the total price and the time during which the household cannot easily exit the contract.
 
+The same contract can also look different after income changes. If the car preserves work, the payment may be part of the cost of earning. If hours fall, the payment becomes a fixed claim against a smaller paycheck. Repossession or a missed payment can then damage both mobility and the next credit decision. That is why the result must include what happened after the purchase, not only whether the household received the good.
+
 ## Four views of the same purchase
 
 **Household:** What item was needed, what did it protect, and what cash, time, or alternative was available?
@@ -55,11 +61,11 @@ Financing also changes who can obtain the durable good. A lender's approval, cre
 
 ## What remains unproven
 
-The stimulus period was unusual. The sources do not show whether each vehicle or appliance was essential, whether the same family later faced repayment strain, or whether repair aid, transit, a used item, or a rental would have been better. A late payment may come from the loan, another shock, or both.
+The stimulus period was unusual. The sources do not show whether each vehicle or appliance was essential, whether the same family later faced repayment strain, or whether repair aid, transit, a used item, or a rental would have been better. A late payment may come from the loan, another shock, or both. They also do not show how often the low monthly payment hid a high total price or whether a household understood the full contract.
 
 ## Next test
 
-Follow households for three years after a temporary payment or durable purchase. Join the item, need, loan terms, cash buffer, credit, repairs, insurance, travel, work, care, energy use, replacement, and missed payments. Compare families with transit or repair alternatives to those without them. Separate capability gained today from payment risk carried tomorrow.
+Follow households for three years after a temporary payment or durable purchase. Join the item, need, loan terms, cash buffer, credit, repairs, insurance, travel, work, care, energy use, replacement, and missed payments. Compare families with transit or repair alternatives to those without them. Record the total contract cost, the deadline, the payment after an income change, and any repossession or replacement. Separate capability gained today from payment risk carried tomorrow.
 
 ## Reading rule
 
