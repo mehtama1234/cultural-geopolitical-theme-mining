@@ -113,6 +113,12 @@ what a country can do while also increasing dependence on external providers,
 capital, chips, cloud, electricity, and data systems. The project keeps local
 benefit, public control, and geopolitical leverage as questions to test.
 
+The [safety-net administrative-burden layer](projects/us-safety-net-access/administrative-burden-access-layer-v1.md)
+deepens the public-systems side. It shows that eligibility, enrollment,
+renewal, office access, program exit, employment, food security, and trust are
+different outcomes. A lower caseload or higher exit rate is not automatically
+successful policy; the household’s next condition must be measured.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas

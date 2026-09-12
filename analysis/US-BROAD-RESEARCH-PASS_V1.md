@@ -90,6 +90,8 @@ The first uncertainty-aware tenure × resource comparison is the [SIPP Fay-BRR i
 
 The [AI, work, and control project](projects/ai-work-control/README.md) is the current deeper cross-border packet for the work, firm/sector, infrastructure/dependency, and geopolitical themes. Its new [AI capability/dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md) separates capability from ownership, physical complements, local value, replaceability, and state leverage. Its provisional findings, company bridges, macro/infrastructure records, and country cases should be treated as a connected source stream within this broad program, with its stated open gaps preserved.
 
+The [safety-net administrative-burden layer](projects/us-safety-net-access/administrative-burden-access-layer-v1.md) deepens the public-systems bridge. It separates eligibility, route-to-help, program exit, employment, food security, and trust, using causal evidence on work rules, parent burden, and office closures while keeping the same-household downstream path open.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

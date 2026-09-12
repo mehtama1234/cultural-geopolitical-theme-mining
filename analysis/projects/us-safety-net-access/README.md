@@ -19,3 +19,5 @@ Move on after a causal participation result, one measured place or administrativ
 ## Matched evidence pass
 
 The first matched check is [A benefit can be lost without the need going away](../../findings/us-safety-net-access-matched-evidence-001.md), with its [HTML reading page](../../../site/us-safety-net-access-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms access and participation effects while leaving same-household food, work, debt, health, and trust effects open.
+
+The [administrative-burden and access layer](administrative-burden-access-layer-v1.md) records the causal evidence separately: work-rule exits without an employment response, parent disenrollment through administrative burden, and participation changes after office closure. It does not treat program exit as work success or participation as food security.
