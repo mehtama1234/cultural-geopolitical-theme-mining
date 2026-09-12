@@ -40,6 +40,10 @@ Care can also change public judgment. If an employer offers leave that cannot be
 
 Consider a worker who leaves two shifts each week to drive a parent to appointments. A sibling contributes money but cannot change jobs. The family avoids a $2,000 monthly care bill, yet the worker loses wages and may lose access to a better schedule. If a public benefit later covers part of the paid care, the family may still lack a provider who can work the needed hours. The outcome depends on money, time, distance, and available care—not on the benefit amount alone.
 
+The care need can also move through the family before it reaches an employer or program. A daughter may take the morning shift, a son may pay for medication, and a neighbor may drive to the clinic. Each person absorbs a different part of the cost. If one helper moves away or becomes ill, the whole arrangement can fail even though the total number of care hours has not changed. Resilience depends on how replaceable each person’s role is.
+
+The bill is often paid in advance by the caregiver. Time is given before a tax credit, leave payment, or public service arrives. A person may reduce work first, then discover that the support requires a form, a qualifying diagnosis, a minimum number of hours, or a provider who is not available nearby. The gap between eligibility and usable help can be where the largest loss occurs.
+
 The political path is especially easy to overstate. A caregiver may support paid leave, a tax credit, or public care funding. But the person may also vote on housing, health, safety, or party identity, or not vote. The care experience gives a reason for a policy view; it does not prove a political action.
 
 ## The four outside views
@@ -54,6 +58,10 @@ The distribution inside the family matters too. One person may lose current pay,
 
 **Public power:** Tax credits, leave, care supply, health coverage, and work rules shape whether care stays inside the family or becomes a paid or public need. A policy claim needs evidence of take-up and later household change. A benefit that exists but is hard to use may not change the care burden.
 
+This is also a question about who gets to set the schedule. The employer may control work hours, the clinic may control appointment times, and the care program may control approved providers. The caregiver is asked to fit all three into one day. A benefit can add money without adding a workable hour. That is why access should include schedule, distance, and replacement care, not only eligibility and dollars.
+
+The political judgment may come from the failed handoff rather than from the care itself. Families often manage a need privately until a missed shift, closed program, or unavailable provider makes the arrangement visible. They may then demand leave, tax relief, transport, or more local care. This is a plausible route to public action, but the available sources do not show that a care shock caused a specific vote or policy change.
+
 ## What would change the finding
 
 - Care start and end dates for the same person and family.
@@ -66,6 +74,8 @@ The distribution inside the family matters too. One person may lose current pay,
 ## Next test
 
 Follow families for two years from the start of a regular care need. Record who provides the hours, what work changes, what money is spent or lost, which support is available, and whether the family asks for a public or employer response. Add sleep, health, transport, savings, debt, paid-care use, and the timing of benefits. Keep the value of care separate from the cost of carrying it.
+
+Build a weekly care map that records each task, person, time, travel leg, missed work decision, and attempted substitute. Mark when help was requested, approved, paid, delayed, or unavailable. Follow the same family after a caregiver becomes unavailable and measure whether the response is paid care, debt, lost work, a move, or a new public demand. This would show whether a policy reduces the care hours, the cash cost, the schedule conflict, or only one visible part of the burden.
 
 ## Reading rule
 
