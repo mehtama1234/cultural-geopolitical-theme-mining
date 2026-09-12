@@ -14,6 +14,8 @@ A shopper scans receipts into a rewards app. After a privacy rule takes effect, 
 
 More sharing can be a useful exchange. It can also make the customer easier to sort than to bargain with.
 
+The permission screen is only the first moment. The customer may understand that receipts are collected but not know whether the record is kept, combined with other data, sold, or used to change a price. A person can make a reasonable choice with incomplete information. That is why a higher sharing rate cannot be read as informed approval by itself.
+
 ```text
 privacy rule and clearer permission → person feels more protected
 → more receipts, visits, or categories shared → firm gains a richer record
@@ -35,13 +37,19 @@ Source: [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowled
 
 Consent is a market event. It can change the data a firm owns and the choices it can make about a customer. The customer’s value is the reward, service, price, and control received; the firm’s value is prediction and sorting. Those values need not be equal, and a long notice does not make them equal.
 
+The exchange can also change the customer's future position. A richer record may produce a useful discount, better fraud detection, or a more relevant offer. It may also let a firm identify a customer's budget, habits, or willingness to pay. If the customer cannot see or correct the profile, the firm gains information that the customer cannot use in a negotiation.
+
+This creates a difference between privacy confidence and customer power. A rule may make the permission process feel safer while leaving the firm in control of retention, ranking, price, and deletion. The customer may share more because the service is better protected, but still have no practical way to stop an unexpected use. Trust in the screen is not the same as control over the record.
+
+The public path is indirect. A breach, unwanted targeting, or refusal to delete data may turn a private exchange into a complaint or demand for stronger rules. But more sharing can also mean the exchange is working for the customer. The current study establishes a change in sharing, not who received the later value or who carried the later risk.
+
 ## What remains unproven
 
-The study does not show whether users understood the exchange, received a better offer, faced different prices, or could delete the record. It does not show which firms gained the data or whether sharing stayed higher after a breach, unwanted use, or a later policy change. Results may differ by age, income, race, disability, language, and digital access.
+The study does not show whether users understood the exchange, received a better offer, faced different prices, or could delete the record. It does not show which firms gained the data, whether a profile changed later treatment, or whether sharing stayed higher after a breach, unwanted use, or a later policy change. Results may differ by age, income, race, disability, language, and digital access.
 
 ## Next test
 
-Follow users for one year before and after a privacy rule. Vary the notice, permission, reward, and deletion controls, then measure what people understand, share, receive, and can stop. Compare customer value with the firm’s new ability to predict and sort.
+Follow users for one year before and after a privacy rule. Vary the notice, permission, reward, and deletion controls, then measure what people understand, share, receive, and can stop. Test whether the record changes later offers, prices, ranking, or service. Compare customer value with the firm’s new ability to predict and sort.
 
 ## Reading rule
 
