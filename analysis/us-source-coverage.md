@@ -1,8 +1,8 @@
 # US source coverage
 
-89 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+90 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 140; OFR: 1; Other: 33; Other government: 17; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 5; EIA: 3; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 141; OFR: 1; Other: 33; Other government: 17; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -102,6 +102,23 @@
 - updates that change the app's personality or relationship.
 
 [Open the source-search record](projects/us-ai-emotional-support-apps/source-search-2026-09-11.md)
+
+## US appliance efficiency and the household bill
+
+**Project:** `us-appliance-efficiency-household-bill`
+
+**Status:** matched evidence pass complete; household-level payback and access remain open
+
+**Question:** 
+
+**Sources recorded:** 4
+
+- [DOE appliance and equipment standards](https://www.energy.gov/cmei/buildings/appliance-and-equipment-standards-program)
+- [EIA Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/index.php)
+- [NBER: Cash for Coolers](https://www.nber.org/papers/w18044)
+- [DOE affordable energy for consumers](https://www.energy.gov/topics/affordable-energy-consumers)
+
+[Open the source-search record](projects/us-appliance-efficiency-household-bill/source-search-2026-09-11.md)
 
 ## US Auto-IRA and household balance sheets
 
