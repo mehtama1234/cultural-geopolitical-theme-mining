@@ -533,3 +533,13 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 A car repair is not just a transport bill. For a household with little cash, it can arrive between paychecks and compete with food, medicine, housing, or another payment. Paying the repair may protect a job or care visit; not paying may reduce access.  The evidence supports the pressure and the value of mobility. It does not yet prove that one repair caused job loss, missed care, or later debt for the same US household. The missing fact is what the household gave up after keeping the car moving—or after losing it.
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
+
+### 54. Efficiency savings are real but smaller than the promise
+
+**Theme:** Energy / health / cost
+**Route:** weatherization → actual savings → comfort and health
+**Still open:** long-run household, work, and health outcomes
+
+Weatherization can lower energy use and improve safety and comfort, but projected savings can overstate what households receive. NBER's experimental evaluation of more than 30,000 households found actual energy savings roughly half the level predicted by engineering models and found no evidence of significantly higher indoor temperatures after weatherization. DOE treats health and safety as part of the work and gives access to renters and owners. The deeper finding is that a successful upgrade must be judged by actual bills, safe temperature, air quality, health, and household cash—not by projected energy savings alone.
+
+[Read the HTML page](../site/us-weatherization-health-household-outcomes-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-weatherization-health-household-outcomes-matched-evidence-001.md)

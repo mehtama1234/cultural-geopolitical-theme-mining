@@ -1,8 +1,8 @@
 # US source coverage
 
-91 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+92 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 7; EIA: 4; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 141; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 9; EIA: 5; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2167,6 +2167,23 @@
 - whether public transit or repair aid prevented a larger loss.
 
 [Open the source-search record](projects/us-vehicle-repair-household-shock/source-search-2026-09-11.md)
+
+## US weatherization, health, and household outcomes
+
+**Project:** `us-weatherization-health-household-outcomes`
+
+**Status:** matched evidence pass complete; longer-run health and household records remain open
+
+**Question:** 
+
+**Sources recorded:** 4
+
+- [NBER: Do Energy Efficiency Investments Deliver?](https://www.nber.org/papers/w21331)
+- [DOE: How to apply for weatherization](https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance)
+- [DOE LEAD tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA energy insecurity](https://www.eia.gov/todayinenergy/detail.php?id=56640)
+
+[Open the source-search record](projects/us-weatherization-health-household-outcomes/source-search-2026-09-11.md)
 
 ## US workplace communication and the price of fitting in
 
