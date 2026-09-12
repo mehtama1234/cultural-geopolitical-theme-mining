@@ -64,6 +64,8 @@ The first intersectional SIPP table is the [tenure × resource two-way layer](pr
 
 The place layer is the [region-stratified SIPP comparison](projects/us-household-calendar-integration/sipp-region-stratified-layer-v1.md). It attaches the official four-region residence field to the material/work measures and keeps local mechanisms open for other sources.
 
+The first design-based uncertainty check is the [SIPP Fay-BRR point-estimate layer](projects/us-household-calendar-integration/sipp-fay-brr-point-estimates-v1.md). It covers five full-sample diagnostics; subgroup tables remain point-only until their replicate estimates are computed.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
