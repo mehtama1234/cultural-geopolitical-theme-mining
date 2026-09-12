@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; transaction-level fee changes are measured, full household recovery remains open
+**Status:** first matched evidence pass completed; full household recovery remains open
 
 ## Working question
 
@@ -25,6 +25,10 @@ low cash at the account
 ```
 
 The study supports different effects by liquidity. It does not establish the full life or political path.
+
+## Matched evidence result
+
+The direct fee result and the overdraft result should not be merged. Removing NSF fees reduced a charge across groups. Relaxing overdraft rules produced later financial improvements mainly for more liquid households. The next test is payment success and total household recovery, not the fee count alone.
 
 ## Counterpoint to keep visible
 
