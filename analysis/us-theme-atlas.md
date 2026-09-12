@@ -236,6 +236,8 @@ Follow three separate questions: who has time to work, what money is available, 
 
 Still missing: Caregiving and benefit-loss studies examine different events. We have not shown that caregiving leads to borrowing, political distrust or a changed vote.
 
+[Read the complete connected memo](../site/us-family-care-money-politics-path-001.html)
+
 ### When staying does not mean being satisfied
 
 Compare continued app use with repeated requests for help. Ask whether people stay because they benefit, cannot leave, or still need an answer; then separately test any change in trust.
