@@ -18,6 +18,8 @@ price, income, benefit, or job change
 
 Do not assume that a bad economic view comes from a bad personal outcome. Test personal experience, party identity, news, local conditions, and policy changes separately.
 
+The next executable design is the [political-response measurement specification](political-response-measurement-spec-v1.md). It keeps exposure, adjustment, interpretation, expression, and political action separate and defines the valid respondent, place, and event-study alternatives.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.
