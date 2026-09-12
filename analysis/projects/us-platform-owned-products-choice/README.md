@@ -8,6 +8,11 @@ When a platform sells its own products beside outside sellers, does its control 
 
 Separate platform-owned product, outside alternative, search placement, product removal, switching, price, product fit and customer welfare.
 
+## Matched evidence pass
+
+- [A useful product can still sit inside a power problem](../../findings/us-platform-owned-products-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-platform-owned-products-matched-evidence-001.html)
+
 ## Possible connection
 
 A platform can be both the place where customers search and a seller inside that search. That can create a conflict, but the platform's own product may also fit a real customer need better than the alternatives.

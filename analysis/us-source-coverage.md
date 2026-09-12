@@ -1430,7 +1430,7 @@
 
 **Project:** `us-platform-owned-products-choice`
 
-**Status:** opening pass; platform-owned product availability and customer welfare are measured, long-run competition remains open
+**Status:** matched evidence pass complete; long-run competition and seller effects remain open
 
 **Question:** When a platform sells its own products beside outside sellers, does its control over placement help customers or steer them unfairly?
 

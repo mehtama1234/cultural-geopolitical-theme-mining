@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States; Amazon field experiment  
-**Status:** opening pass; platform-owned product availability and customer welfare are measured, long-run competition remains open
+**Status:** matched evidence pass complete; long-run competition and seller effects remain open
 
 ## Working question
 
@@ -25,6 +25,8 @@ platform sells its own product
 ```
 
 The source supports a customer-welfare tradeoff in the tested setting. It does not settle the wider competition question.
+
+The additional market records make the conflict more concrete: Amazon earns money from its own store, outside sellers, advertising, and fulfillment. Its filing describes the revenue streams; the FTC case records describe alleged links among seller prices, seller data, advertising, Featured Offers, Prime, and product promotion. These records show why the platform has several interests at once, but they do not prove the size of customer harm.
 
 ## Counterpoint to keep visible
 
