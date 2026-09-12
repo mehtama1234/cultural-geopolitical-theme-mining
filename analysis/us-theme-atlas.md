@@ -794,6 +794,8 @@ Follow a short-term housing payment into the ability to keep working, then ask w
 
 Still missing: The work study follows tax-record outcomes but does not show the same household's full housing event, job quality or later stability.
 
+[Read the complete connected memo](../site/us-emergency-assistance-work-path-001.html)
+
 ### When rent protection becomes a financial product
 
 Follow rent protection into housing stability, then ask whether avoiding arrears also protects later credit and access to a home.
