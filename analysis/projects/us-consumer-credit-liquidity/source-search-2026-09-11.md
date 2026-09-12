@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** verification pass complete; connected memo written, same-household path remains open
+**Status:** first matched evidence pass completed; same-household path remains open
 
 ## Working question
 
@@ -32,6 +32,10 @@ bill or income shock
 ```
 
 The Fed shows both the first household choice and a large difference in late payment by income. CFPB supplies product-level measures that are lower because they use different denominators and provider records. The New York Fed shows the broader debt position and place pattern. The missing link is what happened to the same household after it borrowed or delayed payment.
+
+## Matched evidence result
+
+The evidence supports a two-sided reading of credit. It can bridge a cash gap and preserve an essential purchase, but the cost can appear later as interest, late fees, a lower buffer, or a credit record. Household survey answers, provider account data, and aggregate credit records must remain separate because they use different people, time periods, and denominators.
 
 ## Counterpoint to keep visible
 

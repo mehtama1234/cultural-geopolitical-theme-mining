@@ -36,6 +36,7 @@ routes = {
     "us-economic-voting-real-wages-matched-evidence-001": ("Cost / voice / work", "local prices + pay → buying power → blame → vote or turnout", "individual burden, policy knowledge, and cause"),
     "us-energy-household-burden-matched-evidence-001": ("Cost / housing / work / voice", "home condition + energy price → bill pressure → sacrifice", "health, work, housing, and trust outcome"),
     "us-health-cost-household-choice-matched-evidence-001": ("Cost / health / work / voice", "medical cost → care choice → debt or work shock", "same-household health, income, and trust result"),
+    "us-consumer-credit-liquidity-matched-evidence-001": ("Cost / finance / voice", "bill shock → cash gap → credit → future room", "same-household repayment and later access"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
