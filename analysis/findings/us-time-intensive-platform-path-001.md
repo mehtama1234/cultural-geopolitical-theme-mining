@@ -18,6 +18,10 @@ The time cost is often paid in small pieces, which makes it hard to contest. A n
 
 There is a coordination problem as well. One person can leave only if the people, employers, customers, or groups they need can still be reached elsewhere. A platform may therefore keep users through the value of the network, even when the app itself is not their preferred tool. The exit decision is partly about other people's decisions. That makes “just delete it” a weak description of the real choice.
 
+The notification is a small control point. An alert can arrive while a person is driving, cooking, caring, or trying to sleep. The user may not open it, but still spend attention deciding whether it matters. If alerts are frequent, the platform has moved part of its operating cost into the user’s day. A quiet design may return time without removing the service itself.
+
+The burden is not distributed only by income. A freelancer may need the app for customers; a teenager may need it for friends; an older person may rely on it for family contact. A person with a flexible schedule can choose when to use it. A person on call or with a care duty may pay more for each interruption. The same minute has a different opportunity cost across roles.
+
 ```text
 free or low-money-price service → time and attention cost → staying, switching, or offline substitute
 → user value and household tradeoff → platform competition and public rule
@@ -47,6 +51,10 @@ The deeper market effect is that time can be both the product and the barrier to
 
 The right unit of analysis is often the household schedule, not the individual screen. One member may use the app to earn income while another pays the sleep or care cost. A parent may accept the service because it is the easiest way to coordinate school, while the child experiences the same system as pressure to answer immediately. Counting each person's minutes separately misses who benefits and who carries the lost time.
 
+There is a public design tradeoff between a usable exit and a usable community. Exporting contacts may help people leave, but it may not preserve groups, customer reviews, history, or trust. A rule that limits alerts can protect attention, while a rule that breaks the network may hurt small sellers and community groups. The question is which parts of the service people need to carry with them.
+
+The political judgment may come from that loss of control. People may not oppose advertising, social contact, or news; they may oppose a system that decides when the service interrupts them and makes the alternative costly. This is a plausible route to demand for privacy, portability, or design rules, not evidence that more time causes a particular political view.
+
 ## What remains unproven
 
 The evidence does not show whether more time on the app reduced sleep, care, work, or well-being for the same users. It does not show whether ad load, notifications, content quality, or social ties are the main reason people stay. Nor does it tell us whether a separation would create better alternatives or simply split one social network into two weaker ones. It also does not measure whether small businesses or community groups lose useful reach when a user spends less time there.
@@ -56,6 +64,8 @@ The evidence does not show whether more time on the app reduced sleep, care, wor
 Follow users for six months before and after a change in ad load, alerts, ranking, or platform design. Join measured time use to content, work, care, sleep, spending, well-being, switching, offline substitutes, and exit. Ask users what they meant to do, what they actually did, and what they gave up. Compare the value of the service with the activity displaced for different household roles and incomes, and include small businesses or groups that depend on the platform for contact.
 
 Add a low-friction exit trial: let a random group silence nonessential alerts, export contacts, and keep a visible record of time saved and services still reachable. Compare it with information alone. If users want to leave but cannot preserve work or social ties, the barrier is network dependence. If they can leave safely but return because the service delivers value, the result is different. The test should report both reduced time and lost benefits, rather than treating less use as success by itself.
+
+Add a household interruption diary that records each alert, the task interrupted, who benefited from the response, and what was delayed. Test quiet hours, bundled notifications, contact export, and a full alternative service separately. Measure sleep, care, work, small-business reach, social contact, time saved, and value lost. This would show whether a design change returns control or simply moves useful activity elsewhere.
 
 ## Reading rule
 
