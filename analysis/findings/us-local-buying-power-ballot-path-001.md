@@ -8,11 +8,15 @@ But a county result is not a voter interview. A person may blame prices, a party
 
 The deeper finding is that economic voting may begin with a comparison: what a family expected its paycheck to buy and what it can buy now. That comparison is local and personal. A national inflation rate can miss it, while a county average can still hide it.
 
+The comparison is not only about the level of prices. It is about what can no longer be done. A family may keep the same grocery budget by buying less fresh food, keep the same rent by stopping retirement saving, or keep the same car by postponing a repair. The official budget can look stable while the household loses quality, reserve, or choice. Those losses may be what give an economic number political meaning.
+
 ## Follow one election cycle
 
 A family’s wages rise 3%, but rent, food, and fuel rise 7%. It buys less, saves less, borrows, or delays care. A candidate blames inflation; another blames policy or firms. The family may reward one explanation, reject both, or vote on safety or identity instead. The household’s real loss is evidence of exposure, not proof of the ballot’s cause.
 
 The comparison is often made against the last normal month, not a national index. A family knows that the same grocery trip fills fewer bags, rent leaves less after payday, or a repair now requires borrowing. Another family may have a raise, a paid-off car, or a lower-cost store. “The economy” is therefore experienced as a local budget with a personal baseline.
+
+The baseline also changes who feels a recovery. If prices stop rising quickly but remain high, a household that already traded down may not feel restored. A worker whose pay catches up may feel relief; a renter whose rent reset may not. Two people can hear the same national report and compare it with different starting points.
 
 ```text
 local prices and wages → real buying power and household room
@@ -40,13 +44,15 @@ Behavior can come before politics. A family may first change brands, delay a pur
 
 This makes the county finding useful but limited. It can show that places with weaker real-pay growth moved differently in an election. It cannot tell us whether voters in those places experienced the same basket, heard the same message, or made the same trade. The real bridge requires local exposure, household action, belief, and ballot choice in the same record.
 
+The county result can still matter even though it is not an individual story. If many households in a place face weaker real buying power, local businesses may see less demand, public officials may face more pressure, and candidates may speak to the shared loss. But the shared condition does not guarantee a shared interpretation. A county can contain people who are hurt, helped, insulated, or focused on an entirely different issue.
+
 ## What remains unproven
 
-The evidence does not show that one household’s price loss caused one vote, or that changing a belief changes turnout. County averages hide large household differences. Party identity, immigration, abortion, safety, age, media, and candidates can outweigh economic conditions. The survey measures reported beliefs and choices, not a verified link from one checkout basket to one ballot.
+The evidence does not show that one household’s price loss caused one vote, or that changing a belief changes turnout. County averages hide large household differences. Party identity, immigration, abortion, safety, age, media, and candidates can outweigh economic conditions. The survey measures reported beliefs and choices, not a verified link from one checkout basket to one ballot. It also does not show whether a household acted politically because prices rose, because recovery felt unfair, or because a trusted messenger connected the two.
 
 ## Next test
 
-Join local prices and wages to a household panel for two election cycles. Follow spending, saving, borrowing, media, policy knowledge, trust, turnout, and vote choice. Ask which item or bill changed first and compare a fall in real pay with inflation that leaves real pay unchanged. Keep vote choice separate from economic coping.
+Join local prices and wages to a household panel for two election cycles. Follow spending, saving, borrowing, media, policy knowledge, trust, turnout, and vote choice. Ask which item or bill changed first and compare a fall in real pay with inflation that leaves real pay unchanged. Measure the household’s starting basket and reserve, not only the county average. Keep vote choice separate from economic coping, and ask again after prices stabilize but remain high.
 
 ## Reading rule
 
