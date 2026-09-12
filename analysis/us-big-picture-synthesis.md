@@ -62,6 +62,16 @@ show that one price, bill, firm, or policy caused a specific person's trust or
 vote. That missing link is part of the finding, not a reason to erase the
 broader pattern.
 
+The [CFPB complaint-response layer](projects/us-customer-automation-recourse/cfpb-complaint-response-descriptive-layer-v1.md)
+adds the institutional and firm side. Its 2024 published records are heavily
+concentrated in credit reporting, and company responses are mostly recorded as
+non-monetary relief or explanation. Response categories differ sharply by
+product, so the all-product total is not a remedy rate. This gives the program
+a third kind of evidence: not only what people report and how they interpret
+conditions, but how an institution records and categorizes the response. It
+still does not show whether the consumer's problem was solved, trust restored,
+or exit avoided.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
