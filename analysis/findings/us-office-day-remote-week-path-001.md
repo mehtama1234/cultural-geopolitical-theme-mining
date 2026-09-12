@@ -6,6 +6,8 @@ One office day can add more than a commute. It can create contact with coworkers
 
 The useful finding is therefore a trade, not a verdict about remote or office work. A shared day may help a worker who needs feedback and lives nearby. It may cost more than it gives a worker with a long trip, a disability, a child-care duty, or a health limit. The right comparison is not office versus home as labels. It is **what contact the day creates, what work it replaces, and who pays for the connection.**
 
+The price can be easy to underestimate. A two-hour trip each way may also require parking, a train fare, an earlier child-care pickup, or a missed appointment. The worker may recover some of that cost if the contact prevents an error or opens a useful relationship, but the benefit is uncertain and may arrive later. The employer sees an attendance day; the household sees a rearranged day.
+
 ## Follow one worker through the week
 
 Consider a customer-service worker who works remotely and attends the office once a month. The trip takes two hours each way. She pays for transport and changes a care arrangement. At the office she meets a manager, hears how experienced coworkers handle difficult cases, and sits near someone she later messages for help.
@@ -50,6 +52,10 @@ Remote work also has a real benefit that is easy to leave out: it can widen the 
 **Company:** Did output, errors, service, retention, and promotion change after the contact continued online?
 
 **Household and place:** Who pays for travel and care? Which local businesses, housing choices, and job options change when office travel returns?
+
+That visibility test can be accidental. A manager may intend the office day to improve learning but remember who was present when a project or promotion is discussed. A remote worker may deliver equal output and still have fewer informal chances to be noticed. The office requirement can then change career access even if the stated work task is unchanged.
+
+The strongest office case is specific: a task needs shared equipment, rapid feedback, trust built through repeated contact, or learning that is hard to reproduce online. The weakest case is a trip that recreates individual screen work while shifting travel and care costs to the worker. A policy should say which task it is paying for and test whether the contact continues after the worker returns home.
 
 ## What remains unproven
 
