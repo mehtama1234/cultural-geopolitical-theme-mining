@@ -605,6 +605,8 @@ Follow a central-bank decision into what households expect about prices and borr
 
 Still missing: The current studies use randomized information and reported expectations; they do not follow the same household's policy exposure, financial records and trust.
 
+[Read the complete connected memo](../site/us-rate-decision-household-belief-path-001.html)
+
 ### When age hides different kinds of need
 
 Follow differences in health, independence and buying power into care and household money, then ask whether firms serve or sort older customers fairly.
