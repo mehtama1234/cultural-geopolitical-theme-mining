@@ -3,7 +3,7 @@
 **Checked:** 2026-09-12  
 **Source:** [ANES 2024 Time Series Study full release](https://electionstudies.org/data-center/2024-time-series-study/)  
 **Current release:** May 19, 2026  
-**Status:** acquisition boundary recorded; microdata not committed
+**Status:** source and variable map verified against the May 19, 2026 full-release codebook; microdata acquisition remains open
 
 ## Why this source belongs in the broad map
 
@@ -15,9 +15,10 @@ judgment, trust, identity, political knowledge, and reported action separate
 within the same respondent where the respondent completed both waves.
 
 ANES reports 5,521 pre-election completions and 4,964 post-election
-re-interviews in the full release. The fresh samples target US citizens age 18
-or older, while the release also includes a 2016–2020–2024 panel component.
-The study used mixed modes and provides weights; the user guide says analysis
+re-interviews in the full release. The fresh cross-sectional samples target
+the US eligible-voter population, while the release also includes a
+2016–2020–2024 panel component. The study used mixed modes and provides
+separate pre- and post-election weights; the current user guide says analysis
 should account for the complex sample design.
 
 ## Candidate variables for the political-path extract
@@ -59,13 +60,25 @@ SIPP respondents as if they are the same people.
 
 ## Acquisition result
 
-The official study page and codebook are reachable. The CSV download endpoint
-is protected by the publisher's web challenge when requested from the shell in
-this environment, so no microdata were silently substituted from a mirror.
-The official page remains the acquisition source; the next run should retry
-the publisher endpoint or use an explicitly authorized official distribution.
-Until the current release is obtained, this record supports source selection
-and variable mapping only, not new ANES estimates.
+The official study page and current codebook are reachable. The current page
+documents 5,521 pre-election completions, 4,964 post-election re-interviews,
+two waves, and the mixed-mode design. The CSV download endpoint is protected
+by the publisher's web challenge when requested from the shell in this
+environment, so no microdata were silently substituted from a mirror.
+
+The current codebook was checked directly for the candidate variables above.
+It confirms, among other things, that `V241539` is a five-category financial
+worry item, `V241291` is the three-category national-economy judgment, and
+`V242066`/`V242067` are post-election presidential turnout and candidate
+reports. It also confirms that post-election analyses require a post-election
+weight and that negative codes such as no post interview, refusal, and
+inapplicable must remain missing-status codes.
+
+The official page remains the acquisition source. A browser-accessible SDA
+analysis interface is recorded as a possible analysis route, but it is not a
+substitute for archiving the current public-use file and codebook. Until the
+current release is obtained locally, this record supports source selection and
+variable mapping only, not new ANES estimates.
 
 ## What this still cannot establish alone
 
