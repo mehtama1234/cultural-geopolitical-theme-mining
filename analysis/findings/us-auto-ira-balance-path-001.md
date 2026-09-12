@@ -1,54 +1,48 @@
 # When a work benefit changes the household balance sheet
 
-## Short answer
+## The argument
 
-Automatic saving can help a worker build an account that would never have been opened. It can also move money away from today's checking account while another balance rises. The same household may show more savings and more credit-card debt at once.
+Automatic saving can help a worker build an account that would never have been opened. It can also move money out of today's checking account while another balance rises. A household can show more retirement saving and more credit-card debt at the same time.
 
-The careful finding is that a workplace benefit has a short-term test and a long-term test. More account ownership is not the same as more usable security.
+That is why a workplace benefit has two tests. The first is whether the default creates an account. The second is whether the household can still pay for food, rent, care, energy, transport, and repairs without expensive borrowing. A larger account is not automatically a larger safety cushion if the money is hard to withdraw or today's gap is filled with interest-bearing debt.
 
-## What the source shows
+## Follow one paycheck through a household
 
-An NBER study compares private-sector workers likely exposed to Oregon's automatic-enrollment IRA with similar workers in states that had not adopted one. The authors find increases in checking or savings account ownership and balances, along with higher credit-card debt.
+An employee is enrolled in an IRA because the employer does not require an active decision to join. A small amount leaves each paycheck. Months later, the worker faces a car repair and puts it on a credit card rather than interrupting the retirement contribution. The retirement balance grows. So does the card balance.
 
-This result shows a change in household accounts, not whether the added savings were liquid, why debt rose, or whether retirement security improved. More debt is not automatically harm if the household also gains a useful buffer or avoids a costlier loan.
-
-[NBER Working Paper 35373](https://www.nber.org/papers/w35373)
-
-## The connection
+Another worker lowers the contribution or withdraws savings. A third has enough cash to leave the default untouched. The same policy creates different balance sheets because the workers began with different cash room.
 
 ```text
-automatic saving at work
-  -> account opens and money moves into it
-  -> less take-home room today
-  -> credit-card balance, spending, or repayment changes
-  -> liquid buffer and retirement security may diverge
-  -> worker and state decide whether the design fits real life
+automatic saving at work → account opens and money moves → less take-home room today
+→ spending, withdrawal, or credit-card balance changes → liquid buffer and retirement security may diverge
 ```
 
-The study supports changes in account ownership, balances, and credit-card debt. The full household tradeoff remains open.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Account opening | An NBER study compares private-sector workers likely exposed to Oregon's automatic-enrollment IRA with similar workers in states without one. | The comparison tests a real default change. |
+| Saving | The study finds increases in checking or savings account ownership and balances. | Automatic enrollment can change account ownership and measured balances. |
+| Borrowing | It also finds higher credit-card debt. | New saving may coexist with less cash room or more borrowing. |
+| Meaning of debt | The study does not explain why debt rose or whether the debt funded a useful buffer, a necessary purchase, or a costly gap. | A higher balance is not by itself proof of harm. |
+| Long-term result | The evidence does not show whether added savings were liquid, whether workers withdrew them, or whether retirement security improved. | Account creation is not the same as usable security. |
 
-**Household:** Automatic saving may protect a future need while making today's rent, food, care, or repair harder to cover. The result depends on income, cash reserves, debt, and whether money can be withdrawn.
+Source: [NBER Working Paper 35373](https://www.nber.org/papers/w35373).
 
-**Employer and sector:** An employer can offer a benefit without raising wages or changing the job's control and schedule. The benefit may improve retention, but the study does not show who pays for it or how workers value it.
+## The deeper finding
 
-**Money and finance:** A new savings balance and a higher credit-card balance can be two sides of one cash-flow choice. The key measure is interest, liquidity, withdrawal, and later repayment—not account ownership alone.
+The default reaches into the timing of household money. It asks a worker to protect a future self with a paycheck that may already be assigned to today's needs. For a worker with reserves, the default may be a quiet gain. For a worker without reserves, it can shift the emergency from savings to a credit card.
 
-**Public power:** State defaults change the choice made when a worker does nothing. Good design must ask whether workers understand the default, can change it, and have a safe way to cover an immediate shock.
+This makes automatic saving both a retirement policy and a short-term cash-flow policy. Its fairness depends on whether the design gives people a safe way to pause, withdraw, or change the contribution when life changes.
 
-## What would change the finding
+## What remains unproven
 
-- Contribution rate, take-home pay, withdrawals, account fees, and tax treatment.
-- Credit-card interest, utilization, repayment, and other borrowing for the same worker.
-- Spending on rent, food, care, energy, transport, and repairs after enrollment.
-- Results by income, age, race, job type, employer size, and access to other plans.
-- Retirement balances and financial security after several years.
+The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, or whether workers understood the default and could change it without friction.
 
 ## Next test
 
-Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, credit-card balances, interest, withdrawals, and essential spending separately.
+Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card utilization, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve and test an easy pause or withdrawal path.
 
 ## Reading rule
 
-Automatic saving is not free money. A larger account is not automatically a larger buffer. Measure what happens today and what remains later.
+Automatic saving is not free money. Measure what happens today and what remains later.
