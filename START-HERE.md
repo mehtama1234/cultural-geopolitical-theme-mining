@@ -219,6 +219,8 @@ The next short pass is [US online reviews and customer trust](analysis/projects/
 
 The next short pass is [US returns, complaints, and the reality behind reviews](analysis/projects/us-review-outcomes-returns/README.md), with its [source search record](analysis/projects/us-review-outcomes-returns/source-search-2026-09-11.md). It tests whether visible review trust matches what happens after the purchase.
 
+The next short pass is [US marketplace seller identity and customer recourse](analysis/projects/us-review-outcomes-returns/README.md), with its [matched finding](analysis/findings/us-marketplace-seller-identity-recourse-matched-evidence-001.md). It tests whether showing who sold the product creates a usable path to a refund, replacement, or appeal.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

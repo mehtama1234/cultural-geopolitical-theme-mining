@@ -14,6 +14,8 @@ Separate review exposure, purchase, product quality, return cost, complaint, rem
 - [Matched evidence pass](../../findings/us-review-outcomes-returns-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-review-outcomes-returns-matched-evidence-001.html)
 
+The next connected pass is [seller identity and customer recourse](../../findings/us-marketplace-seller-identity-recourse-matched-evidence-001.md), with its [HTML page](../../../site/us-marketplace-seller-identity-recourse-matched-evidence-001.html).
+
 ## Decision rule
 
 Move on after one review or ranking measure, one post-purchase outcome, and one remedy measure. Do not call a review accurate without checking what happened afterward.

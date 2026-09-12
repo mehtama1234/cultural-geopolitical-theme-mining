@@ -17,6 +17,7 @@ Do reviews predict what happens after purchase, or do returns and complaints rev
 | NBER-SEARCH-22302 | [NBER: Returns to Consumer Search](https://www.nber.org/papers/w22302) | eBay data show people searched about 36 times per purchase across three days; the paper estimates a search-page cost near 25 cents and links more search with finding lower prices. | Search is not the same as review exposure, and the data do not measure the full return or complaint path. |
 | FTC-REVIEWS-RULE-2024 | [FTC: Final rule on fake reviews](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials) | The rule targets fake, paid-sentiment, insider, deceptive-site, and certain suppressed reviews. | It does not measure post-purchase quality or refund outcomes. |
 | FTC-ONLINE-SHOPPING | [FTC: Online shopping](https://consumer.ftc.gov/articles/online-shopping) | Return windows, shipping cost, restocking fees, refund rules, records, and payment method shape the customer's recovery path. | Guidance does not estimate how often a return is needed or how review information predicted it. |
+| FTC-INFORM-SELLER-ID | [FTC: INFORM Consumers Act](https://www.ftc.gov/business-guidance/resources/INFORMAct) | Marketplaces must collect, verify, and disclose information about many high-volume third-party sellers and provide a way to report suspicious conduct. | Seller identity and a report path do not guarantee a refund, safe product, or fast remedy. |
 
 ## First pattern to test
 
