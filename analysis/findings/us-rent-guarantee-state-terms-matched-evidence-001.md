@@ -1,56 +1,44 @@
 # Rent guarantee changes when the state changes
 
-## Short answer
+## The argument
 
-The first state check shows why a national provider comparison can mislead. Rhino publicly lists four states where its security-deposit alternative is unavailable and separates states using admitted carriers from states that may use nonadmitted excess or surplus-lines carriers. TheGuarantors and Leap also tie coverage to state availability, licensing, filings, and the actual policy.
+A national provider comparison can mislead because the same product name sits inside different state rules, carriers, filings, licenses, and policy forms. A renter in one state may face an admitted carrier, another a surplus-lines arrangement, and another no product at all.
 
-The same product name can therefore sit inside different legal and practical settings. We can compare the public terms, but we cannot yet compare the true price, claim protection, or tenant outcome across states.
+The state is not background paperwork. It can change whether the product is sold, who may offer it, what notice applies, how a claim is challenged, and what the tenant owes afterward.
 
-## What the matched evidence shows
+## Follow one lease across states
 
-| State question | Public record | What remains open |
+A renter compares two apartments with the same rent. The guarantee quote looks similar, but one state requires a different policy form, another uses a different carrier, and a third excludes the product. The tenant cannot compare a price without comparing the legal protection attached to it.
+
+```text
+provider product → state license, filing, carrier, and policy form
+→ property-manager offer → renter price and approval
+→ claim or no claim → repayment, renewal, credit, and housing path
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Is the product offered? | Rhino lists HI, MT, ND, and WY as unavailable for its security-deposit alternative. TheGuarantors says not all coverage is available in every state. | Whether the rent-guarantee product itself has the same list of states. |
-| What kind of insurance is it? | Rhino identifies admitted carriers in a named group of states and possible nonadmitted surplus-lines carriers elsewhere. TheGuarantors identifies California bonds as surplus lines. | The exact carrier, filing, policy form, and protection for each state and renter. |
-| Who may offer it? | Leap publishes state producer licensing information and says applications must go through licensed producers. TheGuarantors and Rhino also describe licensed agency or broker roles. | Whether a property manager presents the product lawfully and clearly in each location. |
-| Is a quote comparable? | Providers say price depends on rent, personal information, financial profile, coverage, and property requirements. | A common quote for the same renter, lease, coverage, tax, fee, and renewal term. |
-| What does the tenant receive? | Public pages describe landlord protection and continued tenant lease duties. | State-specific cancellation, notice, reimbursement, collection, dispute, and credit rules. |
+| Availability | Rhino lists HI, MT, ND, and WY as unavailable for its security-deposit alternative; TheGuarantors says coverage varies by state. | A national product map has gaps. |
+| Insurance form | Rhino separates admitted carriers from possible nonadmitted surplus-lines carriers; TheGuarantors identifies California bonds as surplus lines. | Legal protection can differ by state. |
+| Who may offer it | Leap publishes state producer licensing information and requires licensed producers. | The offer has a state-controlled channel. |
+| Quote | Providers say price depends on rent, personal information, financial profile, coverage, and property requirements. | A quote is not comparable without common inputs. |
+| Tenant result | Public pages describe landlord protection and continuing tenant duties. | The state-specific repayment and dispute path remains open. |
 
 Sources: [Rhino Renter Guarantee](https://www.sayrhino.com/products/renter-guarantee), [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters), and [Leap legal notices](https://leapeasy.com/legal-notices/).
 
-## The connection
+## The deeper finding
 
-```text
-provider product
-  -> state license, filing, carrier, and policy form
-  -> property manager's offer
-  -> renter's price and approval
-  -> landlord claim or no claim
-  -> tenant repayment, renewal, credit, and housing path
-```
+State law helps decide whether a guarantee is a housing aid, a landlord-risk product, or a new tenant debt path. The real comparison is not the product name; it is the policy form, price, claim rule, notice, defense, and repayment obligation in the state where the lease is signed.
 
-The state is not background paperwork. It can change whether the product is sold, who underwrites it, what notice applies, and what a renter can challenge after a claim.
+## What remains unproven
 
-## Four views
-
-**Household:** Compare the same lease cost, premium, reserve, tax, and repayment rule across states.
-
-**Customer and resident:** Show the actual policy before the renter pays, including who benefits and who owes money.
-
-**Money and finance:** Separate admitted coverage, surplus-lines coverage, provider balance sheet, carrier, reserve, and tenant liability.
-
-**Public power:** Ask whether state rules make access safer, more expensive, more limited, or harder to understand.
-
-## What would change the finding
-
-- State insurance-department filings and approved forms for each provider.
-- A matched quote for the same renter and lease in several states.
-- State rules on security deposits, tenant notice, claim recovery, collections, and credit reporting.
-- Actual approvals, claims, repayment, renewals, and moves by state.
+We do not yet have matched quotes, state filings, approvals, claims, repayment, renewals, moves, collections, or housing outcomes for the same renter across states.
 
 ## Next test
 
-Start with New York, California, Texas, and Illinois. For each, collect the provider policy form, license or surplus-lines record, coverage limit, price inputs, cancellation rule, claim rule, and tenant repayment language. Keep unavailable, unknown, and not publicly disclosed as different labels.
+Start with New York, California, Texas, and Illinois. Collect the policy form, license or surplus-lines record, coverage limit, price inputs, cancellation rule, claim rule, and tenant repayment language. Mark unavailable, unknown, and not publicly disclosed separately.
 
 ## Reading rule
 

@@ -1,56 +1,45 @@
 # Rent guarantee products open the lease, but may leave the loss with the tenant
 
-## Short answer
+## The argument
 
-The first US products we found are mostly lease guarantees. They help a renter qualify when a landlord wants a guarantor, and they protect the landlord against unpaid rent or damage. They are not the same as a benefit that pays the tenant's rent and ends the household's loss.
+A rent guarantee can help a renter pass a landlord's screen when a normal guarantor, income record, or deposit is missing. It can also protect the landlord against unpaid rent or damage. Those are not the same as a benefit that pays the tenant's rent and ends the household's loss.
 
-The key detail is recovery. TheGuarantors says that if it pays the landlord, the renter must repay the company. Rhino gives the property manager a role in offering the product, may require an upfront premium and reserve, and also says the renter repays a claim. The product can widen access to an apartment while moving the unpaid bill from landlord to renter-provider debt.
+The key detail is recovery. If the provider pays the landlord, the renter may still repay the company. The product can widen access to an apartment while moving the unpaid bill from landlord to renter-provider debt.
 
-## What the matched evidence shows
+## Follow one lease
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Entry | TheGuarantors and Rhino describe products for renters who may not meet a landlord's ordinary guarantor, credit, or income rules. | Whether the renter would otherwise be rejected, or whether the product changes the landlord's screening. |
-| Price | TheGuarantors charges an upfront, non-refundable premium based on rent, property requirements, and financial information. Rhino lists a premium and possible refundable reserve. | The price by renter, state, rent level, risk group, or lease length. |
-| Beneficiary | TheGuarantors names the landlord as beneficiary. Rhino describes the landlord as the party able to claim. | Whether the tenant receives any direct cash or time to recover. |
-| Default | TheGuarantors says it can pay an outstanding landlord claim, then seeks reimbursement from the renter. Rhino says the same for a valid claim. | Whether repayment is affordable, negotiated, reported to credit, or sent to collections. |
-| Housing result | The products may make a landlord more willing to approve a lease. | Whether the renter stays housed, pays more, renews, or becomes more indebted after a claim. |
-
-Sources: [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters), [TheGuarantors help page](https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay), [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee), and [Columbia Business School's research brief](https://business.columbia.edu/research-brief/rent-guarantee-insurance-housing-crisis).
-
-## The connection
+A renter cannot meet a landlord's ordinary guarantor rule. A provider offers a guarantee for an upfront premium. The renter gets the lease, then loses income. The provider pays a valid landlord claim, but the renter still owes under the agreement. Entry improved; later balance-sheet risk moved.
 
 ```text
-thin credit, income, or guarantor record
-  -> landlord asks for extra security
-  -> renter buys lease guarantee
-  -> renter gets the lease, but pays a premium
-  -> default leads to landlord payment and renter reimbursement debt
-  -> housing access may improve while balance-sheet risk moves
+thin credit, income, or guarantor record → extra landlord security
+→ renter buys guarantee → lease access improves
+→ default → landlord payment and renter reimbursement debt
+→ housing access may improve while financial risk moves
 ```
 
-This makes the product a gate-opening tool and a landlord risk tool at the same time. It does not yet prove that it is a household shock absorber.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Entry | TheGuarantors and Rhino describe products for renters who may not meet ordinary guarantor, credit, or income rules. | The product can open a lease gate. |
+| Price | TheGuarantors describes an upfront, non-refundable premium; Rhino lists a premium and possible reserve. | Access has a new cost before the crisis. |
+| Beneficiary | TheGuarantors names the landlord as beneficiary; Rhino describes the property manager as claimant. | Protection is aimed first at the landlord. |
+| Default | Both providers say a valid landlord claim can be paid and then sought from the renter. | Payment does not erase tenant liability. |
+| Missing result | Public pages do not show whether renters stay housed, renew, pay more, or enter collections. | Access is not lasting stability. |
 
-**Household:** Count the premium, reserve, rent, deposit avoided, claim, repayment, and next housing search.
+Sources: [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters), [TheGuarantors rent help](https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay), [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee), and [Columbia research brief](https://business.columbia.edu/research-brief/rent-guarantee-insurance-housing-crisis).
 
-**Customer and resident:** Ask whether the renter gets a safer home or only another way to pass the landlord's screen.
+## The deeper finding
 
-**Money and finance:** Separate insurance risk, landlord loss, tenant debt, provider recovery, and public cost.
+This is a gate-opening tool and a landlord-risk tool at the same time. It is not yet proven to be a household shock absorber. The useful outcome is whether access lasts and who carries the loss after default.
 
-**Public power:** Decide whether the goal is access to a lease, fewer evictions, lower homelessness, or less household debt. One product may not do all four.
+## What remains unproven
 
-## What would change the finding
-
-- De-identified policy records showing approvals, prices, claims, recoveries, cancellations, and collections.
-- The same renter's housing, rent, credit, work, and debt path before and after a claim.
-- A comparison with a cash deposit, a personal guarantor, direct rent aid, and public insurance.
-- Evidence that landlords lower screening barriers or deposits rather than simply shifting liability.
+We do not have de-identified records showing approvals, prices, claims, recoveries, collections, renewals, moves, credit, work, and household debt for the same renter.
 
 ## Next test
 
-Build a product-term table across providers and states, then find a dataset that follows approved renters and rejected applicants for at least one renewal cycle. The first outcome should be whether access lasts; the second should be who carries the loss after default.
+Build a provider-and-state term table, then follow approved renters and rejected applicants through one renewal cycle. Compare the product with a cash deposit, personal guarantor, direct rent aid, and public insurance.
 
 ## Reading rule
 

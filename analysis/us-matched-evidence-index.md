@@ -420,7 +420,7 @@ Rent-guarantee insurance is meant to pay a limited number of rents after an inco
 **Route:** lease screen → guarantee premium → tenant repayment risk
 **Still open:** lasting access and post-claim household debt
 
-The first US products we found are mostly lease guarantees. They help a renter qualify when a landlord wants a guarantor, and they protect the landlord against unpaid rent or damage. They are not the same as a benefit that pays the tenant's rent and ends the household's loss.  The key detail is recovery. TheGuarantors says that if it pays the landlord, the renter must repay the company. Rhino gives the property manager a role in offering the product, may require an upfront premium and reserve, and also says the renter repays a claim. The product can widen access to an apartment while moving the unpaid bill from landlord to renter-provider debt.
+A rent guarantee can help a renter pass a landlord's screen when a normal guarantor, income record, or deposit is missing. It can also protect the landlord against unpaid rent or damage. Those are not the same as a benefit that pays the tenant's rent and ends the household's loss.  The key detail is recovery. If the provider pays the landlord, the renter may still repay the company. The product can widen access to an apartment while moving the unpaid bill from landlord to renter-provider debt.
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-market-matched-evidence-001.md)
 
@@ -430,7 +430,7 @@ The first US products we found are mostly lease guarantees. They help a renter q
 **Route:** provider screen → paid guarantee → landlord protection → tenant debt
 **Still open:** state terms, claims, repayment, and renewals
 
-The first provider comparison shows a shared shape, not a single standard product. TheGuarantors, Rhino, and Leap each describe a tool that helps a landlord accept a renter who lacks a normal guarantor or does not meet the usual screen. The renter generally pays. The property manager often controls the invitation or offer. Coverage is limited by the policy, and the renter may still owe the provider after a claim.  That means the market sits between housing access and landlord insurance. It may help someone enter a home, but the public descriptions do not show that it lowers the renter's total risk. The missing piece is the contract and outcome data: price, approval, exclusion, claim, repayment, renewal, and later housing.
+The first provider comparison shows a shared shape, not a standard product. TheGuarantors, Rhino, and Leap describe tools that help a landlord accept a renter without a normal guarantor or under the usual screen. The renter generally pays, and the property manager may control the offer.  Coverage is limited by the policy, bond, state filing, or lease term. After a claim, the renter may still owe the provider. The market sits between housing access and landlord insurance; its public pages do not show that it lowers total tenant risk.
 
 [Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
 
@@ -440,7 +440,7 @@ The first provider comparison shows a shared shape, not a single standard produc
 **Route:** provider → state filing → policy terms → tenant risk
 **Still open:** state policy forms, prices, and post-claim outcomes
 
-The first state check shows why a national provider comparison can mislead. Rhino publicly lists four states where its security-deposit alternative is unavailable and separates states using admitted carriers from states that may use nonadmitted excess or surplus-lines carriers. TheGuarantors and Leap also tie coverage to state availability, licensing, filings, and the actual policy.  The same product name can therefore sit inside different legal and practical settings. We can compare the public terms, but we cannot yet compare the true price, claim protection, or tenant outcome across states.
+A national provider comparison can mislead because the same product name sits inside different state rules, carriers, filings, licenses, and policy forms. A renter in one state may face an admitted carrier, another a surplus-lines arrangement, and another no product at all.  The state is not background paperwork. It can change whether the product is sold, who may offer it, what notice applies, how a claim is challenged, and what the tenant owes afterward.
 
 [Read the HTML page](../site/us-rent-guarantee-state-terms-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-state-terms-matched-evidence-001.md)
 

@@ -1,58 +1,44 @@
 # Rent guarantee is not one product
 
-## Short answer
+## The argument
 
-The first provider comparison shows a shared shape, not a single standard product. TheGuarantors, Rhino, and Leap each describe a tool that helps a landlord accept a renter who lacks a normal guarantor or does not meet the usual screen. The renter generally pays. The property manager often controls the invitation or offer. Coverage is limited by the policy, and the renter may still owe the provider after a claim.
+The first provider comparison shows a shared shape, not a standard product. TheGuarantors, Rhino, and Leap describe tools that help a landlord accept a renter without a normal guarantor or under the usual screen. The renter generally pays, and the property manager may control the offer.
 
-That means the market sits between housing access and landlord insurance. It may help someone enter a home, but the public descriptions do not show that it lowers the renter's total risk. The missing piece is the contract and outcome data: price, approval, exclusion, claim, repayment, renewal, and later housing.
+Coverage is limited by the policy, bond, state filing, or lease term. After a claim, the renter may still owe the provider. The market sits between housing access and landlord insurance; its public pages do not show that it lowers total tenant risk.
 
-## What the matched evidence shows
+## Follow one offer
 
-| Comparison point | The record shows | What remains open |
-|---|---|---|
-| Who opens the door | TheGuarantors and Leap describe applications for people without a personal guarantor; Rhino says the property manager decides whether to offer coverage. | How often the product turns a denial into an approval. |
-| Who pays | TheGuarantors describes an upfront premium; Rhino describes a premium and possible reserve; Leap describes a one-time premium. | Total cost, taxes, renewal cost, and cost by risk group. |
-| Who is protected | Provider pages describe landlord or operator protection for rent, damage, or other lease losses. | Whether the tenant gets payment, time, legal help, or only lease approval. |
-| What is covered | Coverage is limited by a chosen amount, policy, bond, state filing, or lease term. | The full exclusions, claim deadlines, deductibles, and state differences. |
-| What happens after a claim | TheGuarantors and Rhino say the renter remains responsible for reimbursement; Leap's public page confirms lease obligations continue but does not give the full repayment terms. | Whether debt is affordable, reported, collected, settled, or linked to future housing. |
-| Is it one market? | Three providers use similar language around missing guarantors and landlord protection. | Whether their legal form, underwriting, carriers, prices, and outcomes are actually comparable. |
-
-Sources: [TheGuarantors lease guarantee](https://www.theguarantors.com/products-rent-coverage), [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters), [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee), and [Leap Rent Guaranty](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage).
-
-## The connection
+A property manager offers three renters a guarantee instead of a larger deposit. Each pays a different premium or reserve. One is approved, one is screened out, and one later faces a claim. The product name sounds similar, but price, coverage, state law, repayment, and renewal may differ.
 
 ```text
-tenant fails the ordinary screen
-  -> property manager offers a provider
-  -> renter pays to move forward
-  -> provider protects the landlord within a limit
-  -> default may create provider reimbursement debt
-  -> entry is easier, but the later loss is still unknown
+ordinary screen → provider offer → renter premium or reserve
+→ lease approval → landlord protection within a limit
+→ claim or no claim → tenant repayment, renewal, or move
 ```
 
-The connected issue is not simply “rent insurance grows.” It is that the housing gate may be moved into a paid, privately underwritten product. That can help a renter with a thin record while making access depend on another approval and another bill.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Who opens the door | TheGuarantors and Leap describe applications for renters without a personal guarantor; Rhino says the property manager decides whether to offer coverage. | Access may depend on the property manager. |
+| Who pays | TheGuarantors describes an upfront premium; Rhino a premium and possible reserve; Leap a one-time premium. | The renter pays to pass the gate. |
+| Who is protected | Provider pages describe landlord or operator protection for rent, damage, or lease losses. | Tenant cash protection is not the stated center. |
+| What is covered | Limits depend on the policy, bond, state filing, or lease term. | Similar labels can hide different exclusions. |
+| After a claim | TheGuarantors and Rhino say the renter remains responsible for reimbursement; Leap says lease duties continue. | Later debt is a key comparison point. |
 
-**Household:** Compare cash needed today with the claim and repayment risk later.
+Sources: [TheGuarantors lease coverage](https://www.theguarantors.com/products-rent-coverage), [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee), and [Leap Rent Guaranty](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage).
 
-**Customer and resident:** Record who chose the product, who could refuse it, and whether another deposit or guarantor was still required.
+## The deeper finding
 
-**Money and finance:** Follow premium, reserve, coverage limit, landlord loss, provider recovery, and tenant debt as separate amounts.
+The housing gate may move into a paid, privately underwritten product. That can help a renter with a thin record while making access depend on another approval and another bill. Provider slogans are not comparable outcomes.
 
-**Public power:** Ask whether the product expands housing access, shifts risk away from landlords, or creates a new private screen for renters.
+## What remains unproven
 
-## What would change the finding
-
-- Full policy forms and state filings for each provider.
-- Prices and approval outcomes by income, credit history, immigration status, rent, and location.
-- Claim counts, claim payment time, reimbursement, collections, and credit reporting.
-- Lease renewal and move outcomes for renters who used coverage.
-- A fair comparison with a cash deposit, personal guarantor, direct rent aid, and public guarantee.
+Public pages do not show full policy forms, approval rates, prices by risk group, claims, repayment, collections, renewal, or later housing. We also do not know whether landlords lower ordinary screening barriers or simply shift liability.
 
 ## Next test
 
-Build a state-by-state table from policy forms and regulator filings. Then seek de-identified provider or property-manager records that link the initial screen to approval, default, claim, repayment, renewal, and move-out.
+Collect full policy forms and state filings. Compare the same renter and lease across providers, then link screen, approval, default, claim, repayment, renewal, and move-out.
 
 ## Reading rule
 
