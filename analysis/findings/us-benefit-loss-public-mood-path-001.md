@@ -1,57 +1,45 @@
 # When a benefit loss changes the public mood
 
-## Short answer
+## The argument
 
-A household can feel the end of a public benefit as a real loss of room before it becomes a political opinion. The change may show up in rent, food, stress, or a judgment about the economy.
+A benefit can leave a household’s budget before it leaves the household’s memory. When a monthly payment ends, the family may pay less rent debt, buy food with more ease, or keep a small cash buffer for a time. When it ends, the same family may put a bill on a card, cut food, delay care, or tell itself that the economy has become less fair.
 
-The careful finding is that losing the expanded Child Tax Credit changed consumer sentiment. Sentiment is not a vote, and it does not by itself show a change in trust, spending, or support for a party.
+That last step is easy to overstate. Feeling worse is not the same as changing a party, trusting government less, or voting differently. The useful path has three distinct parts: the money changes, the household adjusts, and the person forms a public judgment. The evidence is strongest for the first two and for a change in consumer sentiment. It is not evidence of a changed vote.
 
-## What the sources show
+## What the sources establish
 
 An NBER study uses monthly consumer-sentiment data and differences in likely benefit loss after the expanded 2021 Child Tax Credit expired. It estimates that each $1,000 lost reduced sentiment by 1.7 points, with larger effects among lower-income families with multiple children. The effect persisted for nearly two years.
 
-A separate NBER study finds that the monthly credit was associated with less back-owed rent or mortgage and changes in living arrangements among low-income parents. HBS reports that more money can give people more control over daily problems and reduce stress.
+Another NBER study finds that the monthly credit was associated with less back-owed rent or mortgage and changes in living arrangements among low-income parents. HBS research reports that more money can give people more control over daily problems and reduce stress.
 
-These sources do not show that the same family spent less, lost trust, changed party support, or voted differently after the benefit ended.
+These sources do not show that the same family spent less, lost trust, changed party support, or voted differently after the credit ended. They also do not tell us whether a lower payment was replaced by work income, debt, family help, or another program.
 
-- [NBER Working Paper 35059: When Policy Shapes Perception](https://www.nber.org/papers/w35059)
-- [NBER Working Paper 31339: The 2021 Child Tax Credit, Living Arrangements and Housing Affordability](https://www.nber.org/papers/w31339)
-- [HBS: More Proof That Money Can Buy Happiness](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness)
+Sources: [NBER policy and perception](https://www.nber.org/papers/w35059), [NBER Child Tax Credit and housing](https://www.nber.org/papers/w31339), and [HBS money and control](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness).
 
-## The connection
+## Follow the loss
 
-```text
-benefit starts or ends
-  -> household cash and housing room change
-  -> people judge their own financial position differently
-  -> consumer sentiment changes
-  -> spending, trust, blame, or voting may change
-```
+benefit starts or ends → household cash and housing room change → food, rent, care, debt, work, or savings adjusts → personal financial judgment changes → sentiment, trust, blame, or voting may change
 
-People may feel worse because their cash really fell, not because they formed a new political view. A lower sentiment score can also sit beside stable work, housing, or long-term plans.
+The monthly payment can matter even when annual income changes little. A household with a small buffer may feel the loss on the first due date. A household with savings may feel it later. A family may report lower sentiment because its room shrank while keeping the same job and home.
 
-## The four outside views
+The political meaning is not automatic. People may blame prices, employers, Congress, a state program, or no institution at all. Party identity and local news may shape the story after the budget has changed.
 
-**Household:** A family uses a monthly payment for food, rent, care, debt, or a small buffer. The loss may create a new tradeoff even when income from work has not changed.
+## What must stay separate
 
-**Company and sector:** Landlords, stores, lenders, care providers, and employers may see a change in payment timing, demand, or work pressure after the benefit ends. The study does not show which firm received the effect.
+- Lost cash and lower sentiment.
+- Rent or food pressure and a change in trust.
+- Trust and party support.
+- Sentiment and turnout or vote choice.
+- A benefit ending and a benefit being replaced by work or debt.
+- A short-term budget gap and a lasting household loss.
 
-**Money and finance:** Count the lost cash, rent or mortgage arrears, food, debt, savings, stress, and any replacement aid. Sentiment is a view of the situation, not a balance-sheet measure.
+## The household test
 
-**Public power:** A benefit can shape how people experience government through the monthly budget. Clear eligibility, payment timing, renewal, and explanation may affect whether a loss is seen as a rule, a failure, or a temporary change.
-
-## What would change the finding
-
-- The same family's cash, spending, saving, debt, rent, food, care, and work after the loss.
-- Sentiment, trust in government, perceived fairness, policy knowledge, and blame.
-- News, party identity, local prices, jobs, housing, and other policy changes.
-- Turnout, vote choice, political contact, and support for renewing the benefit.
-- Effects by income, family size, race, state, disability, and housing status.
-- Whether restoring the benefit reverses sentiment or only eases the budget.
+For one family, record the payment, rent, food, energy, care, debt, savings, work, and stress before and after the change. Ask what was cut first and what replaced the payment. A sentiment score becomes more useful when tied to the actual trade: a late rent payment, a smaller grocery basket, a new card balance, or a lost emergency buffer.
 
 ## Next test
 
-Follow families before, during, and after a benefit start or end for two years. Join payment records to rent, food, debt, savings, work, sentiment, trust, policy knowledge, and political action. Keep the cash effect separate from the story people tell about it.
+Follow families two years before and after a benefit starts or ends. Join payment records to rent, food, debt, savings, work, sentiment, trust, policy knowledge, and political action. Compare families with similar income and children but different exposure to the change. Test whether restoring the payment reverses sentiment or only repairs the budget.
 
 ## Reading rule
 
