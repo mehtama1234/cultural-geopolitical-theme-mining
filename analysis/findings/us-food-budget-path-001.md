@@ -10,6 +10,8 @@ Food hardship therefore shows how much room remains after other claims arrive. I
 
 At the start of the month, a family pays rent and buys medicine. A car repair arrives before payday. The family switches to cheaper food, skips a meal, uses buy-now-pay-later, or asks a relative for help. The choice protects one need by exposing another. A month later, a child misses a school activity, a parent misses work, or the family carries a payment that reduces next month's food budget.
 
+The order of the bills matters. A family may have enough money for food over a month but not enough on the day rent, medicine, and fuel are due together. It may use food as the most flexible part of the budget because the landlord, utility, or lender will not wait. What looks like a food decision can therefore be a response to the timing and power of another bill.
+
 ```text
 price, income, energy, health, or housing shock → food budget tightens
 → less food, different food, credit, family help, or public assistance → health, work, school, stress, or debt changes
@@ -32,13 +34,17 @@ Sources: [USDA food security](https://www.ers.usda.gov/publications/113622), [US
 
 The dinner table is a balance sheet with due dates. Families do not experience “the economy” as one number; they move money among food, rent, energy, medicine, transport, and debt as each demand arrives. That is why a household can look solvent in annual income and still be unable to eat adequately during a short gap.
 
+Food is also a record of what the family cannot easily postpone. A cheaper meal may protect rent today while reducing diet quality. A skipped meal may protect a child’s food while an adult goes without. Credit may preserve the grocery trip while turning next month into a tighter one. These are not interchangeable outcomes, even when a survey records only whether the household had enough to eat.
+
+The wider link is to bargaining power. A household with little cash cannot make every provider wait, so it cuts the need with the fewest immediate penalties. A public food benefit, a predictable paycheck, or a payment plan can change that order. If help arrives late or is hard to use, the household may still experience the policy as absent. This can shape trust, but the current evidence does not show when food hardship becomes a political demand.
+
 ## What remains unproven
 
-The evidence does not establish whether food prices, income loss, medical costs, energy, housing, or debt is the first break for a particular family. It does not show whether credit prevented a meal from being skipped or made the next month worse. Nor does one food measure reveal diet quality, child health, or the amount of unpaid family help.
+The evidence does not establish whether food prices, income loss, medical costs, energy, housing, or debt is the first break for a particular family. It does not show whether credit prevented a meal from being skipped or made the next month worse. Nor does one food measure reveal diet quality, child health, the timing of the bill, or the amount of unpaid family help. It also does not show whether a public benefit changed food security by raising income, changing timing, or preventing another payment.
 
 ## Next test
 
-Use Census HTOPS for recent food insufficiency, difficulty paying usual expenses, housing, and energy use. Pair it with USDA state estimates and credit measures. Follow the same households through food, energy, rent, medical, debt, health, and work changes, recording the due date that forced each trade.
+Use Census HTOPS for recent food insufficiency, difficulty paying usual expenses, housing, and energy use. Pair it with USDA state estimates and credit measures. Follow the same households through food, energy, rent, medical, debt, health, and work changes, recording the due date that forced each trade, the need cut first, and whether help arrived before or after the cut. Separate food quantity, food quality, credit use, and unpaid family support.
 
 ## Reading rule
 
