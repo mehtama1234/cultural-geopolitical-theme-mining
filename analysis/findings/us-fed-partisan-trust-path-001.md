@@ -14,6 +14,8 @@ A family sees its credit-card rate rise and hears that tighter policy will bring
 
 The message can still change blame. A household may accept the rate decision but blame the president, the Fed, or firms for the price it faces. Belief, behavior, and political judgment must therefore be recorded separately.
 
+The timing creates a hard test. A message about future inflation may change what a person expects next year, while a credit-card rate or rent payment changes the budget today. A household can update its belief and still have no room to act. Another may act because the bill is due, even while rejecting the institution's explanation.
+
 ```text
 price experience and political identity
   -> perceived institutional alignment
@@ -39,13 +41,19 @@ Public communication is part of economic policy because people must decide wheth
 
 This creates a political gap between explanation and experience. Officials may explain a rate through national inflation. Households may judge it through a credit-card bill or mortgage reset. The explanation can be accurate while failing to feel relevant to the decision the family must make today.
 
+Trust also changes the information path. A person who distrusts the Fed may ignore its message and use a bank, employer, news source, or political leader instead. That alternative may offer a clearer story, but not a more accurate one. The result can be a split between the policy signal officials send and the cause households think they are living through.
+
+The household's room is the missing link. A person with savings can respond to a rate change by waiting, refinancing, or changing a purchase. A person with no cash may carry the higher payment regardless of belief. This is why trust should not be treated as a free-standing attitude: its effect depends on whether the family can do anything with the information.
+
+The public path remains indirect. If a family hears one explanation, sees another bill, and cannot get relief, it may change who it blames or which policy it supports. But party identity, media, and other concerns can dominate. The evidence supports a difference in message receipt and belief, not a general theory of economic voting.
+
 ## What remains unknown
 
-The studies do not show actual spending, saving, borrowing, credit balances, or lasting communication effects. They do not establish that a partisan trust gap changes a vote or that a different message changes a household’s inflation.
+The studies do not show actual spending, saving, borrowing, credit balances, or lasting communication effects. They do not establish that a partisan trust gap changes a vote or that a different message changes a household’s inflation. They do not show whether people used another source instead, or whether the household had enough room to act on its belief.
 
 ## Next test
 
-Follow households from a real Fed communication for six months. Join exposure, source, party cues, belief, prices, income, spending, saving, borrowing, credit, turnout, and policy views. Record whether the household had room to act.
+Follow households from a real Fed communication for six months. Join exposure, source, party cues, belief, prices, income, spending, saving, borrowing, credit, turnout, and policy views. Record which bill changed, which information source was trusted, whether the household had room to act, and whether it changed behavior before changing its political judgment.
 
 ## Reading rule
 
