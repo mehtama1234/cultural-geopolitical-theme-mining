@@ -64,6 +64,7 @@ routes = {
     "us-repeat-energy-crises-matched-evidence-001": ("Energy / cost / housing / public power", "first crisis → intervention → next bill and repeat need", "cause of repeat need and the fix that lasts"),
     "us-utility-bill-timing-rate-design-matched-evidence-001": ("Energy / cost / finance / housing", "rate design and season → monthly bill → cash gap or arrears", "whether timing or structure causes the break"),
     "us-utility-payment-plans-budget-billing-matched-evidence-001": ("Energy / cost / finance / voice", "payment plan → smoother bill → true-up or stable service", "whether smoothing lowers burden or delays it"),
+    "us-utility-entry-cost-credit-screening-matched-evidence-001": ("Energy / cost / finance / voice", "new account or past debt → deposit or credit screen → service access", "whether entry rules create a basic-service barrier"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

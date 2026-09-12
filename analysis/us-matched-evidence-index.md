@@ -564,7 +564,17 @@ An annual energy average can hide the month that breaks a household. EIA shows t
 
 [Read the HTML page](../site/us-utility-bill-timing-rate-design-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-bill-timing-rate-design-matched-evidence-001.md)
 
-### 57. A smoother bill can move the problem rather than end it
+### 57. The cost of entering utility service can become a credit gate
+
+**Theme:** Energy / cost / finance / voice
+**Route:** new account or past debt → deposit or credit screen → service access
+**Still open:** whether entry rules create a basic-service barrier
+
+Utility service can carry a credit test before the first bill. CFPB says a utility security deposit is a credit term when the company supplies service before collecting payment. It also says most regular utility payments do not reach the three major credit bureaus, while unpaid accounts sent to collections can appear; a specialty utility reporting system may use past payment history to require a deposit. That creates an uneven path: good payment may not build a widely seen record, but a failure may follow the household into collections or a new deposit. The deeper finding is that access to basic service can depend on a record that is mostly invisible when positive and visible when negative.
+
+[Read the HTML page](../site/us-utility-entry-cost-credit-screening-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-entry-cost-credit-screening-matched-evidence-001.md)
+
+### 58. A smoother bill can move the problem rather than end it
 
 **Theme:** Energy / cost / finance / voice
 **Route:** payment plan → smoother bill → true-up or stable service
@@ -574,7 +584,7 @@ Budget billing can make a seasonal utility bill easier to plan because the custo
 
 [Read the HTML page](../site/us-utility-payment-plans-budget-billing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-payment-plans-budget-billing-matched-evidence-001.md)
 
-### 58. A car repair can protect access while taking away other room
+### 59. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -584,7 +594,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 59. Efficiency savings are real but smaller than the promise
+### 60. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health

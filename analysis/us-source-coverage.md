@@ -1,8 +1,8 @@
 # US source coverage
 
-97 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+98 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 12; CMS: 1; Census: 11; DOE: 12; EIA: 14; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 15; CMS: 1; Census: 11; DOE: 13; EIA: 15; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2187,6 +2187,24 @@
 - [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
 
 [Open the source-search record](projects/us-utility-bill-timing-rate-design/source-search-2026-09-11.md)
+
+## US utility entry costs and credit screening
+
+**Project:** `us-utility-entry-cost-credit-screening`
+
+**Status:** matched evidence pass complete; state-by-state deposit and connection outcomes remain open
+
+**Question:** Can a deposit, late fee, or utility credit check block service for a household before it has used any energy?
+
+**Sources recorded:** 5
+
+- [CFPB: utility payment history and credit reports](https://www.consumerfinance.gov/ask-cfpb/does-my-history-of-paying-utility-bills-like-telephone-cable-electricity-or-water-go-in-my-credit-report-en-1817/)
+- [CFPB: National Consumer Telecom & Utilities Exchange](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/national-consumer-telecom-utilities-exchange/)
+- [CFPB Regulation B: utility security deposits](https://www.consumerfinance.gov/rules-policy/regulations/1002/3/)
+- [DOE: energy-help resources](https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+
+[Open the source-search record](projects/us-utility-entry-cost-credit-screening/source-search-2026-09-11.md)
 
 ## US utility payment plans and budget billing
 
