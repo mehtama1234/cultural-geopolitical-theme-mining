@@ -1,51 +1,41 @@
 # When the due date is part of the energy burden
 
-## Short answer
+## The argument
 
-The energy burden is not only the size of the bill. It also includes when money arrives, when the bill is due, whether the date can be moved, and what happens after a late payment.
+The energy burden is not only the size of the bill. It also includes when money arrives, when the bill is due, whether the date can be moved, and what happens after a late payment. A bill that is manageable over a month can be impossible in one week.
 
-A timing mismatch may lead to arrears, a shutoff, a reconnection fee, borrowing, or a missed service. Those are separate outcomes and should not be treated as one event.
+The timing problem becomes sharper for a household with irregular pay, benefit dates, medical equipment, children, or a high energy need. A late payment may lead to arrears, a shutoff, a reconnection fee, borrowing, or a missed service. Those are separate outcomes. A notice is not a shutoff, and a shutoff is not automatically a health event.
 
-## What the sources show
+The deeper finding is that a utility rule can turn a timing mismatch into a financial and household risk. The amount owed may not change, but the date can decide whether the household keeps food, medicine, rent, credit, and a safe temperature.
 
-An NBER project tests whether having a utility bill due late in the month, after income arrives, changes late payment, shutoff, credit scores, emergency-department use, arrests, and other outcomes. An NBER research digest explains why benefit and bill timing can affect whether households pay necessary bills.
+## Follow one bill date
 
-The Department of Energy measures energy burden as the share of income spent on home energy and shows that it differs by income and place. That measure explains who is exposed, but it does not show a due-date or shutoff result. An HBS workplace safety account offers a comparison: basic protection depends on clear responsibility and action when a risk is visible.
-
-- [NBER: Impact of Benefit Receipt on Financial Security](https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new)
-- [NBER: How Bill Timing Affects Low-Income and Aged Households](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households)
-- [DOE: Low-Income Energy Affordability Data Tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
-- [HBS: Who Guarantees Your Workplace Is Safe for Return?](https://www.library.hbs.edu/working-knowledge/who-guarantees-your-workplace-is-safe-for-return)
-
-## The connection
+A worker is paid on Friday, but the utility bill is due Tuesday. A medical bill already used the household’s cash. The worker can pay late, borrow, request a payment plan, reduce food spending, or risk a shutoff. If the utility moves the due date or aid arrives before the deadline, the same household may avoid the chain. The bill amount alone does not explain the result.
 
 ```text
-income or benefit arrives
-  -> utility bill is due at a different time
-  -> late payment or arrears
-  -> shutoff, reconnection fee, borrowing, or missed service
-  -> credit, health, work, or trust in institutions changes
+income or benefit arrives → utility bill is due at a different time
+→ late payment or arrears → shutoff, reconnection fee, borrowing, or missed service
+→ credit, health, work, or trust in institutions changes
 ```
 
-Many households can move a due date, use help, or pay without a shutoff. A late bill is not automatically a health event.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Timing study | An NBER project tests whether a utility bill due late in the month, after income arrives, changes late payment, shutoff, credit scores, emergency-department use, arrests, and other outcomes. | Due dates can be tested as a cause of later outcomes. |
+| Benefit timing | NBER research explains why benefit and bill timing can affect whether low-income and older households pay necessary bills. | The mismatch is a budget problem, not only a discipline problem. |
+| Exposure | DOE measures energy burden as the share of income spent on home energy and shows it differs by income and place. | Burden identifies exposure but not a due-date or shutoff result. |
+| Limits | Households can move a due date, use help, or pay without a shutoff. | A late bill is not automatically a health event. |
 
-**Household:** A bill that looks manageable over a month can be hard on one week. Weather, medical equipment, children, and irregular pay can make the timing matter more.
+Sources: [NBER benefit timing research](https://www.nber.org/programs-projects/projects-and-centers/retirement-and-disability-research-center/7573-nb19-09-impact-benefit-receipt-financial-security-among-low-income-and-aged-households-new), [NBER bill timing](https://www.nber.org/brd/how-bill-timing-affects-low-income-and-aged-households), and [DOE LEAD](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool).
 
-**Company and sector:** Utilities, landlords, banks, and aid groups each control one part of the payment path. A rule at one point can create a fee or risk somewhere else.
+## The deeper finding
 
-**Money and finance:** Arrears may become a reconnection fee, a credit problem, or high-cost borrowing. Avoiding a shutoff can still reduce food, rent, or medicine money.
+The date of a bill is part of its price. A household may avoid a shutoff by paying a fee, borrowing, or giving up another need. A rule that gives more time may prevent that trade, but only if service protection, payment plans, and aid arrive before the deadline.
 
-**Public power:** Due-date rules, shutoff protections, payment plans, energy aid, and weather rules decide who gets time and who pays for the mismatch.
+## What remains unproven
 
-## What would change the finding
-
-- Income and benefit dates, bill dates, arrears, shutoff, and reconnection charges.
-- Weather, home condition, medical equipment, children, and irregular work.
-- Credit, emergency care, missed work, school, and health after the payment problem.
-- Utility rules and aid programs by state and customer type.
-- Households that avoid shutoff through borrowing, family help, or another sacrifice.
+The sources do not follow the same household from income and benefit dates through the bill, arrears, shutoff, reconnection, credit, emergency care, missed work, and health. They do not show which timing rule works best by state, utility, home condition, medical need, or work pattern.
 
 ## Next test
 
