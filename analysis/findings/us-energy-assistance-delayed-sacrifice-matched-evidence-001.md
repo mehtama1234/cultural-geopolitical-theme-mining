@@ -1,53 +1,44 @@
-# Help can restore service without proving household stability
+# When energy assistance restores service without proving stability
 
-## Short answer
+## The argument
 
-Energy assistance clearly reaches households in crisis and can restore service, but the current public measures do not prove that the household became stable. HHS reports nearly 6 million households helped by LIHEAP in FY24 and 279,000 reported instances of restored home energy. EIA separately finds that many homes faced unsafe temperatures, skipped food or medicine, shutoff notices, or broken equipment. GAO shows that even households with rental help can remain under pressure when utility allowances do not cover actual costs. The deeper finding is simple: a restored connection is an immediate result; it is not the same as a safe home through the next bill cycle.
+Energy assistance clearly reaches households in crisis and can restore service. That is an important immediate result. It does not prove that the household became stable. The next bill, a broken heater, a rent shortfall, unsafe temperature, skipped medicine, or a missed shift may still be waiting.
 
-## What the matched evidence shows
+The useful unit is the same household over time: service on, a safe temperature, no sacrificed food or medicine, and enough room for rent and work. A restored connection answers what happened today. It does not answer whether the family can make it through the next bill cycle.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Reach | LIHEAP helped nearly 6 million households or families in FY24. | How many eligible households were not reached and why. |
-| Crisis response | HHS reports 279,000 instances of restored home energy. | Whether service stayed on after restoration and for how long. |
-| Household tradeoff | EIA counts unsafe temperature, skipped food or medicine, shutoff notices, and failed equipment as separate reported problems. | Which sacrifice aid prevented, and which one appeared later. |
-| Housing cost | GAO finds utility costs can leave assisted renters rent-burdened when allowances fall short. | Whether the shortfall causes arrears, moves, unsafe temperature, or other cuts. |
-| Longer result | LIHEAP is intended to reduce health and safety risk through heating, cooling, crisis, and weatherization help. | Same-household health, work, food, medicine, debt, and housing stability. |
+## Follow one aid payment
 
-Sources: [HHS FY24 LIHEAP report](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights), [HHS LIHEAP fact sheet](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/liheap-fact-sheet), [EIA 2024 energy-insecurity table](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf), and [GAO utility-allowance review](https://www.gao.gov/products/gao-24-105532).
-
-## The connection
+A family receives help after a shutoff notice. The utility reconnects service. The family warms the home and avoids an immediate move. But the equipment remains inefficient, the utility allowance is below the actual bill, and the next payment is due before payday. The crisis has been interrupted; its cause may remain.
 
 ```text
-energy shock
-  → aid, payment plan, repair, or shutoff prevention
-  → service restored or bill reduced
-  → next bill, food or medicine choice, rent pressure, health, and work
+energy shock → aid, payment plan, repair, or shutoff prevention → service restored or bill reduced
+→ next bill, food or medicine choice, rent pressure, health, and work → stability or repeat crisis
 ```
 
-The first two steps are visible in program reports. The last step is where the important question sits. A payment can stop a shutoff today while leaving the next bill, poor equipment, rent, or food budget unchanged.
+## What the sources actually establish
 
-## The useful surprise
+| Layer | Evidence | Meaning |
+|---|---|---|
+| Reach | HHS reports nearly 6 million households helped by LIHEAP in FY24. | The program reaches a substantial crisis population. |
+| Immediate response | HHS reports 279,000 instances of restored home energy. | Assistance can reconnect service. |
+| Household tradeoff | EIA counts unsafe temperature, skipped food or medicine, shutoff notices, and failed equipment as separate reported problems. | Energy pressure can reach basic needs. |
+| Housing cost | GAO finds utility costs can leave assisted renters rent-burdened when allowances fall short. | A benefit can help while leaving a housing gap. |
+| Longer purpose | LIHEAP includes heating, cooling, crisis, and weatherization help intended to reduce health and safety risk. | Immediate payment and durable improvement are different tools. |
+| Limits | Public reports do not follow the same family through aid, the next bill, temperature, food, medicine, health, work, debt, and housing. | Restoration is not proof of lasting safety. |
 
-“Households served” and “energy restored” are not weak measures; they answer immediate questions. They become misleading only when treated as proof of lasting safety. The real unit of success is the household over time: service on, safe temperature, no sacrificed medicine or food, and enough room for rent and work.
+Sources: [HHS FY24 LIHEAP report](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights), [HHS LIHEAP fact sheet](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/liheap-fact-sheet), [EIA energy-insecurity table](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf), and [GAO utility-allowance review](https://www.gao.gov/products/gao-24-105532).
 
-## Four views
+## The deeper finding
 
-**Household:** Follow the same family across the aid date, next bill, temperature, food and medicine choices, health, and work.
+“Households served” and “energy restored” answer immediate questions. They become misleading only when treated as proof of lasting safety. The real outcome is whether the household can stay warm, keep service, and pay for food, medicine, rent, and work without returning to crisis.
 
-**Customer and resident:** Record whether the utility, landlord, equipment owner, or program controls the fix. Assistance cannot repair a building it cannot reach.
+## What remains unproven
 
-**Money and finance:** Compare benefit size and timing with arrears, fees, rent, utility allowance, equipment cost, and the next due date.
+The evidence does not show which sacrifice aid prevented, whether service stayed on, or whether a repair or weatherization would have done more than a payment. It does not show who controls the fix—the utility, landlord, equipment owner, or program.
 
-**Public power:** Publish reach, wait time, restoration, repeat crisis use, shutoff prevention, and later stability by place and household type.
+## Next test
 
-## What would change the finding
-
-- Same-household records linking application, approval, payment, restoration, shutoff, and the next bill.
-- Indoor temperature, equipment, food, medicine, health, missed-work, and housing records before and after aid.
-- Repeat crisis applications and the number of months service remains on.
-- Utility allowances compared with actual bills for assisted renters.
-- Results separated by renter or owner status, housing type, climate, disability, age, and fuel.
+Link application, approval, payment, restoration, shutoff, and next bill for the same household. Add indoor temperature, equipment, food, medicine, health, missed work, housing, debt, and repeat crisis use. Compare renters and owners by climate, fuel, disability, age, and housing type.
 
 ## Reading rule
 
