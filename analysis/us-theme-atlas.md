@@ -704,6 +704,8 @@ Follow a headline price into the fee shown later, then ask whether the household
 
 Still missing: The current sources do not follow the same household from price display to final budget and repeat behavior.
 
+[Read the complete connected memo](../site/us-hidden-price-cost-path-001.html)
+
 ### When payment choice changes who carries the price
 
 Follow a payment method into merchant fees, rewards and common prices, then ask which households carry the net cost.
