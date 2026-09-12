@@ -60,6 +60,7 @@ routes = {
     "us-renter-energy-split-incentive-matched-evidence-001": ("Energy / housing / cost", "renter bill → landlord control → upgrade or delay", "bill savings, comfort, rent, and housing stability"),
     "us-weatherization-health-household-outcomes-matched-evidence-001": ("Energy / health / cost", "weatherization → actual savings → comfort and health", "long-run household, work, and health outcomes"),
     "us-safe-temperature-energy-insecurity-matched-evidence-001": ("Energy / health / cost / housing", "energy cost or equipment failure → unsafe temperature or sacrifice", "same-household health, work, and housing recovery"),
+    "us-energy-assistance-delayed-sacrifice-matched-evidence-001": ("Energy / cost / housing / voice", "energy shock → assistance or restoration → next bill and household stability", "whether help ends or delays the sacrifice"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

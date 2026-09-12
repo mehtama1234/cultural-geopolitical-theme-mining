@@ -1,8 +1,8 @@
 # US source coverage
 
-93 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+94 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 7; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 8; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 4; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 19; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -633,6 +633,23 @@
 - differences by occupation, income, race and place.
 
 [Open the source-search record](projects/us-employer-political-influence/source-search-2026-09-11.md)
+
+## US energy assistance and delayed household sacrifice
+
+**Project:** `us-energy-assistance-delayed-sacrifice`
+
+**Status:** matched evidence pass complete; long-run same-household results remain open
+
+**Question:** Does energy assistance prevent a household sacrifice, or does it only move the bill, shutoff, or unsafe-temperature problem into a later month?
+
+**Sources recorded:** 4
+
+- [HHS/ACF: FY24 LIHEAP annual report spotlight](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights)
+- [HHS/ACF: FY24 LIHEAP fact sheet](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/liheap-fact-sheet)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+- [GAO: HUD rental assistance and utility allowances](https://www.gao.gov/products/gao-24-105532)
+
+[Open the source-search record](projects/us-energy-assistance-delayed-sacrifice/source-search-2026-09-11.md)
 
 ## US household energy burden
 
