@@ -18,6 +18,10 @@ Imagine a family that sees a headline about falling inflation ten days before a 
 
 The household may also select news after the cost arrives. A person whose rent or grocery bill rose may look for stories that explain the loss, confirm a suspicion, or offer a person to blame. The direction can run both ways: news can shape expectations, and financial stress can shape which news feels credible. A headline is not a clean outside force unless the research accounts for that selection.
 
+The source of the story matters because it can give the number a speaker and a remedy. The same CPI change may be presented by a central bank, a business group, a politician, or a local reporter. One version may point to interest rates, another to firms, another to wages or trade. A household may agree on the price and disagree on what should be done. Measuring only the number heard misses the explanation attached to it.
+
+The household’s basket can also make “good news” feel wrong. If gasoline falls but rent rises, the national average may improve while the family’s largest bill worsens. A person may reject the report because it does not match the expense that cannot be avoided. That is not proof the person misunderstood inflation; it may show that the public measure and the household measure answer different questions.
+
 ```text
 price movement → selected news and repetition → inflation expectation and cause belief
 → spending, saving, borrowing, or political judgment
@@ -47,6 +51,10 @@ This creates a competition between the national story and the local basket. A na
 
 News selection adds another layer. A household under pressure may seek stories that confirm its experience, while a household with a stable basket may pay less attention. If researchers compare viewers without measuring prior exposure and personal costs, they can mistake selection for persuasion. The better test follows both the story before the choice and the household’s prior price path.
 
+The order of information can change the decision. A warning before a purchase may speed up buying or increase search. A reassuring report after a price has risen may reduce worry without lowering the bill. A family that has already used its savings may be unable to act on either message. The effect of news depends on what choice is still open when the story arrives.
+
+This also creates a route to public blame that is hard to observe. A household may change stores or postpone a purchase without naming a policy, then later support a candidate who offers a simple explanation. The final vote can hide the earlier price and media steps. The current evidence supports expectation changes, not this full chain.
+
 The political bridge is therefore narrow. News may alter expectations or blame; household costs may alter behavior; party identity may decide which explanation wins. The current studies support the first links, but do not show the same person moving from a headline to a purchase, trust judgment, or vote.
 
 ## What remains unproven
@@ -56,6 +64,8 @@ The evidence does not show whether higher expectations caused more spending, bor
 ## Next test
 
 Follow households from a measured price story through three months. Join complete media exposure, personal prices, wages, debt, expectations, trust, spending, saving, borrowing, and political action. Record the story seen before the choice and the bill that was due. Compare the national story with the household's own basket and ask which one predicts the next choice. Test both directions: whether news changes behavior and whether financial stress changes news selection. Recontact households after prices stabilize to separate a lasting price-level burden from a short-lived news effect.
+
+Preserve the exact headline, source, image, explanation, and time shown to each household. Match it to the household’s item-level basket and the choice still available that day. Randomly vary whether the same price fact is framed through rates, firms, wages, trade, or no named cause, then measure expectation, search, purchase timing, blame, trust, and later recall. This would separate the price fact from the story attached to it.
 
 ## Reading rule
 
