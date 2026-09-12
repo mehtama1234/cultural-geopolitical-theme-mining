@@ -8,6 +8,8 @@ This matters for discrimination because a firm’s incentive depends on the cust
 
 The deeper finding is that customer power is the missing link between competition and fair treatment. Seller count is a weak measure. The stronger question is: what could this person do today if the firm raised the price, denied service, or treated them worse?
 
+Exit has a price even when no money changes hands. It can require another credit inquiry, a new deposit, a trip across town, a new account history, a different language, or the risk that the next firm will reject the customer too. A person may stay with a bad provider because the first provider already knows their records and payment history. That is not loyalty in the simple sense; it can be the cost of starting over.
+
 ## Follow one customer across firms
 
 A customer gets a higher price or worse service and considers switching. The other firm is farther away, asks for more paperwork, has a weaker network, or uses a different risk screen. The customer stays—not because the first firm served them well, but because leaving costs too much.
@@ -37,15 +39,23 @@ Sources: [NBER competition and discrimination](https://www.nber.org/papers/w3354
 
 Competition is experienced as an exit route. If a customer can leave at low cost, a firm has reason to retain them through price and treatment. If leaving means losing a local branch, restarting an application, traveling farther, explaining a disability again, or risking a new denial, the customer’s threat is weak.
 
+There are two different tests here. The first asks whether firms offer different prices or terms. The second asks whether the customer can use that difference. A comparison is useful only when the products are genuinely alike, the customer qualifies, the service is reachable, and the customer can complete the switch before the next bill or need. The first test can look competitive while the second shows practical dependence.
+
 This also changes how to read a complaint pattern. A group may complain less because it is treated better—or because it expects no remedy and has nowhere else to go. A market with low switching can hide harm inside silence.
+
+The public consequence is larger than one transaction. Repeated weak exit can make a group pay more, wait longer, or accept worse treatment while each case looks too small to challenge. Over time, that can weaken trust in firms and in the rules meant to protect customers. It may produce withdrawal, informal workarounds, or support for stronger enforcement, but those responses must be measured rather than assumed.
 
 ## What remains unknown
 
 The studies do not follow a current US customer across firms, prices, service quality, complaints, denials, switches, and repeat treatment. They do not fully measure time, transport, language, disability, trust, or the cost of proving identity. We cannot yet say which customers benefit from digital comparison and which are left behind.
 
+They also do not tell us whether a higher price buys better service, whether a denial is accurate, or whether a customer who stayed had a real alternative. A difference between groups is not by itself proof of discrimination; a similar price is not proof of equal treatment.
+
 ## Next test
 
 Match customers across comparable firms. Record search, travel, wait, identity checks, price, quality, denial, complaint, switch, and repeat outcome by income, race, age, disability, language, and place. Measure the cost of exit before calling a market competitive.
+
+Run the test at the moment of need, not only in a yearly survey. Present matched customers with the same product and record the full path from search to approval, service, complaint, and switch. Include the money and time needed to leave, the reason for staying, and what happened when the customer tried another provider. Compare actual exit cost with posted prices and firm count. This would separate a market with many names from one in which customers have usable power.
 
 ## Reading rule
 
