@@ -11,7 +11,7 @@ The 2025 SIPP release covers the January–December 2024 reference period. The o
 | Calendar need | Verified SIPP fields | What they give us |
 |---|---|---|
 | Stable source key | `SSUID`, `SHHADID`, `SPANEL`, `SWAVE` | Sample unit, household-at-interview, panel year, and wave |
-| Time | `MONTHCODE`, `RWKSPERM` | Reference month and weeks in that month |
+| Time and weight | `MONTHCODE`, `RWKSPERM`, `WPFINWGT` | Reference month, weeks in that month, and final person weight |
 | Housing and utilities | `ETENURE`, `EUTILITIES`, `EAWBMORT`, `EAWBGAS` | Tenure, separate utility payment, and inability to pay rent/mortgage or utility bills |
 | Income and work | `THTOTINC`, `TPEARN`, `THTOTINCT2`, `THINCPOV`, `RMNUMJOBS`, `RWKSPERM` | Household monthly income, earnings, poverty ratio, jobs, and weeks |
 | Room and debt | `EOWN_SAV`, `TOSAVVAL`, `THDEBT_CC`, `EDEBT_CC` | Savings ownership/value and credit-card or store-bill debt indicators |
@@ -34,7 +34,7 @@ Those are `missing`, not zero. They remain fields for the proposed calendar pane
 
 ## Reproducible slice
 
-The streaming extractor is [extract_sipp_household_calendar_slice.py](../../../scripts/extract_sipp_household_calendar_slice.py). It selects the fields above, writes a small CSV and JSON report, and supports `--max-rows` for a smoke test. A typical run is:
+The streaming extractor is [extract_sipp_household_calendar_slice.py](../../../scripts/extract_sipp_household_calendar_slice.py). It selects the fields above, including the final person weight, writes a small CSV and JSON report, and supports `--max-rows` for a smoke test. A typical run is:
 
 ```bash
 python3 scripts/extract_sipp_household_calendar_slice.py \
@@ -55,4 +55,4 @@ The first run is recorded in the [SIPP smoke check](sipp-smoke-check-v1.md). It 
 3. Are child-care limits and lost work recorded alongside different job counts or earnings?
 4. Which transport fields are present often enough to support a separate commute-access comparison?
 
-These are descriptive checks. They do not prove that one pressure caused another. The next layer is to use the SIPP longitudinal weights and source-accuracy guidance before making population estimates.
+These are descriptive checks. They do not prove that one pressure caused another. The next layer is to use `WPFINWGT` for person-level population estimates and the SIPP source-accuracy guidance before making weighted claims. Household-level estimates need a documented household-weight rule; the person weight must not be silently treated as a household weight.

@@ -44,6 +44,8 @@ The first reusable population-level measurement attached to a bridge is the [202
 
 The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-household-calendar-integration/sipp-bounded-acquisition-v1.md). It confirms an accessible monthly population-survey backbone for household security, work, benefits, energy, food, and debt. Its 100,000-row engineering slice is not yet a weighted finding.
 
+The full SIPP slice now has a [weighted raw-code scan](projects/us-household-calendar-integration/sipp-weighted-code-scan-v1.md). It is a person-record/month layer using `WPFINWGT`; value labels, household weighting, variance estimates, and causal interpretation remain separate next steps.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

@@ -17,10 +17,10 @@ The first bounded run was followed by a full-file run using the same extractor a
 | Distinct sample units | 3,650 |
 | Distinct household IDs | 3,714 |
 | Reference months present | 1–12 |
-| Selected fields | 31 |
+| Selected fields | 32 |
 | Raw data committed | No |
 
-The selected fields cover household and person identifiers, month, tenure, utilities, energy assistance, mortgage and gas burden, income, poverty, savings, credit-card debt, food security, pay help, extra work, time lost, number of jobs, weeks worked, and selected job coverage fields. The complete field list is preserved in the extractor report outside Git.
+The selected fields cover household and person identifiers, month, final person weight, tenure, utilities, energy assistance, mortgage and gas burden, income, poverty, savings, credit-card debt, food security, pay help, extra work, time lost, number of jobs, weeks worked, and selected job coverage fields. The complete field list is preserved in the extractor report outside Git.
 
 ## Full-file run
 
@@ -30,11 +30,11 @@ The selected fields cover household and person identifiers, month, tenure, utili
 | Distinct sample units | 13,670 |
 | Distinct household IDs | 13,910 |
 | Reference months present | 1–12 |
-| Selected fields | 31 |
+| Selected fields | 32 |
 | Derived CSV SHA-256 | `380e581f359d6df319db09e9e26b6813a9f966aef6bcc8ca1c2e3397d4596af4` |
 | Raw and derived data committed | No |
 
-The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`.
+The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`. The final person weight is present for a later person-level weighted analysis.
 
 ## What this proves
 
@@ -42,7 +42,7 @@ The official 2025 SIPP CSV can be acquired and streamed in this environment. The
 
 ## What this does not prove
 
-The bounded run was the first 100,000 streamed rows, not a random sample and not a weighted population estimate. The full extraction proves that the selected source rows are available for analysis, but it is still not a weighted population estimate. A substantive result requires the correct person or household longitudinal weight, special-code decoding, missingness handling, variance method, and a documented comparison design.
+The bounded run was the first 100,000 streamed rows, not a random sample and not a weighted population estimate. The full extraction proves that the selected source rows are available for analysis, but it is still not a weighted population estimate. A substantive result requires use of the final person weight for person-level estimates—or a documented household-weight rule for household estimates—plus special-code decoding, missingness handling, variance method, and a documented comparison design.
 
 SIPP still does not observe every exact bill date, purchase, service contact, remedy, price, trip fare, political interpretation, or final vote. It can support monthly population patterns and some within-sample changes; it cannot be joined to CE, ATUS, NHTS, SHED, MEPS, or RECS by geography and called one household.
 

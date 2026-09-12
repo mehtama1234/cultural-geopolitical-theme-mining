@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract the first SIPP slice for the household-calendar design.
+"""Extract a SIPP slice for the household-calendar design.
 
 The Census pipe-delimited file is large. This extractor streams it, selects only
 the fields named in the research note, and writes a small CSV plus a JSON
@@ -23,6 +23,7 @@ FIELDS = [
     "SPANEL",
     "SWAVE",
     "MONTHCODE",
+    "WPFINWGT",
     "ETENURE",
     "EUTILITIES",
     "EENERGY_ASST",
@@ -85,7 +86,7 @@ def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int
                     break
 
     report = {
-        "format": "us-household-calendar-sipp-slice-v1",
+        "format": "us-household-calendar-sipp-slice-v2",
         "source": "2025 SIPP public-use pipe-delimited file",
         "source_reference_period": "2024",
         "input": input_path,
