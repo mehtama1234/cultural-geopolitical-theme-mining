@@ -6,11 +6,15 @@ A public benefit can exist on paper and still be hard to keep. A person may lose
 
 That makes program exit hard to read. A falling caseload can mean that families are earning more. It can also mean that the program has placed a new task in front of people who have the least time, money, internet access, or confidence to complete it. The central mistake is to treat access as a doorway that opens once. In practice, access is a repeated path: apply, prove, renew, report, correct, and keep receiving help.
 
+The distinction is especially important for work rules. A person can leave a benefit because earnings rose, because the person could not document the hours, because an exemption was missed, or because the agency made an error. These exits look the same in a caseload count. They mean different things for the family and for the policy question.
+
 ## Follow one family through the path
 
 Imagine a parent whose hours change from week to week. The parent is still below the food budget needed for the household, but a new work-reporting rule asks for records from several employers. The renewal notice arrives online while the parent is working. The local office is two bus rides away. A missed deadline ends the benefit. The next month, the family uses credit for groceries and the parent takes a shift that makes the next renewal even harder.
 
 Now imagine the same rule with automatic data matching, a reminder in the family's language, a phone appointment, and a simple correction path. The legal rule may be identical. The lived result is not. Administrative design changes who can turn a legal right into food on the table.
+
+The timing can create a loop. The family loses food support in April, borrows for groceries in May, and takes extra work in June to repay the debt. A later record may show employment, but it will not show whether the work replaced the benefit or was taken because the benefit disappeared. A short interruption can therefore change the next choice without proving that the rule made the family more self-sufficient.
 
 ```text
 food or income need → eligibility and work rule → application, report, renewal, or correction task
@@ -34,15 +38,17 @@ Sources: [NBER work requirements](https://www.nber.org/papers/w28877), [NBER par
 
 Administrative work is a household cost. It is paid in time, travel, documents, internet access, language help, and the risk of an error going uncorrected. That cost is not evenly shared. A person with stable hours and a car can absorb the same task that breaks access for a person juggling shifts, children, disability, or an unreliable connection.
 
+There is also a public measurement problem. The program may report fewer recipients and lower spending while the household reports more debt, less food, or more work. Those records can appear to show success and strain at the same time. The correct test is whether a person who left received enough earnings or other support to replace the food and cash the benefit provided, not whether the administrative count fell.
+
 This changes the meaning of “program participation.” It is not only a measure of need. It is also a measure of whether the public system has made need legible and receipt possible.
 
 ## What remains unproven
 
-The evidence does not show that every exit represents lost food security, or that every work rule has the same result. It does not separate all causes of nonreceipt, including stigma, confusing notices, local staffing, sanctions, fraud checks, and changing need. Participation loss is a warning signal, not completed proof of harm.
+The evidence does not show that every exit represents lost food security, or that every work rule has the same result. It does not separate all causes of nonreceipt, including stigma, confusing notices, local staffing, sanctions, fraud checks, and changing need. Participation loss is a warning signal, not completed proof of harm. The studies also do not show whether automatic renewal improves food security without keeping people enrolled after their need has ended.
 
 ## Next test
 
-Use county and census-tract records to follow applications, renewals, exits, office locations, call wait times, online access, food security, debt, health, and employment. Compare automatic renewal, online renewal, and in-person help. Record whether a person exits because income rose, because a task failed, or because an agency could not resolve an error.
+Use county and census-tract records to follow applications, renewals, exits, office locations, call wait times, online access, food security, debt, health, and employment. Compare automatic renewal, online renewal, and in-person help. Record whether a person exits because income rose, because a task failed, or because an agency could not resolve an error. Measure the food and debt position before and after exit, and follow work hours rather than treating any later employment as a successful replacement.
 
 ## Reading rule
 
