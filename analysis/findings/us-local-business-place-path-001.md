@@ -6,6 +6,8 @@ A town can have more business applications without gaining more lasting local jo
 
 The careful finding is that local business counts and local belonging are different things. Current evidence shows a decline in the hometown advantage and gives better county data for testing business formation. It does not yet show that a place lost a service, a job or a shared identity because owners moved away.
 
+The gap matters because a business can pass through several stages. Someone can file an application, open a nonemployer firm, hire one worker, become a stable employer, sell to another owner, or close. Each stage has a different meaning for residents. A town may celebrate a rise in applications while the number of open employers, available jobs, or nearby services stays flat.
+
 ## What the sources show
 
 ### 1. Founders are less tied to their birthplace
@@ -22,11 +24,15 @@ The reported research finds that self-employment in high-capital sectors such as
 
 One possible reading is that financing and customers may be less bound to local ties in some sectors. That is a mechanism to test, not a settled reason for the whole change.
 
+Consider a person who leaves a small town to start an online design business in a city. The town loses a possible local founder, but it may not lose a storefront or job because none would have existed. Now consider a local pharmacy bought by a remote owner. The ownership move may leave the service in place, or it may change hours, prices, staffing, or the decision to stay open. “Entrepreneur moved” describes both cases badly; the customer consequence is different.
+
 ### 3. An application is only the first step
 
 Census county data now cover business applications from 2005 through 2025. The agency distinguishes applications, projected business formations and employer firms. The 2026 release also warns that privacy protection adds a different kind of noise to the county file.
 
 The practical rule is simple: do not call an application a new employer, a lasting business or a new service.
+
+The time gap is important. Applications can respond quickly to a tax change, a layoff, a grant, or a new platform. Hiring and survival take longer. If a county file is read as an immediate local recovery measure, it may mistake intent for capacity. The strongest local result requires a later record of operation, workers, customers, and continued presence.
 
 [Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html)
 
@@ -54,6 +60,8 @@ The founder-location and application steps are measured. The local service and p
 
 **Inference:** A place may lose some local control over business decisions even while business activity continues. The person who opens a firm, the person who owns it later and the people who work there may live in different places.
 
+That inference should be tested through flows, not labels. Local wages and services may remain even when profits leave. A locally owned firm may keep profits nearby but provide poor access or unstable jobs. Decision power, money, work, and service can move in different directions at the same time.
+
 **Unknown:** We do not know whether owner movement changed local prices, jobs, services, tax revenue or belonging. We also do not know whether remote work and online customers made local residence less important.
 
 ## What would change the finding
@@ -67,6 +75,8 @@ The founder-location and application steps are measured. The local service and p
 ## Next test
 
 Choose one county pair and join Census applications with employer-firm and establishment records. Add local service data and owner location. Treat applications as the beginning of the path, not the outcome.
+
+Follow the same places for five years. Mark the date of application, opening, first hire, ownership change, closure, and service change. Compare what residents gained or lost in jobs, hours, prices, travel distance, wages, and tax revenue. Include firms that serve the county online or from another place so that “local” does not mean only a storefront address.
 
 ## Reading rule
 
