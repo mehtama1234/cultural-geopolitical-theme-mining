@@ -30,15 +30,15 @@ The selected fields cover household and person identifiers, month, final person 
 | Distinct sample units | 13,670 |
 | Distinct household IDs | 13,910 |
 | Reference months present | 1–12 |
-| Selected fields | 32 |
-| Derived CSV SHA-256 | `380e581f359d6df319db09e9e26b6813a9f966aef6bcc8ca1c2e3397d4596af4` |
+| Selected fields | 34 |
+| Derived CSV SHA-256 | `be89730d53291dfb05ee16749dc45cdf7589ad7a3cdcecb4ee3f4541be0f981b` |
 | Raw and derived data committed | No |
 
-The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`. The final person weight is present for a later person-level weighted analysis.
+The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`. The final person weight is present for a later person-level weighted analysis. The selected identifiers now include `PNUM` (person number) and `TAGE_EHC` (monthly age during the reference period), which are required before making same-person month-to-month comparisons.
 
 ## What this proves
 
-The official 2025 SIPP CSV can be acquired and streamed in this environment. The repository extractor can read the selected monthly fields together across all twelve reference months without loading the full 2.96 GB CSV into memory. This gives the broader program a reproducible population-survey backbone for household security, work, benefits, energy, food, and debt questions.
+The official 2025 SIPP CSV can be acquired and streamed in this environment. The repository extractor can read the selected monthly fields together across all twelve reference months without loading the full 2.96 GB CSV into memory. With `PNUM` and `TAGE_EHC`, it gives the broader program a reproducible population-survey backbone for household security, work, benefits, energy, food, debt, and same-person month-to-month questions.
 
 ## What this does not prove
 

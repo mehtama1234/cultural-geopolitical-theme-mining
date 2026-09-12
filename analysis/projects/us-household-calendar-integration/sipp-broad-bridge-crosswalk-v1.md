@@ -37,7 +37,7 @@ The next valid table should attach the official value labels and status-flag rul
 
 ## Unit and weighting rule
 
-The extracted file is person-record by reference month. Some selected fields describe a household or parent and are copied across members. Therefore:
+The extracted file is person-record by reference month and now includes `PNUM` and `TAGE_EHC`, allowing a within-file person-month key of `SSUID` + `SHHADID` + `PNUM` + `MONTHCODE`. Some selected fields describe a household or parent and are copied across members. Therefore:
 
 - use `WPFINWGT` for person-level estimates;
 - do not call a person-weighted repeated household field a household prevalence estimate;

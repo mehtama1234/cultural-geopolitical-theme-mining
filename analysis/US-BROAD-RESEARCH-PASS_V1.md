@@ -54,6 +54,8 @@ The first SIPP cross-group comparison is the [tenure-stratified population layer
 
 The resource comparison is in the [income-to-poverty-ratio stratified layer](projects/us-household-calendar-integration/sipp-resource-stratified-layer-v1.md). It adds a documented inequality axis and shows why debt, work, food, housing, and utility measures cannot be collapsed into one hardship score.
 
+The identifier-complete extract now supports the [SIPP person-transition layer](projects/us-household-calendar-integration/sipp-person-transition-layer-v1.md). It confirms which selected fields can support genuine month-to-month analysis and which are annual/reference-period measures repeated in monthly records.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

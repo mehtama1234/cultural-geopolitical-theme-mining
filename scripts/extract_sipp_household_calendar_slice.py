@@ -20,6 +20,7 @@ from pathlib import Path
 FIELDS = [
     "SSUID",
     "SHHADID",
+    "PNUM",
     "SPANEL",
     "SWAVE",
     "MONTHCODE",
@@ -33,6 +34,7 @@ FIELDS = [
     "TPEARN",
     "THTOTINCT2",
     "THINCPOV",
+    "TAGE_EHC",
     "EOWN_SAV",
     "TOSAVVAL",
     "THDEBT_CC",
