@@ -12,6 +12,8 @@ Suppose a parent receives a monthly Child Tax Credit payment during a period of 
 
 Another family may save the payment, while a third never receives it because of filing or eligibility rules. A national sentiment average can hide these different paths. The question is what changed in cash and what changed in the family's sense of control.
 
+The timing can matter more than the total. A monthly payment arriving before rent or food is due can prevent a late fee or a high-cost loan. The same annual amount paid later may not stop the immediate problem. A benefit can therefore have value as a predictable bridge, not only as a yearly sum.
+
 ```text
 benefit starts or ends → cash, debt, rent, food, and care room change → household judges its future
 → consumer sentiment changes → spending, trust, blame, policy support, or voting may change
@@ -33,13 +35,19 @@ Sources: [NBER Working Paper 35059](https://www.nber.org/papers/w35059), [NBER W
 
 Public help can become part of the household's economic baseline. When it is reliable, a family may plan around it and feel more control. When it disappears, the loss is larger than the payment itself because it removes the buffer that made ordinary risks manageable. That is one reason a program's end date can have a political effect even when its first effect was financial.
 
+The loss can also change the meaning of ordinary events. Before the payment ends, a broken appliance may be an annoying bill. After it ends, the same repair may require debt or a missed payment. The family may not describe this as a change in public policy; it may simply say that it cannot get ahead. Sentiment captures part of that changed outlook, but it does not identify the exact bill or the remedy the family wants.
+
+The program's design shapes who can build a baseline. A payment that is automatic and regular may be easier to plan around than one that requires a filing, arrives as a refund, or is uncertain from month to month. A family that does not qualify may face the same food and rent prices without the same buffer. These differences matter when comparing sentiment and behavior across households.
+
+This is the bridge to public trust. If a family sees help arrive, use it to prevent a crisis, and then loses it, it may judge the government by the change in its usable room. But that judgment can be mixed with prices, jobs, news, and party identity. The sources support a material-to-sentiment link; they do not establish a general trust or voting effect.
+
 ## What remains unproven
 
-The evidence does not show whether lower sentiment led to lower spending, less trust, a different policy view, or a different vote. It does not separate benefit loss from prices, jobs, news, party identity, or local conditions for each family. Nor does it prove that the same payment improves long-run finances if it only covers a temporary gap.
+The evidence does not show whether lower sentiment led to lower spending, less trust, a different policy view, or a different vote. It does not separate benefit loss from prices, jobs, news, party identity, or local conditions for each family. Nor does it prove that the same payment improves long-run finances if it only covers a temporary gap. It does not show whether timing, regularity, or eligibility mattered more than the annual amount.
 
 ## Next test
 
-Follow families before, during, and two years after a benefit starts or ends. Join benefit exposure to cash, spending, saving, rent, debt, food, care, sentiment, trust, policy support, and voting where permitted. Ask whether the benefit changed the family's material position, its sense of control, or both.
+Follow families before, during, and two years after a benefit starts or ends. Join benefit exposure to cash, spending, saving, rent, debt, food, care, sentiment, trust, policy support, and voting where permitted. Record payment timing, filing burden, eligibility, and the first bill protected or missed. Ask whether the benefit changed the family's material position, its sense of control, or both.
 
 ## Reading rule
 
