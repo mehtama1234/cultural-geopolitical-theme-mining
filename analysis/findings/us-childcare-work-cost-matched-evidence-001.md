@@ -8,11 +8,15 @@ This is why childcare belongs in both the family budget and the labor market. Pa
 
 The deeper finding is that care is infrastructure for work. When it is unreliable, the family’s work path becomes a care path. A parent may look less attached to work when the real problem is that the care system has no dependable backup.
 
+The hours have to match, not just the monthly price. A provider that is affordable but closes before a shift ends may force a parent to leave work early. A cheaper provider farther away may add transport time and late fees. A relative may cover the gap without a bill while losing paid work or rest. The usable price is the money, time, and risk required to cover every needed hour.
+
 ## Follow one care week
 
 A parent works an early shift. The center opens later, the backup sitter cancels, and a relative covers two mornings. The parent misses a shift and pays for an emergency ride. No single line records the full cost. The household solved the care problem by changing work, time, and family obligations.
 
 The same family may have a different result next month. A provider closure, illness, transportation failure, or schedule change can turn a workable plan into lost income. Reliability is part of the price.
+
+The family may also hide the loss by changing who works. One parent takes a lower-paid job with fixed hours, another declines a promotion, or a relative becomes the regular backup. The care problem then appears as a wage gap, part-time work, or unpaid family time instead of a childcare expense.
 
 ```text
 child needs care
@@ -37,15 +41,23 @@ Sources: [Federal Reserve care and living arrangements](https://www.federalreser
 
 Childcare is a timing system. A parent may change shifts, a relative may cover a morning, or a child may stay home. Those choices can release paid work or consume it. A policy should therefore be judged by more than its price: schedule fit, reliability, travel, quality, and what happens when the arrangement breaks.
 
+There are also two kinds of affordability. A family may be able to pay the provider’s fee but not the deposit, registration, late pickup charge, or unpaid days when the child is sick. A subsidy may reduce the monthly bill but still fail if it is hard to renew or cannot be used with the provider that fits the job. The entry cost and failure cost matter alongside the posted price.
+
 This also connects care to inequality. A family with savings can buy backup. A family without it may lose a day’s pay, borrow, or accept a lower-paid job with a safer schedule. The same care failure produces a different economic path.
+
+This is where family support and public policy meet. Private backup can keep a parent employed and make the system look adequate, but it can also move the cost to an older relative, a sibling, or another worker. A public program that counts enrollment but not missed work, travel, and failed care days may overstate the support it provides.
 
 ## What remains unknown
 
 The surveys do not show that every missed day came from price, or that paid care always improves the family’s result. They do not join care quality, monthly cost, work hours, earnings, benefits, commute, child outcomes, and later debt for the same household.
 
+They also do not show which parent changed work, how much unpaid care replaced paid care, or whether a cheaper arrangement was safe and stable. A lower care bill can coexist with lower family income and more exhaustion.
+
 ## Next test
 
 Follow families month by month through care hours, provider cost, unpaid help, disruptions, work schedules, earnings, benefits, commute, quality, and debt. Compare families with similar care needs but different local supply and employer flexibility.
+
+Create a care-and-work calendar recording every needed care hour, planned provider, backup, fee, travel time, disruption, missed or changed shift, and unpaid helper hour. Follow the family for a year and compare paid care, family care, employer flexibility, subsidies, and no stable arrangement. Measure work income, care cost, rest, child stability, debt, and ability to keep the next job separately. This would show whether support makes work possible or simply moves the cost to another person.
 
 ## Reading rule
 
