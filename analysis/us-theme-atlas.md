@@ -629,6 +629,8 @@ Follow employer coverage into the cost of changing jobs, then ask whether the wo
 
 Still missing: The current sources do not compare the full job and coverage choice for the same worker.
 
+[Read the complete connected memo](../site/us-health-coverage-job-path-001.html)
+
 ### When debt relief fixes the record but not the illness
 
 Follow a medical bill into the credit record, then ask whether relief changes the household's later room even when the health need remains.
