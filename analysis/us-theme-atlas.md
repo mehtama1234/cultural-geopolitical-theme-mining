@@ -629,6 +629,8 @@ Follow a private AI reply into time spent and the ability to leave, then ask whe
 
 Still missing: The current studies mix prevention and companion apps and do not follow the same user through long-term well-being, crisis care or exit.
 
+[Read the complete connected memo](../site/us-ai-emotional-support-attention-path-001.html)
+
 ### When a car repair becomes a household timing shock
 
 Follow an unexpected repair into the cash buffer, then ask what happens to the route to work, care and food when the vehicle is stopped.
