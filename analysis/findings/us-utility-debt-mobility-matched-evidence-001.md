@@ -10,6 +10,8 @@ That creates a two-part penalty. The old balance can damage the household's cred
 
 This is not a claim that every unpaid utility bill blocks a move. The sources do not show how often that happens. The point is that the debt has a path beyond the old meter, and that path is easy to miss if we look only at the original bill.
 
+Moving can make the timing worse. A household may need a new utility account before the old bill is settled, while also paying a housing deposit, movers, transport, and the first month’s rent. The old debt and the new deposit can arrive in the same week. A rule that treats each account separately can create one large cash barrier for the household.
+
 ## Follow one household through the system
 
 Imagine a family leaving an apartment after a job loss. The final utility bill is unpaid. At this point, there are several possible outcomes: the family may dispute the amount, arrange payments, pay it later, or fall into collections.
@@ -17,6 +19,8 @@ Imagine a family leaving an apartment after a job loss. The final utility bill i
 Now the family applies for service at a new address. The new company may treat the application as a credit decision. It can look at prior utility history, ask for a deposit, or require a plan that combines the new monthly bill with the old balance. The family now has a new obligation before it has used any energy in the new home.
 
 If the deposit is unaffordable, service may start late. If the family accepts a plan it cannot carry, it may miss another payment. If the debt appears on a credit report, it may affect other parts of the move. The energy problem has become a mobility problem.
+
+The household may then choose an inferior path: delay the connection, live temporarily with relatives, use unsafe heating, take a more expensive home that includes utilities, or accept a payment plan that leaves less for food and transport. A move can technically succeed while the household begins the new address with less room than before.
 
 ## What the sources actually establish
 
@@ -36,6 +40,8 @@ Utility payment history can be weak as a reward and strong as a penalty. CFPB sa
 
 So a household can do the right thing for years without building a normal credit record, then face a visible penalty after one period of hardship. That does not tell us whether the bill was fair, whether the household had a temporary shock, or whether the next deposit is reasonable. It tells us that the information system is better at carrying failure forward than carrying good payment forward.
 
+This creates a repair problem in the record itself. A customer may need to prove identity, dispute an amount, contact the utility and the reporting company, and wait for correction while service or housing decisions continue. The person with the least time and money is often least able to repair the record before the next deadline. An accurate record and a fair process are separate questions.
+
 ## What this changes
 
 The useful unit is not “the customer who owed a bill.” It is “the household trying to start again.” A proper record would show the old account, the dispute and collection path, the new application, the deposit, the move date, the connection date, and what the household had to postpone to pay.
@@ -48,11 +54,17 @@ That record would also separate three cases that are often mixed together:
 
 Each case needs a different response. A deposit waiver may help the first. A correction process may help the second. A lower bill or repair may be needed for the third.
 
+The public cost can appear outside the utility. A delayed connection can mean missed work, a temporary hotel or doubled housing cost, spoiled food, unsafe heat, or a move farther from care and school. These costs should not automatically be attributed to the utility debt, but they are the outcomes a customer-level study must check.
+
 ## What remains unproven
 
 The sources establish the record paths and possible deposit response. They do not prove that a particular household was denied service, delayed in a move, or lost housing because of utility debt. They also do not show how accurate NCTUE matches are, how often customers know about the record, or how quickly errors are corrected.
 
+They also do not show whether on-time utility reporting would improve access or simply expose more households to another score. The right remedy may be reporting, limits on deposits, debt relief, bill reduction, repair, or a correction path depending on the cause.
+
 The next test is a customer-level timeline linking account closure, collections, NCTUE data, new application, deposit, connection, move, and housing outcome.
+
+Build a move ledger from the final bill through six months at the new address. Record bill accuracy, dispute, collection, reporting, correction, deposit request, payment plan, connection date, housing and moving costs, temporary arrangements, work and school travel, food loss, and repeat payment. Compare households with similar debt but different reporting and deposit rules. Measure time to service, total cash required, debt, housing stability, and safe use separately. This would show whether the old bill merely follows the household or actively makes starting again harder.
 
 ## Reading rule
 
