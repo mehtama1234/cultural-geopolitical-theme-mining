@@ -18,6 +18,10 @@ Imagine two people with the same income and the same report. One crosses a lende
 
 The study does not show which lender changed its decision, or whether the later result affected rent, a mortgage, insurance, work, or recovery. It identifies a change in later default around a score rule; it does not by itself identify the exact contract, price, or lender action that carried the effect.
 
+The feedback can begin before a loan is signed. A borrower who expects a denial may stop applying, accept a worse offer, or delay a repair. A landlord or utility may use the same record for a deposit. If the score reduces the person’s options, the person may appear riskier later because the earlier options were worse. That wider path is plausible, but it needs a decision record at each gate.
+
+Recovery is part of the test. A borrower who pays a higher rate may avoid default but have less money to rebuild savings. A borrower who is denied may use a costlier lender and damage the record further. A score rule can therefore affect not just whether trouble occurs, but how quickly the person can leave it. The later score is an outcome as well as a signal.
+
 - [NBER Working Paper 35508: Self-Fulfilling Credit Scores](https://www.nber.org/papers/w35508)
 
 ## The connection
@@ -48,6 +52,10 @@ That missing contract is central. If the lender did not change the offer, the se
 
 There is a legitimate reason to use a record. A lender that ignores useful repayment information may charge everyone more or lend where repayment is unlikely. The concern is narrower: a rule based on an event that adds no new household fact may create a cost that then looks like confirmation of the original score. A fair system should test predictive value and feedback cost separately.
 
+The same paper mark can travel through several markets. A higher loan rate reduces cash for rent; a missed rent payment affects the next housing application; a housing move can lengthen the commute and raise transport cost. Each later decision may be made by a different firm, so no single record shows the full loop. This is why the household should be followed across markets rather than treating credit as a sealed finance outcome.
+
+The public question is also about the right to recover. A score may be useful for sorting new risk, but a person needs a practical path to correct an error, explain a temporary shock, or regain normal terms. If the system only records decline and never measures the cost of rebuilding, it can reward the lender’s prediction while ignoring the borrower’s future.
+
 ## What would change the finding
 
 - The lender decision, price, credit limit, and approval result after the score movement.
@@ -61,6 +69,8 @@ There is a legitimate reason to use a record. A lender that ignores useful repay
 Follow borrowers from a score change through 24 months. Join the credit report to lender terms, payment records, housing applications, insurance prices, work needs, and score recovery. Mark the point where a record changed a decision, rather than treating the later default as the first outcome. Record the monthly dollar difference and available-credit difference, not only approval or denial.
 
 Use a matched design around score thresholds. Compare borrowers just above and below the same approval line, then separate people with clean records from people with prior derogatory marks. Report what changed in the score, what changed in the offer, what changed in the monthly payment or available credit, and what happened later. Test whether a rule that ignores harmless inquiry timing changes access without reducing lenders’ ability to identify genuine risk.
+
+Add a recovery panel that records correction requests, approvals, deposits, insurance terms, rent, utilities, job access, and time to return to ordinary credit terms. Ask borrowers whether they stopped applying or accepted a worse offer after the score changed. This would reveal whether the feedback loop operates through a contract, through self-withdrawal from the market, or through both.
 
 ## Reading rule
 
