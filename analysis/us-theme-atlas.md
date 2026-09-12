@@ -659,6 +659,8 @@ Follow a medical bill into the credit record, then ask whether relief changes th
 
 Still missing: The current experiment does not connect the credit result to every later housing, work or care choice.
 
+[Read the complete connected memo](../site/us-medical-debt-relief-path-001.html)
+
 ### When cash changes the shape of a household
 
 Follow regular cash into rent or mortgage arrears and who lives together, then ask whether the added room lasts after the payment ends.
