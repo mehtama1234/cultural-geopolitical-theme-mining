@@ -8,6 +8,8 @@ The [US evidence and map audit](site/us-evidence-audit.html) shows which topics 
 
 The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five themes together and shows which links are supported, which are comparisons, and which still need a stronger test.
 
+The [matched-evidence index](site/us-matched-evidence.html) collects the deeper checks completed after the opening source packets and shows the open link in each one.
+
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
 
 The second is [When faster service and longer use point in different directions](site/us-work-service-attention-path-001.html), with its [Markdown record](analysis/findings/us-work-service-attention-path-001.md). It joins worker AI access, customer resolution and the ability to leave while keeping the separate-study limit visible.
