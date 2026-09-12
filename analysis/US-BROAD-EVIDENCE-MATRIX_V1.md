@@ -36,6 +36,7 @@ Never promote an inferred or open arrow to observed because several adjacent row
 ## Current anchor records
 
 - [Broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md) — the societal, cultural, consumer, political, company, sector, and geopolitical scope.
+- [Broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md) — one evidence anchor, measurement level, status, and missing link for each of the 14 themes.
 - [Broad research pass](US-BROAD-RESEARCH-PASS_V1.md) — the five priority bridges and stop rules.
 - [SIPP population layer](projects/us-household-calendar-integration/sipp-population-layer-v1.md) — material and work population diagnostics.
 - [SIPP person-transition layer](projects/us-household-calendar-integration/sipp-person-transition-layer-v1.md) — valid monthly transition boundary.

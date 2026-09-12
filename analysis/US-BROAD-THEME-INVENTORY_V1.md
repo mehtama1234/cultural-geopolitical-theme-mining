@@ -6,7 +6,7 @@
 
 Build a connected map of US societal, cultural, consumer, institutional, financial, political, and geopolitical change from many kinds of evidence. The project is not a study of one household. Household records are one instrument for testing population-level patterns and missing links; they are not the subject that replaces the broader map.
 
-The source universe can include surveys, administrative data, public records, research papers, company filings, product and platform evidence, media and cultural measures, election and opinion data, and international or supply-chain records when they explain a US exposure.
+The source universe can include surveys, administrative data, public records, research papers, company filings, product and platform evidence, media and cultural measures, election and opinion data, and international or supply-chain records when they explain a US exposure. The [theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md) records the current evidence anchor and missing link for every theme.
 
 ## The recurring themes to extract
 
