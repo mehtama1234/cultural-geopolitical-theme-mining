@@ -1,52 +1,46 @@
 # When the small-business rule changes the local market
 
-## Short answer
+## The argument
 
-An eligibility line can change which firms receive public credit or contracts. If larger firms gain access, the smallest firms may lose revenue, exit, wages, innovation, or a local customer choice.
+An eligibility line can change which firms receive public credit or contracts. If larger firms gain access, the smallest firms may lose revenue, exit, wages, innovation, or a local customer choice. A larger firm may also deliver at scale, so moving a contract is not automatically a social loss.
 
-A larger firm may also deliver at scale. Moving a contract is not automatically a social loss. The test is what happened to price, quality, jobs, entry, and local service.
+The important question is what the line changes before and after the award. A small firm may depend on one public customer to keep workers, build a record, and obtain private financing. Losing that contract can reduce future options even if a larger firm supplies the service well. At the same time, a larger provider may offer lower cost, wider coverage, or stronger reliability. Firm size is not the same as need, quality, or local value.
 
-## What the source shows
+The deeper finding is that a support rule shapes the market that exists later. It does not only decide who receives money today. It can decide which firms survive long enough to learn, hire, innovate, and compete next year.
 
-Using Census data and changes in US eligibility rules, NBER finds that expanding access to larger firms reduced revenue for the smallest firms, shifted government contracts to larger firms, increased exits, and reduced wages and patenting. The effects were strongest for younger, more productive, and financially constrained small firms.
+## Follow one eligibility change
 
-The study measures firm and market effects. It does not show each owner's household result, customer prices, local services, or the best balance between scale and access.
+A public program expands access to firms above a size threshold. A larger company wins a contract. A younger small firm loses revenue, delays hiring, and cannot show the cash flow a lender wants. It exits a year later. Customers still receive the service, but now face fewer providers and less local choice. In another market, the larger firm’s scale may lower price or improve delivery.
 
-[NBER Working Paper 35703](https://www.nber.org/papers/w35703)
-
-## The connection
+The customer result depends on service quality and alternatives, not only on which firm won.
 
 ```text
-eligibility rule changes
-  -> larger firms gain access
-  -> contracts and support move
-  -> smallest firms lose revenue or exit
-  -> wages, innovation, customers, and local choice change
+eligibility rule changes → larger firms gain access → contracts and support move
+→ smallest firms lose revenue or exit → wages, innovation, customers, and local choice change
 ```
 
-More firms receiving support is not the same as reaching the firms with the greatest need.
+## What the source actually establishes
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Revenue | Using Census data and changes in US eligibility rules, NBER finds expanding access to larger firms reduced revenue for the smallest firms. | A size line can move market income. |
+| Public market | The rule shifted government contracts to larger firms and increased exits. | The first award can affect which firms remain. |
+| Work and ideas | The study finds reduced wages and patenting, with stronger effects for younger, more productive, and financially constrained small firms. | The effect can reach workers and future innovation. |
+| Limits | The study measures firm and market effects. | It does not show each owner’s household result, customer prices, local services, or the best scale-access balance. |
 
-**Household:** A small firm may be a family's income, savings, and identity. Its exit may remove a local job or service, while a larger firm may offer a more stable one.
+Source: [NBER Working Paper 35703](https://www.nber.org/papers/w35703).
 
-**Company and sector:** Scale can lower costs or improve delivery. It can also reduce entry, weaken local competition, and move contracts away from newer firms.
+## The deeper finding
 
-**Money and finance:** Eligibility affects access to contracts, loans, grants, and private credit. A small firm may lose future financing after losing one public customer.
+Small-firm support is also a competition policy. A program can help firms that are currently small, or it can favor firms already large enough to manage the paperwork and contract risk. The most visible recipient may not be the firm with the greatest need, and the cheapest provider may not preserve the next generation of local competition.
 
-**Public power:** The size line, application burden, contract design, place, and review rules decide who can compete and whose failure becomes visible later.
+## What remains unproven
 
-## What would change the finding
-
-- Exact eligibility, program, contract, loan, grant, and application rule.
-- Firm size, age, productivity, owner wealth, household income, and financing need.
-- Revenue, exit, wages, hours, benefits, innovation, prices, quality, and local alternatives.
-- Worker, customer, owner, and neighborhood outcomes after the rule changes.
-- Effects by race, place, industry, firm age, and access to private credit.
+The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. Effects may differ by industry, place, firm age, race, and access to private credit.
 
 ## Next test
 
-Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, patents, prices, service access, household income, and local business entry.
+Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line.
 
 ## Reading rule
 
