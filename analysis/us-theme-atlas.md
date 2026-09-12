@@ -473,6 +473,8 @@ Follow a planned office meeting into later coworker contact and then count the t
 
 Still missing: The current trial does not show which workers benefit after travel cost, care duty, disability, distance and job type are included.
 
+[Read the complete connected memo](../site/us-office-day-remote-week-path-001.html)
+
 ### When getting help becomes a social choice
 
 Follow a person's choice to use or avoid a habit-change aid into attention and then ask how products and institutions make help feel normal or exposing.
