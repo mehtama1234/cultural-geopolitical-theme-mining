@@ -44,6 +44,24 @@ The newer pages also show that these are not separate lanes. They form a few rep
 | Renter or owner housing cost | Insurance, rent, energy, repairs, and transport compete | Remaining cash, safety, coverage, and ability to stay |
 | Consumer or worker rule | Search, appeal, switching, or unpaid effort | Trust, firm power, local choice, and public pressure |
 
+The latest population layers strengthen this map without narrowing it. The
+[2025 SHED price-adaptation layer](projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
+shows how adults distribute price pressure across cheaper goods, reduced use,
+savings, borrowing, delayed purchases, extra work, emergency capacity, and
+outside help. The [ANES 2024 political judgment layer](projects/us-cost-trust-politics/anes-2024-political-judgment-layer-v1.md)
+then measures a different population: eligible voters reporting financial worry,
+economic judgment, trust, perceived institutional capture, perceived waste,
+vote, and post-election legitimacy. These are adjacent layers, not the same
+respondents and not a person-level join.
+
+Together they support a bounded societal pattern: material pressure is often
+absorbed through changed choices, and economic worry is associated with
+different judgments of the economy and institutions. The distribution is
+structured by financial room and party identity. The evidence does not yet
+show that one price, bill, firm, or policy caused a specific person's trust or
+vote. That missing link is part of the finding, not a reason to erase the
+broader pattern.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
@@ -155,9 +173,17 @@ Choose a small number of bridges where the opening evidence is strongest and joi
 
 For each bridge, find a serious counterexample. Then write only the part the records can carry.
 
-The first integrated study should use one household calendar rather than another broad average. Follow a household for twelve months and record pay, rent, utilities, insurance, transport, care, food, medical needs, credit, family help, service contacts, major purchases, and political views. For every disruption, record the date, the choice made, what it protected, what it displaced, who controlled the remedy, and whether the next month started weaker. Link only the measures that can be joined lawfully and ethically, and label all remaining links as unknown.
+The first integrated pass should not become another one-household study. It
+should use several compatible layers: a population survey for material
+adaptation, a respondent survey for interpretation and action, a firm or
+complaint record for the rule and remedy, and a place or administrative record
+for distribution and institutional response. Where a valid panel exists, use
+it for a defined within-respondent question; where it does not, keep the
+layers separate and name the missing join. A household calendar remains one
+useful instrument for a later bounded study, not the definition of the
+program.
 
-[Read the full household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md) · [Read the HTML research brief](../site/us-household-calendar-integration.html)
+[Read the household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md) · [Read the HTML research brief](../site/us-household-calendar-integration.html)
 
 ## Reading rule
 
