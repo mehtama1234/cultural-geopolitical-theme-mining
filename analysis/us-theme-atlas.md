@@ -68,6 +68,8 @@ Follow platform data from access and control into the customer's trust and servi
 
 Still missing: The current model and privacy study concern different settings and do not follow one customer through data sharing, service quality and welfare.
 
+[Read the complete connected memo](../site/us-platform-data-neutrality-path-001.html)
+
 ### When customer protection changes who can provide the ride
 
 Follow a licensing rule into the drivers available, the platform choices customers see, and the ride they receive. Ask whether protection improves service or narrows access.
