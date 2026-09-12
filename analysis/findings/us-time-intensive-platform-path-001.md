@@ -10,6 +10,10 @@ Advertising makes the trade harder to see. A platform may increase ads, change i
 
 After work, a parent opens a free app to answer a message. The app's feed and alerts keep the parent there for an hour. The time may have supplied real social contact, but it also replaced sleep, a child's conversation, or a local purchase. Another user sees more ads but leaves quickly because the service is less important. A third cannot leave because work, friends, and community information are concentrated there.
 
+The lost hour is not automatically a loss. If the message was the only easy way to reach a distant relative, the hour may have delivered something the household values. But the cost becomes clearer when the same design repeatedly takes time at the point when the user is tired or needed elsewhere. A person may intend to check one message, remain because the next item is ready, and finish with no clear moment at which they chose another hour.
+
+This creates two different questions. First, did the user receive enough value to make the time worthwhile? Second, could the user have made that choice knowingly and stopped without losing necessary social or work access? A time-use total can answer neither question by itself. More minutes may mean useful connection, habit, pressure, or a lack of alternatives.
+
 ```text
 free or low-money-price service → time and attention cost → staying, switching, or offline substitute
 → user value and household tradeoff → platform competition and public rule
@@ -31,13 +35,17 @@ Source: [NBER Working Paper 34743](https://www.nber.org/papers/w34743).
 
 The market price of a platform is not its whole price. A household feels the missing minute before it sees a bill. If the app is where friends, customers, news, and work contacts gather, the user may have little practical choice even when the app is technically free to leave. Platform power therefore reaches into the household calendar and the local economy, not only the advertising market.
 
+The unequal part is the value of the displaced activity. An extra hour may take from sleep for a night-shift worker, from paid work for a freelancer, from care for a parent, or from a local shop for a small seller. The platform does not charge each person the same real price because each person gives up something different. That is why average time spent can hide unequal pressure.
+
+The public question follows only after these links are measured. A design rule could change alerts or exit tools, but it might also reduce useful contact or make customer reach harder for a small business. The current evidence supports measuring that trade; it does not prove that one platform structure or one regulation would improve household life.
+
 ## What remains unproven
 
-The evidence does not show whether more time on the app reduced sleep, care, work, or well-being for the same users. It does not show whether ad load, notifications, content quality, or social ties are the main reason people stay. Nor does it tell us whether a separation would create better alternatives or simply split one social network into two weaker ones.
+The evidence does not show whether more time on the app reduced sleep, care, work, or well-being for the same users. It does not show whether ad load, notifications, content quality, or social ties are the main reason people stay. Nor does it tell us whether a separation would create better alternatives or simply split one social network into two weaker ones. It also does not measure whether small businesses or community groups lose useful reach when a user spends less time there.
 
 ## Next test
 
-Follow users for six months before and after a change in ad load, alerts, ranking, or platform design. Join measured time use to content, work, care, sleep, spending, well-being, switching, offline substitutes, and exit. Compare the value of the service with the activity displaced for different household roles and incomes.
+Follow users for six months before and after a change in ad load, alerts, ranking, or platform design. Join measured time use to content, work, care, sleep, spending, well-being, switching, offline substitutes, and exit. Ask users what they meant to do, what they actually did, and what they gave up. Compare the value of the service with the activity displaced for different household roles and incomes, and include small businesses or groups that depend on the platform for contact.
 
 ## Reading rule
 
