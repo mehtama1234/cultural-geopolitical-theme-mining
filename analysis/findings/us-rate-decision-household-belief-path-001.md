@@ -1,52 +1,36 @@
 # When a rate decision becomes a household belief
 
-## Short answer
+## The argument
 
-A central-bank rate decision can reach a household first as a belief: borrowing will cost more, prices may rise, or a large purchase should wait. That belief can change spending or saving before the household's actual loan rate changes.
+A central-bank rate decision can reach a household first as a belief: borrowing may cost more, prices may rise, or a large purchase should wait. That belief can change a plan before the household’s actual loan rate changes.
 
-The careful finding is that households respond to information about rates in surveys and experiments. It is not proof that every reported plan became a real purchase, debt change, or lasting gain or loss.
+Imagine a renter considering a car, a saver holding cash, and a homeowner with a variable-rate loan. The same rate move can make the saver better off and the borrower worse off. A single “household response” hides that split. The message around the decision also matters: people may react to what they think the decision says about jobs and prices, not only to the rate itself.
 
-## What the sources show
+The evidence supports changes in household expectations and reported plans. It does not prove that every plan became a purchase, debt change, or lasting gain or loss.
+
+## What the sources establish
 
 An NBER survey of more than 25,000 US households with randomized information treatments finds that people expect higher rates to raise borrowing costs and inflation. They report reducing spending, especially on durable goods, and inflation expectations help explain portfolio changes.
 
-A separate randomized US survey finds that information about current and next-year rates changes household expectations, while information about rates beyond one year adds little. These studies measure reported beliefs and choices, not each household's later financial records.
+A separate randomized US survey finds that information about current and next-year rates changes household expectations, while information about rates beyond one year adds little. These studies measure reported beliefs and choices, not each household’s later financial records.
 
-Higher rates can help savers and lower some asset prices, while hurting households with variable-rate debt or a need to borrow. People may also respond to the news around a decision rather than the rate itself.
+Higher rates can help savers and hurt households with variable-rate debt or a need to borrow. The actual result depends on income, balance, contract, cash, and timing.
 
-- [NBER Working Paper 35127: Monetary Policy According to Households](https://www.nber.org/papers/w35127)
-- [NBER Working Paper 26778: Forward Guidance and Household Expectations](https://www.nber.org/papers/w26778)
+Sources: [NBER Working Paper 35127](https://www.nber.org/papers/w35127) and [NBER Working Paper 26778](https://www.nber.org/papers/w26778).
 
-## The connection
+## Follow the decision
 
-```text
-rate decision and public message
-  -> household belief about prices, jobs, and borrowing
-  -> spending, saving, debt, or portfolio choice
-  -> financial room and later purchase or payment
-  -> trust in the message and the institution
-```
+rate decision and public message → belief about prices, jobs, and borrowing → spending, saving, debt, or portfolio choice → payment and financial room → trust in the message and institution
 
-The same rate move can help one household through deposit income and hurt another through a loan. A single “household response” hides that split.
+The same decision can help one household through deposit income and hurt another through a loan. Understanding the message may matter, but actual exposure decides the size and direction of the result.
 
-## The four outside views
+## What must stay separate
 
-**Household:** A person compares a rate message with a mortgage, credit card, car loan, rent, savings, wages, and planned purchase. Understanding the message may matter as much as the rate itself.
-
-**Company and sector:** Banks, lenders, builders, stores, and employers change offers, credit limits, hiring, and prices as demand shifts. The household sees those changes through a product, not through the policy rate alone.
-
-**Money and finance:** Measure the actual rate exposure, balance, payment, deposit return, asset change, spending, and saving. A borrower and a saver can receive opposite results in the same month.
-
-**Public power:** Central-bank communication tries to guide expectations without directing each household's choice. Clear messages, trusted data, and awareness of unequal exposure affect whether the policy reaches people as intended.
-
-## What would change the finding
-
-- Actual loan, deposit, mortgage, card, rent, and asset-rate exposure.
-- The message heard, the source trusted, and the household's understanding.
-- Spending, saving, borrowing, repayment, portfolio, and purchase records.
-- Income, wealth, liquid savings, home ownership, age, and debt type.
-- Differences by race, education, place, job, family need, and financial access.
-- Whether a later rate change reverses the belief or only changes the payment.
+- A rate expectation and an actual payment.
+- A planned purchase and a completed purchase.
+- Borrower, saver, renter, and owner exposure.
+- The policy rate and the rate in a household’s contract.
+- Trust in the message and the household’s later behavior.
 
 ## Next test
 
