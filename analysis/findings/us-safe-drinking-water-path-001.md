@@ -8,6 +8,8 @@ The first public result is measurable: a system test improves or pollution falls
 
 The deeper finding is that water is a shared service with private consequences. When public infrastructure fails, households buy their own partial fix. Those with cash can reduce exposure; those without it may carry more risk or lose the ability to stay in place.
 
+A private response can be easy to miss because it is spread across ordinary purchases. A family may spend $40 a month on bottled water, replace a filter early, drive to another town, or use extra time boiling water. An owner may repair a home line; a renter may be unable to do so and may not know whether the landlord or utility is responsible. The public cost and the household cost can therefore move in opposite directions.
+
 ## Follow one home through a repair
 
 A water system receives a public loan after repeated contamination readings. The readings improve. A family that had been buying bottled water now uses the tap again. Another family still distrusts the water because notices were late and its home line was not repaired. A third cannot afford bottles and had no alternative during the delay.
@@ -23,6 +25,8 @@ public water funding
   -> health, time, housing value, and moving choices
   -> demand for repair or public action
 ```
+
+Suppose a notice says the system is improving but the home’s service line has not been replaced. The family may keep buying water even after the system average falls below the standard. Another family may return to the tap immediately because it has a newer line and trusts the notice. The same public project creates different dates for actual protection.
 
 ## What the source actually establishes
 
@@ -46,13 +50,15 @@ The person with the least money also has the least ability to wait for the publi
 
 This links infrastructure to housing and local power. A water problem can change whether a family wants to stay, whether a landlord invests, whether a home is easy to sell, and whether residents trust the agency that sends the notice. A repair can protect health while leaving earlier private spending and lost time unreturned.
 
+It also changes what fairness means. Equal access to the repaired system is not the same as equal protection during the delay. The family able to buy bottles may have lower measured exposure but a higher private bill. The family unable to buy them may have no extra bill but more risk. A program can reduce pollution on average while leaving the largest short-term burden with the people least able to cover it.
+
 ## What remains unknown
 
-The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair, how long private protection lasted, or whether a cleaner system changed the decision to stay.
+The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair, how long private protection lasted, or whether a cleaner system changed the decision to stay. It also does not show whether the public loan reached the home line, the notice reached the household, or the family could afford the interim fix.
 
 ## Next test
 
-Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Record the warning date, repair date, home-line status, and money and time spent during the gap. Compare households that received the fix with similar households still waiting, and separate return to safe use from cleaner test results.
+Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Record the warning date, repair date, home-line status, and money and time spent during the gap. Compare households that received the fix with similar households still waiting, and separate return to safe use from cleaner test results. Split owners and renters, and record whether the household could refuse the tap while waiting.
 
 ## Reading rule
 
