@@ -18,6 +18,10 @@ If the repair cannot be paid, the family may miss work. Missed work can reduce i
 
 The household may also protect the route by giving something else up: fewer work hours, less sleep, a missed appointment, a farther grocery trip, or a loan from family. That response can keep the immediate crisis out of an official record while making the household more fragile. A route is reliable only if the family can keep using it without repeatedly sacrificing another basic need.
 
+The clock matters as much as the map. A bus every twenty minutes may work for a daytime office job and fail for a warehouse shift that ends at 2 a.m. A rideshare may fill that gap, but only at a price that changes when demand rises. A child-care pickup has a hard closing time; a medical appointment may be difficult to replace. A route should therefore be measured at the hour of need, including the cost of being late or having the trip fail.
+
+The household also has to pay before it receives the benefit of the place. A car can preserve a job, but the loan, insurance, and repair fund come first. Transit can be cheaper, but only when the line reaches the right places at the right times. A household with little cash cannot easily choose the long-run cheaper option if the short-run deposit, fare, repair, or missed shift is unaffordable. This is why “affordable transportation” is partly a cash-timing problem.
+
 ```text
 home and job locations
   -> travel mode, distance, and reliability
@@ -46,6 +50,8 @@ This is the connection between transportation and the rest of the household bala
 
 This also explains why broad averages can mislead. A national transportation share cannot tell us whether a household has useful transit, a safe walking route, a second car, remote-work access, or a repair fund. The meaningful measure is not transport spending alone. It is the cost of reaching necessary places compared with the household’s alternatives. The relevant alternative must be measured at the right time: a route at 2 p.m. may not be a route at 5 a.m.
 
+This makes transportation a political choice about which risks are carried privately. A road, bus line, sidewalk, fare policy, parking rule, or workplace schedule can move the cost of access between a household, an employer, and the public budget. When service is cut, the bill does not vanish; it may return as a car payment, a missed shift, a late fee, or a move to a more expensive home. Public debate often counts the cost of the route and the cost of the service separately, even though the household experiences one combined choice.
+
 ## What remains unknown
 
 The sources do not show which households absorb higher travel costs and which lose work, care, food choice, or rest. They do not join vehicle failure, insurance, commute reliability, debt, and health outcomes at the household level. They do not show how much a household would pay to avoid a failed route or whether a stated transit option is usable for its schedule. The NBER study is older and is not a current hardship estimate.
@@ -53,6 +59,8 @@ The sources do not show which households absorb higher travel costs and which lo
 ## Next test
 
 Compare two metro areas and two rural areas. Join housing, wages, vehicle ownership, insurance, fuel, repair, commute time, transit frequency by hour, missed trips, food access, and care access. Follow households through a repair or insurance shock and record whether they borrow, miss work, change stores, skip care, or move. Separate three questions: what the trip costs, what it makes possible, and what the household gives up when the route fails.
+
+Build a route diary for the same households for twelve months. For each necessary trip, record the planned route, the actual route, time of day, out-of-pocket cost, time cost, failure or delay, and the substitute used. Add the household’s cash on hand and the consequence of failure: lost pay, a missed appointment, a child-care fee, a debt payment, or no immediate loss. Compare households with similar rent and wages but different route choices. This would show whether a place is affordable because access is cheap, or only because the household is quietly absorbing the cost elsewhere.
 
 ## Reading rule
 
