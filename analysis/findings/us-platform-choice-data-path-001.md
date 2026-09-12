@@ -6,6 +6,10 @@ A platform can help a customer find a product while also deciding which sellers,
 
 The careful finding is that customer choice and market fairness are different tests. A product can fit a customer today while the platform's control makes tomorrow's market harder to enter.
 
+Imagine a shopper searching for a replacement filter. The platform’s own brand is cheap, arrives tomorrow, and is easy to return. That can be a real gain. The same platform may also decide which outside brands appear, charge them for visibility, and learn from their sales before launching its own version. The shopper gets a good answer today, while sellers may have less room to build a competing answer later. Both parts belong in the record.
+
+The important time split is between a transaction and a market. A ranking can help one purchase without showing whether the platform has made later entry harder. A seller may accept a fee because the platform is the only practical route to customers. A customer may accept a data exchange because the search works. The short-run choice can be voluntary while the long-run dependence grows.
+
 ## What the sources show
 
 ### 1. Some customers gain from the platform's own product
@@ -35,6 +39,8 @@ An HBS analysis of nearly 16,000 users of a receipt-and-reward app found that us
 [HBS: More trust, more data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
 
 More sharing may bring better offers or service. It may also give the platform more power to sort, target or price people. The study does not show which result followed.
+
+Data can also strengthen the platform’s position without changing the product on the screen. Search terms, returns, delivery failures, and repeat purchases show what customers need and which sellers can meet it. If the platform controls that record, an outside seller may compete without seeing the same clues. Equal treatment on the page does not necessarily mean equal ability to learn.
 
 ### 5. The company earns from both sellers and visibility
 
@@ -69,6 +75,8 @@ The first step is measured in the Amazon experiment. The data and privacy steps 
 
 **Public power:** Competition and privacy rules decide what the platform must disclose, share or separate. A customer complaint is useful only if a regulator, court or firm can inspect the result and change it. The current evidence does not show which remedy works best.
 
+The political question is not only whether a platform is large. It is whether people can leave without losing the service, sellers can reach buyers without accepting hidden terms, and a public rule can be enforced against a firm that controls the records. A remedy that changes ranking but not data access may leave the deeper advantage intact. A remedy that forces data sharing may create new privacy risks. The choice is between different forms of control, not between control and no control.
+
 ## Who may feel the difference first
 
 Customers with little time, weak alternatives or low ability to compare may carry more of the search and privacy risk. Small sellers may depend more on ranking and data access than large sellers with their own audience. These are exposure questions, not findings from the opening studies.
@@ -94,6 +102,8 @@ Customers with little time, weak alternatives or low ability to compare may carr
 ## Next test
 
 Pick one US platform market and follow four records together: search position, seller access to data, customer choice and later price or service. Keep the customer benefit and the competition risk as separate measures.
+
+Run the same market through an event timeline: when a platform-owned product appears, when its ranking changes, when seller fees or ad rules change, and when outside sellers enter, exit, or alter price and quality. Give a sample of customers a clear explanation of the ranking and data terms, then measure search time, purchase, repeat use, and ability to switch. This would show whether the useful product choice depends on a market structure customers cannot see.
 
 ## Reading rule
 
