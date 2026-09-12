@@ -545,6 +545,8 @@ Follow a founder's move into local ownership and then ask how housing, services 
 
 Still missing: The current sources measure birthplace ties, home equity and business entry separately; they do not follow residents through a local change.
 
+[Read the complete connected memo](../site/us-hometown-ownership-path-001.html)
+
 ### When a rate decision becomes a household belief
 
 Follow a central-bank decision into what households expect about prices and borrowing, then into spending, saving and financial room.
