@@ -16,6 +16,10 @@ Now change the product and the situation. The user treats a companion chatbot as
 
 The two cases can look alike in usage data: more messages and more days active. Usage alone cannot tell us whether the person is recovering, practicing a useful habit, avoiding human care, or being pulled back by the product.
 
+The user may also be making a cost decision. A therapist, support group, trusted friend, or crisis line may be unavailable at the needed hour or may feel too exposed. The app is easy to open, but that ease can hide what it cannot provide. A person may spend less money and more time, or avoid a human conversation that would have changed the outcome. The right comparison is not app versus nothing; it is app versus the real alternatives the person could reach.
+
+Memory changes the relationship. A system that remembers names, fears, and past conversations can feel more useful, but the same memory may make the user more attached and create a larger privacy risk. A user may not know whether the memory is used only to answer, to improve the product, or to sell a service. Emotional comfort and data control need separate measures.
+
 ```text
 loneliness or distress → personal AI reply and short-term relief
 → trust, attachment, and more time in the app
@@ -45,6 +49,10 @@ This creates three separate measures of success. **Feeling better now** asks whe
 
 The private-care gap makes the distinction more important. If therapy is expensive, waitlists are long, or stigma is high, an app may be the only support a person will try. A strict boundary does not mean rejecting useful prevention. It means the product must say what it can do, what it cannot do, what it remembers, how data are used, and what happens when the user needs more than a conversation.
 
+The safety handoff is the key point of control. A referral that appears only after a long exchange may be too late. A warning that is vague may leave the user unsure whether the situation is serious. A family member may see more use but not know whether to intervene, while the company may know more than either of them. The product needs a clear, usable path from distress to human help, and the study needs to measure whether people used it.
+
+There is also a difference between being alone and being private. Some users may prefer a tool because no one else sees the conversation. Others may need another person to notice a change. A design that protects privacy can reduce shame, but it can also make worsening risk invisible. The right rule depends on the user’s purpose and the danger, not on a general belief that more sharing is safer.
+
 ## Four views of the same interaction
 
 **User:** What did the person seek—reflection, companionship, crisis help, diagnosis, or treatment? Could the person leave with their history and a clear next step?
@@ -62,6 +70,8 @@ The opening sources do not show outcomes for US users over months or years. They
 ## Next test
 
 Follow users for one year across prevention, wellness, and companion products. Measure the user's purpose, short-term relief, loneliness, sleep, work, human contact, crisis language, referral, payment, data use, exit attempts, and reasons for staying. Compare continued use that follows a measured benefit with continued use that follows an exit prompt or failed route to human care. Include an active app control and independent safety review.
+
+Run a case-level study with a clear baseline, active comparison, and follow-up after each exit attempt or crisis signal. Record what the app said, whether the user understood its limits, whether a human route was offered and reachable, what data were saved, and what happened in the next week and month. Give users a simple memory and deletion control, then test whether control changes trust, use, disclosure, and help-seeking. This would separate comfort, retention, dependence, and safety rather than using messages as the main result.
 
 ## Reading rule
 
