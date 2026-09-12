@@ -15,3 +15,7 @@ Insurance can turn a distant disaster risk into a monthly household cost. If cre
 ## Decision rule
 
 Move on after one source measures premium changes by place, one measures the credit-price link, and one next dataset follows coverage, mortgage and move choices. Do not treat a higher premium as proof that a household will leave.
+
+## Matched evidence pass
+
+The first matched check is [Insurance can turn a place risk into a staying problem](../../findings/us-home-insurance-matched-evidence-001.md), with its [HTML reading page](../../../site/us-home-insurance-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms the price and credit links while leaving the same-household move or default result open.
