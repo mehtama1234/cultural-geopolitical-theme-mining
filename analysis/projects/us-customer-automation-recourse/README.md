@@ -33,3 +33,7 @@ Automation may improve service for simple questions while making repeated proble
 ## Writing rule
 
 Use simple words. Say what the customer asked, what the system did, whether a person could help, and what the customer lost or gained. Avoid saying “AI transformed service” when all we know is that a tool was installed.
+
+## Matched evidence pass
+
+The first matched check is [A faster answer is not yet a remedy](../../findings/us-customer-automation-matched-evidence-001.md), with its [HTML reading page](../../../site/us-customer-automation-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a first-contact speed gain while leaving customer remedy and worker authority open.
