@@ -30,6 +30,12 @@ service, platform, disclosure, review, or privacy rule
 
 The strongest supported point is that interface and rule design change customer behavior and firm information. The CFPB layer adds an institutional response record, but its high-level categories still do not reveal whether the individual problem was solved. The unresolved point is recourse: whether the changed interface gives the customer power to correct the outcome. Trust should be measured after the decision, not inferred from a pleasant first interaction or increased sharing.
 
+The CFPB product comparison adds a distribution check: response categories differ
+sharply across credit reporting, debt collection, credit cards, deposit
+accounts, mortgages, and student loans. Therefore the all-product response
+total is not a general customer-remedy rate; product and issue mix are part of
+the institutional mechanism.
+
 ## The three clocks
 
 1. **First-response clock:** how quickly a message or answer arrives.

@@ -60,6 +60,28 @@ Complaint volume is not harm prevalence. Credit-reporting complaints dominate
 this snapshot; complaint propensity, product use, company size, referral rules,
 publication rules, and ability to complain shape the counts.
 
+## Product stratification
+
+The same response categories vary substantially by product. Percentages below
+are within each product's 2024 published records, not rates among all users of
+the product.
+
+| Product | Records | Non-monetary relief | Explanation | Monetary relief | Untimely |
+|---|---:|---:|---:|---:|---:|
+| Credit reporting | 2,370,336 | 54.816% | 45.132% | 0.034% | 0.017% |
+| Debt collection | 156,242 | 29.015% | 70.360% | 0.247% | 0.376% |
+| Credit card | 76,109 | 25.753% | 60.957% | 13.257% | 0.033% |
+| Checking/savings | 52,901 | 7.125% | 77.827% | 15.007% | 0.042% |
+| Mortgage | 21,474 | 2.775% | 94.789% | 2.142% | 0.293% |
+| Student loan | 14,685 | 1.662% | 97.208% | 0.797% | 0.334% |
+
+This comparison changes the interpretation of the national totals: the low
+overall monetary-relief share is heavily influenced by the volume of credit-
+reporting complaints, while banking and credit-card records show higher shares
+in that category. The difference is descriptive and may reflect complaint
+selection, issue mix, company practice, and publication rules—not different
+underlying remedy probabilities.
+
 ## Limits and next test
 
 CFPB states that complaints are published after a company response confirming a
@@ -75,7 +97,9 @@ state, submission channel, response category, timeliness, and narrative
 presence. Pair the complaint records with a separate survey or transaction
 panel to test repeat contact, dispute, exit, trust, and later financial
 condition. Do not join complaints to SIPP or ANES as if they identify the same
-people.
+people. The stratified figures above are reproducible by repeating the same API
+query with each `product` value and the stated date bounds; the API's current
+field definitions are documented in the [CFPB field reference](https://cfpb.github.io/api/ccdb/fields.html).
 
 Related records: [service/platform recourse bridge](../../bridges/us-service-platform-recourse-trust-v1.md),
 [political-response specification](../us-cost-trust-politics/political-response-measurement-spec-v1.md),
