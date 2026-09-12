@@ -1,8 +1,8 @@
 # US source coverage
 
-95 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+96 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 9; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 20; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 13; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2169,6 +2169,24 @@
 - whether transport cost changes work, housing or local business choice.
 
 [Open the source-search record](projects/us-transportation-household-access/source-search-2026-09-11.md)
+
+## US utility bill timing and rate design
+
+**Project:** `us-utility-bill-timing-rate-design`
+
+**Status:** matched evidence pass complete; household-level bill timing and arrears history remains open
+
+**Question:** Can a household manage an energy cost over a year and still fail when seasonal use, fixed charges, or the due date creates a large monthly bill?
+
+**Sources recorded:** 5
+
+- [EIA: Electric sales, revenue, and average price data](https://www.eia.gov/electricity/sales_revenue_price/)
+- [EIA: Prices and factors affecting prices](https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php)
+- [EIA: Annual Energy Outlook weather assumptions and bill components](https://www.eia.gov/outlooks/aeo/IIF_weather/)
+- [GAO: HUD rental assistance and utility allowances](https://www.gao.gov/products/gao-24-105532)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+
+[Open the source-search record](projects/us-utility-bill-timing-rate-design/source-search-2026-09-11.md)
 
 ## US utility shutoff and bill timing
 

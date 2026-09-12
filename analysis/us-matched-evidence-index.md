@@ -554,7 +554,17 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 56. A car repair can protect access while taking away other room
+### 56. A manageable yearly cost can still fail at the due date
+
+**Theme:** Energy / cost / finance / housing
+**Route:** rate design and season → monthly bill → cash gap or arrears
+**Still open:** whether timing or structure causes the break
+
+An annual energy average can hide the month that breaks a household. EIA shows that residential use and bills move with weather and that fixed bill components become a larger share when use falls. EIA also publishes average monthly bills by place, while GAO shows that utility costs can still make assisted renters rent-burdened. EIA's household survey records the final breaks: disconnect notices, unsafe temperatures, and unusable equipment. The deeper finding is that affordability is not only the price of energy; it is the bill that arrives, the money available that week, and the cost of falling behind.
+
+[Read the HTML page](../site/us-utility-bill-timing-rate-design-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-bill-timing-rate-design-matched-evidence-001.md)
+
+### 57. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -564,7 +574,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 57. Efficiency savings are real but smaller than the promise
+### 58. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health
