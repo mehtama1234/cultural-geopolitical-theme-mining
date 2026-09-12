@@ -14,6 +14,10 @@ Consider a customer-service worker who works remotely and attends the office onc
 
 The office day may raise her output over the next weeks. It may also use the only evening she had for rest or family work. A coworker living ten minutes away receives much of the same contact at a lower price. A third worker cannot attend reliably because of disability or a care schedule. The average result can improve while the rule distributes the gain and burden unevenly.
 
+The day can also change spending outside the home. The worker may buy lunch, parking, transit, or a backup child-care hour. A downtown restaurant or store may gain that sale, while a local shop near the worker’s home loses the weekday customer. When many workers return, the effect can reach commercial rent, transit revenue, and city tax receipts. These place effects are connected to the office rule, but they should not be assumed from one worker’s commute.
+
+The contact may have different value at different career stages. A new worker may need a nearby person to answer a question; an experienced worker may need a quiet day to finish complex work. A manager may benefit from a team meeting while a worker with a disability pays a much higher cost to attend. One fixed attendance rule can therefore solve a real problem for one group and create a barrier for another.
+
 There is a second risk. Contact can help a worker do better without helping that worker advance. Managers may notice office presence more than remote output. A rule can therefore improve communication while also creating a new visibility test for promotion.
 
 ```text
@@ -55,6 +59,10 @@ Remote work also has a real benefit that is easy to leave out: it can widen the 
 
 That visibility test can be accidental. A manager may intend the office day to improve learning but remember who was present when a project or promotion is discussed. A remote worker may deliver equal output and still have fewer informal chances to be noticed. The office requirement can then change career access even if the stated work task is unchanged.
 
+The household may be doing invisible coordination to make attendance possible. A partner shifts work, a relative covers a pickup, or a worker pays for care that would not be needed at home. If the office day is canceled or moved, the household may still carry the cost. A fair rule should measure schedule notice and the cost of changing the plan, not just the number of days attended.
+
+The political and local story can split from the worker story. A city may want office travel to support transit and downtown firms, while workers want time and control at home. An employer may call attendance a culture investment, while the household experiences it as an unpaid work expense. The evidence supports the work and contact tradeoff; it does not show which public or private choice wins.
+
 The strongest office case is specific: a task needs shared equipment, rapid feedback, trust built through repeated contact, or learning that is hard to reproduce online. The weakest case is a trip that recreates individual screen work while shifting travel and care costs to the worker. A policy should say which task it is paying for and test whether the contact continues after the worker returns home.
 
 ## What remains unproven
@@ -64,6 +72,8 @@ The evidence does not show whether office contact improved long-term pay or prom
 ## Next test
 
 Follow workers for one year before and after a planned office-day rule. Record attendance, commute time and cost, care changes, output, feedback, peer help, promotion, pay, retention, preference, and household stress. Compare an office day with an online meeting designed to create the same contact. Report both the work gain and the time taken to obtain it.
+
+Add a location ledger that records travel, parking, food, care, schedule notice, home-work time saved, and the local businesses or services used on each workday. Compare new workers, experienced workers, caregivers, disabled workers, and workers with different commute lengths. Measure whether the same contact changed later work, errors, learning, or promotion, rather than treating presence as the result. This would show whether an office rule buys a lasting work gain or mainly moves costs between the employer, worker, household, and city.
 
 ## Reading rule
 
