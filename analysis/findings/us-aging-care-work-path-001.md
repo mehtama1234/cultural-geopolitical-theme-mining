@@ -52,6 +52,10 @@ The costs also land differently by job. A worker with paid leave may lose no wag
 
 There is a local supply problem underneath the family choice. Paid care may be too far away, too expensive, unavailable at night, or unreliable when a visit changes. Family labor fills the gap because it is close and trusted, not because it is costless. If the care workforce is poorly paid or unstable, the family may be asked to provide backup for a system that never had enough workers. This links older-person care to wages, transport, housing, and the employer's schedule.
 
+Quality can be part of the reason families keep doing the work themselves. A paid aide may be available but not trusted with medicines, language, mobility, or a changing routine. A public benefit that pays for hours without giving the family a reliable person may not replace the work. The household may choose unpaid care because it is safer or more familiar, while still paying in lost earnings and rest. Cost and quality cannot be separated.
+
+The strain can move in both directions. A caregiver who loses sleep may become less patient or less safe; an older person whose needs rise may make the worker’s schedule impossible. This is not a reason to blame either person. It is a reason to measure the care recipient’s safety and the caregiver’s capacity together, including the point at which the arrangement stops being sustainable.
+
 ## What remains unproven
 
 The evidence does not yet follow the same people from the start of care through hours, earnings, job changes, paid care, savings, health, and childcare. It does not establish which forms of leave, flexible work, paid care, or family support protect long-term security best. It does not show how many workers keep their job but lose future options, or how the timing and quality of paid care change the result. Results may differ by gender, race, income, disability, household type, and place.
@@ -61,6 +65,8 @@ The evidence does not yet follow the same people from the start of care through 
 Follow caregivers and care recipients for two years from the start of regular care. Record care tasks and timing, paid care, leave, schedule changes, job offers refused, earnings, savings, sleep, health, child care, and travel. Mark who made each adjustment, what the adjustment cost, whether the older person’s care actually improved, and whether the worker gained or lost later choices. Compare families with nearby help, paid help, and no available helper.
 
 Use weekly time diaries linked to payroll and care records, with a threshold measure for changes in care intensity. Compare paid leave, schedule control, direct care support, transport, and no added support. Track wages, hours, promotion, turnover, sleep, care quality, emergency visits, and the worker's ability to accept another job. The test should identify whether support reduces the family's total burden or only moves unpaid care from one relative to another.
+
+Add a quality-and-replacement measure: whether the paid or public service could cover the exact task, hour, language, mobility need, and emergency change the family faced. Record failed handoffs, canceled visits, and who filled the gap. This would distinguish support that replaces care from support that pays around it while leaving the family’s hardest hours untouched.
 
 ## Reading rule
 
