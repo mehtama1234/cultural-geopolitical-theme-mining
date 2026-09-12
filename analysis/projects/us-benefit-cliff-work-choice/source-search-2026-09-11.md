@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; work and aid link is supported, household take-home effect remains open
+**Status:** first matched evidence pass completed; household take-home effect remains open
 
 ## Working question
 
@@ -28,6 +28,10 @@ earnings or hours rise
 ```
 
 The sources show that program loss and work do not move in one simple direction. Work requirements can remove aid without raising work, while a gradual benefit taper may still leave a household better off. The missing measure is the same family's total resources before and after the change.
+
+## Matched evidence result
+
+The central test is total household room. Program exit, higher wages, and more work are not interchangeable outcomes. The next data build must count cash, taxes, food, health coverage, child care, transport, and time spent meeting the rule together.
 
 ## Counterpoint to keep visible
 

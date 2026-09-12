@@ -8,6 +8,11 @@ When a household earns more, does the extra pay create more room, or does the lo
 
 Separate three things: benefits that taper as income rises, benefits lost at a threshold, and work rules that remove help because of reporting or hours. Then compare the change in aid with the change in take-home money, care access and work.
 
+## Matched evidence pass
+
+- [Earning more does not always mean having more room](../../findings/us-benefit-cliff-work-choice-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-benefit-cliff-work-choice-matched-evidence-001.html)
+
 ## Possible connection
 
 Public help can make work possible by paying for food, health care or child care. If the rules remove help faster than earnings add room, a household may face a hard choice even when its wage rises.
