@@ -32,6 +32,8 @@ These are starting cases from the existing matched-evidence and path records. Th
 
 The first bridge synthesis is now recorded in [price and payment to household room](bridges/us-price-payment-household-room-v1.md). It is deliberately a layered cross-source comparison, not a claim that one household or one price caused a later political result.
 
+The second bridge synthesis is now recorded in [service and platform rules to recourse, trust, and exit](bridges/us-service-platform-recourse-trust-v1.md). It separates first-response speed, final remedy, customer effort, and trust.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
