@@ -42,6 +42,8 @@ Follow a tariff from the first import price into the existing pass-through evide
 
 Still missing: The current studies use different price measures and do not follow the same household through its basket, substitution, income and political judgment.
 
+[Read the complete connected memo](../site/us-tariff-price-path-001.html)
+
 ### When a free app charges in time
 
 Follow a no-money-price service into the time and attention it takes, then ask what the customer receives and what becomes harder to do.
@@ -1359,6 +1361,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [CFPB medical collections report](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
 - [CFPB medical-information rule record](https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-regulation-v/)
 - [NBER household finance search starting point](https://www.nber.org/papers)
+- [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200)
 
 #### Evidence check: Removing old debt may leave today's choices unchanged
 
@@ -2387,6 +2390,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Pew: 2026 economic views](https://www.pewresearch.org/short-reads/2026/02/23/state-of-the-union-2026-where-americans-stand-on-key-issues-facing-the-nation/)
 - [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059)
 - [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524)
+- [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
 - [Federal Reserve 2025 household survey](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
 - [Federal Reserve 2025 income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
 - [Pew long-run public-trust series](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/)
@@ -2561,6 +2565,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
 - [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
 - [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
 - [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
 
@@ -3223,6 +3228,9 @@ A platform-owned product can serve a real customer preference while the platform
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
+- [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
+- [FTC and states Amazon case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
+- [FTC and states Amazon advertising case](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)
 
 #### Evidence check: A platform-owned product can help some customers and still raise competition concerns
 
