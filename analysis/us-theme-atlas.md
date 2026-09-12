@@ -174,6 +174,8 @@ Follow a low-cash account through a bank fee rule and into later borrowing or pa
 
 Still missing: The current bank study and credit packet use different records and do not follow one household from the first shortage through every later cost.
 
+[Read the complete connected memo](../site/us-bank-fee-credit-path-001.html)
+
 ### When the tap becomes part of the health and housing story
 
 Follow water quality from public investment into the condition of a home and then into health. Ask whether a place can look affordable while a basic service shifts risk and cost onto families.
