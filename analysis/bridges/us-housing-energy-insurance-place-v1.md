@@ -15,6 +15,7 @@ When the cost or condition of a home changes, how does the pressure move through
 | Recovery time | [A shutoff rule changes the time a household has to recover](../../findings/us-utility-shutoff-reconnection-rules-matched-evidence-001.md) separates notice, payment plan, shutoff, reconnection, and repeat debt. | Rules change the time and cost available before service is lost. | Which rule produces durable recovery across states and households. |
 | Building intervention | [Efficiency savings are real but smaller than the promise](../../findings/us-weatherization-health-household-outcomes-matched-evidence-001.md) finds a gap between modeled savings and actual savings and separates use, temperature, safety, and health. | A lower modeled or measured bill is not automatically a safer or healthier home. | Whether a particular retrofit expanded household room or merely reduced use. |
 | Place risk | [Insurance can turn a place risk into a staying problem](../../findings/us-home-insurance-matched-evidence-001.md) links risk to premiums, coverage, credit pricing, home value, repair, and financing. | Place risk can become a housing and asset constraint. | That a particular family moved, defaulted, or became uninsured because of insurance. |
+| Mobility context | The [weighted 2022 NHTS transport comparison](../projects/us-household-calendar-integration/nhts-transport-comparison-v1.md) finds zero-vehicle households and rideshare exposure are more common in urban than rural records, while rural work trips show more pickup use. | Place changes the set of usable routes to work and services. | It does not connect housing cost, energy burden, insurance, fare, missed work, or recovery for the same household. |
 
 ## Working chain
 
@@ -28,6 +29,8 @@ home condition, energy price, disaster risk, insurance rule, or housing cost
 ```
 
 The strongest supported point is that housing costs are a stack of conditions and risks, not only rent or mortgage. The unresolved point is household recovery: service restored, coverage renewed, or work completed does not prove that debt, health, safety, or mobility returned to its prior position.
+
+The NHTS comparison supplies a measured mobility layer for this broader bridge. It shows that “can reach work or care” is partly a place and vehicle-access question. It must remain a context or comparison until it is joined to housing, energy, insurance, cost, and outcome records.
 
 ## Five housing outcomes that must stay separate
 

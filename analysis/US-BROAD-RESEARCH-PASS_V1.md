@@ -40,6 +40,8 @@ The fourth bridge synthesis is now recorded in [housing, energy, and insurance t
 
 The fifth bridge synthesis is now recorded in [public aid and rules to interpretation and political response](bridges/us-public-aid-interpretation-political-response-v1.md). It separates exposure, take-up, material result, interpretation, political expression, and political action.
 
+The first reusable population-level measurement attached to a bridge is the [2022 NHTS urban/rural transport comparison](projects/us-household-calendar-integration/nhts-transport-comparison-v1.md). It is a place-and-mobility layer for Bridge 4, not a full housing, energy, insurance, or household-recovery result.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
