@@ -884,6 +884,8 @@ Follow disaster credit into bankruptcy, later purchases and household room, whil
 
 Still missing: The disaster-loan study measures credit records and selected outcomes; it does not show every household's avoided loss or full repayment burden.
 
+[Read the complete connected memo](../site/us-emergency-credit-disaster-path-001.html)
+
 ### When a business loan protects more than the owner
 
 Follow disaster credit into the owner's shared household and then into jobs, revenue and local services.
