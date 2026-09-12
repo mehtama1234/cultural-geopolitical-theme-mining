@@ -110,7 +110,7 @@ The first published-table reference pass is in the [ATUS and CE reference pass](
 
 The first transport paper scan is in the [transport paper scan](projects/us-household-calendar-integration/transport-paper-scan-v1.md), with a [reader-facing HTML page](../site/us-transport-paper-scan.html). It separates household choice, city-wide effects, and worker or firm effects, then turns the reading into questions for the calendar.
 
-The next connected reading pass is [housing and insurance risk](projects/us-housing-insurance-affordability/paper-scan-v1.md), with a [reader-facing HTML page](../site/us-housing-insurance-paper-scan.html). It follows how a place risk or credit record can become a premium, coverage gap, financing problem, repair delay, sale loss, or public cost. The existing [home-insurance finding](../site/us-home-insurance-matched-evidence.html) carries the current evidence-backed argument.
+The next connected reading pass is [housing and insurance risk](projects/us-housing-insurance-affordability/paper-scan-v1.md), with a [reader-facing HTML page](../site/us-housing-insurance-paper-scan.html). It follows how a place risk or credit record can become a premium, coverage gap, financing problem, repair delay, sale loss, or public cost. The existing [home-insurance finding](../site/us-home-insurance-matched-evidence-001.html) carries the current evidence-backed argument.
 
 The first household-level check for that topic is the [Federal Reserve insurance pass](projects/us-housing-insurance-affordability/fed-shed-housing-insurance-pass-v1.md). It separates no coverage, too little coverage, and coverage that is hard to carry.
 
