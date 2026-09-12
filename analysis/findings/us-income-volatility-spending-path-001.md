@@ -14,6 +14,8 @@ A worker usually earns $4,000 a month, but a schedule change leaves only $2,500 
 
 Another worker with the same annual pay has a reserve and waits. A third has a second job and keeps the bills current but spends more on transport and less time with family. The income number is identical; the choices and later costs are not.
 
+The weak month reveals the difference between income and control. A worker may know that the yearly total is enough but still be unable to move money from a strong month to the bill due today. If the transfer requires credit, a family member, or another shift, the household pays for timing even when average income looks adequate.
+
 ```text
 pay becomes less predictable → savings and credit absorb the gap
 → spending, housing, health care, transport, or durable purchases change
@@ -40,6 +42,10 @@ The first visible cut is not always the most important one. A family may keep re
 
 This also explains why credit access can be unequal even when lenders see the same annual earnings. A lender may read unstable pay as risk and restrict the loan that would help the household smooth the gap or establish housing. The household then has to use more expensive credit or make a larger immediate cut, which can make the original risk harder to escape.
 
+The size of the first cut can also mislead. A family may keep a visible bill current by giving up sleep, care, or a medical visit. A spending series shows the adjustment but not the value of what was delayed. An employer may offer flexibility but no predictable hours, while a benefits system may use reporting periods that do not match pay periods. The worker then carries a timing problem as a personal problem.
+
+The political meaning is open. A worker may want predictable hours, portable benefits, or better credit access, but may also value the freedom of uncertain work. The same household can support flexibility in one season and stability in another. The evidence supports material pressure and tradeoffs, not one shared policy demand.
+
 ## Four views of the same weak month
 
 **Household:** When did the money arrive? What reserve, family help, or credit was available? What was cut first?
@@ -52,11 +58,11 @@ This also explains why credit access can be unequal even when lenders see the sa
 
 ## What remains unproven
 
-The evidence does not show whether a stable job was chosen for fit or kept because alternatives were unsafe, or which public support best protects workers during a weak month. It does not reveal the exact need each spending cut protected or delayed. It does not follow the same worker's pay, cash buffer, job choice, spending purpose, and later outcome together.
+The evidence does not show whether a stable job was chosen for fit or kept because alternatives were unsafe, or which public support best protects workers during a weak month. It does not reveal the exact need each spending cut protected or delayed. It does not show whether lender terms worsened after volatility appeared. It does not follow the same worker's pay, cash buffer, job choice, spending purpose, and later outcome together.
 
 ## Next test
 
-Follow workers for two years before and after a move into uncertain work. Join weekly pay, hours, liquid savings, credit offers and terms, spending, housing, health care, job changes, family plans, and stated preferences. Compare income level with income risk, and measure the cost of the choices used to smooth each weak month.
+Follow workers for two years before and after a move into uncertain work. Join weekly pay, hours, liquid savings, credit offers and terms, spending, housing, health care, job changes, family plans, and stated preferences. Record the bill due, the buffer available, the first cut, and the interest paid to smooth each weak month. Compare income level with income risk and measure whether the next choice remained available.
 
 ## Reading rule
 
