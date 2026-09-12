@@ -42,6 +42,8 @@ The fifth bridge synthesis is now recorded in [public aid and rules to interpret
 
 The first reusable population-level measurement attached to a bridge is the [2022 NHTS urban/rural transport comparison](projects/us-household-calendar-integration/nhts-transport-comparison-v1.md). It is a place-and-mobility layer for Bridge 4, not a full housing, energy, insurance, or household-recovery result.
 
+The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-household-calendar-integration/sipp-bounded-acquisition-v1.md). It confirms an accessible monthly population-survey backbone for household security, work, benefits, energy, food, and debt. Its 100,000-row engineering slice is not yet a weighted finding.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
