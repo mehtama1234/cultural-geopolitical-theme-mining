@@ -18,6 +18,8 @@ The servicing process matters after the rule changes. A borrower may receive a n
 
 Another borrower with the same debt keeps paying because the notice is unclear. A third spends the room on food. A later policy can therefore produce different outcomes even for people with similar balances.
 
+The borrower also has to plan around a moving target. A person may postpone buying a home, returning to school, changing jobs, or helping a child because the future payment is unknown. Those choices may never appear as loan transactions. Uncertainty can reduce risk-taking for one family and encourage early spending for another. The missing outcome is not only delinquency; it is the opportunity that was delayed or the debt taken on because the policy could not be trusted.
+
 ```text
 policy promise or legal uncertainty
   -> belief about a future payment
@@ -48,6 +50,10 @@ This connects to the earlier student-debt finding. The balance is not the whole 
 
 This is why the word “relief” needs a time stamp. An announcement may lower a payment. A court decision may restore it. A borrower’s spending decision sits between the two and may be impossible to reverse.
 
+There is a fairness question inside the timing. A borrower with savings can wait for a final rule or keep paying to avoid risk. A borrower with no buffer may use every expected dollar immediately, even when the rule is uncertain. The same announcement gives more usable relief to the person who can afford to wait. Later delinquency can then reflect unequal room during the uncertainty period, not simply different willingness to repay.
+
+Servicing can turn uncertainty into a trust event. If the amount, interest, due date, or account status changes without a clear explanation, a borrower may not know whether to pay, save, or challenge the bill. A correct final policy can still fail as a household experience if the transition is confusing. The public judgment will attach to the whole path, including the notice and the correction process.
+
 ## What remains unknown
 
 The evidence does not show whether extra spending protected food, health, work, or housing, or whether later delinquency came from the pause ending, mistaken belief, income loss, or servicing problems. It does not establish one path for every borrower. It does not show whether the returning bill was clear enough or whether households had time to rebuild a buffer.
@@ -55,6 +61,8 @@ The evidence does not show whether extra spending protected food, health, work, 
 ## Next test
 
 Follow borrowers from the first announcement through three years after the policy settles. Join notices, beliefs, payments, balances, spending purpose, delinquency, credit, housing, work, family, servicing contacts, and actual relief. Compare borrowers with similar debt and income but different liquidity and loan rules. Record the household’s buffer before the promise, the choice made during uncertainty, the clarity and timing of the returning bill, and whether the household recovered.
+
+Use a monthly borrower panel with a record of every public announcement and servicing notice. Ask what the borrower believed would happen, what decision was changed, and what backup was available. Compare clear, early notices with late or ambiguous notices, and separate people who received relief from those who only expected it. Measure payment, delinquency, credit, housing, job, education, family transfers, and lost opportunities so the test captures both the bill and the life plan around it.
 
 ## Reading rule
 
