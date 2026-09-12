@@ -120,4 +120,6 @@ The first direct market-data acquisition is recorded in the [Treasury FIO suppor
 
 The next connected paper pass is [health costs and the choices people give up](projects/us-health-cost-household-choice/paper-scan-v1.md), with a [reader-facing HTML page](../site/us-health-cost-paper-scan.html). It separates the bill, the payment problem, the credit record, the health effect, and the work or care choice that may follow.
 
+The next political bridge is [cost, trust, and political response](projects/us-cost-trust-politics/paper-scan-v1.md), with the existing [reader-facing finding](../site/us-cost-trust-politics-path-001.html). It uses household price actions, real wages, sentiment, party identity, and trust as separate measures rather than one “economic mood” number.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
