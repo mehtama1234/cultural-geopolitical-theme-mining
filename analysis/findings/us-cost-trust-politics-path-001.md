@@ -8,11 +8,15 @@ A household may switch brands, delay a car purchase, save less, borrow, and work
 
 The deeper finding is a three-step path: household action, economic judgment, political response. The evidence supports the first two and gives clues about the third. It does not prove that one price change caused one vote.
 
+The word “okay” can hide the work needed to stay okay. A family may pay every bill by using savings, taking a second shift, buying less food, or postponing a repair. Its answer about current finances may be positive because the immediate crisis has not arrived. Its answer about the country may be negative because it sees the same adjustment spreading around it or expects that the next bill will be harder.
+
 ## Follow the three steps
 
 A family sees prices rise. It buys less, delays a purchase, or works more. The budget survives, but the family’s sense of room changes. It then interprets the national economy through party, place, media, and expectations. It may demand relief, blame a leader, vote, or do none of these.
 
 The adjustment is not the political response. A person may be angry and not vote, vote on another issue, or keep a party identity through a bad month. Each step needs its own evidence.
+
+Imagine two workers facing the same $200 monthly increase in necessary costs. One has savings and cuts restaurant spending. The other skips care and borrows. Both may report that the country is doing badly, but the second has a different exposure and a different reason to seek relief. Neither answer tells us whether they voted, contacted an official, changed party, or simply endured the month.
 
 ```text
 price, bill, wage, or benefit change
@@ -38,15 +42,19 @@ Sources: [Federal Reserve 2025 household report](https://www.federalreserve.gov/
 
 The political meaning of cost is built from the adjustment, not just the price. A family that keeps paying may still feel less secure because it has used savings, cut quality, or lost the ability to handle the next bill. That is why a national economic rating can remain poor while a majority says its own finances are okay.
 
+This creates a measurement trap. A survey that asks only whether someone is “doing okay” can miss the reserve that was used to produce that answer. A survey that asks only whether the economy is bad can miss the household’s actual ability to pay. The two answers become useful when joined to the action taken, the money available before the action, and the expected next cost.
+
+Trust adds another filter. The same financial pressure may produce a demand for public help if a person believes government can act, or private coping if public institutions seem unable or unwilling to help. Low trust may increase blame, reduce political action, or do both. The current evidence does not decide which path is most common.
+
 But this is not permission to jump from hardship to politics. The chain must show what changed, how the person interpreted it, whom they blamed, and whether they acted.
 
 ## What remains unknown
 
-The sources do not join one family’s price actions, income, rent, debt, savings, economic views, trust, political contact, turnout, and vote. They cannot cleanly separate price pressure from news, party identity, local events, and other issues.
+The sources do not join one family’s price actions, income, rent, debt, savings, economic views, trust, political contact, turnout, and vote. They cannot cleanly separate price pressure from news, party identity, local events, and other issues. They also do not show whether a household’s financial adjustment was temporary, repeated, or reversed when prices stabilized.
 
 ## Next test
 
-Use Fed SHED files to cross-tab price actions with personal and national economic views by income, age, race, disability, and place. Add benefit-loss designs as separate causal tests. Then test whether real buying power predicts turnout or vote after accounting for party identity, local news, and other issues.
+Use Fed SHED files to cross-tab price actions with personal and national economic views by income, age, race, disability, and place. Add benefit-loss designs as separate causal tests. Then test whether real buying power predicts turnout or vote after accounting for party identity, local news, and other issues. Ask what reserve made the household “okay,” what it gave up, who it blamed, and whether it took a political action. Repeat after prices stop rising but remain elevated.
 
 ## Reading rule
 
