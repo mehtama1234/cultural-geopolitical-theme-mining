@@ -30,6 +30,8 @@ These are starting cases from the existing matched-evidence and path records. Th
 | Housing/energy/insurance → health, mobility, and place | [Insurance can turn a place risk into a staying problem](findings/us-home-insurance-matched-evidence-001.md) | It connects place risk, premium, coverage, credit, home value, repair, sale, and staying without claiming a move. | Compare similar properties by risk, credit, coverage, repairs, claims, financing, and move outcome. |
 | Public aid/rule → interpretation → political response | [A public benefit can change economic sentiment](findings/us-transfer-design-household-matched-evidence-001.md) plus [real wages and voting](findings/us-economic-voting-real-wages-matched-evidence-001.md) | Together they separate benefit exposure, household condition, sentiment, real wages, and election results. | Test burden, attribution, party identity, policy knowledge, action, and vote as separate links. |
 
+The first bridge synthesis is now recorded in [price and payment to household room](bridges/us-price-payment-household-room-v1.md). It is deliberately a layered cross-source comparison, not a claim that one household or one price caused a later political result.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
