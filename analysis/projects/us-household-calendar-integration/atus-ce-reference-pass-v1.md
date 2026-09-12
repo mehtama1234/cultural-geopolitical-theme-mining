@@ -46,6 +46,12 @@ The correct bridge is a future dated event record:
 
 The working picture would weaken if household records showed that time and money rarely competed after a transport problem; if lower-price options were generally usable without extra delay or risk; or if a restored trip reliably restored the household’s later cash, work, care, and choice.
 
+## Access check for the next extraction
+
+The official [ATUS 2024 microdata page](https://www.bls.gov/tus/data/datafiles-2024.htm) lists the Respondent, Roster, Activity, and Activity Summary ZIP files and says they are available for user tabulations. A direct download attempt from this environment reached the BLS page but returned HTTP 403 for the Activity ZIP. No raw ATUS file was retained and no microdata result is being presented here.
+
+That is a source-access problem, not evidence that the extraction is complete. The published table values above remain usable because they were checked against the official BLS tables. The microdata task stays open.
+
 ## Next bounded extraction
 
 The next data step is to use the 2024 ATUS microdata to reproduce the published work-travel and care-travel measures by broad employment, sex, and household-child groups. The output should carry the activity definition, diary-day unit, weight, and suppression rule. CE should remain a separate spending table by transport subcategory and income or tenure group.
