@@ -8,11 +8,15 @@ That matters because a message can change an inflation expectation before it cha
 
 The deeper finding is that communication is part of policy transmission, not a substitute for policy. A trusted message can make people more willing to update. It cannot create cash, lower rent, or give a family room to act.
 
+This is why a message should be judged at two levels. Did the person believe or update the information? And did the information change a decision the person could actually make? A household with a fixed mortgage may understand a rate announcement but see no immediate payment change. A household with a variable credit balance may face a higher bill quickly, but have no way to reduce it.
+
 ## Follow one message through a household
 
 A family sees its credit-card rate rise and hears that tighter policy will bring prices down. If it trusts the Fed, it may delay a purchase. If it sees the Fed as partisan, it may reject the explanation. But if rent and medicine are due, neither reaction changes the next payment.
 
 The message can still change blame. A household may accept the rate decision but blame the president, the Fed, or firms for the price it faces. Belief, behavior, and political judgment must therefore be recorded separately.
+
+Suppose the Fed says rates will stay high to bring inflation down. One family trusts the message and delays buying a car. Another distrusts it and hears a political leader instead. A third agrees with the explanation but buys the car because the old one failed. The first two differ in trust; the third shows that agreement does not guarantee room to act.
 
 The timing creates a hard test. A message about future inflation may change what a person expects next year, while a credit-card rate or rent payment changes the budget today. A household can update its belief and still have no room to act. Another may act because the bill is due, even while rejecting the institution's explanation.
 
@@ -43,17 +47,19 @@ This creates a political gap between explanation and experience. Officials may e
 
 Trust also changes the information path. A person who distrusts the Fed may ignore its message and use a bank, employer, news source, or political leader instead. That alternative may offer a clearer story, but not a more accurate one. The result can be a split between the policy signal officials send and the cause households think they are living through.
 
+The alternative source may also change the timing of the decision. A bank notice can explain a payment immediately, while a national message explains why conditions may remain tight later. People may use both and give each a different job. A survey that asks only whether the person trusts the Fed misses this mixed information path.
+
 The household's room is the missing link. A person with savings can respond to a rate change by waiting, refinancing, or changing a purchase. A person with no cash may carry the higher payment regardless of belief. This is why trust should not be treated as a free-standing attitude: its effect depends on whether the family can do anything with the information.
 
 The public path remains indirect. If a family hears one explanation, sees another bill, and cannot get relief, it may change who it blames or which policy it supports. But party identity, media, and other concerns can dominate. The evidence supports a difference in message receipt and belief, not a general theory of economic voting.
 
 ## What remains unknown
 
-The studies do not show actual spending, saving, borrowing, credit balances, or lasting communication effects. They do not establish that a partisan trust gap changes a vote or that a different message changes a household’s inflation. They do not show whether people used another source instead, or whether the household had enough room to act on its belief.
+The studies do not show actual spending, saving, borrowing, credit balances, or lasting communication effects. They do not establish that a partisan trust gap changes a vote or that a different message changes a household’s inflation. They do not show whether people used another source instead, or whether the household had enough room to act on its belief. They also do not show whether a changed expectation survives a later bill, price shock, or policy reversal.
 
 ## Next test
 
-Follow households from a real Fed communication for six months. Join exposure, source, party cues, belief, prices, income, spending, saving, borrowing, credit, turnout, and policy views. Record which bill changed, which information source was trusted, whether the household had room to act, and whether it changed behavior before changing its political judgment.
+Follow households from a real Fed communication for six months. Join exposure, source, party cues, belief, prices, income, spending, saving, borrowing, credit, turnout, and policy views. Record which bill changed, which information source was trusted, whether the household had room to act, and whether it changed behavior before changing its political judgment. Recontact households after a major bill or rate reset to test whether belief remained useful when the lived cost arrived.
 
 ## Reading rule
 
