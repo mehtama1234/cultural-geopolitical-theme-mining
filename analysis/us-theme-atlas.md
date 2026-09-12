@@ -896,6 +896,8 @@ Follow disaster credit into the owner's shared household and then into jobs, rev
 
 Still missing: The firm study and owner-household study use different shocks and records; they do not show one business and household together after a disaster.
 
+[Read the complete connected memo](../site/us-small-business-disaster-liquidity-path-001.html)
+
 ### When the small-business rule changes the local market
 
 Follow a public eligibility rule into which firms receive contracts or credit, then ask what happens to owners, workers and local services.
