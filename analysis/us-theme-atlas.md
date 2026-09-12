@@ -920,6 +920,8 @@ Follow an uncertain debt promise into payments and spending, then ask whether ho
 
 Still missing: The study measures beliefs, payments and selected spending; it does not show the same borrower's full housing or family path.
 
+[Read the complete connected memo](../site/us-student-loan-policy-uncertainty-path-001.html)
+
 ### When the price message depends on who says it
 
 Follow perceived political alignment into trust in the economic message, then ask whether personal money choices or public judgments change.
