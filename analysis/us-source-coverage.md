@@ -1,8 +1,8 @@
 # US source coverage
 
-87 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+88 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 19; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 139; OFR: 1; Other: 33; Other government: 14; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 139; OFR: 1; Other: 33; Other government: 14; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1721,6 +1721,23 @@
 - effects outside New York City.
 
 [Open the source-search record](projects/us-rideshare-price-search-friction/source-search-2026-09-11.md)
+
+## US repair access and household cost
+
+**Project:** `us-right-to-repair-household-cost`
+
+**Status:** matched evidence pass complete; product-level repair prices and household outcomes remain open
+
+**Question:** When a product breaks, can the household repair it at a fair cost, or is replacement the only practical path?
+
+**Sources recorded:** 4
+
+- [FTC: Nixing the Fix](https://www.ftc.gov/system/files/documents/reports/nixing-fix-ftc-report-congress-repair-restrictions/nixing_the_fix_report_final_5521_630pm-508_002.pdf)
+- [FTC warning on warranty repair practices](https://www.ftc.gov/news-events/news/press-releases/2024/07/ftc-warns-companies-stop-warranty-practices-harm-consumers-right-repair)
+- [FTC warranty guidance](https://consumer.ftc.gov/articles/warranties)
+- [FTC and states Deere repair settlement](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-secure-settlement-deere-company-advancing-farmers-right-repair)
+
+[Open the source-search record](projects/us-right-to-repair-household-cost/source-search-2026-09-11.md)
 
 ## US rising income risk at the top
 

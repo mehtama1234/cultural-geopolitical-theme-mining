@@ -434,7 +434,17 @@ Reviews and search can reduce the work of choosing, but the real customer cost a
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
 
-### 44. A benefit can be lost without the need going away
+### 44. Repair access is part of the product's real price
+
+**Theme:** Cost / customer / work
+**Route:** product break → repair access → household choice
+**Still open:** repair price, quality, time, and replacement
+
+The price of a product includes what happens when it breaks. The FTC reports that difficult design, unavailable parts or repair information, software locks, and warranty steering can narrow repair choices and push people toward authorized networks or replacement. FTC warranty guidance says coverage may include repair, replacement, or refund, while a 2024 warning says companies generally cannot require specific parts or service providers to keep warranty coverage. The deeper finding is that repair access changes the household's real cost, time, and ability to keep working—but safety and quality concerns still need testing.
+
+[Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-right-to-repair-household-cost-matched-evidence-001.md)
+
+### 45. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -444,7 +454,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 45. A recovery loan can keep a local option open, but it creates another bill
+### 46. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -454,7 +464,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 46. A wider small-business rule can push the smallest firms out
+### 47. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -464,7 +474,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 47. A tariff reaches the household through a chain, not a single price
+### 48. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -474,7 +484,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 48. The same dollar can do different work depending on how it arrives
+### 49. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -484,7 +494,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 49. A car repair can protect access while taking away other room
+### 50. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
