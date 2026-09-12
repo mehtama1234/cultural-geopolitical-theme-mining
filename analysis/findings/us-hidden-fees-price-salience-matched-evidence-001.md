@@ -1,55 +1,41 @@
 # The first price can shape the choice before the full price appears
 
-## Short answer
+## The argument
 
-A shopper cannot compare a cost that is hidden until late in the purchase. US research finds that showing the full price changes both whether people buy and which quality they choose. Credit-card research suggests that some offers use costs that arrive later, while the FTC now requires full mandatory prices in specific ticket and lodging markets. The deeper point is not that every separate fee is wrong. It is that the timing of information can change who gets to make a real comparison.
+A shopper cannot compare a cost that is hidden until late in the purchase.
 
-## What the matched evidence shows
+The first number on a listing or ticket does more than describe price. It attracts attention, starts a search, and can make the shopper spend time choosing a product. If taxes, service charges, shipping, or late fees appear only after that commitment, the customer is no longer comparing the same products from the start.
 
-| Layer | What the evidence says | What remains open |
+That does not make every separate fee wrong. Some costs are real and may be useful to show separately. The problem is the timing of the information. A customer who sees the full mandatory price early can leave or compare. A customer who sees it late may accept a worse deal because backing out now costs time, a deadline, a trip, or a needed service.
+
+## Follow the price through the purchase
+
+Imagine a traveler who compares rooms by the opening price. After choosing dates and entering payment details, a mandatory fee appears. The traveler can abandon the booking, but the alternatives may now cost more or be unavailable. The first price did not merely inform the choice; it helped create a commitment.
+
+The same pattern can appear in credit. A low opening cost attracts a customer while over-limit, late, or other fees arrive later. The final cost is then harder to compare with a competing product because the customer has already made a decision using incomplete information.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| First view | A posted or listing price can attract attention before taxes or fees appear. | Whether the shopper knows the final price. |
-| Comparison | Full-price display changes search, exit, quantity, and quality choices. | Whether the changed choice is better for that household. |
-| Financial term | Card offers can use back-loaded fees that are harder to see at the start. | The customer's total cost over time. |
-| Final bill | A mandatory fee can make the checkout price higher than the opening price. | Whether the customer would have chosen another seller. |
-| Rule | FTC transparency rules require total prices in defined ticket and lodging settings. | Compliance, enforcement, and effects outside those sectors. |
+| First view | A posted price can attract attention before mandatory costs appear. | The opening number shapes the search. |
+| Comparison | NBER experiments find full-price display changes purchase, exit, quantity, and quality choices. | Information timing changes behavior. |
+| Financial term | NBER research examines costs that arrive later in credit products. | The first number may not describe the product's life. |
+| Customer choice | HBS research links price coherence with consumer decisions and value judgments. | The customer needs comparable prices to judge value. |
+| Rule | FTC rules require total prices in defined ticket and lodging markets. | Disclosure can change the comparison, but coverage is limited. |
 
-Sources: [NBER price-salience experiment](https://www.nber.org/papers/w25186), [NBER tax-salience experiment](https://www.nber.org/papers/w13330), [NBER credit-card fee study](https://www.nber.org/papers/w22360), [FTC fee-transparency rule](https://search.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025), and [HBS price-coherence research summary](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers).
+Sources: [NBER price-salience experiment](https://www.nber.org/papers/w25186), [NBER tax-salience experiment](https://www.nber.org/papers/w13330), [NBER credit-card fee study](https://www.nber.org/papers/w22360), [FTC fee-transparency rule](https://search.ftc.gov/news-events/news/press-releases/2025/05/ftc-rule-unfair-or-deceptive-fees-take-effect-may-12-2025), and [HBS price-coherence research](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers).
 
-## The connection
+## The important distinction
 
-```text
-headline price → attention and commitment → late fee or full-price reveal
-               → buy, switch, downgrade, abandon, or borrow
-               → final cost and trust
-```
+Keep four questions apart: Was the fee mandatory? Was it visible early? Did it change the choice? What was finally paid and received?
 
-The experiments show that price display changes behavior. They do not show that every extra purchase is harmful. A buyer may accept the fee because the product is valuable, or may leave after seeing the full price. The household question begins after the click: what was finally paid, what quality was received, and what other bill had to wait?
+A customer may see a fee and still choose the product because it is worth the total price. Another may leave. A change in purchase behavior is not automatically a welfare gain or loss. The source-backed point is narrower: late information changes the conditions under which the customer compares.
 
-## The power shift
+## What remains unproven
 
-When the full cost appears early, the shopper can compare sellers on a more equal basis. When the cost appears late, the seller benefits from the time and attention already spent. That can matter more to a household with little cash or little time, because backing out may mean losing a deadline, a trip, a room, or a needed service.
-
-The credit-card case shows a related but longer path. A low opening rate can attract a customer while late or over-limit fees arrive later. That does not mean the customer was unaware or that the offer was always costly. It means the product must be read across its full life, not its first number.
-
-## Four views
-
-**Household:** Record the full amount, when it became visible, and what the purchase displaced.
-
-**Customer:** Compare sellers using the same final price, quality, terms, and cancellation rule.
-
-**Money and finance:** Separate extra spending, lower quality, interest, fees, and later repayment.
-
-**Public power:** Ask which markets the rule covers, who enforces it, and who still faces hidden cost elsewhere.
-
-## What would change the finding
-
-- Purchase records with first price, final price, fee timing, quality, and household income.
-- Tests of price display by liquidity, age, experience, and urgency.
-- Repeat behavior showing cancellation, switching, regret, or continued use.
-- Firm data on margins, volume, and product quality after disclosure rules.
-- Enforcement records showing whether transparent pricing changes market competition.
+The experiments show that price display changes behavior. They do not show that every changed purchase is harmful, or that disclosure alone improves quality, trust, or household finances. The next test needs purchase records with first price, final price, fee timing, quality, cancellation, and what the purchase displaced.
 
 ## Reading rule
 
-Do not call a fee hidden because it is separate. Ask whether the full mandatory cost was clear before the customer had committed time, attention, or money.
+Do not call a fee hidden because it is separate. Ask whether the full mandatory cost was clear before the customer committed time, attention, or money.

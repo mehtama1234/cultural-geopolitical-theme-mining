@@ -100,7 +100,7 @@ More sellers do not automatically mean fairer treatment. US research shows that 
 **Route:** scam → loss → recovery effort → institutional trust
 **Still open:** same-consumer recovery and later use
 
-Fraud changes more than a household balance. It creates a question about who will answer, reverse the payment, unlock the account, and carry the loss. The Federal Reserve reports that 21% of adults experienced financial fraud or scams in 2024. Among people facing non-credit-card fraud, 63% lost money and 32% said some of it was not recovered. FTC complaint data show $12.5 billion in reported losses, while CFPB complaints show the time and uncertainty after a payment problem. The trust effect is plausible, but not yet directly measured.
+Fraud is not finished when money leaves the account. The next questions are who will answer, who can reverse the payment, who will unlock the account, and who will carry the loss while the institutions investigate.  The payment route matters. Credit-card rules may offer a path to dispute a charge. A bank-transfer scam or other non-card payment may leave the household carrying more of the loss. An account can also be restricted while a firm reviews the event. The customer may lose money and access at the same time.  That is why trust should not be measured only by whether a person reports a scam. A customer may keep using a bank because there is no easy substitute while becoming more cautious, slower, or less willing to use transfers. The system can remain in use while confidence in it falls.
 
 [Read the HTML page](../site/us-consumer-fraud-trust-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-consumer-fraud-trust-matched-evidence-001.md)
 
@@ -190,7 +190,7 @@ A job can provide both wages and a route to health care. Research shows that dep
 **Route:** headline price → late cost → choice → final burden
 **Still open:** same-household cost, quality, and repeat choice
 
-A shopper cannot compare a cost that is hidden until late in the purchase. US research finds that showing the full price changes both whether people buy and which quality they choose. Credit-card research suggests that some offers use costs that arrive later, while the FTC now requires full mandatory prices in specific ticket and lodging markets. The deeper point is not that every separate fee is wrong. It is that the timing of information can change who gets to make a real comparison.
+A shopper cannot compare a cost that is hidden until late in the purchase.  The first number on a listing or ticket does more than describe price. It attracts attention, starts a search, and can make the shopper spend time choosing a product. If taxes, service charges, shipping, or late fees appear only after that commitment, the customer is no longer comparing the same products from the start.  That does not make every separate fee wrong. Some costs are real and may be useful to show separately. The problem is the timing of the information. A customer who sees the full mandatory price early can leave or compare. A customer who sees it late may accept a worse deal because backing out now costs time, a deadline, a trip, or a needed service.
 
 [Read the HTML page](../site/us-hidden-fees-price-salience-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-hidden-fees-price-salience-matched-evidence-001.md)
 
@@ -290,7 +290,7 @@ Online marketplaces can put a seller, review, and safety claim in front of a cus
 **Route:** seller identity → report or dispute → remedy
 **Still open:** response time, refund, and recovered loss
 
-Online marketplaces can make a seller hard to identify, which makes a bad purchase harder to fix. The INFORM Consumers Act requires marketplaces to collect, verify, and disclose information about many high-volume sellers and to provide a way to report suspicious conduct. FTC shopping guidance also points customers to return terms, records, and payment protections. The deeper finding is that identity is an input to recourse, not recourse itself: a name and phone number matter only if they lead to a response, refund, replacement, or usable appeal.
+Knowing who sold a product is not the same as having a remedy.  The INFORM Consumers Act requires marketplaces to collect, verify, and disclose information about many high-volume sellers. That can make a seller less anonymous and give a customer a place to start a complaint. But a name, address, and phone number do not automatically produce a refund, replacement, safe product, or appeal.  The real test begins after purchase. The customer must identify the problem, contact the seller or platform, meet a return deadline, pay or wait for shipping, and sometimes dispute the payment. If the seller does not respond, identity may only tell the customer who failed to answer.
 
 [Read the HTML page](../site/us-marketplace-seller-identity-recourse-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-marketplace-seller-identity-recourse-matched-evidence-001.md)
 
