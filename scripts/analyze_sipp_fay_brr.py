@@ -30,12 +30,32 @@ GROUP_LABELS = {
     "ETENURE": {"1": "owned or being bought", "2": "rented",
                  "3": "occupied without payment of rent"},
     "TEHC_REGION": {"1": "Northeast", "2": "Midwest", "3": "South", "4": "West"},
+    "THINCPOV": {"below_1x": "below 1.00x poverty threshold",
+                 "1_to_2x": "1.00–1.99x poverty threshold",
+                 "2_to_4x": "2.00–3.99x poverty threshold",
+                 "4x_or_more": "4.00x poverty threshold or more"},
 }
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
 
 def estimate(numerator: float, denominator: float) -> float | None:
     return numerator / denominator if denominator else None
+
+
+def normalized_group(field: str, value: str) -> str:
+    if field != "THINCPOV":
+        return value
+    try:
+        ratio = float(value)
+    except (TypeError, ValueError):
+        return ""
+    if ratio < 1:
+        return "below_1x"
+    if ratio < 2:
+        return "1_to_2x"
+    if ratio < 4:
+        return "2_to_4x"
+    return "4x_or_more"
 
 
 def new_accumulators(fields: list[str]) -> dict:
@@ -94,7 +114,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             pkey = tuple(prow[key] for key in KEYS)
             if pkey in primary_by_key:
                 raise ValueError(f"duplicate person-month key in primary slice: {pkey}")
-            group = prow.get(group_by, "") if group_by else None
+            group = normalized_group(group_by, prow.get(group_by, "")) if group_by else None
             primary_by_key[pkey] = (prow.get("WPFINWGT", ""),
                                     {field: prow.get(field, "") for field in fields}, group)
 

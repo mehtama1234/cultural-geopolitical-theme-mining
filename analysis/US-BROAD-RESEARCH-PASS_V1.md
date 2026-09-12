@@ -68,6 +68,8 @@ The first design-based uncertainty check is the [SIPP Fay-BRR point-estimate lay
 
 The first uncertainty-aware subgroup comparison is the [SIPP Fay-BRR tenure layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-estimates-v1.md). It covers housing, utility, and food-hardship measures for owners, renters, and rent-free occupants.
 
+The first uncertainty-aware resource comparison is the [SIPP Fay-BRR resource layer](projects/us-household-calendar-integration/sipp-fay-brr-resource-estimates-v1.md). It tests the monthly income-to-poverty gradient for the same material measures.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
