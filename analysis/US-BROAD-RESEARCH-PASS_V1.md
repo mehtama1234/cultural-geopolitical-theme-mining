@@ -50,6 +50,8 @@ The first reusable population-level measurement attached to a bridge is the [202
 
 The first 2025 SHED price-adaptation layer is now recorded in [the household financial-pressure project](projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md). It adds weighted population comparisons of price worsening, substitution, reduced use, saving cuts, borrowing, delayed purchases, extra work, emergency capacity, and outside help. It deepens Bridge 1 and supplies a material exposure layer for Bridge 5, while the political interpretation and action links remain open.
 
+The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
+
 The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-household-calendar-integration/sipp-bounded-acquisition-v1.md). It confirms an accessible monthly population-survey backbone for household security, work, benefits, energy, food, and debt. Its 100,000-row engineering slice is not yet a weighted finding.
 
 The full SIPP slice now has a [weighted descriptive scan](projects/us-household-calendar-integration/sipp-weighted-code-scan-v1.md). It is a person-record/month layer using `WPFINWGT`, with official value labels attached; household weighting, variance estimates, and causal interpretation remain separate next steps.

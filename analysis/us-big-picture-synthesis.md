@@ -72,6 +72,14 @@ conditions, but how an institution records and categorizes the response. It
 still does not show whether the consumer's problem was solved, trust restored,
 or exit avoided.
 
+The [ATUS 2024 time layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md)
+adds a fourth lens: who spends time on paid work, household production, care,
+and social participation. It shows why “household room” cannot be reduced to
+cash. Multiple-job holders, parents, women, men, employed people, and
+non-employed people have different time allocations and different control over
+when and where work happens. ATUS measures the distribution of time, not the
+firm or price shock that caused a particular schedule.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
