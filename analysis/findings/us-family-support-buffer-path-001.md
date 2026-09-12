@@ -16,6 +16,10 @@ The transfer may still be the best available choice. The receiving family avoids
 
 In-kind help is easy to miss. A ride may save a missed shift. A room may prevent a shelter stay. Dinner may keep a utility bill current. The service has value even when no money changes hands, and the person providing it may be unpaid.
 
+The obligation may last longer than the emergency. A relative who covers rent may later expect repayment, a future favor, or a say in the household's choices. A room can protect a family while reducing privacy and creating conflict. A ride can keep a job while making the helper miss work. These are not reasons to dismiss family help; they are reasons to record the terms and the strain instead of treating the transfer as a free resource.
+
+Family support can also determine which opportunity is possible. A young parent with a relative nearby may take a job with a long commute because child care is covered. Another parent may accept a lower-paying job close to home. The difference can look like individual ambition or skill when it is partly the location and reliability of the family network. A later income gap may therefore carry an earlier support gap.
+
 ```text
 shock in one household → money, housing, rides, food, or care moves through family
 → immediate problem is held off → helper loses cash, time, work, or savings
@@ -41,6 +45,10 @@ This changes how to read inequality. Two families with the same income may have 
 
 The direction of help can also change with age and wealth. Parents may support adult children during unemployment or housing trouble. Adult children may later provide care, money, or housing to parents. A family can be both a receiver and a provider over time. A one-way snapshot misses that the helper may be protecting someone today while becoming more exposed tomorrow.
 
+The family buffer is not equally safe for everyone. Help may be unavailable because relatives live far away, lack legal or housing room, are estranged, or fear that a formal system will treat the transfer as income or a debt. It may also be unsafe when a dependent person relies on someone who controls the money, home, or transport. A measure of “family support” needs to ask whether the help was reachable, voluntary, reliable, and safe—not only whether a relative existed.
+
+This creates a public measurement trap. If relatives keep people housed, working, or caring for children, official need may look lower than it is. When the family network finally runs out of cash or time, the crisis can arrive suddenly and look new. The public system then sees the final failure without seeing the months of private support that delayed it. Counting transfers can reveal unmet need earlier and show where public help is being substituted by unpaid labor.
+
 ## Four views of the same transfer
 
 **Receiving household:** What bill, route, home, job, food, or care did the help preserve? Was the help enough, timely, and safe?
@@ -58,6 +66,8 @@ The evidence supports family help as a response, but does not show that the rece
 ## Next test
 
 Follow both receiving and helping households around the same event for one year. Record cash, rooms, rides, food, unpaid care, work time, debt, savings, public aid, health, conflict, repayment, and later security. Include households with no person able to help. Report both the crisis avoided and the capacity the helper lost.
+
+Use a two-household panel with weekly diaries around a job loss, illness, housing move, or care change. Price cash and in-kind help separately, then measure the helper's lost work, rest, savings, and future ability to respond. Compare families with similar shocks but different distance and wealth networks, and test whether public aid reduces or merely redirects family transfers. The key result is the total stability of both households, not just the emergency avoided in one.
 
 ## Reading rule
 
