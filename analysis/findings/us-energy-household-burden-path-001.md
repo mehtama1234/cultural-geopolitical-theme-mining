@@ -14,6 +14,8 @@ A family rents an older apartment. The air conditioner runs often, the bill rise
 
 The bill records the charge. It does not say whether the family was safe, whether the equipment worked, or whether the family gave something else up to keep service on.
 
+The timing matters as much as the total. A family may have enough income over a year but not enough cash when a heat wave, a rent due date, and a repair arrive together. It may pay the utility because shutoff is immediate, then delay rent or food. A high bill is therefore a signal of pressure, not a complete account of the choice it forced.
+
 ```text
 building, fuel, income, or weather condition → energy bill or insecurity
 → food, medicine, rent, debt, comfort, work, or repair choice
@@ -37,13 +39,19 @@ Sources: [DOE LEAD](https://www.energy.gov/cmei/scep/low-income-energy-affordabi
 
 A high energy bill is partly a control problem. The household may be able to change behavior for a day, but not the building for a year. That makes hardship sticky: the same inefficient home can create another bill, another sacrifice, and another need for emergency help.
 
+The renter-owner split makes the problem harder to solve. A renter can lower use, but may not be able to replace an old air conditioner or seal a window. An owner controls more of the building, but may face an insurance increase, a roof repair, and a loan payment at the same time. The person exposed to the bill and the person able to change the building are not always the same.
+
+Energy hardship also reaches the wider local economy. A household that cuts food, delays medicine, misses work because the home is unsafe, or moves after a shutoff has less money for nearby businesses and less ability to stay in the area. A weatherization program or payment plan may help by changing the building or the timing of the bill; emergency aid may only buy time. These are different results.
+
+The public question is who should carry the cost of an inefficient or risky place. A utility can spread it across customers, a landlord can invest or pass it into rent, a government can subsidize the bill or the repair, and a household can absorb it through comfort or debt. The sources show the pressure and the unequal control. They do not show which rule produces lasting safety.
+
 ## What remains unproven
 
-The current sources do not follow the same household from bill pressure to the first sacrifice, arrears, shutoff, borrowing, illness, missed work, move, or repair. They do not show whether bill help, weatherization, rent rules, or utility allowances protect long-term stability best. The EIA categories can overlap and should not be added as separate households.
+The current sources do not follow the same household from bill pressure to the first sacrifice, arrears, shutoff, borrowing, illness, missed work, move, or repair. They do not show whether bill help, weatherization, rent rules, or utility allowances protect long-term stability best. They do not show when a lower bill reflects a safer home versus less cooling or heating. The EIA categories can overlap and should not be added as separate households.
 
 ## Next test
 
-Use LEAD and 2024 RECS to define exposure groups, then add utility bills, arrears, shutoff and assistance records. Compare renters and owners with similar income and climate. Link the home condition to food, medicine, temperature, health, work, rent, credit, and later housing stability.
+Use LEAD and 2024 RECS to define exposure groups, then add utility bills, arrears, shutoff and assistance records. Compare renters and owners with similar income and climate. Link home condition to food, medicine, temperature, health, work, rent, credit, and later housing stability. Follow a heat wave or major repair month by month and record which bill was paid, which need was cut, who controlled the fix, and whether help arrived before the next shock.
 
 ## Reading rule
 
