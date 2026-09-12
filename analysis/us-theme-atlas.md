@@ -776,6 +776,8 @@ Follow rent trouble into an eviction order, then ask what happens to work, healt
 
 Still missing: The current sources do not show the same tenant's first shock, prevention path and full recovery.
 
+[Read the complete connected memo](../site/us-eviction-cascade-path-001.html)
+
 ### When a person at court changes the housing path
 
 Follow legal help into the court result, then ask whether preventing an eviction also protects later credit and housing choice.
