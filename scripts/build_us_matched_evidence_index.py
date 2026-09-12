@@ -46,6 +46,7 @@ routes = {
     "us-aging-care-strain-matched-evidence-001": ("Cost / family / work / voice", "aging or illness → unpaid care → work and money loss", "care quality, caregiver recovery, and public support"),
     "us-consumer-fraud-trust-matched-evidence-001": ("Cost / finance / customer / voice", "scam → loss → recovery effort → institutional trust", "same-consumer recovery and later use"),
     "us-consumer-discrimination-competition-matched-evidence-001": ("Cost / customer / voice", "customer group → ability to leave → firm treatment and price", "current comparable service and customer power"),
+    "us-privacy-trust-data-sharing-matched-evidence-001": ("Voice / customer / finance", "privacy rule → trust → data sharing → firm knowledge", "customer understanding, later use, and ability to say no"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

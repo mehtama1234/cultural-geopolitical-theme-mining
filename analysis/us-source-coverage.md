@@ -2,7 +2,7 @@
 
 83 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 9; Federal Reserve: 17; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 132; OFR: 1; Other: 21; Other government: 6; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 11; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 133; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -56,7 +56,7 @@
 
 **Project:** `us-aging-care-strain`
 
-**Status:** short verification pass; the care-to-work effect remains open
+**Status:** first matched evidence pass completed; full care-to-work cost remains open
 
 **Question:** Does unpaid care change work and household security before it is counted as an economic cost?
 
@@ -129,7 +129,7 @@
 
 **Project:** `us-bank-depositor-inertia`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; customer return and bank effects remain open
 
 **Question:** Why do many depositors stay put when a better rate is available, and what does that do to both households and banks?
 
@@ -152,7 +152,7 @@
 
 **Project:** `us-bank-fees-household-wellbeing`
 
-**Status:** opening pass; transaction-level fee changes are measured, full household recovery remains open
+**Status:** first matched evidence pass completed; full household recovery remains open
 
 **Question:** When a bank removes one fee, who gets more room and who is still pushed toward costly alternatives?
 
@@ -174,7 +174,7 @@
 
 **Project:** `us-benefit-cliff-work-choice`
 
-**Status:** opening pass; work and aid link is supported, household take-home effect remains open
+**Status:** first matched evidence pass completed; household take-home effect remains open
 
 **Question:** What happens to a family's real room when earnings rise but public help changes?
 
@@ -269,7 +269,7 @@
 
 **Project:** `us-childcare-work-cost`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; linked household and work paths remain open
 
 **Question:** When childcare is expensive or hard to find, what does a household give up first?
 
@@ -293,7 +293,7 @@
 
 **Project:** `us-consumer-credit-liquidity`
 
-**Status:** verification pass complete; connected memo written, same-household path remains open
+**Status:** first matched evidence pass completed; same-household path remains open
 
 **Question:** When a household cannot cover a small surprise with cash, what does credit change—and what does it leave exposed?
 
@@ -322,7 +322,7 @@
 
 **Project:** `us-consumer-discrimination-competition`
 
-**Status:** opening pass; historical US markets and prices are measured, current customer and political paths remain open
+**Status:** first matched evidence pass completed; current customer and political paths remain open
 
 **Question:** When firms compete for customers, does competition reduce discrimination, or can it make a firm protect the customers most likely to leave?
 
@@ -344,7 +344,7 @@
 
 **Project:** `us-consumer-fraud-trust`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; recovery and trust effects remain open
 
 **Question:** When a payment or account is used in a scam, what does the household lose and what response does the institution provide?
 
@@ -505,14 +505,16 @@
 
 **Project:** `us-economic-voting-real-wages`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; individual blame and household paths remain open
 
 **Question:** Which economic change reaches the ballot: higher prices, lower real pay, or a belief that the government caused the loss?
 
-**Sources recorded:** 2
+**Sources recorded:** 4
 
 - [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
 - [HBS: What Elections Can Reveal About a Country’s Economic Prospects](https://www2.library.hbs.edu/working-knowledge/what-elections-can-reveal-about-countrys-economic-prospects)
+- [Inflation, Blame Attribution, and the 2022 US Congressional Elections](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9ACD009459C2C11C02BB89DA68B6B929/S0007123424000930a.pdf/inflation-blame-attribution-and-the-2022-us-congressional-elections.pdf)
+- [NBER: Employment, Wages and Voter Turnout](https://www.nber.org/papers/w17270)
 
 **Open gaps:**
 - individual prices, wages, debt and vote behavior together;
@@ -619,7 +621,7 @@
 
 **Project:** `us-energy-household-burden`
 
-**Status:** short verification pass; the bill-to-household-choice link remains open
+**Status:** first matched evidence pass completed; health, work, and later housing links remain open
 
 **Question:** When energy costs take more of a household's income, what other choice becomes harder?
 
@@ -692,7 +694,7 @@
 
 **Project:** `us-family-support-hidden-safety-net`
 
-**Status:** opening pass; transfer and care links are useful, same-family cost remains open
+**Status:** first matched evidence pass completed; same-family cost remains open
 
 **Question:** When one household loses money or health, who in the family catches the fall?
 
@@ -833,7 +835,7 @@
 
 **Project:** `us-health-cost-household-choice`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; linked household and political paths remain open
 
 **Question:** Does the cost of medical care move pressure from the health system into household choices before it appears as a large economic or political event?
 
@@ -886,7 +888,7 @@
 
 **Project:** `us-hidden-fees-price-salience`
 
-**Status:** opening pass; price display changes choice, broader household burden remains open
+**Status:** first matched evidence pass completed; final household cost and enforcement remain open
 
 **Question:** What happens when the price a shopper sees is not the price the shopper pays?
 
@@ -1146,11 +1148,14 @@
 
 **Question:** Why can a slower rise in prices still feel like a continuing loss?
 
-**Sources recorded:** 3
+**Sources recorded:** 6
 
 - [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
 - [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey)
 - [HBS: Psychological Pricing Tactics to Fight the Inflation Blues](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues)
+- [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [BLS real earnings release](https://www.bls.gov/news.release/realer.htm)
+- [BLS CPI category table](https://www.bls.gov/news.release/cpi.t01.htm)
 
 **Open gaps:**
 - the same household's prices, wages, purchases and political views over time;
@@ -1476,13 +1481,15 @@
 
 **Project:** `us-privacy-trust-data-sharing`
 
-**Status:** short discovery pass; no settled finding
+**Status:** matched evidence pass complete; broader outcome test remains open
 
 **Question:** Do stronger privacy rules reduce data sharing, or can they make the exchange feel safer?
 
-**Sources recorded:** 1
+**Sources recorded:** 3
 
 - [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+- [FTC: When companies share personal information without permission](https://consumer.ftc.gov/consumer-alerts/2024/04/when-companies-share-your-personal-information-without-your-permission)
+- [FTC: Designing Consent](https://www.ftc.gov/system/files/ftc_gov/pdf/linfarronatofradkin.pdf)
 
 **Open gaps:**
 - whether users understand retention, sale and later uses;
@@ -1548,9 +1555,23 @@
 
 **Question:** Who can buy protection before a rent shock, and who is left with the loss?
 
-**Sources recorded:** 1
+**Sources recorded:** 15
 
 - [Rent Guarantee Insurance](https://www.nber.org/papers/w32582)
+- [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters)
+- [TheGuarantors: behind on rent](https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay)
+- [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee)
+- [Columbia Business School research brief](https://business.columbia.edu/research-brief/rent-guarantee-insurance-housing-crisis)
+- [TheGuarantors](https://www.theguarantors.com/products-rent-coverage)
+- [Rhino](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee)
+- [Leap](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage)
+- [Rhino product disclosure](https://www.sayrhino.com/products/renter-guarantee)
+- [TheGuarantors FAQ](https://www.theguarantors.com/faq-for-renters)
+- [Leap legal notices](https://leapeasy.com/legal-notices/)
+- [TheGuarantors California bond terms](https://www.theguarantors.com/terms-and-conditions-california)
+- [NY Department of Financial Services consent order](https://www.dfs.ny.gov/industry_guidance/enforcement_discipline/ea20220628_guarantors)
+- [Texas Property Code, Chapter 92](https://statutes.capitol.texas.gov/DocViewer.aspx?DocKey=PR%2FPR.92&ExactPhrase=False&HighlightType=1&Phrases=can%7Cconstables%7Cserve%7Ccivil%7Cpapers&QueryText=can+constables+serve+civil+papers)
+- [Illinois insurance licensing guidance](https://idfpr.illinois.gov/banks/cbt/comcl/btfaqins.html)
 
 **Open gaps:**
 - actual US product availability and take-up;
@@ -1866,15 +1887,17 @@
 
 **Project:** `us-tariff-price-pass-through`
 
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; household and political links remain open
 
 **Question:** How does a trade policy become a household price, and why can the effect be hard to see at first?
 
-**Sources recorded:** 3
+**Sources recorded:** 5
 
 - [NBER: Tracking the Short-Run Price Impact of US Tariffs](https://www.nber.org/papers/w34496)
 - [HBS: Tariffs Leave Consumers and Companies Splitting the Tab](https://www.library.hbs.edu/working-knowledge/tariffs-leave-consumers-and-companies-splitting-the-tab)
 - [NBER: Tariffs in 2025: Short-Run Impacts on the US Economy](https://www.nber.org/papers/w35064)
+- [Federal Reserve: The Slow Climb](https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html)
+- [Federal Reserve: Paying More and Buying Less](https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm)
 
 **Open gaps:**
 - price effects by income, product type, retailer and region;

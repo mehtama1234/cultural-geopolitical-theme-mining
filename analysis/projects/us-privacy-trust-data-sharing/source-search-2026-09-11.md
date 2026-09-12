@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** matched evidence pass complete; broader outcome test remains open
 
 ## Working question
 
@@ -13,6 +13,8 @@ Do stronger privacy rules reduce data sharing, or can they make the exchange fee
 | ID | Source | What it tells us | Status | Limit |
 |---|---|---|---|---|
 | HBS-PRIVACY-2026 | [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies) | HBS reports an analysis of nearly 16,000 users of a receipt-and-reward app before and after California and Virginia privacy rules took effect. Users in those states submitted 9% more information, including 1.5 additional receipts per month, 5% more unique store visits and 4% more retail categories. | Research summary of a working paper | One platform and a policy comparison do not show that every user understood the data deal or that all privacy rules produce the same result. |
+| FTC-PRIVACY-CHOICE-2024 | [FTC: When companies share personal information without permission](https://consumer.ftc.gov/consumer-alerts/2024/04/when-companies-share-your-personal-information-without-your-permission) | FTC guidance focuses the practical test on what data are collected, why they are shared, what others may do with them, and whether the person can choose or delete. | Official consumer guidance and enforcement context | Guidance describes the control people should have; it does not measure whether the control works for each customer. |
+| FTC-PRIVACY-CONSENT-2025 | [FTC: Designing Consent](https://www.ftc.gov/system/files/ftc_gov/pdf/linfarronatofradkin.pdf) | FTC-hosted research discusses differences in sharing preferences and the effect of default settings on whether people make an active choice. | FTC-hosted research paper | Consent behavior does not by itself show that people understand later use, retention, or resale. |
 
 ## First pattern to test
 
@@ -26,6 +28,8 @@ privacy rule and clearer permission
 ```
 
 The HBS account supports more sharing after the rules and points to trust as a mechanism. It does not show that the data are used fairly, that people read the notice, or that the extra sharing improves their outcomes.
+
+The FTC sources sharpen the test: judge the arrangement by notice clarity, purpose, the ability to refuse or withdraw, and limits on later sharing. A person can choose to share more while still having little power over what happens next.
 
 ## Counterpoint to keep visible
 
