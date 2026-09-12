@@ -280,7 +280,7 @@ A national income number can hide a local customer reality. Prices differ across
 **Route:** seller and safety signal → product risk → recall or remedy
 **Still open:** product-level exposure, harm, and recovery
 
-Online marketplaces can put a seller, review, and safety claim in front of a customer without making the product safe. CPSC says counterfeit safety labels can mislead buyers and move hazardous goods through online channels. The INFORM Consumers Act adds seller checks and reporting tools aimed at counterfeit, unsafe, and stolen goods. FTC guidance still tells customers to check the seller, reviews, return terms, payment method, and platform help. The deeper finding is that safety depends on the path after the signal: detection, removal, recall, refund, and recovery.
+Online shopping moves the safety check from the store counter to the household. A customer sees a seller name, a star rating, a safety mark, and a promise that the item will arrive quickly. Those signals can make the product feel checked even when no one has shown that the exact item is genuine, safe, or still covered by a recall.  The important question is not whether a marketplace displays information. It is whether the information changes what happens after risk appears. Can the platform identify the seller, remove the exact listing, reach people who bought it, stop a repeat listing, and give the customer a refund or replacement? If those steps are missing, the customer is doing the last mile of product safety alone.
 
 [Read the HTML page](../site/us-marketplace-product-safety-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-marketplace-product-safety-matched-evidence-001.md)
 
@@ -310,7 +310,7 @@ Medical-debt relief can reduce payments and improve some people's access to cred
 **Route:** connected evidence
 **Still open:** next test
 
-Reviews can help a customer judge a seller when they reflect real experience. They can also become a paid or controlled signal. NBER evidence finds that rewarded feedback increased sales and was linked to higher-quality sellers in one online marketplace. The FTC now prohibits several deceptive review practices, including fake reviews, sentiment-based incentives, undisclosed insider reviews, and certain suppression of negative reviews. The deeper finding is that review design affects both what customers believe and which sellers survive.
+Reviews are a substitute for examining a product or meeting a seller. That makes them valuable, but also makes the review system part of the sale. The platform decides which reviews count, where they appear, how they are ranked, and what sellers can do when a review hurts them.  The deeper issue is not whether reviews are real or fake in the abstract. It is whether the review system helps a customer predict the result of a purchase. A reward can bring more feedback and may help good sellers become visible. The same reward, ranking rule, or removal process can also make the visible signal different from the underlying experience.
 
 [Read the HTML page](../site/us-online-reviews-trust-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-online-reviews-trust-matched-evidence-001.md)
 
@@ -380,7 +380,7 @@ Privacy rules may increase data sharing when they make a customer feel safer. HB
 **Route:** hazard → notice → household action → remedy
 **Still open:** notice reach, action, harm, and recovery
 
-A recall notice is not the same as a safe household. CPSC defines recall effectiveness as reducing the hazard, notifying consumers, and encouraging action. Its public data record hazards and remedies, while NBER finds that the 2007 toy recall wave changed sales of recalled and related products. The deeper finding is that recall policy has three separate jobs: reach the right household, make the action easy, and provide a usable remedy. A posted notice proves only that information was published.
+A recall notice is a public event. A safe household is a private result. The gap between them is where the real work sits: the buyer must receive the message, know that the product in the home is the affected one, stop using it, find a remedy, and complete the remedy without taking on a new cost.  Counting notices or listed remedies can therefore make a recall look more complete than it is. A recall is effective only when it changes behavior quickly enough to reduce harm and gives the household a workable way to recover value.
 
 [Read the HTML page](../site/us-product-recall-response-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-product-recall-response-matched-evidence-001.md)
 

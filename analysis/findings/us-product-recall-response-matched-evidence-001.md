@@ -1,54 +1,43 @@
 # A recall succeeds only when the household can act
 
-## Short answer
+## The argument
 
-A recall notice is not the same as a safe household. CPSC defines recall effectiveness as reducing the hazard, notifying consumers, and encouraging action. Its public data record hazards and remedies, while NBER finds that the 2007 toy recall wave changed sales of recalled and related products. The deeper finding is that recall policy has three separate jobs: reach the right household, make the action easy, and provide a usable remedy. A posted notice proves only that information was published.
+A recall notice is a public event. A safe household is a private result. The gap between them is where the real work sits: the buyer must receive the message, know that the product in the home is the affected one, stop using it, find a remedy, and complete the remedy without taking on a new cost.
 
-## What the matched evidence shows
+Counting notices or listed remedies can therefore make a recall look more complete than it is. A recall is effective only when it changes behavior quickly enough to reduce harm and gives the household a workable way to recover value.
 
-| Layer | What the evidence says | What remains open |
+## Follow one recalled item
+
+A family bought a small appliance years ago. It was a gift, the receipt is gone, and the product has no obvious model number. A recall is announced, but the family does not recognize the item in the notice. If it keeps using the appliance, the notice has not yet protected the home. If it stops using it but cannot obtain a replacement or refund, the safety action has created a new household problem.
+
+```text
+hazard found → notice sent or missed → product recognized or overlooked
+→ stop use, return, repair, replace, or discard → harm and money loss fall or continue
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Hazard | CPSC recall records identify products, hazards, dates, and remedies. | How many affected products remain in homes. |
-| Notice | CPSC lists direct email, retailer loyalty programs, search, social media, and other notification channels. | Whether the message reached the buyer and was understood. |
-| Action | CPSC says recall success includes encouraging consumers to stop use or take another safety action. | Whether households stopped use, returned, repaired, or replaced the product. |
-| Market response | NBER finds the 2007 toy recall wave reduced recalled-product sales and changed demand for related toys. | Whether current online recalls produce the same response. |
-| Remedy | CPSC data list refunds, repairs, replacements, disposal, and instructions. | Whether the remedy was available, completed, and enough to cover the loss. |
+| Hazard | CPSC recall records identify products, hazards, dates, and remedies. | A public case can describe what should change. |
+| Reach | CPSC names direct email, retailer records, search, social media, and other notice paths. | The buyer may be reached through more than one route. |
+| Action | CPSC defines effectiveness partly by stopping use or taking the needed safety step. | Reading a notice is not the same as acting. |
+| Market response | NBER finds that the 2007 toy recall wave reduced sales of recalled toys and changed demand for related products. | Buyers and sellers can respond to a safety event. |
+| Remedy | Recall records list refunds, repairs, replacements, disposal, and instructions. | A remedy exists on paper, but completion is the household test. |
 
 Sources: [CPSC recall effectiveness](https://www.cpsc.gov/Recall-Effectiveness), [CPSC recall data](https://www.cpsc.gov/Recalls), [NBER toy recall study](https://www.nber.org/papers/w15183), and [CPSC notification types](https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Notification-Types?language=en).
 
-## The connection
+## The deeper finding
 
-```text
-hazard found
-  → recall notice reaches household or misses it
-  → product is stopped, returned, repaired, or replaced
-  → injury and money loss are reduced or continue
-  → trust in seller, brand, platform, and public system changes
-```
+Recall systems have three separate jobs: reach the right home, make the safe action easy, and deliver a remedy. A notice can succeed at the first job and fail at the second. A remedy can exist but be too hard to claim. The right outcome measure is not notices sent; it is affected households that acted, received the remedy, and avoided further harm.
 
-The sources support the public recall system and broad market response. They do not yet follow an affected US household from purchase to notice, action, remedy, and harm avoided.
+## What remains unproven
 
-## The useful surprise
+The evidence does not yet follow one affected US household from purchase to notice, recognition, action, remedy, and harm avoided. It also does not show which notice channels work best for gifts, used goods, informal purchases, renters, or households with limited internet access.
 
-The same recall can be successful on paper and weak in homes. A product may be listed, a remedy may exist, and a notice may be sent while the buyer does not recognize the product, cannot prove purchase, has already discarded it, or cannot afford to stop using it.
+## Next test
 
-## Four views
-
-**Household:** Count notice, stop-use time, replacement, repair, return shipping, refund delay, injury, and lost use.
-
-**Customer:** Record how the buyer learned of the recall, what action was required, how hard it was, and what was received.
-
-**Money and finance:** Separate refund, replacement value, medical cost, insurance, credit dispute, and unrecovered loss.
-
-**Public power:** Measure notice reach, action rate, remedy completion, repeat listings, and post-recall incidents.
-
-## What would change the finding
-
-- Purchase or registration records linked to recall notices and customer action.
-- Time from recall announcement to notice, stop-use, return, repair, replacement, or refund.
-- Remedy completion and availability by product, seller, platform, and income group.
-- Injury and property-damage outcomes after notice versus missed notice.
-- Repeat listings and sales after the recall.
+Join purchase or registration records to recall notices and actions. Measure the time from announcement to notice, recognition, stop-use, return, repair, replacement, or refund. Record failed claims, unavailable remedies, injuries after notice, and repeat sales.
 
 ## Reading rule
 
