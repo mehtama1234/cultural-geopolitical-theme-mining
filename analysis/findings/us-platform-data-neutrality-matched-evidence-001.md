@@ -1,55 +1,44 @@
 # A data rule can open the market and weaken the data supply
 
-## Short answer
+## The argument
 
-When a platform controls data that sellers need, equal access may help outside sellers compete. But an NBER model finds that the same rule may reduce the platform's reason to gather or improve data. The customer result is therefore not automatic. HBS adds that privacy rules can make some customers share more when the exchange feels safer. The deeper question is not simply who gets data; it is whether the rule produces better choices, prices, service, and customer control.
+When a platform controls data that sellers need, equal access may help outside sellers compete. But if the rule makes data sharing cheap or compulsory, the platform may have less reason to gather, clean, and update the data. Customers then face a tradeoff between a more open market and a weaker data service.
 
-## What the matched evidence shows
+This is not a choice between “share data” and “protect the platform.” The important questions are who gets access, what the data cost, how accurate they are, who can correct them, and what the customer receives at the end.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Customer input | HBS reports more sharing after privacy rules in one receipt-and-reward app. | Whether people understood later use and whether service improved. |
-| Seller access | The NBER model says equal data and equal data prices can open competition more. | Whether real outside sellers enter, survive, and lower prices. |
-| Data supply | The model says equal access may reduce the platform's reason to produce or improve data. | Whether data quality actually falls and by how much. |
-| Customer result | The model says customer welfare need not rise in every case. | Real prices, fit, search time, quality, and choice. |
-| Public rule | Privacy and competition rules govern different parts of the exchange. | Whether one remedy protects both access and useful data. |
+## Follow one product search
 
-Sources: [NBER: Data Neutrality, Data Supply, and Market Competition](https://www.nber.org/papers/w35159) and [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies).
-
-## The connection
+A seller needs platform data to price and place a product. An equal-access rule opens the data to rivals. Entry rises, but the platform invests less in collection and updates. The data become stale or costly. Customers see more sellers but receive worse matches, higher search time, or less useful offers.
 
 ```text
-customer shares data
-  → platform gathers and improves a data service
-  → sellers seek access and compete on the platform
-  → an equal-access rule changes price and access
-  → platform investment and data quality may change
-  → customer price, choice, service, and control change
+customer data → platform gathers and improves a data service
+→ sellers seek access and compete → access rule changes price and control
+→ platform investment and data quality may change → customer price, choice, service, and privacy
 ```
 
-The model covers the middle steps. The HBS study covers one customer-side sharing response. No current US market record joins the full chain.
+## What the sources actually establish
 
-## The useful surprise
+| Step | Evidence | Meaning |
+|---|---|---|
+| Customer input | HBS reports more sharing after privacy rules in one receipt-and-reward app. | Data supply begins with customer permission. |
+| Seller access | NBER's model says equal data and equal data prices can open competition. | Access can reduce a gatekeeper's advantage. |
+| Data supply | The model says equal access may reduce the platform's reason to produce or improve data. | Opening access may weaken investment. |
+| Customer result | The model says customer welfare need not rise in every case. | More competition is not the only outcome. |
+| Missing market test | No current US record joins access, data quality, seller entry, and customer result. | The tradeoff remains empirical. |
 
-Opening data access can help rivals without helping customers if the data become worse, less current, or more costly to produce. Protecting the platform's data investment can also leave outside sellers dependent on a gatekeeper. The choice is not “data sharing or no data sharing”; it is access, quality, price, and control together.
+Sources: [NBER Data Neutrality, Data Supply, and Market Competition](https://www.nber.org/papers/w35159) and [HBS More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies).
 
-## Four views
+## The deeper finding
 
-**Household:** Ask whether better data produce a lower price, better fit, less search, or a real service improvement.
+Data access is a market-design problem. A rule can help rivals and hurt the data service; protecting investment can preserve a gatekeeper. The customer outcome requires all four measures together: seller entry, data quality, platform investment, and final price or fit.
 
-**Customer:** Record what was shared, what was understood, what was shown, and whether the customer could refuse without losing the service.
+## What remains unproven
 
-**Money and finance:** Track data access fees, seller costs, ad costs, product prices, and customer pass-through separately.
+The NBER result is a model and the HBS result is one customer-sharing setting. We do not yet have a named US platform with measured access prices, update rates, seller outcomes, privacy choices, and customer welfare before and after a rule.
 
-**Public power:** Test whether a rule can inspect data quality, limit self-preference, protect privacy, and give sellers and customers a remedy.
+## Next test
 
-## What would change the finding
-
-- A named US platform with measured data access prices and data quality.
-- Seller entry, exit, product variety, prices, and quality before and after a rule.
-- Platform spending, collection, and update rates for the data service.
-- Customer search time, offers, service, privacy choices, and welfare.
-- Results for small sellers and customers with few alternatives.
+Choose one platform and measure data access fees, data quality, collection and update spending, seller entry, prices, product variety, search time, privacy choices, and customer outcomes. Include small sellers and customers with few alternatives.
 
 ## Reading rule
 

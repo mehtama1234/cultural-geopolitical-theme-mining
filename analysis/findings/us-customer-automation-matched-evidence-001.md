@@ -1,55 +1,45 @@
 # A faster answer is not yet a remedy
 
-## Short answer
+## The argument
 
-AI can help a service worker answer faster and with a warmer tone. The evidence does not yet show that it helps a customer fix a repeat problem, challenge a denial, or reach a person with authority to change the answer.
+Automation can help a service worker answer faster and with a warmer tone. That is a real gain, but it is not the same as fixing a repeat problem, reversing a denial, explaining a charge, or reaching a person with authority.
 
-The useful finding is narrow: speed and remedy are separate outcomes. The first-contact gain is measured in one field experiment. The path after the first answer remains open.
+The important dividing line is not bot versus person. It is whether the customer can understand the decision, keep a record, correct an error, and reach someone who can change the answer. A human handoff without authority is only a change in voice.
 
-## What the matched evidence shows
+## Follow one complaint
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| First contact | HBS reports 138 agents and 256,934 meal-delivery chats. AI suggestions cut response time 22% and raised measured sentiment 0.45 points on a five-point scale. | Whether the customer received the right result or only a faster reply. |
-| Worker difference | The reported gain was larger for less-experienced agents: response time fell 70% and sentiment rose 1.63 points. | Whether workers gained discretion, pay, training, or power to override a rule. |
-| Hard cases | HBS reports less improvement for repeat complaints and confusion after some fast chatbot-to-human transfers. | Whether the final complaint was corrected, refunded, explained, or appealed. |
-| Public record | CFPB's 2025 report covers complaints submitted during 2025, and its database publishes company responses for eligible complaints. | Whether automation caused the problem or whether the response was a usable remedy. |
-
-Sources: [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human), [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/), [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/).
-
-## The connection
+A customer reports a missing delivery. An automated tool suggests a reply and the first response arrives quickly. The package is still missing. The customer contacts the service again, repeats the story, and is sent between a bot and a worker who cannot issue a refund. The company has improved response time while the customer still has the same loss.
 
 ```text
-automated prompt or routing
-  -> faster first response and lower service cost
-  -> repeat complaint, exception, denial, or need for records
-  -> human access and authority to change the answer
-  -> resolution, repeat contact, loss, complaint, or exit
+automated prompt or routing → faster first response and lower service cost
+→ repeat complaint, exception, denial, or missing record
+→ human access and authority to change the answer
+→ resolution, repeat contact, loss, complaint, or exit
 ```
 
-The important dividing line is not simply bot versus person. It is whether the customer can understand the decision and reach someone who can change it.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| First contact | HBS reports 138 agents and 256,934 meal-delivery chats; AI suggestions cut response time 22% and raised measured sentiment 0.45 points on a five-point scale. | Automation can improve the first interaction. |
+| Worker difference | The gain was larger for less-experienced agents: response time fell 70% and sentiment rose 1.63 points. | Tools can help newer workers. |
+| Hard cases | HBS reports less improvement for repeat complaints and confusion after some fast chatbot-to-human transfers. | Speed loses value when the problem persists. |
+| Public record | CFPB's 2025 report and complaint database publish complaint responses for eligible cases. | Complaints can reveal failures, but not always the service path. |
+| Missing remedy | The sources do not show whether automation corrected, refunded, explained, or appealed the final result. | A quick answer is not a completed case. |
 
-**Customer:** A quick reply helps only if it answers the real problem. The customer also needs a record, a clear reason, a way to correct an error, and a way to leave.
+Sources: [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human), [CFPB 2025 Consumer Response report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/), and [CFPB complaint database](https://www.consumerfinance.gov/data-research/consumer-complaints/).
 
-**Company and sector:** Automation may lower service cost, train newer workers, and keep customers. The firm also chooses the handoff rule, worker discretion, records, and appeal path.
+## The deeper finding
 
-**Money and finance:** A failed service answer can cost a refund, a payment, a fee, a missed work hour, or a lost subscription. Count the customer's time and money, not only the firm's response time.
+Service quality has two clocks: the first reply and the time to a final remedy. Firms may improve the first clock while leaving the second unchanged. For customers, the cost includes repeated explanation, missed work, lost money, and the inability to challenge a bad answer.
 
-**Public power:** Complaint systems, disclosure rules, accessibility, consumer law, and appeal rights decide whether an automated service failure remains private or can be challenged.
+## What remains unproven
 
-## What would change the finding
-
-- First contact, repeat contact, transfer, decision, remedy, and appeal in the same case.
-- Whether automation was used and whether the worker could override the result.
-- Results by complaint type, language, disability, age, income, race, and digital access.
-- Customer time, money lost, refund, correction, explanation, and later exit.
-- A setting where automation improves final remedy, not only response speed.
+The HBS experiment measures first-contact response and sentiment in one setting. It does not follow the same customer through repeat contact, transfer, decision, remedy, appeal, and exit, or show whether workers can override a rule.
 
 ## Next test
 
-Choose one public complaint system. Compare first contacts with repeat contacts and record response time, transfer, explanation, remedy, appeal, and exit separately. Use CFPB data to locate the problem, then seek firm or agency records that identify the service path.
+Choose one complaint system. Record first contact, repeat contact, automation use, transfer, explanation, worker authority, remedy, appeal, customer time, money lost, and exit. Compare complaint types and customer groups.
 
 ## Reading rule
 

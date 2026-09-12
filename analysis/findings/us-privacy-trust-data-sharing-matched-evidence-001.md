@@ -1,55 +1,44 @@
 # Privacy protection can open the door to more sharing
 
-## Short answer
+## The argument
 
-Privacy rules may increase data sharing when they make a customer feel safer. HBS reports that users of one receipt-and-reward app in California and Virginia shared more after privacy rules took effect. FTC material adds the harder test: people need to know what is collected, why it is shared, what others can do with it, and whether they can refuse or withdraw. The deeper finding is that trust and firm power can rise together. More sharing is not proof that privacy improved, and less sharing is not proof that a rule failed.
+A privacy rule can make people feel safer and share more. That may mean a clearer, fairer exchange. It may also make it easier for a firm to collect a richer record of a customer's life. More sharing is not proof that privacy improved, and less sharing is not proof that a rule failed.
 
-## What the matched evidence shows
+The real questions are simple: what did the person understand, what did they agree to, what could they refuse, and what did the firm do afterward? A customer may trade receipts, visits, and purchase history for a useful reward. The customer may not know that the same record can later shape offers, prices, ranking, credit, or access.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Rule | HBS reports more information, receipts, store visits, and retail categories shared after California and Virginia rules. | Whether the result holds across services and states. |
-| Trust | The HBS account points to reassurance as one reason people shared more. | Whether people understood the notice or only felt safer. |
-| Choice | FTC guidance says people should see the purpose of collection and sharing and have meaningful control. | Whether refusal, withdrawal, deletion, and limits on resale work in practice. |
-| Firm power | More receipts and visits give a firm a richer record of customer behavior. | Whether the extra record changes prices, offers, ranking, service, or access. |
-| Unequal effect | Sharing preferences and responses to defaults differ across people, according to FTC-hosted research. | Which groups gain useful service and which face more sorting or exposure. |
+## Follow one permission
 
-Sources: [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies), [FTC consumer privacy guidance](https://consumer.ftc.gov/consumer-alerts/2024/04/when-companies-share-your-personal-information-without-your-permission), and [FTC-hosted research on consent design](https://www.ftc.gov/system/files/ftc_gov/pdf/linfarronatofradkin.pdf).
-
-## The connection
+A shopper sees a privacy notice and joins a reward app. The notice feels safer after a new state rule. The shopper shares more receipts and store visits. The firm can now learn more about the shopper, while refusal may mean losing the reward or service. The exchange has produced trust and dependence at the same time.
 
 ```text
-privacy rule + clearer permission
-  → customer feels safer
-  → more data is shared
-  → firm learns more about the customer
-  → offers, prices, ranking, or service may change
-  → trust and customer power may move in opposite directions
+privacy rule + clearer permission → customer feels safer → more data shared
+→ firm learns more → offers, prices, ranking, service, or access may change
+→ trust and customer power may move in opposite directions
 ```
 
-The first three steps are supported by the opening evidence and official guidance. The final two are the next test, not a settled result.
+## What the sources actually establish
 
-## The useful surprise
+| Step | Evidence | Meaning |
+|---|---|---|
+| Rule response | HBS reports more information, receipts, store visits, and retail categories shared after California and Virginia rules in one app. | A rule can change sharing behavior. |
+| Trust | HBS identifies reassurance as one reason people shared more. | Feeling safer can change consent. |
+| Choice | FTC guidance says people should see why data is collected and shared and have meaningful control. | Permission needs a usable “no.” |
+| Firm power | More receipts and visits give a firm a richer customer record. | Sharing can increase the firm's knowledge. |
+| Missing result | The evidence does not show whether prices, ranking, service, or access changed afterward. | More collection is not the final outcome. |
 
-A privacy rule can change the amount of information people volunteer without changing who controls the information afterward. This makes “more sharing” an ambiguous result. It may mean a better understood exchange, or it may mean that reassurance has made collection easier.
+Sources: [HBS More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies), [FTC privacy guidance](https://consumer.ftc.gov/consumer-alerts/2024/04/when-companies-share-your-personal-information-without-your-permission), and [FTC consent-design research](https://www.ftc.gov/system/files/ftc_gov/pdf/linfarronatofradkin.pdf).
 
-## Four views
+## The deeper finding
 
-**Household:** Ask whether sharing brings a real saving, useful service, or less work, and what is given up later.
+Trust can increase sharing without increasing customer power. The useful measure is not the amount of data collected; it is whether the customer received a real benefit, understood later uses, could refuse or withdraw, and could challenge a bad result.
 
-**Customer:** Record notice clarity, default settings, refusal, withdrawal, deletion, and the ability to use the service without agreeing to extra uses.
+## What remains unproven
 
-**Money and finance:** Check whether data change eligibility, price, credit, insurance, advertising, or the cost of finding another service.
+The HBS result comes from one app and selected states. The sources do not follow a customer from permission to later price, offer, ranking, denial, service quality, or ability to use the service without extra sharing.
 
-**Public power:** Test whether rules limit later use and give people a workable way to challenge errors, misuse, or unwanted sharing.
+## Next test
 
-## What would change the finding
-
-- The same customer outcome measured across several platforms and states.
-- A simple test of what people remember about collection, retention, sale, and later use.
-- Prices, offers, ranking, service quality, and denial records before and after sharing.
-- Results by income, age, race, disability, language, and digital access.
-- Evidence on whether refusing or withdrawing permission leads to a worse service.
+Track what customers were shown, what they shared, what they could refuse, and what happened later to prices, offers, service, eligibility, deletion, withdrawal, and complaints. Compare people by income, age, language, disability, and digital access.
 
 ## Reading rule
 

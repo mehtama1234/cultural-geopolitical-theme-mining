@@ -120,7 +120,7 @@ A credit record is supposed to describe risk. It can also help create the next r
 **Route:** automation → service → remedy
 **Still open:** human authority to change the answer
 
-AI can help a service worker answer faster and with a warmer tone. The evidence does not yet show that it helps a customer fix a repeat problem, challenge a denial, or reach a person with authority to change the answer.  The useful finding is narrow: speed and remedy are separate outcomes. The first-contact gain is measured in one field experiment. The path after the first answer remains open.
+Automation can help a service worker answer faster and with a warmer tone. That is a real gain, but it is not the same as fixing a repeat problem, reversing a denial, explaining a charge, or reaching a person with authority.  The important dividing line is not bot versus person. It is whether the customer can understand the decision, keep a record, correct an error, and reach someone who can change the answer. A human handoff without authority is only a change in voice.
 
 [Read the HTML page](../site/us-customer-automation-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-customer-automation-matched-evidence-001.md)
 
@@ -350,7 +350,7 @@ On a marketplace, advertising can be the price a seller pays to be seen. The cus
 **Route:** data rule → seller access → data supply → customer outcome
 **Still open:** real market entry, data quality, and welfare
 
-When a platform controls data that sellers need, equal access may help outside sellers compete. But an NBER model finds that the same rule may reduce the platform's reason to gather or improve data. The customer result is therefore not automatic. HBS adds that privacy rules can make some customers share more when the exchange feels safer. The deeper question is not simply who gets data; it is whether the rule produces better choices, prices, service, and customer control.
+When a platform controls data that sellers need, equal access may help outside sellers compete. But if the rule makes data sharing cheap or compulsory, the platform may have less reason to gather, clean, and update the data. Customers then face a tradeoff between a more open market and a weaker data service.  This is not a choice between “share data” and “protect the platform.” The important questions are who gets access, what the data cost, how accurate they are, who can correct them, and what the customer receives at the end.
 
 [Read the HTML page](../site/us-platform-data-neutrality-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-data-neutrality-matched-evidence-001.md)
 
@@ -370,7 +370,7 @@ A platform's own product can help a customer by fitting a need and reducing sear
 **Route:** privacy rule → trust → data sharing → firm knowledge
 **Still open:** customer understanding, later use, and ability to say no
 
-Privacy rules may increase data sharing when they make a customer feel safer. HBS reports that users of one receipt-and-reward app in California and Virginia shared more after privacy rules took effect. FTC material adds the harder test: people need to know what is collected, why it is shared, what others can do with it, and whether they can refuse or withdraw. The deeper finding is that trust and firm power can rise together. More sharing is not proof that privacy improved, and less sharing is not proof that a rule failed.
+A privacy rule can make people feel safer and share more. That may mean a clearer, fairer exchange. It may also make it easier for a firm to collect a richer record of a customer's life. More sharing is not proof that privacy improved, and less sharing is not proof that a rule failed.  The real questions are simple: what did the person understand, what did they agree to, what could they refuse, and what did the firm do afterward? A customer may trade receipts, visits, and purchase history for a useful reward. The customer may not know that the same record can later shape offers, prices, ranking, credit, or access.
 
 [Read the HTML page](../site/us-privacy-trust-data-sharing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-privacy-trust-data-sharing-matched-evidence-001.md)
 
