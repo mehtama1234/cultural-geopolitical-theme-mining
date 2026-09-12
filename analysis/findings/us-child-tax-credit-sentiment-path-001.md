@@ -6,6 +6,8 @@ A benefit changes more than the balance in a checking account. It can determine 
 
 That makes sentiment worth studying, but it must stay in its place. A lower score can mean that a family lost cash, lost housing room, lost trust that help will last, or became more worried about prices. It is not automatically a change in spending, support for a policy, or a vote.
 
+The loss can be felt even when the family’s income did not fall. If a parent had built the monthly payment into rent, food, or child care, the end of the credit removes a planned part of the budget. A family may keep the same job and the same rent while becoming less able to handle a late paycheck or repair. The material change is the missing buffer.
+
 ## Follow the benefit through one family
 
 Suppose a parent receives a monthly Child Tax Credit payment during a period of high food and rent costs. The family uses part of it to stop an arrears notice and part to cover care. When the payment ends, the family may still be working, but its room for error is gone. A new car repair or missed shift now feels like proof that the economy is moving away from it.
@@ -18,6 +20,8 @@ The timing can matter more than the total. A monthly payment arriving before ren
 benefit starts or ends → cash, debt, rent, food, and care room change → household judges its future
 → consumer sentiment changes → spending, trust, blame, policy support, or voting may change
 ```
+
+The first protected bill may also shape the family’s memory of the program. A payment that prevents an eviction notice or keeps food off a credit card can feel different from one that is saved for a future need. When the payment ends, the family may remember the lost ability to plan rather than the exact dollar total. That is one reason the same annual benefit can produce different sentiment across households.
 
 ## What the sources actually establish
 
@@ -40,6 +44,8 @@ The loss can also change the meaning of ordinary events. Before the payment ends
 The program's design shapes who can build a baseline. A payment that is automatic and regular may be easier to plan around than one that requires a filing, arrives as a refund, or is uncertain from month to month. A family that does not qualify may face the same food and rent prices without the same buffer. These differences matter when comparing sentiment and behavior across households.
 
 This is the bridge to public trust. If a family sees help arrive, use it to prevent a crisis, and then loses it, it may judge the government by the change in its usable room. But that judgment can be mixed with prices, jobs, news, and party identity. The sources support a material-to-sentiment link; they do not establish a general trust or voting effect.
+
+There is a counterpoint to the baseline story. A family may replace the credit with higher earnings, another benefit, a partner’s income, or lower spending. The end of one payment does not prove that the household became worse off. That is why the cash change, the first bill protected, and the later household condition must be measured together.
 
 ## What remains unproven
 
