@@ -1,8 +1,8 @@
 # US source coverage
 
-88 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+89 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 139; OFR: 1; Other: 33; Other government: 14; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 140; OFR: 1; Other: 33; Other government: 17; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1658,6 +1658,23 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US replacement spending and electronics waste
+
+**Project:** `us-replacement-e-waste-household-cost`
+
+**Status:** matched evidence pass complete; household replacement and disposal records remain open
+
+**Question:** 
+
+**Sources recorded:** 4
+
+- [NBER: Do Market Failures Create a Durability Gap?](https://www.nber.org/system/files/working_papers/w29073/revisions/w29073.rev0.pdf)
+- [EPA: How to recycle common recyclables](https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables)
+- [EPA: Lithium-ion battery recycling](https://www.epa.gov/hw/lithium-ion-battery-recycling)
+- [GAO: Electronic waste](https://www.gao.gov/assets/a112095.html)
+
+[Open the source-search record](projects/us-replacement-e-waste-household-cost/source-search-2026-09-11.md)
 
 ## US returns, complaints, and the reality behind reviews
 

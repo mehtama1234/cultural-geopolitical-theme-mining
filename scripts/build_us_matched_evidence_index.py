@@ -55,6 +55,7 @@ routes = {
     "us-marketplace-product-safety-matched-evidence-001": ("Customer / health / voice", "seller and safety signal → product risk → recall or remedy", "product-level exposure, harm, and recovery"),
     "us-product-recall-response-matched-evidence-001": ("Health / cost / voice", "hazard → notice → household action → remedy", "notice reach, action, harm, and recovery"),
     "us-right-to-repair-household-cost-matched-evidence-001": ("Cost / customer / work", "product break → repair access → household choice", "repair price, quality, time, and replacement"),
+    "us-replacement-e-waste-household-cost-matched-evidence-001": ("Cost / customer / energy", "repair failure → replacement → waste or reuse", "replacement timing, household burden, and disposal"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
