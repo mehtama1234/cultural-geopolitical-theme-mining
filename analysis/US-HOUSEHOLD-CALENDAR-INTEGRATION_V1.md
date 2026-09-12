@@ -121,6 +121,8 @@ The initial field definition is in [the versioned JSON schema](../manifests/us-h
 
 The starting claims and their current limits are recorded in [the integration claims ledger](projects/us-household-calendar-integration/claims-ledger-v1.md).
 
+The draft participant instrument is [the household-calendar questionnaire](templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md). It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.
+
 ## What would change the working picture
 
 - Most households with a dated shock recover without protecting one need by sacrificing another.
