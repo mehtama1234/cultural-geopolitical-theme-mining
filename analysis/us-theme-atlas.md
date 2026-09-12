@@ -521,6 +521,8 @@ Follow repeated prices and wage comparisons into the household's sense of room, 
 
 Still missing: The sources measure survey beliefs and retail price patterns separately; they do not follow the same household into a political response.
 
+[Read the complete connected memo](../site/us-price-perception-public-judgment-path-001.html)
+
 ### When trade policy becomes a delayed shelf price
 
 Follow a tariff from policy to shelf price, then into the repeated price and wage comparisons that shape a household's sense of room.
