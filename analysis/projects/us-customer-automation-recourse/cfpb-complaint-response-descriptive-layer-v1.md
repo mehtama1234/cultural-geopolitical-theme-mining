@@ -82,6 +82,24 @@ in that category. The difference is descriptive and may reflect complaint
 selection, issue mix, company practice, and publication rules—not different
 underlying remedy probabilities.
 
+## Firm visibility
+
+The same API can expose named firms within a product, which adds a firm-level
+layer without pretending complaint counts are market shares. In 2024 the five
+largest named complaint counts were:
+
+| Product | Largest named firms by published complaint count |
+|---|---|
+| Credit card | TransUnion 7,535; Equifax 7,385; Experian 7,099; Capital One 7,067; Citibank 6,695 |
+| Checking/savings | JPMorgan Chase 7,047; Wells Fargo 6,816; Bank of America 5,003; Citibank 2,941; Chime 2,790 |
+| Mortgage | Shellpoint Partners 2,718; Mr. Cooper 2,082; Wells Fargo 1,486; Ocwen 1,001; Freedom Mortgage 956 |
+
+These counts describe visibility in the complaint system. They do not show
+which firm has the most customers, the highest complaint rate, the greatest
+harm, or the strongest market power. A valid firm comparison requires a
+denominator such as accounts or servicing volume, issue mix, company size,
+response timing, and independently measured outcomes.
+
 ## Limits and next test
 
 CFPB states that complaints are published after a company response confirming a
