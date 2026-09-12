@@ -94,6 +94,13 @@ participation. Food is therefore a social and political measure of available
 room, but the annual prevalence data do not identify which price, employer,
 policy, or store caused a particular household’s condition.
 
+The [local business formation and place layer](projects/us-local-business-place/local-business-formation-place-layer-v1.md)
+adds firm and local productive capacity. It separates entrepreneur movement,
+business applications, employer-firm formation, jobs, services, and place
+identity. A rising application count is not yet a rising local job base or a
+stronger community; those links require establishment, service, and local-life
+records.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas

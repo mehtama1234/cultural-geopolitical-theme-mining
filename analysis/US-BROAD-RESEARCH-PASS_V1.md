@@ -56,6 +56,8 @@ The [Pew 2025 news, platform, and civic-engagement layer](projects/us-digital-ha
 
 The [USDA 2024 food-security layer](projects/us-food-budget-security/usda-2024-food-security-layer-v1.md) adds a basic-security endpoint to the price, care, public-assistance, and inequality themes. It shows the national distribution of low and very low food security, child/adult shielding, subgroup exposure, and assistance participation while keeping the exact price-to-food and food-to-political paths open.
 
+The [local business formation and place layer](projects/us-local-business-place/local-business-formation-place-layer-v1.md) adds a firm, sector, and place layer. It separates entrepreneur movement, business applications, employer-firm formation, and local service or identity effects, keeping the business-count-to-community and domestic-capacity-to-state links open.
+
 The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-household-calendar-integration/sipp-bounded-acquisition-v1.md). It confirms an accessible monthly population-survey backbone for household security, work, benefits, energy, food, and debt. Its 100,000-row engineering slice is not yet a weighted finding.
 
 The full SIPP slice now has a [weighted descriptive scan](projects/us-household-calendar-integration/sipp-weighted-code-scan-v1.md). It is a person-record/month layer using `WPFINWGT`, with official value labels attached; household weighting, variance estimates, and causal interpretation remain separate next steps.

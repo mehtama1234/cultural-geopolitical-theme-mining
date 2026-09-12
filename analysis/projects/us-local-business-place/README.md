@@ -36,3 +36,5 @@ Use plain words. Say which store, job, service, or meeting place changed, who no
 ## Matched evidence pass
 
 The first matched check is [A business application is not yet a local job or a local place](../../findings/us-local-business-place-matched-evidence-001.md), with its [HTML reading page](../../../site/us-local-business-place-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a two-step entry gap while leaving local services, belonging, and political effects open.
+
+The [local business formation and place layer](local-business-formation-place-layer-v1.md) adds the broader firm/place evidence: declining local entrepreneurship bias, staged entry from application to employer firm, and Census county data that separate applications from lasting firms. It does not infer services, belonging, jobs, or politics from application counts.
