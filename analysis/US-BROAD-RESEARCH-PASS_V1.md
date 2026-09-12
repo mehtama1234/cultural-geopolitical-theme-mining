@@ -52,6 +52,8 @@ The first labeled descriptive result is in the [SIPP population layer](projects/
 
 The first SIPP cross-group comparison is the [tenure-stratified population layer](projects/us-household-calendar-integration/sipp-tenure-stratified-layer-v1.md). It compares owners, renters, and rent-free occupants across payment difficulty, food hardship, debt, and work, while keeping the comparison descriptive.
 
+The resource comparison is in the [income-to-poverty-ratio stratified layer](projects/us-household-calendar-integration/sipp-resource-stratified-layer-v1.md). It adds a documented inequality axis and shows why debt, work, food, housing, and utility measures cannot be collapsed into one hardship score.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

@@ -41,6 +41,10 @@ GROUP_VALUE_LABELS = {
                  "3": "occupied without payment of rent"},
     "RMNUMJOBS": {str(i): ("no jobs" if i == 0 else f"{i} job" if i == 1
                             else f"{i} jobs") for i in range(18)},
+    "THINCPOV": {"lt1": "below 1.00x poverty threshold",
+                 "1to2": "1.00–1.99x poverty threshold",
+                 "2to4": "2.00–3.99x poverty threshold",
+                 "ge4": "4.00x poverty threshold or more"},
 }
 
 
@@ -76,6 +80,22 @@ def finish(bucket: dict) -> dict:
     return bucket
 
 
+def group_value(field: str, value: str) -> str:
+    if field != "THINCPOV":
+        return value
+    try:
+        ratio = float(value)
+    except (TypeError, ValueError):
+        return ""
+    if ratio < 1:
+        return "lt1"
+    if ratio < 2:
+        return "1to2"
+    if ratio < 4:
+        return "2to4"
+    return "ge4"
+
+
 def analyze(path: Path, fields: list[str], group_by: str | None = None) -> dict:
     overall = {field: empty() for field in fields}
     by_month = defaultdict(lambda: {field: empty() for field in fields})
@@ -100,7 +120,7 @@ def analyze(path: Path, fields: list[str], group_by: str | None = None) -> dict:
                 continue
             positive_weight_rows += 1
             month = row["MONTHCODE"]
-            group = row.get(group_by, "") if group_by else None
+            group = group_value(group_by, row.get(group_by, "")) if group_by else None
             for field in fields:
                 add(overall[field], row.get(field, ""), weight)
                 add(by_month[month][field], row.get(field, ""), weight)
@@ -143,8 +163,6 @@ def main() -> None:
     unknown = sorted(set(args.fields) - set(FIELD_LABELS))
     if unknown:
         raise ValueError("no verified code-1 labels for: " + ", ".join(unknown))
-    if args.group_by and args.group_by not in args.fields:
-        args.fields = [args.group_by, *args.fields]
     result = analyze(args.input, args.fields, args.group_by)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
