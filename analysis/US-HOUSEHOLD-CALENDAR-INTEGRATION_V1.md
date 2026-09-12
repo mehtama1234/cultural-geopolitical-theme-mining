@@ -119,6 +119,8 @@ Collect only what is needed for the question. Separate contact details from rese
 
 The initial field definition is in [the versioned JSON schema](../manifests/us-household-calendar-schema-v1.json), and the blank collection form is in [the event-ledger template](templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md).
 
+The starting claims and their current limits are recorded in [the integration claims ledger](projects/us-household-calendar-integration/claims-ledger-v1.md).
+
 ## What would change the working picture
 
 - Most households with a dated shock recover without protecting one need by sacrificing another.
