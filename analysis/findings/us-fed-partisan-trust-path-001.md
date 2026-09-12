@@ -20,6 +20,10 @@ Suppose the Fed says rates will stay high to bring inflation down. One family tr
 
 The timing creates a hard test. A message about future inflation may change what a person expects next year, while a credit-card rate or rent payment changes the budget today. A household can update its belief and still have no room to act. Another may act because the bill is due, even while rejecting the institution's explanation.
 
+The message also arrives through a chain of translators. A Fed statement becomes a bank notice, a news headline, a political claim, or a conversation at work before it reaches a household decision. Each step can change the words and the person blamed. A family may understand the rate change through its card issuer while understanding inflation through a politician. “Trust in the Fed” is therefore not the same as trust in every part of the message path.
+
+A household may also separate cause from remedy. It can believe that higher rates reduce inflation and still oppose them because the immediate cost falls on borrowers. It can blame firms for prices and still want the Fed to act. Agreement about what caused a problem does not tell us which policy the household will support, especially when the remedy creates a new bill.
+
 ```text
 price experience and political identity
   -> perceived institutional alignment
@@ -53,6 +57,10 @@ The household's room is the missing link. A person with savings can respond to a
 
 The public path remains indirect. If a family hears one explanation, sees another bill, and cannot get relief, it may change who it blames or which policy it supports. But party identity, media, and other concerns can dominate. The evidence supports a difference in message receipt and belief, not a general theory of economic voting.
 
+This makes lived exposure a necessary part of the political story. A homeowner with a fixed payment may judge a rate announcement mainly as a signal about future prices. A renter may experience it through a landlord’s financing cost. A card borrower may see it on the next statement. The same national policy can create different evidence for the household, and that evidence may be stronger than the official explanation when the two seem to conflict.
+
+The risk is not only that people hear the wrong message. It is that a true message can lose authority when it is paired with a cost the listener cannot avoid. That is an inference from the timing and household constraints, not a result established by the surveys. It should be tested rather than assumed.
+
 ## What remains unknown
 
 The studies do not show actual spending, saving, borrowing, credit balances, or lasting communication effects. They do not establish that a partisan trust gap changes a vote or that a different message changes a household’s inflation. They do not show whether people used another source instead, or whether the household had enough room to act on its belief. They also do not show whether a changed expectation survives a later bill, price shock, or policy reversal.
@@ -60,6 +68,8 @@ The studies do not show actual spending, saving, borrowing, credit balances, or 
 ## Next test
 
 Follow households from a real Fed communication for six months. Join exposure, source, party cues, belief, prices, income, spending, saving, borrowing, credit, turnout, and policy views. Record which bill changed, which information source was trusted, whether the household had room to act, and whether it changed behavior before changing its political judgment. Recontact households after a major bill or rate reset to test whether belief remained useful when the lived cost arrived.
+
+Add a message-path diary: save the original Fed statement, the bank or lender notice, the headline the household saw, and the explanation the person remembers. Link each version to the household’s actual rate exposure and available choices. Randomly vary the messenger and the explanation, then observe whether the person changes an expectation, a purchase, a borrowing choice, or only a blame judgment. This would separate trust in a speaker from the ability to use the information.
 
 ## Reading rule
 
