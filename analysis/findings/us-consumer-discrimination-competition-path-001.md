@@ -1,52 +1,46 @@
 # When competition protects some customers first
 
-## Short answer
+## The argument
 
-Competition may push firms to treat customers fairly when those customers can leave. It may protect the customers with the most power to switch first, while another group pays more or gets less choice.
+Competition may push firms to treat customers fairly when those customers can leave. But the customers with the most time, money, transport, information, and nearby alternatives may be the first to receive better treatment. Another group may pay more or get less choice because leaving is costly.
 
-This is a historical US finding. It is a useful mechanism, not a claim about every current market.
+This is a historical US finding, not a claim about every current market. It supplies a mechanism: a firm responds to the customers whose defection would hurt it. That response can improve treatment for one group without removing the unequal cost carried by another. A market can therefore become more competitive and still leave some customers with weak power.
 
-## What the source shows
+The deeper question is not whether a firm is competitive in the abstract. It is whether the particular customer can find the alternative, reach it, pay its price, and switch without losing time or service. Competition is a customer result only when the customer can use it.
 
-Using nationwide data from three industries before the 1964 Civil Rights Act, NBER finds that increases in non-discrimination were concentrated in the least competitive markets, where the threat of White customer defection was lowest. Non-discriminatory firms charged higher prices than discriminatory firms in the same local market, while Black customers were harmed through higher prices in the non-discriminatory market.
+## Follow one purchase
 
-The evidence measures historical treatment and prices. It does not measure today's firms, online markets, service quality, or the full reason for the price difference.
+A Black customer visits one of two local businesses. The second business offers fairer treatment but charges more, and it is farther away. A customer with a car and flexible work hours can switch. A customer without either may remain with the cheaper but discriminatory option, pay the higher price, or go without. The market’s average price does not show this choice set.
 
-[NBER Working Paper 33547](https://www.nber.org/papers/w33547)
-
-## The connection
+The same logic applies online when a platform shows different offers, limits search, or makes leaving hard. A price difference may reflect a real service difference, a higher cost, or unequal treatment. Those possibilities need separate tests.
 
 ```text
-customer groups and ability to leave
-  -> firm competition and incentive
-  -> treatment and price
-  -> customer access and cost
-  -> regulation and public trust
+customer group and ability to leave → firm competition and incentive
+→ treatment, price, and service → customer access and effective cost
+→ regulation, complaints, enforcement, and trust
 ```
 
-Competition can discipline firms when customers can switch. A higher price may also reflect a different service or cost, not discrimination alone.
+## What the source actually establishes
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Historical treatment | Using nationwide data from three industries before the 1964 Civil Rights Act, NBER finds increases in non-discrimination were concentrated in the least competitive markets, where the threat of White customer defection was lowest. | Firms may change treatment when ordinary competitive pressure is weak. |
+| Price | Non-discriminatory firms charged higher prices than discriminatory firms in the same local market, while Black customers were harmed through higher prices in the non-discriminatory market. | A fairer treatment label does not by itself reveal the full customer cost. |
+| Scope | The evidence measures historical treatment and prices. | It does not measure today’s firms, online markets, service quality, or every reason for a price difference. |
 
-**Household:** A customer with time, money, transport, or many nearby choices may leave. Another customer may have to accept the price or service in front of them.
+Source: [NBER Working Paper 33547](https://www.nber.org/papers/w33547).
 
-**Company and sector:** Firms respond to who can defect and what competitors offer. They may improve treatment for one group without changing the deeper cost for another.
+## The deeper finding
 
-**Money and finance:** Price, search time, fees, credit, and travel decide the effective cost. A posted price does not show the full cost of being unable to switch.
+Customer power is unevenly distributed. Time, money, mobility, language, credit, disability access, and information can determine whether competition is usable. A rule that relies on switching may protect the people who can leave and miss the people who cannot. Public enforcement and clear remedies matter because they do not require every customer to shop their way out of unequal treatment.
 
-**Public power:** Civil-rights rules, competition policy, complaints, enforcement, and market access decide whether fair treatment depends on customer power.
+## What remains unproven
 
-## What would change the finding
-
-- Current market concentration, customer groups, switching, search, and service quality.
-- Treatment, price, fees, wait, denial, and actual customer cost.
-- Online targeting, platform design, complaints, enforcement, and trust.
-- Customer income, race, place, disability, language, and alternatives.
-- Whether a higher price buys a different service or reflects unequal treatment.
+The study does not establish how current firms treat different groups, whether online choice reduces or increases unequal treatment, or how much of a higher price buys a different service. It does not follow a present-day customer from treatment to search, switch, complaint, remedy, and trust.
 
 ## Next test
 
-Follow customers and firms in current markets for one year. Join competition, switching, treatment, prices, search time, service quality, complaints, enforcement, and customer outcomes. Compare customers with different ability to leave.
+Follow customers and firms in current markets for one year. Join concentration, switching, treatment, prices, fees, search time, service quality, denial, complaints, enforcement, and customer outcomes. Compare people with different ability to leave and different access to alternatives.
 
 ## Reading rule
 
