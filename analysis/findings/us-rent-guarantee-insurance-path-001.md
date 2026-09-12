@@ -1,53 +1,51 @@
-# When rent protection becomes a financial product
+# Rent protection can move risk, not remove it
 
-## Short answer
+## The argument
 
-Rent insurance can spread the cost of an income or health shock before a family loses its home. It can also add a premium, a deductible, an exclusion, or a screening rule before the crisis begins.
+Rent protection sounds like a simple promise: if a worker loses income or a family faces a health shock, another party helps keep the rent paid. The hard question is who pays before the crisis, who pays after it, and who is refused at the door.
 
-The people most likely to need protection may be the hardest to insure at a price they can pay. Private and public coverage solve different problems.
+Private rent insurance can spread a large loss across many policyholders. But it may add a premium, deductible, exclusion, claim delay, or screening rule before a renter receives help. Public protection can reach households private insurers avoid, but it requires public money and a rule for deciding who qualifies. A product can prevent an eviction for one family while leaving another family outside the product or owing money after the claim.
 
-## What the source shows
+The deeper finding is that rent protection is a risk-allocation system. It changes the timing and identity of the payer. It does not erase the lost job, medical bill, high rent, or shortage of homes that caused the danger.
 
-An NBER model covers a limited number of rent payments after an income or health shock. It finds higher welfare, smaller security deposits, and less homelessness. Unrestricted access is not financially viable in the model: private insurers would target better-off renters, while public insurance would focus on people most at risk.
+## Follow one shock
 
-The model is a design clue, not a broad US market result. It does not measure premiums, take-up, claims, landlord response, or later credit.
+A family pays $1,800 in rent and buys coverage for a monthly premium. One adult loses work. The family files a claim, but the policy may cover only a set number of payments, require proof, pay the landlord rather than the tenant, or leave the family responsible for repayment. If the claim arrives after a notice or court date, the same nominal coverage may no longer prevent displacement.
 
-[NBER Working Paper 32582](https://www.nber.org/papers/w32582)
-
-## The connection
+Now compare a family that could not afford the premium or failed screening. It faces the same income shock without the product. The difference between the families is not only income. It is whether protection was affordable, available, understandable, and fast enough to work.
 
 ```text
 income or health shock
   -> rent cannot be paid
-  -> insurance claim, public aid, legal help, or no protection
-  -> landlord receives payment or starts a case
-  -> housing and credit path changes
+  -> private claim, public aid, legal help, or no help
+  -> payment, denial, delay, or repayment
+  -> eviction, retained home, credit change, and future rent path
 ```
 
-Insurance changes who carries the risk and when. It does not remove the shock or make every rent affordable.
+## What the source actually establishes
 
-## The four outside views
+| Evidence | Meaning | Limit |
+|---|---|---|
+| An NBER model covers a limited number of rent payments after an income or health shock. | Temporary protection can raise welfare, reduce required deposits, and lower homelessness in the model. | It is not a measured US market result. |
+| The model finds unrestricted access is not financially viable. | A broad product needs different prices, subsidies, or public support to reach high-risk renters. | The model does not tell us which design works in practice. |
+| The model predicts private insurers will target better-off renters while public insurance focuses more on people at risk. | The payer and eligibility rule can shape who receives protection. | It does not measure actual take-up, denials, or claims. |
 
-**Household:** Protection may prevent a move, a deposit, or a damaged credit record. A premium may be hard to pay before any claim, and a denial may come when the need is greatest.
+Source: [NBER Working Paper 32582](https://www.nber.org/papers/w32582).
 
-**Company and sector:** Insurers, landlords, lenders, and aid groups decide how claims affect leases and access. A product may help some renters while excluding those with the highest risk.
+## The deeper finding
 
-**Money and finance:** Premium, deductible, coverage limit, exclusion, claim delay, and renewal price determine the real value. A saved deposit is not the same as a saved home.
+The important outcome is not “covered” or “uncovered.” It is the full path from shock to housing result. A policy that pays quickly may prevent a move. A policy with a narrow limit may only postpone it. A claim that protects the landlord but creates tenant debt may preserve the lease today and worsen the next housing search. Legal help or direct rental aid may work better for some families, even if it has no insurance label.
 
-**Public power:** Rules for insurance, rent aid, eviction records, housing supply, and public coverage decide whether protection is broad or mainly sold to safer renters.
+This gives the research a useful discipline: compare protection by the household’s final position, not by the promise printed on the product page. Did the renter stay housed? Did debt rise? Did credit, work, health, or the next lease change?
 
-## What would change the finding
+## What remains unknown
 
-- Actual products, premiums, claims, exclusions, deductibles, and take-up.
-- Income, health, job, rent, deposit, landlord response, and claim timing.
-- Denials, coverage gaps, eviction, credit, housing quality, and later rent.
-- Who can afford coverage and who is screened out.
-- Public cost compared with direct rental aid and legal help.
+The NBER work does not measure premiums, enrollment, claims, exclusions, landlord response, claim timing, repayment, credit, or later housing. We do not know whether the people most exposed to eviction can buy the protection or understand its terms.
 
 ## Next test
 
-Follow insured and uninsured renters from enrollment through three years. Join premiums, claims, income, health, rent, landlord response, eviction, credit, work, and housing records. Compare private coverage, public aid, legal help, and no protection.
+Follow insured and uninsured renters for three years. Join premium, claim, income, health, rent, notice, landlord response, eviction, credit, work, and housing records. Compare private coverage, public aid, legal help, and no protection. Record both the immediate housing result and the debt carried forward.
 
 ## Reading rule
 
-Keep modeled welfare, actual claims, prevented eviction, and later household security separate. A model is not a measured market result.
+Keep modeled welfare, actual claims, prevented eviction, and later household security separate. A model is a design clue, not a measured market result.
