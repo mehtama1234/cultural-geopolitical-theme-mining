@@ -18,6 +18,10 @@ Suppose a seller is allowed to see sales totals but not the data used to rank pr
 
 Now add privacy. A receipt app tells customers more clearly how data will be used. Trust rises and more customers submit receipts. That can improve the data available to the service, but it can also increase the amount of information held about shopping habits. More sharing is a sign of trust only if the permission is understood and the later use matches what customers accepted.
 
+The platform's first decision is often invisible to the customer: what it chooses to record, clean, connect, and leave out. A seller may receive a neat product history that looks objective but contains missing sizes, wrong brands, or biased reviews. A customer may see a ranking that appears neutral but reflects paid placement, past clicks, or the platform's own inventory. Data quality and ranking rules are part of the exchange even when the screen shows only a list.
+
+The cost of sharing is also delayed. A customer may get a coupon today and face targeted prices, unwanted messages, or a harder exit later. A seller may gain traffic but become dependent on a ranking it cannot inspect. The immediate reward makes the exchange look voluntary; the long-term dependence determines how much choice remains. A useful test needs to follow what happens after the data is supplied, not only the moment of consent.
+
 ```text
 customer or seller supplies data → platform cleans, ranks, and controls it
 → access and price for sellers → competition, investment, and data quality
@@ -43,6 +47,10 @@ The deeper finding is that “access” and “control” are different. A selle
 
 This is also a customer-power question. The platform decides what is visible, what is comparable, and what is remembered. If its own product competes with the sellers using its data, the platform is both referee and player. Equal access may reduce that advantage, but only if the rule covers the data and ranking tools that actually shape the customer’s choice.
 
+There is a three-way mismatch to watch. Sellers want enough data to compete, customers want enough information to judge, and platforms want enough control to keep the market valuable. Opening raw data may not help if sellers cannot interpret it. Protecting data may not protect customers if the platform remains the only place where demand can be reached. A good rule should ask who can correct the record, challenge the ranking, and leave with usable history—not only who can download a file.
+
+The political question is about authority over an everyday market. People may blame sellers for prices, platforms for visibility, or government for failing to make the exchange fair. A privacy rule can raise trust while leaving the platform's market power intact. A competition rule can open sellers while increasing data collection. These outcomes can coexist, which is why “more privacy” and “more competition” are not complete policy results.
+
 ## What remains unproven
 
 The model is not a record of one current platform. The app study is not a test of seller competition. Neither follows one customer through consent, data use, seller entry, price, service quality, and welfare. We do not know whether trust lasts after a breach or unwanted use. We also do not know which data layer is most important to each seller or customer.
@@ -50,6 +58,8 @@ The model is not a record of one current platform. The app study is not a test o
 ## Next test
 
 Follow customers, sellers, and a platform for one year around a data or privacy-rule change. Join consent, data sharing, data use, correction requests, seller entry, access price, ranking, product prices, offers, service quality, search time, platform investment, and customer outcomes. Test each data layer separately and report whether customers received more choice, a better match, a lower price, or only more listings.
+
+Run matched searches with the same customer need while varying seller access, platform-owned products, paid placement, and data-correction rights. Give some customers a clear data-use explanation and an easy withdrawal or export path. Measure seller entry and survival, ranking changes, price and quality, search time, unwanted targeting, successful correction, and completed exit. The goal is to identify whether a rule changes the customer's real choice or only changes what the platform says is available.
 
 ## Reading rule
 
