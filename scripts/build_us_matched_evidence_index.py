@@ -67,6 +67,7 @@ routes = {
     "us-utility-entry-cost-credit-screening-matched-evidence-001": ("Energy / cost / finance / voice", "new account or past debt → deposit or credit screen → service access", "whether entry rules create a basic-service barrier"),
     "us-utility-debt-mobility-matched-evidence-001": ("Energy / cost / finance / housing", "old utility debt → collections or utility record → next deposit or connection", "whether the old balance changes the next move"),
     "us-utility-shutoff-reconnection-rules-matched-evidence-001": ("Energy / cost / housing / public power", "missed payment → protection or shutoff → reconnection and later arrears", "whether the rule creates recovery or delay"),
+    "us-housing-type-energy-affordability-matched-evidence-001": ("Energy / housing / cost / customer", "housing type and tenure → bill and repair control → recovery path", "whether control changes affordability and safety"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

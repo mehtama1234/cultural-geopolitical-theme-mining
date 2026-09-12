@@ -1,8 +1,8 @@
 # US source coverage
 
-100 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+101 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 18; CMS: 1; Census: 11; DOE: 13; EIA: 17; FTC: 27; Federal Reserve: 19; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 18; CMS: 1; Census: 11; DOE: 15; EIA: 19; FTC: 27; Federal Reserve: 19; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 22; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1099,6 +1099,24 @@
 - whether the pattern is temporary repricing or a lasting change in where people can live.
 
 [Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
+
+## US housing type and energy affordability
+
+**Project:** `us-housing-type-energy-affordability`
+
+**Status:** matched evidence pass complete; same-household housing, bill, repair, and recovery records remain open
+
+**Question:** How do renters, manufactured-home residents, and homeowners differ in energy cost, control over repairs, and ability to recover from a bill shock?
+
+**Sources recorded:** 5
+
+- [DOE LEAD frequently asked questions](https://www.energy.gov/cmei/scep/slsc/low-income-energy-affordability-data-lead-tool-frequently-asked-questions)
+- [DOE LEAD tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA 2024 Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+- [GAO: Home energy assistance for low-income occupants of manufactured homes](https://www.gao.gov/products/gao-12-848r)
+
+[Open the source-search record](projects/us-housing-type-energy-affordability/source-search-2026-09-11.md)
 
 ## US immigration, local demand and place
 
