@@ -14,6 +14,10 @@ A worker is paid on Friday, but the utility bill is due Tuesday. A medical bill 
 
 Suppose the household receives a notice. It now has to understand the deadline, contact the utility, prove eligibility, find money, and keep service on while the request is reviewed. A payment arrangement may prevent termination but create a larger next bill. A reconnection fee may turn a short delay into a new balance. The household may also keep the service on by using a credit card or borrowing from family, shifting the cost into another record.
 
+The notice can be a decision point, not just a warning. A household with a working phone, internet, language help, and paid time can ask for a change before the deadline. A household without those things may see the same notice after the useful options have closed. If the notice is hard to understand or the call queue lasts through a shift, the formal protection exists but the practical window is gone.
+
+Keeping service on may also be the wrong measure when the home is unsafe. A family can avoid shutoff by turning off heat in another room, using a space heater that raises fire risk, or cutting food to pay. The account is current while the household is still making a dangerous trade. The useful outcome is safe and usable service at a payment the household can carry, not merely a zero arrears balance.
+
 ```text
 income or benefit arrives → bill is due at a different time
 → notice, late payment, or arrears → payment plan, borrowing, shutoff, or aid
@@ -40,6 +44,10 @@ Timing also interacts with the home. A poorly insulated home, broken heater, med
 
 This is why “arrears” is not the end of the story. The public system should ask whether the household kept safe service, what it gave up to do so, and whether the next bill became harder. The utility should be measured not only by collections and shutoffs but by whether its timing and protections reduce repeat crisis.
 
+Timing can have a compounding effect. A late fee makes the next bill larger; a payment plan adds a second obligation; a shutoff creates a reconnection charge; the household then borrows to restore service. Each step can make the next due date harder even if the original missed amount was small. A rule that prevents the first escalation may be more valuable than a larger payment after the account has already entered a debt loop.
+
+There is a coordination gap between utilities and other systems. The utility may know the account is at risk while a benefits agency knows a payment is arriving, and a clinic knows the household depends on power for treatment. If those records do not connect, the family must coordinate the systems while in crisis. A timely data match or automatic protection could reduce that work, but it also requires clear privacy limits and a way to correct a wrong classification.
+
 ## Four views of the same bill
 
 **Household:** When did money arrive? When was the bill due? What food, medicine, rent, credit, or rest paid for the gap?
@@ -57,6 +65,8 @@ The sources do not follow the same household from income and benefit dates throu
 ## Next test
 
 Join observed income and benefit dates to utility service records for one year. Track bill dates, notice, arrears, payment plans, shutoff, reconnection, credit, borrowing, food and medicine tradeoffs, emergency care, work, weather, home condition, and protection rules. Compare households with similar energy burden but different timing and utility rules.
+
+Test matched due dates, automatic grace periods around benefit receipt, and fast protection for medical equipment or extreme weather. Measure days of safe service, total payment, fees, borrowing, food and medicine tradeoffs, indoor conditions, missed work, emergency care, repeat arrears, and correction effort. Compare households that stayed current by paying with cash against those that stayed current by taking on another loss. The result should show whether the rule reduced the crisis or only moved it elsewhere.
 
 ## Reading rule
 
