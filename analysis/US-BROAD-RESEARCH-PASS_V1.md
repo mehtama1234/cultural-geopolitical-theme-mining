@@ -66,6 +66,8 @@ The place layer is the [region-stratified SIPP comparison](projects/us-household
 
 The first design-based uncertainty check is the [SIPP Fay-BRR point-estimate layer](projects/us-household-calendar-integration/sipp-fay-brr-point-estimates-v1.md). It covers five full-sample diagnostics; subgroup tables remain point-only until their replicate estimates are computed.
 
+The first uncertainty-aware subgroup comparison is the [SIPP Fay-BRR tenure layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-estimates-v1.md). It covers housing, utility, and food-hardship measures for owners, renters, and rent-free occupants.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

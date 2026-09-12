@@ -32,4 +32,4 @@ The available replicate weights are person weights. They support person-level es
 
 ## Current status
 
-The population, tenure, resource, regional, and two-way SIPP layers remain point diagnostics with this limitation stated. The full-sample check is complete; the next statistical-quality pass is to add uncertainty to a small pre-registered set of subgroup tables before expanding the number of comparisons.
+The population, resource, regional, and two-way SIPP layers remain point diagnostics with this limitation stated. The full-sample check and the first tenure subgroup check are complete in the [full-sample Fay-BRR result](sipp-fay-brr-point-estimates-v1.md) and [tenure Fay-BRR result](sipp-fay-brr-tenure-estimates-v1.md). The next statistical-quality pass is to add uncertainty to a small pre-registered tenure × resource set before expanding the number of comparisons.
