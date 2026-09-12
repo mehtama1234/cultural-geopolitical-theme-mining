@@ -114,7 +114,17 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 12. Four states show four different levels of visibility
+### 12. A rent guarantee claim is a process, not a rescue payment
+
+**Theme:** Cost / housing / voice
+**Route:** default → claim process → landlord payment → tenant recovery risk
+**Still open:** claim timing, disputes, and housing outcome
+
+The public policy terms show a chain of conditions before a landlord is paid. The lease must be covered, the premium and tenant indemnity must be in place, a defined default or loss must happen, the landlord must document it and take required steps, and the claim must be adjusted. After payment, the provider or surety can receive collection rights against the tenant.  The product may protect a landlord from loss, but it does not remove the rent dispute. It can move the dispute from landlord-tenant collection to provider-tenant recovery. The tenant's protection depends on the lease, the policy form, state law, notice, defenses, and the timing of the claim.
+
+[Read the HTML page](../site/us-rent-guarantee-claim-mechanics-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-claim-mechanics-matched-evidence-001.md)
+
+### 13. Four states show four different levels of visibility
 
 **Theme:** Cost / housing / voice
 **Route:** state rule → policy form → claim → tenant duty
@@ -124,7 +134,7 @@ The first comparison across California, New York, Texas, and Illinois does not p
 
 [Read the HTML page](../site/us-rent-guarantee-four-state-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-four-state-matched-evidence-001.md)
 
-### 13. Rent insurance may protect a home before the crisis, but access is the problem
+### 14. Rent insurance may protect a home before the crisis, but access is the problem
 
 **Theme:** Cost / housing / finance
 **Route:** rent risk → pre-shock insurance → housing security
@@ -134,7 +144,7 @@ Rent-guarantee insurance is meant to pay a limited number of rents after an inco
 
 [Read the HTML page](../site/us-rent-guarantee-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-insurance-matched-evidence-001.md)
 
-### 14. Rent guarantee products open the lease, but may leave the loss with the tenant
+### 15. Rent guarantee products open the lease, but may leave the loss with the tenant
 
 **Theme:** Cost / housing / finance
 **Route:** lease screen → guarantee premium → tenant repayment risk
@@ -144,7 +154,7 @@ The first US products we found are mostly lease guarantees. They help a renter q
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-market-matched-evidence-001.md)
 
-### 15. Rent guarantee is not one product
+### 16. Rent guarantee is not one product
 
 **Theme:** Cost / housing / finance
 **Route:** provider screen → paid guarantee → landlord protection → tenant debt
@@ -154,7 +164,7 @@ The first provider comparison shows a shared shape, not a single standard produc
 
 [Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
 
-### 16. Rent guarantee changes when the state changes
+### 17. Rent guarantee changes when the state changes
 
 **Theme:** Cost / housing / voice
 **Route:** provider → state filing → policy terms → tenant risk
@@ -164,7 +174,7 @@ The first state check shows why a national provider comparison can mislead. Rhin
 
 [Read the HTML page](../site/us-rent-guarantee-state-terms-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-state-terms-matched-evidence-001.md)
 
-### 17. Rent aid can buy time; a lawyer can change the case
+### 18. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -174,7 +184,7 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 18. A benefit can be lost without the need going away
+### 19. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -184,7 +194,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 19. A recovery loan can keep a local option open, but it creates another bill
+### 20. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -194,7 +204,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 20. A wider small-business rule can push the smallest firms out
+### 21. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -204,7 +214,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 21. The same dollar can do different work depending on how it arrives
+### 22. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -214,7 +224,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 22. A car repair can protect access while taking away other room
+### 23. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

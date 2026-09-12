@@ -81,6 +81,12 @@ The public records support a state-terms table, but not a complete price table. 
 | Texas | [Texas Property Code, Chapter 92](https://statutes.capitol.texas.gov/DocViewer.aspx?DocKey=PR%2FPR.92&ExactPhrase=False&HighlightType=1&Phrases=can%7Cconstables%7Cserve%7Ccivil%7Cpapers&QueryText=can+constables+serve+civil+papers) | A fee in lieu of a security deposit may fund insurance for damages and unpaid rent, but the fee does not remove the tenant’s duty to pay rent. After a valid insurer payment, the insurer may seek limited reimbursement under the statute. | Documented tenant-protection rule; provider match open |
 | Illinois | [Illinois insurance licensing guidance](https://idfpr.illinois.gov/banks/cbt/comcl/btfaqins.html) | Insurance sellers need producer licensing; the page is general guidance and does not identify a rent-guarantee provider, product form, or price. | Licensing context only |
 
+## Claim-mechanics check
+
+The public policy terms show that payment is conditional, not automatic. The California terms require a bonded lease, an executed tenant indemnity agreement and paid premium; they define default and covered loss, require the landlord to mitigate, and give the surety collection rights after payment. The surplus-lines terms add a 45-day landlord action window and require the landlord to act on a tenant's rental-assistance application when its action is needed. Texas law separately requires notice and preserves tenant defenses for certain insurance bought in place of a security deposit.
+
+This shifts the next question from “does insurance pay?” to “what must happen before payment, and what happens after it?”
+
 ## Decision rule
 
 Keep modeled welfare, actual claims, prevented eviction and later household security separate. The model is a design clue, not a measured market result.
