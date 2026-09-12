@@ -1,7 +1,7 @@
 # SIPP broad-bridge crosswalk v1
 
 **Checked:** 2026-09-12  
-**Source:** [2025 SIPP public-use data page](https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html), [official schema](https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/pu2025_schema.json)  
+**Source:** [2025 SIPP public-use data page](https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html), [official schema](https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/pu2025_schema.json), [2025 SIPP Data Dictionary](https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf)
 **Data layer:** selected records from the 2025 SIPP file, covering the 2024 reference year  
 **Weight currently available:** `WPFINWGT`, final person weight
 
