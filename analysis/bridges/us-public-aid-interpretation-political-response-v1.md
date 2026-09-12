@@ -9,6 +9,13 @@ When a public benefit, tax rule, price, or work rule changes a person’s materi
 
 ## Evidence carried by the existing records
 
+The [ANES 2024 political judgment layer](../projects/us-cost-trust-politics/anes-2024-political-judgment-layer-v1.md)
+now supplies a respondent-level material-interpretation-action sequence for
+financial worry, national economic judgment, federal-government trust,
+perceived concentration of power, perceived waste, and reported presidential
+vote. It does not identify the specific aid, price, bill, or firm exposure that
+preceded the worry.
+
 | Step | Existing evidence | What it supports | What it does not establish |
 |---|---|---|---|
 | Policy design | [The same dollar can do different work depending on how it arrives](../../findings/us-transfer-design-household-matched-evidence-001.md) separates cash, in-kind aid, timing, spending, debt, and household choice. | Form and timing change what aid makes possible. | That one design creates lasting security or political support. |

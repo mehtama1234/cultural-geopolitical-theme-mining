@@ -22,6 +22,8 @@ The next executable design is the [political-response measurement specification]
 
 The [ANES 2024 source record](anes-2024-political-path-source-record-v1.md) maps a current respondent-level pre/post political layer to that design. It records the official acquisition boundary and does not claim new estimates until the current microdata release is obtained.
 
+The [ANES 2024 political judgment layer](anes-2024-political-judgment-layer-v1.md) now adds weighted, complex-design cross-tabs for financial worry against national economic judgment, federal-government trust, and reported presidential vote. It is a separate respondent-level layer beside SHED, not a join to SHED or a causal economic-voting result.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.
