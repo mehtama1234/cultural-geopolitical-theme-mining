@@ -30,17 +30,17 @@ An efficient appliance can lower the monthly bill, but the household must first 
 **Route:** account habit → switching effort → lower return or stable funding
 **Still open:** customer net return and bank stability
 
-Many US depositors leave their money in the same bank even when another account pays more. That can be sensible: moving direct deposits, automatic bills, and savings takes time, and a familiar bank may feel safer. It also gives banks steady, low-cost funding and weakens some competition for existing customers. The deeper finding is a tradeoff, not a verdict: the customer's convenience and the bank's stability may be real, while the customer still gives up interest.
+Many depositors leave money in the same bank even when another account pays more. That can be sensible. Moving direct deposits, automatic bills, savings, branch access, and trusted service takes time and carries error risk. It can also give banks steady, low-cost funding and weaken the reason to compete for existing customers.  The right question is not whether an inactive customer is foolish or a bank is exploitative. It is whether the interest left behind is larger than the effort, risk, service value, and safety of moving. The same answer will differ by balance, age, digital access, bill complexity, and need for a local branch.
 
 [Read the HTML page](../site/us-bank-depositor-inertia-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-bank-depositor-inertia-matched-evidence-001.md)
 
-### 4. Removing a bank fee helps broadly; overdraft access helps unevenly
+### 4. A bank fee can be small on paper and large in a thin budget
 
 **Theme:** Cost / finance / voice
 **Route:** low account cash → fee or overdraft → later cost
 **Still open:** payment success and household recovery
 
-A bank rule can look equal while its value depends on how much cash a household has. NBER evidence finds that removing NSF fees reduced those charges across income groups. Relaxing overdraft rules reduced overdraft fees mainly for wealthier and more liquid households, and only those households later showed lower late fees, interest payments, account fees, and payday-loan use. The practical finding is not that overdraft is always bad. It is that access to a short bridge is not the same as having room to repay it.
+A bank rule can look equal while its value depends on how much cash a household has. Removing an NSF fee helps anyone who would have paid it. Overdraft access is different: it can keep a payment moving, but only helps if the household can recover before the next charge.  The important split is between avoiding a failed payment and borrowing time. A fee cut may remove a direct cost. An overdraft may prevent a late rent or utility payment, or it may carry a shortfall into another week. The same product has a different result for a household with cash arriving Friday and one already behind on three bills.
 
 [Read the HTML page](../site/us-bank-fees-household-wellbeing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-bank-fees-household-wellbeing-matched-evidence-001.md)
 
@@ -324,13 +324,13 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
 
-### 33. Payment choice is a distribution question, but not yet a household welfare result
+### 33. Payment choice can move a cost through the price of everything else
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
 **Still open:** same-household net cost
 
-The payment system appears to spread costs and benefits unevenly. The clearest evidence is a system estimate: merchant card fees can move money from cash and debit users toward higher-reward credit-card users through common prices. Federal Reserve evidence shows that payment choice differs by income and age. CFPB evidence shows that rewards can be hard to receive and may be outweighed by interest for people who carry a balance.  That is enough to treat payment choice as a customer and distribution question. It is not enough to say which household is worse off, because we do not yet see the same person's price, reward, interest, security benefit and ability to switch together.
+A payment method is not only a checkout preference. It can decide who receives a reward, who pays interest, who can dispute a charge, who gets a record, and who pays a merchant fee that may enter common prices.  The evidence supports uneven exposure, not a simple story that one group always loses. A credit-card user who pays in full may receive rewards and protection. A revolving borrower may pay more in interest than rewards return. A cash or debit user may pay a price that reflects card costs without receiving the reward. The net result depends on the same person's price, reward, balance, protection, and ability to switch.
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 

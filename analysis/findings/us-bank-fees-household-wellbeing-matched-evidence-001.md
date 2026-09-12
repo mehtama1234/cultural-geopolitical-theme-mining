@@ -1,56 +1,44 @@
-# Removing a bank fee helps broadly; overdraft access helps unevenly
+# A bank fee can be small on paper and large in a thin budget
 
-## Short answer
+## The argument
 
-A bank rule can look equal while its value depends on how much cash a household has. NBER evidence finds that removing NSF fees reduced those charges across income groups. Relaxing overdraft rules reduced overdraft fees mainly for wealthier and more liquid households, and only those households later showed lower late fees, interest payments, account fees, and payday-loan use. The practical finding is not that overdraft is always bad. It is that access to a short bridge is not the same as having room to repay it.
+A bank rule can look equal while its value depends on how much cash a household has. Removing an NSF fee helps anyone who would have paid it. Overdraft access is different: it can keep a payment moving, but only helps if the household can recover before the next charge.
 
-## What the matched evidence shows
+The important split is between avoiding a failed payment and borrowing time. A fee cut may remove a direct cost. An overdraft may prevent a late rent or utility payment, or it may carry a shortfall into another week. The same product has a different result for a household with cash arriving Friday and one already behind on three bills.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Direct fee | Removing NSF fees reduced those charges across income groups. | Whether the payment was later made. |
-| Payment access | Overdraft can keep a payment from failing. | Whether the payment protected an essential need. |
-| Later cost | More liquid households saw lower later fees, interest, account fees, and payday-loan use after overdraft rules changed. | Why less-liquid households did not see the same result. |
-| Household room | Cash and liquidity shape whether a bridge can be repaid. | Total cost across all accounts and lenders. |
-| Trust and choice | A fee rule can affect how a customer views and uses the bank. | Switching, complaints, and longer household stability. |
+## Follow one low-balance day
 
-Source: [NBER, Bank Fees and Household Financial Well-Being](https://www.nber.org/papers/w34993).
-
-## The connection
+A paycheck is two days away. A utility payment arrives today. The bank can reject it, charge an NSF fee, or cover it with overdraft. The payment result affects the household's next move: pay a fee, use a payday lender, delay food, borrow from family, or repay the overdraft after the paycheck. The first account event is only the start.
 
 ```text
-low account cash → payment rule → fee or overdraft
-                 → payment succeeds or fails
-                 → later fee, interest, or alternative credit
-                 → household room and trust
+low account cash → payment rule → fee, overdraft, or failure
+→ payment succeeds or fails → later fee, interest, or alternative credit
+→ household room and trust change
 ```
 
-The NBER study connects the rule to account charges and later financial costs. It does not show the bill that caused the shortage or the household's full budget. A lower fee can be real relief even when it does not change food, rent, health, or work outcomes.
+## What the sources actually establish
 
-## The uneven value of access
+| Step | Evidence | Meaning |
+|---|---|---|
+| Direct fee | NBER finds removing NSF fees reduced those charges across income groups. | The charge can be removed broadly. |
+| Payment access | Overdraft can keep a payment from failing. | Access may prevent an immediate problem. |
+| Uneven later result | More liquid households saw lower later fees, interest, account fees, and payday-loan use after overdraft rules changed. | A bridge helps more when repayment is possible. |
+| Missing event | The study does not show the bill that caused each shortage or the household's full budget. | The same fee can sit inside very different crises. |
 
-An overdraft line is most useful when a household can use it briefly and repay it. If the account remains short, the same line may add cost or hide a deeper income problem. This helps explain why one policy change can have different results: the product is the same, but the exit route is not.
+Source: [NBER Bank Fees and Household Financial Well-Being](https://www.nber.org/papers/w34993).
 
-Removing an NSF fee is easier to call a direct gain because the charge disappears. Expanding overdraft access requires a second question: did it prevent a failed payment, and did the household have enough room to recover? The evidence supports asking both questions instead of treating access as success.
+## The deeper finding
 
-## Four views
+Liquidity is the hidden divider. Removing a fee is direct relief. Extending a bridge is useful only when there is an exit. A household with little cash may need payment access most and gain the least from a rule that assumes quick repayment. Policy should measure payment success, total later cost, and essential needs protected.
 
-**Household:** Identify the bill, cash available, payment result, and what was delayed afterward.
+## What remains unproven
 
-**Customer:** Record the fee, overdraft amount, repayment timing, notice, and alternative offered.
+The evidence does not link one account event to the bill, food, housing, health, work, later borrowing, and trust of the same household. It also does not show whether a fee change changes switching or long-run stability.
 
-**Money and finance:** Add all later fees, interest, payday borrowing, and account closure—not only the first charge.
+## Next test
 
-**Public power:** Ask whether the rule removes a cost, preserves payment access, or transfers risk to the customer.
-
-## What would change the finding
-
-- Account records linked to the bill or payment event that caused the shortage.
-- Total household fees and interest across banks, cards, overdrafts, and payday lenders.
-- Payment success and later stability split by income, liquidity, age, place, and race.
-- Evidence on food, housing, health, and work outcomes after the account event.
-- Customer complaints, switching, and trust before and after fee changes.
+Join account records to the payment event that caused the shortage. Measure fees, overdraft, repayment, payday borrowing, payment success, and later food, housing, health, and work outcomes by liquidity.
 
 ## Reading rule
 
-Do not call a fee cut broad household relief until you show whether it removed a charge, saved a payment, or changed the later cost for the people with the least cash.
+Do not call a fee cut broad household relief until you show whether it removed a charge, saved a payment, or changed the later cost for people with the least cash.

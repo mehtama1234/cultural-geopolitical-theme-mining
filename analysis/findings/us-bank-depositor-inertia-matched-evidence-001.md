@@ -1,56 +1,44 @@
 # Staying with a bank can save effort while giving up interest
 
-## Short answer
+## The argument
 
-Many US depositors leave their money in the same bank even when another account pays more. That can be sensible: moving direct deposits, automatic bills, and savings takes time, and a familiar bank may feel safer. It also gives banks steady, low-cost funding and weakens some competition for existing customers. The deeper finding is a tradeoff, not a verdict: the customer's convenience and the bank's stability may be real, while the customer still gives up interest.
+Many depositors leave money in the same bank even when another account pays more. That can be sensible. Moving direct deposits, automatic bills, savings, branch access, and trusted service takes time and carries error risk. It can also give banks steady, low-cost funding and weaken the reason to compete for existing customers.
 
-## What the matched evidence shows
+The right question is not whether an inactive customer is foolish or a bank is exploitative. It is whether the interest left behind is larger than the effort, risk, service value, and safety of moving. The same answer will differ by balance, age, digital access, bill complexity, and need for a local branch.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Staying | Only 5–15% of depositors open a new account per year in the NBER study. | Whether existing deposits were moved inside an old or new account. |
-| Customer value | A higher-rate account may pay more interest. | Fees, safety, service, and switching time. |
-| Bank value | Sleepy deposits account for 57% of average deposit franchise value in the NBER model. | The value created by each customer and account. |
-| Switching cost | Direct deposit, automatic bills, branch access, and setup make moving harder. | Which households face the largest time or access cost. |
-| System effect | More active switching could reduce some bank stability and shift deposits between banks. | What a real change in switching would do to local bank options. |
+## Follow one account
 
-Sources: [NBER account study](https://www.nber.org/papers/w34267), [HBS research summary](https://www.library.hbs.edu/working-knowledge/why-banks-need-sleepy-customers), [NBER Digest summary](https://www.nber.org/digest/202601/bank-competition-and-inattentive-depositors), and [FDIC switching guidance](https://www.fdic.gov/consumer-resource-center/2024-03/thinking-about-moving-another-bank).
-
-## The connection
+A worker keeps an old checking and savings account after seeing a better rate elsewhere. Direct deposit and automatic bills are attached to the old bank. The new account would earn more, but moving everything could cause a missed payment. The worker waits. The bank gains stable deposits; the customer buys convenience with foregone interest.
 
 ```text
-account opens → bills and income attach to it → switching effort
-              → lower rate accepted or better offer pursued
-              → customer interest and bank funding
-              → competition, local bank choice, and stability
+account opens → income and bills attach → switching effort and error risk
+→ lower rate accepted or better offer pursued → customer return and bank funding
+→ competition, local choice, and stability change
 ```
 
-The research supports low switching and a bank benefit from that behavior. It does not show that every inactive customer is being exploited. A household may rationally value a familiar branch, reliable bill payment, deposit insurance, or the safety of not making a rushed move.
+## What the sources actually establish
 
-## The two-sided tradeoff
+| Step | Evidence | Meaning |
+|---|---|---|
+| Staying | NBER finds only 5–15% of depositors open a new account per year in its study. | Existing relationships change slowly. |
+| Customer value | A higher-rate account may pay more interest, but fees, safety, service, and switching time also matter. | Rate alone is not the complete choice. |
+| Bank value | NBER models “sleepy” deposits as 57% of average deposit franchise value. | Inactive accounts can be valuable funding. |
+| Switching cost | Direct deposit, automatic bills, branch access, and setup make moving harder. | Convenience can have a measurable price. |
 
-The customer's cost is easy to imagine but not yet complete: the interest that could have been earned minus fees, taxes, time, risk, and service differences. The bank's gain is also more than cheap money: steady deposits can help it lend and survive a period of stress. But a bank can benefit from customer inattention even when its rate or service is weak.
+Sources: [NBER account study](https://www.nber.org/papers/w34267), [HBS on sleepy customers](https://www.library.hbs.edu/working-knowledge/why-banks-need-sleepy-customers), and [FDIC switching guidance](https://www.fdic.gov/consumer-resource-center/2024-03/thinking-about-moving-another-bank).
 
-This creates a policy tension. Easier switching may give customers more bargaining power and force banks to pay more. It may also move deposits toward larger or safer-seeming institutions. The right test is not “make everyone switch.” It is whether customers can compare and move when the gain is worth the effort without losing needed services or safety.
+## The deeper finding
 
-## Four views
+Inattention is not just a customer trait; it is part of how a bank relationship is built. A bank benefits from deposits that do not move, while the customer may receive less interest. Easier comparison and switching could improve bargaining power, but might also move deposits toward larger institutions and change local banking.
 
-**Household:** Calculate the interest difference, fees, time, access, and emergency needs.
+## What remains unproven
 
-**Customer:** Compare the full account terms, not the advertised rate alone.
+The studies do not show one customer's full rate gap after fees, taxes, time, service, safety, and switching errors. They also do not show what greater switching would do to lending, branches, or bank stability in a particular place.
 
-**Money and finance:** Separate deposit return, bank funding cost, liquidity, and default risk.
+## Next test
 
-**Public power:** Ask whether disclosure and switching tools improve choice while preserving local banking options.
-
-## What would change the finding
-
-- Account-level rate, balance, fee, and switching records.
-- Time and error costs for moving direct deposit and automatic payments.
-- Results by age, income, balance, race, place, branch access, and digital use.
-- Customer outcomes after switching: interest, fees, service, and safety.
-- Bank outcomes after greater switching: funding, lending, closures, and risk.
+Join account rates, balances, fees, direct-deposit links, automatic bills, switching attempts, service use, and customer outcomes. Compare switching gains with errors, time, branch loss, and later bank choice.
 
 ## Reading rule
 
-Do not call a depositor asleep or a bank exploitative until you compare the rate gap with the customer's switching cost and the account's actual service and safety value.
+Do not call a depositor asleep or a bank exploitative until you compare the rate gap with switching cost and the account's actual service and safety value.
