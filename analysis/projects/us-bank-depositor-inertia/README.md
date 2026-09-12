@@ -8,6 +8,11 @@ When people leave their money in the same bank as rates change, how much is conv
 
 Start with the NBER study of “sleepy deposits” and the HBS summary. Keep the depositor's lost interest, the bank's funding benefit, switching effort and financial stability separate.
 
+## Matched evidence pass
+
+- [Staying with a bank can save effort while giving up interest](../../findings/us-bank-depositor-inertia-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-bank-depositor-inertia-matched-evidence-001.html)
+
 ## Possible connection
 
 The same habit that costs a customer some interest can give a bank cheaper, steadier funding. That makes a private act of not switching part of a wider system: competition, bank survival and the household's cash buffer.

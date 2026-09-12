@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; customer return and bank effects remain open
 
 ## Working question
 
@@ -27,6 +27,10 @@ bank account opens
 ```
 
 The evidence supports low switching and a bank value tied to that behavior. It does not show the net household cost after fees, convenience, safety, taxes and alternative rates.
+
+## Matched evidence result
+
+The first pass supports a two-sided tradeoff. Staying can cost interest and weaken competition, but it can also save setup effort and provide a stable banking relationship. The NBER model adds a system counterpoint: broad switching could shift deposits and raise risk for some banks. The next test is the customer's net return beside the bank's funding and service value.
 
 ## Counterpoint to keep visible
 

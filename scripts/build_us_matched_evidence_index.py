@@ -39,6 +39,7 @@ routes = {
     "us-consumer-credit-liquidity-matched-evidence-001": ("Cost / finance / voice", "bill shock → cash gap → credit → future room", "same-household repayment and later access"),
     "us-hidden-fees-price-salience-matched-evidence-001": ("Cost / customer / finance / voice", "headline price → late cost → choice → final burden", "same-household cost, quality, and repeat choice"),
     "us-bank-fees-household-wellbeing-matched-evidence-001": ("Cost / finance / voice", "low account cash → fee or overdraft → later cost", "payment success and household recovery"),
+    "us-bank-depositor-inertia-matched-evidence-001": ("Cost / finance / voice", "account habit → switching effort → lower return or stable funding", "customer net return and bank stability"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
