@@ -25,6 +25,8 @@ Automation may improve service for simple questions while making repeated proble
 
 The first current institutional measurement layer is the [CFPB complaint → response descriptive layer](cfpb-complaint-response-descriptive-layer-v1.md). It records complaint volume and response categories while preserving the limits that a published complaint is not a representative consumer sample and a company response is not necessarily a remedy.
 
+The first place-normalized extension is the [CFPB geography layer](cfpb-state-population-normalized-layer-v1.md), which pairs state complaint counts with Census resident-population estimates and explicitly does not treat the result as a consumer-harm rate.
+
 ## Scope
 
 - US customers and firms;
