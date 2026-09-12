@@ -6,40 +6,58 @@ Regular cash can change a family's home before it changes the family's long-run 
 
 The question is not simply whether the payment worked. It is what changed inside the home, who gained room, and what cost returned when the payment stopped. A count of people at an address cannot tell whether a move was chosen, forced, or only delayed.
 
+Cash can also change the balance between independence and support. An adult child may afford a separate home but lose daily care. A parent may move out of a crowded apartment and gain privacy but face a larger utility and transport bill. A family may use the payment to keep everyone together because that is what it wants—not because the policy failed.
+
 ## Follow one payment into the home
 
 A parent receives monthly cash after falling behind on rent. The payment clears arrears and prevents an expected move. The family stays, but rent remains high and the payment ends. Another family uses the same money to leave crowding. A third pays a debt that had kept a relative in the home.
 
-The same headline result—fewer expected moves or fewer people in a home—can mean stability, a chosen move, or a pause before the next crisis.
+The same headline result—fewer expected moves or fewer people in a home—can mean stability, a chosen move, a safer arrangement, or a pause before the next crisis. The payment's timing matters too. A monthly amount may prevent a missed payment but be too small for a deposit, a move, or a lasting repair.
 
 ```text
-regular cash arrives → rent or mortgage arrears fall → household can stay, move, separate, or reduce crowding
-→ housing stability, care time, work access, or child outcomes change → payment ends, continues, or is replaced
+regular cash arrives → rent or mortgage arrears fall
+→ household can stay, move, separate, or reduce crowding
+→ housing, care, work, school, and privacy change
+→ payment ends, continues, or is replaced → stability holds or returns to risk
 ```
 
 ## What the sources actually establish
 
-| Step | Evidence | Meaning |
-|---|---|---|
-| Housing | Using national data on about 20,500 low-income parents connected to SNAP, NBER finds the 2021 Child Tax Credit was associated with changed living arrangements, fewer expected moves caused by rent or mortgage difficulty, and less back-owed housing payment. | Cash can change housing pressure and household composition. |
-| Consumption | An NBER experiment in two states found large temporary transfers increased short-term consumption and improved some financial measures. | Cash can meet immediate needs. |
-| Offset | Higher debt offset gains in net worth on average in that transfer study. | More spending or payment does not automatically mean more security. |
-| Control | HBS describes money as giving people more control over daily transport, food, and care problems. | Cash can buy choice before income changes. |
-| Limits | The housing study does not show that every change lasted or was better, and the transfer study does not identify the best payment size or schedule. | A household change is not automatically a lasting improvement. |
+| Link | Evidence | What it supports | What it does not establish |
+|---|---|---|---|
+| Housing pressure | Using national data on about 20,500 low-income parents connected to SNAP, NBER finds the 2021 Child Tax Credit was associated with changed living arrangements, fewer expected moves caused by rent or mortgage difficulty, and less back-owed housing payment. | Monthly cash can change housing pressure and household composition. | It does not show that every change lasted or was better for every family. |
+| Consumption and balance sheet | An NBER experiment in two states found large temporary transfers increased short-term consumption and improved some financial measures. | Cash can meet immediate needs. | Higher debt offset gains in net worth on average; it does not identify the best payment size. |
+| Control | HBS reports that money can give people more control over daily transport, food, and care problems. | Cash can buy choice before income changes. | It does not test the Child Tax Credit or a housing outcome. |
+| Meaning of a move | A move, fewer people in a home, or a prevented move can each reflect several household choices. | Housing outcomes need a reason and a condition, not only a count. | The opening studies do not identify every choice or later result. |
+| Ending support | Temporary cash can solve a timing problem while rent, debt, care, or income risk remains. | Duration is part of the policy result. | The sources do not provide a full one-year post-payment path for every family. |
 
-Sources: [NBER Child Tax Credit and housing](https://www.nber.org/papers/w31339), [NBER temporary transfers](https://www.nber.org/papers/w32784), and [HBS on money and control](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness).
+Sources: [NBER Child Tax Credit and housing](https://www.nber.org/papers/w31339), [NBER temporary cash transfers](https://www.nber.org/papers/w32784), and [HBS on money and control](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness).
 
 ## The deeper finding
 
-Cash aid changes the timing of a household decision. It creates a small window in which a family can prevent eviction, pay for care, move, or refuse a bad arrangement. If rent, debt, care need, or job risk remains, that choice may close again when the payment ends.
+Cash aid changes the timing of a household decision. It creates a window in which a family can prevent eviction, pay for care, move, or refuse a bad arrangement. If rent, debt, care need, or job risk remains, that choice may close again when the payment ends.
+
+This makes household structure partly a money and policy outcome. A family that remains together may be stable, crowded, caring, or all three. A smaller household may show independence, a safety improvement, or the loss of a helper. A prevented move may protect a child's school and a parent's job while leaving the family in an unaffordable home.
+
+The right result is therefore not “cash reduced moves.” It is a more complete sentence: the payment changed the chance of a move, the people sharing the home, the housing debt, and perhaps the family's room to choose. Each part needs its own measure.
+
+## Four views of the same payment
+
+**Receiving household:** What did the cash preserve or make possible—rent, food, care, privacy, a move, or a separate home?
+
+**Family members:** Who moved in or out? Who gained independence, and who lost daily care, rides, meals, or shared costs?
+
+**Housing and work:** Did the arrangement change commute, school, child care, utilities, repairs, work hours, or job stability?
+
+**Public power:** Did the payment create lasting room, or only delay the same housing problem until support ended?
 
 ## What remains unproven
 
-The evidence does not show whether a changed household arrangement improved care, child outcomes, safety, or work access. It does not distinguish every chosen move, prevented move, and forced move, or show what happened after the support ended.
+The evidence does not show whether a changed household arrangement improved care, child outcomes, safety, work access, privacy, or long-term housing stability. It does not distinguish every chosen move, prevented move, and forced move. It does not show what happened after support ended or how results differ by race, income, state, family structure, disability, or housing market.
 
 ## Next test
 
-Follow families before, during, and one year after regular cash payments. Join payment records, people in the home, housing costs, arrears, moves, crowding, work, care, school, debt, and child outcomes. Separate chosen, prevented, and forced moves.
+Follow families before, during, and one year after regular cash payments. Join payment records, people in the home, housing costs, arrears, utilities, moves, crowding, privacy, work, school, care, debt, and child outcomes. Ask why each person moved, stayed, or shared a home. Separate chosen, prevented, and forced moves.
 
 ## Reading rule
 
