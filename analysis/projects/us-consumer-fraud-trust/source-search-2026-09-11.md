@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; recovery and trust effects remain open
 
 ## Working question
 
@@ -29,6 +29,10 @@ trusted name, account, platform, or payment route
 ```
 
 The Fed measures household exposure and direct losses. FTC measures reported market patterns. CFPB records the search for an institutional response. The missing link is what happened to the same person after the loss and response.
+
+## Matched evidence result
+
+The first pass separates exposure, payment route, gross loss, recovery, complaint, and institutional response. The trust question begins after the loss: whether the customer receives money, access, clarity, and a fair path to appeal. Current sources do not yet measure that later trust directly.
 
 ## Counterpoint to keep visible
 

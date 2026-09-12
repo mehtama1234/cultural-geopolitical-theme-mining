@@ -8,6 +8,11 @@ When a consumer loses money through a scam or payment fraud, who carries the los
 
 Use the Federal Reserve for household exposure and unrecovered losses, the FTC for reported categories and payment routes, and CFPB complaint records for the response after a problem. Separate credit-card fraud protections from direct bank-transfer or investment losses.
 
+## Matched evidence pass
+
+- [The loss is only the first part of a fraud victim's experience](../../findings/us-consumer-fraud-trust-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-consumer-fraud-trust-matched-evidence-001.html)
+
 ## Possible connection
 
 Fraud joins the service and credit paths at the moment a person needs an answer, reversal or human decision. It can turn a private loss into a public question about whether the payment system, bank, platform or government can protect ordinary users.
