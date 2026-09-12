@@ -123,6 +123,8 @@ The first public-data boundary pass is in the [source search record](projects/us
 
 The source-to-question work is in the [working matrix](projects/us-household-calendar-integration/source-to-question-matrix-v1.md). It sets the first small extraction pass and prevents separate surveys from being treated as one household record.
 
+The time-and-spending bridge is in the [time and spending layer](projects/us-household-calendar-integration/time-spending-layer-v1.md). It turns transport’s hidden time and money costs into fields the calendar can test.
+
 The starting claims and their current limits are recorded in [the integration claims ledger](projects/us-household-calendar-integration/claims-ledger-v1.md).
 
 The draft participant instrument is [the household-calendar questionnaire](templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md). It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.

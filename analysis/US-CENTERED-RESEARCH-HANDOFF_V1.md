@@ -104,4 +104,8 @@ The first source boundary pass is recorded in the [household-calendar source sea
 
 The next working artifact is the [source-to-question matrix](projects/us-household-calendar-integration/source-to-question-matrix-v1.md). It maps each claim to direct evidence, useful proxies, missing fields, and a small first extraction pass.
 
+The first time-and-money bridge is in the [time and spending layer](projects/us-household-calendar-integration/time-spending-layer-v1.md). It defines how ATUS and CE can set scale and categories without being falsely merged into one household panel.
+
+The first transport paper scan is in the [transport paper scan](projects/us-household-calendar-integration/transport-paper-scan-v1.md). It separates household choice, city-wide effects, and worker or firm effects, then turns the reading into questions for the calendar.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
