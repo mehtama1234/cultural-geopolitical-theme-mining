@@ -944,6 +944,8 @@ Follow the price people feel into the cause they name, then ask which policy or 
 
 Still missing: The survey evidence does not show the same household's price basket, information path and later political action.
 
+[Read the complete connected memo](../site/us-inflation-cause-beliefs-path-001.html)
+
 ### When the news selects the economic mood
 
 Follow selected price news into inflation expectations and explanations of the economy, then ask whether the household changes spending or political judgment.
