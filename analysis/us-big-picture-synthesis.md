@@ -124,6 +124,12 @@ notice, effort, access route, decision, interruption, food/work/debt result, and
 later trust. This is the clearest current way to test whether an institution
 changed household security or only changed participation.
 
+The [unequal exposure and status layer](US-UNEQUAL-EXPOSURE-STATUS-LAYER_V1.md)
+keeps the broad map from treating averages as universal. Income, tenure, place,
+family, race, gender, disability, age, and access route can change both exposure
+and the ability to respond. The next requirement is one valid intersectional
+test, not a larger pile of one-dimensional averages.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
