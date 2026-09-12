@@ -557,6 +557,8 @@ Follow the effort of moving a deposit into the interest and household room left 
 
 Still missing: The current evidence models bank value and stability but does not follow the same US depositor from a missed rate to a changed budget or political view.
 
+[Read the complete connected memo](../site/us-bank-staying-household-choice-path-001.html)
+
 ### When privacy protection increases the data exchange
 
 Follow a privacy rule into a person's willingness to use a service and share data, then ask whether the new trust changes public expectations of firms and government.
