@@ -1,53 +1,37 @@
 # When spending hides the cash constraint
 
-## Short answer
+## The argument
 
-A spending number can look steady while the cash and credit room underneath is shrinking. A person may buy less because cash is tight, or buy more because waiting, changing plans, or missing a need is costly.
+A spending number can stay steady while the household underneath it becomes less safe. One person spends less because cash is tight. Another spends more because waiting would mean missing care, losing a job, or paying more later. The same transaction total can describe a preference, a constraint, or both.
 
-Spending above or below a model benchmark is not automatically a mistake. The item, need, cash limit, and later result matter.
+The mistake is to judge the spending before checking the room around it. Did the household have cash? Could it borrow? What price did it face? What need was protected, delayed, or shifted to another week?
 
-## What the source shows
+## What the source establishes
 
-Using transaction records linked to survey expectations for middle-income US consumers with little liquid wealth, NBER finds large and varied gaps between observed spending and a no-friction benchmark. The median gap is 40% of that benchmark in absolute value; 49% of consumers spend below it and 51% above it.
+Using transaction records linked to survey expectations for middle-income US consumers with little liquid wealth, NBER finds large and varied gaps between observed spending and a no-friction benchmark. The median absolute gap is 40% of the benchmark: 49% spend below it and 51% above it.
 
-Borrowing limits alone cannot explain both directions. The patterns fit a mix of cash limits, trouble focusing on future needs, and costs of changing consumption. The benchmark is a model measure, not a bill or welfare score.
+Borrowing limits alone cannot explain both directions. The patterns fit a mix of cash limits, difficulty focusing on future needs, and the cost of changing consumption. The benchmark is a model measure, not a bill and not a welfare score.
 
-[NBER Working Paper 34891](https://www.nber.org/papers/w34891)
+Source: [NBER Working Paper 34891](https://www.nber.org/papers/w34891).
 
-## The connection
+## Follow the purchase
 
-```text
-income and liquid cash
-  -> ability to wait, borrow, or change a plan
-  -> observed spending
-  -> food, care, housing, or debt choice
-  -> later household security
-```
+income and liquid cash → ability to wait, borrow, or change a plan → observed spending → food, care, housing, or debt choice → later household security
 
-The same spending number can hide different lives. Lower spending may be a choice, a constraint, or both.
+Lower spending may protect rent and food while sacrificing care or a useful repair. Higher spending may be waste, or it may prevent a larger loss. Without the cash and need around the purchase, the number cannot tell us which.
 
-## The four outside views
+## What must stay separate
 
-**Household:** A family may protect food or rent while giving up care, savings, or a useful purchase. A larger purchase may prevent a bigger cost later.
-
-**Company and sector:** Firms read spending as demand, but may not see whether a customer bought from need, credit, habit, or fear of future scarcity.
-
-**Money and finance:** Liquid cash, credit limits, rates, fees, debt, and the cost of changing a plan shape the real choice. Income alone misses this.
-
-**Public power:** Food aid, health coverage, housing, credit rules, wages, and emergency support can lower the cost of waiting or borrowing.
-
-## What would change the finding
-
-- Item, need, price, income, liquid cash, credit limit, and payment timing.
-- Health, family, work, housing, and food shocks around the purchase.
-- Saving, debt, missed care, food security, and later household security.
-- Whether a product or policy lowers the cash constraint.
-- Differences by income, age, race, place, and household structure.
+- Observed spending and welfare.
+- A preference and a cash constraint.
+- Income and liquid wealth.
+- A purchase and the need it serves.
+- Immediate savings and later cost.
 
 ## Next test
 
-Follow consumers from a spending change through one year. Join transaction, survey, cash, credit, price, health, work, housing, food, debt, and later security records.
+Follow consumers for one year and join transactions to item, need, price, income, liquid cash, credit limit, health, work, housing, food, debt, and later security. Test whether a policy or product change lowered the cost of waiting or borrowing.
 
 ## Reading rule
 
-Keep observed spending, cash constraint, preference, debt, and welfare separate. Do not label lower spending a preference until cash and borrowing limits are checked.
+Do not label lower spending a preference until cash, credit, need, and later cost are visible.

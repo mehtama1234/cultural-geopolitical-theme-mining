@@ -1,58 +1,36 @@
 # When equal income buys a different life
 
-## Short answer
+## The argument
 
-Two people can bring home similar pay and still have very different lives. The person with several jobs may spend more time traveling, have less predictable hours, receive fewer benefits, and save less after the work is done.
+Two people can bring home similar pay and still have very different room to live. The worker with several jobs may spend more time traveling, receive fewer benefits, face less predictable hours, and save less after work costs. A second job can be a bridge, a choice for schedule control, or evidence that one job does not provide enough usable room.
 
-The careful finding is a spending and flexibility difference, not proof that multiple jobs caused hardship. Several jobs can be a chosen bridge, a way to study, a response to care, or the only way to fit work around a life.
+Gross income misses the account that matters: money after travel, fuel, work equipment, taxes, care, debt, and the time needed to do the work. It also misses what the worker gives up. A flexible shift may make care possible today while making sleep, training, or a stable career harder later.
 
-## What the sources show
+## What the sources establish
 
-Across surveys, General Social Survey data, and transactions from more than 90,000 customers of a national bank, HBS research reports that similarly paid people with multiple jobs spent 17 percentage points less of take-home pay, including 16 percentage points less on necessities and almost 2 percentage points less on extras. They also had higher transport spending and saved less.
+HBS research using surveys, General Social Survey data, and transactions from more than 90,000 customers of a national bank reports that similarly paid people with multiple jobs spent 17 percentage points less of take-home pay, including 16 points less on necessities and almost 2 points less on extras. They also spent more on transport and saved less.
 
-A separate HBS study of DoorDash drivers in California estimates that schedule flexibility has meaningful money value, with larger value for some groups. That result shows why a worker may accept less stability for control over time; it does not settle the cost of benefits, income risk, or long-term work.
+A separate HBS study of DoorDash drivers in California estimates that schedule flexibility has meaningful money value, with larger value for some groups. That supports a trade between control and stability. It does not settle benefits, income risk, safety, or long-term work.
 
-The sources do not follow the same worker from job structure through hours, net income, care, health, debt, and later security.
+Sources: [HBS true costs of gig work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work) and [HBS value of gig-work freedom](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot).
 
-- [HBS: The True Costs of Gig Work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work)
-- [HBS: How Much Is Freedom Worth?](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot)
+## Follow the second job
 
-## The connection
+one job is unavailable, unsuitable, or not flexible enough → several jobs or gig work → split schedule, travel, and uncertain income → cautious spending, less saving, or less care → short-run control versus long-run security
 
-```text
-one job is not available, suitable, or flexible enough
-  -> several jobs or gig work
-  -> split schedule, travel, and uncertain income
-  -> cautious spending, less saving, or less care
-  -> short-run flexibility versus long-run security
-  -> firm staffing choices and public debate about work
-```
+Lower spending may mean pressure, deliberate saving, or different goals. The key account is net pay and time, not gross income.
 
-Lower spending may mean pressure, but it may also mean deliberate saving or different goals. The key account is net pay and time, not gross income alone.
+## Four questions that should stay separate
 
-## The four outside views
-
-**Household:** A worker weighs schedule control against travel, fuel, care, sleep, health, and the risk that one job disappears. Flexibility may be worth money when a fixed shift would block another need.
-
-**Company and sector:** Firms can offer flexibility, stable hours, benefits, training, or piece-rate work. A company may gain labor while shifting waiting time, vehicle cost, and income risk onto the worker.
-
-**Money and finance:** Count take-home pay after travel and work costs, then savings, debt, insurance, paid care, and unpaid time. The same income can leave a different amount of usable room.
-
-**Public power:** Labor rules, benefits, taxes, transportation, and care support shape whether several jobs are a free choice or a way to fill a gap. Policy should measure control and security together.
-
-## What would change the finding
-
-- Hours, schedules, travel, vehicle cost, waiting time, and work expenses.
-- Gross and net income, benefits, taxes, debt, savings, and income swings.
-- Care, health, education, household size, and reasons for taking another job.
-- Job quality, control, safety, training, promotion, and later work.
-- Differences by race, gender, age, disability, place, and immigration status.
-- Whether one stable job with flexibility produces the same spending and saving pattern.
+- **Control:** Can the worker choose when to work?
+- **Cost:** What does travel, equipment, waiting, and care consume?
+- **Security:** What happens when one job disappears or a worker gets sick?
+- **Room:** What remains after work for saving, health, family, training, and rest?
 
 ## Next test
 
-Follow workers for two years before and after they add or leave a job. Join pay records to hours, travel, care, benefits, spending, savings, debt, health, and job quality. Ask whether the second job added choice or replaced missing stability.
+Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, and job quality. Ask whether the second job added choice or replaced missing stability.
 
 ## Reading rule
 
-Do not call several jobs flexible without counting the travel and risk. Do not call lower spending hardship without asking what the worker chose and what the work took.
+Do not call several jobs flexible without counting travel and risk. Do not call lower spending hardship without asking what the work took.
