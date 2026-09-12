@@ -8,11 +8,15 @@ Private rent insurance can spread a large loss across many policyholders. But it
 
 The deeper finding is that rent protection is a risk-allocation system. It changes the timing and identity of the payer. It does not erase the lost job, medical bill, high rent, or shortage of homes that caused the danger.
 
+That distinction matters because the word “protection” can hide several different deals. One plan may pay the landlord for two months and seek repayment from the renter. Another may pay a fixed benefit that arrives after a waiting period. A public program may cover the rent but require an application, documents, and a long queue. All three can prevent a notice in one case and fail in another. The useful question is what happens on the date the rent is due.
+
 ## Follow one shock
 
 A family pays $1,800 in rent and buys coverage for a monthly premium. One adult loses work. The family files a claim, but the policy may cover only a set number of payments, require proof, pay the landlord rather than the tenant, or leave the family responsible for repayment. If the claim arrives after a notice or court date, the same nominal coverage may no longer prevent displacement.
 
 Now compare a family that could not afford the premium or failed screening. It faces the same income shock without the product. The difference between the families is not only income. It is whether protection was affordable, available, understandable, and fast enough to work.
+
+Suppose the family has $900 left after paying other bills and the rent is $1,800. A promise to cover $900 next month may keep the family in the home, but it may not help if the payment arrives after a filing deadline or becomes a debt due when work has not returned. A smaller payment made before the deadline could be more useful than a larger payment made later. Timing is not an administrative detail; it is part of the benefit.
 
 ```text
 income or health shock
@@ -36,15 +40,19 @@ Source: [NBER Working Paper 32582](https://www.nber.org/papers/w32582).
 
 The important outcome is not “covered” or “uncovered.” It is the full path from shock to housing result. A policy that pays quickly may prevent a move. A policy with a narrow limit may only postpone it. A claim that protects the landlord but creates tenant debt may preserve the lease today and worsen the next housing search. Legal help or direct rental aid may work better for some families, even if it has no insurance label.
 
+There is also a provider-side effect. If a landlord knows a payment is likely, the landlord may be more willing to rent to a household with uneven income. But a guarantee could also encourage higher rents, stricter screening, or less patience with a tenant who is outside the covered group. The current source does not establish any of these market responses. They are reasons to measure the landlord and tenant together rather than treating the guarantee as a one-sided transfer.
+
+The model’s result should be read at the right level. It can show that temporary rent support could improve welfare under stated assumptions. It cannot show that a real policy will enroll the intended renters, pay on time, avoid debt, or change landlord behavior. Those are implementation outcomes, and they decide whether the protection works outside the model.
+
 This gives the research a useful discipline: compare protection by the household’s final position, not by the promise printed on the product page. Did the renter stay housed? Did debt rise? Did credit, work, health, or the next lease change?
 
 ## What remains unknown
 
-The NBER work does not measure premiums, enrollment, claims, exclusions, landlord response, claim timing, repayment, credit, or later housing. We do not know whether the people most exposed to eviction can buy the protection or understand its terms.
+The NBER work does not measure premiums, enrollment, claims, exclusions, landlord response, claim timing, repayment, credit, or later housing. We do not know whether the people most exposed to eviction can buy the protection or understand its terms. We also do not know whether a guarantee prevents displacement or only changes who receives the missed rent and when.
 
 ## Next test
 
-Follow insured and uninsured renters for three years. Join premium, claim, income, health, rent, notice, landlord response, eviction, credit, work, and housing records. Compare private coverage, public aid, legal help, and no protection. Record both the immediate housing result and the debt carried forward.
+Follow insured and uninsured renters for three years. Join premium, claim, income, health, rent, notice, landlord response, eviction, credit, work, and housing records. Compare private coverage, public aid, legal help, and no protection. Record the rent due date, claim decision date, payment recipient, repayment terms, and both the immediate housing result and the debt carried forward. Test whether landlords change screening or rent when protection becomes available.
 
 ## Reading rule
 
