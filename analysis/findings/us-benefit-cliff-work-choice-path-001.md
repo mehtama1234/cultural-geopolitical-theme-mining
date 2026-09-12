@@ -14,6 +14,8 @@ A parent receives a raise that moves the household just above a program limit. F
 
 Another parent in a smooth-taper system keeps part of the support and can plan the next step. A third parent loses help because a reporting rule was missed, not because the household became able to pay. All three may appear in a record as “benefit exit,” but the work and money stories are different.
 
+The timing creates the real choice. A worker may accept a raise when the household has savings, nearby care, and a stable schedule. The same raise may be too risky when a child needs care, a premium changes, or the family has no cash for a gap. A recorded decision not to take more hours may therefore reflect a reasonable response to uncertainty, not a dislike of work.
+
 ```text
 earnings or hours rise → public help tapers, ends, or becomes harder to keep
 → food, health, child-care, transport, tax, and time costs change
@@ -39,6 +41,8 @@ The household also buys more than labor. Work may require a second car, paid car
 
 This is why benefit rules can shape trust and politics without a simple income story. A family that sees help vanish after a small change may judge the system as unsafe, even if an annual calculation says the family gained. Another family may value a clear taper because it makes the next step predictable. The public experience is built from timing, paperwork, care, and the ability to reverse course.
 
+The same rule also changes who can move. A worker with a second adult, savings, or reliable care can cross a line and absorb a short loss. A worker with one income, a disability, or unstable hours may stay below the line because the downside is harder to undo. The policy may appear to offer the same work incentive while placing different risks on different families.
+
 ## Four views of the same raise
 
 **Household:** What happened to wages, taxes, benefits, food, health, care, transport, debt, time, and savings together?
@@ -51,11 +55,11 @@ This is why benefit rules can shape trust and politics without a simple income s
 
 ## What remains unproven
 
-The evidence does not follow the same families through wages, benefits, taxes, food, health, care, transport, work stability, debt, and housing. It does not show which taper or support mix gives the best long-term result, or how families respond when rules are hard to understand. It does not establish that every program has a cliff or that every work rule lowers work.
+The evidence does not follow the same families through wages, benefits, taxes, food, health, care, transport, work stability, debt, and housing. It does not show which taper or support mix gives the best long-term result, or how families respond when rules are hard to understand. It does not show whether the household could reverse course after taking the job. It does not establish that every program has a cliff or that every work rule lowers work.
 
 ## Next test
 
-Follow families before and after an earnings change for one year. Join wages, benefits, taxes, necessary costs, work hours, job stability, debt, food security, health coverage, care, transport, and housing. Compare a smooth taper, a sudden loss, and an administrative exit. Record the opportunity accepted, refused, or abandoned.
+Follow families before and after an earnings change for one year. Join wages, benefits, taxes, necessary costs, work hours, job stability, debt, food security, health coverage, care, transport, and housing. Compare a smooth taper, a sudden loss, and an administrative exit. Record the opportunity accepted, refused, or abandoned, what backup the family had, and whether it could reverse the decision without lasting damage.
 
 ## Reading rule
 
