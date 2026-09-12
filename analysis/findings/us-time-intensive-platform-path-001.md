@@ -14,6 +14,10 @@ The lost hour is not automatically a loss. If the message was the only easy way 
 
 This creates two different questions. First, did the user receive enough value to make the time worthwhile? Second, could the user have made that choice knowingly and stopped without losing necessary social or work access? A time-use total can answer neither question by itself. More minutes may mean useful connection, habit, pressure, or a lack of alternatives.
 
+The time cost is often paid in small pieces, which makes it hard to contest. A notification interrupts cooking; a short reply becomes a scroll; a search for a customer becomes a feed visit. No single event looks large enough to matter, but the repeated fragments can push another task later into the night. The household then absorbs the platform's design through rushed meals, delayed sleep, missed attention, or unpaid cleanup. That is a different path from a person freely setting aside an hour for a film or a conversation.
+
+There is a coordination problem as well. One person can leave only if the people, employers, customers, or groups they need can still be reached elsewhere. A platform may therefore keep users through the value of the network, even when the app itself is not their preferred tool. The exit decision is partly about other people's decisions. That makes “just delete it” a weak description of the real choice.
+
 ```text
 free or low-money-price service → time and attention cost → staying, switching, or offline substitute
 → user value and household tradeoff → platform competition and public rule
@@ -39,6 +43,10 @@ The unequal part is the value of the displaced activity. An extra hour may take 
 
 The public question follows only after these links are measured. A design rule could change alerts or exit tools, but it might also reduce useful contact or make customer reach harder for a small business. The current evidence supports measuring that trade; it does not prove that one platform structure or one regulation would improve household life.
 
+The deeper market effect is that time can be both the product and the barrier to competition. A service that takes more of a user's evening may gain more chances to show ads and collect signals. At the same time, the user's tiredness and social dependence make it harder to compare another service. The platform is not only competing for a minute; it may be using the minute to make later switching less likely. This is a possible mechanism that needs direct testing, not a conclusion from ad-load experiments alone.
+
+The right unit of analysis is often the household schedule, not the individual screen. One member may use the app to earn income while another pays the sleep or care cost. A parent may accept the service because it is the easiest way to coordinate school, while the child experiences the same system as pressure to answer immediately. Counting each person's minutes separately misses who benefits and who carries the lost time.
+
 ## What remains unproven
 
 The evidence does not show whether more time on the app reduced sleep, care, work, or well-being for the same users. It does not show whether ad load, notifications, content quality, or social ties are the main reason people stay. Nor does it tell us whether a separation would create better alternatives or simply split one social network into two weaker ones. It also does not measure whether small businesses or community groups lose useful reach when a user spends less time there.
@@ -46,6 +54,8 @@ The evidence does not show whether more time on the app reduced sleep, care, wor
 ## Next test
 
 Follow users for six months before and after a change in ad load, alerts, ranking, or platform design. Join measured time use to content, work, care, sleep, spending, well-being, switching, offline substitutes, and exit. Ask users what they meant to do, what they actually did, and what they gave up. Compare the value of the service with the activity displaced for different household roles and incomes, and include small businesses or groups that depend on the platform for contact.
+
+Add a low-friction exit trial: let a random group silence nonessential alerts, export contacts, and keep a visible record of time saved and services still reachable. Compare it with information alone. If users want to leave but cannot preserve work or social ties, the barrier is network dependence. If they can leave safely but return because the service delivers value, the result is different. The test should report both reduced time and lost benefits, rather than treating less use as success by itself.
 
 ## Reading rule
 
