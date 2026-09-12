@@ -8,6 +8,11 @@ When firms compete for customers, does competition reduce discrimination, or can
 
 Separate customer group, firm competition, discriminatory treatment, non-discriminatory treatment, price, service and the ability to switch.
 
+## Matched evidence pass
+
+- [Competition helps only when customers can use it](../../findings/us-consumer-discrimination-competition-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-consumer-discrimination-competition-matched-evidence-001.html)
+
 ## Possible connection
 
 Competition can change the firm's reason to serve a group fairly. If one group has more power to leave, firms may respond to that group's preferences while another group pays more or receives less choice.

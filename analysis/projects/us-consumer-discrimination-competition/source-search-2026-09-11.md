@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; historical US markets and prices are measured, current customer and political paths remain open
+**Status:** first matched evidence pass completed; current customer and political paths remain open
 
 ## Working question
 
@@ -25,6 +25,10 @@ customer groups and ability to leave
 ```
 
 The source supports a competition and incentive mechanism in historical US markets. It does not establish the current result.
+
+## Matched evidence result
+
+The first pass adds comparison points from US retail prices, car shopping, and mortgage lending. Competition and information can reduce some gaps, but neither guarantees equal treatment. The key missing measure is current customer power: who can compare, switch, and receive a comparable product and service.
 
 ## Counterpoint to keep visible
 
