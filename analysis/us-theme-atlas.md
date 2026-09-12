@@ -836,6 +836,8 @@ Follow rent protection into housing stability, then ask whether avoiding arrears
 
 Still missing: The insurance evidence is modeled while the eviction and credit evidence is measured in other settings; the full path is not shown for the same tenant.
 
+[Read the complete connected memo](../site/us-rent-guarantee-insurance-path-001.html)
+
 ### When protection costs more than the home can carry
 
 Follow disaster and credit risk into the insurance bill, then ask whether protection changes home value, borrowing and the ability to stay.
