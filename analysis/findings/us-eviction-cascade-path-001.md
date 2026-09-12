@@ -8,11 +8,15 @@ The distinction matters. A filing is not an order. An order is not the same as a
 
 The deeper finding is that housing is a platform for other parts of life. Losing a home can break a commute, school route, care plan, treatment schedule, credit record, and ability to keep belongings. The later cost can be much larger than the original unpaid rent, especially when the household had no nearby affordable alternative.
 
+The sequence has to be counted in dates. A $1,200 arrears balance may be the first visible number, but the next costs can include court time, a deposit, storage, a longer trip to work, and a new credit problem. If aid arrives before filing, it may prevent several costs. If it arrives after a move, it may pay the old balance without restoring the lost route. The amount of help is not enough; its place in the sequence matters.
+
 ## Follow one missed payment
 
 A worker loses hours and falls behind on rent. The landlord files. The tenant misses work to attend court, borrows for a lawyer, and receives an order. A forced move adds a deposit, travel, storage, and a longer commute. The worker then misses more shifts and uses credit for food. Another tenant receives aid or legal help and stays, though the original income problem remains.
 
 The court event changes the path, but it may not be the first cause.
+
+A second household may receive legal help and avoid the order but still face the same rent and reduced hours. A third may move voluntarily before filing and avoid a court record while losing school continuity. These outcomes should not be put into one “eviction prevented” number. The right question is what happened to housing, debt, work, health, and the next available choice.
 
 The timing of the court process matters too. A tenant may lose work hours to attend a hearing, spend money on a lawyer, or stop using a bank account that now carries a judgment. A move can then break the route to work, school, care, and treatment all at once. A payment that prevents the order may protect these links, while help after the move may only repair part of them.
 
@@ -43,9 +47,11 @@ This is also a record problem. A court sees a case. An employer sees absence. A 
 
 The political path is possible but not automatic. A tenant may blame the landlord, court, city, lender, or employer depending on where the next barrier appears. Repeated inability to find a workable home can turn a private case into a demand for legal help, rent support, court reform, or more housing. The current studies establish the causal harm of an order in selected settings, not a general voting response.
 
+The same event can therefore produce a private coping response or a public demand. A tenant may borrow from family and say nothing, contact a legal aid group, join a tenant organization, or vote on housing policy. The choice depends on knowledge, time, trust, and whether the person believes a public remedy is available. The current evidence does not tell us which response follows most often.
+
 ## What remains unproven
 
-The sources do not show which earlier shock caused each case, how legal help or rental aid changed the full three-year path, or how results differ where housing supply is less tight. They do not show the application burden, the exact move, or the availability of a workable next home. They do not establish that every later health or work problem was caused by the order.
+The sources do not show which earlier shock caused each case, how legal help or rental aid changed the full three-year path, or how results differ where housing supply is less tight. They do not show the application burden, the exact move, or the availability of a workable next home. They do not establish that every later health or work problem was caused by the order. They also do not show whether a prevented order produced stable housing or only delayed the same crisis.
 
 ## Next test
 
