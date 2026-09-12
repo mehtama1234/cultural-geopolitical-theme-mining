@@ -152,6 +152,8 @@ Follow income risk among high earners into saving and the wider money system, th
 
 Still missing: The current sources do not connect the same saving change to borrowing costs, household demand and political response.
 
+[Read the complete connected memo](../site/us-rising-income-risk-top-path-001.html)
+
 ### When spending hides the cash constraint
 
 Follow a spending number into the cash and credit room beneath it, then ask what daily need the household protects or gives up.
