@@ -16,6 +16,10 @@ Consider a rider leaving a hospital after a late shift. Before the rule, a car a
 
 The driver also carries a part of the rule. A background check, permit, insurance requirement, vehicle inspection, or training course may each be reasonable. But each takes money and time, and each may matter more to a driver with little savings. If the rule removes flexible work, a driver may lose a way to cover a rent gap or care for a family member. That is not a reason to ignore safety. It is a reason to ask whether the requirement targets the risk it is meant to reduce and whether the cost falls on the people the service needs.
 
+The timing can change the result. A driver may have to pay for a check or inspection before earning the first dollar, and may wait days or weeks for approval. A rider experiences the change later as a longer wait or higher fare. If the city adds a rule during a period of high demand, the same loss of drivers may matter more than it would during a quiet period. The rule should be judged across the entry decision, the first available ride, and the later safety record.
+
+There is also a difference between removing a dangerous driver and removing a driver who is merely costly to qualify. A targeted check may reduce a serious risk with little effect on supply. A broad permit or vehicle rule may exclude many drivers who pose no measured danger. Without data on which requirement caused which exit, “more regulation” is too rough a description to guide policy.
+
 The customer sees the ride, not the entry process behind it. The driver sees the cost of qualifying, the chance of earning, and the value of other work. A serious assessment has to join both sides.
 
 ```text
@@ -45,6 +49,8 @@ The larger connection is to unequal alternatives. A rider with a car, a reliable
 
 This is why a broad average can be misleading. “No change in ratings” cannot answer whether the rule prevented a rare severe event. “Fewer drivers” cannot answer whether the supply loss was worth the safety gain. The meaningful test has to place the safety outcome, the ride that was available, the ride that disappeared, and the cost of entry on the same timeline.
 
+The rule is therefore a choice about whose loss is easiest to see. A missing ride is visible to the rider who waits. A serious incident that never occurs is difficult to count. A driver who never enters may appear only as a missing application. The city can overvalue the result that is easiest to record unless it measures avoided harm, lost trips, and worker cost together. That measurement choice can shape the political story as much as the rule itself.
+
 ## What remains unproven
 
 The evidence does not show the effect of licensing on serious incidents, disability access, fares, waits, cancellations, or worker income across US cities. It does not show whether a rule works through background checks, training, insurance, enforcement, or some other part of the system. It also does not establish the effect on riders with no car or weak public transit. The study’s finding about measured outcomes should not be expanded into a claim about all safety outcomes.
@@ -52,6 +58,8 @@ The evidence does not show the effect of licensing on serious incidents, disabil
 ## Next test
 
 Follow cities, drivers, and riders for one year around a licensing change. Join entry, exit, training, checks, enforcement, fares, wait, cancellations, routes, ratings, serious incidents, worker income, disability access, and customer use. Record why a driver leaves and what a rider does when a trip is unavailable. Compare the change with a similar city that did not change its rule. Report four outcomes separately: serious safety events, ordinary ride quality, ride availability, and the cost of earning or obtaining the ride.
+
+Break the rule into its parts instead of treating licensing as one switch. Record the cost and delay of each check, permit, insurance step, inspection, and training requirement. Follow drivers who start, stop, or delay entry, and match those changes to rider wait, fare, cancellation, and service coverage by neighborhood and hour. Use serious incident records and near-miss reports, not ratings alone. This would show whether a specific safeguard buys safety or mainly moves the cost of access.
 
 ## Reading rule
 
