@@ -14,6 +14,8 @@ A public program expands access to firms above a size threshold. A larger compan
 
 The customer result depends on service quality and alternatives, not only on which firm won.
 
+The threshold can create a cliff. A firm just below it may lose a contract, while a firm just above it gains a new customer and a stronger record. The first loss can make private lenders less willing to lend, which makes the public loss last longer. The cutoff may therefore change the next market, not just this year's award.
+
 ```text
 eligibility rule changes → larger firms gain access → contracts and support move
 → smallest firms lose revenue or exit → wages, innovation, customers, and local choice change
@@ -34,13 +36,19 @@ Source: [NBER Working Paper 35703](https://www.nber.org/papers/w35703).
 
 Small-firm support is also a competition policy. A program can help firms that are currently small, or it can favor firms already large enough to manage the paperwork and contract risk. The most visible recipient may not be the firm with the greatest need, and the cheapest provider may not preserve the next generation of local competition.
 
+The local effect runs through people. A small firm that loses revenue may cut hours, delay hiring, or close. Workers lose wages or a nearby job. Owners may draw less from the firm or use household savings to keep it open. Customers may still get the service, but have fewer local providers and less resilience when the large provider raises a price or leaves.
+
+Scale can still be valuable. A larger firm may have better systems, lower unit cost, or the ability to serve many places at once. The point is not that small firms should always win. It is that a public rule should measure the service result and the future market, not assume that size alone is a fair measure of capacity.
+
+This creates a public-power question. A size rule is easy to administer, but easy rules can move opportunity toward firms that already have staff for compliance. A better rule might consider need, experience, service quality, local employment, or a path for firms to grow without losing support suddenly. The current study shows the market effect of the line; it does not tell us which replacement rule is best.
+
 ## What remains unproven
 
-The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. Effects may differ by industry, place, firm age, race, and access to private credit.
+The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. It does not show whether the threshold created a sudden financing cliff or whether firms could recover through private customers. Effects may differ by industry, place, firm age, race, and access to private credit.
 
 ## Next test
 
-Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line.
+Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line, recording whether the contract loss changed private credit, household withdrawals, worker stability, customer price, and the availability of a second provider.
 
 ## Reading rule
 
