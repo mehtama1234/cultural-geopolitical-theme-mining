@@ -43,11 +43,19 @@ Health coverage can be both a benefit and a boundary. It gives a worker a reason
 
 The household's risk is not just the premium. It includes uncertainty: whether the next doctor is in network, whether a prescription is covered, whether a new job starts coverage immediately, and whether an illness arrives before the deductible is met. A worker with a healthy family may treat a job change as manageable. A worker with ongoing treatment may see the same change as an unacceptable gamble.
 
+The calendar matters as much as the plan. A worker may leave on Friday, wait for the new job's first enrollment date, and discover that the old plan ends before the new one begins. Even when a legal bridge exists, the bridge may require a large payment or a new application. A family living paycheck to paycheck may be unable to cross it. This creates a short period in which a job offer is judged by the bill that could arrive before the new coverage becomes usable.
+
+“Covered” also hides several different questions. Is the doctor in the network? Is the medicine approved? Is the clinic close enough to reach after work? Can the worker take time off? Can the family pay the deductible before care is delayed? A plan can look similar on a benefits sheet and feel very different in a household. The practical unit is not the insurance card; it is the family’s ability to get the needed care without losing rent money, work hours, or treatment continuity.
+
 This is why “job lock” should not be treated as a simple count of people who stay. The useful question is what the worker would choose if coverage were portable at a similar price and quality. If the worker still stayed, the plan may be part of a valued job. If the worker moved, coverage was an important constraint.
 
 Portability would not make every move easy. A worker may still value a known doctor, paid leave, a nearby clinic, or a schedule that makes care possible. It would remove one constraint and reveal the others. That distinction matters: a person who stays after coverage becomes portable is making a different choice from a person who stays because leaving could interrupt a child's treatment.
 
 The problem also affects entrepreneurship and local labor markets. A person may postpone self-employment, a move, or training because the family cannot take the coverage risk. An employer may retain a skilled worker who would otherwise leave, while a small firm cannot offer an equivalent plan and loses applicants. The employment-based system can therefore shape which businesses people can start and which jobs can compete for them.
+
+That makes this more than a private benefit question. It is a labor-market rule carried inside household budgets. If coverage follows the job, a large employer can compete with a small one by offering a safer path to care even when wages are close. If coverage follows the person, workers may compare jobs more freely, but the public system must decide who pays, how risk is shared, and how to stop plans from avoiding people who need care. The political argument is therefore not only about spending. It is about who bears the cost of changing jobs, becoming sick, or caring for a dependent.
+
+The visible result can be misleading. A low quit rate may look like loyalty, good management, or worker satisfaction. It may also reflect the cost of taking a child to a new doctor. A high quit rate may look like labor-market freedom while leaving families with broken care or debt. To read the labor market correctly, job movement has to be placed beside coverage continuity and actual use of care.
 
 ## Four views of the same offer
 
@@ -62,6 +70,8 @@ The problem also affects entrepreneurship and local labor markets. A person may 
 ## What remains unproven
 
 The studies do not compare the full job, coverage, pay, care, and health choice for the same worker today. They do not show whether a worker wanted to leave, whether portable coverage would change the decision, or whether staying caused lower long-term earnings. Coverage kept is not care received. They also do not show how effects differ by health, age, income, race, disability, family structure, or state.
+
+It is also not enough to count enrollment. A family can keep insurance and still postpone care because of the deductible, lose a trusted clinician because of the network, or miss an appointment because the schedule does not allow it. The strongest evidence would join job records, plan details, claims, treatment gaps, household bills, and stated choices while protecting personal privacy.
 
 ## Next test
 
