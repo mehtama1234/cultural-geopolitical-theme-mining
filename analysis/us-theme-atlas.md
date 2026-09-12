@@ -968,6 +968,8 @@ Follow news about future debt into inflation and spending expectations, then ask
 
 Still missing: The US experiment measures belief changes but does not show the same household's later money or political action.
 
+[Read the complete connected memo](../site/us-fiscal-news-household-path-001.html)
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
