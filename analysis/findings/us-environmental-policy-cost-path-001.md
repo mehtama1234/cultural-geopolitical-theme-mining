@@ -16,6 +16,10 @@ Now compare two policies. One shows a visible charge on the bill. The other chan
 
 The sequence also differs by household role. An owner may receive a rebate for insulation and lower the future bill. A renter may pay a higher rent after a building upgrade but receive no direct rebate and have no authority to choose the work. A driver may face a vehicle cost while an office worker sees little change. “Consumer cost” is therefore a distribution question, not a single number.
 
+The policy can also be judged at different times. A standard may raise the cost of a new appliance today and reduce energy use over several years. A rebate may arrive after the purchase, when the household has no cash to make the change. A fuel rule may raise a visible price while the health benefit appears later and is spread across the neighborhood. The household has to decide whether it can carry the near cost before it can receive the distant gain.
+
+A promised offset is useful only if the person can reach it. An owner with a tax bill may use a credit; a renter may not have a tax liability or permission to change the building. A utility credit may lower a bill but require an application, while a higher rent may arrive automatically. The policy's distribution depends on the route from eligibility to actual relief, not on the existence of a benefit in the law.
+
 ```text
 policy design → expected household bill and sense of control → support or opposition
 → enacted rule and who can use its protections → actual bill, energy use, pollution, health, and fairness
@@ -41,6 +45,10 @@ This creates a design test. A policy is easier to judge when the household can s
 
 The political connection is strongest when a policy changes the household’s sense of control. People may accept a cost they can plan for and reject a smaller cost they cannot avoid or understand. The current study supports this way of asking the question; it does not show which message changes a vote or whether a clear estimate changes long-term support.
 
+There is a difference between opposing a cost and opposing who controls the response. A household may accept a higher bill if it can choose efficient equipment and keep the savings. It may reject a smaller bill if a landlord receives the rebate and raises rent. The same policy can therefore be framed as climate action, a utility charge, a housing transfer, or a job rule depending on where control sits. Public support may depend on that allocation as much as on the average price.
+
+The local effects can reinforce each other. Better insulation can lower bills, reduce health risk, and make a home easier to keep. A higher appliance cost can be harder for a low-cash family, causing it to keep an inefficient device and pay more each month. A business may pass a standard into prices or invest in new equipment. The environmental result and the household burden need to be evaluated together, but not collapsed into one average.
+
 ## What remains unproven
 
 The evidence does not show that changing the explanation alone changes support for long. It does not show whether people reject a policy because of the bill, distrust the institution naming the bill, oppose the distribution of costs, or prefer a different level of government control. It also does not show whether a lower-cost policy produces lower bills for renters, low-income households, or people in inefficient homes. It does not show how often cost appears in rent, product prices, taxes, or wages instead of the utility bill.
@@ -48,6 +56,8 @@ The evidence does not show that changing the explanation alone changes support f
 ## Next test
 
 Follow households before and after a real energy-policy change for two years. Record the stated expected bill, actual bill, energy use, rebate access, rent, home condition, weather, income, health need, and utility. Then measure pollution, trust, perceived fairness, and policy support. Show some households a clear bill-and-rebate estimate and others the usual policy description. Separate owners and renters, and record where the cost appears when it does not reach the utility bill. The test should reveal whether better information changes judgment, or whether the deeper issue is who has the power to avoid the cost.
+
+Use a policy ledger that follows the same household through purchase, rebate application, bill, rent, energy use, health, and later savings. Compare visible bill charges with costs in rent, appliance prices, fuel, and taxes. Measure whether renters and low-cash households can actually use the offset and how long they wait for it. Add a message experiment only after recording the real exposure. This would separate a belief about cost from a cost that was actually paid and a benefit that was actually received.
 
 ## Reading rule
 
