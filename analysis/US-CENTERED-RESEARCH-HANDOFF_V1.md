@@ -116,4 +116,6 @@ The first household-level check for that topic is the [Federal Reserve insurance
 
 The public-record map is in [housing and insurance public records](projects/us-housing-insurance-affordability/public-record-map-v1.md). It defines what SHED, Treasury FIO, FEMA, NFIP, FHFA, HMDA, and ACS can each contribute and where the same-property gap remains.
 
+The first direct market-data acquisition is recorded in the [Treasury FIO supporting-metrics audit](projects/us-housing-insurance-affordability/fio-supporting-metrics-audit-v1.md). It checks the ZIP-year workbook structure and preserves Treasury’s coverage and privacy limits.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
