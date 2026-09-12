@@ -16,6 +16,10 @@ Now repeat the decision twice a week. The extra $5 becomes about $520 a year bef
 
 The opposite case matters too. If the cheaper app has a long wait, poor wheelchair access, weak safety support, or a history of cancellation, the higher quote may buy a real service difference. A rider may also value a familiar account, a stored destination, a clear pickup area, or a support channel that worked before. These are not excuses to ignore price. They are reasons to define the product being compared before calling one fare higher or lower.
 
+The value of the cheaper quote depends on whether it survives the search. A rider may lose the first price while opening the other app, see a different price after returning, or find that the cheaper car is not available for a wheelchair, a child seat, or a difficult pickup point. A comparison that ignores these failures counts a saving the rider could not safely use.
+
+The cost can also spread beyond the ride. Paying $5 more twice a week is a household expense, but avoiding a late arrival may protect a shift, a child-care arrangement, or a medical visit. A rider with transit or a car can reject both quotes; a rider without a backup route may be buying access to work or home. The same fare gap can therefore be a small convenience cost for one person and a forced access cost for another.
+
 The budget effect becomes clearer when the choice repeats. An extra $5 twice a week is about $520 a year before tips. That amount may be small for one rider and important for another. It can become a higher rent choice, a missed meal, or less money for a repair. A rider may also choose the more expensive app because a missed shift or late pickup would cost more than the fare gap. The same observed payment can therefore mean either a price penalty or a rational purchase of reliability. We need the outcome after the ride, not just the quote before it.
 
 ```text
@@ -56,6 +60,8 @@ The study does not show why each rider chose an app, whether the chosen trip was
 ## Next test
 
 Track matched trips for six months across late-work, care, airport, medical, and ordinary errands. Record both quotes, quote expiration, pickup time, wait, cancellation, completed-trip time, tip, service quality, trip purpose, income, phone access, transit alternatives, and whether the rider checked both apps. Report three outcomes separately: dollars saved, time lost, and obligations protected, such as arriving at work or collecting a child on time. Then test whether a comparison tool changes the result for people with flexible trips versus people with no backup route.
+
+For each ride, record the outcome after booking: whether the quoted fare held, whether the driver arrived, how long the rider waited, whether the rider was late, and what backup was used. Compare people with flexible trips against people with a hard deadline and no other route. This separates a possible saving on the screen from a saving that a household could actually keep.
 
 ## Reading rule
 
