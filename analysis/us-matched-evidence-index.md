@@ -113,3 +113,13 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 After a natural disaster, a small firm may need cash before customers return or insurance pays. NBER finds that government recovery loans reduced exit and bankruptcy and increased employment and revenue. SBA rules show the money is meant for repair and ordinary operating bills, not expansion.  That is a real firm result, not yet a full community result. Keeping the firm open may protect jobs and customer access, but the loan also creates repayment risk. We do not yet know whether the owner household, workers, or customers were better off in the longer run.
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
+
+### 12. A wider small-business rule can push the smallest firms out
+
+**Theme:** Work / cost / voice
+**Route:** eligibility rule → public demand → firm survival
+**Still open:** customer, worker, and owner-household effects
+
+When a US program lets larger firms qualify as “small,” the program may reach more firms while giving less room to the smallest ones. A Census-linked study finds lower revenue and higher exit for the smallest firms after size limits rose, with public contracts shifting toward larger firms.  The finding is not that larger firms are always bad recipients. It is that an eligibility change can quietly change who receives public demand. The next question is whether the shift changes worker pay, customer prices and quality, local choice, and owner households.
+
+[Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)

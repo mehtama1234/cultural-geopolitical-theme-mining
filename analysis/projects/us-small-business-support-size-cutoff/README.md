@@ -15,3 +15,7 @@ The label “small business” hides a fight over scale. A larger eligibility li
 ## Decision rule
 
 Move on after one study measures a size-rule change, one source measures firm survival after support, and one next dataset can follow owners, workers and customers. Do not use firm revenue alone as a measure of public value.
+
+## Matched evidence pass
+
+The first matched check is [A wider small-business rule can push the smallest firms out](../../findings/us-small-business-support-size-cutoff-matched-evidence-001.md), with its [HTML reading page](../../../site/us-small-business-support-size-cutoff-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms firm and procurement effects while leaving customer, worker, and owner-household effects open.
