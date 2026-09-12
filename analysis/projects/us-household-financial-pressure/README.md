@@ -6,6 +6,15 @@ When American households face higher prices, fees, interest, or risk, how do fir
 
 This project begins with payment and credit systems, then expands only when the evidence shows a link to housing, health, work, insurance, or public policy.
 
+## Current population layer
+
+The [2025 SHED price-adaptation layer](shed-2025-price-adaptation-layer-v1.md)
+adds weighted national respondent-level comparisons of price pressure,
+consumer substitution, reduced use, saving cuts, borrowing, delayed purchases,
+extra work, emergency capacity, and outside help. It is a descriptive layer
+inside the broader 14-theme program, not the program’s definition and not a
+one-household case study.
+
 ## Meaty end-to-end goal
 
 Build a source-traceable account of how a financial condition becomes a lived consumer experience and then a shift in company behavior, household choices, institutional trust, and political demand.

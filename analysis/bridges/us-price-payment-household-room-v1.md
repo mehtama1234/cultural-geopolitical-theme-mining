@@ -9,6 +9,13 @@ When prices or payment rules change, what does the consumer actually do, what fu
 
 ## Evidence carried by the existing records
 
+The [2025 SHED price-adaptation layer](../projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
+adds a national respondent-level comparison: 62.2% switched to cheaper
+products, 59.7% used less or stopped using products, 41.0% reduced savings,
+and 45.6% delayed a major purchase after reporting the relevant price and
+financial conditions. These are weighted descriptive measures, not a causal
+household panel or a firm-level attribution.
+
 | Step | Existing evidence | What it supports | What it does not establish |
 |---|---|---|---|
 | Payment design | [Payment choice changes who carries the price](../../findings/us-payment-fee-matched-evidence-001.md) records interchange-funded rewards, different payment access, interest, protection, and merchant responses. | Checkout can redistribute value and move the date of the household cost. | The net gain or loss for a particular shopper. |
