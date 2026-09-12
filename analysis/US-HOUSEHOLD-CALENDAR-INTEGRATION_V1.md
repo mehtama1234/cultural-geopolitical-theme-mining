@@ -123,6 +123,8 @@ The starting claims and their current limits are recorded in [the integration cl
 
 The draft participant instrument is [the household-calendar questionnaire](templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md). It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.
 
+The schema is exercised by a clearly marked [simulated fixture](samples/US-HOUSEHOLD-CALENDAR-SIMULATED_V1.json), checked with `python3 scripts/validate_us_household_calendar_fixture.py`. The fixture is not observed data and must never be used as a finding.
+
 ## What would change the working picture
 
 - Most households with a dated shock recover without protecting one need by sacrificing another.

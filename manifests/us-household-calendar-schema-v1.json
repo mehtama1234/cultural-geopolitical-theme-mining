@@ -3,7 +3,7 @@
   "purpose": "Twelve-month study of dated household pressure and recovery",
   "status": "research-design",
   "unit": "de-identified household-month and household-event",
-  "allowed_evidence_status": ["observed", "reported", "inferred", "unknown", "disputed"],
+  "allowed_evidence_status": ["observed", "reported", "inferred", "unknown", "disputed", "simulated_test_data"],
   "privacy": {
     "direct_identifiers": false,
     "political_data_optional": true,
@@ -36,6 +36,7 @@
   ],
   "event_fields": [
     {"name": "event_id", "type": "pseudonymous_string", "required": true},
+    {"name": "household_id", "type": "pseudonymous_string", "required": true},
     {"name": "event_date", "type": "YYYY-MM-DD", "required": true},
     {"name": "warning_date", "type": "YYYY-MM-DD_or_null"},
     {"name": "first_condition", "type": "enum", "values": ["bill", "income_change", "repair", "care_need", "benefit_decision", "service_failure", "insurance_change", "major_purchase", "price_change", "other"]},

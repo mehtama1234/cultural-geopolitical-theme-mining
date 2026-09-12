@@ -1,0 +1,45 @@
+{
+  "format": "us-household-calendar-simulated-fixture-v1",
+  "evidence_class": "simulated_test_data",
+  "warning": "Not observed household data. Included only to exercise the schema and evidence labels.",
+  "months": [
+    {
+      "household_id": "sim-001",
+      "month": "2026-01",
+      "tenure": "renter",
+      "geography": "example-county",
+      "household_size": 3,
+      "income_stability": "variable",
+      "vehicle_dependence": "high",
+      "care_need": "childcare",
+      "family_backup": "limited",
+      "income_by_date": [{"date": "2026-01-09", "amount": 1800, "source": "simulated_wages"}],
+      "required_costs": [{"category": "rent_or_mortgage", "due": "2026-01-01", "amount": 1400}, {"category": "utilities", "due": "2026-01-15", "amount": 220}, {"category": "care", "due": "2026-01-05", "amount": 420}],
+      "liquid_savings": 90,
+      "available_credit": 300,
+      "family_help": [{"date": "2026-01-17", "kind": "ride", "hours": 2, "terms": "gift"}],
+      "unpaid_care_hours": 18,
+      "work_hours_and_pay": [{"date": "2026-01-12", "hours": 32, "pay": 640}],
+      "housing_and_service_status": {"utility": "connected", "childcare": "interrupted"},
+      "health_and_food_security": {"status": "reported_no_change"},
+      "trust_and_policy_views": {"status": "not_collected"}
+    }
+  ],
+  "events": [
+    {
+      "event_id": "sim-001-e01",
+      "household_id": "sim-001",
+      "event_date": "2026-01-13",
+      "warning_date": "2026-01-12",
+      "first_condition": "care_need",
+      "amount_and_deadline": {"amount": 80, "deadline": "2026-01-13"},
+      "need_at_risk": ["work", "care"],
+      "choice_made": ["family_help", "missed_work"],
+      "immediate_result": "Simulated childcare interruption; one shift changed.",
+      "person_with_control": ["family", "employer"],
+      "remedy_path": ["family_help"],
+      "next_month_effect": ["missed_work", "unknown"],
+      "evidence_status": "simulated_test_data"
+    }
+  ]
+}
