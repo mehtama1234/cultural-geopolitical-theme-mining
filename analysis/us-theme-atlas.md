@@ -449,6 +449,8 @@ Follow measured career movement into the room left for education debt and then h
 
 Still missing: The current sources do not follow the same worker from career level through debt payment and housing.
 
+[Read the complete connected memo](../site/us-career-debt-housing-path-001.html)
+
 ### When an ownership promise meets the paycheck
 
 Follow a worker's financial claim into daily work and then ask whether it becomes pay, savings or only a reason to stay.
