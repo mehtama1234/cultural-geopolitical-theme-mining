@@ -93,3 +93,13 @@ For some US small-business owners, family money and business money are close eno
 The payment system appears to spread costs and benefits unevenly. The clearest evidence is a system estimate: merchant card fees can move money from cash and debit users toward higher-reward credit-card users through common prices. Federal Reserve evidence shows that payment choice differs by income and age. CFPB evidence shows that rewards can be hard to receive and may be outweighed by interest for people who carry a balance.  That is enough to treat payment choice as a customer and distribution question. It is not enough to say which household is worse off, because we do not yet see the same person's price, reward, interest, security benefit and ability to switch together.
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
+
+### 10. A recovery loan can keep a local option open, but it creates another bill
+
+**Theme:** Work / cost / place
+**Route:** disaster → recovery credit → firm and local options
+**Still open:** worker, customer, household, and repayment effects
+
+After a natural disaster, a small firm may need cash before customers return or insurance pays. NBER finds that government recovery loans reduced exit and bankruptcy and increased employment and revenue. SBA rules show the money is meant for repair and ordinary operating bills, not expansion.  That is a real firm result, not yet a full community result. Keeping the firm open may protect jobs and customer access, but the loan also creates repayment risk. We do not yet know whether the owner household, workers, or customers were better off in the longer run.
+
+[Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)

@@ -15,3 +15,7 @@ A small firm's cash problem can become a worker's job problem, a customer's serv
 ## Decision rule
 
 Move on after one study measures a causal firm-credit effect, one source connects the firm to its owner household, and one next dataset can follow workers and customers. Do not equate firm survival with good jobs or local welfare.
+
+## Matched evidence pass
+
+The first matched check is [A recovery loan can keep a local option open, but it creates another bill](../../findings/us-small-business-disaster-liquidity-matched-evidence-001.md), with its [HTML reading page](../../../site/us-small-business-disaster-liquidity-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms firm recovery effects while leaving worker, customer, owner-household, and repayment effects open.
