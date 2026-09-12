@@ -59,6 +59,8 @@ US condition, price, rule, shock, or institutional decision
 
 Do not turn this into one grand causal theory. Each link must remain labeled as observed, reported, inferred, compared, or open. The goal is a connected societal research map whose strongest paths can later be tested with joined records—not a single-household story.
 
+The active execution queue is [US broad research pass v1](US-BROAD-RESEARCH-PASS_V1.md). It prioritizes five bridges: price/payment to household room; service or platform rules to recourse and trust; work tools to control and power; housing, energy, and insurance to health and mobility; and public aid or rules to interpretation and political response.
+
 The aim is to find the deeper mechanism beneath a visible trend. A headline is only the entry point. The work should show the path from a measurable condition to a change in daily life, then to a change in institutional power.
 
 ```text
