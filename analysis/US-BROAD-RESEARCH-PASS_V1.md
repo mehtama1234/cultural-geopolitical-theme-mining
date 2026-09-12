@@ -50,6 +50,8 @@ The SIPP fields are mapped to the five bridges in the [SIPP broad-bridge crosswa
 
 The first labeled descriptive result is in the [SIPP population layer](projects/us-household-calendar-integration/sipp-population-layer-v1.md). It reports field-specific nonblank diagnostics and monthly ranges, with person-weight, universe, household-repetition, and variance limits stated beside the results.
 
+The first SIPP cross-group comparison is the [tenure-stratified population layer](projects/us-household-calendar-integration/sipp-tenure-stratified-layer-v1.md). It compares owners, renters, and rent-free occupants across payment difficulty, food hardship, debt, and work, while keeping the comparison descriptive.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

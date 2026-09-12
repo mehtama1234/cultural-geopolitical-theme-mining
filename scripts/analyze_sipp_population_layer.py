@@ -36,6 +36,13 @@ FIELD_LABELS = {
     "RMNUMJOBS": "one job",
 }
 
+GROUP_VALUE_LABELS = {
+    "ETENURE": {"1": "owned or being bought", "2": "rented",
+                 "3": "occupied without payment of rent"},
+    "RMNUMJOBS": {str(i): ("no jobs" if i == 0 else f"{i} job" if i == 1
+                            else f"{i} jobs") for i in range(18)},
+}
+
 
 def empty() -> dict:
     return {"records": 0, "weight": 0.0, "blank_records": 0,
@@ -69,14 +76,17 @@ def finish(bucket: dict) -> dict:
     return bucket
 
 
-def analyze(path: Path, fields: list[str]) -> dict:
+def analyze(path: Path, fields: list[str], group_by: str | None = None) -> dict:
     overall = {field: empty() for field in fields}
     by_month = defaultdict(lambda: {field: empty() for field in fields})
+    by_group = defaultdict(lambda: {field: empty() for field in fields})
     rows_read = 0
     positive_weight_rows = 0
     with path.open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
         required = {"MONTHCODE", "WPFINWGT", *fields}
+        if group_by:
+            required.add(group_by)
         missing = sorted(required - set(reader.fieldnames or []))
         if missing:
             raise ValueError("slice is missing fields: " + ", ".join(missing))
@@ -90,14 +100,20 @@ def analyze(path: Path, fields: list[str]) -> dict:
                 continue
             positive_weight_rows += 1
             month = row["MONTHCODE"]
+            group = row.get(group_by, "") if group_by else None
             for field in fields:
                 add(overall[field], row.get(field, ""), weight)
                 add(by_month[month][field], row.get(field, ""), weight)
+                if group_by and group:
+                    add(by_group[group][field], row.get(field, ""), weight)
     for field in fields:
         finish(overall[field])
     for month in by_month:
         for field in fields:
             finish(by_month[month][field])
+    for group in by_group:
+        for field in fields:
+            finish(by_group[group][field])
     return {
         "format": "us-sipp-person-weighted-population-layer-v1",
         "source_unit": "person record by reference month",
@@ -105,9 +121,12 @@ def analyze(path: Path, fields: list[str]) -> dict:
         "rows_read": rows_read,
         "positive_weight_rows": positive_weight_rows,
         "fields": fields,
+        "group_by": group_by,
+        "group_value_labels": GROUP_VALUE_LABELS.get(group_by, {}) if group_by else {},
         "code1_labels": {field: FIELD_LABELS[field] for field in fields},
         "overall": overall,
         "by_month": {month: by_month[month] for month in sorted(by_month)},
+        "by_group": {group: by_group[group] for group in sorted(by_group)},
         "household_weight_used": False,
         "official_universes_constructed": False,
         "variance_estimation": False,
@@ -119,11 +138,14 @@ def main() -> None:
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--fields", nargs="+", default=list(FIELD_LABELS))
+    parser.add_argument("--group-by", choices=sorted(GROUP_VALUE_LABELS), default=None)
     args = parser.parse_args()
     unknown = sorted(set(args.fields) - set(FIELD_LABELS))
     if unknown:
         raise ValueError("no verified code-1 labels for: " + ", ".join(unknown))
-    result = analyze(args.input, args.fields)
+    if args.group_by and args.group_by not in args.fields:
+        args.fields = [args.group_by, *args.fields]
+    result = analyze(args.input, args.fields, args.group_by)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
