@@ -20,6 +20,10 @@ The merchant or landlord also sees part of the chain. A failed payment can creat
 
 The customer’s result depends on what happens next: whether the payment was essential, whether affordable credit was available, and whether the household could rebuild cash before another bill arrived.
 
+The order of transactions can decide the result. If an automatic subscription reaches the account before rent, the bank may treat the shortage as a customer problem. If rent is processed first, the subscription may fail instead. The household can be charged for a sequence it did not choose and may not be able to see in advance. A fee rule can reduce the penalty without changing the order that created the shortage.
+
+There is also a difference between preventing a fee and preventing a failed payment. A bank may stop charging for a rejected transaction but still return it. The customer then faces the merchant's late fee or a service cutoff. Conversely, a bank may let a payment through and charge no fee while reducing the balance needed for food or medicine. The account record needs the bill's outcome and the household's next choice, not only the bank charge.
+
 ```text
 low cash in the account → NSF fee or overdraft rule → payment succeeds or fails
 → later fee, interest, late bill, or alternative credit → money left for housing, food, health, or work
@@ -46,6 +50,10 @@ The wider finding is that banking rules distribute time. One customer gets a few
 
 This connects bank fees to credit scores, subscriptions, and payment outages. A rejected payment can create a late record. A bridge can create interest. A hidden recurring charge can create the low balance in the first place. The household experiences one shrinking buffer even though the records sit in different systems.
 
+The distributional issue is about recovery speed. A household paid on Friday can replace a two-day overdraft quickly. A household paid irregularly may still be short when the next bill arrives. The same fee waiver can be a small gain for one person and a way to avoid a chain for another. A policy that treats all customers alike may still have unequal effects because their pay dates, bills, and backup credit differ.
+
+The bank's “successful payment” is not necessarily the household's successful month. Payment completion can preserve rent or electricity while leaving the account negative. The household may value the service kept on and accept the future cost, or it may be forced into the choice. Measuring only transaction success can therefore reward a product that maintains access by consuming future room.
+
 ## What remains unproven
 
 The study does not identify the original bill, the need protected or delayed, the customer’s full credit cost, or whether the account remained usable. It does not show how results differ by race, disability, age, place, bank type, or access to family money and affordable credit. It does not show whether a successful overdraft prevented a larger loss or began a repeated cycle.
@@ -53,6 +61,8 @@ The study does not identify the original bill, the need protected or delayed, th
 ## Next test
 
 Follow one household from a low-balance event for 90 days. Record the original bill, payment result, bank charges, credit used, payday use, account status, merchant or landlord response, and the need delayed or protected. Record the next paycheck and whether the household recovered or entered another shortfall. Split results by income, liquid savings, disability, place, and access to affordable credit.
+
+Run a transaction-order test with recurring bills and pay dates. Compare fee removal, payment reordering, a short no-cost grace period, and a clear low-balance alert. Measure payment success, merchant fees, overdraft or interest, account closure, food and care tradeoffs, late records, and recovery by the next paycheck. The result should identify whether the rule prevents the original shortage, prevents the first penalty, or merely moves the cost into another account.
 
 ## Reading rule
 
