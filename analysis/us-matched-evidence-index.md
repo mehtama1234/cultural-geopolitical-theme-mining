@@ -244,7 +244,17 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 25. The same dollar can do different work depending on how it arrives
+### 25. A tariff reaches the household through a chain, not a single price
+
+**Theme:** Cost / customer / voice / work
+**Route:** trade rule → import cost → retail price → household choice
+**Still open:** firm margins, household exposure, and political response
+
+A tariff does not move straight from a government announcement to one checkout price. There are at least five steps: the rule announced, the duty actually paid, the importer's cost, the firm's price and product choices, and the household's response. Recent US evidence shows that much of the cost reached importers, while retail effects arrived more slowly and households also cut quantities or traded down. The political meaning of that chain is still an open question.
+
+[Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
+
+### 26. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -254,7 +264,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 26. A car repair can protect access while taking away other room
+### 27. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
