@@ -98,4 +98,6 @@ The repository already has the research method, source registry, AI/work-control
 
 The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. The remaining end-to-end work is not more prose alone: synchronize the reader-facing HTML for the deepened pages, add the parity check to the publication gate, and then use the integrated household calendar to test the strongest cross-topic chains with actual joined records.
 
+The first concrete design for that next study is [the household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md), with a [reader-facing HTML edition](../site/us-household-calendar-integration.html). It defines the twelve-month unit, event ledger, five linked tests, comparison design, privacy rules, and conditions that would change the working picture. It is a plan for evidence collection, not evidence of a national effect.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.

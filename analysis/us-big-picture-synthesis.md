@@ -136,6 +136,8 @@ For each bridge, find a serious counterexample. Then write only the part the rec
 
 The first integrated study should use one household calendar rather than another broad average. Follow a household for twelve months and record pay, rent, utilities, insurance, transport, care, food, medical needs, credit, family help, service contacts, major purchases, and political views. For every disruption, record the date, the choice made, what it protected, what it displaced, who controlled the remedy, and whether the next month started weaker. Link only the measures that can be joined lawfully and ethically, and label all remaining links as unknown.
 
+[Read the full household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md) · [Read the HTML research brief](../site/us-household-calendar-integration.html)
+
 ## Reading rule
 
 The big picture is a set of connected questions, not one grand explanation. Start with the ordinary loss or choice. Follow who pays, who waits, who decides, and what changes next.
