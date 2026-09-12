@@ -54,6 +54,8 @@ The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integrati
 
 The [Pew 2025 news, platform, and civic-engagement layer](projects/us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md) adds population-level information and cultural structure: distinct participation types, partisan news-source ecosystems, and social-media news influencers. It deepens the platforms, trust, identity, and collective-action themes without treating source use as proof of persuasion or causal voting effects.
 
+The [USDA 2024 food-security layer](projects/us-food-budget-security/usda-2024-food-security-layer-v1.md) adds a basic-security endpoint to the price, care, public-assistance, and inequality themes. It shows the national distribution of low and very low food security, child/adult shielding, subgroup exposure, and assistance participation while keeping the exact price-to-food and food-to-political paths open.
+
 The first fresh bounded acquisition is the [SIPP 2025 acquisition](projects/us-household-calendar-integration/sipp-bounded-acquisition-v1.md). It confirms an accessible monthly population-survey backbone for household security, work, benefits, energy, food, and debt. Its 100,000-row engineering slice is not yet a weighted finding.
 
 The full SIPP slice now has a [weighted descriptive scan](projects/us-household-calendar-integration/sipp-weighted-code-scan-v1.md). It is a person-record/month layer using `WPFINWGT`, with official value labels attached; household weighting, variance estimates, and causal interpretation remain separate next steps.

@@ -87,6 +87,13 @@ news attention, alongside partisan differences in trusted news sources and a
 growing role for social-media news influencers. This measures source
 environment and civic behavior, not persuasion or a platform-caused vote.
 
+The [USDA 2024 food-security layer](projects/us-food-budget-security/usda-2024-food-security-layer-v1.md)
+adds a basic-security endpoint. It distinguishes low food security, very low
+food security, child/adult shielding, unequal exposure, and nutrition-assistance
+participation. Food is therefore a social and political measure of available
+room, but the annual prevalence data do not identify which price, employer,
+policy, or store caused a particular household’s condition.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas

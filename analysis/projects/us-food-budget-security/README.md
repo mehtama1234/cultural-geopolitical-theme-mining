@@ -15,3 +15,5 @@ Food is a clear social outcome of the cost and credit paths already in the atlas
 ## Decision rule
 
 Move on after one national measure, one subgroup or place comparison, one credit or health comparison, and a clear next test using the same time period.
+
+The first national layer is [USDA 2024 food security](usda-2024-food-security-layer-v1.md). It separates low food security, very low food security, child/adult shielding, subgroup exposure, and nutrition-assistance participation. It is a population outcome layer, not a household-level price-to-food causal join.
