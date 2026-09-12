@@ -545,6 +545,8 @@ Follow several jobs into spending, travel and saving, then ask whether flexibili
 
 Still missing: The current evidence does not follow the same worker from job structure through net income, household choices and later security.
 
+[Read the complete connected memo](../site/us-multiple-jobs-household-room-path-001.html)
+
 ### When staying with a bank becomes a household choice
 
 Follow the effort of moving a deposit into the interest and household room left behind, then ask whether repeated quiet costs shape views of financial institutions.
