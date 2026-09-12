@@ -1,56 +1,44 @@
 # Rent aid can buy time; a lawyer can change the case
 
-## Short answer
+## The argument
 
-Emergency rental assistance can help a tenant make a payment and feel less likely to be evicted. In a lottery-based study, however, it had little average effect on housing stability or financial distress. Other research finds that landlords often wait when a tenant falls behind, while legal representation can materially change judgments, warrants, and evictions in housing court.
+Rent trouble has two separate parts. One is a money gap: rent is due and cash is missing. The other is a power gap: a landlord can file, a court can issue a judgment, and a tenant may not know how to answer. Cash addresses the first. Legal help can change the second.
 
-The deeper finding is that rent trouble has two different parts: a money gap and a power gap. Cash addresses the first. A lawyer can change the second. Neither result alone proves that a tenant remains safely housed after the immediate case ends.
+That is why a rent payment is not automatically a housing victory. It may stop one missed payment while leaving the next month, the court record, the lease, and the tenant's bargaining position unchanged. A proper result asks whether the household stayed housed after the immediate crisis.
 
-## What the matched evidence shows
+## Follow one missed payment
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Rent aid | NBER 32463 finds assistance increased rent payment and reduced eviction concerns across four city programs. | A large average improvement in housing stability or financial distress. |
-| Waiting | NBER 33155 finds nonpayment is common, often tolerated, and sometimes followed by repayment. | That waiting is safe for every tenant or landlord. |
-| Filing choice | Landlords weigh the cost of filing against the chance that a tenant will recover. | The best intervention for one household or building. |
-| Legal help | NBER 29836 finds representation reduced possession judgments, monetary judgments, warrants, and completed evictions in New York City. | That legal help replaces rent or prevents later arrears. |
-| Lasting result | Cash and legal help work at different links in the chain. | The same tenant's later housing, credit, work, and health path. |
-
-Sources: [NBER 32463](https://www.nber.org/papers/w32463), [NBER 33155](https://www.nber.org/papers/w33155), [NBER 29836](https://www.nber.org/papers/w29836).
-
-## The connection
+A tenant loses work hours and falls behind. Emergency aid arrives after an application and pays part of the rent. The tenant still faces a notice, a court date, or a landlord who will not renew. Another tenant receives legal representation and wins time or avoids a judgment. Both received “help,” but the help changed different points in the chain.
 
 ```text
-income, health, or rent shock
-  -> missed payment and landlord response
-  -> rent aid, legal help, payment plan, or no help
-  -> payment, judgment, move, or eviction
-  -> later debt, credit, work, health, and housing
+income, health, or rent shock → missed payment and landlord response
+→ rent aid, legal help, payment plan, or no help
+→ payment, judgment, move, or eviction → later debt, credit, work, health, and housing
 ```
 
-The useful question is not simply whether aid was paid. It is whether the payment arrived before the case hardened, and whether the tenant had a fair way to answer the landlord in court.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Rent aid | NBER finds assistance increased rent payment and reduced eviction concerns across four city programs, with little average effect on housing stability or financial distress. | Payment and lasting stability are different results. |
+| Waiting | NBER finds nonpayment is common, often tolerated, and sometimes followed by repayment. | A missed payment does not always become an immediate filing. |
+| Filing choice | Landlords weigh the cost of filing against the chance a tenant will recover. | The landlord's decision is part of the outcome. |
+| Legal help | NBER finds representation reduced possession judgments, monetary judgments, warrants, and completed evictions in New York City. | A lawyer can change the court path. |
+| Missing long result | Cash and legal help work at different links in the chain. | Neither study alone proves two-year housing stability. |
 
-**Household:** Count rent owed, cash, income timing, health, care, debt, court dates, and the cost of moving.
+Sources: [NBER emergency rental assistance](https://www.nber.org/papers/w32463), [NBER landlord filing decisions](https://www.nber.org/papers/w33155), and [NBER legal representation](https://www.nber.org/papers/w29836).
 
-**Customer and resident:** A home is not stable if the tenant can pay one month but cannot safely stay, repair, or renew the lease.
+## The deeper finding
 
-**Money and finance:** Separate arrears, late fees, judgment debt, credit records, legal cost, and future rent.
+The timing of help matters. Cash that arrives before a case hardens may prevent a filing. Legal help may change the case after filing. A payment plan may spread the bill but also create a later true-up. Treating all three as “eviction prevention” hides whether the intervention changed money, power, or only the date of loss.
 
-**Public power:** Compare cash, legal help, landlord incentives, notice rules, and housing supply by the problem each one changes.
+## What remains unproven
 
-## What would change the finding
-
-- The same tenant's first shock, rent owed, aid application, payment, court case, legal help, move, credit, work, and health.
-- Timing from missed payment to aid, notice, filing, judgment, and payment plan.
-- Landlord type, property condition, rent level, and local housing supply.
-- Effects by income, race, age, disability, family, immigration status, and neighborhood.
-- Cost per prevented eviction and whether the tenant remains housed after assistance ends.
+The studies do not follow the same tenant from the first shock through aid, notice, filing, court, move, credit, work, and health. They also do not show the cost per prevented eviction or whether the tenant remains safely housed after assistance ends.
 
 ## Next test
 
-Follow tenants for two years from the first missed payment. Compare cash aid, legal help, payment plans, and landlord incentives, and measure both immediate case outcomes and later housing stability.
+Follow tenants for two years from the first missed payment. Compare cash aid, legal help, payment plans, and landlord incentives. Record timing, arrears, court outcomes, moves, rent burden, credit, work, and health.
 
 ## Reading rule
 
