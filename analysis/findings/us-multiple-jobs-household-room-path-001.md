@@ -6,30 +6,42 @@ Two people can bring home similar pay and still have very different room to live
 
 Gross income misses the account that matters: money after travel, fuel, work equipment, taxes, care, debt, and the time needed to do the work. It also misses what the worker gives up. A flexible shift may make care possible today while making sleep, training, or a stable career harder later.
 
-## What the sources establish
-
-HBS research using surveys, General Social Survey data, and transactions from more than 90,000 customers of a national bank reports that similarly paid people with multiple jobs spent 17 percentage points less of take-home pay, including 16 points less on necessities and almost 2 points less on extras. They also spent more on transport and saved less.
-
-A separate HBS study of DoorDash drivers in California estimates that schedule flexibility has meaningful money value, with larger value for some groups. That supports a trade between control and stability. It does not settle benefits, income risk, safety, or long-term work.
-
-Sources: [HBS true costs of gig work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work) and [HBS value of gig-work freedom](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot).
+The deeper finding is that multiple jobs can buy control and sell security at the same time. A worker may prefer several jobs because one employer is unreliable or because the schedule fits family life. Another may be assembling shifts because no single job provides enough hours or benefits. Counting jobs without asking why they were added confuses choice with constraint.
 
 ## Follow the second job
 
-one job is unavailable, unsuitable, or not flexible enough → several jobs or gig work → split schedule, travel, and uncertain income → cautious spending, less saving, or less care → short-run control versus long-run security
+A worker adds evening delivery shifts to a daytime job. Gross pay rises. So do fuel, car wear, waiting time, taxes, and exhaustion. The extra cash pays a bill, but the worker saves less and has less time for health, training, or children. If the daytime job cuts hours, the second job becomes necessary rather than optional.
 
-Lower spending may mean pressure, deliberate saving, or different goals. The key account is net pay and time, not gross income.
+Another worker uses gig shifts to attend a medical appointment or care for a parent. The same flexibility has a different value because control over time matters more than a benefit plan that is not available.
 
-## Four questions that should stay separate
+```text
+one job is unavailable, unsuitable, or not flexible enough → several jobs or gig work
+→ split schedule, travel, and uncertain income → spending, saving, care, and health change
+→ short-run control versus long-run security
+```
 
-- **Control:** Can the worker choose when to work?
-- **Cost:** What does travel, equipment, waiting, and care consume?
-- **Security:** What happens when one job disappears or a worker gets sick?
-- **Room:** What remains after work for saving, health, family, training, and rest?
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
+|---|---|---|
+| Spending | HBS research using surveys, General Social Survey data, and transactions from more than 90,000 customers of a national bank reports that similarly paid people with multiple jobs spent 17 percentage points less of take-home pay, including 16 points less on necessities and almost 2 points less on extras. | Similar income can produce different household spending patterns. |
+| Work costs | Those workers spent more on transportation and saved less. | The second job consumes money as well as time. |
+| Time value | A separate HBS study of DoorDash drivers in California estimates schedule flexibility has meaningful money value, with larger value for some groups. | Control over time can be a real benefit. |
+| Limits | The studies do not settle benefits, income risk, safety, or long-term work outcomes. | Flexibility and security must be measured separately. |
+
+Sources: [HBS true costs of gig work](https://www.library.hbs.edu/working-knowledge/true-costs-of-gig-work) and [HBS value of gig-work freedom](https://www.library.hbs.edu/working-knowledge/how-much-is-freedom-worth-for-gig-workers-a-lot).
+
+## The deeper finding
+
+Work flexibility has a price that appears outside the paycheck. It can let a person solve today’s care or cash problem while shifting vehicle risk, health cost, and future instability onto the worker. A good work measure must count the value of control and the cost of carrying the system alone.
+
+## What remains unproven
+
+The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability.
 
 ## Next test
 
-Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, and job quality. Ask whether the second job added choice or replaced missing stability.
+Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Ask whether the second job added choice or replaced security.
 
 ## Reading rule
 
