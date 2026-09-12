@@ -14,6 +14,10 @@ A worker has an emergency visit, misses shifts, and receives a bill after insura
 
 Another person has no housing application but is paying the collector every month. Relief lowers the payment and leaves more cash for food or medicine. A third person still has a new bill that is not in the program. The same intervention can change credit for one household, cash flow for another, and little for someone whose main problem is current care.
 
+The bill's timing changes what relief can do. A collection record removed before a lease application may reopen a door. The same removal after a family has already moved may not return the deposit, travel, or school stability it lost. A lower payment during treatment may prevent a missed utility bill, while an old balance removed later may have little effect on current care. Relief needs a date and a target outcome.
+
+Medical debt is also a chain of decisions, not a single purchase. The patient may not know the price before care, the insurer may deny or delay a claim, the provider may send several bills, and the collector may report one account. A relief program that handles the final account may leave the earlier confusion unchanged. The next patient can face the same path even if the prior patient's record was repaired.
+
 ```text
 illness or care need → treatment, insurance, bill, and lost work
 → medical debt or collection record → credit, housing, payment, care, and stress
@@ -46,6 +50,10 @@ This is why the policy question has at least three layers:
 
 The first layer does not prove the second, and the second does not repair the third.
 
+There is a risk of calling credit access “recovery” when the family is still choosing between care and cash. A better score may permit a loan, but the loan can add a payment to a household already exposed to medical risk. A refund or payment reduction may free money, but only if the household can use it before another bill arrives. The key result is whether the household has more safe choices, not whether one financial measure improved.
+
+The burden can also move between people. An adult child may pay a parent's bill, a spouse may take unpaid time for care, or a provider may absorb an unpaid balance through higher charges elsewhere. Relief for the named debtor may therefore leave the household or care system carrying another cost. The study needs to identify whose balance changed and whose work, cash, or treatment remained exposed.
+
 ## Four views of the same bill
 
 **Patient:** What illness, treatment, missed work, insurance decision, and bill created the debt? What does relief change now?
@@ -63,6 +71,8 @@ The experiments concern medical debt sold to collectors and the studied relief p
 ## Next test
 
 Follow treated and similar untreated households for three years. Join original illness, bill, insurance decision, debt size, collection, relief, credit, housing, work, payments, care use, health, stress, and later debt. Report credit access, cash flow, care, health, and prevention as separate outcomes.
+
+Compare record removal, payment reduction, direct cash, billing help, and care-navigation support for similar medical shocks. Measure the time from treatment to bill, dispute, collection, relief, housing or credit decision, care use, work loss, and the next medical event. Include other household payers and unpaid caregivers. The strongest result would show whether relief restores safe choices and prevents a new debt path, rather than only improving the record.
 
 ## Reading rule
 
