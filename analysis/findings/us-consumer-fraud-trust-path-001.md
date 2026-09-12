@@ -8,6 +8,8 @@ The payment route changes the result. A credit-card charge may have a familiar d
 
 The deeper finding is that a financial loss can become a second customer-service loss. The victim may spend hours gathering records, lose access while an account is locked, borrow for rent, or stop using a service that was not itself the source of the fraud. The cost is therefore money plus recovery work plus the risk that the household cannot meet the next bill.
 
+The word “fraud” also covers different customer positions. A person may say a transaction was unauthorized. Another may have approved a transfer while being deceived. A third may notice a fake seller only after the product never arrives. The facts, proof, payment rules, and remedy can differ. A total loss number is useful for scale, but it cannot tell us which recovery path a household faced.
+
 ## Follow the household after the scam
 
 A person receives a message that looks like it comes from a bank and sends money to a fraudster. She reports it, changes passwords, freezes the account, and waits for a decision. During that wait, a rent payment fails and she must borrow. If the bank returns the money quickly, the direct loss may be repaired while time and trust are not. If it refuses, the first fraud becomes debt, missed payments, and a change in future account use.
@@ -19,6 +21,8 @@ trusted name or account → scam or unauthorized transaction
 ```
 
 The first arrow may be outside the customer’s control. The later arrows are shaped by the institution’s rules and the customer’s ability to reach a person, provide records, and wait.
+
+Timing is part of the loss. If $800 is missing for three days and the account can still pay rent, the direct harm may be partly repaired by a refund. If the same $800 causes an overdraft, a shutoff, or a missed housing payment before the decision arrives, the household carries costs that a later refund may not undo. The institution’s response should therefore be judged against the bill dates and account access that followed the report.
 
 ## What the sources actually establish
 
@@ -35,13 +39,17 @@ Sources: [Federal Reserve fraud findings](https://www.federalreserve.gov/publica
 
 Recovery is part of product safety. A service that stops suspicious activity but makes a legitimate customer unable to pay bills may prevent one loss and create another. The useful result is not only whether fraud was detected; it is whether the household recovered money, time, account access, and the ability to meet its next obligation.
 
+Trust is built or lost in this second stage. A customer may continue using a bank after a scam if the bank explains the event, returns funds, and keeps essential access open. Another may leave after the same direct loss if the process feels opaque or the account remains locked. The current evidence supports asking about this service experience; it does not show that one fraud response caused a lasting change in trust.
+
+There is a system-level tradeoff. Tighter monitoring can catch more suspicious activity, but it can also stop legitimate payments, especially when a customer is traveling, has limited digital access, or needs to pay an unfamiliar provider. A useful safety system has to measure prevented loss and false interruption together.
+
 ## What remains unproven
 
-The sources do not follow one US household from scam to report, decision, recovery, borrowing, account use, and later trust. They do not show whether monitoring lowers total loss without adding privacy, false-lockout, or access costs. They also do not establish that a particular response changed political or institutional trust.
+The sources do not follow one US household from scam to report, decision, recovery, borrowing, account use, and later trust. They do not show whether monitoring lowers total loss without adding privacy, false-lockout, or access costs. They also do not establish that a particular response changed political or institutional trust. They do not show which recovery outcomes differ between unauthorized transactions and payments made after deception.
 
 ## Next test
 
-Link fraud type, payment route, report date, recovery amount, recovery time, complaint response, account use, borrowing, and later household condition. Compare cards, bank transfers, and investment routes by age, disability, language, income, and digital access.
+Link fraud type, payment route, report date, recovery amount, recovery time, complaint response, bill dates, account use, borrowing, and later household condition. Compare cards, bank transfers, and investment routes by age, disability, language, income, and digital access. Record whether the customer had authorized the payment, which proof the institution required, which services were blocked, and whether monitoring prevented or falsely stopped a legitimate payment.
 
 ## Reading rule
 
