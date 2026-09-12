@@ -1,0 +1,107 @@
+# US life: the big picture
+
+## What this map is for
+
+This is a reading map for US customer, household, work, money, and public life. It starts with ordinary things: a bill, a job, a service, a payment, a trip, a care duty, or a price seen at checkout.
+
+The map asks what happens next. Who pays? Who waits? Who can leave? Who decides? Who gets the useful data, the asset, or the gain?
+
+The atlas now contains 83 topics, 5 shared themes, 165 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
+
+## The main finding so far
+
+The packets keep pointing to one practical idea:
+
+> A household can look stable in one measure while losing room somewhere else.
+
+A family may keep paying rent by dropping insurance, care, food quality, saving, or free time. A worker may keep the same annual income while taking more trips, more jobs, more debt, or less control. A customer may keep using a service while spending more time trying to get an answer or leave.
+
+These are repeated patterns in the questions and early evidence. They are not proof that all of them are worsening together or happening to the same households.
+
+## The five themes
+
+### 1. What families give up to pay the bills
+
+This theme follows a cost into the thing that gets cut or delayed. Housing can meet the monthly payment while insurance, health care, food, or a safe buffer gets thinner. Credit can keep a purchase or payment moving while placing a later bill on the household.
+
+The useful measure is not only the first price. It is the protected need, the need given up, the timing, and the later cost.
+
+Related reading: [When the price people see becomes the economy they judge](site/us-price-perception-public-judgment-path-001.html), [When the shape of aid changes the household week](site/us-transfer-design-food-security-path-001.html), and [When a record starts making the future](site/us-self-fulfilling-credit-scores-path-001.html).
+
+### 2. Who gives up time
+
+Time is often the hidden payment. It can be spent traveling to an office, caring for family, working several jobs, using a service, or trying to solve a complaint. Time can also be useful: a flexible job, a private support tool, or a recurring service may protect another need.
+
+The question is not whether time was spent. It is what the time made possible and what it displaced.
+
+Related reading: [When one office day changes the remote week](site/us-office-day-remote-week-path-001.html), [From family time to money and economic views](site/us-family-care-money-politics-path-001.html), and [When equal income buys a different life](site/us-multiple-jobs-household-room-path-001.html).
+
+### 3. Who can get an answer or change a decision
+
+This theme follows a person's ability to refuse, appeal, correct, switch, delete, or reach a human. A privacy rule may increase trust and sharing. A service may answer faster while leaving a repeated problem open. A score or benefit rule may turn a paper record into a gate.
+
+The useful measure is not trust as a feeling alone. It is whether the person understood the deal, could challenge it, and received a remedy.
+
+Related reading: [When privacy protection increases the data exchange](site/us-privacy-data-exchange-path-001.html), [When staying does not mean being satisfied](site/us-staying-service-satisfaction-path-001.html), and [When a benefit loss changes the public mood](site/us-benefit-loss-public-mood-path-001.html).
+
+### 4. Who controls the work and gets the gain
+
+This theme separates output from power. A tool can raise speed without giving a worker more control. A shared office day can improve contact while adding a commute. Several jobs can provide flexibility while shifting travel, benefit, and income risk onto the worker.
+
+The useful measure is who sets the task, owns the data, receives the gain, carries the risk, and can change the arrangement.
+
+Related reading: [When one office day changes the remote week](site/us-office-day-remote-week-path-001.html), [When equal income buys a different life](site/us-multiple-jobs-household-room-path-001.html), and [When career movement slows around a long payment](site/us-career-debt-housing-path-001.html).
+
+### 5. A home can be costly to heat before anything else changes
+
+Energy belongs in the housing story. A home can have a high energy bill because of its condition, fuel, weather, or lack of control. The same household may then face a repair, a shutoff, a health choice, or a need to borrow.
+
+The useful measure is the home condition, the bill, the household's ability to change the home, and the next need put at risk.
+
+Related reading: [When the tap becomes part of the health and housing story](site/us-safe-drinking-water-path-001.html) and [The cost of staying in a home is a stack of bills and risks](site/us-home-cost-stack-001.html).
+
+## How the themes connect
+
+```text
+condition, price, rule, or firm decision
+  -> household cash, time, access, or control changes
+  -> person adapts, delays, borrows, switches, or stays
+  -> firm, lender, employer, agency, court, or platform responds
+  -> trust, local demand, public pressure, or political judgment changes
+```
+
+The strongest recurring bridge is from money to choice. The next bridge is from choice to power: who can refuse, who can move, who can appeal, and who must absorb the result.
+
+The weakest bridge is from private experience to political action. Several packets measure sentiment, trust, blame, or election results, but few follow the same person from the bill or service failure to the public response.
+
+## What the map supports now
+
+- Some public rules and firm choices change a measurable household action: spending, sharing, work contact, credit access, or sentiment.
+- The same outcome can mean different things for different people: a lower expense can be relief or a cut; staying can be choice or a lack of alternatives.
+- Timing matters. A tariff, benefit, repair, payment, or rate can arrive before the household has time to adjust.
+- The gap between a firm measure and a household measure is often the important part: output is not control, use is not satisfaction, and a balance is not security.
+- The map is strongest when it follows a person, product, dollar, or decision through time.
+
+## What remains unproven
+
+- That these pressures are rising together across the whole US population.
+- That the same households carry several of them at once.
+- That a household action changes trust, turnout, or a vote.
+- That a firm or policy caused the full later outcome rather than one step in it.
+- That an average effect applies equally by income, race, age, gender, disability, family, or place.
+
+## The next research move
+
+Choose a small number of bridges where the opening evidence is strongest and join the records over time:
+
+1. household price or payment → actual spending, debt, and later public judgment;
+2. service failure → repeat contact, remedy, exit, and trust;
+3. work rule or tool → worker control, pay, time, health, and household security;
+4. housing or energy cost → health, care, credit, and whether the household can stay;
+5. public aid or rule → take-up, daily use, sentiment, and political response.
+
+For each bridge, find a serious counterexample. Then write only the part the records can carry.
+
+## Reading rule
+
+The big picture is a set of connected questions, not one grand explanation. Start with the ordinary loss or choice. Follow who pays, who waits, who decides, and what changes next.

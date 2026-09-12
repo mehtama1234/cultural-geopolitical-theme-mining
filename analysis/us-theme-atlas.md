@@ -6,6 +6,8 @@ Short research passes, connected through everyday choices. These are early readi
 
 Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior.
 
+[Read the big-picture synthesis](../analysis/us-big-picture-synthesis.md)
+
 ## Follow a question across topics
 
 Reading paths, not proven chains of cause and effect.
