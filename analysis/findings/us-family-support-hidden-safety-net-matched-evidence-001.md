@@ -8,11 +8,15 @@ Family support is therefore a hidden safety net with uneven membership. A househ
 
 The deeper finding is that private help can hide public need. A family may avoid an eviction or payday loan because a relative stepped in. That does not mean the system worked; it may mean an unpaid transfer absorbed a cost that never reached a formal program.
 
+The transfer also depends on trust and power inside the family. Help can be a gift, a loan, a place to stay, or care expected in return. Those forms are not equal. A no-interest loan may protect the receiver but create a future obligation. A room may prevent homelessness but add crowding or conflict. Care may save a paid-care bill while taking hours from the helper’s job. The record must show the terms, not just label all help as support.
+
 ## Follow one family shock
 
 A young family falls behind after a job loss. A parent pays one month’s rent and provides a room for the children. The immediate crisis is held off. The parent now has less emergency savings and takes on extra care. If the job search lasts, both households may borrow or cut back.
 
 The transfer may still be the best available choice. The correct account shows both results: the receiver avoided a missed payment, while the helper lost room for a repair, illness, or job loss.
+
+The timing can make the transfer look larger or smaller than it is. A relative may cover rent once but not the next month. A parent may provide childcare during a short work change but cannot do so during a long illness. A household may report receiving help while still cutting food, delaying care, or taking on debt. One successful rescue is not proof of stable support.
 
 ```text
 shock
@@ -39,15 +43,23 @@ Sources: [NBER family support](https://www.nber.org/papers/w28295), [NBER colleg
 
 Family help is a real transfer system, but it is not a neutral one. It can preserve a job, home, or meal while reducing the helper’s future options. The households most able to help may have accumulated wealth; the households without that network face the original shock in full.
 
+It can also shape where people live and work. A free room may let someone stay in a high-cost city, while help from a distant relative may require a move away from a job or care network. Unpaid rides can preserve employment but limit the helper’s schedule. Family support changes the map of opportunity as well as the household budget.
+
 This creates a feedback loop. A weak public support system increases family transfers. Those transfers protect some families and leave others exposed. The resulting difference can look like personal resilience when it is partly access to a private balance sheet.
+
+That private balance sheet can become a hidden public policy. If relatives repeatedly absorb rent, medical, transport, or care costs, the state may see fewer formal claims and underestimate the need for housing aid, paid care, or income support. But the family network can fail suddenly when the helper loses a job, becomes ill, or faces a repair of their own. A system that depends on private rescue is fragile even when it looks calm in the data.
 
 ## What remains unknown
 
 The evidence does not show whether the receiver became secure or whether the helper could absorb the cost. It does not fully compare family help with public aid, credit, paid care, or housing support for the same event.
 
+It also does not show the help that was requested but refused, the obligations attached to a transfer, or the households that had no one to ask. We should not infer equal resilience from equal reported income when the private backup differs.
+
 ## Next test
 
 Build a family panel linking receiver and helper around one shock. Record cash, housing, care hours, missed work, debt, savings, conflict, public aid, health, and later outcomes for both sides. Include households with no available helper.
+
+Create a transfer ledger with the date, amount, form of help, repayment terms, hours, travel, and need it covered. Follow both households for twelve months and compare them with similar households that used public aid, credit, paid care, or no support. Measure the receiver’s avoided loss and the helper’s lost capacity separately. This would show when family help is a bridge, when it is a debt, and when it merely hides unmet need.
 
 ## Reading rule
 
