@@ -104,6 +104,18 @@ The weakest bridge is from private experience to political action. Several packe
 
 The new findings also sharpen a second weak bridge: firm or public success versus household success. A firm can remain open while the owner’s family works without pay. A utility can restore service while the balance grows. A platform can answer faster while the customer never gets a remedy. A landlord can receive a guarantee payment while the renter acquires debt. The first status is real, but it is not the final household result.
 
+## The first broad bridge pass
+
+The project has now converted the five umbrella themes into five cross-domain research bridges. These are synthesis records built from the existing topic findings; they are not claims that each full chain has been proven.
+
+- [Price and payment → household room](bridges/us-price-payment-household-room-v1.md): payment method, credit, price level, substitution, buying power, and political interpretation.
+- [Service and platform rules → recourse, trust, and exit](bridges/us-service-platform-recourse-trust-v1.md): first response, final remedy, customer effort, data exchange, trust, and abandonment.
+- [Work rules and tools → control, household security, and local power](bridges/us-work-control-household-power-v1.md): benefits, multiple jobs, fit, output, autonomy, employer dependence, and civic voice.
+- [Housing, energy, and insurance → health, mobility, and place](bridges/us-housing-energy-insurance-place-v1.md): burden, safety, coverage, repairs, home value, staying, moving, and recovery.
+- [Public aid and rules → interpretation and political response](bridges/us-public-aid-interpretation-political-response-v1.md): exposure, take-up, material outcome, blame, trust, public action, turnout, and vote.
+
+The execution queue and source-unit rules are recorded in the [US broad research pass](US-BROAD-RESEARCH-PASS_V1.md). The next stage is to attach valid population-, market-, firm-, place-, or institution-level data to these bridges. A household panel is one possible tool for missing longitudinal links, not the definition of the overall project.
+
 ## What the map supports now
 
 - Some public rules and firm choices change a measurable household action: spending, sharing, work contact, credit access, or sentiment.
