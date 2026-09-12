@@ -8,11 +8,15 @@ The important question is what the line changes before and after the award. A sm
 
 The deeper finding is that a support rule shapes the market that exists later. It does not only decide who receives money today. It can decide which firms survive long enough to learn, hire, innovate, and compete next year.
 
+The cliff is easiest to see with a simple example. A firm with 49 workers may lose a contract that a firm with 51 workers can bid for. The two firms may offer similar service, but the larger firm has more staff to complete forms, carry a slow payment, and absorb a failed bid. The smaller firm may lose the cash needed for its next hire or equipment purchase. The number of workers is an administrative line; the financial effect can be much larger than two workers.
+
 ## Follow one eligibility change
 
 A public program expands access to firms above a size threshold. A larger company wins a contract. A younger small firm loses revenue, delays hiring, and cannot show the cash flow a lender wants. It exits a year later. Customers still receive the service, but now face fewer providers and less local choice. In another market, the larger firm’s scale may lower price or improve delivery.
 
 The customer result depends on service quality and alternatives, not only on which firm won.
+
+The timing can turn a one-year award into a lasting market change. A small firm may use one contract to build a performance record, hire a worker, and qualify for private credit. Losing it can remove all three options at once. A large firm may provide the same service today, but the market may have fewer independent providers next year. That is a possible competition effect, not a result the current study measures directly.
 
 The threshold can create a cliff. A firm just below it may lose a contract, while a firm just above it gains a new customer and a stronger record. The first loss can make private lenders less willing to lend, which makes the public loss last longer. The cutoff may therefore change the next market, not just this year's award.
 
@@ -42,13 +46,15 @@ Scale can still be valuable. A larger firm may have better systems, lower unit c
 
 This creates a public-power question. A size rule is easy to administer, but easy rules can move opportunity toward firms that already have staff for compliance. A better rule might consider need, experience, service quality, local employment, or a path for firms to grow without losing support suddenly. The current study shows the market effect of the line; it does not tell us which replacement rule is best.
 
+There is also a difference between support and protection. A grant can help a firm survive a shock without deciding who wins a contract. A procurement preference changes the customer available to each firm. A loan can preserve capacity while leaving repayment risk with the owner. These tools may produce different worker and customer results even when they carry the same label of “small-business help.”
+
 ## What remains unproven
 
-The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. It does not show whether the threshold created a sudden financing cliff or whether firms could recover through private customers. Effects may differ by industry, place, firm age, race, and access to private credit.
+The evidence does not show whether the larger firms delivered better or worse service, how prices changed, or whether customers lost a meaningful local option. It does not follow each owner’s household, worker’s job, or neighborhood after the firm’s revenue fell. It does not show whether the threshold created a sudden financing cliff or whether firms could recover through private customers. Effects may differ by industry, place, firm age, race, and access to private credit. It also does not show whether the line was easy for small firms to understand or whether compliance capacity, rather than productive capacity, drove the award.
 
 ## Next test
 
-Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line, recording whether the contract loss changed private credit, household withdrawals, worker stability, customer price, and the availability of a second provider.
+Follow firms, owners, workers, and customers for five years around an eligibility change. Join public support, contracts, loans, revenue, exit, wages, hours, patents, prices, quality, service access, household income, and local business entry. Compare firms just below and above the line, recording compliance time and cost, whether the contract loss changed private credit, household withdrawals, worker stability, customer price, and the availability of a second provider. Compare a size rule with a need or performance rule where possible.
 
 ## Reading rule
 
