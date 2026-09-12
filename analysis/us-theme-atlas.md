@@ -788,6 +788,8 @@ Follow legal help into the court result, then ask whether preventing an eviction
 
 Still missing: The legal-help study measures court and eviction outcomes, while the eviction studies measure later effects; the full linked path is not yet shown for the same tenant.
 
+[Read the complete connected memo](../site/us-housing-court-legal-help-path-001.html)
+
 ### When prevention buys time but not a new rent level
 
 Follow rent aid into payment and housing stability, then ask whether the household avoids the credit and housing losses that can follow an eviction.
