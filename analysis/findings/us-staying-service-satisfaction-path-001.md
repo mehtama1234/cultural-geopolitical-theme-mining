@@ -27,6 +27,10 @@ Imagine a customer whose delivery is missing. The chatbot answers in seconds, th
 
 ## The connection
 
+The cost of leaving may be spread across the household. A parent may keep a delivery app because it stores a grocery list, a worker may keep a bank account because payroll is connected, and a patient may stay with a portal because its records are difficult to move. The service can be disliked and still be the least risky option. A clean exit requires a usable replacement, a way to carry the record, and confidence that the old account will not keep charging.
+
+Time can make dependence grow quietly. A customer who has already learned the menus, stored payment details, and built a history may tolerate a small failure rather than start over. The firm may call that loyalty. The customer may call it the cost of switching. These are not the same thing and need separate questions.
+
 ```text
 product need or service problem
   -> reply, recommendation, delay, or exit barrier
@@ -70,7 +74,11 @@ There is a useful counterpoint: a customer may prefer an automated route because
 
 ## Next test
 
+The political meaning can appear when private exit fails repeatedly. A person may not want a new law after one bad chat, but may support complaint rights, data portability, refunds, or a human review rule after discovering that no private route works. That is a possible progression, not evidence from the current sources. To study it, the record must show the failed remedy before the public demand rather than infer it from dissatisfaction alone.
+
 Follow the same customer from first contact through 30 days. Compare automated and human paths on answer quality, repeat contact, time, remedy, exit, and later use. Ask directly whether the person stayed because the service helped, because it held something they needed, or because leaving was difficult. Include simple requests, repeat complaints, refunds, safety reports, and cancellation attempts. Define success as a confirmed remedy or informed exit, not a closed chat, and record whether the customer could appeal without starting over.
+
+Add an exit test: give customers a clear export of their records, a no-penalty cancellation path, and a human appeal option, then measure whether they leave, stay by choice, or continue because switching remains costly. Record repeat contacts, fees after cancellation, data retention, replacement-service cost, and the time needed to rebuild the account elsewhere.
 
 ## Reading rule
 
