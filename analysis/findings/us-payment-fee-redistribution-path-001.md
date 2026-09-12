@@ -16,6 +16,10 @@ Now compare two households. Household A pays the card balance every month and us
 
 This is why “the card gives 2% back” is an incomplete account. The useful question is: 2% back from what price, after what merchant cost, for which customer, and after any interest?
 
+The merchant’s response depends on what it can change. A large chain may spread the fee across millions of sales. A small store may have less room and raise prices, refuse a card, or accept a smaller margin. A cash discount can make the transfer visible, but it may also be hard to use for a customer who is paid electronically or does not feel safe carrying cash. The same payment rule can therefore look different at a grocery chain, a corner store, a clinic, or a repair shop.
+
+Access matters before the reward is counted. A card may require a credit score, a deposit, an application, or enough monthly cash flow to pay in full. A household that cannot qualify may face the common price without the reward. A household that qualifies but carries a balance may receive points while paying more in interest. The relevant comparison is between the real options available to each household, not between an ideal card user and an ideal cash user.
+
 ```text
 payment method → merchant fee → price, discount, surcharge, or margin response
 → reward for one customer and no reward for another
@@ -48,6 +52,10 @@ These transfers can happen at the same time. They also pull in different directi
 
 The big picture is therefore a split between visible and hidden payment terms. The visible term is the points or cash back. The hidden terms are the merchant fee, the common price, the customer's access to the card, and the later interest bill. Looking only at the visible reward makes a system-wide transfer look like a free benefit.
 
+This is also a question about bargaining power. A customer can often choose a card, but may not be able to choose the store’s processing contract or the price rule. A small merchant may be unable to refuse the payment method customers expect. An issuer can make the reward easy to notice while the cost is spread across millions of purchases. Political arguments about payment regulation are therefore arguments about who can see, avoid, or pass along the fee.
+
+The household result can change over time. A reward received today may be offset by interest next month. A cash discount may help a customer who has money now but not one who is waiting for payday. A merchant that cuts acceptance may lower its cost but make the store harder to use for customers who rely on cards for safety or budgeting. The payment method is part of the service, not just the final tap at checkout.
+
 ## What remains unproven
 
 The evidence does not yet show the complete net cost for the same US households over time. It does not tell us how payment fees change grocery prices in each place, how often low-income households pay interest after using rewards cards, or whether cash discounts reach the people most affected. It does not prove that one payment rule caused later debt or financial stress. It also does not mean every cash or debit user would have bought a rewards card, so the transfer should not be read as a simple cash payment from one named person to another.
@@ -55,6 +63,8 @@ The evidence does not yet show the complete net cost for the same US households 
 ## Next test
 
 Follow households and merchants for one year, ideally around a rule change or a matched set of stores. Record payment method, posted price, surcharge or discount, reward, interest, credit limit, balance payment, merchant acceptance, processing cost, shopping location, and the purchase that would have been made if the first payment option were unavailable. Compare the full cost by income, liquid savings, credit access, and place. The key output is not card use; it is the net cost of the purchase and the cash left after it.
+
+Run the same purchase through several payment conditions: common price, cash discount, permitted surcharge, debit, credit paid in full, and credit carried forward. Record who can use each option, the price at checkout, the reward, later interest, merchant margin, and whether the customer changes stores or delays the purchase. This would show whether a payment rule lowers the price, moves it between customers, or simply changes which cost is easiest to notice.
 
 ## Reading rule
 
