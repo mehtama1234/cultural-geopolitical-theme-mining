@@ -72,7 +72,10 @@ routes = {
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
     title = re.search(r"^# (.+)$", text, re.M).group(1)
-    short = re.search(r"## Short answer\n\n(.+?)(?=\n\n## )", text, re.S).group(1).replace("\n", " ")
+    short_match = re.search(r"## (?:Short answer|The argument)\n\n(.+?)(?=\n\n## )", text, re.S)
+    if not short_match:
+        raise ValueError(f"{path}: missing Short answer or The argument section")
+    short = short_match.group(1).replace("\n", " ")
     key = path.stem
     theme, route, open_question = routes.get(key, ("US map", "connected evidence", "next test"))
     items.append({"key": key, "title": title, "short": short, "theme": theme, "route": route, "open": open_question, "html": f"{key}.html", "md": str(path.relative_to(ROOT))})

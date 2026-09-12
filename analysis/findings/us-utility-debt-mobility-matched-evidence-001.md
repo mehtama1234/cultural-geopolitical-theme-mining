@@ -1,53 +1,58 @@
 # An old utility balance can make the next move more expensive
 
-## Short answer
+## The argument
 
-An unpaid utility balance can leave the old address and enter the household's next move in two ways. It may be sent to collections and appear on the major credit reports. It may also be held in a specialty utility record that a member company uses when deciding whether to require a deposit. FTC guidance says a new utility application can involve a review of past utility payment history and that a payment arrangement may require the household to pay both current and old bills. The deeper finding is that a basic service debt can become a moving cost and a service-access cost, even though the original energy was used at a different address.
+An unpaid utility bill does not necessarily end when a household leaves an address. It can become part of the next move.
 
-## What the matched evidence shows
+The first problem is simple: the household owes money for power, gas, water, or telephone service already used. If the bill is not paid, the utility may send it to a collection agency. The second problem begins later: when the household applies for service at a new address, a utility may review past utility payment history and ask for a deposit or a payment arrangement.
 
-| Layer | What the evidence says | What remains open |
+That creates a two-part penalty. The old balance can damage the household's credit record, while the next utility account can require cash up front. The same household may therefore need money for a housing deposit, moving costs, and a utility deposit at the same time.
+
+This is not a claim that every unpaid utility bill blocks a move. The sources do not show how often that happens. The point is that the debt has a path beyond the old meter, and that path is easy to miss if we look only at the original bill.
+
+## Follow one household through the system
+
+Imagine a family leaving an apartment after a job loss. The final utility bill is unpaid. At this point, there are several possible outcomes: the family may dispute the amount, arrange payments, pay it later, or fall into collections.
+
+Now the family applies for service at a new address. The new company may treat the application as a credit decision. It can look at prior utility history, ask for a deposit, or require a plan that combines the new monthly bill with the old balance. The family now has a new obligation before it has used any energy in the new home.
+
+If the deposit is unaffordable, service may start late. If the family accepts a plan it cannot carry, it may miss another payment. If the debt appears on a credit report, it may affect other parts of the move. The energy problem has become a mobility problem.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Old balance | FTC says late utility bills can lead to collections and charge-offs. | Whether the balance was correct, disputed, or already paid. |
-| Credit record | CFPB says utility debt sent to collections will most likely appear on major credit reports. | Effect on the next lease, loan, deposit, or move. |
-| Utility record | NCTUE member companies share new-account and past-due utility data and may use it for a deposit decision. | Whether the next provider belongs to the system and how it matched the customer. |
-| New account | FTC says a utility may review past payment history and require a deposit or payment arrangement. | Amount, delay, refund, and whether service was denied. |
-| Mobility | A payment plan may require current bills and past-due payments together. | Whether the extra monthly duty changes the move or housing choice. |
+| Past bill | FTC says late utility bills can lead to collections and charge-offs. | The old account can become a debt record. |
+| Credit record | CFPB says collected utility debt will most likely appear on major credit reports. | The debt can reach decisions outside the utility. |
+| Utility screen | NCTUE member companies share new-account and past-due utility data and may use it for deposits. | A specialty record can affect the next account even when the major bureaus do not show on-time utility payment. |
+| New service | FTC says utilities may review past payment history and require a deposit or payment arrangement. | The old account can create a new cash requirement. |
+| Cash flow | FTC says an arrangement may require current bills and past-due payments together. | “Service restored” can still mean less money for rent, food, or transport. |
 
 Sources: [FTC utility-service guidance](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters), [CFPB utility credit guidance](https://www.consumerfinance.gov/ask-cfpb/does-my-history-of-paying-utility-bills-like-telephone-cable-electricity-or-water-go-in-my-credit-report-en-1817/), [CFPB NCTUE record](https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/consumer-reporting-companies/companies-list/national-consumer-telecom-utilities-exchange/), [FTC debt-collection FAQs](https://consumer.ftc.gov/articles/debt-collection-faqs), and [EIA 2024 energy-insecurity data](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf).
 
-## The connection
+## The important asymmetry
 
-```text
-old address and unpaid utility bill
-  → collection record or specialty utility record
-  → new deposit, payment arrangement, or connection delay
-  → move cost, housing choice, or continued unsafe service
-```
+Utility payment history can be weak as a reward and strong as a penalty. CFPB says most utilities do not report regular on-time payment to the three major credit bureaus. But if an unpaid bill reaches collections, it will most likely appear there. NCTUE adds another layer: member companies share utility account and payment information, including past-due accounts and charge-offs, and may use it to decide whether to require a deposit.
 
-The sources establish the two record paths and the possible new-account response. They do not yet prove that the record caused a particular move, denial, or housing loss.
+So a household can do the right thing for years without building a normal credit record, then face a visible penalty after one period of hardship. That does not tell us whether the bill was fair, whether the household had a temporary shock, or whether the next deposit is reasonable. It tells us that the information system is better at carrying failure forward than carrying good payment forward.
 
-## The useful surprise
+## What this changes
 
-Utility debt can be mostly invisible when paid on time and become visible in two places after failure. The household may face a credit problem and a utility-entry problem even when the old bill is not part of the new home's energy use.
+The useful unit is not “the customer who owed a bill.” It is “the household trying to start again.” A proper record would show the old account, the dispute and collection path, the new application, the deposit, the move date, the connection date, and what the household had to postpone to pay.
 
-## Four views
+That record would also separate three cases that are often mixed together:
 
-**Household:** Put the old balance, collection notice, deposit, move date, current bill, rent, and food or medicine budget on one timeline.
+- A correct bill that was paid late after a short income shock.
+- A disputed or inaccurate bill that became a collection record.
+- A long-running affordability problem where a payment plan never matched the household's income.
 
-**Customer and resident:** Make the record, dispute path, payment arrangement, deposit rule, and service decision understandable before a move.
+Each case needs a different response. A deposit waiver may help the first. A correction process may help the second. A lower bill or repair may be needed for the third.
 
-**Money and finance:** Measure the deposit and repayment against moving costs, housing deposits, transport, and the first new bill.
+## What remains unproven
 
-**Public power:** Test affordable reconnection, data accuracy, deposit waivers, payment plans, and protection from a past-address debt blocking basic service.
+The sources establish the record paths and possible deposit response. They do not prove that a particular household was denied service, delayed in a move, or lost housing because of utility debt. They also do not show how accurate NCTUE matches are, how often customers know about the record, or how quickly errors are corrected.
 
-## What would change the finding
-
-- Customer-level links from old account closure to collections, NCTUE record, new application, deposit, and connection.
-- Dispute, correction, payment, and deletion records for utility debt.
-- Move timing, housing application, rent deposit, utility deposit, and service-start records.
-- Results by renter or owner status, income, race, age, disability, place, and utility provider.
-- Evidence on whether current payment arrangements restore service without making the next month's bill impossible.
+The next test is a customer-level timeline linking account closure, collections, NCTUE data, new application, deposit, connection, move, and housing outcome.
 
 ## Reading rule
 
