@@ -18,6 +18,10 @@ The sign-up and exit moments are not equal. Sign-up may take one click during a 
 
 The firm may also learn from this behavior. If it sees that charges continue after use falls, it can design reminders, pricing, and cancellation around that pattern. That can be legitimate retention when the customer understands and wants it. It becomes a concern when the firm benefits mainly from confusion or delay.
 
+The account may belong to one person while the service is used by several. A parent may keep a learning app for a child, a partner may not know which card pays for a streaming service, or a worker may use a subscription for a side business. Cancellation is then a household coordination problem, not one click by one customer. A reminder that reaches only the account holder may not reach the person deciding whether the service still matters.
+
+The payment method can hide the moment of choice. A renewal bundled into a card statement, digital wallet, or phone bill may be harder to notice than a separate invoice. Replacing the card can reveal a forgotten charge, but it can also interrupt a service the household still needs. The clean test is whether the customer can identify the service, the next charge, and the cancellation path before the payment fails.
+
 The timing of the charge matters as much as its size. A $15 renewal after a paycheck may leave no visible mark; the same renewal one day before an overdraft fee can create a much larger cost. Several small renewals can also crowd out the household’s ability to handle a repair or keep a bill current. The recurring charge does not need to be the largest expense to be the payment that breaks the month.
 
 Silence is therefore weak evidence. It may mean the customer still wants the service, has forgotten it, cannot find the account, cannot spare the time to cancel, or is keeping it for a rare need. A business that treats every silent renewal as an active fresh choice may count the customer’s lack of attention as stronger consent than the customer actually gave.
@@ -50,6 +54,8 @@ The policy question is not whether businesses may use subscriptions. It is wheth
 
 That design also changes who carries the cost of remembering. The firm can automate collection across millions of accounts; each customer must notice a separate charge, remember its purpose, and act before the next date. The system looks efficient from the seller’s side while making attention a private household task. A reminder or simple cancellation path can return some of that work to the firm without banning a useful recurring service.
 
+There is a fairness question in the timing of reminders. A message sent after a renewal is not a meaningful chance to choose. A message that gives a price, date, use history, and direct stop button lets the customer decide with the facts in front of them. The value of a reminder is therefore not whether it was sent, but whether it arrived early enough and carried enough information to change the next payment.
+
 ## What remains unproven
 
 The studies do not show the same household’s use, value, reminder, cancellation attempt, final charge, and later budget. They do not show which groups face the greatest attention cost, or whether stronger reminders reduce useful renewals along with unwanted ones. They also do not show whether a customer’s lack of action reflected consent, confusion, or a service kept for rare but important use. We do not yet know whether the largest harm comes from the total charge, the timing near another bill, or the failed attempt to leave.
@@ -57,6 +63,8 @@ The studies do not show the same household’s use, value, reminder, cancellatio
 ## Next test
 
 Follow one recurring service for 90 days. Record sign-up, disclosure, price change, first renewal, use, reminder, cancellation attempt, final charge, refund, account balance, and the next household payment. Measure clicks, time, calls, and failed attempts to cancel. Split results by income, age, disability, digital access, and essential versus optional service. Compare one-click sign-up and one-click cancellation with the current path, while preserving customers’ ability to keep a service they want. Report both unwanted renewals and useful services wrongly stopped, along with overdrafts, delayed bills, and refunds.
+
+Include shared household accounts and bundled payments in the test. Send reminders before the charge with the exact price, renewal date, recent use, and a working cancellation link. Then measure whether the person who received the notice could make the decision, whether another household member depended on the service, and what happened after cancellation. This would separate inattention from coordination failure and show whether an easier exit protects cash without stopping services people still value.
 
 ## Reading rule
 
