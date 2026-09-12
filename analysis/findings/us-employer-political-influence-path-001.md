@@ -12,6 +12,8 @@ Imagine a town where one company provides a large share of the stable jobs. Befo
 
 A worker in a competitive labor market hears the same message differently. The message may still matter, but leaving or speaking up costs less. The political effect is therefore tied to local economic structure, not only to the words in an email or meeting.
 
+The household may not need to agree with the employer for the message to matter. It may treat the company's forecast as a warning about the mortgage, health plan, or next paycheck. A worker can vote privately against the message while changing public speech, job search, or willingness to challenge a manager. Influence can appear as silence or caution, not only as a changed vote.
+
 ```text
 local employer power → job dependence and economic expectations → message, pressure, or silence
 → private political belief → public expression, policy demand, turnout, or vote
@@ -33,13 +35,19 @@ Source: [NBER Working Paper 35676](https://www.nber.org/papers/w35676).
 
 Political independence has an economic price. A worker may be legally free to disagree and still judge the cost of being visible against the cost of losing a job, schedule, benefit, or local network. That makes employer power a civic issue as well as a labor issue. The key unit is not just the firm or the voter. It is the household's available alternatives.
 
+The local labor market decides how much pressure a message can carry. If another employer is nearby, a worker can leave. If the next job is a long commute, lacks health coverage, or requires a move, the same legal freedom is harder to use. A dominant employer can shape the practical cost of disagreement without directing every person's political choice.
+
+This can create a feedback loop. A firm says a policy will hurt jobs; workers expect a loss; local spending and hiring weaken; the original message then appears confirmed. The reverse can happen when public investment or a new employer creates alternatives. The current evidence points to this possibility but does not prove that any one employer created the later local outcome.
+
+The public question is whether a company should be treated only as an economic actor or also as a political speaker with unusual local reach. Disclosure, labor protections, anonymous voting, unions, and a more varied local job base may change the cost of the message. The sources do not rank these tools.
+
 ## What remains unproven
 
-The evidence does not show whether a message changed a vote, whether workers merely reported influence because the employer was a salient source of information, or whether the effect lasts after the election. It does not establish how unions, public jobs, labor law, anonymous voting, or a new local employer change the result.
+The evidence does not show whether a message changed a vote, whether workers merely reported influence because the employer was a salient source of information, or whether the effect lasts after the election. It does not show whether workers changed speech, job search, or public contact while voting privately. It does not establish how unions, public jobs, labor law, anonymous voting, or a new local employer change the result.
 
 ## Next test
 
-Follow workers before and after an employer message through one election. Measure local employer job share, outside options, message content and timing, private belief, perceived pressure, work outcomes, turnout, public political contact, and vote where permitted. Compare workers in places with one dominant employer to similar workers in more competitive labor markets.
+Follow workers before and after an employer message through one election. Measure local employer job share, outside options, message content and timing, private belief, perceived pressure, speech, job search, work outcomes, turnout, public political contact, and vote where permitted. Compare workers in places with one dominant employer to similar workers in more competitive labor markets, and test whether new local alternatives change the response.
 
 ## Reading rule
 
