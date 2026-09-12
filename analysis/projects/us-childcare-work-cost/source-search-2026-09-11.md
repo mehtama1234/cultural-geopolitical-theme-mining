@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; linked household and work paths remain open
 
 ## Working question
 
@@ -27,6 +27,10 @@ child needs care
 ```
 
 The Fed and Census show the cost and work-time pieces. The missing link is whether a specific care disruption caused a later household tradeoff.
+
+## Matched evidence result
+
+The first pass treats childcare as three different records: paid care, unpaid family time, and lost or changed work. The cost and work figures point to the same pressure but do not describe one family. The next test is a linked household record that shows who paid, who gave time, and what work and income changed.
 
 ## Counterpoint to keep visible
 

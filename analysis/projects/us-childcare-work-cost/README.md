@@ -8,6 +8,11 @@ When care for children is expensive or unavailable, does a household pay with mo
 
 Use the Federal Reserve for the family's own tradeoff, Census for annual cost and lost-work measures, and the existing care and work topics for the wider chain. Separate paid care from unpaid care. A parent using a relative is not the same as a family with no care burden.
 
+## Matched evidence pass
+
+- [Childcare can be a bill, a lost workday, or an unpaid family shift](../../findings/us-childcare-work-cost-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-childcare-work-cost-matched-evidence-001.html)
+
 ## Possible connection
 
 Childcare can turn a private household cost into a labor-market and gender pattern. It also connects to food and public help when the cost of care changes which income or benefits a household can keep.
