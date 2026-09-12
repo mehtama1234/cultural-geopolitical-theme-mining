@@ -1,8 +1,8 @@
 # US source coverage
 
-90 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+91 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 5; EIA: 3; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 141; OFR: 1; Other: 33; Other government: 17; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 7; EIA: 4; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 141; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1675,6 +1675,23 @@
 - cost per prevented eviction and effects on landlords and neighbors.
 
 [Open the source-search record](projects/us-rental-assistance-eviction-prevention/source-search-2026-09-11.md)
+
+## US renters and the energy-efficiency split
+
+**Project:** `us-renter-energy-split-incentive`
+
+**Status:** matched evidence pass complete; building-level upgrade and tenant outcome records remain open
+
+**Question:** 
+
+**Sources recorded:** 4
+
+- [DOE Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+- [EIA: energy-insecure households](https://www.eia.gov/todayinenergy/detail.php?id=56640)
+- [DOE renter energy guidance](https://www.energy.gov/save/renters)
+- [ENERGY STAR inclusive utility investment](https://www.energystar.gov/products/inclusive_utility_investment)
+
+[Open the source-search record](projects/us-renter-energy-split-incentive/source-search-2026-09-11.md)
 
 ## US replacement spending and electronics waste
 

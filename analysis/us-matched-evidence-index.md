@@ -434,7 +434,17 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 44. Replacement is a second price after repair fails
+### 44. The person paying the bill may not control the fix
+
+**Theme:** Energy / housing / cost
+**Route:** renter bill → landlord control → upgrade or delay
+**Still open:** bill savings, comfort, rent, and housing stability
+
+Renters often pay for energy while landlords control major building and appliance upgrades. DOE describes this as a split incentive: the cost falls on one party and the savings on another. EIA finds that energy-insecure households paid more per square foot, with low-income renters paying more than comparable owners in the cited data. On-bill financing is one possible bridge because the cost can follow the property and the bill. The deeper finding is that energy efficiency can fail as a household solution when the person carrying the monthly burden cannot choose the repair or upgrade.
+
+[Read the HTML page](../site/us-renter-energy-split-incentive-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-renter-energy-split-incentive-matched-evidence-001.md)
+
+### 45. Replacement is a second price after repair fails
 
 **Theme:** Cost / customer / energy
 **Route:** repair failure → replacement → waste or reuse
@@ -444,7 +454,7 @@ When repair is hard, a household may replace a product before it has used up its
 
 [Read the HTML page](../site/us-replacement-e-waste-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-replacement-e-waste-household-cost-matched-evidence-001.md)
 
-### 45. The cost of a bad choice begins after the review
+### 46. The cost of a bad choice begins after the review
 
 **Theme:** Customer / cost / voice
 **Route:** review and search → purchase → return or complaint
@@ -454,7 +464,7 @@ Reviews and search can reduce the work of choosing, but the real customer cost a
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
 
-### 46. Repair access is part of the product's real price
+### 47. Repair access is part of the product's real price
 
 **Theme:** Cost / customer / work
 **Route:** product break → repair access → household choice
@@ -464,7 +474,7 @@ The price of a product includes what happens when it breaks. The FTC reports tha
 
 [Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-right-to-repair-household-cost-matched-evidence-001.md)
 
-### 47. A benefit can be lost without the need going away
+### 48. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -474,7 +484,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 48. A recovery loan can keep a local option open, but it creates another bill
+### 49. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -484,7 +494,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 49. A wider small-business rule can push the smallest firms out
+### 50. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -494,7 +504,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 50. A tariff reaches the household through a chain, not a single price
+### 51. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -504,7 +514,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 51. The same dollar can do different work depending on how it arrives
+### 52. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -514,7 +524,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 52. A car repair can protect access while taking away other room
+### 53. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

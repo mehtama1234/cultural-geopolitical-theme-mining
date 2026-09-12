@@ -57,6 +57,7 @@ routes = {
     "us-right-to-repair-household-cost-matched-evidence-001": ("Cost / customer / work", "product break → repair access → household choice", "repair price, quality, time, and replacement"),
     "us-replacement-e-waste-household-cost-matched-evidence-001": ("Cost / customer / energy", "repair failure → replacement → waste or reuse", "replacement timing, household burden, and disposal"),
     "us-appliance-efficiency-household-bill-matched-evidence-001": ("Cost / energy / customer", "appliance choice → upfront cost → energy bill", "household payback, use, and access"),
+    "us-renter-energy-split-incentive-matched-evidence-001": ("Energy / housing / cost", "renter bill → landlord control → upgrade or delay", "bill savings, comfort, rent, and housing stability"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
