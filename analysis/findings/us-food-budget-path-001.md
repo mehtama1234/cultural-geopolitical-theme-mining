@@ -6,6 +6,8 @@ Food is where an abstract money problem becomes a daily condition. A household m
 
 Food hardship therefore shows how much room remains after other claims arrive. It is not explained by food prices alone. A family can face a high grocery bill and still eat adequately if income rises or another cost falls. Another can face stable food prices and skip meals after a medical bill, energy shutoff, rent increase, or lost shift.
 
+“Enough food” is also a coarse measure. A family can avoid skipping meals by buying less fresh food, cutting a child’s preferred foods, reducing portions, or using credit. Another can protect diet quality by delaying rent or medicine. The survey result matters, but it does not tell us what the household protected or what it sacrificed.
+
 ## Follow one week through a household
 
 At the start of the month, a family pays rent and buys medicine. A car repair arrives before payday. The family switches to cheaper food, skips a meal, uses buy-now-pay-later, or asks a relative for help. The choice protects one need by exposing another. A month later, a child misses a school activity, a parent misses work, or the family carries a payment that reduces next month's food budget.
@@ -16,6 +18,8 @@ The order of the bills matters. A family may have enough money for food over a m
 price, income, energy, health, or housing shock → food budget tightens
 → less food, different food, credit, family help, or public assistance → health, work, school, stress, or debt changes
 ```
+
+The same $100 has a different meaning at different points in the month. It may buy a week of groceries after payday and prevent a skipped meal, or it may arrive after rent is late and go toward a fee. A monthly average can hide the day when the household had to choose. Food is often the visible place where that choice appears because other providers have stronger collection power.
 
 ## What the sources actually establish
 
@@ -37,6 +41,8 @@ The dinner table is a balance sheet with due dates. Families do not experience �
 Food is also a record of what the family cannot easily postpone. A cheaper meal may protect rent today while reducing diet quality. A skipped meal may protect a child’s food while an adult goes without. Credit may preserve the grocery trip while turning next month into a tighter one. These are not interchangeable outcomes, even when a survey records only whether the household had enough to eat.
 
 The wider link is to bargaining power. A household with little cash cannot make every provider wait, so it cuts the need with the fewest immediate penalties. A public food benefit, a predictable paycheck, or a payment plan can change that order. If help arrives late or is hard to use, the household may still experience the policy as absent. This can shape trust, but the current evidence does not show when food hardship becomes a political demand.
+
+The household may also change who bears the shortage. An adult eats less so a child can eat, an older relative supplies food, or a teenager works more hours. The total household record may show no missed meal while the cost appears as unpaid care, lost work, stress, or a later family debt. A food measure needs the people and time behind it.
 
 ## What remains unproven
 
