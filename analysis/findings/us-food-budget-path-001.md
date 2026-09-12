@@ -21,6 +21,10 @@ price, income, energy, health, or housing shock → food budget tightens
 
 The same $100 has a different meaning at different points in the month. It may buy a week of groceries after payday and prevent a skipped meal, or it may arrive after rent is late and go toward a fee. A monthly average can hide the day when the household had to choose. Food is often the visible place where that choice appears because other providers have stronger collection power.
 
+The store itself changes the trade. A household near a full grocery store may buy a cheaper large package, compare brands, and make fewer trips. A household without a car may pay more at a nearby shop, pay for delivery, or spend extra time reaching a discount store. A cheaper food plan can therefore require more cash at once, more cooking time, or a route the household cannot use. Price per item is not the same as cost of getting and preparing the meal.
+
+Food choices also carry future costs. A family may buy food that is filling but harder to store or less suited to a child’s health need. It may cut fresh food, skip a prescribed diet, or use a food pantry that requires a long trip. These may be sensible short-term choices under pressure, but the later health or time cost can appear in a different record. The point is not that one diet is morally better; it is that the budget decision has effects beyond the checkout receipt.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
@@ -44,6 +48,10 @@ The wider link is to bargaining power. A household with little cash cannot make 
 
 The household may also change who bears the shortage. An adult eats less so a child can eat, an older relative supplies food, or a teenager works more hours. The total household record may show no missed meal while the cost appears as unpaid care, lost work, stress, or a later family debt. A food measure needs the people and time behind it.
 
+This helps explain why food hardship can become a public trust issue. A household may hear that inflation is easing while its nearby store, travel cost, or preferred food remains expensive. It may receive a benefit but lose it when income rises slightly, or receive help after the bill has already been paid with debt. The political judgment may attach to the whole system of prices and help, not to groceries alone. That is a plausible path, not a result shown by the measures above.
+
+The timing of support is as important as its amount. A monthly benefit, a school meal, a pantry box, a wage payment, and a bill extension protect different days. A benefit that arrives after rent may prevent a later shortage but fail to solve this week’s one. The household’s question is often not “How much help exists?” but “Will it arrive before the next choice I cannot avoid?”
+
 ## What remains unproven
 
 The evidence does not establish whether food prices, income loss, medical costs, energy, housing, or debt is the first break for a particular family. It does not show whether credit prevented a meal from being skipped or made the next month worse. Nor does one food measure reveal diet quality, child health, the timing of the bill, or the amount of unpaid family help. It also does not show whether a public benefit changed food security by raising income, changing timing, or preventing another payment.
@@ -51,6 +59,8 @@ The evidence does not establish whether food prices, income loss, medical costs,
 ## Next test
 
 Use Census HTOPS for recent food insufficiency, difficulty paying usual expenses, housing, and energy use. Pair it with USDA state estimates and credit measures. Follow the same households through food, energy, rent, medical, debt, health, and work changes, recording the due date that forced each trade, the need cut first, and whether help arrived before or after the cut. Separate food quantity, food quality, credit use, and unpaid family support.
+
+Add a weekly food-and-bill diary for six months. Record the store or delivery route, price, package size, cooking time, benefit date, payday, bill due date, food substitution, and who absorbed the shortage. Link the diary to missed care, work time, debt, and health rather than treating food security as a single yes-or-no result. Compare households with similar income but different transport and store access. This would show whether a food benefit changes the amount of food, the timing of cash, the quality of meals, or another bill that would otherwise have been missed.
 
 ## Reading rule
 
