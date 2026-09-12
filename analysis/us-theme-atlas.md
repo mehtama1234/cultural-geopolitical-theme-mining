@@ -605,6 +605,8 @@ Follow a business or family shock into the owner's protection choice, then ask w
 
 Still missing: The current sources do not follow the same owner through the choice and later jobs, services or family wealth.
 
+[Read the complete connected memo](../site/us-owner-household-cash-path-001.html)
+
 ### When a raise changes the help a family can keep
 
 Follow an earnings change into the public help that falls away, then ask whether the household has more room and more stable work afterward.
