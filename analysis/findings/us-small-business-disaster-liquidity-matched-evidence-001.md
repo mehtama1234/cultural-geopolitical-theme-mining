@@ -1,56 +1,45 @@
 # A recovery loan can keep a local option open, but it creates another bill
 
-## Short answer
+## The argument
 
-After a natural disaster, a small firm may need cash before customers return or insurance pays. NBER finds that government recovery loans reduced exit and bankruptcy and increased employment and revenue. SBA rules show the money is meant for repair and ordinary operating bills, not expansion.
+After a disaster, a small firm may need cash before customers return or insurance pays. A recovery loan can keep the firm open, protect jobs, and preserve a local service. But survival is not the same as recovery. The loan also creates repayment risk, and a firm that stays open may still cut hours, raise prices, delay repairs, or weaken the owner's household.
 
-That is a real firm result, not yet a full community result. Keeping the firm open may protect jobs and customer access, but the loan also creates repayment risk. We do not yet know whether the owner household, workers, or customers were better off in the longer run.
+The public question is therefore bigger than the number of firms that avoided closure. Did the money arrive soon enough? Did workers keep good jobs? Did customers keep a useful service at a fair price? Did the owner household remain stable while repaying the debt?
 
-## What the matched evidence shows
+## Follow one damaged firm
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Damage and gap | SBA disaster loans can cover physical repair and economic injury such as payroll, rent, utilities, fixed debt, and other working capital. | Whether a particular firm received enough, soon enough. |
-| Firm survival | NBER finds recovery loans reduced exit and bankruptcy after natural disasters. | Whether every surviving firm was healthy or able to repay. |
-| Work and sales | NBER finds higher employment and revenue, and less delinquency and more private credit. | Pay, hours, safety, and the quality of the jobs. |
-| Local spillover | NBER finds no capital reallocation away from neighboring firms and some evidence of positive local entry. | Whether each neighborhood kept the service or price it needed. |
-| Owner household | Related NBER evidence shows business losses can be partly separated from owner consumption when cash and public aid absorb the shock. | The disaster-loan study’s effect on the owner’s family budget. |
-
-Sources: [NBER Working Paper 32326](https://www.nber.org/papers/w32326), [SBA disaster assistance](https://www.sba.gov/disaster/), [NBER Working Paper 28151](https://www.nber.org/papers/w28151).
-
-## The connection
+A neighborhood shop loses equipment and customers after a flood. Payroll and rent continue while repairs wait. The owner applies for an SBA loan. The money arrives, the shop reopens, and workers return. Months later, repayment competes with new repairs and weak demand. The loan preserved the storefront, but the full recovery is still uncertain.
 
 ```text
-disaster damage or lost demand
-  -> repair and working-capital gap
-  -> insurance, SBA loan, private credit, or no help
-  -> firm exit, survival, or delayed recovery
-  -> workers, customers, owner household, and local services
+disaster damage or lost demand → repair and working-capital gap
+→ insurance, SBA loan, private credit, or no help
+→ firm exit, survival, or delayed recovery
+→ workers, customers, owner household, and local services
 ```
 
-The important distinction is between a firm that stays open and a place that keeps its options. A loan can improve the first without proving the second.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Damage and gap | SBA disaster loans can cover repair and economic injury such as payroll, rent, utilities, fixed debt, and working capital. | The program targets both physical and cash damage. |
+| Firm survival | NBER finds recovery loans reduced exit and bankruptcy after natural disasters. | Loans can keep firms alive. |
+| Work and sales | NBER finds higher employment and revenue, less delinquency, and more private credit after recovery lending. | Firm-level recovery can be measured. |
+| Local spillover | NBER finds no capital reallocation away from neighboring firms and some evidence of positive local entry. | One firm's recovery need not hollow out nearby firms. |
+| Missing household result | The study does not show the owner's family budget, worker job quality, or customer prices. | Survival stops short of community proof. |
 
-**Household:** Measure the owner's cash, debt, home damage, family spending, and repayment burden beside the firm.
+Sources: [NBER disaster recovery loans](https://www.nber.org/papers/w32326), [SBA disaster assistance](https://www.sba.gov/disaster/), and [NBER owner household response](https://www.nber.org/papers/w28151).
 
-**Company and workers:** Separate survival from jobs, pay, hours, benefits, and safety.
+## The deeper finding
 
-**Money and finance:** Ask whether the loan resolves repair uncertainty or only moves the loss into future payments.
+A recovery loan can protect a local option while shifting the loss into future payments. It may help the owner, workers, and customers at once, or mainly keep a balance sheet alive. The loan's wider value depends on timing, repayment, wages, hours, prices, service quality, and whether the business remains open after the first year.
 
-**Public power:** Judge the program by who gets funds, how fast, what is protected, and whether local customers retain useful choices.
+## What remains unproven
 
-## What would change the finding
-
-- The same firm’s damage, insurance, application, loan, cash, revenue, exit, and repayment path.
-- Worker pay, hours, benefits, and job quality after recovery.
-- Customer prices, service access, quality, and replacement options.
-- Owner household income, housing, debt, and spending after the loan.
-- Results by race, place, industry, firm age, owner wealth, and disaster type.
+The evidence does not follow the same firm and owner from damage through application, loan, repair, revenue, repayment, workers, customers, and closure. It also does not show who receives enough help or which local services remain accessible.
 
 ## Next test
 
-Follow firms and owners monthly for two years after a disaster. Compare similar firms by loan timing and receipt, then trace whether survival reached workers, customers, and local services or stopped at the firm balance sheet.
+Follow firms and owners monthly for two years after a disaster. Compare similar firms by loan timing and receipt. Trace whether survival reached workers, customers, and local services or stopped at the firm balance sheet.
 
 ## Reading rule
 

@@ -220,7 +220,7 @@ Energy burden is usually presented as a percentage: energy spending divided by h
 **Route:** unstable pay → cash buffer → spending room
 **Still open:** the same worker's later household choices
 
-Two workers can earn the same amount over a year and still have very different lives if one cannot predict next month's pay. Low liquid wealth makes temporary income shocks more visible in spending, and temporary workers can face both greater income risk and less access to credit.  The careful finding is that income level and income safety are different. The evidence does not yet show the same worker's full path from unstable pay to a particular missed bill, health choice, or family decision.
+Two workers can earn the same amount over a year and still have very different lives if one cannot predict next month's pay. Rent, food, medicine, care, and car repairs arrive on dates. A yearly income number smooths over the gap between when money is earned and when it is needed.  The deeper finding is that income level and income safety are different. A household with savings can absorb a late paycheck. A household with little liquid wealth may cut spending, borrow, miss a payment, or give up care after the same-sized shock. Temporary workers can face both greater income risk and less access to credit, so the timing problem can become a longer one.
 
 [Read the HTML page](../site/us-income-volatility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-income-volatility-matched-evidence-001.md)
 
@@ -530,7 +530,7 @@ Eligibility is not the same as access. A household can qualify for food or healt
 **Route:** disaster → recovery credit → firm and local options
 **Still open:** worker, customer, household, and repayment effects
 
-After a natural disaster, a small firm may need cash before customers return or insurance pays. NBER finds that government recovery loans reduced exit and bankruptcy and increased employment and revenue. SBA rules show the money is meant for repair and ordinary operating bills, not expansion.  That is a real firm result, not yet a full community result. Keeping the firm open may protect jobs and customer access, but the loan also creates repayment risk. We do not yet know whether the owner household, workers, or customers were better off in the longer run.
+After a disaster, a small firm may need cash before customers return or insurance pays. A recovery loan can keep the firm open, protect jobs, and preserve a local service. But survival is not the same as recovery. The loan also creates repayment risk, and a firm that stays open may still cut hours, raise prices, delay repairs, or weaken the owner's household.  The public question is therefore bigger than the number of firms that avoided closure. Did the money arrive soon enough? Did workers keep good jobs? Did customers keep a useful service at a fair price? Did the owner household remain stable while repaying the debt?
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
@@ -620,7 +620,7 @@ After a missed utility payment, the most important question may be how much time
 **Route:** repair bill → cash timing → access
 **Still open:** same-household work, care, and later-debt effects
 
-A car repair is not just a transport bill. For a household with little cash, it can arrive between paychecks and compete with food, medicine, housing, or another payment. Paying the repair may protect a job or care visit; not paying may reduce access.  The evidence supports the pressure and the value of mobility. It does not yet prove that one repair caused job loss, missed care, or later debt for the same US household. The missing fact is what the household gave up after keeping the car moving—or after losing it.
+A car repair is not just a transport bill. For a household with little cash, it can arrive between paychecks and compete with food, medicine, housing, or another payment. Paying the repair may protect a job or care visit. Not paying may reduce access to both.  This creates a double result. The repair can be a cost and a way to avoid a larger cost. The important question is not only whether the household paid. It is what it could still reach or pay afterward, and whether a usable alternative existed.
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 

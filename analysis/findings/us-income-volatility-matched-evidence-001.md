@@ -1,55 +1,44 @@
 # A yearly income can hide an unsafe month
 
-## Short answer
+## The argument
 
-Two workers can earn the same amount over a year and still have very different lives if one cannot predict next month's pay. Low liquid wealth makes temporary income shocks more visible in spending, and temporary workers can face both greater income risk and less access to credit.
+Two workers can earn the same amount over a year and still have very different lives if one cannot predict next month's pay. Rent, food, medicine, care, and car repairs arrive on dates. A yearly income number smooths over the gap between when money is earned and when it is needed.
 
-The careful finding is that income level and income safety are different. The evidence does not yet show the same worker's full path from unstable pay to a particular missed bill, health choice, or family decision.
+The deeper finding is that income level and income safety are different. A household with savings can absorb a late paycheck. A household with little liquid wealth may cut spending, borrow, miss a payment, or give up care after the same-sized shock. Temporary workers can face both greater income risk and less access to credit, so the timing problem can become a longer one.
 
-## What the matched evidence shows
+## Follow one pay gap
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Cash buffer | NBER finds much greater spending sensitivity to typical labor-income shocks among low-liquidity households and close to zero sensitivity among high-liquidity households. | Which bill or need changed for one household. |
-| Unequal room | NBER finds Black and Hispanic households about twice as sensitive to typical income shocks as White households in the studied data; racial wealth inequality explains most of the difference statistically. | A complete explanation for every household or place. |
-| Household response | NBER finds spending and debt responses vary widely and depend on motives, experience, and expectations. | A simple rule that predicts what every family will do. |
-| Work and credit | NBER finds temporary workers face greater income risk and lenders ration credit to them when housing and consumption loans may matter. | Whether credit rationing causes a later move, delay, or family change. |
-
-Sources: [NBER Working Paper 27552](https://www.nber.org/papers/w27552), [NBER Working Paper 32191](https://www.nber.org/papers/w32191), [NBER Working Paper 32858](https://www.nber.org/papers/w32858).
-
-## The connection
+A worker's hours fall for three weeks. The annual wage may still look adequate, but rent is due Friday and the car needs a repair. The household uses a card, asks family for help, delays a utility bill, or skips a purchase. When the paycheck returns, the earlier gap has become a new monthly payment.
 
 ```text
-pay becomes less predictable
-  -> savings and credit absorb timing risk
-  -> food, housing, health, or durable spending changes
-  -> work choice and family planning become harder
-  -> firms, lenders, and public programs decide who absorbs the risk
+pay becomes less predictable → savings and credit absorb timing risk
+→ food, housing, health, or durable spending changes
+→ work choice and family planning become harder
+→ firms, lenders, and public programs decide who absorbs the risk
 ```
 
-The deeper point is timing. An income that looks adequate over twelve months may not arrive when rent, food, medicine, or a repair is due.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Cash buffer | NBER finds much greater spending sensitivity to labor-income shocks among low-liquidity households and close to zero sensitivity among high-liquidity households. | Liquid cash changes the shock's effect. |
+| Unequal room | NBER finds Black and Hispanic households about twice as sensitive to typical income shocks as White households in the studied data; racial wealth inequality explains much of the statistical difference. | Wealth changes exposure across groups. |
+| Household response | NBER finds spending and debt responses vary by motives, experience, and expectations. | There is no single family response. |
+| Work and credit | NBER finds temporary workers face greater income risk and lenders ration credit to them. | Unstable work can remove the bridge meant to smooth it. |
 
-**Household:** Count pay timing, liquid savings, family help, debt, fees, food, housing, health, and the cost of waiting.
+Sources: [NBER liquidity and spending](https://www.nber.org/papers/w27552), [NBER racial wealth and shocks](https://www.nber.org/papers/w32191), and [NBER temporary work and credit](https://www.nber.org/papers/w32858).
 
-**Company and sector:** Temporary work can offer entry and flexibility, but firms may place demand swings and benefit gaps on workers.
+## The deeper finding
 
-**Money and finance:** Credit can smooth a short gap, but rationing or high cost can turn a timing problem into a longer debt problem.
+The unsafe month is the useful unit. A household may be fine over a year and still be forced into debt when pay arrives after the bill. That timing shapes food, housing, health, work, and family planning. Public support, employer pay smoothing, and credit can reduce the gap, but each has terms and an exit cost.
 
-**Public power:** Wage rules, unemployment insurance, benefit timing, banking access, and worker protections decide who must absorb unstable pay.
+## What remains unproven
 
-## What would change the finding
-
-- Weekly or monthly pay, liquid savings, credit offers, spending, debt, housing, and health for the same worker.
-- Job quality, control, schedule, benefits, and the reason for accepting uncertain work.
-- Results by race, age, gender, family, place, occupation, and disability.
-- Whether public aid, employer pay smoothing, or family support offsets the risk.
-- A counterexample where income volatility does not reduce household room because outside options are strong.
+The evidence does not show the same worker's full path from unstable pay to a particular missed bill, health choice, or family decision. It also does not explain every racial or place-based difference or show which intervention gives lasting security.
 
 ## Next test
 
-Follow workers before and after a move into uncertain work. Join pay timing, bank balances, credit terms, spending, housing, care, health, job changes, and family plans. Measure the unsafe month, not only the yearly average.
+Follow workers before and after a move into uncertain work. Join weekly pay, bank balances, credit terms, spending, housing, care, health, job changes, and family plans. Measure the unsafe month, not only annual income.
 
 ## Reading rule
 
