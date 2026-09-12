@@ -1,55 +1,44 @@
 # The cheaper monthly bill may require a large first payment
 
-## Short answer
+## The argument
 
-An efficient appliance can lower operating cost, but the household must first pay for the product, installation, and sometimes financing. DOE says standards save consumers money across many product types, while EIA's 2024 survey gives a current way to see which homes have which appliances and energy conditions. NBER evidence from a Mexican replacement program adds a warning: lower operating cost can change how much a product is used, so savings are not guaranteed for every appliance. The deeper finding is that energy efficiency is a household cash-flow question, not only a technology question.
+An efficient appliance can lower the monthly bill, but the household must first pay for the product, installation, and sometimes financing. This creates a basic split: the household with the largest possible savings may be the least able to make the first payment.
 
-## What the matched evidence shows
+DOE standards can improve the products available in the market. EIA's household survey can show which homes have which appliances and energy conditions. But neither fact proves that a particular family reaches the savings. Renters may not control the appliance. A homeowner may lack cash, wiring, credit, or a safe place to install it. Efficiency is therefore a cash-flow and control problem, not only a technology problem.
 
-| Layer | What the evidence says | What remains open |
+## Follow one appliance
+
+A household has an old refrigerator and a high electric bill. A newer model could use less energy, but the purchase and delivery cost arrive today while the savings arrive over many months. The family delays the purchase, uses credit, or buys a cheaper less-efficient model. Another family with cash receives the long-run savings. The same technology creates different outcomes because the first payment is unequal.
+
+```text
+old appliance or high bill → purchase, financing, installation, or delay
+→ lower or higher energy use → monthly bill and cash change
+→ repair, use, replacement, or sacrifice → energy burden and policy trust change
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Product | DOE standards cover more than 70 products and aim to reduce energy use and bills. | Actual lifetime cost by product, home, and local energy price. |
-| Household stock | EIA's 2024 survey covers nearly 17,000 households and records appliances, housing, demographics, and energy insecurity. | Which households replace, repair, or delay. |
-| Bill | Efficient equipment can lower energy use, but savings depend on use and rates. | Monthly bill change for the same household. |
-| Use | NBER found refrigerator savings in one program but higher air-conditioner use after replacement. | Whether the pattern holds in US homes and products. |
-| Access | DOE says upfront cost should be considered alongside actual family savings. | Financing, rebates, landlord control, and unequal access. |
+| Product | DOE standards cover more than 70 products and aim to reduce energy use and bills. | Rules can raise the floor of available efficiency. |
+| Household stock | EIA's 2024 survey covers nearly 17,000 households, including appliances, housing, demographics, and energy insecurity. | Household conditions can be measured together. |
+| Bill | Savings depend on use, local rates, housing, and equipment condition. | The same appliance does not produce the same result everywhere. |
+| Use | NBER found refrigerator savings in one replacement program but higher air-conditioner use after replacement. | Lower operating cost can change how much a product is used. |
+| Access | DOE says upfront cost must be considered alongside family savings. | A long-run benefit may be unreachable today. |
 
 Sources: [DOE appliance standards](https://www.energy.gov/cmei/buildings/appliance-and-equipment-standards-program), [EIA 2024 RECS](https://www.eia.gov/consumption/residential/index.php), [NBER Cash for Coolers](https://www.nber.org/papers/w18044), and [DOE affordable energy](https://www.energy.gov/topics/affordable-energy-consumers).
 
-## The connection
+## The deeper finding
 
-```text
-old appliance or high bill
-  → upfront purchase, financing, and installation cost
-  → lower or higher energy use
-  → monthly bill and household cash change
-  → repair, use, replacement, or delay
-  → energy burden and trust in policy change
-```
+An efficiency policy can be good for the product market and still uneven for families. The key outcome is not the label or the predicted annual saving. It is whether the household can pay, install, use, repair, and keep the product long enough to realize the saving. That connects energy policy to credit, housing control, landlord rules, and monthly financial room.
 
-The sources support the standards, household measurement, and use-response mechanisms. They do not yet follow one US household from purchase price to later bills.
+## What remains unproven
 
-## The useful surprise
+The sources do not yet follow one US household from appliance purchase price to installation, energy use, bills, repair, and replacement. They also do not show the net result for renters, low-cash households, or homes with poor wiring and insulation.
 
-The household with the largest possible bill savings may be the least able to make the first payment. A standard can improve the products on the shelf while leaving renters, low-cash households, and people with old wiring or poor housing unable to reach the benefit.
+## Next test
 
-## Four views
-
-**Household:** Count purchase, installation, financing, repair, energy use, bill, rebate, and replacement timing.
-
-**Customer:** Record appliance age, efficiency, use, landlord permission, local rate, and whether the household can choose the product.
-
-**Money and finance:** Compare monthly savings with upfront cash, loan payment, warranty, and debt room.
-
-**Public power:** Test standards, rebates, labeling, rental rules, grid needs, and access by income and place.
-
-## What would change the finding
-
-- Appliance purchase and replacement records linked to household energy bills.
-- Upfront price, financing, rebate, installation, repair, and warranty records.
-- Energy use before and after replacement, including changes in use.
-- Results by income, tenure, housing condition, local rate, and climate.
-- Evidence for renters and households unable to control the appliance.
+Join appliance purchase and replacement records to household bills, use, financing, rebates, installation, repair, warranty, tenure, housing condition, local rate, and climate. Compare households that could reach the same technology with and without upfront help.
 
 ## Reading rule
 

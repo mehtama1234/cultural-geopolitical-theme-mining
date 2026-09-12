@@ -20,7 +20,7 @@ The US relies on family members to provide a large amount of eldercare without a
 **Route:** appliance choice → upfront cost → energy bill
 **Still open:** household payback, use, and access
 
-An efficient appliance can lower operating cost, but the household must first pay for the product, installation, and sometimes financing. DOE says standards save consumers money across many product types, while EIA's 2024 survey gives a current way to see which homes have which appliances and energy conditions. NBER evidence from a Mexican replacement program adds a warning: lower operating cost can change how much a product is used, so savings are not guaranteed for every appliance. The deeper finding is that energy efficiency is a household cash-flow question, not only a technology question.
+An efficient appliance can lower the monthly bill, but the household must first pay for the product, installation, and sometimes financing. This creates a basic split: the household with the largest possible savings may be the least able to make the first payment.  DOE standards can improve the products available in the market. EIA's household survey can show which homes have which appliances and energy conditions. But neither fact proves that a particular family reaches the savings. Renters may not control the appliance. A homeowner may lack cash, wiring, credit, or a safe place to install it. Efficiency is therefore a cash-flow and control problem, not only a technology problem.
 
 [Read the HTML page](../site/us-appliance-efficiency-household-bill-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-appliance-efficiency-household-bill-matched-evidence-001.md)
 
@@ -480,7 +480,7 @@ A second energy crisis can mean several different things: a short income gap, a 
 **Route:** repair failure → replacement → waste or reuse
 **Still open:** replacement timing, household burden, and disposal
 
-When repair is hard, a household may replace a product before it has used up its useful life. NBER models this as a possible durability gap. EPA shows that electronics then create a separate end-of-life problem: they need special collection, and batteries can require repair, reuse, or hazardous-waste handling. The deeper finding is that replacement moves a cost from the repair decision into the household budget and the waste system.
+Replacement can look like an ordinary customer choice while hiding a forced decision. When repair is too costly, too slow, or unavailable, the household pays again to recover a function it already bought. The old product then enters a second system: storage, resale, collection, recycling, or disposal.  That means the cost is split. The household pays the new purchase, interest, lost time, and sometimes a collection fee. The local waste system handles the old product. Batteries and electronics can carry safety risks or valuable materials. Repair access and waste policy are therefore part of the same household story.
 
 [Read the HTML page](../site/us-replacement-e-waste-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-replacement-e-waste-household-cost-matched-evidence-001.md)
 
@@ -500,7 +500,7 @@ Reviews and search can reduce the work of choosing, but the real customer cost a
 **Route:** product break → repair access → household choice
 **Still open:** repair price, quality, time, and replacement
 
-The price of a product includes what happens when it breaks. The FTC reports that difficult design, unavailable parts or repair information, software locks, and warranty steering can narrow repair choices and push people toward authorized networks or replacement. FTC warranty guidance says coverage may include repair, replacement, or refund, while a 2024 warning says companies generally cannot require specific parts or service providers to keep warranty coverage. The deeper finding is that repair access changes the household's real cost, time, and ability to keep working—but safety and quality concerns still need testing.
+The price of a product includes what happens when it breaks. A phone, car, appliance, or work tool can be cheap to buy and expensive to keep alive. The FTC identifies design limits, missing parts, unavailable repair information, software locks, and warranty practices that can narrow repair choices. Those limits turn a failure into a forced replacement or a long period without the product.  The key question is not whether every repair should be allowed by anyone. Safety and quality matter. The key question is whether the customer has a fair, workable choice: an authorized repair, an independent repair, a part, a manual, a warranty claim, or a replacement with a clear price. Without that choice, the product's purchase price hides a future cost.
 
 [Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-right-to-repair-household-cost-matched-evidence-001.md)
 
