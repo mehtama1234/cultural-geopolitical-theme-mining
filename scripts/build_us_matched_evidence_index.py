@@ -22,6 +22,7 @@ routes = {
     "us-vehicle-repair-household-matched-evidence-001": ("Cost / work / time", "repair bill → cash timing → access", "same-household work, care, and later-debt effects"),
     "us-safety-net-access-matched-evidence-001": ("Cost / time / voice", "need → rule and access → benefit kept or lost", "same-household food, work, debt, health, and trust effects"),
     "us-transfer-design-household-matched-evidence-001": ("Cost / time / voice", "aid form → spending choice → household security", "food security, care, trust, and long-run security"),
+    "us-rental-assistance-eviction-matched-evidence-001": ("Cost / housing / voice", "rent shock → aid or counsel → housing case", "lasting housing, credit, work, and health effects"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

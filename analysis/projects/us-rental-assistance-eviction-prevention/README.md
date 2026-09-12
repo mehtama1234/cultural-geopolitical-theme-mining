@@ -15,3 +15,7 @@ Rent aid and legal help act at different points in the same chain. One adds mone
 ## Decision rule
 
 Move on after one study measures actual aid outcomes, one study explains who recovers after missed rent, and one next dataset follows households after assistance ends. Do not call a payment increase a lasting housing win.
+
+## Matched evidence pass
+
+The first matched check is [Rent aid can buy time; a lawyer can change the case](../../findings/us-rental-assistance-eviction-matched-evidence-001.md), with its [HTML reading page](../../../site/us-rental-assistance-eviction-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms immediate payment and legal effects while leaving lasting housing, credit, work, and health effects open.
