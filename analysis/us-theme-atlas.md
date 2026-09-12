@@ -932,6 +932,8 @@ Follow perceived political alignment into trust in the economic message, then as
 
 Still missing: The Fed studies measure trust and inflation beliefs; the broader household and political path remains untested.
 
+[Read the complete connected memo](../site/us-fed-partisan-trust-path-001.html)
+
 ### When a household price becomes political blame
 
 Follow the price people feel into the cause they name, then ask which policy or political response follows.
