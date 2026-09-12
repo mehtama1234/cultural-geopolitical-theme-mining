@@ -6,6 +6,8 @@ Family care is work, but it is often counted first as private time. When a perso
 
 The careful finding is that care creates a possible money and public-life path. The sources show how common unpaid eldercare is and connect reported care to long-run earnings records. They do not show that care alone changes borrowing, trust, or a vote. Care can be valuable and costly at the same time; the value provided should not be confused with the burden carried by one person.
 
+The household may not experience the cost as a single care bill. It may appear as one fewer shift, a longer drive, a missed promotion, a card balance, or a sibling who stops saving. The care itself may be the right choice and still reduce the caregiver’s future options. A serious account must hold both facts at once.
+
 ## What the sources show
 
 BLS reports that 38.2 million people provided unpaid eldercare in 2023–24. Fifty-five percent were women, and care providers spent an average of 3.9 hours on days when they provided care. Among providers who were also parents of children at home, 86% were employed and 72% worked full time.
@@ -36,6 +38,10 @@ The deeper connection is to household slack. A caregiver may keep every bill cur
 
 Care can also change public judgment. If an employer offers leave that cannot be taken without losing income, the policy may look generous on paper but weak in practice. If a tax credit arrives after a caregiver has already reduced work, it may not restore the lost path. A family may ask for a different rule not because care was unwanted, but because its private solution became too costly.
 
+Consider a worker who leaves two shifts each week to drive a parent to appointments. A sibling contributes money but cannot change jobs. The family avoids a $2,000 monthly care bill, yet the worker loses wages and may lose access to a better schedule. If a public benefit later covers part of the paid care, the family may still lack a provider who can work the needed hours. The outcome depends on money, time, distance, and available care—not on the benefit amount alone.
+
+The political path is especially easy to overstate. A caregiver may support paid leave, a tax credit, or public care funding. But the person may also vote on housing, health, safety, or party identity, or not vote. The care experience gives a reason for a policy view; it does not prove a political action.
+
 ## The four outside views
 
 **Household:** A family may trade work time for care, ask another relative for help, or buy care. The same care need has a different money effect depending on wages, savings, distance, health, and how many people can share the work. The person who provides the most hours may not be the person with the most money.
@@ -43,6 +49,8 @@ Care can also change public judgment. If an employer offers leave that cannot be
 **Company and sector:** Employers set schedules, leave, remote-work options, and benefits. Care support may keep a worker in a job, but a benefit that cannot be used at the needed time may have little value. A flexible schedule can protect earnings while still shifting more unpaid work onto the caregiver.
 
 **Money and finance:** The missing account is the full one: lost earnings, paid care, transport, debt, savings, medical costs, and the value of the care provided. A simple wage measure misses the trade. So does a paid-care bill if it ignores the hours the family still supplies.
+
+The distribution inside the family matters too. One person may lose current pay, another may spend savings, and a third may take on unpaid hours. A household total can hide who gained time and who lost future earnings. That matters for gender, bargaining power, and whether the person carrying the care can later recover.
 
 **Public power:** Tax credits, leave, care supply, health coverage, and work rules shape whether care stays inside the family or becomes a paid or public need. A policy claim needs evidence of take-up and later household change. A benefit that exists but is hard to use may not change the care burden.
 
