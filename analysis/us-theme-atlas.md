@@ -116,6 +116,8 @@ Follow a benefit or benefit loss into felt household security, then ask how that
 
 Still missing: The current sources do not follow the same family from benefit exposure through spending, sentiment, policy support and voting.
 
+[Read the complete connected memo](../site/us-child-tax-credit-sentiment-path-001.html)
+
 ### When place changes what a paycheck can buy
 
 Follow local prices into the household's felt buying power, then ask how the remaining room changes purchases, savings or political judgment.
