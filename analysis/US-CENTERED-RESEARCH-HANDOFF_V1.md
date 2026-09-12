@@ -12,6 +12,12 @@ Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve s
 
 Keep research passes short. Add a supported finding, a useful connection, or a clear unresolved question, then move to the next topic. The eighty-three opening packets exist; the next work is checking their strongest claims and connections, not recreating project briefs.
 
+The current deepening pass has added fuller household paths to the Markdown records for transportation, rideshare, income timing, childcare, safety-net access, payment fees, utility debt and shutoff, energy and housing, repair and replacement, credit records, rent guarantees, small businesses, reviews, customer automation, inflation, and the big-picture synthesis. These edits are useful only when the HTML page carries the same argument. A valid HTML file is not enough if it still shows an older summary.
+
+The next publishing check is therefore page parity: compare every changed Markdown finding with its HTML page for the title, argument, evidence limits, deeper finding, unknowns, next test, reading rule, and source links. Mark a page `matched`, `HTML-valid-but-stale`, or `missing`. Do not call a finding complete until it is both evidence-checked and matched in the reader-facing page.
+
+The first run of `python3 scripts/validate_us_finding_parity.py` checked 63 finding pairs and found 27 parity failures. The failures are now visible and should be cleared in batches, starting with pages that are part of the main reading paths. The check confirms that “HTML parses” and “HTML matches the current finding” are different gates.
+
 ## Where we are going
 
 The next major research stream will study the United States from the inside out: what customers and households experience, how firms respond, how money and credit shape the choices available, how public institutions react, and how those changes become social and political pressure.
@@ -89,5 +95,7 @@ The first queue should favor questions where household experience and institutio
 ## Handoff state
 
 The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighty-three topic records, five themes, one hundred and sixty-five connections and eighty-five reading paths. All topics now have at least two graph links. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+
+The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. The remaining end-to-end work is not more prose alone: synchronize the reader-facing HTML for the deepened pages, add the parity check to the publication gate, and then use the integrated household calendar to test the strongest cross-topic chains with actual joined records.
 
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
