@@ -599,6 +599,8 @@ Follow a shock from one household into money or unpaid care from another, then a
 
 Still missing: The current sources show changes in family support but do not follow both sides through work, debt and later security.
 
+[Read the complete connected memo](../site/us-family-support-buffer-path-001.html)
+
 ### When the family and the business share one cash pool
 
 Follow a business or family shock into the owner's protection choice, then ask what happens to business investment and household room.
