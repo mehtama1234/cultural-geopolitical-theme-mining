@@ -18,6 +18,10 @@ The order of failure matters. If communications fail but power remains, a termin
 
 The payment channel, merchant, supply, transport, and household buffer all have to work together. A backup that works for a restaurant may not work for a pharmacy or fuel station.
 
+The outage can also create a race for the backups. People with early warning may withdraw cash, fill the car, or buy supplies before the network fails. That can leave less cash, fuel, or stock for people who had no warning, no transport, or no room on a credit card. Preparation spending is therefore not only a private choice; at scale it can change what is available to the next household. The same transaction data can hide that distributional split.
+
+Recovery has two clocks. The first is the time until a purchase can be made. The second is the time until the account, merchant, and household records agree about what happened. A card may be declined, then charged twice when the system returns. A merchant may accept an offline payment but wait days for approval. A customer may see a balance hold and delay another purchase. Restoring the signal is not the same as restoring trust in the balance.
+
 ```text
 storm or infrastructure failure → electronic payment unavailable
 → cash, another card, offline tool, store credit, or no transaction
@@ -44,6 +48,10 @@ The wider finding is about uneven recovery. A household with cash, a second card
 
 It also changes the meaning of “financial inclusion.” Having an account is not enough if the account cannot be used when the network is down. A resilient system needs a safe fallback, clear rules for offline transactions, protection against duplicate charges, and a way for merchants to reconcile later. But every fallback shifts risk: offline credit can expose a merchant to loss, and cash can expose a customer to theft or loss.
 
+This makes small merchants a crucial middle point. A large chain may have several processors, insurance, and a central cash system. A corner store may have one terminal, one bank account, and little ability to absorb a bad offline payment. If the system asks that store to provide the fallback, it is asking a local business to finance public resilience. If it refuses, nearby households pay in travel, time, or missed care. The right question is who is equipped and paid to carry the backup risk.
+
+The political lesson is easy to miss because the failure looks technical. A household may blame its bank, the utility, the network, the merchant, or emergency management depending on where the transaction stopped. A later refund may repair the account but not the missed shift or delayed medicine. Public trust will follow the lived interruption, not merely the final reconciliation entry.
+
 ## What remains unproven
 
 The study does not show which households missed food, medicine, fuel, or work access, or which backup design works best in every outage. It does not prove that every cash user was in hardship. Cash can be lost or stolen, and a long outage can empty shelves and stop fuel pumps. It does not show whether a merchant’s offline approval created later fraud, duplicate billing, or unrecovered sales.
@@ -51,6 +59,8 @@ The study does not show which households missed food, medicine, fuel, or work ac
 ## Next test
 
 Follow households and small merchants through a real outage and the three months after it. Join payment attempts, cash access, merchant acceptance, offline tools, essential purchases, credit, work, care, health, transport, duplicate charges, lost sales, and reconciliation. Compare households with different backups but similar needs. Report four outcomes separately: whether the transaction happened, whether the essential need was met, what extra cost was paid, and how long recovery took.
+
+Test the system before the next emergency with a controlled outage exercise across banks, processors, utilities, pharmacies, fuel stations, and small stores. Track a simulated purchase from decline through fallback and final settlement. Measure who bears loss when an offline payment is rejected, duplicated, or disputed. The exercise should include households with no car, limited cash, disability, and time-sensitive medicine; a fallback that works only for a well-resourced customer is not a general resilience measure.
 
 ## Reading rule
 
