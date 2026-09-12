@@ -48,6 +48,8 @@ The full SIPP slice now has a [weighted raw-code scan](projects/us-household-cal
 
 The SIPP fields are mapped to the five bridges in the [SIPP broad-bridge crosswalk](projects/us-household-calendar-integration/sipp-broad-bridge-crosswalk-v1.md). This makes SIPP a population layer for material and work conditions while keeping service, cultural, political, company, and geopolitical links open for their own sources.
 
+The first labeled descriptive result is in the [SIPP population layer](projects/us-household-calendar-integration/sipp-population-layer-v1.md). It reports field-specific nonblank diagnostics and monthly ranges, with person-weight, universe, household-repetition, and variance limits stated beside the results.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

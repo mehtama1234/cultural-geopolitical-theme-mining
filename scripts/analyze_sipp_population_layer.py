@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Create labeled, person-weighted descriptive SIPP population diagnostics.
+
+The input is the selected SIPP person-record/month slice. For each field the
+script reports the share with code 1 among all positive-weight records and
+among nonblank records. The latter is a diagnostic for the observed nonblank
+universe; it is not a substitute for constructing the official universe or
+using the survey replicate weights.
+"""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import json
+from collections import defaultdict
+from pathlib import Path
+
+
+FIELD_LABELS = {
+    "ETENURE": "owned or being bought",
+    "EUTILITIES": "yes",
+    "EENERGY_ASST": "yes",
+    "EAWBMORT": "yes",
+    "EAWBGAS": "yes",
+    "EOWN_SAV": "yes",
+    "EDEBT_CC": "yes",
+    "RFOODS": "high or marginal food security",
+    "RFOODR": "one affirmative response",
+    "EFOOD1": "often true",
+    "EFOOD3": "yes",
+    "EFOOD6": "yes",
+    "EPAY": "yes",
+    "EPAYHELP": "yes",
+    "EWORKMORE": "yes",
+    "RMNUMJOBS": "one job",
+}
+
+
+def empty() -> dict:
+    return {"records": 0, "weight": 0.0, "blank_records": 0,
+            "blank_weight": 0.0, "code1_records": 0, "code1_weight": 0.0}
+
+
+def add(bucket: dict, code: str, weight: float) -> None:
+    bucket["records"] += 1
+    bucket["weight"] += weight
+    if not code:
+        bucket["blank_records"] += 1
+        bucket["blank_weight"] += weight
+    elif code == "1":
+        bucket["code1_records"] += 1
+        bucket["code1_weight"] += weight
+
+
+def finish(bucket: dict) -> dict:
+    valid_weight = bucket["weight"] - bucket["blank_weight"]
+    valid_records = bucket["records"] - bucket["blank_records"]
+    bucket["valid_records"] = valid_records
+    bucket["valid_weight"] = valid_weight
+    bucket["code1_share_all_percent"] = (
+        100.0 * bucket["code1_weight"] / bucket["weight"]
+        if bucket["weight"] else None
+    )
+    bucket["code1_share_nonblank_percent"] = (
+        100.0 * bucket["code1_weight"] / valid_weight
+        if valid_weight else None
+    )
+    return bucket
+
+
+def analyze(path: Path, fields: list[str]) -> dict:
+    overall = {field: empty() for field in fields}
+    by_month = defaultdict(lambda: {field: empty() for field in fields})
+    rows_read = 0
+    positive_weight_rows = 0
+    with path.open(encoding="utf-8", newline="") as source:
+        reader = csv.DictReader(source)
+        required = {"MONTHCODE", "WPFINWGT", *fields}
+        missing = sorted(required - set(reader.fieldnames or []))
+        if missing:
+            raise ValueError("slice is missing fields: " + ", ".join(missing))
+        for row in reader:
+            rows_read += 1
+            try:
+                weight = float(row["WPFINWGT"])
+            except (TypeError, ValueError):
+                continue
+            if weight <= 0:
+                continue
+            positive_weight_rows += 1
+            month = row["MONTHCODE"]
+            for field in fields:
+                add(overall[field], row.get(field, ""), weight)
+                add(by_month[month][field], row.get(field, ""), weight)
+    for field in fields:
+        finish(overall[field])
+    for month in by_month:
+        for field in fields:
+            finish(by_month[month][field])
+    return {
+        "format": "us-sipp-person-weighted-population-layer-v1",
+        "source_unit": "person record by reference month",
+        "weight": "WPFINWGT (final person weight)",
+        "rows_read": rows_read,
+        "positive_weight_rows": positive_weight_rows,
+        "fields": fields,
+        "code1_labels": {field: FIELD_LABELS[field] for field in fields},
+        "overall": overall,
+        "by_month": {month: by_month[month] for month in sorted(by_month)},
+        "household_weight_used": False,
+        "official_universes_constructed": False,
+        "variance_estimation": False,
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--input", type=Path, required=True)
+    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--fields", nargs="+", default=list(FIELD_LABELS))
+    args = parser.parse_args()
+    unknown = sorted(set(args.fields) - set(FIELD_LABELS))
+    if unknown:
+        raise ValueError("no verified code-1 labels for: " + ", ".join(unknown))
+    result = analyze(args.input, args.fields)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()
