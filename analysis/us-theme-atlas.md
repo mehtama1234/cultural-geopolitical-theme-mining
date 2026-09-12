@@ -92,6 +92,8 @@ Follow a ride from the app screen into the travel cost and the household money l
 
 Still missing: The current sources do not follow the same rider through comparison, service quality, fare paid and later household room.
 
+[Read the complete connected memo](../site/us-rideshare-price-search-path-001.html)
+
 ### When the expected energy bill chooses the policy
 
 Follow a policy tool into the bill people expect, then compare that belief with the household money and energy burden the policy may create or reduce.
