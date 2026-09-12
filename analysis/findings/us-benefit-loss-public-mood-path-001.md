@@ -14,6 +14,10 @@ A family receives a monthly Child Tax Credit payment. It uses the money for rent
 
 All three may report a lower view of the economy, but for different reasons. One feels a direct cash loss. One is worried about future bills. One blames prices or policy. The survey answer is real, but it does not identify the story behind it.
 
+The first replacement is often invisible. A parent may take on a night shift, use a credit card, draw down savings, or ask a relative before reporting that the benefit was lost. Each choice keeps one bill current while changing time, debt, or future room. If the family later reports employment, that does not tell us whether the benefit helped it move forward or whether the family worked more simply to replace a payment that had made care possible.
+
+The notice itself can matter. A payment that ends on a known date can be planned around; a payment that is delayed, questioned, or unexpectedly stopped can create a sharper loss of trust. A family may accept a smaller program if the rule is clear and stable, while a larger but uncertain payment may not support the same decisions. Predictability is part of the benefit's value because households plan bills before the money arrives.
+
 ```text
 benefit starts or ends → household cash and housing room change
 → food, rent, care, debt, work, or savings adjusts
@@ -41,6 +45,10 @@ This is how a budget change can become a public judgment. The family does not ex
 
 The political story is not automatic. Party identity may shape blame before the budget changes. Local job conditions and news may change the interpretation. A household may feel worse but remain politically inactive. Another may use the experience to demand restoration of the payment. The data must measure the judgment and the action separately.
 
+The size of the payment is not the only political fact. What it paid for can be more important: rent, food, child care, transport, medicine, or a small reserve. Losing money that covered an optional purchase may feel different from losing money that prevented a late fee or made work possible. A national average can show the direction of sentiment while missing the reason the policy became meaningful to a particular family.
+
+There is a feedback loop through public expectations. If households treat a benefit as temporary, they may avoid building a permanent bill around it. If the payment lasts long enough to organize rent, care, or debt repayment, ending it can act like a sudden price increase. The policy can change the household's normal budget even when the legal rule says it was always temporary. That is a reason to measure how the payment was used and what commitments formed while it was present.
+
 ## Four views of the same policy
 
 **Household:** What did the payment cover, what was cut after it ended, and what replaced it—work, debt, savings, family help, or another benefit?
@@ -58,6 +66,8 @@ The sources do not show that the same family spent less, lost trust, changed par
 ## Next test
 
 Follow families two years before and after a benefit starts or ends. Join payment records to rent, food, debt, savings, work, care, sentiment, trust, policy knowledge, political contact, turnout, and vote choice. Compare families with similar income and children but different exposure. Test whether restoring the payment reverses sentiment, repairs the budget, changes trust, or changes political action.
+
+Use a monthly panel that records the notice date, expected date, actual payment, first bill affected, and replacement used. Ask the same family separately about its financial position, economic outlook, trust in the program, and political action. Compare a predictable end with an unexpected interruption where possible. The result should show whether mood changes because money disappeared, because a plan was broken, or because the household judged the rule unfair—and whether any of those changes lasted after the budget adapted.
 
 ## Reading rule
 
