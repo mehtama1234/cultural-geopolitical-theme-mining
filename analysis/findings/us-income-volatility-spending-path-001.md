@@ -24,6 +24,10 @@ pay becomes less predictable → savings and credit absorb the gap
 
 ## What the sources actually establish
 
+The bill calendar can make the same pay pattern safe or dangerous. A rent payment, insurance renewal, school fee, and car repair may arrive in one week, while a strong work week comes later. A household with direct control over hours may add shifts; a household with fixed care or health needs may not. The shock is not only how much income fell, but whether the household could move time or money before the deadline.
+
+Volatility can also change what “choice” means. A worker may choose gig work because it allows a hospital visit or a child’s pickup, then accept the income risk as the price. Another may choose it after a stable employer cuts hours. The same contract can be voluntary at the schedule level and forced at the income level. We need the alternatives the person actually had, not only the job label.
+
 | Link | Evidence | What it supports | What it does not establish |
 |---|---|---|---|
 | Welfare cost | NBER estimates temporary income changes can carry large welfare costs, especially for households with little liquid wealth. | Timing matters more when the buffer is thin. | It does not show every household's later job or political response. |
@@ -58,9 +62,15 @@ The political meaning is open. A worker may want predictable hours, portable ben
 
 ## What remains unproven
 
+There is a compounding effect when a weak month damages the next strong month. A worker who borrows may have less pay available after interest. A worker who misses care may lose more hours later. A worker who delays a repair may lose the vehicle needed for work. The original income dip can therefore reduce the ability to earn, even when the job itself returns.
+
+Public support can smooth one part of the month and leave another exposed. A benefit may arrive after rent, a tax refund after a debt has grown, or a payment plan after a late fee. A program can improve annual income while failing to prevent the costly moment. Timing, access, and the ability to use the support matter as much as the headline amount.
+
 The evidence does not show whether a stable job was chosen for fit or kept because alternatives were unsafe, or which public support best protects workers during a weak month. It does not reveal the exact need each spending cut protected or delayed. It does not show whether lender terms worsened after volatility appeared. It does not follow the same worker's pay, cash buffer, job choice, spending purpose, and later outcome together.
 
 ## Next test
+
+Create a cash-calendar study that records each pay deposit, bill due date, work opportunity, care duty, and shock. Ask what the worker could change before each deadline and what happened in the next month: interest, missed care, lost work, vehicle failure, or restored savings. Compare workers with similar annual pay but different pay schedules and alternatives.
 
 Follow workers for two years before and after a move into uncertain work. Join weekly pay, hours, liquid savings, credit offers and terms, spending, housing, health care, job changes, family plans, and stated preferences. Record the bill due, the buffer available, the first cut, and the interest paid to smooth each weak month. Compare income level with income risk and measure whether the next choice remained available.
 
