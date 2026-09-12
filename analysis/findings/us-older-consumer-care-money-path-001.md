@@ -2,17 +2,13 @@
 
 ## The argument
 
-People over 65 are not one customer group. Two people of the same age may differ more in health, money, mobility, living arrangement, digital access, and need for care than in age itself.
+People over 65 are not one customer group. Two people of the same age may differ more in health, money, mobility, living arrangement, digital access, and care need than in age itself.
 
-An older customer choosing a phone, insurance plan, delivery service, or care product is not buying from age alone. One person may value simplicity and have money to pay. Another may need help with transport, vision, memory, or fraud protection and have little room for an error. A product aimed at “older people” can miss both: it can make a capable customer feel managed, while making a vulnerable customer navigate a service that assumes too much.
+An older customer choosing a phone, insurance plan, delivery service, or care product is not buying from age alone. One person may value simplicity and have money to pay. Another may need help with transport, vision, memory, or fraud protection and have little room for an error. A product aimed at “older people” can patronize a capable customer while still asking a vulnerable customer to navigate a service that assumes too much.
 
-The deeper finding is that age can hide buying power and vulnerability at the same time. Sorting customers by actual need may improve fit, but it can also expose private information, steer a person toward a costly product, or remove a choice. Good design must make help available without turning age into a verdict about competence.
+## Follow one purchase and the help after it
 
-## Follow one decision
-
-An older customer needs a new phone. She lives alone, has arthritis, uses online banking, and wants an emergency contact feature. Her neighbor wants the same phone for travel and has no need for assistance. If a firm treats both as “senior customers,” it may simplify the menu for both, add a high-priced support plan, or make the phone less useful to the person who wants control.
-
-The purchase is only the first step. A device that is easy to buy but hard to set up can shift work to family. An insurance plan that looks simple can leave a person without the service they expected. A delivery service can preserve independence only if it works with mobility, payment, and digital access.
+An older customer living alone buys a phone with an emergency feature. The device is easy to purchase but hard to set up, so the work moves to a daughter. Another customer wants the same phone for travel and does not want a support plan. A delivery service may preserve independence only if it fits mobility, payment, and digital access.
 
 ```text
 age, health, wealth, and living situation → actual need and safe ability to pay
@@ -24,20 +20,21 @@ age, health, wealth, and living situation → actual need and safe ability to pa
 
 | Step | Evidence | Meaning |
 |---|---|---|
-| Market variety | HBS describes older adults as a varied market, with differences in health, activity, buying power, and influence over family purchases. | Age alone is a poor guide to the customer’s need. |
-| Stereotypes | HBS reports that companies often rely on age-based assumptions. | A broad label can make a product less useful or less respectful. |
+| Market variety | HBS describes older adults as a varied market, with differences in health, activity, buying power, and influence over family purchases. | Age alone is a poor guide to need. |
+| Stereotypes | HBS reports companies often rely on age-based assumptions. | A broad label can make a product less useful or respectful. |
 | Spending | NBER survey evidence finds older adults often report greater economic satisfaction as spending declines; health, widowhood, and changing enjoyment may affect spending. | Lower spending can have several meanings. |
-| Risk | Other NBER work finds health shocks affect consumption and that older households face income and health risks. | A customer’s safe choice depends on more than buying power. |
+| Risk | Other NBER work finds health shocks affect consumption and older households face income and health risks. | A safe choice depends on more than buying power. |
+| Limits | The sources do not follow the same customer through product choice, care decision, price, service, and independence. | Need-based design remains to be tested. |
 
 Sources: [HBS on the over-65 market](https://www.library.hbs.edu/working-knowledge/what-brands-get-wrong-about-the-over-65-market), [NBER spending at older ages](https://www.nber.org/papers/w30460), and [NBER old-age risks](https://www.nber.org/papers/w27348).
 
 ## The deeper finding
 
-“Simple” is not the same as accessible. A service can remove steps for one person and remove control for another. The useful design question is whether a customer can understand the choice, use the service, get help when wanted, and remain free to refuse the help.
+“Simple” is not the same as accessible. A service can remove steps for one person and remove control for another. The useful design question is whether the customer can understand the choice, use the service, get help when wanted, and remain free to refuse it.
 
 ## What remains unproven
 
-The sources do not follow the same customer through a product choice, care decision, price, service result, and later independence. They do not show whether need-based targeting improves outcomes without raising price or exposing customers to manipulation. They also do not settle how family help changes the customer’s own control.
+The sources do not show whether need-based targeting improves outcomes without raising price, exposing private information, or steering customers to a costly product. They also do not settle how family help changes the customer's own control.
 
 ## Next test
 
