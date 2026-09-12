@@ -18,6 +18,10 @@ She stays. That decision has at least three possible meanings:
 
 A title record cannot distinguish these cases. A loan balance cannot distinguish them either. We need the choices the worker could afford, the choices she considered, and the choices she gave up.
 
+The cost of a move is also uneven in time. The new job may pay more after the first paycheck, but the deposit, travel, moving truck, credential, and gap in wages arrive first. A worker with family money can cross that gap; another may need a card or may not move. The “better job” is not a usable option unless the household can finance the first weeks.
+
+Debt can change the meaning of a good offer without changing the offer itself. A promotion in the same city may be possible, while a move to the better-paying office is not. A worker may take a second job to build the deposit, then have less time for training or care. The response can preserve current income while making the next rung harder to reach.
+
 ```text
 years in work → job level, pay, control, hours, benefits, and security
 → loan payment meets rent, care, transport, and taxes
@@ -45,6 +49,10 @@ This creates a hidden connection between career structure and household finance.
 
 The reverse path is possible too. A payment rule that lowers the monthly burden may give a worker room to train or change jobs. But lower payment is not automatically greater freedom if interest grows, the repayment period lengthens, or housing costs remain the binding limit. The test must count the full payment path and the choice that follows.
 
+Housing turns the payment into a location decision. A borrower may qualify for a mortgage in one area but not another, or may rent near work because the down payment is tied up in debt. That choice affects commute time, childcare, family help, and the set of employers the worker can reach. A loan payment can therefore narrow the labor market without appearing in a job record.
+
+The political meaning can emerge from this lost option. Someone who pays on time but cannot move, buy, retrain, or leave a bad job may feel that the system rewards endurance without opening a path forward. Another person may see the same debt as a fair price for a useful degree and stable work. The evidence supports several possible routes; it does not establish which story drives a vote.
+
 ## Four views of the same decision
 
 **Household:** Compare the payment with rent, transport, care, taxes, savings, and the cash needed to move. Ask what was chosen and what became unaffordable.
@@ -62,6 +70,8 @@ The opening evidence does not tell us how career plateaus differ by income, race
 ## Next test
 
 Build a ten-year panel from school into work and housing. For each year, record job level, pay, hours, control, benefits, location, commute, loan balance, payment, interest, repayment plan, rent, mortgage application, savings, moves, training, family care, and stated preferences. Compare borrowers with similar education and earnings but different payment rules. The decisive result is not a title change; it is whether the rule changes an affordable job, housing, or family choice.
+
+Add a decision diary at each major offer: the pay change, move cost, cash available, payment due, housing choice, care arrangement, commute, and the reason the offer was accepted or refused. Follow people who remain in place and those who move, not only those who change titles. This would separate preference for stability from a choice narrowed by the cash needed to cross the gap.
 
 ## Reading rule
 
