@@ -3,8 +3,9 @@
 
 The primary slice and replicate-weight CSV are joined in their documented
 person-month order and checked by SSUID/PNUM/SPANEL/SWAVE/MONTHCODE. Results
-are code-1 shares among nonblank selected records; official universes still
-need to be applied by the caller.
+are code-1 shares among nonblank selected records. With --official-universes,
+documented field status flags are applied, while full domain rules remain a
+separate validation step.
 """
 
 from __future__ import annotations
