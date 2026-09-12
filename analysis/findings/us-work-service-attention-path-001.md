@@ -50,9 +50,15 @@ The customer-facing result can split in four ways. A worker may answer faster, b
 
 There is also a power difference between ordinary and disputed cases. A simple question can benefit from a suggested answer. A repeat complaint, billing error, safety issue, or cancellation request needs history, authority, and a route to correction. If the system is tuned for speed or continued use, the cases that need the most human control may receive the least room. That is the point where a work tool becomes a customer-governance tool.
 
+The customer pays for a weak remedy in time. A person may spend an hour repeating the order number, wait for a transfer, miss work during a support window, or give up on a refund that is small but important. The company may count each short contact as efficient while the household counts the full time spent getting the same issue recognized. A service measure should include customer time and the value of the result, not just the length of the conversation.
+
+The worker can be trapped in the same loop. If a script makes escalation costly, the worker may close a case that should remain open. If the system rewards warmth but not correction, the worker learns to sound helpful without having the authority to help. A customer may then feel respected and still leave with the same charge, delay, or unsafe condition. Tone is part of service, but it is not the remedy.
+
 The company can also benefit from a misleading success measure. Fewer minutes per chat can lower cost. More messages can raise engagement. A higher “resolved” flag can improve a dashboard. None proves that the customer got the money, the correction, or a safe exit. The record must keep system efficiency and customer remedy as separate columns.
 
 The distribution question matters too. Workers with more education or task control may get the tool and the ability to correct it. Other workers may be expected to follow a script or absorb more contacts. Customers then experience a service system whose speed is measured more clearly than its fairness, appeal, or final remedy. This is a possible pattern in the sources, not a claim that every AI deployment works this way.
+
+This can become a quiet political experience. People may not describe a failed automated refund as an AI issue; they may describe it as a company that cannot be reached, a job that gives no discretion, or a public office that sends them in circles. Repeated small failures can change whether they trust a firm or agency, even when no single contact looks severe. That path needs direct measurement rather than a claim based on sentiment scores.
 
 ## What would change the finding
 
@@ -65,6 +71,8 @@ The distribution question matters too. Workers with more education or task contr
 ## Next test
 
 Find one US firm or public agency that reports both automated contact and appeal outcomes. Compare simple requests with repeat or disputed cases. Track first answer, final remedy, repeat contact, time to correction, worker override, customer exit, and worker workload. Break results out for people with different language, disability, age, income, and digital access. Keep faster handling separate from a better outcome.
+
+Sample cases from first contact through closure, including calls, chats, transfers, emails, refunds, appeals, and repeat contacts. Ask the customer to confirm whether the problem was fixed and ask the worker whether the system allowed the needed action. Compare a speed-first script, a resolution-first script, and a human-escalation path. Record customer time, worker discretion, final money or service result, and later trust. This would reveal whether automation reduces work or merely moves the work to the person seeking help.
 
 ## Reading rule
 
