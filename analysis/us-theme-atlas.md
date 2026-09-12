@@ -752,6 +752,8 @@ Follow a payment method into merchant fees, rewards and common prices, then ask 
 
 Still missing: The current sources do not show the same household's full price, rewards, interest and shopping alternatives.
 
+[Read the complete connected memo](../site/us-payment-fee-redistribution-path-001.html)
+
 ### When a payment record becomes a housing gate
 
 Follow a late payment, overdraft or thin record into later credit access, then ask whether it changes where and how a household can live.
