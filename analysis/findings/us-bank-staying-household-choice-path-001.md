@@ -16,6 +16,10 @@ The same staying behavior can protect a person from an error or show that switch
 
 The risk is largest when the account has to work without interruption. A missed direct deposit, rejected rent payment, fraud hold, or locked login can cost more than the interest gained by moving. That makes the decision more than a rate comparison. It is a choice between a visible return and an uncertain failure cost. The bank may learn that continuity reduces the pressure to raise its rate, while the customer may experience that same continuity as safety.
 
+There is also a difference between not moving money and not shopping. A household may compare rates, decide the gain is too small, and stay. Another may never see the offer because the account is buried in an app, the balance is small, or the customer is too busy to look. These cases produce the same bank record but point to different remedies. Better disclosure may help the first customer; an easier transfer may help the second. A third customer may want to move but cannot because an employer, landlord, or benefit system is tied to the old account.
+
+The bank-side gain is not automatically a customer-side harm. Stable deposits can help a bank plan its funding, and a familiar service can have real value. The concern begins when the bank can count on the cost of departure while making the benefit of staying hard to compare. The useful question is therefore not whether customers should move more often. It is whether they can leave, compare, and return without risking essential payments.
+
 ```text
 bank account opens → bills, direct deposit, and habit settle around it
 → switching takes time and attention → customer accepts a rate or term
@@ -39,6 +43,10 @@ Inertia is both a service feature and a market force. A familiar bank can reduce
 
 The dollar difference can be small in one moment and meaningful over time. A one-percentage-point gap on $10,000 is $100 a year before tax. Staying may be reasonable if moving could interrupt a paycheck or bill. But if the move is simple and safe, the same choice leaves money with the bank and weakens the customer’s reason to demand a better deal. Switching can help one household while making a bank’s funding less stable; that wider effect is a possible connection, not a result this evidence proves.
 
+This creates a quiet split in the meaning of competition. A bank can face many visible rivals while retaining customers who cannot afford an operational mistake. Prices may appear competitive at the time of account opening, then become less important once the account carries the household's routines. The market is most open at the moment of comparison and most closed when the cost of disruption is highest—after payroll, bills, credit history, and fraud checks have settled around one provider.
+
+The distributional question follows. A high-balance household can spend an hour moving money or keep several accounts as insurance. A household living close to payday may treat one failed transfer as a crisis. So the same switching rule can be a minor inconvenience for one customer and a barrier for another. Bank competition should be read through the customer's ability to withstand a mistake, not only through the number of banks offering a higher rate.
+
 ## What remains unproven
 
 The sources do not show the same depositor’s rate gap, fees, switching effort, service use, safety, and household budget over time. They do not establish whether staying improved or reduced financial well-being for a particular customer, or whether digital switching works equally well for older, disabled, rural, or low-income customers. They also do not show whether a bank with sleepier deposits provides better service, takes more risk, or passes any funding benefit back to customers.
@@ -46,6 +54,8 @@ The sources do not show the same depositor’s rate gap, fees, switching effort,
 ## Next test
 
 Follow depositors through a full rate cycle. Match balances and terms to notices, bill links, switching attempts, service use, fees, interest received, and later saving or debt. Record failed moves, direct-deposit problems, fraud holds, and the cost of an account error. Compare the money gained from switching with the continuity value each customer actually uses, and test whether portable bill and payroll links reduce the cost of leaving.
+
+The strongest test would offer a safe transfer path to a random group: keep the old account open, copy recurring payments, show the net dollar gain after fees, and provide a short period in which errors can be reversed. Compare that group with customers who receive information only. If switching rises only when the transfer risk falls, the main barrier is not lack of awareness. If customers still stay after a safe, valuable offer, continuity or trust may be the benefit they are choosing. Those are different findings and should not be collapsed into “inertia.”
 
 ## Reading rule
 
