@@ -14,6 +14,8 @@ A worker keeps an emergency fund in a savings account paying little interest. A 
 
 The same staying behavior can protect a person from an error or show that switching is too costly. The account record alone cannot tell which.
 
+The risk is largest when the account has to work without interruption. A missed direct deposit, rejected rent payment, fraud hold, or locked login can cost more than the interest gained by moving. That makes the decision more than a rate comparison. It is a choice between a visible return and an uncertain failure cost. The bank may learn that continuity reduces the pressure to raise its rate, while the customer may experience that same continuity as safety.
+
 ```text
 bank account opens → bills, direct deposit, and habit settle around it
 → switching takes time and attention → customer accepts a rate or term
@@ -35,13 +37,15 @@ Sources: [NBER Dynamic Competition for Sleepy Deposits](https://www.nber.org/pap
 
 Inertia is both a service feature and a market force. A familiar bank can reduce mistakes and effort, but the same familiarity can weaken the customer’s bargaining power. The household should not be judged for staying until we know what the move would have risked and what the rate gap would have bought.
 
+The dollar difference can be small in one moment and meaningful over time. A one-percentage-point gap on $10,000 is $100 a year before tax. Staying may be reasonable if moving could interrupt a paycheck or bill. But if the move is simple and safe, the same choice leaves money with the bank and weakens the customer’s reason to demand a better deal. Switching can help one household while making a bank’s funding less stable; that wider effect is a possible connection, not a result this evidence proves.
+
 ## What remains unproven
 
-The sources do not show the same depositor’s rate gap, fees, switching effort, service use, safety, and household budget over time. They do not establish whether staying improved or reduced financial well-being for a particular customer, or whether digital switching works equally well for older, disabled, rural, or low-income customers.
+The sources do not show the same depositor’s rate gap, fees, switching effort, service use, safety, and household budget over time. They do not establish whether staying improved or reduced financial well-being for a particular customer, or whether digital switching works equally well for older, disabled, rural, or low-income customers. They also do not show whether a bank with sleepier deposits provides better service, takes more risk, or passes any funding benefit back to customers.
 
 ## Next test
 
-Follow depositors through a full rate cycle. Match balances and terms to notices, bill links, switching attempts, service use, fees, interest received, and later saving or debt. Record failed moves and the cost of an account error.
+Follow depositors through a full rate cycle. Match balances and terms to notices, bill links, switching attempts, service use, fees, interest received, and later saving or debt. Record failed moves, direct-deposit problems, fraud holds, and the cost of an account error. Compare the money gained from switching with the continuity value each customer actually uses, and test whether portable bill and payroll links reduce the cost of leaving.
 
 ## Reading rule
 
