@@ -1,56 +1,43 @@
 # Removing a medical debt can repair the record without repairing the illness
 
-## Short answer
+## The argument
 
-Medical-debt relief can reduce payments and improve some people's access to credit. In two randomized experiments, however, it did not improve average mental or physical health, health-care use, or reported financial wellness.
+“Medical debt” names several different events: someone got sick, care had a price, insurance paid only part, a bill arrived, a payment failed, a collection record appeared, and the household feared the next bill. Debt relief can remove one link while leaving the illness, price, billing process, or future risk in place.
 
-The deeper finding is that “medical debt” holds several different problems together: the illness, the price, the bill, the collection record, and the fear of the next bill. Removing one part can matter without fixing the others.
+That is why a relief program can improve credit or reduce payments without improving average health. This is not a failure of the finding. It is a warning about what the intervention actually touches. A clean credit record is useful, but it is not the same as affordable care.
 
-## What the matched evidence shows
+## Follow one bill
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Price and bill | HBS describes wide health-care price differences and weak ability to compare value before care. | What one patient was quoted, insured for, or charged. |
-| Collections record | NBER studied $169 million of debt relief for 83,401 people in two randomized experiments. | Effects for bills that never reached collections. |
-| Credit | Relief modestly improved credit access where medical debt would otherwise have been reported. | A broad improvement in housing, work, or household security. |
-| Payments | Relief caused a moderate reduction in payments on existing medical bills. | Whether money was available for a specific need afterward. |
-| Health and care | NBER found no average effect on surveyed mental or physical health or health-care use. | Whether some groups or illnesses experienced a different result. |
-
-Sources: [NBER Working Paper 32315](https://www.nber.org/papers/w32315), [HBS on health-care price transparency](https://www.library.hbs.edu/working-knowledge/why-american-health-care-needs-its-own-sec), [HBS on billing costs](https://www.library.hbs.edu/working-knowledge/electronic-health-records-were-supposed-to-cut-medical-costs-they-haven-t).
-
-## The connection
+A patient needs care and cannot compare the price before treatment. The bill is larger than expected. Payments compete with rent and food, then the account reaches collections. Relief removes the collection balance and may improve access to credit. The original illness remains, and the next appointment may still carry an unknown cost.
 
 ```text
-illness or care need
-  -> price, insurance, and billing process
-  -> medical debt or collection record
-  -> payment, credit, care, health, or trust change
-  -> relief removes one link but not necessarily the illness or bill system
+illness or care need → price, insurance, and billing process → bill or collection record
+→ payment, credit, care, health, and trust change → relief repairs some links, not all
 ```
 
-Debt can be both a burden and a record of what happened before it. The result warns us to ask which part is being repaired.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Price | HBS describes wide health-care price differences and weak ability to compare value before care. | The bill can begin before a patient can judge the cost. |
+| Collections | NBER studied $169 million of debt relief for 83,401 people in two randomized experiments. | Relief can be tested as an intervention. |
+| Credit | Relief modestly improved credit access where medical debt would otherwise have been reported. | Removing a record can change future borrowing. |
+| Payments | Relief caused a moderate reduction in payments on existing medical bills. | Some current cash pressure falls. |
+| Health and care | NBER found no average effect on surveyed mental or physical health, health-care use, or reported financial wellness. | Credit repair is not automatic health repair. |
 
-**Household:** Separate the original care need, bill, payment, collection notice, and money available afterward.
+Sources: [NBER Working Paper 32315](https://www.nber.org/papers/w32315), [HBS on health-care price transparency](https://www.library.hbs.edu/working-knowledge/why-american-health-care-needs-its-own-sec), and [HBS on billing costs](https://www.library.hbs.edu/working-knowledge/electronic-health-records-were-supposed-to-cut-medical-costs-they-haven-t).
 
-**Customer and patient:** A lower bill is not the same as clear prices, good care, or a choice to delay treatment safely.
+## The deeper finding
 
-**Money and credit:** Measure the credit record, interest, payment, rent, borrowing, and later debt separately.
+The important unit is not “debt relief” in general. It is the exact link removed: a payment, an interest charge, a collection mark, or a legal threat. Relief may give back some borrowing room while doing nothing to prices or care quality. A strong program should say what it repairs and should not claim the rest without evidence.
 
-**Public power:** Relief may repair a collection record while leaving prices, insurance rules, and billing practices unchanged.
+## What remains unproven
 
-## What would change the finding
-
-- The same person's original illness, care, price, insurance decision, bill, relief, credit, housing, work, and later care.
-- Results for debt before collections and debt that is reported or not reported.
-- Effects by debt size, income, race, age, illness, insurance, and provider.
-- Whether relief changes trust in providers or willingness to seek needed care.
-- Evidence that price disclosure or billing reform prevents more harm than downstream relief.
+The experiments do not fully show what happens to people whose bills never reach collections, or whether effects differ by illness, debt size, income, race, insurance, or provider. They also do not measure whether relief changes trust or willingness to seek needed care for the same patient.
 
 ## Next test
 
-Follow patients for two years from the first bill, not only from the collection record. Measure what relief repairs, what remains, and whether the next health or money shock is smaller.
+Follow patients for two years from the first bill, not only from the collection record. Join illness, care, quoted and final price, insurance, bill, relief, credit, housing, work, later care, and the next financial shock.
 
 ## Reading rule
 

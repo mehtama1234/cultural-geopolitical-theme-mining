@@ -74,13 +74,13 @@ When a child needs care, a household may pay a provider, ask family for help, ch
 
 [Read the HTML page](../site/us-childcare-work-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-childcare-work-cost-matched-evidence-001.md)
 
-### 8. Credit can save today’s purchase while shrinking tomorrow’s room
+### 8. Credit can save today's purchase while shrinking tomorrow's room
 
 **Theme:** Cost / finance / voice
 **Route:** bill shock → cash gap → credit → future room
 **Still open:** same-household repayment and later access
 
-Credit is not simply good or bad for a household. It can keep a car running, a bill current, or care available when cash is short. It can also move the cost into interest, late fees, a lower future buffer, or a credit record. Federal Reserve data show the size of the cash gap and differences in late payment. CFPB and New York Fed records show the product and system layers. The missing piece is the same household's full path after the emergency.
+Credit is a bridge when cash arrives later. It can keep a car running, a bill current, or care available. But the bridge has a price: interest, fees, a payment schedule, a credit record, and less income available for the next surprise.  “Can borrow” and “can afford” are different. A card paid in full is not the same event as a balance carried for months. A buy-now-pay-later payment made on time is not the same as a late payment with added charges. A medical balance on a credit report is not the same as the illness and bill that caused it.
 
 [Read the HTML page](../site/us-consumer-credit-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-consumer-credit-liquidity-matched-evidence-001.md)
 
@@ -180,7 +180,7 @@ When one US household loses money, health, housing, or care, relatives may fill 
 **Route:** health coverage → job choice → household security
 **Still open:** the full value of the job tradeoff
 
-A job can provide both wages and a route to health care. Research shows that dependent coverage can increase parental job retention, and that losing public coverage can push some people toward jobs that offer private insurance. This does not mean staying is harmful: the coverage may protect the family. The open question is what opportunity the worker gives up to keep it.
+A job can provide wages and a route to health care. That makes leaving more than a career decision. A worker may be choosing between a better job with a coverage gap, a worse job with a familiar plan, or a move that risks a family's doctors and medicines.  The evidence does not say employer coverage is bad. It shows that coverage can change job behavior. The deeper question is what the worker gives up to keep it: higher pay, training, a better workplace, self-employment, a move, or time at home. A family may be protected by the plan and constrained by the way protection is tied to the job.
 
 [Read the HTML page](../site/us-health-insurance-job-lock-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-health-insurance-job-lock-matched-evidence-001.md)
 
@@ -300,7 +300,7 @@ Knowing who sold a product is not the same as having a remedy.  The INFORM Consu
 **Route:** illness → bill → debt record → relief
 **Still open:** health, care, and original-bill effects
 
-Medical-debt relief can reduce payments and improve some people's access to credit. In two randomized experiments, however, it did not improve average mental or physical health, health-care use, or reported financial wellness.  The deeper finding is that “medical debt” holds several different problems together: the illness, the price, the bill, the collection record, and the fear of the next bill. Removing one part can matter without fixing the others.
+“Medical debt” names several different events: someone got sick, care had a price, insurance paid only part, a bill arrived, a payment failed, a collection record appeared, and the household feared the next bill. Debt relief can remove one link while leaving the illness, price, billing process, or future risk in place.  That is why a relief program can improve credit or reduce payments without improving average health. This is not a failure of the finding. It is a warning about what the intervention actually touches. A clean credit record is useful, but it is not the same as affordable care.
 
 [Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-medical-debt-relief-matched-evidence-001.md)
 
