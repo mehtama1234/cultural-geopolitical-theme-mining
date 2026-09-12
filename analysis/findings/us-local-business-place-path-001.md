@@ -34,6 +34,8 @@ The practical rule is simple: do not call an application a new employer, a lasti
 
 The time gap is important. Applications can respond quickly to a tax change, a layoff, a grant, or a new platform. Hiring and survival take longer. If a county file is read as an immediate local recovery measure, it may mistake intent for capacity. The strongest local result requires a later record of operation, workers, customers, and continued presence.
 
+Ownership is another clock. A founder may live nearby when the firm opens, move away after it grows, and sell to a local buyer later. A remote owner may keep the same storefront, while a local owner may close it because the numbers no longer work. The address alone cannot tell us who makes decisions or where the gains and risks land. We need to follow ownership, management, workers, customers, and profits as separate paths.
+
 [Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html)
 
 ### 4. Small firms are large in the US economy, but national counts hide place
@@ -54,6 +56,10 @@ housing, credit, labor, or customer conditions
 
 The founder-location and application steps are measured. The local service and political steps remain open.
 
+The place-level effect depends on what the business does with its cash and authority. A local owner may buy from nearby suppliers, hire locally, and keep a flexible service open during a weak month. A remote owner may bring scale, capital, and better systems that improve service. Either pattern is possible. The real comparison is not local versus outside as a moral label; it is which arrangement leaves residents with more reliable service, decent work, and a voice when conditions change.
+
+There is a hidden loss when decisions move away even if the storefront remains. A local council, hospital, school, or neighborhood group may be able to speak directly to a nearby owner. A distant owner may make decisions through a central rule or a financial target. That can lower the cost of running the business while raising the community's cost of getting an exception, repair, or response. This is a claim about decision distance that must be measured, not assumed from residence alone.
+
 ## What is fact, inference, and unknown
 
 **Fact:** The hometown advantage in entrepreneurship declined in the reported Census analysis. County applications are available, but they are not the same as employer firms.
@@ -61,6 +67,10 @@ The founder-location and application steps are measured. The local service and p
 **Inference:** A place may lose some local control over business decisions even while business activity continues. The person who opens a firm, the person who owns it later and the people who work there may live in different places.
 
 That inference should be tested through flows, not labels. Local wages and services may remain even when profits leave. A locally owned firm may keep profits nearby but provide poor access or unstable jobs. Decision power, money, work, and service can move in different directions at the same time.
+
+This makes “local economic health” a bundle, not a number. A county can gain applications but lose stable employers. It can keep jobs while losing profits. It can gain a new store while losing hours or affordable service. It can attract outside capital and still give residents more choice, or it can become dependent on an owner who can close or move decisions quickly. A useful finding must say which part changed and for whom.
+
+The political connection comes from this gap between visible activity and felt control. Residents may see new firms and still feel that decisions about prices, hours, jobs, and closures are made elsewhere. That feeling is not proof that outside ownership harmed the place, but it is a reason to compare decision power with economic output. The question is who can make a change when the community needs one.
 
 **Unknown:** We do not know whether owner movement changed local prices, jobs, services, tax revenue or belonging. We also do not know whether remote work and online customers made local residence less important.
 
@@ -77,6 +87,8 @@ That inference should be tested through flows, not labels. Local wages and servi
 Choose one county pair and join Census applications with employer-firm and establishment records. Add local service data and owner location. Treat applications as the beginning of the path, not the outcome.
 
 Follow the same places for five years. Mark the date of application, opening, first hire, ownership change, closure, and service change. Compare what residents gained or lost in jobs, hours, prices, travel distance, wages, and tax revenue. Include firms that serve the county online or from another place so that “local” does not mean only a storefront address.
+
+Add a decision-and-money ledger: who sets prices and hours, where payroll and purchases go, where profits go, who can approve a repair or keep a low-margin service open, and how quickly residents can reach the decision-maker. Compare local and remote owners only after matching sector, size, capital, and local demand. This would show whether the important difference is ownership location, business resources, or the ability to respond to the place.
 
 ## Reading rule
 
