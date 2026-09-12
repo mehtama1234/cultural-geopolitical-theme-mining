@@ -1,52 +1,47 @@
 # When health costs move into family time
 
-## Short answer
+## The argument
 
-When care is hard to pay for, the cost may show up as skipped treatment, unpaid family hours or less paid work. Those are different outcomes. The evidence supports a picture of households moving the burden around, but it does not show that every family follows the same order.
+When a household cannot easily pay for care, the cost does not vanish. It can move into a missed appointment, an unpaid family shift, fewer paid work hours, a job kept for health coverage, or a bill that stays on the credit record. These are not interchangeable costs. A family can be protected in one place and exposed in another.
 
-## What the sources show
+Consider an adult who needs regular care and a daughter who works by the hour. The daughter may take time off, ask another relative for help, keep a job because it carries insurance, or delay the visit until the problem is worse. If an old medical balance is later removed, the credit record may improve while the daughter still has the same care hours and the patient still has the same health need. Relief has reached one part of the problem, not the whole household.
 
-### 1. Millions provide unpaid eldercare
+That is the deeper finding: health pressure is often paid through a chain of household resources. The order matters. The first resource used may be family time, then wages, then credit. A public program or employer benefit may interrupt that chain, but only at the point it actually reaches.
 
-The Bureau of Labor Statistics reports that 38.2 million people provided unpaid eldercare in 2023–24. Women made up 55% of care providers, and providers spent an average of 3.9 hours on days they gave care.
+## What the sources establish
 
-[BLS unpaid eldercare release](https://www.bls.gov/news.release/elcare.htm)
+| Evidence | What it tells us | What it does not tell us |
+|---|---|---|
+| BLS reports 38.2 million unpaid eldercare providers in 2023–24; women were 55% of providers and care providers spent 3.9 hours on average on care days. | A large amount of care is supplied inside families, with a measurable time cost. | Whether the hours replaced paid care, prevented a missed visit, or caused a job change for the same person. |
+| NBER links reported caregiving to 25 years of earnings records. Women had lower employment and earnings after caregiving began relative to a matched group; men entered caregiving after work disruption had already begun. | Caregiving and work outcomes can move together, and the timing differs by gender. | That caregiving caused every later earnings loss, or how much unpaid care improved the recipient’s health. |
+| Two randomized experiments relieved $169 million in medical debt for 83,401 people. Credit access improved modestly where debt otherwise would have been reported, but average health, care use, and financial-wellness measures did not change. | Removing a recorded debt can improve a financial gate without restoring current care or cash. | Whether other debt, time loss, or untreated illness remained for each household. |
+| An NBER study of dependent coverage finds that longer coverage increased dependent take-up and parental job retention. | The person needing coverage and the person making the work choice may be different family members. | Whether the retained job was better, whether care improved, or how the result varies across families. |
 
-### 2. Work changes around the start of caregiving
+Sources: [BLS unpaid eldercare](https://www.bls.gov/news.release/elcare.htm), [NBER caregiving and labor supply](https://www.nber.org/brd/20233/how-does-caregiving-affect-labor-supply), [NBER medical-debt relief](https://www.nber.org/papers/w32315), and [NBER dependent coverage and parent work](https://www.nber.org/papers/w30200).
 
-Maestas, Messel and Truskinovsky link reported caregiving to administrative earnings records over 25 years. Relative to a matched comparison group, women had lower employment and earnings after caregiving began. Men entered caregiving after large work disruptions that had already begun.
+## Follow the household, not just the bill
 
-[NBER: How Does Caregiving Affect Labor Supply?](https://www.nber.org/brd/20233/how-does-caregiving-affect-labor-supply)
+health need → care required and payment due → family time, paid work, coverage, or credit used → care is kept, delayed, or changed → income, health, debt, and later choices move
 
-### 3. Removing old medical debt may not restore current choices
+The source set supports the separate links. It does not follow one household across all of them. That distinction prevents a common mistake: treating unpaid care as proof of medical debt, or treating debt relief as proof that the care problem was solved.
 
-Two randomized experiments relieved $169 million in medical debt for 83,401 people. The study found modest credit-access improvements where the debt would otherwise have been reported, but no average effects on surveyed health, health-care use or financial wellness.
+The useful unit is the person receiving care plus the people supplying money, time, transport, paperwork, and coverage. A care policy can lower a bill while leaving the family member who drives to appointments without paid leave. A workplace policy can protect wages while leaving the patient unable to reach the provider. The result depends on which resource was scarce first.
 
-[NBER Working Paper 32315](https://www.nber.org/papers/w32315)
+## Four questions that should stay separate
 
-### 4. Coverage can shape another family member's job choice
-
-An NBER study uses an Affordable Care Act eligibility change and employer insurance claims. It finds that longer dependent coverage increased dependent take-up and parental job retention. This shows that the person making the work choice and the person needing coverage may be different people.
-
-[NBER Working Paper 30200](https://www.nber.org/papers/w30200)
-
-## The careful connection
-
-The four findings fit one question: when a health need arrives, which resource is used first? Some households give time, some reduce paid work, some skip care, some keep a job for coverage, and some carry a bill into collections. Clearing an old debt can improve a credit record without changing the care or money available today.
-
-The sources do not show that skipped care creates family caregiving, or that caregiving causes medical debt. They also concern different people and periods. The supported point is narrower: health pressure can move between money, time, work and credit, and one kind of relief may not repair another kind of loss.
+- **Care:** Did the person receive the needed treatment, on time and at a usable quality?
+- **Time:** Who supplied the hours, and were they paid or unpaid?
+- **Work:** Did anyone reduce hours, change jobs, lose earnings, or keep a job mainly for coverage?
+- **Money:** Did debt fall, did cash improve, and did the family avoid a new bill?
 
 ## What would change the finding
 
-- Same-household records linking medical costs, care use, unpaid hours, earnings and debt.
-- A time series showing what happens after a person skips care or starts caregiving.
-- Evidence on paid care, employer leave and public support by income and place.
-- Outcomes for the person receiving care as well as the family member providing it.
+We need same-household records joining medical costs, treatment use, unpaid care hours, paid work, employer coverage, earnings, debt, and later health. The records must show who received care and who absorbed the cost. Results should be split by income, gender, age, race, disability, family role, and place.
 
 ## Next test
 
-Read the BLS time-use microdata beside a health-cost survey and one longitudinal earnings or credit record. Keep care time, lost work and medical debt as separate measures before joining them.
+Start with BLS time-use microdata, a health-cost survey, and one longitudinal earnings or credit source. Build a descriptive table before making a causal claim: care need, hours supplied, work change, medical debt, coverage, and treatment received. Then test whether a change in leave, coverage, or debt relief changes the other parts of the chain.
 
 ## Reading rule
 
-The three source sections are summaries of separate studies. “The careful connection” is an inference. The missing-data list is a plan for testing it.
+Do not say “health costs moved to the family” unless you name the resource: money, time, work, coverage, or credit. The connection is an inference until the same household is followed through the whole path.

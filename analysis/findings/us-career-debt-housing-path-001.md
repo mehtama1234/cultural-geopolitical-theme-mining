@@ -1,60 +1,43 @@
 # When career movement slows around a long payment
 
-## Short answer
+## The argument
 
-A person can keep working without moving into a better-paid or more secure role. If that person also carries a student-loan payment, the result may be less room for a home, a move, more school, or a family choice.
+A worker can keep a job and still lose room to move. The title may stay flat, pay may rise slowly, and a student-loan payment may take the cash that would have funded a move, a down payment, more training, or a period between jobs. None of those facts alone proves a stalled life. Together they define the test: does the payment narrow the worker’s real set of choices?
 
-The careful finding is a testable overlap, not a claim that a career plateau or a debt balance is automatically harmful. A title can stay flat while pay or flexibility rises. A loan can be large while the education still pays off.
+Imagine a borrower offered a better job in another city. The new role pays more, but the move requires a deposit, transport, and several months of risk. The borrower already owes a monthly student-loan payment and cannot qualify for a mortgage. Staying may be deliberate because the current job has good hours. It may also be the only choice the balance sheet allows. A title and a debt balance cannot tell us which one.
 
-## What the sources show
+## What the sources establish
 
-An HBS account of research using 150 million resumes and wage data proposes measuring career progress by the time needed to reach a job level. The research finds that most workers top out at a mid-level. The measure describes movement through job levels; it does not by itself measure job quality, control, health, or household security.
+HBS research using 150 million resumes and wage data proposes measuring career progress by the time needed to reach a job level and finds that most workers top out at a mid-level. That measure describes movement through job levels. It does not measure control, schedule, health, benefits, or household safety.
 
-Federal Reserve data show that 20% of borrowers reported being behind on a student-loan payment or in collections in 2024. An NBER study of female lawyers models links between student debt and career, marriage, and education-quality choices. The occupation and older data limit how far that result can travel.
+The Federal Reserve reports that 20% of borrowers were behind on a student-loan payment or had a loan in collections in 2024. An NBER study of female lawyers models links between student debt and career, marriage, and education-quality choices. These sources give us a plausible meeting point between career movement and debt, but they do not follow the same worker through payment, housing, family timing, and recovery.
 
-The sources do not follow the same worker from career movement through debt payment, housing, family timing, and later recovery.
+Sources: [HBS career research](https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work), [NBER Working Paper 34292](https://www.nber.org/papers/w34292), [Federal Reserve student-loan report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm), and [NBER debt and life choices](https://www.nber.org/papers/w23453).
 
-- [HBS: Most Careers Stall at Mid-Level](https://www.library.hbs.edu/working-knowledge/most-careers-stall-at-mid-level-no-matter-how-long-people-work)
-- [NBER Working Paper 34292](https://www.nber.org/papers/w34292)
-- [Federal Reserve higher education and student loans report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm)
-- [NBER student debt, career and marriage choices](https://www.nber.org/papers/w23453)
+## Follow the choice
 
-## The connection
+years of work → pay, career level, control, benefits, or security change → student-loan payment meets current income → cash left for rent, saving, moving, or training → worker moves, stays, studies, forms a family, or waits → later wealth and work options
 
-```text
-years of work
-  -> career level, pay, control, or security changes
-  -> student-loan payment or repayment pressure
-  -> money left for rent, saving, or a down payment
-  -> housing move, family timing, more school, or staying put
-  -> later wealth and work options
-```
+The open question is what makes debt binding. It may be payment size, low earnings, a poor repayment rule, high housing costs, or the risk of leaving a job with good coverage. The same balance can be light for one worker and decisive for another.
 
-The open question is whether debt is binding because the payment is high, because earnings are low, because the repayment rule is poor, or because the worker is choosing a different kind of job.
+## Four views of the same decision
 
-## The four outside views
+**Household:** Compare the payment with rent, transport, care, savings, taxes, and the cash needed to move. “Staying” is not evidence of failure.
 
-**Household:** A borrower compares the loan payment with rent, transport, care, savings, and the value of a possible move. Staying in place may be a choice, or it may be the only affordable option.
+**Company:** Firms differ in pay growth, job levels, training, location, hours, and flexibility. A worker may trade title speed for a better schedule, or remain because alternatives are closed.
 
-**Company and sector:** Firms differ in pay growth, job levels, training, location, and flexibility. A worker may accept slower title movement for better hours or remain because changing jobs would risk income or coverage.
+**Finance:** Measure payment after income, interest, taxes, rent, wealth, and education return. Delinquency is a warning sign, not a full measure of harm.
 
-**Money and finance:** The useful measure is not debt alone. It is payment after income, interest, taxes, rent, wealth, and the return from the education. Delinquency is a warning sign, not a full account of household loss.
-
-**Public power:** Repayment plans, public-service rules, housing finance, education funding, and labor standards shape the choices around the payment. A policy should be judged by later housing and work room, not only by balances or enrollment.
+**Public power:** Repayment plans, public-service rules, housing finance, education funding, and labor standards shape the room around the payment. Judge them by later work and housing choices, not only by balances.
 
 ## What would change the finding
 
-- Career level, pay, hours, control, benefits, and job changes for the same worker.
-- Loan balance, payment, interest, delinquency, repayment plan, and forgiveness status.
-- Rent, mortgage approval, home purchase, moves, wealth, and family timing.
-- Education field, credential return, employer type, location, and work quality.
-- Differences by race, gender, age, income, family role, and place.
-- Whether a lower payment changes housing or work choices rather than only the account balance.
+Follow the same worker’s career level, pay, hours, control, benefits, loan balance, payment, interest, delinquency, repayment plan, rent, mortgage approval, moves, savings, wealth, and family timing. Compare borrowers with similar education and earnings but different payment rules. Separate a chosen stable job from a blocked career path.
 
 ## Next test
 
-Follow borrowers from school through ten years of work. Join career level and pay to loan terms, monthly payment, housing applications, rent, moves, family events, savings, and wealth. Compare the same worker before and after a repayment change, and keep a chosen stable job separate from a blocked career path.
+Build a ten-year borrower panel from school into work and housing. Test a repayment change against work changes, applications, moves, and wealth. Keep job title, job quality, and household room as separate outcomes.
 
 ## Reading rule
 
-Do not treat a flat title as a stalled life. Do not treat a large loan as a bad result. Measure the payment against the worker's earnings, housing choices, and actual room to move.
+Do not treat a flat title as a stalled life or a large loan as a bad result. Measure the payment against earnings, housing choices, job quality, and actual room to move.
