@@ -394,13 +394,13 @@ A guarantee does not make rent trouble vanish. It sets a sequence of conditions:
 
 [Read the HTML page](../site/us-rent-guarantee-claim-mechanics-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-claim-mechanics-matched-evidence-001.md)
 
-### 40. Four states show four different levels of visibility
+### 40. Four states show why a rent guarantee is not one national product
 
 **Theme:** Cost / housing / voice
 **Route:** state rule → policy form → claim → tenant duty
 **Still open:** current rates, claims, repayment, and renewal by state
 
-The first comparison across California, New York, Texas, and Illinois does not produce one national rule. California gives us public bond terms. New York gives us a regulator's history of lease-bond rates and oversight. Texas gives us a clear tenant rule for insurance bought in place of a security deposit. Illinois gives us a licensing starting point, but not yet a product record.  The practical finding is simple: we can see the risk transfer more clearly than we can see the price or the household result. California and Texas make clear that paying a fee or having an insurer pay a landlord does not automatically erase the tenant's rent duty.
+A renter is told that a rent guarantee can replace a large security deposit or a co-signer. That sounds like one simple trade: pay a smaller fee now and get the apartment. The four-state check shows a more complicated deal. The state changes what kind of product may be sold, what paperwork can be found, what the landlord gets after a missed payment, and what the renter may owe afterward.  Imagine two renters with the same lease and the same income. One lives in California; the other lives in Texas. Both pay a provider so the landlord will accept a guarantee. If either renter stops paying, the provider may pay the landlord. That payment is not a gift to the renter. It can open a new collection path against the renter. The first question is therefore not “Was the deposit avoided?” It is “What obligation replaced it, and can the renter understand it before signing?”  The records do not give us a clean national price or a measured household result. They give us four different windows into the deal:  1. California exposes detailed bond terms. 2. New York exposes a regulator’s history of a provider and its rate filing. 3. Texas exposes a tenant rule for a fee used instead of a deposit. 4. Illinois exposes the licensing gate for people selling insurance, but not yet a product-level record.  That difference in visibility matters. A national website can make a product look uniform while the renter’s rights and duties still depend on the state, the contract, and the way a claim is handled.
 
 [Read the HTML page](../site/us-rent-guarantee-four-state-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-four-state-matched-evidence-001.md)
 
