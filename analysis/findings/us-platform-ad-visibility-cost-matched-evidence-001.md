@@ -1,55 +1,43 @@
 # Seller visibility can become a customer cost
 
-## Short answer
+## The argument
 
-On a marketplace, advertising can be the price a seller pays to be seen. The FTC and 22 states allege that Amazon secretly raised prices in its search-ad auctions and that higher costs were largely passed to US consumers. That is a serious possible path from platform control to household prices, but it is still a complaint, not a court finding. The right next test is to separate the ad charge, the seller's price, the product shown, and the price paid by the customer.
+On a marketplace, advertising can be the price a seller pays to be seen. The customer may never see that charge, but it can change which products receive attention and how much the seller must charge. A sponsored result also changes the first comparison the customer makes.
 
-## What the matched evidence shows
+The current evidence comes from a newly filed FTC complaint. Its conduct and figures are allegations, not court findings. That makes the next research task clear: separate the auction charge, the seller's response, the product shown, and the price finally paid.
 
-| Layer | What the record says | What remains open |
-|---|---|---|
-| Visibility | Amazon auctions Sponsored Product, Sponsored Brand, and Display placements beside search results, according to the FTC complaint. | Whether paid placement changed what each customer saw and bought. |
-| Auction price | The FTC alleges Amazon represented a second-price auction but charged close to the winning bid about 80% of the time by 2024. | The legal result and the verified auction records. |
-| Seller cost | The complaint alleges the practice affected more than one million brands and sellers, including over 500,000 small and medium businesses. | Cost by seller, product, day, and competitive alternative. |
-| Customer price | The FTC alleges higher advertising costs were largely passed to American consumers. | The measured pass-through and whether prices or margins changed. |
-| Choice | Sponsored placement can change which product is noticed before a customer compares alternatives. | Product quality, ranking, repeat purchase, and customer welfare. |
+## Follow one sponsored purchase
 
-Source: [FTC, States Sue Amazon Over Secret Ad Surcharge Scheme](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme). The figures and conduct above are allegations in a newly filed case, not established facts.
-
-## The connection
+A seller pays to appear beside a search result. The charge rises. The seller absorbs it, raises the product price, reduces quality, stops advertising, or leaves the platform. The customer sees a changed shelf before seeing a changed receipt. A price effect is possible, but it must be measured.
 
 ```text
-hidden or higher ad-auction charge
-  → seller pays more to stay visible
-  → seller changes margin, product price, or ad participation
-  → customer sees a changed set of products and prices
-  → household pays more, searches more, or chooses differently
-  → trust and market oversight change
+ad-auction charge → seller visibility and cost → margin, product price, quality, or exit
+→ customer sees a changed set of products → price, search, choice, and trust change
 ```
 
-The complaint states the proposed chain. It does not measure every arrow. A seller may absorb the cost, raise price, reduce quality, leave the auction, or spend elsewhere.
+## What the sources actually establish
 
-## The useful surprise
+| Step | Evidence | Meaning |
+|---|---|---|
+| Visibility | The FTC complaint describes Sponsored Product, Sponsored Brand, and Display placements beside search results. | Paid placement can shape attention. |
+| Auction claim | The FTC alleges Amazon represented a second-price auction but charged near the winning bid about 80% of the time by 2024. | The alleged rule could raise seller cost. |
+| Seller reach | The complaint alleges the practice affected more than one million brands and sellers, including over 500,000 small and medium businesses. | The alleged exposure is broad. |
+| Customer pass-through | The FTC alleges higher advertising costs were largely passed to American consumers. | The central price claim remains to be tested. |
+| Legal status | The figures and conduct are allegations in a filed case. | They are not established facts. |
 
-The customer may never see the advertising charge. It can still matter if it changes which products receive attention or how much a seller must charge. Visibility is therefore part of the price system, even when it is not printed on the receipt.
+Source: [FTC and states sue Amazon over alleged ad surcharge scheme](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme).
 
-## Four views
+## The deeper finding
 
-**Household:** Compare the final price, delivery, quality, and search time—not only the first product shown.
+Visibility is part of the price system even when it is not printed on the receipt. A seller may pay for attention, and a customer may pay through a higher price or a narrower set of visible options. But the seller may also absorb the cost or leave the auction. The path cannot be claimed until those responses are observed.
 
-**Customer:** Separate organic ranking, sponsored placement, seller identity, product fit, and repeat outcomes.
+## What remains unproven
 
-**Money and finance:** Track auction charge, seller margin, product price, platform revenue, and customer pass-through as separate amounts.
+The complaint does not measure every arrow from auction charge to seller price to customer purchase. We still need auction logs, seller margins, product prices, quality, customer exposure, and final legal findings.
 
-**Public power:** Require records that let sellers and regulators test the auction rule, hidden charges, ranking, and the remedy.
+## Next test
 
-## What would change the finding
-
-- Auction logs showing bids, rules, charges, placements, and dates.
-- Seller-level changes in ad spending, margins, prices, quality, and exit.
-- Customer-level changes in what was shown, chosen, paid, and returned.
-- Comparisons across small and large sellers and across high- and low-demand days.
-- A final legal finding and an independent estimate of pass-through.
+Collect auction bids, rules, charges, placements, seller prices, margins, product quality, customer views, purchases, returns, and exit. Compare small and large sellers across high- and low-demand periods.
 
 ## Reading rule
 

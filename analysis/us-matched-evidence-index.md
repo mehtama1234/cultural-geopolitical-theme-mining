@@ -90,7 +90,7 @@ Credit is a bridge when cash arrives later. It can keep a car running, a bill cu
 **Route:** customer group → ability to leave → firm treatment and price
 **Still open:** current comparable service and customer power
 
-More sellers do not automatically mean fairer treatment. US research shows that competition can change a firm's reason to serve a customer group, but the result depends on which customers can leave and which cannot. Historical evidence finds nondiscrimination rising in less competitive markets and higher prices at nondiscriminatory firms in the studied setting. Other research finds that uniform retail prices can weigh more heavily on poorer households, while online information and some FinTech lending narrow certain price gaps. The deeper finding is that customer power is the bridge: competition helps only when people can compare, switch, and receive a comparable service.
+More sellers do not automatically mean fairer treatment. Competition helps a customer only when the customer can compare, switch, and receive a comparable service somewhere else. Time, money, identity, transport, information, and the cost of moving all decide whether “choice” is real.  A firm may treat a group better when it fears that group will leave. A customer who cannot leave may receive less attention even where several firms exist. Online search and new lenders can narrow some price gaps, but only for people who can reach and use those tools.
 
 [Read the HTML page](../site/us-consumer-discrimination-competition-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-consumer-discrimination-competition-matched-evidence-001.md)
 
@@ -340,7 +340,7 @@ A payment method is not only a checkout preference. It can decide who receives a
 **Route:** ad auction → seller visibility cost → seller price → customer price
 **Still open:** measured pass-through and product choice
 
-On a marketplace, advertising can be the price a seller pays to be seen. The FTC and 22 states allege that Amazon secretly raised prices in its search-ad auctions and that higher costs were largely passed to US consumers. That is a serious possible path from platform control to household prices, but it is still a complaint, not a court finding. The right next test is to separate the ad charge, the seller's price, the product shown, and the price paid by the customer.
+On a marketplace, advertising can be the price a seller pays to be seen. The customer may never see that charge, but it can change which products receive attention and how much the seller must charge. A sponsored result also changes the first comparison the customer makes.  The current evidence comes from a newly filed FTC complaint. Its conduct and figures are allegations, not court findings. That makes the next research task clear: separate the auction charge, the seller's response, the product shown, and the price finally paid.
 
 [Read the HTML page](../site/us-platform-ad-visibility-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-ad-visibility-cost-matched-evidence-001.md)
 
@@ -360,7 +360,7 @@ When a platform controls data that sellers need, equal access may help outside s
 **Route:** platform product → search choice → seller dependence
 **Still open:** future price, quality, entry, and customer options
 
-A platform's own product can help customers by fitting a need and reducing search time. The same platform can also control search placement, seller access, advertising, and customer data. The Amazon field experiment found a short-run customer loss when some Amazon-owned brands were hidden: estimated welfare fell 5.5% in the tested setting. That does not settle the longer question of whether the platform's control weakens outside sellers, raises future prices, or narrows future choice.
+A platform's own product can help a customer by fitting a need and reducing search time. The same platform can control the shelf: search placement, seller access, advertising, fulfillment, and customer data. The current customer gain may be real while the future market becomes more dependent on one gatekeeper.  The right question is not whether a platform-owned product is always good or bad. It is whether today's convenience is bought with tomorrow's higher price, weaker seller entry, poorer information, or fewer choices. Those are separate outcomes and need separate evidence.
 
 [Read the HTML page](../site/us-platform-owned-products-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-owned-products-matched-evidence-001.md)
 
