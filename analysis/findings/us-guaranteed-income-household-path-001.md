@@ -16,6 +16,10 @@ The recipient may control the payment, or the family may pool it. Either arrange
 
 When payments end, each member may face a different return to the old constraint. Training may continue to pay off, but debt may remain. A newly identified health need may still require care. A household may keep a new work pattern or return to the old one.
 
+Regularity changes the value of cash. A predictable payment can let a family plan a bill, accept a shift with less fear, or schedule care before it becomes urgent. An irregular payment may still help but be used to patch the latest crisis. The same total amount can therefore produce different results depending on whether the household knows when it will arrive and whether it can make a commitment around it.
+
+The payment can also alter who has the power to say no. A recipient may leave an unsafe job or refuse a bad housing arrangement. That is a gain in control, but another household member may take more paid work or unpaid care to keep the budget balanced. The effect is not captured by total income. It sits in the decisions each person can make and the cost another person bears.
+
 ```text
 one household member receives cash → money, time, and decision power move inside the home
 → another member trains, works, receives care, or changes spending
@@ -43,6 +47,10 @@ The health result shows why simple before-and-after labels fail. More reported f
 
 The household also has a power question. A payment in one person's name may increase that person's say, or it may be pooled under an existing arrangement. A family may use the money to protect a child's future or an older person's care. It may also use the money to keep the main earner working while another member absorbs more unpaid labor. The result should not be described as a household gain without showing who made the sacrifice.
 
+The end of the payment is a test of whether it built capacity or only filled a gap. A family may have paid down a bill and become safer, or may have used the cash for food and be no worse off except that the shortage returns. Training may create a later wage path, but it may also leave tuition debt and no time for care. A short program should therefore report what remains after the transfer, not only what changed while it was arriving.
+
+There is a public design choice in targeting. Paying one member can recognize an individual right and shift bargaining power. Paying the household may simplify administration but hide unequal control. A broad payment may reach people with need before they can prove it, while a narrow one may direct more money to a specific problem and miss people who cannot complete the process. The amount, recipient, timing, and conditions are separate parts of the intervention.
+
 ## Four views of the same payment
 
 **Recipient:** What did the person control, spend, save, study, refuse, or choose differently?
@@ -60,6 +68,8 @@ The studies do not show who controlled the payment, how money was shared, whethe
 ## Next test
 
 Follow every household member before, during, and two years after payments. Join payment, work, training, care, health, spending, debt, housing, time use, and decision-making records. Ask who decided how the money was used and whether a care report reflects new unmet need, better detection, or both.
+
+Compare predictable monthly payments with the same total delivered irregularly, and compare individual control with household pooling where ethically and legally appropriate. Measure food, rent, debt, savings, work hours, job quality, training completion, care use, health, stress, conflict, and each member's ability to refuse a bad option. Recheck outcomes six, twelve, and twenty-four months after payments end to see whether the gain became durable room or returned as a new shortage.
 
 ## Reading rule
 
