@@ -17,6 +17,10 @@ health need → care required and payment due → family time, paid work, covera
 → care kept, delayed, or changed → income, health, debt, and later choices move
 ```
 
+Time is not one cost either. Travel time, waiting-room time, time on hold, time to find a provider, and time spent explaining a history all fall on different people. A visit that takes two hours on paper may take a full workday once a caregiver arranges transport and returns home. A family may say the appointment was “available” while paying for it with lost wages or another missed task.
+
+The burden can repeat. A regular treatment that requires a monthly trip may be manageable with paid leave and nearby care, but impossible when every visit costs a shift. The household may then choose a less effective provider, skip follow-up, or make one family member the permanent driver. The system sees a completed visit or a missed visit; it may not see the schedule that made the choice possible.
+
 ## What the sources actually establish
 
 | Evidence | What it tells us | What it does not tell us |
@@ -38,6 +42,10 @@ Debt relief shows the same split. Clearing a medical balance can remove a barrie
 
 This is also a political path. If families repeatedly solve care problems through unpaid work, job lock, and borrowing, they may not describe the issue as a health policy failure. They may describe it as an employer problem, a transport problem, a debt problem, or a family duty. Only after those private fixes stop working might the same pressure become a demand for paid leave, wider coverage, local care, or debt protection. That is a possible path, not an established voting result.
 
+The distribution of time is important. A household with flexible work can absorb a long appointment without losing income. A worker paid by the hour may lose the shift, and a small employer may lose a trained worker for the day. Women may carry more of the unpaid care, but the effect also depends on who lives nearby, who can drive, and who has leave. A policy that lowers the medical bill but leaves the time path untouched may reduce debt while preserving the work penalty.
+
+There is a service-design question inside access. A remote visit may remove travel but fail when the patient needs an exam, reliable internet, privacy, or a caregiver who can join. A nearby clinic may be affordable but have no appointment after work. “Covered” and “available” are therefore not the same as usable. Care should be judged by whether the patient and helper can complete the full path without giving up an unsafe amount of money or time.
+
 ## What remains unproven
 
 The sources do not follow one household across medical cost, treatment, unpaid care hours, paid work, coverage, earnings, debt, transport, and later health. They do not show which resource was scarce first, whether a job was kept mainly for coverage, or which intervention gives lasting security. They also do not show when private family help becomes public anger, or whether families with no available helper face a different path.
@@ -45,6 +53,8 @@ The sources do not follow one household across medical cost, treatment, unpaid c
 ## Next test
 
 Join medical costs, treatment use, unpaid care hours, paid work, employer coverage, earnings, debt, transport, and health for the same household. Follow the household before and after a new regular care need. Split results by income, gender, age, race, disability, family role, and place. Test whether a change in paid leave, coverage, transport support, or debt relief changes the other parts of the chain. Record both the crisis avoided and the work, money, and choices the family still gave up.
+
+Run a time-and-money diary around repeated care visits, linked to payroll and treatment records. Compare in-person, remote, evening, and coordinated family-care options where appropriate. Measure total door-to-door time, lost wages, unpaid care hours, missed treatment, debt, health, and job retention. The strongest result would show whether an intervention reduces the full household cost, not merely the bill or the travel distance.
 
 ## Reading rule
 
