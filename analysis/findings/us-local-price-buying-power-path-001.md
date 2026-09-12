@@ -16,7 +16,9 @@ The monthly calculation can look favorable while the yearly calculation gets har
 
 Another family in the same town has relatives nearby and a flexible job. It can share rides, use a local store, and borrow help during a repair. The place gives that family more room. The difference is not a different rent or price index. It is the set of backup choices around the purchase.
 
-Another family in the same town has relatives nearby and a flexible job. The place gives it more room. A local price index cannot show both paths without the services and travel around the purchase.
+A local price index cannot show both paths without the services and travel around the purchase. It also cannot show who can use a lower price at the right hour. A discount store that closes before a night shift ends, or a clinic that requires a day off, has a different real price than its posted price suggests.
+
+Moving can change the basket without changing the household's stated income. A family may leave a costly city to reduce rent, then lose a nearby job, a bus route, or a relative who provided child care. The move may improve the monthly ledger and weaken the household's ability to recover from a sick child or broken car. A place is not just where purchases happen; it is the network that makes those purchases possible.
 
 ```text
 place → local prices, services, product choices, and travel distance
@@ -43,6 +45,10 @@ The larger finding is that local price differences also change resilience. A hou
 
 This connects local buying power to transportation and insurance. A low-cost area may require a car and expose the owner to a large repair or coverage bill. A high-cost area may reduce travel but leave less cash after rent. The household’s real choice is a bundle of monthly money, time, reliability, and the ability to recover after a shock.
 
+The distributional effect can become political. If residents hear that their area is “affordable” while they spend hours driving, lose local services, or cannot reach a job without a car, the label will not match their experience. A rising price in a dense place may be visible, while the cost of distance in a cheaper place is spread across every week. Public judgment may follow the total burden and the missing alternatives, not the index headline.
+
+This also changes how to read local business data. A store can charge less and still be inaccessible; a small clinic can charge more and save a full day's wages. A new business may improve choice only if it is open when people need it, reachable without a car, and able to stay open through a weak season. Price competition becomes meaningful only after the household can physically use the alternative.
+
 ## What remains unproven
 
 The study does not follow the same household’s price basket, job, care, travel, family support, and move decision. It does not show whether a low-price place improved well-being or whether higher prices bought better quality and opportunity. Results may differ by income, race, age, disability, family type, and transport access. It does not show what households do when the cheapest option is unavailable at the time they need it.
@@ -50,6 +56,8 @@ The study does not follow the same household’s price basket, job, care, travel
 ## Next test
 
 Compare two commuting zones with similar household income but different price indexes. Follow one basic basket, one job path, one care path, and one move-or-stay decision. Add store distance, product quality, transit by hour, family support, car ownership, repair exposure, and local services. Record what happens when the cheapest option is closed, full, delayed, or too far away.
+
+Build a weekly household budget that prices travel time, missed work, care arrangements, car ownership, and emergency alternatives alongside rent and goods. Compare movers before and after relocation, not only residents in two places. Ask what the household expected to gain, what it actually gave up, and which backup disappeared. This would separate a lower cost of living from a lower cost that is paid in time, risk, or lost opportunity.
 
 ## Reading rule
 
