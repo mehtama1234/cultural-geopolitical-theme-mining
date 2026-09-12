@@ -26,6 +26,10 @@ privacy rule and clearer permission → person feels more protected
 
 The reward changes the choice but does not settle it. A $5 coupon may be worth the data to one shopper and not to another. A customer with no practical substitute may share because the service is needed, not because the exchange is fair. A person may also value fraud protection or a faster return process enough to accept collection. The analysis needs the value received and the alternatives available, not just the permission click.
 
+The record can say more than the customer intended. A receipt shows a purchase, but repeated receipts can suggest a medical need, a change in income, a household’s size, or a move between neighborhoods. Those inferences may be wrong and still affect what the person sees. The customer is not only exchanging the facts on the receipt; they may be exchanging the firm’s right to make guesses from the pattern.
+
+The household may also share unevenly. One person can submit receipts for a family, while another person’s purchases appear in the same record without a separate choice. A coupon may help the household while exposing a partner, child, or caregiver. A privacy decision made by one account holder can therefore become a decision about several people.
+
 ## What the source actually establishes
 
 | Step | Evidence | Meaning |
@@ -49,6 +53,10 @@ There is a second timing problem. Data collected today can be used after the cus
 
 The public path is indirect. A breach, unwanted targeting, or refusal to delete data may turn a private exchange into a complaint or demand for stronger rules. But more sharing can also mean the exchange is working for the customer. The current study establishes a change in sharing, not who received the later value or who carried the later risk.
 
+This is where privacy becomes a political and market question. If people cannot use a service without feeding a profile, the right to refuse exists only on paper. If a firm can offer a lower price for more data, it may split customers by their ability or willingness to disclose. That can be a fair choice when the terms are clear and the basic service remains usable; it can be coercive when the data path is hidden or the alternative is essential. The sources here do not decide which case is common.
+
+The benefit can also disappear while the record remains. A shopper may stop using the app but leave behind a profile, derived category, or copy held by a partner. That makes withdrawal a separate product feature, not the reverse of consent. A firm that makes sharing easy and deletion difficult has changed the exchange after the customer’s decision.
+
 ## What remains unproven
 
 The study does not show whether users understood the exchange, received a better offer, faced different prices, or could delete the record. It does not show which firms gained the data, whether a profile changed later treatment, or whether sharing stayed higher after a breach, unwanted use, or a later policy change. Results may differ by age, income, race, disability, language, and digital access. It also does not show whether users could refuse data collection without losing the core service.
@@ -56,6 +64,8 @@ The study does not show whether users understood the exchange, received a better
 ## Next test
 
 Follow users for one year before and after a privacy rule. Vary the notice, permission, reward, and deletion controls, then measure what people understand, share, receive, and can stop. Test whether the record changes later offers, prices, ranking, or service. Compare customer value with the firm’s new ability to predict and sort. Audit whether deletion removes the original record, derived profile, and downstream copies, and test a no-sharing path that keeps the core service available.
+
+Give households a plain record of what was collected, what was inferred, who received it, and what offer or decision followed. Randomly provide an easy no-sharing route and a real deletion test. Measure whether people can correct a wrong inference, whether family members know they were included, and whether the service or price changes after refusal. This would show whether privacy protection gives customers control or mainly makes them more comfortable with a larger data exchange.
 
 ## Reading rule
 
