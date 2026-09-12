@@ -140,6 +140,8 @@ Follow local job dependence into work expectations and then into political judgm
 
 Still missing: The current sources do not follow the same worker from employer power through a message, belief change and vote.
 
+[Read the complete connected memo](../site/us-employer-political-influence-path-001.html)
+
 ### When income risk at the top changes the price of money
 
 Follow income risk among high earners into saving and the wider money system, then ask how a financial change becomes a public argument about fairness and policy.
