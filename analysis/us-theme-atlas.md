@@ -509,6 +509,8 @@ Follow the form and timing of public help into food spending, then ask whether s
 
 Still missing: The new study measures short-run food-store spending and does not follow the same families through broader needs, lasting security or political response.
 
+[Read the complete connected memo](../site/us-transfer-design-food-security-path-001.html)
+
 ### When the price people see becomes the economy they judge
 
 Follow repeated prices and wage comparisons into the household's sense of room, then ask when that private loss becomes a public judgment.
