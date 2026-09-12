@@ -569,6 +569,8 @@ Follow a privacy rule into a person's willingness to use a service and share dat
 
 Still missing: The current study measures sharing on one app and does not show later data use, service outcomes or political response.
 
+[Read the complete connected memo](../site/us-privacy-data-exchange-path-001.html)
+
 ### When local buying power reaches the ballot
 
 Follow local prices and wages into the household's sense of room, then ask whether lost buying power becomes a vote against the party in power.
