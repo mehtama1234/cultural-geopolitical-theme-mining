@@ -44,6 +44,13 @@ GROUP_FIELDS = {
     "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
     "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
 }
+OFFICIAL_FLAG_FIELDS = {
+    "EAWBMORT": "AAWBMORT",
+    "EAWBGAS": "AAWBGAS",
+    "EFOOD6": "AFOOD6",
+    "RFOODS": "AFOODS",
+    "RMNUMJOBS": "AMNUMJOBS",
+}
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
 
@@ -107,7 +114,8 @@ def summarize(acc: dict, fields: list[str]) -> dict:
     return results
 
 
-def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by: str | None = None) -> dict:
+def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by: str | None = None,
+            official_universes: bool = False) -> dict:
     overall = new_accumulators(fields)
     grouped = {}
     full_num = {field: 0.0 for field in fields}
@@ -120,6 +128,11 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
     with primary_path.open(encoding="utf-8", newline="") as primary_file:
         primary = csv.DictReader(primary_file)
         required = {"WPFINWGT", *KEYS, *fields}
+        if official_universes:
+            required.update(OFFICIAL_FLAG_FIELDS[field] for field in fields)
+            required.add("AHINCPOV")
+            if group_by == "ERACE_THINCPOV":
+                required.add("ARACE")
         if group_by:
             required.update(GROUP_FIELDS[group_by])
         missing = sorted(required - set(primary.fieldnames or []))
@@ -132,8 +145,13 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             if pkey in primary_by_key:
                 raise ValueError(f"duplicate person-month key in primary slice: {pkey}")
             group = group_key(group_by, prow) if group_by else None
-            primary_by_key[pkey] = (prow.get("WPFINWGT", ""),
-                                    {field: prow.get(field, "") for field in fields}, group)
+            primary_values = {field: prow.get(field, "") for field in fields}
+            if official_universes:
+                primary_values.update({flag: prow.get(flag, "")
+                                       for flag in OFFICIAL_FLAG_FIELDS.values()})
+                primary_values["AHINCPOV"] = prow.get("AHINCPOV", "")
+                primary_values["ARACE"] = prow.get("ARACE", "")
+            primary_by_key[pkey] = (prow.get("WPFINWGT", ""), primary_values, group)
 
     with zipfile.ZipFile(replicate_zip) as archive:
             names = archive.namelist()
@@ -163,11 +181,17 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                     rep_weights = np.fromiter((float(rrow[f"repwgt{i}"]) for i in range(1, 241)),
                                               dtype=np.float64, count=240)
                     accumulators = [overall]
-                    if group_by and group:
+                    group_valid = (not official_universes or
+                                   (primary_values.get("AHINCPOV", "") not in ("", "0") and
+                                    (group_by != "ERACE_THINCPOV" or
+                                     primary_values.get("ARACE", "") not in ("", "0"))))
+                    if group_by and group and group_valid:
                         grouped.setdefault(group, new_accumulators(fields))
                         accumulators.append(grouped[group])
                     for field in fields:
                         if not primary_values[field]:
+                            continue
+                        if official_universes and primary_values.get(OFFICIAL_FLAG_FIELDS[field], "") in ("", "0"):
                             continue
                         for acc in accumulators:
                             acc["full_den"][field] += primary_weight
@@ -185,6 +209,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
         "positive_weight_rows_matched": matched_rows,
         "fields": fields,
         "group_by": group_by,
+        "official_universes": official_universes,
         "group_value_labels": ({field: GROUP_LABELS[field] for field in GROUP_FIELDS[group_by]}
                                if group_by else {}),
         "results": summarize(overall, fields),
@@ -201,8 +226,11 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--fields", nargs="+", choices=sorted(LABELS), default=list(LABELS))
     parser.add_argument("--group-by", choices=sorted(GROUP_FIELDS), default=None)
+    parser.add_argument("--official-universes", action="store_true",
+                        help="exclude records with documented status flag 0")
     args = parser.parse_args()
-    result = analyze(args.primary, args.replicate_zip, args.fields, args.group_by)
+    result = analyze(args.primary, args.replicate_zip, args.fields, args.group_by,
+                     args.official_universes)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))

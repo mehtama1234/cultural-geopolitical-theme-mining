@@ -9,6 +9,9 @@
 This is the first completed intersectional diagnostic in the broad program. It
 compares race categories across monthly income-to-poverty bands. It is a
 population distribution, not a one-household story and not a causal estimate.
+The second calculation applies the documented status flags for the selected
+fields, so the estimates below are status-flag-filtered rather than simple
+nonblank diagnostics.
 
 ## Estimates
 
@@ -65,8 +68,11 @@ not answer that question by itself.
 - `THINCPOV` is a monthly household income-to-poverty ratio; the estimates use
   person records and the final person weight.
 - Household fields repeat across people; this is not a household-count table.
-- The selected outcomes use nonblank denominators and the calculation has not
-  constructed each variable’s full official universe or status-code treatment.
+- The selected outcomes use nonblank denominators after excluding records with
+  status flag `0` (not in universe) for that field. This is a status-aware
+  calculation, but it has not independently reconstructed every domain rule
+  from the dictionary; `official_universes_constructed` therefore remains
+  false in the machine-readable output.
 - Standard errors are a first design-based check and do not establish cause.
 - The results do not connect race/resource status to a particular bill, price,
   repair, benefit decision, health event, move, trust judgment, vote, or firm
@@ -81,14 +87,13 @@ extract_sipp_household_calendar_slice.py
   -> analyze_sipp_fay_brr.py --group-by ERACE_THINCPOV
 ```
 
-The raw files and derived CSV are not committed. The temporary calculation
-output was `/tmp/us-broad-sipp-2025/full-v5/fay-brr-race-resource.json` at the
-time of this check.
+The raw files and derived CSV are not committed. The status-aware temporary
+calculation output was `/tmp/us-broad-sipp-2025/full-v6/fay-brr-race-resource-official-v2.json`.
 
 ## Next test
 
-Apply official universes and status flags, then add tenure and household
-composition to a small pre-registered set. Pair the intersection with a valid
+Reconstruct the remaining variable-specific domain rules, then add tenure and
+household composition to a small pre-registered set. Pair the intersection with a valid
 measure of benefit access, local prices, housing quality, health, or mobility.
 Keep the downstream links—repair, food recovery, work change, trust, political
 action, and institutional response—separate until they are measured in the
