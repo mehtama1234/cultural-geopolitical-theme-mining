@@ -20,6 +20,8 @@ Do not assume that a bad economic view comes from a bad personal outcome. Test p
 
 The next executable design is the [political-response measurement specification](political-response-measurement-spec-v1.md). It keeps exposure, adjustment, interpretation, expression, and political action separate and defines the valid respondent, place, and event-study alternatives.
 
+The [ANES 2024 source record](anes-2024-political-path-source-record-v1.md) maps a current respondent-level pre/post political layer to that design. It records the official acquisition boundary and does not claim new estimates until the current microdata release is obtained.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.
