@@ -114,6 +114,8 @@ Follow local prices into the household's felt buying power, then ask how the rem
 
 Still missing: The current sources do not follow the same household through local prices, actual purchases, moving choice and political response.
 
+[Read the complete connected memo](../site/us-local-price-buying-power-path-001.html)
+
 ### When the biggest local employer reaches the ballot
 
 Follow local job dependence into work expectations and then into political judgment. Ask whether the employer's power changes what workers think is safe to support.
