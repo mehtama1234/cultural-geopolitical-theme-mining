@@ -69,6 +69,12 @@ The first two links are supported by the Fed survey. The product-level late-fee 
 
 These are distinct situations. A single approval rate cannot describe them.
 
+The payment schedule can become a second budget. Four small installments may look easier than one large bill, but they can overlap with rent, utilities, a loan reset, or another purchase. A household that makes the first payment successfully may still be building a cluster of deadlines. The risk is not only the size of each installment; it is the number and timing of obligations that must be remembered and met.
+
+Credit can also protect a household in a way that is hard to see later. Buying tires may preserve a job. Paying for a prescription may prevent a health break. Replacing a refrigerator may protect food. If the purchase is recorded only as debt, the data misses the need it kept intact. If the account is current, it also misses how much future room was consumed to keep the present stable.
+
+The lender's view is different from the household's. A product can be profitable because customers pay interest, fees, or late charges, while the customer experiences it as the only available bridge. That does not establish exploitation in every case. It does mean that a product should be judged by the result after repayment, not only by approval, checkout completion, or provider loss rates.
+
 ## What is fact, inference, and unknown
 
 **Fact:** The Fed reports cash-buffer, BNPL-use and late-payment differences. CFPB reports provider-level late-fee and charge-off measures. The New York Fed reports aggregate balances and delinquency patterns.
@@ -76,6 +82,8 @@ These are distinct situations. A single approval rate cannot describe them.
 **Inference:** Credit may be acting as a household timing tool: it keeps the present purchase intact while moving pressure into the next pay period. The burden may be heavier where income leaves less room for error.
 
 **Unknown:** We do not know which purchase was made, which bill was delayed, whether the late fee was paid, or whether the household later reduced food, energy, care, housing or work spending.
+
+We also do not know how many plans a household held at once, whether a late payment caused a cascade, or whether the product replaced a worse option. A late payment may be a short inconvenience or a trigger for account closure, collections, or a new high-cost loan. Those paths need to be observed separately before assigning the same meaning to every late mark.
 
 ## What would change the finding
 
@@ -88,6 +96,8 @@ These are distinct situations. A single approval rate cannot describe them.
 ## Next test
 
 Use the Fed's BNPL subgroup tables with the CFPB's provider measures and one household panel that records payment timing. Separate three outcomes: the purchase remained possible, the payment was late, and another need was reduced. Do not combine them into a single measure of financial harm.
+
+Run a monthly payment diary linked to account records. For each borrowing event, record the need, the cash available, every open payment date, fees, late status, account freeze, and the next bill that changed. Compare households using credit for a one-time bridge with households carrying several plans. Follow work, housing, food, energy, care, savings, and stress for a year so the test shows whether credit bought recovery or only postponed the shortage.
 
 ## Reading rule
 
