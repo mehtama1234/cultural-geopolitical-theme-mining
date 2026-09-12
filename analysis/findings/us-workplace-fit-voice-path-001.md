@@ -10,6 +10,10 @@ The deeper risk is a feedback loop. A manager assigns one worker to sales and an
 
 The first decision can therefore matter more than the later review. A worker may be capable of the customer-facing job but never receive the chance to show it. The company then sees a record that it helped produce and treats it as a neutral measure of talent.
 
+The rule can be hidden in ordinary words: polished, relatable, professional, easy with customers, or a good fit. Those words may describe a real communication need, but they can also avoid naming the skill being judged. When the standard is unclear, the worker cannot know what to improve and the manager cannot show whether the same test was used for everyone.
+
+The customer’s comfort is not one thing either. A local voice may feel familiar to some customers and less clear to others. A worker with a different speech pattern may understand a wider customer group or notice a problem the dominant group misses. Assigning people by assumed comfort can make the service narrower while making the decision look customer-centered.
+
 ## Follow one job decision forward
 
 Two workers have similar education and experience. One sounds like the dominant local workplace group. The other has a different speech pattern. A manager does not reject the second worker. Instead, the manager assigns the first to sales and the second to operations, saying the decision is about customer comfort.
@@ -55,6 +59,10 @@ The household cost can arrive slowly. A less visible assignment may mean lower t
 
 The political link is also indirect. A worker who feels repeatedly sorted by an unstated rule may lose trust in the employer, a profession, or the promise that skill will be rewarded. That can shape a complaint, a union choice, a job move, or a demand for an anti-discrimination rule. The current evidence does not show that it changes a vote, so that remains a test rather than a finding.
 
+There is a recovery question after the first assignment. Can a worker move into customer-facing work, receive the same training, and be judged on the same result? If the answer is no, a later gap in pay or confidence may reflect a path closed years earlier. A fair system needs an entry test and a second-chance test, not only a review of the job the worker was initially given.
+
+The public issue is not that every workplace must sound the same. It is whether a firm can state the communication task, measure it directly, and provide a route to challenge the decision. Clear standards can protect customers and workers at the same time; vague fit language leaves both with less power.
+
 ## Four views of the same decision
 
 **Worker:** Was the assignment a choice, a fair test, or a limit? What practice and feedback became available afterward?
@@ -72,6 +80,8 @@ The evidence does not show one manager refusing one worker, one pay gap caused b
 ## Next test
 
 Use current hiring or worker records. Compare the same job decision with structured skill measures and speech information visible or hidden. Track access to customer work, pay, promotion, feedback, worker voice, customer ratings, complaints, resolution, and repeat contact. Follow workers long enough to see whether the first assignment creates the later difference. Record training costs, speech adjustment, job exit, and household income, and test whether a fairer assignment changes service quality.
+
+Add a blind-and-open assignment trial. Give managers the same work samples with speech masked, then reveal speech or local background in a separate condition. Offer workers a fair route into customer work after the first decision, and track training, pay, customer outcomes, complaints, and promotion for two years. Ask customers which communication features helped solve the problem rather than using comfort as a proxy. This would show whether “fit” predicts real work or merely allocates the chance to prove it.
 
 ## Reading rule
 
