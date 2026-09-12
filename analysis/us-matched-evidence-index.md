@@ -64,7 +64,17 @@ Two workers can earn the same amount over a year and still have very different l
 
 [Read the HTML page](../site/us-income-volatility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-income-volatility-matched-evidence-001.md)
 
-### 7. Payment choice is a distribution question, but not yet a household welfare result
+### 7. The same income can buy a different life by place
+
+**Theme:** Cost / place
+**Route:** place → local prices → real buying power
+**Still open:** the same household's move and well-being result
+
+A national income number can hide a local customer reality. Prices differ across the United States, especially for housing, and the gap is wider for low-income households. NBER finds that expensive places offer less real consumption to less-educated households, while the same link is much weaker for college graduates.  This does not make every low-cost place better. A place also offers jobs, services, safety, family ties, and ways to move. The careful finding is that the same paycheck does not carry the same buying power everywhere.
+
+[Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
+
+### 8. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money

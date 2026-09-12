@@ -15,3 +15,7 @@ A national income number can hide a local customer reality. If low-income househ
 ## Decision rule
 
 Move on after one local price index, one observed consumption measure, and one place-level outcome. Do not call a city cheap or expensive without naming the household group and product basket.
+
+## Matched evidence pass
+
+The first matched check is [The same income can buy a different life by place](../../findings/us-local-prices-matched-evidence-001.md), with its [HTML reading page](../../../site/us-local-prices-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms unequal local price exposure while leaving the same-household move and well-being result open.
