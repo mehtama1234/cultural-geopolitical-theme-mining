@@ -33,6 +33,7 @@ routes = {
     "us-inflation-measurement-household-basket-matched-evidence-001": ("Cost / customer / voice", "price index + wage + spending → household basket", "same-household substitution, debt, trust, and vote"),
     "us-inflation-cex-basket-build-matched-evidence-001": ("Cost / customer / voice", "income + tenure → spending pattern → possible pressure", "same-family purchases and later response"),
     "us-tariff-price-pass-through-matched-evidence-001": ("Cost / customer / voice / work", "trade rule → import cost → retail price → household choice", "firm margins, household exposure, and political response"),
+    "us-economic-voting-real-wages-matched-evidence-001": ("Cost / voice / work", "local prices + pay → buying power → blame → vote or turnout", "individual burden, policy knowledge, and cause"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
