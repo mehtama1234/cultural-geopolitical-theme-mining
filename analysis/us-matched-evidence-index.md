@@ -144,7 +144,17 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 15. A car repair can protect access while taking away other room
+### 15. The same dollar can do different work depending on how it arrives
+
+**Theme:** Cost / time / voice
+**Route:** aid form → spending choice → household security
+**Still open:** food security, care, trust, and long-run security
+
+A dollar of public aid is not experienced as the same dollar when it is food or cash, or when it arrives once or every month. NBER finds larger short-run food-store spending responses from in-kind and recurring aid. A separate US cash experiment found more spending on housing, food, and cars, but little average change in net worth.  The deeper finding is about timing and choice. A label may protect food spending. Cash may cover rent, medicine, transport, or a repair. Recurring aid may help planning. None of these short-run responses alone proves lasting household security.
+
+[Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
+
+### 16. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
