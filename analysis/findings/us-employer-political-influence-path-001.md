@@ -18,6 +18,10 @@ Suppose the company warns that a new trade rule will close a plant. One worker h
 
 The household may not need to agree with the employer for the message to matter. It may treat the company's forecast as a warning about the mortgage, health plan, or next paycheck. A worker can vote privately against the message while changing public speech, job search, or willingness to challenge a manager. Influence can appear as silence or caution, not only as a changed vote.
 
+The employer’s reach can extend through the household. A spouse may depend on the worker’s health plan, a family business may sell to the company, or a landlord may know that most local tenants work there. A message about a plant, contract, or tax rule can then affect several people who never received the message directly. The local job share is therefore only the starting measure; the real exposure includes the services and relationships tied to the employer.
+
+Information and pressure can look similar from outside. A company may know its supply chain and local hiring better than a distant campaign, so its warning may be useful. The worker may also know that the speaker controls the next schedule or promotion. The same sentence can be advice in one setting and a threat in another. The test needs the message, the setting, the worker’s dependence, and any employment consequence.
+
 ```text
 local employer power → job dependence and economic expectations → message, pressure, or silence
 → private political belief → public expression, policy demand, turnout, or vote
@@ -49,6 +53,10 @@ The public question is whether a company should be treated only as an economic a
 
 The household-level outcome may be more than a vote. A worker may change a job search, a public comment, a union decision, or willingness to ask for a benefit. Those choices can affect local politics even if the final ballot remains private. They should be measured as separate outcomes rather than folded into a single influence score.
 
+The message may also change how a worker reads later events. If a policy passes and the employer keeps hiring, the warning may lose force. If hours fall for an unrelated reason, the earlier message may seem confirmed. Workers may then update their view of the firm, the policy, or both. A single election survey cannot tell whether the influence was a momentary fear or a lasting change in trust.
+
+This is why local alternatives are a possible remedy, not a guaranteed one. A second employer can lower the cost of disagreement, but it may offer worse pay, no health plan, or a longer commute. A union or anonymous channel can protect expression, but may not replace a lost job. Public policy should be judged by the alternatives workers can actually use, not only by whether a formal protection exists.
+
 ## What remains unproven
 
 The evidence does not show whether a message changed a vote, whether workers merely reported influence because the employer was a salient source of information, or whether the effect lasts after the election. It does not show whether workers changed speech, job search, or public contact while voting privately. It does not establish how unions, public jobs, labor law, anonymous voting, or a new local employer change the result. It also does not show whether the employer’s forecast was accurate or whether workers were responding to real local risk rather than the message itself.
@@ -56,6 +64,8 @@ The evidence does not show whether a message changed a vote, whether workers mer
 ## Next test
 
 Follow workers before and after an employer message through one election. Measure local employer job share, outside options, message content and timing, private belief, perceived pressure, speech, job search, work outcomes, turnout, public political contact, and vote where permitted. Compare workers in places with one dominant employer to similar workers in more competitive labor markets, and test whether new local alternatives change the response. Record whether the policy forecast came true, and separate private belief, public behavior, job movement, and ballot choice.
+
+Add a household exposure map: health coverage, spouse employment, local suppliers, school or care ties, housing, debt, and the person’s realistic alternative job. Preserve the exact message and measure whether it included a request, a forecast, or a consequence. Recontact workers after the forecast period and after any schedule or layoff change. This would separate useful local information, perceived pressure, self-censorship, and actual ballot change.
 
 ## Reading rule
 
