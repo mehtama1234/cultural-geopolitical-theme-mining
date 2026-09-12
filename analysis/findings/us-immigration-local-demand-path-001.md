@@ -1,57 +1,39 @@
 # When new residents change the local customer base
 
-## Short answer
+## The argument
 
-New residents add workers, customers, needs, and neighbors at the same time. That can create local jobs and businesses while adding pressure to housing, schools, health care, transport, and other services.
+New residents arrive as workers, customers, neighbors, and users of public services at the same time. A town may gain workers and new stores while also facing higher demand for homes, schools, health care, transport, and language help. The gains and costs can land on different people.
 
-The effects can point in different directions in the same place. A local job gain does not settle the rent, wage, service, or belonging question.
+That is why “immigration helps” and “immigration hurts” are both too blunt. A restaurant may hire more workers and serve more customers. A family may find better food or child care while paying more rent or waiting longer for a clinic. The useful question is where the new demand lands, how quickly supply responds, and who has the power to absorb the change.
 
-## What the sources show
+## What the sources establish
 
-Using US Census data from 1980 to 2000, NBER research estimates that each immigrant created about 1.2 local jobs for local workers, mostly in services used where they are provided. Other NBER research finds that immigrants can expand labor supply and competition while also starting firms and expanding labor demand.
+Using US Census data from 1980 to 2000, NBER estimates that each immigrant created about 1.2 local jobs for local workers, mostly in services used where they are provided. Other NBER work finds that immigrants can expand labor supply and competition while also starting firms and expanding labor demand.
 
-Recent NBER research studies the postpandemic immigration surge and estimates roughly offsetting effects on inflation. HBS reports that mixed migrant-local teams produced more socially useful business ideas than local-only teams in the study.
+Recent NBER research on the post-pandemic immigration surge estimates roughly offsetting effects on inflation. HBS reports that mixed migrant-local teams produced more socially useful business ideas than local-only teams in its study.
 
-These sources do not show current housing, prices, service capacity, wages, or political response in one place.
+These findings establish possible job, demand, price, and innovation channels. They do not show current housing, service capacity, wages, or political response in one place.
 
-- [NBER Working Paper 21123](https://www.nber.org/papers/w21123)
-- [NBER Working Paper 27778](https://www.nber.org/papers/w27778)
-- [NBER Working Paper 35168](https://www.nber.org/papers/w35168)
-- [HBS: When Migrants and Locals Innovate Together](https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain)
+Sources: [NBER Working Paper 21123](https://www.nber.org/papers/w21123), [NBER Working Paper 27778](https://www.nber.org/papers/w27778), [NBER Working Paper 35168](https://www.nber.org/papers/w35168), and [HBS migrant-local teams](https://www.library.hbs.edu/working-knowledge/when-migrants-and-locals-innovate-together-communities-gain).
 
-## The connection
+## Follow the local adjustment
 
-```text
-new residents arrive
-  -> more workers, customers, and local needs
-  -> service demand, business entry, jobs, wages, and housing respond
-  -> residents experience different prices, access, and belonging
-  -> local and national political demands change
-```
+new residents arrive → more workers, customers, and needs → firms, jobs, wages, housing, and public services respond → residents experience different prices, access, and belonging → local political demands change
 
-New demand can support local workers and businesses. It can also add pressure where housing or public systems expand slowly.
+The adjustment is not one market effect. New demand can support a business and raise a landlord’s rent. More workers can expand a service and put pressure on wages in another job. More tax receipts may arrive while a clinic remains full. A local average hides these splits.
 
-## The four outside views
+## What must stay separate
 
-**Household:** New customers may bring useful stores, care, food, and services. Rent, crowding, wait times, and school or health access may also change.
-
-**Company and sector:** Firms gain workers and customers and may start new services. They may also compete for scarce housing, labor, or public space.
-
-**Money and finance:** New demand can raise sales and local jobs without raising every worker's pay. Housing costs and business profits may move differently.
-
-**Public power:** Housing supply, schools, health care, transit, language access, work rules, and local taxes decide who receives the gain and who carries the added cost.
-
-## What would change the finding
-
-- Current local demand, service use, business entry, survival, and ownership.
-- Housing supply, rents, crowding, home prices, and public capacity.
-- Wages, hours, job quality, and prices for immigrants and existing residents.
-- Schools, health care, transport, wait times, and tax receipts.
-- Local attitudes, trust, belonging, and political response.
+- Job creation and job quality.
+- More customers and lower prices.
+- Business entry and business survival.
+- Housing demand and housing supply.
+- Service use and service capacity.
+- Economic gain and belonging.
 
 ## Next test
 
-Follow matched places before and after a change in new-resident inflow for five years. Join migration, customer demand, business, housing, wage, service, tax, and attitude data. Separate who gains jobs from who pays higher costs.
+Follow matched places for five years before and after a change in new-resident inflow. Join migration, customer demand, firm entry and survival, housing, wages, service wait times, tax receipts, and local attitudes. Report who gains jobs and who carries higher costs.
 
 ## Reading rule
 
