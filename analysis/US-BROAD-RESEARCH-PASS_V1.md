@@ -38,6 +38,8 @@ The third bridge synthesis is now recorded in [work rules and tools to control, 
 
 The fourth bridge synthesis is now recorded in [housing, energy, and insurance to health, mobility, and place](bridges/us-housing-energy-insurance-place-v1.md). It separates affordability, protection, home condition, mobility, and recovery.
 
+The fifth bridge synthesis is now recorded in [public aid and rules to interpretation and political response](bridges/us-public-aid-interpretation-political-response-v1.md). It separates exposure, take-up, material result, interpretation, political expression, and political action.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
