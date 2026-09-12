@@ -14,6 +14,10 @@ Imagine a restaurant owner whose sales fall while a child's college bill arrives
 
 Each choice protects one side and exposes another. Paying workers may preserve the business and local jobs while reducing the family's savings. Paying tuition may protect a child's path while leaving the firm less ready for the next month. Delaying maintenance may keep cash today and raise the chance of a later closure. A record of household consumption alone cannot tell us which business cost paid for the stability.
 
+The timing matters. A fall in sales is not the same as a permanent loss of income. If the owner believes the shock will pass, borrowing or postponing maintenance may seem sensible. If the owner believes demand has changed for good, the same action may only delay an exit. The household's view of the future therefore becomes part of the firm's operating decision. That is one reason a short survey or one annual tax return can miss the real choice: the key event may be a payment moved from this week to next month, or a repair that never gets made.
+
+The direction can run the other way too. A medical bill, divorce, caregiving need, or job loss in the household can pull money out of a firm that was already thinly funded. In that case the business is not the original source of the shock; it is the family's emergency reserve. Treating every weak firm as a business-demand problem would confuse the trigger with the response.
+
 ```text
 business or family cash-flow shock → owner chooses which payment or investment to protect
 → household spending, business capital, debt, or education changes
@@ -39,6 +43,10 @@ This makes liquidity more important than revenue alone. Two owners with the same
 
 The family-business link also changes how to read local economic data. A closure is a visible result, but a long period of underinvestment may first reduce service quality, hours, hiring, or the owner's ability to hand the business to the next generation. A firm can survive on paper while the household's future options narrow.
 
+This also explains why “small business health” is too broad a label. A firm may have positive sales and still be losing owner time, family savings, or future capacity. Another may report weak current profit because it is paying workers, replacing equipment, or carrying a family member through a hard month. The useful question is not whether the business looks healthy in one statement. It is whether the household and firm together have enough cash, credit, labor, and time to meet the next obligation without damaging the next period.
+
+There is a quiet power issue inside this cash pool. Owners with savings or a spouse's paycheck can choose the least damaging delay. Owners without that buffer may have to choose between a family need and payroll, even when both choices carry moral and financial cost. A public loan or subsidy can therefore do more than keep a firm open: it can decide whether the owner protects workers, education, care, or the firm's next investment. Access and timing matter as much as the program's headline size.
+
 ## Four views of the same cash pool
 
 **Household:** Which need was protected—housing, food, care, health, education, debt, or savings—and what was delayed?
@@ -56,6 +64,8 @@ The US sources support a shared cash-flow problem, but do not show the same owne
 ## Next test
 
 Follow owners and their businesses for twelve months after one cash-flow shock. Record sales, owner draw, household spending, savings, debt, subsidies, loan terms, payroll, hours, suppliers, maintenance, investment, education, care, closure risk, worker outcomes, customer access, and local prices. Identify the first payment protected, the investment delayed, the borrowing used, and the later result on both sides.
+
+The clean comparison is between similar owners facing a similar shock but starting with different cash buffers or access to credit. Measure the first three decisions separately: what was paid, what was postponed, and what was financed. Then check outcomes at three, six, and twelve months. This would separate a temporary squeeze from a transfer of risk into the family, the workforce, or the customer. It would also show whether support arrived before the first missed payment, which may matter more than the amount received.
 
 ## Reading rule
 
