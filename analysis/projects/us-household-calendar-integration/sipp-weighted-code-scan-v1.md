@@ -7,6 +7,8 @@
 **Weight:** `WPFINWGT`, final person weight
 **Value labels:** verified against the [2025 SIPP Data Dictionary](https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf)
 
+The uncertainty boundary and replicate-weight implementation plan are in the [SIPP variance and weighting plan](sipp-variance-and-weighting-plan-v1.md).
+
 ## What was measured
 
 The scan read 379,215 selected rows. Of these, 378,291 had a positive final person weight. It computes weighted distributions of SIPP codes and missingness; it does not treat the person weight as a household weight.
