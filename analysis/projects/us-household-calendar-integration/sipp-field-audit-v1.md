@@ -46,6 +46,8 @@ python3 scripts/extract_sipp_household_calendar_slice.py \
 
 The raw file and extracted data belong outside Git. Only the field list, method, and coverage report should be committed unless a later decision approves a de-identified derived table.
 
+The first run is recorded in the [SIPP smoke check](sipp-smoke-check-v1.md). It verified all twelve reference months and the selected keys, while showing that many useful fields are conditional and must not be treated as zeros when blank.
+
 ## First questions this can answer
 
 1. How often do rent/mortgage difficulty, utility-payment difficulty, food pressure, and credit-card debt appear in the same source households?
@@ -54,4 +56,3 @@ The raw file and extracted data belong outside Git. Only the field list, method,
 4. Which transport fields are present often enough to support a separate commute-access comparison?
 
 These are descriptive checks. They do not prove that one pressure caused another. The next layer is to use the SIPP longitudinal weights and source-accuracy guidance before making population estimates.
-

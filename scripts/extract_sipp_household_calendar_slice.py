@@ -11,7 +11,9 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import sys
 from collections import Counter
+from contextlib import nullcontext
 from pathlib import Path
 
 
@@ -50,7 +52,7 @@ FIELDS = [
 ]
 
 
-def extract(input_path: Path, output_path: Path, report_path: Path, max_rows: int | None) -> dict:
+def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int | None) -> dict:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -59,7 +61,9 @@ def extract(input_path: Path, output_path: Path, report_path: Path, max_rows: in
     households: set[str] = set()
     months: Counter[str] = Counter()
 
-    with input_path.open("r", encoding="utf-8", newline="") as source:
+    source_context = (nullcontext(sys.stdin) if input_path == "-" else
+                      Path(input_path).open("r", encoding="utf-8", newline=""))
+    with source_context as source:
         reader = csv.DictReader(source, delimiter="|")
         if reader.fieldnames is None:
             raise ValueError("SIPP input has no header")
@@ -84,7 +88,7 @@ def extract(input_path: Path, output_path: Path, report_path: Path, max_rows: in
         "format": "us-household-calendar-sipp-slice-v1",
         "source": "2025 SIPP public-use pipe-delimited file",
         "source_reference_period": "2024",
-        "input": str(input_path),
+        "input": input_path,
         "output": str(output_path),
         "rows_written": row_count,
         "distinct_sample_units": len(sample_units),
@@ -101,7 +105,7 @@ def extract(input_path: Path, output_path: Path, report_path: Path, max_rows: in
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, required=True, help="SIPP pipe-delimited CSV")
+    parser.add_argument("--input", required=True, help="SIPP pipe-delimited CSV, or - for stdin")
     parser.add_argument("--output", type=Path, required=True, help="selected CSV output")
     parser.add_argument("--report", type=Path, required=True, help="JSON coverage report")
     parser.add_argument("--max-rows", type=int, default=None, help="optional smoke-test row limit")
@@ -111,4 +115,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
