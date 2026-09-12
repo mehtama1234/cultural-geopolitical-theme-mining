@@ -14,6 +14,10 @@ The household may experience this as a sequence rather than one crisis. First, a
 
 The same number can also carry different meanings. A higher grocery price may feel manageable to a household with savings and unacceptable to one already using credit. A wage increase may look positive in a headline while rent, insurance, and food take the entire increase. A family can therefore report that the economy is worse without making a mistake about the national rate. It is reporting the condition of its own basket.
 
+Visibility matters. A family sees the grocery receipt every week, the rent charge every month, and the insurance renewal once a year. It may not see the gradual loss in product size, service quality, or savings interest as clearly, even though those changes reduce the same budget. The costs with the most frequent and memorable contact can become the strongest explanation of the economy, whether or not they are the largest cost in total.
+
+Substitution has a limit. A household can switch brands while the substitute is available, but it cannot easily switch from rent, a needed medicine, a school route, or a work commute. Once flexible items have been cut, the remaining costs are the ones with the least room to move. A later price increase then feels larger because it reaches a fixed need. “Consumers adapted” may be true while the household's choices have become narrower.
+
 ```text
 price or wage change → repeated checkout experience and perceived buying power
 → trading down, buying less, saving less, stockpiling, or borrowing
@@ -41,6 +45,10 @@ The deeper issue is the shrinking of safe choices. Before the price shock, a fam
 
 Responsibility also becomes hard to assign. The store sets one price, the landlord another, the insurer another, and the government influences taxes, benefits, interest rates, and rules. The household feels one combined squeeze. It may blame the firm it sees most often, the government it can vote against, or both. That reaction is understandable, but it is not evidence that the blamed actor caused every part of the burden.
 
+The public story can harden through repetition. A price that rises once may be absorbed; the same kind of increase across many familiar items can become evidence, in the household's mind, that the system is no longer working for it. A later correction may not undo that belief if the price remains high or the family has already spent its savings. The political effect, if it exists, may therefore lag the economic event.
+
+This is also a customer-power problem. A household with time and transport can search for a better store; a household with a fixed schedule or no car may face the local price as a fact. A business that raises a visible price may lose flexible shoppers while retaining customers who cannot leave. The same price response can look like successful competition in aggregate and forced acceptance at the household level.
+
 ## What remains unproven
 
 The sources do not show whether one family's basket caused a change in trust or a vote. They do not show whether a cheaper substitute remained equally useful or safe, or whether trading down protected the budget or created a later health and money cost. They also do not show how quickly a household’s lost savings buffer recovers after prices stop rising quickly.
@@ -48,6 +56,8 @@ The sources do not show whether one family's basket caused a change in trust or 
 ## Next test
 
 Follow households for one year with actual prices, wages, product choices, savings, debt, and local news. Ask when they felt the loss, what they blamed, and whether the response changed a purchase, a firm choice, trust, or political action. Separate four outcomes: the price level, the household’s remaining buffer, the substitute or sacrifice it made, and the later judgment. Compare households with similar price changes but different savings and credit access.
+
+Use receipt and transaction panels that ask respondents to mark the first item they could no longer buy, the substitute they chose, and the cost in time or quality. Show one group price-level data and another rate-of-change data, then repeat the survey after the next bill. Measure whether the message changes understanding, blame, trust, and action separately. This would reveal whether public judgment follows the size of the increase, the visibility of the item, the loss of choice, or the household's remaining buffer.
 
 ## Reading rule
 
