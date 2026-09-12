@@ -18,6 +18,10 @@ The sign-up and exit moments are not equal. Sign-up may take one click during a 
 
 The firm may also learn from this behavior. If it sees that charges continue after use falls, it can design reminders, pricing, and cancellation around that pattern. That can be legitimate retention when the customer understands and wants it. It becomes a concern when the firm benefits mainly from confusion or delay.
 
+The timing of the charge matters as much as its size. A $15 renewal after a paycheck may leave no visible mark; the same renewal one day before an overdraft fee can create a much larger cost. Several small renewals can also crowd out the household’s ability to handle a repair or keep a bill current. The recurring charge does not need to be the largest expense to be the payment that breaks the month.
+
+Silence is therefore weak evidence. It may mean the customer still wants the service, has forgotten it, cannot find the account, cannot spare the time to cancel, or is keeping it for a rare need. A business that treats every silent renewal as an active fresh choice may count the customer’s lack of attention as stronger consent than the customer actually gave.
+
 ```text
 subscription starts → payment renews without a fresh choice → use falls or value becomes unclear
 → reminder, price change, or forced card change triggers action → cancellation, continued payment, refund, fee, or overdraft
@@ -44,13 +48,15 @@ The wider finding is that recurring charges can quietly reduce household slack. 
 
 The policy question is not whether businesses may use subscriptions. It is whether the customer’s next decision is as clear and easy as the first one. If a firm can collect with one click but requires a long path to stop, the design has shifted work from seller to customer.
 
+That design also changes who carries the cost of remembering. The firm can automate collection across millions of accounts; each customer must notice a separate charge, remember its purpose, and act before the next date. The system looks efficient from the seller’s side while making attention a private household task. A reminder or simple cancellation path can return some of that work to the firm without banning a useful recurring service.
+
 ## What remains unproven
 
-The studies do not show the same household’s use, value, reminder, cancellation attempt, final charge, and later budget. They do not show which groups face the greatest attention cost, or whether stronger reminders reduce useful renewals along with unwanted ones. They also do not show whether a customer’s lack of action reflected consent, confusion, or a service kept for rare but important use.
+The studies do not show the same household’s use, value, reminder, cancellation attempt, final charge, and later budget. They do not show which groups face the greatest attention cost, or whether stronger reminders reduce useful renewals along with unwanted ones. They also do not show whether a customer’s lack of action reflected consent, confusion, or a service kept for rare but important use. We do not yet know whether the largest harm comes from the total charge, the timing near another bill, or the failed attempt to leave.
 
 ## Next test
 
-Follow one recurring service for 90 days. Record sign-up, disclosure, price change, first renewal, use, reminder, cancellation attempt, final charge, refund, account balance, and the next household payment. Measure clicks, time, calls, and failed attempts to cancel. Split results by income, age, disability, digital access, and essential versus optional service. Compare one-click sign-up and one-click cancellation with the current path, while preserving customers’ ability to keep a service they want.
+Follow one recurring service for 90 days. Record sign-up, disclosure, price change, first renewal, use, reminder, cancellation attempt, final charge, refund, account balance, and the next household payment. Measure clicks, time, calls, and failed attempts to cancel. Split results by income, age, disability, digital access, and essential versus optional service. Compare one-click sign-up and one-click cancellation with the current path, while preserving customers’ ability to keep a service they want. Report both unwanted renewals and useful services wrongly stopped, along with overdrafts, delayed bills, and refunds.
 
 ## Reading rule
 
