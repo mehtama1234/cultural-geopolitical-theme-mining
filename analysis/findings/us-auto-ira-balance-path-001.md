@@ -6,6 +6,8 @@ Automatic saving can help a worker build an account that would never have been o
 
 That is why a workplace benefit has two tests. The first is whether the default creates an account. The second is whether the household can still pay for food, rent, care, energy, transport, and repairs without expensive borrowing. A larger account is not automatically a larger safety cushion if the money is hard to withdraw or today's gap is filled with interest-bearing debt.
 
+Consider a worker taking home $3,000 a month who contributes $90 automatically. That may be a useful long-term start if the worker has a reserve. If the same worker has $40 left before a utility bill and a $600 repair arrives, the contribution may be financed indirectly by a card balance. The retirement account and the debt both rise, but they do not provide the same kind of protection.
+
 ## Follow one paycheck through a household
 
 An employee is enrolled in an IRA because the employer does not require an active decision to join. A small amount leaves each paycheck. Months later, the worker faces a car repair and puts it on a credit card rather than interrupting the retirement contribution. The retirement balance grows. So does the card balance.
@@ -18,6 +20,8 @@ The emergency reveals the trade. If the worker can pause the contribution and pa
 automatic saving at work → account opens and money moves → less take-home room today
 → spending, withdrawal, or credit-card balance changes → liquid buffer and retirement security may diverge
 ```
+
+The contribution is also not the only design choice. A default can include a low starting rate, automatic increases, an emergency-savings pocket, an easy pause, or a withdrawal rule. These features change whether the worker must choose between retirement security and a current crisis. The evidence on account and debt changes does not tell us which design produces the best full balance sheet.
 
 ## What the sources actually establish
 
@@ -39,17 +43,19 @@ This makes automatic saving both a retirement policy and a short-term cash-flow 
 
 The account balance also has a timing problem. A dollar in retirement is not the same as a dollar available before rent, medicine, food, or a car repair. A higher balance can be good long-term evidence while the household becomes more fragile this month. Conversely, a withdrawal may protect housing or health today while reducing later security. Neither outcome can be judged from the account total alone.
 
+The household may value the account even while carrying debt because the default solves a different problem: getting started. But that benefit can be overstated if participation is counted without the interest paid on the card, the reason for the borrowing, or the worker’s ability to stop contributions. “More saving” and “more security” are related but not interchangeable results.
+
 The design changes who bears the choice. A default makes saving easier by removing an active decision, but it can also hide the decision from a worker who does not know how to change it. An employer may count participation as a benefit while the worker carries the debt cost. A fair test must ask whether the worker understood the choice, could change it, and had another safe source of emergency cash.
 
 The political link is modest but worth testing. If a worker sees an employer benefit create a balance while a repair pushes the household into debt, trust in workplace finance may fall. If the account is easy to control and prevents a future crisis, it may build trust. The current study does not measure either response or a later policy view.
 
 ## What remains unproven
 
-The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, whether workers understood the default, or whether they could change it without friction. It also does not show whether higher debt was temporary, useful, or harmful.
+The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, whether workers understood the default, or whether they could change it without friction. It also does not show whether higher debt was temporary, useful, or harmful. It does not show whether an emergency-savings feature would replace credit-card borrowing or simply add another account.
 
 ## Next test
 
-Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card use, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve, contribution rate, and understanding of the default. Test an easy pause or withdrawal path and measure both the emergency avoided and the retirement balance retained.
+Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card use, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve, contribution rate, and understanding of the default. Test an easy pause, emergency-savings pocket, or withdrawal path and measure both the emergency avoided, the interest paid, and the retirement balance retained.
 
 ## Reading rule
 
