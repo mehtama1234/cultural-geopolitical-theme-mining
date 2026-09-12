@@ -46,7 +46,14 @@ The newer pages also show that these are not separate lanes. They form a few rep
 
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
-## The five themes
+## The five reader umbrellas
+
+These five umbrellas are the current reader-facing grouping of the opening
+atlas. They are not the complete program taxonomy. The broader program has 14
+themes, including firm/sector power, infrastructure/dependency, and
+geopolitical/state consequences; see the [canonical 14-theme inventory](US-BROAD-THEME-INVENTORY_V1.md).
+The five umbrellas are operational reading lanes and priority bridges inside
+that wider map.
 
 ### 1. What families give up to pay the bills
 

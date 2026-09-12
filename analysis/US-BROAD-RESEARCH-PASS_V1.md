@@ -12,6 +12,10 @@ When a US condition, price, rule, technology, or institutional decision changes 
 
 ## Five priority bridges
 
+These are the first execution bridges, not the whole theme inventory. They
+organize the next evidence passes across the broader 14-theme program in the
+[recovery brief](../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md).
+
 | Priority | Bridge to test | Source families already present | First measurable unit | Main missing link |
 |---|---|---|---|---|
 | 1 | **Price/payment → choice → household room** | SIPP, CE, CPS, SHED, BLS, NBER | household-month, consumer unit, product basket, or payment event | The same person’s exact price, sacrifice, debt, and recovery |
