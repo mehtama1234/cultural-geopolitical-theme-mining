@@ -14,6 +14,10 @@ If we measure only earnings four years later, these paths disappear. We need to 
 
 Timing changes the meaning of the payment. A check after an eviction may help a family recover, but it cannot preserve the same school, commute, phone number, or job schedule. A smaller payment before the break may protect more than a larger payment after it. The amount is therefore only one part of the policy.
 
+The application can itself compete with work. A parent may need to take an unpaid hour to call, collect documents, travel to an office, or wait for a decision. If the program is reached only during business hours, the household may have to risk the job in order to protect the housing that makes the job possible. A program can therefore be generous on paper and costly to claim. That cost should be compared with the payment, not ignored as administration.
+
+The type of work matters too. A salaried worker with paid leave may survive a move better than a cleaner, driver, or caregiver whose income depends on being at a particular place at a particular time. A household may remain “employed” after displacement while losing hours, shifts, tips, or a path to promotion. Work continuity needs to include the quality and reliability of the job, not only whether a tax record shows earnings.
+
 ```text
 housing crisis → emergency payment or no payment → housing continuity or displacement
 → ability to reach and keep work → employment and earnings → household room, debt, and health
@@ -43,6 +47,10 @@ There is a possible political path here. Repeated late or unreachable help can m
 
 That also explains why a simple “employment effect” can hide a public choice. The employer may retain a worker, the family may avoid a move, and the public program pays for the bridge. The gain and the cost land in different places.
 
+The key public question is whether the bridge buys a real next step. If the payment clears a one-time gap and the household returns to stable rent, it may preserve capacity. If rent remains above what the job can support, the payment may keep the family in place briefly while the same crisis gathers again. A later earnings increase can coexist with a later housing loss. The full result is a path of stability, not one favorable number.
+
+There is also a coordination problem between programs. Housing aid may arrive without child care, transport, phone service, or legal help. Each program can report its own success while the household still faces the same combined break. The most effective payment may be the one that arrives alongside the missing link, but that is harder to see in separate agency records. The test should follow the household's sequence rather than awarding credit to whichever program paid first.
+
 ## What remains unproven
 
 The evidence does not show whether the same job was kept, whether housing became affordable after the payment ended, or whether debt and health improved. It does not compare a payment with a grant, legal help, insurance, or a flexible repayment plan. It does not show how application time, waitlists, or payment timing changed who was protected. It also does not tell us how the result changes when a family has disability, children, a long commute, or no nearby jobs.
@@ -50,6 +58,8 @@ The evidence does not show whether the same job was kept, whether housing became
 ## Next test
 
 Follow families from the first housing crisis through four years. Join aid timing and amount, application effort, and wait time to housing moves, arrears, eviction, phone and transport continuity, missed shifts, job changes, hours, wages, debt, credit, health, and child outcomes. Compare work gains with housing stability and the full cost of the help. Test whether help before a notice, after a notice, or after displacement changes the chain differently.
+
+Compare rapid, low-burden aid with the ordinary process, and report results by job schedule and household role. Measure paid employment, hours, earnings, schedule stability, commute, care, and housing quality separately. Add the time spent applying and the income lost while applying. A strong result would show whether early aid preserved a stable job and a workable home, not merely whether the person appeared in the later employment data.
 
 ## Reading rule
 
