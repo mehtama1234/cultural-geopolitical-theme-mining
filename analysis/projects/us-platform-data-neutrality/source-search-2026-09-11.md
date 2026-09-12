@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** US market question; theory-based opening pass  
-**Status:** opening pass; the model maps platform data rules and welfare, direct US market evidence remains open
+**Status:** matched evidence pass complete; direct US market evidence remains open
 
 ## Working question
 
@@ -25,6 +25,8 @@ platform controls data
 ```
 
 The source supports a tradeoff in the model. It does not establish the result for a particular US market.
+
+The privacy study gives a separate customer-side clue: a rule can make some people more willing to share data. Together, the sources show why data access has two gates—what customers share and what sellers can use. Neither source shows the full chain in one market.
 
 ## Counterpoint to keep visible
 

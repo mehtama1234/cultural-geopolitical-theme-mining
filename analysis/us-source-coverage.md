@@ -1408,7 +1408,7 @@
 
 **Project:** `us-platform-data-neutrality`
 
-**Status:** opening pass; the model maps platform data rules and welfare, direct US market evidence remains open
+**Status:** matched evidence pass complete; direct US market evidence remains open
 
 **Question:** When a platform controls the data that sellers need, does an equal-access rule help customers or weaken the data they rely on?
 
