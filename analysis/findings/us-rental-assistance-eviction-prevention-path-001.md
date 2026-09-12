@@ -18,6 +18,10 @@ After the payment, rent is still $1,800. If income has not recovered, the family
 
 The family may also face a second test that is not visible in the aid record. Keeping the apartment may preserve a job and a child’s school, but a repayment plan may leave less money for the next bill. Moving may avoid a court case but add deposits, travel, and a new school or care arrangement. The right comparison is not simply housed versus unhoused; it is which costs were prevented and which were carried forward.
 
+The application itself can determine who receives the bridge. A family may need a current lease, landlord cooperation, income records, internet access, and time to answer questions while already facing a deadline. A household that cannot complete the form may be counted as having no need or no interest. The gap between eligible, applied, approved, and paid is part of the program's effect.
+
+The landlord's response is another decision point. A landlord who expects fast payment may wait; one who expects delay may file or refuse a payment plan. Aid paid to the tenant may preserve choice but leave the landlord uncertain. Aid paid directly to the landlord may clear the balance but give the tenant less control. The same dollar can create different outcomes depending on recipient and timing.
+
 ```text
 income, health, or rent shock
   -> missed payment and landlord response
@@ -47,6 +51,10 @@ There is a public design choice here. Fast cash may reach a family before a noti
 
 This is why small average effects should not be read too quickly. A program may fail to change the average number of moves while still preventing severe harm for families who received money early. Conversely, a high payment rate may hide families who never reached the program or were helped too late.
 
+There is a distinction between preventing displacement and preserving a good home. A family can stay in a unit with unsafe conditions, a rent that consumes most income, or a landlord relationship that remains unstable. Moving can sometimes improve safety or access even while creating cost. The measure should not reward staying at any price. It should ask whether the household reached a stable, usable home with a rent it can carry.
+
+The political meaning follows the experience of the process. A fast payment may make public support feel real. A long wait, confusing denial, or repeated document request may make the program feel absent even if some households receive help. That trust response is not established by the rent-payment result, but it is a reason to record process time and explanation alongside the final housing outcome.
+
 ## What remains unknown
 
 The studies do not consistently join the first shock, application delay, receipt, payment timing, landlord response, legal help, filing, judgment, move, work, credit, debt, health, and care. We also do not know the cost per prevented eviction or whether aid changes later rent and landlord screening. We do not know which households never apply, withdraw, or receive money after the point when it could preserve the home.
@@ -54,6 +62,8 @@ The studies do not consistently join the first shock, application delay, receipt
 ## Next test
 
 Follow households from the first missed payment through two years after assistance. Compare cash aid, legal help, payment plans, court delay, and no intervention at similar stages. Record application barriers, decision and payment dates, landlord action, and whether the assistance covered arrears or created repayment. Record both immediate housing and the next twelve months of rent, work, debt, credit, care, and health.
+
+Build a timestamped case file from first missed payment to the next twelve rent dates. Compare direct-to-tenant, direct-to-landlord, forgivable, and repayable aid where programs allow. Measure application time, denial, payment speed, landlord patience, arrears, housing quality, rent share, move, school and work continuity, debt, health, and trust. Include households that started an application but never received money so access failure is not mistaken for no effect.
 
 ## Reading rule
 
