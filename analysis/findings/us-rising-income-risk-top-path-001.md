@@ -18,6 +18,10 @@ The model’s 0.7 percentage-point rate result should be read as a map of one po
 
 The first household is not necessarily choosing less consumption because it is selfish or frightened. It may be protecting a job, a home, or a family obligation. But the second household cannot copy that response if it has no liquid assets. It may face the market through a loan, a rent increase, or a missed purchase rather than through a safer portfolio.
 
+The response also depends on what “income risk” means. A volatile bonus, a chance of losing a job, and a fall in the value of a business are not the same exposure. A worker may save more because pay is uncertain; an owner may hold cash because the firm must make payroll; an investor may buy assets whose value rises when others cannot enter the market. The same tax record can contain very different reasons for saving and different effects on others.
+
+The saving decision has a timing gap. A household may build its buffer over years, while a borrower sees a loan quote today. Asset prices can move before wages or credit terms do. A lower market rate may be offset by a higher home price or a larger down payment. The transmission should therefore be traced through the actual product a household tries to buy, not through the headline rate alone.
+
 ```text
 income risk at the top → precautionary saving → wealth and interest-rate conditions
 → credit, asset prices, demand, and investment → different financial room for other households
@@ -49,9 +53,15 @@ The evidence does not show which assets receive the extra saving, how firms chan
 
 It also does not show whether the saving is held inside the US, invested in firms that hire US workers, or placed in assets whose price changes housing and credit markets. A lower modeled risk-free rate could help some borrowers while asset-price gains help people who already own assets. The direction is not enough; the recipients and timing matter.
 
+There is a distinction between wider capital and wider security. More money available to firms can support investment and jobs, but it can also flow into existing assets, buybacks, or land. A borrower may receive a lower financing cost while being priced out of the asset being financed. A worker may benefit from a new job while facing a higher rent near it. The public result depends on where the saving travels and who has access to the resulting opportunity.
+
+This is why “wealth inequality” is not only a gap in account balances. It is a gap in the ability to wait, choose a safe asset, withstand a lost paycheck, and negotiate a financial term. A high earner's precaution can be sensible; the unequal system effect comes from the fact that a low-liquidity household cannot make the same protective move. That difference can turn one group's private risk management into another group's public concern.
+
 ## Next test
 
 Follow households and firms for five years around a measured change in high-income risk. Join income shocks to saving, assets, debt, rates, credit approval, consumer demand, investment, wages, jobs, housing, and political demands. Compare borrowers and savers who face the same market change but have different ability to wait. Separate the change in loan rates from the change in home and asset prices, and record who actually receives the lower cost or the higher asset value.
+
+Use linked tax, balance-sheet, loan, housing, and firm records to identify where additional saving goes. Track the full pass-through from risk change to asset purchase, loan terms, rent, wages, hiring, and household consumption. Compare households with similar income but different starting liquidity and ownership. The strongest test would show whether the modeled lower rate becomes cheaper credit for new borrowers or mainly higher asset values for existing owners.
 
 ## Reading rule
 
