@@ -12,6 +12,8 @@ The deeper finding is that economic voting may begin with a comparison: what a f
 
 A family’s wages rise 3%, but rent, food, and fuel rise 7%. It buys less, saves less, borrows, or delays care. A candidate blames inflation; another blames policy or firms. The family may reward one explanation, reject both, or vote on safety or identity instead. The household’s real loss is evidence of exposure, not proof of the ballot’s cause.
 
+The comparison is often made against the last normal month, not a national index. A family knows that the same grocery trip fills fewer bags, rent leaves less after payday, or a repair now requires borrowing. Another family may have a raise, a paid-off car, or a lower-cost store. “The economy” is therefore experienced as a local budget with a personal baseline.
+
 ```text
 local prices and wages → real buying power and household room
 → buying less, saving less, borrowing, or delaying a need
@@ -34,13 +36,17 @@ Sources: [NBER Working Paper 35301](https://www.nber.org/papers/w35301) and [NBE
 
 Economic blame is built from a household’s felt gap between pay and prices, then filtered through identity, trust, news, and the candidate’s proposed fix. The same real-wage loss can therefore produce different political responses. The useful research target is not “Did voters punish inflation?” but “Which loss did they notice, who did they blame, and what else competed for the decision?”
 
+Behavior can come before politics. A family may first change brands, delay a purchase, reduce saving, or use credit. Those actions can be private and practical, not a public statement. If the change continues, the family may start looking for an explanation. A candidate’s message can matter because it gives a name to a loss already felt, but it may also redirect blame toward another issue.
+
+This makes the county finding useful but limited. It can show that places with weaker real-pay growth moved differently in an election. It cannot tell us whether voters in those places experienced the same basket, heard the same message, or made the same trade. The real bridge requires local exposure, household action, belief, and ballot choice in the same record.
+
 ## What remains unproven
 
-The evidence does not show that one household’s price loss caused one vote, or that changing a belief changes turnout. County averages hide large household differences. Party identity, immigration, abortion, safety, age, media, and candidates can outweigh economic conditions.
+The evidence does not show that one household’s price loss caused one vote, or that changing a belief changes turnout. County averages hide large household differences. Party identity, immigration, abortion, safety, age, media, and candidates can outweigh economic conditions. The survey measures reported beliefs and choices, not a verified link from one checkout basket to one ballot.
 
 ## Next test
 
-Join local prices and wages to a household panel for two election cycles. Follow spending, saving, borrowing, media, policy knowledge, trust, turnout, and vote choice. Compare a fall in real pay with inflation that leaves real pay unchanged.
+Join local prices and wages to a household panel for two election cycles. Follow spending, saving, borrowing, media, policy knowledge, trust, turnout, and vote choice. Ask which item or bill changed first and compare a fall in real pay with inflation that leaves real pay unchanged. Keep vote choice separate from economic coping.
 
 ## Reading rule
 
