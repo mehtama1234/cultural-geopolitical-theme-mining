@@ -1,8 +1,8 @@
 # US source coverage
 
-94 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+95 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 8; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 4; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 19; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 9; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 20; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1709,6 +1709,24 @@
 - [ENERGY STAR inclusive utility investment](https://www.energystar.gov/products/inclusive_utility_investment)
 
 [Open the source-search record](projects/us-renter-energy-split-incentive/source-search-2026-09-11.md)
+
+## US repeat energy crises
+
+**Project:** `us-repeat-energy-crises`
+
+**Status:** matched evidence pass complete; cause of repeat need remains open
+
+**Question:** When a household needs energy help more than once, is the cause a short cash gap, a failing home, or a problem that one payment cannot fix?
+
+**Sources recorded:** 5
+
+- [HHS: LIHEAP performance measures](https://stage.liheappm.acf.hhs.gov/what-are-pm/)
+- [HHS: LIHEAP performance data warehouse](https://stage.liheappm.acf.hhs.gov/performance-measures)
+- [HHS/ACF: FY24 LIHEAP annual report spotlight](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+- [GAO: HUD rental assistance and utility allowances](https://www.gao.gov/products/gao-24-105532)
+
+[Open the source-search record](projects/us-repeat-energy-crises/source-search-2026-09-11.md)
 
 ## US replacement spending and electronics waste
 

@@ -454,7 +454,17 @@ Renters often pay for energy while landlords control major building and applianc
 
 [Read the HTML page](../site/us-renter-energy-split-incentive-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-renter-energy-split-incentive-matched-evidence-001.md)
 
-### 46. Replacement is a second price after repair fails
+### 46. Repeated help is a signal, not yet a diagnosis
+
+**Theme:** Energy / cost / housing / public power
+**Route:** first crisis → intervention → next bill and repeat need
+**Still open:** cause of repeat need and the fix that lasts
+
+A second energy crisis can mean several different things: a short income gap, a benefit that was too small or too early, a home that wastes energy, broken equipment, a landlord who controls the repair, or a bill that stays too high. HHS already separates energy burden, restoration, and prevention in its LIHEAP performance system, which is useful. But public totals do not yet show the same household's path from first aid to next crisis. The deeper finding is that repeat assistance should open a case review, not be counted as proof that the program failed or that the household failed.
+
+[Read the HTML page](../site/us-repeat-energy-crises-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-repeat-energy-crises-matched-evidence-001.md)
+
+### 47. Replacement is a second price after repair fails
 
 **Theme:** Cost / customer / energy
 **Route:** repair failure → replacement → waste or reuse
@@ -464,7 +474,7 @@ When repair is hard, a household may replace a product before it has used up its
 
 [Read the HTML page](../site/us-replacement-e-waste-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-replacement-e-waste-household-cost-matched-evidence-001.md)
 
-### 47. The cost of a bad choice begins after the review
+### 48. The cost of a bad choice begins after the review
 
 **Theme:** Customer / cost / voice
 **Route:** review and search → purchase → return or complaint
@@ -474,7 +484,7 @@ Reviews and search can reduce the work of choosing, but the real customer cost a
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
 
-### 48. Repair access is part of the product's real price
+### 49. Repair access is part of the product's real price
 
 **Theme:** Cost / customer / work
 **Route:** product break → repair access → household choice
@@ -484,7 +494,7 @@ The price of a product includes what happens when it breaks. The FTC reports tha
 
 [Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-right-to-repair-household-cost-matched-evidence-001.md)
 
-### 49. A safe temperature can compete with food and medicine
+### 50. A safe temperature can compete with food and medicine
 
 **Theme:** Energy / health / cost / housing
 **Route:** energy cost or equipment failure → unsafe temperature or sacrifice
@@ -494,7 +504,7 @@ Energy insecurity is not only an unpaid bill. In the preliminary 2024 EIA survey
 
 [Read the HTML page](../site/us-safe-temperature-energy-insecurity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safe-temperature-energy-insecurity-matched-evidence-001.md)
 
-### 50. A benefit can be lost without the need going away
+### 51. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -504,7 +514,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 51. A recovery loan can keep a local option open, but it creates another bill
+### 52. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -514,7 +524,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 52. A wider small-business rule can push the smallest firms out
+### 53. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -524,7 +534,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 53. A tariff reaches the household through a chain, not a single price
+### 54. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -534,7 +544,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 54. The same dollar can do different work depending on how it arrives
+### 55. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -544,7 +554,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 55. A car repair can protect access while taking away other room
+### 56. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -554,7 +564,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 56. Efficiency savings are real but smaller than the promise
+### 57. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health

@@ -239,6 +239,8 @@ The next short project is [US safe temperature and energy insecurity](analysis/p
 
 The next short project is [US energy assistance and delayed household sacrifice](analysis/projects/us-energy-assistance-delayed-sacrifice/README.md), with its [source search record](analysis/projects/us-energy-assistance-delayed-sacrifice/source-search-2026-09-11.md). It tests whether help prevents the household problem or only moves it into the next bill cycle.
 
+The next short project is [US repeat energy crises](analysis/projects/us-repeat-energy-crises/README.md), with its [source search record](analysis/projects/us-repeat-energy-crises/source-search-2026-09-11.md). It tests whether repeat help points to a short cash gap, a failing home, or a problem that one payment cannot fix.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.
