@@ -1,55 +1,44 @@
 # When a data rule changes the customer exchange
 
-## Short answer
+## The argument
 
-A platform can be both the market gate and the maker of the information used in the market. An equal-access rule may help outside sellers compete, but it may also reduce the platform's reason to gather or improve data.
+A platform can be both the market gate and the maker of the information used in the market. An equal-access rule may help outside sellers compete, but it may also reduce the platform’s reason to gather or improve data. A stronger privacy rule may make customers share more because the exchange feels safer. The platform’s investment, seller competition, and customer result can move in different directions.
 
-Stronger privacy rules can lead some customers to share more when the exchange feels safer. More sharing is not by itself proof of better service or better privacy.
+That makes data policy harder than choosing between “open” and “private.” The platform decides who can see information, what quality it has, how much access costs, and whether its own products receive an advantage. Sellers need data to compete. Customers need a fair way to compare. The platform may need a reason to collect and maintain the data in the first place.
 
-## What the sources show
+The deeper finding is that data access is part of market structure. A rule can improve seller equality while reducing data supply, or increase data sharing while leaving customers unable to switch. The policy has to be judged by the full exchange, not by access or privacy in isolation.
 
-An NBER model studies rules requiring a platform to treat its own sellers and outside sellers equally when sharing data. Equal data and prices open competition more, but may reduce the platform's reason to improve or produce data. Customer welfare does not rise in every case in the model.
+## Follow one product search
 
-HBS reports an analysis of nearly 16,000 users of a receipt-and-reward app before and after California and Virginia privacy rules. Users in those states submitted 9% more information, including more receipts, store visits, and retail categories.
-
-The model and the app study are different settings. Neither follows one customer through data sharing, data use, service quality, price, and welfare.
-
-- [NBER Working Paper 35159](https://www.nber.org/papers/w35159)
-- [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
-
-## The connection
+A customer searches for a household product on a large platform. The platform’s own brand appears beside outside sellers. The platform holds search, sales, and customer data. If outside sellers receive equal access, they may compete more effectively. If access is costly or data quality falls because the platform invests less, the customer may see fewer reliable choices. If the platform favors its own product, the customer may never see the best alternative.
 
 ```text
-platform controls data
-  -> access and price for sellers
-  -> competition and data quality
-  -> customer price, choice, and service
-  -> public rule and platform power
+platform controls data → access and price for sellers → competition and data quality
+→ customer price, choice, search, and service → public rule and platform power
 ```
 
-Without an equal-access rule, a platform may favor its own sellers. With one, data supply or quality may change. The customer result has to be measured.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Equal access | An NBER model studies rules requiring a platform to treat its own sellers and outside sellers equally when sharing data. | Data rules can change competitive access. |
+| Investment | In the model, equal data and prices open competition more but may reduce the platform’s reason to improve or produce data. | A fair-access rule can have a data-supply tradeoff. |
+| Customer result | Customer welfare does not rise in every case in the model. | More competition on one measure is not automatically better for customers. |
+| Privacy behavior | HBS finds users of a receipt-and-reward app in states with new privacy rules submitted 9% more information, including more receipts, store visits, and retail categories. | Feeling safer can increase data sharing. |
 
-**Household:** Clear permission and a real reward may make sharing useful. A customer may still have little choice if the service or price cannot be found elsewhere.
+Sources: [NBER Working Paper 35159](https://www.nber.org/papers/w35159) and [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies).
 
-**Company and sector:** Platforms, sellers, advertisers, and data firms decide who can see what and at what price. More data can improve offers or sharpen sorting.
+## The deeper finding
 
-**Money and finance:** Data may change price, reward, access, and search cost without appearing as a bill. The customer needs the full exchange, not only the notice.
+The customer is affected by a hidden bargaining system. Sellers bargain for data access; platforms bargain for the right to collect; customers trade information for price, search, or service. A rule can improve one party’s position and leave another with fewer practical choices.
 
-**Public power:** Privacy, competition, data access, notice, enforcement, and platform rules decide whether customers get real choice and whether sellers can compete.
+## What remains unproven
 
-## What would change the finding
-
-- Named platform, data quality, access price, seller entry, and platform investment.
-- Notice comprehension, retention, sale, later use, and customer control.
-- Customer price, choice, search, offer, service quality, and welfare.
-- Effects by age, income, race, disability, and digital access.
-- Whether trust lasts after a breach or unwanted use.
+The model is not a record of one current platform. The app study is not a test of seller competition. Neither follows one customer through consent, data use, seller entry, price, service quality, and welfare. We do not know whether trust lasts after a breach or unwanted use.
 
 ## Next test
 
-Follow customers, sellers, and the platform for one year around a data or privacy-rule change. Join consent, data sharing, data use, seller entry, prices, offers, service quality, search, and customer outcomes.
+Follow customers, sellers, and a platform for one year around a data or privacy-rule change. Join consent, data sharing, data use, seller entry, prices, offers, service quality, search, platform investment, and customer outcomes.
 
 ## Reading rule
 
