@@ -12,6 +12,8 @@ Separate platform-owned product, outside alternative, search placement, product 
 
 - [A useful product can still sit inside a power problem](../../findings/us-platform-owned-products-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-platform-owned-products-matched-evidence-001.html)
+- [Seller visibility can become a customer cost](../../findings/us-platform-ad-visibility-cost-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-platform-ad-visibility-cost-matched-evidence-001.html)
 
 ## Possible connection
 
