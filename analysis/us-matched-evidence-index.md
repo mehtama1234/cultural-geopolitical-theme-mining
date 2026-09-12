@@ -64,7 +64,17 @@ Two workers can earn the same amount over a year and still have very different l
 
 [Read the HTML page](../site/us-income-volatility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-income-volatility-matched-evidence-001.md)
 
-### 7. A business application is not yet a local job or a local place
+### 7. Slower inflation can still feel like a continuing loss
+
+**Theme:** Cost / voice / customer
+**Route:** price and wage change → buying power → trust pressure
+**Still open:** same-household basket, substitution, and vote
+
+A slower rise in prices is not a return to earlier prices. NBER survey evidence says Americans mainly dislike inflation because they think wages are not keeping up with prices. HBS product data adds a sharper customer problem: the cheapest food products in its study rose faster than the most expensive products, so trading down may offer less relief.  Price research adds a second layer. Customers judge whether a price is fair and whether the product is still worth buying. The combined evidence supports a careful finding: people may feel poorer through repeated purchases and fewer cheap choices, then judge firms or government through that experience. It does not yet prove that this path changes a particular person's vote.
+
+[Read the HTML page](../site/us-inflation-price-perception-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-inflation-price-perception-matched-evidence-001.md)
+
+### 8. A business application is not yet a local job or a local place
 
 **Theme:** Work / place / voice
 **Route:** local conditions → application → lasting firm
@@ -74,7 +84,7 @@ The US has become less tied to the hometown entrepreneur. HBS reports that the l
 
 [Read the HTML page](../site/us-local-business-place-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-business-place-matched-evidence-001.md)
 
-### 8. The same income can buy a different life by place
+### 9. The same income can buy a different life by place
 
 **Theme:** Cost / place
 **Route:** place → local prices → real buying power
@@ -84,7 +94,7 @@ A national income number can hide a local customer reality. Prices differ across
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
-### 9. Removing a medical debt can repair the record without repairing the illness
+### 10. Removing a medical debt can repair the record without repairing the illness
 
 **Theme:** Cost / health / voice
 **Route:** illness → bill → debt record → relief
@@ -94,7 +104,7 @@ Medical-debt relief can reduce payments and improve some people's access to cred
 
 [Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-medical-debt-relief-matched-evidence-001.md)
 
-### 10. One cash pool can protect a family by shrinking a business
+### 11. One cash pool can protect a family by shrinking a business
 
 **Theme:** Work / cost
 **Route:** family bill → business cash → firm and local life
@@ -104,7 +114,7 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
 
-### 11. Payment choice is a distribution question, but not yet a household welfare result
+### 12. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
@@ -114,7 +124,7 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 12. A rent guarantee claim is a process, not a rescue payment
+### 13. A rent guarantee claim is a process, not a rescue payment
 
 **Theme:** Cost / housing / voice
 **Route:** default → claim process → landlord payment → tenant recovery risk
@@ -124,7 +134,7 @@ The public policy terms show a chain of conditions before a landlord is paid. Th
 
 [Read the HTML page](../site/us-rent-guarantee-claim-mechanics-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-claim-mechanics-matched-evidence-001.md)
 
-### 13. Four states show four different levels of visibility
+### 14. Four states show four different levels of visibility
 
 **Theme:** Cost / housing / voice
 **Route:** state rule → policy form → claim → tenant duty
@@ -134,7 +144,7 @@ The first comparison across California, New York, Texas, and Illinois does not p
 
 [Read the HTML page](../site/us-rent-guarantee-four-state-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-four-state-matched-evidence-001.md)
 
-### 14. Rent insurance may protect a home before the crisis, but access is the problem
+### 15. Rent insurance may protect a home before the crisis, but access is the problem
 
 **Theme:** Cost / housing / finance
 **Route:** rent risk → pre-shock insurance → housing security
@@ -144,7 +154,7 @@ Rent-guarantee insurance is meant to pay a limited number of rents after an inco
 
 [Read the HTML page](../site/us-rent-guarantee-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-insurance-matched-evidence-001.md)
 
-### 15. Rent guarantee products open the lease, but may leave the loss with the tenant
+### 16. Rent guarantee products open the lease, but may leave the loss with the tenant
 
 **Theme:** Cost / housing / finance
 **Route:** lease screen → guarantee premium → tenant repayment risk
@@ -154,7 +164,7 @@ The first US products we found are mostly lease guarantees. They help a renter q
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-market-matched-evidence-001.md)
 
-### 16. Rent guarantee is not one product
+### 17. Rent guarantee is not one product
 
 **Theme:** Cost / housing / finance
 **Route:** provider screen → paid guarantee → landlord protection → tenant debt
@@ -164,7 +174,7 @@ The first provider comparison shows a shared shape, not a single standard produc
 
 [Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
 
-### 17. Rent guarantee changes when the state changes
+### 18. Rent guarantee changes when the state changes
 
 **Theme:** Cost / housing / voice
 **Route:** provider → state filing → policy terms → tenant risk
@@ -174,7 +184,7 @@ The first state check shows why a national provider comparison can mislead. Rhin
 
 [Read the HTML page](../site/us-rent-guarantee-state-terms-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-state-terms-matched-evidence-001.md)
 
-### 18. Rent aid can buy time; a lawyer can change the case
+### 19. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -184,7 +194,7 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 19. A benefit can be lost without the need going away
+### 20. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -194,7 +204,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 20. A recovery loan can keep a local option open, but it creates another bill
+### 21. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -204,7 +214,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 21. A wider small-business rule can push the smallest firms out
+### 22. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -214,7 +224,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 22. The same dollar can do different work depending on how it arrives
+### 23. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -224,7 +234,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 23. A car repair can protect access while taking away other room
+### 24. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

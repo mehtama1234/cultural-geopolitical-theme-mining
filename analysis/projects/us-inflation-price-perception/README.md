@@ -15,3 +15,7 @@ People may judge inflation through the goods they buy often and the wages they t
 ## Decision rule
 
 Look for US evidence that joins prices, wages, purchases and views of firms or government. Move on unless the sources show whether the response comes from actual loss, expected future loss, or how the price change is explained.
+
+## Matched evidence pass
+
+The first matched check is [Slower inflation can still feel like a continuing loss](../../findings/us-inflation-price-perception-matched-evidence-001.md), with its [HTML reading page](../../../site/us-inflation-price-perception-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It joins buying power, cheap options, customer fairness, and the still-open political link.

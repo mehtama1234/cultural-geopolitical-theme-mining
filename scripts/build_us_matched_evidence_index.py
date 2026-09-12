@@ -29,6 +29,7 @@ routes = {
     "us-rent-guarantee-state-terms-matched-evidence-001": ("Cost / housing / voice", "provider → state filing → policy terms → tenant risk", "state policy forms, prices, and post-claim outcomes"),
     "us-rent-guarantee-four-state-matched-evidence-001": ("Cost / housing / voice", "state rule → policy form → claim → tenant duty", "current rates, claims, repayment, and renewal by state"),
     "us-rent-guarantee-claim-mechanics-matched-evidence-001": ("Cost / housing / voice", "default → claim process → landlord payment → tenant recovery risk", "claim timing, disputes, and housing outcome"),
+    "us-inflation-price-perception-matched-evidence-001": ("Cost / voice / customer", "price and wage change → buying power → trust pressure", "same-household basket, substitution, and vote"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
