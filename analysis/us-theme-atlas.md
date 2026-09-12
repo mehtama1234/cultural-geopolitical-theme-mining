@@ -80,6 +80,8 @@ Follow a licensing rule into the drivers available, the platform choices custome
 
 Still missing: The current sources do not follow the same city through licensing, driver entry, fares, search, wait time and safety.
 
+[Read the complete connected memo](../site/us-rideshare-licensing-safety-path-001.html)
+
 ### When app convenience leaves money on the trip
 
 Follow a ride from the app screen into the travel cost and the household money left afterward. Ask whether convenience hides a choice the customer could have made.
