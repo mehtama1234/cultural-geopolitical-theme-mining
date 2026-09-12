@@ -4,35 +4,45 @@
 
 Unpaid eldercare is a large use of time that sits beside paid work, childcare, rest, and household duties. The hidden cost is not simply “lost work.” It is the set of hours, job choices, savings, and family arrangements made around care.
 
-An employed adult may drive a parent to appointments, manage medicines, handle forms, and remain reachable during a shift. Another adult may leave paid work and supply more care. Employment does not prove care is easy, and nonemployment does not prove caregiving caused the work change.
+An employed adult may drive a parent to appointments, manage medicines, handle forms, and remain reachable during a shift. Another adult may leave paid work and supply more care. A third may pay for help but spend time finding, checking, and coordinating it. Employment does not prove care is easy, and nonemployment does not prove caregiving caused the work change.
 
-## What the sources establish
+The deeper finding is that care turns time into a shared family budget. When the need changes, someone must absorb the new work. The family may shift hours, money, sleep, location, or job risk before any public measure records a crisis. A flexible job can help, but flexibility may also hide who is carrying the duty and who is losing future security.
 
-BLS reports that 38.2 million people provided unpaid eldercare in 2023–24. Fifty-two percent gave care at least several times a week and one-quarter gave care daily. Care can include transport, meals, medical help, housework, paperwork, companionship, or simply being available.
+## Follow one care week
 
-Among eldercare providers who were parents of children living at home, 86% were employed and 72% worked full time. BLS reports that employed providers gave care on 21% of days, compared with 38% for providers who were not employed; on care days, employed providers spent 2.8 hours and nonemployed providers 4.8 hours.
+An adult daughter works full time and has a child at home. Her father needs a ride to a medical visit and help with a form. She uses leave, swaps a shift, asks a sibling, or pays for a ride. If the appointment runs late, the change reaches child care and dinner. If this repeats, she may turn down overtime, change jobs, reduce saving, or move closer.
 
-An NBER study links reported family caregiving to administrative earnings records and examines labor effects by gender. It is the right kind of bridge for the next test, but the current evidence does not prove that care caused every earnings or employment change.
+None of those choices is visible in a count of whether she remained employed. The same employment status can contain very different amounts of unpaid time and pressure.
+
+```text
+older person’s need → family time, paid care, leave, schedule change, or work exit
+→ earnings, rest, savings, housing, or childcare choice
+→ employer, family, and public response → later care capacity
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
+|---|---|---|
+| Scale | BLS reports 38.2 million people provided unpaid eldercare in 2023–24. | Family care is a large part of daily life, not a rare exception. |
+| Frequency | 52% gave care at least several times a week and one-quarter gave care daily. | The time burden can be repeated and predictable. |
+| Work overlap | Among providers who were parents of children at home, 86% were employed and 72% worked full time. | Care and paid work often happen in the same household. |
+| Time difference | BLS reports care on 21% of days for employed providers and 38% for providers not employed; on care days, the averages were 2.8 and 4.8 hours. | Employment status is related to care time, but does not by itself show cause. |
+| Labor bridge | NBER links reported family caregiving to administrative earnings records and examines labor effects by gender. | The right kind of data exists for following work changes, but the full cause must still be tested. |
 
 Sources: [BLS unpaid eldercare](https://www.bls.gov/news.release/elcare.htm) and [NBER caregiving and labor supply](https://www.nber.org/papers/w31450).
 
-## Follow the work decision
+## The deeper finding
 
-older person’s need → family time, paid care, leave, schedule change, or work exit → earnings, rest, savings, housing, or childcare choice → employer, family, and public response
+Care is a work system outside the workplace. It can change who is available for a shift, who can move for a job, who can save, and who can rest. A policy or employer program may appear generous while leaving the family to manage the hard timing problem: who is available at 3 p.m. on a Tuesday when the appointment changes?
 
-The first link is measured. The later links are mechanisms to test. Work flexibility may help, but it can also hide who is carrying the duty and who is losing future security.
+## What remains unproven
 
-## What must stay separate
-
-- Care hours and lost work.
-- Employment and easy care.
-- Paid-care spending and unpaid family time.
-- A work exit caused by care and a work exit that came first.
-- Care supplied and care quality received.
+The evidence does not yet follow the same people from the start of care through hours, earnings, job changes, paid care, savings, health, and childcare. It does not establish which forms of leave, flexible work, paid care, or family support protect long-term security best. Results may differ by gender, race, income, disability, household type, and place.
 
 ## Next test
 
-Follow the same people from the start of care through two years of work, earnings, hours, job changes, paid care, savings, health, and childcare. Split results by gender, race, income, disability, household type, and place.
+Follow caregivers for two years. Record care tasks and timing, paid care, leave, schedule changes, job offers refused, earnings, savings, sleep, health, child care, and travel. Mark who made each adjustment and whether the older person’s care actually improved.
 
 ## Reading rule
 
