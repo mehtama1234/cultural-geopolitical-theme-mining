@@ -31,6 +31,7 @@ routes = {
     "us-rent-guarantee-claim-mechanics-matched-evidence-001": ("Cost / housing / voice", "default → claim process → landlord payment → tenant recovery risk", "claim timing, disputes, and housing outcome"),
     "us-inflation-price-perception-matched-evidence-001": ("Cost / voice / customer", "price and wage change → buying power → trust pressure", "same-household basket, substitution, and vote"),
     "us-inflation-measurement-household-basket-matched-evidence-001": ("Cost / customer / voice", "price index + wage + spending → household basket", "same-household substitution, debt, trust, and vote"),
+    "us-inflation-cex-basket-build-matched-evidence-001": ("Cost / customer / voice", "income + tenure → spending pattern → possible pressure", "same-family purchases and later response"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

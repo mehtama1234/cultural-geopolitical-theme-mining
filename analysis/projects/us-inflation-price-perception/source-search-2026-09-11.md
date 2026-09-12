@@ -50,6 +50,12 @@ People may remember a few visible prices more than the full basket. Wages, house
 
 The measurement layer supports the pressure story but also explains why the next step must use household spending and product data together. A national CPI, an average wage, and average spending answer different questions.
 
+## Basket-build record
+
+BLS publishes separate 2024 tables for [income quintiles](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-income-quintiles-before-taxes-2024.xlsx) and [housing tenure](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-housing-tenure-2024.xlsx), as well as [two-year cross-tabulated tables](https://www.bls.gov/cex/tables.htm). The BLS guide says these tables provide population means, shares, standard errors, and relative standard errors, and that estimates with RSEs of 25 percent or more may be suppressed.
+
+The current environment can read the public documentation but the ZIP/XLSX download endpoints return an automated-access denial. No basket values are being inferred from that failure. The next data action is a human-provided download or a permitted BLS export, followed by a scripted checksum and field audit.
+
 ## Decision rule
 
 Pair survey beliefs with scanner, wage and household-budget data. Do not use a national inflation rate alone to explain why a person feels financially worse off.
