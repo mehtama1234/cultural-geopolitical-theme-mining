@@ -188,6 +188,8 @@ Follow a score change into the record a lender sees, then into housing access. T
 
 Still missing: The current sources do not follow the same borrower from score movement through lender terms, payment, housing and recovery.
 
+[Read the complete connected memo](../site/us-self-fulfilling-credit-scores-path-001.html)
+
 ### When a bank fee becomes a wider credit problem
 
 Follow a low-cash account through a bank fee rule and into later borrowing or payment cost. The key question is whether relief stays with the household or moves to another product.
