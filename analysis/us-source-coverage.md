@@ -1,8 +1,8 @@
 # US source coverage
 
-86 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+87 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 19; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 138; OFR: 1; Other: 33; Other government: 11; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 19; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 139; OFR: 1; Other: 33; Other government: 14; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1535,6 +1535,23 @@
 - whether trust lasts after a breach or unwanted use.
 
 [Open the source-search record](projects/us-privacy-trust-data-sharing/source-search-2026-09-11.md)
+
+## US product recalls and household response
+
+**Project:** `us-product-recall-response`
+
+**Status:** matched evidence pass complete; household-level notification and remedy linkage remain open
+
+**Question:** When a dangerous product is recalled, do households hear about it, act on it, and recover what they lost?
+
+**Sources recorded:** 4
+
+- [CPSC: Recall effectiveness](https://www.cpsc.gov/Recall-Effectiveness)
+- [CPSC recalls and warnings](https://www.cpsc.gov/Recalls)
+- [NBER: Product recalls, imperfect information, and spillovers](https://www.nber.org/papers/w15183)
+- [CPSC: Recall notification types](https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Notification-Types?language=en)
+
+[Open the source-search record](projects/us-product-recall-response/source-search-2026-09-11.md)
 
 ## US remote work and the value of coming together
 
