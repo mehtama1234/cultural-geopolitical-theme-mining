@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States and US online commerce evidence  
-**Status:** opening pass; price display changes choice, broader household burden remains open
+**Status:** first matched evidence pass completed; final household cost and enforcement remain open
 
 ## Working question
 
@@ -28,6 +28,10 @@ low headline price
 ```
 
 The sources support price display as part of the market outcome. They do not show that every shopper pays more, that the extra purchase was unwanted, or that a fee changed the household's wider budget.
+
+## Matched evidence result
+
+The evidence supports a timing effect: the first price can shape attention and commitment before the final price appears. Full-price display changes purchase and quality choices, while card and ticket markets show how later costs can be built into the offer. The next test is the household result after the purchase, not another claim about clicks alone.
 
 ## Counterpoint to keep visible
 

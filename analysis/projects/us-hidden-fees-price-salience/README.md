@@ -8,6 +8,11 @@ When the first price is low but the full cost appears later, does the fee change
 
 Compare the first price, the final price, the point when the fee appears and the choice that follows. Keep extra spending, lower search and later regret separate.
 
+## Matched evidence pass
+
+- [The first price can shape the choice](../../findings/us-hidden-fees-price-salience-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-hidden-fees-price-salience-matched-evidence-001.html)
+
 ## Possible connection
 
 A household cannot protect its budget from a price it cannot compare. A fee can shift power from the shopper's search to the seller's screen design.
