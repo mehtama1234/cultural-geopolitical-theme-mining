@@ -6,6 +6,8 @@ A credit score can become more than a record of past trouble. For some people wh
 
 The careful finding is not that every score is unfair. It is that a score rule can add a new cost, and that cost may help produce the bad result it was meant to predict. The score may begin as a signal about repayment, then become a price or access decision, and then change the borrower’s ability to repay.
 
+The effect should be read as a threshold problem, not a universal five-point penalty. A five-point change matters most when a lender uses a narrow approval or pricing line. A borrower far above the line may see no difference. A borrower just below it may receive a smaller limit, a higher rate, or no offer. The same score movement can therefore have no practical effect for one person and a large monthly cost for another.
+
 ## What the source shows
 
 An NBER study uses a rule that treats several credit inquiries within 14 days as one. Under that rule, an extra counted inquiry lowers a score by about five points without changing the rest of the credit report. For people with clean records, default did not change. For people with prior derogatory marks, default rose by 3.2 percentage points over two years. At least 13% of the score-default link for that group appears to be self-fulfilling.
@@ -42,6 +44,10 @@ The opening source supports the score-to-default link for a defined higher-risk 
 
 **Public power:** Rules for credit reporting, scoring, notice, correction, and fair access shape whether a paper signal can follow a person through the economy. A better rule must preserve useful risk sorting while limiting feedback that creates new trouble. The policy choice is not score versus no score; it is which information may change a decision and whether the decision can create the risk it predicts.
 
+That missing contract is central. If the lender did not change the offer, the self-fulfilling path may run through another decision or may reflect a group difference not measured in the study. If the lender did change the rate or limit, the next question is whether the extra payment or reduced liquidity caused the later trouble. The default result is important evidence, but it does not answer those two questions by itself.
+
+There is a legitimate reason to use a record. A lender that ignores useful repayment information may charge everyone more or lend where repayment is unlikely. The concern is narrower: a rule based on an event that adds no new household fact may create a cost that then looks like confirmation of the original score. A fair system should test predictive value and feedback cost separately.
+
 ## What would change the finding
 
 - The lender decision, price, credit limit, and approval result after the score movement.
@@ -52,7 +58,7 @@ The opening source supports the score-to-default link for a defined higher-risk 
 
 ## Next test
 
-Follow borrowers from a score change through 24 months. Join the credit report to lender terms, payment records, housing applications, insurance prices, work needs, and score recovery. Mark the point where a record changed a decision, rather than treating the later default as the first outcome.
+Follow borrowers from a score change through 24 months. Join the credit report to lender terms, payment records, housing applications, insurance prices, work needs, and score recovery. Mark the point where a record changed a decision, rather than treating the later default as the first outcome. Record the monthly dollar difference and available-credit difference, not only approval or denial.
 
 Use a matched design around score thresholds. Compare borrowers just above and below the same approval line, then separate people with clean records from people with prior derogatory marks. Report what changed in the score, what changed in the offer, what changed in the monthly payment or available credit, and what happened later. Test whether a rule that ignores harmless inquiry timing changes access without reducing lenders’ ability to identify genuine risk.
 
