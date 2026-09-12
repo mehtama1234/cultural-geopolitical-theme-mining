@@ -16,7 +16,7 @@ The current deepening pass has added fuller household paths to the Markdown reco
 
 The next publishing check is therefore page parity: compare every changed Markdown finding with its HTML page for the title, argument, evidence limits, deeper finding, unknowns, next test, reading rule, and source links. Mark a page `matched`, `HTML-valid-but-stale`, or `missing`. Do not call a finding complete until it is both evidence-checked and matched in the reader-facing page.
 
-The first run of `python3 scripts/validate_us_finding_parity.py` checked 63 finding pairs and found 27 parity failures. The failures are now visible and should be cleared in batches, starting with pages that are part of the main reading paths. The check confirms that “HTML parses” and “HTML matches the current finding” are different gates.
+The current run of `python3 scripts/validate_us_finding_parity.py` checks 63 finding pairs and passes all 63. The check confirms that “HTML parses” and “HTML matches the current finding” are different gates; keep this parity check in the publication gate whenever a finding changes.
 
 ## Where we are going
 
