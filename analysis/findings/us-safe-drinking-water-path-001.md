@@ -28,6 +28,10 @@ public water funding
 
 Suppose a notice says the system is improving but the home’s service line has not been replaced. The family may keep buying water even after the system average falls below the standard. Another family may return to the tap immediately because it has a newer line and trusts the notice. The same public project creates different dates for actual protection.
 
+The warning itself has a cost. Someone must read it, understand what to stop doing, find a safe substitute, and explain it to children, older relatives, or a tenant. A family with a car can collect water elsewhere; a family without one may pay for delivery or carry containers on a bus. A notice that is technically correct can still leave a household without a workable next step.
+
+Responsibility can be unclear at the boundary. The utility may control the main line, the landlord the building pipe, and the owner the service line. A renter can receive a warning but have no power to fix the part inside the property. If each party says the other is responsible, the household carries the delay. The repair record needs to show who controlled each part and when the handoff occurred.
+
 ## What the source actually establishes
 
 | Evidence | Meaning | Limit |
@@ -52,6 +56,10 @@ This links infrastructure to housing and local power. A water problem can change
 
 It also changes what fairness means. Equal access to the repaired system is not the same as equal protection during the delay. The family able to buy bottles may have lower measured exposure but a higher private bill. The family unable to buy them may have no extra bill but more risk. A program can reduce pollution on average while leaving the largest short-term burden with the people least able to cover it.
 
+The political response may depend on whether the repair feels like protection or abandonment. A clear warning, a filter delivered on time, and a visible repair can make a delay legible and limited. A late notice, changing test result, or unanswered complaint can make the same public investment feel like another promise that residents must privately solve. This is an inference about trust and political judgment; the water study does not measure it.
+
+There is a difference between restoring the tap and restoring the household. A family may have spent months buying bottles, missed work to collect water, or delayed a move because it could not sell the home. Cleaner water ends the need for those actions, but it does not automatically repay the money, time, or lost confidence. A complete benefit record should include both the repaired service and the burden carried before it.
+
 ## What remains unknown
 
 The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair, how long private protection lasted, or whether a cleaner system changed the decision to stay. It also does not show whether the public loan reached the home line, the notice reached the household, or the family could afford the interim fix.
@@ -59,6 +67,8 @@ The study does not follow the same household through water use, bottles, filters
 ## Next test
 
 Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Record the warning date, repair date, home-line status, and money and time spent during the gap. Compare households that received the fix with similar households still waiting, and separate return to safe use from cleaner test results. Split owners and renters, and record whether the household could refuse the tap while waiting.
+
+Create a repair ledger for each address. Record the exact pipe or treatment unit affected, the party responsible, every warning and test, the substitute water used, its cost, travel time, and the date the household resumed normal use. Ask residents what they believed the notice meant and whether they could act on it. This would show whether public funding shortened the unsafe period, reduced private spending, restored trust, or only improved the system average.
 
 ## Reading rule
 
