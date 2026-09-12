@@ -54,6 +54,12 @@ The sources support those separate statements. They do not prove that insurance 
 
 The larger insight is about the loss of slack. A household may continue paying every bill and still become less secure because its savings, time, coverage, or ability to switch has fallen. That is why a snapshot of income or consumption can miss the change. The same paycheck can support a stable life in one year and a fragile one in the next if the backups have disappeared.
 
+The order of the cuts matters. A household may first stop adding to savings, then use a card, then delay care or repairs, and only later miss a required bill. By the time a missed payment appears, the real change began months earlier when the buffer was used up. Two families with the same current spending can therefore have different futures: one is spending from income, the other is spending from borrowed money or a shrinking reserve.
+
+The pressures can reinforce one another without having the same cause. A higher insurance bill leaves less cash for a card balance. Card debt makes the lost tax credit more painful. A thinner buffer makes an unexpected repair or premium increase harder to absorb. The household's later response may look like a reaction to one price, while the combined loss of room came from several smaller demands. This is why a single “cost of living” index can be useful for scale but weak for explaining the household decision.
+
+There is also a question of who receives protection. Insurance keeps an asset covered but may not protect a renter, a homeowner with a high deductible, or a family that drops coverage. Card rewards return money to people who can qualify for and safely use credit, while the price of the goods may be shared across shoppers. A tax credit arrives through the public system but only changes a family's room if it is expected, received, and large enough to meet the next bill. The same policy can therefore look generous in aggregate and thin at the kitchen table.
+
 ## What would change the finding
 
 - Same-household data linking insurance costs, payment method, income and economic views.
@@ -65,6 +71,8 @@ The larger insight is about the loss of slack. A household may continue paying e
 ## Next test
 
 Pair the Federal Reserve’s household survey measures with insurance, payment, benefit, and credit records by state and income group. Follow households before and after each pressure, recording the remaining savings, coverage, credit room, time, and alternatives. Treat this as a comparison of related pressures until a dataset follows the same people over time.
+
+Build a monthly “room” measure rather than relying on income alone: required bills, liquid savings, available credit, insurance coverage, unpaid care time, and the cost of changing providers. Ask households which backup they used first and which one disappeared next. Compare families facing one pressure with families facing two or three at once, and repeat the sentiment measure after each bill or benefit change. The test should identify the first point at which a household stops absorbing a shock and starts passing it into debt, care, housing, work, or political judgment.
 
 ## Reading rule
 
