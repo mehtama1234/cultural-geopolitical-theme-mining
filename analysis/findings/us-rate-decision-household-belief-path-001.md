@@ -16,6 +16,10 @@ The timing matters. The renter may delay the car, buy an older one, use a ridesh
 
 The decision can also affect a person who has not borrowed yet. If they expect rates or prices to rise, they may buy sooner, stock up, or avoid a purchase. If they expect a slowdown, they may hold cash because a job feels less safe. The same announcement can reduce spending for one household and bring it forward for another.
 
+The gap between the announcement and the bill is where much confusion begins. A fixed-rate borrower may feel no payment change, while a landlord who refinances may raise rent later. A credit-card user may see a change quickly. A saver may hear that rates are high but remain in an account that pays little. The public event is one date; pass-through has many dates and may happen through another person or firm.
+
+A household may also act on a fear that never arrives. It can buy a car before rates rise, lock in a mortgage, or delay a repair because it expects credit to worsen. That action changes the household's debt and options even if the later rate path is different. To understand the effect, we need both the belief at the time and the later outcome; a correct forecast and a costly overreaction can look the same in a one-time survey.
+
 ```text
 rate decision and public message → belief about prices, jobs, and borrowing
 → timing of spending, saving, debt, or portfolio choice → contract and payment change
@@ -44,6 +48,10 @@ The deeper connection is between policy exposure and household flexibility. A bo
 
 This also affects trust. If a household hears that inflation is being controlled but its rent, insurance, and loan payment keep rising, it may conclude that the message is wrong even when the policy is working through a different path or with a delay. That judgment can become political. It should not be read as ignorance until the household’s actual exposure and timing are known.
 
+The distributional issue is not just borrower versus saver. Households with cash can wait for a better rate or pay without borrowing. Households without cash may need credit precisely when policy is trying to slow demand. A small business owner may face both a household loan and a firm loan, while a renter may pay the landlord's financing cost without seeing the loan contract. The same rate move can therefore change prices, work, and family security through several channels at once.
+
+The policy message has a practical limit. Telling people to wait can be reasonable for a discretionary purchase, but impossible when the car is needed for work, the roof is leaking, or a child needs care. If communication treats all spending as equally delayable, people who have fewer substitutes may hear the advice as blame. Trust then depends not only on whether the message is accurate, but whether it recognizes the household's available choices.
+
 ## What remains unproven
 
 The evidence does not prove that every plan became a purchase, debt change, or lasting gain or loss. It does not show the same household’s contract rate, balance, income, spending, saving, and later trust. It also does not establish one average response for renters, owners, borrowers, and savers. It does not show how employers, landlords, or lenders passed the policy into the household’s other prices.
@@ -51,6 +59,8 @@ The evidence does not prove that every plan became a purchase, debt change, or l
 ## Next test
 
 Follow households for 18 months around a rate decision. Join the message each person received to actual loan and deposit terms, fixed or variable rate, balance, prices, income, spending, saving, debt, large purchases, rent, and job changes. Compare borrowers, savers, renters, and owners. Report the timing of the belief, the contract change, the payment change, the behavior change, and the later trust judgment separately.
+
+Use a rate-message panel with a fixed calendar of bills. Ask what the household expects before the announcement, what it plans immediately afterward, and what actually changes at each later reset or renewal. Compare households with the same message but different contract exposure and transport or care needs. This would separate an expectations effect from a direct payment effect and show which households can act on the advice and which are forced to absorb it.
 
 ## Reading rule
 
