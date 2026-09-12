@@ -8,11 +8,15 @@ The question is not simply whether the payment worked. It is what changed inside
 
 Cash can also change the balance between independence and support. An adult child may afford a separate home but lose daily care. A parent may move out of a crowded apartment and gain privacy but face a larger utility and transport bill. A family may use the payment to keep everyone together because that is what it wants—not because the policy failed.
 
+The same $500 monthly payment can buy different kinds of room. One family uses it to keep a lease and a child in the same school. Another uses it to pay a deposit and leave an unsafe or crowded home. A third uses it to support an older relative who would otherwise move in. The address count may look unchanged in the first case, smaller in the second, and larger in the third; none of those counts tells us the household result by itself.
+
 ## Follow one payment into the home
 
 A parent receives monthly cash after falling behind on rent. The payment clears arrears and prevents an expected move. The family stays, but rent remains high and the payment ends. Another family uses the same money to leave crowding. A third pays a debt that had kept a relative in the home.
 
 The same headline result—fewer expected moves or fewer people in a home—can mean stability, a chosen move, a safer arrangement, or a pause before the next crisis. The payment's timing matters too. A monthly amount may prevent a missed payment but be too small for a deposit, a move, or a lasting repair.
+
+There can also be a hidden exchange inside the home. A person who stays may provide child care, rides, meals, or rent sharing. A person who moves out may gain privacy but lose that daily support. The cash can make separation possible without making every person more secure. The relevant outcome is who gained independence, who lost support, and whether the new costs were manageable.
 
 ```text
 regular cash arrives → rent or mortgage arrears fall
@@ -41,6 +45,8 @@ This makes household structure partly a money and policy outcome. A family that 
 
 The right result is therefore not “cash reduced moves.” It is a more complete sentence: the payment changed the chance of a move, the people sharing the home, the housing debt, and perhaps the family's room to choose. Each part needs its own measure.
 
+This is also why a housing policy can be judged differently by different family members. The parent may value staying near school; the adult child may value leaving; an older relative may value daily care. A household-level average can hide a real conflict over what “stability” means. The policy should record the person’s choice and the cost carried by each person, not only the final address.
+
 ## Four views of the same payment
 
 **Receiving household:** What did the cash preserve or make possible—rent, food, care, privacy, a move, or a separate home?
@@ -53,11 +59,11 @@ The right result is therefore not “cash reduced moves.” It is a more complet
 
 ## What remains unproven
 
-The evidence does not show whether a changed household arrangement improved care, child outcomes, safety, work access, privacy, or long-term housing stability. It does not distinguish every chosen move, prevented move, and forced move. It does not show what happened after support ended or how results differ by race, income, state, family structure, disability, or housing market.
+The evidence does not show whether a changed household arrangement improved care, child outcomes, safety, work access, privacy, or long-term housing stability. It does not distinguish every chosen move, prevented move, and forced move. It does not show what happened after support ended or how results differ by race, income, state, family structure, disability, or housing market. It also does not show which family member gained or lost money, time, care, and privacy after the change.
 
 ## Next test
 
-Follow families before, during, and one year after regular cash payments. Join payment records, people in the home, housing costs, arrears, utilities, moves, crowding, privacy, work, school, care, debt, and child outcomes. Ask why each person moved, stayed, or shared a home. Separate chosen, prevented, and forced moves.
+Follow families before, during, and one year after regular cash payments. Join payment records, people in the home, housing costs, arrears, utilities, moves, crowding, privacy, work, school, care, debt, and child outcomes. Ask why each person moved, stayed, or shared a home. Record who gained or lost daily support and separate chosen, prevented, and forced moves.
 
 ## Reading rule
 
