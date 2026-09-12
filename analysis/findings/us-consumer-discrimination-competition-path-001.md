@@ -20,6 +20,10 @@ The customer’s exit route has several costs. It may require a longer trip, a n
 
 This is why complaints alone are not enough. A customer who complains may receive a remedy, may leave, or may stop asking because the effort is too high. A low complaint rate can mean good treatment or low expectation of help. The missing measure is what happened after the customer tried to use an alternative or seek correction.
 
+The cost can appear before a purchase. A customer may avoid a store, lender, clinic, or platform after hearing that people like them are treated badly there. That withdrawal protects the person from one encounter but can also reduce access to jobs, credit, goods, or social life. The firm sees no complaint and may see no failed sale. The customer experiences a choice that was removed before the transaction began.
+
+There is a second layer in the price. If a fairer seller charges more, the extra amount may reflect higher wages, safer service, better quality, or a location cost. It may also be a burden created by the local market. A finding about unequal treatment should therefore report the full choice: price, travel, waiting, risk of disrespect, likelihood of service, and what the customer gives up by choosing each seller. “Cheaper” and “better treated” are not complete descriptions.
+
 ```text
 customer group and ability to leave → firm competition and incentive
 → treatment, price, service, denial, or access
@@ -46,6 +50,10 @@ The deeper finding is that competition works through a credible threat of exit. 
 
 This also connects to platform data and credit. Search can expose a better offer only if the customer can understand it and switch. A credit denial can make a competing lender unusable. A complaint system can offer a remedy only if the customer can reach someone with authority. In each case, customer power depends on the practical path, not the formal existence of another option.
 
+The political consequence is that a market can make unequal treatment look like private preference. If one group leaves and another stays, the firm may infer that the second group accepts the service, even when the second group is trapped by distance, price, or dependence. Aggregate satisfaction can then reward the firm for retaining customers who had the fewest alternatives. Public oversight needs to ask who did not appear in the choice data because the cost of trying was already too high.
+
+This is why enforcement and competition do different work. More sellers can create an exit route for customers who can use it. Enforcement can change the treatment of customers who cannot. A policy that only increases choice may improve the top layer of the market while leaving the underlying power gap intact. A policy that only bans unequal treatment may still leave households with no nearby, affordable, or accessible replacement. The connected answer has to examine both the conduct and the exit route.
+
 ## What remains unproven
 
 The study does not establish how current firms treat different groups, whether online choice reduces or increases unequal treatment, or how much of a higher price buys a different service. It does not follow a present-day customer from treatment to search, switch, complaint, remedy, and trust. It does not show whether low switching means satisfaction, high exit cost, or both.
@@ -53,6 +61,8 @@ The study does not establish how current firms treat different groups, whether o
 ## Next test
 
 Follow customers and firms in current markets for one year. Join concentration, switching, treatment, prices, fees, search time, travel, identity checks, service quality, denial, complaints, enforcement, and customer outcomes. Compare people with different ability to leave and different access to alternatives. Record what happened after the customer tried to switch, not only whether a second seller existed.
+
+Use paired tests in which otherwise similar customers receive the same offer, then vary the ease of switching: nearby versus distant seller, no deposit versus deposit, accessible versus inaccessible channel, and immediate versus delayed correction. Measure not only the initial treatment but whether the customer completed the purchase, complained, left, or avoided the seller later. This would show whether unequal treatment is being corrected, priced, or simply hidden by withdrawal.
 
 ## Reading rule
 
