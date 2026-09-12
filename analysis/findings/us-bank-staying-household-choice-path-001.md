@@ -18,6 +18,10 @@ The risk is largest when the account has to work without interruption. A missed 
 
 There is also a difference between not moving money and not shopping. A household may compare rates, decide the gain is too small, and stay. Another may never see the offer because the account is buried in an app, the balance is small, or the customer is too busy to look. These cases produce the same bank record but point to different remedies. Better disclosure may help the first customer; an easier transfer may help the second. A third customer may want to move but cannot because an employer, landlord, or benefit system is tied to the old account.
 
+The account can be a gateway to other services. A bank may hold the direct deposit, a credit history, a bill-payment record, and the first response to fraud. Moving the savings balance may be easy while moving the whole relationship is not. A customer can therefore compare one rate and still remain dependent on the old bank for the part that would be most costly to interrupt.
+
+The risk is not equal across locations. A branch may matter to a person who needs cash, identity help, or a safe place to resolve a lockout. A digital bank may offer a better rate but require a phone, stable internet, and comfort with remote support. A rate comparison that ignores the service route can call a real access need “inertia.”
+
 The bank-side gain is not automatically a customer-side harm. Stable deposits can help a bank plan its funding, and a familiar service can have real value. The concern begins when the bank can count on the cost of departure while making the benefit of staying hard to compare. The useful question is therefore not whether customers should move more often. It is whether they can leave, compare, and return without risking essential payments.
 
 ```text
@@ -47,6 +51,10 @@ This creates a quiet split in the meaning of competition. A bank can face many v
 
 The distributional question follows. A high-balance household can spend an hour moving money or keep several accounts as insurance. A household living close to payday may treat one failed transfer as a crisis. So the same switching rule can be a minor inconvenience for one customer and a barrier for another. Bank competition should be read through the customer's ability to withstand a mistake, not only through the number of banks offering a higher rate.
 
+This makes bank switching a public infrastructure question as well as a market choice. Open banking or portable payment links could lower the cost of leaving, but new data sharing can create privacy and fraud risk. Branch closures can reduce the value of a familiar bank for some customers while lowering costs for others. The remedy has to protect continuity and choice together.
+
+The political judgment may start with a small missed payment. A customer who loses money because a transfer failed may blame the bank, the payment system, or a rule that made the old account hard to leave. Another customer may value stability and oppose changes that make account movement less safe. The sources do not show this political path, but they identify the dependence that makes it plausible.
+
 ## What remains unproven
 
 The sources do not show the same depositor’s rate gap, fees, switching effort, service use, safety, and household budget over time. They do not establish whether staying improved or reduced financial well-being for a particular customer, or whether digital switching works equally well for older, disabled, rural, or low-income customers. They also do not show whether a bank with sleepier deposits provides better service, takes more risk, or passes any funding benefit back to customers.
@@ -56,6 +64,8 @@ The sources do not show the same depositor’s rate gap, fees, switching effort,
 Follow depositors through a full rate cycle. Match balances and terms to notices, bill links, switching attempts, service use, fees, interest received, and later saving or debt. Record failed moves, direct-deposit problems, fraud holds, and the cost of an account error. Compare the money gained from switching with the continuity value each customer actually uses, and test whether portable bill and payroll links reduce the cost of leaving.
 
 The strongest test would offer a safe transfer path to a random group: keep the old account open, copy recurring payments, show the net dollar gain after fees, and provide a short period in which errors can be reversed. Compare that group with customers who receive information only. If switching rises only when the transfer risk falls, the main barrier is not lack of awareness. If customers still stay after a safe, valuable offer, continuity or trust may be the benefit they are choosing. Those are different findings and should not be collapsed into “inertia.”
+
+Add a full-relationship transfer test that includes direct deposit, recurring bills, fraud alerts, statements, branch or phone support, and data deletion. Record every step, failed payment, support contact, time, fee, rate gain, and customer decision. Compare digital-only and branch-supported paths and ask what the customer would lose by leaving. This would separate a low-value deposit that is easy to move from a household relationship that is costly to interrupt.
 
 ## Reading rule
 
