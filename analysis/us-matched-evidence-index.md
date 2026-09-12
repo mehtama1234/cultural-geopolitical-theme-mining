@@ -110,7 +110,7 @@ Fraud changes more than a household balance. It creates a question about who wil
 **Route:** payment trouble → credit record → housing access
 **Still open:** same-household housing result
 
-A late payment, overdraft, eviction order, or missing credit history can affect the next bank, loan, or housing decision. The record may describe a real risk, missing information, or the cost of an earlier problem. These are different stories, but each can narrow a household's options.  The evidence supports a path from an earlier money problem to later credit access. It does not show that one score alone caused a particular family's housing result.
+A credit record is supposed to describe risk. It can also help create the next risk.  A late payment, overdraft, eviction order, or missing credit history can change what a bank, lender, landlord, or utility asks the household to pay. The new cost may be a higher rate, a deposit, a co-signer, a worse location, or no account at all. The household then has less room to recover, making another late payment more likely.  That is the important shift: the record is not only a report about the past. It can become a gate in the future.
 
 [Read the HTML page](../site/us-credit-record-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-credit-record-matched-evidence-001.md)
 
@@ -130,7 +130,7 @@ AI can help a service worker answer faster and with a warmer tone. The evidence 
 **Route:** local prices + pay → buying power → blame → vote or turnout
 **Still open:** individual burden, policy knowledge, and cause
 
-“Inflation hurt the party in power” is too blunt. A new NBER county study separates the rise in local prices from whether local pay kept up. For 2021–2024, it finds that falling real wages—not higher inflation by itself—predict Republican gains more clearly. Inflation still has a separate association with presidential vote share. That points to two different experiences: the cost went up, and the household had less left after paying it.
+“Inflation hurt the party in power” is too blunt. A local price rise and a loss of buying power are not the same thing.  Prices can rise in two counties at the same rate. In one, pay rises faster. In the other, pay falls behind while rent, food, transport, and debt take more of the budget. The second household has less left after ordinary life, even though the headline inflation rate looks similar.  That is the political route worth testing. The voter may not respond to the rate itself. The voter may respond to what remains after local prices meet local pay. But a county vote is not a household diary, and a household's economic pain is not automatically the reason it voted.
 
 [Read the HTML page](../site/us-economic-voting-real-wages-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-economic-voting-real-wages-matched-evidence-001.md)
 
@@ -200,7 +200,7 @@ A shopper cannot compare a cost that is hidden until late in the purchase. US re
 **Route:** risk → insurance → ability to stay
 **Still open:** move, default, or loss of coverage
 
-Home insurance is becoming a housing cost in places with higher disaster risk, and a person's credit record can add another price difference. The evidence shows higher premiums, weaker availability in some areas, and lower home-price growth in the most exposed ZIP codes.  It does not yet show that a particular family moved, defaulted, or lost coverage because of insurance. The careful finding is that the ability to stay is being priced through both the place where a home sits and the owner's financial record.
+Owning a home does not mean the cost of staying is fixed. In a high-risk place, insurance can become a second housing payment. The household must keep coverage to protect the home and often to satisfy a mortgage, but the premium, deductible, or loss of coverage can make the home harder to keep.  There is a second price in the record. A lower credit score can raise the insurance price even when two homes receive identical coverage. The household may therefore pay more because of where the home sits and because of what its financial history says.  The result is a pressure point between property and household cash. A higher premium may lead to a repair, a larger deductible, borrowing, a state-backed plan, a sale, or no coverage. The evidence does not tell us which choice every family makes. It shows why “Can I afford the mortgage?” is no longer enough.
 
 [Read the HTML page](../site/us-home-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-home-insurance-matched-evidence-001.md)
 
