@@ -32,3 +32,7 @@ The loss of a local business may be more than the loss of a job. It can remove a
 ## Writing rule
 
 Use plain words. Say which store, job, service, or meeting place changed, who noticed, and what they did. Do not call a place a “food desert” or “entrepreneurial ecosystem” without showing the exact measure.
+
+## Matched evidence pass
+
+The first matched check is [A business application is not yet a local job or a local place](../../findings/us-local-business-place-matched-evidence-001.md), with its [HTML reading page](../../../site/us-local-business-place-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a two-step entry gap while leaving local services, belonging, and political effects open.

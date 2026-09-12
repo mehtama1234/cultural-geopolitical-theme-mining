@@ -64,7 +64,17 @@ Two workers can earn the same amount over a year and still have very different l
 
 [Read the HTML page](../site/us-income-volatility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-income-volatility-matched-evidence-001.md)
 
-### 7. The same income can buy a different life by place
+### 7. A business application is not yet a local job or a local place
+
+**Theme:** Work / place / voice
+**Route:** local conditions → application → lasting firm
+**Still open:** services, belonging, and political effects
+
+The US has become less tied to the hometown entrepreneur. HBS reports that the local advantage for some entrepreneurs fell sharply from 1970 to 2018, while NBER finds that local business entry has two separate steps: deciding to apply and becoming an employer firm.  This matters because a county can show many new applications without gaining the lasting shop, job, service, or meeting place people imagine. The deeper finding is about conversion: local interest must become a durable firm before it can change local life.
+
+[Read the HTML page](../site/us-local-business-place-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-business-place-matched-evidence-001.md)
+
+### 8. The same income can buy a different life by place
 
 **Theme:** Cost / place
 **Route:** place → local prices → real buying power
@@ -74,7 +84,7 @@ A national income number can hide a local customer reality. Prices differ across
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
-### 8. Removing a medical debt can repair the record without repairing the illness
+### 9. Removing a medical debt can repair the record without repairing the illness
 
 **Theme:** Cost / health / voice
 **Route:** illness → bill → debt record → relief
@@ -84,7 +94,7 @@ Medical-debt relief can reduce payments and improve some people's access to cred
 
 [Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-medical-debt-relief-matched-evidence-001.md)
 
-### 9. One cash pool can protect a family by shrinking a business
+### 10. One cash pool can protect a family by shrinking a business
 
 **Theme:** Work / cost
 **Route:** family bill → business cash → firm and local life
@@ -94,7 +104,7 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
 
-### 10. Payment choice is a distribution question, but not yet a household welfare result
+### 11. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
@@ -104,7 +114,7 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 11. A recovery loan can keep a local option open, but it creates another bill
+### 12. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -114,7 +124,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 12. A wider small-business rule can push the smallest firms out
+### 13. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
