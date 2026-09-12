@@ -23,6 +23,10 @@ benefit starts or ends → cash, debt, rent, food, and care room change → hous
 
 The first protected bill may also shape the family’s memory of the program. A payment that prevents an eviction notice or keeps food off a credit card can feel different from one that is saved for a future need. When the payment ends, the family may remember the lost ability to plan rather than the exact dollar total. That is one reason the same annual benefit can produce different sentiment across households.
 
+The family may also change its behavior before the payment ends. It may take on a lease, keep a child in care, replace a failing car, or stop using a card because the monthly money makes the risk manageable. Those choices can be reasonable, but they make the end of the benefit harder to absorb. A payment can therefore create value by helping a family make a useful commitment, while also creating a need for a clear transition when the support stops.
+
+Children can carry the effect across the household. A parent may use the credit for food, a child’s transport, school costs, or a safer home. The payment may be recorded as parental income, while the benefit appears as attendance, health, or less family conflict. If it ends, the first cut may be a child activity or a parent’s work hour rather than a missed grocery trip. The household result needs more than one spending category.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
@@ -47,13 +51,19 @@ This is the bridge to public trust. If a family sees help arrive, use it to prev
 
 There is a counterpoint to the baseline story. A family may replace the credit with higher earnings, another benefit, a partner’s income, or lower spending. The end of one payment does not prove that the household became worse off. That is why the cash change, the first bill protected, and the later household condition must be measured together.
 
+The political signal may be strongest when the change is easy to attribute. A sudden end date, a visible payment, or a public promise can make the gain or loss clearer than a slow change in wages. A family may know exactly which policy disappeared, or may only feel that its room narrowed. Attribution can affect blame and support, but the current evidence does not establish how often families identify the credit as the cause.
+
+This also creates a fairness question between families who can plan and families who cannot. A household with savings can use the payment to build a reserve; one with arrears may spend it immediately. The first may experience the end as a smaller balance, the second as a missed bill. Equal payments can therefore create different memories and different later risks.
+
 ## What remains unproven
 
 The evidence does not show whether lower sentiment led to lower spending, less trust, a different policy view, or a different vote. It does not separate benefit loss from prices, jobs, news, party identity, or local conditions for each family. Nor does it prove that the same payment improves long-run finances if it only covers a temporary gap. It does not show whether timing, regularity, or eligibility mattered more than the annual amount.
 
 ## Next test
 
-Follow families before, during, and two years after a benefit starts or ends. Join benefit exposure to cash, spending, saving, rent, debt, food, care, sentiment, trust, policy support, and voting where permitted. Record payment timing, filing burden, eligibility, and the first bill protected or missed. Ask whether the benefit changed the family's material position, its sense of control, or both.
+Follow families before, during, and two years after a benefit starts or ends. Join benefit exposure to cash, spending, saving, rent, debt, food, care, sentiment, trust, policy support, and voting where permitted. Record payment timing, filing burden, eligibility, and the first bill protected or missed. Ask whether the benefit changed the family’s material position, its sense of control, or both.
+
+Add a benefit timeline that records commitments made while the payment is present, the first adjustment after it ends, and the time required to rebuild the lost buffer. Ask families which person and which bill absorbed the change, and whether they attributed it to the credit, prices, work, or another cause. Compare families who received regular payments with those who received a later refund or no payment. This would separate the effect of cash from the effect of predictability and public attribution.
 
 ## Reading rule
 
