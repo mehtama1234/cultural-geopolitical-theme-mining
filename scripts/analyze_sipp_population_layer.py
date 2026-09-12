@@ -45,6 +45,7 @@ GROUP_VALUE_LABELS = {
                  "1to2": "1.00–1.99x poverty threshold",
                  "2to4": "2.00–3.99x poverty threshold",
                  "ge4": "4.00x poverty threshold or more"},
+    "TEHC_REGION": {"1": "Northeast", "2": "Midwest", "3": "South", "4": "West"},
 }
 
 

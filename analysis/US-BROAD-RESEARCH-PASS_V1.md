@@ -62,6 +62,8 @@ The transition layer now includes monthly income-to-poverty-ratio bands and job 
 
 The first intersectional SIPP table is the [tenure × resource two-way layer](projects/us-household-calendar-integration/sipp-tenure-resource-two-way-layer-v1.md). It identifies the distribution of material pressure among owners, renters, and rent-free occupants across resource bands without converting association into cause.
 
+The place layer is the [region-stratified SIPP comparison](projects/us-household-calendar-integration/sipp-region-stratified-layer-v1.md). It attaches the official four-region residence field to the material/work measures and keeps local mechanisms open for other sources.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

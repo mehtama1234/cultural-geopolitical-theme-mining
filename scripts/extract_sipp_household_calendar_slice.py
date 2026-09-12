@@ -35,6 +35,7 @@ FIELDS = [
     "THTOTINCT2",
     "THINCPOV",
     "TAGE_EHC",
+    "TEHC_REGION",
     "EOWN_SAV",
     "TOSAVVAL",
     "THDEBT_CC",

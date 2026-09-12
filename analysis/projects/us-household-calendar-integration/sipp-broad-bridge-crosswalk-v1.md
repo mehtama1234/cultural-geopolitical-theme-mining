@@ -12,6 +12,7 @@ SIPP can supply a population-survey layer for several broad bridges, but it cann
 | SIPP field | Official schema meaning | Broad bridge or theme | What it can help measure | What it cannot establish alone |
 |---|---|---|---|---|
 | `ETENURE` | Tenure at time of interview | Housing, place, inequality | renter/owner tenure differences in other measured conditions | insurance price, repair cause, displacement, or ability to stay |
+| `TEHC_REGION` | Monthly region of residence | Place, infrastructure, inequality | Northeast/Midwest/South/West distribution of measured conditions | local prices, state policy, infrastructure reliability, or a specific place-based cause |
 | `EUTILITIES` | Whether the household paid separately for water, electricity, gas, or oil in addition to rent | Housing, energy, household room | exposure to separately billed utilities | bill amount, shutoff, safety, or energy burden without a cost measure |
 | `EENERGY_ASST` | Received government energy assistance during the reference period | Public aid; housing and energy | reported program exposure | take-up barrier, benefit adequacy, repair, or political interpretation |
 | `EAWBMORT` | Was unable to pay rent or mortgage | Household room; housing | reported housing payment difficulty | cause, arrears amount, eviction, foreclosure, or later move |

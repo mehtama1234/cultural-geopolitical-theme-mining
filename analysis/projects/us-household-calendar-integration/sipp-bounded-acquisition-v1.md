@@ -17,7 +17,7 @@ The first bounded run was followed by a full-file run using the same extractor a
 | Distinct sample units | 3,650 |
 | Distinct household IDs | 3,714 |
 | Reference months present | 1–12 |
-| Selected fields | 34 |
+| Selected fields | 35 |
 | Raw data committed | No |
 
 The selected fields cover household and person identifiers, month, final person weight, tenure, utilities, energy assistance, mortgage and gas burden, income, poverty, savings, credit-card debt, food security, pay help, extra work, time lost, number of jobs, weeks worked, and selected job coverage fields. The complete field list is preserved in the extractor report outside Git.
@@ -30,11 +30,11 @@ The selected fields cover household and person identifiers, month, final person 
 | Distinct sample units | 13,670 |
 | Distinct household IDs | 13,910 |
 | Reference months present | 1–12 |
-| Selected fields | 34 |
-| Derived CSV SHA-256 | `be89730d53291dfb05ee16749dc45cdf7589ad7a3cdcecb4ee3f4541be0f981b` |
+| Selected fields | 35 |
+| Derived CSV SHA-256 | `ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497` |
 | Raw and derived data committed | No |
 
-The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`. The final person weight is present for a later person-level weighted analysis. The selected identifiers now include `PNUM` (person number) and `TAGE_EHC` (monthly age during the reference period), which are required before making same-person month-to-month comparisons.
+The full run completed with `max_rows` unset and returned `evidence_status: observed_source_rows`. The final person weight is present for a later person-level weighted analysis. The selected identifiers now include `PNUM` (person number), `TAGE_EHC` (monthly age during the reference period), and `TEHC_REGION` (monthly region of residence), which support same-person and place-stratified comparisons.
 
 ## What this proves
 
