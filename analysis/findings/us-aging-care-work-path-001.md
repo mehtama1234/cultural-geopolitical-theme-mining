@@ -16,6 +16,10 @@ An adult daughter works full time and has a child at home. Her father needs a ri
 
 None of those choices is visible in a count of whether she remained employed. The same employment status can contain very different amounts of unpaid time and pressure. A worker can keep the job while losing overtime, promotion chances, sleep, or the ability to take a better job farther away.
 
+The first break may be small: one late arrival, one declined shift, one day spent finding a home aide. Repeated breaks can change how a manager schedules the worker or how the worker is considered for a promotion. A person may not leave the labor force, but may move into a lower-paying job with a more usable schedule. Annual employment data can miss that exchange because it records whether work continued, not whether its terms deteriorated.
+
+The care recipient's needs can change faster than a family arrangement. A ride may be enough for a checkup, but not after a fall. A relative may manage medicines until memory loss makes daily supervision necessary. When the task crosses a threshold, the family may need paid help or a move, not simply more goodwill. The important event is the change in care intensity and timing, not only the date someone first says they are a caregiver.
+
 ```text
 older person’s need → family time, paid care, leave, schedule change, or work exit
 → earnings, rest, savings, housing, or childcare choice
@@ -44,6 +48,10 @@ The choice also reaches beyond the family. Employers decide whether a worker can
 
 That is the political path to watch. As the need becomes common, a private family arrangement can become a shared work problem. People may ask for paid leave, better home care, transport, or a different retirement and coverage rule. The source set shows the pressure and the labor connection; it does not show that caregiving by itself produces a specific vote or policy result.
 
+The costs also land differently by job. A worker with paid leave may lose no wage but still lose advancement or rest. A contractor may lose the entire day's income. A small employer may try to help but have no second person to cover the shift. A public program that offers leave without replacement income may be usable by one worker and impossible for another. “Flexible work” is helpful only when the worker can use it without losing pay, status, or future hours.
+
+There is a local supply problem underneath the family choice. Paid care may be too far away, too expensive, unavailable at night, or unreliable when a visit changes. Family labor fills the gap because it is close and trusted, not because it is costless. If the care workforce is poorly paid or unstable, the family may be asked to provide backup for a system that never had enough workers. This links older-person care to wages, transport, housing, and the employer's schedule.
+
 ## What remains unproven
 
 The evidence does not yet follow the same people from the start of care through hours, earnings, job changes, paid care, savings, health, and childcare. It does not establish which forms of leave, flexible work, paid care, or family support protect long-term security best. It does not show how many workers keep their job but lose future options, or how the timing and quality of paid care change the result. Results may differ by gender, race, income, disability, household type, and place.
@@ -51,6 +59,8 @@ The evidence does not yet follow the same people from the start of care through 
 ## Next test
 
 Follow caregivers and care recipients for two years from the start of regular care. Record care tasks and timing, paid care, leave, schedule changes, job offers refused, earnings, savings, sleep, health, child care, and travel. Mark who made each adjustment, what the adjustment cost, whether the older person’s care actually improved, and whether the worker gained or lost later choices. Compare families with nearby help, paid help, and no available helper.
+
+Use weekly time diaries linked to payroll and care records, with a threshold measure for changes in care intensity. Compare paid leave, schedule control, direct care support, transport, and no added support. Track wages, hours, promotion, turnover, sleep, care quality, emergency visits, and the worker's ability to accept another job. The test should identify whether support reduces the family's total burden or only moves unpaid care from one relative to another.
 
 ## Reading rule
 
