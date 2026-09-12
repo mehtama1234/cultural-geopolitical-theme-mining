@@ -1,73 +1,49 @@
 # When the energy bill begins with the home
 
-## Short answer
+## The argument
 
-Energy burden is not only a price problem. It is also a housing problem: the building, the fuel, the landlord and the household's income help decide how much room remains after the bill.
+Energy burden is not only a price problem. It is also a housing problem: the building, the fuel, the weather, the landlord, and the household’s income help decide how much room remains after the bill.
 
-The careful finding is that low-income households face a much higher average energy burden and many renters cannot make the upgrades that could lower it. The current data do not show which other need a household cuts first or whether an energy bill caused borrowing, skipped care or a move.
+Two homes can receive a similar bill and face very different choices. A higher-income household may pay it without changing anything. A low-income household may lower the thermostat, skip food or medicine, delay rent, borrow, or leave the home. A renter may know exactly what is wrong—poor windows, old equipment, weak insulation—but have no right or money to make the repair. The person carrying the monthly cost may not control the fix.
 
-## What the sources show
+The deeper finding is that energy hardship can persist because cost and control sit in different hands. Bill help can protect a household this month. Weatherization or equipment work can change the home. An allowance or housing rule can change who is expected to absorb the cost. These are different interventions and should not be credited with the same result.
 
-### 1. The same energy cost takes different shares
+## Follow one home through a hot month
 
-DOE's LEAD tool reports an average energy burden of 6% for low-income households and 2% for non-low-income households. In some places the burden is above 30%.
+A family rents an older apartment. The air conditioner runs often, the bill rises, and the landlord controls the windows and equipment. The family can pay the bill, keep the home cool, buy food and medicine, and preserve cash only if there is enough money for all four. If not, it may use less cooling, ask relatives for help, use credit, or fall behind.
 
-Energy burden is a share of income, not a single national bill. A similar bill can therefore leave very different room for food, care, rent, debt or savings.
-
-[DOE LEAD tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
-
-### 2. The person paying may not control the home
-
-LEAD estimates that 52% of low-income households are renters. It also lets users compare building age, building type, heating fuel and owner or renter status. A renter may face the bill but not control insulation, windows, appliances or heating equipment.
-
-This is a practical split: one person carries the monthly cost while another may control the fix. It is a testable explanation for why a high bill can persist.
-
-### 3. New housing data are arriving, but the full spending story is not yet there
-
-EIA's 2024 Residential Energy Consumption Survey provides preliminary housing characteristics and energy-insecurity measures for an estimated 132.5 million primary homes, based on nearly 17,000 responding households. The first release does not yet contain every consumption and expenditure table.
-
-That makes the current evidence better for locating exposure than for proving the later household tradeoff.
-
-[EIA 2024 RECS](https://www.eia.gov/consumption/residential/)
-
-### 4. Insurance can add another home cost
-
-GAO reports that homeowners insurance premiums rose faster in some disaster-prone areas than in the country overall and that availability also changed. A homeowner can therefore face an energy bill and a protection bill tied to the same building.
-
-This connects energy to housing risk, but the current sources do not follow the same owner through both bills or show which cost is given up first.
-
-[GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
-
-## The connection
+The bill records the charge. It does not say whether the family was safe, whether the equipment worked, or whether the family gave something else up to keep service on.
 
 ```text
-building, fuel, income, or weather condition
-  -> energy bill or energy insecurity
-  -> comfort, food, care, rent, debt, work, or upgrade choice
-  -> housing value, insurance, credit, health, or local political demand
+building, fuel, income, or weather condition → energy bill or insecurity
+→ food, medicine, rent, debt, comfort, work, or repair choice
+→ notice, shutoff, aid, weatherization, or move
+→ health, housing stability, credit, and local demand
 ```
 
-The burden and housing conditions are measured. The next household choice remains open.
+## What the sources actually establish
 
-## What is fact, inference, and unknown
+| Step | Evidence | Meaning |
+|---|---|---|
+| Burden | DOE’s LEAD tool reports about 6% average energy burden for low-income households and about 2% for other households; some places exceed 30%. | The same bill can take very different shares of household room. |
+| Control | LEAD estimates 52% of low-income households are renters and allows comparison by building, fuel, and tenure. | Many people paying the bill may not control insulation, windows, appliances, or heating equipment. |
+| Sacrifice | EIA’s 2024 survey records homes reducing or forgoing food or medicine to pay energy costs, along with unhealthy temperatures and service notices. | The cost can reach needs beyond the utility account. |
+| New measure | EIA’s 2024 RECS covers an estimated 132.5 million primary homes from nearly 17,000 responding households, with some consumption and spending tables still pending. | Exposure is becoming easier to locate, while the full household tradeoff remains open. |
+| Related risk | GAO reports that insurance premiums and availability changed in some disaster-prone areas. | The same building can carry energy and protection costs. |
 
-**Fact:** Average energy burden is higher for low-income households. Many low-income households rent. EIA has new housing and energy-insecurity data, with some spending tables still to come.
+Sources: [DOE LEAD](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool), [EIA 2024 RECS](https://www.eia.gov/consumption/residential/), [EIA energy insecurity data](https://www.eia.gov/consumption/residential/data/2024/), and [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867).
 
-**Inference:** Energy burden can be sticky when the household pays for an inefficient home but cannot change it. The problem is partly a control problem, not only a price problem.
+## The deeper finding
 
-**Unknown:** We do not know which households reduce comfort, food, care, debt payments or work. We do not know how often high burden leads to arrears, shutoff, borrowing, moving or illness.
+A high energy bill is partly a control problem. The household may be able to change behavior for a day, but not the building for a year. That makes hardship sticky: the same inefficient home can create another bill, another sacrifice, and another need for emergency help.
 
-## What would change the finding
+## What remains unproven
 
-- Same-household data joining energy bills, housing tenure, building condition and later choices.
-- Utility arrears, shutoff and payment-plan records by income and place.
-- A before-and-after test of weatherization or equipment upgrades.
-- Results by renter or owner, fuel, race, disability, age, climate and local insurance risk.
-- Evidence that high burden does not persist when the payer can control the home improvement.
+The current sources do not follow the same household from bill pressure to the first sacrifice, arrears, shutoff, borrowing, illness, missed work, move, or repair. They do not show whether bill help, weatherization, rent rules, or utility allowances protect long-term stability best. The EIA categories can overlap and should not be added as separate households.
 
 ## Next test
 
-Use LEAD and 2024 RECS to define exposure groups, then add utility disconnection or assistance records. Compare renters and owners with similar income and climate. Keep burden, insecurity, arrears and later household choices separate.
+Use LEAD and 2024 RECS to define exposure groups, then add utility bills, arrears, shutoff and assistance records. Compare renters and owners with similar income and climate. Link the home condition to food, medicine, temperature, health, work, rent, credit, and later housing stability.
 
 ## Reading rule
 
