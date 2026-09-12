@@ -164,6 +164,8 @@ Follow a spending number into the cash and credit room beneath it, then ask what
 
 Still missing: The current study and food packet do not identify the same purchase, household constraint and later food outcome.
 
+[Read the complete connected memo](../site/us-low-liquidity-consumption-path-001.html)
+
 ### When a work benefit changes the household balance sheet
 
 Follow automatic saving from the workplace into the household's account and debt position, then ask whether the job gives people more security or less room today.
