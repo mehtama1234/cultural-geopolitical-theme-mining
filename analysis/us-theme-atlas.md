@@ -956,6 +956,8 @@ Follow selected price news into inflation expectations and explanations of the e
 
 Still missing: The news and belief studies do not show the same household's full media exposure, price experience and later action.
 
+[Read the complete connected memo](../site/us-news-selection-inflation-path-001.html)
+
 ### When future public debt enters the household budget
 
 Follow news about future debt into inflation and spending expectations, then ask whether the household changes its budget or political judgment.
