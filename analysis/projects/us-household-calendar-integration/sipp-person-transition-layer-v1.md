@@ -2,7 +2,7 @@
 
 **Run date:** 2026-09-12  
 **Source:** 2025 SIPP public-use pipe file, 2024 reference year  
-**Method:** [analyze_sipp_person_transitions.py](../../../scripts/analyze_sipp_person_transitions.py) on the 34-field full extraction  
+**Method:** [analyze_sipp_person_transitions.py](../../../scripts/analyze_sipp_person_transitions.py) on the 35-field full extraction
 **Person-month key:** `SSUID` + `SHHADID` + `PNUM` + `MONTHCODE`  
 **Weight:** `WPFINWGT` from the first month of each adjacent pair
 

@@ -2,7 +2,7 @@
 
 **Run date:** 2026-09-12  
 **Source:** 2025 SIPP public-use pipe file, 2024 reference year  
-**Method:** [analyze_sipp_population_layer.py](../../../scripts/analyze_sipp_population_layer.py), grouped into monthly `THINCPOV` income-to-poverty-ratio bands, using `WPFINWGT`  
+**Method:** [analyze_sipp_population_layer.py](../../../scripts/analyze_sipp_population_layer.py) on the full v4 extraction, grouped into monthly `THINCPOV` income-to-poverty-ratio bands, using `WPFINWGT`
 **Unit:** person record by reference month; rates below are verified code `1` among nonblank selected records  
 **Labels and definitions:** [2025 SIPP Data Dictionary](https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf)
 

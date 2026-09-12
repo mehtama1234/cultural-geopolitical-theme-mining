@@ -1,7 +1,7 @@
 # SIPP weighted descriptive scan v2
 
 **Run date:** 2026-09-12  
-**Input:** full v2 slice from [SIPP acquisition v1](sipp-bounded-acquisition-v1.md)  
+**Input:** full v4 slice from [SIPP acquisition v1](sipp-bounded-acquisition-v1.md)
 **Analysis:** [analyze_sipp_weighted_codes.py](../../../scripts/analyze_sipp_weighted_codes.py)  
 **Unit:** person record by reference month  
 **Weight:** `WPFINWGT`, final person weight

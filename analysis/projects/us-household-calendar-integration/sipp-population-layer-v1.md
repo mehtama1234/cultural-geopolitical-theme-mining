@@ -2,7 +2,7 @@
 
 **Run date:** 2026-09-12  
 **Source:** 2025 SIPP public-use pipe file, 2024 reference year  
-**Input slice:** full selected v2 extraction; 379,215 person-record/month rows, 378,291 positive-weight rows  
+**Input slice:** full selected v4 extraction; 379,215 person-record/month rows, 378,291 positive-weight rows
 **Method:** [analyze_sipp_population_layer.py](../../../scripts/analyze_sipp_population_layer.py) using `WPFINWGT`  
 **Labels and universes:** [2025 SIPP Data Dictionary](https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf)
 

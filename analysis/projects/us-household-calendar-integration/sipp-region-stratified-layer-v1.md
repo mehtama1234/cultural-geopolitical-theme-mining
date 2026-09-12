@@ -2,7 +2,7 @@
 
 **Run date:** 2026-09-12  
 **Source:** 2025 SIPP public-use pipe file, 2024 reference year  
-**Method:** [analyze_sipp_population_layer.py](../../../scripts/analyze_sipp_population_layer.py), grouped by `TEHC_REGION`, using `WPFINWGT`  
+**Method:** [analyze_sipp_population_layer.py](../../../scripts/analyze_sipp_population_layer.py) on the full v4 extraction, grouped by `TEHC_REGION`, using `WPFINWGT`
 **Unit:** person record by reference month; rates are verified code `1` among nonblank selected records  
 **Region labels:** official SIPP Data Dictionary values: Northeast, Midwest, South, West
 
