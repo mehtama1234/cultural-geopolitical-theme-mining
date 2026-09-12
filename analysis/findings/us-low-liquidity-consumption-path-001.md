@@ -26,6 +26,10 @@ income and liquid cash → ability to wait, switch, borrow, or absorb a shock
 
 Cash is therefore not just a smaller version of income. It is the time a person can buy before a decision becomes urgent.
 
+The reserve also changes bargaining power. A person who can wait can ask a landlord for a repair, compare a mechanic, refuse a high-cost loan, or hold out for a better job. A person with no cash may accept the first offer because delay itself has a price. The purchase record can then look like a preference for the expensive option when it was a payment for speed and certainty.
+
+The household may repair one part of its budget by damaging another. Borrowing keeps the car running but adds a payment. Cutting food preserves rent but may harm health. Delaying care protects cash but can increase the later bill. These choices are not visible in a single spending category. The “consumer” is managing a connected set of deadlines, and the first one to fail can determine the rest.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning | Limit |
@@ -46,6 +50,10 @@ The deeper finding is that low liquidity changes the meaning of both resilience 
 
 This connects directly to bank fees, subscriptions, student debt, and transport. A failed payment, a forgotten renewal, a loan bill, or a vehicle repair can each consume the same small buffer. The household may appear to have separate problems, but the common resource is the cash and time available before the next deadline.
 
+This is why average spending can misread a recovery. A household may spend more because it is replacing lost goods, paying higher prices, or borrowing to keep basic access. Another may spend less because it has exhausted savings and stopped buying what it needs. Both can appear in a strong or weak consumer number. The better measure asks whether spending left the household with more or less ability to respond next month.
+
+The political link is about visible versus hidden loss. A higher checkout bill is easy to name. The lost sleep, delayed care, or job risk used to keep the bill paid is harder to report. Public policy may respond to the visible purchase while missing the buffer that is being consumed. A household may then experience relief as too late even when the average spending measure improves.
+
 ## What remains unproven
 
 The evidence does not yet follow the same households from low cash to a named purchase, the reason for that purchase, and its later effect on health, work, housing, food, or debt. It does not show which supports restore room most reliably, or how the pattern differs by age, race, disability, family structure, and place. It does not show how much of a household’s spending was defensive, delayed, financed, or impossible to avoid.
@@ -53,6 +61,8 @@ The evidence does not yet follow the same households from low cash to a named pu
 ## Next test
 
 Follow consumers for one year and join transactions to item, need, price, cash, credit, health, work, housing, food, debt, and later security. Mark whether a purchase was delayed, substituted, financed, or made under a deadline. Record the loss avoided as well as the cost incurred. Compare households with similar income but different liquid savings, and record the next bill, missed need, or recovery after each shock.
+
+Use weekly diaries linked to bank and transaction records. Ask what the household wanted to do, what it could afford, what it chose, and which alternative was unavailable. Compare a matched cash grant, low-cost credit, repair support, and no support around common shocks. Measure purchase completion, price, time, debt, missed needs, health, work, and remaining cash. The key result is restored room to choose, not simply more or less spending.
 
 ## Reading rule
 
