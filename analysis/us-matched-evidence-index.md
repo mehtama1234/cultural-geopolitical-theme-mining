@@ -564,7 +564,17 @@ An annual energy average can hide the month that breaks a household. EIA shows t
 
 [Read the HTML page](../site/us-utility-bill-timing-rate-design-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-bill-timing-rate-design-matched-evidence-001.md)
 
-### 57. The cost of entering utility service can become a credit gate
+### 57. An old utility balance can make the next move more expensive
+
+**Theme:** Energy / cost / finance / housing
+**Route:** old utility debt → collections or utility record → next deposit or connection
+**Still open:** whether the old balance changes the next move
+
+An unpaid utility balance can leave the old address and enter the household's next move in two ways. It may be sent to collections and appear on the major credit reports. It may also be held in a specialty utility record that a member company uses when deciding whether to require a deposit. FTC guidance says a new utility application can involve a review of past utility payment history and that a payment arrangement may require the household to pay both current and old bills. The deeper finding is that a basic service debt can become a moving cost and a service-access cost, even though the original energy was used at a different address.
+
+[Read the HTML page](../site/us-utility-debt-mobility-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-debt-mobility-matched-evidence-001.md)
+
+### 58. The cost of entering utility service can become a credit gate
 
 **Theme:** Energy / cost / finance / voice
 **Route:** new account or past debt → deposit or credit screen → service access
@@ -574,7 +584,7 @@ Utility service can carry a credit test before the first bill. CFPB says a utili
 
 [Read the HTML page](../site/us-utility-entry-cost-credit-screening-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-entry-cost-credit-screening-matched-evidence-001.md)
 
-### 58. A smoother bill can move the problem rather than end it
+### 59. A smoother bill can move the problem rather than end it
 
 **Theme:** Energy / cost / finance / voice
 **Route:** payment plan → smoother bill → true-up or stable service
@@ -584,7 +594,7 @@ Budget billing can make a seasonal utility bill easier to plan because the custo
 
 [Read the HTML page](../site/us-utility-payment-plans-budget-billing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-payment-plans-budget-billing-matched-evidence-001.md)
 
-### 59. A car repair can protect access while taking away other room
+### 60. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -594,7 +604,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 60. Efficiency savings are real but smaller than the promise
+### 61. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health
