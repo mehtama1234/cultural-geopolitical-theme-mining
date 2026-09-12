@@ -121,6 +121,8 @@ The initial field definition is in [the versioned JSON schema](../manifests/us-h
 
 The first public-data boundary pass is in the [source search record](projects/us-household-calendar-integration/source-search-record-v1.md). It shows which sources can support the study and which links still require a consent-based calendar panel.
 
+The source-to-question work is in the [working matrix](projects/us-household-calendar-integration/source-to-question-matrix-v1.md). It sets the first small extraction pass and prevents separate surveys from being treated as one household record.
+
 The starting claims and their current limits are recorded in [the integration claims ledger](projects/us-household-calendar-integration/claims-ledger-v1.md).
 
 The draft participant instrument is [the household-calendar questionnaire](templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md). It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.

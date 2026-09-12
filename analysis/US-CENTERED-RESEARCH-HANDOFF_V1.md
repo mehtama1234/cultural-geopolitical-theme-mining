@@ -102,4 +102,6 @@ The first concrete design for that next study is [the household-calendar integra
 
 The first source boundary pass is recorded in the [household-calendar source search record](projects/us-household-calendar-integration/source-search-record-v1.md). It assigns roles to SIPP, CE, ATUS, BEA, SHED, MEPS, and RECS, and states where a new consent-based calendar panel is still needed.
 
+The next working artifact is the [source-to-question matrix](projects/us-household-calendar-integration/source-to-question-matrix-v1.md). It maps each claim to direct evidence, useful proxies, missing fields, and a small first extraction pass.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.

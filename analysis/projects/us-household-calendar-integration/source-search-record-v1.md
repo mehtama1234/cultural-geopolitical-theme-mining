@@ -22,6 +22,9 @@ It does not give us a full daily spending diary, a complete record of every bill
 | [Federal Reserve SHED](https://www.federalreserve.gov/publications/shed.htm) | Financial room, credit, savings, housing, care, hardship, work, and views of the economy | Mostly annual; some respondents can be linked across survey years | Adult respondent and household context | It is not a monthly event log; question wording and modules change across years |
 | [MEPS Household Component](https://meps.ahrq.gov/survey_comp/household.jsp) | Health conditions, care use, charges, payments, insurance, income, and employment | Panel-based household survey with repeated collection | Person, event, condition, job, household | It is strongest for health costs, not the full chain of housing, transport, bills, and political judgment |
 | [EIA RECS](https://www.eia.gov/consumption/residential/about.php) | Home type, energy equipment, energy use, energy cost, and energy insecurity | Periodic survey; supplier data support energy use and cost estimates | Housing unit and household characteristics | It is not a recurring panel; it cannot show whether the same household recovered the next month |
+| [FHWA National Household Travel Survey](https://www.fhwa.dot.gov/policyinformation/nhts.cfm) | Trip purpose, mode, travel time, vehicle access, and daily travel | Periodic; the core diary covers one 24-hour period | Household, person, vehicle, and trip | It does not show monthly fare burden, rideshare dependence, missed work, or the outcome after a service failure |
+| [USDA CPS Food Security Supplement](https://www.ers.usda.gov/data-products/food-security-in-the-united-states) | Food access, food spending, and food and nutrition assistance | Annual supplement; includes a 30-day and prior-year view | Household | It does not show the exact bill, payday, or tradeoff that preceded the food problem |
+| [BLS Current Population Survey](https://www.bls.gov/cps/cps_over.htm) | Monthly employment, unemployment, hours, earnings, and labor-force status | Monthly; rotating household sample | Person and household | It does not follow every household for a full year in a single simple file, and it does not record bills, care, or remedies |
 
 ## What can be joined safely
 
@@ -30,7 +33,9 @@ It does not give us a full daily spending diary, a complete record of every bill
 3. **Use ATUS to price time.** A cheaper route or service is not truly cheaper if it takes more unpaid care, travel, or work time. ATUS can set population patterns; our calendar can record the household’s actual tradeoff.
 4. **Use SHED to test financial room and public interpretation.** Its repeated respondent IDs can support some year-to-year analysis, but not a monthly chain from a bill to a later opinion.
 5. **Use MEPS and RECS as specialist checks.** They can make health and energy parts of the calendar more precise without being mistaken for the main panel.
-6. **Use BEA as the outside economic clock.** Compare household reports with national spending and price movement, while keeping the difference between a macro measure and an out-of-pocket household measure visible.
+6. **Use NHTS for the transport baseline.** It can separate a necessary trip from an optional trip, and show how mode and travel time differ by place and household type. It cannot tell us what the trip cost the household later.
+7. **Use CPS and CPS-FSS for labor and food checks.** They provide monthly labor context and annual food-security detail, but they do not replace a dated event record.
+8. **Use BEA as the outside economic clock.** Compare household reports with national spending and price movement, while keeping the difference between a macro measure and an out-of-pocket household measure visible.
 
 ## The key boundary
 
@@ -51,7 +56,7 @@ The last two lines are where the deeper work is. Public survey data can show tha
 
 ## Initial gaps to fill in the next source pass
 
-- **Transport:** find a public source that joins trip purpose, fare, travel time, vehicle access, missed work, and rideshare use at household level.
+- **Transport:** NHTS covers purpose, mode, time, and vehicle access, but the public gap remains fare, rideshare choice, missed work, and next-month recovery in the same household.
 - **Bills and service failure:** find public utility, eviction, debt, and complaint records with dates and outcomes that can be compared by place.
 - **Care and work:** separate paid care costs from unpaid care time, schedule control, and lost work in the same event.
 - **Politics:** connect material pressure to blame, trust, policy knowledge, and action only where the source measures the steps in between.
@@ -68,8 +73,10 @@ The last two lines are where the deeper work is. Public survey data can show tha
 | 2026-09-12 | Financial room, credit, hardship, care, housing, and views | Federal Reserve SHED | Annual perception and financial-room check |
 | 2026-09-12 | Health cost and access events | AHRQ MEPS | Health-cost specialist layer |
 | 2026-09-12 | Home energy, energy cost, and energy insecurity | EIA RECS | Energy specialist layer; periodic, not longitudinal |
+| 2026-09-12 | Trip purpose, mode, travel time, and vehicle access | FHWA NHTS | Transport baseline; not a monthly cost-and-recovery panel |
+| 2026-09-12 | Food access, food spending, and food assistance | USDA CPS-FSS | Annual outcome check; not a dated monthly event record |
+| 2026-09-12 | Monthly work and labor-force change | BLS CPS | Labor context; rotating sample and limited household continuity |
 
 ## Working decision
 
 Do not begin by downloading every file. First build a source-to-question matrix, then pull one test extract from SIPP, CE, ATUS, SHED, MEPS, RECS, and BEA. The first analysis should ask which links are truly observable in public data and which require our own calendar panel. That result should shape the field form before any broad collection effort.
-
