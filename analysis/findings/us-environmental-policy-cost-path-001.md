@@ -6,11 +6,15 @@ An energy policy is often judged before anyone can see its full result. A househ
 
 The important point is not simply that people misunderstand environmental policy. They are trying to price a risk with limited information. A market tool may have a lower average cost, but it can sound like a new charge. A standard may sound more direct, even when the cost is hidden in equipment, prices, jobs, or future taxes. If public design ignores this first household calculation, the policy may be rejected before its pollution or health effects can be judged.
 
+Suppose a household hears “this rule could add $20 a month.” That number may become the whole policy in the household’s mind, even if a rebate later returns $15 or the rule lowers energy use after an equipment change. Another household may never see a power-bill increase because the cost appears in rent or a higher appliance price. The two families can face similar total costs while seeing different bills and having different control over the response.
+
 ## Follow one policy through a household
 
 Suppose a renter hears that a clean-energy rule will increase the monthly bill. The renter cannot choose the building's heating system, cannot claim a home improvement credit, and has little cash for a bad month. A newspaper says the rule will create jobs. The utility says rates will be stable. Neither statement answers the renter's question: “What will I pay next month, and what can I do if it goes up?”
 
 Now compare two policies. One shows a visible charge on the bill. The other changes appliance standards and building costs over time. The first may be cheaper in total but easier to oppose because the cost has a name. The second may be accepted while still shifting costs through rent or product prices. The public choice is then shaped by visibility, control, and trust as much as by engineering.
+
+The sequence also differs by household role. An owner may receive a rebate for insulation and lower the future bill. A renter may pay a higher rent after a building upgrade but receive no direct rebate and have no authority to choose the work. A driver may face a vehicle cost while an office worker sees little change. “Consumer cost” is therefore a distribution question, not a single number.
 
 ```text
 policy design → expected household bill and sense of control → support or opposition
@@ -33,13 +37,17 @@ Source: [NBER Working Paper 35073](https://www.nber.org/papers/w35073).
 
 The political life of an energy policy begins with a household price story. A policy can be technically strong and still fail if people cannot tell whether it will cost them money, give them a usable benefit, or leave them with any control. The key divide is not expert versus ignorant public. It is visible cost versus hidden cost, immediate risk versus distant gain, and households with a way to adapt versus households trapped by their building or cash position.
 
+This creates a design test. A policy is easier to judge when the household can see the expected bill, the timing of the change, the available offset, and who controls access to it. But clearer information cannot repair a benefit that renters cannot claim or a cost a low-cash family cannot wait to absorb. Better explanation and fair access are separate requirements.
+
+The political connection is strongest when a policy changes the household’s sense of control. People may accept a cost they can plan for and reject a smaller cost they cannot avoid or understand. The current study supports this way of asking the question; it does not show which message changes a vote or whether a clear estimate changes long-term support.
+
 ## What remains unproven
 
-The evidence does not show that changing the explanation alone changes support for long. It does not show whether people reject a policy because of the bill, distrust the institution naming the bill, oppose the distribution of costs, or prefer a different level of government control. It also does not show whether a lower-cost policy produces lower bills for renters, low-income households, or people in inefficient homes.
+The evidence does not show that changing the explanation alone changes support for long. It does not show whether people reject a policy because of the bill, distrust the institution naming the bill, oppose the distribution of costs, or prefer a different level of government control. It also does not show whether a lower-cost policy produces lower bills for renters, low-income households, or people in inefficient homes. It does not show how often cost appears in rent, product prices, taxes, or wages instead of the utility bill.
 
 ## Next test
 
-Follow households before and after a real energy-policy change for two years. Record the stated expected bill, actual bill, energy use, rebate access, rent, home condition, weather, income, health need, and utility. Then measure pollution, trust, perceived fairness, and policy support. Show some households a clear bill-and-rebate estimate and others the usual policy description. The test should reveal whether better information changes judgment, or whether the deeper issue is who has the power to avoid the cost.
+Follow households before and after a real energy-policy change for two years. Record the stated expected bill, actual bill, energy use, rebate access, rent, home condition, weather, income, health need, and utility. Then measure pollution, trust, perceived fairness, and policy support. Show some households a clear bill-and-rebate estimate and others the usual policy description. Separate owners and renters, and record where the cost appears when it does not reach the utility bill. The test should reveal whether better information changes judgment, or whether the deeper issue is who has the power to avoid the cost.
 
 ## Reading rule
 
