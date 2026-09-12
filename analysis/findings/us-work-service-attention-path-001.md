@@ -8,6 +8,8 @@ These are related studies, not one proven chain. They concern different firms, w
 
 The practical issue is not whether AI is “good” or “bad” for service. It is whether the system gives the worker and customer more room to solve the problem, or gives the company more room to process, retain, and measure the interaction without changing the result.
 
+Imagine two contacts about the same missing $200 refund. The first worker uses an AI suggestion and sends a quick, polite answer. The customer still has to contact the firm again because no one with payment authority acted. In another case, the worker uses the same tool to find the old order and issue the refund in one step. Both interactions are fast; only one solves the problem. The difference is authority and follow-through, not wording alone.
+
 ## What the sources show
 
 ### 1. Worker help can raise the amount of work handled
@@ -42,9 +44,13 @@ The sources point to a useful distinction between handling more contact and givi
 
 The evidence does not show that customer-service AI causes users to stay in companion apps, or that either setting changes political trust. It does show why speed, resolution, satisfaction and freedom to leave should be measured separately.
 
+The worker’s control is part of the customer outcome. A tool that suggests an answer but lets the worker inspect the record and override it may expand judgment. A tool that measures speed, limits overrides, and penalizes escalation may turn the worker into a faster gate. The same software can therefore give more help or remove discretion depending on the rules around it.
+
 The customer-facing result can split in four ways. A worker may answer faster, but the answer may still be wrong. A customer may sound more satisfied, but the charge or decision may not change. A case may be marked resolved while the customer opens another contact. A user may stay longer because the product helped, because it delayed an exit, or because no human route was available. These outcomes look similar in a contact count and very different in a household's experience.
 
 There is also a power difference between ordinary and disputed cases. A simple question can benefit from a suggested answer. A repeat complaint, billing error, safety issue, or cancellation request needs history, authority, and a route to correction. If the system is tuned for speed or continued use, the cases that need the most human control may receive the least room. That is the point where a work tool becomes a customer-governance tool.
+
+The company can also benefit from a misleading success measure. Fewer minutes per chat can lower cost. More messages can raise engagement. A higher “resolved” flag can improve a dashboard. None proves that the customer got the money, the correction, or a safe exit. The record must keep system efficiency and customer remedy as separate columns.
 
 The distribution question matters too. Workers with more education or task control may get the tool and the ability to correct it. Other workers may be expected to follow a script or absorb more contacts. Customers then experience a service system whose speed is measured more clearly than its fairness, appeal, or final remedy. This is a possible pattern in the sources, not a claim that every AI deployment works this way.
 
@@ -62,4 +68,4 @@ Find one US firm or public agency that reports both automated contact and appeal
 
 ## Reading rule
 
-The three source sections are summaries of separate studies. “The careful connection” is an inference. The missing-data list is a plan for testing it.
+The three source sections are summaries of separate studies. “The careful connection” is an inference. The missing-data list is a plan for testing it. The current evidence also does not establish whether workers with less AI access provide worse service; it only shows that access and control are uneven.
