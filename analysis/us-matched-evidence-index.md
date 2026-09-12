@@ -50,7 +50,7 @@ A bank rule can look equal while its value depends on how much cash a household 
 **Route:** earnings rise → aid changes → real household room
 **Still open:** same-family net resources and work outcome
 
-A raise can increase cash and still leave a household with less usable support.  The reason is that wages are only one side of the account. Food aid, health coverage, child care, transport help, taxes, and reporting time all affect what the family can actually keep. Some programs taper as income rises. Others end at a threshold. A work rule can remove aid without creating more work.  That is why “benefit cliff” should not be used for every program change. A gradual phase-out may leave a family better off while making the next dollar worth less. A hard cutoff can create a sudden loss. A work requirement can reduce participation without increasing employment. The design determines the path.
+A raise can increase cash and still leave a household with less usable support. Wages are only one side of the account. Food aid, health coverage, child care, transport help, taxes, and the time spent proving eligibility also affect what the family can keep.  The design matters. A gradual phase-out may leave a family better off while making the next dollar worth less. A hard cutoff can cause a sudden loss. A work rule can reduce participation without increasing employment. Calling all of these a “benefit cliff” hides the choices the rule creates.
 
 [Read the HTML page](../site/us-benefit-cliff-work-choice-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-benefit-cliff-work-choice-matched-evidence-001.md)
 
@@ -60,7 +60,7 @@ A raise can increase cash and still leave a household with less usable support. 
 **Route:** cash benefit → household room → economic mood
 **Still open:** trust, turnout, and voting
 
-The 2021 Child Tax Credit changed more than a tax form. Research links the monthly payment to household spending, rent or mortgage room, living arrangements, and consumer sentiment. The strongest political conclusion is still limited: families judged their economic situation differently, but we do not yet know whether that changed trust, party support, turnout, or voting.
+The 2021 Child Tax Credit changed more than a tax form. Monthly payments gave some families room to buy food, pay housing costs, and avoid an immediate shortfall. When the payments ended, household sentiment fell, especially among lower-income families with several children.  That is a useful connection, but it is not yet a voting result. A family can feel worse without changing its party choice. A person can blame government without turning out. The sound path is material change first, economic mood second, and political action only when measured directly.
 
 [Read the HTML page](../site/us-cash-policy-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-cash-policy-matched-evidence-001.md)
 
@@ -520,7 +520,7 @@ Energy insecurity is not simply an unpaid bill. It is the moment a household has
 **Route:** need → rule and access → benefit kept or lost
 **Still open:** same-household food, work, debt, health, and trust effects
 
-US safety-net access depends on more than eligibility. Work rules can remove people from SNAP without increasing their employment, and closing an enrollment office can reduce participation even where need remains.  The deeper finding is that help has a price in time, travel, paperwork, and proof. A person leaving the program may have found work, lost the benefit because the process was too hard, or both. The current evidence does not let us treat exit as progress.
+Eligibility is not the same as access. A household can qualify for food or health help and still lose it because a form was late, an office closed, a notice was missed, or the proof demanded more time than the family had. A smaller caseload can therefore mean higher earnings, a successful exit, or an administrative failure.  The key question is what happened after the benefit ended. Did work rise? Did food security improve? Did the household borrow, skip meals, lose care, or return later? Exit is an event to explain, not a success label.
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
