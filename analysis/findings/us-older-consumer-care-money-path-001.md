@@ -14,6 +14,10 @@ An older customer living alone buys a phone with an emergency feature. The produ
 
 Another customer buys the same phone for travel and wants no support plan. A third customer needs help but has no nearby family. The product's price is not just the listed price. It includes setup, transport, calls, privacy risk, time, and the chance of being unable to undo a choice.
 
+The support path can become a hidden subscription. A customer may accept a monitoring plan because the device is difficult to use without it, then keep paying because canceling would remove the only route to help. A family member may provide the support instead, but the cost is then paid in unpaid care and travel. The same product can therefore make money from the customer's need, the family's time, or both. The contract needs to show which one it relies on.
+
+A mistake has a different size depending on the customer's margin. An unwanted app charge may be annoying for one person and remove money needed for medicine for another. A confusing renewal may be corrected by a relative with time and internet access, but remain in place for someone living alone. Safe design has to limit the damage of an error and make correction possible without requiring a caregiver.
+
 ```text
 age, health, wealth, mobility, and living situation
 → actual need and safe ability to pay
@@ -44,6 +48,10 @@ The money path matters too. NBER's finding on lower spending warns us not to rea
 
 The strongest design test is not whether a product looks simple. It is whether different customers can complete the task, understand the price, correct an error, use support without surrendering control, and leave without losing a vital service.
 
+Independence should not mean doing everything alone. A person may want a child or caregiver to help with a purchase while keeping the final say and privacy. Good design makes that permission clear and reversible. Bad design treats family access as automatic, or forces the customer to choose between privacy and usable support. The boundary between assistance and control is part of the product's safety.
+
+This is why age-based marketing can fail in opposite directions. It can ignore a capable older customer who wants speed and choice, or label a person as vulnerable and sell protection that is expensive, unnecessary, or hard to cancel. Need-based design is better only if it measures real needs without turning health, disability, or family information into a new source of targeting and price pressure.
+
 ## Four views of the same product
 
 **Customer:** Can the person understand the choice, use it without avoidable help, ask questions, cancel, and keep control over data and money?
@@ -61,6 +69,8 @@ The sources do not show whether need-based targeting improves outcomes without r
 ## Next test
 
 Follow older customers for two years through one product or care decision. Record health, mobility, living arrangement, money, price, setup time, digital access, family help, care hours, complaints, refunds, renewals, fraud attempts, and the customer's ability to use or refuse the service. Compare age-based targeting with design based on actual need.
+
+Run usability tests with three paths: independent use, invited caregiver help, and no available helper. Give participants the same product with a clear price, an unclear renewal, and a simple cancellation route in random order. Measure completion, errors, money lost, time spent, privacy given up, and whether the customer could reverse the choice. Follow the customer after six and twelve months to see whether support preserved independence or created a new dependence.
 
 ## Reading rule
 
