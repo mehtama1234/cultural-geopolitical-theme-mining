@@ -1,55 +1,54 @@
 # The data can show groups, but not yet the same family over time
 
-## Short answer
+## The argument
 
-The BLS Consumer Expenditure Survey has the pieces for a better inflation story: spending by income quintile, spending by housing tenure, price categories, and public-use microdata. It also warns us how to read the pieces: the tables are population means and some estimates are suppressed when their relative standard error is high.
+The Consumer Expenditure Survey has pieces for a better inflation story: spending by income quintile, spending by housing tenure, price categories, and public-use microdata. It also tells us where caution is needed: published tables are population means, and some estimates are suppressed when their uncertainty is high.
 
-This is enough to build a careful group comparison. It is not yet enough to say that a particular renter in a particular income group faced a measured basket, lost a specific option, and then changed a vote. The dimensions exist, but they must be joined without pretending that separate averages are a panel.
+This is enough to compare groups. It is not enough to say that a particular renter in a particular income group faced a measured basket, lost a specific option, and then changed a vote. Separate averages are not a panel.
 
-## What the matched evidence shows
+The deeper finding is that the hard problem is not finding more categories. It is joining the categories without making a group average pretend to be a family’s lived sequence. The research must show what was paid, what could not be replaced, and what happened afterward.
 
-| Data piece | What it can answer | What it cannot answer alone |
-|---|---|---|
-| Income-quintile table | How average spending and shares differ across five income groups. | How a renter's basket differs from an owner in the same income group. |
-| Housing-tenure table | How average spending and shares differ for renters and owners. | How low-income renters differ from high-income renters without a cross-tab or microdata. |
-| Two-year cross-tabs | How some pairs of characteristics can be compared over two years and selected regions. | A full low-income-renter product basket in every place. |
-| Public-use microdata | Expenditure, income, and demographic responses for individual consumer units, subject to survey design and disclosure limits. | A true panel that follows the same consumer unit through all years. |
-| RSE and suppression rules | Which published estimates are too uncertain for release. | A reason to fill missing cells with guesses. |
+## Follow four households
 
-Sources: [BLS CE tables](https://www.bls.gov/cex/tables.htm), [BLS CE tables guide](https://www.bls.gov/cex/tables-getting-started-guide.htm), and [BLS CE public-use microdata](https://www.bls.gov/cex/pumd.htm).
+Suppose the tables show spending for renters and owners and for low- and high-income groups. That can reveal broad differences. It cannot tell us whether a low-income renter paid more for transport because of a long commute, whether a higher food bill reflects better quality, or whether a household changed its basket after a job loss.
 
-## The connection
+The missing bridge is time. A cross-section shows who spent what during a period. A household timeline shows the shock, the purchase, the substitution, the debt, and the later recovery.
 
 ```text
 income group + housing tenure
   -> average spending pattern
-  -> price categories and real wage
+  -> price categories and real pay
   -> possible household pressure
-  -> choice or trust
+  -> substitution, debt, trust, or political response
 ```
 
-The first arrow is a group comparison. The later arrows are a test, not a fact. The most important missing bridge is the same consumer unit's income, tenure, purchases, and later response.
+Only the first two arrows are directly supplied by the basic tables. The rest require linked data and careful testing.
 
-## Four views
+## What the sources actually establish
 
-**Household:** Start with income and tenure, then ask which bills and choices remain hidden.
+| Data piece | What it can answer | What it cannot answer alone |
+|---|---|---|
+| Income-quintile table | How average spending and shares differ across five income groups. | How one renter’s basket differs from one owner’s. |
+| Housing-tenure table | How average spending and shares differ for renters and owners. | How low-income renters differ from high-income renters without a cross-tab or microdata. |
+| Two-year cross-tabs | How some pairs of characteristics compare across two years and selected regions. | A full low-income-renter product basket in every place. |
+| Public-use microdata | Expenditure, income, and demographic responses for consumer units, subject to survey design and disclosure limits. | A true panel following the same unit through all years. |
+| RSE and suppression rules | Which published estimates are too uncertain for release. | A reason to fill missing cells with guesses. |
 
-**Customer:** Add product, size, quality, and substitute to the group average.
+Sources: [BLS CE tables](https://www.bls.gov/cex/tables.htm), [BLS CE tables guide](https://www.bls.gov/cex/tables-getting-started-guide.htm), and [BLS CE public-use microdata](https://www.bls.gov/cex/pumd.htm).
 
-**Money and finance:** Report means, shares, standard errors, and suppressed estimates instead of a false precise number.
+## The deeper finding
 
-**Public power:** Do not turn a group average into a claim that every person felt or voted the same way.
+An average is useful when it answers a bounded question. It becomes misleading when it is used to narrate a family. A group can spend more on transport because it travels farther, or because it owns a newer car. Renters can spend less on a category because they are poorer, or because the landlord pays it. The table does not settle the cause.
 
-## What would change the finding
+This matters for politics and customer research. If we want to connect spending to trust or voting, we must preserve the distance between observed spending, inferred pressure, and later response. A clean table is not permission to invent the missing household story.
 
-- A permitted 2024 table export or microdata download with a reproducible checksum.
-- A field dictionary mapping income, tenure, rent, food, transport, health, debt, and savings.
-- Weighted estimates with standard errors for low-income renters and comparable owners.
-- Repeated outcome data that can test choice, trust, and voting after the spending measure.
+## What remains unknown
+
+The public tables do not show the same consumer unit’s income, tenure, purchases, debt, savings, substitutions, stress, trust, and vote over time. They also do not provide every cross-tab needed for low-income renters by place and product.
 
 ## Next test
 
-Obtain the permitted BLS files, audit their fields, and produce one table with four groups: low-income renter, higher-income renter, low-income owner, and higher-income owner. Mark every cell as observed, estimated, suppressed, or not available.
+Obtain permitted BLS files and produce one reproducible table for low-income renters, higher-income renters, low-income owners, and higher-income owners. Map income, tenure, rent, food, transport, health, debt, and savings. Mark every cell as observed, estimated, suppressed, or unavailable.
 
 ## Reading rule
 

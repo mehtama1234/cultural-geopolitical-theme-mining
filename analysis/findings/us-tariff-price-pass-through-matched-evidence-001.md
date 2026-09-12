@@ -1,52 +1,54 @@
-# A tariff reaches the household through a chain, not a single price
+# A tariff reaches the household through a chain, not one price
 
-## Short answer
+## The argument
 
-A tariff does not move straight from a government announcement to one checkout price. There are at least five steps: the rule announced, the duty actually paid, the importer's cost, the firm's price and product choices, and the household's response. Recent US evidence shows that much of the cost reached importers, while retail effects arrived more slowly and households also cut quantities or traded down. The political meaning of that chain is still an open question.
+A tariff does not move straight from a government announcement to one checkout price. There are at least five steps: the rule announced, the duty actually paid, the importer’s cost, the firm’s price and product choices, and the household’s response.
 
-## What the matched evidence shows
+Recent US evidence shows much of the cost reached importers, while retail effects arrived more slowly and unevenly. Firms and households also changed behavior: they shifted suppliers, cut quantities, traded down, or stopped buying. The political meaning of that chain is a separate question.
 
-| Layer | What the evidence says | Do not confuse it with |
-|---|---|---|
-| Announced rate | The public rule can state a rate for a product and country. | The duty paid on every shipment. |
-| Realized duty | Shipment timing, exemptions, trade agreements, and enforcement can change what is paid. | What a shopper paid. |
-| Importer price | NBER finds high pass-through into tariff-inclusive import prices in the episodes studied. | Every retailer adding the same amount. |
-| Retail price | NBER and the Fed find gradual and uneven movement across goods and origins. | A household's full basket. |
-| Household choice | Fed research finds quantity cuts and trading down among worried households. | A later vote or fixed political belief. |
+The deeper finding is that policy can be felt long after it is announced and through a product different from the one first affected. A tariff may show up as a higher retail price, a smaller package, a missing option, a delayed purchase, or a firm’s changed wage or supplier decision.
 
-Sources: [NBER retail-price study](https://www.nber.org/papers/w34496), [NBER incidence study summary](https://www.nber.org/digest/202604/pass-through-us-tariffs), [Federal Reserve retail-price note](https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html), and [Federal Reserve household-spending study](https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm).
+## Follow one product
 
-## The connection
+An imported kitchen item faces a new duty. The importer pays more, but the retailer does not immediately raise the shelf price. The firm may use inventory, accept a lower margin, change the supplier, or wait for demand to reveal what customers will tolerate. Months later the price rises, the package changes, or the item disappears.
+
+The household experiences the final choice, not the border document. That is why the phrase “the tariff raised prices” is incomplete until it names which price and when.
 
 ```text
-trade rule -> border payment -> importer cost -> firm price or product change
-           -> household pays more, buys less, or switches
-           -> economic outlook and public judgment
+trade rule
+  -> duty paid at the border
+  -> importer cost and firm response
+  -> retail price, package, supplier, or product change
+  -> household pays more, buys less, switches, or goes without
+  -> economic outlook and public judgment
 ```
 
-The first four links have direct evidence. The last is still a test. The announcement is easy to date; the household may feel the result months later through a changed price, smaller package, missing product, or weaker choice.
+## What the sources actually establish
 
-## Why the timing matters
+| Layer | Evidence | Do not confuse it with |
+|---|---|---|
+| Announced rate | The public rule states a rate for a product and country. | The duty paid on every shipment. |
+| Realized duty | Shipment timing, exemptions, agreements, and enforcement can change what is paid. | What a shopper paid. |
+| Importer price | NBER finds high pass-through into tariff-inclusive import prices in the episodes studied. | Every retailer adding the same amount. |
+| Retail price | NBER and the Fed find gradual and uneven movement across goods and origins. | A household’s full basket. |
+| Household choice | Fed research finds quantity cuts and trading down among worried households. | A later vote or fixed political belief. |
 
-The Federal Reserve's retail study finds that price pressure built over time rather than appearing as one clean jump. That creates a memory problem: the announcement is easy to date, but the household may feel the result months later. The distance between cause and experience can make public debate less clear.
+Sources: [NBER retail-price study](https://www.nber.org/papers/w34496), [NBER incidence study](https://www.nber.org/digest/202604/pass-through-us-tariffs), [Federal Reserve retail-price note](https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html), and [Federal Reserve household-spending study](https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm).
 
-## Four views
+## The deeper finding
 
-**Household:** Measure the product, quantity, substitute, and month—not just the average tariff.
+Tariff incidence is a distribution story. The importer, retailer, worker, and customer may each carry part of the cost, at different times and in different forms. A firm may protect a price by reducing margin; another may pass it through; a household may protect its budget by reducing quantity and lose quality or convenience instead.
 
-**Customer:** Track a higher price, cheaper version, smaller package, or no purchase.
+The delay also creates a political memory problem. The announcement is easy to date. The household may feel the result months later through a changed basket. People can know that prices rose without knowing which policy caused a particular change, so a political claim requires evidence about knowledge and blame, not just price movement.
 
-**Money and finance:** Keep the announced rate, duty, import price, retail price, and household burden separate.
+## What remains unknown
 
-**Public power:** Test whether people know the policy and connect it to the price. Do not infer that link from price data alone.
+The sources do not join one product’s tariff exposure to one household’s purchase, substitute, quality, income, and later political view. They do not show how firms divide the cost among margin, wages, suppliers, and customers in every sector.
 
-## What would change the finding
+## Next test
 
-- A product-level panel joining tariff exposure, origin, price, package size, and quantity.
-- Household results split by income, place, retailer, and essential versus optional goods.
-- Firm records showing changes in margins, suppliers, product choice, and wages.
-- Repeated survey answers linked to purchases and knowledge of the tariff.
+Build a product panel linking tariff exposure, origin, duty, importer price, retail price, package size, quantity, supplier, margin, and household purchase. Split essential and optional goods, income, place, and retailer. Add repeated surveys of policy knowledge and blame.
 
 ## Reading rule
 
-Never write “the tariff raised prices” without naming which price: the announced rate, the duty paid, the import price, the retail price, or the household's own cost.
+Never write “the tariff raised prices” without naming the announced rate, duty paid, import price, retail price, or household cost.
