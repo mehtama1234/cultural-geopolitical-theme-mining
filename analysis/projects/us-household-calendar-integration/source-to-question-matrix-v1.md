@@ -31,7 +31,7 @@ The first pass should be small. It is meant to expose coding and join problems, 
 | 1 | SIPP | One recent public-use year; monthly income, work, household change, program use, child care, food security, and wealth fields | Household-month spine and missingness table | We cannot define a stable household-month key or date meaning |
 | 2 | CE | One recent Interview file and one Diary file; rent, utilities, transport, food, repair, fees, income, and household traits | Spending-category dictionary and recall-window note | Categories or periods cannot be compared without a false precision claim |
 | 3 | ATUS | One recent year; paid work, travel, child care, elder care, household work, and rest | Time-cost reference table | One-day diary cannot support the repeated event claim |
-| 4 | NHTS | 2022 public data; mode, purpose, travel time, vehicle availability, and geography | Transport access baseline | Fare, rideshare, or outcome is absent and must be marked missing |
+| 4 | NHTS | 2022 public data; mode, purpose, travel time, vehicle availability, rideshare questions, and geography | Transport access baseline | Fare, rideshare cost, or outcome is absent and must be marked missing |
 | 5 | SHED | Latest public year plus one prior year where respondent linking is allowed; financial room, hardship, care, housing, credit, and economic views | Annual room-and-judgment check | Annual responses are mistaken for monthly observations |
 | 6 | MEPS | One recent panel; medical events, payments, insurance, access, work, and income | Health-cost event dictionary | Restricted or event-level fields cannot be used in the planned access path |
 | 7 | RECS | Latest public cycle; home type, energy insecurity, energy cost, and supplier-supported use | Energy burden and housing-type cross-check | Periodic estimates are presented as recovery over time |
@@ -55,4 +55,3 @@ The extraction pass should end with three lists:
 - **Panel-required:** links that need dated household events, control, remedy, and next-month outcome.
 
 Only the first list should produce a direct quantitative finding. The second should be written as connected evidence with limits. The third should shape the questionnaire and consent process.
-
