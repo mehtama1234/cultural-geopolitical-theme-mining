@@ -4,6 +4,8 @@
 
 This is the execution queue for the broader societal, cultural, consumer, financial, institutional, and political program. It is not a one-household study. The household calendar is one possible longitudinal instrument; the main work compares populations, places, customers, workers, firms, markets, agencies, and political measures across source families.
 
+Use the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) to assign each arrow to a source, unit, and next test before adding another topic packet.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?

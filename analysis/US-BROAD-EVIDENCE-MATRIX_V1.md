@@ -1,0 +1,44 @@
+# US broad evidence matrix v1
+
+**Purpose:** keep the end-to-end program organized by arrow, source family, unit, and missing evidence. This is a research-control document, not a claim that every row is already connected.
+
+## Matrix
+
+| Bridge | Arrow to measure | Best current source families | Unit and time | Current evidence state | Next required test |
+|---|---|---|---|---|---|
+| Price/payment → household room | price, fee, payment rule → effective cost and substitution | BLS CPI, BLS CE, CE Interview/Diary, company filings, tariff studies | item, consumer unit, product, month | prices, payment design, and pass-through are separately documented | align item/payment timing with spending, income, and substitution without joining unrelated households |
+| Price/payment → household room | income, liquidity, debt → what gets delayed or protected | SIPP, SHED, CPS, CE, NBER credit/debt studies | person, household, consumer unit, month/year | SIPP now supplies weighted material and work diagnostics; no exact bill-to-sacrifice path | compare resource bands and tenure against separate spending or debt outcomes with valid universes |
+| Household room → public judgment | material condition → attribution, trust, policy demand, vote | SHED, Pew, ANES, GSS, NBER inflation/economic-voting studies | respondent, survey wave, county/election | judgment and election associations exist; same-person middle steps are open | measure remembered cost, blamed actor, policy knowledge, trust, action, turnout, and vote separately |
+| Service/platform → recourse | interface/rule → first response, repeat effort, remedy | FTC, CFPB, complaint records, platform studies, company disclosures | complaint, customer case, platform/user, date | service speed, reviews, privacy, and platform control are separate findings | obtain case-level sequence from first contact through remedy or abandonment |
+| Recourse → trust and exit | remedy or failure → trust, switching, non-use | complaint follow-up, surveys, transaction panels, platform retention data | customer/case, service episode, month | trust, reviews, and exit are not yet observed in one service episode | compare resolved and unresolved cases with the same service type and customer constraints |
+| Work rule/tool → control | AI, monitoring, schedule, benefit → autonomy, pay, hours, job choice | CPS, BLS, NBER, HBS, firm filings, workplace surveys | worker, task, job, workplace, month/year | output, job lock, multiple jobs, and employer influence are documented separately | pair tool exposure with control, schedule, pay, health, benefits, and worker voice |
+| Work control → household/local power | work condition → household security, dependence, civic voice | SIPP, CPS, SHED, local labor data, employer concentration measures | person, household, labor market, county | SIPP now supports monthly income/job transitions; local political and firm link remains open | compare similar labor markets by employer dependence and worker alternatives, then measure public expression |
+| Housing/energy/insurance → place | risk, condition, bill → coverage, repair, safety, mobility | RECS, Treasury/FIO, FEMA/NFIP, ACS, FHFA, HMDA, utility records | home, ZIP-year, property, disaster/event | place risk, energy, insurance, and mobility are separately measured | link comparable place/property records through repair, coverage, financing, health, and move outcomes |
+| Place → health and staying | energy/housing/transport constraint → health, care, stay/move | MEPS, RECS, NHTS, ACS, SIPP, disaster and claims records | person/household, home, trip, month/year | NHTS adds mobility context; same-place recovery path remains open | use a lawful property/household panel or carefully matched place design |
+| Public aid/rule → take-up | eligibility, notice, burden → application, receipt, loss | SIPP, CPS-FSS, agency administrative records, program evaluations | person, household, program spell, month | SIPP measures selected assistance exposure; administrative burden and exact take-up path remain limited | add eligibility, notice, application, denial, timing, and receipt sequence |
+| Take-up → interpretation | benefit or loss → perceived fairness, blame, trust | SHED, Pew, ANES/GSS, policy experiments, NBER sentiment studies | respondent, survey wave, policy episode | benefit effects and sentiment are separately documented | measure attribution and policy knowledge before political behavior |
+| Interpretation → political response | belief → contact, organizing, protest, turnout, vote | ANES, voter files where lawful, election returns, survey panels, media exposure | respondent/election, county, campaign/event | county/election and survey judgments exist; same-person political chain is open | pre-register a comparison that separates material exposure, identity, information, blame, and action |
+| Firms/sectors → risk distribution | firm strategy → customer, worker, owner, community, or future-bill exposure | SEC filings, company policies, FTC/DOJ, BLS, BEA, industry data, local records | firm, product, worker, market, place, quarter/year | many firm bridges exist as separate records; the recipient of shifted risk is often unmeasured | record who paid, waited, lost access, or carried the risk after the firm decision |
+| Domestic condition → state/geopolitical effect | affordability, technology, energy, supply, finance → US leverage and dependence | BEA, EIA, IEA, BIS, IMF, Census trade, SEC, industry and infrastructure records | sector, firm, commodity, place, country, year | external constraints and US exposures are available; household-to-state path is open | connect domestic distribution and firm capacity to strategic dependence without claiming a direct household effect |
+
+## Status vocabulary
+
+- **Observed:** the source directly measures the stated unit and outcome.
+- **Reported:** a paper, survey, company, or agency reports an experience or estimate; it may not identify the mechanism.
+- **Compared:** separate sources or groups are aligned for a descriptive comparison.
+- **Inferred:** the project proposes a mechanism not directly measured in the source.
+- **Open:** the relevant arrow or outcome is not yet measured well enough.
+
+Never promote an inferred or open arrow to observed because several adjacent rows point in the same direction.
+
+## Current anchor records
+
+- [Broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md) — the societal, cultural, consumer, political, company, sector, and geopolitical scope.
+- [Broad research pass](US-BROAD-RESEARCH-PASS_V1.md) — the five priority bridges and stop rules.
+- [SIPP population layer](projects/us-household-calendar-integration/sipp-population-layer-v1.md) — material and work population diagnostics.
+- [SIPP person-transition layer](projects/us-household-calendar-integration/sipp-person-transition-layer-v1.md) — valid monthly transition boundary.
+- [Cost, trust, and political response scan](projects/us-cost-trust-politics/paper-scan-v1.md) — current political middle-step gap.
+
+## Recovery rule
+
+When starting a new topic, select one row, identify the source and unit for each adjacent arrow, and write the missing link before collecting more prose. A topic is not end to end until the matrix row has direct evidence, a counterexample, a distribution check, and a next test for every important arrow.

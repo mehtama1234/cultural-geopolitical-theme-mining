@@ -46,6 +46,8 @@ Every link must be labeled as observed, reported, estimated, inferred, compared,
 
 ## What we are pursuing now
 
+The arrow-by-arrow source assignment is maintained in the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md). It is the operational companion to this theme inventory.
+
 The active program is five cross-domain bridges, each requiring population-, market-, firm-, place-, institution-, and political evidence where available:
 
 1. **Price/payment -> household room -> substitution and public judgment.**
