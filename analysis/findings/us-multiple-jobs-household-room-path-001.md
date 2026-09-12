@@ -26,6 +26,10 @@ one job is unavailable, unsuitable, or not flexible enough → several jobs or g
 
 The schedule can also change the household’s ability to recover. A worker who sleeps less may keep both jobs this month but miss training, a medical visit, or a shift later. A worker who turns down a shift may protect health but lose the money needed for rent. These are not just labor-market outcomes; they are choices made under a limited clock.
 
+The jobs can interfere with one another. A late shift can make a worker late for the first job; a schedule change at one employer can erase the only workable handoff for the other. The worker may then lose a bonus, a preferred shift, or a job entirely. The extra job is not just an added line of income. It can change the reliability of the whole work arrangement.
+
+The household may also use unpaid help to make the schedule possible. A partner covers bedtime, a relative watches a child, or someone else drives the worker to a shift. That help lowers the visible cost of the second job while moving the time cost to another person. A worker’s flexibility can therefore depend on family capacity that is not available to everyone.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
@@ -49,6 +53,10 @@ The political meaning is still open. Workers may want more predictable hours, po
 
 The same spending gap can also reflect a strategy. A worker may buy in bulk, use a cheaper store, or postpone a purchase because the second job is temporary. Another may buy less because there is no time to shop or cook. Without time use and food or health outcomes, the spending result cannot tell us which story is true.
 
+This makes “flexibility” a question of who controls the change. A worker may choose when to log in but not know whether enough work will appear. An employer may offer flexible shifts but change them with little notice. A family may have control over a calendar only because another person is absorbing the care. The useful measure is not the number of choices on an app; it is whether the worker can refuse a shift without losing the month.
+
+The public response can follow the cost that becomes visible. A worker may ask for higher pay, predictable scheduling, portable benefits, transit, or child care, while another asks to preserve gig work’s independence. These demands can coexist because workers are solving different shortages. The evidence supports the tradeoff between control and security, not one shared political preference.
+
 ## What remains unproven
 
 The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether lower spending reflected a deliberate choice, less time, or hardship. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability, or how long the arrangement could last. They also do not show the net pay after vehicle, care, tax, and unpaid waiting costs.
@@ -56,6 +64,8 @@ The studies do not follow workers from adding or leaving a job through pay, hour
 ## Next test
 
 Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Record idle time, vehicle cost, taxes, and the reason the job was added. Ask whether the second job added choice or replaced security, and whether the worker still had more room after all costs were paid. Include time spent shopping, cooking, sleeping, and caring so lower spending is not mistaken for lower need.
+
+Build a weekly schedule ledger for the worker and the household. Record promised and actual hours, travel, unpaid waiting, schedule changes, handoffs, family help, sleep, missed appointments, and the bill each shift protected. Measure whether the worker could decline a shift, what happened after doing so, and how quickly the household recovered from a lost job or car problem. This would show whether multiple jobs create a useful bridge or a fragile chain that only works while every part holds.
 
 ## Reading rule
 
