@@ -1,53 +1,46 @@
 # A shutoff rule changes the time a household has to recover
 
-## Short answer
+## The argument
 
-After a missed utility payment, the household does not face one fixed path. A notice, payment arrangement, public assistance referral, weather protection, or medical rule can leave service on while the household catches up. A shutoff can instead add reconnection cost and a new arrears problem. FTC guidance says payment plans may require current bills and old debt together, and missing the plan can lead to disconnection. HHS measures restoration and prevention separately. The deeper finding is that a protection can buy time, but time only becomes recovery if the next payment is possible and the balance does not keep growing.
+After a missed utility payment, the most important question may be how much time the household has before service ends.
 
-## What the matched evidence shows
+A notice, payment arrangement, public-assistance referral, or special protection can keep service on while the household catches up. That time can be the difference between a late bill and an unsafe home. But time is not the same as recovery. If the arrangement requires the household to pay the current bill and the old balance together, the next deadline may be harder than the first.
 
-| Layer | What the evidence says | What remains open |
+If service is shut off, the household may face a reconnection fee, a deposit, a larger balance, and days without heat, cooling, water, or refrigeration. The rule has changed the shape of the debt. It is no longer only money owed; it is also a loss of basic use.
+
+## Follow the deadline
+
+Imagine a household receiving a notice near the end of the month. It can pay part of the old bill, enter a plan, apply for assistance, or miss the deadline. Each route has a clock. Assistance may arrive after the utility's date. A medical or weather protection may require proof. A payment plan may look possible until the next full bill arrives.
+
+The household is not choosing between “pay” and “do not pay.” It is managing several dates at once: notice, paycheck, assistance decision, plan payment, rent, and the next utility bill. A rule that adds time helps only if the dates line up with money actually available.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Notice | Real utilities notify customers before shutoff and offer a repayment path. | Notice length, delivery, understanding, and state differences. |
-| Protection | Payment arrangements may prevent shutoff when the customer pays and follows the plan. | Medical, weather, age, disability, and seasonal protections by state. |
-| Failure | Missing the arrangement can lead to disconnection and fewer future plan options. | Reconnection fee, deposit, time without service, and new balance. |
-| Public help | CFPB points households to LIHEAP and local help; HHS tracks restoration and prevention. | Speed, take-up, and whether help arrives before the deadline. |
-| Household result | EIA counts disconnect notices and unusable heating or cooling equipment. | Whether the rule prevented an unsafe home or only delayed it. |
+| Notice | FTC says real utilities notify customers before shutoff and offer a repayment path. | A customer should have time to respond. |
+| Arrangement | FTC says a plan may prevent shutoff when the customer pays part of the overdue bill and follows the plan. | Protection depends on a payment the household can keep making. |
+| Failure | FTC says missing the plan can lead to disconnection and fewer future plan options. | A failed plan can narrow the next path. |
+| Public help | CFPB points households to LIHEAP and local help; HHS separates restoration from prevention of service loss. | Aid can enter before or after the deadline. |
+| Household result | EIA counts disconnect notices and inability to use heating or cooling equipment. | The final risk is a change in daily life, not only an account status. |
 
-Sources: [FTC utility-service guidance](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters), [FTC shutoff-scam guidance](https://consumer.ftc.gov/consumer-alerts/2022/08/only-scammers-demand-utility-payments-cryptocurrency), [CFPB bill-help guidance](https://www.consumerfinance.gov/housing/housing-insecurity/help-for-renters/get-help-paying-rent-and-bills/), [HHS LIHEAP performance measures](https://stage.liheappm.acf.hhs.gov/what-are-pm/), and [EIA 2024 energy-insecurity data](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf).
+Sources: [FTC utility-service guidance](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters), [FTC shutoff guidance](https://consumer.ftc.gov/consumer-alerts/2022/08/only-scammers-demand-utility-payments-cryptocurrency), [CFPB bill-help guidance](https://www.consumerfinance.gov/housing/housing-insecurity/help-for-renters/get-help-paying-rent-and-bills/), [HHS LIHEAP performance measures](https://stage.liheappm.acf.hhs.gov/what-are-pm/), and [EIA 2024 energy-insecurity data](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf).
 
-## The connection
+## The argument has limits
 
-```text
-missed payment
-  → notice, protection, or payment arrangement
-  → shutoff or continued service
-  → reconnection cost, new arrears, safe home, or unsafe home
-```
+These sources describe the common branches, not one national shutoff rule. State protections, notice periods, medical rules, extreme-weather rules, reconnection fees, and payment-plan terms can differ. The public measures also do not show the same household's deadline, payment, service status, and health result together.
 
-The sources establish the main branches and the federal measures. They do not yet compare state rules or prove which branch a particular household took.
+So we can say that rules alter the time and cost of recovery. We cannot yet say which rule works best or how many households avoid harm because of it.
 
-## The useful surprise
+## What this changes
 
-A rule can prevent a shutoff without solving the bill. That is still valuable, but the household may be paying current use while also repaying old debt. The next deadline can therefore arrive with less room than the first.
+A shutoff policy should be judged by more than the number of disconnections. It should show whether the household received a usable notice, reached assistance before the deadline, kept service on, paid down the balance, and avoided a repeat crisis. A protection that leaves the account growing may still be necessary, but it should be named as time bought—not as a solved bill.
 
-## Four views
+The practical comparison is between notice and payment rules, assistance speed, repair, and lower ongoing cost. A household with a broken furnace needs a different intervention from one facing a one-time income gap.
 
-**Household:** Put notice date, protection deadline, payment date, current bill, old balance, reconnection fee, temperature, and essentials on one timeline.
+## What remains unproven
 
-**Customer and resident:** Make the rule, appeal, medical certification, payment plan, and reconnection steps understandable before the deadline.
-
-**Money and finance:** Measure the balance after the plan, fees, deposit, credit record, and time without service.
-
-**Public power:** Compare state protections, utility practice, assistance speed, restoration, repeat shutoff, and later stability.
-
-## What would change the finding
-
-- State-by-state notice, winter, extreme-heat, medical, payment-plan, reconnection, and deposit rules.
-- Utility records of notice, contact, arrangement, payment, shutoff, restoration, fee, and repeat event.
-- Assistance application and decision dates joined to the shutoff deadline.
-- Time without service and household effects on food, medicine, health, work, and housing.
-- Results by renter or owner status, income, disability, age, climate, fuel, and utility type.
+The next test is a state-by-state and customer-level record linking notice, contact, protection, assistance application, payment arrangement, shutoff, reconnection fee, restoration, and repeat event. Then connect that timeline to temperature, food, medicine, health, work, and housing.
 
 ## Reading rule
 
