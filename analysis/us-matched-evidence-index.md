@@ -74,7 +74,17 @@ A national income number can hide a local customer reality. Prices differ across
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
-### 8. One cash pool can protect a family by shrinking a business
+### 8. Removing a medical debt can repair the record without repairing the illness
+
+**Theme:** Cost / health / voice
+**Route:** illness → bill → debt record → relief
+**Still open:** health, care, and original-bill effects
+
+Medical-debt relief can reduce payments and improve some people's access to credit. In two randomized experiments, however, it did not improve average mental or physical health, health-care use, or reported financial wellness.  The deeper finding is that “medical debt” holds several different problems together: the illness, the price, the bill, the collection record, and the fear of the next bill. Removing one part can matter without fixing the others.
+
+[Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-medical-debt-relief-matched-evidence-001.md)
+
+### 9. One cash pool can protect a family by shrinking a business
 
 **Theme:** Work / cost
 **Route:** family bill → business cash → firm and local life
@@ -84,7 +94,7 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
 
-### 9. Payment choice is a distribution question, but not yet a household welfare result
+### 10. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
@@ -94,7 +104,7 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 10. A recovery loan can keep a local option open, but it creates another bill
+### 11. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
