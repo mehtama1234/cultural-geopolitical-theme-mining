@@ -716,6 +716,8 @@ Follow a payment to one person into another member's training, care or spending,
 
 Still missing: The current experiment does not settle the health meaning or the lasting effect after payments end.
 
+[Read the complete connected memo](../site/us-guaranteed-income-household-path-001.html)
+
 ### When new residents change the local customer base
 
 Follow migration into customer demand, jobs and services, then ask how housing and the value of the place adjust.
