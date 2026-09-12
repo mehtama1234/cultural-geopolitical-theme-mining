@@ -18,6 +18,10 @@ The comparison is often made against the last normal month, not a national index
 
 The baseline also changes who feels a recovery. If prices stop rising quickly but remain high, a household that already traded down may not feel restored. A worker whose pay catches up may feel relief; a renter whose rent reset may not. Two people can hear the same national report and compare it with different starting points.
 
+The political meaning may begin before the campaign. A household that uses savings, changes stores, or takes extra work has already formed a view of what is possible. A candidate's message then meets an existing adjustment, not an empty mind. If the message names the visible bill and offers a credible way to restore room, it may matter. If it blames an actor without changing the household's choice set, it may produce anger without a practical shift.
+
+Voting is also a costly form of action. A person may understand that local buying power fell and still not vote because work, care, registration, or distrust makes participation hard. Another may vote but use the ballot to express identity or protect a different interest. Economic exposure, economic judgment, and political action need separate measures just as price, pay, and household coping do.
+
 ```text
 local prices and wages → real buying power and household room
 → buying less, saving less, borrowing, or delaying a need
@@ -46,6 +50,10 @@ This makes the county finding useful but limited. It can show that places with w
 
 The county result can still matter even though it is not an individual story. If many households in a place face weaker real buying power, local businesses may see less demand, public officials may face more pressure, and candidates may speak to the shared loss. But the shared condition does not guarantee a shared interpretation. A county can contain people who are hurt, helped, insulated, or focused on an entirely different issue.
 
+There can be a local feedback loop. Weaker buying power reduces demand at nearby businesses; weaker sales can reduce hours or hiring; reduced work can further lower local buying power. A place with strong employers or public support may interrupt that loop, while a place with scarce stores and jobs may deepen it. The election result may reflect this local chain, but it may also reflect who moved away, who stayed, and who was able to vote. The place needs to be followed over time rather than read from one election margin.
+
+The key political divide may be over control. A household may tolerate a high price if it sees a path to change providers or improve pay. It may become more hostile when the price is high and every alternative is costly. That makes local competition, housing, transport, and work options part of the political story. A ballot response may be less about one price and more about whether people believe they still have a usable way to change their situation.
+
 ## What remains unproven
 
 The evidence does not show that one household’s price loss caused one vote, or that changing a belief changes turnout. County averages hide large household differences. Party identity, immigration, abortion, safety, age, media, and candidates can outweigh economic conditions. The survey measures reported beliefs and choices, not a verified link from one checkout basket to one ballot. It also does not show whether a household acted politically because prices rose, because recovery felt unfair, or because a trusted messenger connected the two.
@@ -53,6 +61,8 @@ The evidence does not show that one household’s price loss caused one vote, or
 ## Next test
 
 Join local prices and wages to a household panel for two election cycles. Follow spending, saving, borrowing, media, policy knowledge, trust, turnout, and vote choice. Ask which item or bill changed first and compare a fall in real pay with inflation that leaves real pay unchanged. Measure the household’s starting basket and reserve, not only the county average. Keep vote choice separate from economic coping, and ask again after prices stabilize but remain high.
+
+Use matched counties with similar starting prices and party makeup but different real-pay paths, then sample households inside each county. Measure the first budget adjustment, local business change, message exposure, trust in the messenger, registration and turnout barriers, and vote choice. Repeat after prices stabilize and after a local wage or supply change. This would separate the place-wide economic pattern from the individual story and show whether restored choice matters more than a lower headline price.
 
 ## Reading rule
 
