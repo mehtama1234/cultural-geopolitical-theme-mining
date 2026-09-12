@@ -74,7 +74,17 @@ A national income number can hide a local customer reality. Prices differ across
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
-### 8. Payment choice is a distribution question, but not yet a household welfare result
+### 8. One cash pool can protect a family by shrinking a business
+
+**Theme:** Work / cost
+**Route:** family bill → business cash → firm and local life
+**Still open:** worker, customer, and closure effects
+
+For some US small-business owners, family money and business money are close enough that one large bill can reduce what the firm spends and earns. But a business loss does not always cut household spending by the same amount. Cash reserves, federal aid, and fewer ways to spend helped owners smooth the early COVID-19 shock.  The deeper finding is a choice under pressure: protecting the household may mean slowing the firm. That does not yet tell us whether workers lost jobs, customers lost service, or the firm later closed.
+
+[Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
+
+### 9. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money

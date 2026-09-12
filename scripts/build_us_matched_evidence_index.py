@@ -14,6 +14,7 @@ routes = {
     "us-health-insurance-job-lock-matched-evidence-001": ("Work / cost", "health coverage → job choice → household security", "the full value of the job tradeoff"),
     "us-income-volatility-matched-evidence-001": ("Work / cost", "unstable pay → cash buffer → spending room", "the same worker's later household choices"),
     "us-local-prices-matched-evidence-001": ("Cost / place", "place → local prices → real buying power", "the same household's move and well-being result"),
+    "us-owner-household-business-matched-evidence-001": ("Work / cost", "family bill → business cash → firm and local life", "worker, customer, and closure effects"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

@@ -15,3 +15,7 @@ A small firm's financial problem can become a family spending problem, while a f
 ## Decision rule
 
 Move on after one source follows business revenue and household spending together, one source shows a family investment tradeoff, and one next dataset can test differences by owner wealth and business type. Do not treat a business owner's household cut as proof that workers or customers were affected.
+
+## Matched evidence pass
+
+The first matched check is [One cash pool can protect a family by shrinking a business](../../findings/us-owner-household-business-matched-evidence-001.md), with its [HTML reading page](../../../site/us-owner-household-business-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a linked household-firm tradeoff while leaving worker, customer, and closure effects open.
