@@ -6,13 +6,15 @@ Unpaid eldercare is a large use of time that sits beside paid work, childcare, r
 
 An employed adult may drive a parent to appointments, manage medicines, handle forms, and remain reachable during a shift. Another adult may leave paid work and supply more care. A third may pay for help but spend time finding, checking, and coordinating it. Employment does not prove care is easy, and nonemployment does not prove caregiving caused the work change.
 
+The pressure often arrives as a timing problem. A daughter can be willing to help and still be unable to cover a visit at 3 p.m., a late discharge, or a call during a shift. The family then pays for the gap with leave, a missed shift, a longer drive, a borrowed ride, or another relative's time. “Family support” is not one thing; it is a set of people with different schedules, wages, health, and distance.
+
 The deeper finding is that care turns time into a shared family budget. When the need changes, someone must absorb the new work. The family may shift hours, money, sleep, location, or job risk before any public measure records a crisis. A flexible job can help, but flexibility may also hide who is carrying the duty and who is losing future security.
 
 ## Follow one care week
 
 An adult daughter works full time and has a child at home. Her father needs a ride to a medical visit and help with a form. She uses leave, swaps a shift, asks a sibling, or pays for a ride. If the appointment runs late, the change reaches child care and dinner. If this repeats, she may turn down overtime, change jobs, reduce saving, or move closer.
 
-None of those choices is visible in a count of whether she remained employed. The same employment status can contain very different amounts of unpaid time and pressure.
+None of those choices is visible in a count of whether she remained employed. The same employment status can contain very different amounts of unpaid time and pressure. A worker can keep the job while losing overtime, promotion chances, sleep, or the ability to take a better job farther away.
 
 ```text
 older person’s need → family time, paid care, leave, schedule change, or work exit
@@ -36,13 +38,19 @@ Sources: [BLS unpaid eldercare](https://www.bls.gov/news.release/elcare.htm) and
 
 Care is a work system outside the workplace. It can change who is available for a shift, who can move for a job, who can save, and who can rest. A policy or employer program may appear generous while leaving the family to manage the hard timing problem: who is available at 3 p.m. on a Tuesday when the appointment changes?
 
+This creates a quiet split between the person who needs care and the person who makes the work adjustment. The older person may receive a safe ride and a completed form. The worker may receive no payment, lose paid hours, and become less able to change jobs. A measure that records only the first result says the care system worked; a measure that records only the second says the family suffered. Both are incomplete.
+
+The choice also reaches beyond the family. Employers decide whether a worker can use leave, change hours, work from home, or return without penalty. Care markets decide whether paid help exists at the right time and price. Public programs decide who qualifies, what paperwork is required, and whether support arrives before the crisis. These rules determine whether aging is absorbed by family labor, paid work, or public money.
+
+That is the political path to watch. As the need becomes common, a private family arrangement can become a shared work problem. People may ask for paid leave, better home care, transport, or a different retirement and coverage rule. The source set shows the pressure and the labor connection; it does not show that caregiving by itself produces a specific vote or policy result.
+
 ## What remains unproven
 
-The evidence does not yet follow the same people from the start of care through hours, earnings, job changes, paid care, savings, health, and childcare. It does not establish which forms of leave, flexible work, paid care, or family support protect long-term security best. Results may differ by gender, race, income, disability, household type, and place.
+The evidence does not yet follow the same people from the start of care through hours, earnings, job changes, paid care, savings, health, and childcare. It does not establish which forms of leave, flexible work, paid care, or family support protect long-term security best. It does not show how many workers keep their job but lose future options, or how the timing and quality of paid care change the result. Results may differ by gender, race, income, disability, household type, and place.
 
 ## Next test
 
-Follow caregivers for two years. Record care tasks and timing, paid care, leave, schedule changes, job offers refused, earnings, savings, sleep, health, child care, and travel. Mark who made each adjustment and whether the older person’s care actually improved.
+Follow caregivers and care recipients for two years from the start of regular care. Record care tasks and timing, paid care, leave, schedule changes, job offers refused, earnings, savings, sleep, health, child care, and travel. Mark who made each adjustment, what the adjustment cost, whether the older person’s care actually improved, and whether the worker gained or lost later choices. Compare families with nearby help, paid help, and no available helper.
 
 ## Reading rule
 
