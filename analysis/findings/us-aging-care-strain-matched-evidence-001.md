@@ -1,55 +1,44 @@
 # Unpaid eldercare can become a second job before it becomes a bill
 
-## Short answer
+## The argument
 
-The US relies on family members to provide a large amount of eldercare without a direct care payment. BLS reports 38.2 million unpaid eldercare providers in 2023–24, with women making up 55%. NBER links the start of caregiving to later drops in earnings and employment for women, while BLS shows that care can happen often and take hours. The deeper finding is that care may be paid through lost work and savings before anyone records it as a household cost.
+The US often pays for eldercare with family time before it pays for it with money. A worker drives a parent to appointments, manages medicines, prepares food, handles forms, or stays nearby in case something goes wrong. The care is real, but the cost may show up as fewer work hours, a job exit, lower savings, or exhaustion rather than as a care invoice.
 
-## What the matched evidence shows
+The burden is not evenly shared. Women are more represented among unpaid providers in the BLS data, and NBER finds an earnings and employment decline after caregiving begins for women. That does not mean every caregiver has the same result. It means the system is assigning a measurable economic risk to a group already carrying much of the work.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Scale | 38.2 million people provided unpaid eldercare in 2023–24. | How many hours each household supplied. |
-| Time | 52% provided care at least several times a week; care days averaged 3.9 hours. | Whether those hours replaced paid work or rest. |
-| Work | NBER finds caregiving precedes drops in earnings and employment for women. | The size and duration of the household loss. |
-| Family load | A worker may also care for children or another household member. | How care demands interact. |
-| Public response | Five states had enacted caregiver tax-credit programs by April 2025. | Take-up, amount, and later care or work results. |
+## Follow one working caregiver
 
-Sources: [BLS unpaid eldercare release](https://www.bls.gov/news.release/elcare.htm), [NBER caregiving and labor supply study](https://www.nber.org/papers/w31450), and [HHS caregiver tax-credit review](https://aspe.hhs.gov/reports/caregiver-tax-credit).
-
-## The connection
+An employee's parent needs help several times a week. The employee uses leave, changes shifts, turns down overtime, or leaves a job with a long commute. The family saves the price of paid care, but the worker loses earnings and may reduce future retirement savings. The older person receives care, while the caregiver's own financial path narrows.
 
 ```text
 need for care → unpaid family time or paid care
-              → work, earnings, health, savings, or housing change
-              → family and employer response
-              → public support or political demand
+→ work, earnings, health, savings, or housing change
+→ family and employer response → public support or greater dependence on relatives
 ```
 
-The BLS data show the size and timing of unpaid care. The NBER study connects caregiving to earnings and employment. Neither tells us the complete balance of money saved on paid care, wages lost, health effects, and the older person's outcome.
+## What the sources actually establish
 
-## The hidden second job
+| Step | Evidence | Meaning |
+|---|---|---|
+| Scale | BLS reports 38.2 million unpaid eldercare providers in 2023–24. | Family care is a large part of the system. |
+| Time | 52% provided care at least several times a week; care days averaged 3.9 hours. | The work is repeated and time-consuming. |
+| Work | NBER finds caregiving precedes drops in earnings and employment for women. | Care can reduce paid work. |
+| Unequal load | BLS reports women made up 55% of unpaid eldercare providers. | The burden is distributed unevenly. |
+| Public response | Five states had enacted caregiver tax-credit programs by April 2025. | Policy is beginning to recognize the work. |
 
-Unpaid care includes meals, transport, grooming, companionship, and being available. Some of this replaces a paid service. Some adds to a worker's day. The cost may appear as fewer hours, a job exit, less saving, a delayed move, or exhaustion rather than as a care charge.
+Sources: [BLS unpaid eldercare](https://www.bls.gov/news.release/elcare.htm), [NBER caregiving and labor supply](https://www.nber.org/papers/w31450), and [HHS caregiver tax-credit review](https://aspe.hhs.gov/reports/caregiver-tax-credit).
 
-The burden is not evenly spread. Women are more represented among providers in the BLS data, and the NBER earnings pattern differs by gender. That is a distribution result, not a claim that every woman or every caregiver suffers the same way. Family closeness, money, job flexibility, distance, and the older person's needs all matter.
+## The deeper finding
 
-## Four views
+Unpaid care is a form of transfer from one household member's future to another's present. It can protect an older person and avoid a paid bill, but the price may be a missed shift, a smaller pension, worse health, or a delayed housing move. A caregiver tax credit may help, but it does not answer whether the care is safe, available, and enough.
 
-**Household:** Count care hours, paid care avoided, work lost, savings used, and housing changes.
+## What remains unproven
 
-**Customer:** Compare paid care for price, reliability, schedule, quality, and access—not only hourly cost.
+BLS shows the scale and timing of care, and NBER links caregiving to work outcomes. Neither gives the complete balance of paid care avoided, wages lost, health effects, savings, and the older person's result for the same family.
 
-**Money and finance:** Separate lost earnings, unpaid time, tax relief, benefits, and long-run retirement effects.
+## Next test
 
-**Public power:** Ask whether policy pays the caregiver, funds the service, protects leave, or assumes family capacity.
-
-## What would change the finding
-
-- Caregiver and recipient records linked to monthly work, earnings, leave, health, and savings.
-- Care intensity, task, distance, schedule, and paid replacement cost.
-- Results by gender, age, income, race, disability, family structure, and place.
-- Employer data on schedule changes, leave, promotion, turnover, and benefits.
-- Take-up and outcomes for caregiver tax credits, paid leave, respite care, and home-based services.
+Link caregiver and recipient records around the same event. Measure tasks, hours, distance, schedule, paid replacement cost, leave, earnings, health, savings, housing, and recipient outcomes. Test tax credits, paid leave, respite care, and home services.
 
 ## Reading rule
 

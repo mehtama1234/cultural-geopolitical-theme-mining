@@ -10,7 +10,7 @@ These are the deeper checks completed after the opening source packets. Each one
 **Route:** aging or illness → unpaid care → work and money loss
 **Still open:** care quality, caregiver recovery, and public support
 
-The US relies on family members to provide a large amount of eldercare without a direct care payment. BLS reports 38.2 million unpaid eldercare providers in 2023–24, with women making up 55%. NBER links the start of caregiving to later drops in earnings and employment for women, while BLS shows that care can happen often and take hours. The deeper finding is that care may be paid through lost work and savings before anyone records it as a household cost.
+The US often pays for eldercare with family time before it pays for it with money. A worker drives a parent to appointments, manages medicines, prepares food, handles forms, or stays nearby in case something goes wrong. The care is real, but the cost may show up as fewer work hours, a job exit, lower savings, or exhaustion rather than as a care invoice.  The burden is not evenly shared. Women are more represented among unpaid providers in the BLS data, and NBER finds an earnings and employment decline after caregiving begins for women. That does not mean every caregiver has the same result. It means the system is assigning a measurable economic risk to a group already carrying much of the work.
 
 [Read the HTML page](../site/us-aging-care-strain-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-aging-care-strain-matched-evidence-001.md)
 
@@ -70,7 +70,7 @@ The 2021 Child Tax Credit changed more than a tax form. Research links the month
 **Route:** child care need → paid or unpaid care → work change
 **Still open:** same-family income, quality, and stability
 
-When a child needs care, a household may pay a provider, ask family for help, change a work schedule, miss work, or leave paid work. The Federal Reserve and Census show the money and work-time parts of this choice: paid care costs hundreds of dollars a week for users, and households reporting care problems lost an average of 65.8 work days in 2024. The deeper finding is that childcare is not only a family expense. It is part of how labor supply, unpaid care, and household income are made.
+When a child needs care, a household does not make one simple purchase. It pays a provider, asks family for help, changes a shift, misses work, or leaves paid work. The cost may appear as a weekly bill, but it may also appear as lost wages, a missed promotion, less rest, or a job that fits care instead of skill.  This is why childcare belongs in both the family budget and the labor market. Paid care can be expensive and still make work possible. Unpaid care can be loving and useful while taking time from paid work. The real question is who supplies the hours and what the family has left afterward.
 
 [Read the HTML page](../site/us-childcare-work-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-childcare-work-cost-matched-evidence-001.md)
 
@@ -160,7 +160,7 @@ Energy burden is not only the share of income spent on power and fuel. The 2024 
 **Route:** household shock → family help → helper cost
 **Still open:** receiver and helper's later stability
 
-When one US household loses money, health, housing, or care, relatives may fill the gap with cash, a place to stay, rides, child care, food, or time. NBER evidence shows transfers and informal help move in response to shocks. HBS research describes the work and care demands around these arrangements. The deeper finding is two-sided: family help can prevent a missed bill or care break, while moving cost to a parent, child, or sibling who loses money, time, work room, or savings.
+When one household loses money, health, housing, or care, relatives may fill the gap with cash, a room, rides, food, child care, or time. That help can prevent a missed bill or keep a person housed. But it does not make the cost disappear. It moves the cost to a parent, child, sibling, or partner who may lose savings, work hours, rest, or the ability to handle a later emergency.  Family support is private insurance with uneven membership. A household with nearby relatives who have cash and time has a different safety net from one whose family is also short of money, far away, ill, or already in debt.
 
 [Read the HTML page](../site/us-family-support-hidden-safety-net-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-family-support-hidden-safety-net-matched-evidence-001.md)
 

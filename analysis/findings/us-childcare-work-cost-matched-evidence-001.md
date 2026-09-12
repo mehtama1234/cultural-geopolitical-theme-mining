@@ -1,55 +1,44 @@
 # Childcare can be a bill, a lost workday, or an unpaid family shift
 
-## Short answer
+## The argument
 
-When a child needs care, a household may pay a provider, ask family for help, change a work schedule, miss work, or leave paid work. The Federal Reserve and Census show the money and work-time parts of this choice: paid care costs hundreds of dollars a week for users, and households reporting care problems lost an average of 65.8 work days in 2024. The deeper finding is that childcare is not only a family expense. It is part of how labor supply, unpaid care, and household income are made.
+When a child needs care, a household does not make one simple purchase. It pays a provider, asks family for help, changes a shift, misses work, or leaves paid work. The cost may appear as a weekly bill, but it may also appear as lost wages, a missed promotion, less rest, or a job that fits care instead of skill.
 
-## What the matched evidence shows
+This is why childcare belongs in both the family budget and the labor market. Paid care can be expensive and still make work possible. Unpaid care can be loving and useful while taking time from paid work. The real question is who supplies the hours and what the family has left afterward.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Paid care | The Fed reports a median cost of about $240 per week; Census reports $10,520 per year among paying households in 2024. | What quality, hours, commute, and schedule came with the cost. |
-| Unpaid care | 46% of parents reported using some unpaid care; mothers more often reported being the main caregiver. | Who provided the hours and what they gave up. |
-| Work loss | Households with care problems lost an average of 65.8 work days. | Whether care caused the loss and whether pay or job quality changed. |
-| Access | Higher-income parents were more likely to use paid care intensively. | Local supply, subsidy, employer help, and ability to choose. |
-| Family result | Care can release work time or consume it. | Food, housing, debt, health, and later earnings. |
+## Follow one care week
 
-Sources: [Federal Reserve care and living-arrangements survey](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm), [Census childcare challenges study](https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html), and [Census child-care data guide](https://www.census.gov/topics/families/child-care/about.html).
-
-## The connection
+A parent works an early shift. The center opens later, the backup sitter cancels, and a relative covers two mornings. The parent misses a shift and pays for an emergency ride. No single line item records the full cost. The household has solved the care problem by changing work, time, and family obligations.
 
 ```text
 child needs care → paid bill, unpaid family time, or care gap
-                 → work hours, missed days, or parent job change
-                 → income, benefits, food, housing, and debt
-                 → employer and public response
+→ work hours, missed days, or parent job change
+→ income, benefits, food, housing, and debt change
 ```
 
-The surveys support the cost and work-time links. They do not show that every missed day came from price, or that paid care always improves the family's result. Care can be expensive and still make work possible. Unpaid care can be chosen and valuable while also taking time from paid work or rest.
+## What the sources actually establish
 
-## The hidden work schedule
+| Step | Evidence | Meaning |
+|---|---|---|
+| Paid care | The Federal Reserve reports a median cost of about $240 per week; Census reports $10,520 per year among paying households in 2024. | Care can be a large recurring bill. |
+| Unpaid care | 46% of parents reported using some unpaid care; mothers more often reported being the main caregiver. | Many households solve care with family time. |
+| Work loss | Households with care problems lost an average of 65.8 work days. | Care problems can reach the job. |
+| Unequal access | Higher-income parents were more likely to use paid care intensively. | Ability to buy care shapes work options. |
+| Missing result | Surveys show cost and time, but not the full chain for one family. | The work and money effect still needs joining. |
 
-The household often solves care through timing rather than a single purchase: a parent changes shifts, a relative covers a morning, a child stays home, or a worker takes an unpaid day. These choices may never appear as a childcare bill. They can appear instead as lost wages, fewer hours, a missed promotion, or a different job.
+Sources: [Federal Reserve care and living arrangements](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-care-work-and-living-arrangements.htm), [Census childcare challenges](https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html), and [Census child-care data guide](https://www.census.gov/topics/families/child-care/about.html).
 
-This is why the $10,520 annual cost and the 65.8 lost work days should not be added as if they describe one family. They are separate survey results that point to the same pressure. The next step is to follow the household through the care arrangement and its work result.
+## The deeper finding
 
-## Four views
+Childcare is a timing system. A parent may change shifts, a relative may cover a morning, or a child may stay home. Those choices can release paid work or consume it. A care policy should therefore be judged by more than its price: schedule fit, reliability, travel, quality, and what happens when the arrangement breaks.
 
-**Household:** Count paid care, unpaid hours, missed work, transport, food, housing, and debt.
+## What remains unproven
 
-**Customer:** Compare price, hours, quality, reliability, location, and schedule fit.
+The surveys do not show that every missed day came from price, or that paid care always improves the family's result. They also do not join care quality, monthly cost, work hours, earnings, benefits, child outcomes, and later debt for the same household.
 
-**Money and finance:** Separate provider cost, lost wages, subsidies, employer benefits, and future earnings.
+## Next test
 
-**Public power:** Ask who can buy relief, who supplies unpaid care, and which rules make care usable or impossible.
-
-## What would change the finding
-
-- Monthly household records linking care cost, care hours, work hours, earnings, and benefits.
-- Care disruptions with dates, cause, schedule, commute, quality, and replacement option.
-- Results by income, race, gender, disability, family type, place, and job.
-- Employer records on leave, schedule flexibility, turnover, pay, and promotion.
-- Longer outcomes for child well-being, parent health, savings, debt, and work stability.
+Follow families month by month through care hours, provider cost, unpaid help, disruptions, work schedules, earnings, benefits, commute, quality, and debt. Compare families with similar care needs but different local supply and employer flexibility.
 
 ## Reading rule
 

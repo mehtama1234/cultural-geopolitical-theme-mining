@@ -1,55 +1,44 @@
 # Family help can catch one fall by moving it to another household
 
-## Short answer
+## The argument
 
-When one US household loses money, health, housing, or care, relatives may fill the gap with cash, a place to stay, rides, child care, food, or time. NBER evidence shows transfers and informal help move in response to shocks. HBS research describes the work and care demands around these arrangements. The deeper finding is two-sided: family help can prevent a missed bill or care break, while moving cost to a parent, child, or sibling who loses money, time, work room, or savings.
+When one household loses money, health, housing, or care, relatives may fill the gap with cash, a room, rides, food, child care, or time. That help can prevent a missed bill or keep a person housed. But it does not make the cost disappear. It moves the cost to a parent, child, sibling, or partner who may lose savings, work hours, rest, or the ability to handle a later emergency.
 
-## What the matched evidence shows
+Family support is private insurance with uneven membership. A household with nearby relatives who have cash and time has a different safety net from one whose family is also short of money, far away, ill, or already in debt.
 
-| Layer | What the evidence says | What remains open |
-|---|---|---|
-| Shock | An adverse event changes family support patterns. | The exact bill, care need, or income loss. |
-| Receiver | Money or informal help can keep housing, education, food, or care going. | Whether the need was fully covered. |
-| Helper | The helper may give cash, time, housing, rides, or paid work hours. | The helper's total loss and later recovery. |
-| Debt | Aid changes can alter which family member holds education debt. | Whether total family debt and risk fell. |
-| Unequal safety net | Wealth, distance, health, family structure, and conflict shape who can help. | Households without a reliable helper. |
+## Follow one family shock
 
-Sources: [NBER family support after adverse events](https://www.nber.org/papers/w28295), [NBER college-finance study](https://www.nber.org/papers/w33497), [HBS caregiving and work](https://www.library.hbs.edu/working-knowledge/workers-juggling-caregiving-employers-need-to-rethink), and [HBS practical family help](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness).
-
-## The connection
+A young family falls behind after a job loss. A parent pays one month's rent and provides a room for the children. The immediate crisis is held off. The parent now has less emergency savings and takes on extra care. If the job search lasts, both households may borrow or cut back. One household's stability has been bought with another household's buffer.
 
 ```text
 shock → family money or care → immediate problem held off
-      → helper loses cash, time, work, or savings
-      → family wealth and future choices
-      → demand for formal help or greater dependence on relatives
+→ helper loses cash, time, work, or savings
+→ family wealth and future choices change → demand for formal help grows
 ```
 
-The evidence supports family help as a real response. It does not show that the receiver became secure or that the helper could absorb the cost. A transfer can prevent a late payment today and create a debt, missed shift, or depleted emergency fund tomorrow.
+## What the sources actually establish
 
-## The hidden accounting
+| Step | Evidence | Meaning |
+|---|---|---|
+| Shock | NBER finds family transfers and informal help change after adverse events. | Families respond when formal income falls. |
+| Receiver | Cash or in-kind help can keep housing, education, food, or care going. | Help can prevent an immediate failure. |
+| Helper | The helper may give money, a room, rides, or paid work hours. | The cost can move rather than end. |
+| Debt | NBER finds aid changes can alter which family member holds education debt. | Support can change who carries formal risk. |
+| Unequal safety net | Wealth, distance, health, and family structure shape who can help. | Some households have little private backup. |
 
-Formal systems often count dollars. Families also provide unpaid hours, a room, a ride, a meal, a phone call, or help with a form. Those actions may be more useful than cash for one problem, but they can reduce the helper's paid work, rest, health, or ability to handle a later emergency.
+Sources: [NBER family support after adverse events](https://www.nber.org/papers/w28295), [NBER college finance](https://www.nber.org/papers/w33497), [HBS caregiving and work](https://www.library.hbs.edu/working-knowledge/workers-juggling-caregiving-employers-need-to-rethink), and [HBS family help](https://www.library.hbs.edu/working-knowledge/more-proof-that-money-can-buy-happiness).
 
-This is why family support should not be treated as free resilience. It is a private insurance system with uneven membership. A household with wealthy or nearby relatives can draw on a different buffer from a household whose family is also short of cash, far away, ill, or already carrying debt.
+## The deeper finding
 
-## Four views
+Family help is a hidden transfer system. Formal statistics may record the receiver's rent being paid but miss the helper's lost savings, care hours, or work. The same help can be protective now and weakening later. Public policy that assumes families will fill every gap is choosing who absorbs the risk without always naming them.
 
-**Household:** Record both sides: money received, care given, hours, debt, and what each person gave up.
+## What remains unproven
 
-**Customer:** Compare family help with credit, public aid, paid care, and the time required to obtain each.
+The evidence supports family help as a response, but does not show that the receiver became secure or that the helper could absorb the cost. It also does not fully compare family help with public aid, credit, paid care, or housing support for the same event.
 
-**Money and finance:** Value cash, housing, in-kind help, lost wages, debt, and depleted savings separately.
+## Next test
 
-**Public power:** Ask whether policy assumes families can fill a gap and who is left when they cannot.
-
-## What would change the finding
-
-- A family panel linking the receiver and helper around the same event.
-- Cash transfer amounts, in-kind help, care hours, missed work, and debt.
-- Results by wealth, race, age, distance, disability, family structure, and immigration status.
-- Comparisons with public aid, credit, paid care, and housing support.
-- Later outcomes for both sides: work, health, housing, savings, debt, and conflict.
+Build a family panel that links receiver and helper around one shock. Record cash, housing, care hours, missed work, debt, savings, conflict, public aid, and later outcomes for both sides.
 
 ## Reading rule
 
