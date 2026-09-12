@@ -1,19 +1,18 @@
-# Rent guarantee is not one product
+# When rent guarantee is not one product
 
 ## The argument
 
-The first provider comparison shows a shared shape, not a standard product. TheGuarantors, Rhino, and Leap describe tools that help a landlord accept a renter without a normal guarantor or under the usual screen. The renter generally pays, and the property manager may control the offer.
+TheGuarantors, Rhino, and Leap describe tools that help a landlord accept a renter without a normal guarantor or under the usual screen. The names sound similar, but the deal can differ in price, coverage, state filing, claim process, renewal, and repayment.
 
-Coverage is limited by the policy, bond, state filing, or lease term. After a claim, the renter may still owe the provider. The market sits between housing access and landlord insurance; its public pages do not show that it lowers total tenant risk.
+The renter generally pays to pass the housing gate. The property manager may decide whether to offer the product. After a claim, the renter may still owe the provider. That places the product between housing access and landlord insurance. It can help someone enter a home while leaving the household exposed to a new debt if income later falls.
 
 ## Follow one offer
 
-A property manager offers three renters a guarantee instead of a larger deposit. Each pays a different premium or reserve. One is approved, one is screened out, and one later faces a claim. The product name sounds similar, but price, coverage, state law, repayment, and renewal may differ.
+A property manager offers three renters a guarantee instead of a larger deposit. One pays a premium, one pays a premium plus a reserve, and one is screened out. A fourth renter later faces a claim. The product label is the same kind of promise, but the practical result depends on the contract each person signed.
 
 ```text
-ordinary screen → provider offer → renter premium or reserve
-→ lease approval → landlord protection within a limit
-→ claim or no claim → tenant repayment, renewal, or move
+ordinary screen → provider offer → renter premium or reserve → lease approval
+→ landlord protection within a limit → claim or no claim → tenant repayment, renewal, or move
 ```
 
 ## What the sources actually establish
@@ -25,20 +24,21 @@ ordinary screen → provider offer → renter premium or reserve
 | Who is protected | Provider pages describe landlord or operator protection for rent, damage, or lease losses. | Tenant cash protection is not the stated center. |
 | What is covered | Limits depend on the policy, bond, state filing, or lease term. | Similar labels can hide different exclusions. |
 | After a claim | TheGuarantors and Rhino say the renter remains responsible for reimbursement; Leap says lease duties continue. | Later debt is a key comparison point. |
+| Limits | Public pages do not show full approval rates, claims, collections, renewal, or later housing outcomes. | Marketing language is not a household result. |
 
 Sources: [TheGuarantors lease coverage](https://www.theguarantors.com/products-rent-coverage), [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee), and [Leap Rent Guaranty](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage).
 
 ## The deeper finding
 
-The housing gate may move into a paid, privately underwritten product. That can help a renter with a thin record while making access depend on another approval and another bill. Provider slogans are not comparable outcomes.
+The housing gate may move into a paid, privately underwritten product. That can help a renter with a thin record while making access depend on another approval and another bill. The product's real value is not its slogan or its move-in price. It is whether the renter stays housed through a bad month without a debt that makes the next home harder to reach.
 
 ## What remains unproven
 
-Public pages do not show full policy forms, approval rates, prices by risk group, claims, repayment, collections, renewal, or later housing. We also do not know whether landlords lower ordinary screening barriers or simply shift liability.
+Public pages do not show prices by risk group, policy forms in every state, claim rates, repayment, collections, renewals, or later housing. We also do not know whether landlords lower ordinary screening barriers or simply shift liability.
 
 ## Next test
 
-Collect full policy forms and state filings. Compare the same renter and lease across providers, then link screen, approval, default, claim, repayment, renewal, and move-out.
+Collect full policy forms and state filings. Compare the same renter and lease across providers, then link screening, approval, default, claim, repayment, renewal, and move-out. Record who paid, who was protected, and who owed money afterward.
 
 ## Reading rule
 
