@@ -1,56 +1,45 @@
 # The cost of a bad choice begins after the review
 
-## Short answer
+## The argument
 
-Reviews and search can reduce the work of choosing, but the real customer cost appears after purchase if the product is wrong, late, poor quality, or hard to return. NBER finds that eBay shoppers searched about 36 times per purchase and that more search could help find lower prices. FTC guidance shows that return windows, shipping cost, restocking fees, refund rules, records, and payment method shape recovery. The evidence does not yet show that a particular review predicted a particular return. The useful finding is a measurement rule: trust should be checked against what happened after the sale.
+Reviews and search reduce the work of choosing. The real customer cost appears after purchase if the product is wrong, late, poor quality, or hard to return. A low price is not a low-cost choice if the buyer pays return shipping, loses work time, waits for a refund, or buys the product again.
 
-## What the matched evidence shows
+Trust should therefore be checked against the result after the sale. A review may raise sales without predicting quality for the next customer. A platform that measures only the purchase misses the cost of a failed remedy.
 
-| Layer | What the evidence says | What remains open |
+## Follow one purchase
+
+A customer sees a high rating and a low price. The item arrives late and does not work. The return window is short, shipping is expensive, and the refund waits until the seller receives the package. The customer has paid in money, time, and attention before the platform records a complaint.
+
+```text
+review and search → customer belief and purchase → product, price, delivery, and quality
+→ return, complaint, refund, or repair → time and money recovered or lost
+→ repeat choice, exit, and trust
+```
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Search | eBay shoppers searched about 36 times per purchase across three days; the study estimates a cost near 25 cents per search page. | Whether reviews reduced search for some customers or shifted it to another source. |
-| Price | More search was linked to finding lower prices in the eBay study. | Whether the lower price came with worse quality, delivery, or return terms. |
-| Recovery | FTC says return windows, shipping cost, restocking fees, and refund rules shape what a customer can recover. | How often customers use the path and how long recovery takes. |
-| Review | NBER finds that rewarded feedback changed sales and was linked to higher-quality sellers in another marketplace. | Whether a visible review predicted the later product outcome. |
-| Trust | A customer may trust a review before purchase and lose trust after a failed remedy. | Repeat purchase, exit, complaint, and later platform use. |
+| Search | NBER finds eBay shoppers searched about 36 times per purchase across three days; the study estimates a cost near 25 cents per search page. | Comparison takes time and can have value. |
+| Price | More search was linked to finding lower prices in the eBay study. | A lower price is only the first result. |
+| Review | NBER finds rewarded feedback changed sales and was linked to higher-quality sellers in another marketplace. | Reviews can move demand. |
+| Recovery | FTC says return windows, shipping cost, restocking fees, refund rules, records, and payment method shape recovery. | The remedy has its own cost. |
+| Missing outcome | The sources do not join one review to one product result and return. | Trust after purchase remains open. |
 
 Sources: [NBER search study](https://www.nber.org/papers/w22302), [NBER review-reward study](https://www.nber.org/papers/w22584), and [FTC online-shopping guidance](https://consumer.ftc.gov/articles/online-shopping).
 
-## The connection
+## The deeper finding
 
-```text
-review and search
-  → customer belief and purchase
-  → product, price, delivery, and quality received
-  → return, complaint, refund, or repair
-  → time and money recovered or lost
-  → repeat choice, exit, and trust
-```
+The cheapest choice is not always the lowest-cost choice. A review system that measures sales can reward a signal while leaving the customer to carry bad quality, return work, and refund delay. The useful measure is total recovery: what arrived, what failed, what the buyer had to do, and what was finally recovered.
 
-The sources support the search, review, and recovery pieces in separate settings. They do not join one customer through the full chain.
+## What remains unproven
 
-## The useful surprise
+The evidence does not show whether reviews reduced search for particular customers, predicted a later return, or changed repeat use after a failed remedy. It also does not show how outcomes differ by seller size, price, income, language, disability, or digital access.
 
-The cheapest choice is not always the lowest-cost choice. A lower price can be outweighed by a poor product, return shipping, restocking fee, lost time, or a refund that arrives late. A review system that measures only sales may miss this later cost.
+## Next test
 
-## Four views
-
-**Household:** Count purchase price, shipping, return cost, time, refund delay, and replacement cost together.
-
-**Customer:** Record what the review said, what was shown, what arrived, and whether the customer could obtain a remedy.
-
-**Money and finance:** Track price, payment protection, refund amount, fees, credit timing, and the cost of a failed purchase.
-
-**Public power:** Require clear return terms, seller identity, review records, complaint paths, and proof that a platform acted on bad information.
-
-## What would change the finding
-
-- Review exposure linked to the same customer's purchase and return.
-- Product condition, delivery, quality, return reason, refund date, and complaint outcome.
-- Review position and seller advertising separated from product quality.
-- Results by price, seller size, income, language, disability, and digital access.
-- Repeat purchase or platform exit after an unresolved problem.
+Link review exposure to purchase, delivery, quality, return reason, refund date, complaint, seller advertising, and repeat choice. Count customer time and replacement cost alongside dollars.
 
 ## Reading rule
 
-Do not call a review useful because it raises sales. Check whether the product arrived as promised, what the customer had to do when it failed, and what was finally recovered.
+Do not call a review useful because it raises sales. Check what arrived, what the customer had to do when it failed, and what was finally recovered.

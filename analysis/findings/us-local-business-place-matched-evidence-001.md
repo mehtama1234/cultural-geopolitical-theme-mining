@@ -1,55 +1,44 @@
 # A business application is not yet a local job or a local place
 
-## Short answer
+## The argument
 
-The US has become less tied to the hometown entrepreneur. HBS reports that the local advantage for some entrepreneurs fell sharply from 1970 to 2018, while NBER finds that local business entry has two separate steps: deciding to apply and becoming an employer firm.
+A county can show many new business applications without gaining a lasting shop, job, service, or meeting place. Starting a business is only the first step. The firm must receive money, survive, hire, serve customers, and remain in the place.
 
-This matters because a county can show many new applications without gaining the lasting shop, job, service, or meeting place people imagine. The deeper finding is about conversion: local interest must become a durable firm before it can change local life.
+This matters for local policy. A grant, permit change, loan, or tax break should not be judged by applications alone. The meaningful result is conversion: local interest becomes a durable firm that customers can use and workers can rely on.
 
-## What the matched evidence shows
+## Follow one local idea
 
-| Part of the path | What the record shows | What it does not show |
-|---|---|---|
-| Owner and place | HBS reports the hometown advantage for US-born White male entrepreneurs fell from 8 percentage points in 1970 to 2 points in 2018. | Whether the owner served the birthplace community or moved nearby. |
-| Type of work | HBS links the change partly to less self-employment in capital-heavy local sectors and more in lower-capital sectors. | The full cause of the movement or its local effect. |
-| First step | NBER finds business applications measure pursuit of an idea. | That an application becomes a firm, job, or service. |
-| Second step | NBER finds places differ in the rate at which applications become employer firms. | Why each place succeeds or fails at this step. |
-| County signal | Census publishes annual county applications for 2005–2025 and warns about definitions and privacy noise. | Lasting firms, payroll, service quality, or local belonging. |
-
-Sources: [HBS hometown entrepreneurship research](https://www.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur), [NBER Working Paper 34881](https://www.nber.org/papers/w34881), [Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html).
-
-## The connection
+A resident applies to open a repair shop. Rent rises, credit is expensive, permits take time, and a national chain already serves the area. The application is counted. The shop never opens, or opens briefly and closes. The neighborhood has gained a record of intention, not a lasting option.
 
 ```text
-local cost, credit, labor, or customer change
-  -> owner stays, leaves, applies, starts, closes, or moves
-  -> lasting firms, jobs, services, prices, and meeting places change
-  -> household choices, local identity, trust, and political voice change
+local cost, credit, labor, or customer change → owner applies, starts, closes, or moves
+→ lasting firms, jobs, services, prices, and meeting places change
+→ household choices, local identity, trust, and political voice
 ```
 
-The missing middle is the important part. “People want to start a business here” and “this place has a lasting business people use” are different statements.
+## What the sources actually establish
 
-## Four views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Owner and place | HBS reports the hometown advantage for US-born White male entrepreneurs fell from 8 percentage points in 1970 to 2 points in 2018. | Entrepreneurs are less tied to birthplace than before. |
+| First step | NBER finds business applications measure pursuit of an idea. | An application is not a firm. |
+| Conversion | NBER finds places differ in the rate at which applications become employer firms. | Local conditions affect the next step. |
+| County signal | Census publishes annual county applications for 2005–2025 with definition and privacy cautions. | Applications are an early signal, not local life. |
+| Missing result | Public records do not show lasting service, quality, payroll, or belonging. | The customer and place result is open. |
 
-**Household:** Ask where the owner lives, where the money comes from, and whether the firm supports the owner's family.
+Sources: [HBS hometown entrepreneurship](https://www.library.hbs.edu/working-knowledge/charting-the-decline-of-the-hometown-entrepreneur), [NBER business formation](https://www.nber.org/papers/w34881), and [Census county Business Formation Statistics](https://www.census.gov/econ/bfs/data/county.html).
 
-**Company and workers:** Count employer formation, payroll, hours, pay, and survival—not just applications.
+## The deeper finding
 
-**Customer:** Measure whether a needed service, price, quality, or opening hour changed.
+Local business policy is a conversion problem. The same application rate can produce very different places depending on rent, credit, permits, labor, roads, customers, and public buying. A town has not become more entrepreneurial until ideas become firms that remain open and useful.
 
-**Public power:** Track whether local lending, rent, skills, permits, roads, and public buying help ideas become durable firms.
+## What remains unproven
 
-## What would change the finding
-
-- The same county's applications, employer firms, payroll, closures, and business locations over time.
-- Owner residence, firm ownership, industry, customer base, and worker outcomes.
-- Service availability, prices, quality, and travel time after openings or closures.
-- Local rents, credit, labor supply, permits, and public contracts.
-- Surveys or behavior measuring trust, belonging, meeting places, and political participation.
+The evidence does not show whether an owner served the birthplace community, why an application failed, or whether an opening changed customer prices, quality, jobs, travel time, belonging, or political participation.
 
 ## Next test
 
-Compare counties with similar application rates but different application-to-employer transition rates. Follow the firms for two years and measure jobs, services, prices, meeting places, and local response.
+Compare counties with similar application rates but different application-to-employer transition rates. Follow firms for two years and measure openings, payroll, survival, services, prices, travel, and local response.
 
 ## Reading rule
 

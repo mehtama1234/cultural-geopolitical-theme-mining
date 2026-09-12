@@ -260,7 +260,7 @@ When inflation slows, prices are still rising. The rate has changed; the price l
 **Route:** local conditions → application → lasting firm
 **Still open:** services, belonging, and political effects
 
-The US has become less tied to the hometown entrepreneur. HBS reports that the local advantage for some entrepreneurs fell sharply from 1970 to 2018, while NBER finds that local business entry has two separate steps: deciding to apply and becoming an employer firm.  This matters because a county can show many new applications without gaining the lasting shop, job, service, or meeting place people imagine. The deeper finding is about conversion: local interest must become a durable firm before it can change local life.
+A county can show many new business applications without gaining a lasting shop, job, service, or meeting place. Starting a business is only the first step. The firm must receive money, survive, hire, serve customers, and remain in the place.  This matters for local policy. A grant, permit change, loan, or tax break should not be judged by applications alone. The meaningful result is conversion: local interest becomes a durable firm that customers can use and workers can rely on.
 
 [Read the HTML page](../site/us-local-business-place-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-business-place-matched-evidence-001.md)
 
@@ -490,7 +490,7 @@ Replacement can look like an ordinary customer choice while hiding a forced deci
 **Route:** review and search → purchase → return or complaint
 **Still open:** joined post-purchase quality and remedy
 
-Reviews and search can reduce the work of choosing, but the real customer cost appears after purchase if the product is wrong, late, poor quality, or hard to return. NBER finds that eBay shoppers searched about 36 times per purchase and that more search could help find lower prices. FTC guidance shows that return windows, shipping cost, restocking fees, refund rules, records, and payment method shape recovery. The evidence does not yet show that a particular review predicted a particular return. The useful finding is a measurement rule: trust should be checked against what happened after the sale.
+Reviews and search reduce the work of choosing. The real customer cost appears after purchase if the product is wrong, late, poor quality, or hard to return. A low price is not a low-cost choice if the buyer pays return shipping, loses work time, waits for a refund, or buys the product again.  Trust should therefore be checked against the result after the sale. A review may raise sales without predicting quality for the next customer. A platform that measures only the purchase misses the cost of a failed remedy.
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
 
@@ -540,7 +540,7 @@ After a disaster, a small firm may need cash before customers return or insuranc
 **Route:** eligibility rule → public demand → firm survival
 **Still open:** customer, worker, and owner-household effects
 
-When a US program lets larger firms qualify as “small,” the program may reach more firms while giving less room to the smallest ones. A Census-linked study finds lower revenue and higher exit for the smallest firms after size limits rose, with public contracts shifting toward larger firms.  The finding is not that larger firms are always bad recipients. It is that an eligibility change can quietly change who receives public demand. The next question is whether the shift changes worker pay, customer prices and quality, local choice, and owner households.
+When a public program lets larger firms qualify as “small,” it may reach more firms while giving less room to the smallest ones. Public contracts and demand can shift toward firms with more staff, cash, and capacity. The smallest firms may lose revenue, investment, or survival even though the program's eligible list has grown.  The key question is not whether larger firms can deliver value. It is what the program is trying to buy: low price, reliable delivery, local ownership, new firms, good jobs, innovation, or resilience. A wider rule can improve one goal and damage another.
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
