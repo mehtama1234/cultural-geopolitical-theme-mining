@@ -8,6 +8,8 @@ The careful finding is that trade policy can create a direct and a delayed price
 
 The delay changes what people see. A family may first notice a higher price on an imported good, then a smaller package, a missing brand, or a domestic substitute. By the time the indirect cost arrives through an input or a changed margin, the policy announcement may be old and the cause may be hard to trace.
 
+Consider a $4 product that becomes $4.25 soon after the tariff. The household can see the change, but the later cost may be less visible: the package falls from ten units to nine, a cheaper brand disappears, or a domestic producer raises its price after import competition weakens. The family may spend the same dollars and receive less. A shelf-price record alone cannot see the full trade.
+
 ## What the sources show
 
 An NBER study matching daily prices, country of origin, and tariff rates estimates about 20% retail pass-through for the 2025 tariffs and a roughly 0.7 percentage-point contribution to the all-items CPI by September 2025. Imported goods rose about twice as much as domestic goods in that study.
@@ -34,11 +36,15 @@ trade policy
 
 An average pass-through is not the same as a household bill. Firms may absorb a cost, change suppliers, reduce choice, change package size, or spread an increase across goods.
 
+The delay can also change firm behavior before it changes the shelf. A retailer may wait for its old inventory to sell. A producer may use an existing input contract until renewal. A buyer may switch suppliers, and a domestic competitor may revise its price only after it sees fewer imported alternatives. These steps explain why two studies can find different pass-through at different dates without one of them being wrong.
+
 There are at least three separate questions in the average: how much of the tariff reached the product, when it reached the shelf, and what the household did in response. A firm can hold the sticker price while cutting quantity or quality. A household can keep buying by switching stores, brands, or meals. A measured price may therefore understate the change in what the family receives.
 
 ## The four outside views
 
 **Household:** A family notices the goods it buys often and compares them with wages, rent, debt, and savings. A delayed increase can be hard to connect to the policy that started it.
+
+The household may respond without making a public judgment: buy fewer units, visit another store, repair an old item, choose a lower quality product, or place the purchase on a card. The later debt or missed purchase may be recorded far from the tariff data. That is why the household response cannot be inferred from the shelf price alone.
 
 **Company and sector:** Importers, retailers, domestic producers, and brands decide how to share the cost and whether to change supply, quality, size, or product choice. A higher price may also fund new production.
 
@@ -48,9 +54,11 @@ There are at least three separate questions in the average: how much of the tari
 
 This creates a political timing problem. The benefit of a trade policy may be described in terms of future production or bargaining power, while the cost arrives in a weekly basket. If the price change is delayed or spread across many goods, households may feel the effect without linking it to the policy. A direct blame path is possible but is not established by the price studies.
 
+The reverse mistake is possible too. A price rise after a tariff date may also reflect a weather event, a wage change, a shipping problem, or a firm decision unrelated to the tariff. A credible public account needs a comparable product, a clear exposure measure, and the full timing path. Otherwise a visible date can become a convenient explanation rather than a demonstrated cause.
+
 ## What remains unproven
 
-The studies do not show the same household's full basket, wage, job, package size, quality, savings, debt, or political response. They do not show whether a firm absorbed the cost temporarily and passed it through later, or whether the household changed quantity rather than price. The estimates use different products, periods, and methods, so they should not be added together.
+The studies do not show the same household's full basket, wage, job, package size, quality, savings, debt, or political response. They do not show whether a firm absorbed the cost temporarily and passed it through later, or whether the household changed quantity rather than price. The estimates use different products, periods, and methods, so they should not be added together. They also do not show whether a household noticed the change at the first price, the later margin change, or only after its usual product disappeared.
 
 ## What would change the finding
 
@@ -63,7 +71,7 @@ The studies do not show the same household's full basket, wage, job, package siz
 
 ## Next test
 
-Follow households and products for 18 months around a tariff change. Join country of origin and tariff exposure to checkout prices, quantities, package size, quality, wages, jobs, savings, and debt. Record retailer and supplier changes, then ask when a family noticed the change, what it stopped buying, and whether it linked that cost to the policy. Separate the first shelf effect from the later input and margin effect.
+Follow households and products for 18 months around a tariff change. Join country of origin and tariff exposure to checkout prices, quantities, package size, quality, wages, jobs, savings, and debt. Record retailer and supplier changes, then ask when a family noticed the change, what it stopped buying, and whether it linked that cost to the policy. Use less-exposed products as comparisons. Separate the first shelf effect from the later input and margin effect, and report price, quantity, quality, choice, and household borrowing separately.
 
 ## Reading rule
 
