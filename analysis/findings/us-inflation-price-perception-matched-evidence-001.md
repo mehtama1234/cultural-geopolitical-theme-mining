@@ -1,16 +1,14 @@
-# Slower inflation can still feel like a continuing loss
+# When slower inflation still feels like a continuing loss
 
 ## The argument
 
-When inflation slows, prices are still rising. The rate has changed; the price level has not gone back. A household that paid $100 for a basket and now pays $125 does not return to the old position because the next increase is smaller.
+When inflation slows, prices are still rising. The rate has changed; the price level has not gone back. A household that paid $100 for a basket and now pays $125 does not return to its old position because the next increase is smaller.
 
-The lived issue is repeated adjustment. The family buys a smaller package, changes stores, uses savings, delays a bill, or gives up care. If the cheapest option rose faster than the expensive one, trading down offers less relief. The price story is therefore about the basket, the wage, and the choices left after the first cut.
+The lived problem is repeated adjustment. The family buys a smaller package, changes stores, uses savings, delays a bill, or gives up care. If the cheapest option rose faster than the expensive one, trading down offers less relief. The price story is therefore about the basket, the wage, and the choices left after the first cut.
 
 ## Follow the basket, not the headline
 
-A household used to buy a budget brand, cook at home, and save a small amount each month. The budget brand rises sharply. The family buys less, switches stores, or uses credit. The next month starts from the higher price, so a smaller increase does not restore the old room.
-
-A national inflation rate cannot show which product disappeared, whether the substitute was worse, or what payment was delayed to make room.
+A household used to buy a budget brand, cook at home, and save a small amount. The budget brand rises sharply. The family buys less, switches stores, or uses credit. The next month starts from the higher price, so a smaller increase does not restore the old room. A national rate cannot show which product disappeared or what payment was delayed.
 
 ```text
 price level rises → repeated household adjustment → less buying power or substitution
@@ -31,11 +29,11 @@ Sources: [NBER Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
 
 ## The deeper finding
 
-There are three separate claims: prices rose, wages kept up or did not, and households changed what they bought. They should not be collapsed into “inflation hurts.” A family can report less buying power even when its nominal wage rose, because rent, debt, or a fixed care need leaves no easy substitute.
+Three claims must stay separate: prices rose, wages kept up or did not, and households changed what they bought. A family can report less buying power even when its nominal wage rose because rent, debt, or a fixed care need leaves no easy substitute. A lower inflation rate may calm the headline while the accumulated loss remains in the household budget.
 
 ## What remains unproven
 
-The sources do not follow one family from its exact basket to savings, debt, quality, stress, trust, and voting. They also do not show whether a cheaper substitute remained equally useful or safe.
+The sources do not follow one family from its exact basket to savings, debt, quality, stress, trust, and voting. They do not show whether a cheaper substitute remained equally useful or safe, or whether households recovered after prices stabilized.
 
 ## Next test
 
