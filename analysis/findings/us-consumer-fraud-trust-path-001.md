@@ -24,6 +24,10 @@ The first arrow may be outside the customer’s control. The later arrows are sh
 
 Timing is part of the loss. If $800 is missing for three days and the account can still pay rent, the direct harm may be partly repaired by a refund. If the same $800 causes an overdraft, a shutoff, or a missed housing payment before the decision arrives, the household carries costs that a later refund may not undo. The institution’s response should therefore be judged against the bill dates and account access that followed the report.
 
+The recovery process also asks the victim to become an investigator. The customer may need screenshots, call records, device details, identity documents, and a precise account of what was said. That work is harder for someone who lost a phone, has limited English, works during call-center hours, or is already dealing with a locked account. A system can call the process “available” while making the proof burden fall hardest on the person with the least room to provide it.
+
+The household may change behavior after recovery even when the money is returned. It may keep less in a bank account, avoid online sellers, use cash, refuse a useful transfer, or ask a relative to make payments. Those choices can reduce exposure to one kind of fraud and create another cost through lost convenience, weaker records, or less access to credit. A refund repairs the balance; it does not automatically restore the old set of choices.
+
 ## What the sources actually establish
 
 | Evidence | Meaning | What remains open |
@@ -43,6 +47,10 @@ Trust is built or lost in this second stage. A customer may continue using a ban
 
 There is a system-level tradeoff. Tighter monitoring can catch more suspicious activity, but it can also stop legitimate payments, especially when a customer is traveling, has limited digital access, or needs to pay an unfamiliar provider. A useful safety system has to measure prevented loss and false interruption together.
 
+The burden of false interruption is uneven too. A blocked luxury purchase is inconvenient. A blocked rent payment, paycheck deposit, prescription purchase, or small-business payroll can become a crisis within hours. Monitoring rules often see the transaction, not the consequence of its timing. Trust will depend on whether the customer can get a fast, understandable correction before the blocked payment causes a second loss.
+
+Fraud reporting is therefore partly a measure of institutional confidence. A person who expects no recovery may stay silent; a person who trusts the process may report a smaller loss. Higher reports can mean more fraud, better reporting, or both. Trends should be read beside recovery rates, response times, and account access, not as a simple measure of worsening behavior.
+
 ## What remains unproven
 
 The sources do not follow one US household from scam to report, decision, recovery, borrowing, account use, and later trust. They do not show whether monitoring lowers total loss without adding privacy, false-lockout, or access costs. They also do not establish that a particular response changed political or institutional trust. They do not show which recovery outcomes differ between unauthorized transactions and payments made after deception.
@@ -50,6 +58,8 @@ The sources do not follow one US household from scam to report, decision, recove
 ## Next test
 
 Link fraud type, payment route, report date, recovery amount, recovery time, complaint response, bill dates, account use, borrowing, and later household condition. Compare cards, bank transfers, and investment routes by age, disability, language, income, and digital access. Record whether the customer had authorized the payment, which proof the institution required, which services were blocked, and whether monitoring prevented or falsely stopped a legitimate payment.
+
+Run a recovery audit with matched cases that vary the payment route and the customer's ability to provide proof. Measure the first response, time to usable account access, amount ultimately recovered, bill failures, hours spent, stress, later use, and reporting of the next incident. Separately test false blocks using ordinary rent, payroll, travel, and medical payments. The goal is to find the point where extra screening prevents loss without making essential use too fragile.
 
 ## Reading rule
 
