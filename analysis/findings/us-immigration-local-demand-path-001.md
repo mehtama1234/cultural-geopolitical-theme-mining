@@ -14,6 +14,10 @@ A small town receives new workers and their families. A grocery store adds custo
 
 None of these outcomes cancels the others. They are separate links. The customer demand may create jobs while housing supply lags. A new business may improve service while competing for workers. A national inflation measure may show little net change while one neighborhood sees a sharp rent or wait-time change.
 
+The order of adjustment matters. New customers can arrive in weeks, while a home, classroom, clinic, or bus route may take years to add. Firms can respond by extending hours or raising wages, but those responses may also raise prices. A town can therefore show a good first-year job result and a bad housing result at the same time. Looking only at the final number misses the period when residents had to absorb the gap.
+
+The legal and economic paths can also diverge. A worker may be allowed to work but unable to access a license, bank account, lease, or health service easily. An employer may value the worker while the household remains exposed to unstable housing or fear of an administrative problem. “Arrived” is not a complete measure of becoming part of the local economy. The relevant question is which doors opened, which remained closed, and what the household had to pay to use them.
+
 ```text
 new residents arrive → more workers, customers, and needs
 → firms, jobs, wages, housing, and public services respond
@@ -41,6 +45,10 @@ This also changes the customer story. New residents create demand for food, chil
 
 Belonging is another local result that cannot be read from jobs or prices alone. A new store, language, or neighborhood group may make a place more usable for new residents and change how long-time residents see it. Political conflict may follow the speed of change, the visibility of pressure, and whether people believe rules are shared—not simply the number of arrivals.
 
+The same capacity choice can distribute gains and costs unevenly. If a town adds language support at school, children may gain while the budget or staff time comes from another service. If it expands housing, renters may gain but existing owners may see a different property market. If it does nothing, the cost may appear as crowded classrooms, longer clinic waits, or informal care inside families. The question is not whether the town pays; it is which bill arrives, who pays it, and whether the new capacity remains after the initial inflow.
+
+This is where local politics can turn a real capacity problem into a fight about identity. Residents may use newcomers as the visible explanation for rent, traffic, or service delays that also reflect years of underbuilding or weak funding. New residents may experience the same bottleneck as evidence that they are not welcome. Both reactions can be politically powerful without fully identifying the economic cause. A useful account must test the bottleneck and the belief separately.
+
 ## Four views of the same arrival
 
 **New resident:** What work, home, services, language help, and customer choices became available or harder?
@@ -58,6 +66,8 @@ The findings do not show current housing, service capacity, wages, taxes, or pol
 ## Next test
 
 Follow matched places for five years before and after a change in new-resident inflow. Join migration, customer demand, firm entry and survival, housing, wages, service wait times, tax receipts, school capacity, clinic access, transport, and local attitudes. Report who gains jobs and services, who faces higher costs, how fast supply responds, and whether belonging changes.
+
+Measure the adjustment by month for the first two years, then annually. Match places on starting housing supply, jobs, service capacity, and growth before comparing inflows. Track legal access, licensing, banking, leases, language support, and actual use of services for new and long-time residents. Add local messages and meeting records to see whether political blame follows the measured bottleneck, the speed of change, or the visibility of the newcomer group.
 
 ## Reading rule
 
