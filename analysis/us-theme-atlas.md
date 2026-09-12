@@ -32,6 +32,8 @@ Follow customer power and firm competition into service and price, then ask when
 
 Still missing: The current historical study and service evidence do not follow today's customer through treatment, switching, complaint and political response.
 
+[Read the complete connected memo](../site/us-consumer-discrimination-competition-path-001.html)
+
 ### When a tariff keeps moving after the first price rise
 
 Follow a tariff from the first import price into the existing pass-through evidence, then ask how the delayed domestic markup changes the price story a household sees.
