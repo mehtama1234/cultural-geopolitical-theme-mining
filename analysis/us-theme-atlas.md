@@ -212,6 +212,8 @@ Follow water quality from public investment into the condition of a home and the
 
 Still missing: The current sources do not follow the same household from water quality to bottled-water spending, home value, care or health. The path is a connected question, not a proven chain.
 
+[Read the complete connected memo](../site/us-safe-drinking-water-path-001.html)
+
 ### When a lower bill hides an unmet need
 
 Compare going without insurance, skipping treatment and relying on family help. Spending alone may miss what a household has given up.
