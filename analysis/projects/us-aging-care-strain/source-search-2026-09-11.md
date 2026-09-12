@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short verification pass; the care-to-work effect remains open
+**Status:** first matched evidence pass completed; full care-to-work cost remains open
 
 ## Working question
 
@@ -35,6 +35,10 @@ The first two links have direct evidence. The size and duration of the later eff
 BLS reports that 38.2 million people—14% of the civilian noninstitutional population age 15 and over—provided unpaid eldercare in 2023–24. Fifty-two percent of providers gave care at least several times a week, and one-quarter provided care daily. Among providers who were also parents of children living at home, 86% were employed and 72% worked full time.
 
 The same release says employed providers gave care on 21% of days, compared with 38% for providers who were not employed. This is a difference in care timing and employment status, not proof that care caused a person to leave work. The NBER study remains the next source for timing and earnings effects.
+
+## Matched evidence result
+
+The BLS scale and time measures now pair with NBER earnings records. Together they support unpaid care as a real labor and household issue, while leaving the full tradeoff open: paid care avoided, wages lost, health, savings, and the older person's outcome.
 
 [BLS 2023–24 unpaid eldercare release](https://www.bls.gov/news.release/elcare.htm)
 

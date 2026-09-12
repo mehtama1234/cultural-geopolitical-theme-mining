@@ -43,6 +43,7 @@ routes = {
     "us-benefit-cliff-work-choice-matched-evidence-001": ("Cost / work / voice", "earnings rise → aid changes → real household room", "same-family net resources and work outcome"),
     "us-family-support-hidden-safety-net-matched-evidence-001": ("Cost / family / work / voice", "household shock → family help → helper cost", "receiver and helper's later stability"),
     "us-childcare-work-cost-matched-evidence-001": ("Cost / family / work / voice", "child care need → paid or unpaid care → work change", "same-family income, quality, and stability"),
+    "us-aging-care-strain-matched-evidence-001": ("Cost / family / work / voice", "aging or illness → unpaid care → work and money loss", "care quality, caregiver recovery, and public support"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()
