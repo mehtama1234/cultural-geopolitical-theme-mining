@@ -6,11 +6,15 @@ After a disaster, a family may need money before insurance, aid, or normal work 
 
 The right question is therefore not “Did the loan help?” in the abstract. It is: what did the money preserve, when did it arrive, what other help was available, and what payment did the family accept in exchange? A lower bankruptcy rate is meaningful protection. It does not mean that debt is harmless or that every approved borrower ends up better off.
 
+Timing can decide whether the loan is a bridge or a trap. Money that arrives before a car is lost may preserve transport to work. Money that arrives after the family has missed several shifts may only pay for a replacement after income has already fallen. A $12,000 loan might prevent a larger loss, but a $350 monthly payment can still compete with rent, food, medicine, and the next repair. The outcome is not contained in the amount approved.
+
 ## Follow one disaster through a household
 
 Imagine a family whose car is damaged in a storm. The car is needed for work, school, and medical visits. The family has little cash and insurance does not cover the full loss. A federal disaster loan arrives while the repair or replacement is still possible. The family keeps working, but now owes a payment every month.
 
 Another family has the same damage but waits for aid, borrows from relatives, or gives up the car. The first family may look financially healthier three years later because it avoided bankruptcy and kept a needed asset. Yet the comparison must still ask whether the loan payment crowded out food, care, repairs, or savings, and whether the second family received different help.
+
+The comparison is difficult because the families may not be interchangeable after the disaster. Approval may depend on credit, documentation, collateral, or the ability to complete an application. A denied family may have received a grant, moved in with relatives, or lost the asset entirely. Lower bankruptcy among approved applicants is strong evidence in the studied cutoff, but it is not proof that every loan is better than a grant or that every borrower preserved the same need.
 
 ```text
 disaster loss or payment outage → urgent bill and lost work or mobility
@@ -34,13 +38,17 @@ Sources: [NBER Working Paper 32845](https://www.nber.org/papers/w32845) and [NBE
 
 Emergency credit is a bridge between a shock and the next stable state. Its value comes from what it keeps in place: a car, a home, a job, a payment record, or the ability to reach care. Its cost appears later as interest, risk, and less room for the next problem. Public recovery systems should therefore be judged by the whole bridge, not only by approval counts or the first month of spending.
 
+The larger finding is that “recovery” has at least two clocks. The first is the emergency clock: can the household pay for the repair or keep moving this week? The second is the repayment clock: can it carry the new obligation through the next three years without giving up another need? A program that performs well on the first clock can still fail on the second. A program that is cautious on repayment may arrive too late to preserve the thing the household needed.
+
+This also connects credit to public trust. A household may remember the loan as the reason it kept working, or as the debt that followed a disaster it did not cause. The current evidence does not measure that judgment or show whether it changes support for disaster policy. That is a next question, not part of the observed bankruptcy result.
+
 ## What remains unproven
 
-The evidence does not tell us whether the loan preserved a job, reduced health harm, or improved long-term wealth for each borrower. It does not compare the loan with a grant, insurance payment, flexible repayment, or direct repair. Nor does it show how results differ by income, race, disability, disaster type, interest rate, or the timing of aid.
+The evidence does not tell us whether the loan preserved a job, reduced health harm, or improved long-term wealth for each borrower. It does not compare the loan with a grant, insurance payment, flexible repayment, or direct repair. Nor does it show how results differ by income, race, disability, disaster type, interest rate, or the timing of aid. It also does not show which households were unable to apply or what happened to the need when they were denied.
 
 ## Next test
 
-Follow approved borrowers and similar denied applicants for five years. Join the disaster damage record to loan amount, rate, term, fees, collateral, insurance, aid, family help, cash access, repairs, purchases, work, health, delinquency, credit, bankruptcy, and household consumption. The central comparison should be the same preserved need funded in different ways—not simply “borrower” versus “non-borrower.”
+Follow approved borrowers and similar denied applicants for five years. Join the disaster damage record to loan amount, rate, term, fees, collateral, insurance, aid, family help, cash access, repairs, purchases, work, health, delinquency, credit, bankruptcy, and household consumption. Record application barriers and the date each form of help arrived. The central comparison should be the same preserved need funded in different ways—not simply “borrower” versus “non-borrower.”
 
 ## Reading rule
 
