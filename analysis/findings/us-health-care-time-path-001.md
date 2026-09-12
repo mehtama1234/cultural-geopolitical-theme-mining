@@ -4,7 +4,9 @@
 
 When a household cannot easily pay for care, the cost does not vanish. It moves into a missed appointment, an unpaid family shift, fewer paid work hours, a job kept for health coverage, or a bill that remains on the credit record. These are different costs. A family can be protected in one place and exposed in another.
 
-Consider an adult who needs regular care and a daughter who works by the hour. She may take time off, ask another relative for help, keep a job because it carries insurance, or delay the visit until the problem is worse. If a medical balance is later removed, the credit record may improve while the daughter still has the same care hours and the patient still has the same health need.
+Consider an adult who needs regular care and a daughter who works by the hour. The appointment is at 10 a.m.; the daughter starts work at 8 and has no paid leave. She may trade a shift, ask another relative for help, pay for a ride, keep a job because it carries insurance, or delay the visit until the problem is worse. Each choice protects one thing by putting pressure on another. If a medical balance is later removed, the credit record may improve while the daughter still has the same care hours and the patient still has the same health need.
+
+That is why the bill is not the whole cost. The family may be paying in time before it pays in dollars. The person who drives, schedules, translates, waits, or checks on the patient may not appear as a patient or debtor in the data. A household can report that care was received while hiding the work needed to make the care possible.
 
 ## Follow one care need through the household
 
@@ -28,15 +30,21 @@ Sources: [BLS unpaid eldercare](https://www.bls.gov/news.release/elcare.htm), [N
 
 ## The deeper finding
 
-Health pressure is often paid through a chain of household resources. The useful unit is the person receiving care plus the people supplying money, time, transport, paperwork, and coverage. A care policy can lower a bill while leaving the family member who drives to appointments without paid leave.
+Health pressure is often paid through a chain of household resources. The useful unit is the person receiving care plus the people supplying money, time, transport, paperwork, and coverage. The order matters. A family with cash may buy help and protect work. A family without cash may supply the hours itself. A family without time may delay care. The same medical need therefore produces different recorded costs depending on which resource runs out first.
+
+There is a second hidden transfer inside the household. One person's coverage can hold another person's job in place. A worker may stay in a job with worse hours, pay, or conditions because leaving would end a child's or parent's coverage. The job is then doing two jobs: paying the worker and carrying the family's route to care. A coverage rule can keep a family insured while narrowing the worker's ability to move.
+
+Debt relief shows the same split. Clearing a medical balance can remove a barrier in a credit report, but it does not return the missed shift, the unpaid family hours, the delayed treatment, or the money already spent on transport. Financial repair and health repair are related but separate outcomes. A strong finding must say which one changed.
+
+This is also a political path. If families repeatedly solve care problems through unpaid work, job lock, and borrowing, they may not describe the issue as a health policy failure. They may describe it as an employer problem, a transport problem, a debt problem, or a family duty. Only after those private fixes stop working might the same pressure become a demand for paid leave, wider coverage, local care, or debt protection. That is a possible path, not an established voting result.
 
 ## What remains unproven
 
-The sources do not follow one household across medical cost, treatment, unpaid care hours, paid work, coverage, earnings, debt, and later health. They do not show which resource was scarce first or which intervention gives lasting security.
+The sources do not follow one household across medical cost, treatment, unpaid care hours, paid work, coverage, earnings, debt, transport, and later health. They do not show which resource was scarce first, whether a job was kept mainly for coverage, or which intervention gives lasting security. They also do not show when private family help becomes public anger, or whether families with no available helper face a different path.
 
 ## Next test
 
-Join medical costs, treatment use, unpaid care hours, paid work, employer coverage, earnings, debt, and health for the same household. Split results by income, gender, age, race, disability, family role, and place. Test whether a change in leave, coverage, or debt relief changes the other parts of the chain.
+Join medical costs, treatment use, unpaid care hours, paid work, employer coverage, earnings, debt, transport, and health for the same household. Follow the household before and after a new regular care need. Split results by income, gender, age, race, disability, family role, and place. Test whether a change in paid leave, coverage, transport support, or debt relief changes the other parts of the chain. Record both the crisis avoided and the work, money, and choices the family still gave up.
 
 ## Reading rule
 
