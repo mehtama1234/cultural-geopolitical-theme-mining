@@ -692,6 +692,8 @@ Follow a change in pay risk into spending and credit, then ask whether the house
 
 Still missing: The current sources do not follow the same worker through pay risk, cash reserves and later household outcomes.
 
+[Read the complete connected memo](../site/us-income-volatility-spending-path-001.html)
+
 ### When a temporary payment becomes a monthly bill
 
 Follow a one-time payment into a vehicle or other durable purchase, then ask whether financing protects access or narrows later room.
