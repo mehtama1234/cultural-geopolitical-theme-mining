@@ -16,6 +16,10 @@ Now imagine the same rule with automatic data matching, a reminder in the family
 
 The timing can create a loop. The family loses food support in April, borrows for groceries in May, and takes extra work in June to repay the debt. A later record may show employment, but it will not show whether the work replaced the benefit or was taken because the benefit disappeared. A short interruption can therefore change the next choice without proving that the rule made the family more self-sufficient.
 
+The burden is not only the number of forms. It is the need to predict an unstable month. A worker with changing hours may have to report income before the final paycheck is known, then explain why the later number differs. A parent may have to choose between staying on hold and collecting a child from school. A person who misses one notice may spend weeks proving that the missed notice was not a refusal. The public system turns ordinary uncertainty into a test of record keeping.
+
+That test can move risk from the program to the household. When the agency waits for proof, the family carries the food gap, late fee, overdraft, or borrowed grocery bill. If the claim is later restored, the official record may say the error was corrected while the household still carries the cost of the interruption. A complete account has to follow the gap, not only the final eligibility decision.
+
 ```text
 food or income need → eligibility and work rule → application, report, renewal, or correction task
 → benefit kept, lost, or never reached → food, work, debt, health, and trust outcome
@@ -42,6 +46,10 @@ There is also a public measurement problem. The program may report fewer recipie
 
 This changes the meaning of “program participation.” It is not only a measure of need. It is also a measure of whether the public system has made need legible and receipt possible.
 
+The political effect can be quiet. A family that loses help after an unexplained notice may stop trusting the agency and avoid other programs, even when it remains eligible. A family that receives a fast, respectful correction may learn that public support is usable and tell others how to reach it. In this way, administrative friction affects future take-up, not only the current month. The rule may be written nationally, but its social meaning is made at the desk, on the phone, and in the delay before a correction.
+
+There is a difference between a rule that asks for information and a rule that makes the claimant produce information the government already holds. If the state can verify wages or identity but still requires repeated manual proof, the extra task is a design choice. That does not mean automatic approval is always right; it means the cost and error rate of the extra proof should be counted alongside the intended screening benefit.
+
 ## What remains unproven
 
 The evidence does not show that every exit represents lost food security, or that every work rule has the same result. It does not separate all causes of nonreceipt, including stigma, confusing notices, local staffing, sanctions, fraud checks, and changing need. Participation loss is a warning signal, not completed proof of harm. The studies also do not show whether automatic renewal improves food security without keeping people enrolled after their need has ended.
@@ -49,6 +57,8 @@ The evidence does not show that every exit represents lost food security, or tha
 ## Next test
 
 Use county and census-tract records to follow applications, renewals, exits, office locations, call wait times, online access, food security, debt, health, and employment. Compare automatic renewal, online renewal, and in-person help. Record whether a person exits because income rose, because a task failed, or because an agency could not resolve an error. Measure the food and debt position before and after exit, and follow work hours rather than treating any later employment as a successful replacement.
+
+Run a field test that gives some eligible households automatic renewal, clear notices in their preferred language, and a rapid correction channel, while others receive the usual process. Measure not only enrollment and cost, but days without food support, borrowing, missed work, call time, stress, and later use of other programs. The test should report false exits and successful exits separately. A lower caseload is useful only when it comes with evidence that the household no longer needed the benefit or received a workable replacement.
 
 ## Reading rule
 
