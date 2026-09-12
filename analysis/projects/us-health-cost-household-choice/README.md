@@ -19,6 +19,11 @@ price, bill, coverage, or payment rule
 
 This is a short discovery pass. It will become a larger project only if the next sources connect the reported choice to later household or institutional outcomes.
 
+## Matched evidence pass
+
+- [A medical cost can change care, work, and debt in different ways](../../findings/us-health-cost-household-choice-matched-evidence-001.md)
+- [Reader-friendly HTML](../../../site/us-health-cost-household-choice-matched-evidence-001.html)
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** first matched evidence pass completed; linked household and political paths remain open
 
 ## Working question
 
@@ -30,6 +30,10 @@ medical price or coverage gap
 ```
 
 The first link has current survey evidence. The later links need a specific study or record.
+
+## Matched evidence result
+
+The evidence separates the health-cost path into care choice, health shock, work, debt, credit, and coverage. The Federal Reserve reports that 26% of adults skipped some care because of cost in 2025. NBER studies show that hospital admissions can affect earnings and credit, Medicaid can reduce medical collections, and medical-debt relief can change financial measures without changing average health or care use. The next step is therefore to name the outcome rather than treat “medical debt” as one result.
 
 ## Main gaps
 
