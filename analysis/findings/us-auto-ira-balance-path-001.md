@@ -12,6 +12,8 @@ An employee is enrolled in an IRA because the employer does not require an activ
 
 Another worker lowers the contribution or withdraws savings. A third has enough cash to leave the default untouched. The same policy creates different balance sheets because the workers began with different cash room.
 
+The emergency reveals the trade. If the worker can pause the contribution and pay for the repair without high-cost debt, the default may preserve both short-term and long-term room. If pausing is confusing or the money is hard to access, the worker may borrow while an account grows that cannot help today. The same enrollment rule can therefore be useful for one household and costly for another.
+
 ```text
 automatic saving at work → account opens and money moves → less take-home room today
 → spending, withdrawal, or credit-card balance changes → liquid buffer and retirement security may diverge
@@ -35,13 +37,19 @@ The default reaches into the timing of household money. It asks a worker to prot
 
 This makes automatic saving both a retirement policy and a short-term cash-flow policy. Its fairness depends on whether the design gives people a safe way to pause, withdraw, or change the contribution when life changes.
 
+The account balance also has a timing problem. A dollar in retirement is not the same as a dollar available before rent, medicine, food, or a car repair. A higher balance can be good long-term evidence while the household becomes more fragile this month. Conversely, a withdrawal may protect housing or health today while reducing later security. Neither outcome can be judged from the account total alone.
+
+The design changes who bears the choice. A default makes saving easier by removing an active decision, but it can also hide the decision from a worker who does not know how to change it. An employer may count participation as a benefit while the worker carries the debt cost. A fair test must ask whether the worker understood the choice, could change it, and had another safe source of emergency cash.
+
+The political link is modest but worth testing. If a worker sees an employer benefit create a balance while a repair pushes the household into debt, trust in workplace finance may fall. If the account is easy to control and prevents a future crisis, it may build trust. The current study does not measure either response or a later policy view.
+
 ## What remains unproven
 
-The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, or whether workers understood the default and could change it without friction.
+The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, whether workers understood the default, or whether they could change it without friction. It also does not show whether higher debt was temporary, useful, or harmful.
 
 ## Next test
 
-Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card utilization, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve and test an easy pause or withdrawal path.
+Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card use, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve, contribution rate, and understanding of the default. Test an easy pause or withdrawal path and measure both the emergency avoided and the retirement balance retained.
 
 ## Reading rule
 
