@@ -23,6 +23,10 @@ automatic saving at work → account opens and money moves → less take-home ro
 
 The contribution is also not the only design choice. A default can include a low starting rate, automatic increases, an emergency-savings pocket, an easy pause, or a withdrawal rule. These features change whether the worker must choose between retirement security and a current crisis. The evidence on account and debt changes does not tell us which design produces the best full balance sheet.
 
+The same dollar can have competing jobs. It can stay in checking for a repair, pay down a card, cover a late fee, or enter an account meant for old age. If the household has no reserve, the choice is not between saving and spending. It is between different forms of protection, each with a different time and price. A default that ignores this can move the visible saving while leaving the underlying risk unchanged.
+
+The employer also changes the meaning of the benefit. A worker may think the workplace is helping because an account appears automatically, while the employer may count only enrollment. If the worker cannot easily pause the contribution, the workplace has shifted part of the emergency decision into a system the worker does not control. A usable benefit needs a clear way to see the deduction, change it, and get help without losing the account.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
@@ -49,6 +53,8 @@ The design changes who bears the choice. A default makes saving easier by removi
 
 The political link is modest but worth testing. If a worker sees an employer benefit create a balance while a repair pushes the household into debt, trust in workplace finance may fall. If the account is easy to control and prevents a future crisis, it may build trust. The current study does not measure either response or a later policy view.
 
+This is also a public design question. A state can make enrollment easy, but it cannot assume that every worker has the same cash room. The policy may need a separate liquid reserve, a safe pause, or support that reaches workers outside stable jobs. Otherwise the people most in need of long-term saving may be the people most likely to finance it with costly short-term debt. That is an inference from the balance-sheet tradeoff, not a result established by the study.
+
 ## What remains unproven
 
 The study does not show the full interest cost, essential spending, withdrawals, missed payments, or later retirement balance for the same workers. It does not establish which contribution rate works across incomes, whether workers understood the default, or whether they could change it without friction. It also does not show whether higher debt was temporary, useful, or harmful. It does not show whether an emergency-savings feature would replace credit-card borrowing or simply add another account.
@@ -56,6 +62,8 @@ The study does not show the full interest cost, essential spending, withdrawals,
 ## Next test
 
 Follow workers before and after automatic enrollment for two years. Record take-home pay, liquid savings, retirement savings, withdrawals, credit-card use, interest, repayment, rent, food, care, energy, transport, and repairs. Compare outcomes by starting cash reserve, contribution rate, and understanding of the default. Test an easy pause, emergency-savings pocket, or withdrawal path and measure both the emergency avoided, the interest paid, and the retirement balance retained.
+
+For each paycheck, map where the contribution came from and what replaced that money when a shock arrived. Record whether the worker paused, borrowed, skipped a bill, received family help, or used another account, and measure the cost of each response. Compare a retirement-only default with a paired liquid reserve and a plain-language control panel. The key result is not participation; it is whether the worker finishes the period with less expensive debt and more usable security.
 
 ## Reading rule
 
