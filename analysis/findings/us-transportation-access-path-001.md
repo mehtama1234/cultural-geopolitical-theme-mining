@@ -1,85 +1,53 @@
-# When the trip is part of the price
+# The trip is part of the price of a place
 
-## Short answer
+## The argument
 
-A household does not buy only a home or a job. It also buys the route between them. Transportation takes money through a vehicle, fuel, insurance, fares and repairs, and it takes time through the commute. A lower rent can lose some of its value if reaching work, food, care or childcare costs more.
+People often compare a job with its wage and a home with its rent. That misses the cost of reaching them. A cheap home far from work may require a car, insurance, fuel, repairs, and a long commute. A job with a better wage may be unusable if the route is unreliable or the child-care pickup window is too tight. Transportation is not just another bill. It is the price of turning a location into a workable life.
 
-The careful finding is that transportation is part of household access, not just a separate spending category. A costly trip may still be worthwhile if it opens a better job or service. The next question is who has a workable alternative when the trip becomes too expensive.
+This does not mean every long trip is a loss. A costly commute can buy access to a much better job. A car can make a rural household more resilient. A train can let someone avoid owning a car. The real question is whether the household has alternatives when one route becomes expensive, unsafe, or unreliable.
 
-## What the sources show
+The deeper finding is that access has an option value. Two households with the same rent and wage can have different security if one can switch jobs, stores, schools, or care providers without taking on a second large cost. A place is affordable only in relation to the network around it.
 
-### 1. Transportation is one of the largest household costs
+## Follow one household
 
-The Bureau of Labor Statistics reports that transportation averaged $13,318 per consumer unit in 2024, or 17.0% of total spending. Housing and transportation together accounted for more than half of average spending.
+Consider two families paying $1,600 in rent. Family A lives near a bus line and a grocery store. Family B pays the same rent but needs a car for work, school, and food. Family B’s monthly cost includes a loan or lease, insurance, fuel, maintenance, registration, and the risk of a repair. The numbers may look manageable until the car fails or insurance rises.
 
-This is an average, not a household bill. It does establish that movement is large enough to belong in the same first look as housing, food, health and insurance.
-
-[BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
-
-### 2. Vehicle insurance is part of the access cost
-
-BLS reports that average vehicle-insurance spending rose 12.3% in 2024, after an 11.5% increase in 2023. The measure records spending by consumer units, not the rate change for one policyholder.
-
-Still, the direction matters for households that need a car to keep a job, reach childcare or buy food. A required expense can rise even when the trip itself has not changed.
-
-[BLS transportation spending details](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
-
-### 3. Time is another payment
-
-Census reports that the mean one-way travel time to work was 27.2 minutes in 2024. Only 3.7% of workers used public transportation. A mean does not describe the people with very long commutes, people who work from home, or people outside paid work.
-
-The practical point is simple: a transportation choice can take hours as well as dollars. Those hours can compete with care, a second job, rest, school or local participation.
-
-[Census commuting estimates](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html)
-
-### 4. A place's value depends on the route to opportunity
-
-The NBER study *Driving to Opportunity* compares wages, local rents and commuting costs across 2,071 US areas. It treats the value of a place as a combination of what people earn, what housing costs and what it takes to reach opportunity.
-
-The study is older and does not measure current hardship. Its lasting use here is as a guard against reading rent alone as affordability.
-
-[NBER: Driving to Opportunity](https://www.nber.org/papers/w19922)
-
-### 5. Energy measures can leave the trip out
-
-DOE's LEAD tool defines household energy burden using electricity, gas and other household fuels, while noting that transportation is excluded from that measure. DOE points users to its State and Local Planning for Energy platform for combined household energy and transportation burden.
-
-This creates a useful research seam. A household may have a manageable home-energy bill but a costly route to work, or the reverse. The two should not be added casually, but neither should be treated as unrelated.
-
-[DOE LEAD energy-burden description](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
-
-## The connection
+If the repair cannot be paid, the family may miss work. Missed work can reduce income. Reduced income can delay rent or a medical bill. The transportation problem then appears in another dataset as lost wages, debt, or housing stress. The first cause is easy to miss because the household did not buy “access”; it paid many separate bills to preserve it.
 
 ```text
-home, job, food, care, or service location
-  -> distance and travel mode
-  -> fuel, vehicle, insurance, fare, time, or repair cost
-  -> work, food, care, housing, or local-business choice
-  -> household security and place attachment
+home and job locations
+  -> travel mode, distance, and reliability
+  -> fare, fuel, insurance, repair, and time cost
+  -> ability to reach work, food, care, and school
+  -> income, health, debt, and choice of place
 ```
 
-The sources support the size of the spending category, the insurance increase, the time requirement and the role of distance in the value of a place. They do not show which households can switch mode, move closer, work remotely or absorb a repair.
+## What the sources establish
 
-## What is fact, inference, and unknown
+| Evidence | Meaning |
+|---|---|
+| BLS reports average transportation spending of $13,318 per consumer unit in 2024, or 17.0% of total spending. | Movement is large enough to belong in the first affordability calculation, beside housing and food. |
+| BLS reports average vehicle-insurance spending rose 12.3% in 2024 after an 11.5% rise in 2023. | A household’s required route can become more expensive even when its job and home do not change. |
+| Census reports mean one-way travel time to work of 27.2 minutes in 2024; 3.7% of workers used public transportation. | Time and the availability of alternatives are uneven; an average hides the long-trip household. |
+| NBER’s *Driving to Opportunity* compares wages, rents, and commuting costs across 2,071 US areas. | Rent alone is a poor measure of the value of a place. |
+| DOE’s basic household energy-burden measure excludes transportation. | Energy hardship and travel hardship can sit in separate records even when they hit the same budget. |
 
-**Fact:** BLS measures transportation spending and vehicle-insurance spending. Census measures travel time and transit use. NBER compares rent, wages and commuting costs. DOE says transportation is outside its basic energy-burden measure.
+Sources: [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm), [Census commuting guidance](https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html), [NBER: Driving to Opportunity](https://www.nber.org/papers/w19922), and [DOE LEAD](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool).
 
-**Inference:** Transportation can be a hidden part of housing and work affordability because it is the price of reaching the thing that appears affordable.
+## The deeper finding
 
-**Unknown:** We do not know whether a household responds to a higher travel cost by moving, changing jobs, working fewer hours, borrowing, skipping care, changing food stores or accepting less rest.
+Transportation creates a chain of dependence. When a household has only one workable route, a price increase or breakdown is not a small inconvenience. It can remove access to a job, a store, a doctor, or a care arrangement. The household may respond by borrowing, working fewer hours, skipping a visit, buying farther away, or moving. These responses can look like separate personal choices even though they share one cause: the loss of a reliable route.
 
-## What would change the finding
+This also explains why broad averages can mislead. A national transportation share cannot tell us whether a household has useful transit, a safe walking route, a second car, remote-work access, or a repair fund. The meaningful measure is not transport spending alone. It is the cost of reaching necessary places compared with the household’s alternatives.
 
-- Household records joining housing, vehicle, fuel, insurance, commute and work outcomes.
-- Results by income, race, disability, age, family type, car ownership and place.
-- Reliable measures of transit frequency, safety, fare, missed trips and last-mile access.
-- Evidence on whether a transport shock changes food, childcare, health care, credit or housing choices.
-- A comparison of households that gained a nearby job or reliable transit option.
+## What remains unknown
+
+The sources do not show which households absorb higher travel costs and which lose work, care, food choice, or rest. They do not join vehicle failure, insurance, commute reliability, debt, and health outcomes at the household level. The NBER study is older and is not a current hardship estimate.
 
 ## Next test
 
-Compare two metropolitan areas and two rural areas using BLS spending, Census commute and vehicle data, DOE combined burden measures, and local transit or road-reliability records. Keep three questions separate: what the trip costs, what it makes possible, and what the household gives up to make it.
+Compare two metro areas and two rural areas. Join housing, wages, vehicle ownership, insurance, fuel, repair, commute time, transit frequency, missed trips, food access, and care access. Separate three questions: what the trip costs, what it makes possible, and what the household gives up when the route fails.
 
 ## Reading rule
 
-Transportation spending is not automatically a loss. The trip may buy access. The finding concerns unequal alternatives when the route becomes costly.
+Transportation spending is not automatically a loss. The trip may buy access. The finding concerns households that cannot replace a costly or broken route.
