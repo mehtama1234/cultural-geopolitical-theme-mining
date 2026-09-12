@@ -23,6 +23,8 @@ This is a short discovery pass. Go deeper only if records show what the system d
 
 Automation may improve service for simple questions while making repeated problems harder to solve. The key issue may not be whether a bot is friendly; it may be whether a customer can get a clear answer, a human review, and a remedy. This is a working idea, not a conclusion.
 
+The first current institutional measurement layer is the [CFPB complaint → response descriptive layer](cfpb-complaint-response-descriptive-layer-v1.md). It records complaint volume and response categories while preserving the limits that a published complaint is not a representative consumer sample and a company response is not necessarily a remedy.
+
 ## Scope
 
 - US customers and firms;
