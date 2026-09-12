@@ -16,6 +16,10 @@ The bill records the charge. It does not say whether the family was safe, whethe
 
 The timing matters as much as the total. A family may have enough income over a year but not enough cash when a heat wave, a rent due date, and a repair arrive together. It may pay the utility because shutoff is immediate, then delay rent or food. A high bill is therefore a signal of pressure, not a complete account of the choice it forced.
 
+The home can turn a short weather event into a long debt path. A family may use a card to keep the air conditioner on, then carry the balance into the next season. If it reduces cooling instead, the bill falls while heat exposure rises. If it moves, transport and rent may rise even if the utility bill falls. The same lower bill can therefore mean an improved building, less use, a vacant home, or a household that left.
+
+Energy insecurity is also a control problem between tenant and owner. A landlord may save money by postponing windows or equipment while the renter pays the monthly loss. The renter may ask for a repair but lack a quick remedy, and the landlord may not see the health or work cost created by the delay. The bill is sent to one person while the investment decision belongs to another.
+
 ```text
 building, fuel, income, or weather condition → energy bill or insecurity
 → food, medicine, rent, debt, comfort, work, or repair choice
@@ -45,6 +49,10 @@ Energy hardship also reaches the wider local economy. A household that cuts food
 
 The public question is who should carry the cost of an inefficient or risky place. A utility can spread it across customers, a landlord can invest or pass it into rent, a government can subsidize the bill or the repair, and a household can absorb it through comfort or debt. The sources show the pressure and the unequal control. They do not show which rule produces lasting safety.
 
+The politics often follows the bill that is easiest to see. Households may blame the utility because the charge arrives there, even when the cause is a bad building, extreme weather, or a landlord's delayed repair. Owners may blame regulation or insurance when the cost of making the building safe rises. Each view can be partly true while leaving the other link untouched. A useful public debate must name the building condition, the payment, the person with control, and the timing of relief.
+
+There is a tradeoff between broad relief and lasting change. A bill credit can stop a shutoff quickly and reach a renter who cannot alter the building. A repair program can reduce future bills but may take months, miss informal housing, or require an owner to participate. A rent rule can stop cost shifting but may affect maintenance or supply. The right comparison is not “aid versus reform”; it is which tool reaches the exposed household soon enough and changes the next season's risk.
+
 ## What remains unproven
 
 The current sources do not follow the same household from bill pressure to the first sacrifice, arrears, shutoff, borrowing, illness, missed work, move, or repair. They do not show whether bill help, weatherization, rent rules, or utility allowances protect long-term stability best. They do not show when a lower bill reflects a safer home versus less cooling or heating. The EIA categories can overlap and should not be added as separate households.
@@ -52,6 +60,8 @@ The current sources do not follow the same household from bill pressure to the f
 ## Next test
 
 Use LEAD and 2024 RECS to define exposure groups, then add utility bills, arrears, shutoff and assistance records. Compare renters and owners with similar income and climate. Link home condition to food, medicine, temperature, health, work, rent, credit, and later housing stability. Follow a heat wave or major repair month by month and record which bill was paid, which need was cut, who controlled the fix, and whether help arrived before the next shock.
+
+Compare three interventions at the same time: immediate bill aid, a fast repair or weatherization package, and aid plus a repair requirement for the owner. Measure the first month separately from the next summer or winter. Record indoor temperature and air quality, not only energy use; a lower bill is not a success if the household is simply living in unsafe conditions. Include landlord participation, rent changes, move-outs, health, missed work, and arrears so the test shows where the cost went.
 
 ## Reading rule
 
