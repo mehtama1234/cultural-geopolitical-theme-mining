@@ -40,6 +40,16 @@ People may remember a few visible prices more than the full basket. Wages, house
 - how much trading down protects a budget and how much lowers quality;
 - the gap between national inflation and the prices people see most often.
 
+## Measurement check
+
+| Source | What it adds | Limit |
+|---|---|---|
+| [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm) | Average consumer units spent 1.8% more in nominal dollars while prices rose 2.9%, a 1.1% decline in real spending; housing took a larger share of spending. | These are averages and the spending data are not the same as a real-time price basket for each household. |
+| [BLS real earnings release](https://www.bls.gov/news.release/realer.htm) | Provides current and inflation-adjusted hourly and weekly earnings, allowing pay to be compared with the CPI. | Average payroll data do not show a household's rent, food, debt, hours, or product choices. |
+| [BLS CPI category table](https://www.bls.gov/news.release/cpi.t01.htm) | Separates all items, food, food at home, housing, and other categories rather than treating inflation as one number. | Category averages do not show package size, quality, promotions, or a person's actual basket. |
+
+The measurement layer supports the pressure story but also explains why the next step must use household spending and product data together. A national CPI, an average wage, and average spending answer different questions.
+
 ## Decision rule
 
 Pair survey beliefs with scanner, wage and household-budget data. Do not use a national inflation rate alone to explain why a person feels financially worse off.

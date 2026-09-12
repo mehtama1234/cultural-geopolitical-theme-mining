@@ -19,3 +19,5 @@ Look for US evidence that joins prices, wages, purchases and views of firms or g
 ## Matched evidence pass
 
 The first matched check is [Slower inflation can still feel like a continuing loss](../../findings/us-inflation-price-perception-matched-evidence-001.md), with its [HTML reading page](../../../site/us-inflation-price-perception-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It joins buying power, cheap options, customer fairness, and the still-open political link.
+
+The measurement check is [The inflation average is not the household basket](../../findings/us-inflation-measurement-household-basket-matched-evidence-001.md), with its [HTML reading page](../../../site/us-inflation-measurement-household-basket-matched-evidence-001.html). It joins BLS spending, earnings, and price categories while keeping average data separate from a same-household result.
