@@ -27,6 +27,7 @@ routes = {
     "us-rent-guarantee-market-matched-evidence-001": ("Cost / housing / finance", "lease screen → guarantee premium → tenant repayment risk", "lasting access and post-claim household debt"),
     "us-rent-guarantee-provider-comparison-matched-evidence-001": ("Cost / housing / finance", "provider screen → paid guarantee → landlord protection → tenant debt", "state terms, claims, repayment, and renewals"),
     "us-rent-guarantee-state-terms-matched-evidence-001": ("Cost / housing / voice", "provider → state filing → policy terms → tenant risk", "state policy forms, prices, and post-claim outcomes"),
+    "us-rent-guarantee-four-state-matched-evidence-001": ("Cost / housing / voice", "state rule → policy form → claim → tenant duty", "current rates, claims, repayment, and renewal by state"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

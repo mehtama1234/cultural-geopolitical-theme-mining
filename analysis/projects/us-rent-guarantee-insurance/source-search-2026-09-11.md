@@ -72,6 +72,15 @@ The common structure is not yet proof that the companies have equal terms. It is
 
 The public records support a state-terms table, but not a complete price table. Provider quotes are personalized and the policy forms, filings, and underwriting decisions are not all public in one place.
 
+## Four-state first check
+
+| State | Record found | What it shows | Status |
+|---|---|---|---|
+| California | [TheGuarantors California bond terms](https://www.theguarantors.com/terms-and-conditions-california) | Bonded leases require an indemnity agreement and paid premium; the term is capped at 24 months; the landlord must try to re-let after default; the surety receives collection rights after payment. | Documented policy terms |
+| New York | [NY Department of Financial Services consent order](https://www.dfs.ny.gov/industry_guidance/enforcement_discipline/ea20220628_guarantors) | The regulator described lease rental bonds as landlord-protection products bought by tenants and required approved rate filings after finding a rate-law violation involving nine-month bonds sold for twelve-month leases. | Documented regulatory history; current contract still open |
+| Texas | [Texas Property Code, Chapter 92](https://statutes.capitol.texas.gov/DocViewer.aspx?DocKey=PR%2FPR.92&ExactPhrase=False&HighlightType=1&Phrases=can%7Cconstables%7Cserve%7Ccivil%7Cpapers&QueryText=can+constables+serve+civil+papers) | A fee in lieu of a security deposit may fund insurance for damages and unpaid rent, but the fee does not remove the tenant’s duty to pay rent. After a valid insurer payment, the insurer may seek limited reimbursement under the statute. | Documented tenant-protection rule; provider match open |
+| Illinois | [Illinois insurance licensing guidance](https://idfpr.illinois.gov/banks/cbt/comcl/btfaqins.html) | Insurance sellers need producer licensing; the page is general guidance and does not identify a rent-guarantee provider, product form, or price. | Licensing context only |
+
 ## Decision rule
 
 Keep modeled welfare, actual claims, prevented eviction and later household security separate. The model is a design clue, not a measured market result.
