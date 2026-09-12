@@ -40,6 +40,8 @@ The one-job column is not a welfare score. It changes sharply across resource ba
 - No survey-design variance, confidence intervals, or multiple-comparison adjustment was computed.
 - The table does not connect a specific bill or institutional decision to a later choice, health outcome, trust judgment, political action, firm response, or geopolitical effect.
 
+The design-based uncertainty check is now recorded in the [Fay-BRR tenure × resource estimates](sipp-fay-brr-tenure-resource-estimates-v1.md). Treat this point-only table as exploratory and use that companion for the uncertainty-aware comparison.
+
 ## Next test
 
 Add region and household composition, then estimate design-based uncertainty. Pair the SIPP strata with CE, RECS, NHTS, MEPS, utility, insurance, or administrative records only as separate population/place layers unless a valid person or household join exists.

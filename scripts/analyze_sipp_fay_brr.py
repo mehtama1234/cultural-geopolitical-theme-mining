@@ -35,6 +35,12 @@ GROUP_LABELS = {
                  "2_to_4x": "2.00–3.99x poverty threshold",
                  "4x_or_more": "4.00x poverty threshold or more"},
 }
+GROUP_FIELDS = {
+    "ETENURE": ("ETENURE",),
+    "TEHC_REGION": ("TEHC_REGION",),
+    "THINCPOV": ("THINCPOV",),
+    "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
+}
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
 
@@ -56,6 +62,14 @@ def normalized_group(field: str, value: str) -> str:
     if ratio < 4:
         return "2_to_4x"
     return "4x_or_more"
+
+
+def group_key(group_by: str | None, row: dict[str, str]) -> str:
+    if not group_by:
+        return ""
+    values = [normalized_group(field, row.get(field, ""))
+              for field in GROUP_FIELDS[group_by]]
+    return "|".join(values) if all(values) else ""
 
 
 def new_accumulators(fields: list[str]) -> dict:
@@ -104,7 +118,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
         primary = csv.DictReader(primary_file)
         required = {"WPFINWGT", *KEYS, *fields}
         if group_by:
-            required.add(group_by)
+            required.update(GROUP_FIELDS[group_by])
         missing = sorted(required - set(primary.fieldnames or []))
         if missing:
             raise ValueError("primary slice is missing fields: " + ", ".join(missing))
@@ -114,7 +128,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             pkey = tuple(prow[key] for key in KEYS)
             if pkey in primary_by_key:
                 raise ValueError(f"duplicate person-month key in primary slice: {pkey}")
-            group = normalized_group(group_by, prow.get(group_by, "")) if group_by else None
+            group = group_key(group_by, prow) if group_by else None
             primary_by_key[pkey] = (prow.get("WPFINWGT", ""),
                                     {field: prow.get(field, "") for field in fields}, group)
 
@@ -168,7 +182,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
         "positive_weight_rows_matched": matched_rows,
         "fields": fields,
         "group_by": group_by,
-        "group_value_labels": GROUP_LABELS.get(group_by, {}) if group_by else {},
+        "group_value_labels": ({field: GROUP_LABELS[field] for field in GROUP_FIELDS[group_by]}
+                               if group_by else {}),
         "results": summarize(overall, fields),
         "by_group": {group: summarize(acc, fields) for group, acc in sorted(grouped.items())},
         "household_weight_used": False,
@@ -182,7 +197,7 @@ def main() -> None:
     parser.add_argument("--replicate-zip", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--fields", nargs="+", choices=sorted(LABELS), default=list(LABELS))
-    parser.add_argument("--group-by", choices=sorted(GROUP_LABELS), default=None)
+    parser.add_argument("--group-by", choices=sorted(GROUP_FIELDS), default=None)
     args = parser.parse_args()
     result = analyze(args.primary, args.replicate_zip, args.fields, args.group_by)
     args.output.parent.mkdir(parents=True, exist_ok=True)

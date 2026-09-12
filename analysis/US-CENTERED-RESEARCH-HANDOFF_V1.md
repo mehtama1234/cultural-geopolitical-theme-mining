@@ -20,7 +20,7 @@ The current run of `python3 scripts/validate_us_finding_parity.py` checks 63 fin
 
 ## Where we are going
 
-The canonical inventory of the broader societal, cultural, consumer, political, company, sector, and geopolitical objective is [US broad theme inventory v1](US-BROAD-THEME-INVENTORY_V1.md). Read it first when recovering the work after a crash or context loss.
+The canonical inventory of the broader societal, cultural, consumer, political, company, sector, and geopolitical objective is [US broad theme inventory v1](US-BROAD-THEME-INVENTORY_V1.md). The shorter [end-to-end program recovery brief](../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md) is the first file to read after a crash or context loss.
 
 The next major research stream will study the United States from the inside out: what customers and households experience, how firms respond, how money and credit shape the choices available, how public institutions react, and how those changes become social and political pressure.
 

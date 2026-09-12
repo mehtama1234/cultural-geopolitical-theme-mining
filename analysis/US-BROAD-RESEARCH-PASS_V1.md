@@ -70,6 +70,8 @@ The first uncertainty-aware subgroup comparison is the [SIPP Fay-BRR tenure laye
 
 The first uncertainty-aware resource comparison is the [SIPP Fay-BRR resource layer](projects/us-household-calendar-integration/sipp-fay-brr-resource-estimates-v1.md). It tests the monthly income-to-poverty gradient for the same material measures.
 
+The first uncertainty-aware tenure × resource comparison is the [SIPP Fay-BRR intersectional layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-resource-estimates-v1.md). It is a population distribution layer feeding the broad housing/place and unequal-exposure themes, not a replacement for the wider program.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
