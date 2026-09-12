@@ -34,7 +34,17 @@ AI can help a service worker answer faster and with a warmer tone. The evidence 
 
 [Read the HTML page](../site/us-customer-automation-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-customer-automation-matched-evidence-001.md)
 
-### 4. Insurance can turn a place risk into a staying problem
+### 4. Health coverage can hold a job in place
+
+**Theme:** Work / cost
+**Route:** health coverage → job choice → household security
+**Still open:** the full value of the job tradeoff
+
+A job can provide both wages and a route to health care. Research shows that dependent coverage can increase parental job retention, and that losing public coverage can push some people toward jobs that offer private insurance. This does not mean staying is harmful: the coverage may protect the family. The open question is what opportunity the worker gives up to keep it.
+
+[Read the HTML page](../site/us-health-insurance-job-lock-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-health-insurance-job-lock-matched-evidence-001.md)
+
+### 5. Insurance can turn a place risk into a staying problem
 
 **Theme:** Energy / housing
 **Route:** risk → insurance → ability to stay
@@ -44,7 +54,7 @@ Home insurance is becoming a housing cost in places with higher disaster risk, a
 
 [Read the HTML page](../site/us-home-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-home-insurance-matched-evidence-001.md)
 
-### 5. Payment choice is a distribution question, but not yet a household welfare result
+### 6. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
