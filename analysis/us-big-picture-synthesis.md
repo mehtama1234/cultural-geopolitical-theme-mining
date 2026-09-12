@@ -130,6 +130,12 @@ family, race, gender, disability, age, and access route can change both exposure
 and the ability to respond. The next requirement is one valid intersectional
 test, not a larger pile of one-dimensional averages.
 
+The first such test is now the [SIPP Fay-BRR race × resource layer](projects/us-household-calendar-integration/sipp-fay-brr-race-resource-layer-v1.md).
+It shows distributional differences in utility-payment difficulty, hunger, and
+one-job status across resource bands, with replicate-weight uncertainty. It is
+still a person-month diagnostic—not a causal explanation or a same-household
+link to later health, mobility, trust, or political action.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas

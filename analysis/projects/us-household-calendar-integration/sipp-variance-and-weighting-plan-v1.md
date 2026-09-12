@@ -11,7 +11,7 @@ The Census replicate-weight dictionary defines:
 - `REPWGT0` as equivalent to the primary-file `WPFINWGT` final person weight;
 - `REPWGT1` through `REPWGT240` as final person replicate weights.
 
-The replicate archive is approximately 536 MB. It is not committed to the repository. The current subgroup point diagnostics use `WPFINWGT` only. A first full-sample Fay-BRR result is recorded in the [SIPP Fay-BRR point estimates](sipp-fay-brr-point-estimates-v1.md); subgroup tables still do not carry design-based standard errors.
+The replicate archive is approximately 536 MB. It is not committed to the repository. The current subgroup point diagnostics use `WPFINWGT` only, except for the Fay-BRR subgroup results listed below. A first full-sample Fay-BRR result is recorded in the [SIPP Fay-BRR point estimates](sipp-fay-brr-point-estimates-v1.md).
 
 ## Required implementation
 
@@ -32,4 +32,4 @@ The available replicate weights are person weights. They support person-level es
 
 ## Current status
 
-The population, regional, and original two-way SIPP layers remain point diagnostics with this limitation stated. The full-sample, tenure, resource, and tenure × resource checks are complete in the [full-sample Fay-BRR result](sipp-fay-brr-point-estimates-v1.md), [tenure Fay-BRR result](sipp-fay-brr-tenure-estimates-v1.md), [resource Fay-BRR result](sipp-fay-brr-resource-estimates-v1.md), and [tenure × resource result](sipp-fay-brr-tenure-resource-estimates-v1.md). The next statistical-quality pass is to construct exact official universes before expanding comparisons.
+The population, regional, and original two-way SIPP layers remain point diagnostics with this limitation stated. The full-sample, tenure, resource, tenure × resource, and race × resource checks are complete in the [full-sample Fay-BRR result](sipp-fay-brr-point-estimates-v1.md), [tenure Fay-BRR result](sipp-fay-brr-tenure-estimates-v1.md), [resource Fay-BRR result](sipp-fay-brr-resource-estimates-v1.md), [tenure × resource result](sipp-fay-brr-tenure-resource-estimates-v1.md), and [race × resource result](sipp-fay-brr-race-resource-layer-v1.md). The next statistical-quality pass is to construct exact official universes before expanding comparisons.

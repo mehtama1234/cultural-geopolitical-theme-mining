@@ -27,6 +27,7 @@ LABELS = {
     "RMNUMJOBS": "one job",
 }
 GROUP_LABELS = {
+    "ERACE": {"1": "White alone", "2": "Black alone", "3": "Asian alone", "4": "Residual"},
     "ETENURE": {"1": "owned or being bought", "2": "rented",
                  "3": "occupied without payment of rent"},
     "TEHC_REGION": {"1": "Northeast", "2": "Midwest", "3": "South", "4": "West"},
@@ -36,10 +37,12 @@ GROUP_LABELS = {
                  "4x_or_more": "4.00x poverty threshold or more"},
 }
 GROUP_FIELDS = {
+    "ERACE": ("ERACE",),
     "ETENURE": ("ETENURE",),
     "TEHC_REGION": ("TEHC_REGION",),
     "THINCPOV": ("THINCPOV",),
     "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
+    "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
 }
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
