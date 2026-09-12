@@ -21,6 +21,7 @@ TARGETS = {
     "RFOODS": {"1": "high_or_marginal", "2": "low", "3": "very_low"},
     "EFOOD6": {"1": "yes", "2": "no"},
     "RMNUMJOBS": None,
+    "THINCPOV": None,
 }
 
 
@@ -30,6 +31,18 @@ def classify(field: str, value: str) -> str | None:
             return str(int(value))
         except (TypeError, ValueError):
             return None
+    if field == "THINCPOV":
+        try:
+            ratio = float(value)
+        except (TypeError, ValueError):
+            return None
+        if ratio < 1:
+            return "below_1x"
+        if ratio < 2:
+            return "1_to_2x"
+        if ratio < 4:
+            return "2_to_4x"
+        return "4x_or_more"
     return TARGETS[field].get(value)
 
 
