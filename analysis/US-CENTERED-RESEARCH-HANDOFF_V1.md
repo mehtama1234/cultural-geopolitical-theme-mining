@@ -20,6 +20,8 @@ The current run of `python3 scripts/validate_us_finding_parity.py` checks 63 fin
 
 ## Where we are going
 
+The canonical inventory of the broader societal, cultural, consumer, political, company, sector, and geopolitical objective is [US broad theme inventory v1](US-BROAD-THEME-INVENTORY_V1.md). Read it first when recovering the work after a crash or context loss.
+
 The next major research stream will study the United States from the inside out: what customers and households experience, how firms respond, how money and credit shape the choices available, how public institutions react, and how those changes become social and political pressure.
 
 ## Canonical broader objective — do not narrow this to one household

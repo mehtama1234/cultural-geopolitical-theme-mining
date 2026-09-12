@@ -2,6 +2,8 @@
 
 ## What this map is for
 
+The full recovery brief is [US broad theme inventory v1](US-BROAD-THEME-INVENTORY_V1.md). It records the societal, cultural, consumer, political, company, sector, and geopolitical themes and the active five-bridge program. The household calendar is one measurement instrument inside that program, not its definition.
+
 This is a reading map for US customer, household, work, money, and public life. It starts with ordinary things: a bill, a job, a service, a payment, a trip, a care duty, or a price seen at checkout.
 
 The map asks what happens next. Who pays? Who waits? Who can leave? Who decides? Who gets the useful data, the asset, or the gain?
