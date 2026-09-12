@@ -19,6 +19,12 @@ engagement or revenue goal
 
 This is a short discovery pass. Go deeper only if usage data and consumer evidence show a real change after the product's design choice.
 
+The [Pew 2025 news, platform, and civic-engagement layer](pew-2025-news-civic-engagement-layer-v1.md)
+adds population and content evidence on four forms of engagement, partisan
+news-source ecosystems, and social-media news influencers. It measures
+attention, trust, and civic behavior separately; it does not claim a platform
+caused a belief or vote.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.

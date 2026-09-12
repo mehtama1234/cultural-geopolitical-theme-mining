@@ -80,6 +80,13 @@ non-employed people have different time allocations and different control over
 when and where work happens. ATUS measures the distribution of time, not the
 firm or price shock that caused a particular schedule.
 
+The [Pew 2025 news and civic-engagement layer](projects/us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md)
+adds the information and cultural layer. It finds distinct participation types
+across voting, volunteering, contacting officials, religious attendance, and
+news attention, alongside partisan differences in trusted news sources and a
+growing role for social-media news influencers. This measures source
+environment and civic behavior, not persuasion or a platform-caused vote.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
