@@ -2,7 +2,7 @@
 
 83 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 11; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 133; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 11; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 134; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1434,12 +1434,13 @@
 
 **Question:** When a platform sells its own products beside outside sellers, does its control over placement help customers or steer them unfairly?
 
-**Sources recorded:** 4
+**Sources recorded:** 5
 
 - [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
 - [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
 - [FTC and states Amazon case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
 - [FTC and states Amazon advertising case](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)
+- [NBER: Mechanisms for Digital Advertising](https://www.nber.org/system/files/chapters/c14782/revisions/c14782.rev0.pdf)
 
 **Open gaps:**
 - seller entry and exit;
