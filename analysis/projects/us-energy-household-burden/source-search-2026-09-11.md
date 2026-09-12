@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short verification pass; the bill-to-household-choice link remains open
+**Status:** first matched evidence pass completed; health, work, and later housing links remain open
 
 ## Working question
 
@@ -53,3 +53,9 @@ EIA's 2024 RECS has preliminary housing and energy-insecurity data for an estima
 [DOE LEAD tool definitions and data](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
 
 [EIA 2024 Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/)
+
+## Matched evidence result
+
+The 2024 EIA table gives a direct household-pressure measure: 32.89 million primary homes reported reducing or forgoing food or medicine to pay energy costs; 16.19 million received a disconnect or delivery-stop notice; 17.55 million kept the home at an unhealthy temperature; and 6.83 million could not use heating equipment. These are separate reported conditions, and households may report more than one.
+
+The next finding therefore treats energy burden as a control problem as well as a price problem. Renters may pay the bill without controlling the building, and assisted households may face a gap between a utility allowance and actual expense. The full later outcome is still open.
