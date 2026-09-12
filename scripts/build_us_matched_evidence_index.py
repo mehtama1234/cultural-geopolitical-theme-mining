@@ -52,6 +52,7 @@ routes = {
     "us-platform-ad-visibility-cost-matched-evidence-001": ("Cost / customer / finance", "ad auction → seller visibility cost → seller price → customer price", "measured pass-through and product choice"),
     "us-review-outcomes-returns-matched-evidence-001": ("Customer / cost / voice", "review and search → purchase → return or complaint", "joined post-purchase quality and remedy"),
     "us-marketplace-seller-identity-recourse-matched-evidence-001": ("Voice / customer / cost", "seller identity → report or dispute → remedy", "response time, refund, and recovered loss"),
+    "us-marketplace-product-safety-matched-evidence-001": ("Customer / health / voice", "seller and safety signal → product risk → recall or remedy", "product-level exposure, harm, and recovery"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

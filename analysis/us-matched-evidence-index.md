@@ -244,7 +244,17 @@ A national income number can hide a local customer reality. Prices differ across
 
 [Read the HTML page](../site/us-local-prices-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-local-prices-matched-evidence-001.md)
 
-### 25. A seller name is only useful if it helps the customer recover
+### 25. A visible listing does not prove a safe product
+
+**Theme:** Customer / health / voice
+**Route:** seller and safety signal → product risk → recall or remedy
+**Still open:** product-level exposure, harm, and recovery
+
+Online marketplaces can put a seller, review, and safety claim in front of a customer without making the product safe. CPSC says counterfeit safety labels can mislead buyers and move hazardous goods through online channels. The INFORM Consumers Act adds seller checks and reporting tools aimed at counterfeit, unsafe, and stolen goods. FTC guidance still tells customers to check the seller, reviews, return terms, payment method, and platform help. The deeper finding is that safety depends on the path after the signal: detection, removal, recall, refund, and recovery.
+
+[Read the HTML page](../site/us-marketplace-product-safety-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-marketplace-product-safety-matched-evidence-001.md)
+
+### 26. A seller name is only useful if it helps the customer recover
 
 **Theme:** Voice / customer / cost
 **Route:** seller identity → report or dispute → remedy
@@ -254,7 +264,7 @@ Online marketplaces can make a seller hard to identify, which makes a bad purcha
 
 [Read the HTML page](../site/us-marketplace-seller-identity-recourse-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-marketplace-seller-identity-recourse-matched-evidence-001.md)
 
-### 26. Removing a medical debt can repair the record without repairing the illness
+### 27. Removing a medical debt can repair the record without repairing the illness
 
 **Theme:** Cost / health / voice
 **Route:** illness → bill → debt record → relief
@@ -264,7 +274,7 @@ Medical-debt relief can reduce payments and improve some people's access to cred
 
 [Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-medical-debt-relief-matched-evidence-001.md)
 
-### 27. Reviews can reveal quality and distort choice at the same time
+### 28. Reviews can reveal quality and distort choice at the same time
 
 **Theme:** US map
 **Route:** connected evidence
@@ -274,7 +284,7 @@ Reviews can help a customer judge a seller when they reflect real experience. Th
 
 [Read the HTML page](../site/us-online-reviews-trust-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-online-reviews-trust-matched-evidence-001.md)
 
-### 28. One cash pool can protect a family by shrinking a business
+### 29. One cash pool can protect a family by shrinking a business
 
 **Theme:** Work / cost
 **Route:** family bill → business cash → firm and local life
@@ -284,7 +294,7 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-owner-household-business-matched-evidence-001.md)
 
-### 29. Payment choice is a distribution question, but not yet a household welfare result
+### 30. Payment choice is a distribution question, but not yet a household welfare result
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
@@ -294,7 +304,7 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 30. Seller visibility can become a customer cost
+### 31. Seller visibility can become a customer cost
 
 **Theme:** Cost / customer / finance
 **Route:** ad auction → seller visibility cost → seller price → customer price
@@ -304,7 +314,7 @@ On a marketplace, advertising can be the price a seller pays to be seen. The FTC
 
 [Read the HTML page](../site/us-platform-ad-visibility-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-ad-visibility-cost-matched-evidence-001.md)
 
-### 31. A data rule can open the market and weaken the data supply
+### 32. A data rule can open the market and weaken the data supply
 
 **Theme:** Voice / customer / finance
 **Route:** data rule → seller access → data supply → customer outcome
@@ -314,7 +324,7 @@ When a platform controls data that sellers need, equal access may help outside s
 
 [Read the HTML page](../site/us-platform-data-neutrality-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-data-neutrality-matched-evidence-001.md)
 
-### 32. A useful product can still sit inside a power problem
+### 33. A useful product can still sit inside a power problem
 
 **Theme:** Customer / voice / finance
 **Route:** platform product → search choice → seller dependence
@@ -324,7 +334,7 @@ A platform's own product can help customers by fitting a need and reducing searc
 
 [Read the HTML page](../site/us-platform-owned-products-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-platform-owned-products-matched-evidence-001.md)
 
-### 33. Privacy protection can open the door to more sharing
+### 34. Privacy protection can open the door to more sharing
 
 **Theme:** Voice / customer / finance
 **Route:** privacy rule → trust → data sharing → firm knowledge
@@ -334,7 +344,7 @@ Privacy rules may increase data sharing when they make a customer feel safer. HB
 
 [Read the HTML page](../site/us-privacy-trust-data-sharing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-privacy-trust-data-sharing-matched-evidence-001.md)
 
-### 34. A rent guarantee claim is a process, not a rescue payment
+### 35. A rent guarantee claim is a process, not a rescue payment
 
 **Theme:** Cost / housing / voice
 **Route:** default → claim process → landlord payment → tenant recovery risk
@@ -344,7 +354,7 @@ The public policy terms show a chain of conditions before a landlord is paid. Th
 
 [Read the HTML page](../site/us-rent-guarantee-claim-mechanics-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-claim-mechanics-matched-evidence-001.md)
 
-### 35. Four states show four different levels of visibility
+### 36. Four states show four different levels of visibility
 
 **Theme:** Cost / housing / voice
 **Route:** state rule → policy form → claim → tenant duty
@@ -354,7 +364,7 @@ The first comparison across California, New York, Texas, and Illinois does not p
 
 [Read the HTML page](../site/us-rent-guarantee-four-state-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-four-state-matched-evidence-001.md)
 
-### 36. Rent insurance may protect a home before the crisis, but access is the problem
+### 37. Rent insurance may protect a home before the crisis, but access is the problem
 
 **Theme:** Cost / housing / finance
 **Route:** rent risk → pre-shock insurance → housing security
@@ -364,7 +374,7 @@ Rent-guarantee insurance is meant to pay a limited number of rents after an inco
 
 [Read the HTML page](../site/us-rent-guarantee-insurance-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-insurance-matched-evidence-001.md)
 
-### 37. Rent guarantee products open the lease, but may leave the loss with the tenant
+### 38. Rent guarantee products open the lease, but may leave the loss with the tenant
 
 **Theme:** Cost / housing / finance
 **Route:** lease screen → guarantee premium → tenant repayment risk
@@ -374,7 +384,7 @@ The first US products we found are mostly lease guarantees. They help a renter q
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-market-matched-evidence-001.md)
 
-### 38. Rent guarantee is not one product
+### 39. Rent guarantee is not one product
 
 **Theme:** Cost / housing / finance
 **Route:** provider screen → paid guarantee → landlord protection → tenant debt
@@ -384,7 +394,7 @@ The first provider comparison shows a shared shape, not a single standard produc
 
 [Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
 
-### 39. Rent guarantee changes when the state changes
+### 40. Rent guarantee changes when the state changes
 
 **Theme:** Cost / housing / voice
 **Route:** provider → state filing → policy terms → tenant risk
@@ -394,7 +404,7 @@ The first state check shows why a national provider comparison can mislead. Rhin
 
 [Read the HTML page](../site/us-rent-guarantee-state-terms-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-state-terms-matched-evidence-001.md)
 
-### 40. Rent aid can buy time; a lawyer can change the case
+### 41. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -404,7 +414,7 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 41. The cost of a bad choice begins after the review
+### 42. The cost of a bad choice begins after the review
 
 **Theme:** Customer / cost / voice
 **Route:** review and search → purchase → return or complaint
@@ -414,7 +424,7 @@ Reviews and search can reduce the work of choosing, but the real customer cost a
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-review-outcomes-returns-matched-evidence-001.md)
 
-### 42. A benefit can be lost without the need going away
+### 43. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -424,7 +434,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 43. A recovery loan can keep a local option open, but it creates another bill
+### 44. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -434,7 +444,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 44. A wider small-business rule can push the smallest firms out
+### 45. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -444,7 +454,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 45. A tariff reaches the household through a chain, not a single price
+### 46. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -454,7 +464,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 46. The same dollar can do different work depending on how it arrives
+### 47. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -464,7 +474,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 47. A car repair can protect access while taking away other room
+### 48. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access

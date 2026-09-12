@@ -1,8 +1,8 @@
 # US source coverage
 
-85 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+86 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 17; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 138; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 19; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 138; OFR: 1; Other: 33; Other government: 11; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1237,6 +1237,23 @@
 - differences by income, age, race and place.
 
 [Open the source-search record](projects/us-low-liquidity-consumption-constraints/source-search-2026-09-11.md)
+
+## US marketplace product safety and counterfeit risk
+
+**Project:** `us-marketplace-product-safety`
+
+**Status:** matched evidence pass complete; product-level exposure and remedy records remain open
+
+**Question:** When unsafe or counterfeit goods enter an online marketplace, can the customer see the risk and get a remedy?
+
+**Sources recorded:** 4
+
+- [CPSC: crackdown on fake safety labels](https://www.cpsc.gov/Newsroom/News-Releases/2026/US-Consumer-Product-Safety-Commission-Launches-Crackdown-on-Fake-Safety-Labels-Used-to-Push-Dangerous-Foreign-Products-into-US-Homes)
+- [FTC: INFORM Consumers Act](https://www.ftc.gov/news-events/news/press-releases/2023/06/ftc-puts-online-marketplaces-notice-about-their-responsibilities-under-new-inform-consumers-act)
+- [FTC: Buying from an online marketplace](https://consumer.ftc.gov/articles/buying-online-marketplace)
+- [CPSC: Online sellers' safety guide](https://www.cpsc.gov/Business--Manufacturing/Online-Sellers-Safety-Guide)
+
+[Open the source-search record](projects/us-marketplace-product-safety/source-search-2026-09-11.md)
 
 ## US medical debt relief and what it changes
 
