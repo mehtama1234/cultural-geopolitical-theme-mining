@@ -12,6 +12,8 @@ Consider a parent who falls behind after hours are cut. A housing hotline offers
 
 If we measure only earnings four years later, these paths disappear. We need to know whether help prevented displacement, protected a commute, kept care in place, or simply arrived alongside a recovery that would have happened anyway.
 
+Timing changes the meaning of the payment. A check after an eviction may help a family recover, but it cannot preserve the same school, commute, phone number, or job schedule. A smaller payment before the break may protect more than a larger payment after it. The amount is therefore only one part of the policy.
+
 ```text
 housing crisis → emergency payment or no payment → housing continuity or displacement
 → ability to reach and keep work → employment and earnings → household room, debt, and health
@@ -33,15 +35,21 @@ Source: [NBER Working Paper 32856](https://www.nber.org/papers/w32856).
 
 Emergency aid can protect work by protecting the ordinary things work depends on. The job is not an isolated contract. It sits on housing, transport, care, a phone, health, and a usable schedule. A small payment may prevent several systems from breaking at once. Its value is therefore larger than the rent line it covers—but only if it reaches the household before the break becomes expensive.
 
+This also explains why access to aid is part of the result. A program with a long form, narrow hours, a waitlist, or a payment that arrives after the notice may be formally available but practically late. Families with a stable phone, time to apply, and someone who can help with paperwork may reach it sooner. A crisis program can therefore protect the families able to navigate the crisis first.
+
+The public cost and the private gain can land in different places. The program pays for a bridge; the employer keeps a worker; the family avoids a move or a missed shift; the landlord may receive rent. A later earnings gain does not tell us whether the payment was the cheapest way to preserve that chain. Nor does it tell us whether the family became safer after the help ended.
+
+There is a possible political path here. Repeated late or unreachable help can make a household view the state as absent even when a program exists. Quick help that protects a home may build confidence in public action. The study does not measure this trust change or a later vote, so it should remain an open question.
+
 That also explains why a simple “employment effect” can hide a public choice. The employer may retain a worker, the family may avoid a move, and the public program pays for the bridge. The gain and the cost land in different places.
 
 ## What remains unproven
 
-The evidence does not show whether the same job was kept, whether housing became affordable after the payment ended, or whether debt and health improved. It does not compare a payment with a grant, legal help, insurance, or a flexible repayment plan. It also does not tell us how the result changes when a family has disability, children, a long commute, or no nearby jobs.
+The evidence does not show whether the same job was kept, whether housing became affordable after the payment ended, or whether debt and health improved. It does not compare a payment with a grant, legal help, insurance, or a flexible repayment plan. It does not show how application time, waitlists, or payment timing changed who was protected. It also does not tell us how the result changes when a family has disability, children, a long commute, or no nearby jobs.
 
 ## Next test
 
-Follow families from the first housing crisis through four years. Join aid timing and amount to housing moves, arrears, eviction, phone and transport continuity, missed shifts, job changes, hours, wages, debt, credit, health, and child outcomes. Compare work gains with housing stability and the full cost of the help.
+Follow families from the first housing crisis through four years. Join aid timing and amount, application effort, and wait time to housing moves, arrears, eviction, phone and transport continuity, missed shifts, job changes, hours, wages, debt, credit, health, and child outcomes. Compare work gains with housing stability and the full cost of the help. Test whether help before a notice, after a notice, or after displacement changes the chain differently.
 
 ## Reading rule
 
