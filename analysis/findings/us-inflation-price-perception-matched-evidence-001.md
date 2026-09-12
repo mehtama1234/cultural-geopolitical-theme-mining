@@ -8,11 +8,15 @@ The lived problem is repeated adjustment. A family buys a smaller package, chang
 
 The deeper finding is that public economic language and household experience can both be accurate while describing different things. “Inflation is falling” describes a slower change. “We are still losing ground” may describe a higher price level, weak real pay, or the loss of a usable cheap option. Confusing those statements creates bad political and business conclusions.
 
+Memory also has a real basis here. People notice the price of a repeated item, a rent renewal, an insurance bill, or a smaller package more easily than a broad average. Those visible changes can dominate how the household judges the economy, even if another category became cheaper. That does not make the judgment complete, but it tells us which prices are doing the political and emotional work.
+
 ## Follow the basket, not the headline
 
 A household used to buy a budget brand, cook at home, and save a small amount. The budget brand rises sharply. The family switches stores and then uses credit when the cheaper store is farther away. The next month starts from the higher price, so a smaller increase does not restore the old room.
 
 The national rate cannot show which product disappeared, whether the replacement was equally useful, or what payment was delayed. It also cannot show whether a wage increase was already claimed by rent, insurance, debt, or care.
+
+The basket can change without the household choosing a new lifestyle. A smaller package, fewer trips, a cheaper cut of food, or a skipped repair can preserve the dollar total while reducing what the money buys. A price index may record the item that was purchased; it may not show the quality or amount that was lost when the household stopped buying the old one.
 
 ```text
 price level rises
@@ -38,15 +42,23 @@ Sources: [NBER Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
 
 Three claims must stay separate: prices rose, wages kept up or did not, and households changed what they bought. A family can report less buying power even when its nominal wage rose because rent, debt, or a fixed care need leaves no easy substitute.
 
+There is a fourth claim: the household may decide that the price is unfair. That judgment can depend on whether the product got better, whether the seller’s costs changed, whether alternatives exist, and whether the customer feels trapped. A fair-price response is not proof that a firm acted unlawfully or that a political belief followed, but it can change demand, switching, complaints, and trust.
+
 The political risk is a translation error. Officials may point to a lower rate. Customers may point to the same expensive basket. Both statements can be true, but they answer different questions. One describes momentum; the other describes accumulated level and lost room.
+
+The gap can be wider across places. A national average may miss a local grocery choice, rent increase, insurance renewal, or transport cost. A household may also pay a high price because the cheaper store is too far away or the cheaper plan is unavailable. The relevant comparison is not only the national price; it is the lowest usable option for that household at that time.
 
 ## What remains unknown
 
 The sources do not follow one family from its exact basket to savings, debt, quality, stress, trust, and voting. They do not show whether a cheaper substitute remained equally useful or safe, or whether households recovered after prices stabilized.
 
+They also do not show which observed price changes people remembered, which ones they blamed on a firm or government, or whether their stated concern changed an actual purchase. Reported inflation experience and measured inflation are related but not interchangeable.
+
 ## Next test
 
 Build a household panel linking income, location, rent, debt, purchases, package size, quality, substitution, and repeated economic views. Record what people stopped buying and what they gave up elsewhere. Compare the price level, new price growth, and real pay in every account.
+
+Add a monthly price-memory diary. Ask households to name the prices and bills that changed, whether the item was still available, the cheapest usable substitute, the quality or quantity given up, the seller or institution blamed, and the action taken. Compare those reports with scanner, rent, wage, and local price data. Follow whether the same remembered shock changes spending, switching, complaints, trust, turnout, or vote. This would separate the price that rose from the price that became a lasting public grievance.
 
 ## Reading rule
 
