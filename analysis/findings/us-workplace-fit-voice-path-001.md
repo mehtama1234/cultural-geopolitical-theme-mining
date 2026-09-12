@@ -1,57 +1,52 @@
 # When workplace fit becomes a work gate
 
-## Short answer
+## The argument
 
-The way a person speaks can affect whether other people read them as socially skilled. If that reading shapes access to customer-facing work, the person may lose pay, status, control, or a chance to be heard even when the speech itself does not change the work.
+The way a person speaks can affect whether other people read them as socially skilled. If that reading shapes access to customer-facing work, the person may lose pay, status, control, or a chance to be heard even when their speech does not change the work.
 
-The careful finding is that a familiar style may be treated as a work skill. The evidence points to job sorting, but does not yet show one manager refusing one worker or one customer receiving worse service.
+The careful finding is not that a local way of speaking is bad for business. A familiar style may help a team understand local customers. The problem begins when comfort is treated as ability, and the familiar worker receives the people-facing work that builds pay and influence.
 
-## What the sources show
+The deeper finding is that a speech norm can become an invisible job allocation system. It can decide who practices customer contact, who gains social authority, and whose ideas reach management. That affects customers too: the people with the most power to shape a service may not be the people most able to understand the customers using it.
 
-HBS research using Census data, labor-market data, and audio records finds that workers whose speech matches the dominant local workplace style are more likely to be in socially intensive jobs. The relationship between social skill and social-task work was at least 2.5 times stronger for the dominant speech group.
+## Follow one job decision
 
-The pattern is about occupation and local speech. It does not by itself prove biased hiring, promotion, pay, or customer treatment.
+Two workers have similar education and experience. One sounds like the dominant local workplace group. The other has a different speech pattern. A manager assigns the first to sales and the second to back-office work, describing the decision as “fit.” The first gains customer practice, tips, promotion visibility, and a stronger record. The second is later judged to have less social experience.
 
-[HBS: When Workplaces Favor People Who Sound the Same](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same)
-
-The NLSY79 provides long-running worker and occupation records, including audio recordings for part of the sample. Census occupation data can help test place and group differences.
-
-[BLS NLSY79 data](https://www.bls.gov/nls/nlsy79.htm) · [Census occupation data](https://www.census.gov/topics/employment/industry-occupation.html)
-
-## The connection
+The first decision can create evidence that seems to justify the next one. A style has been turned into a career path.
 
 ```text
 local speech norm
-  -> manager or coworker reads familiarity as social skill
+  -> familiarity read as social skill
   -> access to people-facing work or advancement
-  -> pay, status, voice, and work control
+  -> pay, status, control, and worker voice
   -> who shapes customer and workplace decisions
 ```
 
-The source supports the job-sorting pattern. The decision and customer-result links remain open.
+## What the sources actually establish
 
-## The four outside views
+| Evidence | Meaning | Limit |
+|---|---|---|
+| HBS research using Census data, labor-market data, and audio records finds workers whose speech matches the dominant local workplace style are more likely to be in socially intensive jobs. | Speech pattern and job sorting are linked. | The relationship does not prove one manager’s intent. |
+| The relationship between social skill and social-task work was at least 2.5 times stronger for the dominant speech group. | The same signal may be read differently across groups. | It does not measure every hiring or promotion decision. |
+| NLSY79 provides long-running worker and occupation records, including audio for part of the sample. | Career paths can be studied over time. | The audio sample and occupations are limited. |
+| Census occupation data can test place and group differences. | Local labor markets matter. | Occupation data do not show customer treatment or internal decisions. |
 
-**Worker:** A person may change speech to gain access, carry the cost of fitting in, or leave a role that does not value their way of speaking. The records do not show which choice each worker made.
+Sources: [HBS workplace speech research](https://www.library.hbs.edu/working-knowledge/when-workplaces-favor-people-who-sound-the-same), [BLS NLSY79](https://www.bls.gov/nls/nlsy79.htm), and [Census occupation data](https://www.census.gov/topics/employment/industry-occupation.html).
 
-**Employer and sector:** Familiar communication can help a team coordinate with local customers. It can also confuse comfort with ability and narrow the people considered ready for social work.
+## The deeper finding
 
-**Money and finance:** If people-facing work pays more or leads to advancement, a hidden fit filter can affect earnings and career paths. The opening evidence does not estimate that pay gap.
+Speech difference is not proof of lower skill. The risk is the unpaid cost of fitting in: changing speech to gain access, spending energy managing how one is heard, or leaving a role that does not value one’s way of speaking. An employer may call this culture while the worker experiences a limit on pay and voice.
 
-**Public power:** Structured hiring, promotion records, and clear job criteria can make the filter easier to see. Existing records do not show whether such tools weakened the pattern.
+The strongest test is not whether speech predicts an occupation. It is whether structured skill measures, blind evaluation, or clear job criteria change access while work quality stays the same. If they do, “fit” was carrying information that the employer had not named.
 
-## What would change the finding
+## What remains unknown
 
-- Applications, interviews, hiring, promotion, pay, and exit records linked to speech measures.
-- Tests that separate speech pattern from education, experience, race, gender, class, and region.
-- Customer ratings, complaints, resolution, and repeat contact by worker and role.
-- Results for remote, local, sales, care, teaching, and other social-task work.
-- A structured evaluation trial that changes the speech signal while keeping work skill constant.
+The evidence does not show one manager refusing one worker, one pay gap caused by speech, or one customer receiving worse service. It does not fully separate speech pattern from education, race, gender, class, region, and experience.
 
 ## Next test
 
-Use a current worker panel or employer hiring record. Compare the same job decision with structured skill measures and speech information visible or hidden. Keep access, pay, promotion, worker voice, and customer outcome separate.
+Use current hiring or worker records. Compare the same job decision with structured skill measures and speech information visible or hidden. Track access, pay, promotion, worker voice, customer ratings, complaints, resolution, and repeat contact.
 
 ## Reading rule
 
-Speech difference is not proof of lower skill. A local pattern is not proof of one manager's intent. Observe the decision and the result before naming a gate.
+A local pattern is not proof of one manager’s intent. Observe the decision and the result before naming a gate.

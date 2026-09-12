@@ -1,53 +1,53 @@
 # When the tap becomes part of the health and housing story
 
-## Short answer
+## The argument
 
-Water quality is part of the cost of living even when it does not appear on a rent or mortgage bill. A public repair can lower exposure and protect health, while a family in an unsafe system may pay for filters, bottled water, medical care, or a move.
+Water quality is part of the cost of living even when it does not appear on a rent or mortgage bill. A public repair can lower exposure and protect health. A family in an unsafe system may pay for filters, bottled water, medical care, time, or a move.
 
-The careful finding is that public water funding has effects beyond the pipe. The available study measures pollution and older-adult mortality. It does not yet show the full household cost or housing path.
+The first public result is measurable: a system test improves or pollution falls. The household result comes later. Does the family trust the tap? Does it stop buying bottles? Does health improve? Does the home become more valuable, or does the family leave because repair was too slow?
 
-## What the source shows
+The deeper finding is that water is a shared service with private consequences. When public infrastructure fails, households buy their own partial fix. Those with cash can reduce exposure; those without it may carry more risk or lose the ability to stay in place.
 
-An NBER study uses 266 million water readings from 48 states and Medicare records from 2003 to 2019. Readings above current health standards fell by about half. Low-income areas had higher pollution. Loans under the Safe Drinking Water Act reduced pollution and older-adult mortality. At the average loan cost, the authors estimate that removing pollution above health standards cost about $46 per person each year.
+## Follow one home through a repair
 
-The study does not follow the same household through water use, bottled-water spending, home value, health care, trust, or political action.
+A water system receives a public loan after repeated contamination readings. The readings improve. A family that had been buying bottled water now uses the tap again. Another family still distrusts the water because notices were late and its home line was not repaired. A third cannot afford bottles and had no alternative during the delay.
 
-- [NBER Working Paper 35288: Water Works](https://www.nber.org/papers/w35288)
-
-## The connection
+The system average can improve while household experiences remain unequal. A public fix is necessary evidence, but not the whole account of who was protected and when.
 
 ```text
 public water funding
   -> system repair and cleaner water
-  -> household exposure and trust
-  -> health, private spending, and home choices
-  -> local demand for repair or public action
+  -> household exposure, trust, and private spending
+  -> health, time, housing value, and moving choices
+  -> demand for repair or public action
 ```
 
-The source supports the public-loan, pollution, and mortality links. It does not establish every step in the household or political path.
+## What the source actually establishes
 
-## The four outside views
+| Evidence | Meaning | Limit |
+|---|---|---|
+| An NBER study uses 266 million water readings from 48 states and Medicare records from 2003–2019. | Water quality and health can be studied at broad scale. | The data do not follow every household. |
+| Readings above current health standards fell by about half. | Public investment was linked to cleaner measured systems. | A system reading is not the tap in every home. |
+| Low-income areas had higher pollution. | Exposure and ability to pay for a private fix are unequal. | The study does not price each family’s response. |
+| Safe Drinking Water Act loans reduced pollution and older-adult mortality. | Public repair can have health value beyond the pipe. | It does not show bottled-water spending, trust, or housing moves. |
+| At the average loan cost, removing pollution above health standards was estimated at about $46 per person each year. | Public repair can be compared with a health value. | An average cost is not a household bill or complete benefit. |
 
-**Household:** A family may pay for water it does not trust through bottles, filters, time, or medical care. The burden may be largest where cash and housing choices are limited.
+Source: [NBER Working Paper 35288: Water Works](https://www.nber.org/papers/w35288).
 
-**Company and sector:** Water utilities, contractors, landlords, builders, and filter sellers shape the cost and speed of a response. A public repair may prevent private costs, but the source does not show who captures or pays for each one.
+## The deeper finding
 
-**Money and finance:** A place can look affordable while a basic service adds an unlisted cost. The missing measures are household water spending, insurance, care, home value, rent, and moving decisions.
+An unsafe tap creates a two-tier service. Households with money can buy bottles, filters, delivery, or a move. Households without money must trust the system, reduce use, or accept exposure. The public repair may later help everyone, but the time before the fix is not shared equally.
 
-**Public power:** Loans and standards turn a shared health risk into a public investment choice. Trust may rise after a visible fix, or remain low if notices, testing, and repair are uneven.
+That is why trust belongs in the outcome. A visible repair with clear testing can restore use. A vague notice or repeated failure can leave families paying for private protection even after the official reading improves. Public confidence is built through the full repair path, not the announcement alone.
 
-## What would change the finding
+## What remains unknown
 
-- Water quality at the home, not only the system or county average.
-- Bottled water, filters, time, medical care, and other private costs.
-- Rent, home value, insurance, moving, and housing search results.
-- Repair timing, utility records, complaints, notices, and trust.
-- Differences by income, race, age, place, disability, and housing tenure.
+The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair.
 
 ## Next test
 
-Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, and local votes. Compare households that received the fix with similar households that were still waiting.
+Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Compare households that received the fix with similar households still waiting.
 
 ## Reading rule
 
-Keep water quality, public funding, household cost, health, housing value, and political response separate. A cleaner system is strong evidence of a public benefit, but it is not yet a complete account of what families paid before the fix.
+Keep water quality, public funding, household cost, health, housing value, trust, and political response separate. A cleaner system is strong evidence of public benefit, not a complete account of what families paid before the fix.
