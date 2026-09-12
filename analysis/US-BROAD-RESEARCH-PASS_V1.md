@@ -18,6 +18,18 @@ When a US condition, price, rule, technology, or institutional decision changes 
 | 4 | **Housing/energy/insurance → health, mobility, and place** | RECS, FIO/Treasury, FEMA/NFIP, ACS, FHFA, HMDA, SHED, MEPS | housing unit, ZIP-year, household, or disaster event | Same-place linkage from risk or bill to repair, move, health, credit, or staying |
 | 5 | **Public aid/rule → take-up → interpretation → political response** | SIPP, SHED, CPS-FSS, ANES/GSS, Fed, NBER, administrative records | person-month, program spell, survey wave, county, or election | The middle steps: burden, blame, belief, action, and durable response |
 
+## First representative cases
+
+These are starting cases from the existing matched-evidence and path records. They are not yet a claim that the five bridges have been proven end to end.
+
+| Bridge | Starting case | Why it starts here | Immediate next comparison |
+|---|---|---|---|
+| Price/payment → household room | [Payment choice changes who carries the price](findings/us-payment-fee-matched-evidence-001.md) | It already separates merchant fee, posted price, reward, interest, protection, and household net cost. | Compare payment method, income, credit access, balance carried, and next essential purchase. |
+| Service/platform rule → recourse → trust and exit | [A faster answer is not yet a remedy](findings/us-customer-automation-matched-evidence-001.md) | It distinguishes first-response speed from final resolution, customer effort, authority, abandonment, and trust. | Compare routine cases and exceptions by automation path, repeat contact, remedy, and exit. |
+| Work rule/tool → control → household and local power | [Health coverage can hold a job in place](findings/us-health-insurance-job-lock-matched-evidence-001.md) | It gives a concrete worker-choice case where a benefit affects job mobility and household security. | Compare coverage dependence, job changes, wages, hours, health, and alternatives; add AI/control cases separately. |
+| Housing/energy/insurance → health, mobility, and place | [Insurance can turn a place risk into a staying problem](findings/us-home-insurance-matched-evidence-001.md) | It connects place risk, premium, coverage, credit, home value, repair, sale, and staying without claiming a move. | Compare similar properties by risk, credit, coverage, repairs, claims, financing, and move outcome. |
+| Public aid/rule → interpretation → political response | [A public benefit can change economic sentiment](findings/us-transfer-design-household-matched-evidence-001.md) plus [real wages and voting](findings/us-economic-voting-real-wages-matched-evidence-001.md) | Together they separate benefit exposure, household condition, sentiment, real wages, and election results. | Test burden, attribution, party identity, policy knowledge, action, and vote as separate links. |
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.
