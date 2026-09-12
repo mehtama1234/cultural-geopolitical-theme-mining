@@ -908,6 +908,8 @@ Follow a public eligibility rule into which firms receive contracts or credit, t
 
 Still missing: The studies cover different support programs and shocks; they do not follow one firm, owner and worker through the same rule change.
 
+[Read the complete connected memo](../site/us-small-business-support-cutoff-path-001.html)
+
 ### When a debt promise changes the household budget
 
 Follow an uncertain debt promise into payments and spending, then ask whether housing and other adult choices change before the policy is settled.
