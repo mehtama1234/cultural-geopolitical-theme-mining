@@ -248,6 +248,8 @@ Compare continued app use with repeated requests for help. Ask whether people st
 
 Still missing: Time spent is not proof of satisfaction or harm. A link from unresolved service problems to political trust remains untested.
 
+[Read the complete connected memo](../site/us-staying-service-satisfaction-path-001.html)
+
 ### When the same job gives people different tools
 
 Follow AI access from the worker's task to the customer's answer and then to the customer's ability to continue or leave. The firm may gain speed while workers and customers face different choices.
