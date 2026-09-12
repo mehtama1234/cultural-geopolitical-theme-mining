@@ -8,11 +8,15 @@ The household then has less room to recover, making another late payment more li
 
 That does not mean every record is unfair or every score is wrong. A lender may use a record to avoid a real loss. The research question is exact: what event made the record, who saw it, what decision followed, and what alternatives did the household have?
 
+The record also has a time problem. A gatekeeper may see an old event after the household has recovered, while the household may still be paying the added rate or deposit. A later clean payment history may not remove the first barrier quickly. The record can preserve a past shock after the cash problem has ended.
+
 ## Follow the gate
 
 A household misses rent after a job loss. An eviction order follows. Later it applies for housing and credit. A landlord or lender sees the record and changes the terms. The family moves farther from work or pays more for a smaller home. Transport and rent rise, leaving less money for the next emergency.
 
 The first shock was lost income. The later hardship is partly the cost of being judged after the shock. The record may be accurate and still have this effect. Accuracy does not answer whether the decision is fair or whether the household had a workable alternative.
+
+The household may respond by choosing a worse but available option: a high-cost loan, a distant rental, a prepaid account, a co-signer arrangement, or no formal account. That choice can keep the immediate need covered while making future payment harder. A denial is visible; the expensive substitute is often recorded only as another bill.
 
 ```text
 late payment, overdraft, eviction, or thin record
@@ -37,15 +41,23 @@ Sources: [NBER Working Paper 34053](https://www.nber.org/papers/w34053), [HBS ov
 
 Three things must stay separate: the event that hurt the household, the record created by the event, and the decision made after the record was seen. An eviction order is not the same as a late rent payment. A thin file is not the same as an inability to pay. An overdraft fee is not the same as a failed account.
 
+There is a fourth part: the alternative. A decision may look reasonable when viewed as approval or denial, but its effect depends on what the household could obtain next. A person with savings can wait, correct an error, or shop around. A person who needs housing tonight may accept a high deposit or a costly lender. The same recorded event can therefore produce different losses.
+
 The distinction matters for fairness. A score gap can reflect unequal income, banking access, fee exposure, or discrimination in earlier decisions. The score alone cannot tell us which. Treating all of it as one number makes both diagnosis and remedy vague.
+
+This is why “financial inclusion” should not be measured only by having an account or receiving an approval. The useful account may carry high fees, the approved loan may be unaffordable, and the available home may add transport and care costs. Access is real only when the product leaves the household able to meet the next obligation.
 
 ## What remains unknown
 
 The sources support a path from earlier money or housing trouble to later credit access. They do not show that one score caused a particular family’s housing result or that every household with a record faced the same terms.
 
+They also do not show how quickly records are corrected, how often people avoid applying because they expect denial, or what happens to households that use informal lenders and family help instead. We should not infer recovery from a higher score or account opening alone.
+
 ## Next test
 
 Follow households from the first payment event through three years of housing and credit decisions. Join the original bill, overdraft, eviction, income shock, credit record, lender or landlord decision, interest, fee, deposit, location, and later housing. Record alternatives after a denial.
+
+Create a decision ledger for every gate: record entry and correction date, viewer, product sought, stated decision reason, price, deposit, fee, location, appeal, alternative used, and next payment outcome. Compare households with similar shocks but different record visibility and alternatives. Measure approval, total cost, distance, stability, correction time, and repeat distress separately. This would show whether the record predicts risk, amplifies it, or both.
 
 ## Reading rule
 
