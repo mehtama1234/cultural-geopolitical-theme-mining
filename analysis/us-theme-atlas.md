@@ -587,6 +587,8 @@ Follow an unexpected repair into the cash buffer, then ask what happens to the r
 
 Still missing: The opening sources do not follow the same household from a repair to a missed trip, lost work or later debt.
 
+[Read the complete connected memo](../site/us-vehicle-repair-shock-path-001.html)
+
 ### When family help catches the fall
 
 Follow a shock from one household into money or unpaid care from another, then ask who has less room afterward.
