@@ -474,7 +474,17 @@ The price of a product includes what happens when it breaks. The FTC reports tha
 
 [Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-right-to-repair-household-cost-matched-evidence-001.md)
 
-### 48. A benefit can be lost without the need going away
+### 48. A safe temperature can compete with food and medicine
+
+**Theme:** Energy / health / cost / housing
+**Route:** energy cost or equipment failure → unsafe temperature or sacrifice
+**Still open:** same-household health, work, and housing recovery
+
+Energy insecurity is not only an unpaid bill. In the preliminary 2024 EIA survey, households reported several different breaks: giving up food or medicine, living at an unhealthy temperature, receiving a shutoff notice, or losing use of heating or cooling equipment. These reports can overlap, but they point to one household choice: which basic need is postponed when the home cannot be kept safe. DOE programs are designed to help through weatherization and safety work. The missing proof is whether that help restores the room, the bill, health, work, and housing stability for the same household.
+
+[Read the HTML page](../site/us-safe-temperature-energy-insecurity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safe-temperature-energy-insecurity-matched-evidence-001.md)
+
+### 49. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -484,7 +494,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 49. A recovery loan can keep a local option open, but it creates another bill
+### 50. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -494,7 +504,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 50. A wider small-business rule can push the smallest firms out
+### 51. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -504,7 +514,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 51. A tariff reaches the household through a chain, not a single price
+### 52. A tariff reaches the household through a chain, not a single price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -514,7 +524,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 52. The same dollar can do different work depending on how it arrives
+### 53. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -524,7 +534,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 53. A car repair can protect access while taking away other room
+### 54. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -534,7 +544,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 54. Efficiency savings are real but smaller than the promise
+### 55. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health

@@ -1,8 +1,8 @@
 # US source coverage
 
-92 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+93 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 9; EIA: 5; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 7; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 18; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1833,6 +1833,23 @@
 - differences by income, race, age and place.
 
 [Open the source-search record](projects/us-safe-drinking-water/source-search-2026-09-11.md)
+
+## US safe temperature and energy insecurity
+
+**Project:** `us-safe-temperature-energy-insecurity`
+
+**Status:** matched evidence pass complete; same-household health and recovery records remain open
+
+**Question:** When energy costs or broken equipment make a home unsafe, what does the household give up first—and does help restore a safe temperature?
+
+**Sources recorded:** 4
+
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+- [EIA: 2024 Residential Energy Consumption Survey](https://www.eia.gov/consumption/residential/data/2024/)
+- [DOE: How to apply for weatherization](https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance)
+- [DOE: Low-Income Energy Affordability Data tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool)
+
+[Open the source-search record](projects/us-safe-temperature-energy-insecurity/source-search-2026-09-11.md)
 
 ## US safety-net access, work rules, and the price of help
 
