@@ -117,6 +117,8 @@ Collect only what is needed for the question. Separate contact details from rese
 6. One Markdown finding and matching HTML page for each tested chain.
 7. A public methods note that states what the panel cannot establish.
 
+The initial field definition is in [the versioned JSON schema](../manifests/us-household-calendar-schema-v1.json), and the blank collection form is in [the event-ledger template](templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md).
+
 ## What would change the working picture
 
 - Most households with a dated shock recover without protecting one need by sacrificing another.

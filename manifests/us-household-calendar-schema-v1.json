@@ -1,0 +1,51 @@
+{
+  "format": "us-household-calendar-schema-v1",
+  "purpose": "Twelve-month study of dated household pressure and recovery",
+  "status": "research-design",
+  "unit": "de-identified household-month and household-event",
+  "allowed_evidence_status": ["observed", "reported", "inferred", "unknown", "disputed"],
+  "privacy": {
+    "direct_identifiers": false,
+    "political_data_optional": true,
+    "health_data_optional": true,
+    "location_precision": "county_or_coarser",
+    "consent_required_for_linkage": true
+  },
+  "dimensions": [
+    {"name": "household_id", "type": "pseudonymous_string", "required": true},
+    {"name": "month", "type": "YYYY-MM", "required": true},
+    {"name": "tenure", "type": "enum", "values": ["renter", "owner", "manufactured_home", "other", "unknown"]},
+    {"name": "geography", "type": "coarse_place", "required": true},
+    {"name": "household_size", "type": "integer", "minimum": 1},
+    {"name": "income_stability", "type": "enum", "values": ["stable", "variable", "seasonal", "unknown"]},
+    {"name": "vehicle_dependence", "type": "enum", "values": ["none", "some", "high", "unknown"]},
+    {"name": "care_need", "type": "enum", "values": ["none_reported", "childcare", "aging", "disability", "multiple", "unknown"]},
+    {"name": "family_backup", "type": "enum", "values": ["available", "limited", "unavailable", "unknown"]}
+  ],
+  "monthly_fields": [
+    {"name": "income_by_date", "type": "dated_amounts"},
+    {"name": "required_costs", "type": "dated_amounts_by_category", "categories": ["rent_or_mortgage", "utilities", "insurance", "transport", "care", "food", "medicine", "debt", "fees", "other"]},
+    {"name": "liquid_savings", "type": "amount_or_range"},
+    {"name": "available_credit", "type": "amount_or_range"},
+    {"name": "family_help", "type": "dated_cash_time_records"},
+    {"name": "unpaid_care_hours", "type": "hours"},
+    {"name": "work_hours_and_pay", "type": "dated_work_records"},
+    {"name": "housing_and_service_status", "type": "event_records"},
+    {"name": "health_and_food_security", "type": "reported_status_with_consent"},
+    {"name": "trust_and_policy_views", "type": "optional_survey_responses"}
+  ],
+  "event_fields": [
+    {"name": "event_id", "type": "pseudonymous_string", "required": true},
+    {"name": "event_date", "type": "YYYY-MM-DD", "required": true},
+    {"name": "warning_date", "type": "YYYY-MM-DD_or_null"},
+    {"name": "first_condition", "type": "enum", "values": ["bill", "income_change", "repair", "care_need", "benefit_decision", "service_failure", "insurance_change", "major_purchase", "price_change", "other"]},
+    {"name": "amount_and_deadline", "type": "amount_time_record"},
+    {"name": "need_at_risk", "type": "multi_enum", "values": ["food", "medicine", "housing", "energy", "transport", "care", "work", "rest", "communication", "other"]},
+    {"name": "choice_made", "type": "multi_enum", "values": ["paid", "delayed", "borrowed", "switched", "appealed", "family_help", "went_without", "other"]},
+    {"name": "immediate_result", "type": "free_text_with_status"},
+    {"name": "person_with_control", "type": "multi_enum", "values": ["household", "employer", "landlord", "firm", "lender", "utility", "agency", "court", "family", "unknown"]},
+    {"name": "remedy_path", "type": "multi_enum", "values": ["repair", "refund", "aid", "appeal", "payment_plan", "replacement", "legal_help", "none", "unknown"]},
+    {"name": "next_month_effect", "type": "multi_enum", "values": ["debt", "fee", "missed_work", "health_change", "repeat_bill", "weaker_option", "recovery", "unknown"]},
+    {"name": "evidence_status", "type": "enum", "values": ["observed", "reported", "inferred", "unknown", "disputed"], "required": true}
+  ]
+}
