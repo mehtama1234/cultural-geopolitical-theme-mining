@@ -83,6 +83,7 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Finding 014: Infrastructure can build capability and dependence at once](findings/ai-work-control-014.md)
 - [World Bank WDR 2026 AI capability source record](world-bank-wdr2026-ai-capability-source-record-v1.md)
 - [Romania and Malaysia AI-infrastructure case record](romania-malaysia-ai-infrastructure-case-record-v1.md)
+- [AI capability, infrastructure, and dependence layer](ai-capability-dependence-layer-v1.md)
 - [System-function evidence matrix](system-function-evidence-matrix-v1.md)
 - [Macro and infrastructure source packet](macro-infrastructure-source-packet-v1.md)
 - [Time-ordered adoption trace](time-ordered-adoption-trace-v1.md)

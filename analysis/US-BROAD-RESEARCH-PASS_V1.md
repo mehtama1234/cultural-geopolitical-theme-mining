@@ -86,7 +86,7 @@ The first uncertainty-aware resource comparison is the [SIPP Fay-BRR resource la
 
 The first uncertainty-aware tenure × resource comparison is the [SIPP Fay-BRR intersectional layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-resource-estimates-v1.md). It is a population distribution layer feeding the broad housing/place and unequal-exposure themes, not a replacement for the wider program.
 
-The [AI, work, and control project](projects/ai-work-control/README.md) is the current deeper cross-border packet for the work, firm/sector, infrastructure/dependency, and geopolitical themes. Its provisional findings, company bridges, macro/infrastructure records, and country cases should be treated as a connected source stream within this broad program, with its stated open gaps preserved.
+The [AI, work, and control project](projects/ai-work-control/README.md) is the current deeper cross-border packet for the work, firm/sector, infrastructure/dependency, and geopolitical themes. Its new [AI capability/dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md) separates capability from ownership, physical complements, local value, replaceability, and state leverage. Its provisional findings, company bridges, macro/infrastructure records, and country cases should be treated as a connected source stream within this broad program, with its stated open gaps preserved.
 
 ## Cross-cutting themes to extract in every pass
 

@@ -101,6 +101,13 @@ identity. A rising application count is not yet a rising local job base or a
 stronger community; those links require establishment, service, and local-life
 records.
 
+The [AI capability and dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md)
+extends the map from domestic firms and places to infrastructure and states.
+Its central pattern is that imported or privately owned capability can expand
+what a country can do while also increasing dependence on external providers,
+capital, chips, cloud, electricity, and data systems. The project keeps local
+benefit, public control, and geopolitical leverage as questions to test.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
