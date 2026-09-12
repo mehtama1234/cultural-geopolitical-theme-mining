@@ -6,6 +6,10 @@ A tariff can reach a US household in stages. The importer may pay more first. A 
 
 The careful finding is that the tariff rate, the importer cost, the checkout price, the household burden, and the job effect are different things. A single pass-through number cannot stand for all five.
 
+Imagine a $100 imported kitchen item facing a $10 tariff. The importer may pay almost all of that extra $10 at the border. The retailer may then absorb some of it, change the supplier, shrink the package, raise the price by $3, or wait until the next order. The customer may pay $3 more, buy a cheaper model, postpone the purchase, or never see the item because it leaves the shelf. The tariff has reached the household even if the checkout increase is smaller than the border increase.
+
+The delay changes the political and household story. A buyer who sees a price rise on the same week as the tariff may connect the two. A buyer who sees a higher price nine months later may blame inflation, the store, or a general loss of buying power. The policy can therefore have a clear economic path and a blurry public explanation.
+
 ## What the sources show
 
 ### 1. Importers carried most of the first increase
@@ -25,6 +29,8 @@ An HBS tracker using nearly 360,000 products at five large US retailers estimate
 [HBS tariff price tracker](https://www.library.hbs.edu/working-knowledge/tariffs-leave-consumers-and-companies-splitting-the-tab)
 
 These estimates use different periods, products and methods. They should not be averaged.
+
+The numbers are not necessarily in conflict. The 90% estimate describes the first payment by importers. The 20% estimate describes retail pass-through in a different product and period. The 43% estimate describes the share of the burden carried by consumers in a tracker after seven months. Each asks a different question. Treating them as one rate would erase the timing and the point in the chain where the cost was measured.
 
 ### 3. A second price can arrive later through domestic markups
 
@@ -49,7 +55,11 @@ The first three price links have evidence. The household, job and political link
 
 **Household:** A small average price effect can still matter when it lands on food, a needed good, or a low-cash household. The current studies do not show which bill gave way.
 
+The household may not experience the tariff as “paying the tariff.” It may experience a smaller package, a missing low-cost option, a delayed replacement, or a credit-card purchase after the cheaper item disappears. A household with savings can wait for a sale or switch brands. A household buying a needed item before payday may have no such option.
+
 **Company and sector:** Firms can absorb the cost, raise prices, switch suppliers, reduce choice, invest at home, or use weaker import competition to raise a markup. The current evidence does not identify which response each firm took.
+
+That response determines who bears the next part of the cost. A firm that absorbs the first increase may later reduce hours or investment. A firm that raises its markup may make a domestic substitute more expensive too. These are possible routes, not results established for every sector.
 
 **Money and finance:** The timing matters. A cost paid at import may become a later margin change, working-capital need, or household credit choice. Importer and retail records are not the same financial burden.
 
@@ -67,6 +77,8 @@ The first three price links have evidence. The household, job and political link
 ## Next test
 
 Choose one everyday product category. Join customs cost, retailer price, quantity sold and household purchase data over twelve months. Add a survey question about who people blame. Keep the direct and delayed price paths separate.
+
+Use a product that households buy repeatedly and that has both imported and domestic versions. Mark the tariff date, each supplier change, each price and package change, and each household purchase. Then test whether the first price change, the delayed change, or the loss of a low-cost option is most visible in spending and public judgment.
 
 ## Reading rule
 
