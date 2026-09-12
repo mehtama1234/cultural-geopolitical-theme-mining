@@ -16,6 +16,10 @@ Another parent in a smooth-taper system keeps part of the support and can plan t
 
 The timing creates the real choice. A worker may accept a raise when the household has savings, nearby care, and a stable schedule. The same raise may be too risky when a child needs care, a premium changes, or the family has no cash for a gap. A recorded decision not to take more hours may therefore reflect a reasonable response to uncertainty, not a dislike of work.
 
+The family may not know the result before accepting the job. A benefit office may use last month’s income, an employer may change hours, and a child-care provider may require payment before the first paycheck. The household is making a decision with an uncertain net wage. A clear annual table cannot remove a cash gap that arrives during the first week.
+
+The cost of crossing the line can also be hard to reverse. A parent may give up a care slot, move farther from work, or use a card after support ends. If the job disappears, the old support may not return quickly. A policy can therefore make work look profitable on paper while making the downside of a failed job much larger.
+
 ```text
 earnings or hours rise → public help tapers, ends, or becomes harder to keep
 → food, health, child-care, transport, tax, and time costs change
@@ -43,6 +47,10 @@ This is why benefit rules can shape trust and politics without a simple income s
 
 The same rule also changes who can move. A worker with a second adult, savings, or reliable care can cross a line and absorb a short loss. A worker with one income, a disability, or unstable hours may stay below the line because the downside is harder to undo. The policy may appear to offer the same work incentive while placing different risks on different families.
 
+There is a difference between a high effective cost and a sharp cliff. A smooth loss of help can still leave a family with more resources after a raise, while a sudden cutoff can make one extra dollar remove hundreds of dollars of support. An administrative delay is a third problem: the family may qualify but have to borrow while waiting. These should be measured separately because the remedy differs for each one.
+
+This is where the private decision becomes political. A family may support work and still oppose a rule that makes a small raise dangerous. It may support a taper if the calculation is clear and the household can get through the transition. The experience can change trust in the program, employer, or government, but the sources do not show that it changes a vote.
+
 ## Four views of the same raise
 
 **Household:** What happened to wages, taxes, benefits, food, health, care, transport, debt, time, and savings together?
@@ -60,6 +68,8 @@ The evidence does not follow the same families through wages, benefits, taxes, f
 ## Next test
 
 Follow families before and after an earnings change for one year. Join wages, benefits, taxes, necessary costs, work hours, job stability, debt, food security, health coverage, care, transport, and housing. Compare a smooth taper, a sudden loss, and an administrative exit. Record the opportunity accepted, refused, or abandoned, what backup the family had, and whether it could reverse the decision without lasting damage.
+
+Give each family a monthly net-resource statement that records the benefit rule, expected payment, actual payment date, work costs, and cash available after essential bills. Recheck the statement after schedule changes, illness, and job loss. Measure the first dollar gained, the first dollar lost, the time spent fixing an error, and the debt used during any gap. This would show whether the problem is the level of support, the sharpness of the cutoff, or the uncertainty of getting the support at all.
 
 ## Reading rule
 
