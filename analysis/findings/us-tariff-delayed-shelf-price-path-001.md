@@ -40,6 +40,10 @@ The delay can also change firm behavior before it changes the shelf. A retailer 
 
 There are at least three separate questions in the average: how much of the tariff reached the product, when it reached the shelf, and what the household did in response. A firm can hold the sticker price while cutting quantity or quality. A household can keep buying by switching stores, brands, or meals. A measured price may therefore understate the change in what the family receives.
 
+Inventory creates a simple reason for delay. Goods already in a warehouse may carry the old cost, while a new shipment carries the tariff. A retailer can sell the old stock at the old price, raise the price on the next shipment, or use the old margin to soften the increase. The household sees one shelf, but the firm is managing several cost dates. The policy effect should be tied to the shipment or input that changed, not just the announcement date.
+
+The household’s substitute is part of the price. A cheaper brand may require a longer trip, a different recipe, a new repair, or a quality loss. A family with time and transport can search; a family with a fixed route may pay the first price. A tariff can therefore change access and effort even when the average price rise is small. Those costs belong beside the checkout number.
+
 ## The four outside views
 
 **Household:** A family notices the goods it buys often and compares them with wages, rent, debt, and savings. A delayed increase can be hard to connect to the policy that started it.
@@ -55,6 +59,10 @@ The household may respond without making a public judgment: buy fewer units, vis
 This creates a political timing problem. The benefit of a trade policy may be described in terms of future production or bargaining power, while the cost arrives in a weekly basket. If the price change is delayed or spread across many goods, households may feel the effect without linking it to the policy. A direct blame path is possible but is not established by the price studies.
 
 The reverse mistake is possible too. A price rise after a tariff date may also reflect a weather event, a wage change, a shipping problem, or a firm decision unrelated to the tariff. A credible public account needs a comparable product, a clear exposure measure, and the full timing path. Otherwise a visible date can become a convenient explanation rather than a demonstrated cause.
+
+The politics can turn on who appears to have chosen the burden. If a retailer raises a price, shoppers may blame the store. If a package shrinks, they may blame the brand. If a domestic producer raises its price later, the tariff link may be invisible. The policy may still be responsible for changing the conditions, but the public story can attach to the last firm in the chain. This is an inference about blame, not a finding from the price estimates.
+
+There is also a possible production benefit that arrives on a different clock. A tariff may support a domestic investment or supplier change that takes years, while the consumer adjustment starts with the next shipment. A fair comparison needs to show both the near cost and the later job, supply, or resilience result. Neither should be used to erase the other.
 
 ## What remains unproven
 
@@ -72,6 +80,8 @@ The studies do not show the same household's full basket, wage, job, package siz
 ## Next test
 
 Follow households and products for 18 months around a tariff change. Join country of origin and tariff exposure to checkout prices, quantities, package size, quality, wages, jobs, savings, and debt. Record retailer and supplier changes, then ask when a family noticed the change, what it stopped buying, and whether it linked that cost to the policy. Use less-exposed products as comparisons. Separate the first shelf effect from the later input and margin effect, and report price, quantity, quality, choice, and household borrowing separately.
+
+Add shipment and inventory dates, supplier contracts, retailer margins, package weight, substitute distance, and time spent searching. Interview firms about when the cost changed and households about who they blamed. Continue the panel long enough to measure domestic investment, jobs, and new supplier reliability. This would separate the first cost, the later market adjustment, and any benefit that takes longer to appear.
 
 ## Reading rule
 
