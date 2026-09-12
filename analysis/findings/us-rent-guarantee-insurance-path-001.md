@@ -18,6 +18,10 @@ Now compare a family that could not afford the premium or failed screening. It f
 
 Suppose the family has $900 left after paying other bills and the rent is $1,800. A promise to cover $900 next month may keep the family in the home, but it may not help if the payment arrives after a filing deadline or becomes a debt due when work has not returned. A smaller payment made before the deadline could be more useful than a larger payment made later. Timing is not an administrative detail; it is part of the benefit.
 
+The contract also changes the meaning of “rent paid.” If the insurer pays the landlord and then collects from the tenant, the household has exchanged an eviction risk for a debt risk. That may be a good trade when income returns soon. It may be a bad trade when the shock is lasting. A public grant, a forgivable payment, and a recoverable advance can all stop the same notice while leaving very different next months.
+
+The product may affect entry as well as crisis response. A landlord who trusts a guarantee may accept a renter with irregular income. But if the guarantee is available only to people who can pay the premium, pass a screen, or understand a complex claim process, the people most exposed to eviction may remain outside it. A protection product can widen the door for some households and add a new door for others.
+
 ```text
 income or health shock
   -> rent cannot be paid
@@ -46,6 +50,10 @@ The model’s result should be read at the right level. It can show that tempora
 
 This gives the research a useful discipline: compare protection by the household’s final position, not by the promise printed on the product page. Did the renter stay housed? Did debt rise? Did credit, work, health, or the next lease change?
 
+Risk transfer can also alter the landlord's behavior. A fast, reliable payment may make a landlord more willing to wait through a short shock. A slow or disputed payment may have little value, even if the coverage limit is large. A guarantee that pays only after a formal filing could reward the very escalation that prevention is meant to avoid. The sequence of notice, claim, payment, and court action must be observed before calling a product preventative.
+
+The public budget question is wider than the premium. If a guarantee keeps a worker near a job, avoids a shelter stay, or protects a child's school, it may prevent costs elsewhere. If it raises rent or leaves debt behind, it may shift costs into housing and credit. These are possible paths, not results of the model. They explain why a real evaluation must count tenant, landlord, insurer, and public costs together.
+
 ## What remains unknown
 
 The NBER work does not measure premiums, enrollment, claims, exclusions, landlord response, claim timing, repayment, credit, or later housing. We do not know whether the people most exposed to eviction can buy the protection or understand its terms. We also do not know whether a guarantee prevents displacement or only changes who receives the missed rent and when.
@@ -53,6 +61,8 @@ The NBER work does not measure premiums, enrollment, claims, exclusions, landlor
 ## Next test
 
 Follow insured and uninsured renters for three years. Join premium, claim, income, health, rent, notice, landlord response, eviction, credit, work, and housing records. Compare private coverage, public aid, legal help, and no protection. Record the rent due date, claim decision date, payment recipient, repayment terms, and both the immediate housing result and the debt carried forward. Test whether landlords change screening or rent when protection becomes available.
+
+Audit actual contracts and claims month by month. Randomly vary or compare grant, forgivable aid, recoverable advance, and insurance designs with the same dollar limit. Measure claim speed, denial, tenant debt, landlord patience, rent and deposit changes, housing retention, and the next lease. The key result is not a paid claim; it is whether the household reaches a stable next rent date without replacing eviction risk with an unpayable debt.
 
 ## Reading rule
 
