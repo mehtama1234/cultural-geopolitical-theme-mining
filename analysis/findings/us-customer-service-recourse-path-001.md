@@ -16,6 +16,10 @@ Suppose the first agent says the refund is approved, but the payment team has no
 
 The reverse can happen too. A tool may slow the first reply but preserve the record, send the right form, and connect the customer to someone with authority. If the measure rewards only response speed, the worse process can look better. The unit of analysis should be the case from first report to final remedy, not the first message.
 
+The case has a memory problem. If each contact starts from zero, the customer must supply the firm's missing history. That is unpaid work, and it creates an accuracy risk: a tired person may describe the event differently on the third call, while the company treats the difference as a reason to deny the claim. A durable case record can be more valuable than a fast greeting because it preserves the facts needed for a later decision.
+
+Closure needs a customer-side test. A firm can close a ticket when it sends an email, applies a credit, or reaches a deadline. The customer may still face a missing refund, a wrong report, or a product that fails again. A case should be treated as closed only when the promised action is completed, the customer can verify it, and there is a route to reopen it if the result is wrong.
+
 ```text
 automated prompt or routing → faster first response → repeat complaint, exception, denial, or record request
 → case history and human authority → resolution, repeat contact, complaint, loss, or exit
@@ -42,6 +46,10 @@ The deeper finding is that a firm can improve the appearance of care without imp
 
 This creates an uneven market. People with time, confidence, records, and money to wait can keep escalating. People with limited English, disabilities, low digital access, or an urgent bill may accept the first answer or leave. The same service design can therefore create different outcomes without using different words for different customers.
 
+The power gap grows when the customer cannot see the firm's internal boundary. An agent may say “the system will not allow it,” while another team can change the decision. The customer does not know whether the barrier is law, policy, software, or lack of authority. This makes escalation hard to target and turns a correctable error into a test of persistence. Clear reasons and named ownership are part of a fair remedy.
+
+There is a public data value in the failed cases. Repeat contacts, abandoned chats, reopened complaints, and outside complaints can show where the firm's first answer is not enough. If a company reports only average response time and closed tickets, it can hide the burden among customers who stopped pursuing help. A useful public measure should follow unresolved cases and customer effort, not reward disappearance from the queue.
+
 ## What remains unproven
 
 The evidence does not show whether AI assistance shortens time to final resolution, increases refunds, reduces repeat contact, or changes outcomes for customers with disabilities, limited English, low digital access, or complex cases. A complaint count cannot tell us whether the firm fixed the underlying problem. It also does not show whether faster service lets firms handle more cases or simply closes them sooner.
@@ -49,6 +57,8 @@ The evidence does not show whether AI assistance shortens time to final resoluti
 ## Next test
 
 Choose one complaint system and link first contact, repeat contact, transfer, record access, decision, remedy, appeal, and closure. Report time to resolution, successful remedy, repeat contact, and customer effort by complaint type, channel, age, disability, language, income, and digital access. Audit whether the person or system answering could actually change the outcome. Measure authority, not just human contact.
+
+Run a case-level audit with seeded, known problems that require different remedies. Randomly assign fast AI-assisted routing, slower record-preserving routing, and direct access to an authorized specialist. Measure first reply, factual accuracy, repeat contacts, time to completed remedy, customer effort, unresolved rate, and successful reopening. The test should count a case as solved only after the customer-side condition is met, not when the firm's queue says “closed.”
 
 ## Reading rule
 
