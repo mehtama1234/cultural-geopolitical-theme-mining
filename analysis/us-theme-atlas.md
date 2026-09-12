@@ -461,6 +461,8 @@ Follow a recurring charge that survives after its value fades into the household
 
 Still missing: The NBER estimate is model-based and does not follow the same US customer from an unwanted renewal to a changed budget or political view.
 
+[Read the complete connected memo](../site/us-subscription-household-cost-path-001.html)
+
 ### When the shape of aid changes the household week
 
 Follow the form and timing of public help into food spending, then ask whether short-run spending becomes real security or only a different kind of constraint.
@@ -996,6 +998,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
 - [NBER Digest: Consumer Inattention and Subscription Renewals](https://www.nber.org/digest/202310/consumer-inattention-and-subscription-renewals)
 - [HBS Working Knowledge: With Subscription Fatigue Setting In, Companies Need to Think Hard About Fees](https://www.library.hbs.edu/working-knowledge/with-subscription-fatigue-setting-in-companies-need-to-think-hard-about-fees)
+- [FTC Shutterstock settlement](https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices)
 
 #### Evidence check: A monthly charge can survive after its value fades
 
