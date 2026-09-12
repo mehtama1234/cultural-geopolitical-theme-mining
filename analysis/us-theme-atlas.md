@@ -154,6 +154,8 @@ Follow automatic saving from the workplace into the household's account and debt
 
 Still missing: The current sources do not follow the same worker through take-home pay, spending, credit-card repayment and later retirement security.
 
+[Read the complete connected memo](../site/us-auto-ira-balance-path-001.html)
+
 ### When a record starts making the future
 
 Follow a score change into the record a lender sees, then into housing access. The test is whether a paper signal adds a real cost before a new household failure occurs.
