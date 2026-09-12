@@ -39,6 +39,19 @@ Insurance can reduce the need for a large deposit and may prevent a severe loss.
 - housing, credit, work and health after a claim;
 - public cost compared with direct rental aid.
 
+## Market check
+
+| Source | What it tells us | Status | Limit |
+|---|---|---|---|
+| [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters) | The product is bought by the renter, names the landlord as beneficiary, can help a renter qualify, is priced from rent, property requirements and financial information, and is paid as an upfront non-refundable premium. If the company pays a landlord, the renter still owes the company. | Provider description | A provider page does not show take-up, claim frequency, approval rates, or tenant outcomes. |
+| [TheGuarantors: behind on rent](https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay) | Rent Coverage does not pay the tenant's monthly rent as relief. It pays a landlord claim for an outstanding balance and then seeks reimbursement from the tenant. | Provider help page | It describes one product's terms, not the whole market. |
+| [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee) | The property manager decides whether to offer the product. Coverage can include missed rent or damage; price uses personal and lease information; a reserve may be required; the tenant repays a claim. | Provider help page | It does not report approval, pricing distribution, claims, or later housing results. |
+| [Columbia Business School research brief](https://business.columbia.edu/research-brief/rent-guarantee-insurance-housing-crisis) | The research brief describes private RGI as a product offered by fintech firms and says private providers are likely to serve middle-income renters, while public coverage could reach higher-risk renters. | Research summary | It summarizes the model and does not measure provider performance. |
+
+## Market finding to test
+
+The real products found so far protect the landlord's lease decision more clearly than they protect the tenant's balance sheet. They may open a door for a renter who lacks a conventional guarantor, but a claim can become a new debt to the provider. This is a different product from insurance that absorbs the tenant's loss.
+
 ## Decision rule
 
 Keep modeled welfare, actual claims, prevented eviction and later household security separate. The model is a design clue, not a measured market result.
