@@ -106,6 +106,8 @@ The next working artifact is the [source-to-question matrix](projects/us-househo
 
 The first time-and-money bridge is in the [time and spending layer](projects/us-household-calendar-integration/time-spending-layer-v1.md). It defines how ATUS and CE can set scale and categories without being falsely merged into one household panel.
 
+The first published-table reference pass is in the [ATUS and CE reference pass](projects/us-household-calendar-integration/atus-ce-reference-pass-v1.md). It records the transport spending and work/care travel baselines, with their units and limits.
+
 The first transport paper scan is in the [transport paper scan](projects/us-household-calendar-integration/transport-paper-scan-v1.md), with a [reader-facing HTML page](../site/us-transport-paper-scan.html). It separates household choice, city-wide effects, and worker or firm effects, then turns the reading into questions for the calendar.
 
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
