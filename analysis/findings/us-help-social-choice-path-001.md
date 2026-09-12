@@ -22,6 +22,10 @@ The opening page does not give a national US adoption rate or follow the same pe
 
 There is a useful counterexample. A person may choose a visible tool precisely because it creates accountability, makes a commitment clear, or helps others offer support. Visibility is not always a penalty. The question is whether the person controls who sees it and whether the social response helps or harms the change.
 
+The same issue appears in public help, but with a harder power difference. A food benefit, debt program, therapy visit, or workplace accommodation may require a record that a caseworker, employer, landlord, or insurer can see. The person may value the help and still avoid the application because the record could affect how they are treated later. A program can be open in law and socially expensive in use.
+
+Need can also become part of a person’s identity in other people’s eyes. Someone who asks once may be treated as permanently dependent; someone who refuses may be praised for coping while paying more or getting sicker. These judgments can change family support, hiring, credit, or care. That is a possible path to test, not a result shown by the habit-tool study.
+
 ## The connection
 
 ```text
@@ -50,6 +54,10 @@ The household consequence can be delayed. Avoiding a $20 aid today may lead to r
 
 Making a tool private is not enough if access records are still visible to an employer, insurer, school, or platform. A public program can reduce the social barrier while adding a data barrier. Privacy, real effectiveness, and voluntary choice need to be tested together.
 
+There is a design choice between normalizing help and hiding need. A support built into an ordinary service may reduce the label, but it may also make consent unclear. A separate program may make access easier to protect, but its name can announce the need. The best design may be one that gives the person control over disclosure, uses the same simple path for many reasons, and makes the result visible without making the need public.
+
+This has a political edge. When people see help as a sign of failure, they may support rules that make help harder even when the same rules raise later costs for families, employers, and public budgets. When help is treated as a normal tool, support may be easier to use, but trust can fall if institutions collect data or use the service to control behavior. The social meaning of help can therefore shape both take-up and the rules people are willing to fund.
+
 ## What would change the finding
 
 - A US sample that records aid choice, visibility, price, privacy, and later behavior.
@@ -62,6 +70,8 @@ Making a tool private is not enough if access records are still visible to an em
 ## Next test
 
 Offer people the same habit-change aid with private, optional-sharing, and public-sharing choices. Follow use and behavior for six months while measuring cost, privacy, judgment, and whether the aid actually helped. Compare the social signal with ease, price, side effects, and fit. Add a second test in which observers see the same tool described either as a deliberate design choice or as evidence of weak control. This can separate the tool’s visible label from the tool itself.
+
+Repeat the test with a real service such as debt counseling, food support, or a workplace accommodation. Randomly vary whether the service is presented as a normal option for many people, a targeted benefit, or a private setting. Measure applications, completion, disclosure, treatment by others, later bills, work or care outcomes, and whether people return for help. The core result is not whether a person accepts the label; it is whether the social cost blocks useful help or protects a meaningful choice.
 
 ## Reading rule
 
