@@ -1,8 +1,8 @@
 # US source coverage
 
-99 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+100 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 17; CMS: 1; Census: 11; DOE: 13; EIA: 16; FTC: 25; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 18; CMS: 1; Census: 11; DOE: 13; EIA: 17; FTC: 27; Federal Reserve: 19; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2266,6 +2266,24 @@
 - households that avoid shutoff by borrowing or family help.
 
 [Open the source-search record](projects/us-utility-shutoff-bill-timing/source-search-2026-09-11.md)
+
+## US utility shutoff and reconnection rules
+
+**Project:** `us-utility-shutoff-reconnection-rules`
+
+**Status:** matched evidence pass complete; state-level rule and customer outcome comparison remains open
+
+**Question:** After nonpayment, how do notice, payment arrangements, weather protections, medical rules, and reconnection costs change the household path?
+
+**Sources recorded:** 5
+
+- [FTC: Getting utility services and why credit matters](https://consumer.ftc.gov/articles/getting-utility-services-why-your-credit-matters)
+- [FTC: Utility scams and shutoff threats](https://consumer.ftc.gov/consumer-alerts/2022/08/only-scammers-demand-utility-payments-cryptocurrency)
+- [CFPB: help paying rent and bills](https://www.consumerfinance.gov/housing/housing-insecurity/help-for-renters/get-help-paying-rent-and-bills/)
+- [HHS: LIHEAP performance measures](https://stage.liheappm.acf.hhs.gov/what-are-pm/)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+
+[Open the source-search record](projects/us-utility-shutoff-reconnection-rules/source-search-2026-09-11.md)
 
 ## US vehicle repair as a household shock
 

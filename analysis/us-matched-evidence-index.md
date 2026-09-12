@@ -594,7 +594,17 @@ Budget billing can make a seasonal utility bill easier to plan because the custo
 
 [Read the HTML page](../site/us-utility-payment-plans-budget-billing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-payment-plans-budget-billing-matched-evidence-001.md)
 
-### 60. A car repair can protect access while taking away other room
+### 60. A shutoff rule changes the time a household has to recover
+
+**Theme:** Energy / cost / housing / public power
+**Route:** missed payment → protection or shutoff → reconnection and later arrears
+**Still open:** whether the rule creates recovery or delay
+
+After a missed utility payment, the household does not face one fixed path. A notice, payment arrangement, public assistance referral, weather protection, or medical rule can leave service on while the household catches up. A shutoff can instead add reconnection cost and a new arrears problem. FTC guidance says payment plans may require current bills and old debt together, and missing the plan can lead to disconnection. HHS measures restoration and prevention separately. The deeper finding is that a protection can buy time, but time only becomes recovery if the next payment is possible and the balance does not keep growing.
+
+[Read the HTML page](../site/us-utility-shutoff-reconnection-rules-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-shutoff-reconnection-rules-matched-evidence-001.md)
+
+### 61. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -604,7 +614,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 61. Efficiency savings are real but smaller than the promise
+### 62. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health
