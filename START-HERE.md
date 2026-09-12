@@ -10,6 +10,8 @@ The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five t
 
 The [matched-evidence index](site/us-matched-evidence.html) collects the deeper checks completed after the opening source packets and shows the open link in each one.
 
+The newest plain-language reading pages are [bank fees and liquidity](site/us-bank-fee-credit-path-001.html), [benefit access and work cliffs](site/us-safety-net-access-path-001.html), [rideshare choice and safety](site/us-rideshare-price-search-path-001.html), and [care time and work](site/us-aging-care-work-path-001.html). They follow the same rule: make the household trade visible, then separate what is measured from what is inferred.
+
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
 
 The second is [When faster service and longer use point in different directions](site/us-work-service-attention-path-001.html), with its [Markdown record](analysis/findings/us-work-service-attention-path-001.md). It joins worker AI access, customer resolution and the ability to leave while keeping the separate-study limit visible.

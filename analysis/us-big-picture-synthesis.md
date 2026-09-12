@@ -18,6 +18,19 @@ A family may keep paying rent by dropping insurance, care, food quality, saving,
 
 These are repeated patterns in the questions and early evidence. They are not proof that all of them are worsening together or happening to the same households.
 
+## What the latest pages add
+
+The newer pages make the map more concrete:
+
+- A fee can disappear while the cash shortage remains.
+- A benefit can disappear while the need remains.
+- A job can stay while coverage, debt, or care makes leaving harder.
+- A price gap can exist while the customer pays for time, safety, or convenience.
+- New residents can add customers and jobs while also adding pressure to homes and services.
+- A benefit loss can change sentiment without proving a changed vote.
+
+These are not six versions of one theory. They are six places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
+
 ## The five themes
 
 ### 1. What families give up to pay the bills
