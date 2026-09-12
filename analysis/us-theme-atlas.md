@@ -764,6 +764,8 @@ Follow a late payment, overdraft or thin record into later credit access, then a
 
 Still missing: The current sources do not identify the same household's underlying event, gatekeeper decision and later housing result.
 
+[Read the complete connected memo](../site/us-credit-record-housing-gate-path-001.html)
+
 ### When housing court changes more than housing
 
 Follow rent trouble into an eviction order, then ask what happens to work, health, spending and future credit and housing.
