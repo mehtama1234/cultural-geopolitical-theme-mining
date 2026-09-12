@@ -1,70 +1,39 @@
 # When the first price is not the final price
 
-## Short answer
+## The argument
 
-A shopper makes a choice using the price, fee, reward, or monthly payment that is easiest to see. The full cost may arrive later, or may be spread across all shoppers. That can change what people buy and who carries the burden without looking like one large bill.
+A shopper often decides using the number that is easiest to see: the headline price, the monthly payment, the reward, or the “free” delivery claim. The full cost may arrive later, or be spread across all shoppers through merchant fees. Price display and payment design are part of the product because they change what customers can compare and who pays.
 
-The careful finding is that price display and payment design are part of the product. They should be measured with the final price, the household's cash room, and the value of the service kept separate.
+The right question is not whether every fee is unfair. It is whether the customer can see the final cost, understand the trade, and leave or choose another payment before the charge becomes hard to reverse.
 
-## What the sources show
+## What the sources establish
 
-### 1. Hidden price information changes choice
+NBER clickstream evidence finds that hiding price information makes comparison harder and leads consumers to spend more than they otherwise would. That is a choice effect, not proof that every extra purchase was unwanted.
 
-NBER clickstream evidence finds that hiding price information makes comparison harder and leads consumers to spend more than they otherwise would. This is a choice effect, not proof that every extra purchase was unwanted or harmed a household.
+An NBER study using US merchant and payment data estimates that interchange fees transfer about $30 billion each year from cash and debit users to credit-card users. The estimate depends on how merchants pass costs into prices and is not a direct bill for each cash or debit user.
 
-[NBER Working Paper 25186](https://www.nber.org/papers/w25186)
+NBER payment-card data across ten products show a sharp rise in cancellations when replacement cards force subscribers to actively renew. The authors estimate that inattention raises seller revenue by 14% to more than 200% compared with immediate cancellation after value falls below price. This is a model range; non-cancellation can also mean continued value.
 
-### 2. Payment choice can move value between shoppers
+Sources: [NBER price information](https://www.nber.org/papers/w25186), [NBER payment fees](https://www.nber.org/papers/w35067), and [NBER inattention and subscriptions](https://www.nber.org/papers/w31547).
 
-An NBER study using US merchant and payment data estimates that interchange fees transfer about $30 billion each year from cash and debit users to credit-card users. Different shoppers and merchant fees reduce the estimate by about 25%, but do not remove the transfer.
+## Follow the displayed price
 
-The estimate depends on how merchants pass costs into prices. It is not a direct bill for each cash or debit user.
+headline price, reward, or monthly charge → limited comparison and attention → fee, shared price, or renewal becomes visible later → purchase, cancellation, or payment method changes → different households carry different effective costs
 
-[NBER Working Paper 35067](https://www.nber.org/papers/w35067)
+The sources support these mechanisms separately. They do not follow one household across all three. A card reward may be real value. A fee may fund a service. The customer still needs the final price and a workable choice.
 
-### 3. A recurring charge can continue after attention fades
+## What must stay separate
 
-NBER payment-card data across ten digital and non-digital products show a sharp rise in cancellations when replacement cards force subscribers to actively renew. The authors estimate that inattention raises seller revenue by 14% to more than 200% compared with immediate cancellation after value falls below price.
-
-That range comes from a model. A customer who does not cancel may still value the service, use it rarely, or prefer automatic renewal.
-
-[NBER Working Paper 31547](https://www.nber.org/papers/w31547)
-
-## The connection
-
-```text
-headline price, reward, or monthly charge
-  -> shopper chooses with limited time and attention
-  -> fee, shared price, or renewal becomes visible later
-  -> purchase, cancellation, or payment method changes
-  -> different households carry different effective costs
-  -> seller design and public rules become part of the price
-```
-
-The sources support the first three mechanisms separately. They do not follow one household across all three.
-
-## The four outside views
-
-**Household:** A small fee or missed cancellation can matter more when cash is tight. A card reward can also be real value, so the net result must include fees, interest, security, and convenience.
-
-**Company and sector:** A clear fee can fund a service and help a firm plan revenue. A hard-to-see fee or renewal can also reduce the customer's ability to compare or leave.
-
-**Money and finance:** Payment rules can move money between cash, debit, and credit users. Automatic charges can turn attention into recurring revenue and a new payment date.
-
-**Public power:** A rule about price display, cancellation, surcharges, or payment routing changes who must explain the full cost and who can challenge it. A complaint is not a remedy unless someone can change the charge.
-
-## What would change the finding
-
-- The full price shown before purchase, the final price, and the payment method.
-- Household income, cash room, rewards, interest, fees, and later missed payments.
-- Cancellation notice, effort, renewal date, use, and customer value.
-- Results by income, age, disability, digital access, merchant size, and place.
-- A comparison before and after a clear-price or easy-cancellation rule.
+- First price and final price.
+- A fee paid directly and a cost spread through prices.
+- Payment convenience and payment affordability.
+- A customer who did not cancel and one who could not cancel.
+- A model estimate and a measured household loss.
 
 ## Next test
 
-Choose one recurring service or everyday fee. Record the first price, final price, renewal or payment event, cancellation path, and later household outcome. Compare people with different cash room before calling the design unfair.
+Choose one everyday fee or recurring service. Record the price shown first, final price, payment method, renewal event, cancellation effort, use, and later household outcome. Compare customers with different cash room before calling the design unfair.
 
 ## Reading rule
 
-The first price is not the final price. A transfer between shoppers is not automatically a loss. “Did not cancel” is not the same as “did not value.”
+The first price is not the final price. “Did not cancel” is not the same as “did not value.”
