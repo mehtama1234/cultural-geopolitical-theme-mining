@@ -243,6 +243,8 @@ The next short project is [US repeat energy crises](analysis/projects/us-repeat-
 
 The next short project is [US utility bill timing and rate design](analysis/projects/us-utility-bill-timing-rate-design/README.md), with its [source search record](analysis/projects/us-utility-bill-timing-rate-design/source-search-2026-09-11.md). It tests whether seasonal use, fixed charges, and due dates turn a manageable yearly cost into a monthly crisis.
 
+The next short project is [US utility payment plans and budget billing](analysis/projects/us-utility-payment-plans-budget-billing/README.md), with its [source search record](analysis/projects/us-utility-payment-plans-budget-billing/source-search-2026-09-11.md). It tests whether smoothing a bill protects cash flow or hides a balance that arrives later.
+
 The next short pass is [US consumer credit and the shrinking cash buffer](analysis/projects/us-consumer-credit-liquidity/README.md), with its [source search record](analysis/projects/us-consumer-credit-liquidity/source-search-2026-09-11.md). It tests whether credit is a bridge after a household bill or a later loss of room.
 
 The fifth connected memo is [When credit makes a shock smaller now and larger later](site/us-credit-buffer-path-001.html), with its [Markdown record](analysis/findings/us-credit-buffer-path-001.md). It joins household cash buffers, BNPL payment timing, product fees and wider debt conditions while keeping the different measurement units visible.

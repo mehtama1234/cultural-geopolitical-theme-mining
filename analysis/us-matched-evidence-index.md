@@ -564,7 +564,17 @@ An annual energy average can hide the month that breaks a household. EIA shows t
 
 [Read the HTML page](../site/us-utility-bill-timing-rate-design-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-bill-timing-rate-design-matched-evidence-001.md)
 
-### 57. A car repair can protect access while taking away other room
+### 57. A smoother bill can move the problem rather than end it
+
+**Theme:** Energy / cost / finance / voice
+**Route:** payment plan → smoother bill → true-up or stable service
+**Still open:** whether smoothing lowers burden or delays it
+
+Budget billing can make a seasonal utility bill easier to plan because the customer pays an average amount each month. But the plan usually compares that estimate with actual use later, so a lower monthly payment can become a true-up balance. CFPB guidance also shows that utility withdrawals may change from month to month, which matters when a household has little cash in the account. Short-term assistance and payment plans may prevent an immediate shutoff, but the evidence does not yet show whether they reduce total cost or prevent the next crisis. The key question is not only “Was this month affordable?” but “What balance and risk did the household carry forward?”
+
+[Read the HTML page](../site/us-utility-payment-plans-budget-billing-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-utility-payment-plans-budget-billing-matched-evidence-001.md)
+
+### 58. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -574,7 +584,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 58. Efficiency savings are real but smaller than the promise
+### 59. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health

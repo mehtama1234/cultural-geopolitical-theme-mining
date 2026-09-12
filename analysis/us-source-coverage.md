@@ -1,8 +1,8 @@
 # US source coverage
 
-96 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+97 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 11; EIA: 13; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 12; CMS: 1; Census: 11; DOE: 12; EIA: 14; FTC: 23; Federal Reserve: 19; HBS: 47; HHS: 7; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 21; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2187,6 +2187,24 @@
 - [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
 
 [Open the source-search record](projects/us-utility-bill-timing-rate-design/source-search-2026-09-11.md)
+
+## US utility payment plans and budget billing
+
+**Project:** `us-utility-payment-plans-budget-billing`
+
+**Status:** matched evidence pass complete; customer-level payment and true-up records remain open
+
+**Question:** Does smoothing a utility bill protect household cash flow, or does it hide a balance that arrives later?
+
+**Sources recorded:** 5
+
+- [CFPB regulation interpretation: home fuel budget plans](https://www.consumerfinance.gov/rules-policy/regulations/1026/2023-01-01/interp-3/)
+- [CFPB: automatic payments from a bank account](https://www.consumerfinance.gov/ask-cfpb/how-do-automatic-payments-from-a-bank-account-work-en-2021/)
+- [DOE: weatherization application and energy-help resources](https://www.energy.gov/cmei/scep/wap/how-apply-weatherization-assistance)
+- [CFPB: help for renters paying bills](https://www.consumerfinance.gov/housing/housing-insecurity/help-for-renters/get-help-paying-rent-and-bills/)
+- [EIA: Household energy insecurity, 2024](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
+
+[Open the source-search record](projects/us-utility-payment-plans-budget-billing/source-search-2026-09-11.md)
 
 ## US utility shutoff and bill timing
 
