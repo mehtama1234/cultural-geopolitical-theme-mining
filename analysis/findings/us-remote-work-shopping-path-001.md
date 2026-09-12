@@ -14,6 +14,10 @@ A parent works from home and saves an hour of commuting. During lunch, she order
 
 The household may still be better off. The delivery may prevent a missed pickup, a second car trip, or a lost work hour. Another household may use the saved commute to compare stores and spend less. A third may have no reliable delivery, enough storage, or spare cash for larger orders. “Working from home” does not name one customer experience.
 
+The saved commute is also not owned by one person. A worker may use it for paid work, while a partner expects the worker to handle deliveries, meals, school pickup, and returns. The home becomes a place where work and shopping compete for the same minutes. A household can gain flexibility and still experience a heavier unpaid load for the person who is most often there.
+
+The order size changes the financial result. Buying more at once may reduce trips and make stockouts less likely, but it uses cash and storage. Small, frequent orders may preserve cash but add fees, time, and more opportunities for impulse purchases. The right comparison is not online versus in-store; it is the full cost of the chosen order under the household's schedule and buffer.
+
 ```text
 work location → commute time and shopper responsibility change
 → store visit, online order, delivery, and comparison change
@@ -45,6 +49,10 @@ Third, it changes the price of comparison. A household with time and cash can us
 
 This also creates a place effect. When workers stay near home during the day, some residential-area stores and services may gain weekday demand while downtown businesses lose it. But that is not a simple transfer: deliveries add traffic, storage and return work, and local stores may not receive the same margin as a platform order. The customer change can become a business and neighborhood change without the household ever deciding to “reshape the local economy.”
 
+Access can split along work type. A remote worker may choose a delivery window or make a weekday trip; a warehouse worker, nurse, driver, or restaurant employee may still face peak-hour crowds and no delivery that fits the shift. If residential demand grows while services near non-remote jobs weaken, the same work-location change can improve one household's convenience and reduce another's options. Local retail data should be read beside who is able to stay home.
+
+The platform may learn from this shift as well. Each order, substitution, return, and delay reveals household routines. Better data can improve delivery and stock, but it can also make convenience more expensive or make the first offer harder to compare. A lower time cost today may become a higher dependence cost later. That is a possible platform path, not established by the shopping study alone.
+
 ## Four views of the same purchase
 
 **Household:** Count the saved commute, shopping time, delivery fee, price difference, return work, storage, and who did the unpaid labor.
@@ -62,6 +70,8 @@ The study does not show the same household's commute time, shopping time, shoppe
 ## Next test
 
 Follow households for three months before and after a remote-work change. Record commute, shopping time, shopper identity, goods, quantity, price, promotions, delivery, returns, local trips, unpaid planning, and satisfaction. Link the household record to local store and delivery activity. Report three outcomes separately: convenience gained, money paid, and household labor added.
+
+Use weekly time-and-receipt diaries across remote, hybrid, and on-site workers with similar households. Measure order size, cash timing, storage, fees, stockouts, substitutions, returns, local travel, unpaid labor, and the value of the saved commute. Follow the local stores and delivery routes too. The test should show whether remote work creates real household room or simply moves shopping and care work into the home while shifting sales between places.
 
 ## Reading rule
 
