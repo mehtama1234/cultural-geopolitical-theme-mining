@@ -736,6 +736,8 @@ Follow a household benefit from cash loss into consumer sentiment, then ask whet
 
 Still missing: The current study measures sentiment and does not establish the later political step.
 
+[Read the complete connected memo](../site/us-benefit-loss-public-mood-path-001.html)
+
 ### When the same yearly income buys less certainty
 
 Follow a change in pay risk into spending and credit, then ask whether the household can still plan, borrow and keep its choices open.
