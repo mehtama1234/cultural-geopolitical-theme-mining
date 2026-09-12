@@ -20,6 +20,10 @@ The nearby shop matters because local effects can spread. A surviving firm may k
 
 Survival is therefore one step in a chain. It can be a public benefit, a private burden, or both.
 
+The first question is whether the firm was waiting for a temporary repair or facing a lasting loss of demand. A loan can bridge the first problem if customers return and the equipment works again. It can postpone the second problem while interest and unpaid bills grow. The same “kept open” result can therefore mean a successful bridge or a longer route to closure. Demand, repairs, insurance, and infrastructure need to be tracked beside the loan.
+
+The owner may also use the firm as a private reserve. They can delay their own pay, borrow from family, pledge a home, or put personal expenses on a card so workers and suppliers are paid. That may protect the local network while shifting the disaster into the household. A business record showing payroll held steady will miss that transfer unless the owner's cash and housing are followed too.
+
 ```text
 disaster damage → repair and cash need → recovery loan, insurance, private credit, or no help
 → firm exit, survival, or debt distress → jobs, revenue, customers, owner household, and local services
@@ -45,6 +49,10 @@ The deeper finding is that liquidity can preserve local capacity while hiding pr
 
 This is the small-business version of the household “loss of slack” pattern. The firm’s cash buffer, the owner’s home, the worker’s hours, and the neighborhood’s alternatives are all forms of resilience. A loan can restore one and consume another.
 
+The local market effect can cut both ways. Preserving one store may keep prices and service reasonable, but a loan that reaches only firms with strong records can let an already better-positioned firm gain customers from a weaker neighbor. A closed firm may have been inefficient, or it may have been the only accessible service for a part of town. The public decision should compare the service and jobs preserved with the access and competition lost elsewhere.
+
+There is a difference between revenue returning and recovery becoming safe. A firm may reopen with fewer workers, longer hours for the owner, no maintenance reserve, and a debt payment due every month. Customers get the service, but the firm is more brittle. The next small shock can then produce a larger closure. Long-term resilience requires rebuilding cash and equipment, not only restarting sales.
+
 ## What remains unproven
 
 The evidence does not show one firm and owner household together, the quality of jobs retained, customer prices or access, or whether survival delayed a needed change. It does not show who was excluded from the loan or how results differ by firm age, race, place, industry, size, and disaster type. It does not show whether the local service remained affordable after reopening.
@@ -52,6 +60,8 @@ The evidence does not show one firm and owner household together, the quality of
 ## Next test
 
 Follow firms, owner households, workers, and customers for five years after a disaster. Join damage, repair, insurance, loans, revenue, exit, bankruptcy, employment, hours, pay, benefits, customer prices, access, household spending, debt, collateral, and local service records. Compare firms that received different kinds of help and report continuity, repayment, job quality, customer access, and household security separately.
+
+Compare rapid grants, forgivable loans, standard loans, payment deferrals, and infrastructure repair for firms with similar damage and demand. Record the first use of funds, owner pay, family transfers, collateral, worker hours, supplier payment, prices, stock, service quality, cash reserve, and the next shock. Measure whether the firm is still operating without household or worker sacrifice, rather than treating continued operation as recovery by itself.
 
 ## Reading rule
 
