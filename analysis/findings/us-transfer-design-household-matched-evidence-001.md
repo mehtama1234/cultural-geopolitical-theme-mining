@@ -6,6 +6,10 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 The deeper finding is about timing and choice. A label may protect food spending. Cash may cover rent, medicine, transport, or a repair. Recurring aid may help planning. None of these short-run responses alone proves lasting household security.
 
+The form of aid can change who controls the household decision. A food benefit protects one category but leaves the family to find cash for rent, utilities, or transport. Cash allows the family to rank its own emergencies, but it can be harder for a program to defend politically or easier for a landlord, lender, or other creditor to claim indirectly. A restricted benefit is not simply less flexible; it directs the money toward one risk and leaves another risk exposed.
+
+Timing changes the value again. A payment at the start of the month may cover rent, while the same payment near the end may cover groceries after rent has already consumed the cash. A one-time payment can solve a sudden repair but does little for a continuing rent gap. Recurring aid can make planning possible even when the monthly amount is small. The household experiences the schedule as part of the benefit.
+
 ## What the matched evidence shows
 
 | Part of the path | What the record shows | What it does not show |
@@ -30,6 +34,10 @@ public need
 
 The policy does not only choose how much money arrives. It also sets what the money points toward and when the family can count on it.
 
+The household may use aid to protect a need that is invisible in the program data. Cash spent on a car can preserve a job. Cash spent on rent can prevent a move. Food aid can free cash for medicine. A balance-sheet measure may show no gain because the family paid down one urgent bill and took on another. The correct interpretation requires the counterfactual: what would have been cut without the transfer?
+
+Restrictions can produce a similar hidden shift. If food is protected but the electricity bill is not, the family may keep buying groceries while living in unsafe heat. If rent is paid but transport is not, the household may remain housed but lose the job that makes next month's rent possible. A program can succeed at its named category and still move the crisis into another part of the household.
+
 ## Four views
 
 **Household:** Ask what bill is due, what food is needed, and what a program label prevents or permits.
@@ -40,6 +48,8 @@ The policy does not only choose how much money arrives. It also sets what the mo
 
 **Public power:** Judge a design by food security, housing, health, choice, take-up, cost, and trust—not only by the first purchases.
 
+**Family power:** Ask who receives the money or benefit, who decides how it is used, and whether the design changes conflict, dependence, privacy, or the ability to leave an unsafe arrangement.
+
 ## What would change the finding
 
 - The same household's aid form, timing, spending, food security, skipped bills, debt, care, health, mobility, savings, and trust.
@@ -48,9 +58,13 @@ The policy does not only choose how much money arrives. It also sets what the mo
 - Administrative cost, take-up, stigma, and the work required to use each design.
 - Two-year evidence showing whether early spending becomes safer housing, food, health, or financial room.
 
+- Evidence about administrative delay, missed payments, privacy, stigma, and whether the person who needs the benefit can use it without another household member's permission.
+
 ## Next test
 
 Compare cash and food aid with the same value and timing for two years. Track what the family bought, what it postponed, what debt changed, and whether its next shock was easier to handle.
+
+Record the due date of each major bill, the aid application and payment date, the benefit restrictions, the person who controlled the use, and the household's backup options. Compare one-time and recurring aid, cash and restricted aid, and faster versus slower delivery. Measure food security, rent and utility continuity, medical and transport access, debt, family conflict, administrative time, and six-month recovery. The strongest result is the need the family protected and the risk it no longer had to borrow against.
 
 ## Reading rule
 
