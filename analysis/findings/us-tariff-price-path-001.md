@@ -32,6 +32,10 @@ These estimates use different periods, products and methods. They should not be 
 
 The numbers are not necessarily in conflict. The 90% estimate describes the first payment by importers. The 20% estimate describes retail pass-through in a different product and period. The 43% estimate describes the share of the burden carried by consumers in a tracker after seven months. Each asks a different question. Treating them as one rate would erase the timing and the point in the chain where the cost was measured.
 
+The product can change before the price does. A retailer may drop a low-margin item, reduce the number of sizes, use a lighter material, or carry less stock. The customer then pays through fewer choices, a longer search, or a later purchase rather than a clear price increase. A study that follows only identical prices can miss a tariff effect that appears as disappearance or quality change.
+
+The burden also depends on how often the household buys the item. A one-time appliance purchase may be delayed. A household that needs a replacement part for work, a school device, or a basic food item may have no practical delay. The same percentage increase can be small in annual spending and large at the exact moment the household has no cash. Exposure needs to be measured by necessity and timing, not only by the share of the national basket.
+
 ### 3. A second price can arrive later through domestic markups
 
 An NBER study of the 2025 tariffs estimates that about 26% of the tariff increase reached consumer prices relative to less-exposed goods. About 64% of that increase was direct, while 36% came indirectly through imported inputs and higher domestic markups as imports became less competitive. The indirect effect took about nine to twelve months.
@@ -61,6 +65,10 @@ The household may not experience the tariff as “paying the tariff.” It may e
 
 That response determines who bears the next part of the cost. A firm that absorbs the first increase may later reduce hours or investment. A firm that raises its markup may make a domestic substitute more expensive too. These are possible routes, not results established for every sector.
 
+Supply switching is not free. A new supplier may be farther away, slower, less reliable, or dependent on a different input. A domestic producer may expand only after new equipment and workers are available. During the gap, the retailer may carry less stock or rely on a higher-cost substitute. The tariff can therefore reduce resilience before it creates a new source of supply. A later domestic investment may be real while customers still paid the transition cost.
+
+The political story follows the point of visibility. Importers see the border bill; retailers see margin pressure; workers see hours or wages; customers see the shelf. The actor with the most visible contact may receive the blame even when it did not set the rule. If the price arrives months later through a domestic markup, the connection becomes harder to recognize. Public judgment should be tested against timing and information, not inferred from the price alone.
+
 **Money and finance:** The timing matters. A cost paid at import may become a later margin change, working-capital need, or household credit choice. Importer and retail records are not the same financial burden.
 
 **Politics:** A later shelf-price rise can be hard to trace back to a trade rule. Voters may blame the policy, the retailer, foreign suppliers, or whoever explains the price first. No opening source follows that blame into a vote.
@@ -79,6 +87,8 @@ That response determines who bears the next part of the cost. A firm that absorb
 Choose one everyday product category. Join customs cost, retailer price, quantity sold and household purchase data over twelve months. Add a survey question about who people blame. Keep the direct and delayed price paths separate.
 
 Use a product that households buy repeatedly and that has both imported and domestic versions. Mark the tariff date, each supplier change, each price and package change, and each household purchase. Then test whether the first price change, the delayed change, or the loss of a low-cost option is most visible in spending and public judgment.
+
+Add stockouts, package size, quality, search time, and substitute distance to the product ledger. Compare necessary and deferrable purchases, low-cash and high-cash households, and firms with different supplier options. Randomly provide shoppers with a clear tariff explanation or a neutral price notice, then measure blame, substitution, delay, borrowing, and policy support. This would show whether the household bears the cost as a price, a missing option, a time loss, or a political story.
 
 ## Reading rule
 
