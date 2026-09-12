@@ -4,41 +4,44 @@
 
 Student debt is not only a balance left from school. It is a payment claim that can meet a person again when the first job, first home, family plans, or more education are being chosen. The payment rule matters as much as the balance. A large balance with a low income-linked payment can leave more room than a smaller balance with a rigid bill.
 
-Consider a new worker deciding whether to take a public-service job, move closer to work, or return to school. The loan does not make the decision by itself. It changes the cash left after rent, transport, food, care, and saving. That can change which option is safe enough to try. The question is whether the payment changed the set of choices for a particular borrower.
+Consider a new worker deciding whether to take a public-service job, move closer to work, or return to school. The loan does not make the decision by itself. It changes the cash left after rent, transport, food, care, and saving. That can change which option is safe enough to try. A person may choose a higher-paying job over a better fit, postpone a move, stay with family, or use more credit. Another borrower may use education debt to reach a high-return career and gain more room later.
 
-## What the sources establish
+The deeper finding is that student debt changes the timing and reversibility of adult choices. A payment due every month can make a risky but valuable move harder to attempt. A protective repayment rule can preserve options even when the balance remains. The headline balance cannot settle whether debt opened a path or narrowed one.
 
-The Federal Reserve’s 2024 household survey found that 20% of borrowers were behind on a student-loan payment or had a loan in collections; the share was 30% for borrowers whose highest education was some college, a technical degree, or an associate degree. This measures reported payment trouble, not long-term value or harm.
+## Follow the first job
 
-New York Fed data put outstanding student debt at about $1.66 trillion in 2026 Q1, with 10.3% of balances 90 days or more delinquent. This is a balance-based credit measure. It is not the share of people behind, and reporting changes affect comparisons over time.
+A graduate receives two offers. One pays more but requires a move. The other is closer to family and offers public-service work but pays less. After the loan bill, rent, and transport, the second job leaves too little cash for emergencies. The borrower chooses the first job, delays the move, or takes a second job. The choice may raise income while reducing time, care, or freedom to change course.
 
-An NBER study of female lawyers models possible effects on career, marriage, and education-quality choices. It offers a mechanism in a narrow group, not a current result for every borrower. Education may raise earnings, and repayment protection may reduce the monthly claim. The balance alone cannot settle the outcome.
+```text
+education financed with debt → payment rule and monthly claim
+→ room left for rent, saving, work, family, or further study
+→ choice delayed, narrowed, or made more valuable
+→ wealth, work path, family timing, and later security
+```
 
-Sources: [Federal Reserve higher education and student-loan findings](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm), [New York Fed student-debt data](https://www.newyorkfed.org/microeconomics/topics/student-debt), and [NBER life-choice study](https://www.nber.org/papers/w23453).
+## What the sources actually establish
 
-## Follow the payment into the next choice
+| Step | Evidence | Meaning |
+|---|---|---|
+| Payment trouble | The Federal Reserve’s 2024 household survey found 20% of borrowers were behind on a student-loan payment or had a loan in collections; the share was 30% for borrowers whose highest education was some college, a technical degree, or an associate degree. | Trouble is not evenly spread across borrowers. |
+| Scale | New York Fed data put outstanding student debt at about $1.66 trillion in 2026 Q1, with 10.3% of balances 90 days or more delinquent. | A balance-based rate is a system measure, not the share of people behind. |
+| Life choices | An NBER study of female lawyers models possible effects on career, marriage, and education-quality choices. | It supplies a mechanism in a narrow group, not a current result for every borrower. |
+| Protection | Education may raise earnings, and repayment protection may reduce the monthly claim. | The balance alone cannot settle the household result. |
 
-education financed with debt → payment rule and monthly claim → room left for rent, saving, work, family, or further study → a choice is delayed, narrowed, or made more valuable → wealth, work path, family timing, or policy views may change
+Sources: [Federal Reserve higher education and student loans](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-higher-education-and-student-loans.htm), [New York Fed student debt](https://www.newyorkfed.org/microeconomics/topics/student-debt), and [NBER life-choice study](https://www.nber.org/papers/w23453).
 
-The first two steps are supported by survey and credit-record measures. The later steps are a testable path, not a proven chain for the same people. We do not yet know which borrowers changed housing, work, marriage, family timing, or further study because of debt.
+## The deeper finding
 
-## What matters more than the headline balance
+Debt changes the value of time and risk. A payment that is small on paper can make a move, care choice, or lower-paid job impossible when cash is thin. A policy that lowers the monthly claim may restore choice without changing the balance. Account relief and life relief must therefore be measured separately.
 
-- **Borrower:** income, family role, age, place, and education return.
-- **Payment:** amount, interest, due date, income link, deferment, and forgiveness.
-- **Choice:** rent, move, job, marriage, children, more school, or saving.
-- **Result:** current stress, later income, wealth, credit, and freedom to change course.
+## What remains unproven
 
-A policy that lowers the balance but leaves the payment date unchanged may not change the household week. A policy that lowers the payment may change a job or housing choice even when the recorded balance moves little. Account relief and life relief must be measured separately.
-
-## What would change the finding
-
-We need a current panel following the same borrower from school into payment, earnings, housing, and family decisions. It should compare borrowers with similar education and earnings but different debt or repayment rules, and show when debt helped by opening a high-return path. Delinquency comparisons must account for reporting changes.
+The sources do not follow the same borrower from school into payment, earnings, housing, family decisions, and later wealth. They do not show which borrowers changed work, housing, marriage, family timing, or further study because of debt. Delinquency comparisons must also account for reporting changes.
 
 ## Next test
 
-Use Federal Reserve SHED files and Census SIPP files to build a descriptive table of education debt, payment trouble, earnings, housing status, and work change. Then test a repayment change against similar borrowers. Start with what happened to the same person; do not jump from a national balance to a personal story.
+Use Federal Reserve SHED and Census SIPP files to describe education debt, payment trouble, earnings, housing, and work change. Then test a repayment change against similar borrowers. Record when debt helped by opening a high-return path as well as when it narrowed a choice.
 
 ## Reading rule
 
-A balance is not a burden by itself. A delinquency rate is not a life story. Keep the borrower, payment rule, income path, and choice together.
+A balance is not a burden by itself. Keep the borrower, payment rule, income path, and choice together.
