@@ -6,9 +6,13 @@ Housing becomes unsafe before a household moves. The mortgage or rent may be unc
 
 A low-income owner in a coastal county may face a higher insurance renewal, a roof repair, and a summer power bill at the same time. A renter faces a different version: the landlord controls insulation and appliances while the renter pays the power bill and may later face higher rent when the building's costs rise. The same place creates different risks for the person who owns it and the person who lives in it.
 
+The timing matters. A household may manage one high bill, but not three arriving before the next paycheck. It may keep the mortgage current by letting the car repair wait, or keep the power on by using a credit card. The home becomes harder to keep when several required costs draw on the same small reserve.
+
 ## Follow the stack through one month
 
 Rent is due Friday. The power bill is high after a heat wave. A repair cannot wait, and the family's car is needed for work. The household can cut food or medicine, borrow, delay the repair, reduce comfort, ask for aid, or move. None of these choices is simply “housing cost.” They are ways of keeping the home reachable and usable.
+
+This is why a household can be “housed” and still be close to losing the conditions that make the housing work. It may stay indoors while living without enough cooling, insurance, transport, or repair capacity. A move is the visible end of the process; the strain often starts much earlier.
 
 ```text
 home quality, weather, local risk, and transport → energy, insurance, repair, and travel costs
@@ -31,13 +35,17 @@ Sources: [DOE LEAD](https://www.energy.gov/cmei/scep/low-income-energy-affordabi
 
 The households with the least cash, credit, and control over the building may have the fewest ways to lower the cost of staying. A renter may not be able to weatherize. An owner may lack cash for a roof. A family already cutting food for power has less room for a new premium. The stack matters because the responses compete for the same dollars.
 
+The stack also separates responsibility from exposure. A renter may pay the power bill but cannot replace a leaking window. An owner may control the building but cannot control an insurer's renewal decision. A worker may need the car to reach the home and the job that pays for it. Each person faces a cost without controlling the part of the system that could lower it.
+
+When households repeatedly patch the stack with debt, lower comfort, family help, or delayed repairs, they may blame the landlord, insurer, utility, lender, or government depending on which bill arrived first. A local insurance rule, weatherization program, utility payment plan, or transit change can alter the whole budget even if it does not change rent. The evidence supports this linked pressure; it does not show which institution households blame or whether the pressure changes a vote.
+
 ## What remains unproven
 
-The evidence does not show which household pays which cost first, whether aid arrives before the break, or whether delayed repair, lower comfort, noncoverage, or moving creates the largest later loss. A premium increase or energy burden is not by itself a forced move.
+The evidence does not show which household pays which cost first, whether aid arrives before the break, or whether delayed repair, lower comfort, noncoverage, or moving creates the largest later loss. It does not show how renters and owners divide the cost when a building is inefficient or a policy is not renewed. A premium increase or energy burden is not by itself a forced move.
 
 ## Next test
 
-Choose two high-exposure states. Join energy burden, insurance share, building age, tenure, utility arrears or shutoff, nonrenewal, repair aid, and moves. Compare renters, mortgaged owners, and owners without mortgages by month, not only by annual average.
+Choose two high-exposure states. Join energy burden, insurance share, building age, tenure, utility arrears or shutoff, nonrenewal, repair aid, transport access, and moves. Compare renters, mortgaged owners, and owners without mortgages by month, not only by annual average. Follow households through a heat wave, renewal notice, or major repair and record which bill was paid, which was delayed, and what support arrived before the next shock.
 
 ## Reading rule
 
