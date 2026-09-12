@@ -8,6 +8,8 @@ This is not a claim that local speech is bad for business. A familiar style may 
 
 The deeper risk is a feedback loop. A manager assigns one worker to sales and another to back-office work because one “fits” the customers. The first gets practice, tips, customer praise, and visible evidence of social skill. The second gets fewer chances to build that record. At the next review, the difference looks like proof of ability even though the first sorting decision helped create it.
 
+The first decision can therefore matter more than the later review. A worker may be capable of the customer-facing job but never receive the chance to show it. The company then sees a record that it helped produce and treats it as a neutral measure of talent.
+
 ## Follow one job decision forward
 
 Two workers have similar education and experience. One sounds like the dominant local workplace group. The other has a different speech pattern. A manager does not reject the second worker. Instead, the manager assigns the first to sales and the second to operations, saying the decision is about customer comfort.
@@ -49,6 +51,10 @@ The cost to the worker is not only a possible pay gap. It can include changing s
 
 The strongest test is not whether speech predicts an occupation. It is whether structured skill measures, blind evaluation, or clear job criteria change access while work quality stays the same. If they do, “fit” was carrying information the employer had not named. If they do not, the job may require a communication feature that needs to be stated and fairly measured.
 
+The household cost can arrive slowly. A less visible assignment may mean lower tips or slower promotion rather than an immediate pay cut. The worker may spend money on training, change speech to gain access, or leave for a place where the rule is less strict. A customer may receive a familiar voice, but the firm may lose useful knowledge from workers who were kept away from the people they serve.
+
+The political link is also indirect. A worker who feels repeatedly sorted by an unstated rule may lose trust in the employer, a profession, or the promise that skill will be rewarded. That can shape a complaint, a union choice, a job move, or a demand for an anti-discrimination rule. The current evidence does not show that it changes a vote, so that remains a test rather than a finding.
+
 ## Four views of the same decision
 
 **Worker:** Was the assignment a choice, a fair test, or a limit? What practice and feedback became available afterward?
@@ -61,11 +67,11 @@ The strongest test is not whether speech predicts an occupation. It is whether s
 
 ## What remains unproven
 
-The evidence does not show one manager refusing one worker, one pay gap caused by speech, or one customer receiving worse service. It does not fully separate speech pattern from education, race, gender, class, region, immigrant status, occupation, and experience. It also does not show whether remote work reduces, preserves, or changes the role of local speech norms.
+The evidence does not show one manager refusing one worker, one pay gap caused by speech, or one customer receiving worse service. It does not fully separate speech pattern from education, race, gender, class, region, immigrant status, occupation, and experience. It does not show whether the first assignment changed later pay or promotion, or whether remote work reduces, preserves, or changes the role of local speech norms.
 
 ## Next test
 
-Use current hiring or worker records. Compare the same job decision with structured skill measures and speech information visible or hidden. Track access to customer work, pay, promotion, feedback, worker voice, customer ratings, complaints, resolution, and repeat contact. Follow workers long enough to see whether the first assignment creates the later difference.
+Use current hiring or worker records. Compare the same job decision with structured skill measures and speech information visible or hidden. Track access to customer work, pay, promotion, feedback, worker voice, customer ratings, complaints, resolution, and repeat contact. Follow workers long enough to see whether the first assignment creates the later difference. Record training costs, speech adjustment, job exit, and household income, and test whether a fairer assignment changes service quality.
 
 ## Reading rule
 
