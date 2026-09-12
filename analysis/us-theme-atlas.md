@@ -635,6 +635,8 @@ Follow the gap between income and the utility due date into arrears or shutoff, 
 
 Still missing: The current sources do not establish the full later chain for every household.
 
+[Read the complete connected memo](../site/us-utility-shutoff-timing-path-001.html)
+
 ### When health coverage keeps a job in place
 
 Follow employer coverage into the cost of changing jobs, then ask whether the worker gains or gives up pay, fit and family care access.
