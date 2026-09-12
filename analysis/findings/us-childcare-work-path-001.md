@@ -12,6 +12,10 @@ Imagine two parents with similar wages and a child under 13. One pays for a cent
 
 Now follow the cost through a Thursday. The center closes at 5:30, but the job ends at 6. The parent pays a late fee, leaves early, asks a relative, or risks being late. A single choice may be manageable. Repeated choices can reduce overtime, make a farther job unusable, or push the family toward a credit card. A monthly childcare bill is only the easiest part to see.
 
+The care arrangement has to match the job's full schedule, not just its average hours. A parent working evenings, split shifts, weekends, or on short notice may need care that is expensive or unavailable even when a center has open seats. A subsidy can lower the price of a place that does not cover the workday. A provider can be affordable but too far away once pickup and traffic are counted. “Childcare available” is therefore weaker than “care that can reliably cover this job.”
+
+The failure can spread to the provider as well. A center may struggle to keep staff, close a room, or shorten hours. Parents then miss work, while the provider's staffing problem appears separate from the family's employment problem. A relative may become the backup, but a relative's own job and care needs can make that solution fragile. The local care system is a chain with little slack at several points.
+
 ```text
 child needs care → price, supply, schedule, or family constraint → paid bill, unpaid hours, or parent work change
 → income, commute, food, housing, debt, health, and benefit choices
@@ -38,6 +42,10 @@ The key difference is not simply paid versus unpaid care. It is who has room to 
 
 This makes childcare a bridge between household money and company power. A firm may call an attendance problem an individual failure even when the local care supply makes the schedule impossible. A subsidy may lower the bill but fail if no provider has an open place or covers the needed hours. A benefit can exist and still leave the parent with the same timing problem.
 
+The wage comparison can therefore be misleading. A higher-paying job with unstable hours may leave less usable income than a lower-paying job with predictable shifts and nearby care. A parent may refuse promotion because the new schedule is impossible, or accept a lower wage to avoid a daily pickup risk. That choice is not simply about ambition. It is a calculation involving care reliability, job security, transport, and the cost of one failure.
+
+Childcare also changes who can move. A family may remain near a relative or provider instead of taking a better job in another county. A worker may stay with an employer because the schedule is known, even when pay falls behind. Local labor supply and business growth are shaped by these private care networks. The people who appear “unavailable” for a job may be available only if the care system changes its hours, price, or reliability.
+
 The public question follows from this gap. Families may first patch the problem with relatives, shift swaps, late fees, and debt. If those patches keep failing, the issue can become a demand for paid leave, school hours, provider support, transport, or a different work rule. The sources establish care pressure and work disruption; they do not show that childcare trouble by itself changes a vote.
 
 ## What remains unproven
@@ -47,6 +55,8 @@ The evidence does not show whether paid care improved child outcomes, whether th
 ## Next test
 
 Use SIPP or CPS care questions to compare households with similar children and wages but different care disruptions. Track paid care, unpaid care, provider distance, closures, work hours, income, commute, subsidies, food, health, debt, and housing in the same period. Ask who supplied the replacement hours when care failed, what they gave up, and whether the family could keep the same job six months later. Compare families with a second adult, nearby relatives, paid backup, and no backup.
+
+Run a schedule-matched care test that compares ordinary hours, evening and weekend coverage, transport support, and cash subsidy. Measure enrollment, actual attendance, provider closures, late pickup, missed shifts, hours, wages, promotion, unpaid care, child well-being, and household debt. Follow parents for a year after the care arrangement changes. The key result is reliable work-enabling care at a sustainable total cost, not a lower fee or a filled seat by itself.
 
 ## Reading rule
 
