@@ -14,6 +14,8 @@ Imagine a household receiving a notice near the end of the month. It can pay par
 
 The household is not choosing between “pay” and “do not pay.” It is managing several dates at once: notice, paycheck, assistance decision, plan payment, rent, and the next utility bill. A rule that adds time helps only if the dates line up with money actually available.
 
+There are two balances to follow. The account balance is what the utility says is owed. The household balance is what remains after rent, food, medicine, transport, and care. A payment plan can be current under the first measure while impossible under the second. A household may keep service by delaying another essential bill, so the protection can move the crisis rather than remove it.
+
 ## What the sources actually establish
 
 | Step | Evidence | Meaning |
@@ -32,15 +34,21 @@ These sources describe the common branches, not one national shutoff rule. State
 
 So we can say that rules alter the time and cost of recovery. We cannot yet say which rule works best or how many households avoid harm because of it.
 
+The word “reconnection” also hides several outcomes. Service may return, but the household may have paid a fee, borrowed money, lost food during an outage, or accepted a deposit that makes the next bill harder. Restoration proves that the line is on; it does not prove that the household can keep it on.
+
 ## What this changes
 
 A shutoff policy should be judged by more than the number of disconnections. It should show whether the household received a usable notice, reached assistance before the deadline, kept service on, paid down the balance, and avoided a repeat crisis. A protection that leaves the account growing may still be necessary, but it should be named as time bought—not as a solved bill.
+
+The public choice is about who carries the timing risk. A utility can receive payment later, an assistance agency can face a larger emergency case, or a household can absorb the gap through debt, heat loss, spoiled food, missed work, or unsafe temperature. The shutoff rule decides which of these costs becomes visible and when.
 
 The practical comparison is between notice and payment rules, assistance speed, repair, and lower ongoing cost. A household with a broken furnace needs a different intervention from one facing a one-time income gap.
 
 ## What remains unproven
 
 The next test is a state-by-state and customer-level record linking notice, contact, protection, assistance application, payment arrangement, shutoff, reconnection fee, restoration, and repeat event. Then connect that timeline to temperature, food, medicine, health, work, and housing.
+
+Build a dated account ledger for each event: bill issued, income received, notice sent, contact attempt, plan offered, assistance applied for, approval or denial, shutoff, fee, reconnection, balance, and next bill. Add household essentials, indoor temperature, spoiled food, medical equipment, missed work, and housing status. Compare rules by whether they prevent shutoff, reduce the balance, avoid a repeat event, and preserve safe living conditions. This would separate time bought from recovery achieved.
 
 ## Reading rule
 
