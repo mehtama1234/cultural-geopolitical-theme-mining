@@ -6,8 +6,6 @@ The [US source coverage index](site/us-source-coverage.html) shows the current p
 
 The [US evidence and map audit](site/us-evidence-audit.html) shows which topics have a specific evidence check, how many semantic links and reading paths reach each topic, and where the record is still opening-only.
 
-The [US evidence and map audit](site/us-evidence-audit.html) shows which topics have a specific evidence check, how many semantic links and reading paths reach each topic, and where the record is still opening-only.
-
 The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five themes together and shows which links are supported, which are comparisons, and which still need a stronger test.
 
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.

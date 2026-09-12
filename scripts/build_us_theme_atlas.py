@@ -143,7 +143,7 @@ html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>US life — the connections</title><style>{style}</style></head>
 <body><a class="skip" href="#topics">Skip to topics</a><main>
-<nav><a href="index.html">Research home</a> / US life</nav>
+<nav><a href="index.html">Research home</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-source-coverage.html">Source coverage</a> · <a href="us-evidence-audit.html">Evidence audit</a> / US life</nav>
 <header><p class="eyebrow">A connected reading guide · First pass</p><h1>What people pay.<br>What people give up.</h1><p>{e(intro)}</p></header>
 <aside class="big"><h2>The bigger picture</h2><p>{e(big)}</p><p><a href="us-big-picture-synthesis.html">Read the big-picture synthesis</a></p></aside>
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
