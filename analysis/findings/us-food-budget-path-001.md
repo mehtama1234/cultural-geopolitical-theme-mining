@@ -2,37 +2,43 @@
 
 ## The argument
 
-Food is where an abstract money problem becomes a daily condition. A household may keep the lights on, rent current, or a debt from growing by buying less food, buying different food, using credit, or asking for help. The same national food price creates very different choices depending on income, children, health needs, and the bills already due.
+Food is where an abstract money problem becomes a daily condition. A household may keep rent current, pay the power bill, or stop a debt from growing by buying less food, buying different food, using credit, or asking for help. The same national food price creates different choices depending on income, children, health needs, and which bill is due first.
 
-The useful finding is not only that some families are food insecure. It is that food can show how much room remains after other claims arrive. We do not yet know which bill was paid first or whether the food trade later changed health and work.
+Food hardship therefore shows how much room remains after other claims arrive. It is not explained by food prices alone. A family can face a high grocery bill and still eat adequately if income rises or another cost falls. Another can face stable food prices and skip meals after a medical bill, energy shutoff, rent increase, or lost shift.
 
-## What the sources establish
+## Follow one week through a household
 
-USDA estimates that 13.7% of US households—18.3 million—were food insecure at some point in 2024. Very low food security affected 5.4%, or 7.2 million households. The annual rate was not statistically different from 2023.
+At the start of the month, a family pays rent and buys medicine. A car repair arrives before payday. The family switches to cheaper food, skips a meal, uses buy-now-pay-later, or asks a relative for help. The choice protects one need by exposing another. A month later, a child misses a school activity, a parent misses work, or the family carries a payment that reduces next month's food budget.
 
-The Federal Reserve’s 2024 survey found that 7% of adults said their household sometimes or often did not have enough to eat in the prior month. The figure was 19% below $25,000 of family income and 2% at $100,000 or more. USDA and Fed questions cover different periods, but both show a steep income divide. USDA also reports food insecurity in 18.4% of households with children.
+```text
+price, income, energy, health, or housing shock → food budget tightens
+→ less food, different food, credit, family help, or public assistance → health, work, school, stress, or debt changes
+```
 
-The same Fed report found that 28% of adults went without some medical care because they could not afford it. Its credit data show that 15% of adults used buy-now-pay-later in the prior year and 24% of users paid late; the late-payment share was 40% below $25,000 income. These figures do not prove that credit paid for food or caused food hardship.
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
+|---|---|---|
+| Annual measure | USDA estimates 13.7% of US households—18.3 million—were food insecure at some point in 2024; 5.4% had very low food security. | Food hardship affects a large number of households, with different levels of severity. |
+| Recent measure | The Federal Reserve found 7% of adults said their household sometimes or often did not have enough to eat in the prior month. | A shorter measure captures recent strain; it is not the same as the USDA annual measure. |
+| Income divide | The Fed figure was 19% below $25,000 of family income and 2% at $100,000 or more. | Income is strongly related to the ability to absorb a food shock. |
+| Children | USDA reports food insecurity in 18.4% of households with children. | The household budget changes when more people depend on it. |
+| Nearby tradeoffs | The Fed found 28% of adults went without some medical care because they could not afford it. Fifteen percent used buy-now-pay-later and 24% of users paid late. | Food, health, and credit can be part of the same strained budget, but these figures do not prove one caused the other. |
+| Limits | The sources do not show which bill was paid first or whether lower food spending changed health or work. | A food measure is a signal of pressure, not a complete household account. |
 
 Sources: [USDA food security](https://www.ers.usda.gov/publications/113622), [USDA key statistics](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics), [Federal Reserve income and expenses](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm), and [Federal Reserve banking and credit](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm).
 
-## Follow the dinner-table trade
+## The deeper finding
 
-price, income, energy, health, or housing shock → food budget tightens → less food, different food, credit, family help, or public assistance → health, work, school, stress, or debt changes
+The dinner table is a balance sheet with due dates. Families do not experience “the economy” as one number; they move money among food, rent, energy, medicine, transport, and debt as each demand arrives. That is why a household can look solvent in annual income and still be unable to eat adequately during a short gap.
 
-A household with no margin may not face one choice called “food or health.” It may move between food, medicine, rent, energy, and debt as different due dates arrive. Lower food spending may be careful planning or an unmet need; the number alone cannot tell us.
+## What remains unproven
 
-## What must stay separate
-
-- Annual food insecurity and one-month food insufficiency.
-- Less food and cheaper food.
-- Food hardship and skipped medical care.
-- Credit use and credit-caused hardship.
-- A household response and the bill that caused it.
+The evidence does not establish whether food prices, income loss, medical costs, energy, housing, or debt is the first break for a particular family. It does not show whether credit prevented a meal from being skipped or made the next month worse. Nor does one food measure reveal diet quality, child health, or the amount of unpaid family help.
 
 ## Next test
 
-Use Census HTOPS for recent food insufficiency, difficulty paying usual expenses, housing, and energy use. Pair it with USDA state estimates and a credit measure. Follow the same households through food, energy, rent, medical, debt, health, and work changes.
+Use Census HTOPS for recent food insufficiency, difficulty paying usual expenses, housing, and energy use. Pair it with USDA state estimates and credit measures. Follow the same households through food, energy, rent, medical, debt, health, and work changes, recording the due date that forced each trade.
 
 ## Reading rule
 
