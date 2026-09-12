@@ -2,47 +2,61 @@
 
 ## The argument
 
-A raise can increase pay while reducing food, health, child-care, or cash help. The family may still be better off, but the gain can be smaller than the wage number suggests. Losing one program is not proof that total household resources fell.
+A raise can increase pay while reducing food, health, child-care, or cash help. The family may still be better off, but the gain can be smaller than the wage number suggests. Leaving one program is not proof that total household resources fell.
 
-The real test is whether work leaves the family with more room, more stable work, and a safer way to meet basic needs. A new job can add wages while also adding child care, transport, health premiums, or a long commute. If a benefit ends at a sharp line, the family may decide that taking more hours is too risky. If support tapers, the family may keep more of each new dollar but still face a high cost of work.
+The real test is whether work leaves the family with more room, more stable work, and a safer way to meet basic needs. A new job can add wages while also adding child care, transport, health premiums, or a long commute. If support ends at a sharp line, the family may decide that taking more hours is too risky. If support tapers, the family may keep more of each new dollar but still face a high cost of work.
 
-The deeper finding is that a benefit rule changes the price of moving forward. It can reward work, make work possible, or make the next step too fragile. The wage is only one input into that decision.
+The deeper finding is that a benefit rule changes the price of moving forward. It can reward work, make work possible, or make the next step too fragile. The wage is only one input into the decision.
 
-## Follow one raise
+## Follow one raise across the month
 
-A parent receives a raise that moves the household just above a program limit. Food help falls, child-care support is recalculated, and a health premium rises. The parent earns more but has less predictable cash. She may keep the raise, reduce hours, refuse overtime, or take the risk and borrow when a child gets sick.
+A parent receives a raise that moves the household just above a program limit. Food help falls, child-care support is recalculated, and a health premium rises. The parent earns more but has less predictable cash. She can keep the raise, reduce hours, refuse overtime, accept the risk and borrow when a child gets sick, or leave a job that no longer fits the care schedule.
 
-Another parent in a smooth-taper system keeps part of the support and can plan the next step. Both families have higher earnings, but their usable room and confidence differ.
+Another parent in a smooth-taper system keeps part of the support and can plan the next step. A third parent loses help because a reporting rule was missed, not because the household became able to pay. All three may appear in a record as “benefit exit,” but the work and money stories are different.
 
 ```text
 earnings or hours rise → public help tapers, ends, or becomes harder to keep
-→ food, health, child-care, or transport cost changes
+→ food, health, child-care, transport, tax, and time costs change
 → real gain from work changes → hours, job choice, debt, and security change
 ```
 
 ## What the sources actually establish
 
-| Step | Evidence | Meaning |
-|---|---|---|
-| Work rules | NBER studies find SNAP work requirements reduced participation among parents without increasing work in the studied settings. | Removing support did not automatically create more employment. |
-| Program interaction | HHS models how SNAP, tax credits, Medicaid, child care, and TANF interact as earnings rise. | Several programs can combine into a high effective rate for some families. |
-| Care | HBS describes how care and transport needs make the same job benefit useful to one worker and less useful to another. | Wage value depends on necessary costs and family duties. |
-| Limits | The HHS model does not say every family loses total resources, and the NBER settings do not represent every program or state. | A cliff must be measured for a particular household and rule. |
+| Link | Evidence | What it supports | What it does not establish |
+|---|---|---|---|
+| Work rules | NBER studies find SNAP work requirements reduced participation among parents without increasing work in the studied settings. | Removing support did not automatically create more employment. | A work requirement is not the same as an earnings cliff or every state's rule. |
+| Program exit | A prior NBER study finds large increases in SNAP exits after work requirements, with no main employment effect. | Participation can fall without a measured work response. | Program exit is not the same as lower total household resources. |
+| Program interaction | HHS models how SNAP, tax credits, Medicaid, child care, and TANF interact as earnings rise. Some households face high effective rates; modeled child-care results vary by starting position. | Several programs can combine into a high cost for the next dollar. | Modeled rates are not a national estimate of actual work choices or well-being. |
+| Care and work | HBS describes how child care, elder care, and transport needs make the same job benefit useful to one worker and less useful to another. | The value of a wage depends on necessary costs and family duties. | It does not measure public-benefit loss or prove a work decision. |
 
-Sources: [NBER Working Paper 32441](https://www.nber.org/papers/w32441), [NBER Working Paper 28877](https://www.nber.org/papers/w28877), [HHS effective marginal tax rates](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series), and [HBS support for caregivers](https://www.library.hbs.edu/working-knowledge/how-to-support-your-best-employees-who-are-probably-caregivers).
+Sources: [NBER SNAP work requirements](https://www.nber.org/papers/w32441), [NBER SNAP exits](https://www.nber.org/papers/w28877), [HHS effective marginal tax rates](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series), and [HBS support for caregivers](https://www.library.hbs.edu/working-knowledge/how-to-support-your-best-employees-who-are-probably-caregivers).
 
 ## The deeper finding
 
-Benefit design sets the risk of accepting the next opportunity. A smooth taper can leave a family better off while making the next dollar worth less. A sudden cutoff can remove the room needed to keep working. The policy question is not only how much help exists, but whether a family can cross the next line without losing the base that made work possible.
+Benefit design sets the risk of accepting the next opportunity. A smooth taper can leave a family better off while making the next dollar worth less. A sudden cutoff can remove the room needed to keep working. An administrative rule can remove help even when earnings did not rise. These are different mechanisms and should not be put under one word such as “cliff.”
+
+The household also buys more than labor. Work may require a second car, paid care, a uniform, food near the job, or time spent completing program forms. The parent may earn more and still have less usable time or less stable cash. Conversely, a higher wage may improve security even when some support falls. The outcome depends on what the lost benefit was worth, what work costs, and whether the job lasts.
+
+This is why benefit rules can shape trust and politics without a simple income story. A family that sees help vanish after a small change may judge the system as unsafe, even if an annual calculation says the family gained. Another family may value a clear taper because it makes the next step predictable. The public experience is built from timing, paperwork, care, and the ability to reverse course.
+
+## Four views of the same raise
+
+**Household:** What happened to wages, taxes, benefits, food, health, care, transport, debt, time, and savings together?
+
+**Worker:** Did the raise create a better job, or only a more expensive schedule and a riskier care plan?
+
+**Employer:** Did the rule change hours, retention, hiring, absence, or the worker's ability to accept advancement?
+
+**Public power:** Does the program reward work while keeping a family able to cross the next line without losing its base?
 
 ## What remains unproven
 
-The evidence does not follow the same families through wages, benefits, taxes, food, health, care, transport, work stability, debt, and housing. It does not show which taper or support mix gives the best long-term result, or how families respond when rules are hard to understand.
+The evidence does not follow the same families through wages, benefits, taxes, food, health, care, transport, work stability, debt, and housing. It does not show which taper or support mix gives the best long-term result, or how families respond when rules are hard to understand. It does not establish that every program has a cliff or that every work rule lowers work.
 
 ## Next test
 
-Follow families before and after an earnings change for one year. Join wages, benefits, taxes, necessary costs, work hours, job stability, debt, food security, and housing. Compare a smooth taper with a sudden loss and record the work opportunity accepted or refused.
+Follow families before and after an earnings change for one year. Join wages, benefits, taxes, necessary costs, work hours, job stability, debt, food security, health coverage, care, transport, and housing. Compare a smooth taper, a sudden loss, and an administrative exit. Record the opportunity accepted, refused, or abandoned.
 
 ## Reading rule
 
-Do not call a benefit exit a cliff until total resources and necessary costs are counted.
+Do not call a benefit exit a cliff until total resources, necessary costs, timing, and the family's actual work choice are counted.
