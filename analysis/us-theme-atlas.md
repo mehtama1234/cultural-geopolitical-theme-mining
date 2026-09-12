@@ -485,6 +485,8 @@ Follow a person's choice to use or avoid a habit-change aid into attention and t
 
 Still missing: The current evidence supports social judgment in controlled tasks but does not follow the same US consumers through tool use and later behavior.
 
+[Read the complete connected memo](../site/us-help-social-choice-path-001.html)
+
 ### When a forgotten subscription becomes a household cost
 
 Follow a recurring charge that survives after its value fades into the household budget, then ask whether repeated private costs become a public trust question.
