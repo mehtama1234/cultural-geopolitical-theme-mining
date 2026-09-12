@@ -1,55 +1,47 @@
 # When future public debt enters the household budget
 
-## Short answer
+## The argument
 
-News about future public debt can change what households expect about inflation, government spending, and borrowing costs before any tax or benefit changes. A belief can change without changing today's budget.
+News about future public debt can change what households expect about inflation, government spending, and borrowing costs before any tax or benefit changes. A belief can change without changing today’s budget.
 
-The future bill is not a current household cost until the path from news to policy to payment is shown.
+That distinction matters because a forecast can make a family bring forward a purchase, delay saving, or worry about a future tax while the actual policy remains unsettled. Another family may hear the same news and do nothing because it has no cash room to change course. A future bill is not a current household cost until the path from news to policy to payment is shown.
 
-## What the sources show
+The deeper finding is that public finance enters private life twice: first through expectation, then through a realized rule or price. The first stage can affect behavior, but it is not proof that the second stage happened. A careful account keeps the headline, belief, action, policy, and final cost separate.
 
-A randomized US household experiment finds that current debt or deficit information has little effect on inflation expectations. Information about future debt raises expected inflation and changes expected government spending and borrowing costs.
+## Follow one deficit headline
 
-A separate Korean household experiment finds that expected future public debt raised expected inflation and consumer spending. It is a comparison, not US evidence.
+A family hears that future debt will be high. It expects higher inflation and interest rates, so it buys an appliance now or avoids a loan. A lender changes terms, an employer changes pay, or the government later changes taxes or benefits. The household may have acted on a message that never became the final policy.
 
-The US study does not show the same household's income, spending, saving, political response, or the later policy. It shows an expectation effect, not a realized cost.
-
-- [NBER Working Paper 28485](https://www.nber.org/papers/w28485)
-- [NBER Working Paper 35009](https://www.nber.org/papers/w35009)
-
-## The connection
+The same news can also affect firms and markets before it affects a tax return. Those intermediate changes need to be recorded rather than folded into a single “debt effect.”
 
 ```text
-news about future public debt
-  -> inflation, tax, and spending expectation
-  -> spending, saving, or borrowing choice
-  -> policy realization or reversal
-  -> household cost and political judgment
+news about future public debt → inflation, tax, spending, and rate expectation
+→ spending, saving, or borrowing choice → policy realization or reversal
+→ household cost and political judgment
 ```
 
-People may update a belief without changing a budget because they have little room to change spending, or because the policy remains uncertain.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| US current information | A randomized US household experiment finds current debt or deficit information has little effect on inflation expectations. | Not every debt message changes beliefs. |
+| US future information | Information about future debt raises expected inflation and changes expected government spending and borrowing costs. | A future fiscal story can affect expectations before policy changes. |
+| Comparison | A separate Korean household experiment finds expected future public debt raised expected inflation and consumer spending. | The behavioral channel has comparison evidence, not US proof. |
+| Limits | The US study does not show the same household’s income, spending, saving, political response, or later policy. | It shows an expectation effect, not a realized cost. |
 
-**Household:** A family compares a forecast with its paycheck, rent, debt, and benefits. A future risk may change a purchase plan even when today's income is unchanged.
+Sources: [NBER Working Paper 28485](https://www.nber.org/papers/w28485) and [NBER Working Paper 35009](https://www.nber.org/papers/w35009).
 
-**Company and sector:** Lenders, employers, retailers, and investors respond to expected rates, taxes, and spending. Their response can reach households before a public bill does.
+## The deeper finding
 
-**Money and finance:** Expected inflation, borrowing costs, savings, debt, and asset prices may move in different directions. A forecast is not a payment.
+Fiscal news changes the price of waiting in people’s minds. A household may act early because it expects a tax, rate, or price change. If the policy reverses, that action can look irrational after the fact even though it was reasonable under the information available then. Expectations are part of the path, but they are not the same as the public debt itself.
 
-**Public power:** Budget choices, taxes, benefits, debt issuance, central-bank policy, communication, and elections decide whether an expectation becomes a cost or is reversed.
+## What remains unproven
 
-## What would change the finding
-
-- Income, debt, savings, liquidity, homeownership, taxes, and benefits.
-- Current versus future debt information, source, trust, and repetition.
-- Inflation, tax, spending, rate, and borrowing expectations.
-- Spending, saving, borrowing, work, housing, and political action.
-- The policy that followed, its timing, reversal, and actual household cost.
+The evidence does not show that a US household changed a completed purchase, loan, portfolio, vote, or long-term budget because of the message. It does not show which messenger was trusted, whether the policy followed, or how effects differ by income, debt, savings, homeownership, taxes, and benefits.
 
 ## Next test
 
-Follow households from a fiscal announcement through two years after the policy settles. Join news exposure, beliefs, income, taxes, benefits, spending, saving, borrowing, housing, rates, and political response.
+Follow households from a fiscal announcement through two years after the policy settles. Join news exposure, source, trust, beliefs, income, taxes, benefits, spending, saving, borrowing, housing, rates, and political response. Record policy reversals and the action that preceded them.
 
 ## Reading rule
 
