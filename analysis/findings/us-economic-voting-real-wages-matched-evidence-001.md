@@ -8,11 +8,15 @@ That makes real pay—a measure of pay after prices—a better starting point fo
 
 The deeper finding is that people may judge the economy through the room left after necessary costs. An official rate can improve while the household still feels poorer because its pay did not catch up with its own basket.
 
+The feeling has a budget shape. A household may keep paying rent and still lose room for food quality, repairs, care, savings, or a short trip. Another household with the same pay growth may have a paid-off car, family help, or lower housing costs. People living in the same county can therefore give different answers to “How is the economy doing?”
+
 ## Follow the local pay gap
 
 One county’s prices rise six percent while pay rises seven percent. Another has the same price increase but pay rises two percent. Workers in the second county cut purchases, use savings, borrow, or give up care. If its vote shifts, the shift may reflect that pressure—or a separate local change.
 
 The political chain has several points where the link can break. A household may feel poorer but blame a national party. It may blame the party but not vote. It may vote for that party for another reason. A serious finding must keep those steps visible.
+
+Timing matters too. People may vote on a recent rent increase, an old job loss, or an expected future cost rather than the annual average. A household may experience a price as a threat before paying it, such as a coming insurance renewal or medical bill. A yearly inflation number can miss the moment when economic judgment is formed.
 
 ```text
 local prices and pay
@@ -37,15 +41,23 @@ Sources: [NBER county study](https://www.nber.org/papers/w35301), [NBER wages an
 
 Keep five measures apart: local price growth, nominal pay, real pay, vote share, and turnout. Real pay is closer to household room than inflation alone, but it still misses rent, debt, family help, savings, and the actual basket.
 
+There is also a difference between exposure and interpretation. A household can face the same price increase as its neighbor but explain it through different stories about government, firms, immigration, employers, or world events. The economic pressure may be measurable while the blame is not. The cited evidence does not establish how much any campaign message changed a particular vote.
+
 This separation changes the political question. Instead of asking whether voters “punished inflation,” ask which households lost room, whether they knew why, whom they blamed, and whether voting was an available way to act. That path can differ by age, income, race, work, place, and party identity.
+
+The vote is only one response. People may switch parties, stay home, support a local measure, join a complaint, reduce purchases, take another job, or rely on family. If we study only the election result, we may mistake silence for satisfaction or a vote for a complete economic judgment.
 
 ## What remains unknown
 
 The evidence does not join one person’s prices, pay, rent, debt, purchases, repeated economic views, party identity, turnout, and vote. It cannot rule out other local changes that moved the vote. Nor does it show whether a household’s own basket differed sharply from the area measure.
 
+It also does not show whether people knew the measured price or wage change, whether their blame was accurate, or whether a different policy would have changed their choice. The studies support a possible path, not a complete story about voter motive.
+
 ## Next test
 
 Use household data to join local prices, pay, rent, debt, purchases, economic views, policy knowledge, party identity, turnout, and vote choice where legally and ethically possible. Compare real pay with the cost of the necessities each household actually buys.
+
+Run a repeated household study around major price and wage changes. Record the bill that changed, the household’s real pay and necessary basket, the first reported concern, the blamed actor, policy knowledge, non-voting response, turnout, and vote choice. Compare households with similar measured pressure but different local news, party identity, and alternatives. Report pressure, interpretation, action, and vote separately. This would show whether buying-power loss changes political judgment directly, through blame, through turnout, or not at all.
 
 ## Reading rule
 
