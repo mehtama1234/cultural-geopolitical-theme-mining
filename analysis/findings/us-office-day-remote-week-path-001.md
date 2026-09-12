@@ -1,59 +1,48 @@
 # When one office day changes the remote week
 
-## Short answer
+## The argument
 
 One office day can do more than add a commute. It may create useful contact with coworkers and managers, while also taking time, money, care room, and energy from the worker.
 
-The careful finding is a trade: a shared day may help communication and retention for some workers, but the value cannot be judged without counting who travels, how far, and what the day replaces.
+The careful finding is a trade. A shared day may help communication and retention for some workers, but its value cannot be judged without counting who travels, how far, and what the day replaces. The same meeting can be useful for a worker near the office and costly for a worker with a long trip, a disability, a child-care duty, or a health limit.
 
-## What the sources show
+The deeper finding is that work location distributes opportunity and cost. In-person contact may make feedback and promotion easier to see. Remote work may preserve time, access, and a larger job market. An office rule can improve one part of work while narrowing another.
 
-An NBER randomized trial of 248 customer-service employees found that one office day a month led to 7.8% more calls per hour, 36 extra minutes of coworker communication after office visits, more manager feedback, and 11 percentage points more contact among assigned desk neighbors. Attrition was one-third lower. The trial involved one large multinational and workers living within commuting distance.
+## Follow one office day
 
-Earlier NBER research found that working from home could raise productivity and work satisfaction while lowering promotion rates in an older China-based call-center setting. The settings are different and should not be combined as if they were one result.
+A customer-service worker attends one office day each month. She spends two hours traveling and pays for transport and care, but gains direct feedback and contact with a manager. A coworker lives nearby and gains the same contact at much lower cost. Another worker cannot attend reliably because of disability or a care schedule.
 
-The current evidence does not show the travel cost, care disruption, disability effect, local access, or long-term job quality for the same worker.
-
-- [NBER Working Paper 35331: The Value of One Office Day a Month](https://www.nber.org/papers/w35331)
-- [NBER Digest: Evidence from a Chinese Experiment on Working from Home](https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home)
-- [NBER: The Power of Proximity to Coworkers](https://www.nber.org/papers/w31880)
-- [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
-
-## The connection
+Average output can improve while the rule still distributes its benefits unevenly.
 
 ```text
-remote work arrangement
-  -> planned office day
-  -> coworker contact, feedback, and work output
-  -> commute time, travel cost, care change, or access barrier
-  -> job satisfaction, retention, pay, or promotion
-  -> worker and employer choice about the next work rule
+remote work arrangement → planned office day → coworker contact, feedback, and output
+→ commute time, travel cost, care change, or access barrier → satisfaction, retention, pay, or promotion
+→ worker and employer choose the next rule
 ```
 
-The same office day can be useful to a worker near the site and costly to a worker with a long trip, a care duty, or a disability. Average output cannot settle that difference.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Output | An NBER randomized trial of 248 customer-service employees found one office day a month led to 7.8% more calls per hour. | Limited in-person contact can affect measured work output. |
+| Contact | The trial found 36 extra minutes of coworker communication after office visits, more manager feedback, and 11 percentage points more contact among assigned desk neighbors. | The likely mechanism is contact, not office presence by itself. |
+| Retention | Attrition was one-third lower in the trial. | Contact may affect whether workers stay. |
+| Different setting | Earlier NBER research in a China-based call center found working from home could raise productivity and satisfaction while lowering promotion rates. | Work location can improve one outcome and weaken another; the settings differ. |
+| Limits | The trial involved one large multinational and workers within commuting distance. | It does not show travel cost, care disruption, disability effect, local access, or long-term job quality for every worker. |
 
-**Household:** The worker weighs the day against fuel, fares, parking, food, care, sleep, and time with family. A shorter commute may make the same meeting more valuable.
+Sources: [NBER Working Paper 35331](https://www.nber.org/papers/w35331), [NBER on working from home](https://www.nber.org/digest/sep13/evidence-chinese-experiment-working-home), and [NBER on coworker proximity](https://www.nber.org/papers/w31880).
 
-**Company and sector:** An employer may gain contact, feedback, and lower attrition. It also chooses who must attend, how often, where the office is, and whether the meeting could work online.
+## The deeper finding
 
-**Money and finance:** Travel is a household expense and a time cost. The right comparison includes pay, promotion, retention, transport, care, and the value of a larger job market.
+Office contact is a work resource with a household price. An employer may gain feedback and lower attrition, while the worker pays in fuel, care, sleep, or time. A fair comparison includes the contact created, the commute taken, and who receives the later career gain.
 
-**Public power:** Transit, roads, housing near jobs, disability access, labor rules, and employer policy shape who can take the office day. A work rule can widen opportunity for one group and narrow it for another.
+## What remains unproven
 
-## What would change the finding
-
-- Travel time, fare, fuel, parking, and care cost for the same worker.
-- Communication, feedback, output, promotion, pay, satisfaction, and retention.
-- Distance, transit access, disability, health, household structure, and job type.
-- Whether the office day is needed for the task or mainly for visibility.
-- Remote and office workers' later job moves, housing choices, and work hours.
-- Results by income, race, gender, age, place, and family care role.
+The evidence does not show whether office contact improved long-term pay or promotion for the same workers, or whether online contact could create the same result. It does not show how the rule affects workers with long commutes, disability, family care, or different local job options.
 
 ## Next test
 
-Follow workers for one year before and after a planned office-day rule. Join attendance to commute records, care needs, output, feedback, promotion, pay, retention, and household costs. Compare an office day with an online meeting that creates the same contact, not only with no meeting.
+Follow workers for one year before and after an office-day rule. Join attendance to commute, care, output, feedback, promotion, pay, retention, and household cost. Compare an office day with an online meeting that creates the same contact.
 
 ## Reading rule
 
