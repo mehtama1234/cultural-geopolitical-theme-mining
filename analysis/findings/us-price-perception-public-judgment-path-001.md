@@ -1,58 +1,44 @@
 # When the price people see becomes the economy they judge
 
-## Short answer
+## The argument
 
-A slower rise in prices can still feel like a continuing loss when wages have not caught up and the cheaper choices have become less cheap. People often judge the economy through the items they buy again and again, not through one national number.
+A slower rise in prices can still feel like a continuing loss when wages have not caught up and the cheaper choices are no longer cheap. People often judge the economy through the items they buy again and again, not through one national number.
 
-The careful finding is that buying-power beliefs and shopping choices are connected in survey evidence. The sources do not yet show that one household's checkout experience caused a change in trust or a vote.
+This is not only a matter of mood. A family may buy less, switch stores, save less, use credit, or stock up because it believes buying power is falling. Those choices can change how it sees a brand, a government, or the future. But a survey belief is not a transaction, and a changed purchase is not automatically a vote.
 
-## What the sources show
+## Follow one basket through a year
 
-Two surveys of representative US samples in an NBER study find that people mainly dislike inflation because they believe buying power falls when wages do not keep up with prices. Those beliefs are linked to reported changes in shopping and saving choices.
-
-An HBS analysis of millions of products reports that the cheapest US food products rose 30% from January 2020 to May 2024, compared with 22% for the most expensive foods. This may matter to families that cannot simply move to a higher-priced option, but the product result is not each household's actual basket.
-
-The sources do not join one household's prices, wages, purchases, media exposure, trust, and political action over time.
-
-- [NBER Working Paper 32300: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
-- [HBS: Charting Cheapflation](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey)
-- [HBS: Psychological Pricing Tactics](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues)
-
-## The connection
+A family buys a budget food brand, pays rent, fills the car, and saves a little. The budget brand rises faster than the premium brand. Trading down no longer offers the same relief. The family buys less, delays a repair, or uses credit. A later headline says inflation is cooling. The family still starts from the higher price level.
 
 ```text
-price or wage change
-  -> repeated checkout experience and perceived buying power
-  -> trading down, buying less, saving less, or stockpiling
-  -> view of firms, government, and the future
-  -> political demand or pressure on business
+price or wage change → repeated checkout experience and perceived buying power → trading down, buying less, saving less, or stockpiling
+→ view of firms, government, and the future → political demand or pressure on business
 ```
 
-Falling inflation means prices rise more slowly; it does not mean prices return to an earlier level. A few visible prices may also matter more than the full basket.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Buying power | Two surveys of representative US samples in an NBER study find people mainly dislike inflation because they believe wages are not keeping up with prices. | The felt problem is the pay–price gap. |
+| Shopping response | Those beliefs are linked to reported changes in shopping and saving choices. | Economic belief can sit near household action, but is not proof of it. |
+| Cheap options | HBS reports the cheapest US food products in its study rose 30% from January 2020 to May 2024, compared with 22% for the most expensive foods. | Trading down may not protect the budget as before. |
+| Customer judgment | HBS research links price increases to fairness, value, and demand. | A higher price changes what a customer thinks is worth buying. |
+| Limits | The sources do not join one household's prices, wages, purchases, media exposure, trust, and political action over time. | The public-judgment link remains an inference. |
 
-**Household:** A family compares food, rent, fuel, medicine, debt, and wages. The same national inflation rate feels different by income, household size, location, and the goods bought most often.
+Sources: [NBER Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300), [HBS Cheapflation](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey), and [HBS psychological pricing](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues).
 
-**Company and sector:** Stores and brands decide which package, quality, size, fee, and price to show. A cheaper shelf option that rises faster can remove the budget choice without removing the product.
+## The deeper finding
 
-**Money and finance:** Trading down may protect cash while lowering quality or comfort. The full measure includes quantity, quality, saving, borrowing, debt, and what the household stopped buying.
+Inflation is lived as both a price and a story about the price. A family can report less buying power even when its nominal wage rose because rent, debt, or a fixed care need leaves no easy substitute. The accumulated loss can remain politically important after the rate of increase slows.
 
-**Public power:** Officials, firms, and news outlets explain whether the cause is supply, wages, profit, policy, or outside events. Those explanations can shape blame, but they must be tested apart from party identity and media exposure.
+## What remains unproven
 
-## What would change the finding
-
-- The same household's prices, wages, purchases, saving, debt, and local stores.
-- Product size, quality, package change, fees, and replacement choices.
-- Rent, health, transport, care, and other costs outside the food basket.
-- Media exposure, price explanations, trust, party identity, and political action.
-- Results by income, age, race, family type, place, and access to credit.
-- Whether trading down protected the budget or created a later health or money cost.
+The sources do not show whether one family's basket caused a change in trust or a vote. They do not show whether a cheaper substitute remained equally useful or safe, or whether trading down protected the budget or created a later health and money cost.
 
 ## Next test
 
-Follow households for one year with their actual prices, wages, product choices, savings, debt, and local news. Ask when they felt the loss, what they blamed, and whether the response changed a purchase, a firm choice, trust, or political action.
+Follow households for one year with actual prices, wages, product choices, savings, debt, and local news. Ask when they felt the loss, what they blamed, and whether the response changed a purchase, a firm choice, trust, or political action.
 
 ## Reading rule
 
-Do not use the national inflation rate as a household story. Do not treat a slower price rise as a price cut. Measure the prices people face, the wages they receive, and the choices they make.
+Do not use the national inflation rate as a household story. Do not treat a slower price rise as a price cut.
