@@ -92,6 +92,8 @@ The [AI, work, and control project](projects/ai-work-control/README.md) is the c
 
 The [safety-net administrative-burden layer](projects/us-safety-net-access/administrative-burden-access-layer-v1.md) deepens the public-systems bridge. It separates eligibility, route-to-help, program exit, employment, food security, and trust, using causal evidence on work rules, parent burden, and office closures while keeping the same-household downstream path open.
 
+The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
+
 ## Cross-cutting themes to extract in every pass
 
 - What families give up to pay the bills.

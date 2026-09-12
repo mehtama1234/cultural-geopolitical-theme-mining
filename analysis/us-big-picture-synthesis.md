@@ -119,6 +119,11 @@ renewal, office access, program exit, employment, food security, and trust are
 different outcomes. A lower caseload or higher exit rate is not automatically
 successful policy; the household’s next condition must be measured.
 
+The next strongest bridge is therefore an event ledger around public help:
+notice, effort, access route, decision, interruption, food/work/debt result, and
+later trust. This is the clearest current way to test whether an institution
+changed household security or only changed participation.
+
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
 
 ## The five reader umbrellas
