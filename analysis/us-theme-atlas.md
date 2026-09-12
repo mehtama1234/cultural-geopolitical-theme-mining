@@ -728,6 +728,8 @@ Follow migration into customer demand, jobs and services, then ask how housing a
 
 Still missing: The current sources do not show the same place's present housing, wages, public capacity and belonging together.
 
+[Read the complete connected memo](../site/us-immigration-local-demand-path-001.html)
+
 ### When the first price is not the final price
 
 Follow a headline price into the fee shown later, then ask whether the household pays more, searches less or loses trust.
