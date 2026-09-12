@@ -14,6 +14,8 @@ A water system receives a public loan after repeated contamination readings. The
 
 The system average can improve while household experiences remain unequal. A public fix is necessary evidence, but not the whole account of who was protected and when.
 
+The delay is part of the service. A family may change how it cooks, washes, drinks, or pays for water while the project is being planned. A system can meet a test standard while a household still faces an old building pipe, a late notice, or no money for a filter. “Safe system” and “safe use today” are related claims, not the same claim.
+
 ```text
 public water funding
   -> system repair and cleaner water
@@ -40,13 +42,17 @@ An unsafe tap creates a two-tier service. Households with money can buy bottles,
 
 That is why trust belongs in the outcome. A visible repair with clear testing can restore use. A vague notice or repeated failure can leave families paying for private protection even after the official reading improves. Public confidence is built through the full repair path, not the announcement alone.
 
+The person with the least money also has the least ability to wait for the public fix. A household with cash can buy bottles and later return to the tap. A household without it may use the tap despite a warning, travel farther for water, or ask a relative for help. The same delay creates unequal exposure and unequal evidence of harm.
+
+This links infrastructure to housing and local power. A water problem can change whether a family wants to stay, whether a landlord invests, whether a home is easy to sell, and whether residents trust the agency that sends the notice. A repair can protect health while leaving earlier private spending and lost time unreturned.
+
 ## What remains unknown
 
-The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair.
+The study does not follow the same household through water use, bottles, filters, medical care, home value, rent, insurance, moving, complaints, notices, trust, and political action. It does not establish who benefited first from a repair, how long private protection lasted, or whether a cleaner system changed the decision to stay.
 
 ## Next test
 
-Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Compare households that received the fix with similar households still waiting.
+Follow homes before and after a water-system repair. Join test results to water use, bottled-water and filter purchases, health records, rent or home value, moving, complaints, notices, and local votes. Record the warning date, repair date, home-line status, and money and time spent during the gap. Compare households that received the fix with similar households still waiting, and separate return to safe use from cleaner test results.
 
 ## Reading rule
 
