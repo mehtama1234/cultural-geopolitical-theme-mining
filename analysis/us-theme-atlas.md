@@ -409,6 +409,8 @@ Follow familiar speech from access to people-facing work into the worker's role 
 
 Still missing: The current evidence does not connect speech, a manager's decision, worker advancement and customer results in one record.
 
+[Read the complete connected memo](../site/us-workplace-fit-voice-path-001.html)
+
 ### When career movement slows around a long payment
 
 Follow measured career movement into the room left for education debt and then housing choices.
