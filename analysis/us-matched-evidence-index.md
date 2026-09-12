@@ -50,7 +50,7 @@ A bank rule can look equal while its value depends on how much cash a household 
 **Route:** earnings rise → aid changes → real household room
 **Still open:** same-family net resources and work outcome
 
-A household can earn more and still have less room if food, health, child care, or other help falls away at the same time. But leaving a program does not prove that happened. NBER studies find that some SNAP work requirements reduced participation without increasing work. Federal HHS analysis shows how several programs can create high effective rates as earnings rise, while also distinguishing gradual phase-outs from hard cutoffs. The real measure is total household resources after the change.
+A raise can increase cash and still leave a household with less usable support.  The reason is that wages are only one side of the account. Food aid, health coverage, child care, transport help, taxes, and reporting time all affect what the family can actually keep. Some programs taper as income rises. Others end at a threshold. A work rule can remove aid without creating more work.  That is why “benefit cliff” should not be used for every program change. A gradual phase-out may leave a family better off while making the next dollar worth less. A hard cutoff can create a sudden loss. A work requirement can reduce participation without increasing employment. The design determines the path.
 
 [Read the HTML page](../site/us-benefit-cliff-work-choice-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-benefit-cliff-work-choice-matched-evidence-001.md)
 
@@ -170,7 +170,7 @@ When one US household loses money, health, housing, or care, relatives may fill 
 **Route:** medical cost → care choice → debt or work shock
 **Still open:** same-household health, income, and trust result
 
-Medical cost is not one burden. A person may delay care, borrow, miss work, lose income, or carry a collection record. These paths can happen together, but they do not have the same cause or result. Current US household survey evidence shows many adults skipping care because of cost. NBER studies show that health shocks can damage work and credit, while coverage can reduce collections. A separate randomized study shows that debt relief can improve some financial measures without improving health or care use.
+“Medical debt” sounds like one problem. It is several problems that can arrive in a different order.  The need for care comes first. Then comes the price, the insurance decision, the payment, and the question of what the household can no longer afford. A person may delay care before any bill arrives. A hospital visit may create a bill and make work harder at the same time. An unpaid balance may later become a collection record. Removing that record can help a credit decision without treating the illness or replacing the lost income.  These are not small distinctions. A policy can improve one layer and leave the others untouched. A family can have less medical debt because it received coverage, because it avoided care, or because a record was removed. The number alone does not tell us which happened.
 
 [Read the HTML page](../site/us-health-cost-household-choice-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-health-cost-household-choice-matched-evidence-001.md)
 
@@ -250,7 +250,7 @@ The official data show why a broad inflation number cannot stand in for househol
 **Route:** price and wage change → buying power → trust pressure
 **Still open:** same-household basket, substitution, and vote
 
-A slower rise in prices is not a return to earlier prices. NBER survey evidence says Americans mainly dislike inflation because they think wages are not keeping up with prices. HBS product data adds a sharper customer problem: the cheapest food products in its study rose faster than the most expensive products, so trading down may offer less relief.  Price research adds a second layer. Customers judge whether a price is fair and whether the product is still worth buying. The combined evidence supports a careful finding: people may feel poorer through repeated purchases and fewer cheap choices, then judge firms or government through that experience. It does not yet prove that this path changes a particular person's vote.
+When inflation slows, prices are still rising. The rate has changed; the price level has not gone back.  That distinction is easy to miss in public conversation and obvious at the checkout counter. A household sees the same products cost more than they did before. If wages did not rise enough, buying power has fallen. If the cheapest option rose faster than the expensive option, trading down offers less relief. If rent, debt, and transport already take most of the budget, the family cannot simply buy a different basket.  This is why a lower inflation rate can coexist with a continuing sense of loss. The loss is not only the latest increase. It is the new price carried into every later purchase.
 
 [Read the HTML page](../site/us-inflation-price-perception-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-inflation-price-perception-matched-evidence-001.md)
 

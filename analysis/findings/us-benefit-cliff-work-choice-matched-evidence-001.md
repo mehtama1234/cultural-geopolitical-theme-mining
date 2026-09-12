@@ -1,55 +1,42 @@
 # Earning more does not always mean having more room
 
-## Short answer
+## The argument
 
-A household can earn more and still have less room if food, health, child care, or other help falls away at the same time. But leaving a program does not prove that happened. NBER studies find that some SNAP work requirements reduced participation without increasing work. Federal HHS analysis shows how several programs can create high effective rates as earnings rise, while also distinguishing gradual phase-outs from hard cutoffs. The real measure is total household resources after the change.
+A raise can increase cash and still leave a household with less usable support.
 
-## What the matched evidence shows
+The reason is that wages are only one side of the account. Food aid, health coverage, child care, transport help, taxes, and reporting time all affect what the family can actually keep. Some programs taper as income rises. Others end at a threshold. A work rule can remove aid without creating more work.
 
-| Layer | What the evidence says | What remains open |
+That is why “benefit cliff” should not be used for every program change. A gradual phase-out may leave a family better off while making the next dollar worth less. A hard cutoff can create a sudden loss. A work requirement can reduce participation without increasing employment. The design determines the path.
+
+## Follow the next dollar
+
+Imagine a parent offered extra hours. The paycheck rises, but the hours require child care and a longer commute. The higher income also reduces food help. The parent may be better off, worse off, or unable to tell until the next month.
+
+Now add paperwork. If the family misses a report, benefits may stop even though earnings did not change. A program exit can therefore mean a raise, a threshold, a sanction, a move, or a failure to complete a form. Counting exits as progress hides these different lives.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Program exit | SNAP participation can fall after a work requirement without more employment. | Whether total household resources fell or rose. |
-| Earnings | A higher wage adds cash income. | Taxes, travel, child care, health, and lost aid. |
-| Benefit design | Some help tapers; some ends at a threshold; work rules can add reporting demands. | Which design affects this family's choices. |
-| Real gain | A family may have more wages but less food, coverage, or care value. | The same family's complete budget. |
-| Work choice | A rule may change hours, job choice, reporting, or program participation. | Whether work became safer, better, or more stable. |
+| Work rule | NBER studies find some SNAP work requirements reduced participation without increasing work. | Losing aid does not prove more employment. |
+| Earnings | A higher wage adds cash income. | It does not include taxes, care, travel, or lost aid. |
+| Program design | HHS explains how several programs create high effective rates as earnings rise and distinguishes phase-outs from cutoffs. | The rule's shape matters. |
+| Care | HBS research shows caregiver support affects whether workers can remain and perform at work. | Work choice depends on care, not pay alone. |
+| Real gain | A family can have more wages and less food, coverage, or care value. | Total household resources are the right measure. |
 
 Sources: [NBER SNAP work-requirement study](https://www.nber.org/papers/w32441), [NBER earlier SNAP study](https://www.nber.org/papers/w28877), [HHS analysis of effective marginal rates and benefit cliffs](https://aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series), and [HBS caregiver-support research](https://www.library.hbs.edu/working-knowledge/how-to-support-your-best-employees-who-are-probably-caregivers).
 
-## The connection
-
-```text
-earnings rise → aid or coverage changes → necessary costs change
-              → real gain or loss in household room
-              → work choice and family strain
-              → trust in programs and public demand
-```
-
-The evidence supports the first two links in different settings. It does not support treating a program exit as proof of a better life. A person can leave because work paid more, because the rule was hard to report, or because a threshold cut off support.
-
 ## The accounting problem
 
-Cash wages are easy to see. The value of food, Medicaid, child care, transport help, and time spent dealing with a rule is harder to put in the same account. A family may accept a job only if care is available. It may turn down extra hours if the added pay is smaller than the lost support and new work costs. It may work more and still lose room if the benefit falls too quickly.
+Cash wages are easy to see. The value of food, Medicaid, child care, transport, and time spent proving eligibility is harder to place in the same account. A family may turn down extra hours because the new costs exceed the added pay. It may work more and still have less room.
 
-This is why “benefit cliff” should not describe every change. A gradual phase-out can leave a household better off while reducing the gain from the next dollar. A hard cutoff can produce a sudden loss. A work requirement can remove aid without creating work. These are separate designs with separate paths.
+The question should therefore be: what did the household have after the change, not what did the wage line do?
 
-## Four views
+## What remains unproven
 
-**Household:** Count wages, taxes, benefits, care, health, transport, debt, and time.
+The studies support separate links between work rules, participation, benefit design, care, and household resources. They do not show one family's full monthly budget or whether a program exit made that family safer, poorer, or more independent.
 
-**Customer:** Record whether the family can actually use the benefit and what proof or reporting it requires.
-
-**Money and finance:** Calculate the net change in cash and in necessary costs—not only the wage increase.
-
-**Public power:** Ask who set the threshold, who bears the paperwork, and whether the rule produces work, exit, or only lost help.
-
-## What would change the finding
-
-- Linked monthly records for wages, taxes, benefits, care costs, health coverage, and work.
-- Reason for program exit: earnings, threshold, missed report, sanction, or move.
-- Results by family type, disability, race, income, state, and local care market.
-- Actual job offers, hours, pay, benefits, commute, and retention.
-- Household food, health, debt, stress, and savings after the change.
+The next test is a linked monthly record of wages, taxes, benefits, child care, health coverage, transport, work hours, food, debt, and savings, with the reason for exit recorded clearly.
 
 ## Reading rule
 

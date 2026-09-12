@@ -1,56 +1,42 @@
 # Slower inflation can still feel like a continuing loss
 
-## Short answer
+## The argument
 
-A slower rise in prices is not a return to earlier prices. NBER survey evidence says Americans mainly dislike inflation because they think wages are not keeping up with prices. HBS product data adds a sharper customer problem: the cheapest food products in its study rose faster than the most expensive products, so trading down may offer less relief.
+When inflation slows, prices are still rising. The rate has changed; the price level has not gone back.
 
-Price research adds a second layer. Customers judge whether a price is fair and whether the product is still worth buying. The combined evidence supports a careful finding: people may feel poorer through repeated purchases and fewer cheap choices, then judge firms or government through that experience. It does not yet prove that this path changes a particular person's vote.
+That distinction is easy to miss in public conversation and obvious at the checkout counter. A household sees the same products cost more than they did before. If wages did not rise enough, buying power has fallen. If the cheapest option rose faster than the expensive option, trading down offers less relief. If rent, debt, and transport already take most of the budget, the family cannot simply buy a different basket.
 
-## What the matched evidence shows
+This is why a lower inflation rate can coexist with a continuing sense of loss. The loss is not only the latest increase. It is the new price carried into every later purchase.
 
-| Part of the path | What the record shows | What it does not show |
+## Follow the basket, not the headline rate
+
+Imagine a household that used to buy a budget brand, cook at home, and save a small amount each month. The budget brand rises sharply. The family buys a smaller package, switches stores, skips a purchase, or uses savings. The next month starts from the higher price, so even a smaller increase does not restore the old room.
+
+The household's experience is made of repeated choices. A national inflation rate does not show which product disappeared, whether the substitute was worse, or what payment was delayed to make room.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
 |---|---|---|
-| Price level | A slower inflation rate leaves the price level higher than before. | The exact price path for the same household. |
-| Buying power | NBER survey respondents mainly explain dislike of inflation through wages not keeping up with prices. | Whether reported beliefs match each respondent's measured wage and basket. |
-| Cheap options | HBS reports the cheapest food products rose 30% from January 2020 to May 2024, versus 22% for the most expensive foods in its study. | Whether every household faced that gap or traded down successfully. |
-| Customer judgment | HBS research links price increases to fairness, value, and demand. | A broad change in trust, brand choice, or political support. |
-| Political response | Economic experience can become a view of government or the future. | A measured same-person path from checkout to vote. |
+| Price level | A slower inflation rate still leaves prices higher than before. | “Cooling” is not a price reversal. |
+| Buying power | NBER survey evidence says people mainly dislike inflation when they think wages are not keeping up with prices. | The felt problem is the gap between pay and repeated prices. |
+| Cheap options | HBS reports the cheapest food products in its study rose 30% from January 2020 to May 2024, versus 22% for the most expensive foods. | Trading down may not protect the budget as it once did. |
+| Customer judgment | HBS research links price increases to fairness, value, and demand. | The checkout experience can change what a customer thinks is worth buying. |
+| Public response | Economic experience can shape views of firms and government. | The same-person path to a vote remains unproven. |
 
-Sources: [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300), [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey), and [HBS: Psychological Pricing Tactics to Fight the Inflation Blues](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues).
+Sources: [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300), [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey), and [HBS: Psychological Pricing Tactics](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues).
 
-## The connection
+## The useful distinction
 
-```text
-price rises faster than pay
-  -> less buying power at repeated checkout
-  -> cheap option rises or disappears
-  -> trade down, buy less, save less, or accept lower quality
-  -> fairness and future expectations change
-  -> pressure on firms and government
-```
+There are three different claims: prices rose, wages kept up or did not, and households changed what they bought. They should not be collapsed into “inflation hurts.”
 
-The deeper point is not that people fail to understand inflation. It is that a national rate does not show the price level, the cheap option, the wage path, or the room left after rent, debt, and food.
+The price level can remain high while the rate slows. A household can report less buying power even when its nominal wage rose. A cheaper substitute can remain available but lose the quality or quantity that made it useful. These are different parts of the same lived price problem.
 
-## Four views
+## What remains unproven
 
-**Household:** Track wages, rent, food, debt, transport, savings, and the products actually bought.
+The sources support the link from price and pay to buying-power pressure and the possibility of changed customer judgment. They do not follow one family from its exact basket to savings, debt, trust, and voting.
 
-**Customer:** Ask what changed at checkout, whether the cheaper substitute remained, and whether quality fell.
-
-**Money and finance:** Separate the inflation rate, price level, real wage, spending response, and savings buffer.
-
-**Public power:** Keep the line from household pressure to trust and voting open until same-person evidence exists.
-
-## What would change the finding
-
-- Household panels linking income, location, purchases, and prices over time.
-- Product-level evidence on package size, quality, promotion, and substitution.
-- Measures of rent, debt, and food share for the same household.
-- Repeated views of firms, government, and voting behavior for those households.
-
-## Next test
-
-Build a matched basket for low-, middle-, and high-income households using scanner or expenditure data, then compare it with wages and repeated economic views. Measure what people stopped buying, what they substituted, and what they gave up elsewhere.
+The next test is a household panel linking income, location, rent, debt, purchases, package size, quality, and repeated economic views. It should show what people stopped buying and what they gave up elsewhere.
 
 ## Reading rule
 
