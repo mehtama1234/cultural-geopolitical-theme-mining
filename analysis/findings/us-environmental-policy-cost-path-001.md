@@ -1,53 +1,46 @@
 # When the expected energy bill chooses the policy
 
-## Short answer
+## The argument
 
-People may oppose an energy or climate policy because they expect it to raise consumer bills, even when the actual cost differs. That belief can steer public action toward an easier-to-explain rule rather than the most effective one.
+An energy policy is often judged before anyone can see its full result. A household hears that a rule will raise the power bill, then compares that possible increase with rent, food, fuel, and medical costs. The number may be wrong, but it can still decide whether the policy survives.
 
-People may also care about fairness, control, trust, and who pays. Expected cost is not actual household burden.
+The important point is not simply that people misunderstand environmental policy. They are trying to price a risk with limited information. A market tool may have a lower average cost, but it can sound like a new charge. A standard may sound more direct, even when the cost is hidden in equipment, prices, jobs, or future taxes. If public design ignores this first household calculation, the policy may be rejected before its pollution or health effects can be judged.
 
-## What the source shows
+## Follow one policy through a household
 
-NBER finds that respondents think market-based environmental tools raise consumer energy bills more than standards do, unlike expert environmental economists. Its model shows that political limits and imperfect cost beliefs can push policy toward a less cost-effective standard.
+Suppose a renter hears that a clean-energy rule will increase the monthly bill. The renter cannot choose the building's heating system, cannot claim a home improvement credit, and has little cash for a bad month. A newspaper says the rule will create jobs. The utility says rates will be stable. Neither statement answers the renter's question: “What will I pay next month, and what can I do if it goes up?”
 
-The study does not show each household's actual bill, policy knowledge, pollution result, health result, or later political action.
-
-[NBER Working Paper 35073](https://www.nber.org/papers/w35073)
-
-## The connection
+Now compare two policies. One shows a visible charge on the bill. The other changes appliance standards and building costs over time. The first may be cheaper in total but easier to oppose because the cost has a name. The second may be accepted while still shifting costs through rent or product prices. The public choice is then shaped by visibility, control, and trust as much as by engineering.
 
 ```text
-policy tool
-  -> expected household bill
-  -> support or opposition
-  -> chosen public rule
-  -> actual cost and environmental result
+policy design → expected household bill and sense of control → support or opposition
+→ enacted rule and who can use its protections → actual bill, energy use, pollution, health, and fairness
 ```
 
-A standard may be easier to understand or enforce even if another tool has a lower total cost. The people who pay may matter more than the average cost.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Cost belief | NBER finds respondents think market-based environmental tools raise consumer energy bills more than standards do. | People attach different household costs to different policy forms. |
+| Expert gap | Environmental economists in the study do not share the same ranking of expected consumer costs. | Public resistance can reflect a cost belief, not the tool's measured total cost. |
+| Policy choice | The study models how political limits and imperfect cost beliefs can push policy toward a less cost-effective standard. | What is easiest to picture can narrow the set of workable policies. |
+| Uneven burden | A rebate, tax, bill, housing condition, weather, and utility rule can all change the result for a particular family. | Average cost does not tell us who pays, when they pay, or whether they can reach the offset. |
+| Limits | The study does not measure each household's actual bill, pollution result, health result, or later political action. | It explains one link in the chain, not the whole lived outcome. |
 
-**Household:** A family weighs the expected bill against rent, food, health, and work. A rebate or cleaner air may help, but only if the family can reach it.
+Source: [NBER Working Paper 35073](https://www.nber.org/papers/w35073).
 
-**Company and sector:** Utilities, energy firms, builders, and retailers pass costs through different prices and investments. A rule can change equipment, jobs, service, and bills at once.
+## The deeper finding
 
-**Money and finance:** The real result includes bill, rebate, tax, energy use, home condition, and health cost. A policy with a low average cost can still hurt a cash-poor household.
+The political life of an energy policy begins with a household price story. A policy can be technically strong and still fail if people cannot tell whether it will cost them money, give them a usable benefit, or leave them with any control. The key divide is not expert versus ignorant public. It is visible cost versus hidden cost, immediate risk versus distant gain, and households with a way to adapt versus households trapped by their building or cash position.
 
-**Public power:** Design, communication, enforcement, rebates, rate setting, and pollution rules decide whether the expected cost matches the lived result.
+## What remains unproven
 
-## What would change the finding
-
-- Policy tool, expected bill, actual bill, energy use, rebate, tax, and home condition.
-- Income, wealth, geography, utility, housing, weather, and health need.
-- Pollution, health, jobs, prices, fairness, trust, and control.
-- Expert and public information before and after the policy.
-- Support after households see the real bill and result.
+The evidence does not show that changing the explanation alone changes support for long. It does not show whether people reject a policy because of the bill, distrust the institution naming the bill, oppose the distribution of costs, or prefer a different level of government control. It also does not show whether a lower-cost policy produces lower bills for renters, low-income households, or people in inefficient homes.
 
 ## Next test
 
-Follow households before and after an energy-policy change for two years. Join stated cost, actual bill, energy use, rebates, income, health, pollution, trust, and political support.
+Follow households before and after a real energy-policy change for two years. Record the stated expected bill, actual bill, energy use, rebate access, rent, home condition, weather, income, health need, and utility. Then measure pollution, trust, perceived fairness, and policy support. Show some households a clear bill-and-rebate estimate and others the usual policy description. The test should reveal whether better information changes judgment, or whether the deeper issue is who has the power to avoid the cost.
 
 ## Reading rule
 
-Keep expected cost, actual bill, policy support, environmental result, and fairness judgment separate. A stated bill is not a measured bill.
+Keep expected cost, actual bill, policy support, environmental result, and fairness judgment separate. A stated bill is not a measured bill, and a low average cost is not the same as a low cost for a household.

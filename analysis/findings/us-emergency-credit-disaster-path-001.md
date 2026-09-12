@@ -1,54 +1,47 @@
 # When emergency credit protects the next three years
 
-## Short answer
+## The argument
 
-Emergency credit can stop a disaster loss from becoming bankruptcy and may help a family replace a needed car or repair. It also creates interest and a future payment that can become hard to carry.
+After a disaster, a family may need money before insurance, aid, or normal work returns. A loan can keep a car on the road, repair a damaged home, or prevent a missed payment from spreading through the rest of the household budget. It can also turn one shock into a monthly obligation that follows the family for years.
 
-The result depends on when the credit arrives, what it preserves, and what the borrower must give up later.
+The right question is therefore not “Did the loan help?” in the abstract. It is: what did the money preserve, when did it arrive, what other help was available, and what payment did the family accept in exchange? A lower bankruptcy rate is meaningful protection. It does not mean that debt is harmless or that every approved borrower ends up better off.
 
-## What the source shows
+## Follow one disaster through a household
 
-NBER links Federal Disaster Loan applications with credit records and uses an approval cutoff to compare similar applicants. Approved emergency credit reduced bankruptcy likelihood by 61% over three years and was linked to additional car purchases even three years later.
+Imagine a family whose car is damaged in a storm. The car is needed for work, school, and medical visits. The family has little cash and insurance does not cover the full loss. A federal disaster loan arrives while the repair or replacement is still possible. The family keeps working, but now owes a payment every month.
 
-The study covers federal disaster-loan applicants with uninsured damage. It does not represent ordinary consumer credit or show the full cost and preserved need for every borrower. NBER research on payment resilience shows that outages can make digital payment unavailable, adding another part of the emergency.
-
-- [NBER Working Paper 32845](https://www.nber.org/papers/w32845)
-- [NBER Working Paper 35115](https://www.nber.org/papers/w35115)
-
-## The connection
+Another family has the same damage but waits for aid, borrows from relatives, or gives up the car. The first family may look financially healthier three years later because it avoided bankruptcy and kept a needed asset. Yet the comparison must still ask whether the loan payment crowded out food, care, repairs, or savings, and whether the second family received different help.
 
 ```text
-disaster loss or outage
-  -> payment and bill shock
-  -> emergency credit, cash, aid, insurance, or no help
-  -> purchase, repair, or payment preserved
-  -> repayment, bankruptcy, work, and later financial room
+disaster loss or payment outage → urgent bill and lost work or mobility
+→ loan, cash, insurance, aid, family help, or no bridge
+→ repair or purchase preserved → repayment, credit, bankruptcy, work, and later financial room
 ```
 
-A lower bankruptcy rate is strong protection evidence in this setting. It is not proof that every loan improves household welfare.
+## What the sources actually establish
 
-## The four outside views
+| Step | Evidence | Meaning |
+|---|---|---|
+| Identification | NBER links Federal Disaster Loan applications with credit records and uses an approval cutoff to compare similar applicants. | The study can compare applicants near the approval boundary rather than simply comparing borrowers with everyone else. |
+| Bankruptcy | Approved emergency credit reduced bankruptcy likelihood by 61% over three years. | Fast credit can prevent a disaster loss from becoming a formal financial collapse in this setting. |
+| Preserved activity | Approval was linked to additional car purchases even three years later. | Credit may restore mobility or replace an asset needed for work and daily life. |
+| Other disruption | NBER research on payment resilience shows that outages can make digital payment unavailable. | A disaster can create a cash and payment problem at the same time as a repair problem. |
+| Limits | The evidence covers federal disaster-loan applicants with uninsured damage. | It does not represent ordinary consumer credit or reveal the full cost for every borrower. |
 
-**Household:** A loan may keep a car, home, or income path in place. The family may still carry the uninsured loss and a new monthly bill.
+Sources: [NBER Working Paper 32845](https://www.nber.org/papers/w32845) and [NBER Working Paper 35115](https://www.nber.org/papers/w35115).
 
-**Company and sector:** Lenders, insurers, repair firms, employers, and merchants decide how quickly the household can return to normal activity. Loan approval can preserve customers and workers.
+## The deeper finding
 
-**Money and finance:** Approval, amount, rate, term, fees, collateral, and repayment matter. A preserved purchase can coexist with less cash for the next need.
+Emergency credit is a bridge between a shock and the next stable state. Its value comes from what it keeps in place: a car, a home, a job, a payment record, or the ability to reach care. Its cost appears later as interest, risk, and less room for the next problem. Public recovery systems should therefore be judged by the whole bridge, not only by approval counts or the first month of spending.
 
-**Public power:** Disaster loan rules, insurance gaps, cash access, bankruptcy law, aid, and recovery systems decide who gets a bridge and who waits with the loss.
+## What remains unproven
 
-## What would change the finding
-
-- The uninsured loss and the exact need the loan covered.
-- Approval, amount, rate, term, fees, collateral, and repayment timing.
-- Cash, insurance, aid, family help, outage, and payment access at the same time.
-- Bankruptcy, delinquency, credit, car, home, work, health, and family outcomes.
-- Income, race, place, disability, and disaster type.
+The evidence does not tell us whether the loan preserved a job, reduced health harm, or improved long-term wealth for each borrower. It does not compare the loan with a grant, insurance payment, flexible repayment, or direct repair. Nor does it show how results differ by income, race, disability, disaster type, interest rate, or the timing of aid.
 
 ## Next test
 
-Follow borrowers and similar denied applicants for five years. Join disaster damage, loan terms, insurance, aid, cash access, purchases, repairs, credit, bankruptcy, work, health, and family records.
+Follow approved borrowers and similar denied applicants for five years. Join the disaster damage record to loan amount, rate, term, fees, collateral, insurance, aid, family help, cash access, repairs, purchases, work, health, delinquency, credit, bankruptcy, and household consumption. The central comparison should be the same preserved need funded in different ways—not simply “borrower” versus “non-borrower.”
 
 ## Reading rule
 
-Keep approval, liquidity, preserved need, repayment, and bankruptcy separate. Emergency credit can protect a household without being free.
+Keep approval, liquidity, preserved need, repayment, and bankruptcy separate. Emergency credit can protect a household without being free, and a loan balance alone does not show whether the bridge worked.
