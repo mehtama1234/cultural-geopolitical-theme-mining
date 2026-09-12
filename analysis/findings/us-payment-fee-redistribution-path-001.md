@@ -2,38 +2,48 @@
 
 ## The argument
 
-The payment method can change who pays for ordinary shopping even when everyone sees the same shelf price. Merchants pay different fees. Rewards return more value to some card users. The cost may enter common prices, so a shopper can pay it without seeing it as a payment charge.
+The price on a shelf is not always the whole price of buying. A merchant may pay a different fee when a customer uses cash, debit, or a rewards credit card. The merchant can respond through a common price, a surcharge, a discount, a lower margin, or a decision about which payments to accept. The customer may then carry a cost without seeing it as a payment cost.
 
-Cards can also provide security, records, credit, and useful rewards. The question is not whether cards are good or bad. It is the full value and cost of the payment method for this household, including interest, annual fees, rewards, safety, and the ability to use another method.
+That does not make every card purchase harmful. A person who pays a card balance in full may receive a useful reward and protection. Another person may pay interest, use credit because cash is short, or have no access to the card with the reward. The same payment system can therefore give value to one household and take value from another.
 
-## What the sources establish
+The deeper finding is about the path between the fee and the household. A national transfer estimate is not yet a family budget. To understand who gains or loses, we need to see the price paid, the reward received, the interest charged, and the payment choices available to that household.
 
-Using US merchant and payment data, NBER estimates that interchange fees transfer about $30 billion a year from cash and debit users to credit-card users. Consumer sorting and different merchant fees reduce the estimate but do not remove the transfer.
+## Follow one ordinary purchase
 
-Other NBER research finds that card issuers use more back-loaded and hidden fees with some customer groups and market conditions. HBS describes how merchant fees can enter common prices while rewards return more value to premium-card users.
+A shopper buys groceries at the same posted price as everyone else. A credit card earns points, but the shopper carries a balance and pays interest. Another shopper pays cash and earns nothing. If the merchant has built payment costs into the common price, both shoppers help fund the rewards system; the first may also pay interest, while the second may have less access to credit and less ability to smooth a bad week.
 
-The transfer estimate depends on how fees reach prices. It does not show every shopper’s actual price, reward, interest payment, or alternative.
+```text
+payment method → merchant fee and customer reward or interest
+→ price, surcharge, margin, or acceptance changes
+→ household’s effective cost and ability to smooth cash change
+→ shopping place, debt, and future payment choice change
+```
 
-Sources: [NBER payment fees](https://www.nber.org/papers/w35067), [NBER card fees](https://www.nber.org/papers/w22360), [HBS rewards](https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer), and [HBS price coherence](https://www.library.hbs.edu/working-knowledge/its-called-price-coherence-and-its-surprisingly-bad-for-consumers).
+The chain matters because each actor sees only part of it. The merchant sees the fee. The cardholder sees the reward. The household budget sees the final price and later interest. A policy that changes one link can move the burden rather than remove it.
 
-## Follow the payment choice
+## What the sources actually establish
 
-shopper chooses cash, debit, or credit → merchant pays a different fee → price, reward, surcharge, or margin responds → households carry different effective costs → payment policy becomes a distribution question
+| Step | Evidence | Meaning |
+|---|---|---|
+| Transfer | NBER estimates a large transfer from cash and debit users toward credit-card users through interchange pricing. | Payment design can redistribute value even when the shelf price looks shared. |
+| Hidden cost | NBER research shows that fees can be back-loaded or hard to see, and their effects vary by market and customer. | The first price is not always the final cost. |
+| Merchant response | HBS work describes merchant fees entering common prices while premium-card rewards return more value to some users. | A reward can be funded by a wider set of shoppers. |
+| Household difference | Credit access, income, balance payment, and shopping location affect whether a reward is usable or whether interest follows. | “Card user” is not one economic group. |
 
-A reward may be real value for a customer who pays the balance in full. The same system can charge a customer without rewards through common prices while charging interest to a customer who carries a balance. Income, credit access, merchant location, and safety limit the apparent choice.
+Sources: [NBER on interchange fees](https://www.nber.org/papers/w20539), [NBER on hidden fees](https://www.nber.org/papers/w24799), [HBS on payment rewards](https://www.library.hbs.edu/working-knowledge/why-credit-card-rewards-programs-are-so-popular), and [HBS on price coherence](https://www.library.hbs.edu/working-knowledge/how-payment-methods-change-what-customers-pay).
 
-## What must stay separate
+## The deeper finding
 
-- Merchant fee and household price.
-- Reward and net benefit.
-- Credit access and affordable credit.
-- A shared shelf price and a shared burden.
-- A transfer estimate and one shopper’s actual loss.
+Payment choice is a distribution system. It can move money from people who pay in cash or debit to people who use rewards credit, from shoppers to merchants, or from today’s purchase to a later interest bill. The customer cannot judge the system from the reward or the fee alone. The relevant measure is the household’s net cost after price, reward, interest, access, and missed alternatives.
+
+## What remains unproven
+
+The evidence does not yet show the complete net cost for the same US households over time. It does not tell us how payment fees change grocery prices in each place, how often low-income households pay interest after using rewards cards, or whether cash discounts reach the people most affected. It also does not prove that one payment rule caused later debt or financial stress.
 
 ## Next test
 
-Follow households and merchants for one year through payment method, price, fee, reward, interest, shopping location, and merchant acceptance. Compare effective cost by income and place before calling the system fair or unfair.
+Follow households and merchants for one year. Record payment method, posted price, surcharge or discount, reward, interest, credit limit, balance payment, merchant acceptance, shopping location, and the purchase that would have been made if the first payment option were unavailable. Compare the full cost by income, liquid savings, credit access, and place.
 
 ## Reading rule
 
-Keep the fee-transfer estimate separate from each household’s net cost.
+Keep the merchant fee, the common price, the reward, the interest bill, and the household’s net cost separate.

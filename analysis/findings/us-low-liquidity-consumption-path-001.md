@@ -2,36 +2,47 @@
 
 ## The argument
 
-A spending number can stay steady while the household underneath it becomes less safe. One person spends less because cash is tight. Another spends more because waiting would mean missing care, losing a job, or paying more later. The same transaction total can describe a preference, a constraint, or both.
+A spending number can stay steady while the household underneath it becomes less safe. Lower spending may mean that a person found a cheaper option, or it may mean that food, care, repairs, or rest were pushed aside. Higher spending may mean comfort, or it may mean that waiting was impossible and the household paid more to prevent a larger loss.
 
-The mistake is to judge the spending before checking the room around it. Did the household have cash? Could it borrow? What price did it face? What need was protected, delayed, or shifted to another week?
+This is why “consumer strength” is too blunt a label for a household with little liquid cash. The same transaction total can come from very different choices. One person can wait for a sale. Another must buy today because the car is needed for work, the medicine cannot wait, or the landlord will not accept a late payment. A budget measure records the purchase, not the room the person had to choose.
 
-## What the source establishes
+The deeper question is not whether spending is high or low. It is whether the household can delay, switch, borrow at a tolerable cost, or absorb a surprise without losing something important.
 
-Using transaction records linked to survey expectations for middle-income US consumers with little liquid wealth, NBER finds large and varied gaps between observed spending and a no-friction benchmark. The median absolute gap is 40% of the benchmark: 49% spend below it and 51% above it.
+## Follow one purchase
 
-Borrowing limits alone cannot explain both directions. The patterns fit a mix of cash limits, difficulty focusing on future needs, and the cost of changing consumption. The benchmark is a model measure, not a bill and not a welfare score.
+A worker has steady monthly income but almost no cash reserve. The car breaks down. Paying for repair today keeps the job reachable; delaying it may save cash now but risk lost shifts or job loss. The worker may use a card, borrow from family, cut food spending, or miss work. The transaction record can show higher or lower spending, but not which future cost was avoided or created.
+
+```text
+income and liquid cash → ability to wait, switch, borrow, or absorb a shock
+→ observed spending → food, care, housing, work, or debt choice
+→ later security, cost, and ability to respond next time
+```
+
+Cash is therefore not just a smaller version of income. It is the time a person can buy before a decision becomes urgent.
+
+## What the sources actually establish
+
+| Step | Evidence | Meaning |
+|---|---|---|
+| Constraint | NBER links transaction records with survey expectations for middle-income US consumers with little liquid wealth. | A household can have income while still lacking a usable buffer. |
+| Variation | The study finds large and varied gaps between observed spending and a no-friction benchmark: some spend below it and some above it. | One spending level does not reveal one kind of need. |
+| Limits to borrowing | Borrowing limits alone do not explain both directions of the gap. | Need, timing, preferences, and other costs also matter. |
+| Meaning | The benchmark is a model measure, not a bill or direct welfare score. | The result identifies a pattern to investigate, not a final judgment about households. |
 
 Source: [NBER Working Paper 34891](https://www.nber.org/papers/w34891).
 
-## Follow the purchase
+## The deeper finding
 
-income and liquid cash → ability to wait, borrow, or change a plan → observed spending → food, care, housing, or debt choice → later household security
+Liquidity is a form of freedom. It lets a household wait for a better price, repair instead of replace, keep a job reachable, or refuse a bad loan. When liquidity is low, ordinary choices become forced choices. A spending increase can then be a defense against a larger loss, while a spending decrease can be the loss itself.
 
-Lower spending may protect rent and food while sacrificing care or a useful repair. Higher spending may be waste, or it may prevent a larger loss. Without the cash and need around the purchase, the number cannot tell us which.
+## What remains unproven
 
-## What must stay separate
-
-- Observed spending and welfare.
-- A preference and a cash constraint.
-- Income and liquid wealth.
-- A purchase and the need it serves.
-- Immediate savings and later cost.
+The evidence does not yet follow the same households from low cash to a named purchase, the reason for that purchase, and its later effect on health, work, housing, food, or debt. It does not show which supports restore room most reliably, or how the pattern differs by age, race, disability, family structure, and place.
 
 ## Next test
 
-Follow consumers for one year and join transactions to item, need, price, income, liquid cash, credit limit, health, work, housing, food, debt, and later security. Test whether a policy or product change lowered the cost of waiting or borrowing.
+Follow consumers for one year and join transactions to item, need, price, cash, credit, health, work, housing, food, debt, and later security. Mark whether a purchase was delayed, substituted, financed, or made under a deadline. Record the loss avoided as well as the cost incurred.
 
 ## Reading rule
 
-Do not label lower spending a preference until cash, credit, need, and later cost are visible.
+Do not call lower spending a preference until cash, credit, need, timing, and later cost are visible.
