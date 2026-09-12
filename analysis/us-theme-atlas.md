@@ -704,6 +704,8 @@ Follow a one-time payment into a vehicle or other durable purchase, then ask whe
 
 Still missing: The current sources do not show the same household's need, loan terms and later repayment outcome.
 
+[Read the complete connected memo](../site/us-durable-purchase-finance-path-001.html)
+
 ### When cash changes the rest of the household
 
 Follow a payment to one person into another member's training, care or spending, then ask what the family gains and what need becomes visible.
