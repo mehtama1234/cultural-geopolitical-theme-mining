@@ -8,6 +8,11 @@ This is a reading map for US customer, household, work, money, and public life. 
 
 The map asks what happens next. Who pays? Who waits? Who can leave? Who decides? Who gets the useful data, the asset, or the gain?
 
+The [provisional societal trend register](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+is the current synthesis of the separate evidence layers. It is where the
+program names broad trends, while the matrices remain the control documents for
+units, methods, uncertainty, and missing links.
+
 The atlas now contains 83 topics, 5 shared themes, 165 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
 
 ## The main finding so far

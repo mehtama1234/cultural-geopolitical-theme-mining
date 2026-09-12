@@ -102,6 +102,8 @@ or geopolitical leverage. Add counterevidence and publish only what the data
 supports. If a join is invalid, keep the link open instead of inventing a
 household-level or causal connection.
 
-The operational queue is [US broad research pass](analysis/US-BROAD-RESEARCH-PASS_V1.md);
+The operational queue is [US broad research pass](analysis/US-BROAD-RESEARCH-PASS_V1.md),
+and the current cross-source synthesis is the [provisional societal trend
+register](analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md);
 the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE-MATRIX_V1.md);
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
