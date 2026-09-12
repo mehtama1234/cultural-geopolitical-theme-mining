@@ -1,8 +1,8 @@
 # US source coverage
 
-83 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+84 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 11; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 134; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 13; Federal Reserve: 19; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 136; OFR: 1; Other: 33; Other government: 9; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -1332,6 +1332,23 @@
 - whether age-friendly design improves independence.
 
 [Open the source-search record](projects/us-older-consumer-segments/source-search-2026-09-11.md)
+
+## US online reviews and customer trust
+
+**Project:** `us-online-reviews-trust`
+
+**Status:** matched evidence pass complete; current platform-level quality and customer records remain open
+
+**Question:** Do online reviews help customers compare quality, or can the review system itself become another paid gate?
+
+**Sources recorded:** 4
+
+- [NBER: Buying Reputation as a Signal of Quality](https://www.nber.org/papers/w22584)
+- [NBER: Designing Quality Certificates](https://www.nber.org/papers/w29674)
+- [FTC: Final rule banning fake reviews and testimonials](https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials)
+- [FTC: How to evaluate online reviews](https://consumer.ftc.gov/articles/how-evaluate-online-reviews)
+
+[Open the source-search record](projects/us-online-reviews-trust/source-search-2026-09-11.md)
 
 ## US owner households and the business tradeoff
 
