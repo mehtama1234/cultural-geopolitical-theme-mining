@@ -8,6 +8,8 @@ Across the packets, a recurring question is what disappears when a household kee
 
 [Read the big-picture synthesis](../analysis/us-big-picture-synthesis.md)
 
+[Read the canonical broad theme inventory and recovery brief](../analysis/US-BROAD-THEME-INVENTORY_V1.md). It lists the societal, cultural, consumer, institutional, political, company, sector, and geopolitical themes, plus the five bridges currently being pursued. This program is broader than the household-calendar instrument.
+
 ## Follow a question across topics
 
 Reading paths, not proven chains of cause and effect.
@@ -1152,6 +1154,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER: Tracking the Short-Run Price Impact of US Tariffs](https://www.nber.org/papers/w34496)
 - [HBS: Tariffs Leave Consumers and Companies Splitting the Tab](https://www.library.hbs.edu/working-knowledge/tariffs-leave-consumers-and-companies-splitting-the-tab)
 - [NBER: Tariffs in 2025: Short-Run Impacts on the US Economy](https://www.nber.org/papers/w35064)
+- [Federal Reserve: The Slow Climb](https://www.federalreserve.gov/econres/notes/feds-notes/the-slow-climb-how-tariffs-gradually-raised-retail-prices-in-2025-20260305.html)
+- [Federal Reserve: Paying More and Buying Less](https://www.federalreserve.gov/econres/feds/paying-more-and-buying-less-2025-tariffs-and-us-household-spending.htm)
 
 #### Evidence check: A trade policy can reach the shelf slowly
 
@@ -1187,6 +1191,12 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER: Why Do We Dislike Inflation?](https://www.nber.org/papers/w32300)
 - [HBS: Charting “Cheapflation”](https://www.library.hbs.edu/working-knowledge/charting-cheapflation-how-budget-brands-got-so-pricey)
 - [HBS: Psychological Pricing Tactics to Fight the Inflation Blues](https://www.library.hbs.edu/working-knowledge/psychological-pricing-tactics-to-fight-the-inflation-blues)
+- [BLS Consumer Expenditures in 2024](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm)
+- [BLS real earnings release](https://www.bls.gov/news.release/realer.htm)
+- [BLS CPI category table](https://www.bls.gov/news.release/cpi.t01.htm)
+- [income quintiles](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-income-quintiles-before-taxes-2024.xlsx)
+- [housing tenure](https://www.bls.gov/cex/tables/calendar-year/mean-item-share-average-standard-error/cu-housing-tenure-2024.xlsx)
+- [two-year cross-tabulated tables](https://www.bls.gov/cex/tables.htm)
 
 #### Evidence check: A slower rise in prices can still feel like a loss
 
@@ -1887,6 +1897,20 @@ Rent-guarantee insurance may share a short payment shock, but market design may 
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [Rent Guarantee Insurance](https://www.nber.org/papers/w32582)
+- [TheGuarantors renter FAQ](https://www.theguarantors.com/faq-for-renters)
+- [TheGuarantors: behind on rent](https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay)
+- [Rhino Renter Guarantee](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee)
+- [Columbia Business School research brief](https://business.columbia.edu/research-brief/rent-guarantee-insurance-housing-crisis)
+- [TheGuarantors](https://www.theguarantors.com/products-rent-coverage)
+- [Rhino](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee)
+- [Leap](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage)
+- [Rhino product disclosure](https://www.sayrhino.com/products/renter-guarantee)
+- [TheGuarantors FAQ](https://www.theguarantors.com/faq-for-renters)
+- [Leap legal notices](https://leapeasy.com/legal-notices/)
+- [TheGuarantors California bond terms](https://www.theguarantors.com/terms-and-conditions-california)
+- [NY Department of Financial Services consent order](https://www.dfs.ny.gov/industry_guidance/enforcement_discipline/ea20220628_guarantors)
+- [Texas Property Code, Chapter 92](https://statutes.capitol.texas.gov/DocViewer.aspx?DocKey=PR%2FPR.92&ExactPhrase=False&HighlightType=1&Phrases=can%7Cconstables%7Cserve%7Ccivil%7Cpapers&QueryText=can+constables+serve+civil+papers)
+- [Illinois insurance licensing guidance](https://idfpr.illinois.gov/banks/cbt/comcl/btfaqins.html)
 
 #### Evidence check: Rent insurance could move a short shock away from the tenant
 
@@ -2450,6 +2474,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 
 - [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
 - [HBS: What Elections Can Reveal About a Country’s Economic Prospects](https://www2.library.hbs.edu/working-knowledge/what-elections-can-reveal-about-countrys-economic-prospects)
+- [Inflation, Blame Attribution, and the 2022 US Congressional Elections](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9ACD009459C2C11C02BB89DA68B6B929/S0007123424000930a.pdf/inflation-blame-attribution-and-the-2022-us-congressional-elections.pdf)
+- [NBER: Employment, Wages and Voter Turnout](https://www.nber.org/papers/w17270)
 
 #### Evidence check: The vote may respond more to lost buying power than inflation alone
 
@@ -2483,6 +2509,8 @@ Clearer privacy control may increase data sharing while also increasing what fir
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [HBS: More Trust, More Data](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+- [FTC: When companies share personal information without permission](https://consumer.ftc.gov/consumer-alerts/2024/04/when-companies-share-your-personal-information-without-your-permission)
+- [FTC: Designing Consent](https://www.ftc.gov/system/files/ftc_gov/pdf/linfarronatofradkin.pdf)
 
 #### Evidence check: Privacy rules can make people more willing to share
 
@@ -3362,6 +3390,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
 - [FTC and states Amazon case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
 - [FTC and states Amazon advertising case](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)
+- [NBER: Mechanisms for Digital Advertising](https://www.nber.org/system/files/chapters/c14782/revisions/c14782.rev0.pdf)
 
 #### Evidence check: A platform-owned product can help some customers and still raise competition concerns
 

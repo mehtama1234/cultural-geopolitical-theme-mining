@@ -29,6 +29,7 @@ intro = "Short research passes, connected through everyday choices. These are ea
 big = "Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior."
 md = ["# US life: the connections", "", intro, "", "## The bigger picture", "", big, ""]
 md += ["[Read the big-picture synthesis](../analysis/us-big-picture-synthesis.md)", ""]
+md += ["[Read the canonical broad theme inventory and recovery brief](../analysis/US-BROAD-THEME-INVENTORY_V1.md). It lists the societal, cultural, consumer, institutional, political, company, sector, and geopolitical themes, plus the five bridges currently being pursued. This program is broader than the household-calendar instrument.", ""]
 path_cards = []
 if paths:
     md += ["## Follow a question across topics", "", "Reading paths, not proven chains of cause and effect.", ""]
@@ -145,7 +146,7 @@ html = f'''<!doctype html>
 <body><a class="skip" href="#topics">Skip to topics</a><main>
 <nav><a href="index.html">Research home</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a> · <a href="us-source-coverage.html">Source coverage</a> · <a href="us-evidence-audit.html">Evidence audit</a> / US life</nav>
 <header><p class="eyebrow">A connected reading guide · First pass</p><h1>What people pay.<br>What people give up.</h1><p>{e(intro)}</p></header>
-<aside class="big"><h2>The bigger picture</h2><p>{e(big)}</p><p><a href="us-big-picture-synthesis.html">Read the big-picture synthesis</a></p></aside>
+<aside class="big"><h2>The bigger picture</h2><p>{e(big)}</p><p><a href="us-big-picture-synthesis.html">Read the big-picture synthesis</a></p><p><a href="../analysis/US-BROAD-THEME-INVENTORY_V1.md">Read the canonical broad theme inventory and recovery brief</a></p></aside>
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
 <label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label></div>
 <p id="count" role="status" aria-live="polite">{len(nodes)} of {len(nodes)} topics shown</p>
