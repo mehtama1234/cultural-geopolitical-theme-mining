@@ -8,6 +8,8 @@ The deeper finding is a choice under pressure: protecting the household may mean
 
 The owner often acts as both lender and borrower. The family may leave money in the business, work without pay, delay a household purchase, or take a personal loan to cover payroll. The firm can look alive while the household absorbs the loss. The reverse can happen when the owner takes money out of the business to pay rent, tuition, or medicine. A business account and a household account can be separate in the ledger and joined in the decision.
 
+The legal form does not remove this connection. A corporation may separate liability on paper while the owner still relies on personal savings, a home-backed loan, or family labor. A sole proprietor may have no practical wall between accounts. The evidence should record the protection the legal form provides and the risk the household actually carries.
+
 ## What the matched evidence shows
 
 | Part of the path | What the record shows | What it does not show |
@@ -33,7 +35,11 @@ The important unit is not “the small business” alone. It is the linked owner
 
 The timing of a household bill can be decisive. Tuition, a medical event, an insurance renewal, or a rent increase may arrive before the business receives an invoice payment. A profitable firm can still be cash-short on that date. The owner chooses between payroll, supplier bills, taxes, debt, household needs, and an investment that would help later. Annual profit cannot show which obligation won the contest.
 
+Cash flow also determines whether support arrives in time. A loan approved after payroll is missed, a tax credit paid after a closure, or a grant that requires records the owner cannot produce may have a positive headline result and no usable effect for that firm. The relevant date is when cash became spendable, not when the program announced it.
+
 Family labor is another hidden transfer. A spouse or child may handle bookkeeping, deliveries, care, or unpaid shifts when cash is tight. This can keep the firm open while reducing the family's rest, schooling, or outside work. A fall in business spending may therefore appear as efficiency when it is actually unpaid household labor. The same choice may protect a local service and exhaust the people providing it.
+
+The family may also hide the tradeoff by replacing paid work with unpaid work. A spouse stops outside employment, a child helps after school, or the owner works longer without pay. Revenue and staffing can look stable while the household loses wages, education, rest, or care. These are part of the firm’s real cost.
 
 The firm can pass the decision outward. It may delay a worker's hours, raise prices, reduce inventory, stop accepting difficult customers, or postpone maintenance. Customers may find the service still open but less reliable. Workers may keep jobs but lose predictable schedules. The owner-household tradeoff becomes a customer and worker tradeoff through the firm's next operating choice.
 
@@ -49,6 +55,8 @@ The firm can pass the decision outward. It may delay a worker's hours, raise pri
 
 The public design problem is whether support follows the owner, the firm, the worker, or the service. A household grant may protect food and rent but leave payroll exposed. A business loan may keep workers paid while adding personal liability. A wage subsidy may preserve employment but not the owner's ability to pay a medical bill. These supports can work together or simply move the same risk to a different balance sheet.
 
+The public result depends on the outcome being protected. Keeping the firm open is not the same as keeping a job good, a service affordable, or an owner household healthy. A support package may preserve one of these and weaken another. The policy should name the target before claiming success.
+
 ## What would change the finding
 
 - A non-pandemic panel showing the same revenue, family-bill, cash, hiring, and closure path.
@@ -62,6 +70,8 @@ The public design problem is whether support follows the owner, the firm, the wo
 Match owners and firms around large, dated household bills or local demand shocks. Follow the money monthly for two years. The first question is who absorbs the shock; the second is whether that choice reaches workers, customers, or the local economy.
 
 Record the order of payments, not just the final balance. Join household bills, business receipts, payroll, supplier terms, taxes, debt, family labor, prices, hours, inventory, and customer trips. Compare owners with similar firms but different household buffers and access to credit. Test flexible working-capital support, household cash, and wage support separately. Measure owner health and income, firm survival and investment, worker pay and schedule, customer service, and debt after two years.
+
+Add a weekly cash-and-time ledger around each shock: money received, bill due, payment chosen, unpaid owner or family hours, work hours lost, support application, cash-arrival date, and the next month’s debt. Compare firms that received support before payroll with those that received it later. Report household stability, firm capacity, worker quality, customer access, and public cost separately. This would show whether support preserves a firm by sharing risk or by asking the family to absorb it silently.
 
 ## Reading rule
 
