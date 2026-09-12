@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; transfer and care links are useful, same-family cost remains open
+**Status:** first matched evidence pass completed; same-family cost remains open
 
 ## Working question
 
@@ -28,6 +28,10 @@ shock in one household
 ```
 
 The opening sources support family help as a real response to hardship. They do not show that the same event is shared evenly, or that family support is available to people with weak family ties, distance, conflict or low family wealth.
+
+## Matched evidence result
+
+The first pass treats the receiver and helper as one connected unit. Family help can prevent a missed bill or care break, but its cost may appear as lost work, time, savings, or future borrowing room for the helper. The next test must follow both sides around the same event.
 
 ## Counterpoint to keep visible
 
