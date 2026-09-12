@@ -533,6 +533,8 @@ Follow a tariff from policy to shelf price, then into the repeated price and wag
 
 Still missing: The current studies use product prices and separate surveys; they do not follow one household from a tariff change to a purchase, budget change or political judgment.
 
+[Read the complete connected memo](../site/us-tariff-delayed-shelf-price-path-001.html)
+
 ### When equal income buys a different life
 
 Follow several jobs into spending, travel and saving, then ask whether flexibility is replacing stability rather than adding to it.
