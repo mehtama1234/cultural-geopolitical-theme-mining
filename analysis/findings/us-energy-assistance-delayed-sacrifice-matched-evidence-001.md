@@ -6,11 +6,17 @@ Energy assistance clearly reaches households in crisis and can restore service. 
 
 The useful unit is the same household over time: service on, a safe temperature, no sacrificed food or medicine, and enough room for rent and work. A restored connection answers what happened today. It does not answer whether the family can make it through the next bill cycle.
 
+Waiting is part of the benefit's real value. A payment that arrives before a shutoff can preserve food, medicine, and work. The same payment after service is cut may require a reconnection fee, spoiled food, a missed shift, or a night in an unsafe home. Application date, approval date, payment date, and restoration date are separate events. A program can be generous on paper and still arrive too late for the crisis in front of the family.
+
 ## Follow one aid payment
 
 A family receives help after a shutoff notice. The utility reconnects service. The family warms the home and avoids an immediate move. But the equipment remains inefficient, the utility allowance is below the actual bill, and the next payment is due before payday. The crisis has been interrupted; its cause may remain.
 
 If the family skipped medicine to keep the lights on before aid, that sacrifice may not appear in a restoration count. If the payment prevents it, the benefit is real—but it must be measured directly.
+
+The family may have to make the sacrifice quietly. It can heat one room, sleep in one part of the home, borrow a space heater, use a credit card, or ask a relative to pay the bill. Service remains connected, so the case does not appear as a shutoff. But the household has already paid through debt, discomfort, risk, or another person's budget. Prevention counts need to include the unsafe choices that avoided a formal interruption.
+
+The next bill may also be larger because the family waited. A cold home can require more energy once service returns; a broken unit may run continuously; a payment plan may add arrears; a late fee may attach. The initial aid can therefore restore service while leaving the household with a higher starting balance. The household needs both immediate protection and a path that lowers the next claim.
 
 ```text
 energy shock
@@ -38,13 +44,23 @@ Sources: [HHS FY24 LIHEAP report](https://ocsannualreport.acf.hhs.gov/annual-rep
 
 This creates a clear program choice. A payment may be the right emergency response. A repair, weatherization, better allowance, or billing change may be the durable response. Counting one as the other makes both programs look better or worse than they are.
 
+The deeper distinction is between interruption and cause. An emergency payment interrupts the consequence of an unaffordable bill. A repair or weatherization changes the physical reason for high use. An allowance or rate change changes the amount the household must carry. A flexible payment date changes when the cash is due. The right intervention depends on which link is failing, and repeat use is evidence that the wrong link may have been treated.
+
+There is a household-control problem. The person who receives aid may not be able to repair the furnace, insulate the building, change the rate plan, or negotiate with the landlord. A program can ask the resident to conserve while the owner controls the equipment. If the public record follows only the utility account, it can assign responsibility to the wrong person.
+
+The political question is what counts as a successful rescue. A utility can report restoration, an agency can report households served, and a family can still be deciding whether to buy food or pay the next bill. The useful measure is the household's safe options after aid. If those options do not expand, the system has bought time but not stability.
+
 ## What remains unknown
 
 The evidence does not show which sacrifice aid prevented, whether service stayed on, or whether repair or weatherization would have done more than a payment. It does not show who controls the fix—the utility, landlord, equipment owner, or program.
 
+It also does not show how many applications arrive after a shutoff, how long payment takes, what people do while waiting, or whether aid reduces repeat use. A restoration count cannot show food spoilage, missed work, medical risk, debt, or a move caused by the delay.
+
 ## Next test
 
 Link application, approval, payment, restoration, shutoff, and next bill for the same household. Add indoor temperature, equipment, food, medicine, health, missed work, housing, debt, and repeat crisis use. Compare renters and owners by climate, fuel, disability, age, and housing type.
+
+Time-stamp every handoff and record the household's action while waiting. Compare rapid payment, pre-shutoff prevention, arrears forgiveness, equipment repair, weatherization, allowance adjustment, and flexible billing. Measure days without safe temperature, food or medicine loss, missed work, reconnection cost, next-bill balance, repeat crisis, and control over the fix. The result should show whether assistance prevented a sacrifice and whether the family had more room at the next bill.
 
 ## Reading rule
 
