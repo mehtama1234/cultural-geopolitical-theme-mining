@@ -12,6 +12,8 @@ Imagine a senior worker whose pay depends on a volatile bonus. The worker saves 
 
 The first household is protecting itself. The second household may experience the wider result without seeing the path between them. The same change can help a saver, hurt a borrower, and fund useful investment at once.
 
+The first household is not necessarily choosing less consumption because it is selfish or frightened. It may be protecting a job, a home, or a family obligation. But the second household cannot copy that response if it has no liquid assets. It may face the market through a loan, a rent increase, or a missed purchase rather than through a safer portfolio.
+
 ```text
 income risk at the top → precautionary saving → wealth and interest-rate conditions
 → credit, asset prices, demand, and investment → different financial room for other households
@@ -36,6 +38,8 @@ Financial safety is not distributed only through wages. It is also distributed t
 ## What remains unproven
 
 The evidence does not show which assets receive the extra saving, how firms change investment or hiring, or which borrowers see a rate or price change. It does not prove that the modeled rate effect caused higher rent, weaker demand, or distress for a lower-income family. Differences within the top 5% also matter.
+
+It also does not show whether the saving is held inside the US, invested in firms that hire US workers, or placed in assets whose price changes housing and credit markets. A lower modeled risk-free rate could help some borrowers while asset-price gains help people who already own assets. The direction is not enough; the recipients and timing matter.
 
 ## Next test
 
