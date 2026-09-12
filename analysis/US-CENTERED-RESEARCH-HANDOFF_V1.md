@@ -110,4 +110,6 @@ The first published-table reference pass is in the [ATUS and CE reference pass](
 
 The first transport paper scan is in the [transport paper scan](projects/us-household-calendar-integration/transport-paper-scan-v1.md), with a [reader-facing HTML page](../site/us-transport-paper-scan.html). It separates household choice, city-wide effects, and worker or firm effects, then turns the reading into questions for the calendar.
 
+The next connected reading pass is [housing and insurance risk](projects/us-housing-insurance-affordability/paper-scan-v1.md). It follows how a place risk or credit record can become a premium, coverage gap, financing problem, repair delay, sale loss, or public cost. The existing [home-insurance finding](../site/us-home-insurance-matched-evidence.html) is the reader-facing page for the current argument.
+
 The program is deliberately open-ended. “Exhaustive” means a recorded search across the defined source universe, clear inclusion and exclusion rules, repeated searches over time, and visible gaps—not a claim that every relevant source or hidden cause has been found.
