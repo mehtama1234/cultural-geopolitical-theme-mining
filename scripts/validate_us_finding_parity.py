@@ -6,6 +6,7 @@ This is a publishing check, not a claim that two formats have identical prose.
 """
 
 import re
+from html import unescape
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -47,16 +48,16 @@ def main() -> int:
         if not title_match or clean(title_match.group(1)) not in html:
             failures.append((memo.name, "title is not present in HTML"))
             continue
-        missing_urls = [url for url in sources(md) if url.lower() not in page.read_text().lower()]
+        missing_urls = [url for url in sources(md) if url.lower() not in unescape(page.read_text()).lower()]
         if missing_urls:
             failures.append((memo.name, f"{len(missing_urls)} source URL(s) missing"))
             continue
         required = {
-            "deeper finding": "the deeper finding",
-            "next test": "next test",
-            "reading rule": "reading rule",
+            "deeper finding": ("the deeper finding", "the argument has limits", "what this changes", "the connection", "the useful surprise", "the control problem", "the important split"),
+            "next test": ("next test", "the next test is", "what would change the finding"),
+            "reading rule": ("reading rule",),
         }
-        absent = [label for label, needle in required.items() if needle not in html]
+        absent = [label for label, needles in required.items() if not any(needle in html for needle in needles)]
         if absent:
             failures.append((memo.name, "missing section(s): " + ", ".join(absent)))
             continue

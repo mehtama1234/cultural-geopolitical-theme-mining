@@ -1,35 +1,65 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>A visible listing does not prove a safe product</title>
-<style>
-:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--card:#fffefa}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 system-ui,sans-serif}
-main{max-width:920px;margin:auto;padding:28px 22px 90px}a{color:var(--green);text-underline-offset:4px}
-h1,h2{font-family:Georgia,serif;font-weight:normal;line-height:1.1}h1{font-size:clamp(2.8rem,7vw,5.4rem);margin:48px 0 20px}h2{font-size:2.15rem;margin:62px 0 16px}
-.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lead,.story{font-size:1.18rem;max-width:800px}
-.panel{background:var(--green);color:#f8f6ef;border-radius:14px;padding:30px;margin:40px 0}.panel h2{margin:0 0 12px}.note{border-left:4px solid var(--gold);padding-left:20px;color:var(--muted)}.panel .note{color:#f8f6ef}
-.chain{background:#e8eee9;padding:24px;border-radius:10px;font-weight:600}.table-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:760px}th,td{text-align:left;vertical-align:top;padding:16px;border-bottom:1px solid var(--line)}th{font-size:.82rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}tr:last-child td{border:0}
-.skip{position:absolute;left:-9999px}.skip:focus{left:15px;top:10px;background:white;padding:10px}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
-@media(max-width:760px){body{font-size:17px}main{padding:22px 16px 65px}.panel{padding:24px 20px}}
-</style>
-</head>
-<body>
-<a class="skip" href="#reading">Skip to reading</a>
-<main>
-<nav><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav>
-<header><p class="eyebrow">A short argument · US marketplaces, safety, and household risk</p><h1>A visible listing does not prove a safe product</h1><p class="lead">Online shopping moves the safety check from the store counter to the household.</p></header>
-<aside class="panel"><h2>The argument</h2><p>The real test is not whether a marketplace displays a seller name or safety mark. It is whether the platform can identify the seller, remove the exact listing, reach buyers, stop a repeat listing, and give the customer a refund or replacement.</p></aside>
-<div id="reading">
-<h2>Follow one purchase</h2><p class="story">A parent buys a charger or toy from a marketplace. The page looks credible: a familiar mark, many reviews, and a low price. Months later, a safety agency warns that similar products can overheat or contain unsafe parts. The family must recognize its item, stop using it, find the seller, and recover the money. Each step can fail separately.</p><div class="chain">listing signal → purchase → hidden defect or false claim → warning or injury → removal, return, refund, repair, or medical response → money, health, and trust change</div>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A visible listing does not prove a safe product"><title>A visible listing does not prove a safe product</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px}h3{font-size:1.4rem}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:60px;padding-top:22px}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}}
+</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><article id="finding" class="memo"><h1>A visible listing does not prove a safe product</h1>
+<h2>The argument</h2>
+<p>Online shopping moves the safety check from the store counter to the household. A customer sees a seller name, a star rating, a safety mark, and a promise that the item will arrive quickly. Those signals can make the product feel checked even when no one has shown that the exact item is genuine, safe, or still covered by a recall.</p>
+<p>The important question is not whether a marketplace displays information. It is whether the information changes what happens after risk appears. Can the platform identify the seller, remove the exact listing, reach people who bought it, stop a repeat listing, and give the customer a refund or replacement? If those steps are missing, the customer is doing the last mile of product safety alone.</p>
+<p>The online page can create a false sense that several checks have already happened. A safety mark may be copied, a review may describe another product, and a seller may change names after a complaint. Fast delivery can make the platform look like the seller even when responsibility sits elsewhere. The buyer sees one smooth transaction; the safety system may see separate fragments with no owner.</p>
+<h2>Follow one purchase</h2>
+<p>A parent buys a charger or toy from a marketplace. The page looks credible: a familiar-looking mark, many reviews, and a low price. The item arrives. Months later, a safety agency warns that similar products can overheat or contain unsafe parts. The family must recognize that its item is the same one, stop using it, find the seller, return or discard it, and recover the money. Each step can fail separately.</p>
+<p>The product may have moved before the warning. It can be given to another family, resold, stored at a different address, or bought by a school or small business. A notice sent only to the original account misses the current user. A product identifier that is too broad creates panic and unnecessary returns; one that is too narrow leaves dangerous copies in homes. Safety depends on tracing the item without requiring more personal data than the task needs.</p>
+<p>Removal is not one action either. The main page can disappear while an identical product remains under another seller, another title, or a different model number. An order history can remain visible while the warning is hard to find. A platform can block a seller and still allow the same inventory through a new account. The meaningful test is whether the exact risk stops moving through the network.</p>
+<p>The customer may also have to choose between safety and money. Discarding a cheap item may be easier than returning it, but a family may not be able to replace a needed charger, crib, or appliance. An unsafe item that is still in use can be a rational response to a missing alternative. The remedy has to reduce that choice, not merely instruct the buyer to stop.</p>
+<pre><code class="language-text">listing signal → purchase → hidden defect or false claim → warning or injury
+→ removal, return, refund, repair, or medical response → money, health, and trust
+</code></pre>
 <h2>What the sources actually establish</h2>
-<div class="table-wrap"><table><thead><tr><th>Step</th><th>Evidence</th><th>Meaning</th></tr></thead><tbody><tr><td>Signal</td><td>CPSC warns that fake safety labels can make dangerous goods look acceptable online.</td><td>A visible mark is not proof of the underlying test.</td></tr><tr><td>Seller record</td><td>The INFORM Consumers Act requires covered marketplaces to collect and verify information about high-volume sellers and provide reporting tools.</td><td>Identification creates a record and a possible contact point.</td></tr><tr><td>Detection</td><td>CPSC and FTC provide reporting and recall systems for unsafe or deceptive products.</td><td>Public response depends on someone finding and reporting the problem.</td></tr><tr><td>Removal</td><td>Safety guidance asks online sellers to stop selling recalled or unsafe goods.</td><td>A listing must disappear, including copies and relisted versions.</td></tr><tr><td>Remedy</td><td>FTC guidance points customers to returns, payment protections, and platform help.</td><td>The household still has to turn a warning into recovery.</td></tr></tbody></table></div>
-<h2>The deeper finding</h2><p class="story">Seller identity, safety verification, listing removal, recall reach, and refund are different controls. A platform can improve one while the household remains exposed through another. The useful measure is the time from a risk signal to safe action and completed recovery.</p>
-<h2>What remains unproven</h2><p class="story">The sources do not yet join a US listing to a purchase, a specific product unit, an injury or near miss, a recall notice, and a completed remedy. They also do not show whether poorer households, older buyers, or people shopping in another language face longer recovery.</p>
-<h2>Next test</h2><p>Build product-level cases joining seller identity, listing copies, safety claims, purchase channel, recall or complaint, notice, removal, return, refund, injury, and repeat sale. Compare the same product across a marketplace, a brand store, and a local retailer.</p>
-<h2>Reading rule</h2><p class="note">Do not call a marketplace safe because it shows a seller name or safety mark. Follow the exact product through detection, removal, harm, and recovery.</p>
-<p><a href="../analysis/findings/us-marketplace-product-safety-matched-evidence-001.md">Read the full Markdown essay</a> · <a href="us-evidence-audit.html">Open the evidence audit</a></p>
-</div></main></body></html>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Evidence</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Signal</td>
+<td>CPSC warns that fake safety labels can make dangerous goods look acceptable online.</td>
+<td>A visible mark is not proof of the underlying test.</td>
+</tr>
+<tr>
+<td>Seller record</td>
+<td>The INFORM Consumers Act requires covered marketplaces to collect and verify information about high-volume sellers and provide reporting tools.</td>
+<td>Identification creates a record and a possible contact point.</td>
+</tr>
+<tr>
+<td>Detection</td>
+<td>CPSC and FTC provide reporting and recall systems for unsafe or deceptive products.</td>
+<td>Public response depends on someone finding and reporting the problem.</td>
+</tr>
+<tr>
+<td>Removal</td>
+<td>Safety guidance asks online sellers to stop selling recalled or unsafe goods.</td>
+<td>A listing must disappear, including copies and relisted versions.</td>
+</tr>
+<tr>
+<td>Remedy</td>
+<td>FTC guidance points customers to returns, payment protections, and platform help.</td>
+<td>The household still has to turn a warning into recovery.</td>
+</tr>
+</tbody>
+</table>
+<p>Sources: <a href="https://www.cpsc.gov/Newsroom/News-Releases/2026/US-Consumer-Product-Safety-Commission-Launches-Crackdown-on-Fake-Safety-Labels-Used-to-Push-Dangerous-Foreign-Products-into-US-Homes">CPSC fake-label crackdown</a>, <a href="https://www.ftc.gov/news-events/news/press-releases/2023/06/ftc-puts-online-marketplaces-notice-about-their-responsibilities-under-new-inform-consumers-act">FTC INFORM Consumers Act notice</a>, <a href="https://consumer.ftc.gov/articles/buying-online-marketplace">FTC marketplace guidance</a>, and <a href="https://www.cpsc.gov/Business--Manufacturing/Online-Sellers-Safety-Guide">CPSC online sellers' guide</a>.</p>
+<h2>The deeper finding</h2>
+<p>Seller identity, safety verification, listing removal, recall reach, and refund are different controls. A platform can improve one while the household remains exposed through another. The most useful connected measure is therefore not “how many sellers were verified.” It is the time from a risk signal to safe action and completed recovery.</p>
+<p>The platform occupies a special position because it can see the listing, seller, order, payment, review, and often the buyer's contact route. That does not mean it caused the defect or should bear every loss. It does mean the platform may be the only actor able to connect a warning to every affected order. If it treats safety as a notice posted somewhere, the household remains the last inspector. If it connects the records, it can reduce both harm and the work required from the buyer.</p>
+<p>This creates a distinction between compliance and control. A seller may provide a certificate, the platform may collect a name, and the listing may include a warning. None proves that the item in the box matches the claimed product or that the current user can obtain a remedy. The system controls risk only when it can verify the unit, stop repeat sales, contact users, and complete recovery.</p>
+<p>The political question is how much safety work belongs to the platform, the maker, the seller, the regulator, and the buyer. Shifting all of it to the buyer favors people with time, technical knowledge, and money for replacement. Shifting all liability to platforms may lead them to block legitimate small sellers or categories. The useful rule assigns each step to the actor with the records and ability to act, then measures whether the customer actually became safer.</p>
+<h2>What remains unproven</h2>
+<p>The sources do not yet join a US listing to a purchase, a specific product unit, an injury or near miss, a recall notice, and a completed remedy. They also do not show whether poorer households, older buyers, or people shopping in another language face longer recovery.</p>
+<p>They also do not tell us how many unsafe listings are copies, how often a removed product is relisted, or whether customers understand a safety label. A fall in listings could mean successful removal, seller exit, or movement to another channel. A complaint count cannot show how many units remain in use or whether the remedy was affordable.</p>
+<h2>Next test</h2>
+<p>Build product-level cases that join seller identity, listing copies, safety claims, purchase channel, recall or complaint, notice, removal, return, refund, injury, and repeat sale. Compare the same product across a marketplace, a brand store, and a local retailer.</p>
+<p>Preserve the listing, seller, product identifier, review set, and order record at purchase. Then time detection, notice, removal, buyer contact, stop-use, return, refund, replacement, and relisting. Test direct platform notices, photo-based product matching, automatic refund, and a single claim route. Measure days of continued use after warning, customer hours, replacement cost, injury or near miss, repeat sales, and which actor paid or failed at each step. The result should show whether the marketplace shortened the path to safety or merely displayed information.</p>
+<h2>Reading rule</h2>
+<p>Do not call a marketplace safe because it shows a seller name or safety mark. Follow the exact product through detection, removal, harm, and recovery.</p></article><footer><p><a href="../analysis/findings/us-marketplace-product-safety-matched-evidence-001.md">Read the Markdown record</a> · <a href="us-evidence-audit.html">Open the evidence audit</a></p><p class="note">Claims, limits, and open questions are kept together. A connection is not proof of cause.</p></footer></main></body></html>
