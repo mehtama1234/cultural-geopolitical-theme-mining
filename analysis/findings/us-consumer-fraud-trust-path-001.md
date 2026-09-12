@@ -28,6 +28,10 @@ The recovery process also asks the victim to become an investigator. The custome
 
 The household may change behavior after recovery even when the money is returned. It may keep less in a bank account, avoid online sellers, use cash, refuse a useful transfer, or ask a relative to make payments. Those choices can reduce exposure to one kind of fraud and create another cost through lost convenience, weaker records, or less access to credit. A refund repairs the balance; it does not automatically restore the old set of choices.
 
+The victim may also need help from someone else. A partner may take over the account, an adult child may make calls, or a worker may ask an employer for an advance. That can get the bill paid while reducing the victim’s privacy and control. A recovery measure should record who did the work and who gained access to the account, not only whether the money came back.
+
+The scam can expose a gap between technical ownership and lived responsibility. The bank may say the customer approved the transfer; the customer may say the approval happened under a false story. The platform may say the seller was independent; the buyer may have trusted the platform’s name. The remedy depends on which relationship the institution recognizes. Clear labels do not settle the customer’s actual expectation of protection.
+
 ## What the sources actually establish
 
 | Evidence | Meaning | What remains open |
@@ -51,6 +55,10 @@ The burden of false interruption is uneven too. A blocked luxury purchase is inc
 
 Fraud reporting is therefore partly a measure of institutional confidence. A person who expects no recovery may stay silent; a person who trusts the process may report a smaller loss. Higher reports can mean more fraud, better reporting, or both. Trends should be read beside recovery rates, response times, and account access, not as a simple measure of worsening behavior.
 
+The political question can follow the recovery burden. A person may ask for stronger bank rules, platform liability, identity checks, or faster public reporting after learning that the private remedy is weak. Another may oppose more monitoring after a legitimate payment was blocked. Both reactions can come from the same desire: to keep control over money without carrying every safety risk alone. The current evidence does not show which response is more common.
+
+The best rule may be different for different payments. A rent payment, payroll deposit, or medicine purchase needs rapid correction; a suspicious investment transfer may need a longer pause. Treating all transactions with one safety threshold shifts either fraud risk or lockout risk onto the wrong users. The design should match the likely harm of delay and the ability to verify the payment.
+
 ## What remains unproven
 
 The sources do not follow one US household from scam to report, decision, recovery, borrowing, account use, and later trust. They do not show whether monitoring lowers total loss without adding privacy, false-lockout, or access costs. They also do not establish that a particular response changed political or institutional trust. They do not show which recovery outcomes differ between unauthorized transactions and payments made after deception.
@@ -60,6 +68,8 @@ The sources do not follow one US household from scam to report, decision, recove
 Link fraud type, payment route, report date, recovery amount, recovery time, complaint response, bill dates, account use, borrowing, and later household condition. Compare cards, bank transfers, and investment routes by age, disability, language, income, and digital access. Record whether the customer had authorized the payment, which proof the institution required, which services were blocked, and whether monitoring prevented or falsely stopped a legitimate payment.
 
 Run a recovery audit with matched cases that vary the payment route and the customer's ability to provide proof. Measure the first response, time to usable account access, amount ultimately recovered, bill failures, hours spent, stress, later use, and reporting of the next incident. Separately test false blocks using ordinary rent, payroll, travel, and medical payments. The goal is to find the point where extra screening prevents loss without making essential use too fragile.
+
+Add a household recovery log that records who made calls, supplied proof, paid the next bill, and controlled the account while the case was open. Test different response times for essential and nonessential payments, and publish recovery rates by fraud type and route. Ask customers whether the institution’s explanation matched what they believed it was protecting. This would measure restored control, not only restored dollars.
 
 ## Reading rule
 
