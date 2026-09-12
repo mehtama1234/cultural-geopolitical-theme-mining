@@ -6,6 +6,8 @@ For some US small-business owners, family money and business money are close eno
 
 The deeper finding is a choice under pressure: protecting the household may mean slowing the firm. That does not yet tell us whether workers lost jobs, customers lost service, or the firm later closed.
 
+The owner often acts as both lender and borrower. The family may leave money in the business, work without pay, delay a household purchase, or take a personal loan to cover payroll. The firm can look alive while the household absorbs the loss. The reverse can happen when the owner takes money out of the business to pay rent, tuition, or medicine. A business account and a household account can be separate in the ledger and joined in the decision.
+
 ## What the matched evidence shows
 
 | Part of the path | What the record shows | What it does not show |
@@ -29,6 +31,12 @@ family or business cash shock
 
 The important unit is not “the small business” alone. It is the linked owner household and firm. A healthy-looking firm may be keeping a family steady. A steady-looking household may be supported by cutting the firm’s next investment.
 
+The timing of a household bill can be decisive. Tuition, a medical event, an insurance renewal, or a rent increase may arrive before the business receives an invoice payment. A profitable firm can still be cash-short on that date. The owner chooses between payroll, supplier bills, taxes, debt, household needs, and an investment that would help later. Annual profit cannot show which obligation won the contest.
+
+Family labor is another hidden transfer. A spouse or child may handle bookkeeping, deliveries, care, or unpaid shifts when cash is tight. This can keep the firm open while reducing the family's rest, schooling, or outside work. A fall in business spending may therefore appear as efficiency when it is actually unpaid household labor. The same choice may protect a local service and exhaust the people providing it.
+
+The firm can pass the decision outward. It may delay a worker's hours, raise prices, reduce inventory, stop accepting difficult customers, or postpone maintenance. Customers may find the service still open but less reliable. Workers may keep jobs but lose predictable schedules. The owner-household tradeoff becomes a customer and worker tradeoff through the firm's next operating choice.
+
 ## Four views
 
 **Household:** Ask what bill is due, what cash is available, and whether family spending is protection or a sign of strain.
@@ -38,6 +46,8 @@ The important unit is not “the small business” alone. It is the linked owner
 **Money and finance:** Measure cash, credit cost, aid, and the risk of using the business as a family reserve.
 
 **Public power:** Aid can prevent an immediate household cut, but its timing and rules may decide whether the firm keeps investing.
+
+The public design problem is whether support follows the owner, the firm, the worker, or the service. A household grant may protect food and rent but leave payroll exposed. A business loan may keep workers paid while adding personal liability. A wage subsidy may preserve employment but not the owner's ability to pay a medical bill. These supports can work together or simply move the same risk to a different balance sheet.
 
 ## What would change the finding
 
@@ -50,6 +60,8 @@ The important unit is not “the small business” alone. It is the linked owner
 ## Next test
 
 Match owners and firms around large, dated household bills or local demand shocks. Follow the money monthly for two years. The first question is who absorbs the shock; the second is whether that choice reaches workers, customers, or the local economy.
+
+Record the order of payments, not just the final balance. Join household bills, business receipts, payroll, supplier terms, taxes, debt, family labor, prices, hours, inventory, and customer trips. Compare owners with similar firms but different household buffers and access to credit. Test flexible working-capital support, household cash, and wage support separately. Measure owner health and income, firm survival and investment, worker pay and schedule, customer service, and debt after two years.
 
 ## Reading rule
 
