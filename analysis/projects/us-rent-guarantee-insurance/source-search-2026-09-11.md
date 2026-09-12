@@ -62,6 +62,16 @@ The real products found so far protect the landlord's lease decision more clearl
 
 The common structure is not yet proof that the companies have equal terms. It is a reason to compare policy documents, state filings, and claim records before treating them as one market.
 
+## State and legal check
+
+| Provider record | What is public | What it means for the map |
+|---|---|---|
+| [Rhino product disclosure](https://www.sayrhino.com/products/renter-guarantee) | Rhino says its security-deposit alternative is not available in HI, MT, ND, or WY. It lists admitted A- or better carriers in AK, CT, DE, IN, KY, MD, ME, NY, OH, PA, SD, TN, and WV, and says other states may use nonadmitted excess or surplus-lines carriers. | “Nationwide” does not mean one regulatory or policy setting. |
+| [TheGuarantors FAQ](https://www.theguarantors.com/faq-for-renters) | TheGuarantors says not all coverages are available in every state. It identifies California lease-guarantee and security-deposit bonds as surplus-lines products and gives a California license number for its agency. | State filing and policy form matter before comparing price or protection. |
+| [Leap legal notices](https://leapeasy.com/legal-notices/) | Leap publishes producer licensing information by state and says insurance applications must go through licensed producers; its coverage may be admitted or excess and surplus lines. | A provider's national footprint still needs state-by-state checking. |
+
+The public records support a state-terms table, but not a complete price table. Provider quotes are personalized and the policy forms, filings, and underwriting decisions are not all public in one place.
+
 ## Decision rule
 
 Keep modeled welfare, actual claims, prevented eviction and later household security separate. The model is a design clue, not a measured market result.
