@@ -20,6 +20,10 @@ The alternative matters. Waiting may protect cash but leave a failing car, unsaf
 
 The deadline changes the answer. A worker who needs the car tomorrow may not be able to compare rates or wait for a used vehicle. A family replacing a refrigerator may value food safety immediately, while an efficient appliance may save money only after months. A purchase can therefore be financially sensible and still be made under pressure, with a contract that gives the household little room to correct a bad choice.
 
+The seller and lender may see more of the contract than the household does. The customer hears a monthly payment, while the full cost sits in the rate, term, fees, insurance requirement, service plan, and likely repair. A rushed buyer may accept a payment that fits this month without knowing what happens if the item fails or income falls. Understanding the contract is part of the purchase outcome.
+
+Maintenance is the second payment. A car that preserves work may still need tires, oil, registration, and a repair before the loan ends. An appliance may need installation, filters, or a service call. If the household cannot pay those costs, the financed item may stop providing the capability it was meant to buy while the loan continues. The useful measure is whether the tool remains usable through the contract, not only whether it was delivered.
+
 ```text
 temporary income or credit → durable purchase, often with a loan
 → needed access, safety, or comfort improves now
@@ -49,6 +53,10 @@ Financing also changes who can obtain the durable good. A lender's approval, cre
 
 The same contract can also look different after income changes. If the car preserves work, the payment may be part of the cost of earning. If hours fall, the payment becomes a fixed claim against a smaller paycheck. Repossession or a missed payment can then damage both mobility and the next credit decision. That is why the result must include what happened after the purchase, not only whether the household received the good.
 
+The public response can be shaped by the visible item and the hidden contract. A family may credit the car for keeping a job and blame the lender for the payment, or blame itself when the repair arrives. Rules about disclosure, repair access, repossession, and public transit change how much of the risk the household must carry. The sources support the capability-versus-payment tradeoff; they do not show which rule produces the best political response.
+
+There is also an exit problem. Selling the item may not clear the loan, returning it may damage credit, and replacing it may require a second down payment. A purchase that is affordable only while every month goes well is not the same as a flexible asset. The household needs a way to recover from a bad fit, breakdown, or income shock.
+
 ## Four views of the same purchase
 
 **Household:** What item was needed, what did it protect, and what cash, time, or alternative was available?
@@ -66,6 +74,8 @@ The stimulus period was unusual. The sources do not show whether each vehicle or
 ## Next test
 
 Follow households for three years after a temporary payment or durable purchase. Join the item, need, loan terms, cash buffer, credit, repairs, insurance, travel, work, care, energy use, replacement, and missed payments. Compare families with transit or repair alternatives to those without them. Record the total contract cost, the deadline, the payment after an income change, and any repossession or replacement. Separate capability gained today from payment risk carried tomorrow.
+
+Capture the contract at the point of sale: monthly payment, total amount, rate, term, fees, required insurance, service plan, cancellation or resale terms, and the customer’s understanding of each. Follow maintenance and downtime month by month, then compare the financed item with repair, rental, used purchase, and transit alternatives. Record what happened when the item failed or income fell. This would show whether financing created durable access or only delayed a larger loss.
 
 ## Reading rule
 
