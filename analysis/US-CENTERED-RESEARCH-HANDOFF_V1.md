@@ -22,6 +22,43 @@ The first run of `python3 scripts/validate_us_finding_parity.py` checked 63 find
 
 The next major research stream will study the United States from the inside out: what customers and households experience, how firms respond, how money and credit shape the choices available, how public institutions react, and how those changes become social and political pressure.
 
+## Canonical broader objective — do not narrow this to one household
+
+The project is building a broad US map of societal, cultural, consumer, institutional, financial, and political change from many source families. The household-calendar study is only one measurement instrument inside that program; it is not the overall goal and must not replace the population-, market-, firm-, place-, and institution-level analysis.
+
+The actual objective is to extract recurring themes across datasets, surveys, research papers, public records, company evidence, and political or cultural measures:
+
+1. **What families give up to pay the bills:** housing, health care, insurance, food, savings, credit, utilities, repairs, and hidden household tradeoffs.
+2. **Who gives up time:** commuting, caregiving, multiple jobs, administrative burden, customer-service loops, unpaid labor, and time as the real price of cheap or free services.
+3. **Who can get an answer or change a decision:** appeals, human support, privacy, platform rules, credit records, benefit administration, legal help, switching costs, and exit power.
+4. **Who controls the work and gets the gain:** AI, monitoring, schedules, workplace autonomy, employer dependence, career mobility, benefits, productivity, bargaining power, and risk transfer.
+5. **How places and infrastructure distribute exposure:** energy, housing condition, insurance, water, transport, climate risk, repairs, service reliability, and the ability to remain or move.
+
+These umbrella themes contain the broader recurring questions the project must continue extracting:
+
+- whether consumer convenience, fees, subscriptions, data rules, ratings, automation, and platform ownership change real choice;
+- whether families experience prices, care, debt, insurance, benefits, and housing as sacrifices of money, time, health, security, or freedom;
+- whether firms and public programs improve their headline outcome by shifting costs to workers, customers, owners, families, or future bills;
+- whether work, employer power, AI, multiple jobs, and benefits change status, autonomy, bargaining power, and local dependence;
+- whether private material pressure becomes cultural meaning, trust, blame, identity, public demand, or political action;
+- whether personal economic experience and national economic judgment diverge, and what connects a cost to a political interpretation;
+- how race, class, age, disability, gender, family structure, migration, geography, and institutional access change who bears the risk;
+- how financial, technological, energy, and supply dependencies affect US firms, communities, and state power.
+
+The cross-domain chain to preserve is:
+
+```text
+US condition, price, rule, shock, or institutional decision
+  -> cash, time, access, control, status, or security changes
+  -> customers, households, workers, firms, or voters adapt, delay, borrow, switch, stay, or go without
+  -> firm, lender, employer, platform, regulator, court, agency, media, or party responds
+  -> costs and power move between people, firms, families, and public systems
+  -> culture, trust, identity, public demand, political judgment, and geopolitical or sector exposure may change
+  -> finding with evidence, counterevidence, limits, and next test
+```
+
+Do not turn this into one grand causal theory. Each link must remain labeled as observed, reported, inferred, compared, or open. The goal is a connected societal research map whose strongest paths can later be tested with joined records—not a single-household story.
+
 The aim is to find the deeper mechanism beneath a visible trend. A headline is only the entry point. The work should show the path from a measurable condition to a change in daily life, then to a change in institutional power.
 
 ```text
