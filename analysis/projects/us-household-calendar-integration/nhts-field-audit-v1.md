@@ -28,6 +28,10 @@ It cannot connect a trip to the household’s exact fare, paycheck date, missed 
 
 The bounded extractor is [extract_nhts_transport_slice.py](../../../scripts/extract_nhts_transport_slice.py). It checks all four archive members, selects the fields above, writes temporary per-file CSVs, and records row counts and value counts. It supports `--max-rows` so a smoke test does not become a full analysis.
 
+## Reproducibility boundary checked 2026-09-12
+
+The checkout contains the extractor and the recorded comparison, but not the raw NHTS archive or derived CSVs. A fresh request to the official downloads site reached the NHTS application shell; the apparent `assets/datasets/2022` JSON and CSV paths did not return the archive in this environment. The recorded NHTS percentages therefore remain prior-run evidence, not a newly reproduced result in this checkout. Re-run the extractor only after retaining the official archive outside Git and recording its exact URL, checksum, archive members, and download date.
+
 The first bounded run is recorded in the [NHTS smoke check](nhts-smoke-check-v1.md). It verified the four-file hierarchy and showed why special survey codes must be decoded before interpretation.
 
 ## Interpretation rule
