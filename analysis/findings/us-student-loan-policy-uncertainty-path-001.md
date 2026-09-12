@@ -20,6 +20,10 @@ Another borrower with the same debt keeps paying because the notice is unclear. 
 
 The borrower also has to plan around a moving target. A person may postpone buying a home, returning to school, changing jobs, or helping a child because the future payment is unknown. Those choices may never appear as loan transactions. Uncertainty can reduce risk-taking for one family and encourage early spending for another. The missing outcome is not only delinquency; it is the opportunity that was delayed or the debt taken on because the policy could not be trusted.
 
+The uncertainty can also change the household’s promises to other people. A borrower may delay a move, reduce help to a parent, or ask a partner to carry more of the bills. A parent may use the expected pause to pay for a child’s need, then be unable to keep that help when payments return. The loan is in one person’s name, but the planning effect can spread through the family.
+
+The legal status of a policy is not the same as its usable status. A rule may be announced but require an application, a servicer update, or a qualifying date. A borrower may be technically covered and still receive a bill that says otherwise. The household needs a clear account-level answer: what is owed, when, and what happens if the notice is wrong.
+
 ```text
 policy promise or legal uncertainty
   -> belief about a future payment
@@ -54,6 +58,10 @@ There is a fairness question inside the timing. A borrower with savings can wait
 
 Servicing can turn uncertainty into a trust event. If the amount, interest, due date, or account status changes without a clear explanation, a borrower may not know whether to pay, save, or challenge the bill. A correct final policy can still fail as a household experience if the transition is confusing. The public judgment will attach to the whole path, including the notice and the correction process.
 
+The political response may be driven by the gap between a promise and a usable account. One borrower may see relief as a public right; another may see the same announcement as an unreliable promise that makes planning worse. The later view may depend less on the legal outcome than on whether the borrower received a clear answer before the next payment. This is a testable inference, not a finding from the study.
+
+There is a policy tradeoff between speed and certainty. Fast relief can help a household during a crisis, but a fast reversal can create a new shock. Slow rule-making can reduce reversal risk while forcing borrowers to plan without an answer. A fair design should state what is certain now, what may change, and how much time the household gets to adjust.
+
 ## What remains unknown
 
 The evidence does not show whether extra spending protected food, health, work, or housing, or whether later delinquency came from the pause ending, mistaken belief, income loss, or servicing problems. It does not establish one path for every borrower. It does not show whether the returning bill was clear enough or whether households had time to rebuild a buffer.
@@ -63,6 +71,8 @@ The evidence does not show whether extra spending protected food, health, work, 
 Follow borrowers from the first announcement through three years after the policy settles. Join notices, beliefs, payments, balances, spending purpose, delinquency, credit, housing, work, family, servicing contacts, and actual relief. Compare borrowers with similar debt and income but different liquidity and loan rules. Record the household’s buffer before the promise, the choice made during uncertainty, the clarity and timing of the returning bill, and whether the household recovered.
 
 Use a monthly borrower panel with a record of every public announcement and servicing notice. Ask what the borrower believed would happen, what decision was changed, and what backup was available. Compare clear, early notices with late or ambiguous notices, and separate people who received relief from those who only expected it. Measure payment, delinquency, credit, housing, job, education, family transfers, and lost opportunities so the test captures both the bill and the life plan around it.
+
+Add an account-level transition audit: compare the public promise with the borrower’s actual balance, due date, interest, payment options, and servicer message. Give a random group a plain-language answer and a protected adjustment period, then track spending, delinquency, credit, housing, work, and family support. This would show whether the harm comes from the final payment, the uncertainty before it, or the failed handoff between policy and account.
 
 ## Reading rule
 
