@@ -36,6 +36,10 @@ public need
 
 Cash gives a family room to address a need that a program designer cannot see. Food-labeled aid may protect food spending while leaving rent or medicine short. Recurring aid may help planning, while a one-time payment may fit a sudden repair.
 
+The form also changes who has to explain the household’s priorities. A restricted benefit tells the family which need the program believes comes first. Cash lets the family make that choice, but the family may then be blamed if the visible food measure does not improve. A higher grocery bill can be evidence that food was protected, while a lower one can mean that cash prevented eviction or kept the power on. The same receipt can support opposite stories unless the other bills are counted.
+
+The program’s calendar can create a second cliff. A family may plan around a monthly payment, then face a long gap after a renewal problem, income change, or missed form. During the gap it may use credit or family help, and the later benefit may repay the damage without restoring the time or fees lost. Continuity is therefore part of the benefit, not an administrative detail.
+
 This is why a larger food-store response is not automatically a better result. A family may spend more at the store because the benefit permits a needed purchase, because it replaces food bought with debt, or because the label leaves no other use. Another family may spend less on food after receiving cash because it pays overdue rent or medicine. The receipt shows where money went, not whether the household became secure.
 
 There is a fairness tradeoff in the label. Restricting aid can protect the need the public wants to fund and make the result easier to see. It can also force a family to leave another bill unpaid. Unrestricted cash respects information the program cannot observe, but it may not protect food if the household has a competing emergency. Neither form is neutral; each decides which need gets priority when the household cannot cover all of them.
@@ -54,6 +58,8 @@ Access is part of the benefit. A card that works only at certain stores, a payme
 
 If a family sees a benefit prevent a missed meal or late rent payment, it may view the program as usable. If it protects one need while another breaks, or arrives too late, it may view the program as poorly designed. That is a possible path to policy support, not evidence that a particular form changes a vote.
 
+This can shape the public story about deservingness. A food benefit makes the purpose visible and may reassure funders that the money reached food. Cash can look less controlled even when it prevents a larger loss. Families may prefer the form that preserves the most room, while voters may prefer the form whose use is easiest to see. The research supports a tradeoff in household choice and measured spending; it does not show how public opinion resolves that tradeoff.
+
 ## What would change the finding
 
 - Food security, diet, skipped meals, and food quality after the first weeks.
@@ -68,6 +74,8 @@ If a family sees a benefit prevent a missed meal or late rent payment, it may vi
 Follow families for six months after receiving equal-value aid in different forms and schedules. Record the bill due when aid arrives, where it can be spent, food security, other purchases, debt, savings, health, and stress. Compare the same family's total room, not just its grocery receipt.
 
 Add the application burden, store distance, fees, payment failure, and the need the family cut first. Separate food quantity, food quality, credit use, and unpaid family support.
+
+Test the calendar as well as the label. Give otherwise similar families the same value on different dates, with and without a short interruption, and record borrowing, missed meals, late bills, and the cost of reapplying. Follow what happens after the last payment instead of ending measurement when the first grocery purchase is recorded. This would show whether recurring aid creates planning room or whether a gap simply shifts the crisis into debt.
 
 ## Reading rule
 
