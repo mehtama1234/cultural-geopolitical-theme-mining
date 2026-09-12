@@ -617,6 +617,8 @@ Follow differences in health, independence and buying power into care and househ
 
 Still missing: The current sources describe segments, spending and health risk separately; they do not follow the same older customer through a product or care decision.
 
+[Read the complete connected memo](../site/us-older-consumer-care-money-path-001.html)
+
 ### When emotional support becomes an attention system
 
 Follow a private AI reply into time spent and the ability to leave, then ask whether the service offers safe care or mainly continued engagement.
