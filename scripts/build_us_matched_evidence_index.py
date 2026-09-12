@@ -20,6 +20,7 @@ routes = {
     "us-small-business-support-size-cutoff-matched-evidence-001": ("Work / cost / voice", "eligibility rule → public demand → firm survival", "customer, worker, and owner-household effects"),
     "us-local-business-place-matched-evidence-001": ("Work / place / voice", "local conditions → application → lasting firm", "services, belonging, and political effects"),
     "us-vehicle-repair-household-matched-evidence-001": ("Cost / work / time", "repair bill → cash timing → access", "same-household work, care, and later-debt effects"),
+    "us-safety-net-access-matched-evidence-001": ("Cost / time / voice", "need → rule and access → benefit kept or lost", "same-household food, work, debt, health, and trust effects"),
 }
 for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
     text = path.read_text()

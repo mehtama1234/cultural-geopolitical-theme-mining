@@ -15,3 +15,7 @@ Food insecurity is not only a household-income story. It may also reflect whethe
 ## Decision rule
 
 Move on after a causal participation result, one measured place or administrative barrier, and a counterpoint about work, cost or self-selection.
+
+## Matched evidence pass
+
+The first matched check is [A benefit can be lost without the need going away](../../findings/us-safety-net-access-matched-evidence-001.md), with its [HTML reading page](../../../site/us-safety-net-access-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms access and participation effects while leaving same-household food, work, debt, health, and trust effects open.

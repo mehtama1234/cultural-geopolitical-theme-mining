@@ -114,7 +114,17 @@ The payment system appears to spread costs and benefits unevenly. The clearest e
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-payment-fee-matched-evidence-001.md)
 
-### 12. A recovery loan can keep a local option open, but it creates another bill
+### 12. A benefit can be lost without the need going away
+
+**Theme:** Cost / time / voice
+**Route:** need → rule and access → benefit kept or lost
+**Still open:** same-household food, work, debt, health, and trust effects
+
+US safety-net access depends on more than eligibility. Work rules can remove people from SNAP without increasing their employment, and closing an enrollment office can reduce participation even where need remains.  The deeper finding is that help has a price in time, travel, paperwork, and proof. A person leaving the program may have found work, lost the benefit because the process was too hard, or both. The current evidence does not let us treat exit as progress.
+
+[Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
+
+### 13. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -124,7 +134,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 13. A wider small-business rule can push the smallest firms out
+### 14. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -134,7 +144,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 14. A car repair can protect access while taking away other room
+### 15. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
