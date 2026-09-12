@@ -38,6 +38,14 @@ An NBER working paper studies whether losing part of the expanded 2021 Child Tax
 
 [NBER: The Child Tax Credit and Consumer Sentiment](https://www.nber.org/papers/w35059)
 
+### 5. Lost buying power may reach the vote differently than inflation
+
+An NBER county study of the United States from 2021–2024 reports that falling real wages predicted Republican electoral gains, while inflation remained related to presidential vote share after accounting for real wages. This points to a useful distinction: people may respond to what their pay can buy, not only to the rate at which prices are rising.
+
+The study compares counties and does not identify each voter's price basket, blame, turnout or reason for voting. It is evidence about a political pattern, not proof that one household's lost buying power caused its vote.
+
+[NBER Working Paper 35301](https://www.nber.org/papers/w35301)
+
 ## The connection
 
 ```text
@@ -48,7 +56,7 @@ price, bill, wage, or benefit change
   -> demand for relief, blame, regulation, or political change
 ```
 
-The first two steps are visible in the Fed survey. The trust and political steps need a design that can separate material change from party identity and the national information environment.
+The first two steps are visible in the Fed survey. The county voting result adds a political pattern, but the trust and household-to-vote steps still need a design that can separate material change from party identity and the national information environment.
 
 ## What is fact, inference, and unknown
 

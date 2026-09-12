@@ -18,6 +18,7 @@ Do changes in household money and choices affect how Americans judge the economy
 | US-PEW-ECON-2026 | [Pew: 2026 economic views](https://www.pewresearch.org/short-reads/2026/02/23/state-of-the-union-2026-where-americans-stand-on-key-issues-facing-the-nation/) | Americans named health care, housing, food, and consumer prices among top economic concerns; views differed strongly by party | Survey | Party identity may shape both views and reported concerns |
 | US-NBER-CTC-SENTIMENT-35059 | [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059) | A working paper uses benefit loss and survey data to estimate changes in consumer sentiment after the expanded 2021 credit expired | Working paper with causal design | Review the paper, data, revision, and whether sentiment changes led to behavior |
 | US-NBER-FED-TRUST-33524 | [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524) | A survey experiment studies how political alignment affects views of the Federal Reserve and inflation expectations | Working paper; experiment | Fed trust is not the same as trust in government, firms, or parties |
+| US-NBER-REAL-WAGES-VOTE-35301 | [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301) | A US county study for 2021–2024 reports that falling real wages predicted Republican electoral gains, while inflation also remained related to presidential vote share | Working paper; county study | County patterns do not identify each voter's prices, blame, turnout, or vote reason |
 
 ## First pattern to test
 
@@ -40,6 +41,7 @@ The first two links have survey evidence. The last two require a design that can
 - differences across income, race, age, disability, family type, and place;
 - evidence showing that household costs do not change trust or political demand;
 - whether people respond to actual costs or to expected future costs.
+- whether lost buying power matters more than the inflation rate people hear in national news.
 
 ## Decision rule
 
