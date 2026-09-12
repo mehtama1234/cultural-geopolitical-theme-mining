@@ -52,6 +52,16 @@ Insurance can reduce the need for a large deposit and may prevent a severe loss.
 
 The real products found so far protect the landlord's lease decision more clearly than they protect the tenant's balance sheet. They may open a door for a renter who lacks a conventional guarantor, but a claim can become a new debt to the provider. This is a different product from insurance that absorbs the tenant's loss.
 
+## Provider comparison
+
+| Provider | Entry route | Who pays | What the provider says it covers | Main unknown |
+|---|---|---|---|---|
+| [TheGuarantors](https://www.theguarantors.com/products-rent-coverage) | Property sends a conditional or denied applicant to the provider. | Renter, usually as an upfront premium. | A selected amount of missed rent, with optional deposit coverage; terms can vary by state. | Approval rates, actual prices, claims, and recovery outcomes. |
+| [Rhino](https://support.sayrhino.com/hc/en-us/articles/360061185252-What-is-Rhino-Renter-Guarantee) | Property manager decides whether to offer the renter guarantee. | Renter; premium and possible reserve. | Landlord protection for missed rent or excessive damage, subject to policy limits. | State-by-state availability, claim recovery, and renewal outcomes. |
+| [Leap](https://support.leapeasy.com/hc/en-us/articles/41084838074007-What-is-Rent-Guaranty-coverage) | Renter applies for a provider policy when a personal guarantor is missing. | Renter pays a one-time premium. | Coverage for the operator for the lease term; separate from Leap's deposit-replacement product. | Public terms on exclusions, prices, claims, and tenant repayment. |
+
+The common structure is not yet proof that the companies have equal terms. It is a reason to compare policy documents, state filings, and claim records before treating them as one market.
+
 ## Decision rule
 
 Keep modeled welfare, actual claims, prevented eviction and later household security separate. The model is a design clue, not a measured market result.

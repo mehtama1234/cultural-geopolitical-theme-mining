@@ -134,7 +134,17 @@ The first US products we found are mostly lease guarantees. They help a renter q
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-market-matched-evidence-001.md)
 
-### 14. Rent aid can buy time; a lawyer can change the case
+### 14. Rent guarantee is not one product
+
+**Theme:** Cost / housing / finance
+**Route:** provider screen → paid guarantee → landlord protection → tenant debt
+**Still open:** state terms, claims, repayment, and renewals
+
+The first provider comparison shows a shared shape, not a single standard product. TheGuarantors, Rhino, and Leap each describe a tool that helps a landlord accept a renter who lacks a normal guarantor or does not meet the usual screen. The renter generally pays. The property manager often controls the invitation or offer. Coverage is limited by the policy, and the renter may still owe the provider after a claim.  That means the market sits between housing access and landlord insurance. It may help someone enter a home, but the public descriptions do not show that it lowers the renter's total risk. The missing piece is the contract and outcome data: price, approval, exclusion, claim, repayment, renewal, and later housing.
+
+[Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
+
+### 15. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -144,7 +154,7 @@ Emergency rental assistance can help a tenant make a payment and feel less likel
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 15. A benefit can be lost without the need going away
+### 16. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -154,7 +164,7 @@ US safety-net access depends on more than eligibility. Work rules can remove peo
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-safety-net-access-matched-evidence-001.md)
 
-### 16. A recovery loan can keep a local option open, but it creates another bill
+### 17. A recovery loan can keep a local option open, but it creates another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -164,7 +174,7 @@ After a natural disaster, a small firm may need cash before customers return or 
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 17. A wider small-business rule can push the smallest firms out
+### 18. A wider small-business rule can push the smallest firms out
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -174,7 +184,7 @@ When a US program lets larger firms qualify as “small,” the program may reac
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 18. The same dollar can do different work depending on how it arrives
+### 19. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -184,7 +194,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](analysis/findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 19. A car repair can protect access while taking away other room
+### 20. A car repair can protect access while taking away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
