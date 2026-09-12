@@ -2,7 +2,7 @@
 
 83 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 6; Federal Reserve: 16; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 130; OFR: 1; Other: 21; Other government: 5; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 2; BIS: 1; BLS: 7; CFPB: 9; CMS: 1; Census: 11; DOE: 3; EIA: 2; FTC: 9; Federal Reserve: 17; HBS: 47; HHS: 2; IEA: 1; IMF: 1; NBER: 132; OFR: 1; Other: 21; Other government: 6; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -373,7 +373,7 @@
 
 **Question:** Do changes in household money and choices affect how Americans judge the economy and public institutions, and how long does that effect last?
 
-**Sources recorded:** 6
+**Sources recorded:** 7
 
 - [Federal Reserve household report](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
 - [Federal Reserve income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
@@ -381,6 +381,7 @@
 - [Pew: 2026 economic views](https://www.pewresearch.org/short-reads/2026/02/23/state-of-the-union-2026-where-americans-stand-on-key-issues-facing-the-nation/)
 - [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059)
 - [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524)
+- [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
 
 **Open gaps:**
 - whether the same household changes both behavior and political view;
@@ -390,6 +391,7 @@
 - differences across income, race, age, disability, family type, and place;
 - evidence showing that household costs do not change trust or political demand;
 - whether people respond to actual costs or to expected future costs.
+- whether lost buying power matters more than the inflation rate people hear in national news.
 
 [Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-11.md)
 
@@ -426,7 +428,7 @@
 
 **Question:** Does automated customer service make simple help faster while making difficult problems harder to understand and challenge?
 
-**Sources recorded:** 6
+**Sources recorded:** 7
 
 - [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
 - [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
@@ -434,6 +436,7 @@
 - [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
 - [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
 
 **Open gaps:**
 - outcomes for repeat complaints and difficult cases;
@@ -441,6 +444,7 @@
 - differences by disability, language, age, income, and digital access;
 - customer complaints matched to the tool or firm;
 - worker discretion after AI suggestions are introduced;
+- who gets the tool and who keeps control over the work after it arrives;
 - data use, error rates, and false claims;
 - evidence that automated service improves remedies rather than only speed.
 
@@ -833,13 +837,14 @@
 
 **Question:** Does the cost of medical care move pressure from the health system into household choices before it appears as a large economic or political event?
 
-**Sources recorded:** 5
+**Sources recorded:** 6
 
 - [Federal Reserve: economic hardships](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-economic-hardships.htm)
 - [CMS National Health Expenditure fact sheet](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
 - [CFPB medical collections report](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
 - [CFPB medical-information rule record](https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-regulation-v/)
 - [NBER household finance search starting point](https://www.nber.org/papers)
+- [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200)
 
 **Open gaps:**
 - which types of care are most often skipped and what happens later;
@@ -847,6 +852,7 @@
 - differences by state, provider, insurer, employer, and public program;
 - whether debt relief changes care or only changes the credit record;
 - how families trade medical bills against rent, food, child care, and work;
+- how employer coverage changes the work choice of a parent or caregiver;
 - evidence that challenges the idea that medical costs are driving the later outcome.
 
 [Open the source-search record](projects/us-health-cost-household-choice/source-search-2026-09-11.md)
@@ -1423,9 +1429,12 @@
 
 **Question:** When a platform sells its own products beside outside sellers, does its control over placement help customers or steer them unfairly?
 
-**Sources recorded:** 1
+**Sources recorded:** 4
 
 - [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
+- [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
+- [FTC and states Amazon case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
+- [FTC and states Amazon advertising case](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)
 
 **Open gaps:**
 - seller entry and exit;
@@ -1434,6 +1443,8 @@
 - customer groups and repeat purchases;
 - platform investment and data use;
 - results across platforms and product types.
+- seller fees, sponsored placement and the cost of staying visible;
+- whether the practices described in the enforcement record changed customer prices, seller entry or product quality.
 
 [Open the source-search record](projects/us-platform-owned-products-choice/source-search-2026-09-11.md)
 
@@ -1812,11 +1823,12 @@
 
 **Question:** When people stop valuing a subscription, what keeps the payment going?
 
-**Sources recorded:** 3
+**Sources recorded:** 4
 
 - [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
 - [NBER Digest: Consumer Inattention and Subscription Renewals](https://www.nber.org/digest/202310/consumer-inattention-and-subscription-renewals)
 - [HBS Working Knowledge: With Subscription Fatigue Setting In, Companies Need to Think Hard About Fees](https://www.library.hbs.edu/working-knowledge/with-subscription-fatigue-setting-in-companies-need-to-think-hard-about-fees)
+- [FTC Shutterstock settlement](https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices)
 
 **Open gaps:**
 - current US subscription counts and total monthly burden by income;

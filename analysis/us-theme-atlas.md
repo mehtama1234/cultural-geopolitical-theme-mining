@@ -824,6 +824,8 @@ Follow remote work into shopping mode and household spending, then ask whether t
 
 Still missing: The shopping study does not show the same household's full time value, spending need, deal choices and unpaid-work division.
 
+[Read the complete connected memo](../site/us-remote-work-shopping-path-001.html)
+
 ### When the power fails, payment becomes access
 
 Follow an outage into the ability to pay, then ask which households can still buy food, medicine, fuel or other essentials.
