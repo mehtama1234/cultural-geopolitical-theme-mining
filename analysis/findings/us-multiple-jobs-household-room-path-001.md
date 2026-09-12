@@ -14,6 +14,8 @@ A worker adds evening delivery shifts to a daytime job. Gross pay rises. So do f
 
 Another worker uses gig shifts to attend a medical appointment or care for a parent. The same flexibility has a different value because control over time matters more than a benefit plan that is not available.
 
+The choice can reverse when the first job becomes less reliable. If hours are cut, the evening job is no longer a way to buy a little extra room; it becomes the household's repair for a missing paycheck. The worker may look more active in the labor market while having less control over the month. A second job can therefore be both a sign of agency and a sign that the first job is not enough.
+
 ```text
 one job is unavailable, unsuitable, or not flexible enough → several jobs or gig work
 → split schedule, travel, and uncertain income → spending, saving, care, and health change
@@ -35,13 +37,19 @@ Sources: [HBS true costs of gig work](https://www.library.hbs.edu/working-knowle
 
 Work flexibility has a price that appears outside the paycheck. It can let a person solve today’s care or cash problem while shifting vehicle risk, health cost, and future instability onto the worker. A good work measure must count the value of control and the cost of carrying the system alone.
 
+The spending result has to be read carefully. Lower spending may mean hardship, but it may also mean that a worker with several jobs has less time to shop, cook, travel to a cheaper store, or use a service. “Necessities” are not only goods; they include the time and route needed to obtain them. A household can spend less and still be under more pressure.
+
+This is the bridge from work to company and public power. Employers can shift schedule risk to workers by offering hours only when demand appears. Platforms can offer control over when to log in while leaving the worker to supply the car, insurance, and idle time. Public benefits may be difficult to use across several employers or variable pay periods. The worker then carries a system problem as a personal scheduling problem.
+
+The political meaning is still open. Workers may want more predictable hours, portable benefits, better transit, or a higher wage. But the same person may value the freedom of choosing a shift and resist a rule that removes it. The useful finding is the tension between control now and security later, not a claim that all multiple-job workers want the same policy.
+
 ## What remains unproven
 
-The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability.
+The studies do not follow workers from adding or leaving a job through pay, hours, travel, care, benefits, health, savings, debt, and later job quality. They do not show whether lower spending reflected a deliberate choice, less time, or hardship. They do not show whether multiple jobs improved the household’s choices or simply replaced missing stability, or how long the arrangement could last.
 
 ## Next test
 
-Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Ask whether the second job added choice or replaced security.
+Follow workers for two years before and after adding or leaving a job. Join pay, hours, travel, care, benefits, spending, savings, debt, health, schedule control, and job quality. Record idle time, vehicle cost, taxes, and the reason the job was added. Ask whether the second job added choice or replaced security, and whether the worker still had more room after all costs were paid.
 
 ## Reading rule
 
