@@ -37,6 +37,12 @@ local business, services, and political meaning. It distinguishes occupancy
 from secure staying, vehicle access from successful access, business
 applications from durable local capacity, and investment from local control.
 
+The [optionality, unequal exposure, time, and exit layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md)
+is the distributional spine across the other themes. It treats cash, time,
+alternatives, social support, rights, institutional voice, and practical exit
+as separate resources. The next tests must show not only who is exposed, but
+who can absorb, refuse, appeal, switch, move, or organize.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
