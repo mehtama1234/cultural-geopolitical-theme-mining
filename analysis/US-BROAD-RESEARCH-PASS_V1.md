@@ -180,6 +180,8 @@ The [SHED panel income × condition-path layer](projects/us-household-financial-
 
 The [environmental policy cost-belief and energy-burden layer](projects/us-environmental-policy-cost-beliefs/environmental-cost-belief-energy-burden-layer-v1.md) adds a cultural/political policy mechanism: expected consumer cost, actual energy insecurity, fairness, protection, and environmental results are separate arrows. The NBER belief experiment and EIA/DOE burden records now share a bounded comparison without being treated as the same respondents or a bill-to-vote estimate.
 
+The [price-pressure, time-transfer, and social-participation bridge](projects/us-household-calendar-integration/price-pressure-time-social-participation-cross-source-bridge-v1.md) adds the hidden-cost layer: financial adaptation can become extra paid work, unpaid care, travel, waiting, paperwork, or reduced social and civic availability. SHED, ATUS, care, and CPS layers are compared without pretending they are one respondent-level chain.
+
 The [BFS annual county data-quality boundary](projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md) adds a necessary firm/place control: the current county application release uses differential-privacy noise, so applications cannot be read as durable local businesses or community change until they are checked against formation, employer, service, and population measures.
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.

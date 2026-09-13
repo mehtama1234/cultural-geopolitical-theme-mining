@@ -65,6 +65,10 @@ been causally joined.
   actual household burden, fairness, protection, policy support, and
   environmental results are explicitly separate; the same-respondent
   bill-to-belief-to-action path remains open.
+- **Money-to-time transfer:** SHED adaptation, ATUS work/care/social time,
+  care-cost, and CPS participation-friction layers are now organized into a
+  single bridge. Extra work, unpaid care, travel, waiting, and civic loss are
+  kept separate; the same-person displacement path remains open.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
