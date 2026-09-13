@@ -191,6 +191,13 @@ been causally joined.
   and civic action show different subgroup ranges, so the pooled pattern is not
   promoted as one class response. The screen remains descriptive and does not
   supply timing, attribution, or complex-design variance.
+- **Political identity-conditioned depth:** an official ANES SDA controlled
+  table now conditions pre-election financial worry and post-election reported
+  presidential vote on prior party identity. Strong partisan vote choice is
+  highly concentrated within identity across worry categories, while
+  independents show more visible variation. This is weighted descriptive output
+  without design-based standard errors, so it separates political identity as
+  a mechanism to investigate rather than proving an economic-voting effect.
 - **Source environment to civic action:** the Pew crosswalk now places source
   ecosystem, influencer exposure, attention, trust, civic style, direct action,
   and voting in separate stages, preserving the missing same-respondent links.

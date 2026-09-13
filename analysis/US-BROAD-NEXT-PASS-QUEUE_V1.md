@@ -249,6 +249,15 @@ already observed.
 | 9. Trust, identity, and cultural meaning | ANES trust/meaning, Pew source trust, CFPB cultural themes, migration meaning design | Measure attribution, dignity, belonging, blame, legitimacy, and norm change after a defined encounter | Hardship occurs without distrust, or trust changes without the predicted material exposure | Meaning/action instrument |
 | 10. Public systems and policy feedback | SIPP SNAP transitions/reasons/Fay-BRR, administrative-burden and event-ledger designs | Follow notice, effort, receipt, interruption, remedy, security, interpretation, and later action | Exit follows improved security or a low-burden route yields no material loss | Same-episode public-system ledger |
 | 11. Political judgment and collective action | ANES worry/judgment/trust/vote, CPS participation friction, Pew engagement styles | Use repeated respondents or a policy event to separate exposure, attribution, trust, civic action, and vote | Pressure does not change judgment; judgment changes without pressure; trust changes without action | Longitudinal political instrument |
+
+The [ANES party-conditioned worry/vote layer](projects/us-cost-trust-politics/anes-panel-worry-vote-party-conditioned-layer-v1.md)
+adds a controlled descriptive check to this lane. It shows that the pooled
+relationship between financial worry and reported presidential vote cannot be
+read as one society-wide mechanism: among strong partisans, vote choice is
+highly concentrated within prior identity across worry categories, while
+independents show more visible worry/vote variation. The SDA export has no
+design-based standard errors, so this is a conditioning result, not a causal
+estimate or a claim about every subgroup.
 | 12. Firm, sector, and market power | BFS, BDS, CBP, establishment scale, firm/market-power layer, CFPB | Follow one firm or sector decision across customer, worker, owner, place, and public-system outcomes | Similar decision leaves terms unchanged because alternatives or worker/customer power are real | Matched firm-event record |
 | 13. Infrastructure, technology, and dependency | AI capacity/ownership cases, state-leverage ledger, domestic-capacity bridge | Verify operational capacity, ownership, local incidence, energy/water burden, interoperability, and switching | Capacity rises with local learning, public inspection, and provider replaceability | Realization/control ledger |
 | 14. Geopolitical and state consequences | Tariff/price, energy, finance, migration, and AI state-leverage layers | Trace domestic capacity or dependence to an observed state choice, external response, alliance, or leverage change | Domestic dependence does not alter strategic choice, or capability is replaceable without external concession | State-leverage case comparison |

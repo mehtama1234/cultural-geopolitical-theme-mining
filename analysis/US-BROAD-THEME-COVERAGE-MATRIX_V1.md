@@ -28,6 +28,12 @@ outcome; `Reported` means a source reports an experience or estimate;
 
 **Latest place conditioning:** [county growth × HPSA capacity layer](projects/us-immigration-local-demand/migration-growth-hpsa-capacity-layer-v1.md) conditions visible health capacity on population-growth quartile and shortage context; it deepens themes 6–8 while leaving lived access open.
 
+**Latest political conditioning:** [ANES party-conditioned worry/vote layer](projects/us-cost-trust-politics/anes-panel-worry-vote-party-conditioned-layer-v1.md)
+conditions a financial-worry/vote comparison on prior party identity. It
+deepens themes 9 and 11 by showing that material concern enters political
+meaning through identity rather than one uniform population pathway; the
+weighted table remains descriptive and has no design-based standard errors.
+
 ## How to use it
 
 Each new topic should be assigned to one or more rows, then tested across
