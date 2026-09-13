@@ -17,6 +17,11 @@ pattern into a trend claim.
 
 The [provisional societal trend register](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) is the current synthesis layer. It names recurring patterns across the source packets while keeping each missing join and next test visible.
 
+The [next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) rotates execution across
+all 14 themes. It assigns each theme a deeper test, required counterexample,
+and durable output so the easiest available dataset does not become the
+definition of the program.
+
 The cross-source [trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)
 is the current broad societal connector. It keeps material condition,
 attribution, trust, identity, consumer response, civic response, and
