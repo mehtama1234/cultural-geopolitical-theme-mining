@@ -132,6 +132,7 @@ cross-theme layers:
 
 - [CBP sector and local-service capacity](analysis/projects/us-local-business-place/cbp-2023-sector-service-capacity-layer-v1.md): adds durable 2023 employer baselines for manufacturing, retail, health/social assistance, and accommodation/food before interpreting local business entry as services or community change.
 - [BDS realized entry, exit, and sector dynamics](analysis/projects/us-local-business-place/bds-realized-entry-exit-sector-layer-v1.md): adds annual establishment openings/closings, firm deaths, job birth/death flows, and net job change by sector, completing the application → realized-flow → employer-stock sequence before testing local services, culture, or politics.
+- [BFS–BDS state stage comparison](analysis/projects/us-local-business-place/bfs-bds-state-stage-comparison-v1.md): compares 2023 state application intensity with realized BDS entry, exit, and job-flow rates across 51 states and DC, as a descriptive geographic bridge rather than a conversion or causal estimate.
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 

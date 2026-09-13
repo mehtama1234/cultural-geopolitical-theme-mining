@@ -67,3 +67,8 @@ adds the missing flow: actual establishment openings and closings, firm deaths,
 job creation and destruction, and net job change. It turns the application and
 stock comparison into a three-stage test while keeping services, culture, and
 politics as separate outcomes.
+
+The [BFS–BDS state stage comparison](bfs-bds-state-stage-comparison-v1.md)
+tests that sequence geographically across 51 states and DC. Its normalized
+application measure has a descriptive association with BDS entry, exit, and
+job-flow rates, but it is not a conversion rate or causal result.

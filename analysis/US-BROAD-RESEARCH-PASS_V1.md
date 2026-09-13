@@ -170,6 +170,8 @@ The [CBP 2023 sector and local-service capacity layer](projects/us-local-busines
 
 The [BDS realized entry, exit, and sector dynamics layer](projects/us-local-business-place/bds-realized-entry-exit-sector-layer-v1.md) adds the realized-flow stage: openings, closings, firm deaths, job creation/destruction, and net job change by sector. The next bounded test can compare applications, realized flows, employer stocks, services, and political/place outcomes without collapsing them into one business count.
 
+The [BFS–BDS state stage comparison](projects/us-local-business-place/bfs-bds-state-stage-comparison-v1.md) makes that test geographic across 51 states and DC. It finds a descriptive positive association between applications normalized by establishments and BDS entry rates, with weaker relationships to exit and net job creation; state size, industry mix, data quality, and timing remain confounders to resolve.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.
