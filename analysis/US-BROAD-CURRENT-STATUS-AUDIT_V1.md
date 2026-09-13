@@ -105,6 +105,16 @@ been causally joined.
 - **Cross-source connector:** the material-to-participation bridge now states
   the full comparison contract and ranks the next same-respondent, same-case,
   and matched-place designs needed to connect exposure to political action.
+- **Migration and local-demand depth:** the matched-place stream now has a
+  reproducible 12-county screen using 2020–2023 population change, ACS
+  foreign-born share and arrival timing, rent, crowding, language-access need,
+  CBP sector capacity, HRSA shortage status, BFS application intensity, and
+  state-context BDS entry, exit, and net-job rates. These are separate stocks,
+  flows, proxies, and contextual measures—not a migration causal estimate.
+- **Migration and political meaning:** a dedicated measurement layer now
+  specifies direct evidence for belonging, fairness, attribution, trust,
+  identity, and civic or policy action. It preserves the cultural-political
+  endpoint instead of inferring meaning from demographic or housing statistics.
 - **Time and civic availability:** ATUS time allocation is now explicitly
   compared with CPS schedule and health barriers, while the dated
   time-to-turnout link remains open.
