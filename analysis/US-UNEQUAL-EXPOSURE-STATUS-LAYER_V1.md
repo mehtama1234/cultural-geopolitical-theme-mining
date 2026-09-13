@@ -92,10 +92,9 @@ differences were entirely artifacts of incompatible universes or measurement.
 The first intersectional diagnostic is now the [SIPP Fay-BRR race × resource
 layer](projects/us-household-calendar-integration/sipp-fay-brr-race-resource-layer-v1.md).
 It has a defined person-month unit, replicate-weight uncertainty, three
-distributional outcomes, and status-flag filtering for those outcomes. It
-still lacks full reconstruction of every field’s domain universe, household
-counting, a counterexample to a causal mechanism, and a downstream outcome in
-the same design.
+distributional outcomes, and documented universe/status filtering for those
+outcomes. It still lacks household counting, a counterexample to a causal
+mechanism, and a downstream outcome in the same design.
 
 Related records: [US broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md),
 [SIPP Fay-BRR intersectional layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-resource-estimates-v1.md),

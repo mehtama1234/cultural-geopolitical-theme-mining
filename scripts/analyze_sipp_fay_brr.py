@@ -4,8 +4,7 @@
 The primary slice and replicate-weight CSV are joined in their documented
 person-month order and checked by SSUID/PNUM/SPANEL/SWAVE/MONTHCODE. Results
 are code-1 shares among nonblank selected records. With --official-universes,
-documented field status flags are applied, while full domain rules remain a
-separate validation step.
+the documented field status flags and selected-field domain rules are applied.
 """
 
 from __future__ import annotations
@@ -52,6 +51,7 @@ OFFICIAL_FLAG_FIELDS = {
     "RFOODS": "AFOODS",
     "RMNUMJOBS": "AMNUMJOBS",
 }
+FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
 
@@ -81,6 +81,26 @@ def group_key(group_by: str | None, row: dict[str, str]) -> str:
     values = [normalized_group(field, row.get(field, ""))
               for field in GROUP_FIELDS[group_by]]
     return "|".join(values) if all(values) else ""
+
+
+def official_field_valid(field: str, values: dict[str, str]) -> bool:
+    """Apply the documented universe for each selected outcome."""
+    if values.get("THHLDSTATUS", "") not in {"1", "2", "3", "4"}:
+        return False
+    if values.get(OFFICIAL_FLAG_FIELDS[field], "") in {"", "0"}:
+        return False
+    if field == "EFOOD6":
+        if not (values.get("EFOOD1", "") in {"1", "2"} or
+                values.get("EFOOD2", "") in {"1", "2"} or
+                values.get("EFOOD3", "") == "1"):
+            return False
+    if field in {"RFOODS", "RMNUMJOBS"}:
+        try:
+            if float(values.get("TAGE_EHC", "")) < 15:
+                return False
+        except (TypeError, ValueError):
+            return False
+    return True
 
 
 def new_accumulators(fields: list[str]) -> dict:
@@ -131,6 +151,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
         required = {"WPFINWGT", *KEYS, *fields}
         if official_universes:
             required.update(OFFICIAL_FLAG_FIELDS[field] for field in fields)
+            required.update({"THHLDSTATUS", "TAGE_EHC", *FOOD_SCREEN_FIELDS})
+            required.update({"AFOOD1", "AFOOD2", "AFOOD3"})
             required.add("AHINCPOV")
             if group_by == "ERACE_THINCPOV":
                 required.add("ARACE")
@@ -150,6 +172,10 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             if official_universes:
                 primary_values.update({flag: prow.get(flag, "")
                                        for flag in OFFICIAL_FLAG_FIELDS.values()})
+                primary_values.update({field: prow.get(field, "") for field in FOOD_SCREEN_FIELDS})
+                primary_values.update({flag: prow.get(flag, "") for flag in ("AFOOD1", "AFOOD2", "AFOOD3")})
+                primary_values["THHLDSTATUS"] = prow.get("THHLDSTATUS", "")
+                primary_values["TAGE_EHC"] = prow.get("TAGE_EHC", "")
                 primary_values["AHINCPOV"] = prow.get("AHINCPOV", "")
                 primary_values["ARACE"] = prow.get("ARACE", "")
             primary_by_key[pkey] = (prow.get("WPFINWGT", ""), primary_values, group)
@@ -183,7 +209,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                                               dtype=np.float64, count=240)
                     accumulators = [overall]
                     group_valid = (not official_universes or
-                                   (primary_values.get("AHINCPOV", "") not in ("", "0") and
+                                   (primary_values.get("THHLDSTATUS", "") in {"1", "2", "3", "4"} and
+                                    primary_values.get("AHINCPOV", "") not in ("", "0") and
                                     (group_by != "ERACE_THINCPOV" or
                                      primary_values.get("ARACE", "") not in ("", "0"))))
                     if group_by and group and group_valid:
@@ -192,7 +219,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                     for field in fields:
                         if not primary_values[field]:
                             continue
-                        if official_universes and primary_values.get(OFFICIAL_FLAG_FIELDS[field], "") in ("", "0"):
+                        if official_universes and not official_field_valid(field, primary_values):
                             continue
                         for acc in accumulators:
                             acc["full_den"][field] += primary_weight
@@ -216,7 +243,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
         "results": summarize(overall, fields),
         "by_group": {group: summarize(acc, fields) for group, acc in sorted(grouped.items())},
         "household_weight_used": False,
-        "official_universes_constructed": False,
+        "official_universes_constructed": official_universes,
     }
 
 
