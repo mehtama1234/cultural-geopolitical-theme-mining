@@ -3,7 +3,7 @@
 **Checked:** 2026-09-12  
 **Source:** [ANES 2024 Time Series Study full release](https://electionstudies.org/data-center/2024-time-series-study/)  
 **Current release:** May 19, 2026  
-**Status:** source and variable map verified against the May 19, 2026 full-release codebook; microdata acquisition remains open
+**Status:** source and variable map verified against the May 19, 2026 full-release codebook; panel file availability confirmed, local microdata acquisition remains blocked by the publisher download challenge
 
 ## Why this source belongs in the broad map
 
@@ -17,9 +17,11 @@ within the same respondent where the respondent completed both waves.
 ANES reports 5,521 pre-election completions and 4,964 post-election
 re-interviews in the full release. The fresh cross-sectional samples target
 the US eligible-voter population, while the release also includes a
-2016–2020–2024 panel component. The study used mixed modes and provides
-separate pre- and post-election weights; the current user guide says analysis
-should account for the complex sample design.
+2016–2020–2024 panel component. The panel merged-file page reports nine waves,
+2,171 2024 pre-election panel interviews, and 2,070 post-election panel
+re-interviews. The study used mixed modes and provides separate pre- and
+post-election weights; the current user guide says analysis should account for
+the complex sample design.
 
 ## Candidate variables for the political-path extract
 
@@ -60,11 +62,13 @@ SIPP respondents as if they are the same people.
 
 ## Acquisition result
 
-The official study page and current codebook are reachable. The current page
-documents 5,521 pre-election completions, 4,964 post-election re-interviews,
-two waves, and the mixed-mode design. The CSV download endpoint is protected
-by the publisher's web challenge when requested from the shell in this
-environment, so no microdata were silently substituted from a mirror.
+The official study page, current codebook, and separate 2016–2020–2024 panel
+merged-file page are reachable. The panel page identifies a May 19, 2026 CSV
+release and the repeated-variable file. The CSV download endpoint returns the
+publisher's web-challenge HTML rather than a ZIP when requested from the shell
+in this environment, so no microdata were silently substituted from a mirror.
+The failed shell response is an acquisition limitation, not evidence that the
+file is unavailable.
 
 The current codebook was checked directly for the candidate variables above.
 It confirms, among other things, that `V241539` is a five-category financial
@@ -77,8 +81,9 @@ inapplicable must remain missing-status codes.
 The official page remains the acquisition source. A browser-accessible SDA
 analysis interface is recorded as a possible analysis route, but it is not a
 substitute for archiving the current public-use file and codebook. Until the
-current release is obtained locally, this record supports source selection and
-variable mapping only, not new ANES estimates.
+current panel release is obtained locally, this record supports source
+selection and variable mapping only, not new ANES panel estimates. The next
+acquisition target is the [2016–2020–2024 Panel Merged File](https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/), using its CSV release and repeated-variable list.
 
 ## What this still cannot establish alone
 

@@ -30,7 +30,7 @@ now and what a real end-to-end instrument would still need.
 |---|---|---|---|---|
 | SHED 2025 cross-section | Adjustment and financial condition | US adult respondent, annual reference period | Population distribution of substitution, reduced use, saving cuts, borrowing, delay, extra work, and emergency capacity | Dated exposure, blamed actor, source environment, trust, and action in the same respondent record |
 | SHED 2024–2025 panel | Adjustment persistence and broad condition transition | Recontacted respondent, two annual waves | Persistence and re-entry by worsening, same, or improving financial-condition path | Exact event timing, attribution, political interpretation, and later action |
-| ANES 2024 | Interpretation, trust, identity, and reported vote | Eligible-voter respondent, pre/post election | Financial worry, national judgment, government trust, perceived capture/waste, party identity, and reported vote with survey weights | A measured price/bill/job exposure and a design that separates prior identity, information, blame, and action over time |
+| ANES 2024 and 2016–2020–2024 panel | Interpretation, trust, identity, and reported vote | Eligible-voter respondent, pre/post election; panel respondent across nine waves | The current release confirms a repeated-respondent panel with 2,171 2024 pre-election and 2,070 post-election panel interviews; the full-release layer measures financial worry, national judgment, government trust, perceived capture/waste, party identity, and reported vote | Local panel analysis is not yet run because the current CSV download returns a publisher web challenge; after acquisition, test equivalent variables, panel weights, attrition, and complex-design uncertainty |
 | Pew 2025 | Source environment and civic expression | US adult respondent plus public account analysis | News-source use/trust, influencer exposure, discussion, volunteering, contact, voting, and engagement types | Same-respondent material exposure and platform encounter preceding interpretation |
 | SIPP/administrative records | Material and program exposure | Person-month, program spell, place | Work, resources, SNAP receipt/transitions, reasons, food, and hardship context | Political meaning, trust, source, and action tied to the same episode |
 | BLS/CE, election, and place records | Contextual exposure and population response | Item, consumer unit, county, election, year/month | Prices, spending, real wages, local conditions, and election/place outcomes | Individual attribution and the ability to distinguish ecological alignment from respondent experience |
@@ -126,6 +126,13 @@ Until that source is obtained, the current conclusion remains bounded:
 material conditions can align with economic judgments and population/place
 political outcomes, but the same-person path through blame, trust, and action
 is open.
+
+The ANES panel is now a concrete acquisition target rather than a hypothetical
+design. The official merged-file page reports nine waves and the current May
+19, 2026 release, but the CSV endpoint returned web-challenge HTML in the
+local shell attempt. No panel estimates should be produced until the ZIP is
+obtained and its repeated-variable list, panel weights, missing codes, and
+attrition are verified locally.
 
 ## Immediate executable pass
 
