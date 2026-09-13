@@ -68,6 +68,22 @@ employment scale in these everyday sectors. That is a descriptive capacity-
 and-demand contrast, not evidence that population change caused a shortage or
 that lower employment scale means inadequate service.
 
+### Group-level diagnostic
+
+The six-county group medians make the contrast easier to inspect without
+turning the screen into a population estimate:
+
+| Group | Retail establishments/10k | Health establishments/10k | Food establishments/10k | Retail employees/10k | Health employees/10k | Food employees/10k |
+|---|---:|---:|---:|---:|---:|---:|
+| Lower population change | 34.93 | 30.81 | 22.51 | 469.24 | 924.14 | 510.95 |
+| Higher population change | 21.41 | 19.49 | 14.70 | 380.94 | 339.09 | 313.75 |
+
+In this selected screen, the higher-growth group has lower median capacity in
+all three sectors on both measures, while one high-growth county can still
+have high capacity. This is a small, selected descriptive contrast; it does
+not establish a general growth-capacity relationship, a migration effect, or
+service adequacy.
+
 The contrast is a diagnostic, not a conclusion. Several fast-growth counties
 have lower establishment presence than the decline group, especially in health
 and food; some high-growth counties also have an HPSA component. That pattern
@@ -91,6 +107,9 @@ python3 scripts/analyze_migration_place_capacity_panel.py \
   --bfs /tmp/bfs_county_apps_annual.xlsx \
   --bds /tmp/bds2023_st.csv --n 6
 ```
+
+The all-fields rerun documented here produced SHA-256
+`dbe8764069230ed24069477f2b5dcf238cd9bb8d6c04c808a50edd569e69337a`.
 
 The script labels the population measure as a proxy on purpose. The ACS field
 is the 2023 five-year foreign-born share. The 2010-plus field is the share of
