@@ -1,7 +1,7 @@
 # ATUS 2024 care/work acquisition record v1
 
-**Checked:** 2026-09-12  
-**Status:** official source located; microdata download blocked by the host in this environment; no new estimates claimed
+**Checked:** 2026-09-13
+**Status:** official source located; microdata download remains blocked by the host in this environment; published-table baseline is now recorded separately
 
 ## Target files
 
@@ -26,6 +26,13 @@ On 2026-09-12, direct requests to the BLS file URLs returned HTTP 403
 available and identifies the files, but the ZIP contents were not obtained in
 this pass. This is an acquisition issue, not evidence that the files do not
 exist or that care/work estimates are unavailable.
+
+The official published release remains usable while the ZIP route is blocked.
+The [2023–2024 published care/work layer](atus-2023-2024-published-care-work-layer-v1.md)
+records the population estimates for provider scale, age, sex, employment,
+care frequency, and hours on care days. Those tables do not replace the
+microdata target because they do not retain the same respondent's full work,
+care, household, and follow-up fields.
 
 ## Planned bounded estimate
 

@@ -1,6 +1,6 @@
 # Aging, care supply, and social capacity bridge v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Status:** cross-source societal synthesis; same-family end-to-end outcome remains open
 
 ## The broad question
@@ -24,7 +24,7 @@ care need and task
 
 | Layer | Reported evidence | What it contributes | Boundary |
 |---|---|---|---|
-| BLS eldercare | 38.2 million people provided unpaid eldercare in 2023–24; providers spent 3.9 hours on care days and 52% provided care at least several times a week | Scale and time intensity of unpaid care | Two-year population averages do not show lost earnings, health, or recipient outcome |
+| BLS eldercare | 38.2 million people provided unpaid eldercare in 2023–24; providers spent 3.88 hours on care days, while employed providers spent 2.84 hours on care days; about 51.6% reported care daily or several times a week | Scale, work overlap, frequency, and time intensity of unpaid care | Two-year population averages do not show lost earnings, health, or recipient outcome |
 | BLS/ATUS | Care, work, household labor, and social-time records are available for weighted microdata analysis | Time as a scarce social resource | A diary day is not a longitudinal care spell or a price of replacement care |
 | NBER linked earnings | Caregiving is associated with later earnings and employment changes, with different patterns by gender in the studied records | A work and income channel exists | It does not observe every task, family division, health outcome, or forced/voluntary choice |
 | HBS/work accounts | Workers describe rigid schedules and care coordination as work constraints | Employer and schedule-control mechanism | Accounts are not a representative causal estimate |
@@ -35,7 +35,10 @@ The layers support a societal proposition: unpaid care is a large, unevenly
 distributed input into the care system, and its cost can appear as lost work,
 time, health, housing flexibility, or future security rather than a care bill.
 They do not yet balance paid care avoided, earnings lost, recipient safety, and
-the cost of public or employer relief for the same family.
+the cost of public or employer relief for the same family. The new published
+table layer strengthens the scale and time-intensity part of that proposition;
+the same-respondent displacement and recovery test remains an acquisition
+question.
 
 ## Keep the units separate
 
@@ -100,7 +103,8 @@ that occurred.
 
 ## Next executable pass
 
-Run one weighted ATUS eldercare-by-work/time comparison, then align it with the
-NBER timing result and local provider/shortage context. The next stronger pass
-requires a same-family longitudinal record containing both caregiver and
-recipient outcomes.
+The published tables now provide the first weighted care-by-work/time baseline.
+Run the microdata eldercare-by-work/time comparison when the official ZIP files
+are accessible, then align it with the NBER timing result and local
+provider/shortage context. The next stronger pass requires a same-family
+longitudinal record containing both caregiver and recipient outcomes.
