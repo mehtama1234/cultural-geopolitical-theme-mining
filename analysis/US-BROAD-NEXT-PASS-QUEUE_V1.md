@@ -149,6 +149,15 @@ intensity; administrative/support has positive entry minus exit but negative
 net job creation. The next step is firm-level and place-level matching with
 ownership, service access, wages, quality, and worker control.
 
+The [BFS–BDS state archetype layer](projects/us-local-business-place/bfs-bds-state-archetype-layer-v1.md)
+now groups all 51 matched states/DC records by application intensity. Higher
+application quartiles have higher median entry, exit, and net-job rates, but
+the top group contains both high-churn states and contrasting job outcomes;
+Alaska and Nebraska supply low-application/high-net-job counterexamples. The
+next place step is to attach county service access, ownership, worker quality,
+and local political response without turning the state comparison into a
+causal story.
+
 The material/time/inequality lane now has a design-based SIPP intersection in
 the [work limitation × children × resources layer](projects/us-household-calendar-integration/sipp-fay-brr-disability-children-resource-layer-v1.md).
 It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is

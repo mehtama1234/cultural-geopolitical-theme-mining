@@ -34,6 +34,14 @@ strengthens the provisional claim that business activity has different social
 meanings by sector, while leaving local access, quality, ownership, and worker
 power unmeasured.
 
+**Latest state conditioning:** the [BFS–BDS state archetype layer](projects/us-local-business-place/bfs-bds-state-archetype-layer-v1.md)
+groups 51 matched states/DC records by application intensity. Higher-intensity
+groups have higher median establishment entry, exit, and net-job rates, but the
+top group contains high-churn places and different job outcomes; low-
+application/high-net-job states remain counterexamples. This strengthens the
+place-conditioned trend while leaving local service access, ownership, job
+quality, and political meaning open.
+
 ## The current provisional trends
 
 | # | Provisional trend | Evidence currently supports | It does not yet establish | Next test |

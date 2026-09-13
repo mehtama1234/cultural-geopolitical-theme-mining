@@ -283,6 +283,12 @@ been causally joined.
   support has positive establishment entry minus exit but negative net jobs.
   These are national flow contrasts, not firm survival, service access, wage,
   or worker-power estimates.
+- **State archetype depth:** a follow-up state screen groups all 51 matched
+  states/DC records by application intensity and compares BDS entry, exit, and
+  net-job rates. Higher application quartiles have higher medians, but the top
+  group contains high-churn and contrasting job outcomes; low-application/
+  high-net-job counterexamples remain visible. State composition, service
+  access, ownership, job quality, and local political response remain open.
 - **Firm scale and care adequacy:** CBP now adds employees per establishment by
   sector and rurality; the CBP–HRSA bridge also shows that establishment
   presence and rough employment scale do not resolve primary-care adequacy.
