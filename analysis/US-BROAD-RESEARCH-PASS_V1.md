@@ -96,6 +96,8 @@ The [unequal exposure and status layer](US-UNEQUAL-EXPOSURE-STATUS-LAYER_V1.md) 
 
 The first such diagnostic is now the [SIPP Fay-BRR race × resource layer](projects/us-household-calendar-integration/sipp-fay-brr-race-resource-layer-v1.md). It uses the full 2025 SIPP person-month slice and 240 replicate weights to compare rent/mortgage pressure, utility pressure, hunger, food security, and one-job status across four race recodes and four resource bands. It supplies distributional uncertainty and applies the selected variables’ documented status flags and domain conditions; causal mechanisms and downstream outcomes remain open.
 
+The next depth pass is the [SIPP Fay-BRR race × tenure × resource layer](projects/us-household-calendar-integration/sipp-fay-brr-race-tenure-resource-layer-v1.md). It applies the same universe-aware, replicate-weighted design across 48 three-way cells. It is a controlled intersectional distribution check, not a causal decomposition; sparse cells, household counting, mechanisms, and downstream outcomes remain open.
+
 The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
 
 ## Cross-cutting themes to extract in every pass

@@ -43,6 +43,7 @@ GROUP_FIELDS = {
     "THINCPOV": ("THINCPOV",),
     "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
     "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
+    "ERACE_ETENURE_THINCPOV": ("ERACE", "ETENURE", "THINCPOV"),
 }
 OFFICIAL_FLAG_FIELDS = {
     "EAWBMORT": "AAWBMORT",
@@ -106,6 +107,7 @@ def official_field_valid(field: str, values: dict[str, str]) -> bool:
 def new_accumulators(fields: list[str]) -> dict:
     return {"full_num": {field: 0.0 for field in fields},
             "full_den": {field: 0.0 for field in fields},
+            "record_count": {field: 0 for field in fields},
             "rep_num": {field: np.zeros(240, dtype=np.float64) for field in fields},
             "rep_den": {field: np.zeros(240, dtype=np.float64) for field in fields}}
 
@@ -124,6 +126,7 @@ def summarize(acc: dict, fields: list[str]) -> dict:
             standard_error = float(np.sqrt(variance))
         results[field] = {
             "code1_label": LABELS[field],
+            "valid_record_count": acc["record_count"][field],
             "numerator_weight": acc["full_num"][field],
             "nonblank_denominator_weight": acc["full_den"][field],
             "estimate_percent": 100 * theta0 if theta0 is not None else None,
@@ -154,7 +157,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             required.update({"THHLDSTATUS", "TAGE_EHC", *FOOD_SCREEN_FIELDS})
             required.update({"AFOOD1", "AFOOD2", "AFOOD3"})
             required.add("AHINCPOV")
-            if group_by == "ERACE_THINCPOV":
+            if group_by in {"ERACE_THINCPOV", "ERACE_ETENURE_THINCPOV"}:
                 required.add("ARACE")
         if group_by:
             required.update(GROUP_FIELDS[group_by])
@@ -210,8 +213,9 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                     accumulators = [overall]
                     group_valid = (not official_universes or
                                    (primary_values.get("THHLDSTATUS", "") in {"1", "2", "3", "4"} and
-                                    primary_values.get("AHINCPOV", "") not in ("", "0") and
-                                    (group_by != "ERACE_THINCPOV" or
+                                    ("THINCPOV" not in GROUP_FIELDS.get(group_by, ()) or
+                                     primary_values.get("AHINCPOV", "") not in ("", "0")) and
+                                    ("ERACE" not in GROUP_FIELDS.get(group_by, ()) or
                                      primary_values.get("ARACE", "") not in ("", "0"))))
                     if group_by and group and group_valid:
                         grouped.setdefault(group, new_accumulators(fields))
@@ -222,6 +226,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                         if official_universes and not official_field_valid(field, primary_values):
                             continue
                         for acc in accumulators:
+                            acc["record_count"][field] += 1
                             acc["full_den"][field] += primary_weight
                             acc["rep_den"][field] += rep_weights
                             if primary_values[field] == "1":
