@@ -81,8 +81,10 @@ immigration-opinion estimate.
 
 The [Chicagoland local immigration-attitude case](projects/us-immigration-local-demand/chicagoland-local-immigration-attitude-case-v1.md)
 now supplies one direct local meaning source with documented geography and
-sampling. The next step is to align its timing and local material conditions,
-not to generalize it nationally.
+sampling, paired with an ACS 2024 five-year material-context refresh. This
+improves timing but does not create a same-period causal join; the next step
+is direct same-geography evidence on provider capacity, travel, wages, and
+political action, not national generalization.
 
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure

@@ -56,24 +56,30 @@ Cook County, while suburban Cook County is the remainder of that county. The
 following county indicators therefore provide context for the survey areas;
 they do not describe the city and suburbs separately.
 
-| County context, 2023 | Cook County | Lake County |
+| ACS 2024 5-year context | Cook County | Lake County |
+|---|---:|---:|
+| Foreign-born share | 21.75% | 19.84% |
+| Foreign-born entering 2010 or later | 24.47% | 21.83% |
+| Median gross rent | $1,435 | $1,477 |
+| Vacant units | 7.74% | 4.49% |
+| Crowded units | 3.34% | 2.93% |
+| Limited-English share | 14.05% | 10.64% |
+
+| Other dated place context | Cook County | Lake County |
 |---|---:|---:|
 | Population change, 2020–2023 | -2.36% | 0.11% |
-| Foreign-born share, ACS 5-year | 21.40% | 19.49% |
-| Foreign-born entering 2010 or later | 22.11% | 19.58% |
-| Median gross rent | $1,381 | $1,434 |
-| Vacant units | 8.18% | 4.97% |
-| Crowded units | 3.32% | 2.67% |
-| Limited-English share | 13.87% | 10.70% |
 | Health/social-assistance employment per 10,000 | 775.05 | 552.25 |
 | Primary-care HPSA component present | Yes | Yes |
 
-The contrast matters for interpretation. The two local samples can report
-similar broad support for immigrants while sitting in places with different
-population trajectories, vacancy, rent, language access, and visible health
-employment. Conversely, those contextual differences do not explain the
-survey answers by themselves. The city/suburb split still requires a place-
-level source at the same geography and time.
+The ACS context is now one vintage closer to the April 2026 survey than the
+earlier ACS 2023 extraction, but it is still a 2024 five-year estimate rather
+than a same-period 2026 measure. Population change, health/social-assistance
+employment, and HPSA status remain 2023 context. The two local samples can
+report similar broad support for immigrants while sitting in places with
+different population trajectories, vacancy, rent, language access, and
+visible health employment. Those contextual differences do not explain the
+survey answers by themselves. The city/suburb split still requires a
+place-level source at the same geography and time.
 
 ## What this adds to the broader pattern
 
@@ -103,8 +109,9 @@ immigration level or admission rule.
    CBP, HRSA, or CES records.
 3. These are reported attitudes, not observed moves, service use, labor
    outcomes, housing costs, or political action.
-4. The field period is 2026, while much of the place panel uses 2023 data;
-   timing must be preserved in any comparison.
+4. The field period is 2026. The ACS context is 2024 five-year data, while
+   population, health/social-assistance employment, and HPSA context are
+   2023; timing must be preserved in any comparison.
 5. The survey can describe local meaning and subgroup differences; it cannot
    establish that local growth, housing pressure, or migrant arrival caused
    any answer.
@@ -131,6 +138,13 @@ as a proxy for what Chicagoland residents believe.
 [Chicago Council on Global Affairs, Built by Immigrants, Shaped by Immigration](https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey),
 published July 13, 2026. The page reports the questionnaire scope, sample
 sizes, field method, weighting variables, margins of error, and local findings.
-The county context comes from the project’s 2020–2023 population, ACS 2023,
+The ACS context comes from the official 2024 table-based five-year files for
+[B05002](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05002.dat),
+[B05005](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b05005.dat),
+[B25002](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25002.dat),
+[B25014](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25014.dat),
+[B25064](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b25064.dat),
+and [C16001](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-c16001.dat).
+The other county context comes from the project’s 2020–2023 population,
 CBP 2023, and HRSA component files; the extraction is recorded in
 `scripts/analyze_migration_place_capacity_panel.py`.
