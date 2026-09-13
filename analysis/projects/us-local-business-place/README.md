@@ -97,3 +97,8 @@ The [capacity and mobility cross-source bridge](capacity-mobility-cross-source-b
 connects the county capacity layers to the existing NHTS vehicle and travel
 evidence. It defines the next practical-access test without falsely joining
 different samples or treating establishment presence as usable access.
+
+The [CBP–HRSA primary-care shortage bridge](cbp-hrsa-primary-care-shortage-bridge-v1.md)
+adds an institutional adequacy measure. It shows that health-sector
+establishments can coexist with designated shortage components, so visible
+capacity is not equivalent to usable or sufficient care.
