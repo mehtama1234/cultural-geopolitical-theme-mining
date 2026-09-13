@@ -102,6 +102,8 @@ The following status pass is the [SIPP Fay-BRR race × disability × resource la
 
 The next composition pass is the [SIPP Fay-BRR race × children × resource layer](projects/us-household-calendar-integration/sipp-fay-brr-race-children-resource-layer-v1.md). It adds whether a household has members under 18 across 32 cells and shows why child presence, caregiving, employment, and food security must not be collapsed into one family-hardship measure.
 
+The next public-systems layer is the [SIPP SNAP × food-security layer](projects/us-safety-net-access/sipp-snap-food-security-layer-v1.md). It adds current-month SNAP receipt to the same race, child-presence, and resource cells. It shows assistance receipt and food security as distinct population outcomes; application, denial, interruption, benefit amount, route effort, and causal impact remain open.
+
 The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
 
 ## Cross-cutting themes to extract in every pass

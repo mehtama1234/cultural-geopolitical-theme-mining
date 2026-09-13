@@ -25,6 +25,7 @@ LABELS = {
     "RFOODS": "high or marginal food security",
     "EFOOD6": "hungry but did not eat because of money",
     "RMNUMJOBS": "one job",
+    "RSNAP_MNYN": "received SNAP this month",
 }
 GROUP_LABELS = {
     "ERACE": {"1": "White alone", "2": "Black alone", "3": "Asian alone", "4": "Residual"},
@@ -56,6 +57,7 @@ OFFICIAL_FLAG_FIELDS = {
     "EFOOD6": "AFOOD6",
     "RFOODS": "AFOODS",
     "RMNUMJOBS": "AMNUMJOBS",
+    "RSNAP_MNYN": "ASNAP_MNYN",
 }
 OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE", "RHNUMU18": "AHNUMU18"}
 FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")

@@ -98,7 +98,9 @@ filtering. The disability pass adds a work-limiting-condition intersection;
 the tenure pass adds housing position; and the composition pass adds child
 presence. All still lack household counting, direct care measurement, a
 counterexample to a causal mechanism, and a downstream outcome in the same
-design.
+design. The SIPP SNAP layer adds a public-program receipt outcome, but not yet
+the application, denial, interruption, route effort, or downstream security
+sequence.
 
 Related records: [US broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md),
 [SIPP Fay-BRR intersectional layer](projects/us-household-calendar-integration/sipp-fay-brr-tenure-resource-estimates-v1.md),

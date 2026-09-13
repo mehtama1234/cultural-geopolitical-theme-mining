@@ -29,6 +29,8 @@ FIELDS = [
     "ETENURE",
     "EUTILITIES",
     "EENERGY_ASST",
+    "RSNAP_MNYN",
+    "ASNAP_MNYN",
     "EAWBMORT",
     "EAWBGAS",
     "THTOTINC",
