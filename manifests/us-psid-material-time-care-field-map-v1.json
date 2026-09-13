@@ -1,0 +1,90 @@
+{
+  "format": "us-psid-material-time-care-field-map-v1",
+  "checked": "2026-09-13",
+  "source": "PSID 2023 Family File codebook and 2023 questionnaire",
+  "target_waves": [2019, 2021, 2023],
+  "status": "pre_acquisition",
+  "evidence_boundary": "Field names are verified for the 2023 Family File where listed. Cross-wave comparability, universes, weights, missing-value codes, and actual source rows remain to be audited.",
+  "fields": [
+    {
+      "domain": "work_location_commute",
+      "questionnaire_label": "BC21B1-BC21B2 and average commute time",
+      "wave": 2023,
+      "variables": ["ER82183", "ER82184", "ER82185"],
+      "unit": "person_job_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "household_labor",
+      "questionnaire_label": "F1A typical-week housework",
+      "wave": 2023,
+      "variables": ["ER82788"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "personal_health_time",
+      "questionnaire_label": "F1B typical-week personal care",
+      "wave": 2023,
+      "variables": ["ER82790"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "consumer_service_effort",
+      "questionnaire_label": "F1C typical-week shopping",
+      "wave": 2023,
+      "variables": ["ER82791"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "child_care",
+      "questionnaire_label": "F1D typical-week child care and F7 paid child care",
+      "wave": 2023,
+      "variables": ["ER82792", "ER82818", "ER82820-ER82831"],
+      "unit": "person_family_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "adult_care",
+      "questionnaire_label": "F1D2 typical-week adult care",
+      "wave": 2023,
+      "variables": ["ER82793"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "social_civic_availability",
+      "questionnaire_label": "F1E volunteering, F1G leisure, F1H interaction",
+      "wave": 2023,
+      "variables": ["ER82794", "ER82796", "ER82797"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "perceived_time_scarcity",
+      "questionnaire_label": "F1K feeling pressed for time",
+      "wave": 2023,
+      "variables": ["ER82800"],
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "all_domains",
+      "questionnaire_label": "Same field groups and comparable universes",
+      "wave": "2019-2021",
+      "variables": [],
+      "unit": "person_family_wave",
+      "status": "requires_wave_codebook_audit"
+    }
+  ],
+  "required_checks_before_estimation": [
+    "Confirm each variable exists in the target wave file.",
+    "Compare question wording, universe, routing, and response codes across waves.",
+    "Distinguish zero, not applicable, don't know, refusal, and unavailable.",
+    "Record valid person-wave and family-wave counts after every merge.",
+    "Preserve survey weights and document the variance method.",
+    "Measure retention, mover-out, family-composition change, and item missingness."
+  ]
+}

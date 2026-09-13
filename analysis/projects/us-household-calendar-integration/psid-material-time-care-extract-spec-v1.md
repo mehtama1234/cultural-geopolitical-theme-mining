@@ -33,6 +33,8 @@ remain explicit.
 
 ## Candidate field groups
 
+The field-level record is also available as the machine-readable [PSID field
+manifest](../../../manifests/us-psid-material-time-care-field-map-v1.json).
 The following questionnaire labels are now partially mapped to the 2023 Family
 File codebook. The 2019 and 2021 mappings still require the corresponding
 codebook check before pooling.
