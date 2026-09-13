@@ -20,6 +20,12 @@ adds 4,419 same-respondent transitions. It shows persistence in financial
 condition and repeated price adaptations, while keeping the causes and later
 trust or political effects open.
 
+The [SHED panel adaptation by financial-condition path layer](shed-panel-adaptation-condition-path-layer-v1.md)
+adds a conditional persistence comparison: prior adaptations are more likely to
+persist on a worsening financial-condition path than on an improving path, with
+borrowing, reduced use, saving cuts, and delayed purchases kept separate. This
+is descriptive population evidence, not a causal estimate.
+
 ## Meaty end-to-end goal
 
 Build a source-traceable account of how a financial condition becomes a lived consumer experience and then a shift in company behavior, household choices, institutional trust, and political demand.

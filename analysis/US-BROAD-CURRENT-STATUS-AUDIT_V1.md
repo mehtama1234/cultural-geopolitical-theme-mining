@@ -43,8 +43,9 @@ been causally joined.
 
 - **Consumer and financial persistence:** the SHED 2024–2025 panel follows
   4,419 recontacted respondents, measuring financial-condition transitions and
-  repeated price adaptations. It shows unequal persistence, but no exact bill
-  cause or political consequence.
+  repeated price adaptations. The new condition-path comparison shows a
+  descriptive persistence/re-entry gradient by worsening, same, or improving
+  financial path, but no exact bill cause or political consequence.
 - **Institutional recourse:** the 2024 CFPB snapshot separates web access,
   narrative presence, timely response, monetary/non-monetary relief,
   explanation, and public-response visibility. It does not measure verified
