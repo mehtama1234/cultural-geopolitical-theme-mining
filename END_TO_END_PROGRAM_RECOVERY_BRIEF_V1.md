@@ -126,6 +126,8 @@ cross-theme layers:
 
 - [CFPB consumer-financial cultural themes](analysis/projects/us-customer-automation-recourse/cfpb-2025-consumer-financial-cultural-themes-layer-v1.md): extracts recurring meanings around identity, essential access, rule clarity, human reach, time, dependence, exit, and repair from the complaint record.
 
+- [BFS annual county data-quality boundary](analysis/projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md): records the current county business-application release's disclosure-noise boundary before local applications are interpreted as durable firms, jobs, services, or community change.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

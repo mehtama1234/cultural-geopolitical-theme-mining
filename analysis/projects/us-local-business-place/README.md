@@ -44,3 +44,8 @@ extends this project across customers, workers, owners, places, public systems,
 and future state capacity. It asks where a firm decision moves price, time,
 data, risk, and control, and keeps cultural and political interpretation as a
 separate later arrow.
+
+The [BFS annual county data-quality boundary](bfs-annual-county-data-quality-boundary-v1.md)
+records the 2026 release's differential-privacy noise and an exploratory
+small-county outlier that must be validated before applications are interpreted
+as durable firms, jobs, services, or local identity.
