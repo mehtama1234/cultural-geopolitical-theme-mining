@@ -114,6 +114,8 @@ cross-theme layers:
 
 - [ANES panel judgment and action](analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md): official SDA weighted descriptive cross-tabs compare pre-election financial worry with federal-government trust and later reported presidential vote choice in the panel; causal attribution remains open.
 
+- [CPS 2024 turnout and participation friction](analysis/projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md): official Census population tables add registration, voting, and distinct self-reported nonvoting barriers such as time, health, transport, registration, and candidate dissatisfaction.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

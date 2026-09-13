@@ -20,7 +20,9 @@ Do not assume that a bad economic view comes from a bad personal outcome. Test p
 
 The next executable design is the [political-response measurement specification](political-response-measurement-spec-v1.md). It keeps exposure, adjustment, interpretation, expression, and political action separate and defines the valid respondent, place, and event-study alternatives.
 
-The [ANES 2024 source record](anes-2024-political-path-source-record-v1.md) maps a current respondent-level pre/post political layer to that design. It records the official acquisition boundary and does not claim new estimates until the current microdata release is obtained.
+The [ANES 2024 source record](anes-2024-political-path-source-record-v1.md) maps a current respondent-level pre/post political layer to that design. Official SDA estimates are recorded in the [ANES panel judgment and action layer](anes-2024-panel-judgment-action-layer-v1.md); local microdata reproduction remains open.
+
+The [CPS 2024 turnout and participation-friction layer](cps-2024-turnout-participation-friction-layer-v1.md) adds a separate population-level action endpoint: turnout, registration, and reported reasons for not voting. It is not joined to ANES or SHED respondents.
 
 The [ANES 2024 political judgment layer](anes-2024-political-judgment-layer-v1.md) now adds weighted, complex-design cross-tabs for financial worry against national economic judgment, federal-government trust, and reported presidential vote. It is a separate respondent-level layer beside SHED, not a join to SHED or a causal economic-voting result.
 

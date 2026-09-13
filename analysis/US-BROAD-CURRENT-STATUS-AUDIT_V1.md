@@ -34,7 +34,7 @@ been causally joined.
 | 8. Unequal exposure and status | Race, resource, tenure, disability, children, migration, age, place, and access comparisons | Exposure difference → mechanism, remedy, and downstream outcome |
 | 9. Trust, identity, and cultural meaning | Financial worry, government trust, perceived capture/waste, source trust, dignity, belonging, and status | Experience → attribution, identity, and meaning in the same respondent/case |
 | 10. Public systems and policy feedback | Eligibility, administrative burden, receipt, interruption, SNAP transitions, and recorded reasons | Notice/route/decision → security, interpretation, action, and later demand |
-| 11. Political judgment and collective action | Economic judgment, trust, vote reports, news environments, discussion, contact, and volunteering | Measured exposure → blame/information → action or vote |
+| 11. Political judgment and collective action | Economic judgment, trust, vote reports, news environments, discussion, contact, volunteering, turnout, registration, and reported nonvoting barriers | Measured exposure → blame/information → action or vote |
 | 12. Firm, sector, and market power | Pricing, complaints, business formation, ownership, productivity, and risk-transfer records | Firm decision → recipient cost/control → market or public response |
 | 13. Infrastructure, technology, and dependency | AI/cloud, energy, capital, skills, ownership, capacity, and provider dependence | Capacity → local learning, replaceability, and public control |
 | 14. Geopolitical and state consequences | Trade, migration, finance, infrastructure, industrial capacity, and country/firm dependence | Domestic capability/distribution → bargaining, alliance, or external leverage |
@@ -55,7 +55,8 @@ been causally joined.
   Fay-BRR uncertainty. About half of transitions have a classified reason.
 - **Cultural and political meaning:** SHED, ANES, and Pew are aligned as
   separate population layers for consumer adaptation, economic judgment,
-  trust, source environment, and civic action. They are not falsely joined.
+  trust, source environment, civic action, turnout, and participation barriers.
+  They are not falsely joined.
 - **Infrastructure and state power:** Romania and Malaysia cases now separate
   planned capacity, realized milestones, ownership change, local distribution,
   and provider/state exit. ADR's September 2026 announcement verifies a
