@@ -140,6 +140,12 @@ that can move risk among data-center firms, utilities, existing ratepayers, and
 the state. The next step is still a two-place utility comparison with approved
 and actual load, terms, bills, local benefits, and credible exit.
 
+The [state rate-case comparison](projects/ai-work-control/large-load-state-rate-case-comparison-v1.md)
+now supplies that comparison's policy spine: Virginia approved a large-load
+framework, Texas has a proposed long-term billing/security framework, and
+Georgia documents the load and revenue records needed for accountability. The
+remaining work is implementation and incidence, not another policy summary.
+
 The public-system lane now has an intersectional SNAP transition outcome in the
 [work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md).
 It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is
