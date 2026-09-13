@@ -220,6 +220,11 @@ participation), `b16d97f` (political source stages), and `f0f1ec7` (ANES panel
 acquisition target). These commits are documentation and analysis progress,
 not proof that every broad arrow is complete.
 
+The current continuation also includes `810ab0b` (coverage-count audit) and
+`d51c8f4` (population-level public-system event-ledger design). The latter
+defines the multi-person, multi-place comparison needed to connect route burden
+to material security, meaning, action, and institutional response.
+
 The latest migration/place continuation is also recorded in `46f1f47`
 (matched-place design), `fa9664c` (sector-capacity bridge), `a121784`
 (population and nativity table), `2d63d08` (arrival timing), `920ab41`
