@@ -11,6 +11,11 @@ from different units and survey frames. A trend is included because multiple
 source layers make a recurring pattern visible; its missing join is stated
 beside it.
 
+The companion [counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+defines the reversal, boundary, or alternative-protection test for each theme.
+Unless a row names measured counterevidence, its counterexample remains a
+required next test rather than an established result.
+
 ## The current provisional trends
 
 | # | Provisional trend | Evidence currently supports | It does not yet establish | Next test |
@@ -89,4 +94,6 @@ This register summarizes, but does not replace, the [14-theme inventory](US-BROA
 [coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md), and [arrow-level evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md).
 Each row should eventually have a same-unit or explicitly valid cross-level
 test, a counterexample, subgroup distribution, uncertainty estimate, and a
-record of what would change the conclusion.
+record of what would change the conclusion. Use the [broad trend-extraction
+protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) to keep source roles and
+evidence status explicit while those tests are added.
