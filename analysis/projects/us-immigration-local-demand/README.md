@@ -21,4 +21,6 @@ adds the first 12-county population-change screening table. The accompanying
 [`analyze_migration_place_capacity_panel.py`](../../../../scripts/analyze_migration_place_capacity_panel.py)
 script is reproducible and explicitly treats total population change as a
 proxy while adding the ACS five-year foreign-born share; arrival timing and
-local demand remain separate fields to add.
+local demand remain separate fields to add. The panel now also accepts ACS
+housing and C16001 language-access fields, without treating either as a
+migrant-specific outcome.

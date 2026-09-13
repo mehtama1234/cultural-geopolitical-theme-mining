@@ -28,6 +28,7 @@ def main() -> None:
     parser.add_argument("--arrival", type=Path, help="ACS table-based B05005 pipe file")
     parser.add_argument("--rent", type=Path, help="ACS table-based B25064 pipe file")
     parser.add_argument("--crowding", type=Path, help="ACS table-based B25014 pipe file")
+    parser.add_argument("--language", type=Path, help="ACS table-based C16001 pipe file")
     parser.add_argument("--min-population", type=int, default=100_000)
     parser.add_argument("--n", type=int, default=10)
     args = parser.parse_args()
@@ -94,6 +95,16 @@ def main() -> None:
                     crowded = sum(int(row[field]) for field in fields[1:])
                     crowding[match.group(1)] = 100 * crowded / total if total else None
 
+    limited_english = {}
+    if args.language:
+        with args.language.open(newline="", encoding="latin1") as handle:
+            for row in csv.DictReader(handle, delimiter="|"):
+                match = re.fullmatch(r"0500000US(\d{5})", row["GEO_ID"])
+                less_well = [f"C16001_E{n:03d}" for n in (5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38)]
+                if match and row["C16001_E001"].isdigit() and all(row[field].isdigit() for field in less_well):
+                    total = int(row["C16001_E001"])
+                    limited_english[match.group(1)] = 100 * sum(int(row[field]) for field in less_well) / total if total else None
+
     capacity = {}
     with ZipFile(args.cbp) as archive:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
@@ -113,7 +124,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -125,7 +136,8 @@ def main() -> None:
             recent = "" if key not in recent_arrival else f"{recent_arrival[key]:.2f}"
             median_rent = "" if key not in rent else str(rent[key])
             crowded = "" if key not in crowding else f"{crowding[key]:.2f}"
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
+            limited = "" if key not in limited_english else f"{limited_english[key]:.2f}"
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
 
 
 if __name__ == "__main__":
