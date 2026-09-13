@@ -112,6 +112,13 @@ It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is
 care hours, schedule control, and genuine monthly work or benefit transitions;
 household members under 18 must not be treated as a direct care measure.
 
+The same-respondent SHED panel now extends beyond financial adaptation in the
+[health and adult-care path layer](projects/us-household-financial-pressure/shed-panel-health-care-path-layer-v1.md).
+It shows health direction and entry/exit from unpaid adult care by financial
+condition path. The next missing step is care intensity, schedule control,
+trigger attribution, and later meaning or action—not another broad condition
+cross-tab.
+
 The place/public/politics lane has a distinct [CPS participation-friction
 baseline](projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md).
 It separates reported voting, registration, schedule, health, transport,

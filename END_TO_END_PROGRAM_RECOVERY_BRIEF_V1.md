@@ -190,6 +190,7 @@ cross-theme layers:
 - [SHED homeowners-insurance pressure layer](analysis/projects/us-housing-insurance-affordability/shed-2025-home-insurance-pressure-layer-v1.md): adds coverage, premium affordability, unmet coverage preference, lender requirements, and shopping by owner income band, keeping insurance pressure separate from repair, move, and staying outcomes.
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
+- [SHED panel health and adult-care paths](analysis/projects/us-household-financial-pressure/shed-panel-health-care-path-layer-v1.md): extends the same 4,419-person panel to health direction and unpaid adult-care entry/exit by financial-condition path, while leaving trigger, hours, schedule control, meaning, and action open.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.
 
