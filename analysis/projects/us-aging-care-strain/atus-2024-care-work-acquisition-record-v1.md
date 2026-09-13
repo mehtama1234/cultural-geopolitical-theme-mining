@@ -21,11 +21,13 @@ variable names and universes before analysis.
 
 ## Access check
 
-On 2026-09-12, direct requests to the BLS file URLs returned HTTP 403
-(`AkamaiGHost`, access denied) from the working environment. The page itself is
-available and identifies the files, but the ZIP contents were not obtained in
-this pass. This is an acquisition issue, not evidence that the files do not
-exist or that care/work estimates are unavailable.
+On 2026-09-12 and again on 2026-09-13, direct requests to the BLS file URLs
+returned HTTP 403 (`AkamaiGHost`, access denied) from the working environment.
+The 2026-09-13 response included `HTTP/2 403`, `server: AkamaiGHost`, and no
+ZIP payload. The page itself is available and identifies the files, but the ZIP
+contents were not obtained in this pass. This is an acquisition issue, not
+evidence that the files do not exist or that care/work estimates are
+unavailable.
 
 The official published release remains usable while the ZIP route is blocked.
 The [2023–2024 published care/work layer](atus-2023-2024-published-care-work-layer-v1.md)
@@ -33,6 +35,11 @@ records the population estimates for provider scale, age, sex, employment,
 care frequency, and hours on care days. Those tables do not replace the
 microdata target because they do not retain the same respondent's full work,
 care, household, and follow-up fields.
+
+**Current decision:** keep the published tables as the active population-level
+care/work estimate, preserve the microdata comparison as an explicit
+acquisition step, and do not infer a respondent-level work-displacement result
+from published aggregates.
 
 ## Planned bounded estimate
 
