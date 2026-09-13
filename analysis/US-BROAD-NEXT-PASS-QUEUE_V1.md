@@ -137,6 +137,16 @@ It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is
 care hours, schedule control, and genuine monthly work or benefit transitions;
 household members under 18 must not be treated as a direct care measure.
 
+The [SIPP care/work tenure × poverty layer](projects/us-household-calendar-integration/sipp-care-work-tenure-poverty-layer-v1.md)
+adds a person-weighted distributional screen for paid child care, help paying,
+and reported work constraint. Renter records show higher reported work
+constraint than owner/buyer records across the displayed poverty bands, while
+payment incidence rises at higher income and help is more concentrated in lower
+income bands. The fields have different conditional universes and no
+replicate-weight variance in this screen, so this is a societal distribution,
+not a tenure or income causal estimate. The next missing step remains care
+hours, schedule control, provider reliability, and a dated work/care event.
+
 The same-respondent SHED panel now extends beyond financial adaptation in the
 [health and adult-care path layer](projects/us-household-financial-pressure/shed-panel-health-care-path-layer-v1.md).
 It shows health direction and entry/exit from unpaid adult care by financial

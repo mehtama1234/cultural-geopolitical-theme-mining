@@ -28,6 +28,11 @@ outcome; `Reported` means a source reports an experience or estimate;
 
 **Latest place conditioning:** [county growth × HPSA capacity layer](projects/us-immigration-local-demand/migration-growth-hpsa-capacity-layer-v1.md) conditions visible health capacity on population-growth quartile and shortage context; it deepens themes 6–8 while leaving lived access open.
 
+**Latest care/work conditioning:** [SIPP care/work tenure × poverty layer](projects/us-household-calendar-integration/sipp-care-work-tenure-poverty-layer-v1.md)
+crosses child-care payment, payment help, and reported work constraint with
+tenure and income-to-poverty bands. It deepens themes 2, 6, and 8 while keeping
+conditional universes and missing care intensity explicit.
+
 **Latest political conditioning:** [ANES party-conditioned worry/vote layer](projects/us-cost-trust-politics/anes-panel-worry-vote-party-conditioned-layer-v1.md)
 conditions a financial-worry/vote comparison on prior party identity. It
 deepens themes 9 and 11 by showing that material concern enters political

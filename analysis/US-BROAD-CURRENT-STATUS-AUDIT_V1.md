@@ -224,6 +224,13 @@ been causally joined.
   eldercare-roster, and ATUS-CPS files are now recorded with exact URLs and a
   bounded weighted care/work estimate. BLS ZIP requests returned HTTP 403 in
   the current environment, so no microdata estimate is claimed.
+- **Care/work distributional depth:** a 2025 SIPP person-weighted screen now
+  crosses child-care payment, payment help, and reported work constraint with
+  tenure and income-to-poverty bands. Renter records show higher reported work
+  constraint across the displayed bands, while paid-care incidence and payment
+  help follow different distributions. The fields are conditional, the screen
+  has no replicate-weight variance, and provider reliability, care hours,
+  schedule control, and dated work loss remain open.
 - **Public-system meaning/action boundary:** SIPP now supplies reason-coded
   transition and material-context evidence with Fay-BRR uncertainty, while a
   dedicated gap record preserves the missing same-episode notice, effort,

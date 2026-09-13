@@ -16,6 +16,14 @@ defines the reversal, boundary, or alternative-protection test for each theme.
 Unless a row names measured counterevidence, its counterexample remains a
 required next test rather than an established result.
 
+**Latest care/work conditioning:** the [SIPP care/work tenure × poverty layer](projects/us-household-calendar-integration/sipp-care-work-tenure-poverty-layer-v1.md)
+adds a many-person, month-level screen showing that paid care, help paying, and
+reported work constraint are different distributions. Renter records show
+higher reported work constraint than owner/buyer records across the displayed
+income bands, while paid-care incidence rises at higher income and help is more
+concentrated in lower-income bands. This is a conditional-universe diagnostic,
+not evidence that tenure or income caused a work constraint.
+
 ## The current provisional trends
 
 | # | Provisional trend | Evidence currently supports | It does not yet establish | Next test |
