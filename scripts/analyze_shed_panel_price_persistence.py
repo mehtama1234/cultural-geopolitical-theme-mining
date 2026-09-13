@@ -136,6 +136,26 @@ def analyze(old_path: Path, new_path: Path) -> dict:
         }
         for name, value in adaptation_to_condition.items()
     }
+    # Distributional persistence: retain the 2024 condition as the subgroup
+    # and report both re-entry and persistence for each binary adaptation.
+    subgroup = {}
+    for name, (field, _) in METRICS.items():
+        subgroup[name] = {}
+        for condition in condition_labels:
+            rows = [("Yes" if clean(pair["old"].get(field)) == "Yes" else "No",
+                     "Yes" if clean(pair["new"].get(field)) == "Yes" else "No",
+                     pair["panel_weight"])
+                    for pair in pairs
+                    if clean(pair["old"].get("B2")) == condition and
+                       clean(pair["old"].get(field)) in {"Yes", "No"} and
+                       clean(pair["new"].get(field)) in {"Yes", "No"}]
+            matrix = binary_transition(rows)
+            subgroup[name][condition] = {
+                "paired_rows": matrix["paired_rows"],
+                "no_2024_to_yes_2025_percent": matrix["no_2024_to_yes_2025_percent"],
+                "yes_2024_to_yes_2025_percent": matrix["yes_2024_to_yes_2025_percent"],
+            }
+    results["adaptation_persistence_by_2024_condition"] = subgroup
     return {
         "format": "us-shed-panel-price-persistence-v1",
         "source_unit": "SHED respondent recontact panel, 2024 to 2025",

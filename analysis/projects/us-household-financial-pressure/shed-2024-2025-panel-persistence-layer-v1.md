@@ -74,6 +74,25 @@ reverse causation, other household events, or reporting differences. It is a
 mechanism signal for the event ledger, not proof that borrowing caused the
 later condition.
 
+## Distribution of persistence by 2024 condition
+
+The adaptation pattern is also unequal across the 2024 financial-condition
+groups. The entries below are the share who reported the action again in 2025
+among those who reported it in 2024.
+
+| 2024 condition | Borrowing persists | Savings cut persists | Delayed purchase persists | Reduced use persists |
+|---|---:|---:|---:|---:|
+| Finding it difficult to get by | 65.0% | 71.6% | 75.3% | 85.4% |
+| Just getting by | 52.4% | 74.1% | 73.1% | 82.1% |
+| Doing okay | 48.2% | 52.5% | 63.8% | 71.9% |
+| Living comfortably | 35.3% | 48.4% | 51.2% | 62.7% |
+
+This is a population distribution pattern: prior financial condition is
+associated with how often an adaptation repeats. It does not identify whether
+resources, prices, health, employment, family support, or expectations produced
+the difference, and it does not mean every person in a group followed the same
+path.
+
 ## Price impact transitions
 
 Price impact also shows persistence. Among respondents who said prices made
