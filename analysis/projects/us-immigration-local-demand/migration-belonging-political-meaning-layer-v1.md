@@ -97,6 +97,11 @@ news/civic-engagement layer](../us-digital-habits-attention/pew-2025-news-civic-
 supplies source environment and multiple forms of civic action. The migration
 place panel supplies context, not a hidden individual-level join.
 
+The [Chicagoland local immigration attitude case](chicagoland-local-immigration-attitude-case-v1.md)
+adds direct local meaning for one gateway region, with separate Chicago,
+suburban Cook County, and Lake County samples. It is a bounded case, not a
+national or 620-county estimate.
+
 ## Evidence boundary
 
 Until direct belonging, attribution, and action measures are aligned with local

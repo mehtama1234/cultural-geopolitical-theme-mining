@@ -79,6 +79,11 @@ shows that federal trust is non-monotonic across the two axes and civic action
 is comparatively stable; this supplies a counterexample screen, not a local
 immigration-opinion estimate.
 
+The [Chicagoland local immigration-attitude case](projects/us-immigration-local-demand/chicagoland-local-immigration-attitude-case-v1.md)
+now supplies one direct local meaning source with documented geography and
+sampling. The next step is to align its timing and local material conditions,
+not to generalize it nationally.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish
