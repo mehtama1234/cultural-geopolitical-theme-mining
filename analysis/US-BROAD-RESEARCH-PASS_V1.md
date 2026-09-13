@@ -184,6 +184,8 @@ The [price-pressure, time-transfer, and social-participation bridge](projects/us
 
 The [SHED care, health, and price-adaptation layer](projects/us-health-cost-household-choice/shed-2025-care-health-price-adaptation-layer-v1.md) adds weighted 2025 cuts by medical-cost concern, unpaid adult care, self-rated health, and outside medical help. It shows different adaptation menus and buffers while preserving the distinction between health need, financial response, and later recovery.
 
+The [SHED homeowners-insurance pressure layer](projects/us-housing-insurance-affordability/shed-2025-home-insurance-pressure-layer-v1.md) adds a population-level housing/finance check. Among owner households, coverage, premium affordability, unmet coverage preference, lender requirements, and shopping are separated; lower-income owners report less coverage and more affordability pressure, while cost increases are widely reported across income bands.
+
 The [BFS annual county data-quality boundary](projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md) adds a necessary firm/place control: the current county application release uses differential-privacy noise, so applications cannot be read as durable local businesses or community change until they are checked against formation, employer, service, and population measures.
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.

@@ -74,6 +74,11 @@ been causally joined.
   medical help. Major medical concern and poorer health align with more
   reduced use, borrowing, and lower buffers; exact event causation and recovery
   remain open.
+- **Housing/insurance distribution:** SHED 2025 now records owner coverage,
+  premium affordability, desired additional coverage, lender requirements, and
+  shopping by income band. Lower-income owners show greater coverage and
+  affordability pressure; renewal, claim, repair, move/stay, and political
+  consequences remain open.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
