@@ -24,6 +24,13 @@ This is a short discovery pass. It will become a larger project only if the next
 - [A medical cost can change care, work, and debt in different ways](../../findings/us-health-cost-household-choice-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-health-cost-household-choice-matched-evidence-001.html)
 
+## Population depth
+
+The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
+is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
+Both are cross-sectional weighted descriptions; they test directional
+stability across releases without treating the samples as a panel.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

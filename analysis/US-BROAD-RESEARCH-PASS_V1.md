@@ -49,6 +49,11 @@ time, work loss, food or housing tradeoff, health, and job freedom separate.
 Its next test follows one dated event through the same person or family rather
 than treating an annual hardship measure as a complete causal story.
 
+The [2024 care/health adaptation comparison](projects/us-health-cost-household-choice/shed-2024-care-health-adaptation-layer-v1.md)
+adds time depth across SHED releases: the broad medical-cost, care, health, and
+adaptation gradients are visible in both annual cross-sections, while the
+missing dated event and same-family outcome remain explicit.
+
 The [aging, care supply, and social capacity bridge](projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md)
 extends this into a system-level comparison. It separates recipient, caregiver,
 family network, employer, provider workforce, agency, and public-meaning units,
