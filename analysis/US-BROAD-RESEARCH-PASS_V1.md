@@ -17,6 +17,13 @@ actual objective: explaining how conditions across households, consumers,
 workers, firms, institutions, places, and infrastructure become cultural and
 political patterns.
 
+The [capability, dependency, local distribution, and state power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md)
+extends the program outward to infrastructure and geopolitical consequences.
+It treats AI and cloud capacity as a stack of physical, financial, technical,
+and institutional complements, then asks who owns them, who pays, who benefits,
+and who can switch or inspect. Project announcements remain inputs to the
+test, not evidence of realized local capability or sovereignty.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
