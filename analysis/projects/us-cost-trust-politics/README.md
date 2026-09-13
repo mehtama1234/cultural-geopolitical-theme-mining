@@ -32,6 +32,10 @@ economic judgment, institutional trust, cultural meaning, and civic/political
 action are separate measured outcomes. It keeps the missing attribution and
 longitudinal middle visible.
 
+The [Pew source-environment and civic-action crosswalk](pew-source-environment-action-crosswalk-v1.md)
+organizes news-source use, influencer exposure, attention, trust, civic styles,
+and direct action as separate stages in the cultural/political pathway.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.

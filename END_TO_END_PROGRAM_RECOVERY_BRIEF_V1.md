@@ -132,6 +132,7 @@ cross-theme layers:
 - [AI infrastructure realization and control](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): how public-cloud migration and privately owned compute move from announced targets to realized capacity, ownership change, local distribution, and the still-open question of state exit and bargaining power.
 
 - [economic adaptation, perception, and public action](analysis/projects/us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md): how consumer adjustment, economic judgment, institutional trust, cultural meaning, and civic or political action form separate population-level arrows that still require a longitudinal middle.
+- [Pew source-environment and civic-action crosswalk](analysis/projects/us-cost-trust-politics/pew-source-environment-action-crosswalk-v1.md): separates news source, attention, trust, civic style, direct action, and voting in the cultural/political pathway.
 
 - [ANES panel judgment and action](analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md): official SDA weighted descriptive cross-tabs compare pre-election financial worry with federal-government trust and later reported presidential vote choice in the panel; causal attribution remains open.
 

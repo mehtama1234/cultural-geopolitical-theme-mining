@@ -315,6 +315,11 @@ The [time, work, care, and social participation layer](projects/us-household-cal
 
 The [Pew 2025 news, platform, and civic-engagement layer](projects/us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md) adds population-level information and cultural structure: distinct participation types, partisan news-source ecosystems, and social-media news influencers. It deepens the platforms, trust, identity, and collective-action themes without treating source use as proof of persuasion or causal voting effects.
 
+The [Pew source-environment and civic-action crosswalk](projects/us-cost-trust-politics/pew-source-environment-action-crosswalk-v1.md)
+turns that evidence into a staged comparison of source, attention, trust,
+discussion, civic expression, and voting, preserving the missing same-respondent
+links.
+
 The [platform data, attention, agency, and public meaning layer](projects/us-digital-habits-attention/platform-data-attention-agency-layer-v1.md) now joins the platform evidence into a broader societal mechanism. It separates what people encounter, how they interpret it, what they do, and whether they can inspect, contest, or leave the system. The causal path from platform exposure to durable belief or action remains open.
 
 The [firm and market power distribution layer](projects/us-local-business-place/firm-market-power-distribution-layer-v1.md) now joins the firm, market, finance, recourse, work, place, and infrastructure records. It asks where a firm decision moves price, time, data, access, risk, and control among customers, workers, owners, communities, public systems, and future users. Market power, welfare, cultural meaning, and political response remain separate arrows.
