@@ -135,7 +135,7 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighty-three topic records, five themes, one hundred and sixty-five connections and eighty-five reading paths. All topics now have at least two graph links. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighty-three topic records, five reader umbrellas, fourteen broad societal themes, one hundred and sixty-five connections, and eighty-five reading paths. All topics now have at least two graph links. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
 The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. The remaining end-to-end work is not more prose alone: synchronize the reader-facing HTML for the deepened pages, add the parity check to the publication gate, and then use the integrated household calendar to test the strongest cross-topic chains with actual joined records.
 
