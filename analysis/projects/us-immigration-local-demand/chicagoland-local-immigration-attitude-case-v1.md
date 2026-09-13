@@ -49,6 +49,32 @@ fine-grained partisan, race, or education subgroup claims.
   family/legal sponsors, English, and avoiding social-benefit use are not one
   interchangeable measure of welcome or exclusion.
 
+## Comparable material/place context
+
+The survey geography is not identical to the county panel: Chicago is inside
+Cook County, while suburban Cook County is the remainder of that county. The
+following county indicators therefore provide context for the survey areas;
+they do not describe the city and suburbs separately.
+
+| County context, 2023 | Cook County | Lake County |
+|---|---:|---:|
+| Population change, 2020–2023 | -2.36% | 0.11% |
+| Foreign-born share, ACS 5-year | 21.40% | 19.49% |
+| Foreign-born entering 2010 or later | 22.11% | 19.58% |
+| Median gross rent | $1,381 | $1,434 |
+| Vacant units | 8.18% | 4.97% |
+| Crowded units | 3.32% | 2.67% |
+| Limited-English share | 13.87% | 10.70% |
+| Health/social-assistance employment per 10,000 | 775.05 | 552.25 |
+| Primary-care HPSA component present | Yes | Yes |
+
+The contrast matters for interpretation. The two local samples can report
+similar broad support for immigrants while sitting in places with different
+population trajectories, vacancy, rent, language access, and visible health
+employment. Conversely, those contextual differences do not explain the
+survey answers by themselves. The city/suburb split still requires a place-
+level source at the same geography and time.
+
 ## What this adds to the broader pattern
 
 The local case shows that a place can hold several views simultaneously:
@@ -82,6 +108,8 @@ immigration level or admission rule.
 5. The survey can describe local meaning and subgroup differences; it cannot
    establish that local growth, housing pressure, or migrant arrival caused
    any answer.
+6. The contextual county indicators are 2023 measures beside a survey fielded
+   in 2026; they are not a same-period event record.
 
 ## Valid use in the program
 
@@ -103,3 +131,6 @@ as a proxy for what Chicagoland residents believe.
 [Chicago Council on Global Affairs, Built by Immigrants, Shaped by Immigration](https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey),
 published July 13, 2026. The page reports the questionnaire scope, sample
 sizes, field method, weighting variables, margins of error, and local findings.
+The county context comes from the project’s 2020–2023 population, ACS 2023,
+CBP 2023, and HRSA component files; the extraction is recorded in
+`scripts/analyze_migration_place_capacity_panel.py`.
