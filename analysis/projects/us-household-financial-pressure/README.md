@@ -1,5 +1,11 @@
 # Project: US household financial pressure and the price of access
 
+The [2024 Consumer Expenditure income-quintile layer](ce-2024-income-quintile-distribution-layer-v1.md)
+adds a population spending distribution to the household-pressure branch. It
+shows that income and expenditure changes differed across quintiles, with the
+lowest-quintile increase concentrated in housing; it does not measure security,
+liquid cash, or political meaning.
+
 ## Question
 
 When American households face higher prices, fees, interest, or risk, how do firms and financial institutions change the terms of access—and when does private financial pressure become a social or political problem?
