@@ -82,3 +82,8 @@ The [BDS state-sector turnover profile](bds-state-sector-turnover-profile-v1.md)
 adds geographic depth: selected sectors have different entry, exit, and net-job
 patterns across states, so a national growth signal cannot be treated as one
 uniform social experience.
+
+The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-population-layer-v1.md)
+normalizes manufacturing, retail, care, and food establishments by county
+population. It is a rough local-capacity baseline, not a measure of access,
+quality, affordability, or service use.
