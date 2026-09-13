@@ -96,6 +96,11 @@ shows why establishment presence, employment scale, rural/urban profile, and
 formal shortage status must be measured before interpreting migration's local
 economic, service, or cultural effects.
 
+The [migration, belonging, and political meaning layer](projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md)
+extends the chain to direct measures of fairness, attribution, trust, identity,
+belonging, and civic or policy action. It defines competing interpretations and
+keeps them separate from the demographic and housing context.
+
 The [credit, liquidity, financial records, and institutional power layer](projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md)
 adds the financial-institution mechanism. It treats liquidity, payment rails,
 bank inertia, fees, credit records, debt, switching, and later access as

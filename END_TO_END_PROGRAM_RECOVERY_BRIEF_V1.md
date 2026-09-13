@@ -110,6 +110,8 @@ cross-theme layers:
 
 - [migration, local demand, and sector capacity bridge](analysis/projects/us-immigration-local-demand/migration-capacity-sector-bridge-v1.md): establishes the CBP/RUCC/HRSA place-capacity baseline needed before interpreting migration's local economic, service, or cultural effects.
 
+- [migration, belonging, and political meaning layer](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md): preserves the cultural-political end of the migration chain by measuring fairness, attribution, trust, identity, belonging, and action directly rather than inferring them from place statistics.
+
 - [credit, liquidity, financial records, and institutional power](analysis/projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md): how payment systems and financial records turn short shortages into unequal future options, terms, and exit.
 
 - [AI infrastructure realization and control](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): how public-cloud migration and privately owned compute move from announced targets to realized capacity, ownership change, local distribution, and the still-open question of state exit and bargaining power.
