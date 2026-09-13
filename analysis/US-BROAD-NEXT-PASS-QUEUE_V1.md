@@ -133,6 +133,13 @@ local incidence, and state leverage. The next missing step is a place-utility
 panel that observes approved versus actual load, cost allocation, local gains,
 and public or provider replaceability.
 
+The [large-load rate-risk control layer](projects/ai-work-control/large-load-rate-risk-control-layer-v1.md)
+now specifies the institutional levers—upfront payments, collateral, minimum
+commitments, take-or-pay, flexible load, separate tariffs, and queue management—
+that can move risk among data-center firms, utilities, existing ratepayers, and
+the state. The next step is still a two-place utility comparison with approved
+and actual load, terms, bills, local benefits, and credible exit.
+
 The public-system lane now has an intersectional SNAP transition outcome in the
 [work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md).
 It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is
