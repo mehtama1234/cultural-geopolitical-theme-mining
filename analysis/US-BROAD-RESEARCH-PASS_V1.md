@@ -17,6 +17,13 @@ actual objective: explaining how conditions across households, consumers,
 workers, firms, institutions, places, and infrastructure become cultural and
 political patterns.
 
+The [economic adaptation, perception, and public action layer](projects/us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md)
+makes that connector measurable in separate population layers: SHED records
+widespread consumer adjustment, ANES records financial worry alongside
+economic judgment and trust, and Pew records distinct civic-action patterns.
+It is a stronger societal synthesis, but the adaptation-to-attribution-to-action
+path remains open.
+
 The [capability, dependency, local distribution, and state power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md)
 extends the program outward to infrastructure and geopolitical consequences.
 It treats AI and cloud capacity as a stack of physical, financial, technical,

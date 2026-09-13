@@ -110,6 +110,8 @@ cross-theme layers:
 
 - [AI infrastructure realization and control](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): how public-cloud migration and privately owned compute move from announced targets to realized capacity, ownership change, local distribution, and the still-open question of state exit and bargaining power.
 
+- [economic adaptation, perception, and public action](analysis/projects/us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md): how consumer adjustment, economic judgment, institutional trust, cultural meaning, and civic or political action form separate population-level arrows that still require a longitudinal middle.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now
