@@ -50,6 +50,12 @@ about trust, dignity, status, fairness, and dependence. Use and trust are not
 treated as satisfaction or control; the next test follows a customer through
 entry, outcome, remedy, and exit while including non-users and non-reporters.
 
+The [public administration, take-up, security, and political feedback layer](projects/us-safety-net-access/public-administration-takeup-security-trust-action-layer-v1.md)
+deepens the public-systems bridge. It treats notice, route, documents, timing,
+appeal, interruption, and exit as part of the policy—not administrative noise.
+It keeps eligibility, receipt, food security, work, debt, health, trust, and
+political action separate and specifies the same-episode event-ledger test.
+
 The reusable [broad end-to-end event ledger](templates/US-BROAD-EVENT-LEDGER_V1.md)
 now provides one schema for the next empirical passes. It can hold a consumer,
 care, housing, work, benefit, firm, place, or infrastructure event while

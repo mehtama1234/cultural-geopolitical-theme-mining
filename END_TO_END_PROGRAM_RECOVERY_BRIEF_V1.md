@@ -102,6 +102,8 @@ cross-theme layers:
 - [optionality, unequal exposure, time, and exit](analysis/projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md): the distributional spine of cash, time, alternatives, support, rights, voice, and practical exit; and
 - [consumer culture, trust, status, and everyday power](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md): how buying, sharing, reviewing, reporting, help-seeking, and staying become social and institutional signals.
 
+- [public administration, take-up, security, and political feedback](analysis/projects/us-safety-net-access/public-administration-takeup-security-trust-action-layer-v1.md): how notice, route, burden, receipt, interruption, exit, material security, trust, and political response fit together.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now
