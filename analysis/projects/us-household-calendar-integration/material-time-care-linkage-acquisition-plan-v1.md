@@ -156,6 +156,23 @@ specification](psid-material-time-care-extract-spec-v1.md). It fixes the unit,
 candidate fields, comparison cells, arrow statuses, and quality gates before
 data access is available.
 
+## Current access gate verification
+
+The official [PSID packaged-data page](https://simba.isr.umich.edu/Zips/ZipMain.aspx)
+currently lists the 2019, 2021, and 2023 main Family Files and the 1968–2023
+Cross-year Individual File. Attempting the 2023 packaged download without an
+authenticated session redirects to the official [ZIP download warning](https://simba.isr.umich.edu/Zips/ZipWarnAccess.aspx),
+which states that an account must accept the Conditions of Use before generated
+data carts or ZIP data can be downloaded. The [PSID getting-started page](https://psidonline.isr.umich.edu/GettingStarted.aspx)
+also says that public-use data are free to researchers who register and accept
+those conditions.
+
+This is an access prerequisite, not an analytical result. No PSID microdata
+are present in the workspace as of this check. The field manifest, codebook
+audit, and extract specification therefore remain pre-acquisition assets; no
+many-family estimate should be published until the files are obtained and the
+wave-level retention, universe, missingness, and weight checks are run.
+
 ## Priority acquisition routes
 
 1. **Longitudinal household route:** audit PSID's main waves and supplements

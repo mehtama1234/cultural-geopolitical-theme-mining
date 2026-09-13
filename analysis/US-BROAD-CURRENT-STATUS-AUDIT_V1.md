@@ -50,6 +50,12 @@ The [PSID material/time/care extract specification](projects/us-household-calend
 now fixes the first many-family unit, candidate fields, comparison cells, and
 quality gates for that acquisition.
 
+The official PSID packaged-data route was rechecked on 2026-09-13. The 2019,
+2021, and 2023 files are listed, but an unauthenticated download redirects to
+the ZIP warning requiring a registered account and accepted Conditions of Use.
+No PSID microdata are present locally; the material/time/care result remains an
+acquisition target, not an executed panel estimate.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
