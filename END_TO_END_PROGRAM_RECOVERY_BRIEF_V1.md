@@ -116,6 +116,20 @@ cross-theme layers:
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.
 
+- [Platform data, attention, agency, and public meaning](analysis/projects/us-digital-habits-attention/platform-data-attention-agency-layer-v1.md): how platforms mediate encounter, interpretation, action, and the ability to contest or leave.
+
+- [Firm and market power distribution](analysis/projects/us-local-business-place/firm-market-power-distribution-layer-v1.md): how firm decisions distribute price, time, data, access, risk, and control among customers, workers, owners, places, public systems, and future users.
+
+- [SHED adaptation by financial-condition path](analysis/projects/us-household-financial-pressure/shed-panel-adaptation-condition-path-layer-v1.md): a reproducible population-panel comparison showing persistence and re-entry across worsening, stable, and improving financial-condition paths.
+
+- [Time, work, care, and social participation](analysis/projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md): how work and care can displace social and civic availability, while schedule and location control are unequally distributed.
+
+- [Political-response measurement specification](analysis/projects/us-cost-trust-politics/political-response-measurement-spec-v1.md): a stage-by-stage source map separating exposure, adjustment, interpretation, expression, and action.
+
+- [ANES panel acquisition record](analysis/projects/us-cost-trust-politics/anes-2024-political-path-source-record-v1.md): the official 2016–2020–2024 nine-wave panel is confirmed as the next longitudinal source; local CSV retrieval remains blocked by the publisher web challenge, so no panel estimates are claimed.
+
+- [AI infrastructure realization and control update](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): Romania's underlying government-cloud infrastructure was officially announced complete in September 2026, while application migration, citizen-service outcomes, portability, and state exit remain open.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now
@@ -136,6 +150,14 @@ control layer is [unequal exposure and status](analysis/US-UNEQUAL-EXPOSURE-STAT
 the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE-MATRIX_V1.md);
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
 The compact current-state check is the [broad program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md).
+
+The latest committed continuation passes are `3edb2fd` (platform data and
+attention agency), `f559f80` (firm and market power distribution), `d4df7b2`
+(Romanian infrastructure completion), `0d051b4` (SHED adaptation by condition
+path), `bf192d9` (trend-register integration), `d9e04b3` (time, care, and social
+participation), `b16d97f` (political source stages), and `f0f1ec7` (ANES panel
+acquisition target). These commits are documentation and analysis progress,
+not proof that every broad arrow is complete.
 
 The next work should deepen the open arrows rather than only add more topics:
 
