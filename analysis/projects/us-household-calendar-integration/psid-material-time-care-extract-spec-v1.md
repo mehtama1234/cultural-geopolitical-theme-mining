@@ -59,7 +59,7 @@ verification before pooling.
 | Work pressure | 2019 `ER72412`; 2021 `ER78451`; 2023 `ER82438` BC60E rushed while working | work-time-pressure indicator by employment status | person-wave |
 | Subjective wellbeing | 2019 `ER72025`; 2021 `ER78026`; 2023 `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
 | Health outcome | 2019 `ER74428`, `ER74429`; 2021 `ER80550`, `ER80551`; 2023 `ER84520`, `ER84521` H1/H1A | health level and change versus two years ago | person-wave |
-| Material room | Utility/home-insurance measures: 2019 `ER77529`, `ER77531`; 2021 `ER81856`, `ER81858`; 2023 `ER85710`, `ER85712`; plus Section G income and Section W wealth/assets | utility and insurance burden, income, selected essential spending, wealth/buffer bands, missingness | family-wave |
+| Material room | Income/wealth: 2019 `ER77448`, `ER77511`; 2021 `ER81775`, `ER81838`; 2023 `ER85629`, `ER85692`; utility/home-insurance: 2019 `ER77529`, `ER77531`; 2021 `ER81856`, `ER81858`; 2023 `ER85710`, `ER85712` | income, constructed wealth, utility and insurance burden, selected essential spending, wealth/buffer bands, missingness | family-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
 | Family composition | coverscreen family-unit status, births, moves, spouse/partner, children | care exposure, household change, mover-out/mover-in flags | person/family-wave |
 | Family longitudinal weight | 2019 `ER77631`; 2021 `ER81958`; 2023 `ER85812` | wave-specific family weight for weighted descriptive estimates | family-wave |

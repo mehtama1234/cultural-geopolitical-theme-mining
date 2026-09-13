@@ -176,13 +176,26 @@
       "boundary": "These are reported/constructed expenditure measures; they do not identify a causal bill shock or insurance-driven move."
     },
     {
+      "domain": "material_room_income_wealth",
+      "questionnaire_label": "Total family money income and constructed wealth including equity",
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER77448", "ER77511"],
+        "2021": ["ER81775", "ER81838"],
+        "2023": ["ER85629", "ER85692"]
+      },
+      "unit": "family_wave",
+      "status": "codebook_verified",
+      "boundary": "Income and wealth are resource measures, not liquid cash, buffer availability, or proof of a specific household choice. Wealth variables are imputed constructed summaries and require their accuracy flags."
+    },
+    {
       "domain": "all_domains",
       "questionnaire_label": "Same field groups and comparable universes",
       "wave": "2019-2021",
       "variables": [],
       "unit": "person_family_wave",
       "status": "requires_wave_codebook_audit",
-      "note": "The repeated time/care, paid-work, work-pressure, commute-time, family-meal, health, wellbeing, family-weight, paid-care, utility, and home-insurance mappings above are verified or explicitly bounded; remaining detailed material and income fields still require field-level checks."
+      "note": "The repeated time/care, paid-work, work-pressure, commute-time, family-meal, health, wellbeing, family-weight, paid-care, utility, home-insurance, income, and wealth mappings above are verified or explicitly bounded; remaining detailed expenditure and accuracy-flag fields still require field-level checks."
     }
   ],
   "required_checks_before_estimation": [
