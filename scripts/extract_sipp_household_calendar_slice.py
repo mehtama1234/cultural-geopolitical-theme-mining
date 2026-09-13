@@ -36,6 +36,8 @@ FIELDS = [
     "THTOTINCT2",
     "THINCPOV",
     "TAGE_EHC",
+    "RHNUMU18",
+    "AHNUMU18",
     "TEHC_REGION",
     "ERACE",
     "ARACE",

@@ -95,7 +95,8 @@ followed by a [race × tenure × resource layer](projects/us-household-calendar-
 The three-way passes have a defined person-month unit, replicate-weight
 uncertainty, five distributional outcomes, and documented universe/status
 filtering. The disability pass adds a work-limiting-condition intersection;
-the tenure pass adds housing position. Both still lack household counting, a
+the tenure pass adds housing position; and the composition pass adds child
+presence. All still lack household counting, direct care measurement, a
 counterexample to a causal mechanism, and a downstream outcome in the same
 design.
 

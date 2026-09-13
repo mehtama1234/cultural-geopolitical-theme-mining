@@ -29,6 +29,8 @@ LABELS = {
 GROUP_LABELS = {
     "ERACE": {"1": "White alone", "2": "Black alone", "3": "Asian alone", "4": "Residual"},
     "EDISABL": {"1": "work-limiting condition", "2": "no work-limiting condition"},
+    "RHNUMU18": {"children_0": "no household members under 18",
+                  "children_1plus": "one or more household members under 18"},
     "ETENURE": {"1": "owned or being bought", "2": "rented",
                  "3": "occupied without payment of rent"},
     "TEHC_REGION": {"1": "Northeast", "2": "Midwest", "3": "South", "4": "West"},
@@ -46,6 +48,7 @@ GROUP_FIELDS = {
     "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
     "ERACE_ETENURE_THINCPOV": ("ERACE", "ETENURE", "THINCPOV"),
     "ERACE_EDISABL_THINCPOV": ("ERACE", "EDISABL", "THINCPOV"),
+    "ERACE_RHNUMU18_THINCPOV": ("ERACE", "RHNUMU18", "THINCPOV"),
 }
 OFFICIAL_FLAG_FIELDS = {
     "EAWBMORT": "AAWBMORT",
@@ -54,7 +57,7 @@ OFFICIAL_FLAG_FIELDS = {
     "RFOODS": "AFOODS",
     "RMNUMJOBS": "AMNUMJOBS",
 }
-OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE"}
+OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE", "RHNUMU18": "AHNUMU18"}
 FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
@@ -64,6 +67,11 @@ def estimate(numerator: float, denominator: float) -> float | None:
 
 
 def normalized_group(field: str, value: str) -> str:
+    if field == "RHNUMU18":
+        try:
+            return "children_0" if float(value) == 0 else "children_1plus"
+        except (TypeError, ValueError):
+            return ""
     if field != "THINCPOV":
         return value
     try:
@@ -123,6 +131,8 @@ def official_group_valid(group_by: str | None, values: dict[str, str]) -> bool:
                 return False
         except (TypeError, ValueError):
             return False
+    if "RHNUMU18" in group_fields and values.get("AHNUMU18", "") in {"", "0"}:
+        return False
     return True
 
 
@@ -183,6 +193,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                 required.add("ARACE")
             if group_by == "ERACE_EDISABL_THINCPOV":
                 required.update({"ARACE", "ADISABL"})
+            if group_by == "ERACE_RHNUMU18_THINCPOV":
+                required.update({"ARACE", "AHNUMU18"})
         if group_by:
             required.update(GROUP_FIELDS[group_by])
         missing = sorted(required - set(primary.fieldnames or []))
