@@ -46,6 +46,10 @@ been causally joined.
   repeated price adaptations. The new condition-path comparison shows a
   descriptive persistence/re-entry gradient by worsening, same, or improving
   financial path, but no exact bill cause or political consequence.
+- **Reproducible panel depth:** the available SHED 2024–2025 files reproduce
+  the 4,419-person condition-path persistence/re-entry comparison. This adds
+  same-respondent depth to the broad consumer trend, but does not remove
+  recontact selection, nonresponse, or the missing dated price/event cause.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
