@@ -57,6 +57,9 @@ been causally joined.
   separate population layers for consumer adaptation, economic judgment,
   trust, source environment, civic action, turnout, and participation barriers.
   They are not falsely joined.
+- **Cross-source connector:** the material-to-participation bridge now states
+  the full comparison contract and ranks the next same-respondent, same-case,
+  and matched-place designs needed to connect exposure to political action.
 - **Infrastructure and state power:** Romania and Malaysia cases now separate
   planned capacity, realized milestones, ownership change, local distribution,
   and provider/state exit. ADR's September 2026 announcement verifies a

@@ -116,6 +116,8 @@ cross-theme layers:
 
 - [CPS 2024 turnout and participation friction](analysis/projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md): official Census population tables add registration, voting, and distinct self-reported nonvoting barriers such as time, health, transport, registration, and candidate dissatisfaction.
 
+- [Material to participation cross-source bridge](analysis/projects/us-cost-trust-politics/material-to-participation-cross-source-bridge-v1.md): connects the separate material, time, place, public-system, information, trust, turnout, firm, and state layers while preserving their different units and limits.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

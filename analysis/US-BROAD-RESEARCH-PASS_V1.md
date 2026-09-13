@@ -152,6 +152,8 @@ The [ANES panel judgment and action layer](projects/us-cost-trust-politics/anes-
 
 The [CPS 2024 turnout and participation-friction layer](projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md) adds an observed-action endpoint separate from attitudes: registration, voting, and self-reported reasons for nonvoting. It preserves schedule, health, transport, registration, interest, and candidate-related barriers as different mechanisms rather than calling them all disengagement.
 
+The [material-to-participation cross-source bridge](projects/us-cost-trust-politics/material-to-participation-cross-source-bridge-v1.md) now makes the societal connector explicit. SHED, ATUS, SIPP, place data, Pew, ANES, CPS, and firm/agency records are organized by the different arrows they can measure; no cross-survey population pattern is presented as a same-respondent causal chain.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.
