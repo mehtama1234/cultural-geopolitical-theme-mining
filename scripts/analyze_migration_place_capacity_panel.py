@@ -25,6 +25,7 @@ def main() -> None:
     parser.add_argument("--hpsa", type=Path, required=True)
     parser.add_argument("--rucc", type=Path, required=True)
     parser.add_argument("--nativity", type=Path, help="ACS table-based B05002 pipe file")
+    parser.add_argument("--arrival", type=Path, help="ACS table-based B05005 pipe file")
     parser.add_argument("--min-population", type=int, default=100_000)
     parser.add_argument("--n", type=int, default=10)
     args = parser.parse_args()
@@ -62,6 +63,16 @@ def main() -> None:
                     native = int(row["B05002_E002"])
                     nativity[match.group(1)] = 100 * (total - native) / total if total else None
 
+    recent_arrival = {}
+    if args.arrival:
+        with args.arrival.open(newline="", encoding="latin1") as handle:
+            reader = csv.DictReader(handle, delimiter="|")
+            for row in reader:
+                match = re.fullmatch(r"0500000US(\d{5})", row["GEO_ID"])
+                if match and row["B05005_E001"].isdigit() and row["B05005_E004"].isdigit():
+                    total = int(row["B05005_E001"])
+                    recent_arrival[match.group(1)] = 100 * int(row["B05005_E004"]) / total if total else None
+
     capacity = {}
     with ZipFile(args.cbp) as archive:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
@@ -81,7 +92,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -90,7 +101,8 @@ def main() -> None:
                 est = capacity[key].get(f"{code}_est") or 0
                 values.append(f"{10_000 * est / pop23:.2f}")
             foreign_born = "" if key not in nativity else f"{nativity[key]:.2f}"
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
+            recent = "" if key not in recent_arrival else f"{recent_arrival[key]:.2f}"
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
 
 
 if __name__ == "__main__":
