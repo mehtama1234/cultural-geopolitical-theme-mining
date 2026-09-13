@@ -55,6 +55,11 @@ been causally joined.
   different combinations of substitution, reduced use, saving cuts, borrowing,
   delayed purchases, and emergency capacity; subgroup mechanisms and
   uncertainty intervals remain open.
+- **Intersectional panel depth:** the SHED panel now has a reproducible
+  income-band × financial-condition-path comparison for 4,419 respondents.
+  It sharpens the resource/trajectory question while retaining non-monotonic
+  cells, recontact selection, and the absence of a dated event or variance
+  estimate.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
