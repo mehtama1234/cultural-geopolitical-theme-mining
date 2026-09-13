@@ -80,6 +80,11 @@ been causally joined.
   and provider/state exit. ADR's September 2026 announcement verifies a
   completed Romanian cloud-infrastructure stage, while application migration,
   service quality, portability, and citizen outcomes remain unverified.
+- **Domestic-to-state bridge:** household/firm affordability, sector capacity,
+  infrastructure ownership, and external dependence are now organized into a
+  relational state-leverage test. Strategic leverage remains open until the
+  program observes alternatives, switching/refusal, and an external actor's
+  changed behavior.
 - **Firm, sector, and place dynamics:** BDS now adds realized establishment
   openings/closings and job flows between BFS applications and CBP employer
   stocks. State and sector bridges show why application volume, turnover, net

@@ -170,6 +170,8 @@ The [consumer recourse, institutional power, and practical exit bridge](projects
 
 The [local capacity, practical access, care adequacy, and mobility bridge](projects/us-local-business-place/local-capacity-practical-access-care-mobility-bridge-v1.md) widens the place layer from establishment presence to an option stack of supply, mobility, provider adequacy, price, time, quality, and replaceability. It defines a four-cell matched-place test and keeps local cultural and political meaning open.
 
+The [domestic capacity, dependence, and state-leverage bridge](projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md) extends the program from everyday affordability and firm/sector capacity to geopolitical consequences. It keeps consumer, worker, firm, infrastructure, country, and state units separate and defines the evidence needed before calling domestic exposure strategic leverage.
+
 The [BFS annual county data-quality boundary](projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md) adds a necessary firm/place control: the current county application release uses differential-privacy noise, so applications cannot be read as durable local businesses or community change until they are checked against formation, employer, service, and population measures.
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.
