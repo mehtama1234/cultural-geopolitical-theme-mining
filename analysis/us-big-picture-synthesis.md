@@ -49,6 +49,10 @@ The newer pages also show that these are not separate lanes. They form a few rep
 | Renter or owner housing cost | Insurance, rent, energy, repairs, and transport compete | Remaining cash, safety, coverage, and ability to stay |
 | Consumer or worker rule | Search, appeal, switching, or unpaid effort | Trust, firm power, local choice, and public pressure |
 
+The latest cross-theme layers make the societal scope explicit. The [cross-source trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md) separates material condition, attribution, trust, identity, consumer response, civic response, and institutional response. The [price, market power, belief, and action layer](projects/us-tariff-domestic-markup-delay/price-power-belief-action-layer-v1.md) adds the firm and trade path from direct and delayed costs to household adaptation and political interpretation. The [capability, dependency, local distribution, and state power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md) extends the same question to infrastructure, ownership, energy, public capability, and geopolitical leverage.
+
+The [care cost, work, family time, and security layer](projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md) records social reproduction as a population-level process: health needs can be paid through bills, delayed care, unpaid family labor, lost work, food or housing tradeoffs, and reduced job freedom. The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md) follows risk through insurance, housing, energy, transport, business formation, services, local attachment, and the ability to stay. The [optionality, unequal exposure, time, and exit layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md) provides the distributional spine: cash, time, alternatives, social support, rights, institutional voice, and practical exit are distinct resources.
+
 The latest population layers strengthen this map without narrowing it. The
 [2025 SHED price-adaptation layer](projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
 shows how adults distribute price pressure across cheaper goods, reduced use,
@@ -113,6 +117,23 @@ what a country can do while also increasing dependence on external providers,
 capital, chips, cloud, electricity, and data systems. The project keeps local
 benefit, public control, and geopolitical leverage as questions to test.
 
+The newer [capability/dependence local-power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md)
+sharpens that question: capability is a stack, investment can create capacity
+and dependence at the same time, and local benefit must be measured beside
+ownership, energy and water burden, provider concentration, portability, and
+exit. Announced investment is not realized sovereignty.
+
+The [care-cost layer](projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md)
+and [place-risk layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
+add two missing societal domains. Care is distributed through work and family
+time; place risk is distributed through protection, repair, transport, local
+services, and mobility. Neither can be reduced to a household bill or a move.
+
+The [optionality layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md)
+connects the distributional evidence across the map. It asks who has the cash,
+time, alternatives, support, rights, voice, and practical exit needed to turn a
+formal choice into a real one.
+
 The [safety-net administrative-burden layer](projects/us-safety-net-access/administrative-burden-access-layer-v1.md)
 deepens the public-systems side. It shows that eligibility, enrollment,
 renewal, office access, program exit, employment, food security, and trust are
@@ -137,6 +158,12 @@ still a person-month diagnostic—not a causal explanation or a same-household
 link to later health, mobility, trust, or political action.
 
 The common object is not “the economy” in the abstract. It is the household’s next available choice. A person who has to borrow, wait, accept a worse provider, or use family help may remain formally housed, employed, or served while losing the ability to respond to the next shock.
+
+The broader object is the social system around that choice: the firm, agency,
+platform, employer, place, infrastructure, and state that determine which
+alternatives exist and who can control them. The project is therefore tracking
+not only what households give up, but how costs, risks, information, ownership,
+and power move across society.
 
 ## The five reader umbrellas
 
@@ -233,6 +260,8 @@ The execution queue and source-unit rules are recorded in the [US broad research
 - That a household action changes trust, turnout, or a vote.
 - That a firm or policy caused the full later outcome rather than one step in it.
 - That an average effect applies equally by income, race, age, gender, disability, family, or place.
+- That infrastructure investment creates local capability rather than external dependence.
+- That care, housing, transport, or business changes produce the same meaning or political response across places.
 - That the readable web pages and the underlying research records stay synchronized as the findings deepen.
 
 ## The next research move
@@ -244,6 +273,21 @@ Choose a small number of bridges where the opening evidence is strongest and joi
 3. work rule or tool → worker control, pay, time, health, and household security;
 4. housing or energy cost → health, care, credit, and whether the household can stay;
 5. public aid or rule → take-up, daily use, sentiment, and political response.
+
+Across all five, the shared end-to-end schema is:
+
+```text
+condition or decision
+  -> exposure and available alternatives
+  -> money, time, access, control, or status change
+  -> household, consumer, worker, firm, place, or public response
+  -> distribution of cost, gain, risk, and ownership
+  -> cultural meaning, trust, political action, or state leverage
+```
+
+The schema is deliberately wider than a household panel. Use the same person,
+case, firm, place, or institution when the data support it; otherwise align
+separate layers by question and time while naming the missing join.
 
 For each bridge, find a serious counterexample. Then write only the part the records can carry.
 
