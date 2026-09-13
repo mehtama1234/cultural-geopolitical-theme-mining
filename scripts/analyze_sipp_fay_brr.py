@@ -28,6 +28,7 @@ LABELS = {
 }
 GROUP_LABELS = {
     "ERACE": {"1": "White alone", "2": "Black alone", "3": "Asian alone", "4": "Residual"},
+    "EDISABL": {"1": "work-limiting condition", "2": "no work-limiting condition"},
     "ETENURE": {"1": "owned or being bought", "2": "rented",
                  "3": "occupied without payment of rent"},
     "TEHC_REGION": {"1": "Northeast", "2": "Midwest", "3": "South", "4": "West"},
@@ -44,6 +45,7 @@ GROUP_FIELDS = {
     "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
     "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
     "ERACE_ETENURE_THINCPOV": ("ERACE", "ETENURE", "THINCPOV"),
+    "ERACE_EDISABL_THINCPOV": ("ERACE", "EDISABL", "THINCPOV"),
 }
 OFFICIAL_FLAG_FIELDS = {
     "EAWBMORT": "AAWBMORT",
@@ -52,6 +54,7 @@ OFFICIAL_FLAG_FIELDS = {
     "RFOODS": "AFOODS",
     "RMNUMJOBS": "AMNUMJOBS",
 }
+OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE"}
 FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
@@ -96,6 +99,25 @@ def official_field_valid(field: str, values: dict[str, str]) -> bool:
                 values.get("EFOOD3", "") == "1"):
             return False
     if field in {"RFOODS", "RMNUMJOBS"}:
+        try:
+            if float(values.get("TAGE_EHC", "")) < 15:
+                return False
+        except (TypeError, ValueError):
+            return False
+    return True
+
+
+def official_group_valid(group_by: str | None, values: dict[str, str]) -> bool:
+    if values.get("THHLDSTATUS", "") not in {"1", "2", "3", "4"}:
+        return False
+    group_fields = GROUP_FIELDS.get(group_by, ())
+    if "THINCPOV" in group_fields and values.get("AHINCPOV", "") in {"", "0"}:
+        return False
+    if "ERACE" in group_fields and values.get("ARACE", "") in {"", "0"}:
+        return False
+    if "EDISABL" in group_fields:
+        if values.get("ADISABL", "") in {"", "0"}:
+            return False
         try:
             if float(values.get("TAGE_EHC", "")) < 15:
                 return False
@@ -159,6 +181,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             required.add("AHINCPOV")
             if group_by in {"ERACE_THINCPOV", "ERACE_ETENURE_THINCPOV"}:
                 required.add("ARACE")
+            if group_by == "ERACE_EDISABL_THINCPOV":
+                required.update({"ARACE", "ADISABL"})
         if group_by:
             required.update(GROUP_FIELDS[group_by])
         missing = sorted(required - set(primary.fieldnames or []))
@@ -175,6 +199,10 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
             if official_universes:
                 primary_values.update({flag: prow.get(flag, "")
                                        for flag in OFFICIAL_FLAG_FIELDS.values()})
+                primary_values.update({field: prow.get(field, "")
+                                       for field in GROUP_FIELDS.get(group_by, ())})
+                primary_values.update({flag: prow.get(flag, "")
+                                       for flag in OFFICIAL_GROUP_FLAGS.values()})
                 primary_values.update({field: prow.get(field, "") for field in FOOD_SCREEN_FIELDS})
                 primary_values.update({flag: prow.get(flag, "") for flag in ("AFOOD1", "AFOOD2", "AFOOD3")})
                 primary_values["THHLDSTATUS"] = prow.get("THHLDSTATUS", "")
@@ -212,11 +240,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                                               dtype=np.float64, count=240)
                     accumulators = [overall]
                     group_valid = (not official_universes or
-                                   (primary_values.get("THHLDSTATUS", "") in {"1", "2", "3", "4"} and
-                                    ("THINCPOV" not in GROUP_FIELDS.get(group_by, ()) or
-                                     primary_values.get("AHINCPOV", "") not in ("", "0")) and
-                                    ("ERACE" not in GROUP_FIELDS.get(group_by, ()) or
-                                     primary_values.get("ARACE", "") not in ("", "0"))))
+                                   official_group_valid(group_by, primary_values))
                     if group_by and group and group_valid:
                         grouped.setdefault(group, new_accumulators(fields))
                         accumulators.append(grouped[group])
