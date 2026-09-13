@@ -21,6 +21,7 @@ has no establishments.
 - [Census County Business Patterns 2023](https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip), SHA-256: `e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603`.
 - [Census county population estimates 2020–2024](https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv), SHA-256: `abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9`.
 - Reproduction: `python3 scripts/analyze_cbp_county_all_sector_capacity.py --cbp /path/to/cbp23co.zip --population /path/to/co-est2024-alldata.csv`.
+- Employment reproduction: `PYTHONPATH=scripts python3 scripts/analyze_cbp_county_all_sector_employment.py --cbp /path/to/cbp23co.zip --population /path/to/co-est2024-alldata.csv`.
 
 ## 2023 county distributions
 
@@ -47,6 +48,41 @@ has no establishments.
 | Other services | 3,101 | 24.65 | 19.82 | 30.26 |
 | Unclassified | 628 | 0.30 | 0.21 | 0.51 |
 
+## Employment scale
+
+The same file reports employment for a different subset of sector/county rows.
+These figures use only numeric `emp` values and the same population denominator;
+they are not staffing adequacy or job-quality measures.
+
+| Sector | Numeric counties | Median employees per 10,000 | 25th percentile | 75th percentile |
+|---|---:|---:|---:|---:|
+| Agriculture, forestry, fishing, hunting | 1,905 | 6.83 | 1.97 | 22.62 |
+| Mining, quarrying, oil and gas | 1,386 | 13.04 | 3.72 | 67.64 |
+| Utilities | 1,814 | 18.38 | 10.49 | 34.37 |
+| Construction | 3,074 | 146.46 | 92.20 | 217.40 |
+| Manufacturing | 2,888 | 345.10 | 161.32 | 634.24 |
+| Wholesale trade | 2,905 | 101.92 | 53.82 | 176.24 |
+| Retail trade | 3,124 | 404.91 | 296.61 | 511.66 |
+| Transportation and warehousing | 3,002 | 84.45 | 45.09 | 163.81 |
+| Information | 2,588 | 27.69 | 16.12 | 49.28 |
+| Finance and insurance | 3,022 | 76.21 | 49.23 | 114.67 |
+| Real estate, rental, leasing | 2,754 | 26.07 | 14.11 | 48.28 |
+| Professional, scientific, technical | 3,012 | 69.47 | 41.14 | 121.82 |
+| Management of companies | 1,240 | 32.87 | 12.88 | 84.43 |
+| Administrative, support, waste management | 2,816 | 88.23 | 41.28 | 161.88 |
+| Educational services | 1,887 | 36.56 | 17.45 | 83.74 |
+| Health care and social assistance | 3,072 | 438.56 | 284.27 | 623.16 |
+| Arts, entertainment, recreation | 2,496 | 32.95 | 15.77 | 61.66 |
+| Accommodation and food | 3,083 | 290.86 | 185.35 | 413.69 |
+| Other services | 3,101 | 114.16 | 80.84 | 154.13 |
+| Unclassified | 628 | 0.36 | 0.19 | 0.67 |
+
+Employment and establishment presence can diverge. Retail and health/social
+assistance have similar broad numeric coverage, but their employment medians
+and the scale of each establishment can differ. That is a reason to carry both
+measures into the next place comparison rather than treating an establishment
+count as capacity by itself.
+
 ## What this adds
 
 1. Retail, construction, other services, health/social assistance, and food
@@ -64,10 +100,11 @@ has no establishments.
 
 ## Boundaries and next test
 
-Establishments are not services delivered. This profile does not measure
-employment size, hours, prices, quality, public provision, neighboring-county
+Establishments and reported employment are not services delivered. This profile
+does not measure hours, prices, quality, public provision, neighboring-county
 access, ownership, worker power, or local cultural/political meaning. Numeric
-coverage also varies by sector. Next, combine sector stocks with employment,
+coverage varies by sector and measure. Next, combine sector stocks with
+employment,
 openings/closings, rurality, travel, prices, public capacity, and actual use or
 unmet need. Preserve missingness and retain places where visible capacity does
 not produce practical access as counterexamples.
