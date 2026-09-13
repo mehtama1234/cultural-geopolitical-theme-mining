@@ -8,6 +8,15 @@ Use the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) to assign eac
 
 The [provisional societal trend register](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) is the current synthesis layer. It names recurring patterns across the source packets while keeping each missing join and next test visible.
 
+The cross-source [trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)
+is the current broad societal connector. It keeps material condition,
+attribution, trust, identity, consumer response, civic response, and
+institutional response as separate measurements, then identifies the missing
+same-respondent or same-case test between them. This preserves the program’s
+actual objective: explaining how conditions across households, consumers,
+workers, firms, institutions, places, and infrastructure become cultural and
+political patterns.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?

@@ -26,6 +26,15 @@ beside it.
 | 9 | **Technology expands capability and dependence together.** | World Bank, IEA, and the Romania/Malaysia cases connect AI to local complements, providers, capital, chips, electricity, data, and portability. | That infrastructure investment creates local skills, public control, jobs, or geopolitical leverage. | Compare ownership, local learning, energy/water costs, interoperability, service quality, and exit options. |
 | 10 | **The central scarce resource is optionality.** | Across SHED, SIPP, ATUS, CFPB, housing, work, food, business, and AI layers, security repeatedly depends on the ability to delay, switch, appeal, move, refuse, or absorb a shock. The SIPP race × resource layer now shows that material pressure and work status are distributed differently across intersecting resource and race groups, with replicate-weight uncertainty and documented field universes. | That optionality is one measurable latent factor, that it is uniformly declining, or that the SIPP intersections explain the mechanisms behind the differences. | Build separate indicators for cash, time, alternatives, rights, social help, and institutional voice; test their joint distribution and follow the strongest differences into remedy, recovery, trust, and action. |
 
+The cross-source [trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)
+now makes the broad interpretation explicit: material and institutional
+conditions do not become societal or political trends automatically. They are
+filtered through attribution, identity, information, trust, and available
+alternatives, then expressed through consumer, civic, and political action.
+This is a cross-source arrow map, not a same-person join; the next depth test
+is longitudinal measurement of exposure, interpretation, action, remedy, and
+later security or legitimacy.
+
 ## The broad causal shape to test
 
 ```text
