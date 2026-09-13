@@ -128,6 +128,26 @@ political motivation. The next executable version should pre-specify pooled
 regions or multi-election cells, use the replicate weights, and report both
 the group gap within place and the place gap within group.
 
+## Barrier mix by resources and mobility
+
+Table 10 also shows that the reported reason mix changes with social position.
+Among nonvoters in families under $10,000, illness or disability was 16.7%
+and schedule conflict 8.8%; among nonvoters in families at $150,000 or more,
+the corresponding figures were 3.7% and 19.5%. The high-income group also
+reported being out of town more often (14.7% versus 7.6%). The family-income
+section has a restricted relationship-to-householder universe and small lower
+income counts, so these are signals for further testing, not a causal income
+gradient.
+
+Education and residence duration show similar contrasts. Among nonvoters with
+less than a high-school education, illness/disability was 20.3% and schedule
+conflict 13.6%; among those with a bachelor's degree or more, the shares were
+9.2% and 19.0%. Among people living at their address for less than one year,
+registration problems were 9.8%, compared with 2.3% among those there three
+years or longer. Address duration is not citizenship, and these comparisons do
+not identify whether moving, registration design, work, or another factor came
+first.
+
 ## What this means for the broad program
 
 Political participation is not one outcome. The program now has separate
