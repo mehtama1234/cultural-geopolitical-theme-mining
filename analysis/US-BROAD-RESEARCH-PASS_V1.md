@@ -40,6 +40,12 @@ time, work loss, food or housing tradeoff, health, and job freedom separate.
 Its next test follows one dated event through the same person or family rather
 than treating an annual hardship measure as a complete causal story.
 
+The [aging, care supply, and social capacity bridge](projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md)
+extends this into a system-level comparison. It separates recipient, caregiver,
+family network, employer, provider workforce, agency, and public-meaning units,
+then tests whether care risk is absorbed by family time, paid work, employers,
+public infrastructure, or unmet need.
+
 The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
 adds the place-level connection across insurance, housing, energy, transport,
 local business, services, and political meaning. It distinguishes occupancy

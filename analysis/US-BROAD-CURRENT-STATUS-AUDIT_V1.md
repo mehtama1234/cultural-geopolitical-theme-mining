@@ -115,6 +115,12 @@ been causally joined.
   specifies direct evidence for belonging, fairness, attribution, trust,
   identity, and civic or policy action. It preserves the cultural-political
   endpoint instead of inferring meaning from demographic or housing statistics.
+- **Aging and care-system depth:** a new bridge organizes BLS eldercare scale,
+  ATUS time, NBER earnings evidence, employer accounts, HHS caregiver policy,
+  and HRSA capacity into recipient, caregiver, family, employer, provider,
+  agency, and public-meaning units. It identifies the missing same-family
+  record that would connect a recurring care need to work, health, security,
+  recipient outcomes, and political response.
 - **Time and civic availability:** ATUS time allocation is now explicitly
   compared with CPS schedule and health barriers, while the dated
   time-to-turnout link remains open.
