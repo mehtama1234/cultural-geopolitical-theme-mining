@@ -46,6 +46,11 @@ family network, employer, provider workforce, agency, and public-meaning units,
 then tests whether care risk is absorbed by family time, paid work, employers,
 public infrastructure, or unmet need.
 
+The [ATUS 2024 care/work acquisition record](projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md)
+locates the official microdata and specifies the next weighted care-versus-work
+estimate; the current environment's BLS ZIP access failure is recorded as an
+acquisition gap, not converted into an invented result.
+
 The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
 adds the place-level connection across insurance, housing, energy, transport,
 local business, services, and political meaning. It distinguishes occupancy

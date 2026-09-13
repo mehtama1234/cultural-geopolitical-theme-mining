@@ -24,6 +24,11 @@ aging or illness
 
 This is a short discovery pass. Go deeper only if the next records connect care to a later work, income, health, or public outcome.
 
+The [ATUS 2024 acquisition record](atus-2024-care-work-acquisition-record-v1.md)
+identifies the official respondent, activity, eldercare-roster, and ATUS-CPS
+files and records the current download access failure. It defines the bounded
+weighted care-versus-work estimate to run once the data are available.
+
 ## First working idea
 
 Care may be a second job that is spread unevenly through families. Its cost can appear as lost earnings, less saving, changed housing, or fewer choices rather than as a care bill. This is a working idea, not a conclusion.

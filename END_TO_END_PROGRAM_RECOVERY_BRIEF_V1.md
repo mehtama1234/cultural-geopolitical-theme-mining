@@ -100,6 +100,8 @@ cross-theme layers:
 - [care cost, work, family time, and security](analysis/projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md): how social reproduction distributes health costs across money, work, unpaid labor, food, housing, and dignity;
 
 - [aging, care supply, and social capacity](analysis/projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md): how demographic need becomes family time, paid-care work, employer constraint, public infrastructure, unmet need, and political meaning across separate units;
+
+- [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the exact official microdata targets and bounded weighted estimate for the care-versus-work layer, with the current BLS download failure preserved as an acquisition gap.
 - [place risk, housing security, mobility, and local life](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): how risk and cost shape secure staying, moving, transport, services, and local attachment;
 - [optionality, unequal exposure, time, and exit](analysis/projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md): the distributional spine of cash, time, alternatives, support, rights, voice, and practical exit; and
 - [consumer culture, trust, status, and everyday power](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md): how buying, sharing, reviewing, reporting, help-seeking, and staying become social and institutional signals.
