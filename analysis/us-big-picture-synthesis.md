@@ -134,6 +134,13 @@ add two missing societal domains. Care is distributed through work and family
 time; place risk is distributed through protection, repair, transport, local
 services, and mobility. Neither can be reduced to a household bill or a move.
 
+The [published 2023–2024 ATUS care/work layer](projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md)
+adds a population-scale care baseline: 38.2 million people reported recent
+eldercare, with different intensity and recipient patterns by employment,
+frequency, and household relationship. This strengthens care as a societal
+infrastructure question while leaving the same-person displacement and
+recovery arrows open.
+
 The [optionality layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md)
 connects the distributional evidence across the map. It asks who has the cash,
 time, alternatives, support, rights, voice, and practical exit needed to turn a
