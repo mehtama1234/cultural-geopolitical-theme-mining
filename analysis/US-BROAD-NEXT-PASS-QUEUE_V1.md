@@ -58,6 +58,11 @@ The next place step is to add housing supply, travel, wages, provider
 adequacy, and direct belonging/action measures to capacity-keeping-pace versus
 capacity-lagging comparisons.
 
+The place screen also has a housing/capacity option-stack layer with ACS
+vacancy, rent, crowding, and language-access measures. The next step is a
+larger conditioned place panel with travel, wages, permits, provider adequacy,
+and direct local meaning/action measures.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish

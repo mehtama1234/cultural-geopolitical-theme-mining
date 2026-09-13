@@ -251,6 +251,11 @@ been causally joined.
   every high-growth cell, while the foreign-born axis is non-monotonic. This
   separates demographic proxies and adds a place counterexample without calling
   population change a migration effect.
+- **Housing/capacity option stack:** the selected migration-place screen now
+  adds official ACS vacancy to rent, crowding, language-access, sector-capacity,
+  and HPSA fields. Higher-growth counties have higher median rent and lower
+  median vacancy in this selected set, but individual fast-growth places vary
+  sharply. Vacancy, provider presence, and lived access remain distinct.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

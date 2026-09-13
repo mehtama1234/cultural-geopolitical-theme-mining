@@ -220,6 +220,13 @@ assistance employment contrast by growth quartile than by foreign-born share,
 while retail and food patterns are less uniform. This is a counterexample to
 using one “migration pressure” axis and remains a descriptive place result.
 
+The [matched-place housing/capacity option-stack layer](matched-place-housing-capacity-option-stack-v1.md)
+adds ACS vacancy, rent, crowding, and limited-English measures to the same
+screen. Higher-change counties have higher median rent and lower median vacancy
+in this selected set, but fast-growth places range from low-vacancy/high-rent
+conditions to high-vacancy conditions. Housing stock, provider presence, and
+language-access need therefore remain separate practical-access questions.
+
 Use the matched-place design with a pre/post window and add, in order:
 
 - Census population estimates and ACS population composition, nativity,

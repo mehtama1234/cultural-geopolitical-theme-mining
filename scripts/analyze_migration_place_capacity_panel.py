@@ -42,6 +42,7 @@ def main() -> None:
     parser.add_argument("--nativity", type=Path, help="ACS table-based B05002 pipe file")
     parser.add_argument("--arrival", type=Path, help="ACS table-based B05005 pipe file")
     parser.add_argument("--rent", type=Path, help="ACS table-based B25064 pipe file")
+    parser.add_argument("--vacancy", type=Path, help="ACS table-based B25002 pipe file")
     parser.add_argument("--crowding", type=Path, help="ACS table-based B25014 pipe file")
     parser.add_argument("--language", type=Path, help="ACS table-based C16001 pipe file")
     parser.add_argument("--bfs", type=Path, help="Census county BFS annual applications workbook")
@@ -101,6 +102,16 @@ def main() -> None:
                 if match and row["B25064_E001"].isdigit():
                     rent[match.group(1)] = int(row["B25064_E001"])
 
+    vacancy = {}
+    if args.vacancy:
+        with args.vacancy.open(newline="", encoding="latin1") as handle:
+            for row in csv.DictReader(handle, delimiter="|"):
+                match = re.fullmatch(r"0500000US(\d{5})", row["GEO_ID"])
+                fields = ("B25002_E001", "B25002_E003")
+                if match and all(row[field].isdigit() for field in fields):
+                    total, vacant = int(row[fields[0]]), int(row[fields[1]])
+                    vacancy[match.group(1)] = 100 * vacant / total if total else None
+
     crowding = {}
     if args.crowding:
         with args.crowding.open(newline="", encoding="latin1") as handle:
@@ -149,7 +160,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\tbds_estabs_entry_rate_2023\tbds_estabs_exit_rate_2023\tbds_net_job_creation_rate_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k\tretail_emp_per_10k\thealth_emp_per_10k\tfood_emp_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tvacant_units_pct_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\tbds_estabs_entry_rate_2023\tbds_estabs_exit_rate_2023\tbds_net_job_creation_rate_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k\tretail_emp_per_10k\thealth_emp_per_10k\tfood_emp_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -164,6 +175,7 @@ def main() -> None:
             foreign_born = "" if key not in nativity else f"{nativity[key]:.2f}"
             recent = "" if key not in recent_arrival else f"{recent_arrival[key]:.2f}"
             median_rent = "" if key not in rent else str(rent[key])
+            vacant = "" if key not in vacancy else f"{vacancy[key]:.2f}"
             crowded = "" if key not in crowding else f"{crowding[key]:.2f}"
             limited = "" if key not in limited_english else f"{limited_english[key]:.2f}"
             all_est = capacity.get(key, {}).get("------_est")
@@ -176,7 +188,7 @@ def main() -> None:
             entry_rate = bds_row.get("estabs_entry_rate", "")
             exit_rate = bds_row.get("estabs_exit_rate", "")
             net_job_rate = bds_row.get("net_job_creation_rate", "")
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, entry_rate, exit_rate, net_job_rate, str(rucc[key]), "yes" if key in hpsa else "no", *values, *employment_values]))
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, vacant, crowded, limited, apps_23, apps_25, entry_rate, exit_rate, net_job_rate, str(rucc[key]), "yes" if key in hpsa else "no", *values, *employment_values]))
 
 
 if __name__ == "__main__":
