@@ -245,6 +245,12 @@ been causally joined.
   administrative routes show different profiles, but only 217 of 437 entry
   pairs and 188 of 387 exit pairs have classified reasons. This deepens the
   mechanism arrow without supplying notice, route effort, remedy, or meaning.
+- **Public-system intersectional depth:** a follow-up SIPP Fay-BRR run adds
+  race to work limitation × children × SNAP transition, producing 64 weighted
+  cells from 294,814 adjacent-month pairs. Stable-state hardship patterns are
+  not reducible to one receipt or demographic average; rare entry/exit cells
+  remain too sparse for ranking. The episode-level notice, effort, remedy,
+  interpretation, and action fields remain open.
 - **Same-respondent material/care depth:** the SHED 2024–2025 panel now
   compares financial-condition paths with health direction and unpaid adult-
   care entry/exit for 4,419 respondents. Most health categories remain stable

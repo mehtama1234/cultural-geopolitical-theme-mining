@@ -24,6 +24,7 @@ KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 TRANSITIONS = ("no -> no", "no -> yes", "yes -> no", "yes -> yes")
 GROUPS = {
     "EDISABL_RHNUMU18": ("EDISABL", "RHNUMU18"),
+    "ERACE_EDISABL_RHNUMU18": ("ERACE", "EDISABL", "RHNUMU18"),
 }
 OUTCOMES = {
     "EAWBMORT": "unable to pay rent or mortgage",
@@ -48,7 +49,13 @@ def group_key(row: dict[str, str], group_by: str | None) -> str:
     children = row.get("children", "")
     if disability not in {"1", "2"} or children not in {"0", "1"}:
         return ""
-    return f"{disability}|{'children_1plus' if children == '1' else 'children_0'}"
+    child_label = "children_1plus" if children == "1" else "children_0"
+    if group_by == "ERACE_EDISABL_RHNUMU18":
+        race = row.get("race", "")
+        if race not in {"1", "2", "3", "4"}:
+            return ""
+        return f"{race}|{disability}|{child_label}"
+    return f"{disability}|{child_label}"
 
 
 def summarize(numerator: float, denominator: float, rep_num: np.ndarray,
@@ -82,6 +89,8 @@ def analyze(primary_path: Path, replicate_zip: Path,
                                 "EAWBMORT", "EAWBGAS"}
         if group_by:
             required.update({"EDISABL", "ADISABL", "RHNUMU18", "AHNUMU18", "TAGE_EHC"})
+            if group_by == "ERACE_EDISABL_RHNUMU18":
+                required.update({"ERACE", "ARACE"})
         missing = sorted(required - set(reader.fieldnames or []))
         if missing:
             raise ValueError("primary slice is missing fields: " + ", ".join(missing))
@@ -103,6 +112,8 @@ def analyze(primary_path: Path, replicate_zip: Path,
                 "gas_flag": row.get("AAWBGAS", ""),
                 "disabl": row.get("EDISABL", ""),
                 "disabl_flag": row.get("ADISABL", ""),
+                "race": row.get("ERACE", ""),
+                "race_flag": row.get("ARACE", ""),
                 "children": ("1" if row.get("RHNUMU18", "") not in {"", "0"} else "0"),
                 "children_flag": row.get("AHNUMU18", ""),
                 "age": row.get("TAGE_EHC", ""),
@@ -113,10 +124,16 @@ def analyze(primary_path: Path, replicate_zip: Path,
     pair_data: dict[tuple[str, str, str, str, str], tuple[str, str, dict[str, bool]]] = {}
     buckets = list(TRANSITIONS)
     if group_by:
-        buckets = [f"{transition}|{group}"
-                   for transition in TRANSITIONS
-                   for group in ("1|children_0", "1|children_1plus",
-                                 "2|children_0", "2|children_1plus")]
+        if group_by == "ERACE_EDISABL_RHNUMU18":
+            groups = [f"{race}|{disability}|{children}"
+                      for race in ("1", "2", "3", "4")
+                      for disability in ("1", "2")
+                      for children in ("children_0", "children_1plus")]
+        else:
+            groups = [f"{disability}|{children}"
+                      for disability in ("1", "2")
+                      for children in ("children_0", "children_1plus")]
+        buckets = [f"{transition}|{group}" for transition in TRANSITIONS for group in groups]
     full_num = {b: {o: 0.0 for o in OUTCOMES} for b in buckets}
     full_den = {b: {o: 0.0 for o in OUTCOMES} for b in buckets}
     records = {b: {o: 0 for o in OUTCOMES} for b in buckets}
@@ -130,6 +147,8 @@ def analyze(primary_path: Path, replicate_zip: Path,
                 continue
             if group_by and (before["disabl_flag"] in {"", "0"} or
                              before["children_flag"] in {"", "0"}):
+                continue
+            if group_by == "ERACE_EDISABL_RHNUMU18" and before["race_flag"] in {"", "0"}:
                 continue
             try:
                 if group_by and float(before["age"]) < 15:

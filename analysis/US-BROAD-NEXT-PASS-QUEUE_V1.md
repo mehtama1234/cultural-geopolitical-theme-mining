@@ -159,6 +159,13 @@ It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is
 the same-episode notice, effort, amount, remedy, interpretation, and action
 ledger; another receipt cross-tab should not be treated as a substitute.
 
+The follow-up [race × work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-race-disability-children-fay-brr-layer-v1.md)
+adds 64 cells and shows why the public-system distribution cannot be reduced to
+one disability, race, or receipt average. Stable-state cells are interpretable;
+rare entry/exit cells remain a design signal because their uncertainty is wide.
+The next step is still the same-episode ledger, not an unbounded pile of
+cross-tabs.
+
 The [SNAP reason × following-hardship layer](projects/us-safety-net-access/sipp-snap-transition-reason-outcome-fay-brr-layer-v1.md)
 now connects recorded entry/exit reasons to the following hardship fields on
 the same adjacent-month person record. It separates job loss, income loss,
