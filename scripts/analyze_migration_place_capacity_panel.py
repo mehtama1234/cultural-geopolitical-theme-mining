@@ -45,6 +45,7 @@ def main() -> None:
     parser.add_argument("--crowding", type=Path, help="ACS table-based B25014 pipe file")
     parser.add_argument("--language", type=Path, help="ACS table-based C16001 pipe file")
     parser.add_argument("--bfs", type=Path, help="Census county BFS annual applications workbook")
+    parser.add_argument("--bds", type=Path, help="Census BDS annual state CSV")
     parser.add_argument("--min-population", type=int, default=100_000)
     parser.add_argument("--n", type=int, default=10)
     args = parser.parse_args()
@@ -134,6 +135,12 @@ def main() -> None:
                 item[f"{row['naics']}_emp"] = int(row["emp"]) if row["emp"].isdigit() else None
 
     bfs = read_bfs(args.bfs) if args.bfs else {}
+    bds = {}
+    if args.bds:
+        with args.bds.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                if row.get("year") == "2023" and row.get("st"):
+                    bds[row["st"]] = row
 
     eligible = []
     for key, (pop20, pop23) in population.items():
@@ -142,7 +149,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\tbds_estabs_entry_rate_2023\tbds_estabs_exit_rate_2023\tbds_net_job_creation_rate_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -161,7 +168,11 @@ def main() -> None:
                 apps_25 = f"{100 * bfs[key][2] / all_est:.2f}"
             else:
                 apps_23 = apps_25 = ""
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
+            bds_row = bds.get(key[:2], {})
+            entry_rate = bds_row.get("estabs_entry_rate", "")
+            exit_rate = bds_row.get("estabs_exit_rate", "")
+            net_job_rate = bds_row.get("net_job_creation_rate", "")
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, entry_rate, exit_rate, net_job_rate, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
 
 
 if __name__ == "__main__":

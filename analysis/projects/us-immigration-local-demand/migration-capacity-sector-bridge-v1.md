@@ -63,7 +63,8 @@ python3 scripts/analyze_migration_place_capacity_panel.py \
   --rent /tmp/acsdt5y2023-b25064.dat \
   --crowding /tmp/acsdt5y2023-b25014.dat \
   --language /tmp/acsdt5y2023-c16001.dat \
-  --bfs /tmp/bfs_county_apps_annual.xlsx --n 6
+  --bfs /tmp/bfs_county_apps_annual.xlsx \
+  --bds /tmp/bds2023_st.csv --n 6
 ```
 
 The script labels the population measure as a proxy on purpose. The ACS field
@@ -107,6 +108,29 @@ application intensity, while others do not; some declining counties also show
 high intensity. The next step is to attach realized BDS openings, closures,
 employment, and survival before interpreting applications as local economic
 capacity.
+
+## Realized firm dynamics at state context
+
+County-level BDS dynamics are not available in the current release used here,
+so the selected counties are attached to their state's 2023 BDS rates. This is
+context, not a county estimate and not a county causal effect.
+
+| State represented in screen | BDS entry rate % | BDS exit rate % | BDS net job creation rate % |
+|---|---:|---:|---:|
+| California | 11.401 | 10.256 | 1.440 |
+| Missouri | 10.032 | 9.576 | 2.578 |
+| New York | 10.530 | 9.691 | 3.341 |
+| Louisiana | 8.934 | 8.056 | 3.170 |
+| Mississippi | 9.077 | 8.544 | 1.460 |
+| Texas | 11.850 | 9.394 | 3.815 |
+| Florida | 13.105 | 10.909 | 3.784 |
+
+The state context adds a realized stage to the story: entry, exit, and net job
+creation are distinct from applications and from county establishment stocks.
+It still cannot tell us which counties, sectors, owners, workers, or residents
+received the gains or absorbed the churn. The next firm pass should use BDS
+metro/sector data or a later county-capable release, then add wages, survival,
+ownership, and service outcomes.
 
 ## The bridge
 
@@ -171,6 +195,7 @@ individual-level causal join.
 - [Census ACS 2023 five-year table-based B25014 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25014.dat), SHA-256: `6c7b5b56a5b0cabb44c99ca48c9bc7961f6ff347bc658f18eef9212aaee3c8ba`
 - [Census ACS 2023 five-year table-based C16001 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-c16001.dat), SHA-256: `895422f304c56dde8038269259ebe03bb28407be325adfa48d7e5e2292b055fe`
 - [Census Business Formation Statistics county applications](https://www.census.gov/econ/bfs/xlsx/bfs_county_apps_annual.xlsx), SHA-256: `327cd7fb8877da4e8d6e82bbe5737c2c78138ff03bd8cd0e68d7707ec3451f5e`
+- [Census Business Dynamics Statistics 2023 state CSV](https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st.csv), SHA-256: `9e0c86610ee685c2f7c8c4dec60bd213177cd8644fe539e5f66457efc8ef603c`
 - [CBP county essential-sector capacity layer](../us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md)
 - [CBP rural/urban capacity profile](../us-local-business-place/cbp-capacity-rural-urban-profile-v1.md)
 - [CBP–HRSA primary-care shortage bridge](../us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md)
