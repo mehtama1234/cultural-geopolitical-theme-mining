@@ -2,8 +2,8 @@
 
 **Checked:** 2026-09-13
 **Scope:** many-family US longitudinal comparison, not a single-household case
-**Status:** pre-acquisition specification; variable names require codebook
-verification
+**Status:** pre-acquisition specification; 2023 Family File names are mapped
+where verified, while 2019/2021 names and all universes still require checks
 
 ## Research question
 
@@ -33,23 +33,23 @@ remain explicit.
 
 ## Candidate field groups
 
-The following labels are taken from the 2019–2023 questionnaires. The data
-extract must map each label to the released variable name and code frame before
-analysis.
+The following questionnaire labels are now partially mapped to the 2023 Family
+File codebook. The 2019 and 2021 mappings still require the corresponding
+codebook check before pooling.
 
 | Domain | Candidate questionnaire fields | Derived analytic measure | Unit |
 |---|---|---|---|
 | Employment timing | Section BC employer records; start/end year, month, and day fields | job start/stop between waves; timing precision flag | person-job-wave |
 | Paid work | BC60A typical-week paid hours; historical job hours/weeks | paid hours and change since prior wave | person-wave |
-| Work location/commute | BC21 work-from-home and commute questions | home-work indicator, commute burden, missing/unknown timing | person-job-wave |
+| Work location/commute | `ER82183` BC21B1 commute/work-from-home; `ER82184` BC21B2 work-from-home frequency; `ER82185` average commute time | home-work indicator, commute burden, missing/unknown timing | person-job-wave |
 | Work pressure/control proxy | BC60B–BC60E interaction, physical demand, mental demand, and rushed-at-work items | reported work-intensity and time-pressure scale; not labeled control without validation | person-wave |
-| Household labor | F1A typical-week housework | unpaid household labor hours and change | person-wave |
-| Personal health time | F1B typical-week personal care/health-needs time | self-care time | person-wave |
-| Consumer/service effort | F1C typical-week shopping time | shopping/service effort time | person-wave |
-| Child care | F1D typical-week child-care hours; F7/F7MO child-care spending and months | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
-| Adult care | F1D2 typical-week adult-care hours | unpaid adult-care time | person-wave |
-| Social/civic availability | F1E volunteering; F1G leisure; F1H interaction outside work; F5 family meals | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
-| Perceived time scarcity | F1K feeling rushed outside work; BC60E rushed at work | time-pressure indicators by work status | person-wave |
+| Household labor | `ER82788` F1A typical-week housework | unpaid household labor hours and change | person-wave |
+| Personal health time | `ER82790` F1B typical-week personal care/health-needs time | self-care time | person-wave |
+| Consumer/service effort | `ER82791` F1C typical-week shopping time | shopping/service effort time | person-wave |
+| Child care | `ER82792` F1D typical-week child-care hours; `ER82818` annual paid child-care amount; `ER82820`–`ER82831` monthly paid-care items | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
+| Adult care | `ER82793` F1D2 typical-week adult-care hours | unpaid adult-care time | person-wave |
+| Social/civic availability | `ER82794` F1E volunteering; `ER82796` F1G leisure; `ER82797` F1H interaction outside work; F5 family meals | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
+| Perceived time scarcity | `ER82800` F1K feeling rushed outside work; BC60E rushed at work | time-pressure indicators by work status | person-wave |
 | Material room | Section F expenditures; Section G income; Section W wealth/assets | income, selected essential spending, wealth/buffer bands, missingness | family/person-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
 | Family composition | coverscreen family-unit status, births, moves, spouse/partner, children | care exposure, household change, mover-out/mover-in flags | person/family-wave |
