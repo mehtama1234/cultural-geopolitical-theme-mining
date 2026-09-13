@@ -110,6 +110,13 @@ It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is
 care hours, schedule control, and genuine monthly work or benefit transitions;
 household members under 18 must not be treated as a direct care measure.
 
+The place/public/politics lane has a distinct [CPS participation-friction
+baseline](projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md).
+It separates reported voting, registration, schedule, health, transport,
+administrative, and candidate-related barriers. The next missing step is a
+same-person or repeated-election design linking a defined material or
+institutional exposure to interpretation, civic action, and vote.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
