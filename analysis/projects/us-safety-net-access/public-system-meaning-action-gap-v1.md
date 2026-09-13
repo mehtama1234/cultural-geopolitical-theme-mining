@@ -39,6 +39,13 @@ reported vote. Those respondents and episodes are not the SIPP participants,
 and the surveys do not identify the same benefit encounter. The correct result
 is a staged population map, not a hidden join.
 
+The new [transition-to-hardship comparison](sipp-snap-transition-outcome-fay-brr-layer-v1.md)
+adds a measured downstream material stage: hardship in the recorded month after
+the SNAP transition. It sharpens the boundary in both directions. Entry is
+associated with a high-pressure group, while exit does not reliably coincide
+with restored rent/mortgage or utility security. Neither pattern identifies
+the program's effect or the person's interpretation of the encounter.
+
 ## What the combined evidence supports
 
 1. **Participation has multiple mechanisms.** Entry and exit cannot be

@@ -232,6 +232,13 @@ been causally joined.
   averaged 2.84 hours on days they provided care; the table establishes care
   scale and time intensity, not that care displaced work or caused civic or
   political withdrawal. The next microdata gate remains open.
+- **Public-system transition-to-hardship depth:** the 2025 SIPP person-month
+  slice now compares SNAP entry, exit, and stable states with rent/mortgage and
+  utility hardship in the recorded following month using Fay-BRR intervals.
+  Entry pairs show higher hardship than stable nonreceipt, while exit pairs do
+  not return to that baseline. This adds a material downstream stage but not a
+  program effect, because notices, effort, benefit amounts, field universes,
+  and same-episode interpretation remain unobserved.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

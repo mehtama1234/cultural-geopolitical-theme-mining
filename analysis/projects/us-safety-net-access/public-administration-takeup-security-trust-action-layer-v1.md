@@ -1,6 +1,6 @@
 # Public administration, take-up, security, and political feedback layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Status:** cross-source public-systems synthesis; not a complete benefit-to-vote causal estimate
 
 ## The broad question
@@ -95,6 +95,16 @@ administration to the broader optionality and consumer-recourse themes.
 | Administrative encounter → interpretation | Open/partly reported | Fairness, dignity, blame, trust, and legitimacy require direct post-encounter measures. |
 | Interpretation → public/political action | Compared/open | ANES and civic layers provide separate judgment and action measures; the program episode is not yet linked to them. |
 | Political response → policy redesign | Open | Institutional feedback requires observing subsequent rule, budget, enforcement, or access changes. |
+
+## New transition-to-hardship comparison
+
+The [SIPP SNAP transition × following material hardship Fay-BRR layer](sipp-snap-transition-outcome-fay-brr-layer-v1.md)
+adds a time-ordered person-month comparison. In the observed data, entry pairs
+show higher following-month rent/mortgage and utility hardship than stable
+nonreceipt pairs; exit pairs do not return to the stable-nonreceipt baseline,
+and utility hardship remains similar to the entry group. This is a descriptive
+selection pattern, not a SNAP effect. The transition record still lacks notice,
+effort, amount, remedy, interpretation, and action.
 
 ## Next bounded event-ledger test
 

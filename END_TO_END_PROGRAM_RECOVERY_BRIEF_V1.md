@@ -116,6 +116,7 @@ cross-theme layers:
 - [consumer culture, trust, status, and everyday power](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md): how buying, sharing, reviewing, reporting, help-seeking, and staying become social and institutional signals.
 
 - [public administration, take-up, security, and political feedback](analysis/projects/us-safety-net-access/public-administration-takeup-security-trust-action-layer-v1.md): how notice, route, burden, receipt, interruption, exit, material security, trust, and political response fit together.
+- [SNAP transition and following hardship](analysis/projects/us-safety-net-access/sipp-snap-transition-outcome-fay-brr-layer-v1.md): a Fay-BRR person-month comparison that adds rent/mortgage and utility hardship after observed receipt transitions, while preserving selection and same-episode gaps.
 
 - [migration, local demand, housing, services, and belonging](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md): how new residents can add workers, customers, firms, public needs, local capability, and cultural or political pressure at the same time.
 

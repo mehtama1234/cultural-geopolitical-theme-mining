@@ -41,6 +41,12 @@ That baseline advances population scale and time intensity, but does not
 replace the microdata gate for same-respondent schedule, care, health, and
 wellbeing comparisons.
 
+The public-system lane now has a bounded transition-to-hardship estimate in
+the [SIPP SNAP outcome layer](projects/us-safety-net-access/sipp-snap-transition-outcome-fay-brr-layer-v1.md).
+The next missing public-system stage is the same-episode record of notice,
+effort, amount, remedy, interpretation, and action—not another cross-sectional
+receipt table.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish
