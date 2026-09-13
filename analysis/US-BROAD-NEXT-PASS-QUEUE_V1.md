@@ -131,6 +131,15 @@ worker group, occupation, industry, and state. The next missing step is a
 worker-event comparison linking a tool, schedule, benefit, or safety change to
 control, voice, household security, and exit.
 
+The [BFS–BDS sector divergence layer](projects/us-local-business-place/bfs-bds-sector-divergence-layer-v1.md)
+adds a full 19-sector comparison of application volume, realized openings and
+closings, and net-job intensity. It makes the counterexample explicit: retail
+has the largest application count but modest net-job intensity, while health
+care/social assistance and accommodation/food have much larger net-job
+intensity; administrative/support has positive entry minus exit but negative
+net job creation. The next step is firm-level and place-level matching with
+ownership, service access, wages, quality, and worker control.
+
 The material/time/inequality lane now has a design-based SIPP intersection in
 the [work limitation × children × resources layer](projects/us-household-calendar-integration/sipp-fay-brr-disability-children-resource-layer-v1.md).
 It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is

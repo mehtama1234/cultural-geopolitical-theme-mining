@@ -24,6 +24,16 @@ income bands, while paid-care incidence rises at higher income and help is more
 concentrated in lower-income bands. This is a conditional-universe diagnostic,
 not evidence that tenure or income caused a work constraint.
 
+**Latest sector-flow conditioning:** the [BFS–BDS sector divergence layer](projects/us-local-business-place/bfs-bds-sector-divergence-layer-v1.md)
+shows that application volume, realized establishment flow, and net-job
+intensity diverge across the full 19-sector national file. Retail leads on
+applications but not net-job intensity; health care/social assistance and
+accommodation/food are much higher on the latter measure; administrative/
+support combines positive entry-minus-exit with negative net jobs. This
+strengthens the provisional claim that business activity has different social
+meanings by sector, while leaving local access, quality, ownership, and worker
+power unmeasured.
+
 ## The current provisional trends
 
 | # | Provisional trend | Evidence currently supports | It does not yet establish | Next test |

@@ -271,6 +271,13 @@ been causally joined.
   sectors, preserving negative net-job outcomes and the non-conversion meaning
   of the application/opening ratio before selecting local service or political
   cases.
+- **Sector-flow divergence depth:** a follow-up BFS–BDS metric layer now
+  compares openings and net jobs per 100 applications across all 19 sectors.
+  Retail has high application volume but modest net-job intensity, while health
+  care/social assistance and accommodation/food are much higher; administrative/
+  support has positive establishment entry minus exit but negative net jobs.
+  These are national flow contrasts, not firm survival, service access, wage,
+  or worker-power estimates.
 - **Firm scale and care adequacy:** CBP now adds employees per establishment by
   sector and rurality; the CBP–HRSA bridge also shows that establishment
   presence and rough employment scale do not resolve primary-care adequacy.
