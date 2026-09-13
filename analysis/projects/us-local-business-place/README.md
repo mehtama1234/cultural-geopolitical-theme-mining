@@ -77,3 +77,8 @@ The [BFS–BDS sector bridge](bfs-bds-sector-bridge-v1.md) adds the national
 industry dimension. It shows why application volume, realized openings,
 turnover, and job growth must be read differently across retail, care, food,
 transport, construction, and manufacturing.
+
+The [BDS state-sector turnover profile](bds-state-sector-turnover-profile-v1.md)
+adds geographic depth: selected sectors have different entry, exit, and net-job
+patterns across states, so a national growth signal cannot be treated as one
+uniform social experience.

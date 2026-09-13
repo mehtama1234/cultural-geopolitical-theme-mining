@@ -174,6 +174,8 @@ The [BFS–BDS state stage comparison](projects/us-local-business-place/bfs-bds-
 
 The [BFS–BDS sector bridge](projects/us-local-business-place/bfs-bds-sector-bridge-v1.md) adds the national industry dimension. It finds a sharp difference between application volume and realized job dynamics across retail, care, food, transport, construction, and manufacturing, giving the broader program sector-specific hypotheses rather than one generic entrepreneurship trend.
 
+The [BDS state-sector turnover profile](projects/us-local-business-place/bds-state-sector-turnover-profile-v1.md) adds the geographic dimension inside sectors. In 2023, transportation had exit above entry in 36 of 51 states while food services had positive median net job growth and no negative-net states in the selected profile; these are descriptive starting points for matched place and consumer-access tests.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.
