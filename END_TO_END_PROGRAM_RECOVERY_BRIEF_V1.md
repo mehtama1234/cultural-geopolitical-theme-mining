@@ -112,6 +112,8 @@ cross-theme layers:
 
 - [economic adaptation, perception, and public action](analysis/projects/us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md): how consumer adjustment, economic judgment, institutional trust, cultural meaning, and civic or political action form separate population-level arrows that still require a longitudinal middle.
 
+- [ANES panel judgment and action](analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md): official SDA weighted descriptive cross-tabs compare pre-election financial worry with federal-government trust and later reported presidential vote choice in the panel; causal attribution remains open.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

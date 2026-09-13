@@ -89,11 +89,13 @@ weight and that negative codes such as no post interview, refusal, and
 inapplicable must remain missing-status codes.
 
 The official page remains the acquisition source. A browser-accessible SDA
-analysis interface is recorded as a possible analysis route, but it is not a
-substitute for archiving the current public-use file and codebook. Until the
-current panel release is obtained locally, this record supports source
-selection and variable mapping only, not new ANES panel estimates. The next
-acquisition target is the [2016–2020–2024 Panel Merged File](https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/), using its CSV release and repeated-variable list.
+analysis interface is recorded as an analysis route, but it is not a
+substitute for archiving the current public-use file and codebook. Official
+SDA descriptive cross-tabs are now recorded separately in the [ANES panel
+judgment and action layer](anes-2024-panel-judgment-action-layer-v1.md).
+Local microdata reproduction remains open until the current panel release is
+obtained and archived with its checksum, release date, repeated-variable list,
+and codebook.
 
 ## What this still cannot establish alone
 
