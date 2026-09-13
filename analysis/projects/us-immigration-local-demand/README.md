@@ -20,4 +20,5 @@ The [migration, local demand, and sector capacity bridge](migration-capacity-sec
 adds the first 12-county population-change screening table. The accompanying
 [`analyze_migration_place_capacity_panel.py`](../../../../scripts/analyze_migration_place_capacity_panel.py)
 script is reproducible and explicitly treats total population change as a
-proxy until ACS nativity and arrival measures are added.
+proxy while adding the ACS five-year foreign-born share; arrival timing and
+local demand remain separate fields to add.
