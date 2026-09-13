@@ -107,6 +107,35 @@ def analyze(old_path: Path, new_path: Path) -> dict:
                 if clean(pair["old"].get(field)) in {"Yes", "No"} and
                    clean(pair["new"].get(field)) in {"Yes", "No"}]
         results[name] = binary_transition(rows)
+    # Descriptive next-year condition comparison: did a 2024 adaptation
+    # coincide with a different 2025 financial-condition distribution?
+    condition_labels = ORDERS["B2"]
+    adaptation_to_condition = {}
+    for name, (field, _) in METRICS.items():
+        rows = [("Yes" if clean(pair["old"].get(field)) == "Yes" else "No",
+                 clean(pair["new"].get("B2")), pair["panel_weight"])
+                for pair in pairs
+                if clean(pair["old"].get(field)) in {"Yes", "No"} and
+                   clean(pair["new"].get("B2")) in condition_labels]
+        adaptation_to_condition[name] = weighted_transition(rows)
+        for state in ["No", "Yes"]:
+            row_total = sum(adaptation_to_condition[name]["cells"][state][condition]["weighted_row_share_percent"]
+                            for condition in condition_labels
+                            if adaptation_to_condition[name]["cells"][state][condition]["weighted_row_share_percent"] is not None)
+            if round(row_total, 6) not in {0, 100}:
+                raise AssertionError(f"condition row does not sum to 100 for {name}/{state}: {row_total}")
+    results["adaptation_to_2025_financial_condition"] = {
+        name: {
+            "paired_rows": value["paired_rows"],
+            "weighted_denominator": value["weighted_denominator"],
+            "row_shares_2025": {
+                state: {condition: value["cells"][state][condition]["weighted_row_share_percent"]
+                        for condition in condition_labels}
+                for state in ["No", "Yes"]
+            },
+        }
+        for name, value in adaptation_to_condition.items()
+    }
     return {
         "format": "us-shed-panel-price-persistence-v1",
         "source_unit": "SHED respondent recontact panel, 2024 to 2025",

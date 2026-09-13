@@ -50,6 +50,30 @@ ways. The high persistence among prior adopters is evidence of repeated
 reported states, not proof of a permanent condition or a particular price
 cause.
 
+## 2024 adaptation and 2025 financial condition
+
+The panel also lets us compare next-year condition by whether a respondent
+reported an adaptation in 2024. These are row percentages, not causal effects.
+
+| 2024 report | Difficult in 2025 | Just getting by | Doing okay | Comfortable |
+|---|---:|---:|---:|---:|
+| Increased borrowing: No | 5.0% | 14.4% | 41.4% | 39.1% |
+| Increased borrowing: Yes | 23.5% | 35.5% | 32.9% | 8.1% |
+| Reduced savings: No | 5.0% | 11.9% | 37.6% | 45.5% |
+| Reduced savings: Yes | 11.7% | 25.7% | 43.7% | 18.8% |
+| Delayed major purchase: No | 4.0% | 11.4% | 37.1% | 47.4% |
+| Delayed major purchase: Yes | 12.4% | 25.0% | 43.8% | 18.9% |
+| Used less/stopped: No | 3.4% | 10.9% | 36.5% | 49.2% |
+| Used less/stopped: Yes | 10.6% | 22.0% | 42.5% | 24.9% |
+
+The largest descriptive separation is around borrowing: respondents who
+reported increased borrowing in 2024 were more concentrated in difficult or
+just-getting-by conditions in 2025 than respondents who did not report that
+adaptation. This could reflect prior financial position, a continuing shock,
+reverse causation, other household events, or reporting differences. It is a
+mechanism signal for the event ledger, not proof that borrowing caused the
+later condition.
+
 ## Price impact transitions
 
 Price impact also shows persistence. Among respondents who said prices made
