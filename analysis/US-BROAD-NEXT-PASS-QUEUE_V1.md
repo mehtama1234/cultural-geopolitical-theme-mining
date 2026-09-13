@@ -153,6 +153,13 @@ framework, Texas has a proposed long-term billing/security framework, and
 Georgia documents the load and revenue records needed for accountability. The
 remaining work is implementation and incidence, not another policy summary.
 
+The [Prince William County GIS incidence layer](projects/ai-work-control/prince-william-data-center-gis-incidence-layer-v1.md)
+adds a local physical pipeline: 246 building records and 75 campus records,
+with status, gross floor area, and planning-district concentration. It does
+not measure load, bills, jobs, water, or community benefit. The next
+infrastructure step is therefore a matched utility/place comparison, not a
+larger national projection.
+
 The public-system lane now has an intersectional SNAP transition outcome in the
 [work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md).
 It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is

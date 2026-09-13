@@ -194,6 +194,11 @@ been causally joined.
   and provider/state exit. ADR's September 2026 announcement verifies a
   completed Romanian cloud-infrastructure stage, while application migration,
   service quality, portability, and citizen outcomes remain unverified.
+- **Local infrastructure incidence:** a Prince William County public GIS
+  snapshot adds 246 building records and 75 campus records with status, gross
+  floor area, and planning-district concentration. It establishes a local
+  pipeline and targeting frame, not actual electricity/water load, ratepayer
+  cost, employment, or community benefit.
 - **Domestic-to-state bridge:** household/firm affordability, sector capacity,
   infrastructure ownership, and external dependence are now organized into a
   relational state-leverage test. Strategic leverage remains open until the
