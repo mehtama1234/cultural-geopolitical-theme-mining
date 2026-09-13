@@ -53,6 +53,10 @@ measurement boundary: visible establishments and formal shortage designations
 answer different questions. It does not estimate the share of residents who
 lack a provider.
 
+The accompanying employment-scale check also finds nearly identical median
+health-sector employees per establishment in the two HPSA-presence groups, so
+visible staffing footprint at this level does not settle adequacy either.
+
 ### 3. Mobility mediates the option set
 
 The NHTS comparison reports zero-vehicle households at 9.73% in urban areas

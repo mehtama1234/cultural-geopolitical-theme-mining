@@ -27,6 +27,12 @@ The HRSA file was refreshed daily and contains current designations; it is not a
 | County represented by a designated primary-care HPSA component | 2,785 | 23.12 | 29.87 |
 | No designated primary-care HPSA component represented | 287 | 23.44 | 28.45 |
 
+The employment-scale check adds another boundary: the median health-sector
+employment footprint was **18.69 employees per establishment** in represented
+HPSA counties and **17.40** in counties without a represented component, using
+the numeric CBP employment rows. Similar establishment presence and similar
+establishment scale therefore do not resolve the adequacy question.
+
 The similar CBP counts are the point: establishment presence alone does not distinguish adequate from inadequate primary-care supply. The HPSA designation adds a different institutional measurement of shortage, but its geographic components and population coverage must be inspected before making county-wide claims.
 
 Among the 2,785 HPSA counties in the CBP health-capacity comparison that also matched a 2023 RUCC code, 63.6% were nonmetro (codes 4–9). This composition is descriptive, not a rural-shortage causal estimate; HPSA components can also be urban, population-based, facility-based, or partial-county designations.

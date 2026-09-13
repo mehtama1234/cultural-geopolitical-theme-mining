@@ -44,6 +44,7 @@ def main() -> None:
         with archive.open(member) as raw:
             for row in csv.DictReader(io.TextIOWrapper(raw, encoding="latin1")):
                 if row["naics"] == "62----":
+                    row["emp_numeric"] = row.get("emp", "") if row.get("emp", "").isdigit() else ""
                     counties[row["fipstate"] + row["fipscty"]] = row
 
     keys = sorted(set(population) & set(counties))
@@ -53,7 +54,8 @@ def main() -> None:
     print(f"hpsa_nonmetro_share={sum(rucc[key] >= 4 for key in designated) / len(designated) * 100:.1f}")
     for label, selected in (("HPSA_component_present", [key for key in keys if key in hpsa]), ("No_HPSA_component_present", [key for key in keys if key not in hpsa])):
         rates = [10000 * int(counties[key]["est"]) / population[key] for key in selected]
-        print(f"{label}\tcounties={len(selected)}\tmedian_health_establishments_per_10000={statistics.median(rates):.2f}\tpopulation_weighted={10000 * sum(int(counties[key]['est']) for key in selected) / sum(population[key] for key in selected):.2f}")
+        scale = [int(counties[key]["emp_numeric"]) / int(counties[key]["est"]) for key in selected if counties[key]["emp_numeric"] and int(counties[key]["est"]) > 0]
+        print(f"{label}\tcounties={len(selected)}\tmedian_health_establishments_per_10000={statistics.median(rates):.2f}\tpopulation_weighted={10000 * sum(int(counties[key]['est']) for key in selected) / sum(population[key] for key in selected):.2f}\tmedian_employees_per_establishment={statistics.median(scale):.2f}\tscale_numeric_count={len(scale)}")
 
 
 if __name__ == "__main__":

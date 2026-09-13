@@ -293,7 +293,7 @@ The [rural/urban capacity profile](projects/us-local-business-place/cbp-capacity
 
 The [capacity and mobility cross-source bridge](projects/us-local-business-place/capacity-mobility-cross-source-bridge-v1.md) makes the practical-access question explicit by placing county sector capacity beside NHTS vehicle and travel-mode evidence. It preserves the different samples and urban/rural definitions and specifies the common-geography test still needed.
 
-The [CBP–HRSA primary-care shortage bridge](projects/us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md) adds a formal adequacy/shortage layer. It finds that designated primary-care HPSA components overlap counties with health establishments, demonstrating why establishment presence cannot stand in for provider adequacy, appointment access, or care quality.
+The [CBP–HRSA primary-care shortage bridge](projects/us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md) adds a formal adequacy/shortage layer. It finds that designated primary-care HPSA components overlap counties with health establishments, while the health-sector employment footprint is also similar across HPSA-presence groups; establishment presence and scale therefore cannot stand in for provider adequacy, appointment access, or care quality.
 
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
