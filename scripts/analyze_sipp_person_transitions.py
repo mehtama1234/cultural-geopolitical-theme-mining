@@ -22,6 +22,7 @@ TARGETS = {
     "EFOOD6": {"1": "yes", "2": "no"},
     "RMNUMJOBS": None,
     "THINCPOV": None,
+    "RSNAP_MNYN": {"1": "yes", "2": "no"},
 }
 
 

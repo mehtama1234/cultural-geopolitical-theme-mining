@@ -104,6 +104,8 @@ The next composition pass is the [SIPP Fay-BRR race × children × resource laye
 
 The next public-systems layer is the [SIPP SNAP × food-security layer](projects/us-safety-net-access/sipp-snap-food-security-layer-v1.md). It adds current-month SNAP receipt to the same race, child-presence, and resource cells. It shows assistance receipt and food security as distinct population outcomes; application, denial, interruption, benefit amount, route effort, and causal impact remain open.
 
+The monthly extension is the [SIPP SNAP transition layer](projects/us-safety-net-access/sipp-snap-transition-layer-v1.md). It establishes adjacent-month entry, exit, and persistence rates for SNAP receipt. The next unresolved step is to classify why a transition occurred using the documented start/end reason fields.
+
 The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
 
 ## Cross-cutting themes to extract in every pass
