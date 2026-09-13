@@ -62,7 +62,8 @@ python3 scripts/analyze_migration_place_capacity_panel.py \
   --arrival /tmp/acsdt5y2023-b05005.dat \
   --rent /tmp/acsdt5y2023-b25064.dat \
   --crowding /tmp/acsdt5y2023-b25014.dat \
-  --language /tmp/acsdt5y2023-c16001.dat --n 6
+  --language /tmp/acsdt5y2023-c16001.dat \
+  --bfs /tmp/bfs_county_apps_annual.xlsx --n 6
 ```
 
 The script labels the population measure as a proxy on purpose. The ACS field
@@ -77,6 +78,35 @@ The housing fields are also descriptive: median gross rent is a place-level
 median, and crowded units are occupied units with more than one person per
 room. Neither field identifies a migrant household, displacement, or whether
 housing supply caused the population change.
+
+## Firm-stage diagnostic
+
+The same selected counties can also be linked to Census Business Formation
+Statistics (BFS) applications and the CBP employer-establishment stock. The
+figures below are applications per 100 2023 employer establishments; they are
+not conversion rates, firm births, or jobs.
+
+| Group | County | BFS 2023 / 100 CBP establishments | BFS 2025 / 100 CBP establishments |
+|---|---|---:|---:|
+| Lower change | San Francisco County, CA | 52.93 | 61.96 |
+| Lower change | St. Louis city, MO | 81.58 | 80.37 |
+| Lower change | Bronx County, NY | 94.58 | 81.65 |
+| Lower change | Calcasieu Parish, LA | 63.70 | 60.89 |
+| Lower change | Hinds County, MS | 119.93 | 115.25 |
+| Lower change | Terrebonne Parish, LA | 52.69 | 49.31 |
+| Higher change | Kaufman County, TX | 123.68 | 146.08 |
+| Higher change | Rockwall County, TX | 77.49 | 84.83 |
+| Higher change | Comal County, TX | 60.07 | 66.43 |
+| Higher change | Liberty County, TX | 108.46 | 134.49 |
+| Higher change | Sumter County, FL | 73.14 | 79.05 |
+| Higher change | Parker County, TX | 75.46 | 82.62 |
+
+The diagnostic suggests that population growth and business-application
+intensity are not interchangeable. Some high-growth counties show high
+application intensity, while others do not; some declining counties also show
+high intensity. The next step is to attach realized BDS openings, closures,
+employment, and survival before interpreting applications as local economic
+capacity.
 
 ## The bridge
 
@@ -120,7 +150,8 @@ Use the matched-place design with a pre/post window and add, in order:
 - Census population estimates and ACS population composition, nativity,
   language, tenure, rent, crowding, and commuting;
 - QCEW or ACS labor and wage measures by sector;
-- BFS applications, BDS openings/closures and job flows, and CBP employment;
+- BDS openings/closures, job flows, and survival to follow the BFS application
+  diagnostic, with CBP employment;
 - HRSA component-level shortage and provider measures;
 - permits, vacancy, travel, school, and local administrative workload where
   available;
@@ -139,6 +170,7 @@ individual-level causal join.
 - [Census ACS 2023 five-year table-based B25064 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25064.dat), SHA-256: `8b887d1e102916ef12718e51a29ae303a562a1d7ac545756bfb6a76e3d7b96b7`
 - [Census ACS 2023 five-year table-based B25014 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25014.dat), SHA-256: `6c7b5b56a5b0cabb44c99ca48c9bc7961f6ff347bc658f18eef9212aaee3c8ba`
 - [Census ACS 2023 five-year table-based C16001 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-c16001.dat), SHA-256: `895422f304c56dde8038269259ebe03bb28407be325adfa48d7e5e2292b055fe`
+- [Census Business Formation Statistics county applications](https://www.census.gov/econ/bfs/xlsx/bfs_county_apps_annual.xlsx), SHA-256: `327cd7fb8877da4e8d6e82bbe5737c2c78138ff03bd8cd0e68d7707ec3451f5e`
 - [CBP county essential-sector capacity layer](../us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md)
 - [CBP rural/urban capacity profile](../us-local-business-place/cbp-capacity-rural-urban-profile-v1.md)
 - [CBP–HRSA primary-care shortage bridge](../us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md)

@@ -10,12 +10,27 @@ import re
 from pathlib import Path
 from zipfile import ZipFile
 
+from openpyxl import load_workbook
+
 
 SECTORS = {
     "44----": "retail",
     "62----": "health_social",
     "72----": "food",
 }
+
+
+def read_bfs(path: Path) -> dict[str, tuple[float, float, float]]:
+    workbook = load_workbook(path, read_only=True, data_only=True)
+    values = {}
+    for row in workbook.active.iter_rows(min_row=4, values_only=True):
+        try:
+            key = str(row[3]).zfill(2) + str(row[4]).zfill(3)
+            years = tuple(float(str(row[index]).replace(",", "")) for index in (23, 24, 25))
+        except (TypeError, ValueError, IndexError):
+            continue
+        values[key] = years
+    return values
 
 
 def main() -> None:
@@ -29,6 +44,7 @@ def main() -> None:
     parser.add_argument("--rent", type=Path, help="ACS table-based B25064 pipe file")
     parser.add_argument("--crowding", type=Path, help="ACS table-based B25014 pipe file")
     parser.add_argument("--language", type=Path, help="ACS table-based C16001 pipe file")
+    parser.add_argument("--bfs", type=Path, help="Census county BFS annual applications workbook")
     parser.add_argument("--min-population", type=int, default=100_000)
     parser.add_argument("--n", type=int, default=10)
     args = parser.parse_args()
@@ -110,12 +126,14 @@ def main() -> None:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
         with archive.open(member) as raw:
             for row in csv.DictReader(io.TextIOWrapper(raw, encoding="latin1")):
-                if row["naics"] not in SECTORS:
+                if row["naics"] not in (*SECTORS, "------"):
                     continue
                 key = row["fipstate"] + row["fipscty"]
                 item = capacity.setdefault(key, {})
                 item[f"{row['naics']}_est"] = int(row["est"]) if row["est"].isdigit() else None
                 item[f"{row['naics']}_emp"] = int(row["emp"]) if row["emp"].isdigit() else None
+
+    bfs = read_bfs(args.bfs) if args.bfs else {}
 
     eligible = []
     for key, (pop20, pop23) in population.items():
@@ -124,7 +142,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -137,7 +155,13 @@ def main() -> None:
             median_rent = "" if key not in rent else str(rent[key])
             crowded = "" if key not in crowding else f"{crowding[key]:.2f}"
             limited = "" if key not in limited_english else f"{limited_english[key]:.2f}"
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
+            all_est = capacity.get(key, {}).get("------_est")
+            if key in bfs and all_est:
+                apps_23 = f"{100 * bfs[key][0] / all_est:.2f}"
+                apps_25 = f"{100 * bfs[key][2] / all_est:.2f}"
+            else:
+                apps_23 = apps_25 = ""
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
 
 
 if __name__ == "__main__":
