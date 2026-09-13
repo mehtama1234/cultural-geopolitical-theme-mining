@@ -69,6 +69,11 @@ layer](projects/us-immigration-local-demand/immigration-attitude-action-sda-cros
 the remaining place step is a valid geography/timing join, not more national
 attitude tables.
 
+The [CES local trust/action context layer](projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md)
+now supplies a county-keyed political-context screen from public survey data;
+it remains separate from the ANES immigration battery because the CES common
+file does not contain the same immigration-specific questions.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish

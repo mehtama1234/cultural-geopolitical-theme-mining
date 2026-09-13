@@ -102,6 +102,10 @@ not an empirical immigration-attitude result.
 The first weighted SDA result is now recorded in the [ANES immigration
 attitude, institutional meaning, and action cross-tabs](immigration-attitude-action-sda-cross-tabs-v1.md).
 
+The separate [CES local trust and civic-action context layer](migration-place-local-trust-action-context-v1.md)
+provides a county-keyed political-context comparison without relabeling
+general trust or voting as immigration opinion.
+
 ## Counterexamples required
 
 Keep at least four kinds of counterexample in the comparison:
