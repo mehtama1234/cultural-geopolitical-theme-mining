@@ -83,6 +83,13 @@ customers, jobs, firms, rents, public capacity, local ownership, belonging, and
 political response. The next test compares matched places with different
 housing and service responses instead of treating migration as one effect.
 
+The [matched-place panel design](projects/us-immigration-local-demand/matched-place-panel-design-v1.md)
+turns that migration layer into an executable breadth-and-depth pass. It routes
+population, labor, firm, housing, service, distributional, and belonging fields
+to their proper units and makes capacity-keeping-pace versus capacity-lagging
+the first place comparison. It preserves counterexamples and does not treat
+population change as proof of a rent, job, service, or attitude cause.
+
 The [credit, liquidity, financial records, and institutional power layer](projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md)
 adds the financial-institution mechanism. It treats liquidity, payment rails,
 bank inertia, fees, credit records, debt, switching, and later access as

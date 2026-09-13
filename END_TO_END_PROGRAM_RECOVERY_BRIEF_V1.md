@@ -106,6 +106,8 @@ cross-theme layers:
 
 - [migration, local demand, housing, services, and belonging](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md): how new residents can add workers, customers, firms, public needs, local capability, and cultural or political pressure at the same time.
 
+- [matched place panel design](analysis/projects/us-immigration-local-demand/matched-place-panel-design-v1.md): the next executable migration pass, comparing places where housing and services keep pace with places where capacity lags, while preserving person, household, firm, institution, and opinion units.
+
 - [credit, liquidity, financial records, and institutional power](analysis/projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md): how payment systems and financial records turn short shortages into unequal future options, terms, and exit.
 
 - [AI infrastructure realization and control](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): how public-cloud migration and privately owned compute move from announced targets to realized capacity, ownership change, local distribution, and the still-open question of state exit and bargaining power.
