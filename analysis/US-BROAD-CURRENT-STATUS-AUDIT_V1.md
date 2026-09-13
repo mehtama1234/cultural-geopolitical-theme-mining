@@ -162,6 +162,11 @@ been causally joined.
   shares. The route is clearly product-shaped, but recorded response is not
   verified remedy, and account exposure, repeat effort, switching, dependence,
   and later trust remain unobserved.
+- **Product-conditioned visibility depth:** the same six CFPB slices now expose
+  narrative presence and submission channel. Web use dominates all products,
+  while phone/referral shares and narrative presence vary by product. This is
+  a visibility and institutional-route comparison, not a measure of digital
+  access, harm, narrative quality, or remedy adequacy.
 - **Consumer power and exit:** CFPB product and cultural layers are now
   consolidated with consumer-culture and firm-power evidence. The program
   explicitly treats visibility, response, remedy, continued use, switching,

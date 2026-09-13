@@ -124,6 +124,15 @@ explanation, and untimely-response shares from the same complaint slices. It
 shows that institutional endpoints are product-shaped; it still does not
 observe remedy adequacy, repeat effort, switching, dependence, or trust.
 
+The [CFPB product visibility-route layer](projects/us-customer-automation-recourse/cfpb-product-visibility-route-layer-v1.md)
+now adds narrative presence and submission channel to that product comparison.
+Web submission dominates all six slices, but phone/referral use and narrative
+presence vary materially by product. This deepens the cultural/institutional
+question of whose account becomes visible without treating missing narratives
+or channel choice as direct measures of access, harm, or consumer ability.
+The next step remains a case-level or panel follow-up with failed attempts,
+repeat effort, verified remedy, switching, and trust.
+
 The work/control lane now has a population bargaining-context baseline in the
 [BLS union and bargaining-room layer](projects/ai-work-control/bls-union-bargaining-room-layer-v1.md).
 It adds representation, coverage, earnings association, and distribution by
