@@ -168,6 +168,8 @@ The [consumer-pressure, adaptation, and public-meaning cross-source bridge](proj
 
 The [consumer recourse, institutional power, and practical exit bridge](projects/us-customer-automation-recourse/consumer-recourse-power-exit-cross-source-bridge-v1.md) deepens the consumer-power arrow across CFPB process, product, cultural-theme, consumer-culture, and firm-power layers. It treats visibility, response, remedy, continued use, switching, trust, and exit as separate stages and defines the next same-case test.
 
+The [local capacity, practical access, care adequacy, and mobility bridge](projects/us-local-business-place/local-capacity-practical-access-care-mobility-bridge-v1.md) widens the place layer from establishment presence to an option stack of supply, mobility, provider adequacy, price, time, quality, and replaceability. It defines a four-cell matched-place test and keeps local cultural and political meaning open.
+
 The [BFS annual county data-quality boundary](projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md) adds a necessary firm/place control: the current county application release uses differential-privacy noise, so applications cannot be read as durable local businesses or community change until they are checked against formation, employer, service, and population measures.
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.

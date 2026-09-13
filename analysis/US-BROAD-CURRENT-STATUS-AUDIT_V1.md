@@ -92,6 +92,11 @@ been causally joined.
   establishments can coexist with designated primary-care shortage components.
   Travel, appointment access, quality, price, unmet need, and household
   outcomes remain open.
+- **Practical access option stack:** local capacity, mobility, and HRSA
+  designation layers are now consolidated into a four-cell matched-place
+  design. Nominal supply, reachability, provider adequacy, price, time, quality,
+  and replaceability are explicitly separate; resident-level service use and
+  downstream cultural or political response remain open.
 - **Care-capacity institutional check:** the HRSA bridge finds 2,785 counties
   represented by a designated primary-care HPSA component among the 3,072
   counties with usable CBP health rows. This is a component overlap diagnostic,
