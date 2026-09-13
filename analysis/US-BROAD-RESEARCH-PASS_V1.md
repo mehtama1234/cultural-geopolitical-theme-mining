@@ -90,6 +90,12 @@ to their proper units and makes capacity-keeping-pace versus capacity-lagging
 the first place comparison. It preserves counterexamples and does not treat
 population change as proof of a rent, job, service, or attitude cause.
 
+The [migration, local demand, and sector capacity bridge](projects/us-immigration-local-demand/migration-capacity-sector-bridge-v1.md)
+adds existing CBP, RUCC, and HRSA results as the place-capacity baseline. It
+shows why establishment presence, employment scale, rural/urban profile, and
+formal shortage status must be measured before interpreting migration's local
+economic, service, or cultural effects.
+
 The [credit, liquidity, financial records, and institutional power layer](projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md)
 adds the financial-institution mechanism. It treats liquidity, payment rails,
 bank inertia, fees, credit records, debt, switching, and later access as

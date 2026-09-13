@@ -108,6 +108,8 @@ cross-theme layers:
 
 - [matched place panel design](analysis/projects/us-immigration-local-demand/matched-place-panel-design-v1.md): the next executable migration pass, comparing places where housing and services keep pace with places where capacity lags, while preserving person, household, firm, institution, and opinion units.
 
+- [migration, local demand, and sector capacity bridge](analysis/projects/us-immigration-local-demand/migration-capacity-sector-bridge-v1.md): establishes the CBP/RUCC/HRSA place-capacity baseline needed before interpreting migration's local economic, service, or cultural effects.
+
 - [credit, liquidity, financial records, and institutional power](analysis/projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md): how payment systems and financial records turn short shortages into unequal future options, terms, and exit.
 
 - [AI infrastructure realization and control](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): how public-cloud migration and privately owned compute move from announced targets to realized capacity, ownership change, local distribution, and the still-open question of state exit and bargaining power.
