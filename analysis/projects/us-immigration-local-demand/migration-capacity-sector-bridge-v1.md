@@ -28,20 +28,20 @@ current HRSA primary-care HPSA component carries the county FIPS. This is a
 descriptive screening table, not a matched causal comparison and not an
 international-migration estimate.
 
-| Group | County | 2020→23 population % | ACS 2023 foreign-born % | Foreign-born entered 2010+ % | RUCC | HPSA component | Retail est./10k | Health/social est./10k | Food est./10k |
-|---|---|---:|---:|---:|---:|---|---:|---:|---:|
-| Lower change | San Francisco County, CA | -6.36 | 34.22 | 24.49 | 1 | yes | 35.50 | 44.19 | 51.53 |
-| Lower change | St. Louis city, MO | -5.84 | 6.61 | 42.95 | 1 | yes | 27.51 | 55.66 | 37.20 |
-| Lower change | Bronx County, NY | -5.76 | 34.21 | 26.60 | 1 | yes | 28.26 | 21.92 | 14.51 |
-| Lower change | Calcasieu Parish, LA | -5.55 | 3.29 | 36.81 | 2 | yes | 38.05 | 29.05 | 22.69 |
-| Lower change | Hinds County, MS | -5.40 | 1.86 | 43.01 | 2 | yes | 34.36 | 32.58 | 22.33 |
-| Lower change | Terrebonne Parish, LA | -4.91 | 3.16 | 37.62 | 3 | yes | 41.81 | 26.72 | 21.72 |
-| Higher change | Kaufman County, TX | 26.87 | 10.84 | 23.57 | 1 | no | 18.10 | 11.62 | 13.07 |
-| Higher change | Rockwall County, TX | 20.54 | 8.70 | 21.84 | 1 | no | 24.39 | 30.39 | 21.04 |
-| Higher change | Comal County, TX | 18.61 | 6.64 | 18.84 | 1 | no | 26.53 | 27.31 | 24.42 |
-| Higher change | Liberty County, TX | 18.01 | 13.79 | 23.25 | 1 | yes | 18.78 | 10.99 | 10.99 |
-| Higher change | Sumter County, FL | 16.77 | 5.85 | 11.13 | 3 | yes | 18.86 | 19.06 | 13.08 |
-| Higher change | Parker County, TX | 16.05 | 5.16 | 20.85 | 1 | yes | 23.97 | 19.93 | 16.31 |
+| Group | County | 2020→23 population % | ACS foreign-born % | Entered 2010+ % | Median rent $ | Crowded units % | RUCC | HPSA | Retail/10k | Health/10k | Food/10k |
+|---|---|---:|---:|---:|---:|---:|---:|---|---:|---:|---:|
+| Lower change | San Francisco County, CA | -6.36 | 34.22 | 24.49 | 2419 | 6.51 | 1 | yes | 35.50 | 44.19 | 51.53 |
+| Lower change | St. Louis city, MO | -5.84 | 6.61 | 42.95 | 978 | 2.14 | 1 | yes | 27.51 | 55.66 | 37.20 |
+| Lower change | Bronx County, NY | -5.76 | 34.21 | 26.60 | 1436 | 12.09 | 1 | yes | 28.26 | 21.92 | 14.51 |
+| Lower change | Calcasieu Parish, LA | -5.55 | 3.29 | 36.81 | 1096 | 2.28 | 2 | yes | 38.05 | 29.05 | 22.69 |
+| Lower change | Hinds County, MS | -5.40 | 1.86 | 43.01 | 1032 | 2.53 | 2 | yes | 34.36 | 32.58 | 22.33 |
+| Lower change | Terrebonne Parish, LA | -4.91 | 3.16 | 37.62 | 1010 | 2.53 | 3 | yes | 41.81 | 26.72 | 21.72 |
+| Higher change | Kaufman County, TX | 26.87 | 10.84 | 23.57 | 1408 | 5.41 | 1 | no | 18.10 | 11.62 | 13.07 |
+| Higher change | Rockwall County, TX | 20.54 | 8.70 | 21.84 | 1899 | 2.21 | 1 | no | 24.39 | 30.39 | 21.04 |
+| Higher change | Comal County, TX | 18.61 | 6.64 | 18.84 | 1460 | 2.03 | 1 | no | 26.53 | 27.31 | 24.42 |
+| Higher change | Liberty County, TX | 18.01 | 13.79 | 23.25 | 1038 | 6.91 | 1 | yes | 18.78 | 10.99 | 10.99 |
+| Higher change | Sumter County, FL | 16.77 | 5.85 | 11.13 | 1225 | 1.21 | 3 | yes | 18.86 | 19.06 | 13.08 |
+| Higher change | Parker County, TX | 16.05 | 5.16 | 20.85 | 1440 | 2.35 | 1 | yes | 23.97 | 19.93 | 16.31 |
 
 The contrast is a diagnostic, not a conclusion. Several fast-growth counties
 have lower establishment presence than the decline group, especially in health
@@ -59,7 +59,9 @@ python3 scripts/analyze_migration_place_capacity_panel.py \
   --hpsa /tmp/BCD_HPSA_FCT_DET_PC.csv \
   --rucc /tmp/rucc2023.csv \
   --nativity /tmp/acsdt5y2023-b05002.dat \
-  --arrival /tmp/acsdt5y2023-b05005.dat --n 6
+  --arrival /tmp/acsdt5y2023-b05005.dat \
+  --rent /tmp/acsdt5y2023-b25064.dat \
+  --crowding /tmp/acsdt5y2023-b25014.dat --n 6
 ```
 
 The script labels the population measure as a proxy on purpose. The ACS field
@@ -68,6 +70,11 @@ the ACS B05005 foreign-born universe entered in 2010 or later; it is not a
 2020–2023 flow or a count of new residents. Language, tenure, rent, and
 crowding remain to be added before the table is described as a full migration
 comparison.
+
+The housing fields are also descriptive: median gross rent is a place-level
+median, and crowded units are occupied units with more than one person per
+room. Neither field identifies a migrant household, displacement, or whether
+housing supply caused the population change.
 
 ## The bridge
 
@@ -127,6 +134,8 @@ individual-level causal join.
 
 - [Census ACS 2023 five-year table-based B05002 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b05002.dat), SHA-256: `48bbc708638cc7d83d63bd003f6c0517d75888c16a47c8248e737ce5fcb02ceb`
 - [Census ACS 2023 five-year table-based B05005 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b05005.dat), SHA-256: `58897ce0329c1b9d5b89ff20a7e61ff1c461d451678133b74155170d83c806e6`
+- [Census ACS 2023 five-year table-based B25064 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25064.dat), SHA-256: `8b887d1e102916ef12718e51a29ae303a562a1d7ac545756bfb6a76e3d7b96b7`
+- [Census ACS 2023 five-year table-based B25014 data](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25014.dat), SHA-256: `6c7b5b56a5b0cabb44c99ca48c9bc7961f6ff347bc658f18eef9212aaee3c8ba`
 - [CBP county essential-sector capacity layer](../us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md)
 - [CBP rural/urban capacity profile](../us-local-business-place/cbp-capacity-rural-urban-profile-v1.md)
 - [CBP–HRSA primary-care shortage bridge](../us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md)
