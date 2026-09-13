@@ -112,6 +112,12 @@ and employment stocks. Its non-monotonic quartile screen is a counterexample
 to treating local firm presence as consumer protection or harm. The next step
 is account exposure, branch/digital access, and case-level follow-up.
 
+The [CFPB product response-route layer](projects/us-customer-automation-recourse/cfpb-product-response-route-layer-v1.md)
+now extracts product-conditioned monetary relief, non-monetary relief,
+explanation, and untimely-response shares from the same complaint slices. It
+shows that institutional endpoints are product-shaped; it still does not
+observe remedy adequacy, repeat effort, switching, dependence, or trust.
+
 The work/control lane now has a population bargaining-context baseline in the
 [BLS union and bargaining-room layer](projects/ai-work-control/bls-union-bargaining-room-layer-v1.md).
 It adds representation, coverage, earnings association, and distribution by

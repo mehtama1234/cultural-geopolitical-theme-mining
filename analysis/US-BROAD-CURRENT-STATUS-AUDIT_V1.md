@@ -157,6 +157,11 @@ been causally joined.
   non-monotonic, so establishment density is not promoted as a proxy for
   protection, harm, or consumer power; product exposure, access, and account
   denominators remain missing.
+- **Product-conditioned response depth:** six CFPB product slices now expose
+  monetary relief, non-monetary relief, explanation, and untimely-response
+  shares. The route is clearly product-shaped, but recorded response is not
+  verified remedy, and account exposure, repeat effort, switching, dependence,
+  and later trust remain unobserved.
 - **Consumer power and exit:** CFPB product and cultural layers are now
   consolidated with consumer-culture and firm-power evidence. The program
   explicitly treats visibility, response, remedy, continued use, switching,
