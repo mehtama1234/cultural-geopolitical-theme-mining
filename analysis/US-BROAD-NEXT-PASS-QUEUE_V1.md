@@ -74,6 +74,11 @@ now supplies a county-keyed political-context screen from public survey data;
 it remains separate from the ANES immigration battery because the CES common
 file does not contain the same immigration-specific questions.
 
+The follow-up [joint growth × nativity CES screen](projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md)
+shows that federal trust is non-monotonic across the two axes and civic action
+is comparatively stable; this supplies a counterexample screen, not a local
+immigration-opinion estimate.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish

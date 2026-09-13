@@ -107,3 +107,6 @@ unless a valid geography-bearing immigration survey is acquired. A future
 local survey comparison should include direct local immigration meaning,
 fairness, attribution, and action—not infer those from trust or election
 outcomes.
+
+The two place axes are now crossed in the [joint growth and nativity trust/action
+layer](migration-place-local-trust-action-joint-axes-v1.md).
