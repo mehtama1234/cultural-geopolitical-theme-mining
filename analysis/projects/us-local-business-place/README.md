@@ -62,6 +62,11 @@ assistance, and accommodation/food employment and establishments. It keeps
 sector presence separate from access, quality, ownership, belonging, and
 political effects.
 
+The [all-sector county capacity profile](cbp-all-sector-county-capacity-profile-v1.md)
+widens the county stock view to every coded 2-digit sector and preserves
+sector-specific missingness instead of silently treating suppressed rows as
+zero capacity.
+
 The [BDS realized entry, exit, and sector dynamics layer](bds-realized-entry-exit-sector-layer-v1.md)
 adds the missing flow: actual establishment openings and closings, firm deaths,
 job creation and destruction, and net job change. It turns the application and

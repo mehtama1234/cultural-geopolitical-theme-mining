@@ -261,6 +261,11 @@ The [BDS state-sector turnover profile](projects/us-local-business-place/bds-sta
 
 The [CBP county essential-sector capacity layer](projects/us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md) adds the local-capacity denominator: 3,142 counties are compared by establishments per 10,000 residents in manufacturing, retail, health/social assistance, and accommodation/food. The next step is to connect low capacity to travel, unmet need, prices, work, and civic outcomes without treating an establishment count as access.
 
+The [all-sector county capacity profile](projects/us-local-business-place/cbp-all-sector-county-capacity-profile-v1.md)
+extends the place baseline across all coded 2-digit sectors, keeping numeric
+coverage and suppressed/absent rows explicit before interpreting local sector
+mix as access, work, or cultural change.
+
 The [rural/urban capacity profile](projects/us-local-business-place/cbp-capacity-rural-urban-profile-v1.md) stratifies 3,128 matched counties using USDA's 2023 RUCC codes. Population-weighted capacity is higher in nonmetro counties for manufacturing and retail, higher in metro counties for health/social assistance, and nearly equal for food; this is a descriptive place pattern awaiting travel, quality, price, and use measures.
 
 The [capacity and mobility cross-source bridge](projects/us-local-business-place/capacity-mobility-cross-source-bridge-v1.md) makes the practical-access question explicit by placing county sector capacity beside NHTS vehicle and travel-mode evidence. It preserves the different samples and urban/rural definitions and specifies the common-geography test still needed.
