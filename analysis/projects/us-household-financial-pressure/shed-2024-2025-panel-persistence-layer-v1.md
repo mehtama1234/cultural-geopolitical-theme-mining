@@ -74,6 +74,31 @@ reverse causation, other household events, or reporting differences. It is a
 mechanism signal for the event ledger, not proof that borrowing caused the
 later condition.
 
+## Recovery and reversal among improving respondents
+
+The same panel also supplies a required counterexample to a simple persistence
+story. Among respondents whose broad financial condition improved, the share
+of prior adopters who reported **No** in 2025 was:
+
+| 2024 adaptation | Improved-condition respondents who ended the adaptation in 2025 |
+|---|---:|
+| Switched to cheaper products | 31.2% |
+| Used less or stopped | 33.9% |
+| Reduced savings | 45.0% |
+| Increased borrowing | 55.0% |
+| Delayed a major purchase | 43.4% |
+| Worked more or got another job | 58.8% |
+| Had three-month emergency funds in 2024 | 15.5% no longer had them |
+
+These are complements of the previously reported 2025 “Yes” shares within the
+improving-path, 2024-Yes cells. They show both recovery and non-recovery: more
+than half of prior borrowers and extra workers no longer reported those actions
+after improvement, while most prior adopters still reported cheaper purchasing
+or reduced use. Emergency funds are a buffer rather than a burden, so the last
+row measures buffer loss, not relief. An improving broad condition therefore
+does not mean every adaptation has ended, and a persistent adaptation does not
+prove that the condition failed to improve.
+
 ## Distribution of persistence by 2024 condition
 
 The adaptation pattern is also unequal across the 2024 financial-condition
