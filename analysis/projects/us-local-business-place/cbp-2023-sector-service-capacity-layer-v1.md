@@ -101,6 +101,21 @@ commuting, or a different local market; and a lower manufacturing share does
 not prove weak productive capacity. The next comparison should use population,
 employment, payroll, distance, and actual service use alongside the mix.
 
+## Applications and sector mix
+
+As a descriptive check, the 2023–2025 BFS applications-per-2023-establishment
+diagnostic was compared with each county's 2023 sector share across the same
+2,906 counties. Pearson correlations were small in every year. In 2024 they
+were −0.089 for manufacturing, +0.052 for retail, −0.005 for health/social
+assistance, and −0.104 for accommodation/food; the 2023 and 2025 values were
+similarly close to zero.
+
+This does not show that sector structure has no effect on business entry. It
+shows only that the broad application signal does not line up as a strong
+linear relationship with these sector shares in this descriptive, noisy,
+flow-versus-stock comparison. Industry-specific applications, population,
+capital, local demand, and later formation still need separate measurement.
+
 The selected rows are reproducible with
 `scripts/analyze_cbp_sector_capacity.py`:
 
@@ -112,5 +127,7 @@ The county sector-mix summary is reproducible with
 `scripts/analyze_cbp_county_sector_mix.py`:
 
 ```text
-python3 scripts/analyze_cbp_county_sector_mix.py --cbp /path/to/cbp23co.zip
+python3 scripts/analyze_cbp_county_sector_mix.py \
+  --cbp /path/to/cbp23co.zip \
+  --bfs /path/to/bfs_county_apps_annual.xlsx
 ```
