@@ -20,7 +20,7 @@ that endpoint.
 | [Pew: what would improve the immigration system](https://www.pewresearch.org/politics/2024/02/15/what-would-improve-the-u-s-immigration-system/) | US adults, January 16–21, 2024 | judgments of proposed border and immigration policies | compare preferred remedies and perceived institutional solutions | policy opinions do not identify the respondent’s local exposure or later action |
 | [Pew: views of the US–Mexico border situation](https://www.pewresearch.org/politics/2024/02/15/how-americans-view-the-situation-at-the-u-s-mexico-border-its-causes-and-consequences/) | US adults, January 16–21, 2024 | perceived severity, causes, consequences, and preferred government response | measure attribution and legitimacy judgments | perceived cause is not verified cause; national border framing is not local experience |
 | [Pew: immigrants and the US job market](https://www.pewresearch.org/short-reads/2024/10/21/most-us-voters-say-immigrants-no-matter-their-legal-status-mostly-take-jobs-citizens-dont-want/) | US registered voters, August 2024 | perceived labor-market complement/substitution and partisan differences | test economic attribution and consumer/worker narrative | perception is not an estimate of labor-market impact |
-| [ANES 2024 Time Series Study](https://electionstudies.org/data-center/2024-time-series-study/) and [user guide/codebook](https://electionstudies.org/wp-content/uploads/2025/05/anes_timeseries_2024_userguidecodebook_20250430.pdf) | US adults in a national election study | immigration evaluations plus vote, ideology, trust, and political judgments; exact variables must be extracted from the codebook | build a respondent-level attitude-to-action record and, where supported, repeated/panel comparisons | do not publish a variable as measured until its wording, universe, missing codes, weights, and release are verified |
+| [ANES 2024 Time Series Study](https://electionstudies.org/data-center/2024-time-series-study/) and its [user guide/codebook](https://electionstudies.org/wp-content/uploads/2025/05/anes_timeseries_2024_userguidecodebook_20250430.pdf) | US eligible-voter respondents in a national election study | immigration evaluations plus vote, ideology, trust, and political judgments; exact variables are now mapped below | build a respondent-level attitude-to-action record and, where supported, repeated/panel comparisons | do not publish a variable as measured until its wording, universe, missing codes, weights, and release are verified |
 
 ## What these sources let us separate
 
@@ -55,6 +55,49 @@ For each respondent, preserve:
 The first join should be a contextual place crosswalk, not an invented causal
 match: survey geography must be documented, and national respondents should
 remain national respondents when no valid local identifier exists.
+
+## Verified ANES 2024 variable map
+
+The official codebook identifies a usable immigration battery in the
+post-election interview. The variable names and response universes below are
+now verified against the release documentation, but no estimates are claimed
+here until the downloadable microdata or a reproducible SDA extract is
+captured.
+
+| Stage | Variable | Question or measure | Interpretation |
+|---|---|---|---|
+| Policy demand | `V242227` | whether permitted immigration levels should increase, stay the same, or decrease | desired scale of immigration |
+| Labor attribution | `V242228` | likelihood that recent immigration takes jobs from people already here | perceived job competition |
+| Crime attribution | `V242229`, strength `V242230`, summary `V242231x` | whether illegal immigration increases, decreases, or has no effect on US crime | perceived public-safety effect and intensity |
+| Legal inclusion | `V242232` | favor/oppose/neither for a conditional path to citizenship for unauthorized immigrants | inclusion, deservingness, and policy boundary |
+| Economic meaning | `V242235` | whether immigrants are good or bad for America’s economy | perceived aggregate economic effect |
+| Cultural incorporation | `V242236` | importance of adapting to US customs and traditions | assimilation/integration norm |
+| Institutional trust | `V241229` | frequency of trusting the federal government to do what is right | general institutional trust, not immigration-specific trust |
+| Institutional attribution | `V241231`, `V241232` | whether government serves a few interests and whether it wastes tax money | perceived capture and competence |
+| Political action | `V242066`, `V242067` | reported presidential turnout and candidate choice | post-election reported action |
+
+The immigration battery is especially useful because it separates economic,
+crime, legal-status, and cultural interpretations rather than collapsing them
+into a single pro/anti-immigration score. `V242232` also has a documented
+response universe for respondents who answer the favor/oppose question; its
+strength follow-up was not yet available in the preliminary codebook and must
+not be treated as an observed measure until the current release is checked.
+
+The current ANES release page reports 5,521 pre-election completions and
+4,964 post-election re-interviews, with fresh cross-sectional and
+2016–2020–2024 panel components. It instructs analysts to use weights and
+account for the complex sample design. The panel is therefore a potential
+repeated-respondent route, but not every post-election immigration variable
+automatically supports a within-person estimate.
+
+## Acquisition result
+
+The official release page exposes CSV, SPSS, Stata, syntax, codebook, and
+questionnaire resources. The current environment can read the official web
+documentation and codebook, but the direct CSV route returns a publisher web
+challenge. Until the file is acquired or the same table is reproduced through
+the official SDA interface, this remains a verified variable specification,
+not an empirical immigration-attitude result.
 
 ## Counterexamples required
 
