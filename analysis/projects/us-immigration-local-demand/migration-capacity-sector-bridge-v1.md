@@ -43,6 +43,31 @@ international-migration estimate.
 | Higher change | Sumter County, FL | 16.77 | 5.85 | 11.13 | 1225 | 1.21 | 1.91 | 3 | yes | 18.86 | 19.06 | 13.08 |
 | Higher change | Parker County, TX | 16.05 | 5.16 | 20.85 | 1440 | 2.35 | 3.10 | 1 | yes | 23.97 | 19.93 | 16.31 |
 
+The same selected places also show why establishment presence and employment
+scale must remain separate. These are numeric CBP employment values per 10,000
+residents; they do not measure job quality, hours, wages, provider adequacy, or
+whether residents can use the establishments.
+
+| Group | County | Retail employees/10k | Health/social employees/10k | Food employees/10k |
+|---|---|---:|---:|---:|
+| Lower change | San Francisco County, CA | 512.64 | 952.13 | 897.17 |
+| Lower change | St. Louis city, MO | 317.82 | 1364.53 | 691.83 |
+| Lower change | Bronx County, NY | 236.91 | 896.15 | 151.97 |
+| Lower change | Calcasieu Parish, LA | 545.64 | 683.95 | 586.28 |
+| Lower change | Hinds County, MS | 425.84 | 1200.04 | 417.03 |
+| Lower change | Terrebonne Parish, LA | 605.37 | 609.02 | 435.62 |
+| Higher change | Kaufman County, TX | 297.24 | 228.32 | 254.83 |
+| Higher change | Rockwall County, TX | 514.60 | 474.49 | 457.09 |
+| Higher change | Comal County, TX | 494.96 | 448.18 | 518.92 |
+| Higher change | Liberty County, TX | 254.64 | 139.05 | 173.03 |
+| Higher change | Sumter County, FL | 371.26 | 471.75 | 333.08 |
+| Higher change | Parker County, TX | 390.63 | 230.00 | 294.41 |
+
+The fast-growth counties in this screen do not uniformly have the highest
+employment scale in these everyday sectors. That is a descriptive capacity-
+and-demand contrast, not evidence that population change caused a shortage or
+that lower employment scale means inadequate service.
+
 The contrast is a diagnostic, not a conclusion. Several fast-growth counties
 have lower establishment presence than the decline group, especially in health
 and food; some high-growth counties also have an HPSA component. That pattern
@@ -201,3 +226,4 @@ individual-level causal join.
 - [CBP–HRSA primary-care shortage bridge](../us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md)
 - [Migration, local demand, housing, services, and belonging layer](migration-demand-housing-services-belonging-layer-v1.md)
 - [NBER local-demand study](https://www.nber.org/papers/w21123)
+- Latest all-fields panel rerun SHA-256: `dbe8764069230ed24069477f2b5dcf238cd9bb8d6c04c808a50edd569e69337a`.

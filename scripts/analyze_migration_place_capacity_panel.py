@@ -149,7 +149,7 @@ def main() -> None:
         eligible.append((100 * (pop23 / pop20 - 1), key))
     selected = sorted(eligible)[: args.n] + sorted(eligible, reverse=True)[: args.n]
 
-    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\tbds_estabs_entry_rate_2023\tbds_estabs_exit_rate_2023\tbds_net_job_creation_rate_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k")
+    print("group\tcounty\tfips\tpop2020\tpop2023\tpop_change_pct\tforeign_born_pct_acs5_2023\tforeign_born_entered_2010plus_pct\tmedian_gross_rent_acs5_2023\tcrowded_units_pct_acs5_2023\tlimited_english_pct_acs5_2023\tbfs_apps_2023_per_cbp_est_100\tbfs_apps_2025_per_cbp_est_100\tbds_estabs_entry_rate_2023\tbds_estabs_exit_rate_2023\tbds_net_job_creation_rate_2023\trucc\thpsa\tretail_est_per_10k\thealth_est_per_10k\tfood_est_per_10k\tretail_emp_per_10k\thealth_emp_per_10k\tfood_emp_per_10k")
     for group, rows in (("lower_change", selected[: args.n]), ("higher_change", selected[args.n :])):
         for change, key in rows:
             pop20, pop23 = population[key]
@@ -157,6 +157,10 @@ def main() -> None:
             for code in SECTORS:
                 est = capacity[key].get(f"{code}_est") or 0
                 values.append(f"{10_000 * est / pop23:.2f}")
+            employment_values = []
+            for code in SECTORS:
+                emp = capacity[key].get(f"{code}_emp")
+                employment_values.append("" if emp is None else f"{10_000 * emp / pop23:.2f}")
             foreign_born = "" if key not in nativity else f"{nativity[key]:.2f}"
             recent = "" if key not in recent_arrival else f"{recent_arrival[key]:.2f}"
             median_rent = "" if key not in rent else str(rent[key])
@@ -172,7 +176,7 @@ def main() -> None:
             entry_rate = bds_row.get("estabs_entry_rate", "")
             exit_rate = bds_row.get("estabs_exit_rate", "")
             net_job_rate = bds_row.get("net_job_creation_rate", "")
-            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, entry_rate, exit_rate, net_job_rate, str(rucc[key]), "yes" if key in hpsa else "no", *values]))
+            print("\t".join([group, names[key], key, str(pop20), str(pop23), f"{change:.2f}", foreign_born, recent, median_rent, crowded, limited, apps_23, apps_25, entry_rate, exit_rate, net_job_rate, str(rucc[key]), "yes" if key in hpsa else "no", *values, *employment_values]))
 
 
 if __name__ == "__main__":
