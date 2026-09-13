@@ -74,6 +74,14 @@ been causally joined.
   medical help. Major medical concern and poorer health align with more
   reduced use, borrowing, and lower buffers; exact event causation and recovery
   remain open.
+- **Care/work and life-stage distribution:** SHED 2024 now compares care-linked
+  adaptations by employment status and age. Caregivers report more reduced use,
+  borrowing, and savings cuts within each subgroup; care hours, recipient need,
+  paid replacement, and causal work effects remain open.
+- **Panel recovery and reversal:** improving-condition respondents show both
+  endings and persistence of prior adaptations. This prevents “financial
+  improvement” from being treated as complete recovery or persistent behavior
+  from being treated as proof that conditions did not improve.
 - **Housing/insurance distribution:** SHED 2025 now records owner coverage,
   premium affordability, desired additional coverage, lender requirements, and
   shopping by income band. Lower-income owners show greater coverage and
@@ -102,6 +110,9 @@ been causally joined.
   separate population layers for consumer adaptation, economic judgment,
   trust, source environment, civic action, turnout, and participation barriers.
   They are not falsely joined.
+- **Source environment to civic action:** the Pew crosswalk now places source
+  ecosystem, influencer exposure, attention, trust, civic style, direct action,
+  and voting in separate stages, preserving the missing same-respondent links.
 - **Cross-source connector:** the material-to-participation bridge now states
   the full comparison contract and ranks the next same-respondent, same-case,
   and matched-place designs needed to connect exposure to political action.
@@ -156,6 +167,9 @@ been causally joined.
   sectors, preserving negative net-job outcomes and the non-conversion meaning
   of the application/opening ratio before selecting local service or political
   cases.
+- **Firm scale and care adequacy:** CBP now adds employees per establishment by
+  sector and rurality; the CBP–HRSA bridge also shows that establishment
+  presence and rough employment scale do not resolve primary-care adequacy.
 - **Place access and care adequacy:** county capacity is now normalized by
   population, stratified by USDA metro/nonmetro status, and placed beside NHTS
   mobility evidence. A CBP–HRSA bridge further shows that health-sector
@@ -224,4 +238,5 @@ same-firm join unless the identifiers and design support that claim.
 - [Trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
 - [Counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
 - [Broad research pass](US-BROAD-RESEARCH-PASS_V1.md)
+- [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md)
 - [Public reader map](../site/us-broad-program-map.html)
