@@ -35,4 +35,11 @@ around entry and exit. It finds lower resource ratios around 76.37% of valid
 exits and 58.57% of valid entries, while keeping the smaller job denominators
 and non-causal interpretation visible.
 
+The [SIPP SNAP transition reason Fay-BRR layer](sipp-snap-transition-reason-fay-brr-layer-v1.md)
+adds uncertainty to the recorded reason categories. It finds job loss or
+reduced wages as the largest classified entry category (30.10%, SE 3.94 pp)
+and “other” as the largest classified exit category (49.53%, SE 4.34 pp),
+while preserving the central limitation that valid reasons cover only about
+half of observed transitions.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
