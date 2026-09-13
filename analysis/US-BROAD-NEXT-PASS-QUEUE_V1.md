@@ -90,6 +90,13 @@ person/family retention and missingness, preserve weights, and then publish
 the first many-family comparison. No result should be promoted before that
 gate is passed.
 
+The consumer-power lane now has a bounded institutional-response layer in the
+[CFPB response route comparison](projects/us-consumer-fraud-trust/cfpb-response-route-layer-v1.md).
+It adds product-conditioned response, relief, explanation, and timeliness
+patterns. The next missing step is linked consumer follow-up—verified remedy,
+repeat effort, switching, dependence, and later trust—not another complaint
+count.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
