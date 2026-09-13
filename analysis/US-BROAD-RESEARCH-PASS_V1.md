@@ -142,6 +142,10 @@ keeps ACS foreign-born share separate from total population growth and tests
 both axes against retail, health, and food capacity in the same 620-county
 frame.
 
+The [capacity-pattern rurality sensitivity pass](projects/us-immigration-local-demand/capacity-rurality-sensitivity-v1.md)
+checks whether those pooled relationships survive metro/nonmetro stratification;
+the current result makes settlement structure an explicit conditioning variable.
+
 The [migration, belonging, and political meaning layer](projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md)
 extends the chain to direct measures of fairness, attribution, trust, identity,
 belonging, and civic or policy action. It defines competing interpretations and

@@ -120,6 +120,7 @@ cross-theme layers:
 - [migration, local demand, and sector capacity bridge](analysis/projects/us-immigration-local-demand/migration-capacity-sector-bridge-v1.md): establishes the CBP/RUCC/HRSA place-capacity baseline needed before interpreting migration's local economic, service, or cultural effects.
 - [all-county migration/place capacity profile](analysis/projects/us-immigration-local-demand/migration-capacity-all-counties-profile-v1.md): compares population-change quartiles with sector establishments and employment across 620 larger counties, without treating population change as migration.
 - [foreign-born share and capacity profile](analysis/projects/us-immigration-local-demand/nativity-capacity-all-counties-profile-v1.md): tests a separate ACS foreign-born-share axis against the same sector capacity measures across 620 larger counties.
+- [capacity-pattern rurality sensitivity](analysis/projects/us-immigration-local-demand/capacity-rurality-sensitivity-v1.md): repeats the growth and foreign-born comparisons inside metro and nonmetro groups, preserving the small nonmetro denominator.
 
 - [migration, belonging, and political meaning layer](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md): preserves the cultural-political end of the migration chain by measuring fairness, attribution, trust, identity, belonging, and action directly rather than inferring them from place statistics.
 

@@ -35,3 +35,8 @@ The [foreign-born share and capacity profile](nativity-capacity-all-counties-pro
 adds a separate 2023 ACS foreign-born-share axis to the same 620-county frame.
 Its different sector pattern shows why population growth and foreign-born
 share cannot be substituted for one another.
+
+The [rurality sensitivity pass](capacity-rurality-sensitivity-v1.md) repeats
+both comparisons inside metro and nonmetro groups. It shows that the pooled
+negative growth/capacity pattern is concentrated in the metro portion of this
+thresholded frame, while preserving the small nonmetro denominator.
