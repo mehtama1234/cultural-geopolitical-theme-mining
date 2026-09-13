@@ -106,6 +106,8 @@ The next public-systems layer is the [SIPP SNAP × food-security layer](projects
 
 The monthly extension is the [SIPP SNAP transition layer](projects/us-safety-net-access/sipp-snap-transition-layer-v1.md). It establishes adjacent-month entry, exit, and persistence rates for SNAP receipt. The next unresolved step is to classify why a transition occurred using the documented start/end reason fields.
 
+The reason pass is now the [SIPP SNAP start and end reason layer](projects/us-safety-net-access/sipp-snap-reason-layer-v1.md). It separates health/work-capacity change, income loss, job loss, family change, recertification, improved-income exit, unmet requirements, non-collection, and “not worth the trouble.” It remains weighted descriptive evidence without notice, effort, or downstream household outcomes.
+
 The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
 
 ## Cross-cutting themes to extract in every pass
