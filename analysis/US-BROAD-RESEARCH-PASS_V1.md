@@ -180,6 +180,8 @@ The [CBP county essential-sector capacity layer](projects/us-local-business-plac
 
 The [rural/urban capacity profile](projects/us-local-business-place/cbp-capacity-rural-urban-profile-v1.md) stratifies 3,128 matched counties using USDA's 2023 RUCC codes. Population-weighted capacity is higher in nonmetro counties for manufacturing and retail, higher in metro counties for health/social assistance, and nearly equal for food; this is a descriptive place pattern awaiting travel, quality, price, and use measures.
 
+The [capacity and mobility cross-source bridge](projects/us-local-business-place/capacity-mobility-cross-source-bridge-v1.md) makes the practical-access question explicit by placing county sector capacity beside NHTS vehicle and travel-mode evidence. It preserves the different samples and urban/rural definitions and specifies the common-geography test still needed.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.

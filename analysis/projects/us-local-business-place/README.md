@@ -92,3 +92,8 @@ The [rural/urban capacity profile](cbp-capacity-rural-urban-profile-v1.md)
 stratifies that baseline with USDA's 2023 Rural-Urban Continuum Codes. It shows
 that the rural/urban pattern differs by sector, so “place access” cannot be
 represented by one metro/nonmetro score.
+
+The [capacity and mobility cross-source bridge](capacity-mobility-cross-source-bridge-v1.md)
+connects the county capacity layers to the existing NHTS vehicle and travel
+evidence. It defines the next practical-access test without falsely joining
+different samples or treating establishment presence as usable access.
