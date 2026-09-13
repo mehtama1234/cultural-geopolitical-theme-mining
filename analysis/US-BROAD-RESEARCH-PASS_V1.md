@@ -62,6 +62,12 @@ distribution. It is a statistical-depth improvement to the public-systems
 layer, not evidence that a transition was caused by a rule or improved a
 household’s security.
 
+The [SIPP SNAP transition context Fay-BRR layer](projects/us-safety-net-access/sipp-snap-transition-context-fay-brr-layer-v1.md)
+extends that uncertainty check to resource and job changes around entry and
+exit. It provides a sharper descriptive test of the claim that exit is not
+automatically improved circumstances, while preserving missingness and the
+absence of a same-episode causal design.
+
 The [migration, local demand, housing, services, and belonging layer](projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md)
 adds the population-change and place mechanism. It separates workers,
 customers, jobs, firms, rents, public capacity, local ownership, belonging, and

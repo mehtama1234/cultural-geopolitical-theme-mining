@@ -29,4 +29,10 @@ distribution without changing the limits: the same person-month records still
 do not identify notice, effort, benefit amount, reason, food/work outcomes, or
 political response.
 
+The [SIPP SNAP transition context Fay-BRR layer](sipp-snap-transition-context-fay-brr-layer-v1.md)
+adds the same uncertainty treatment to resource-ratio and job-count changes
+around entry and exit. It finds lower resource ratios around 76.37% of valid
+exits and 58.57% of valid entries, while keeping the smaller job denominators
+and non-causal interpretation visible.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
