@@ -27,10 +27,14 @@ open until the relevant waves and supplements are verified.
 
 The deeper file-structure check confirms a large longitudinal base—9,152
 families and 85,536 persons reported for the 2023 PSID family and cross-year
-individual files—but also confirms that DUST/CDS/TAS time-use supplements have
-their own populations and periods. The next acquisition step is therefore a
-wave-level overlap and retention audit, not an assumption that all records
-carry all time and care fields.
+individual files. A questionnaire audit then found repeated typical-week work,
+housework, child/adult care, shopping, volunteering, leisure, social
+interaction, rushed-time, family-meal, child-care spending, and health fields
+in 2019, 2021, and 2023. This makes PSID viable for a bounded many-family
+material/time/care comparison, while DUST/CDS/TAS remain targeted supplements.
+The next acquisition step is still a wave-level overlap, retention, weight,
+and missingness audit; these fields do not automatically establish a dated
+causal trigger or political-meaning outcome.
 
 ## Coverage finding
 

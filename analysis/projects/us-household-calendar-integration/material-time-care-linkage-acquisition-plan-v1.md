@@ -96,18 +96,43 @@ the site's conditions of use. Until that account step is completed, the next
 safe action is documentation and variable-search work; no local PSID data
 extract is claimed.
 
-The time-use supplements must remain separate in the design. The PSID index
-lists child time diaries for 1997, 2002, and 2007, later child/adolescent
+The detailed diary supplements must remain separate in the design. The PSID
+index lists child time diaries for 1997, 2002, and 2007, later child/adolescent
 supplements, and the Disability and Use of Time study for older couples in
 2009 and 2013. These can provide deep time/care observations for defined
-subpopulations and periods; they do not create a repeated all-adult time diary
-for every main-study family.
+subpopulations and periods; they do not create a repeated all-adult diary for
+every main-study family. However, the 2019, 2021, and 2023 main questionnaires
+also contain repeated stylized time and care measures for Reference Persons
+and Spouse-Partners. The distinction is detailed diary versus repeated
+typical-week measures, not time-use versus no time-use.
 
-**Current acquisition decision:** download and audit the 2023 main family and
-individual documentation/data structure first; treat DUST/CDS/TAS as targeted
-supplements. Do not describe the resulting design as a general household
-time-transfer panel until the wave-level variable overlap and sample retention
-have been measured.
+## Main-panel field audit
+
+The 2019, 2021, and 2023 main questionnaires show a promising repeated core:
+
+| Main-panel field | 2023 questionnaire location/measure | Linkage value | Boundary |
+|---|---|---|---|
+| Employment timing | Section BC records employers and start/end dates, with uncertainty codes for recalled timing | Orders work changes within the two-year interview window | Recall and coarse dates can weaken event timing |
+| Paid work and commuting | BC60A typical-week paid hours; commute and work-from-home questions | Measures work-time load and some schedule/location conditions | Does not directly measure schedule control or refusal power |
+| Household and care time | F1A–F1G typical-week housework, personal care, shopping, child care, adult care, volunteering, education, and leisure | Directly measures several currencies that can absorb pressure | Stylized respondent reports, not a full diary or complete household time budget |
+| Social availability and time pressure | F1H–F1K interaction, physical/mental activity, and feeling rushed outside work | Supplies social/cultural availability and perceived time pressure | Does not identify whether a price, employer, care recipient, or agency caused it |
+| Family coordination | F5 family meals; F7 child-care spending and months used | Connects family routine and paid care to household resources | Child-care fields are conditional on child age and household composition |
+| Material and health outcomes | Section F expenditures; Section G income/assets; Section H health and change since prior wave | Supports repeated material and health outcomes around work/care conditions | Exact bill, unmet need, remedy, and downstream political meaning remain open |
+
+This changes the source decision. PSID can now support a bounded, many-family
+same-unit analysis of **material resources → work/care/time allocation → health,
+family, and selected participation outcomes**, using typical-week measures.
+It still cannot by itself establish the stronger claim that a specific price or
+institutional decision caused a particular sacrifice, restored trust, or
+produced political action.
+
+**Current acquisition decision:** acquire the 2019, 2021, and 2023 main family
+and individual files when account access is available, then test the repeated
+F1/BC/H field overlap, valid sample retention, weights, and missingness. Treat
+DUST/CDS/TAS as targeted supplements. Describe the main-panel design as a
+repeated typical-week material/time/care panel only after the extract verifies
+the wave-level overlap; do not call it a detailed time diary or a direct
+political-meaning panel.
 
 ## Priority acquisition routes
 
