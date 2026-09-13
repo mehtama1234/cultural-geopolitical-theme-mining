@@ -206,6 +206,19 @@ cross-theme layers:
 
 - [AI infrastructure realization and control update](analysis/projects/ai-work-control/ai-infrastructure-realization-control-layer-v1.md): Romania's underlying government-cloud infrastructure was officially announced complete in September 2026, while application migration, citizen-service outcomes, portability, and state exit remain open.
 
+The latest continuation layers add five bounded comparisons to the broad map:
+
+- [CFPB response route comparison](analysis/projects/us-consumer-fraud-trust/cfpb-response-route-layer-v1.md): product-specific monetary relief, non-monetary relief, explanations, pending review, and response timing, while verified recovery, switching, and restored trust remain open;
+- [BLS worker bargaining-room baseline](analysis/projects/ai-work-control/bls-union-bargaining-room-layer-v1.md): union membership, contract representation, earnings association, and distribution by worker group, occupation, industry, and state, without treating representation as a causal wage or control estimate;
+- [SIPP work-limitation × children × resources layer](analysis/projects/us-household-calendar-integration/sipp-fay-brr-disability-children-resource-layer-v1.md): a 16-cell Fay-BRR comparison showing that material pressure changes across work capacity, household composition, and resources, while household children remain a composition measure rather than care hours;
+- [CPS 2024 participation-friction layer](analysis/projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md): voting, registration, schedule, illness/disability, transportation, administrative, and candidate-related barriers as distinct routes into unequal political voice;
+- [US data-center energy-load baseline](analysis/projects/ai-work-control/us-data-center-energy-load-baseline-v1.md): historical electricity use, modeled 2030 demand, policy cost-allocation claims, and the still-open local burden, ownership, replaceability, and state-leverage questions.
+
+These additions reinforce the governing rule: a national or institutional
+pattern can deepen one arrow without closing the chain to culture, trust,
+political action, firm power, or geopolitics. The program remains a broad
+multi-unit research map, not a single-household causal study.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now
@@ -249,6 +262,14 @@ path), `bf192d9` (trend-register integration), `d9e04b3` (time, care, and social
 participation), `b16d97f` (political source stages), and `f0f1ec7` (ANES panel
 acquisition target). These commits are documentation and analysis progress,
 not proof that every broad arrow is complete.
+
+The most recent continuation commits are `11240b1` (CFPB response route),
+`fc9262d` (consumer recourse linked into the broad map), `d56c634` (BLS worker
+bargaining context), `2482325` (SIPP work limitation × children × resources),
+`f8bed63` (CPS participation friction linked into the broad map), and
+`d0f9689` (US data-center energy-load baseline). These are the current
+cross-theme breadth/depth checkpoints; they preserve open arrows rather than
+claiming end-to-end causation.
 
 The current continuation also includes `810ab0b` (coverage-count audit) and
 `d51c8f4` (population-level public-system event-ledger design). The latter
