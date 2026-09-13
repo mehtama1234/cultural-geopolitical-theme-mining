@@ -135,6 +135,7 @@ register](analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The distributional
 control layer is [unequal exposure and status](analysis/US-UNEQUAL-EXPOSURE-STATUS-LAYER_V1.md);
 the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE-MATRIX_V1.md);
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
+The compact current-state check is the [broad program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md).
 
 The next work should deepen the open arrows rather than only add more topics:
 

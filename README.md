@@ -28,6 +28,9 @@ institutions, infrastructure, and states. The [full broad-program reader map](si
 is the simplest overview. The [end-to-end recovery brief](END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md)
 is the restart document after a crash, and the [big-picture synthesis](analysis/us-big-picture-synthesis.md)
 records the current cross-source interpretation.
+The [current-status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
+records the 14-theme coverage, recent depth, open arrows, and next queue in one
+place.
 
 The common question is:
 

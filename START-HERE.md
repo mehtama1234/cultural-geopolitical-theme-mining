@@ -7,6 +7,8 @@ Open the [end-to-end recovery brief](END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md),
 the [full broad-program reader map](site/us-broad-program-map.html), and the
 [current big-picture synthesis](analysis/us-big-picture-synthesis.md) before
 choosing a dataset.
+Then check the [current broad-program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
+for the latest coverage and open arrows.
 
 Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`, then validate them with `python3 scripts/validate_us_theme_atlas.py`.
 
