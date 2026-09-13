@@ -57,6 +57,11 @@ been causally joined.
   remedy or trust restoration. The 2025 CFPB report adds complaint screening,
   routing, administrative response, and data-production scale as separate
   institutional stages.
+- **Consumer power and exit:** CFPB product and cultural layers are now
+  consolidated with consumer-culture and firm-power evidence. The program
+  explicitly treats visibility, response, remedy, continued use, switching,
+  trust, and practical exit as different outcomes; same-case verification is
+  still open.
 - **Public administration:** SIPP SNAP transition and reason layers add
   person-month entry/exit, resource and job context, recorded reason, and
   Fay-BRR uncertainty. About half of transitions have a classified reason.
