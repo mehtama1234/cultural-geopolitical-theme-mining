@@ -17,6 +17,7 @@ def main() -> None:
     parser.add_argument("--cbp", type=Path, required=True)
     parser.add_argument("--population", type=Path, required=True)
     parser.add_argument("--hpsa", type=Path, required=True)
+    parser.add_argument("--rucc", type=Path, required=True)
     args = parser.parse_args()
 
     population = {
@@ -31,6 +32,12 @@ def main() -> None:
             if row["HPSA Status"] == "Designated" and re.fullmatch(r"\d{5}", key) and row["State Abbreviation"] not in {"PR", "VI", "GU", "AS", "MP"}:
                 hpsa.add(key)
 
+    rucc = {}
+    with args.rucc.open(newline="", encoding="latin1") as handle:
+        for row in csv.DictReader(handle):
+            if row["Attribute"] == "RUCC_2023":
+                rucc[row["FIPS"]] = int(row["Value"])
+
     counties = {}
     with ZipFile(args.cbp) as archive:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
@@ -42,6 +49,8 @@ def main() -> None:
     keys = sorted(set(population) & set(counties))
     print(f"matched_counties={len(keys)}")
     print(f"designated_primary_care_hpsa_counties={len(set(keys) & hpsa)}")
+    designated = set(keys) & hpsa & set(rucc)
+    print(f"hpsa_nonmetro_share={sum(rucc[key] >= 4 for key in designated) / len(designated) * 100:.1f}")
     for label, selected in (("HPSA_component_present", [key for key in keys if key in hpsa]), ("No_HPSA_component_present", [key for key in keys if key not in hpsa])):
         rates = [10000 * int(counties[key]["est"]) / population[key] for key in selected]
         print(f"{label}\tcounties={len(selected)}\tmedian_health_establishments_per_10000={statistics.median(rates):.2f}\tpopulation_weighted={10000 * sum(int(counties[key]['est']) for key in selected) / sum(population[key] for key in selected):.2f}")

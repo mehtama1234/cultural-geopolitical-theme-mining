@@ -15,7 +15,8 @@ The near-universality of a county appearing in the HPSA component file should no
 - [HRSA primary-care all-HPSA CSV](https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv), SHA-256: `721ede7da4d4ea579d7fd54bfe705ebde3a2adfa988276e03fc2abf5ef3e66bd`.
 - [Census CBP 2023 county file](https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip), SHA-256: `e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603`.
 - [Census 2023 county population estimates](https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv), SHA-256: `abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9`.
-- Reproduction: `python3 scripts/analyze_cbp_hrsa_primary_care_bridge.py --cbp /path/to/cbp23co.zip --population /path/to/co-est2024-alldata.csv --hpsa /path/to/BCD_HPSA_FCT_DET_PC.csv`.
+- [USDA 2023 Rural-Urban Continuum Codes](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes), SHA-256: `ec455ee2a8bc5fc8e070575ea5bee7dce46fc6037f8c3449cbf56e8b45331fa7`.
+- Reproduction: `python3 scripts/analyze_cbp_hrsa_primary_care_bridge.py --cbp /path/to/cbp23co.zip --population /path/to/co-est2024-alldata.csv --hpsa /path/to/BCD_HPSA_FCT_DET_PC.csv --rucc /path/to/rucc2023.csv`.
 
 The HRSA file was refreshed daily and contains current designations; it is not a frozen 2023 snapshot. The CBP stock is from 2023, so this is a cross-vintage bridge. The exact HRSA download date and checksum should be refreshed for a time-aligned study.
 
@@ -27,6 +28,8 @@ The HRSA file was refreshed daily and contains current designations; it is not a
 | No designated primary-care HPSA component represented | 287 | 23.44 | 28.45 |
 
 The similar CBP counts are the point: establishment presence alone does not distinguish adequate from inadequate primary-care supply. The HPSA designation adds a different institutional measurement of shortage, but its geographic components and population coverage must be inspected before making county-wide claims.
+
+Among the 2,785 HPSA counties in the CBP health-capacity comparison that also matched a 2023 RUCC code, 63.6% were nonmetro (codes 4–9). This composition is descriptive, not a rural-shortage causal estimate; HPSA components can also be urban, population-based, facility-based, or partial-county designations.
 
 ## What this contributes to the broad societal program
 
