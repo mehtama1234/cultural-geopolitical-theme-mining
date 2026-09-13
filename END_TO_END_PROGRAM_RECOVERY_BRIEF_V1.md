@@ -130,6 +130,8 @@ cross-theme layers:
 
 - [BFS–CBP county stage comparison](analysis/projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md): matches business applications to employer-establishment stocks across 3,142 counties as a scale diagnostic, not a formation or survival rate.
 
+- [CBP sector and local-service capacity](analysis/projects/us-local-business-place/cbp-2023-sector-service-capacity-layer-v1.md): adds durable 2023 employer baselines for manufacturing, retail, health/social assistance, and accommodation/food before interpreting local business entry as services or community change.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

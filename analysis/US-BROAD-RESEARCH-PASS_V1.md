@@ -166,6 +166,8 @@ The [BFS annual county data-quality boundary](projects/us-local-business-place/b
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.
 
+The [CBP 2023 sector and local-service capacity layer](projects/us-local-business-place/cbp-2023-sector-service-capacity-layer-v1.md) adds durable sector baselines for production, retail, care, and food/social space. The next local test can therefore ask whether applications become durable capacity in the sectors that shape everyday life, rather than treating all firms as equivalent.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.

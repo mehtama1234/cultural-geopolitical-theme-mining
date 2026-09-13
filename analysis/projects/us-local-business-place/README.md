@@ -55,3 +55,9 @@ matches applications to employer-establishment stocks in 3,142 counties. Its
 median scale diagnostic is recorded for 2023–2025, but it is explicitly not a
 formation, survival, or service rate because the two measures have different
 units and reference periods.
+
+The [CBP 2023 sector and local-service capacity layer](cbp-2023-sector-service-capacity-layer-v1.md)
+adds a durable national baseline for manufacturing, retail, health/social
+assistance, and accommodation/food employment and establishments. It keeps
+sector presence separate from access, quality, ownership, belonging, and
+political effects.
