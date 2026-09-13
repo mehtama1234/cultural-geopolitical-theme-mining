@@ -18,6 +18,52 @@ These are not migration effects. They establish the baseline that a migration
 comparison must condition on: sector mix, rurality, employer scale, shortage
 status, and the difference between presence and adequacy.
 
+## First place table: population-change proxy
+
+The first reproducible cut uses 2020–2023 total population change as a proxy
+for local demographic pressure or release. It selects the six lowest- and six
+highest-change counties among counties above 100,000 residents, then attaches
+2023 CBP establishment presence per 10,000 residents, 2023 RUCC, and whether a
+current HRSA primary-care HPSA component carries the county FIPS. This is a
+descriptive screening table, not a matched causal comparison and not an
+international-migration estimate.
+
+| Group | County | 2020→23 population % | RUCC | HPSA component | Retail est./10k | Health/social est./10k | Food est./10k |
+|---|---|---:|---:|---|---:|---:|---:|
+| Lower change | San Francisco County, CA | -6.36 | 1 | yes | 35.50 | 44.19 | 51.53 |
+| Lower change | St. Louis city, MO | -5.84 | 1 | yes | 27.51 | 55.66 | 37.20 |
+| Lower change | Bronx County, NY | -5.76 | 1 | yes | 28.26 | 21.92 | 14.51 |
+| Lower change | Calcasieu Parish, LA | -5.55 | 2 | yes | 38.05 | 29.05 | 22.69 |
+| Lower change | Hinds County, MS | -5.40 | 2 | yes | 34.36 | 32.58 | 22.33 |
+| Lower change | Terrebonne Parish, LA | -4.91 | 3 | yes | 41.81 | 26.72 | 21.72 |
+| Higher change | Kaufman County, TX | 26.87 | 1 | no | 18.10 | 11.62 | 13.07 |
+| Higher change | Rockwall County, TX | 20.54 | 1 | no | 24.39 | 30.39 | 21.04 |
+| Higher change | Comal County, TX | 18.61 | 1 | no | 26.53 | 27.31 | 24.42 |
+| Higher change | Liberty County, TX | 18.01 | 1 | yes | 18.78 | 10.99 | 10.99 |
+| Higher change | Sumter County, FL | 16.77 | 3 | yes | 18.86 | 19.06 | 13.08 |
+| Higher change | Parker County, TX | 16.05 | 1 | yes | 23.97 | 19.93 | 16.31 |
+
+The contrast is a diagnostic, not a conclusion. Several fast-growth counties
+have lower establishment presence than the decline group, especially in health
+and food; some high-growth counties also have an HPSA component. That pattern
+supports the next test of capacity lag, but it does not show that population
+growth caused a shortage, nor that a county without a matched component has
+adequate care.
+
+### Reproduction
+
+```text
+python3 scripts/analyze_migration_place_capacity_panel.py \
+  --cbp /tmp/cbp23co.zip \
+  --population /tmp/co-est2024-alldata.csv \
+  --hpsa /tmp/BCD_HPSA_FCT_DET_PC.csv \
+  --rucc /tmp/rucc2023.csv --n 6
+```
+
+The script labels the population measure as a proxy on purpose. The next
+version must add ACS nativity, recent-arrival, language, tenure, rent, and
+crowding fields before the table is described as a migration comparison.
+
 ## The bridge
 
 ```text
@@ -79,4 +125,3 @@ individual-level causal join.
 - [CBP–HRSA primary-care shortage bridge](../us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md)
 - [Migration, local demand, housing, services, and belonging layer](migration-demand-housing-services-belonging-layer-v1.md)
 - [NBER local-demand study](https://www.nber.org/papers/w21123)
-

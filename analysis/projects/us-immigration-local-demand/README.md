@@ -15,3 +15,9 @@ New residents are workers, customers and neighbors at the same time. The custome
 ## Decision rule
 
 Move on after one source measures local demand and jobs, one source measures business or service change, and one next dataset can follow housing and wages in the same place. Do not turn a local average into a claim about every worker or resident.
+
+The [migration, local demand, and sector capacity bridge](migration-capacity-sector-bridge-v1.md)
+adds the first 12-county population-change screening table. The accompanying
+[`analyze_migration_place_capacity_panel.py`](../../../../scripts/analyze_migration_place_capacity_panel.py)
+script is reproducible and explicitly treats total population change as a
+proxy until ACS nativity and arrival measures are added.
