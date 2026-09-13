@@ -31,6 +31,12 @@ time, work loss, food or housing tradeoff, health, and job freedom separate.
 Its next test follows one dated event through the same person or family rather
 than treating an annual hardship measure as a complete causal story.
 
+The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
+adds the place-level connection across insurance, housing, energy, transport,
+local business, services, and political meaning. It distinguishes occupancy
+from secure staying, vehicle access from successful access, business
+applications from durable local capacity, and investment from local control.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
