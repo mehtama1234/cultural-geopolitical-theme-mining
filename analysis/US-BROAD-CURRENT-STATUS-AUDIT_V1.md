@@ -239,6 +239,12 @@ been causally joined.
   not return to that baseline. This adds a material downstream stage but not a
   program effect, because notices, effort, benefit amounts, field universes,
   and same-episode interpretation remain unobserved.
+- **Public-system route mechanism:** a new paper scan records experimental and
+  quasi-experimental evidence that flexible interviews, office proximity,
+  recertification timing, and work-documentation rules alter SNAP approval,
+  participation, procedural denial, and churn. This deepens the route →
+  participation arrow across institutional settings without treating those
+  studies as the same SIPP respondents or as proof of political meaning.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

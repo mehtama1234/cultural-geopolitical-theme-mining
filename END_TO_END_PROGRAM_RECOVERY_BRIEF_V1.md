@@ -117,6 +117,7 @@ cross-theme layers:
 
 - [public administration, take-up, security, and political feedback](analysis/projects/us-safety-net-access/public-administration-takeup-security-trust-action-layer-v1.md): how notice, route, burden, receipt, interruption, exit, material security, trust, and political response fit together.
 - [SNAP transition and following hardship](analysis/projects/us-safety-net-access/sipp-snap-transition-outcome-fay-brr-layer-v1.md): a Fay-BRR person-month comparison that adds rent/mortgage and utility hardship after observed receipt transitions, while preserving selection and same-episode gaps.
+- [SNAP administrative burden and practical access](analysis/projects/us-safety-net-access/snap-administrative-burden-paper-scan-v1.md): experimental and quasi-experimental route evidence on interviews, offices, recertification, work documentation, denials, and churn.
 
 - [migration, local demand, housing, services, and belonging](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md): how new residents can add workers, customers, firms, public needs, local capability, and cultural or political pressure at the same time.
 

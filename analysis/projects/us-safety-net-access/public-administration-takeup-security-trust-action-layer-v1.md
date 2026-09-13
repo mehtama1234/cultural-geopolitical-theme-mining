@@ -106,6 +106,14 @@ and utility hardship remains similar to the entry group. This is a descriptive
 selection pattern, not a SNAP effect. The transition record still lacks notice,
 effort, amount, remedy, interpretation, and action.
 
+The [SNAP administrative-burden paper scan](snap-administrative-burden-paper-scan-v1.md)
+adds route-level evidence from experiments, administrative records, and
+quasi-experimental office changes. Flexible interviews, office proximity,
+recertification timing, and work-documentation rules can alter approval,
+participation, procedural denial, or churn. These studies deepen the
+need/route → participation arrow, but remain separate populations and do not
+close the same-episode material, trust, or political-action path.
+
 ## Next bounded event-ledger test
 
 Follow one benefit episode or administrative decision for the same person or

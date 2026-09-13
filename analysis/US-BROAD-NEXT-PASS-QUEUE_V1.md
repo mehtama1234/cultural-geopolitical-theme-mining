@@ -47,6 +47,11 @@ The next missing public-system stage is the same-episode record of notice,
 effort, amount, remedy, interpretation, and action—not another cross-sectional
 receipt table.
 
+The route mechanism is now documented in the [SNAP administrative-burden paper
+scan](projects/us-safety-net-access/snap-administrative-burden-paper-scan-v1.md).
+The next public-system advance should therefore be a same-episode or matched
+route design, not another disconnected participation statistic.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish
