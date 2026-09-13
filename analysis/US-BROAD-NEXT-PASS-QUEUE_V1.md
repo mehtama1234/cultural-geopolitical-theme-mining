@@ -126,6 +126,13 @@ administrative, and candidate-related barriers. The next missing step is a
 same-person or repeated-election design linking a defined material or
 institutional exposure to interpretation, civic action, and vote.
 
+The [worker representation and political availability bridge](projects/us-cost-trust-politics/worker-representation-political-availability-bridge-v1.md)
+now places the BLS collective-representation baseline beside the CPS barrier
+mix. It establishes two societal resources—formal workplace voice and usable
+political time—without pretending they are the same respondents. The next step
+is a worker-event or matched-workplace design with schedule control, grievance
+route, civic action, and follow-up.
+
 The infrastructure/state-power lane now has a US physical-demand baseline in
 the [data-center energy load layer](projects/ai-work-control/us-data-center-energy-load-baseline-v1.md).
 It separates historical electricity use, modeled future demand, policy claims,
