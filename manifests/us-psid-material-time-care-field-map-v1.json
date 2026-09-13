@@ -97,6 +97,14 @@
       "status": "codebook_verified"
     },
     {
+      "domain": "family_routine",
+      "questionnaire_label": "F5 days per week family eats main meal together",
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72744"], "2021": ["ER78821"], "2023": ["ER82814"]},
+      "unit": "family_wave",
+      "status": "codebook_verified"
+    },
+    {
       "domain": "perceived_time_scarcity",
       "questionnaire_label": "F1K feeling pressed for time",
       "wave": [2019, 2021, 2023],
@@ -114,6 +122,18 @@
       "boundary": "Subjective wellbeing is not trust, political action, or cultural meaning by itself."
     },
     {
+      "domain": "health_outcome",
+      "questionnaire_label": "H1 general health and H1A change versus two years ago",
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER74428", "ER74429"],
+        "2021": ["ER80550", "ER80551"],
+        "2023": ["ER84520", "ER84521"]
+      },
+      "unit": "person_wave",
+      "status": "codebook_verified"
+    },
+    {
       "domain": "family_composition_and_mode",
       "questionnaire_label": "Family composition change and interview mode",
       "wave": 2023,
@@ -123,9 +143,9 @@
     },
     {
       "domain": "survey_weight",
-      "questionnaire_label": "2023 core/immigrant family longitudinal weight",
-      "wave": 2023,
-      "variables": ["ER85812"],
+      "questionnaire_label": "Core/immigrant family longitudinal weight",
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER77631"], "2021": ["ER81958"], "2023": ["ER85812"]},
       "unit": "family_wave",
       "status": "codebook_verified"
     },
@@ -136,7 +156,7 @@
       "variables": [],
       "unit": "person_family_wave",
       "status": "requires_wave_codebook_audit",
-      "note": "The repeated time/care, paid-work, work-pressure, commute-time, and life-satisfaction mappings above are verified or explicitly bounded; family-meal, paid-care, material, health, and cross-wave weight mappings still require field-level checks."
+      "note": "The repeated time/care, paid-work, work-pressure, commute-time, family-meal, health, wellbeing, and family-weight mappings above are verified or explicitly bounded; paid-care and detailed material expenditure mappings still require field-level checks."
     }
   ],
   "required_checks_before_estimation": [

@@ -52,13 +52,16 @@ verification before pooling.
 | Consumer/service effort | 2019 `ER72721`; 2021 `ER78798`; 2023 `ER82791` F1C shopping | shopping/service effort time | person-wave |
 | Child care | 2019 `ER72722`; 2021 `ER78799`; 2023 `ER82792` F1D child care; 2023 paid-care fields `ER82818`, `ER82820`–`ER82831` | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
 | Adult care | 2019 `ER72723`; 2021 `ER78800`; 2023 `ER82793` F1D2 adult care | unpaid adult-care time | person-wave |
-| Social/civic availability | 2019 `ER72724`, `ER72726`, `ER72727`; 2021 `ER78801`, `ER78803`, `ER78804`; 2023 `ER82794`, `ER82796`, `ER82797` | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
+| Social/civic availability | 2019 `ER72724`, `ER72726`, `ER72727`; 2021 `ER78801`, `ER78803`, `ER78804`; 2023 `ER82794`, `ER82796`, `ER82797` | volunteering, leisure, interaction frequency | person-wave |
+| Family routine | 2019 `ER72744`; 2021 `ER78821`; 2023 `ER82814` F5 family main meal | shared-meal frequency | family-wave |
 | Perceived time scarcity | 2019 `ER72730`; 2021 `ER78807`; 2023 `ER82800` F1K feeling rushed outside work | outside-work time-pressure indicators | person-wave |
 | Work pressure | 2019 `ER72412`; 2021 `ER78451`; 2023 `ER82438` BC60E rushed while working | work-time-pressure indicator by employment status | person-wave |
 | Subjective wellbeing | 2019 `ER72025`; 2021 `ER78026`; 2023 `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
+| Health outcome | 2019 `ER74428`, `ER74429`; 2021 `ER80550`, `ER80551`; 2023 `ER84520`, `ER84521` H1/H1A | health level and change versus two years ago | person-wave |
 | Material room | Section F expenditures; Section G income; Section W wealth/assets | income, selected essential spending, wealth/buffer bands, missingness | family/person-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
 | Family composition | coverscreen family-unit status, births, moves, spouse/partner, children | care exposure, household change, mover-out/mover-in flags | person/family-wave |
+| Family longitudinal weight | 2019 `ER77631`; 2021 `ER81958`; 2023 `ER85812` | wave-specific family weight for weighted descriptive estimates | family-wave |
 
 ## Core comparison cells
 
