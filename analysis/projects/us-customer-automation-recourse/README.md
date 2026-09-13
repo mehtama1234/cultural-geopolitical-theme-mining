@@ -43,6 +43,12 @@ adds product-specific depth: explanations, monetary relief, non-monetary relief,
 administrative responses, prior contact, and untimely responses vary sharply by
 financial product. A response category is not a universal remedy probability.
 
+The [CFPB 2025 consumer-financial cultural themes layer](cfpb-2025-consumer-financial-cultural-themes-layer-v1.md)
+extracts recurring meanings from the complaint narratives and product summaries:
+identity and data control, access to essential money, rule legibility, human
+reach, timing, dependence, exit, and explanation versus repair. These are
+themes to measure, not representative cultural frequencies.
+
 ## Scope
 
 - US customers and firms;
