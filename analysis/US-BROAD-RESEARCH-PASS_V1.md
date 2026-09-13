@@ -137,6 +137,11 @@ widens the place hypothesis to 620 larger counties and compares population-
 change quartiles with sector establishments and employment before adding
 nativity, housing, travel, wages, or direct belonging measures.
 
+The [foreign-born share and capacity profile](projects/us-immigration-local-demand/nativity-capacity-all-counties-profile-v1.md)
+keeps ACS foreign-born share separate from total population growth and tests
+both axes against retail, health, and food capacity in the same 620-county
+frame.
+
 The [migration, belonging, and political meaning layer](projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md)
 extends the chain to direct measures of fairness, attribution, trust, identity,
 belonging, and civic or policy action. It defines competing interpretations and

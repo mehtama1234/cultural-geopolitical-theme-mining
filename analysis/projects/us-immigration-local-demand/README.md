@@ -30,3 +30,8 @@ extends the selected screen to 620 counties above 100,000 residents. It
 compares population-change quartiles with retail, health/social-assistance,
 and food establishments and employment, while keeping the result descriptive
 and the population-change measure explicitly non-migration-specific.
+
+The [foreign-born share and capacity profile](nativity-capacity-all-counties-profile-v1.md)
+adds a separate 2023 ACS foreign-born-share axis to the same 620-county frame.
+Its different sector pattern shows why population growth and foreign-born
+share cannot be substituted for one another.
