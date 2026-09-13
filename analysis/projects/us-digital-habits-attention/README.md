@@ -25,6 +25,11 @@ news-source ecosystems, and social-media news influencers. It measures
 attention, trust, and civic behavior separately; it does not claim a platform
 caused a belief or vote.
 
+The [platform data, attention, agency, and public meaning layer](platform-data-attention-agency-layer-v1.md)
+joins the existing population, privacy, data-access, and recourse records. It
+keeps encounter, interpretation, action, and practical agency separate while
+making the cultural and political consequences explicit.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.

@@ -150,6 +150,8 @@ The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integrati
 
 The [Pew 2025 news, platform, and civic-engagement layer](projects/us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md) adds population-level information and cultural structure: distinct participation types, partisan news-source ecosystems, and social-media news influencers. It deepens the platforms, trust, identity, and collective-action themes without treating source use as proof of persuasion or causal voting effects.
 
+The [platform data, attention, agency, and public meaning layer](projects/us-digital-habits-attention/platform-data-attention-agency-layer-v1.md) now joins the platform evidence into a broader societal mechanism. It separates what people encounter, how they interpret it, what they do, and whether they can inspect, contest, or leave the system. The causal path from platform exposure to durable belief or action remains open.
+
 The [USDA 2024 food-security layer](projects/us-food-budget-security/usda-2024-food-security-layer-v1.md) adds a basic-security endpoint to the price, care, public-assistance, and inequality themes. It shows the national distribution of low and very low food security, child/adult shielding, subgroup exposure, and assistance participation while keeping the exact price-to-food and food-to-political paths open.
 
 The [local business formation and place layer](projects/us-local-business-place/local-business-formation-place-layer-v1.md) adds a firm, sector, and place layer. It separates entrepreneur movement, business applications, employer-firm formation, and local service or identity effects, keeping the business-count-to-community and domestic-capacity-to-state links open.
