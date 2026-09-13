@@ -80,3 +80,10 @@ does not cover nonemployer firms as employer establishments, reveal individual
 employer operations, measure service quality or consumer use, or identify
 local ownership and political effects. The national table is a baseline, not a
 county-level causal result.
+
+The selected rows are reproducible with
+`scripts/analyze_cbp_sector_capacity.py`:
+
+```text
+python3 scripts/analyze_cbp_sector_capacity.py --cbp /path/to/cbp23us.zip
+```
