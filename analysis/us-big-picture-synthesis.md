@@ -13,6 +13,11 @@ is the current synthesis of the separate evidence layers. It is where the
 program names broad trends, while the matrices remain the control documents for
 units, methods, uncertainty, and missing links.
 
+The [broad trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
+sets the common rule for that synthesis: surveys, administrative records,
+firms, markets, media, cultural measures, and international records retain
+their own units and roles while contributing to a shared arrow map.
+
 The atlas now contains 83 topics, 5 shared themes, 165 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
 
 ## The main finding so far
@@ -140,10 +145,11 @@ renewal, office access, program exit, employment, food security, and trust are
 different outcomes. A lower caseload or higher exit rate is not automatically
 successful policy; the household’s next condition must be measured.
 
-The next strongest bridge is therefore an event ledger around public help:
-notice, effort, access route, decision, interruption, food/work/debt result, and
-later trust. This is the clearest current way to test whether an institution
-changed household security or only changed participation.
+The [population public-system event-ledger design](projects/us-safety-net-access/same-episode-event-ledger-design-v1.md)
+turns that gap into a multi-person, multi-place test: notice, effort, access
+route, decision, interruption, food/work/debt result, later trust, public
+action, and institutional response. It is explicitly a population design, not
+another one-household study.
 
 The [unequal exposure and status layer](US-UNEQUAL-EXPOSURE-STATUS-LAYER_V1.md)
 keeps the broad map from treating averages as universal. Income, tenure, place,
@@ -180,7 +186,7 @@ This theme follows a cost into the thing that gets cut or delayed. Housing can m
 
 The useful measure is not only the first price. It is the protected need, the need given up, the timing, and the later cost.
 
-Related reading: [When the price people see becomes the economy they judge](site/us-price-perception-public-judgment-path-001.html), [When the shape of aid changes the household week](site/us-transfer-design-food-security-path-001.html), and [When a record starts making the future](site/us-self-fulfilling-credit-scores-path-001.html).
+Related reading: [When the price people see becomes the economy they judge](../site/us-price-perception-public-judgment-path-001.html), [When the shape of aid changes the household week](../site/us-transfer-design-food-security-path-001.html), and [When a record starts making the future](../site/us-self-fulfilling-credit-scores-path-001.html).
 
 ### 2. Who gives up time
 
@@ -188,7 +194,7 @@ Time is often the hidden payment. It can be spent traveling to an office, caring
 
 The question is not whether time was spent. It is what the time made possible and what it displaced.
 
-Related reading: [When one office day changes the remote week](site/us-office-day-remote-week-path-001.html), [From family time to money and economic views](site/us-family-care-money-politics-path-001.html), and [When equal income buys a different life](site/us-multiple-jobs-household-room-path-001.html).
+Related reading: [When one office day changes the remote week](../site/us-office-day-remote-week-path-001.html), [From family time to money and economic views](../site/us-family-care-money-politics-path-001.html), and [When equal income buys a different life](../site/us-multiple-jobs-household-room-path-001.html).
 
 ### 3. Who can get an answer or change a decision
 
@@ -196,7 +202,7 @@ This theme follows a person's ability to refuse, appeal, correct, switch, delete
 
 The useful measure is not trust as a feeling alone. It is whether the person understood the deal, could challenge it, and received a remedy.
 
-Related reading: [When privacy protection increases the data exchange](site/us-privacy-data-exchange-path-001.html), [When staying does not mean being satisfied](site/us-staying-service-satisfaction-path-001.html), and [When a benefit loss changes the public mood](site/us-benefit-loss-public-mood-path-001.html).
+Related reading: [When privacy protection increases the data exchange](../site/us-privacy-data-exchange-path-001.html), [When staying does not mean being satisfied](../site/us-staying-service-satisfaction-path-001.html), and [When a benefit loss changes the public mood](../site/us-benefit-loss-public-mood-path-001.html).
 
 ### 4. Who controls the work and gets the gain
 
@@ -204,7 +210,7 @@ This theme separates output from power. A tool can raise speed without giving a 
 
 The useful measure is who sets the task, owns the data, receives the gain, carries the risk, and can change the arrangement.
 
-Related reading: [When one office day changes the remote week](site/us-office-day-remote-week-path-001.html), [When equal income buys a different life](site/us-multiple-jobs-household-room-path-001.html), and [When career movement slows around a long payment](site/us-career-debt-housing-path-001.html).
+Related reading: [When one office day changes the remote week](../site/us-office-day-remote-week-path-001.html), [When equal income buys a different life](../site/us-multiple-jobs-household-room-path-001.html), and [When career movement slows around a long payment](../site/us-career-debt-housing-path-001.html).
 
 ### 5. A home can be costly to heat before anything else changes
 
@@ -212,7 +218,7 @@ Energy belongs in the housing story. A home can have a high energy bill because 
 
 The useful measure is the home condition, the bill, the household's ability to change the home, and the next need put at risk.
 
-Related reading: [When the tap becomes part of the health and housing story](site/us-safe-drinking-water-path-001.html) and [The cost of staying in a home is a stack of bills and risks](site/us-home-cost-stack-001.html).
+Related reading: [When the tap becomes part of the health and housing story](../site/us-safe-drinking-water-path-001.html) and [The cost of staying in a home is a stack of bills and risks](../site/us-home-cost-stack-001.html).
 
 The new energy pages sharpen this theme: a bill credit buys time, a repair restores equipment, and weatherization changes the home. They are not interchangeable. The right intervention depends on whether the failure is cash, equipment, building control, or an unsafe condition today.
 
@@ -301,7 +307,7 @@ layers separate and name the missing join. A household calendar remains one
 useful instrument for a later bounded study, not the definition of the
 program.
 
-[Read the household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md) · [Read the HTML research brief](../site/us-household-calendar-integration.html)
+[Read the household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md) · [Read the HTML research brief](../site/us-household-calendar-integration.html) · [Read the broad trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) · [Read the current status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 
 ## Reading rule
 
