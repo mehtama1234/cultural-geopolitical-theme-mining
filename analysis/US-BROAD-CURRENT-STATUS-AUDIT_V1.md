@@ -165,6 +165,11 @@ been causally joined.
 - **Public administration:** SIPP SNAP transition and reason layers add
   person-month entry/exit, resource and job context, recorded reason, and
   Fay-BRR uncertainty. About half of transitions have a classified reason.
+- **Compound public-system security:** the reason comparison now also measures
+  simultaneous rent/mortgage and utility hardship in the following record. It
+  shows that both entry and exit routes can retain joint housing insecurity;
+  it remains adjacent-month descriptive evidence, not a benefit-effect or
+  same-episode remedy estimate.
 - **Cultural and political meaning:** SHED, ANES, and Pew are aligned as
   separate population layers for consumer adaptation, economic judgment,
   trust, source environment, civic action, turnout, and participation barriers.

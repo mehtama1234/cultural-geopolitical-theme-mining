@@ -18,6 +18,7 @@ REPLICATES = 240
 FAY_FACTOR = 0.5
 OUTCOMES = {"EAWBMORT": "unable to pay rent or mortgage",
             "EAWBGAS": "unable to pay utility bills"}
+COMPOUND_OUTCOME = "BOTH_HARDSHIPS"
 START_REASONS = {
     "1": "new child/dependent or pregnancy",
     "2": "separation, divorce, or widowhood",
@@ -112,9 +113,10 @@ def main() -> None:
     buckets = [(transition_name, code)
                for transition_name, labels in labels_by_transition.items()
                for code in labels]
-    full_num = {(bucket, outcome): 0.0 for bucket in buckets for outcome in OUTCOMES}
-    full_den = {(bucket, outcome): 0.0 for bucket in buckets for outcome in OUTCOMES}
-    records = {(bucket, outcome): 0 for bucket in buckets for outcome in OUTCOMES}
+    outcome_names = (*OUTCOMES, COMPOUND_OUTCOME)
+    full_num = {(bucket, outcome): 0.0 for bucket in buckets for outcome in outcome_names}
+    full_den = {(bucket, outcome): 0.0 for bucket in buckets for outcome in outcome_names}
+    records = {(bucket, outcome): 0 for bucket in buckets for outcome in outcome_names}
     pair_map: dict[tuple[str, str, str, str, str], tuple[tuple[str, str], dict[str, bool], dict[str, str]]] = {}
     all_transitions = defaultdict(int)
     classified_transitions = defaultdict(int)
@@ -140,6 +142,7 @@ def main() -> None:
             bucket = (transition_name, reason)
             outcomes = {field: valid(after.get(field, ""), after.get("A" + field[1:], ""))
                         for field in OUTCOMES}
+            outcomes[COMPOUND_OUTCOME] = all(outcomes.values())
             key = person + (str(month),)
             pair_map[key] = (bucket, outcomes, after)
             for outcome, is_valid in outcomes.items():
@@ -147,11 +150,13 @@ def main() -> None:
                     continue
                 records[(bucket, outcome)] += 1
                 full_den[(bucket, outcome)] += float(before["WPFINWGT"])
-                if after[outcome] == "1":
+                positive = (after[outcome] == "1" if outcome in OUTCOMES else
+                            after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1")
+                if positive:
                     full_num[(bucket, outcome)] += float(before["WPFINWGT"])
 
-    rep_num = {(bucket, outcome): np.zeros(REPLICATES) for bucket in buckets for outcome in OUTCOMES}
-    rep_den = {(bucket, outcome): np.zeros(REPLICATES) for bucket in buckets for outcome in OUTCOMES}
+    rep_num = {(bucket, outcome): np.zeros(REPLICATES) for bucket in buckets for outcome in outcome_names}
+    rep_den = {(bucket, outcome): np.zeros(REPLICATES) for bucket in buckets for outcome in outcome_names}
     replicate_rows_read = 0
     matched = 0
     with zipfile.ZipFile(args.replicate_zip) as archive:
@@ -175,7 +180,9 @@ def main() -> None:
                     if not is_valid:
                         continue
                     rep_den[(bucket, outcome)] += weights
-                    if after[outcome] == "1":
+                    positive = (after[outcome] == "1" if outcome in OUTCOMES else
+                                after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1")
+                    if positive:
                         rep_num[(bucket, outcome)] += weights
 
     results = {}
@@ -183,7 +190,7 @@ def main() -> None:
         results[transition_name] = {}
         for code, reason_label in labels.items():
             results[transition_name][code] = {"reason": reason_label}
-            for outcome in OUTCOMES:
+            for outcome in outcome_names:
                 bucket = (transition_name, code)
                 results[transition_name][code][outcome] = summarize(
                     full_num[(bucket, outcome)], full_den[(bucket, outcome)],
@@ -195,7 +202,7 @@ def main() -> None:
         "source_unit": "identified person, adjacent reference-month transition pair",
         "transition": "SNAP receipt in month t -> month t+1",
         "reason": "recorded transition reason from the relevant SIPP month",
-        "outcome": "valid code-1 rent/mortgage or utility hardship report in month t+1",
+        "outcome": "valid code-1 rent/mortgage, utility, or simultaneous hardship report in month t+1",
         "weight": "WPFINWGT from month t; REPWGT1-REPWGT240 for variance",
         "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
         "rows_read": rows_read,

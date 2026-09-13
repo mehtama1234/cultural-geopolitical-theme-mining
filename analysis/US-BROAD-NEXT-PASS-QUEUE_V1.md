@@ -199,6 +199,13 @@ rare entry/exit cells remain a design signal because their uncertainty is wide.
 The next step is still the same-episode ledger, not an unbounded pile of
 cross-tabs.
 
+The [compound hardship layer](projects/us-safety-net-access/sipp-snap-transition-reason-compound-hardship-layer-v1.md)
+adds a joint rent/mortgage-plus-utility outcome to the reason comparison. It
+shows that receipt entry and recorded exit can both coexist with simultaneous
+housing insecurity. This is a stronger material-security endpoint, but it does
+not replace the missing notice, effort, amount, remedy, interpretation, and
+action fields.
+
 The [SNAP reason × following-hardship layer](projects/us-safety-net-access/sipp-snap-transition-reason-outcome-fay-brr-layer-v1.md)
 now connects recorded entry/exit reasons to the following hardship fields on
 the same adjacent-month person record. It separates job loss, income loss,
