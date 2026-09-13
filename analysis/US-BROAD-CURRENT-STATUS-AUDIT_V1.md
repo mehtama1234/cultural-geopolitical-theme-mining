@@ -82,6 +82,11 @@ been causally joined.
   establishments can coexist with designated primary-care shortage components.
   Travel, appointment access, quality, price, unmet need, and household
   outcomes remain open.
+- **Care-capacity institutional check:** the HRSA bridge finds 2,785 counties
+  represented by a designated primary-care HPSA component among the 3,072
+  counties with usable CBP health rows. This is a component overlap diagnostic,
+  not a county-wide shortage or care-adequacy estimate; the HRSA file is a
+  current-vintage download and must be time-aligned for longitudinal analysis.
 
 ## The shared end-to-end model
 
