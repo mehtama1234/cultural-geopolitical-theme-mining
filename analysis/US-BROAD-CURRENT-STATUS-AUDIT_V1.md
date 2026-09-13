@@ -226,6 +226,12 @@ been causally joined.
   families, subject to acquisition, universe, retention, missingness, and
   weight checks. It is not a one-household case and does not close the
   price/institution → meaning/action arrow.
+- **Published care/work population layer:** BLS's combined 2023–2024 ATUS
+  tables add 38.2 million reported eldercare providers age 15+, with age,
+  sex, employment, recipient, and care-frequency gradients. Employed providers
+  averaged 2.84 hours on days they provided care; the table establishes care
+  scale and time intensity, not that care displaced work or caused civic or
+  political withdrawal. The next microdata gate remains open.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

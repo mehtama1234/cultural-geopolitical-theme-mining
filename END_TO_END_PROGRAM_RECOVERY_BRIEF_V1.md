@@ -105,6 +105,7 @@ cross-theme layers:
 - [aging, care supply, and social capacity](analysis/projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md): how demographic need becomes family time, paid-care work, employer constraint, public infrastructure, unmet need, and political meaning across separate units;
 
 - [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the exact official microdata targets and bounded weighted estimate for the care-versus-work layer, with the current BLS download failure preserved as an acquisition gap.
+- [ATUS 2023–2024 published care/work layer](analysis/projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md): an official population baseline showing the scale, age/employment distribution, frequency, and care-day intensity of unpaid eldercare before attempting the stronger same-respondent displacement test.
 
 - [public-system participation, meaning, and action gap](analysis/projects/us-safety-net-access/public-system-meaning-action-gap-v1.md): records the SIPP reason/transition evidence and the precise missing same-episode bridge to trust, remedy, and political action.
 - [same-episode public-system event-ledger design](analysis/projects/us-safety-net-access/same-episode-event-ledger-design-v1.md): defines the multi-person, multi-place comparison needed to connect route, material security, meaning, action, and institutional response.

@@ -35,6 +35,12 @@ Until a same-unit or valid matched design supplies those fields, the safe
 output is a measured distribution, an explicit comparison, or an acquisition
 gap—not a claim that one cost caused one cultural or political outcome.
 
+The care-time subpass now has an official published-table baseline in the
+[ATUS 2023–2024 care/work layer](projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md).
+That baseline advances population scale and time intensity, but does not
+replace the microdata gate for same-respondent schedule, care, health, and
+wellbeing comparisons.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish
