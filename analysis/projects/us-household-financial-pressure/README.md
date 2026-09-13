@@ -15,6 +15,11 @@ extra work, emergency capacity, and outside help. It is a descriptive layer
 inside the broader 14-theme program, not the program’s definition and not a
 one-household case study.
 
+The [SHED 2024–2025 panel persistence layer](shed-2024-2025-panel-persistence-layer-v1.md)
+adds 4,419 same-respondent transitions. It shows persistence in financial
+condition and repeated price adaptations, while keeping the causes and later
+trust or political effects open.
+
 ## Meaty end-to-end goal
 
 Build a source-traceable account of how a financial condition becomes a lived consumer experience and then a shift in company behavior, household choices, institutional trust, and political demand.

@@ -108,6 +108,7 @@ action.
 - [Federal Reserve 2025 income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
 - [Federal Reserve 2025 overall financial well-being](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm)
 - [SHED price-adaptation layer](../us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
+- [SHED 2024–2025 panel persistence layer](../us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
 - [ANES 2024 political judgment layer](anes-2024-political-judgment-layer-v1.md)
 - [Pew 2025 news and civic-engagement layer](../us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md)
 - [Cross-source trust, meaning, and action layer](cross-source-trust-action-layer-v1.md)
