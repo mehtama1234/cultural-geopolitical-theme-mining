@@ -49,3 +49,9 @@ The [BFS annual county data-quality boundary](bfs-annual-county-data-quality-bou
 records the 2026 release's differential-privacy noise and an exploratory
 small-county outlier that must be validated before applications are interpreted
 as durable firms, jobs, services, or local identity.
+
+The [BFS–CBP county stage comparison](bfs-cbp-county-stage-comparison-v1.md)
+matches applications to employer-establishment stocks in 3,142 counties. Its
+median scale diagnostic is recorded for 2023–2025, but it is explicitly not a
+formation, survival, or service rate because the two measures have different
+units and reference periods.
