@@ -25,11 +25,29 @@ large-load request
 
 | State and record | Stage | Main mechanism | What it makes visible |
 |---|---|---|---|
-| Virginia SCC, Dominion PUR-2025-00058 and related initiatives | Approved framework described by SCC | GS-5 separate class; at least 14-year obligation for covered new contracts; minimum payment of 85% of transmission/distribution costs; collateral up to 60% of minimum charges; direct-connect cost assignment and future allocation proposals | Cost-shift protection, contract duration, credit risk, and direct infrastructure assignment |
+| Virginia SCC, Dominion PUR-2025-00058 and related initiatives | Approved framework and later implementation proceedings | GS-5 separate class; at least 14-year obligation for covered new contracts; minimum payment of 85% of transmission/distribution costs; collateral up to 60% of minimum charges; direct-connect cost assignment and future allocation proposals | Cost-shift protection, contract duration, credit risk, direct infrastructure assignment, and a modeled residential-incidence illustration |
 | Texas PUC proposed §25.252 and related rules implementing SB 6 | Proposed rule, not final outcome | Financial security; direct cash contribution in aid of construction; at least 20-year interconnection agreement; billing when service is available; minimum billing demand; annual customer-class revenue reporting; reallocation if commitments fail | Long-term reservation risk, idle-capacity billing, financial security, and public monitoring |
 | Georgia PSC Docket 44280 record | Evidentiary/accountability recommendation | Requests projected and actual peak/load/energy series, monthly minimum bills, RTP pricing, unit-level generation, cost-of-service studies, and allocation of forecast costs/revenues | The information required to test forecast accuracy, cost causation, and whether benefits/costs distribute across customer classes |
 
 ## What the comparison supports
+
+### Virginia supplies a first incidence signal, but not a household outcome
+
+The SCC reports that its approved amended transmission cost-allocation method,
+including the approved 85% minimum-demand adjustment for certain large-load
+customers, would reduce the projected increase in Rider T1 costs for a typical
+residential customer using 1,000 kWh from $2.90 to $0.94 per month. This is a
+commission-reported modeled comparison inside a regulatory proceeding. It is
+not an observed bill, does not identify a particular household, and does not
+prove that the data-center terms caused the difference. It nevertheless moves
+the evidence one stage beyond a generic tariff inventory: the regulator is
+estimating how cost-allocation design changes a residential-ratepayer exposure.
+
+The SCC also reports that its 2026 Rider T1 framework requires modifications to
+Dominion's line-extension policy so large-load customers fund direct-connect
+transmission facilities that would not otherwise be built. The subsequent
+implementation docket and supplemental proceedings remain necessary to observe
+the terms, payments, and actual cost recovery.
 
 ### 1. The state response is moving from attraction to risk governance
 
@@ -69,6 +87,7 @@ political trust. Those require follow-up records.
 | Large load → regulatory response | Observed in three state records | Complete docket chronology and final implementation |
 | Regulatory terms → risk allocation | Specified/partly approved | Contracts, deposits, bills, actual load, defaults, and cost recovery |
 | Disclosure → public accountability | Mechanism/evidentiary | Public data releases, hearing participation, corrections, and enforcement |
+| Terms → modeled customer incidence | Reported/estimated in Virginia | Actual utility bills, customer-level exposure, and realized recovery |
 | Terms → local customer incidence | Open | Utility rate-class bills, upgrade recovery, reliability, and service quality |
 | Terms → local capability | Open | Jobs, wages, suppliers, taxes, water/land, ownership, and durable skills |
 | Governance → trust or political action | Open | Local attribution, hearings, organizing, polling, and subsequent policy change |
