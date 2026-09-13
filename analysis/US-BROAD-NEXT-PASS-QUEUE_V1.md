@@ -145,6 +145,12 @@ the same adjacent-month person record. It separates job loss, income loss,
 disability, family, and administrative routes. The next step remains a true
 episode ledger with notice, route effort, amount, remedy, meaning, and action.
 
+The [same-episode implementation specification](projects/us-safety-net-access/same-episode-event-ledger-implementation-v1.md)
+now turns that next step into linked episode, route, decision, outcome, and
+meaning/action tables with a multi-place sampling plan and source-role
+contract. It is an acquisition instrument, not evidence that those fields are
+already observed.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
