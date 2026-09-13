@@ -104,6 +104,7 @@ cross-theme layers:
 - [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the exact official microdata targets and bounded weighted estimate for the care-versus-work layer, with the current BLS download failure preserved as an acquisition gap.
 
 - [public-system participation, meaning, and action gap](analysis/projects/us-safety-net-access/public-system-meaning-action-gap-v1.md): records the SIPP reason/transition evidence and the precise missing same-episode bridge to trust, remedy, and political action.
+- [same-episode public-system event-ledger design](analysis/projects/us-safety-net-access/same-episode-event-ledger-design-v1.md): defines the multi-person, multi-place comparison needed to connect route, material security, meaning, action, and institutional response.
 
 - [state-leverage control ledger](analysis/projects/ai-work-control/state-leverage-control-ledger-v1.md): tracks realized infrastructure, ownership, local incidence, portability, exit, and observed external response before calling capacity geopolitical leverage.
 - [place risk, housing security, mobility, and local life](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): how risk and cost shape secure staying, moving, transport, services, and local attachment;

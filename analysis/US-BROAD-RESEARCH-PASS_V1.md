@@ -87,6 +87,11 @@ appeal, interruption, and exit as part of the policy—not administrative noise.
 It keeps eligibility, receipt, food security, work, debt, health, trust, and
 political action separate and specifies the same-episode event-ledger test.
 
+The [same-episode event-ledger design](projects/us-safety-net-access/same-episode-event-ledger-design-v1.md)
+now defines that test as a population design across states, places, channels,
+program episodes, and outcomes. Its comparison cells prevent “take-up” from
+standing in for security, meaning, or political action.
+
 The [SIPP SNAP transition Fay-BRR uncertainty layer](projects/us-safety-net-access/sipp-snap-transition-fay-brr-layer-v1.md)
 adds replicate-weight standard errors and intervals to the monthly transition
 distribution. It is a statistical-depth improvement to the public-systems

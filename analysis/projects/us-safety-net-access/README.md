@@ -43,3 +43,8 @@ while preserving the central limitation that valid reasons cover only about
 half of observed transitions.
 
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
+
+The [same-episode event-ledger design](same-episode-event-ledger-design-v1.md)
+turns that instrument into a population study: many people, places, channels,
+and program episodes are stratified and compared, so the public-system bridge
+does not collapse into one household story.
