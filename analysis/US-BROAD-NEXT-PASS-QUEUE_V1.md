@@ -61,7 +61,10 @@ capacity-lagging comparisons.
 The place screen also has a housing/capacity option-stack layer with ACS
 vacancy, rent, crowding, and language-access measures. The next step is a
 larger conditioned place panel with travel, wages, permits, provider adequacy,
-and direct local meaning/action measures.
+and direct local meaning/action measures. The new [immigration belonging,
+attitude, and action source pass](projects/us-immigration-local-demand/immigration-belonging-attitude-action-source-pass-v1.md)
+separates those respondent-level measures from place context; its next gate is
+ANES variable extraction and a documented geography crosswalk.
 
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
