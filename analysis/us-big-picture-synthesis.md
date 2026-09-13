@@ -171,6 +171,13 @@ alternatives exist and who can control them. The project is therefore tracking
 not only what households give up, but how costs, risks, information, ownership,
 and power move across society.
 
+The [all-county migration/place capacity profile](projects/us-immigration-local-demand/migration-capacity-all-counties-profile-v1.md)
+adds a broader place check: among 620 larger counties, higher population-growth
+quartiles have lower per-capita retail, health, and food capacity in the 2023
+screen. Population change is not immigration, and this is not a causal or
+service-adequacy result; it is a reason to test where demand and capacity move
+together or apart.
+
 ## The five reader umbrellas
 
 These five umbrellas are the current reader-facing grouping of the opening
