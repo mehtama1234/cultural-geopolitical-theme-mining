@@ -28,6 +28,15 @@ not treated as a conversion rate.
 - CBP SHA-256: `e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603`
 - Match key: state FIPS + county FIPS; county names are not used as identifiers.
 - CBP measure: `est` in the all-industry `naics="------"` row.
+- Reproduction script: `scripts/analyze_bfs_cbp_county_stage_comparison.py`
+
+Run:
+
+```text
+python3 scripts/analyze_bfs_cbp_county_stage_comparison.py \
+  --bfs /path/to/bfs_county_apps_annual.xlsx \
+  --cbp /path/to/cbp23co.zip
+```
 
 The files matched for 3,142 counties. Restricting the diagnostic to counties
 with at least 10 all-industry employer establishments leaves 3,138 counties.
