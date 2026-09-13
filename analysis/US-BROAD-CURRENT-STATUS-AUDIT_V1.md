@@ -140,6 +140,12 @@ been causally joined.
   remedy or trust restoration. The 2025 CFPB report adds complaint screening,
   routing, administrative response, and data-production scale as separate
   institutional stages.
+- **Product/place recourse depth:** product-filtered 2024 CFPB slices now
+  normalize published complaints by Census population for credit cards,
+  checking/savings, mortgages, debt collection, student loans, and vehicle
+  loans. Rates differ by product and place, but remain visibility measures;
+  account denominators, residence validation, verified remedy, and exit remain
+  open.
 - **Consumer power and exit:** CFPB product and cultural layers are now
   consolidated with consumer-culture and firm-power evidence. The program
   explicitly treats visibility, response, remedy, continued use, switching,

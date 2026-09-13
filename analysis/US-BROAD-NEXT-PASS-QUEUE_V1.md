@@ -99,6 +99,13 @@ patterns. The next missing step is linked consumer follow-up—verified remedy,
 repeat effort, switching, dependence, and later trust—not another complaint
 count.
 
+The [CFPB product × state rate layer](projects/us-customer-automation-recourse/cfpb-product-state-rate-layer-v1.md)
+now conditions the visible complaint geography on six financial products. It
+shows that place patterns differ by product, while preserving the distinction
+between published visibility and harm or remedy. The next consumer-power step
+is a product/state case sequence with account denominators and follow-up, not a
+larger unnormalized complaint table.
+
 The work/control lane now has a population bargaining-context baseline in the
 [BLS union and bargaining-room layer](projects/ai-work-control/bls-union-bargaining-room-layer-v1.md).
 It adds representation, coverage, earnings association, and distribution by
