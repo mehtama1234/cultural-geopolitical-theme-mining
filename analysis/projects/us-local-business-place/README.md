@@ -72,3 +72,8 @@ The [BFS–BDS state stage comparison](bfs-bds-state-stage-comparison-v1.md)
 tests that sequence geographically across 51 states and DC. Its normalized
 application measure has a descriptive association with BDS entry, exit, and
 job-flow rates, but it is not a conversion rate or causal result.
+
+The [BFS–BDS sector bridge](bfs-bds-sector-bridge-v1.md) adds the national
+industry dimension. It shows why application volume, realized openings,
+turnover, and job growth must be read differently across retail, care, food,
+transport, construction, and manufacturing.
