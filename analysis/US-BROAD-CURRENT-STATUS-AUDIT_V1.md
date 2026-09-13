@@ -152,6 +152,10 @@ been causally joined.
   jobs, and everyday service capacity must be analyzed separately; the links
   to ownership, quality, access, local identity, and political response remain
   open.
+- **Complete sector breadth:** the BFS–BDS profile now covers all 19 national
+  sectors, preserving negative net-job outcomes and the non-conversion meaning
+  of the application/opening ratio before selecting local service or political
+  cases.
 - **Place access and care adequacy:** county capacity is now normalized by
   population, stratified by USDA metro/nonmetro status, and placed beside NHTS
   mobility evidence. A CBP–HRSA bridge further shows that health-sector

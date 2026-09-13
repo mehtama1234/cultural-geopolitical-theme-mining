@@ -78,6 +78,11 @@ industry dimension. It shows why application volume, realized openings,
 turnover, and job growth must be read differently across retail, care, food,
 transport, construction, and manufacturing.
 
+The [complete BFS–BDS sector profile](bfs-bds-complete-sector-profile-v1.md)
+extends that comparison across all 19 sectors in the national files. It keeps
+negative net-job sectors and high-application/low-opening contrasts visible
+instead of selecting only sectors that support an expansion story.
+
 The [BDS state-sector turnover profile](bds-state-sector-turnover-profile-v1.md)
 adds geographic depth: selected sectors have different entry, exit, and net-job
 patterns across states, so a national growth signal cannot be treated as one
