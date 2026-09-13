@@ -108,6 +108,8 @@ The monthly extension is the [SIPP SNAP transition layer](projects/us-safety-net
 
 The reason pass is now the [SIPP SNAP start and end reason layer](projects/us-safety-net-access/sipp-snap-reason-layer-v1.md). It separates health/work-capacity change, income loss, job loss, family change, recertification, improved-income exit, unmet requirements, non-collection, and “not worth the trouble.” It remains weighted descriptive evidence without notice, effort, or downstream household outcomes.
 
+The transition-aligned extension is the [SIPP SNAP transition × recorded reason layer](projects/us-safety-net-access/sipp-snap-transition-reason-layer-v1.md). It classifies about half of observed no-to-yes and yes-to-no transitions, showing why the unclassified half must not be assigned a single meaning.
+
 The next empirical priority is now the [safety-net event ledger](templates/US-SAFETY-NET-EVENT-LEDGER_V1.md): connect notice, effort, access route, decision, benefit interruption, food/work/debt outcomes, and later trust for the same program episode. This is the most direct currently identified test of whether public administration changes household security or only changes participation.
 
 ## Cross-cutting themes to extract in every pass
