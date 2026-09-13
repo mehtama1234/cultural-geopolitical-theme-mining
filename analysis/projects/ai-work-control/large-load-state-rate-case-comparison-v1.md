@@ -49,6 +49,21 @@ transmission facilities that would not otherwise be built. The subsequent
 implementation docket and supplemental proceedings remain necessary to observe
 the terms, payments, and actual cost recovery.
 
+### Public participation is visible, but attribution is not
+
+In a related Northern Virginia transmission case, the SCC records two local
+hearings, more than 600 registered speakers, and hundreds of pages of written
+comments. The public concerns it summarizes centered on undergrounding,
+property value, landscape, and possible health effects; most commenters did not
+dispute the need for the lines. The Commission approved an above-ground route
+with a preferred path and an alternative contingent on school-board approval.
+
+This is evidence of organized public participation and an institutional
+decision, not a poll of opinion and not proof that each participant was
+responding to data centers. The appropriate next measure is to code the docket
+record by actor, concern, attribution, requested remedy, and whether the final
+decision changed the terms.
+
 ### 1. The state response is moving from attraction to risk governance
 
 The records do not only ask whether data centers bring jobs or investment.
@@ -89,6 +104,7 @@ political trust. Those require follow-up records.
 | Disclosure → public accountability | Mechanism/evidentiary | Public data releases, hearing participation, corrections, and enforcement |
 | Terms → modeled customer incidence | Reported/estimated in Virginia | Actual utility bills, customer-level exposure, and realized recovery |
 | Terms → local customer incidence | Open | Utility rate-class bills, upgrade recovery, reliability, and service quality |
+| Infrastructure proposal → public participation/decision | Reported in related Virginia transmission case | Actor-level comments, attribution to large-load growth, remedy requests, and decision influence |
 | Terms → local capability | Open | Jobs, wages, suppliers, taxes, water/land, ownership, and durable skills |
 | Governance → trust or political action | Open | Local attribution, hearings, organizing, polling, and subsequent policy change |
 | Domestic control → state leverage | Open | Provider switch, refusal, negotiation, or changed external behavior |
