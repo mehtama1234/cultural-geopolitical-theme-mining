@@ -64,6 +64,27 @@ recorded reason does not reveal the notice, documents, effort, appeal, benefit
 amount, or household outcome. It also does not prove that the cited event was
 the sole cause of the transition.
 
+## Context check
+
+The transition-aligned reason script also groups events by child presence and
+resource band. The variation is a useful hypothesis signal, not a precise
+subgroup estimate:
+
+| Context | No → Yes transitions | Classified entries | Job-loss share among classified entries | Yes → No transitions | Classified exits | Income-increase share among classified exits |
+|---|---:|---:|---:|---:|---:|---:|
+| No children, below 1.00x | 47 | 40 | 47.1% | 31 | 29 | 10.5% |
+| Children present, below 1.00x | 96 | 24 | 14.5% | 35 | 8 | 21.8% |
+| No children, 1.00–1.99x | 45 | 39 | 17.4% | 38 | 27 | 55.9% |
+| Children present, 1.00–1.99x | 77 | 22 | 20.8% | 78 | 27 | 40.6% |
+| No children, 2.00–3.99x | 42 | 36 | 36.9% | 37 | 29 | 41.3% |
+| Children present, 2.00–3.99x | 79 | 27 | 41.0% | 93 | 26 | 39.2% |
+
+These differences could reflect transition composition, measurement coverage,
+work and family changes, or actual institutional processes. The run does not
+estimate subgroup standard errors and should not be used to rank contexts. It
+does establish which comparisons a larger, reason-complete event design should
+pre-register.
+
 ## Verification and limits
 
 - 379,215 primary person-month rows were read.
@@ -87,7 +108,7 @@ extract_sipp_household_calendar_slice.py
 ```
 
 The raw files, derived CSV, and JSON output are not committed. The calculation
-output was `/tmp/us-broad-sipp-2025/full-v13/sipp-snap-transition-reasons.json`.
+output was `/tmp/us-broad-sipp-2025/full-v13/sipp-snap-transition-reasons-v3.json`.
 
 ## Next test
 

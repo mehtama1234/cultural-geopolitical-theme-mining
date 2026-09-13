@@ -45,8 +45,30 @@ def distribution(counter: Counter[str], weights: dict[str, float], labels: dict[
     }
 
 
+def context(row: dict[str, str]) -> str:
+    try:
+        poverty = float(row.get("THINCPOV", ""))
+    except (TypeError, ValueError):
+        poverty = None
+    if poverty is None:
+        resource = "unknown"
+    elif poverty < 1:
+        resource = "below_1x"
+    elif poverty < 2:
+        resource = "1_to_2x"
+    elif poverty < 4:
+        resource = "2_to_4x"
+    else:
+        resource = "4x_or_more"
+    try:
+        children = "children_0" if float(row.get("RHNUMU18", "")) == 0 else "children_1plus"
+    except (TypeError, ValueError):
+        children = "unknown"
+    return f"{children}|{resource}"
+
+
 def analyze(path: Path) -> dict:
-    required = {"SSUID", "SHHADID", "PNUM", "MONTHCODE", "WPFINWGT",
+    required = {"SSUID", "SHHADID", "PNUM", "MONTHCODE", "WPFINWGT", "THINCPOV", "RHNUMU18",
                 "RSNAP_MNYN", "ESNAP_BRSN", "ASNAP_BRSN", "ESNAP_ERSN", "ASNAP_ERSN"}
     people: dict[tuple[str, str, str], dict[int, dict[str, str]]] = defaultdict(dict)
     rows_read = 0
@@ -73,6 +95,9 @@ def analyze(path: Path) -> dict:
     start_weights: dict[str, float] = defaultdict(float)
     end = Counter()
     end_weights: dict[str, float] = defaultdict(float)
+    contexts = defaultdict(lambda: {"entry": Counter(), "entry_weight": defaultdict(float),
+                                    "exit": Counter(), "exit_weight": defaultdict(float),
+                                    "entry_transitions": 0, "exit_transitions": 0})
     reason_coverage = Counter()
     for months in people.values():
         for month in range(1, 12):
@@ -91,18 +116,24 @@ def analyze(path: Path) -> dict:
             transition_weights[transition] += weight
             if transition == "2 -> 1":
                 reason_coverage["entry_transition"] += 1
+                contexts[context(second)]["entry_transitions"] += 1
                 code = second.get("ESNAP_BRSN", "")
                 if second.get("ASNAP_BRSN", "") not in {"", "0"} and code in START_REASONS:
                     add = (start, start_weights)
                     add[0][code] += 1
                     add[1][code] += weight
+                    contexts[context(second)]["entry"][code] += 1
+                    contexts[context(second)]["entry_weight"][code] += weight
                     reason_coverage["entry_with_reason"] += 1
             elif transition == "1 -> 2":
                 reason_coverage["exit_transition"] += 1
+                contexts[context(first)]["exit_transitions"] += 1
                 code = first.get("ESNAP_ERSN", "")
                 if first.get("ASNAP_ERSN", "") not in {"", "0"} and code in END_REASONS:
                     end[code] += 1
                     end_weights[code] += weight
+                    contexts[context(first)]["exit"][code] += 1
+                    contexts[context(first)]["exit_weight"][code] += weight
                     reason_coverage["exit_with_reason"] += 1
 
     return {
@@ -118,6 +149,15 @@ def analyze(path: Path) -> dict:
         "reason_coverage": dict(reason_coverage),
         "entry_reasons": distribution(start, start_weights, START_REASONS),
         "exit_reasons": distribution(end, end_weights, END_REASONS),
+        "by_context": {
+            key: {
+                "entry_transitions": values["entry_transitions"],
+                "exit_transitions": values["exit_transitions"],
+                "entry_reasons": distribution(values["entry"], values["entry_weight"], START_REASONS),
+                "exit_reasons": distribution(values["exit"], values["exit_weight"], END_REASONS),
+            }
+            for key, values in sorted(contexts.items())
+        },
         "variance_estimation": False,
         "causal_estimation": False,
     }
