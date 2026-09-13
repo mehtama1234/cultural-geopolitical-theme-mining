@@ -50,6 +50,7 @@ GROUP_FIELDS = {
     "ERACE_ETENURE_THINCPOV": ("ERACE", "ETENURE", "THINCPOV"),
     "ERACE_EDISABL_THINCPOV": ("ERACE", "EDISABL", "THINCPOV"),
     "ERACE_RHNUMU18_THINCPOV": ("ERACE", "RHNUMU18", "THINCPOV"),
+    "EDISABL_RHNUMU18_THINCPOV": ("EDISABL", "RHNUMU18", "THINCPOV"),
 }
 OFFICIAL_FLAG_FIELDS = {
     "EAWBMORT": "AAWBMORT",
@@ -195,6 +196,8 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                 required.add("ARACE")
             if group_by == "ERACE_EDISABL_THINCPOV":
                 required.update({"ARACE", "ADISABL"})
+            if group_by == "EDISABL_RHNUMU18_THINCPOV":
+                required.update({"ADISABL", "AHNUMU18"})
             if group_by == "ERACE_RHNUMU18_THINCPOV":
                 required.update({"ARACE", "AHNUMU18"})
         if group_by:

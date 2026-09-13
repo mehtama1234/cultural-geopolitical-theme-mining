@@ -104,6 +104,12 @@ worker group, occupation, industry, and state. The next missing step is a
 worker-event comparison linking a tool, schedule, benefit, or safety change to
 control, voice, household security, and exit.
 
+The material/time/inequality lane now has a design-based SIPP intersection in
+the [work limitation × children × resources layer](projects/us-household-calendar-integration/sipp-fay-brr-disability-children-resource-layer-v1.md).
+It adds a 16-cell comparison with Fay-BRR uncertainty. The next missing step is
+care hours, schedule control, and genuine monthly work or benefit transitions;
+household members under 18 must not be treated as a direct care measure.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
