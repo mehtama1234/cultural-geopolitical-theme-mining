@@ -112,6 +112,22 @@ response. The next place test should compare similar populations across states
 or counties while measuring registration access, residence duration, transport,
 work/care time, and information exposure.
 
+## Place × social position
+
+The state-by-race table shows why state averages are not enough. Nationally,
+reported voting among citizens was 70.5% for White non-Hispanic people, 59.6%
+for Black people, 57.1% for Asian people, and 50.6% for Hispanic people. The
+state table makes those groups available within place, but some cells have
+large margins of error: for example, the reported Hispanic rate in Vermont was
+74.1% with a 22.5-point margin of error, while the reported Black rate in
+Oregon was 78.8% with a 15.6-point margin of error.
+
+That uncertainty is part of the result. A place comparison that ignores cell
+size and margin of error can turn sampling noise into a story about culture or
+political motivation. The next executable version should pre-specify pooled
+regions or multi-election cells, use the replicate weights, and report both
+the group gap within place and the place gap within group.
+
 ## What this means for the broad program
 
 Political participation is not one outcome. The program now has separate
