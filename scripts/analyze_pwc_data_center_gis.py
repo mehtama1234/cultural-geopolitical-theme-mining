@@ -35,6 +35,21 @@ def status_summary(rows: list[dict], field: str, area_field: str) -> dict:
     }
 
 
+def concentration(rows: list[dict], group_field: str, area_field: str) -> dict:
+    areas = defaultdict(float)
+    for row in rows:
+        areas[str(row.get(group_field) or "Unknown")] += number(row, area_field)
+    total = sum(areas.values())
+    shares = {key: value / total for key, value in areas.items()} if total else {}
+    return {
+        "group_field": group_field,
+        "area_shares": {key: 100 * value for key, value in sorted(shares.items())},
+        "hhi_share_fraction": sum(value * value for value in shares.values()),
+        "largest_group": max(shares, key=shares.get) if shares else None,
+        "largest_group_share_percent": 100 * max(shares.values()) if shares else None,
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--buildings", type=Path, required=True)
@@ -63,6 +78,7 @@ def main() -> None:
         "building_status": status_summary(buildings, "BuildingStatus", "GFA"),
         "campus_status": status_summary(campuses, "ProjectStatus", "PlannedGFA"),
         "campus_planning_district": dict(sorted(district.items())),
+        "campus_planning_district_concentration": concentration(campuses, "MagistDist", "PlannedGFA"),
         "building_status_counts": dict(Counter(row.get("BuildingStatus") for row in buildings)),
         "campus_status_counts": dict(Counter(row.get("ProjectStatus") for row in campuses)),
         "boundary": "GFA is not electricity load; snapshot is not a time series or causal incidence estimate.",

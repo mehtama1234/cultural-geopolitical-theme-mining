@@ -192,6 +192,12 @@ not measure load, bills, jobs, water, or community benefit. The next
 infrastructure step is therefore a matched utility/place comparison, not a
 larger national projection.
 
+The GIS layer now quantifies the planning concentration: Brentsville and
+Gainesville hold 43.1% and 42.2% of planned campus GFA, with a four-district
+planned-GFA HHI of 0.381; only 5.2% of campus planned GFA is in completed
+projects in the snapshot. These are targeting metrics, not realized load or
+incidence. The next step remains a matched utility/place comparison.
+
 The public-system lane now has an intersectional SNAP transition outcome in the
 [work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md).
 It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is

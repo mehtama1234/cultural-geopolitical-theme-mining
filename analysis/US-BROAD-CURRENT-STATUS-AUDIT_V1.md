@@ -238,6 +238,10 @@ been causally joined.
   floor area, and planning-district concentration. It establishes a local
   pipeline and targeting frame, not actual electricity/water load, ratepayer
   cost, employment, or community benefit.
+- The same snapshot now reports the district planned-GFA concentration directly:
+  Brentsville and Gainesville hold 43.1% and 42.2%, with a four-district HHI
+  of 0.381; only 5.2% of planned campus GFA is in completed projects. These
+  figures target the next records to collect and do not measure incidence.
 - **Domestic-to-state bridge:** household/firm affordability, sector capacity,
   infrastructure ownership, and external dependence are now organized into a
   relational state-leverage test. Strategic leverage remains open until the

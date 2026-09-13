@@ -82,6 +82,14 @@ screen: Brentsville and Gainesville contain most of the recorded campus
 pipeline, so utility connections, zoning records, traffic, tax, and public
 comments should be linked there first.
 
+The planned-GFA concentration is measurable but should be read as a planning
+concentration, not a utility concentration. Brentsville contains 43.1% and
+Gainesville 42.2% of planned campus GFA; the four-district HHI is 0.381 using
+district planned-GFA shares. Campus status by planned GFA is 56.6% planned,
+38.2% pending, and 5.2% completed. These figures sharpen where and which
+stages to investigate, while leaving actual load, ratepayer incidence, and
+realized operation unmeasured.
+
 ## What this adds to the broader program
 
 1. **Infrastructure is locally concentrated.** A national demand scenario
@@ -101,7 +109,7 @@ comments should be linked there first.
 
 | Arrow | Status | What is safe to say | Missing evidence |
 |---|---|---|---|
-| Planned campus → building pipeline | Compared within snapshot | Campus and building records contain distinct status stages and footprints | Case-level deduplication and time series |
+| Planned campus → building pipeline | Compared within snapshot | Campus and building records contain distinct status stages, footprints, and concentrated planning geographies | Case-level deduplication and time series |
 | Building footprint → electricity/water load | Open | Physical footprint identifies a place for utility linkage | Meter/load, water, substation, and service records |
 | Project → household or ratepayer incidence | Open | Concentrated projects identify where incidence should be tested | Tariffs, bills, cost allocation, taxes, traffic, and environmental records |
 | Project → local capability/jobs | Open | County records identify development activity | Employment, wages, vendors, training, tax receipts, and local procurement |
@@ -137,4 +145,5 @@ python3 scripts/analyze_pwc_data_center_gis.py \
 
 The raw GIS exports and derived summary are local acquisition artifacts and are
 not committed; the field definitions and county metadata are preserved in the
-source acquisition workspace.
+source acquisition workspace. The summary also reports planned-GFA shares and
+a district HHI to make the geographic concentration check reproducible.
