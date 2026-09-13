@@ -118,6 +118,8 @@ cross-theme layers:
 
 - [Material to participation cross-source bridge](analysis/projects/us-cost-trust-politics/material-to-participation-cross-source-bridge-v1.md): connects the separate material, time, place, public-system, information, trust, turnout, firm, and state layers while preserving their different units and limits.
 
+- [Time and care to political availability](analysis/projects/us-cost-trust-politics/time-care-to-political-availability-bridge-v1.md): compares work, care, and social-time allocation with reported schedule and health barriers to voting without treating either survey as a causal join.
+
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
 - [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.

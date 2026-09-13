@@ -60,6 +60,9 @@ been causally joined.
 - **Cross-source connector:** the material-to-participation bridge now states
   the full comparison contract and ranks the next same-respondent, same-case,
   and matched-place designs needed to connect exposure to political action.
+- **Time and civic availability:** ATUS time allocation is now explicitly
+  compared with CPS schedule and health barriers, while the dated
+  time-to-turnout link remains open.
 - **Infrastructure and state power:** Romania and Malaysia cases now separate
   planned capacity, realized milestones, ownership change, local distribution,
   and provider/state exit. ADR's September 2026 announcement verifies a
