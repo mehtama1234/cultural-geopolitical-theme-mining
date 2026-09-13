@@ -25,6 +25,13 @@ time-use material is supplemental and population-specific. It is not yet a
 complete all-adult material/time/care panel; the full end-to-end claim remains
 open until the relevant waves and supplements are verified.
 
+The deeper file-structure check confirms a large longitudinal base—9,152
+families and 85,536 persons reported for the 2023 PSID family and cross-year
+individual files—but also confirms that DUST/CDS/TAS time-use supplements have
+their own populations and periods. The next acquisition step is therefore a
+wave-level overlap and retention audit, not an assumption that all records
+carry all time and care fields.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)

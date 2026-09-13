@@ -81,6 +81,27 @@ general all-adult repeated-time requirement may fail. If it does, pair PSID
 economic/family waves with the appropriate time/care supplement or an event
 ledger, and keep the full end-to-end claim open.
 
+The file-structure audit makes the usable architecture clearer. PSID's
+documentation describes single-year family files through 2023 and a cross-year
+individual file; the 2023 guide reports 9,152 families in the 2023 family file
+and 85,536 persons in the cross-year individual file. The documented family
+interview sequence is biennial from 1999 through 2023, with earlier annual
+waves. This is substantial longitudinal population infrastructure, but
+individual availability varies with family membership and nonresponse.
+
+The time-use supplements must remain separate in the design. The PSID index
+lists child time diaries for 1997, 2002, and 2007, later child/adolescent
+supplements, and the Disability and Use of Time study for older couples in
+2009 and 2013. These can provide deep time/care observations for defined
+subpopulations and periods; they do not create a repeated all-adult time diary
+for every main-study family.
+
+**Current acquisition decision:** download and audit the 2023 main family and
+individual documentation/data structure first; treat DUST/CDS/TAS as targeted
+supplements. Do not describe the resulting design as a general household
+time-transfer panel until the wave-level variable overlap and sample retention
+have been measured.
+
 ## Priority acquisition routes
 
 1. **Longitudinal household route:** audit PSID's main waves and supplements
