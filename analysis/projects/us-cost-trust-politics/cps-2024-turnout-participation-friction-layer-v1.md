@@ -139,6 +139,14 @@ section has a restricted relationship-to-householder universe and small lower
 income counts, so these are signals for further testing, not a causal income
 gradient.
 
+The table's published margins of error make the comparison more precise: the
+under-$10,000 illness/disability estimate is 16.7% (±7.1 points), and its
+schedule estimate is 8.8% (±5.3); the $150,000-or-more estimates are 3.7%
+(±1.2) and 19.5% (±3.6), respectively. The raw gaps are therefore 13.0 and
+10.7 points, but this document does not treat them as formal tests of a
+difference because the table does not provide a covariance estimate for the
+contrast.
+
 Education and residence duration show similar contrasts. Among nonvoters with
 less than a high-school education, illness/disability was 20.3% and schedule
 conflict 13.6%; among those with a bachelor's degree or more, the shares were
@@ -147,6 +155,12 @@ registration problems were 9.8%, compared with 2.3% among those there three
 years or longer. Address duration is not citizenship, and these comparisons do
 not identify whether moving, registration design, work, or another factor came
 first.
+
+For the registration comparison, the published margins of error are ±2.1
+points for less than one year and ±0.7 points for three years or longer. The
+7.5-point raw gap is therefore a useful descriptive signal, but it still does
+not distinguish moving itself from address updating, local registration
+practice, or the characteristics of people who recently moved.
 
 ## What this means for the broad program
 
