@@ -36,6 +36,13 @@ The next acquisition step is still a wave-level overlap, retention, weight,
 and missingness audit; these fields do not automatically establish a dated
 causal trigger or political-meaning outcome.
 
+The codebook pass also identifies a bounded subjective endpoint: the 2023
+Family File includes life satisfaction, alongside family-composition change,
+interview mode, and a family longitudinal weight. This can test whether
+material/time/care patterns co-occur with reported wellbeing across many
+families; it is not a substitute for same-event attribution, trust, political
+action, or voting.
+
 The [PSID material/time/care extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md)
 now fixes the first many-family unit, candidate fields, comparison cells, and
 quality gates for that acquisition.

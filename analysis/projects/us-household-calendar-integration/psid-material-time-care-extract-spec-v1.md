@@ -52,6 +52,7 @@ codebook check before pooling.
 | Adult care | `ER82793` F1D2 typical-week adult-care hours | unpaid adult-care time | person-wave |
 | Social/civic availability | `ER82794` F1E volunteering; `ER82796` F1G leisure; `ER82797` F1H interaction outside work; F5 family meals | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
 | Perceived time scarcity | `ER82800` F1K feeling rushed outside work; BC60E rushed at work | time-pressure indicators by work status | person-wave |
+| Subjective wellbeing | `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
 | Material room | Section F expenditures; Section G income; Section W wealth/assets | income, selected essential spending, wealth/buffer bands, missingness | family/person-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
 | Family composition | coverscreen family-unit status, births, moves, spouse/partner, children | care exposure, household change, mover-out/mover-in flags | person/family-wave |

@@ -71,6 +71,31 @@
       "status": "codebook_verified"
     },
     {
+      "domain": "subjective_wellbeing",
+      "questionnaire_label": "A3 life satisfaction",
+      "wave": 2023,
+      "variables": ["ER82027"],
+      "unit": "person_wave",
+      "status": "codebook_verified",
+      "boundary": "Subjective wellbeing is not trust, political action, or cultural meaning by itself."
+    },
+    {
+      "domain": "family_composition_and_mode",
+      "questionnaire_label": "Family composition change and interview mode",
+      "wave": 2023,
+      "variables": ["ER82006", "ER82007"],
+      "unit": "family_wave",
+      "status": "codebook_verified"
+    },
+    {
+      "domain": "survey_weight",
+      "questionnaire_label": "2023 core/immigrant family longitudinal weight",
+      "wave": 2023,
+      "variables": ["ER85812"],
+      "unit": "family_wave",
+      "status": "codebook_verified"
+    },
+    {
       "domain": "all_domains",
       "questionnaire_label": "Same field groups and comparable universes",
       "wave": "2019-2021",
