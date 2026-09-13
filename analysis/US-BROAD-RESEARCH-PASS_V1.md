@@ -51,6 +51,11 @@ locates the official microdata and specifies the next weighted care-versus-work
 estimate; the current environment's BLS ZIP access failure is recorded as an
 acquisition gap, not converted into an invented result.
 
+The [public-system participation, meaning, and action gap](projects/us-safety-net-access/public-system-meaning-action-gap-v1.md)
+records the measured SIPP transition/reason stage and its exact boundary with
+ANES trust/action evidence. It preserves unknown reasons and prevents a
+caseload or vote statistic from becoming a benefit-to-politics claim.
+
 The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
 adds the place-level connection across insurance, housing, energy, transport,
 local business, services, and political meaning. It distinguishes occupancy

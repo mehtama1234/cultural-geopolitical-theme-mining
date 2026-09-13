@@ -125,6 +125,10 @@ been causally joined.
   eldercare-roster, and ATUS-CPS files are now recorded with exact URLs and a
   bounded weighted care/work estimate. BLS ZIP requests returned HTTP 403 in
   the current environment, so no microdata estimate is claimed.
+- **Public-system meaning/action boundary:** SIPP now supplies reason-coded
+  transition and material-context evidence with Fay-BRR uncertainty, while a
+  dedicated gap record preserves the missing same-episode notice, effort,
+  interpretation, remedy, trust, and political-action fields.
 - **Time and civic availability:** ATUS time allocation is now explicitly
   compared with CPS schedule and health barriers, while the dated
   time-to-turnout link remains open.
