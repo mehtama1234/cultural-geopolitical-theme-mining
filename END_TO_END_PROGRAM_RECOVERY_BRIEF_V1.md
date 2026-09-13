@@ -91,6 +91,19 @@ because adjacent datasets point in the same direction.
   tenure, resource, region, transition, and Fay-BRR comparisons are evidence
   for distributional patterns, not the end-to-end program itself.
 
+Since that recovery state, the broad program has added and linked these
+cross-theme layers:
+
+- [trust, meaning, and action](analysis/projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md): how material and institutional experience is interpreted before consumer, civic, or political action;
+- [price, market power, belief, and action](analysis/projects/us-tariff-domestic-markup-delay/price-power-belief-action-layer-v1.md): how trade, monetary, and firm decisions can travel through direct and delayed costs, household adaptation, and political meaning;
+- [capability, dependency, local distribution, and state power](analysis/projects/ai-work-control/capability-dependence-local-power-layer-v1.md): how infrastructure can build capability and dependence together;
+- [care cost, work, family time, and security](analysis/projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md): how social reproduction distributes health costs across money, work, unpaid labor, food, housing, and dignity;
+- [place risk, housing security, mobility, and local life](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): how risk and cost shape secure staying, moving, transport, services, and local attachment;
+- [optionality, unequal exposure, time, and exit](analysis/projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md): the distributional spine of cash, time, alternatives, support, rights, voice, and practical exit; and
+- [consumer culture, trust, status, and everyday power](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md): how buying, sharing, reviewing, reporting, help-seeking, and staying become social and institutional signals.
+
+The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
+
 ## What we should pursue now
 
 Continue bridge by bridge. For each, assemble the strongest compatible source
@@ -108,3 +121,16 @@ register](analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The distributional
 control layer is [unequal exposure and status](analysis/US-UNEQUAL-EXPOSURE-STATUS-LAYER_V1.md);
 the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE-MATRIX_V1.md);
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
+
+The next work should deepen the open arrows rather than only add more topics:
+
+1. follow one dated consumer, care, housing, or public-program event through
+   the same person or case and later outcome;
+2. acquire or use a valid respondent panel for attribution, trust, information,
+   and political action;
+3. build a matched place/firm comparison for local distribution, ownership,
+   remedy, and exit;
+4. seek counterexamples where the predicted downstream meaning or action does
+   not occur; and
+5. keep the 14-theme map, source units, uncertainty, and reader pages
+   synchronized after each pass.
