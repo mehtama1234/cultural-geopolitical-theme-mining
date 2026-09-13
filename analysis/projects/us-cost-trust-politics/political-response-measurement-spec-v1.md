@@ -20,6 +20,28 @@ For a defined US population and time window, estimate separately:
 The target is not one composite “economic mood” score. A change in one stage
 must not be reported as a change in a later stage.
 
+## Current source-to-stage map
+
+The broad program already has useful pieces, but they are not interchangeable.
+This table is the current acquisition control: it shows what can be reported
+now and what a real end-to-end instrument would still need.
+
+| Source layer | Strongest stage(s) | Unit and time | Usable now | Missing for the full path |
+|---|---|---|---|---|
+| SHED 2025 cross-section | Adjustment and financial condition | US adult respondent, annual reference period | Population distribution of substitution, reduced use, saving cuts, borrowing, delay, extra work, and emergency capacity | Dated exposure, blamed actor, source environment, trust, and action in the same respondent record |
+| SHED 2024–2025 panel | Adjustment persistence and broad condition transition | Recontacted respondent, two annual waves | Persistence and re-entry by worsening, same, or improving financial-condition path | Exact event timing, attribution, political interpretation, and later action |
+| ANES 2024 | Interpretation, trust, identity, and reported vote | Eligible-voter respondent, pre/post election | Financial worry, national judgment, government trust, perceived capture/waste, party identity, and reported vote with survey weights | A measured price/bill/job exposure and a design that separates prior identity, information, blame, and action over time |
+| Pew 2025 | Source environment and civic expression | US adult respondent plus public account analysis | News-source use/trust, influencer exposure, discussion, volunteering, contact, voting, and engagement types | Same-respondent material exposure and platform encounter preceding interpretation |
+| SIPP/administrative records | Material and program exposure | Person-month, program spell, place | Work, resources, SNAP receipt/transitions, reasons, food, and hardship context | Political meaning, trust, source, and action tied to the same episode |
+| BLS/CE, election, and place records | Contextual exposure and population response | Item, consumer unit, county, election, year/month | Prices, spending, real wages, local conditions, and election/place outcomes | Individual attribution and the ability to distinguish ecological alignment from respondent experience |
+
+The proper synthesis is therefore a staged population map. SHED can establish
+that adaptation is widespread and persistent; ANES can establish that financial
+worry coexists with different economic judgments and trust; and Pew can
+establish differentiated civic participation and source environments. None of
+these alone establishes that a particular cost produced a particular political
+action.
+
 ## Required record
 
 | Stage | Minimum fields | Valid unit |
@@ -104,3 +126,22 @@ Until that source is obtained, the current conclusion remains bounded:
 material conditions can align with economic judgments and population/place
 political outcomes, but the same-person path through blame, trust, and action
 is open.
+
+## Immediate executable pass
+
+1. Use the SHED panel to define the material-transition sample and classify
+   worsening, stable, and improving paths; retain adaptation persistence as a
+   separate outcome.
+2. Use ANES to specify the interpretation fields—worry, national judgment,
+   trust, capture, waste, identity, attribution, and action—and record their
+   valid universes and weights without importing SHED respondents.
+3. Use Pew to classify source environment and civic-action style, preserving
+   the distinction between encounter, trust, discussion, contact, volunteering,
+   voting, and withdrawal.
+4. Acquire or construct a repeated-respondent source that contains at least a
+   material exposure, an attribution field, a trust/meaning field, and a later
+   action field. If no source contains all four, state that the causal middle
+   remains open and use the separate layers only as context.
+5. Add one counterexample for every proposed bridge: pressure without changed
+   judgment, changed judgment without pressure, trust without action, and
+   action with a different blamed actor.
