@@ -2,8 +2,9 @@
 
 **Checked:** 2026-09-13
 **Scope:** many-family US longitudinal comparison, not a single-household case
-**Status:** pre-acquisition specification; 2023 Family File names are mapped
-where verified, while 2019/2021 names and all universes still require checks
+**Status:** pre-acquisition specification; core time/care and wellbeing names
+are mapped across 2019/2021/2023, while cross-wave universes and remaining
+fields still require checks
 
 ## Research question
 
@@ -35,9 +36,10 @@ remain explicit.
 
 The field-level record is also available as the machine-readable [PSID field
 manifest](../../../manifests/us-psid-material-time-care-field-map-v1.json).
-The following questionnaire labels are now partially mapped to the 2023 Family
-File codebook. The 2019 and 2021 mappings still require the corresponding
-codebook check before pooling.
+The following questionnaire labels are now mapped across the 2019, 2021, and
+2023 Family File codebooks where listed. Cross-wave comparability, universes,
+response codes, and the remaining work/material/health fields still require
+verification before pooling.
 
 | Domain | Candidate questionnaire fields | Derived analytic measure | Unit |
 |---|---|---|---|
@@ -45,14 +47,14 @@ codebook check before pooling.
 | Paid work | BC60A typical-week paid hours; historical job hours/weeks | paid hours and change since prior wave | person-wave |
 | Work location/commute | `ER82183` BC21B1 commute/work-from-home; `ER82184` BC21B2 work-from-home frequency; `ER82185` average commute time | home-work indicator, commute burden, missing/unknown timing | person-job-wave |
 | Work pressure/control proxy | BC60B–BC60E interaction, physical demand, mental demand, and rushed-at-work items | reported work-intensity and time-pressure scale; not labeled control without validation | person-wave |
-| Household labor | `ER82788` F1A typical-week housework | unpaid household labor hours and change | person-wave |
-| Personal health time | `ER82790` F1B typical-week personal care/health-needs time | self-care time | person-wave |
-| Consumer/service effort | `ER82791` F1C typical-week shopping time | shopping/service effort time | person-wave |
-| Child care | `ER82792` F1D typical-week child-care hours; `ER82818` annual paid child-care amount; `ER82820`–`ER82831` monthly paid-care items | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
-| Adult care | `ER82793` F1D2 typical-week adult-care hours | unpaid adult-care time | person-wave |
-| Social/civic availability | `ER82794` F1E volunteering; `ER82796` F1G leisure; `ER82797` F1H interaction outside work; F5 family meals | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
-| Perceived time scarcity | `ER82800` F1K feeling rushed outside work; BC60E rushed at work | time-pressure indicators by work status | person-wave |
-| Subjective wellbeing | `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
+| Household labor | 2019 `ER72718`; 2021 `ER78795`; 2023 `ER82788` F1A typical-week housework | unpaid household labor hours and change | person-wave |
+| Personal health time | 2019 `ER72720`; 2021 `ER78797`; 2023 `ER82790` F1B personal care | self-care time | person-wave |
+| Consumer/service effort | 2019 `ER72721`; 2021 `ER78798`; 2023 `ER82791` F1C shopping | shopping/service effort time | person-wave |
+| Child care | 2019 `ER72722`; 2021 `ER78799`; 2023 `ER82792` F1D child care; 2023 paid-care fields `ER82818`, `ER82820`–`ER82831` | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
+| Adult care | 2019 `ER72723`; 2021 `ER78800`; 2023 `ER82793` F1D2 adult care | unpaid adult-care time | person-wave |
+| Social/civic availability | 2019 `ER72724`, `ER72726`, `ER72727`; 2021 `ER78801`, `ER78803`, `ER78804`; 2023 `ER82794`, `ER82796`, `ER82797` | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
+| Perceived time scarcity | 2019 `ER72730`; 2021 `ER78807`; 2023 `ER82800` F1K feeling rushed outside work; BC60E work pressure | time-pressure indicators by work status | person-wave |
+| Subjective wellbeing | 2019 `ER72025`; 2021 `ER78026`; 2023 `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
 | Material room | Section F expenditures; Section G income; Section W wealth/assets | income, selected essential spending, wealth/buffer bands, missingness | family/person-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
 | Family composition | coverscreen family-unit status, births, moves, spouse/partner, children | care exposure, household change, mover-out/mover-in flags | person/family-wave |

@@ -4,6 +4,11 @@
   "source": "PSID 2023 Family File codebook and 2023 questionnaire",
   "target_waves": [2019, 2021, 2023],
   "status": "pre_acquisition",
+  "source_urls": {
+    "2019_codebook": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2019ER_codebook.pdf",
+    "2021_codebook": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2021ER_codebook.pdf",
+    "2023_codebook": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2023ER_codebook.pdf"
+  },
   "evidence_boundary": "Field names are verified for the 2023 Family File where listed. Cross-wave comparability, universes, weights, missing-value codes, and actual source rows remain to be audited.",
   "fields": [
     {
@@ -17,64 +22,72 @@
     {
       "domain": "household_labor",
       "questionnaire_label": "F1A typical-week housework",
-      "wave": 2023,
-      "variables": ["ER82788"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72718"], "2021": ["ER78795"], "2023": ["ER82788"]},
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "personal_health_time",
       "questionnaire_label": "F1B typical-week personal care",
-      "wave": 2023,
-      "variables": ["ER82790"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72720"], "2021": ["ER78797"], "2023": ["ER82790"]},
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "consumer_service_effort",
       "questionnaire_label": "F1C typical-week shopping",
-      "wave": 2023,
-      "variables": ["ER82791"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72721"], "2021": ["ER78798"], "2023": ["ER82791"]},
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "child_care",
       "questionnaire_label": "F1D typical-week child care and F7 paid child care",
-      "wave": 2023,
-      "variables": ["ER82792", "ER82818", "ER82820-ER82831"],
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER72722"],
+        "2021": ["ER78799"],
+        "2023": ["ER82792", "ER82818", "ER82820-ER82831"]
+      },
       "unit": "person_family_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "adult_care",
       "questionnaire_label": "F1D2 typical-week adult care",
-      "wave": 2023,
-      "variables": ["ER82793"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72723"], "2021": ["ER78800"], "2023": ["ER82793"]},
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "social_civic_availability",
       "questionnaire_label": "F1E volunteering, F1G leisure, F1H interaction",
-      "wave": 2023,
-      "variables": ["ER82794", "ER82796", "ER82797"],
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER72724", "ER72726", "ER72727"],
+        "2021": ["ER78801", "ER78803", "ER78804"],
+        "2023": ["ER82794", "ER82796", "ER82797"]
+      },
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "perceived_time_scarcity",
       "questionnaire_label": "F1K feeling pressed for time",
-      "wave": 2023,
-      "variables": ["ER82800"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72730"], "2021": ["ER78807"], "2023": ["ER82800"]},
       "unit": "person_wave",
       "status": "codebook_verified"
     },
     {
       "domain": "subjective_wellbeing",
       "questionnaire_label": "A3 life satisfaction",
-      "wave": 2023,
-      "variables": ["ER82027"],
+      "wave": [2019, 2021, 2023],
+      "variables": {"2019": ["ER72025"], "2021": ["ER78026"], "2023": ["ER82027"]},
       "unit": "person_wave",
       "status": "codebook_verified",
       "boundary": "Subjective wellbeing is not trust, political action, or cultural meaning by itself."
@@ -101,7 +114,8 @@
       "wave": "2019-2021",
       "variables": [],
       "unit": "person_family_wave",
-      "status": "requires_wave_codebook_audit"
+      "status": "requires_wave_codebook_audit",
+      "note": "The repeated time/care and life-satisfaction mappings above are verified; work-hour, commute, family-meal, paid-care, material, health, and weight mappings still require field-level checks."
     }
   ],
   "required_checks_before_estimation": [

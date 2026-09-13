@@ -27,9 +27,11 @@ open until the relevant waves and supplements are verified.
 
 The deeper file-structure check confirms a large longitudinal base—9,152
 families and 85,536 persons reported for the 2023 PSID family and cross-year
-individual files. A questionnaire audit then found repeated typical-week work,
-housework, child/adult care, shopping, volunteering, leisure, social
-interaction, rushed-time, family-meal, child-care spending, and health fields
+individual files. A codebook audit then verified wave-specific fields for
+repeated typical-week housework, personal care, shopping, child/adult care,
+volunteering, leisure, social interaction, rushed-time, and life satisfaction;
+the questionnaire audit also found repeated typical-week work,
+family-meal, child-care spending, and health fields
 in 2019, 2021, and 2023. This makes PSID viable for a bounded many-family
 material/time/care comparison, while DUST/CDS/TAS remain targeted supplements.
 The next acquisition step is still a wave-level overlap, retention, weight,
