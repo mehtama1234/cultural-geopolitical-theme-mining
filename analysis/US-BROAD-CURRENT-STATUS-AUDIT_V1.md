@@ -15,6 +15,10 @@ action. Existing annual and panel evidence can establish distributions,
 persistence, reversal, and subgroup differences; it cannot by itself join all
 of those stages for the same person or household.
 
+The [material/time/care acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md)
+now records the minimum same-unit fields, existing-source fit, acquisition
+routes, and go/no-go rules for this continuation pass.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)

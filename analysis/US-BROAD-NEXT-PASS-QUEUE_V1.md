@@ -18,7 +18,9 @@ and migration, place, and infrastructure/state dependence. These passes are
 cross-source comparisons and bounded same-respondent analyses where the data
 permit. They do not yet establish a single population-wide causal chain.
 
-The next active pass is **material/time/care linkage**. Its purpose is to
+The next active pass is **material/time/care linkage**, documented in the
+[acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md).
+Its purpose is to
 identify which missing variables prevent the existing evidence from becoming
 an end-to-end societal result:
 
