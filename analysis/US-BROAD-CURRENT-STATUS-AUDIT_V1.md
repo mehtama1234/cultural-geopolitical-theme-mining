@@ -49,7 +49,9 @@ been causally joined.
 - **Institutional recourse:** the 2024 CFPB snapshot separates web access,
   narrative presence, timely response, monetary/non-monetary relief,
   explanation, and public-response visibility. It does not measure verified
-  remedy or trust restoration.
+  remedy or trust restoration. The 2025 CFPB report adds complaint screening,
+  routing, administrative response, and data-production scale as separate
+  institutional stages.
 - **Public administration:** SIPP SNAP transition and reason layers add
   person-month entry/exit, resource and job context, recorded reason, and
   Fay-BRR uncertainty. About half of transitions have a classified reason.
