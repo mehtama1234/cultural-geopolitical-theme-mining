@@ -106,6 +106,8 @@ cross-theme layers:
 
 - [migration, local demand, housing, services, and belonging](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md): how new residents can add workers, customers, firms, public needs, local capability, and cultural or political pressure at the same time.
 
+- [credit, liquidity, financial records, and institutional power](analysis/projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md): how payment systems and financial records turn short shortages into unequal future options, terms, and exit.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now

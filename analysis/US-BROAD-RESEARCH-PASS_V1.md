@@ -62,6 +62,12 @@ customers, jobs, firms, rents, public capacity, local ownership, belonging, and
 political response. The next test compares matched places with different
 housing and service responses instead of treating migration as one effect.
 
+The [credit, liquidity, financial records, and institutional power layer](projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md)
+adds the financial-institution mechanism. It treats liquidity, payment rails,
+bank inertia, fees, credit records, debt, switching, and later access as
+separate outcomes. The next test follows one dated financial event through
+remedy, future terms, household security, trust, and exit.
+
 The reusable [broad end-to-end event ledger](templates/US-BROAD-EVENT-LEDGER_V1.md)
 now provides one schema for the next empirical passes. It can hold a consumer,
 care, housing, work, benefit, firm, place, or infrastructure event while
