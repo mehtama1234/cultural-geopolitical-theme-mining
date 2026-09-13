@@ -124,6 +124,12 @@ local incidence, and state leverage. The next missing step is a place-utility
 panel that observes approved versus actual load, cost allocation, local gains,
 and public or provider replaceability.
 
+The public-system lane now has an intersectional SNAP transition outcome in the
+[work limitation × children hardship layer](projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md).
+It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is
+the same-episode notice, effort, amount, remedy, interpretation, and action
+ledger; another receipt cross-tab should not be treated as a substitute.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |

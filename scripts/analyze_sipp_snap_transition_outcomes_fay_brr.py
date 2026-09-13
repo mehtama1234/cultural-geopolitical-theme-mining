@@ -22,6 +22,9 @@ import numpy as np
 
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 TRANSITIONS = ("no -> no", "no -> yes", "yes -> no", "yes -> yes")
+GROUPS = {
+    "EDISABL_RHNUMU18": ("EDISABL", "RHNUMU18"),
+}
 OUTCOMES = {
     "EAWBMORT": "unable to pay rent or mortgage",
     "EAWBGAS": "unable to pay utility bills",
@@ -36,6 +39,16 @@ def snap(value: str) -> str | None:
 
 def valid_binary(value: str, flag: str) -> bool:
     return value in {"1", "2"} and flag not in {"", "0"}
+
+
+def group_key(row: dict[str, str], group_by: str | None) -> str:
+    if not group_by:
+        return ""
+    disability = row.get("disabl", "")
+    children = row.get("children", "")
+    if disability not in {"1", "2"} or children not in {"0", "1"}:
+        return ""
+    return f"{disability}|{'children_1plus' if children == '1' else 'children_0'}"
 
 
 def summarize(numerator: float, denominator: float, rep_num: np.ndarray,
@@ -59,13 +72,16 @@ def summarize(numerator: float, denominator: float, rep_num: np.ndarray,
     }
 
 
-def analyze(primary_path: Path, replicate_zip: Path) -> dict:
+def analyze(primary_path: Path, replicate_zip: Path,
+            group_by: str | None = None) -> dict:
     people: dict[tuple[str, str, str, str], dict[int, dict[str, str]]] = defaultdict(dict)
     rows_read = 0
     with primary_path.open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
         required = set(KEYS) | {"WPFINWGT", "RSNAP_MNYN", "AAWBMORT", "AAWBGAS",
                                 "EAWBMORT", "EAWBGAS"}
+        if group_by:
+            required.update({"EDISABL", "ADISABL", "RHNUMU18", "AHNUMU18", "TAGE_EHC"})
         missing = sorted(required - set(reader.fieldnames or []))
         if missing:
             raise ValueError("primary slice is missing fields: " + ", ".join(missing))
@@ -85,14 +101,25 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 "mort_flag": row.get("AAWBMORT", ""),
                 "gas": row.get("EAWBGAS", ""),
                 "gas_flag": row.get("AAWBGAS", ""),
+                "disabl": row.get("EDISABL", ""),
+                "disabl_flag": row.get("ADISABL", ""),
+                "children": ("1" if row.get("RHNUMU18", "") not in {"", "0"} else "0"),
+                "children_flag": row.get("AHNUMU18", ""),
+                "age": row.get("TAGE_EHC", ""),
                 "weight": row.get("WPFINWGT", ""),
             }
 
     # Each key is the first month of a pair. Outcomes come from the next month.
-    pair_data: dict[tuple[str, str, str, str, str], tuple[str, dict[str, bool]]] = {}
-    full_num = {t: {o: 0.0 for o in OUTCOMES} for t in TRANSITIONS}
-    full_den = {t: {o: 0.0 for o in OUTCOMES} for t in TRANSITIONS}
-    records = {t: {o: 0 for o in OUTCOMES} for t in TRANSITIONS}
+    pair_data: dict[tuple[str, str, str, str, str], tuple[str, str, dict[str, bool]]] = {}
+    buckets = list(TRANSITIONS)
+    if group_by:
+        buckets = [f"{transition}|{group}"
+                   for transition in TRANSITIONS
+                   for group in ("1|children_0", "1|children_1plus",
+                                 "2|children_0", "2|children_1plus")]
+    full_num = {b: {o: 0.0 for o in OUTCOMES} for b in buckets}
+    full_den = {b: {o: 0.0 for o in OUTCOMES} for b in buckets}
+    records = {b: {o: 0 for o in OUTCOMES} for b in buckets}
     for person, months in people.items():
         for month in range(1, 12):
             if month not in months or month + 1 not in months:
@@ -101,23 +128,36 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
             transition = f"{snap(before['snap'])} -> {snap(after['snap'])}"
             if transition not in TRANSITIONS:
                 continue
+            if group_by and (before["disabl_flag"] in {"", "0"} or
+                             before["children_flag"] in {"", "0"}):
+                continue
+            try:
+                if group_by and float(before["age"]) < 15:
+                    continue
+            except (TypeError, ValueError):
+                if group_by:
+                    continue
+            group = group_key(before, group_by)
+            bucket = f"{transition}|{group}" if group_by else transition
+            if bucket not in full_num:
+                continue
             outcomes = {
                 "EAWBMORT": valid_binary(after["mort"], after["mort_flag"]),
                 "EAWBGAS": valid_binary(after["gas"], after["gas_flag"]),
             }
             key = person + (str(month),)
-            pair_data[key] = (transition, outcomes)
+            pair_data[key] = (transition, bucket, outcomes)
             weight = float(before["weight"])
             for outcome, is_valid in outcomes.items():
                 if not is_valid:
                     continue
-                full_den[transition][outcome] += weight
-                records[transition][outcome] += 1
+                full_den[bucket][outcome] += weight
+                records[bucket][outcome] += 1
                 if after["mort" if outcome == "EAWBMORT" else "gas"] == "1":
-                    full_num[transition][outcome] += weight
+                    full_num[bucket][outcome] += weight
 
-    rep_num = {t: {o: np.zeros(REPLICATES) for o in OUTCOMES} for t in TRANSITIONS}
-    rep_den = {t: {o: np.zeros(REPLICATES) for o in OUTCOMES} for t in TRANSITIONS}
+    rep_num = {b: {o: np.zeros(REPLICATES) for o in OUTCOMES} for b in buckets}
+    rep_den = {b: {o: np.zeros(REPLICATES) for o in OUTCOMES} for b in buckets}
     replicate_rows_read = 0
     matched = 0
     with zipfile.ZipFile(replicate_zip) as archive:
@@ -136,7 +176,7 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 if item is None:
                     continue
                 matched += 1
-                transition, outcomes = item
+                transition, bucket, outcomes = item
                 weights = np.fromiter(
                     (float(row[f"repwgt{i}"]) for i in range(1, REPLICATES + 1)),
                     dtype=np.float64, count=REPLICATES,
@@ -144,7 +184,7 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 for outcome, is_valid in outcomes.items():
                     if not is_valid:
                         continue
-                    rep_den[transition][outcome] += weights
+                    rep_den[bucket][outcome] += weights
                     # Recover the code-1 status from the stored pair outcome by
                     # retaining it in the key-level map below would be larger;
                     # use the primary pair lookup's second element as a bool map.
@@ -152,11 +192,11 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                     month = int(key[-1])
                     after = people[person][month + 1]
                     if after["mort" if outcome == "EAWBMORT" else "gas"] == "1":
-                        rep_num[transition][outcome] += weights
+                        rep_num[bucket][outcome] += weights
 
-    results = {t: {o: summarize(full_num[t][o], full_den[t][o], rep_num[t][o],
-                                  rep_den[t][o], records[t][o]) for o in OUTCOMES}
-                for t in TRANSITIONS}
+    results = {b: {o: summarize(full_num[b][o], full_den[b][o], rep_num[b][o],
+                                  rep_den[b][o], records[b][o]) for o in OUTCOMES}
+                for b in buckets}
     return {
         "format": "us-sipp-snap-transition-outcome-fay-brr-v1",
         "source_unit": "identified person, adjacent reference-month pair",
@@ -167,6 +207,7 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
         "rows_read": rows_read,
         "replicate_rows_read": replicate_rows_read,
         "transition_pairs_matched": matched,
+        "group_by": group_by,
         "results": results,
         "causal_estimation": False,
         "household_weight_used": False,
@@ -179,8 +220,9 @@ def main() -> None:
     parser.add_argument("--primary", type=Path, required=True)
     parser.add_argument("--replicate-zip", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--group-by", choices=sorted(GROUPS), default=None)
     args = parser.parse_args()
-    result = analyze(args.primary, args.replicate_zip)
+    result = analyze(args.primary, args.replicate_zip, args.group_by)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))

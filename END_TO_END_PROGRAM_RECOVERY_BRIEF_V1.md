@@ -213,6 +213,7 @@ The latest continuation layers add five bounded comparisons to the broad map:
 - [SIPP work-limitation × children × resources layer](analysis/projects/us-household-calendar-integration/sipp-fay-brr-disability-children-resource-layer-v1.md): a 16-cell Fay-BRR comparison showing that material pressure changes across work capacity, household composition, and resources, while household children remain a composition measure rather than care hours;
 - [CPS 2024 participation-friction layer](analysis/projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md): voting, registration, schedule, illness/disability, transportation, administrative, and candidate-related barriers as distinct routes into unequal political voice;
 - [US data-center energy-load baseline](analysis/projects/ai-work-control/us-data-center-energy-load-baseline-v1.md): historical electricity use, modeled 2030 demand, policy cost-allocation claims, and the still-open local burden, ownership, replaceability, and state-leverage questions.
+- [SNAP transition × work limitation × children hardship layer](analysis/projects/us-safety-net-access/sipp-snap-transition-outcome-disability-children-fay-brr-layer-v1.md): a 16-cell Fay-BRR public-system comparison showing that following rent/utility hardship differs across social-capacity and transition cells, while rare entry/exit cells remain uncertain and continued receipt remains compatible with hardship.
 
 These additions reinforce the governing rule: a national or institutional
 pattern can deepen one arrow without closing the chain to culture, trust,
@@ -267,7 +268,8 @@ The most recent continuation commits are `11240b1` (CFPB response route),
 `fc9262d` (consumer recourse linked into the broad map), `d56c634` (BLS worker
 bargaining context), `2482325` (SIPP work limitation × children × resources),
 `f8bed63` (CPS participation friction linked into the broad map), and
-`d0f9689` (US data-center energy-load baseline). These are the current
+`d0f9689` (US data-center energy-load baseline), and the current public-system
+extension in the worktree (SNAP transition × work limitation × children). These are the current
 cross-theme breadth/depth checkpoints; they preserve open arrows rather than
 claiming end-to-end causation.
 
