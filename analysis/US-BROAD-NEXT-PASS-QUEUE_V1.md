@@ -9,6 +9,29 @@ passes. Every pass must identify the unit, date, geography, denominator,
 missingness, uncertainty, and arrow status. A source can deepen one arrow
 without completing the societal chain.
 
+## Active continuation checkpoint
+
+The program has completed broad anchor passes across all 14 themes and has
+recently added depth in four rotating lanes: household adaptation and care;
+time, work, and life-stage distribution; local business and service capacity;
+and migration, place, and infrastructure/state dependence. These passes are
+cross-source comparisons and bounded same-respondent analyses where the data
+permit. They do not yet establish a single population-wide causal chain.
+
+The next active pass is **material/time/care linkage**. Its purpose is to
+identify which missing variables prevent the existing evidence from becoming
+an end-to-end societal result:
+
+1. a dated bill, price, care need, rule, or work change;
+2. the person or household's alternatives and schedule control;
+3. the money and time response, including paid or unpaid substitution;
+4. the protected and sacrificed outcomes; and
+5. recovery, trust, collective action, or exit at a defined follow-up.
+
+Until a same-unit or valid matched design supplies those fields, the safe
+output is a measured distribution, an explicit comparison, or an acquisition
+gap—not a claim that one cost caused one cultural or political outcome.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |

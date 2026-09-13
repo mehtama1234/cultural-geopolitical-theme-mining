@@ -8,6 +8,13 @@ This is a recovery and decision document. It records what is covered, what has
 been deepened, and what still prevents an end-to-end claim. The program is not
 defined by the latest SIPP, SHED, CFPB, SNAP, or AI-infrastructure pass.
 
+The current continuation target is the material/time/care lane: connect a
+dated pressure or care event to alternatives, schedule control, money and
+time substitution, protected and sacrificed outcomes, recovery, trust, and
+action. Existing annual and panel evidence can establish distributions,
+persistence, reversal, and subgroup differences; it cannot by itself join all
+of those stages for the same person or household.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
@@ -205,16 +212,19 @@ same-firm join unless the identifiers and design support that claim.
 
 ## What we should pursue next
 
-1. Follow one dated consumer or public-program case from first contact through
+1. Execute the material/time/care linkage pass: acquire or identify a same-unit
+   design with a dated bill, care need, or work change, alternatives and
+   schedule control, paid/unpaid time response, and follow-up outcomes.
+2. Follow one dated consumer or public-program case from first contact through
    effort, response, remedy, abandonment, and later trust or exit.
-2. Use SHED panel variables that genuinely repeat to test whether adaptation
+3. Use SHED panel variables that genuinely repeat to test whether adaptation
    reverses after financial improvement, and preserve the nonresponse limits.
-3. Add a matched place or firm comparison for ownership, local distribution,
+4. Add a matched place or firm comparison for ownership, local distribution,
    service quality, and practical replaceability.
-4. Build a longitudinal political instrument that measures exposure,
+5. Build a longitudinal political instrument that measures exposure,
    attribution, source, identity, trust, consumer action, civic action, and
    vote separately.
-5. Seek counterexamples: households that recover without the predicted loss of
+6. Seek counterexamples: households that recover without the predicted loss of
    trust, agencies that switch providers, firms whose gains diffuse locally,
    and places where infrastructure adds capability without dependence.
 
