@@ -60,6 +60,11 @@ been causally joined.
   It sharpens the resource/trajectory question while retaining non-monotonic
   cells, recontact selection, and the absence of a dated event or variance
   estimate.
+- **Environmental cost and political meaning:** the NBER policy-belief study
+  is now placed beside EIA and DOE energy-burden evidence. Expected cost,
+  actual household burden, fairness, protection, policy support, and
+  environmental results are explicitly separate; the same-respondent
+  bill-to-belief-to-action path remains open.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
