@@ -103,6 +103,10 @@ stratifies that baseline with USDA's 2023 Rural-Urban Continuum Codes. It shows
 that the rural/urban pattern differs by sector, so “place access” cannot be
 represented by one metro/nonmetro score.
 
+The [establishment-scale rurality profile](cbp-establishment-scale-rurality-profile-v1.md)
+adds employees per establishment, separating firm presence from the typical
+local labor footprint.
+
 The [capacity and mobility cross-source bridge](capacity-mobility-cross-source-bridge-v1.md)
 connects the county capacity layers to the existing NHTS vehicle and travel
 evidence. It defines the next practical-access test without falsely joining

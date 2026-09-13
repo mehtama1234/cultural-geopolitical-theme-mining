@@ -276,6 +276,10 @@ widens that empirical pass to all 19 national sectors, retaining negative
 net-job outcomes and stage-ratio limits before connecting sector change to
 services, work, prices, culture, or politics.
 
+The [CBP establishment-scale rurality profile](projects/us-local-business-place/cbp-establishment-scale-rurality-profile-v1.md)
+adds employees per establishment by sector and metro/nonmetro place, so local
+presence is not mistaken for labor scale or service capacity.
+
 The [BDS state-sector turnover profile](projects/us-local-business-place/bds-state-sector-turnover-profile-v1.md) adds the geographic dimension inside sectors. In 2023, transportation had exit above entry in 36 of 51 states while food services had positive median net job growth and no negative-net states in the selected profile; these are descriptive starting points for matched place and consumer-access tests.
 
 The [CBP county essential-sector capacity layer](projects/us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md) adds the local-capacity denominator: 3,142 counties are compared by establishments per 10,000 residents in manufacturing, retail, health/social assistance, and accommodation/food. The next step is to connect low capacity to travel, unmet need, prices, work, and civic outcomes without treating an establishment count as access.
