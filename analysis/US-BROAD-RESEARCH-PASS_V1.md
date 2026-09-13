@@ -150,6 +150,8 @@ The [SHED panel adaptation by financial-condition path layer](projects/us-househ
 
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
+The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.
+
 The [Pew 2025 news, platform, and civic-engagement layer](projects/us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md) adds population-level information and cultural structure: distinct participation types, partisan news-source ecosystems, and social-media news influencers. It deepens the platforms, trust, identity, and collective-action themes without treating source use as proof of persuasion or causal voting effects.
 
 The [platform data, attention, agency, and public meaning layer](projects/us-digital-habits-attention/platform-data-attention-agency-layer-v1.md) now joins the platform evidence into a broader societal mechanism. It separates what people encounter, how they interpret it, what they do, and whether they can inspect, contest, or leave the system. The causal path from platform exposure to durable belief or action remains open.
