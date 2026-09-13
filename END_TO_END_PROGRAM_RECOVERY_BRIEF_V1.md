@@ -104,6 +104,8 @@ cross-theme layers:
 
 - [public administration, take-up, security, and political feedback](analysis/projects/us-safety-net-access/public-administration-takeup-security-trust-action-layer-v1.md): how notice, route, burden, receipt, interruption, exit, material security, trust, and political response fit together.
 
+- [migration, local demand, housing, services, and belonging](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md): how new residents can add workers, customers, firms, public needs, local capability, and cultural or political pressure at the same time.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now

@@ -56,6 +56,12 @@ appeal, interruption, and exit as part of the policy—not administrative noise.
 It keeps eligibility, receipt, food security, work, debt, health, trust, and
 political action separate and specifies the same-episode event-ledger test.
 
+The [migration, local demand, housing, services, and belonging layer](projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md)
+adds the population-change and place mechanism. It separates workers,
+customers, jobs, firms, rents, public capacity, local ownership, belonging, and
+political response. The next test compares matched places with different
+housing and service responses instead of treating migration as one effect.
+
 The reusable [broad end-to-end event ledger](templates/US-BROAD-EVENT-LEDGER_V1.md)
 now provides one schema for the next empirical passes. It can hold a consumer,
 care, housing, work, benefit, firm, place, or infrastructure event while
