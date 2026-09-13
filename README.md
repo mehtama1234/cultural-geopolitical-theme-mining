@@ -1,6 +1,6 @@
 # Cultural, social, and geopolitical theme mining
 
-This workspace studies what is changing underneath visible events, with a primary focus on US customer, consumer, societal, financial, and political life.
+This workspace studies what is changing underneath visible events, with a broad focus on US societal, cultural, consumer, financial, political, institutional, firm, infrastructure, and geopolitical life.
 
 It starts with research from [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) and the [National Bureau of Economic Research](https://www.nber.org/). It may add US public records, company filings, surveys, court records, financial data, consumer data, demographic data, and careful reporting when those sources help test a finding. International sources are comparison and context unless a project says otherwise.
 
@@ -19,6 +19,29 @@ source
 ```
 
 The writing rule is simple: use ordinary words, show the causal steps, name the evidence, separate fact from inference, and say what would prove us wrong.
+
+## The broad program
+
+The project is explicitly not a one-household study. It maps 14 connected
+themes across people, consumers, workers, households, firms, places,
+institutions, infrastructure, and states. The [full broad-program reader map](site/us-broad-program-map.html)
+is the simplest overview. The [end-to-end recovery brief](END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md)
+is the restart document after a crash, and the [big-picture synthesis](analysis/us-big-picture-synthesis.md)
+records the current cross-source interpretation.
+
+The common question is:
+
+```text
+condition or decision
+  -> available alternatives and money/time/access/control change
+  -> people and organizations respond
+  -> cost, risk, data, ownership, and power are redistributed
+  -> cultural meaning, trust, political action, firm capacity, or state leverage changes
+```
+
+Household data are one measurement layer inside this chain. They must not
+replace the firm, institutional, cultural, place, infrastructure, or
+geopolitical layers.
 
 ## What this is for
 
