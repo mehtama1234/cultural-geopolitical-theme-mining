@@ -236,6 +236,25 @@ The next work should deepen the open arrows rather than only add more topics:
 5. keep the 14-theme map, source units, uncertainty, and reader pages
    synchronized after each pass.
 
+## Immediate execution queue after the current continuation
+
+1. **Public-system event:** use the broad event ledger on one SNAP or other
+   administrative episode, preserving notice, route effort, decision,
+   interruption, material result, trust, and action as separate fields.
+2. **Care-time estimate:** acquire the official ATUS 2024 files or use an
+   accessible official table, then run the weighted caregiver-versus-work
+   comparison specified in the aging acquisition record.
+3. **Migration/place comparison:** add direct local or survey measures of
+   fairness, belonging, attribution, and policy response to the existing
+   population/housing/language/firm capacity screen.
+4. **State/infrastructure consequence:** for one realized infrastructure case,
+   verify local jobs, energy/water burden, ownership, portability, public
+   service quality, and replaceability before calling it state leverage.
+
+These four actions deliberately cover the program's household, time/care,
+place/culture/politics, and firm/infrastructure scales. None should be replaced
+by a larger source count without closing at least one missing arrow.
+
 Use the [broad end-to-end event ledger](analysis/templates/US-BROAD-EVENT-LEDGER_V1.md)
 as the common recording instrument. It supports cross-level events without
 forcing every question into a household panel and requires a separate status,
