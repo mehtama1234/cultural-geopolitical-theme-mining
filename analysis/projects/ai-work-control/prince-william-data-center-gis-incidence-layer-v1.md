@@ -125,3 +125,16 @@ That comparison would connect physical infrastructure to household incidence,
 local benefit, public legitimacy, and state leverage. Until then, this layer is
 a local pipeline and targeting result—not proof that data centers caused a
 particular bill, political response, or geopolitical advantage.
+
+## Reproduction
+
+```text
+python3 scripts/analyze_pwc_data_center_gis.py \
+  --buildings /tmp/pwc-data-center-buildings.json \
+  --campuses /tmp/pwc-data-center-campuses.json \
+  --output /tmp/pwc-data-center-gis-summary.json
+```
+
+The raw GIS exports and derived summary are local acquisition artifacts and are
+not committed; the field definitions and county metadata are preserved in the
+source acquisition workspace.
