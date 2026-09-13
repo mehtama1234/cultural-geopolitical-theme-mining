@@ -31,6 +31,10 @@ is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-la
 Both are cross-sectional weighted descriptions; they test directional
 stability across releases without treating the samples as a panel.
 
+The [care and work distribution layer](shed-care-work-distribution-layer-v1.md)
+adds employment status to the 2024 care comparison, showing how unpaid care
+and work position combine into different adaptation menus.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

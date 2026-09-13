@@ -54,6 +54,11 @@ adds time depth across SHED releases: the broad medical-cost, care, health, and
 adaptation gradients are visible in both annual cross-sections, while the
 missing dated event and same-family outcome remain explicit.
 
+The [care and work distribution layer](projects/us-health-cost-household-choice/shed-care-work-distribution-layer-v1.md)
+adds a second distributional axis within 2024: unpaid care is compared across
+nonworking, part-time, and full-time respondents rather than treated as one
+uniform household burden.
+
 The [aging, care supply, and social capacity bridge](projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md)
 extends this into a system-level comparison. It separates recipient, caregiver,
 family network, employer, provider workforce, agency, and public-meaning units,

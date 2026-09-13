@@ -99,6 +99,7 @@ cross-theme layers:
 - [capability, dependency, local distribution, and state power](analysis/projects/ai-work-control/capability-dependence-local-power-layer-v1.md): how infrastructure can build capability and dependence together;
 - [care cost, work, family time, and security](analysis/projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md): how social reproduction distributes health costs across money, work, unpaid labor, food, housing, and dignity;
 - [SHED 2024 care/health adaptation comparison](analysis/projects/us-health-cost-household-choice/shed-2024-care-health-adaptation-layer-v1.md): checks whether the care, health, and adaptation gradients recur across annual population cross-sections without treating them as the same respondents;
+- [SHED care and work distribution](analysis/projects/us-health-cost-household-choice/shed-care-work-distribution-layer-v1.md): compares unpaid adult care across employment positions to keep the work/time mechanism distributional rather than household-specific;
 
 - [aging, care supply, and social capacity](analysis/projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md): how demographic need becomes family time, paid-care work, employer constraint, public infrastructure, unmet need, and political meaning across separate units;
 
