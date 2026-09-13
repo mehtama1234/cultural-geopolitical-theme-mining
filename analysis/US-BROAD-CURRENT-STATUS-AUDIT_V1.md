@@ -146,6 +146,11 @@ been causally joined.
   loans. Rates differ by product and place, but remain visibility measures;
   account denominators, residence validation, verified remedy, and exit remain
   open.
+- **Firm-capacity/recourse bridge:** a CBP 2023 finance-sector state stock is
+  now placed beside those CFPB product rates. The quartile screen is
+  non-monotonic, so establishment density is not promoted as a proxy for
+  protection, harm, or consumer power; product exposure, access, and account
+  denominators remain missing.
 - **Consumer power and exit:** CFPB product and cultural layers are now
   consolidated with consumer-culture and firm-power evidence. The program
   explicitly treats visibility, response, remedy, continued use, switching,

@@ -106,6 +106,12 @@ between published visibility and harm or remedy. The next consumer-power step
 is a product/state case sequence with account denominators and follow-up, not a
 larger unnormalized complaint table.
 
+The [CFPB × CBP finance-state context layer](projects/us-customer-automation-recourse/cfpb-cbp-finance-state-context-layer-v1.md)
+places product complaint visibility beside 2023 finance-sector establishment
+and employment stocks. Its non-monotonic quartile screen is a counterexample
+to treating local firm presence as consumer protection or harm. The next step
+is account exposure, branch/digital access, and case-level follow-up.
+
 The work/control lane now has a population bargaining-context baseline in the
 [BLS union and bargaining-room layer](projects/ai-work-control/bls-union-bargaining-room-layer-v1.md).
 It adds representation, coverage, earnings association, and distribution by
