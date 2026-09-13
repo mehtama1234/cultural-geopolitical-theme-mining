@@ -134,3 +134,8 @@ The next work should deepen the open arrows rather than only add more topics:
    not occur; and
 5. keep the 14-theme map, source units, uncertainty, and reader pages
    synchronized after each pass.
+
+Use the [broad end-to-end event ledger](analysis/templates/US-BROAD-EVENT-LEDGER_V1.md)
+as the common recording instrument. It supports cross-level events without
+forcing every question into a household panel and requires a separate status,
+unit, time order, counterexample, and missing link for each arrow.

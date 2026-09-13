@@ -50,6 +50,13 @@ about trust, dignity, status, fairness, and dependence. Use and trust are not
 treated as satisfaction or control; the next test follows a customer through
 entry, outcome, remedy, and exit while including non-users and non-reporters.
 
+The reusable [broad end-to-end event ledger](templates/US-BROAD-EVENT-LEDGER_V1.md)
+now provides one schema for the next empirical passes. It can hold a consumer,
+care, housing, work, benefit, firm, place, or infrastructure event while
+keeping unit changes and arrow-level evidence visible. The safety-net and
+household-calendar ledgers remain specialized versions rather than definitions
+of the whole program.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
