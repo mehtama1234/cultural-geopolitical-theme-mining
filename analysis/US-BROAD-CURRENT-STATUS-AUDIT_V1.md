@@ -217,5 +217,6 @@ same-firm join unless the identifiers and design support that claim.
 - [14-theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
 - [Coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md)
 - [Arrow-level evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md)
+- [Trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
 - [Broad research pass](US-BROAD-RESEARCH-PASS_V1.md)
 - [Public reader map](../site/us-broad-program-map.html)

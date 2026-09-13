@@ -205,6 +205,9 @@ control layer is [unequal exposure and status](analysis/US-UNEQUAL-EXPOSURE-STAT
 the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE-MATRIX_V1.md);
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
 The compact current-state check is the [broad program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md).
+The [broad trend-extraction protocol](analysis/US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
+is the coding rule for turning those source layers into cautious, comparable
+societal trend claims.
 
 The latest committed continuation passes are `9c13b53` (consumer pressure,
 adaptation, and public meaning cross-source bridge), `c38a097` (rurality check on care
