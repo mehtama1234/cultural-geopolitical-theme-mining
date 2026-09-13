@@ -22,6 +22,14 @@ all 14 themes. It assigns each theme a deeper test, required counterexample,
 and durable output so the easiest available dataset does not become the
 definition of the program.
 
+The [CCES material/trust/action subgroup layer](projects/us-cost-trust-politics/cces-material-trust-action-subgroup-layer-v1.md)
+adds a population-distribution check to the material-to-political middle step:
+the pooled gig-work/student-loan proxy pattern changes across ordered income
+code bands and race groups. It strengthens the broad conclusion that material
+conditions do not generate one universal political response, while remaining a
+weighted descriptive cross-section with no event timing, attribution, or
+complex-design variance estimate.
+
 The cross-source [trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)
 is the current broad societal connector. It keeps material condition,
 attribution, trust, identity, consumer response, civic response, and
