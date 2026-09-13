@@ -129,6 +129,10 @@ been causally joined.
   transition and material-context evidence with Fay-BRR uncertainty, while a
   dedicated gap record preserves the missing same-episode notice, effort,
   interpretation, remedy, trust, and political-action fields.
+- **Infrastructure/state-leverage control:** Romania and Malaysia now have a
+  compact ledger separating realized assets, ownership transition, local
+  incidence, portability, exit, and observed external behavior. The cases do
+  not yet establish sovereignty or bargaining power.
 - **Time and civic availability:** ATUS time allocation is now explicitly
   compared with CPS schedule and health barriers, while the dated
   time-to-turnout link remains open.

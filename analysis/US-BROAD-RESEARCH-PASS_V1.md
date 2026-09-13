@@ -56,6 +56,12 @@ records the measured SIPP transition/reason stage and its exact boundary with
 ANES trust/action evidence. It preserves unknown reasons and prevents a
 caseload or vote statistic from becoming a benefit-to-politics claim.
 
+The [state-leverage control ledger](projects/ai-work-control/state-leverage-control-ledger-v1.md)
+turns the Romania/Malaysia infrastructure cases into a control checklist:
+realized asset, ownership, local incidence, portability, exit, and observed
+external response. It keeps capacity and geopolitical leverage as separate
+claims.
+
 The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md)
 adds the place-level connection across insurance, housing, energy, transport,
 local business, services, and political meaning. It distinguishes occupancy
