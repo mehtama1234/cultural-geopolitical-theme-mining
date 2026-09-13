@@ -218,6 +218,14 @@ been causally joined.
   establishments can coexist with designated primary-care shortage components.
   Travel, appointment access, quality, price, unmet need, and household
   outcomes remain open.
+- **Many-family material/time/care backbone:** PSID 2019, 2021, and 2023
+  codebook work now adds repeated family money income and constructed wealth
+  measures to the mapped utility, home-insurance, paid-work, commute, care,
+  health, wellbeing, and family-routine fields. This creates a bounded
+  resource → time/care → health/family/wellbeing comparison across many
+  families, subject to acquisition, universe, retention, missingness, and
+  weight checks. It is not a one-household case and does not close the
+  price/institution → meaning/action arrow.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

@@ -106,6 +106,15 @@ also contain repeated stylized time and care measures for Reference Persons
 and Spouse-Partners. The distinction is detailed diary versus repeated
 typical-week measures, not time-use versus no time-use.
 
+The resource side is now bounded more precisely. The 2019, 2021, and 2023
+Family File codebooks identify repeated total family money income and
+constructed wealth including equity, alongside utility expenditure and home
+insurance fields. These measures supply a family-level resource and fixed-cost
+context for the time/care comparison. They are not liquid cash, available
+buffer, or proof that a family made a particular choice; the wealth summaries
+also require their accuracy flags. Detailed expenditure categories, missing
+value treatment, and cross-wave universes remain acquisition checks.
+
 ## Main-panel field audit
 
 The 2019, 2021, and 2023 main questionnaires show a promising repeated core:
@@ -125,6 +134,14 @@ family, and selected participation outcomes**, using typical-week measures.
 It still cannot by itself establish the stronger claim that a specific price or
 institutional decision caused a particular sacrifice, restored trust, or
 produced political action.
+
+The broader program uses this as one empirical spine among several. The
+comparison is intended to show how a condition is distributed across people and
+places, how households and workers adapt, and where the burden or control moves
+next—to unpaid care, extra work, reduced consumption, firm/customer relations,
+public systems, cultural meaning, or political action. PSID can deepen the
+resource-to-time-to-wellbeing segment across many families; it cannot by itself
+close the institutional, cultural, or political arrows.
 
 **Current acquisition decision:** acquire the 2019, 2021, and 2023 main family
 and individual files when account access is available, then test the repeated
