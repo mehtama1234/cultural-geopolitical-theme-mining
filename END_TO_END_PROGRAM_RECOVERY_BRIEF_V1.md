@@ -140,6 +140,7 @@ cross-theme layers:
 - [Capacity and mobility bridge](analysis/projects/us-local-business-place/capacity-mobility-cross-source-bridge-v1.md): places county capacity beside NHTS vehicle and travel evidence without falsely joining different samples.
 - [CBP–HRSA primary-care shortage bridge](analysis/projects/us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md): separates visible health establishments from formal primary-care shortage designations and provider adequacy, with the component-level and current-vintage limits recorded.
 - [BLS 2024 income-quintile spending layer](analysis/projects/us-household-financial-pressure/ce-2024-income-quintile-distribution-layer-v1.md): adds a population-level consumer distribution showing different income and expenditure changes across quintiles, with housing pressure visible and political meaning kept separate.
+- [consumer pressure, adaptation, and public meaning cross-source bridge](analysis/projects/us-household-financial-pressure/consumer-pressure-distribution-adaptation-cross-source-bridge-v1.md): puts spending distribution, price adaptation, food security, time, assistance, local capacity, and political meaning on one societal map without creating a false same-household or causal join.
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 

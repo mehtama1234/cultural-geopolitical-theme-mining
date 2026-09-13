@@ -46,6 +46,11 @@ been causally joined.
   repeated price adaptations. The new condition-path comparison shows a
   descriptive persistence/re-entry gradient by worsening, same, or improving
   financial path, but no exact bill cause or political consequence.
+- **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
+  and political layers are now compared as a societal adaptation map. It shows
+  that pressure can appear as spending substitution, reduced use, delay, lost
+  savings, borrowing, extra work, unpaid help, or basic-security loss; the
+  same-person links between those stages remain open.
 - **Institutional recourse:** the 2024 CFPB snapshot separates web access,
   narrative presence, timely response, monetary/non-monetary relief,
   explanation, and public-response visibility. It does not measure verified
