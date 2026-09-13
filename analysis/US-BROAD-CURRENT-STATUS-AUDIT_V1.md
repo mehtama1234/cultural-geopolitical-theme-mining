@@ -239,6 +239,18 @@ been causally joined.
   not return to that baseline. This adds a material downstream stage but not a
   program effect, because notices, effort, benefit amounts, field universes,
   and same-episode interpretation remain unobserved.
+- **Public-system reason-to-hardship bridge:** the same SIPP transition pairs
+  now connect classified entry and exit reasons to following rent and utility
+  hardship. Job loss, other income loss, disability, family change, and
+  administrative routes show different profiles, but only 217 of 437 entry
+  pairs and 188 of 387 exit pairs have classified reasons. This deepens the
+  mechanism arrow without supplying notice, route effort, remedy, or meaning.
+- **Same-respondent material/care depth:** the SHED 2024–2025 panel now
+  compares financial-condition paths with health direction and unpaid adult-
+  care entry/exit for 4,419 respondents. Most health categories remain stable
+  across paths, which is a counterexample to synchronized hardship; care entry
+  is higher in the worsening path. Care hours, triggers, schedule control,
+  attribution, and political meaning remain open.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,

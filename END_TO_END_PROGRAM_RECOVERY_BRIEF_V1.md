@@ -270,9 +270,10 @@ not proof that every broad arrow is complete.
 The most recent continuation commits are `11240b1` (CFPB response route),
 `fc9262d` (consumer recourse linked into the broad map), `d56c634` (BLS worker
 bargaining context), `2482325` (SIPP work limitation × children × resources),
-`f8bed63` (CPS participation friction linked into the broad map), and
-`d0f9689` (US data-center energy-load baseline), and the current public-system
-extension in the worktree (SNAP transition × work limitation × children). These are the current
+`f8bed63` (CPS participation friction linked into the broad map),
+`d0f9689` (US data-center energy-load baseline), `cb59ebc` (SHED panel health
+and adult-care paths), `9952c5a` (Chicagoland ACS 2024 context refresh), and
+`23acc9c` (SNAP reasons linked to following hardship). These are the current
 cross-theme breadth/depth checkpoints; they preserve open arrows rather than
 claiming end-to-end causation.
 
