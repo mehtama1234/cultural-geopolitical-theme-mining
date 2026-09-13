@@ -44,8 +44,8 @@ verification before pooling.
 | Domain | Candidate questionnaire fields | Derived analytic measure | Unit |
 |---|---|---|---|
 | Employment timing | Section BC employer records; start/end year, month, and day fields | job start/stop between waves; timing precision flag | person-job-wave |
-| Paid work | BC60A typical-week paid hours; historical job hours/weeks | paid hours and change since prior wave | person-wave |
-| Work location/commute | `ER82183` BC21B1 commute/work-from-home; `ER82184` BC21B2 work-from-home frequency; `ER82185` average commute time | home-work indicator, commute burden, missing/unknown timing | person-job-wave |
+| Paid work | 2019 `ER72408`; 2021 `ER78447`; 2023 `ER82434` BC60A typical-week paid hours | paid hours and change since prior wave | person-wave |
+| Work location/commute | 2019 `ER72197` average commute time; 2021 `ER78200`–`ER78202`; 2023 `ER82183`–`ER82185` BC21B commute/work-from-home fields | home-work indicator where available, commute burden, missing/unknown timing | person-job-wave |
 | Work pressure/control proxy | BC60B–BC60E interaction, physical demand, mental demand, and rushed-at-work items | reported work-intensity and time-pressure scale; not labeled control without validation | person-wave |
 | Household labor | 2019 `ER72718`; 2021 `ER78795`; 2023 `ER82788` F1A typical-week housework | unpaid household labor hours and change | person-wave |
 | Personal health time | 2019 `ER72720`; 2021 `ER78797`; 2023 `ER82790` F1B personal care | self-care time | person-wave |
@@ -53,7 +53,8 @@ verification before pooling.
 | Child care | 2019 `ER72722`; 2021 `ER78799`; 2023 `ER82792` F1D child care; 2023 paid-care fields `ER82818`, `ER82820`–`ER82831` | unpaid child-care time, paid child-care cost, coverage months | person/family-wave |
 | Adult care | 2019 `ER72723`; 2021 `ER78800`; 2023 `ER82793` F1D2 adult care | unpaid adult-care time | person-wave |
 | Social/civic availability | 2019 `ER72724`, `ER72726`, `ER72727`; 2021 `ER78801`, `ER78803`, `ER78804`; 2023 `ER82794`, `ER82796`, `ER82797` | volunteering, leisure, interaction frequency, shared-meal frequency | person/family-wave |
-| Perceived time scarcity | 2019 `ER72730`; 2021 `ER78807`; 2023 `ER82800` F1K feeling rushed outside work; BC60E work pressure | time-pressure indicators by work status | person-wave |
+| Perceived time scarcity | 2019 `ER72730`; 2021 `ER78807`; 2023 `ER82800` F1K feeling rushed outside work | outside-work time-pressure indicators | person-wave |
+| Work pressure | 2019 `ER72412`; 2021 `ER78451`; 2023 `ER82438` BC60E rushed while working | work-time-pressure indicator by employment status | person-wave |
 | Subjective wellbeing | 2019 `ER72025`; 2021 `ER78026`; 2023 `ER82027` A3 life satisfaction | repeated subjective wellbeing endpoint | person-wave |
 | Material room | Section F expenditures; Section G income; Section W wealth/assets | income, selected essential spending, wealth/buffer bands, missingness | family/person-wave |
 | Health outcome | H1 general health; H1A change since prior wave and other health fields | health level and direction of change | person-wave |
