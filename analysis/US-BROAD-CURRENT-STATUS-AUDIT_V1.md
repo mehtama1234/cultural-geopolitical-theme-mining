@@ -57,7 +57,9 @@ been causally joined.
   trust, source environment, and civic action. They are not falsely joined.
 - **Infrastructure and state power:** Romania and Malaysia cases now separate
   planned capacity, realized milestones, ownership change, local distribution,
-  and provider/state exit.
+  and provider/state exit. ADR's September 2026 announcement verifies a
+  completed Romanian cloud-infrastructure stage, while application migration,
+  service quality, portability, and citizen outcomes remain unverified.
 
 ## The shared end-to-end model
 
