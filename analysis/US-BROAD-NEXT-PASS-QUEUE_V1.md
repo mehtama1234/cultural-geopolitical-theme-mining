@@ -117,6 +117,13 @@ administrative, and candidate-related barriers. The next missing step is a
 same-person or repeated-election design linking a defined material or
 institutional exposure to interpretation, civic action, and vote.
 
+The infrastructure/state-power lane now has a US physical-demand baseline in
+the [data-center energy load layer](projects/ai-work-control/us-data-center-energy-load-baseline-v1.md).
+It separates historical electricity use, modeled future demand, policy claims,
+local incidence, and state leverage. The next missing step is a place-utility
+panel that observes approved versus actual load, cost allocation, local gains,
+and public or provider replaceability.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
