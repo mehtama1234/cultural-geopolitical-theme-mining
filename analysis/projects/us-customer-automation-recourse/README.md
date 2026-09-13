@@ -32,6 +32,12 @@ adds submission channel, narrative presence, and public-response categories.
 It shows that a timely company response, a published explanation, non-monetary
 relief, and a verified consumer remedy are different institutional outcomes.
 
+The [CFPB 2025 process-scale and screening layer](cfpb-2025-process-scale-shift-layer-v1.md)
+adds the institution's own changing data-production problem: complaint volume,
+routing, duplicate and fraud screening, company response, and publication are
+separate stages. A larger visible complaint total is not automatically a
+larger consumer-harm rate.
+
 ## Scope
 
 - US customers and firms;
