@@ -149,6 +149,7 @@ cross-theme layers:
 - [SHED panel income × condition-path layer](analysis/projects/us-household-financial-pressure/shed-panel-income-condition-path-layer-v1.md): a same-respondent comparison of 4,419 records adds income-band × financial-path depth to adaptation persistence and re-entry, preserving non-monotonic cells and selection limits.
 - [environmental policy cost-belief and energy-burden layer](analysis/projects/us-environmental-policy-cost-beliefs/environmental-cost-belief-energy-burden-layer-v1.md): connects expected policy cost, observed energy insecurity, fairness, protection, and environmental results as separate cultural/political arrows.
 - [price pressure, time transfer, and social participation bridge](analysis/projects/us-household-calendar-integration/price-pressure-time-social-participation-cross-source-bridge-v1.md): connects financial adaptation to extra work, unpaid care, travel, waiting, social time, and civic availability as separate population-level arrows.
+- [SHED care, health, and price-adaptation layer](analysis/projects/us-health-cost-household-choice/shed-2025-care-health-price-adaptation-layer-v1.md): adds medical-cost concern, unpaid adult care, self-rated health, and outside-help cuts to show how care and health alter the adaptation menu and buffer.
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 

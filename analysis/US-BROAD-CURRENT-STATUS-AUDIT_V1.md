@@ -69,6 +69,11 @@ been causally joined.
   care-cost, and CPS participation-friction layers are now organized into a
   single bridge. Extra work, unpaid care, travel, waiting, and civic loss are
   kept separate; the same-person displacement path remains open.
+- **Care/health distribution:** SHED 2025 now has weighted adaptation cuts by
+  medical-cost concern, unpaid adult care, self-rated health, and outside
+  medical help. Major medical concern and poorer health align with more
+  reduced use, borrowing, and lower buffers; exact event causation and recovery
+  remain open.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost
