@@ -56,6 +56,12 @@ appeal, interruption, and exit as part of the policy—not administrative noise.
 It keeps eligibility, receipt, food security, work, debt, health, trust, and
 political action separate and specifies the same-episode event-ledger test.
 
+The [SIPP SNAP transition Fay-BRR uncertainty layer](projects/us-safety-net-access/sipp-snap-transition-fay-brr-layer-v1.md)
+adds replicate-weight standard errors and intervals to the monthly transition
+distribution. It is a statistical-depth improvement to the public-systems
+layer, not evidence that a transition was caused by a rule or improved a
+household’s security.
+
 The [migration, local demand, housing, services, and belonging layer](projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md)
 adds the population-change and place mechanism. It separates workers,
 customers, jobs, firms, rents, public capacity, local ownership, belonging, and

@@ -22,4 +22,11 @@ The first matched check is [A benefit can be lost without the need going away](.
 
 The [administrative-burden and access layer](administrative-burden-access-layer-v1.md) records the causal evidence separately: work-rule exits without an employment response, parent disenrollment through administrative burden, and participation changes after office closure. It does not treat program exit as work success or participation as food security.
 
+The [SIPP SNAP transition Fay-BRR uncertainty layer](sipp-snap-transition-fay-brr-layer-v1.md)
+adds design-based standard errors and approximate intervals to the adjacent-
+month transition shares. It improves uncertainty around the transition
+distribution without changing the limits: the same person-month records still
+do not identify notice, effort, benefit amount, reason, food/work outcomes, or
+political response.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
