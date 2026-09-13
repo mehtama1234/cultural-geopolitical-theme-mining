@@ -37,18 +37,31 @@ def main() -> None:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
         with archive.open(member) as raw:
             for row in csv.DictReader(io.TextIOWrapper(raw, encoding="latin1")):
-                if row["naics"] in ("------", *SECTORS) and row["est"].isdigit():
-                    counties.setdefault((row["fipstate"], row["fipscty"]), {})[row["naics"]] = int(row["est"])
+                if row["naics"] in ("------", *SECTORS):
+                    county = counties.setdefault((row["fipstate"], row["fipscty"]), {})
+                    if row["est"].isdigit():
+                        county[f"{row['naics']}_est"] = int(row["est"])
+                    if row["emp"].isdigit():
+                        county[f"{row['naics']}_emp"] = int(row["emp"])
 
     keys = sorted(set(population) & set(counties))
     print(f"matched_counties={len(keys)}")
     for code, label in SECTORS.items():
-        values = [10000 * counties[key].get(code, 0) / population[key] for key in keys]
+        values = [10000 * counties[key].get(f"{code}_est", 0) / population[key] for key in keys]
         quartiles = statistics.quantiles(values, n=4, method="inclusive")
         print(
             f"{label}\tmedian={statistics.median(values):.2f}"
             f"\tp25={quartiles[0]:.2f}\tp75={quartiles[2]:.2f}"
             f"\tzero_count={sum(value == 0 for value in values)}"
+        )
+        employment_keys = [key for key in keys if f"{code}_emp" in counties[key]]
+        employment = [10000 * counties[key][f"{code}_emp"] / population[key] for key in employment_keys]
+        quartiles = statistics.quantiles(employment, n=4, method="inclusive")
+        print(
+            f"{label}_employment_per_10000\tmatched_counties={len(employment_keys)}"
+            f"\tmedian={statistics.median(employment):.2f}"
+            f"\tp25={quartiles[0]:.2f}\tp75={quartiles[2]:.2f}"
+            f"\tzero_count={sum(value == 0 for value in employment)}"
         )
 
 

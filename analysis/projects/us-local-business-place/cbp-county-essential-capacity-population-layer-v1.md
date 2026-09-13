@@ -34,6 +34,17 @@ Establishment counts are expressed per 10,000 residents. Counties include zero-e
 | Health care and social assistance | 22.95 | 16.62 | 29.64 | 70 |
 | Accommodation and food services | 20.74 | 15.63 | 26.15 | 59 |
 
+Establishment counts hide scale, so the same CBP file's employment field gives a second descriptive measure. Because CBP employment is suppressed or unavailable in some small cells, each row below uses only counties with numeric sector employment:
+
+| Sector | Median employees per 10,000 residents | 25th percentile | 75th percentile | Counties with zero reported employees |
+|---|---:|---:|---:|---:|
+| Manufacturing | 345.10 | 161.32 | 634.24 | 2,888 |
+| Retail trade | 404.91 | 296.61 | 511.66 | 3,124 |
+| Health care and social assistance | 438.56 | 284.27 | 623.16 | 3,072 |
+| Accommodation and food services | 290.86 | 185.35 | 413.69 | 3,083 |
+
+The final column is the number of counties with numeric employment, not a zero-employment count; suppressed or unavailable cells are excluded. The establishment and employment distributions answer different questions: a county can have a sector establishment but little employment, or a small number of establishments with substantial employment. Neither measure captures hours, staffing adequacy, quality, prices, travel, or whether the service meets local need.
+
 ## What the distribution suggests
 
 1. **Retail is broadly present but not uniformly present.** Its median is about 33 establishments per 10,000 residents, with a wide county spread. Presence alone says nothing about affordability, hours, quality, or whether a county's residents can reach the establishments.
