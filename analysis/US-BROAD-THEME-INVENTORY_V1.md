@@ -48,7 +48,10 @@ Every link must be labeled as observed, reported, estimated, inferred, compared,
 
 The arrow-by-arrow source assignment is maintained in the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md). It is the operational companion to this theme inventory.
 
-The active program is five cross-domain bridges, each requiring population-, market-, firm-, place-, institution-, and political evidence where available:
+The active program starts with five cross-domain bridges, each requiring
+population-, market-, firm-, place-, institution-, and political evidence where
+available. These are priority routes through the 14-theme program, not a
+replacement for the full societal scope:
 
 1. **Price/payment -> household room -> substitution and public judgment.**
 2. **Service/platform rule -> recourse and customer effort -> trust and exit.**
@@ -56,7 +59,13 @@ The active program is five cross-domain bridges, each requiring population-, mar
 4. **Housing/energy/insurance -> health, mobility, and place -> staying, moving, or recovery.**
 5. **Public aid/rule -> exposure and take-up -> material result, interpretation, and political response.**
 
-The next work is to attach valid data to these bridges, preserve source and method limits, look for counterexamples, and publish only the strongest supported findings in the reader. The first tests may use SIPP, NHTS, ATUS, CE, SHED, MEPS, RECS, Treasury/FIO, BLS, BEA, CFPB, company records, and opinion/election sources, but no single dataset is expected to answer the whole chain.
+The next work is to attach valid data to these bridges, preserve source and
+method limits, apply the [trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md),
+look for the reversals in the [counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md),
+and publish only the strongest supported findings in the reader. The first
+tests may use SIPP, NHTS, ATUS, CE, SHED, MEPS, RECS, Treasury/FIO, BLS, BEA,
+CFPB, company records, and opinion/election sources, but no single dataset is
+expected to answer the whole chain.
 
 ## Definition of an end-to-end result
 
