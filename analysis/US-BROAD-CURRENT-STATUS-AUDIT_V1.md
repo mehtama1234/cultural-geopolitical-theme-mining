@@ -158,6 +158,12 @@ been causally joined.
   separate population layers for consumer adaptation, economic judgment,
   trust, source environment, civic action, turnout, and participation barriers.
   They are not falsely joined.
+- **Respondent-level meaning/action depth:** the 2024 CCES common file now
+  supplies a weighted descriptive comparison of gig work and student-loan
+  responsibility with federal/state trust and any civic action for 23,530
+  valid proxy/trust respondents. The joint pattern is non-monotonic and useful
+  as a counterexample, but no timing, attribution, complex-design variance, or
+  causal turnout claim is promoted.
 - **Source environment to civic action:** the Pew crosswalk now places source
   ecosystem, influencer exposure, attention, trust, civic style, direct action,
   and voting in separate stages, preserving the missing same-respondent links.

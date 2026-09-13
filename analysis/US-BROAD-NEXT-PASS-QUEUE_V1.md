@@ -140,6 +140,12 @@ political time—without pretending they are the same respondents. The next step
 is a worker-event or matched-workplace design with schedule control, grievance
 route, civic action, and follow-up.
 
+The [CCES material/work proxy trust-action layer](projects/us-cost-trust-politics/cces-material-proxy-trust-action-layer-v1.md)
+adds a respondent-level descriptive screen using gig work and student-loan
+responsibility alongside federal/state trust and civic action. Its non-monotonic
+joint pattern is a useful counterexample; the next step is still a repeated or
+event-based design with timing, attribution, prior identity, and uncertainty.
+
 The infrastructure/state-power lane now has a US physical-demand baseline in
 the [data-center energy load layer](projects/ai-work-control/us-data-center-energy-load-baseline-v1.md).
 It separates historical electricity use, modeled future demand, policy claims,
