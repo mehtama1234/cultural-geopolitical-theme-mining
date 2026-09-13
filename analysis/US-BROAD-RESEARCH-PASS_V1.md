@@ -24,6 +24,8 @@ economic judgment and trust, and Pew records distinct civic-action patterns.
 It is a stronger societal synthesis, but the adaptation-to-attribution-to-action
 path remains open.
 
+The [CFPB recourse visibility and remedy layer](projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md) deepens the consumer-power bridge. It separates digital access, narrative voice, timely response, response category, public explanation, and verified remedy, showing why institutional participation cannot be summarized as “the company responded.”
+
 The [capability, dependency, local distribution, and state power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md)
 extends the program outward to infrastructure and geopolitical consequences.
 It treats AI and cloud capacity as a stack of physical, financial, technical,

@@ -114,6 +114,8 @@ cross-theme layers:
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
+- [CFPB recourse visibility and remedy](analysis/projects/us-customer-automation-recourse/cfpb-recourse-visibility-remedy-layer-v1.md): how digital access, consumer narrative, company response, public explanation, and verified remedy are separate stages of institutional power.
+
 The full reader-facing scope is preserved in the [14-theme program map](site/us-broad-program-map.html). The current program is therefore explicitly broader than the active SIPP or any single household, health, housing, AI, or political dataset.
 
 ## What we should pursue now

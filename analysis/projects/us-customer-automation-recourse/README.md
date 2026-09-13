@@ -27,6 +27,11 @@ The first current institutional measurement layer is the [CFPB complaint → res
 
 The first place-normalized extension is the [CFPB geography layer](cfpb-state-population-normalized-layer-v1.md), which pairs state complaint counts with Census resident-population estimates and explicitly does not treat the result as a consumer-harm rate.
 
+The [CFPB recourse visibility and remedy layer](cfpb-recourse-visibility-remedy-layer-v1.md)
+adds submission channel, narrative presence, and public-response categories.
+It shows that a timely company response, a published explanation, non-monetary
+relief, and a verified consumer remedy are different institutional outcomes.
+
 ## Scope
 
 - US customers and firms;
