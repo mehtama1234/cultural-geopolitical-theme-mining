@@ -3,6 +3,7 @@
 **Checked:** 2026-09-12  
 **Source:** [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)  
 **Window:** complaints received January 1–December 31, 2025  
+**Archived PDF checksum (SHA-256):** `5364f19086de5a0ede17c11933c1b69d528dd2a3271700e34217634bb32230e0`
 **Status:** institutional process and data-production trend; not a consumer-harm rate.
 
 ## Why this is a different kind of trend
@@ -34,6 +35,26 @@ more than 4,000 companies; companies provided a timely response to more than
 Credit or consumer reporting accounted for approximately 5,806,800 complaints,
 or 88% of those received. This concentration makes the national total a poor
 proxy for the experience of a typical financial-product customer.
+
+## The reported volume sequence
+
+The annual report gives this agency-reported sequence:
+
+| Year | Complaints received, approximately |
+|---|---:|
+| 2019 | 352,400 |
+| 2021 | 994,000 |
+| 2023 | 1,657,600 |
+| 2024 | 3,187,900 |
+| 2025 | 6,635,400 |
+
+The report says the increases were driven almost entirely by growth in credit
+or consumer reporting complaints and attributes part of the 2025 screening
+problem to duplicative or spurious submissions enabled by emerging automated
+tools. That is the CFPB's explanation, not an independently established causal
+finding in this report. The defensible result is that the complaint system's
+observed volume and filtering process changed sharply; the causes and the
+share representing authentic consumer grievances require separate validation.
 
 ## Response categories are not interchangeable
 
