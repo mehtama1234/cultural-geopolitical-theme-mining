@@ -87,3 +87,8 @@ The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-p
 normalizes manufacturing, retail, care, and food establishments by county
 population. It is a rough local-capacity baseline, not a measure of access,
 quality, affordability, or service use.
+
+The [rural/urban capacity profile](cbp-capacity-rural-urban-profile-v1.md)
+stratifies that baseline with USDA's 2023 Rural-Urban Continuum Codes. It shows
+that the rural/urban pattern differs by sector, so “place access” cannot be
+represented by one metro/nonmetro score.
