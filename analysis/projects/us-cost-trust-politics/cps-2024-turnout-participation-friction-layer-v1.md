@@ -98,6 +98,20 @@ time and schedule control, housing stability and address changes, accessible
 registration and polling, work interruption, and the material capacity to
 follow political information and procedures.
 
+## Place variation
+
+The state table adds a geographic action layer. Among citizens, reported voting
+ranged from 52.8% in Arkansas and 57.9% in Texas to 75.9% in Minnesota and
+75.3% in Oregon. The District of Columbia is reported separately and is not a
+state comparison. The national citizen voting rate was 65.3%.
+
+This range is a place signal, not a place explanation. It may reflect
+registration rules, voting methods, local institutions, campaign intensity,
+population composition, mobility, work schedules, or differences in survey
+response. The next place test should compare similar populations across states
+or counties while measuring registration access, residence duration, transport,
+work/care time, and information exposure.
+
 ## What this means for the broad program
 
 Political participation is not one outcome. The program now has separate
