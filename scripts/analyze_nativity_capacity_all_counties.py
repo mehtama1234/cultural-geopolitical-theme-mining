@@ -38,6 +38,7 @@ def main() -> None:
     parser.add_argument("--cbp", type=Path, required=True)
     parser.add_argument("--population", type=Path, required=True)
     parser.add_argument("--nativity", type=Path, required=True)
+    parser.add_argument("--arrival", type=Path)
     parser.add_argument("--min-population", type=int, default=100_000)
     args = parser.parse_args()
 
@@ -57,6 +58,16 @@ def main() -> None:
                 if total:
                     nativity[match.group(1)] = 100 * (total - native) / total
 
+    recent_arrival = {}
+    if args.arrival:
+        with args.arrival.open(newline="", encoding="latin1") as source:
+            for row in csv.DictReader(source, delimiter="|"):
+                match = re.fullmatch(r"0500000US(\d{5})", row.get("GEO_ID", ""))
+                if match and row.get("B05005_E001", "").isdigit() and row.get("B05005_E004", "").isdigit():
+                    total = int(row["B05005_E001"])
+                    if total:
+                        recent_arrival[match.group(1)] = 100 * int(row["B05005_E004"]) / total
+
     capacity = {}
     with ZipFile(args.cbp) as archive:
         member = next(name for name in archive.namelist() if name.endswith(".txt"))
@@ -74,16 +85,20 @@ def main() -> None:
     for key, (pop20, pop23) in population.items():
         if pop23 < args.min_population or key not in nativity or key not in capacity:
             continue
-        records.append({"growth": 100 * (pop23 / pop20 - 1), "foreign_born": nativity[key], "pop": pop23, "capacity": capacity[key]})
+        records.append({"growth": 100 * (pop23 / pop20 - 1), "foreign_born": nativity[key], "recent_arrival": recent_arrival.get(key), "pop": pop23, "capacity": capacity[key]})
     print(f"counties={len(records)}\tmin_population={args.min_population}")
     print("sector\tmeasure\taxis\tpearson\tq1_n\tq1_median\tq2_n\tq2_median\tq3_n\tq3_median\tq4_n\tq4_median")
     for code, name in SECTORS.items():
         for measure, index in (("establishments", 0), ("employment", 1)):
             usable = [row for row in records if code in row["capacity"] and row["capacity"][code][index] is not None]
-            for axis, axis_key in (("population_growth", "growth"), ("foreign_born_share", "foreign_born")):
-                xs = [row[axis_key] for row in usable]
-                ys = [10_000 * row["capacity"][code][index] / row["pop"] for row in usable]
-                fields = [name, measure, axis, f"{pearson(xs, ys):.4f}"] + quartile_rows(usable, axis_key, code, index)
+            axes = [("population_growth", "growth"), ("foreign_born_share", "foreign_born")]
+            if args.arrival:
+                axes.append(("entered_2010plus_share", "recent_arrival"))
+            for axis, axis_key in axes:
+                axis_records = [row for row in usable if row[axis_key] is not None]
+                xs = [row[axis_key] for row in axis_records]
+                ys = [10_000 * row["capacity"][code][index] / row["pop"] for row in axis_records]
+                fields = [name, measure, axis, f"{pearson(xs, ys):.4f}"] + quartile_rows(axis_records, axis_key, code, index)
                 print("\t".join(fields))
 
 

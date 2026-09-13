@@ -19,6 +19,7 @@ python3 scripts/analyze_nativity_capacity_all_counties.py \
   --cbp /tmp/cbp23co.zip \
   --population /tmp/co-est2024-alldata.csv \
   --nativity /tmp/acsdt5y2023-b05002.dat \
+  --arrival /tmp/acsdt5y2023-b05005.dat \
   --min-population 100000
 ```
 
@@ -43,6 +44,24 @@ capacity-sector bridge](migration-capacity-sector-bridge-v1.md).
 | Accommodation/food | Establishments/10k | Foreign-born share | 0.0834 | 21.57 | 22.81 |
 | Accommodation/food | Employees/10k | Population growth | -0.1742 | 426.31 | 377.49 |
 | Accommodation/food | Employees/10k | Foreign-born share | 0.0296 | 398.82 | 399.61 |
+
+The arrival-timing field adds a third axis: the share of the ACS foreign-born
+population that entered in 2010 or later. It is not a 2020–2023 flow.
+
+| Sector | Measure | Axis | Pearson correlation | Lowest quartile median | Highest quartile median |
+|---|---|---|---:|---:|---:|
+| Retail | Establishments/10k | Entered 2010+ share | 0.1206 | 29.29 | 30.89 |
+| Retail | Employees/10k | Entered 2010+ share | 0.2691 | 449.00 | 533.66 |
+| Health/social assistance | Establishments/10k | Entered 2010+ share | 0.1764 | 26.06 | 30.33 |
+| Health/social assistance | Employees/10k | Entered 2010+ share | 0.3532 | 513.62 | 772.26 |
+| Accommodation/food | Establishments/10k | Entered 2010+ share | 0.2134 | 20.79 | 23.85 |
+| Accommodation/food | Employees/10k | Entered 2010+ share | 0.2610 | 367.78 | 473.62 |
+
+The arrival-timing axis differs from both total growth and foreign-born stock:
+its association is positive across the selected sectors, strongest for
+health/social-assistance employment in this descriptive screen. This does not
+show that newer arrivals caused employment or establishment differences; it
+shows that the chosen population proxy changes the observed pattern.
 
 The complete quartile output retains Q2 and Q3 in the reproducible TSV; this
 short table shows only the endpoints for readability.
@@ -74,6 +93,9 @@ and similar growth but different foreign-born shares. Add arrival timing,
 domestic migration, housing permits/vacancy, wages, travel, provider capacity,
 and direct service-use and belonging measures. Retain places where the same
 population signal produces different capacity outcomes as counterexamples.
+
+Latest run with arrival timing produced SHA-256
+`0bc9bc4a18a84a664d78e0dba855853f1951eacf8597845e1bd8756278aa3871`.
 
 Related: [all-county migration/place capacity profile](migration-capacity-all-counties-profile-v1.md),
 [migration capacity-sector bridge](migration-capacity-sector-bridge-v1.md), and
