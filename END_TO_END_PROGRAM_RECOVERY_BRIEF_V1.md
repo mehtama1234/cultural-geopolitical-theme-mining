@@ -211,6 +211,14 @@ participation), `b16d97f` (political source stages), and `f0f1ec7` (ANES panel
 acquisition target). These commits are documentation and analysis progress,
 not proof that every broad arrow is complete.
 
+The latest migration/place continuation is also recorded in `46f1f47`
+(matched-place design), `fa9664c` (sector-capacity bridge), `a121784`
+(population and nativity table), `2d63d08` (arrival timing), `920ab41`
+(housing pressure), `836a0f1` (language access), `f5b0caf` (firm-stage and
+BFS/BDS context), `9720c47` (belonging and political meaning), and `8b5b66a`
+(audit/trend-register integration). These are documentation and analysis
+progress, not proof that every broad arrow is complete.
+
 The next work should deepen the open arrows rather than only add more topics:
 
 1. follow one dated consumer, care, housing, or public-program event through
