@@ -317,6 +317,11 @@ been causally joined.
   every high-growth cell, while the foreign-born axis is non-monotonic. This
   separates demographic proxies and adds a place counterexample without calling
   population change a migration effect.
+- **Growth and shortage conditioning:** a follow-up 620-county screen adds
+  HPSA status to the growth/capacity comparison. Among HPSA counties, median
+  health employment per 10,000 falls from 724.25 in the lowest-growth quartile
+  to 460.75 in the highest-growth quartile. HPSA and CBP stocks still do not
+  measure travel, appointments, prices, quality, or unmet need.
 - **Housing/capacity option stack:** the selected migration-place screen now
   adds official ACS vacancy to rent, crowding, language-access, sector-capacity,
   and HPSA fields. Higher-growth counties have higher median rent and lower

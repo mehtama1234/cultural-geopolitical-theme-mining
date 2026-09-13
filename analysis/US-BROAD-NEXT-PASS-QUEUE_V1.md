@@ -86,6 +86,12 @@ improves timing but does not create a same-period causal join; the next step
 is direct same-geography evidence on provider capacity, travel, wages, and
 political action, not national generalization.
 
+The [growth × HPSA capacity layer](projects/us-immigration-local-demand/migration-growth-hpsa-capacity-layer-v1.md)
+conditions the 620-county growth screen on provider-shortage context. Among
+HPSA counties, health employment per resident falls across growth quartiles,
+but HPSA and CBP stocks are not lived access. The next place step remains
+travel, wages, provider adequacy, service use, and direct local meaning/action.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish

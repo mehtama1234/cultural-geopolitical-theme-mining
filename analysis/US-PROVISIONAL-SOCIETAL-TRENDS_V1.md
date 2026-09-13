@@ -49,6 +49,12 @@ This is a cross-source arrow map, not a same-person join; the next depth test
 is longitudinal measurement of exposure, interpretation, action, remedy, and
 later security or legitimacy.
 
+The new [growth × HPSA capacity layer](projects/us-immigration-local-demand/migration-growth-hpsa-capacity-layer-v1.md)
+adds a place counterexample to the migration/capacity trend: within the HPSA
+majority of a 620-county frame, visible health employment is lower in faster-
+growing quartiles, but shortage designation and establishment stock still do
+not measure practical access, unmet need, or local political meaning.
+
 ## The broad causal shape to test
 
 ```text
