@@ -97,6 +97,13 @@ patterns. The next missing step is linked consumer follow-up—verified remedy,
 repeat effort, switching, dependence, and later trust—not another complaint
 count.
 
+The work/control lane now has a population bargaining-context baseline in the
+[BLS union and bargaining-room layer](projects/ai-work-control/bls-union-bargaining-room-layer-v1.md).
+It adds representation, coverage, earnings association, and distribution by
+worker group, occupation, industry, and state. The next missing step is a
+worker-event comparison linking a tool, schedule, benefit, or safety change to
+control, voice, household security, and exit.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
