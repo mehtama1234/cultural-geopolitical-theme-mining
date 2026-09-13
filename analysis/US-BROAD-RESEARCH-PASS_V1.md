@@ -43,6 +43,13 @@ alternatives, social support, rights, institutional voice, and practical exit
 as separate resources. The next tests must show not only who is exposed, but
 who can absorb, refuse, appeal, switch, move, or organize.
 
+The [consumer culture, trust, status, and everyday power layer](projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md)
+adds the cultural/consumer mechanism. It follows how purchase, search, data
+sharing, help-seeking, reviews, fraud reporting, and switching become signals
+about trust, dignity, status, fairness, and dependence. Use and trust are not
+treated as satisfaction or control; the next test follows a customer through
+entry, outcome, remedy, and exit while including non-users and non-reporters.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
