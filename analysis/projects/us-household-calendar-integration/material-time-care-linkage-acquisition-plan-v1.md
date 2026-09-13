@@ -49,9 +49,36 @@ The immediate conclusion is an acquisition gap, not a null result: the current
 bundle can triangulate the societal pattern and identify plausible moderators,
 but it does not contain every required field in one same-unit design.
 
+## Source check completed
+
+An official-source check identifies the [Panel Study of Income Dynamics
+(PSID)](https://psidonline.isr.umich.edu/GettingStarted.aspx) as the highest-
+priority candidate for the next dictionary audit. Its documented domains include
+repeated family and individual economic, employment, health, family, and
+participation information, with time-use measures available in the study's
+supplemental content. This makes it a plausible same-family backbone for
+material pressure, work, health, and selected time outcomes.
+
+The [BLS ATUS 2024 files](https://www.bls.gov/tus/data/datafiles-2024.htm)
+confirm that ATUS-CPS supplies household-member information collected before
+the diary interview and that the activity, who, and eldercare files can be
+used for detailed time and care measurement. The [Census SIPP
+documentation](https://www.census.gov/programs-surveys/sipp.html) confirms
+longitudinal monthly income, employment, household, health-insurance, child-
+care, and food-security content. These are acquisition findings, not evidence
+that the sources can be joined to one another.
+
+The PSID candidate is **not yet accepted**. Before acquisition, audit whether
+the relevant waves contain: a dated enough financial or care trigger; repeated
+time-use and unpaid-care measures for the same adults; work schedule/control;
+health and material outcomes; and direct trust, meaning, or civic-action
+measures. If those fields do not coexist, retain PSID as a modular backbone
+and keep the event-ledger route open.
+
 ## Priority acquisition routes
 
-1. **Longitudinal household route:** identify a panel with repeated financial,
+1. **Longitudinal household route:** audit PSID first, then identify a panel
+   with repeated financial,
    work, care, health, time, and subjective/political measures. Verify the
    variable dictionary and timing before downloading or linking records.
 2. **Event-ledger route:** collect dated administrative, consumer, employer,
