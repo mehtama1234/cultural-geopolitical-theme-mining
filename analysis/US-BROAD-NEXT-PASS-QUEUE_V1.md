@@ -52,6 +52,12 @@ scan](projects/us-safety-net-access/snap-administrative-burden-paper-scan-v1.md)
 The next public-system advance should therefore be a same-episode or matched
 route design, not another disconnected participation statistic.
 
+The migration/place lane now has a joint growth × foreign-born capacity screen
+in the [joint capacity layer](projects/us-immigration-local-demand/migration-growth-nativity-joint-capacity-layer-v1.md).
+The next place step is to add housing supply, travel, wages, provider
+adequacy, and direct belonging/action measures to capacity-keeping-pace versus
+capacity-lagging comparisons.
+
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure
 person/family retention and missingness, preserve weights, and then publish

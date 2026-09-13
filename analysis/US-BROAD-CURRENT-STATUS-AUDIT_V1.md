@@ -245,6 +245,12 @@ been causally joined.
   participation, procedural denial, and churn. This deepens the route →
   participation arrow across institutional settings without treating those
   studies as the same SIPP respondents or as proof of political meaning.
+- **Joint migration/place conditioning:** the 620-county screen now conditions
+  sector capacity on both 2020–2023 population-growth quartile and 2023
+  foreign-born-share quartile. Health/social-assistance employment is lower in
+  every high-growth cell, while the foreign-born axis is non-monotonic. This
+  separates demographic proxies and adds a place counterexample without calling
+  population change a migration effect.
 - **Practical access option stack:** local capacity, mobility, and HRSA
   designation layers are now consolidated into a four-cell matched-place
   design. Nominal supply, reachability, provider adequacy, price, time, quality,

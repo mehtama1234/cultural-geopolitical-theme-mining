@@ -213,6 +213,13 @@ inadequate; rents can rise; and belonging can become contested.
 
 ## Next empirical join
 
+The [joint growth × foreign-born capacity layer](migration-growth-nativity-joint-capacity-layer-v1.md)
+now conditions the place screen on both population-growth and foreign-born-
+share quartiles. It shows a stronger and more consistent health/social-
+assistance employment contrast by growth quartile than by foreign-born share,
+while retail and food patterns are less uniform. This is a counterexample to
+using one “migration pressure” axis and remains a descriptive place result.
+
 Use the matched-place design with a pre/post window and add, in order:
 
 - Census population estimates and ACS population composition, nativity,
