@@ -181,7 +181,8 @@ the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
 The compact current-state check is the [broad program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md).
 
-The latest committed continuation passes are `c38a097` (rurality check on care
+The latest committed continuation passes are `9c13b53` (consumer pressure,
+adaptation, and public meaning cross-source bridge), `c38a097` (rurality check on care
 shortage), `48f8b57` (recovery-state persistence), `3e72adb` (rural/urban sector
 capacity), `5ee9ce8` (health capacity and shortage designations), `5ae4912`
 (capacity and mobility), `3ec5b5c` (county essential capacity), `5935ad6`
