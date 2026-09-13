@@ -139,6 +139,12 @@ It adds 16 transition cells with Fay-BRR uncertainty. The next missing step is
 the same-episode notice, effort, amount, remedy, interpretation, and action
 ledger; another receipt cross-tab should not be treated as a substitute.
 
+The [SNAP reason × following-hardship layer](projects/us-safety-net-access/sipp-snap-transition-reason-outcome-fay-brr-layer-v1.md)
+now connects recorded entry/exit reasons to the following hardship fields on
+the same adjacent-month person record. It separates job loss, income loss,
+disability, family, and administrative routes. The next step remains a true
+episode ledger with notice, route effort, amount, remedy, meaning, and action.
+
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
 | 1. Household room and consumption | SHED panel, CE income-quintile spending, food security, SIPP, prices | Follow a dated price/payment event through spending, food, debt, health, and recovery in the same unit | Pressure rises but no other need is displaced because a buffer or substitute protects the unit | Event-ledger extract plus distribution table |
