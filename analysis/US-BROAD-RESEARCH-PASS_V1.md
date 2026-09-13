@@ -24,6 +24,13 @@ and institutional complements, then asks who owns them, who pays, who benefits,
 and who can switch or inspect. Project announcements remain inputs to the
 test, not evidence of realized local capability or sovereignty.
 
+The [care cost, work, family time, and security layer](projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md)
+adds social reproduction as a population-level theme. It keeps the medical
+bill, payment trouble, credit record, delayed care, paid care, unpaid family
+time, work loss, food or housing tradeoff, health, and job freedom separate.
+Its next test follows one dated event through the same person or family rather
+than treating an annual hardship measure as a complete causal story.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?
