@@ -1,6 +1,6 @@
 # Material, time, and care linkage acquisition plan v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Scope:** US societal trend program; material pressure, time transfer, care,
 recovery, and meaning  
 **Status:** acquisition and identification plan; no end-to-end result claimed
@@ -88,6 +88,13 @@ and 85,536 persons in the cross-year individual file. The documented family
 interview sequence is biennial from 1999 through 2023, with earlier annual
 waves. This is substantial longitudinal population infrastructure, but
 individual availability varies with family membership and nonresponse.
+
+The packaged-data page exposes the 2023 main family and cross-year individual
+packages, plus CDS files through 2024, TAS through 2023, and DUST for 2009 and
+2013. The public ZIP route requires a registered PSID account and acceptance of
+the site's conditions of use. Until that account step is completed, the next
+safe action is documentation and variable-search work; no local PSID data
+extract is claimed.
 
 The time-use supplements must remain separate in the design. The PSID index
 lists child time diaries for 1997, 2002, and 2007, later child/adolescent
