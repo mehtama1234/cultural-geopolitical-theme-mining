@@ -76,6 +76,28 @@ ethnicity caused a participation barrier. The next comparison should use the
 official replicate-weight files and a defined intersectional universe rather
 than infer mechanisms from percentages alone.
 
+## Registration, resources, place, and work
+
+The same Census release provides additional distributional signals. Among
+citizens in families with reported income under $10,000, 59.0% were reported
+registered; among those at $150,000 or more, the figure was 86.4%. These income
+tables have a restricted family/relationship universe and exclude people who
+did not report knowing their income, so they are not a universal individual
+income gradient.
+
+By housing tenure, reported registration was 77.4% for citizens in
+owner-occupied units and 63.6% for citizens in renter-occupied units. Among
+people with any disability, reported registration was 71.8%, compared with
+73.9% for people with no disability. In the labor-force table, reported
+registration was 66.6% for unemployed citizens, 74.5% for private-industry
+workers, and 70.6% for people not in the labor force.
+
+These are not claims that income, renting, disability, or unemployment causes
+nonparticipation. They identify where the next mechanism search should look:
+time and schedule control, housing stability and address changes, accessible
+registration and polling, work interruption, and the material capacity to
+follow political information and procedures.
+
 ## What this means for the broad program
 
 Political participation is not one outcome. The program now has separate
