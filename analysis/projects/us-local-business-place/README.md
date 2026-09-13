@@ -61,3 +61,9 @@ adds a durable national baseline for manufacturing, retail, health/social
 assistance, and accommodation/food employment and establishments. It keeps
 sector presence separate from access, quality, ownership, belonging, and
 political effects.
+
+The [BDS realized entry, exit, and sector dynamics layer](bds-realized-entry-exit-sector-layer-v1.md)
+adds the missing flow: actual establishment openings and closings, firm deaths,
+job creation and destruction, and net job change. It turns the application and
+stock comparison into a three-stage test while keeping services, culture, and
+politics as separate outcomes.
