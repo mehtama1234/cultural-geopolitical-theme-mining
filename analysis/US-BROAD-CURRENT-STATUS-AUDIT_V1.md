@@ -76,6 +76,12 @@ been causally joined.
   jobs, and everyday service capacity must be analyzed separately; the links
   to ownership, quality, access, local identity, and political response remain
   open.
+- **Place access and care adequacy:** county capacity is now normalized by
+  population, stratified by USDA metro/nonmetro status, and placed beside NHTS
+  mobility evidence. A CBP–HRSA bridge further shows that health-sector
+  establishments can coexist with designated primary-care shortage components.
+  Travel, appointment access, quality, price, unmet need, and household
+  outcomes remain open.
 
 ## The shared end-to-end model
 

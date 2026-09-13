@@ -134,6 +134,11 @@ cross-theme layers:
 - [BDS realized entry, exit, and sector dynamics](analysis/projects/us-local-business-place/bds-realized-entry-exit-sector-layer-v1.md): adds annual establishment openings/closings, firm deaths, job birth/death flows, and net job change by sector, completing the application → realized-flow → employer-stock sequence before testing local services, culture, or politics.
 - [BFS–BDS state stage comparison](analysis/projects/us-local-business-place/bfs-bds-state-stage-comparison-v1.md): compares 2023 state application intensity with realized BDS entry, exit, and job-flow rates across 51 states and DC, as a descriptive geographic bridge rather than a conversion or causal estimate.
 - [BFS–BDS sector bridge](analysis/projects/us-local-business-place/bfs-bds-sector-bridge-v1.md): compares application volume with realized openings, closings, and job growth across major sectors so “business dynamism” is tested as a sector-specific societal trend.
+- [BDS state-sector turnover profile](analysis/projects/us-local-business-place/bds-state-sector-turnover-profile-v1.md): shows that entry, exit, and net-job patterns differ across states within everyday sectors.
+- [CBP county essential-sector capacity](analysis/projects/us-local-business-place/cbp-county-essential-capacity-population-layer-v1.md): normalizes establishments and employment by county population as a local-capacity baseline.
+- [Rural/urban capacity profile](analysis/projects/us-local-business-place/cbp-capacity-rural-urban-profile-v1.md): stratifies capacity by USDA metro/nonmetro categories and preserves sector-specific place differences.
+- [Capacity and mobility bridge](analysis/projects/us-local-business-place/capacity-mobility-cross-source-bridge-v1.md): places county capacity beside NHTS vehicle and travel evidence without falsely joining different samples.
+- [CBP–HRSA primary-care shortage bridge](analysis/projects/us-local-business-place/cbp-hrsa-primary-care-shortage-bridge-v1.md): separates visible health establishments from formal primary-care shortage designations and provider adequacy.
 
 - [SHED panel persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md): the first same-respondent test of whether financial condition and price adaptations persist or reverse across years.
 
@@ -174,7 +179,11 @@ the arrow-level control is [US broad evidence matrix](analysis/US-BROAD-EVIDENCE
 the full inventory is [US broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md).
 The compact current-state check is the [broad program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md).
 
-The latest committed continuation passes are `3edb2fd` (platform data and
+The latest committed continuation passes are `3e72adb` (rural/urban sector
+capacity), `5ee9ce8` (health capacity and shortage designations), `5ae4912`
+(capacity and mobility), `3ec5b5c` (county essential capacity), `5935ad6`
+(state sector turnover), `692f6f8` (sector application dynamics), `82236e6`
+(state applications and realized dynamics), `3edb2fd` (platform data and
 attention agency), `f559f80` (firm and market power distribution), `d4df7b2`
 (Romanian infrastructure completion), `0d051b4` (SHED adaptation by condition
 path), `bf192d9` (trend-register integration), `d9e04b3` (time, care, and social
