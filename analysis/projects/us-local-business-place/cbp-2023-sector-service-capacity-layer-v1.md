@@ -81,9 +81,36 @@ employer operations, measure service quality or consumer use, or identify
 local ownership and political effects. The national table is a baseline, not a
 county-level causal result.
 
+## County sector mix
+
+Using the county CBP file's all-industry establishment row as the denominator,
+and restricting to 2,906 counties with at least 100 establishments, the
+distribution of selected sector shares was:
+
+| Sector | Median share of establishments | 25th–75th percentile |
+|---|---:|---:|
+| Manufacturing (31–33) | 4.05% | 2.83%–5.49% |
+| Retail trade (44–45) | 15.10% | 12.87%–17.65% |
+| Health care and social assistance (62) | 10.64% | 8.46%–12.65% |
+| Accommodation and food services (72) | 9.42% | 8.00%–10.93% |
+
+This is a local structural distribution, not a ranking of service quality or
+economic health. A higher health-care share may reflect care demand, hospitals,
+or institutional employment; a higher retail or food share may reflect tourism,
+commuting, or a different local market; and a lower manufacturing share does
+not prove weak productive capacity. The next comparison should use population,
+employment, payroll, distance, and actual service use alongside the mix.
+
 The selected rows are reproducible with
 `scripts/analyze_cbp_sector_capacity.py`:
 
 ```text
 python3 scripts/analyze_cbp_sector_capacity.py --cbp /path/to/cbp23us.zip
+```
+
+The county sector-mix summary is reproducible with
+`scripts/analyze_cbp_county_sector_mix.py`:
+
+```text
+python3 scripts/analyze_cbp_county_sector_mix.py --cbp /path/to/cbp23co.zip
 ```
