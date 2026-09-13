@@ -53,11 +53,14 @@ but it does not contain every required field in one same-unit design.
 
 An official-source check identifies the [Panel Study of Income Dynamics
 (PSID)](https://psidonline.isr.umich.edu/GettingStarted.aspx) as the highest-
-priority candidate for the next dictionary audit. Its documented domains include
-repeated family and individual economic, employment, health, family, and
-participation information, with time-use measures available in the study's
-supplemental content. This makes it a plausible same-family backbone for
-material pressure, work, health, and selected time outcomes.
+priority candidate for the economic, employment, health, and family backbone.
+Its detailed time-use material is supplemental rather than a repeated,
+all-adult diary: the PSID documentation lists the Disability and Use of Time
+study for older couples in 2009 and 2013, and child time-diary supplements in
+selected waves ([PSID documentation index](https://psidonline.isr.umich.edu/Guide/documents.aspx)).
+PSID is therefore a strong modular backbone for material
+pressure, work, health, and family structure, but it is not yet accepted as
+the complete time/care panel.
 
 The [BLS ATUS 2024 files](https://www.bls.gov/tus/data/datafiles-2024.htm)
 confirm that ATUS-CPS supplies household-member information collected before
@@ -68,17 +71,20 @@ longitudinal monthly income, employment, household, health-insurance, child-
 care, and food-security content. These are acquisition findings, not evidence
 that the sources can be joined to one another.
 
-The PSID candidate is **not yet accepted**. Before acquisition, audit whether
-the relevant waves contain: a dated enough financial or care trigger; repeated
-time-use and unpaid-care measures for the same adults; work schedule/control;
-health and material outcomes; and direct trust, meaning, or civic-action
-measures. If those fields do not coexist, retain PSID as a modular backbone
-and keep the event-ledger route open.
+The PSID candidate is **accepted only as a modular backbone pending a full
+variable audit**. Before acquisition, verify whether the selected main-study
+waves and supplements contain: a dated enough financial or care trigger;
+repeated time-use and unpaid-care measures for the same adults; work
+schedule/control; health and material outcomes; and direct trust, meaning, or
+civic-action measures. The current documentation already indicates that the
+general all-adult repeated-time requirement may fail. If it does, pair PSID
+economic/family waves with the appropriate time/care supplement or an event
+ledger, and keep the full end-to-end claim open.
 
 ## Priority acquisition routes
 
-1. **Longitudinal household route:** audit PSID first, then identify a panel
-   with repeated financial,
+1. **Longitudinal household route:** audit PSID's main waves and supplements
+   first, then identify a panel with repeated financial,
    work, care, health, time, and subjective/political measures. Verify the
    variable dictionary and timing before downloading or linking records.
 2. **Event-ledger route:** collect dated administrative, consumer, employer,

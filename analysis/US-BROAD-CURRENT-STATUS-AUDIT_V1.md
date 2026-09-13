@@ -19,6 +19,12 @@ The [material/time/care acquisition plan](projects/us-household-calendar-integra
 now records the minimum same-unit fields, existing-source fit, acquisition
 routes, and go/no-go rules for this continuation pass.
 
+The first source audit changes the acquisition decision: PSID is a promising
+repeated economic, employment, health, and family backbone, but its detailed
+time-use material is supplemental and population-specific. It is not yet a
+complete all-adult material/time/care panel; the full end-to-end claim remains
+open until the relevant waves and supplements are verified.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
