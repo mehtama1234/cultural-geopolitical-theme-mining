@@ -64,6 +64,10 @@ adds a second distributional axis within 2024: unpaid care is compared across
 nonworking, part-time, and full-time respondents rather than treated as one
 uniform household burden.
 
+The [care and age distribution layer](projects/us-health-cost-household-choice/shed-care-age-distribution-layer-v1.md)
+adds a life-stage axis to the same care comparison, preserving younger,
+midlife, and older counterexamples and buffer differences.
+
 The [aging, care supply, and social capacity bridge](projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md)
 extends this into a system-level comparison. It separates recipient, caregiver,
 family network, employer, provider workforce, agency, and public-meaning units,

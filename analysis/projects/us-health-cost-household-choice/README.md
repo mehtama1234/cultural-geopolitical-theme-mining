@@ -35,6 +35,10 @@ The [care and work distribution layer](shed-care-work-distribution-layer-v1.md)
 adds employment status to the 2024 care comparison, showing how unpaid care
 and work position combine into different adaptation menus.
 
+The [care and age distribution layer](shed-care-age-distribution-layer-v1.md)
+adds life-stage structure, showing that the care pattern is distributed across
+younger, midlife, and older respondents rather than being one age-neutral mean.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
