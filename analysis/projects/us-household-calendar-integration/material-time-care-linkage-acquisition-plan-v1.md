@@ -134,6 +134,11 @@ repeated typical-week material/time/care panel only after the extract verifies
 the wave-level overlap; do not call it a detailed time diary or a direct
 political-meaning panel.
 
+The planned first extract is specified in the [PSID material/time/care extract
+specification](psid-material-time-care-extract-spec-v1.md). It fixes the unit,
+candidate fields, comparison cells, arrow statuses, and quality gates before
+data access is available.
+
 ## Priority acquisition routes
 
 1. **Longitudinal household route:** audit PSID's main waves and supplements

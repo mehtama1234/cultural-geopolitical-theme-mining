@@ -36,6 +36,10 @@ The next acquisition step is still a wave-level overlap, retention, weight,
 and missingness audit; these fields do not automatically establish a dated
 causal trigger or political-meaning outcome.
 
+The [PSID material/time/care extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md)
+now fixes the first many-family unit, candidate fields, comparison cells, and
+quality gates for that acquisition.
+
 ## Coverage finding
 
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
