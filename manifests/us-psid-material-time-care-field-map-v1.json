@@ -74,6 +74,19 @@
         "2023": ["ER82792", "ER82818", "ER82820-ER82831"]
       },
       "unit": "person_family_wave",
+      "status": "partially_codebook_verified",
+      "note": "Annual paid-care and month indicators are verified for all waves; the listed F1D unpaid-care fields are repeated. Exact item universes and 2019/2021 monthly ranges require final extraction check."
+    },
+    {
+      "domain": "paid_child_care_cost",
+      "questionnaire_label": "F7 annual child-care cost and months paid",
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER72748", "ER72750-ER72761"],
+        "2021": ["ER78825", "ER78827-ER78838"],
+        "2023": ["ER82818", "ER82820-ER82831"]
+      },
+      "unit": "family_wave",
       "status": "codebook_verified"
     },
     {
@@ -150,13 +163,26 @@
       "status": "codebook_verified"
     },
     {
+      "domain": "material_room_utility",
+      "questionnaire_label": "Constructed annual family utility expenditure and home-insurance expenditure",
+      "wave": [2019, 2021, 2023],
+      "variables": {
+        "2019": ["ER77529", "ER77531"],
+        "2021": ["ER81856", "ER81858"],
+        "2023": ["ER85710", "ER85712"]
+      },
+      "unit": "family_wave",
+      "status": "codebook_verified",
+      "boundary": "These are reported/constructed expenditure measures; they do not identify a causal bill shock or insurance-driven move."
+    },
+    {
       "domain": "all_domains",
       "questionnaire_label": "Same field groups and comparable universes",
       "wave": "2019-2021",
       "variables": [],
       "unit": "person_family_wave",
       "status": "requires_wave_codebook_audit",
-      "note": "The repeated time/care, paid-work, work-pressure, commute-time, family-meal, health, wellbeing, and family-weight mappings above are verified or explicitly bounded; paid-care and detailed material expenditure mappings still require field-level checks."
+      "note": "The repeated time/care, paid-work, work-pressure, commute-time, family-meal, health, wellbeing, family-weight, paid-care, utility, and home-insurance mappings above are verified or explicitly bounded; remaining detailed material and income fields still require field-level checks."
     }
   ],
   "required_checks_before_estimation": [
