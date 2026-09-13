@@ -70,6 +70,12 @@ been causally joined.
   and provider/state exit. ADR's September 2026 announcement verifies a
   completed Romanian cloud-infrastructure stage, while application migration,
   service quality, portability, and citizen outcomes remain unverified.
+- **Firm, sector, and place dynamics:** BDS now adds realized establishment
+  openings/closings and job flows between BFS applications and CBP employer
+  stocks. State and sector bridges show why application volume, turnover, net
+  jobs, and everyday service capacity must be analyzed separately; the links
+  to ownership, quality, access, local identity, and political response remain
+  open.
 
 ## The shared end-to-end model
 
