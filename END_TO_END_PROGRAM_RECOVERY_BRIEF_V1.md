@@ -118,6 +118,7 @@ cross-theme layers:
 - [matched place panel design](analysis/projects/us-immigration-local-demand/matched-place-panel-design-v1.md): the next executable migration pass, comparing places where housing and services keep pace with places where capacity lags, while preserving person, household, firm, institution, and opinion units.
 
 - [migration, local demand, and sector capacity bridge](analysis/projects/us-immigration-local-demand/migration-capacity-sector-bridge-v1.md): establishes the CBP/RUCC/HRSA place-capacity baseline needed before interpreting migration's local economic, service, or cultural effects.
+- [all-county migration/place capacity profile](analysis/projects/us-immigration-local-demand/migration-capacity-all-counties-profile-v1.md): compares population-change quartiles with sector establishments and employment across 620 larger counties, without treating population change as migration.
 
 - [migration, belonging, and political meaning layer](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md): preserves the cultural-political end of the migration chain by measuring fairness, attribution, trust, identity, belonging, and action directly rather than inferring them from place statistics.
 

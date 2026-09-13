@@ -18,9 +18,15 @@ Move on after one source measures local demand and jobs, one source measures bus
 
 The [migration, local demand, and sector capacity bridge](migration-capacity-sector-bridge-v1.md)
 adds the first 12-county population-change screening table. The accompanying
-[`analyze_migration_place_capacity_panel.py`](../../../../scripts/analyze_migration_place_capacity_panel.py)
+[`analyze_migration_place_capacity_panel.py`](../../../scripts/analyze_migration_place_capacity_panel.py)
 script is reproducible and explicitly treats total population change as a
 proxy while adding the ACS five-year foreign-born share; arrival timing and
 local demand remain separate fields to add. The panel now also accepts ACS
 housing and C16001 language-access fields, without treating either as a
 migrant-specific outcome.
+
+The [all-county capacity profile](migration-capacity-all-counties-profile-v1.md)
+extends the selected screen to 620 counties above 100,000 residents. It
+compares population-change quartiles with retail, health/social-assistance,
+and food establishments and employment, while keeping the result descriptive
+and the population-change measure explicitly non-migration-specific.

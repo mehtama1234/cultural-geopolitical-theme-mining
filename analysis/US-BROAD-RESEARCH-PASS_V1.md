@@ -132,6 +132,11 @@ shows why establishment presence, employment scale, rural/urban profile, and
 formal shortage status must be measured before interpreting migration's local
 economic, service, or cultural effects.
 
+The [all-county migration/place capacity profile](projects/us-immigration-local-demand/migration-capacity-all-counties-profile-v1.md)
+widens the place hypothesis to 620 larger counties and compares population-
+change quartiles with sector establishments and employment before adding
+nativity, housing, travel, wages, or direct belonging measures.
+
 The [migration, belonging, and political meaning layer](projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md)
 extends the chain to direct measures of fairness, attribution, trust, identity,
 belonging, and civic or policy action. It defines competing interpretations and
