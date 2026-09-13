@@ -152,6 +152,13 @@ responsibility alongside federal/state trust and civic action. Its non-monotonic
 joint pattern is a useful counterexample; the next step is still a repeated or
 event-based design with timing, attribution, prior identity, and uncertainty.
 
+The follow-up [CCES subgroup layer](projects/us-cost-trust-politics/cces-material-trust-action-subgroup-layer-v1.md)
+conditions that screen by ordered income-code bands and race groups. It shows
+that the pooled proxy/trust/action pattern is heterogeneous, not a single
+class-wide response. It remains descriptive: the next step is a repeated or
+event-based design with timing, attribution, prior identity, and a valid
+complex-survey variance procedure.
+
 The infrastructure/state-power lane now has a US physical-demand baseline in
 the [data-center energy load layer](projects/ai-work-control/us-data-center-energy-load-baseline-v1.md).
 It separates historical electricity use, modeled future demand, policy claims,

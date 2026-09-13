@@ -169,6 +169,12 @@ been causally joined.
   valid proxy/trust respondents. The joint pattern is non-monotonic and useful
   as a counterexample, but no timing, attribution, complex-design variance, or
   causal turnout claim is promoted.
+- **Subgroup meaning/action depth:** a follow-up CCES screen conditions the
+  material/work proxy comparison by ordered income-code bands and race groups,
+  retaining 21,560 valid records across 48 cells. Federal trust, state trust,
+  and civic action show different subgroup ranges, so the pooled pattern is not
+  promoted as one class response. The screen remains descriptive and does not
+  supply timing, attribution, or complex-design variance.
 - **Source environment to civic action:** the Pew crosswalk now places source
   ecosystem, influencer exposure, attention, trust, civic style, direct action,
   and voting in separate stages, preserving the missing same-respondent links.
