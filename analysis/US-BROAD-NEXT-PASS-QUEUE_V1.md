@@ -1,6 +1,6 @@
 # US broad program next-pass queue v1
 
-**Checked:** 2026-09-12
+**Checked:** 2026-09-13
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
 
@@ -19,7 +19,8 @@ cross-source comparisons and bounded same-respondent analyses where the data
 permit. They do not yet establish a single population-wide causal chain.
 
 The next active pass is **material/time/care linkage**, documented in the
-[acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md).
+[acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md)
+and now operationalized by the [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md).
 Its purpose is to
 identify which missing variables prevent the existing evidence from becoming
 an end-to-end societal result:
@@ -33,6 +34,12 @@ an end-to-end societal result:
 Until a same-unit or valid matched design supplies those fields, the safe
 output is a measured distribution, an explicit comparison, or an acquisition
 gap—not a claim that one cost caused one cultural or political outcome.
+
+The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
+files, verify the mapped fields and their universes across waves, measure
+person/family retention and missingness, preserve weights, and then publish
+the first many-family comparison. No result should be promoted before that
+gate is passed.
 
 | Theme | Current anchor | Next depth pass | Required counterexample | Durable output |
 |---|---|---|---|---|
