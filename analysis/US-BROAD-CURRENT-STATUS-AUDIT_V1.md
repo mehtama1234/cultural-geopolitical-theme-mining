@@ -50,6 +50,11 @@ been causally joined.
   the 4,419-person condition-path persistence/re-entry comparison. This adds
   same-respondent depth to the broad consumer trend, but does not remove
   recontact selection, nonresponse, or the missing dated price/event cause.
+- **Distributional adaptation depth:** SHED 2025 now has a recorded weighted
+  subgroup layer across income, age, ethnicity, and employment. It shows
+  different combinations of substitution, reduced use, saving cuts, borrowing,
+  delayed purchases, and emergency capacity; subgroup mechanisms and
+  uncertainty intervals remain open.
 - **Consumer-pressure synthesis:** BLS, SHED, USDA, ATUS, SIPP, local-capacity,
   and political layers are now compared as a societal adaptation map. It shows
   that pressure can appear as spending substitution, reduced use, delay, lost

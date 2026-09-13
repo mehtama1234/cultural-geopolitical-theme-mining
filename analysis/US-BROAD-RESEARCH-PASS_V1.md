@@ -174,6 +174,8 @@ The [domestic capacity, dependence, and state-leverage bridge](projects/ai-work-
 
 The [SHED panel persistence output](projects/us-household-financial-pressure/shed-panel-adaptation-condition-path-layer-v1.md) has also been rerun against the available 2024–2025 files: 4,419 recontacted respondents support a descriptive persistence and re-entry gradient across worsening, stable, and improving financial-condition paths. It deepens the consumer layer while preserving selection, nonresponse, no-variance, and no-dated-event limits.
 
+The [SHED 2025 adaptation distribution layer](projects/us-household-financial-pressure/shed-2025-adaptation-distribution-layer-v1.md) adds weighted income, age, ethnicity, and employment cuts. Lower-income groups report more substitution, reduced use, saving cuts, borrowing, and delayed purchases, while emergency capacity rises with income; age and employment show different adaptation menus. These are descriptive distributions, not demographic mechanisms or causal effects.
+
 The [BFS annual county data-quality boundary](projects/us-local-business-place/bfs-annual-county-data-quality-boundary-v1.md) adds a necessary firm/place control: the current county application release uses differential-privacy noise, so applications cannot be read as durable local businesses or community change until they are checked against formation, employer, service, and population measures.
 
 The [BFS–CBP county stage comparison](projects/us-local-business-place/bfs-cbp-county-stage-comparison-v1.md) makes that control empirical by matching 3,142 counties to employer-establishment stocks. It supplies a scale diagnostic and a reproducible outlier check while preserving the flow-versus-stock and privacy-noise limits.
