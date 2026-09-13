@@ -11,6 +11,10 @@ to every source card and synthesis row. It keeps source-family roles, units,
 arrow stages, distributions, counterexamples, and cultural/political gaps
 visible across the full program.
 
+Use the [broad counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+to choose the reversal or boundary comparison before promoting a recurring
+pattern into a trend claim.
+
 The [provisional societal trend register](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) is the current synthesis layer. It names recurring patterns across the source packets while keeping each missing join and next test visible.
 
 The cross-source [trust, meaning, and action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md)

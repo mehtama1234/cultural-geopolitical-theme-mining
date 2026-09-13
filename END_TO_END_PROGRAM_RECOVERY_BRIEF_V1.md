@@ -208,6 +208,8 @@ The compact current-state check is the [broad program status audit](analysis/US-
 The [broad trend-extraction protocol](analysis/US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
 is the coding rule for turning those source layers into cautious, comparable
 societal trend claims.
+The [broad counterexample register](analysis/US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+sets the required reversal or boundary test for each of the 14 themes.
 
 The latest committed continuation passes are `9c13b53` (consumer pressure,
 adaptation, and public meaning cross-source bridge), `c38a097` (rurality check on care
