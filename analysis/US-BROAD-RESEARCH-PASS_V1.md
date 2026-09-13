@@ -158,6 +158,8 @@ The [time and care to political availability bridge](projects/us-cost-trust-poli
 
 The [CFPB 2025 process-scale and screening layer](projects/us-customer-automation-recourse/cfpb-2025-process-scale-shift-layer-v1.md) adds institutional depth to the consumer-power bridge. It separates complaints received, screening, routing, company response, publication, and verified outcome, documenting why a rising complaint count cannot be read as a simple rise in consumer harm.
 
+The [CFPB 2025 product-response asymmetry layer](projects/us-customer-automation-recourse/cfpb-2025-product-response-asymmetry-layer-v1.md) deepens the same bridge by comparing company-reported response categories and prior-contact shares across credit reporting, debt collection, cards, deposits, mortgages, student loans, and prepaid cards. It keeps product mix, regulator route, and service capacity separate from consumer recovery.
+
 The [ATUS 2024 time-hidden-price layer](projects/us-household-calendar-integration/atus-2024-time-hidden-price-layer-v1.md) now adds official population estimates for household labor, multiple-job weekend work, workplace location, primary childcare, secondary childcare, and socializing. It deepens the time, work-control, care, and cultural-participation themes without turning a one-day diary into a household panel.
 
 The [time, work, care, and social participation layer](projects/us-household-calendar-integration/time-work-care-social-participation-layer-v1.md) reframes that evidence as a societal distribution question: what work or care displaces social and civic availability, and who has schedule or location control? It keeps time spent, time desired, time controlled, and time displaced separate.

@@ -38,6 +38,11 @@ routing, duplicate and fraud screening, company response, and publication are
 separate stages. A larger visible complaint total is not automatically a
 larger consumer-harm rate.
 
+The [CFPB 2025 product-response asymmetry layer](cfpb-2025-product-response-asymmetry-layer-v1.md)
+adds product-specific depth: explanations, monetary relief, non-monetary relief,
+administrative responses, prior contact, and untimely responses vary sharply by
+financial product. A response category is not a universal remedy probability.
+
 ## Scope
 
 - US customers and firms;
