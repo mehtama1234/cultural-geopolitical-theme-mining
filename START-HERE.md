@@ -1,12 +1,20 @@
 # Start here
 
+**Crash-recovery first:** the project is a broad 14-theme program about US
+societal, cultural, consumer, financial, political, institutional, firm,
+infrastructure, and geopolitical change. It is not a one-household study.
+Open the [end-to-end recovery brief](END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md),
+the [full broad-program reader map](site/us-broad-program-map.html), and the
+[current big-picture synthesis](analysis/us-big-picture-synthesis.md) before
+choosing a dataset.
+
 Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`, then validate them with `python3 scripts/validate_us_theme_atlas.py`.
 
 The [US source coverage index](site/us-source-coverage.html) shows the current project packets, recorded sources and open gaps. Rebuild it with `python3 scripts/build_us_source_coverage.py`.
 
 The [US evidence and map audit](site/us-evidence-audit.html) shows which topics have a specific evidence check, how many semantic links and reading paths reach each topic, and where the record is still opening-only.
 
-The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five themes together and shows which links are supported, which are comparisons, and which still need a stronger test.
+The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five reader umbrellas together, while the [full broad-program map](site/us-broad-program-map.html) covers the complete 14-theme scope. Together they show which links are supported, which are comparisons, and which still need a stronger test.
 
 The [matched-evidence index](site/us-matched-evidence.html) collects the deeper checks completed after the opening source packets and shows the open link in each one.
 
@@ -28,7 +36,7 @@ What forces are changing how people in the United States live, spend, work, borr
 
 Do not begin with a grand theory. Begin with a narrow question that can be checked.
 
-The center of gravity is US customer, consumer, societal, financial, and political life. HBS, NBER, and international sources help us find and test the mechanisms; they do not automatically make the project global in scope.
+The center of gravity is US societal, cultural, consumer, financial, political, institutional, firm, infrastructure, and geopolitical life. HBS, NBER, public records, surveys, company evidence, and international sources help us find and test the mechanisms; they do not automatically make the project global in scope.
 
 Examples:
 
