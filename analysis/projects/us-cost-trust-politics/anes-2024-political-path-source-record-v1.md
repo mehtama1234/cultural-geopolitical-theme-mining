@@ -70,6 +70,16 @@ in this environment, so no microdata were silently substituted from a mirror.
 The failed shell response is an acquisition limitation, not evidence that the
 file is unavailable.
 
+The exact official CSV endpoint tested was
+`https://electionstudies.org/anes_mergedfile_2016-2020-2024panel_csv_20260519/`.
+With and without a normal browser user-agent, the response was an HTML document
+of roughly 5.5 KB rather than a ZIP archive. The official page's browser
+representation identifies the CSV and the [repeated-variable download](https://electionstudies.org/repeated_variables_2016_20_24/),
+but automated fetches of both compressed files are rejected by the site's
+challenge layer. A future retrieval should use an interactive browser session
+or a publisher-approved route, then archive the file checksum, release date,
+repeated-variable list, and codebook together.
+
 The current codebook was checked directly for the candidate variables above.
 It confirms, among other things, that `V241539` is a five-category financial
 worry item, `V241291` is the three-category national-economy judgment, and
