@@ -63,8 +63,11 @@ vacancy, rent, crowding, and language-access measures. The next step is a
 larger conditioned place panel with travel, wages, permits, provider adequacy,
 and direct local meaning/action measures. The new [immigration belonging,
 attitude, and action source pass](projects/us-immigration-local-demand/immigration-belonging-attitude-action-source-pass-v1.md)
-separates those respondent-level measures from place context; its next gate is
-ANES variable extraction and a documented geography crosswalk.
+separates those respondent-level measures from place context. A first
+weighted SDA cross-tab result now exists in the [immigration attitude/action
+layer](projects/us-immigration-local-demand/immigration-attitude-action-sda-cross-tabs-v1.md);
+the remaining place step is a valid geography/timing join, not more national
+attitude tables.
 
 The immediate PSID gate is now concrete: obtain the 2019, 2021, and 2023 main
 files, verify the mapped fields and their universes across waves, measure

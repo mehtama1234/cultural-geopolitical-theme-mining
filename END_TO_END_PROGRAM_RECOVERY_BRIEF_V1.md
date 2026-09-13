@@ -132,6 +132,7 @@ cross-theme layers:
 
 - [migration, belonging, and political meaning layer](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md): preserves the cultural-political end of the migration chain by measuring fairness, attribution, trust, identity, belonging, and action directly rather than inferring them from place statistics.
 - [immigration belonging, attitude, and action source pass](analysis/projects/us-immigration-local-demand/immigration-belonging-attitude-action-source-pass-v1.md): records the direct Pew and ANES respondent-level sources needed to connect material place context to perceived effects, attribution, legitimacy, policy preference, and action without treating county indicators as opinions.
+- [ANES immigration attitude, institutional meaning, and action cross-tabs](analysis/projects/us-immigration-local-demand/immigration-attitude-action-sda-cross-tabs-v1.md): adds weighted complex-design respondent comparisons across desired immigration levels, economic meaning, job competition, citizenship pathway, federal trust, and reported presidential vote.
 
 - [credit, liquidity, financial records, and institutional power](analysis/projects/us-financial-intermediation/credit-liquidity-records-power-layer-v1.md): how payment systems and financial records turn short shortages into unequal future options, terms, and exit.
 

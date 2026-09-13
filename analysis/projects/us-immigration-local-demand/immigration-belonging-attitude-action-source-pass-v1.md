@@ -99,6 +99,9 @@ challenge. Until the file is acquired or the same table is reproduced through
 the official SDA interface, this remains a verified variable specification,
 not an empirical immigration-attitude result.
 
+The first weighted SDA result is now recorded in the [ANES immigration
+attitude, institutional meaning, and action cross-tabs](immigration-attitude-action-sda-cross-tabs-v1.md).
+
 ## Counterexamples required
 
 Keep at least four kinds of counterexample in the comparison:
