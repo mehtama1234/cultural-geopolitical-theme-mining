@@ -1,0 +1,39 @@
+{
+  "evidence_class": "simulated_test_data",
+  "schema": "us-broad-event-ledger-schema-v1",
+  "events": [
+    {
+      "event_id": "SIM-E-001",
+      "unit": "consumer",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-01-15",
+      "condition_or_decision": "service_failure",
+      "exposure": "A fictional customer cannot obtain a replacement through the first support channel.",
+      "alternatives_before_action": "A second channel exists but requires additional time.",
+      "immediate_burden_or_benefit": "reported time and repeat-contact burden",
+      "choice_or_response": "complaint",
+      "person_or_actor_with_control": "firm",
+      "remedy_or_institutional_response": "pending",
+      "immediate_outcome": "unresolved in the simulated record",
+      "cost_risk_transfer": "customer carries effort until remedy or abandonment",
+      "later_outcome": "unknown",
+      "meaning_and_attribution": "not measured in simulated data",
+      "public_or_collective_response": "none recorded",
+      "evidence_status": "simulated_test_data",
+      "source_and_uncertainty": "fictional fixture for schema validation only"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "SIM-A-001",
+      "from": "service failure",
+      "to": "repeat effort",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "fixture declaration",
+      "status": "simulated_test_data",
+      "counterexample": "not included in fixture",
+      "remaining_gap": "real case and remedy outcome"
+    }
+  ]
+}

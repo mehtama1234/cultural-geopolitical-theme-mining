@@ -5,6 +5,10 @@ consumer, household, worker, care, housing, public-program, firm, place, or
 infrastructure event. This template does not require every study to contain
 every unit. It prevents a narrative from silently jumping between levels.
 
+The machine-readable design is [the broad event-ledger schema](../../manifests/us-broad-event-ledger-schema-v1.json).
+Its [simulated fixture](../samples/US-BROAD-EVENT-LEDGER-SIMULATED_V1.json)
+is only a validation aid, never research evidence.
+
 ## Design rule
 
 Use one row or record per dated event, decision, case, or project milestone.

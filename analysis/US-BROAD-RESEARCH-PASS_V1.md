@@ -63,6 +63,10 @@ keeping unit changes and arrow-level evidence visible. The safety-net and
 household-calendar ledgers remain specialized versions rather than definitions
 of the whole program.
 
+The schema and simulated fixture are checked by
+`scripts/validate_us_broad_event_ledger_fixture.py`; the fixture is explicitly
+marked as test data and must never be cited as a finding.
+
 ## Governing question
 
 When a US condition, price, rule, technology, or institutional decision changes people’s available choices, how does that change travel through consumer behavior, household security, culture, firm strategy, institutional response, and political judgment—and where does power or risk move?

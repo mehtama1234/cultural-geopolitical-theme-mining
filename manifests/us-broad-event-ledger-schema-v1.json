@@ -1,0 +1,39 @@
+{
+  "format": "us-broad-event-ledger-schema-v1",
+  "purpose": "Cross-theme recording of dated events from condition or decision through response, distribution, meaning, and later outcome",
+  "status": "research-design",
+  "valid_units": ["person", "household", "consumer", "worker", "case", "product", "firm", "place", "institution", "project", "sector", "country"],
+  "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "disputed", "simulated_test_data"],
+  "privacy": {
+    "direct_identifiers": false,
+    "pseudonymous_ids": true,
+    "consent_required_for_person_linkage": true,
+    "location_precision": "coarse_place_or_coarser",
+    "health_and_political_fields_optional": true
+  },
+  "required_event_fields": [
+    "event_id",
+    "unit",
+    "actor_initiating_change",
+    "event_date",
+    "condition_or_decision",
+    "exposure",
+    "alternatives_before_action",
+    "immediate_burden_or_benefit",
+    "choice_or_response",
+    "person_or_actor_with_control",
+    "remedy_or_institutional_response",
+    "immediate_outcome",
+    "cost_risk_transfer",
+    "later_outcome",
+    "meaning_and_attribution",
+    "public_or_collective_response",
+    "evidence_status",
+    "source_and_uncertainty"
+  ],
+  "arrow_fields": ["arrow_id", "from", "to", "unit_held_constant", "time_order_valid", "evidence", "status", "counterexample", "remaining_gap"],
+  "controlled_values": {
+    "actor_initiating_change": ["household", "consumer", "worker", "family", "firm", "employer", "platform", "insurer", "lender", "utility", "agency", "court", "local_government", "state", "foreign_actor", "unknown"],
+    "condition_or_decision": ["price", "fee", "payment", "income", "job_rule", "care_need", "health_event", "benefit_rule", "service_failure", "housing", "energy", "transport", "technology", "firm_strategy", "infrastructure", "policy", "trade", "other"]
+  }
+}
