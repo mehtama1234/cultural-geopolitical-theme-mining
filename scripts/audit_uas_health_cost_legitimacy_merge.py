@@ -114,12 +114,17 @@ def main() -> int:
     names = list(id_sets)
     for index, left in enumerate(names):
         for right in names[index + 1 :]:
+            left_count = len(id_sets[left])
+            right_count = len(id_sets[right])
+            intersection = len(id_sets[left] & id_sets[right])
             overlap[f"{left}__{right}"] = {
-                "left_unique_persons": len(id_sets[left]),
-                "right_unique_persons": len(id_sets[right]),
-                "intersection_unique_persons": len(id_sets[left] & id_sets[right]),
-                "left_only_unique_persons": len(id_sets[left] - id_sets[right]),
-                "right_only_unique_persons": len(id_sets[right] - id_sets[left]),
+                "left_unique_persons": left_count,
+                "right_unique_persons": right_count,
+                "intersection_unique_persons": intersection,
+                "intersection_share_of_left": intersection / left_count if left_count else None,
+                "intersection_share_of_right": intersection / right_count if right_count else None,
+                "left_only_unique_persons": left_count - intersection,
+                "right_only_unique_persons": right_count - intersection,
             }
     output = {
         "schema": "uas-health-cost-legitimacy-merge-audit-v1",

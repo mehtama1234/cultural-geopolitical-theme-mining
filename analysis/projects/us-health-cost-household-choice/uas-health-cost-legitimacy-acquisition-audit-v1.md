@@ -181,6 +181,8 @@ so ordinary CSV/Stata numeric formatting differences do not create false
 non-overlap while leading-zero identifiers remain unchanged.
 It also records each file's distinct wave count and observed wave values, making
 temporal coverage inspectable before respondent overlap is interpreted.
+Pairwise overlap includes the retained share of each file's unique respondents,
+so module attrition is visible rather than hidden behind an intersection count.
 
 ## Promotion rule
 
