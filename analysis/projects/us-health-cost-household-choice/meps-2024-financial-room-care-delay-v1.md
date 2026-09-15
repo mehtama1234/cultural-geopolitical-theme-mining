@@ -62,6 +62,19 @@ shares were 28.48% and 14.77%. The uninsured cells are smaller, and neither
 contrast identifies plan generosity, severity, or a causal insurance effect;
 they show that coverage status does not exhaust practical room.
 
+The resource-conditioned output retains the five MEPS family income-to-poverty
+categories and repeats the confidence split within each category. This keeps
+low financial room visible among middle- and high-income respondents and avoids
+using poverty category as a substitute for liquid cash, deductible exposure,
+or a household affordability model.
+
+Among respondents not confident paying an unexpected expense, cost-related
+medical-care delay was 11.90% in the poor/negative category, 18.69% in the
+middle-income category, and 15.56% in the high-income category. The cells are
+not adjusted for age, health, insurance, or other composition, but they show
+why annual income-to-poverty status cannot stand in for liquid capacity or
+plan-specific exposure.
+
 That distinction matters in the extracted results. Cost-related medical-care
 delay was 4.57% with no medical debt, 13.70% with $0–$500, 19.31% with
 $2,001–$5,000, 14.53% with $5,001–$10,000, 24.26% with $10,001–$20,000, and

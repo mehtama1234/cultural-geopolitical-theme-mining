@@ -39,7 +39,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "POVCAT24", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
@@ -85,6 +85,16 @@ def main() -> int:
         output["coverage_by_confidence"][coverage_label] = {
             "not_confident": summarize(frame.loc[covered & frame["FWUNEXP42"].isin([1, 2])]),
             "confident": summarize(frame.loc[covered & frame["FWUNEXP42"].isin([3, 4])]),
+        }
+    resources = {1: "poor_or_negative", 2: "near_poor", 3: "low_income", 4: "middle_income", 5: "high_income"}
+    output["resource_groups"] = {}
+    output["resource_by_confidence"] = {}
+    for code, label in resources.items():
+        resource_mask = frame["POVCAT24"].eq(code)
+        output["resource_groups"][label] = summarize(frame.loc[resource_mask])
+        output["resource_by_confidence"][label] = {
+            "not_confident": summarize(frame.loc[resource_mask & frame["FWUNEXP42"].isin([1, 2])]),
+            "confident": summarize(frame.loc[resource_mask & frame["FWUNEXP42"].isin([3, 4])]),
         }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")

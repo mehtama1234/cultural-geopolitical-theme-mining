@@ -199,5 +199,124 @@
     }
   },
   "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",
+  "resource_by_confidence": {
+    "high_income": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 1.4244390748688247,
+        "could_not_afford_prescription_percent": 1.1807393312714627,
+        "delayed_medical_care_for_cost_percent": 4.0437138764791385,
+        "delayed_prescription_for_cost_percent": 1.8833346744845607,
+        "records": 7315
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 10.887065728310683,
+        "could_not_afford_prescription_percent": 7.43672847322102,
+        "delayed_medical_care_for_cost_percent": 15.558542577043886,
+        "delayed_prescription_for_cost_percent": 7.3103123657823605,
+        "records": 268
+      }
+    },
+    "low_income": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 3.8084820246761173,
+        "could_not_afford_prescription_percent": 2.4492084863181103,
+        "delayed_medical_care_for_cost_percent": 6.155090162764002,
+        "delayed_prescription_for_cost_percent": 3.305635996761242,
+        "records": 1609
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 8.469990447877427,
+        "could_not_afford_prescription_percent": 7.243131986788642,
+        "delayed_medical_care_for_cost_percent": 11.326426705201646,
+        "delayed_prescription_for_cost_percent": 6.891511081748939,
+        "records": 645
+      }
+    },
+    "middle_income": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 3.242150686575261,
+        "could_not_afford_prescription_percent": 2.281272671271205,
+        "delayed_medical_care_for_cost_percent": 6.986372811207504,
+        "delayed_prescription_for_cost_percent": 2.895922847552821,
+        "records": 4285
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 12.091442447968312,
+        "could_not_afford_prescription_percent": 9.45766978331712,
+        "delayed_medical_care_for_cost_percent": 18.690807243760986,
+        "delayed_prescription_for_cost_percent": 10.154886145743188,
+        "records": 681
+      }
+    },
+    "near_poor": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 4.469661067961804,
+        "could_not_afford_prescription_percent": 2.987919922332248,
+        "delayed_medical_care_for_cost_percent": 8.086538479260343,
+        "delayed_prescription_for_cost_percent": 4.447235751883985,
+        "records": 519
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 10.219842452994104,
+        "could_not_afford_prescription_percent": 4.681010216299589,
+        "delayed_medical_care_for_cost_percent": 12.232072309958777,
+        "delayed_prescription_for_cost_percent": 4.413210945004082,
+        "records": 250
+      }
+    },
+    "poor_or_negative": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 2.4381321939300693,
+        "could_not_afford_prescription_percent": 1.941637381221512,
+        "delayed_medical_care_for_cost_percent": 6.086941083689901,
+        "delayed_prescription_for_cost_percent": 2.3200980060805385,
+        "records": 1780
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 10.802037721400824,
+        "could_not_afford_prescription_percent": 10.037176637675232,
+        "delayed_medical_care_for_cost_percent": 11.901314269629673,
+        "delayed_prescription_for_cost_percent": 9.705655893013201,
+        "records": 1099
+      }
+    }
+  },
+  "resource_groups": {
+    "high_income": {
+      "could_not_afford_medical_care_percent": 1.7862724519804645,
+      "could_not_afford_prescription_percent": 1.4089362481078966,
+      "delayed_medical_care_for_cost_percent": 4.465319661370269,
+      "delayed_prescription_for_cost_percent": 2.0726429904618255,
+      "records": 7647
+    },
+    "low_income": {
+      "could_not_afford_medical_care_percent": 5.120141317390046,
+      "could_not_afford_prescription_percent": 3.766202262377283,
+      "delayed_medical_care_for_cost_percent": 7.547944999565938,
+      "delayed_prescription_for_cost_percent": 4.275464568478271,
+      "records": 2293
+    },
+    "middle_income": {
+      "could_not_afford_medical_care_percent": 4.397426318132334,
+      "could_not_afford_prescription_percent": 3.2137518964924525,
+      "delayed_medical_care_for_cost_percent": 8.50701506820879,
+      "delayed_prescription_for_cost_percent": 3.8341859532615317,
+      "records": 5004
+    },
+    "near_poor": {
+      "could_not_afford_medical_care_percent": 6.045088905903421,
+      "could_not_afford_prescription_percent": 3.3736047305486183,
+      "delayed_medical_care_for_cost_percent": 8.99485000940661,
+      "delayed_prescription_for_cost_percent": 4.228698750568086,
+      "records": 799
+    },
+    "poor_or_negative": {
+      "could_not_afford_medical_care_percent": 5.1677895601795685,
+      "could_not_afford_prescription_percent": 4.63024747426429,
+      "delayed_medical_care_for_cost_percent": 7.857384211228283,
+      "delayed_prescription_for_cost_percent": 4.7662766728149375,
+      "records": 2940
+    }
+  },
   "schema": "us-meps-2024-financial-room-care-delay-v1"
 }
