@@ -122,6 +122,14 @@ and 59.6% versus 92.9% at $250,000 or more. The last extreme-concern cell has
 only six unweighted cases, and several low-income cells are also small. This
 is a precision warning and a design input, not a reliable income gradient.
 
+Party identity was also applied to the post-election policy endpoint, with
+4,633 valid cases. Support for increased government help among the least
+versus most concerned was 84.6% versus 71.2% for strong Democrats, 30.7%
+versus 50.0% for strong Republicans, and 49.0% versus 55.4% for independents.
+The direction differs by identity, and several extreme-concern cells are
+small. This is evidence that party identity structures policy translation;
+it is not evidence that health-cost concern caused the policy preference.
+
 ## Interpretation and limits
 
 These tables establish a directly measured same-survey bridge from health-care
@@ -148,5 +156,6 @@ health-cost-to-legitimacy chain.
 - [Health-condition-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241574a&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 - [Income-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 - [Income-conditioned policy-demand query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b)
+- [Party-conditioned policy-demand query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b)
 
-**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`; condition-conditioned trust query HTML `sha256:b4e6a92dde5d17752d7a01b54cf3b50607a26255e27a7c95cc7c8113f46d500f`; income-conditioned trust query HTML `sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11`; condition-conditioned policy query HTML `sha256:618d6b7ae7671e05300a822ed42250b704b29831f4849ce9bd65bd49a5a29c9c`; income-conditioned policy query HTML `sha256:804896f1506a9ae6b75bfeac1463d719892f1b846d79591efc2a86a64745c804`.
+**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`; condition-conditioned trust query HTML `sha256:b4e6a92dde5d17752d7a01b54cf3b50607a26255e27a7c95cc7c8113f46d500f`; income-conditioned trust query HTML `sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11`; condition-conditioned policy query HTML `sha256:618d6b7ae7671e05300a822ed42250b704b29831f4849ce9bd65bd49a5a29c9c`; income-conditioned policy query HTML `sha256:804896f1506a9ae6b75bfeac1463d719892f1b846d79591efc2a86a64745c804`; party-conditioned policy query HTML `sha256:d8079f90258a273d4fe8c7bcb053a660fb2ab80470598eb1c2278cabfaa58b3b`.

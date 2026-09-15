@@ -102,6 +102,18 @@
       "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
       "retrieval_hash": "sha256:804896f1506a9ae6b75bfeac1463d719892f1b846d79591efc2a86a64745c804",
       "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; health-care payment concern × health-insurance help, controlled by party identification",
+      "denominator": {"value": 4633, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"strong_democrat_not_at_all_increase_help": {"value": 84.6, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_democrat_extremely_increase_help": {"value": 71.2, "unit": "percent within party and concern row", "value_type": "row_share"}, "independent_not_at_all_increase_help": {"value": 49.0, "unit": "percent within party and concern row", "value_type": "row_share"}, "independent_extremely_increase_help": {"value": 55.4, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_republican_not_at_all_increase_help": {"value": 30.7, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_republican_extremely_increase_help": {"value": 50.0, "unit": "percent within party and concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage controlled cross-tab; row V241573, column V242351, control V241227x, post-election panel weight V240107b, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Temporal descriptive association; several extreme-concern party cells are small and imprecise. Party identity is conditioned, not randomized, and policy preference is not remedy receipt or direct action.",
+      "subgroup": "Health-cost-concern rows within seven pre-election party-identification groups; selected strong Democrat, independent, and strong Republican contrasts reported.",
+      "counterinterpretation": "The direction differs by party identity, demonstrating that political translation is identity-structured rather than a universal health-cost response; ideology, prior policy views, and health/coverage composition remain alternative explanations.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
+      "retrieval_hash": "sha256:d8079f90258a273d4fe8c7bcb053a660fb2ab80470598eb1c2278cabfaa58b3b",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
