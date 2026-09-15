@@ -9,7 +9,7 @@ that users must register and accept the Conditions of Use before downloading
 public-use data; an automated workspace probe was redirected to that warning
 and did not obtain a package.
 
-Retrieval: 2026-09-14. The official documents were inspected through their
+Retrieval: 2026-09-15. The official documents were inspected through their
 indexed PDF text. This note records documentation claims and codebook fields;
 it is not a data extract or an estimate.
 
@@ -51,7 +51,14 @@ waves, with wave-specific identifiers:
 |---|---|---|---|
 | Typical-week paid work | ER72408, BC60A | ER78447, BC60A | ER82434, BC60A |
 | Reference Person housework | ER72718, F1A | ER78795, F1A | ER82788, F1A |
+| Reference Person personal care | ER72720, F1B | ER78797, F1B | ER82790, F1B |
 | Outside-work time pressure | ER72730, F1K | ER78807, F1K | ER82800, F1K |
+
+The 2026-09-15 codebook recheck confirms that the housework and personal-care
+fields retain the same Reference Person F1A/F1B concepts and describe typical
+weekly hours in all three waves. This is a label-and-wording confirmation
+only. It does not establish equal routing, response-code treatment, valid
+denominators, imputation handling, or retained three-wave panel overlap.
 
 The codebooks show different family-file bases in their displayed distributions:
 9,569 in 2019, 9,207 in 2021, and 9,152 in 2023. These are documentation

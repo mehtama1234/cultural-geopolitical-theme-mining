@@ -1,6 +1,6 @@
 {
   "format": "us-psid-material-time-care-field-map-v1",
-  "checked": "2026-09-13",
+  "checked": "2026-09-15",
   "source": "PSID 2019, 2021, and 2023 Family File codebooks and questionnaires",
   "target_waves": [2019, 2021, 2023],
   "status": "pre_acquisition",
@@ -9,7 +9,20 @@
     "2021_codebook": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2021ER_codebook.pdf",
     "2023_codebook": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2023ER_codebook.pdf"
   },
-  "evidence_boundary": "Listed field names are verified in the relevant wave codebooks. Cross-wave comparability, universes, weights, missing-value codes, and actual source rows remain to be audited.",
+  "evidence_boundary": "Listed field names are verified in the relevant wave codebooks. A 2026-09-15 recheck confirms repeated F1A/F1B labels and wording for Reference Person housework and personal care in all three codebooks; cross-wave comparability, universes, weights, missing-value codes, and actual source rows remain to be audited.",
+  "codebook_recheck_2026_09_15": {
+    "scope": "label_and_question_wording_only",
+    "fields": {
+      "reference_person_housework": {"2019": "ER72718", "2021": "ER78795", "2023": "ER82788"},
+      "reference_person_personal_care": {"2019": "ER72720", "2021": "ER78797", "2023": "ER82790"}
+    },
+    "finding": "All six fields retain the F1A/F1B Reference Person typical-week concepts and the codebooks describe hours per week; this does not establish equal routing, response-code treatment, valid denominators, or retained panel overlap.",
+    "source_urls": [
+      "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2019ER_codebook.pdf",
+      "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2021ER_codebook.pdf",
+      "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2023ER_codebook.pdf"
+    ]
+  },
   "fields": [
     {
       "domain": "paid_work",
