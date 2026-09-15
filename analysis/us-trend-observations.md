@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-233 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+234 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -489,6 +489,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Randomized medical-debt relief improves selected credit access but does not automatically repair health, care use, or financial wellness | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | Participants in two randomized medical-debt relief experiments | United States | 4 | 2018 to 2020; two randomized medical-debt relief experiments; Credit-reporting subexperiment; 2018 to 2020; Hospital debt experiment; 2018 to 2020 follow-up; Hospital debt experiment survey follow-up; 2018 to 2020 | estimated | [open](records/us-medical-debt-relief-randomized-response-2018-2020.json) |
 
 **Boundary:** Randomized debt relief estimates selected downstream institutional outcomes; it does not complete the same-person chain from health need or skipped care to household adaptation, remedy, recovery, trust, or political action.
+
+| Randomized medical-debt relief changes credit access without average health, care-use, or financial-wellness repair | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | Participants in two randomized medical-debt relief experiments | United States | 4 | 2018 to 2020; randomized medical-debt relief scale; Credit-reporting subexperiment; 2018 to 2020; Hospital-debt experiment; follow-up; Hospital-debt experiment survey follow-up | estimated; reported | [open](records/us-medical-debt-relief-rct-outcome-separation-2018-2020.json) |
+
+**Boundary:** This randomized remedy evidence begins with downstream medical debt and does not complete the chain from health need or care choice to household adaptation, trust, political action, or legitimacy.
 
 | Observed event payment is not a monotonic measure of annual medical-bill problems | cost, time | household_room_consumption, care_health_reproduction, unequal_exposure_status | 2024 MEPS event records linked to HC-256 annual person context | United States | 4 | Calendar year 2024; office-visit events; Calendar year 2024; emergency-room events; Calendar year 2024; inpatient-stay events; Calendar year 2024; prescription-purchase events | compared | [open](records/us-meps-2024-event-payment-bill-context.json) |
 

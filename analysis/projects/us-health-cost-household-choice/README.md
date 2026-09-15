@@ -90,6 +90,10 @@ modest credit-access effects in the reporting subexperiment, but no detected
 average health, care-utilization, or financial-wellness effects, keeping credit
 repair separate from health and household recovery.
 
+The companion [RCT outcome-separation layer](medical-debt-relief-rct-outcome-separation-v1.md)
+preserves the causal estimates and repayment counter-result directly from the
+study rather than treating “relief” as one undifferentiated success measure.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional

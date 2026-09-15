@@ -36,9 +36,9 @@ or proof that every source item was read in full.
 | [SSRN research paper repository](https://papers.ssrn.com/) | public working-paper and preprint access for emerging social-science evidence | 2 | 10 | 8 | 2 | evidence-bearing; machine-record URL |
 | [arXiv research preprints](https://arxiv.org/) | open preprint access and versioned paper text for emerging research | 0 | 12 | 6 | 7 | evidence-bearing; machine-record URL |
 | [Zenodo research data archive](https://zenodo.org/) | versioned open research data and code archives | 0 | 5 | 4 | 1 | evidence-bearing; machine-record URL |
-| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 778 | 188 | 44 | evidence-bearing; machine-record URL |
-| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 778 | 188 | 0 | evidence-bearing |
-| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 778 | 188 | 0 | evidence-bearing |
+| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 782 | 190 | 46 | evidence-bearing; machine-record URL |
+| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 782 | 190 | 0 | evidence-bearing |
+| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 782 | 190 | 0 | evidence-bearing |
 | [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 5 | 4 | 2 | evidence-bearing; machine-record URL |
 | [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 43 | 12 | 3 | evidence-bearing; machine-record URL |
 | [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 2 | 2 | 0 | evidence-bearing |
@@ -76,7 +76,7 @@ or proof that every source item was read in full.
 | [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 20 | 251 | 78 | 63 | evidence-bearing; machine-record URL |
 | [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 17 | 439 | 166 | 0 | evidence-bearing |
 | [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 204 | 66 | 3 | evidence-bearing; machine-record URL |
-| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 778 | 188 | 44 | evidence-bearing; machine-record URL |
+| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 782 | 190 | 46 | evidence-bearing; machine-record URL |
 | [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 11 | 5 | 0 | evidence-bearing |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 2 | 2 | 0 | evidence-bearing |
 | [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 20 | 251 | 78 | 20 | evidence-bearing; machine-record URL |
@@ -167,6 +167,7 @@ family that will be acquired, compared, or maintained over time.
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `cage.report` | 6 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-079.md` |
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
+| `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
@@ -178,7 +179,6 @@ family that will be acquired, compared, or maintained over time.
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
 | `support.leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
-| `academic.oup.com` | 3 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md`; `analysis/records/us-medical-debt-relief-randomized-response-2018-2020.json` |
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
@@ -205,6 +205,7 @@ without a recurring acquisition need and source-specific metadata.
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `cage.report` | delivery/lookup host | Do not register; use official DLA CAGE records as the authoritative identity source. |
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
+| `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
@@ -216,7 +217,6 @@ without a recurring acquisition need and source-specific metadata.
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |
 | `support.leapeasy.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
-| `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
