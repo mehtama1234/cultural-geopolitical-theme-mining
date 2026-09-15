@@ -70,6 +70,11 @@ The [coverage-conditioned MEPS comparison](meps-2024-event-context-by-coverage-v
 tests whether the acute-event pattern persists within private, public-only,
 and uninsured under-65 groups, retaining small-cell and selection limits.
 
+The [month-ordered MEPS follow-up screen](meps-2024-month-ordered-event-followup-v1.md)
+uses each person’s first event month relative to the R4/2 endpoint and reports
+the resulting health, employment, and bill-problem associations as bounded
+temporal context.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
