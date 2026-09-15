@@ -1,6 +1,6 @@
 # Tenure and resources jointly shape household pressure, but neither is the whole story
 
-**Status:** provisional Fay-BRR SIPP distributional finding · **Checked:** 2026-09-14
+**Status:** official-universe Fay-BRR SIPP distributional finding · **Checked:** 2026-09-15
 
 ## The bounded finding
 
@@ -15,9 +15,9 @@ renters at four times the poverty line or more.
 | Tenure × monthly resource band | Rent/mortgage difficulty | Utility-payment difficulty | Hungry but did not eat because of money |
 |---|---:|---:|---:|
 | Owned/bought · below 1.00× | 7.02% (SE 1.21) | 13.69% (1.64) | 30.54% (4.35) |
-| Rented · below 1.00× | 16.29% (1.71) | 18.11% (1.77) | 33.95% (3.15) |
+| Rented · below 1.00× | 16.30% (1.70) | 18.06% (1.77) | 34.00% (3.15) |
 | Owned/bought · 4.00× or more | 1.28% (0.20) | 2.10% (0.28) | 15.65% (2.54) |
-| Rented · 4.00× or more | 4.24% (0.69) | 5.31% (0.76) | 27.15% (4.45) |
+| Rented · 4.00× or more | 4.20% (0.69) | 5.31% (0.76) | 26.86% (4.41) |
 
 The table is more informative than either a tenure-only or income-only
 comparison because it shows that “higher resources” do not erase the exposure
@@ -32,9 +32,8 @@ one: the housing and utility gaps are different from the food-hardship gap.
   estimates here.
 - **Weight and uncertainty:** `WPFINWGT` with `REPWGT1`–`REPWGT240`, Fay BRR,
   240 replicates, perturbation factor 0.5.
-- **Denominator:** positive-weight selected records with a nonblank response
-  for each outcome; this is not a replacement for each field’s full official
-  universe and status-code rules.
+- **Denominator:** positive-weight selected records within each outcome’s
+  documented official universe and status-code rules.
 - **Audit:** 379,215 primary rows were read; 378,291 positive-weight rows
   matched to replicate weights, with no unmatched positive-weight rows.
 
@@ -92,6 +91,7 @@ not inferred from hardship alone.
 ## Reproduction and related records
 
 - [Fay-BRR tenure × resource estimates](../sipp-fay-brr-tenure-resource-estimates-v1.md)
+- [Official-universe reproduction audit](../sipp-tenure-resource-official-reproduction-audit-2026-09-15.json)
 - [SIPP tenure × resource two-way layer](../sipp-tenure-resource-two-way-layer-v1.md)
 - [2025 SIPP public-use data](https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html)
 - [SIPP replicate-weight archive](https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip)
