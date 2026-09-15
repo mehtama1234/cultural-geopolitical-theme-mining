@@ -68,7 +68,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["ESAQWT24F", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42", "EQPAYB53", *ADAPTATION_FIELDS.values()]
+    fields = ["ESAQWT24F", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42", "EQDENY53", "EQPAYB53", *ADAPTATION_FIELDS.values()]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     for key, field in ADAPTATION_FIELDS.items():
         frame[key] = frame[field].eq(1).astype(float)
@@ -86,6 +86,12 @@ def main() -> int:
     output["groups"]["medical_care_not_delayed_for_cost"] = profile(frame.loc[frame["DELAYED_MEDICAL_CARE"].eq(0)])
     output["groups"]["could_not_afford_medical_care"] = profile(frame.loc[frame["COULD_NOT_AFFORD_MEDICAL_CARE"].eq(1)])
     output["groups"]["medical_care_affordability_not_reported"] = profile(frame.loc[frame["COULD_NOT_AFFORD_MEDICAL_CARE"].eq(0)])
+    output["institutional_groups"] = {
+        "insurance_denied_or_prior_authorization_delayed": profile(frame.loc[frame["EQDENY53"].eq(1)]),
+        "insurance_not_denied_or_delayed": profile(frame.loc[frame["EQDENY53"].eq(2)]),
+        "never_insured_past_year": profile(frame.loc[frame["EQDENY53"].eq(3)]),
+        "not_applicable_or_no_services": profile(frame.loc[frame["EQDENY53"].eq(4)]),
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, indent=2, sort_keys=True))

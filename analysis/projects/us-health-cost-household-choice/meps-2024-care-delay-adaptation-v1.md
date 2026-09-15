@@ -49,6 +49,20 @@ adapting, or experienced both because of an unmeasured health or income shock.
 The output therefore supports comparison and acquisition design, not a causal
 mediation claim.
 
+The same ESAQ profile now retains the denial/prior-authorization categories,
+allowing institutional friction to be compared with payment strategy, spending
+and savings sacrifice, work/leave constraints, and family-care substitution.
+The denial field still has no claim identifier, decision date, appeal, or
+resolution, so this is an institutional-friction association rather than a
+remedy result.
+
+Among respondents reporting an insurance denial or prior-authorization delay,
+sacrificed savings was 24.50%, sacrificed basic spending 26.09%, and working
+when health needed time off 31.23%. Among those reporting no denial or delay,
+the corresponding shares were 7.63%, 9.51%, and 12.56%. This is an
+institutional-friction-to-adaptation comparison; it does not show that the
+denial produced the sacrifice or that an appeal would have reversed it.
+
 ```text
 cost-related care delay
   -> payment strategy, sacrifice, work/leave, and family-care context

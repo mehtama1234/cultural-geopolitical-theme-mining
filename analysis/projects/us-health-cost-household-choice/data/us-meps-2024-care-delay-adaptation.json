@@ -149,6 +149,156 @@
       }
     }
   },
+  "institutional_groups": {
+    "insurance_denied_or_prior_authorization_delayed": {
+      "payment_strategy_500_bill": {
+        "1": 279,
+        "2": 133,
+        "3": 226,
+        "4": 179,
+        "5": 26,
+        "6": 404,
+        "7": 266,
+        "8": 49
+      },
+      "payment_strategy_500_bill_weighted_percent": {
+        "1": 16.60278187236715,
+        "2": 10.472486852747458,
+        "3": 13.96392655314494,
+        "4": 12.654133565497046,
+        "5": 2.0935012831897835,
+        "6": 24.875251815949532,
+        "7": 14.412598181389319,
+        "8": 3.860875372789676
+      },
+      "records": 1577,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 8.646860618850148,
+        "could_not_afford_income_loss": 13.933212025176017,
+        "feared_job_consequence": 11.083494155007518,
+        "leave_denied": 1.6549809140160872,
+        "no_paid_or_unpaid_leave": 6.932544654028532,
+        "not_enough_leave": 5.2508268759625265,
+        "sacrificed_basic_spending": 26.08696115033361,
+        "sacrificed_big_purchase": 25.87743466204498,
+        "sacrificed_leisure": 34.72435605039704,
+        "sacrificed_living_situation": 9.022719594810498,
+        "sacrificed_savings": 24.49536836969679,
+        "worked_when_health_needed_time_off": 31.230942965848612
+      }
+    },
+    "insurance_not_denied_or_delayed": {
+      "payment_strategy_500_bill": {
+        "1": 2806,
+        "2": 806,
+        "3": 1283,
+        "4": 680,
+        "5": 117,
+        "6": 1807,
+        "7": 755,
+        "8": 311
+      },
+      "payment_strategy_500_bill_weighted_percent": {
+        "1": 31.85265609593503,
+        "2": 11.32385749075798,
+        "3": 14.45903157006424,
+        "4": 8.528450889271603,
+        "5": 1.6420335979129175,
+        "6": 20.7469791515777,
+        "7": 7.228662965868159,
+        "8": 3.772049583314764
+      },
+      "records": 8605,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 2.6168036530575636,
+        "could_not_afford_income_loss": 4.854030466651093,
+        "feared_job_consequence": 3.35077151314591,
+        "leave_denied": 0.4293681094715456,
+        "no_paid_or_unpaid_leave": 1.9550747958210806,
+        "not_enough_leave": 1.5639757337927898,
+        "sacrificed_basic_spending": 9.50592989112815,
+        "sacrificed_big_purchase": 9.544642956092508,
+        "sacrificed_leisure": 13.739471700848584,
+        "sacrificed_living_situation": 2.775557881388736,
+        "sacrificed_savings": 7.625815554404955,
+        "worked_when_health_needed_time_off": 12.556372472634306
+      }
+    },
+    "never_insured_past_year": {
+      "payment_strategy_500_bill": {
+        "1": 74,
+        "2": 14,
+        "3": 24,
+        "4": 31,
+        "5": 10,
+        "6": 190,
+        "7": 93,
+        "8": 27
+      },
+      "payment_strategy_500_bill_weighted_percent": {
+        "1": 17.263969971257676,
+        "2": 2.31000618077954,
+        "3": 4.8576582713607435,
+        "4": 7.315550702953823,
+        "5": 1.487755150553873,
+        "6": 41.104063720824776,
+        "7": 18.124186196901675,
+        "8": 7.333584556347156
+      },
+      "records": 464,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 1.740619459599736,
+        "could_not_afford_income_loss": 12.36801847698376,
+        "feared_job_consequence": 2.2328732889400804,
+        "leave_denied": 0.9013357557016559,
+        "no_paid_or_unpaid_leave": 3.82940619093197,
+        "not_enough_leave": 1.106733522210895,
+        "sacrificed_basic_spending": 13.096863498889928,
+        "sacrificed_big_purchase": 12.678793024637539,
+        "sacrificed_leisure": 13.927842295450032,
+        "sacrificed_living_situation": 2.452735287937643,
+        "sacrificed_savings": 7.737082070489033,
+        "worked_when_health_needed_time_off": 15.170253004055267
+      }
+    },
+    "not_applicable_or_no_services": {
+      "payment_strategy_500_bill": {
+        "1": 191,
+        "2": 44,
+        "3": 68,
+        "4": 59,
+        "5": 13,
+        "6": 147,
+        "7": 103,
+        "8": 53
+      },
+      "payment_strategy_500_bill_weighted_percent": {
+        "1": 31.334879721926733,
+        "2": 6.739615936696869,
+        "3": 11.493920637788761,
+        "4": 8.628633495431073,
+        "5": 1.9128183458503558,
+        "6": 18.685804927907498,
+        "7": 12.914616044167365,
+        "8": 7.829434172936792
+      },
+      "records": 685,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 2.7517388375493805,
+        "could_not_afford_income_loss": 6.925042742535221,
+        "feared_job_consequence": 3.7092521744440208,
+        "leave_denied": 0.5148791531234584,
+        "no_paid_or_unpaid_leave": 2.8952151854021855,
+        "not_enough_leave": 2.14905817590138,
+        "sacrificed_basic_spending": 10.700967833211774,
+        "sacrificed_big_purchase": 8.605680601366398,
+        "sacrificed_leisure": 10.462883566118425,
+        "sacrificed_living_situation": 2.3037888216777573,
+        "sacrificed_savings": 8.763942927094986,
+        "worked_when_health_needed_time_off": 13.99515103684698
+      }
+    }
+  },
   "limitation": "DLAY/AFRD fields are R4/2 and ESAQ fields are R5/3 or 2024 ESAQ measures; they are not a dated same-bill sequence. Associations do not establish whether delay caused adaptation or whether an institutional response repaired it.",
   "method": "Use ESAQWT24F and valid HC-256 round-level fields; compare cost-related care-delay groups with payment strategy, spending/saving sacrifices, work/leave constraints, and care-for-work substitution.",
   "schema": "us-meps-2024-care-delay-adaptation-v1"
