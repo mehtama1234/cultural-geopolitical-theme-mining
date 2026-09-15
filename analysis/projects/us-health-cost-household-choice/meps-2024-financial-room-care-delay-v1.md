@@ -62,6 +62,21 @@ shares were 28.48% and 14.77%. The uninsured cells are smaller, and neither
 contrast identifies plan generosity, severity, or a causal insurance effect;
 they show that coverage status does not exhaust practical room.
 
+The file also retains the institutional route field `EQDENY53`: whether health
+insurance denied or delayed prior approval, with separate “no denial,” “never
+insured,” and “not applicable/no services” categories. This permits a bounded
+comparison of institutional friction with care delay and household cascade;
+the field does not identify the claim, insurer, decision date, appeal, or
+resolution.
+
+Among respondents reporting an insurance denial or prior-authorization delay,
+cost-related medical-care delay was 15.18%, medical debt 24.68%, and
+debt-collector contact 20.26%. Among respondents reporting no denial or delay,
+the corresponding shares were 5.81%, 12.98%, and 9.77%. This is the first
+same-respondent institutional-friction comparison in this lane, but it does
+not establish whether the denial caused the care delay, identify the claim, or
+show whether an appeal repaired the problem.
+
 The resource-conditioned output retains the five MEPS family income-to-poverty
 categories and repeats the confidence split within each category. This keeps
 low financial room visible among middle- and high-income respondents and avoids

@@ -47,7 +47,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "FWCRED42", "FWDEBT42", "FWRENT42", "FWUTIL42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "RTHLTH42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "FWCRED42", "FWDEBT42", "FWRENT42", "FWUTIL42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "RTHLTH42", "EQDENY53", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
@@ -131,6 +131,12 @@ def main() -> int:
         "medical_care_not_delayed_for_cost": summarize(frame.loc[frame["DELAYED_MEDICAL_CARE"].eq(0)]),
         "prescription_delayed_for_cost": summarize(frame.loc[frame["DELAYED_PRESCRIPTION"].eq(1)]),
         "prescription_not_delayed_for_cost": summarize(frame.loc[frame["DELAYED_PRESCRIPTION"].eq(0)]),
+    }
+    output["institutional_groups"] = {
+        "insurance_denied_or_prior_authorization_delayed": summarize(frame.loc[frame["EQDENY53"].eq(1)]),
+        "insurance_not_denied_or_delayed": summarize(frame.loc[frame["EQDENY53"].eq(2)]),
+        "never_insured_past_year": summarize(frame.loc[frame["EQDENY53"].eq(3)]),
+        "not_applicable_or_no_services": summarize(frame.loc[frame["EQDENY53"].eq(4)]),
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")

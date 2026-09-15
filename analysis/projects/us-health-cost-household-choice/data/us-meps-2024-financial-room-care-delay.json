@@ -403,6 +403,68 @@
     "4": "very_confident"
   },
   "financial_room_measure": "FWUNEXP42: confidence paying an unexpected expense",
+  "institutional_groups": {
+    "insurance_denied_or_prior_authorization_delayed": {
+      "could_not_afford_medical_care_percent": 8.758074872219163,
+      "could_not_afford_prescription_percent": 9.400438665290048,
+      "debt_collector_contact_percent": 20.261041996332988,
+      "delayed_medical_care_for_cost_percent": 15.182918147893822,
+      "delayed_prescription_for_cost_percent": 10.783350288592416,
+      "fair_poor_health_percent": 23.65141480131925,
+      "late_or_unable_rent_percent": 11.690505053228359,
+      "medical_debt_any_percent": 24.675891249900967,
+      "missed_loan_or_credit_payment_percent": 14.629048863211217,
+      "not_employed_percent": 37.030386931384186,
+      "records": 1577,
+      "unable_utility_percent": 15.546455635419607,
+      "unexpected_expense_not_confident_percent": 18.125614936663624
+    },
+    "insurance_not_denied_or_delayed": {
+      "could_not_afford_medical_care_percent": 2.7570759255794575,
+      "could_not_afford_prescription_percent": 2.3744412171551073,
+      "debt_collector_contact_percent": 9.766989320129497,
+      "delayed_medical_care_for_cost_percent": 5.809669273164621,
+      "delayed_prescription_for_cost_percent": 2.932779202236184,
+      "fair_poor_health_percent": 11.053013035409295,
+      "late_or_unable_rent_percent": 5.471237857996815,
+      "medical_debt_any_percent": 12.978160006575138,
+      "missed_loan_or_credit_payment_percent": 7.743361842211742,
+      "not_employed_percent": 35.93155141977991,
+      "records": 8605,
+      "unable_utility_percent": 8.23343743703713,
+      "unexpected_expense_not_confident_percent": 10.792074064949052
+    },
+    "never_insured_past_year": {
+      "could_not_afford_medical_care_percent": 16.02587698374106,
+      "could_not_afford_prescription_percent": 5.763795297147435,
+      "debt_collector_contact_percent": 18.767270646018712,
+      "delayed_medical_care_for_cost_percent": 24.550740723374982,
+      "delayed_prescription_for_cost_percent": 8.710498611442151,
+      "fair_poor_health_percent": 14.710709517340382,
+      "late_or_unable_rent_percent": 12.708727699413588,
+      "medical_debt_any_percent": 16.16750054150693,
+      "missed_loan_or_credit_payment_percent": 11.823475014227263,
+      "not_employed_percent": 22.358266841713974,
+      "records": 464,
+      "unable_utility_percent": 16.32661914126605,
+      "unexpected_expense_not_confident_percent": 21.70062528836416
+    },
+    "not_applicable_or_no_services": {
+      "could_not_afford_medical_care_percent": 5.236424426461358,
+      "could_not_afford_prescription_percent": 2.867209882484386,
+      "debt_collector_contact_percent": 12.420684520275179,
+      "delayed_medical_care_for_cost_percent": 9.197260489446554,
+      "delayed_prescription_for_cost_percent": 3.24718968515466,
+      "fair_poor_health_percent": 8.658994049842265,
+      "late_or_unable_rent_percent": 9.311625711324908,
+      "medical_debt_any_percent": 11.299989976004204,
+      "missed_loan_or_credit_payment_percent": 10.697170999614821,
+      "not_employed_percent": 24.127815642647917,
+      "records": 685,
+      "unable_utility_percent": 12.931609618807293,
+      "unexpected_expense_not_confident_percent": 15.670955833029288
+    }
+  },
   "limitation": "Same-round associations do not identify event timing, causation, a specific bill, alternatives, care completion, or later recovery, trust, or action. Financial-room and care-access fields may refer to different needs.",
   "medical_debt_amount_groups": {
     "$0-$500": {
