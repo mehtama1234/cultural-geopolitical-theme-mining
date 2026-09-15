@@ -161,7 +161,7 @@ The public-record map is in [housing and insurance public records](projects/us-h
 
 The first direct market-data acquisition is recorded in the [Treasury FIO supporting-metrics audit](projects/us-housing-insurance-affordability/fio-supporting-metrics-audit-v1.md). It checks the ZIP-year workbook structure and preserves Treasury’s coverage and privacy limits.
 
-The next connected paper pass is [health costs and the choices people give up](projects/us-health-cost-household-choice/paper-scan-v1.md), with a [reader-facing HTML page](../site/us-health-cost-paper-scan.html). It separates the bill, the payment problem, the credit record, the health effect, and the work or care choice that may follow.
+The next connected paper pass is [health costs and the choices people give up](projects/us-health-cost-household-choice/paper-scan-v1.md), with a [reader-facing HTML page](../site/us-health-cost-paper-scan.html). It separates the bill, the payment problem, the credit record, the health effect, and the work or care choice that may follow. The health-cost lane now also has a [CES medical-affordability action finding](findings/us-medical-affordability-political-action-matched-evidence-001.md): same-respondent hardship, attribution, and political action are observed, while the dated bill-to-remedy-to-legitimacy join remains open.
 
 The consumer-power lane now has a bounded [CFPB response route layer](projects/us-consumer-fraud-trust/cfpb-response-route-layer-v1.md). It adds product-conditioned patterns for monetary relief, non-monetary relief, explanation, pending review, and response timing. It does not treat administrative closure as verified recovery, restored trust, switching, or political action; those remain the next linked-record gap.
 

@@ -864,6 +864,11 @@ market-transition or household result.
   civic action as separate outputs. SHED, GSS, ANES, and CCES provide anchors
   for the distinction, while dated attribution, institutional response, and
   recovery remain open.
+- **Health-cost action endpoint:** the CES 2018/2020 personal-crisis extracts
+  now add a same-respondent medical-expense-hardship → attribution → political
+  action layer, including an exploratory adjusted contact screen and a timing
+  sensitivity. It complements the ANES trust/policy bridge; the dated bill,
+  remedy, trust change, and recovery join remain open.
 - **Migration and local-demand depth:** the matched-place stream now has a
   reproducible 12-county screen using 2020–2023 population change, ACS
   foreign-born share and arrival timing, rent, crowding, language-access need,
