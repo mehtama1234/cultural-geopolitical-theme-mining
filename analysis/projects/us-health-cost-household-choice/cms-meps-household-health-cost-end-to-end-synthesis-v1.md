@@ -69,6 +69,45 @@ annual person exposure
 
 The first two arrows now have bounded evidence for 2024. The remaining arrows still require same-person or same-household fields for non-use, need, alternatives, time, work, debt, and recovery.
 
+## Payment is not yet the household choice
+
+The new [MEPS event-payment and bill-context layer](meps-2024-event-payment-bill-context-v1.md)
+tests the most tempting shortcut in the chain: treating an observed event's
+self/family payment as the household's medical burden. It links office, ER,
+inpatient, and prescription event payments to the person's annual
+`PROBPY42` medical-bill-problem report, then conditions the comparison on
+under-65 coverage and annual poverty category.
+
+The result is a useful negative finding. The national event comparison is not
+monotonic: bill-problem reporters have lower observed self/family payment for
+office visits and prescription purchases, but higher payment for inpatient
+stays. Within coverage and resource groups, the signs change again. Private
+office and prescription event payments are lower among bill-problem reporters,
+while public-only office payments are higher; uninsured acute-event cells are
+too small for headline interpretation. The point is not that payment is
+irrelevant. It is that payment alone cannot identify affordability, debt,
+forgone care, prior balances, or which household member absorbed the cost.
+
+That result changes the required end-to-end design:
+
+```text
+observed service and payment
+  + coverage, deductible, annual resources, and prior balance
+  -> event-specific bill and feasible alternatives
+  -> care continued, delayed, substituted, or forgone
+  -> money, time, work, unpaid care, food, housing, or debt trade-off
+  -> recovery, remedy, switching, trust, or action
+```
+
+MEPS currently measures the first line and parts of the context. The [SHED
+adaptation-by-health-direction layer](../us-household-financial-pressure/shed-panel-adaptation-health-path-layer-v1.md)
+shows in a separate same-respondent panel that improved health does not
+automatically reverse borrowing or delayed purchases. Together, these layers
+rule out two shortcuts: observed payment is not the same as burden, and
+health improvement is not the same as financial recovery. Neither layer yet
+observes the same household's bill, choice, time substitution, remedy, and
+later judgment.
+
 ## Why the aggregate-to-household bridge matters
 
 The CMS total can rise while household experience diverges in several directions:
