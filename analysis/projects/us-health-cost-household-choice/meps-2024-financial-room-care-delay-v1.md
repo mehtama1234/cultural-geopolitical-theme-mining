@@ -30,7 +30,17 @@ The machine record reports all four confidence categories and combined
 “not-confident” versus “confident” groups, plus no-medical-debt versus any-
 medical-debt groups. Preserve all categories because collapsing confidence into
 a binary can conceal a nonlinear response. Medical debt is also a status, not
-an event-specific balance or proof of current foregoing.
+an event-specific balance or proof of current foregoing. The machine record now
+also preserves every reported medical-debt amount band from no debt through
+$20,001 or more, so a positive “any debt” contrast is not mistaken for a
+linear debt-dose relationship.
+
+That distinction matters in the extracted results. Cost-related medical-care
+delay was 4.57% with no medical debt, 13.70% with $0–$500, 19.31% with
+$2,001–$5,000, 14.53% with $5,001–$10,000, 24.26% with $10,001–$20,000, and
+22.51% with $20,001 or more. Some upper-band cells are small, and the bands
+are reported debt categories rather than balances tied to a particular need;
+the safe conclusion is heterogeneity, not a linear dose-response claim.
 
 ```text
 financial room / medical debt

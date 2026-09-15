@@ -61,6 +61,20 @@ def main() -> int:
     output["confidence_groups"]["confident_combined"] = summarize(frame.loc[frame["FWUNEXP42"].isin([3, 4])])
     output["medical_debt_groups"]["no_medical_debt"] = summarize(frame.loc[frame["MEDDEBT42"].eq(0)])
     output["medical_debt_groups"]["any_medical_debt"] = summarize(frame.loc[frame["MEDDEBT42"].between(1, 7)])
+    debt_amounts = {
+        "no_medical_debt": [0],
+        "$0-$500": [1],
+        "$501-$1,000": [2],
+        "$1,001-$2,000": [3],
+        "$2,001-$5,000": [4],
+        "$5,001-$10,000": [5],
+        "$10,001-$20,000": [6],
+        "$20,001+": [7],
+    }
+    output["medical_debt_amount_groups"] = {
+        label: summarize(frame.loc[frame["MEDDEBT42"].isin(codes)])
+        for label, codes in debt_amounts.items()
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, indent=2, sort_keys=True))
