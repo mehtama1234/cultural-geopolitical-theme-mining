@@ -1,0 +1,23 @@
+{
+  "format": "sipp-resource-worklimitation-condition-audit-v1",
+  "checked": "2026-09-15",
+  "source": "2025 SIPP public-use file and 240-replicate Fay-BRR archive",
+  "source_archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+  "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+  "script_sha256": "1f8cb04818dc56199d633e8399277cdb79d55873aeba54abea9108a164a5b97d",
+  "runs": {
+    "children": {"output_sha256": "8709c1529a6affe340ec47c05c5cd97641f12a37a4b142f5df4584da2f0faa1f", "identified_persons": 27344, "matched_pair_rows": 156561},
+    "tenure": {"output_sha256": "feb196d6fa701d58a4c6849c48317b281af4d94e1e09e71cd488164dcd0f1a3e", "identified_persons": 26822, "matched_pair_rows": 154049},
+    "snap": {"output_sha256": "68eae5ce5e6d06dd10230ded1c9c013cd31192bc0ef5cd5f7bdcd2d0adad2293", "identified_persons": 27344, "matched_pair_rows": 156561},
+    "food": {"output_sha256": "41474631d154534cb960db6a22229dacfd4d0dbcdce762cbdf3eabc62642d332", "identified_persons": 27344, "matched_pair_rows": 156561}
+  },
+  "headline_cells": {
+    "children_work_limited_below_1x_hours_same_percent": {"no_children": 84.772, "children_1plus": 79.000, "valid_pair_n": {"no_children": 550, "children_1plus": 244}},
+    "food_work_limited_below_1x_hours_same_percent": {"high_or_marginal": 85.039, "very_low": 70.770, "valid_pair_n": {"high_or_marginal": 484, "very_low": 132}},
+    "tenure_work_limited_below_1x_hours_same_percent": {"owned_or_bought": 84.876, "rented": 83.698, "valid_pair_n": {"owned_or_bought": 406, "rented": 348}},
+    "snap_work_limited_below_1x_hours_same_percent": {"snap_no": 84.036, "snap_yes": 81.005, "valid_pair_n": {"snap_no": 534, "snap_yes": 260}}
+  },
+  "method": "For each condition separately, current-month THINCPOV resource band and EDISABL status were linked to next-month direction of valid nonnegative TPEARN and TMWKHRS for the same identified person. WPFINWGT and all 240 replicate weights were used with Fay BRR, perturbation factor 0.5.",
+  "boundary": "Conditioning results are descriptive same-person monthly transitions, not causal contrasts. Earnings and hours have separate valid-pair universes; small cells, reported statuses, household-versus-person distinctions, and unmeasured shocks remain material limitations. No new trend record is created."
+}
