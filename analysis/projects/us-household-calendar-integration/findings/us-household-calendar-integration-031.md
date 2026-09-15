@@ -37,6 +37,12 @@ one: the housing and utility gaps are different from the food-hardship gap.
 - **Audit:** 379,215 primary rows were read; 378,291 positive-weight rows
   matched to replicate weights, with no unmatched positive-weight rows.
 
+The 2026-09-15 rerun applies the official status flags and field-specific
+universes to the three displayed outcomes. The renter cells update slightly
+from the earlier nonblank-denominator layer: below 1.00×, rent/mortgage
+difficulty is 16.30%, utility difficulty 18.06%, and hunger 34.00%; at 4.00×
+or more, the corresponding values are 4.20%, 5.31%, and 26.86%.
+
 ## Why it matters for the end-to-end program
 
 ```text
