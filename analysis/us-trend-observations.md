@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-232 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+233 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -485,6 +485,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Work limitation, care time, and health cost are linked research stages rather than one burden index | work, cost, time | work_control_bargaining, care_health_reproduction, household_room_consumption, time_hidden_price, unequal_exposure_status | Bounded cross-source comparison of SIPP monthly person transitions, ATUS standardized diary contrasts, and MEPS longitudinal health-cost outcomes; sources are not pooled | United States | 3 | 2024 reference year; SIPP resource-to-work transition by work-limiting status; 2024; ATUS richer-standardized eldercare-provider minus nonprovider contrast; 2022→2023; MEPS Panel 27 longitudinal health-cost change | compared; estimated | [open](records/us-material-work-care-health-crosssource-2022-2025.json) |
 
 **Boundary:** This is a deliberately non-pooled bridge. It places work/resource transitions, care-time allocation, and longitudinal health-cost change in one research architecture but does not observe the same person across SIPP, ATUS, and MEPS. It does not establish a care burden index, work-limitation effect, health-cost causation, household hardship, trust, political action, or remedy.
+
+| Randomized medical-debt relief improves selected credit access but does not automatically repair health, care use, or financial wellness | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | Participants in two randomized medical-debt relief experiments | United States | 4 | 2018 to 2020; two randomized medical-debt relief experiments; Credit-reporting subexperiment; 2018 to 2020; Hospital debt experiment; 2018 to 2020 follow-up; Hospital debt experiment survey follow-up; 2018 to 2020 | estimated | [open](records/us-medical-debt-relief-randomized-response-2018-2020.json) |
+
+**Boundary:** Randomized debt relief estimates selected downstream institutional outcomes; it does not complete the same-person chain from health need or skipped care to household adaptation, remedy, recovery, trust, or political action.
 
 | Observed event payment is not a monotonic measure of annual medical-bill problems | cost, time | household_room_consumption, care_health_reproduction, unequal_exposure_status | 2024 MEPS event records linked to HC-256 annual person context | United States | 4 | Calendar year 2024; office-visit events; Calendar year 2024; emergency-room events; Calendar year 2024; inpatient-stay events; Calendar year 2024; prescription-purchase events | compared | [open](records/us-meps-2024-event-payment-bill-context.json) |
 

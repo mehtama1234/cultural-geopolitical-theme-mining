@@ -84,6 +84,12 @@ tests the institutional alternative itself. Stable insured respondents have the
 largest no-foregoing share, while persistent uninsured respondents have the
 largest persistence share; the small transition cells remain descriptive.
 
+The [randomized medical-debt relief layer](medical-debt-relief-randomized-response-layer-v1.md)
+tests whether downstream debt relief repairs the next outcomes. It finds
+modest credit-access effects in the reporting subexperiment, but no detected
+average health, care-utilization, or financial-wellness effects, keeping credit
+repair separate from health and household recovery.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
