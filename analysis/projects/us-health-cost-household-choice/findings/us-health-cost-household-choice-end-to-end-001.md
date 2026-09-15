@@ -15,6 +15,13 @@ opposite directions across separate population surveys. The final conversion
 from burden to trust, political action, switching, or exit therefore remains a
 bounded inference and an open acquisition target.
 
+The current ANES codebook sharpens that acquisition target: it includes concern
+about paying health-care expenses, insurance-loss concern, chronic-condition
+context, and later health-policy judgments alongside repeated trust and vote
+variables. It does not include a dated bill, care decision, remedy effort, or
+episode-level attribution, so it can extend the concern-to-judgment layer but
+cannot be treated as the missing same-person health-cost causal chain.
+
 ## Evidence chain
 
 | Link in the chain | What the evidence shows | Classification |

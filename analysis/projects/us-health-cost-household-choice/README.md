@@ -112,6 +112,13 @@ institutional-friction fields but no trust, attribution, complaint, switching,
 vote, or organizing endpoint. The legitimacy arrow therefore remains an
 explicit acquisition target.
 
+The [ANES health-cost legitimacy acquisition audit](anes-health-cost-legitimacy-acquisition-audit-v1.md)
+narrows that target. ANES supplies repeated political endpoints plus health
+insurance status and concern about paying health-care expenses, but it does
+not supply a dated bill, care decision, remedy effort, or episode attribution.
+It is therefore a promising concern-to-judgment layer, not yet a completed
+MEPS/SHED-to-legitimacy join.
+
 The [MEPS event payment-band screen](meps-2024-event-payment-bands-v1.md)
 adds a payment-stratified counterexample: self/family payment and later
 bill/health/work context do not form a monotonic burden scale within the first
