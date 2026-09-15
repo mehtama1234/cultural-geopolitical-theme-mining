@@ -1,0 +1,62 @@
+{
+  "format": "sipp-tenure-resource-care-official-reproduction-audit-v1",
+  "checked": "2026-09-15",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/official-tenure-resource-care.json --fields EPAY EPAYHELP EWORKMORE ETIMELOST --group-by ETENURE_THINCPOV --official-universes",
+  "inputs": {
+    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "3f291fa04a9da0bd09a15c39181beaa370fa46ad23b34427a0ce0a5c103556db"
+  },
+  "output": {
+    "sha256": "97f89b652d2327f208a207006f5dfa31ede35e0273f726130c0017709ef6e5c1",
+    "rows_read": 379215,
+    "replicate_rows_read": 378291,
+    "positive_weight_rows_matched": 378291,
+    "official_universes": true,
+    "group_by": "ETENURE_THINCPOV"
+  },
+  "headline_cells": {
+    "owned_below_1x": {
+      "paid_childcare_percent": 19.015,
+      "paid_childcare_se": 4.014,
+      "paid_childcare_valid_n": 1002,
+      "childcare_assistance_percent": 7.596,
+      "care_prevented_work_percent": 3.85,
+      "care_prevented_work_valid_n": 1405,
+      "time_lost_percent": 13.746,
+      "time_lost_valid_n": 32
+    },
+    "owned_4x_or_more": {
+      "paid_childcare_percent": 38.407,
+      "paid_childcare_se": 1.933,
+      "paid_childcare_valid_n": 8945,
+      "childcare_assistance_percent": 3.86,
+      "care_prevented_work_percent": 3.103,
+      "care_prevented_work_valid_n": 10878,
+      "time_lost_percent": 24.895,
+      "time_lost_valid_n": 334
+    },
+    "rented_below_1x": {
+      "paid_childcare_percent": 23.847,
+      "paid_childcare_se": 3.848,
+      "paid_childcare_valid_n": 1568,
+      "childcare_assistance_percent": 13.469,
+      "care_prevented_work_percent": 6.795,
+      "care_prevented_work_valid_n": 2218,
+      "time_lost_percent": 20.73,
+      "time_lost_valid_n": 138
+    },
+    "rented_4x_or_more": {
+      "paid_childcare_percent": 43.472,
+      "paid_childcare_se": 5.175,
+      "paid_childcare_valid_n": 1342,
+      "childcare_assistance_percent": 5.441,
+      "care_prevented_work_percent": 4.45,
+      "care_prevented_work_valid_n": 1733,
+      "time_lost_percent": 0.0,
+      "time_lost_valid_n": 56
+    }
+  },
+  "comparison": "Fresh official-universe tenure-by-resource Fay-BRR care/work extension from the full v17 slice.",
+  "boundary": "EPAY, EPAYHELP, and EWORKMORE are reference-period child-care measures with separate universes; ETIMELOST is sparse in these cells. Person-weighted descriptive results do not identify a dated bill, causal tenure effect, household weight, institutional remedy, trust, political action, or geopolitical consequence."
+}

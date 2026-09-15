@@ -24,6 +24,26 @@ comparison because it shows that “higher resources” do not erase the exposur
 associated with renting. It also shows that the three outcomes do not move as
 one: the housing and utility gaps are different from the food-hardship gap.
 
+## Care and work extension
+
+The same official-universe Fay-BRR run adds a bounded care/work layer. The
+percentages below are separate field-specific estimates, not a combined care
+burden measure.
+
+| Tenure × monthly resource band | Paid child care | Child-care payment assistance | Care prevented work/more | Time lost from work |
+|---|---:|---:|---:|---:|
+| Owned/bought · below 1.00× | 19.02% (SE 4.01), n=1,002 | 7.60%, n=1,002 | 3.85%, n=1,405 | 13.75%, n=32 |
+| Rented · below 1.00× | 23.85% (3.85), n=1,568 | 13.47%, n=1,568 | 6.80%, n=2,218 | 20.73%, n=138 |
+| Owned/bought · 4.00× or more | 38.41% (1.93), n=8,945 | 3.86%, n=8,945 | 3.10%, n=10,878 | 24.90%, n=334 |
+| Rented · 4.00× or more | 43.47% (5.18), n=1,342 | 5.44%, n=1,342 | 4.45%, n=1,733 | 0.00%, n=56 |
+
+Renters have higher point estimates for paid care, assistance, and work
+prevention at both displayed resource endpoints. The time-loss cells are too
+sparse for a stable tenure interpretation, especially the high-resource
+renter cell; the zero estimate is not evidence of no time loss. These fields
+refer to the SIPP fall/reference-parent care universe and do not measure a
+dated monthly care episode, price, provider choice, or employer response.
+
 ## What the source and estimator support
 
 - **Source and period:** 2025 SIPP public-use file, 2024 reference year.
@@ -98,6 +118,7 @@ not inferred from hardship alone.
 
 - [Fay-BRR tenure × resource estimates](../sipp-fay-brr-tenure-resource-estimates-v1.md)
 - [Official-universe reproduction audit](../sipp-tenure-resource-official-reproduction-audit-2026-09-15.json)
+- [Official-universe care/work reproduction audit](../sipp-tenure-resource-care-official-reproduction-audit-2026-09-15.json)
 - [SIPP tenure × resource two-way layer](../sipp-tenure-resource-two-way-layer-v1.md)
 - [2025 SIPP public-use data](https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html)
 - [SIPP replicate-weight archive](https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip)
