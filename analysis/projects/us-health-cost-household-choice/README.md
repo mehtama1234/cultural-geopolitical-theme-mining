@@ -73,6 +73,12 @@ medical debt becomes a credit signal, how reporting changes remove or delay
 some signals, and how the 2025 federal rule was vacated; credit visibility is
 not the same as bill resolution or restored care.
 
+The [health-cost institutional-legitimacy bridge](health-cost-institutional-legitimacy-bridge-v1.md)
+places those household and institutional surfaces beside a Census
+expense-difficulty/confidence contrast. It labels the final legitimacy arrow
+as inferred across sources and open, because no source yet follows one health
+bill through remedy to a later trust or political-action judgment.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
