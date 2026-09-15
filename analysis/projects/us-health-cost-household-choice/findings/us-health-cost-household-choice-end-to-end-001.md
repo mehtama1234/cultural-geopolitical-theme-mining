@@ -36,6 +36,15 @@ variables. It does not include a dated bill, care decision, remedy effort, or
 episode-level attribution, so it can extend the concern-to-judgment layer but
 cannot be treated as the missing same-person health-cost causal chain.
 
+The CES personal-crisis extracts add the complementary action endpoint. In
+2018 and 2020, respondents reporting trouble affording medical expenses are
+also observed for validated turnout, contact, protest, campaign work, signs,
+meetings, and donations. Responsibility attribution is available, and an
+exploratory adjusted screen finds higher official-contact odds in both years.
+This makes the action arrow directly observed within a respondent, but the
+extract still lacks a dated bill, remedy, design-based medical-specific
+uncertainty, and a later trust or recovery measure.
+
 ## Evidence chain
 
 | Link in the chain | What the evidence shows | Classification |
@@ -58,7 +67,7 @@ cannot be treated as the missing same-person health-cost causal chain.
 | Coverage → care and financial exposure | The Oregon Medicaid lottery increased coverage and care use while reducing out-of-pocket exposure and unpaid bills sent to collections. | Randomized estimate |
 | Institutional visibility → credit constraint | CFPB analysis found medical collections concentrated in lower-income communities; small-balance tradelines were common, and a collection was associated with a credit-score decline. | Official reported / compared |
 | Remedy → downstream outcome | Randomized medical-debt relief produced modest credit-access improvements where counterfactual reporting was active, but no detected average health, utilization, or financial-wellness repair. | Randomized estimate |
-| Burden → legitimacy | A Census expense-difficulty/confidence contrast is directionally consistent with a legitimacy concern, but it does not follow the same person, bill, remedy, or political act. | Inferred across sources / open |
+| Burden → legitimacy/action | ANES compares health-care payment concern with trust and policy demand; CES medical-expense hardship is observed alongside political action and responsibility attribution; Census adds an expense-difficulty/confidence contrast. Together these separate judgment and action routes, but none follows the same dated bill through remedy to later legitimacy. | Same-survey descriptive bridges / inferred across sources / open |
 
 ## Arrow-by-arrow boundary
 
@@ -76,7 +85,7 @@ cost / coverage
   -> debt, savings, borrowing, purchase, work tradeoff  compared / longitudinal
   -> health and recovery                                longitudinal descriptive
   -> credit visibility or coverage remedy               official / randomized
-  -> trust, action, switching, or exit                  inferred / open
+  -> trust, action, switching, or exit                  same-survey descriptive / inferred / open
 ```
 
 ## What is established
@@ -119,6 +128,7 @@ missingness, uncertainty, counterexamples, and a clear follow-up window.
 - [CFPB medical-collections credit response](../cfpb-medical-collections-credit-response-layer-v1.md)
 - [Medical-debt relief outcome separation](../medical-debt-relief-rct-outcome-separation-v1.md)
 - [Health-cost institutional-legitimacy bridge](../health-cost-institutional-legitimacy-bridge-v1.md)
+- [CES medical-affordability political-action finding](../../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
 
 **Evidence status:** an auditable layered bridge is established; the same-unit
 bill-to-choice-to-adaptation-to-remedy-to-legitimacy chain remains open.
