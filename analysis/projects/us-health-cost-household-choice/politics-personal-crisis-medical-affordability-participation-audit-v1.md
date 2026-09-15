@@ -275,8 +275,16 @@ The current screening implementation is preserved in
 `scripts/analyze_ces_medical_affordability_political_action.py`:
 
 ```text
+python3 scripts/acquire_ces_personal_crisis_replication.py \
+  --output-dir /tmp/cgtm-cces-personal-crisis
+
 python3 scripts/analyze_ces_medical_affordability_political_action.py \
-  --input-2018 /path/to/CCES18_crisis_vv.tab \
-  --input-2020 /path/to/CCES20_crisis_vv.tab \
+  --input-2018 /tmp/cgtm-cces-personal-crisis/CCES18_crisis_vv.tab \
+  --input-2020 /tmp/cgtm-cces-personal-crisis/CCES20_crisis_vv.tab \
   --output /tmp/ces-medical-affordability-action.json
 ```
+
+`acquire_ces_personal_crisis_replication.py` pins the Dataverse file IDs and
+refuses to complete if any downloaded file's SHA-256 differs from the checked
+replication package. The acquisition manifest preserves the file-level hashes
+and byte counts for later refresh audits.
