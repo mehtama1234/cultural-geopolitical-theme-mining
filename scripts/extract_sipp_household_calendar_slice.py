@@ -27,6 +27,7 @@ FIELDS = [
     "WPFINWGT",
     "THHLDSTATUS",
     "ETENURE",
+    "ATENURE",
     "EUTILITIES",
     "EENERGY_ASST",
     "RSNAP_MNYN",

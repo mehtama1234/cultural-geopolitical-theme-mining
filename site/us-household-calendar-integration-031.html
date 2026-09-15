@@ -118,6 +118,12 @@ universes to the three displayed outcomes. The renter cells update slightly
 from the earlier nonblank-denominator layer: below 1.00×, rent/mortgage
 difficulty is 16.30%, utility difficulty 18.06%, and hunger 34.00%; at 4.00×
 or more, the corresponding values are 4.20%, 5.31%, and 26.86%.</p>
+<p>Integrity correction: the initial extraction used for the first grouped run
+did not carry <code>ATENURE</code>, the official person-level tenure flag. That run was
+not treated as final. The corrected v18 slice carries <code>ATENURE</code>, and the
+analyzer now rejects missing or zero <code>ATENURE</code> whenever <code>ETENURE</code> is a group
+field. The corrected rerun reproduces the displayed headline cells; the
+care/work extension was rerun against the same corrected slice.</p>
 <h2 id="why-it-matters-for-the-end-to-end-program">Why it matters for the end-to-end program</h2>
 <pre><code class="language-text">resources and tenure
   -&gt; exposure to rent, utilities, and food trade-offs

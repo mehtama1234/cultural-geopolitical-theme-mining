@@ -72,7 +72,12 @@ OFFICIAL_FLAG_FIELDS = {
     "EWORKMORE": "AWORKMORE",
     "ETIMELOST": "ATIMELOST",
 }
-OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE", "RHNUMU18": "AHNUMU18"}
+OFFICIAL_GROUP_FLAGS = {
+    "EDISABL": "ADISABL",
+    "ERACE": "ARACE",
+    "RHNUMU18": "AHNUMU18",
+    "ETENURE": "ATENURE",
+}
 FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")
 KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 
@@ -139,6 +144,8 @@ def official_group_valid(group_by: str | None, values: dict[str, str]) -> bool:
     if "THINCPOV" in group_fields and values.get("AHINCPOV", "") in {"", "0"}:
         return False
     if "ERACE" in group_fields and values.get("ARACE", "") in {"", "0"}:
+        return False
+    if "ETENURE" in group_fields and values.get("ATENURE", "") in {"", "0"}:
         return False
     if "EDISABL" in group_fields:
         if values.get("ADISABL", "") in {"", "0"}:

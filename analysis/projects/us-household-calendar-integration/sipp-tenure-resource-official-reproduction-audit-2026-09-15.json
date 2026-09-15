@@ -1,11 +1,11 @@
 {
   "format": "sipp-tenure-resource-official-reproduction-audit-v1",
   "checked": "2026-09-15",
-  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/official-tenure-resource.json --fields EAWBMORT EAWBGAS EFOOD6 --group-by ETENURE_THINCPOV --official-universes",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/official-tenure-resource.json --fields EAWBMORT EAWBGAS EFOOD6 --group-by ETENURE_THINCPOV --official-universes",
   "inputs": {
-    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
-    "script_sha256": "3f291fa04a9da0bd09a15c39181beaa370fa46ad23b34427a0ce0a5c103556db"
+    "script_sha256": "744a36ac0b0eb9a06bedc3e56ae5f9a3d088ed1c15bfc86f51797133c93438a3"
   },
   "output": {
     "sha256": "478415f947103cf81dc036b9e0bfd595cf53aa26976a44b068bc13ea0614c258",
@@ -21,6 +21,7 @@
     "rented_below_1x": {"rent_mortgage_percent": 16.297917, "utility_percent": 18.062036, "hunger_percent": 33.998097, "valid_rent_records": 20150},
     "rented_4x_or_more": {"rent_mortgage_percent": 4.201162, "utility_percent": 5.314891, "hunger_percent": 26.864188, "valid_rent_records": 27287}
   },
-  "comparison": "Fresh official-universe tenure-by-resource Fay-BRR reproduction from the full v17 slice; displayed headline cells update the prior nonblank-denominator layer.",
+  "comparison": "Corrected official-universe tenure-by-resource Fay-BRR reproduction from the full v18 slice, which carries ATENURE and applies it when ETENURE is grouped; headline cells match the prior run after correction.",
+  "correction": "The initial v17 extraction omitted ATENURE. It was not treated as final; v18 restores ATENURE and the analyzer rejects missing or zero ATENURE when ETENURE is a grouping field.",
   "boundary": "Person-weighted descriptive subgroup estimates; rent, utility, and hunger fields retain separate universes. No causal tenure effect, household weight, dated bill, remedy, trust, political action, or geopolitical consequence is identified."
 }

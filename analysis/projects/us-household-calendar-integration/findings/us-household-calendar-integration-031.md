@@ -63,6 +63,13 @@ from the earlier nonblank-denominator layer: below 1.00×, rent/mortgage
 difficulty is 16.30%, utility difficulty 18.06%, and hunger 34.00%; at 4.00×
 or more, the corresponding values are 4.20%, 5.31%, and 26.86%.
 
+Integrity correction: the initial extraction used for the first grouped run
+did not carry `ATENURE`, the official person-level tenure flag. That run was
+not treated as final. The corrected v18 slice carries `ATENURE`, and the
+analyzer now rejects missing or zero `ATENURE` whenever `ETENURE` is a group
+field. The corrected rerun reproduces the displayed headline cells; the
+care/work extension was rerun against the same corrected slice.
+
 ## Why it matters for the end-to-end program
 
 ```text

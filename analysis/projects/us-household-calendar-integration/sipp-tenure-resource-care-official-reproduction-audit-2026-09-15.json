@@ -1,11 +1,11 @@
 {
   "format": "sipp-tenure-resource-care-official-reproduction-audit-v1",
   "checked": "2026-09-15",
-  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/official-tenure-resource-care.json --fields EPAY EPAYHELP EWORKMORE ETIMELOST --group-by ETENURE_THINCPOV --official-universes",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/official-tenure-resource-care.json --fields EPAY EPAYHELP EWORKMORE ETIMELOST --group-by ETENURE_THINCPOV --official-universes",
   "inputs": {
-    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
-    "script_sha256": "3f291fa04a9da0bd09a15c39181beaa370fa46ad23b34427a0ce0a5c103556db"
+    "script_sha256": "744a36ac0b0eb9a06bedc3e56ae5f9a3d088ed1c15bfc86f51797133c93438a3"
   },
   "output": {
     "sha256": "97f89b652d2327f208a207006f5dfa31ede35e0273f726130c0017709ef6e5c1",
@@ -57,6 +57,7 @@
       "time_lost_valid_n": 56
     }
   },
-  "comparison": "Fresh official-universe tenure-by-resource Fay-BRR care/work extension from the full v17 slice.",
+  "comparison": "Corrected official-universe tenure-by-resource Fay-BRR care/work extension from the full v18 slice, which carries ATENURE and applies it when ETENURE is grouped.",
+  "correction": "The initial v17 extraction omitted ATENURE. It was not treated as final; v18 restores ATENURE and the analyzer rejects missing or zero ATENURE when ETENURE is a grouping field.",
   "boundary": "EPAY, EPAYHELP, and EWORKMORE are reference-period child-care measures with separate universes; ETIMELOST is sparse in these cells. Person-weighted descriptive results do not identify a dated bill, causal tenure effect, household weight, institutional remedy, trust, political action, or geopolitical consequence."
 }
