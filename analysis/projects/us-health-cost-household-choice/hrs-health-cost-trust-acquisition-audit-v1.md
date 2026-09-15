@@ -17,6 +17,24 @@ This is an acquisition route, not a completed end-to-end result. HRS files and
 module samples must be merged using the official identifiers and sample
 weights, with module eligibility, missingness, and timing preserved.
 
+## Published 2019 codebook baseline
+
+The official HRS 2019 Health Survey codebook provides a useful unweighted
+baseline while microdata access remains pending. Among 5,097 respondents, 425
+reported delaying medical care because of cost in the prior 12 months (8.34%),
+and 299 reported needing medical care but not getting it because they could
+not afford it (5.87%). For satisfaction with the cost of health care, 721 of
+5,097 respondents were somewhat or very dissatisfied (14.14%); the codebook
+also reports 6 multiple-selection errors and 72 blank/missing records for that
+item.
+
+These are codebook frequencies, not weighted population estimates. The
+questions have different universes and the 2019 Health Survey is not itself a
+dated bill-to-trust panel. They establish that the older-adult source has
+measurable cost-related care and cost-satisfaction surfaces and provide a
+counterpart against which a later respondent-level acquisition can be
+checked.
+
 ## Documented field path
 
 The 2020 Section N health-services documentation identifies:
@@ -103,6 +121,7 @@ complaint, switching, and episode attribution remain acquisition checks.
 ## Official sources
 
 - [HRS questionnaires and documentation](https://hrs.isr.umich.edu/documentation/questionnaires)
+- [HRS 2019 Health Survey codebook](https://hrs.isr.umich.edu/sites/default/files/meta/2019/health-survey/codebook/hm19a_r.htm)
 - [HRS 2020 Section N: Health Services and Insurance](https://hrs.isr.umich.edu/sites/default/files/meta/2020/core/qnaire/online/15hr20N.pdf)
 - [HRS 2020 Final Release Section V codebook](https://hrs.isr.umich.edu/sites/default/files/meta/2020/core/codebook/h20v_rf.htm)
 - [HRS 2020 COVID section codebook](https://hrs.isr.umich.edu/sites/default/files/meta/2020/core/codebook/h20cov_r.htm)
