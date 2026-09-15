@@ -1,6 +1,6 @@
 {
   "schema": "us-meps-2024-round-timing-audit-v1",
-  "method": "Event month is compared with HC-256 round reference-period end month after exact DUPERSID + PANEL linkage. This is temporal context, not interview-date or causal follow-up.",
+  "method": "Event month is compared with HC-256 round reference-period end month after exact DUPERSID + PANEL linkage. AHRQ says the round end is the interview date for most people, but public-use day fields are unavailable and exceptions/recodings exist; the comparison is month-level context, not causal follow-up.",
   "person_records": 19140,
   "rounds": {
     "R3_1": {"valid_date_records": 18799, "valid_date_percent": 98.218391, "year_min": 2024, "year_max": 2024, "employment_field": "EMPST31", "health_field": "RTHLTH31"},
@@ -31,5 +31,5 @@
       "FULL_YEAR": {"both": 1912, "before": 1747, "same_month": 164, "after": 1}
     }
   },
-  "limitation": "Round reference-period end dates do not establish an interview date, event-trigger date, or post-event outcome window."
+  "limitation": "Round reference-period end dates provide bounded month-level ordering for most people but not an exact day, universal interview date, event-trigger date, or post-event outcome window."
 }
