@@ -64,6 +64,18 @@ concerned rows than in the not-at-all row, but the pattern is modest and not
 monotonic. The table measures policy preference, not remedy receipt,
 complaint, appeal, vote rationale, or other direct political action.
 
+### Party-identity conditioning
+
+The same trust table was controlled by pre-election party identification
+(`V241227x`), with 5,166 valid cases. Among strong Democrats, the combined
+“some of the time” or “never” trust share was 32.1% for the not-at-all-
+concerned row and 46.7% for the extremely concerned row. Among strong
+Republicans, the corresponding shares were 63.5% and 67.5%. Among
+independents, they were 71.8% and 73.1%. The extreme-concern cells are small
+in several party groups and have large standard errors. The controlled result
+therefore weakens any pooled interpretation: prior identity explains much of
+the trust level, while the health-cost-concern gradient is not uniform.
+
 ## Interpretation and limits
 
 These tables establish a directly measured same-survey bridge from health-care
@@ -85,5 +97,6 @@ health-cost-to-legitimacy chain.
 - [Policy-demand table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b)
 - [ANES 2024 codebook](https://electionstudies.org/wp-content/uploads/2026/05/anes_timeseries_2024_userguidecodebook_20260519.pdf)
 - [ANES merged panel documentation](https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/)
+- [Party-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 
-**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`.
+**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`.

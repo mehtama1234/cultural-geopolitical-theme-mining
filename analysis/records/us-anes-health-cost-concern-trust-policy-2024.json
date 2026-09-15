@@ -30,6 +30,18 @@
       "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
       "retrieval_hash": "sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a",
       "status": "compared"
+    },
+    {
+      "period": "2024 pre-election; health-care payment concern × federal-government trust, controlled by party identification",
+      "denominator": {"value": 5166, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"strong_democrat_not_at_all_some_or_never_trust": {"value": 32.1, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_democrat_extremely_some_or_never_trust": {"value": 46.7, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_republican_not_at_all_some_or_never_trust": {"value": 63.5, "unit": "percent within party and concern row", "value_type": "row_share"}, "strong_republican_extremely_some_or_never_trust": {"value": 67.5, "unit": "percent within party and concern row", "value_type": "row_share"}, "independent_not_at_all_some_or_never_trust": {"value": 71.8, "unit": "percent within party and concern row", "value_type": "row_share"}, "independent_extremely_some_or_never_trust": {"value": 73.1, "unit": "percent within party and concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage controlled cross-tab; row V241573, column V241229, control V241227x, pre-election panel weight V240107a, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Controlled descriptive association; several extremely-concerned party cells are small and imprecise. Party identity is conditioned, not randomly assigned, and health-cost concern remains a forward-looking proxy.",
+      "subgroup": "Health-cost-concern rows within seven pre-election party-identification groups; selected strong Democrat, independent, and strong Republican contrasts reported.",
+      "counterinterpretation": "The large level differences by party identity and weak/non-uniform within-party gradients show that pooled concern-to-trust patterns cannot be read as a universal health-cost legitimacy mechanism.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a",
+      "retrieval_hash": "sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
