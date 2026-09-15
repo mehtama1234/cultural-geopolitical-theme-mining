@@ -37,6 +37,8 @@ def summarize(frame: pd.DataFrame) -> dict[str, object]:
         "medical_debt_any_percent": weighted_share(frame, "MEDICAL_DEBT_ANY"),
         "late_or_unable_rent_percent": weighted_share(frame, "LATE_RENT"),
         "unable_utility_percent": weighted_share(frame, "UNABLE_UTILITY"),
+        "fair_poor_health_percent": weighted_share(frame, "FAIR_POOR_HEALTH"),
+        "not_employed_percent": weighted_share(frame, "NOT_EMPLOYED"),
     }
 
 
@@ -45,7 +47,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "FWCRED42", "FWDEBT42", "FWRENT42", "FWUTIL42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "FWCRED42", "FWDEBT42", "FWRENT42", "FWUTIL42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "RTHLTH42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
@@ -57,6 +59,8 @@ def main() -> int:
     frame["MEDICAL_DEBT_ANY"] = frame["MEDDEBT42"].between(1, 7).astype(float)
     frame["LATE_RENT"] = frame["FWRENT42"].eq(1).astype(float) if "FWRENT42" in frame else 0.0
     frame["UNABLE_UTILITY"] = frame["FWUTIL42"].eq(1).astype(float) if "FWUTIL42" in frame else 0.0
+    frame["FAIR_POOR_HEALTH"] = frame["RTHLTH42"].isin([4, 5]).astype(float)
+    frame["NOT_EMPLOYED"] = (~frame["EMPST42"].isin([1, 2, 3])).astype(float)
     output: dict[str, object] = {
         "schema": "us-meps-2024-financial-room-care-delay-v1",
         "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",

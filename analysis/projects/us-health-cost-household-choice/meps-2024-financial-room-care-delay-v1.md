@@ -106,7 +106,7 @@ The machine record also profiles the financial context of respondents who did
 and did not report cost-related care delay. This creates a same-respondent
 adaptation screen for medical debt, missed credit payments, debt collection,
 rent, utilities, and unexpected-expense confidence. It remains a co-occurrence
-profile because the fields do not establish which came first.
+ profile because the fields do not establish which came first.
 
 The care-delay group profiles show the household cascade that the end-to-end
 goal is designed to detect. Among respondents reporting medical-care delay due
@@ -116,6 +116,14 @@ not reporting medical-care delay, the corresponding shares were 13.50%,
 11.31%, 8.57%, and 9.44%. These are not effects of delay: debt, missed payment,
 illness, and access may precede the reported care choice or share a common
 cause.
+
+Health and employment add separate consequence surfaces. Respondents reporting
+cost-related medical-care delay had 25.96% fair/poor health and 31.32% not
+employed, compared with 9.35% and 48.37% among respondents not reporting that
+delay. Prescription delayers had 33.86% fair/poor health and 39.48% not
+employed. These differences are not post-delay effects: health, age,
+disability, retirement, employment, and access can shape both the report and
+the observed outcome.
 
 ## Reproduction
 
