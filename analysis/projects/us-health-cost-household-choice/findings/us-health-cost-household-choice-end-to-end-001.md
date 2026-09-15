@@ -49,9 +49,12 @@ The HRS 2019 Health Survey supplies an older-adult context check from its
 published codebook: 8.34% reported delaying care because of cost, 5.87% needed
 care but could not afford it, and 14.14% were somewhat or very dissatisfied
 with health-care cost. These are unweighted codebook frequencies, not a
-longitudinal estimate. HRS 2020 documentation adds non-cost delay reasons and
-trust targets for Medicare/Medicaid and insurers, but module overlap and panel
-timing still require microdata verification.
+longitudinal estimate. HRS 2020's published Section V module reports average
+trust of 6.36/10 for Medicare or Medicaid (n=1,321) and 4.85/10 for insurance
+companies (n=1,318), alongside perceived insurance-company deception of
+43.21/100 (n=1,307). Those are an older-adult institutional baseline, not a
+health-cost effect: module assignment, weights, overlap, and panel timing
+still require microdata verification.
 
 ## Evidence chain
 
@@ -76,7 +79,7 @@ timing still require microdata verification.
 | Institutional visibility → credit constraint | CFPB analysis found medical collections concentrated in lower-income communities; small-balance tradelines were common, and a collection was associated with a credit-score decline. | Official reported / compared |
 | Remedy → downstream outcome | Randomized medical-debt relief produced modest credit-access improvements where counterfactual reporting was active, but no detected average health, utilization, or financial-wellness repair. | Randomized estimate |
 | Burden → legitimacy/action | ANES compares health-care payment concern with trust and policy demand; CES medical-expense hardship is observed alongside political action and responsibility attribution; Census adds an expense-difficulty/confidence contrast. Together these separate judgment and action routes, but none follows the same dated bill through remedy to later legitimacy. | Same-survey descriptive bridges / inferred across sources / open |
-| Older-adult cost baseline → trust acquisition | HRS 2019 codebook frequencies establish cost-related delay and cost dissatisfaction; HRS 2020 documentation identifies unaffordability reasons and Medicare/Medicaid and insurer trust targets. | Unweighted published frequencies / official acquisition route / panel sequence open |
+| Older-adult cost baseline → trust acquisition | HRS 2019 codebook frequencies establish cost-related delay and cost dissatisfaction; HRS 2020 reports bounded trust and perceived-insurer-deception means alongside unaffordability and non-cost delay-reason fields. | Unweighted published frequencies / official acquisition route / panel sequence open |
 
 ## Arrow-by-arrow boundary
 

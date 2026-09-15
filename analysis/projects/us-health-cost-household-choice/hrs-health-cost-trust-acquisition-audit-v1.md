@@ -66,6 +66,25 @@ The trust module is not automatically a post-bill measure. Its module
 assignment, field date, and relation to the health-services interview must be
 verified before calling it a later endpoint.
 
+## Published 2020 trust baseline
+
+The official HRS 2020 Final Release Section V codebook reports descriptive
+module frequencies for the institutional endpoint: trust in Medicare or
+Medicaid averaged 6.36 on a 0--10 scale among 1,321 valid responses, while
+trust in insurance companies averaged 4.85 among 1,318 valid responses. The
+same module reports perceived potential for deception by insurance companies
+at 43.21 on a 0--100 scale among 1,307 valid responses. These are unweighted
+module statistics; the codebook shows 14,379 records blank/inapplicable for
+each item and separate small counts for web non-response, don't know, and
+refusal. They are a usable older-adult legitimacy baseline, not evidence that
+health-cost hardship caused the judgments.
+
+The codebook's routing also matters: Section V's trust block is assigned to
+an eligible self-report module sample, not the full HRS respondent file. The
+reported trust and deception means therefore cannot be compared directly with
+the 2019 Health Survey rates or interpreted as a panel change until released
+files, identifiers, weights, and timing are verified.
+
 ## Smallest defensible HRS design
 
 The first HRS pass should merge the 2020 core health-services file, COVID
@@ -130,7 +149,10 @@ replication or counterexample surface.
 HRS is a viable fallback if UAS registration or module overlap fails, and a
 valuable re-test even if UAS succeeds. It can add a mature older-adult panel,
 explicit non-cost reasons for delayed care, institutional trust targets, and
-health/work/financial context. It cannot by documentation alone close the
+health/work/financial context. The 2020 codebook adds a bounded descriptive
+baseline in which public-program trust is higher than insurer trust and
+perceived insurer deception is substantial, but that contrast is not an
+episode-level effect. HRS cannot by documentation alone close the
 bill-to-remedy-to-trust arrow: exact payment obligation, remedy effort,
 complaint, switching, and episode attribution remain acquisition checks.
 
