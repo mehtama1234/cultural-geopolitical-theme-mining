@@ -37,6 +37,12 @@ def weighted_share(frame: pd.DataFrame, field: str) -> float | None:
     return float(100 * np.average(value[valid], weights=weight[valid]))
 
 
+def weighted_category_share(frame: pd.DataFrame, field: str, code: int) -> float | None:
+    value = frame[field].eq(code).astype(float)
+    frame = frame.assign(_CATEGORY=value)
+    return weighted_share(frame, "_CATEGORY")
+
+
 def profile(frame: pd.DataFrame) -> dict[str, object]:
     weight = pd.to_numeric(frame["ESAQWT24F"], errors="coerce")
     valid = weight.gt(0)
@@ -48,6 +54,10 @@ def profile(frame: pd.DataFrame) -> dict[str, object]:
         },
         "payment_strategy_500_bill": {
             str(code): int((frame["EQPAYB53"] == code).sum())
+            for code in range(1, 9)
+        },
+        "payment_strategy_500_bill_weighted_percent": {
+            str(code): weighted_category_share(frame, "EQPAYB53", code)
             for code in range(1, 9)
         },
     }

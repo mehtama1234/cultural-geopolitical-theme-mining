@@ -12,6 +12,19 @@ $500 medical bill, spending and savings sacrifices, work/leave constraints,
 and care provided instead of working. The analysis keeps those surfaces
 separate but compares them within the same respondent architecture.
 
+Payment-strategy categories are now reported both as raw valid counts and as
+ESAQ-weighted shares. This matters because the strategy question has its own
+valid universe and because a raw “could not pay” count is not a population
+estimate.
+
+For a hypothetical $500 medical bill, care delayers were more likely to report
+using a provider payment plan (31.63% weighted) or being unable to pay at all
+(21.70%) than non-delayers (20.70% and 7.86%). They were less likely to report
+paying immediately with cash, check, or debit (12.74% versus 29.74%). These are
+reported strategies under a hypothetical bill, not observed payment records;
+they identify constrained alternatives rather than a realized household
+transaction.
+
 Among respondents reporting medical-care delay due to cost, 39.76% reported
 medical debt, 29.89% missed a loan or credit payment, 23.72% were late or unable
 to pay rent, and 38.09% had debt-collector contact in the companion financial
