@@ -53,6 +53,11 @@ The [MEPS 2024 event-linkage audit](meps-2024-event-linkage-audit-v1.md)
 confirms exact person/event keys across four files and identifies the
 prescription timing limitation that must remain visible in any episode result.
 
+The [bounded MEPS episode surface](meps-2024-bounded-episode-surface-v1.md)
+now joins dated office, emergency-room, and inpatient events to annual
+coverage, resource, work, health, and bill-problem context in an aggregate-only
+record.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

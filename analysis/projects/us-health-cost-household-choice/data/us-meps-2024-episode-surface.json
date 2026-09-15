@@ -1,0 +1,41 @@
+{
+  "schema": "us-meps-2024-episode-surface-v1",
+  "source": "AHRQ MEPS 2024 HC-256 and HC-254 event public-use files",
+  "method": {
+    "linkage": "exact DUPERSID + PANEL join from event record to HC-256 person record",
+    "valid_event": "positive PERWT24F, valid date year 1900-2024/month 1-12, and nonmissing self/family payment",
+    "weighting": "event-file PERWT24F for event payment means; counts remain unweighted record counts unless labeled weighted",
+    "privacy": "aggregate output only; no person identifiers or row-level records are written"
+  },
+  "person_file": {"records": 19140, "unique_person_panel_keys": 19140, "positive_weight_records": 18683},
+  "events": {
+    "office": {
+      "event_records": 145818, "unique_event_keys": 145818, "exact_person_panel_matches": 145818,
+      "exact_person_panel_match_percent": 100.0, "valid_episode_surface_records": 144206,
+      "unique_people_in_valid_surface": 14198, "date_complete_records": 145818,
+      "date_year_min": 2024, "date_year_max": 2024,
+      "weighted_mean_self_family_payment": 57.37768317492469, "weighted_mean_total_payment": 308.0525311100568,
+      "zero_self_family_payment_records": 79281,
+      "context_nonmissing_percent": {"INSURC24": 100.0, "POVCAT24": 100.0, "EMPST53": 100.0, "RTHLTH53": 100.0, "PROBPY42": 100.0}
+    },
+    "emergency_room": {
+      "event_records": 4351, "unique_event_keys": 4351, "exact_person_panel_matches": 4351,
+      "exact_person_panel_match_percent": 100.0, "valid_episode_surface_records": 4261,
+      "unique_people_in_valid_surface": 2868, "date_complete_records": 4351,
+      "date_year_min": 2024, "date_year_max": 2024,
+      "weighted_mean_self_family_payment": 148.22252163422996, "weighted_mean_total_payment": 1405.107051315751,
+      "zero_self_family_payment_records": 3136,
+      "context_nonmissing_percent": {"INSURC24": 100.0, "POVCAT24": 100.0, "EMPST53": 100.0, "RTHLTH53": 100.0, "PROBPY42": 100.0}
+    },
+    "inpatient": {
+      "event_records": 1912, "unique_event_keys": 1912, "exact_person_panel_matches": 1912,
+      "exact_person_panel_match_percent": 100.0, "valid_episode_surface_records": 1881,
+      "unique_people_in_valid_surface": 1391, "date_complete_records": 1912,
+      "date_year_min": 2023, "date_year_max": 2024,
+      "weighted_mean_self_family_payment": 865.1983402918734, "weighted_mean_total_payment": 18892.697074750424,
+      "zero_self_family_payment_records": 1223,
+      "context_nonmissing_percent": {"INSURC24": 100.0, "POVCAT24": 100.0, "EMPST53": 100.0, "RTHLTH53": 100.0, "PROBPY42": 100.0}
+    }
+  },
+  "limitation": "Event records represent observed events and exclude people with no event in the file; annual context is not a dated causal follow-up."
+}
