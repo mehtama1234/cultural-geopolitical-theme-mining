@@ -111,6 +111,12 @@ adds a payment-stratified counterexample: self/family payment and later
 bill/health/work context do not form a monotonic burden scale within the first
 office, emergency-room, or inpatient event universes.
 
+The [health-cost episode acquisition protocol](health-cost-episode-acquisition-protocol-v1.md)
+turns the remaining same-unit gap into an executable design: dated exposure,
+alternatives, care choice, obligation, protected and sacrificed outcomes,
+institutional remedy, and later trust/action with explicit promotion and
+failure rules.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
