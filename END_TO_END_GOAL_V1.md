@@ -232,6 +232,20 @@ reproducible explanation of who can absorb a health-cost shock, who must
 trade away care or security, which institutions repair or redistribute the
 loss, and how repeated experiences can alter social and state legitimacy.
 
+The current evidence boundary is now more specific. MEPS inter-round event
+windows provide a month-ordered baseline/follow-up screen, but acute-event
+groups already differ in health and employment before the event; the result
+therefore documents selection and later context rather than an event effect.
+CES personal-crisis extracts add same-respondent medical-hardship attribution
+and political-action measures, while ANES adds same-survey health-payment
+concern, trust, and policy-demand comparisons. A companion Democracy Fund
+VOTER extract was checked for a matched extension and contains trust and
+institutional-confidence variables without a medical-expense hardship field.
+Together these results sharpen the next acquisition target: a dated,
+same-person health-cost episode with alternatives, remedy effort, and a later
+trust or action measure. The missing join is a documented boundary, not an
+implicit causal claim.
+
 ## Why this project exists
 
 Many public stories show the final surface of a change: a new policy, a new tool, a price move, a conflict, a company decision, or a shift in public opinion. The deeper cause is often spread across several fields and institutions.
