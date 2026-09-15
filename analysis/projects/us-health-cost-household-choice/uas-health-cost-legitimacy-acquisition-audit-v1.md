@@ -51,6 +51,17 @@ monthly health/financial event or special-module medical-cost experience
 | UAS Monthly Panel, October 2023–present | Previous-month health, financial, employment, life satisfaction, pain, stress, and meaning/purpose events | A genuinely dated monthly exposure-to-subsequent-outcome backbone | Documentation does not guarantee a medical-bill or trust item in every wave; acquire codebook and enumerate wave coverage |
 | UAS Older Ages Monthly Events, June 2019–September 2023 | Previous-month medical expenditures, work hours/earnings, health, life satisfaction, and pain for age 50+ panel members | Monthly medical-spending-to-health/work/meaning timing for an older-age subsample | No documented same-file political-trust endpoint in the public summary; link to core/special modules and retain age restriction |
 
+The questionnaire pages expose additional field-level anchors for the
+acquisition script. In UAS 537 these include `avoidcare_cost` (needed care not
+obtained because it was unaffordable), `hcb_ever` (a household medical bill
+that was unaffordable or disputed), `afford_services`, `hrsntrust_hosp`, and
+`hrsntrust_ins`. In UAS 698 the documented anchors include `N215` (money help
+for medical expenses), `N333` (out-of-pocket amount for other medical
+expenses), `N235` (overall satisfaction with health-care quality, cost, and
+convenience), `N492` (needed medical care but did not get it), `N493` (reasons
+for that gap), and `N295` (whether care preferences were taken into account).
+These names are acquisition targets, not yet verified local columns.
+
 ## Required acquisition and merge test
 
 After registration, acquire the relevant codebooks and data descriptions before
@@ -71,6 +82,14 @@ the microdata. Then perform the following checks in order:
    concern, bills paid without reported sacrifice, unmet care for non-cost
    reasons, trust without a reported bill, and low trust without a health-cost
    exposure.
+
+The September 1, 2026 monthly-panel description reports 35 waves from October
+2023 through August 2026. It states that the panel uses `uasid` as the stable
+person key, `uashhid` as the original household key, and `survhhid` as the
+survey-specific household key; the latter can change when a respondent moves
+between households. A valid household analysis must therefore use `survhhid`
+only for the contemporaneous household and must not treat it as a permanent
+household identity.
 
 ## Promotion rule
 
@@ -104,5 +123,6 @@ not completed evidence.
 
 - [UAS Comprehensive File and Panel Dataset](https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3)
 - [UAS Monthly Surveys data page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3)
+- [UAS Monthly Panel Survey Dataset description and codebook, updated September 1, 2026](https://uasdata.usc.edu/index.php?r=eNodzEEKwjAQQNGrDDlAwVwiXCLTlditIJQeYJoZtZjOhCZRinh3W3d_8fiENX4S7tFFuotrEtbHtcsQRl-x-TKJZsqjKdtbgxFvZuVK058fduj6UwcX0_wIC1xcSSVAV-aXLNBSpiQZWkl-HuO2AVKGs7EMZs8q8s013x-3cS3L)
 - [UAS 537 future-of-health-care questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKydTYHCZYChE0tFIyVLKuBVwwx5cXVA%2C%2C)
 - [UAS 698 health-cost questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKyczSAiZYChE0tFIyUbKuBVwwyGMXXw%2C%2C)
