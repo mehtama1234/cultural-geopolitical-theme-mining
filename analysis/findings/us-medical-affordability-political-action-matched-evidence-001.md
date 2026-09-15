@@ -68,6 +68,14 @@ and 21.5%, and protest was 11.1% and 5.4%, respectively. Because the question
 formats differ, these are mechanism cross-checks rather than pooled trend
 estimates.
 
+Timing within 2020 also matters. Among hardship respondents, official contact
+was 27.6% for expenses reported before 2020, 11.9% for January–February 2020,
+and 31.1% for March 2020 or later; protest was 10.1%, 0.0%, and 9.7%. The
+post-March group contains 93 unweighted respondents and 54.9% of the hardship
+group's weight. These are broad retrospective timing categories, not comparable
+event cohorts, so they are a context sensitivity rather than a pandemic causal
+estimate.
+
 ## The adjusted screen
 
 Separate weighted logistic models use medical-expense hardship as the focal
