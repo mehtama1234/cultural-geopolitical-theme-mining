@@ -90,6 +90,18 @@
       "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241574a&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
       "retrieval_hash": "sha256:618d6b7ae7671e05300a822ed42250b704b29831f4849ce9bd65bd49a5a29c9c",
       "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; health-care payment concern × health-insurance help, controlled by household income",
+      "denominator": {"value": 4444, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"under_10000_not_at_all_increase_help": {"value": 48.2, "unit": "percent within income and concern row", "value_type": "row_share"}, "under_10000_extremely_increase_help": {"value": 62.0, "unit": "percent within income and concern row", "value_type": "row_share"}, "100000_249999_not_at_all_increase_help": {"value": 55.9, "unit": "percent within income and concern row", "value_type": "row_share"}, "100000_249999_extremely_increase_help": {"value": 59.5, "unit": "percent within income and concern row", "value_type": "row_share"}, "250000_plus_not_at_all_increase_help": {"value": 59.6, "unit": "percent within income and concern row", "value_type": "row_share"}, "250000_plus_extremely_increase_help": {"value": 92.9, "unit": "percent within income and concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage controlled cross-tab; row V241573, column V242351, control V241567x, post-election panel weight V240107b, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Temporal descriptive association; the $250,000-or-more extreme-concern cell has six unweighted cases and several low-income cells are small. Income is annual and does not measure liquid room or a bill.",
+      "subgroup": "Health-cost-concern rows within six household-income categories.",
+      "counterinterpretation": "The apparent income differences may reflect health, insurance, party identity, family composition, selection, or sparse tail cells rather than an income-conditioned policy mechanism.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
+      "retrieval_hash": "sha256:804896f1506a9ae6b75bfeac1463d719892f1b846d79591efc2a86a64745c804",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
