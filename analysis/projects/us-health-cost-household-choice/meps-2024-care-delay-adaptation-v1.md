@@ -1,0 +1,58 @@
+# MEPS 2024 care delay and household adaptation
+
+**Checked:** 2026-09-15  
+**Status:** weighted cross-round association; no causal claim  
+**Machine record:** [care-delay/adaptation data](data/us-meps-2024-care-delay-adaptation.json)
+
+## Result
+
+MEPS 2024 contains cost-related care-delay measures in R4/2 and a separate
+Economic Self-Administered Questionnaire (ESAQ) with payment strategy for a
+$500 medical bill, spending and savings sacrifices, work/leave constraints,
+and care provided instead of working. The analysis keeps those surfaces
+separate but compares them within the same respondent architecture.
+
+Among respondents reporting medical-care delay due to cost, 39.76% reported
+medical debt, 29.89% missed a loan or credit payment, 23.72% were late or unable
+to pay rent, and 38.09% had debt-collector contact in the companion financial
+room extract. The ESAQ profile adds whether the household paid cash, used an
+HSA/FSA, used credit, borrowed, used a provider plan, or could not pay, plus
+the downstream sacrifices and work constraints associated with the same broad
+year.
+
+Among respondents reporting medical-care delay due to cost, sacrificed savings
+was 23.41%, sacrificed basic spending 33.24%, worked when health needed time
+off 37.38%, and could not afford the income loss from taking time off 19.89%.
+Among respondents not reporting medical-care delay, the corresponding shares
+were 8.57%, 9.84%, 12.99%, and 5.27%. These profiles make the money/time/work
+trade-off visible without combining it into one burden score.
+
+## Interpretation boundary
+
+This is a stronger care-choice-to-adaptation bridge, but not a dated episode.
+R4/2 care-delay reports and R5/3 ESAQ adaptation reports may concern different
+needs. A respondent may have adapted before delaying care, delayed care before
+adapting, or experienced both because of an unmeasured health or income shock.
+The output therefore supports comparison and acquisition design, not a causal
+mediation claim.
+
+```text
+cost-related care delay
+  -> payment strategy, sacrifice, work/leave, and family-care context
+```
+
+The next decisive join remains a dated need or bill, feasible alternative,
+payment obligation, care decision, and follow-up outcome in one time-ordered
+episode.
+
+## Reproduction
+
+```text
+python3 scripts/analyze_meps_care_delay_adaptation.py \
+  /tmp/cgtm-meps-2024/h256/h256.dta \
+  --output analysis/projects/us-health-cost-household-choice/data/us-meps-2024-care-delay-adaptation.json
+```
+
+## Source and fields
+
+The source is AHRQ’s [MEPS 2024 HC-256 full-year file](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256). The analysis uses `DLAYCA42`, `AFRDCA42`, `DLAYPM42`, `AFRDPM42`, `EQPAYB53`, `EQSLEI53`, `EQSBIG53`, `EQSBAS53`, `EQSSAV53`, `EQSLIV53`, `EQWSIK53`, `EQLDEN53`, `EQLUPD53`, `EQLENH53`, `EQLJBSC53`, `EQLSIN53`, `EQCRNW53`, and `ESAQWT24F`.

@@ -1,0 +1,115 @@
+{
+  "groups": {
+    "could_not_afford_medical_care": {
+      "payment_strategy_500_bill": {
+        "1": 38,
+        "2": 17,
+        "3": 25,
+        "4": 38,
+        "5": 12,
+        "6": 167,
+        "7": 174,
+        "8": 20
+      },
+      "records": 501,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 6.346831767535499,
+        "could_not_afford_income_loss": 20.978732207322974,
+        "feared_job_consequence": 12.746454078781348,
+        "leave_denied": 1.5816325460305778,
+        "no_paid_or_unpaid_leave": 7.82892131276699,
+        "not_enough_leave": 5.126841229833805,
+        "sacrificed_basic_spending": 39.372931806853586,
+        "sacrificed_big_purchase": 27.532564810919226,
+        "sacrificed_leisure": 35.159484258368565,
+        "sacrificed_living_situation": 12.929515215952389,
+        "sacrificed_savings": 22.670074094013692,
+        "worked_when_health_needed_time_off": 35.10614103455393
+      }
+    },
+    "medical_care_affordability_not_reported": {
+      "payment_strategy_500_bill": {
+        "1": 3315,
+        "2": 981,
+        "3": 1579,
+        "4": 912,
+        "5": 154,
+        "6": 2386,
+        "7": 1045,
+        "8": 420
+      },
+      "records": 11103,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 3.196005076057961,
+        "could_not_afford_income_loss": 5.778806166305159,
+        "feared_job_consequence": 3.8800654280746456,
+        "leave_denied": 0.5644935678088893,
+        "no_paid_or_unpaid_leave": 2.489169267546518,
+        "not_enough_leave": 1.895130391616965,
+        "sacrificed_basic_spending": 10.462539860860499,
+        "sacrificed_big_purchase": 10.818475406619173,
+        "sacrificed_leisure": 15.055729009137417,
+        "sacrificed_living_situation": 3.0528240434337564,
+        "sacrificed_savings": 9.169103359413839,
+        "worked_when_health_needed_time_off": 14.028285566244127
+      }
+    },
+    "medical_care_delayed_for_cost": {
+      "payment_strategy_500_bill": {
+        "1": 108,
+        "2": 62,
+        "3": 77,
+        "4": 83,
+        "5": 19,
+        "6": 313,
+        "7": 216,
+        "8": 31
+      },
+      "records": 928,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 7.0994765993133715,
+        "could_not_afford_income_loss": 19.891787219697683,
+        "feared_job_consequence": 13.600129435470407,
+        "leave_denied": 1.4257886713351182,
+        "no_paid_or_unpaid_leave": 9.000282112963825,
+        "not_enough_leave": 5.110499277624057,
+        "sacrificed_basic_spending": 33.24398870373645,
+        "sacrificed_big_purchase": 24.824327937001936,
+        "sacrificed_leisure": 34.34721955911987,
+        "sacrificed_living_situation": 10.070623263805565,
+        "sacrificed_savings": 23.410867625383634,
+        "worked_when_health_needed_time_off": 37.3792150416084
+      }
+    },
+    "medical_care_not_delayed_for_cost": {
+      "payment_strategy_500_bill": {
+        "1": 3245,
+        "2": 936,
+        "3": 1527,
+        "4": 867,
+        "5": 147,
+        "6": 2240,
+        "7": 1003,
+        "8": 409
+      },
+      "records": 10676,
+      "sacrifice_or_work_adaptation": {
+        "care_instead_of_work": 3.0051881012410773,
+        "could_not_afford_income_loss": 5.268092453278304,
+        "feared_job_consequence": 3.452927861878418,
+        "leave_denied": 0.5375371181791124,
+        "no_paid_or_unpaid_leave": 2.1748365285882034,
+        "not_enough_leave": 1.767890934485226,
+        "sacrificed_basic_spending": 9.84396355360014,
+        "sacrificed_big_purchase": 10.388313364718895,
+        "sacrificed_leisure": 14.325926942007127,
+        "sacrificed_living_situation": 2.90795509665849,
+        "sacrificed_savings": 8.567261927052206,
+        "worked_when_health_needed_time_off": 12.991696872829737
+      }
+    }
+  },
+  "limitation": "DLAY/AFRD fields are R4/2 and ESAQ fields are R5/3 or 2024 ESAQ measures; they are not a dated same-bill sequence. Associations do not establish whether delay caused adaptation or whether an institutional response repaired it.",
+  "method": "Use ESAQWT24F and valid HC-256 round-level fields; compare cost-related care-delay groups with payment strategy, spending/saving sacrifices, work/leave constraints, and care-for-work substitution.",
+  "schema": "us-meps-2024-care-delay-adaptation-v1"
+}

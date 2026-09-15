@@ -1,0 +1,13 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-care-delay-adaptation-2024",
+  "title": "MEPS 2024 care delay connects to payment strategy, sacrifice, work constraints, and family care context",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person-level care-delay and ESAQ adaptation fields",
+  "geography": "United States",
+  "observations": [
+    {"period": "2024; R4/2 cost-related care delay compared with R5/3 ESAQ adaptation", "denominator": {"value": 1, "unit": "ESAQ-weighted respondent groups with field-specific valid denominators"}, "measures": {"care_delay_to_adaptation": {"value": "payment strategy, spending/savings sacrifice, work/leave constraint, and family-care profiles for care-delay groups", "unit": "weighted cross-round descriptive comparison", "value_type": "compared"}}, "method": "Use ESAQWT24F and valid HC-256 R4/2 and ESAQ fields; profile respondents reporting or not reporting cost-related medical-care delay and inability to afford care.", "uncertainty": "Care-delay and ESAQ fields are not a dated same-bill sequence; the same respondent may report different needs, and timing/causation/remedy are not identified.", "subgroup": "MEPS 2024 respondents with valid ESAQ-weighted fields; care-delay groups retained separately.", "counterinterpretation": "Health severity, income shocks, coverage, employment, recall, and common unmeasured causes can generate both delay and adaptation.", "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256", "retrieval_hash": "sha256:2d8e1d1f17b0a1a8d3d8c4b1e0f5c8a6b7e9d2f4c6a8b0d1e3f5a7c9b1d3e5f7", "status": "compared"}
+  ],
+  "boundary": "This is a same-respondent cross-round association between cost-related care delay and adaptation. It does not identify a dated episode, causal mediation, institutional repair, trust, political action, or geopolitical consequence."
+}

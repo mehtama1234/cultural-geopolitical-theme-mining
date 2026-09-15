@@ -123,6 +123,12 @@ expense or medical debt and cost-related delay or inability to afford care and
 prescriptions. It is a stronger practical-room association, but not a dated
 bill-level causal result.
 
+The [MEPS care-delay/adaptation layer](meps-2024-care-delay-adaptation-v1.md)
+adds ESAQ payment strategies, sacrificed spending and savings, work/leave
+constraints, and family-care substitution to the care-delay pathway. It is the
+strongest current same-respondent money/time/work bridge, while its cross-round
+ordering remains explicitly open.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
