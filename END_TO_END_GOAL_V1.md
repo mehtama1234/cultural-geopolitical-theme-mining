@@ -21,6 +21,130 @@ cross-source interpretation and open questions.
 
 The reading experience must connect findings, subthemes and larger themes by meaning. Explain each link, distinguish supported results from open questions, and let readers move from the big picture to related findings and their sources. Maintain matching Markdown and HTML from one shared record where practical. HTML must be easy to search, navigate and read on a phone as well as a desktop. The current starting point is the [connected reading guide](site/us-theme-atlas.html).
 
+## The detailed end-to-end goal to pursue
+
+The research objective is to explain, with disciplined evidence, how ordinary
+conditions in American life become durable changes in culture, social
+behavior, institutional legitimacy, firm strategy, public capacity, political
+action, and geopolitical room to act.
+
+The program should begin with a concrete change that people or organizations
+can actually encounter: a price increase, a payment rule, a benefit notice, a
+care need, a schedule change, an automated decision, a new platform practice,
+a housing or insurance shock, an infrastructure investment, a supply-chain
+dependency, a labor-market reorganization, or a state or firm response. It
+should then follow that change through the sequence of constraints and choices
+that make it consequential. The central question is not merely whether a
+number moved. It is what the movement makes possible or impossible for
+different people, firms, places, and institutions.
+
+For each important theme, pursue the fullest defensible chain:
+
+```text
+observable condition or shock
+  -> exposure and incidence
+  -> price, payment, time, access, health, status, control, or security effect
+  -> available alternatives and practical room to maneuver
+  -> adaptation: delay, substitution, borrowing, giving up, staying, moving,
+     switching, organizing, reporting, seeking help, or going without
+  -> household, worker, consumer, firm, community, or institutional outcome
+  -> official, market, platform, employer, legal, or political response
+  -> redistribution of cost, risk, ownership, information, waiting, and power
+  -> trust, meaning, identity, legitimacy, collective action, or exit
+  -> sector capacity, state capacity, dependence, alliance position, or
+     geopolitical leverage
+```
+
+The purpose is not to force every project into one artificial causal model.
+The purpose is to determine how far each chain can honestly travel. Every
+arrow must therefore be classified as directly observed, reported by a
+source, estimated, experimentally identified, longitudinally associated,
+compared across populations or places, inferred across separate sources, or
+still open. A persuasive interpretation is useful only when the reader can
+see which of those statuses it has.
+
+### What the program should discover
+
+The program should identify recurring structures beneath visible events. It
+should ask whether a headline change is isolated or part of a repeatable
+pattern; whether the same pressure reaches groups differently; whether people
+have meaningful alternatives or only nominal choices; whether adaptation
+protects one outcome by sacrificing another; whether institutional routes
+repair the problem or merely record it; and whether the resulting experience
+changes trust, identity, political judgment, civic participation, consumer
+behavior, firm exposure, or state legitimacy.
+
+The recurring objects of study are household room; time and care; consumer
+power and recourse; platforms, data, and attention; work, control, and
+bargaining; health and social reproduction; housing, place, and mobility;
+unequal exposure and status; trust and cultural meaning; public systems and
+policy feedback; political judgment and collective action; firm and market
+power; infrastructure and dependency; and geopolitical or state consequence.
+Together these themes describe not only what changes, but who can respond,
+who must wait, who absorbs the loss, and who gains decision power.
+
+### How to pursue it
+
+Every research pass should choose one bounded question, one primary unit, a
+defined time window, a geography, affected groups, a mechanism, a plausible
+counterexample, and a stopping rule. It should acquire and preserve the
+source before interpreting it; record the source’s population, denominator,
+measure, method, date, revision, and access limits; extract claims rather than
+copying prose; and retain the smallest evidence needed for another researcher
+to reproduce the result.
+
+The work should move through five linked layers:
+
+1. **Condition:** establish what changed and for whom using the appropriate
+   administrative, survey, market, firm, public-record, or research source.
+2. **Mechanism:** identify the constraint, choice, or institutional route that
+   could carry the change into daily life or organizational behavior.
+3. **Distribution:** test differences by income, wealth, race and ethnicity,
+   age, gender, disability, family structure, tenure, migration status,
+   geography, sector, ownership, and institutional access where supported.
+4. **Consequence:** examine protected and sacrificed outcomes, adaptation,
+   persistence, reversal, recovery, trust, action, switching, exit, firm
+   exposure, public capacity, or external response.
+5. **Re-test:** add another period, source family, place, subgroup, design,
+   counterexample, or negative case before strengthening the trend claim.
+
+Cross-source synthesis should connect compatible stages without pretending
+that different respondents, households, complaints, workers, firms, places,
+or countries are one shared observation. When a same-unit or valid matched
+design is unavailable, publish a layered bridge and state the missing join
+explicitly. An acquisition failure, unavailable identifier, incompatible
+universe, or missing variance file is itself a result about the boundary of
+what can currently be known—not permission to fill the gap with assumption.
+
+### The end state
+
+The desired outcome is a maintained, searchable, source-traceable atlas that
+lets a reader move from a broad societal theme to a measured observation, its
+method and limitation, the people and places affected, the response options
+available, related findings, counterexamples, and the next decisive test. It
+should show not only where pressure is high, but who has alternatives; not
+only where institutions are present, but whether they are reachable and
+effective; not only where firms or states invest, but whether capability is
+realized, portable, replaceable, and connected to actual power.
+
+The program should gradually close the most important open middle: a dated
+event linked to exposure, alternatives, money and time substitution, a
+protected or sacrificed outcome, recovery, and subsequent meaning or action.
+The material/time/care lane is the first place to pursue that depth, using
+MEPS, SIPP, SHED, ATUS, PSID when access permits, and compatible event records.
+Parallel lanes should continue testing consumer recourse, AI and work
+control, local capacity, migration and belonging, public-system access,
+financial intermediation, and domestic capability/dependence so that depth
+does not collapse the 14-theme scope.
+
+Success is not a prediction engine, a universal stress index, a theory that
+explains every political outcome, or a large pile of loosely related sources.
+Success is an increasingly reliable map of recurring change: what is
+happening, how it enters lived and organizational experience, who can adapt,
+who bears the residual risk, which institutions respond, how meaning and
+power shift, what wider state or geopolitical consequences are plausible, and
+exactly what remains unproven.
+
 The main object is the American customer, consumer, household, worker, investor, voter, and public institution. International evidence is used when it changes the conditions facing people or firms in the United States, or when it gives us a useful comparison. The project is not a general world-news digest.
 
 The system will mine research stories, working papers, datasets, public records, company evidence, surveys, and security data. It will connect those sources across four questions:
