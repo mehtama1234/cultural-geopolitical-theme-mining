@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-231 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+232 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -406,7 +406,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is a weighted cross-sectional GSS 2024 comparison. It does not establish that financial satisfaction or trajectory causes trust, fairness judgments, ideology, or vote intention; it does not measure a specific bill, local exposure, institutional remedy, cultural identity formation, or geopolitical action. The 2024 file has module-specific missingness and changed multi-mode design, so it should not be treated as a direct unadjusted continuation of earlier GSS years without a separate trend audit.
 
-| Health-cost burden, credit response, and confidence form linked evidence surfaces but not a same-episode causal chain | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, trust_identity_meaning, political_judgment_action, public_systems_feedback | Non-pooled SHED panel, CFPB credit panel/regulatory record, and Census HTOPS respondent comparison | United States | 3 | 2024 to 2025; SHED care-foregoing persistence path; 2017 to 2025; CFPB medical collections credit-system route; July 15 to August 3, 2026; expense difficulty and institutional confidence | compared; inferred-across-sources; reported | [open](records/us-health-cost-institutional-legitimacy-bridge-2022-2026.json) |
+| Health-cost burden, credit response, and confidence form linked evidence surfaces but not a same-episode causal chain | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, trust_identity_meaning, political_judgment_action, public_systems_feedback | Non-pooled SHED panel, CFPB credit panel/regulatory record, and Census HTOPS respondent comparison | United States | 3 | 2024 to 2025; SHED care-foregoing persistence path; 2017 to 2025; CFPB medical collections credit-system route; July 15 to August 3, 2026; expense difficulty and institutional confidence | compared; inferred | [open](records/us-health-cost-institutional-legitimacy-bridge-2022-2026.json) |
 
 **Boundary:** This is a non-pooled conversion hypothesis. It does not establish that a health-cost event caused a credit outcome, confidence judgment, trust change, political action, or legitimacy shift.
 
@@ -705,6 +705,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Care foregoing entry, exit, and persistence coincide with distinct 2025 adaptation surfaces | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | SHED respondent recontact panel, 2024 to 2025 | United States | 4 | 2024 to 2025; no listed cost-related care foregoing to no listed care foregoing; 2024 to 2025; no listed cost-related care foregoing to any listed care foregoing; 2024 to 2025; any listed cost-related care foregoing to no listed care foregoing; 2024 to 2025; any listed cost-related care foregoing to any listed care foregoing | compared | [open](records/us-shed-panel-care-foregoing-paths-2024-2025.json) |
 
 **Boundary:** The panel transition does not establish the bill, need, amount, alternative, care continuity, payment timing, recovery, institutional remedy, trust, or political action.
+
+| Coverage transitions are associated with different care-foregoing persistence routes | cost, time, voice | care_health_reproduction, unequal_exposure_status, household_room_consumption, public_systems_feedback | SHED respondent recontact panel, 2024 to 2025 | United States | 4 | 2024 to 2025; insured to insured; 2024 to 2025; insured to uninsured; 2024 to 2025; uninsured to insured; 2024 to 2025; uninsured to uninsured | compared | [open](records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json) |
+
+**Boundary:** Coverage transition comparisons do not establish insurance effects, plan adequacy, bill timing, treatment continuity, recovery, institutional remedy, trust, or political action.
 
 | SIPP care/work measures retain distinct child-presence and reference-parent universes | time, work, cost | time_hidden_price, care_health_reproduction, work_control_bargaining, household_room_consumption, unequal_exposure_status | SIPP person record by reference month, stratified by household members under 18 recode, using final person and Fay-BRR replicate weights | United States | 2 | 2024 reference year; no household members under 18; 2024 reference year; one or more household members under 18 | estimated | [open](records/us-sipp-care-work-children-official-variance-2024.json) |
 

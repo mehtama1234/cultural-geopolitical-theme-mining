@@ -76,7 +76,7 @@ def main() -> None:
     old = {clean(row.get("shedid")): row for row in old_rows}
     required_new = {"shedid", "panel_weight", *CARE_FIELDS, *INSURANCE_FIELDS}
     required_new |= {field for field, _ in OUTCOMES.values()}
-    required_old = {"shedid", *CARE_FIELDS}
+    required_old = {"shedid", *CARE_FIELDS, *INSURANCE_FIELDS}
     missing = sorted(required_new - set(new_rows[0] if new_rows else {}))
     missing_old = sorted(required_old - set(old_rows[0] if old_rows else {}))
     if missing or missing_old:
@@ -102,6 +102,7 @@ def main() -> None:
         "causal_estimation": False,
         "method": "Link 2024 and 2025 public-use records by shedid; require complete Yes/No answers on all five listed cost-related care fields in both years; any Yes defines care foregoing; use 2025 panel_weight.",
         "paths": {},
+        "coverage_transition_groups": {},
         "limitation": "Annual recontact identifies persistence, entry, and exit of reported care foregoing but not a dated bill, clinical need, amount, alternative, treatment continuity, or causal order. Panel attrition and item-specific valid universes remain relevant.",
     }
 
@@ -120,6 +121,28 @@ def main() -> None:
                 insured_valid, lambda item: insured_status(item[1]) == "insured"
             )
             result["paths"][path] = entry
+
+    coverage_pairs = [item for item in pairs if insured_status(item[0]) is not None and insured_status(item[1]) is not None]
+    for before in ["insured", "uninsured"]:
+        for after in ["insured", "uninsured"]:
+            transition = f"{before}_to_{after}"
+            transition_pairs = [item for item in coverage_pairs if insured_status(item[0]) == before and insured_status(item[1]) == after]
+            entry = {"pairs": len(transition_pairs), "care_paths_2024_to_2025": {}, "outcomes_2025": {}}
+            for care_before in ["Yes", "No"]:
+                for care_after in ["Yes", "No"]:
+                    care_path = f"{care_before.lower()}_to_{care_after.lower()}"
+                    entry["care_paths_2024_to_2025"][care_path] = weighted_share(
+                        transition_pairs,
+                        lambda item, care_before=care_before, care_after=care_after: (
+                            care_status(item[0]) == care_before and care_status(item[1]) == care_after
+                        ),
+                    )
+            for name, (field, yes_values) in OUTCOMES.items():
+                def selector(item, field=field, yes_values=yes_values):
+                    value = clean(item[1].get(field))
+                    return None if not value else value in yes_values
+                entry["outcomes_2025"][name] = weighted_share(transition_pairs, selector)
+            result["coverage_transition_groups"][transition] = entry
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

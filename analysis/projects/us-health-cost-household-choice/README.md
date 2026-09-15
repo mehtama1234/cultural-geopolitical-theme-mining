@@ -79,6 +79,11 @@ expense-difficulty/confidence contrast. It labels the final legitimacy arrow
 as inferred across sources and open, because no source yet follows one health
 bill through remedy to a later trust or political-action judgment.
 
+The [coverage-transition care-foregoing layer](shed-panel-coverage-care-foregoing-paths-v1.md)
+tests the institutional alternative itself. Stable insured respondents have the
+largest no-foregoing share, while persistent uninsured respondents have the
+largest persistence share; the small transition cells remain descriptive.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
