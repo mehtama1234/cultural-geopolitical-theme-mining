@@ -48,6 +48,20 @@ was 2.72%, 3.06%, and 12.18%, respectively. The uninsured contrast is a
 distributional signal, not proof that coverage alone caused the difference;
 need, age, employment, access, and selection remain alternative explanations.
 
+The intersection is more informative than either margin alone. The output
+retains “not confident” and “confident” groups within each insurance category,
+so insured respondents with little financial room remain visible instead of
+being absorbed into an “insured” average. These cells are descriptive and
+should be inspected with their valid counts before any subgroup claim is made.
+
+The private-coverage intersection illustrates the point: cost-related
+medical-care delay was 18.29% among privately insured respondents who were not
+confident paying an unexpected expense, versus 4.93% among privately insured
+respondents who were confident. Among uninsured respondents, the corresponding
+shares were 28.48% and 14.77%. The uninsured cells are smaller, and neither
+contrast identifies plan generosity, severity, or a causal insurance effect;
+they show that coverage status does not exhaust practical room.
+
 That distinction matters in the extracted results. Cost-related medical-care
 delay was 4.57% with no medical debt, 13.70% with $0–$500, 19.31% with
 $2,001–$5,000, 14.53% with $5,001–$10,000, 24.26% with $10,001–$20,000, and

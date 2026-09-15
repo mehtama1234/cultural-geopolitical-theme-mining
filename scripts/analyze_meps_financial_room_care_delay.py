@@ -79,6 +79,13 @@ def main() -> int:
     coverage = {1: "any_private", 2: "public_only", 3: "uninsured"}
     for code, label in coverage.items():
         output["coverage_groups"][label] = summarize(frame.loc[frame["INSCOV24"].eq(code)])
+    output["coverage_by_confidence"] = {}
+    for coverage_code, coverage_label in coverage.items():
+        covered = frame["INSCOV24"].eq(coverage_code)
+        output["coverage_by_confidence"][coverage_label] = {
+            "not_confident": summarize(frame.loc[covered & frame["FWUNEXP42"].isin([1, 2])]),
+            "confident": summarize(frame.loc[covered & frame["FWUNEXP42"].isin([3, 4])]),
+        }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, indent=2, sort_keys=True))

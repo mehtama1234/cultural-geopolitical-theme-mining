@@ -43,6 +43,56 @@
       "records": 11883
     }
   },
+  "coverage_by_confidence": {
+    "any_private": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 2.0697619072029214,
+        "could_not_afford_prescription_percent": 1.4359545143873715,
+        "delayed_medical_care_for_cost_percent": 4.928231584302345,
+        "delayed_prescription_for_cost_percent": 2.1059566712487525,
+        "records": 9903
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 11.171243652025987,
+        "could_not_afford_prescription_percent": 9.210977301871587,
+        "delayed_medical_care_for_cost_percent": 18.286884175068277,
+        "delayed_prescription_for_cost_percent": 9.574409239405115,
+        "records": 837
+      }
+    },
+    "public_only": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 1.8571762333395927,
+        "could_not_afford_prescription_percent": 2.1459128707087323,
+        "delayed_medical_care_for_cost_percent": 4.458425266682752,
+        "delayed_prescription_for_cost_percent": 2.7486139790921125,
+        "records": 4750
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 6.639355721113335,
+        "could_not_afford_prescription_percent": 6.7719688825345985,
+        "delayed_medical_care_for_cost_percent": 8.397396228094047,
+        "delayed_prescription_for_cost_percent": 6.368283004535384,
+        "records": 1787
+      }
+    },
+    "uninsured": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 7.838214662455247,
+        "could_not_afford_prescription_percent": 3.520424606748365,
+        "delayed_medical_care_for_cost_percent": 14.765222574066547,
+        "delayed_prescription_for_cost_percent": 4.79340387892315,
+        "records": 855
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 26.902215113722246,
+        "could_not_afford_prescription_percent": 13.601732186359428,
+        "delayed_medical_care_for_cost_percent": 28.479672564624263,
+        "delayed_prescription_for_cost_percent": 14.220807617910816,
+        "records": 319
+      }
+    }
+  },
   "coverage_groups": {
     "any_private": {
       "could_not_afford_medical_care_percent": 2.7227092855799317,
