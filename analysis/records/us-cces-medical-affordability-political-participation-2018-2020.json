@@ -59,7 +59,10 @@
         "jan_feb_2020_contact_official": {"value": 11.9, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
         "march_2020_or_later_contact_official": {"value": 31.1, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
         "before_2020_protest": {"value": 10.1, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
-        "march_2020_or_later_protest": {"value": 9.7, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"}
+        "march_2020_or_later_protest": {"value": 9.7, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
+        "pooled_contact_odds_ratio": {"value": 1.831, "unit": "odds ratio; 95% model interval 1.219–2.750; 1,771 complete cases", "value_type": "pooled_weighted_logistic_screen"},
+        "pooled_contact_hardship_2020_interaction": {"value": 0.956, "unit": "odds ratio; 95% model interval 0.488–1.871; p=0.896", "value_type": "pooled_year_interaction_screen"},
+        "pooled_protest_hardship_2020_interaction": {"value": 1.056, "unit": "odds ratio; 95% model interval 0.380–2.931; p=0.917", "value_type": "pooled_year_interaction_screen"}
       },
       "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
       "uncertainty": "No reproduced design-based standard errors are claimed. A basic weighted logistic screening extension gives contact OR 1.799 (model-robust 95% interval 1.023–3.164) and sign OR 0.510 (0.268–0.971); these are not survey-design intervals. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",

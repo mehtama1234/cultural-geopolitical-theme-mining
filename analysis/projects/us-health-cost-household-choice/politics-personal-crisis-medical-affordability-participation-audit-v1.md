@@ -220,6 +220,15 @@ disengagement hypothesis, but the model is not a causal estimate and the
 intervals are not design-based. The contact result should therefore be treated
 as a candidate for a properly weighted survey-design replication.
 
+A pooled model combining the two extracts gives a medical-hardship contact odds
+ratio of 1.83 (HC1 model-robust 95% interval 1.22–2.75; 1,771 complete cases).
+The hardship × 2020 interaction is 0.96 (0.49–1.87; p=0.896), so this screen
+does not distinguish the 2018 and 2020 contact associations. The corresponding
+protest interaction is 1.06 (0.38–2.93; p=0.917). This is a stability screen,
+not a pooled population estimate: the extracts have different survey contexts,
+the weights are not harmonized into a longitudinal design, and uncertainty is
+model-robust rather than survey-design based.
+
 ## What the published paper establishes
 
 The paper analyzes CES Common Content/Module data from 2018 and 2020, along

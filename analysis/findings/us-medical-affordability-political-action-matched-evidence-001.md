@@ -90,6 +90,12 @@ weighted design. It does not establish that medical hardship caused contact:
 health, income, insurance, other crises, ideology, prior participation,
 question order, and pandemic context can all shape the result.
 
+A pooled 2018–2020 screen estimates contact OR 1.83 (1.22–2.75) across 1,771
+complete cases. The hardship-by-2020 interaction is 0.96 (0.49–1.87), so the
+screen does not detect a difference between the two year-specific contact
+associations. This is model-robust exploratory evidence, not a harmonized
+survey-design estimate.
+
 ## The deeper finding
 
 The contact result is best read as a possible conversion from private burden

@@ -210,6 +210,30 @@ def timing(frame: pd.DataFrame) -> dict[str, object]:
     return {"hardship_records": int(len(hardship)), "groups": groups}
 
 
+def pooled_year_interaction_screen(frames: list[pd.DataFrame]) -> dict[str, object]:
+    frame = pd.concat(frames, ignore_index=True)
+    fields = ["crisis_medexp", "other_crises", *CONTROLS, "year2020", "teamweight"]
+    result: dict[str, object] = {}
+    for outcome in ["part_contact", "part_protest"]:
+        data = frame[fields + [outcome]].copy()
+        data = data.apply(pd.to_numeric, errors="coerce").replace([np.inf, -np.inf], np.nan).dropna()
+        data["hardship_x_2020"] = data["crisis_medexp"] * data["year2020"]
+        columns = ["crisis_medexp", "other_crises", *CONTROLS, "year2020", "hardship_x_2020"]
+        x = sm.add_constant(data[columns].astype(float))
+        fit = sm.GLM(data[outcome].astype(float), x, family=sm.families.Binomial(), freq_weights=data.teamweight.astype(float)).fit(cov_type="HC1")
+        effects: dict[str, object] = {}
+        for name in ["crisis_medexp", "hardship_x_2020"]:
+            coefficient = float(fit.params[name])
+            standard_error = float(fit.bse[name])
+            effects[name] = {
+                "odds_ratio": float(np.exp(coefficient)),
+                "interval_95_model_robust": [float(np.exp(coefficient - 1.96 * standard_error)), float(np.exp(coefficient + 1.96 * standard_error))],
+                "p_value": float(fit.pvalues[name]),
+            }
+        result[outcome] = {"records": int(len(data)), "effects": effects}
+    return result
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-2018", type=Path, required=True)
@@ -225,8 +249,11 @@ def main() -> None:
         "boundary": "The published study models total crisis count. Medical-specific estimates here are analyst-produced descriptive and adjusted screens.",
         "years": {},
     }
+    frames: list[pd.DataFrame] = []
     for year, path in (("2018", args.input_2018), ("2020", args.input_2020)):
         frame, source = read_extract(path, year)
+        frame["year2020"] = int(year == "2020")
+        frames.append(frame)
         outputs["years"][year] = {
             "source": source,
             "descriptive": descriptive(frame),
@@ -234,6 +261,7 @@ def main() -> None:
             "attribution": attribution(frame),
             "timing": timing(frame),
         }
+    outputs["pooled_year_interaction_screen"] = pooled_year_interaction_screen(frames)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(outputs, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(outputs, indent=2, sort_keys=True))
