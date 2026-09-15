@@ -49,6 +49,10 @@ The [MEPS 2024 reproducibility audit](meps-2024-reproducibility-audit-v1.md)
 re-acquires the official HC-256 and HC-036BRR archives, reproduces the
 headline person-level estimates, and records the remaining event-linkage gap.
 
+The [MEPS 2024 event-linkage audit](meps-2024-event-linkage-audit-v1.md)
+confirms exact person/event keys across four files and identifies the
+prescription timing limitation that must remain visible in any episode result.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
