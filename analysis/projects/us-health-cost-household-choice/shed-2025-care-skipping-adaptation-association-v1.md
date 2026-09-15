@@ -107,6 +107,28 @@ specific skipped type are consistent with a financial constraint pathway, but
 they could also reflect greater illness, greater utilization, different
 coverage, or a need that is more likely to generate debt.
 
+## Coverage changes the route, not necessarily the residual burden
+
+Using the six 2025 health-coverage indicators (`E4_a`–`E4_f`), respondents
+with any reported coverage were separated from respondents with none. The
+weighted share reporting any cost-related care foregoing was **23.77%** among
+the insured group and **44.72%** among the uninsured group. Within each group,
+the care-choice and concurrent-outcome pattern was:
+
+| Coverage / care-foregoing status | Medical debt | Unexpected major medical expense |
+|---|---:|---:|
+| Insured, any care skipped | 42.58% | 38.18% |
+| Insured, no listed care skipped | 10.04% | 16.80% |
+| Uninsured, any care skipped | 40.13% | 24.87% |
+| Uninsured, no listed care skipped | 9.88% | 7.80% |
+
+This is a useful counterexample to treating insurance as a complete solution.
+Coverage is associated with less reported foregoing overall, but medical debt
+among those who still skipped care is high in both coverage groups. The higher
+unexpected-expense share among insured skippers is also a warning against a
+simple uninsured-versus-insured burden ranking: insurance, illness, care
+seeking, plan design, and realized expense selection are entangled.
+
 ## Next decisive join
 
 The next step is to separate timing and mechanism: identify whether the

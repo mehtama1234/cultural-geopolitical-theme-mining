@@ -924,6 +924,334 @@
       "weighted_share_of_complete_care_foregoing_sample": 25.715
     }
   },
+  "insurance_groups": {
+    "insured": {
+      "any_care_skipped": {
+        "nonmissing_rows": 11909,
+        "percent": 23.772,
+        "weighted_denominator": 11733.865
+      },
+      "care_types_skipped": {
+        "E1_a": {
+          "nonmissing_rows": 11909,
+          "percent": 8.02,
+          "weighted_denominator": 11733.865
+        },
+        "E1_b": {
+          "nonmissing_rows": 11909,
+          "percent": 12.636,
+          "weighted_denominator": 11733.865
+        },
+        "E1_c": {
+          "nonmissing_rows": 11909,
+          "percent": 8.598,
+          "weighted_denominator": 11733.865
+        },
+        "E1_d": {
+          "nonmissing_rows": 11909,
+          "percent": 15.749,
+          "weighted_denominator": 11733.865
+        },
+        "E1_e": {
+          "nonmissing_rows": 11909,
+          "percent": 8.426,
+          "weighted_denominator": 11733.865
+        }
+      },
+      "outcomes": {
+        "delayed_major_purchase": {
+          "nonmissing_rows": 11909,
+          "percent": 45.465,
+          "weighted_denominator": 11733.865
+        },
+        "increased_borrowing": {
+          "nonmissing_rows": 11909,
+          "percent": 15.019,
+          "weighted_denominator": 11733.865
+        },
+        "medical_debt": {
+          "nonmissing_rows": 11909,
+          "percent": 17.776,
+          "weighted_denominator": 11733.865
+        },
+        "reduced_savings": {
+          "nonmissing_rows": 11909,
+          "percent": 40.947,
+          "weighted_denominator": 11733.865
+        },
+        "three_month_emergency_funds": {
+          "nonmissing_rows": 11909,
+          "percent": 57.963,
+          "weighted_denominator": 11733.865
+        },
+        "unexpected_major_medical_expense": {
+          "nonmissing_rows": 11909,
+          "percent": 21.879,
+          "weighted_denominator": 11733.865
+        },
+        "used_less_or_stopped_products": {
+          "nonmissing_rows": 11909,
+          "percent": 59.89,
+          "weighted_denominator": 11733.865
+        },
+        "worked_more_or_got_job": {
+          "nonmissing_rows": 11909,
+          "percent": 16.1,
+          "weighted_denominator": 11733.865
+        }
+      },
+      "outcomes_by_care_skipping": {
+        "No": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 9113,
+            "percent": 36.161,
+            "weighted_denominator": 8944.521
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 9113,
+            "percent": 9.393,
+            "weighted_denominator": 8944.521
+          },
+          "medical_debt": {
+            "nonmissing_rows": 9113,
+            "percent": 10.042,
+            "weighted_denominator": 8944.521
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 9113,
+            "percent": 33.399,
+            "weighted_denominator": 8944.521
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 9113,
+            "percent": 65.557,
+            "weighted_denominator": 8944.521
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 9113,
+            "percent": 16.795,
+            "weighted_denominator": 8944.521
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 9113,
+            "percent": 52.593,
+            "weighted_denominator": 8944.521
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 9113,
+            "percent": 11.339,
+            "weighted_denominator": 8944.521
+          }
+        },
+        "Yes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 2796,
+            "percent": 75.3,
+            "weighted_denominator": 2789.344
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 2796,
+            "percent": 33.062,
+            "weighted_denominator": 2789.344
+          },
+          "medical_debt": {
+            "nonmissing_rows": 2796,
+            "percent": 42.576,
+            "weighted_denominator": 2789.344
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 2796,
+            "percent": 65.151,
+            "weighted_denominator": 2789.344
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 2796,
+            "percent": 33.61,
+            "weighted_denominator": 2789.344
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 2796,
+            "percent": 38.182,
+            "weighted_denominator": 2789.344
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 2796,
+            "percent": 83.291,
+            "weighted_denominator": 2789.344
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 2796,
+            "percent": 31.366,
+            "weighted_denominator": 2789.344
+          }
+        }
+      },
+      "rows": 11909
+    },
+    "uninsured": {
+      "any_care_skipped": {
+        "nonmissing_rows": 1025,
+        "percent": 44.717,
+        "weighted_denominator": 1200.122
+      },
+      "care_types_skipped": {
+        "E1_a": {
+          "nonmissing_rows": 1025,
+          "percent": 18.925,
+          "weighted_denominator": 1200.122
+        },
+        "E1_b": {
+          "nonmissing_rows": 1025,
+          "percent": 34.737,
+          "weighted_denominator": 1200.122
+        },
+        "E1_c": {
+          "nonmissing_rows": 1025,
+          "percent": 20.827,
+          "weighted_denominator": 1200.122
+        },
+        "E1_d": {
+          "nonmissing_rows": 1025,
+          "percent": 35.688,
+          "weighted_denominator": 1200.122
+        },
+        "E1_e": {
+          "nonmissing_rows": 1025,
+          "percent": 21.35,
+          "weighted_denominator": 1200.122
+        }
+      },
+      "outcomes": {
+        "delayed_major_purchase": {
+          "nonmissing_rows": 1025,
+          "percent": 46.771,
+          "weighted_denominator": 1200.122
+        },
+        "increased_borrowing": {
+          "nonmissing_rows": 1025,
+          "percent": 24.678,
+          "weighted_denominator": 1200.122
+        },
+        "medical_debt": {
+          "nonmissing_rows": 1025,
+          "percent": 23.407,
+          "weighted_denominator": 1200.122
+        },
+        "reduced_savings": {
+          "nonmissing_rows": 1025,
+          "percent": 41.868,
+          "weighted_denominator": 1200.122
+        },
+        "three_month_emergency_funds": {
+          "nonmissing_rows": 1025,
+          "percent": 23.5,
+          "weighted_denominator": 1200.122
+        },
+        "unexpected_major_medical_expense": {
+          "nonmissing_rows": 1025,
+          "percent": 15.432,
+          "weighted_denominator": 1200.122
+        },
+        "used_less_or_stopped_products": {
+          "nonmissing_rows": 1025,
+          "percent": 57.971,
+          "weighted_denominator": 1200.122
+        },
+        "worked_more_or_got_job": {
+          "nonmissing_rows": 1025,
+          "percent": 26.25,
+          "weighted_denominator": 1200.122
+        }
+      },
+      "outcomes_by_care_skipping": {
+        "No": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 549,
+            "percent": 28.672,
+            "weighted_denominator": 663.465
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 549,
+            "percent": 13.04,
+            "weighted_denominator": 663.465
+          },
+          "medical_debt": {
+            "nonmissing_rows": 549,
+            "percent": 9.879,
+            "weighted_denominator": 663.465
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 549,
+            "percent": 28.583,
+            "weighted_denominator": 663.465
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 549,
+            "percent": 26.128,
+            "weighted_denominator": 663.465
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 549,
+            "percent": 7.801,
+            "weighted_denominator": 663.465
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 549,
+            "percent": 40.129,
+            "weighted_denominator": 663.465
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 549,
+            "percent": 13.983,
+            "weighted_denominator": 663.465
+          }
+        },
+        "Yes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 476,
+            "percent": 69.146,
+            "weighted_denominator": 536.657
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 476,
+            "percent": 39.065,
+            "weighted_denominator": 536.657
+          },
+          "medical_debt": {
+            "nonmissing_rows": 476,
+            "percent": 40.133,
+            "weighted_denominator": 536.657
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 476,
+            "percent": 58.293,
+            "weighted_denominator": 536.657
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 476,
+            "percent": 20.251,
+            "weighted_denominator": 536.657
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 476,
+            "percent": 24.866,
+            "weighted_denominator": 536.657
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 476,
+            "percent": 80.028,
+            "weighted_denominator": 536.657
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 476,
+            "percent": 41.416,
+            "weighted_denominator": 536.657
+          }
+        }
+      },
+      "rows": 1025
+    }
+  },
   "limitation": "Care foregoing, debt, medical expense, and price adaptations share a prior-12-month or current cross-sectional frame. The data do not identify the same bill, clinical need, timing, alternative, payment obligation, or whether care foregoing caused the financial outcome.",
   "method": "All five E1 care-foregoing fields must be observed; any Yes defines cost-related care foregoing. Outcomes are weighted same-respondent cross-sectional comparisons, not dated bill outcomes or causal estimates.",
   "rows": 12934,

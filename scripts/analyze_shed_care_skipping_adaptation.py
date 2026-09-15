@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 CARE_FIELDS = ["E1_a", "E1_b", "E1_c", "E1_d", "E1_e"]
+INSURANCE_FIELDS = ["E4_a", "E4_b", "E4_c", "E4_d", "E4_e", "E4_f"]
 METRICS = {
     "medical_debt": ("E2B", {"Yes"}),
     "unexpected_major_medical_expense": ("E2", {"Yes"}),
@@ -76,7 +77,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     rows = read_rows(args.input)
-    required = {"shedid", "weight", AMOUNT_FIELD, *CARE_FIELDS} | {field for field, _ in METRICS.values()}
+    required = {"shedid", "weight", AMOUNT_FIELD, *CARE_FIELDS, *INSURANCE_FIELDS} | {field for field, _ in METRICS.values()}
     missing = sorted(required - set(rows[0] if rows else {}))
     if missing:
         raise ValueError("missing required fields: " + ", ".join(missing))
@@ -88,6 +89,10 @@ def main() -> int:
             continue
         row = dict(row)
         row["care_skipped_any"] = "Yes" if "Yes" in answers else "No"
+        insurance = [clean(row.get(field)) for field in INSURANCE_FIELDS]
+        if not all(answer in {"Yes", "No"} for answer in insurance):
+            continue
+        row["insurance_status"] = "insured" if "Yes" in insurance else "uninsured"
         care_rows.append(row)
 
     result: dict[str, object] = {
@@ -130,6 +135,32 @@ def main() -> int:
                 },
                 "unexpected_medical_expense_amount_band": weighted_distribution(subset, AMOUNT_FIELD),
             }
+
+    result["insurance_groups"] = {}
+    for insurance_status in ["insured", "uninsured"]:
+        subset = [row for row in care_rows if row["insurance_status"] == insurance_status]
+        result["insurance_groups"][insurance_status] = {
+            "rows": len(subset),
+            "any_care_skipped": weighted_share(subset, "care_skipped_any", {"Yes"}),
+            "care_types_skipped": {
+                field: weighted_share(subset, field, {"Yes"}) for field in CARE_FIELDS
+            },
+            "outcomes": {
+                name: weighted_share(subset, field, yes_values)
+                for name, (field, yes_values) in METRICS.items()
+            },
+            "outcomes_by_care_skipping": {
+                care_status: {
+                    name: weighted_share(
+                        [row for row in subset if row["care_skipped_any"] == care_status],
+                        field,
+                        yes_values,
+                    )
+                    for name, (field, yes_values) in METRICS.items()
+                }
+                for care_status in ["Yes", "No"]
+            },
+        }
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-224 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+225 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -645,6 +645,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Cost-related care foregoing is a population-level choice stage absent from observed-care files | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status, time_hidden_price | US adult respondent; 2025 Federal Reserve SHED published report | United States | 6 | 2025; any medical treatment skipped because of cost; 2025; care type skipped because of cost; 2025; care skipped because of cost by family income; 2025; care skipped because of cost by insurance status; 2025; medical debt; 2024->2025; annual SHED care-foregoing comparison | compared; reported | [open](records/us-shed-2025-care-skipping-choice.json) |
 
 **Boundary:** Published SHED evidence closes a population-level cost-related care-foregoing stage but does not establish a dated bill-to-choice-to-outcome episode, treatment quality, debt causation, recovery, remedy, trust, or political action.
+
+| Coverage changes the care-foregoing route without eliminating concurrent medical debt | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | US adult SHED 2025 respondent | United States | 4 | 2025; insured respondents with any cost-related care foregoing; 2025; insured respondents with no listed cost-related care foregoing; 2025; uninsured respondents with any cost-related care foregoing; 2025; uninsured respondents with no listed cost-related care foregoing | compared | [open](records/us-shed-2025-care-skipping-coverage-association.json) |
+
+**Boundary:** Coverage-conditioned same-respondent associations do not establish insurance effects, bill timing, clinical outcome, treatment alternative, institutional remedy, trust, or political action.
 
 | Care type skipped because of cost has distinct concurrent debt and expense distributions | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | US adult SHED 2025 respondent | United States | 5 | 2025; prescription medicine skipped because of cost; 2025; doctor or specialist skipped because of cost; 2025; mental health care skipped because of cost; 2025; dental care skipped because of cost; 2025; follow-up care skipped because of cost | compared | [open](records/us-shed-2025-care-type-burden-association.json) |
 
