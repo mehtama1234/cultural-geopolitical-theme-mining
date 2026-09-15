@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-reference-household-selection-2024",
+  "title": "Explicit household selection changes SIPP material-pressure diagnostics",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "unequal_exposure_status"],
+  "source_unit": "2025 SIPP person records by household-month, compared with one deterministic reference-person selection per household-month",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; household-month selection diagnostic",
+      "denominator": {"value": 166706, "unit": "selected household-month records from 379,215 person-record/month rows; ERP=1 preferred, then lowest PNUM", "value_type": "unweighted_selected_household_months"},
+      "measures": {
+        "unable_to_pay_rent_or_mortgage": {"value": 4.489, "unit": "percent; pseudo Fay-BRR SE 0.213 percentage points; approximate 95% interval 4.071–4.907", "value_type": "selected_reference_person_weighted_diagnostic", "valid_records": 166706},
+        "unable_to_pay_utility_bills": {"value": 6.458, "unit": "percent; pseudo Fay-BRR SE 0.246 percentage points; approximate 95% interval 5.976–6.941", "value_type": "selected_reference_person_weighted_diagnostic", "valid_records": 166706},
+        "high_or_marginal_food_security": {"value": 88.225, "unit": "percent; pseudo Fay-BRR SE 0.349 percentage points; approximate 95% interval 87.541–88.909", "value_type": "selected_reference_person_weighted_diagnostic", "valid_records": 166706}
+      },
+      "method": "One record per SSUID/SHHADID/SPANEL/SWAVE/MONTHCODE was selected by preferring ERP=1 and using the lowest PNUM as a deterministic fallback. The selected record retained WPFINWGT and matched to REPWGT1–240 by SSUID/PNUM/SPANEL/SWAVE/MONTHCODE; Fay BRR used G=240 and perturbation factor 0.5.",
+      "uncertainty": "The replicate intervals are sensitivity diagnostics because the extracted surface supplies a final person weight, not an official household weight. They do not establish official household prevalence.",
+      "subgroup": "Reference-person-selected household-month context; household fields are evaluated once per selected household-month.",
+      "counterinterpretation": "Selection reduces the utility-payment share by 0.605 percentage points, rent/mortgage difficulty by 0.148 points, and high/marginal food security by 0.338 points relative to the person-record view, but these differences may reflect the person-weight and selection rule rather than a substantive household pattern.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; person-record comparison",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight person-record/month rows; field-specific status flags retained", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {
+        "unable_to_pay_rent_or_mortgage": {"value": 4.637, "unit": "percent; point estimate from WPFINWGT person-record view", "value_type": "person_weighted_comparison", "valid_records": 378291},
+        "unable_to_pay_utility_bills": {"value": 7.063, "unit": "percent; point estimate from WPFINWGT person-record view", "value_type": "person_weighted_comparison", "valid_records": 378291},
+        "high_or_marginal_food_security": {"value": 88.563, "unit": "percent; point estimate from WPFINWGT person-record view", "value_type": "person_weighted_comparison", "valid_records": 378291}
+      },
+      "method": "All positive-final-weight person records were retained with field-specific nonblank and official status-flag rules. This is the comparison surface, not a household estimate.",
+      "uncertainty": "No replicate variance was computed for this comparison view in the selection diagnostic; the point estimates are retained only to show sensitivity to unit construction.",
+      "subgroup": "Person record by reference month, with household fields repeated on person records.",
+      "counterinterpretation": "The person-record view can overweight larger households when a repeated household field is interpreted as a household condition; the selected view avoids repeated rows but does not solve the absent household-weight problem.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official field labels, universe, and status-flag documentation.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive used for the selected-record sensitivity diagnostic.", "status": "official-replicate-weights"}
+  ],
+  "weight_surface_audit": {
+    "checked": "2026-09-14",
+    "schema_path": "/tmp/us-broad-sipp-2025/pu2025_schema.json",
+    "schema_sha256": "sha256:6cdc23c537ba1431540e62994f0c05e05e62920e785384872bf5b7c23fe8c241",
+    "schema_variable_count": 5203,
+    "weight_related_variables_found": ["WPFINWGT"],
+    "official_household_weight_found": false,
+    "interpretation": "The current 2025 public-use schema surface exposes the final person weight but no separately named household weight. The one-record-per-household-month results therefore remain sensitivity diagnostics, not official household prevalence estimates."
+  },
+  "boundary": "This record makes household selection explicit but does not create an official household-weighted estimate. It establishes selection sensitivity in a 2024-reference-year SIPP diagnostic, not a trend, causal price or bill effect, time displacement, recovery, trust change, or political action."
+}

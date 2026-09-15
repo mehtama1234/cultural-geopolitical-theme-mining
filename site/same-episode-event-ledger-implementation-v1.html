@@ -1,0 +1,309 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Same-episode public-system ledger implementation v1"><title>Same-episode public-system ledger implementation v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#why-this-is-the-next-bridge">Why this is the next bridge</a></li><li><a href="#linked-record-architecture">Linked record architecture</a></li><li class="toc-sub"><a href="#1-episode-table-episode">1. Episode table: episode</a></li><li class="toc-sub"><a href="#2-route-table-route-attempt">2. Route table: route_attempt</a></li><li class="toc-sub"><a href="#3-decision-and-benefit-table-decision-result">3. Decision and benefit table: decision_result</a></li><li class="toc-sub"><a href="#4-outcome-table-followup-outcome">4. Outcome table: followup_outcome</a></li><li class="toc-sub"><a href="#5-meaning-and-action-table-meaning-action">5. Meaning and action table: meaning_action</a></li><li><a href="#sampling-and-comparison-plan">Sampling and comparison plan</a></li><li><a href="#source-role-contract">Source-role contract</a></li><li><a href="#promotion-and-stop-rules">Promotion and stop rules</a></li><li><a href="#first-deliverable-after-acquisition">First deliverable after acquisition</a></li></ul></nav></div><article id="finding" class="memo"><h1>Same-episode public-system ledger implementation v1</h1>
+<p><strong>Checked:</strong> 2026-09-13<br />
+<strong>Scope:</strong> multi-person, multi-place public-benefit episodes; not a household
+case study<br />
+<strong>Status:</strong> executable acquisition and analysis specification; no real episode
+data claimed</p>
+<h2 id="why-this-is-the-next-bridge">Why this is the next bridge</h2>
+<p>The SIPP layers now connect a SNAP transition, its recorded reason, and a
+following material-hardship field. They still cannot observe the route that
+produced the transition. This implementation specification turns the missing
+middle into linked tables rather than another aggregate receipt statistic.</p>
+<pre><code class="language-text">need or rule exposure
+  -&gt; notice and route attempt
+  -&gt; effort, decision, delay, correction, or appeal
+  -&gt; amount, timing, interruption, or exit
+  -&gt; food/work/debt/health/housing result
+  -&gt; interpretation, trust, complaint, action, and agency response
+</code></pre>
+<p>Every table keeps its own source, date precision, universe, missingness, and
+evidence status. A blank is not a zero and an administrative absence is not a
+reported absence.</p>
+<p>The shared event-ledger schema now makes these controls mandatory at the event
+boundary as well: geography, date precision, denominator, method, missingness,
+and an explicit counterexample must be recorded before a staged episode can be
+used in a cross-source comparison. The <a href="../analysis/samples/US-BROAD-EVENT-LEDGER-SIMULATED_V1.json">simulated fixture</a>
+tests the contract only; it is not evidence.</p>
+<h2 id="linked-record-architecture">Linked record architecture</h2>
+<p>Use pseudonymous <code>episode_id</code>; never put a name, address, case number, or full
+date of birth in the research analysis table. Linkage keys are held separately
+under the consent and legal-basis record.</p>
+<h3 id="1-episode-table-episode">1. Episode table: <code>episode</code></h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>episode_id</code></td>
+<td>Pseudonymous episode identifier</td>
+</tr>
+<tr>
+<td><code>person_or_case_unit</code></td>
+<td>Adult, child, household, or administrative case; universe documented</td>
+</tr>
+<tr>
+<td><code>program</code>, <code>state</code>, <code>agency</code></td>
+<td>Program and administering context</td>
+</tr>
+<tr>
+<td><code>place_stratum</code></td>
+<td>Coarse place, urban/rural category, or office catchment</td>
+</tr>
+<tr>
+<td><code>episode_type</code></td>
+<td>New application, renewal, recertification, interruption, appeal, or exit</td>
+</tr>
+<tr>
+<td><code>need_onset_date</code>, <code>rule_exposure_date</code></td>
+<td>Exact, month-only, recalled, or unknown</td>
+</tr>
+<tr>
+<td><code>observation_start</code>, <code>observation_end</code></td>
+<td>Follow-up window and censoring status</td>
+</tr>
+<tr>
+<td><code>consent_linkage_status</code></td>
+<td>Permission, legal basis, linked sources, retention rule</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2-route-table-route-attempt">2. Route table: <code>route_attempt</code></h3>
+<p>One episode may have many attempts; do not overwrite failed attempts with the
+eventual successful channel.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>attempt_id</code>, <code>episode_id</code></td>
+<td>Stable link and attempt order</td>
+</tr>
+<tr>
+<td><code>attempt_date</code>, <code>date_precision</code></td>
+<td>When the contact occurred</td>
+</tr>
+<tr>
+<td><code>channel</code></td>
+<td>Office, phone, web, mail, text, community navigator, or other</td>
+</tr>
+<tr>
+<td><code>language</code>, <code>accommodation</code></td>
+<td>Language and disability/access accommodation requested or received</td>
+</tr>
+<tr>
+<td><code>notice_received</code>, <code>notice_understood</code></td>
+<td>Separate receipt from comprehension</td>
+</tr>
+<tr>
+<td><code>documents_requested</code>, <code>documents_submitted</code></td>
+<td>Requested and completed items, with unresolved item</td>
+</tr>
+<tr>
+<td><code>hours</code>, <code>travel_minutes</code>, <code>direct_cost</code>, <code>childcare_cost</code>, <code>missed_work</code></td>
+<td>Practical route burden with source and recall flag</td>
+</tr>
+<tr>
+<td><code>human_or_automated_step</code>, <code>failure_reason</code></td>
+<td>Route mechanism and observed failure</td>
+</tr>
+</tbody>
+</table>
+<h3 id="3-decision-and-benefit-table-decision-result">3. Decision and benefit table: <code>decision_result</code></h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>decision_id</code>, <code>episode_id</code></td>
+<td>Stable decision link</td>
+</tr>
+<tr>
+<td><code>decision_date</code>, <code>decision_status</code></td>
+<td>Pending, approved, reduced, denied, interrupted, restored, or exited</td>
+</tr>
+<tr>
+<td><code>stated_reason</code>, <code>reason_source</code></td>
+<td>Agency code, document, respondent report, or unknown</td>
+</tr>
+<tr>
+<td><code>appeal_offered</code>, <code>appeal_filed</code>, <code>correction_requested</code></td>
+<td>Separate procedural stages</td>
+</tr>
+<tr>
+<td><code>benefit_expected</code>, <code>benefit_received</code>, <code>available_date</code></td>
+<td>Expected versus actual amount and timing</td>
+</tr>
+<tr>
+<td><code>gap_days</code>, <code>interruption_days</code></td>
+<td>Security gap, with exact/reference-period status</td>
+</tr>
+<tr>
+<td><code>agency_correction</code>, <code>resolution_date</code></td>
+<td>Whether and when the institution changed the result</td>
+</tr>
+</tbody>
+</table>
+<h3 id="4-outcome-table-followup-outcome">4. Outcome table: <code>followup_outcome</code></h3>
+<p>Record each outcome at baseline and at one, three, six, and twelve months when
+available. Do not use participation or exit as a proxy for these fields.</p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Minimum fields</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Food</td>
+<td>Food quantity/variety, skipped meals, food-security measure</td>
+</tr>
+<tr>
+<td>Work</td>
+<td>Hours, earnings, missed shift, commute, job change</td>
+</tr>
+<tr>
+<td>Money</td>
+<td>Debt, late payment, borrowing, savings, family/community help</td>
+</tr>
+<tr>
+<td>Health/care</td>
+<td>Delayed care, medication, stress, unpaid and paid care time</td>
+</tr>
+<tr>
+<td>Housing/transport</td>
+<td>Rent or mortgage, utility status, vehicle/transport, ability to remain housed</td>
+</tr>
+<tr>
+<td>Recovery</td>
+<td>Return, alternative aid, restored security, unresolved loss</td>
+</tr>
+</tbody>
+</table>
+<p>Each value carries <code>measurement_date</code>, <code>source</code>, <code>universe</code>, <code>missing_code</code>, and
+<code>evidence_status</code> (<code>observed</code>, <code>reported</code>, <code>estimated</code>, <code>compared</code>, or <code>open</code>).
+Each follow-up window also carries <code>protected_outcome</code> and
+<code>sacrificed_outcome</code>: what remained secure or was avoided, and what was lost,
+delayed, transferred, or put at risk. These fields may be unknown; they must
+not be inferred from receipt, exit, or route burden alone.</p>
+<h3 id="5-meaning-and-action-table-meaning-action">5. Meaning and action table: <code>meaning_action</code></h3>
+<p>Ask after the material result and preserve the exact question wording.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>perceived_change</code>, <code>attribution</code></td>
+<td>What changed and which actor is credited or blamed</td>
+</tr>
+<tr>
+<td><code>understandable</code>, <code>fair</code>, <code>respectful</code>, <code>arbitrary</code></td>
+<td>Separate process interpretations</td>
+</tr>
+<tr>
+<td><code>trust_program</code>, <code>trust_agency</code>, <code>trust_government</code></td>
+<td>Institution-specific trust</td>
+</tr>
+<tr>
+<td><code>complaint</code>, <code>appeal</code>, <code>official_contact</code>, <code>organizing</code>, <code>protest</code>, <code>turnout</code>, <code>vote</code>, <code>no_action</code></td>
+<td>Actions are separate binary/unknown fields</td>
+</tr>
+<tr>
+<td><code>information_source</code>, <code>prior_identity</code></td>
+<td>Information environment and pre-existing political/institutional identity</td>
+</tr>
+</tbody>
+</table>
+<p>Meaning is not inferred from a denial. A vote is not treated as proof of a
+benefit experience.</p>
+<h2 id="sampling-and-comparison-plan">Sampling and comparison plan</h2>
+<p>The pilot should stratify episodes by state, urban/rural place, program, new
+application versus renewal, channel, language/accommodation, and result. It
+must preserve these comparison cells:</p>
+<ol>
+<li>similar need, different route or language access;</li>
+<li>similar eligibility, different notice or deadline;</li>
+<li>approved without interruption versus delayed or denied;</li>
+<li>exit with measured improvement versus exit without improvement;</li>
+<li>eligible non-applicant versus applicant who received help; and</li>
+<li>same place and period before versus after an office or rule change.</li>
+</ol>
+<p>The analysis table must report episode counts, person counts where distinct,
+weights, attrition, recall, missingness, date precision, and clustering. Do not
+pool cells into one take-up or success score.</p>
+<h2 id="source-role-contract">Source-role contract</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Can supply</th>
+<th>Cannot supply alone</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Administrative case record</td>
+<td>Decision, amount, timing, interruption, correction</td>
+<td>Comprehension, effort, alternatives, dignity, trust, unrecorded exits</td>
+</tr>
+<tr>
+<td>Respondent interview/diary</td>
+<td>Route burden, alternatives, meaning, action, unrecorded attempts</td>
+<td>Complete administrative history without consent/linkage</td>
+</tr>
+<tr>
+<td>SIPP</td>
+<td>Population transition, reason, monthly resources, selected hardship</td>
+<td>Notice, channel, benefit amount, appeal, same-episode meaning/action</td>
+</tr>
+<tr>
+<td>Agency/office metadata</td>
+<td>Channel availability, hours, closure/rule timing</td>
+<td>Whether an individual could use or understand the route</td>
+</tr>
+<tr>
+<td>Follow-up survey</td>
+<td>Recovery, trust, action, unresolved loss</td>
+<td>Administrative correctness unless linked and verified</td>
+</tr>
+</tbody>
+</table>
+<p>The present SIPP result is therefore a calibration layer, not a substitute for
+this ledger. It identifies plausible transition strata and material outcomes
+for the pilot while leaving the route fields genuinely open.</p>
+<h2 id="promotion-and-stop-rules">Promotion and stop rules</h2>
+<p>Promote a public-system arrow only when the unit and time order are explicit,
+the comparison or counterexample is retained, and the result distinguishes
+administrative, respondent, and researcher evidence. Stop short of a causal
+claim when the trigger, alternatives, route effort, remedy, or follow-up is
+missing. Never convert a lower caseload, program exit, or recorded explanation
+into improved security, trust, or political action.</p>
+<h2 id="first-deliverable-after-acquisition">First deliverable after acquisition</h2>
+<p>Release a de-identified codebook, a missingness/date-precision table, and one
+stage-by-stage report with these columns:</p>
+<pre><code class="language-text">stage | unit | date | source | denominator | result | uncertainty |
+counterexample | evidence_status | remaining_gap
+</code></pre>
+<p>This makes the next result compatible with the broader 14-theme program and
+prevents the public-system lane from becoming a single-household narrative.</p>
+<p>Related: <a href="../analysis/projects/us-safety-net-access/same-episode-event-ledger-design-v1.md">same-episode event-ledger design</a>,
+<a href="../analysis/projects/us-safety-net-access/sipp-snap-transition-reason-outcome-fay-brr-layer-v1.md">SIPP reason × following hardship</a>,
+<a href="../analysis/templates/US-SAFETY-NET-EVENT-LEDGER_V1.md">safety-net event ledger template</a>,
+and the <a href="../analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md">broad next-pass queue</a>.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-safety-net-transition-work-room-2024",
+  "title": "Safety-net transitions mark pressure without establishing recovery or work change",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "identified SIPP person, adjacent SNAP transition followed by person-month resource, earnings, hours, job, or hardship outcome",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SNAP no -> yes followed by t+1 to t+2",
+      "denominator": {"value": 401, "unit": "valid person transition triples with numeric household resource-ratio context", "value_type": "unweighted_valid_triples"},
+      "measures": {
+        "resource_down": {"value": 61.78, "unit": "percent; SE 4.66 pp; 95% CI 52.64-70.92", "value_type": "weighted_share"},
+        "resource_same": {"value": 18.28, "unit": "percent; SE 4.22 pp; 95% CI 10.01-26.54", "value_type": "weighted_share"},
+        "resource_up": {"value": 19.94, "unit": "percent; SE 3.77 pp; 95% CI 12.55-27.33", "value_type": "weighted_share"}
+      },
+      "method": "Fay-BRR weighted descriptive following context; SNAP transition at t to t+1 and household resource-ratio direction at t+1 to t+2, using WPFINWGT from t and 240 replicate weights.",
+      "uncertainty": "Selected transition triples; resource-ratio movement can reflect timing, composition, reporting, earnings, transfers, or another shock and is not a benefit-adequacy measure.",
+      "subgroup": "Persons entering reported SNAP receipt with valid following household resource-ratio context.",
+      "counterinterpretation": "A resource decline after entry is compatible with entering during need; it is not evidence that SNAP caused the decline or failed to help.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:aaa713248611ac583278ce6926b1a306b8be66a453f2c22c05d226b02e3407b9",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP no -> yes followed by t+1 to t+2",
+      "denominator": {"value": 108, "unit": "valid person transition triples with numeric person earnings and hours context", "value_type": "unweighted_valid_triples"},
+      "measures": {
+        "earnings_down": {"value": 32.3, "unit": "percent; SE 5.51 pp; 95% CI 21.51-43.09", "value_type": "weighted_share"},
+        "earnings_same": {"value": 22.2, "unit": "percent; SE 5.10 pp; 95% CI 12.21-32.20", "value_type": "weighted_share"},
+        "earnings_up": {"value": 45.5, "unit": "percent; SE 5.92 pp; 95% CI 33.90-57.09", "value_type": "weighted_share"},
+        "hours_down": {"value": 12.29, "unit": "percent; SE 4.33 pp; 95% CI 3.81-20.77", "value_type": "weighted_share"},
+        "hours_same": {"value": 79.4, "unit": "percent; SE 5.14 pp; 95% CI 69.32-89.47", "value_type": "weighted_share"},
+        "hours_up": {"value": 8.31, "unit": "percent; SE 3.35 pp; 95% CI 1.76-14.87", "value_type": "weighted_share"}
+      },
+      "method": "Same following-context Fay-BRR comparison using monthly person earnings and average weekly hours.",
+      "uncertainty": "Small selected person-work universe; earnings and hours are separate valid fields and do not identify pay rate, job quality, desired schedule, or recovery.",
+      "subgroup": "Persons entering SNAP with valid following person earnings and hours context.",
+      "counterinterpretation": "Earnings can rise or fall for job composition, timing, reporting, or other reasons; stable hours do not establish stable pay or household security.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:aaa713248611ac583278ce6926b1a306b8be66a453f2c22c05d226b02e3407b9",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP no -> yes followed by t+1 to t+2",
+      "denominator": {"value": 284, "unit": "valid person transition triples with numeric job-count context", "value_type": "unweighted_valid_triples"},
+      "measures": {
+        "jobs_down": {"value": 5.86, "unit": "percent; SE 2.06 pp; 95% CI 1.83-9.89", "value_type": "weighted_share"},
+        "jobs_same": {"value": 91.89, "unit": "percent; SE 2.41 pp; 95% CI 87.17-96.62", "value_type": "weighted_share"},
+        "jobs_up": {"value": 2.25, "unit": "percent; SE 1.42 pp; 95% CI 0.00-5.03", "value_type": "weighted_share"}
+      },
+      "method": "Same following-context Fay-BRR comparison using monthly person job-count categories.",
+      "uncertainty": "Selected job-count universe; stable job count can coexist with changing hours, earnings, schedule control, care, or household resources.",
+      "subgroup": "Persons entering SNAP with valid following job-count context.",
+      "counterinterpretation": "A stable job count is not evidence of stable work quality or restored material room.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:aaa713248611ac583278ce6926b1a306b8be66a453f2c22c05d226b02e3407b9",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP transition followed by next-month hardship",
+      "denominator": {"value": 437, "unit": "valid adjacent person-month pairs for SNAP no -> yes", "value_type": "unweighted_valid_pairs"},
+      "measures": {
+        "following_rent_mortgage_hardship": {"value": 16.4, "unit": "percent; SE 3.61 pp; 95% CI 9.32-23.48", "value_type": "weighted_share"},
+        "following_utility_hardship": {"value": 20.8, "unit": "percent; SE 3.49 pp; 95% CI 13.96-27.63", "value_type": "weighted_share"}
+      },
+      "method": "Weighted descriptive comparison from the SIPP public-use file using month-t SNAP state and month-t+1 hardship; 240 replicate weights with Fay BRR.",
+      "uncertainty": "Rare selected transition and separate hardship universes; the fields do not record notice, amount, gap days, remedy, or later recovery.",
+      "subgroup": "SNAP entry between adjacent months.",
+      "counterinterpretation": "Entry can be a marker of need rather than a cause of following hardship; hardship can persist while assistance is being used.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:2d80d2d67640b0795fc8ade12a71d39f4385a698eb2a54c5f9a7ea4534515a76",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-024.md", "claim": "Resource and job-count movement occupy different monthly clocks.", "status": "related-finding"},
+    {"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-030.md", "claim": "Earnings direction and hours direction are separate transitions, especially by work-limiting status.", "status": "related-finding"},
+    {"source_url": "../../projects/us-safety-net-access/findings/us-safety-net-access-013.md", "claim": "Safety-net receipt can change the route without closing the household gap.", "status": "related-finding"}
+  ],
+  "boundary": "This is a descriptive same-person SIPP transition bridge. It does not estimate SNAP effectiveness, benefit adequacy, household prevalence, work quality, causality, notice, administrative remedy, recovery, trust, political action, or a cultural or geopolitical consequence. The transition and following outcomes are selected valid universes with separate denominators."
+}

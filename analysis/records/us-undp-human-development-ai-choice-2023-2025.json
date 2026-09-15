@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-undp-human-development-ai-choice-2023-2025",
+  "title": "High average human development does not settle the question of who can exercise new choices",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNDP Human Development Reports country-level composite index and ranking for the United States",
+  "geography": "United States; international comparison across 193 countries and territories",
+  "observations": [
+    {
+      "period": "1990 to 2023; United States HDI trend",
+      "denominator": {"value": 1, "unit": "United States country observation", "value_type": "country_observation"},
+      "measures": {
+        "hdi_1990": {"value": 0.878, "unit": "Human Development Index", "value_type": "composite_index"},
+        "hdi_2023": {"value": 0.938, "unit": "Human Development Index", "value_type": "composite_index"},
+        "hdi_percent_change": {"value": 6.8, "unit": "percent change in HDI, 1990–2023", "value_type": "reported_change"}
+      },
+      "method": "UNDP Human Development Reports country-insights summary; HDI combines normalized life expectancy, education, and gross national income per capita dimensions using a geometric mean.",
+      "uncertainty": "The HDI is an average composite, uses data available to the Human Development Report Office, and does not capture within-country inequality, poverty, human security, empowerment, institutional trust, or who can exercise a capability.",
+      "subgroup": "United States aggregate; no household, worker, race, gender, age, place, or income subgroup.",
+      "counterinterpretation": "An improving country average can coexist with unequal gains, worsening outcomes for particular groups, or reduced practical choice in housing, care, work, health, or digital systems.",
+      "source_url": "https://hdr.undp.org/data-center/specific-country-data",
+      "retrieval_hash": "page:sha256:43057ae476e47606311bf052681056687011f7579c00ca9defe3a4247cd91c84",
+      "status": "reported"
+    },
+    {
+      "period": "2023; United States international position in the 2025 Human Development Report",
+      "denominator": {"value": 193, "unit": "countries and territories in the UNDP comparison", "value_type": "comparison_frame"},
+      "measures": {
+        "us_hdi": {"value": 0.938, "unit": "Human Development Index", "value_type": "composite_index"},
+        "us_hdi_rank": {"value": 17, "unit": "rank among 193 countries and territories", "value_type": "rank"},
+        "us_population": {"value": 343477335, "unit": "persons, 2023 population estimate", "value_type": "population_estimate"}
+      },
+      "method": "UNDP country-insights comparison using the 2025 Human Development Report data update; rank is a cross-country ordering of the composite index.",
+      "uncertainty": "Rank differences may be small and not statistically meaningful at fine decimal places; the report warns that editions and revisions are not automatically comparable without the consistent trend table. Rank is not a measure of social cohesion, state capacity, or practical agency.",
+      "subgroup": "United States country aggregate compared with all listed countries and territories.",
+      "counterinterpretation": "A high rank can conceal distributional gaps and does not imply that AI, income, health, education, or institutional power are equally accessible within the United States.",
+      "source_url": "https://hdr.undp.org/content/human-development-report-2025",
+      "retrieval_hash": "page:sha256:43057ae476e47606311bf052681056687011f7579c00ca9defe3a4247cd91c84",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hdr.undp.org/explore-and-download-survey-data", "claim": "UNDP’s 2025 Global Survey on AI and Human Development is a potential perception-and-choice layer for the broader human-development comparison.", "status": "next-data-route"},
+    {"source_url": "https://hdr.undp.org/data-center/documentation-and-downloads", "claim": "UNDP provides technical notes and consistent trend tables needed before comparing index movement across editions.", "status": "method-context"}
+  ],
+  "boundary": "This is a bounded UNDP human-development context record. It establishes a high US average HDI and its reported long-run change, not equal capability, household welfare, AI access, worker control, political trust, or geopolitical power. Composite-country averages remain a comparison frame for the US-centered program, not a substitute for subgroup and same-unit evidence."
+}

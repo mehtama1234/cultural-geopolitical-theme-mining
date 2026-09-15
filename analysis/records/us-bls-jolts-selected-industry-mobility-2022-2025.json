@@ -1,0 +1,365 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-jolts-selected-industry-mobility-2022-2025",
+  "title": "Labor-market mobility cooled unevenly across selected US industries after 2022",
+  "theme_ids": [
+    "work",
+    "voice",
+    "cost"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption"
+  ],
+  "source_unit": "BLS Job Openings and Labor Turnover Survey national total-nonfarm establishment rates by selected industry",
+  "geography": "United States, selected industries",
+  "observations": [
+    {
+      "period": "2022 calendar year; manufacturing",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 6.2083,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 3.5917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 2.3167,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 0.825,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 3.375,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in manufacturing; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025 calendar year; manufacturing",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 3.1333,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 2.35,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 1.3917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 0.8917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 2.425,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in manufacturing; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2022 calendar year; professional and business services",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 8.6833,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 5.5,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 3.3417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 1.625,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 5.2917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in professional and business services; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025 calendar year; professional and business services",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 5.2667,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 4.5417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 2.3417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 2.05,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 4.625,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in professional and business services; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2022 calendar year; education and health services",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 8.1917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 3.5083,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 2.45,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 0.6,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 3.2417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in education and health services; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025 calendar year; education and health services",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 5.375,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 2.975,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 1.9333,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 0.7167,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 2.75,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in education and health services; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2022 calendar year; leisure and hospitality",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 9.15,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 7.4333,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 5.4667,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 1.3,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 6.9083,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in leisure and hospitality; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025 calendar year; leisure and hospitality",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS rate observations for selected industry",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "job_openings_rate": {
+          "value": 5.5667,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "hires_rate": {
+          "value": 5.6417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "quits_rate": {
+          "value": 3.925,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "layoffs_and_discharges_rate": {
+          "value": 1.5083,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "total_separations_rate": {
+          "value": 5.55,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly rates; openings, hires, quits, layoffs/discharges, and total separations retain their BLS-specific denominators.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; the annual mean does not represent unique workers.",
+      "subgroup": "National total-nonfarm JOLTS establishments in leisure and hospitality; selected endpoint comparison against 2022.",
+      "counterinterpretation": "Industry differences in openings or quits do not establish worker bargaining power, job quality, pay, schedule control, or the reason for a transition.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bls.gov/jlt/jltnaics.htm",
+      "claim": "BLS publishes JOLTS industry estimates using the 2022 NAICS and makes seasonally adjusted data available for all listed series.",
+      "status": "reported",
+      "access_boundary": "Industry estimates remain establishment aggregates and do not identify worker-level outcomes."
+    }
+  ],
+  "boundary": "This record compares selected industry establishment-rate contexts at the 2022 peak and 2025 endpoint. It does not establish worker bargaining power, job quality, pay, schedule control, household security, or causation."
+}

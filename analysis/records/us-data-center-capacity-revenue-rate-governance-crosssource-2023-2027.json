@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027",
+  "title": "Data-center capacity, public revenue, and utility governance do not identify household benefit",
+  "theme_ids": ["energy", "cost", "voice", "work"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "firm_sector_market_power", "public_systems_feedback", "household_room_consumption", "housing_place_mobility", "geopolitical_state_consequences"],
+  "source_unit": "Deliberately non-pooled comparison of LBNL modeled national load, county fiscal reporting, and state utility-governance records",
+  "geography": "United States; national, Prince William County Virginia, Virginia, Texas, and Georgia layers",
+  "observations": [
+    {
+      "period": "2023 historical estimate and 2030 reference/sensitivity scenarios",
+      "denominator": {"value": 4000.0, "unit": "implied US electricity denominator in 2023; 2030 scenario denominator is separately derived from the reference case", "value_type": "modeled_comparison_base"},
+      "measures": {
+        "data_center_electricity_use_2023": {"value": 176, "unit": "terawatt-hours", "value_type": "historical_estimate"},
+        "data_center_share_2023": {"value": 4.4, "unit": "percent of implied US electricity denominator", "value_type": "historical_estimate"},
+        "data_center_electricity_use_2030_reference": {"value": 649, "unit": "terawatt-hours", "value_type": "model_estimate"},
+        "data_center_share_2030_reference": {"value": 11.8, "unit": "percent of implied US electricity denominator", "value_type": "model_estimate"},
+        "data_center_electricity_use_2030_sensitivity": {"value": "521-843", "unit": "terawatt-hours scenario range", "value_type": "scenario_range"}
+      },
+      "method": "LBNL 2025 update historical estimate and reference/sensitivity scenarios; the denominators are derived only to expose the reported share bases.",
+      "uncertainty": "The 2030 values are modeled scenarios, not observed load, approved interconnection, actual utility investment, or realized AI capability. Equipment shipments, chip lifetimes, utilization, cooling, and siting assumptions drive uncertainty.",
+      "subgroup": "National data-center load; historical estimate, reference case, and sensitivity scenarios.",
+      "counterinterpretation": "A larger projected national load does not identify local exposure, ownership, water or land burden, household bills, public control, or geopolitical leverage.",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "retrieval_hash": "sha256:2c580082681f979eb5dc35040b40550f002295c199d4f5766507b9926a935dc9",
+      "status": "estimated"
+    },
+    {
+      "period": "Tax Year 2025; Prince William County fiscal and capacity report",
+      "denominator": {"value": 1, "unit": "Prince William County data-center industry aggregate", "value_type": "reported_aggregate"},
+      "measures": {
+        "data_center_tax_revenue": {"value": 465.9, "unit": "USD millions", "value_type": "reported_total"},
+        "year_over_year_growth": {"value": 59, "unit": "percent", "value_type": "reported_rate"},
+        "new_data_center_capacity": {"value": 621, "unit": "MW", "value_type": "reported_addition"},
+        "turnkey_total_power_capacity": {"value": 1483, "unit": "MW", "value_type": "reported_total"},
+        "turnkey_powered_shell_data_center_count": {"value": 55, "unit": "facilities", "value_type": "reported_total"}
+      },
+      "method": "County-linked TY2025 Data Center Revenue Report; revenue categories, tax rate, capacity, and facility counts are retained as reported aggregates.",
+      "uncertainty": "The 59% fiscal increase combines assessed-base expansion, equipment cycles, classification, building completion, and a computer-equipment rate increase from $3.70 to $4.15 per $100. It is not a household incidence or net-public-benefit estimate.",
+      "subgroup": "Prince William County data-center industry aggregate and county fiscal system.",
+      "counterinterpretation": "More county revenue can coexist with utility, water, land, service, environmental, or household costs; revenue does not establish that residents receive proportional benefits or bargaining power.",
+      "source_url": "https://www.flipsnack.com/B8877D99E8C/2025-data-center-revenue-report.html",
+      "retrieval_hash": "sha256:8e0d9f0df4f618d973a01a16849504770a84a3a22497b0b284166f2fbf79ec62",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; Virginia, Texas, and Georgia large-load governance records",
+      "denominator": {"value": 3, "unit": "state regulatory records with distinct policy stages", "value_type": "policy_record_set"},
+      "measures": {
+        "virginia_minimum_transmission_distribution_cost_share": {"value": 85, "unit": "percent of covered minimum charges", "value_type": "approved_policy_term"},
+        "virginia_minimum_contract_obligation": {"value": 14, "unit": "years for covered new contracts", "value_type": "approved_policy_term"},
+        "texas_minimum_interconnection_agreement": {"value": 20, "unit": "years in proposed rule", "value_type": "proposed_policy_term"},
+        "virginia_modeled_residential_incidence": {"value": "0.94-2.90", "unit": "USD per month at 1,000 kWh under alternative/proposed allocation illustrations", "value_type": "modeled_incidence"},
+        "georgia_public_term_boundary": {"value": "second large-load contract unexecuted and trade secret in entirety", "unit": "public-disclosure status", "value_type": "reported_filing_status"}
+      },
+      "method": "Comparative reading of Virginia SCC approved and implementation-stage records, Texas PUC proposed rules, and Georgia PSC evidentiary and contract-filing records; policy terms, modeled incidence, proposed terms, and disclosure boundaries are not treated as the same stage.",
+      "uncertainty": "Actual customer bills, load, defaults, cost recovery, final Texas rules, Georgia contract terms, local environmental effects, and causal public trust remain unobserved. Virginia $0.94 and $2.90 values are modeled/filed illustrations, not observed bills or data-center-only effects.",
+      "subgroup": "Covered large-load customers, utilities, residential and other customer classes, and state commission participants.",
+      "counterinterpretation": "Rules and reporting requests can improve risk allocation and traceability without proving that all system costs are recovered, projects remain viable, or households receive a net benefit.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da; sha256:a12b4629af1fcd6190b2a5e9fd4aea119945464da9057fa98255beb848d98cd8; sha256:30566cb97e234089fc13a4b269a2c457f29bfbb7fae0c4b751161812b8d10cbd",
+      "status": "compared"
+    },
+    {
+      "period": "July 2024-February 2025; Virginia large-load operational stress events",
+      "denominator": {"value": 2, "unit": "reported Dominion large-load drop events", "value_type": "reported_event_set"},
+      "measures": {"reported_data_center_load_dropped": {"value": "1,551 and 1,800", "unit": "MW in separate reported events", "value_type": "reported_event_magnitudes"}},
+      "method": "Virginia SCC SB1239 report summary of Dominion testimony; the events are kept as operational stress records rather than interpreted as ordinary demand, permanent service loss, or local incidence.",
+      "uncertainty": "The record does not provide a facility roster, duration-by-site, household effect, independent causal reconstruction, or evidence that the events changed long-run capability or bargaining power.",
+      "subgroup": "Dominion large-load customers in the reported event area and the electric system operating context.",
+      "counterinterpretation": "Protective load transfer can preserve system reliability while imposing concentrated interruption or continuity risks; neither interpretation establishes household burden or public legitimacy without customer-level evidence.",
+      "source_url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/regulated-industries/utility-regulation/responsibilities/scc-report--sb1239.pdf",
+      "retrieval_hash": "sha256:16c7160266f26fda66f78aa294786c3f53ea833f66759ddc7b0142737d5112c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-lbnl-data-center-electricity-load-2023-2030.json", "claim": "LBNL source record preserves the full historical and scenario load surface.", "status": "related-record"},
+    {"source_url": "../../records/us-prince-william-data-center-fiscal-revenue-2025-extension.json", "claim": "County fiscal and capacity record preserves the local revenue composition and caveats.", "status": "related-record"},
+    {"source_url": "../../records/us-large-load-state-rate-governance-2025-2026.json", "claim": "Comparative state governance record preserves approved, proposed, filed, modeled, and disclosure stages.", "status": "related-record"},
+    {"source_url": "../../records/us-virginia-data-center-large-load-governance-2024-2027.json", "claim": "Virginia operational-stress and rate-governance record preserves event magnitudes and customer-incidence boundaries.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled infrastructure-to-governance bridge. It establishes a measurable path from digital demand to modeled physical load, local fiscal capacity, utility risk allocation, and reported operational stress. It does not establish household benefit, jobs or wages, water or environmental incidence, public trust, provider replaceability, state leverage, or geopolitical consequence. Those require linked local, customer, firm, workforce, environmental, and behavioral evidence."
+}

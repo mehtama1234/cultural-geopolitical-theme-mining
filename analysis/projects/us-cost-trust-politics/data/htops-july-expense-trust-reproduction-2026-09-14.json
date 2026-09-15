@@ -1,0 +1,35 @@
+{
+  "audit_type": "htops-july-expense-trust-reproduction-v1",
+  "checked": "2026-09-14",
+  "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2607_CSV.zip",
+  "archive_sha256": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+  "input_files": {
+    "puf_csv_sha256": "sha256:cfc4fc46d15be4b61c0ee924e9b881b3fb742cd668270b3bd532efe5b5a6c380",
+    "replicate_csv_sha256": "sha256:10b15223c98ee185a3025290e64819841885571ad46099c399fde6e3f48eebf6",
+    "dictionary_sha256": "sha256:f91b0509a92e00218c8c59aa61237b5b494641860af5e72fc9e30143d9590585"
+  },
+  "input": {
+    "release": "July 15–August 3, 2026 HTOPS/HPS topical release",
+    "puf_rows": 12755,
+    "merged_rows": 12755,
+    "key": "SCRAMID",
+    "final_weight": "PWEIGHT/PWEIGHT0",
+    "replicate_weights": 80,
+    "variance": "4/80 * sum((replicate estimate - full-sample estimate)^2)"
+  },
+  "classification": {
+    "expense_not_difficult": "EXPENSE_DIFFICULT == 1",
+    "expense_any_difficulty": "EXPENSE_DIFFICULT in {2, 3, 4}",
+    "high_confidence": "TRUST_STATISTICAL or TRUST_CONGRESS in {1, 2}",
+    "valid_codes": "outcome in {1, 2, 3, 4}; positive PWEIGHT; item-specific valid rows"
+  },
+  "results": [
+    {"outcome": "TRUST_STATISTICAL", "group": "not_difficult", "weighted_share": 43.9230473015, "standard_error_pp": 1.5717683155, "unweighted_valid_n": 7130},
+    {"outcome": "TRUST_STATISTICAL", "group": "any_difficulty", "weighted_share": 28.8018758013, "standard_error_pp": 1.3242944544, "unweighted_valid_n": 4279},
+    {"outcome": "TRUST_STATISTICAL", "contrast": "any_difficulty minus not_difficult", "difference_pp": -15.1211715002, "standard_error_pp": 1.9536952892, "approximate_90_percent_interval_pp": [-18.3350002509, -11.9073427495]},
+    {"outcome": "TRUST_CONGRESS", "group": "not_difficult", "weighted_share": 20.7881450276, "standard_error_pp": 1.2563577387, "unweighted_valid_n": 7148},
+    {"outcome": "TRUST_CONGRESS", "group": "any_difficulty", "weighted_share": 13.8461342273, "standard_error_pp": 1.2475264007, "unweighted_valid_n": 4277},
+    {"outcome": "TRUST_CONGRESS", "contrast": "any_difficulty minus not_difficult", "difference_pp": -6.9420108004, "standard_error_pp": 1.7547731564, "approximate_90_percent_interval_pp": [-9.8286126426, -4.0554089581]}
+  ],
+  "boundary": "This is a July 2026 cross-sectional association. Expense difficulty and confidence are measured in the same topical release, so the result does not establish timing, causation, attribution, generalized distrust, or political action. The contrast uses replicate-weight differences rather than treating the two group estimates as independent."
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-household-fraud-recovery-2024",
+  "title": "Household fraud exposure separates into direct loss, recovery failure, and substantial time cost",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "trust_identity_meaning", "unequal_exposure_status", "platforms_data_attention", "household_room_consumption"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2024",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 SHED; adults",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; publication percentages are the denominator frame", "value_type": "survey_population"},
+      "measures": {
+        "any_financial_fraud": {"value": 21, "unit": "percent of adults", "value_type": "share"},
+        "credit_card_fraud": {"value": 17, "unit": "percent of adults", "value_type": "share"},
+        "other_financial_fraud": {"value": 8, "unit": "percent of adults", "value_type": "share"},
+        "non_credit_card_fraud_lost_money": {"value": 63, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "share"},
+        "non_credit_card_fraud_some_money_not_recovered": {"value": 32, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "share"},
+        "estimated_non_credit_card_loss": {"value": 84000000000, "unit": "US dollars estimated", "value_type": "estimated_amount"},
+        "estimated_recovered": {"value": 21000000000, "unit": "US dollars reported recovered", "value_type": "reported_amount"},
+        "estimated_net_consumer_loss": {"value": 63000000000, "unit": "US dollars estimated borne directly by consumers", "value_type": "estimated_amount"},
+        "spent_ten_or_more_hours_recovering_or_dealing": {"value": 30, "unit": "percent of adults experiencing non-credit-card fraud, approximate", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2024 SHED weighted survey estimates; overlapping fraud categories are preserved, and loss/recovery measures are conditional on non-credit-card fraud.",
+      "uncertainty": "Self-reported survey estimates measure the most recent non-credit-card incident for relevant questions; the publication does not establish verified fraud, complete population incidence, exact event-level recovery, or causal effects.",
+      "subgroup": "All adult respondents; credit-card and other-fraud categories are not mutually exclusive.",
+      "counterinterpretation": "Credit-card consumer-liability protections may limit direct loss for many cases; category overlap, recall, reporting, and undercoverage can affect the exposure and dollar estimates.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+      "retrieval_hash": "sha256:c4aec1766b3ea289d519e841610f9ea639d4688c851d384bb9f3ef14d309284c",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 SHED; age comparison",
+      "denominator": {"value": 4, "unit": "published age bands in the accessible Figure 30 table", "value_type": "comparison_frame"},
+      "measures": {
+        "any_financial_fraud_age_18_29": {"value": 14, "unit": "percent of adults ages 18–29", "value_type": "share"},
+        "any_financial_fraud_age_60_plus": {"value": 26, "unit": "percent of adults ages 60+", "value_type": "share"},
+        "credit_card_fraud_age_18_29": {"value": 10, "unit": "percent of adults ages 18–29", "value_type": "share"},
+        "credit_card_fraud_age_60_plus": {"value": 21, "unit": "percent of adults ages 60+", "value_type": "share"},
+        "median_pre_recovery_loss_age_18_44": {"value": 423, "unit": "US dollars among adults with non-credit-card loss, before recovery", "value_type": "median"},
+        "median_pre_recovery_loss_age_60_plus": {"value": 600, "unit": "US dollars among adults with non-credit-card loss, before recovery", "value_type": "median"}
+      },
+      "method": "Published age-conditioned SHED Figure 30 and Table 36 comparisons; incidence and conditional severity are kept as separate measures.",
+      "uncertainty": "Age-conditioned shares and medians describe survey respondents in the relevant conditional universes, not age-specific population risk, total losses, or digital-skill effects.",
+      "subgroup": "Adults ages 18–29, 30–44, 45–59, and 60+ for incidence; ages 18–44, 45–59, and 60+ for pre-recovery loss distribution.",
+      "counterinterpretation": "Higher older-adult losses may partly reflect greater assets or different scam mix and do not by themselves establish greater vulnerability or weaker recovery.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-accessibility-tables.htm",
+      "retrieval_hash": "sha256:53ce351c43d51ca02229b56c3c0574bdc561180fb22b8a08d8307a80d4c7847e",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2024",
+      "claim": "FTC administrative reports provide a separate reported-loss and report-volume frame for comparison.",
+      "status": "reported",
+      "access_boundary": "FTC reports and the Federal Reserve survey use different units, coverage, definitions, and underreporting assumptions; they must not be pooled."
+    },
+    {
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/",
+      "claim": "CFPB complaint records provide a separate institutional-response route frame.",
+      "status": "reported",
+      "access_boundary": "Complaint records are not the same people or denominator as SHED fraud respondents and do not establish remedy adequacy."
+    }
+  ],
+  "boundary": "This record establishes survey-reported fraud exposure, conditional loss, recovery, and time-cost measures. It does not establish verified prevalence, firm liability, remedy adequacy, later trust, financial exit, political action, or a causal consumer-protection effect."
+}

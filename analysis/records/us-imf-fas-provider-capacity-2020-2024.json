@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-imf-fas-provider-capacity-2020-2024",
+  "title": "US formal financial access infrastructure contracted while user-reported account ownership remained high",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "IMF Financial Access Survey annual administrative/provider-reported US series; IMF.STA:FAS(5.0.0)",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2020–2024; provider counts",
+      "denominator": {"value": null, "unit": "provider count; no common population denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "commercial_banks": {"value": "2020: 4,344; 2021: 4,200; 2022: 4,097; 2023: 3,997; 2024: 3,912", "unit": "number of commercial banks", "value_type": "annual_provider_series"},
+        "credit_unions_and_credit_cooperatives": {"value": "2020: 5,241; 2021: 5,080; 2022: 4,895; 2023: 4,734; 2024: 4,579", "unit": "number of credit unions and credit cooperatives", "value_type": "annual_provider_series"},
+        "commercial_bank_change": {"value": -9.9, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"},
+        "credit_union_change": {"value": -12.6, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"}
+      },
+      "method": "IMF SDMX 2.1 CSV query for IMF.STA:FAS(5.0.0), USA, 2020–2024; provider counts transcribed from the returned annual series and changes calculated from first and last observations.",
+      "uncertainty": "Provider counts are administrative/reporting measures, not unique customer counts or a direct measure of geographic service quality. Definitions, reporting coverage, mergers, charter changes, and revisions can affect the series.",
+      "subgroup": "US provider type: commercial banks versus credit unions and credit cooperatives; no customer, geography, income, or demographic subgroup.",
+      "counterinterpretation": "Fewer institutions can coexist with stable or improved digital access, consolidation can change scale, and provider counts do not identify branch closures, prices, account access, or consumer welfare.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "csv:sha256:acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+      "status": "observed"
+    },
+    {
+      "period": "2020–2024; commercial-bank physical access",
+      "denominator": {"value": null, "unit": "adult-population-normalized provider measure; underlying adult denominator supplied by IMF/country metadata", "value_type": "not_disclosed"},
+      "measures": {
+        "commercial_bank_branches": {"value": "2020: 75,500; 2021: 72,478; 2022: 70,265; 2023: 69,436; 2024: 68,436", "unit": "branches excluding headquarters", "value_type": "annual_provider_series"},
+        "branches_per_100000_adults": {"value": "2020: 29.51; 2021: 28.21; 2022: 27.11; 2023: 26.46; 2024: 25.74", "unit": "commercial-bank branches per 100,000 adults", "value_type": "normalized_annual_series"},
+        "branch_count_change": {"value": -9.4, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"},
+        "branch_density_change": {"value": -12.8, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"}
+      },
+      "method": "IMF FAS series FA22_COMBANK and FA26N from the same US SDMX response; FA26N selected using adult-normalized PHTADLT_NUM transformation, not the separate square-kilometer series.",
+      "uncertainty": "The normalized series is not a measure of travel distance, accessibility, branch hours, service quality, or digital substitution. Headquarters are excluded from the branch count, and the series can reflect reporting and institutional changes.",
+      "subgroup": "US commercial-bank physical network; no place, rurality, income, disability, or customer subgroup.",
+      "counterinterpretation": "A contracting branch network may accompany more convenient digital service for some customers while imposing travel, identity, cash, or human-contact costs on others; the FAS series cannot determine which route occurred.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "csv:sha256:acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+      "status": "observed"
+    },
+    {
+      "period": "2020–2024; commercial-bank household balance context",
+      "denominator": {"value": null, "unit": "household outstanding balance normalized by US GDP; not a household count", "value_type": "not_disclosed"},
+      "measures": {
+        "household_outstanding_deposits": {"value": "2020: 55.52%; 2021: 56.44%; 2022: 49.87%; 2023: 44.49%; 2024: 42.43%", "unit": "percent of GDP; commercial-bank household deposits", "value_type": "normalized_balance_series"},
+        "household_outstanding_loans": {"value": "2020: 19.90%; 2021: 18.66%; 2022: 19.01%; 2023: 18.37%; 2024: 16.80%", "unit": "percent of GDP; commercial-bank household loans", "value_type": "normalized_balance_series"},
+        "deposit_ratio_change": {"value": -23.6, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"},
+        "loan_ratio_change": {"value": -15.6, "unit": "percent change from 2020 to 2024", "value_type": "derived_change"}
+      },
+      "method": "IMF FAS OUTD_COMBANK_S14 and OUTL_COMBANK_S14 series; observations are reported as ratios to GDP, not dollar balances or household-level rates.",
+      "uncertainty": "Ratios to GDP can change because balances, GDP, valuation, reporting, or sector classification changed. They do not measure deposit adequacy, loan affordability, delinquency, liquidity, or household welfare.",
+      "subgroup": "US commercial-bank household-sector balances; no income, age, race, gender, tenure, or account-level subgroup.",
+      "counterinterpretation": "A lower balance-to-GDP ratio is not necessarily less household security; it can reflect denominator growth, portfolio composition, repayment, transfers between institutions, or post-pandemic balance normalization.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "csv:sha256:acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+      "status": "observed"
+    },
+    {
+      "period": "2020–2024; provider/user comparison",
+      "denominator": {"value": null, "unit": "separate provider and adult-survey aggregates; no common person, account, or household denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "commercial_bank_count_change": {"value": -9.9, "unit": "percent, IMF FAS 2020–2024", "value_type": "provider_change"},
+        "commercial_branch_density_change": {"value": -12.8, "unit": "percent, IMF FAS 2020–2024", "value_type": "provider_change"},
+        "findex_account_ownership_change": {"value": 2.1, "unit": "percentage points, World Bank Global Findex 2021–2024", "value_type": "separate_user_change"}
+      },
+      "method": "Descriptive cross-source contrast between IMF provider-side US series and World Bank Global Findex adult-reported account ownership; no pooled estimate or causal join.",
+      "uncertainty": "The periods, units, definitions, survey/administrative designs, and denominators differ. This contrast cannot attribute account ownership to branch contraction or digital substitution.",
+      "subgroup": "US provider aggregate versus US adult respondent aggregate; no aligned subgroup.",
+      "counterinterpretation": "Digital channels, mergers, credit unions, nonbank providers, and customer behavior may all affect the apparent divergence; the same customer is not followed across the two sources.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "csv:sha256:acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/download-data", "claim": "Global Findex supplies adult-reported account, device, payment, saving, borrowing, and resilience indicators at a different demand-side unit.", "status": "comparison-context"},
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed.htm", "claim": "SHED supplies US household financial room, hardship, adaptation, and recovery measures not present in provider counts or balance-to-GDP ratios.", "status": "comparison-context"},
+    {"source_url": "https://www.financialresearch.gov/", "claim": "OFR supplies financial-system structure and market-plumbing context at a different institutional level.", "status": "comparison-context"}
+  ],
+  "boundary": "The IMF FAS US extract establishes a provider-side contraction in commercial-bank and credit-union counts and commercial-bank branch density from 2020 to 2024, alongside falling household commercial-bank deposit and loan ratios to GDP. The World Bank Findex comparison shows high and rising adult account ownership over a partly overlapping period. The divergence is a measurement result, not proof of digital substitution, reduced welfare, exclusion, or improved access. A same-person/account event design is still needed to connect provider change to household terms, travel, payment success, remedy, trust, switching, or exit."
+}

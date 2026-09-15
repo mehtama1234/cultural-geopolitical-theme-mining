@@ -1,6 +1,6 @@
 # US life: the connections
 
-Short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
+A living research atlas, expanded through recurring evidence passes and connected through everyday choices. These are current readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another.
 
 ## The bigger picture
 
@@ -1047,6 +1047,7 @@ Household beliefs about rates, prices and borrowing can shape spending and savin
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [NBER: Monetary Policy According to Households](https://www.nber.org/papers/w35127)
+- [NBER: Information Treatments, Hypotheticals, and Event Studies](https://www.nber.org/papers/w35090)
 - [NBER: Forward Guidance and Household Expectations](https://www.nber.org/papers/w26778)
 - [NBER: Monetary Policy Communications and Their Effects on Household Inflation Expectations](https://www.nber.org/papers/w25482)
 
@@ -1303,6 +1304,7 @@ Connections:
 - Question to test: Payment rules can move a small charge between the buyer, seller and the money left in the household budget. Related topic: The way a person pays can change the price they carry. The current evidence does not show each buyer's total payment cost or whether prices change after the fee moves.
 - Question to test: Unclear debt rules can make a household hold back spending even before a payment is due. Related topic: A promise about debt can change spending before the rule is settled. The current evidence does not show the same borrower's full budget, payment path and later spending.
 - Question to test: The form and timing of public help can change how much spending room reaches the household. Related topic: The form of public help changes what families buy. The current evidence does not show the same family's full transfer, spending and saving path.
+- Comparison: Electoral response can distinguish lost purchasing power from price growth and from the household's actual budget response. Related topic: The vote may respond more to lost buying power than inflation alone. The NBER county study does not identify the same household's bill, adaptation, attribution, or vote; county and respondent evidence remain separate.
 
 ### Keeping a home also means paying to protect it
 
@@ -1317,9 +1319,13 @@ Insurance bills and gaps in coverage belong in the housing affordability story.
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [Federal Reserve housing findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm)
+- [Federal Reserve 2024 housing findings](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-housing.htm)
 - [Federal Reserve SHED housing appendix](https://www.federalreserve.gov/publications/2026-supplemental-appendixes-report-economic-well-being-us-households-2025-appendix-b.htm)
 - [Treasury report on homeowners insurance](https://home.treasury.gov/news/press-releases/jy2791)
 - [FIO 2025 insurance industry report](https://home.treasury.gov/system/files/311/Final%20FIO%202025%20Annual%20Report.pdf)
+- [FEMA National Risk Index county layer](https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0)
+- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
+- [California FAIR Plan key statistics](https://www.cfpnet.com/key-statistics-data/)
 - [Census: cost of homeownership](https://www.census.gov/newsroom/press-releases/2025/acs-1-year-estimates.html)
 - [Census: renter cost burden](https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html)
 - [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579)
@@ -1460,7 +1466,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 
 - [USDA Household Food Security in the United States in 2024](https://www.ers.usda.gov/publications/113622)
 - [USDA food-security key statistics](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics)
-- [Federal Reserve income and expenses report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [BLS CPI-U food at home series](https://data.bls.gov/timeseries/CUUR0000SAF11)
+- [Federal Reserve income and expenses reports](https://www.federalreserve.gov/publications/2025-economic-well-being-us-households-in-2024-income-and-expenses.htm)
 - [Census Household Trends and Outlook Pulse Survey](https://www.census.gov/newsroom/press-releases/2026/household-trends-outlook-pulse-survey.html)
 - [CFPB medical collections research](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
 
@@ -1556,6 +1563,7 @@ Connections:
 
 - Question to test: The form and timing of public help may change how a household uses the program. Related topic: Help can exist but be hard to keep. The current evidence measures spending response, not whether one design improves access, security or later trust more than another.
 - Question to test: The form and timing of public help can change how much spending room reaches the household. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same family's full transfer, spending and saving path.
+- Comparison: A salient public transfer can create electoral reward or punishment separately from its consumption effect. Related topic: Personal finances and national mood can move apart. The strongest current mechanism evidence is an Italian comparison; US receipt, attribution, trust, and vote must be measured in a valid same-person or same-case design.
 
 ### Getting to a place is a major household cost
 
@@ -2141,6 +2149,7 @@ Connections:
 - Question to test: A family may cover a shock with money or unpaid care before a formal service arrives. Related topic: Family help can move a shock between generations. The current sources do not show whether the helper loses work, income, health or future security.
 - Question to test: Cash to one household member can change another member's training or care path. Related topic: Cash can change the choices of people who did not receive it. The current evidence does not show whether the care report reflects new need, better detection or worse health.
 - Question to test: A small return-to-office requirement can change the time a remote worker gives to travel and home life. Related topic: One office day can change the remote week. The current evidence does not measure the same worker's travel, care, output and well-being together.
+- Comparison: Monthly work and resource movement can coexist with a separate care-time and health-cost burden. Related topic: The same job can contain different AI access. SIPP, ATUS, and MEPS measure complementary stages but do not follow the same person through a dated care or health event, recovery, trust, or action.
 
 ### Family time can replace a large cash payment
 
@@ -2229,6 +2238,9 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [HBS: How AI Chatbots Try to Keep You From Walking Away](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
 - [FTC inquiry into AI companions](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [Pew 2026 AI daily-life report](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/)
+- [SSRN abstract for *Emotional Manipulation by AI Companions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5390377)
+- [Harvard Business School summary](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
 
 #### Evidence check: A farewell can become a prompt to stay
 
@@ -2495,6 +2507,7 @@ Connections:
 
 - Question to test: Local real-wage loss may shape which prices people use to judge the economy and the party in power. Related topic: A slower rise in prices can still feel like a loss. The current county study does not identify each voter's price basket, wage change, blame or reason for voting.
 - Question to test: Lost local buying power may become a broader judgment about government and the party in power. Related topic: Personal finances and national mood can move apart. The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.
+- Comparison: Electoral response can distinguish lost purchasing power from price growth and from the household's actual budget response. Related topic: The price on the screen is only part of the cost. The NBER county study does not identify the same household's bill, adaptation, attribution, or vote; county and respondent evidence remain separate.
 
 ### Privacy rules can make people more willing to share
 
@@ -2584,6 +2597,11 @@ Connections:
 - Question to test: Lost local buying power may become a broader judgment about government and the party in power. Related topic: The vote may respond more to lost buying power than inflation alone. The current county evidence does not identify the same voter's blame, trust, turnout or vote choice.
 - Question to test: A lost cash benefit can turn a household money change into a judgment about government. Related topic: A lost benefit can change how families read the economy. The current evidence does not identify the same person's blame, trust, turnout or vote choice.
 - Question to test: Being heard or ignored at work can shape how a person judges power and rules outside work. Related topic: Fit can decide who gets heard at work. The current evidence does not show the same worker's workplace voice, wider trust and political action.
+- Comparison: A salient public transfer can create electoral reward or punishment separately from its consumption effect. Related topic: The form of public help changes what families buy. The strongest current mechanism evidence is an Italian comparison; US receipt, attribution, trust, and vote must be measured in a valid same-person or same-case design.
+- Comparison: Population-change context can coincide with different federal trust while civic action and reported voting remain comparatively stable. Related topic: Business counts do not tell us who belongs to a place. The CES county context does not identify the respondent's business/service exposure, belonging, attribution, or a causal place-to-political pathway; its frame is separate from the capacity cells.
+- Comparison: The same-county capacity and mobility cells carry non-monotonic trust and civic-action patterns rather than one political response. Related topic: Business counts do not tell us who belongs to a place. The CES join does not observe respondent service use, local meaning, attribution, or causal exposure; the four cells are sampling context, not political causes.
+- Comparison: Party identity conditions how the same place-capacity context appears in trust and civic-action measures. Related topic: Business counts do not tell us who belongs to a place. The subgroup comparison is descriptive and does not identify whether identity, place experience, information, selection, or another factor produced the difference.
+- Comparison: A buyer-side defense relationship can become a political claim about reciprocal access and regional industrial autonomy. Related topic: A defense relationship can move from buying capability toward building reciprocal industrial room. The official agreements show institutional intent, not realized production, public reception, supplier replaceability, bargaining leverage, or changed external behavior.
 
 ### Help can exist but be hard to keep
 
@@ -2705,6 +2723,9 @@ Connections:
 - Question to test: A weaker local tie among business owners may change who controls local services and opportunity. Related topic: The hometown tie in entrepreneurship has weakened. The current evidence does not show that owner movement changed local jobs, prices, services or belonging.
 - Question to test: New residents can change the local customer base, work pool and services of a place. Related topic: New residents are workers and customers at once. The current evidence does not show how housing, wages, public capacity and belonging change together.
 - Question to test: A support rule based on firm size can change which local businesses survive and which services remain nearby. Related topic: A bigger small-business rule can squeeze the smallest firms. The current evidence does not follow local firm survival, jobs, prices and customer access after the rule changes.
+- Comparison: Population-change context can coincide with different federal trust while civic action and reported voting remain comparatively stable. Related topic: Personal finances and national mood can move apart. The CES county context does not identify the respondent's business/service exposure, belonging, attribution, or a causal place-to-political pathway; its frame is separate from the capacity cells.
+- Comparison: The same-county capacity and mobility cells carry non-monotonic trust and civic-action patterns rather than one political response. Related topic: Personal finances and national mood can move apart. The CES join does not observe respondent service use, local meaning, attribution, or causal exposure; the four cells are sampling context, not political causes.
+- Comparison: Party identity conditions how the same place-capacity context appears in trust and civic-action measures. Related topic: Personal finances and national mood can move apart. The subgroup comparison is descriptive and does not identify whether identity, place experience, information, selection, or another factor produced the difference.
 
 ### A quicker reply may still leave a problem open
 
@@ -2727,16 +2748,21 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
 - [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
 - [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html)
 
-#### Evidence check: Faster work does not mean a large jump in solved problems
+#### Evidence check: A quicker reply may still leave a problem open
 
-In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%. The share of chats marked resolved rose by only 1.3 percentage points, while customer satisfaction did not change in a meaningful way.
+In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%, while the share of chats marked resolved rose by only 1.3 percentage points and customer satisfaction did not change meaningfully. In the CFPB complaint system, the recorded endpoint also changed over time: explanations fell from 90.7% of published complaints received in 2020 to 49.0% in 2024, while non-monetary relief rose from 6.2% to 50.1%.
 
-Working interpretation: measure the answer customers got, not only the speed or number of chats handled. A firm can serve more contacts without making each difficult problem much easier to fix.
+Working interpretation: response speed and administrative closure are not the same as a customer's problem being repaired. Institutional response categories need to be tracked over time, alongside the customer's ability to verify a remedy, repeat contact, switch, or leave.
 
-The tool supported human agents and was rolled out within one company. The resolution measure and customer-satisfaction measure have limits, and this study does not test appeals, repeat complaints or whether a person could overturn a decision.
+**Counterpoint:** The CFPB annual pattern is not a clean improvement or deterioration trend: product labels, complaint routing, publication rules, complaint mix, and response coding changed across the period. Non-monetary relief may be effective, while an explanation may be appropriate.
+[Related study](https://www.consumerfinance.gov/data-research/consumer-complaints/)
 
-[Brynjolfsson, Li and Raymond, Generative AI at Work, NBER Working Paper 31161; NBER Digest summary and revised paper checked 2026-09-11.](https://www.nber.org/papers/w31161)
+The AI study uses one company and measures productivity, resolution marking, and satisfaction. The CFPB series uses published complaints rather than all consumers or accounts, and neither source verifies remedy adequacy, later financial security, trust, switching, or political action.
+
+[CFPB Consumer Complaint Database annual aggregate snapshots for 2020–2024; annual trend record checked 2026-09-13. AI comparison: Brynjolfsson, Li and Raymond, NBER Working Paper 31161.](https://www.consumerfinance.gov/data-research/consumer-complaints/)
 
 
 Connections:
@@ -2793,6 +2819,7 @@ Connections:
 
 - Question to test: The value of a public benefit depends on what happens when earnings or work hours change. Related topic: Help can exist but be hard to keep. The current evidence does not show the same family's total resources after benefit loss and added pay.
 - Question to test: A benefit loss can make extra earnings leave a family with little or no extra room. Related topic: The price on the screen is only part of the cost. The current evidence does not show the full benefit, tax and work budget for the same family.
+- Comparison: A utility-payment or assistance screen can precede a different next-month work surface without identifying a work-loss cause. Related topic: A bill due date can become part of the energy burden. The SIPP transition observes reported monthly utility/assistance status and numeric earnings or hours change, not a dated bill, provider action, desired hours, care substitution, recovery, or causal effect.
 
 ### A lost benefit can change how families read the economy
 
@@ -3444,6 +3471,43 @@ Connections:
 - Question to test: Unequal customer power can change which groups receive fair service and which groups pay more. Related topic: A quicker reply may still leave a problem open. The historical study measures treatment and prices but does not show today's service quality or switching path.
 - Question to test: A group-specific price can become part of how customers understand fairness in a market. Related topic: A slower rise in prices can still feel like a loss. The current evidence does not measure each customer's price awareness, blame or later action.
 
+### A defense relationship can move from buying capability toward building reciprocal industrial room
+
+Procurement can be followed by reciprocal access and planned regional co-production without yet proving autonomy or leverage.
+
+**Question:** When does buying allied capability become the ability to produce, supply, or refuse?
+
+**Subthemes:** Reciprocal access; Regional co-production; Industrial autonomy
+
+**Limit:** The current evidence stops at official agreement-stage response; realization and external behavior remain open.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Polish MOD: agreement with the United States](https://www.gov.pl/web/obrona-narodowa/informacja-na-temat-podpisanego-porozumienia-z-usa)
+- [Polish Ministry of State Assets: Barracuda B500M regional production agreement](https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu)
+- [Kujawsko-Pomorskie government: PGZ/WZL-2/Anduril Barracuda agreement](https://www.gov.pl/web/uw-kujawsko-pomorski/strategiczna-umowa-podpisana-w-wzl-2-w-bydgoszczy-powstana-nowoczesne-pociski-manewrujace-barracuda)
+- [Polish National Security Bureau: August Barracuda follow-up meeting](https://www.bbn.gov.pl/pl/wydarzenia/10470,Spotkanie-Szefa-BBN-z-przedstawicielami-Anduril-Industries.html)
+- [Polish Ministry of State Assets: production-plan detail](https://www.gov.pl/web/aktywa-panstwowe/pgz-i-anduril-uruchomia-w-polsce-produkcje-pociskow-barracuda-500m-odpalanych-z-wyrzutni-naziemnych)
+
+#### Evidence check: A defense relationship can move from buying capability toward building reciprocal industrial room
+
+Polish official releases describe a US-linked UAS/C-UAS cooperation arrangement that allows potential buyer and seller roles, followed by a Poland-US-Estonia-Latvia agreement for planned regional Barracuda B500M production with Poland as the intended main European production center.
+
+Working interpretation: strategic autonomy may be pursued through reciprocal access and production networks, not only through ownership of finished equipment.
+
+**Counterpoint:** Agreement-stage reciprocity may improve interoperability while leaving design authority, components, approvals, finance, and demand externally dependent.
+[Related study](https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu)
+
+The current releases do not establish commissioned plants, output, delivery, local incidence, switching capacity, public reception, or bargaining leverage.
+
+[Polish Ministry of National Defence and Ministry of State Assets announcements, checked 2026-09-14.](https://www.gov.pl/web/obrona-narodowa/informacja-na-temat-podpisanego-porozumienia-z-usa)
+
+
+Connections:
+
+- Comparison: A buyer-side defense relationship can become a political claim about reciprocal access and regional industrial autonomy. Related topic: Personal finances and national mood can move apart. The official agreements show institutional intent, not realized production, public reception, supplier replaceability, bargaining leverage, or changed external behavior.
+- Comparison: Regional co-production can turn an alliance purchase into a claim about domestic industrial work and technical skill. Related topic: The same job can contain different AI access. The agreement does not establish plant commissioning, jobs, wages, skills transfer, production, or who controls critical inputs and design authority.
+
 ## Who controls the work and gets the gain
 
 Separate time saved for workers from output gained by the firm, and ask who controls the next decision.
@@ -3538,7 +3602,15 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [Generative AI and Firm Values](https://www.nber.org/papers/w31222)
 - [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
 - [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [BLS Job Openings and Labor Turnover Survey](https://www.bls.gov/jlt/)
+- [field definitions](https://www.bls.gov/help/def/jt.htm)
+- [ILOSTAT data catalog](https://ilostat.ilo.org/data/)
+- [bulk-download
+documentation](https://ilostat.ilo.org/data/bulk/)
+- [Rilostat workflow
+documentation](https://ilostat.github.io/Rilostat/reference/get_ilostat.html)
 - [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html)
 - [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
 - [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
 - [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
@@ -3566,6 +3638,8 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
 - [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
 - [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates)
+- [WDR 2026 reproducibility catalog](https://reproducibility.worldbank.org/catalog/624)
 - [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
 - [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
 - [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
@@ -3573,14 +3647,14 @@ Sources collected in the opening pass; listing a source does not mean its full s
 
 #### Evidence check: AI use is spreading widely but remains uneven at work
 
-A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools.
+A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools. Separate experiments find that AI access can improve productivity or reduce work time, with effects varying by worker experience and education.
 
 Working interpretation: the first divide may be inside the same job, between workers who have access, training or permission and those who do not. Study the work rules around the tool, not only the tool itself.
 
-**Counterpoint:** In a separate randomized field experiment across 66 firms, workers who used an AI tool spent about two fewer hours per week on email and less time working after hours, but researchers did not detect a change in the amount or mix of tasks.
+**Counterpoint:** The evidence is not uniformly stratifying: a randomized task experiment found larger performance gains for lower-education participants and narrowed the measured education gap, while a field experiment across 66 firms found time savings without a detectable change in task quantity or composition.
 [Related study](https://www.nber.org/papers/w33795)
 
-The paper measures reported use and task exposure, not whether AI raised pay, reduced jobs or changed worker power. It is an early national measure, so later surveys may revise the picture.
+The studies measure different units and outcomes: reported adoption, task performance, and time use. They do not yet show whether AI raised pay, reduced jobs, changed worker power, or altered cultural and political meaning.
 
 [Bick, Blandin, Deming and Schumacher, What Work Does Generative AI Do?, NBER Working Paper 35677, August 2026 abstract. Checked 2026-09-11.](https://www.nber.org/papers/w35677)
 
@@ -3608,6 +3682,8 @@ Connections:
 - Question to test: A workplace saving rule changes the financial meaning of a job even when the wage does not change. Related topic: Automatic saving can grow an account and a credit-card balance. The current study does not show whether workers value the added saving enough to change job choice, retention or effort.
 - Question to test: A dominant local employer can make the job itself part of a worker's political calculation. Related topic: A dominant employer may carry local job power into politics. The current study does not show whether the employer changed pay, schedules, job options or the worker's actual decision.
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: Personal finances and national mood can move apart. The current atlas does not follow the same worker from job condition through political belief and vote.
+- Comparison: Monthly work and resource movement can coexist with a separate care-time and health-cost burden. Related topic: A family can pay for care with time. SIPP, ATUS, and MEPS measure complementary stages but do not follow the same person through a dated care or health event, recovery, trust, or action.
+- Comparison: Regional co-production can turn an alliance purchase into a claim about domestic industrial work and technical skill. Related topic: A defense relationship can move from buying capability toward building reciprocal industrial room. The agreement does not establish plant commissioning, jobs, wages, skills transfer, production, or who controls critical inputs and design authority.
 
 ### Fit can decide who gets heard at work
 
@@ -4101,6 +4177,7 @@ Connections:
 
 - Question to test: The energy burden includes when the bill is due and when household money arrives. Related topic: A home can be costly to heat before anything else changes. The current sources do not show which households face a shutoff or what they do to avoid it.
 - Question to test: A due-date gap can turn the energy bill into a wider payment and household-budget problem. Related topic: The price on the screen is only part of the cost. The current evidence does not show the same household's later arrears, borrowing, shutoff or health outcome.
+- Comparison: A utility-payment or assistance screen can precede a different next-month work surface without identifying a work-loss cause. Related topic: More work does not always mean more room. The SIPP transition observes reported monthly utility/assistance status and numeric earnings or hours change, not a dated bill, provider action, desired hours, care substitution, recovery, or causal effect.
 
 ### Insurance risk can become a home and credit problem
 

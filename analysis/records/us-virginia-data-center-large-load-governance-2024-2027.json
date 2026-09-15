@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-virginia-data-center-large-load-governance-2024-2027",
+  "title": "Virginia moves large-load data-center governance toward explicit cost allocation and reliability controls",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "firm_sector_market_power", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "Virginia State Corporation Commission / Dominion Energy Virginia large-load regulatory record",
+  "geography": "Virginia, United States; Dominion Energy Virginia service territory",
+  "observations": [
+    {
+      "period": "July 2024",
+      "denominator": {"value": 1, "unit": "reported Dominion large-load drop event", "value_type": "reported_event"},
+      "measures": {"data_center_load_dropped": {"value": 1551, "unit": "MW", "value_type": "reported_event_magnitude"}},
+      "method": "Transcribed from the Virginia SCC SB1239 cybersecurity/electric-service evaluation report's summary of Dominion's testimony.",
+      "uncertainty": "The report summarizes a utility account of a system event; it does not provide a facility-level roster, customer-level exposure, duration-by-site, household impact, or independent causal reconstruction.",
+      "subgroup": "Dominion large-load customers in the reported event area.",
+      "counterinterpretation": "The load transfer may reflect protective operational response rather than ordinary demand reduction or permanent loss of service.",
+      "source_url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/regulated-industries/utility-regulation/responsibilities/scc-report--sb1239.pdf",
+      "retrieval_hash": "sha256:16c7160266f26fda66f78aa294786c3f53ea833f66759ddc7b0142737d5112c4",
+      "status": "reported"
+    },
+    {
+      "period": "February 2025",
+      "denominator": {"value": 1, "unit": "reported Dominion large-load drop event", "value_type": "reported_event"},
+      "measures": {"data_center_load_dropped": {"value": 1800, "unit": "MW", "value_type": "reported_event_magnitude"}},
+      "method": "Transcribed from the Virginia SCC SB1239 cybersecurity/electric-service evaluation report's summary of Dominion's testimony.",
+      "uncertainty": "The report summarizes a utility account of a system event; it does not provide a facility-level roster, customer-level exposure, duration-by-site, household impact, or independent causal reconstruction.",
+      "subgroup": "Dominion large-load customers in the reported event area.",
+      "counterinterpretation": "The load transfer may reflect protective operational response rather than ordinary demand reduction or permanent loss of service.",
+      "source_url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/regulated-industries/utility-regulation/responsibilities/scc-report--sb1239.pdf",
+      "retrieval_hash": "sha256:16c7160266f26fda66f78aa294786c3f53ea833f66759ddc7b0142737d5112c4",
+      "status": "reported"
+    },
+    {
+      "period": "2025-11-25",
+      "denominator": {"value": 1, "unit": "Virginia SCC Dominion biennial-review order", "value_type": "reported_policy_action"},
+      "measures": {
+        "gs5_threshold": {"value": 25, "unit": "MW contracted demand", "value_type": "reported_threshold"},
+        "minimum_transmission_distribution_demand": {"value": 85, "unit": "percent of contracted demand", "value_type": "reported_policy_requirement"},
+        "minimum_generation_demand": {"value": 60, "unit": "percent of contracted demand", "value_type": "reported_policy_requirement"},
+        "minimum_contract_term": {"value": 14, "unit": "years", "value_type": "reported_policy_requirement"},
+        "effective_date": {"value": "2027-01-01", "unit": "date", "value_type": "reported_effective_date"},
+        "typical_residential_monthly_increase_2026": {"value": 11.24, "unit": "USD per month at 1,000 kWh", "value_type": "reported_systemwide_rate_effect"},
+        "typical_residential_monthly_increase_2027": {"value": 2.36, "unit": "USD per month at 1,000 kWh", "value_type": "reported_systemwide_rate_effect"}
+      },
+      "method": "Transcribed from the Virginia SCC final-order news release and February 2026 data-center initiatives fact sheet for Case PUR-2025-00058.",
+      "uncertainty": "This is a regulatory design and effective-date observation. The SCC release reports systemwide typical-residential bill increases of $11.24 per month in 2026 and $2.36 in 2027 at 1,000 kWh, but those changes are not attributed solely to data centers and do not show customer-level payments, avoided cost shifting, or completed interconnection outcomes.",
+      "subgroup": "Large-scale customers meeting the stated threshold; exemptions and applicability vary by service-start date and tariff terms.",
+      "counterinterpretation": "A minimum-charge rule can allocate financial responsibility without proving that all system, environmental, or public costs are fully recovered.",
+      "source_url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/about-the-scc/fact-sheets/scc-data-center-initiatives-02-2026.pdf",
+      "retrieval_hash": "sha256:56ea4ef3c605dfc5fe5fa564e220863093ccd601d1b85d5c2dce966b53f836e5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Rider T1 proceeding",
+      "denominator": {"value": 1, "unit": "projected typical Dominion residential customer using 1,000 kWh", "value_type": "modeled_rate_effect"},
+      "measures": {
+        "projected_residential_rider_increase_before_amended_allocation": {"value": 2.90, "unit": "USD per month", "value_type": "reported_projection"},
+        "projected_residential_rider_increase_after_amended_allocation": {"value": 0.94, "unit": "USD per month", "value_type": "reported_projection"},
+        "projected_increase_reduction": {"value": 67.5, "unit": "percent", "value_type": "reported_projection"}
+      },
+      "method": "Transcribed from the Virginia SCC public facts page describing the 2026 Rider T1 case and the approved amended transmission cost-allocation methodology.",
+      "uncertainty": "These are projected systemwide residential-rate effects cited by the SCC, not observed bills and not a data-center-only burden estimate. The counterfactual methodology, load forecast, and allocation assumptions remain embedded in the proceeding.",
+      "subgroup": "Typical Dominion residential customer using 1,000 kWh per month; this is a modeled reference customer, not a household panel.",
+      "counterinterpretation": "A lower projected Rider T1 increase does not show that residential customers experienced no other rate pressure or that large-load customers paid all related system costs.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:a12b4629af1fcd6190b2a5e9fd4aea119945464da9057fa98255beb848d98cd8",
+      "status": "reported"
+    },
+    {
+      "period": "2025 filing",
+      "denominator": {"value": 139, "unit": "initial GS-5 accounts", "value_type": "reported_account_count"},
+      "measures": {
+        "initial_gs5_accounts": {"value": 139, "unit": "accounts", "value_type": "reported_total"},
+        "initial_data_center_accounts": {"value": 131, "unit": "accounts", "value_type": "reported_subtotal"},
+        "initial_non_data_center_accounts": {"value": 8, "unit": "accounts", "value_type": "reported_subtotal"},
+        "data_center_share_of_initial_gs5_accounts": {"value": 94.2, "unit": "percent", "value_type": "derived_from_reported_counts"}
+      },
+      "method": "Transcribed from Dominion's filed High Load Customer Proposal in Case PUR-2025-00058; the proposal describes the initial GS-5 account population and eligibility criteria.",
+      "uncertainty": "This is a filed proposal/account snapshot, not a verified current customer roster or a forecast of all future accounts. GS-5 qualification depends on measured or contracted demand, load factor, site contiguity, and final tariff terms.",
+      "subgroup": "Initial GS-5 accounts; data-center versus non-data-center classification as reported in the filing.",
+      "counterinterpretation": "The account mix does not establish electricity consumption, cost causation, payment, ownership, or local facility location.",
+      "source_url": "https://www.scc.virginia.gov/docketsearch/DOCS/84sc01%21.PDF",
+      "retrieval_hash": "sha256:7f3d2716f14aa43f238e39c6c186fd346c63444bbb131a0756aa78f5085a42d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html", "claim": "The SCC describes the final order and its residential-rate context.", "status": "official-context"},
+    {"source_url": "https://www.dominionenergy.com/about/delivering-energy/electric-projects/power-line-projects/hornbaker-devlin", "claim": "Dominion identifies a Prince William transmission project supporting data-center growth and reliability.", "status": "context"},
+    {"source_url": "../../projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md", "claim": "County fiscal/capacity context remains a separate local layer.", "status": "context"}
+  ],
+  "boundary": "This record establishes regulatory response and reported operational stress in Virginia's large-load system. It does not establish actual Prince William facility load, household bill effects, utility cost allocation outcomes, water/environmental burden, public legitimacy, firm behavior, or geopolitical leverage. Those arrows require customer-, feeder-, place-, or docket-level evidence."
+}

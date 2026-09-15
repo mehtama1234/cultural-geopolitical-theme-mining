@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-consumer-sentinel-2025-extension",
+  "title": "FTC administrative reports show higher reported fraud losses in 2025, led by investment and imposter categories",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "FTC consumer fraud reports summarized in congressional testimony",
+  "geography": "United States consumer reports received by the FTC",
+  "observations": [
+    {
+      "period": "2025 annual FTC report frame",
+      "denominator": {"value": 3000000, "unit": "consumer fraud reports, approximate", "value_type": "reported_count"},
+      "measures": {
+        "fraud_reports": {"value": 3000000, "unit": "reports, approximate", "value_type": "reported_count"},
+        "reported_fraud_losses": {"value": 15900000000, "unit": "US dollars reported lost, approximate", "value_type": "reported_amount"},
+        "imposter_reports": {"value": 1000000, "unit": "reports, more than", "value_type": "reported_count"},
+        "imposter_reported_losses": {"value": 3500000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"},
+        "investment_scam_reported_losses": {"value": 7900000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"}
+      },
+      "method": "FTC administrative totals reported in testimony before the Joint Economic Committee; approximate and lower-bound language is preserved.",
+      "uncertainty": "Reports are unverified, may include multiple contributors and reporting changes, and undercount fraud that is not reported. Dollar totals are reported losses, not a complete loss census or verified recovery measure.",
+      "subgroup": "All consumer fraud reports, with imposter and investment-scam categories retained separately.",
+      "counterinterpretation": "A rise in reported losses can reflect reporting propensity, high-value cases, category or coverage changes, and not only more fraud or greater population exposure.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf",
+      "retrieval_hash": "sha256:0b91baf3b36465eee60e05865b09d3ea1a9bc4653b1059013414b30cded7931b",
+      "status": "reported"
+    },
+    {
+      "period": "2020–2025; imposter-scam reported losses",
+      "denominator": {"value": 1, "unit": "FTC imposter-scam time-series comparison", "value_type": "comparison_frame"},
+      "measures": {
+        "2025_vs_2020_reported_loss_multiple": {"value": 3, "unit": "approximately times, lower-bound comparison", "value_type": "reported_comparison"},
+        "imposter_share_of_2025_fraud_reports": {"value": 33, "unit": "percent, approximate one-in-three description", "value_type": "reported_share"}
+      },
+      "method": "FTC testimony comparison of the 2025 imposter-scam report and loss frame with 2020, retaining approximate language.",
+      "uncertainty": "The comparison is bounded by FTC administrative reporting and does not establish a comparable population denominator, incidence rate, or causal effect of a particular platform, payment rail, or scam tactic.",
+      "subgroup": "Imposter scams within the FTC fraud-report taxonomy.",
+      "counterinterpretation": "Category salience and reporting access may rise over time even if underlying exposure changes differently; the aggregate does not reveal who recovered money or bore the final loss.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf",
+      "retrieval_hash": "sha256:0b91baf3b36465eee60e05865b09d3ea1a9bc4653b1059013414b30cded7931b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+      "claim": "The Federal Reserve SHED supplies a separate household exposure, loss, recovery, and time-cost frame.",
+      "status": "reported",
+      "access_boundary": "The survey and FTC administrative reports have different units, coverage, definitions, and underreporting properties; they must not be pooled."
+    }
+  ],
+  "boundary": "This record establishes a later FTC administrative report and reported-loss frame. It does not establish population prevalence, verified harm, recovery, remedy adequacy, trust change, or the same-person household path."
+}

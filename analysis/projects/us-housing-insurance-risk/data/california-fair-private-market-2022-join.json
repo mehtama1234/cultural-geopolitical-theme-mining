@@ -1,0 +1,58 @@
+{
+  "format": "california-fair-private-market-join-v1",
+  "period": "2020-2023 voluntary counts; 2022 FAIR share crosswalk",
+  "voluntary_input": "california-residential-insurance-zip-2020-2023.xlsx",
+  "fair_input": "california-fair-plan-vs-voluntary-2022.pdf",
+  "statewide_voluntary_counts": {
+    "2020": {
+      "new": 1007422,
+      "renewed": 7572809,
+      "nonrenewed": 898064,
+      "rows": 2113
+    },
+    "2021": {
+      "new": 1091089,
+      "renewed": 7514564,
+      "nonrenewed": 1037767,
+      "rows": 2041
+    },
+    "2022": {
+      "new": 933752,
+      "renewed": 7578931,
+      "nonrenewed": 899690,
+      "rows": 1945
+    },
+    "2023": {
+      "new": 724037,
+      "renewed": 7576693,
+      "nonrenewed": 788485,
+      "rows": 1933
+    }
+  },
+  "fair_zip_rows": 1719,
+  "joined_2022_zip_rows": 1717,
+  "join_rate_against_fair_rows": 0.998837,
+  "quartile_comparison": {
+    "lowest_fair_share_quartile": {
+      "zip_rows": 429,
+      "mean_fair_share": 0.076923,
+      "renewed": 2629091,
+      "nonrenewed": 288570,
+      "nonrenewal_rate_among_renewal_decisions": 0.098905
+    },
+    "highest_fair_share_quartile": {
+      "zip_rows": 429,
+      "mean_fair_share": 26.770629,
+      "renewed": 543185,
+      "nonrenewed": 76876,
+      "nonrenewal_rate_among_renewal_decisions": 0.123981
+    }
+  },
+  "classification": "ZIP-level descriptive crosswalk; FAIR share is residential dwelling structures while the voluntary file contains a broader set of residential policy forms and counts.",
+  "limits": [
+    "The two files do not share an identical denominator or policy universe.",
+    "A ZIP-level association is not an individual household transition or causal private-market withdrawal estimate.",
+    "CDI notes that 2020 onward nonrenewal/cancellation categories changed slightly from prior reports.",
+    "Counts do not reveal reasons, premiums, coverage adequacy, claims, repairs, or moves."
+  ]
+}

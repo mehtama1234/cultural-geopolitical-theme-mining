@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-household-adaptation-buffer-recovery-crosssource-2024-2025",
+  "title": "Household adaptation can preserve current life while consuming savings, time, health, or recourse capacity",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled SHED panel paths, SHED population snapshots, and fraud/recovery conditional estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 to 2025; SHED financial-condition paths among prior adaptation adopters",
+      "denominator": {"value": 4419, "unit": "paired respondents across worsened (804), same (2,866), and improved (749) financial-condition paths; metric-specific prior-adopter pairs are smaller", "value_type": "paired_respondent_count"},
+      "measures": {"reduced_savings_persistence": {"value": "71.0% worsened; 58.7% same; 55.0% improved", "unit": "weighted percent among 2024 prior adopters with metric-specific valid pairs", "value_type": "weighted_share"}, "cheaper_product_persistence": {"value": "86.9%; 75.9%; 68.8%", "unit": "weighted percent across worsened, same, and improved paths", "value_type": "weighted_share"}, "borrowing_persistence": {"value": "65.1%; 52.0%; 45.0%", "unit": "weighted percent across worsened, same, and improved paths", "value_type": "weighted_share"}},
+      "method": "Official Federal Reserve SHED 2024 and 2025 CSV releases paired on shared shedid; financial-condition movement is classified as worsened, same broad category, or improved, and 2025 Yes is estimated among 2024 Yes prior adopters.",
+      "uncertainty": "Descriptive weighted persistence estimates without replicate-weight standard errors or causal identification; each adaptation has its own valid-pair denominator. Condition movement may select prior severity, debt, housing, care, health, or employment changes.",
+      "subgroup": "Recontacted adult respondents by financial-condition path and prior adoption of each adaptation.",
+      "counterinterpretation": "Persistence is not proof that a financial transition caused the behavior, and an improved broad category does not mean savings, consumption, debt, or time has recovered.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a",
+      "status": "compared"
+    },
+    {
+      "period": "2024 to 2025; SHED financial-condition path and health/care transitions",
+      "denominator": {"value": 4419, "unit": "paired respondents across three financial-condition paths; health and adult-care outcomes have separate valid universes", "value_type": "paired_respondent_count"},
+      "measures": {"health_worsened": {"value": "18.8% worsened; 15.9% same; 16.5% improved", "unit": "percent within valid health-path denominators", "value_type": "weighted_share"}, "health_improved": {"value": "12.2%; 11.2%; 14.6%", "unit": "percent within valid health-path denominators", "value_type": "weighted_share"}, "adult_care_entry": {"value": "10.6% worsened; 6.5% same; 7.5% improved", "unit": "percent entering unpaid adult care among those with no reported care in 2024", "value_type": "weighted_share"}},
+      "method": "Weighted descriptive transitions from the SHED 2024-2025 paired panel; health and adult-care entry are analyzed in separate field-specific valid universes.",
+      "uncertainty": "No design-based standard errors estimated; broad ordinal health categories and reported care status do not observe care hours, intensity, recipient outcome, trigger, or schedule control.",
+      "subgroup": "Financial-condition paths; adult respondents with valid health or care transition fields.",
+      "counterinterpretation": "Most respondents in the worsened financial path reported unchanged or improved health, and care entered some improved paths; money, health, and care therefore move on different clocks.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2025; SHED food pressure and price adaptations",
+      "denominator": {"value": 100, "unit": "published percentage base among adults or within the specified income group; measures have different reference periods", "value_type": "publication_denominator"},
+      "measures": {"food_insufficiency": {"value": "7% in 2024; 8% in 2025", "unit": "percent reporting household food insufficiency in prior month", "value_type": "published_share"}, "low_high_income_food_gap": {"value": "19% vs 2% in 2024; 21% vs 1% in 2025", "unit": "percent food insufficiency among family income under $25,000 versus $100,000+", "value_type": "conditional_share"}, "price_response": {"value": "63% switched cheaper products; 61% used less/stopped; 43% reduced savings; 16% increased borrowing; 18% worked more", "unit": "percent of adults selecting each 2024 response; multiple responses allowed", "value_type": "multiple_response_share"}},
+      "method": "Federal Reserve SHED published tables for 2024 and 2025; food, bill payment, price effects, and adaptation questions retain their source-specific reference periods and denominators.",
+      "uncertainty": "Rounded population snapshots and multiple-response estimates; the record does not create a same-respondent price-to-food sequence or a statistically tested annual trend.",
+      "subgroup": "All adults and family-income groups; income, food, and price-response universes are not interchangeable.",
+      "counterinterpretation": "Adaptation prevalence indicates behavioral adjustment, not whether food, health, care, savings, or political agency were protected.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; SHED financial-fraud exposure, loss, recovery, and time cost",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; loss and recovery measures conditional on non-credit-card fraud", "value_type": "survey_population"},
+      "measures": {"any_financial_fraud": {"value": 21, "unit": "percent of adults", "value_type": "share"}, "non_card_fraud_lost_money": {"value": 63, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"}, "some_money_not_recovered": {"value": 32, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"}, "estimated_net_consumer_loss": {"value": 63000000000, "unit": "US dollars estimated direct consumer loss", "value_type": "estimated_amount"}, "ten_plus_hours_recovery": {"value": 30, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "approximate_share"}},
+      "method": "Federal Reserve 2024 SHED weighted estimates; exposure, direct loss, recovery, and time-cost measures retain conditional universes and overlapping fraud categories.",
+      "uncertainty": "Self-reported estimates concern the most recent relevant incident and do not establish verified fraud, complete incidence, event-level recovery, firm liability, or causal trust change.",
+      "subgroup": "All adults, non-credit-card fraud respondents, and age-conditioned groups; categories are not mutually exclusive.",
+      "counterinterpretation": "Credit-card liability protections may limit direct loss in some cases, while time, attention, and incomplete recovery can still be material even when money is recovered.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+      "retrieval_hash": "sha256:c4aec1766b3ea289d519e841610f9ea639d4688c851d384bb9f3ef14d309284c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm", "claim": "Official SHED public-use files and paired panel source.", "status": "official-data"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm", "claim": "SHED 2025 food hardship and price-adaptation tables.", "status": "official-report"},
+    {"source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm", "claim": "SHED 2024 fraud loss, recovery, and time-cost estimates.", "status": "official-report"}
+  ],
+  "boundary": "This is a non-pooled household-adaptation and recovery architecture. It does not establish a causal price or financial shock, a single household stress score, benefit adequacy, health or care effects, verified consumer remedy, later trust, political action, or geopolitical consequence. A dated same-household event ledger with exposure, adaptation, protected/sacrificed outcomes, attribution, remedy, and recovery remains open."
+}

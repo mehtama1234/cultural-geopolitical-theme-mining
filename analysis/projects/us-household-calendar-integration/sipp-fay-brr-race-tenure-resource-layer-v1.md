@@ -1,6 +1,6 @@
 # SIPP Fay-BRR race × tenure × resource layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-14
 **Source:** 2025 SIPP public-use file and official 240-replicate-weight file  
 **Unit:** person record by reference month  
 **Weight:** `WPFINWGT`; replicate weights `REPWGT1`–`REPWGT240`  
@@ -50,6 +50,11 @@ conditions that the SIPP fields do not fully explain.
 - 379,215 primary person-month rows were read.
 - 378,291 positive-weight rows matched to replicate records; no unmatched
   positive-weight rows remained.
+- A 2026-09-14 rerun on the current v16 extract reproduced the promoted
+  estimates, standard errors, confidence intervals, and valid-record counts;
+  the [reproduction audit](sipp-fay-brr-race-tenure-resource-reproduction-audit-2026-09-14.json)
+  records the input and output hashes. This is a vintage/control result, not a
+  new trend observation.
 - The selected field universes and status flags were applied: interviewed
   households for rent/mortgage and utility difficulty; the documented food
   screen for hunger; age 15+ for food-security status and job count; and valid
@@ -73,7 +78,10 @@ extract_sipp_household_calendar_slice.py
 ```
 
 The raw files, derived CSV, and three-way JSON output are not committed. The
-calculation output was `/tmp/us-broad-sipp-2025/full-v8/fay-brr-race-tenure-resource-v2.json`.
+current reproduction output was `/tmp/sipp-race-tenure-resource-v16.json`.
+The earlier promoted calculation used the v8 extract; the current v16 audit
+shows that the displayed estimates are stable across those two local extract
+vintages under the same pre-specified design.
 
 ## Next test
 

@@ -1,0 +1,339 @@
+{
+  "boundary": "FTE, shortage, designated population, underserved population, and score are designation-file fields, not observed appointments, active capacity, travel, quality, affordability, or household outcomes. Missing fields are retained as missing; overlapping components make national sums inappropriate.",
+  "designated_rows": 20905,
+  "format": "us-hrsa-hpsa-operational-fields-audit-v1",
+  "geography": "United States 50 states and DC; territories and Palau excluded",
+  "method": "Row-level parsing of current HRSA CSV. Medians and quartiles are not population-weighted; overlapping HPSA rows are not summed into county totals.",
+  "source_unit": "Current designated primary-care HPSA row; row-level fields grouped by overlapping component/type/population categories",
+  "summaries": {
+    "all_designated_primary_care_rows": {
+      "fields": {
+        "designation_population": {
+          "available": 20895,
+          "median": 42551.0,
+          "p25": 14460.0,
+          "p75": 82840.0,
+          "rows": 20905
+        },
+        "estimated_underserved_population": {
+          "available": 16039,
+          "median": 23715.0,
+          "p25": 7773.0,
+          "p75": 51525.0,
+          "rows": 20905
+        },
+        "fte": {
+          "available": 16582,
+          "median": 5.18,
+          "p25": 1.0,
+          "p75": 11.765,
+          "rows": 20905
+        },
+        "score": {
+          "available": 20905,
+          "median": 16.0,
+          "p25": 13.0,
+          "p75": 18.0,
+          "rows": 20905
+        },
+        "shortage": {
+          "available": 16582,
+          "median": 7.14,
+          "p25": 2.22,
+          "p75": 16.53,
+          "rows": 20905
+        }
+      },
+      "rows": 20905,
+      "unique_counties": 2888
+    },
+    "census_tract_component": {
+      "fields": {
+        "designation_population": {
+          "available": 12238,
+          "median": 63603.0,
+          "p25": 34903.0,
+          "p75": 103723.0,
+          "rows": 12238
+        },
+        "estimated_underserved_population": {
+          "available": 12238,
+          "median": 35170.0,
+          "p25": 14739.0,
+          "p75": 59018.0,
+          "rows": 12238
+        },
+        "fte": {
+          "available": 12238,
+          "median": 6.592,
+          "p25": 2.55,
+          "p75": 15.875,
+          "rows": 12238
+        },
+        "score": {
+          "available": 12238,
+          "median": 16.0,
+          "p25": 14.0,
+          "p75": 18.0,
+          "rows": 12238
+        },
+        "shortage": {
+          "available": 12238,
+          "median": 11.133,
+          "p25": 4.83,
+          "p75": 19.265,
+          "rows": 12238
+        }
+      },
+      "rows": 12238,
+      "unique_counties": 243
+    },
+    "county_or_subdivision_component": {
+      "fields": {
+        "designation_population": {
+          "available": 3801,
+          "median": 10312.0,
+          "p25": 5054.0,
+          "p75": 23052.0,
+          "rows": 3801
+        },
+        "estimated_underserved_population": {
+          "available": 3801,
+          "median": 5161.0,
+          "p25": 2437.0,
+          "p75": 9282.0,
+          "rows": 3801
+        },
+        "fte": {
+          "available": 3801,
+          "median": 1.034,
+          "p25": 0.2,
+          "p75": 3.35,
+          "rows": 3801
+        },
+        "score": {
+          "available": 3801,
+          "median": 14.0,
+          "p25": 12.0,
+          "p75": 16.0,
+          "rows": 3801
+        },
+        "shortage": {
+          "available": 3801,
+          "median": 1.63,
+          "p25": 0.785,
+          "p75": 2.929,
+          "rows": 3801
+        }
+      },
+      "rows": 3801,
+      "unique_counties": 2371
+    },
+    "facility_or_site_type": {
+      "fields": {
+        "designation_population": {
+          "available": 4856,
+          "median": 24165.5,
+          "p25": 5674.5,
+          "p75": 61666.75,
+          "rows": 4866
+        },
+        "estimated_underserved_population": {
+          "available": 0,
+          "median": null,
+          "p25": null,
+          "p75": null,
+          "rows": 4866
+        },
+        "fte": {
+          "available": 543,
+          "median": 0.375,
+          "p25": 0.0,
+          "p75": 1.0,
+          "rows": 4866
+        },
+        "score": {
+          "available": 4866,
+          "median": 16.0,
+          "p25": 13.0,
+          "p75": 18.0,
+          "rows": 4866
+        },
+        "shortage": {
+          "available": 543,
+          "median": 0.99,
+          "p25": 0.545,
+          "p75": 1.475,
+          "rows": 4866
+        }
+      },
+      "rows": 4866,
+      "unique_counties": 1884
+    },
+    "geographic_type": {
+      "fields": {
+        "designation_population": {
+          "available": 3886,
+          "median": 38497.0,
+          "p25": 15819.0,
+          "p75": 118055.0,
+          "rows": 3886
+        },
+        "estimated_underserved_population": {
+          "available": 3886,
+          "median": 11651.0,
+          "p25": 4836.5,
+          "p75": 29904.0,
+          "rows": 3886
+        },
+        "fte": {
+          "available": 3886,
+          "median": 7.0,
+          "p25": 1.425,
+          "p75": 17.575,
+          "rows": 3886
+        },
+        "score": {
+          "available": 3886,
+          "median": 13.0,
+          "p25": 11.0,
+          "p75": 15.0,
+          "rows": 3886
+        },
+        "shortage": {
+          "available": 3886,
+          "median": 3.33,
+          "p25": 1.47,
+          "p75": 9.165,
+          "rows": 3886
+        }
+      },
+      "rows": 3886,
+      "unique_counties": 996
+    },
+    "low_income_population_code": {
+      "fields": {
+        "designation_population": {
+          "available": 9934,
+          "median": 42551.0,
+          "p25": 15711.0,
+          "p75": 72311.0,
+          "rows": 9934
+        },
+        "estimated_underserved_population": {
+          "available": 9934,
+          "median": 23916.0,
+          "p25": 8034.5,
+          "p75": 44426.5,
+          "rows": 9934
+        },
+        "fte": {
+          "available": 9934,
+          "median": 4.369,
+          "p25": 0.959,
+          "p75": 8.554,
+          "rows": 9934
+        },
+        "score": {
+          "available": 9934,
+          "median": 16.0,
+          "p25": 14.0,
+          "p75": 18.0,
+          "rows": 9934
+        },
+        "shortage": {
+          "available": 9934,
+          "median": 7.97,
+          "p25": 2.676,
+          "p75": 14.81,
+          "rows": 9934
+        }
+      },
+      "rows": 9934,
+      "unique_counties": 1553
+    },
+    "migrant_or_seasonal_population_code": {
+      "fields": {
+        "designation_population": {
+          "available": 2321,
+          "median": 95378.0,
+          "p25": 56943.0,
+          "p75": 157635.0,
+          "rows": 2321
+        },
+        "estimated_underserved_population": {
+          "available": 2321,
+          "median": 65139.0,
+          "p25": 30197.0,
+          "p75": 114907.0,
+          "rows": 2321
+        },
+        "fte": {
+          "available": 2321,
+          "median": 9.992,
+          "p25": 4.123,
+          "p75": 18.661,
+          "rows": 2321
+        },
+        "score": {
+          "available": 2321,
+          "median": 16.0,
+          "p25": 14.0,
+          "p75": 17.0,
+          "rows": 2321
+        },
+        "shortage": {
+          "available": 2321,
+          "median": 21.717,
+          "p25": 10.065,
+          "p75": 38.301,
+          "rows": 2321
+        }
+      },
+      "rows": 2321,
+      "unique_counties": 124
+    },
+    "population_type": {
+      "fields": {
+        "designation_population": {
+          "available": 12153,
+          "median": 51723.0,
+          "p25": 19749.0,
+          "p75": 80102.0,
+          "rows": 12153
+        },
+        "estimated_underserved_population": {
+          "available": 12153,
+          "median": 27919.0,
+          "p25": 9536.0,
+          "p75": 52863.0,
+          "rows": 12153
+        },
+        "fte": {
+          "available": 12153,
+          "median": 5.18,
+          "p25": 1.16,
+          "p75": 10.059,
+          "rows": 12153
+        },
+        "score": {
+          "available": 12153,
+          "median": 16.0,
+          "p25": 14.0,
+          "p75": 18.0,
+          "rows": 12153
+        },
+        "shortage": {
+          "available": 12153,
+          "median": 9.306,
+          "p25": 3.18,
+          "p75": 17.618,
+          "rows": 12153
+        }
+      },
+      "rows": 12153,
+      "unique_counties": 1673
+    }
+  },
+  "unique_counties": 2888
+}

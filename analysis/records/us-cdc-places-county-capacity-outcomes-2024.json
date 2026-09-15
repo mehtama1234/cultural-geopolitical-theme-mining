@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cdc-places-county-capacity-outcomes-2024",
+  "title": "County health-sector capacity and modeled social-need measures align descriptively but not as a care-adequacy estimate",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "US county; CDC PLACES modeled county estimates joined to Census CBP health/social-assistance establishments, county population, and HRSA primary-care HPSA component presence",
+  "geography": "United States; 3,072 matched counties and county equivalents excluding non-US territories",
+  "observations": [
+    {
+      "period": "2024 CDC PLACES release; county measures primarily based on 2022 BRFSS; low health-establishment-capacity quartile",
+      "denominator": {"value": 768, "unit": "matched counties in the lowest quartile of 2023 CBP health/social-assistance establishments per 10,000 residents", "value_type": "county_group"},
+      "measures": {"health_est_per_10k": {"value": 13.854, "unit": "median employer establishments per 10,000 residents", "value_type": "county_median"}, "transportation_insecurity": {"value": 10.2, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "food_insecurity": {"value": 18.1, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "housing_insecurity": {"value": 14.7, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "utility_shutoff_threat": {"value": 10.0, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "frequent_mental_distress": {"value": 18.7, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "lack_health_insurance": {"value": 11.0, "unit": "median PLACES percent of adults aged 18-64", "value_type": "modeled_county_median"}, "routine_checkup": {"value": 75.8, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}},
+      "method": "County FIPS join and unweighted medians; capacity quartiles computed across matched counties.",
+      "uncertainty": "PLACES values are modeled small-area estimates; county medians do not provide a causal or person-level uncertainty estimate. CBP is employer stock, not usable care capacity.",
+      "subgroup": "County group defined by visible health/social-assistance establishment capacity; no individual subgroup or patient linkage.",
+      "counterinterpretation": "Lower capacity may co-vary with income, rurality, age, insurance, transport, population composition, or neighboring-place access; social-need ordering is not a capacity effect.",
+      "source_url": "https://data.cdc.gov/d/fu4u-a9bh",
+      "retrieval_hash": "sha256:5d37a1bf910ad2f650b91c44d65e31ac42ae83649dd9175dedd02095678c0f8d",
+      "status": "compared"
+    },
+    {
+      "period": "2024 CDC PLACES release; high health-establishment-capacity quartile",
+      "denominator": {"value": 768, "unit": "matched counties in the highest quartile of 2023 CBP health/social-assistance establishments per 10,000 residents", "value_type": "county_group"},
+      "measures": {"health_est_per_10k": {"value": 34.817, "unit": "median employer establishments per 10,000 residents", "value_type": "county_median"}, "transportation_insecurity": {"value": 8.1, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "food_insecurity": {"value": 12.4, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "housing_insecurity": {"value": 11.3, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "utility_shutoff_threat": {"value": 7.5, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "frequent_mental_distress": {"value": 16.9, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "lack_health_insurance": {"value": 7.9, "unit": "median PLACES percent of adults aged 18-64", "value_type": "modeled_county_median"}, "routine_checkup": {"value": 75.2, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}},
+      "method": "County FIPS join and unweighted medians; capacity quartiles computed across matched counties.",
+      "uncertainty": "The higher visible establishment stock may include non-primary-care, administrative, or hospital employment and does not establish appointment access, quality, price, or patient outcomes.",
+      "subgroup": "County group defined by visible health/social-assistance establishment capacity; no individual subgroup or patient linkage.",
+      "counterinterpretation": "Lower modeled need may reflect composition, resources, selection, neighboring access, or model structure rather than local establishment effects; routine checkup is nearly unchanged.",
+      "source_url": "https://data.cdc.gov/d/fu4u-a9bh",
+      "retrieval_hash": "sha256:5d37a1bf910ad2f650b91c44d65e31ac42ae83649dd9175dedd02095678c0f8d",
+      "status": "compared"
+    },
+    {
+      "period": "Current HRSA designation file joined to 2023 CBP and 2024 PLACES; designated primary-care HPSA component present",
+      "denominator": {"value": 2785, "unit": "matched counties containing at least one designated primary-care HPSA component with county FIPS representation", "value_type": "county_group"},
+      "measures": {"health_est_per_10k": {"value": 23.119, "unit": "median CBP employer establishments per 10,000 residents", "value_type": "county_median"}, "transportation_insecurity": {"value": 9.0, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "food_insecurity": {"value": 15.1, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "housing_insecurity": {"value": 12.8, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "utility_shutoff_threat": {"value": 8.8, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "frequent_mental_distress": {"value": 18.1, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "lack_health_insurance": {"value": 9.2, "unit": "median PLACES percent of adults aged 18-64", "value_type": "modeled_county_median"}, "routine_checkup": {"value": 75.7, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}},
+      "method": "County FIPS overlap with current HRSA primary-care HPSA designations and unweighted county medians.",
+      "uncertainty": "HPSA components can be geographic, population-based, facility-based, or partial-county; the current designation file is not a frozen 2023 vintage.",
+      "subgroup": "Counties with represented designated primary-care HPSA components; not all county residents or all primary-care need.",
+      "counterinterpretation": "The high overlap rate is partly a geography/component construction result and cannot be read as county-wide shortage or causation.",
+      "source_url": "https://data.hrsa.gov/data/download?titleFilter=Shortage+Areas",
+      "retrieval_hash": "sha256:5d37a1bf910ad2f650b91c44d65e31ac42ae83649dd9175dedd02095678c0f8d",
+      "status": "compared"
+    },
+    {
+      "period": "Current HRSA designation file joined to 2023 CBP and 2024 PLACES; no represented designated primary-care HPSA component",
+      "denominator": {"value": 287, "unit": "matched counties without a represented designated primary-care HPSA component", "value_type": "county_group"},
+      "measures": {"health_est_per_10k": {"value": 23.436, "unit": "median CBP employer establishments per 10,000 residents", "value_type": "county_median"}, "transportation_insecurity": {"value": 7.0, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "food_insecurity": {"value": 10.85, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "housing_insecurity": {"value": 10.0, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "utility_shutoff_threat": {"value": 6.9, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "frequent_mental_distress": {"value": 16.4, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}, "lack_health_insurance": {"value": 7.1, "unit": "median PLACES percent of adults aged 18-64", "value_type": "modeled_county_median"}, "routine_checkup": {"value": 75.7, "unit": "median PLACES percent of adults", "value_type": "modeled_county_median"}},
+      "method": "County FIPS overlap with current HRSA primary-care HPSA designations and unweighted county medians.",
+      "uncertainty": "Absence of a represented HPSA component is not proof of adequate care; components, neighboring providers, and designation timing are not fully observed.",
+      "subgroup": "Counties without represented designated primary-care HPSA components; not a no-shortage population.",
+      "counterinterpretation": "The group is smaller and may differ systematically in geography, resources, population, and designation coverage; routine checkup is unchanged from the HPSA group.",
+      "source_url": "https://data.hrsa.gov/data/download?titleFilter=Shortage+Areas",
+      "retrieval_hash": "sha256:5d37a1bf910ad2f650b91c44d65e31ac42ae83649dd9175dedd02095678c0f8d",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cdc.gov/places/tools/explore-places-data-portal.html", "claim": "CDC documents PLACES county/place/tract/ZCTA releases and modeled small-area measures.", "status": "official-method"},
+    {"source_url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip", "claim": "2023 county employer-establishment and employment context.", "status": "official-input"},
+    {"source_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv", "claim": "Current primary-care HPSA component designation file.", "status": "official-input"},
+    {"source_url": "data/places-hpsa-outcomes-summary.json", "claim": "Reproduction output for the county joins and summaries.", "status": "derived"}
+  ],
+  "boundary": "This is an ecological, cross-vintage place diagnostic. PLACES estimates are modeled, CBP measures employer stock, and HRSA measures designated components. The record does not estimate individual access, quality, wait, price, causality, health outcomes, household burden, trust, belonging, or political action."
+}

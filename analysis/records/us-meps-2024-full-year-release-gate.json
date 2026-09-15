@@ -1,0 +1,235 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-full-year-release-gate",
+  "title": "MEPS 2024 full-year file supplies a newer design-based health-cost vintage",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "work_control_bargaining", "public_systems_feedback"],
+  "source_unit": "AHRQ MEPS Household Component 2024 Full-Year Consolidated Public Use File release and 2026 release schedule",
+  "geography": "United States; civilian noninstitutionalized population",
+  "observations": [
+    {
+      "period": "Calendar year 2024; full-year consolidated PUF release",
+      "denominator": {"value": 1, "unit": "official MEPS HC-256 public-use file release", "value_type": "release_artifact"},
+      "measures": {
+        "file_identifier": {"value": "HC-256", "unit": "MEPS public-use file identifier", "value_type": "release_identifier"},
+        "calendar_year": {"value": 2024, "unit": "calendar year covered", "value_type": "release_vintage"},
+        "panel_rounds": {"value": "Rounds 3-5 of Panel 28 and Rounds 1-3 of Panel 29", "unit": "MEPS panel-round coverage", "value_type": "design_description"},
+        "release_formats": {"value": "SAS, SPSS, Stata, R statements, ASCII, SAS transport, SAS V9, Excel, and Stata data file", "unit": "public-use delivery formats", "value_type": "release_inventory"},
+        "downloaded_stata_rows": {"value": 19140, "unit": "records in locally downloaded HC-256 Stata artifact", "value_type": "structural_audit"},
+        "downloaded_stata_columns": {"value": 1615, "unit": "variables in locally downloaded HC-256 Stata artifact", "value_type": "structural_audit"},
+        "positive_person_weights": {"value": 18683, "unit": "records with PERWT24F greater than zero in structural scan", "value_type": "structural_audit"},
+        "hc036brr_unique_person_ids": {"value": 461092, "unit": "unique person IDs in downloaded HC-036BRR Stata artifact", "value_type": "structural_audit"},
+        "hc256_ids_found_in_hc036brr": {"value": 19140, "unit": "HC-256 person IDs found in HC-036BRR artifact", "value_type": "linkage_audit"},
+        "hc256_id_linkage_rate": {"value": 100.0, "unit": "percent of HC-256 person IDs present in HC-036BRR", "value_type": "linkage_audit"}
+      },
+      "method": "AHRQ release and documentation pages were checked for the file identifier, calendar-year scope, panel-round coverage, and delivery formats; the structural scan is reported separately from the design-based estimate.",
+      "uncertainty": "The structural scan confirms artifact shape and weight-field presence, not a weighted population estimate. It does not audit all substantive universes or panel comparability. The 2024 file combines overlapping panels and requires file-specific interpretation.",
+      "subgroup": "The released PUF covers the civilian noninstitutionalized US population; subgroup estimates remain uncomputed in this gate.",
+      "counterinterpretation": "A newer file can improve recency while breaking comparability through panel composition, variable changes, weighting, coding, or revised historical definitions; release availability is not evidence of a trend.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "meps-hc256-page:sha256:06f9a4596b4e8d1a43efa54cc2ed7db79baef1a2a116f377441dfcb705dcdb11",
+      "status": "reported"
+    },
+    {
+      "period": "2026 MEPS release schedule; September checkpoint",
+      "denominator": {"value": 1, "unit": "AHRQ MEPS annual release schedule", "value_type": "schedule_artifact"},
+      "measures": {
+        "panel_28_longitudinal_release": {"value": "2023-2024 MEPS Panel 28 Longitudinal Data File", "unit": "scheduled September 2026 release", "value_type": "scheduled_release"},
+        "full_year_consolidated_release": {"value": "2024 Full Year Consolidated Data File", "unit": "scheduled August 2026 release and current file page", "value_type": "scheduled_release"},
+        "replicate_variance_release": {"value": "1996-2024 replicate file for BRR variance estimation", "unit": "scheduled August 2026 release and downloaded HC-036BRR artifact", "value_type": "variance_artifact"},
+        "brr_person_records": {"value": 483346, "unit": "person records in HC-036BRR, official description", "value_type": "release_inventory"},
+        "brr_sample_indicators": {"value": 128, "unit": "sample indicators in HC-036BRR, official description", "value_type": "release_inventory"}
+      },
+      "method": "AHRQ MEPS public-use release schedule checked for 2026 file timing and the separate longitudinal, full-year, and variance-file artifacts.",
+      "uncertainty": "A schedule is not proof that a file is downloadable, unchanged, or analytically ready; release timing, documentation, and file integrity must be rechecked at acquisition.",
+      "subgroup": "Future Panel 28 longitudinal and 2024 full-year users; no estimates promoted.",
+      "counterinterpretation": "The existence of a newer panel does not make the current Panel 27 result obsolete; it may answer a different question or have a different sample and estimand.",
+      "source_url": "https://meps.ahrq.gov/about_meps/releaseschedule.jsp",
+      "retrieval_hash": "meps-release-schedule:sha256:c2ad670d188e49a931f0d40931186b75d3b7d119fda45469a4c55bf919a00e60",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2024; all HC-256 records with positive PERWT24F and valid expenditure field",
+      "denominator": {"value": 18683, "unit": "HC-256 person records with positive PERWT24F and valid measure", "value_type": "unweighted_person_count"},
+      "measures": {
+        "total_health_expenditure": {"value": 8346.5249, "unit": "dollars per person in calendar year", "value_type": "weighted_estimate", "standard_error": 225.5589, "ci95_low": 7904.4295, "ci95_high": 8788.6203, "variance_method": "standard BRR across 128 replicates; replicate weight = BRR flag * 2 * PERWT24F"},
+        "self_family_payment": {"value": 1117.2803, "unit": "dollars per person in calendar year", "value_type": "weighted_estimate", "standard_error": 37.7341, "ci95_low": 1043.3216, "ci95_high": 1191.2391, "variance_method": "standard BRR across 128 replicates; replicate weight = BRR flag * 2 * PERWT24F"}
+      },
+      "method": "HC-256 Stata artifact joined to HC-036BRR by DUPERSID and PANEL. Final PERWT24F was used for the point estimate; each BRR replicate used BRR1-BRR128 flag * 2 * PERWT24F. Standard BRR variance is the mean squared deviation of the 128 replicate estimates; intervals are normal-approximation 95% intervals.",
+      "uncertainty": "This is a descriptive person-level estimate for calendar year 2024, not a household affordability estimate or causal effect. It excludes records with nonpositive weights or missing measure values; expenditure distributions are skewed; normal intervals and standard-BRR construction do not resolve panel overlap, nonresponse, service mix, price, or need composition.",
+      "subgroup": "Civilian noninstitutionalized US persons represented in HC-256 with positive final person weight and valid total-expenditure/self-family-payment fields; no subgroup conditioning in this estimate.",
+      "counterinterpretation": "Higher or lower spending can reflect health need, prices, insurance, utilization, age, provider mix, or data composition. Self/family payment is not total household burden and does not reveal delayed care, debt, unpaid time, or recovery.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; meps-hc036brr-dta:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; meps-hc036brr-doc:sha256:4abdfe926a38bcfeb34f7179530b9b19741d3c404e20c0c0dd4343f4444dff06",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; poverty-category subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field",
+      "denominator": {"value": 18683, "unit": "HC-256 person records with positive PERWT24F and valid measure; each poverty category has its own valid subgroup count", "value_type": "unweighted_person_count"},
+      "measures": {
+        "total_health_expenditure_by_poverty_category": {
+          "value": "category-specific weighted means below",
+          "unit": "dollars per represented person in calendar year",
+          "value_type": "grouped_weighted_estimate",
+          "poor_or_negative": {"mean": 8323.4876, "standard_error": 555.5821, "ci95_low": 7234.5467, "ci95_high": 9412.4285, "valid_records": 2940},
+          "near_poor": {"mean": 7984.2602, "standard_error": 697.2722, "ci95_low": 6617.6067, "ci95_high": 9350.9137, "valid_records": 799},
+          "low_income": {"mean": 7290.5798, "standard_error": 472.2474, "ci95_low": 6364.9749, "ci95_high": 8216.1848, "valid_records": 2293},
+          "middle_income": {"mean": 8007.6910, "standard_error": 535.4112, "ci95_low": 6958.2850, "ci95_high": 9057.0970, "valid_records": 5004},
+          "high_income": {"mean": 8862.4318, "standard_error": 284.2682, "ci95_low": 8305.2660, "ci95_high": 9419.5976, "valid_records": 7647}
+        },
+        "self_family_payment_by_poverty_category": {
+          "value": "category-specific weighted means below",
+          "unit": "dollars per represented person in calendar year",
+          "value_type": "grouped_weighted_estimate",
+          "poor_or_negative": {"mean": 442.9671, "standard_error": 48.7391, "ci95_low": 347.4384, "ci95_high": 538.4958, "valid_records": 2940},
+          "near_poor": {"mean": 491.9391, "standard_error": 72.3873, "ci95_low": 350.0599, "ci95_high": 633.8182, "valid_records": 799},
+          "low_income": {"mean": 843.8669, "standard_error": 96.3255, "ci95_low": 655.0689, "ci95_high": 1032.6649, "valid_records": 2293},
+          "middle_income": {"mean": 952.8145, "standard_error": 54.1421, "ci95_low": 846.6959, "ci95_high": 1058.9330, "valid_records": 5004},
+          "high_income": {"mean": 1497.8243, "standard_error": 64.1701, "ci95_low": 1372.0509, "ci95_high": 1623.5977, "valid_records": 7647}
+        }
+      },
+      "method": "POVCAT24 categories were estimated separately using PERWT24F for the point estimate and BRR1-BRR128 * 2 * PERWT24F for standard-BRR replicate estimates; each subgroup mean is normalized within its poverty category.",
+      "uncertainty": "These are descriptive person-level subgroup means, not household affordability or causal estimates. Category cells have different valid counts, income categories may reflect health need and age as well as resources, and the normal intervals do not resolve selection, panel composition, expenditure skew, or burden outside self/family payment.",
+      "subgroup": "POVCAT24: poor/negative, near poor, low income, middle income, and high income; category labels follow the HC-256 value labels.",
+      "counterinterpretation": "Higher self/family payment in higher-income categories may reflect greater utilization, age, insurance mix, provider use, or ability to purchase care rather than greater financial hardship. Lower direct payment in poorer categories does not establish lower need or lower burden.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; meps-hc036brr-dta:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; meps-hc036brr-doc:sha256:4abdfe926a38bcfeb34f7179530b9b19741d3c404e20c0c0dd4343f4444dff06",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; full-year insurance coverage subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field",
+      "denominator": {"value": 18683, "unit": "HC-256 person records with positive PERWT24F and valid measure; each coverage category has its own valid subgroup count", "value_type": "unweighted_person_count"},
+      "measures": {
+        "total_health_expenditure_by_insurance_category": {
+          "value": "category-specific weighted means below",
+          "unit": "dollars per represented person in calendar year",
+          "value_type": "grouped_weighted_estimate",
+          "under65_private": {"mean": 7126.9783, "standard_error": 295.2840, "ci95_low": 6548.2217, "ci95_high": 7705.7349, "valid_records": 8889},
+          "under65_public_only": {"mean": 7086.2120, "standard_error": 708.5671, "ci95_low": 5697.4205, "ci95_high": 8475.0034, "valid_records": 3653},
+          "under65_uninsured": {"mean": 1090.7585, "standard_error": 130.1341, "ci95_low": 835.6956, "ci95_high": 1345.8213, "valid_records": 1191},
+          "65plus_medicare_only": {"mean": 13415.8901, "standard_error": 559.0921, "ci95_low": 12320.0696, "ci95_high": 14511.7105, "valid_records": 2121},
+          "65plus_medicare_private": {"mean": 17789.3387, "standard_error": 813.5470, "ci95_low": 16194.7867, "ci95_high": 19383.8907, "valid_records": 1879},
+          "65plus_medicare_other_public": {"mean": 18014.8831, "standard_error": 1208.6317, "ci95_low": 15645.9650, "ci95_high": 20383.8012, "valid_records": 869}
+        },
+        "self_family_payment_by_insurance_category": {
+          "value": "category-specific weighted means below",
+          "unit": "dollars per represented person in calendar year",
+          "value_type": "grouped_weighted_estimate",
+          "under65_private": {"mean": 1179.1087, "standard_error": 50.9302, "ci95_low": 1079.2855, "ci95_high": 1278.9318, "valid_records": 8889},
+          "under65_public_only": {"mean": 268.3979, "standard_error": 26.9112, "ci95_low": 215.6521, "ci95_high": 321.1438, "valid_records": 3653},
+          "under65_uninsured": {"mean": 487.4386, "standard_error": 69.9785, "ci95_low": 350.2807, "ci95_high": 624.5965, "valid_records": 1191},
+          "65plus_medicare_only": {"mean": 2223.7081, "standard_error": 147.9506, "ci95_low": 1933.7249, "ci95_high": 2513.6914, "valid_records": 2121},
+          "65plus_medicare_private": {"mean": 2107.0582, "standard_error": 141.8807, "ci95_low": 1828.9721, "ci95_high": 2385.1444, "valid_records": 1879},
+          "65plus_medicare_other_public": {"mean": 765.0534, "standard_error": 155.1585, "ci95_low": 460.9428, "ci95_high": 1069.1641, "valid_records": 869}
+        }
+      },
+      "method": "INSURC24 categories were estimated separately using PERWT24F for the point estimate and BRR1-BRR128 * 2 * PERWT24F for standard-BRR replicate estimates; each subgroup mean is normalized within its coverage category.",
+      "uncertainty": "These are descriptive person-level subgroup means, not coverage effects or household affordability estimates. The under-65 and 65-plus categories differ by age universe, insurance selection, health need, and provider use; categories with 66 or 15 valid records are not promoted in the reader comparison.",
+      "subgroup": "INSURC24: under-65 private, under-65 public only, under-65 uninsured, and selected 65-plus Medicare categories; labels follow the HC-256 value labels.",
+      "counterinterpretation": "Lower self/family payment among publicly covered people may reflect coverage design, eligibility, health need, service use, age, or provider mix; it does not establish lower total burden, better access, or less unmet need. Higher payment among privately covered under-65 people is not a causal insurance effect.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; meps-hc036brr-dta:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; meps-hc036brr-doc:sha256:4abdfe926a38bcfeb34f7179530b9b19741d3c404e20c0c0dd4343f4444dff06",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; HC-254G office-based medical provider event layer",
+      "denominator": {"value": 144206, "unit": "office-based medical provider event records associated with positive PERWT24F; person-level non-users are absent from the event file", "value_type": "positive_weight_event_records"},
+      "measures": {
+        "office_visits": {"value": 2410.0925, "unit": "millions of office-based provider visits; Taylor SE 78.0669 million; 95% CI 2257.0815–2563.1036", "value_type": "event_total", "valid_events": 144206},
+        "mean_total_payments_per_visit": {"value": 308.0525, "unit": "dollars per office-based provider event; Taylor SE 7.9482; 95% CI 292.4741–323.6309", "value_type": "event_weighted_mean", "valid_events": 144206},
+        "mean_self_family_payment_per_visit": {"value": 57.3777, "unit": "dollars per office-based provider event; Taylor SE 3.0397; 95% CI 51.4199–63.3354", "value_type": "event_weighted_mean", "valid_events": 144206},
+        "positive_payment_share": {"value": 98.7347, "unit": "percent of office-based provider events with OBXP24X greater than zero; Taylor SE 0.0878 percentage points", "value_type": "event_weighted_share", "valid_events": 144206},
+        "telehealth_share": {"value": 10.7893, "unit": "percent of office-based provider events flagged telehealth; Taylor SE 0.6864 percentage points", "value_type": "event_weighted_share", "valid_events": 144206},
+        "under65_private_event_payment": {"value": 75.7518, "unit": "dollars self/family payment per office-based event; Taylor SE 4.6985; 95% CI 66.5428–84.9608; 62,776 valid events", "value_type": "coverage_conditioned_event_mean"},
+        "under65_public_only_event_payment": {"value": 14.7972, "unit": "dollars self/family payment per office-based event; Taylor SE 3.2890; 95% CI 8.3509–21.2436; 23,022 valid events", "value_type": "coverage_conditioned_event_mean"},
+        "under65_uninsured_event_payment": {"value": 117.0242, "unit": "dollars self/family payment per office-based event; Taylor SE 23.9247; 95% CI 70.1317–163.9167; 1,436 valid events", "value_type": "coverage_conditioned_event_mean"}
+      },
+      "method": "HC-254G event records were restricted to positive PERWT24F and analyzed with the event file's VARSTR/VARPSU Taylor linearization design. HC-256 INSURC24 was appended by DUPERSID and PANEL for the under-65 coverage-conditioned event means.",
+      "uncertainty": "The event file represents people with reported office-based visits and does not include person-level non-users; event means are not annual household burden or person prevalence. Payment variables are imputed/edited MEPS expenditure fields, and coverage-conditioned event comparisons reflect age, need, utilization, provider type, and selection as well as coverage.",
+      "subgroup": "National positive-weight office-based provider events; under-65 private, under-65 public-only, and under-65 uninsured event strata appended from INSURC24.",
+      "counterinterpretation": "A lower public-only payment per office visit may reflect coverage payment design or different services and health needs, while the uninsured estimate is imprecise and may reflect payment avoidance, delayed care, or provider/payment composition. A positive-payment event is not proof that a household experienced no financial stress.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254G&prfricon=yes",
+      "retrieval_hash": "meps-hc254g-page:sha256:15366be4c34f0291a91f2b9b0e42bcf03318d19c5802dd90fb029efaa3875ae4; meps-hc254g-dta:sha256:b753f4eb816ecc3bfffd71596febdf07efc0469aeb1415af89e2f5e42fb0b087; meps-hc254g-doc:sha256:29103cde3d17cd40f41ecc65634fe502ca55453f447b82b641f14be36dd0b4c8; meps-hc254g-codebook:sha256:d9d2c4fc3758aae456738eb224639bf5baa602aaa198daaffa39f87d69df95d7; meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; HC-254A prescribed-medicine purchase event layer",
+      "denominator": {"value": 202902, "unit": "prescribed-medicine purchase event records with positive PERWT24F and valid payment measure; person-level non-purchasers are absent from the event file", "value_type": "positive_weight_event_records"},
+      "measures": {
+        "prescribed_medicine_purchases": {"value": 3029.4502, "unit": "millions of prescribed-medicine purchases; Taylor SE 80.1526 million; 95% CI 2872.3511–3186.5494", "value_type": "event_total", "valid_events": 202902},
+        "mean_total_payments_per_purchase": {"value": 233.2539, "unit": "dollars per prescribed-medicine purchase; Taylor SE 13.6936; 95% CI 206.4144–260.0934", "value_type": "event_weighted_mean", "valid_events": 202902},
+        "mean_self_family_payment_per_purchase": {"value": 16.9501, "unit": "dollars per prescribed-medicine purchase; Taylor SE 1.1064; 95% CI 14.7816–19.1186", "value_type": "event_weighted_mean", "valid_events": 202902},
+        "under65_private_purchase_payment": {"value": 21.8265, "unit": "dollars self/family payment per prescribed-medicine purchase; Taylor SE 2.3757; 95% CI 17.1702–26.4829; 62,035 valid purchases", "value_type": "coverage_conditioned_event_mean"},
+        "under65_public_only_purchase_payment": {"value": 4.1226, "unit": "dollars self/family payment per prescribed-medicine purchase; Taylor SE 0.5983; 95% CI 2.9500–5.2953; 40,300 valid purchases", "value_type": "coverage_conditioned_event_mean"},
+        "under65_uninsured_purchase_payment": {"value": 55.0595, "unit": "dollars self/family payment per prescribed-medicine purchase; Taylor SE 10.0941; 95% CI 35.2750–74.8440; 2,499 valid purchases", "value_type": "coverage_conditioned_event_mean"}
+      },
+      "method": "HC-254A event records were restricted to positive PERWT24F and analyzed with the event file's VARSTR/VARPSU Taylor linearization design. HC-256 INSURC24 was appended by DUPERSID and PANEL for the under-65 coverage-conditioned purchase means.",
+      "uncertainty": "The event file represents people with prescribed-medicine purchases and does not include person-level non-purchasers; purchase means are not annual household burden or person prevalence. Payment variables are imputed/edited MEPS expenditure fields, and coverage-conditioned comparisons reflect age, need, medication mix, utilization, and selection as well as coverage.",
+      "subgroup": "National positive-weight prescribed-medicine purchase events; under-65 private, under-65 public-only, and under-65 uninsured purchase strata appended from INSURC24.",
+      "counterinterpretation": "Lower public-only payment per purchase may reflect coverage design or medication mix, while the uninsured estimate is imprecise and may reflect lower access, different medicines, or payment composition. A purchase does not show adherence, clinical necessity, financial hardship, or whether an intended medicine was never obtained.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254A&prfricon=yes",
+      "retrieval_hash": "meps-hc254a-page:sha256:3c0a6b0ba362fe8c78b4452828dc1a5e174b9969e223ba7228ea842b510ec7cc; meps-hc254a-dta:sha256:8afe0228acf154e08d0c84c425494ce7511be85c1ea0e414b59ec6106717d818; meps-hc254a-doc:sha256:82110b40a07af77f0d8eb382a39ea99087b80fa728986be2290fa4eb256a7834; meps-hc254a-codebook:sha256:b8ed9758d75dfdc8652b9e8800c1c380be915762509df9197d00909cfeece029; meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; HC-254E emergency-room visit event layer",
+      "denominator": {"value": 4261, "unit": "emergency-room event records with positive PERWT24F and valid payment measure; person-level non-users are absent from the event file", "value_type": "positive_weight_event_records"},
+      "measures": {
+        "emergency_room_visits": {"value": 68.2124, "unit": "millions of emergency-room visits; Taylor SE 2.2640 million; 95% CI 63.7750–72.6497", "value_type": "event_total", "valid_events": 4261},
+        "mean_total_payments_per_visit": {"value": 1405.1071, "unit": "dollars per emergency-room visit; Taylor SE 68.1378; 95% CI 1271.5571–1538.6570", "value_type": "event_weighted_mean", "valid_events": 4261},
+        "mean_self_family_payment_per_visit": {"value": 148.2225, "unit": "dollars per emergency-room visit; Taylor SE 12.7317; 95% CI 123.2684–173.1767", "value_type": "event_weighted_mean", "valid_events": 4261},
+        "under65_private_er_payment": {"value": 287.0972, "unit": "dollars self/family payment per emergency-room visit; Taylor SE 25.5267; 95% CI 237.0648–337.1296; 1,267 valid visits", "value_type": "coverage_conditioned_event_mean"},
+        "under65_public_only_er_payment": {"value": 26.9229, "unit": "dollars self/family payment per emergency-room visit; Taylor SE 6.9834; 95% CI 13.2355–40.6103; 1,173 valid visits", "value_type": "coverage_conditioned_event_mean"},
+        "under65_uninsured_er_payment": {"value": 519.5503, "unit": "dollars self/family payment per emergency-room visit; Taylor SE 45.5094; 95% CI 430.3519–608.7487; 96 valid visits", "value_type": "coverage_conditioned_event_mean"}
+      },
+      "method": "HC-254E event records were restricted to positive PERWT24F and analyzed with the event file's VARSTR/VARPSU Taylor linearization design. Self/family payment sums facility and doctor self/family amounts. HC-256 INSURC24 was appended by DUPERSID and PANEL for the under-65 coverage-conditioned visit means.",
+      "uncertainty": "The event file represents people with reported emergency-room visits and does not include person-level non-users; event means are not annual household burden or person prevalence. Emergency-room payment estimates reflect severity, facility and physician components, coverage, provider mix, and selection. The uninsured subgroup is based on 96 valid visits and remains imprecise.",
+      "subgroup": "National positive-weight emergency-room events; under-65 private, under-65 public-only, and under-65 uninsured visit strata appended from INSURC24.",
+      "counterinterpretation": "Higher uninsured direct payment among observed emergency-room visits may reflect acute severity, payment exposure, selection into emergency care, or billing composition; it does not show that insurance caused the difference or that people without visits had lower unmet need.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254E&prfricon=yes",
+      "retrieval_hash": "meps-hc254e-page:sha256:5883cf24b651561ded3eebbc401f4dd04538f90be7584e45da37aaa23bb4f36d; meps-hc254e-dta:sha256:35d5a9ce677e7a9f0e9ae62a1e5a375f6c5b448ffee12e81df405bca391009f6; meps-hc254e-doc:sha256:70f0114730236b1aa7b781af4c33e43c484ecba9211bf8a5ef1b71a8f140046c; meps-hc254e-codebook:sha256:18a3a90d9906563b70f5f131684e4b87245639a3a98736c52bfc022dfe436598; meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+      "status": "estimated"
+    },
+    {
+      "period": "Calendar year 2024; HC-254D hospital inpatient-stay event layer",
+      "denominator": {"value": 1881, "unit": "hospital inpatient-stay event records with positive PERWT24F and valid payment measure; person-level non-users are absent from the event file", "value_type": "positive_weight_event_records"},
+      "measures": {
+        "hospital_inpatient_stays": {"value": 28.3940, "unit": "millions of inpatient stays; Taylor SE 1.0874 million; 95% CI 26.2627–30.5253", "value_type": "event_total", "valid_events": 1881},
+        "mean_nights_per_stay": {"value": 4.9013, "unit": "nights per inpatient stay; Taylor SE 0.2659; 95% CI 4.3801–5.4224", "value_type": "event_weighted_mean", "valid_events": 1881},
+        "mean_total_payments_per_stay": {"value": 18892.6971, "unit": "dollars per inpatient stay; Taylor SE 758.9021; 95% CI 17405.2489–20380.1452", "value_type": "event_weighted_mean", "valid_events": 1881},
+        "mean_self_family_payment_per_stay": {"value": 865.1983, "unit": "dollars per inpatient stay; Taylor SE 121.9083; 95% CI 626.2580–1104.1386", "value_type": "event_weighted_mean", "valid_events": 1881},
+        "under65_private_inpatient_payment": {"value": 1420.0044, "unit": "dollars self/family payment per inpatient stay; Taylor SE 274.1576; 95% CI 882.6555–1957.3533; 435 valid stays", "value_type": "coverage_conditioned_event_mean"},
+        "under65_public_only_inpatient_payment": {"value": 145.8314, "unit": "dollars self/family payment per inpatient stay; Taylor SE 42.8132; 95% CI 61.9176–229.7452; 413 valid stays", "value_type": "coverage_conditioned_event_mean"}
+      },
+      "method": "HC-254D event records were restricted to positive PERWT24F and analyzed with the event file's VARSTR/VARPSU Taylor linearization design. Self/family payment sums facility and doctor self/family amounts. HC-256 INSURC24 was appended by DUPERSID and PANEL for the under-65 coverage-conditioned stay means; the 20-event uninsured cell is not promoted.",
+      "uncertainty": "The event file represents people with reported inpatient stays and does not include person-level non-users; event means are not annual household burden or person prevalence. Inpatient payment reflects severity, length of stay, facility and physician components, coverage, and selection. The uninsured under-65 cell has only 20 valid stays and is excluded from the reader comparison.",
+      "subgroup": "National positive-weight inpatient-stay events; under-65 private and under-65 public-only stay strata appended from INSURC24.",
+      "counterinterpretation": "Lower public-only payment per inpatient stay may reflect coverage design, severity, length of stay, service mix, or selection; it does not establish lower need or better outcomes. A recorded stay does not identify the household's debt, work loss, unpaid care, or recovery path.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254D&prfricon=yes",
+      "retrieval_hash": "meps-hc254d-page:sha256:80525dccd4aa25dc183b026acab69535be65f03b322f2ef3d059c2ae2a951e32; meps-hc254d-dta:sha256:c9be532d0bfba870e41d80d0962554bf5e07738883c09d1567d0a41cbae0dc89; meps-hc254d-doc:sha256:cf34e01e6511b7f771b6bf57dea8cb54d91cbf4354f60617ed22adc60d39594f; meps-hc254d-codebook:sha256:23a7177bd6600c67f33ee05baafd39e641f9d76e43bf331147f50e666e44bdab; meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://meps.ahrq.gov/data_stats/download_data/pufs/h256/h256doc.shtml", "claim": "HC-256 documentation describes the 2024 Full-Year Consolidated PUF and its panel/sample design boundaries.", "status": "official-method-context"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_files/pufs/h256/h256dta.zip", "claim": "Locally downloaded Stata artifact used for the structural scan; 19,140 rows and 1,615 columns were observed before substantive estimation.", "status": "downloaded-artifact", "retrieval_hash": "meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40"},
+    {"source_url": "https://meps.ahrq.gov/data_stats/download_data/pufs/h256/h256cb.pdf", "claim": "HC-256 codebook artifact downloaded for the pending variable-label and universe audit.", "status": "downloaded-method-artifact", "retrieval_hash": "meps-hc256-codebook:sha256:c5f0de30624e7337559f9b14a535b3b20118769e2eea074ee54103cf4f168885"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-036BRR&prfricon=yes", "claim": "HC-036BRR supplies 128 sample indicators and standard person IDs for constructing BRR replicate variances for HC-256 and prior MEPS person files.", "status": "downloaded-variance-context", "retrieval_hash": "meps-hc036brr-page:sha256:0bd6aea3adecf59ba3bec7028bb5ac181f0312511acb244461767fc297bcca00; meps-hc036brr-dta:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h036brr/h36brr24doc.shtml", "claim": "AHRQ instructs analysts to merge BRR1-BRR128 by DUPERSID and PANEL, multiply each flag by 2 and the full-year person weight for standard BRR replicate weights, and compute design-based variance from the replicates.", "status": "official-variance-method", "retrieval_hash": "meps-hc036brr-doc:sha256:4abdfe926a38bcfeb34f7179530b9b19741d3c404e20c0c0dd4343f4444dff06"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254G&prfricon=yes", "claim": "HC-254G supplies 2024 office-based medical provider event records, payment fields, visit characteristics, PERWT24F, VARSTR, and VARPSU; the documentation specifies event-level estimation and the event-file population boundary.", "status": "downloaded-event-context", "retrieval_hash": "meps-hc254g-page:sha256:15366be4c34f0291a91f2b9b0e42bcf03318d19c5802dd90fb029efaa3875ae4; meps-hc254g-dta:sha256:b753f4eb816ecc3bfffd71596febdf07efc0469aeb1415af89e2f5e42fb0b087"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254g/h254gdoc.shtml", "claim": "HC-254G documentation specifies that event estimates use PERWT24F and event-level uncertainty can use VARSTR/VARPSU Taylor linearization; it provides the office-visit population and payment boundaries.", "status": "official-event-method", "retrieval_hash": "meps-hc254g-doc:sha256:29103cde3d17cd40f41ecc65634fe502ca55453f447b82b641f14be36dd0b4c8"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254g/h254gcb.pdf", "claim": "HC-254G codebook artifact downloaded for the event variable-label and universe audit.", "status": "downloaded-event-method-artifact", "retrieval_hash": "meps-hc254g-codebook:sha256:d9d2c4fc3758aae456738eb224639bf5baa602aaa198daaffa39f87d69df95d7"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254A&prfricon=yes", "claim": "HC-254A supplies 2024 prescribed-medicine purchase event records, payment fields, PERWT24F, VARSTR, and VARPSU; its documentation specifies the purchase-level population boundary.", "status": "downloaded-event-context", "retrieval_hash": "meps-hc254a-page:sha256:3c0a6b0ba362fe8c78b4452828dc1a5e174b9969e223ba7228ea842b510ec7cc; meps-hc254a-dta:sha256:8afe0228acf154e08d0c84c425494ce7511be85c1ea0e414b59ec6106717d818"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254a/h254adoc.shtml", "claim": "HC-254A documentation specifies that purchase estimates use PERWT24F and purchase-level uncertainty can use VARSTR/VARPSU Taylor linearization; it warns that person-level prevalence including non-purchasers requires the consolidated file.", "status": "official-event-method", "retrieval_hash": "meps-hc254a-doc:sha256:82110b40a07af77f0d8eb382a39ea99087b80fa728986be2290fa4eb256a7834"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254a/h254acb.pdf", "claim": "HC-254A codebook artifact downloaded for the purchase variable-label and universe audit.", "status": "downloaded-event-method-artifact", "retrieval_hash": "meps-hc254a-codebook:sha256:b8ed9758d75dfdc8652b9e8800c1c380be915762509df9197d00909cfeece029"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254E&prfricon=yes", "claim": "HC-254E supplies 2024 emergency-room visit event records, facility and doctor payment fields, PERWT24F, VARSTR, and VARPSU; its documentation specifies the acute-care event boundary.", "status": "downloaded-event-context", "retrieval_hash": "meps-hc254e-page:sha256:5883cf24b651561ded3eebbc401f4dd04538f90be7584e45da37aaa23bb4f36d; meps-hc254e-dta:sha256:35d5a9ce677e7a9f0e9ae62a1e5a375f6c5b448ffee12e81df405bca391009f6"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254e/h254edoc.shtml", "claim": "HC-254E documentation specifies that emergency-room event estimates use PERWT24F and event-level uncertainty can use VARSTR/VARPSU Taylor linearization, with facility and doctor payment components.", "status": "official-event-method", "retrieval_hash": "meps-hc254e-doc:sha256:70f0114730236b1aa7b781af4c33e43c484ecba9211bf8a5ef1b71a8f140046c"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254e/h254ecb.pdf", "claim": "HC-254E codebook artifact downloaded for the emergency-room variable-label and universe audit.", "status": "downloaded-event-method-artifact", "retrieval_hash": "meps-hc254e-codebook:sha256:18a3a90d9906563b70f5f131684e4b87245639a3a98736c52bfc022dfe436598"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254D&prfricon=yes", "claim": "HC-254D supplies 2024 hospital inpatient-stay event records, facility and doctor payment fields, nights, PERWT24F, VARSTR, and VARPSU; its documentation specifies the inpatient event boundary.", "status": "downloaded-event-context", "retrieval_hash": "meps-hc254d-page:sha256:80525dccd4aa25dc183b026acab69535be65f03b322f2ef3d059c2ae2a951e32; meps-hc254d-dta:sha256:c9be532d0bfba870e41d80d0962554bf5e07738883c09d1567d0a41cbae0dc89"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254d/h254ddoc.shtml", "claim": "HC-254D documentation specifies that inpatient event estimates use PERWT24F and event-level uncertainty can use VARSTR/VARPSU Taylor linearization, with facility and doctor payment components and nights.", "status": "official-event-method", "retrieval_hash": "meps-hc254d-doc:sha256:cf34e01e6511b7f771b6bf57dea8cb54d91cbf4354f60617ed22adc60d39594f"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h254d/h254dcb.pdf", "claim": "HC-254D codebook artifact downloaded for the inpatient variable-label and universe audit.", "status": "downloaded-event-method-artifact", "retrieval_hash": "meps-hc254d-codebook:sha256:23a7177bd6600c67f33ee05baafd39e641f9d76e43bf331147f50e666e44bdab"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252", "claim": "Panel 27 remains the currently analyzed 2022-2023 longitudinal comparison in this atlas and should be retained for comparability checks.", "status": "prior-vintage-comparator"}
+  ],
+  "boundary": "This record promotes bounded descriptive 2024 person-level, poverty/coverage subgroup, and office-based event estimates after HC-256 structural, weight, HC-036BRR linkage, standard-BRR, and HC-254G event-design checks. It does not promote a household affordability, causal, unmet-need, delayed-care, unpaid-care, work-disruption, or prior-vintage trend claim. Those require harmonized universes, episode linkage, treatment continuity, household resources, recovery, and matched interpretation against Panel 27 and Panel 28 designs.",
+  "retrieval_hash": "meps-hc256-page:sha256:06f9a4596b4e8d1a43efa54cc2ed7db79baef1a2a116f377441dfcb705dcdb11; meps-hc256-dta:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; meps-hc256-codebook:sha256:c5f0de30624e7337559f9b14a535b3b20118769e2eea074ee54103cf4f168885; meps-hc036brr-page:sha256:0bd6aea3adecf59ba3bec7028bb5ac181f0312511acb244461767fc297bcca00; meps-hc036brr-dta:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; meps-hc254g-page:sha256:15366be4c34f0291a91f2b9b0e42bcf03318d19c5802dd90fb029efaa3875ae4; meps-hc254g-dta:sha256:b753f4eb816ecc3bfffd71596febdf07efc0469aeb1415af89e2f5e42fb0b087; meps-hc254g-doc:sha256:29103cde3d17cd40f41ecc65634fe502ca55453f447b82b641f14be36dd0b4c8; meps-hc254g-codebook:sha256:d9d2c4fc3758aae456738eb224639bf5baa602aaa198daaffa39f87d69df95d7; meps-hc254a-page:sha256:3c0a6b0ba362fe8c78b4452828dc1a5e174b9969e223ba7228ea842b510ec7cc; meps-hc254a-dta:sha256:8afe0228acf154e08d0c84c425494ce7511be85c1ea0e414b59ec6106717d818; meps-hc254a-doc:sha256:82110b40a07af77f0d8eb382a39ea99087b80fa728986be2290fa4eb256a7834; meps-hc254a-codebook:sha256:b8ed9758d75dfdc8652b9e8800c1c380be915762509df9197d00909cfeece029; meps-hc254e-page:sha256:5883cf24b651561ded3eebbc401f4dd04538f90be7584e45da37aaa23bb4f36d; meps-hc254e-dta:sha256:35d5a9ce677e7a9f0e9ae62a1e5a375f6c5b448ffee12e81df405bca391009f6; meps-hc254e-doc:sha256:70f0114730236b1aa7b781af4c33e43c484ecba9211bf8a5ef1b71a8f140046c; meps-hc254e-codebook:sha256:18a3a90d9906563b70f5f131684e4b87245639a3a98736c52bfc022dfe436598; meps-hc254d-page:sha256:80525dccd4aa25dc183b026acab69535be65f03b322f2ef3d059c2ae2a951e32; meps-hc254d-dta:sha256:c9be532d0bfba870e41d80d0962554bf5e07738883c09d1567d0a41cbae0dc89; meps-hc254d-doc:sha256:cf34e01e6511b7f771b6bf57dea8cb54d91cbf4354f60617ed22adc60d39594f; meps-hc254d-codebook:sha256:23a7177bd6600c67f33ee05baafd39e641f9d76e43bf331147f50e666e44bdab; meps-release-schedule:sha256:c2ad670d188e49a931f0d40931186b75d3b7d119fda45469a4c55bf919a00e60"
+}

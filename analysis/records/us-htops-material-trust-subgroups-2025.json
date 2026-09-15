@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-htops-material-trust-subgroups-2025",
+  "title": "The linked material-to-Congress-confidence path varies by income and race/ethnicity",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "US Census HTOPS April and June 2025 linked public-use respondents; subgroup cross-lags among retained SCRAMID matches",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 15–29 to June 16–25, 2025; subgroup cross-lag",
+      "denominator": {"value": 6564, "unit": "linked respondents; subgroup valid n varies", "value_type": "linked_panel_sample"},
+      "measures": {
+        "under_25k_any_difficulty_high_congress_confidence": {"value": 27.0939, "unit": "weighted percent; SE 1.9933; unweighted n 429", "value_type": "conditional_cross_lag_share"},
+        "under_25k_not_difficult_high_congress_confidence": {"value": 26.0871, "unit": "weighted percent; SE 2.1708; unweighted n 257", "value_type": "conditional_cross_lag_share"},
+        "75k_99k_any_difficulty_high_congress_confidence": {"value": 13.5471, "unit": "weighted percent; SE 1.6686; unweighted n 348", "value_type": "conditional_cross_lag_share"},
+        "75k_99k_not_difficult_high_congress_confidence": {"value": 20.771, "unit": "weighted percent; SE 1.9645; unweighted n 520", "value_type": "conditional_cross_lag_share"},
+        "white_any_difficulty_high_congress_confidence": {"value": 12.7738, "unit": "weighted percent; SE 0.7183; unweighted n 1643", "value_type": "conditional_cross_lag_share"},
+        "white_not_difficult_high_congress_confidence": {"value": 15.8775, "unit": "weighted percent; SE 0.6507; unweighted n 2895", "value_type": "conditional_cross_lag_share"},
+        "black_any_difficulty_high_congress_confidence": {"value": 19.9387, "unit": "weighted percent; SE 1.9002; unweighted n 278", "value_type": "conditional_cross_lag_share"},
+        "black_not_difficult_high_congress_confidence": {"value": 12.6349, "unit": "weighted percent; SE 1.7046; unweighted n 287", "value_type": "conditional_cross_lag_share"},
+        "hispanic_any_difficulty_high_congress_confidence": {"value": 26.742, "unit": "weighted percent; SE 2.3488; unweighted n 249", "value_type": "conditional_cross_lag_share"},
+        "asian_any_difficulty_high_congress_confidence": {"value": 35.5449, "unit": "weighted percent; SE 3.0686; unweighted n 175", "value_type": "conditional_cross_lag_share"}
+      },
+      "method": "Inner join on SCRAMID; baseline EXPNS_DIF coded any difficulty versus not difficult; June TRUST2_CONGRESS coded high confidence as a great deal or quite a lot; estimates use April PWEIGHT0 and 80 successive-difference replicate weights.",
+      "uncertainty": "This is a conditional precision diagnostic for a selected linked sample. The April weights are not documented as attrition-adjusted longitudinal weights, and no multiple-comparison or causal model is claimed.",
+      "subgroup": "Baseline household-income categories and combined race/ethnicity categories from the April HTOPS PUF.",
+      "counterinterpretation": "Differences can reflect selection, composition, prior institutional confidence, political identity, health, debt, local conditions, or reporting; subgroup contrast is not a mechanism estimate.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
+      "retrieval_hash": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2; sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c; result:sha256:d4d2f88d0a5be4f41f69fc46a4f02d00a98864671110b7a497ecdfaa5076c037",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-cost-trust-politics/findings/us-cost-trust-politics-018.md", "claim": "The all-linked HTOPS panel shows material persistence and movement alongside selected institutional judgments.", "status": "related-finding"},
+    {"source_url": "../../projects/us-cost-trust-politics/data/htops-2025-material-trust-subgroups.json", "claim": "Full income and race/ethnicity subgroup estimates with replicate-weight standard errors.", "status": "reproduction-audit"}
+  ],
+  "boundary": "This record narrows a same-respondent material-to-institutional-judgment comparison by subgroup. It does not measure attributed responsibility, civic action, vote, remedy, recovery, or causality, and it must not be interpreted as an attrition-adjusted national panel estimate."
+}

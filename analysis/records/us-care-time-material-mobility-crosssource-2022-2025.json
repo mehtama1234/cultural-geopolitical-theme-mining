@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-care-time-material-mobility-crosssource-2022-2025",
+  "title": "Care constraints move through work, time, household room, and mobility rather than one burden channel",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "time_hidden_price", "household_room_consumption", "housing_place_mobility", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of SIPP person-month transitions, SHED adults, ATUS diary respondents, and NHTS household/trip records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SIPP November-to-December stable SNAP pairs conditioned on annual child-care work prevention",
+      "denominator": {"value": 2295, "unit": "valid person transition pairs in the stable no-SNAP child-care work-prevention cell; other cells have separate denominators", "value_type": "identified_pair_count"},
+      "measures": {
+        "stable_no_snap_care_prevented_work": {"value": 3.4221, "unit": "percent", "value_type": "weighted_share"},
+        "stable_no_snap_care_prevented_work_utility_hardship": {"value": 16.8627, "unit": "percent in the 71-person prevention cell", "value_type": "weighted_share", "approx_95_percent_ci": [7.5738, 26.1516]},
+        "stable_snap_care_prevented_work_utility_hardship": {"value": 32.3949, "unit": "percent in the 23-person prevention cell", "value_type": "weighted_share", "approx_95_percent_ci": [11.3927, 53.3971]},
+        "stable_snap_care_prevented_work_rent_hardship": {"value": 43.6519, "unit": "percent in the 23-person prevention cell", "value_type": "weighted_share", "approx_95_percent_ci": [21.7332, 65.5706]}
+      },
+      "method": "Same-person November-to-December SNAP transition paired with annual fall child-care fields; 240 Fay-BRR replicate weights. Hardship is measured in the following month, while child-care fields refer to the fall reference period.",
+      "uncertainty": "The prevention cells are small, especially the stable-SNAP cell of 23 records. Separate hardship universes and annual-versus-monthly timing mean this is a mechanism signal, not a causal child-care or SNAP effect.",
+      "subgroup": "Reference parents in stable SNAP-status person pairs, split by whether child care prevented work or more work.",
+      "counterinterpretation": "Household composition, income, employment, eligibility, care need, and unmeasured resources may explain both work prevention and hardship; the measure does not identify care quality, hours lost, remedy, or recovery.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    },
+    {
+      "period": "2024; SHED regular unpaid adult care crossed with employment status",
+      "denominator": {"value": 100, "unit": "published percentage base within each care/employment group; each outcome has its own nonmissing denominator", "value_type": "survey_percentage_base"},
+      "measures": {
+        "caregiver_full_time_prices_worsened_finances": {"value": 67.8, "unit": "percent", "value_type": "share"},
+        "caregiver_full_time_used_less_or_stopped": {"value": 70.7, "unit": "percent", "value_type": "share"},
+        "caregiver_full_time_increased_borrowing": {"value": 24.4, "unit": "percent", "value_type": "share"},
+        "caregiver_full_time_reduced_savings": {"value": 57.4, "unit": "percent", "value_type": "share"},
+        "noncaregiver_full_time_increased_borrowing": {"value": 16.4, "unit": "percent", "value_type": "share"},
+        "noncaregiver_full_time_reduced_savings": {"value": 42.2, "unit": "percent", "value_type": "share"}
+      },
+      "method": "Weighted descriptive 2024 SHED cross-tab of regular unpaid adult care and employment status; adaptation outcomes are separate published response fields.",
+      "uncertainty": "Cross-sectional self-reports without reproduced design-based standard errors; care, employment, and adaptation fields have different valid universes. Care hours, recipient need, pay, schedule control, and paid replacement are not observed.",
+      "subgroup": "US adults reporting regular unpaid adult care versus no regular unpaid adult care, within full-time employment and other employment groups.",
+      "counterinterpretation": "Caregiver differences may reflect income, health, family support, selection into employment, or other constraints; borrowing and reduced savings are adaptation reports, not proof of welfare loss or causal care penalty.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:0cdc1e7b01ae2f6144f03a523496d55680b6db516a226219dd68ce399168e319",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2025; ATUS eldercare-provider standardized diary contrasts",
+      "denominator": {"value": 7470, "unit": "2024 respondents in supported standardization cells; 2025 has a separate 5,895-person denominator", "value_type": "diary_respondent_comparison"},
+      "measures": {
+        "2024_eldercare_minutes_difference": {"value": 70.702, "unit": "provider minus nonprovider primary-activity minutes per diary day; SE 7.134", "value_type": "standardized_difference"},
+        "2024_household_work_difference": {"value": 16.776, "unit": "minutes per diary day; SE 5.131", "value_type": "standardized_difference"},
+        "2024_paid_work_difference": {"value": -19.7, "unit": "minutes per diary day; SE 8.348", "value_type": "standardized_difference"},
+        "2024_travel_difference": {"value": 9.691, "unit": "minutes per diary day; SE 3.652", "value_type": "standardized_difference"},
+        "2024_socializing_difference": {"value": -18.385, "unit": "minutes per diary day; SE 7.029", "value_type": "standardized_difference"},
+        "2025_eldercare_minutes_difference": {"value": 62.435, "unit": "provider minus nonprovider primary-activity minutes per diary day; SE 6.794", "value_type": "standardized_difference"}
+      },
+      "method": "ATUS annual diary aggregation with eldercare-roster provider status and standardization across age, sex, labor-force status, household-child status, and broad education cells; 160 replicate weights.",
+      "uncertainty": "2024 and 2025 are separate annual samples, not a panel. Supported-cell standardization reduces selected composition differences but does not identify care onset, intensity outside the diary, recipient outcome, employer response, health, or cause.",
+      "subgroup": "Eldercare-roster providers versus respondents without a roster record in supported standardized cells.",
+      "counterinterpretation": "Residual time differences can reflect recipient need, distance, family support, occupation, schedule control, diary timing, or provider selection; less paid-work time is not automatically job loss.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; artifact:sha256:228800e646e818a9ccba212dcad274f8bb0141b7c23583da364929b651e8caf5",
+      "status": "compared"
+    },
+    {
+      "period": "2022; NHTS mobility/resource/place comparison",
+      "denominator": {"value": 100, "unit": "weighted household percentage base; work and shopping measures use separately weighted recorded trips", "value_type": "survey_percentage_base"},
+      "measures": {
+        "urban_low_income_zero_vehicle": {"value": 35.23, "unit": "percent of urban households under $35,000", "value_type": "share"},
+        "urban_low_income_long_work_trip": {"value": 31.46, "unit": "percent of recorded work trips at least 30 minutes", "value_type": "share"},
+        "urban_low_income_shopping_trip_minutes": {"value": 34.01, "unit": "mean minutes", "value_type": "mean"},
+        "rural_high_income_long_work_trip": {"value": 53.40, "unit": "percent of recorded work trips at least 30 minutes", "value_type": "share"},
+        "rural_high_income_shopping_trip_minutes": {"value": 26.31, "unit": "mean minutes", "value_type": "mean"}
+      },
+      "method": "Weighted NHTS household and travel-day trip comparison by urban/rural classification and broad household-income bands, using WTHHFIN and WTTRDFIN.",
+      "uncertainty": "Cross-sectional travel-day records do not observe missed, canceled, or substituted trips, fares, care access, or a household's full mobility budget. No design-based interval is reproduced; some cells are small.",
+      "subgroup": "Urban and rural households in low-income and high-income NHTS bands, with work and shopping trip purposes retained separately.",
+      "counterinterpretation": "Vehicle ownership, income, and recorded trip time do not establish affordability, necessity, unmet care access, or welfare; long trips can coexist with choice, opportunity, or geographic distance.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-sipp-childcare-work-hardship-bridge-2024.json", "claim": "SIPP supplies the same-person child-care work-prevention and following hardship estimates.", "status": "related-record"},
+    {"source_url": "../../records/us-shed-care-work-adaptation-2024.json", "claim": "SHED supplies care-by-employment adaptation responses.", "status": "related-record"},
+    {"source_url": "../../records/us-atus-eldercare-provider-richer-standardized-2024-2025.json", "claim": "ATUS supplies standardized care-time, work, travel, household-work, and social-time contrasts.", "status": "related-record"},
+    {"source_url": "../../records/us-nhts-mobility-material-work-care-2022.json", "claim": "NHTS supplies place/resource/trip mobility context.", "status": "related-record"}
+  ],
+  "boundary": "This is a deliberately non-pooled care/time/material/mobility bridge. It supports a recurring pattern in which care constraints can appear as reduced work opportunity, altered time allocation, financial adaptation, household hardship, and mobility cost across different US evidence surfaces. It does not establish one care-burden index, a causal care effect, a specific institutional trigger, recovery, trust, political action, or geopolitical consequence. Same-unit dated trigger, alternatives, remedy, and follow-up remain open."
+}

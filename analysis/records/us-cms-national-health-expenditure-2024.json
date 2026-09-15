@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cms-national-health-expenditure-2024",
+  "title": "US health spending expands across payer, sponsor, service, and GDP accounts",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "CMS National Health Expenditure Accounts, historical 1960-2024 tables and fact sheet",
+  "geography": "United States; national health spending, sources of funds, sponsors, services, and GDP",
+  "observations": [
+    {
+      "period": "Calendar year 2024",
+      "denominator": {"value": 1, "unit": "US national health expenditure account", "value_type": "accounting_total"},
+      "measures": {
+        "national_health_expenditure": {"value": 5.3, "unit": "trillion dollars, approximate", "value_type": "national_total"},
+        "per_person_spending": {"value": 15474, "unit": "dollars per person", "value_type": "per_capita_estimate"},
+        "health_spending_gdp_share": {"value": 18.0, "unit": "percent of GDP", "value_type": "macro_share"},
+        "annual_growth": {"value": 7.2, "unit": "percent year over year", "value_type": "growth_rate"}
+      },
+      "method": "CMS National Health Expenditure Accounts estimate annual US expenditures by service, source of funds, sponsor, and GDP relationship.",
+      "uncertainty": "National accounts are constructed estimates and aggregates; they do not identify distribution across households, realized medical need, affordability, access, quality, or outcomes.",
+      "subgroup": "All US health-care spending in the national account; subgroup incidence is not observed in this aggregate.",
+      "counterinterpretation": "Higher aggregate spending can reflect price, utilization, intensity, population aging, technology, coverage, or accounting changes; it is not by itself evidence of better or worse health.",
+      "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/historical",
+      "retrieval_hash": "cms-historical-page:sha256:f1a15b1b8e92cef5e5f5ae78dd9576a7898ebefef498148275ecf7efa89e1614",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2024; source of funds",
+      "denominator": {"value": 5.3, "unit": "trillion dollars total national health expenditure, approximate", "value_type": "national_total"},
+      "measures": {
+        "private_health_insurance": {"value": 1644.6, "unit": "billion dollars; 31 percent of NHE", "value_type": "payer_total"},
+        "medicare": {"value": 1118.0, "unit": "billion dollars; 21 percent of NHE", "value_type": "payer_total"},
+        "medicaid": {"value": 931.7, "unit": "billion dollars; 18 percent of NHE", "value_type": "payer_total"},
+        "out_of_pocket": {"value": 556.6, "unit": "billion dollars; 11 percent of NHE", "value_type": "payer_total"}
+      },
+      "method": "CMS payer/source-of-funds categories in the NHEA; categories are accounting sponsors and payment channels, not same-household payment episodes.",
+      "uncertainty": "Payer totals do not reveal deductibles, premiums, unpaid bills, foregone care, medical debt, time costs, or the distribution of payments within households.",
+      "subgroup": "Private insurance, Medicare, Medicaid, and out-of-pocket funding categories at national scale.",
+      "counterinterpretation": "A change in a payer share can reflect enrollment, prices, service mix, policy, or accounting allocation rather than a simple shift in household burden.",
+      "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+      "retrieval_hash": "cms-nhe-fact-sheet:sha256:5de0aae2cd336f39cc8409580b8675ede4f486f2940e2809ee043e7b488bf9d7",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2024; sponsor distribution",
+      "denominator": {"value": 100, "unit": "percent of total health spending", "value_type": "share_total"},
+      "measures": {
+        "federal_government_sponsor_share": {"value": 31, "unit": "percent", "value_type": "sponsor_share"},
+        "household_sponsor_share": {"value": 28, "unit": "percent", "value_type": "sponsor_share"},
+        "private_business_sponsor_share": {"value": 18, "unit": "percent", "value_type": "sponsor_share"},
+        "state_local_government_sponsor_share": {"value": 16, "unit": "percent", "value_type": "sponsor_share"}
+      },
+      "method": "CMS sponsor classification assigns national health spending to households, governments, businesses, and other private revenues.",
+      "uncertainty": "Sponsor incidence is not identical to who experiences the price, coverage restriction, care delay, paperwork, tax cost, wage trade-off, or health outcome.",
+      "subgroup": "National sponsor categories; no direct household-by-household or patient-by-patient linkage.",
+      "counterinterpretation": "A large household-sponsored share may include premiums and other flows rather than direct point-of-service payment, while public sponsorship can still coexist with household time and access burdens.",
+      "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+      "retrieval_hash": "cms-nhe-fact-sheet:sha256:5de0aae2cd336f39cc8409580b8675ede4f486f2940e2809ee043e7b488bf9d7",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2034 CMS projection window",
+      "denominator": {"value": 10, "unit": "projected years", "value_type": "forecast_window"},
+      "measures": {
+        "projected_average_nhe_growth": {"value": 5.4, "unit": "percent average annual growth", "value_type": "projection"},
+        "projected_average_gdp_growth": {"value": 4.1, "unit": "percent average annual growth", "value_type": "projection"},
+        "projected_health_spending_gdp_share_2034": {"value": 20.6, "unit": "percent of GDP", "value_type": "projection"}
+      },
+      "method": "CMS Office of the Actuary projection of NHE categories by source of funds and service through 2034.",
+      "uncertainty": "Projections are model-based scenarios, not observed outcomes; changes in policy, prices, utilization, coverage, demographics, and macroeconomic conditions can alter them.",
+      "subgroup": "National health spending categories; projections do not determine distributional or household consequences.",
+      "counterinterpretation": "A rising spending-to-GDP ratio can indicate growing resource claims, but not whether the additional spending improves care, reduces risk, or increases household strain.",
+      "source_url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/projected",
+      "retrieval_hash": "cms-projection-page:sha256:20083f173d4c1039c4fda50f8ac2146288f5078287fb74d688559b54e1a3a25e",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://meps.ahrq.gov/mepsweb/", "claim": "MEPS supplies person- and household-level expenditure, insurance, access, and burden measures that should not be substituted with NHEA aggregates.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.bea.gov/data/gdp/gross-domestic-product", "claim": "BEA GDP provides the macro denominator used in the health-spending share comparison; it is a separate national-accounts system.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "CMS NHEA establishes the scale, payer, sponsor, service, and projected GDP relationship of US health spending. It does not establish household affordability, unmet need, access, care quality, health outcomes, time burden, medical debt, or political response.",
+  "retrieval_hash": "cms-historical-page:sha256:f1a15b1b8e92cef5e5f5ae78dd9576a7898ebefef498148275ecf7efa89e1614; cms-nhe-fact-sheet:sha256:5de0aae2cd336f39cc8409580b8675ede4f486f2940e2809ee043e7b488bf9d7"
+}

@@ -1,0 +1,395 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-recs-energy-burden-income-assistance-2020",
+  "title": "Energy expenditure and assistance vulnerability vary sharply across household income bands",
+  "theme_ids": [
+    "cost",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "occupied U.S. household responding to the 2020 Residential Energy Consumption Survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 1805,
+        "unit": "RECS responding households in income band",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "mean_total_energy_expenditure": {
+          "value": 1439.5822,
+          "approx_95_percent_ci": [
+            1405.9179,
+            1473.2466
+          ],
+          "standard_error": 17.1757,
+          "n": 1805,
+          "weighted_denominator": 14470526.76,
+          "unit": "2020 dollars",
+          "value_type": "weighted_mean"
+        },
+        "mean_energy_burden_proxy": {
+          "value": 0.2873,
+          "approx_95_percent_ci": [
+            0.2724,
+            0.3022
+          ],
+          "standard_error": 0.0076,
+          "n": 1805,
+          "weighted_denominator": 14470526.76,
+          "unit": "share of income-band midpoint",
+          "value_type": "weighted_mean_proxy"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; income-band midpoint used only as a bounded affordability proxy.",
+      "uncertainty": "RECS recommends suppressing estimates with RSE above 50% or fewer than 10 sample households; the record retains n and replicate-weight intervals for review.",
+      "subgroup": "<$15k",
+      "counterinterpretation": "The midpoint proxy can overstate or understate the true burden, especially in the open-ended lowest and highest income bands; modeled energy expenditures are not bills observed at one moment.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 3092,
+        "unit": "RECS responding households in income band",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "mean_total_energy_expenditure": {
+          "value": 1575.143,
+          "approx_95_percent_ci": [
+            1539.6807,
+            1610.6053
+          ],
+          "standard_error": 18.093,
+          "n": 3092,
+          "weighted_denominator": 22671271.68,
+          "unit": "2020 dollars",
+          "value_type": "weighted_mean"
+        },
+        "mean_energy_burden_proxy": {
+          "value": 0.064,
+          "approx_95_percent_ci": [
+            0.0625,
+            0.0656
+          ],
+          "standard_error": 0.0008,
+          "n": 3092,
+          "weighted_denominator": 22671271.68,
+          "unit": "share of income-band midpoint",
+          "value_type": "weighted_mean_proxy"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; income-band midpoint used only as a bounded affordability proxy.",
+      "uncertainty": "RECS recommends suppressing estimates with RSE above 50% or fewer than 10 sample households; the record retains n and replicate-weight intervals for review.",
+      "subgroup": "$15k-$35k",
+      "counterinterpretation": "The midpoint proxy can overstate or understate the true burden, especially in the open-ended lowest and highest income bands; modeled energy expenditures are not bills observed at one moment.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 5673,
+        "unit": "RECS responding households in income band",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "mean_total_energy_expenditure": {
+          "value": 1767.3163,
+          "approx_95_percent_ci": [
+            1744.7207,
+            1789.9119
+          ],
+          "standard_error": 11.5284,
+          "n": 5673,
+          "weighted_denominator": 38109643.72,
+          "unit": "2020 dollars",
+          "value_type": "weighted_mean"
+        },
+        "mean_energy_burden_proxy": {
+          "value": 0.0338,
+          "approx_95_percent_ci": [
+            0.0333,
+            0.0343
+          ],
+          "standard_error": 0.0002,
+          "n": 5673,
+          "weighted_denominator": 38109643.72,
+          "unit": "share of income-band midpoint",
+          "value_type": "weighted_mean_proxy"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; income-band midpoint used only as a bounded affordability proxy.",
+      "uncertainty": "RECS recommends suppressing estimates with RSE above 50% or fewer than 10 sample households; the record retains n and replicate-weight intervals for review.",
+      "subgroup": "$35k-$75k",
+      "counterinterpretation": "The midpoint proxy can overstate or understate the true burden, especially in the open-ended lowest and highest income bands; modeled energy expenditures are not bills observed at one moment.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 7926,
+        "unit": "RECS responding households in income band",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "mean_total_energy_expenditure": {
+          "value": 2255.2762,
+          "approx_95_percent_ci": [
+            2228.0763,
+            2282.4761
+          ],
+          "standard_error": 13.8775,
+          "n": 7926,
+          "weighted_denominator": 48277582.85,
+          "unit": "2020 dollars",
+          "value_type": "weighted_mean"
+        },
+        "mean_energy_burden_proxy": {
+          "value": 0.0174,
+          "approx_95_percent_ci": [
+            0.0172,
+            0.0176
+          ],
+          "standard_error": 0.0001,
+          "n": 7926,
+          "weighted_denominator": 48277582.85,
+          "unit": "share of income-band midpoint",
+          "value_type": "weighted_mean_proxy"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; income-band midpoint used only as a bounded affordability proxy.",
+      "uncertainty": "RECS recommends suppressing estimates with RSE above 50% or fewer than 10 sample households; the record retains n and replicate-weight intervals for review.",
+      "subgroup": "$75k+",
+      "counterinterpretation": "The midpoint proxy can overstate or understate the true burden, especially in the open-ended lowest and highest income bands; modeled energy expenditures are not bills observed at one moment.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 18496,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 5.3,
+          "approx_95_percent_ci": [
+            4.89,
+            5.71
+          ],
+          "standard_error": 0.21,
+          "n": 18496,
+          "weighted_denominator": 123529025.0,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "ever received home energy assistance",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 854,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 66.2,
+          "approx_95_percent_ci": [
+            62.51,
+            69.89
+          ],
+          "standard_error": 1.88,
+          "n": 854,
+          "weighted_denominator": 6547209.43,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "received home energy assistance in 2020",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 1629,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 26.26,
+          "approx_95_percent_ci": [
+            23.58,
+            28.94
+          ],
+          "standard_error": 1.37,
+          "n": 1629,
+          "weighted_denominator": 12358815.54,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "received energy assistance after disconnection notice",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 18496,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 2.72,
+          "approx_95_percent_ci": [
+            2.42,
+            3.02
+          ],
+          "standard_error": 0.15,
+          "n": 18496,
+          "weighted_denominator": 123529025.0,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "could not use broken heating equipment because repair/replacement was unaffordable",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 658,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 18.34,
+          "approx_95_percent_ci": [
+            14.41,
+            22.27
+          ],
+          "standard_error": 2.01,
+          "n": 658,
+          "weighted_denominator": 4932850.76,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "received help after heating equipment was unaffordable to repair",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 18496,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 4.47,
+          "approx_95_percent_ci": [
+            4.12,
+            4.82
+          ],
+          "standard_error": 0.18,
+          "n": 18496,
+          "weighted_denominator": 123529025.0,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "air-conditioning equipment broke",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    },
+    {
+      "period": "2020 survey year",
+      "denominator": {
+        "value": 845,
+        "unit": "RECS households with valid field",
+        "value_type": "unweighted household count"
+      },
+      "measures": {
+        "share": {
+          "value": 8.33,
+          "approx_95_percent_ci": [
+            6.13,
+            10.54
+          ],
+          "standard_error": 1.13,
+          "n": 845,
+          "weighted_denominator": 6347031.6,
+          "unit": "percent",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Final RECS analysis weight and 60 supplied Jackknife replicate weights; field-specific valid universe retained.",
+      "uncertainty": "Self-reported assistance and hardship measures; RECS imputation flags should be consulted for field-level sensitivity analysis.",
+      "subgroup": "received help after air-conditioning equipment was unaffordable to repair",
+      "counterinterpretation": "Assistance receipt and equipment hardship are correlates of energy vulnerability, not a complete measure of energy insecurity or household welfare.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/index.php?view=microdata",
+      "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/pdf/microdata-guide.pdf",
+      "claim": "EIA documents the final weight, 60 Jackknife replicate weights, and recommended reliability standards.",
+      "status": "official-method"
+    }
+  ],
+  "boundary": "This is a 2020 cross-sectional household energy-vulnerability layer. It does not establish causal effects, monthly payment shocks, health outcomes, political attitudes, or consumer behavior. The energy-burden measure is a midpoint-of-income-band proxy; modeled annual energy expenditures should not be read as observed bills.",
+  "retrieval_hash": "sha256:8d5f6d3120d2cbc2535151c7d455e7a536ca9768f773e15edd45932ec38b3592"
+}

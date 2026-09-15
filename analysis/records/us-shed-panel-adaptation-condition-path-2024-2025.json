@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-panel-adaptation-condition-path-2024-2025",
+  "title": "Reported price adaptations persist and re-enter at different rates across financial-condition paths",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning"],
+  "source_unit": "Recontacted SHED respondent with shared shedid and nonmissing 2025 panel weight; weighted descriptive paired record",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 to 2025; financial condition worsened; persistence among 2024 prior adopters",
+      "denominator": {"value": 804, "unit": "paired respondents in condition path"},
+      "measures": {
+        "cheaper_products": {"value": 86.9, "unit": "weighted percent among 512 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 512},
+        "used_less_or_stopped": {"value": 84.8, "unit": "weighted percent among 488 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 488},
+        "reduced_savings": {"value": 71.0, "unit": "weighted percent among 327 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 327},
+        "increased_borrowing": {"value": 65.1, "unit": "weighted percent among 140 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 140},
+        "delayed_major_purchase": {"value": 75.2, "unit": "weighted percent among 378 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 378}
+      },
+      "method": "Official Federal Reserve SHED 2024 and 2025 CSV releases; shared shedid paired by scripts/analyze_shed_panel_adaptation_condition_path.py; financial-condition movement classified as worsened, same broad condition, or improved; weighted 2025 Yes share among 2024 Yes respondents.",
+      "uncertainty": "Descriptive weighted persistence estimate with no replicate-weight standard errors or causal identification; metric-specific valid-pair denominators apply.",
+      "subgroup": "Respondents whose ordered financial-condition category moved downward, among those reporting each adaptation in 2024.",
+      "counterinterpretation": "Worsening may select people with prior severe pressure, health, care, employment, debt, or housing changes; persistence is not caused by the condition transition.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+    "retrieval_hash": "sha256:a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a",
+      "status": "compared"
+    },
+    {
+      "period": "2024 to 2025; financial condition stayed in the same broad category; persistence among 2024 prior adopters",
+      "denominator": {"value": 2866, "unit": "paired respondents in condition path"},
+      "measures": {
+        "cheaper_products": {"value": 75.9, "unit": "weighted percent among 1646 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 1646},
+        "used_less_or_stopped": {"value": 72.6, "unit": "weighted percent among 1584 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 1584},
+        "reduced_savings": {"value": 58.7, "unit": "weighted percent among 1050 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 1050},
+        "increased_borrowing": {"value": 52.0, "unit": "weighted percent among 318 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 318},
+        "delayed_major_purchase": {"value": 65.9, "unit": "weighted percent among 1134 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 1134}
+      },
+      "method": "Same paired SHED procedure and weighted outcome definition as the adjacent condition-path observations.",
+      "uncertainty": "Descriptive weighted persistence estimate with no replicate-weight standard errors or causal identification; metric-specific valid-pair denominators apply.",
+      "subgroup": "Respondents whose ordered financial-condition category stayed in the same broad category, among those reporting each adaptation in 2024.",
+      "counterinterpretation": "Stable category does not mean stable income, prices, health, care, debt, or material conditions within the category.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a",
+      "status": "compared"
+    },
+    {
+      "period": "2024 to 2025; financial condition improved; persistence among 2024 prior adopters",
+      "denominator": {"value": 749, "unit": "paired respondents in condition path"},
+      "measures": {
+        "cheaper_products": {"value": 68.8, "unit": "weighted percent among 553 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 553},
+        "used_less_or_stopped": {"value": 66.1, "unit": "weighted percent among 544 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 544},
+        "reduced_savings": {"value": 55.0, "unit": "weighted percent among 400 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 400},
+        "increased_borrowing": {"value": 45.0, "unit": "weighted percent among 173 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 173},
+        "delayed_major_purchase": {"value": 56.6, "unit": "weighted percent among 447 valid prior-adopter pairs", "value_type": "share", "valid_pairs": 447}
+      },
+      "method": "Same paired SHED procedure and weighted outcome definition as the adjacent condition-path observations.",
+      "uncertainty": "Descriptive weighted persistence estimate with no replicate-weight standard errors or causal identification; metric-specific valid-pair denominators apply.",
+      "subgroup": "Respondents whose ordered financial-condition category moved upward, among those reporting each adaptation in 2024.",
+      "counterinterpretation": "Improvement is not recovery from every adaptation; debt, care, health, housing, or durable changes in need may sustain behavior.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This record preserves a 4,419-person descriptive SHED panel comparison. It covers persistence among prior adopters; the companion memo also reports re-entry among prior non-adopters. It does not establish causality, household-level outcomes, or a single stress score across distinct adaptations."
+}

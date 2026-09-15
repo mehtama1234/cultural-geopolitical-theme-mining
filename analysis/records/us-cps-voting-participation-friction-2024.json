@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cps-voting-participation-friction-2024",
+  "title": "Political participation is segmented into distinct access and meaning routes",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["time_hidden_price", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "housing_place_mobility"],
+  "source_unit": "CPS Voting and Registration Supplement respondent, November 2024",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "November 2024 election; citizen voting-age population",
+      "denominator": {"value": 100, "unit": "published percentage base"},
+      "measures": {
+        "registered": {"value": 73.6, "unit": "percent of citizen voting-age population", "value_type": "share"},
+        "reported_voting": {"value": 65.3, "unit": "percent of citizen voting-age population", "value_type": "share"},
+        "reported_voting_men": {"value": 63.7, "unit": "percent of male citizens", "value_type": "share"},
+        "reported_voting_women": {"value": 66.9, "unit": "percent of female citizens", "value_type": "share"},
+        "reported_voting_advanced_degree": {"value": 82.5, "unit": "percent of citizens with advanced degree", "value_type": "share"},
+        "reported_voting_high_school": {"value": 52.5, "unit": "percent of citizens with high-school education", "value_type": "share"}
+      },
+      "method": "Census published CPS Voting and Registration Supplement estimates for the November 2024 presidential election. The denominator is represented as a 100-point published-rate base because the committed layer records rates rather than the full table's absolute citizen population count.",
+      "uncertainty": "Survey estimates can differ from administrative data or exit polls because of nonresponse, vote misreporting, wording, and survey administration; no interval is reproduced in this record.",
+      "subgroup": "Citizen voting-age population, with sex and education conditioning.",
+      "counterinterpretation": "Turnout and registration are not one measure of political engagement, and subgroup differences do not identify whether resources, time, health, place, identity, or institutions caused them.",
+      "source_url": "https://www.census.gov/newsroom/press-releases/2025/2024-presidential-election-voting-registration-tables.html",
+      "retrieval_hash": "sha256:b2e76012197f252fdd8c6a62080c9994517a75df3969f0733dd7be731f7afd6a",
+      "status": "reported"
+    },
+    {
+      "period": "November 2024 election; reported nonvoters age 18+",
+      "denominator": {"value": 18161, "unit": "thousand reported nonvoters"},
+      "measures": {
+        "not_interested": {"value": 19.7, "unit": "percent of nonvoters", "value_type": "share"},
+        "schedule_conflict": {"value": 17.8, "unit": "percent of nonvoters", "value_type": "share"},
+        "candidate_or_issue_dissatisfaction": {"value": 14.7, "unit": "percent of nonvoters", "value_type": "share"},
+        "illness_or_disability": {"value": 12.4, "unit": "percent of nonvoters", "value_type": "share"},
+        "registration_problems": {"value": 3.6, "unit": "percent of nonvoters", "value_type": "share"},
+        "transportation_problems": {"value": 2.2, "unit": "percent of nonvoters", "value_type": "share"},
+        "inconvenient_polling_place": {"value": 2.4, "unit": "percent of nonvoters", "value_type": "share"}
+      },
+      "method": "Census published Table 10 distribution of self-reported reasons for not voting among reported nonvoters age 18+.",
+      "uncertainty": "Published survey percentages; no formal contrast test is reproduced. Reasons are self-reported and categories are not a mutually exclusive causal model of nonparticipation.",
+      "subgroup": "Reported nonvoters age 18+; reason categories.",
+      "counterinterpretation": "Schedule, illness, registration, transport, interest, and candidate dissatisfaction are distinct routes; they must not be summed into a single disengagement or apathy score.",
+      "source_url": "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-590.html",
+      "retrieval_hash": "sha256:b2e76012197f252fdd8c6a62080c9994517a75df3969f0733dd7be731f7afd6a",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This is a 2024 CPS voting and registration population layer. It does not follow respondents over time, identify a prior material or institutional trigger, measure trust or political meaning directly, or establish a causal path from cost, work, care, health, mobility, or administration to voting. The retrieval hash covers the committed analysis memo."
+}

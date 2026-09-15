@@ -1,0 +1,990 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-hps-material-trust-crosswave-2026",
+  "title": "Census pulse snapshots show which household-pressure and trust measures move together across 2026",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "US Census Bureau HTOPS/HPS March, corrected May, and July 2026 public-use person respondents",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "March 2026",
+      "denominator": {
+        "value": 12521,
+        "unit": "PUF respondents; measure-specific valid domains reported in each measure",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "any_expense_difficulty": {
+          "value": 51.2,
+          "standard_error": 1.25,
+          "unweighted_valid_n": 11759,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_any_expense_difficulty": {
+          "value": 63.3,
+          "standard_error": 2.34,
+          "unweighted_valid_n": 2562,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_any_expense_difficulty": {
+          "value": 36.9,
+          "standard_error": 1.76,
+          "unweighted_valid_n": 5583,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_any_expense_difficulty": {
+          "value": 55.3,
+          "standard_error": 1.92,
+          "unweighted_valid_n": 5692,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_any_expense_difficulty": {
+          "value": 46.8,
+          "standard_error": 1.57,
+          "unweighted_valid_n": 6067,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_any_expense_difficulty": {
+          "value": 62.4,
+          "standard_error": 2.15,
+          "unweighted_valid_n": 2615,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_any_expense_difficulty": {
+          "value": 45.9,
+          "standard_error": 1.42,
+          "unweighted_valid_n": 9144,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "sometimes_or_often_not_enough_food": {
+          "value": 6.5,
+          "standard_error": 0.84,
+          "unweighted_valid_n": 11743,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_sometimes_or_often_not_enough_food": {
+          "value": 14.4,
+          "standard_error": 1.79,
+          "unweighted_valid_n": 2555,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_sometimes_or_often_not_enough_food": {
+          "value": 0.8,
+          "standard_error": 0.19,
+          "unweighted_valid_n": 5563,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_sometimes_or_often_not_enough_food": {
+          "value": 8.8,
+          "standard_error": 1.48,
+          "unweighted_valid_n": 5680,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_sometimes_or_often_not_enough_food": {
+          "value": 4.0,
+          "standard_error": 0.67,
+          "unweighted_valid_n": 6063,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 8.4,
+          "standard_error": 1.43,
+          "unweighted_valid_n": 2618,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 5.5,
+          "standard_error": 0.95,
+          "unweighted_valid_n": 9125,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 12.8,
+          "standard_error": 0.83,
+          "unweighted_valid_n": 11611,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 22.2,
+          "standard_error": 1.99,
+          "unweighted_valid_n": 2557,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 4.5,
+          "standard_error": 0.58,
+          "unweighted_valid_n": 5548,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 14.8,
+          "standard_error": 1.46,
+          "unweighted_valid_n": 5629,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 10.7,
+          "standard_error": 1.2,
+          "unweighted_valid_n": 5982,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 14.9,
+          "standard_error": 1.53,
+          "unweighted_valid_n": 2563,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 11.9,
+          "standard_error": 1.16,
+          "unweighted_valid_n": 9048,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "tends_to_trust_federal_statistics": {
+          "value": 52.1,
+          "standard_error": 1.36,
+          "unweighted_valid_n": 11406,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_tends_to_trust_federal_statistics": {
+          "value": 52.3,
+          "standard_error": 2.36,
+          "unweighted_valid_n": 2501,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_tends_to_trust_federal_statistics": {
+          "value": 57.7,
+          "standard_error": 1.95,
+          "unweighted_valid_n": 5564,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_tends_to_trust_federal_statistics": {
+          "value": 47.6,
+          "standard_error": 2.11,
+          "unweighted_valid_n": 5464,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_tends_to_trust_federal_statistics": {
+          "value": 56.8,
+          "standard_error": 1.62,
+          "unweighted_valid_n": 5942,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_tends_to_trust_federal_statistics": {
+          "value": 51.1,
+          "standard_error": 2.2,
+          "unweighted_valid_n": 2511,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_tends_to_trust_federal_statistics": {
+          "value": 52.6,
+          "standard_error": 1.62,
+          "unweighted_valid_n": 8895,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 18.2,
+          "standard_error": 0.91,
+          "unweighted_valid_n": 11354,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 22.7,
+          "standard_error": 1.91,
+          "unweighted_valid_n": 2537,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 15.1,
+          "standard_error": 1.43,
+          "unweighted_valid_n": 5543,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 17.7,
+          "standard_error": 1.37,
+          "unweighted_valid_n": 5451,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 18.8,
+          "standard_error": 1.19,
+          "unweighted_valid_n": 5903,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 21.7,
+          "standard_error": 1.86,
+          "unweighted_valid_n": 2482,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 16.6,
+          "standard_error": 1.09,
+          "unweighted_valid_n": 8872,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        }
+      },
+      "method": "Census HTOPS/HPS corrected public-use PUF and 80 replicate-weight file; point estimates use PWEIGHT and standard errors use successive-difference replication, Var(theta)=4/80 sum((theta_i-theta_hat)^2). Missing -88 and -99 values are excluded item-by-item.",
+      "uncertainty": "The three releases are independent cross-sectional snapshots after HTOPS changed from a longitudinal design in 2025 to a cross-sectional HPS-focused design in March 2026. Differences are not within-person changes. Standard errors reflect the supplied replicate-weight design but not systematic nonresponse or wording effects.",
+      "subgroup": "All respondents plus income-under-$50,000, income-$100,000-plus, female, male, children-present, and no-children domains where the July dictionary coding is shared; domain universes and missingness remain item-specific.",
+      "counterinterpretation": "A change in a weighted share can reflect sampling, composition, item routing, wording, or a real population change. It does not identify a price cause, assistance adequacy, institutional blame, trust mechanism, or political action.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:7bcd56139bf3997901db78dbf75f20f0aeb0fa919b188c2d5b6ae9350df9c6d1",
+      "status": "compared"
+    },
+    {
+      "period": "May 2026 corrected",
+      "denominator": {
+        "value": 12636,
+        "unit": "PUF respondents; measure-specific valid domains reported in each measure",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "any_expense_difficulty": {
+          "value": 49.8,
+          "standard_error": 1.31,
+          "unweighted_valid_n": 11918,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_any_expense_difficulty": {
+          "value": 60.8,
+          "standard_error": 2.63,
+          "unweighted_valid_n": 2519,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_any_expense_difficulty": {
+          "value": 35.1,
+          "standard_error": 1.57,
+          "unweighted_valid_n": 5844,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_any_expense_difficulty": {
+          "value": 53.8,
+          "standard_error": 1.61,
+          "unweighted_valid_n": 5851,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_any_expense_difficulty": {
+          "value": 45.4,
+          "standard_error": 1.94,
+          "unweighted_valid_n": 6067,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_any_expense_difficulty": {
+          "value": 57.8,
+          "standard_error": 2.39,
+          "unweighted_valid_n": 2634,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_any_expense_difficulty": {
+          "value": 46.2,
+          "standard_error": 1.35,
+          "unweighted_valid_n": 9284,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "sometimes_or_often_not_enough_food": {
+          "value": 8.3,
+          "standard_error": 0.91,
+          "unweighted_valid_n": 11887,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_sometimes_or_often_not_enough_food": {
+          "value": 16.5,
+          "standard_error": 2.53,
+          "unweighted_valid_n": 2503,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_sometimes_or_often_not_enough_food": {
+          "value": 2.6,
+          "standard_error": 1.13,
+          "unweighted_valid_n": 5826,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_sometimes_or_often_not_enough_food": {
+          "value": 8.5,
+          "standard_error": 1.11,
+          "unweighted_valid_n": 5840,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_sometimes_or_often_not_enough_food": {
+          "value": 8.1,
+          "standard_error": 1.48,
+          "unweighted_valid_n": 6047,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 10.6,
+          "standard_error": 1.86,
+          "unweighted_valid_n": 2636,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 7.3,
+          "standard_error": 1.15,
+          "unweighted_valid_n": 9251,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 14.9,
+          "standard_error": 0.94,
+          "unweighted_valid_n": 11755,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 23.6,
+          "standard_error": 2.14,
+          "unweighted_valid_n": 2495,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 6.7,
+          "standard_error": 1.26,
+          "unweighted_valid_n": 5805,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 17.3,
+          "standard_error": 1.55,
+          "unweighted_valid_n": 5781,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 12.2,
+          "standard_error": 1.5,
+          "unweighted_valid_n": 5974,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 21.4,
+          "standard_error": 2.04,
+          "unweighted_valid_n": 2593,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 11.9,
+          "standard_error": 1.02,
+          "unweighted_valid_n": 9162,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "tends_to_trust_federal_statistics": {
+          "value": 49.7,
+          "standard_error": 1.09,
+          "unweighted_valid_n": 11644,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_tends_to_trust_federal_statistics": {
+          "value": 44.3,
+          "standard_error": 2.27,
+          "unweighted_valid_n": 2470,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_tends_to_trust_federal_statistics": {
+          "value": 53.5,
+          "standard_error": 1.57,
+          "unweighted_valid_n": 5832,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_tends_to_trust_federal_statistics": {
+          "value": 46.7,
+          "standard_error": 1.94,
+          "unweighted_valid_n": 5690,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_tends_to_trust_federal_statistics": {
+          "value": 52.9,
+          "standard_error": 2.0,
+          "unweighted_valid_n": 5954,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_tends_to_trust_federal_statistics": {
+          "value": 50.4,
+          "standard_error": 2.2,
+          "unweighted_valid_n": 2561,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_tends_to_trust_federal_statistics": {
+          "value": 49.4,
+          "standard_error": 1.18,
+          "unweighted_valid_n": 9083,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 18.3,
+          "standard_error": 0.84,
+          "unweighted_valid_n": 11548,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 21.9,
+          "standard_error": 1.97,
+          "unweighted_valid_n": 2467,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 15.5,
+          "standard_error": 1.21,
+          "unweighted_valid_n": 5815,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 20.1,
+          "standard_error": 1.4,
+          "unweighted_valid_n": 5629,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 16.3,
+          "standard_error": 1.07,
+          "unweighted_valid_n": 5919,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 24.4,
+          "standard_error": 2.16,
+          "unweighted_valid_n": 2548,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 15.6,
+          "standard_error": 0.93,
+          "unweighted_valid_n": 9000,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        }
+      },
+      "method": "Census HTOPS/HPS corrected public-use PUF and 80 replicate-weight file; point estimates use PWEIGHT and standard errors use successive-difference replication, Var(theta)=4/80 sum((theta_i-theta_hat)^2). Missing -88 and -99 values are excluded item-by-item.",
+      "uncertainty": "The three releases are independent cross-sectional snapshots after HTOPS changed from a longitudinal design in 2025 to a cross-sectional HPS-focused design in March 2026. Differences are not within-person changes. Standard errors reflect the supplied replicate-weight design but not systematic nonresponse or wording effects.",
+      "subgroup": "All respondents plus income-under-$50,000, income-$100,000-plus, female, male, children-present, and no-children domains where the July dictionary coding is shared; domain universes and missingness remain item-specific.",
+      "counterinterpretation": "A change in a weighted share can reflect sampling, composition, item routing, wording, or a real population change. It does not identify a price cause, assistance adequacy, institutional blame, trust mechanism, or political action.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:7bd1d26ed2aaa88d4f12c9b51bca6d284cc3a19891144e000d873b9d80837667",
+      "status": "compared"
+    },
+    {
+      "period": "July 2026",
+      "denominator": {
+        "value": 12755,
+        "unit": "PUF respondents; measure-specific valid domains reported in each measure",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "any_expense_difficulty": {
+          "value": 49.8,
+          "standard_error": 1.14,
+          "unweighted_valid_n": 12088,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_any_expense_difficulty": {
+          "value": 64.2,
+          "standard_error": 1.91,
+          "unweighted_valid_n": 2432,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_any_expense_difficulty": {
+          "value": 35.0,
+          "standard_error": 1.56,
+          "unweighted_valid_n": 5720,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_any_expense_difficulty": {
+          "value": 54.5,
+          "standard_error": 1.75,
+          "unweighted_valid_n": 5904,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_any_expense_difficulty": {
+          "value": 44.9,
+          "standard_error": 1.71,
+          "unweighted_valid_n": 6184,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_any_expense_difficulty": {
+          "value": 59.5,
+          "standard_error": 2.26,
+          "unweighted_valid_n": 2721,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_any_expense_difficulty": {
+          "value": 44.9,
+          "standard_error": 1.58,
+          "unweighted_valid_n": 9367,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "sometimes_or_often_not_enough_food": {
+          "value": 7.4,
+          "standard_error": 1.12,
+          "unweighted_valid_n": 12089,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_sometimes_or_often_not_enough_food": {
+          "value": 11.6,
+          "standard_error": 1.93,
+          "unweighted_valid_n": 2422,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_sometimes_or_often_not_enough_food": {
+          "value": 1.2,
+          "standard_error": 0.36,
+          "unweighted_valid_n": 5694,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_sometimes_or_often_not_enough_food": {
+          "value": 10.2,
+          "standard_error": 2.28,
+          "unweighted_valid_n": 5908,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_sometimes_or_often_not_enough_food": {
+          "value": 4.3,
+          "standard_error": 0.88,
+          "unweighted_valid_n": 6181,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 11.0,
+          "standard_error": 3.24,
+          "unweighted_valid_n": 2730,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_sometimes_or_often_not_enough_food": {
+          "value": 5.5,
+          "standard_error": 1.09,
+          "unweighted_valid_n": 9359,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 12.7,
+          "standard_error": 1.18,
+          "unweighted_valid_n": 11930,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 20.5,
+          "standard_error": 1.87,
+          "unweighted_valid_n": 2417,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 4.5,
+          "standard_error": 0.55,
+          "unweighted_valid_n": 5682,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 15.1,
+          "standard_error": 2.27,
+          "unweighted_valid_n": 5836,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 10.3,
+          "standard_error": 1.1,
+          "unweighted_valid_n": 6094,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 16.7,
+          "standard_error": 3.46,
+          "unweighted_valid_n": 2674,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 10.7,
+          "standard_error": 0.97,
+          "unweighted_valid_n": 9256,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "tends_to_trust_federal_statistics": {
+          "value": 51.5,
+          "standard_error": 1.12,
+          "unweighted_valid_n": 11519,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_tends_to_trust_federal_statistics": {
+          "value": 49.0,
+          "standard_error": 2.33,
+          "unweighted_valid_n": 2365,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_tends_to_trust_federal_statistics": {
+          "value": 54.5,
+          "standard_error": 1.72,
+          "unweighted_valid_n": 5700,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_tends_to_trust_federal_statistics": {
+          "value": 47.9,
+          "standard_error": 1.69,
+          "unweighted_valid_n": 5595,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_tends_to_trust_federal_statistics": {
+          "value": 55.1,
+          "standard_error": 1.67,
+          "unweighted_valid_n": 5924,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_tends_to_trust_federal_statistics": {
+          "value": 55.8,
+          "standard_error": 1.97,
+          "unweighted_valid_n": 2557,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_tends_to_trust_federal_statistics": {
+          "value": 49.5,
+          "standard_error": 1.2,
+          "unweighted_valid_n": 8962,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 17.3,
+          "standard_error": 0.89,
+          "unweighted_valid_n": 11473,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_under_50k_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 21.6,
+          "standard_error": 1.9,
+          "unweighted_valid_n": 2389,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "income_100k_plus_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 13.5,
+          "standard_error": 1.01,
+          "unweighted_valid_n": 5679,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "female_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 16.8,
+          "standard_error": 1.26,
+          "unweighted_valid_n": 5569,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "male_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 17.8,
+          "standard_error": 1.26,
+          "unweighted_valid_n": 5904,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 19.5,
+          "standard_error": 1.87,
+          "unweighted_valid_n": 2549,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        },
+        "no_children_in_household_great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 16.3,
+          "standard_error": 0.98,
+          "unweighted_valid_n": 8924,
+          "value_type": "replicate_weighted_share",
+          "unit": "percent of weighted valid respondents"
+        }
+      },
+      "method": "Census HTOPS/HPS corrected public-use PUF and 80 replicate-weight file; point estimates use PWEIGHT and standard errors use successive-difference replication, Var(theta)=4/80 sum((theta_i-theta_hat)^2). Missing -88 and -99 values are excluded item-by-item.",
+      "uncertainty": "The three releases are independent cross-sectional snapshots after HTOPS changed from a longitudinal design in 2025 to a cross-sectional HPS-focused design in March 2026. Differences are not within-person changes. Standard errors reflect the supplied replicate-weight design but not systematic nonresponse or wording effects.",
+      "subgroup": "All respondents plus income-under-$50,000, income-$100,000-plus, female, male, children-present, and no-children domains where the July dictionary coding is shared; domain universes and missingness remain item-specific.",
+      "counterinterpretation": "A change in a weighted share can reflect sampling, composition, item routing, wording, or a real population change. It does not identify a price cause, assistance adequacy, institutional blame, trust mechanism, or political action.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+      "status": "compared"
+    }
+  ],
+  "cross_wave_contrasts": [
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "any_expense_difficulty",
+      "difference_percentage_points": -1.4,
+      "approx_independent_standard_error": 1.81,
+      "approx_90_percent_interval": [
+        -4.4,
+        1.6
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "sometimes_or_often_not_enough_food",
+      "difference_percentage_points": 1.8,
+      "approx_independent_standard_error": 1.24,
+      "approx_90_percent_interval": [
+        -0.2,
+        3.8
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "reduced_or_forgone_basic_needs_to_pay_energy_bill",
+      "difference_percentage_points": 2.1,
+      "approx_independent_standard_error": 1.25,
+      "approx_90_percent_interval": [
+        0.0,
+        4.2
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "tends_to_trust_federal_statistics",
+      "difference_percentage_points": -2.4,
+      "approx_independent_standard_error": 1.74,
+      "approx_90_percent_interval": [
+        -5.3,
+        0.5
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "great_deal_or_quite_a_lot_confidence_in_congress",
+      "difference_percentage_points": 0.1,
+      "approx_independent_standard_error": 1.24,
+      "approx_90_percent_interval": [
+        -1.9,
+        2.1
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "income_under_50k_any_expense_difficulty",
+      "difference_percentage_points": -2.5,
+      "approx_independent_standard_error": 3.52,
+      "approx_90_percent_interval": [
+        -8.3,
+        3.3
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "March 2026",
+      "to": "May 2026 corrected",
+      "measure": "income_100k_plus_any_expense_difficulty",
+      "difference_percentage_points": -1.8,
+      "approx_independent_standard_error": 2.36,
+      "approx_90_percent_interval": [
+        -5.7,
+        2.1
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "any_expense_difficulty",
+      "difference_percentage_points": 0.0,
+      "approx_independent_standard_error": 1.74,
+      "approx_90_percent_interval": [
+        -2.9,
+        2.9
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "sometimes_or_often_not_enough_food",
+      "difference_percentage_points": -0.9,
+      "approx_independent_standard_error": 1.44,
+      "approx_90_percent_interval": [
+        -3.3,
+        1.5
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "reduced_or_forgone_basic_needs_to_pay_energy_bill",
+      "difference_percentage_points": -2.2,
+      "approx_independent_standard_error": 1.51,
+      "approx_90_percent_interval": [
+        -4.7,
+        0.3
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "tends_to_trust_federal_statistics",
+      "difference_percentage_points": 1.8,
+      "approx_independent_standard_error": 1.56,
+      "approx_90_percent_interval": [
+        -0.8,
+        4.4
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "great_deal_or_quite_a_lot_confidence_in_congress",
+      "difference_percentage_points": -1.0,
+      "approx_independent_standard_error": 1.22,
+      "approx_90_percent_interval": [
+        -3.0,
+        1.0
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "income_under_50k_any_expense_difficulty",
+      "difference_percentage_points": 3.4,
+      "approx_independent_standard_error": 3.25,
+      "approx_90_percent_interval": [
+        -1.9,
+        8.7
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    },
+    {
+      "from": "May 2026 corrected",
+      "to": "July 2026",
+      "measure": "income_100k_plus_any_expense_difficulty",
+      "difference_percentage_points": -0.1,
+      "approx_independent_standard_error": 2.21,
+      "approx_90_percent_interval": [
+        -3.7,
+        3.5
+      ],
+      "interpretation": "Independent-snapshot contrast; interval is approximate and is not a within-person or causal estimate."
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.html",
+      "claim": "Census user notes identify the corrected March and May files and the July release.",
+      "status": "primary"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/HTOPS_2605_Source_and_Accuracy.pdf",
+      "claim": "Census successive-difference replication formula and 80-replicate variance guidance.",
+      "status": "primary"
+    }
+  ],
+  "boundary": "This is a replicate-weighted comparison of three independent 2026 cross-sectional HTOPS/HPS snapshots. It tests subgroup distributions and period movement, not within-person change, causality, institutional blame, trust formation, recovery, or political action."
+}

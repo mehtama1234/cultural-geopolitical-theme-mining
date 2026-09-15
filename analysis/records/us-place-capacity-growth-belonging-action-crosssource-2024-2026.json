@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-place-capacity-growth-belonging-action-crosssource-2024-2026",
+  "title": "Local capacity, population change, belonging, trust, and civic action do not form a single place gradient",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["housing_place_mobility", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "care_health_reproduction", "public_systems_feedback"],
+  "source_unit": "Deliberately non-pooled county-context respondent cells, local-area attitude samples, and national respondent cross-tabs",
+  "geography": "United States; county contexts nationally and Chicago, suburban Cook County, and Lake County, Illinois",
+  "observations": [
+    {
+      "period": "2024; CES respondents grouped by county population change, 2020-2023",
+      "denominator": {"value": 39682, "unit": "valid CES respondents across four population-change groups; 155 represented counties in the place frame", "value_type": "respondent_count"},
+      "measures": {"median_population_change_pct": {"value": "-1.023% in Q1 to 6.749% in Q4", "unit": "median county population change, 2020-2023", "value_type": "place_context_range"}, "federal_trust": {"value": "41.927% in Q1; 35.251% in Q4", "unit": "percent trusting federal government a great deal or fair amount", "value_type": "weighted_share_range"}, "civic_action": {"value": "38.112% in Q1; 37.268% in Q4", "unit": "percent reporting at least one selected civic action", "value_type": "weighted_share_range"}, "state_trust": {"value": "52.862%-57.406% across groups", "unit": "percent trusting state government a great deal or fair amount", "value_type": "weighted_share_range"}},
+      "method": "Weighted descriptive CES common-content comparison using commonpostweight; counties with at least 100,000 residents and valid 2020/2023 population estimates were split into four place-count quartiles.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates were computed; county FIPS supplies context but respondents are not a county probability sample. Population change includes births, deaths, domestic migration, and international migration.",
+      "subgroup": "CES respondents linked to counties in the four population-change context groups; respondent denominators and represented counties differ by group.",
+      "counterinterpretation": "The relatively stable civic-action shares and non-monotonic trust pattern do not show that growth or decline caused political meaning; party identity, composition, selection, and local conditions remain unmeasured.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county capacity/mobility context cells",
+      "denominator": {"value": 38617, "unit": "valid CES respondents across four health-establishment-density × zero-vehicle-share cells; counties >=100,000 population", "value_type": "respondent_count"},
+      "measures": {"federal_trust": {"value": "34.771%-41.385%", "unit": "percent trusting federal government a great deal or fair amount across cells", "value_type": "weighted_share_range"}, "state_trust": {"value": "51.573%-56.101%", "unit": "percent trusting state government a great deal or fair amount across cells", "value_type": "weighted_share_range"}, "civic_action": {"value": "33.992%-40.896%", "unit": "percent reporting at least one selected civic action across cells", "value_type": "weighted_share_range"}, "population_change_median": {"value": "0.339%-4.483%", "unit": "median county population change, 2020-2023, within cells", "value_type": "place_context_range"}},
+      "method": "Weighted descriptive CES common-content comparison after county-keyed assignment to CBP health/social-assistance establishment density and ACS zero-vehicle-household-share cells, split at unweighted county medians.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; the cell measures county context, not respondent-level service exposure, provider use, transport reliability, or access quality. ACS margins of error are not propagated.",
+      "subgroup": "CES respondents in four county context cells defined by health-establishment capacity and zero-vehicle share; cell counts and represented counties differ.",
+      "counterinterpretation": "A high zero-vehicle share may reflect transit, density, disability, poverty, or settlement structure; health-establishment density is not provider adequacy, affordability, or realized care. Trust/action variation is not a causal capacity effect.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a",
+      "status": "compared"
+    },
+    {
+      "period": "April 13-23, 2026; local immigration meaning and legal-inclusion attitudes",
+      "denominator": {"value": 1900, "unit": "unweighted adults across Chicago (758), suburban Cook County (742), and Lake County (400); item-specific valid samples", "value_type": "local_survey_samples"},
+      "measures": {"favor_citizenship_path": {"value": "66% Chicago; 52% suburban Cook; 61% Lake County", "unit": "weighted percent favoring a citizenship path for undocumented immigrants", "value_type": "local_weighted_share"}, "favor_dreamer_status": {"value": "79% Chicago; 72% suburban Cook; 72% Lake County", "unit": "weighted percent favoring permanent legal status for Dreamers", "value_type": "local_weighted_share"}},
+      "method": "Weighted mixed-mode local survey with reported adjustment for gender, age, race/ethnicity, education, PUMA, and 2024 presidential vote; reported margins of error are +/-3.6 points for Chicago and suburban Cook and +/-4.9 for Lake County.",
+      "uncertainty": "These are local attitude estimates, not county-wide causal estimates or measures of service use, migration flows, labor outcomes, or political action. Question wording, nonresponse, mode, and subgroup limits remain.",
+      "subgroup": "Adults surveyed in English or Spanish in three Illinois areas; each geography has a separate denominator and margin of error.",
+      "counterinterpretation": "Broad support for Dreamer status can coexist with conditional views on immigration levels, border policy, admission rules, local services, and fiscal allocation; local attitude differences do not identify the material cause.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "2024; national immigration meaning, trust, and vote cross-tabs",
+      "denominator": {"value": 4882, "unit": "maximum valid unweighted ANES 2024 post-election cross-tab cases; item-specific denominators range from 3654 to 4882", "value_type": "survey_cross_tab_cases"},
+      "measures": {"economic_meaning_and_decrease_a_lot": {"value": 73.0, "unit": "row percent among respondents saying immigration is extremely bad for the economy", "value_type": "weighted_row_share"}, "job_competition_and_decrease_a_lot": {"value": 53.5, "unit": "row percent among respondents saying job competition is extremely likely", "value_type": "weighted_row_share"}, "citizenship_path_and_same_level": {"value": 41.9, "unit": "row percent among respondents favoring a conditional citizenship path", "value_type": "weighted_row_share"}, "trump_vote_and_decrease_a_lot": {"value": 43.3, "unit": "row percent among valid reported Trump-vote respondents", "value_type": "weighted_row_share"}},
+      "method": "Official UC Berkeley SDA complex-design weighted row cross-tabs using ANES 2024 post-election weight V240107b and Taylor-series standard errors for selected cells.",
+      "uncertainty": "Economic meaning, perceived job competition, legal inclusion, desired level, trust, and reported vote are separate items; the cross-tabs are descriptive, not causal, and perceived exposure is not measured local labor-market exposure.",
+      "subgroup": "Rows defined by economic evaluation, perceived job competition, legal-inclusion view, or reported vote; valid cases differ by table.",
+      "counterinterpretation": "A respondent can favor legal inclusion while preferring no increase or a decrease in immigration, and party identity, ideology, information, race, religion, and candidate evaluation may structure all items.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.7910/DVN/X11EP6", "claim": "CES county-linked growth and capacity/trust/action context files.", "status": "primary-data"},
+    {"source_url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip", "claim": "County health/social-assistance establishment context.", "status": "official-data"},
+    {"source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey", "claim": "Local Chicago-area immigration attitude estimates.", "status": "primary-survey"},
+    {"source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full", "claim": "National complex-design immigration meaning/action cross-tabs.", "status": "primary-survey"}
+  ],
+  "boundary": "This is a non-pooled place-to-meaning comparison. It does not establish that growth, capacity, mobility, migration, or service access caused trust, belonging, immigration judgment, civic action, or vote. A same-geography panel linking dated exposure, material/service conditions, attribution, belonging, action, and institutional response remains open."
+}

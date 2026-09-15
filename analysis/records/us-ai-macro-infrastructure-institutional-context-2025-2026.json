@@ -1,0 +1,202 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-macro-infrastructure-institutional-context-2025-2026",
+  "title": "AI capability is complement-constrained and distributed unevenly across firms, households, places, and states",
+  "theme_ids": ["work", "energy", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "household_room_consumption"],
+  "source_unit": "cross-source firm, household-model, statistical-account, regulator, energy-system, and country-capability documents",
+  "geography": "United States and comparative European, global, and developing-country evidence",
+  "observations": [
+    {
+      "period": "2026; matched firm study",
+      "denominator": {"value": 12000, "unit": "matched non-financial firms in EU and US data", "value_type": "study_sample"},
+      "measures": {
+        "short_run_labor_productivity": {"value": 4, "unit": "percent change associated with AI adoption", "value_type": "estimated_effect"},
+        "short_run_firm_employment": {"value": "no adverse effect detected", "unit": "reported study result", "value_type": "null_result"},
+        "largest_gains": {"value": "medium and large firms", "unit": "firm-size distribution", "value_type": "heterogeneous_result"}
+      },
+      "method": "BIS Working Paper 1325 uses matched EIBIS-ORBIS firms and an instrument based on US peer adoption to estimate short-run productivity and employment effects.",
+      "uncertainty": "The paper is a study-specific causal design with short-run outcomes; firm selection, instrument assumptions, complementary investment, and longer-run employment and distribution remain uncertain. The views are those of the authors, not necessarily BIS policy.",
+      "subgroup": "AI-adopting firms by size, with complementary software, data, and workforce-training investment.",
+      "counterinterpretation": "The productivity estimate does not show that workers receive the gains, gain control, or avoid later displacement; capital deepening and complements may be the operative mechanism.",
+      "source_url": "https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms",
+      "retrieval_hash": "sha256:5ab0447cccec114722083ed4fe07919d7388d8c107a5e66c99c2efe70c4133de",
+      "status": "estimated"
+    },
+    {
+      "period": "2016-2024 outcomes linked to Q2 2025-Q1 2026 utilization",
+      "denominator": {"value": 75292, "unit": "Gallup Workforce Panel worker observations used to construct state-industry exposure (52,729 in Q2-Q4 2025; 22,563 in Q1 2026)", "value_type": "study_sample"},
+      "measures": {
+        "worker_reported_frequent_ai_use": {"value": "higher-use cells show stronger post-2020 real-output paths", "unit": "descriptive state-industry association", "value_type": "descriptive_association"},
+        "employment_semi_elasticity": {"value": "0.4-0.6", "unit": "percent higher employment per 1 percentage-point higher share of frequent AI users", "value_type": "estimated_association"},
+        "real_output_semi_elasticity": {"value": "0.1-0.2", "unit": "percent higher real output per 1 percentage-point higher share of frequent AI users", "value_type": "estimated_association"},
+        "employment_difference": {"value": "positive but imprecisely estimated", "unit": "state-industry employment difference", "value_type": "descriptive_association"},
+        "implied_real_output_change": {"value": "1.2-2.5", "unit": "percent higher real output for an increase in frequent use from approximately 12% to 24%", "value_type": "back_of_envelope_implication"},
+        "industry_only_bt_os_output_pattern": {"value": "not recovered", "unit": "specification comparison", "value_type": "null_result"}
+      },
+      "method": "BEA Working Paper 2026-18 links worker-reported frequent AI use from the Gallup Workforce Panel and employer-reported use from Census BTOS to LEHD employment, earnings, and BEA real-output data; retrospective specifications use state-by-industry and industry-by-year fixed effects, with 2020 as the omitted year.",
+      "uncertainty": "The authors characterize the estimates as descriptive rather than causal; utilization is measured in 2025-2026 while outcomes span 2016-2024. Gallup exposure is aggregated across state-industry cells, many cells are below standalone reporting thresholds, and worker-reported and employer-reported measures yield different patterns. The 1.2-2.5% figure is a back-of-the-envelope implication, not an aggregate causal estimate.",
+      "subgroup": "US state-industry cells, separated by worker-reported frequent use versus industry-only employer-reported use.",
+      "counterinterpretation": "Higher-use cells may reflect pre-existing growth, industry composition, worker selection, or other state conditions rather than AI improving output; the industry-only null pattern weakens a simple adoption story.",
+      "source_url": "https://www.bea.gov/sites/default/files/papers/bea-wp2026-18.pdf",
+      "retrieval_hash": "sha256:2d20b4d0ef63bb6c4cf3aa11048e28816689543a23992743e80b836866395c9e",
+      "status": "compared"
+    },
+    {
+      "period": "1997-2023; 2022-2023 post-period in industry-account price study",
+      "denominator": {"value": 1586, "unit": "industry-year observations across 61 private-sector industries", "value_type": "study_sample"},
+      "measures": {
+        "gross_output_price_interaction": {"value": -0.0228, "unit": "log-point interaction term for AI-intensive industries in 2022-2023", "value_type": "estimated_association"},
+        "labor_price_contribution_interaction": {"value": -0.0113, "unit": "log-point interaction term", "value_type": "estimated_association"},
+        "noncollege_labor_price_contribution_interaction": {"value": -0.0071, "unit": "log-point interaction term", "value_type": "estimated_association"},
+        "materials_price_contribution_interaction": {"value": -0.0019, "unit": "log-point interaction term", "value_type": "estimated_association"},
+        "labor_share_change_interaction": {"value": -0.011, "unit": "share-change interaction term", "value_type": "estimated_association"},
+        "capital_share_change_interaction": {"value": 0.0084, "unit": "share-change interaction term", "value_type": "estimated_association"}
+      },
+      "method": "BEA Working Paper 2026-8 applies an imputation-based difference-in-differences design to BEA-BLS Integrated Industry-Level Production Account prices and cost shares; AI intensity is an industry quartile indicator based on Census survey data at 19-sector level, with industry and year effects and standard errors clustered by sector.",
+      "uncertainty": "The paper calls the results early exploratory evidence and does not claim causality. The AI measure is relative, industries are equally weighted, price contributions combine cost shares and input-price changes, and the model cannot fully distinguish input substitution, composition, and unmeasured AI costs. An alternative 2018 intensity definition is broadly consistent for several price contributions but is not identical.",
+      "subgroup": "AI-intensive versus other industries; college and non-college labor, capital, materials, energy, and services input categories.",
+      "counterinterpretation": "Lower output-price growth may reflect pre-existing industry differences, cheaper input bundles, demand, or unmeasured costs rather than AI passing savings to consumers; purchaser-price incidence and household benefit are not observed.",
+      "source_url": "https://www.bea.gov/system/files/papers/BEA-WP2026-8.pdf",
+      "retrieval_hash": "sha256:0d8df95b1e8f09351389941b60481f7f945be7d45c6c12cef62aaecc94dcf4b3",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; IMF working paper",
+      "denominator": {"value": 1, "unit": "calibrated task model with household microdata", "value_type": "study_artifact"},
+      "measures": {
+        "wage_inequality_channel": {"value": "can move differently from wealth inequality", "unit": "modeled distributional channel", "value_type": "model_result"},
+        "wealth_inequality_under_firm_choice": {"value": "particularly pronounced", "unit": "modeled comparative result", "value_type": "model_result"},
+        "high_wage_task_automation_incentive": {"value": "raises modeled adoption incentives", "unit": "firm-choice mechanism", "value_type": "model_result"}
+      },
+      "method": "IMF Working Paper 2025/068 combines household microdata with a calibrated task-based model that allows firms to choose AI adoption.",
+      "uncertainty": "This is a model-based result and depends on task complementarities, adoption behavior, capital returns, and calibration; it is not an observed post-adoption population estimate. IMF working papers are research in progress.",
+      "subgroup": "Higher-income workers and capital owners versus workers whose tasks are displaced or complemented.",
+      "counterinterpretation": "A modeled wealth-inequality channel does not establish that actual AI adoption has widened wealth inequality in a given country or period; taxes, ownership, bargaining, and firm behavior could alter the path.",
+      "source_url": "https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729",
+      "retrieval_hash": "sha256:5496cf30c82f6990d2d50abbfd2a1899633526aac83dd1a441d1595b293428b3",
+      "status": "reported"
+    },
+    {
+      "period": "2014-2048; IMF baseline AI scenario",
+      "denominator": {"value": 1, "unit": "calibrated scenario comparison", "value_type": "model_artifact"},
+      "measures": {
+        "wage_gini_change": {"value": -1.73, "unit": "percentage points in modeled wage Gini", "value_type": "model_result"},
+        "wealth_gini_change": {"value": 7.18, "unit": "percentage points in modeled wealth Gini", "value_type": "model_result"},
+        "scenario_horizon": {"value": 34, "unit": "years from 2014 to 2048", "value_type": "scenario_horizon"}
+      },
+      "method": "Extraction from IMF Working Paper 2025/068 baseline AI scenario figures; household microdata are combined with a calibrated task-based model and firm adoption choice.",
+      "uncertainty": "These are calibrated scenario outputs, not realized post-adoption estimates. Results depend on task displacement, complementarity, capital returns, household distribution, and the assumed firm-adoption rule; the IMF labels the paper research in progress.",
+      "subgroup": "Modeled income percentiles, higher-income workers, and capital owners versus workers whose tasks are displaced or complemented.",
+      "counterinterpretation": "A falling wage Gini alongside a rising wealth Gini does not show what happened to actual US households; taxes, ownership, bargaining, policy, and realized adoption could change both channels.",
+      "source_url": "https://www.elibrary.imf.org/view/journals/001/2025/068/article-A001-en.xml",
+      "retrieval_hash": "sha256:1998a7eef1fa2076574bd481629993d510bb288fce0c82efad5d50c1cef37591",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; BEA AI measurement program",
+      "denominator": {"value": 1, "unit": "official statistical measurement program", "value_type": "program_artifact"},
+      "measures": {
+        "measurement_scope": {"value": "AI utilization, production accounts, capital, data assets, prices, productivity, and digital trade", "unit": "listed measurement domains", "value_type": "scope_inventory"},
+        "definition_boundary": {"value": "measurement is still being developed", "unit": "official program status", "value_type": "boundary"}
+      },
+      "method": "Reading of BEA's official Digital Economy measurement program and linked AI economic-account work; no BEA estimate is treated as a completed causal AI effect here.",
+      "uncertainty": "The program includes developing concepts, working papers, and early measurement work; definitions of output, data capital, costs, and productivity must be harmonized before comparisons across sources.",
+      "subgroup": "Industries, production accounts, firms, digital services, and data-capital categories.",
+      "counterinterpretation": "A measurement agenda does not imply that AI is already measured consistently in GDP or productivity statistics, nor that better measurement resolves who captures gains.",
+      "source_url": "https://bea.gov/data/special-topics/digital-economy",
+      "retrieval_hash": "sha256:0dbb938cad03aee37a7bc4d69dfd121d3afa196f78efd5275305f000162d7f9f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; BEA industry-account early estimates",
+      "denominator": {"value": 1, "unit": "BEA-BLS integrated industry-account modeling exercise", "value_type": "study_artifact"},
+      "measures": {
+        "baseline_ai_productivity": {"value": "productivity enhancing", "unit": "reported model finding", "value_type": "model_result"},
+        "baseline_ai_input_use": {"value": "input saving", "unit": "reported model finding", "value_type": "model_result"},
+        "associated_worker_composition": {"value": "shift toward younger and relatively less educated workers", "unit": "reported association in industry-account model", "value_type": "model_result"},
+        "alternative_specification": {"value": "less robust and also labor saving", "unit": "sensitivity result", "value_type": "sensitivity_result"}
+      },
+      "method": "BEA staff use indirect industry-account estimates because national accounts do not yet contain a direct AI line item; alternative timing/pervasiveness specifications are compared.",
+      "uncertainty": "The authors identify measurement and timing limitations; the baseline results are indirect model estimates and the alternative specification is less robust. This is not a worker-level causal estimate or a national-account line item.",
+      "subgroup": "US industries and associated worker-composition categories in the BEA-BLS integrated production accounts.",
+      "counterinterpretation": "The changing worker composition may reflect industry selection, timing, or other concurrent changes rather than AI-driven labor substitution; different AI-pervasiveness definitions alter the result.",
+      "source_url": "https://www.bea.gov/index.php/research/papers/2026/early-estimates-impact-ai-within-beas-industry-economic-accounts",
+      "retrieval_hash": "sha256:974d175d1d4595d43360758de8099faf2603b452fab1f9309b21432a72e9635e",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; OFR annual report",
+      "denominator": {"value": 1, "unit": "Office of Financial Research institutional report", "value_type": "document_artifact"},
+      "measures": {
+        "reported_fy2025_workforce_change": {"value": -47, "unit": "percent change in workforce reported by OFR", "value_type": "reported_change"},
+        "reported_budget_change": {"value": -11, "unit": "percent change in budget reported by OFR", "value_type": "reported_change"},
+        "workforce_path": {"value": "188 start -> 205 January 2025 -> 109 FY2025 end", "unit": "OFR employees", "value_type": "reported_path"},
+        "deferred_resignation_participation": {"value": 30, "unit": "percent of OFR staff", "value_type": "reported_share"},
+        "budget_path_millions": {"value": "124.6 -> 110.7", "unit": "US dollars, millions, FY2025", "value_type": "reported_path"},
+        "ai_operational_use": {"value": "data processing, security monitoring, support tasks, procurement comparison, and ChatOFR", "unit": "institutional use cases", "value_type": "reported_inventory"},
+        "shared_analytics_platform": {"value": "JADE decommissioned; OFRAE retained as core analytics environment", "unit": "institutional infrastructure transition", "value_type": "reported_event"},
+        "gpu_computing": {"value": "introduced", "unit": "reported infrastructure capability", "value_type": "reported_event"}
+      },
+      "method": "Official OFR annual-report self-report, including the goal-3 narrative and the Artificial Intelligence and Automation, Workforce and Budget, and Technology and Core Analytics Infrastructure sections; AI use, workforce, budget, and platform changes are recorded as separate institutional facts.",
+      "uncertainty": "The report does not identify AI as the cause of workforce or budget changes. Thirty-percent deferred-resignation participation, attrition, budget reductions, platform decommissioning, and AI deployment occurred in a common restructuring period; the report does not measure whether analytical capacity, oversight quality, or financial-system resilience improved or deteriorated.",
+      "subgroup": "A public financial-research and oversight institution.",
+      "counterinterpretation": "AI may help a smaller workforce maintain or expand selected analytical functions, while decommissioning a collaborative platform and reducing training, data procurement, and contractor resources may weaken other forms of capacity; the institutional report alone cannot distinguish the net effect.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; global energy scenarios",
+      "denominator": {"value": 1, "unit": "global energy-system scenario set", "value_type": "scenario_artifact"},
+      "measures": {
+        "data_center_electricity_2024": {"value": 460, "unit": "terawatt-hours globally", "value_type": "reported_estimate"},
+        "data_center_electricity_2030_base_case": {"value": 1000, "unit": "terawatt-hours globally; more than this level", "value_type": "scenario_projection"},
+        "physical_constraints": {"value": "grid connections, equipment, fuels, and critical minerals", "unit": "identified system constraints", "value_type": "scope_inventory"}
+      },
+      "method": "IEA global energy analysis and conditional scenarios on data-centre electricity demand and supply chains.",
+      "uncertainty": "Scenario values are conditional on demand, efficiency, buildout, technology, and policy assumptions; global totals do not identify local household incidence, water burden, or actual connection delays.",
+      "subgroup": "Data-centre regions, electricity systems, households, firms, grids, and critical-mineral supply chains.",
+      "counterinterpretation": "Higher modeled electricity demand does not by itself establish shortages, higher household bills, or geopolitical dependence in a particular place; local generation, efficiency, siting, and regulation can change incidence.",
+      "source_url": "https://www.iea.org/reports/energy-and-ai",
+      "retrieval_hash": "sha256:7452515b76f83bf67aeba4aba0bd7cfc01e4654b63fba3dbae12f8f615e0e999",
+      "status": "reported"
+    },
+    {
+      "period": "2026; World Development Report on AI",
+      "denominator": {"value": 1, "unit": "global development report", "value_type": "document_artifact"},
+      "measures": {
+        "required_local_complements": {"value": "infrastructure, skills, and institutions", "unit": "development conditions", "value_type": "reported_framework"},
+        "deployment_gap_risk": {"value": "AI gains can widen productivity gaps without complements", "unit": "reported development mechanism", "value_type": "reported_framework"},
+        "power_scope": {"value": "firms, governments, countries, and political power", "unit": "reported consequence domains", "value_type": "scope_inventory"}
+      },
+      "method": "World Bank World Development Report 2026 synthesis of AI use, capabilities, concentration, complements, jobs, productivity, institutions, and power across developing economies.",
+      "uncertainty": "This is a global synthesis and framework, not a single-country causal estimate; chapter-specific estimates, scenarios, and local implementation outcomes require separate validation.",
+      "subgroup": "Developing-country firms, workers, governments, and populations with unequal access to connectivity, power, compute, data, skills, and institutions.",
+      "counterinterpretation": "Imported or low-cost AI can sometimes expand scarce expertise and public-service access; dependence and capability loss are not automatic outcomes.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2025; Federal Reserve SHED household price-response and judgment module",
+      "denominator": {"value": 12273, "unit": "adult respondents in the 2025 Survey of Household Economics and Decisionmaking; household outcomes reported at the adult/family level", "value_type": "survey_sample"},
+      "measures": {
+        "prices_made_finances_worse": {"value": 58, "unit": "percent of adults", "value_type": "share"},
+        "took_at_least_one_action_after_higher_prices": {"value": 77, "unit": "percent of adults", "value_type": "share"},
+        "did_not_pay_all_bills_prior_month": {"value": 16, "unit": "percent of adults", "value_type": "share"},
+        "family_sometimes_or_often_not_enough_to_eat": {"value": 8, "unit": "percent of adults", "value_type": "share"},
+        "personal_okay_or_comfortable": {"value": 73, "unit": "percent of adults", "value_type": "share"},
+        "national_economy_good_or_excellent": {"value": 25, "unit": "percent of adults", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2025 SHED descriptive survey estimates of household price adaptation, bill payment, food sufficiency, personal financial well-being, and national economic judgment.",
+      "uncertainty": "This is a population survey endpoint, not an AI-exposure study and not a causal link from AI capability or macro investment to household outcomes. Adult-level and family-level items have distinct wording and universes; the estimates do not identify which price, firm, policy, or technology produced the response.",
+      "subgroup": "US adults and their families, with price-response, material-hardship, personal-well-being, and national-judgment measures kept as separate outcomes.",
+      "counterinterpretation": "A person can report adapting to higher prices while still doing okay, and a low national economic rating can coexist with adequate personal finances; the divergence is not proof of distrust or a technology-driven legitimacy effect.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e; sha256:5fc3d2485a7427cfe1a36f2e086dcc7a690c1f79625b65f356a66ee0e73d5a6f",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record triangulates institutional, firm, model, statistical, energy-system, and development evidence; it does not pool incompatible units or establish a single causal chain from AI to wages, household security, political trust, state capacity, or geopolitical leverage. It promotes complementarity and uneven distribution as testable cross-source mechanisms, while leaving local incidence, ownership, bargaining, replaceability, and political response open."
+}

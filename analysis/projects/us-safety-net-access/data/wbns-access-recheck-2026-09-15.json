@@ -1,0 +1,37 @@
+{
+  "format": "source-access-recheck-v1",
+  "source": "Well-Being and Basic Needs Survey, United States, 2024",
+  "study_id": "ICPSR 39691",
+  "checked": "2026-09-15",
+  "routes": [
+    {
+      "url": "https://www.icpsr.umich.edu/web/HMCA/studies/39691",
+      "http_status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5433,
+      "retrieval_sha256": "a7c8fd0be4c3b4ed4c7a8bce242ec6b842a27db6ab83dbf7846f30a9f61a85da",
+      "result": "transport_access_failure"
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/web/ICPSR/studies/39691/versions/V1",
+      "http_status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5515,
+      "retrieval_sha256": "80d832488d49ba4ba28ebd0d581d292e3245258e32591d5042a0e6bae9b588f6",
+      "result": "transport_access_failure"
+    },
+    {
+      "url": "https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey",
+      "http_status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 5577,
+      "retrieval_sha256": "980e5a30f7d534cb0dc68c02afa399b05a61a5e1f52ab2d63950353950554a92",
+      "result": "transport_access_failure"
+    }
+  ],
+  "authoritative_metadata_routes": [
+    "https://www.icpsr.umich.edu/sites/icpsr/view/collections/1861",
+    "https://www.urban.org/sites/default/files/2025-08/WBNS_2024_questionnaire.pdf"
+  ],
+  "evidence_boundary": "The indexed ICPSR collection and official questionnaire establish study identity and the existence of a public-use route, but the current non-browser session did not retrieve respondent data, codebook, weights, or online-analysis output. HTTP 403 is recorded as a transport/access result, not as evidence that the study or fields are absent. No WBNS estimate is promoted from this recheck."
+}

@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-resource-worklimitation-hours-earnings-crosslag-2024",
+  "title": "Monthly resource position is followed by distinct earnings and hours movement across work-limiting status",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "time_hidden_price"],
+  "source_unit": "Identified 2025 SIPP person, resource band at month t to valid numeric earnings/hours change at month t+1, conditioned on EDISABL",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; resource band at month t to month t+1 earnings/hours change; work-limiting status = yes",
+      "denominator": {"value": 11196, "unit": "valid earnings pairs; hours outcome uses its own 11,548-pair universe", "value_type": "person_month_pairs"},
+      "measures": {"below_1x_earnings_change": {"value": 66.703, "unit": "percent; Fay-BRR SE 4.934 pp; approximate 95% CI 57.034–76.373", "value_type": "weighted_crosslag_share"}, "1_to_2x_earnings_change": {"value": 71.331, "unit": "percent; Fay-BRR SE 3.641 pp; approximate 95% CI 64.195–78.468", "value_type": "weighted_crosslag_share"}, "2_to_4x_earnings_change": {"value": 80.092, "unit": "percent; Fay-BRR SE 1.572 pp; approximate 95% CI 77.012–83.172", "value_type": "weighted_crosslag_share"}, "4x_or_more_earnings_change": {"value": 85.584, "unit": "percent; Fay-BRR SE 1.026 pp; approximate 95% CI 83.572–87.595", "value_type": "weighted_crosslag_share"}, "below_1x_hours_change": {"value": 16.882, "unit": "percent; Fay-BRR SE 2.547 pp; approximate 95% CI 11.890–21.874", "value_type": "weighted_crosslag_share"}, "1_to_2x_hours_change": {"value": 10.037, "unit": "percent; Fay-BRR SE 1.116 pp; approximate 95% CI 7.849–12.225", "value_type": "weighted_crosslag_share"}, "2_to_4x_hours_change": {"value": 9.255, "unit": "percent; Fay-BRR SE 0.832 pp; approximate 95% CI 7.624–10.885", "value_type": "weighted_crosslag_share"}, "4x_or_more_hours_change": {"value": 7.609, "unit": "percent; Fay-BRR SE 0.629 pp; approximate 95% CI 6.377–8.842", "value_type": "weighted_crosslag_share"}},
+      "method": "Same-person monthly descriptive cross-lag from THINCPOV to nonnegative numeric TPEARN and TMWKHRS changes, conditioned on EDISABL=yes; WPFINWGT and 240 replicate weights with Census Fay BRR.",
+      "uncertainty": "Earnings and hours use separate valid pair universes. A changed value does not reveal direction, desired hours, job quality, accommodation, or why the change occurred.",
+      "subgroup": "Persons reporting a work-limiting condition in month t; resource bands retain separate pair universes.",
+      "counterinterpretation": "High change shares at higher resource bands can reflect larger measured earnings or hours, job composition, reporting, or more opportunities to change; they are not automatically instability or improvement.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; resource band at month t to month t+1 earnings/hours change; work-limiting status = no",
+      "denominator": {"value": 153759, "unit": "valid earnings pairs; hours outcome uses its own 154,992-pair universe", "value_type": "person_month_pairs"},
+      "measures": {"below_1x_earnings_change": {"value": 61.320, "unit": "percent; Fay-BRR SE 1.943 pp; approximate 95% CI 57.512–65.127", "value_type": "weighted_crosslag_share"}, "1_to_2x_earnings_change": {"value": 79.815, "unit": "percent; Fay-BRR SE 0.898 pp; approximate 95% CI 78.055–81.576", "value_type": "weighted_crosslag_share"}, "2_to_4x_earnings_change": {"value": 83.838, "unit": "percent; Fay-BRR SE 0.550 pp; approximate 95% CI 82.760–84.916", "value_type": "weighted_crosslag_share"}, "4x_or_more_earnings_change": {"value": 86.211, "unit": "percent; Fay-BRR SE 0.276 pp; approximate 95% CI 85.671–86.752", "value_type": "weighted_crosslag_share"}, "below_1x_hours_change": {"value": 12.086, "unit": "percent; Fay-BRR SE 0.745 pp; approximate 95% CI 10.625–13.548", "value_type": "weighted_crosslag_share"}, "1_to_2x_hours_change": {"value": 7.186, "unit": "percent; Fay-BRR SE 0.404 pp; approximate 95% CI 6.395–7.977", "value_type": "weighted_crosslag_share"}, "2_to_4x_hours_change": {"value": 5.406, "unit": "percent; Fay-BRR SE 0.198 pp; approximate 95% CI 5.019–5.793", "value_type": "weighted_crosslag_share"}, "4x_or_more_hours_change": {"value": 4.282, "unit": "percent; Fay-BRR SE 0.138 pp; approximate 95% CI 4.010–4.553", "value_type": "weighted_crosslag_share"}},
+      "method": "Same-person monthly descriptive cross-lag from THINCPOV to nonnegative numeric TPEARN and TMWKHRS changes, conditioned on EDISABL=no; WPFINWGT and 240 replicate weights with Census Fay BRR.",
+      "uncertainty": "This is a descriptive contrast with distinct earnings and hours universes and potential composition differences. A person replicate weight does not create a household estimate.",
+      "subgroup": "Persons not reporting a work-limiting condition in month t; resource bands retain separate pair universes.",
+      "counterinterpretation": "Lower hours-change shares do not prove stable or desirable work, and higher earnings-change shares do not prove improved household room; values may move up or down.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "../../projects/us-household-calendar-integration/sipp-work-limitation-hours-earnings-reproduction-audit-2026-09-14.json", "claim": "The reproduction audit preserves inputs, output hash, valid-pair boundary, fields, and Fay-BRR method.", "status": "reproduction-audit"}],
+  "boundary": "This is a same-person monthly descriptive cross-lag, not a causal or household-weighted estimate. EDISABL identifies a reported work-limiting condition, not diagnosis, accommodation, discrimination, or preference. TPEARN and TMWKHRS changes do not establish direction, job quality, desired hours, care response, trust, political action, or institutional remedy."
+}

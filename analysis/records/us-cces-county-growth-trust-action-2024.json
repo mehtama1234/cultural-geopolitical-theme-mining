@@ -1,0 +1,223 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-county-growth-trust-action-2024",
+  "title": "County growth context coincides with distinct federal trust patterns while civic action remains stable",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "work"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "2024 Cooperative Election Study common-content post-election respondent with county FIPS, linked to county 2020\u20132023 population change",
+  "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
+  "observations": [
+    {
+      "period": "2024; CES county population-change group Q1 lowest; 2020\u20132023 context",
+      "denominator": {
+        "value": 12277,
+        "unit": "CES respondents; 155 represented counties; place frame 155",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": -1.023,
+          "unit": "percent change in county population, 2020\u20132023",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 41.927,
+          "unit": "percent saying they trust the federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 12255
+        },
+        "state_trust": {
+          "value": 54.174,
+          "unit": "percent saying they trust state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 12254
+        },
+        "civic_action": {
+          "value": 38.112,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 12277
+        },
+        "reported_voted": {
+          "value": 96.714,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 11726
+        }
+      },
+      "method": "Weighted descriptive pooled CES common-content comparison using commonpostweight; county population change is split into four place-count quartiles among counties with at least 100,000 residents and usable 2020/2023 estimates.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates in this pass; county FIPS supplies context but respondents are not a county probability sample.",
+      "subgroup": "CES respondents linked to counties in the Q1 lowest population-change quartile.",
+      "counterinterpretation": "Population change includes births, deaths, domestic migration, and international migration; trust, civic action, and reported voting can reflect party identity, composition, selection, and question universe rather than local growth.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county population-change group Q2; 2020\u20132023 context",
+      "denominator": {
+        "value": 9718,
+        "unit": "CES respondents; 152 represented counties; place frame 155",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.962,
+          "unit": "percent change in county population, 2020\u20132023",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 38.246,
+          "unit": "percent saying they trust the federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9704
+        },
+        "state_trust": {
+          "value": 55.144,
+          "unit": "percent saying they trust state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9696
+        },
+        "civic_action": {
+          "value": 37.716,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9718
+        },
+        "reported_voted": {
+          "value": 96.695,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9289
+        }
+      },
+      "method": "Weighted descriptive pooled CES common-content comparison using commonpostweight; county population change is split into four place-count quartiles among counties with at least 100,000 residents and usable 2020/2023 estimates.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates in this pass; county FIPS supplies context but respondents are not a county probability sample.",
+      "subgroup": "CES respondents linked to counties in the Q2 population-change quartile.",
+      "counterinterpretation": "Population change includes births, deaths, domestic migration, and international migration; trust, civic action, and reported voting can reflect party identity, composition, selection, and question universe rather than local growth.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county population-change group Q3; 2020\u20132023 context",
+      "denominator": {
+        "value": 9654,
+        "unit": "CES respondents; 150 represented counties; place frame 155",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.627,
+          "unit": "percent change in county population, 2020\u20132023",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 38.185,
+          "unit": "percent saying they trust the federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9633
+        },
+        "state_trust": {
+          "value": 52.862,
+          "unit": "percent saying they trust state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9639
+        },
+        "civic_action": {
+          "value": 37.186,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9654
+        },
+        "reported_voted": {
+          "value": 97.681,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9194
+        }
+      },
+      "method": "Weighted descriptive pooled CES common-content comparison using commonpostweight; county population change is split into four place-count quartiles among counties with at least 100,000 residents and usable 2020/2023 estimates.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates in this pass; county FIPS supplies context but respondents are not a county probability sample.",
+      "subgroup": "CES respondents linked to counties in the Q3 population-change quartile.",
+      "counterinterpretation": "Population change includes births, deaths, domestic migration, and international migration; trust, civic action, and reported voting can reflect party identity, composition, selection, and question universe rather than local growth.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county population-change group Q4 highest; 2020\u20132023 context",
+      "denominator": {
+        "value": 7033,
+        "unit": "CES respondents; 155 represented counties; place frame 155",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 6.749,
+          "unit": "percent change in county population, 2020\u20132023",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 35.251,
+          "unit": "percent saying they trust the federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7025
+        },
+        "state_trust": {
+          "value": 57.406,
+          "unit": "percent saying they trust state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7022
+        },
+        "civic_action": {
+          "value": 37.268,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7033
+        },
+        "reported_voted": {
+          "value": 97.07,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 6695
+        }
+      },
+      "method": "Weighted descriptive pooled CES common-content comparison using commonpostweight; county population change is split into four place-count quartiles among counties with at least 100,000 residents and usable 2020/2023 estimates.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates in this pass; county FIPS supplies context but respondents are not a county probability sample.",
+      "subgroup": "CES respondents linked to counties in the Q4 highest population-change quartile.",
+      "counterinterpretation": "Population change includes births, deaths, domestic migration, and international migration; trust, civic action, and reported voting can reflect party identity, composition, selection, and question universe rather than local growth.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "claim": "CES 2024 common-content public data supply county FIPS, trust, civic-action, vote, and commonpostweight fields.",
+      "status": "official-public-data"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv",
+      "claim": "Census county estimates supply 2020 and 2023 population context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "../../scripts/analyze_ces_local_trust_action_by_growth.py",
+      "claim": "Reproduction script for county quartile assignment, valid universes, and weighted endpoints.",
+      "status": "reproduction-script"
+    }
+  ],
+  "retrieval_hash": "cces:sha256:8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9; population:sha256:abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9; output:sha256:4905c8af33577091d8e11a514107d97e364ec55c2d0abc4ebec5e973b7733b9d; script:sha256:003d5e1db7bbccdbb66c41f1d780fbff4e2cca75d3ab9ae2c217b4a4e6f96a28",
+  "boundary": "This is a county-context comparison, not a county-representative opinion estimate or a causal local-business, capacity, migration, trust, civic-action, or voting result. It does not measure belonging, fairness, attribution, service use, or the respondent\u2019s material exposure; the CES growth layer must remain separate from the county capacity screen until a valid common geography, time, and respondent/place design is established."
+}

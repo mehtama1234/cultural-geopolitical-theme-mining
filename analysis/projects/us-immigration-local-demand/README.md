@@ -40,3 +40,9 @@ The [rurality sensitivity pass](capacity-rurality-sensitivity-v1.md) repeats
 both comparisons inside metro and nonmetro groups. It shows that the pooled
 negative growth/capacity pattern is concentrated in the metro portion of this
 thresholded frame, while preserving the small nonmetro denominator.
+
+The [local capacity and immigration meaning finding](findings/us-immigration-local-demand-001.md)
+now places the county capacity screens beside the Chicagoland respondent
+survey. It keeps service stocks, local opinion, geography, and timing separate
+and defines the matched-place panel needed to test lived access and political
+meaning.

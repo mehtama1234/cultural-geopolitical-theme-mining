@@ -1,0 +1,14 @@
+{
+  "audit_date": "2026-09-14",
+  "script": "scripts/analyze_sipp_snap_following_context_fay_brr.py",
+  "primary_input": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
+  "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+  "replicate_input": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+  "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "following_transition_pairs_matched": 761,
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "derived_output_sha256": "aaa713248611ac583278ce6926b1a306b8be66a453f2c22c05d226b02e3407b9",
+  "reproduction": "Following-month point estimates, standard errors, confidence intervals, valid-record counts, and transition weights reproduce the promoted observations."
+}

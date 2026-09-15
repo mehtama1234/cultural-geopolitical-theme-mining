@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyfed-economic-heterogeneity-april-2026",
+  "title": "A gasoline shock reverses some US household inflation and spending gaps",
+  "theme_ids": ["cost", "energy", "work"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "housing_place_mobility", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "New York Fed Economic Heterogeneity Indicator for demographic, economic, geographic, and income-group outcomes",
+  "geography": "United States national indicators, with demographic, regional, urban/rural, and income-group comparisons",
+  "observations": [
+    {
+      "period": "April 2026 national inflation indicators",
+      "denominator": {"value": 23, "unit": "major US metropolitan areas used in the demographic-CPI construction, with smaller places assigned by census region", "value_type": "reported_method_universe"},
+      "measures": {
+        "transportation_inflation": {"value": 7.06, "unit": "12-month CPI inflation percent", "value_type": "reported_sector_rate"},
+        "rural_inflation_gap": {"value": 0.79, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"},
+        "hispanic_relative_direction": {"value": "above national average", "unit": "direction of constructed demographic inflation gap in April 2026", "value_type": "reported_direction"},
+        "low_middle_income_relative_direction": {"value": "above national average", "unit": "direction of constructed demographic inflation gap in April 2026", "value_type": "reported_direction"},
+        "high_income_relative_direction": {"value": "below national average", "unit": "direction of constructed demographic inflation gap in April 2026", "value_type": "reported_direction"}
+      },
+      "method": "Demographic expenditure shares from BLS Consumer Expenditure Survey microdata are combined with category and metro CPI inflation; group contributions are aggregated to demographic inflation indexes and compared with overall inflation.",
+      "uncertainty": "Demographic inflation is an author-constructed estimate, not an official BLS demographic CPI. It uses prior CEX expenditure shares, assumes common category prices within a metro, and uses urban prices for the rural comparison. The report attributes the reversal in part to gasoline prices after March 2026.",
+      "subgroup": "Race/ethnicity, income, education, age, census region, and urban/rural status.",
+      "counterinterpretation": "The reversal may reflect changing expenditure weights and assigned gasoline prices rather than a uniform price experience within a group; the indicator does not identify individual bills or policy causality.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "estimated"
+    },
+    {
+      "period": "April 2026 national earnings indicators",
+      "denominator": {"value": 1, "unit": "reported comparison benchmark for each earnings-ratio series", "value_type": "ratio_benchmark"},
+      "measures": {
+        "black_to_white_earnings": {"value": 78.0, "unit": "percent of white workers' earnings", "value_type": "reported_group_ratio"},
+        "hispanic_to_white_earnings": {"value": 76.4, "unit": "percent of white workers' earnings", "value_type": "reported_group_ratio"},
+        "noncollege_to_college_earnings": {"value": 57.0, "unit": "percent of workers with a college degree's earnings", "value_type": "reported_group_ratio"},
+        "women_to_men_earnings": {"value": 80.7, "unit": "percent of men's earnings", "value_type": "reported_group_ratio"},
+        "aapi_to_white_earnings": {"value": 112.0, "unit": "percent of white workers' earnings", "value_type": "reported_group_ratio"}
+      },
+      "method": "National EHI earnings ratios calculated for employed worker groups using BLS-based earnings measures; ratios compare group average earnings to a named benchmark.",
+      "uncertainty": "Ratios describe earnings among employed workers and do not capture differential employment, hours, occupation, or selection into work. The indicator is descriptive rather than a causal decomposition.",
+      "subgroup": "Race/ethnicity, education, and sex.",
+      "counterinterpretation": "Short-run ratio changes may reflect composition, hours, occupation, employment selection, or labor-market mix rather than a change in bargaining power alone.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "reported"
+    },
+    {
+      "period": "March–April 2026 national consumer-spending response",
+      "denominator": {"value": 200000, "unit": "balanced Numerator household panel used for receipt-level retail spending indicators", "value_type": "reported_panel_scale"},
+      "measures": {
+        "real_gas_spending": {"value": "fell for nearly all groups", "unit": "direction after March 2026 gasoline price shock", "value_type": "reported_direction"},
+        "lower_income_real_gas_response": {"value": "reduced more than higher-income groups", "unit": "relative direction of real gasoline consumption change", "value_type": "reported_group_comparison"},
+        "high_income_nominal_gas_spending": {"value": "increased more than lower-income groups", "unit": "relative direction of nominal gasoline spending change", "value_type": "reported_group_comparison"},
+        "real_retail_ex_auto": {"value": "fell for nearly all groups", "unit": "direction after March 2026 gasoline price shock", "value_type": "reported_direction"}
+      },
+      "method": "Receipt-level Numerator spending is aggregated by demographic group, deflated using demographic-specific inflation indexes, and seasonally adjusted; national retail excludes automobiles.",
+      "uncertainty": "The panel is a market-research receipt and permissioned-email source, not a government probability survey. Directional group trends do not establish a within-household causal effect of gasoline prices or distinguish quantity, substitution, and quality changes.",
+      "subgroup": "Income, education, race/ethnicity, age, urban status, and census region.",
+      "counterinterpretation": "Spending changes may reflect income, wealth, credit, commuting need, vehicle efficiency, employment, weather, or other contemporaneous shocks; nominal spending can rise while real consumption falls.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators", "claim": "Current EHI release page, update schedule, methodology, and data links.", "status": "official-metadata"},
+    {"source_url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators/ehi-faq", "claim": "EHI construction assumptions and source-data limitations.", "status": "official-methodology"},
+    {"source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/12-2025_ehi_national_full.pdf?hash=9ED1DF9F83095FAE63BA1946341924C9&sc_lang=en", "claim": "December 2025 EHI vintage retained as a prior-period comparison.", "status": "prior-vintage"}
+  ],
+  "boundary": "This record measures constructed demographic inflation, employed-worker earnings ratios, and aggregate receipt-based consumer-spending directions through April 2026. It does not establish individual price payment, household-specific gasoline exposure, policy causality, trust, political action, or a same-household cost-to-behavior chain. The EHI indicators are not official estimates of the Federal Reserve System or FOMC."
+}

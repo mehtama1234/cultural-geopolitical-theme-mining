@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-jassm-er-delivery-nonobservation-2026",
+  "title": "The 2024 Polish JASSM-ER order remains scheduled without a public delivery or acceptance record",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "Official Polish procurement page, schedule-vintage briefing, historical delivery comparator, and current-source non-observation audit",
+  "geography": "Poland and US-origin JASSM-ER procurement relationship",
+  "observations": [
+    {
+      "period": "2024-05-28 agreement; current page rechecked 2026-09-14",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence JASSM-ER agreement page", "value_type": "official_page"},
+      "measures": {
+        "agreement_value": {"value": 735, "unit": "US dollars millions, approximate reported value", "value_type": "reported"},
+        "delivery_window": {"value": "2026–2030", "unit": "planned delivery years", "value_type": "reported_schedule"},
+        "delivered_quantity": {"value": "not stated", "unit": "official page", "value_type": "open"},
+        "acceptance_event": {"value": "not stated", "unit": "official page", "value_type": "open"},
+        "fielding_training_inventory": {"value": "not stated", "unit": "official page", "value_type": "open"}
+      },
+      "method": "Fresh official-page recheck and preserved local HTML capture; agreement, value, schedule, and missing realization fields are recorded separately.",
+      "uncertainty": "Absence of a delivery statement on the reviewed page is not proof that no delivery occurred elsewhere; the page is a procurement announcement, not a complete inventory system.",
+      "subgroup": "Poland's 2024 JASSM-ER order.",
+      "counterinterpretation": "A delivery or training event may have been reported under a different program label or not publicly released.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
+      "retrieval_hash": "sha256:5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6",
+      "status": "observed"
+    },
+    {
+      "period": "2024-12-02 schedule-vintage comparison; rechecked 2026-09-14",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence modernization briefing", "value_type": "official_briefing"},
+      "measures": {
+        "later_schedule": {"value": "2028–2030", "unit": "years stated in the JASSM discussion", "value_type": "reported_schedule"},
+        "relation_to_agreement_page": {"value": "different from 2026–2030 window", "unit": "official-source comparison", "value_type": "source_conflict"},
+        "contract_amendment": {"value": "not stated", "unit": "briefing", "value_type": "open"},
+        "accepted_quantity": {"value": "not stated", "unit": "briefing", "value_type": "open"}
+      },
+      "method": "Separate official briefing retained as schedule context rather than interpreted as an amendment or delivery notice.",
+      "uncertainty": "The wording may refer to a related missile schedule, lot, or planning stage; no lot identifier or contract modification is reported.",
+      "subgroup": "Polish long-range missile modernization schedule.",
+      "counterinterpretation": "The apparent conflict may disappear once variant, lot, and delivery tranche are identified.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet",
+      "retrieval_hash": "sha256:45f63d51f981350f5e44730b3739e670b3c5154787f22b8faf2e4c7bfa2f6e3c",
+      "status": "compared"
+    },
+    {
+      "period": "2026-09-14 current-source non-observation",
+      "denominator": {"value": 1, "unit": "reviewed official Polish and US source set for the 2024 order", "value_type": "source_audit"},
+      "measures": {
+        "delivery_notice_found": {"value": false, "unit": "boolean in reviewed source set", "value_type": "nonobservation"},
+        "acceptance_notice_found": {"value": false, "unit": "boolean in reviewed source set", "value_type": "nonobservation"},
+        "fielding_training_inventory_notice_found": {"value": false, "unit": "boolean in reviewed source set", "value_type": "nonobservation"},
+        "historical_comparator": {"value": "2017 JASSM delivery remains separate", "unit": "comparison boundary", "value_type": "reported_context"}
+      },
+      "method": "Targeted search/recheck of official Polish MOD, US DSCA/DoD, and relevant force/integration sources for a dated 2026 event; non-observation is bounded to the reviewed public set.",
+      "uncertainty": "The result cannot establish that no delivery occurred; it establishes only that the reviewed public sources did not support a delivery/acceptance claim.",
+      "subgroup": "2024 JASSM-ER order, distinguished from earlier JASSM stock and other Polish missile programs.",
+      "counterinterpretation": "Operational or logistical records may be unpublished, delayed, or labeled under a broader modernization or air-force program.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
+      "retrieval_hash": "sha256:5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/jassm-er-delivery-watchpoint-2026-09-13.md", "claim": "Current-source watchpoint documents the reviewed non-observation and schedule conflict.", "status": "watchpoint"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-080.md", "claim": "US production-support and integration milestones do not substitute for Polish customer delivery.", "status": "related-finding"},
+    {"source_url": "https://www.dsca.mil/sites/default/files/mas/Press%20Release%20-%20Poland%2024-33%20CN.pdf", "claim": "Possible-sale approval is an earlier procurement stage, not delivery.", "status": "related-context"}
+  ],
+  "boundary": "This record preserves a dated public-source non-observation. It does not prove no delivery occurred; it does establish that the reviewed official sources do not support promoting the 2024 JASSM-ER order to accepted, delivered, fielded, or operational capability."
+}

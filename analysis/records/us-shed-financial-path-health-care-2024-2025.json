@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-financial-path-health-care-2024-2025",
+  "title": "Financial-condition paths do not synchronize health and unpaid-care transitions",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "recontacted SHED adult respondent, paired 2024 and 2025 waves",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024->2025; financial condition worsened",
+      "denominator": {"value": 804, "unit": "paired respondents with valid health path"},
+      "measures": {
+        "health_worsened": {"value": 18.8, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_unchanged": {"value": 69.0, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_improved": {"value": 12.2, "unit": "percent of valid health-path respondents", "value_type": "share"}
+      },
+      "method": "Weighted descriptive transition table from the SHED 2024-2025 paired panel; percentages are within the financial-condition path and valid health-path denominator.",
+      "uncertainty": "No design-based standard errors estimated; panel recontact, self-report, and broad ordinal categories introduce uncertainty.",
+      "subgroup": "Financial-condition path; pooled adult respondents.",
+      "counterinterpretation": "Most respondents in the worsened financial path reported unchanged or improved health; health, money, care, and time may move on different schedules.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; financial condition unchanged",
+      "denominator": {"value": 2866, "unit": "paired respondents with valid health path"},
+      "measures": {
+        "health_worsened": {"value": 15.9, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_unchanged": {"value": 72.9, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_improved": {"value": 11.2, "unit": "percent of valid health-path respondents", "value_type": "share"}
+      },
+      "method": "Weighted descriptive transition table from the SHED 2024-2025 paired panel; percentages are within the financial-condition path and valid health-path denominator.",
+      "uncertainty": "No design-based standard errors estimated; panel recontact, self-report, and broad ordinal categories introduce uncertainty.",
+      "subgroup": "Financial-condition path; pooled adult respondents.",
+      "counterinterpretation": "The stable financial path also contains health worsening and improvement, so financial stability is not a complete health explanation.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; financial condition improved",
+      "denominator": {"value": 749, "unit": "paired respondents with valid health path"},
+      "measures": {
+        "health_worsened": {"value": 16.5, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_unchanged": {"value": 68.8, "unit": "percent of valid health-path respondents", "value_type": "share"},
+        "health_improved": {"value": 14.6, "unit": "percent of valid health-path respondents", "value_type": "share"}
+      },
+      "method": "Weighted descriptive transition table from the SHED 2024-2025 paired panel; percentages are within the financial-condition path and valid health-path denominator.",
+      "uncertainty": "No design-based standard errors estimated; panel recontact, self-report, and broad ordinal categories introduce uncertainty.",
+      "subgroup": "Financial-condition path; pooled adult respondents.",
+      "counterinterpretation": "Financial improvement did not automatically produce health improvement; 85.3% reported unchanged or worsened health in this valid path subset.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; financial condition worsened; adult-care entry universe",
+      "denominator": {"value": 655, "unit": "paired respondents reporting no unpaid adult care in 2024 with valid 2025 care status"},
+      "measures": {
+        "adult_care_entry": {"value": 10.6, "unit": "percent entering reported unpaid adult care", "value_type": "share"}
+      },
+      "method": "Weighted descriptive care transition table from the SHED 2024-2025 paired panel; entry is conditional on no reported unpaid adult care in 2024.",
+      "uncertainty": "No design-based standard errors estimated; the measure does not observe care hours, intensity, recipient outcome, or trigger.",
+      "subgroup": "Financial-condition path; adult-care entry universe.",
+      "counterinterpretation": "The entry difference is descriptive and may reflect health, family composition, or other events rather than financial change itself.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; financial condition unchanged; adult-care entry universe",
+      "denominator": {"value": 2447, "unit": "paired respondents reporting no unpaid adult care in 2024 with valid 2025 care status"},
+      "measures": {
+        "adult_care_entry": {"value": 6.5, "unit": "percent entering reported unpaid adult care", "value_type": "share"}
+      },
+      "method": "Weighted descriptive care transition table from the SHED 2024-2025 paired panel; entry is conditional on no reported unpaid adult care in 2024.",
+      "uncertainty": "No design-based standard errors estimated; the measure does not observe care hours, intensity, recipient outcome, or trigger.",
+      "subgroup": "Financial-condition path; adult-care entry universe.",
+      "counterinterpretation": "Care responsibility can enter without a worsening financial path, so financial change is not a sufficient explanation for care transitions.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; financial condition improved; adult-care entry universe",
+      "denominator": {"value": 627, "unit": "paired respondents reporting no unpaid adult care in 2024 with valid 2025 care status"},
+      "measures": {
+        "adult_care_entry": {"value": 7.5, "unit": "percent entering reported unpaid adult care", "value_type": "share"}
+      },
+      "method": "Weighted descriptive care transition table from the SHED 2024-2025 paired panel; entry is conditional on no reported unpaid adult care in 2024.",
+      "uncertainty": "No design-based standard errors estimated; the measure does not observe care hours, intensity, recipient outcome, or trigger.",
+      "subgroup": "Financial-condition path; adult-care entry universe.",
+      "counterinterpretation": "Financial improvement coexists with care entry for some respondents, which keeps the material-to-care arrow descriptive and open.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:ba071c24fccdc20aef609c6ed5ddf6b3416218a13cb6e5762ea58eddca22253a",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a weighted descriptive same-respondent panel comparison. It is not a causal estimate, detailed time-use measure, care-intensity measure, verified financial shock, trust or political-action measure, or institutional-remedy result. The retrieval hash covers the committed analysis memo because the raw public-use files and reproduction JSON are not committed."
+}

@@ -132,3 +132,10 @@ benefit claims as separate variables.
 - [LBNL, United States Data Center Energy Usage Report: 2025 Update](https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025)
 - [DOE, Powering America’s AI Future—Data Center Resource Hub](https://www.energy.gov/powering-americas-ai-future-data-center-resource-hub)
 - [LBNL, 2024 United States Data Center Energy Usage Report](https://energyanalysis.lbl.gov/publications/2024-lbnl-data-center-energy-usage-report)
+
+The historical estimate, reference case, and sensitivity range are preserved
+in the machine-readable [trend record](../../records/us-lbnl-data-center-electricity-load-2023-2030.json).
+Its derived electricity denominators are labeled explicitly because the
+committed memo recorded load and percentage rather than an independent total-
+electricity denominator; this record remains a national infrastructure baseline,
+not a local burden or state-leverage result.

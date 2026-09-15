@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-material-care-time-political-friction-crosssource-2022-2025",
+  "title": "Material and care constraints reach political life through distinct friction and meaning routes",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "housing_place_mobility", "public_systems_feedback"],
+  "source_unit": "Deliberately non-pooled comparison of CPS voting-friction respondents, SIPP care/work transitions, ATUS diary respondents, ANES panel respondents, and CCES respondents",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "November 2024 election; CPS citizen voting-age population and reported nonvoters",
+      "denominator": {"value": 100, "unit": "published percentage base for citizen voting-age population; nonvoter reasons use 18.161 million reported nonvoters as a separate denominator", "value_type": "published_survey_bases"},
+      "measures": {
+        "registered": {"value": 73.6, "unit": "percent of citizen voting-age population", "value_type": "share"},
+        "reported_voting": {"value": 65.3, "unit": "percent of citizen voting-age population", "value_type": "share"},
+        "schedule_conflict_among_nonvoters": {"value": 17.8, "unit": "percent of reported nonvoters", "value_type": "share"},
+        "illness_disability_among_nonvoters": {"value": 12.4, "unit": "percent of reported nonvoters", "value_type": "share"},
+        "candidate_issue_dissatisfaction_among_nonvoters": {"value": 14.7, "unit": "percent of reported nonvoters", "value_type": "share"},
+        "transportation_problems_among_nonvoters": {"value": 2.2, "unit": "percent of reported nonvoters", "value_type": "share"}
+      },
+      "method": "Census CPS Voting and Registration Supplement published estimates; registration, voting, and nonvoter-reason distributions are retained as distinct population endpoints.",
+      "uncertainty": "Survey estimates can differ from administrative data because of nonresponse, vote misreporting, wording, and administration. Reasons are self-reported and not a mutually exclusive causal model.",
+      "subgroup": "Citizen voting-age population and reported nonvoters age 18+; schedule, health/access, transport, and candidate/issue routes are separate categories.",
+      "counterinterpretation": "A schedule conflict is not proof of care or work pressure, illness is not proof of institutional exclusion, and candidate dissatisfaction is not apathy; turnout is not the full political-action universe.",
+      "source_url": "https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-590.html",
+      "retrieval_hash": "sha256:b2e76012197f252fdd8c6a62080c9994517a75df3969f0733dd7be731f7afd6a",
+      "status": "reported"
+    },
+    {
+      "period": "2024; CPS nonvoter barrier conditioning by social position",
+      "denominator": {"value": 100, "unit": "published subgroup percentage bases; income, age, race, education, and residence-duration universes differ", "value_type": "published_subgroup_bases"},
+      "measures": {
+        "young_nonvoters_schedule_conflict": {"value": 22.3, "unit": "percent among nonvoters age 18-24", "value_type": "share"},
+        "older_nonvoters_illness_disability": {"value": 35.0, "unit": "percent among nonvoters age 65+", "value_type": "share"},
+        "low_income_nonvoters_illness_disability": {"value": 16.7, "unit": "percent among nonvoters in families under $10,000; reported margin of error ±7.1 points", "value_type": "share"},
+        "high_income_nonvoters_schedule_conflict": {"value": 19.5, "unit": "percent among nonvoters in families at $150,000 or more; reported margin of error ±3.6 points", "value_type": "share"},
+        "recent_address_registration_problems": {"value": 9.8, "unit": "percent among citizens at address less than one year; reported margin of error ±2.1 points", "value_type": "share"}
+      },
+      "method": "Published CPS Table 10 and related registration tables; subgroup universes and published margins of error are retained rather than pooled into one gradient.",
+      "uncertainty": "These are descriptive subgroup estimates with different universes and no reproduced covariance tests. Income and residence-duration sections have restricted definitions and do not identify the sequence of moving, registration, work, health, or care.",
+      "subgroup": "Age, family-income, and residence-duration subgroups among nonvoters or citizens as defined by the Census tables.",
+      "counterinterpretation": "The subgroup pattern may reflect composition, identity, survey response, institutional rules, or access conditions; it does not establish that a social position caused the reported barrier.",
+      "source_url": "https://www.census.gov/newsroom/press-releases/2025/2024-presidential-election-voting-registration-tables.html",
+      "retrieval_hash": "sha256:b2e76012197f252fdd8c6a62080c9994517a75df3969f0733dd7be731f7afd6a",
+      "status": "reported"
+    },
+    {
+      "period": "2024; SIPP child-care work prevention and following hardship within stable SNAP-status pairs",
+      "denominator": {"value": 2295, "unit": "valid person transition pairs in the stable no-SNAP cell; prevention and hardship outcome cells have separate smaller denominators", "value_type": "identified_pair_count"},
+      "measures": {
+        "stable_snap_care_prevented_work_rent_hardship": {"value": 43.6519, "unit": "percent in 23-person prevention cell; approximate 95% CI 21.7332-65.5706", "value_type": "weighted_share"},
+        "stable_snap_care_prevented_work_utility_hardship": {"value": 32.3949, "unit": "percent in 23-person prevention cell; approximate 95% CI 11.3927-53.3971", "value_type": "weighted_share"},
+        "stable_no_snap_care_prevented_work_utility_hardship": {"value": 16.8627, "unit": "percent in 71-person prevention cell; approximate 95% CI 7.5738-26.1516", "value_type": "weighted_share"}
+      },
+      "method": "Same-person November-to-December SIPP transition paired with annual fall child-care work-prevention fields and following-month hardship; 240 Fay-BRR replicate weights.",
+      "uncertainty": "The annual care field is not a dated election or political event, the prevention cells are small, and hardship has separate valid universes. The result does not identify a causal care effect or a later political response.",
+      "subgroup": "Reference parents in stable SNAP-status person pairs, conditioned on child-care prevention of work or additional work.",
+      "counterinterpretation": "Household composition, income, eligibility, care need, employment, and unmeasured resources may explain both hardship and work prevention; hardship does not imply nonvoting or distrust.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2025; ATUS eldercare-provider time allocation",
+      "denominator": {"value": 7470, "unit": "2024 respondents in supported standardized cells; 2025 is a separate annual sample of 5,895", "value_type": "diary_respondent_comparison"},
+      "measures": {
+        "eldercare_difference_minutes_2024": {"value": 70.702, "unit": "provider minus nonprovider minutes per diary day; SE 7.134", "value_type": "standardized_difference"},
+        "paid_work_difference_minutes_2024": {"value": -19.7, "unit": "minutes per diary day; SE 8.348", "value_type": "standardized_difference"},
+        "socializing_difference_minutes_2024": {"value": -18.385, "unit": "minutes per diary day; SE 7.029", "value_type": "standardized_difference"},
+        "eldercare_difference_minutes_2025": {"value": 62.435, "unit": "provider minus nonprovider minutes per diary day; SE 6.794", "value_type": "standardized_difference"}
+      },
+      "method": "ATUS diary aggregation and standardization across age, sex, labor-force status, household-child status, and education cells with replicate-weight uncertainty.",
+      "uncertainty": "Annual samples are not a panel and provider status is not a dated shock. The time contrast does not measure political availability, turnout, trust, or the cause of the time allocation.",
+      "subgroup": "Eldercare-roster providers versus nonproviders in supported standardized cells.",
+      "counterinterpretation": "Less paid work or socializing may reflect selection, schedule choice, health, distance, recipient need, or family support rather than lost political voice or employment.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; artifact:sha256:228800e646e818a9ccba212dcad274f8bb0141b7c23583da364929b651e8caf5",
+      "status": "compared"
+    },
+    {
+      "period": "2024; ANES pre-election to post-election financial worry, trust, and reported vote; CCES post-election material proxies and action",
+      "denominator": {"value": 2154, "unit": "valid ANES panel observations for trust cross-tab; CCES proxy cells use separate respondent denominators", "value_type": "panel_and_cross_section_bases"},
+      "measures": {
+        "anes_extremely_worried_some_or_never_trust": {"value": 70.3, "unit": "percent within extremely-worried row", "value_type": "row_share"},
+        "anes_not_at_all_worried_some_or_never_trust": {"value": 51.9, "unit": "percent within not-at-all-worried row", "value_type": "row_share"},
+        "anes_very_worried_trump_report": {"value": 68.9, "unit": "percent within very-worried row", "value_type": "row_share"},
+        "cces_both_gig_and_student_loan_trust_and_action": {"value": 30.3155, "unit": "percent; weighted joint share in n=665 proxy cell", "value_type": "weighted_joint_share"},
+        "cces_reference_trust_and_action": {"value": 16.4217, "unit": "percent; weighted joint share in n=17,954 reference cell", "value_type": "weighted_joint_share"}
+      },
+      "method": "Separate official ANES panel and CCES common-post weighted descriptive comparisons; worry, trust, reported vote, material proxies, and civic action are retained as different estimands.",
+      "uncertainty": "Financial worry is not a dated bill or care event, and CCES proxy cells are cross-sectional. Party identity, prior beliefs, information, selection, panel retention, and complex-design variance limitations remain.",
+      "subgroup": "ANES financial-worry rows and CCES joint gig-work/student-loan proxy cells.",
+      "counterinterpretation": "Material concern can coexist with trust and action, while worry/trust/vote patterns can reflect identity and interpretation rather than material pressure causing political behavior.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:e132f873841f6cfcd434886c29b65f167b9caf0347a31744f9b46546f587b518; sha256:8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-cps-voting-participation-friction-2024.json", "claim": "CPS supplies the voting, registration, nonvoter-reason, and subgroup-friction endpoints.", "status": "related-record"},
+    {"source_url": "../../records/us-sipp-childcare-work-hardship-bridge-2024.json", "claim": "SIPP supplies the same-person care/work and following-hardship stage.", "status": "related-record"},
+    {"source_url": "../../records/us-atus-eldercare-provider-richer-standardized-2024-2025.json", "claim": "ATUS supplies the standardized care/time allocation stage.", "status": "related-record"},
+    {"source_url": "../../records/us-material-to-trust-action-bridge-2022-2025.json", "claim": "The prior non-pooled bridge supplies ANES/CCES trust and action context.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled material-to-political-friction architecture, not a causal political-participation estimate. It shows separate routes through hardship, time/care capacity, reported access barriers, trust, meaning, civic action, and vote. It does not establish that care, cost, work, health, mobility, or institutional experience caused nonvoting, distrust, or a candidate choice. Same-person dated exposure, attribution, institutional response, remedy, and recovery remain open."
+}

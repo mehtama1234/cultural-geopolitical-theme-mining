@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-material-work-care-health-crosssource-2022-2025",
+  "title": "Work limitation, care time, and health cost are linked research stages rather than one burden index",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "care_health_reproduction", "household_room_consumption", "time_hidden_price", "unequal_exposure_status"],
+  "source_unit": "Bounded cross-source comparison of SIPP monthly person transitions, ATUS standardized diary contrasts, and MEPS longitudinal health-cost outcomes; sources are not pooled",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SIPP resource-to-work transition by work-limiting status",
+      "denominator": {"value": 31992, "unit": "identified SIPP persons; valid adjacent pair universes vary by resource band and earnings/hours outcome", "value_type": "person_sample"},
+      "measures": {"work_limiting_below_1x_hours_change": {"value": 16.882, "unit": "percent; valid numeric hours pairs, Fay-BRR SE 2.547 pp", "value_type": "weighted_crosslag_share"}, "work_limiting_4x_hours_change": {"value": 7.609, "unit": "percent; valid numeric hours pairs, Fay-BRR SE 0.629 pp", "value_type": "weighted_crosslag_share"}, "no_limitation_below_1x_hours_change": {"value": 12.086, "unit": "percent; valid numeric hours pairs, Fay-BRR SE 0.745 pp", "value_type": "weighted_crosslag_share"}, "no_limitation_4x_earnings_change": {"value": 86.211, "unit": "percent; valid numeric earnings pairs, Fay-BRR SE 0.276 pp", "value_type": "weighted_crosslag_share"}},
+      "method": "Same-person adjacent-month SIPP cross-lags using THINCPOV, TPEARN, TMWKHRS, and EDISABL with WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "This is a person-level descriptive transition layer. Earnings and hours use separate valid universes; change has no inferred direction and does not identify accommodation, job quality, care, or causality.",
+      "subgroup": "Reported work-limiting condition versus no reported condition, stratified by resource band.",
+      "counterinterpretation": "Different change shares can reflect composition, reporting, opportunity, earnings levels, hours preferences, or job mix rather than a work-limiting effect.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; ATUS richer-standardized eldercare-provider minus nonprovider contrast",
+      "denominator": {"value": 7470, "unit": "ATUS respondents in supported age-band × sex × labor-force-status × child × education cells; provider n=1,315", "value_type": "diary_respondents"},
+      "measures": {"eldercare_difference_minutes": {"value": 70.702, "unit": "standardized provider minus nonprovider minutes per diary day; SE 7.134", "value_type": "standardized_difference"}, "household_work_difference_minutes": {"value": 16.776, "unit": "minutes per diary day; SE 5.131", "value_type": "standardized_difference"}, "work_difference_minutes": {"value": -19.7, "unit": "minutes per diary day; SE 8.348", "value_type": "standardized_difference"}, "socializing_difference_minutes": {"value": -18.385, "unit": "minutes per diary day; SE 7.029", "value_type": "standardized_difference"}, "travel_difference_minutes": {"value": 9.691, "unit": "minutes per diary day; SE 3.652", "value_type": "standardized_difference"}},
+      "method": "ATUS 2024 diary aggregation with eldercare-roster provider status and standardization across supported demographic, labor-force, child, and education cells using replicate-weight variance.",
+      "uncertainty": "Provider status is descriptive and annual diary respondents are not a panel. The contrast does not identify care onset, intensity outside the diary, recipient outcome, employer response, health, or resource cause.",
+      "subgroup": "Eldercare providers versus nonproviders within supported standardization cells.",
+      "counterinterpretation": "Time differences can reflect unmeasured recipient need, distance, household support, employment choice, or provider selection; less work time is not automatically work loss.",
+      "source_url": "https://www.bls.gov/tus/",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; artifact:sha256:228800e646e818a9ccba212dcad274f8bb0141b7c23583da364929b651e8caf5",
+      "status": "compared"
+    },
+    {
+      "period": "2022→2023; MEPS Panel 27 longitudinal health-cost change",
+      "denominator": {"value": 7812, "unit": "MEPS Panel 27 persons with positive longitudinal weight and valid paired fields", "value_type": "longitudinal_person_count"},
+      "measures": {"health_status_improved": {"value": 21.009, "unit": "percent of valid persons", "value_type": "weighted_share", "standard_error": 0.6638, "ci95_low": 19.7079, "ci95_high": 22.3099, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "health_status_worsened": {"value": 22.849, "unit": "percent of valid persons", "value_type": "weighted_share", "standard_error": 0.7643, "ci95_low": 21.3509, "ci95_high": 24.3469, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "out_of_pocket_expenditure_change": {"value": -50.498, "unit": "2023 minus 2022 dollars per person", "value_type": "weighted_mean_change", "standard_error": 63.3195, "ci95_low": -174.6041, "ci95_high": 73.6083, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "total_health_expenditure_change": {"value": 630.83, "unit": "2023 minus 2022 dollars per person", "value_type": "weighted_mean_change", "standard_error": 245.7742, "ci95_low": 149.1125, "ci95_high": 1112.5473, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "employed_both_endpoint_rounds": {"value": 62.0815, "unit": "percent of valid persons", "value_type": "weighted_estimate", "standard_error": 0.8572, "ci95_low": 60.4014, "ci95_high": 63.7616, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "employed_to_not_employed": {"value": 2.7732, "unit": "percent of valid persons", "value_type": "weighted_estimate", "standard_error": 0.2748, "ci95_low": 2.2346, "ci95_high": 3.3118, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "not_employed_to_employed": {"value": 5.0496, "unit": "percent of valid persons", "value_type": "weighted_estimate", "standard_error": 0.3998, "ci95_low": 4.266, "ci95_high": 5.8332, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}, "wage_income_change": {"value": 2012.3459, "unit": "2023 minus 2022 dollars per person", "value_type": "weighted_estimate", "standard_error": 524.1202, "ci95_low": 985.0703, "ci95_high": 3039.6215, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}},
+      "method": "MEPS Panel 27 five-round longitudinal person analysis with positive longitudinal weights and paired health-status and expenditure fields.",
+      "uncertainty": "The panel measures health-cost co-movement, not care-time displacement or a causal effect of work limitation. Taylor-linearized precision uses LONGWT, VARSTR, and VARPSU; the normal intervals do not resolve expenditure skewness, attrition, nonresponse, or subgroup composition. Expenditure and out-of-pocket measures are distinct and are not household budget measures.",
+      "subgroup": "MEPS longitudinal persons with valid paired fields; income-stratified observations remain in the source record.",
+      "counterinterpretation": "Total health expenditure can rise while out-of-pocket spending falls, and health can improve or worsen without identifying a time, work, or care mechanism.",
+      "source_url": "https://meps.ahrq.gov/data_stats/download_data/pufs/h252/h252doc.shtml",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [{"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-026.md", "claim": "The SIPP work-limitation hours/earnings cross-lag supplies the monthly work/resource stage.", "status": "related-finding"}, {"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-014.md", "claim": "The ATUS provider-time layers supply care/time allocation context with composition controls.", "status": "related-finding"}],
+  "boundary": "This is a deliberately non-pooled bridge. It places work/resource transitions, care-time allocation, and longitudinal health-cost change in one research architecture but does not observe the same person across SIPP, ATUS, and MEPS. It does not establish a care burden index, work-limitation effect, health-cost causation, household hardship, trust, political action, or remedy."
+}

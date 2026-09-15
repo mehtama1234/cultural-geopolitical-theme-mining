@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nhts-urban-rural-mobility-options-2022",
+  "title": "Urban and rural households face different transport option sets",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action"],
+  "source_unit": "2022 NHTS household, person, and work-trip records grouped by NHTS urban/rural category",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2022; household vehicle access; urban",
+      "denominator": {"value": 100, "unit": "weighted household percentage base"},
+      "measures": {"zero_vehicle_households": {"value": 9.73, "unit": "percent of urban households", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS household file using final household weights and NHTS urban/rural classification.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; no design-based interval is reproduced, and broad urban/rural classification, missingness, and household network alternatives remain limits.",
+      "subgroup": "Urban households.",
+      "counterinterpretation": "Zero vehicles does not establish inability to reach work, care, food, health, or civic activity; transit, walking, rideshare, household networks, and neighboring places may provide alternatives.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; household vehicle access; rural",
+      "denominator": {"value": 100, "unit": "weighted household percentage base"},
+      "measures": {"zero_vehicle_households": {"value": 2.82, "unit": "percent of rural households", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS household file using final household weights and NHTS urban/rural classification.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; no design-based interval is reproduced, and broad urban/rural classification, missingness, and vehicle-cost burdens remain limits.",
+      "subgroup": "Rural households.",
+      "counterinterpretation": "Higher vehicle ownership does not establish affordable travel, short distance, reliable service, or low time burden; a car can also impose fuel, repair, insurance, and debt costs.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; rideshare use in prior 30 days; urban",
+      "denominator": {"value": 100, "unit": "weighted person percentage base among valid answers"},
+      "measures": {"used_rideshare_prior_30_days": {"value": 20.05, "unit": "percent of urban respondents", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS person file using final person weights among valid rideshare answers.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; use is self-reported, the urban category is broad, missing/invalid responses remain, and no design-based interval is reproduced.",
+      "subgroup": "Urban respondents with valid rideshare-use answers.",
+      "counterinterpretation": "Recent rideshare use is not regular dependence, necessity, affordability, or evidence that the ride solved a failed trip.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; rideshare use in prior 30 days; rural",
+      "denominator": {"value": 100, "unit": "weighted person percentage base among valid answers"},
+      "measures": {"used_rideshare_prior_30_days": {"value": 5.69, "unit": "percent of rural respondents", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS person file using final person weights among valid rideshare answers.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; use is self-reported, the rural category is broad, missing/invalid responses remain, and no design-based interval is reproduced.",
+      "subgroup": "Rural respondents with valid rideshare-use answers.",
+      "counterinterpretation": "Lower recent rideshare use does not prove stronger mobility or fewer unmet trips; other modes and longer distances may carry the burden.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; work-trip mode; urban",
+      "denominator": {"value": 100, "unit": "weighted work-trip percentage base"},
+      "measures": {"pickup_share_of_work_trips": {"value": 12.09, "unit": "percent of urban work trips", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS trip file using final travel-day weights and work-trip records.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; travel-day observations are not a full calendar, mode categories and missingness matter, and no design-based interval is reproduced.",
+      "subgroup": "Urban work trips.",
+      "counterinterpretation": "Mode share does not measure trip reliability, cost, time, safety, or whether a worker could refuse or change the route.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; work-trip mode; rural",
+      "denominator": {"value": 100, "unit": "weighted work-trip percentage base"},
+      "measures": {"pickup_share_of_work_trips": {"value": 22.92, "unit": "percent of rural work trips", "value_type": "share"}},
+      "method": "Weighted descriptive comparison from the 2022 NHTS trip file using final travel-day weights and work-trip records.",
+      "uncertainty": "Full official CSV archive was retrieved and the selected slice was rerun; travel-day observations are not a full calendar, mode categories and missingness matter, and no design-based interval is reproduced.",
+      "subgroup": "Rural work trips.",
+      "counterinterpretation": "A higher pickup share does not identify whether it is chosen, shared, employer-supported, or required because alternatives are weak.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a descriptive 2022 NHTS urban/rural transport-option comparison. Household, person, and trip units are kept separate; urban/rural categories are not interchangeable with USDA RUCC or county capacity. The record does not establish dependence, service access, affordability, missed work/care, or a causal place effect. The official archive is externally retrieved and hash-identified; derived slices are temporary and not committed."
+}

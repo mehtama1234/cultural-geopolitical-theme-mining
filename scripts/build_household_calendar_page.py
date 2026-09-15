@@ -12,6 +12,19 @@ STYLE = ":root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--gr
 
 source = SOURCE.read_text()
 body = markdown.markdown(source, extensions=["tables", "fenced_code", "sane_lists"])
+# The source memo is authored from the repository root.  Resolve its
+# repository-relative evidence links for the published page under site/.
+for source_path, published_path in {
+    'templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md': '../analysis/templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md',
+    '../manifests/us-household-calendar-schema-v1.json': '../manifests/us-household-calendar-schema-v1.json',
+    'projects/us-household-calendar-integration/source-search-record-v1.md': '../analysis/projects/us-household-calendar-integration/source-search-record-v1.md',
+    'projects/us-household-calendar-integration/source-to-question-matrix-v1.md': '../analysis/projects/us-household-calendar-integration/source-to-question-matrix-v1.md',
+    'projects/us-household-calendar-integration/time-spending-layer-v1.md': '../analysis/projects/us-household-calendar-integration/time-spending-layer-v1.md',
+    'projects/us-household-calendar-integration/claims-ledger-v1.md': '../analysis/projects/us-household-calendar-integration/claims-ledger-v1.md',
+    'templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md': '../analysis/templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md',
+    'samples/US-HOUSEHOLD-CALENDAR-SIMULATED_V1.json': '../analysis/samples/US-HOUSEHOLD-CALENDAR-SIMULATED_V1.json',
+}.items():
+    body = body.replace(f'href="{source_path}"', f'href="{published_path}"')
 title = "The household calendar: a twelve-month test of connected pressure"
 html = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{escape(title)}"><title>{escape(title)}</title><style>{STYLE}</style></head><body><a class="skip" href="#brief">Skip to brief</a><main><nav><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><header><p class="eyebrow">US research design · connected household pressure</p><p class="lede">A bounded next study for testing when money, time, access, and control change together.</p></header><article id="brief" class="memo">{body}</article><footer><p><a href="../analysis/US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md">Read the Markdown brief</a> · <a href="us-big-picture-synthesis.html">Return to the big picture</a></p><p class="note">This is a research design, not evidence that every household follows every chain.</p></footer></main></body></html>'''
 TARGET.write_text(html)

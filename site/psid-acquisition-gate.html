@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PSID acquisition gate · Household calendar integration</title>
+  <style>
+    :root{--paper:#f5f3ed;--ink:#19322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--cream:#fffefa}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 system-ui,sans-serif}main{max-width:900px;margin:auto;padding:28px 22px 80px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.92rem}h1,h2{font-family:Georgia,serif;font-weight:500;line-height:1.12}h1{font-size:clamp(2.8rem,7vw,5.7rem);margin:50px 0 20px}h2{font-size:2rem;margin:55px 0 14px}.eyebrow{color:var(--green);letter-spacing:.1em;text-transform:uppercase;font-size:.76rem}.lede{font:1.3rem/1.5 Georgia,serif;color:#46554f}.status{border-left:5px solid var(--gold);background:#fff8e9;padding:18px 22px;margin:28px 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:var(--cream);border:1px solid var(--line);border-radius:9px;padding:20px}.card strong{display:block;font-family:Georgia,serif;font-size:1.18rem;margin-bottom:8px}.card p{margin:0;color:var(--muted)}li{margin:9px 0}footer{border-top:1px solid var(--line);margin-top:60px;padding-top:20px;color:var(--muted);font-size:.92rem}@media(max-width:700px){main{padding:22px 16px 60px}.grid{grid-template-columns:1fr}body{font-size:17px}}
+  </style>
+</head>
+<body><main>
+  <nav><a href="index.html">Research home</a> · <a href="reading-room.html">Reading room</a> · <a href="us-program-dashboard.html">Program dashboard</a> · PSID gate</nav>
+  <p class="eyebrow">Household calendar integration · acquisition control</p>
+  <h1>The PSID backbone is specified, but not yet acquired.</h1>
+  <p class="lede">PSID is the highest-value next step for a many-family comparison of material conditions, work, time, care, health, and wellbeing across 2019, 2021, and 2023. The research design is ready. The public-use files are still behind an account-controlled download gate.</p>
+  <div class="status"><strong>Current status · checked 2026-09-15:</strong> official packages listed; the 2023 route is live but redirects to a Conditions-of-Use warning until an account accepts the policy; no local PSID microdata; no PSID estimate promoted.</div>
+  <h2>What must arrive</h2>
+  <div class="grid"><article class="card"><strong>2019, 2021, and 2023 Family Files</strong><p>Needed for the family-level material, resources, composition, work, health, and wellbeing fields.</p></article><article class="card"><strong>1968–2023 Cross-year Individual File</strong><p>Needed for the person-level fields and longitudinal identity surface, subject to key and universe checks.</p></article></div>
+  <h2>What the gate proves—and does not prove</h2>
+  <p>The <a href="https://simba.isr.umich.edu/Zips/ZipMain.aspx">official package page</a> lists the target files. The <a href="https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&amp;mainurl=Y">2023 package route</a> redirects to the Conditions-of-Use warning, which states that account registration and policy acceptance are required before generated carts and ZIP downloads are available. A local workspace search found documentation and audit assets but no target data packages.</p>
+  <p>This is an access prerequisite, not a null result. The documentation does not establish that the fields merge, that universes match, that attrition is acceptable, or that any material/time/care relationship exists.</p>
+  <h2>Checks after download</h2>
+  <ol><li>Run the <a href="../analysis/projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md">wave-file structural audit</a> against the four packages.</li><li>Verify codebook wording, universe, routing, and response codes across waves.</li><li>Check family/person keys, merge counts, retention, movers, composition, and missingness.</li><li>Identify weights, replicate variance, valid denominators, subgroup cells, and counterexamples.</li><li>Publish only the bounded comparison that those checks support.</li></ol>
+  <h2>What continues while access is open</h2>
+  <p>The program continues the same lane with acquired SIPP, ATUS, SHED, NHTS, MEPS, RECS, and Consumer Expenditure layers. They add bounded evidence about population conditions, time, health, mobility, and household room; they do not silently stand in for the intended same-family PSID bridge.</p>
+  <p><a href="../analysis/projects/us-household-calendar-integration/psid-acquisition-gate-v1.md">Read the full acquisition gate</a> · <a href="../analysis/projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md">Read the extract specification</a> · <a href="../analysis/projects/us-household-calendar-integration/psid-access-audit-2026-09-13.json">Read the access-surface audit</a></p>
+  <footer><a href="theme-trends.html">Return to theme insights</a> · <a href="us-program-dashboard.html">Return to program dashboard</a></footer>
+</main></body></html>

@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-procurement-entity-parent-facility-reconciliation-2026",
+  "title": "Defense recipient names resolve into parent and facility hierarchies before capability can be assessed",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "Official DLA CAGE entity records linked descriptively to USAspending JASSM/LRASM recipient names",
+  "geography": "United States and UK corporate/facility records in a US defense procurement case",
+  "observations": [
+    {
+      "period": "2026-09-13; BAE entity and parent chain",
+      "denominator": {"value": 3, "unit": "resolved CAGE records in one displayed parent chain", "value_type": "entity_records"},
+      "measures": {
+        "chain": {"value": "BAE Systems Information and Electronic Systems Integration Inc. (CAGE 81J97; Merrimack, NH) → BAE Systems, Inc. (CAGE 1BNT5; Falls Church, VA) → BAE Systems plc (CAGE U2D80; London, UK)", "unit": "displayed legal-entity/parent links", "value_type": "reported_structure"},
+        "largest_reported_recipient_amount": {"value": 210018575, "unit": "nominal US dollars in bounded USAspending extract", "value_type": "reported_context"}
+      },
+      "method": "Exact legal-name and displayed parent-field reconciliation from official DLA CAGE detail records; USAspending amount is retained as context and is not treated as a machine-level transaction join.",
+      "uncertainty": "CAGE records establish displayed entity identity and parent fields at retrieval time, not the facility assignment, ownership rights beyond the displayed relationship, workforce, production, delivery, or local incidence of each subaward action.",
+      "subgroup": "Largest reported named subordinate recipient in the selected USAspending extract.",
+      "counterinterpretation": "A US operating entity inside a UK-headquartered group may have strong US security controls and local capability; jurisdictional parentage alone does not determine effective production control or dependence.",
+      "source_url": "https://cage.dla.mil/Search/Details?id=10332512",
+      "retrieval_hash": "sha256:e223bc206df27e18c2be794589c4166450ceb71225567a194b4582562debdcc7; parent:sha256:9ddb2b5f1fac906c6653dac5655bd0c46b657f9734da89ba70f9027a9ef5eed7; group:sha256:fcdc00ef231ea106d121f4db8648dd807d775f6efca9fbb05f5a4f7631177789",
+      "status": "observed"
+    },
+    {
+      "period": "2026-09-13; General Dynamics-OTS facility and parent comparison",
+      "denominator": {"value": 4, "unit": "three General Dynamics-OTS facility CAGE records plus one parent CAGE record", "value_type": "entity_records"},
+      "measures": {
+        "facility_locations": {"value": "Hampton, AR; Colchester, VT; Saco, ME", "unit": "active CAGE facility records", "value_type": "reported_structure"},
+        "parent": {"value": "General Dynamics Corp (CAGE 95403; Reston, VA)", "unit": "displayed parent record", "value_type": "reported_structure"},
+        "selected_reported_recipient_amount": {"value": 80550804.12, "unit": "nominal US dollars in bounded USAspending recipient profile", "value_type": "reported_context"}
+      },
+      "method": "Comparison of exact General Dynamics-OTS name/CAGE records and displayed parent CAGE fields from official DLA records; the three facilities are not assigned the reported subaward in this record.",
+      "uncertainty": "Multiple active facilities under one parent do not establish independent suppliers, work allocation, spare capacity, component substitutability, or delivery.",
+      "subgroup": "General Dynamics-OTS comparison supplier route.",
+      "counterinterpretation": "Geographic dispersion may provide genuine continuity or may share critical inputs, software, tooling, certification, and management under one parent.",
+      "source_url": "https://cage.dla.mil/Search/Details?id=1518144",
+      "retrieval_hash": "sha256:61291d39f23c0d460069b4a3d20e7af6a9e50d0ddb9d2dd261d08ca350a622dc; facility2:sha256:5a2a8cfdaaecddb439abd6350343c09abd5a15961beaefc04f9fd5b317e2fd4a; parent:sha256:20bbe43c3c56a1c0beca9a91fcfcc0eb20b38a75b37f321e1fc309a269ebc642",
+      "status": "observed"
+    },
+    {
+      "period": "2024-10-23 through 2025-02-28; name-to-entity interpretation boundary",
+      "denominator": {"value": 74, "unit": "returned USAspending subaward records linked to one parent award", "value_type": "unweighted_record_count"},
+      "measures": {
+        "reported_recipient_names": {"value": 51, "unit": "distinct reported recipient names", "value_type": "count"},
+        "resolved_comparison_routes": {"value": 2, "unit": "BAE and General Dynamics-OTS routes with official CAGE parent records", "value_type": "comparison_count"},
+        "facility_assignment": {"value": "not observed", "unit": "USAspending-to-CAGE join status", "value_type": "open"}
+      },
+      "method": "Cross-source interpretation of the USAspending name surface and official DLA entity records; no legal-entity parent is imputed for the other 49 reported names.",
+      "uncertainty": "The two reconciled routes are not representative of all recipients; exact UEI/CAGE fields are absent from the retained subaward response, and parentage does not establish operational control.",
+      "subgroup": "One bounded weapons-system procurement case.",
+      "counterinterpretation": "Reported name breadth may still correspond to technically independent and substitutable firms; a parent hierarchy may also coexist with strong facility-level autonomy.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8; concentration:sha256:b56b59375dc47c85206744104f7641de7288dab16fe89b881560a6d3b38496b5",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-072.md", "claim": "The bounded subaward extract supplies name and amount concentration context.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md", "claim": "The ownership-route memo documents the BAE legal-name and parent-chain interpretation boundary.", "status": "related-method"}
+  ],
+  "boundary": "Official entity records establish displayed legal names, CAGE identifiers, addresses, status, and parent links for a small comparison set. They do not establish facility-level work assignment, production, delivery, readiness, replaceability, local benefit, or geopolitical leverage."
+}

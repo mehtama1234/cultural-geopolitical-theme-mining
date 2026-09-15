@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-treasury-fio-census-zcta-housing-context-2022",
+  "title": "Insurance market conditions vary across matched ZIP/ZCTA socioeconomic contexts",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "Matched Treasury FIO ZIP-code/year market rows and Census ACS 5-year ZCTA context",
+  "geography": "United States; 2022 Treasury ZIP-code rows matched to same-text 2022 ACS ZCTA codes",
+  "observations": [
+    {
+      "period": "2022; matched ZIP/ZCTA socioeconomic context",
+      "denominator": {"value": 25593, "unit": "Treasury 2022 ZIP-code rows considered", "value_type": "observed_rows"},
+      "measures": {
+        "matched_rows": {"value": 25084, "unit": "Treasury rows matched to usable ACS ZCTA context", "value_type": "observed_rows"},
+        "match_rate": {"value": 98.0112, "unit": "percent of Treasury 2022 rows", "value_type": "share"}
+      },
+      "method": "Exact five-digit text match between Treasury ZIP-code values and ACS ZCTA codes, followed by descriptive grouping using ACS median household income, poverty rate, and tenure shares. This is a ZIP/ZCTA approximation.",
+      "uncertainty": "ZIP codes and ZCTAs are not identical geographies; unmatched rows may be systematic. Treasury metrics are not household-level, the workbook is not a complete insurer census, and the ACS context is a five-year estimate.",
+      "subgroup": "Matched ZIP/ZCTA rows grouped by 2022 ACS context; income, poverty, and tenure groups are separate dimensions.",
+      "counterinterpretation": "A high-income place can have higher premiums because exposure, property values, rebuilding costs, and insured assets differ; a lower-income place can have higher nonrenewal rates without having higher mean premiums. These are not individual household gradients.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b19013.dat",
+      "comparison_source_url": "https://home.treasury.gov/system/files/311/Supporting_Underlying_Metrics_and_Disclaimer_for_Analyses_of_US_Homeowners_Insurance_Markets_2018-2022.xlsx",
+      "retrieval_hash": "sha256:54dc9c5f15146d861080919372c1dde3f8b51c7bc3f8c175d97b60f2d1c6b85b",
+      "status": "compared"
+    },
+    {
+      "period": "2022; matched rows by ACS median household-income band",
+      "denominator": {"value": 25084, "unit": "matched Treasury 2022 ZIP rows with usable ACS context; unweighted row means", "value_type": "observed_rows"},
+      "measures": {
+        "below_50000_mean_premium": {"value": 1630.35, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "50000_to_99999_mean_premium": {"value": 1673.74, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "at_least_100000_mean_premium": {"value": 2332.41, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "below_50000_mean_nonrenewal": {"value": 1.261, "unit": "percent, unweighted mean", "value_type": "mean"},
+        "at_least_100000_mean_nonrenewal": {"value": 0.909, "unit": "percent, unweighted mean", "value_type": "mean"}
+      },
+      "method": "Descriptive unweighted means of Treasury ZIP rows after grouping matched ZCTAs by ACS median household income: below $50,000; $50,000–$99,999; at least $100,000.",
+      "uncertainty": "The groups differ in exposure, home value, property type, insurer mix, and policy composition. Means are not policy-weighted and do not estimate what an individual household pays or faces.",
+      "subgroup": "Matched ZIP/ZCTA rows by ACS median household income band.",
+      "counterinterpretation": "The non-monotonic premium pattern means place wealth cannot be used as a proxy for insurance cost pressure without conditioning on hazard and asset exposure; lower-income places nonetheless show higher average nonrenewal in this descriptive join.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b19013.dat",
+      "comparison_source_url": "https://home.treasury.gov/system/files/311/Supporting_Underlying_Metrics_and_Disclaimer_for_Analyses_of_US_Homeowners_Insurance_Markets_2018-2022.xlsx",
+      "retrieval_hash": "sha256:54dc9c5f15146d861080919372c1dde3f8b51c7bc3f8c175d97b60f2d1c6b85b",
+      "status": "compared"
+    },
+    {
+      "period": "2022; matched rows by ACS tenure context",
+      "denominator": {"value": 25084, "unit": "matched Treasury 2022 ZIP rows with usable ACS context; unweighted row means", "value_type": "observed_rows"},
+      "measures": {
+        "owner_share_below_50_mean_premium": {"value": 2127.24, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "owner_share_below_50_mean_nonrenewal": {"value": 1.232, "unit": "percent, unweighted mean", "value_type": "mean"},
+        "owner_share_at_least_75_mean_premium": {"value": 1727.95, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "owner_share_at_least_75_mean_nonrenewal": {"value": 0.98, "unit": "percent, unweighted mean", "value_type": "mean"}
+      },
+      "method": "Descriptive unweighted means of matched ZIP rows grouped by ACS owner share: below 50%; 50%–74.9%; at least 75%.",
+      "uncertainty": "Tenure context is a place-level share, not the tenure of insured policies in the Treasury data; it does not establish landlord pass-through, renter exposure, or owner displacement.",
+      "subgroup": "Matched ZIP/ZCTA rows by ACS owner share.",
+      "counterinterpretation": "Higher premiums in lower-owner-share places may reflect urban property mix, insured asset differences, or exposure rather than tenure itself.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b25003.dat",
+      "comparison_source_url": "https://home.treasury.gov/system/files/311/Supporting_Underlying_Metrics_and_Disclaimer_for_Analyses_of_US_Homeowners_Insurance_Markets_2018-2022.xlsx",
+      "retrieval_hash": "sha256:a1d503237cf1f590e1d056e4ae6a27d636350a35c620ee3c888018e28dd63966",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b17001.dat", "claim": "ACS poverty table supplies the ZCTA poverty context used in the derived grouping file.", "status": "reported", "access_boundary": "Poverty grouping is descriptive and not an individual insurance measure."},
+    {"source_url": "data/treasury-fio-census-zcta-2022-join.json", "claim": "Local analysis output records the exact match rate, classification, and group summaries.", "status": "derived", "access_boundary": "No causal model or policy-weighted household estimate is claimed."}
+  ],
+  "boundary": "This record creates a descriptive market/place context bridge for 2022. It does not establish that income, poverty, tenure, or any place characteristic causes premiums or nonrenewals, nor does it connect them to household coverage, repairs, lending, mobility, or political response."
+}

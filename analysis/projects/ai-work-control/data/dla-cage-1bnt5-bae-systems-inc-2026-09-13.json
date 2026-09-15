@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:05:52.837445+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=1BNT5",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=322514",
+  "cage_query": "1BNT5",
+  "response_sha256": "9ddb2b5f1fac906c6653dac5655bd0c46b657f9734da89ba70f9027a9ef5eed7",
+  "record": {
+    "legal_business_name": "BAE SYSTEMS, INC.",
+    "address": "2941 FAIRVIEW PARK DR STE 100 FALLS CHURCH, VA 22042 4541 UNITED STATES OF AMERICA",
+    "cage": "1BNT5",
+    "uei": "MJDNAS47MHP6",
+    "status": "Active",
+    "cage_update_date": "09/04/2026",
+    "cage_expiration": "06/11/2031",
+    "parent_cage": "U2D80",
+    "parent_company_name": "BAE SYSTEMS PLC"
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

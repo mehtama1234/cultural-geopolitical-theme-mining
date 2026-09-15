@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-doi-wildfire-county-context-2022",
+  "title": "Counties with greater modeled wildfire exposure show somewhat higher voluntary-market nonrenewal in a 2022 California screen",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "California Department of Insurance county exposure appendix joined to aggregated voluntary-market ZIP policy counts",
+  "geography": "California counties",
+  "observations": [
+    {
+      "period": "2022 voluntary-market counts; CDI exposure appendix",
+      "denominator": {"value": 56, "unit": "matched California counties", "value_type": "observed_rows"},
+      "measures": {
+        "lowest_exposure_quartile_nonrenewal_rate": {"value": 9.979, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "highest_exposure_quartile_nonrenewal_rate": {"value": 11.307, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "below_12_1_percent_exposure_nonrenewal_rate": {"value": 10.418, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "at_or_above_12_1_percent_exposure_nonrenewal_rate": {"value": 11.014, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"}
+      },
+      "method": "Aggregated 2022 ZIP-level new, renewed, and nonrenewed counts by county; joined county rows to CDI's modeled high/very-high dwelling-unit share; compared equal-count exposure quartiles and the published 12.1% California threshold.",
+      "uncertainty": "The exposure appendix uses Department of Finance dwelling-unit estimates as of January 1, 2015; voluntary decisions are from 2022. Exposure is a modelers' weighted average, not observed loss or household risk.",
+      "subgroup": "Matched counties with nonblank county names in the voluntary workbook.",
+      "counterinterpretation": "The difference may reflect county composition, insurer mix, property type, reporting practices, or other market conditions; it does not show wildfire exposure caused nonrenewal or that FAIR enrollment caused a transition.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm",
+      "retrieval_hash": "sha256:2cc251d9c6b4a61cb5123bc5756f0d631b10f12f11aed521e97677fea16c43db",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Availability-and-Affordability-Report-Appendix-C.pdf", "claim": "CDI publishes county dwelling-unit estimates and weighted high/very-high wildfire exposure shares.", "status": "reported", "access_boundary": "The appendix is a modeled exposure context with a 2015 dwelling-unit base."},
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Residential-Property-Coverage-Amounts-Wildfire-Risk-and-Losses.xlsx", "claim": "CDI publishes statewide 2018–2023 insurer coverage and loss measures segmented by risk score.", "status": "reported", "access_boundary": "The workbook has no county or household key and is not merged into the county result."},
+    {"source_url": "data/california-doi-wildfire-county-context-2022-join.json", "claim": "Local analysis output records the county join and comparisons.", "status": "derived", "access_boundary": "The join is descriptive and temporally mismatched."}
+  ],
+  "boundary": "This record conditions the California voluntary-market nonrenewal screen on CDI modeled county wildfire exposure. It does not establish causality, household coverage loss, affordability, repairs, moves, or political response."
+}

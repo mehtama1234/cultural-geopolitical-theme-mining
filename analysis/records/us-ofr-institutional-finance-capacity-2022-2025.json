@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ofr-institutional-finance-capacity-2022-2025",
+  "title": "OFR reports a changing public financial-visibility and institutional-capacity sequence",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "work_control_bargaining", "firm_sector_market_power", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "Office of Financial Research annual report to Congress; institutional self-report",
+  "geography": "United States federal financial-stability institution and financial system",
+  "observations": [
+    {
+      "period": "FY2022; report data generally through 2022-09-30",
+      "denominator": {"value": 1, "unit": "OFR institutional annual-report account", "value_type": "institutional_report"},
+      "measures": {"repo_visibility": {"value": "nine financial institutions voluntarily submitted transaction-level data to a non-centrally cleared bilateral repo pilot", "unit": "reported pilot participation", "value_type": "reported_event"}, "infrastructure": {"value": "OFR-hosted Data and Analytics Hub pilot; four-year migration to a 100% cloud-based environment reported complete", "unit": "reported institutional infrastructure events", "value_type": "reported_event"}, "household_context": {"value": "reported household debt of $15.6 trillion and 7.0% year-over-year aggregate growth in September 2022", "unit": "US household debt; dollars and percent", "value_type": "reported_aggregate"}},
+      "method": "Official OFR FY2022 annual-report narrative and reported aggregate context.",
+      "uncertainty": "The pilot is not a permanent collection or intervention; institutional infrastructure completion does not establish analytical quality, public benefit, or household protection. Aggregate debt is not household-level incidence.",
+      "subgroup": "OFR, participating financial institutions, regulators, households, and firms; no common respondent or account identifier.",
+      "counterinterpretation": "Data visibility and cloud migration may improve coordination, but can also add governance, security, or dependency burdens; household aggregate resilience can coexist with subgroup stress.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-Annual-Report-2022.pdf",
+      "retrieval_hash": "sha256:bab4a76479d993f27f86895b04db27233bb2c133b88874526889eb91ff31d8ee",
+      "status": "reported"
+    },
+    {
+      "period": "FY2023; report data generally through 2023-09-30",
+      "denominator": {"value": 1, "unit": "OFR institutional annual-report account", "value_type": "institutional_report"},
+      "measures": {"risk_environment": {"value": "financial-stability risks reported elevated amid persistent inflation, geopolitical risks, and global conflicts", "unit": "institutional risk assessment", "value_type": "reported_assessment"}, "household_firm_context": {"value": "consumer spending and liquidity reported resilient while consumer debt rose and household savings declined; commercial-real-estate and work-from-home risks were highlighted", "unit": "reported system context", "value_type": "reported_context"}},
+      "method": "Official OFR FY2023 annual-report risk assessment and system-context narrative.",
+      "uncertainty": "The assessment is an institutional synthesis, not a causal attribution or person-level household panel; resilience and pressure are reported at different units.",
+      "subgroup": "Households, consumers, firms, financial markets, and federal financial-stability institutions.",
+      "counterinterpretation": "Aggregate spending resilience may reflect higher-income or previously buffered households while debt and savings changes are uneven; the report does not identify the distribution.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2023_web.pdf",
+      "retrieval_hash": "sha256:83ac60e08f7bff525dc947d9128429835342c811603cdf734a496a0b4bd87227",
+      "status": "reported"
+    },
+    {
+      "period": "FY2024; report data generally through 2024-09-30",
+      "denominator": {"value": 1, "unit": "OFR institutional annual-report account", "value_type": "institutional_report"},
+      "measures": {"data_gap_status": {"value": "key financial-data gaps remained", "unit": "institutional assessment", "value_type": "reported_assessment"}, "risk_structure": {"value": "risk analysis organized around asset markets, businesses and households, financial institutions, and money markets", "unit": "reported analytical framework", "value_type": "reported_framework"}, "borrower_context": {"value": "most nonfinancial businesses and households could service debt while delinquency and default rose for less-creditworthy borrowers", "unit": "reported aggregate/subgroup context", "value_type": "reported_context"}},
+      "method": "Official OFR FY2024 annual-report risk and organizational account.",
+      "uncertainty": "The report does not supply a same-household route from risk detection to lender action, remedy, or recovery; its borrower grouping is not a causal exposure design.",
+      "subgroup": "Nonfinancial businesses, households, less-creditworthy borrowers, financial institutions, and asset markets.",
+      "counterinterpretation": "Broad debt-service capacity may coexist with severe strain among a smaller exposed subgroup; reported delinquency differences do not identify the mechanism or later adaptation.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2024_web.pdf",
+      "retrieval_hash": "sha256:6b76fad9fce8c46b4fb51c5f3ceabbd606c1a5ca1cc69b2caa42d22ad2e97b73",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025; report data generally through 2025-09-30",
+      "denominator": {"value": 1, "unit": "OFR institutional annual-report account", "value_type": "institutional_report"},
+      "measures": {"repo_visibility": {"value": "new non-centrally cleared bilateral repo data collection; approximately $5 trillion in daily outstanding commitments reported for the segment", "unit": "reported collection and approximate dollars", "value_type": "reported_event"}, "workforce_path": {"value": "188 employees at starting point -> 205 in January 2025 -> 109 at year end", "unit": "OFR employees", "value_type": "reported_path"}, "budget_change": {"value": -11, "unit": "percent reported FY2025 budget change", "value_type": "reported_change"}, "ai_use": {"value": "data processing, security monitoring, support tasks, procurement comparison, and ChatOFR", "unit": "reported workflow inventory", "value_type": "reported_inventory"}},
+      "method": "Official OFR FY2025 annual-report narrative on workforce, budget, AI, analytics infrastructure, and repo data collection.",
+      "uncertainty": "The report does not attribute workforce change to AI alone and does not measure workload per employee, model accuracy, response time, error correction, public value, or downstream financial stability.",
+      "subgroup": "OFR workforce and functions; financial institutions and regulators in the reported repo segment; households and firms are named risk populations but not linked cases.",
+      "counterinterpretation": "Staffing reduction may reflect mission reprioritization; AI may augment remaining staff or add review and governance work; new visibility is not intervention or protection.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.financialresearch.gov/annual-reports/", "claim": "OFR annual report index and institutional reporting context.", "status": "official-source-family"},
+    {"source_url": "https://www.financialresearch.gov/data/", "claim": "OFR public data and monitoring context.", "status": "official-data-context"},
+    {"source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024", "claim": "Provider-side financial access comparison used as a complementary institutional layer.", "status": "complementary-source"}
+  ],
+  "boundary": "This record captures a four-vintage OFR institutional chronology. It does not establish that AI caused staffing changes, that data collection improved financial stability, that public visibility became consumer protection, or that any household or firm experienced a linked outcome. Institutional, market, firm, account, household, and respondent units remain separate."
+}

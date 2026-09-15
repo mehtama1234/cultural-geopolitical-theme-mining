@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-treasury-fio-fema-nri-hazard-context-2022",
+  "title": "Higher FEMA expected-loss ratings coincide with higher observed insurance premiums and nonrenewal exposure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "Treasury FIO ZIP-code insurance market rows assigned to FEMA NRI county context through Census geographic relationships",
+  "geography": "United States; 2022 Treasury ZIP rows, primary county by largest ZCTA land-area intersection, FEMA county baseline",
+  "observations": [
+    {
+      "period": "2022 Treasury market rows matched to FEMA county context",
+      "denominator": {"value": 25593, "unit": "Treasury 2022 ZIP-code rows considered", "value_type": "observed_rows"},
+      "measures": {
+        "matched_rows": {"value": 25330, "unit": "rows assigned to a FEMA NRI county", "value_type": "observed_rows"},
+        "match_rate": {"value": 98.9724, "unit": "percent of Treasury rows", "value_type": "share"},
+        "zctas_with_county_relationship": {"value": 33791, "unit": "ZCTAs in the Census relationship file", "value_type": "observed_count"}
+      },
+      "method": "Treasury ZIP values are matched to 2020 Census ZCTA codes; where a ZCTA intersects multiple counties, the county with the largest reported ZCTA land-area part is selected; the FEMA county EAL rating is attached.",
+      "uncertainty": "The county assignment discards secondary intersections; FEMA NRI is a modeled county baseline whose version and reference period are not the same as the 2022 insurance observations. Missing matches may be systematic.",
+      "subgroup": "Treasury ZIP rows grouped by FEMA Expected Annual Loss composite rating.",
+      "counterinterpretation": "The join does not establish that hazard causes a particular premium or nonrenewal; property values, rebuilding costs, insurer mix, regulation, policy composition, and reporting coverage may differ by county.",
+      "source_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0",
+      "comparison_source_url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+      "retrieval_hash": "sha256:29c57aa33f333b9a143847fdd9ad3a2ffa883de8a7612a158b0174837560d28f",
+      "status": "compared"
+    },
+    {
+      "period": "2022 Treasury market rows by FEMA Expected Annual Loss rating",
+      "denominator": {"value": 25330, "unit": "matched ZIP rows; unweighted row means", "value_type": "observed_rows"},
+      "measures": {
+        "relatively_low_mean_premium": {"value": 1564.92, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "relatively_moderate_mean_premium": {"value": 1698.19, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "relatively_high_mean_premium": {"value": 2449.06, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "very_high_mean_premium": {"value": 1927.57, "unit": "dollars per policy, unweighted mean", "value_type": "mean"},
+        "relatively_low_mean_nonrenewal": {"value": 0.959, "unit": "percent, unweighted mean", "value_type": "mean"},
+        "very_high_mean_nonrenewal": {"value": 1.271, "unit": "percent, unweighted mean", "value_type": "mean"}
+      },
+      "method": "Unweighted means of Treasury 2022 ZIP rows within FEMA NRI composite Expected Annual Loss rating groups, after area-based ZCTA-to-county assignment.",
+      "uncertainty": "Rating categories are modeled and the non-monotonic Very High premium result shows that rating bins do not substitute for continuous hazard, asset, or market controls. Means are not policy-weighted or household estimates.",
+      "subgroup": "FEMA NRI EAL ratings: Very Low, Relatively Low, Relatively Moderate, Relatively High, Very High.",
+      "counterinterpretation": "Relatively High has the highest mean premium in this screen while Very High has the highest mean nonrenewal; this is not a monotonic dose-response and should not be narrated as one.",
+      "source_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0",
+      "comparison_source_url": "https://home.treasury.gov/system/files/311/Supporting_Underlying_Metrics_and_Disclaimer_for_Analyses_of_US_Homeowners_Insurance_Markets_2018-2022.xlsx",
+      "retrieval_hash": "sha256:a4b5ce41f2a89b3e2281f88d3dca10f04735539cd7b110267c5564688f9c896b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf", "claim": "FEMA documentation describes county expected annual loss construction and modeled-risk interpretation.", "status": "reported", "access_boundary": "A modeled risk index is not a realized insurance premium or household loss."},
+    {"source_url": "data/treasury-fio-fema-nri-2022-join.json", "claim": "The local join output records matching, assignment, and rating-group summaries.", "status": "derived", "access_boundary": "The output is an unweighted descriptive screen, not a causal estimate."}
+  ],
+  "boundary": "This record adds hazard context to the insurance market/place bridge. It does not establish causal hazard pricing, insurer withdrawal, household affordability, coverage adequacy, repairs, lending, mobility, or political response."
+}

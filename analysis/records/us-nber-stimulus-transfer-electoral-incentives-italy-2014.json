@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-stimulus-transfer-electoral-incentives-italy-2014",
+  "title": "Stimulus transfers can produce stronger electoral than consumption responses when targeting follows political responsiveness",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "Italian municipality-level administrative recipient shares, electoral returns, income/employment distributions, and voter-panel evidence; international comparison for the US-centered program",
+  "geography": "Italy; comparison mechanism for US fiscal-transfer and political-response analysis",
+  "observations": [
+    {
+      "period": "2014–2019; Italian 80 Euro Bonus transfer and subsequent elections",
+      "denominator": {"value": 1, "unit": "universe of Italian municipalities and administrative/electoral records; exact municipality count is not stated in the audited introduction pages", "value_type": "administrative_study_frame"},
+      "measures": {
+        "incumbent_vote_share_effect_per_recipient_pp": {"value": 0.18, "unit": "percentage-point Democratic Party vote-share increase per 1 percentage-point rise in recipient share in 2014 relative to 2013", "value_type": "difference_in_differences_coefficient"},
+        "average_municipality_short_run_effect": {"value": 4.0, "unit": "approximate percentage-point incumbent vote-share increase for an average municipality with 20.15% beneficiaries", "value_type": "derived_effect"},
+        "five_year_persistence": {"value": 0.09, "unit": "percentage-point higher Democratic Party vote share in higher-recipient places in 2019", "value_type": "reported_persistence"},
+        "non_durable_consumption_response": {"value": 20, "unit": "percent of bonus spent on non-durables, cited from related consumption evidence", "value_type": "related_estimate"},
+        "durable_consumption_response": {"value": 30, "unit": "percent of bonus spent on durables, cited from related consumption evidence", "value_type": "related_estimate"},
+        "poorer_targeting_consumption_gain": {"value": 30, "unit": "percent increase in projected overall consumption response under counterfactual poorer targeting", "value_type": "counterfactual_projection"},
+        "poorer_targeting_electoral_return_loss": {"value": 15, "unit": "at least percent reduction in projected electoral return under counterfactual poorer targeting", "value_type": "counterfactual_projection"}
+      },
+      "method": "Quasi-random geographic variation in recipient shares induced by predetermined municipal income and payroll-employment distributions; difference-in-differences, placebo/pre-trend checks, controls, an eligibility-rule IV, threshold-based design, and a voter panel around salient receipt.",
+      "uncertainty": "The evidence is from Italy and an international comparison, not a US treatment estimate. The paper is an NBER working paper; the counterfactual is projected from heterogeneous estimates and related consumption evidence. Electoral attribution is supported by timing and panel evidence but remains design- and context-specific.",
+      "subgroup": "Municipalities and voters by recipient income distribution, excluded low-income versus higher-income groups, and likely bonus-recipient status.",
+      "counterinterpretation": "Local recipient density could correlate with other municipal changes despite the design controls; electoral persistence may reflect salience, party attachment, or other policy channels. Consumption and electoral responses need not come from the same individuals.",
+      "source_url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/sem2025/bid/vannutelli.pdf",
+      "retrieval_hash": "sha256:b68000fded4e993e5bedbfd1a0bfcdac8aa87e5e889e1f96c6da0541175e460b",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w33973", "claim": "Official NBER metadata and abstract for Working Paper 33973.", "status": "official-metadata"},
+    {"source_url": "../../records/us-nber-real-wages-inflation-elections-2021-2024.json", "claim": "US county purchasing-power and electoral association with a different design and geography.", "status": "related-comparison"},
+    {"source_url": "../../records/us-anes-panel-worry-trust-vote-2024.json", "claim": "US respondent-level identity-conditioned worry/trust/reported-vote evidence.", "status": "related-comparison"}
+  ],
+  "boundary": "This is an international comparison mechanism, not a US estimate. It directly strengthens the program's policy exposure → material response → attribution/electoral response architecture while leaving US transfer design, household-level causal incidence, cultural meaning, and generalization open. Consumption estimates and electoral estimates are not treated as the same respondent outcome."
+}

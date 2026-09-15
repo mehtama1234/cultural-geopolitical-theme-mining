@@ -1,0 +1,23 @@
+{
+  "format": "us-source-reproduction-audit-v1",
+  "checked": "2026-09-13",
+  "source": "Federal Reserve Survey of Household Economics and Decisionmaking public-use CSV releases",
+  "files": [
+    {"year": 2024, "url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2024_(CSV).zip", "sha256": "b455d02356a0c01a02d7f478c02d772515491564e905ce13db55f272f83567c1", "archive_member": "public2024.csv", "csv_rows": 12295},
+    {"year": 2025, "url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2025_(CSV).zip", "sha256": "a4ab3f7d042f16d63626b1af9aeb6f0b8a0b39e412fa94b87265bc67fe26de14", "archive_member": "public2025.csv", "csv_rows": 12934}
+  ],
+  "runs": [
+    {"script": "scripts/analyze_shed_panel_price_persistence.py", "output_sha256": "e8a799960f5a1bb8209bc88af52239aab9b442e2aa2d5a2def15b7f151236177", "panel_pairs_with_weight_and_shared_id": 4419, "status": "completed and inspected"},
+    {"script": "scripts/analyze_shed_panel_health_care_paths.py", "output_sha256": "1feb9eba205de58aa86f6cb50c4452a91402c09b6e225be7ecf0a385c2c7cdb5", "panel_pairs_with_condition_path": 4419, "status": "completed and inspected"},
+    {"script": "scripts/analyze_shed_panel_adaptation_condition_path.py", "output_sha256": "a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a", "paired_rows_with_condition_path": 4419, "status": "completed and inspected"}
+  ],
+  "recheck_2026_09_14": {
+    "status": "completed; exact prior output hashes reproduced",
+    "local_archives": ["/tmp/cgm-shed/shed2024.zip", "/tmp/cgm-shed/shed2025.zip"],
+    "condition_path_output_sha256": "a6ecc6e0761dc8139ea3e713429d00b43934e9967b1bfb61c19451d30844371a",
+    "health_care_path_output_sha256": "1feb9eba205de58aa86f6cb50c4452a91402c09b6e225be7ecf0a385c2c7cdb5",
+    "paired_rows": 4419,
+    "interpretation": "No source-vintage or variance-method change was introduced; this confirms reproducibility of the committed descriptive panel results and does not promote them to causal or design-based-uncertainty estimates."
+  },
+  "interpretation": "The three completed outputs reproduce the committed panel headline values, including 4,419 paired records, the financial-condition health/care path counts, and the adaptation persistence/re-entry paths. The raw archives are retained only in the temporary acquisition environment; this audit preserves URLs and checksums but is not itself a permanent raw-data copy."
+}

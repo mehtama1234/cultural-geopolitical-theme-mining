@@ -26,10 +26,15 @@ LABELS = {
     "EFOOD6": "hungry but did not eat because of money",
     "RMNUMJOBS": "one job",
     "RSNAP_MNYN": "received SNAP this month",
+    "EPAY": "paid for child care",
+    "EPAYHELP": "received child-care payment assistance",
+    "EWORKMORE": "child care prevented working or working more",
+    "ETIMELOST": "time lost from work because of child-care problems",
 }
 GROUP_LABELS = {
     "ERACE": {"1": "White alone", "2": "Black alone", "3": "Asian alone", "4": "Residual"},
     "EDISABL": {"1": "work-limiting condition", "2": "no work-limiting condition"},
+    "ERP": {"1": "reference parent", "2": "not a reference parent"},
     "RHNUMU18": {"children_0": "no household members under 18",
                   "children_1plus": "one or more household members under 18"},
     "ETENURE": {"1": "owned or being bought", "2": "rented",
@@ -44,6 +49,9 @@ GROUP_FIELDS = {
     "ERACE": ("ERACE",),
     "ETENURE": ("ETENURE",),
     "TEHC_REGION": ("TEHC_REGION",),
+    "EDISABL": ("EDISABL",),
+    "ERP": ("ERP",),
+    "RHNUMU18": ("RHNUMU18",),
     "THINCPOV": ("THINCPOV",),
     "ETENURE_THINCPOV": ("ETENURE", "THINCPOV"),
     "ERACE_THINCPOV": ("ERACE", "THINCPOV"),
@@ -59,6 +67,10 @@ OFFICIAL_FLAG_FIELDS = {
     "RFOODS": "AFOODS",
     "RMNUMJOBS": "AMNUMJOBS",
     "RSNAP_MNYN": "ASNAP_MNYN",
+    "EPAY": "APAY",
+    "EPAYHELP": "APAYHELP",
+    "EWORKMORE": "AWORKMORE",
+    "ETIMELOST": "ATIMELOST",
 }
 OFFICIAL_GROUP_FLAGS = {"EDISABL": "ADISABL", "ERACE": "ARACE", "RHNUMU18": "AHNUMU18"}
 FOOD_SCREEN_FIELDS = ("EFOOD1", "EFOOD2", "EFOOD3")
@@ -115,6 +127,8 @@ def official_field_valid(field: str, values: dict[str, str]) -> bool:
                 return False
         except (TypeError, ValueError):
             return False
+    if field == "ETIMELOST" and values.get("EWORKMORE", "") != "1":
+        return False
     return True
 
 
@@ -222,6 +236,7 @@ def analyze(primary_path: Path, replicate_zip: Path, fields: list[str], group_by
                                        for flag in OFFICIAL_GROUP_FLAGS.values()})
                 primary_values.update({field: prow.get(field, "") for field in FOOD_SCREEN_FIELDS})
                 primary_values.update({flag: prow.get(flag, "") for flag in ("AFOOD1", "AFOOD2", "AFOOD3")})
+                primary_values["EWORKMORE"] = prow.get("EWORKMORE", "")
                 primary_values["THHLDSTATUS"] = prow.get("THHLDSTATUS", "")
                 primary_values["TAGE_EHC"] = prow.get("TAGE_EHC", "")
                 primary_values["AHINCPOV"] = prow.get("AHINCPOV", "")

@@ -1,10 +1,11 @@
 # Source search: AI, work, and control
 
 **Search date:** 2026-09-11  
+**Geography:** United States with international comparison cases
 **Project:** AI, work, and control  
 **Status:** first pass; not exhaustive
 
-## Question used
+## Working question
 
 When firms adopt AI, does the main change come from better tools, tighter measurement, new supervision, or a shift in who owns the work process?
 
@@ -46,6 +47,32 @@ Initial records:
 | NBER-W33348 | [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348) | randomized experiment; working paper | Whether surveillance and its explanation change performance. |
 | NBER-W33795 | [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795) | field experiment; working paper | Individual access, time use, and task composition across firms. |
 
+### BLS JOLTS
+
+The [BLS Job Openings and Labor Turnover Survey](https://www.bls.gov/jlt/)
+and [field definitions](https://www.bls.gov/help/def/jt.htm) provide the
+establishment-based context for openings, hires, quits, layoffs, and total
+separations. The project now preserves a 2020–2025 seasonally adjusted API
+extract and annual derivation in the [JOLTS mobility layer](bls-jolts-national-mobility-layer-v1.md).
+This is a labor-market context source; it does not measure worker control,
+job quality, or household outcomes.
+
+### ILOSTAT international comparison route
+
+The [ILOSTAT data catalog](https://ilostat.ilo.org/data/), [bulk-download
+documentation](https://ilostat.ilo.org/data/bulk/), and [Rilostat workflow
+documentation](https://ilostat.github.io/Rilostat/reference/get_ilostat.html)
+were checked as the international comparison route for labor-force
+participation, unemployment, earnings, working poverty, and youth exclusion.
+The catalog and documented indicator families are in scope, but the current
+API metadata and indicator delivery paths returned zero-byte payloads. No
+ILOSTAT estimate is included in the atlas. The [route access
+audit](ilostat-access-audit-2026-09-15.md) and [2026-09-15 recheck
+record](data/ilostat-route-recheck-2026-09-15.json) preserve the exact URLs,
+status codes, content type, byte count, and body hash. A numerical comparison
+must wait for a delivered payload with indicator definition, reference area,
+frequency, source basis, revision status, and a matched US concept.
+
 ## What remains to search
 
 - Read the full papers, appendices, data notes, and later published versions.
@@ -74,6 +101,7 @@ The next layer is not simply “AI increases monitoring.” The first relevant s
 | ID | Source | Type | Why it is in scope |
 |---|---|---|---|
 | OECD-AM-2025 | [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | employer survey and working paper | More than 6,000 firms in six countries; use, effects, and governance concerns. |
+| OECD-WORKER-CONSULTATION-2025 | [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html) | worker-consultation laboratory experiment | Three German manufacturing firms and 16 participants; feature-level negotiation, autonomy disagreement, and expected—not realized—outcomes. |
 | ILO-AM-2024 | [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics) | comparative case study | Logistics and health care in France, Italy, India, and South Africa; job quality and surveillance. |
 | CAPGEMINI-AR-2025 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | annual report and registration document | AI training, employee data platform, role changes, workforce monitoring, and restructuring. |
 | JRC-AIMWORK-2025 | [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en) | EU worker survey and methodology | Worker-side evidence across all 27 EU Member States. |
@@ -101,6 +129,33 @@ The two NBER studies add a non-European and inclusion-focused test. In Indian ga
 
 The regional pass adds gender and infrastructure. NBER evidence from India and Indonesia finds that women value platform flexibility and supplemental earnings, but participation is very low and shaped by safety, household constraints, harassment, discrimination, and unequal hourly returns. The World Bank/ILO regional analysis finds that Latin American AI exposure does not automatically produce benefits where digital infrastructure is missing.
 
+## Cross-source synthesis update — 2026-09-13
+
+The current NBER results should be read as different measurement layers rather
+than as contradictory estimates of one “AI effect”:
+
+| Source | Unit and design | Direct result | What it contributes to the theme |
+|---|---|---|---|
+| [Generative AI at Work](https://www.nber.org/papers/w31161) | 5,179 customer-support agents; staggered access to an AI assistant | Average productivity rose 14%, with a 34% improvement for novice and low-skilled workers and little effect for experienced/high-skilled workers | Tool access can change task performance unevenly by worker experience |
+| [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795) | Field experiment across 66 firms and 7,137 knowledge workers | Among treated users, work outside regular hours and email time fell; individual provision did not shift task quantity or composition | Time savings do not automatically imply job redesign or broader organizational change |
+| [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677) | Nationally representative worker survey linked to occupations and tasks | Adoption is widespread but shallow, with fewer than half of workers adopting within most occupations/tasks | Occupation-level exposure does not identify which similar workers adopt |
+| [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966) | Repeated nationally representative US surveys | By late 2024, 23% of employed respondents had used generative AI at work in the prior week and 9% used it every workday | Aggregate adoption can be substantial while intensity and worker-level participation remain uneven |
+
+### Bounded interpretation
+
+Together these sources support a provisional theme: generative AI is entering
+work quickly, but its consequences are conditional on worker experience, task,
+organizational setting, and depth of use. The evidence is consistent with work
+being reorganized unevenly before a common change in pay, hours, or employment
+appears.
+
+The sources do not establish that AI has broadly shifted bargaining power,
+promotion, health, job quality, household security, or political meaning. The
+experiments and survey measure different populations, interventions, outcomes,
+and time windows. The next evidence must connect adoption to workplace rules,
+training, monitoring, discretion, correction, worker voice, and later material
+and social outcomes.
+
 The ILO social-dialogue study adds a governance path before harm occurs. It examines national, regional, sectoral, company, and workplace cases in five world regions and documents how worker representatives influence decisions about employment, algorithmic management, and working conditions. It is case evidence, not a measure of how common effective participation is.
 
 ## Macro, infrastructure, and country-capability pass
@@ -126,6 +181,7 @@ Included records:
 | OFR-AR-2025 | [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf) | official institutional report | Records AI use in a financial regulator alongside public analytical infrastructure, budget, and workforce changes. |
 | WORLD-BANK-WDR2026-AI | [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026) | global development report | Provides adopt/adapt/advance and political, economic, social, and institutional AI frames. |
 | WORLD-BANK-AI-READINESS-2026 | [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai) | development-finance results brief | Names the four Cs and gives Romania and Malaysia project records. |
+| WORLD-BANK-WBES-AI-FOLLOWUP-2026 | [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates) and [WDR 2026 reproducibility catalog](https://reproducibility.worldbank.org/catalog/624) | firm survey release and data-access record | Identifies the 2026 AI follow-up files for the United States and eight comparison economies; intended to measure firm AI impact and adjustment, but microdata access and survey-design documentation must be completed before estimates are promoted. |
 | ROMANIA-MAS-IC | [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud) | government project record | Supplies a primary target, date, budget, beneficiaries, and public-cloud migration scope. |
 | IFC-YONDR-MY-49145 | [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023) | development-finance project disclosure | Records the borrower, 96 MW first phase, up-to-US$150m loan, and project structure. |
 | MALAYSIA-YONDR-VANTAGE-TRANSFER | [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers) and [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/) | operator ownership records | Tracks the campus transfer and the investment structure around the APAC platform. |

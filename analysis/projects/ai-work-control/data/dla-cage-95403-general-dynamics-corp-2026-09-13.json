@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:09:05.056545+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=95403",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=1518144",
+  "cage_query": "95403",
+  "response_sha256": "20bbe43c3c56a1c0beca9a91fcfcc0eb20b38a75b37f321e1fc309a269ebc642",
+  "record": {
+    "legal_business_name": "GENERAL DYNAMICS CORP",
+    "address": "11011 SUNSET HILLS RD RESTON, VA 20190 5311 UNITED STATES OF AMERICA",
+    "cage": "95403",
+    "uei": "VF58HFRNGEL8",
+    "status": "Active",
+    "cage_update_date": "07/18/2026",
+    "cage_expiration": "01/07/2031",
+    "parent_cage": null,
+    "parent_company_name": null
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

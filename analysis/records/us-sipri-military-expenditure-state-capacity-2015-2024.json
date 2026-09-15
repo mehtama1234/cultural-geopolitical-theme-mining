@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipri-military-expenditure-state-capacity-2015-2024",
+  "title": "Military-resource allocation and alliance concentration increased alongside geopolitical tension",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "SIPRI national and alliance military-expenditure estimates",
+  "geography": "World, United States, China, and NATO alliance",
+  "observations": [
+    {
+      "period": "2015–2024; world military expenditure",
+      "denominator": {"value": 2718, "unit": "US dollars billions in 2024 prices"},
+      "measures": {
+        "world_expenditure_2024": {"value": 2718, "unit": "US dollars billions, constant 2024 prices", "value_type": "estimate"},
+        "world_change_2015_2024": {"value": 37, "unit": "percent real change", "value_type": "change"},
+        "world_change_2023_2024": {"value": 9.4, "unit": "percent real change", "value_type": "change"},
+        "world_military_burden_2024": {"value": 2.5, "unit": "percent of world GDP", "value_type": "share"},
+        "world_spending_per_person_2024": {"value": 334, "unit": "US dollars per person", "value_type": "estimate"}
+      },
+      "method": "SIPRI Military Expenditure Database estimates and 2024 fact-sheet comparison in constant 2024 US dollars.",
+      "uncertainty": "Military expenditure estimates depend on national reporting, exchange-rate and deflator choices, budget classification, and revisions; aggregate spending is not military capability or outcome.",
+      "subgroup": "World aggregate across reporting states and regions.",
+      "counterinterpretation": "Higher spending can reflect inflation, conflict response, modernization, or accounting changes without increasing effective capability, public safety, or bargaining room.",
+      "source_url": "https://www.sipri.org/publications/2025/sipri-fact-sheets/trends-world-military-expenditure-2024",
+      "retrieval_hash": "sha256:10dd2775aaef999b5f23f14b449698784c16ac5c118fbcfb1db9fc762e4d3266",
+      "status": "reported"
+    },
+    {
+      "period": "2015–2024; United States military expenditure",
+      "denominator": {"value": 997, "unit": "US dollars billions in 2024 prices"},
+      "measures": {
+        "us_expenditure_2024": {"value": 997, "unit": "US dollars billions, constant 2024 prices", "value_type": "estimate"},
+        "us_change_2023_2024": {"value": 5.7, "unit": "percent real change", "value_type": "change"},
+        "us_change_2015_2024": {"value": 19, "unit": "percent real change", "value_type": "change"},
+        "us_to_china_ratio_2024": {"value": 3.2, "unit": "times China's expenditure", "value_type": "ratio"}
+      },
+      "method": "SIPRI estimate of US military expenditure and comparison with China for 2024.",
+      "uncertainty": "SIPRI notes that US statistics are reported on a financial-year basis; expenditure does not measure readiness, industrial output, deterrence, or domestic incidence.",
+      "subgroup": "United States compared with China as the next-largest spender.",
+      "counterinterpretation": "Resource scale may coexist with supply bottlenecks, procurement delays, alliance constraints, or political limits; a spending ratio is not a leverage ratio.",
+      "source_url": "https://www.sipri.org/databases/milex",
+      "retrieval_hash": "sha256:10dd2775aaef999b5f23f14b449698784c16ac5c118fbcfb1db9fc762e4d3266",
+      "status": "compared"
+    },
+    {
+      "period": "2024; NATO alliance military expenditure",
+      "denominator": {"value": 2718, "unit": "US dollars billions world expenditure"},
+      "measures": {
+        "nato_expenditure_2024": {"value": 1506, "unit": "US dollars billions", "value_type": "estimate"},
+        "nato_share_world": {"value": 55, "unit": "percent of world military expenditure", "value_type": "share"},
+        "us_share_nato": {"value": 66, "unit": "percent of NATO military expenditure", "value_type": "share"},
+        "nato_members_at_two_percent_gdp": {"value": 18, "unit": "NATO members", "value_type": "count"}
+      },
+      "method": "SIPRI 2024 alliance aggregate and NATO member threshold comparison.",
+      "uncertainty": "Alliance expenditure concentration is not burden-sharing quality, interoperability, political cohesion, or proof that another actor changed behavior.",
+      "subgroup": "NATO alliance and member-state spending threshold.",
+      "counterinterpretation": "A high US share can supply capability while also creating alliance dependence or domestic contestation; European spending growth can reflect threat response without proving alliance convergence.",
+      "source_url": "https://www.sipri.org/media/press-release/2025/unprecedented-rise-global-military-expenditure-european-and-middle-east-spending-surges",
+      "retrieval_hash": "sha256:10dd2775aaef999b5f23f14b449698784c16ac5c118fbcfb1db9fc762e4d3266",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This record measures aggregate military-resource allocation and alliance concentration. It does not establish capability, readiness, procurement realization, household or worker incidence, legitimacy, deterrence, state leverage, alliance cohesion, or an external actor's changed behavior. The retrieval hash will cover the committed analysis memo."
+}

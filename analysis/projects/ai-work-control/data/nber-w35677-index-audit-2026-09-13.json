@@ -1,0 +1,233 @@
+{
+  "source": "https://sites.google.com/view/covid-rps/data",
+  "paper": "https://www.nber.org/papers/w35677",
+  "checked": "2026-09-13",
+  "survey_waves": [
+    "August 2025",
+    "November 2025",
+    "February 2026",
+    "May 2026"
+  ],
+  "levels": [
+    {
+      "level": "DWA",
+      "gid": "416182935",
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=416182935",
+      "retrieval_sha256": "897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf",
+      "row_count": 1655,
+      "rated_row_count": 682,
+      "minimum_unweighted_observations_checked": 20,
+      "top_five": [
+        {
+          "id": "4.A.1.a.1.I02.D07",
+          "name": "Read documents to gather technical information.",
+          "rate_percent": 61.3,
+          "number_observations": 30
+        },
+        {
+          "id": "4.A.3.b.6.I03.D03",
+          "name": "Prepare research reports.",
+          "rate_percent": 60.7,
+          "number_observations": 69
+        },
+        {
+          "id": "4.A.2.b.2.I02.D05",
+          "name": "Design integrated computer systems.",
+          "rate_percent": 59.5,
+          "number_observations": 51
+        },
+        {
+          "id": "4.A.2.a.4.I04.D02",
+          "name": "Analyze data to identify trends or relationships among variables.",
+          "rate_percent": 57.5,
+          "number_observations": 22
+        },
+        {
+          "id": "4.A.2.b.3.I01.D07",
+          "name": "Update knowledge about emerging industry or technology trends.",
+          "rate_percent": 57.1,
+          "number_observations": 22
+        }
+      ],
+      "bottom_five": [
+        {
+          "id": "4.A.4.b.4.I12.D29",
+          "name": "Arrange delivery of goods or services.",
+          "rate_percent": 0.0,
+          "number_observations": 23
+        },
+        {
+          "id": "4.A.4.a.5.I11.D01",
+          "name": "Assist practitioners to perform medical procedures.",
+          "rate_percent": 0.0,
+          "number_observations": 37
+        },
+        {
+          "id": "4.A.3.a.2.I38.D01",
+          "name": "Collect biological specimens from patients.",
+          "rate_percent": 0.0,
+          "number_observations": 34
+        },
+        {
+          "id": "4.A.3.a.4.I01.D12",
+          "name": "Drive trucks or other vehicles to or at work sites.",
+          "rate_percent": 0.0,
+          "number_observations": 32
+        },
+        {
+          "id": "4.A.1.b.2.I07.D08",
+          "name": "Inspect electrical or electronic systems for defects.",
+          "rate_percent": 0.0,
+          "number_observations": 28
+        }
+      ]
+    },
+    {
+      "level": "IWA",
+      "gid": "1821519318",
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=1821519318",
+      "retrieval_sha256": "be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c",
+      "row_count": 322,
+      "rated_row_count": 256,
+      "minimum_unweighted_observations_checked": 20,
+      "top_five": [
+        {
+          "id": "4.A.2.b.2.I21",
+          "name": "Develop models of systems, processes, or products.",
+          "rate_percent": 55.5,
+          "number_observations": 41
+        },
+        {
+          "id": "4.A.2.b.2.I03",
+          "name": "Develop business or marketing plans.",
+          "rate_percent": 52.1,
+          "number_observations": 88
+        },
+        {
+          "id": "4.A.2.a.4.I12",
+          "name": "Analyze performance of systems or equipment.",
+          "rate_percent": 51.8,
+          "number_observations": 222
+        },
+        {
+          "id": "4.A.2.a.4.I08",
+          "name": "Research laws, precedents, or other legal data.",
+          "rate_percent": 50.1,
+          "number_observations": 31
+        },
+        {
+          "id": "4.A.2.a.1.I10",
+          "name": "Evaluate project feasibility.",
+          "rate_percent": 49.8,
+          "number_observations": 28
+        }
+      ],
+      "bottom_five": [
+        {
+          "id": "4.A.3.a.1.I09",
+          "name": "Clean medical equipment or facilities.",
+          "rate_percent": 0.4,
+          "number_observations": 104
+        },
+        {
+          "id": "4.A.3.a.1.I12",
+          "name": "Escort others.",
+          "rate_percent": 1.1,
+          "number_observations": 73
+        },
+        {
+          "id": "4.A.3.a.2.I14",
+          "name": "Cut trees or other vegetation.",
+          "rate_percent": 1.2,
+          "number_observations": 49
+        },
+        {
+          "id": "4.A.3.a.2.I35",
+          "name": "Join parts using soldering, welding, or brazing techniques.",
+          "rate_percent": 1.5,
+          "number_observations": 35
+        },
+        {
+          "id": "4.A.3.a.2.I38",
+          "name": "Collect environmental or biological samples.",
+          "rate_percent": 2.3,
+          "number_observations": 39
+        }
+      ]
+    },
+    {
+      "level": "BWA",
+      "gid": "646067329",
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=646067329",
+      "retrieval_sha256": "84660dd773d01ef72c17ac3667fb082704c6a396fc3b8115630127b42b0292e5",
+      "row_count": 9,
+      "rated_row_count": 9,
+      "minimum_unweighted_observations_checked": 20,
+      "top_five": [
+        {
+          "id": "4.A.2.b",
+          "name": "Reasoning and Decision Making",
+          "rate_percent": 30.0,
+          "number_observations": 7075
+        },
+        {
+          "id": "4.A.2.a",
+          "name": "Information and Data Processing",
+          "rate_percent": 27.0,
+          "number_observations": 6247
+        },
+        {
+          "id": "4.A.4.b",
+          "name": "Coordinating, Developing, Managing, and Advising",
+          "rate_percent": 24.2,
+          "number_observations": 10120
+        },
+        {
+          "id": "4.A.3.b",
+          "name": "Performing Complex and Technical Activities",
+          "rate_percent": 24.0,
+          "number_observations": 7458
+        },
+        {
+          "id": "4.A.1.a",
+          "name": "Looking for and Receiving Job-Related Information",
+          "rate_percent": 18.3,
+          "number_observations": 5802
+        }
+      ],
+      "bottom_five": [
+        {
+          "id": "4.A.3.a",
+          "name": "Performing Physical and Manual Work Activities",
+          "rate_percent": 9.6,
+          "number_observations": 8351
+        },
+        {
+          "id": "4.A.4.c",
+          "name": "Administering",
+          "rate_percent": 14.8,
+          "number_observations": 3460
+        },
+        {
+          "id": "4.A.1.b",
+          "name": "Identifying and Evaluating Job-Relevant Information",
+          "rate_percent": 15.0,
+          "number_observations": 2759
+        },
+        {
+          "id": "4.A.4.a",
+          "name": "Communicating and Interacting",
+          "rate_percent": 17.7,
+          "number_observations": 11107
+        },
+        {
+          "id": "4.A.1.a",
+          "name": "Looking for and Receiving Job-Related Information",
+          "rate_percent": 18.3,
+          "number_observations": 5802
+        }
+      ]
+    }
+  ],
+  "boundary": "Public survey-weighted activity indexes only; no worker-level microdata, subgroup estimates, causal workplace outcomes, or verified O*NET release metadata are included."
+}

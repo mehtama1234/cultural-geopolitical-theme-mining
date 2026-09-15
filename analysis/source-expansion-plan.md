@@ -9,6 +9,7 @@ The two starting sources answer different questions. HBS Working Knowledge expla
 - [Brookings](https://www.brookings.edu/topics/) for policy research across work, technology, public opinion, cities, and global affairs.
 - [Chatham House](https://www.chathamhouse.org/topics) for international security, trade, resources, institutions, society, and technology.
 - [Carnegie Endowment](https://carnegieendowment.org/research/) for regional and country analysis.
+- [Chicago Council on Global Affairs](https://globalaffairs.org/) for US and comparative public-opinion and geopolitical context, especially migration, foreign policy, and international engagement.
 
 These sources help form questions and competing explanations. They should not be treated as final proof.
 
@@ -19,6 +20,8 @@ These sources help form questions and competing explanations. They should not be
 
 These sources help us see how a market or policy change is felt by people. Survey answers are not the same as observed behavior, so we record question wording, sample, field dates, and weighting.
 
+The [WageIndicator worker-rights and collective-agreement archive](https://wageindicator.org/) adds a comparative institutional-text lane for written worker protections, AI governance rules, and collective bargaining designs. Archived rules are evidence of a documented arrangement, not proof of implementation, coverage, enforcement, or worker outcomes.
+
 ### The material base
 
 - [World Bank Open Data](https://data.worldbank.org/) for country and development indicators.
@@ -28,6 +31,8 @@ These sources help us see how a market or policy change is felt by people. Surve
 - [FRED](https://fred.stlouisfed.org/) for US economic series, releases, and revisions.
 
 These sources ground a cultural or geopolitical story in money, work, prices, population, and state capacity.
+
+For consumer-power route work, retain the [CFPB Consumer Complaint Database API documentation](https://cfpb.github.io/api/ccdb/api.html) as a separate delivery source. The API contract makes endpoint, field, filter, pagination, and vintage changes auditable; it does not turn published complaints into prevalence, verified remedy, or consumer exit evidence.
 
 ### Security and hard power
 
@@ -43,8 +48,17 @@ Use this layer when an economic dependency may become a security lever. Check de
 - [IEA reports](https://www.iea.org/analysis?type=report) for energy supply, demand, transition, technology, and security scenarios.
 - [Office of Financial Research](https://www.financialresearch.gov/) for financial-system structure and systemic-risk data.
 - [World Bank Research](https://www.worldbank.org/en/research) for development research that links markets, institutions, poverty, climate, and country change.
+- [European Commission JRC Publications Repository](https://publications.jrc.ec.europa.eu/repository/) for the primary publication and technical-report versions behind JRC comparative work.
 
 These sources help expose the systems beneath visible events: how money moves, how energy limits choices, how financial risk travels, and how a statistic is made. Treat forecasts and scenarios as conditional views, not facts.
+
+### Longitudinal acquisition gates
+
+- [PSID packaged-data delivery route](https://simba.isr.umich.edu/Zips/ZipMain.aspx) for the 2019, 2021, 2023, and cross-year files needed to follow material conditions, time/care allocation, health, work, and recovery within the same families. The route is account-controlled; its file listing and access status are recorded separately from any estimate.
+
+The acquisition route is part of the source stack but is not itself evidence.
+When access is granted, preserve the package names, wave coverage, weights,
+keys, codebook, missingness, and checksums before joining it to the atlas.
 
 ## Suggested review rule
 

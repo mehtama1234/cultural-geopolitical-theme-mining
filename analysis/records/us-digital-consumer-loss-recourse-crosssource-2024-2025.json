@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-digital-consumer-loss-recourse-crosssource-2024-2025",
+  "title": "Digital consumer exposure can become a recovery and recourse problem without a common harm rate",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "household_room_consumption", "trust_identity_meaning", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "Bounded cross-source comparison of FTC administrative reports, Federal Reserve and SHED household surveys, and CFPB published complaint-response records; sources are not pooled",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023-2024; FTC Consumer Sentinel annual reports",
+      "denominator": {"value": 6471708, "unit": "2024 total Sentinel reports; fraud and loss measures use their reported sub-universes", "value_type": "administrative_report_count"},
+      "measures": {"total_reports_2024": {"value": 6471708, "unit": "reports", "value_type": "count"}, "fraud_reports_2024": {"value": 2600678, "unit": "reports", "value_type": "count"}, "fraud_reports_indicating_loss_2024": {"value": 38, "unit": "percent of fraud reports", "value_type": "share"}, "median_fraud_loss_2024": {"value": 497, "unit": "US dollars among reports with loss", "value_type": "median"}},
+      "method": "FTC Consumer Sentinel administrative-report comparison across annual reports; reports are consumer or agency submissions, not a probability sample of incidents.",
+      "uncertainty": "Reported volume and loss are affected by reporting, classification, duplicate screening, and awareness. They do not estimate all fraud, platform causation, account-denominated incidence, or successful recovery.",
+      "subgroup": "Reports with usable age information show different reporting-loss shares and median losses by age.",
+      "counterinterpretation": "Stable or changing report volume can reflect reporting behavior and system visibility rather than underlying victimization; higher reported loss can reflect improved reporting of high-dollar cases.",
+      "source_url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2025/03/consumer-sentinel-network-data-book-2024",
+      "retrieval_hash": "sha256:d0c743e0b7a9eeb8dc048bb25a78a389da7c1722e0b0f016f667ac2641dc12e1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; FTC annual fraud report frame",
+      "denominator": {"value": 3000000, "unit": "approximately reported consumer fraud reports", "value_type": "administrative_report_count"},
+      "measures": {"reported_fraud_losses": {"value": 15900000000, "unit": "US dollars reported lost, approximate", "value_type": "reported_amount"}, "investment_scam_reported_losses": {"value": 7900000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"}, "imposter_reported_losses": {"value": 3500000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"}},
+      "method": "FTC 2025 Consumer Sentinel annual report frame; category totals are reported administrative losses.",
+      "uncertainty": "Reported losses are not population incidence, verified account losses, or proof that digital platforms caused the contact. Category totals and approximate counts use different reporting frames.",
+      "subgroup": "Investment-scam and imposter-scam report categories.",
+      "counterinterpretation": "A larger reported loss total may reflect more reporting, more high-value scams, or improved classification rather than a uniform increase in individual exposure.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/02/consumer-fraud-losses-top-15-billion-2025-ftc-data-show",
+      "retrieval_hash": "sha256:0b91baf3b36465eee60e05865b09d3ea1a9bc4653b1059013414b30cded7931b",
+      "status": "reported"
+    },
+    {
+      "period": "2024; Federal Reserve SHED household fraud and recovery estimates",
+      "denominator": {"value": 1, "unit": "weighted adult-population estimate; publication percentages use item-specific adult or fraud-experiencer universes", "value_type": "survey_population"},
+      "measures": {"any_financial_fraud": {"value": 21, "unit": "percent of adults", "value_type": "share"}, "estimated_net_consumer_loss": {"value": 63000000000, "unit": "US dollars estimated borne directly by consumers", "value_type": "estimated_amount"}, "estimated_recovered": {"value": 21000000000, "unit": "US dollars reported recovered", "value_type": "reported_amount"}, "non_credit_card_fraud_some_money_not_recovered": {"value": 32, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "share"}, "spent_ten_or_more_hours_recovering_or_dealing": {"value": 30, "unit": "percent of adults experiencing non-credit-card fraud, approximate", "value_type": "share"}},
+      "method": "Federal Reserve Survey of Household Economics and Decisionmaking descriptive estimates of self-reported fraud exposure, loss, recovery, and time cost.",
+      "uncertainty": "The estimates depend on self-report, recall, weighting, and question universes. They do not identify the originating platform, firm responsibility, verified remedy, or later trust and switching.",
+      "subgroup": "Adults, fraud experiencers, and age groups; credit-card and non-credit-card fraud are distinct surfaces.",
+      "counterinterpretation": "Recovery effort can be costly while a household remains financially stable; unrecovered money does not alone identify institutional blame or durable hardship.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-dealing-with-financial-fraud.htm",
+      "retrieval_hash": "sha256:53ce351c43d51ca02229b56c3c0574bdc561180fb22b8a08d8307a80d4c7847e",
+      "status": "reported"
+    },
+    {
+      "period": "2024; SHED fraud-recovery subgroup screen",
+      "denominator": {"value": 12295, "unit": "SHED public-use adult respondent rows; conditional outcomes use non-credit-card fraud reporters", "value_type": "observed_rows"},
+      "measures": {"other_fraud_unrecovered_income_10000_24999": {"value": 53.778, "unit": "percent of other-fraud reporters in income group", "value_type": "weighted_conditional_share"}, "other_fraud_unrecovered_income_100000_149999": {"value": 22.566, "unit": "percent of other-fraud reporters in income group", "value_type": "weighted_conditional_share"}, "account_fraud_p2p_unrecovered": {"value": 46.133, "unit": "percent of account-involved other-fraud cases marked P2P with some or all money unrecovered", "value_type": "weighted_conditional_share"}},
+      "method": "Reproducible SHED public-use subgroup analysis with weighted conditional shares; payment-route and income cells retain distinct universes.",
+      "uncertainty": "These are descriptive conditional estimates, not causal income or payment-route effects. Small cells, self-report, fraud classification, and missingness limit interpretation.",
+      "subgroup": "Income bands and peer-to-peer versus non-peer-to-peer account-fraud routes.",
+      "counterinterpretation": "Income gradients may reflect differences in exposure, reporting, loss size, account use, recovery resources, or case composition rather than unequal institutional treatment.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:b455d02356a0c01a02d7f478c02d772515491564e905ce13db55f272f83567c1",
+      "status": "compared"
+    },
+    {
+      "period": "2020-2025; CFPB published complaint-response endpoint",
+      "denominator": {"value": 5452107, "unit": "2025 published complaint records; each annual measure uses its own published-record denominator", "value_type": "published_record_count"},
+      "measures": {"explanation_2025": {"value": 58.706, "unit": "percent of 2025 published records", "value_type": "share"}, "monetary_relief_2025": {"value": 0.48, "unit": "percent of 2025 published records", "value_type": "share"}, "non_monetary_relief_2025": {"value": 40.6325, "unit": "percent of 2025 published records", "value_type": "share"}, "narrative_present_2025": {"value": 22.4255, "unit": "percent of 2025 published records", "value_type": "share"}},
+      "method": "CFPB published complaint records grouped by calendar year received and coded response fields; the dataset is a visible institutional endpoint, not a representative consumer panel.",
+      "uncertainty": "Publication rules, product mix, routing, screening, duplicates, missing fields, and firm-response coding change over time. Explanation or relief labels are not verified consumer outcomes.",
+      "subgroup": "All published complaints in the annual comparison; product-conditioned records in the underlying source remain separate.",
+      "counterinterpretation": "A low monetary-relief label can coexist with non-monetary resolution or a complaint that sought explanation rather than compensation; a published complaint need not represent unresolved harm.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:786208fcb8c3149a68fa35f7984cab994afb9019e16b59775d729d414bcd710f",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/", "claim": "CFPB publishes complaint records and response fields used as an institutional-visibility endpoint.", "status": "primary-comparison"},
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-issues-orders-seven-companies-seeking-information-ai-companion-chatbots", "claim": "FTC AI-companion inquiry supplies a separate product-scrutiny route for data, monetization, safety, age limits, and disclosures.", "status": "institutional-context"}
+  ],
+  "boundary": "This is a deliberately non-pooled digital-consumer and recourse triangulation. It connects reported exposure, household loss and recovery, subgroup burden, and complaint-system visibility as separate stages, but does not establish platform causation, a common fraud rate, verified remedy, consumer welfare, firm liability, trust change, switching, or exit. The end-to-end test still requires a dated customer or household episode linked to originating contact, loss, recovery effort, complaint, remedy, repeat effort, and later behavior."
+}

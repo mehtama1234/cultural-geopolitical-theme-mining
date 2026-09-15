@@ -9,6 +9,17 @@ The machine-readable design is [the broad event-ledger schema](../../manifests/u
 Its [simulated fixture](../samples/US-BROAD-EVENT-LEDGER-SIMULATED_V1.json)
 is only a validation aid, never research evidence.
 
+Validate the fixture or a de-identified research ledger with:
+
+```bash
+python3 scripts/validate_us_broad_event_ledger.py path/to/ledger.json
+```
+
+The validator checks required fields, controlled values, ISO event dates,
+duplicate IDs, evidence-status separation, explicit denominators and
+uncertainty metadata, arrow booleans, and the simulated-data boundary. It is a
+structural control, not a causal or privacy review.
+
 ## Design rule
 
 Use one row or record per dated event, decision, case, or project milestone.
@@ -33,6 +44,8 @@ infrastructure investment.
 | Person or actor with control | Who could change the rule, price, schedule, decision, remedy, ownership, or exit terms |
 | Remedy or institutional response | Repair, refund, approval, denial, benefit, enforcement, redesign, outage response, regulation, or no response |
 | Immediate outcome | What changed for the person, household, worker, customer, firm, place, institution, or state |
+| Protected outcome | What the unit kept, avoided, or preserved despite the event; record unknown when not measured |
+| Sacrificed outcome | What the unit lost, delayed, transferred, or put at risk; do not infer it from the burden alone |
 | Cost/risk transfer | Who paid, waited, lost access, supplied unpaid labor, accepted risk, or gained control |
 | Later outcome | Security, health, work, debt, food, housing, service, quality, trust, identity, market, capacity, or political result at defined follow-up |
 | Meaning and attribution | What the affected unit says happened, who is blamed/credited, fairness, dignity, belonging, or legitimacy |

@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-ai-economic-accounts-utilization-costs-2026",
+  "title": "BEA's early AI estimates separate measurement limits, realized use, output, and industry cost shifts",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "household_room_consumption", "unequal_exposure_status", "infrastructure_technology_dependency", "trust_identity_meaning"],
+  "source_unit": "BEA-BLS-Census-Gallup industry accounts, state-industry cells, and industry-year production-account observations",
+  "geography": "United States; industries and state-by-industry cells",
+  "observations": [
+    {
+      "period": "2026; BEA early estimates within industry economic accounts",
+      "denominator": {"value": 1, "unit": "BEA industry-account modeling exercise", "value_type": "study_artifact"},
+      "measures": {"baseline_pattern": {"value": "productivity enhancing and input saving; associated with shift toward younger, relatively less educated workers", "unit": "modeled industry-account result", "value_type": "estimated_pattern"}, "alternative_timing": {"value": "less robust and also suggests labor saving", "unit": "alternative specification", "value_type": "estimated_pattern"}, "direct_ai_line_item": {"value": "not currently available in US national accounts", "unit": "measurement boundary", "value_type": "official_boundary"}},
+      "method": "Indirect estimation through BEA industry accounts using Census-based AI measures; baseline and alternative timing/pervasiveness specifications are compared.",
+      "uncertainty": "BEA labels the results early estimates and emphasizes measurement challenges; timing assumptions, indirect measurement, input substitution, worker composition, and unmeasured AI costs limit causal interpretation.",
+      "subgroup": "US industries and worker-composition categories, including younger/older and relatively less/more educated workers.",
+      "counterinterpretation": "The alternative specification is less robust and industry-account associations may reflect timing, composition, or other input changes rather than AI itself.",
+      "source_url": "https://www.bea.gov/index.php/research/papers/2026/early-estimates-impact-ai-within-beas-industry-economic-accounts",
+      "retrieval_hash": "sha256:974d175d1d4595d43360758de8099faf2603b452fab1f9309b21432a72e9635e",
+      "status": "estimated"
+    },
+    {
+      "period": "2016-2024 outcomes linked to Q2 2025-Q1 2026 AI utilization; BEA WP2026-18",
+      "denominator": {"value": 75292, "unit": "Gallup Workforce Panel worker observations used to construct state-industry utilization; 52,729 in Q2-Q4 2025 and 22,563 in Q1 2026", "value_type": "worker_observations"},
+      "measures": {"employment_semielasticity": {"value": "0.4-0.6", "unit": "percent employment difference per 1 percentage-point higher frequent-user share", "value_type": "descriptive_association"}, "real_output_semielasticity": {"value": "0.1-0.2", "unit": "percent real-output difference per 1 percentage-point higher frequent-user share", "value_type": "descriptive_association"}, "implied_output_change_12_to_24_percent_users": {"value": "1.2-2.5", "unit": "percent real output, back-of-envelope implication", "value_type": "derived_implication"}},
+      "method": "State-by-industry worker-reported frequent AI use from Gallup linked to LEHD employment/earnings and BEA real output; state×industry and industry×year fixed effects; industry-only BTOS specification is compared.",
+      "uncertainty": "The paper states estimates are descriptive rather than causal. AI utilization is measured after much of the outcome window, employment is noisy, state-industry cells vary in precision, and the industry-only BTOS specification does not reproduce the output pattern.",
+      "subgroup": "US states, two-digit industries, worker-reported frequent AI users, and employer-reported industry AI use; outcomes include employment, earnings, and real output.",
+      "counterinterpretation": "Reverse causality, managerial quality, complementary intangible capital, local demand, measurement differences, and cell composition can produce positive associations without an AI effect.",
+      "source_url": "https://www.bea.gov/sites/default/files/papers/bea-wp2026-18.pdf",
+      "retrieval_hash": "sha256:2d20b4d0ef63bb6c4cf3aa11048e28816689543a23992743e80b836866395c9e",
+      "status": "compared"
+    },
+    {
+      "period": "1997-2023 industry accounts; 2022-2023 post period; BEA WP2026-8",
+      "denominator": {"value": 1586, "unit": "industry-year observations across 61 private industries", "value_type": "industry_year_observations"},
+      "measures": {"gross_output_interaction": {"value": -0.0228, "unit": "estimated interaction contribution", "value_type": "estimated_contribution"}, "labor_price_contribution": {"value": -0.0113, "unit": "estimated contribution", "value_type": "estimated_contribution"}, "noncollege_labor_contribution": {"value": -0.0071, "unit": "estimated contribution", "value_type": "estimated_contribution"}, "materials_contribution": {"value": -0.0019, "unit": "estimated contribution", "value_type": "estimated_contribution"}, "labor_share_change": {"value": -0.011, "unit": "estimated contribution", "value_type": "estimated_contribution"}, "capital_share_change": {"value": 0.0084, "unit": "estimated contribution", "value_type": "estimated_contribution"}},
+      "method": "Imputation-based difference-in-differences using BEA-BLS integrated industry-level production accounts; AI-intensity quartiles based on Census measures at 19-sector level, with industry/year effects and standard errors clustered by sector.",
+      "uncertainty": "BEA presents early exploratory evidence, not a causal estimate. Industry intensity, imputation, equal weighting, clustered inference, price/cost decomposition, and unmeasured AI costs limit interpretation; an alternative 2018 intensity definition is not identical.",
+      "subgroup": "AI-intensive versus other private industries; college/noncollege labor, capital, materials, energy, and services input categories.",
+      "counterinterpretation": "Lower output-price growth may reflect pre-existing industry differences, input prices, demand, composition, or unmeasured costs and does not establish that households received lower prices.",
+      "source_url": "https://www.bea.gov/system/files/papers/BEA-WP2026-8.pdf",
+      "retrieval_hash": "sha256:0d8df95b1e8f09351389941b60481f7f945be7d45c6c12cef62aaecc94dcf4b3",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bea.gov/digital-economy", "claim": "BEA identifies AI utilization, production accounts, capital/data assets, prices, productivity, and digital trade as developing measurement domains.", "status": "official-measurement"},
+    {"source_url": "https://doi.org/10.66137/HMXC8574", "claim": "BEA provides the formal citation for WP2026-18 AI Utilization and Economic Performance.", "status": "official-publication"},
+    {"source_url": "https://www.bea.gov/resources/learning-center", "claim": "Registered BEA methods and definitions landing page for national-account interpretation.", "status": "source-registry-context"}
+  ],
+  "boundary": "This record separates three BEA evidence roles: indirect early industry-account estimates, descriptive state-industry utilization associations, and imputation-based industry cost/price estimates. It does not establish a general causal AI productivity effect, household price pass-through, worker control, employment change, or political consequence. The records must not be pooled across units or interpreted as one BEA estimate."
+}

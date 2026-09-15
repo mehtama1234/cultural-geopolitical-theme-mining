@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-fed-partisan-trust-2024",
+  "title": "Perceived Federal Reserve alignment shapes trust, expectations, and information processing",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "US consumer survey respondent in randomized information-demand and expectation experiment",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 21–May 2, 2024 survey",
+      "denominator": {"value": 5205, "unit": "politically representative US consumers recruited through Prolific", "value_type": "reported_sample"},
+      "measures": {"fed_out_group": {"value": 63, "unit": "percent of respondents classified as viewing the Federal Reserve as an out-group", "value_type": "share"}, "fed_in_group": {"value": 37, "unit": "percent of respondents classified as viewing the Federal Reserve as an in-group", "value_type": "share"}, "party_perception": {"value": "66% of Democrat-leaning respondents saw the Fed as favoring Republicans; 60% of Republican-leaning respondents saw it as favoring Democrats", "unit": "reported partisan perception", "value_type": "subgroup_share"}},
+      "method": "Survey experiment with political-affiliation and perceived-Fed-leaning measures, an intergroup allocation game, randomized information-demand stage, and randomized economic-information treatments.",
+      "uncertainty": "Prolific online sample designed to be politically representative; it is not a probability sample. In-group/out-group classification depends on the survey's exclusive or inclusive definition and perceived political leaning.",
+      "subgroup": "Democrat-leaning, Republican-leaning, and Independent respondents; results also condition on strength of in-group favoritism and Federal Open Market Committee knowledge.",
+      "counterinterpretation": "Perceived institutional alignment may reflect prior partisan identity, media environment, or economic beliefs rather than an independently formed judgment about Federal Reserve conduct.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w33071/w33071.pdf",
+      "retrieval_hash": "sha256:41862c2e30996e3312425d94de81e8d739193e626ed0b32ffe56c2dea0d3dfa5",
+      "status": "observed"
+    },
+    {
+      "period": "2024 pre-treatment trust and inflation-expectation comparison",
+      "denominator": {"value": 5205, "unit": "survey respondents; valid comparison cells use their own response universes", "value_type": "reported_sample"},
+      "measures": {"fed_management_trust_in_group": {"value": 4.2, "unit": "mean trust score on 1–7 scale among respondents viewing Fed as in-group", "value_type": "reported_subgroup_mean"}, "fed_management_trust_out_group": {"value": 3.1, "unit": "mean trust score on 1–7 scale among respondents viewing Fed as out-group", "value_type": "reported_subgroup_mean"}, "inflation_expectation_gap": {"value": 2.0, "unit": "percentage-point difference in prior inflation expectations between in-group and out-group perceptions", "value_type": "reported_subgroup_difference"}, "trust_inflation_gradient": {"value": 2.1, "unit": "percentage-point difference in inflation expectations between highest- and lowest-trust groups", "value_type": "reported_subgroup_difference"}},
+      "method": "Descriptive subgroup comparisons and regression estimates with demographic and political-affiliation controls; trust and expectations measured before information treatments.",
+      "uncertainty": "These are cross-sectional belief and trust differences within an experiment; perceived alignment is not randomly assigned, and the paper does not establish that trust caused the expectation gap.",
+      "subgroup": "Fed in-group versus out-group classifications, political affiliation, and strength of in-group favoritism.",
+      "counterinterpretation": "Prior economic experience, partisanship, information sources, or general institutional distrust may jointly drive both trust and inflation expectations.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w33071/w33071.pdf",
+      "retrieval_hash": "sha256:41862c2e30996e3312425d94de81e8d739193e626ed0b32ffe56c2dea0d3dfa5",
+      "status": "compared"
+    },
+    {
+      "period": "2024 randomized information demand and processing stage",
+      "denominator": {"value": 5205, "unit": "survey respondents assigned to control or information-demand treatment; stage-specific valid universes vary", "value_type": "reported_sample"},
+      "measures": {"fed_information_demand": {"value": "in-group respondents were more willing to pay for and more likely to receive Federal Reserve communications", "unit": "reported information-demand pattern", "value_type": "reported_subgroup_result"}, "fed_information_weight": {"value": "in-group respondents gave Federal Reserve communications more weight when updating inflation expectations", "unit": "reported information-processing pattern", "value_type": "reported_subgroup_result"}},
+      "method": "Randomized information-demand budget and subsequent information-processing treatment; respondents choose or update across Federal Reserve and partisan media sources.",
+      "uncertainty": "The treatment measures demand and updating in an experimental survey setting, not long-run media consumption, actual policy compliance, spending, or voting. Information effects may depend on message content and contemporaneous political context.",
+      "subgroup": "Respondents classified by perceived Fed in-group/out-group status and strength of in-group favoritism.",
+      "counterinterpretation": "Paying attention to or weighting a source may reflect motivated reasoning, perceived usefulness, or source familiarity rather than greater institutional credibility in a broader sense.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w33071/w33071.pdf",
+      "retrieval_hash": "sha256:41862c2e30996e3312425d94de81e8d739193e626ed0b32ffe56c2dea0d3dfa5",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 hypothetical presidential-election scenario",
+      "denominator": {"value": 5205, "unit": "survey respondents answering a hypothetical Trump-election scenario; scenario response universe", "value_type": "reported_sample"},
+      "measures": {"fed_republican_alignment_after_scenario": {"value": 84, "unit": "percent viewing the Fed as aligned with Republicans in the hypothetical scenario", "value_type": "scenario_share"}, "overall_trust": {"value": "relatively stable overall while declining among Democratic-leaning respondents and rising among Republican-leaning respondents", "unit": "reported scenario pattern", "value_type": "scenario_result"}},
+      "method": "Hypothetical scenario question embedded in the survey; trust and perceived political leaning assessed after the scenario.",
+      "uncertainty": "A hypothetical election scenario is not an observed election or a causal forecast. It measures partisan interpretation under a stated counterfactual, not later real-world trust or voting behavior.",
+      "subgroup": "Democratic-leaning and Republican-leaning respondents.",
+      "counterinterpretation": "Respondents may answer the scenario consistently with existing partisan identity, and an aggregate stable trust level can conceal offsetting subgroup changes.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w33071/w33071.pdf",
+      "retrieval_hash": "sha256:41862c2e30996e3312425d94de81e8d739193e626ed0b32ffe56c2dea0d3dfa5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w33071", "claim": "NBER metadata page for Working Paper 33071.", "status": "official-metadata"},
+    {"source_url": "https://www.bis.org/publications/working-paper-1354-monetary-policy-according-households-perceptions-reactions-and-channels.pdf", "claim": "Related household monetary-policy expectations study in the program.", "status": "related-evidence"}
+  ],
+  "boundary": "This record measures perceived Federal Reserve political alignment, trust, macroeconomic expectations, information demand, information processing, and a hypothetical election response in a 2024 online survey experiment. It does not establish that partisan perceptions reflect actual Federal Reserve bias, cause realized inflation, spending, portfolio, trust, or voting outcomes, or generalize to all US adults."
+}

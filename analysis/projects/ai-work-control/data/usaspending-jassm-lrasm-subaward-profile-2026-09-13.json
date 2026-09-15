@@ -1,0 +1,133 @@
+{
+  "format": "usaspending-award-subaward-profile-v1",
+  "input": "analysis/projects/ai-work-control/data/usaspending-jassm-lrasm-subawards-2026-09-13.json",
+  "input_response_sha256": "6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+  "records": 74,
+  "extract_amount_total": 1142661458.64,
+  "recipient_count": 51,
+  "date_min": "2024-10-23",
+  "date_max": "2025-02-28",
+  "top_recipients": [
+    {
+      "recipient": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+      "amount": 210018575.0,
+      "share_of_extract_amount": 18.3798,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "L3HARRIS CINCINNATI ELECTRONICS CORPORATION",
+      "amount": 98444161.72,
+      "share_of_extract_amount": 8.6153,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "CHEMRING ENERGETIC DEVICES INC",
+      "amount": 95972397.0,
+      "share_of_extract_amount": 8.399,
+      "subaward_count": 2
+    },
+    {
+      "recipient": "WILLIAMS INTERNATIONAL CO., L.L.C.",
+      "amount": 80636450.25,
+      "share_of_extract_amount": 7.0569,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "GENERAL DYNAMICS-OTS, INC.",
+      "amount": 80550804.12,
+      "share_of_extract_amount": 7.0494,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "EXTREME ENGINEERING SOLUTIONS, INC.",
+      "amount": 63276128.0,
+      "share_of_extract_amount": 5.5376,
+      "subaward_count": 3
+    },
+    {
+      "recipient": "WYMAN-GORDON FORGINGS INC",
+      "amount": 62816125.0,
+      "share_of_extract_amount": 5.4974,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "MAROTTA CONTROLS INC",
+      "amount": 61023121.67,
+      "share_of_extract_amount": 5.3404,
+      "subaward_count": 2
+    },
+    {
+      "recipient": "HONEYWELL INTERNATIONAL INC.",
+      "amount": 50401956.0,
+      "share_of_extract_amount": 4.4109,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "NAMMO COMPOSITE SOLUTIONS, LLC",
+      "amount": 49228860.96,
+      "share_of_extract_amount": 4.3083,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "HDL RESEARCH LAB INC",
+      "amount": 40772194.58,
+      "share_of_extract_amount": 3.5682,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+      "amount": 39867826.25,
+      "share_of_extract_amount": 3.489,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "L3 TECHNOLOGIES, INC.",
+      "amount": 37384685.71,
+      "share_of_extract_amount": 3.2717,
+      "subaward_count": 2
+    },
+    {
+      "recipient": "L3HARRIS FUZING AND ORDNANCE SYSTEMS, INC.",
+      "amount": 36948149.44,
+      "share_of_extract_amount": 3.2335,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "KLUNE INDUSTRIES, INC.",
+      "amount": 32389084.96,
+      "share_of_extract_amount": 2.8345,
+      "subaward_count": 2
+    },
+    {
+      "recipient": "THOMAS INSTRUMENT, INCORPORATED",
+      "amount": 27636284.0,
+      "share_of_extract_amount": 2.4186,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "BALL AEROSPACE & TECHNOLOGIES CORP.",
+      "amount": 19824348.91,
+      "share_of_extract_amount": 1.7349,
+      "subaward_count": 2
+    },
+    {
+      "recipient": "JANOS TECHNOLOGY LLC",
+      "amount": 15236293.73,
+      "share_of_extract_amount": 1.3334,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "ALBANY AEROSTRUCTURES COMPOSITES LLC",
+      "amount": 12708262.98,
+      "share_of_extract_amount": 1.1122,
+      "subaward_count": 1
+    },
+    {
+      "recipient": "MISSION SYSTEMS ORCHARD PARK INC",
+      "amount": 6905753.04,
+      "share_of_extract_amount": 0.6044,
+      "subaward_count": 1
+    }
+  ],
+  "boundary": "Descriptive concentration profile of the returned USAspending subaward records for one parent award; extract shares are not supplier-market shares and do not establish ownership, tier completeness, production, delivery, readiness, or leverage."
+}

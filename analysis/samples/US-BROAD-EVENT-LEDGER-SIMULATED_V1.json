@@ -5,8 +5,13 @@
     {
       "event_id": "SIM-E-001",
       "unit": "consumer",
+      "geography": "fictional US service episode; no real geography",
       "actor_initiating_change": "firm",
       "event_date": "2026-01-15",
+      "date_precision": "day; fictional",
+      "denominator": "one simulated consumer episode; not a population estimate",
+      "method": "fixture declaration for schema validation only",
+      "missingness": "meaning, remedy, and later outcome are unknown by design",
       "condition_or_decision": "service_failure",
       "exposure": "A fictional customer cannot obtain a replacement through the first support channel.",
       "alternatives_before_action": "A second channel exists but requires additional time.",
@@ -15,10 +20,13 @@
       "person_or_actor_with_control": "firm",
       "remedy_or_institutional_response": "pending",
       "immediate_outcome": "unresolved in the simulated record",
+      "protected_outcome": "not measured in simulated data",
+      "sacrificed_outcome": "additional customer time may be consumed; exact sacrifice is unknown",
       "cost_risk_transfer": "customer carries effort until remedy or abandonment",
       "later_outcome": "unknown",
       "meaning_and_attribution": "not measured in simulated data",
       "public_or_collective_response": "none recorded",
+      "counterexample": "not included in fixture; real comparison required",
       "evidence_status": "simulated_test_data",
       "source_and_uncertainty": "fictional fixture for schema validation only"
     }

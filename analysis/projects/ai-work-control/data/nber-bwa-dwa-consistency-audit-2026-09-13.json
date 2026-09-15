@@ -1,0 +1,95 @@
+{
+  "format": "nber-bwa-dwa-consistency-audit-v1",
+  "checked": "2026-09-13",
+  "method": "DWA rates weighted by the NBER displayed unweighted observation counts, grouped by O*NET GWA prefix after unique normalized-title matching; compared descriptively to NBER BWA rates.",
+  "levels": [
+    {
+      "bwa_id": "4.A.2.b",
+      "bwa_title": "Reasoning and Decision Making",
+      "nber_bwa_rate_percent": 30.0,
+      "dwa_weighted_rate_percent": 34.411,
+      "difference_percentage_points": 4.411,
+      "dwa_rows": 71,
+      "dwa_unweighted_observations": 5637
+    },
+    {
+      "bwa_id": "4.A.2.a",
+      "bwa_title": "Information and Data Processing",
+      "nber_bwa_rate_percent": 27.0,
+      "dwa_weighted_rate_percent": 31.358,
+      "difference_percentage_points": 4.358,
+      "dwa_rows": 57,
+      "dwa_unweighted_observations": 5629
+    },
+    {
+      "bwa_id": "4.A.4.b",
+      "bwa_title": "Coordinating, Developing, Managing, and Advising",
+      "nber_bwa_rate_percent": 24.2,
+      "dwa_weighted_rate_percent": 27.903,
+      "difference_percentage_points": 3.703,
+      "dwa_rows": 97,
+      "dwa_unweighted_observations": 9837
+    },
+    {
+      "bwa_id": "4.A.3.b",
+      "bwa_title": "Performing Complex and Technical Activities",
+      "nber_bwa_rate_percent": 24.0,
+      "dwa_weighted_rate_percent": 28.965,
+      "difference_percentage_points": 4.965,
+      "dwa_rows": 86,
+      "dwa_unweighted_observations": 7454
+    },
+    {
+      "bwa_id": "4.A.1.a",
+      "bwa_title": "Looking for and Receiving Job-Related Information",
+      "nber_bwa_rate_percent": 18.3,
+      "dwa_weighted_rate_percent": 19.9,
+      "difference_percentage_points": 1.6,
+      "dwa_rows": 73,
+      "dwa_unweighted_observations": 5182
+    },
+    {
+      "bwa_id": "4.A.4.a",
+      "bwa_title": "Communicating and Interacting",
+      "nber_bwa_rate_percent": 17.7,
+      "dwa_weighted_rate_percent": 20.333,
+      "difference_percentage_points": 2.633,
+      "dwa_rows": 107,
+      "dwa_unweighted_observations": 9777
+    },
+    {
+      "bwa_id": "4.A.1.b",
+      "bwa_title": "Identifying and Evaluating Job-Relevant Information",
+      "nber_bwa_rate_percent": 15.0,
+      "dwa_weighted_rate_percent": 17.23,
+      "difference_percentage_points": 2.23,
+      "dwa_rows": 47,
+      "dwa_unweighted_observations": 2120
+    },
+    {
+      "bwa_id": "4.A.4.c",
+      "bwa_title": "Administering",
+      "nber_bwa_rate_percent": 14.8,
+      "dwa_weighted_rate_percent": 15.731,
+      "difference_percentage_points": 0.931,
+      "dwa_rows": 37,
+      "dwa_unweighted_observations": 3161
+    },
+    {
+      "bwa_id": "4.A.3.a",
+      "bwa_title": "Performing Physical and Manual Work Activities",
+      "nber_bwa_rate_percent": 9.6,
+      "dwa_weighted_rate_percent": 9.085,
+      "difference_percentage_points": -0.515,
+      "dwa_rows": 106,
+      "dwa_unweighted_observations": 6654
+    }
+  ],
+  "source_hashes": {
+    "BWA.csv": "84660dd773d01ef72c17ac3667fb082704c6a396fc3b8115630127b42b0292e5",
+    "DWA.csv": "897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf",
+    "IWA.csv": "be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c",
+    "gwas_to_iwas_to_dwas.csv": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49"
+  },
+  "boundary": "This is a consistency diagnostic, not a re-estimation of the NBER BWA index. The DWA displayed rates and BWA rates may use different valid universes, weights, missingness, and aggregation procedures; differences do not indicate an error or a causal effect."
+}

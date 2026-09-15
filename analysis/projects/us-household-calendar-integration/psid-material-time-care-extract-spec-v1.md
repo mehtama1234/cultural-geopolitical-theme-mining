@@ -36,6 +36,8 @@ remain explicit.
 
 The field-level record is also available as the machine-readable [PSID field
 manifest](../../../manifests/us-psid-material-time-care-field-map-v1.json).
+Once authenticated files are available, run the [wave-file audit protocol](psid-wave-file-audit-protocol-v1.md)
+before attempting any merge or estimate.
 The following questionnaire labels are now mapped across the 2019, 2021, and
 2023 Family File codebooks where listed. Cross-wave comparability, universes,
 response codes, and the remaining work/material/health fields still require

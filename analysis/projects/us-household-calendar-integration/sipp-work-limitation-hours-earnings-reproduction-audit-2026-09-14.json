@@ -1,0 +1,10 @@
+{
+  "format": "sipp-work-limitation-hours-earnings-reproduction-audit-v1",
+  "checked": "2026-09-14",
+  "command": "python3 scripts/analyze_sipp_resource_worklimitation_hours_earnings.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v16/resource-worklimitation-hours-earnings.json",
+  "primary_input": {"rows": 379215, "sha256": "ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497"},
+  "replicate_input": {"sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "replicates": 240},
+  "output": {"rows_read": 379215, "identified_persons": 31992, "matched_pair_rows": 156561, "sha256": "dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450"},
+  "method": "Person-level resource-band to next-month valid numeric TPEARN/TMWKHRS change, conditioned on EDISABL, using WPFINWGT and Census Fay BRR with G=240 and perturbation factor 0.5.",
+  "boundary": "Primary and replicate files remain outside Git. Earnings and hours have separate valid pair universes; neither field establishes desired hours, job quality, accommodation, household prevalence, causality, or downstream meaning/action."
+}

@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-tenure-childcare-2024",
+  "title": "Child-care work prevention is higher inside reported utility difficulty, with tenure-specific uncertainty",
+  "theme_ids": ["cost", "time", "work", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "2025 SIPP public-use file, 2024 reference period; December identified reference-parent person rows with valid annual fall child-care work-prevention status, utility-payment difficulty, and tenure",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; utility difficulty and owned/bought tenure",
+      "denominator": {"value": 105, "unit": "valid identified reference-parent person records with EWORKMORE, utility, and tenure responses", "value_type": "unweighted_valid_records"},
+      "measures": {"childcare_prevented_work_or_more": {"value": 9.349, "unit": "person-weighted percent; Fay-BRR SE 3.107 pp; 95% CI 3.260–15.438", "value_type": "conditional_share", "valid_records": 105}},
+      "method": "December cross-section using WPFINWGT and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; EWORKMORE=1 is the numerator.",
+      "uncertainty": "Small reference-parent record count and wide design-based interval. EWORKMORE describes annual fall child-care arrangements, not December time loss or a dated utility response.",
+      "subgroup": "ETENURE=1: owned or being bought; EAWBGAS=1: reported utility-payment difficulty.",
+      "counterinterpretation": "The association may reflect child-care need, work opportunities, household composition, local prices, health, season, or selection into utility difficulty rather than a utility or tenure mechanism.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:ebbb8211d3e3def3d7dc99975b42cd551094005b479892a845663e6c0002b8be; script:sha256:c3daa8d5870a5030528f466c2d532690dd0a463247621af0e8aad0ca95d968ff",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; utility difficulty and rented tenure",
+      "denominator": {"value": 146, "unit": "valid identified reference-parent person records with EWORKMORE, utility, and tenure responses", "value_type": "unweighted_valid_records"},
+      "measures": {"childcare_prevented_work_or_more": {"value": 8.130, "unit": "person-weighted percent; Fay-BRR SE 2.430 pp; 95% CI 3.367–12.893", "value_type": "conditional_share", "valid_records": 146}},
+      "method": "December cross-section using WPFINWGT and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; EWORKMORE=1 is the numerator.",
+      "uncertainty": "Small reference-parent record count and wide design-based interval. EWORKMORE is an annual fall-reference measure attached to a December utility condition.",
+      "subgroup": "ETENURE=2: rented; EAWBGAS=1: reported utility-payment difficulty.",
+      "counterinterpretation": "A renter-owner comparison does not isolate tenure: provider access, family support, rent burden, job mix, geography, and care need may differ.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:ebbb8211d3e3def3d7dc99975b42cd551094005b479892a845663e6c0002b8be; script:sha256:c3daa8d5870a5030528f466c2d532690dd0a463247621af0e8aad0ca95d968ff",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; no utility difficulty and owned/bought tenure",
+      "denominator": {"value": 1677, "unit": "valid identified reference-parent person records with EWORKMORE, utility, and tenure responses", "value_type": "unweighted_valid_records"},
+      "measures": {"childcare_prevented_work_or_more": {"value": 2.836, "unit": "person-weighted percent; Fay-BRR SE 0.528 pp; 95% CI 1.801–3.871", "value_type": "conditional_share", "valid_records": 1677}},
+      "method": "December cross-section using WPFINWGT and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; EWORKMORE=1 is the numerator.",
+      "uncertainty": "The larger comparison cell is more precise, but the contrast is descriptive and not a counterfactual for utility difficulty.",
+      "subgroup": "ETENURE=1: owned or being bought; EAWBGAS=2: no reported utility-payment difficulty.",
+      "counterinterpretation": "Lower reported work prevention may reflect different child-care arrangements, work schedules, household structure, or reporting rather than greater room or utility stability.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:ebbb8211d3e3def3d7dc99975b42cd551094005b479892a845663e6c0002b8be; script:sha256:c3daa8d5870a5030528f466c2d532690dd0a463247621af0e8aad0ca95d968ff",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; no utility difficulty and rented tenure",
+      "denominator": {"value": 673, "unit": "valid identified reference-parent person records with EWORKMORE, utility, and tenure responses", "value_type": "unweighted_valid_records"},
+      "measures": {"childcare_prevented_work_or_more": {"value": 5.010, "unit": "person-weighted percent; Fay-BRR SE 0.911 pp; 95% CI 3.224–6.796", "value_type": "conditional_share", "valid_records": 673}},
+      "method": "December cross-section using WPFINWGT and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; EWORKMORE=1 is the numerator.",
+      "uncertainty": "The measure is an annual child-care work-prevention report, not a monthly care allocation or utility consequence; group selection remains uncontrolled.",
+      "subgroup": "ETENURE=2: rented; EAWBGAS=2: no reported utility-payment difficulty.",
+      "counterinterpretation": "The renter-owner difference may reflect selection, care need, local labor demand, family support, or housing cost rather than tenure itself.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:ebbb8211d3e3def3d7dc99975b42cd551094005b479892a845663e6c0002b8be; script:sha256:c3daa8d5870a5030528f466c2d532690dd0a463247621af0e8aad0ca95d968ff",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-utility-work-tenure-following-layer-v1.md", "claim": "The parent layer supplies the adjacent-month utility, tenure, earnings, and hours transition.", "status": "related-layer"},
+    {"source_url": "../../projects/us-safety-net-access/sipp-snap-childcare-time-loss-layer-v1.md", "claim": "The care layer documents the official EWORKMORE and ETIMELOST universe boundaries.", "status": "related-layer"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The official dictionary defines EWORKMORE, EAWBGAS, and ETENURE; the extracted slice exposes ETENURE without a separate ATENURE field.", "status": "official-definition"}
+  ],
+  "boundary": "This is a descriptive conditional bridge between an annual fall child-care work-prevention report and a December utility/tenure condition. It does not establish a dated bill shock, tenure effect, utility causation, monthly care time, household prevalence, recovery, trust, political action, or a complete material/time/care episode."
+}

@@ -86,6 +86,11 @@ health categories in both waves.
   in the worsened financial path had unchanged or improved self-rated health,
   while some in the improved path had worsened health.
 
+The six conditional observations are also preserved in the machine-readable
+[trend record](../../records/us-shed-financial-path-health-care-2024-2025.json)
+for atlas-level comparison. Its retrieval hash covers this committed memo;
+the raw public-use files and reproduction JSON are not committed.
+
 ## Reproduction
 
 ```text
@@ -102,3 +107,5 @@ Raw files and generated JSON are not committed.
 Related: [SHED panel persistence](shed-2024-2025-panel-persistence-layer-v1.md),
 [care, health, and price adaptation](../us-health-cost-household-choice/shed-2024-care-health-adaptation-layer-v1.md),
 and the [broad next-pass queue](../../US-BROAD-NEXT-PASS-QUEUE_V1.md).
+
+The completed 2026-09-13 file run is recorded in the [SHED panel reproduction audit](shed-panel-reproduction-audit-2026-09-13.json).

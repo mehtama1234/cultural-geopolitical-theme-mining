@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fdic-unbanked-underbanked-households-2023",
+  "title": "Financial access is widespread but transaction and credit routes remain stratified",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "FDIC 2023 National Survey of Unbanked and Underbanked Households, conducted with the Census Bureau as a CPS supplement",
+  "geography": "United States; nationally representative households, with state, MSA, regional, and demographic subgroup tables",
+  "observations": [
+    {
+      "period": "2023; household bank-account ownership",
+      "denominator": {"value": 100, "unit": "percent of US households", "value_type": "survey_population"},
+      "measures": {
+        "unbanked_rate": {"value": 4.2, "unit": "percent of households", "value_type": "share"},
+        "unbanked_households": {"value": 5.6, "unit": "million households, approximate", "value_type": "estimated_count"},
+        "unbanked_rate_2021": {"value": 4.5, "unit": "percent of households", "value_type": "comparison_share"}
+      },
+      "method": "Biennial nationally representative FDIC/Census household survey; unbanked means no one in the household has a checking or savings account at a bank or credit union.",
+      "uncertainty": "The estimate is survey-based and household-level; it does not measure account quality, fees, geographic proximity, transaction success, or whether an account is safe and usable for a particular need.",
+      "subgroup": "All US households, with subgroup differences by income, education, race/ethnicity, disability, family type, age, and geography available in the survey tables.",
+      "counterinterpretation": "A bank account is a formal access indicator, not proof of liquidity, affordable credit, trust, or the ability to absorb a financial shock.",
+      "source_url": "https://www.fdic.gov/analysis/household-survey",
+      "retrieval_hash": "fdic-page:sha256:d002f864b2e02abb443eb26902ac8eccca90193da5ed229683387c3ddead249b",
+      "status": "reported"
+    },
+    {
+      "period": "2023; banked, underbanked, and fully banked household classification",
+      "denominator": {"value": 100, "unit": "percent of US households", "value_type": "survey_population"},
+      "measures": {
+        "underbanked_rate": {"value": 14.2, "unit": "percent of households", "value_type": "share"},
+        "underbanked_households": {"value": 19.0, "unit": "million households, approximate", "value_type": "estimated_count"},
+        "fully_banked_rate": {"value": 81.6, "unit": "percent of households", "value_type": "share"}
+      },
+      "method": "FDIC classification: underbanked households have a bank account but used at least one of eight specified nonbank transaction or credit services in the prior 12 months; fully banked households did not use those specified services.",
+      "uncertainty": "The classification is definition-dependent and does not measure intensity, necessity, price, consumer satisfaction, or whether nonbank use complemented or substituted for bank services.",
+      "subgroup": "All US households, with underbanking differences reported by education, race/ethnicity, income, and other household characteristics.",
+      "counterinterpretation": "Nonbank use can be an intentional convenience, a remittance or payment need, or a response to unavailable or unaffordable mainstream services; the category alone cannot identify the mechanism.",
+      "source_url": "https://www.fdic.gov/analysis/household-survey",
+      "retrieval_hash": "fdic-page:sha256:d002f864b2e02abb443eb26902ac8eccca90193da5ed229683387c3ddead249b",
+      "status": "reported"
+    },
+    {
+      "period": "2023; mainstream-credit access",
+      "denominator": {"value": 100, "unit": "percent of US households; mainstream-credit classification frame", "value_type": "survey_population"},
+      "measures": {
+        "no_mainstream_credit_all_households": {"value": 15.7, "unit": "percent of households", "value_type": "share"},
+        "no_mainstream_credit_unbanked": {"value": 78.4, "unit": "percent of unbanked households", "value_type": "conditional_share"},
+        "no_mainstream_credit_banked": {"value": 13.0, "unit": "percent of banked households", "value_type": "conditional_share"},
+        "nonbank_alternative_credit_use": {"value": 5.8, "unit": "percent of households", "value_type": "share"}
+      },
+      "method": "FDIC household survey classification based on absence of a credit card, auto loan, or other credit product likely reflected on nationwide credit reports, plus reported use of specified nonbank alternatives.",
+      "uncertainty": "The survey does not observe credit scores, approval attempts, pricing, delinquency, account balances, or the reasons a household did not hold mainstream credit.",
+      "subgroup": "Households by bank-account status and mainstream-credit access.",
+      "counterinterpretation": "No mainstream credit may reflect low demand, deliberate avoidance, recent entry, credit invisibility, or constrained access; it is not equivalent to bad credit or immediate hardship.",
+      "source_url": "https://www.fdic.gov/analysis/household-survey",
+      "retrieval_hash": "fdic-page:sha256:d002f864b2e02abb443eb26902ac8eccca90193da5ed229683387c3ddead249b",
+      "status": "reported"
+    },
+    {
+      "period": "2023; technology, trust, and alternative transaction routes",
+      "denominator": {"value": 100, "unit": "percent of US households; measure-specific question frames", "value_type": "survey_population"},
+      "measures": {
+        "nonbank_online_payment_use": {"value": 49.7, "unit": "percent of households", "value_type": "share"},
+        "prepaid_card_use": {"value": 5.9, "unit": "percent of households", "value_type": "share"},
+        "bnpl_use": {"value": 3.9, "unit": "percent of households", "value_type": "share"},
+        "bnpl_late_or_missed_payment": {"value": 12.5, "unit": "one in eight BNPL-using households, approximate", "value_type": "conditional_share"},
+        "unbanked_main_reason_dont_trust_banks": {"value": "second-most cited main reason", "unit": "qualitative ranking among unbanked households", "value_type": "reported_ranking"}
+      },
+      "method": "FDIC survey questions on nonbank online payment services, prepaid cards, buy-now-pay-later, payment performance, and reported main reasons for being unbanked.",
+      "uncertainty": "The measures have different question universes and do not establish whether technology expands choice, replaces a bank relationship, increases cost, or creates new risk for a given household.",
+      "subgroup": "Households by bank status, income, age, education, race/ethnicity, disability, and other characteristics reported in the survey.",
+      "counterinterpretation": "High online-payment adoption can coexist with banking access and convenience; trust concerns among unbanked households do not establish generalized institutional distrust or political action.",
+      "source_url": "https://www.fdic.gov/analysis/household-survey",
+      "retrieval_hash": "fdic-page:sha256:d002f864b2e02abb443eb26902ac8eccca90193da5ed229683387c3ddead249b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fdic.gov/household-survey/data-downloads-and-resources", "claim": "FDIC provides public-use files, code, data dictionaries, and multi-year comparison resources for the survey.", "status": "official-reproducibility", "retrieval_hash": "fdic-downloads:sha256:5929c9ffcf142171001ebdb2bc2685694b183a3e496de8f5de7e5d82ef10a36b"},
+    {"source_url": "https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS", "claim": "World Bank Global Findex supplies an international adult-level comparison, but its unit and questionnaire frame differ from FDIC household measures.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.federalreserve.gov/publications/2024-economic-well-being-of-us-households-in-2023-banking-credit.htm", "claim": "Federal Reserve SHED supplies a separate adult household-finance and credit-access frame.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "FDIC adds a US household financial-access layer that distinguishes formal account ownership, underbanked use of specified nonbank services, mainstream-credit visibility, and digital/alternative transaction routes. It does not establish liquidity, affordability, remedy, trust change, consumer exit, or political behavior for the same households over time.",
+  "retrieval_hash": "fdic-page:sha256:d002f864b2e02abb443eb26902ac8eccca90193da5ed229683387c3ddead249b; fdic-downloads:sha256:5929c9ffcf142171001ebdb2bc2685694b183a3e496de8f5de7e5d82ef10a36b"
+}

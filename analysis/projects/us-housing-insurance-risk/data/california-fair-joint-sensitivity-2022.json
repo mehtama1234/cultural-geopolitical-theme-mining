@@ -1,0 +1,120 @@
+{
+  "format": "california-fair-joint-sensitivity-2022-v1",
+  "joined_zip_rows": 1570,
+  "cut_points": {
+    "median_income": 86771,
+    "median_risk": 10.1,
+    "lower_income_quartile": 64000,
+    "upper_risk_quartile": 20.6
+  },
+  "checks": [
+    {
+      "income_cut": 50000,
+      "risk_cut": 12.1,
+      "cells": {
+        "low_income__high_risk": {
+          "group": "$50k_income__12.1pct_risk:low_income__high_risk",
+          "zip_rows": 75,
+          "decision_count": 54452,
+          "nonrenewal_rate": 0.120326,
+          "mean_fair_share": 15.227
+        },
+        "low_income__low_risk": {
+          "group": "$50k_income__12.1pct_risk:low_income__low_risk",
+          "zip_rows": 84,
+          "decision_count": 130501,
+          "nonrenewal_rate": 0.131562,
+          "mean_fair_share": 6.444
+        },
+        "high_income__high_risk": {
+          "group": "$50k_income__12.1pct_risk:high_income__high_risk",
+          "zip_rows": 546,
+          "decision_count": 2456626,
+          "nonrenewal_rate": 0.109836,
+          "mean_fair_share": 11.21
+        },
+        "high_income__low_risk": {
+          "group": "$50k_income__12.1pct_risk:high_income__low_risk",
+          "zip_rows": 865,
+          "decision_count": 5764524,
+          "nonrenewal_rate": 0.103546,
+          "mean_fair_share": 3.117
+        }
+      }
+    },
+    {
+      "income_cut": 86771,
+      "risk_cut": 10.1,
+      "cells": {
+        "low_income__high_risk": {
+          "group": "median_income__median_risk:low_income__high_risk",
+          "zip_rows": 475,
+          "decision_count": 1853058,
+          "nonrenewal_rate": 0.111793,
+          "mean_fair_share": 11.716
+        },
+        "low_income__low_risk": {
+          "group": "median_income__median_risk:low_income__low_risk",
+          "zip_rows": 311,
+          "decision_count": 1460011,
+          "nonrenewal_rate": 0.11586,
+          "mean_fair_share": 3.055
+        },
+        "high_income__high_risk": {
+          "group": "median_income__median_risk:high_income__high_risk",
+          "zip_rows": 448,
+          "decision_count": 2544186,
+          "nonrenewal_rate": 0.100803,
+          "mean_fair_share": 7.715
+        },
+        "high_income__low_risk": {
+          "group": "median_income__median_risk:high_income__low_risk",
+          "zip_rows": 336,
+          "decision_count": 2548848,
+          "nonrenewal_rate": 0.101091,
+          "mean_fair_share": 1.572
+        }
+      }
+    },
+    {
+      "income_cut": 64000,
+      "risk_cut": 20.6,
+      "cells": {
+        "low_income__high_risk": {
+          "group": "lower_income_quartile__upper_risk_quartile:low_income__high_risk",
+          "zip_rows": 129,
+          "decision_count": 167598,
+          "nonrenewal_rate": 0.111773,
+          "mean_fair_share": 14.36
+        },
+        "low_income__low_risk": {
+          "group": "lower_income_quartile__upper_risk_quartile:low_income__low_risk",
+          "zip_rows": 264,
+          "decision_count": 950169,
+          "nonrenewal_rate": 0.125324,
+          "mean_fair_share": 5.831
+        },
+        "high_income__high_risk": {
+          "group": "lower_income_quartile__upper_risk_quartile:high_income__high_risk",
+          "zip_rows": 265,
+          "decision_count": 924702,
+          "nonrenewal_rate": 0.10044,
+          "mean_fair_share": 12.891
+        },
+        "high_income__low_risk": {
+          "group": "lower_income_quartile__upper_risk_quartile:high_income__low_risk",
+          "zip_rows": 912,
+          "decision_count": 6363634,
+          "nonrenewal_rate": 0.103676,
+          "mean_fair_share": 4.048
+        }
+      }
+    }
+  ],
+  "classification": "Sensitivity analysis of descriptive weighted decision rates; no causal model.",
+  "limits": [
+    "Sensitivity definitions change group composition and do not solve omitted-variable, time, geography, or denominator problems.",
+    "Decision-weighted rates are not population-weighted or household-level probabilities.",
+    "The CDI risk measure is county-level and based on an older dwelling-unit base than the 2022 market counts."
+  ]
+}

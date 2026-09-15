@@ -1,0 +1,55 @@
+{
+  "format": "onet-nber-crosswalk-acquisition-v1",
+  "onet_release": "31.0",
+  "onet_release_month": "August 2026",
+  "onet_archive": {
+    "url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv.zip",
+    "bytes": 16237378,
+    "sha256": "55033fc68b4c13ec23e7f74dc6378660f6e854e75d55d6e333ae0a761d3987cd",
+    "reused": true
+  },
+  "comparison_onet_release": {
+    "release": "30.3",
+    "release_month": "May 2026",
+    "url": "https://www.onetcenter.org/dl_files/database/db_30_3_csv.zip",
+    "archive_bytes": 16258072,
+    "archive_sha256": "1a07f893d037ee81083cf6fdcf1c198bedd085beab4597d98702201448876fc4",
+    "mapping_path": "gwas_to_iwas_to_dwas_30_3.csv",
+    "mapping_bytes": 351780,
+    "mapping_sha256": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
+    "mapping_byte_identical_to_onet_31_0": true
+  },
+  "nber_paper": {
+    "url": "https://www.nber.org/system/files/working_papers/w35677/w35677.pdf",
+    "bytes": 1687746,
+    "sha256": "d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+    "retained_external_to_git": true
+  },
+  "nber_indexes": {
+    "DWA.csv": {
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=416182935",
+      "bytes": 238318,
+      "sha256": "897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf"
+    },
+    "IWA.csv": {
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=1821519318",
+      "bytes": 45300,
+      "sha256": "be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c"
+    },
+    "BWA.csv": {
+      "url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=646067329",
+      "bytes": 1308,
+      "sha256": "84660dd773d01ef72c17ac3667fb082704c6a396fc3b8115630127b42b0292e5"
+    }
+  },
+  "onet_mapping": {
+    "archive_member": "db_31_0_csv/gwas_to_iwas_to_dwas.csv",
+    "path": "onet-31-0-csv/gwas_to_iwas_to_dwas.csv",
+    "bytes": 351780,
+    "sha256": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49"
+  },
+  "inputs": {
+    "onet_dir": "onet-31-0-csv",
+    "nber_dir": "nber-w35677"
+  }
+}

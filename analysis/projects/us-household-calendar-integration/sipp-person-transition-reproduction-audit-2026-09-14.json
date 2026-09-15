@@ -1,0 +1,17 @@
+{
+  "audit_date": "2026-09-14",
+  "script": "scripts/analyze_sipp_person_transitions.py",
+  "input": "/tmp/us-broad-sipp-2025/full-v15/sipp-household-slice.csv",
+  "input_sha256": "ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497",
+  "fields": ["THINCPOV", "RMNUMJOBS"],
+  "rows_read": 379215,
+  "identified_persons": 31992,
+  "persons_with_all_12_months": 31090,
+  "adjacent_month_pairs_available": 346283,
+  "income_band_valid_pairs": 346160,
+  "job_count_valid_pairs": 297861,
+  "weighted_income_band_change_percent": 3.67,
+  "weighted_job_count_change_percent": 1.70,
+  "variance_estimation": false,
+  "interpretation": "THINCPOV and RMNUMJOBS are explicitly monthly fields; the comparison is descriptive and uses the first month's WPFINWGT. It does not estimate design-based uncertainty or causality. Annual/reference-period hardship fields were not promoted into this monthly transition result."
+}

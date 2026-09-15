@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-capability-dependence-state-control-crosssource-2023-2026",
+  "title": "AI capability can expand while infrastructure, ownership, and public-control dependence remain unresolved",
+  "theme_ids": ["energy", "voice", "cost", "work"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning", "housing_place_mobility"],
+  "source_unit": "Deliberately non-pooled comparison of World Bank capability framework, Romania/Malaysia infrastructure cases, OFR institutional capacity, and US physical-load governance",
+  "geography": "United States with Romania and Malaysia comparative infrastructure cases and global/developing-country analytical context",
+  "observations": [
+    {
+      "period": "2026; World Bank adopt-adapt-advance and AI value-chain framework",
+      "denominator": {"value": 1, "unit": "World Development Report 2026 analytical framework and chapter synthesis", "value_type": "study_artifact"},
+      "measures": {
+        "capability_pathways": {"value": "adopt -> adapt -> advance", "unit": "policy/capability pathways", "value_type": "qualitative_framework"},
+        "required_local_complements": {"value": "infrastructure, skills, institutions, data, and local-language fit", "unit": "complement categories", "value_type": "qualitative_inventory"},
+        "concentrated_value_chain_layers": {"value": "hardware, infrastructure, models, and applications concentrated in a few countries and companies", "unit": "qualitative value-chain finding", "value_type": "qualitative_finding"},
+        "identified_power_risks": {"value": "dependency, capital concentration, surveillance, propaganda, public-budget pressure, and regulatory-capacity gaps", "unit": "risk categories", "value_type": "qualitative_inventory"}
+      },
+      "method": "World Bank flagship report synthesis of research, country evidence, technology diffusion, value chains, public services, and governance; framework claims are retained separately from measured country outcomes.",
+      "uncertainty": "The report does not provide a US supplier concentration estimate, provider switching cost, public-control measure, or observed geopolitical response. Analytical mechanisms are not realized state leverage.",
+      "subgroup": "Countries, governments, firms, public agencies, and people positioned differently across AI infrastructure, skills, data, models, and applications.",
+      "counterinterpretation": "Imported tools can deliver useful capability without frontier-model production; open standards, procurement, adaptation, and cooperation may reduce dependence even when value-chain concentration persists.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; Romania public cloud and Malaysia Johor infrastructure cases",
+      "denominator": {"value": 2, "unit": "documented infrastructure project cases with distinct public/private ownership and financing structures", "value_type": "project_case_set"},
+      "measures": {
+        "romania_public_cloud_commitment": {"value": 876096515, "unit": "Romanian lei ex VAT", "value_type": "reported_commitment"},
+        "romania_migration_target": {"value": 30, "unit": "minimum applications or IT systems", "value_type": "reported_target"},
+        "malaysia_ifc_project_capacity": {"value": 96, "unit": "MW", "value_type": "reported_project_capacity"},
+        "malaysia_full_campus_plan": {"value": 300, "unit": "MW or more", "value_type": "reported_plan"},
+        "malaysia_ifc_loan_max": {"value": 150000000, "unit": "US dollars", "value_type": "reported_financing_commitment"},
+        "ownership_transition_announced": {"value": 1, "unit": "documented Malaysia project milestone", "value_type": "reported_event"},
+        "romania_infrastructure_completion_announced": {"value": 1, "unit": "documented public project milestone", "value_type": "reported_event"}
+      },
+      "method": "Comparison of official Romanian Authority for Digitalization, World Bank, IFC, Yondr, and Vantage project records; commitments, plans, completion announcements, financing, and ownership milestones are kept separate from operation and public-service outcomes.",
+      "uncertainty": "The cases do not verify uptime, application migration, service reliability, local skills, power/water incidence, data control, portability, provider alternatives, termination rights, or changed state bargaining position.",
+      "subgroup": "Romanian public government-cloud projects and privately operated Malaysian hyperscale campus with development finance and regional capital.",
+      "counterinterpretation": "Public infrastructure can remain underused or externally dependent; private ownership can expand local capacity while leaving finance, operators, customers, or critical inputs external. Neither dependence nor autonomy is established by milestones alone.",
+      "source_url": "https://www.ifc.org/en/projects/2023/yondr-my-dc-2023",
+      "retrieval_hash": "sha256:5ffa245b14d9c7541c248f259654ab34321feb3054225eda093860f91d0205f8; sha256:3b751cf23f0a838f6cedaf2f5b7e912045c7920ccc650b0011e78dca99d32533",
+      "status": "compared"
+    },
+    {
+      "period": "FY2025; OFR institutional AI/data capacity and workforce",
+      "denominator": {"value": 188, "unit": "OFR employees at FY2024 starting point; market and use-case measures have separate units", "value_type": "institutional_workforce_base"},
+      "measures": {
+        "ofr_workforce_path": {"value": "188 start -> 205 January 2025 -> 109 FY2025 end", "unit": "employees", "value_type": "reported_path"},
+        "ofr_workforce_change": {"value": -47, "unit": "percent reported change", "value_type": "reported_change"},
+        "ofr_budget_change": {"value": -11, "unit": "percent reported FY2025 budget change", "value_type": "reported_change"},
+        "ai_use_cases": {"value": "data processing, security monitoring, support, procurement comparison, and ChatOFR", "unit": "reported use-case inventory", "value_type": "reported_inventory"},
+        "nccbr_market_scale": {"value": 5000000000000, "unit": "approximate US dollars in daily outstanding commitments", "value_type": "reported_market_amount"}
+      },
+      "method": "OFR FY2025 annual-report self-report of workforce, budget, AI/cloud use, analytics infrastructure, and new financial-market data collection.",
+      "uncertainty": "OFR does not attribute staffing change to AI alone and does not measure workload, analytical quality, model accuracy, service response, data portability, or whether additional data prevented a disruption.",
+      "subgroup": "Federal financial-stability institution, analytical/data functions, and the reported non-centrally cleared bilateral repo market segment.",
+      "counterinterpretation": "A smaller staff with more tools may preserve or reduce capacity depending on workload, review, security, procurement, and interagency coordination; visibility is not intervention or leverage.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2027; US data-center load and large-load governance comparison",
+      "denominator": {"value": 3, "unit": "national modeled load, county fiscal/capacity, and state utility-governance evidence surfaces; each has separate underlying units", "value_type": "cross_source_evidence_set"},
+      "measures": {
+        "lbnl_data_center_electricity_2023": {"value": 176, "unit": "terawatt-hours", "value_type": "historical_estimate"},
+        "lbnl_data_center_electricity_2030_reference": {"value": 649, "unit": "terawatt-hours", "value_type": "model_estimate"},
+        "prince_william_ty2025_data_center_tax_revenue": {"value": 465.9, "unit": "USD millions", "value_type": "reported_total"},
+        "virginia_minimum_transmission_distribution_cost_share": {"value": 85, "unit": "percent of covered minimum charges", "value_type": "approved_policy_term"},
+        "virginia_minimum_contract_obligation": {"value": 14, "unit": "years for covered new contracts", "value_type": "approved_policy_term"}
+      },
+      "method": "Non-pooled reading of LBNL load scenarios, Prince William County fiscal reporting, and Virginia/Texas/Georgia large-load governance records; modeled load, local revenue, and tariff terms are not treated as one outcome.",
+      "uncertainty": "National projections are not actual load, county revenue is not household benefit, and tariff terms do not prove cost recovery, public control, or state leverage. Local service, water, land, ownership, replaceability, and household incidence remain open.",
+      "subgroup": "US national data-center system, Prince William County industry aggregate, and covered large-load customers/utilities/customer classes.",
+      "counterinterpretation": "Domestic physical capacity and public revenue can expand while households face costs or the state remains dependent on external operators, capital, chips, software, power, or customers.",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "retrieval_hash": "sha256:2c580082681f979eb5dc35040b40550f002295c199d4f5766507b9926a935dc9; sha256:8e0d9f0df4f618d973a01a16849504770a84a3a22497b0b284166f2fbf79ec62; sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-world-bank-wdr2026-ai-capability-governance.json", "claim": "World Bank provides the adopt-adapt-advance, complement, concentration, and governance framework.", "status": "related-record"},
+    {"source_url": "../../records/us-geopolitical-ai-infrastructure-case-comparison-2023-2026.json", "claim": "Romania and Malaysia project records preserve dated infrastructure, financing, ownership, and completion milestones.", "status": "related-record"},
+    {"source_url": "../../records/us-ofr-2025-ai-capacity-workforce-data-infrastructure.json", "claim": "OFR supplies the US public-institution AI, data, workforce, and monitoring-capacity layer.", "status": "related-record"},
+    {"source_url": "../../records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json", "claim": "The US data-center bridge supplies physical-load, local-fiscal, and utility-governance context.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled capability/dependence/state-control bridge. It supports a staged interpretation in which AI access, infrastructure, public data capacity, fiscal revenue, and governance can expand simultaneously with unresolved external dependence and local incidence. It does not establish provider replaceability, public-service improvement, household benefit, state bargaining leverage, alliance behavior, or geopolitical consequence. Those require contracts, alternatives, outages/switching events, public-service outcomes, local incidence, and observed external response."
+}

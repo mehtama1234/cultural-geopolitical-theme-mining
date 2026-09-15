@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-eldercare-provider-time-2024-2025",
+  "title": "Eldercare providers show a distinct time-allocation profile, but annual ATUS cells are not causal comparisons",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "work_control_bargaining"],
+  "source_unit": "ATUS respondent age 15+ with one selected diary day, final weight, and eldercare-roster provider status",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; eldercare-provider respondents",
+      "denominator": {"value": 1319, "unit": "provider respondents with at least one eldercare-roster record"},
+      "measures": {
+        "household_work_minutes": {"value": 142.561, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 4.911, "uncertainty_unit": "minutes"},
+        "care_for_people_minutes": {"value": 39.185, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.379, "uncertainty_unit": "minutes"},
+        "work_minutes": {"value": 179.824, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 8.001, "uncertainty_unit": "minutes"},
+        "travel_minutes": {"value": 71.763, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.14, "uncertainty_unit": "minutes"},
+        "socializing_communicating_minutes": {"value": 264.119, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 6.678, "uncertainty_unit": "minutes"},
+        "secondary_childcare_minutes": {"value": 55.469, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate", "standard_error": 4.658, "uncertainty_unit": "minutes"},
+        "eldercare_minutes": {"value": 68.675, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate", "standard_error": 6.617, "uncertainty_unit": "minutes"}
+      },
+      "method": "Aggregate 2024 ATUS activity records by TUCASEID; define eldercare-provider status as at least one linked eldercare-roster record; compute final-weighted means and 160-replicate ATUS standard errors within provider status.",
+      "uncertainty": "Design-based replicate standard errors use the ATUS formula sqrt((4/160) * sum((replicate estimate - point estimate)^2)); provider status is descriptive and not an exogenous exposure.",
+      "subgroup": "Respondents with at least one eldercare-roster record; provider roster rows are not independently weighted.",
+      "counterinterpretation": "Different time allocation may reflect age, employment, health, household composition, recipient needs, or diary-day composition rather than care causing a time loss.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; roster:sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:8ffab42864006409be91683783d352b4b86ebaf9ffd81ff37b4fdf52ba940fab",
+      "status": "compared"
+    },
+    {
+      "period": "2024; not-eldercare-provider respondents",
+      "denominator": {"value": 6350, "unit": "respondents without an eldercare-roster record"},
+      "measures": {
+        "household_work_minutes": {"value": 116.487, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 2.264, "uncertainty_unit": "minutes"},
+        "care_for_people_minutes": {"value": 31.614, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.202, "uncertainty_unit": "minutes"},
+        "work_minutes": {"value": 192.831, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.563, "uncertainty_unit": "minutes"},
+        "travel_minutes": {"value": 63.73, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.21, "uncertainty_unit": "minutes"},
+        "socializing_communicating_minutes": {"value": 275.359, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.234, "uncertainty_unit": "minutes"},
+        "secondary_childcare_minutes": {"value": 80.736, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate", "standard_error": 2.566, "uncertainty_unit": "minutes"},
+        "eldercare_minutes": {"value": 0.0, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate", "standard_error": 0.0, "uncertainty_unit": "minutes"}
+      },
+      "method": "Same 2024 ATUS activity aggregation, final-weight procedure, and 160-replicate variance method as the provider observation; the comparison group has no linked eldercare-roster record by construction.",
+      "uncertainty": "Design-based replicate standard errors describe annual sample uncertainty, not imbalance or causal selection into eldercare provision.",
+      "subgroup": "Respondents without an eldercare-roster record.",
+      "counterinterpretation": "This comparison group may differ from providers in age, employment, health, family structure, and reporting opportunity; it is not a matched control group.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; roster:sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:8ffab42864006409be91683783d352b4b86ebaf9ffd81ff37b4fdf52ba940fab",
+      "status": "compared"
+    },
+    {
+      "period": "2025; eldercare-provider respondents",
+      "denominator": {"value": 1016, "unit": "provider respondents with at least one eldercare-roster record"},
+      "measures": {
+        "household_work_minutes": {"value": 136.561, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 5.526, "uncertainty_unit": "minutes"},
+        "care_for_people_minutes": {"value": 39.576, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.38, "uncertainty_unit": "minutes"},
+        "work_minutes": {"value": 172.89, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 11.915, "uncertainty_unit": "minutes"},
+        "travel_minutes": {"value": 67.304, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 2.456, "uncertainty_unit": "minutes"},
+        "socializing_communicating_minutes": {"value": 264.952, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 8.093, "uncertainty_unit": "minutes"},
+        "secondary_childcare_minutes": {"value": 59.97, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate", "standard_error": 6.538, "uncertainty_unit": "minutes"},
+        "eldercare_minutes": {"value": 66.848, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate", "standard_error": 7.035, "uncertainty_unit": "minutes"}
+      },
+      "method": "Same provider-status and ATUS replicate-weight method as the 2024 provider observation, applied to the 2025 annual files.",
+      "uncertainty": "Design-based replicate standard errors; 2024 and 2025 are separate annual samples, not the same respondents.",
+      "subgroup": "Respondents with at least one eldercare-roster record in 2025.",
+      "counterinterpretation": "The annual provider/nonprovider contrast does not identify a care-caused reduction in paid work or social time; composition and diary-day differences remain unadjusted.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2025.htm",
+      "retrieval_hash": "sha256:77566d2864f1b96412a46ceeee9ea53709bc191b092f3573af04c17b2d409873; sha256:a45c4edf1b7e0cd5ecf622bc5a57e4fe6fe27281add92b26c29605cfac193359; sha256:664314e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; sha256:f7c024e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; roster:sha256:d4ae219ecda174be926a233294b60914ab9a7b7515bf17a1edd1ccd4efc3e253; artifact:sha256:6d2f6b11fa9e4f79f9273a0ad3747e53828c975ff73730e9541e9be38fce19bf",
+      "status": "compared"
+    },
+    {
+      "period": "2025; not-eldercare-provider respondents",
+      "denominator": {"value": 5130, "unit": "respondents without an eldercare-roster record"},
+      "measures": {
+        "household_work_minutes": {"value": 116.793, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 2.13, "uncertainty_unit": "minutes"},
+        "care_for_people_minutes": {"value": 29.996, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.344, "uncertainty_unit": "minutes"},
+        "work_minutes": {"value": 188.003, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 4.386, "uncertainty_unit": "minutes"},
+        "travel_minutes": {"value": 61.351, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.486, "uncertainty_unit": "minutes"},
+        "socializing_communicating_minutes": {"value": 278.075, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.867, "uncertainty_unit": "minutes"},
+        "secondary_childcare_minutes": {"value": 75.261, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate", "standard_error": 2.919, "uncertainty_unit": "minutes"},
+        "eldercare_minutes": {"value": 0.0, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate", "standard_error": 0.0, "uncertainty_unit": "minutes"}
+      },
+      "method": "Same 2025 ATUS activity aggregation, final-weight procedure, and 160-replicate variance method as the provider observation; the comparison group has no linked eldercare-roster record by construction.",
+      "uncertainty": "Design-based replicate standard errors describe annual sample uncertainty, not imbalance or causal selection into eldercare provision.",
+      "subgroup": "Respondents without an eldercare-roster record in 2025.",
+      "counterinterpretation": "The comparison group is not a matched control group and may differ in age, employment, health, family structure, and reporting opportunity.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2025.htm",
+      "retrieval_hash": "sha256:77566d2864f1b96412a46ceeee9ea53709bc191b092f3573af04c17b2d409873; sha256:a45c4edf1b7e0cd5ecf622bc5a57e4fe6fe27281add92b26c29605cfac193359; sha256:664314e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; sha256:f7c024e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; roster:sha256:d4ae219ecda174be926a233294b60914ab9a7b7515bf17a1edd1ccd4efc3e253; artifact:sha256:6d2f6b11fa9e4f79f9273a0ad3747e53828c975ff73730e9541e9be38fce19bf",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a design-based annual subgroup comparison, not a longitudinal panel, matched causal estimate, or household time budget. Provider status is defined by a linked eldercare-roster record; it does not measure care need, intensity outside the diary, travel distance, schedule control, employer response, health outcome, recovery, trust, political action, or causality. Primary activity, secondary childcare, and eldercare minutes are separate currencies and are not summed into a burden index."
+}

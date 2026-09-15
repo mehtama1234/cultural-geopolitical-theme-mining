@@ -1,0 +1,80 @@
+{
+  "boundary": "Ecological and cross-vintage diagnostic only. It does not establish individual access, appointment wait, quality, accepted insurance, provider workload, travel, unmet need, causal HPSA/capacity effects, health outcomes, trust, political meaning, or household response. The health-insurance denominator differs from other adult measures and no pooled welfare index is constructed.",
+  "capacity_quartile_cutpoints": {
+    "p25_health_est_per_10k": 16.962,
+    "p75_health_est_per_10k": 29.913
+  },
+  "format": "us-places-hpsa-outcomes-diagnostic-v1",
+  "hpsa_counties": 2785,
+  "matched_counties": 3072,
+  "measure_labels": {
+    "food_insecurity": "Food insecurity in the past 12 months among adults",
+    "frequent_mental_distress": "Frequent mental distress among adults",
+    "housing_insecurity": "Housing insecurity in the past 12 months among adults",
+    "lack_health_insurance": "Current lack of health insurance among adults aged 18-64 years",
+    "routine_checkup": "Visits to doctor for routine checkup within the past year among adults",
+    "transportation_insecurity": "Lack of reliable transportation in the past 12 months among adults",
+    "utility_shutoff_threat": "Utility services shut-off threat in the past 12 months among adults"
+  },
+  "method": "County FIPS join; unweighted county medians within HPSA and visible-capacity groups. PLACES estimates are modeled small-area estimates; CBP is employer establishment stock; HRSA is a current designation file and may cover a component rather than a whole county.",
+  "places_year": "2022 BRFSS-based 2024 release",
+  "source_unit": "US county; CDC PLACES modeled county estimate joined to 2023 CBP health/social-assistance capacity, 2023 population, and current HRSA primary-care HPSA component presence",
+  "summaries": {
+    "high_health_establishment_capacity": {
+      "counties": 768,
+      "median_health_emp_per_10k": 701.635,
+      "median_health_est_per_10k": 34.817,
+      "median_measures": {
+        "food_insecurity": 12.4,
+        "frequent_mental_distress": 16.9,
+        "housing_insecurity": 11.3,
+        "lack_health_insurance": 7.9,
+        "routine_checkup": 75.2,
+        "transportation_insecurity": 8.1,
+        "utility_shutoff_threat": 7.5
+      }
+    },
+    "hpsa_component_present": {
+      "counties": 2785,
+      "median_health_emp_per_10k": 439.886,
+      "median_health_est_per_10k": 23.119,
+      "median_measures": {
+        "food_insecurity": 15.1,
+        "frequent_mental_distress": 18.1,
+        "housing_insecurity": 12.8,
+        "lack_health_insurance": 9.2,
+        "routine_checkup": 75.7,
+        "transportation_insecurity": 9.0,
+        "utility_shutoff_threat": 8.8
+      }
+    },
+    "low_health_establishment_capacity": {
+      "counties": 768,
+      "median_health_emp_per_10k": 221.128,
+      "median_health_est_per_10k": 13.854,
+      "median_measures": {
+        "food_insecurity": 18.1,
+        "frequent_mental_distress": 18.7,
+        "housing_insecurity": 14.7,
+        "lack_health_insurance": 11.0,
+        "routine_checkup": 75.8,
+        "transportation_insecurity": 10.2,
+        "utility_shutoff_threat": 10.0
+      }
+    },
+    "no_hpsa_component_present": {
+      "counties": 287,
+      "median_health_emp_per_10k": 432.692,
+      "median_health_est_per_10k": 23.436,
+      "median_measures": {
+        "food_insecurity": 10.85,
+        "frequent_mental_distress": 16.4,
+        "housing_insecurity": 10.0,
+        "lack_health_insurance": 7.1,
+        "routine_checkup": 75.7,
+        "transportation_insecurity": 7.0,
+        "utility_shutoff_threat": 6.9
+      }
+    }
+  }
+}

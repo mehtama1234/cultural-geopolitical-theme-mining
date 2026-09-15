@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-material-to-trust-action-bridge-2022-2025",
+  "title": "Material, work, care, and health conditions do not automatically become trust or political action",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Deliberately non-pooled cross-source architecture using SIPP person-month transitions, ATUS diary-day contrasts, MEPS longitudinal persons, ANES panel respondents, and CCES respondents",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SIPP resource-to-work transition by work-limiting status",
+      "denominator": {"value": 31992, "unit": "identified SIPP persons; valid adjacent-pair universes vary by measure", "value_type": "person_sample"},
+      "measures": {
+        "work_limiting_below_1x_hours_change": {"value": 16.882, "unit": "percent; valid numeric hours pairs", "value_type": "weighted_crosslag_share"},
+        "no_limitation_below_1x_hours_change": {"value": 12.086, "unit": "percent; valid numeric hours pairs", "value_type": "weighted_crosslag_share"}
+      },
+      "method": "Same-person adjacent-month SIPP cross-lag using resource band, work-limiting status, hours, earnings, and Fay-BRR replicate weights.",
+      "uncertainty": "The result is a descriptive work/resource stage; change has no inferred direction and does not measure attribution, trust, care response, or political action.",
+      "subgroup": "Reported work-limiting condition versus no reported condition, stratified by resource band.",
+      "counterinterpretation": "Composition, reporting, opportunity, hours preference, earnings level, and job mix can explain the contrast.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; ATUS eldercare-provider standardized diary contrast",
+      "denominator": {"value": 7470, "unit": "ATUS respondents in supported standardization cells; provider n=1,315", "value_type": "diary_respondents"},
+      "measures": {
+        "eldercare_difference_minutes": {"value": 70.702, "unit": "provider minus nonprovider minutes per diary day; SE 7.134", "value_type": "standardized_difference"},
+        "work_difference_minutes": {"value": -19.7, "unit": "minutes per diary day; SE 8.348", "value_type": "standardized_difference"},
+        "socializing_difference_minutes": {"value": -18.385, "unit": "minutes per diary day; SE 7.029", "value_type": "standardized_difference"}
+      },
+      "method": "ATUS diary aggregation with eldercare-roster provider status and replicate-weight standardization across supported demographic, labor-force, child, and education cells.",
+      "uncertainty": "Annual diary respondents are not a panel; the contrast does not identify care onset, recipient outcome, employer response, health, or a political interpretation.",
+      "subgroup": "Eldercare providers versus nonproviders within supported standardization cells.",
+      "counterinterpretation": "Provider selection, recipient need, distance, household support, and employment choice can generate the time contrast; less work time is not automatically work loss.",
+      "source_url": "https://www.bls.gov/tus/",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; artifact:sha256:228800e646e818a9ccba212dcad274f8bb0141b7c23583da364929b651e8caf5",
+      "status": "compared"
+    },
+    {
+      "period": "2022→2023; MEPS Panel 27 longitudinal health-cost change",
+      "denominator": {"value": 7812, "unit": "MEPS Panel 27 persons with positive longitudinal weight and valid paired fields", "value_type": "longitudinal_person_count"},
+      "measures": {
+        "health_status_improved": {"value": 21.009, "unit": "percent of valid persons", "value_type": "weighted_share"},
+        "health_status_worsened": {"value": 22.849, "unit": "percent of valid persons", "value_type": "weighted_share"},
+        "total_health_expenditure_change": {"value": 630.83, "unit": "2023 minus 2022 dollars per person", "value_type": "weighted_mean_change"},
+        "out_of_pocket_expenditure_change": {"value": -50.498, "unit": "2023 minus 2022 dollars per person", "value_type": "weighted_mean_change", "standard_error": 63.3195, "ci95_low": -174.6041, "ci95_high": 73.6083, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"},
+        "employed_both_endpoint_rounds": {"value": 62.0815, "unit": "percent of valid persons; separate employment-status universe", "value_type": "weighted_estimate", "standard_error": 0.8572, "ci95_low": 60.4014, "ci95_high": 63.7616, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"},
+        "employed_to_not_employed": {"value": 2.7732, "unit": "percent of valid persons; separate employment-status universe", "value_type": "weighted_estimate", "standard_error": 0.2748, "ci95_low": 2.2346, "ci95_high": 3.3118, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"},
+        "not_employed_to_employed": {"value": 5.0496, "unit": "percent of valid persons; separate employment-status universe", "value_type": "weighted_estimate", "standard_error": 0.3998, "ci95_low": 4.266, "ci95_high": 5.8332, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"},
+        "wage_income_change": {"value": 2012.3459, "unit": "2023 minus 2022 dollars per person; separate valid paired wage universe", "value_type": "weighted_estimate", "standard_error": 524.1202, "ci95_low": 985.0703, "ci95_high": 3039.6215, "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"}
+      },
+      "method": "MEPS Panel 27 five-round longitudinal person analysis with positive longitudinal weights and paired health-status and expenditure fields.",
+      "uncertainty": "Health-cost co-movement is not evidence that work limitation or care time caused the change, and expenditure is not a complete household budget measure.",
+      "subgroup": "MEPS longitudinal persons with valid paired fields; income-stratified results remain in the source record.",
+      "counterinterpretation": "Total spending can rise while out-of-pocket spending falls, and health can improve or worsen without identifying a time, work, or care mechanism.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; ANES panel financial worry, trust, and reported vote",
+      "denominator": {"value": 2154, "unit": "valid weighted panel observations for trust cross-tab; vote cross-tab uses 1,699", "value_type": "panel_observations"},
+      "measures": {
+        "extremely_worried_some_or_never_trust": {"value": 70.3, "unit": "percent within extremely-worried row", "value_type": "row_share"},
+        "not_at_all_worried_some_or_never_trust": {"value": 51.9, "unit": "percent within not-at-all-worried row", "value_type": "row_share"},
+        "very_worried_trump_report": {"value": 68.9, "unit": "percent within very-worried row", "value_type": "row_share"},
+        "not_at_all_worried_trump_report": {"value": 32.0, "unit": "percent within not-at-all-worried row", "value_type": "row_share"}
+      },
+      "method": "Official ANES 2024 Full Release SDA weighted descriptive cross-tabs in the retained 2016-2020-2024 panel subset.",
+      "uncertainty": "Financial worry is not a dated material event; party identity, prior beliefs, information, panel retention, and retrospective judgment remain alternative explanations. No causal contrast is reproduced.",
+      "subgroup": "Financial-worry rows, with trust and reported presidential vote outcomes; party-conditioned patterns are retained in the related finding.",
+      "counterinterpretation": "A worry/trust or worry/vote pattern can reflect identity and joint interpretation rather than material pressure producing political action.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:e132f873841f6cfcd434886c29b65f167b9caf0347a31744f9b46546f587b518",
+      "status": "compared"
+    },
+    {
+      "period": "2024 post-election; CCES material proxies, institutional trust, and civic action",
+      "denominator": {"value": 17954, "unit": "valid respondents in the no-gig/no-student-loan reference cell; other joint cells are separately denominated", "value_type": "respondent_count"},
+      "measures": {
+        "reference_federal_trust_and_any_civic_action": {"value": 16.4217, "unit": "weighted joint share, percent", "value_type": "weighted_joint_share"},
+        "both_gig_and_student_loan_federal_trust_and_any_action": {"value": 30.3155, "unit": "weighted joint share, percent; n=665", "value_type": "weighted_joint_share"},
+        "both_gig_and_student_loan_federal_low_trust_and_action": {"value": 16.1144, "unit": "weighted joint share, percent; n=665", "value_type": "weighted_joint_share"}
+      },
+      "method": "Weighted CCES common-post respondent comparison using commonpostweight; trust and any-action fields are coded as defined in the source record.",
+      "uncertainty": "Cross-sectional material proxies do not establish event timing, attribution, prior trust, remedy, or causality; complex-survey variance was not reproduced in this pass.",
+      "subgroup": "Joint gig-work and current student-loan-responsibility proxy cells.",
+      "counterinterpretation": "Age, education, income, employment selection, party identity, and other composition can explain joint trust/action differences.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-material-work-care-health-crosssource-2022-2025.json", "claim": "SIPP, ATUS, and MEPS supply the material, work, care, and health stages without a common respondent join.", "status": "related-record"},
+    {"source_url": "../../records/us-anes-panel-worry-trust-vote-2024.json", "claim": "ANES supplies a panel-level worry/trust/reported-vote stage with identity and causal boundaries.", "status": "related-record"},
+    {"source_url": "../../records/us-cces-trust-action-joint-material-proxies-2024.json", "claim": "CCES supplies joint material-proxy, institutional-trust, and civic-action comparisons.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled architecture record, not a causal pathway estimate. It shows that the program now has evidence surfaces for material/work/care/health, trust, and civic or political action, while the same-person dated trigger-to-attribution-to-action link remains open. The currencies, populations, denominators, dates, and estimands must not be collapsed into a burden index or a vote mechanism."
+}

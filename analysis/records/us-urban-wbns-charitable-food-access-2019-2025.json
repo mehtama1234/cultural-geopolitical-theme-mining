@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-wbns-charitable-food-access-2019-2025",
+  "title": "Charitable food is an elevated but incomplete buffer, with access shaped by time, transport, awareness, stigma, and treatment",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Urban Institute December Well-Being and Basic Needs Survey: adults reporting household receipt of free groceries or meals and related access experiences",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "December 2019–December 2025; annual working-age series",
+      "denominator": {"value": null, "unit": "adults ages 18–64; exact annual analytic denominators not disclosed in the published brief", "value_type": "not_disclosed"},
+      "measures": {
+        "charitable_food_2019": {"value": 13.2, "unit": "percent reporting household free groceries or meals in the prior 12 months", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2020": {"value": 19.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2021": {"value": 17.3, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2022": {"value": 16.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2023": {"value": 16.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2024": {"value": 17.6, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_2025": {"value": 16.7, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted WBNS estimates of household participation in charitable food programs during the prior 12 months; the brief notes a 2025 methodology update and statistically tests selected differences from December 2025.",
+      "uncertainty": "Exact annual analytic denominators and full variance tables are not disclosed in the brief. The 2025 methodology update means earlier published values may differ slightly; the series is not a perfectly invariant estimator across years.",
+      "subgroup": "Working-age adults ages 18–64 in annual WBNS rounds.",
+      "counterinterpretation": "A decline from the 2020 peak does not mean food need disappeared; participation can be constrained by supply, awareness, schedule, stigma, eligibility, or the availability of other supports. Receipt is not a measure of adequacy or successful food security.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; participation and unmet need by material and identity subgroup",
+      "denominator": {"value": null, "unit": "adults ages 18 and older in the applicable WBNS subgroup universe; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "charitable_food_all_adults": {"value": 16.1, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_food_insecure": {"value": 39.5, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_food_secure": {"value": 8.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_with_children": {"value": 21.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_without_children": {"value": 13.4, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_disability": {"value": 29.6, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_no_disability": {"value": 11.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_below_200_fpl": {"value": 34.1, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_200_to_400_fpl": {"value": 14.8, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "charitable_food_400_fpl_or_more": {"value": 4.6, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "unmet_charitable_food_all_adults": {"value": 8.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "unmet_charitable_food_food_insecure": {"value": 28.8, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "unmet_charitable_food_disability": {"value": 17.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "unmet_charitable_food_no_disability": {"value": 5.0, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted cross-sectional WBNS estimates. Unmet need means the respondent needed or wanted help from a food pantry or other free-food provider during the prior 12 months but did not get it.",
+      "uncertainty": "Subgroup characteristics overlap and exact analytic denominators are not disclosed. The estimates show need and reach together but cannot distinguish lack of supply from awareness, schedule, stigma, transport, eligibility, or preference for another source.",
+      "subgroup": "Adults ages 18 and older by food-security status, children, disability, family income, and related characteristics.",
+      "counterinterpretation": "High charitable-food receipt may reflect successful supplemental access, severe unmet need, or both; food-secure respondents can receive charitable food, and nonreceipt can mean either no need or an unserved need.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "compared"
+    },
+    {
+      "period": "December 2025; access, safety, and treatment among charitable-food participants",
+      "denominator": {"value": null, "unit": "adults ages 18 and older who reported receiving charitable food in the prior 12 months; exact analytic denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "any_access_difficulty": {"value": 51.6, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "difficulty_food_variety": {"value": 40.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "difficulty_reasonable_travel_time": {"value": 25.8, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "difficulty_transportation": {"value": 21.9, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "difficulty_open_when_available": {"value": 20.9, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "worried_about_physical_safety": {"value": 22.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "reported_unfair_treatment": {"value": 22.9, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "reported_unfair_treatment_adults_18_to_64": {"value": 26.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "reported_unfair_treatment_disability": {"value": 31.8, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "reported_unfair_treatment_with_children": {"value": 28.6, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted estimates among adults who received charitable food; access difficulties are reported as difficult/very difficult, safety as very/somewhat worried, and unfair treatment as perceived treatment or judgment related to at least one personal characteristic.",
+      "uncertainty": "Items are self-reported and retrospective. Access difficulty categories can overlap; unfair treatment is perceived attribution, not an independently adjudicated event. Exact denominators and design-based uncertainty are not fully disclosed in the brief text.",
+      "subgroup": "Charitable-food participants, with comparisons by age, children, disability, and other characteristics.",
+      "counterinterpretation": "A reported access difficulty can reflect provider capacity, travel infrastructure, household schedule, food preference, safety conditions, or prior treatment; it is not alone proof of institutional discrimination or program failure.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; reasons for unmet charitable-food need",
+      "denominator": {"value": null, "unit": "adults ages 18 and older reporting unmet charitable-food need in the prior 12 months; exact analytic denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "closed_when_available": {"value": 45.5, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "did_not_know_where_to_go": {"value": 42.8, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "not_comfortable_getting_help": {"value": 39.9, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "needed_food_variety_unavailable": {"value": 37.6, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "could_not_find_transportation": {"value": 35.2, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "too_long_after_arrival": {"value": 27.7, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "too_long_to_get_there": {"value": 26.6, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "could_not_carry_food_home": {"value": 27.3, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "previous_bad_experience": {"value": 26.3, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "did_not_feel_safe": {"value": 19.9, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted multiple-response estimates among adults reporting that they needed or wanted free-food help but did not get it.",
+      "uncertainty": "Reasons do not sum to 100%; they overlap and are reported retrospectively. They do not identify which barrier was decisive, whether a provider could have removed it, or whether an alternative source met the need later.",
+      "subgroup": "Adults with unmet charitable-food need.",
+      "counterinterpretation": "Limited hours, awareness, comfort, variety, transport, and prior experience can be simultaneous constraints; calling this a single stigma or capacity story would overstate the evidence.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.urban.org/research/publication/charitable-food-participation-remained-high-2025-snap-cuts-unfold", "claim": "Brief landing page and publication context.", "status": "primary-analysis"},
+    {"source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf", "claim": "Companion food-insecurity level and trend layer.", "status": "primary-analysis"},
+    {"source_url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey", "claim": "WBNS survey program and sampling context.", "status": "survey-program"}
+  ],
+  "boundary": "This layer measures charitable-food receipt, access difficulty, perceived treatment, and unmet need in a weighted cross-sectional survey. It does not measure food quantity or nutritional adequacy, provider capacity directly, SNAP benefit loss, causal stigma effects, or later trust and political action. It complements the formal SNAP route and food-security layers without merging their denominators or claiming that charitable food replaces public assistance."
+}

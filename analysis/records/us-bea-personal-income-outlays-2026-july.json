@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-personal-income-outlays-2026-july",
+  "title": "July 2026 personal income and consumption rise while saving and spending composition remain separate household surfaces",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "consumer_power_recourse", "public_systems_feedback"],
+  "source_unit": "BEA National Income and Product Accounts monthly Personal Income and Outlays estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 2026; current-dollar monthly estimate",
+      "denominator": {"value": 1, "unit": "aggregate US personal-income account; values are flows or rates, not household respondents", "value_type": "aggregate_account"},
+      "measures": {"personal_income_change": {"value": 115.1, "unit": "billions of current US dollars from June; 0.4 percent monthly rate", "value_type": "reported_change"}, "disposable_personal_income_change": {"value": 125.9, "unit": "billions of current US dollars from June; 0.5 percent monthly rate", "value_type": "reported_change"}, "personal_consumption_expenditures_change": {"value": 36.3, "unit": "billions of current US dollars from June; 0.2 percent monthly rate", "value_type": "reported_change"}, "personal_outlays_change": {"value": 36.6, "unit": "billions of current US dollars from June", "value_type": "reported_change"}},
+      "method": "BEA monthly National Income and Product Accounts estimate from the July 2026 Personal Income and Outlays release; personal outlays include PCE, personal interest payments, and personal current transfer payments.",
+      "uncertainty": "These are aggregate current-dollar national accounts, subject to revisions and the September 30 annual update; they do not identify households, real purchasing power, distribution, or causal sources of change.",
+      "subgroup": "Aggregate US personal sector; no household, income, age, race, place, or consumer subgroup.",
+      "counterinterpretation": "Aggregate income growth can be concentrated, offset by prices or taxes, or coexist with financial stress for particular households; current-dollar PCE is not a welfare measure.",
+      "source_url": "https://bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "retrieval_hash": "sha256:131a34937193d5631ac80c606ab233febeb7cbbb267ac6ccdaf9a091a9fee9f7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; current-dollar monthly estimate",
+      "denominator": {"value": 1, "unit": "aggregate US personal consumption expenditures account", "value_type": "aggregate_account"},
+      "measures": {"services_spending_change": {"value": 86.2, "unit": "billions of current US dollars from June", "value_type": "reported_change"}, "goods_spending_change": {"value": -49.9, "unit": "billions of current US dollars from June", "value_type": "reported_change"}, "services_minus_goods_change": {"value": 136.1, "unit": "billions of current US dollars; arithmetic contrast of reported changes", "value_type": "derived_contrast"}},
+      "method": "BEA release decomposition of the $36.3 billion current-dollar PCE increase into services and goods components; the contrast is calculated from the reported component changes.",
+      "uncertainty": "The composition change is aggregate and current-dollar; it does not distinguish quantities from prices, essential from discretionary purchases, or substitution by household resources.",
+      "subgroup": "Aggregate US PCE by goods and services; no household or product-income subgroup.",
+      "counterinterpretation": "A rise in services spending and fall in goods spending can reflect prices, timing, seasonal patterns, supply, or reclassification rather than a cultural shift or household preference change.",
+      "source_url": "https://bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "retrieval_hash": "sha256:131a34937193d5631ac80c606ab233febeb7cbbb267ac6ccdaf9a091a9fee9f7",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; current-dollar monthly estimate",
+      "denominator": {"value": 1, "unit": "aggregate US disposable personal income account", "value_type": "aggregate_account"},
+      "measures": {"personal_saving": {"value": 712.0, "unit": "billions of current US dollars", "value_type": "reported_level"}, "personal_saving_rate": {"value": 3.0, "unit": "percent of disposable personal income", "value_type": "reported_rate"}},
+      "method": "BEA personal saving and saving-rate estimates from the July 2026 Personal Income and Outlays release.",
+      "uncertainty": "The saving rate is an aggregate national-accounts ratio and is revised; it does not reveal liquid balances, debt service, precautionary motives, or the distribution of saving across households.",
+      "subgroup": "Aggregate US personal sector; no household or income subgroup.",
+      "counterinterpretation": "A change in aggregate saving can reflect income composition, transfers, tax timing, valuation or measurement revisions, and spending timing; it is not a direct measure of household financial resilience.",
+      "source_url": "https://bea.gov/news/2026/personal-income-and-outlays-july-2026",
+      "retrieval_hash": "sha256:131a34937193d5631ac80c606ab233febeb7cbbb267ac6ccdaf9a091a9fee9f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm", "claim": "Federal Reserve SHED supplies household-level liquidity and saving-response context that aggregate BEA accounts cannot provide.", "status": "official-comparison-context"},
+    {"source_url": "https://www.newyorkfed.org/microeconomics/hhdc", "claim": "New York Fed supplies aggregate debt and delinquency context for household financial exposure.", "status": "official-comparison-context"},
+    {"source_url": "https://bea.gov/news/schedule", "claim": "BEA schedules the next Personal Income and Outlays release for September 30, 2026, when August data and annual updates are expected.", "status": "official-vintage-context"}
+  ],
+  "boundary": "This record adds a current aggregate national-accounts surface for income, disposable income, consumption composition, personal outlays, and saving. It does not measure household-level purchasing power, financial buffers, debt stress, cultural meaning, firm pricing, political response, or causal effects. Current-dollar flows, aggregate ratios, survey respondents, and credit-record balances must remain separate."
+}

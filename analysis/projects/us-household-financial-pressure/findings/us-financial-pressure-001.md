@@ -39,7 +39,7 @@ The first two links have evidence in the HBS account. The household-buffer and t
 
 ## Counterevidence and limits
 
-The HBS story itself reports two mitigating factors: consumers shop at different merchants, and large chains negotiate lower fees. Cash users may also benefit from lower prices at merchants with little card overlap. The evidence currently comes through an HBS summary; the underlying NBER paper and data have not yet been reviewed because the NBER page was inaccessible in this run. The Federal Reserve evidence is descriptive and cannot show that payment rules caused the reported household outcomes.
+The HBS story itself reports two mitigating factors: consumers shop at different merchants, and large chains negotiate lower fees. Cash users may also benefit from lower prices at merchants with little card overlap. The underlying NBER paper has now been reviewed: it reports approximately $30 billion in annual modeled redistribution, reduced by 25% after consumer sorting and merchant fee heterogeneity, including an estimated $9.2 billion transfer from households below $150,000 toward households above that threshold. These are model-based incidence estimates, not observed household bills or welfare losses. The Federal Reserve evidence remains descriptive and cannot show that payment rules caused the reported household outcomes. See the [full NBER payment-incidence layer](../nber-w35067-payment-incidence-layer-v1.md).
 
 ## What would change our mind
 
@@ -47,7 +47,7 @@ The interpretation would weaken if the underlying data showed little net distrib
 
 ## Next test
 
-Read NBER Working Paper 35067, reproduce the main incidence table if possible, and join that mechanism to CFPB card-market data, SHED subgroup measures, and BLS price or expenditure series. Then add a case where merchants surcharge, offer cash discounts, or use a different payment structure.
+Join the reviewed NBER mechanism to CFPB card-market data, SHED subgroup measures, and BLS or CEX price/expenditure series. The merchant raw data are not public in this workspace, so a household-level incidence estimate and a case with surcharges, cash discounts, or another payment structure remain open.
 
 ## Claims used
 

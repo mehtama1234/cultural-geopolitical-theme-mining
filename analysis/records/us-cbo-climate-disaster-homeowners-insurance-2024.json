@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cbo-climate-disaster-homeowners-insurance-2024",
+  "title": "Climate and disaster risk can move homeowner losses into household and federal exposure",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "household_room_consumption"],
+  "source_unit": "Congressional Budget Office policy analysis, Climate Change, Disaster Risk, and Homeowner's Insurance, August 2024",
+  "geography": "United States; national policy and modeled federal exposure frame",
+  "observations": [
+    {
+      "period": "2023; natural-disaster loss and insurance coverage aggregate",
+      "denominator": {"value": 114, "unit": "billion dollars of natural-disaster losses", "value_type": "reported_aggregate"},
+      "measures": {
+        "insurer_covered_losses": {"value": 80, "unit": "billion dollars", "value_type": "reported_aggregate"},
+        "losses_not_covered_by_insurers": {"value": 30, "unit": "percent of natural-disaster losses, approximate", "value_type": "reported_share"}
+      },
+      "method": "CBO policy analysis citing national natural-disaster loss and insurance coverage aggregates; this is not a household panel or claims file.",
+      "uncertainty": "The aggregate does not identify peril, geography, policy terms, deductibles, public aid, underinsurance, recovery time, or the distribution of the uncovered loss across households and governments.",
+      "subgroup": "Natural-disaster losses and insurers at the national level; CBO separately notes greater uninsured or underinsured exposure and slower recovery among lower- and moderate-income households.",
+      "counterinterpretation": "An uninsured share of loss is not the same as an uninsured household: deductibles, exclusions, limits, self-insurance, public assistance, and other coverage can all contribute.",
+      "source_url": "https://www.cbo.gov/publication/60674",
+      "retrieval_hash": "cbo-page:sha256:be22c19c53ff8553e7e5b9a8ab3e035fe7c0c14c3668799522b5e5d6d98c1893",
+      "status": "reported"
+    },
+    {
+      "period": "2024 report; federally guaranteed mortgage and mortgage-security exposure",
+      "denominator": {"value": 9, "unit": "trillion dollars of federally guaranteed mortgages and mortgage securities", "value_type": "reported_aggregate"},
+      "measures": {
+        "federal_mortgage_exposure": {"value": 9, "unit": "trillion dollars", "value_type": "reported_aggregate"}
+      },
+      "method": "CBO policy analysis of the federal role in housing finance and disaster exposure.",
+      "uncertainty": "This is the scale of a federally connected mortgage and securities exposure, not a forecast of loss and not a measure of currently uninsured borrowers or homes.",
+      "subgroup": "Borrowers, lenders, mortgage guarantors, mortgage securities, and federal institutions connected to federally backed housing finance.",
+      "counterinterpretation": "Federal backing can distribute and reduce some private financing risk without guaranteeing adequate insurance, fast repair, or household recovery after a disaster.",
+      "source_url": "https://www.cbo.gov/publication/60674",
+      "retrieval_hash": "cbo-page:sha256:be22c19c53ff8553e7e5b9a8ab3e035fe7c0c14c3668799522b5e5d6d98c1893",
+      "status": "reported"
+    },
+    {
+      "period": "CBO model comparison; 2020 climate conditions versus 2050 climate conditions",
+      "denominator": {"value": 30, "unit": "year expected flood-damage modeling horizon for homes with federally backed mortgages", "value_type": "modeled_horizon"},
+      "measures": {
+        "expected_flood_damage_2020_climate": {"value": 190, "unit": "billion dollars, present-value modeled damage", "value_type": "modeled_estimate"},
+        "expected_flood_damage_2050_climate": {"value": 258, "unit": "billion dollars, present-value modeled damage", "value_type": "modeled_estimate"},
+        "modeled_increase": {"value": 68, "unit": "billion dollars between the report's climate-condition scenarios", "value_type": "derived_difference"}
+      },
+      "method": "CBO model comparison for expected flood damage to homes with federally backed mortgages under different climate conditions.",
+      "uncertainty": "The comparison is scenario-dependent and does not predict realized claims, premiums, relocation, public aid, or the timing of damage. The difference should not be read as a causal estimate of any one policy.",
+      "subgroup": "Homes with federally backed mortgages in the modeled flood-exposure frame.",
+      "counterinterpretation": "Mitigation, adaptation, rebuilding standards, insurance changes, migration, and mortgage-market composition can change realized losses relative to a static scenario comparison.",
+      "source_url": "https://www.cbo.gov/publication/60674",
+      "retrieval_hash": "cbo-page:sha256:be22c19c53ff8553e7e5b9a8ab3e035fe7c0c14c3668799522b5e5d6d98c1893",
+      "status": "reported"
+    },
+    {
+      "period": "2024 report; lower- and moderate-income recovery mechanism",
+      "denominator": {"value": 1, "unit": "CBO policy-analysis finding about household income groups", "value_type": "study_artifact"},
+      "measures": {
+        "lower_income_uninsured_or_underinsured": {"value": "more likely", "unit": "qualitative comparative finding", "value_type": "qualitative_finding"},
+        "lower_income_recovery": {"value": "slower", "unit": "qualitative comparative finding", "value_type": "qualitative_finding"}
+      },
+      "method": "CBO synthesis of insurance, disaster, and household-recovery evidence; no single same-household causal estimate is asserted here.",
+      "uncertainty": "The report-level comparison does not identify how much of the recovery difference comes from insurance, wealth, housing quality, location, labor disruption, public aid, or other resources.",
+      "subgroup": "Lower- and moderate-income households compared with higher-income households after disaster loss.",
+      "counterinterpretation": "Income can be correlated with many forms of exposure and recovery capacity; the finding should not be converted into an income-only causal claim.",
+      "source_url": "https://www.cbo.gov/publication/60674",
+      "retrieval_hash": "cbo-page:sha256:be22c19c53ff8553e7e5b9a8ab3e035fe7c0c14c3668799522b5e5d6d98c1893",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fhfa.gov/data/hpi", "claim": "FHFA supplies home-price index data for separating modeled insurance exposure from observed housing-price movements.", "status": "registered-comparator"},
+    {"source_url": "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office", "claim": "Treasury's Federal Insurance Office supplies a federal insurance-policy and market context layer.", "status": "registered-comparator"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm", "claim": "Federal Reserve SHED supplies household-level insurance status and affordability evidence to pair with CBO's policy and modeled layer.", "status": "household-comparator"}
+  ],
+  "boundary": "This record adds a national policy-analysis and modeled federal-exposure layer. It does not establish that climate risk caused a particular household's premium, nonrenewal, mortgage trouble, repair delay, sale, move, or political response. Those links require property- and household-level records with compatible dates and denominators.",
+  "retrieval_hash": "cbo-page:sha256:be22c19c53ff8553e7e5b9a8ab3e035fe7c0c14c3668799522b5e5d6d98c1893"
+}

@@ -1,0 +1,106 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-daily-life-control-2026",
+  "title": "AI use is becoming ordinary while control and social-impact concerns remain divided",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "consumer_power_recourse", "work_control_bargaining", "household_room_consumption"],
+  "source_unit": "Pew Research Center survey respondent; U.S. adults, with employed-adult and age subgroup universes where specified",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "February 17-23, 2026; ever-use and frequency of AI chatbots",
+      "denominator": {"value": 5119, "unit": "U.S. adult survey respondents"},
+      "measures": {
+        "ever_use_ai_chatbots": {"value": 49, "unit": "percent of U.S. adults", "value_type": "share"},
+        "daily_use_ai_chatbots": {"value": 24, "unit": "percent of U.S. adults", "value_type": "share"},
+        "several_times_a_day": {"value": 12, "unit": "percent of U.S. adults", "value_type": "share"},
+        "almost_constant_use": {"value": 4, "unit": "percent of U.S. adults", "value_type": "share"}
+      },
+      "method": "Pew Research Center nationally representative survey of U.S. adults; self-reported chatbot use and frequency.",
+      "uncertainty": "Reported use is not product telemetry, productive use, dependence, or causal exposure. The 2024 comparison used a different universe and question wording because respondents had to have heard at least a little about chatbots.",
+      "subgroup": "U.S. adults; frequency categories are mutually exclusive published response categories.",
+      "counterinterpretation": "Increasing access or reported use can coexist with shallow, occasional, instrumental use and does not establish changed habits, social relationships, or control.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "reported"
+    },
+    {
+      "period": "February 17-23, 2026; stated chatbot purposes",
+      "denominator": {"value": 5119, "unit": "U.S. adult survey respondents; work-use item uses employed-adult universe"},
+      "measures": {
+        "information_search": {"value": 42, "unit": "percent of U.S. adults", "value_type": "share"},
+        "work_tasks": {"value": 38, "unit": "percent of employed adults", "value_type": "share"},
+        "medical_advice": {"value": 20, "unit": "percent of U.S. adults", "value_type": "share"},
+        "emotional_support_or_advice": {"value": 10, "unit": "percent of U.S. adults", "value_type": "share"},
+        "companionship": {"value": 4, "unit": "percent of U.S. adults", "value_type": "share"}
+      },
+      "method": "Pew multiple-purpose survey item; purposes are not mutually exclusive and the employed-adult work item has a distinct universe.",
+      "uncertainty": "Purpose reports do not measure quality, accuracy, reliance, downstream action, or whether the product displaced a human or institutional alternative.",
+      "subgroup": "U.S. adults, with work-task result among employed adults.",
+      "counterinterpretation": "The same user may use a chatbot for several instrumental purposes without forming a relationship or losing the ability to leave.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "reported"
+    },
+    {
+      "period": "February 17-23, 2026; perceived personal and societal effects",
+      "denominator": {"value": 5119, "unit": "U.S. adult survey respondents; impact responses shown among chatbot users or respondents answering the item"},
+      "measures": {
+        "chatbots_help_productivity": {"value": 30, "unit": "percent", "value_type": "share"},
+        "chatbots_hurt_productivity": {"value": 5, "unit": "percent", "value_type": "share"},
+        "expect_negative_societal_impact_next_20_years": {"value": 40, "unit": "percent of U.S. adults", "value_type": "share"},
+        "expect_positive_societal_impact_next_20_years": {"value": 16, "unit": "percent of U.S. adults", "value_type": "share"},
+        "expect_negative_personal_impact_next_20_years": {"value": 31, "unit": "percent of U.S. adults", "value_type": "share"},
+        "expect_positive_personal_impact_next_20_years": {"value": 23, "unit": "percent of U.S. adults", "value_type": "share"}
+      },
+      "method": "Pew self-reported assessment and expectation items; positive, negative, equally positive/negative, neither, and unsure categories are kept separate in the source tables.",
+      "uncertainty": "Perceived benefit and twenty-year expectations are attitudes, not observed productivity, social harm, or forecast accuracy. Different item universes and nonresponse categories mean these percentages should not be combined into one sentiment index.",
+      "subgroup": "U.S. adults and respondents reporting chatbot use for relevant personal-effect items.",
+      "counterinterpretation": "People can report immediate usefulness and future concern at the same time; concern is not proof of non-use or opposition.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "reported"
+    },
+    {
+      "period": "February 17-23, 2026; pace, privacy, and regulatory confidence",
+      "denominator": {"value": 5119, "unit": "U.S. adult survey respondents"},
+      "measures": {
+        "say_ai_advancing_too_quickly": {"value": 63, "unit": "percent of U.S. adults", "value_type": "share"},
+        "expect_personal_information_less_secure": {"value": 70, "unit": "percent of U.S. adults", "value_type": "share"},
+        "little_or_no_confidence_government_regulate_ai_effectively": {"value": 67, "unit": "percent of U.S. adults", "value_type": "share"},
+        "negative_societal_minus_positive_societal_expectation": {"value": 24, "unit": "percentage-point difference", "value_type": "descriptive_difference"}
+      },
+      "method": "Pew survey items on perceived pace, privacy risk, regulatory confidence, and expected impact.",
+      "uncertainty": "These are public perceptions and confidence judgments, not measured privacy loss, regulatory performance, or future impact. The comparison with 2024 confidence uses separate survey waves and should not be read as a causal time series without a mode and wording audit.",
+      "subgroup": "U.S. adults; demographic and age differences are available in the report appendix.",
+      "counterinterpretation": "Skepticism may coexist with adoption and perceived usefulness; low confidence does not identify whether respondents want less AI, more governance, or more personal control.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; ChatGPT ever-use age comparison",
+      "denominator": {"value": 100, "unit": "published percent within U.S. adult age groups"},
+      "measures": {
+        "chatgpt_use_age_18_29": {"value": 61, "unit": "percent of adults ages 18-29", "value_type": "share"},
+        "chatgpt_use_age_30_49": {"value": 55, "unit": "percent of adults ages 30-49", "value_type": "share"},
+        "chatgpt_use_age_50_64": {"value": 37, "unit": "percent of adults ages 50-64", "value_type": "share"},
+        "chatgpt_use_age_65_plus": {"value": 19, "unit": "percent of adults ages 65 and older", "value_type": "share"}
+      },
+      "method": "Pew repeated survey comparison using the report's age-group tables; ChatGPT question wording changed in 2026 to include other chatbots in the broader use item, while this series retains the brand-specific measure.",
+      "uncertainty": "Age comparisons are descriptive and self-reported. Differences may reflect access, awareness, work, education, device use, or question interpretation; they do not establish unequal benefit or harm.",
+      "subgroup": "U.S. adults by age group.",
+      "counterinterpretation": "Lower reported use among older adults may reflect different use needs or measurement familiarity rather than exclusion or lack of capability.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-appendix-detailed-chart-and-tables/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/", "claim": "Pew reports the survey estimates, question universes, and interpretation of chatbot use and views.", "status": "official-report"},
+    {"source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_TOPLINE.pdf", "claim": "Pew provides the 2026 topline questionnaire and response tables.", "status": "official-topline"},
+    {"source_url": "https://www.pewresearch.org/2025/04/03/artificial-intelligence-in-daily-life-views-and-experiences/", "claim": "Pew's 2025 public/expert comparison supplies a prior control and governance-attitude frame.", "status": "official-comparison"}
+  ],
+  "boundary": "This record adds a 2026 public-use, purpose, age, perceived-impact, privacy, pace, and regulatory-confidence layer. It does not establish chatbot dependence, actual privacy loss, product causation, emotional harm, changed political behavior, or unequal realized benefit. The 2024 and 2026 use measures have wording and universe changes; the age series is a descriptive brand-specific comparison.",
+  "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452"
+}

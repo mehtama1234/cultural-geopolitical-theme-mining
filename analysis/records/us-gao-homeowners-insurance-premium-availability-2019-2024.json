@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-homeowners-insurance-premium-availability-2019-2024",
+  "title": "National insurance costs rose modestly in real terms while disaster-prone and regulated markets diverged",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "GAO analysis of estimated private homeowners-insurance premiums, insurer filings, and state residual-plan information",
+  "geography": "United States; state, disaster-risk, and regulatory comparisons",
+  "observations": [
+    {
+      "period": "2019-2024; national estimated homeowners-insurance premium",
+      "denominator": {"value": 1, "unit": "GAO estimated national average premium; 2024-dollar comparison", "value_type": "index_frame"},
+      "measures": {
+        "real_average_premium_2019": {"value": 2743, "unit": "2024 dollars per policy", "value_type": "mean"},
+        "real_average_premium_2024": {"value": 2829, "unit": "2024 dollars per policy", "value_type": "mean"},
+        "real_change": {"value": 3, "unit": "percent, inflation-adjusted", "value_type": "reported_change"},
+        "nominal_average_premium_2019": {"value": 2235, "unit": "dollars per policy", "value_type": "mean"},
+        "nominal_average_premium_2024": {"value": 2829, "unit": "dollars per policy", "value_type": "mean"}
+      },
+      "method": "GAO analysis of 2019–2024 estimated premiums from First Street Technology, including inflation-adjusted national and geographic comparisons.",
+      "uncertainty": "Estimated premiums are not insurer billing records or household payments; national means can conceal sharp local changes and differences in coverage, property, deductible, and policy mix.",
+      "subgroup": "National average, with separate state and risk-area comparisons in the report.",
+      "counterinterpretation": "A modest national real increase does not contradict severe local affordability or availability pressure; aggregation can hide coastal and high-risk divergence.",
+      "source_url": "https://www.gao.gov/products/gao-26-107867",
+      "retrieval_hash": "sha256:cf90df79476493f821bafb4bf037d5073e4d97c7efcc6cde363d0305df93976b",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024; disaster-risk premium association",
+      "denominator": {"value": 1, "unit": "GAO econometric comparison of otherwise similar homes across risk levels", "value_type": "model_comparison"},
+      "measures": {
+        "high_wind_vs_medium_wind_premium": {"value": 58, "unit": "percent higher associated premium", "value_type": "model_estimate"},
+        "high_wildfire_vs_medium_wildfire_premium": {"value": 8, "unit": "percent higher associated premium", "value_type": "model_estimate"},
+        "high_growth_areas": {"value": 25, "unit": "percent or more increase above inflation in some southern coastal areas", "value_type": "reported_range"}
+      },
+      "method": "GAO econometric premium model using 2019–2024 data and disaster-risk measures; geographic figure and text identify areas with increases of 25% or more above inflation.",
+      "uncertainty": "Model associations depend on specification, risk measurement, property controls, and estimated premiums; they do not prove a household received or paid the modeled amount.",
+      "subgroup": "Homes or areas categorized by wind and wildfire risk, with separate geographic coastal-area comparisons.",
+      "counterinterpretation": "Wind and wildfire risk are correlated with construction, mitigation, insurer availability, regulation, and local market conditions; the two risk coefficients should not be generalized to every peril.",
+      "source_url": "https://www.gao.gov/assets/gao-26-107867.pdf",
+      "retrieval_hash": "sha256:cf90df79476493f821bafb4bf037d5073e4d97c7efcc6cde363d0305df93976b",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2024; state premium-rate filing review",
+      "denominator": {"value": 13000, "unit": "approximate insurer rate filings submitted to all states and DC", "value_type": "reviewed_records"},
+      "measures": {
+        "colorado_median_approval_days": {"value": 331, "unit": "days, median rate-filing approval time", "value_type": "median"},
+        "california_median_approval_days": {"value": 305, "unit": "days, median rate-filing approval time", "value_type": "median"}
+      },
+      "method": "GAO review of approximately 13,000 rate filings and state regulatory environments from 2020–2024, supplemented by interviews and state visits.",
+      "uncertainty": "Approval time is an institutional process measure, not a direct price or availability outcome; GAO reports an association between longer review environments and difficulty obtaining insurance, not a universal causal effect.",
+      "subgroup": "State regulatory environments, with Colorado and California showing the longest cited median approval times.",
+      "counterinterpretation": "States with severe losses, unusual filing complexity, or other market pressures may both have longer reviews and harder availability; the process measure may be a response to the same underlying conditions.",
+      "source_url": "https://www.gao.gov/products/gao-26-107867",
+      "retrieval_hash": "sha256:cf90df79476493f821bafb4bf037d5073e4d97c7efcc6cde363d0305df93976b",
+      "status": "reported"
+    },
+    {
+      "period": "As of August 2025; state residual insurance systems",
+      "denominator": {"value": 51, "unit": "states and District of Columbia considered for state insurance systems", "value_type": "jurisdiction_frame"},
+      "measures": {
+        "states_with_fair_or_beach_plans": {"value": 35, "unit": "states operating plans of last resort", "value_type": "reported_count"},
+        "plan_function": {"value": "coverage for homeowners unable to obtain private insurance; generally less coverage than private policies", "unit": "institutional function", "value_type": "reported"},
+        "potential_private_insurer_assessment": {"value": "possible when plan deficits are assessed to fund the plan", "unit": "risk-financing mechanism", "value_type": "reported"}
+      },
+      "method": "GAO synthesis of state residual-plan information and interviews; FAIR plans are generally statewide and beach plans generally coastal, with plan-specific coverage differences.",
+      "uncertainty": "Plan presence is not plan enrollment, market share, premium affordability, claim adequacy, or household access. The count is a point-in-time institutional inventory and plan rules vary.",
+      "subgroup": "State residual markets, including FAIR plans and beach plans; examples include California wildfire-focused coverage and Texas wind/hail-focused coverage.",
+      "counterinterpretation": "A last-resort plan can preserve nominal coverage while shifting risk, cost, or deficit exposure to households, private insurers, or the state; its presence does not prove private-market failure for every household.",
+      "source_url": "https://www.gao.gov/products/gao-26-107867",
+      "retrieval_hash": "sha256:cf90df79476493f821bafb4bf037d5073e4d97c7efcc6cde363d0305df93976b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107867/index.html", "claim": "Accessible full report contains methods, figures, regression appendices, and state policy discussion.", "status": "reported", "access_boundary": "GAO uses estimated premiums and selected models; it does not provide a same-household recovery panel."},
+    {"source_url": "data/gao-26-107867-full-report.html", "claim": "Local archived report is the reproducible text source used for the extracted findings.", "status": "derived", "access_boundary": "Archival hash verifies the local capture, not the underlying proprietary First Street data."}
+  ],
+  "boundary": "This record extends the insurance market window through 2024 and adds risk and regulatory process evidence. It does not establish individual affordability, coverage adequacy, claims, repairs, mortgage access, moves, or political response."
+}

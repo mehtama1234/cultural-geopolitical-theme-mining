@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-fair-joint-sensitivity-2022",
+  "title": "California joint insurance gradients are sensitive to income and wildfire-risk cut points",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "Sensitivity screens of California ZIP-level FAIR/private-market decisions joined to ACS and CDI exposure context",
+  "geography": "California ZIP/ZCTA approximations with county exposure context",
+  "observations": [
+    {
+      "period": "2022; $50,000 income and 12.1% modeled exposure thresholds",
+      "denominator": {"value": 1570, "unit": "all-dimension joined ZIP rows; cells reported separately", "value_type": "observed_rows"},
+      "measures": {
+        "low_income_high_risk_nonrenewal_rate": {"value": 12.033, "unit": "percent among voluntary renewed plus nonrenewed decisions; 75 ZIP rows", "value_type": "calculated_share"},
+        "low_income_low_risk_nonrenewal_rate": {"value": 13.156, "unit": "percent among voluntary renewed plus nonrenewed decisions; 84 ZIP rows", "value_type": "calculated_share"},
+        "high_income_high_risk_nonrenewal_rate": {"value": 10.984, "unit": "percent among voluntary renewed plus nonrenewed decisions; 546 ZIP rows", "value_type": "calculated_share"},
+        "high_income_low_risk_nonrenewal_rate": {"value": 10.355, "unit": "percent among voluntary renewed plus nonrenewed decisions; 865 ZIP rows", "value_type": "calculated_share"}
+      },
+      "method": "Recomputed decision-weighted nonrenewal cells under three predefined income/risk splits: $50,000/12.1%, joined-sample medians ($86,771/$10.1%), and lower-income/upper-risk quartile boundaries ($64,000/20.6%).",
+      "uncertainty": "Cut-point changes alter composition and cell sizes; the underlying joins retain ZIP/ZCTA approximation, county-level modeled exposure, 2015-versus-2022 timing mismatch, and denominator differences.",
+      "subgroup": "Four income-by-risk cells under each sensitivity definition.",
+      "counterinterpretation": "Because the low-income risk ordering reverses under the $50,000 definition, the original low-income/high-risk contrast cannot be treated as a stable wildfire-risk gradient.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm",
+      "comparison_source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/",
+      "retrieval_hash": "sha256:94e8391aa289ce5e12984d143b65ce1cf10f091d46c95c228d224a2a7d0e0809",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "data/california-fair-joint-sensitivity-2022.json", "claim": "Local output records all sensitivity cut points and cell rates.", "status": "derived", "access_boundary": "Sensitivity does not solve causal or denominator limitations."}
+  ],
+  "boundary": "This record qualifies the California joint insurance screen by showing sensitivity to grouping definitions. It does not establish causality, household affordability, coverage adequacy, repairs, moves, lending effects, or political response."
+}

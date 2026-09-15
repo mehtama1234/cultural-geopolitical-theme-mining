@@ -1,0 +1,76 @@
+{
+  "format": "treasury-fio-census-zcta-join-v1",
+  "period": "2022",
+  "treasury_input": "treasury-fio-homeowners-insurance-2018-2022.xlsx",
+  "census_inputs": [
+    "acs2022-b19013.dat",
+    "acs2022-b17001.dat",
+    "acs2022-b25003.dat"
+  ],
+  "treasury_2022_rows_considered": 25593,
+  "matched_2022_rows": 25084,
+  "match_rate": 0.980112,
+  "classification": "Descriptive grouping by matched 2022 ACS ZCTA context; Treasury five-digit ZIP codes are matched to same-text ZCTA codes as an approximation.",
+  "summaries": {
+    "income:50000_to_99999": {
+      "matched_zip_year_rows": 16927,
+      "mean_premium_per_policy": 1673.740163,
+      "mean_nonrenewal_rate": 0.010257,
+      "mean_claim_severity": 17366.322629
+    },
+    "income:at_least_100000": {
+      "matched_zip_year_rows": 4097,
+      "mean_premium_per_policy": 2332.406994,
+      "mean_nonrenewal_rate": 0.009085,
+      "mean_claim_severity": 22384.638631
+    },
+    "income:below_50000": {
+      "matched_zip_year_rows": 4060,
+      "mean_premium_per_policy": 1630.349376,
+      "mean_nonrenewal_rate": 0.01261,
+      "mean_claim_severity": 18005.08986
+    },
+    "poverty:poverty_10_to_199_percent": {
+      "matched_zip_year_rows": 9305,
+      "mean_premium_per_policy": 1774.53822,
+      "mean_nonrenewal_rate": 0.010006,
+      "mean_claim_severity": 18114.73626
+    },
+    "poverty:poverty_at_least_20_percent": {
+      "matched_zip_year_rows": 9414,
+      "mean_premium_per_policy": 1667.907007,
+      "mean_nonrenewal_rate": 0.0117,
+      "mean_claim_severity": 17883.131508
+    },
+    "poverty:poverty_below_10_percent": {
+      "matched_zip_year_rows": 6365,
+      "mean_premium_per_policy": 1931.301643,
+      "mean_nonrenewal_rate": 0.009236,
+      "mean_claim_severity": 19145.459784
+    },
+    "tenure:owner_share_50_to_749_percent": {
+      "matched_zip_year_rows": 8746,
+      "mean_premium_per_policy": 1768.467847,
+      "mean_nonrenewal_rate": 0.011073,
+      "mean_claim_severity": 17777.027219
+    },
+    "tenure:owner_share_at_least_75_percent": {
+      "matched_zip_year_rows": 14314,
+      "mean_premium_per_policy": 1727.953839,
+      "mean_nonrenewal_rate": 0.009799,
+      "mean_claim_severity": 18174.770087
+    },
+    "tenure:owner_share_below_50_percent": {
+      "matched_zip_year_rows": 2024,
+      "mean_premium_per_policy": 2127.242403,
+      "mean_nonrenewal_rate": 0.012318,
+      "mean_claim_severity": 21313.603439
+    }
+  },
+  "limits": [
+    "ZIP codes and ZCTAs are not identical geographies.",
+    "The Treasury workbook is not a complete insurer or policy census and its metrics are not household-level.",
+    "ACS context and insurance metrics are joined descriptively; no causal or individual affordability inference is identified.",
+    "Results are unweighted means of matched ZIP-year rows, not policy-weighted estimates."
+  ]
+}

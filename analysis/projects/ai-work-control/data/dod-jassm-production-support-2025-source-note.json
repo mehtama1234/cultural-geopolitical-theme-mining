@@ -1,0 +1,19 @@
+{
+  "format": "official-source-extraction-note-v1",
+  "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/4250988//",
+  "retrieval_url": "https://r.jina.ai/http://www.defense.gov/News/Contracts/Contract/Article/4250988/",
+  "retrieved_at": "2026-09-14",
+  "retrieval_note": "Direct defense.gov retrieval returned HTTP 403 in this environment; the page content was retrieved through a text proxy and the proxy response was hashed.",
+  "proxy_response_sha256": "ea25c2ee50832b404405380a5d0f2d55d8b195fc8d16bf98efd78a36211b1874",
+  "extracted_fields": {
+    "contract_value": 999000000,
+    "contract_type": "indefinite-delivery/indefinite-quantity",
+    "program": "JASSM and LRASM production support",
+    "scope": "system upgrades, integration, production, sustainment, management, and logistical support",
+    "work_location": "Orlando, Florida",
+    "expected_completion": "2030-07-17",
+    "funds_obligated_at_award": 0,
+    "contract_number": "FA8682-25-D-B001"
+  },
+  "boundary": "This note preserves the extracted announcement fields; an IDIQ/support announcement is not accepted output, delivery, fielding, or inventory evidence."
+}

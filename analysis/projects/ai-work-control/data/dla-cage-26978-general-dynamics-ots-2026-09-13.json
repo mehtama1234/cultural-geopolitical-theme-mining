@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:07:26.250554+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=26978",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=538541",
+  "cage_query": "26978",
+  "response_sha256": "5a2a8cfdaaecddb439abd6350343c09abd5a15961beaefc04f9fd5b317e2fd4a",
+  "record": {
+    "legal_business_name": "GENERAL DYNAMICS - OTS, INC.",
+    "address": "291 NORTH ST SACO, ME 04072 1809 UNITED STATES OF AMERICA",
+    "cage": "26978",
+    "uei": "C9JJM67GNFZ1",
+    "status": "Active",
+    "cage_update_date": "08/27/2026",
+    "cage_expiration": "08/27/2031",
+    "parent_cage": "95403",
+    "parent_company_name": "GENERAL DYNAMICS CORP"
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

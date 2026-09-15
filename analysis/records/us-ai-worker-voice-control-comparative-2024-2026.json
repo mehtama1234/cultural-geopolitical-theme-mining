@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-worker-voice-control-comparative-2024-2026",
+  "title": "Worker voice is a conversion point between AI exposure and control",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "infrastructure_technology_dependency", "geopolitical_state_consequences"],
+  "source_unit": "Non-pooled comparison of EU worker survey evidence and international social-dialogue case studies, read against the US AI/work-control evidence layer",
+  "geography": "European Union worker survey with cases in the United States, Germany, South Korea, and Kenya; US comparison is contextual, not a pooled estimate",
+  "observations": [
+    {
+      "period": "October 2024-January 2025 fieldwork; JRC analysis published 2026",
+      "denominator": {"value": 70316, "unit": "people aged 16-65 across all 27 EU Member States", "value_type": "worker_survey_sample"},
+      "measures": {
+        "work_related_ai_use": {"value": "about one third", "unit": "reported share of EU workers", "value_type": "weighted_share"},
+        "common_algorithmic_management_practice": {"value": "automated allocation of shifts or working time", "unit": "most common practice in project summary", "value_type": "reported_pattern"},
+        "associated_job_quality_pattern": {"value": "lower autonomy, less ability to take breaks, and higher work-related stress overall; practice and country differences remain", "unit": "cross-sectional association", "value_type": "association"},
+        "strongest_reported_link": {"value": "direct algorithmic direction of tasks and work pace", "unit": "association with lower discretion and greater intensification", "value_type": "reported_pattern"}
+      },
+      "method": "Weighted mobile-only CATI worker survey with cross-country association analysis; not a panel or experiment.",
+      "uncertainty": "Self-reports, cross-sectional design, practice differences, and country institutions prevent a specific technology from being treated as the sole cause of a worker outcome.",
+      "subgroup": "Working-age individuals across 27 EU Member States; effects vary by practice and country.",
+      "counterinterpretation": "Some digital or platform practices show no significant working-condition association; tool presence is not equivalent to consequential use.",
+      "source_url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+      "retrieval_hash": "sha256:3e5acce48d7323a97b4e7bcbbd88b706e4107b2ad485722a5b8a11e38b5ca9de",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024; ILO case studies published July 2025",
+      "denominator": {"value": 5, "unit": "illustrative cases of social dialogue or collective action; not a representative sample", "value_type": "case_set"},
+      "measures": {
+        "reported_conversion_routes": {"value": "collective bargaining, works-council review, system data access, public action, and legal challenge", "unit": "case mechanisms", "value_type": "qualitative_coding"},
+        "reported_rule_changes": {"value": "consent and pay for digital replicas; limits on individual monitoring; human oversight; restored workflow discretion; or unresolved challenge", "unit": "case-specific outcomes", "value_type": "qualitative_outcome"},
+        "cases_with_unresolved_or_partial_outcome": {"value": "HD Hyundai and Kenyan content-moderation cases retain unresolved or partial legal/system outcomes", "unit": "case-status boundary", "value_type": "status"}
+      },
+      "method": "ILO working paper synthesis of interviews, archival material, research, and news reports; cases are not controlled comparisons.",
+      "uncertainty": "Visibility of conflict and negotiated change does not establish durability, representative worker effects, productivity, pay, or a general treatment effect.",
+      "subgroup": "Actors, hotel housekeepers, telecom and technology workers, subcontracted workers, and content moderators in different institutional settings.",
+      "counterinterpretation": "Consultation can be symbolic; an agreement can exist without enforcement; legal interim protection can move separately from final remedy.",
+      "source_url": "https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management",
+      "retrieval_hash": "sha256:cf8f03be6109126fbfef88dcca3e777146ce5e43642bf213d1f907cab19cf8fc",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-ai-management-bargaining-voice-crosssource-2024-2026.json", "claim": "The US comparison layer measures selected adoption, productivity, employer governance, expectations, and formal representation but not worker control.", "status": "related-record"},
+    {"source_url": "../../projects/ai-work-control/jrc-aim-work-source-record-v1.md", "claim": "JRC supplies worker-side survey evidence on autonomy, breaks, stress, and algorithmic management.", "status": "source-record"},
+    {"source_url": "../../projects/ai-work-control/ilo-social-dialogue-case-table-v1.md", "claim": "ILO supplies qualitative cases of bargaining, data use, consent, oversight, collective action, and unresolved remedy.", "status": "source-record"}
+  ],
+  "boundary": "This comparison supports a conversion hypothesis, not a causal estimate: AI or algorithmic exposure can affect job quality, but worker voice becomes control only when an institution can alter deployment, data, workload, consent, appeal, or remedy. EU survey associations and selected international cases cannot be imported as US population estimates. A same-workplace US event with implementation, exposure, worker outcome, voice, and later enforcement remains open."
+}

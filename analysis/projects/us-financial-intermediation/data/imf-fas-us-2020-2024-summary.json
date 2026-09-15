@@ -1,0 +1,90 @@
+{
+  "format": "imf-fas-us-extract-v1",
+  "dataflow": "IMF.STA:FAS(5.0.0)",
+  "country": "USA",
+  "period": "2020-2024",
+  "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+  "retrieval_hash": "sha256:acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+  "response_bytes": 1134481,
+  "rows_returned": 566,
+  "series": {
+    "COMBANK": {
+      "label": "Commercial banks, Number",
+      "unit_type": "number",
+      "unit": "NUM",
+      "transformation": "NUM",
+      "values": {
+        "2020": 4344.0,
+        "2021": 4200.0,
+        "2022": 4097.0,
+        "2023": 3997.0,
+        "2024": 3912.0
+      }
+    },
+    "CUCC": {
+      "label": "Credit unions and credit cooperatives, Number",
+      "unit_type": "number",
+      "unit": "NUM",
+      "transformation": "NUM",
+      "values": {
+        "2020": 5241.0,
+        "2021": 5080.0,
+        "2022": 4895.0,
+        "2023": 4734.0,
+        "2024": 4579.0
+      }
+    },
+    "FA22_COMBANK": {
+      "label": "Branches excluding headquarters, Commercial banks, Number",
+      "unit_type": "number",
+      "unit": "NUM",
+      "transformation": "NUM",
+      "values": {
+        "2020": 75500.0,
+        "2021": 72478.0,
+        "2022": 70265.0,
+        "2023": 69436.0,
+        "2024": 68436.0
+      }
+    },
+    "FA26N": {
+      "label": "Number of commercial bank branches, Per 100,000 adults",
+      "unit_type": "per_100k_adults",
+      "unit": "NUM",
+      "transformation": "PHTADLT_NUM",
+      "values": {
+        "2020": 29.50721825740689,
+        "2021": 28.20735719080002,
+        "2022": 27.11253417865773,
+        "2023": 26.46193983478183,
+        "2024": 25.73749861694919
+      }
+    },
+    "OUTD_COMBANK_S14": {
+      "label": "Outstanding deposits, Commercial banks, Households, Percent of GDP",
+      "unit_type": "percent_gdp",
+      "unit": "",
+      "transformation": "POGDP",
+      "values": {
+        "2020": 55.5156085711178,
+        "2021": 56.44395411716855,
+        "2022": 49.87199957013349,
+        "2023": 44.49072146414253,
+        "2024": 42.42596215956536
+      }
+    },
+    "OUTL_COMBANK_S14": {
+      "label": "Outstanding loans, Commercial banks, Households, Percent of GDP",
+      "unit_type": "percent_gdp",
+      "unit": "",
+      "transformation": "POGDP",
+      "values": {
+        "2020": 19.89952877799233,
+        "2021": 18.65869638977225,
+        "2022": 19.00934575852249,
+        "2023": 18.36685184186398,
+        "2024": 16.79992422697434
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-real-wages-inflation-elections-2021-2024",
+  "title": "County purchasing power and real-wage change carry distinct electoral associations",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback"],
+  "source_unit": "US county-level changes in family-budget costs, nominal income, real wages, and presidential/Congressional election outcomes",
+  "geography": "United States counties, with within-state cross-county comparisons",
+  "observations": [
+    {
+      "period": "2021–2024; county-level purchasing power and election outcomes",
+      "denominator": {"value": 1, "unit": "study frame; county and election observation counts are not stated on the official metadata/abstract page", "value_type": "study_frame"},
+      "measures": {
+        "real_wage_decline_electoral_association": {"value": "real-wage decline, rather than higher inflation alone, is predictive of Republican electoral gains", "unit": "reported county-level association", "value_type": "reported_pattern"},
+        "inflation_presidential_vote_association": {"value": "inflation retains an association with presidential vote shares beyond the real-wage/economic-voting measure", "unit": "reported county-level association", "value_type": "reported_pattern"},
+        "outcomes_examined": {"value": "incumbent vote shares, vote margins, and turnout for presidential and Congressional elections", "unit": "electoral outcomes", "value_type": "reported_scope"},
+        "identification_frame": {"value": "within-state cross-county variation in changes in local prices", "unit": "reported empirical design", "value_type": "reported_method"}
+      },
+      "method": "NBER Working Paper 35301 uses county-level family-budget costs, nominal income, and electoral results, exploiting within-state cross-county variation in local price changes over 2021–2024.",
+      "uncertainty": "This record is based on the official NBER metadata and abstract; full-paper tables, county sample construction, standard errors, covariates, and robustness checks are not reproduced here. County associations do not identify an individual household's bill, perception, attribution, or vote mechanism.",
+      "subgroup": "County-level variation within states; the abstract does not state the full set of subgroup estimates.",
+      "counterinterpretation": "Real-wage decline and inflation can proxy for industrial composition, migration, housing, education, partisan geography, policy exposure, or other local shocks. County electoral movement is not the same as individual persuasion or household political action.",
+      "source_url": "https://www.nber.org/papers/w35301",
+      "retrieval_hash": "sha256:1899a239823a93298284274fc8572540acd364e42c10e66ae74c2907792ec522",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024; full-paper preferred county wage–price-gap specifications",
+      "denominator": {"value": 3102, "unit": "US counties observed in both the 2020 and 2024 presidential elections; county-level regressions", "value_type": "county_observations"},
+      "measures": {
+        "real_wage_growth_republican_vote_share": {"value": -0.0517, "unit": "standardized coefficient; robust SE 0.0208; state-cluster bootstrap SE 0.0311", "value_type": "regression_coefficient"},
+        "real_wage_growth_republican_vote_margin": {"value": -0.0477, "unit": "standardized coefficient; robust SE 0.0181; state-cluster bootstrap SE 0.0248", "value_type": "regression_coefficient"},
+        "real_wage_growth_presidential_turnout": {"value": 0.0987, "unit": "standardized coefficient; robust SE 0.0489; state-cluster bootstrap SE 0.0618", "value_type": "regression_coefficient"},
+        "inflation_republican_vote_share": {"value": -0.1205, "unit": "standardized coefficient; robust SE 0.0275; state-cluster bootstrap SE 0.0386", "value_type": "regression_coefficient"},
+        "inflation_presidential_turnout": {"value": 0.0703, "unit": "standardized coefficient; robust SE 0.0406; state-cluster bootstrap SE 0.0516", "value_type": "regression_coefficient"}
+      },
+      "method": "Full-paper wage–price-gap reparameterization with state fixed effects and controls for urbanization, population density, age, education, real GDP, and demographic composition; local costs from the EPI Family Budget Calculator, wages from BLS QCEW, and election returns from MIT Election Data and Science Lab. Variables are standardized; inference uses robust SEs and 100-replication state-cluster block bootstrap SEs.",
+      "uncertainty": "The unit is a county, not an individual voter or household. The EPI measure is a defined-family cost-of-living measure rather than a fixed basket or household expenditure observation. County composition, local shocks, migration, and partisan trends remain alternative explanations; the paper itself notes that additional design elements are needed for causal shock identification.",
+      "subgroup": "Presidential vote-share change, vote-margin change, and presidential turnout change; a separate congressional-district check uses 1,257 all-district turnout observations, including 227 competitive districts and 1,030 safe districts.",
+      "counterinterpretation": "The turnout result is an aggregate participation change and can reflect registration, migration, community stability, or composition; the negative vote-share coefficient does not identify individual persuasion. Conditioning on post-treatment controls attenuates some coefficients, so the preferred specification is retained separately from robustness checks.",
+      "source_url": "https://ftrebbi.com/research/InflationPocketvotingUS.pdf",
+      "retrieval_hash": "sha256:dae8990a05d2d9da6dda97cac322d99cc673db0808a291553b12975724a9a274",
+      "status": "estimated"
+    },
+    {
+      "period": "2021–2024; county cost-category dispersion and outcome heterogeneity",
+      "denominator": {"value": 3102, "unit": "US counties observed in both the 2020 and 2024 presidential elections; category-level descriptive and regression frame", "value_type": "county_observations"},
+      "measures": {
+        "total_family_budget_cost_growth_range": {"value": "near 0% to above 57%", "unit": "percent change in EPI two-parent/two-child family-budget cost", "value_type": "descriptive_range"},
+        "childcare_cost_growth_range": {"value": "-63% to 240%", "unit": "percent change across counties", "value_type": "descriptive_range"},
+        "healthcare_cost_growth_range": {"value": "-19% to 115%", "unit": "percent change across counties", "value_type": "descriptive_range"},
+        "baseline_vote_share_pattern": {"value": "transportation and healthcare price growth have the largest negative point estimates among the category measures for Republican vote-share change", "unit": "standardized county-level association", "value_type": "reported_pattern"},
+        "baseline_turnout_pattern": {"value": "housing price growth is positively associated with turnout change while childcare price growth is negatively associated; some estimates are imprecise under state-cluster inference", "unit": "standardized county-level association", "value_type": "reported_pattern"},
+        "residual_inflation_interpretation": {"value": "conditional inflation can capture salience, perceived unfairness, expectations, or local demand pressure beyond contemporaneous real-wage change", "unit": "paper's mechanism discussion", "value_type": "interpretive_boundary"}
+      },
+      "method": "Full-paper descriptive statistics and category-specific baseline and wage–price-gap specifications using EPI Family Budget Calculator components for food, housing, childcare, transportation, healthcare, other necessities, and taxes; state fixed effects and the paper's control set are retained for the regression interpretation.",
+      "uncertainty": "Category ranges describe a defined reference family and are not household expenditure distributions. Category-specific associations are county-level, standardized, and subject to state-cluster uncertainty; they do not identify which household paid a category cost or whether the mechanism was persuasion, turnout composition, migration, or local collective conditions.",
+      "subgroup": "Cost categories and county-level presidential, Congressional, and turnout outcomes; no individual demographic subgroup is implied by the category comparison.",
+      "counterinterpretation": "A category with a strong county association may proxy for local industry, housing supply, healthcare markets, commuting structure, demographic change, or partisan geography. A residual inflation coefficient may reflect demand pressure or expectations rather than a direct price-to-vote response.",
+      "source_url": "https://ftrebbi.com/research/InflationPocketvotingUS.pdf",
+      "retrieval_hash": "sha256:dae8990a05d2d9da6dda97cac322d99cc673db0808a291553b12975724a9a274",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-cost-trust-politics/findings/us-cost-trust-politics-014.md", "claim": "ANES supplies an identity-conditioned same-respondent worry/trust/reported-vote comparison with a different unit and estimand.", "status": "related-finding"},
+    {"source_url": "https://doi.org/10.3386/w35301", "claim": "NBER DOI and paper metadata.", "status": "official-metadata"},
+    {"source_url": "../../records/us-bls-cpi-2026-august.json", "claim": "BLS supplies price-index context but not county-level electoral association.", "status": "related-context"}
+  ],
+  "boundary": "This is a full-paper-audited county-level political-economy record with an abstract-level companion observation. It strengthens the material-purchasing-power-to-electoral-outcome layer but does not measure individual attribution, trust formation, household adaptation, or a causal individual vote mechanism. County-level estimates and turnout changes must not be interpreted as same-person political action."
+}

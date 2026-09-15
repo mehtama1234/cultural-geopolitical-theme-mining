@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-work-limitation-children-resources-2024",
+  "title": "Material pressure is jointly distributed across work limitation, children, and resources",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "work_control_bargaining", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "SIPP person record by reference month, stratified by released work-limiting-condition status, household members under 18, and monthly household income-to-poverty ratio",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; work-limiting condition, no household members under 18, below 1.00x poverty",
+      "denominator": {"value": 9404, "unit": "valid person-month records for utility and job measures; outcome-specific food universes differ", "value_type": "unweighted_valid_records"},
+      "measures": {"utility_payment_difficulty": {"value": 18.11, "unit": "percent; Fay-BRR SE 1.72 percentage points", "value_type": "weighted_conditional_share", "valid_records": 9404}, "hungry_but_did_not_eat": {"value": 41.26, "unit": "percent; Fay-BRR SE 3.03 percentage points", "value_type": "weighted_conditional_share", "valid_records": 4328}, "high_or_marginal_food_security": {"value": 60.97, "unit": "percent; Fay-BRR SE 2.23 percentage points", "value_type": "weighted_conditional_share", "valid_records": 9404}, "one_job": {"value": 7.88, "unit": "percent; Fay-BRR SE 1.12 percentage points", "value_type": "weighted_conditional_share", "valid_records": 9404}},
+      "method": "Official SIPP status flags and outcome universes; WPFINWGT full estimate with 240 Fay-BRR replicate weights, G=240, perturbation factor 0.5.",
+      "uncertainty": "Person-weighted descriptive cell; food outcomes have separate valid universes. Household outcomes repeat across people and are not household-weighted.",
+      "subgroup": "EDISABL indicates a condition limiting the kind or amount of work; RHNUMU18 indicates one or more household members under 18; THINCPOV is monthly household income-to-poverty ratio.",
+      "counterinterpretation": "Children-in-household status is not parenthood or care hours; work limitation is not a complete disability measure; low-resource and high-pressure cells bundle housing, health, age, family, and labor-market composition.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; no work-limiting condition, one or more household members under 18, below 1.00x poverty",
+      "denominator": {"value": 7909, "unit": "valid person-month records for utility and job measures; outcome-specific food universes differ", "value_type": "unweighted_valid_records"},
+      "measures": {"utility_payment_difficulty": {"value": 16.43, "unit": "percent; Fay-BRR SE 2.16 percentage points", "value_type": "weighted_conditional_share", "valid_records": 7909}, "hungry_but_did_not_eat": {"value": 24.35, "unit": "percent; Fay-BRR SE 4.22 percentage points", "value_type": "weighted_conditional_share", "valid_records": 2847}, "high_or_marginal_food_security": {"value": 72.16, "unit": "percent; Fay-BRR SE 2.46 percentage points", "value_type": "weighted_conditional_share", "valid_records": 7909}, "one_job": {"value": 36.18, "unit": "percent; Fay-BRR SE 1.89 percentage points", "value_type": "weighted_conditional_share", "valid_records": 7909}},
+      "method": "Same official-universe and Fay-BRR method as the work-limiting-condition cell.",
+      "uncertainty": "Reference comparison is descriptive and not a counterfactual; person-weighted and outcome-specific universes remain in force.",
+      "subgroup": "No released work-limiting condition; one or more household members under 18; below 1.00x monthly income-to-poverty ratio.",
+      "counterinterpretation": "The comparison does not isolate children, disability, income, or work status; family composition, age, housing, care, and employment mix may account for differences.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; work-limiting condition, one or more household members under 18, 4.00x poverty or more",
+      "denominator": {"value": 2498, "unit": "valid person-month records for utility and job measures; hunger universe has 368 valid records", "value_type": "unweighted_valid_records"},
+      "measures": {"utility_payment_difficulty": {"value": 6.74, "unit": "percent; Fay-BRR SE 2.13 percentage points", "value_type": "weighted_conditional_share", "valid_records": 2498}, "hungry_but_did_not_eat": {"value": 24.18, "unit": "percent; Fay-BRR SE 10.41 percentage points", "value_type": "weighted_conditional_share", "valid_records": 368}, "high_or_marginal_food_security": {"value": 89.37, "unit": "percent; Fay-BRR SE 3.23 percentage points", "value_type": "weighted_conditional_share", "valid_records": 2498}, "one_job": {"value": 44.51, "unit": "percent; Fay-BRR SE 3.68 percentage points", "value_type": "weighted_conditional_share", "valid_records": 2498}},
+      "method": "Same official-universe and Fay-BRR method as the low-resource cells.",
+      "uncertainty": "The high-resource child-present work-limiting hunger cell is sparse and highly imprecise; its point estimate must not be ranked as a stable pattern.",
+      "subgroup": "Work-limiting condition; one or more household members under 18; 4.00x monthly income-to-poverty ratio or more.",
+      "counterinterpretation": "The lower hunger point estimate than the child-absent high-resource work-limiting cell is a counter-pattern with a 10.41-point SE, not evidence that children protect food security.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official work-limitation, household-composition, outcome status flags, and universe definitions.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/rw2025_dictionary.txt", "claim": "Official Fay-BRR replicate-weight fields.", "status": "official-replicate-dictionary"}
+  ],
+  "boundary": "This is a person-weighted, design-based intersectional distribution. It does not establish household prevalence, care hours, parenthood, causal effects, a dated bill or employer event, accommodation, recovery, trust, political action, or firm/state response."
+}

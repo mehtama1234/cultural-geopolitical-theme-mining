@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-union-representation-2024-2025",
+  "title": "Formal union representation remains a minority and uneven workplace institution",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "CPS employed wage and salary worker annual average, age 16+",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024",
+      "denominator": {"value": 144522, "unit": "thousand employed wage and salary workers"},
+      "measures": {
+        "union_membership_rate": {"value": 9.9, "unit": "percent of denominator", "value_type": "share"},
+        "represented_rate": {"value": 11.1, "unit": "percent of denominator", "value_type": "share"},
+        "union_members": {"value": 14255, "unit": "thousand workers", "value_type": "population_estimate"},
+        "represented_workers": {"value": 16023, "unit": "thousand workers", "value_type": "population_estimate"}
+      },
+      "method": "BLS CPS annual-average Table 1; representation includes members and workers whose jobs are covered by a union or employee-association contract.",
+      "uncertainty": "Survey estimate; 2024 annual-average sampling and classification uncertainty apply. No interval is reproduced in this record.",
+      "subgroup": "All employed wage and salary workers age 16+; self-employed workers excluded.",
+      "counterinterpretation": "Formal coverage is not the whole of worker power; membership and representation do not directly measure schedule control, appeal ability, autonomy, or exit.",
+      "source_url": "https://www.bls.gov/news.release/union2.t01.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    },
+    {
+      "period": "2025",
+      "denominator": {"value": 146661, "unit": "thousand employed wage and salary workers"},
+      "measures": {
+        "union_membership_rate": {"value": 10.0, "unit": "percent of denominator", "value_type": "share"},
+        "represented_rate": {"value": 11.2, "unit": "percent of denominator", "value_type": "share"},
+        "union_members": {"value": 14665, "unit": "thousand workers", "value_type": "population_estimate"},
+        "represented_workers": {"value": 16486, "unit": "thousand workers", "value_type": "population_estimate"}
+      },
+      "method": "BLS CPS annual-average Table 1; representation includes members and workers whose jobs are covered by a union or employee-association contract.",
+      "uncertainty": "BLS reports that 2025 annual estimates exclude October because of the federal government shutdown and are not strictly comparable with other annual averages; no interval is reproduced in this record.",
+      "subgroup": "All employed wage and salary workers age 16+; self-employed workers excluded.",
+      "counterinterpretation": "The small one-year rate movement cannot establish a trend in practical bargaining power, and the 2025 collection break limits direct year-over-year interpretation.",
+      "source_url": "https://www.bls.gov/news.release/union2.t01.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    }
+  ],
+  "boundary": "This is a CPS representation-context trend, not a causal union-wage estimate or direct measure of worker autonomy, household security, cultural meaning, collective action, or political response. The retrieval hash covers the committed BLS analysis memo."
+}

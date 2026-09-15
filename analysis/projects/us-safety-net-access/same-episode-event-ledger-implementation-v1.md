@@ -26,6 +26,12 @@ Every table keeps its own source, date precision, universe, missingness, and
 evidence status. A blank is not a zero and an administrative absence is not a
 reported absence.
 
+The shared event-ledger schema now makes these controls mandatory at the event
+boundary as well: geography, date precision, denominator, method, missingness,
+and an explicit counterexample must be recorded before a staged episode can be
+used in a cross-source comparison. The [simulated fixture](../../samples/US-BROAD-EVENT-LEDGER-SIMULATED_V1.json)
+tests the contract only; it is not evidence.
+
 ## Linked record architecture
 
 Use pseudonymous `episode_id`; never put a name, address, case number, or full
@@ -89,6 +95,10 @@ available. Do not use participation or exit as a proxy for these fields.
 
 Each value carries `measurement_date`, `source`, `universe`, `missing_code`, and
 `evidence_status` (`observed`, `reported`, `estimated`, `compared`, or `open`).
+Each follow-up window also carries `protected_outcome` and
+`sacrificed_outcome`: what remained secure or was avoided, and what was lost,
+delayed, transferred, or put at risk. These fields may be unknown; they must
+not be inferred from receipt, exit, or route burden alone.
 
 ### 5. Meaning and action table: `meaning_action`
 

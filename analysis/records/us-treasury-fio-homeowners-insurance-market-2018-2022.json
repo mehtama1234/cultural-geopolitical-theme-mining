@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-treasury-fio-homeowners-insurance-market-2018-2022",
+  "title": "Climate-risk ZIP codes show higher homeowners-insurance cost and nonrenewal exposure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "Treasury Federal Insurance Office analysis of aggregated homeowners-insurance policy and ZIP-code data",
+  "geography": "United States; ZIP codes grouped by expected annual building losses from nine climate-related perils",
+  "observations": [
+    {
+      "period": "2018-2022; highest versus lowest climate-risk ZIP-code quintiles",
+      "denominator": {"value": 1, "unit": "published ZIP-code risk-quintile comparison; policy-level premium averages", "value_type": "comparison_frame"},
+      "measures": {
+        "high_risk_average_premium_per_policy": {"value": 2321, "unit": "2022 dollars per policy, average for highest-risk ZIP quintile", "value_type": "mean"},
+        "high_risk_premium_difference": {"value": 82, "unit": "percent higher than lowest-risk ZIP quintile", "value_type": "relative_difference"}
+      },
+      "method": "Treasury FIO analysis of NAIC/state-regulator data from more than 330 insurers and over 246 million policies, grouped by expected annual losses to buildings from nine climate-related perils.",
+      "uncertainty": "The release reports a risk-group comparison, not a causal decomposition of climate risk, reconstruction costs, inflation, reinsurance, regulation, insurer mix, or property composition.",
+      "subgroup": "ZIP codes in the highest and lowest 20 percent of expected annual building losses; ZIP-level groups are not household income groups.",
+      "counterinterpretation": "Higher premiums may reflect several correlated risks and costs; the result does not show that a particular household received a quote or could not obtain coverage.",
+      "source_url": "https://home.treasury.gov/news/press-releases/jy2791",
+      "retrieval_hash": "sha256:dacbf2be9be77b0561f650021237955476ef9ec9e3ebdc39858c5657c27fb288",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2022; highest versus lowest climate-risk ZIP-code quintiles",
+      "denominator": {"value": 1, "unit": "published ZIP-code risk-quintile comparison; policy nonrenewal rates", "value_type": "comparison_frame"},
+      "measures": {
+        "high_risk_nonrenewal_difference": {"value": 80, "unit": "percent higher average nonrenewal rate than lowest-risk ZIP quintile, approximate", "value_type": "relative_difference"},
+        "high_risk_claim_severity": {"value": 24000, "unit": "dollars average paid claim severity", "value_type": "mean"},
+        "low_risk_claim_severity": {"value": 19000, "unit": "dollars average paid claim severity", "value_type": "mean"}
+      },
+      "method": "Treasury FIO comparison of reported policy nonrenewal and paid-claim metrics across climate-risk ZIP-code groups.",
+      "uncertainty": "Nonrenewal is an insurer-policy event, not a direct household availability or relocation measure; claim severity averages do not identify claim type, household loss, or recovery.",
+      "subgroup": "Highest and lowest climate-risk ZIP-code quintiles.",
+      "counterinterpretation": "Nonrenewals may reflect underwriting, property condition, policy mix, or state rules as well as expected climate loss; higher claim severity may reflect different insured assets.",
+      "source_url": "https://home.treasury.gov/news/press-releases/jy2791",
+      "retrieval_hash": "sha256:a1ba63f18d5a6c3f0bf499d5f055b3d76ed54ee5d608e5480222569e1b248e47",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2022; supporting ZIP-code panel",
+      "denominator": {"value": 1, "unit": "ZIP-code-year rows with at least 10 reporting insurers and 50 policies; workbook includes 2018-2022", "value_type": "observed_rows"},
+      "measures": {
+        "available_metrics": {"value": "claim frequency; claim severity; loss ratio; premiums per policy; nonrenewal rate; nonpayment cancellation rate; other-than-nonpayment cancellation rate", "unit": "published workbook fields", "value_type": "reported"},
+        "coverage": {"value": 80, "unit": "percent of HO-3 and HO-5 policies nationwide measured by direct premiums written, as described by Treasury", "value_type": "coverage_share"}
+      },
+      "method": "Treasury-released aggregated ZIP-code/year workbook underlying the FIO analysis; data are not a complete census of insurers, forms, residual markets, E&S markets, flood insurance, or 2023-2024 activity.",
+      "uncertainty": "Treasury warns of variable state and ZIP-code scope, retrospective reporting inconsistencies, anomalies, and limited representativeness where smaller insurers were not asked to report. The workbook is suitable for aggregate analysis more than individual ZIP inference.",
+      "subgroup": "Qualifying ZIP-code/year observations, with policy-count decile and climate-risk group fields available in the workbook.",
+      "counterinterpretation": "Observed market metrics cannot by themselves connect insurer decisions to household income, coverage adequacy, repairs, mortgage access, moves, or political response.",
+      "source_url": "https://home.treasury.gov/system/files/311/Supporting_Underlying_Metrics_and_Disclaimer_for_Analyses_of_US_Homeowners_Insurance_Markets_2018-2022.xlsx",
+      "retrieval_hash": "sha256:99ff8f67d930232d375d3813ffbacacd2a4a8d932d89c81fd8b17b5a6343672e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://home.treasury.gov/system/files/311/Final%20FIO%202025%20Annual%20Report.pdf", "claim": "The FIO annual report supplies the detailed methodology and market context for the release and workbook.", "status": "reported", "access_boundary": "The public data window ends in 2022 and does not establish 2023-2025 market conditions."},
+    {"source_url": "data/treasury-fio-workbook-audit.json", "claim": "The local reproducible audit counts valid rows by year and documents that policy-count deciles are distinct from climate-risk groups.", "status": "derived", "access_boundary": "The audit checks workbook structure and completeness; it does not validate the underlying insurer submissions."}
+  ],
+  "boundary": "This record establishes a market-side association between climate-risk ZIP-code groupings and reported premiums, nonrenewals, and claim severity in 2018-2022. It does not establish household-level affordability, actual coverage loss, repair or move outcomes, causation, or political/geopolitical consequence. Those links remain open for matched place-time work."
+}

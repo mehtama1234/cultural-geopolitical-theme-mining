@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-consumer-loss-recourse-recovery-crosssource-2020-2025",
+  "title": "Consumer protection has visible routing but unresolved recovery, remedy, and trust gaps",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "trust_identity_meaning", "platforms_data_attention", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "Deliberately non-pooled comparison of Federal Reserve household fraud respondents, FTC reports, CFPB published complaints, and student-loan complaint timing fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; Federal Reserve SHED household fraud and recovery",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; loss/recovery measures condition on adults experiencing non-credit-card fraud", "value_type": "survey_population"},
+      "measures": {
+        "any_financial_fraud": {"value": 21, "unit": "percent of adults", "value_type": "share"},
+        "non_credit_card_fraud_lost_money": {"value": 63, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "share"},
+        "non_credit_card_fraud_some_money_not_recovered": {"value": 32, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "share"},
+        "estimated_non_credit_card_loss": {"value": 84000000000, "unit": "US dollars estimated", "value_type": "estimated_amount"},
+        "estimated_net_consumer_loss": {"value": 63000000000, "unit": "US dollars estimated", "value_type": "estimated_amount"},
+        "spent_ten_or_more_hours_recovering": {"value": 30, "unit": "percent of adults experiencing non-credit-card fraud, approximate", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2024 SHED weighted estimates; exposure, conditional loss, recovery, and time cost are retained as separate endpoints.",
+      "uncertainty": "Self-reported survey estimates concern the most recent relevant incident and do not establish verified fraud, complete incidence, event-level recovery, causal firm responsibility, or remedy adequacy.",
+      "subgroup": "All adults, with non-credit-card fraud loss/recovery conditional on the relevant fraud experience; age-conditioned incidence and loss are separate universes.",
+      "counterinterpretation": "Credit-card liability protections may limit direct loss; reported recovery and time cost can reflect reporting, recall, scam type, assets, or access to help rather than a uniform consumer-protection failure.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+      "retrieval_hash": "sha256:c4aec1766b3ea289d519e841610f9ea639d4688c851d384bb9f3ef14d309284c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; FTC consumer-fraud administrative report frame",
+      "denominator": {"value": 3000000, "unit": "approximate consumer fraud reports received by FTC", "value_type": "reported_count"},
+      "measures": {
+        "reported_fraud_losses": {"value": 15900000000, "unit": "US dollars reported lost, approximate", "value_type": "reported_amount"},
+        "imposter_reports": {"value": 1000000, "unit": "reports, more than", "value_type": "reported_count"},
+        "imposter_reported_losses": {"value": 3500000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"},
+        "investment_scam_reported_losses": {"value": 7900000000, "unit": "US dollars reported lost, more than", "value_type": "reported_amount"},
+        "imposter_loss_multiple_vs_2020": {"value": 3, "unit": "approximately times, lower-bound comparison", "value_type": "reported_comparison"}
+      },
+      "method": "FTC administrative totals and 2020-2025 comparison reported in Joint Economic Committee testimony; approximate and lower-bound language is retained.",
+      "uncertainty": "Reports are unverified, may include multiple contributors and changing reporting access, and undercount unreported fraud. Reported losses are not a complete loss census or recovery measure.",
+      "subgroup": "All FTC consumer-fraud reports, with imposter and investment categories retained separately.",
+      "counterinterpretation": "Higher reported losses can reflect reporting propensity, category mix, high-value cases, or coverage changes; administrative visibility is not household prevalence or remedy success.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf",
+      "retrieval_hash": "sha256:0b91baf3b36465eee60e05865b09d3ea1a9bc4653b1059013414b30cded7931b",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; CFPB published complaint response endpoint",
+      "denominator": {"value": 444837, "unit": "published CFPB complaint records in 2020; 2025 has 5,452,107 records", "value_type": "published_record_bases"},
+      "measures": {
+        "2020_explanation": {"value": 90.7135, "unit": "percent of published records", "value_type": "share"},
+        "2020_monetary_relief": {"value": 2.9103, "unit": "percent of published records", "value_type": "share"},
+        "2020_narrative_present": {"value": 39.2377, "unit": "percent of published records", "value_type": "share"},
+        "2025_explanation": {"value": 58.706, "unit": "percent of published records", "value_type": "share"},
+        "2025_monetary_relief": {"value": 0.48, "unit": "percent of published records", "value_type": "share"},
+        "2025_narrative_present": {"value": 22.4255, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API annual aggregation of published complaints; response labels, narratives, and monetary/non-monetary categories are administrative publication endpoints, not verified household outcomes.",
+      "uncertainty": "No sampling standard error; published-record selection, product mix, routing, coding, index timing, and the 2025 in-progress category may drive changes. Complaint records do not provide account denominators or representative consumer exposure.",
+      "subgroup": "All published complaints pooled across products and years in this comparison; product-conditioned layers remain separate.",
+      "counterinterpretation": "A lower monetary-relief label may reflect coding, product mix, routing, or publication change rather than lower remedy; an explanation label is not necessarily adequate correction or trust repair.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "c662900969b397a1c0158d3ccf2452ac13a85899ce30e6e0fc2839704d87dcaa; 786208fcb8c3149a68fa35f7984cab994afb9019e16b59775d729d414bcd710f",
+      "status": "observed"
+    },
+    {
+      "period": "2024-2025; CFPB student-loan complaint timing-field audit",
+      "denominator": {"value": 14685, "unit": "published student-loan complaint records in 2024; 2025 has 21,333 records", "value_type": "published_product_record_bases"},
+      "measures": {
+        "2024_company_response_untimely": {"value": 0.3337, "unit": "percent of student-loan complaint records", "value_type": "share"},
+        "2024_timely_field_no": {"value": 5.6384, "unit": "percent of student-loan complaint records", "value_type": "share"},
+        "2025_company_response_untimely": {"value": 15.9237, "unit": "percent of student-loan complaint records", "value_type": "share"},
+        "2025_timely_field_no": {"value": 30.4036, "unit": "percent of student-loan complaint records", "value_type": "share"}
+      },
+      "method": "Official CFPB product-filtered API aggregation and annual-report comparison; the company_response field and separate timely field are preserved as different administrative endpoints.",
+      "uncertainty": "No sampling standard error or elapsed-days measure; year-over-year movement may reflect servicing, routing, publication, coding, taxonomy, or index changes. No borrower harm, payment interruption, or verified remedy is observed.",
+      "subgroup": "Student-loan complaints in the CFPB published product-filtered data.",
+      "counterinterpretation": "The field divergence is not a contradiction and cannot be read as a uniform deterioration in servicing without case-level notices, transfer dates, payment status, elapsed time, and remedy records.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/",
+      "retrieval_hash": "sha256:f6d188c253774f4d0d2d27f01da8aef56dd27ba33538d44d47711aa7dd3ed87d; sha256:863d362c500b6bd33134f30de60087b4349cd0ac90b231f35082fcb4b1ec9ec5; report:sha256:5364f19086de5a0ede17c11933c1b69d528dd2a3271700e34217634bb32230e0",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-federal-reserve-household-fraud-recovery-2024.json", "claim": "SHED supplies household exposure, conditional loss, recovery, and time-cost estimates.", "status": "related-record"},
+    {"source_url": "../../records/us-ftc-consumer-sentinel-2025-extension.json", "claim": "FTC supplies administrative reported-loss and category scale context.", "status": "related-record"},
+    {"source_url": "../../records/us-cfpb-annual-response-trend-2020-2025.json", "claim": "CFPB supplies the published complaint-response trend.", "status": "related-record"},
+    {"source_url": "../../records/us-cfpb-student-loan-timing-field-audit-2024-2025.json", "claim": "CFPB student-loan audit preserves separate timing fields and their interpretation boundary.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled consumer-power bridge from reported exposure and loss through administrative visibility and response labels toward recovery and trust. It does not establish representative prevalence, verified firm liability, remedy adequacy, account-level exposure, switching, exit, trust repair, or political action. A lawful same-case or linked household/account ledger remains required for those arrows."
+}

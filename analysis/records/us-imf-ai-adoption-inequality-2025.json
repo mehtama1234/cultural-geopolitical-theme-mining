@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-imf-ai-adoption-inequality-2025",
+  "title": "AI can reduce modeled wage inequality while increasing modeled wealth inequality",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["unequal_exposure_status", "work_control_bargaining", "firm_sector_market_power", "household_room_consumption", "trust_identity_meaning", "geopolitical_state_consequences"],
+  "source_unit": "IMF Working Paper 2025/068 calibrated task-based model with household microdata and endogenous firm adoption choice",
+  "geography": "Model-based distributional framework; country/household geography is defined by the paper's microdata and scenario, not a realized US panel",
+  "observations": [
+    {
+      "period": "2025; IMF Working Paper 2025/068 summary mechanism",
+      "denominator": {"value": 1, "unit": "calibrated task-based model with household microdata", "value_type": "study_artifact"},
+      "measures": {
+        "wage_inequality_channel": {"value": "could fall through displacement of high-income tasks", "unit": "modeled distributional channel", "value_type": "model_result"},
+        "high_income_task_complementarity": {"value": "can raise high-income worker productivity", "unit": "modeled mechanism", "value_type": "model_result"},
+        "wealth_channel": {"value": "can rise through capital returns and ownership concentration", "unit": "modeled distributional channel", "value_type": "model_result"}
+      },
+      "method": "Household microdata combined with a calibrated task-based model; firms can choose AI adoption and tasks can be displaced or complemented.",
+      "uncertainty": "IMF working papers describe research in progress. The mechanisms depend on calibration, task structure, complementarity, capital returns, ownership, and firm adoption behavior; they are not observed post-adoption outcomes.",
+      "subgroup": "Modeled higher-income workers, lower-income workers, displaced or complemented task groups, and capital owners.",
+      "counterinterpretation": "Taxes, transfers, bargaining, ownership changes, firm behavior, and actual adoption timing could alter both wage and wealth channels.",
+      "source_url": "https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729",
+      "retrieval_hash": "sha256:5496cf30c82f6990d2d50abbfd2a1899633526aac83dd1a441d1595b293428b3",
+      "status": "reported"
+    },
+    {
+      "period": "2014-2048; IMF baseline AI scenario",
+      "denominator": {"value": 1, "unit": "calibrated scenario comparison", "value_type": "model_artifact"},
+      "measures": {
+        "wage_gini_change": {"value": -1.73, "unit": "percentage points in modeled wage Gini", "value_type": "model_result"},
+        "wealth_gini_change": {"value": 7.18, "unit": "percentage points in modeled wealth Gini", "value_type": "model_result"},
+        "scenario_horizon": {"value": 34, "unit": "years", "value_type": "scenario_horizon"}
+      },
+      "method": "Extraction from the IMF baseline scenario figures in Working Paper 2025/068; household microdata are combined with task displacement/complementarity and firm adoption choice.",
+      "uncertainty": "The Gini changes are calibrated scenario outputs rather than realized 2014-2048 observations. They are sensitive to the assumed adoption rule, capital returns, task mapping, and distribution of ownership.",
+      "subgroup": "Modeled income and wealth distributions; higher-income workers and capital owners versus workers whose tasks are displaced or complemented.",
+      "counterinterpretation": "A falling modeled wage Gini alongside a rising modeled wealth Gini does not show what happened to actual US households or any particular group after AI adoption.",
+      "source_url": "https://www.elibrary.imf.org/view/journals/001/2025/068/article-A001-en.xml",
+      "retrieval_hash": "sha256:1998a7eef1fa2076574bd481629993d510bb288fce0c82efad5d50c1cef37591",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; firm-adoption-choice mechanism",
+      "denominator": {"value": 1, "unit": "model specification with endogenous firm AI adoption", "value_type": "study_artifact"},
+      "measures": {
+        "adoption_when_firms_choose": {"value": "higher when modeled cost savings from automating high-wage tasks are included", "unit": "comparative model result", "value_type": "model_result"},
+        "wealth_effect": {"value": "particularly pronounced under firm adoption choice", "unit": "modeled comparative result", "value_type": "model_result"}
+      },
+      "method": "Comparison of model specifications with and without firm choice over AI adoption.",
+      "uncertainty": "This is a structural model comparison, not a measured adoption rate or estimate of observed firm ownership returns. It does not observe worker voice, taxes, market power, or bargaining.",
+      "subgroup": "Firms, workers in high-wage-task occupations, and capital owners.",
+      "counterinterpretation": "If actual firms face different costs, regulation, labor institutions, or complementary investments, the modeled adoption and distributional tradeoff may not materialize.",
+      "source_url": "https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729",
+      "retrieval_hash": "sha256:5496cf30c82f6990d2d50abbfd2a1899633526aac83dd1a441d1595b293428b3",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.5089/9798229006828.001", "claim": "IMF provides the formal citation and DOI for Working Paper 2025/068.", "status": "official-publication"},
+    {"source_url": "https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729", "claim": "IMF states the working-paper disclaimer and summarizes the competing wage and wealth channels.", "status": "official-summary"},
+    {"source_url": "https://data.imf.org/en", "claim": "Registered IMF data landing page for distinguishing model mechanisms from observed macroeconomic series.", "status": "source-registry-context"}
+  ],
+  "boundary": "This record captures a calibrated IMF model in which AI can have different wage and wealth distributional channels. It does not establish realized US inequality, actual adoption, worker bargaining power, household security, political response, or geopolitical consequence. The scenario must be compared with observed wages, ownership, firm adoption, taxes, training, and worker outcomes before making a population claim."
+}

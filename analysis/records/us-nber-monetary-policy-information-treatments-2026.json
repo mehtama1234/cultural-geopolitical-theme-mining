@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-monetary-policy-information-treatments-2026",
+  "title": "Monetary-policy expectation estimates vary with the design used to measure the announcement response",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "US household respondent in a two-wave survey comparison around a Federal Reserve announcement",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "September 2025 Federal Reserve rate-cut announcement; two-wave survey",
+      "denominator": {"value": 1, "unit": "NBER paper comparison of three survey designs; design-specific respondent counts are not stated on the metadata page", "value_type": "study_frame"},
+      "measures": {
+        "designs_compared": {"value": "randomized hypothetical scenarios, randomized information provision, and surveys immediately before and after an actual announcement", "unit": "research designs", "value_type": "reported_design"},
+        "direction_of_expectation_change": {"value": "rate cuts are associated with lower expected inflation and unemployment and stronger expected economic activity", "unit": "reported qualitative direction", "value_type": "reported_pattern"},
+        "vignette_vs_rct_event_estimates": {"value": "vignette estimates are substantially larger than average randomized-information and event-study estimates", "unit": "relative estimate comparison", "value_type": "reported_comparison"}
+      },
+      "method": "NBER Working Paper 35090 comparison of hypothetical, randomized-information, and actual-announcement event-study designs embedded in a two-wave survey.",
+      "uncertainty": "The full-paper numerical estimates are recorded in a separate observation below; the designs identify different reduced-form objects and do not estimate a structural exogenous monetary-policy shock or general-equilibrium effect.",
+      "subgroup": "Expectation revisions vary with respondent-specific policy surprises; detailed prior-knowledge and exposure splits are recorded below.",
+      "counterinterpretation": "A hypothetical vignette can amplify stated responses relative to an information treatment or real announcement because it removes awareness, salience, comprehension, or concurrent-news constraints; a shared direction does not imply equal behavioral magnitude.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w35090/w35090.pdf",
+      "retrieval_hash": "sha256:4b3a566790f2b3ddf72ad71a00bdba960fe2a68351dedf36513f753505f399eb",
+      "status": "reported"
+    },
+    {
+      "period": "September 2025 announcement; information-awareness comparison",
+      "denominator": {"value": 1, "unit": "design-specific RCT and pre/post comparison subsets; exact counts not stated on the metadata page", "value_type": "study_frame"},
+      "measures": {
+        "new_information_rct_alignment": {"value": "differences between the RCT and event-study estimates shrink among RCT respondents for whom the decision was new information", "unit": "reported comparative result", "value_type": "reported_comparison"},
+        "announcement_awareness_condition": {"value": "pre/post expectation revisions are compared among respondents who knew about the decision", "unit": "reported conditioning rule", "value_type": "reported_design"},
+        "policy_surprise_gradient": {"value": "expectation revisions vary systematically with respondent-specific policy surprises", "unit": "reported heterogeneity pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Comparative analysis of treatment-information status, announcement awareness, and respondent-specific policy surprises across the three survey designs.",
+      "uncertainty": "The surprise and awareness comparisons are not interchangeable population treatment effects; event-study exposure is not randomized and the expectation measures do not establish realized spending, borrowing, saving, or trust.",
+      "subgroup": "Respondents classified by whether the policy decision was new information, whether they knew about the announcement, and the size or direction of their policy surprise.",
+      "counterinterpretation": "Conditioning on awareness or new information can select respondents with different financial literacy, media exposure, prior beliefs, or interest in the Federal Reserve; the design comparison is not automatically a population treatment effect.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w35090/w35090.pdf",
+      "retrieval_hash": "sha256:4b3a566790f2b3ddf72ad71a00bdba960fe2a68351dedf36513f753505f399eb",
+      "status": "compared"
+    },
+    {
+      "period": "September 2025 FOMC meeting; full-paper design and sample audit",
+      "denominator": {"value": 6968, "unit": "pooled Wave 1/Wave 2 event-study observations; balanced panel has 1,308 recontacted respondents", "value_type": "reported_sample"},
+      "measures": {
+        "fomc_action": {"value": "25 basis point federal-funds-rate cut on September 17, 2025", "unit": "realized policy action", "value_type": "reported_event"},
+        "survey_timing": {"value": "Wave 1 September 14-15; Wave 2 September 18-19", "unit": "field dates", "value_type": "reported_design"},
+        "vignette_sample": {"value": 4067, "unit": "valid one-year-inflation vignette observations; other outcome counts vary slightly", "value_type": "reported_sample"},
+        "rct_sample": {"value": 1308, "unit": "recontacted respondents in randomized information-treatment analysis", "value_type": "reported_sample"},
+        "rct_prior_knowledge": {"value": "557 previously unaware and 751 previously aware", "unit": "respondents in RCT knowledge split", "value_type": "reported_subgroup_count"},
+        "event_study_sample": {"value": "6,968 pooled cross-section observations and 1,308 balanced-panel respondents", "unit": "reported event-study observations", "value_type": "reported_sample"}
+      },
+      "method": "Two-wave survey around the September 2025 FOMC meeting combining randomized hypothetical scenarios, randomized information treatment, repeated cross-section, balanced-panel, respondent-fixed-effect, and exposure/perception comparisons; robust standard errors reported.",
+      "uncertainty": "The paper is a working paper and the designs identify different reduced-form responses to communicated or observed policy actions, not a structural exogenous monetary-policy shock or general-equilibrium effect. Event-study exposure is not randomized, and the analysis is based on survey expectations rather than realized household financial behavior.",
+      "subgroup": "RCT prior knowledge: 43% previously unaware and 57% previously aware; event-study balanced-panel exposure: about 85% reported hearing/substantive belief, with 1,108 exposed and 200 unexposed; among exposed, 751 correctly perceived the cut and 357 did not.",
+      "counterinterpretation": "The rate decision can signal the Federal Reserve's information about inflation or labor-market weakness, not only change borrowing conditions. The event study also includes the statement, press conference, media reactions, and other concurrent news.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w35090/w35090.pdf",
+      "retrieval_hash": "sha256:4b3a566790f2b3ddf72ad71a00bdba960fe2a68351dedf36513f753505f399eb",
+      "status": "observed"
+    },
+    {
+      "period": "September 2025 FOMC meeting; cross-design one-year expectation estimates",
+      "denominator": {"value": 1, "unit": "design-specific regression estimates; denominators are reported in the full-paper audit observation", "value_type": "estimate_frame"},
+      "measures": {
+        "vignette_25bp_cut_vs_no_change_1y_inflation": {"value": -2.043, "unit": "percentage points; robust SE 0.216", "value_type": "estimated_effect"},
+        "rct_full_1y_inflation": {"value": -0.833, "unit": "percentage points; robust SE 0.156", "value_type": "estimated_effect"},
+        "rct_unaware_1y_inflation": {"value": -1.937, "unit": "percentage points; robust SE 0.224", "value_type": "estimated_effect"},
+        "rct_aware_1y_inflation": {"value": 0.026, "unit": "percentage points; robust SE 0.199", "value_type": "estimated_effect"},
+        "event_full_1y_inflation": {"value": -0.815, "unit": "percentage points; robust SE 0.081; repeated cross-section", "value_type": "estimated_change"},
+        "event_balanced_panel_1y_inflation": {"value": -0.721, "unit": "percentage points; robust SE 0.121", "value_type": "estimated_change"},
+        "event_correctly_perceived_cut_1y_inflation": {"value": -1.299, "unit": "percentage points; robust SE 0.080", "value_type": "estimated_change"},
+        "event_did_not_hear_1y_inflation": {"value": -0.058, "unit": "percentage points; robust SE 0.136", "value_type": "estimated_change"}
+      },
+      "method": "Cross-design estimates from the paper's vignette, randomized information-treatment, and event-study specifications with baseline expectation and demographic controls where specified; robust standard errors in parentheses.",
+      "uncertainty": "The estimates are not interchangeable average treatment effects. Vignette exposure is universal and hypothetical; RCT treatment communicates a realized decision and is attenuated by prior knowledge; event-study exposure is naturally occurring and includes concurrent announcement information. None estimates realized spending, debt, saving, or portfolio changes.",
+      "subgroup": "One-year inflation expectation estimates split by RCT prior knowledge and event-study announcement exposure/correct perception.",
+      "counterinterpretation": "The negative inflation-expectation response to a rate cut differs from a conventional demand-channel prediction and may reflect respondents inferring weaker inflation or labor-market conditions from the central bank's action.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w35090/w35090.pdf",
+      "retrieval_hash": "sha256:4b3a566790f2b3ddf72ad71a00bdba960fe2a68351dedf36513f753505f399eb",
+      "status": "estimated"
+    },
+    {
+      "period": "Pre-trial registration published September 3, 2025; planned study window September 10, 2025-September 30, 2026",
+      "denominator": {"value": 4800, "unit": "planned Wave 1 online-survey respondents; registry also planned approximately 2,100 Wave 2 respondents", "value_type": "registered_sample"},
+      "measures": {
+        "planned_wave1": {"value": 4800, "unit": "approximately planned Wave 1 respondents", "value_type": "registered_sample"},
+        "planned_wave2": {"value": 2100, "unit": "approximately planned Wave 2 respondents", "value_type": "registered_sample"},
+        "planned_wave1_arm_size": {"value": 800, "unit": "approximately planned respondents per Wave 1 group", "value_type": "registered_arm_size"},
+        "planned_wave2_arm_size": {"value": 700, "unit": "approximately planned respondents per Wave 2 group", "value_type": "registered_arm_size"},
+        "randomization": {"value": "individual-level computer randomization; no clustering", "unit": "registered design", "value_type": "registered_design"},
+        "primary_outcome": {"value": "updating of macroeconomic expectations under hypothetical versus factual policy information", "unit": "registered outcome family", "value_type": "registered_outcome"}
+      },
+      "method": "AEA RCT Registry pre-trial registration AEARCTR-0016642; registration page reports planned sample sizes, individual randomization, intervention dates, and primary outcome family.",
+      "uncertainty": "The registry is a planned-design artifact, not evidence that the planned sample, arm sizes, or intervention window were fully realized. The public page reports limited experimental-design detail and states that some information is unavailable.",
+      "subgroup": "Planned Wave 1 hypothetical/control groups and Wave 2 information/control groups; registration does not provide the final analytic subgroup counts used in the paper.",
+      "counterinterpretation": "A final sample larger or smaller than the plan can reflect recontact, eligibility, exclusions, or recruitment changes; planned and analyzed denominators must not be silently substituted for one another.",
+      "source_url": "https://www.socialscienceregistry.org/trials/16642",
+      "retrieval_hash": "sha256:23a18640141be2132928a454d87b110d52574ae5545f12632537259b035a6f66",
+      "status": "open"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w35090", "claim": "NBER DOI and citation route for Working Paper 35090.", "status": "official-citation"},
+    {"source_url": "https://www.dropbox.com/scl/fi/31mdzavelzr0fuyw9maym/BGKT_2026.pdf?dl=0&rlkey=fh15qmim9kph8ljrtvt8qjusr&st=z1m94vyy", "claim": "Author-hosted August 2026 PDF artifact used for the full-paper extraction and hash.", "status": "author-hosted-primary"},
+    {"source_url": "https://www.socialscienceregistry.org/trials/16642", "claim": "AEA RCT Registry pre-trial registration with planned samples, individual randomization, intervention dates, and primary outcome family.", "status": "pre-registration"},
+    {"source_url": "https://www.nber.org/papers/w35127", "claim": "Related household monetary-policy expectations and behavior study in the program.", "status": "related-evidence"}
+  ],
+  "boundary": "This record promotes the author-hosted August 2026 full-paper estimates and design audit while preserving the working-paper, survey-expectation, reduced-form, exposure, and no-realized-action boundaries. It does not establish a structural monetary-policy shock, general-equilibrium effect, household spending/debt response, trust change, or political consequence."
+}

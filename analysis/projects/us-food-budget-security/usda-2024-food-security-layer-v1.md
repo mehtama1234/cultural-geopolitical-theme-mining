@@ -88,3 +88,7 @@ unpaid help, stigma, and political interpretation as separate outcomes.
 Sources: [USDA ERS 2024 food-security report](https://ers.usda.gov/publications/113622),
 [USDA key statistics and subgroup data](https://ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics),
 and [USDA statistical supplement](https://www.ers.usda.gov/publications/113633).
+
+The four food-security observations are preserved in the machine-readable [trend
+record](../../records/usda-food-security-2024.json), retaining severity,
+household-with-children, and assistance universes separately.

@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-eldercare-work-time-2023-2024",
+  "title": "Eldercare is a large and uneven time institution",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "ATUS respondent age 15+ in combined 2023-2024 published eldercare tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023-2024 combined; total civilian noninstitutional population age 15+",
+      "denominator": {"value": 272126, "unit": "thousand people"},
+      "measures": {
+        "eldercare_provider_rate": {"value": 14.0, "unit": "percent of population denominator", "value_type": "share"},
+        "eldercare_providers": {"value": 38192, "unit": "thousand people", "value_type": "population_estimate"}
+      },
+      "method": "BLS published 2023-2024 Unpaid Eldercare in the United States tables; provider means a person age 15+ who cared during the prior three to four months for someone age 65+ with an aging-related condition.",
+      "uncertainty": "Published-table estimate; no interval is reproduced in this record. Recall window, sample design, and combined-year estimation remain relevant limitations.",
+      "subgroup": "Total population age 15+.",
+      "counterinterpretation": "Provider prevalence is not care intensity, a family-panel measure, or evidence that care displaced paid work or social participation.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t01.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    },
+    {
+      "period": "2023-2024 combined; employed eldercare providers",
+      "denominator": {"value": 23569, "unit": "thousand employed eldercare providers"},
+      "measures": {
+        "care_on_average_day": {"value": 21.3, "unit": "percent of employed providers", "value_type": "share"},
+        "hours_on_care_days": {"value": 2.84, "unit": "hours per care day", "value_type": "mean"},
+        "hours_all_provider_days": {"value": 0.61, "unit": "hours per day averaged across providers", "value_type": "mean"}
+      },
+      "method": "BLS published 2023-2024 Table 4; care-day hours are conditional on a diary day with eldercare, while the all-provider-day measure averages across providers.",
+      "uncertainty": "Published-table estimate; no interval is reproduced in this record. Diary-day selection and activity reporting limit displacement claims.",
+      "subgroup": "Employed eldercare providers.",
+      "counterinterpretation": "Care on a diary day is not a counterfactual loss of work; providers may care on non-work days or outside reported work activities.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t04.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    },
+    {
+      "period": "2023-2024 combined; full-time eldercare providers",
+      "denominator": {"value": 18386, "unit": "thousand full-time eldercare providers"},
+      "measures": {
+        "care_on_average_day": {"value": 20.4, "unit": "percent of full-time providers", "value_type": "share"},
+        "hours_on_care_days": {"value": 2.81, "unit": "hours per care day", "value_type": "mean"},
+        "hours_all_provider_days": {"value": 0.57, "unit": "hours per day averaged across providers", "value_type": "mean"}
+      },
+      "method": "BLS published 2023-2024 Table 4; care-day hours are conditional on a diary day with eldercare.",
+      "uncertainty": "Published-table estimate; no interval is reproduced in this record. Diary-day selection and activity reporting limit displacement claims.",
+      "subgroup": "Full-time eldercare providers.",
+      "counterinterpretation": "Full-time status and care-day hours do not establish schedule control, employer accommodation, or work reduction.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t04.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    },
+    {
+      "period": "2023-2024 combined; age 55-64 eldercare providers",
+      "denominator": {"value": 41312, "unit": "thousand people age 55-64"},
+      "measures": {
+        "eldercare_provider_rate": {"value": 24.1, "unit": "percent of age-group population", "value_type": "share"},
+        "eldercare_providers": {"value": 9974, "unit": "thousand people", "value_type": "population_estimate"},
+        "care_on_average_day": {"value": 30.4, "unit": "percent of age-group providers", "value_type": "share"},
+        "hours_on_care_days": {"value": 4.11, "unit": "hours per care day", "value_type": "mean"}
+      },
+      "method": "BLS published 2023-2024 Tables 1 and 4; age-group population and provider measures are descriptive combined-year estimates.",
+      "uncertainty": "Published-table estimate; no interval is reproduced in this record. Provider definition and recall window do not measure a dated care event.",
+      "subgroup": "People age 55-64.",
+      "counterinterpretation": "A high provider rate in this age group does not show that care caused employment, health, or household changes.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t01.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    },
+    {
+      "period": "2023-2024 combined; age 65+ eldercare providers",
+      "denominator": {"value": 58995, "unit": "thousand people age 65+"},
+      "measures": {
+        "eldercare_provider_rate": {"value": 16.8, "unit": "percent of age-group population", "value_type": "share"},
+        "eldercare_providers": {"value": 9919, "unit": "thousand people", "value_type": "population_estimate"},
+        "care_on_average_day": {"value": 39.5, "unit": "percent of age-group providers", "value_type": "share"},
+        "hours_on_care_days": {"value": 4.93, "unit": "hours per care day", "value_type": "mean"}
+      },
+      "method": "BLS published 2023-2024 Tables 1 and 4; age-group population and provider measures are descriptive combined-year estimates.",
+      "uncertainty": "Published-table estimate; no interval is reproduced in this record. Provider definition and recall window do not measure a dated care event.",
+      "subgroup": "People age 65+.",
+      "counterinterpretation": "The older-provider pattern is not equivalent to retired-only care or to household-bound care; recipient relationship and support network matter.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t01.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    },
+    {
+      "period": "2023-2024 combined; care-day activity distribution",
+      "denominator": {"value": 38192, "unit": "thousand eldercare providers"},
+      "measures": {
+        "household_activities_share": {"value": 22.9, "unit": "percent of reported eldercare activity time", "value_type": "share"},
+        "household_member_care_share": {"value": 9.0, "unit": "percent of reported eldercare activity time", "value_type": "share"},
+        "nonhousehold_member_care_share": {"value": 8.8, "unit": "percent of reported eldercare activity time", "value_type": "share"},
+        "work_or_work_related_activity_share": {"value": 2.7, "unit": "percent of care-day providers", "value_type": "share"}
+      },
+      "method": "BLS published 2023-2024 Table 5; activity percentages describe reported care-day activities and are not a mutually exclusive allocation of all respondent time.",
+      "uncertainty": "Published-table estimate; activity overlap and diary-day selection prevent interpretation as a full time budget or displacement estimate.",
+      "subgroup": "Eldercare providers on care days.",
+      "counterinterpretation": "The low reported work-activity share on care days does not show that care caused work cessation; care may occur on non-work days or outside the measured activity.",
+      "source_url": "https://www.bls.gov/news.release/elcare.t05.htm",
+      "retrieval_hash": "sha256:117b588f937486b14324c350649421de7bdf3ce6aac725a80c211711ec8268fc",
+      "status": "observed"
+    }
+  ],
+  "boundary": "This is an official combined-year published-table population layer. It measures eldercare prevalence and time on care days, not a same-family panel, a dated trigger, care-recipient outcome, counterfactual work displacement, schedule control, later wellbeing, trust, political action, or causal effect. The retrieval hash covers the committed analysis memo."
+}

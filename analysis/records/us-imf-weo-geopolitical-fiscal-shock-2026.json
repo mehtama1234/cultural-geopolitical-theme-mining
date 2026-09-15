@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-imf-weo-geopolitical-fiscal-shock-2026",
+  "title": "Geopolitical shocks are modeled as growth, inflation, fiscal, and social-spending trade-offs",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "infrastructure_technology_dependency", "political_judgment_action", "public_systems_feedback"],
+  "source_unit": "IMF World Economic Outlook country and global projections plus cross-country defense-spending/conflict analysis",
+  "geography": "United States and global/cross-country comparison",
+  "observations": [
+    {
+      "period": "2026-2027; IMF April 2026 baseline under limited-duration conflict assumption",
+      "denominator": {"value": 1, "unit": "IMF global-economy projection scenario; country and aggregate series use IMF WEO definitions", "value_type": "scenario_frame"},
+      "measures": {"global_growth_2026": {"value": 3.1, "unit": "percent projected real global growth", "value_type": "projection"}, "global_growth_2027": {"value": 3.2, "unit": "percent projected real global growth", "value_type": "projection"}, "global_inflation_direction": {"value": "rises modestly in 2026 before resuming decline in 2027", "unit": "global headline inflation projection", "value_type": "projected_pattern"}, "downside_risks": {"value": "longer/broader conflict, fragmentation, renewed trade tensions, and disappointment over AI productivity", "unit": "IMF risk assessment", "value_type": "reported_risk"}},
+      "method": "IMF World Economic Outlook April 2026 Chapter 1 baseline and risk assessment; projections use information available through April 1, 2026 and assume the conflict remains limited in duration and scope.",
+      "uncertainty": "These are staff projections and conditional risks, not observed outcomes; revisions, conflict duration, policy response, commodity prices, and data vintage can change the path.",
+      "subgroup": "Global economy, with risks concentrated differently across commodity importers, emerging markets, developing economies, and advanced economies.",
+      "counterinterpretation": "AI productivity gains or easing trade tensions could lift activity; a limited conflict can have different effects from a broader or prolonged conflict.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+      "retrieval_hash": "sha256:5c281721761f2ac8f8ae313ea977a0039539aa760039ea3717cf54002d82432a",
+      "status": "estimated"
+    },
+    {
+      "period": "Cross-country defense-spending booms; post-World War II conflict evidence",
+      "denominator": {"value": 1, "unit": "cross-country IMF analysis of defense buildups and post-conflict episodes", "value_type": "analysis_frame"},
+      "measures": {"defense_outlay_increase_typical_boom": {"value": 2.7, "unit": "percentage points of GDP over about two and a half years", "value_type": "reported_estimate"}, "defense_boom_deficit_financing": {"value": 67, "unit": "percent of typical defense-boom increase financed through deficit", "value_type": "reported_estimate"}, "fiscal_deficit_change": {"value": 2.6, "unit": "percentage points of GDP within three years", "value_type": "reported_estimate"}, "public_debt_change": {"value": 7, "unit": "percentage points within three years", "value_type": "reported_estimate"}, "wartime_debt_change": {"value": 14, "unit": "percentage points in wartime boom estimate", "value_type": "reported_estimate"}, "social_spending_direction": {"value": "falls in wartime booms", "unit": "reported cross-country pattern", "value_type": "reported_pattern"}},
+      "method": "IMF WEO April 2026 Chapter 2 analysis of defense-spending booms and Chapter 3 analysis leveraging global post-World War II conflict data.",
+      "uncertainty": "The estimates are averages across heterogeneous episodes and depend on financing, import content, allocation, macro conditions, and identification choices; they do not forecast one country's exact response.",
+      "subgroup": "Countries experiencing defense buildups or conflict, with different fiscal space, import dependence, institutions, and peace/recovery conditions.",
+      "counterinterpretation": "Defense spending can raise short-run activity and capacity; imported equipment, domestic slack, and sustained financing alter the multiplier and distribution.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+      "retrieval_hash": "sha256:5c281721761f2ac8f8ae313ea977a0039539aa760039ea3717cf54002d82432a",
+      "status": "estimated"
+    },
+    {
+      "period": "2023-2031; United States April 2026 WEO database vintage",
+      "denominator": {"value": 1, "unit": "United States country series in IMF WEO database; values are annual estimates/projections", "value_type": "country_series"},
+      "measures": {"real_gdp_growth_2025": {"value": 2.117, "unit": "percent; latest actual through 2025 in the downloaded vintage", "value_type": "estimate"}, "real_gdp_growth_2026": {"value": 2.324, "unit": "percent projected", "value_type": "projection"}, "cpi_inflation_2025": {"value": 2.73, "unit": "percent period-average estimate", "value_type": "estimate"}, "cpi_inflation_2026": {"value": 3.228, "unit": "percent period-average projected", "value_type": "projection"}, "unemployment_2026": {"value": 4.376, "unit": "percent projected", "value_type": "projection"}, "gross_debt_2026": {"value": 125.781, "unit": "percent of GDP projected gross general-government debt", "value_type": "projection"}, "gross_debt_2031": {"value": 142.113, "unit": "percent of GDP projected gross general-government debt", "value_type": "projection"}},
+      "method": "Values extracted from the IMF April 2026 WEO Countries spreadsheet for United States series; database vintage and latest-actual fields are retained, and IMF staff projections incorporate stated country-specific assumptions.",
+      "uncertainty": "IMF data can differ from official national sources and later vintages; estimates and projections are not household outcomes and must not be read as realized policy or welfare effects.",
+      "subgroup": "United States aggregate; no household, state, sector, racial, or income subgroup is identified by this series.",
+      "counterinterpretation": "Aggregate growth can coexist with household pressure, sectoral losses, or distributional gains; falling inflation is not a lower price level.",
+      "source_url": "https://data.imf.org/Datasets/WEO",
+      "retrieval_hash": "sha256:b29239cb48f8b895d1e526070c4fde01147bc8f6bd3b86f636363bb6bd87fe7a",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.imf.org/-/media/files/publications/weo/2026/april/english/text.pdf", "claim": "Full April 2026 WEO report, including defense-spending and conflict chapters.", "status": "primary"}, {"source_url": "https://data.imf.org/-/media/iData/External-Storage/Documents/2F78EE59F79143A7921E5E203D3AAA80/en/WEOApr2026all.xlsx", "claim": "April 2026 WEO database spreadsheet used for United States series.", "status": "primary"}, {"source_url": "https://data.imf.org/en", "claim": "Registered IMF data landing page for the WEO database context and vintage distinction.", "status": "source-registry-context"}],
+  "boundary": "This record contributes IMF macroeconomic projections and cross-country defense/conflict trade-off estimates to the US-centered atlas. It does not establish household incidence, firm behavior, public legitimacy, social unrest, political action, alliance behavior, or geopolitical leverage for the United States. Conditional projections, country aggregates, and historical episode estimates remain separate evidence types."
+}

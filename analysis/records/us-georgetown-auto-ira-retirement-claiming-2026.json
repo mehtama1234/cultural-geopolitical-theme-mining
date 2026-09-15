@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-georgetown-auto-ira-retirement-claiming-2026",
+  "title": "State Auto-IRA exposure is associated with later retirement and Social Security claiming",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "work_control_bargaining", "political_judgment_action"],
+  "source_unit": "Rao, Dao, and Lee, Georgetown Center for Retirement Initiatives Working Paper CRI WP 2026-02, using Census SIPP 2014–2024; workers ages 55–75 in seven early-adopter states compared with non-adopter states; issue brief used as a companion summary",
+  "geography": "United States; Oregon, Illinois, California, Connecticut, Colorado, Maryland, and Virginia early-adopter states compared with not-yet-adopting states",
+  "observations": [
+    {
+      "period": "Auto-IRA policy adoption over SIPP 2014–2024",
+      "denominator": {"value": 1803085, "unit": "SIPP person-wave observations for the retirement-timing models; 346,817 treated-state and 1,456,268 control-state observations reported in the paper's data section", "value_type": "reported_sample"},
+      "measures": {
+        "early_retirement_before_age_65": {"value": -1.2, "unit": "percentage-point change; model-3 standard error 0.4 percentage points; pre-policy mean 7.1%", "value_type": "reported_effect"},
+        "retirement_before_full_retirement_age_67": {"value": -0.9, "unit": "percentage-point change; model-3 standard error 0.4 percentage points; pre-policy mean 7.1%", "value_type": "reported_effect"},
+        "work_past_full_retirement_age_67": {"value": 3.0, "unit": "percentage-point change; model-3 standard error 0.9 percentage points; pre-policy mean 22.8%", "value_type": "reported_effect"},
+        "ira_ownership": {"value": 3.8, "unit": "percentage-point increase after policy adoption; model-3 standard error 1.8 percentage points", "value_type": "reported_effect"},
+        "401k_ownership": {"value": 2.3, "unit": "percentage-point increase after policy adoption; model-3 standard error 0.5 percentage points", "value_type": "reported_effect"},
+        "retirement_assets": {"value": 20143, "unit": "2024 US dollars; model-3 estimate not statistically significant; pre-policy mean $242,078", "value_type": "reported_effect"}
+      },
+      "method": "Callaway–Sant'Anna staggered difference-in-differences comparing seven early-adopter states with non-adopter states, with state and year fixed effects, individual demographic controls, state economic controls in the full model, population weights, and standard errors wild-bootstrapped and clustered at the state level. The paper reports event-study checks with five years before and after adoption, alternative control groups, exclusion of late adopters, and a TWFE comparison.",
+      "uncertainty": "The paper reports standard errors, significance markers, pre-policy means, and model sample size, but the public extraction does not reproduce confidence intervals or code. The authors identify remaining contemporaneous state-policy confounding, pandemic overlap, incomplete exposure for Colorado and Virginia, and inability to formally decompose liquidity versus behavioral mechanisms. The estimates are conservative lower bounds if later-adopting states have not fully matured.",
+      "subgroup": "Workers ages 55–75; the brief says effects are largest for women and workers without a college degree but does not provide the subgroup estimates in the extract used here.",
+      "counterinterpretation": "Working longer can reflect financial constraint rather than improved choice, and later retirement need not mean better health, job quality, schedule control, or wellbeing. The policy comparison also cannot by itself show that the account caused a worker's decision rather than changing alongside state, labor-market, or age-composition differences.",
+      "source_url": "https://cri.georgetown.edu/wp-content/uploads/2026/07/Manita-Rao-et-al.-_Issue-Brief-Beyond-Account-Ownership-.pdf",
+      "retrieval_hash": "sha256:fde69bf2766838e248f76b85f8b15f3baa5dc72e976fc0d2fed28a56c67e827e",
+      "status": "reported"
+    },
+    {
+      "period": "Auto-IRA policy adoption over SIPP 2014–2024",
+      "denominator": {"value": 1801923, "unit": "SIPP person-wave observations for the Social Security claiming models; workers ages 55–75 in the paper's treated and control comparison", "value_type": "reported_sample"},
+      "measures": {
+        "early_social_security_claiming_62_to_full_retirement_age": {"value": -1.0, "unit": "percentage-point change; model-3 standard error 0.3 percentage points; pre-policy mean 3.2%", "value_type": "reported_effect"},
+        "claiming_at_age_70": {"value": 1.8, "unit": "percentage-point increase; model-3 standard error 0.4 percentage points; pre-policy mean 11%", "value_type": "reported_effect"},
+        "any_claiming_delay_past_full_retirement_age": {"value": 0.8, "unit": "percentage-point increase; model-3 standard error 0.4 percentage points; pre-policy mean 5.3%", "value_type": "reported_effect"},
+        "monthly_benefit_difference_62_to_70": {"value": 77, "unit": "percent actuarial difference for a typical earner; illustrative benefit comparison, not the estimated policy effect", "value_type": "contextual_calculation"},
+        "monthly_benefit_difference_62_to_70_dollars": {"value": 1028, "unit": "US dollars per month for a typical earner; illustrative benefit comparison, not the estimated policy effect", "value_type": "contextual_calculation"}
+      },
+      "method": "The paper estimates separate outcome models with the same Callaway–Sant'Anna staggered difference-in-differences design, population weights, state-clustered wild-bootstrap standard errors, and the full individual/state control specification. It reports robustness to alternative control groups, excluding Colorado and Virginia, and a TWFE specification. The authors examine liquidity and information as complementary mechanisms but do not estimate a formal mediation decomposition.",
+      "uncertainty": "The paper does not observe whether the account is an employer 401(k) or Auto-IRA, account balances, or a clean decomposition of liquidity and behavioral channels. Health, job quality, care obligations, and the welfare value of working longer are not established by the reported coefficients. The $1,028 and 77% figures are a typical-earner Social Security schedule illustration, not a causal estimate of Auto-IRA-generated income.",
+      "subgroup": "Workers ages 55–75; the brief states that effects are largest for women and workers without a college degree but does not provide the subgroup estimates in the extract used here.",
+      "counterinterpretation": "Later claiming may increase eventual monthly benefits while exposing a household to more years of work, health risk, or foregone benefits; it is not automatically an improvement in lifetime welfare. The evidence does not establish that the program improved health, job quality, or the ability to refuse unsafe or unwanted work.",
+      "source_url": "https://cri.georgetown.edu/wp-content/uploads/2026/07/Manita-Rao-et-al.-_Issue-Brief-Beyond-Account-Ownership-.pdf",
+      "retrieval_hash": "sha256:fde69bf2766838e248f76b85f8b15f3baa5dc72e976fc0d2fed28a56c67e827e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://cri.georgetown.edu/wp-content/uploads/2026/07/Manita-Rao-et-al.-_Issue-Brief-Beyond-Account-Ownership-.pdf", "claim": "Issue brief with concise study summary, reported effects, mechanisms, subgroup direction, and limitations.", "status": "companion-summary"},
+    {"source_url": "https://cri.georgetown.edu/wp-content/uploads/2026/06/CRI_WP_Rao_Dao_Lee_AutoIRA_final.pdf", "claim": "Underlying working paper with exact sample sizes, CSDiD specification, model tables, standard errors, event-study claims, robustness checks, and subgroup estimates.", "status": "primary-working-paper", "retrieval_hash": "sha256:b682e90972e973da34b1aba1221d61d57c1e81388c40f88a287ea5b884f73ee4"},
+    {"source_url": "https://www.nber.org/papers/w35373", "claim": "Related NBER Auto-IRA balance-sheet study and SIPP policy-exposure context.", "status": "related-working-paper"},
+    {"source_url": "https://www.census.gov/programs-surveys/sipp.html", "claim": "Survey of Income and Program Participation source context.", "status": "official-data-source"}
+  ],
+  "boundary": "This record extends the Auto-IRA layer from account and debt margins to primary-paper retirement and Social Security timing estimates. It does not establish a net-welfare effect, retirement adequacy, benefit entitlement, improved health or job quality, or a causal increase in lifetime income for every exposed worker. It must not be pooled mechanically with the separate NBER balance-sheet record: the papers have different outcomes and the primary timing paper reports no statistically significant retirement-asset change, a mechanical checking-balance decline, and a small unsecured-debt decline, while the other summary reports different balance-sheet directions. That discrepancy is an open reconciliation task, not a reason to average estimates."
+}

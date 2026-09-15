@@ -1,0 +1,127 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-large-load-state-rate-governance-2025-2026",
+  "title": "States are moving large-load governance from attraction toward risk allocation and disclosure",
+  "theme_ids": ["energy", "cost", "voice", "work"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "public_systems_feedback", "firm_sector_market_power", "geopolitical_state_consequences", "household_room_consumption"],
+  "source_unit": "state utility commission rule, tariff, docket, and evidentiary records",
+  "geography": "Virginia, Texas, and Georgia, United States",
+  "observations": [
+    {
+      "period": "2025-2026; Virginia approved large-load framework",
+      "denominator": {"value": 1, "unit": "state policy record"},
+      "measures": {"minimum_transmission_distribution_cost_share": {"value": 85, "unit": "percent of covered minimum charges", "value_type": "policy_term"}, "minimum_contract_obligation": {"value": 14, "unit": "years for covered new contracts", "value_type": "policy_term"}, "collateral_cap": {"value": 60, "unit": "percent of minimum charges", "value_type": "policy_term"}},
+      "method": "Documented comparison of Virginia SCC Dominion PUR-2025-00058 and related large-load initiatives; terms are extracted as policy provisions, not observed customer outcomes.",
+      "uncertainty": "Implementation proceedings, customer eligibility, enforcement, actual load, defaults, and cost recovery remain unobserved in this record.",
+      "subgroup": "Covered large-load/data-center customers and affected utility rate classes.",
+      "counterinterpretation": "A protective tariff term may alter project entry or exit and does not by itself prove lower residential bills, lower risk, or local benefit.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Texas proposed large-load framework",
+      "denominator": {"value": 1, "unit": "state proposed-rule record"},
+      "measures": {"minimum_interconnection_agreement": {"value": 20, "unit": "years in proposed rule", "value_type": "policy_term"}, "direct_cash_contribution": {"value": "required in proposal", "unit": "aid-of-construction mechanism", "value_type": "policy_term"}, "annual_customer_class_revenue_reporting": {"value": "required in proposal", "unit": "public-monitoring mechanism", "value_type": "policy_term"}},
+      "method": "Documented comparison of the Texas PUC proposed §25.252 rules implementing SB 6; proposed terms are kept separate from final rules and implementation.",
+      "uncertainty": "Proposal stage, final language, enforcement, actual load, customer participation, and customer-class incidence are open.",
+      "subgroup": "Proposed covered large-load customers, utilities, and customer classes.",
+      "counterinterpretation": "A proposed billing or security framework is not a realized transfer of risk and may change before implementation.",
+      "source_url": "https://www.sos.state.tx.us/texreg/archive/July242026/Proposed%20Rules/16.ECONOMIC%20REGULATION.html",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; Georgia accountability/evidentiary record",
+      "denominator": {"value": 1, "unit": "state commission docket record"},
+      "measures": {"required_load_series": {"value": "projected and actual peak/load/energy requested", "unit": "accountability data requirement", "value_type": "policy_term"}, "required_cost_recovery_fields": {"value": "monthly minimum bills, RTP pricing, cost-of-service and allocation evidence requested", "unit": "accountability data requirement", "value_type": "policy_term"}},
+      "method": "Documented Georgia PSC Docket 44280 evidentiary/accountability comparison; requests are recorded as information requirements rather than completed disclosures.",
+      "uncertainty": "The record does not establish that all requested series were produced, audited, or used to change a tariff or customer outcome.",
+      "subgroup": "Georgia utilities, large-load customers, existing customer classes, and commission stakeholders.",
+      "counterinterpretation": "Requesting data improves the testability of cost causation but does not itself produce transparency, enforcement, or public trust.",
+      "source_url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/222976/104198",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; Virginia modeled residential incidence",
+      "denominator": {"value": 1000, "unit": "kWh typical residential customer use in commission illustration"},
+      "measures": {"projected_monthly_rider_increase_without_approved_method": {"value": 2.90, "unit": "US dollars per month", "value_type": "modeled_incidence"}, "projected_monthly_rider_increase_with_approved_method": {"value": 0.94, "unit": "US dollars per month", "value_type": "modeled_incidence"}},
+      "method": "Virginia SCC-reported modeled comparison for a typical residential customer using 1,000 kWh under alternative transmission cost-allocation methods.",
+      "uncertainty": "This is a commission model inside a regulatory proceeding, not an observed bill; actual load, tariffs, timing, customer use, and recovery may differ.",
+      "subgroup": "Illustrative Virginia residential customer; modeled comparison.",
+      "counterinterpretation": "A modeled reduction in a projected rider increase does not establish that data-center governance lowered bills or that all residential customers face the same exposure.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2026; related Northern Virginia transmission public participation",
+      "denominator": {"value": 2, "unit": "local public hearings recorded in the proceeding"},
+      "measures": {"registered_speakers": {"value": 600, "unit": "more than 600 speakers", "value_type": "participation_count"}, "written_comments": {"value": "hundreds of pages", "unit": "reported written-comment volume", "value_type": "participation_measure"}},
+      "method": "Commission proceeding summary of local hearings and written comments in a Northern Virginia transmission case associated with large-load growth.",
+      "uncertainty": "Participation counts are not a representative opinion survey; attribution to data-center growth, actor composition, remedy preferences, and influence on the final route require docket coding.",
+      "subgroup": "Hearing participants and written commenters in the local proceeding.",
+      "counterinterpretation": "Visible participation demonstrates an institutional route for contesting infrastructure, not consensus, causal influence, or political trust.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:f05b1221b694f7683fcc9bb40335943873769173f9106b0b8fae9f0f367709da",
+      "status": "reported"
+    },
+    {
+      "period": "2026-08-25; Virginia direct-connect implementation docket",
+      "denominator": {"value": 1, "unit": "Virginia SCC supplemental proceeding", "value_type": "reported_policy_action"},
+      "measures": {
+        "implementation_docket": {"value": "PUR-2026-00131", "unit": "SCC case number", "value_type": "reported_docket"},
+        "direct_connect_cost_assignment": {"value": "Dominion must develop amendments to its line-extension policy for direct-connect transmission facilities", "unit": "implementation framework", "value_type": "reported_requirement"}
+      },
+      "method": "Transcribed from the Virginia SCC facts page describing the Rider T1 decision and the supplemental proceeding opened to develop the detailed line-extension amendments.",
+      "uncertainty": "The docket establishes an implementation route, not final filed terms, customer payments, completed facilities, or realized cost recovery. The framework applies prospectively where direct-connect facilities would not otherwise be built without a large-load customer.",
+      "subgroup": "New or expanding Virginia large-load customers and Dominion line-extension/interconnection arrangements.",
+      "counterinterpretation": "Opening a supplemental proceeding can improve traceability without guaranteeing timely construction, full cost recovery, or protection from all system and environmental costs.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:a12b4629af1fcd6190b2a5e9fd4aea119945464da9057fa98255beb848d98cd8",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-01; Virginia Rider T1 application",
+      "denominator": {"value": 1000, "unit": "kWh typical residential customer use in filed application illustration", "value_type": "modeled_reference_customer"},
+      "measures": {
+        "proposed_total_transmission_revenue_requirement": {"value": 1538.974037, "unit": "USD millions for September 2026-August 2027 rate year", "value_type": "filed_request"},
+        "proposed_rider_t1_increment": {"value": 998.533997, "unit": "USD millions", "value_type": "filed_request"},
+        "proposed_base_rate_transmission_collections": {"value": 540.440040, "unit": "USD millions", "value_type": "filed_forecast"},
+        "proposed_typical_residential_monthly_bill_increase": {"value": 2.90, "unit": "USD per month", "value_type": "filed_projection"}
+      },
+      "method": "Transcribed from Dominion's September 2026 Rider T1 application and associated testimony in the Virginia SCC docket materials; the values are a filing and proposed-rate illustration, not an approved or observed bill.",
+      "uncertainty": "The Commission may adopt different rates and may apportion revenues among customer classes differently from the application. The filing's total is a system transmission revenue requirement and is not attributed solely to data-center load.",
+      "subgroup": "Illustrative Dominion residential customer using 1,000 kWh; proposed systemwide transmission recovery.",
+      "counterinterpretation": "A filed $2.90 illustration cannot be compared with the approved-method $0.94 projection as an observed before/after household effect; they are different stages within a regulatory proceeding.",
+      "source_url": "https://www.scc.virginia.gov/docketsearch/DOCS/8c4r01%21.PDF",
+      "retrieval_hash": "sha256:942ffd2868609887c4beda9199f36d547a53883572e2b96723d3b414897a2c38",
+      "status": "reported"
+    },
+    {
+      "period": "2025-09-16; Georgia large-load contract filing",
+      "denominator": {"value": 1, "unit": "Georgia PSC Docket 44280 public filing record", "value_type": "reported_filing"},
+      "measures": {
+        "filing_number": {"value": 223981, "unit": "Georgia PSC document filing number", "value_type": "reported_identifier"},
+        "attachment": {"value": "dkt_44280_lrg_load_contract_filing_-_9_16_25.zip", "unit": "public docket attachment", "value_type": "reported_attachment"},
+        "contract_sequence": {"value": "second large-load contract", "unit": "filing description", "value_type": "reported_stage"},
+        "execution_status": {"value": "unexecuted; filed for Commission Staff review before execution", "unit": "contract stage", "value_type": "reported_stage"},
+        "public_term_availability": {"value": "trade secret in entirety, including supporting documents and information", "unit": "disclosure boundary", "value_type": "reported_confidentiality"}
+      },
+      "method": "Verified the Georgia PSC document-detail page and retrieved the public ZIP attachment. The attached one-page notice states that the filing is a second unexecuted large-load contract submitted for Commission Staff review and that the contract and all supporting documents are trade secret in their entirety.",
+      "uncertainty": "The public filing confirms contract-review stage and a complete public-disclosure boundary, but does not establish the contract's load, minimum bill, term, collateral, customer identity, RIM result, or realized cost recovery. The confidentiality claim is the filing party's stated status, not an independent legal adjudication recorded here.",
+      "subgroup": "Georgia Power large-load contract filing in Docket 44280.",
+      "counterinterpretation": "A filed contract and public attachment do not establish that the terms were implemented, enforceable, transparent, or protective of other customer classes.",
+      "source_url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/223981/105295",
+      "retrieval_hash": "sha256:30566cb97e234089fc13a4b269a2c457f29bfbb7fae0c4b751161812b8d10cbd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/", "claim": "Virginia identifies PUR-2026-00131 as the supplemental proceeding for detailed direct-connect line-extension amendments and distinguishes the approved Rider T1 methodology from the implementation work.", "status": "official-context"},
+    {"source_url": "https://psc.ga.gov/search/facts-document/?documentId=223981", "claim": "Georgia PSC public index confirms the September 16, 2025 large-load contract filing and its public ZIP attachment.", "status": "official-index"},
+    {"source_url": "https://services.psc.ga.gov/api/v1/External/Public/Get/Document/DownloadFile/223981/105295", "claim": "The public attachment contains a one-page notice stating that a second unexecuted large-load contract and all supporting information are trade secret in their entirety.", "status": "official-filing-attachment"}
+  ],
+  "boundary": "This is a comparative policy-stage and implementation-status record for Virginia, Texas, and Georgia large-load governance. It preserves approved, proposed, filed, evidentiary, modeled, public-participation, and implementation-docket stages separately. It does not establish implemented customer contracts, actual bills, realized cost shifts, local jobs or environmental effects, provider replaceability, public trust, or geopolitical leverage. Hashes cover the retrieved source artifacts and the earlier committed comparison memo where noted."
+}

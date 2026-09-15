@@ -1,0 +1,123 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-us-defense-reciprocity-regional-coproduction-2026",
+  "title": "Poland's US-linked defense relationship expands from procurement toward reciprocal access and regional co-production",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "Polish government defense and state-asset ministry announcements",
+  "geography": "Poland, United States, Estonia, and Latvia; NATO eastern-flank defense-industrial cooperation",
+  "observations": [
+    {
+      "period": "2026-05-20 agreement; announced 2026-05-26",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence cooperation agreement", "value_type": "documented agreement"},
+      "measures": {
+        "buyer_seller_role_expansion": {"value": 1, "unit": "binary reported institutional change", "value_type": "reported_event"},
+        "covered_systems": {"value": "UAS/C-UAS systems and related advanced technologies", "unit": "reported scope", "value_type": "reported"},
+        "procurement_route_action": {"value": "digital platforms, preliminary export approval, and FMS/DCS process improvements", "unit": "reported cooperation provisions", "value_type": "reported"},
+        "interoperability_action": {"value": "shared expertise, threat information, and mutual standards for allied operations", "unit": "reported cooperation provisions", "value_type": "reported"}
+      },
+      "method": "Translation-neutral extraction of a dated Polish Ministry of National Defence announcement. The reported role change, procurement-process provisions, and interoperability provisions are kept separate from equipment delivery, production, or bargaining outcomes.",
+      "uncertainty": "The announcement does not identify a completed sale, delivered system, quantity, platform, production line, export license issued for a specific item, cost, local jobs, or a subsequent US or allied concession. It describes an institutional agreement and intended process effects.",
+      "subgroup": "Poland as both potential buyer and seller within a US-linked UAS/C-UAS cooperation platform.",
+      "counterinterpretation": "A process agreement can improve administrative speed or interoperability without changing supplier dependence, domestic industrial capability, or Poland's bargaining position. The buyer/seller language may describe eligibility rather than realized trade.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/informacja-na-temat-podpisanego-porozumienia-z-usa",
+      "retrieval_hash": "sha256:3ef7bc08c29ba13cde29e340a4f246ea6767c2812693b30e00070297ffaf28c2",
+      "status": "reported"
+    },
+    {
+      "period": "2026-07-07 NATO summit agreement",
+      "denominator": {"value": 1, "unit": "Polish Ministry of State Assets strategic production and supply agreement", "value_type": "documented agreement"},
+      "measures": {
+        "co_production_partners": {"value": "Poland, United States, Estonia, and Latvia", "unit": "named participating countries", "value_type": "reported"},
+        "regional_production_hub_claim": {"value": "Poland to become the main European production center for Barracuda B500M", "unit": "reported production role", "value_type": "reported_target"},
+        "reported_polish_industrial_location": {"value": "Polska Grupa Zbrojeniowa facilities, principally Bydgoszcz", "unit": "reported industrial location", "value_type": "reported"},
+        "regional_supply_role": {"value": "production for Poland and deliveries to other regional states", "unit": "reported supply role", "value_type": "reported_target"}
+      },
+      "method": "Translation-neutral extraction of a dated Polish Ministry of State Assets announcement. Named partners, proposed production location, and regional-supply role are treated as agreement-stage claims, not realized output or export records.",
+      "uncertainty": "The announcement does not provide production quantities, plant commissioning, unit cost, acceptance, delivery, workforce, technology-transfer terms, component dependence, or evidence that regional customers changed procurement behavior. The main-production-center language is a plan, not an observed capacity measure.",
+      "subgroup": "Polish defense-industrial production and eastern-flank regional supply cooperation.",
+      "counterinterpretation": "Co-production can widen local skills and supplier options, but it can also remain dependent on foreign design authority, components, finance, approvals, or demand. A signed regional agreement does not establish autonomy or leverage.",
+      "source_url": "https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu",
+      "retrieval_hash": "sha256:60698755c8c59b92dc00f83f71deb203f7aef62a79d7c2ae3bb490455f6f9464",
+      "status": "reported"
+    },
+    {
+      "period": "2026-07-06 PGZ/WZL-2/Anduril cooperation agreement",
+      "denominator": {"value": 1, "unit": "cooperation agreement signed at WZL-2 in Bydgoszcz", "value_type": "documented agreement"},
+      "measures": {
+        "polish_assembly_stage": {"value": "assembly in Poland followed by production", "unit": "reported implementation sequence", "value_type": "reported_plan"},
+        "reported_polish_partner": {"value": "Polska Grupa Zbrojeniowa and Wojskowe Zakłady Lotnicze nr 2", "unit": "named Polish industrial partners", "value_type": "reported"},
+        "reported_exclusivity": {"value": "PGZ obtained exclusivity for production of a Polish Barracuda 500 version", "unit": "reported cooperation term", "value_type": "reported"},
+        "reported_technology_transfer": {"value": "technology transfer, know-how, and competence transfer", "unit": "reported cooperation term", "value_type": "reported"},
+        "reported_variant_range_km": {"value": 926, "unit": "kilometres or more; reported Barracuda-500 variant range", "value_type": "reported_specification"}
+      },
+      "method": "Translation-neutral extraction of a dated Kujawsko-Pomorskie government announcement describing the named parties, implementation sequence, exclusivity, and technology/know-how language. The agreement terms are kept separate from plant commissioning, output, acceptance, and inventory.",
+      "uncertainty": "The announcement does not provide a production start date, quantities, investment amount, workforce, component map, licensing conditions, acceptance record, delivered missile, or operational use. Exclusivity and transfer are reported terms of the cooperation agreement, not independently audited control rights or realized capability.",
+      "subgroup": "PGZ and WZL-2 implementation route at Bydgoszcz within the broader Poland-US regional cooperation arrangement.",
+      "counterinterpretation": "A technology-transfer agreement can transfer assembly or selected know-how while leaving design authority, software, critical inputs, certification, and export permissions external. Exclusivity may concentrate rather than diversify supply.",
+      "source_url": "https://www.gov.pl/web/uw-kujawsko-pomorski/strategiczna-umowa-podpisana-w-wzl-2-w-bydgoszczy-powstana-nowoczesne-pociski-manewrujace-barracuda",
+      "retrieval_hash": "sha256:0703f2539832f6b11d5dc0fbba71e23352007e0e6bc0be55e5244cbb8c4554e1",
+      "status": "reported"
+    },
+    {
+      "period": "2026-08-19 BBN follow-up meeting",
+      "denominator": {"value": 1, "unit": "Polish National Security Bureau meeting with Anduril representatives", "value_type": "documented institutional event"},
+      "measures": {
+        "follow_up_meeting": {"value": 1, "unit": "binary dated institutional follow-up", "value_type": "reported_event"},
+        "program_discussed": {"value": "Barracuda-500M surface-launched missile program", "unit": "reported meeting topic", "value_type": "reported"},
+        "competence_building_objective": {"value": "building Polish competencies needed for implementation", "unit": "reported institutional objective", "value_type": "reported"},
+        "stated_industrial_meaning": {"value": "assembly and production are described as strengthening national technological and production backing", "unit": "official strategic framing", "value_type": "reported_interpretation"}
+      },
+      "method": "Extraction of a dated official Polish National Security Bureau follow-up notice, with a normalized excerpt preserved in the project data directory. The meeting and stated competence-building objective are kept separate from production, delivery, and operational capability.",
+      "uncertainty": "The notice does not report a signed implementation amendment, plant commissioning, staff count, output, delivery, component-control terms, or operational use. Its industrial-benefit language is official framing rather than an independently measured outcome.",
+      "subgroup": "Polish national-security leadership follow-up with the US firm involved in the Barracuda implementation agreement.",
+      "counterinterpretation": "A follow-up meeting can sustain political attention without changing the production schedule or control rights. Strategic-ally language may signal alignment while leaving practical dependence unresolved.",
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10470,Spotkanie-Szefa-BBN-z-przedstawicielami-Anduril-Industries.html",
+      "retrieval_hash": "artifact:sha256:635df214306bf6e4c0bbc1892b41172b4bd2fa35bdf9a1b095d40c1e894f63f1",
+      "status": "reported"
+    },
+    {
+      "period": "2026-07-06 production-plan detail; official ministry page retrieved 2026-09-14",
+      "denominator": {"value": 1, "unit": "Polish Ministry of State Assets production-plan announcement", "value_type": "documented announcement"},
+      "measures": {
+        "planned_system_scale": {"value": "thousands of SLB-500M systems", "unit": "reported planned production scale", "value_type": "reported_target"},
+        "local_supplier_sequence": {"value": "local Polish and European supplier participation to increase in later stages", "unit": "reported implementation sequence", "value_type": "reported_target"},
+        "polish_version_localization_goal": {"value": "a Polish version intended to be mostly manufactured in Europe", "unit": "reported localization objective", "value_type": "reported_target"},
+        "reported_supply_chain_design": {"value": "simplified architecture, standard tools/processes, and intended supply-chain resilience", "unit": "reported product/production design rationale", "value_type": "reported_claim"},
+        "reported_workforce_context": {"value": "WZL-2 described as having qualified production and logistics staff", "unit": "official workforce context", "value_type": "reported_context"}
+      },
+      "method": "Translation-neutral extraction of a Polish Ministry of State Assets announcement. Planned scale, supplier-localization sequence, product-design rationale, and workforce context are retained as reported claims and kept separate from actual output, staffing, or supplier shares.",
+      "uncertainty": "The announcement provides no production count completed, commissioning date, supplier contract, local-content denominator, staffing total, unit cost, acceptance, delivery, or evidence that the resilience design has been tested. ‘Thousands’ and mostly-European production are plans/claims, not observed quantities or shares.",
+      "subgroup": "WZL-2/PGZ Barracuda-500M production plan and its intended Polish/European supplier network.",
+      "counterinterpretation": "A scalable design and planned localization may reduce future dependence, but staged supplier participation can begin with imported components and remain constrained by design authority, software, financing, approvals, or demand.",
+      "source_url": "https://www.gov.pl/web/aktywa-panstwowe/pgz-i-anduril-uruchomia-w-polsce-produkcje-pociskow-barracuda-500m-odpalanych-z-wyrzutni-naziemnych",
+      "retrieval_hash": "sha256:b261be6a2628ac69e2eb8b187771bf9a2144f1f74dfbb771e75f4b0459a0555e",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-09 Foreign Military Financing agreement",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence and United States Foreign Military Financing agreement", "value_type": "documented_financing_agreement"},
+      "measures": {
+        "fmf_agreement_amount": {"value": 4000000000, "unit": "US dollars; reported financing agreement for Poland", "value_type": "reported_amount"},
+        "existing_contract_acceleration": {"value": "reported acceleration of already signed contracts, including Apache helicopters", "unit": "official implementation statement", "value_type": "reported_claim"},
+        "strategic_partnership_framing": {"value": "financing described as strengthening the Poland-US strategic partnership and Polish defense capability", "unit": "official framing", "value_type": "reported_interpretation"}
+      },
+      "method": "Extraction of a dated Polish Ministry of National Defence announcement about a signed Foreign Military Financing agreement. The financing commitment is treated as a resource and implementation-stage signal, not as evidence of a Barracuda-specific contract, delivered equipment, or operational capability.",
+      "uncertainty": "The announcement does not identify a Barracuda-500M allocation, drawdown schedule, plant investment, production quantity, delivery, acceptance, local-content share, or changed bargaining position. The reported acceleration language concerns existing contracts and includes Apache helicopters; it cannot be assigned to the Barracuda program without a program-specific document.",
+      "subgroup": "Poland-US defense-financing relationship; broader than the Barracuda co-production case.",
+      "counterinterpretation": "A signed financing agreement can increase procurement capacity without producing domestic industrial capability or reducing supplier dependence. Financing can support imported systems, and strategic-partnership language is not an observed external response or leverage outcome.",
+      "source_url": "https://redakcja.www.gov.pl/web/obrona-narodowa/4-mld-dolarow-dla-polskiej-armii-kolejny-etap-strategicznego-partnerstwa-z-usa",
+      "retrieval_hash": "sha256:a90d35bf78e6f4b577fc44e73a0bbc77137ca296a18824649a56c3e9e8c20dc2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
+      "claim": "Poland's 2024 JASSM-ER agreement remains a separate procurement-stage comparator with deliveries scheduled for 2026–2030.",
+      "status": "context",
+      "access_boundary": "The comparator does not establish delivery or operational use of the JASSM-ER order."
+    }
+  ],
+  "boundary": "This record establishes six official 2026 cooperation, financing, implementation, production-plan, and follow-up observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
+}

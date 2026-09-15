@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-eldercare-provider-standardized-2024-2025",
+  "title": "Basic composition standardization preserves eldercare providers’ household-work, travel, and social-time profile",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "work_control_bargaining"],
+  "source_unit": "ATUS respondent age 15+ with one selected diary day, final and 160 replicate weights, standardized within supported age-band x sex x labor-force-status cells",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; standardized eldercare-provider minus nonprovider contrast",
+      "denominator": {"value": 7635, "unit": "respondents in 30 supported age-band x sex x labor-force-status cells; provider n=1,319, nonprovider n=6,316"},
+      "measures": {
+        "household_work_difference_minutes": {"value": 15.068, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 5.465, "uncertainty_unit": "minutes"},
+        "care_for_people_difference_minutes": {"value": 8.611, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 3.867, "uncertainty_unit": "minutes"},
+        "work_difference_minutes": {"value": -8.785, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 8.863, "uncertainty_unit": "minutes"},
+        "travel_difference_minutes": {"value": 11.824, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 4.628, "uncertainty_unit": "minutes"},
+        "socializing_communicating_difference_minutes": {"value": -19.422, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 6.991, "uncertainty_unit": "minutes"},
+        "secondary_childcare_difference_minutes": {"value": -19.359, "unit": "standardized provider minus nonprovider weighted mean secondary-childcare minutes per diary day", "value_type": "difference", "standard_error": 5.891, "uncertainty_unit": "minutes"},
+        "eldercare_difference_minutes": {"value": 64.207, "unit": "standardized provider minus nonprovider weighted mean eldercare minutes per diary day", "value_type": "difference", "standard_error": 6.693, "uncertainty_unit": "minutes"}
+      },
+      "method": "Aggregate ATUS activity records by TUCASEID, define provider status from any eldercare-roster record, and standardize both groups to the pooled final-weight distribution of supported age bands (15-24, 25-44, 45-64, 65+) crossed with TESEX and TELFS. Differences and standard errors use the 160-replicate ATUS formula.",
+      "uncertainty": "Replicate-weight uncertainty is propagated through the standardized difference. Only cells represented by both provider statuses are retained. This is an adjusted descriptive association, not a causal effect.",
+      "subgroup": "Eldercare-roster providers versus respondents without a roster record, standardized across age, sex, and labor-force-status cells.",
+      "counterinterpretation": "The residual profile may reflect health, family structure, recipient need, occupation, schedule control, diary timing, or other unmeasured selection; the paid-work contrast is imprecise relative to the household-work and social-time contrasts.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; roster:sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:96ee73302e0d62b0c6a87368261ef0e8938866900c6b92f0b47a7800240c1627",
+      "status": "compared"
+    },
+    {
+      "period": "2025; standardized eldercare-provider minus nonprovider contrast",
+      "denominator": {"value": 6126, "unit": "respondents in 33 supported age-band x sex x labor-force-status cells; provider n=1,016, nonprovider n=5,110"},
+      "measures": {
+        "household_work_difference_minutes": {"value": 9.023, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 5.032, "uncertainty_unit": "minutes"},
+        "care_for_people_difference_minutes": {"value": 10.74, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 3.414, "uncertainty_unit": "minutes"},
+        "work_difference_minutes": {"value": -7.985, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 10.527, "uncertainty_unit": "minutes"},
+        "travel_difference_minutes": {"value": 8.305, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 2.753, "uncertainty_unit": "minutes"},
+        "socializing_communicating_difference_minutes": {"value": -23.877, "unit": "standardized provider minus nonprovider weighted mean primary-activity minutes per diary day", "value_type": "difference", "standard_error": 8.662, "uncertainty_unit": "minutes"},
+        "secondary_childcare_difference_minutes": {"value": -5.779, "unit": "standardized provider minus nonprovider weighted mean secondary-childcare minutes per diary day", "value_type": "difference", "standard_error": 8.048, "uncertainty_unit": "minutes"},
+        "eldercare_difference_minutes": {"value": 63.997, "unit": "standardized provider minus nonprovider weighted mean eldercare minutes per diary day", "value_type": "difference", "standard_error": 7.471, "uncertainty_unit": "minutes"}
+      },
+      "method": "Same standardization and replicate-weight procedure as the 2024 observation, applied to the 2025 ATUS files.",
+      "uncertainty": "Replicate-weight uncertainty; 2024 and 2025 are separate annual samples and not the same respondents. Supported-cell overlap is required.",
+      "subgroup": "Eldercare-roster providers versus respondents without a roster record, standardized across age, sex, and labor-force-status cells.",
+      "counterinterpretation": "A residual time profile is not evidence of care-caused displacement; health, family, recipient, occupation, schedule, and diary-timing differences remain open, and the paid-work contrast is imprecise.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2025.htm",
+      "retrieval_hash": "sha256:77566d2864f1b96412a46ceeee9ea53709bc191b092f3573af04c17b2d409873; sha256:a45c4edf1b7e0cd5ecf622bc5a57e4fe6fe27281add92b26c29605cfac193359; sha256:664314e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; sha256:f7c024e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; roster:sha256:d4ae219ecda174be926a233294b60914ab9a7b7515bf17a1edd1ccd4efc3e253; artifact:sha256:39068f610abc8ebc42e5b9b2e5c82ed904d5a8fbda0c265d61da1da29a492da6",
+      "status": "compared"
+    }
+  ],
+  "boundary": "Basic age, sex, and labor-force-status standardization does not create a causal care exposure. The contrast remains a one-day annual comparison; it does not measure dated care onset, health, family structure, recipient need, schedule control, employer accommodation, recovery, trust, political action, or causal displacement."
+}

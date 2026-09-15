@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-time-care-microdata-2024",
+  "title": "Time, care, paid work, travel, and social participation are distributed as separate currencies",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "work_control_bargaining", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "ATUS respondent age 15+ with one selected diary day and final weight",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; all respondents age 15+",
+      "denominator": {"value": 7669, "unit": "merged ATUS diary respondents"},
+      "measures": {
+        "household_work_minutes": {"value": 120.656, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 2.03},
+        "care_for_people_minutes": {"value": 32.825, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.17},
+        "work_minutes": {"value": 190.751, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 3.13},
+        "travel_minutes": {"value": 65.014, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 1.12},
+        "socializing_communicating_minutes": {"value": 273.562, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate", "standard_error": 2.87},
+        "secondary_childcare_minutes": {"value": 76.696, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate", "standard_error": 2.27},
+        "eldercare_minutes": {"value": 10.981, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate", "standard_error": 1.06}
+      },
+      "method": "Official BLS ATUS 2024 respondent, activity, and activity-summary files; activity records aggregated by TUCASEID and merged to final-weight and demographic fields; final-weighted means and diary-day participation shares calculated by scripts/analyze_atus_time_care_2024.py.",
+      "uncertainty": "Weighted descriptive estimates without replicate-weight standard errors in this first pass; one-day diary design does not support individual longitudinal inference.",
+      "subgroup": "All valid merged ATUS respondents age 15+.",
+      "counterinterpretation": "A population mean can hide concentrated time, simultaneous secondary care, schedule control, and whether time was chosen, required, or displaced.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:d29e66774f01d1a9b54e8285ff7fc7dc386fc1346e50d9db99f0973a70555a0c",
+      "status": "compared"
+    },
+    {
+      "period": "2024; sex comparison",
+      "denominator": {"value": 3563, "unit": "male respondents; female comparison n=4106"},
+      "measures": {
+        "male_household_work_minutes": {"value": 99.359, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "female_household_work_minutes": {"value": 140.958, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "male_care_for_people_minutes": {"value": 24.745, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "female_care_for_people_minutes": {"value": 40.528, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "male_work_minutes": {"value": 216.843, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "female_work_minutes": {"value": 165.878, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "male_secondary_childcare_minutes": {"value": 60.785, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate"},
+        "female_secondary_childcare_minutes": {"value": 91.863, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate"}
+      },
+      "method": "Same weighted ATUS microdata procedure; sex codes are BLS-defined male and female categories in the 2024 summary file.",
+      "uncertainty": "Descriptive subgroup comparison without replicate-weight standard errors; sex category is not a complete account of gender, household role, or care arrangement.",
+      "subgroup": "Male and female respondents age 15+; denominator reports the male cell and comparison cell size.",
+      "counterinterpretation": "Differences may reflect age, employment, household composition, occupation, diary day, and care responsibilities; they do not establish that sex caused the time allocation.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:d29e66774f01d1a9b54e8285ff7fc7dc386fc1346e50d9db99f0973a70555a0c",
+      "status": "compared"
+    },
+    {
+      "period": "2024; age comparison",
+      "denominator": {"value": 2234, "unit": "respondents age 25-44; age 65+ comparison n=2678"},
+      "measures": {
+        "age_25_44_work_minutes": {"value": 272.587, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "age_65_plus_work_minutes": {"value": 44.599, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "age_25_44_care_for_people_minutes": {"value": 56.742, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"},
+        "age_65_plus_eldercare_minutes": {"value": 21.623, "unit": "weighted mean eldercare minutes per diary day", "value_type": "estimate"},
+        "age_25_44_secondary_childcare_minutes": {"value": 162.133, "unit": "weighted mean secondary-childcare minutes per diary day", "value_type": "estimate"},
+        "age_65_plus_socializing_communicating_minutes": {"value": 389.928, "unit": "weighted mean primary-activity minutes per diary day", "value_type": "estimate"}
+      },
+      "method": "Same weighted ATUS microdata procedure with age bands 25-44 and 65+.",
+      "uncertainty": "Descriptive age comparison without replicate-weight standard errors; age bands combine heterogeneous health, work, household, and care circumstances.",
+      "subgroup": "Respondents age 25-44 and 65+; denominator reports the 25-44 cell and comparison cell size.",
+      "counterinterpretation": "Age patterns may be mediated by employment, children, health, household composition, cohort, and retirement; they do not show a life-course causal path.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:d29e66774f01d1a9b54e8285ff7fc7dc386fc1346e50d9db99f0973a70555a0c",
+      "status": "compared"
+    },
+    {
+      "period": "2024; eldercare roster among respondents with at least one listed recipient",
+      "denominator": {"value": 1319, "unit": "ATUS provider respondents with 1,738 recipient records"},
+      "measures": {
+        "listed_recipients_per_provider": {"value": 1.326, "unit": "weighted mean listed recipient records per provider respondent", "value_type": "estimate"},
+        "provider_with_household_recipient": {"value": 22.7, "unit": "weighted percent of provider respondents", "value_type": "share"},
+        "provider_with_nonhousehold_recipient": {"value": 79.0, "unit": "weighted percent of provider respondents", "value_type": "share"}
+      },
+      "method": "Eldercare roster records linked to the respondent/activity frame by TUCASEID; provider-level indicators weighted by respondent final weight. Recipient records are not independently weighted.",
+      "uncertainty": "Descriptive weighted provider comparison without replicate-weight standard errors for this roster extension; roster reporting and recipient multiplicity remain relevant limits.",
+      "subgroup": "Respondents with at least one eldercare-roster record in the 2024 ATUS.",
+      "counterinterpretation": "A listed non-household recipient does not measure distance, care hours, burden, relationship quality, or whether support was shared with other caregivers.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e; artifact:sha256:d29e66774f01d1a9b54e8285ff7fc7dc386fc1346e50d9db99f0973a70555a0c",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This record is a 2024 population time-use layer, not a longitudinal or same-household event study. Primary activity minutes, secondary childcare, and eldercare are distinct measures; they must not be added into a single burden score or joined to SHED, CE, SIPP, or PSID as if they were the same people. The roster extension describes provider respondents and does not turn recipient rows into a separate weighted population."
+}

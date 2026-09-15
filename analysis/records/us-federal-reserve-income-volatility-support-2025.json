@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-income-volatility-support-2025",
+  "title": "Income timing, family support, and budget margin distribute unevenly across US households",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent and family, 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 SHED; income sources and public assistance",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; publication percentages use the all-adult respondent frame", "value_type": "survey_population"},
+      "measures": {"labor_income": {"value": 68, "unit": "percent of adults and spouse/partner receiving wages, salaries, or self-employment income in prior year", "value_type": "share"}, "nonlabor_income": {"value": 57, "unit": "percent of adults", "value_type": "share"}, "government_housing_assistance": {"value": 3, "unit": "percent of adults reporting family receipt in prior 12 months", "value_type": "share"}, "government_food_assistance": {"value": 16, "unit": "percent of adults reporting family receipt in prior 12 months", "value_type": "share"}, "outside_household_expense_help": {"value": 23, "unit": "percent of adults receiving help with a listed expense in prior 12 months", "value_type": "share"}},
+      "method": "Federal Reserve 2025 SHED published tables; respondents could select multiple income sources and assistance types, and labor income includes spouse/partner income.",
+      "uncertainty": "Self-reported receipt and source measures do not establish adequacy, eligibility, transfer size, timing, or whether help prevented hardship; question universes differ across tables.",
+      "subgroup": "All adults, with age-conditioned assistance and outside-help estimates reported separately.",
+      "counterinterpretation": "Multiple income sources or assistance can provide resilience, but can also signal dependence or a need that is not captured by aggregate income.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e",
+      "status": "reported"
+    },
+    {
+      "period": "2023 to 2025 SHED; monthly income variability and hardship",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; income-variability questions use the applicable adult respondent frame", "value_type": "survey_population"},
+      "measures": {"income_varies_at_least_occasionally_2025": {"value": 30, "unit": "percent of adults", "value_type": "share"}, "income_varies_at_least_occasionally_2023": {"value": 28, "unit": "percent of adults", "value_type": "share"}, "bill_struggle_due_to_income_variability": {"value": 11, "unit": "percent of adults in 2025", "value_type": "share"}, "self_employed_income_variability": {"value": 58, "unit": "percent of self-employed adults", "value_type": "subgroup_share"}, "self_employed_bill_struggle": {"value": 22, "unit": "percent of self-employed adults", "value_type": "subgroup_share"}, "employee_income_variability": {"value": 28, "unit": "percent of adults working for someone else in month before survey", "value_type": "subgroup_share"}, "employee_bill_struggle": {"value": 10, "unit": "percent of that employee subgroup", "value_type": "subgroup_share"}},
+      "method": "Repeated SHED descriptive comparison of self-reported month-to-month income variation and bill difficulty attributed by respondents to that variation.",
+      "uncertainty": "The comparison is not a panel result, and the attribution to income variation is respondent-reported; employment selection, income level, benefits, and schedule differences may confound subgroup gaps.",
+      "subgroup": "All adults, self-employed adults, employees, retirees, and non-retirees.",
+      "counterinterpretation": "Income variability may be manageable when households have savings, credit, benefits, or flexible timing; variability is not identical to insecurity.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; year-over-year income and spending",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; all-adult respondent frame", "value_type": "survey_population"},
+      "measures": {"monthly_income_increased": {"value": 32, "unit": "percent of adults versus 12 months earlier", "value_type": "share"}, "monthly_spending_increased": {"value": 35, "unit": "percent of adults versus 12 months earlier", "value_type": "share"}, "money_left_over_always_or_often": {"value": 41, "unit": "percent of adults", "value_type": "share"}, "money_left_over_under_25k": {"value": 19, "unit": "percent of adults with family income under $25,000", "value_type": "subgroup_share"}, "money_left_over_100k_plus": {"value": 59, "unit": "percent of adults with family income of $100,000 or more", "value_type": "subgroup_share"}},
+      "method": "Federal Reserve SHED published descriptive estimates; increases in monthly income and spending are separate reports, and the money-left-over measure is a separate budget-margin question.",
+      "uncertainty": "Annual self-reports do not measure account balances, exact spending categories, debt service, or the timing mismatch between income and expenses.",
+      "subgroup": "All adults and family-income bands.",
+      "counterinterpretation": "Higher spending can reflect improved consumption or necessary price increases; a month-end surplus can be temporary and does not establish durable financial security.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; price response and anticipatory consumption",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; action questions allow multiple responses", "value_type": "survey_population"},
+      "measures": {"switched_to_cheaper_products": {"value": 62, "unit": "percent of adults", "value_type": "share"}, "used_less_or_stopped_products": {"value": 60, "unit": "percent of adults", "value_type": "share"}, "delayed_major_purchase": {"value": 46, "unit": "percent of adults", "value_type": "share"}, "reduced_saving": {"value": 41, "unit": "percent of adults", "value_type": "share"}, "increased_borrowing": {"value": 16, "unit": "percent of adults", "value_type": "share"}, "worked_more_or_got_another_job": {"value": 17, "unit": "percent of adults", "value_type": "share"}, "made_major_purchase_earlier_due_to_expected_prices": {"value": 18, "unit": "percent of adults", "value_type": "share"}},
+      "method": "Federal Reserve 2025 SHED published action estimates; selected actions are not mutually exclusive and are self-reported responses over the prior 12 months.",
+      "uncertainty": "The survey does not identify which price caused an action, whether a response was protective or deprivation, or whether it persisted after prices changed.",
+      "subgroup": "All adults; anticipatory purchase measure has separate family-income comparisons.",
+      "counterinterpretation": "Switching, delaying, or buying early can be strategic consumption; reduced saving, borrowing, or extra work can reflect either chosen smoothing or constrained room.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm", "claim": "Overall SHED 2025 financial-well-being context and methodology.", "status": "primary"}],
+  "boundary": "This record establishes Federal Reserve 2025 SHED distributions for income sources, outside support, income variability, budget margin, and price adaptations. It does not establish a dated shock-to-response causal path, benefit adequacy, household recovery, trust, political action, or cultural meaning."
+}

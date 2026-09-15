@@ -1,0 +1,127 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-public-financial-capacity-household-room-crosssource-2025-2026",
+  "title": "Macro growth, public financial capacity, and household room are separate stages of the same pressure system",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning", "geopolitical_state_consequences", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "Deliberately non-pooled comparison of BEA national accounts, Federal Reserve financial-stability and household surveys, OFR institutional capacity, and IMF country surveillance",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026 Q2 and July 2026; BEA output, prices, profits, income, consumption, and saving",
+      "denominator": {"value": 1, "unit": "aggregate US national-accounts and personal-sector accounts; flows and annualized rates are not household respondents", "value_type": "aggregate_accounts"},
+      "measures": {
+        "real_gdp_growth_q2": {"value": 1.5, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"},
+        "private_final_sales_growth_q2": {"value": 4.2, "unit": "percent annual rate", "value_type": "reported_rate"},
+        "corporate_profits_change_q2": {"value": 400.9, "unit": "billions of current US dollars from 2026 Q1", "value_type": "reported_change"},
+        "personal_income_change_july": {"value": 115.1, "unit": "billions of current US dollars from June 2026", "value_type": "reported_change"},
+        "services_minus_goods_change_july": {"value": 136.1, "unit": "billions of current US dollars; arithmetic contrast of reported PCE component changes", "value_type": "derived_contrast"},
+        "personal_saving_rate_july": {"value": 3.0, "unit": "percent of disposable personal income", "value_type": "reported_rate"}
+      },
+      "method": "Bounded comparison of BEA second-estimate quarterly NIPAs/corporate profits and July Personal Income and Outlays; component contrast is calculated from reported changes.",
+      "uncertainty": "These are aggregate current-dollar flows, annualized rates, and revised national-account estimates. They do not identify distribution, real purchasing power, household liquidity, firm incidence, or why spending composition changed.",
+      "subgroup": "Aggregate US economy, corporate sector, and personal sector; no household, firm-size, worker, place, or income subgroup.",
+      "counterinterpretation": "Output or profit growth can coexist with household stress, unequal purchasing power, imported-cost exposure, or weak conditions for particular firms; services-versus-goods movement can reflect prices, timing, or supply rather than preference.",
+      "source_url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "retrieval_hash": "sha256:2a0afce2c96c4ba383d382de93747e5b5da7d49f8fff923cda089285184b185e; sha256:131a34937193d5631ac80c606ab233febeb7cbbb267ac6ccdaf9a091a9fee9f7",
+      "status": "compared"
+    },
+    {
+      "period": "May-July 2026; Federal Reserve system stability, policy, credit, inflation, labor, and consumption context",
+      "denominator": {"value": 1, "unit": "Federal Reserve institutional reports and US macro/financial aggregates", "value_type": "institutional_report"},
+      "measures": {
+        "runnable_money_like_liabilities": {"value": 27033, "unit": "billions of US dollars at end-2025; 12.0 percent growth from 2024 Q4 to 2025 Q4", "value_type": "reported_amount"},
+        "household_credit_stress": {"value": "credit-card and auto-loan delinquencies above the prior decade; selected FHA/VA and low-down-payment mortgage distress", "unit": "reported vulnerability pattern", "value_type": "qualitative_assessment"},
+        "total_pce_inflation": {"value": 4.1, "unit": "percent over 12 months ending May 2026", "value_type": "reported_rate"},
+        "household_consumption_growth": {"value": 1.3, "unit": "percent average annualized rate through first five months of 2026", "value_type": "reported_rate"},
+        "credit_access": {"value": "broadly available overall but relatively tight for small businesses and households", "unit": "Federal Reserve assessment", "value_type": "qualitative_assessment"}
+      },
+      "method": "Comparison of the Federal Reserve May Financial Stability Report and July Monetary Policy Report; stability vulnerabilities and monetary-policy aggregates are separate report surfaces.",
+      "uncertainty": "The reports identify vulnerabilities and policy conditions rather than household-specific causal effects or probabilities of loss. Aggregate inflation, consumption, funding, and delinquency measures have distinct dates, units, holders, and populations.",
+      "subgroup": "Households, small businesses, banks, hedge funds, money-like liability holders, and financial markets; selected mortgage and borrower subgroups are not representative of all households.",
+      "counterinterpretation": "High bank capital and moderate aggregate debt vulnerability can coexist with selected borrower stress; elevated valuations or runnable liabilities do not establish an imminent crisis or household welfare loss.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-overview.htm",
+      "retrieval_hash": "sha256:cbfdabe3bb2447efe9cb544ef4b4ae817fea0cfb54c75623417b483a94caa3de; sha256:88073184ab4ab41fd5487d873d982368f5f6ca22bd33207e6ae04092d8cbe9cf",
+      "status": "compared"
+    },
+    {
+      "period": "FY2025; OFR public financial-data and institutional-capacity changes",
+      "denominator": {"value": 188, "unit": "OFR employees at FY2024 starting point; workforce comparison has separate January and year-end counts", "value_type": "institutional_workforce_base"},
+      "measures": {
+        "ofr_workforce_path": {"value": "188 start -> 205 January 2025 -> 109 FY2025 end", "unit": "OFR employees", "value_type": "reported_path"},
+        "ofr_workforce_change": {"value": -47, "unit": "percent reported change from starting point", "value_type": "reported_change"},
+        "ofr_budget_change": {"value": -11, "unit": "percent reported FY2025 budget change", "value_type": "reported_change"},
+        "nccbr_market_scale": {"value": 5000000000000, "unit": "approximate US dollars in daily outstanding non-centrally cleared bilateral repo commitments", "value_type": "reported_market_amount"},
+        "ai_use_cases": {"value": "data processing, security monitoring, support, procurement comparison, and ChatOFR", "unit": "reported institutional use-case inventory", "value_type": "reported_inventory"}
+      },
+      "method": "OFR FY2025 Annual Report self-report covering workforce, budget, AI/cloud use, analytics infrastructure, and new repo-data collection.",
+      "uncertainty": "OFR does not attribute staffing change to AI alone and does not measure workload per employee, analytical quality, model accuracy, public-service response time, or whether new data prevented disruption. Market scale is not household exposure.",
+      "subgroup": "OFR staff and analytical/data functions; financial institutions, regulators, and market participants in the reported repo segment.",
+      "counterinterpretation": "Staffing reduction may reflect mission reprioritization; AI may augment rather than replace work; more market visibility may improve monitoring without changing market risk or public accountability.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "compared"
+    },
+    {
+      "period": "2025-2031; IMF Article IV retrospective and conditional baseline",
+      "denominator": {"value": 6, "unit": "IMF Article IV selected-indicator framework and projection years 2026-2031; retrospective values have separate periods", "value_type": "country_surveillance_framework"},
+      "measures": {
+        "real_gdp_growth_2025_q4_q4": {"value": 2.0, "unit": "percent, 2025 Q4/Q4", "value_type": "reported_estimate"},
+        "general_government_debt_2025": {"value": 123.9, "unit": "percent of GDP", "value_type": "reported_estimate"},
+        "general_government_debt_2031": {"value": 141.5, "unit": "percent of GDP; conditional baseline projection", "value_type": "projection"},
+        "policy_risks": {"value": "tariff passthrough, energy prices, fiscal imbalance, short-maturity debt, external rebalancing, nonbank visibility, and financial-regulatory change", "unit": "IMF risk inventory", "value_type": "qualitative_risk_inventory"}
+      },
+      "method": "IMF 2026 United States Article IV consultation using national accounts, labor, fiscal, external, financial, and policy information; retrospective estimates and conditional projections are retained separately.",
+      "uncertainty": "Projections are scenarios, not realized outcomes, and are sensitive to tariffs, energy, fiscal legislation, immigration, monetary policy, financial conditions, and geopolitical developments. Public-debt ratios do not identify who bears adjustment costs.",
+      "subgroup": "US macroeconomic, fiscal, external, and financial-system aggregates; no household or worker incidence estimate.",
+      "counterinterpretation": "A projected debt path does not establish a fiscal crisis, and aggregate growth or productivity does not imply equal household room, political legitimacy, or worker control.",
+      "source_url": "https://www.imf.org/en/publications/cr/issues/2026/04/01/united-states-2026-article-iv-consultation-press-release-staff-report-and-statement-by-the-575120",
+      "retrieval_hash": "metadata:sha256:96eac1f638aba1f754d002efae82765f1b23cd41aeca7e91279c68cf661122dc",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; household liquidity, revolving credit, and repayment-pressure endpoints",
+      "denominator": {"value": 100, "unit": "published percentage bases among adults or explicitly conditional borrower groups; linked credit sample is separate", "value_type": "survey_population"},
+      "measures": {
+        "would_cover_400_with_cash_or_equivalent": {"value": 63, "unit": "percent of adults", "value_type": "share"},
+        "would_be_unable_to_pay_400": {"value": 12, "unit": "percent of adults", "value_type": "share"},
+        "carried_credit_card_balance": {"value": 45, "unit": "percent of credit-card owners who carried a balance at least once", "value_type": "conditional_share"},
+        "linked_card_balance_change_difficult_to_get_by": {"value": 2530, "unit": "US dollars, 2023 to 2025; linked respondents reporting difficulty getting by", "value_type": "reported_change"},
+        "required_student_loan_payers_with_difficulty": {"value": 41, "unit": "percent of borrowers required to make payments", "value_type": "conditional_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published estimates, including consent-based linkage to credit-report data; hypothetical capacity, survey responses, and linked balances remain separate estimands.",
+      "uncertainty": "The measures do not observe a common rate shock, actual emergency transactions, causal repayment paths, or representative linked-credit coverage. Balance growth can reflect smoothing, spending, income, rates, or other events.",
+      "subgroup": "US adults, credit-card owners, linked SHED respondents, and adults required to make student-loan payments; income and financial-well-being subgroups differ by measure.",
+      "counterinterpretation": "Non-cash emergency responses can reflect precautionary liquidity management; carrying a balance is not delinquency; credit can preserve consumption or prevent an immediate loss while reducing future room.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm",
+      "retrieval_hash": "sha256:b88dcdd88a27029a79b82a2f179291eab78bc5e669e4f82fa40f2368a16cddb9; sha256:bf9d29ef0bac4617962f43add86883847b360d9016cf21aa3c19a097785830a1",
+      "status": "compared"
+    },
+    {
+      "period": "2026 Q2; New York Fed aggregate household debt, product balances, and delinquency",
+      "denominator": {"value": 1, "unit": "aggregate US household debt reported on consumer credit records; product and delinquency measures use aggregate balance bases", "value_type": "aggregate_credit_records"},
+      "measures": {
+        "total_household_debt": {"value": 18.8, "unit": "trillion US dollars", "value_type": "reported_level"},
+        "debt_in_some_stage_of_delinquency": {"value": 4.7, "unit": "percent of outstanding debt", "value_type": "reported_share"},
+        "non_housing_debt_quarterly_change": {"value": 48, "unit": "billion US dollars from 2026 Q1", "value_type": "reported_change"},
+        "credit_card_balance": {"value": 1.26, "unit": "trillion US dollars", "value_type": "reported_level"},
+        "auto_loan_balance": {"value": 1.71, "unit": "trillion US dollars", "value_type": "reported_level"}
+      },
+      "method": "New York Fed Quarterly Report on Household Debt and Credit dashboard snapshot; aggregate balances and delinquency shares are based on consumer credit-report data.",
+      "uncertainty": "Aggregate balances are not household trajectories and do not identify income, liquid assets, rates, payment burden, hardship, or the distribution of delinquency. The mortgage balance movement is affected by a temporary servicing-reporting gap.",
+      "subgroup": "Aggregate mortgage, HELOC, credit-card, auto-loan, and other consumer-credit balances; no household income or financial-well-being subgroup.",
+      "counterinterpretation": "Balance growth can reflect spending, inflation, vehicle purchases, refinancing, or credit supply as well as distress; delinquency share is not a household welfare or loss forecast.",
+      "source_url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "retrieval_hash": "sha256:0744a9ba8650dd51fbb26a053e1173a46c3bb49b772d66ae8d711be90d927d53",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-bea-personal-income-outlays-2026-july.json", "claim": "BEA provides the later aggregate income, consumption, outlays, and saving surface.", "status": "related-record"},
+    {"source_url": "../../records/us-federal-reserve-financial-stability-monetary-policy-2026.json", "claim": "Federal Reserve reports provide financial-stability, inflation, credit-access, and policy-setting context.", "status": "related-record"},
+    {"source_url": "../../records/us-ofr-2025-ai-capacity-workforce-data-infrastructure.json", "claim": "OFR provides institutional data-capacity, staffing, AI-use, and market-monitoring context.", "status": "related-record"},
+    {"source_url": "../../records/us-imf-article-iv-united-states-2026.json", "claim": "IMF provides country-surveillance, fiscal, external, and conditional-projection context.", "status": "related-record"},
+    {"source_url": "../../records/us-federal-reserve-financial-buffer-credit-exposure-2025.json", "claim": "SHED provides household liquidity, revolving-credit, linked-balance, and repayment-pressure endpoints.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled cross-source bridge, not a financial-pressure index or causal chain. It shows how macro output and profit, monetary and financial-system conditions, public analytical capacity, fiscal/external scenarios, and household room can be read as adjacent stages while preserving separate people, dates, denominators, and estimands. It does not establish that macro, policy, institutional capacity, or debt conditions caused household behavior, trust, political action, or geopolitical leverage."
+}

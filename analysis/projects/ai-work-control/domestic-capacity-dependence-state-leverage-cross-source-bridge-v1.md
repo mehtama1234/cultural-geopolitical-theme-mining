@@ -1,6 +1,6 @@
 # Domestic capacity, dependence, and state leverage cross-source bridge v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-14
 **Scope:** US domestic affordability, firm/sector capacity, infrastructure, and external dependence  
 **Status:** cross-level geopolitical synthesis; state leverage and household-to-state links remain open
 
@@ -33,6 +33,9 @@ state decision.
 | [Firm and market power distribution](../us-local-business-place/firm-market-power-distribution-layer-v1.md) | Firm, market, worker, owner, place | Firm decisions distribute price, data, access, risk, and control | Recipient burden and state-level consequences are often unmeasured |
 | [AI capability/dependence](capability-dependence-local-power-layer-v1.md) | Firm, datacenter, public system, country | Infrastructure requires complements and can create capability and dependence together | Realized local value, provider switching, and geopolitical response remain open |
 | [AI infrastructure realization/control](ai-infrastructure-realization-control-layer-v1.md) | Project, operator, public system, country; dated cases | Promises, milestones, ownership changes, and control questions can be time-ordered | Service outcomes, local incidence, and exit terms are incomplete |
+| [Defense procurement and JASSM/LRASM realization layers](usaspending-jassm-lrasm-award-detail-v1.md) | Award, transaction, subaward, supplier, facility, country; 2024–2026 | Obligations, modifications, subaward structure, ownership context, capacity/integration milestones, and a separate Polish procurement schedule | Facility-level production, delivery, acceptance, inventory, readiness, and external response |
+| [Poland reciprocal-production and implementation layer](findings/ai-work-control-042.md) | Intergovernmental agreement, regional production agreement, facility, supplier, and follow-up governance; 2026 | Potential buyer/seller access, planned regional Barracuda B500M production, assembly-to-production terms, technology/know-how transfer language, and a dated implementation checkpoint | Commissioned line, completed units, delivery, measured local content, replaceability, deterrence, bargaining leverage, or changed adversary behavior |
+| [SIPRI state-capacity layer](sipri-military-expenditure-2024-state-capacity-layer-v1.md) | Country/alliance; 2015–2024 | Defense-resource allocation, growth, burden, and alliance concentration | Readiness, industrial output, domestic incidence, cohesion, deterrence, or leverage |
 | Trade, finance, energy, and industrial records | Commodity, firm, sector, country, year | External exposure, investment, power, and supplier relationships | Exposure alone does not establish vulnerability, resilience, or bargaining outcome |
 
 ## What the combined program supports
@@ -61,6 +64,34 @@ it. The relevant state variables are provider diversity, data and contract
 control, local technical skills, alternative suppliers, inspection rights,
 termination cost, and the ability to continue service during a dispute.
 
+The new realization records make this distinction operational across two
+systems. In AI infrastructure, Romania's public-cloud program and Malaysia's
+private hyperscale campus both have dated construction or migration milestones,
+but their public-service outcomes, local incidence, and portability remain
+different open questions. In defense procurement, the JASSM/LRASM record now
+separates a large obligation, subaward structure, corporate/facility ownership
+context, production or integration milestones, and Poland's planned delivery
+window. None of those stages alone proves delivered capability or bargaining
+leverage.
+
+The Poland reciprocal-production record adds a distinct implementation stage:
+official 2026 accounts describe potential buyer/seller access in a US-linked
+defense relationship, planned regional production with the US, Estonia, and
+Latvia, assembly followed by production at PGZ/WZL-2, and technology/know-how
+transfer language. The later BBN checkpoint and Ministry of State Assets
+production-plan account make implementation governance and planned scale more
+visible, but they do not establish a commissioned line, completed quantity,
+delivery, measured local-content share, or practical replaceability. The
+September 2026 Poland-US FMF agreement adds a broader financing signal—reported
+$4 billion and acceleration of existing contracts—but does not identify a
+Barracuda allocation and therefore cannot be treated as production or delivery
+evidence. The
+World Bank AI capability frame supplies a parallel vocabulary—adopt, adapt,
+advance—in which access and local adaptation can increase capability while
+concentration and missing complements preserve dependence. These are related
+mechanisms, not evidence that defense production or AI infrastructure produced
+the same kind of state power.
+
 ### 4. Distribution affects legitimacy and policy room
 
 The domestic burden of dependence may land on consumers through prices, workers
@@ -78,6 +109,14 @@ volume is not automatically leverage. Leverage appears when another actor
 changes behavior because exit, refusal, retaliation, or continued operation is
 credible.
 
+SIPRI spending totals provide the resource-allocation context, while the
+procurement and infrastructure cases provide narrower realization paths. The
+combined evidence therefore supports a staged state-capacity proposition:
+resources and commitments can precede realized capability, and realized
+capability can still coexist with external ownership or limited
+replaceability. An external response, refusal, switch, or negotiated
+concession is still required before calling the result leverage.
+
 ## Arrow ledger
 
 | Arrow | Status | Safe current conclusion | Missing test |
@@ -86,6 +125,7 @@ credible.
 | Domestic cost → consumer/worker/firm adaptation | Reported / Compared | Substitution, delay, borrowing, work, entry, exit, and job flows are observable in separate layers | Same exposed product/firm/place with distributional outcomes and counterfactual |
 | Adaptation → domestic capacity or resilience | Open | Capacity and adaptation are related but not interchangeable | Track investment, supplier switching, inventories, skills, productivity, and recovery |
 | Ownership/control → replaceability | Inferred / Open | Ownership, contracts, provider concentration, and local skills are mechanisms to inspect | Contracts, supplier alternatives, termination rights, outages, and switching events |
+| Procurement/resource allocation → realized state capability | Compared / Open | Spending, awards, agreements, implementation checkpoints, milestones, and integration records are distinct stages | Verified production, delivery, acceptance, inventory, readiness, and use |
 | Domestic distribution → legitimacy and policy room | Open | Unequal burdens can create political pressure or constrain policy | Same place/sector exposure with attribution, trust, organizing, and policy response |
 | Capacity/dependence → state bargaining or alliance leverage | Open | Capability and dependence can rise together | Observe negotiation, retaliation, provider refusal, regulatory response, or changed external behavior |
 

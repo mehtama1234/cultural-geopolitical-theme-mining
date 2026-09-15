@@ -1,0 +1,244 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-undp-ai-human-development-agency-comparison-2025",
+  "title": "AI use, personal control, and confidence in public or private AI are separate country-level surfaces",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "2025 UNDP Global Survey on AI and Human Development respondent; country-weighted descriptive comparison",
+  "geography": "United States and selected comparison countries from a 21-country survey",
+  "observations": [
+    {
+      "period": "2025; United States",
+      "denominator": {"value": 1005, "unit": "US survey respondents; weighted denominator varies by item", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "used_ai_at_least_weekly": {"value": 32.6, "unit": "percent; Q10 once a week or more than once a week", "value_type": "weighted_share", "valid_n": 1003},
+        "confident_control_ai_interactions": {"value": 33.9, "unit": "percent; Q16 agree or strongly agree", "value_type": "weighted_share", "valid_n": 1005},
+        "confident_government_can_use_ai": {"value": 29.1, "unit": "percent; Q18 very or somewhat confident", "value_type": "weighted_share", "valid_n": 1003},
+        "confident_ai_designed_in_people_interests": {"value": 37.5, "unit": "percent; Q19 very or somewhat confident", "value_type": "weighted_share", "valid_n": 1000}
+      },
+      "method": "Weighted descriptive tabulation of the UNDP 2025 Global Survey on AI and Human Development Stata file using Weight_none_resp1; special response codes and item nonresponse excluded from each item denominator.",
+      "uncertainty": "The file is a cross-sectional survey with country samples of roughly 1,000, not a panel or representative estimate of all US residents. Items have different valid universes; no complex-design standard errors were calculated in this pass. Country comparisons may reflect sampling, translation, institutional context, question interpretation, and weighting differences.",
+      "subgroup": "US respondents; no age, gender, education, work, income, or place stratification in this first pass.",
+      "counterinterpretation": "Low confidence can coexist with frequent use, and high confidence can reflect general optimism or institutional trust rather than effective control. The measures do not establish productivity, harm, or actual public-service quality.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; China",
+      "denominator": {"value": 1008, "unit": "China survey respondents; weighted denominator varies by item", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "used_ai_at_least_weekly": {"value": 37.4, "unit": "percent; Q10 once a week or more than once a week", "value_type": "weighted_share"},
+        "confident_control_ai_interactions": {"value": 39.9, "unit": "percent; Q16 agree or strongly agree", "value_type": "weighted_share"},
+        "confident_government_can_use_ai": {"value": 88.6, "unit": "percent; Q18 very or somewhat confident", "value_type": "weighted_share"},
+        "confident_ai_designed_in_people_interests": {"value": 83.3, "unit": "percent; Q19 very or somewhat confident", "value_type": "weighted_share"}
+      },
+      "method": "Same weighted descriptive tabulation and item coding as the US observation.",
+      "uncertainty": "Cross-country differences are descriptive and may include survey-mode, translation, institutional, political, and cultural response differences. They do not identify a country effect or establish that public confidence corresponds to actual AI governance.",
+      "subgroup": "China respondents; no subgroup stratification in this pass.",
+      "counterinterpretation": "High confidence in government or AI design may reflect trust, expectations, or response style rather than observed service quality or personal control.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; Germany",
+      "denominator": {"value": 1000, "unit": "Germany survey respondents; weighted denominator varies by item", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "used_ai_at_least_weekly": {"value": 38.3, "unit": "percent; Q10 once a week or more than once a week", "value_type": "weighted_share"},
+        "confident_control_ai_interactions": {"value": 27.8, "unit": "percent; Q16 agree or strongly agree", "value_type": "weighted_share"},
+        "confident_government_can_use_ai": {"value": 44.9, "unit": "percent; Q18 very or somewhat confident", "value_type": "weighted_share"},
+        "confident_ai_designed_in_people_interests": {"value": 42.5, "unit": "percent; Q19 very or somewhat confident", "value_type": "weighted_share"}
+      },
+      "method": "Same weighted descriptive tabulation and item coding as the US observation.",
+      "uncertainty": "This is a country comparison, not a causal comparison. The measures have different item missingness and do not capture workplace rules, privacy law, service performance, or actual control.",
+      "subgroup": "Germany respondents; no subgroup stratification in this pass.",
+      "counterinterpretation": "More frequent use can coexist with less reported personal control; that relationship may reflect task exposure, skepticism, or different interpretations of control.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; South Africa",
+      "denominator": {"value": 1034, "unit": "South Africa survey respondents; weighted denominator varies by item", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "used_ai_at_least_weekly": {"value": 59.4, "unit": "percent; Q10 once a week or more than once a week", "value_type": "weighted_share"},
+        "confident_control_ai_interactions": {"value": 42.8, "unit": "percent; Q16 agree or strongly agree", "value_type": "weighted_share"},
+        "confident_government_can_use_ai": {"value": 57.2, "unit": "percent; Q18 very or somewhat confident", "value_type": "weighted_share"},
+        "confident_ai_designed_in_people_interests": {"value": 67.6, "unit": "percent; Q19 very or somewhat confident", "value_type": "weighted_share"}
+      },
+      "method": "Same weighted descriptive tabulation and item coding as the US observation.",
+      "uncertainty": "Country estimates are descriptive, and the comparison does not harmonize labor-market composition, internet access, survey mode, or institutional context. No inference about development, governance quality, or AI outcomes follows from these percentages.",
+      "subgroup": "South Africa respondents; no subgroup stratification in this pass.",
+      "counterinterpretation": "High reported use may indicate greater exposure or different access, not greater benefit; confidence in AI may reflect expectations rather than realized agency.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States subgroup comparison by age",
+      "denominator": {"value": 1005, "unit": "US respondents; age-group cells: 15–17 n=55, 18–35 n=243, 36–59 n=367, 60+ n=340", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "weekly_use_by_age": {"value": "15–17: 42.6%; 18–35: 46.8%; 36–59: 32.2%; 60+: 16.6%", "unit": "weighted percent; Q10 once a week or more", "value_type": "subgroup_comparison"},
+        "control_confidence_by_age": {"value": "15–17: 41.8%; 18–35: 48.0%; 36–59: 40.0%; 60+: 31.8%", "unit": "weighted percent; Q16 agree or strongly agree", "value_type": "subgroup_comparison"},
+        "government_confidence_by_age": {"value": "15–17: 28.8%; 18–35: 34.3%; 36–59: 28.9%; 60+: 23.8%", "unit": "weighted percent; Q18 very or somewhat confident", "value_type": "subgroup_comparison"},
+        "design_confidence_by_age": {"value": "15–17: 45.2%; 18–35: 40.4%; 36–59: 38.3%; 60+: 32.1%", "unit": "weighted percent; Q19 very or somewhat confident", "value_type": "subgroup_comparison"}
+      },
+      "method": "Same weighted descriptive tabulation as the country comparison, stratified by UNDP survey AgeGroup; item nonresponse and special codes excluded separately.",
+      "uncertainty": "The 15–17 cell is small, no complex-design standard errors were calculated, and age is associated with education, employment, access, and survey interpretation. These are descriptive subgroup differences, not age effects.",
+      "subgroup": "US respondents by AgeGroup; 15–17, 18–35, 36–59, and 60+.",
+      "counterinterpretation": "Lower reported use among older respondents may reflect access, purpose, exposure, or cohort differences rather than lower ability or lower benefit. Higher confidence among younger respondents does not establish greater control.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States subgroup comparison by gender",
+      "denominator": {"value": 1005, "unit": "US respondents; gender cells: female n=495, male n=497, other n=13", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "weekly_use_by_gender": {"value": "Female: 27.7%; Male: 37.3%; Other: 38.5%", "unit": "weighted percent; Q10 once a week or more", "value_type": "subgroup_comparison"},
+        "control_confidence_by_gender": {"value": "Female: 33.5%; Male: 46.6%; Other: 46.2%", "unit": "weighted percent; Q16 agree or strongly agree", "value_type": "subgroup_comparison"},
+        "government_confidence_by_gender": {"value": "Female: 29.1%; Male: 30.0%; Other: 0.0%", "unit": "weighted percent; Q18 very or somewhat confident", "value_type": "subgroup_comparison"},
+        "design_confidence_by_gender": {"value": "Female: 33.8%; Male: 41.4%; Other: 23.1%", "unit": "weighted percent; Q19 very or somewhat confident", "value_type": "subgroup_comparison"}
+      },
+      "method": "Same weighted descriptive tabulation as the country comparison, stratified by Q2 gender; item nonresponse and special codes excluded separately.",
+      "uncertainty": "The Other cell has only 13 respondents and is not stable for interpretation; no complex-design standard errors were calculated. Gender categories are survey response categories, not a complete account of identity or mechanism.",
+      "subgroup": "US respondents by reported gender: female, male, and other.",
+      "counterinterpretation": "Differences may reflect age, work, education, access, task purpose, or exposure rather than gender itself; the very small Other cell should not be compared as a precise estimate.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States subgroup comparison by education",
+      "denominator": {"value": 997, "unit": "US respondents with valid mapped education; cells: primary or less n=143, some secondary n=70, secondary completed n=396, university+ n=388", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "weekly_use_by_education": {"value": "Primary or less: 31.2%; Some secondary: 44.0%; Secondary completed: 29.9%; University+: 36.2%", "unit": "weighted percent; Q10 once a week or more", "value_type": "subgroup_comparison"},
+        "control_confidence_by_education": {"value": "Primary or less: 38.2%; Some secondary: 43.2%; Secondary completed: 36.8%; University+: 46.3%", "unit": "weighted percent; Q16 agree or strongly agree", "value_type": "subgroup_comparison"},
+        "government_confidence_by_education": {"value": "Primary or less: 23.0%; Some secondary: 31.3%; Secondary completed: 27.6%; University+: 32.5%", "unit": "weighted percent; Q18 very or somewhat confident", "value_type": "subgroup_comparison"},
+        "design_confidence_by_education": {"value": "Primary or less: 32.1%; Some secondary: 40.9%; Secondary completed: 39.3%; University+: 34.3%", "unit": "weighted percent; Q19 very or somewhat confident", "value_type": "subgroup_comparison"}
+      },
+      "method": "Same weighted descriptive tabulation as the country comparison, stratified by Q3mapped education; invalid, don’t-know, and prefer-not-to-answer codes excluded.",
+      "uncertainty": "The education cells are not equally sized, no complex-design standard errors were calculated, and education is entangled with age, employment, income, internet access, and task exposure. These are descriptive differences, not education effects.",
+      "subgroup": "US respondents by mapped education: primary or less, some secondary, secondary completed, and university or more.",
+      "counterinterpretation": "Education is not monotonic in every measure: university respondents report more personal-control confidence but not the highest design confidence or weekly use. This cautions against treating credentials as a complete proxy for AI agency.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States same-survey AI-use frequency by perceived control",
+      "denominator": {"value": 951, "unit": "US respondents with valid AI-use and control responses; weekly-or-more n=301, monthly-or-less n=650", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "control_confidence_weekly_or_more": {"value": 51.8, "unit": "weighted percent; Q10 weekly-or-more users who agree or strongly agree they can control AI interactions", "value_type": "conditional_share"},
+        "control_confidence_monthly_or_less": {"value": 35.8, "unit": "weighted percent; Q10 monthly-or-less users who agree or strongly agree", "value_type": "conditional_share"},
+        "weekly_minus_monthly_control_gap": {"value": 16.0, "unit": "percentage points; descriptive contrast", "value_type": "derived_contrast"}
+      },
+      "method": "Weighted descriptive cross-tabulation of Q10 AI-use frequency and Q16 perceived ability to control AI interactions using Weight_none_resp1; don’t-know and prefer-not-to-answer codes excluded.",
+      "uncertainty": "The two measures are simultaneous self-reports, so the contrast cannot establish that use increases control. People with more control may choose to use AI more, or age, education, work, access, and purpose may shape both responses. No complex-design standard errors were calculated.",
+      "subgroup": "US respondents grouped as weekly-or-more versus monthly-or-less AI users; once-a-week and more-than-once-a-week are combined for the first group.",
+      "counterinterpretation": "Frequent users may be more knowledgeable, more exposed, or more confident in reporting—not necessarily more protected. Infrequent users may have less opportunity to learn control or may avoid systems they distrust.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States same-survey AI-use frequency by institutional confidence",
+      "denominator": {"value": 885, "unit": "US respondents with valid AI-use and item responses; weekly-or-more and monthly-or-less cells vary by item", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "government_confidence_weekly_or_more": {"value": 36.0, "unit": "weighted percent; weekly-or-more users very or somewhat confident government can use AI", "value_type": "conditional_share"},
+        "government_confidence_monthly_or_less": {"value": 25.5, "unit": "weighted percent; monthly-or-less users very or somewhat confident", "value_type": "conditional_share"},
+        "design_confidence_weekly_or_more": {"value": 51.1, "unit": "weighted percent; weekly-or-more users very or somewhat confident AI is designed in people’s interests", "value_type": "conditional_share"},
+        "design_confidence_monthly_or_less": {"value": 30.7, "unit": "weighted percent; monthly-or-less users very or somewhat confident", "value_type": "conditional_share"}
+      },
+      "method": "Weighted descriptive cross-tabulation of Q10 AI-use frequency with Q18 government confidence and Q19 design confidence using Weight_none_resp1; item-specific valid universes retained.",
+      "uncertainty": "The cross-tab is associative and simultaneous, with item-specific missingness and no complex-design standard errors. It does not show that use causes confidence or that confidence reflects actual quality, fairness, or control.",
+      "subgroup": "US respondents grouped as weekly-or-more versus monthly-or-less AI users.",
+      "counterinterpretation": "People who use AI more may have jobs, education, or access that also make institutions seem more familiar or useful. Confidence could precede use rather than follow it.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; United States reported AI use by life domain",
+      "denominator": {"value": 1005, "unit": "US survey respondents; Q11 domain-use items", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "used_ai_for_entertainment": {"value": 26.0, "unit": "percent answering yes for entertainment/streaming/gaming", "value_type": "weighted_share"},
+        "used_ai_for_financial_services": {"value": 17.0, "unit": "percent answering yes for financial services or banking", "value_type": "weighted_share"},
+        "used_ai_for_healthcare": {"value": 14.7, "unit": "percent answering yes for healthcare services or applications", "value_type": "weighted_share"},
+        "used_ai_for_work_tools": {"value": 16.4, "unit": "percent answering yes for work-related tools or software", "value_type": "weighted_share"},
+        "used_ai_for_education": {"value": 13.1, "unit": "percent answering yes for educational platforms or learning apps", "value_type": "weighted_share"},
+        "used_ai_for_government_services": {"value": 6.5, "unit": "percent answering yes for government services such as taxes or judicial services", "value_type": "weighted_share"}
+      },
+      "method": "Weighted descriptive tabulation of the UNDP Q11 yes/no domain-use items using Weight_none_resp1; each item is treated as a separate response and is not interpreted as exclusive.",
+      "uncertainty": "The items do not establish frequency, purpose depth, quality, or whether the respondent directly interacted with an AI system. Domain items can overlap and the survey wording includes broad examples; no complex-design standard errors were calculated.",
+      "subgroup": "US respondents; no age, gender, education, work, or income stratification in this observation.",
+      "counterinterpretation": "A reported domain use can be incidental or mediated by a platform and does not prove reliance, benefit, harm, or loss of human choice. Low reported government-service use does not mean low exposure to automated public systems.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; United States likely AI purpose",
+      "denominator": {"value": 1005, "unit": "US survey respondents; valid Q12 item denominators vary from 957 to 966", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "likely_use_for_entertainment": {"value": 66.7, "unit": "percent somewhat or very likely; valid n=966", "value_type": "weighted_share"},
+        "likely_use_for_education": {"value": 58.9, "unit": "percent somewhat or very likely; valid n=964", "value_type": "weighted_share"},
+        "likely_use_for_work": {"value": 49.5, "unit": "percent somewhat or very likely; valid n=961", "value_type": "weighted_share"},
+        "likely_use_for_medical_advice": {"value": 43.3, "unit": "percent somewhat or very likely; valid n=961", "value_type": "weighted_share"},
+        "likely_use_for_financial_advice": {"value": 34.7, "unit": "percent somewhat or very likely; valid n=957", "value_type": "weighted_share"}
+      },
+      "method": "Weighted descriptive tabulation of Q12 likelihood-of-use items using Weight_none_resp1; somewhat likely and very likely combined, with item-specific valid denominators.",
+      "uncertainty": "Likelihood is an intention or expectation, not observed use. The items are not a forecast and may be influenced by perceived usefulness, social desirability, trust, access, or question order. No complex-design standard errors were calculated.",
+      "subgroup": "US respondents; no subgroup stratification in this observation.",
+      "counterinterpretation": "High expected use for entertainment or education does not imply high stakes or high dependence; lower expected use for finance does not imply low financial exposure to automated systems.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; United States expected work effects",
+      "denominator": {"value": 1005, "unit": "US survey respondents; Q21 expectation items", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "expect_productivity_increase": {"value": 32.0, "unit": "percent likely or very likely AI will increase productivity at work", "value_type": "weighted_share"},
+        "expect_new_job_roles": {"value": 27.1, "unit": "percent likely or very likely AI will help find new job roles", "value_type": "weighted_share"},
+        "expect_current_job_changed_or_replaced": {"value": 21.7, "unit": "percent likely or very likely current job will be significantly changed or replaced", "value_type": "weighted_share"}
+      },
+      "method": "Weighted descriptive tabulation of Q21 work-expectation items using Weight_none_resp1; likely and very likely combined.",
+      "uncertainty": "These are expectations, not observed productivity, job creation, displacement, or wage outcomes. The survey does not restrict the items to currently employed respondents in this record; no complex-design standard errors were calculated.",
+      "subgroup": "US respondents; no employment, occupation, age, education, or income stratification in this observation.",
+      "counterinterpretation": "People can expect productivity gains and job disruption simultaneously; expectations may reflect public narratives, sector exposure, or uncertainty rather than a forecast of the respondent’s own job.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "reported"
+    },
+    {
+      "period": "2025; United States expected productivity by likely work use",
+      "denominator": {"value": 961, "unit": "US respondents with valid Q12 work-use and Q21 productivity responses; likely-work-use n=456, unlikely-work-use n=505", "value_type": "unweighted_respondent_count"},
+      "measures": {
+        "productivity_expectation_likely_work_use": {"value": 50.5, "unit": "weighted percent likely or very likely productivity increases among Q12 somewhat/very likely work-use group", "value_type": "conditional_share"},
+        "productivity_expectation_unlikely_work_use": {"value": 14.5, "unit": "weighted percent likely or very likely productivity increases among Q12 not-at-all/not-very-likely work-use group", "value_type": "conditional_share"},
+        "conditional_gap": {"value": 36.0, "unit": "percentage points; descriptive contrast", "value_type": "derived_contrast"}
+      },
+      "method": "Weighted descriptive cross-tabulation of Q12 likelihood of AI use for work tasks and Q21 expected productivity increase using Weight_none_resp1; neutral, don’t-know, and prefer-not-to-answer codes excluded.",
+      "uncertainty": "The measures are simultaneous expectations and cannot establish that expected use causes expected productivity. The contrast may reflect occupation, education, access, optimism, or selection into work-related AI use; no complex-design standard errors were calculated.",
+      "subgroup": "US respondents divided by likely versus unlikely future AI use for work tasks.",
+      "counterinterpretation": "Confidence in productivity may lead people to expect use, rather than result from it. Neither expectation identifies who receives the gain, whose work changes, or whether worker voice rises.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Data.dta",
+      "retrieval_hash": "dta:sha256:b423695f4ec54db2e76e3591dc611b1579b15cba0331a8fabb95da57326550b3; metadata:sha256:1973bf99b98a10a96ee240cdcf6c73051d605ca9f076d55892bd75595a39dc0b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/aihdr25_metadata.xlsx", "claim": "UNDP metadata workbook documents the survey fields and supports reproducible variable interpretation.", "status": "metadata"},
+    {"source_url": "https://hdr.undp.org/sites/default/files/2025/AIHDS/2025_AI_Survey_Questionnaire.pdf", "claim": "The questionnaire supplies the wording and response scales for use, control, trust, and AI-purpose measures.", "status": "questionnaire"}
+  ],
+  "boundary": "This is a weighted descriptive comparison from the UNDP 2025 Global Survey on AI and Human Development. It establishes that AI use, perceived personal control, confidence in government use, and confidence in AI design vary separately across selected countries, not that any country causes those differences or that confidence equals actual control, benefit, service quality, worker power, or human development. The survey is cross-sectional and the raw Stata file is captured by hash but not committed to the repository."
+}

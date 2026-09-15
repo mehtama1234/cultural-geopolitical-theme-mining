@@ -13,6 +13,10 @@
 | EPA-BATTERY-2026 | [EPA: Lithium-ion battery recycling](https://www.epa.gov/hw/lithium-ion-battery-recycling) | Batteries may be collected, repaired, reused, repurposed, or recycled, but need separate handling and can create fire risk when damaged. | End-of-life guidance does not measure household cost or participation. |
 | GAO-EWASTE-2005 | [GAO: Electronic waste](https://www.gao.gov/assets/a112095.html) | Cost and inconvenience can discourage consumer recycling and reuse. | Older testimony; current collection access and prices may differ. |
 
+## Working question
+
+When repair is unavailable or too costly, how do replacement spending, household access, and end-of-life handling move together?
+
 ## First pattern to test
 
 ```text

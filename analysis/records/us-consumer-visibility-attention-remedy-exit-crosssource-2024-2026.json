@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026",
+  "title": "Consumer protection visibility, attention cost, remedy labels, and exit remain different endpoints",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "trust_identity_meaning", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power"],
+  "source_unit": "Deliberately non-pooled CFPB complaint records, SHED household fraud reports, Pew platform/AI surveys, and FTC institutional inquiry",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2020-2025; CFPB published complaint-response trend",
+      "denominator": {"value": 5452107, "unit": "2025 published complaint records; annual denominators range from 444,837 in 2020 to 5,452,107 in 2025", "value_type": "published_record_count"},
+      "measures": {"explanation_2020_to_2025": {"value": "90.7135% to 58.7060%", "unit": "percent of published complaint records", "value_type": "share_range"}, "non_monetary_relief_2020_to_2025": {"value": "6.1845% to 40.6325%", "unit": "percent of published complaint records", "value_type": "share_range"}, "monetary_relief_2020_to_2025": {"value": "2.9103% to 0.4800%", "unit": "percent of published complaint records", "value_type": "share_range"}, "narrative_present_2020_to_2025": {"value": "39.2377% to 22.4255%", "unit": "percent of published complaint records", "value_type": "share_range"}},
+      "method": "CFPB public complaint records aggregated by year with response, relief, and narrative fields; annual index composition and field definitions are retained as a measurement boundary.",
+      "uncertainty": "Complaint records are not consumer-harm rates, account denominators, verified remedy probabilities, or trust measures. Product mix, routing, publication, coding, and index changes may drive the shifts.",
+      "subgroup": "Published complaint records by calendar year; product and firm composition varies across years.",
+      "counterinterpretation": "More non-monetary response labels or fewer narratives can reflect administrative coding or routing rather than improved or worsened consumer welfare.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:c662900969b397a1c0158d3ccf2452ac13a85899ce30e6e0fc2839704d87dcaa;sha256:786208fcb8c3149a68fa35f7984cab994afb9019e16b59775d729d414bcd710f",
+      "status": "compared"
+    },
+    {
+      "period": "2025; CFPB product-conditioned complaint response routes",
+      "denominator": {"value": 283828, "unit": "published 2025 debt-collection records; other displayed product denominators include 84,348 checking/savings, 90,157 credit-card, 24,735 mortgage, 21,333 student-loan, and 20,823 vehicle-loan records", "value_type": "product_record_counts"},
+      "measures": {"checking_explanation": {"value": 84.499, "unit": "percent of 2025 checking/savings records", "value_type": "share"}, "credit_card_explanation": {"value": 66.721, "unit": "percent of 2025 credit-card records", "value_type": "share"}, "student_loan_explanation": {"value": 81.583, "unit": "percent of 2025 student-loan records", "value_type": "share"}, "student_loan_timely_field_no": {"value": 30.4036, "unit": "percent of 2025 student-loan records", "value_type": "share"}, "student_loan_monetary_relief": {"value": 0.422, "unit": "percent of 2025 student-loan records", "value_type": "share"}},
+      "method": "Product-filtered CFPB complaint route extraction preserving explanation, relief, timeliness, narrative, and product-specific record denominators.",
+      "uncertainty": "The fields measure complaint processing and company-response labels, not account-level harm, remedy adequacy, repayment continuity, switching, or exit. Timeliness fields are not interchangeable across products.",
+      "subgroup": "Six financial-product complaint slices; each has a separate record universe and response mix.",
+      "counterinterpretation": "A high explanation share may be useful or inadequate; a low monetary-relief label may reflect issue type or coding rather than failed remedy.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:2df20ff283b6667b5c97f1a9aa84b94d99530d39b902664897106d33e2e4fd91;sha256:bf0bf718001ebcb9b7d4e89fc82f03bca15e44020971a49e4c9603876b564931",
+      "status": "compared"
+    },
+    {
+      "period": "2024; SHED household fraud, recovery, and time burden",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; loss and recovery outcomes conditional on non-credit-card fraud", "value_type": "survey_population"},
+      "measures": {"any_financial_fraud": {"value": 21, "unit": "percent of adults", "value_type": "share"}, "non_card_lost_money": {"value": 63, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"}, "some_not_recovered": {"value": 32, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"}, "ten_plus_hours": {"value": 30, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "approximate_share"}},
+      "method": "Federal Reserve SHED 2024 weighted survey estimates preserving overlapping exposure categories and conditional loss/recovery/time universes.",
+      "uncertainty": "Self-reported most-recent-incident measures do not establish verified fraud, complete incidence, exact event recovery, firm liability, or causal trust/exit effects.",
+      "subgroup": "All adults and non-credit-card fraud reporters; categories and denominators are not interchangeable with CFPB complaints.",
+      "counterinterpretation": "Money may be recovered while attention, time, confidence, or institutional trust remain damaged; consumer-liability protections may reduce direct loss in some credit-card cases.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm",
+      "retrieval_hash": "sha256:c4aec1766b3ea289d519e841610f9ea639d4688c851d384bb9f3ef14d309284c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2026; platform/AI use, privacy concern, civic exposure, and institutional inquiry",
+      "denominator": {"value": 5119, "unit": "US adult Pew survey respondents for February 2026 chatbot items; separate 2025 adult, teen, news, and FTC inquiry universes", "value_type": "study_specific_samples"},
+      "measures": {"adult_chatbot_ever_use": {"value": 49, "unit": "percent of US adults", "value_type": "share"}, "adult_chatbot_daily_use": {"value": 24, "unit": "percent of US adults", "value_type": "share"}, "information_less_secure": {"value": 70, "unit": "percent of US adults", "value_type": "share"}, "little_or_no_confidence_regulate_ai": {"value": 67, "unit": "percent of US adults", "value_type": "share"}, "social_influencer_news": {"value": 21, "unit": "percent of US adults", "value_type": "share"}, "ftc_companies_inquiry": {"value": 7, "unit": "companies receiving FTC Section 6(b) information-gathering orders", "value_type": "institutional_action_count"}},
+      "method": "Non-pooled Pew adult/teen platform and AI surveys, Pew news-source and engagement typology, and FTC Section 6(b) AI-companion inquiry record.",
+      "uncertainty": "Use, concern, confidence, news exposure, civic typology, and an institutional inquiry have distinct samples and estimands. Practical usefulness can coexist with concern; inquiry is information gathering, not a finding or remedy.",
+      "subgroup": "US adults, teens, employed adults for selected work items, and seven companies under FTC inquiry; subgroup denominators differ.",
+      "counterinterpretation": "High use does not prove dependence or loss of control, and privacy concern does not identify a specific product loss, consumer exit, or political effect.",
+      "source_url": "https://www.pewresearch.org/internet/2026/03/12/americans-views-and-use-of-ai-chatbots/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452;sha256:0b0242f85f60532a411fbf4fd8a5f0de5a23ef9d5b80055cd92696ea618cc7a0",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/", "claim": "CFPB complaint and response-route source.", "status": "official-data"},
+    {"source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm", "claim": "SHED household fraud loss, recovery, and time-cost source.", "status": "official-report"},
+    {"source_url": "https://www.pewresearch.org/internet/2026/03/12/americans-views-and-use-of-ai-chatbots/", "claim": "Pew AI use, privacy, and regulation-confidence source.", "status": "survey-report"},
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-issues-orders-seven-companies-collect-information-ai-chatbots", "claim": "FTC AI companion information-gathering inquiry.", "status": "official-action"}
+  ],
+  "boundary": "This is a non-pooled consumer visibility, attention, remedy, and exit architecture. It does not establish complaint incidence, verified remedy, consumer welfare, platform dependence, trust change, political action, or causal regulatory effect. A same-case or linked account panel from exposure through effort, decision, remedy, switching, trust, and exit remains open."
+}

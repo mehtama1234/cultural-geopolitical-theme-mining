@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-geopolitical-ai-infrastructure-case-comparison-2023-2026",
+  "title": "Digital infrastructure can expand capability and external dependence together",
+  "theme_ids": ["energy", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback"],
+  "source_unit": "documented international AI-infrastructure project case",
+  "geography": "Romania and Malaysia; comparative cases relevant to US-linked finance, technology, and state capacity",
+  "observations": [
+    {
+      "period": "Romania; 2023-2026 project window",
+      "denominator": {"value": 1, "unit": "documented project case"},
+      "measures": {
+        "public_project_value_ron_ex_vat": {"value": 876096515, "unit": "Romanian lei", "value_type": "reported_commitment"},
+        "minimum_target_migrated_applications": {"value": 30, "unit": "applications or IT systems", "value_type": "reported_target"},
+        "project_end_date_year": {"value": 2026, "unit": "calendar year", "value_type": "reported_target_date"}
+      },
+      "method": "Compilation of Romanian Authority for Digitalization and World Bank project records; commitment and target measures are kept separate from completion and public-service outcomes.",
+      "uncertainty": "The committed case memo does not verify target completion, provider chain, service reliability, portability, local skills, citizen access, or public audit outcomes.",
+      "subgroup": "Public-sector cloud migration project.",
+      "counterinterpretation": "Public funding and a migration target do not establish data sovereignty, improved service, public control, or state leverage.",
+      "source_url": "https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud",
+      "retrieval_hash": "sha256:5ffa245b14d9c7541c248f259654ab34321feb3054225eda093860f91d0205f8",
+      "status": "reported"
+    },
+    {
+      "period": "Malaysia Johor; 2024-2025 financing and ownership milestones",
+      "denominator": {"value": 1, "unit": "documented project case"},
+      "measures": {
+        "ifc_project_capacity_mw": {"value": 96, "unit": "megawatts", "value_type": "reported_project_capacity"},
+        "full_campus_planned_capacity_mw": {"value": 300, "unit": "megawatts or more", "value_type": "reported_plan"},
+        "ifc_loan_max_usd": {"value": 150000000, "unit": "US dollars", "value_type": "reported_financing_commitment"},
+        "ownership_transition_announced": {"value": 1, "unit": "binary documented milestone", "value_type": "reported_event"}
+      },
+      "method": "Compilation of IFC, Yondr, and Vantage project records; financing, planned capacity, and ownership transition are direct reported milestones, not operating outcomes.",
+      "uncertainty": "The committed case memo does not verify operational capacity, customer concentration, power/water incidence, local jobs, data control, portability, replaceability, or a changed Malaysian bargaining position.",
+      "subgroup": "Privately operated hyperscale data-center campus with development finance and regional capital.",
+      "counterinterpretation": "A financing commitment and ownership sale can expand infrastructure while leaving the state dependent on external operators, capital, power, and customers; neither direction is established here.",
+      "source_url": "https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023",
+      "retrieval_hash": "sha256:5ffa245b14d9c7541c248f259654ab34321feb3054225eda093860f91d0205f8",
+      "status": "reported"
+    },
+    {
+      "period": "Romania government cloud infrastructure; 2026-09-09 completion announcement",
+      "denominator": {"value": 1, "unit": "documented public infrastructure project", "value_type": "project_case"},
+      "measures": {
+        "infrastructure_project_completion_announced": {"value": 1, "unit": "binary documented milestone", "value_type": "reported_event"},
+        "reported_project_value_ron": {"value": 2209229826.06, "unit": "Romanian lei", "value_type": "reported_project_value"},
+        "implementation_end_date": {"value": 2026, "unit": "calendar year; implementation through 2026-08-31", "value_type": "reported_date"},
+        "reported_data_centres_resilience_design": {"value": 1, "unit": "binary reported Tier IV/III-by-design objective", "value_type": "reported_design"}
+      },
+      "method": "Official Romanian Authority for Digitalization completion announcement for Investment 1 infrastructure; reported infrastructure completion is kept separate from Investment 2 application migration and citizen-service outcomes.",
+      "uncertainty": "The announcement reports infrastructure implementation and expected public-service benefits, but does not verify application count, realized service speed/cost, uptime, provider portability, public audit access, local skills, or citizen outcomes.",
+      "subgroup": "Public government-cloud infrastructure project, distinct from the application-migration project.",
+      "counterinterpretation": "A completed infrastructure base may improve public capacity, remain underused, or increase dependence on specific operators and security/communications arrangements; the announcement alone cannot distinguish these paths.",
+      "source_url": "https://www.adr.gov.ro/articole/anunt-de-presa-pentru-proiectul-implementarea-infrastructurii-de-cloud-guvernamental-componenta-7---transformare-digitala-investitia-1---implementarea-infrastructurii-de-cloud-guvernamental",
+      "retrieval_hash": "sha256:3b751cf23f0a838f6cedaf2f5b7e912045c7920ccc650b0011e78dca99d32533",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This is a two-case infrastructure/state-capacity comparison, not a population trend or geopolitical leverage estimate. It records commitments, planned capacity, and an ownership milestone while leaving realized public benefit, local incidence, portability, replacement, state bargaining, and external response open. The retrieval hash covers the committed case memo."
+}

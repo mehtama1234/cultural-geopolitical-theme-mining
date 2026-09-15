@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-teens-social-ai-2025",
+  "title": "Teen digital life combines near-constant platform use with fast-growing chatbot adoption",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": ["platforms_data_attention", "unequal_exposure_status", "trust_identity_meaning", "care_health_reproduction", "consumer_power_recourse"],
+  "source_unit": "US teen-parent dyad survey respondent, age 13-17, with platform and chatbot use reports",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025-09-25 to 2025-10-09",
+      "denominator": {"value": 1458, "unit": "US teens ages 13-17 in completed Pew/Ipsos KnowledgePanel dyads", "value_type": "reported_sample"},
+      "measures": {"chatbot_ever_use": {"value": 64, "unit": "percent of US teens", "value_type": "weighted_share"}, "chatbot_daily_use": {"value": 28, "unit": "percent of US teens; about three in ten", "value_type": "weighted_share"}, "almost_constant_platform_use": {"value": 36, "unit": "percent using at least one of five measured platforms almost constantly", "value_type": "weighted_share"}, "almost_constant_tiktok": {"value": 21, "unit": "percent of US teens", "value_type": "weighted_share"}, "almost_constant_youtube": {"value": 20, "unit": "percent of US teens", "value_type": "weighted_share"}},
+      "method": "Online Pew Research Center survey conducted through Ipsos KnowledgePanel; weighted to US teens ages 13-17 living with parents by age, gender, race/ethnicity, household income, and other categories.",
+      "uncertainty": "Survey estimates have sampling error and self-report limits; near-constant use is a response category, not logged minutes or a clinical dependence measure.",
+      "subgroup": "US teens ages 13-17; platform and chatbot measures have question-specific nonresponse and universes.",
+      "counterinterpretation": "Frequent use can reflect school, communication, entertainment, or social belonging without proving harm, loss of agency, or changed beliefs.",
+      "source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/",
+      "retrieval_hash": "sha256:6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
+      "status": "observed"
+    },
+    {
+      "period": "2025; platform frequency and change since 2022",
+      "denominator": {"value": 1458, "unit": "surveyed US teens ages 13-17; platform-specific valid response universes", "value_type": "reported_sample"},
+      "measures": {"daily_tiktok": {"value": 61, "unit": "percent of teens", "value_type": "weighted_share"}, "daily_instagram": {"value": 55, "unit": "percent of teens", "value_type": "weighted_share"}, "daily_snapchat": {"value": 46, "unit": "percent of teens", "value_type": "weighted_share"}, "tiktok_almost_constant_change_since_2022": {"value": 5, "unit": "percentage points, 16% to 21%", "value_type": "reported_change"}, "platforms_almost_constant_change": {"value": "YouTube, Instagram, Snapchat, and Facebook changed little since 2022", "unit": "reported longitudinal comparison", "value_type": "reported_pattern"}},
+      "method": "Cross-sectional survey with comparison to prior Pew teen survey waves; platform definitions and question wording must be checked across years.",
+      "uncertainty": "The 2022-to-2025 comparison is not a panel of the same teens; reported stability describes population estimates, not individual persistence.",
+      "subgroup": "Teens reporting daily or almost-constant use of named platforms.",
+      "counterinterpretation": "Platform frequency may be substituted across services or reflect changes in social routines rather than a net increase in total attention time.",
+      "source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/",
+      "retrieval_hash": "sha256:6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; chatbot adoption by age, income, and race/ethnicity",
+      "denominator": {"value": 1458, "unit": "surveyed US teens ages 13-17; subgroup estimates use their own valid response bases", "value_type": "reported_sample"},
+      "measures": {"chatbot_use_age_15_17": {"value": 68, "unit": "percent of teens ages 15-17", "value_type": "weighted_share"}, "chatbot_use_age_13_14": {"value": 57, "unit": "percent of teens ages 13-14", "value_type": "weighted_share"}, "chatbot_use_income_75k_plus": {"value": 66, "unit": "percent in households earning $75,000 or more", "value_type": "weighted_share"}, "chatbot_use_income_under_30k": {"value": 56, "unit": "percent in households earning under $30,000", "value_type": "weighted_share"}, "daily_chatbot_black": {"value": 35, "unit": "percent of Black teens", "value_type": "weighted_share"}, "daily_chatbot_hispanic": {"value": 33, "unit": "percent of Hispanic teens", "value_type": "weighted_share"}, "daily_chatbot_white": {"value": 22, "unit": "percent of White teens", "value_type": "weighted_share"}},
+      "method": "Weighted subgroup comparison from the Pew/Ipsos teen survey; race/ethnicity and household-income categories follow the report's definitions.",
+      "uncertainty": "Subgroup margins of error are larger than the full-sample margin; reported differences do not identify access, school policy, family mediation, or causal effects.",
+      "subgroup": "Age, household income, and race/ethnicity subgroups of teens ages 13-17.",
+      "counterinterpretation": "Differences may reflect school assignments, device access, family rules, language, interests, or reporting rather than unequal capability or preference alone.",
+      "source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/",
+      "retrieval_hash": "sha256:6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
+      "status": "observed"
+    },
+    {
+      "period": "2025; chatbot purpose and product mix",
+      "denominator": {"value": 1458, "unit": "surveyed US teens ages 13-17; purpose and product questions use separate valid response bases", "value_type": "reported_sample"},
+      "measures": {"chatgpt_use": {"value": 59, "unit": "percent of teens", "value_type": "weighted_share"}, "gemini_use": {"value": 23, "unit": "percent of teens", "value_type": "weighted_share"}, "meta_ai_use": {"value": 20, "unit": "percent of teens", "value_type": "weighted_share"}, "daily_chatbot_almost_constant": {"value": 16, "unit": "percent of teens", "value_type": "weighted_share"}},
+      "method": "Weighted self-reported product-use and frequency measures in the Pew teen survey.",
+      "uncertainty": "Product use is not quality, accuracy, emotional attachment, learning, or dependence; product names and platform features can change over time.",
+      "subgroup": "Teen chatbot users and named chatbot products.",
+      "counterinterpretation": "Information seeking, schoolwork, and entertainment uses can be instrumental and reversible; high use alone does not establish a harder exit.",
+      "source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/",
+      "retrieval_hash": "sha256:6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/", "claim": "Pew report and methodology for teen platform and chatbot use.", "status": "primary"}, {"source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-ai-methodology/", "claim": "Pew/Ipsos sampling and weighting methodology.", "status": "official-methodology"}],
+  "boundary": "This record measures self-reported teen platform and chatbot use, frequency, product choice, and subgroup differences. It does not establish attention minutes, dependence, harm, learning, mental health, privacy loss, political persuasion, or causal platform effects."
+}

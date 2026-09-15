@@ -1,7 +1,7 @@
 # NHTS transport comparison v1
 
 **Run date:** 2026-09-12  
-**Source:** [2022 NHTS CSV V2.1 archive](https://nhts.ornl.gov/downloads)  
+**Source:** [2022 NHTS CSV V2.1 archive](https://nhts.ornl.gov/media/2022/download/csv.zip)
 **Documentation:** [2022 NHTS documentation](https://nhts.ornl.gov/documentation)  
 **Analysis script:** [analyze_nhts_transport_comparison.py](../../../scripts/analyze_nhts_transport_comparison.py)
 
@@ -28,7 +28,7 @@ The rural pattern is different. Among weighted work trips, **pickups made up 22.
 | Subway share of work trips | 1.20% | 0.25% |
 | Rideshare share of work trips | 0.86% | 0.10% |
 
-The household and person figures use final household and person weights. Trip figures use the final travel-day weight. The comparison uses the full 2022 archive, with 7,893 household rows, 16,997 person rows, 31,074 trip rows, and 14,684 vehicle rows in the extracted files.
+The household and person figures use final household and person weights. Trip figures use the final travel-day weight. The comparison uses the full 2022 archive, with 7,893 household rows, 16,997 person rows, 31,074 trip rows, and 14,684 vehicle rows in the extracted files. The archive SHA-256 is `64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c`; the derived files are temporary and not committed.
 
 ## The deeper connection
 
@@ -51,6 +51,11 @@ NHTS measures the first two arrows well. It measures some of the time cost. It d
 - “Urban” and “rural” are broad categories. They hide differences among downtowns, suburbs, small towns, and remote areas.
 - The figures are descriptive. They do not establish that geography caused rideshare use or that rideshare solved a transport problem.
 - The comparison does not join to exact fares, pay dates, bill dates, missed work, safety, or recovery. Those remain panel-required fields.
+
+The raw archive is externally retrieved rather than committed, but the retrieval hash identifies the official archive used for the rerun.
+
+The bounded results are preserved in the [machine-readable trend record](../../records/us-nhts-urban-rural-mobility-options-2022.json)
+for cross-source registry and coverage builds.
 
 ## What this changes in the household calendar
 

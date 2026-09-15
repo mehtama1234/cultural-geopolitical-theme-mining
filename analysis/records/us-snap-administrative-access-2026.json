@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-snap-administrative-access-2026",
+  "title": "SNAP administrative routes can change participation without establishing household security",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action"],
+  "source_unit": "study-specific SNAP applicant, participant, administrative case, census tract, or recertification case",
+  "geography": "United States; study-specific states and localities",
+  "observations": [
+    {
+      "period": "Study-specific period; incumbent SNAP participants subject to work requirements",
+      "denominator": {"value": null, "unit": "study-specific incumbent SNAP participants and subject adults in linked SNAP/earnings administrative data; exact count not disclosed in the extraction memo", "value_type": "not_disclosed"},
+      "measures": {
+        "incumbent_exit_change": {"value": 23, "unit": "percentage points; reported exit increase after 18 months", "value_type": "reported_estimate"},
+        "overall_participation_change": {"value": 53, "unit": "percent overall reduction in program participation among adults subject to the requirement", "value_type": "reported_estimate"},
+        "employment_response": {"value": "no effect", "unit": "reported employment outcome", "value_type": "reported_pattern"},
+        "homeless_screening_difference": {"value": "disproportionately screened out", "unit": "reported subgroup pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Regression-discontinuity analysis using linked SNAP and earnings administrative data; source is an NBER working paper later published in the American Economic Journal: Economic Policy.",
+      "uncertainty": "The estimate is requirement- and population-specific. The study does not observe the full household food, debt, health, time, trust, or political path after exit, and any earnings result is not equivalent to household security.",
+      "subgroup": "Incumbent SNAP participants and adults subject to the work requirement, with a reported homeless-adult subgroup pattern.",
+      "counterinterpretation": "A change in participation can reflect eligibility enforcement, reporting, or administrative screening rather than a change in work capacity; no employment effect does not by itself prove a food-security effect.",
+      "source_url": "https://www.nber.org/papers/w28877",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific period; Los Angeles SNAP applicant field experiment",
+      "denominator": {"value": 65000, "unit": "approximately 65,000 SNAP applicants in the reported field experiment", "value_type": "reported_study_sample"},
+      "measures": {
+        "flexible_interview_approval_change": {"value": 6, "unit": "percentage points; reported change in approvals", "value_type": "reported_estimate"},
+        "early_approval_change": {"value": "approximately doubled", "unit": "relative change in early approvals", "value_type": "reported_pattern"},
+        "longer_term_participation_change": {"value": 2, "unit": "more than percentage points; reported change in longer-term participation", "value_type": "reported_estimate"}
+      },
+      "method": "Field experiment comparing applicant-initiated flexible interviews with the study comparison route; source is an NBER working paper.",
+      "uncertainty": "The estimates belong to the Los Angeles setting, study period, applicant pool, treatment implementation, and outcome definitions; later food, debt, health, trust, and political outcomes are not observed in this record.",
+      "subgroup": "SNAP applicants in the Los Angeles study setting, differentiated by interview route.",
+      "counterinterpretation": "Approval and continued participation can change because of selection, information, or timing without proving improved household security or a universal effect of flexible interviews.",
+      "source_url": "https://www.nber.org/papers/w31239",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific two-year post-event window; one-state SNAP office openings and closings",
+      "denominator": {"value": null, "unit": "study-specific SNAP administrative cases linked to geocoded offices and census tracts; exact count not disclosed in the extraction memo", "value_type": "not_disclosed"},
+      "measures": {
+        "office_closure_participation_change": {"value": "7–9", "unit": "percent decline in tract SNAP participation over two years after office closure", "value_type": "reported_estimate"},
+        "office_opening_effect": {"value": "suggestive", "unit": "directional participation response after openings", "value_type": "reported_pattern"}
+      },
+      "method": "Administrative SNAP cases linked to geocoded offices using event-study variation; source is an NBER working paper.",
+      "uncertainty": "The result is from one state and a place-based participation outcome; opening effects are described as suggestive and the study does not measure food security or same-person interpretation.",
+      "subgroup": "SNAP participants and census tracts differentiated by office exposure, with urban concentration noted for opening effects.",
+      "counterinterpretation": "Office closures may coincide with local need, migration, or service changes; participation is not the same as take-up among all eligible households or household security.",
+      "source_url": "https://www.nber.org/papers/w34529",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific policy period; parents exposed to general SNAP work requirements",
+      "denominator": {"value": null, "unit": "study-specific parents in linked administrative records; exact count not disclosed in the extraction memo", "value_type": "not_disclosed"},
+      "measures": {
+        "employment_response": {"value": "no increase", "unit": "reported employment outcome in the study setting", "value_type": "reported_pattern"},
+        "snap_receipt_response": {"value": "substantially lower", "unit": "reported SNAP receipt outcome", "value_type": "reported_pattern"},
+        "administrative_burden_mechanism": {"value": "identified as key mechanism", "unit": "study interpretation", "value_type": "reported_mechanism"}
+      },
+      "method": "Linked administrative-record analysis of parents exposed to general SNAP work requirements; source is an NBER working paper.",
+      "uncertainty": "The result is policy- and state-specific and does not estimate every work-requirement design or downstream household food, debt, health, time, trust, or political outcomes.",
+      "subgroup": "Parents in the study population exposed to the general work requirement.",
+      "counterinterpretation": "Employment measurement, implementation, exemptions, alternative support, and local labor-market conditions may alter the observed response; lower receipt is not itself proof of harm or improved independence.",
+      "source_url": "https://www.nber.org/papers/w32441",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific recent policy period; age-based exemption design",
+      "denominator": {"value": null, "unit": "study-specific administrative SNAP records around an age-based exemption threshold; exact count not disclosed in the extraction memo", "value_type": "not_disclosed"},
+      "measures": {
+        "procedural_denial_response": {"value": "significant increase", "unit": "reported procedural and overall denial response under work requirements", "value_type": "reported_estimate"}
+      },
+      "method": "Difference-in-differences around an age-based exemption using administrative data; source is a recent NBER working paper.",
+      "uncertainty": "This is a design-specific result and is not a national denial rate; the source is labeled a working paper and downstream household outcomes are not observed.",
+      "subgroup": "Administrative cases near the study's age-based exemption threshold.",
+      "counterinterpretation": "Threshold-specific behavior, composition, implementation, or other age-correlated changes may affect the estimate; procedural denial is not identical to ineligibility or durable exit.",
+      "source_url": "https://www.nber.org/papers/w34698",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific recertification episodes; NBER Reporter 2024 discussion",
+      "denominator": {"value": null, "unit": "study-specific administrative recertification cases; exact count not disclosed in the extraction memo", "value_type": "not_disclosed"},
+      "measures": {
+        "recertification_failure": {"value": "roughly half", "unit": "reported share of cases failing recertification", "value_type": "reported_pattern"},
+        "below_threshold_among_rejected": {"value": "many", "unit": "reported qualitative share of rejected cases appearing below the earnings threshold", "value_type": "reported_pattern"},
+        "near_term_reentry": {"value": "about half", "unit": "reported share of failures reentering soon after", "value_type": "reported_pattern"}
+      },
+      "method": "Administrative recertification-case analysis discussed in the NBER Reporter; timing and route are interpreted as possible administrative churn mechanisms.",
+      "uncertainty": "The evidence comes from defined administrative settings and does not measure every reason for failure, full household security, or political meaning.",
+      "subgroup": "SNAP recertification cases differentiated by recertification outcome and subsequent reentry.",
+      "counterinterpretation": "Reentry can reflect changing need, corrected records, ordinary eligibility changes, or other unobserved routes; failure and reentry should not be treated as a single causal churn estimate without the underlying case definitions.",
+      "source_url": "https://www.nber.org/reporter/2024number3/snap-eligibility-enforcement-and-program-adoption",
+      "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research", "claim": "USDA ERS summarizes SNAP food-security, poverty, participation, and economic-linkage research; these outcomes remain distinct from administrative participation routes.", "status": "official-context"},
+    {"source_url": "https://www.census.gov/programs-surveys/sipp.html", "claim": "The companion SIPP record provides national person-month transition and following-hardship context with Fay-BRR uncertainty.", "status": "official-companion"}
+  ],
+  "boundary": "This record preserves study-specific causal or reported participation/denial mechanisms from NBER-linked administrative and field studies and places them beside, but does not pool them with, the national SIPP transition-to-hardship record. It does not estimate one national administrative-burden effect, same-household food or health consequences, benefit adequacy, trust, political action, or a program effect across designs. The committed paper-scan hash covers the source-specific extraction memo."
+}

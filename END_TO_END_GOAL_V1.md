@@ -2,7 +2,22 @@
 
 ## Governing goal
 
-Build a repeatable, US-centered research system that starts with scattered evidence and ends with clear, testable findings about what is changing beneath visible events.
+Build and maintain a repeatable, US-centered research system that discovers,
+tracks, and tests recurring cultural, societal, political, consumer,
+institutional, financial, firm, infrastructure, and geopolitical themes and
+trends over the long term.
+
+The system should start with scattered evidence and progressively build a
+living trend atlas: what is changing beneath visible events, who experiences
+it, how the pattern varies across populations, places, sectors, and time, what
+people and organizations do in response, how meaning and trust develop, and
+how costs, risks, ownership, and decision power move through society.
+
+This is an accumulating research program, not a one-time report, a single
+composite index, or a one-household study. It should repeatedly add source
+families, revisit prior findings as new data arrive, preserve counterexamples
+and historical comparisons, and distinguish directly measured trends from
+cross-source interpretation and open questions.
 
 The reading experience must connect findings, subthemes and larger themes by meaning. Explain each link, distinguish supported results from open questions, and let readers move from the big picture to related findings and their sources. Maintain matching Markdown and HTML from one shared record where practical. HTML must be easy to search, navigate and read on a phone as well as a desktop. The current starting point is the [connected reading guide](site/us-theme-atlas.html).
 

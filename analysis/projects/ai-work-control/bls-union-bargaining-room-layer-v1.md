@@ -146,3 +146,9 @@ or employment status as a complete explanation.
 - [BLS Table 3: union affiliation by occupation and industry](https://www.bls.gov/news.release/union2.t03.htm)
 - [BLS Table 4: median weekly earnings by union affiliation](https://www.bls.gov/news.release/union2.t04.htm)
 - [BLS Table 5: union affiliation by state](https://www.bls.gov/news.release/union2.t05.htm)
+
+The national 2024 and 2025 observations are preserved in the machine-readable
+[trend record](../../records/us-bls-union-representation-2024-2025.json) for
+comparison with household, care, firm, and infrastructure layers. The record
+retains the 2025 collection-break warning and does not treat representation as
+a direct autonomy or political-action measure.

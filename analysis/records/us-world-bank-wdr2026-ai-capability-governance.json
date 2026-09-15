@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-world-bank-wdr2026-ai-capability-governance",
+  "title": "AI capability depends on local complements and can expand capacity while deepening concentration risk",
+  "theme_ids": ["voice", "work", "energy", "cost"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "geopolitical_state_consequences", "firm_sector_market_power", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "World Bank World Development Report 2026 framework and chapter-level synthesis; developing-country perspective with US-relevant value-chain implications",
+  "geography": "Global/developing-country analytical frame; US is a value-chain and institutional comparison case, not the report's sole population",
+  "observations": [
+    {
+      "period": "2026; World Bank adopt-adapt-advance framework",
+      "denominator": {"value": 1, "unit": "World Development Report 2026 analytical framework", "value_type": "study_artifact"},
+      "measures": {"pathways": {"value": "adopt -> adapt -> advance", "unit": "policy and capability pathways", "value_type": "qualitative_framework"}, "required_complements": {"value": "infrastructure, skills, institutions, data, and local-language fit", "unit": "complement categories", "value_type": "qualitative_inventory"}},
+      "method": "World Bank flagship report synthesis of research, country evidence, and policy analysis; framework is interpretive and strategic rather than a single statistical estimator.",
+      "uncertainty": "The framework does not provide one comparable effect size or a US population estimate. Recommendations and chapter conclusions must remain distinct from measured country or firm outcomes.",
+      "subgroup": "Developing economies, firms, governments, and people facing different infrastructure, skill, institutional, and language conditions.",
+      "counterinterpretation": "Imported tools can deliver useful capability without local frontier-model production; local adaptation is not automatically cheaper, safer, or more effective.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI diffusion and capability concentration claims",
+      "denominator": {"value": 1, "unit": "World Bank report comparative technology-diffusion frame", "value_type": "study_artifact"},
+      "measures": {"steam_engine_reach_lower_income_countries": {"value": 80, "unit": "approximate years", "value_type": "reported_comparison"}, "electricity_reach_lower_income_countries": {"value": 40, "unit": "approximate years", "value_type": "reported_comparison"}, "internet_reach_lower_income_countries": {"value": 20, "unit": "approximate years", "value_type": "reported_comparison"}, "middle_income_share_global_chatgpt_traffic_within_six_months": {"value": 50, "unit": "percent of global ChatGPT traffic, report-described comparison", "value_type": "reported_share"}},
+      "method": "World Bank report comparison of technology diffusion timelines and ChatGPT traffic evidence.",
+      "uncertainty": "These are report-level comparative claims with different technologies, definitions, and denominators; they do not establish equal access, productive use, or welfare gains.",
+      "subgroup": "Lower-income and middle-income countries compared across technologies.",
+      "counterinterpretation": "Fast traffic or tool diffusion can reflect experimentation and access without local institutional fit, reliable infrastructure, or durable productive adoption.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI value-chain concentration and dependency analysis",
+      "denominator": {"value": 1, "unit": "World Bank chapter-level value-chain analysis", "value_type": "study_artifact"},
+      "measures": {"concentrated_layers": {"value": "hardware, infrastructure, models, and applications are concentrated in a few countries and companies", "unit": "qualitative value-chain finding", "value_type": "qualitative_finding"}, "frontier_building_requirement": {"value": "chips, large data centers, data, and specialized researchers", "unit": "capability inputs", "value_type": "qualitative_inventory"}},
+      "method": "World Bank value-chain and political-economy synthesis.",
+      "uncertainty": "The report's concentration statement is not a US supplier Herfindahl estimate or a country-specific switching-cost calculation.",
+      "subgroup": "Countries, governments, firms, and individuals positioned differently across the AI value chain.",
+      "counterinterpretation": "Concentration can lower entry costs by allowing countries to adopt and customize existing tools; dependency risk and access benefit can coexist.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public-service and economic-complement analysis",
+      "denominator": {"value": 1, "unit": "World Bank report policy and chapter synthesis", "value_type": "study_artifact"},
+      "measures": {"public_service_examples": {"value": "weather forecasting, health screening, agriculture extension, education, tax enforcement, and administration", "unit": "reported application domains", "value_type": "qualitative_inventory"}, "front_end_evaluation_gap": {"value": "limited evidence for selecting, procuring, and evaluating front-end public-service AI", "unit": "reported institutional gap", "value_type": "qualitative_finding"}},
+      "method": "World Bank synthesis of reported AI use and public-sector capability requirements.",
+      "uncertainty": "Examples and institutional gaps are not a prevalence estimate, impact evaluation, or proof that AI improved service recipients' outcomes.",
+      "subgroup": "Public agencies, service workers, and residents using health, education, agricultural, tax, and legal services.",
+      "counterinterpretation": "Back-end or pilot use may improve administrative capacity without producing accessible or trusted front-end service; procurement and evaluation can change that result.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI political-power and governance analysis",
+      "denominator": {"value": 1, "unit": "World Bank chapter 6 and governance synthesis", "value_type": "study_artifact"},
+      "measures": {"power_relationships": {"value": "countries, governments, corporations, and individuals", "unit": "analyzed actor relationships", "value_type": "qualitative_framework"}, "identified_risks": {"value": "dependency, capital concentration, surveillance, propaganda, public-budget pressure, and regulatory-capacity gaps", "unit": "reported risk categories", "value_type": "qualitative_inventory"}},
+      "method": "World Bank political and institutional analysis of AI value chains, public capacity, and governance.",
+      "uncertainty": "The chapter identifies mechanisms and policy questions; it does not observe a specific change in US leverage, alliance behavior, public legitimacy, or citizen trust.",
+      "subgroup": "States, firms, public agencies, and individuals with unequal control over models, chips, data centers, data, and enforcement.",
+      "counterinterpretation": "Government procurement, international cooperation, open standards, and local adaptation may reduce dependence; the report does not measure which intervention succeeds in a given place.",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026",
+      "retrieval_hash": "sha256:24a9b2fed620adb7defc09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/624", "claim": "World Bank provides a reproducibility package with chapter-specific data, code, dependencies, and verified reproduction notes.", "status": "official-reproducibility", "access_boundary": "The package includes a mix of data, code, proprietary inputs, and chapter outputs; not every source is locally available."},
+    {"source_url": "https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai", "claim": "World Bank's data-infrastructure results brief supplies project-level context for digital complements and country cases.", "status": "official-results"},
+    {"source_url": "https://data.worldbank.org/", "claim": "Registered World Bank Open Data landing page for separating report frameworks from country indicator data.", "status": "source-registry-context"}
+  ],
+  "boundary": "This is a World Bank framework and report-evidence record, not a US AI adoption, productivity, or geopolitical-leverage estimate. It contributes a capability/dependency mechanism and identifies measurable complements, concentration, public procurement, and governance stages. Country, firm, household, and state effects require separate primary records and compatible denominators.",
+  "retrieval_hash": "sha256:24a9b2fed620adb7def0c09fd6a0b742109b52a64d1966bcfbeb2657c5d50f976"
+}

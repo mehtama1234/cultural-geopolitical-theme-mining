@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-child-presence-reference-parent-audit-2024",
+  "title": "SIPP monthly child presence and reference-parent care universes are different",
+  "theme_ids": ["time", "work"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "SIPP positive-weight person record by reference month",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; monthly RHNUMU18=0 records",
+      "denominator": {"value": 225187, "unit": "positive-weight person-record/month rows with no household members under 18 in that month", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {
+        "reference_parent_ERP_yes": {"value": 568, "unit": "person-record/month rows with ERP=1; 0.25% of rows", "value_type": "unweighted_count", "share_percent": 0.252},
+        "paid_childcare_nonblank_rows": {"value": 405, "unit": "rows with nonblank EPAY; child-care fields use separate fall/December/reference-parent universes", "value_type": "unweighted_count"},
+        "childcare_work_prevention_nonblank_rows": {"value": 539, "unit": "rows with nonblank EWORKMORE; separate reference-parent/child-age universe", "value_type": "unweighted_count"},
+        "time_lost_nonblank_rows": {"value": 28, "unit": "rows with nonblank ETIMELOST; conditional on EWORKMORE", "value_type": "unweighted_count"}
+      },
+      "method": "Streaming audit of the official 2025 SIPP public-use slice using WPFINWGT-positive person-month rows; cross-tabulated monthly RHNUMU18 against ERP and nonblank care fields. No household prevalence or variance estimate is claimed.",
+      "uncertainty": "This is a universe/structure audit, not a population estimate. Counts are subject to the selected slice, survey missingness, and the distinction between monthly and annual/reference-year variables.",
+      "subgroup": "Monthly household under-18 presence versus adult reference-parent indicator.",
+      "counterinterpretation": "The overlap is consistent with ERP identifying an annual/reference-year parent while RHNUMU18 is a monthly household composition field; it is not evidence that adults without children in the household received ordinary child care.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "ERP is an adult reference-parent indicator; RHNUMU18 is a monthly household under-18 count; child-care fields have separate fall/December universes.", "status": "official-dictionary"}],
+  "boundary": "This record documents a source-universe mismatch and does not estimate child-care prevalence, household prevalence, causal care effects, or cultural/political meaning."
+}

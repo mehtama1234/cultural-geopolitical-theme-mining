@@ -45,6 +45,19 @@ They should not be scored against each other. They are two different links in th
 - whether Romanian public agencies and workers gained reusable skills;
 - effects on citizens' access, privacy, waiting time, or ability to challenge an automated decision.
 
+### September 2026 infrastructure completion checkpoint
+
+On 9 September 2026, ADR announced completion of the separate Investment 1
+government-cloud infrastructure project. It reported data-centre facilities
+designed for Tier IV/III resilience, cloud hardware and software, and secure
+communications infrastructure, with a reported total project value of RON
+2,209,229,826.06 and implementation through 31 August 2026. This closes an
+infrastructure-implementation milestone, not the separate Investment 2 target
+of at least 30 migrated applications. The announcement reports expected
+efficiency, cost, service-time, interaction, and continuity benefits; it does
+not provide measured uptime, citizen outcomes, application completion,
+portability, or provider-exit terms.
+
 ## Case B — Malaysia Johor data-centre campus
 
 ### Primary records
@@ -111,3 +124,9 @@ This inference is not established by the project records alone.
 - [Finding 013](findings/ai-work-control-013.md)
 - [World Bank WDR 2026 AI capability source record](world-bank-wdr2026-ai-capability-source-record-v1.md)
 - [Time-ordered adoption trace](time-ordered-adoption-trace-v1.md)
+
+The two case observations are preserved in the machine-readable [trend/case
+record](../../records/us-geopolitical-ai-infrastructure-case-comparison-2023-2026.json).
+It is intentionally labeled as a case comparison rather than a population
+trend: financing, planned capacity, and ownership milestones do not establish
+realized capability or geopolitical leverage.

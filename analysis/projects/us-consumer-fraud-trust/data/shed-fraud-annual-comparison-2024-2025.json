@@ -1,0 +1,269 @@
+{
+  "format": "shed-fraud-annual-comparison-v1",
+  "source_unit": "separate annual SHED respondent samples",
+  "annual": [
+    {
+      "year": 2024,
+      "source_unit": "US adult SHED 2024 respondent",
+      "weight": "weight",
+      "respondent_rows": 12295,
+      "age": [
+        {
+          "group": "18\u201329",
+          "code": "18\u201329",
+          "all_adult_rows": 1887,
+          "fraud_rows": 125,
+          "financial_fraud_exposure_percent": 6.848,
+          "lost_money_among_other_fraud_percent": 66.955,
+          "some_or_all_unrecovered_among_other_fraud_percent": 35.826,
+          "10_or_more_hours_among_other_fraud_percent": 40.427
+        },
+        {
+          "group": "30\u201344",
+          "code": "30\u201344",
+          "all_adult_rows": 2813,
+          "fraud_rows": 199,
+          "financial_fraud_exposure_percent": 6.93,
+          "lost_money_among_other_fraud_percent": 67.43,
+          "some_or_all_unrecovered_among_other_fraud_percent": 33.733,
+          "10_or_more_hours_among_other_fraud_percent": 26.857
+        },
+        {
+          "group": "45\u201359",
+          "code": "45\u201359",
+          "all_adult_rows": 2867,
+          "fraud_rows": 280,
+          "financial_fraud_exposure_percent": 10.248,
+          "lost_money_among_other_fraud_percent": 60.486,
+          "some_or_all_unrecovered_among_other_fraud_percent": 32.518,
+          "10_or_more_hours_among_other_fraud_percent": 35.882
+        },
+        {
+          "group": "60+",
+          "code": "60+",
+          "all_adult_rows": 4728,
+          "fraud_rows": 457,
+          "financial_fraud_exposure_percent": 9.305,
+          "lost_money_among_other_fraud_percent": 53.366,
+          "some_or_all_unrecovered_among_other_fraud_percent": 25.6,
+          "10_or_more_hours_among_other_fraud_percent": 24.612
+        }
+      ],
+      "income": [
+        {
+          "group": "<$10,000",
+          "code": "Less than $10,000",
+          "all_adult_rows": 435,
+          "fraud_rows": 41,
+          "financial_fraud_exposure_percent": 9.211,
+          "lost_money_among_other_fraud_percent": 61.086,
+          "some_or_all_unrecovered_among_other_fraud_percent": 40.394,
+          "10_or_more_hours_among_other_fraud_percent": 38.196
+        },
+        {
+          "group": "$10,000\u2013$24,999",
+          "code": "$10,000 to $24,999",
+          "all_adult_rows": 873,
+          "fraud_rows": 126,
+          "financial_fraud_exposure_percent": 13.589,
+          "lost_money_among_other_fraud_percent": 71.053,
+          "some_or_all_unrecovered_among_other_fraud_percent": 53.778,
+          "10_or_more_hours_among_other_fraud_percent": 42.612
+        },
+        {
+          "group": "$25,000\u2013$49,999",
+          "code": "$25,000 to $49,999",
+          "all_adult_rows": 1845,
+          "fraud_rows": 194,
+          "financial_fraud_exposure_percent": 10.276,
+          "lost_money_among_other_fraud_percent": 67.353,
+          "some_or_all_unrecovered_among_other_fraud_percent": 37.342,
+          "10_or_more_hours_among_other_fraud_percent": 35.962
+        },
+        {
+          "group": "$50,000\u2013$74,999",
+          "code": "$50,000 to $74,999",
+          "all_adult_rows": 1808,
+          "fraud_rows": 155,
+          "financial_fraud_exposure_percent": 8.61,
+          "lost_money_among_other_fraud_percent": 57.893,
+          "some_or_all_unrecovered_among_other_fraud_percent": 23.095,
+          "10_or_more_hours_among_other_fraud_percent": 32.454
+        },
+        {
+          "group": "$75,000\u2013$99,999",
+          "code": "$75,000 to $99,999",
+          "all_adult_rows": 1649,
+          "fraud_rows": 147,
+          "financial_fraud_exposure_percent": 8.781,
+          "lost_money_among_other_fraud_percent": 54.776,
+          "some_or_all_unrecovered_among_other_fraud_percent": 26.75,
+          "10_or_more_hours_among_other_fraud_percent": 21.446
+        },
+        {
+          "group": "$100,000\u2013$149,999",
+          "code": "$100,000 to $149,999",
+          "all_adult_rows": 2375,
+          "fraud_rows": 169,
+          "financial_fraud_exposure_percent": 7.048,
+          "lost_money_among_other_fraud_percent": 61.332,
+          "some_or_all_unrecovered_among_other_fraud_percent": 22.566,
+          "10_or_more_hours_among_other_fraud_percent": 26.53
+        },
+        {
+          "group": "$150,000+",
+          "code": "$150,000 or more",
+          "all_adult_rows": 3310,
+          "fraud_rows": 229,
+          "financial_fraud_exposure_percent": 6.915,
+          "lost_money_among_other_fraud_percent": 55.259,
+          "some_or_all_unrecovered_among_other_fraud_percent": 27.597,
+          "10_or_more_hours_among_other_fraud_percent": 27.719
+        }
+      ],
+      "available_fields": [
+        "bk47_b",
+        "bk48",
+        "bk50",
+        "bk51",
+        "bk52_b",
+        "ppagect4",
+        "ppinc7"
+      ]
+    },
+    {
+      "year": 2025,
+      "source_unit": "US adult SHED 2025 respondent",
+      "weight": "weight",
+      "respondent_rows": 12934,
+      "age": [
+        {
+          "group": "18\u201329",
+          "code": "18\u201329",
+          "all_adult_rows": 2091,
+          "fraud_rows": 147,
+          "financial_fraud_exposure_percent": 7.125,
+          "lost_money_among_other_fraud_percent": 68.424,
+          "some_or_all_unrecovered_among_other_fraud_percent": 36.97,
+          "10_or_more_hours_among_other_fraud_percent": 31.41
+        },
+        {
+          "group": "30\u201344",
+          "code": "30\u201344",
+          "all_adult_rows": 3002,
+          "fraud_rows": 252,
+          "financial_fraud_exposure_percent": 7.973,
+          "lost_money_among_other_fraud_percent": 67.714,
+          "some_or_all_unrecovered_among_other_fraud_percent": 42.849,
+          "10_or_more_hours_among_other_fraud_percent": 34.253
+        },
+        {
+          "group": "45\u201359",
+          "code": "45\u201359",
+          "all_adult_rows": 2963,
+          "fraud_rows": 254,
+          "financial_fraud_exposure_percent": 8.383,
+          "lost_money_among_other_fraud_percent": 65.0,
+          "some_or_all_unrecovered_among_other_fraud_percent": 32.528,
+          "10_or_more_hours_among_other_fraud_percent": 26.66
+        },
+        {
+          "group": "60+",
+          "code": "60+",
+          "all_adult_rows": 4878,
+          "fraud_rows": 440,
+          "financial_fraud_exposure_percent": 8.861,
+          "lost_money_among_other_fraud_percent": 53.899,
+          "some_or_all_unrecovered_among_other_fraud_percent": 27.335,
+          "10_or_more_hours_among_other_fraud_percent": 26.957
+        }
+      ],
+      "income": [
+        {
+          "group": "<$10,000",
+          "code": "Less than $10,000",
+          "all_adult_rows": 472,
+          "fraud_rows": 50,
+          "financial_fraud_exposure_percent": 10.652,
+          "lost_money_among_other_fraud_percent": 74.502,
+          "some_or_all_unrecovered_among_other_fraud_percent": 50.564,
+          "10_or_more_hours_among_other_fraud_percent": 44.797
+        },
+        {
+          "group": "$10,000\u2013$24,999",
+          "code": "$10,000 to $24,999",
+          "all_adult_rows": 1001,
+          "fraud_rows": 113,
+          "financial_fraud_exposure_percent": 10.607,
+          "lost_money_among_other_fraud_percent": 72.391,
+          "some_or_all_unrecovered_among_other_fraud_percent": 50.671,
+          "10_or_more_hours_among_other_fraud_percent": 39.688
+        },
+        {
+          "group": "$25,000\u2013$49,999",
+          "code": "$25,000 to $49,999",
+          "all_adult_rows": 1874,
+          "fraud_rows": 181,
+          "financial_fraud_exposure_percent": 9.456,
+          "lost_money_among_other_fraud_percent": 72.3,
+          "some_or_all_unrecovered_among_other_fraud_percent": 42.585,
+          "10_or_more_hours_among_other_fraud_percent": 39.293
+        },
+        {
+          "group": "$50,000\u2013$74,999",
+          "code": "$50,000 to $74,999",
+          "all_adult_rows": 1897,
+          "fraud_rows": 167,
+          "financial_fraud_exposure_percent": 8.795,
+          "lost_money_among_other_fraud_percent": 68.037,
+          "some_or_all_unrecovered_among_other_fraud_percent": 37.139,
+          "10_or_more_hours_among_other_fraud_percent": 31.958
+        },
+        {
+          "group": "$75,000\u2013$99,999",
+          "code": "$75,000 to $99,999",
+          "all_adult_rows": 1638,
+          "fraud_rows": 142,
+          "financial_fraud_exposure_percent": 8.617,
+          "lost_money_among_other_fraud_percent": 62.706,
+          "some_or_all_unrecovered_among_other_fraud_percent": 29.763,
+          "10_or_more_hours_among_other_fraud_percent": 26.389
+        },
+        {
+          "group": "$100,000\u2013$149,999",
+          "code": "$100,000 to $149,999",
+          "all_adult_rows": 2418,
+          "fraud_rows": 180,
+          "financial_fraud_exposure_percent": 7.381,
+          "lost_money_among_other_fraud_percent": 54.659,
+          "some_or_all_unrecovered_among_other_fraud_percent": 28.288,
+          "10_or_more_hours_among_other_fraud_percent": 22.432
+        },
+        {
+          "group": "$150,000+",
+          "code": "$150,000 or more",
+          "all_adult_rows": 3634,
+          "fraud_rows": 260,
+          "financial_fraud_exposure_percent": 6.948,
+          "lost_money_among_other_fraud_percent": 54.047,
+          "some_or_all_unrecovered_among_other_fraud_percent": 26.15,
+          "10_or_more_hours_among_other_fraud_percent": 23.178
+        }
+      ],
+      "available_fields": [
+        "bk47_b",
+        "bk48",
+        "bk50",
+        "ppagect4",
+        "ppinc7"
+      ]
+    }
+  ],
+  "definitions": {
+    "financial_fraud_exposure": "BK47_b = Yes",
+    "lost_money": "BK48 begins with I lost money",
+    "some_or_all_unrecovered": "BK48 contains some of it or none of it",
+    "time_10_or_more_hours": "BK50 is 10 to 39 hours, 40 to 79 hours, or 80 hours or more"
+  },
+  "boundary": "Weighted descriptive annual comparison; the 2024 and 2025 files are separate annual samples and are not treated as a panel. Percentages use metric-specific nonmissing denominators within each subgroup. The 2025 public file lacks the 2024 account-rail fields BK51/BK52_b, so no annual P2P comparison is inferred."
+}

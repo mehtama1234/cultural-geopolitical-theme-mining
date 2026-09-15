@@ -1,0 +1,193 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="US broad trend-extraction protocol v1"><title>US broad trend-extraction protocol v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#the-basic-unit">The basic unit</a></li><li><a href="#source-family-roles">Source-family roles</a></li><li><a href="#coding-every-arrow">Coding every arrow</a></li><li class="toc-sub"><a href="#stages">Stages</a></li><li class="toc-sub"><a href="#evidence-statuses">Evidence statuses</a></li><li><a href="#when-separate-sources-support-a-trend">When separate sources support a trend</a></li><li><a href="#distribution-and-power-checks">Distribution and power checks</a></li><li><a href="#cultural-and-political-discipline">Cultural and political discipline</a></li><li><a href="#required-trend-register-fields">Required trend-register fields</a></li><li><a href="#stopping-rule">Stopping rule</a></li><li><a href="#current-use">Current use</a></li></ul></nav></div><article id="finding" class="memo"><h1>US broad trend-extraction protocol v1</h1>
+<p><strong>Purpose:</strong> extract recurring societal, cultural, political, consumer,
+institutional, firm, infrastructure, and geopolitical patterns from different
+source families without collapsing unlike observations into one story.</p>
+<p>This protocol is the bridge between the 14-theme inventory and the provisional
+trend register. It produces bounded trend claims, not a single index of “how
+America is doing.”</p>
+<h2 id="the-basic-unit">The basic unit</h2>
+<p>Every source observation is stored as an evidence card:</p>
+<pre><code class="language-text">source -&gt; population/unit -&gt; date/window -&gt; place/market -&gt; measure
+       -&gt; observed change -&gt; mechanism stage -&gt; downstream result
+       -&gt; distribution -&gt; uncertainty -&gt; limitation -&gt; next test
+</code></pre>
+<p>The unit must be explicit: person, household, consumer unit, worker, case,
+customer, firm, establishment, sector, agency, county, state, country, market,
+platform, or infrastructure asset. A geographic overlap does not make two
+records the same person, household, firm, or event.</p>
+<h2 id="source-family-roles">Source-family roles</h2>
+<table>
+<thead>
+<tr>
+<th>Source family</th>
+<th>Best use</th>
+<th>Do not claim from it alone</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Surveys and panels</td>
+<td>reported condition, adaptation, belief, identity, trust, action, repeated respondent change</td>
+<td>administrative truth, exact event cause, or population-wide causality without design</td>
+</tr>
+<tr>
+<td>Administrative records</td>
+<td>eligibility, participation, transactions, complaints, enforcement, timing, place, and institutional process</td>
+<td>unrecorded need, dignity, trust, unreported harm, or remedy unless measured</td>
+</tr>
+<tr>
+<td>Research studies and experiments</td>
+<td>mechanisms, treatment effects, and tested counterfactuals</td>
+<td>universal effects outside the study population and setting</td>
+</tr>
+<tr>
+<td>Public records and filings</td>
+<td>ownership, investment, capacity, prices, incidents, policy, and stated strategy</td>
+<td>realized service quality, local benefit, or public control from an announcement</td>
+</tr>
+<tr>
+<td>Firm, market, and sector data</td>
+<td>entry, exit, jobs, prices, margins, concentration, sourcing, and risk transfer</td>
+<td>household security, cultural meaning, or fair competition without recipient-side evidence</td>
+</tr>
+<tr>
+<td>Media and cultural measures</td>
+<td>narratives, attention, representation, language, norms, and source environment</td>
+<td>what the whole public believes or does</td>
+</tr>
+<tr>
+<td>International and supply-chain records</td>
+<td>external dependence, inputs, ownership, alliances, and state exposure</td>
+<td>geopolitical leverage unless alternatives, bargaining, or changed external behavior are observed</td>
+</tr>
+</tbody>
+</table>
+<h2 id="coding-every-arrow">Coding every arrow</h2>
+<p>Tag each claim with one stage and one evidence status.</p>
+<h3 id="stages">Stages</h3>
+<ol>
+<li><strong>Condition:</strong> price, rule, technology, exposure, need, shock, or resource.</li>
+<li><strong>Immediate effect:</strong> money, time, access, control, status, health, or
+   security changes.</li>
+<li><strong>Response:</strong> delay, substitution, borrowing, switching, staying, moving,
+   organizing, investment, exit, or going without.</li>
+<li><strong>Next actor:</strong> firm, employer, platform, agency, court, media, party,
+   community, foreign actor, or infrastructure owner.</li>
+<li><strong>Redistribution:</strong> cost, risk, data, asset, opportunity, or decision power
+   moves to another actor or place.</li>
+<li><strong>Meaning/action:</strong> trust, blame, identity, belonging, norm, demand,
+   complaint, civic action, political action, or state leverage.</li>
+</ol>
+<h3 id="evidence-statuses">Evidence statuses</h3>
+<ul>
+<li><strong>Observed:</strong> directly recorded in the stated unit and window.</li>
+<li><strong>Reported:</strong> respondent, complainant, firm, agency, or interview account.</li>
+<li><strong>Estimated:</strong> weighted or modeled quantity with method documented.</li>
+<li><strong>Compared:</strong> difference across valid groups, places, periods, or treatments.</li>
+<li><strong>Inferred:</strong> interpretation supported by adjacent evidence but not directly
+  measured; never write it as an observed outcome.</li>
+<li><strong>Open:</strong> the required measure or valid join is missing.</li>
+</ul>
+<h2 id="when-separate-sources-support-a-trend">When separate sources support a trend</h2>
+<p>A provisional trend enters the register only when all five conditions are met:</p>
+<ol>
+<li>at least two compatible source layers point to the same broad pattern;</li>
+<li>their units, dates, populations, and definitions are stated beside the
+   claim;</li>
+<li>the pattern survives at least one distributional cut or counterexample;</li>
+<li>the missing arrow is named, especially between material exposure and
+   cultural or political meaning; and</li>
+<li>the next test identifies a stronger same-unit, longitudinal, matched-place,
+   firm-level, or causal design.</li>
+</ol>
+<p>“Compatible” does not mean identical. A survey adaptation measure and a firm
+price measure may triangulate a price-pressure pattern, but they cannot prove
+that the same households experienced the same price or that the firm caused
+the reported adaptation.</p>
+<h2 id="distribution-and-power-checks">Distribution and power checks</h2>
+<p>For every trend, ask:</p>
+<ul>
+<li>Who is exposed, protected, excluded, or unmeasured?</li>
+<li>Who controls the price, rule, schedule, data, remedy, asset, or exit term?</li>
+<li>Who can absorb, delay, appeal, switch, move, refuse, or organize?</li>
+<li>Which costs are transferred to family time, workers, consumers, firms,
+  public systems, communities, or future users?</li>
+<li>Does the headline improvement coexist with worse quality, autonomy, safety,
+  resilience, or future optionality?</li>
+<li>Does the result vary by income, race, age, gender, disability, family,
+  migration, geography, firm size, ownership, or institutional access?</li>
+</ul>
+<p>The answer belongs in the trend claim only when measured. Otherwise it becomes
+the next test, not an implied explanation.</p>
+<h2 id="cultural-and-political-discipline">Cultural and political discipline</h2>
+<p>Material change is not cultural or political change by itself. To claim a
+meaning/action path, measure separately:</p>
+<pre><code class="language-text">exposure -&gt; attribution -&gt; information/source -&gt; identity or fairness
+         -&gt; trust/blame/belonging -&gt; expression -&gt; civic or political action
+</code></pre>
+<p>Use non-users, non-reporters, eligible non-applicants, silent or unobserved
+cases, and counterexamples where possible. A complaint is not a remedy, trust
+is not control, continued use is not satisfaction, and a vote is not proof of a
+particular experience.</p>
+<h2 id="required-trend-register-fields">Required trend-register fields</h2>
+<p>Each row in the synthesis register should retain:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Minimum content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trend statement</td>
+<td>One cautious sentence naming the population-level pattern</td>
+</tr>
+<tr>
+<td>Theme links</td>
+<td>One or more of the 14 themes</td>
+</tr>
+<tr>
+<td>Source cards</td>
+<td>Source, unit, period, geography, measure, and link</td>
+</tr>
+<tr>
+<td>Arrow stage</td>
+<td>Condition, effect, response, next actor, redistribution, or meaning/action</td>
+</tr>
+<tr>
+<td>Distribution</td>
+<td>Defined subgroup or place comparison</td>
+</tr>
+<tr>
+<td>Evidence status</td>
+<td>Observed, reported, estimated, compared, inferred, or open</td>
+</tr>
+<tr>
+<td>Counterexample</td>
+<td>A case, group, place, period, or result that limits the pattern</td>
+</tr>
+<tr>
+<td>Missing join</td>
+<td>The exact arrow not yet observed</td>
+</tr>
+<tr>
+<td>Next test</td>
+<td>Stronger design and the result that would change the claim</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stopping-rule">Stopping rule</h2>
+<p>Do not add a new topic packet merely because it has an interesting statistic.
+Add it when it fills a theme or arrow in the matrix, introduces a distinct
+source family or measurement level, or tests a proposed mechanism or
+counterexample. Stop a trend claim when its remaining evidence is only a
+geographic coincidence, an announcement, a repeated cross-sectional
+association, or an unmeasured cultural/political inference.</p>
+<h2 id="current-use">Current use</h2>
+<p>Apply this protocol to the <a href="US-BROAD-THEME-INVENTORY_V1.html">14-theme inventory</a>,
+<a href="US-BROAD-EVIDENCE-MATRIX_V1.html">arrow-level evidence matrix</a>, and <a href="../analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md">provisional
+societal trend register</a>. The protocol
+keeps the program broad while forcing depth at the exact arrow where a claim
+could otherwise outrun its evidence.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

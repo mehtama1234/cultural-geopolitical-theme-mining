@@ -1,0 +1,306 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gss-financial-trust-politics-2024",
+  "title": "Financial position coexists with distinct trust, fairness, and political orientations",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "work"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "GSS 2024 cross-sectional respondent with nonresponse-adjusted post-stratification weight",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; financial satisfaction: pretty well satisfied",
+      "denominator": {
+        "value": 774,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 32.4653,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 228,
+          "weighted_denominator": 192.43
+        },
+        "people_try_to_be_fair": {
+          "value": 58.7082,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 226,
+          "weighted_denominator": 190.66
+        },
+        "liberal_or_slightly_liberal": {
+          "value": 34.3322,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 748,
+          "weighted_denominator": 725.31
+        },
+        "conservative_or_slightly_conservative": {
+          "value": 39.0198,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 748,
+          "weighted_denominator": 725.31
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial satisfaction category: pretty well satisfied",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "Trust and fairness are module-specific valid fields; ideology estimates use their own valid field universe."
+    },
+    {
+      "period": "2024; financial satisfaction: more or less satisfied",
+      "denominator": {
+        "value": 1456,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 27.7233,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 404,
+          "weighted_denominator": 405.53
+        },
+        "people_try_to_be_fair": {
+          "value": 46.5421,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 401,
+          "weighted_denominator": 402.17
+        },
+        "liberal_or_slightly_liberal": {
+          "value": 27.6987,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1405,
+          "weighted_denominator": 1463.63
+        },
+        "conservative_or_slightly_conservative": {
+          "value": 33.1083,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1405,
+          "weighted_denominator": 1463.63
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial satisfaction category: more or less satisfied",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "Trust and fairness are module-specific valid fields; ideology estimates use their own valid field universe."
+    },
+    {
+      "period": "2024; financial satisfaction: not satisfied at all",
+      "denominator": {
+        "value": 1061,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 14.9007,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 305,
+          "weighted_denominator": 275.91
+        },
+        "people_try_to_be_fair": {
+          "value": 24.1494,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 302,
+          "weighted_denominator": 276.46
+        },
+        "liberal_or_slightly_liberal": {
+          "value": 22.0945,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 994,
+          "weighted_denominator": 929.69
+        },
+        "conservative_or_slightly_conservative": {
+          "value": 35.6743,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 994,
+          "weighted_denominator": 929.69
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial satisfaction category: not satisfied at all",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "Trust and fairness are module-specific valid fields; ideology estimates use their own valid field universe."
+    },
+    {
+      "period": "2024; financial situation trajectory: better",
+      "denominator": {
+        "value": 933,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 26.6596,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 248,
+          "weighted_denominator": 220.46
+        },
+        "people_try_to_be_fair": {
+          "value": 44.2155,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 249,
+          "weighted_denominator": 221.07
+        },
+        "reported_or_intended_Trump_vote": {
+          "value": 29.8523,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 933,
+          "weighted_denominator": 983.51
+        },
+        "reported_or_intended_Harris_vote": {
+          "value": 43.3432,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 933,
+          "weighted_denominator": 983.51
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial trajectory: better",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "The candidate variables combine pre/post-July 2024 GSS forms; they measure reported intention, not verified turnout or completed vote."
+    },
+    {
+      "period": "2024; financial situation trajectory: worse",
+      "denominator": {
+        "value": 965,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 24.6803,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 233,
+          "weighted_denominator": 207.62
+        },
+        "people_try_to_be_fair": {
+          "value": 35.7267,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 233,
+          "weighted_denominator": 210.01
+        },
+        "reported_or_intended_Trump_vote": {
+          "value": 50.0794,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 965,
+          "weighted_denominator": 911.59
+        },
+        "reported_or_intended_Harris_vote": {
+          "value": 22.2406,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 965,
+          "weighted_denominator": 911.59
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial trajectory: worse",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "The candidate variables combine pre/post-July 2024 GSS forms; they measure reported intention, not verified turnout or completed vote."
+    },
+    {
+      "period": "2024; financial situation trajectory: stayed same",
+      "denominator": {
+        "value": 1180,
+        "unit": "GSS 2024 respondents with positive nonresponse-adjusted post-stratification weight",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "people_can_be_trusted": {
+          "value": 25.298,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 384,
+          "weighted_denominator": 363.07
+        },
+        "people_try_to_be_fair": {
+          "value": 45.8153,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 378,
+          "weighted_denominator": 358.29
+        },
+        "reported_or_intended_Trump_vote": {
+          "value": 34.7316,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1180,
+          "weighted_denominator": 1151.75
+        },
+        "reported_or_intended_Harris_vote": {
+          "value": 37.4309,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1180,
+          "weighted_denominator": 1151.75
+        }
+      },
+      "method": "2024 GSS cross-section weighted with WTSSNRPS, the person post-stratification weight adjusted for nonresponse; subgroup-specific valid universes retained.",
+      "uncertainty": "Weighted descriptive comparison without design-based standard errors in this pass. The 2024 multi-mode design, module-specific missingness, and observational cross-tabs remain important uncertainty sources.",
+      "subgroup": "Financial trajectory: stayed same",
+      "counterinterpretation": "Financial position, generalized trust, ideology, party identification, and vote intention may be jointly structured by age, education, race, health, media, prior identity, and local conditions; this does not establish a financial cause.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f; dta:sha256:1a97ee856ed245e2ffe96f929b168e0c6c6fbe5cf098654a16099b29cbdbda0a",
+      "status": "compared",
+      "universe_note": "The candidate variables combine pre/post-July 2024 GSS forms; they measure reported intention, not verified turnout or completed vote."
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3.pdf",
+      "claim": "NORC documents 2024 question wording, response codes, multi-mode changes, and variable universes.",
+      "status": "official-definition"
+    }
+  ],
+  "boundary": "This is a weighted cross-sectional GSS 2024 comparison. It does not establish that financial satisfaction or trajectory causes trust, fairness judgments, ideology, or vote intention; it does not measure a specific bill, local exposure, institutional remedy, cultural identity formation, or geopolitical action. The 2024 file has module-specific missingness and changed multi-mode design, so it should not be treated as a direct unadjusted continuation of earlier GSS years without a separate trend audit.",
+  "retrieval_hash": "sha256:107c11ce811c004207844bd2d23265ec32370e27b72d965c630fe849fc971b6f"
+}

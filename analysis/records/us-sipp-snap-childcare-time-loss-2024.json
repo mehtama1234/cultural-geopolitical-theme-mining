@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-snap-childcare-time-loss-2024",
+  "title": "Child-care work prevention and reported time-loss type differ across stable SNAP states",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "identified person with November-to-December adjacent-month SNAP pair and annual fall child-care fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; November-to-December stable no-SNAP pair",
+      "denominator": {"value": 2295, "unit": "valid person transition pairs for EWORKMORE", "value_type": "identified_pair_count"},
+      "measures": {
+        "care_prevented_work": {"value": 3.4221, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 27339987.0503, "approx_95_percent_ci": [2.5439, 4.3004]},
+        "time_lost_hours_share": {"value": 38.5176, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 935613.0687, "approx_95_percent_ci": [25.2305, 51.8047]},
+        "time_lost_days_share": {"value": 49.9355, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 935613.0687, "approx_95_percent_ci": [36.2708, 63.6001]},
+        "time_lost_weeks_share": {"value": 11.5470, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 935613.0687, "approx_95_percent_ci": [3.7563, 19.3376]}
+      },
+      "method": "Same-person November-to-December SNAP transition paired with December-carried annual fall child-care fields; WPFINWGT with 240 Fay-BRR replicate weights and perturbation factor 0.5.",
+      "uncertainty": "A flag-inclusive rerun using AWORKMORE, ATIMELOST, and ATIMELOST_TP produced the same point estimates and valid-cell counts as the response-code audit. The time-loss denominator is only 71 records. Child-care fields refer to the fall reference year and are not monthly December outcomes.",
+      "subgroup": "Persons in stable no-SNAP November-to-December transitions; annual child-care fields describe reference parents and have separate universes.",
+      "counterinterpretation": "Stable SNAP status may mark different household composition, eligibility, employment, care needs, or resources; this comparison does not estimate a SNAP effect or show that time loss was caused by the program.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December stable SNAP pair",
+      "denominator": {"value": 351, "unit": "valid person transition pairs for EWORKMORE", "value_type": "identified_pair_count"},
+      "measures": {
+        "care_prevented_work": {"value": 7.4295, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 3922421.5644, "approx_95_percent_ci": [3.7478, 11.1112]},
+        "time_lost_hours_share": {"value": 48.8296, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 291415.7470, "approx_95_percent_ci": [25.6659, 71.9934]},
+        "time_lost_days_share": {"value": 34.9499, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 291415.7470, "approx_95_percent_ci": [12.0337, 57.8661]},
+        "time_lost_weeks_share": {"value": 16.2205, "unit": "percent of valid reported time-loss cases", "value_type": "weighted_share", "weighted_denominator": 291415.7470, "approx_95_percent_ci": [1.9874, 30.4536]}
+      },
+      "method": "Same-person November-to-December SNAP transition paired with December-carried annual fall child-care fields; WPFINWGT with 240 Fay-BRR replicate weights and perturbation factor 0.5.",
+      "uncertainty": "A flag-inclusive rerun using AWORKMORE, ATIMELOST, and ATIMELOST_TP produced the same point estimates and valid-cell counts as the response-code audit. The time-loss denominator is only 23 records. Child-care fields refer to the fall reference year and are not monthly December outcomes.",
+      "subgroup": "Persons in stable SNAP November-to-December transitions; annual child-care fields describe reference parents and have separate universes.",
+      "counterinterpretation": "Stable SNAP status may mark different household composition, eligibility, employment, care needs, or resources; this comparison does not estimate a SNAP effect or show that time loss was caused by the program.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The SIPP dictionary defines EWORKMORE, ETIMELOST, and ETIMELOST_TP and their fall-reference-year universes.", "status": "official-definition"},
+    {"source_url": "../../projects/us-safety-net-access/sipp-snap-stable-state-childcare-bridge-v1.md", "claim": "Prior child-care payment, assistance, and work-prevention comparison using the same transition design.", "status": "context"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-09-14",
+    "script": "scripts/analyze_sipp_snap_childcare_time_loss.py",
+    "primary_input": "/tmp/us-broad-sipp-2025/full-v15/sipp-household-slice.csv",
+    "replicate_input": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+    "rows_read": 379215,
+    "replicate_pairs_matched": 31335,
+    "stable_no_snap_valid_pairs": 2295,
+    "stable_snap_valid_pairs": 351,
+    "result": "Exact point estimates and standard errors reproduced for all four transition groups and all reported metrics; entry/exit care-prevention cells remained 4 and 2 with no valid time-loss cases.",
+    "interpretation": "Reproduction confirms the committed descriptive layer, not a causal SNAP estimate. Raw inputs remain outside the repository."
+  },
+  "boundary": "This is a same-person timing bridge across adjacent SNAP status and annual fall child-care measures. It strengthens the material-support-to-work/care-time arrow, but it does not establish a program effect, exact event timing, hours lost, notice/effort, care quality, household outcome, trust, political action, or recovery. Entry and exit cells are too sparse for time-loss reporting."
+}

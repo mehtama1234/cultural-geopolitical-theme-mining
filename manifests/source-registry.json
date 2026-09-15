@@ -11,6 +11,33 @@
       "access_notes": "Check article date, linked study, authors, and topic collection."
     },
     {
+      "id": "ssrn-research-papers",
+      "name": "SSRN research paper repository",
+      "url": "https://papers.ssrn.com/",
+      "role": "public working-paper and preprint access for emerging social-science evidence",
+      "source_types": ["working_paper", "preprint", "abstract", "research_repository"],
+      "license_note": "Record metadata, abstracts, short notes, and links; do not reproduce papers in full.",
+      "access_notes": "Treat repository versions as provisional. Preserve author, paper version, posting date, linked institution, access status, and the distinction between an abstract, a working paper, and a peer-reviewed publication."
+    },
+    {
+      "id": "arxiv-research-preprints",
+      "name": "arXiv research preprints",
+      "url": "https://arxiv.org/",
+      "role": "open preprint access and versioned paper text for emerging research",
+      "source_types": ["preprint", "research_paper", "abstract", "versioned_text"],
+      "license_note": "Record metadata, version, authors, abstract, and links; do not reproduce papers in full.",
+      "access_notes": "Treat preprints as provisional and preserve version date, peer-review status, and any associated data/code release separately."
+    },
+    {
+      "id": "zenodo-research-data",
+      "name": "Zenodo research data archive",
+      "url": "https://zenodo.org/",
+      "role": "versioned open research data and code archives",
+      "source_types": ["research_data", "replication_package", "code_archive", "dataset"],
+      "license_note": "Record DOI, version, file names, checksums, and permitted-use terms; do not redistribute restricted or copyrighted contents.",
+      "access_notes": "Use an archive as a reproducibility layer, not as a substitute for the paper. Preserve archive and file hashes and distinguish de-identified data from withheld raw inputs."
+    },
+    {
       "id": "nber-working-papers",
       "name": "National Bureau of Economic Research Working Papers",
       "url": "https://www.nber.org/papers",
@@ -36,6 +63,24 @@
       "source_types": ["dataset", "code", "documentation"],
       "license_note": "Check source license, update status, and permitted use for every dataset.",
       "access_notes": "Archived data may lag the original source. Preserve vintage and checksum."
+    },
+    {
+      "id": "aea-rct-registry",
+      "name": "American Economic Association RCT Registry",
+      "url": "https://www.socialscienceregistry.org/",
+      "role": "pre-registration and design-plan evidence for randomized social-science experiments",
+      "source_types": ["pre_registration", "randomized_controlled_trial", "study_design"],
+      "license_note": "Record registration metadata, planned sample, outcomes, dates, and public access status; do not reproduce restricted registration materials.",
+      "access_notes": "Keep registered plans separate from analyzed samples and final estimates. Preserve registration date, last update, trial history, missing public fields, and the distinction between planned and realized denominators."
+    },
+    {
+      "id": "urban-wbns",
+      "name": "Urban Institute Well-Being and Basic Needs Survey",
+      "url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey",
+      "role": "US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence",
+      "source_types": ["probability_panel_survey", "published_analysis", "public_use_microdata", "questionnaire"],
+      "license_note": "Use published estimates, questionnaires, metadata, and permitted public-use files with source citation; do not reproduce reports in full.",
+      "access_notes": "Preserve survey round, age universe, item-specific denominator, weights, reference period, methodology vintage, panel/repeated-sample status, and whether a result comes from published tables or independently analyzed microdata. Do not treat WBNS estimates as interchangeable with CPS Food Security Supplement or administrative program records."
     },
     {
       "id": "microsoft-annual-report",
@@ -144,6 +189,15 @@
       "source_types": ["comparative_case_study", "labor_relations_research", "social_dialogue_evidence"],
       "license_note": "Record case setting, actors, issue, outcome, and source link; do not copy the working paper in full.",
       "access_notes": "Distinguish documented worker influence from recommendations and record the level of dialogue."
+    },
+    {
+      "id": "wageindicator-worker-rights-archive",
+      "name": "WageIndicator worker-rights and collective-agreement archive",
+      "url": "https://wageindicator.org/",
+      "role": "comparative worker-rights, collective-agreement, and workplace-governance text archive",
+      "source_types": ["collective_agreement", "worker_rights_archive", "labor_governance_record"],
+      "license_note": "Preserve the agreement or document title, country, employer/worker actors, date, section, and archive URL; do not treat an archived text as evidence of implementation or worker-level outcome.",
+      "access_notes": "Use archived agreements to identify written rules, rights, safeguards, and governance designs. Verify the original signatory or institutional host when possible and separate text, scope, enforcement, and lived effect."
     },
     {
       "id": "eu-future-of-work",
@@ -263,6 +317,15 @@
       "access_notes": "Pair research claims with the World Bank indicator definitions and country context."
     },
     {
+      "id": "world-bank-enterprise-surveys",
+      "name": "World Bank Enterprise Surveys",
+      "url": "https://www.enterprisesurveys.org/en/data",
+      "role": "firm-level business environment, establishment capacity, finance, infrastructure, management, and performance evidence",
+      "source_types": ["establishment_survey", "official_indicator", "country_profile", "microdata_portal", "follow_up_survey"],
+      "license_note": "Record country, field dates, establishment universe, size/sector strata, indicator definitions, weights, standard errors, and portal access status; do not reproduce survey files or reports in full.",
+      "access_notes": "Keep public country-profile indicators separate from authenticated microdata and AI-focused follow-ups. Preserve the denominator, subgroup, survey vintage, variance documentation, and whether a result is a public aggregate or firm-level estimate."
+    },
+    {
       "id": "federal-reserve-shed",
       "name": "Federal Reserve Survey of Household Economics and Decisionmaking",
       "url": "https://www.federalreserve.gov/consumerscommunities/shed.htm",
@@ -272,6 +335,24 @@
       "access_notes": "Treat reported experience as descriptive unless a design supports a causal claim; preserve survey vintage."
     },
     {
+      "id": "census-sipp",
+      "name": "U.S. Census Bureau Survey of Income and Program Participation",
+      "url": "https://www.census.gov/programs-surveys/sipp.html",
+      "role": "US monthly household and person resources, work, program participation, health, food security, and care constraints",
+      "source_types": ["household_survey", "longitudinal_survey", "microdata", "replicate_weights"],
+      "license_note": "Preserve the release vintage, field universe, status flags, weights, replicate-weight method, and data-use terms.",
+      "access_notes": "Person weights do not automatically produce household estimates; distinguish monthly, annual, and reference-period fields and retain nonresponse and restricted universes."
+    },
+    {
+      "id": "new-york-fed-economic-heterogeneity-indicators",
+      "name": "Federal Reserve Bank of New York Economic Heterogeneity Indicators",
+      "url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators",
+      "role": "demographic, geographic, and business-size heterogeneity in inflation, earnings, employment, consumer spending, wealth, and small-business conditions",
+      "source_types": ["official_indicator", "derived_index", "consumer_spending", "demographic_economic_data"],
+      "license_note": "Record indicator definitions, source inputs, release vintage, and links; do not reproduce the report in full.",
+      "access_notes": "EHI demographic inflation is author-constructed from CEX and CPI; consumer spending uses Numerator data; preserve assumptions, vintage, benchmark, and the distinction from official BLS or Federal Reserve System estimates."
+    },
+    {
       "id": "cfpb-consumer-finance",
       "name": "Consumer Financial Protection Bureau consumer finance research",
       "url": "https://www.consumerfinance.gov/data-research/",
@@ -279,6 +360,15 @@
       "source_types": ["regulatory_report", "administrative_data", "consumer_complaint", "enforcement_record"],
       "license_note": "Record report or case identifier, date, definitions, and source link; do not copy full reports.",
       "access_notes": "Separate market description, consumer report, complaint, enforcement finding, and rule statement."
+    },
+    {
+      "id": "cfpb-complaint-api",
+      "name": "CFPB Consumer Complaint Database API documentation",
+      "url": "https://cfpb.github.io/api/ccdb/api.html",
+      "role": "machine-access contract for CFPB complaint records, fields, filters, pagination, and public retrieval",
+      "source_types": ["api_documentation", "administrative_data_delivery", "consumer_complaint"],
+      "license_note": "Preserve endpoint, query parameters, retrieval date, response schema, field availability, and raw-response hash; do not treat the API contract as evidence of complaint prevalence or remedy.",
+      "access_notes": "Use the API documentation to reproduce aggregate and event-level extracts. Keep publication coverage, product taxonomy, routing labels, narrative availability, timeliness, and verified remedy as separate fields."
     },
     {
       "id": "bls-consumer-data",
@@ -315,6 +405,627 @@
       "source_types": ["working_paper", "household_finance_research", "consumer_behavior_research"],
       "license_note": "Record paper metadata and short notes; do not copy full papers.",
       "access_notes": "Mark working papers as provisional and check revision, publication, data access, and identification."
+    },
+    {
+      "id": "anes",
+      "name": "American National Election Studies",
+      "url": "https://electionstudies.org/",
+      "role": "US political attitudes, identity, trust, economic judgment, participation, and vote reports",
+      "source_types": ["election_survey", "panel_survey", "public_use_data"],
+      "license_note": "Record study wave, questionnaire, sample, weights, access terms, and variable definitions.",
+      "access_notes": "Separate reported vote, political identity, economic perception, attribution, and causal interpretation; preserve panel timing."
+    },
+    {
+      "id": "cooperative-election-study",
+      "name": "Cooperative Election Study",
+      "url": "https://cces.gov.harvard.edu/",
+      "role": "large-sample US political, demographic, material-position, trust, and civic-action comparisons",
+      "source_types": ["election_survey", "cross_sectional_survey", "public_use_data"],
+      "license_note": "Record module, field dates, sample, weights, question wording, and complex-design limits.",
+      "access_notes": "Proxy material positions are not the same as dated exposure; do not infer causal action from cross-tabs."
+    },
+    {
+      "id": "atus",
+      "name": "BLS American Time Use Survey",
+      "url": "https://www.bls.gov/tus/",
+      "role": "US paid work, care, household labor, travel, rest, and social-time allocation",
+      "source_types": ["time_diary", "official_statistic", "microdata"],
+      "license_note": "Record diary year, population universe, weights, activity codes, and public-use restrictions.",
+      "access_notes": "A diary day is not a longitudinal household calendar; distinguish time spent from time displaced."
+    },
+    {
+      "id": "meps",
+      "name": "Medical Expenditure Panel Survey",
+      "url": "https://meps.ahrq.gov/mepsweb/",
+      "role": "US health conditions, care use, medical spending, insurance, employment, and household burden",
+      "source_types": ["panel_survey", "health_survey", "microdata"],
+      "license_note": "Record panel, event, condition, weight, variance method, and variable universe.",
+      "access_notes": "Keep charges, payments, utilization, health status, and employment as distinct outcomes."
+    },
+    {
+      "id": "usda-food-security",
+      "name": "USDA Economic Research Service Food Security Data",
+      "url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/",
+      "role": "US household and child food security, hunger, shielding, and assistance context",
+      "source_types": ["official_statistic", "household_survey", "food_security_data"],
+      "license_note": "Record survey supplement, food-security scale, population universe, and release vintage.",
+      "access_notes": "Food-security prevalence does not identify the specific price, benefit, employer, or service event that preceded it."
+    },
+    {
+      "id": "hrsa-hpsa",
+      "name": "HRSA Health Professional Shortage Areas",
+      "url": "https://data.hrsa.gov/topics/health-workforce/shortage-areas",
+      "role": "US place-level provider-shortage and health-capacity context",
+      "source_types": ["administrative_data", "place_indicator", "public_record"],
+      "license_note": "Record designation date, component, geography, definitions, and update vintage.",
+      "access_notes": "A shortage designation or establishment stock is not the same as lived access, quality, or unmet need."
+    },
+    {
+      "id": "cdc-places",
+      "name": "CDC PLACES: Local Data for Better Health",
+      "url": "https://www.cdc.gov/places/",
+      "role": "US county, place, tract, and ZCTA modeled health, preventive-care, and health-related social-needs context",
+      "source_types": ["modeled_small_area_estimate", "health_dataset", "place_indicator", "public_data_portal"],
+      "license_note": "Record release year, BRFSS source vintage, geography, measure, data type, confidence limits, and modeled-estimate status.",
+      "access_notes": "PLACES estimates are modeled area measures; they are not individual outcomes, provider adequacy, causal effects, or a substitute for survey microdata."
+    },
+    {
+      "id": "fema-nfip",
+      "name": "FEMA National Flood Insurance Program",
+      "url": "https://www.fema.gov/flood-insurance",
+      "role": "US hazard exposure, flood insurance, claims, mitigation, and place-risk context",
+      "source_types": ["administrative_data", "insurance_data", "hazard_data", "public_record"],
+      "license_note": "Record product, geography, event date, policy or claim universe, and privacy limitations.",
+      "access_notes": "Modeled hazard and policy records do not by themselves show household repair, mobility, health, or recovery."
+    },
+    {
+      "id": "acs",
+      "name": "American Community Survey",
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "role": "US place-level population, housing, income, migration, language, commuting, and inequality context",
+      "source_types": ["official_statistic", "household_survey", "place_data", "public_use_data"],
+      "license_note": "Record estimate type, vintage, geography, universe, margins of error, and table or variable definition.",
+      "access_notes": "Place context is not a same-person or same-household outcome; preserve survey timing and geographic comparability."
+    },
+    {
+      "id": "eia",
+      "name": "US Energy Information Administration",
+      "url": "https://www.eia.gov/",
+      "role": "US energy prices, consumption, insecurity, electricity systems, and infrastructure context",
+      "source_types": ["official_statistic", "energy_dataset", "survey", "forecast"],
+      "license_note": "Record series, survey, release date, geography, estimate status, and forecast assumptions.",
+      "access_notes": "Separate observed household conditions from modeled scenarios and national aggregates."
+    },
+    {
+      "id": "doe",
+      "name": "US Department of Energy",
+      "url": "https://www.energy.gov/",
+      "role": "US energy policy, affordability tools, infrastructure, technology, and public investment context",
+      "source_types": ["government_data", "policy_record", "technical_tool", "program_record"],
+      "license_note": "Record program status, date, methodology, geography, and whether a result is modeled or observed.",
+      "access_notes": "Policy descriptions and tools define mechanisms; they do not alone establish household outcomes."
+    },
+    {
+      "id": "ftc",
+      "name": "US Federal Trade Commission",
+      "url": "https://www.ftc.gov/",
+      "role": "US consumer protection, competition, privacy, fraud, platform, and enforcement evidence",
+      "source_types": ["enforcement_record", "consumer_guidance", "policy_record", "administrative_data"],
+      "license_note": "Record case number, filing date, disposition, allegations, findings, and remedy terms.",
+      "access_notes": "A complaint, allegation, settlement, or guidance document has a different evidentiary status."
+    },
+    {
+      "id": "hhs",
+      "name": "US Department of Health and Human Services",
+      "url": "https://www.hhs.gov/",
+      "role": "US health, care, public benefit, medical access, and program administration evidence",
+      "source_types": ["government_data", "program_record", "policy_record", "health_statistic"],
+      "license_note": "Record program, population universe, reporting period, definition, and revision status.",
+      "access_notes": "Program participation and performance measures do not automatically represent unmet need or lived access."
+    },
+    {
+      "id": "cms",
+      "name": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/data-research",
+      "role": "US health coverage, claims, providers, spending, quality, and public-program evidence",
+      "source_types": ["administrative_data", "health_dataset", "program_statistic", "public_record"],
+      "license_note": "Record file, measure, denominator, coverage, suppression, vintage, and permitted use.",
+      "access_notes": "Claims and provider measures are not direct records of dignity, delayed care, household meaning, or trust."
+    },
+    {
+      "id": "sba",
+      "name": "US Small Business Administration",
+      "url": "https://www.sba.gov/",
+      "role": "US small-business programs, lending, disaster support, procurement, and firm access context",
+      "source_types": ["administrative_data", "program_record", "policy_record", "business_data"],
+      "license_note": "Record program, eligibility rule, period, firm universe, and outcome definition.",
+      "access_notes": "Program reach or lending does not alone establish firm survival, worker security, customer access, or local capacity."
+    },
+    {
+      "id": "treasury",
+      "name": "US Department of the Treasury",
+      "url": "https://home.treasury.gov/",
+      "role": "US financial policy, household finance, insurance, public spending, and fiscal context",
+      "source_types": ["government_data", "policy_record", "research", "program_record"],
+      "license_note": "Record office, program, measure, date, modeling assumptions, and source documentation.",
+      "access_notes": "Policy and aggregate measures need household, firm, or place evidence before distributional conclusions."
+    },
+  {
+    "id": "gao",
+    "name": "US Government Accountability Office",
+    "url": "https://www.gao.gov/",
+    "role": "US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence",
+    "source_types": ["audit_report", "program_evaluation", "oversight_record", "government_data"],
+    "license_note": "Preserve report number, publication date, scope, methods, recommendations, and any stated limitations.",
+    "access_notes": "GAO findings can establish implementation conditions or documented risks; recommendations and descriptive findings are not by themselves causal estimates or proof of realized outcomes."
+  },
+  {
+    "id": "gss-norc",
+    "name": "General Social Survey / NORC",
+    "url": "https://gss.norc.org/",
+    "role": "US repeated cross-sectional evidence on social attitudes, trust, finance, institutions, and lived conditions",
+    "source_types": ["survey", "microdata", "repeated_cross_section", "public_use_data"],
+    "license_note": "Record release, field dates, weights, question wording, universe, missingness, and subgroup denominator.",
+    "access_notes": "GSS attitudes and self-reports are not administrative outcomes; preserve wording, mode, and trend comparability before interpreting movement."
+  },
+  {
+    "id": "nhts",
+    "name": "National Household Travel Survey",
+    "url": "https://nhts.ornl.gov/",
+    "role": "US household travel, vehicle access, mobility, work, care, and place-connection evidence",
+    "source_types": ["household_survey", "microdata", "mobility_data", "technical_documentation"],
+    "license_note": "Record survey year, sample, weights, trip/person/household unit, geography, and derived measures.",
+    "access_notes": "Travel behavior is not direct proof of access, preference, or wellbeing; distinguish observed trips, reported constraints, and modeled accessibility."
+  },
+  {
+    "id": "cpsc",
+    "name": "US Consumer Product Safety Commission",
+    "url": "https://www.cpsc.gov/",
+    "role": "US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence",
+    "source_types": ["administrative_data", "recall_record", "enforcement_record", "injury_data"],
+    "license_note": "Record product, incident definition, reporting channel, period, geography, and known underreporting.",
+    "access_notes": "Complaints, recalls, and incident counts are not prevalence estimates without a documented denominator and reporting-process assessment."
+  },
+  {
+    "id": "epa",
+    "name": "US Environmental Protection Agency",
+    "url": "https://www.epa.gov/",
+    "role": "US environmental exposure, regulation, emissions, waste, household risk, and place-capacity evidence",
+    "source_types": ["administrative_data", "environmental_data", "regulatory_record", "technical_report"],
+    "license_note": "Record pollutant or hazard, measurement unit, monitor or modeled geography, vintage, coverage, and uncertainty.",
+    "access_notes": "Environmental measurements do not automatically establish individual exposure, health effect, household response, or distributional incidence."
+  },
+  {
+    "id": "usaspending",
+    "name": "USASpending.gov",
+    "url": "https://www.usaspending.gov/",
+    "role": "US federal awards, procurement, grants, recipients, places, and public-resource routing evidence",
+    "source_types": ["administrative_data", "procurement_data", "award_record", "public_spending_data"],
+    "license_note": "Record award action, recipient, place, obligation or outlay field, period, amendments, and data-quality caveats.",
+    "access_notes": "An award, obligation, or recipient record is not proof of delivered capability, local employment, production, or realized geopolitical leverage."
+  },
+  {
+    "id": "sec",
+    "name": "US Securities and Exchange Commission",
+    "url": "https://www.sec.gov/",
+    "role": "US public-company filings, risk disclosures, capital allocation, ownership, and firm-governance evidence",
+    "source_types": ["regulatory_filing", "company_disclosure", "administrative_data", "market_record"],
+    "license_note": "Record filing type, issuer, period, restatements, accounting definition, and whether the statement is audited, estimated, or forward-looking.",
+    "access_notes": "Corporate disclosure is strategically framed and may describe risk or intent rather than realized behavior; triangulate with operational or administrative evidence."
+  },
+  {
+    "id": "georgetown-cri",
+    "name": "Georgetown Center for Retirement Initiatives",
+    "url": "https://cri.georgetown.edu/",
+    "role": "retirement savings access, state auto-IRA implementation, participation, and household-balance-sheet evidence",
+    "source_types": ["research_report", "program_data", "policy_analysis", "administrative_context"],
+    "license_note": "Record program universe, enrollment or claiming definition, period, state coverage, and whether estimates are modeled or observed.",
+    "access_notes": "Program participation or modeled retirement effects do not alone establish durable financial security or household interpretation."
+  },
+  {
+    "id": "psid-online",
+    "name": "Panel Study of Income Dynamics",
+    "url": "https://psidonline.isr.umich.edu/",
+    "role": "US longitudinal household and individual evidence on income, wealth, employment, family, health, and mobility",
+    "source_types": ["panel_survey", "longitudinal_microdata", "public_use_data", "technical_documentation"],
+    "license_note": "Record wave, sample, longitudinal weights, attrition, unit, geography, variable construction, and restricted-data boundary.",
+    "access_notes": "Panel transitions are subject to attrition, measurement, and sample restrictions; do not infer population prevalence without the appropriate weights and design. The official packaged-data route is https://simba.isr.umich.edu/Zips/ZipMain.aspx and requires an authenticated account/Conditions-of-Use acceptance before generated ZIP files can be retrieved."
+  },
+  {
+    "id": "psid-packaged-data",
+    "name": "PSID packaged-data delivery route",
+    "url": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
+    "role": "authenticated PSID packaged files, wave archives, and reproducible longitudinal-data acquisition",
+    "source_types": ["longitudinal_microdata", "data_delivery_portal", "technical_documentation"],
+    "license_note": "Record requested package, access date, account/Conditions-of-Use status, file names, wave coverage, and checksums; do not redistribute restricted or account-controlled files.",
+    "access_notes": "Portal availability is an acquisition state, not evidence that a file was retrieved or analyzed. Run the structural wave audit before any merge, estimate, or population claim."
+  },
+  {
+    "id": "jrc-eu",
+    "name": "European Commission Joint Research Centre",
+    "url": "https://joint-research-centre.ec.europa.eu/",
+    "role": "comparative European evidence on algorithmic management, technology, labor, institutions, and public capacity",
+    "source_types": ["government_research", "comparative_study", "technical_report", "policy_evidence"],
+    "license_note": "Record study design, country coverage, field dates, measure construction, and distinction between evidence and policy interpretation.",
+    "access_notes": "Comparative evidence can inform mechanisms and contrasts but should not be treated as a US estimate without population and institutional comparability."
+  },
+  {
+    "id": "jrc-publications",
+    "name": "European Commission JRC Publications Repository",
+    "url": "https://publications.jrc.ec.europa.eu/repository/",
+    "role": "primary publication and technical-report delivery route for JRC comparative research",
+    "source_types": ["research_report", "technical_report", "publication_archive"],
+    "license_note": "Record publication identifier, version, authors, date, abstract, and permitted document link; do not reproduce reports in full.",
+    "access_notes": "Use the repository to verify the primary publication behind summaries or project pages, preserving study design, country coverage, and revision status."
+  },
+  {
+    "id": "chicago-council-global-affairs",
+    "name": "Chicago Council on Global Affairs",
+    "url": "https://globalaffairs.org/",
+    "role": "US and comparative public-opinion and geopolitical context on migration, foreign policy, security, and international engagement",
+    "source_types": ["survey", "public_opinion_report", "geopolitical_analysis", "policy_context"],
+    "license_note": "Record field dates, sample, question wording, geography, weighting, and whether the item is survey evidence or expert interpretation; do not copy reports in full.",
+    "access_notes": "Use public-opinion results as measured attitudes and analysis pieces as context or hypotheses. Keep migration, belonging, policy preference, and geopolitical judgment as separate constructs."
+  },
+  {
+    "id": "us-defense-department",
+    "name": "US Department of Defense",
+    "url": "https://www.defense.gov/",
+    "role": "US defense policy, force posture, procurement, industrial-base, alliance, and operational-capacity records",
+    "source_types": ["policy_record", "procurement_record", "official_announcement", "strategic_document"],
+    "license_note": "Record issuing office, document date, program status, stated versus verified milestone, and classification or disclosure boundary.",
+    "access_notes": "Official statements establish policy, intent, or reported milestone; they do not alone establish delivered capability, field performance, local content, or realized leverage."
+  },
+  {
+    "id": "dsca",
+    "name": "Defense Security Cooperation Agency",
+    "url": "https://www.dsca.mil/",
+    "role": "US foreign military sales, security cooperation notifications, partner procurement, and defense-transfer records",
+    "source_types": ["foreign_military_sales", "congressional_notification", "procurement_record", "official_announcement"],
+    "license_note": "Record notification date, ceiling versus executed value, platform, partner, delivery horizon, and amendment or completion status.",
+    "access_notes": "A notification or planned sale is not evidence of delivery, operational use, industrial learning, alliance dependence, or changed external behavior."
+  },
+  {
+    "id": "poland-government",
+    "name": "Polish government and national-security institutions",
+    "url": "https://www.gov.pl/",
+    "role": "Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons",
+    "source_types": ["government_record", "policy_announcement", "defense_record", "industrial_policy"],
+    "license_note": "Preserve ministry or office, language/translation status, announcement date, agreement versus implementation status, and named counterparties.",
+    "access_notes": "Government announcements can document stated intent and institutional direction; verify commissioning, production, delivery, and behavioral consequences separately."
+  },
+  {
+    "id": "ifc",
+    "name": "International Finance Corporation",
+    "url": "https://www.ifc.org/",
+    "role": "development-finance, private-sector investment, infrastructure, technology, and cross-country capability evidence",
+    "source_types": ["development_finance_record", "investment_disclosure", "research", "country_program"],
+    "license_note": "Record project, commitment versus disbursement, instrument, geography, sponsor, date, and development-outcome methodology.",
+    "access_notes": "A disclosed investment or modeled development effect does not alone establish realized local capability, distributional benefit, or geopolitical control."
+  },
+  {
+    "id": "dvids",
+    "name": "Defense Visual Information Distribution Service",
+    "url": "https://www.dvidshub.net/",
+    "role": "public US defense visual and operational event records used for milestone and activity context",
+    "source_types": ["public_record", "operational_context", "official_media", "visual_evidence"],
+    "license_note": "Record caption, issuing unit, event date, upload date, location precision, and whether the material is illustrative or evidentiary.",
+    "access_notes": "Visual or caption evidence can corroborate public activity or a stated milestone but rarely establishes production quantity, acceptance, readiness, or strategic effect by itself."
+  },
+  {
+    "id": "virginia-scc",
+    "name": "Virginia State Corporation Commission",
+    "url": "https://www.scc.virginia.gov/",
+    "role": "Virginia utility, rate-case, reliability, large-load, and public-service governance records",
+    "source_types": ["regulatory_record", "rate_case", "utility_filing", "public_hearing"],
+    "license_note": "Record docket, filing party, date, proposed versus approved treatment, rate class, and evidentiary status.",
+    "access_notes": "A commission filing or order can establish a proposed or approved governance rule; it does not alone establish household incidence, realized reliability, or local political response."
+  },
+  {
+    "id": "prince-william-county",
+    "name": "Prince William County, Virginia",
+    "url": "https://www.pwcva.gov/",
+    "role": "local fiscal, land-use, data-center, revenue, tax, and public-capacity records",
+    "source_types": ["local_government_record", "budget", "tax_record", "land_use_record"],
+    "license_note": "Record fiscal year, tax year, adopted versus projected amount, fund, rate, and reporting basis.",
+    "access_notes": "Local revenue or assessment records establish fiscal context, not household benefit, service quality, distributional incidence, or political legitimacy."
+  },
+  {
+    "id": "california-doi",
+    "name": "California Department of Insurance",
+    "url": "https://www.insurance.ca.gov/",
+    "role": "California insurance regulation, wildfire risk, market availability, FAIR Plan, and consumer protection records",
+    "source_types": ["regulatory_record", "insurance_market_data", "public_filing", "consumer_protection_record"],
+    "license_note": "Record line, market segment, policy or exposure denominator, geography, filing date, and whether values are reported, approved, or modeled.",
+    "access_notes": "Premium, nonrenewal, or residual-market measures do not alone establish household payment, move, repair, or recovery outcomes."
+  },
+  {
+    "id": "lbl-energy",
+    "name": "Lawrence Berkeley National Laboratory energy analysis",
+    "url": "https://eta-publications.lbl.gov/",
+    "role": "US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis",
+    "source_types": ["research_report", "energy_model", "infrastructure_analysis", "technical_data"],
+    "license_note": "Record model version, scenario, geography, base year, forecast horizon, assumptions, and uncertainty or sensitivity range.",
+    "access_notes": "Modeled demand or capacity scenarios are not realized load, household cost, local incidence, or proof of infrastructure completion."
+  },
+  {
+    "id": "berkeley-sda",
+    "name": "Berkeley Social Sciences Data Laboratory",
+    "url": "https://sda.berkeley.edu/",
+    "role": "public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons",
+    "source_types": ["survey_archive", "public_use_data", "online_tabulation", "microdata_interface"],
+    "license_note": "Record survey, wave, question wording, weight, universe, cell size, missingness, and whether variance estimates are available.",
+    "access_notes": "Online tabulations can support bounded subgroup comparisons; they do not automatically supply design-based uncertainty, causal identification, or cultural meaning."
+  },
+  {
+    "id": "icpsr",
+    "name": "Inter-university Consortium for Political and Social Research",
+    "url": "https://www.icpsr.umich.edu/",
+    "role": "archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials",
+    "source_types": ["data_archive", "microdata", "codebook", "restricted_data_portal"],
+    "license_note": "Record study ID, version, access condition, codebook, weights, universe, disclosure rules, and file checksum.",
+    "access_notes": "Archive availability is an acquisition state, not evidence that the dataset was analyzed; preserve access and documentation gates before promotion."
+  },
+  {
+    "id": "gallup",
+    "name": "Gallup public opinion research",
+    "url": "https://gallup.com/",
+    "role": "US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context",
+    "source_types": ["survey", "public_opinion_report", "trend_series", "comparative_attitude_data"],
+    "license_note": "Record field dates, sample frame, mode, weighting, question wording, response options, subgroup denominator, and whether a result is a report summary or microdata estimate.",
+    "access_notes": "Published opinion estimates can establish reported attitudes and trends within their documented design; they do not identify material causes, individual behavior, cultural meaning beyond the questions asked, or political action unless directly measured."
+  },
+  {
+    "id": "onet-resource-center",
+      "name": "O*NET Resource Center",
+      "url": "https://www.onetcenter.org/database.html",
+      "role": "US occupation, task, work-activity, skill, and taxonomy metadata for crosswalking labor-market evidence",
+      "source_types": ["occupation_database", "task_metadata", "taxonomy", "technical_documentation"],
+      "license_note": "Record release number, file format, retrieval date, and any modified fields or crosswalk transformations.",
+      "access_notes": "O*NET occupation/task metadata does not measure worker adoption, employer permission, pay, autonomy, or bargaining; release versions must be held constant for longitudinal comparisons."
+    },
+    {
+      "id": "informs-management-science",
+      "name": "INFORMS Management Science",
+      "url": "https://pubsonline.informs.org/",
+      "role": "peer-reviewed operations, management, technology-adoption, firm, and workforce research",
+      "source_types": ["peer_reviewed_article", "supplemental_material", "replication_package"],
+      "license_note": "Use article metadata, abstracts, figures, and permitted supplemental files; preserve citation and access status.",
+      "access_notes": "Published article claims and replication files may have different access paths; do not treat an abstract as a substitute for the underlying data or full method."
+    },
+    {
+      "id": "usda-fna",
+      "name": "USDA Food and Nutrition",
+      "url": "https://fna.usda.gov/",
+      "role": "US nutrition-assistance program rules, participation, application, recertification, state administration, and access records",
+      "source_types": ["administrative_program_data", "program_guidance", "state_performance_record", "policy_record"],
+      "license_note": "Record fiscal year, program, state or jurisdiction, denominator, reporting universe, revision status, and whether a measure is an administrative count, rate, or modeled estimate.",
+      "access_notes": "Program receipt, timeliness, or participation measures do not alone establish need, route burden, food security, remedy, trust, or political response; preserve state and household denominators separately."
+    },
+    {
+      "id": "dla-cage",
+      "name": "Defense Logistics Agency CAGE search",
+      "url": "https://cage.dla.mil/",
+      "role": "US defense legal-entity, facility, CAGE, UEI, address, and parent-link identity records for procurement joins",
+      "source_types": ["entity_registry", "facility_record", "procurement_identifier", "ownership_link"],
+      "license_note": "Record exact legal name, CAGE, UEI, status, address, parent link, retrieval date, and identifier-match method.",
+      "access_notes": "Entity identity and parent links do not establish facility-level production, workforce, ownership control, contract performance, delivery, or operational capability."
+    },
+    {
+      "id": "romania-adr",
+      "name": "Authority for the Digitalization of Romania",
+      "url": "https://www.adr.gov.ro/",
+      "role": "Romanian public digital-infrastructure, cloud, interoperability, procurement, and implementation records",
+      "source_types": ["government_record", "digital_infrastructure_record", "procurement_record", "implementation_update"],
+      "license_note": "Preserve Romanian source title and translation status, announcement date, project or contract identifier, implementation stage, and named counterparties.",
+      "access_notes": "A public infrastructure target, announcement, or milestone does not alone establish migration, service quality, local control, portability, replaceability, or geopolitical leverage."
+    },
+    {
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin official materials",
+      "url": "https://www.lockheedmartin.com/",
+      "role": "official defense-company production, integration, industrial-capacity, and program-milestone records",
+      "source_types": ["company_record", "production_record", "integration_test", "industrial_capacity"],
+      "license_note": "Preserve publication date, program/variant, quoted status, retrieval hash, and whether the claim is company-reported or independently documented.",
+      "access_notes": "Company-reported production capacity, factory investment, and testing do not establish accepted quantities, delivery, operational readiness, or geopolitical leverage."
+    },
+    {
+      "id": "bae-systems",
+      "name": "BAE Systems official materials",
+      "url": "https://www.baesystems.com/",
+      "role": "defense-company facility, certification, ownership, production, and capability context",
+      "source_types": ["company_record", "facility_record", "certification", "capability_context"],
+      "license_note": "Record facility, legal entity, date, program, document type, and whether the source assigns work or only describes capability.",
+      "access_notes": "A facility or certification document does not prove that a selected award was performed there, delivered, or replaceable."
+    },
+    {
+      "id": "general-dynamics-ots",
+      "name": "General Dynamics Ordnance and Tactical Systems",
+      "url": "https://www.gd-ots.com/",
+      "role": "defense-company facility, manufacturing, and technical-capability context",
+      "source_types": ["company_record", "facility_record", "manufacturing_context", "technical_document"],
+      "license_note": "Preserve document date, facility, product or capability, and the distinction between general capability and award-specific production.",
+      "access_notes": "Company capability material does not establish selected contract performance, accepted output, delivery, or operational availability."
+    },
+    {
+      "id": "polish-supreme-audit-office",
+      "name": "Polish Supreme Audit Office (NIK)",
+      "url": "https://www.nik.gov.pl/",
+      "role": "Polish public audit evidence on defense procurement, FMS implementation, accounting controls, and state capacity",
+      "source_types": ["audit_report", "government_oversight", "procurement_control", "fiscal_record"],
+      "license_note": "Record audit scope, sample, page, language/translation status, audited period, and whether an observation concerns accounting, production, delivery, or operations.",
+      "access_notes": "An audit control gap or schedule finding does not by itself establish non-delivery, military incapacity, or geopolitical response."
+    },
+    {
+      "id": "yondr-group",
+      "name": "Yondr Group",
+      "url": "https://www.yondrgroup.com/",
+      "role": "data-center ownership, construction, capacity, transfer, and infrastructure-realization records",
+      "source_types": ["company_record", "infrastructure_record", "ownership_transfer", "implementation_milestone"],
+      "license_note": "Preserve project, jurisdiction, capacity unit, milestone date, financing/owner language, and company-reporting status.",
+      "access_notes": "A construction or sale milestone does not establish service quality, local fiscal benefit, energy incidence, portability, or strategic leverage."
+    },
+    {
+      "id": "vantage-data-centers",
+      "name": "Vantage Data Centers",
+      "url": "https://vantage-dc.com/",
+      "role": "data-center acquisition, ownership, investment, and infrastructure-capacity records",
+      "source_types": ["company_record", "infrastructure_record", "ownership_transfer", "investment_record"],
+      "license_note": "Record project location, capacity, transaction date, buyer/seller, and whether the source reports planned, completed, or transferred capacity.",
+      "access_notes": "A data-center acquisition or investment does not establish public control, local service benefit, energy affordability, or replaceability."
+    },
+    {
+      "id": "sag-aftra",
+      "name": "SAG-AFTRA contracts and agreements",
+      "url": "https://www.sagaftra.org/",
+      "role": "US worker representation, entertainment labor agreements, digital-replica rules, and negotiated technology governance",
+      "source_types": ["collective_agreement", "worker_representation", "technology_governance", "contract_summary"],
+      "license_note": "Preserve agreement period, covered unit, clause text or summary, implementation mechanism, and whether the document is binding or explanatory.",
+      "access_notes": "A written agreement establishes rules or rights on paper; it does not by itself establish compliance, worker outcomes, bargaining power, or enforcement."
+    },
+    {
+      "id": "deutsche-telekom",
+      "name": "Deutsche Telekom official materials",
+      "url": "https://www.telekom.com/",
+      "role": "firm AI governance, digital ethics, workforce, and technology-implementation records",
+      "source_types": ["company_record", "ai_governance", "digital_ethics", "workplace_policy"],
+      "license_note": "Preserve language, publication date, policy scope, implementation status, and whether the material is a commitment, practice, or report.",
+      "access_notes": "A corporate AI-ethics statement does not establish worker consultation, enforcement, customer control, or measurable outcome change."
+    },
+    {
+      "id": "verdi",
+      "name": "ver.di public union materials",
+      "url": "https://www.verdi.de/",
+      "role": "German worker-representation, social-dialogue, and algorithmic-management response evidence",
+      "source_types": ["union_record", "worker_representation", "social_dialogue", "workplace_case"],
+      "license_note": "Record union publication date, workplace or sector, claim type, translation status, and whether it reports a rule, dispute, or outcome.",
+      "access_notes": "Union commentary and case material illuminate worker meaning and governance but do not alone establish representative prevalence or enforcement."
+    },
+    {
+      "id": "kenya-law",
+      "name": "Kenya Law official legal repository",
+      "url": "https://new.kenyalaw.org/",
+      "role": "official court decisions and legal records for comparative platform, content-moderation, labor, and institutional-power cases",
+      "source_types": ["court_record", "legal_decision", "procedural_record", "comparative_case"],
+      "license_note": "Record court, case number, decision date, procedural posture, jurisdiction, and whether the text is official or translated.",
+      "access_notes": "A legal decision establishes a jurisdiction-specific rule or procedural event; it does not establish population prevalence, compliance, or geopolitical generality."
+    },
+    {
+      "id": "georgia-public-service-commission",
+      "name": "Georgia Public Service Commission",
+      "url": "https://psc.ga.gov/",
+      "role": "Georgia utility rate, large-load, reliability, and public-service governance records",
+      "source_types": ["utility_regulatory_record", "rate_case", "reliability_record", "public_hearing"],
+      "license_note": "Record docket, filing date, utility, customer/load category, proposed versus approved terms, and procedural status.",
+      "access_notes": "A rate-case filing or commission document does not alone establish realized household bills, reliability, data-center load, or distributional incidence."
+    },
+    {
+      "id": "dominion-energy",
+      "name": "Dominion Energy official materials",
+      "url": "https://www.dominionenergy.com/",
+      "role": "utility infrastructure, large-load interconnection, transmission, and implementation context",
+      "source_types": ["utility_record", "infrastructure_record", "project_record", "company_filing"],
+      "license_note": "Preserve project, jurisdiction, capacity, approval stage, construction status, and company-reporting status.",
+      "access_notes": "A utility project or interconnection record does not establish household affordability, reliability outcome, public acceptance, or geopolitical leverage."
+    },
+    {
+      "id": "cbo",
+      "name": "Congressional Budget Office",
+      "url": "https://www.cbo.gov/",
+      "role": "federal budget, policy-cost, household-finance, housing, and distributional analysis",
+      "source_types": ["official_analysis", "budget_projection", "distributional_analysis", "policy_report"],
+      "license_note": "Record report date, projection horizon, model assumptions, unit, and link; do not reproduce reports in full.",
+      "access_notes": "CBO estimates are model-based policy analysis, not direct observation of household behavior or realized outcomes."
+    },
+    {
+      "id": "fdic",
+      "name": "Federal Deposit Insurance Corporation",
+      "url": "https://www.fdic.gov/",
+      "role": "banking, depositors, financial access, failures, and consumer-finance institutional evidence",
+      "source_types": ["regulatory_data", "banking_record", "consumer_guidance", "institutional_analysis"],
+      "license_note": "Preserve release date, institution or population universe, measure definition, and regulatory status.",
+      "access_notes": "FDIC records describe regulated institutions, depositors, or official guidance; they do not automatically measure all household financial behavior."
+    },
+    {
+      "id": "fhfa",
+      "name": "Federal Housing Finance Agency",
+      "url": "https://www.fhfa.gov/",
+      "role": "housing prices, mortgage finance, affordability, and housing-market regulation",
+      "source_types": ["official_index", "housing_data", "mortgage_regulation", "policy_analysis"],
+      "license_note": "Record index vintage, geography, property universe, frequency, and revision status.",
+      "access_notes": "FHFA housing measures have specific transaction, financing, and geographic coverage; do not generalize them to all homes or renters."
+    },
+    {
+      "id": "fhwa-nhts",
+      "name": "Federal Highway Administration and National Household Travel Survey",
+      "url": "https://www.fhwa.dot.gov/policyinformation/nhts.cfm",
+      "role": "household travel, mobility, transportation burden, and time-use context",
+      "source_types": ["probability_survey", "transportation_data", "household_travel", "public_use_data"],
+      "license_note": "Preserve survey wave, trip/person/household unit, weights, reference period, and geography.",
+      "access_notes": "NHTS measures reported travel in a defined survey period; it is not a continuous mobility trace or a direct measure of access to opportunity."
+    },
+    {
+      "id": "energy-star",
+      "name": "ENERGY STAR",
+      "url": "https://www.energystar.gov/",
+      "role": "energy efficiency, consumer products, buildings, and utility-investment evidence",
+      "source_types": ["official_program", "efficiency_standard", "consumer_guidance", "building_data"],
+      "license_note": "Record program version, product/building scope, qualification rule, and publication date.",
+      "access_notes": "ENERGY STAR qualification or guidance is a program definition; it does not by itself establish realized savings, adoption, or renter incidence."
+    },
+    {
+      "id": "pew-trust",
+      "name": "Pew Charitable Trusts",
+      "url": "https://www.pew.org/",
+      "role": "policy research, state governance, public finance, and institutional trust context",
+      "source_types": ["policy_research", "state_policy_analysis", "survey_analysis", "institutional_report"],
+      "license_note": "Record publication date, study design, geography, and linked underlying data or methodology.",
+      "access_notes": "Pew Charitable Trusts is distinct from Pew Research Center; keep their domains, methods, and claims separate."
+    },
+    {
+      "id": "new-york-dfs",
+      "name": "New York State Department of Financial Services",
+      "url": "https://www.dfs.ny.gov/",
+      "role": "state financial regulation, insurance, consumer protection, and enforcement records",
+      "source_types": ["state_regulatory_record", "enforcement_record", "insurance_guidance", "consumer_protection"],
+      "license_note": "Preserve jurisdiction, regulated entity, docket or guidance date, procedural status, and legal authority.",
+      "access_notes": "A state enforcement or guidance record establishes a jurisdiction-specific regulatory event, not national prevalence or compliance."
+    },
+    {
+      "id": "illinois-dfpr",
+      "name": "Illinois Department of Financial and Professional Regulation",
+      "url": "https://idfpr.illinois.gov/",
+      "role": "state financial, banking, and professional-regulatory records",
+      "source_types": ["state_regulatory_record", "banking_guidance", "consumer_protection", "licensed_entity_record"],
+      "license_note": "Preserve agency unit, jurisdiction, entity or product, date, and whether the item is guidance, rule, complaint, or enforcement.",
+      "access_notes": "Illinois regulatory material is state-specific and should not be treated as a national market estimate."
+    },
+    {
+      "id": "texas-capitol-statutes",
+      "name": "Texas Legislature Online statutes and codes",
+      "url": "https://statutes.capitol.texas.gov/",
+      "role": "state statutory and legal text for consumer, housing, property, and institutional rules",
+      "source_types": ["statute", "legal_code", "state_policy_record", "jurisdictional_rule"],
+      "license_note": "Record code, section, effective date, retrieval date, and amendment status.",
+      "access_notes": "Statutory text establishes a legal rule in Texas; it does not establish implementation, enforcement, or population behavior."
+    },
+    {
+      "id": "texas-secretary-state",
+      "name": "Texas Secretary of State and Texas Register",
+      "url": "https://www.sos.state.tx.us/",
+      "role": "state administrative rules, proposed rules, and regulatory process records",
+      "source_types": ["administrative_record", "proposed_rule", "state_register", "rulemaking"],
+      "license_note": "Preserve register issue, agency, docket, publication date, comment stage, and final/proposed status.",
+      "access_notes": "A proposed rule or register notice is a procedural signal, not a final rule or realized policy effect."
+    },
+    {
+      "id": "lbnl-energy-analysis",
+      "name": "Lawrence Berkeley National Laboratory Energy Analysis",
+      "url": "https://energyanalysis.lbl.gov/",
+      "role": "energy-system, data-center load, efficiency, and infrastructure analysis",
+      "source_types": ["research_report", "energy_system_analysis", "infrastructure_baseline", "technical_report"],
+      "license_note": "Record report vintage, modeled versus measured status, system boundary, scenario, and technical assumptions.",
+      "access_notes": "LBNL analysis provides technical system evidence; modeled load or savings should not be presented as realized household impact without a separate bridge."
     }
   ]
 }

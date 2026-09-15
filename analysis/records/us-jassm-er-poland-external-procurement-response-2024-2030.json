@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-jassm-er-poland-external-procurement-response-2024-2030",
+  "title": "Poland converts long-range strike concern into a JASSM-ER procurement agreement with scheduled future delivery",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "Polish Ministry of National Defence procurement announcement",
+  "geography": "Poland; US-origin JASSM-ER procurement relationship",
+  "observations": [
+    {
+      "period": "2024-05-28 agreement; deliveries scheduled 2026–2030",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence procurement agreement"},
+      "measures": {
+        "agreement_value": {"value": 735, "unit": "US dollars millions, approximate reported contract value", "value_type": "reported"},
+        "delivery_window": {"value": "2026–2030", "unit": "planned delivery years", "value_type": "reported"},
+        "reported_range": {"value": 1000, "unit": "kilometres, approximate stated missile range", "value_type": "reported"},
+        "reported_inventory_motive": {"value": "increase the existing Polish Armed Forces inventory of this type", "unit": "stated procurement rationale", "value_type": "reported"}
+      },
+      "method": "Translation-neutral extraction of a dated Polish Ministry of National Defence page; agreement, value, delivery schedule, and stated rationale are kept as separate reported fields.",
+      "uncertainty": "The announcement does not provide delivered quantity, delivery completion, operational availability, training status, stockpile condition, unit price, industrial participation, or subsequent Polish behavior. The delivery window is planned, not observed completion.",
+      "subgroup": "Poland's JASSM-ER acquisition within its broader air-force modernization and long-range strike inventory.",
+      "counterinterpretation": "Signing a procurement agreement can signal intended capability investment without producing near-term operational capacity; delivery, integration, maintenance, and political use remain separate stages.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
+      "retrieval_hash": "sha256:5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6",
+      "status": "reported"
+    },
+    {
+      "period": "2017-01-20; earlier JASSM delivery stage",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence delivery announcement"},
+      "measures": {
+        "reported_delivery_event": {"value": "first guided JASSM missiles delivered to Poznań-Krzesiny air base", "unit": "delivery event", "value_type": "reported"},
+        "aircraft_context": {"value": "F-16", "unit": "reported receiving platform", "value_type": "reported"},
+        "delivery_country": {"value": "Poland", "unit": "recipient country", "value_type": "reported"}
+      },
+      "method": "Official Polish Ministry of National Defence historical announcement; treated as a completed delivery stage for the earlier JASSM procurement, not as evidence about the later 2024 JASSM-ER agreement.",
+      "uncertainty": "The announcement does not state quantity, exact delivery date beyond publication context, acceptance records, inventory availability, training, or operational use. JASSM and the later JASSM-ER order are distinct procurement stages.",
+      "subgroup": "Earlier Polish JASSM delivery to F-16 forces, compared temporally with the later JASSM-ER procurement plan.",
+      "counterinterpretation": "A prior delivered JASSM stock does not demonstrate that the 2024 JASSM-ER order has been delivered or that Poland's current operational capacity has increased by the planned amount.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2",
+      "retrieval_hash": "sha256:c6f7180f119865d7ab834b043c65b1be878ddced0e4f7fc2f48279010e821d3e",
+      "status": "reported"
+    },
+    {
+      "period": "2024-12-02; later Polish MOD modernization briefing",
+      "denominator": {"value": 1, "unit": "Polish Ministry of National Defence modernization briefing"},
+      "measures": {
+        "later_delivery_schedule": {"value": "2028–2030", "unit": "years stated for the missile deliveries in the briefing's JASSM discussion", "value_type": "reported"},
+        "schedule_relation": {"value": "different from the May 2024 page's 2026–2030 window", "unit": "official-source schedule comparison", "value_type": "source_conflict"}
+      },
+      "method": "Official Polish Ministry of National Defence briefing reviewed as a later schedule-vintage check. The page discusses JASSM missiles and then states that deliveries will occur in 2028–2030; it is retained as a schedule signal, not as a contract modification or delivery notice.",
+      "uncertainty": "The briefing does not provide a JASSM-ER lot identifier, quantity, acceptance milestone, or explicit amendment to the May 2024 agreement. The wording may refer to a related missile-delivery schedule rather than revise the exact JASSM-ER contract.",
+      "subgroup": "Polish long-range missile modernization; later official schedule context.",
+      "counterinterpretation": "The two windows may refer to different missile lots, platforms, or planning stages; the discrepancy cannot establish delay, acceleration, or delivery without a contract, acceptance, or inventory record.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet",
+      "retrieval_hash": "sha256:45f63d51f981350f5e44730b3739e670b3c5154787f22b8faf2e4c7bfa2f6e3c",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.dsca.mil/sites/default/files/mas/Press%20Release%20-%20Poland%2024-33%20CN.pdf",
+      "claim": "The US Defense Security Cooperation Agency reported a March 12, 2024 State Department determination approving a possible sale to Poland of up to 821 JASSM-ER all-up rounds and related support at an estimated $1.77B.",
+      "status": "reported",
+      "access_boundary": "Official PDF was available through indexed/web retrieval but returned HTTP 403 to the local command-line fetch during this pass; it is retained as corroborative context, not as a locally hashed raw artifact."
+    },
+    {
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet",
+      "claim": "A 2024-12-02 Polish MOD modernization briefing states that the missile deliveries discussed in the JASSM context will occur in 2028–2030.",
+      "status": "official-schedule-context",
+      "access_boundary": "The briefing does not identify a JASSM-ER lot or contract amendment; it is retained as a schedule-vintage comparison."
+    }
+  ],
+  "boundary": "This record establishes a foreign-government procurement agreement and stated future delivery schedule. It does not establish delivered or operational capability, deterrence, alliance cohesion, industrial benefit, combat use, or changed adversary behavior."
+}

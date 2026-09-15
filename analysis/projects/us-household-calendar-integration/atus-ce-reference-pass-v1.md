@@ -48,12 +48,12 @@ The working picture would weaken if household records showed that time and money
 
 ## Access check for the next extraction
 
-The official [ATUS 2024 microdata page](https://www.bls.gov/tus/data/datafiles-2024.htm) lists the Respondent, Roster, Activity, and Activity Summary ZIP files and says they are available for user tabulations. A direct download attempt from this environment reached the BLS page but returned HTTP 403 for the Activity ZIP. No raw ATUS file was retained and no microdata result is being presented here.
+The official [ATUS 2024 microdata page](https://www.bls.gov/tus/data/datafiles-2024.htm) lists the Respondent, Roster, Activity, and Activity Summary ZIP files and says they are available for user tabulations. The initial direct request returned HTTP 403, but a browser-style request obtained the respondent, activity, summary, and replicate-weight ZIPs on 2026-09-13. The resulting [weighted time/care record](../../records/us-atus-time-care-microdata-2024.json) is now the microdata layer; CE and ATUS remain separate populations and units.
 
 That is a source-access problem, not evidence that the extraction is complete. The published table values above remain usable because they were checked against the official BLS tables. The microdata task stays open.
 
 ## Next bounded extraction
 
-The next data step is to use the 2024 ATUS microdata to reproduce the published work-travel and care-travel measures by broad employment, sex, and household-child groups. The output should carry the activity definition, diary-day unit, weight, and suppression rule. CE should remain a separate spending table by transport subcategory and income or tenure group.
+The next data step is to extend the 2024 ATUS extraction with the eldercare roster and then compare its work/travel/care measures with published work-travel and care-travel tables by broad employment, sex, and household-child groups. The output should carry the activity definition, diary-day unit, weight, replicate-weight standard errors, and suppression rule. CE should remain a separate spending table by transport subcategory and income or tenure group.
 
 Sources: [ATUS 2024 microdata files](https://www.bls.gov/tus/data/datafiles-2024.htm), [ATUS 2024 results](https://www.bls.gov/news.release/archives/atus_06262025.htm), [CE 2024 report](https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm).

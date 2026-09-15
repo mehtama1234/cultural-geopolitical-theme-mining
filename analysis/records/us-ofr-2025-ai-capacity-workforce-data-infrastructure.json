@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ofr-2025-ai-capacity-workforce-data-infrastructure",
+  "title": "OFR reports AI-enabled efficiency alongside lower staffing and changing public financial-data infrastructure",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "work_control_bargaining", "firm_sector_market_power", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "Office of Financial Research FY2025 institutional annual-report self-report",
+  "geography": "United States federal financial-stability institution",
+  "observations": [
+    {
+      "period": "FY2025; October 1, 2024-September 30, 2025; workforce and budget",
+      "denominator": {"value": 188, "unit": "OFR employees at FY2024 starting point", "value_type": "reported_workforce_base"},
+      "measures": {"workforce_path": {"value": "188 start -> 205 January 2025 -> 109 FY2025 end", "unit": "OFR employees", "value_type": "reported_path"}, "workforce_change": {"value": -47, "unit": "percent reported change", "value_type": "reported_change"}, "budget_change": {"value": -11, "unit": "percent reported FY2025 budget change", "value_type": "reported_change"}, "deferred_resignation_participation": {"value": 30, "unit": "percent of OFR staff", "value_type": "reported_share"}},
+      "method": "OFR annual-report self-report of workforce, budget, deferred-resignation participation, and organizational changes.",
+      "uncertainty": "The report does not attribute the workforce change to AI alone; it describes administrative priorities, rebalancing, limited travel/contractors/training/data procurement, and AI-enabled efficiency together. It does not measure service quality or workload per employee.",
+      "subgroup": "OFR workforce and organizational functions; no public subgroup outcome is reported.",
+      "counterinterpretation": "Lower staffing can reflect mission reprioritization or administrative policy rather than automation productivity; a smaller workforce may preserve or reduce analytical capacity depending on workload and tools.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025; OFR AI and analytics infrastructure inventory",
+      "denominator": {"value": 1, "unit": "OFR institutional infrastructure and use-case inventory", "value_type": "institutional_artifact"},
+      "measures": {"ai_use_cases": {"value": "data processing, security monitoring, support tasks, procurement comparison, and ChatOFR", "unit": "reported operational use cases", "value_type": "reported_inventory"}, "analytics_platform_change": {"value": "JADE decommissioned; OFRAE retained as core analytics environment", "unit": "reported platform transition", "value_type": "reported_event"}, "infrastructure": {"value": "updated cloud-based service offerings and specialized operating system for analytics workflows", "unit": "reported capability change", "value_type": "reported_inventory"}},
+      "method": "OFR annual-report narrative on Artificial Intelligence and Automation and Technology and Core Analytics Infrastructure.",
+      "uncertainty": "Self-reported use cases and platform changes do not establish efficiency magnitude, model accuracy, staff workload, public benefit, data portability, or vendor dependence.",
+      "subgroup": "OFR analytical, security, support, procurement, and data-infrastructure functions.",
+      "counterinterpretation": "AI and cloud tools may augment staff while increasing review, security, or data-governance obligations; decommissioning one platform may simplify or reduce interagency collaboration.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025; new OFR non-centrally cleared bilateral repo data collection",
+      "denominator": {"value": 5000000000000, "unit": "approximate dollars in daily outstanding commitments across the reported NCCBR market segment", "value_type": "reported_market_amount"},
+      "measures": {"nccbr_market_scale": {"value": 5000000000000, "unit": "approximate U.S. dollars daily outstanding commitments", "value_type": "reported_amount"}, "data_gap_status": {"value": "new data made available to regulators for the first time", "unit": "institutional data-capacity event", "value_type": "reported_event"}},
+      "method": "OFR annual-report description of new non-centrally cleared bilateral repurchase-agreement data collection and its use during market volatility analysis.",
+      "uncertainty": "The approximate market amount is not a household exposure, firm market-power estimate, or realized stability improvement. Data availability does not establish that regulators prevented a disruption.",
+      "subgroup": "US financial institutions, market participants, regulators, and collateral types in the NCCBR segment.",
+      "counterinterpretation": "More data can improve monitoring while also increasing operational, privacy, and interpretation burdens; a large market segment is not necessarily unstable.",
+      "source_url": "https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf",
+      "retrieval_hash": "sha256:a7e8fd094ddbf9cfe4dd17cdd2cb02865568b84a88d01697eaf46dc8b06ed741",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.financialresearch.gov/annual-reports/2025-annual-report/", "claim": "OFR publishes the FY2025 annual-report landing page and report context.", "status": "official-report"},
+    {"source_url": "https://www.financialresearch.gov/data/", "claim": "OFR provides public financial-data and monitoring context for its data-capacity mission.", "status": "official-data-context"},
+    {"source_url": "https://www.financialresearch.gov/", "claim": "Registered OFR institutional landing page for the source family and mission context.", "status": "source-registry-context"}
+  ],
+  "boundary": "This record captures OFR's FY2025 self-reported workforce, budget, AI use, analytics-platform, and financial-data-capacity changes. It does not establish that AI caused the staffing change, increased productivity by a measured amount, improved public service, reduced financial risk, or changed household or market outcomes. It is an institutional capacity and governance record."
+}

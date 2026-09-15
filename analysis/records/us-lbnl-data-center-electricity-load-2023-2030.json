@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-lbnl-data-center-electricity-load-2023-2030",
+  "title": "Data-center electricity demand turns digital capability into infrastructure demand",
+  "theme_ids": ["energy", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "housing_place_mobility"],
+  "source_unit": "US data-center electricity use, historical estimate and LBNL scenario model",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023 historical estimate",
+      "denominator": {"value": 4000.0, "unit": "terawatt-hours implied US electricity denominator"},
+      "measures": {
+        "data_center_electricity_use": {"value": 176, "unit": "terawatt-hours", "value_type": "historical_estimate"},
+        "share_of_us_electricity": {"value": 4.4, "unit": "percent of implied US electricity denominator", "value_type": "share"}
+      },
+      "method": "LBNL historical estimate reported in the 2025 update; the denominator is derived as 176 TWh / 4.4% and is retained only to make the share basis explicit.",
+      "uncertainty": "Historical estimate and derived denominator inherit model and source uncertainty; no interval is reproduced in this record.",
+      "subgroup": "National data-center load; no local, customer, utility, or technology subgroup.",
+      "counterinterpretation": "National electricity use does not show which communities pay, which utilities recover costs, or whether local capability or household burden changes.",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "retrieval_hash": "sha256:2c580082681f979eb5dc35040b40550f002295c199d4f5766507b9926a935dc9",
+      "status": "estimated"
+    },
+    {
+      "period": "2030 reference case",
+      "denominator": {"value": 5500.8474576, "unit": "terawatt-hours implied US electricity denominator"},
+      "measures": {
+        "data_center_electricity_use": {"value": 649, "unit": "terawatt-hours", "value_type": "model_estimate"},
+        "share_of_us_electricity": {"value": 11.8, "unit": "percent of implied US electricity denominator", "value_type": "share"}
+      },
+      "method": "LBNL 2025 update reference-case scenario; the denominator is derived as 649 TWh / 11.8% and is retained to expose the share basis, not as an independently observed forecast.",
+      "uncertainty": "Scenario model rather than observed use; equipment shipments, chip lifetimes, idle power, utilization, cooling, and siting assumptions drive uncertainty.",
+      "subgroup": "National data-center load; reference case.",
+      "counterinterpretation": "A projected load is not an approved interconnection, actual operating load, rate increase, or national AI capability outcome.",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "retrieval_hash": "sha256:2c580082681f979eb5dc35040b40550f002295c199d4f5766507b9926a935dc9",
+      "status": "estimated"
+    },
+    {
+      "period": "2030 scenario sensitivity",
+      "denominator": {"value": 5500.8474576, "unit": "terawatt-hours implied US electricity denominator from reference case"},
+      "measures": {
+        "data_center_electricity_use_low": {"value": 521, "unit": "terawatt-hours", "value_type": "scenario_range_low"},
+        "data_center_electricity_use_high": {"value": 843, "unit": "terawatt-hours", "value_type": "scenario_range_high"},
+        "share_of_us_electricity_low": {"value": 9.5, "unit": "percent of implied US electricity denominator", "value_type": "scenario_range_low"},
+        "share_of_us_electricity_high": {"value": 15.3, "unit": "percent of implied US electricity denominator", "value_type": "scenario_range_high"}
+      },
+      "method": "LBNL compounded-uncertainty and scenario ranges from the 2025 update; the denominator basis is the reference-case implied US electricity denominator.",
+      "uncertainty": "This observation is explicitly a scenario range, not a confidence interval or probability distribution; the modeled range reflects multiple equipment, utilization, and infrastructure assumptions.",
+      "subgroup": "National data-center load; sensitivity scenarios.",
+      "counterinterpretation": "The range does not identify realized local incidence, ownership, public control, replacement options, or a state response.",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "retrieval_hash": "sha256:2c580082681f979eb5dc35040b40550f002295c199d4f5766507b9926a935dc9",
+      "status": "estimated"
+    }
+  ],
+  "boundary": "This is a national historical/model baseline. It does not establish local household or firm burden, utility cost allocation, water or land incidence, ownership, interoperability, replaceability, state leverage, or geopolitical consequence. Derived denominators are shown transparently because the committed memo recorded the source load and percentage rather than an independent total-electricity denominator. The retrieval hash covers the committed analysis memo."
+}

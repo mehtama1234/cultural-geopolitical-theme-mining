@@ -1,0 +1,17 @@
+{
+  "format": "us-sipp-snap-transition-reasons-reproduction-audit-v1",
+  "checked": "2026-09-14",
+  "script": "scripts/analyze_sipp_snap_transition_reason_fay_brr.py",
+  "primary_input": {"path": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv", "sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25", "rows": 379215},
+  "replicate_input": {"path": "/tmp/us-broad-sipp-2025/rw2025_csv.zip", "sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "rows": 378291},
+  "output_sha256": "432586b5a531a263edd9f509eceea401c4363fc8634193101067a2ba0891ca0f",
+  "replicates": 240,
+  "fay_factor": 0.5,
+  "all_entry_transition_pairs": 437,
+  "classified_entry_pairs": 217,
+  "all_exit_transition_pairs": 387,
+  "classified_exit_pairs": 188,
+  "positive_weight_classified_pairs_matched": 405,
+  "status": "pass",
+  "interpretation": "Reason distributions are descriptive and preserve the unclassified transition gap; they do not identify causal events or program effects."
+}

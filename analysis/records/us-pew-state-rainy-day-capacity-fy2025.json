@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-state-rainy-day-capacity-fy2025",
+  "title": "State fiscal cushions remain substantial but are beginning to lose operating capacity unevenly",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "housing_place_mobility", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "Pew Charitable Trusts Fiscal 50 analysis of state-reported rainy day funds and ending balances, fiscal 2025",
+  "geography": "United States; 50-state fiscal comparison",
+  "observations": [
+    {
+      "period": "Fiscal 2025; state rainy day fund capacity",
+      "denominator": {"value": 50, "unit": "US states", "value_type": "reported_universe"},
+      "measures": {
+        "aggregate_rainy_day_balances": {"value": 174.2, "unit": "billion dollars", "value_type": "reported_aggregate"},
+        "median_operating_days": {"value": 47.8, "unit": "days of state operations covered by rainy day funds", "value_type": "reported_median"},
+        "share_of_annual_spending": {"value": 13.1, "unit": "percent of annual spending", "value_type": "reported_median_equivalent"},
+        "prior_year_median_operating_days": {"value": 54.5, "unit": "days; fiscal 2024", "value_type": "comparison_median"}
+      },
+      "method": "Pew Fiscal 50 analysis of state data reported to the National Association of State Budget Officers; days of capacity depend on reserve balances and annual operating spending.",
+      "uncertainty": "The median is not a national cash balance available for one common purpose. States differ in accounting, reserve rules, spending composition, fiscal calendars, and willingness or authority to draw funds.",
+      "subgroup": "US states, compared by rainy day balances relative to their own operating expenditures.",
+      "counterinterpretation": "A decline in days can result from higher spending even if balances rise; a large reserve can coexist with service cuts, legal restrictions, or structural deficits.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/24/strength-of-state-rainy-day-funds-declines-as-budgets-tighten",
+      "retrieval_hash": "pew-fiscal50:sha256:044411f2274c742db0bdc48f57e40e4b9cf674630c149faa66a8c5dedd2abb92",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2025; cross-state rainy day capacity range",
+      "denominator": {"value": 50, "unit": "US states", "value_type": "reported_universe"},
+      "measures": {
+        "highest_capacity": {"value": 320.2, "unit": "days; Wyoming", "value_type": "reported_state_value"},
+        "lowest_capacity": {"value": 0, "unit": "days; New Jersey", "value_type": "reported_state_value"},
+        "states_with_capacity_increase": {"value": 24, "unit": "states", "value_type": "reported_count"},
+        "states_with_capacity_decrease": {"value": 26, "unit": "states", "value_type": "reported_count"}
+      },
+      "method": "Pew state-by-state comparison of rainy day fund balances divided by annual operating spending, with fiscal-year changes.",
+      "uncertainty": "State comparisons are descriptive. The metric does not measure revenue volatility alone, service need, federal aid, debt, pension exposure, or actual disaster response capacity.",
+      "subgroup": "States with different revenue bases, expenditure obligations, reserve policies, and exposure to economic or natural shocks.",
+      "counterinterpretation": "High days of reserves can reflect unusually low reported spending or a deliberate savings strategy; zero rainy day days does not mean a state has no other balances or borrowing capacity.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/24/strength-of-state-rainy-day-funds-declines-as-budgets-tighten",
+      "retrieval_hash": "pew-fiscal50:sha256:044411f2274c742db0bdc48f57e40e4b9cf674630c149faa66a8c5dedd2abb92",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2025; state total balances",
+      "denominator": {"value": 50, "unit": "US states", "value_type": "reported_universe"},
+      "measures": {
+        "aggregate_total_balances": {"value": 346.9, "unit": "billion dollars; rainy day plus ending balances", "value_type": "reported_aggregate"},
+        "median_total_balance_capacity": {"value": 91.6, "unit": "days of state operations", "value_type": "reported_median"},
+        "total_balance_share_of_annual_spending": {"value": 25.1, "unit": "percent of annual spending", "value_type": "reported_median_equivalent"},
+        "median_ending_balance_decline": {"value": 17.4, "unit": "percent; fiscal-year decline among state ending balances", "value_type": "reported_change"}
+      },
+      "method": "Pew aggregation of state rainy day funds and ending balances, expressed relative to state operating spending.",
+      "uncertainty": "Ending balances are more variable and less stable than dedicated rainy day funds; aggregation does not reveal which balances are legally or politically available for household-facing programs.",
+      "subgroup": "US states and their different reserve and ending-balance structures.",
+      "counterinterpretation": "Spending down an ending balance can fund debt reduction, one-time investments, or planned commitments rather than signal immediate service failure.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/24/strength-of-state-rainy-day-funds-declines-as-budgets-tighten",
+      "retrieval_hash": "pew-fiscal50:sha256:044411f2274c742db0bdc48f57e40e4b9cf674630c149faa66a8c5dedd2abb92",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2023–2025; state revenue and fiscal-policy context",
+      "denominator": {"value": 50, "unit": "US states; Pew Fiscal 50 comparison", "value_type": "reported_universe"},
+      "measures": {
+        "states_with_revenue_below_long_term_trend": {"value": "most states", "unit": "Pew-reported comparative finding", "value_type": "qualitative_finding"},
+        "consecutive_quarters_below_long_term_trend": {"value": 5, "unit": "quarters through early 2025, according to Pew's revenue analysis", "value_type": "reported_count"},
+        "federal_policy_uncertainty": {"value": "increased fiscal risk and planning difficulty", "unit": "qualitative institutional finding", "value_type": "qualitative_finding"}
+      },
+      "method": "Pew Fiscal 50 analysis of state tax-revenue performance against long-term trends and state budget-planning context.",
+      "uncertainty": "The comparison does not estimate future revenue, identify one federal policy effect, or show which programs or households bear adjustment costs.",
+      "subgroup": "State governments with different tax bases and exposure to federal funding and policy changes.",
+      "counterinterpretation": "Revenue below a long-term trend can reflect normalization after an unusual boom rather than immediate fiscal crisis; reserves and spending choices mediate the public result.",
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2025/06/16/most-states-tax-revenue-falls-below-long-term-trends-amid-federal-uncertainties",
+      "retrieval_hash": "pew-revenue:sha256:9453df112dab0a86f182a2bfa810e8d3dbd1fa02dd4cb0ba049acd2eb8a86929",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nasbo.org/reports-data/fiscal-survey-of-states", "claim": "NASBO is the reported state-budget data context behind Pew's Fiscal 50 reserve comparisons.", "status": "underlying-institutional-source"},
+    {"source_url": "https://www.cbo.gov/publication/60674", "claim": "CBO disaster-insurance analysis supplies a household/federal exposure comparator for state fiscal buffers.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.bea.gov/data/by-place-states", "claim": "BEA state and local economic accounts supply a separate macro and regional-income context, not a reserve-capacity measure.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "Pew's Fiscal 50 analysis adds a state institutional-buffer layer. It does not establish service quality, household benefit, tax incidence, disaster recovery, political trust, or geopolitical leverage. The program use is to trace when state fiscal capacity may buffer or transmit shocks, while preserving the public-decision and household-experience steps as open.",
+  "retrieval_hash": "pew-fiscal50:sha256:044411f2274c742db0bdc48f57e40e4b9cf674630c149faa66a8c5dedd2abb92; pew-revenue:sha256:9453df112dab0a86f182a2bfa810e8d3dbd1fa02dd4cb0ba049acd2eb8a86929"
+}

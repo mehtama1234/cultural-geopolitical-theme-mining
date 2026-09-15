@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-fair-private-market-crosswalk-2020-2023",
+  "title": "California ZIP codes with greater FAIR Plan share also show higher voluntary-market nonrenewal among renewal decisions",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "California Department of Insurance ZIP-level voluntary-market policy counts crosswalked to FAIR Plan residential-structure share",
+  "geography": "California; ZIP-code and statewide comparisons",
+  "observations": [
+    {
+      "period": "2020-2023; California voluntary-market ZIP-count file",
+      "denominator": {"value": 8032, "unit": "valid ZIP-year rows in California Department of Insurance voluntary-market file", "value_type": "observed_rows"},
+      "measures": {
+        "new_policies_2020": {"value": 1007422, "unit": "policies", "value_type": "reported_count"},
+        "renewed_policies_2020": {"value": 7572809, "unit": "policies", "value_type": "reported_count"},
+        "nonrenewed_policies_2020": {"value": 898064, "unit": "policies", "value_type": "reported_count"},
+        "nonrenewal_rate_2020_among_renewal_decisions": {"value": 10.602, "unit": "percent, calculated nonrenewed/(renewed+nonrenewed)", "value_type": "calculated_share"},
+        "new_policies_2023": {"value": 724037, "unit": "policies", "value_type": "reported_count"},
+        "renewed_policies_2023": {"value": 7576693, "unit": "policies", "value_type": "reported_count"},
+        "nonrenewed_policies_2023": {"value": 788485, "unit": "policies", "value_type": "reported_count"},
+        "nonrenewal_rate_2023_among_renewal_decisions": {"value": 9.426, "unit": "percent, calculated nonrenewed/(renewed+nonrenewed)", "value_type": "calculated_share"}
+      },
+      "method": "Summed California Department of Insurance ZIP-level counts for new, renewed, and non-renewed residential policies; calculated nonrenewal share among renewed plus non-renewed decisions.",
+      "uncertainty": "The file reports counts, not unique households, reasons, coverage limits, premiums, claims, or later outcomes. CDI notes a change in some nonrenewal/cancellation categories beginning in 2020.",
+      "subgroup": "California voluntary residential market across ZIP codes and the published policy forms; HO-4 and HO-6 are excluded.",
+      "counterinterpretation": "A lower statewide nonrenewal share in 2023 than 2020 does not rule out severe local or risk-specific pressure; changes in composition and reporting definitions can affect the aggregate.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm",
+      "retrieval_hash": "sha256:316d0ee62f110f9f7f762f052c4e9bb09fb05cd6d9074a796b740247a8f0636d",
+      "status": "reported"
+    },
+    {
+      "period": "2022; FAIR Plan residential-structure share crosswalk",
+      "denominator": {"value": 1719, "unit": "ZIP rows in California DOI FAIR-versus-voluntary residential-structure PDF", "value_type": "observed_rows"},
+      "measures": {
+        "joined_zip_rows": {"value": 1717, "unit": "rows also present in voluntary-market ZIP file", "value_type": "observed_rows"},
+        "join_rate": {"value": 99.884, "unit": "percent of FAIR-versus-voluntary ZIP rows", "value_type": "share"}
+      },
+      "method": "ZIP-code text match between the California DOI FAIR-versus-voluntary 2022 residential-structure table and the 2022 rows in the DOI voluntary-market workbook.",
+      "uncertainty": "The FAIR table counts residential dwelling structures and excludes some property types; the voluntary workbook covers a broader policy-form universe. The join does not make the denominators identical.",
+      "subgroup": "California ZIP codes with at least the source's reported residential-structure coverage; ZIP codes with fewer than five FAIR-insured structures were excluded by CDI.",
+      "counterinterpretation": "A high matching rate reflects geographic coverage, not equivalence of policy universes or evidence that the same structures appear in both measures.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Number-of-Residential-Dwelling-Units-Insured-in-2022-FAIR-Plan-vs-Voluntary.pdf",
+      "retrieval_hash": "sha256:dbc44c37b1e4024eacd06a120e89892a1ea6917b666aed7dcee7afc58dfe0cd8",
+      "status": "compared"
+    },
+    {
+      "period": "2022; lowest versus highest quartile of FAIR residential-structure share",
+      "denominator": {"value": 859, "unit": "joined ZIP rows split into equal-count lowest/highest FAIR-share quartiles; voluntary renewal decisions", "value_type": "observed_rows"},
+      "measures": {
+        "lowest_quartile_mean_fair_share": {"value": 7.692, "unit": "percent of residential structures insured by FAIR, mean of ZIP percentages", "value_type": "mean"},
+        "highest_quartile_mean_fair_share": {"value": 26.771, "unit": "percent of residential structures insured by FAIR, mean of ZIP percentages", "value_type": "mean"},
+        "lowest_quartile_nonrenewal_rate": {"value": 9.89, "unit": "percent among voluntary renewed plus non-renewed decisions", "value_type": "calculated_share"},
+        "highest_quartile_nonrenewal_rate": {"value": 12.399, "unit": "percent among voluntary renewed plus non-renewed decisions", "value_type": "calculated_share"}
+      },
+      "method": "Joined ZIP rows sorted by published FAIR-share percentage; the lowest and highest equal-count quartiles were compared using voluntary nonrenewed/(renewed+nonrenewed) counts.",
+      "uncertainty": "Quartile means are unweighted by structures and policy count, and ZIP composition, hazard, property, and insurer mix are uncontrolled.",
+      "subgroup": "ZIP rows in the bottom and top quarter of published FAIR residential-structure share.",
+      "counterinterpretation": "The association may reflect wildfire risk, property mix, market composition, or reporting thresholds; it does not establish that FAIR enrollment causes nonrenewal or that individual policyholders moved between markets.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Number-of-Residential-Dwelling-Units-Insured-in-2022-FAIR-Plan-vs-Voluntary.pdf",
+      "comparison_source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Residential-Insurance-Voluntary-Market-New-Renew-NonRenew-by-ZIP-2020-2023.xlsx",
+      "retrieval_hash": "sha256:316d0ee62f110f9f7f762f052c4e9bb09fb05cd6d9074a796b740247a8f0636d",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm", "claim": "California DOI describes its annual ZIP counts and FAIR Plan share data, including coverage and exclusions.", "status": "reported", "access_boundary": "The page does not create a same-household longitudinal market transition."},
+    {"source_url": "data/california-fair-private-market-2022-join.json", "claim": "Local analysis output records the ZIP match and quartile calculations.", "status": "derived", "access_boundary": "The crosswalk is descriptive and denominator-mismatched."}
+  ],
+  "boundary": "This record establishes a descriptive ZIP-level association between FAIR Plan share and voluntary-market nonrenewal decisions in 2022, alongside statewide voluntary-market counts for 2020-2023. It does not establish causal private-market withdrawal, household affordability, coverage adequacy, claims, repairs, mobility, or political response."
+}

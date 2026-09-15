@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-energy-star-consumer-efficiency-program-2023-2024",
+  "title": "Energy efficiency turns a public label into a household-cost, market, and climate-choice infrastructure",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "EPA ENERGY STAR 2023 annual overview, program impacts, and 2024 Most Efficient criteria",
+  "geography": "United States; national program and consumer/product market frame",
+  "observations": [
+    {
+      "period": "2022–2023 program overview; household awareness and purchasing",
+      "denominator": {"value": 1, "unit": "ENERGY STAR program annual overview and cited CEE household survey frame", "value_type": "program_artifact"},
+      "measures": {
+        "household_label_recognition": {"value": 90, "unit": "approximately percent of US households", "value_type": "reported_survey_share"},
+        "knowingly_purchased_certified_product_last_year": {"value": 45, "unit": "percent of surveyed households", "value_type": "reported_survey_share"},
+        "certified_products_purchased_2022": {"value": 400, "unit": "million products, approximate", "value_type": "reported_count"},
+        "certified_lightbulbs_purchased_2022": {"value": 500, "unit": "million light bulbs, approximate", "value_type": "reported_count"}
+      },
+      "method": "ENERGY STAR annual overview combining program administrative counts, partner reporting, and a cited Consortium for Energy Efficiency household survey; the components have different denominators and should not be treated as one survey estimate.",
+      "uncertainty": "Recognition is not understanding, purchase is not installation or use, and program counts do not establish incremental energy savings or household bill reduction for a specific buyer.",
+      "subgroup": "US households and ENERGY STAR product purchasers; survey coverage and product counts are not a person-level panel.",
+      "counterinterpretation": "Consumers may buy certified products because of price, retailer availability, rebates, quality, or replacement timing rather than label trust or climate concern.",
+      "source_url": "https://www.energystar.gov/sites/default/files/2024-05/Annual%20Overview%20Report_2023.pdf",
+      "retrieval_hash": "energystar-overview:sha256:084f26b870d45e507b42e7c95e73fd7df1e1978042df34861192bbf72a74e7fb",
+      "status": "reported"
+    },
+    {
+      "period": "1992–2023; program-reported cumulative impact and cost-saving frame",
+      "denominator": {"value": 1, "unit": "ENERGY STAR program impact calculation", "value_type": "program_artifact"},
+      "measures": {
+        "prevented_greenhouse_gas_emissions": {"value": 4, "unit": "billion metric tons, cumulative program-reported estimate", "value_type": "modeled_cumulative_estimate"},
+        "typical_household_annual_energy_bill_savings": {"value": 450, "unit": "dollars per year, program-reported typical-household estimate", "value_type": "modeled_typical_estimate"},
+        "utility_state_local_nonprofit_program_reach": {"value": 840, "unit": "partners", "value_type": "reported_count"},
+        "household_reach_of_partner_efficiency_programs": {"value": 95, "unit": "percent of households in all 50 states, approximate", "value_type": "reported_reach"}
+      },
+      "method": "ENERGY STAR program impact and annual-overview estimates using certified product/building activity, partner programs, and modeled savings assumptions.",
+      "uncertainty": "Cumulative avoided emissions and typical savings depend on counterfactual products, usage, grid factors, product life, free-ridership, and program attribution; they are not a household panel or realized bill ledger.",
+      "subgroup": "US households, businesses, utilities, state/local governments, nonprofits, and product/building partners in the program frame.",
+      "counterinterpretation": "Program reach or eligibility does not mean equal access: renters, low-income households, old housing, financing constraints, contractor supply, and split incentives can limit adoption and realized savings.",
+      "source_url": "https://www.energystar.gov/about/impacts",
+      "retrieval_hash": "energystar-impacts:sha256:79921fd1b2f5e47bdbdf9dce004750cce7f7fcfa25ef80c4f98e2ce136c8bf69",
+      "status": "reported"
+    },
+    {
+      "period": "2024; ENERGY STAR Most Efficient criteria for selected residential products",
+      "denominator": {"value": 14, "unit": "residential product categories recognized in the 2024 Most Efficient criteria memo", "value_type": "program_universe"},
+      "measures": {
+        "clothes_dryer_annual_savings": {"value": "245–300", "unit": "kWh per year over federal minimum for common product classes", "value_type": "criterion_estimate"},
+        "clothes_washer_energy_savings": {"value": "100–450", "unit": "kWh per year depending on capacity class", "value_type": "criterion_estimate"},
+        "clothes_washer_water_savings": {"value": "1,500–3,500", "unit": "gallons per year depending on capacity class", "value_type": "criterion_estimate"},
+        "ceiling_fan_savings": {"value": 75, "unit": "percent annual energy savings over federal minimum, nearly", "value_type": "criterion_estimate"}
+      },
+      "method": "EPA ENERGY STAR Most Efficient 2024 recognition criteria comparing qualifying products with federal minimum standards in specified categories.",
+      "uncertainty": "Criteria savings are product-category estimates, not observed household savings; actual use, climate, utility rates, product replacement, installation, and behavior determine realized outcomes.",
+      "subgroup": "Consumers and businesses choosing products in the recognized categories, with savings varying by product class and use context.",
+      "counterinterpretation": "Higher-efficiency products can have higher purchase prices or installation constraints; energy savings may not offset upfront cost for low-liquidity households or renters.",
+      "source_url": "https://www.energystar.gov/sites/default/files/asset/document/ENERGY%20STAR%20Most%20Efficient%202024%20Final%20Criteria%20Memo%20-%20Revised_12-2023.pdf",
+      "retrieval_hash": "energystar-criteria:sha256:ce4620fab2a6429a72b70c5e795d03005a401b64d90ea5bceae12ebc964460dc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.eia.gov/consumption/residential/", "claim": "EIA residential energy-use data supply a separate household consumption and equipment context for testing realized burden.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.energy.gov/scep/home-energy-rebates", "claim": "DOE rebate implementation supplies a policy and eligibility route between efficiency criteria and household adoption.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.energystar.gov/sites/default/files/2024-04/Home%20Savings%20Tool%20Fact%20Sheet.pdf", "claim": "ENERGY STAR Home Savings Tool describes ZIP-code-based rebates, tax credits, assistance, and contractor discovery as access infrastructure.", "status": "program-route-context"}
+  ],
+  "boundary": "ENERGY STAR adds a label, product-criteria, program-partner, and modeled-savings layer. It does not establish that a particular household purchased, installed, financed, or realized the claimed savings, nor that efficiency adoption changed health, trust, politics, or geopolitical outcomes.",
+  "retrieval_hash": "energystar-overview:sha256:084f26b870d45e507b42e7c95e73fd7df1e1978042df34861192bbf72a74e7fb; energystar-impacts:sha256:79921fd1b2f5e47bdbdf9dce004750cce7f7fcfa25ef80c4f98e2ce136c8bf69; energystar-criteria:sha256:ce4620fab2a6429a72b70c5e795d03005a401b64d90ea5bceae12ebc964460dc"
+}

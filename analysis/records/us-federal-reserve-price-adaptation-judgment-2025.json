@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-price-adaptation-judgment-2025",
+  "title": "Price pressure produces widespread household adaptation while personal and national economic judgments diverge",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 SHED; household price response and material hardship",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; publication percentages use the adult respondent frame", "value_type": "survey_population"},
+      "measures": {
+        "prices_made_finances_worse": {"value": 58, "unit": "percent of adults", "value_type": "share"},
+        "took_at_least_one_action_after_higher_prices": {"value": 77, "unit": "percent of adults", "value_type": "share"},
+        "did_not_pay_all_bills_prior_month": {"value": 16, "unit": "percent of adults", "value_type": "share"},
+        "family_sometimes_or_often_not_enough_to_eat": {"value": 8, "unit": "percent of adults", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2025 SHED published population estimates; multiple price-response actions could be selected and are not mutually exclusive.",
+      "uncertainty": "Self-reported cross-sectional survey measures do not identify the specific price, bill, income shock, displaced need, or later recovery; estimates may vary by subgroup and question universe.",
+      "subgroup": "All adult respondents; lower-income, Hispanic, disabled, and middle-aged adults reported greater price-related worsening in the source discussion.",
+      "counterinterpretation": "A reported adaptation can be voluntary or protective rather than deprivation, and multiple actions cannot be assigned to one causal price event.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:5c62390731246d73c45cc8b5582c3ca0c05ed51a83a4bca90025e3925784902e",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; personal financial well-being versus national economic judgment",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; publication percentages use separate question universes", "value_type": "survey_population"},
+      "measures": {
+        "doing_okay_or_living_comfortably": {"value": 73, "unit": "percent of adults", "value_type": "share"},
+        "national_economy_good_or_excellent": {"value": 25, "unit": "percent of adults, approximate one-fourth", "value_type": "share"},
+        "national_economy_good_or_excellent_change_from_2024": {"value": -3, "unit": "percentage points", "value_type": "reported_change"},
+        "national_economy_good_or_excellent_change_from_2019": {"value": -24, "unit": "percentage points", "value_type": "reported_change"}
+      },
+      "method": "Federal Reserve 2025 SHED executive-summary comparison of personal financial well-being and national economic assessment.",
+      "uncertainty": "The questions measure different constructs and are not a panel causal comparison; party identity, information, local conditions, and question framing may shape national judgments.",
+      "subgroup": "All adult respondents, with reported declines among some low-income, young, and Black adults in personal well-being.",
+      "counterinterpretation": "A negative national assessment alongside okay personal finances can reflect reference groups, political interpretation, media, or expectations rather than direct household price exposure alone.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm",
+      "retrieval_hash": "sha256:5fc3d2485a7427cfe1a36f2e086dcc7a690c1f79625b65f356a66ee0e73d5a6f",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm", "claim": "The broader 2025 SHED report supplies additional financial-condition, work, and economic-view context.", "status": "reported", "access_boundary": "The source families measure distinct question universes; no single price event or political action is identified."}
+  ],
+  "boundary": "This record establishes 2025 survey-reported price adaptation, bill/food hardship, personal financial status, and national economic judgment. It does not establish a causal price-to-politics path, trust change, benefit adequacy, recovery, or a same-household longitudinal effect."
+}

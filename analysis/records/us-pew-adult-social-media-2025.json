@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-adult-social-media-2025",
+  "title": "Adult platform reach is broad, increasingly diversified, and patterned by age and social position",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": ["platforms_data_attention", "unequal_exposure_status", "trust_identity_meaning", "consumer_power_recourse"],
+  "source_unit": "US adult survey respondent, with platform-use and frequency reports",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025-02-05 to 2025-06-18",
+      "denominator": {"value": 5022, "unit": "US adults in Pew/SSRS National Public Opinion Reference Survey", "value_type": "reported_sample"},
+      "measures": {"youtube_ever_use": {"value": 84, "unit": "percent of US adults", "value_type": "weighted_share"}, "facebook_ever_use": {"value": 71, "unit": "percent of US adults", "value_type": "weighted_share"}, "instagram_ever_use": {"value": 50, "unit": "percent of US adults", "value_type": "weighted_share"}, "tiktok_ever_use": {"value": 37, "unit": "percent of US adults", "value_type": "weighted_share"}, "whatsapp_ever_use": {"value": 32, "unit": "percent of US adults", "value_type": "weighted_share"}, "reddit_ever_use": {"value": 26, "unit": "percent of US adults", "value_type": "weighted_share"}},
+      "method": "Pew Research Center survey conducted by SSRS using address-based sampling and a web, mail, and phone multimode protocol; weighted to the US adult population by gender, race and ethnicity, education, and other categories.",
+      "uncertainty": "Self-reported platform use is not logged exposure, time spent, content encountered, or account activity; platform-specific question universes and sampling error apply.",
+      "subgroup": "US adults; platform measures are population estimates from the 5,022-person survey.",
+      "counterinterpretation": "Broad reach can represent occasional or instrumental use and does not establish influence, dependence, or a common cultural experience.",
+      "source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+      "retrieval_hash": "sha256:80b714a2bfdd7052caf635bb0682b8f5e27c5a0a7a77f2d337fd5f64e8f99e3b",
+      "status": "observed"
+    },
+    {
+      "period": "2021 to 2025",
+      "denominator": {"value": 5022, "unit": "US adults in 2025 survey; historical comparison uses prior Pew survey waves", "value_type": "reported_sample"},
+      "measures": {"tiktok_change": {"value": 16, "unit": "percentage points, 21% in 2021 to 37% in 2025", "value_type": "reported_change"}, "instagram_change": {"value": 10, "unit": "percentage points, 40% in 2021 to 50% in 2025", "value_type": "reported_change"}, "whatsapp_change": {"value": 9, "unit": "percentage points, 23% in 2021 to about 32% in 2025", "value_type": "reported_change"}, "reddit_change": {"value": 8, "unit": "percentage points, 18% in 2021 to 26% in 2025", "value_type": "reported_change"}},
+      "method": "Repeated cross-sectional comparison across Pew survey waves; the report describes YouTube and Facebook as relatively stable while TikTok, Instagram, WhatsApp, and Reddit grew.",
+      "uncertainty": "This is not a panel of the same adults; changes can reflect population composition, wording or mode shifts, substitution among platforms, or movement to services not measured.",
+      "subgroup": "US adults across the compared survey waves.",
+      "counterinterpretation": "Growth in platform reach does not show growth in total attention, political influence, commercial conversion, or social dependence.",
+      "source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+      "retrieval_hash": "sha256:80b714a2bfdd7052caf635bb0682b8f5e27c5a0a7a77f2d337fd5f64e8f99e3b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; frequency survey 2025-02-24 to 2025-03-02",
+      "denominator": {"value": 5123, "unit": "US adults in separate Pew American Trends Panel survey; frequency questions use platform-specific valid response bases", "value_type": "reported_sample"},
+      "measures": {"facebook_daily": {"value": "about 50", "unit": "percent of US adults visiting at least once a day; 37% several times a day", "value_type": "weighted_share"}, "youtube_daily": {"value": "about 50", "unit": "percent of US adults visiting at least once a day; 33% several times a day", "value_type": "weighted_share"}, "tiktok_daily": {"value": 24, "unit": "percent of US adults", "value_type": "weighted_share"}, "x_daily": {"value": 10, "unit": "percent of US adults", "value_type": "weighted_share"}, "tiktok_daily_age_18_29": {"value": "roughly 50", "unit": "percent of adults ages 18-29", "value_type": "weighted_share"}, "tiktok_daily_age_65_plus": {"value": 5, "unit": "percent of adults ages 65 and older", "value_type": "weighted_share"}},
+      "method": "Separate Pew American Trends Panel survey of 5,123 US adults, conducted online or by live-interviewer phone and weighted to the US adult population.",
+      "uncertainty": "Frequency is self-reported categorical use, not minutes or passive exposure; the frequency sample and field dates differ from the 5,022-person platform-reach survey.",
+      "subgroup": "US adults, with age-specific estimates for daily platform use.",
+      "counterinterpretation": "Daily visits may be brief, purposeful, or socially useful; frequency alone does not identify compulsion, harm, or algorithmic influence.",
+      "source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+      "retrieval_hash": "sha256:80b714a2bfdd7052caf635bb0682b8f5e27c5a0a7a77f2d337fd5f64e8f99e3b",
+      "status": "observed"
+    },
+    {
+      "period": "2025; subgroup comparisons",
+      "denominator": {"value": 5022, "unit": "US adults in Pew/SSRS survey; subgroup estimates use question-specific valid bases", "value_type": "reported_sample"},
+      "measures": {"instagram_women": {"value": 55, "unit": "percent of women", "value_type": "weighted_share"}, "instagram_men": {"value": 44, "unit": "percent of men", "value_type": "weighted_share"}, "instagram_white": {"value": 45, "unit": "percent of White adults", "value_type": "weighted_share"}, "instagram_hispanic": {"value": 62, "unit": "percent of Hispanic adults", "value_type": "weighted_share"}, "instagram_asian": {"value": 58, "unit": "percent of Asian adults", "value_type": "weighted_share"}, "instagram_black": {"value": 54, "unit": "percent of Black adults", "value_type": "weighted_share"}, "instagram_age_18_29": {"value": 80, "unit": "percent of adults ages 18-29", "value_type": "weighted_share"}, "instagram_age_65_plus": {"value": 19, "unit": "percent of adults ages 65 and older", "value_type": "weighted_share"}},
+      "method": "Weighted subgroup estimates reported by Pew; subgroup differences are descriptive and not causal.",
+      "uncertainty": "Subgroup margins of error are larger than full-sample estimates, and reported differences may reflect access, social networks, interests, platform fit, or reporting.",
+      "subgroup": "Age, gender, race and ethnicity, education, and partisan groups of US adults.",
+      "counterinterpretation": "Demographic concentration in a platform does not imply a uniform culture or political effect within that group.",
+      "source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+      "retrieval_hash": "sha256:80b714a2bfdd7052caf635bb0682b8f5e27c5a0a7a77f2d337fd5f64e8f99e3b",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/", "claim": "Pew report, platform-use estimates, frequency estimates, historical comparisons, and methodology.", "status": "primary"}],
+  "boundary": "This record measures self-reported adult platform reach, frequency, change across repeated survey waves, and subgroup differences. It does not establish total attention time, content exposure, recommendation effects, political persuasion, consumer conversion, privacy loss, dependence, or causality."
+}

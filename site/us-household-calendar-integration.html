@@ -122,10 +122,13 @@
 <li>One Markdown finding and matching HTML page for each tested chain.</li>
 <li>A public methods note that states what the panel cannot establish.</li>
 </ol>
-<p>The initial field definition is in <a href="../manifests/us-household-calendar-schema-v1.json">the versioned JSON schema</a>, and the blank collection form is in <a href="templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md">the event-ledger template</a>.</p>
-<p>The starting claims and their current limits are recorded in <a href="projects/us-household-calendar-integration/claims-ledger-v1.md">the integration claims ledger</a>.</p>
-<p>The draft participant instrument is <a href="templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md">the household-calendar questionnaire</a>. It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.</p>
-<p>The schema is exercised by a clearly marked <a href="samples/US-HOUSEHOLD-CALENDAR-SIMULATED_V1.json">simulated fixture</a>, checked with <code>python3 scripts/validate_us_household_calendar_fixture.py</code>. The fixture is not observed data and must never be used as a finding.</p>
+<p>The initial field definition is in <a href="../manifests/us-household-calendar-schema-v1.json">the versioned JSON schema</a>, and the blank collection form is in <a href="../analysis/templates/US-HOUSEHOLD-CALENDAR-EVENT-LEDGER_V1.md">the event-ledger template</a>.</p>
+<p>The first public-data boundary pass is in the <a href="../analysis/projects/us-household-calendar-integration/source-search-record-v1.md">source search record</a>. It shows which sources can support the study and which links still require a consent-based calendar panel.</p>
+<p>The source-to-question work is in the <a href="../analysis/projects/us-household-calendar-integration/source-to-question-matrix-v1.md">working matrix</a>. It sets the first small extraction pass and prevents separate surveys from being treated as one household record.</p>
+<p>The time-and-spending bridge is in the <a href="../analysis/projects/us-household-calendar-integration/time-spending-layer-v1.md">time and spending layer</a>. It turns transport’s hidden time and money costs into fields the calendar can test.</p>
+<p>The starting claims and their current limits are recorded in <a href="../analysis/projects/us-household-calendar-integration/claims-ledger-v1.md">the integration claims ledger</a>.</p>
+<p>The draft participant instrument is <a href="../analysis/templates/US-HOUSEHOLD-CALENDAR-QUESTIONNAIRE_V1.md">the household-calendar questionnaire</a>. It uses plain questions for timing, need, choice, control, transfer, recovery, and optional public judgment.</p>
+<p>The schema is exercised by a clearly marked <a href="../analysis/samples/US-HOUSEHOLD-CALENDAR-SIMULATED_V1.json">simulated fixture</a>, checked with <code>python3 scripts/validate_us_household_calendar_fixture.py</code>. The fixture is not observed data and must never be used as a finding.</p>
 <h2>What would change the working picture</h2>
 <ul>
 <li>Most households with a dated shock recover without protecting one need by sacrificing another.</li>

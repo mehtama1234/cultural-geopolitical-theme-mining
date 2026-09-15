@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-childcare-work-hardship-bridge-2024",
+  "title": "Child-care work prevention co-occurs with higher following housing and utility hardship",
+  "theme_ids": ["cost", "time"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "identified person with November-to-December stable SNAP pair, child-care work-prevention status, and December hardship fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; stable no-SNAP; child care did not prevent work/more work",
+      "denominator": {"value": 2224, "unit": "valid person transition pairs for hardship outcomes", "value_type": "identified_pair_count"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 4.9411, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 26404373.9816, "approx_95_percent_ci": [3.8519, 6.0304]},
+        "utility_hardship": {"value": 7.8345, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 26404373.9816, "approx_95_percent_ci": [6.3642, 9.3049]}
+      },
+      "method": "Same-person November-to-December stable SNAP pair, conditioned on valid December EWORKMORE response; hardship measured in the following month with 240 Fay-BRR replicate weights.",
+      "uncertainty": "Annual fall child-care work-prevention status is attached to a December hardship observation; it is not a dated causal episode. Rent/mortgage and utility hardship have separate valid universes. Status flags were used for EWORKMORE and hardship fields.",
+      "subgroup": "Stable no-SNAP person pairs reporting no child-care work prevention.",
+      "counterinterpretation": "The contrast may reflect household composition, employment, care need, income, eligibility, or unmeasured resources rather than a direct effect of child-care arrangements.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; stable no-SNAP; child care prevented work/more work",
+      "denominator": {"value": 71, "unit": "valid person transition pairs for hardship outcomes", "value_type": "identified_pair_count"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 7.4058, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 935613.0687, "approx_95_percent_ci": [0.1927, 14.6190]},
+        "utility_hardship": {"value": 16.8627, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 935613.0687, "approx_95_percent_ci": [7.5738, 26.1516]},
+        "rent_mortgage_difference_vs_no_work_prevention": {"value": 2.4647, "unit": "percentage points", "value_type": "derived_descriptive_contrast"},
+        "utility_difference_vs_no_work_prevention": {"value": 9.0281, "unit": "percentage points", "value_type": "derived_descriptive_contrast"}
+      },
+      "method": "Same-person November-to-December stable SNAP pair, conditioned on valid December EWORKMORE response; hardship measured in the following month with 240 Fay-BRR replicate weights.",
+      "uncertainty": "Annual fall child-care work-prevention status is attached to a December hardship observation; it is not a dated causal episode. The cell has 71 records and wide intervals. Rent/mortgage and utility hardship have separate valid universes. Status flags were used for EWORKMORE and hardship fields.",
+      "subgroup": "Stable no-SNAP person pairs reporting child-care work prevention.",
+      "counterinterpretation": "The contrast may reflect household composition, employment, care need, income, eligibility, or unmeasured resources rather than a direct effect of child-care arrangements.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; stable SNAP; child care did not prevent work/more work",
+      "denominator": {"value": 328, "unit": "valid person transition pairs for hardship outcomes", "value_type": "identified_pair_count"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 12.0140, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 3631005.8174, "approx_95_percent_ci": [7.8711, 16.1570]},
+        "utility_hardship": {"value": 19.4322, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 3631005.8174, "approx_95_percent_ci": [14.7675, 24.0969]}
+      },
+      "method": "Same-person November-to-December stable SNAP pair, conditioned on valid December EWORKMORE response; hardship measured in the following month with 240 Fay-BRR replicate weights.",
+      "uncertainty": "Annual fall child-care work-prevention status is attached to a December hardship observation; it is not a dated causal episode. Rent/mortgage and utility hardship have separate valid universes. Status flags were used for EWORKMORE and hardship fields.",
+      "subgroup": "Stable SNAP person pairs reporting no child-care work prevention.",
+      "counterinterpretation": "The contrast may reflect household composition, employment, care need, income, eligibility, or unmeasured resources rather than a direct effect of child-care arrangements.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; stable SNAP; child care prevented work/more work",
+      "denominator": {"value": 23, "unit": "valid person transition pairs for hardship outcomes", "value_type": "identified_pair_count"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 43.6519, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 291415.7470, "approx_95_percent_ci": [21.7332, 65.5706]},
+        "utility_hardship": {"value": 32.3949, "unit": "percent", "value_type": "weighted_share", "weighted_denominator": 291415.7470, "approx_95_percent_ci": [11.3927, 53.3971]},
+        "rent_mortgage_difference_vs_no_work_prevention": {"value": 31.6379, "unit": "percentage points", "value_type": "derived_descriptive_contrast"},
+        "utility_difference_vs_no_work_prevention": {"value": 12.9627, "unit": "percentage points", "value_type": "derived_descriptive_contrast"},
+        "rent_mortgage_point_estimate_ratio_vs_no_work_prevention": {"value": 3.633, "unit": "ratio", "value_type": "derived_descriptive_ratio"},
+        "utility_point_estimate_ratio_vs_no_work_prevention": {"value": 1.667, "unit": "ratio", "value_type": "derived_descriptive_ratio"}
+      },
+      "method": "Same-person November-to-December stable SNAP pair, conditioned on valid December EWORKMORE response; hardship measured in the following month with 240 Fay-BRR replicate weights.",
+      "uncertainty": "Annual fall child-care work-prevention status is attached to a December hardship observation; it is not a dated causal episode. The cell has 23 records and very wide intervals. Rent/mortgage and utility hardship have separate valid universes. Status flags were used for EWORKMORE and hardship fields.",
+      "subgroup": "Stable SNAP person pairs reporting child-care work prevention.",
+      "counterinterpretation": "The contrast may reflect household composition, employment, care need, income, eligibility, or unmeasured resources rather than a direct effect of child-care arrangements.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The SIPP dictionary defines EWORKMORE and the hardship fields and their universes.", "status": "official-definition"},
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-snap-childcare-time-loss-layer-v1.md", "claim": "Prior same-person comparison establishes the care/work-prevention and time-loss measures.", "status": "context"}
+  ],
+  "boundary": "This is a descriptive same-person bridge from annual fall child-care work prevention to following-month rent/mortgage and utility hardship within stable SNAP-status comparisons. It does not establish causation, benefit effects, exact event timing, care quality, household recovery, trust, or political action. Small cells and separate outcome universes remain explicit."
+}

@@ -1,0 +1,124 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-hps-material-trust-july-2026",
+  "title": "Current household pressure and institutional trust coexist in the July 2026 Census pulse",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "US Census Bureau HTOPS/HPS July 2026 public-use person respondent",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15\u2013August 3, 2026 HTOPS/HPS cross-sectional topical release",
+      "denominator": {
+        "value": 12755,
+        "unit": "PUF respondents; weighted shares use positive PWEIGHT and variable-specific valid cases",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "any_expense_difficulty": {
+          "value": 49.8,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12088
+        },
+        "very_or_somewhat_expense_difficulty": {
+          "value": 21.3,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12088
+        },
+        "perceive_prices_increased": {
+          "value": 87.1,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12105
+        },
+        "very_or_somewhat_concerned_about_future_price_increase": {
+          "value": 75.2,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12081
+        },
+        "reduced_or_forgone_basic_needs_to_pay_energy_bill": {
+          "value": 12.7,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 11930
+        },
+        "unable_to_pay_full_energy_bill": {
+          "value": 10.6,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 11963
+        },
+        "sometimes_or_often_not_enough_food": {
+          "value": 7.4,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12089
+        },
+        "received_free_groceries": {
+          "value": 6.8,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12039
+        },
+        "currently_receives_snap": {
+          "value": 9.1,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 11996
+        },
+        "anxiety_more_than_half_or_nearly_every_day": {
+          "value": 12.9,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12301
+        },
+        "always_or_usually_lonely": {
+          "value": 9.0,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 12257
+        },
+        "tends_to_trust_federal_statistics": {
+          "value": 51.5,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 11519
+        },
+        "great_deal_or_quite_a_lot_confidence_in_congress": {
+          "value": 17.3,
+          "unit": "percent of weighted respondents",
+          "value_type": "share",
+          "unweighted_valid_n": 11473
+        }
+      },
+      "method": "Census July 2026 HTOPS/HPS CSV public-use file; weighted descriptive shares calculated with PWEIGHT after excluding -88 not-in-universe and -99 did-not-answer codes. The release includes 80 person replicate-weight columns, retained in the downloaded archive but not used for standard errors in this first point-estimate extraction.",
+      "uncertainty": "Cross-sectional survey estimates are not a same-person event sequence and do not establish that prices, energy bills, food conditions, or institutions caused anxiety, loneliness, or trust. Valid denominators vary by item; nonresponse and survey design require replicate-weight variance before precision claims. The July file is a current pulse, not a trend by itself.",
+      "subgroup": "All PUF respondents ages and universes defined by the July 2026 dictionary; income and sex subgroup cells remain available for the next stratified pass.",
+      "counterinterpretation": "Households can report pressure while retaining food sufficiency, assistance, social support, or trust; trust in federal statistics is not trust in all institutions, and confidence in Congress is not political action or legitimacy.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2607_CSV.zip",
+      "claim": "Official July 2026 HTOPS/HPS PUF ZIP containing the CSV respondent file, data dictionary, and replicate-weight file.",
+      "status": "primary"
+    }
+  ],
+  "boundary": "This record provides current weighted distributions for household expense and price pressure, energy trade-offs, food sufficiency and assistance, selected mental/social measures, and institutional trust. It is not a longitudinal comparison, causal exposure design, political-action estimate, or evidence that material pressure changed trust."
+}

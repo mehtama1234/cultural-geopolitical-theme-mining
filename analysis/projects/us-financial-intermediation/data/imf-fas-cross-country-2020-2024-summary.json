@@ -1,0 +1,238 @@
+{
+  "format": "imf-fas-cross-country-summary-v1",
+  "dataflow": "IMF.STA:FAS(5.0.0)",
+  "period": "2020-2024",
+  "countries": {
+    "USA": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "acab395399428ec48eb1da310062b901f72cb3e38e823b84a0faba1eef8a0c85",
+      "response_bytes": 1134481,
+      "rows_returned": 566,
+      "values": {
+        "COMBANK": {
+          "2020": 4344.0,
+          "2024": 3912.0
+        },
+        "FA22_COMBANK": {
+          "2020": 75500.0,
+          "2024": 68436.0
+        },
+        "FA26N": {
+          "2020": 29.50721825740689,
+          "2024": 25.73749861694919
+        },
+        "OUTD_COMBANK_S14": {
+          "2020": 55.5156085711178,
+          "2024": 42.42596215956536
+        },
+        "OUTL_COMBANK_S14": {
+          "2020": 19.89952877799233,
+          "2024": 16.79992422697434
+        }
+      }
+    },
+    "CAN": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/CAN?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "595be4eb5e34b1c80e2c512a199c068346027d6c36991018d2610118ffb04a0b",
+      "response_bytes": 1454424,
+      "rows_returned": 684,
+      "values": {
+        "COMBANK": {
+          "2020": 79.0,
+          "2024": 75.0
+        },
+        "FA22_COMBANK": {
+          "2020": 6378.0,
+          "2024": 6247.0
+        },
+        "FA26N": {
+          "2020": 20.1837411259683,
+          "2024": 18.04890997659352
+        },
+        "OUTD_COMBANK_S14": {},
+        "OUTL_COMBANK_S14": {}
+      }
+    },
+    "DEU": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/DEU?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "f75085dedf38fadcb47bb95c53a8b7ac0b9d44b3231a485a62580b8a950c5a0e",
+      "response_bytes": 2909919,
+      "rows_returned": 870,
+      "values": {
+        "COMBANK": {
+          "2020": 257.0,
+          "2024": 234.0
+        },
+        "FA22_COMBANK": {
+          "2020": 6453.0,
+          "2024": 3292.0
+        },
+        "FA26N": {
+          "2020": 9.35628481590708,
+          "2024": 4.904081056365207
+        },
+        "OUTD_COMBANK_S14": {
+          "2020": 22.94837019520564,
+          "2024": 23.05982716442941
+        },
+        "OUTL_COMBANK_S14": {
+          "2020": 15.13417489683312,
+          "2024": 13.1922374144427
+        }
+      }
+    },
+    "GBR": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/GBR?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "982c9b5c756b96ea94d449bc3f78aeb683f28167ae250537161dd2b1c45ab71f",
+      "response_bytes": 1168009,
+      "rows_returned": 599,
+      "values": {
+        "COMBANK": {
+          "2020": 313.0,
+          "2024": 273.0
+        },
+        "FA22_COMBANK": {},
+        "FA26N": {},
+        "OUTD_COMBANK_S14": {
+          "2020": 69.89448021386347,
+          "2024": 61.93009633772725
+        },
+        "OUTL_COMBANK_S14": {
+          "2020": 67.517084604089,
+          "2024": 55.09616475660955
+        }
+      }
+    },
+    "CHN": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/CHN?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "e091ad642cc5d2a9de6c794a49d73e0ad481821b8247fc9831df7cdabd050bec",
+      "response_bytes": 2279711,
+      "rows_returned": 633,
+      "values": {
+        "COMBANK": {
+          "2020": 192.0,
+          "2024": 183.0
+        },
+        "FA22_COMBANK": {
+          "2020": 101268.0,
+          "2024": 102970.0
+        },
+        "FA26N": {
+          "2020": 8.763631066510346,
+          "2024": 8.716450792584396
+        },
+        "OUTD_COMBANK_S14": {},
+        "OUTL_COMBANK_S14": {}
+      }
+    },
+    "IND": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/IND?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "f64d562bc3c6e59aaafefde8e05563ae33a5ea03e218272bbdf9e702f49d8c90",
+      "response_bytes": 14870456,
+      "rows_returned": 815,
+      "values": {
+        "COMBANK": {
+          "2020": 151.0,
+          "2024": 141.0
+        },
+        "FA22_COMBANK": {
+          "2020": 150137.0,
+          "2024": 159763.0
+        },
+        "FA26N": {
+          "2020": 14.54738601672032,
+          "2024": 14.62101378854847
+        },
+        "OUTD_COMBANK_S14": {
+          "2020": 45.95874580058985,
+          "2024": 41.50668069698444
+        },
+        "OUTL_COMBANK_S14": {
+          "2020": 27.6442911432168,
+          "2024": 30.71763377663814
+        }
+      }
+    },
+    "BRA": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/BRA?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "a20914584de13285c0d696fb6d283c438fb5821d51acdc1a91e5feaf9aba70be",
+      "response_bytes": 3614737,
+      "rows_returned": 743,
+      "values": {
+        "COMBANK": {
+          "2020": 121.0,
+          "2024": 152.0
+        },
+        "FA22_COMBANK": {
+          "2020": 30150.0,
+          "2024": 26823.0
+        },
+        "FA26N": {
+          "2020": 18.30725499503029,
+          "2024": 15.83888011208443
+        },
+        "OUTD_COMBANK_S14": {},
+        "OUTL_COMBANK_S14": {
+          "2024": 27.64655195996825
+        }
+      }
+    },
+    "ZAF": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/ZAF?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "2ff5e919865058a599371c7c3efe326718bcdec0f99a152158b6055656b40523",
+      "response_bytes": 6767141,
+      "rows_returned": 770,
+      "values": {
+        "COMBANK": {
+          "2020": 34.0,
+          "2024": 30.0
+        },
+        "FA22_COMBANK": {
+          "2020": 3859.0,
+          "2024": 3755.0
+        },
+        "FA26N": {
+          "2020": 8.805490735789112,
+          "2024": 7.978546079560628
+        },
+        "OUTD_COMBANK_S14": {
+          "2020": 25.58017962306481,
+          "2024": 25.88869016450299
+        },
+        "OUTL_COMBANK_S14": {
+          "2020": 32.13467774989394,
+          "2024": 30.45394392345409
+        }
+      }
+    },
+    "MEX": {
+      "query_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/MEX?startPeriod=2020&endPeriod=2024",
+      "response_sha256": "58e44a479b83de37d2e8b7aef93208bc3a863488d9c0cba12d0a139090ade0b9",
+      "response_bytes": 5263553,
+      "rows_returned": 753,
+      "values": {
+        "COMBANK": {
+          "2020": 50.0,
+          "2024": 51.0
+        },
+        "FA22_COMBANK": {
+          "2020": 12181.0,
+          "2024": 11843.0
+        },
+        "FA26N": {
+          "2020": 13.0323300879198,
+          "2024": 12.03996799680543
+        },
+        "OUTD_COMBANK_S14": {},
+        "OUTL_COMBANK_S14": {
+          "2020": 8.319731541144385,
+          "2024": 9.331292748531148
+        }
+      }
+    }
+  },
+  "indicator_selection": {
+    "FA26N": "retain UNIT=NUM and TYPE_OF_TRANSFORMATION=PHTADLT_NUM; commercial-bank branches per 100,000 adults",
+    "other": "retain returned series and preserve missing country-year cells"
+  }
+}

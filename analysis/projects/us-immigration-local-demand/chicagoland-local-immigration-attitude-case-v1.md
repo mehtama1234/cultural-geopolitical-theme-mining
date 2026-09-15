@@ -133,6 +133,9 @@ Chicagoland direct local meaning
 Do not turn it into a national opinion estimate or use general county growth
 as a proxy for what Chicagoland residents believe.
 
+The bounded local-attitude results are preserved in the [machine-readable trend record](../../records/us-chicagoland-immigration-belonging-action-2026.json)
+for the shared registry and theme-coverage builds.
+
 ## Source
 
 [Chicago Council on Global Affairs, Built by Immigrants, Shaped by Immigration](https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey),

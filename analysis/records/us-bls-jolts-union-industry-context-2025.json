@@ -1,0 +1,225 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-jolts-union-industry-context-2025",
+  "title": "Sector mobility and formal union membership differ across US industries",
+  "theme_ids": [
+    "work",
+    "voice",
+    "cost"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption"
+  ],
+  "source_unit": "BLS JOLTS establishment rates and CPS union-affiliation industry estimates",
+  "geography": "United States; selected industries",
+  "observations": [
+    {
+      "period": "2025; manufacturing; JOLTS establishment mobility",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS observations",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "quits_rate": {
+          "value": 1.3917,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "job_openings_rate": {
+          "value": 3.1333,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "BLS JOLTS 2025 annual arithmetic mean of monthly seasonally adjusted establishment rates.",
+      "uncertainty": "JOLTS measures establishments and not unique workers; rates are revised and do not identify transition reasons or job quality.",
+      "subgroup": "manufacturing",
+      "counterinterpretation": "Mobility rates cannot be read as worker power or as outcomes caused by representation.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; manufacturing; CPS union representation context",
+      "denominator": {
+        "value": 14371,
+        "unit": "thousand employed wage and salary workers in industry",
+        "value_type": "survey_population"
+      },
+      "measures": {
+        "union_membership_rate": {
+          "value": 7.7,
+          "unit": "percent of CPS industry denominator",
+          "value_type": "share"
+        }
+      },
+      "method": "BLS CPS Union Members 2025 Table 3 annual average; membership is a descriptive institutional-representation measure.",
+      "uncertainty": "CPS survey and classification uncertainty apply; BLS states 2025 annual estimates exclude October and are not strictly comparable with prior annual averages.",
+      "subgroup": "manufacturing",
+      "counterinterpretation": "Membership does not measure practical schedule control, grievance success, autonomy, or the causal effect of a union on JOLTS mobility.",
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    },
+    {
+      "period": "2025; professional and business services; JOLTS establishment mobility",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS observations",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "quits_rate": {
+          "value": 2.3417,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "job_openings_rate": {
+          "value": 5.2667,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "BLS JOLTS 2025 annual arithmetic mean of monthly seasonally adjusted establishment rates.",
+      "uncertainty": "JOLTS measures establishments and not unique workers; rates are revised and do not identify transition reasons or job quality.",
+      "subgroup": "professional and business services",
+      "counterinterpretation": "Mobility rates cannot be read as worker power or as outcomes caused by representation.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; professional and business services; CPS union representation context",
+      "denominator": {
+        "value": 17700,
+        "unit": "thousand employed wage and salary workers in industry",
+        "value_type": "survey_population"
+      },
+      "measures": {
+        "union_membership_rate": {
+          "value": 2.1,
+          "unit": "percent of CPS industry denominator",
+          "value_type": "share"
+        }
+      },
+      "method": "BLS CPS Union Members 2025 Table 3 annual average; membership is a descriptive institutional-representation measure.",
+      "uncertainty": "CPS survey and classification uncertainty apply; BLS states 2025 annual estimates exclude October and are not strictly comparable with prior annual averages.",
+      "subgroup": "professional and business services",
+      "counterinterpretation": "Membership does not measure practical schedule control, grievance success, autonomy, or the causal effect of a union on JOLTS mobility.",
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    },
+    {
+      "period": "2025; education and health services; JOLTS establishment mobility",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS observations",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "quits_rate": {
+          "value": 1.9333,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "job_openings_rate": {
+          "value": 5.375,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "BLS JOLTS 2025 annual arithmetic mean of monthly seasonally adjusted establishment rates.",
+      "uncertainty": "JOLTS measures establishments and not unique workers; rates are revised and do not identify transition reasons or job quality.",
+      "subgroup": "education and health services",
+      "counterinterpretation": "Mobility rates cannot be read as worker power or as outcomes caused by representation.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; education and health services; CPS union representation context",
+      "denominator": {
+        "value": 25522,
+        "unit": "thousand employed wage and salary workers in industry",
+        "value_type": "survey_population"
+      },
+      "measures": {
+        "union_membership_rate": {
+          "value": 8.2,
+          "unit": "percent of CPS industry denominator",
+          "value_type": "share"
+        }
+      },
+      "method": "BLS CPS Union Members 2025 Table 3 annual average; membership is a descriptive institutional-representation measure.",
+      "uncertainty": "CPS survey and classification uncertainty apply; BLS states 2025 annual estimates exclude October and are not strictly comparable with prior annual averages.",
+      "subgroup": "education and health services",
+      "counterinterpretation": "Membership does not measure practical schedule control, grievance success, autonomy, or the causal effect of a union on JOLTS mobility.",
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    },
+    {
+      "period": "2025; leisure and hospitality; JOLTS establishment mobility",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly seasonally adjusted JOLTS observations",
+        "value_type": "time_series_mean"
+      },
+      "measures": {
+        "quits_rate": {
+          "value": 3.925,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        },
+        "job_openings_rate": {
+          "value": 5.5667,
+          "unit": "percent annual arithmetic mean of monthly rate",
+          "value_type": "estimated_rate"
+        }
+      },
+      "method": "BLS JOLTS 2025 annual arithmetic mean of monthly seasonally adjusted establishment rates.",
+      "uncertainty": "JOLTS measures establishments and not unique workers; rates are revised and do not identify transition reasons or job quality.",
+      "subgroup": "leisure and hospitality",
+      "counterinterpretation": "Mobility rates cannot be read as worker power or as outcomes caused by representation.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:8539ea7f9e14c4fc1d61c7f470597f3a0a2dabc7675e4c9ed3e04ee8b0be48d1",
+      "status": "compared"
+    },
+    {
+      "period": "2025; leisure and hospitality; CPS union representation context",
+      "denominator": {
+        "value": 12211,
+        "unit": "thousand employed wage and salary workers in industry",
+        "value_type": "survey_population"
+      },
+      "measures": {
+        "union_membership_rate": {
+          "value": 3.0,
+          "unit": "percent of CPS industry denominator",
+          "value_type": "share"
+        }
+      },
+      "method": "BLS CPS Union Members 2025 Table 3 annual average; membership is a descriptive institutional-representation measure.",
+      "uncertainty": "CPS survey and classification uncertainty apply; BLS states 2025 annual estimates exclude October and are not strictly comparable with prior annual averages.",
+      "subgroup": "leisure and hospitality",
+      "counterinterpretation": "Membership does not measure practical schedule control, grievance success, autonomy, or the causal effect of a union on JOLTS mobility.",
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "claim": "CPS industry union-membership estimates provide institutional context for selected JOLTS sectors.",
+      "status": "reported",
+      "access_boundary": "The two BLS programs use different populations, sampling frames, measures, and denominators; this is a conditioning comparison, not a joined worker dataset."
+    }
+  ],
+  "boundary": "This record places 2025 sector-level establishment mobility beside CPS formal union membership. It does not estimate a causal representation effect, worker bargaining power, job quality, pay, schedule control, household security, or political meaning."
+}

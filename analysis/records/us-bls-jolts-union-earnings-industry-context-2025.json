@@ -1,0 +1,157 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-jolts-union-earnings-industry-context-2025",
+  "title": "Sector mobility, formal representation, and average pay form different US workplace contexts",
+  "theme_ids": [
+    "work",
+    "voice",
+    "cost"
+  ],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption"
+  ],
+  "source_unit": "BLS JOLTS, CPS Union Members, and CES industry aggregates",
+  "geography": "United States; selected industries",
+  "observations": [
+    {
+      "period": "2025; manufacturing; mobility, representation, and pay context",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly BLS observations per establishment/earnings series; CPS denominator retained separately",
+        "value_type": "comparison_frame"
+      },
+      "measures": {
+        "jolts_quits_rate": {
+          "value": 1.3917,
+          "unit": "percent annual mean of seasonally adjusted monthly establishment rate",
+          "value_type": "estimated_rate"
+        },
+        "cps_union_membership_rate": {
+          "value": 7.7,
+          "unit": "percent of 2025 CPS industry denominator",
+          "value_type": "share"
+        },
+        "ces_average_hourly_earnings": {
+          "value": 35.45,
+          "unit": "US dollars per hour, annual mean of seasonally adjusted monthly average for all employees",
+          "value_type": "estimated_average"
+        }
+      },
+      "method": "Descriptive cross-source comparison of BLS JOLTS, CPS Union Members Table 3, and CES average hourly earnings; no records are joined at worker level.",
+      "uncertainty": "Sources use different populations, frames, weighting, and denominators; CES is an establishment average, JOLTS an establishment rate, and CPS 2025 annual estimates exclude October.",
+      "subgroup": "manufacturing",
+      "counterinterpretation": "Sector differences in pay, representation, or quits do not establish worker control, job quality, or a causal representation effect.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+      "status": "compared"
+    },
+    {
+      "period": "2025; professional and business services; mobility, representation, and pay context",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly BLS observations per establishment/earnings series; CPS denominator retained separately",
+        "value_type": "comparison_frame"
+      },
+      "measures": {
+        "jolts_quits_rate": {
+          "value": 2.3417,
+          "unit": "percent annual mean of seasonally adjusted monthly establishment rate",
+          "value_type": "estimated_rate"
+        },
+        "cps_union_membership_rate": {
+          "value": 2.1,
+          "unit": "percent of 2025 CPS industry denominator",
+          "value_type": "share"
+        },
+        "ces_average_hourly_earnings": {
+          "value": 44.2625,
+          "unit": "US dollars per hour, annual mean of seasonally adjusted monthly average for all employees",
+          "value_type": "estimated_average"
+        }
+      },
+      "method": "Descriptive cross-source comparison of BLS JOLTS, CPS Union Members Table 3, and CES average hourly earnings; no records are joined at worker level.",
+      "uncertainty": "Sources use different populations, frames, weighting, and denominators; CES is an establishment average, JOLTS an establishment rate, and CPS 2025 annual estimates exclude October.",
+      "subgroup": "professional and business services",
+      "counterinterpretation": "Sector differences in pay, representation, or quits do not establish worker control, job quality, or a causal representation effect.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+      "status": "compared"
+    },
+    {
+      "period": "2025; education and health services; mobility, representation, and pay context",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly BLS observations per establishment/earnings series; CPS denominator retained separately",
+        "value_type": "comparison_frame"
+      },
+      "measures": {
+        "jolts_quits_rate": {
+          "value": 1.9333,
+          "unit": "percent annual mean of seasonally adjusted monthly establishment rate",
+          "value_type": "estimated_rate"
+        },
+        "cps_union_membership_rate": {
+          "value": 8.2,
+          "unit": "percent of 2025 CPS industry denominator",
+          "value_type": "share"
+        },
+        "ces_average_hourly_earnings": {
+          "value": 35.5917,
+          "unit": "US dollars per hour, annual mean of seasonally adjusted monthly average for all employees",
+          "value_type": "estimated_average"
+        }
+      },
+      "method": "Descriptive cross-source comparison of BLS JOLTS, CPS Union Members Table 3, and CES average hourly earnings; no records are joined at worker level.",
+      "uncertainty": "Sources use different populations, frames, weighting, and denominators; CES is an establishment average, JOLTS an establishment rate, and CPS 2025 annual estimates exclude October.",
+      "subgroup": "education and health services",
+      "counterinterpretation": "Sector differences in pay, representation, or quits do not establish worker control, job quality, or a causal representation effect.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+      "status": "compared"
+    },
+    {
+      "period": "2025; leisure and hospitality; mobility, representation, and pay context",
+      "denominator": {
+        "value": 12,
+        "unit": "monthly BLS observations per establishment/earnings series; CPS denominator retained separately",
+        "value_type": "comparison_frame"
+      },
+      "measures": {
+        "jolts_quits_rate": {
+          "value": 3.925,
+          "unit": "percent annual mean of seasonally adjusted monthly establishment rate",
+          "value_type": "estimated_rate"
+        },
+        "cps_union_membership_rate": {
+          "value": 3.0,
+          "unit": "percent of 2025 CPS industry denominator",
+          "value_type": "share"
+        },
+        "ces_average_hourly_earnings": {
+          "value": 22.84,
+          "unit": "US dollars per hour, annual mean of seasonally adjusted monthly average for all employees",
+          "value_type": "estimated_average"
+        }
+      },
+      "method": "Descriptive cross-source comparison of BLS JOLTS, CPS Union Members Table 3, and CES average hourly earnings; no records are joined at worker level.",
+      "uncertainty": "Sources use different populations, frames, weighting, and denominators; CES is an establishment average, JOLTS an establishment rate, and CPS 2025 annual estimates exclude October.",
+      "subgroup": "leisure and hospitality",
+      "counterinterpretation": "Sector differences in pay, representation, or quits do not establish worker control, job quality, or a causal representation effect.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bls.gov/news.release/union2.t03.htm",
+      "claim": "CPS industry union-membership rates provide formal-representation context.",
+      "status": "reported",
+      "access_boundary": "CPS 2025 estimates exclude October and are not strictly comparable with earlier annual averages."
+    }
+  ],
+  "boundary": "This record places sector-level mobility, formal representation, and average hourly earnings beside one another. It does not estimate causal union effects, worker bargaining power, job quality, schedule control, household security, or political meaning."
+}

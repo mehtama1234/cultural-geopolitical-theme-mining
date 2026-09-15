@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyfed-economic-heterogeneity-regional-april-2026",
+  "title": "Second District households and small firms absorb the 2026 shock differently from national groups",
+  "theme_ids": ["cost", "energy", "work"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "work_control_bargaining"],
+  "source_unit": "New York Fed Economic Heterogeneity Indicator for the Second District and New York/New Jersey/Connecticut employer firms",
+  "geography": "Federal Reserve Second District; firm regional analysis covers New York, New Jersey, and Connecticut",
+  "observations": [
+    {
+      "period": "April 2026 Second District inflation indicators",
+      "denominator": {"value": 1, "unit": "Second District regional indicator constructed from CEX shares and regional CPI", "value_type": "reported_index_universe"},
+      "measures": {
+        "regional_inflation": {"value": 5.0, "unit": "12-month inflation percent", "value_type": "reported_regional_rate"},
+        "national_comparator": {"value": 3.7, "unit": "12-month national inflation percent", "value_type": "reported_comparator"},
+        "regional_transportation_inflation": {"value": 9.0, "unit": "12-month transportation inflation percent", "value_type": "reported_sector_rate"},
+        "hispanic_inflation_gap": {"value": 1.0, "unit": "percentage-point difference from regional inflation", "value_type": "estimated_group_gap"},
+        "black_inflation_gap": {"value": 0.8, "unit": "percentage-point difference from regional inflation", "value_type": "estimated_group_gap"},
+        "low_income_inflation_gap": {"value": 0.53, "unit": "percentage-point difference from regional inflation", "value_type": "estimated_group_gap"},
+        "high_income_inflation_gap": {"value": -0.62, "unit": "percentage-point difference from regional inflation", "value_type": "estimated_group_gap"},
+        "college_graduate_inflation_gap": {"value": -0.79, "unit": "percentage-point difference from nongraduate inflation", "value_type": "estimated_group_gap"}
+      },
+      "method": "Regional demographic expenditure shares from BLS Consumer Expenditure Survey microdata are combined with category and city CPI inflation; the region is the Second District, with demographic contributions weighted by group population across included cities.",
+      "uncertainty": "Demographic inflation is an author-constructed estimate, not an official BLS demographic CPI. The regional definition and prior-year CEX shares matter; the release identifies the March 2026 gasoline shock as a major contributor.",
+      "subgroup": "Race/ethnicity, income, education, and regional versus national benchmark.",
+      "counterinterpretation": "Group gaps combine basket composition and assigned prices and do not identify individual bills, commuting need, or policy causality.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04_2026_ehi-regional-full.pdf",
+      "retrieval_hash": "sha256:30476ce6c5aadde6057f3d72c133ee202dafbd7a2a457551ba136bbced2d2210",
+      "status": "estimated"
+    },
+    {
+      "period": "April 2026 Second District consumer-spending response",
+      "denominator": {"value": 1, "unit": "Second District EHI regional consumer-spending indicator", "value_type": "reported_index_universe"},
+      "measures": {
+        "high_income_nominal_gas_spending": {"value": "increased more and cut real gas consumption less than lower-income groups", "unit": "reported relative direction after March 2026 gas-price shock", "value_type": "reported_group_comparison"},
+        "lower_income_real_gas_consumption": {"value": "decreased more than higher-income groups", "unit": "reported relative direction after March 2026 gas-price shock", "value_type": "reported_group_comparison"}
+      },
+      "method": "Receipt-level consumer spending indicators are grouped, deflated using demographic-specific price indexes, and compared across income groups in the Second District.",
+      "uncertainty": "The source is an aggregate receipt-panel indicator and does not identify a household's vehicle, route, fuel price, income change, or necessity of travel.",
+      "subgroup": "Income groups and Second District versus national comparison.",
+      "counterinterpretation": "Nominal spending and real consumption can move differently; vehicle efficiency, commuting, transit access, and employment may explain part of the differential.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04_2026_ehi-regional-full.pdf",
+      "retrieval_hash": "sha256:30476ce6c5aadde6057f3d72c133ee202dafbd7a2a457551ba136bbced2d2210",
+      "status": "reported"
+    },
+    {
+      "period": "2025 regional Small Business Credit Survey",
+      "denominator": {"value": 976, "unit": "regional employer-firm respondents reporting weak-sales challenge; question-specific valid universes vary", "value_type": "reported_sample"},
+      "measures": {
+        "regional_revenue": {"value": "more firms reported lower than higher revenue in 2025", "unit": "reported direction of regional revenue diffusion index", "value_type": "reported_direction"},
+        "regional_employment_expectation_change": {"value": -16, "unit": "percentage-point change in net share expecting employment generation in 2026 versus 2025", "value_type": "reported_change"},
+        "regional_profitability": {"value": 8, "unit": "percentage-point profit-minus-loss diffusion index in December 2024", "value_type": "reported_diffusion"},
+        "national_profitability_comparator": {"value": 13, "unit": "percentage-point profit-minus-loss diffusion index in December 2024", "value_type": "reported_comparator"},
+        "large_firm_future_employment": {"value": "negative expectation for the first time in the survey", "unit": "reported direction among regional firms with 10 or more employees", "value_type": "reported_direction"}
+      },
+      "method": "Weighted regional subset of the Federal Reserve Banks Small Business Credit Survey, focusing on employer firms in New York, New Jersey, and Connecticut; firm size and question-specific valid universes vary.",
+      "uncertainty": "The SBCS is non-random and weighted; regional sample sizes are smaller than national samples and the survey covers firms rather than all local establishments. Revenue, employment, and profitability reference periods differ.",
+      "subgroup": "Regional firms overall and firms with 10 or more employees; comparison with national EHI small-business indicators.",
+      "counterinterpretation": "Regional weakness may reflect sector mix, local demand, costs, or sample composition; it does not directly establish local service loss, worker hardship, or household political response.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04_2026_ehi-regional-full.pdf",
+      "retrieval_hash": "sha256:30476ce6c5aadde6057f3d72c133ee202dafbd7a2a457551ba136bbced2d2210",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators", "claim": "EHI update page and regional/national report links.", "status": "official-metadata"},
+    {"source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf", "claim": "National April 2026 EHI comparator.", "status": "related-evidence"}
+  ],
+  "boundary": "This record measures derived Second District inflation and spending indicators plus weighted regional employer-firm survey outcomes. It does not establish individual prices, household fuel exposure, local service access, worker household security, trust, political action, or causal policy effects. The EHI indicators are not official estimates of the Federal Reserve System or FOMC."
+}

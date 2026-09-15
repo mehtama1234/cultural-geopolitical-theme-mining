@@ -1,8 +1,8 @@
 # US source coverage
 
-101 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+103 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 2; BIS: 1; BLS: 10; CFPB: 18; CMS: 1; Census: 11; DOE: 15; EIA: 19; FTC: 27; Federal Reserve: 19; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 142; OFR: 1; Other: 33; Other government: 22; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 37; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -10,9 +10,9 @@
 
 **Status:** first pass; not exhaustive
 
-**Question:** 
+**Question:** When firms adopt AI, does the main change come from better tools, tighter measurement, new supervision, or a shift in who owns the work process?
 
-**Sources recorded:** 35
+**Sources recorded:** 40
 
 - [Generative AI at Work](https://www.nber.org/papers/w31161)
 - [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
@@ -39,6 +39,10 @@
 - [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
 - [Methodology of the AIM-WORK survey](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933)
 - [Algorithmic management and working conditions in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [Generative AI at Work](https://www.nber.org/papers/w31161)
+- [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677)
+- [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
 - [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729)
 - [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms)
 - [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)
@@ -46,11 +50,28 @@
 - [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
 - [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
 - [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates)
 - [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
 - [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
 - [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
 
 [Open the source-search record](projects/ai-work-control/source-search-2026-09-11.md)
+
+## US ACS transportation context
+
+**Project:** `us-acs-transport-context`
+
+**Status:** official annual context packet; first national layer completed, subgroup/place extension open
+
+**Question:** Do annual household vehicle availability and commute-time distributions provide
+
+**Sources recorded:** 3
+
+- [2023 ACS table-based 1-year summary files](https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/)
+- [2024 ACS table-based 1-year summary files](https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/)
+- [2024 ACS design and methodology](https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/2024/acs_design_methodology_report_2024.pdf)
+
+[Open the source-search record](projects/us-acs-transport-context/source-search-2026-09-13.md)
 
 ## US aging, care, and the hidden second job
 
@@ -109,7 +130,7 @@
 
 **Status:** matched evidence pass complete; household-level payback and access remain open
 
-**Question:** 
+**Question:** When does an efficient appliance reduce household energy burden, and when do upfront cost, financing, access, or rebound use prevent the expected gain?
 
 **Sources recorded:** 4
 
@@ -445,7 +466,7 @@
 
 **Question:** Does automated customer service make simple help faster while making difficult problems harder to understand and challenge?
 
-**Sources recorded:** 7
+**Sources recorded:** 9
 
 - [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
 - [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
@@ -454,6 +475,8 @@
 - [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
 - [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
 - [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
+- [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html)
 
 **Open gaps:**
 - outcomes for repeat complaints and difficult cases;
@@ -753,7 +776,7 @@
 
 **Project:** `us-fed-partisan-trust`
 
-**Status:** opening pass; trust and belief effects are measured, later action remains open
+**Status:** first detailed finding promoted; trust and belief effects are measured, later action remains open
 
 **Question:** When does an economic message become a test of who people think is on their side?
 
@@ -803,11 +826,12 @@
 
 **Question:** When money gets tight, what does a household change first to keep food available?
 
-**Sources recorded:** 5
+**Sources recorded:** 6
 
 - [USDA Household Food Security in the United States in 2024](https://www.ers.usda.gov/publications/113622)
 - [USDA food-security key statistics](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics)
-- [Federal Reserve income and expenses report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm)
+- [BLS CPI-U food at home series](https://data.bls.gov/timeseries/CUUR0000SAF11)
+- [Federal Reserve income and expenses reports](https://www.federalreserve.gov/publications/2025-economic-well-being-us-households-in-2024-income-and-expenses.htm)
 - [Census Household Trends and Outlook Pulse Survey](https://www.census.gov/newsroom/press-releases/2026/household-trends-outlook-pulse-survey.html)
 - [CFPB medical collections research](https://www.consumerfinance.gov/data-research/research-reports/recent-changes-in-medical-collections-on-consumer-credit-records/)
 
@@ -990,6 +1014,29 @@
 
 [Open the source-search record](projects/us-hometown-entrepreneurship-decline/source-search-2026-09-11.md)
 
+## US household calendar and longitudinal linkage
+
+**Project:** `us-household-calendar-integration`
+
+**Status:** source map; acquisition and same-unit linkage remain open
+
+**Question:** Which public US sources can help us test how dated changes in money, time, care, housing, transport, services, and public decisions affect the next month?
+
+**Sources recorded:** 10
+
+- [SIPP](https://www.census.gov/programs-surveys/sipp.html)
+- [BLS Consumer Expenditure Survey](https://www.bls.gov/cex/)
+- [BLS American Time Use Survey](https://www.bls.gov/tus/)
+- [BEA Personal Consumption Expenditures](https://www.bea.gov/data/consumer-spending/main)
+- [Federal Reserve SHED](https://www.federalreserve.gov/publications/shed.htm)
+- [MEPS Household Component](https://meps.ahrq.gov/survey_comp/household.jsp)
+- [EIA RECS](https://www.eia.gov/consumption/residential/about.php)
+- [FHWA National Household Travel Survey](https://www.fhwa.dot.gov/policyinformation/nhts.cfm)
+- [USDA CPS Food Security Supplement](https://www.ers.usda.gov/data-products/food-security-in-the-united-states)
+- [BLS Current Population Survey](https://www.bls.gov/cps/cps_over.htm)
+
+[Open the source-search record](projects/us-household-calendar-integration/source-search-record-v1.md)
+
 ## US household financial pressure and the price of access
 
 **Project:** `us-household-financial-pressure`
@@ -1033,9 +1080,10 @@
 
 **Question:** How do households translate a central-bank rate change into a decision about spending, saving or borrowing?
 
-**Sources recorded:** 3
+**Sources recorded:** 4
 
 - [NBER: Monetary Policy According to Households](https://www.nber.org/papers/w35127)
+- [NBER: Information Treatments, Hypotheticals, and Event Studies](https://www.nber.org/papers/w35090)
 - [NBER: Forward Guidance and Household Expectations](https://www.nber.org/papers/w26778)
 - [NBER: Monetary Policy Communications and Their Effects on Household Inflation Expectations](https://www.nber.org/papers/w25482)
 
@@ -1079,12 +1127,16 @@
 
 **Question:** Is insurance cost and availability becoming a new limit on who can safely own, finance, and remain in a home?
 
-**Sources recorded:** 7
+**Sources recorded:** 11
 
 - [Federal Reserve housing findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm)
+- [Federal Reserve 2024 housing findings](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-housing.htm)
 - [Federal Reserve SHED housing appendix](https://www.federalreserve.gov/publications/2026-supplemental-appendixes-report-economic-well-being-us-households-2025-appendix-b.htm)
 - [Treasury report on homeowners insurance](https://home.treasury.gov/news/press-releases/jy2791)
 - [FIO 2025 insurance industry report](https://home.treasury.gov/system/files/311/Final%20FIO%202025%20Annual%20Report.pdf)
+- [FEMA National Risk Index county layer](https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0)
+- [GAO homeowners insurance review](https://www.gao.gov/products/gao-26-107867)
+- [California FAIR Plan key statistics](https://www.cfpnet.com/key-statistics-data/)
 - [Census: cost of homeownership](https://www.census.gov/newsroom/press-releases/2025/acs-1-year-estimates.html)
 - [Census: renter cost burden](https://www.census.gov/newsroom/press-releases/2024/renter-households-cost-burdened-race.html)
 - [Property Insurance and Disaster Risk](https://www.nber.org/papers/w32579)
@@ -1717,7 +1769,7 @@
 
 **Status:** matched evidence pass complete; building-level upgrade and tenant outcome records remain open
 
-**Question:** 
+**Question:** When a renter pays the energy bill but a landlord controls the building, which institution can make an upgrade reachable and keep the savings with the household?
 
 **Sources recorded:** 4
 
@@ -1752,7 +1804,7 @@
 
 **Status:** matched evidence pass complete; household replacement and disposal records remain open
 
-**Question:** 
+**Question:** When repair is unavailable or too costly, how do replacement spending, household access, and end-of-life handling move together?
 
 **Sources recorded:** 4
 
@@ -2334,7 +2386,7 @@
 
 **Status:** matched evidence pass complete; longer-run health and household records remain open
 
-**Question:** 
+**Question:** Do weatherization upgrades produce measurable bill, comfort, safety, health, and household-security gains for the homes that receive them?
 
 **Sources recorded:** 4
 

@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-ces-industry-earnings-2026-ytd",
+  "title": "Selected sector average hourly earnings rise through August 2026 while sector levels remain distinct",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "household_room_consumption"],
+  "source_unit": "BLS Current Employment Statistics average hourly earnings of all employees, selected private industries",
+  "geography": "United States, selected private industries",
+  "observations": [
+    {
+      "period": "January–August 2026; July and August preliminary",
+      "denominator": {"value": 8, "unit": "available monthly seasonally adjusted CES observations", "value_type": "partial_year_time_series_mean"},
+      "measures": {"industry": {"value": "manufacturing", "unit": "CES3000000003 series", "value_type": "label"}, "average_hourly_earnings_ytd": {"value": 36.625, "unit": "US dollars per hour, arithmetic mean of January–August monthly values", "value_type": "estimated_mean"}, "monthly_values": {"value": "36.20, 36.39, 36.53, 36.64, 36.71, 36.75, 36.86(P), 36.92(P)", "unit": "US dollars per hour, January through August", "value_type": "reported_series"}},
+      "method": "Arithmetic mean of eight BLS seasonally adjusted monthly average-hourly-earnings observations retrieved from the official CES series page.",
+      "uncertainty": "July and August are preliminary and the series can be revised; CES is an establishment average, not a worker-level wage trajectory, and does not observe hours, benefits, job quality, control, or bargaining.",
+      "subgroup": "All employees in manufacturing establishments; no worker demographic or occupation subgroup.",
+      "counterinterpretation": "Average pay can rise while worker purchasing power, hours, employment security, or discretion do not improve; composition and establishment mix can affect the aggregate.",
+      "source_url": "https://data.bls.gov/timeseries/CES3000000003",
+      "retrieval_hash": "sha256:d6e9cbba46c650e18be2ff65262e463647474c09e9f08606379b2827b7c4db5a",
+      "status": "estimated"
+    },
+    {
+      "period": "January–August 2026; July and August preliminary",
+      "denominator": {"value": 8, "unit": "available monthly seasonally adjusted CES observations", "value_type": "partial_year_time_series_mean"},
+      "measures": {"industry": {"value": "professional and business services", "unit": "CES6000000003 series", "value_type": "label"}, "average_hourly_earnings_ytd": {"value": 45.4337, "unit": "US dollars per hour, arithmetic mean of January–August monthly values", "value_type": "estimated_mean"}, "monthly_values": {"value": "45.03, 45.22, 45.28, 45.41, 45.56, 45.63, 45.64(P), 45.70(P)", "unit": "US dollars per hour, January through August", "value_type": "reported_series"}},
+      "method": "Arithmetic mean of eight BLS seasonally adjusted monthly average-hourly-earnings observations retrieved from the official CES series page.",
+      "uncertainty": "July and August are preliminary and the series can be revised; CES is an establishment average, not a worker-level wage trajectory, and does not observe hours, benefits, job quality, control, or bargaining.",
+      "subgroup": "All employees in professional and business services establishments; no worker demographic or occupation subgroup.",
+      "counterinterpretation": "A high sector average does not identify who receives the pay, how pay varies within firms, or whether a worker has greater outside options or decision rights.",
+      "source_url": "https://data.bls.gov/timeseries/CES6000000003",
+      "retrieval_hash": "sha256:084664e5a0a7a31eaf3387142d476e8b34f7eb753470b542beff809145a9ded9",
+      "status": "estimated"
+    },
+    {
+      "period": "January–August 2026; July and August preliminary",
+      "denominator": {"value": 8, "unit": "available monthly seasonally adjusted CES observations", "value_type": "partial_year_time_series_mean"},
+      "measures": {"industry": {"value": "education and health services", "unit": "CES6500000003 series", "value_type": "label"}, "average_hourly_earnings_ytd": {"value": 36.2413, "unit": "US dollars per hour, arithmetic mean of January–August monthly values", "value_type": "estimated_mean"}, "monthly_values": {"value": "36.13, 36.21, 36.18, 36.23, 36.23, 36.25, 36.31(P), 36.39(P)", "unit": "US dollars per hour, January through August", "value_type": "reported_series"}},
+      "method": "Arithmetic mean of eight BLS seasonally adjusted monthly average-hourly-earnings observations retrieved from the official CES series page.",
+      "uncertainty": "July and August are preliminary and the series can be revised; CES is an establishment average, not a worker-level wage trajectory, and does not observe hours, benefits, job quality, control, or bargaining.",
+      "subgroup": "All employees in private education and health services establishments; no worker demographic or occupation subgroup.",
+      "counterinterpretation": "A relatively stable sector average can coexist with staffing shortages, unpaid care pressure, schedule instability, or unequal pay within the sector.",
+      "source_url": "https://data.bls.gov/timeseries/CES6500000003",
+      "retrieval_hash": "sha256:7157548d3678073e161410b8b7556e19096ec542388f534243628d16c89efbc8",
+      "status": "estimated"
+    },
+    {
+      "period": "January–August 2026; July and August preliminary",
+      "denominator": {"value": 8, "unit": "available monthly seasonally adjusted CES observations", "value_type": "partial_year_time_series_mean"},
+      "measures": {"industry": {"value": "leisure and hospitality", "unit": "CES7000000003 series", "value_type": "label"}, "average_hourly_earnings_ytd": {"value": 23.5413, "unit": "US dollars per hour, arithmetic mean of January–August monthly values", "value_type": "estimated_mean"}, "monthly_values": {"value": "23.30, 23.40, 23.47, 23.52, 23.59, 23.66, 23.65(P), 23.74(P)", "unit": "US dollars per hour, January through August", "value_type": "reported_series"}},
+      "method": "Arithmetic mean of eight BLS seasonally adjusted monthly average-hourly-earnings observations retrieved from the official CES series page.",
+      "uncertainty": "July and August are preliminary and the series can be revised; CES is an establishment average, not a worker-level wage trajectory, and does not observe hours, benefits, job quality, control, or bargaining.",
+      "subgroup": "All employees in leisure and hospitality establishments; no worker demographic or occupation subgroup.",
+      "counterinterpretation": "A lower sector average is not a worker-level welfare measure; tips, hours, multiple jobs, location, and within-sector composition are not represented by this mean alone.",
+      "source_url": "https://data.bls.gov/timeseries/CES7000000003",
+      "retrieval_hash": "sha256:7a9f6ef433037644390ce2e0113e5e05ed10879b581009a86989379c7995e66c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/news.release/empsit.htm", "claim": "The August 2026 Employment Situation release supplies the current publication context and marks August establishment estimates preliminary where applicable.", "status": "official-release-context"},
+    {"source_url": "https://www.bls.gov/news.release/jolts.htm", "claim": "The latest JOLTS release provides a separate establishment-based mobility context through July 2026.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This record extends the selected-industry CES earnings context through August 2026 using a partial-year series-page vintage. It does not establish worker-level wage growth, real purchasing power, job quality, bargaining power, household security, or a causal relationship with AI adoption, union membership, or quits. It must not be treated as a complete 2026 annual mean."
+}

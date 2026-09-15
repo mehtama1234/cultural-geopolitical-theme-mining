@@ -128,3 +128,6 @@ the weight, row percentages, complex design, and standard errors. The
 variable wording and universes are documented in the [official ANES study
 release](https://electionstudies.org/data-center/2024-time-series-study/) and
 [codebook](https://electionstudies.org/wp-content/uploads/2025/05/anes_timeseries_2024_userguidecodebook_20250430.pdf).
+
+The bounded cross-tabs are preserved in the [machine-readable trend record](../../records/us-anes-immigration-meaning-action-2024.json)
+for the shared registry and theme-coverage builds.

@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-work-following-2024",
+  "title": "Utility and energy-assistance screens precede distinct but uncertain next-month work changes",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "2025 SIPP public-use file, 2024 reference year; identified person-month pairs",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; utility-payment screen at month t and following-month work measures",
+      "denominator": {"value": 24289, "unit": "eligible person-month pairs with valid household-status, utility field, positive weight, and consecutive months; outcome measures retain their own valid pair counts", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 81.678, "unit": "person-weighted percent; valid pair n=9269", "value_type": "conditional_share", "standard_error_percentage_points": 2.500, "approx_95_ci_percentage_points": [76.779, 86.578]},
+        "hours_changed_next_month": {"value": 7.714, "unit": "person-weighted percent; valid pair n=9474", "value_type": "conditional_share", "standard_error_percentage_points": 6.406, "approx_95_ci_percentage_points": [0.000, 20.270]}
+      },
+      "method": "Same-person monthly transition: valid EAWBGAS utility-payment screen at month t, then nonnegative numeric TPEARN and TMWKHRS change at month t+1; WPFINWGT from month t and 240 Census replicate weights with Fay BRR, G=240, perturbation factor 0.5. THHLDSTATUS and AAWBGAS validity filters retained.",
+      "uncertainty": "Approximate Fay-BRR intervals are wide for the utility-difficulty hours-change estimate. Earnings and hours have separate valid-pair universes; person-month rows repeat household fields and are not a household-prevalence estimate.",
+      "subgroup": "Person-month pairs reporting utility-payment difficulty at month t.",
+      "counterinterpretation": "The high earnings-change share does not mean utility difficulty caused earnings movement; monthly earnings can change for seasonal, job, demographic, or reporting reasons. Hours movement is imprecise in this subgroup.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70; script:sha256:2b91a4222c2bdca37a748afc3e7df1d09a34bc5d4ccd2f14844af3b67c94da15",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; no utility-payment difficulty at month t and following-month work measures",
+      "denominator": {"value": 321766, "unit": "eligible person-month pairs with valid household-status, utility field, positive weight, and consecutive months; outcome measures retain their own valid pair counts", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 84.031, "unit": "person-weighted percent; valid pair n=145626", "value_type": "conditional_share", "standard_error_percentage_points": 2.669, "approx_95_ci_percentage_points": [78.800, 89.263]},
+        "hours_changed_next_month": {"value": 5.275, "unit": "person-weighted percent; valid pair n=147006", "value_type": "conditional_share", "standard_error_percentage_points": 2.231, "approx_95_ci_percentage_points": [0.903, 9.648]}
+      },
+      "method": "Same-person monthly transition using the same SIPP fields, validity rules, WPFINWGT, and 240-replicate Fay-BRR procedure as the utility-difficulty comparison.",
+      "uncertainty": "The comparison is descriptive and uses separate valid universes for earnings and hours. The no-difficulty hours estimate is more precise than the difficulty estimate but does not identify a causal contrast.",
+      "subgroup": "Person-month pairs reporting no utility-payment difficulty at month t.",
+      "counterinterpretation": "A lower hours-change share without reported utility difficulty does not establish that utility stability protects work continuity; job composition, seasonality, and selection into the reported utility field may differ.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70; script:sha256:2b91a4222c2bdca37a748afc3e7df1d09a34bc5d4ccd2f14844af3b67c94da15",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; energy assistance at month t and following-month work measures",
+      "denominator": {"value": 13389, "unit": "eligible person-month pairs with valid energy-assistance field, positive weight, and consecutive months; outcome measures retain their own valid pair counts", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 79.590, "unit": "person-weighted percent; valid pair n=3454", "value_type": "conditional_share", "standard_error_percentage_points": 2.154, "approx_95_ci_percentage_points": [75.369, 83.812]},
+        "hours_changed_next_month": {"value": 7.645, "unit": "person-weighted percent; valid pair n=3513", "value_type": "conditional_share", "standard_error_percentage_points": 0.744, "approx_95_ci_percentage_points": [6.187, 9.104]}
+      },
+      "method": "Same-person monthly transition using EENERGY_ASST code 1, WPFINWGT, and the 240-replicate Fay-BRR procedure.",
+      "uncertainty": "Energy-assistance status is a reported field with its own missingness and selection. The estimate describes a conditional transition surface, not assistance effectiveness or work displacement.",
+      "subgroup": "Person-month pairs reporting energy assistance at month t.",
+      "counterinterpretation": "Assistance may be targeted to households already facing work or health instability; the lower earnings-change share could reflect composition or support, and the data do not distinguish those explanations.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70; script:sha256:2b91a4222c2bdca37a748afc3e7df1d09a34bc5d4ccd2f14844af3b67c94da15",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; no energy assistance at month t and following-month work measures",
+      "denominator": {"value": 177970, "unit": "eligible person-month pairs with valid energy-assistance field, positive weight, and consecutive months; outcome measures retain their own valid pair counts", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 82.558, "unit": "person-weighted percent; valid pair n=70188", "value_type": "conditional_share", "standard_error_percentage_points": 0.408, "approx_95_ci_percentage_points": [81.760, 83.357]},
+        "hours_changed_next_month": {"value": 6.708, "unit": "person-weighted percent; valid pair n=70965", "value_type": "conditional_share", "standard_error_percentage_points": 0.183, "approx_95_ci_percentage_points": [6.349, 7.067]}
+      },
+      "method": "Same-person monthly transition using EENERGY_ASST code 2, WPFINWGT, and the 240-replicate Fay-BRR procedure.",
+      "uncertainty": "The no-assistance comparison retains the field-specific valid universes and does not control for income, tenure, season, health, household composition, or job type.",
+      "subgroup": "Person-month pairs reporting no energy assistance at month t.",
+      "counterinterpretation": "Differences between assistance and no-assistance groups may reflect eligibility, need, geography, or reporting selection rather than a protective or disruptive effect of assistance.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70; script:sha256:2b91a4222c2bdca37a748afc3e7df1d09a34bc5d4ccd2f14844af3b67c94da15",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official SIPP field definitions, codes, universes, and status flags.", "status": "official-definition"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive used for Fay-BRR variance.", "status": "official-replicate-weights"}
+  ],
+  "boundary": "This is a same-person, month-to-next-month descriptive SIPP transition screen. It places utility-payment difficulty and energy-assistance status beside subsequent earnings and hours movement, but it does not observe the exact bill, work shock, desired hours, care substitution, remedy, recovery, trust, political action, or a causal effect of utility conditions or assistance. Person-month rows repeat household fields and are not household prevalence estimates."
+}

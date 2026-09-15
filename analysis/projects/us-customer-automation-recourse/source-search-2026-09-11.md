@@ -55,3 +55,17 @@ This gives a sharper question than “does AI improve service?” It may improve
 [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
 
 [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+
+## Current API refresh: 2026-09-13
+
+| ID | Source | What it tells us | Status | Limit |
+|---|---|---|---|---|
+| US-CFPB-CCDB-API-2026-09-13 | [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/) | The official API returned 2,739,722 published records received during 2024; current index metadata reported 17,729,722 records, last updated/indexed 2026-09-13 12:00 ET, with stale and data-issue flags false | Current aggregate API refresh; retrieval hash preserved by the [aggregate fetcher](../../../scripts/fetch_cfpb_complaint_aggregation.py) | Published complaints are not a representative marketplace sample; response categories are not verified remedies and cannot show switching, trust, or consumer harm rates |
+| US-CFPB-CCDB-API-DOCS-2026-09-13 | [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html) | Documents the trailing-slash API server and query fields used for date and product filtering | Official API documentation | API availability and field definitions can change; preserve the request URL and retrieval hash for each snapshot |
+
+The detailed refresh record is [CFPB 2024 complaint aggregation refresh](cfpb-2024-aggregation-refresh-2026-09-13.md). It advances the institutional-response stage while leaving the same-case verified-remedy, repeat-effort, trust, and exit stages open.
+
+The [2020–2025 annual response trend](cfpb-annual-response-trend-2020-2025-v1.md)
+adds comparable annual aggregate snapshots. The visible response mix changes
+over time, but taxonomy, routing, publication, and complaint-selection changes
+remain counterinterpretations; this is not a consumer-remedy trend.

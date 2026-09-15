@@ -5,12 +5,35 @@ consumer, institutional, financial, political, and geopolitical theme-mining
 program. It is not a one-household study. Household data is one measurement
 layer inside the program.
 
-## The actual goal
+For the durable session-to-session control state, also read the [program
+continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md). It keeps
+the full long-term objective active while the execution queue chooses the next
+empirical pass.
 
-Extract and test recurring themes across many source families—surveys,
-administrative records, public records, research, company filings, markets,
-platforms, media and cultural measures, opinion and election data, and
-international or supply-chain records where they explain a US exposure.
+Before handing off or starting a new research cycle, run the consolidated
+`python3 scripts/validate_long_term_publication_gate.py`. It checks registry
+sync, source coverage, provenance, observation records, finding and watchlist
+parity, published links, local links, and whitespace together.
+
+## The big end-to-end goal
+
+Build a durable, evidence-grounded system for discovering and testing recurring
+cultural, societal, political, consumer, institutional, financial, firm,
+infrastructure, and geopolitical themes and trends in the United States.
+
+Triangulate surveys, administrative and public records, research, company
+filings, markets, platforms, media and cultural measures, opinion and election
+data, and international or supply-chain records where they explain a US
+exposure. The program should determine what is changing, who is exposed or
+protected, what adaptations and meanings recur, how costs and power move
+between actors, and which patterns survive comparison across populations,
+places, sectors, and time.
+
+The deliverable is a living trend atlas: source-backed findings,
+counterexamples, subgroup differences, uncertainty, measurement limits, and
+explicit next tests. It is a population- and system-level program, not a
+one-household study; household and longitudinal records are instruments for
+testing selected links within the broader map.
 
 The target is a connected map of how conditions and decisions move through
 people, consumers, workers, households, firms, institutions, communities, and
@@ -29,6 +52,33 @@ condition / price / rule / technology / shock
 Every arrow must be marked observed, reported, estimated, compared, inferred,
 or open. The project must not promote a plausible story into a finding merely
 because adjacent datasets point in the same direction.
+
+## How this goal is pursued over the long term
+
+The program grows as a maintained atlas rather than a one-time report. Each
+research cycle should add or revisit source cards, trend records, subgroup and
+place comparisons, counterexamples, and historical observations across the
+14-theme inventory. New work should be selected because it strengthens a weak
+arrow, adds a distinct source family or measurement level, tests a reversal, or
+shows that a previously reported pattern changed.
+
+The durable workflow is:
+
+```text
+collect source evidence
+  -> normalize unit, date, geography, measure, and denominator
+  -> extract cautious recurring themes
+  -> compare populations, places, sectors, and time
+  -> test counterexamples and competing explanations
+  -> connect adjacent stages where a valid design permits
+  -> publish, version, and periodically re-test the trend atlas
+```
+
+The long-term outcome is not a single composite score or a final theory of
+society. It is an increasingly reliable map of what appears to be changing,
+for whom, through which mechanisms, with what cultural, political, consumer,
+institutional, firm, infrastructural, or geopolitical consequences—and what
+the evidence still cannot establish.
 
 ## Theme inventory
 
@@ -104,7 +154,7 @@ cross-theme layers:
 
 - [aging, care supply, and social capacity](analysis/projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md): how demographic need becomes family time, paid-care work, employer constraint, public infrastructure, unmet need, and political meaning across separate units;
 
-- [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the exact official microdata targets and bounded weighted estimate for the care-versus-work layer, with the current BLS download failure preserved as an acquisition gap.
+- [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the official microdata targets and bounded weighted estimate for the care-versus-work layer; the respondent/activity/summary extraction is complete, while replicate weights, eldercare-roster detail, and same-event linkage remain open.
 - [ATUS 2023–2024 published care/work layer](analysis/projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md): an official population baseline showing the scale, age/employment distribution, frequency, and care-day intensity of unpaid eldercare before attempting the stronger same-respondent displacement test.
 
 - [public-system participation, meaning, and action gap](analysis/projects/us-safety-net-access/public-system-meaning-action-gap-v1.md): records the SIPP reason/transition evidence and the precise missing same-episode bridge to trust, remedy, and political action.
@@ -327,6 +377,7 @@ place/culture/politics, and firm/infrastructure scales. None should be replaced
 by a larger source count without closing at least one missing arrow.
 
 Use the [broad end-to-end event ledger](analysis/templates/US-BROAD-EVENT-LEDGER_V1.md)
+and its reusable structural validator (`scripts/validate_us_broad_event_ledger.py`)
 as the common recording instrument. It supports cross-level events without
 forcing every question into a household panel and requires a separate status,
 unit, time order, counterexample, and missing link for each arrow.

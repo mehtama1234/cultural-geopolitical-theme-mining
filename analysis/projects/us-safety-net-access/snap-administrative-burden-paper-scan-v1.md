@@ -1,10 +1,12 @@
 # SNAP administrative burden and practical access: paper scan v1
 
-**Checked:** 2026-09-13
+**Checked:** 2026-09-14
 **Question:** When a public benefit exists on paper, how do interviews,
 office distance, renewal timing, and work documentation change practical access?
 **Status:** cross-study institutional layer; sources use different states,
 periods, units, and designs and are not a single joined estimate
+
+The structured companion record is [SNAP administrative access](../../records/us-snap-administrative-access-2026.json). It preserves each study's unit, denominator, estimate type, uncertainty, counterinterpretation, and source URL without pooling the studies.
 
 ## The route is part of the policy
 
@@ -28,6 +30,7 @@ political path.
 | [Flexible intake interviews](https://www.nber.org/papers/w31239) | Field experiment involving about 65,000 Los Angeles SNAP applicants | Applicant-initiated flexible interviews increased approvals by about 6 percentage points, doubled early approvals, and increased longer-term participation by more than 2 percentage points | A route/interview design can change approval and continued participation among applicants | Los Angeles during the study period; it does not measure later food, debt, health, trust, or political action for each applicant |
 | [Enrollment-office openings and closings](https://www.nber.org/papers/w34529) | Administrative SNAP cases linked to geocoded offices in one state; event-study variation | Closing an office reduced tract SNAP participation by 7–9% over two years; opening effects were suggestive and concentrated in urban areas | Place-based access and travel/office availability can change participation | Participation, not take-up among all eligible people; one-state geography and no same-person interpretation |
 | [General work requirements](https://www.nber.org/papers/w32441) | Linked administrative records; parents exposed to general SNAP work requirements | Parents did not increase work but became much less likely to receive SNAP; authors identify administrative burden as the key mechanism | A rule framed as labor activation can instead reduce benefit access without the intended work response | Studied state and policy; does not estimate every work-requirement design or downstream household security |
+| [Work requirements and incumbent participants](https://www.nber.org/papers/w28877) | Linked SNAP and earnings administrative data with a regression-discontinuity design | Work requirements increased exits by 23 percentage points after 18 months, reduced overall participation among subject adults by 53%, and showed no employment effect; homeless adults were disproportionately screened out | Exit can be a participation response without the intended employment response | The estimate belongs to the studied requirement and population; earnings and employment are not the same as food, debt, health, or security outcomes |
 | [Procedural denials](https://www.nber.org/papers/w34698) | Administrative data with age-based exemption and difference-in-differences design | Work requirements significantly increased procedural and overall denials | Reporting/compliance requirements can operate through denial procedure, not only eligibility | Recent working paper; design-specific and not a national denial rate |
 | [Recertification timing and churn](https://www.nber.org/reporter/2024number3/snap-eligibility-enforcement-and-program-adoption) | Administrative recertification cases and interview timing | Roughly half of cases failed recertification; many rejected cases appeared below the earnings threshold, and about half of failures reentered soon after | Exit and reentry can reflect administrative churn rather than durable improvement | The cited evidence is from defined administrative settings and does not measure every reason for failure |
 

@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-work-adoption-control-2024-2026",
+  "title": "AI adoption is broad but uneven, and measured gains do not settle worker control",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "infrastructure_technology_dependency", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "cross-study worker, task, workplace, and experimental participant units",
+  "geography": "United States and comparative workplace experiments",
+  "observations": [
+    {
+      "period": "2023; customer-support field experiment",
+      "denominator": {"value": 5179, "unit": "customer-support agents"},
+      "measures": {"issues_resolved_per_hour_change": {"value": 14, "unit": "percent change in issues resolved per hour", "value_type": "estimated_effect"}},
+      "method": "Staggered-access workplace study summarized in NBER Working Paper 31161; treatment is access to a generative-AI assistant.",
+      "uncertainty": "Study-specific experimental estimate; effect heterogeneity, tool availability, outage timing, occupation, and external validity limit generalization.",
+      "subgroup": "Customer-support agents; larger improvement reported for novice and lower-skilled workers.",
+      "counterinterpretation": "A productivity gain in one assisted customer-support setting does not establish changed pay, job security, autonomy, or worker bargaining power.",
+      "source_url": "https://www.nber.org/papers/w31161",
+      "retrieval_hash": "sha256:6e041dc44accb8f023f549e842933c08e19227ae3c01a50b23d835ee6370b30e",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; multi-firm knowledge-worker field experiment",
+      "denominator": {"value": 7137, "unit": "knowledge workers across 66 firms"},
+      "measures": {"treated_users": {"value": 80, "unit": "percent of treated workers who used the tool in the second half of the six-month experiment", "value_type": "reported_share"}, "email_time_change": {"value": -2, "unit": "hours per week among treated users in the second half of the experiment", "value_type": "reported_effect"}, "work_outside_regular_hours": {"value": "decreased", "unit": "worker-reported/telemetry work-pattern direction", "value_type": "directional_result"}, "task_quantity_or_composition": {"value": "no detectable change", "unit": "reported field-experiment outcome", "value_type": "null_result"}},
+      "method": "Six-month randomized field experiment across 66 firms and 7,137 knowledge workers, with individual access to a generative-AI tool integrated into existing email, meeting, and writing applications; NBER Working Paper 33795 abstract and revision page.",
+      "uncertainty": "The two-hour estimate is conditional on treated workers who used the tool in the second half of the experiment, not an intent-to-treat effect for all assigned workers. The study does not establish that saved time accrued to workers, changed pay, reduced workload overall, improved health, or altered bargaining power; longer-run outcomes remain open.",
+      "subgroup": "Knowledge workers across 66 firms.",
+      "counterinterpretation": "Less time on email or outside-hours work is not necessarily time returned to workers; employers may reallocate saved capacity, and no task-composition shift does not mean no control change.",
+      "source_url": "https://www.nber.org/papers/w33795",
+      "retrieval_hash": "sha256:23bc5d44d0dcff9447c59146c5b3307fe296be943fa0b7f2221c64a14109db16",
+      "status": "compared"
+    },
+    {
+      "period": "2026; nationally representative worker task-adoption survey",
+      "denominator": {"value": 13920, "unit": "employed RPS respondents ages 18-64 pooled across August 2025, November 2025, February 2026, and May 2026"},
+      "measures": {"within_occupation_or_task_adoption": {"value": "fewer than half in most occupations and tasks", "unit": "reported worker-adoption pattern", "value_type": "qualitative_share_bound"}, "occupation_task_exposure_explains_all_adoption_variation": {"value": "no; exposure explains 5%-53% across occupations and 7%-44% across tasks depending on measure", "unit": "reported model comparison", "value_type": "reported_model_result"}, "worker_task_regression_observations": {"value": 55634, "unit": "worker-task observations among people performing at least two tasks", "value_type": "reported_analysis_sample"}},
+      "method": "Nationally representative worker survey and task-level adoption indexes reviewed in the full NBER Working Paper 35677; worker-reported adoption is distinguished from platform chat-log activity.",
+      "uncertainty": "The RPS is an online survey calibrated to key CPS demographics rather than a simple random sample, and the paper is a working paper. Adoption remains a descriptive use measure, not a workplace-outcome measure.",
+      "subgroup": "Workers within detailed occupations and tasks.",
+      "counterinterpretation": "Broad aggregate adoption can coexist with shallow adoption among similar workers; occupation exposure is not worker access, training, discretion, monitoring, or bargaining power.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "reported"
+    },
+    {
+      "period": "2026; randomized education-gap task experiment without AI",
+      "denominator": {"value": 1174, "unit": "adult experimental participants"},
+      "measures": {"higher_education_performance_gap_without_ai": {"value": 0.548, "unit": "standard deviations", "value_type": "effect_size"}, "higher_education_performance_gap_with_ai": {"value": 0.139, "unit": "standard deviations", "value_type": "effect_size"}},
+      "method": "Randomized online experiment summarized in NBER Working Paper 34851; adults completed an incentivized business problem-solving task with or without a generative-AI assistant.",
+      "uncertainty": "Single-task online experiment; the abstracted result does not establish workplace transfer, persistence, employer recognition, or effects on pay and control.",
+      "subgroup": "Adults aged 25–45 grouped by education level.",
+      "counterinterpretation": "AI can narrow a measured task-performance gap while underlying skill differences reappear without access; equalizing task performance is not equalizing workplace power.",
+      "source_url": "https://www.nber.org/papers/w34851",
+      "retrieval_hash": "sha256:680ec546709a0f04c6598506d1defeec13828a608b044ed478d5108198eb26b2",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; cross-study synthesis boundary",
+      "denominator": {"value": 5, "unit": "distinct evidence settings represented in the linked finding"},
+      "measures": {"directly_observed_stages": {"value": "availability, adoption heterogeneity, selected productivity/time effects, and task-performance differences", "unit": "evidence-chain stages", "value_type": "scope_boundary"}, "workplace_power_outcomes": {"value": "not observed as a connected outcome", "unit": "pay, promotion, health, autonomy, voice, and household-security stages", "value_type": "open_link"}},
+      "method": "Bounded cross-source synthesis in the AI, work, and control project; studies are compared by unit and mechanism rather than pooled.",
+      "uncertainty": "Different populations, interventions, outcomes, and periods prevent a single effect estimate; source methods and full-paper reviews remain uneven.",
+      "subgroup": "Worker/task/workplace/participant evidence across linked studies.",
+      "counterinterpretation": "The same technology label can describe assistance, recommendation, allocation, monitoring, or evaluation; these functions may produce different control and meaning outcomes.",
+      "source_url": "https://www.nber.org/papers/w31161",
+      "retrieval_hash": "sha256:6e041dc44accb8f023f549e842933c08e19227ae3c01a50b23d835ee6370b30e",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a bounded cross-source AI-at-work evidence record. It establishes selected adoption, productivity, time, and task-performance findings without claiming a general employment, pay, health, cultural, political, or geopolitical effect. It does not join the studies' units, infer worker control from adoption, or connect workplace outcomes to household security or state dependence."
+}

@@ -1,0 +1,202 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Finding 010: HPSA designations carry operational fields, but those fields are unevenly populated and not service capacity"><title>Finding 010: HPSA designations carry operational fields, but those fields are unevenly populated and not service capacity</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#the-bounded-finding">The bounded finding</a></li><li><a href="#type-conditioned-operational-fields">Type-conditioned operational fields</a></li><li><a href="#the-missingness-is-substantive">The missingness is substantive</a></li><li><a href="#what-the-score-and-shortage-fields-do-not-mean">What the score and shortage fields do not mean</a></li><li><a href="#how-this-connects-to-the-places-outcome-screen">How this connects to the PLACES outcome screen</a></li><li><a href="#counterexamples-retained">Counterexamples retained</a></li><li><a href="#next-decisive-test">Next decisive test</a></li><li><a href="#reproduction-and-sources">Reproduction and sources</a></li></ul></nav></div><article id="finding" class="memo"><h1>Finding 010: HPSA designations carry operational fields, but those fields are unevenly populated and not service capacity</h1>
+<p><strong>Status:</strong> provisional HRSA designation-field audit · <strong>Checked:</strong> 2026-09-15</p>
+<h2 id="the-bounded-finding">The bounded finding</h2>
+<p>The current HRSA primary-care HPSA file contains more than a binary shortage
+flag. It carries designated population, estimated underserved population, FTE,
+shortage, and score fields. But the fields are not uniformly available across
+designation types, and none is an observed measure of appointments, active
+hours, insurance acceptance, travel, quality, or household care use.</p>
+<p>Among 20,905 designated primary-care rows covering 2,888 US counties in the
+downloaded current file:</p>
+<ul>
+<li>HPSA score is populated for all rows, with a row-level median of 16;</li>
+<li>designated population is populated for 20,895 rows;</li>
+<li>FTE and shortage are populated for 16,582 rows;</li>
+<li>estimated underserved population is populated for 16,039 rows; and</li>
+<li>formal ratio is not populated in the downloaded file.</li>
+</ul>
+<p>The main result is therefore an operational-data boundary:</p>
+<blockquote>
+<p>HRSA designation data can describe the institutional basis and scale of a
+shortage designation, but its fields cannot be treated as a complete provider
+capacity ledger or a county-level outcome.</p>
+</blockquote>
+<h2 id="type-conditioned-operational-fields">Type-conditioned operational fields</h2>
+<table>
+<thead>
+<tr>
+<th>Row category</th>
+<th style="text-align: right;">Rows</th>
+<th style="text-align: right;">Counties</th>
+<th style="text-align: right;">Median FTE (available rows)</th>
+<th style="text-align: right;">Median designated population</th>
+<th style="text-align: right;">Median estimated underserved population</th>
+<th style="text-align: right;">Median score</th>
+<th style="text-align: right;">Median shortage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All designated primary-care rows</td>
+<td style="text-align: right;">20,905</td>
+<td style="text-align: right;">2,888</td>
+<td style="text-align: right;">5.1802 (16,582 available)</td>
+<td style="text-align: right;">42,551</td>
+<td style="text-align: right;">23,715 (16,039 available)</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">7.14 (16,582 available)</td>
+</tr>
+<tr>
+<td>Geographic HPSA type</td>
+<td style="text-align: right;">3,886</td>
+<td style="text-align: right;">996</td>
+<td style="text-align: right;">7.0</td>
+<td style="text-align: right;">38,497</td>
+<td style="text-align: right;">11,651</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">3.33</td>
+</tr>
+<tr>
+<td>Population HPSA type</td>
+<td style="text-align: right;">12,153</td>
+<td style="text-align: right;">1,673</td>
+<td style="text-align: right;">5.18</td>
+<td style="text-align: right;">51,723</td>
+<td style="text-align: right;">27,919</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">9.306</td>
+</tr>
+<tr>
+<td>Facility/site HPSA type</td>
+<td style="text-align: right;">4,866</td>
+<td style="text-align: right;">1,884</td>
+<td style="text-align: right;">0.375 (543 available)</td>
+<td style="text-align: right;">24,165.5</td>
+<td style="text-align: right;">unavailable</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0.99 (543 available)</td>
+</tr>
+<tr>
+<td>Census-tract component</td>
+<td style="text-align: right;">12,238</td>
+<td style="text-align: right;">243</td>
+<td style="text-align: right;">6.592</td>
+<td style="text-align: right;">63,603</td>
+<td style="text-align: right;">35,170</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">11.133</td>
+</tr>
+<tr>
+<td>County/subdivision component</td>
+<td style="text-align: right;">3,801</td>
+<td style="text-align: right;">2,371</td>
+<td style="text-align: right;">1.034</td>
+<td style="text-align: right;">10,312</td>
+<td style="text-align: right;">5,161</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">1.63</td>
+</tr>
+<tr>
+<td>Low-income population code</td>
+<td style="text-align: right;">9,934</td>
+<td style="text-align: right;">1,553</td>
+<td style="text-align: right;">4.369</td>
+<td style="text-align: right;">42,551</td>
+<td style="text-align: right;">23,916</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">7.97</td>
+</tr>
+<tr>
+<td>Migrant/seasonal population code</td>
+<td style="text-align: right;">2,321</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">9.992</td>
+<td style="text-align: right;">95,378</td>
+<td style="text-align: right;">65,139</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">21.717</td>
+</tr>
+</tbody>
+</table>
+<p>The rows and counties overlap. The table is not a ranking of shortage severity,
+and national sums would be misleading because the same county, population, or
+facility can appear in multiple designation components.</p>
+<h2 id="the-missingness-is-substantive">The missingness is substantive</h2>
+<p>The facility/site category illustrates why field availability matters. FTE is
+available for only 543 of 4,866 facility/site rows, and estimated underserved
+population is unavailable for all 4,866 rows in this extract. A low median FTE
+among the available rows cannot be interpreted as low facility capacity for the
+whole category; it is a conditional statistic on a selected subset of rows.</p>
+<p>Likewise, the overall FTE median is calculated over rows that report FTE, not
+over all designated components. It should not be multiplied by component count
+to estimate national primary-care staffing. The same caution applies to
+designated and underserved population fields because components overlap.</p>
+<p>This is a useful correction to a common analytical shortcut: a dataset may
+contain a variable named “FTE” or “underserved population” without providing a
+complete denominator for every institutional object in the file.</p>
+<h2 id="what-the-score-and-shortage-fields-do-not-mean">What the score and shortage fields do not mean</h2>
+<p>The score is populated across rows and can help describe designation context,
+but it is not an outcome score for residents. The shortage field is available
+for many rows and varies substantially by category; it still does not measure
+the number of clinicians accepting new patients, appointment delay, distance,
+continuity, price, or quality.</p>
+<p>The migrant/seasonal category is a useful counterexample. It has a higher
+median FTE and shortage field than the low-income category, but that does not
+mean its designated population receives better or worse care. Seasonal and
+migrant service arrangements may require a different interpretation of
+provider timing, geography, and population exposure than a year-round county
+average.</p>
+<h2 id="how-this-connects-to-the-places-outcome-screen">How this connects to the PLACES outcome screen</h2>
+<p>The component-level PLACES finding showed different modeled county social-need
+medians by HPSA type and population code. This operational audit explains why
+those patterns cannot yet be converted into a capacity effect:</p>
+<pre><code class="language-text">HPSA designation object and score
+  -&gt; partially populated FTE / underserved / shortage fields
+  -&gt; unknown active provider hours, reach, acceptance, and wait
+  -&gt; modeled county social-need measure
+  -&gt; unknown patient use, household time, health, trust, or political response
+</code></pre>
+<p>The first arrow is directly recorded for the designated row. The second and
+third arrows require new data. A county-level PLACES median is not the outcome
+of the designated component, and a designation field is not a patient episode.</p>
+<h2 id="counterexamples-retained">Counterexamples retained</h2>
+<ul>
+<li>A high score does not prove long wait, and a low shortage value does not prove
+  adequate care.</li>
+<li>A facility/site designation can have a population field but no usable FTE or
+  underserved-population field in the current extract.</li>
+<li>A county/subdivision component can have low row-level FTE while neighboring
+  or overlapping facilities provide care; row-level values are not county totals.</li>
+<li>Migrant/seasonal components have high designated and underserved population
+  medians but do not map cleanly onto county-wide PLACES denominators.</li>
+<li>A current designation file is not a frozen historical panel; update dates and
+  component status must be time-aligned before interpreting change.</li>
+</ul>
+<h2 id="next-decisive-test">Next decisive test</h2>
+<p>The next place acquisition should join HRSA component identifiers to provider
+locations and operational records:</p>
+<ol>
+<li>component geometry and designated population boundary;</li>
+<li>provider name/type, active status, FTE definition, hours, and specialty;</li>
+<li>insurance acceptance, new-patient status, appointment wait, and price;</li>
+<li>travel time and neighboring-county alternatives; and</li>
+<li>patient-level utilization or a compatible household event after a dated
+   closure, opening, designation change, or service interruption.</li>
+</ol>
+<p>Until then, keep HPSA score, FTE, underserved population, PLACES social need,
+and CBP establishments as separate evidence surfaces. Do not call any one of
+them care adequacy, health impact, trust change, or political response.</p>
+<h2 id="reproduction-and-sources">Reproduction and sources</h2>
+<ul>
+<li><a href="https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv">HRSA primary-care HPSA component CSV</a></li>
+<li><a href="https://data.hrsa.gov/data/download?titleFilter=Shortage+Areas">HRSA shortage-area definitions and downloads</a></li>
+<li><a href="../scripts/analyze_hpsa_operational_fields.py">Operational-field reproduction script</a></li>
+<li><a href="../analysis/projects/us-local-business-place/data/hpsa-operational-fields-summary.json">Committed operational summary</a></li>
+<li><a href="../analysis/records/us-hrsa-hpsa-operational-fields-2026.json">Machine-readable HPSA operational-fields record</a></li>
+<li><a href="us-local-business-place-009.html">HPSA component/PLACES finding</a></li>
+</ul>
+<p><strong>Evidence status:</strong> official current HRSA designation-field audit with row-level
+missingness and overlapping category comparisons. No claim of provider adequacy,
+patient access, causal health effect, household burden, trust, or political
+action.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

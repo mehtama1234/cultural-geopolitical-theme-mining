@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-task-level-genai-adoption-2026",
+  "title": "Worker adoption of generative AI is widespread across tasks but shallow within similar work",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "infrastructure_technology_dependency", "trust_identity_meaning"],
+  "source_unit": "nationally representative worker survey linked to detailed occupations and tasks",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026; nationally representative worker survey",
+      "denominator": {"value": 13920, "unit": "employed RPS respondents ages 18-64 pooled across August 2025, November 2025, February 2026, and May 2026", "value_type": "reported_sample"},
+      "measures": {
+        "task_level_adoption": {"value": "generative AI is used across many occupations and tasks", "unit": "worker-reported adoption pattern", "value_type": "reported_pattern"},
+        "within_task_adoption": {"value": "fewer than half of workers adopt within most occupations and tasks", "unit": "share bound reported in abstract", "value_type": "qualitative_share_bound"}
+      },
+      "method": "Nationally representative worker survey linking generative-AI adoption to detailed occupations and tasks; full-paper descriptive extraction from NBER Working Paper 35677.",
+      "uncertainty": "The paper is a working paper and the RPS is an online survey designed to match key CPS demographics rather than a random sample. The promoted task pattern is descriptive; task-cell thresholds, weighting, missingness, and sampling uncertainty remain relevant.",
+      "subgroup": "Workers doing similar work within detailed occupations and tasks; published abstract does not provide the full subgroup table.",
+      "counterinterpretation": "Shallow adoption may reflect limited need, access, training, employer rules, privacy concerns, or measurement choices rather than unequal capability or resistance.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "reported"
+    },
+    {
+      "period": "2026; occupation/task exposure versus adoption comparison",
+      "denominator": {"value": 55634, "unit": "worker-task observations for workers performing at least two tasks", "value_type": "reported_analysis_sample"},
+      "measures": {
+        "exposure_explanatory_power": {"value": "exposure scores explain some, but far from all, variation in adoption", "unit": "reported relationship", "value_type": "qualitative_model_result"},
+        "worker_adoption_variation": {"value": "substantial variation among workers doing very similar work", "unit": "within-occupation/task variation", "value_type": "reported_pattern"},
+        "exposure_explained_variation": {"value": "5%-53% across occupations and 7%-44% across tasks", "unit": "adjusted R-squared range across exposure measures", "value_type": "reported_model_result"}
+      },
+      "method": "Task-level adoption-index construction and comparison with occupation/task exposure scores; full-paper descriptive extraction.",
+      "uncertainty": "These are predictive/explanatory comparisons, not causal estimates. The range varies by exposure measure and specification; it does not identify the mechanism behind residual adoption variation.",
+      "subgroup": "Detailed occupation and task cells; no worker demographic breakdown is promoted here.",
+      "counterinterpretation": "Residual variation can reflect task coding, survey reporting, employer access, job design, or unobserved worker and workplace characteristics.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "reported"
+    },
+    {
+      "period": "2026; worker-reported adoption versus platform chat-log measurement",
+      "denominator": {"value": 4, "unit": "RPS plus three public/platform chat-log task measures compared by the paper", "value_type": "comparison_base"},
+      "measures": {
+        "measurement_distinction": {"value": "worker-reported task adoption and platform chat-log activity are conceptually different measures", "unit": "measurement boundary", "value_type": "reported_boundary"},
+        "chat_log_classification": {"value": "chat logs tend to over-classify chats into generic activities spanning many occupations", "unit": "reported classification tendency", "value_type": "reported_pattern"},
+        "task_measure_correlations": {"value": "all pairwise correlations below 0.4", "unit": "correlation across task-share measures", "value_type": "reported_comparison"}
+      },
+      "method": "Conceptual and empirical comparison of task-level worker survey indexes with platform chat-log measures; full-paper descriptive extraction.",
+      "uncertainty": "The paper compares measures from different populations and classification systems; low correlation does not by itself identify which measure is correct or imply that either survey or chat logs is complete.",
+      "subgroup": "Occupation/task classifications and platform activity categories.",
+      "counterinterpretation": "Generic chat categories may still capture meaningful cross-occupation assistance, while worker surveys may miss unreported or employer-mediated use.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "reported"
+    },
+    {
+      "period": "2025-08 to 2026-05 pooled public task-index release",
+      "denominator": {"value": 3, "unit": "public index levels: Detailed Work Activities, Intermediate Work Activities, and Broad Work Activities", "value_type": "comparison_base"},
+      "measures": {
+        "dwa_rows_with_rates": {"value": 682, "unit": "nonblank Detailed Work Activity index rows", "value_type": "reported_count"},
+        "iwa_rows_with_rates": {"value": 256, "unit": "nonblank Intermediate Work Activity index rows", "value_type": "reported_count"},
+        "bwa_rows_with_rates": {"value": 9, "unit": "nonblank Broad Work Activity index rows", "value_type": "reported_count"},
+        "highest_displayed_dwa": {"value": "reading technical documents 61.3%; preparing research reports 60.7%; designing integrated computer systems 59.5%", "unit": "worker-reported generative-AI adoption rate by task", "value_type": "weighted_index_rate"},
+        "bwa_reasoning_decision": {"value": 30.0, "unit": "percent across 7,075 unweighted work-activity observations", "value_type": "reported_index_rate"},
+        "bwa_physical_manual": {"value": 9.6, "unit": "percent across 8,351 unweighted work-activity observations", "value_type": "reported_index_rate"}
+      },
+      "method": "Public Google Sheets linked by the NBER paper/data page; rates are survey-weighted shares of performed work-activity observations for which respondents report using generative AI. Cells with fewer than 20 unweighted observations are blank.",
+      "uncertainty": "The public release is an index rather than worker-level microdata; it does not support demographic, employer, place, pay, autonomy, or variance estimates. Task labels and crosswalk metadata require version control for future comparisons.",
+      "subgroup": "Detailed, intermediate, and broad work-activity categories; displayed rates are not worker-level subgroup estimates.",
+      "counterinterpretation": "A high task adoption rate does not imply productivity, job quality, worker control, or employer permission; a low rate may reflect task fit, privacy, quality, or restricted access.",
+      "source_url": "https://sites.google.com/view/covid-rps/data",
+      "retrieval_hash": "sha256:897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf;sha256:be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c;sha256:84660dd773d01ef72c17ac3667fb082704c6a396fc3b8115630127b42b0292e5",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w35677", "claim": "NBER DOI for Working Paper 35677.", "status": "official-metadata"},
+    {"source_url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=416182935", "claim": "Public Detailed Work Activities adoption index; 682 rows with rates.", "status": "public-index"},
+    {"source_url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=1821519318", "claim": "Public Intermediate Work Activities adoption index; 256 rows with rates.", "status": "public-index"},
+    {"source_url": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=646067329", "claim": "Public Broad Work Activities adoption index; 9 rows with rates.", "status": "public-index"},
+    {"source_url": "https://www.nber.org/papers/w31161", "claim": "Field-experiment context for separating adoption from workplace productivity outcomes.", "status": "related-evidence"}
+  ],
+  "boundary": "This record promotes descriptive task- and occupation-level adoption findings from NBER Working Paper 35677 and its public task indexes. It does not establish that adoption changes pay, hours, employment, discretion, monitoring, worker voice, wellbeing, household security, culture, politics, or geopolitical power. The paper is a working paper; worker-level subgroup analysis, crosswalk versioning, and workplace outcomes remain open."
+}

@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-consumer-safety-recalls-import-surveillance-fy2024",
+  "title": "Consumer safety moves through injury surveillance, recalls, import screening, and platform removal",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "firm_sector_market_power", "public_systems_feedback", "unequal_exposure_status", "infrastructure_technology_dependency", "geopolitical_state_consequences"],
+  "source_unit": "US Consumer Product Safety Commission FY2024 Annual Performance Report and public safety-data system descriptions",
+  "geography": "United States; federal consumer-product safety, import, e-commerce, recall, and hospital emergency-room surveillance system",
+  "observations": [
+    {
+      "period": "Fiscal 2024; negotiated and implemented voluntary recalls",
+      "denominator": {"value": 333, "unit": "voluntary recalls negotiated and implemented by CPSC", "value_type": "administrative_count"},
+      "measures": {
+        "recalled_consumer_product_units": {"value": 41, "unit": "million units, approximate", "value_type": "administrative_count"},
+        "prior_fiscal_year_recalls": {"value": 308, "unit": "voluntary recalls; FY2023 comparison", "value_type": "comparison_count"},
+        "prior_fiscal_year_units": {"value": 97, "unit": "million units; FY2023 comparison", "value_type": "comparison_count"}
+      },
+      "method": "CPSC annual performance report administrative performance measure for voluntary recalls negotiated and implemented; recall counts and unit counts are not injury rates.",
+      "uncertainty": "Recall totals depend on hazard detection, reporting, enforcement, product volume, negotiated scope, and agency/company definitions; unit count does not identify exposure, use, injury, or remedy completion.",
+      "subgroup": "Consumer products and firms subject to CPSC jurisdiction; product categories and affected consumers vary across recalls.",
+      "counterinterpretation": "More recalls can reflect more hazards, stronger detection, better reporting, larger product markets, or more aggressive intervention; fewer recalled units can reflect product mix rather than lower risk.",
+      "source_url": "https://cpsc.gov/s3fs-public/FY-2024-APR-508-compliant.pdf",
+      "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2024; regulatory notices and e-commerce takedowns",
+      "denominator": {"value": 1, "unit": "CPSC FY2024 compliance and enforcement performance frame", "value_type": "program_artifact"},
+      "measures": {
+        "regulatory_violation_notices": {"value": 2969, "unit": "notices sent to firms for recall or other protective action", "value_type": "administrative_count"},
+        "products_removed_from_ecommerce_platforms": {"value": 58000, "unit": "products, more than 58,000", "value_type": "administrative_count"},
+        "priority_samples_collected": {"value": 600, "unit": "priority samples, close to", "value_type": "administrative_count"},
+        "takedown_requests_submitted": {"value": 56000, "unit": "requests, more than", "value_type": "administrative_count"}
+      },
+      "method": "CPSC annual performance report description of eSAFE compliance work, product sampling, platform takedown requests, and violation notices.",
+      "uncertainty": "A notice or takedown is an institutional action, not proof that every consumer was exposed, that a product was removed from all channels, or that a remedy reached prior purchasers.",
+      "subgroup": "Firms, products, importers, online marketplaces, and consumers in CPSC compliance and e-commerce surveillance activities.",
+      "counterinterpretation": "Takedown activity can reflect improved search and platform cooperation as well as a changing hazard surface; removal from an identified platform does not establish removal from homes or secondary markets.",
+      "source_url": "https://cpsc.gov/s3fs-public/FY-2024-APR-508-compliant.pdf",
+      "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2024; import surveillance",
+      "denominator": {"value": 65000, "unit": "CPSC import examinations, over", "value_type": "administrative_count"},
+      "measures": {
+        "import_examinations": {"value": 65000, "unit": "examinations, over", "value_type": "administrative_count"},
+        "de_minimis_shipments_examined": {"value": 14000, "unit": "products/shipments, nearly", "value_type": "administrative_count"},
+        "import_surveillance_system": {"value": "risk-based targeting using CPSC and Customs and Border Protection information", "unit": "institutional mechanism", "value_type": "qualitative_mechanism"}
+      },
+      "method": "CPSC performance report description of import examinations and risk-assessment collaboration with CBP, including low-value de minimis shipments.",
+      "uncertainty": "Examinations and targeting do not measure the total unsafe-product flow, the fraction intercepted, country-specific risk, or downstream consumer exposure.",
+      "subgroup": "Imported consumer products, firms/importers, de minimis shipments, ports, and consumers in US markets.",
+      "counterinterpretation": "More examinations may reflect capacity and targeting changes rather than a rise in unsafe imports; an examined product is not necessarily violative and an unexamined product is not necessarily safe.",
+      "source_url": "https://cpsc.gov/s3fs-public/FY-2024-APR-508-compliant.pdf",
+      "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7",
+      "status": "reported"
+    },
+    {
+      "period": "Current CPSC data architecture; 2024–2025 treatment-year availability",
+      "denominator": {"value": 1, "unit": "CPSC public safety-data system", "value_type": "program_artifact"},
+      "measures": {
+        "neiss_design": {"value": "national probability sample of US and territorial hospital emergency departments", "unit": "injury-surveillance design", "value_type": "qualitative_method"},
+        "recall_data_api": {"value": "decades of consumer-product recall information", "unit": "public data service", "value_type": "qualitative_inventory"},
+        "2025_neiss_treatment_data_available": {"value": "yes", "unit": "CPSC query/download availability reported May 7, 2026", "value_type": "reported_availability"}
+      },
+      "method": "CPSC public data and NEISS documentation; injury estimates require product coding, sampling weights, and query-specific definitions.",
+      "uncertainty": "NEISS concerns injuries treated in sampled emergency departments and is not all injury, all product exposure, recall, or consumer-harm data. Recall databases and injury estimates have different units and clocks.",
+      "subgroup": "People with product-related injuries treated in sampled emergency departments and products/firms represented in recall records.",
+      "counterinterpretation": "A recall may prevent future injury without appearing as a contemporaneous injury trend; an injury estimate may persist after a recall or reflect products never subject to recall.",
+      "source_url": "https://www.cpsc.gov/Data",
+      "retrieval_hash": "cpsc-data-page:sha256:aa8476d3e4ff6f653893cba58359d3ea7435b843296e62c7f401adf40389d0b8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cpsc.gov/Recalls", "claim": "CPSC public recall pages and remedy fields provide a current recall/remedy data surface with weekly updates and changing remedy availability.", "status": "official-data-context", "retrieval_hash": "cpsc-recalls-page:sha256:4e5f50972e1c81e8983d012215c34d8808014112a378ca73242b0987319d7a1c"},
+    {"source_url": "https://www.cdc.gov/wisqars/", "claim": "CDC WISQARS supplies a broader injury context; it is not interchangeable with CPSC NEISS product-injury estimates.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.cbp.gov/trade/basic-import-export/e-commerce", "claim": "CBP e-commerce/import context supplies a separate trade and border layer for interpreting CPSC import surveillance.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "CPSC adds a consumer-safety institutional layer linking hazard detection, recalls, import screening, e-commerce takedowns, and injury surveillance. It does not establish product exposure, recall awareness, remedy receipt, injury prevention, firm liability, household cost, trust, or political response for the same consumer.",
+  "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7; cpsc-data-page:sha256:aa8476d3e4ff6f653893cba58359d3ea7435b843296e62c7f401adf40389d0b8; cpsc-recalls-page:sha256:4e5f50972e1c81e8983d012215c34d8808014112a378ca73242b0987319d7a1c"
+}

@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-payment-rewards-redistribution-2026",
+  "title": "Payment-system fees redistribute across consumers through merchant prices and rewards",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US merchant, transaction, payment-method, and modeled consumer-income incidence",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2022; Fiserv merchant settlement cross-section",
+      "denominator": {"value": 1000000, "unit": "approximately one million Fiserv merchants; paper says this covers around one-fifth of US card payments", "value_type": "reported_coverage"},
+      "measures": {
+        "payment_data_surface": {"value": "merchant-level transaction volumes, counts, and fees by card type", "unit": "merchant settlement data", "value_type": "reported_dataset"},
+        "card_payment_coverage": {"value": 20, "unit": "approximate percent of US card payments", "value_type": "reported_coverage"},
+        "merchant_heterogeneity": {"value": "payment composition and interchange fees vary across merchants, sectors, sizes, and negotiated contracts", "unit": "reported empirical pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Descriptive merchant-level settlement-data analysis with a sufficient-statistics incidence framework; paper is an NBER working paper.",
+      "uncertainty": "The coverage is reported as approximately one-fifth of US card payments and the incidence estimate depends on pass-through and matching assumptions. Fiserv coverage is not the same as a nationally representative household sample.",
+      "subgroup": "Merchants differentiated by sector, size, payment composition, and fee arrangements.",
+      "counterinterpretation": "Merchant sorting, negotiated fees, cash discounts, surcharges, or differences in products and customers can change who bears the cost; average fees alone do not identify incidence.",
+      "source_url": "https://www.nber.org/papers/w35067",
+      "retrieval_hash": "sha256:bc2acfe5dbfb82a063122ae4b22192a50e44b7ebe28641f0a4d8606fe2ccd52b",
+      "status": "reported"
+    },
+    {
+      "period": "2026; annual modeled payment-system redistribution",
+      "denominator": {"value": 30000000000, "unit": "US dollars per year; estimated transfer across cash/debit and credit-card users", "value_type": "modeled_estimate"},
+      "measures": {
+        "gross_transfer": {"value": 30, "unit": "billion US dollars per year from cash/debit users to credit-card users", "value_type": "modeled_estimate"},
+        "sorting_fee_heterogeneity_reduction": {"value": 25, "unit": "percent reduction in estimated transfer", "value_type": "modeled_estimate"},
+        "higher_income_transfer": {"value": 9.2, "unit": "billion US dollars per year toward households earning above $150,000", "value_type": "modeled_estimate"},
+        "cash_user_relative_burden": {"value": 26, "unit": "percent higher effective sales-tax equivalent for cash users than premium credit-card users", "value_type": "modeled_estimate"}
+      },
+      "method": "Sufficient-statistics framework maps observed payment-choice and merchant-fee heterogeneity into redistribution under empirically examined pass-through assumptions.",
+      "uncertainty": "These are model-based incidence estimates, not observed transfers on individual bills. The paper is a working paper, and the result depends on how common prices respond to payment acceptance costs and how consumer groups are matched to merchants.",
+      "subgroup": "Cash/debit users, credit-card users, and households above versus below the reported $150,000 income threshold.",
+      "counterinterpretation": "Rewards may pay for convenience, credit, fraud protection, or other services; households may choose different merchants; and merchant pricing responses may not be uniform. The estimate does not establish household welfare loss or political response.",
+      "source_url": "https://www.nber.org/papers/w35067",
+      "retrieval_hash": "sha256:bc2acfe5dbfb82a063122ae4b22192a50e44b7ebe28641f0a4d8606fe2ccd52b",
+      "status": "estimated"
+    },
+    {
+      "period": "2019-2022; Fiserv Clover merchant transaction data",
+      "denominator": {"value": 800000, "unit": "approximately 800,000 Clover merchants; paper describes Clover as a cloud-based point-of-sale platform", "value_type": "reported_coverage"},
+      "measures": {
+        "cash_and_card_composition": {"value": "cash and card payments are observed together in the Clover surface", "unit": "merchant transaction composition", "value_type": "reported_dataset_feature"},
+        "reported_2020_processing": {"value": 133, "unit": "billion US dollars in transactions processed by Clover in 2020", "value_type": "reported_context"},
+        "validation_sources": {"value": "IRS firm-size data, BEA state GDP, industry trade journals, and the Diary of Consumer Payment Choice", "unit": "external validation set", "value_type": "reported_method"}
+      },
+      "method": "Clover transaction-data comparison and validation against public and industry sources; cash is included in this data surface unlike card-only settlement data.",
+      "uncertainty": "Platform merchants are not all US merchants, and the reported processing volume is context rather than a household denominator. Validation does not eliminate selection or measurement error.",
+      "subgroup": "Merchants and transactions observed on the Clover platform during 2019-2022.",
+      "counterinterpretation": "Platform composition, merchant selection, transaction recording, and cash-reporting differences may affect the measured payment mix and its comparability with national data.",
+      "source_url": "https://www.nber.org/papers/w35067",
+      "retrieval_hash": "sha256:bc2acfe5dbfb82a063122ae4b22192a50e44b7ebe28641f0a4d8606fe2ccd52b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer", "claim": "Accessible explanation of the payment-rewards study and its reported transfer estimate.", "status": "context"},
+    {"source_url": "https://doi.org/10.3386/w35067", "claim": "Official NBER DOI metadata for Working Paper 35067.", "status": "official-metadata"}
+  ],
+  "boundary": "This record promotes the underlying NBER paper beyond the prior HBS-only source note, while preserving that the central dollar figures are modeled incidence estimates. It does not establish a household-level bill, welfare effect, financial-stress outcome, or political response, and the paper remains a working paper rather than a peer-reviewed publication."
+}

@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-snap-state-route-performance-2026",
+  "title": "SNAP participation, processing timeliness, and direct access are distinct state-level signals",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "time_hidden_price", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "Official USDA/FNA state-level SNAP participation, application timeliness, recertification timeliness, and Program Access Index tables",
+  "geography": "United States; 50 states and District of Columbia",
+  "observations": [
+    {
+      "period": "FY2025; 50 states and DC",
+      "denominator": {"value": 51, "unit": "matched state/DC aggregates common to participation, APT, RPT, and PAI extraction", "value_type": "geographic_scope"},
+      "measures": {
+        "snap_participation": {"value": {"min": 4.7, "median": 11.3, "mean": 11.52, "max": 21.9}, "unit": "percent of state population; FY2025 average monthly participant rate; state-rate distribution", "value_type": "distribution"},
+        "application_timeliness": {"value": {"min": 61.24, "median": 87.12, "mean": 84.983, "max": 97.22}, "unit": "percent timely among applications subject to the FY2025 APT measure", "value_type": "distribution"},
+        "recertification_timeliness": {"value": {"min": 25.23, "median": 93.75, "mean": 90.79, "max": 99.87}, "unit": "percent timely among recertifications subject to the FY2025 RPT measure", "value_type": "distribution"},
+        "participation_vs_application_timeliness": {"value": 0.033, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"},
+        "participation_vs_recertification_timeliness": {"value": 0.211, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"}
+      },
+      "method": "Joined official FY2025 USDA participation chart data to the official FY2025 FNA APT and RPT state tables by state name; summarized the 51 common state/DC aggregates and calculated unweighted Pearson screens.",
+      "uncertainty": "Ecological descriptive comparison; APT and RPT have distinct quality-control universes, routing rules, and case mix. No causal identification, population weighting, margin-of-error propagation, or household-level inference.",
+      "subgroup": "All 50 states and DC; territories excluded because the companion participation crosswalk is defined for states/DC.",
+      "counterinterpretation": "A low participation rate can coexist with strong route timeliness, and a high participation rate can coexist with weak route timeliness. Participation is not an administrative performance score.",
+      "source_url": "https://www.fna.usda.gov/snap/qc/timeliness/apt-fy25",
+      "retrieval_hash": "sha256:b9a06f662dd2d9707072c7e60dbb617486df63d3a9964d9dec54521bec182219",
+      "status": "compared"
+    },
+    {
+      "period": "Calendar year 2023 compared with FY2025 participation; 50 states and DC",
+      "denominator": {"value": 51, "unit": "matched state/DC aggregates in the 2023 PAI and FY2025 participation extraction", "value_type": "geographic_scope"},
+      "measures": {
+        "program_access_index_2023": {"value": {"min": 0.356, "median": 0.793, "mean": 0.768, "max": 1.32}, "unit": "ratio of average monthly participants to people with income below 125 percent FPL", "value_type": "distribution"},
+        "participation_vs_program_access_index": {"value": 0.799, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"}
+      },
+      "method": "Joined the official 2023 USDA/FNA PAI state table to FY2025 USDA participation rates by state name; summarized the common state/DC aggregates and calculated an unweighted Pearson screen.",
+      "uncertainty": "PAI is not a strict eligible-population take-up rate and can exceed 1 because its denominator is people below 125 percent FPL. The period differs from FY2025; the strong association is partly expected from the construction of the index.",
+      "subgroup": "All 50 states and DC.",
+      "counterinterpretation": "The PAI association is not independent confirmation of the participation rate and cannot establish why a state has high or low access.",
+      "source_url": "https://www.fna.usda.gov/snap/qc/pai",
+      "retrieval_hash": "sha256:b9a06f662dd2d9707072c7e60dbb617486df63d3a9964d9dec54521bec182219",
+      "status": "compared"
+    },
+    {
+      "period": "FY2025; state counterexamples",
+      "denominator": {"value": 51, "unit": "state/DC aggregates; named counterexamples selected from the common extraction", "value_type": "geographic_scope"},
+      "measures": {
+        "Georgia": {"value": "15.6% participation; 61.24% APT; 89.35% RPT", "unit": "state-level rates", "value_type": "counterexample"},
+        "Wisconsin": {"value": "11.6% participation; 97.22% APT; 98.64% RPT", "unit": "state-level rates", "value_type": "counterexample"},
+        "Alaska": {"value": "8.8% participation; 64.26% APT; 25.23% RPT", "unit": "state-level rates", "value_type": "counterexample"},
+        "Idaho": {"value": "6.6% participation; 96.30% APT; 99.87% RPT; 0.482 PAI", "unit": "state-level rates and PAI ratio", "value_type": "counterexample"},
+        "District_of_Columbia": {"value": "20.3% participation; 85.48% APT; 91.72% RPT; 1.320 PAI", "unit": "state/DC-level rates and PAI ratio", "value_type": "counterexample"}
+      },
+      "method": "Selected named state/DC rows from the reproducible extraction to test whether participation orders states in the same way as administrative route measures.",
+      "uncertainty": "Counterexamples are descriptive and do not identify causes; differences may reflect eligibility composition, geography, case mix, system design, staffing, applicant behavior, or measurement rules.",
+      "subgroup": "Selected state/DC counterexamples, not a representative subgroup.",
+      "counterinterpretation": "A named state's combination of rates does not explain household experience or prove agency performance without finer-grained administrative and household evidence.",
+      "source_url": "https://www.fna.usda.gov/snap/qc/timeliness/rpt-fy25",
+      "retrieval_hash": "sha256:b9a06f662dd2d9707072c7e60dbb617486df63d3a9964d9dec54521bec182219",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216", "claim": "FY2025 state participation chart data.", "status": "official-companion"},
+    {"source_url": "https://www.fna.usda.gov/snap/qc/timeliness/apt-fy25", "claim": "FY2025 application processing timeliness and definition.", "status": "official-companion"},
+    {"source_url": "https://www.fna.usda.gov/snap/qc/timeliness/rpt-fy25", "claim": "FY2025 recertification processing timeliness and definition.", "status": "official-companion"},
+    {"source_url": "https://www.fna.usda.gov/snap/qc/pai", "claim": "2023 Program Access Index and denominator definition.", "status": "official-companion"}
+  ],
+  "boundary": "This layer distinguishes population participation, application-route timeliness, recertification-route timeliness, and a low-income access index. It does not establish household-level access, eligible nonparticipation, food security, administrative causality, political response, or cultural meaning. The committed layer hash covers the detailed interpretation and summary; the reproduction script preserves the full state-by-state extraction path."
+}

@@ -149,3 +149,8 @@ family help, or public services protected the respondent.
 
 The political endpoint remains open: this table measures time and care, not
 attribution, fairness, belonging, trust, organizing, turnout, or vote choice.
+
+The population-level observations are also preserved in the machine-readable
+[trend record](../../records/us-atus-eldercare-work-time-2023-2024.json) for
+comparison with SHED and future PSID time/care results. The retrieval hash
+covers this committed analysis memo.

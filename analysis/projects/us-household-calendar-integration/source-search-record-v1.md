@@ -1,7 +1,13 @@
-# US household calendar source search record v1
+# Source search: US household calendar and longitudinal linkage
 
 **Search date:** 2026-09-12  
+**Geography:** United States
+**Status:** source map; acquisition and same-unit linkage remain open
 **Question:** Which public US sources can help us test how dated changes in money, time, care, housing, transport, services, and public decisions affect the next month?
+
+## Working question
+
+Which public US sources can help us test how dated changes in money, time, care, housing, transport, services, and public decisions affect the next month?
 
 This is a source map, not a finding. The sources below should be used to build a joined picture of the problem, not treated as if they followed the same people.
 

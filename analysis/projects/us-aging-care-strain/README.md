@@ -22,12 +22,20 @@ aging or illness
   -> who carries the work and who can buy relief
 ```
 
-This is a short discovery pass. Go deeper only if the next records connect care to a later work, income, health, or public outcome.
+This is one durable lane in the long-term atlas. Continue deepening it as records connect care to later work, income, health, family, institutional, or public outcomes.
 
 The [ATUS 2024 acquisition record](atus-2024-care-work-acquisition-record-v1.md)
 identifies the official respondent, activity, eldercare-roster, and ATUS-CPS
-files and records the current download access failure. It defines the bounded
-weighted care-versus-work estimate to run once the data are available.
+files. The [2024 microdata record](../../records/us-atus-time-care-microdata-2024.json)
+and [2024–2025 annual comparison](../us-household-calendar-integration/atus-time-care-annual-comparison-2024-2025-v1.md)
+now provide weighted work, household labor, care, travel, socializing,
+secondary-childcare, and eldercare estimates with replicate-weight errors. The
+same-unit event, household, and later-outcome arrows remain open.
+
+The reader-facing [hidden-second-job synthesis](aging-care-hidden-second-job-synthesis-v1.md)
+connects the BLS eldercare scale, employment overlap, care-day intensity,
+frequency, household/nonhousehold care, and the missing caregiver-recipient
+outcome link in one plain-language route.
 
 ## First working idea
 

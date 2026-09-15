@@ -1,0 +1,220 @@
+{
+  "format": "usaspending-defense-transaction-profile-v1",
+  "input": "analysis/projects/ai-work-control/data/usaspending-dod-transactions-fy2024-2026-09-13.json",
+  "input_response_sha256": "ae538871b6f887ed00b154c040c69bd3b896d4de48d8cb9f66fcac51aaeafe64",
+  "records": 100,
+  "page_transaction_amount_total": 69665390731.02,
+  "recipient_count": 34,
+  "place_of_performance_state_count": 25,
+  "naics_count": 20,
+  "product_or_service_code_count": 33,
+  "top_recipients": [
+    {
+      "key": "LOCKHEED MARTIN CORPORATION",
+      "amount": 15275238714.03,
+      "share_of_page_amount": 21.9266
+    },
+    {
+      "key": "THE BOEING COMPANY",
+      "amount": 7920283088.62,
+      "share_of_page_amount": 11.369
+    },
+    {
+      "key": "HUMANA GOVERNMENT BUSINESS INC",
+      "amount": 7040720083.63,
+      "share_of_page_amount": 10.1065
+    },
+    {
+      "key": "RAYTHEON COMPANY",
+      "amount": 5535867885.35,
+      "share_of_page_amount": 7.9464
+    },
+    {
+      "key": "ELECTRIC BOAT CORPORATION",
+      "amount": 5421832988.0,
+      "share_of_page_amount": 7.7827
+    },
+    {
+      "key": "HUNTINGTON INGALLS INCORPORATED",
+      "amount": 2910563946.0,
+      "share_of_page_amount": 4.1779
+    },
+    {
+      "key": "SIKORSKY AIRCRAFT CORPORATION",
+      "amount": 2753834521.78,
+      "share_of_page_amount": 3.9529
+    },
+    {
+      "key": "NORTHROP GRUMMAN SYSTEMS CORP",
+      "amount": 2549600000.0,
+      "share_of_page_amount": 3.6598
+    },
+    {
+      "key": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+      "amount": 2243371361.72,
+      "share_of_page_amount": 3.2202
+    },
+    {
+      "key": "HEALTH NET FEDERAL SERVICES, LLC",
+      "amount": 1742520798.63,
+      "share_of_page_amount": 2.5013
+    }
+  ],
+  "top_performance_states": [
+    {
+      "key": "TX",
+      "amount": 9188014260.72,
+      "share_of_page_amount": 13.1888
+    },
+    {
+      "key": "CT",
+      "amount": 8175667509.78,
+      "share_of_page_amount": 11.7356
+    },
+    {
+      "key": "KY",
+      "amount": 7040720083.63,
+      "share_of_page_amount": 10.1065
+    },
+    {
+      "key": "AZ",
+      "amount": 5275636543.02,
+      "share_of_page_amount": 7.5728
+    },
+    {
+      "key": "FL",
+      "amount": 4916689184.0,
+      "share_of_page_amount": 7.0576
+    },
+    {
+      "key": "PA",
+      "amount": 4023500431.94,
+      "share_of_page_amount": 5.7755
+    },
+    {
+      "key": "MO",
+      "amount": 3859325497.22,
+      "share_of_page_amount": 5.5398
+    },
+    {
+      "key": "WA",
+      "amount": 3515646358.0,
+      "share_of_page_amount": 5.0465
+    },
+    {
+      "key": "CA",
+      "amount": 3414492391.35,
+      "share_of_page_amount": 4.9013
+    },
+    {
+      "key": "MS",
+      "amount": 2910563946.0,
+      "share_of_page_amount": 4.1779
+    }
+  ],
+  "top_naics": [
+    {
+      "key": "336411",
+      "amount": 20622584888.21,
+      "share_of_page_amount": 29.6023
+    },
+    {
+      "key": "336414",
+      "amount": 14343466647.14,
+      "share_of_page_amount": 20.5891
+    },
+    {
+      "key": "336611",
+      "amount": 9254164132.0,
+      "share_of_page_amount": 13.2837
+    },
+    {
+      "key": "524114",
+      "amount": 8783240882.26,
+      "share_of_page_amount": 12.6078
+    },
+    {
+      "key": "541330",
+      "amount": 4454061281.28,
+      "share_of_page_amount": 6.3935
+    },
+    {
+      "key": "334511",
+      "amount": 1836627665.94,
+      "share_of_page_amount": 2.6364
+    },
+    {
+      "key": "332410",
+      "amount": 1678899988.0,
+      "share_of_page_amount": 2.4099
+    },
+    {
+      "key": "237990",
+      "amount": 1525926259.85,
+      "share_of_page_amount": 2.1904
+    },
+    {
+      "key": "541715",
+      "amount": 1510524646.04,
+      "share_of_page_amount": 2.1683
+    },
+    {
+      "key": "336992",
+      "amount": 754335634.0,
+      "share_of_page_amount": 1.0828
+    }
+  ],
+  "top_product_or_service_codes": [
+    {
+      "key": "1510",
+      "amount": 14968457490.71,
+      "share_of_page_amount": 21.4862
+    },
+    {
+      "key": "1905",
+      "amount": 13741538539.0,
+      "share_of_page_amount": 19.7251
+    },
+    {
+      "key": "Q201",
+      "amount": 8783240882.26,
+      "share_of_page_amount": 12.6078
+    },
+    {
+      "key": "1410",
+      "amount": 6506699088.63,
+      "share_of_page_amount": 9.3399
+    },
+    {
+      "key": "1520",
+      "amount": 3497723747.78,
+      "share_of_page_amount": 5.0207
+    },
+    {
+      "key": "AC24",
+      "amount": 2549600000.0,
+      "share_of_page_amount": 3.6598
+    },
+    {
+      "key": "1425",
+      "amount": 2423365242.0,
+      "share_of_page_amount": 3.4786
+    },
+    {
+      "key": "5342",
+      "amount": 1488615043.02,
+      "share_of_page_amount": 2.1368
+    },
+    {
+      "key": "1420",
+      "amount": 1450785533.49,
+      "share_of_page_amount": 2.0825
+    },
+    {
+      "key": "AC13",
+      "amount": 1112430568.95,
+      "share_of_page_amount": 1.5968
+    }
+  ],
+  "boundary": "Descriptive concentration profile of a bounded USAspending transaction retrieval page sorted by transaction amount; not total DoD procurement, supplier-market share, delivered capability, production, readiness, or geopolitical leverage."
+}

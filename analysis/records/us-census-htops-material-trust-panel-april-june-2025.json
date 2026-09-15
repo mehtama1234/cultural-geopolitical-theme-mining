@@ -1,0 +1,324 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-material-trust-panel-april-june-2025",
+  "title": "Linked HTOPS respondents show material and institutional measures changing on different paths",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "energy",
+    "work"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "political_judgment_action"
+  ],
+  "source_unit": "US Census Bureau HTOPS April and June 2025 linked public-use person respondents",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 15\u201329 to June 16\u201325, 2025; linked respondent transitions",
+      "denominator": {
+        "value": 6564,
+        "unit": "respondents linked by SCRAMID across April and June PUFs; baseline-weighted valid denominator varies by measure",
+        "value_type": "linked_panel_sample"
+      },
+      "measures": {
+        "baseline_sample_n": {
+          "value": 8850,
+          "unit": "April PUF respondents",
+          "value_type": "sample_count"
+        },
+        "followup_sample_n": {
+          "value": 7485,
+          "unit": "June PUF respondents",
+          "value_type": "sample_count"
+        },
+        "linked_retention_from_baseline_percent": {
+          "value": 74.2,
+          "unit": "percent of April PUF IDs linked in June",
+          "value_type": "retention_share"
+        },
+        "linked_retention_from_followup_percent": {
+          "value": 87.7,
+          "unit": "percent of June PUF IDs linked in April",
+          "value_type": "retention_share"
+        },
+        "any_expense_difficulty_no_to_no": {
+          "value": 42.4,
+          "standard_error": 0.99,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 3465,
+          "unweighted_valid_n": 6533
+        },
+        "any_expense_difficulty_no_to_yes": {
+          "value": 8.4,
+          "standard_error": 0.55,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 486,
+          "unweighted_valid_n": 6533
+        },
+        "any_expense_difficulty_yes_to_no": {
+          "value": 7.5,
+          "standard_error": 0.59,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 505,
+          "unweighted_valid_n": 6533
+        },
+        "any_expense_difficulty_yes_to_yes": {
+          "value": 41.8,
+          "standard_error": 1.09,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 2077,
+          "unweighted_valid_n": 6533
+        },
+        "food_insufficiency_no_to_no": {
+          "value": 90.4,
+          "standard_error": 1.02,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 6227,
+          "unweighted_valid_n": 6540
+        },
+        "food_insufficiency_no_to_yes": {
+          "value": 2.7,
+          "standard_error": 0.45,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 109,
+          "unweighted_valid_n": 6540
+        },
+        "food_insufficiency_yes_to_no": {
+          "value": 2.9,
+          "standard_error": 0.88,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 87,
+          "unweighted_valid_n": 6540
+        },
+        "food_insufficiency_yes_to_yes": {
+          "value": 3.9,
+          "standard_error": 0.61,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 117,
+          "unweighted_valid_n": 6540
+        },
+        "unable_to_pay_energy_bill_no_to_no": {
+          "value": 84.9,
+          "standard_error": 0.8,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 5914,
+          "unweighted_valid_n": 6547
+        },
+        "unable_to_pay_energy_bill_no_to_yes": {
+          "value": 3.2,
+          "standard_error": 0.37,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 159,
+          "unweighted_valid_n": 6547
+        },
+        "unable_to_pay_energy_bill_yes_to_no": {
+          "value": 3.4,
+          "standard_error": 0.4,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 174,
+          "unweighted_valid_n": 6547
+        },
+        "unable_to_pay_energy_bill_yes_to_yes": {
+          "value": 8.6,
+          "standard_error": 0.66,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 300,
+          "unweighted_valid_n": 6547
+        },
+        "prices_increased_no_to_no": {
+          "value": 12.0,
+          "standard_error": 0.63,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 826,
+          "unweighted_valid_n": 6545
+        },
+        "prices_increased_no_to_yes": {
+          "value": 5.3,
+          "standard_error": 0.46,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 340,
+          "unweighted_valid_n": 6545
+        },
+        "prices_increased_yes_to_no": {
+          "value": 12.8,
+          "standard_error": 0.8,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 855,
+          "unweighted_valid_n": 6545
+        },
+        "prices_increased_yes_to_yes": {
+          "value": 69.9,
+          "standard_error": 1.05,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 4524,
+          "unweighted_valid_n": 6545
+        },
+        "recent_household_job_loss_no_to_no": {
+          "value": 87.9,
+          "standard_error": 0.85,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 5935,
+          "unweighted_valid_n": 6545
+        },
+        "recent_household_job_loss_no_to_yes": {
+          "value": 4.0,
+          "standard_error": 0.46,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 226,
+          "unweighted_valid_n": 6545
+        },
+        "recent_household_job_loss_yes_to_no": {
+          "value": 4.8,
+          "standard_error": 0.63,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 234,
+          "unweighted_valid_n": 6545
+        },
+        "recent_household_job_loss_yes_to_yes": {
+          "value": 3.3,
+          "standard_error": 0.53,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 150,
+          "unweighted_valid_n": 6545
+        },
+        "any_work_last_seven_days_no_to_no": {
+          "value": 37.4,
+          "standard_error": 1.1,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 2460,
+          "unweighted_valid_n": 6546
+        },
+        "any_work_last_seven_days_no_to_yes": {
+          "value": 3.7,
+          "standard_error": 0.64,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 188,
+          "unweighted_valid_n": 6546
+        },
+        "any_work_last_seven_days_yes_to_no": {
+          "value": 5.0,
+          "standard_error": 0.56,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 303,
+          "unweighted_valid_n": 6546
+        },
+        "any_work_last_seven_days_yes_to_yes": {
+          "value": 54.0,
+          "standard_error": 1.07,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 3595,
+          "unweighted_valid_n": 6546
+        },
+        "agrees_policy_makers_need_federal_statistics_no_to_no": {
+          "value": 10.2,
+          "standard_error": 1.01,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 355,
+          "unweighted_valid_n": 6536
+        },
+        "agrees_policy_makers_need_federal_statistics_no_to_yes": {
+          "value": 7.9,
+          "standard_error": 0.46,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 440,
+          "unweighted_valid_n": 6536
+        },
+        "agrees_policy_makers_need_federal_statistics_yes_to_no": {
+          "value": 7.5,
+          "standard_error": 0.76,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 366,
+          "unweighted_valid_n": 6536
+        },
+        "agrees_policy_makers_need_federal_statistics_yes_to_yes": {
+          "value": 74.5,
+          "standard_error": 1.15,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 5375,
+          "unweighted_valid_n": 6536
+        },
+        "high_confidence_in_congress_no_to_no": {
+          "value": 77.7,
+          "standard_error": 1.09,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 5235,
+          "unweighted_valid_n": 6494
+        },
+        "high_confidence_in_congress_no_to_yes": {
+          "value": 5.2,
+          "standard_error": 0.52,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 352,
+          "unweighted_valid_n": 6494
+        },
+        "high_confidence_in_congress_yes_to_no": {
+          "value": 5.3,
+          "standard_error": 0.6,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 290,
+          "unweighted_valid_n": 6494
+        },
+        "high_confidence_in_congress_yes_to_yes": {
+          "value": 11.8,
+          "standard_error": 0.78,
+          "unit": "percent of baseline-weighted valid linked respondents",
+          "value_type": "linked_transition_share",
+          "unweighted_cell_n": 617,
+          "unweighted_valid_n": 6494
+        }
+      },
+      "method": "Inner join of April and June 2025 public-use files on SCRAMID; transition cells use the April PWEIGHT among linked respondents. Approximate standard errors use the April successive-difference replicate weights for the retained linked sample. This is a linked descriptive panel extraction, not a nationally reweighted longitudinal estimator.",
+      "uncertainty": "The linked sample is a selected retained subset; April cross-sectional weights are not a documented longitudinal attrition-adjusted weight. Panel nonresponse, refresh/replenishment, item missingness, and question reference periods limit population interpretation. The transition cells do not establish that prices, bills, jobs, or institutions caused a later response.",
+      "subgroup": "All linked respondents; the PUF retains sex, age, race/ethnicity, income, household composition, and geography for a later attrition and transition audit.",
+      "counterinterpretation": "A yes-to-no transition can reflect recovery, temporary timing, reporting variation, or sample retention; a no-to-yes transition can reflect a new exposure, recall difference, or ordinary fluctuation. Agreement that policymakers need federal statistics is not the same measure as trust in federal statistics used in 2026.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
+      "retrieval_hash": "sha256:c6976130ec387f0555200fa1197bd4875966b8b8a4ad847ba3220749a939673e",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HTOPS_HPS_2506_CSV.zip",
+      "claim": "June 2025 PUF, replicate weights, and dictionary package.",
+      "status": "primary"
+    }
+  ],
+  "boundary": "This record is the first same-respondent April-to-June 2025 HTOPS linkage. It measures descriptive transitions among linked respondents and preserves the absence of a longitudinal attrition-adjusted weight; it does not estimate national causal effects, household recovery, trust formation, or political action."
+}

@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-housing-insurance-payment-coverage-mobility-crosssource-2021-2026",
+  "title": "Housing security has payment, coverage, hazard, and backstop layers that do not yet form a move outcome",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of Federal Reserve household survey, Treasury/FIO insurance-market data, FEMA hazard context, and California FAIR Plan stocks",
+  "geography": "United States with California residual-market case",
+  "observations": [
+    {
+      "period": "2024-2025; Federal Reserve household housing and insurance module",
+      "denominator": {"value": 1, "unit": "weighted renter or homeowner adult population estimates; conditional affordability questions have separate frames", "value_type": "survey_population"},
+      "measures": {
+        "renters_behind_on_rent_2024": {"value": 21, "unit": "percent of renters", "value_type": "share"},
+        "renters_behind_on_rent_2025": {"value": 23, "unit": "percent of renters", "value_type": "share"},
+        "homeowners_without_insurance_2025": {"value": 6, "unit": "percent of homeowners", "value_type": "share"},
+        "low_income_neighborhood_without_insurance": {"value": 12, "unit": "percent of homeowners in low/moderate-income neighborhoods", "value_type": "share"},
+        "uninsured_reporting_cannot_afford": {"value": 43, "unit": "percent of uninsured homeowners", "value_type": "share"},
+        "insured_low_income_struggle_premiums": {"value": 30, "unit": "percent of insured homeowners with income below $50,000", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2024 and 2025 SHED housing estimates; rent arrears, insurance status, and conditional affordability are kept as separate cross-sectional endpoints.",
+      "uncertainty": "Separate annual samples do not track the same households; self-reports do not identify arrears duration, eviction, policy terms, hazard exposure, claims, repairs, mortgage status, or move/stay outcomes.",
+      "subgroup": "Renters and homeowners, conditioned by income and neighborhood income where reported.",
+      "counterinterpretation": "Arrears do not equal eviction, and no insurance can reflect self-insurance or preference as well as affordability; premium struggle does not prove inadequate coverage or insurer withdrawal.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:7d9e277ae657834c0d8f3567bfc2977fdd4025d6334978d4eafb788494be350f; sha256:6bc131f44033f6aa9366e80169418341ec69ebaecf44ce0eae404b7f98f97c37",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2022; Treasury FIO homeowners-insurance market by climate-risk ZIP group and FEMA context",
+      "denominator": {"value": 25330, "unit": "matched Treasury ZIP rows for FEMA context; national FIO analysis covers more than 246 million policies", "value_type": "observed_rows_and_policy_context"},
+      "measures": {
+        "highest_climate_risk_mean_premium": {"value": 2321, "unit": "2022 dollars per policy", "value_type": "mean"},
+        "highest_climate_risk_premium_difference": {"value": 82, "unit": "percent above lowest-risk ZIP quintile", "value_type": "relative_difference"},
+        "highest_climate_risk_nonrenewal_difference": {"value": 80, "unit": "percent above lowest-risk ZIP quintile, approximate", "value_type": "relative_difference"},
+        "fema_low_vs_very_high_nonrenewal": {"value": "0.959 vs 1.271", "unit": "percent unweighted mean nonrenewal by FEMA rating", "value_type": "descriptive_comparison"},
+        "fema_relatively_high_vs_very_high_premium": {"value": "2449.06 vs 1927.57", "unit": "dollars per policy unweighted mean", "value_type": "descriptive_comparison"}
+      },
+      "method": "Treasury FIO ZIP-code insurance data are grouped by expected annual building losses and joined to FEMA NRI county context through Census ZCTA relationships; policy-weighted and unweighted estimates remain distinct.",
+      "uncertainty": "The 2018-2022 window predates later market conditions; ZIP/county assignment, modeled hazard, insurer mix, property composition, regulation, rebuilding costs, and reporting coverage confound interpretation. The non-monotonic FEMA premium pattern is retained.",
+      "subgroup": "Climate-risk ZIP quintiles and FEMA Expected Annual Loss rating groups; market rows are not households.",
+      "counterinterpretation": "Higher risk aligns with higher market premiums/nonrenewal in the broad comparison, but hazard bins do not establish causal pricing or household coverage loss; very-high FEMA rows do not have the highest mean premium in the derived screen.",
+      "source_url": "https://home.treasury.gov/news/press-releases/jy2791",
+      "retrieval_hash": "sha256:dacbf2be9be77b0561f650021237955476ef9ec9e3ebdc39858c5657c27fb288; sha256:a4b5ce41f2a89b3e2281f88d3dca10f04735539cd7b110267c5564688f9c896b",
+      "status": "compared"
+    },
+    {
+      "period": "2022; Treasury/Census place-income and tenure context",
+      "denominator": {"value": 25084, "unit": "matched Treasury ZIP rows with usable ACS ZCTA context; unweighted row means", "value_type": "observed_rows"},
+      "measures": {
+        "below_50000_mean_premium": {"value": 1630.35, "unit": "dollars per policy", "value_type": "mean"},
+        "below_50000_mean_nonrenewal": {"value": 1.261, "unit": "percent", "value_type": "mean"},
+        "at_least_100000_mean_premium": {"value": 2332.41, "unit": "dollars per policy", "value_type": "mean"},
+        "at_least_100000_mean_nonrenewal": {"value": 0.909, "unit": "percent", "value_type": "mean"},
+        "owner_share_below_50_mean_premium": {"value": 2127.24, "unit": "dollars per policy", "value_type": "mean"},
+        "owner_share_below_50_mean_nonrenewal": {"value": 1.232, "unit": "percent", "value_type": "mean"}
+      },
+      "method": "Descriptive unweighted means of Treasury ZIP rows matched to ACS ZCTAs and grouped by median household income and owner-share context; ZIP and ZCTA are treated as an approximation.",
+      "uncertainty": "Place context is not the income, tenure, or insurance status of individual policyholders. Exposure, property type, value, insurer mix, hazard, and reporting selection remain uncontrolled.",
+      "subgroup": "Matched ZIP/ZCTA rows by ACS median household income and owner-share bands.",
+      "counterinterpretation": "The non-monotonic premium pattern and higher lower-income-place nonrenewal do not identify an individual affordability or displacement gradient; urban property mix and hazard may dominate.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b19013.dat",
+      "retrieval_hash": "sha256:54dc9c5f15146d861080919372c1dde3f8b51c7bc3f8c175d97b60f2d1c6b85b",
+      "status": "compared"
+    },
+    {
+      "period": "September 2021-September 2025 and June 2026; California FAIR Plan residual-market stock",
+      "denominator": {"value": 1, "unit": "California FAIR Plan total policy/exposure stock across published lines; current headline scope differs from fiscal-year report", "value_type": "reported_stock"},
+      "measures": {
+        "policies_in_force_2021": {"value": 242440, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_2025": {"value": 642010, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_june_2026": {"value": 696562, "unit": "policies", "value_type": "reported_count"},
+        "insured_exposure_2021": {"value": 160556622391, "unit": "US dollars", "value_type": "reported_total"},
+        "insured_exposure_2025": {"value": 693964308706, "unit": "US dollars", "value_type": "reported_total"},
+        "june_2026_total_exposure": {"value": 768000000000, "unit": "US dollars approximate", "value_type": "reported_total"}
+      },
+      "method": "California FAIR Plan fiscal-year county-report totals and later quarterly key-statistics headline; policy count, insured exposure, premium, and scope changes are kept separate.",
+      "uncertainty": "Residual-market growth is not a direct count of households denied voluntary insurance; line-of-business, fiscal timing, coverage limits, valuation, insurer mix, replacement, and reporting changes matter. The series does not observe repairs or moves.",
+      "subgroup": "California FAIR Plan residential, commercial, and business-owner lines in the fiscal series; later headline covers dwelling and commercial scope.",
+      "counterinterpretation": "A growing public backstop can reflect risk, prices, underwriting, policy design, or improved enrollment visibility; it does not alone prove private-market withdrawal, unaffordability, or displacement.",
+      "source_url": "https://www.cfpnet.com/key-statistics-data/",
+      "retrieval_hash": "sha256:7c3b4286b2acfe21c525ce2fa9ec3348aac5c076b32a4efa48ecaf0ec9feb229; sha256:4942539f88159b8e79d23e1f8a2a6d8b46625f8e77b85d0619b60f6aed5272a1; sha256:3919e4e7d297cf0a39450e6b54032120228ac579344c6afd21db26adc98bfd94",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-federal-reserve-housing-insurance-risk-2025.json", "claim": "Federal Reserve supplies household rent-arrears, insurance-gap, and affordability endpoints.", "status": "related-record"},
+    {"source_url": "../../records/us-treasury-fio-homeowners-insurance-market-2018-2022.json", "claim": "Treasury FIO supplies national ZIP-level premium, nonrenewal, claim, and coverage context.", "status": "related-record"},
+    {"source_url": "../../records/us-treasury-fio-fema-nri-hazard-context-2022.json", "claim": "FEMA NRI join supplies modeled hazard context and non-monotonic counterexample.", "status": "related-record"},
+    {"source_url": "../../records/us-california-fair-plan-residual-market-growth-2021-2026.json", "claim": "California FAIR Plan supplies a later public-backstop stock and exposure series.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled housing-payment/coverage/hazard/backstop bridge. It supports a staged picture of housing security but does not establish household-level affordability, coverage adequacy, insurer causation, repairs, lending, move/stay outcomes, public legitimacy, or political response. A compatible property/household-year panel with claims, assistance, repair, and mobility outcomes remains open."
+}

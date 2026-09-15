@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:07:21.362175+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=05606",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=45379",
+  "cage_query": "05606",
+  "response_sha256": "80ad92da8e564ea6b08cda1a0eb30cedf0c19924540bacb311c38081cb260e9b",
+  "record": {
+    "legal_business_name": "GENERAL DYNAMICS-OTS, INC.",
+    "address": "356 MOUNTAIN VIEW DR STE 401 COLCHESTER, VT 05446 5985 UNITED STATES OF AMERICA",
+    "cage": "05606",
+    "uei": "Q9SBTF8ELUP4",
+    "status": "Active",
+    "cage_update_date": "08/27/2026",
+    "cage_expiration": "08/27/2031",
+    "parent_cage": "95403",
+    "parent_company_name": "GENERAL DYNAMICS CORP"
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

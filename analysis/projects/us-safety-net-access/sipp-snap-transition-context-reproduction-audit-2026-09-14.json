@@ -1,0 +1,15 @@
+{
+  "audit_date": "2026-09-14",
+  "script": "scripts/analyze_sipp_snap_transition_context_fay_brr.py",
+  "primary_input": "/tmp/us-broad-sipp-2025/full-v15/sipp-household-slice.csv",
+  "primary_sha256": "ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497",
+  "replicate_input": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+  "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "positive_weight_transition_pairs_matched": 824,
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "earnings_field": "TPEARN, monthly person earnings; valid earnings pairs: 119 for no-to-yes and 133 for yes-to-no",
+  "derived_output_sha256": "7259abfd2ab5c201819a4d059980e3692aa221ab9cd03a1c6769088ba5cd6b05",
+  "reproduction": "Point estimates, standard errors, confidence intervals, valid-record counts, and transition weights reproduce the committed resource, earnings, and job context results."
+}

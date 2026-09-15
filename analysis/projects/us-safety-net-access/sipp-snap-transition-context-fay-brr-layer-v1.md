@@ -1,6 +1,6 @@
 # SIPP SNAP transition context Fay-BRR layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-14
 **Source:** 2025 SIPP public-use file and official 240-replicate-weight file; 2024 reference year  
 **Unit:** identified person, adjacent reference-month pair  
 **Weight:** `WPFINWGT` from the first month; `REPWGT1`–`REPWGT240` for variance  
@@ -46,6 +46,38 @@ These job results describe a selected valid subset, not employment quality,
 earnings, hours, schedule, or work freedom. They do not show that SNAP changed
 job counts.
 
+## Person-earnings change around transitions
+
+`TPEARN` is monthly earnings for the person, not household income, an hourly
+pay rate, or a measure of work quality. Its valid universe is much smaller
+because it is not populated for every person-month. Among 119 valid entry
+pairs, earnings were down in 48.25% (SE 5.53 pp; 95% CI 37.42–59.08), the
+same in 16.75% (SE 4.20 pp; 8.51–24.98), and up in 35.01% (SE 5.78 pp;
+23.67–46.34). Among 133 valid exit pairs, earnings were down in 36.68% (SE
+5.45 pp; 26.00–47.36), the same in 14.07% (SE 3.43 pp; 7.35–20.79), and up
+in 49.25% (SE 5.78 pp; 37.92–60.58).
+
+The earnings context complicates both simple readings: SNAP entry often sits
+beside lower person earnings in this selected universe, while exit often sits
+beside higher person earnings—but neither pattern establishes program impact,
+an exit-to-work pathway, or restored household security. Earnings can change
+with days in the month, hours, job composition, reporting, timing, or other
+income and work changes.
+
+## Monthly hours around transitions
+
+`TMWKHRS` is average hours per week at all jobs held during the reference month.
+It is monthly, but its universe is limited to people with a job in at least one
+of the adjacent months. Hours were unchanged for 74.97% of 119 valid entry
+pairs (SE 4.68 pp; 95% CI 65.80–84.13), with 15.62% down and 9.41% up. For 133
+valid exit pairs, hours were unchanged for 89.77% (SE 3.66 pp; 82.59–96.94),
+with 2.23% down and 8.01% up.
+
+This is a sharper work-intensity boundary than job count, but it remains a
+selected descriptive context. Stable hours do not establish stable earnings,
+schedule control, job quality, or restored household security; people outside
+the hours-valid universe can still have job entry or exit.
+
 ## What this adds to the public-systems picture
 
 The resource context strengthens the claim that receipt exit cannot be read as
@@ -67,8 +99,15 @@ interpretation.
 - Resource context was valid for 435 entry pairs and 386 exit pairs.
 - Job context was valid for 309 entry pairs and 287 exit pairs; the remainder
   had at least one missing/invalid adjacent job-count value.
+- Person-earnings context was valid for 119 entry pairs and 133 exit pairs; it
+  is a selected person-level universe and is not interchangeable with the
+  household resource or job-count universes.
+- Monthly-hours context was valid for 119 entry pairs and 133 exit pairs; the
+  hours universe is job-holder conditioned and has its own missingness.
 - `THINCPOV` is a monthly income-to-poverty ratio; `RMNUMJOBS` is a monthly
-  job-count recode. Neither is a complete household security measure.
+  job-count recode; `TPEARN` is monthly person earnings; `TMWKHRS` is monthly
+  average hours among job holders. None is a complete household security or
+  work-quality measure.
 - Person records may represent covered members of a SNAP unit; this is not a
   household-count or benefit-spell table.
 - No notice, application, renewal effort, benefit amount, food quantity,
@@ -86,6 +125,19 @@ python3 scripts/analyze_sipp_snap_transition_context_fay_brr.py \
 
 The raw files and derived JSON are not committed. The verified calculation was
 run against the 2025 SIPP slice and `/tmp/us-broad-sipp-2025/rw2025_csv.zip`.
+
+### Current reproducibility audit
+
+The 2026-09-14 rerun used the same primary slice and replicate-weight archive.
+It read 379,215 primary rows and 378,291 replicate rows; all 824 positive-weight
+transition pairs matched across the replicate file. The input hashes, script,
+and method are preserved in the [reproduction audit](sipp-snap-transition-context-reproduction-audit-2026-09-14.json),
+and the promoted estimates are in the [machine-readable transition-context record](../../records/us-sipp-snap-transition-resource-job-context-2024.json)
+and [published bounded finding](findings/us-safety-net-access-007.md).
+
+The monthly-hours extension used the complete v16 slice and has a separate
+[hours reproduction audit](sipp-snap-transition-hours-reproduction-audit-2026-09-14.json)
+because adding `TMWKHRS` changes the primary-slice hash.
 
 ## Next test
 

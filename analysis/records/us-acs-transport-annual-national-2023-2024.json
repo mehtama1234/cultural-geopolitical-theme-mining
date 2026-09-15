@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-acs-transport-annual-national-2023-2024",
+  "title": "National ACS household vehicle scarcity and long commute exposure changed modestly across 2023–2024",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction"],
+  "source_unit": "ACS 1-year national table estimates: B08201 household vehicle access and B08303 travel time to work",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023; national households and workers",
+      "denominator": {"value": 100, "unit": "B08201 national households for vehicle measure; B08303 workers 16+ not working from home for commute measure"},
+      "measures": {"zero_vehicle_households": {"value": 8.44, "unit": "percent of households", "value_type": "share"}, "commute_30_minutes_or_more": {"value": 37.97, "unit": "percent of workers not working from home", "value_type": "share"}},
+      "method": "Direct national rows from ACS 1-year table-based summary files. Commute 30+ combines B08303 categories 30-34 through 90+ minutes. No person matching or cross-year causal estimate.",
+      "uncertainty": "ACS sampling and nonsampling error apply; no margin-of-error propagation is calculated in this first national layer. The commute universe excludes people who worked from home and is not the same as NHTS recorded trips.",
+      "subgroup": "All US households for vehicle access; workers 16 years and over who did not work from home for commute time.",
+      "counterinterpretation": "A small national change can hide large state, income, race, disability, and urban/rural differences; vehicle availability and commute duration do not establish affordability, necessity, or unmet care access.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/1YRData/acsdt1y2023-b08201.dat",
+      "retrieval_hash": "sha256:242d90224935996f28f54455564680a91de6f27e1c4e9bd2ec17e52f77484113",
+      "status": "compared"
+    },
+    {
+      "period": "2024; national households and workers",
+      "denominator": {"value": 100, "unit": "B08201 national households for vehicle measure; B08303 workers 16+ not working from home for commute measure"},
+      "measures": {"zero_vehicle_households": {"value": 8.52, "unit": "percent of households", "value_type": "share"}, "commute_30_minutes_or_more": {"value": 38.69, "unit": "percent of workers not working from home", "value_type": "share"}},
+      "method": "Direct national rows from ACS 1-year table-based summary files. Commute 30+ combines B08303 categories 30-34 through 90+ minutes. No person matching or cross-year causal estimate.",
+      "uncertainty": "ACS sampling and nonsampling error apply; no margin-of-error propagation is calculated in this first national layer. The commute universe excludes people who worked from home and is not the same as NHTS recorded trips.",
+      "subgroup": "All US households for vehicle access; workers 16 years and over who did not work from home for commute time.",
+      "counterinterpretation": "The modest national movement does not validate the NHTS urban/rural or income gradients by itself; separate geographic and socioeconomic ACS tables are required for that test.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b08201.dat",
+      "retrieval_hash": "sha256:7087a6278b380fc292fa44d95f6ac84d9bcb3014b143f1b91d6de3f601716531",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is an annual national ACS household/worker comparison, not a longitudinal respondent panel and not a direct replication of NHTS. B08201 measures household vehicle availability; B08303 measures commute time among workers who did not work from home. The current record does not establish household income gradients, care/medical reachability, trip purpose, fares, or political/cultural response. The next test is a state or place/income ACS extension with margin-of-error handling and explicit comparison to NHTS's urban/rural and travel-day universes."
+}

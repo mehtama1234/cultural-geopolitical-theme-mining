@@ -25,9 +25,12 @@ for node in manifest["nodes"]:
 records.sort(key=lambda x: (x["theme_title"], x["title"]))
 checked = sum(x["checked"] for x in records)
 
+def markdown_source_record(path: str) -> str:
+    return str(Path(path).relative_to("analysis"))
+
 md = ["# US evidence and map audit", "", f"This audit covers {len(records)} topic records, {len(edges)} semantic links, and {len(paths)} reading paths.", "It shows coverage, not proof that every source or connection has been fully reviewed.", "", f"**Evidence checks recorded:** {checked}/{len(records)}", "", "## How to read this", "", "A source packet is the opening search record. An evidence check is a later, specific check recorded in the topic card. A semantic link is a declared comparison or question to test. A reading path joins topics for investigation; it is not a proven cause-and-effect chain.", "", "## Topic audit", "", "| Topic | Theme | Sources | Links | Paths | Evidence check | Source notes |", "|---|---|---:|---:|---:|---|---|"]
 for x in records:
-    md.append(f"| [{x['title']}](../site/us-theme-atlas.html#{x['id']}) | {x['theme_title']} | {x['sources']} | {x['links']} | {x['paths']} | {'yes' if x['checked'] else 'opening only'} | [open]({x['source_record']}) |")
+    md.append(f"| [{x['title']}](../site/us-theme-atlas.html#{x['id']}) | {x['theme_title']} | {x['sources']} | {x['links']} | {x['paths']} | {'yes' if x['checked'] else 'opening only'} | [open]({markdown_source_record(x['source_record'])}) |")
 md += ["", "## What this audit cannot prove", "", "- A source count does not measure source quality or full-study review.", "- An evidence check does not join every household, firm, policy, and later outcome.", "- A semantic link does not prove that two topics affect the same people.", "- A completed memo explains a question; it does not close the open gaps.", "", "## Next use", "", "Sort by the fewest sources, links, or paths. Choose one bridge, find matched records over time, and keep the counterexample and missing step visible."]
 (ROOT / "analysis/us-evidence-audit.md").write_text("\n".join(md) + "\n")
 

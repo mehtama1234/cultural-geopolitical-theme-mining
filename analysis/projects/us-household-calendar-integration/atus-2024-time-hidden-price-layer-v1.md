@@ -1,6 +1,6 @@
 # ATUS 2024 time as a hidden price layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Source:** [BLS American Time Use Survey 2024 results](https://www.bls.gov/news.release/archives/atus_06262025.htm)  
 **Unit:** nationally representative annual-average diary estimates for people age 15 and over, with subgroup universes where stated  
 **Status:** reported population estimates; not a longitudinal household result
@@ -17,6 +17,16 @@ work, care, or service requirement
 ```
 
 The ATUS release measures the time allocation. It does not identify which price, employer, care bill, platform, or policy caused it.
+
+The [2024 microdata extraction](../../records/us-atus-time-care-microdata-2024.json)
+now adds a reproducible weighted file-based layer: across 7,669 diary
+respondents, primary household work averaged 120.7 minutes (SE 2.0), paid work
+190.8 (SE 3.1), travel 65.0 (SE 1.1), and socializing/communication 273.6 (SE
+2.9) per diary day. Women averaged more primary household work, care for people,
+and secondary childcare than men, while men averaged more paid work. Adults age
+65+ averaged 21.6 eldercare minutes (SE 2.8) and 389.9 socializing/communication
+minutes (SE 4.8), alongside 44.6 paid-work minutes (SE 3.9). These are separate
+currencies with separate mechanisms, not a unified burden score.
 
 ## 2024 population patterns
 
@@ -59,4 +69,10 @@ ATUS reports that people spent less time socializing and communicating in 2024 t
 
 ATUS is a one-day diary for a designated person, not a twelve-month household panel. Primary activity does not include all simultaneous activity, although the survey separately measures secondary childcare and asks about location and who was present for many activities. The 2024 release is an annual average; it cannot identify the shock or rule behind a particular person’s schedule.
 
-Next, compare time allocation with a defined source layer for work schedule, childcare cost, commuting, service effort, or financial pressure. Preserve the distinction between time spent, time desired, time controlled, and time displaced. A valid end-to-end test would need a defined event, the same unit before and after it, and a counterexample with similar work and family conditions.
+Next, extend the extraction with the eldercare roster and replicate-weight file,
+then compare time allocation with a defined source layer for work schedule,
+childcare cost, commuting, service effort, or financial pressure. Preserve the
+distinction between time spent, time desired, time controlled, and time
+displaced. A valid end-to-end test would need a defined event, the same unit
+before and after it, and a counterexample with similar work and family
+conditions.

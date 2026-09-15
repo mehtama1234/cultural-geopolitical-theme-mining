@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-household-room-resource-tenure-liquidity-2024-2025",
+  "title": "Household room is layered across resources, tenure, liquidity, and credit",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "housing_place_mobility", "unequal_exposure_status", "care_health_reproduction", "work_control_bargaining", "political_judgment_action"],
+  "source_unit": "Cross-source synthesis of SIPP person-record/month comparisons and Federal Reserve SHED adult and consent-linked credit-record measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SIPP tenure and resource comparison",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight selected person-record/month rows; outcome-specific nonblank universes", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {"below_1x_renter_minus_owner_rent_difficulty": {"value": 9.27, "unit": "percentage points; 16.29% minus 7.02%", "value_type": "descriptive_difference"}, "below_1x_renter_minus_owner_utility_difficulty": {"value": 4.42, "unit": "percentage points; 18.11% minus 13.69%", "value_type": "descriptive_difference"}, "4x_plus_renter_minus_owner_rent_difficulty": {"value": 2.96, "unit": "percentage points; 4.24% minus 1.28%", "value_type": "descriptive_difference"}, "4x_plus_renter_minus_owner_utility_difficulty": {"value": 3.21, "unit": "percentage points; 5.31% minus 2.10%", "value_type": "descriptive_difference"}},
+      "method": "SIPP WPFINWGT with REPWGT1-REPWGT240; Fay BRR with perturbation factor 0.5; comparison preserves outcome-specific nonblank universes.",
+      "uncertainty": "Design-based standard errors are available in the underlying four-cell estimates; differences here are descriptive and are not a common-household or causal tenure estimate.",
+      "subgroup": "Owned/bought versus rented, within monthly income-to-poverty bands below 1.00x and at least 4.00x.",
+      "counterinterpretation": "Local prices, household composition, debt, health, housing quality, repair and insurance obligations, and selection into tenure may explain part or all of the differences.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED and 2023-2025 consent-linked credit records",
+      "denominator": {"value": 100, "unit": "published adult percentage bases; linked balance comparison conditional on consenting credit-card holders", "value_type": "survey_population"},
+      "measures": {"cash_or_equivalent_400_capacity": {"value": 63, "unit": "percent of adults", "value_type": "reported_share"}, "unable_to_pay_400": {"value": 12, "unit": "percent of adults; no listed means", "value_type": "reported_share"}, "credit_card_balance_carrying": {"value": 45, "unit": "percent of credit-card owners in prior 12 months", "value_type": "conditional_share"}, "hardship_group_balance_change": {"value": 2530, "unit": "US dollars, 2023 to 2025, among linked respondents reporting difficulty getting by", "value_type": "reported_change"}, "comfortable_group_balance_change": {"value": 59, "unit": "US dollars, 2023 to 2025, among linked respondents living comfortably", "value_type": "reported_change"}},
+      "method": "Federal Reserve 2025 SHED published emergency-liquidity and credit measures plus descriptive comparison of consent-linked nationwide credit records by reported financial well-being.",
+      "uncertainty": "Hypothetical capacity, self-reported use, and linked credit records have different universes; the linked sample is consent-based and the balance comparison does not identify cause, repayment, delinquency, or a representative population effect.",
+      "subgroup": "All adults, credit-card owners, and linked credit-card respondents classified by reported financial comfort.",
+      "counterinterpretation": "Non-cash emergency responses may reflect precautionary buffer management; balance growth may reflect spending, rates, income, refinancing, or other events rather than hardship causing debt.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "retrieval_hash": "sha256:bf9d29ef0bac4617962f43add86883847b360d9016cf21aa3c19a097785830a1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm", "claim": "SHED savings measures distinguish current liquidity management from longer-run retirement actions.", "status": "related"},
+    {"source_url": "https://www.newyorkfed.org/microeconomics/hhdc", "claim": "Aggregate household debt provides market context but not a common household-level exposure path.", "status": "context"}
+  ],
+  "boundary": "Bounded cross-source synthesis. It does not create a common-person household-room index or establish a causal tenure, price, credit, or hardship effect; it does not measure dated events, time/care substitution, recovery, trust, political action, or geopolitical consequence.",
+  "related_finding": "../projects/us-household-calendar-integration/findings/us-household-calendar-integration-032.md"
+}

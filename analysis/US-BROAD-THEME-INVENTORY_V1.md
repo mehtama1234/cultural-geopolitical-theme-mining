@@ -2,9 +2,23 @@
 
 **Purpose:** preserve the actual end-to-end objective after a session crash or a change of working topic.
 
-## The objective
+## The big end-to-end objective
 
-Build a connected map of US societal, cultural, consumer, institutional, financial, political, and geopolitical change from many kinds of evidence. The project is not a study of one household. Household records are one instrument for testing population-level patterns and missing links; they are not the subject that replaces the broader map.
+Build a living, evidence-grounded trend atlas that discovers and tests
+recurring cultural, societal, political, consumer, institutional, financial,
+firm, infrastructure, and geopolitical themes in the United States.
+
+Use many source families to determine what is changing, who is exposed or
+protected, how people and organizations adapt, what meanings and conflicts
+recur, how power and risk move between actors, and which patterns survive
+comparison across populations, places, sectors, and time. The objective is to
+turn scattered data into a defensible map of themes and trends—not to reduce
+the program to one dataset or one household narrative.
+
+For every important pattern, preserve the source, unit, time period, exposed
+and comparison groups, counterevidence, uncertainty, and exact link that
+remains unmeasured. Household records are one instrument for testing selected
+links; they do not replace the broader population- and system-level map.
 
 The source universe can include surveys, administrative data, public records, research papers, company filings, product and platform evidence, media and cultural measures, election and opinion data, and international or supply-chain records when they explain a US exposure. The [theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md) records the current evidence anchor and missing link for every theme.
 

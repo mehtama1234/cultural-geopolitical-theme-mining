@@ -1,0 +1,704 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-panel27-baseline-expenditure-outcomes-2022-2023",
+  "title": "Baseline health expenditure conditions paired health and work outcomes",
+  "theme_ids": [
+    "cost",
+    "work",
+    "time"
+  ],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "MEPS Panel 27 longitudinal person in the civilian noninstitutionalized US population",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2022 baseline expenditure band: All valid paired persons",
+      "denominator": {
+        "value": 7812,
+        "unit": "MEPS Panel 27 persons with valid paired expenditure and perceived-health fields",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "health_status_improved": {
+          "value": 21.0089,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.6638,
+          "ci95_low": 19.7078,
+          "ci95_high": 22.31,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 22.8489,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.7643,
+          "ci95_low": 21.3509,
+          "ci95_high": 24.3469,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 56.1422,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8104,
+          "ci95_low": 54.5539,
+          "ci95_high": 57.7305,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_both_rounds": {
+          "value": 62.0815,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8572,
+          "ci95_low": 60.4014,
+          "ci95_high": 63.7616,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 2.7732,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.2748,
+          "ci95_low": 2.2347,
+          "ci95_high": 3.3118,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 5.0496,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.3998,
+          "ci95_low": 4.2661,
+          "ci95_high": 5.8332,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 2012.3459,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 524.1202,
+          "ci95_low": 985.0703,
+          "ci95_high": 3039.6216,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "office_visit_change": {
+          "value": 0.2428,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.142,
+          "ci95_low": -0.0355,
+          "ci95_high": 0.5211,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "outpatient_visit_change": {
+          "value": 0.0354,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.0521,
+          "ci95_low": -0.0667,
+          "ci95_high": 0.1375,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "prescription_fill_change": {
+          "value": 0.6133,
+          "unit": "2023 minus 2022 fills per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.1537,
+          "ci95_low": 0.3121,
+          "ci95_high": 0.9144,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_change": {
+          "value": -87.4848,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 72.838,
+          "ci95_low": -230.2474,
+          "ci95_high": 55.2777,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2022": {
+          "value": 24.5765,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5214,
+          "ci95_low": 23.5546,
+          "ci95_high": 25.5984,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2023": {
+          "value": 22.6557,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5504,
+          "ci95_low": 21.5769,
+          "ci95_high": 23.7346,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; baseline 2022 total health expenditure quartiles are weighted cut points among nonnegative expenditure records; paired outcomes use ALL5RDS=1 and their own valid-field universes.",
+      "uncertainty": "Point estimates use LONGWT. Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU. Quartile cells are descriptive and do not adjust for baseline health, age, insurance, income, service mix, or illness severity; expenditure is skewed and quartile cut points are sample-specific.",
+      "subgroup": "All valid paired persons",
+      "counterinterpretation": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022 baseline expenditure band: Q1 lowest",
+      "denominator": {
+        "value": 1753,
+        "unit": "MEPS Panel 27 persons with valid paired expenditure and perceived-health fields",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "health_status_improved": {
+          "value": 20.1147,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.4628,
+          "ci95_low": 17.2477,
+          "ci95_high": 22.9817,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 25.5719,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.6791,
+          "ci95_low": 22.2807,
+          "ci95_high": 28.863,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 54.3135,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.877,
+          "ci95_low": 50.6346,
+          "ci95_high": 57.9924,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_both_rounds": {
+          "value": 69.2115,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.7547,
+          "ci95_low": 65.7722,
+          "ci95_high": 72.6508,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 2.5246,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5367,
+          "ci95_low": 1.4726,
+          "ci95_high": 3.5766,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 7.6012,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.907,
+          "ci95_low": 5.8235,
+          "ci95_high": 9.3789,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 2615.8264,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 874.1172,
+          "ci95_low": 902.5567,
+          "ci95_high": 4329.0961,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "office_visit_change": {
+          "value": 0.9123,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.12,
+          "ci95_low": 0.6772,
+          "ci95_high": 1.1475,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "outpatient_visit_change": {
+          "value": 0.0925,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.0267,
+          "ci95_low": 0.0401,
+          "ci95_high": 0.1448,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "prescription_fill_change": {
+          "value": 0.4837,
+          "unit": "2023 minus 2022 fills per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.0752,
+          "ci95_low": 0.3363,
+          "ci95_high": 0.631,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_change": {
+          "value": 365.5462,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 89.6185,
+          "ci95_low": 189.8939,
+          "ci95_high": 541.1985,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2022": {
+          "value": 29.9212,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.91,
+          "ci95_low": 26.1777,
+          "ci95_high": 33.6648,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2023": {
+          "value": 23.7625,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.7626,
+          "ci95_low": 20.3079,
+          "ci95_high": 27.2171,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; baseline 2022 total health expenditure quartiles are weighted cut points among nonnegative expenditure records; paired outcomes use ALL5RDS=1 and their own valid-field universes.",
+      "uncertainty": "Point estimates use LONGWT. Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU. Quartile cells are descriptive and do not adjust for baseline health, age, insurance, income, service mix, or illness severity; expenditure is skewed and quartile cut points are sample-specific.",
+      "subgroup": "Q1 lowest",
+      "counterinterpretation": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022 baseline expenditure band: Q2",
+      "denominator": {
+        "value": 1807,
+        "unit": "MEPS Panel 27 persons with valid paired expenditure and perceived-health fields",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "health_status_improved": {
+          "value": 18.2782,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.1081,
+          "ci95_low": 16.1064,
+          "ci95_high": 20.4501,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 21.9563,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.208,
+          "ci95_low": 19.5886,
+          "ci95_high": 24.324,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 59.7654,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.4786,
+          "ci95_low": 56.8673,
+          "ci95_high": 62.6636,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_both_rounds": {
+          "value": 68.3872,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.7851,
+          "ci95_low": 64.8883,
+          "ci95_high": 71.8861,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 2.7902,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.6456,
+          "ci95_low": 1.5249,
+          "ci95_high": 4.0556,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 5.2781,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8531,
+          "ci95_low": 3.606,
+          "ci95_high": 6.9502,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 1320.0714,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 1167.2459,
+          "ci95_low": -967.7306,
+          "ci95_high": 3607.8734,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "office_visit_change": {
+          "value": 0.7554,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.1577,
+          "ci95_low": 0.4463,
+          "ci95_high": 1.0644,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "outpatient_visit_change": {
+          "value": 0.2044,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.041,
+          "ci95_low": 0.1242,
+          "ci95_high": 0.2847,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "prescription_fill_change": {
+          "value": 0.7445,
+          "unit": "2023 minus 2022 fills per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.1592,
+          "ci95_low": 0.4324,
+          "ci95_high": 1.0566,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_change": {
+          "value": 305.4521,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 39.7869,
+          "ci95_low": 227.4698,
+          "ci95_high": 383.4344,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2022": {
+          "value": 27.9436,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.9281,
+          "ci95_low": 26.1246,
+          "ci95_high": 29.7626,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2023": {
+          "value": 24.6218,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8437,
+          "ci95_low": 22.968,
+          "ci95_high": 26.2755,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; baseline 2022 total health expenditure quartiles are weighted cut points among nonnegative expenditure records; paired outcomes use ALL5RDS=1 and their own valid-field universes.",
+      "uncertainty": "Point estimates use LONGWT. Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU. Quartile cells are descriptive and do not adjust for baseline health, age, insurance, income, service mix, or illness severity; expenditure is skewed and quartile cut points are sample-specific.",
+      "subgroup": "Q2",
+      "counterinterpretation": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022 baseline expenditure band: Q3",
+      "denominator": {
+        "value": 2028,
+        "unit": "MEPS Panel 27 persons with valid paired expenditure and perceived-health fields",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "health_status_improved": {
+          "value": 21.3012,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.1508,
+          "ci95_low": 19.0456,
+          "ci95_high": 23.5567,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 22.2177,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.0491,
+          "ci95_low": 20.1615,
+          "ci95_high": 24.274,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 56.4811,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.2638,
+          "ci95_low": 54.0041,
+          "ci95_high": 58.9581,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_both_rounds": {
+          "value": 63.3136,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.5987,
+          "ci95_low": 60.1802,
+          "ci95_high": 66.447,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 3.1084,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5923,
+          "ci95_low": 1.9475,
+          "ci95_high": 4.2693,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 4.0951,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.6381,
+          "ci95_low": 2.8443,
+          "ci95_high": 5.3458,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 3442.205,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 1017.3071,
+          "ci95_low": 1448.2832,
+          "ci95_high": 5436.1268,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "office_visit_change": {
+          "value": 0.6054,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.2161,
+          "ci95_low": 0.1819,
+          "ci95_high": 1.0288,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "outpatient_visit_change": {
+          "value": 0.2323,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.0989,
+          "ci95_low": 0.0385,
+          "ci95_high": 0.4261,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "prescription_fill_change": {
+          "value": 0.7693,
+          "unit": "2023 minus 2022 fills per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.2206,
+          "ci95_low": 0.3368,
+          "ci95_high": 1.2018,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_change": {
+          "value": 162.3765,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 53.1699,
+          "ci95_low": 58.1635,
+          "ci95_high": 266.5894,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2022": {
+          "value": 26.2057,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8307,
+          "ci95_low": 24.5776,
+          "ci95_high": 27.8339,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2023": {
+          "value": 24.8027,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.7734,
+          "ci95_low": 23.2869,
+          "ci95_high": 26.3185,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; baseline 2022 total health expenditure quartiles are weighted cut points among nonnegative expenditure records; paired outcomes use ALL5RDS=1 and their own valid-field universes.",
+      "uncertainty": "Point estimates use LONGWT. Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU. Quartile cells are descriptive and do not adjust for baseline health, age, insurance, income, service mix, or illness severity; expenditure is skewed and quartile cut points are sample-specific.",
+      "subgroup": "Q3",
+      "counterinterpretation": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022 baseline expenditure band: Q4 highest",
+      "denominator": {
+        "value": 2224,
+        "unit": "MEPS Panel 27 persons with valid paired expenditure and perceived-health fields",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "health_status_improved": {
+          "value": 24.4026,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.2087,
+          "ci95_low": 22.0336,
+          "ci95_high": 26.7716,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 21.6517,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.0684,
+          "ci95_low": 19.5577,
+          "ci95_high": 23.7458,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 53.9457,
+          "unit": "percent of valid paired persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.2074,
+          "ci95_low": 51.5791,
+          "ci95_high": 56.3122,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_both_rounds": {
+          "value": 49.7842,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.4396,
+          "ci95_low": 46.9626,
+          "ci95_high": 52.6058,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 2.6494,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.4845,
+          "ci95_low": 1.6999,
+          "ci95_high": 3.5989,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 3.6217,
+          "unit": "percent of valid employment-status pairs",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5872,
+          "ci95_low": 2.4707,
+          "ci95_high": 4.7726,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 641.7924,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 876.5417,
+          "ci95_low": -1076.2293,
+          "ci95_high": 2359.8142,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "office_visit_change": {
+          "value": -1.3302,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.4829,
+          "ci95_low": -2.2767,
+          "ci95_high": -0.3838,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "outpatient_visit_change": {
+          "value": -0.3967,
+          "unit": "2023 minus 2022 visits per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.18,
+          "ci95_low": -0.7495,
+          "ci95_high": -0.044,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "prescription_fill_change": {
+          "value": 0.4504,
+          "unit": "2023 minus 2022 fills per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.4601,
+          "ci95_low": -0.4515,
+          "ci95_high": 1.3522,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_change": {
+          "value": -950.7216,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 247.6198,
+          "ci95_low": -1436.0564,
+          "ci95_high": -465.3869,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2022": {
+          "value": 17.0402,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5672,
+          "ci95_low": 15.9285,
+          "ci95_high": 18.1519,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_share_2023": {
+          "value": 18.3515,
+          "unit": "person-level out-of-pocket share of total expenditure, percent",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.6925,
+          "ci95_low": 16.9942,
+          "ci95_high": 19.7088,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; baseline 2022 total health expenditure quartiles are weighted cut points among nonnegative expenditure records; paired outcomes use ALL5RDS=1 and their own valid-field universes.",
+      "uncertainty": "Point estimates use LONGWT. Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU. Quartile cells are descriptive and do not adjust for baseline health, age, insurance, income, service mix, or illness severity; expenditure is skewed and quartile cut points are sample-specific.",
+      "subgroup": "Q4 highest",
+      "counterinterpretation": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h252/h252doc.pdf",
+      "claim": "Official Panel 27 documentation defines longitudinal weights, variance variables, field coding, and panel participation.",
+      "status": "official-method"
+    },
+    {
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h252/h252cb.pdf",
+      "claim": "Official codebook defines the expenditure, health, employment, and wage fields.",
+      "status": "official-definition"
+    }
+  ],
+  "boundary": "This conditioning pass does not establish that health expenditure caused health or employment change. Baseline expenditure reflects need, prices, coverage, and treatment. The panel does not identify a dated bill, unpaid care hours, schedule control, treatment delay, household debt, trust, political action, or geopolitical consequence.",
+  "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e"
+}

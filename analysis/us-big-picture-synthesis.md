@@ -18,7 +18,15 @@ sets the common rule for that synthesis: surveys, administrative records,
 firms, markets, media, cultural measures, and international records retain
 their own units and roles while contributing to a shared arrow map.
 
-The atlas now contains 83 topics, 5 shared themes, 165 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
+The atlas now contains 84 topics, 5 shared themes, 174 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
+
+The program-level finding that currently interprets the full cross-source map is
+[Unequal optionality is the recurring structure behind pressure, adaptation, and
+power](findings/us-broad-program-unequal-optionality-path-001.md). It is the
+long-form reading layer for the recurring pattern below: the same nominal
+condition produces different practical outcomes because cash, time, care,
+skill, institutional route, ownership, and ability to exit are unevenly
+distributed.
 
 ## The main finding so far
 
@@ -40,8 +48,107 @@ The newer pages make the map more concrete:
 - A price gap can exist while the customer pays for time, safety, or convenience.
 - New residents can add customers and jobs while also adding pressure to homes and services.
 - A benefit loss can change sentiment without proving a changed vote.
+- A charitable-food visit can fill part of a food gap while hours, transport, awareness, comfort, variety, safety, and treatment still leave need unmet.
+- Automatic saving can add retirement and liquid-account assets while also changing short-term credit-card debt; a related SIPP policy-timing study reports later retirement and Social Security claiming. The Oregon balance-sheet and seven-state timing studies use different designs and balance-sheet measures, so future security, current liquidity, and voluntary choice must be measured separately rather than pooled.
+- [Automatic saving is a multi-currency policy](findings/us-automatic-saving-multi-currency-policy-bridge-001.md) now places those Auto-IRA results beside Federal Reserve liquidity/credit and BEA aggregate income/spending. The bridge preserves the apparent cross-paper disagreement and keeps current room, later claiming, wellbeing, and political meaning as separate outcomes.
 
-These are not six versions of one theory. They are six places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
+These are not versions of one theory. They are places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
+
+## Current cross-source cycle: the same boundary appears across multiple domains
+
+The 2026-09-14 rotation adds detailed findings that widen the atlas while
+preserving its central discipline:
+
+The current household-and-system rotation adds five more bounded surfaces. The
+[SHED household-room finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-013.md)
+separates income timing, outside help, assistance, month-end margin, and price
+adaptation. The [RECS energy finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-034.md)
+separates annual energy spending, assistance, disconnection-related help, and
+equipment repair or replacement risk. The [financial-access route finding](projects/us-financial-intermediation/findings/us-financial-intermediation-002.md)
+places Global Findex, IMF FAS, SHED, CFPB, OFR, and FTC layers from doorway
+through provider setting, household loss, institutional routing, and the still
+missing remedy/exit stage. The [BFS/BDS firm-and-place finding](projects/us-local-business-place/findings/us-local-business-place-011.md)
+separates applications, establishments, openings, and net-job creation. The
+[World Bank comparative finding](projects/ai-work-control/findings/ai-work-control-073.md)
+adds poverty, fragility, climate exposure, and survey-coverage context without
+turning it into a US household or geopolitical-behavior result.
+
+- [Task adoption and sector mobility](projects/ai-work-control/findings/ai-work-control-035.md)
+  shows that NBER task-level AI use, BLS establishment quits, union
+  membership, and average pay describe different exposure surfaces. None is a
+  worker-control, household, or political outcome without a common worker or
+  workplace key.
+- [Consumer loss and complaint visibility](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md)
+  places Federal Reserve/SHED fraud loss and recovery burden beside CFPB
+  complaint routing and response labels. Household harm and administrative
+  visibility have different denominators; a complaint response is not verified
+  recovery or practical exit.
+- [Local capacity and immigration meaning](projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md)
+  compares county growth/nativity/service-capacity screens with local
+  Chicagoland policy attitudes. Capacity stocks and respondent meaning are
+  distinct layers; neither population growth nor foreign-born share is a proxy
+  for belonging or political action.
+- [California insurance sensitivity](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-002.md)
+  shows that a low-income/high-risk nonrenewal ordering changes under a
+  different income cut point. Place-market gradients therefore require
+  pre-specified sensitivity and property-year validation before they become
+  household displacement or insurance-failure claims.
+- [Fraud recovery burden](projects/us-consumer-fraud-trust/findings/us-consumer-fraud-trust-001.md)
+  separates household fraud exposure, conditional unrecovered money, recovery
+  time, and P2P route comparisons. The survey does not verify provider remedy,
+  later trust, switching, or exit.
+- [Party-conditioned financial worry and vote](projects/us-cost-trust-politics/findings/us-cost-trust-politics-014.md)
+  shows that strong partisan identity concentrates reported vote across worry
+  categories while independents vary more visibly. The official controlled
+  export has no reproduced design-based standard errors and no dated material
+  exposure.
+- [Payment-system incidence](projects/us-household-financial-pressure/findings/us-household-financial-pressure-003.md)
+  connects NBER merchant/model evidence to separate SHED household-pressure
+  measures. Modeled redistribution is not an observed household loss or
+  welfare estimate.
+- [Infrastructure realization and control](projects/ai-work-control/findings/ai-work-control-036.md)
+  separates Romania infrastructure completion, application migration, Malaysia
+  operating capacity, and ownership transition. Capacity is not sovereignty,
+  portability, or geopolitical leverage.
+
+The latest continuation adds a more current macro-to-household-to-work
+sequence without claiming that the layers share respondents. [August 2026
+labor conditions](projects/ai-work-control/findings/ai-work-control-039.md)
+keep CPS unemployment and participation separate from CES payrolls, pay, hours,
+and industry movement. [Household room and worker exit](projects/ai-work-control/findings/ai-work-control-040.md)
+then places that labor surface beside SIPP monthly resource/job timing, Federal
+Reserve liquidity and repayment, and New York Fed aggregate credit. The safe
+interpretation is that household room is a plausible conditioning variable for
+practical exit and voice, not an established causal bridge.
+
+Two BEA layers add the current macro and firm surfaces. [July personal income
+and outlays](projects/us-household-financial-pressure/findings/us-household-financial-pressure-007.md)
+separates aggregate income, PCE, services-versus-goods movement, outlays, and
+saving from household financial room. [Q2 GDP and corporate profits](projects/ai-work-control/findings/ai-work-control-041.md)
+separates output, private domestic demand, prices, and profits from worker
+control, household benefit, and AI effects. The next test is a named-sector or
+firm/workplace design with a common key.
+
+The current controls also record source movement rather than silently treating
+new metadata as new social change. The [HTOPS/HPS vintage recheck](projects/us-cost-trust-politics/htops-2026-vintage-recheck-2026-09-14.md)
+confirms corrected March/May weights and July as the latest listed 2026 file;
+the [CFPB live vintage recheck](projects/us-customer-automation-recourse/cfpb-api-vintage-refresh-2026-09-14.md)
+confirms that the current API matches the committed 2025 snapshot. These are
+reproducibility controls, not additional household or consumer trend points.
+
+The [recurrent-source vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
+now makes the next checks explicit: BEA on September 30, BLS JOLTS on the next
+scheduled release, the next Census PUF, continuing CFPB API metadata, and the
+account-gated PSID and World Bank Enterprise Survey acquisitions. This keeps
+the map living across releases while preserving old vintages and open arrows.
+
+Across these current findings, the recurring program pattern is not a single worsening
+trend. It is **unequal optionality plus measurement separation**: people,
+workers, households, firms, places, and institutions occupy different
+positions in the same chain, and the observed endpoint in one layer cannot be
+silently substituted for the missing endpoint in another. The next end-to-end
+tests therefore require common units, time order, alternatives, correction or
+remedy, and a measured downstream choice or meaning.
 
 The newer pages also show that these are not separate lanes. They form a few repeatable chains:
 
@@ -76,6 +183,121 @@ show that one price, bill, firm, or policy caused a specific person's trust or
 vote. That missing link is part of the finding, not a reason to erase the
 broader pattern.
 
+The new NBER evidence makes the missing link more precise. The [real-wage,
+inflation, and 2024 election finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md)
+uses 3,102 US counties and shows that county-level purchasing-power measures
+are associated with Republican vote share, Republican margin, and presidential
+turnout. Its preferred estimates distinguish real-wage change from inflation,
+and use state fixed effects plus robust and state-cluster bootstrap uncertainty.
+That is useful evidence for a place-level economic-voting arrow, but it is not
+evidence that the same individual experienced the measured price or wage
+change, attributed it to a candidate, and then voted in response.
+
+The [Italian transfer-design comparator](projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md)
+shows why the political endpoint needs its own design. A salient, targeted
+monthly transfer can produce an incumbent vote response, and the response can
+persist after the transfer ends, while the consumption response and the
+electoral response are not interchangeable. This is an international
+comparison, not a US estimate, but it supplies a concrete testable mechanism:
+benefit receipt, perceived government credit, consumption, and electoral reward
+are separate stages. The linked HTOPS material-to-Congress-confidence finding
+adds same-person temporal evidence for one earlier arrow, while ANES, GSS, and
+other political packets measure interpretation or action in different samples.
+
+The end-to-end political chain is therefore now written as:
+
+```text
+local prices, wages, rules, or transfers
+  -> real purchasing power or salient benefit receipt
+  -> adaptation, consumption, borrowing, or delay
+  -> attribution, trust, and perceived fairness
+  -> vote, turnout, complaint, switching, or other public action
+  -> policy persistence, redesign, or revocation
+```
+
+The program will not pool these arrows simply because they appear in one
+story. Each source keeps its unit, denominator, timing, geography, design, and
+uncertainty. The research task is to add same-unit or same-case links where
+available, and to preserve the open boundary where a county association,
+population adaptation measure, respondent judgment, or election result cannot
+be joined causally.
+
+The [financial dissatisfaction/trust finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-012.md)
+sharpens this meaning layer with the 2024 GSS: financial satisfaction, fairness
+expectations, generalized trust, ideology, and vote intention can coexist in
+one respondent while remaining causally ambiguous. Trust is therefore an
+outcome to measure separately from voting, not a proxy for political silence
+or a shortcut from hardship to electoral behavior.
+
+The Federal Reserve lane adds an important messenger layer to this pattern.
+The [partisan-trust finding](projects/us-fed-partisan-trust/findings/us-fed-partisan-trust-001.md)
+shows that perceived institutional alignment is associated with trust,
+information demand, and the weight given to a Fed message when forming
+inflation expectations. This helps explain why the same economic announcement
+can be received as useful information by one group and as a partisan signal by
+another. The NBER evidence does not establish actual spending, borrowing,
+voting, or the Fed's objective political alignment; those are still open
+arrows. The separate [NBER design-comparison acquisition audit](projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md)
+also keeps hypothetical responses distinct from responses to an actual rate
+announcement.
+
+The [New York Fed Economic Heterogeneity Indicator layer](projects/us-cost-trust-politics/new-york-fed-economic-heterogeneity-layer-v1.md)
+adds the distributional context behind that messenger problem. Constructed
+inflation gaps, earnings ratios, and income-stratified retail-consumption
+directions show why a national price or policy story can meet different lived
+baskets and different amounts of room to respond. These are group indicators,
+not a substitute for the actual price paid, debt exposure, or spending record
+of a particular household.
+
+The [SIPP official-universe variance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-002.md)
+adds a statistical-quality check to the material/time/care lane. Applying
+field-specific status flags, universes, and Fay-BRR replicate weights gives
+uncertainty intervals for hardship, food security, hunger, and job-count
+diagnostics. This makes comparisons more calibrated; it still does not turn
+person-record weights into household weights or close the dated-trigger,
+time-substitution, trust, or political-action arrows.
+
+The [SIPP care/work variance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-003.md)
+extends that quality check to child-care payment, assistance, work prevention,
+and reported time lost. The measures occupy different conditional universes;
+the small and imprecise time-lost cell is preserved rather than blended into a
+general care-burden rate. The layer still does not observe the full substitution
+path or its later cultural and political meaning.
+The [SIPP income-band care comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-004.md)
+adds subgroup divergence: paid-care use, payment assistance, and work
+prevention do not move together across income-to-poverty bands. This keeps
+access to paid care separate from need, support, and foregone work; the
+comparison does not establish eligibility, unmet demand, or causation.
+The [SIPP tenure care comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-005.md)
+adds another moderator: renters report more child-care assistance and work
+prevention, while owners/buyers report more paid-care use. This is a
+distributional contrast, not evidence that tenure caused the difference; the
+sparse no-rent cells remain explicitly limited.
+The [SIPP race-group care comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-006.md)
+adds unevenly precise subgroup evidence: Black-alone records show more reported
+assistance and work prevention than White-alone records, while paid-care use
+is lower. The released race recode does not measure cultural meaning,
+discrimination, or causation.
+The [SIPP disability-status care comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-007.md)
+adds a health/work-limitation moderator: paid-care use is lower in the
+work-limiting group, while reported work prevention is not clearly separated.
+The sparse time-lost cell keeps accommodation, care need, and causal meaning
+open.
+The [SIPP regional care comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-008.md)
+adds place context: paid-care incidence is broadly similar across regions,
+while reported work prevention varies more. This points toward provider,
+housing, work-schedule, and household-composition mechanisms to test rather
+than treating region itself as a cause.
+The [SIPP child-presence care screen](projects/us-household-calendar-integration/findings/us-household-calendar-integration-009.md)
+adds a measurement boundary: household members under 18 and reference-parent
+child-care fields are not interchangeable. The sparse no-under-18 records are
+retained as an audit target rather than interpreted as ordinary nonparent care
+behavior.
+The [SIPP reference-parent universe audit](projects/us-household-calendar-integration/findings/us-household-calendar-integration-010.md)
+resolves that apparent anomaly as a timing/control issue: monthly household
+composition is not the same as annual reference-parent or fall/December care
+status. Parent-status estimates remain open until those clocks are aligned.
+
 The [CFPB complaint-response layer](projects/us-customer-automation-recourse/cfpb-complaint-response-descriptive-layer-v1.md)
 adds the institutional and firm side. Its 2024 published records are heavily
 concentrated in credit reporting, and company responses are mostly recorded as
@@ -101,6 +323,20 @@ news attention, alongside partisan differences in trusted news sources and a
 growing role for social-media news influencers. This measures source
 environment and civic behavior, not persuasion or a platform-caused vote.
 
+The [Pew adult social-media-use layer](projects/us-digital-habits-attention/pew-adult-social-media-use-2025-layer-v1.md)
+adds a population comparator to the teen platform/chatbot evidence. YouTube
+and Facebook have broad adult reach, while Instagram and TikTok are more
+age-concentrated and daily use differs sharply by platform and age. This maps
+differentiated exposure and audience formation; it does not treat platform
+reach as total attention, persuasion, or political power.
+
+The [digital-life synthesis](projects/us-digital-habits-attention/findings/us-digital-habits-attention-005.md)
+now puts those adult patterns beside teen social/chatbot use, adult chatbot
+purposes and governance concern, and news/civic engagement styles. The
+resulting cultural question is not whether “people are online,” but which
+social, informational, consumer, or institutional relationship is becoming
+ordinary—and whether people can still inspect, refuse, correct, or leave it.
+
 The [USDA 2024 food-security layer](projects/us-food-budget-security/usda-2024-food-security-layer-v1.md)
 adds a basic-security endpoint. It distinguishes low food security, very low
 food security, child/adult shielding, unequal exposure, and nutrition-assistance
@@ -115,12 +351,70 @@ identity. A rising application count is not yet a rising local job base or a
 stronger community; those links require establishment, service, and local-life
 records.
 
+The [local capacity and reachability finding](projects/us-local-business-place/findings/us-local-business-place-003.md)
+extends that bridge from firm stock to practical access. CBP establishment and
+employment density, HRSA primary-care shortage representation, rurality, and
+NHTS mobility each describe a different part of the local option stack. The
+same county can have visible providers and a formal shortage designation, or
+nominal capacity that residents cannot afford or reach. The next place test is
+a common geography/time comparison of capacity and mobility cells with prices,
+hours, neighboring supply, service use, work/care displacement, and local
+meaning or civic action. Its first 3,128-county screen finds a high-capacity /
+high-zero-vehicle cell as a concrete counterexample: more visible providers
+coexist with a stronger vehicle-constraint context and high HPSA
+representation. This is a place-context result, not a resident-access or
+health-outcome estimate.
+
 The [AI capability and dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md)
 extends the map from domestic firms and places to infrastructure and states.
 Its central pattern is that imported or privately owned capability can expand
 what a country can do while also increasing dependence on external providers,
 capital, chips, cloud, electricity, and data systems. The project keeps local
 benefit, public control, and geopolitical leverage as questions to test.
+
+The [IMF April 2026 WEO layer](projects/ai-work-control/imf-weo-geopolitical-fiscal-shock-2026-layer-v1.md)
+adds the macro middle between geopolitical shocks and lived conditions. Its
+conditional analysis shows that defense mobilization can support short-run
+activity while increasing inflation, deficits, debt, and the risk of lower
+social spending. The US projections provide aggregate context, but do not
+identify household incidence, legitimacy, unrest, or alliance behavior.
+
+The [World Bank poverty, prosperity, and planet layer](projects/ai-work-control/world-bank-poverty-prosperity-planet-2024-layer-v1.md)
+adds the distributional counterweight: global poverty remains concentrated in
+Sub-Saharan Africa and fragile/conflict-affected countries, climate exposure
+threatens livelihood gains, and many countries lack recent survey coverage for
+poverty monitoring. This is comparative context, not a US household result,
+but it keeps growth, vulnerability, and evidence capacity in the same reading
+map.
+
+The [SIPRI 2025 military-expenditure and state-capacity layer](projects/ai-work-control/sipri-2025-military-expenditure-state-capacity-layer-v1.md)
+adds the geopolitical capacity side. Global military spending reached an
+estimated $2.887 trillion in 2025, while US spending fell in real terms as
+European and Asian/Oceanian spending rose. These are fiscal and organizational
+inputs, not direct measures of realized capability, public legitimacy, or
+household welfare; the open arrows are how spending becomes procurement,
+industrial capacity, alliance leverage, or domestic trade-offs.
+
+The [macro-to-legitimacy synthesis](projects/ai-work-control/findings/ai-work-control-026.md)
+now makes the end-to-end research route explicit across IMF, World Bank,
+SIPRI, Federal Reserve, and ANES. It distinguishes macro shock, distribution,
+household adaptation, political judgment, and external response instead of
+turning them into one unsupported causal claim.
+
+The [AI capability/shared-control synthesis](projects/ai-work-control/findings/ai-work-control-031.md)
+adds the parallel firm-to-state route across NBER, BIS, BEA, IMF, OFR, and the
+World Bank. Its central warning is that productivity, output, or infrastructure
+can expand while ownership, worker discretion, household incidence, public
+review, and replaceability remain unresolved. This keeps the program's central
+question focused on who has the alternatives and control after a system
+changes, not merely whether the system grows.
+
+The [worker-power finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-011.md)
+adds a parallel labor-market safeguard. BLS mobility, union membership, and
+average earnings describe different institutional surfaces; their divergence
+is evidence against treating a cooling labor market as one shared experience of
+loss or power. The open test is a worker/workplace event linked to household
+room, control, remedy, and political meaning.
 
 The newer [capability/dependence local-power layer](projects/ai-work-control/capability-dependence-local-power-layer-v1.md)
 sharpens that question: capability is a stack, investment can create capacity
@@ -134,6 +428,27 @@ add two missing societal domains. Care is distributed through work and family
 time; place risk is distributed through protection, repair, transport, local
 services, and mobility. Neither can be reduced to a household bill or a move.
 
+The [MEPS non-synchronization finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-001.md)
+adds a repeated-person safeguard to the care/health path: system spending,
+out-of-pocket payment, coverage, and perceived health can move in different
+directions. The unresolved social cost is what happens to treatment continuity,
+unpaid time, work, debt, food, housing, and family care around that change.
+
+The newer [cross-source care-cost/time/work finding](findings/us-care-cost-time-work-currency-cross-source-001.md)
+puts that MEPS result beside SIPP's child-care work-constraint layer and the
+Federal Reserve's SHED unpaid-care adaptation layer. Together they support a
+bounded societal pattern: care costs can be redistributed across money, time,
+work capacity, and family security. They do not constitute a pooled estimate
+or a same-household causal chain, so the dated event-to-recovery arrow remains
+open.
+
+The [housing-payment/coverage synthesis](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-001.md)
+sharpens the place-risk interpretation: keeping a home requires both payment
+room and usable risk coverage. Rent arrears, insurance gaps, premiums,
+nonrenewals, residual-market enrollment, and modeled hazard are different
+stages; the unresolved end-to-end outcome is whether a household can repair,
+remain, or move without losing security.
+
 The [published 2023–2024 ATUS care/work layer](projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md)
 adds a population-scale care baseline: 38.2 million people reported recent
 eldercare, with different intensity and recipient patterns by employment,
@@ -141,10 +456,86 @@ frequency, and household relationship. This strengthens care as a societal
 infrastructure question while leaving the same-person displacement and
 recovery arrows open.
 
+The [ATUS eldercare roster comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-011.md)
+adds a sharper social-reproduction boundary: about four in five provider
+respondents in both 2024 and 2025 listed at least one non-household recipient,
+and providers listed about 1.3–1.4 recipients on average. Care therefore may
+be coordinated across household boundaries, but the annual samples and roster
+do not measure distance, hours, shared support, work displacement, or later
+meaning. The result expands the network under study without closing the
+causal burden arrow.
+
+The [ATUS provider-time comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-012.md)
+then compares the diary-day currencies directly. Providers show more household
+work and travel and less paid work and socializing than nonproviders in both
+annual samples, with replicate-weighted uncertainty. This is a useful measured
+time profile and a strong target for adjustment, but it is not a care-caused
+loss: age, health, employment, family composition, recipient need, and diary
+timing remain unresolved.
+
+The [standardized provider-time comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-013.md)
+addresses the first part of that concern. After standardizing to supported
+age-band × sex × labor-force-status cells, the extra household work and travel
+and lower socializing profile persists in both samples; the paid-work contrast
+is smaller and imprecise. This makes the descriptive pattern more durable, not
+causal: health, family structure, recipient need, occupation, schedule control,
+and dated care timing remain open.
+
+The [richer standardized comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-014.md)
+adds household-child status and broad education. Care, household-work, and
+travel differences remain in both years, but the social-time contrast weakens
+in 2025 and the paid-work contrast remains uncertain. The program therefore
+has a measured robustness pattern with annual variation—not a single care
+penalty or a causal work-loss claim.
+
+The [SIPP work/care/health bridge](projects/us-household-calendar-integration/findings/us-household-calendar-integration-027.md)
+now places the next three currencies together. In the same-person SIPP
+cross-lag, reported work-limiting status conditions monthly earnings, hours,
+and job/resource movement; ATUS shows that eldercare providers allocate more
+diary-day minutes to care, household work, and travel and fewer to paid work
+and socializing; and MEPS Panel 27 shows that total health spending,
+out-of-pocket spending, coverage, and perceived health can move in different
+directions. These are complementary stages, not a pooled person-level chain.
+The defensible conclusion is that household room has money, time, and health
+cost currencies whose timing and welfare meaning can diverge. The missing
+end-to-end design still needs a dated care or health event, schedule control,
+earnings and unpaid time, treatment continuity, food/housing trade-offs,
+recovery, and later trust or action.
+
+The [2025 CFPB visible-endpoint refresh](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-015.md)
+adds a current institutional counterpart. Published complaint records more than
+doubled from 2024 to 2025, while the recorded mix moved toward explanation,
+away from relief labels, and toward less narrative visibility. That changes the
+observed recourse institution, not necessarily consumer welfare: publication,
+product, routing, coding, and index changes remain live alternatives until a
+same-case verified remedy and later trust or exit are observed.
+
+The [product-conditioned CFPB route comparison](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-016.md)
+shows why the pooled shift must stay conditional. Mortgage and vehicle-loan
+records remain explanation-dominant, checking/savings and credit-card mixes
+move toward explanation, and student-loan untimely labels rise sharply in 2025.
+The student-loan signal is a target for field and servicing audit, not a direct
+measure of borrower harm or failed remedy.
+
+The [student-loan timing-field audit](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-017.md)
+corrects a potentially consequential category collapse: `timely = No` reaches
+30.4% in 2025, while the narrower company-response untimely category is 15.9%.
+The annual report's roughly 31% context aligns with the broader field. This is
+an institutional measurement result; notices, servicing transfers, elapsed
+days, payment status, verified remedy, and borrower meaning remain open.
+
 The [optionality layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md)
 connects the distributional evidence across the map. It asks who has the cash,
 time, alternatives, support, rights, voice, and practical exit needed to turn a
 formal choice into a real one.
+
+The [Federal Reserve income-volatility and support layer](projects/us-cost-trust-politics/federal-reserve-income-volatility-support-2025-layer-v1.md)
+sharpens the meaning of household room. Income timing, family and public
+support, month-end margin, and price adaptations form different buffers and
+different burdens. The same price environment can therefore produce product
+switching for one household, reduced saving or borrowing for another, and
+extra work for a third; dated events, time displacement, recovery, and
+political meaning remain unlinked.
 
 The [safety-net administrative-burden layer](projects/us-safety-net-access/administrative-burden-access-layer-v1.md)
 deepens the public-systems side. It shows that eligibility, enrollment,
@@ -263,6 +654,49 @@ The project has now converted the five umbrella themes into five cross-domain re
 - [Public aid and rules → interpretation and political response](bridges/us-public-aid-interpretation-political-response-v1.md): exposure, take-up, material outcome, blame, trust, public action, turnout, and vote.
 
 The execution queue and source-unit rules are recorded in the [US broad research pass](US-BROAD-RESEARCH-PASS_V1.md). The next stage is to attach valid population-, market-, firm-, place-, or institution-level data to these bridges. A household panel is one possible tool for missing longitudinal links, not the definition of the overall project.
+
+## Current evidence checkpoint
+
+The current rotation adds a dated macro-to-household price layer. The [August
+2026 BLS Employment Situation finding](projects/ai-work-control/findings/ai-work-control-039.md)
+shows payroll growth and low unemployment alongside slower hiring, long-term
+unemployment, uneven industry movement, and unresolved worker-room questions.
+The [labor-to-household-room bridge](projects/ai-work-control/findings/ai-work-control-040.md)
+keeps establishment and household/person-month universes separate.
+
+The [BEA July 2026 income-and-outlays finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-007.md)
+adds aggregate income, disposable income, consumption composition, outlays,
+and saving. The [BEA Q2 GDP-and-profits finding](projects/ai-work-control/findings/ai-work-control-041.md)
+adds output, final demand, prices, and corporate profits. Neither aggregate
+surface identifies which households have room or who gains control.
+
+The [August 2026 BLS CPI finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-008.md)
+adds the matching price checkpoint: CPI-U rose 0.4% in the month and 3.4% over
+the year, with gasoline and energy contributing materially to the movement.
+This is an official aggregate price index, not household hardship, and it does
+not identify substitution, borrowing, health/work effects, trust, or political
+response. The [Census HTOPS/HPS vintage recheck](projects/us-cost-trust-politics/htops-2026-vintage-recheck-2026-09-14.md)
+and [CFPB live-vintage recheck](projects/us-customer-automation-recourse/cfpb-api-vintage-refresh-2026-09-14.md)
+keep revision and administrative-visibility boundaries explicit.
+
+The [August 2026 BLS PPI finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-009.md)
+adds the upstream seller-side layer: final demand rose 0.4% in the month and
+5.4% over the year, while diesel and intermediate goods moved more sharply.
+PPI is a possible transmission surface, not consumer pass-through, firm
+margin, household burden, or political-response evidence. A named product or
+sector is still required for the next firm-to-consumer test.
+
+The [current macro cross-source synthesis](projects/us-household-financial-pressure/findings/us-household-financial-pressure-010.md)
+puts labor, CPI, PPI, and BEA income/outlays into one calendar-aligned
+conditioning frame. It does not merge their units: the missing end-to-end
+test remains product/firm pass-through, household exposure and adaptation,
+recovery, trust, and political action.
+
+The [recurrent-source vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
+now turns BEA, BLS, Fed, Census, CFPB, SIPP, PSID, World Bank, and defense
+refreshes into a continuing control loop. Each new vintage must preserve its
+source, unit, date, geography, denominator, method, uncertainty, subgroup,
+counterexample, and open-arrow boundaries.
 
 ## What the map supports now
 

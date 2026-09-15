@@ -43,7 +43,12 @@ def main() -> None:
             aggregate: with_shares(buckets(data, aggregate))
             for aggregate in AGGREGATES
         }
-        products[name]["source_filtered_total"] = int(data["hits"]["total"]["value"])
+        total_records = data.get("total_records", {}).get("value")
+        if total_records is None:
+            total_records = data.get("hits", {}).get("total", {}).get("value")
+        if total_records is None:
+            raise ValueError(f"{path} does not contain a normalized total_records value or raw hits.total value")
+        products[name]["source_filtered_total"] = int(total_records)
     result = {
         "format": "us-cfpb-product-response-routes-v1",
         "source_unit": "published CFPB complaint record in a product-filtered API aggregation",

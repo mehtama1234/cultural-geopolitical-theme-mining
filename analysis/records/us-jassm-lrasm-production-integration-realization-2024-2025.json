@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-jassm-lrasm-production-integration-realization-2024-2025",
+  "title": "JASSM/LRASM resources are accompanied by reported production-capacity and integration milestones",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "Lockheed Martin corporate program announcements, with a contemporaneous US Department of Defense contract notice as a corroborative contract-stage source",
+  "geography": "United States; Lockheed Martin and DoD work locations reported in Orlando, Florida and the US production base",
+  "observations": [
+    {
+      "period": "2024-10-14; production-capacity announcement",
+      "denominator": {"value": 1, "unit": "Lockheed Martin JASSM/LRASM program announcement"},
+      "measures": {
+        "reported_capacity_action": {"value": "contract award to increase JASSM/LRASM production capacity", "unit": "program action", "value_type": "reported"},
+        "reported_new_factory_size": {"value": 225000, "unit": "square feet; facility brought online in 2022 according to announcement", "value_type": "reported"},
+        "reported_delivery_claim": {"value": "accelerate deliveries at needed quantities", "unit": "management statement", "value_type": "reported"}
+      },
+      "method": "Qualitative extraction from a dated Lockheed Martin program announcement; the capacity action is kept separate from realized output or delivery counts.",
+      "uncertainty": "The announcement does not provide missile quantities produced, accepted, delivered, staffing, throughput, yield, or facility-specific output. It is a corporate source and includes forward-looking claims.",
+      "subgroup": "JASSM and LRASM large-lot production program and associated US production infrastructure.",
+      "counterinterpretation": "A capacity investment or production-support award can coexist with bottlenecks, schedule slippage, input constraints, or no near-term increase in accepted inventory.",
+      "source_url": "https://www.lockheedmartin.com/en-us/news/features/2024/lockheed-martins-jassm-and-lrasm-ramps-up-production.html",
+      "retrieval_hash": "sha256:2f2b3f96733b474a299daec828f7e96e11e62c9b2900e03ec62678788807af5f",
+      "status": "reported"
+    },
+    {
+      "period": "2025-03-04; initial LRASM-F-35B integration flight test",
+      "denominator": {"value": 1, "unit": "reported initial flight test event"},
+      "measures": {
+        "integration_test_event": {"value": "initial flight test integrating LRASM onto the F-35B", "unit": "dated test milestone", "value_type": "reported"},
+        "test_location": {"value": "Naval Air Station Patuxent River, Maryland", "unit": "test location", "value_type": "reported"},
+        "prior_f35c_test_reference": {"value": "September 2024", "unit": "prior test month", "value_type": "reported"}
+      },
+      "method": "Dated Lockheed Martin newsroom report describing the event and its test-program position; treated as an integration milestone, not a fielding or acceptance result.",
+      "uncertainty": "The event establishes a reported flight test, but not successful completion of the full test program, certification, production delivery, operational deployment, combat performance, or changed adversary/alliance behavior.",
+      "subgroup": "LRASM weapon system integration with the F-35B platform within the broader AGM-158 family.",
+      "counterinterpretation": "A flight test can identify integration or software/hardware issues and may precede substantial additional testing before operational use.",
+      "source_url": "https://news.lockheedmartin.com/2025-3-4-lrasm-performs-flight-test-in-f-35-integration-test-series",
+      "retrieval_hash": "sha256:30b14019565a159713bc17a37a056f01259f80421a72f22bcf97e7e5d73e2d73",
+      "status": "reported"
+    },
+    {
+      "period": "2024-09-10; DVIDS record posted 2024-09-24",
+      "denominator": {"value": 1, "unit": "government-published flight-test record"},
+      "measures": {
+        "loaded_missile_test": {"value": 2, "unit": "AGM-158 missiles loaded on external stations during the described two-day test", "value_type": "reported"},
+        "test_purposes": {"value": "flutter, loads, and flying qualities", "unit": "flight-test evaluation dimensions", "value_type": "reported"},
+        "test_location": {"value": "Naval Air Station Patuxent River, Maryland", "unit": "test location", "value_type": "reported"}
+      },
+      "method": "Government-published DVIDS image record and caption describing an F-35C flight test and the Pax River F-35 Integrated Test Force mission; treated as an independent test-event corroboration.",
+      "uncertainty": "The record documents a test event and its stated evaluation dimensions, not certification completion, production acceptance, delivery, fleet fielding, or combat effectiveness.",
+      "subgroup": "AGM-158C LRASM integration with the F-35C carrier variant, within a test program covering F-35B and F-35C variants.",
+      "counterinterpretation": "Flight testing is an intermediate verification/certification step and may surface issues or require additional tests before operational use.",
+      "source_url": "https://www.dvidshub.net/image/8659318/agm-158-flight-testing-begins-f-35c",
+      "retrieval_hash": "sha256:d6c6196b3980c0bc48631d9a731ae8ee7ea0daa66e068acd608305579e6ef885",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/3919852/",
+      "claim": "DoD contract notice dated 2024-09-27 reports a $3.230B firm-fixed-price undefinitized action for JASSM Lot 22 and FMS missiles, with Orlando performance and completion expected July 31, 2032.",
+      "status": "reported",
+      "access_boundary": "Official page was available through indexed/web retrieval but returned HTTP 403 to the local command-line fetch during this pass; the claim is retained as corroborative context, not as a locally hashed raw artifact."
+    }
+  ],
+  "boundary": "This record establishes reported capacity, production-support, and integration-test milestones for one US weapons program. It does not establish missile output, delivery, acceptance, inventory, operational readiness, workforce or local incidence, resilience, deterrence, leverage, or an external actor's changed behavior."
+}

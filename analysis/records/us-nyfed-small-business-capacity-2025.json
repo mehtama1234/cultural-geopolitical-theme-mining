@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyfed-small-business-capacity-2025",
+  "title": "Small-business profitability, revenue, and employment paths diverge by firm size",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "work_control_bargaining", "housing_place_mobility", "unequal_exposure_status"],
+  "source_unit": "Federal Reserve Banks Small Business Credit Survey employer firm",
+  "geography": "United States national small-business indicators",
+  "observations": [
+    {
+      "period": "2024 survey: profitability at end of 2023",
+      "denominator": {"value": 6280, "unit": "employer-firm respondents in the 2024 Small Business Credit Survey; 3,935 had 1–9 employees", "value_type": "reported_sample"},
+      "measures": {
+        "profitability_diffusion": {"value": 13, "unit": "percentage-point diffusion index: percent at a profit minus percent at a loss", "value_type": "reported_diffusion"},
+        "profitability_pre_pandemic_comparator": {"value": 46, "unit": "percentage-point diffusion index in December 2019", "value_type": "reported_comparator"}
+      },
+      "method": "Weighted Small Business Credit Survey estimate for employer firms; profitability question refers to the end of the year before the survey year.",
+      "uncertainty": "The SBCS is a non-random survey of firms contacted directly or through community organizations, weighted by industry, location, and demographics. The profitability observation is retrospective and its reference year differs from other survey questions.",
+      "subgroup": "All employer firms and firms with 1–9 employees; additional size comparison includes firms with 10 or more employees.",
+      "counterinterpretation": "Improved reported profitability can coexist with weak revenue growth, owner compensation changes, lower costs, or changed firm composition; a diffusion index is not a profit margin.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey: revenue and 2026 expectations",
+      "denominator": {"value": 6389, "unit": "employer-firm respondents reporting next-12-month revenue expectations in the 2025 Small Business Credit Survey; 4,036 had 1–9 employees", "value_type": "reported_sample"},
+      "measures": {
+        "revenue_past_12_months": {"value": "more respondents reported lower than higher revenue; the smallest firms drove the lower-revenue result", "unit": "reported direction of diffusion-index outcome", "value_type": "reported_direction"},
+        "revenue_expectation_change": {"value": -6, "unit": "percentage-point year-over-year change in the share of firms expecting higher revenue in 2026", "value_type": "reported_change"},
+        "smallest_firm_pricing_power": {"value": "lower than larger firms", "unit": "reported comparative pricing and sales pattern", "value_type": "reported_direction"}
+      },
+      "method": "Weighted SBCS responses from employer firms; past-12-month revenue and next-12-month expectations are separate questions with separate valid universes.",
+      "uncertainty": "The reported direction and expectation change do not identify realized revenue, prices, quantities, or demand for a particular firm. Survey branching and non-random recruitment remain relevant.",
+      "subgroup": "All employer firms, firms with 1–9 employees, and firms with 10 or more employees.",
+      "counterinterpretation": "Lower revenue expectations may reflect macro forecasts, sector mix, local demand, input costs, or respondent sentiment; lower pricing power does not by itself establish customer benefit or firm distress.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "reported"
+    },
+    {
+      "period": "2025 survey: employment, financing, and debt",
+      "denominator": {"value": 6361, "unit": "employer-firm respondents reporting past-12-month employment change; 4,004 had 1–9 employees", "value_type": "reported_sample"},
+      "measures": {
+        "small_firm_employment_growth": {"value": "increased year over year", "unit": "reported direction of employment diffusion index in 2025", "value_type": "reported_direction"},
+        "large_firm_employment_growth": {"value": "decreased year over year while remaining positive", "unit": "reported direction of employment diffusion index in 2025", "value_type": "reported_direction"},
+        "debt_per_employee": {"value": 70000, "unit": "US dollars per employee, approximately", "value_type": "reported_average"},
+        "credit_constraint": {"value": "lower share received less than full financing requested and higher share reported no need to apply", "unit": "reported financing-access pattern", "value_type": "reported_direction"}
+      },
+      "method": "Weighted SBCS employer-firm responses, with debt-per-employee calculated as average total debt outstanding divided by employees.",
+      "uncertainty": "Employment growth and debt are firm-level reported indicators; they do not show worker pay, hours, job quality, household spillovers, or whether credit was affordable. Question-specific valid samples differ.",
+      "subgroup": "Firm size, especially 1–9 employees versus 10 or more employees.",
+      "counterinterpretation": "Small-firm employment growth can coexist with falling revenue or lower wages; lower reported credit constraint can reflect lower demand for credit rather than abundant affordable credit.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf",
+      "retrieval_hash": "sha256:88f5adcc20e5bc18228aaf7d560af24bb7483e226d0d2ee248f42501f3f8eaba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators", "claim": "Current EHI landing page and method/source description.", "status": "official-metadata"},
+    {"source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf", "claim": "April 2026 national EHI report and SBCS charts.", "status": "primary"}
+  ],
+  "boundary": "This record measures weighted employer-firm survey indicators for profitability, revenue, employment, financing, debt, pricing, and technology/supply-chain challenges. It does not establish firm survival, local service access, worker household outcomes, customer prices, market power, or political action. The SBCS is non-random and question universes vary."
+}

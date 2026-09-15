@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-housing-insurance-risk-2025",
+  "title": "Housing payment and insurance risk are unevenly distributed by income and place",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025 housing module",
+  "geography": "United States; income and neighborhood-income comparisons",
+  "observations": [
+    {
+      "period": "2025; renters and rent payment pressure",
+      "denominator": {"value": 1, "unit": "weighted renter adult population estimate; published subgroup percentages use renter question frame", "value_type": "survey_population"},
+      "measures": {
+        "renters_behind_on_rent_prior_year": {"value": 23, "unit": "percent of renters", "value_type": "share"},
+        "renters_below_50000_income_behind": {"value": 33, "unit": "percent of renters with income below $50,000, approximate one-third", "value_type": "share"},
+        "renters_at_least_100000_income_behind": {"value": 5, "unit": "percent of renters with income at least $100,000", "value_type": "share"},
+        "change_from_2024": {"value": 2, "unit": "percentage points", "value_type": "reported_change"}
+      },
+      "method": "Federal Reserve 2025 SHED published housing estimates; rent arrears refer to being behind at some point in the prior year.",
+      "uncertainty": "Self-reported cross-sectional estimates do not identify arrears duration, notice, eviction filing, payment source, rent burden, or later move/stay outcome.",
+      "subgroup": "Renters conditioned by family income.",
+      "counterinterpretation": "Income categories combine different rents, household sizes, savings, assistance, and local markets; arrears do not equal eviction or homelessness.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:7d9e277ae657834c0d8f3567bfc2977fdd4025d6334978d4eafb788494be350f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; homeowners without homeowners insurance",
+      "denominator": {"value": 1, "unit": "weighted homeowner adult population estimate; published subgroup percentages use homeowner question frame", "value_type": "survey_population"},
+      "measures": {
+        "homeowners_without_insurance": {"value": 6, "unit": "percent of homeowners", "value_type": "share"},
+        "low_or_moderate_income_neighborhood_without_insurance": {"value": 12, "unit": "percent of homeowners in low- or moderate-income neighborhoods", "value_type": "share"},
+        "high_income_neighborhood_without_insurance": {"value": 5, "unit": "percent of homeowners in high-income neighborhoods", "value_type": "share"},
+        "income_below_50000_without_insurance": {"value": 20, "unit": "percent of homeowners with income below $50,000, approximate two in ten", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2025 SHED housing and insurance estimates; neighborhood income and family income are separate conditioning variables.",
+      "uncertainty": "The survey does not establish policy terms, mortgage status for every case, insurer availability, hazard exposure, claim history, or whether coverage would have been adequate.",
+      "subgroup": "Homeowners by neighborhood income and family income.",
+      "counterinterpretation": "Some owners may self-insure or prefer not to buy coverage; absence of insurance is not by itself evidence of insurer withdrawal or an unmet claim.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:7d9e277ae657834c0d8f3567bfc2977fdd4025d6334978d4eafb788494be350f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; insurance affordability and coverage adequacy",
+      "denominator": {"value": 1, "unit": "published homeowner insurance question frames; conditional shares are not mutually exclusive", "value_type": "survey_population"},
+      "measures": {
+        "uninsured_could_not_afford": {"value": 43, "unit": "percent of uninsured homeowners reporting main reason", "value_type": "share"},
+        "uninsured_not_worth_cost": {"value": 16, "unit": "percent of uninsured homeowners reporting main reason", "value_type": "share"},
+        "insured_prefer_more_coverage_cannot_afford": {"value": 20, "unit": "percent of insured homeowners", "value_type": "share"},
+        "insured_struggle_to_afford_premiums": {"value": 14, "unit": "percent of insured homeowners", "value_type": "share"},
+        "insured_income_below_50000_struggle_premiums": {"value": 30, "unit": "percent of insured homeowners with income below $50,000, approximate", "value_type": "share"}
+      },
+      "method": "Federal Reserve 2025 SHED conditional responses about the main reason for no insurance and affordability among insured owners.",
+      "uncertainty": "Reported affordability is not a premium quote, coverage adequacy measure, claim outcome, or direct observation of insurer pricing or nonrenewal.",
+      "subgroup": "Uninsured and insured homeowners, with income-conditioned affordability comparisons.",
+      "counterinterpretation": "Preference for more coverage, premium struggle, and no insurance can reflect different perceived hazards, deductibles, assets, mortgage requirements, or self-insurance choices.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:7d9e277ae657834c0d8f3567bfc2977fdd4025d6334978d4eafb788494be350f",
+      "status": "reported"
+    },
+    {
+      "period": "2024→2025; Federal Reserve annual report comparison",
+      "denominator": {"value": 1, "unit": "annual SHED renter and homeowner question frames; separate year-specific cross-sectional estimates", "value_type": "survey_population"},
+      "measures": {
+        "renters_behind_on_rent_2024": {"value": 21, "unit": "percent of renters", "value_type": "share"},
+        "renters_behind_on_rent_2025": {"value": 23, "unit": "percent of renters", "value_type": "share"},
+        "rent_arrears_change": {"value": 2, "unit": "percentage points", "value_type": "reported_change"},
+        "homeowners_without_insurance_2024": {"value": 7, "unit": "percent of homeowners", "value_type": "share"},
+        "homeowners_without_insurance_2025": {"value": 6, "unit": "percent of homeowners", "value_type": "share"},
+        "insurance_gap_change": {"value": -1, "unit": "percentage point", "value_type": "reported_change"}
+      },
+      "method": "Matched annual Federal Reserve SHED housing report pages; the 2024 report covers survey-year 2024 and the 2025 report covers survey-year 2025. The published 2025 report also describes the rent-arrears change from 2024.",
+      "uncertainty": "Separate cross-sectional surveys do not track the same households; small percentage-point changes may reflect sampling or question-frame differences. The homeowner insurance question was not identical for mortgage and free-and-clear owners in the 2024 footnote.",
+      "subgroup": "All renters for rent arrears and all homeowners for insurance status, compared across annual report years.",
+      "counterinterpretation": "The comparison describes movement in reported prevalence, not a causal effect of premiums, hazards, income, eviction, insurer behavior, or policy change.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-housing.htm",
+      "comparison_source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm",
+      "retrieval_hash": "sha256:6bc131f44033f6aa9366e80169418341ec69ebaecf44ce0eae404b7f98f97c37",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-economic-hardships.htm", "claim": "The 2025 Federal Reserve hardship report supplies related household financial and health-cost context.", "status": "reported", "access_boundary": "Separate report modules are not a longitudinal household event record."}
+  ],
+  "boundary": "This record establishes reported rent arrears, homeowner insurance gaps, neighborhood/income differences, and insurance affordability pressure. It does not establish causation, claim adequacy, insurer withdrawal, eviction, displacement, repair, health, debt, or political response."
+}

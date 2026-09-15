@@ -1,0 +1,615 @@
+{
+  "format": "usaspending-award-subawards-v1",
+  "retrieved_at": "2026-09-13T19:52:11.837429+00:00",
+  "endpoint": "https://api.usaspending.gov/api/v2/subawards/",
+  "request": {
+    "award_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+    "page": 1,
+    "limit": 100
+  },
+  "response_sha256": "6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+  "response": {
+    "page_metadata": {
+      "page": 1,
+      "next": null,
+      "previous": null,
+      "hasNext": false,
+      "hasPrevious": false
+    },
+    "results": [
+      {
+        "id": 9659585,
+        "subaward_number": "4106599628",
+        "description": "TRANSCEIVER  1553 BUS .",
+        "action_date": "2025-02-27",
+        "amount": 36319.37,
+        "recipient_name": "DATA DEVICE CORP"
+      },
+      {
+        "id": 9659584,
+        "subaward_number": "4106593507",
+        "description": "TRANSCEIVER  1553 BUS",
+        "action_date": "2025-02-24",
+        "amount": 109371.27,
+        "recipient_name": "DATA DEVICE CORP"
+      },
+      {
+        "id": 9658440,
+        "subaward_number": "4106592052",
+        "description": "MICROCIRCUIT (CAN'T REEL).",
+        "action_date": "2025-02-24",
+        "amount": 168594.85,
+        "recipient_name": "VPT, INC."
+      },
+      {
+        "id": 9659471,
+        "subaward_number": "4106591917",
+        "description": "**PRINTED WIRING BOARD - SYSTEM INTERFAC",
+        "action_date": "2025-02-27",
+        "amount": 91043.64,
+        "recipient_name": "ADVANCEDPCB, INC."
+      },
+      {
+        "id": 9658842,
+        "subaward_number": "4106588031",
+        "description": "OUTER GIMBAL-MACHINING RETAINER BEARING INNER",
+        "action_date": "2025-02-24",
+        "amount": 80799.49,
+        "recipient_name": "INSTRUMENT DEVELOPMENT COMPANY LLC"
+      },
+      {
+        "id": 9658521,
+        "subaward_number": "4106585049",
+        "description": "RETAINER RING  ESAF",
+        "action_date": "2025-02-25",
+        "amount": 173289.16,
+        "recipient_name": "NIKEL PRECISION GROUP LLC"
+      },
+      {
+        "id": 9658498,
+        "subaward_number": "4106585047",
+        "description": "STANDOFF COVER",
+        "action_date": "2025-02-13",
+        "amount": 36335.97,
+        "recipient_name": "SUPERIOR THREAD ROLLING CO, LLC"
+      },
+      {
+        "id": 9658899,
+        "subaward_number": "4106582882",
+        "description": "HOSE ASSY  NONMETALLIC.",
+        "action_date": "2025-02-13",
+        "amount": 84195.91,
+        "recipient_name": "MID-STATE AEROSPACE INC"
+      },
+      {
+        "id": 9658682,
+        "subaward_number": "4106578586",
+        "description": "PRINTED WIRING BOARD - POWER AND ELECTRO PRINTED WIRING BOARD - POWER AND ELECTRO",
+        "action_date": "2025-02-10",
+        "amount": 74250.0,
+        "recipient_name": "TTM TECHNOLOGIES, INC."
+      },
+      {
+        "id": 9658609,
+        "subaward_number": "4106575714",
+        "description": "IC FPGA SOC 150K LUTS",
+        "action_date": "2025-02-17",
+        "amount": 108780.01,
+        "recipient_name": "DOVE ELECTRONIC COMPONENTS, INC."
+      },
+      {
+        "id": 9658898,
+        "subaward_number": "4106572563",
+        "description": "HOSE ASSY  NONMETALLIC.",
+        "action_date": "2025-02-13",
+        "amount": 172299.15,
+        "recipient_name": "MID-STATE AEROSPACE INC"
+      },
+      {
+        "id": 9658679,
+        "subaward_number": "4106566750",
+        "description": "POWER SUPPLY DC-DC CONVERTER",
+        "action_date": "2025-01-29",
+        "amount": 68113.92,
+        "recipient_name": "AVNET, INC."
+      },
+      {
+        "id": 9658441,
+        "subaward_number": "4106566590",
+        "description": "PWR SUPPLY DC-DC REG PWR SUPPLY MODULE H",
+        "action_date": "2025-02-04",
+        "amount": 128505.6,
+        "recipient_name": "VPT, INC."
+      },
+      {
+        "id": 9658680,
+        "subaward_number": "4106565253",
+        "description": "CAPACITORS FIXED ELECTROLYTIC",
+        "action_date": "2025-01-28",
+        "amount": 44655.12,
+        "recipient_name": "AVNET, INC."
+      },
+      {
+        "id": 9658772,
+        "subaward_number": "4106561804",
+        "description": "CABLE ASSY-BOMB IMPACT ASSESSMEN",
+        "action_date": "2025-01-30",
+        "amount": 92979.89,
+        "recipient_name": "CABLE ASSOCIATES INC"
+      },
+      {
+        "id": 9659555,
+        "subaward_number": "4106561115",
+        "description": "HOSE ASSEMBLY HOSE ASSEMBLY.",
+        "action_date": "2025-01-29",
+        "amount": 72766.8,
+        "recipient_name": "PARKER HANNIFIN CORP"
+      },
+      {
+        "id": 9658841,
+        "subaward_number": "4106560994",
+        "description": "STRINGER  UPPER SHELL - RDD",
+        "action_date": "2025-01-30",
+        "amount": 126144.0,
+        "recipient_name": "J&E PRECISION TOOL, LLC"
+      },
+      {
+        "id": 9658620,
+        "subaward_number": "4106560321",
+        "description": "2-DAY SAS LOT 9 CTV SCREENING (293) LOT 8B-9 TARGETING SYSTEM  EMBEDDABLE  SINGLE CHA TORQUE TESTING LOT 8B-9.",
+        "action_date": "2025-02-26",
+        "amount": 23698373.0,
+        "recipient_name": "L3 TECHNOLOGIES, INC."
+      },
+      {
+        "id": 9658891,
+        "subaward_number": "4106559712",
+        "description": "NUT JAM NUT JAM.",
+        "action_date": "2025-01-24",
+        "amount": 41073.69,
+        "recipient_name": "TBM PRINCETON PRECISION GROUP, LLC"
+      },
+      {
+        "id": 9658442,
+        "subaward_number": "4106558905",
+        "description": "DC-DC CONVERTER 9V TO 80VIN DC+5VDC OUTP",
+        "action_date": "2025-01-23",
+        "amount": 98948.48,
+        "recipient_name": "VPT, INC."
+      },
+      {
+        "id": 9658843,
+        "subaward_number": "4106558580",
+        "description": "TEMP SENSOR T2",
+        "action_date": "2025-02-05",
+        "amount": 306441.0,
+        "recipient_name": "GIC LLC"
+      },
+      {
+        "id": 9658900,
+        "subaward_number": "4106557982",
+        "description": "HOSE ASSEMBLY",
+        "action_date": "2025-01-23",
+        "amount": 36973.8,
+        "recipient_name": "MID-STATE AEROSPACE INC"
+      },
+      {
+        "id": 9659556,
+        "subaward_number": "4106557623",
+        "description": "HOSE ASSEMBLY.",
+        "action_date": "2025-01-29",
+        "amount": 54100.41,
+        "recipient_name": "PARKER HANNIFIN CORP"
+      },
+      {
+        "id": 9658764,
+        "subaward_number": "4106555724",
+        "description": "AFT CLOSURE ASSY. AFT CLOSURE ASSY AFT CLOSURE ASSY RETAINING RING. RETAINING RING. RETAINING RING",
+        "action_date": "2025-02-13",
+        "amount": 27636284.0,
+        "recipient_name": "THOMAS INSTRUMENT, INCORPORATED"
+      },
+      {
+        "id": 9658896,
+        "subaward_number": "4106554296",
+        "description": "COVER  PECU",
+        "action_date": "2025-02-10",
+        "amount": 173.76,
+        "recipient_name": "STAR CASES LLC"
+      },
+      {
+        "id": 9658894,
+        "subaward_number": "4106554296",
+        "description": "COVER  PECU COVER  PECU",
+        "action_date": "2025-01-16",
+        "amount": 31026.33,
+        "recipient_name": "STAR CASES LLC"
+      },
+      {
+        "id": 9658613,
+        "subaward_number": "4106551715",
+        "description": "BEARING DUPLEX",
+        "action_date": "2025-01-15",
+        "amount": 92916.18,
+        "recipient_name": "MPB CORP"
+      },
+      {
+        "id": 9658561,
+        "subaward_number": "4106550061",
+        "description": "CHASSIS  POWER CONVERTER CHASSIS  POWER CONVERTER",
+        "action_date": "2025-01-17",
+        "amount": 75454.0,
+        "recipient_name": "RALOID CORPORATION"
+      },
+      {
+        "id": 9658893,
+        "subaward_number": "4106548203",
+        "description": "STANDOFF COVER STANDOFF COVER",
+        "action_date": "2025-01-09",
+        "amount": 69626.02,
+        "recipient_name": "SUPERIOR THREAD ROLLING CO, LLC"
+      },
+      {
+        "id": 9658892,
+        "subaward_number": "4106544406",
+        "description": "STANDOFF COVER",
+        "action_date": "2025-01-07",
+        "amount": 86549.69,
+        "recipient_name": "SUPERIOR THREAD ROLLING CO, LLC"
+      },
+      {
+        "id": 9658846,
+        "subaward_number": "4106544238",
+        "description": "SEEKER/IMU CASTING.",
+        "action_date": "2025-01-22",
+        "amount": 57898.36,
+        "recipient_name": "CERA-MET LLC"
+      },
+      {
+        "id": 9659554,
+        "subaward_number": "4106543515",
+        "description": "LOT 22 TTM - PARKER",
+        "action_date": "2025-02-13",
+        "amount": 432119.0,
+        "recipient_name": "PARKER-HANNIFIN CORPORATION"
+      },
+      {
+        "id": 9658507,
+        "subaward_number": "4106542131",
+        "description": "CONNECTORS ELECTRICAL REC",
+        "action_date": "2025-01-02",
+        "amount": 40289.76,
+        "recipient_name": "AIRBORN INTERCONNECT INC"
+      },
+      {
+        "id": 9658895,
+        "subaward_number": "4106539927",
+        "description": "MISSILE CONTROL UNIT COVER - UPPER",
+        "action_date": "2025-01-13",
+        "amount": 30047.84,
+        "recipient_name": "STAR CASES LLC"
+      },
+      {
+        "id": 905989,
+        "subaward_number": "4106535525",
+        "description": "PRINTED WIRING BOARD - SYSTEM INTERFACE",
+        "action_date": "2024-12-19",
+        "amount": 183811.9,
+        "recipient_name": "TTM TECHNOLOGIES, INC."
+      },
+      {
+        "id": 9658897,
+        "subaward_number": "4106531561",
+        "description": "AFT COVER AFT COVER. COMPRESSION MOLD INLET LIP. COMPRESSION MOLD INLET LIP FORWARD COVER ASSY FORWARD COVER ASSY. LOT 22 SAS-NAMMO LOT 23 SAS OPTION-NAMMO LOT 24 SAS OPTION-NAMMO LOT 25 SAS OPTION-NAMMO LOT 26 SAS OPTION-NAMMO LOWER INLET ASSY LOWER INLET ASSY. UPPER SHELL ASSY MODIFICATION - GIGE RDD WINDOW FRAME. WINDOW FRAME",
+        "action_date": "2025-01-13",
+        "amount": 49228860.96,
+        "recipient_name": "NAMMO COMPOSITE SOLUTIONS, LLC"
+      },
+      {
+        "id": 2253334,
+        "subaward_number": "4106531282",
+        "description": "CONNECTORS ELECTRICAL RECTANGULA",
+        "action_date": "2024-12-16",
+        "amount": 34894.61,
+        "recipient_name": "AIRBORN INTERCONNECT INC"
+      },
+      {
+        "id": 907568,
+        "subaward_number": "4106531278",
+        "description": "CONNECTORS ELECT RECTANG",
+        "action_date": "2024-12-16",
+        "amount": 54098.84,
+        "recipient_name": "HEILIND MIL-AERO LLC"
+      },
+      {
+        "id": 906494,
+        "subaward_number": "4106531277",
+        "description": "CONNECTOR 37S",
+        "action_date": "2024-12-16",
+        "amount": 33089.11,
+        "recipient_name": "HEILIND MIL-AERO LLC"
+      },
+      {
+        "id": 2263599,
+        "subaward_number": "4106525163",
+        "description": "90 DEGREE BACKSHELL",
+        "action_date": "2024-12-10",
+        "amount": 68783.0,
+        "recipient_name": "MARCH ELECTRONICS, INC."
+      },
+      {
+        "id": 9658775,
+        "subaward_number": "4106519858",
+        "description": "CASE  WARHEAD  FORGING",
+        "action_date": "2025-02-13",
+        "amount": 62816125.0,
+        "recipient_name": "WYMAN-GORDON FORGINGS INC"
+      },
+      {
+        "id": 9658542,
+        "subaward_number": "4106505666",
+        "description": "ANTENNA GPS-CONTROLLABLE BAE SMS CRPA SAS LOT 22 BAE SMS CRPA SAS LOT 23",
+        "action_date": "2025-01-23",
+        "amount": 12602697.0,
+        "recipient_name": "BALL AEROSPACE & TECHNOLOGIES CORP."
+      },
+      {
+        "id": 2254293,
+        "subaward_number": "4106505499",
+        "description": "MICROCIRCUIT HYBRID CONVERTER",
+        "action_date": "2024-12-04",
+        "amount": 48017.92,
+        "recipient_name": "VPT, INC."
+      },
+      {
+        "id": 913720,
+        "subaward_number": "4106503569",
+        "description": "CABLE ASSEMBLY-SEEKER FPA.",
+        "action_date": "2024-11-26",
+        "amount": 66000.0,
+        "recipient_name": "UNIQUE ELECTRONICS INC"
+      },
+      {
+        "id": 9658845,
+        "subaward_number": "4106502948",
+        "description": "OPTICS ASSEMBLY. WHEEL ASSY",
+        "action_date": "2025-01-29",
+        "amount": 2410500.0,
+        "recipient_name": "ATTALON, INC."
+      },
+      {
+        "id": 2260382,
+        "subaward_number": "4106500696",
+        "description": "TUBE ASSY  ENGINE BLEED AIR - RDD",
+        "action_date": "2024-11-21",
+        "amount": 65238.0,
+        "recipient_name": "PRECISION TUBE BENDING"
+      },
+      {
+        "id": 9658903,
+        "subaward_number": "4106500434",
+        "description": "OPTICS ASSEMBLY OPTICS ASSEMBLY. OPTICS ASSEMBLY OPTICS ASSEMBLY. WHEEL ASSY WHEEL ASSY",
+        "action_date": "2025-01-29",
+        "amount": 15236293.73,
+        "recipient_name": "JANOS TECHNOLOGY LLC"
+      },
+      {
+        "id": 9658844,
+        "subaward_number": "4106496588",
+        "description": "MISSION CONTROL PROCESSOR",
+        "action_date": "2025-01-07",
+        "amount": 45169689.0,
+        "recipient_name": "EXTREME ENGINEERING SOLUTIONS, INC."
+      },
+      {
+        "id": 913887,
+        "subaward_number": "4106496588",
+        "description": "MISSION CONTROL PROCESSOR MISSION CONTROL PROCESSOR.",
+        "action_date": "2024-12-11",
+        "amount": 15816939.0,
+        "recipient_name": "EXTREME ENGINEERING SOLUTIONS, INC."
+      },
+      {
+        "id": 9658847,
+        "subaward_number": "4106492097",
+        "description": "AFT COVER COMPRESSION MOLD INLET LIP FORWARD COVER ASSY LOT 22 SAS- ALBANY LOWER INLET ASSY UPPER SHELL ASSY MODIFICATION - GIGE RDD WINDOW FRAME",
+        "action_date": "2025-02-28",
+        "amount": 12708262.98,
+        "recipient_name": "ALBANY AEROSTRUCTURES COMPOSITES LLC"
+      },
+      {
+        "id": 908717,
+        "subaward_number": "4106489338",
+        "description": "HEATSINK PCA",
+        "action_date": "2024-11-11",
+        "amount": 32272.35,
+        "recipient_name": "DELVA TOOL & MACHINE CORP"
+      },
+      {
+        "id": 2258451,
+        "subaward_number": "4106475970",
+        "description": "CASE ASSY LOADED-LIVE. CASE ASSY LOADED-LIVE CASE ASSY LOADED-LIVE CASE ASSY LOADED-LIVE. LOT 22 SAS LOT 23 SAS LOT 24 SAS LOT 25 SAS LOT 26 SAS",
+        "action_date": "2024-12-10",
+        "amount": 80550804.12,
+        "recipient_name": "GENERAL DYNAMICS-OTS, INC."
+      },
+      {
+        "id": 909297,
+        "subaward_number": "4106475856",
+        "description": "DOUBLER  RF ANTENNA - TOP - RDD",
+        "action_date": "2024-12-23",
+        "amount": 6519398.4,
+        "recipient_name": "VERTECHS ENTERPRISES, INC."
+      },
+      {
+        "id": 9659630,
+        "subaward_number": "4106473506",
+        "description": "CSDR ENGINE TEST PROGRAM FUEL ACCUMULATORS JASSM-ER ENGINE WILLIAMS SAS EVENT LOT 22",
+        "action_date": "2025-02-27",
+        "amount": 80636450.25,
+        "recipient_name": "WILLIAMS INTERNATIONAL CO., L.L.C."
+      },
+      {
+        "id": 913753,
+        "subaward_number": "4106469735",
+        "description": "MISSION CONTROL PROCESSOR",
+        "action_date": "2024-11-21",
+        "amount": 2289500.0,
+        "recipient_name": "EXTREME ENGINEERING SOLUTIONS, INC."
+      },
+      {
+        "id": 9658543,
+        "subaward_number": "4106469259",
+        "description": "BAE SMS TAIL SAS 2-DAY LOT 9 TAIL ANTENNA PCD - RDD",
+        "action_date": "2025-01-24",
+        "amount": 7221651.91,
+        "recipient_name": "BALL AEROSPACE & TECHNOLOGIES CORP."
+      },
+      {
+        "id": 906898,
+        "subaward_number": "4106466903",
+        "description": "ACTUATOR DEPLOYMENT VERTICAL EATON LLP LOT 23 OPTION EATON LLP LOT 24 OPTION EATON LLP LOT 25 OPTION EATON LLP LOT 26 OPTION GAS BOTTLE  SEEKER GAS LINE ASSY GAS LINE ASSY WING DEPLOYMENT ACTUATOR",
+        "action_date": "2024-12-16",
+        "amount": 6905753.04,
+        "recipient_name": "MISSION SYSTEMS ORCHARD PARK INC"
+      },
+      {
+        "id": 9658902,
+        "subaward_number": "4106466837",
+        "description": "BONDED TAIL ASSEMBLY - RDD. ELEVON ASSEMBLY-RDD INSTRMTD BONDED WING ASSY LIGHTWEIGHT MOLDED WING TIP - RDD LOWER FITTING VERTICAL TAIL - RDD SUPERFRAME ASSEMBLY. UPPER FITTING VERTICAL TAIL - RDD UPPER FITTING VERTICAL TAIL - RDD.",
+        "action_date": "2025-01-02",
+        "amount": 16309649.0,
+        "recipient_name": "KLUNE INDUSTRIES, INC."
+      },
+      {
+        "id": 895135,
+        "subaward_number": "4106466837",
+        "description": "BELLCRANK VERTICAL TAIL BONDED TAIL ASSY ELEVON ASSY FOLLOWER LINK VERTICAL TAIL HOUSING  UPPER LATCH KLUNE SF LLP YEAR 2 KLUNE SF LLP YEAR 3 KLUNE SF LLP YEAR 4 KLUNE SF LLP YEAR 5 LATCH UPPER LOT 22 COMPOSITE CASTING MITIGATION LOT 22 COMPOSITE PVP TRAVEL LOT 22 COMPOSITE SAS 2 DAYS LOT 22 METAL PVP TRAVEL LOT 22 METALS CASTING MITIGATION LOT 22 METALS SAS 2 DAYS LOWER FITTING VERTICAL TAIL LOWER LATCH MOLDED WING TIP-ER PIN RETAINER PIN TAIL. PIN TAIL RETAINER VERTICAL TAIL SPACER UPPER LATCH SUPERFRAME ASSY UPPER FITTING VERTICAL TAIL WING BONDED ASSEMBLY - ER",
+        "action_date": "2024-12-06",
+        "amount": 16079435.96,
+        "recipient_name": "KLUNE INDUSTRIES, INC."
+      },
+      {
+        "id": 2254283,
+        "subaward_number": "4106463316",
+        "description": "INERTIAL MEASUREMENT UNIT",
+        "action_date": "2024-12-13",
+        "amount": 50401956.0,
+        "recipient_name": "HONEYWELL INTERNATIONAL INC."
+      },
+      {
+        "id": 9659557,
+        "subaward_number": "4106460979",
+        "description": "FUEL TANK GAS BOTTLE",
+        "action_date": "2025-02-05",
+        "amount": 290816.28,
+        "recipient_name": "MEGGITT SAFETY SYSTEMS INC"
+      },
+      {
+        "id": 913440,
+        "subaward_number": "4106460979",
+        "description": "FUEL TANK GAS BOTTLE LOT 22/8B DLAT LOT 22 MEGGITT SAS 2 DAYS",
+        "action_date": "2024-11-22",
+        "amount": 4684045.64,
+        "recipient_name": "MEGGITT SAFETY SYSTEMS INC"
+      },
+      {
+        "id": 895219,
+        "subaward_number": "4106459067",
+        "description": "FUNCTIONAL ELECTRONICS AND EXPLOSIVES. LOT 10 OPTION- L3FOS LOT 11 OPTION- L3FOS LOT 12 OPTION- L3FOS LOT 22 SAS EVENT - L3FOS LOT 23SAS EVENT - OPTION L3FOS LOT 24 SAS EVENT -L3FOS LOT 25 SAS EVENT -OPTION L3FOS LOT 26 SAS EVENT -OPTION L3FOS LOT 9 OPTION- L3FOS",
+        "action_date": "2024-12-17",
+        "amount": 36948149.44,
+        "recipient_name": "L3HARRIS FUZING AND ORDNANCE SYSTEMS, INC."
+      },
+      {
+        "id": 2258561,
+        "subaward_number": "4106453547",
+        "description": "DEWAR COMMON DEWAR COMMON DEWAR COMMON. L3H-CE DEWAR 2-DAY SAS LOT 22/8B",
+        "action_date": "2024-10-30",
+        "amount": 98444161.72,
+        "recipient_name": "L3HARRIS CINCINNATI ELECTRONICS CORPORATION"
+      },
+      {
+        "id": 899111,
+        "subaward_number": "4106452770",
+        "description": "JASSM GYRO",
+        "action_date": "2024-11-14",
+        "amount": 1198036.8,
+        "recipient_name": "ATLANTIC INERTIAL SYSTEMS INC"
+      },
+      {
+        "id": 2252384,
+        "subaward_number": "4106451402",
+        "description": "AP SYSTEM. RFS ANTENNA - BOTTOM - RDD RFS ANTENNA - UPPER - RDD RF SENSOR PROCUREMENT CONTROL DRAWING",
+        "action_date": "2024-11-22",
+        "amount": 210018575.0,
+        "recipient_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC."
+      },
+      {
+        "id": 908404,
+        "subaward_number": "4106449024",
+        "description": "BIA TRANSMITTER. L22 LOT 22 SAS L22 OPTION LOT 22 TM L23 OPTION LOT 23 SAS L23 OPTION LOT 23 TM L24 OPTION LOT 24 SAS L24 OPTION LOT 24 TM",
+        "action_date": "2024-12-17",
+        "amount": 13686312.71,
+        "recipient_name": "L3 TECHNOLOGIES, INC."
+      },
+      {
+        "id": 9658901,
+        "subaward_number": "4106436213",
+        "description": "MAROTTA PRODUCTION SUPPORT NRE LOT 9 MAROTTA SAS LOT 22",
+        "action_date": "2025-01-09",
+        "amount": 115224.61,
+        "recipient_name": "MAROTTA CONTROLS INC"
+      },
+      {
+        "id": 2252092,
+        "subaward_number": "4106436213",
+        "description": "POWER SUPPLY  MISSILE CONTROL UNIT. POWER SUPPLY - MISSILE CONTROL UNIT. POWER SUPPLY  MISSILE CONTROL UNIT POWER SUPPLY - WEAPON DATA LINK",
+        "action_date": "2024-11-21",
+        "amount": 60907897.06,
+        "recipient_name": "MAROTTA CONTROLS INC"
+      },
+      {
+        "id": 901636,
+        "subaward_number": "4106422451",
+        "description": "CSDR YEAR 1 CSDR YEAR 2 CSDR YEAR 3 CSDR YEAR 4 CSDR YEAR 5 HDL EOQ COMMON QTY 3128 JAGR-S V5",
+        "action_date": "2024-11-26",
+        "amount": 40772194.58,
+        "recipient_name": "HDL RESEARCH LAB INC"
+      },
+      {
+        "id": 9659548,
+        "subaward_number": "4106414437",
+        "description": "CED LOT 22 SAS",
+        "action_date": "2025-01-08",
+        "amount": 22757.0,
+        "recipient_name": "CHEMRING ENERGETIC DEVICES INC"
+      },
+      {
+        "id": 2259616,
+        "subaward_number": "4106414437",
+        "description": "CARTRIDGE-SQUIB SUSPENSION LUGS. CARTRIDGE-SQUIB SUSPENSION LUGS. CARTRIDGE-SQUIB SUSPENSION LUGS INITIATOR TAIL RETENTION MECH. INITIATOR TAIL RETENTION MECH. INITIATOR TAIL RETENTION MECH LUG RETRACTION DEVICE LUG RETRACTION DEVICE RECEPTACLE TAIL RETENTION MECH. RECEPTACLE TAIL RETENTION MECH WEDGE RETENTION MECHANISM. WEDGE RETENTION MECHANISM. WEDGE RETENTION MECHANISM WEDGE RETENTION MECHANISM WING RETENTION MECHANISM WING RETENTION MECHANISM. WING RETENTION MECHANISM. WING RETENTION MECHANISM",
+        "action_date": "2024-11-01",
+        "amount": 95949640.0,
+        "recipient_name": "CHEMRING ENERGETIC DEVICES INC"
+      },
+      {
+        "id": 2258592,
+        "subaward_number": "4106335525",
+        "description": "ACCELERATOR CARD  NEW VERSION OF 243K995 NG 1-DAY SAS LOT 9",
+        "action_date": "2024-10-31",
+        "amount": 39867826.25,
+        "recipient_name": "NORTHROP GRUMMAN SYSTEMS CORPORATION"
+      },
+      {
+        "id": 899288,
+        "subaward_number": "4105726511",
+        "description": "GYROSCOPE TRIAXIAL DIGITAL LOW NOISE INE GYROSCOPE TRIAXIAL DIGITAL LOW NOISE INE",
+        "action_date": "2024-10-23",
+        "amount": 1808910.0,
+        "recipient_name": "GLADIATOR TECHNOLOGIES, LLC"
+      }
+    ]
+  },
+  "boundary": "Descriptive USAspending subaward extract for one parent award; recipient names and amounts are reported records, not independently verified supplier ownership, complete supply-chain structure, production capacity, local benefit, or geopolitical leverage."
+}

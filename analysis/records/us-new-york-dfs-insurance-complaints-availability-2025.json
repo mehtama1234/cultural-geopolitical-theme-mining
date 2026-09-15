@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-new-york-dfs-insurance-complaints-availability-2025",
+  "title": "A state insurance regulator makes complaint recovery and market-availability work visible without closing the household outcome chain",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "housing_place_mobility", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "New York State Department of Financial Services Consumer Assistance Unit 2025 annual report and property-insurance data-call instructions",
+  "geography": "New York State regulatory and consumer-assistance system; national referrals can occur in the complaint workflow",
+  "observations": [
+    {
+      "period": "Calendar 2025; DFS insurance complaint and recovery workflow",
+      "denominator": {"value": 39443, "unit": "insurance complaints received by the Consumer Assistance Unit", "value_type": "administrative_count"},
+      "measures": {
+        "insurance_complaints_closed": {"value": 39064, "unit": "complaints", "value_type": "administrative_count"},
+        "issues_referred_to_other_jurisdictions": {"value": 2411, "unit": "consumer issues", "value_type": "administrative_count"},
+        "recovery_for_consumers_and_providers": {"value": 121, "unit": "million dollars, over $121 million reported", "value_type": "administrative_recovery"},
+        "written_insurance_inquiries": {"value": 2472, "unit": "inquiries", "value_type": "administrative_count"}
+      },
+      "method": "DFS Consumer Assistance Unit annual administrative report; counts describe routed complaints, closures, referrals, inquiries, and reported recovery, not a probability sample of all insurance problems.",
+      "uncertainty": "Receipt and closure counts may include multiple contacts or cases, and recovery totals do not measure total loss, claim adequacy, time to payment, or whether a consumer regarded the result as sufficient.",
+      "subgroup": "New York insurance complainants and inquiries handled by DFS, with cases categorized by insurance type and other administrative classifications.",
+      "counterinterpretation": "A large recovery total can reflect successful intervention, large individual cases, provider settlements, or accounting conventions; complaint volume can reflect awareness and access to DFS rather than market-wide prevalence.",
+      "source_url": "https://www.dfs.ny.gov/system/files/documents/2026/04/Consumer-Protection-and-Financial-Fraud-Enforcement-Annual-Report-for-2025.pdf",
+      "retrieval_hash": "nydfs-report:sha256:36e389aa30dbe67a5c8af33bb2d7ccf7cf67cd9e40fff08c3c04dc3e453b50b8",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar 2025; property-casualty and service-contract complaints",
+      "denominator": {"value": 2869, "unit": "property-casualty and service-contract complaints closed by DFS", "value_type": "administrative_count"},
+      "measures": {
+        "positive_consumer_outcome": {"value": 498, "unit": "closed complaints", "value_type": "administrative_count"},
+        "positive_outcome_share": {"value": 17.36, "unit": "percent of closed property-casualty and service-contract complaints", "value_type": "reported_share"},
+        "recovery_amount": {"value": 17.94950483, "unit": "million dollars", "value_type": "administrative_recovery"}
+      },
+      "method": "DFS annual complaint table for the property-casualty and service-contract category; positive consumer outcome is the agency's reported administrative label.",
+      "uncertainty": "The category combines property-casualty insurance and service contracts; the report does not provide a household-level denominator, severity distribution, time-to-resolution, claim type, or outcome adequacy measure.",
+      "subgroup": "Closed New York property-casualty and service-contract complaint cases handled by DFS.",
+      "counterinterpretation": "A positive-outcome label is not the same as full claim payment, coverage restoration, repair completion, or prevention of future harm; complainants who never reach DFS are outside the denominator.",
+      "source_url": "https://www.dfs.ny.gov/system/files/documents/2026/04/Consumer-Protection-and-Financial-Fraud-Enforcement-Annual-Report-for-2025.pdf",
+      "retrieval_hash": "nydfs-report:sha256:36e389aa30dbe67a5c8af33bb2d7ccf7cf67cd9e40fff08c3c04dc3e453b50b8",
+      "status": "reported"
+    },
+    {
+      "period": "2025 annual availability survey; homeowners-insurance market governance for 2026",
+      "denominator": {"value": 1, "unit": "New York DFS statutory data-call and homeowners-insurance supplement", "value_type": "regulatory_artifact"},
+      "measures": {
+        "insurer_availability_survey": {"value": "required annual report", "unit": "regulatory data-collection mechanism", "value_type": "qualitative_institutional_action"},
+        "homeowners_supplement": {"value": "underwriting plans for homeowners insurance in 2026, with attention to areas of catastrophic-loss exposure", "unit": "requested insurer-reporting content", "value_type": "qualitative_inventory"},
+        "submission_deadline": {"value": "2025-12-31", "unit": "deadline stated by DFS", "value_type": "reported_deadline"}
+      },
+      "method": "DFS data-call letter under New York Insurance Law section 308; an institutional reporting requirement, not a published estimate of availability or affordability.",
+      "uncertainty": "The data-call mechanism shows what the regulator is requesting and monitoring; the reviewed letter does not itself supply the insurer responses or a market-wide availability estimate.",
+      "subgroup": "Licensed insurers writing homeowners insurance in New York, with special attention to high-catastrophe-exposure areas.",
+      "counterinterpretation": "A required survey can improve regulatory visibility without changing insurer behavior, consumer price, coverage, or claim outcomes.",
+      "source_url": "https://www.dfs.ny.gov/apps_and_licensing/property_insurers/datacall/avail24-308-letter",
+      "retrieval_hash": "nydfs-availability:sha256:f83058761b7f0c9e58a68e2ed995ed7c67d64a0beb9a315c9847707176117a13",
+      "status": "reported"
+    },
+    {
+      "period": "2025; quarterly homeowners-insurance reporting requirements",
+      "denominator": {"value": 1, "unit": "New York Regulation 154 reporting framework", "value_type": "regulatory_artifact"},
+      "measures": {
+        "reported_fields": {"value": "policies canceled, nonrenewed, and other homeowners-policy terminations", "unit": "required reporting fields", "value_type": "qualitative_inventory"},
+        "reporting_scope": {"value": "licensed property/casualty insurers meeting the stated direct-written-premium threshold", "unit": "regulated insurer universe", "value_type": "qualitative_scope"}
+      },
+      "method": "DFS Regulation 154 quarterly reporting instructions for homeowners policies.",
+      "uncertainty": "The instructions document a data pipeline and reporting scope; they do not establish the number of cancellations, nonrenewals, reasons, affected households, replacement coverage, or subsequent mobility.",
+      "subgroup": "New York licensed property/casualty insurers and their homeowners-policy portfolios within the regulation's reporting threshold.",
+      "counterinterpretation": "Reporting requirements can improve measurement without implying that nonrenewal is increasing or that a policy termination was unjustified.",
+      "source_url": "https://www.dfs.ny.gov/apps_and_licensing/property_insurers/datacall/home_ins_qtr_rpt_reg154_instructions",
+      "retrieval_hash": "nydfs-quarterly:sha256:34f581c60737385a88eb402a1f464c1d8b6513865425bafda5282250933bbe10",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cbo.gov/publication/60674", "claim": "CBO supplies national disaster-loss and federal mortgage-exposure context for the regulator's state-level insurance route.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.fhfa.gov/data/hpi/summary-tables", "claim": "FHFA supplies an asset-price clock that should remain separate from complaint recovery and policy availability.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/", "claim": "CFPB supplies a federal complaint-routing comparator with a different product scope, geography, taxonomy, and remedy boundary.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "This record adds a state-regulatory visibility and recourse layer. It measures complaints, closures, agency labels, reported recoveries, and insurer-reporting requirements. It does not establish insurance-market prevalence, household claim adequacy, repair completion, premium affordability, nonrenewal causation, or political meaning.",
+  "retrieval_hash": "nydfs-report:sha256:36e389aa30dbe67a5c8af33bb2d7ccf7cf67cd9e40fff08c3c04dc3e453b50b8; nydfs-availability:sha256:f83058761b7f0c9e58a68e2ed995ed7c67d64a0beb9a315c9847707176117a13; nydfs-quarterly:sha256:34f581c60737385a88eb402a1f464c1d8b6513865425bafda5282250933bbe10"
+}

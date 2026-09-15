@@ -1,0 +1,29 @@
+{
+  "format": "sipp-utility-work-following-reproduction-audit-v1",
+  "checked": "2026-09-14",
+  "command": "python3 scripts/analyze_sipp_utility_work_following.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v16/utility-work-following-refresh.json",
+  "input_files": {
+    "primary": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
+    "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "replicate_archive": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+    "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6"
+  },
+  "output_sha256": "efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "matched_pair_rows": 156501,
+  "reproduced_record": "../../records/us-sipp-utility-work-following-2024.json",
+  "comparison": {
+    "utility_difficulty_earnings_changed_percent": 81.678,
+    "no_utility_difficulty_earnings_changed_percent": 84.031,
+    "utility_difficulty_hours_changed_percent": 7.714,
+    "no_utility_difficulty_hours_changed_percent": 5.275,
+    "energy_assistance_earnings_changed_percent": 79.590,
+    "no_energy_assistance_earnings_changed_percent": 82.558,
+    "energy_assistance_hours_changed_percent": 7.645,
+    "no_energy_assistance_hours_changed_percent": 6.708
+  },
+  "method": "Same-person adjacent-month screen using WPFINWGT and 240 Census replicate weights with Fay BRR, perturbation factor 0.5; earnings and hours retain separate valid-pair universes.",
+  "result": "The refresh reproduces the promoted point estimates and intervals in us-sipp-utility-work-following-2024.json. No new trend record is created.",
+  "boundary": "This is a reproduction audit, not a causal estimate. The SIPP screen does not establish a dated utility shock, assistance effect, job loss, desired-hours mismatch, household prevalence, care substitution, recovery, trust, or political action. Primary and replicate files remain outside Git."
+}

@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-polish-fms-delivery-settlement-asynchrony-2024-2025",
+  "title": "Polish FMS delivery, schedule, and settlement timestamps can diverge",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Polish Supreme Audit Office review of 2024 Armament Agency and Foreign Military Sales settlement activity",
+  "geography": "Poland and US Foreign Military Sales implementation comparator",
+  "observations": [
+    {
+      "period": "2024–2025; FMS schedule and settlement review",
+      "denominator": {"value": 1, "unit": "NIK-described FMS construction and comparator agreement", "value_type": "audit_context"},
+      "measures": {
+        "fms_delivery_schedule": {"value": "estimated", "unit": "costs and months for delivery", "value_type": "reported_rule"},
+        "comparator_delivered_aircraft": {"value": 4, "unit": "F-35 aircraft", "value_type": "reported_delivery"},
+        "comparator_delivery_period": {"value": "December 2024 and January 2025", "unit": "delivery months", "value_type": "reported"},
+        "estimated_contractual_window": {"value": "Q3 2024", "unit": "estimated delivery window", "value_type": "reported_schedule"},
+        "advance_settled_by_2024_year_end": {"value": false, "unit": "comparator agreement", "value_type": "reported_accounting_status"},
+        "settlement_forms_received": {"value": "2025", "unit": "document receipt year", "value_type": "reported"}
+      },
+      "method": "Official audit-text extraction; F-35 delivery comparator is not joined to the JASSM-ER order.",
+      "uncertainty": "The cited audit passage does not identify the cause of the schedule difference or establish acceptance, training, readiness, or operational use.",
+      "subgroup": "One FMS aircraft-delivery comparator described in NIK's 2024 audit.",
+      "counterinterpretation": "The timing pattern may reflect contract-specific FMS terms and accounting cycles rather than a general procurement behavior.",
+      "source_url": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,kon~p_25_001_202502181310531739880653~id1~01,typ,kj.pdf",
+      "retrieval_hash": "source-note:sha256:df33f2f7a024af3825d910eed36368ea889efb2b54fabab6f24e74ba3145f2b7",
+      "status": "compared"
+    },
+    {
+      "period": "2024; US DD Form 645 settlement records",
+      "denominator": {"value": 1, "unit": "NIK-reported 2024 Armament Agency FMS settlement aggregate", "value_type": "audit_context"},
+      "measures": {
+        "advances_settled": {"value": 1534148.4, "unit": "PLN thousands", "value_type": "reported"},
+        "settlement_coverage": {"value": "Q4 2023 and Q1–Q3 2024 expenditures", "unit": "DD Form 645 records", "value_type": "reported"},
+        "jassm_er_identified": {"value": false, "unit": "aggregate passage", "value_type": "boundary"}
+      },
+      "method": "Aggregate context retained as a settlement-scale indicator, not allocated to a weapon system.",
+      "uncertainty": "The aggregate does not disclose contract, variant, quantity, delivery, or acceptance composition.",
+      "subgroup": "Polish FMS advance settlements reported for 2024.",
+      "counterinterpretation": "Settlement values may include many unrelated programs and support lines.",
+      "source_url": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,kon~p_25_001_202502181310531739880653~id1~01,typ,kj.pdf",
+      "retrieval_hash": "source-note:sha256:df33f2f7a024af3825d910eed36368ea889efb2b54fabab6f24e74ba3145f2b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-083.md", "claim": "Detailed finding separates schedule, delivery, acceptance, and settlement clocks.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-081.md", "claim": "Current JASSM-ER order still lacks a reviewed public delivery/acceptance record.", "status": "related-finding"}
+  ],
+  "boundary": "This record establishes an FMS timing/accounting comparator from a Polish F-35 case and an aggregate settlement context. It does not establish any shipment, acceptance, delivery, fielding, training, settlement, or operational status for Poland's 2024 JASSM-ER order."
+}

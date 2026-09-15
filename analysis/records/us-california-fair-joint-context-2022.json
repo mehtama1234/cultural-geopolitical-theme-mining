@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-fair-joint-context-2022",
+  "title": "The California ZIP nonrenewal gradient is largest in the joint low-income/high-wildfire-risk screen",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "California ZIP-level FAIR/private-market measures joined to ACS context and CDI county wildfire exposure",
+  "geography": "California ZIP/ZCTA approximations with county exposure context",
+  "observations": [
+    {
+      "period": "2022; joint income × modeled wildfire-exposure screen",
+      "denominator": {"value": 1570, "unit": "ZIP rows with FAIR share, voluntary decisions, ACS context, and county exposure context", "value_type": "observed_rows"},
+      "measures": {
+        "low_income_high_risk_nonrenewal_rate": {"value": 12.721, "unit": "percent among voluntary renewed plus nonrenewed decisions; 167 ZIP rows", "value_type": "calculated_share"},
+        "low_income_low_risk_nonrenewal_rate": {"value": 12.185, "unit": "percent among voluntary renewed plus nonrenewed decisions; 225 ZIP rows", "value_type": "calculated_share"},
+        "high_income_high_risk_nonrenewal_rate": {"value": 10.773, "unit": "percent among voluntary renewed plus nonrenewed decisions; 454 ZIP rows", "value_type": "calculated_share"},
+        "high_income_low_risk_nonrenewal_rate": {"value": 10.133, "unit": "percent among voluntary renewed plus nonrenewed decisions; 724 ZIP rows", "value_type": "calculated_share"}
+      },
+      "method": "Joined FAIR share and 2022 voluntary ZIP counts to ACS median household income and structure files, then assigned CDI county high/very-high exposure share; split income at the lower quartile boundary ($63,990) and risk at CDI's published 12.1% statewide share.",
+      "uncertainty": "This is a descriptive stratified place screen. Risk is modeled and temporally based on 2015 dwelling-unit estimates; ACS is a five-year ZCTA estimate; FAIR and voluntary measures have different universes.",
+      "subgroup": "ZIP rows in four income-by-risk cells; cells are unweighted and unequal in size.",
+      "counterinterpretation": "The pattern can reflect property value, detached/mobile composition, insurer mix, county composition, reporting practices, or other omitted conditions; it does not establish that risk or income caused nonrenewal or that households moved into FAIR.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm",
+      "comparison_source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/",
+      "retrieval_hash": "sha256:2cc251d9c6b4a61cb5123bc5756f0d631b10f12f11aed521e97677fea16c43db",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "data/california-fair-joint-context-2022-screen.json", "claim": "Local output records the all-dimension join, cut points, cells, and decision counts.", "status": "derived", "access_boundary": "The screen is descriptive and not population-weighted."},
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/upload/Availability-and-Affordability-Report-Appendix-C.pdf", "claim": "CDI supplies the county wildfire-exposure context.", "status": "reported", "access_boundary": "The exposure estimate uses a 2015 dwelling-unit base and weighted modeler scores."}
+  ],
+  "boundary": "This record tests whether the California FAIR/private-market pattern survives joint income and modeled wildfire-risk conditioning. It does not establish causality, household affordability, coverage adequacy, repairs, moves, lending effects, or political response."
+}

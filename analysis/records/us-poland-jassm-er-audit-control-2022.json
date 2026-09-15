@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-jassm-er-audit-control-2022",
+  "title": "A Polish audit found a JASSM-ER settlement evidence gap without establishing missile delivery quantity",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "Polish Supreme Audit Office review of 2022 defence-budget execution and FMS settlement controls",
+  "geography": "Poland and US-origin JASSM-ER procurement/accounting relationship",
+  "observations": [
+    {
+      "period": "Q4 2021–Q3 2022 settlement review; audit reported 2023",
+      "denominator": {"value": 9, "unit": "DD Form 645 settlement forms reviewed by NIK", "value_type": "audit_sample"},
+      "measures": {
+        "reviewed_settlement_value": {"value": 210543.7, "unit": "PLN thousands", "value_type": "reported"},
+        "jassm_er_line": {"value": "production costs, subscription/abonnement", "unit": "audited FMS settlement line", "value_type": "reported"},
+        "numeric_value_tied_to_jassm_er_settlement": {"value": false, "unit": "NIK-described Program Management Review material", "value_type": "audit_finding"},
+        "delivery_quantity": {"value": "not stated", "unit": "JASSM-ER missiles", "value_type": "open"}
+      },
+      "method": "Official audit-text extraction; JASSM-ER-specific passage kept separate from the report's unrelated 32-unit delivery comparator.",
+      "uncertainty": "The audit passage concerns settlement documentation and does not identify a missile lot, accepted quantity, shipment, or fielding status.",
+      "subgroup": "JASSM-ER production-cost settlement line within the reviewed Polish FMS documentation sample.",
+      "counterinterpretation": "Missing numeric support in the reviewed material may reflect an accounting/documentation gap rather than absent production or delivery.",
+      "source_url": "https://bip.nik.gov.pl/plik/id,27864.pdf",
+      "retrieval_hash": "source-note:sha256:82df9d6fcc398c059a96e120c679d9ce8e384c6cf37744b8bbd3e7e19b25d811",
+      "status": "reported"
+    },
+    {
+      "period": "2022 audit finding; separate sampled-contract comparator",
+      "denominator": {"value": 8, "unit": "advance-funded contracts from 2014–2021 examined by NIK", "value_type": "audit_sample"},
+      "measures": {
+        "unsettled_advance_value": {"value": 597763.9, "unit": "PLN thousands", "value_type": "reported"},
+        "separate_contract_delivered_units": {"value": 32, "unit": "units delivered by end-2022 after third amendment", "value_type": "reported"},
+        "separate_contract_planned_share_delivered": {"value": 0.5, "unit": "share of planned units", "value_type": "reported"},
+        "jassm_er_assignment": {"value": false, "unit": "not identified as JASSM in cited passage", "value_type": "boundary"}
+      },
+      "method": "Retained as a general Polish defence-procurement schedule/quantity comparator, not joined to the JASSM-ER line.",
+      "uncertainty": "The cited passage does not disclose the comparator contract's equipment type, so no JASSM inference is permitted.",
+      "subgroup": "Separate delayed/amended contract in NIK's advance-settlement sample.",
+      "counterinterpretation": "The delivery ratio may reflect a contract-specific scope or amendment history and is not a general Polish procurement rate.",
+      "source_url": "https://bip.nik.gov.pl/plik/id,27864.pdf",
+      "retrieval_hash": "source-note:sha256:82df9d6fcc398c059a96e120c679d9ce8e384c6cf37744b8bbd3e7e19b25d811",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-082.md", "claim": "Detailed finding preserves the JASSM-ER-specific control gap and separate 32-unit comparator.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-081.md", "claim": "Current 2024 JASSM-ER order still lacks a reviewed public delivery/acceptance record.", "status": "related-finding"}
+  ],
+  "boundary": "This record establishes an audited documentation/control gap for a JASSM-ER production-cost settlement and separately reports a non-JASSM-attributed 32-unit comparator. It does not estimate production, acceptance, delivery, fielding, operational readiness, delay, or geopolitical leverage for the 2024 Polish JASSM-ER order."
+}

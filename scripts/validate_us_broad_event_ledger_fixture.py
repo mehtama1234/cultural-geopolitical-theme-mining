@@ -22,10 +22,17 @@ def main() -> int:
     statuses = set(SCHEMA["evidence_status"])
     actors = set(SCHEMA["controlled_values"]["actor_initiating_change"])
     conditions = set(SCHEMA["controlled_values"]["condition_or_decision"])
+    seen_events = set()
     for event in data.get("events", []):
         missing = sorted(required - set(event))
         if missing:
             raise ValueError(f"missing event fields: {missing}")
+        if event["event_id"] in seen_events:
+            raise ValueError(f"duplicate event id: {event['event_id']}")
+        seen_events.add(event["event_id"])
+        for field in ("geography", "date_precision", "denominator", "method", "missingness", "counterexample", "source_and_uncertainty"):
+            if not str(event[field]).strip():
+                raise ValueError(f"empty event metadata: {field}")
         if event["unit"] not in units:
             raise ValueError("invalid unit")
         if event["actor_initiating_change"] not in actors:

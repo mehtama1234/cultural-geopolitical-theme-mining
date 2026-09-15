@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-management-bargaining-voice-crosssource-2024-2026",
+  "title": "AI assistance and algorithmic management expand faster than evidence of worker control",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "trust_identity_meaning", "unequal_exposure_status", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of worker/task experiments, employer algorithmic-management reports, executive expectations, and CPS union representation",
+  "geography": "United States with comparative OECD employer-survey context and four-country executive survey",
+  "observations": [
+    {
+      "period": "2023-2026; NBER worker/task and workplace evidence",
+      "denominator": {"value": 5179, "unit": "customer-support agents in 2023 field experiment; companion studies have separate denominators of 7,137 knowledge workers, 13,920 RPS workers, and 1,174 experimental participants", "value_type": "study_specific_samples"},
+      "measures": {
+        "customer_support_issues_resolved_per_hour": {"value": 14, "unit": "percent estimated increase", "value_type": "field_experiment_effect"},
+        "knowledge_worker_email_time": {"value": -2, "unit": "hours per week among treated users in second half of six-month experiment", "value_type": "field_experiment_effect"},
+        "within_occupation_or_task_adoption": {"value": "fewer than half in most occupations and tasks", "unit": "worker-reported adoption pattern", "value_type": "reported_pattern"},
+        "education_performance_gap_without_vs_with_ai": {"value": "0.548 vs 0.139", "unit": "standard deviations in single-task experiment", "value_type": "experimental_comparison"}
+      },
+      "method": "Bounded comparison of NBER field experiments, nationally representative worker/task survey evidence, and a randomized online task experiment; units and interventions are not pooled.",
+      "uncertainty": "Productivity and time effects are study-specific; saved time may be reallocated by employers, worker adoption is not workplace exposure, and task performance is not pay, promotion, autonomy, health, or bargaining power.",
+      "subgroup": "Customer-support agents, knowledge workers, workers within occupations/tasks, and adults grouped by education in separate studies.",
+      "counterinterpretation": "AI can assist lower-skilled workers or narrow a task-performance gap while employers retain allocation, evaluation, monitoring, and pay authority; lower email time is not automatically worker-controlled time.",
+      "source_url": "https://www.nber.org/papers/w33795",
+      "retrieval_hash": "sha256:23bc5d44d0dcff9447c59146c5b3307fe296be943fa0b7f2221c64a14109db16; sha256:6e041dc44accb8f023f549e842933c08e19227ae3c01a50b23d835ee6370b30e; sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714; sha256:680ec546709a0f04c6598506d1defeec13828a608b044ed478d5108198eb26b2",
+      "status": "compared"
+    },
+    {
+      "period": "June-August 2024; OECD employer survey algorithmic-management context",
+      "denominator": {"value": 6047, "unit": "firms with 20 or more employees across six countries; US country rates have separate weighted item universes", "value_type": "reported_employer_sample"},
+      "measures": {
+        "us_firms_with_at_least_one_algorithmic_management_tool": {"value": 90, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"},
+        "us_firms_with_ten_or_more_tools": {"value": 76, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"},
+        "us_firms_monitoring_conversation_content_or_tone": {"value": 55, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"},
+        "users_with_worker_impact_concern": {"value": "nearly two-thirds", "unit": "share of algorithmic-management users across six countries", "value_type": "reported_share"},
+        "users_with_governance_measure": {"value": "nearly 90", "unit": "percent of algorithmic-management users across six countries", "value_type": "reported_share"}
+      },
+      "method": "OECD representative employer survey comparison; algorithmic management includes software that instructs, monitors, or evaluates workers and is broader than generative AI.",
+      "uncertainty": "Manager reports measure provision and perceptions, not worker exposure, consequential use, consent, enforcement, remedy, or independent audit quality. Country composition and legal contexts differ.",
+      "subgroup": "US firms with 20 or more employees and six-country algorithmic-management users; manager/supervisor perspective.",
+      "counterinterpretation": "Administrative or scheduling tools may have limited consequences; a governance measure or worker consultation can exist without effective contestability or power to change a decision.",
+      "source_url": "https://www.oecd.org/en/publications/how-widespread-is-algorithmic-management-in-workplaces_cda7a114-en/full-report.html",
+      "retrieval_hash": "sha256:3080f2d54ecc1ecf540cc7101280399b8a0a9d9b4a23a3ea5361ba23ab37a981",
+      "status": "reported"
+    },
+    {
+      "period": "2026; executive firm survey covering prior and expected next three years",
+      "denominator": {"value": 6000, "unit": "nearly 6,000 senior business executives in the US, UK, Germany, and Australia", "value_type": "reported_executive_sample"},
+      "measures": {
+        "firms_actively_using_ai": {"value": 69, "unit": "percent of firms", "value_type": "reported_share"},
+        "no_past_three_year_firm_employment_or_productivity_impact": {"value": 90, "unit": "percent of executives reporting no impact", "value_type": "reported_share"},
+        "expected_next_three_year_productivity_change": {"value": 1.4, "unit": "percent average expected increase at own firm", "value_type": "forward_expectation"},
+        "expected_next_three_year_employment_change_employers": {"value": -0.7, "unit": "percent average expected change", "value_type": "forward_expectation"},
+        "expected_next_three_year_employment_change_employees": {"value": 0.5, "unit": "percent average expected change", "value_type": "forward_expectation"}
+      },
+      "method": "NBER executive survey comparison of current use, retrospective firm effects, and forward expectations; employer and employee expectation measures are retained separately.",
+      "uncertainty": "Executive perceptions and expectations are not realized administrative outcomes, and the four-country sample is not a US-only estimate. Occupation, implementation rules, pay, hours, and bargaining outcomes are unobserved.",
+      "subgroup": "Senior executives; younger and more productive firms report higher usage; employer and employee expectation perspectives differ.",
+      "counterinterpretation": "Low retrospective impact can coexist with future reorganization, while expected productivity need not reach workers or households; expectation gaps can reflect information or incentive differences rather than realized conflict.",
+      "source_url": "https://www.nber.org/papers/w34836",
+      "retrieval_hash": "sha256:0da65c4ed604a58b8cc95a52cc7c7795c65effadfc621b286d950e1b1377f410",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; US formal union membership and representation context",
+      "denominator": {"value": 144522, "unit": "thousand employed wage and salary workers in 2024; 2025 denominator is 146,661 thousand", "value_type": "CPS_annual_average_base"},
+      "measures": {
+        "2024_union_membership_rate": {"value": 9.9, "unit": "percent", "value_type": "share"},
+        "2024_represented_rate": {"value": 11.1, "unit": "percent", "value_type": "share"},
+        "2025_union_membership_rate": {"value": 10.0, "unit": "percent", "value_type": "share"},
+        "2025_represented_rate": {"value": 11.2, "unit": "percent", "value_type": "share"}
+      },
+      "method": "BLS CPS annual-average Table 1; represented workers include members and workers covered by a union or employee-association contract.",
+      "uncertainty": "The 2025 annual estimate excludes October because of the federal shutdown and is not strictly comparable with other annual averages. Formal representation is not a direct measure of schedule control, appeal, autonomy, or AI exposure.",
+      "subgroup": "Employed wage and salary workers age 16 or older; self-employed workers excluded.",
+      "counterinterpretation": "A small movement in formal coverage cannot establish practical bargaining power, and low coverage does not mean workers lack informal voice or alternative institutions.",
+      "source_url": "https://www.bls.gov/news.release/union2.t01.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-ai-work-adoption-control-2024-2026.json", "claim": "NBER worker/task and workplace experiments provide the adoption, time, productivity, and performance stages.", "status": "related-record"},
+    {"source_url": "../../records/us-oecd-algorithmic-management-2024.json", "claim": "OECD provides employer-reported algorithmic-management adoption and governance context.", "status": "related-record"},
+    {"source_url": "../../records/us-nber-firm-ai-expectations-2026.json", "claim": "NBER provides executive retrospective and forward expectation evidence.", "status": "related-record"},
+    {"source_url": "../../records/us-bls-union-representation-2024-2025.json", "claim": "BLS provides formal worker-representation context.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled AI-at-work and worker-voice bridge. It establishes selected adoption, productivity/time, employer-governance, executive-expectation, and formal-representation surfaces. It does not establish worker exposure, realized employment or pay effects, autonomy, bargaining power, household security, cultural meaning, political response, or geopolitical leverage. A common workplace event with monitoring, training, discretion, appeal, representation, and later outcome remains open."
+}

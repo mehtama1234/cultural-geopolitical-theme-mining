@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-shifting-work-patterns-generative-ai-2025",
+  "title": "Individual generative-AI access changes email and after-hours work patterns before detectable task redesign",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "time_hidden_price", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "knowledge worker-week in a randomized field experiment across participating firms",
+  "geography": "United States; participating firms and workers in the study",
+  "observations": [
+    {
+      "period": "Six-month experiment; NBER Working Paper 33795, issued 2025 and revised November 2025",
+      "denominator": {"value": 7137, "unit": "knowledge workers across 66 firms; approximately half selected for AI-tool access", "value_type": "reported_experiment_sample"},
+      "measures": {
+        "treatment_design": {"value": "workers were randomly selected to receive access to a generative-AI tool integrated into email, meetings, and writing applications", "unit": "individual access intervention", "value_type": "reported_randomized_intervention"},
+        "tool_take_up": {"value": 80, "unit": "percent of treated workers who used the tool in the current NBER abstract", "value_type": "reported_take_up"},
+        "email_time": {"value": "about two fewer hours per week among treated users in the current NBER abstract", "unit": "worker-level weekly email time", "value_type": "reported_effect"},
+        "after_hours_work": {"value": "reduced among treated users", "unit": "worker work-pattern measure", "value_type": "reported_effect"},
+        "task_quantity_composition": {"value": "no detected shift from individual-level provision", "unit": "worker task measures", "value_type": "reported_null"}
+      },
+      "method": "Randomized field experiment with six-month worker-level digital activity outcomes; treatment assignment and tool use are distinct estimands.",
+      "uncertainty": "The experiment covers participating firms, knowledge workers, one integrated tool, and a six-month window. The current NBER abstract reports about two fewer email hours among treated users; the public revised abstract reports 3.6 fewer hours among frequent users and a 1.3-hour intent-to-treat estimate. These summaries use different denominators and are not pooled.",
+      "subgroup": "Participating knowledge workers; detailed effects by occupation, industry, demographic group, family responsibility, and managerial status are not promoted in this record.",
+      "counterinterpretation": "Less email or after-hours time can reflect task assistance, substitution into other work, changed reporting, or temporary novelty; it does not identify lower total workload, greater autonomy, or household benefit.",
+      "source_url": "https://www.nber.org/papers/w33795",
+      "related_full_text_url": "https://arxiv.org/abs/2504.11436",
+      "retrieval_hash": "sha256:1aa08995b59eee4e684ec0bfdcbed05370f7b5f75b0f213d00878642064c8588",
+      "status": "reported"
+    },
+    {
+      "period": "Six-month experiment; public revised abstract version",
+      "denominator": {"value": 7137, "unit": "knowledge workers across 66 firms", "value_type": "reported_experiment_sample"},
+      "measures": {
+        "frequent_user_email_time": {"value": 3.6, "unit": "fewer hours per week among workers who used the tool in more than half of sample weeks", "value_type": "reported_effect"},
+        "intent_to_treat_email_time": {"value": 1.3, "unit": "fewer hours per week; assignment-based estimate", "value_type": "reported_effect"},
+        "document_completion": {"value": "moderately faster", "unit": "document activity outcome", "value_type": "reported_effect"},
+        "meeting_time": {"value": "no significant change", "unit": "meeting activity outcome", "value_type": "reported_null"}
+      },
+      "method": "Public revised abstract associated with the NBER paper; abstract-level extraction, not a re-estimation.",
+      "uncertainty": "The user-effect and assignment-effect denominators differ; the abstract does not by itself show whether saved time became rest, care, additional work, or higher expectations.",
+      "subgroup": "Frequent tool users versus assignment group; no general population inference.",
+      "counterinterpretation": "Unchanged meeting time may reflect coordination constraints, but it does not prove that meetings are unaffected by later organizational adaptation.",
+      "source_url": "https://arxiv.org/abs/2504.11436",
+      "retrieval_hash": "sha256:1aa08995b59eee4e684ec0bfdcbed05370f7b5f75b0f213d00878642064c8588",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35677", "claim": "Task-level worker-reported adoption is uneven among workers doing similar work; exposure is not adoption.", "status": "related-worker-survey"},
+    {"source_url": "https://www.nber.org/papers/w32966", "claim": "Repeated US surveys provide population-level generative-AI adoption and assisted-hour context.", "status": "related-repeated-survey"},
+    {"source_url": "https://www.nber.org/papers/w33348", "claim": "A separate experiment tests digital surveillance and managerial explanation, keeping control and AI assistance distinct.", "status": "related-control-experiment"}
+  ],
+  "boundary": "This record promotes a randomized worker-level time-pattern result from a defined field experiment. It does not establish firm productivity, job redesign, worker authority, pay, health, household time, political meaning, or geopolitical consequence. Access, take-up, task change, coordination, and control remain separate stages."
+}

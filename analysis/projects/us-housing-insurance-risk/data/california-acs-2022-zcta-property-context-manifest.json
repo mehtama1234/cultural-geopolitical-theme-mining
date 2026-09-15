@@ -1,0 +1,11 @@
+{
+  "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b25024.dat",
+  "retrieved": "2026-09-13",
+  "sha256": "94e8391aa289ce5e12984d143b65ce1cf10f091d46c95c228d224a2a7d0e0809",
+  "variables": {
+    "B25024_E001": "units in structure total",
+    "B25024_E002": "1-unit detached",
+    "B25024_E010": "mobile home"
+  },
+  "income_input": "acs2022-b19013.dat"
+}

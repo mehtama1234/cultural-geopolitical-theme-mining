@@ -1,0 +1,218 @@
+{
+  "format": "usaspending-recipient-reconciliation-v1",
+  "retrieved_at": "2026-09-15T05:25:33.387027+00:00",
+  "endpoint": "https://api.usaspending.gov/api/v2/recipient/",
+  "queries": [
+    {
+      "keyword": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+      "request": {
+        "keyword": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+        "page": 1,
+        "limit": 100,
+        "award_type": "contracts",
+        "sort": "name",
+        "order": "asc"
+      },
+      "response_sha256": "b8cece8ac32a6a821c4a10daf19953355faf3c2a30e2598b83334c02299d28df",
+      "response": {
+        "page_metadata": {
+          "page": 1,
+          "total": 17,
+          "limit": 100,
+          "next": null,
+          "previous": null,
+          "hasNext": false,
+          "hasPrevious": false
+        },
+        "results": [
+          {
+            "id": "d288137a-df06-a6a2-d760-b57726572a8b-P",
+            "duns": "117474014",
+            "uei": "XQK3GTZJ6464",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 27183548.22
+          },
+          {
+            "id": "d288137a-df06-a6a2-d760-b57726572a8b-C",
+            "duns": "117474014",
+            "uei": "XQK3GTZJ6464",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 33151933.48
+          },
+          {
+            "id": "a081409c-853b-e8f6-4f9b-6fbed22f596d-C",
+            "duns": "007183911",
+            "uei": "S1DYBNN41SG1",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 1959839.0
+          },
+          {
+            "id": "738b85f1-74b4-c473-e6b3-7fc1613230a3-P",
+            "duns": "194956751",
+            "uei": "VJPHJTGAVHD4",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 7816658.62
+          },
+          {
+            "id": "738b85f1-74b4-c473-e6b3-7fc1613230a3-C",
+            "duns": "194956751",
+            "uei": "VJPHJTGAVHD4",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 23316720.85
+          },
+          {
+            "id": "2ae02a40-0129-05fb-93c1-f778e04c7fa1-P",
+            "duns": "787647192",
+            "uei": "KM4XFJ7CJSY8",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 2667719.03
+          },
+          {
+            "id": "2ae02a40-0129-05fb-93c1-f778e04c7fa1-C",
+            "duns": "787647192",
+            "uei": "KM4XFJ7CJSY8",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 4103405.44
+          },
+          {
+            "id": "edf2b2b6-4df9-6ded-1ce9-20413c08ae97-P",
+            "duns": "117551677",
+            "uei": "LWM1FFQ935S8",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 59814922.74
+          },
+          {
+            "id": "edf2b2b6-4df9-6ded-1ce9-20413c08ae97-C",
+            "duns": "117551677",
+            "uei": "LWM1FFQ935S8",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 67707624.74
+          },
+          {
+            "id": "3aadb63a-54fd-526c-ec7e-f2d1e63d8112-C",
+            "duns": "080119028",
+            "uei": "FNZGNWHTXVL4",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 86157739.1
+          },
+          {
+            "id": "13daa6b0-3ce1-616f-772d-8926ca88bdba-C",
+            "duns": "007186526",
+            "uei": "FMXWYVVK3DL5",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 5373074.0
+          },
+          {
+            "id": "491276c8-5021-7bbc-1fb6-ec97c71a175b-C",
+            "duns": "795958482",
+            "uei": "TEJHGJ8G2YK6",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 0.0
+          },
+          {
+            "id": "cdc6b956-a9c8-8548-7902-4512c9ccb343-C",
+            "duns": "005149120",
+            "uei": "F9AVUZ8YBGQ6",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 852131042.92
+          },
+          {
+            "id": "da4a6252-a5cd-e7c8-4649-07cfe391e132-C",
+            "duns": "617796284",
+            "uei": "FHQSTBB3NQC3",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 23044040.09
+          },
+          {
+            "id": "da4a6252-a5cd-e7c8-4649-07cfe391e132-P",
+            "duns": "617796284",
+            "uei": "FHQSTBB3NQC3",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 19238796.0
+          },
+          {
+            "id": "14a4c0dc-8bad-cebe-130c-5703cf9a3b81-P",
+            "duns": "083489893",
+            "uei": "WMKXMDJFSXA7",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "P",
+            "amount": 89668154.13
+          },
+          {
+            "id": "14a4c0dc-8bad-cebe-130c-5703cf9a3b81-C",
+            "duns": "083489893",
+            "uei": "WMKXMDJFSXA7",
+            "name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+            "recipient_level": "C",
+            "amount": 129439424.76
+          }
+        ]
+      }
+    },
+    {
+      "keyword": "GENERAL DYNAMICS-OTS, INC.",
+      "request": {
+        "keyword": "GENERAL DYNAMICS-OTS, INC.",
+        "page": 1,
+        "limit": 100,
+        "award_type": "contracts",
+        "sort": "name",
+        "order": "asc"
+      },
+      "response_sha256": "e71faf1ac823779ba0c5bc2bee3fa6dab2afd62916d75ccabeb642345c5ea765",
+      "response": {
+        "page_metadata": {
+          "page": 1,
+          "total": 3,
+          "limit": 100,
+          "next": null,
+          "previous": null,
+          "hasNext": false,
+          "hasPrevious": false
+        },
+        "results": [
+          {
+            "id": "3a02f6ab-9df3-cbfd-b60f-1542efce4906-C",
+            "duns": "003567125",
+            "uei": "Q9SBTF8ELUP4",
+            "name": "GENERAL DYNAMICS-OTS, INC.",
+            "recipient_level": "C",
+            "amount": 405175788.99
+          },
+          {
+            "id": "ba0a3473-b6f3-7cf8-cc64-e960ca9aa621-C",
+            "duns": "064811599",
+            "uei": "KZK8C85C1T94",
+            "name": "GENERAL DYNAMICS-OTS, INC.",
+            "recipient_level": "C",
+            "amount": 245557870.6
+          },
+          {
+            "id": "f0d1505a-19c7-5247-b103-bffdae944675-C",
+            "duns": "050447812",
+            "uei": "KGF2CHWGJRK8",
+            "name": "GENERAL DYNAMICS-OTS, INC.",
+            "recipient_level": "C",
+            "amount": 29265.98
+          }
+        ]
+      }
+    }
+  ],
+  "boundary": "Official USAspending recipient search responses for two reported subaward names; the results expose possible recipient identifiers and aggregate endpoint values, but do not join a named subaward row to a specific UEI/CAGE, facility, work package, production event, or delivery."
+}

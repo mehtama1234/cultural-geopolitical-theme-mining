@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-procurement-location-capability-context-2026",
+  "title": "Reported procurement locations have independent capability context without proving work-package assignment",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "USAspending subaward rows compared with official company capability/quality documents for the reported locations",
+  "geography": "Nashua, New Hampshire and Niceville, Florida, United States",
+  "observations": [
+    {
+      "period": "2024-11-22; BAE subaward location and official capability context",
+      "denominator": {"value": 1, "unit": "selected BAE subaward row and one official multi-site quality certificate", "value_type": "matched_context_pair"},
+      "measures": {
+        "subaward_id": {"value": "4106451402", "unit": "USAspending subaward identifier", "value_type": "reported_identifier"},
+        "recipient_uei": {"value": "V7X9P6J9SUK1", "unit": "Sub-Recipient UEI", "value_type": "reported_identifier"},
+        "reported_location": {"value": "95 Canal Street, Nashua, NH", "unit": "USAspending recipient location", "value_type": "reported_location"},
+        "certificate_scope": {"value": "design, production, and servicing of electronic components, subsystems, and systems for military and commercial products", "unit": "official quality-certificate scope", "value_type": "reported_capability_context"},
+        "amount": {"value": 210018575, "unit": "nominal US dollars", "value_type": "reported_amount"},
+        "work_package_assignment": {"value": "not observed", "unit": "specific subaward work assigned to Nashua site", "value_type": "open"}
+      },
+      "method": "Exact USAspending subaward/location record compared with the named site in BAE official quality certificate US014595; sources are matched by place but not pooled into a causal production claim.",
+      "uncertainty": "A certified quality scope establishes documented capability at the site, not performance of this award row, current line utilization, output, acceptance, delivery, or workforce.",
+      "subgroup": "BAE selected subaward row and 95 Canal Street Nashua site.",
+      "counterinterpretation": "The site may support the capability while another BAE facility or supplier performs the specific RF work.",
+      "source_url": "https://www.baesystems.com/en-us/dam/jcr%3A7ea82997-4d3a-4b47-852e-540a196824a2/AS9100D-ISO9001-2015-BVC-multi-site-cert-US014595-1-exp-05-07-2023.2025-06-27-16-16-52.pdf",
+      "retrieval_hash": "sha256:d667a22fa28687e07b3c2e800966757369c66e73173a199756e781a2d1bd0b5c",
+      "status": "compared"
+    },
+    {
+      "period": "2024-12-10; General Dynamics-OTS subaward location and official capability context",
+      "denominator": {"value": 1, "unit": "selected General Dynamics-OTS subaward row and one official product/capability document", "value_type": "matched_context_pair"},
+      "measures": {
+        "subaward_id": {"value": "4106475970", "unit": "USAspending subaward identifier", "value_type": "reported_identifier"},
+        "recipient_uei": {"value": "KZK8C85C1T94", "unit": "Sub-Recipient UEI", "value_type": "reported_identifier"},
+        "reported_location": {"value": "115 Hart Street, Niceville, FL", "unit": "USAspending recipient location", "value_type": "reported_location"},
+        "official_capability_context": {"value": "Niceville Operations and advanced warhead technology/modeling and simulation material", "unit": "official company capability document", "value_type": "reported_capability_context"},
+        "amount": {"value": 80550804.12, "unit": "nominal US dollars", "value_type": "reported_amount"},
+        "work_package_assignment": {"value": "not observed", "unit": "specific JASSM/LRASM case-assembly work assigned to Niceville site", "value_type": "open"}
+      },
+      "method": "Exact USAspending subaward/location record compared with General Dynamics-OTS official product material naming Niceville Operations and 115 Hart Street; the product capability is retained as context, not as a work assignment.",
+      "uncertainty": "Company capability material does not establish that the selected case assembly was performed there, nor the quantity, acceptance, delivery, or current spare capacity.",
+      "subgroup": "General Dynamics-OTS selected subaward row and Niceville Operations.",
+      "counterinterpretation": "The document may describe organizational or product-line capability while the award work was performed at another OTS site or supplier.",
+      "source_url": "https://www.gd-ots.com/wp-content/uploads/2023/02/Advanced-Warhead-Technology-202301-1.pdf",
+      "retrieval_hash": "sha256:7ec9756d27ce13ef1cae81b21ccf05583d16e9f3b9a140aba95d32f8e46f4486",
+      "status": "compared"
+    },
+    {
+      "period": "2026-09-14; capability-context boundary",
+      "denominator": {"value": 2, "unit": "selected recipient-location/capability-context pairs", "value_type": "matched_context_pairs"},
+      "measures": {
+        "location_capability_context": {"value": "documented for both selected locations", "unit": "bounded comparison result", "value_type": "reported_pattern"},
+        "specific_work_assignment": {"value": "not observed for either row", "unit": "award-to-site assignment", "value_type": "open"},
+        "production_acceptance_delivery": {"value": "not observed", "unit": "operational realization fields", "value_type": "open"}
+      },
+      "method": "Cross-source place comparison preserving USAspending award fields, company capability documents, and the previous DLA identity route as separate source units.",
+      "uncertainty": "Two selected cases are not representative of the full supplier network; capability context cannot be promoted to production, readiness, delivery, replaceability, or leverage.",
+      "subgroup": "Two focal supplier routes in one bounded weapons-system procurement case.",
+      "counterinterpretation": "Capability context may be a necessary but insufficient condition for the specific award output; it may also coexist with shared parent dependencies or critical inputs.",
+      "source_url": "https://www.baesystems.com/en-us/dam/jcr%3A7ea82997-4d3a-4b47-852e-540a196824a2/AS9100D-ISO9001-2015-BVC-multi-site-cert-US014595-1-exp-05-07-2023.2025-06-27-16-16-52.pdf",
+      "retrieval_hash": "sha256:d667a22fa28687e07b3c2e800966757369c66e73173a199756e781a2d1bd0b5c; GD:sha256:7ec9756d27ce13ef1cae81b21ccf05583d16e9f3b9a140aba95d32f8e46f4486",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-078.md", "claim": "The richer USAspending route establishes the exact subaward UEIs and reported locations.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-076.md", "claim": "DLA records establish a separate CAGE parent/facility hierarchy that is not automatically the reported USAspending location.", "status": "related-finding"},
+    {"source_url": "https://cage.report/CAGE/7P325", "claim": "Secondary discovery source reports a candidate BAE Nashua CAGE/UEI pairing; not promoted as official DLA detail evidence.", "status": "discovery-only"},
+    {"source_url": "https://cage.report/SAM/8EAU4", "claim": "Secondary discovery source reports a candidate General Dynamics-OTS Niceville CAGE/UEI pairing; not promoted as official DLA detail evidence.", "status": "discovery-only"}
+  ],
+  "boundary": "Official capability and quality documents provide independent context for the reported locations. They do not prove that the specific JASSM/LRASM subaward was performed there, or that production, acceptance, delivery, replaceability, or geopolitical leverage followed."
+}

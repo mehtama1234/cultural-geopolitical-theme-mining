@@ -43,3 +43,17 @@ This is exactly the difference between observing a population pattern and claimi
 ## Next test
 
 Use the person-month key for fields explicitly defined monthly—income-to-poverty ratio, income, earnings, jobs, employment, and selected program or household-change variables—after adding their status flags and universes. Keep annual food, housing-difficulty, and care questions as reference-period outcomes unless the documentation supports a different timing interpretation.
+
+## Current reproducibility audit
+
+The 2026-09-14 rerun of `analyze_sipp_person_transitions.py` on the full-v15
+slice reproduced 31,992 identified people, 31,090 people with all twelve
+months, and 346,283 available adjacent-month pairs. For explicitly monthly
+fields, 3.67% of 346,160 valid income-to-poverty-band pairs changed category,
+compared with 1.70% of 297,861 valid job-count pairs. The [audit JSON](sipp-person-transition-reproduction-audit-2026-09-14.json)
+preserves the input hash, field universes, and no-variance boundary. The
+published [same-person finding](findings/us-household-calendar-integration-021.md)
+interprets this as distinct resource and work clocks, not a volatility ranking.
+The [machine-readable transition record](../../records/us-sipp-monthly-resource-job-transition-2024.json)
+promotes only the explicitly monthly fields and retains the separate valid-pair
+denominators.

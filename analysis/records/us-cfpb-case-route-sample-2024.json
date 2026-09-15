@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-case-route-sample-2024",
+  "title": "Complaint route timing, visibility, and response categories differ sharply by financial product",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "firm_sector_market_power", "time_hidden_price"],
+  "source_unit": "Capped retrieval-order sample of published CFPB complaint records with case-level route fields",
+  "geography": "United States complaint records; consumer state and ZIP are reported fields",
+  "observations": [
+    {
+      "period": "2024 complaints received; checking or savings account; 500 sampled records",
+      "denominator": {"value": 500, "unit": "capped retrieval-order sample; 52,901 total API-matching records"},
+      "measures": {"receipt_to_company_send_median_hours": {"value": 0.294, "unit": "hours", "value_type": "estimate"}, "receipt_to_company_send_p90_hours": {"value": 1.296, "unit": "hours", "value_type": "estimate"}, "same_calendar_day_routing": {"value": 96.6, "unit": "percent of sampled records", "value_type": "share"}, "web_submission": {"value": 90.6, "unit": "percent of sampled records", "value_type": "share"}, "narrative_present": {"value": 59.8, "unit": "percent of sampled records", "value_type": "share"}, "public_response_present": {"value": 47.6, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_explanation": {"value": 77.4, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_monetary_relief": {"value": 14.4, "unit": "percent of sampled records", "value_type": "share"}},
+      "method": "Official CFPB complaint API case-level retrieval with date_received_min/max, exact product filter, and size=500; receipt-to-company-send lag computed from date_received and date_sent_to_company.",
+      "uncertainty": "Capped retrieval-order sample; no sampling standard error or weighting. Date sent is routing to the company, not company response completion or verified remedy.",
+      "subgroup": "Published complaints identified as checking or savings account complaints.",
+      "counterinterpretation": "Product issue mix, company mix, complaint propensity, route access, and publication rules can produce the pattern; response labels do not measure restored money, time, or trust.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:a3952bc188fab5af07f1329b91e9a42040fcf05d1cb4e74b073856b346156138",
+      "status": "compared"
+    },
+    {
+      "period": "2024 complaints received; credit reporting or other personal consumer reports; 500 sampled records",
+      "denominator": {"value": 500, "unit": "capped retrieval-order sample; 2,370,336 total API-matching records"},
+      "measures": {"receipt_to_company_send_median_hours": {"value": 0.056, "unit": "hours", "value_type": "estimate"}, "receipt_to_company_send_p90_hours": {"value": 0.288, "unit": "hours", "value_type": "estimate"}, "same_calendar_day_routing": {"value": 100.0, "unit": "percent of sampled records", "value_type": "share"}, "web_submission": {"value": 99.0, "unit": "percent of sampled records", "value_type": "share"}, "narrative_present": {"value": 25.0, "unit": "percent of sampled records", "value_type": "share"}, "public_response_present": {"value": 31.4, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_explanation": {"value": 44.2, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_non_monetary_relief": {"value": 55.8, "unit": "percent of sampled records", "value_type": "share"}},
+      "method": "Same CFPB case-level procedure and capped retrieval-order sample as the adjacent product observation.",
+      "uncertainty": "Capped retrieval-order sample; no sampling standard error or weighting. The very large product universe is not represented by 500 cases as a population estimate.",
+      "subgroup": "Published complaints identified as credit reporting or other personal consumer report complaints.",
+      "counterinterpretation": "Rapid routing may reflect product-specific system integration rather than consumer access or resolution; non-monetary relief and explanation remain company/administrative labels.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:a3952bc188fab5af07f1329b91e9a42040fcf05d1cb4e74b073856b346156138",
+      "status": "compared"
+    },
+    {
+      "period": "2024 complaints received; mortgage; 500 sampled records",
+      "denominator": {"value": 500, "unit": "capped retrieval-order sample; 21,474 total API-matching records"},
+      "measures": {"receipt_to_company_send_median_hours": {"value": 0.466, "unit": "hours", "value_type": "estimate"}, "receipt_to_company_send_p90_hours": {"value": 10.406, "unit": "hours", "value_type": "estimate"}, "same_calendar_day_routing": {"value": 90.4, "unit": "percent of sampled records", "value_type": "share"}, "web_submission": {"value": 88.4, "unit": "percent of sampled records", "value_type": "share"}, "narrative_present": {"value": 59.2, "unit": "percent of sampled records", "value_type": "share"}, "public_response_present": {"value": 51.8, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_explanation": {"value": 95.2, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_monetary_relief": {"value": 1.4, "unit": "percent of sampled records", "value_type": "share"}},
+      "method": "Same CFPB case-level procedure and capped retrieval-order sample as the adjacent product observation.",
+      "uncertainty": "Capped retrieval-order sample; no sampling standard error or weighting. Routing tail does not measure company response delay or mortgage outcome.",
+      "subgroup": "Published complaints identified as mortgage complaints.",
+      "counterinterpretation": "Mortgage product and issue complexity, company routing, weekends, and publication timing may shape the long tail; explanation is not proof of correction.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:a3952bc188fab5af07f1329b91e9a42040fcf05d1cb4e74b073856b346156138",
+      "status": "compared"
+    },
+    {
+      "period": "2024 complaints received; student loan; 500 sampled records",
+      "denominator": {"value": 500, "unit": "capped retrieval-order sample; 14,685 total API-matching records"},
+      "measures": {"receipt_to_company_send_median_hours": {"value": 0.303, "unit": "hours", "value_type": "estimate"}, "receipt_to_company_send_p90_hours": {"value": 23.718, "unit": "hours", "value_type": "estimate"}, "same_calendar_day_routing": {"value": 90.0, "unit": "percent of sampled records", "value_type": "share"}, "web_submission": {"value": 94.6, "unit": "percent of sampled records", "value_type": "share"}, "narrative_present": {"value": 61.8, "unit": "percent of sampled records", "value_type": "share"}, "public_response_present": {"value": 46.6, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_explanation": {"value": 97.4, "unit": "percent of sampled records", "value_type": "share"}, "closed_with_monetary_relief": {"value": 1.2, "unit": "percent of sampled records", "value_type": "share"}},
+      "method": "Same CFPB case-level procedure and capped retrieval-order sample as the adjacent product observation.",
+      "uncertainty": "Capped retrieval-order sample; no sampling standard error or weighting. Routing delay is not company resolution delay, and explanation is not a verified remedy.",
+      "subgroup": "Published complaints identified as student-loan complaints.",
+      "counterinterpretation": "Product-specific servicing, transfer, legal, and administrative complexity may produce the routing tail and response mix; public response visibility is optional.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:a3952bc188fab5af07f1329b91e9a42040fcf05d1cb4e74b073856b346156138",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This record audits a capped retrieval-order sample of public CFPB complaint cases. It adds case-level route timing and visibility fields to aggregate complaint evidence, but it does not estimate consumer harm, remedy adequacy, account-level rates, repeat contact, switching, trust, or political action."
+}

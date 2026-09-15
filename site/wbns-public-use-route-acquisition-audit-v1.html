@@ -1,0 +1,228 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="WBNS public-use route acquisition audit v1"><title>WBNS public-use route acquisition audit v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#access-finding">Access finding</a></li><li><a href="#transport-recheck">Transport recheck</a></li><li><a href="#browser-capable-metadata-and-access-recheck">Browser-capable metadata and access recheck</a></li><li><a href="#route-variables-identified-in-the-questionnaire">Route variables identified in the questionnaire</a></li><li><a href="#planned-extraction-contract">Planned extraction contract</a></li><li><a href="#go-no-go-gates">Go/no-go gates</a></li><li><a href="#open-acquisition-gap">Open acquisition gap</a></li><li class="toc-sub"><a href="#earlier-wave-fallback-check">Earlier-wave fallback check</a></li><li><a href="#sources-and-retrieval-controls">Sources and retrieval controls</a></li></ul></nav></div><article id="finding" class="memo"><h1>WBNS public-use route acquisition audit v1</h1>
+<p><strong>Checked:</strong> 2026-09-15; browser-capable ICPSR metadata and access guidance rechecked during continuation pass<br />
+<strong>Status:</strong> public-use acquisition identified and metadata independently verified; data-file access still requires an authenticated free account; no new estimates promoted yet<br />
+<strong>Purpose:</strong> prepare a reproducible 2024 WBNS extraction that joins lived SNAP route experience to food, housing, work, health, and financial-security measures.</p>
+<h2 id="access-finding">Access finding</h2>
+<p>The 2024 WBNS round is catalogued by ICPSR as <strong>Well-Being and Basic Needs Survey, United States, 2024 (ICPSR 39691)</strong>. The catalog identifies an individual-level, cross-sectional survey of the household population ages 18–64, collected in December 2024, with an approximately 7,500-person stratified KnowledgePanel sample and post-stratification weights. The catalog states that public-use files are available to the general public without ICPSR-member affiliation; restricted variables are separate.</p>
+<p>The latest direct transport recheck is preserved in the <a href="../analysis/projects/us-safety-net-access/data/wbns-access-recheck-2026-09-15.json">machine-readable
+access record</a>. Unauthenticated
+requests to the official ICPSR study/version routes and the Urban Data Catalog
+returned HTTP 403 HTML challenge pages. This is a session transport result,
+not evidence that the public-use files or route fields are absent.</p>
+<p>The current pass verified the catalog metadata through the ICPSR study page and
+downloaded the official 2024 questionnaire. The catalog identifies the study as
+version 1, released June 4, 2026, collected in December 2024, with an
+approximately 7,500-person stratified KnowledgePanel sample, an individual unit
+of observation, a household-population age 18–64 universe, a cross-sectional
+design, and weights post-stratified to age/gender, race/ethnicity, education,
+children, region, metro status, homeownership, family income/FPL, family
+composition, language, and internet access. It did <strong>not</strong> download or analyze
+the microdata, so this packet remains an acquisition control record, not a trend
+estimate.</p>
+<h2 id="transport-recheck">Transport recheck</h2>
+<p>Two public-facing routes were tested during the continuation pass:</p>
+<table>
+<thead>
+<tr>
+<th>Route</th>
+<th>Result</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ICPSR 39691 study/data-documentation endpoints</td>
+<td>HTTP 403 Cloudflare challenge from the current non-browser session</td>
+<td>Transport failure in this environment; not evidence that the public-use files do not exist</td>
+</tr>
+<tr>
+<td>Urban Data Catalog WBNS page</td>
+<td>HTTP 403 Cloudflare challenge from the current non-browser session</td>
+<td>Catalog metadata is independently discoverable through indexed search, but attachments were not treated as downloaded</td>
+</tr>
+</tbody>
+</table>
+<p>The <a href="https://icpsr.github.io/metadata/icpsr_metadata_api/">ICPSR metadata documentation</a> says the catalog tracks public-use versus restricted access at the system level, and the <a href="https://www.icpsr.umich.edu/web/HMCA/studies/39691">39691 study page</a> states that public-use files are available to the general public. The page also says the collection is distributed as survey data with online analysis metadata and a roughly 3–4% cumulative response rate. The local acquisition state therefore remains <strong>identified and metadata-verified but not retrieved</strong>. An account/browser-capable file retrieval or a supplied package is still required before the validator can run.</p>
+<p>The current ICPSR series page lists the 2024 study as <strong>partially restricted</strong>,
+while HMCA access guidance says data-file access requires a free
+Researcher Passport/login even when documentation is viewable without login.
+Therefore “public-use available” is retained as a catalog metadata claim, not
+as proof that this environment can download every file or that all fields
+needed for the route ledger are public. The unauthenticated study endpoint was
+retested during this pass and returned HTTP 403.</p>
+<p>The Urban Data Catalog was rechecked on 2026-09-14. It currently exposes
+published WBNS tables through 2025—including material hardship and unmet
+personal-assistance tables modified August 20, 2026—but it does not expose the
+2024 respondent-level route file needed for <code>Q53A</code>/<code>Q110</code>/<code>Q54</code> episode
+extraction. Those published tables can extend descriptive context, but they
+cannot substitute for the route microdata or create the missing notice,
+effort, amount, remedy, and follow-up linkage.</p>
+<h2 id="browser-capable-metadata-and-access-recheck">Browser-capable metadata and access recheck</h2>
+<p>The official <a href="https://www.icpsr.umich.edu/web/HMCA/studies/39691">ICPSR 39691 study page</a>
+was rechecked through a browser-capable source on 2026-09-14. It confirms the
+2024 version date of June 4, 2026; December 2024 collection; an approximately
+7,500-person stratified KnowledgePanel draw of adults ages 18–64; individual
+observation; a cross-sectional design; Census-region geographic scope; and
+post-stratification benchmarks including age/gender, race/ethnicity, education,
+children, region, metro status, homeownership, income/FPL, family composition,
+language, and internet access by age. The page also confirms the broad topic
+coverage needed for the planned route ledger: safety-net participation, food,
+housing, employment, income, financial security, disability, health, and
+discrimination.</p>
+<p>The official <a href="https://www.icpsr.umich.edu/sites/hmca/find-data">HMCA access guidance</a>
+states that data-file access requires login with a free ICPSR Researcher
+Passport or an existing Google, LinkedIn, or ORCID account, while
+documentation does not require login. This resolves an ambiguity in the older
+“public-use available” wording: the file is catalogued for general public
+access, but the current workspace has no authenticated download session. The
+recheck therefore strengthens the acquisition specification without changing
+the evidence state: no respondent-level route fields, weights, or estimates
+have been retrieved here.</p>
+<p>The official study page also exposes an <strong>Analyze Online (SDA)</strong> surface, and
+the WBNS series catalog currently lists 8 studies and 5,220 indexed variables.
+This is a useful intermediate route, but the official ICPSR online-analysis
+guidance also requires login and terms-of-use acceptance. It therefore lowers
+the software/download burden without removing the authentication gate. No
+SDA crosstab or frequency has been retrieved in this workspace. Once an
+authenticated route is available, inspect question wording, universe, weights,
+cell-size suppression, variance support, and whether the 2024
+<code>Q53A</code>/<code>Q110</code>/<code>Q54</code> fields are actually available. Until then, the evidence
+state remains metadata-verified and respondent-file/not-online-output not
+retrieved.</p>
+<p>The catalog metadata used for this gate is preserved in the
+<a href="../analysis/projects/us-safety-net-access/data/wbns-39691-catalog-metadata-v1.json">machine-readable WBNS 39691 record</a>.
+It fixes the study identity, version date, collection month, individual unit,
+18–64 universe, approximate sample, post-stratification benchmarks, response
+rate note, and route fields that still require file-level verification. The
+record intentionally does not promote the catalog's availability labels into
+a successful local download or an estimate.</p>
+<p>ICPSR's public study search also exposes an <strong>online-analysis</strong> filter and
+indexes variable-level documentation across its holdings. The search result
+confirms that WBNS 2024 is classified in that online-analysis surface, but it
+does not by itself expose the route-variable labels, code values, weights, or
+usable output. The next reproducible check is therefore an authenticated
+variable/codebook inspection, not a claim that the search index supplies the
+data needed for estimation.</p>
+<p>An exact-label search for the mapped fields <code>Q53A</code>, <code>Q110A</code>, and <code>Q54R</code> did not
+return public indexed results in the current pass, and the direct ICPSR
+variable-search endpoint returned HTTP 403. This does not show that the fields
+are absent from the study; it establishes only that the public search surface
+did not make their codebook details verifiable here.</p>
+<h2 id="route-variables-identified-in-the-questionnaire">Route variables identified in the questionnaire</h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Field</th>
+<th>Role in the end-to-end ledger</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Q53A</code></td>
+<td>Family received SNAP in the past 12 months</td>
+<td>Program-exposure universe</td>
+</tr>
+<tr>
+<td><code>Q110</code></td>
+<td>Family had to recertify SNAP in the past 12 months</td>
+<td>Episode eligibility for recertification route</td>
+</tr>
+<tr>
+<td><code>Q110A</code></td>
+<td>How difficult/easy recertification was</td>
+<td>Perceived route burden</td>
+</tr>
+<tr>
+<td><code>Q110B</code></td>
+<td>Preferred communication channel with SNAP staff</td>
+<td>Channel preference and possible mismatch</td>
+</tr>
+<tr>
+<td><code>Q110C</code></td>
+<td>Who helped complete application/recertification</td>
+<td>Assistance route</td>
+</tr>
+<tr>
+<td><code>Q54</code></td>
+<td>Benefits stopped or interrupted, even for a month</td>
+<td>Interruption event</td>
+</tr>
+<tr>
+<td><code>Q54N</code></td>
+<td>Whether the interruption was chosen</td>
+<td>Voluntary/involuntary distinction</td>
+</tr>
+<tr>
+<td><code>Q54O</code></td>
+<td>How the respondent learned of interruption</td>
+<td>Notice, EBT, balance-check, or other discovery route</td>
+</tr>
+<tr>
+<td><code>Q54P</code></td>
+<td>Why benefits stopped/interrupted</td>
+<td>Eligibility, recertification, or other route</td>
+</tr>
+<tr>
+<td><code>Q54Q</code></td>
+<td>Reasons told no longer eligible</td>
+<td>Earnings/assets, work requirement, reporting, immigration, household change</td>
+</tr>
+<tr>
+<td><code>Q54R</code></td>
+<td>Reasons unable to recertify on time</td>
+<td>Notice receipt, time, knowledge, paperwork, interview, lost documents, other</td>
+</tr>
+</tbody>
+</table>
+<p>The 2024 questionnaire also contains food, housing, transportation, utility, health, employment, financial-security, discrimination, and help-seeking fields. Those domains can support the material-outcome and meaning/action portions of the ledger, subject to their own universes and timing. No respondent-level estimate is promoted from the 2026-09-15 recheck.</p>
+<h2 id="planned-extraction-contract">Planned extraction contract</h2>
+<p>The first extraction should produce four separate tables or clearly separated outputs:</p>
+<ol>
+<li><strong>Route exposure:</strong> <code>Q53A</code>, <code>Q110</code>, <code>Q110A</code>, <code>Q110B</code>, <code>Q110C</code>.</li>
+<li><strong>Interruption and discovery:</strong> <code>Q54</code>, <code>Q54N</code>, <code>Q54O</code>.</li>
+<li><strong>Reported route reasons:</strong> <code>Q54P</code>, <code>Q54Q</code>, <code>Q54R</code>, preserving multi-response indicators.</li>
+<li><strong>Material and meaning cross-tabs:</strong> route/interruption cells crossed with pre-specified food, housing, utility, work, health, financial-security, perceived-fairness, and assistance measures where the 2024 public-use file exposes them.</li>
+</ol>
+<p>Every output must retain the survey weight, unweighted records, missing/refused codes, item-specific universe, question wording, response options, and whether a field is retrospective or current. No route reason should be interpreted as agency fault without corroborating administrative evidence.</p>
+<h2 id="go-no-go-gates">Go/no-go gates</h2>
+<ul>
+<li><strong>Go:</strong> public-use file and codebook are downloaded, hashes recorded, and all route variables map to documented fields.</li>
+<li><strong>Go with bounds:</strong> a field is available but its material outcome is cross-sectional or retrospectively timed; report it as association, not episode causality.</li>
+<li><strong>Hold:</strong> a variable is restricted, missing from the public-use file, or its universe cannot be reconstructed.</li>
+<li><strong>Do not pool:</strong> 2024 WBNS with the Urban brief’s published estimates unless the exact sample, weights, item wording, and universe are aligned. The brief and the public-use file are source-linked but are not automatically identical analytic products.</li>
+</ul>
+<h2 id="open-acquisition-gap">Open acquisition gap</h2>
+<p>The missing step is a reproducible public-use download and codebook-backed analysis. Once obtained, the highest-value test is whether reported interruption and route barriers differ by work, children, income-to-poverty, race/ethnicity, language, disability, housing, food insecurity, and financial buffer—while preserving the cross-sectional and retrospective limits. This would materially strengthen the route → material security and unequal-exposure arrows without claiming same-person causality over time.</p>
+<h3 id="earlier-wave-fallback-check">Earlier-wave fallback check</h3>
+<p>The 2023 round (ICPSR 39462) was checked as a possible earlier time point.
+Its official catalog describes the same individual, cross-sectional, US adults
+18–64 design, approximately 7,500-person KnowledgePanel sample, post-
+stratification weights, and the relevant food, housing, employment, program,
+financial-security, and disability domains. It also states that public-use
+files exist, while separately noting restricted files. The ICPSR HMCA access
+guidance and the study's SDA route still require an authenticated free account,
+so no 2023 file or estimate is promoted here. If an authenticated package is
+later supplied, 2023 should be used as a distinct cross-sectional comparison,
+not merged with 2024 before question wording, weights, sample, and route-field
+universes are harmonized.</p>
+<p>The first file-level gate is implemented in <a href="../scripts/validate_wbns_public_use_route_file.py"><code>validate_wbns_public_use_route_file.py</code></a>. It accepts CSV, SAS, Stata, SPSS, and XPORT files; checks the expected route fields and multi-response prefixes; inventories missingness and raw codes; and refuses promotion when the requested weight column is absent or nonpositive. It is a schema audit, not an estimate.</p>
+<h2 id="sources-and-retrieval-controls">Sources and retrieval controls</h2>
+<ul>
+<li><a href="https://www.icpsr.umich.edu/web/HMCA/studies/39691">ICPSR 39691 study page</a></li>
+<li><a href="https://www.icpsr.umich.edu/web/HMCA/studies/39462">ICPSR 39462 2023 public-use study</a></li>
+<li><a href="https://www.urban.org/sites/default/files/2025-08/WBNS_2024_questionnaire.pdf">Urban 2024 WBNS questionnaire</a></li>
+<li><a href="https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey">Urban WBNS Data Catalog</a></li>
+<li><a href="https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey">WBNS project page</a></li>
+<li><a href="https://www.icpsr.umich.edu/sites/hmca/view/collections/1861">HMCA WBNS series catalog</a></li>
+<li><a href="https://www.icpsr.umich.edu/sites/hmca/find-data">HMCA find-data access guidance</a></li>
+<li><a href="https://www.icpsr.umich.edu/sites/hmca/view/collections/1861">WBNS series catalog and online variable index</a></li>
+<li><a href="https://www.icpsr.umich.edu/sites/nahdap/find-access-data/online-analysis">ICPSR online-analysis guidance</a></li>
+<li><a href="https://www.icpsr.umich.edu/web/HMCA/search/studies?FORMAT_FACET=Online+analysis">ICPSR HMCA studies with online analysis</a></li>
+</ul>
+<p>Local retrieval checks for this pass:</p>
+<ul>
+<li>questionnaire SHA-256: <code>sha256:85ba1003337b3c56451b2c53d9bd6b706cc4d6a1b51516378ff65c672e55be55</code></li>
+<li>catalog response SHA-256: <code>sha256:2baa7fc720f4ad99d66df0026348506b1e69f0a0e411535fba13db5735d7dedd</code></li>
+</ul></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

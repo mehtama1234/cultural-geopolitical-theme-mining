@@ -1,0 +1,12 @@
+{
+  "format": "sipp-work-limitation-resource-job-crosslag-reproduction-audit-v1",
+  "checked": "2026-09-14",
+  "source": "2025 SIPP public-use primary slice and 240-replicate Fay-BRR archive",
+  "command": "python3 scripts/analyze_sipp_resource_job_worklimitation_crosslag.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v16/resource-job-worklimitation-crosslag.json",
+  "primary_input": {"rows": 379215, "sha256": "ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497"},
+  "replicate_input": {"sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "replicates": 240},
+  "output": {"rows_read": 379215, "identified_persons": 31992, "matched_pair_rows": 296804, "sha256": "cb053bcf621a1bc1128823f85d276c2c68b23c1c196a593ddf0263a5c461aee2"},
+  "method": "Person-level adjacent-month cross-lags using WPFINWGT from month t and REPWGT1-REPWGT240 with Census Fay BRR, G=240 and perturbation factor 0.5.",
+  "fields": ["THINCPOV", "RMNUMJOBS", "EDISABL", "MONTHCODE", "SSUID", "PNUM", "SPANEL", "SWAVE"],
+  "boundary": "The primary and replicate files are retained outside Git. The output is a reproducible person-level diagnostic, not a household-weighted estimate; EDISABL is a work-limiting-condition field rather than a complete disability or accommodation measure."
+}

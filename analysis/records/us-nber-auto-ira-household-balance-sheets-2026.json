@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-auto-ira-household-balance-sheets-2026",
+  "title": "Automatic retirement saving expands retirement and liquid-account ownership while also increasing short-term credit-card debt",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "work_control_bargaining", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 35373 SIPP comparison of Oregon Auto-IRA exposure with similar private-sector workers in not-yet-adopting states, as summarized by the Georgetown Center for Retirement Initiatives",
+  "geography": "United States; Oregon policy exposure compared with workers in not-yet-adopting states",
+  "observations": [
+    {
+      "period": "Oregon Auto-IRA rollout; study period and SIPP comparison described in 2026 working paper",
+      "denominator": {"value": null, "unit": "private-sector workers likely exposed to OregonSaves compared with similar workers in not-yet-adopting states; exact analytic counts are not disclosed in the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "ira_ownership_change": {"value": 2.7, "unit": "percentage-point increase; reported ownership reached 12.7%", "value_type": "reported_effect"},
+        "ira_balance_change": {"value": 8500, "unit": "more than US dollars in reported IRA balances", "value_type": "reported_effect"},
+        "employer_retirement_plan_ownership": {"value": "increased", "unit": "reported direction", "value_type": "reported_effect"},
+        "employer_retirement_plan_assets": {"value": "increased", "unit": "reported direction", "value_type": "reported_effect"}
+      },
+      "method": "Published summary of NBER Working Paper 35373 using SIPP data and a comparison of Oregon private-sector workers likely exposed to OregonSaves with similar workers in states that had not yet adopted an Auto-IRA; the paper uses policy exposure and firm-size rollout timing rather than a simple before/after count.",
+      "uncertainty": "The public summary does not disclose full analytic sample counts, event-study specification, confidence intervals, contribution rates, withdrawals, cash-outs, take-home-pay effects, or subgroup estimates. The source is a 2026 working paper and the numerical details here are reported through a secondary policy summary.",
+      "subgroup": "Private-sector workers likely exposed to OregonSaves and comparison workers in not-yet-adopting states; exact subgroup cells are not available in the public summary.",
+      "counterinterpretation": "Higher retirement balances can represent real long-term asset accumulation without proving improved current liquidity, and the balance change may reflect contributions, employer plans, market movement, or other composition differences.",
+      "source_url": "https://cri.georgetown.edu/states/state-reports-and-briefs/",
+      "retrieval_hash": "sha256:c9e1bd4401533c4a2fc864e27bf482d3b21f81c2cfb4870b48a4345bafc75c98",
+      "status": "reported"
+    },
+    {
+      "period": "Oregon Auto-IRA rollout; household liquidity and credit-card outcomes",
+      "denominator": {"value": null, "unit": "same study-specific worker comparison; exact analytic counts and item universes are not disclosed in the public summary", "value_type": "not_disclosed"},
+      "measures": {
+        "checking_savings_ownership": {"value": "increased", "unit": "reported direction", "value_type": "reported_effect"},
+        "checking_savings_balances": {"value": "increased", "unit": "reported direction", "value_type": "reported_effect"},
+        "credit_card_debt_incidence": {"value": 2, "unit": "percentage-point increase", "value_type": "reported_effect"},
+        "credit_card_balance_change": {"value": 90, "unit": "US dollars increase", "value_type": "reported_effect"}
+      },
+      "method": "Secondary summary of the NBER SIPP quasi-experimental comparison; checking/savings outcomes and credit-card debt are interpreted alongside retirement-account outcomes rather than as a single net-security index.",
+      "uncertainty": "The public summary does not show debt interest rates, minimum payments, credit limits, utilization, delinquency, withdrawals, cash-outs, consumption, or whether the debt was temporary. It also does not establish that the policy caused a welfare loss or that the added debt was harmful.",
+      "subgroup": "Study-specific exposed and comparison private-sector workers; no public subgroup estimates promoted.",
+      "counterinterpretation": "Short-term borrowing can coexist with larger liquid or retirement assets and may reflect a household smoothing contributions or managing a newly opened account; conversely, debt can carry fees and interest that reduce usable household room.",
+      "source_url": "https://cri.georgetown.edu/states/state-reports-and-briefs/",
+      "retrieval_hash": "sha256:c9e1bd4401533c4a2fc864e27bf482d3b21f81c2cfb4870b48a4345bafc75c98",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35373", "claim": "Primary NBER working-paper abstract and study design: SIPP comparison of Oregon Auto-IRA exposure with similar workers in not-yet-adopting states.", "status": "primary-working-paper"},
+    {"source_url": "https://doi.org/10.3386/w35373", "claim": "Formal NBER citation and DOI.", "status": "official-publication"},
+    {"source_url": "https://cri.georgetown.edu/states/state-reports-and-briefs/", "claim": "Georgetown Center for Retirement Initiatives summary reporting the numerical balance-sheet effects.", "status": "secondary-summary"}
+  ],
+  "boundary": "This record shows that automatic retirement saving can move several balance-sheet margins at once: retirement ownership/assets, checking/savings ownership/balances, and credit-card debt. It does not establish a single net welfare effect, take-home-pay change, consumption response, debt cost, contribution/withdrawal mechanism, retirement adequacy, or effects by income, age, race, or job type. The public summary should not be treated as a substitute for the full NBER paper or a new independent SIPP estimate."
+}

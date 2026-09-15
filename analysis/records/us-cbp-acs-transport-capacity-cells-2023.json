@@ -1,0 +1,471 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cbp-acs-transport-capacity-cells-2023",
+  "title": "County health-sector capacity and vehicle constraint occupy four distinct place cells",
+  "theme_ids": [
+    "cost",
+    "time",
+    "work",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "US county; 2023 CBP employer establishment stock joined to 2023 population, 2023 ACS 5-year vehicle/commute/mode/rent/crowding/language/income/vacancy context, 2023 QCEW all-industry wage context, 2023 Census BPS permit flow, HRSA primary-care designation, and USDA RUCC",
+  "geography": "United States counties",
+  "observations": [
+    {
+      "period": "2023; low health capacity / low zero-vehicle-household share cell",
+      "denominator": {
+        "value": 839,
+        "unit": "counties; population 38,356,176",
+        "value_type": "county_count"
+      },
+      "measures": {
+        "median_health_est_per_10k": {
+          "value": 16.5819,
+          "unit": "CBP health/social-assistance establishments per 10,000 residents",
+          "value_type": "county_median"
+        },
+        "median_zero_vehicle_pct": {
+          "value": 3.7742,
+          "unit": "percent of ACS households",
+          "value_type": "county_median"
+        },
+        "median_long_commute_pct": {
+          "value": 38.3004,
+          "unit": "percent of ACS workers not working from home with 30+ minute commute",
+          "value_type": "county_median"
+        },
+        "median_gross_rent": {
+          "value": 868,
+          "unit": "dollars per month; ACS median gross rent",
+          "value_type": "county_median"
+        },
+        "median_crowded_units_pct": {
+          "value": 1.9512,
+          "unit": "percent of occupied housing units with more than one occupant per room",
+          "value_type": "county_median"
+        },
+        "median_limited_english_pct": {
+          "value": 1.6871,
+          "unit": "percent of population age 5+ in limited-English households",
+          "value_type": "county_median"
+        },
+        "population_weighted_hpsa_share": {
+          "value": 84.2327,
+          "unit": "percent of cell population in counties represented by a designated primary-care HPSA component",
+          "value_type": "population_weighted_context_share"
+        },
+        "population_weighted_nonmetro_share": {
+          "value": 25.7894,
+          "unit": "percent of cell population in RUCC codes 4\u20139",
+          "value_type": "population_weighted_context_share"
+        },
+        "median_household_income": {
+          "value": 67676,
+          "unit": "dollars; ACS median household income",
+          "value_type": "county_median"
+        },
+        "median_vacancy_pct": {
+          "value": 13.6327,
+          "unit": "percent of housing units vacant",
+          "value_type": "county_median"
+        },
+        "median_qcew_avg_weekly_wage": {
+          "value": 944.0,
+          "unit": "US dollars per week; QCEW county all-industry average weekly wage, county median",
+          "value_type": "county_median"
+        },
+        "median_permit_units_per_1000": {
+          "value": 2.6517,
+          "unit": "2023 Census BPS permitted housing units per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_permit_buildings_per_1000": {
+          "value": 2.3825,
+          "unit": "2023 Census BPS permitted buildings per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_public_transit_commute_pct": {
+          "value": 0.1161,
+          "unit": "percent of ACS workers commuting by public transportation",
+          "value_type": "county_median"
+        },
+        "median_walk_commute_pct": {
+          "value": 1.5557,
+          "unit": "percent of ACS workers walking to work",
+          "value_type": "county_median"
+        },
+        "median_worked_from_home_pct": {
+          "value": 8.0902,
+          "unit": "percent of ACS workers working from home",
+          "value_type": "county_median"
+        }
+      },
+      "method": "County-level descriptive cell summary; health-establishment density and zero-vehicle share split at unweighted county medians; HPSA and RUCC shares population-weighted.",
+      "uncertainty": "ACS margins of error are not propagated; CBP suppressed employment, provider adequacy, neighboring supply, price, hours, quality, and use remain unmeasured.",
+      "subgroup": "Counties below the 23.132 health-establishment-per-10,000 median and below the 5.322% zero-vehicle-household median.",
+      "counterinterpretation": "Low zero-vehicle share can reflect car access or different settlement/transit patterns; it is not a complete mobility-success measure.",
+      "source_url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip",
+      "retrieval_hash": "sha256:4d1b954700bfd19f81e9cb001ee5682d8fed4ec8afb997929077a6cba26a5ab6",
+      "status": "estimated"
+    },
+    {
+      "period": "2023; low health capacity / high zero-vehicle-household share cell",
+      "denominator": {
+        "value": 664,
+        "unit": "counties; population 27,072,378",
+        "value_type": "county_count"
+      },
+      "measures": {
+        "median_health_est_per_10k": {
+          "value": 17.2136,
+          "unit": "CBP health/social-assistance establishments per 10,000 residents",
+          "value_type": "county_median"
+        },
+        "median_zero_vehicle_pct": {
+          "value": 7.0706,
+          "unit": "percent of ACS households",
+          "value_type": "county_median"
+        },
+        "median_long_commute_pct": {
+          "value": 36.5851,
+          "unit": "percent of ACS workers not working from home with 30+ minute commute",
+          "value_type": "county_median"
+        },
+        "median_gross_rent": {
+          "value": 783.5,
+          "unit": "dollars per month; ACS median gross rent",
+          "value_type": "county_median"
+        },
+        "median_crowded_units_pct": {
+          "value": 2.0333,
+          "unit": "percent of occupied housing units with more than one occupant per room",
+          "value_type": "county_median"
+        },
+        "median_limited_english_pct": {
+          "value": 1.6033,
+          "unit": "percent of population age 5+ in limited-English households",
+          "value_type": "county_median"
+        },
+        "population_weighted_hpsa_share": {
+          "value": 95.6138,
+          "unit": "percent of cell population in counties represented by a designated primary-care HPSA component",
+          "value_type": "population_weighted_context_share"
+        },
+        "population_weighted_nonmetro_share": {
+          "value": 39.9436,
+          "unit": "percent of cell population in counties with RUCC codes 4\u20139",
+          "value_type": "population_weighted_context_share"
+        },
+        "median_household_income": {
+          "value": 55665.0,
+          "unit": "dollars; ACS median household income",
+          "value_type": "county_median"
+        },
+        "median_vacancy_pct": {
+          "value": 17.0462,
+          "unit": "percent of housing units vacant",
+          "value_type": "county_median"
+        },
+        "median_qcew_avg_weekly_wage": {
+          "value": 913.0,
+          "unit": "US dollars per week; QCEW county all-industry average weekly wage, county median",
+          "value_type": "county_median"
+        },
+        "median_permit_units_per_1000": {
+          "value": 1.1515,
+          "unit": "2023 Census BPS permitted housing units per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_permit_buildings_per_1000": {
+          "value": 1.0706,
+          "unit": "2023 Census BPS permitted buildings per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_public_transit_commute_pct": {
+          "value": 0.1652,
+          "unit": "percent of ACS workers commuting by public transportation",
+          "value_type": "county_median"
+        },
+        "median_walk_commute_pct": {
+          "value": 1.6834,
+          "unit": "percent of ACS workers walking to work",
+          "value_type": "county_median"
+        },
+        "median_worked_from_home_pct": {
+          "value": 6.1969,
+          "unit": "percent of ACS workers working from home",
+          "value_type": "county_median"
+        }
+      },
+      "method": "Same four-cell county method as the low-capacity/low-zero-vehicle cell.",
+      "uncertainty": "No ACS margin-of-error propagation or resident-level access outcome; high zero-vehicle share is a constraint context, not proof of failed access.",
+      "subgroup": "Counties below the health-capacity median and at or above the zero-vehicle-household median.",
+      "counterinterpretation": "Transit, neighboring supply, telehealth, or public provision could offset low local capacity; none is measured here.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+      "retrieval_hash": "sha256:4d1b954700bfd19f81e9cb001ee5682d8fed4ec8afb997929077a6cba26a5ab6",
+      "status": "estimated"
+    },
+    {
+      "period": "2023; high health capacity / low zero-vehicle-household share cell",
+      "denominator": {
+        "value": 664,
+        "unit": "counties; population 91,211,218",
+        "value_type": "county_count"
+      },
+      "measures": {
+        "median_health_est_per_10k": {
+          "value": 29.269,
+          "unit": "CBP health/social-assistance establishments per 10,000 residents",
+          "value_type": "county_median"
+        },
+        "median_zero_vehicle_pct": {
+          "value": 4.1285,
+          "unit": "percent of ACS households",
+          "value_type": "county_median"
+        },
+        "median_long_commute_pct": {
+          "value": 29.0715,
+          "unit": "percent of ACS workers not working from home with 30+ minute commute",
+          "value_type": "county_median"
+        },
+        "median_gross_rent": {
+          "value": 926.0,
+          "unit": "dollars per month; ACS median gross rent",
+          "value_type": "county_median"
+        },
+        "median_crowded_units_pct": {
+          "value": 1.695,
+          "unit": "percent of occupied housing units with more than one occupant per room",
+          "value_type": "county_median"
+        },
+        "median_limited_english_pct": {
+          "value": 1.9464,
+          "unit": "percent of population age 5+ in limited-English households",
+          "value_type": "county_median"
+        },
+        "population_weighted_hpsa_share": {
+          "value": 87.9809,
+          "unit": "percent of cell population in counties represented by a designated primary-care HPSA component",
+          "value_type": "population_weighted_context_share"
+        },
+        "population_weighted_nonmetro_share": {
+          "value": 10.2795,
+          "unit": "percent of cell population in counties with RUCC codes 4\u20139",
+          "value_type": "population_weighted_context_share"
+        },
+        "median_household_income": {
+          "value": 71100.5,
+          "unit": "dollars; ACS median household income",
+          "value_type": "county_median"
+        },
+        "median_vacancy_pct": {
+          "value": 13.203,
+          "unit": "percent of housing units vacant",
+          "value_type": "county_median"
+        },
+        "median_qcew_avg_weekly_wage": {
+          "value": 978.0,
+          "unit": "US dollars per week; QCEW county all-industry average weekly wage, county median",
+          "value_type": "county_median"
+        },
+        "median_permit_units_per_1000": {
+          "value": 2.5713,
+          "unit": "2023 Census BPS permitted housing units per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_permit_buildings_per_1000": {
+          "value": 2.1833,
+          "unit": "2023 Census BPS permitted buildings per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_public_transit_commute_pct": {
+          "value": 0.2496,
+          "unit": "percent of ACS workers commuting by public transportation",
+          "value_type": "county_median"
+        },
+        "median_walk_commute_pct": {
+          "value": 2.155,
+          "unit": "percent of ACS workers walking to work",
+          "value_type": "county_median"
+        },
+        "median_worked_from_home_pct": {
+          "value": 9.9504,
+          "unit": "percent of ACS workers working from home",
+          "value_type": "county_median"
+        }
+      },
+      "method": "Same four-cell county method as the low-capacity/low-zero-vehicle cell.",
+      "uncertainty": "High establishment density does not establish appointment availability, affordability, quality, or realized use; ACS margins of error are not propagated.",
+      "subgroup": "Counties at or above the health-capacity median and below the zero-vehicle-household median.",
+      "counterinterpretation": "Higher nominal capacity can coexist with shortage designation or inaccessible services; HPSA representation remains common in this cell.",
+      "source_url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/counties/totals/co-est2024-alldata.csv",
+      "retrieval_hash": "sha256:4d1b954700bfd19f81e9cb001ee5682d8fed4ec8afb997929077a6cba26a5ab6",
+      "status": "estimated"
+    },
+    {
+      "period": "2023; high health capacity / high zero-vehicle-household share cell",
+      "denominator": {
+        "value": 839,
+        "unit": "counties; population 175,694,117",
+        "value_type": "county_count"
+      },
+      "measures": {
+        "median_health_est_per_10k": {
+          "value": 30.3195,
+          "unit": "CBP health/social-assistance establishments per 10,000 residents",
+          "value_type": "county_median"
+        },
+        "median_zero_vehicle_pct": {
+          "value": 7.1863,
+          "unit": "percent of ACS households",
+          "value_type": "county_median"
+        },
+        "median_long_commute_pct": {
+          "value": 26.6866,
+          "unit": "percent of ACS workers not working from home with 30+ minute commute",
+          "value_type": "county_median"
+        },
+        "median_gross_rent": {
+          "value": 885,
+          "unit": "dollars per month; ACS median gross rent",
+          "value_type": "county_median"
+        },
+        "median_crowded_units_pct": {
+          "value": 1.8355,
+          "unit": "percent of occupied housing units with more than one occupant per room",
+          "value_type": "county_median"
+        },
+        "median_limited_english_pct": {
+          "value": 1.9599,
+          "unit": "percent of population age 5+ in limited-English households",
+          "value_type": "county_median"
+        },
+        "population_weighted_hpsa_share": {
+          "value": 96.8941,
+          "unit": "percent of cell population in counties represented by a designated primary-care HPSA component",
+          "value_type": "population_weighted_context_share"
+        },
+        "population_weighted_nonmetro_share": {
+          "value": 8.5657,
+          "unit": "percent of cell population in counties with RUCC codes 4\u20139",
+          "value_type": "population_weighted_context_share"
+        },
+        "median_household_income": {
+          "value": 61943,
+          "unit": "dollars; ACS median household income",
+          "value_type": "county_median"
+        },
+        "median_vacancy_pct": {
+          "value": 12.9874,
+          "unit": "percent of housing units vacant",
+          "value_type": "county_median"
+        },
+        "median_qcew_avg_weekly_wage": {
+          "value": 998.0,
+          "unit": "US dollars per week; QCEW county all-industry average weekly wage, county median",
+          "value_type": "county_median"
+        },
+        "median_permit_units_per_1000": {
+          "value": 1.5138,
+          "unit": "2023 Census BPS permitted housing units per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_permit_buildings_per_1000": {
+          "value": 1.122,
+          "unit": "2023 Census BPS permitted buildings per 1,000 residents",
+          "value_type": "county_median"
+        },
+        "median_public_transit_commute_pct": {
+          "value": 0.4454,
+          "unit": "percent of ACS workers commuting by public transportation",
+          "value_type": "county_median"
+        },
+        "median_walk_commute_pct": {
+          "value": 2.3612,
+          "unit": "percent of ACS workers walking to work",
+          "value_type": "county_median"
+        },
+        "median_worked_from_home_pct": {
+          "value": 7.9395,
+          "unit": "percent of ACS workers working from home",
+          "value_type": "county_median"
+        }
+      },
+      "method": "Same four-cell county method as the low-capacity/low-zero-vehicle cell.",
+      "uncertainty": "This cell is a counterexample to treating visible capacity as sufficient access; zero-vehicle share, HPSA representation, and commute context do not identify actual service use.",
+      "subgroup": "Counties at or above the health-capacity median and at or above the zero-vehicle-household median.",
+      "counterinterpretation": "Dense places may have high zero-vehicle shares alongside transit and nearby services; the available tables do not observe destination, fare, reliability, or quality.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08303.dat",
+      "retrieval_hash": "sha256:4d1b954700bfd19f81e9cb001ee5682d8fed4ec8afb997929077a6cba26a5ab6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv",
+      "claim": "Current primary-care HPSA designation context joined by county identifier.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.ers.usda.gov/data-products/rural-urban-continuum-codes",
+      "claim": "2023 RUCC context used for population-weighted nonmetro shares.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25064.dat",
+      "claim": "ACS median gross rent context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25014.dat",
+      "claim": "ACS crowded housing-unit context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-c16001.dat",
+      "claim": "ACS limited-English household context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b19013.dat",
+      "claim": "ACS median household income context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b25002.dat",
+      "claim": "ACS housing vacancy context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://data.bls.gov/cew/data/files/2023/csv/2023_annual_singlefile.zip",
+      "claim": "2023 QCEW county all-industry average weekly wage context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/econ/bps/County/co2312y.txt",
+      "claim": "2023 annual county building-permit units and buildings context.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08301.dat",
+      "claim": "ACS means-of-transportation-to-work context for public transit, walking, and work-from-home shares.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "../../scripts/analyze_cbp_transport_capacity_cells.py",
+      "claim": "Reproduction script and median split/cell definitions.",
+      "status": "reproduction-script"
+    }
+  ],
+  "retrieval_hash": "cbp:sha256:e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603; population:sha256:abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9; vehicle:sha256:71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b; commute:sha256:8dc1b696d93c28a684784281211cf4e5011f01d9ca84694df2d7fb3b4ad84f51; rent:sha256:8b887d1e102916ef12718e51a29ae303a562a1d7ac545756bfb6a76e3d7b96b7; crowding:sha256:6c7b5b56a5b0cabb44c99ca48c9bc7961f6ff347bc658f18eef9212aaee3c8ba; language:sha256:895422f304c56dde8038269259ebe03bb28407be325ad48fa48d7e5e2292b055fe; income:sha256:c9007017b7bb29ba758c77612ec9a4a0b897a4ed931d527754629866f580a110; vacancy:sha256:273058283e13022cc765699a26bbc590d6abe94d0f67e04400f6e097bec9087f; hpsa:sha256:721ede7da4d4ea579d7fd54bfe705ebde3a2adfa988276e03fc2abf5ef3e66bd; rucc:sha256:ec455ee2a8bc5fc8e070575ea5bee7dce46fc6037f8c3449cbf56e8b45331fa7; qcew:sha256:6284aff110a81196803c4f2ab8613a511838878d1763b8a1a8a21231200b8f61; permits:sha256:53dad23973c792df794f635477d037dfcc4a0cbdbe9a2762a2adf14b10942c92; mode:sha256:8263901a28b8dc2cd3bfa287c1365244f54f6405eb0cef926fac67ff095f2260; output:sha256:4d1b954700bfd19f81e9cb001ee5682d8fed4ec8afb997929077a6cba26a5ab6; script:sha256:898b0c0408f2d974a609ae1cc94dfcecc19db2d7972c1ceebe1c2fc31e1f36e7",
+  "boundary": "A high zero-vehicle share is a mobility constraint context, not a complete measure of mobility options; QCEW average weekly wage is not a median worker wage or household income; BPS permits are not completed or occupied housing; commute mode and work-from-home shares do not establish service destinations, transit quality, trip reliability, or care access; destination, affordability, and travel reliability require separate data.",
+  "method": "County-level descriptive four-cell comparison; health/social-assistance establishment density and zero-vehicle-household share are split at unweighted county medians in the 3,006-county complete-input frame; cell summaries retain population weights for HPSA and rurality shares; QCEW average weekly wage is an establishment-based county context measure and BPS values are annual permitted units/buildings; ACS mode values summarize commuting population shares.",
+  "uncertainty": "ACS margins of error are not propagated; QCEW wage disclosure and coverage rules, BPS geographic coverage and permit authorization versus completion, CBP suppressed employment, commute-mode categories, provider adequacy, neighboring supply, prices, hours, quality, use, and causal effects remain unmeasured."
+}

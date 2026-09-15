@@ -131,3 +131,7 @@ inequality, public systems, trust, firm/market power, and political meaning.
 Its central question is: when a short-term shortage enters a financial system,
 who gets the buffer, who gets the record, who sets the next terms, and who can
 still leave?
+
+For the broader macro-to-household route across BEA, Federal Reserve, OFR,
+IMF, IMF FAS, World Bank Findex, SHED, and New York Fed evidence, read the
+[financial-capacity synthesis](macro-to-household-financial-capacity-synthesis-v1.md).

@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-food-price-index-2020-2024",
+  "title": "Food-at-home prices rose sharply before annual inflation moderated",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "monthly unadjusted CPI-U food-at-home and all-items index observations, summarized by calendar year",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2020",
+      "denominator": {"value": 12, "unit": "monthly CPI-U observations in calendar year"},
+      "measures": {
+        "food_at_home_annual_average_index": {"value": 250.233, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "all_items_annual_average_index": {"value": 258.811, "unit": "1982-84=100 CPI-U index", "value_type": "index"}
+      },
+      "method": "Arithmetic mean of the 12 monthly unadjusted CPI-U index values returned by the official BLS Public Data API; annual percent change is not defined for the first year.",
+      "uncertainty": "CPI is a statistical price index rather than a household-specific basket; annual averaging masks within-year timing and subgroup or local price differences.",
+      "subgroup": "CPI-U food at home and all items; national aggregate",
+      "counterinterpretation": "An aggregate index does not show which households experienced food-price pressure, what they substituted, or whether resources kept pace.",
+      "source_url": "https://data.bls.gov/timeseries/CUUR0000SAF11",
+      "retrieval_hash": "sha256:f26e3ef926aee5da2fd052b05ec8e9b65ed230552461fb09d3ff88fce9518885",
+      "status": "observed"
+    },
+    {
+      "period": "2021",
+      "denominator": {"value": 12, "unit": "monthly CPI-U observations in calendar year"},
+      "measures": {
+        "food_at_home_annual_average_index": {"value": 258.892, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "food_at_home_year_over_year_change": {"value": 3.46, "unit": "percent change in annual average index", "value_type": "rate"},
+        "all_items_annual_average_index": {"value": 270.97, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "all_items_year_over_year_change": {"value": 4.70, "unit": "percent change in annual average index", "value_type": "rate"}
+      },
+      "method": "Arithmetic mean of 12 monthly unadjusted CPI-U index values; year-over-year change computed from the displayed annual averages.",
+      "uncertainty": "CPI is a statistical price index rather than a household-specific basket; annual averaging masks within-year timing and subgroup or local price differences.",
+      "subgroup": "CPI-U food at home and all items; national aggregate",
+      "counterinterpretation": "The national annual average does not identify food insecurity, substitution, benefit adequacy, or distributional incidence.",
+      "source_url": "https://data.bls.gov/timeseries/CUUR0000SAF11",
+      "retrieval_hash": "sha256:f26e3ef926aee5da2fd052b05ec8e9b65ed230552461fb09d3ff88fce9518885",
+      "status": "observed"
+    },
+    {
+      "period": "2022",
+      "denominator": {"value": 12, "unit": "monthly CPI-U observations in calendar year"},
+      "measures": {
+        "food_at_home_annual_average_index": {"value": 288.451, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "food_at_home_year_over_year_change": {"value": 11.42, "unit": "percent change in annual average index", "value_type": "rate"},
+        "all_items_annual_average_index": {"value": 292.655, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "all_items_year_over_year_change": {"value": 8.00, "unit": "percent change in annual average index", "value_type": "rate"}
+      },
+      "method": "Arithmetic mean of 12 monthly unadjusted CPI-U index values; year-over-year change computed from the displayed annual averages.",
+      "uncertainty": "CPI is a statistical price index rather than a household-specific basket; annual averaging masks within-year timing and subgroup or local price differences.",
+      "subgroup": "CPI-U food at home and all items; national aggregate",
+      "counterinterpretation": "A high food-at-home index does not establish that food-price change caused any household's measured food insecurity or adaptation.",
+      "source_url": "https://data.bls.gov/timeseries/CUUR0000SAF11",
+      "retrieval_hash": "sha256:f26e3ef926aee5da2fd052b05ec8e9b65ed230552461fb09d3ff88fce9518885",
+      "status": "observed"
+    },
+    {
+      "period": "2023",
+      "denominator": {"value": 12, "unit": "monthly CPI-U observations in calendar year"},
+      "measures": {
+        "food_at_home_annual_average_index": {"value": 302.929, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "food_at_home_year_over_year_change": {"value": 5.02, "unit": "percent change in annual average index", "value_type": "rate"},
+        "all_items_annual_average_index": {"value": 304.702, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "all_items_year_over_year_change": {"value": 4.12, "unit": "percent change in annual average index", "value_type": "rate"}
+      },
+      "method": "Arithmetic mean of 12 monthly unadjusted CPI-U index values; year-over-year change computed from the displayed annual averages.",
+      "uncertainty": "CPI is a statistical price index rather than a household-specific basket; annual averaging masks within-year timing and subgroup or local price differences.",
+      "subgroup": "CPI-U food at home and all items; national aggregate",
+      "counterinterpretation": "Annual moderation after the 2022 peak is not a price-level reversal; households may still face a higher level than earlier years.",
+      "source_url": "https://data.bls.gov/timeseries/CUUR0000SAF11",
+      "retrieval_hash": "sha256:f26e3ef926aee5da2fd052b05ec8e9b65ed230552461fb09d3ff88fce9518885",
+      "status": "observed"
+    },
+    {
+      "period": "2024",
+      "denominator": {"value": 12, "unit": "monthly CPI-U observations in calendar year"},
+      "measures": {
+        "food_at_home_annual_average_index": {"value": 306.536, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "food_at_home_year_over_year_change": {"value": 1.19, "unit": "percent change in annual average index", "value_type": "rate"},
+        "all_items_annual_average_index": {"value": 313.689, "unit": "1982-84=100 CPI-U index", "value_type": "index"},
+        "all_items_year_over_year_change": {"value": 2.95, "unit": "percent change in annual average index", "value_type": "rate"}
+      },
+      "method": "Arithmetic mean of 12 monthly unadjusted CPI-U index values; year-over-year change computed from the displayed annual averages.",
+      "uncertainty": "CPI is a statistical price index rather than a household-specific basket; annual averaging masks within-year timing and subgroup or local price differences.",
+      "subgroup": "CPI-U food at home and all items; national aggregate",
+      "counterinterpretation": "Food-at-home inflation slowed in 2024 while the price level remained elevated; this record cannot determine whether household security improved.",
+      "source_url": "https://data.bls.gov/timeseries/CUUR0000SAF11",
+      "retrieval_hash": "sha256:f26e3ef926aee5da2fd052b05ec8e9b65ed230552461fb09d3ff88fce9518885",
+      "status": "observed"
+    }
+  ],
+  "boundary": "This is a national CPI-U price-pressure series, not a household food-security estimate, a local price series, a real-income estimate, or a causal test. It is intended to be aligned with USDA food-security and household-response records while preserving separate units and timing."
+}

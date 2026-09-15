@@ -1,0 +1,53 @@
+{
+  "format": "treasury-fio-fema-nri-join-v1",
+  "period": "Treasury 2022 market rows; current FEMA NRI county baseline",
+  "treasury_input": "treasury-fio-homeowners-insurance-2018-2022.xlsx",
+  "fema_inputs": [
+    "fema-nri-counties-0.json",
+    "fema-nri-counties-2000.json"
+  ],
+  "census_relationship_input": "census-2020-zcta-county-relationship.txt",
+  "treasury_2022_rows_considered": 25593,
+  "matched_2022_rows": 25330,
+  "match_rate": 0.989724,
+  "zcta_counties": 33791,
+  "classification": "Each ZCTA is assigned the county with the largest reported ZCTA land-area part; county-level FEMA EAL rating is then attached.",
+  "summaries": {
+    "Relatively High": {
+      "matched_zip_rows": 4374,
+      "mean_premium_per_policy": 2449.056775,
+      "mean_nonrenewal_rate": 0.011082,
+      "mean_claim_severity": 22084.262057
+    },
+    "Relatively Low": {
+      "matched_zip_rows": 8997,
+      "mean_premium_per_policy": 1564.918951,
+      "mean_nonrenewal_rate": 0.009587,
+      "mean_claim_severity": 16750.56759
+    },
+    "Relatively Moderate": {
+      "matched_zip_rows": 5248,
+      "mean_premium_per_policy": 1698.193452,
+      "mean_nonrenewal_rate": 0.011065,
+      "mean_claim_severity": 18001.280965
+    },
+    "Very High": {
+      "matched_zip_rows": 1188,
+      "mean_premium_per_policy": 1927.569094,
+      "mean_nonrenewal_rate": 0.012706,
+      "mean_claim_severity": 24997.409349
+    },
+    "Very Low": {
+      "matched_zip_rows": 5523,
+      "mean_premium_per_policy": 1603.253279,
+      "mean_nonrenewal_rate": 0.010279,
+      "mean_claim_severity": 16793.544602
+    }
+  },
+  "limits": [
+    "ZCTA-to-county assignment is an area-based approximation and discards secondary county intersections.",
+    "The FEMA NRI release/version is not a 2022 household or insurance-market observation and has temporal and modeled-risk limitations.",
+    "Treasury metrics are not household-level, the workbook is not a complete insurer census, and results are unweighted means of ZIP rows.",
+    "Joined differences are descriptive and do not identify hazard causation, affordability, nonrenewal mechanism, repairs, mobility, or politics."
+  ]
+}

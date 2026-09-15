@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; trust and belief effects are measured, later action remains open
+**Status:** first detailed finding promoted; trust and belief effects are measured, later action remains open
 
 ## Working question
 

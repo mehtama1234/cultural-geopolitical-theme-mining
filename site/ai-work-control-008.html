@@ -1,0 +1,89 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Finding 008: Worker voice is part of system design"><title>Finding 008: Worker voice is part of system design</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#finding">Finding</a></li><li><a href="#what-we-directly-know">What we directly know</a></li><li><a href="#causal-chain-under-test">Causal chain under test</a></li><li><a href="#what-to-record-in-each-case">What to record in each case</a></li><li><a href="#why-this-matters">Why this matters</a></li><li><a href="#four-map-reading">Four-map reading</a></li><li><a href="#strongest-challenge">Strongest challenge</a></li><li><a href="#what-would-change-our-mind">What would change our mind</a></li><li><a href="#next-tests">Next tests</a></li><li><a href="#sources">Sources</a></li></ul></nav></div><article id="finding" class="memo"><h1>Finding 008: Worker voice is part of system design</h1>
+<p><strong>Status:</strong> provisional<br />
+<strong>Last checked:</strong> 2026-09-11<br />
+<strong>Project:</strong> AI, work, and control</p>
+<h2 id="finding">Finding</h2>
+<p>Worker voice is not only a remedy after an automated decision goes wrong. It can shape what the system is for, what it measures, how it is limited, and who is responsible before the tool becomes part of daily work.</p>
+<p>The ILO’s global case-study review shows worker representatives taking part in AI and algorithmic-management decisions at several levels, from national and sectoral dialogue to company and workplace decisions. The cases do not show that participation always works. They show that worker participation is itself a practical control point.</p>
+<h2 id="what-we-directly-know">What we directly know</h2>
+<ul>
+<li>The ILO working paper examines cases across Europe, North America, Asia, South America and the Caribbean, and Africa. It covers national, regional, sectoral, company, and workplace forms of social dialogue. <a href="https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management">ILO Global case studies</a></li>
+<li>The study focuses on how worker representatives influence decisions about employment, algorithmic management, and working conditions. <a href="https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management">ILO Global case studies</a></li>
+<li>The European Commission describes transparency, human oversight, safety, accountability, and the ability to contest decisions as central issues in algorithmic management. <a href="https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en">European Commission Future of Work</a></li>
+</ul>
+<h2 id="causal-chain-under-test">Causal chain under test</h2>
+<pre><code class="language-text">workers and representatives receive information -&gt; they can question the purpose and design
+-&gt; rules change before deployment or during use -&gt; data, pace, evaluation, and recourse are bounded
+-&gt; the system fits work better and causes fewer avoidable harms
+</code></pre>
+<p>The case study supports the existence of this governance path. Its five detailed cases include rules over digital replicas, retraining and workforce data, housekeeping task order, biometric access, and outsourced content work. It does not prove that participation produces better outcomes in every setting.</p>
+<p>The Kenyan content-moderation dispute adds an important boundary condition. A trial court issued interim protections while workers’ claims against the contractor and lead firm were pending. In two related appellate judgments, the Court of Appeal set aside some interim orders in the Sama/Majorel appeal but dismissed Meta’s jurisdiction and continuation-of-orders appeals. Neither judgment decided the underlying merits. So legal reach, temporary protection, and durable remedy must be tracked as separate outcomes.</p>
+<h2 id="what-to-record-in-each-case">What to record in each case</h2>
+<ol>
+<li>Who represents workers?</li>
+<li>At what level does the dialogue occur?</li>
+<li>What information is shared before deployment?</li>
+<li>Which choices can workers influence?</li>
+<li>Can they block, delay, or change the deployment?</li>
+<li>Are data, evaluation, pace, and health limits written down?</li>
+<li>What happens when management rejects the concern?</li>
+<li>Is there a later appeal or enforcement path?</li>
+</ol>
+<h2 id="why-this-matters">Why this matters</h2>
+<p>An appeal is a late form of power. Participation before deployment is earlier power. The difference matters because a worker may be unable to challenge a system once staffing, pay, or discipline already depends on it.</p>
+<p>This also changes how we read company claims about trust and training. A firm can offer training while keeping the purpose, data, and rules fixed. That is not the same as giving workers a say in the system.</p>
+<h2 id="four-map-reading">Four-map reading</h2>
+<table>
+<thead>
+<tr>
+<th>Map</th>
+<th>First signal</th>
+<th>Missing evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Material</td>
+<td>rules can shape pace, workload, and productivity</td>
+<td>measured outcomes before and after participation</td>
+</tr>
+<tr>
+<td>Social</td>
+<td>participation may affect trust, status, and dignity</td>
+<td>worker voice by group and bargaining position</td>
+</tr>
+<tr>
+<td>Institution</td>
+<td>dialogue can occur at several levels</td>
+<td>enforcement, coverage, and management compliance</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>workers may shape system purpose and limits</td>
+<td>veto, correction, appeal, exit, and ownership</td>
+</tr>
+</tbody>
+</table>
+<h2 id="strongest-challenge">Strongest challenge</h2>
+<p>Case studies often select visible or successful examples. Participation may be symbolic, late, or uneven. We need the actual terms, decisions, and outcomes in each case before calling it effective worker power.</p>
+<h2 id="what-would-change-our-mind">What would change our mind</h2>
+<ul>
+<li>Evidence that worker participation does not change system purpose, limits, or outcomes.</li>
+<li>Evidence that post-deployment appeals provide the same protection as pre-deployment participation.</li>
+<li>Evidence that participation is equally available to contractors, migrants, women, disabled workers, and informal workers.</li>
+<li>Evidence that a worker or union can retain protection after a contractor, vendor, or lead firm changes.</li>
+</ul>
+<h2 id="next-tests">Next tests</h2>
+<ol>
+<li>Compare the <a href="../analysis/projects/ai-work-control/ilo-social-dialogue-case-table-v1.md">ILO case table</a> with the actual agreements and legal records.</li>
+<li>Track participation before deployment, during use, and after a harmful decision.</li>
+<li>Add failed or symbolic consultation cases, public-sector cases, and contractor cases.</li>
+<li>Test whether participation changes monitoring, pace, pay, job quality, or data use.</li>
+</ol>
+<h2 id="sources">Sources</h2>
+<ul>
+<li><a href="https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management">ILO Global case studies</a></li>
+<li><a href="https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en">European Commission Future of Work</a></li>
+<li><a href="../analysis/projects/ai-work-control/claims-ledger-v1.md">Claims ledger</a></li>
+</ul></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

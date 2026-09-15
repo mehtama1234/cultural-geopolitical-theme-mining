@@ -1,0 +1,101 @@
+{
+  "boundary": "This is a component-level ecological diagnostic. HPSA component/type/population presence does not establish that all county residents are underserved, that a provider is reachable or accepts insurance, or that the designation caused PLACES outcomes. PLACES is modeled and HRSA is a current-vintage designation file.",
+  "format": "us-hpsa-component-places-diagnostic-v1",
+  "matched_counties_with_any_hpsa": 2685,
+  "method": "County FIPS association; a county can occur in multiple component/type/population groups. County medians are unweighted. HPSA rows and components are not summed into a county-wide resident exposure.",
+  "places_release": "2025 release; selected measures primarily based on 2023 BRFSS",
+  "source_unit": "US county with 2025 CDC PLACES modeled estimates and current HRSA designated primary-care HPSA component/type/population codes",
+  "summaries": {
+    "census_tract_component": {
+      "counties": 233,
+      "median_designated_rows_per_county": 26,
+      "median_measures": {
+        "food_insecurity": 14.55,
+        "frequent_mental_distress": 17.0,
+        "housing_insecurity": 12.0,
+        "lack_health_insurance": 9.4,
+        "routine_checkup": 76.1,
+        "transportation_insecurity": 8.0,
+        "utility_shutoff_threat": 7.6
+      }
+    },
+    "facility_or_site_hpsa_type": {
+      "counties": 1767,
+      "median_designated_rows_per_county": 3,
+      "median_measures": {
+        "food_insecurity": 15.8,
+        "frequent_mental_distress": 17.9,
+        "housing_insecurity": 12.5,
+        "lack_health_insurance": 10.2,
+        "routine_checkup": 76.7,
+        "transportation_insecurity": 8.7,
+        "utility_shutoff_threat": 8.7
+      }
+    },
+    "geographic_hpsa_type": {
+      "counties": 921,
+      "median_designated_rows_per_county": 2,
+      "median_measures": {
+        "food_insecurity": 15.0,
+        "frequent_mental_distress": 17.7,
+        "housing_insecurity": 11.9,
+        "lack_health_insurance": 10.5,
+        "routine_checkup": 75.5,
+        "transportation_insecurity": 8.3,
+        "utility_shutoff_threat": 8.1
+      }
+    },
+    "low_income_population_code": {
+      "counties": 1446,
+      "median_designated_rows_per_county": 2.0,
+      "median_measures": {
+        "food_insecurity": 17.0,
+        "frequent_mental_distress": 18.5,
+        "housing_insecurity": 13.25,
+        "lack_health_insurance": 10.85,
+        "routine_checkup": 77.2,
+        "transportation_insecurity": 9.2,
+        "utility_shutoff_threat": 9.4
+      }
+    },
+    "migrant_or_seasonal_population_code": {
+      "counties": 124,
+      "median_designated_rows_per_county": 3.0,
+      "median_measures": {
+        "food_insecurity": 14.7,
+        "frequent_mental_distress": 17.25,
+        "housing_insecurity": 12.4,
+        "lack_health_insurance": 8.25,
+        "routine_checkup": 77.65,
+        "transportation_insecurity": 8.1,
+        "utility_shutoff_threat": 7.8
+      }
+    },
+    "population_hpsa_type": {
+      "counties": 1566,
+      "median_designated_rows_per_county": 2.0,
+      "median_measures": {
+        "food_insecurity": 16.6,
+        "frequent_mental_distress": 18.4,
+        "housing_insecurity": 13.1,
+        "lack_health_insurance": 10.6,
+        "routine_checkup": 77.3,
+        "transportation_insecurity": 9.0,
+        "utility_shutoff_threat": 9.3
+      }
+    },
+    "single_county_or_subdivision_component": {
+      "counties": 2201,
+      "median_designated_rows_per_county": 2,
+      "median_measures": {
+        "food_insecurity": 16.4,
+        "frequent_mental_distress": 18.3,
+        "housing_insecurity": 12.9,
+        "lack_health_insurance": 10.7,
+        "routine_checkup": 76.8,
+        "transportation_insecurity": 8.9,
+        "utility_shutoff_threat": 9.1
+      }
+    }
+  }
+}

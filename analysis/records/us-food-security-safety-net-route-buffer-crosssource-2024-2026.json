@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-food-security-safety-net-route-buffer-crosssource-2024-2026",
+  "title": "Food security depends on route quality, material adequacy, and layered buffers that are not interchangeable",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of USDA/FNA SNAP route metrics, Urban WBNS food-security and charitable-food respondents, and SIPP person-month transitions",
+  "geography": "United States; source-specific state, person-month, and respondent universes retained",
+  "observations": [
+    {
+      "period": "FY2025; USDA/FNA state SNAP route-performance context",
+      "denominator": {"value": 51, "unit": "states and DC common to participation, application timeliness, and recertification timeliness", "value_type": "geographic_scope"},
+      "measures": {
+        "application_timeliness_range": {"value": "61.24-97.22", "unit": "percent across state/DC APT rates", "value_type": "distribution"},
+        "recertification_timeliness_range": {"value": "25.23-99.87", "unit": "percent across state/DC RPT rates", "value_type": "distribution"},
+        "participation_vs_application_timeliness": {"value": 0.033, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"},
+        "participation_vs_recertification_timeliness": {"value": 0.211, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"}
+      },
+      "method": "Cross-source extraction of USDA/FNA state participation, application-timeliness, and recertification-timeliness measures; state aggregates retain distinct population and quality-control denominators.",
+      "uncertainty": "Ecological state aggregates without case-mix adjustment, household effort, notice comprehension, benefit amount, gap days, or remedy. Correlations are descriptive and unweighted.",
+      "subgroup": "50 states and DC.",
+      "counterinterpretation": "Near-zero aggregate correlation does not mean route performance is irrelevant; it means participation cannot substitute for route quality or household security.",
+      "source_url": "https://www.fna.usda.gov/snap/qc/timeliness",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "compared"
+    },
+    {
+      "period": "December 2019-December 2025; Urban WBNS food-insecurity trend and 2025 subgroup context",
+      "denominator": {"value": null, "unit": "published WBNS working-age adults ages 18-64; exact annual analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "food_insecurity_2019": {"value": 24.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2021": {"value": 19.9, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2025": {"value": 27.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_with_children": {"value": 32.0, "unit": "percent in December 2025", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_below_200_fpl": {"value": 51.0, "unit": "percent in December 2025", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_disability": {"value": 52.1, "unit": "percent in December 2025", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Urban Institute weighted WBNS six-item USDA short-form estimates; annual trend and subgroup estimates retain the source's age, income, household, race/ethnicity, and disability universes.",
+      "uncertainty": "Exact denominators and full variance tables are not disclosed in the brief; 2025 methodology changed and the trend is not a panel. Food insecurity does not identify SNAP receipt, benefit adequacy, route failure, or causation.",
+      "subgroup": "Working-age adults, families with children, income-to-poverty bands, and adults with disabilities.",
+      "counterinterpretation": "Annual movement can reflect prices, labor markets, household composition, pandemic supports, survey composition, and program access; subgroup differences do not identify one cause.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "retrieval_hash": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; Urban WBNS charitable-food participation, access, and unmet need",
+      "denominator": {"value": null, "unit": "source-specific adult, food-insecure, charitable-food participant, and unmet-need universes; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "working_age_charitable_food": {"value": 16.7, "unit": "percent of adults ages 18-64", "value_type": "weighted_survey_estimate"},
+        "food_insecure_charitable_food": {"value": 39.5, "unit": "percent of adults in food-insecure households", "value_type": "weighted_survey_estimate"},
+        "food_insecure_unmet_charitable_food": {"value": 28.8, "unit": "percent of adults in food-insecure households", "value_type": "weighted_survey_estimate"},
+        "participant_any_access_difficulty": {"value": 51.6, "unit": "percent of charitable-food participants", "value_type": "weighted_survey_estimate"},
+        "unmet_need_closed_when_available": {"value": 45.5, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "unmet_need_did_not_know_where": {"value": 42.8, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "unmet_need_not_comfortable": {"value": 39.9, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted WBNS cross-sectional estimates of charitable-food receipt, access difficulty, and unmet need; multiple-response barriers remain separate.",
+      "uncertainty": "Exact denominators and full design-based variance are not disclosed in the brief. Participation is not adequacy, and the layer does not observe provider capacity, SNAP amount, same-episode timing, or later security.",
+      "subgroup": "Adults, working-age adults, food-insecure adults, charitable-food participants, and adults with unmet charitable-food need.",
+      "counterinterpretation": "Charitable-food receipt can indicate successful supplemental access or severe shortfall; nonreceipt can indicate no need or an unserved need. Hours, awareness, transport, safety, variety, and treatment can overlap.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "compared"
+    },
+    {
+      "period": "2024; Census SIPP adjacent SNAP transitions and following hardship",
+      "denominator": {"value": 346283, "unit": "valid adjacent person-month transition pairs matched to Fay-BRR replicates; transition cells retain separate valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "rent_hardship_no_to_yes": {"value": 16.4, "unit": "percent; following-month hardship among 437 entry pairs", "value_type": "weighted_fay_brr_estimate"},
+        "rent_hardship_yes_to_no": {"value": 11.53, "unit": "percent; following-month hardship among 387 exit pairs", "value_type": "weighted_fay_brr_estimate"},
+        "rent_hardship_yes_to_yes": {"value": 11.98, "unit": "percent; following-month hardship among 33,041 stable receipt pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_no_to_yes": {"value": 20.8, "unit": "percent; following-month hardship among 437 entry pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_yes_to_no": {"value": 20.83, "unit": "percent; following-month hardship among 387 exit pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_yes_to_yes": {"value": 18.61, "unit": "percent; following-month hardship among 33,041 stable receipt pairs", "value_type": "weighted_fay_brr_estimate"}
+      },
+      "method": "SIPP person-month transition comparison using WPFINWGT and 240 Fay-BRR replicate weights; following-month hardship fields retain their own universes and timing boundaries.",
+      "uncertainty": "Descriptive transitions, not program effects; entry and exit cells are rare and the record does not observe notice, effort, benefit amount, gap days, appeal, food security, trust, or political action for the same episode.",
+      "subgroup": "Valid adjacent person-month SNAP transition pairs, split into entry, exit, and stable receipt states.",
+      "counterinterpretation": "Exit can reflect higher income, noncollection, renewal failure, family change, or another shock; continued receipt can coexist with hardship. Neither transition is a security score.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-public-system-route-security-triangulation-2026.json", "claim": "Prior route triangulation supplies USDA, WBNS, NBER, SIPP, and charitable-food architecture.", "status": "related-record"},
+    {"source_url": "../../records/us-urban-wbns-food-insecurity-persistence-2019-2025.json", "claim": "WBNS supplies the updated 2019-2025 food-insecurity trend and subgroup endpoints.", "status": "related-record"},
+    {"source_url": "../../records/us-urban-wbns-charitable-food-access-2019-2025.json", "claim": "WBNS supplies charitable-food access, treatment, and unmet-need endpoints.", "status": "related-record"},
+    {"source_url": "../../records/us-snap-administrative-access-2026.json", "claim": "NBER and administrative studies supply route-to-participation mechanisms.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled food-security and safety-net route/buffer bridge. It shows that formal route quality, food insecurity, charitable-food reach, unmet need, and following hardship are distinct stages. It does not establish benefit adequacy, causal route failure, provider capacity, same-episode food outcomes, trust, political action, or recovery. A linked or matched episode design remains required."
+}

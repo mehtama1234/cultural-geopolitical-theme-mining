@@ -13,6 +13,10 @@
 | NBER-COOLERS-18044 | [NBER: Cash for Coolers](https://www.nber.org/papers/w18044) | A large Mexican replacement program found refrigerator replacement lowered electricity use, while air-conditioner replacement increased use through greater use of the efficient equipment. | Mexico and a subsidy program; not a current US household estimate. |
 | DOE-AFFORDABILITY | [DOE affordable energy for consumers](https://www.energy.gov/topics/affordable-energy-consumers) | DOE says appliance standards should consider upfront cost and actual savings for American families. | Policy framing does not measure household outcomes. |
 
+## Working question
+
+When does an efficient appliance reduce household energy burden, and when do upfront cost, financing, access, or rebound use prevent the expected gain?
+
 ## First pattern to test
 
 ```text

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Estimate Fay-BRR uncertainty for resource/job changes around SNAP transitions."""
+"""Estimate Fay-BRR uncertainty for resource, earnings, and job changes around SNAP transitions."""
 
 from __future__ import annotations
 
@@ -68,7 +68,7 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
     rows_read = 0
     with primary_path.open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
-        required = set(KEYS) | {"WPFINWGT", "RSNAP_MNYN", "THINCPOV", "RMNUMJOBS"}
+        required = set(KEYS) | {"WPFINWGT", "RSNAP_MNYN", "THINCPOV", "TPEARN", "TMWKHRS", "RMNUMJOBS"}
         missing = sorted(required - set(reader.fieldnames or []))
         if missing:
             raise ValueError("primary slice is missing fields: " + ", ".join(missing))
@@ -84,16 +84,19 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 months[person][month] = {
                     "snap": row.get("RSNAP_MNYN", ""),
                     "resource": row.get("THINCPOV", ""),
+                    "earnings": row.get("TPEARN", ""),
+                    "hours": row.get("TMWKHRS", ""),
                     "jobs": row.get("RMNUMJOBS", ""),
                     "weight": row.get("WPFINWGT", ""),
                 }
 
     pair_data: dict[tuple[str, str, str, str, str], tuple[str, str | None, str | None]] = {}
-    full_den = {transition: {kind: 0.0 for kind in ("resource", "jobs")} for transition in TRANSITIONS}
-    full_num = {transition: {kind: {cat: 0.0 for cat in CHANGE_CATEGORIES} for kind in ("resource", "jobs")}
+    kinds = ("resource", "earnings", "hours", "jobs")
+    full_den = {transition: {kind: 0.0 for kind in kinds} for transition in TRANSITIONS}
+    full_num = {transition: {kind: {cat: 0.0 for cat in CHANGE_CATEGORIES} for kind in kinds}
                 for transition in TRANSITIONS}
-    record_den = {transition: {kind: 0 for kind in ("resource", "jobs")} for transition in TRANSITIONS}
-    record_num = {transition: {kind: {cat: 0 for cat in CHANGE_CATEGORIES} for kind in ("resource", "jobs")}
+    record_den = {transition: {kind: 0 for kind in kinds} for transition in TRANSITIONS}
+    record_num = {transition: {kind: {cat: 0 for cat in CHANGE_CATEGORIES} for kind in kinds}
                   for transition in TRANSITIONS}
 
     for person, records in months.items():
@@ -105,11 +108,13 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
             if transition not in TRANSITIONS:
                 continue
             resource_change = change(first["resource"], second["resource"])
+            earnings_change = change(first["earnings"], second["earnings"])
+            hours_change = change(first["hours"], second["hours"])
             job_change = change(first["jobs"], second["jobs"], integer=True)
             key = person + (str(month),)
-            pair_data[key] = (transition, resource_change, job_change)
+            pair_data[key] = (transition, resource_change, earnings_change, hours_change, job_change)
             weight = float(first["weight"])
-            for kind, category in (("resource", resource_change), ("jobs", job_change)):
+            for kind, category in (("resource", resource_change), ("earnings", earnings_change), ("hours", hours_change), ("jobs", job_change)):
                 if category is None:
                     continue
                 full_den[transition][kind] += weight
@@ -118,8 +123,8 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 record_num[transition][kind][category] += 1
 
     rep_num = {transition: {kind: {cat: np.zeros(REPLICATES, dtype=np.float64) for cat in CHANGE_CATEGORIES}
-                            for kind in ("resource", "jobs")} for transition in TRANSITIONS}
-    rep_den = {transition: {kind: np.zeros(REPLICATES, dtype=np.float64) for kind in ("resource", "jobs")}
+                            for kind in kinds} for transition in TRANSITIONS}
+    rep_den = {transition: {kind: np.zeros(REPLICATES, dtype=np.float64) for kind in kinds}
                for transition in TRANSITIONS}
     replicate_rows_read = 0
     matched = 0
@@ -139,10 +144,10 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
                 if item is None:
                     continue
                 matched += 1
-                transition, resource_change, job_change = item
+                transition, resource_change, earnings_change, hours_change, job_change = item
                 weights = np.fromiter((float(row[f"repwgt{i}"]) for i in range(1, REPLICATES + 1)),
                                       dtype=np.float64, count=REPLICATES)
-                for kind, category in (("resource", resource_change), ("jobs", job_change)):
+                for kind, category in (("resource", resource_change), ("earnings", earnings_change), ("hours", hours_change), ("jobs", job_change)):
                     if category is None:
                         continue
                     rep_den[transition][kind] += weights
@@ -151,7 +156,7 @@ def analyze(primary_path: Path, replicate_zip: Path) -> dict:
     results = {}
     for transition in TRANSITIONS:
         results[transition] = {}
-        for kind in ("resource", "jobs"):
+        for kind in kinds:
             results[transition][kind] = {
                 category: summary(full_num[transition][kind][category], full_den[transition][kind],
                                   rep_num[transition][kind][category], rep_den[transition][kind],

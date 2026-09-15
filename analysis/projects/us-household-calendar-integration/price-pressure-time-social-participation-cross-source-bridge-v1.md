@@ -1,6 +1,6 @@
 # Price pressure, time transfer, and social participation cross-source bridge v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-14
 **Scope:** US consumer adaptation, paid/unpaid work, care, and social/civic availability  
 **Status:** compared population layers; not a same-person price-to-time causal estimate
 
@@ -33,6 +33,8 @@ same person.
 | [Time, work, care, and social participation](time-work-care-social-participation-layer-v1.md) | Person diary and subgroup; 2024 | Household labor, primary/secondary childcare, work location, and socializing are distinct time outcomes | One-day diary is not a household-month budget or longitudinal event record |
 | [Care cost/work/family security](../us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md) | Person, caregiver, household, health event | Care costs can move into unpaid family time, work loss, food/housing tradeoffs, and job dependence | Does not join a particular price adaptation to the same caregiver's time |
 | [CPS participation-friction layer](../us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md) | Adult respondent; 2024 election | Schedule, health, transport, registration, interest, and candidate-related nonvoting reasons are separately observable | Does not show which earlier financial or care event created the barrier |
+| [SIPP race × tenure × resources](sipp-fay-brr-race-tenure-resource-layer-v1.md) | Person-month record; 2025 current-vintage extract | Utility difficulty, hunger, food security, and one-job status inside race/tenure/resource cells with Fay–BRR uncertainty | Person-weighted rather than household-weighted; no dated bill, move, care event, or downstream meaning |
+| [SIPP work-limitation × resources](sipp-fay-brr-race-disability-resource-layer-v1.md) | Person-month record; 2025 current-vintage extract | Work-limiting condition, resource band, hardship, food security, and one-job status across displayed race groups | Work limitation is not a diagnosis or accommodation measure; current-vintage refresh is not identical to the earlier extract |
 
 ## What the comparison supports
 
@@ -52,7 +54,24 @@ more administrative effort. A household that avoids borrowing may still lose
 rest, social contact, health, or civic availability. A stable job count is not
 proof that time and control were preserved.
 
-### 3. Control matters as much as hours
+### 3. Resource room is conditional on housing and work position
+
+The refreshed SIPP intersection layers make the subgroup boundary more
+concrete. In the displayed White-alone and Black-alone cells, renter/owner
+differences in utility difficulty and food-security measures appear at both
+low and high resource endpoints, although the Black-alone ordering is not
+uniform and some hunger cells are imprecise. In the separate
+work-limitation-by-resource layer, people reporting a work-limiting condition
+show more utility difficulty, lower high/marginal food security, and fewer
+one-job records within the displayed race groups.
+
+These are not proof that race, tenure, or disability caused hardship. They show
+why a single income gradient or universal “time poverty” score can hide the
+different alternatives available inside the same broad resource band. The
+current records still do not observe the time or care substitution that follows
+those positions.
+
+### 4. Control matters as much as hours
 
 ATUS shows differences in weekend work and working from home by job and
 education group. The relevant inequality is not simply who works more; it is
@@ -60,7 +79,7 @@ who can choose when and where work occurs, combine work with care, refuse an
 extra shift, or recover time after a shock. Schedule control is a resource that
 can mediate the same financial pressure.
 
-### 4. Social participation is an outcome, not leftover leisure
+### 5. Social participation is an outcome, not leftover leisure
 
 ATUS reports socializing or communicating on 30% of average days in 2024,
 compared with 38% in 2014. CPS separately records nonvoting barriers, including
@@ -68,7 +87,7 @@ time and health. Neither should be called cultural decline or political apathy
 without identifying what displaced the time and whether people wanted or could
 recover it.
 
-### 5. The burden can move between households and institutions
+### 6. The burden can move between households and institutions
 
 Unpaid family care, outside financial help, employer schedule changes, and
 public-program paperwork redistribute the adjustment. One person's avoided

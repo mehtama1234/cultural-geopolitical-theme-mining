@@ -4,7 +4,8 @@
 **Accessed:** 2026-09-11  
 **Primary page:** [HBS Working Knowledge](https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer)  
 **Underlying paper named by the story:** [NBER Working Paper 35067](https://www.nber.org/papers/w35067)  
-**Status:** HBS story reviewed; underlying NBER page returned an access error and remains unreviewed.
+**Status:** HBS story and underlying NBER Working Paper 35067 reviewed; the
+paper's merchant-level data are not public in this workspace.
 
 ## What the source says
 
@@ -18,7 +19,8 @@ The story also reports that the researchers tested the result after relaxing the
 - **Geography:** United States.
 - **Data described:** Fiserv/Clover transaction data, including card and cash observations; merchant-level analysis.
 - **Comparison:** premium credit cards, basic credit cards, debit cards from large and small banks, and cash.
-- **Period:** not fully recorded in the HBS story; retrieve the underlying paper for dates and revisions.
+- **Period:** 2022 merchant settlement cross-section; Clover transaction data
+  from 2019–2022; paper dated April 2026.
 
 ## What it can support
 
@@ -29,11 +31,20 @@ The story also reports that the researchers tested the result after relaxing the
 
 ## What it cannot yet support
 
-- A settled estimate of the transfer until the underlying paper, data construction, and revisions are reviewed.
+- A household-level transfer or welfare estimate: the paper's central dollar
+  figures are modeled incidence estimates, not observed household bills.
 - A claim that the payment system caused broad political behavior or current inflation.
 - A claim about every merchant, card product, household, or state.
 - A claim that the policy effect is the same as the researchers' estimated consumer incidence.
 
-## Next verification
+## Completed verification
 
-Retrieve Working Paper 35067 directly or through an accessible institutional copy. Record its tables, sample period, treatment of cash, income measurement, merchant pass-through assumption, robustness checks, and any published version. Then compare the mechanism with the CFPB card-market report and Federal Reserve SHED measures.
+The official NBER page and paper were reviewed. The paper records the two
+Fiserv data surfaces, merchant and Clover coverage, consumer sorting, fee
+heterogeneity, pass-through framework, and policy comparisons. The committed
+PDF retrieval hash is
+`sha256:bc2acfe5dbfb82a063122ae4b22192a50e44b7ebe28641f0a4d8606fe2ccd52b`.
+The new [NBER payment-incidence layer](nber-w35067-payment-incidence-layer-v1.md)
+and [machine-readable record](../../records/us-nber-payment-rewards-redistribution-2026.json)
+carry the detailed extraction. The merchant raw data remain unavailable, so
+reproduction of every table and household-level matching remain open.

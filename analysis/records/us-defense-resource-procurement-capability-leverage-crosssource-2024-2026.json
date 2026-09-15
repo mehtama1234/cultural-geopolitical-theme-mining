@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-resource-procurement-capability-leverage-crosssource-2024-2026",
+  "title": "Defense resources, procurement, and co-production precede realized capability and geopolitical leverage",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of SIPRI military expenditure, IMF geopolitical/fiscal scenarios, USAspending defense-award records, and Polish-US defense procurement/co-production announcements",
+  "geography": "United States, Poland, NATO, and global comparison units retained by source",
+  "observations": [
+    {
+      "period": "2025; SIPRI global, national, regional, and NATO military-expenditure estimates",
+      "denominator": {"value": 1, "unit": "global military-expenditure aggregate; country and alliance denominators are separate", "value_type": "global_aggregate"},
+      "measures": {
+        "world_spending": {"value": 2887, "unit": "US dollars billions at current prices", "value_type": "estimated_aggregate"},
+        "world_real_change": {"value": 2.9, "unit": "percent from 2024 in constant 2024 US dollars", "value_type": "estimated_change"},
+        "us_spending": {"value": 954, "unit": "US dollars billions", "value_type": "estimated_national_total"},
+        "us_real_change": {"value": -7.5, "unit": "percent from 2024", "value_type": "estimated_change"},
+        "europe_real_change": {"value": 14, "unit": "percent from 2024", "value_type": "estimated_change"},
+        "nato_world_share": {"value": 55, "unit": "percent of world military spending", "value_type": "estimated_share"}
+      },
+      "method": "SIPRI Military Expenditure Database estimates aggregated by country, region, and NATO grouping using current and constant US-dollar series.",
+      "uncertainty": "Some country values are estimated; fiscal-year conventions, exchange rates, reporting quality, and classified spending affect comparisons. Spending is an input to capacity, not operational readiness, procurement delivery, or welfare incidence.",
+      "subgroup": "World, United States, Europe, Asia/Oceania, NATO, and national-spender units.",
+      "counterinterpretation": "Higher allied spending may improve options without producing interoperable capability or timely procurement; a lower US annual total may reflect supplemental-assistance accounting rather than broad capability loss.",
+      "source_url": "https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf",
+      "retrieval_hash": "sha256:ec29640e0985a46c380b0159a9bdefa7f6ddb16b2d8ae07b0ec37596ba56b631",
+      "status": "compared"
+    },
+    {
+      "period": "2026-2027 and post-World War II defense-boom episodes; IMF April 2026 WEO",
+      "denominator": {"value": 1, "unit": "IMF global projection scenario and cross-country defense-boom analysis; historical episodes are not pooled with US observations", "value_type": "scenario_frame"},
+      "measures": {
+        "typical_defense_outlay_increase": {"value": 2.7, "unit": "percentage points of GDP over roughly two and a half years", "value_type": "reported_estimate"},
+        "defense_boom_deficit_financing": {"value": 67, "unit": "percent of typical increase financed through deficit", "value_type": "reported_estimate"},
+        "public_debt_change": {"value": 7, "unit": "percentage points within three years", "value_type": "reported_estimate"},
+        "social_spending_direction": {"value": "falls in wartime booms", "unit": "reported cross-country pattern", "value_type": "reported_pattern"},
+        "global_growth_2026": {"value": 3.1, "unit": "percent projected real global growth under April 2026 baseline", "value_type": "projection"}
+      },
+      "method": "IMF World Economic Outlook April 2026 defense-spending and conflict chapters, with a limited-duration-conflict baseline and historical cross-country analysis.",
+      "uncertainty": "Projections and episode averages are conditional and heterogeneous. Financing, import content, domestic slack, allocation, fiscal space, conflict duration, and institutions alter the result; no exact US household or program incidence is estimated.",
+      "subgroup": "Countries experiencing defense buildups or conflict and global economy projections; country exposure varies by import dependence and fiscal space.",
+      "counterinterpretation": "Defense spending can raise short-run activity and domestic capacity; imported equipment, financing conditions, and social-spending choices determine distribution and fiscal trade-offs.",
+      "source_url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026",
+      "retrieval_hash": "sha256:5c281721761f2ac8f8ae313ea977a0039539aa760039ea3717cf54002d82432a",
+      "status": "compared"
+    },
+    {
+      "period": "2024-10-23 through 2025-02-28; one US DoD JASSM/LRASM parent-award subaward extract",
+      "denominator": {"value": 74, "unit": "returned USAspending subaward records linked to one parent award", "value_type": "award_extract"},
+      "measures": {
+        "reported_subaward_amount": {"value": 1142661458.64, "unit": "US dollars, nominal reported amount", "value_type": "reported_amount"},
+        "reported_recipient_count": {"value": 51, "unit": "distinct recipient names in returned records", "value_type": "count"},
+        "largest_recipient_share": {"value": 18.3798, "unit": "percent of returned-record amount", "value_type": "derived_share"},
+        "component_description_coverage": {"value": 74, "unit": "records with one or more component/assembly description terms", "value_type": "coded_count"}
+      },
+      "method": "Official USAspending subaward endpoint retrieval for one parent award; recipient names and reported amounts were aggregated within the returned extract, and free-text component descriptions were coded separately.",
+      "uncertainty": "The extract is bounded to one parent award and returned endpoint records. It does not establish a complete supply chain, ownership, facility assignment, manufacturing location, workforce, delivery, acceptance, readiness, or supplier competition.",
+      "subgroup": "Reported subordinate recipients and component/assembly description classes within one JASSM/LRASM award.",
+      "counterinterpretation": "A multi-recipient extract can indicate distributed sourcing, but may reflect reporting conventions, repeated lots, options, or incomplete visibility; component text is not a bill of materials or delivered-capability measure.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
+      "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
+      "measures": {
+        "jassm_er_agreement_value": {"value": 735, "unit": "US dollars millions, approximate reported 2024 procurement value", "value_type": "reported_amount"},
+        "jassm_er_delivery_window": {"value": "2026-2030", "unit": "planned delivery years", "value_type": "reported_schedule"},
+        "buyer_seller_role_expansion": {"value": 1, "unit": "reported 2026 institutional agreement change", "value_type": "reported_event"},
+        "barracuda_co_production_partners": {"value": "Poland, United States, Estonia, and Latvia", "unit": "named participating countries", "value_type": "reported_scope"},
+        "planned_system_scale": {"value": "thousands of SLB-500M systems", "unit": "reported production target", "value_type": "reported_target"},
+        "fmf_agreement_amount": {"value": 4000000000, "unit": "US dollars; broader Poland-US financing agreement, not assigned to Barracuda", "value_type": "reported_amount"}
+      },
+      "method": "Deliberately non-pooled extraction of official Polish Ministry of National Defence, Ministry of State Assets, Bydgoszcz government, and National Security Bureau announcements; procurement, financing, implementation terms, targets, and follow-up are retained as separate stages.",
+      "uncertainty": "The announcements do not establish plant commissioning, completed units, acceptance, delivery, local-content share, component independence, operational use, public reception, or an external actor changing behavior. The FMF amount has no Barracuda-specific allocation in the cited announcement.",
+      "subgroup": "Polish defense-industrial and national-security institutions; US, Estonia, Latvia, and regional defense-supply partners.",
+      "counterinterpretation": "Co-production and buyer/seller language may improve process speed or alliance interoperability while leaving foreign design authority, software, components, approvals, finance, and demand dependence intact. A signed agreement is not realized leverage.",
+      "source_url": "https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu",
+      "retrieval_hash": "sha256:60698755c8c59b92dc00f83f71deb203f7aef62a79d7c2ae3bb490455f6f9464; sha256:5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6; sha256:a90d35bf78e6f4b577fc44e73a0bbc77137ca296a18824649a56c3e9e8c20dc2",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-sipri-military-expenditure-2025-state-capacity.json", "claim": "SIPRI supplies resource-allocation and alliance-spending context.", "status": "related-record"},
+    {"source_url": "../../records/us-imf-weo-geopolitical-fiscal-shock-2026.json", "claim": "IMF WEO supplies conditional defense-boom, fiscal, social-spending, and conflict-risk context.", "status": "related-record"},
+    {"source_url": "../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json", "claim": "USAspending supplies a bounded award-to-subaward and component-description route.", "status": "related-record"},
+    {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"}
+  ],
+  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
+}

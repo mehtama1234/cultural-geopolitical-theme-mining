@@ -1,6 +1,6 @@
 # Source record: German works-council AI rules
 
-**Checked:** 2026-09-11  
+**Checked:** 2026-09-14
 **Source family:** company and union records  
 **Use:** direct check of the Deutsche Telekom and IBM portions of the ILO case summary
 
@@ -14,6 +14,23 @@
 6. [BTQ Kassel interview with IBM Group Works Council representative Frank Remers](https://www.btq-kassel.de/interview_frank_remers/), 10 March 2022 interview, accessed 2026-09-11.
 
 These records are published by the company, the union, and WageIndicator. The WageIndicator page reproduces the IBM framework text and identifies IBM Central Holding GmbH, its Group Works Council, and a 30 July 2020 signature date. It is an accessible archive of the agreement, not the original IBM document host. None of these records independently shows compliance, worker coverage outside the named German entities, or effects on pay, productivity, or stress.
+
+The WageIndicator acquisition is preserved in the [machine-readable acquisition
+record](data/wageindicator-ibm-ai-framework-acquisition-v1.json). The fetched
+HTML response was 681,137 bytes, returned HTTP 200 as `text/html`, and has
+SHA-256 `37d16c3e02a17a4698d5d3a23ae608829b5f1f1e0ecdfef32db8470c15d2e6d3`.
+The text was reviewed section by section after HTML-to-plain-text extraction;
+the hash identifies the retrieved page, not an original IBM document file.
+
+The [BTQ Kassel interview acquisition record](data/btq-ibm-ai-framework-interview-acquisition-v1.json)
+preserves the complementary implementation-status account. The retrieved HTML
+response was 85,800 bytes, returned HTTP 200 as `text/html`, and has SHA-256
+`d03fcd5818067d6eade29cb97cbca762056321e8e8bcaa7a265f8413b80a1a6d`. The
+interviewee reports internal call-center and training/career recommendation
+systems in use, while a manager salary-increase recommender and voluntary-
+resignation probability system were not used in Germany at that time. These
+are reported practice and scope signals, not an audited inventory or outcome
+evaluation.
 
 ## What the records say
 

@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-july-expense-trust-cross-tab-2026",
+  "title": "July 2026 expense difficulty and institution-specific confidence diverge by group",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "US Census Bureau HTOPS/HPS July 2026 public-use person respondent, stratified by recent household expense difficulty",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15–August 3, 2026; no difficulty paying usual expenses",
+      "denominator": {"value": 7130, "unit": "unweighted valid respondents for federal-statistics confidence; item-specific Congress denominator is 7148", "value_type": "survey_valid_cases"},
+      "measures": {
+        "high_confidence_federal_statistical_agencies": {"value": 43.9230473015, "unit": "percent; replicate-weight SE 1.5718 percentage points", "value_type": "replicate_weighted_share"},
+        "high_confidence_congress": {"value": 20.7881450276, "unit": "percent; replicate-weight SE 1.2564 percentage points", "value_type": "replicate_weighted_share"}
+      },
+      "method": "PWEIGHT/PWEIGHT0 weighted descriptive shares with 80 successive-difference replicate weights; no difficulty is EXPENSE_DIFFICULT=1 and high confidence is response 1 or 2.",
+      "uncertainty": "Cross-sectional design-based replicate standard errors; no timing, causal, or attrition inference.",
+      "subgroup": "Respondents reporting no difficulty with usual household expenses; outcome-specific valid universes.",
+      "counterinterpretation": "Confidence can reflect prior identity, institutional experience, information, or nonfinancial conditions rather than current expense difficulty.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2607_CSV.zip",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31; puf:sha256:cfc4fc46d15be4b61c0ee924e9b881b3fb742cd668270b3bd532efe5b5a6c380; replicate:sha256:10b15223c98ee185a3025290e64819841885571ad46099c399fde6e3f48eebf6",
+      "status": "estimated"
+    },
+    {
+      "period": "July 15–August 3, 2026; at least a little difficulty paying usual expenses",
+      "denominator": {"value": 4279, "unit": "unweighted valid respondents for federal-statistics confidence; item-specific Congress denominator is 4277", "value_type": "survey_valid_cases"},
+      "measures": {
+        "high_confidence_federal_statistical_agencies": {"value": 28.8018758013, "unit": "percent; replicate-weight SE 1.3243 percentage points", "value_type": "replicate_weighted_share"},
+        "high_confidence_congress": {"value": 13.8461342273, "unit": "percent; replicate-weight SE 1.2475 percentage points", "value_type": "replicate_weighted_share"}
+      },
+      "method": "Same July PWEIGHT/PWEIGHT0 and 80-replicate procedure; any difficulty is EXPENSE_DIFFICULT in {2,3,4}.",
+      "uncertainty": "Cross-sectional design-based replicate standard errors; the expense item covers the prior two months and does not identify a specific event.",
+      "subgroup": "Respondents reporting at least a little difficulty with usual household expenses; outcome-specific valid universes.",
+      "counterinterpretation": "A respondent can report expense difficulty and retain confidence in one institution; the comparison does not measure political action or generalized distrust.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2607_CSV.zip",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31; puf:sha256:cfc4fc46d15be4b61c0ee924e9b881b3fb742cd668270b3bd532efe5b5a6c380; replicate:sha256:10b15223c98ee185a3025290e64819841885571ad46099c399fde6e3f48eebf6",
+      "status": "estimated"
+    },
+    {
+      "period": "July 15–August 3, 2026; within-release contrast",
+      "denominator": {"value": 11409, "unit": "two disjoint expense-difficulty groups; outcome-specific valid cases", "value_type": "survey_contrast_frame"},
+      "measures": {
+        "expense_difficulty_minus_no_difficulty_federal_statistics": {"value": -15.1211715002, "unit": "percentage points; replicate-difference SE 1.9537; approximate 90% interval -18.3350 to -11.9073", "value_type": "replicate_weighted_difference"},
+        "expense_difficulty_minus_no_difficulty_congress": {"value": -6.9420108004, "unit": "percentage points; replicate-difference SE 1.7548; approximate 90% interval -9.8286 to -4.0554", "value_type": "replicate_weighted_difference"}
+      },
+      "method": "Difference of the two group estimates calculated within each of the 80 replicate weights, followed by the Census successive-difference variance formula.",
+      "uncertainty": "The intervals describe sampling/design uncertainty for a same-round descriptive contrast. They do not establish that expense difficulty changed confidence.",
+      "subgroup": "Expense-difficulty contrast, with federal statistical agencies and Congress retained as separate institutional outcomes.",
+      "counterinterpretation": "The relationship can reflect common causes, prior trust, party identity, reporting differences, or the fact that both measures are contemporaneous.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2607_CSV.zip",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31; audit:sha256:d83ddbb813af4a74c6c95e519b8c2d4357b2b901c0d5dcae5a203d7945975723",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-cost-trust-politics/findings/us-cost-trust-politics-017.md", "claim": "March–May–July 2026 HTOPS/HPS cross-sectional comparison supplies the period context and subgroup layers.", "status": "related-finding"},
+    {"source_url": "../../projects/us-cost-trust-politics/data/htops-july-expense-trust-reproduction-2026-09-14.json", "claim": "Reproduction audit preserves input hashes, classifications, valid counts, and replicate calculations.", "status": "reproduction-audit"}
+  ],
+  "boundary": "This is a replicate-weighted same-round cross-sectional association. It does not establish a dated material-to-trust pathway, institutional blame, generalized distrust, political action, recovery, or causality."
+}

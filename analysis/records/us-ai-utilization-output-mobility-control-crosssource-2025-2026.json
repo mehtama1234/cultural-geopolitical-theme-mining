@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-utilization-output-mobility-control-crosssource-2025-2026",
+  "title": "AI utilization, modeled output associations, labor mobility, and worker control remain separate evidence stages",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "infrastructure_technology_dependency", "trust_identity_meaning"],
+  "source_unit": "Deliberately non-pooled task, state-industry, industry-year, executive, establishment, and worker-representation observations",
+  "geography": "United States, with the NBER executive survey covering the United States, United Kingdom, Germany, and Australia",
+  "observations": [
+    {
+      "period": "2026; worker task adoption and exposure comparison",
+      "denominator": {"value": 13920, "unit": "employed RPS respondents ages 18-64 pooled across August 2025, November 2025, February 2026, and May 2026; companion task analysis has 55,634 worker-task observations", "value_type": "reported_worker_samples"},
+      "measures": {"within_task_adoption": {"value": "fewer than half of workers adopt within most occupations and tasks", "unit": "worker-reported pattern", "value_type": "reported_pattern"}, "exposure_explained_variation": {"value": "5%-53% across occupations and 7%-44% across tasks", "unit": "adjusted R-squared range across exposure specifications", "value_type": "reported_model_result"}, "task_measure_correlations": {"value": "all pairwise correlations below 0.4", "unit": "correlation across worker-survey and public/platform task measures", "value_type": "reported_comparison"}},
+      "method": "NBER Working Paper 35677 links a representative-style worker survey to detailed occupations and tasks and compares worker-reported adoption with task-exposure and platform chat-log measures.",
+      "uncertainty": "The RPS is an online survey designed to match key CPS demographics rather than a random sample; task cells, weighting, missingness, and crosswalk versions matter. These are descriptive or predictive comparisons, not causal estimates.",
+      "subgroup": "Workers, occupations, and task cells; the promoted evidence does not provide a complete demographic or workplace-control table.",
+      "counterinterpretation": "Shallow or uneven adoption can reflect task fit, access, training, privacy, employer rules, reporting, or classification rather than worker resistance or unequal capability.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "reported"
+    },
+    {
+      "period": "2016-2024 outcomes linked to Q2 2025-Q1 2026 AI utilization",
+      "denominator": {"value": 75292, "unit": "Gallup Workforce Panel worker observations used to construct state-industry utilization; 52,729 in Q2-Q4 2025 and 22,563 in Q1 2026", "value_type": "worker_observations"},
+      "measures": {"employment_semielasticity": {"value": "0.4-0.6", "unit": "percent employment difference per 1 percentage-point higher frequent-user share", "value_type": "descriptive_association"}, "real_output_semielasticity": {"value": "0.1-0.2", "unit": "percent real-output difference per 1 percentage-point higher frequent-user share", "value_type": "descriptive_association"}, "implied_output_change": {"value": "1.2-2.5", "unit": "percent real output as a back-of-envelope implication for a 12-to-24 percentage-point user increase", "value_type": "derived_implication"}},
+      "method": "BEA Working Paper 2026-18 links state-by-industry worker-reported frequent AI use to LEHD employment/earnings and BEA real output with state-by-industry and industry-by-year fixed effects; an industry-only BTOS specification is compared.",
+      "uncertainty": "BEA describes the estimates as descriptive rather than causal. Utilization is measured after much of the outcome window, cells vary in precision, and the industry-only specification does not reproduce the output pattern.",
+      "subgroup": "US states and two-digit industries, with worker-reported frequent use and employment, earnings, and real-output outcomes.",
+      "counterinterpretation": "Reverse causality, managerial quality, complementary investment, local demand, and cell composition can produce positive associations without an AI effect; output association does not show who receives the gain.",
+      "source_url": "https://www.bea.gov/sites/default/files/papers/bea-wp2026-18.pdf",
+      "retrieval_hash": "sha256:2d20b4d0ef63bb6c4cf3aa11048e28816689543a23992743e80b836866395c9e",
+      "status": "compared"
+    },
+    {
+      "period": "1997-2023 industry accounts; 2022-2023 post period",
+      "denominator": {"value": 1586, "unit": "industry-year observations across 61 private industries", "value_type": "industry_year_observations"},
+      "measures": {"direct_ai_line_item": {"value": "not currently available in US national accounts", "unit": "official measurement boundary", "value_type": "official_boundary"}, "gross_output_interaction": {"value": -0.0228, "unit": "estimated interaction contribution", "value_type": "estimated_contribution"}, "labor_share_change": {"value": -0.011, "unit": "estimated contribution", "value_type": "estimated_contribution"}, "capital_share_change": {"value": 0.0084, "unit": "estimated contribution", "value_type": "estimated_contribution"}},
+      "method": "BEA Working Paper 2026-8 uses imputation-based difference-in-differences in integrated BEA-BLS industry production accounts, with AI-intensity quartiles based on Census measures.",
+      "uncertainty": "BEA presents this as early exploratory evidence. Imputation, industry intensity, timing, equal weighting, clustered inference, input-price changes, and unmeasured AI costs limit interpretation.",
+      "subgroup": "AI-intensive versus other private industries and college/noncollege labor, capital, materials, energy, and services inputs.",
+      "counterinterpretation": "A lower output-price contribution or labor-share movement can reflect pre-existing differences, demand, input prices, composition, or unmeasured costs; it is not household price pass-through or worker welfare.",
+      "source_url": "https://www.bea.gov/system/files/papers/BEA-WP2026-8.pdf",
+      "retrieval_hash": "sha256:0d8df95b1e8f09351389941b60481f7f945be7d45c6c12cef62aaecc94dcf4b3",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; executive retrospective and next-three-year expectation survey",
+      "denominator": {"value": 6000, "unit": "senior business executives at firms in the United States, United Kingdom, Germany, and Australia", "value_type": "reported_executive_sample"},
+      "measures": {"firms_actively_using_ai": {"value": 69, "unit": "percent of firms", "value_type": "reported_share"}, "no_past_three_year_effect": {"value": 90, "unit": "percent of executives reporting no employment or productivity impact", "value_type": "reported_share"}, "expected_productivity_change": {"value": 1.4, "unit": "percent average expected increase at own firm over next three years", "value_type": "forward_expectation"}, "expected_employment_change_employers": {"value": -0.7, "unit": "percent average expected change at own firm", "value_type": "forward_expectation"}, "expected_employment_change_employees": {"value": 0.5, "unit": "percent average expected change at own firm", "value_type": "forward_expectation"}},
+      "method": "NBER Working Paper 34836 compares current use, retrospective own-firm effects, and forward expectations in a common executive instrument.",
+      "uncertainty": "Executive perceptions and expectations are not realized administrative outcomes; the sample is not US-only and does not identify occupation, implementation, pay, hours, discretion, or bargaining.",
+      "subgroup": "Senior executives; reported usage is higher at younger and more productive firms, while employer and employee expectations are distinct perspectives.",
+      "counterinterpretation": "A retrospective-expectation gap can reflect information, incentives, or definitions rather than realized conflict; projected productivity need not reach workers or households.",
+      "source_url": "https://www.nber.org/papers/w34836",
+      "retrieval_hash": "sha256:0da65c4ed604a58b8cc95a52cc7c7795c65effadfc621b286d950e1b1377f410",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025 calendar-year aggregate labor-market context",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted total-nonfarm JOLTS rate observations per annual estimate", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate_2022": {"value": 6.85, "unit": "percent annual arithmetic mean", "value_type": "estimated_rate"}, "job_openings_rate_2025": {"value": 4.275, "unit": "percent annual arithmetic mean", "value_type": "estimated_rate"}, "quits_rate_2022": {"value": 2.7583, "unit": "percent annual arithmetic mean", "value_type": "estimated_rate"}, "quits_rate_2025": {"value": 2.0167, "unit": "percent annual arithmetic mean", "value_type": "estimated_rate"}},
+      "method": "Arithmetic means of BLS seasonally adjusted monthly JOLTS national total-nonfarm rates.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; annual rates summarize monthly establishment observations rather than unique workers or AI exposure.",
+      "subgroup": "Total nonfarm establishments; no occupation, demographic, AI-exposure, or worker-outcome subgroup.",
+      "counterinterpretation": "Cooling openings and quits may reflect post-reopening normalization, demand, demographics, or sector composition; they are not evidence of AI-induced displacement or a broad loss of bargaining power.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35677", "claim": "NBER task-level worker adoption and exposure evidence.", "status": "primary"},
+    {"source_url": "https://www.bea.gov/research/papers/2026/early-estimates-impact-ai-within-beas-industry-economic-accounts", "claim": "BEA measurement and early-account context for AI estimates.", "status": "official-context"},
+    {"source_url": "https://www.nber.org/papers/w34836", "claim": "NBER executive expectations and retrospective firm effects.", "status": "primary"},
+    {"source_url": "https://www.bls.gov/help/def/jt.htm", "claim": "BLS JOLTS definitions and denominators.", "status": "official-definition"}
+  ],
+  "boundary": "This is a non-pooled measurement-to-labor-market architecture. It does not establish a causal AI productivity effect, job loss, wage incidence, worker control, household security, cultural meaning, political response, or geopolitical leverage. A same-workplace implementation event with exposure, pay, hours, discretion, appeal, representation, and follow-up remains open."
+}

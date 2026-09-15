@@ -1,0 +1,26 @@
+{
+  "format": "btq-ibm-ai-framework-interview-acquisition-v1",
+  "source_url": "https://www.btq-kassel.de/interview_frank_remers/",
+  "retrieved_at": "2026-09-14",
+  "http_status": 200,
+  "content_type": "text/html",
+  "response_bytes": 85800,
+  "retrieval_hash": "sha256:d03fcd5818067d6eade29cb97cbca762056321e8e8bcaa7a265f8413b80a1a6d",
+  "page_title": "Einsatz von Künstlicher Intelligenz (KI) regeln",
+  "interview_identity": {
+    "interviewee": "Frank Remers",
+    "role": "Speaker of the IBM Group Works Council specialist committee for personnel data systems",
+    "interview_context": "BTQ Kassel follow-up to a 10 March 2022 online event",
+    "geography": "IBM Germany",
+    "evidence_type": "worker-representative interview"
+  },
+  "extraction_method": "Fetched the BTQ Kassel page with curl and converted the rendered HTML to plain text with pandoc for manual review of the question-and-answer sections.",
+  "reported_implementation_signals": [
+    "AI systems were reported in use in internal call centers and for recommendations about training and career paths.",
+    "A global system recommending salary increases for managers was reported as not used in Germany at the time of the interview.",
+    "A system estimating the probability of voluntary resignation was also reported as not used in Germany.",
+    "The interview states that the framework controls introduction for German employees, while it cannot necessarily stop global development teams from creating systems."
+  ],
+  "evidence_boundary": "The interview is a representative account of reported practice and scope, not an independently audited deployment inventory, model audit, worker survey, or outcome evaluation.",
+  "source_record": "../german-ai-works-council-source-record-v1.md"
+}

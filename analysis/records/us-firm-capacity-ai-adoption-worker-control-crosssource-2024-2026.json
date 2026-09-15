@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-firm-capacity-ai-adoption-worker-control-crosssource-2024-2026",
+  "title": "Firm capacity, AI task adoption, labor mobility, and representation are different gates to worker control",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "infrastructure_technology_dependency", "household_room_consumption"],
+  "source_unit": "Deliberately non-pooled establishment, worker-task, and labor-market context comparison",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 survey fieldwork; US establishments by size",
+      "denominator": {"value": 2589, "unit": "World Bank Enterprise Survey US establishments interviewed May 2024–April 2025", "value_type": "survey_sample"},
+      "measures": {"formal_training_small_medium_large": {"value": "29.1%, 59.1%, 78.9%", "unit": "percent of small, medium, and large establishments offering formal training", "value_type": "reported_size_profile"}, "outage_exposure_small_medium_large": {"value": "21.0%, 23.2%, 36.2%", "unit": "percent of small, medium, and large establishments experiencing electrical outages", "value_type": "reported_size_profile"}, "employment_growth_small_medium_large": {"value": "4.2%, 6.4%, 12.6%", "unit": "reported employment growth for small, medium, and large establishments", "value_type": "reported_size_profile"}},
+      "method": "Official World Bank Enterprise Survey country-profile table; size strata and indicator universes are retained rather than pooled.",
+      "uncertainty": "Public profile point values do not expose the full standard-error and weighting surface in this record; these are establishment indicators, not worker trajectories or causal estimates.",
+      "subgroup": "Small (5–19 employees), medium (20–99), and large (100+) establishments.",
+      "counterinterpretation": "Large firms report both more training and more outage exposure; scale is not a one-directional capability or vulnerability measure.",
+      "source_url": "https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/United-States-2024.pdf",
+      "retrieval_hash": "sha256:0c60bf0882027a5fdcd6e8ee63505d1a636c61928d246e387e4d8173c1426ee0",
+      "status": "compared"
+    },
+    {
+      "period": "2026; worker task adoption and exposure comparison",
+      "denominator": {"value": 55634, "unit": "NBER worker-task observations for workers performing at least two tasks", "value_type": "reported_analysis_sample"},
+      "measures": {"within_task_adoption": {"value": "fewer than half of workers adopt within most occupations and tasks", "unit": "worker-reported adoption pattern", "value_type": "reported_pattern"}, "exposure_explained_variation": {"value": "5%–53% across occupations and 7%–44% across tasks", "unit": "adjusted R-squared range across exposure measures", "value_type": "reported_model_result"}},
+      "method": "NBER Working Paper 35677 task-level adoption and exposure comparison.",
+      "uncertainty": "The RPS is an online survey designed to match key CPS demographics rather than a random sample; the comparisons are descriptive/predictive, not causal, and do not observe employer implementation or worker control.",
+      "subgroup": "Workers, detailed occupations, and work tasks.",
+      "counterinterpretation": "Residual adoption variation can reflect task fit, employer permission, training, privacy, access, reporting, or classification rather than unequal capability or resistance.",
+      "source_url": "https://www.nber.org/papers/w35677",
+      "retrieval_hash": "sha256:d292b955d0f3cffaba0122b82b5286adf0dd66fe54bfa1da15e6ed7d93b9b714",
+      "status": "compared"
+    },
+    {
+      "period": "2024–2025; formal worker representation",
+      "denominator": {"value": 146661, "unit": "thousand employed wage and salary workers in the 2025 CPS annual-average frame; 2025 excludes October", "value_type": "survey_population"},
+      "measures": {"union_membership_rate_2024_2025": {"value": "9.9%, 10.0%", "unit": "percent of employed wage and salary workers; 2024 and 2025", "value_type": "reported_share"}, "represented_rate_2024_2025": {"value": "11.1%, 11.2%", "unit": "percent of employed wage and salary workers; 2024 and 2025", "value_type": "reported_share"}},
+      "method": "BLS CPS annual-average union membership and representation tables.",
+      "uncertainty": "BLS reports a 2025 collection break because October was excluded; membership/representation do not measure grievance success, schedule control, autonomy, or worker-level technology exposure.",
+      "subgroup": "Employed wage and salary workers age 16 and over; self-employed workers excluded.",
+      "counterinterpretation": "Formal representation is an institutional condition, not a sufficient measure of control; a small rate change is not a clean bargaining-power trend.",
+      "source_url": "https://www.bls.gov/news.release/union2.t01.htm",
+      "retrieval_hash": "sha256:8b8e3eacf651d192f79014a60e56308b7548e46d92be3094693fc4b216d9a094",
+      "status": "compared"
+    },
+    {
+      "period": "January–July 2026; national labor mobility context",
+      "denominator": {"value": 7, "unit": "available monthly seasonally adjusted total-nonfarm JOLTS rates; July preliminary", "value_type": "partial_year_time_series"},
+      "measures": {"job_openings_rate_ytd": {"value": 4.3714, "unit": "percent arithmetic mean of monthly establishment rate", "value_type": "estimated_rate"}, "quits_rate_ytd": {"value": 1.9571, "unit": "percent arithmetic mean of monthly establishment rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic means of seven BLS seasonally adjusted national JOLTS monthly rates.",
+      "uncertainty": "July is preliminary and the series may be revised; establishment rates are not unique worker transitions and contain no AI exposure, job quality, or household outcome.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "Cooling quits can reflect normalization, weaker outside options, worker preference, demographics, or composition; it is not evidence of AI displacement or improved retention.",
+      "source_url": "https://data.bls.gov/timeseries/JTS000000000000000JOR",
+      "retrieval_hash": "sha256:6aa701c1de7884bd3c5bb4162031581a51ad5b2e949bc1a4fc43edfcfb768cc1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.enterprisesurveys.org/en/data/data-updates", "claim": "The separate 2026 World Bank AI follow-up includes the United States.", "status": "access-boundary", "access_boundary": "Authenticated microdata, questionnaire, weights, and variance guidance are still required for AI firm estimates."},
+    {"source_url": "https://www.bea.gov/sites/default/files/papers/bea-wp2026-18.pdf", "claim": "BEA provides a descriptive state-industry utilization/output/employment context.", "status": "related-context", "access_boundary": "State-industry association is not a worker-control or firm-implementation outcome."}
+  ],
+  "boundary": "This record places firm capacity, worker-reported AI task adoption, formal representation, and aggregate mobility in one deliberately non-pooled architecture. It does not establish that firm size causes adoption, that AI changes pay or control, that representation changes mobility, or that any of these stages changes household security, political meaning, or geopolitical leverage. A dated workplace implementation event with exposure, discretion, appeal, representation, and follow-up remains open."
+}

@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-work-care-room-nonpooled-2024",
+  "title": "Work can look stable in hours while care and housing position narrow household room",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Deliberately non-pooled comparison of 2025 SIPP person-month directional transitions, tenure/care distributions, and stable-SNAP child-care/hardship pairs",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; month-t resource band to month-t+1 earnings/hours direction",
+      "denominator": {"value": 11196, "unit": "valid earnings person-month pairs in work-limiting cells; hours direction uses a separate 11,548-pair universe", "value_type": "person_month_pairs"},
+      "measures": {
+        "work_limited_below_1x_earnings_direction": {"value": "increase 37.410%; decrease 29.294%; same 33.297%", "unit": "percent; Fay-BRR SE 2.938, 2.447, and 4.934 percentage points", "value_type": "weighted_directional_shares"},
+        "work_limited_below_1x_hours_direction": {"value": "increase 9.433%; decrease 7.449%; same 83.118%", "unit": "percent; Fay-BRR SE 1.685, 1.450, and 2.547 percentage points", "value_type": "weighted_directional_shares"},
+        "work_limited_4x_hours_same": {"value": 92.391, "unit": "percent; Fay-BRR SE 0.629 percentage points", "value_type": "weighted_share"}
+      },
+      "method": "Same-person SIPP monthly cross-lag using THINCPOV at month t and directional TPEARN/TMWKHRS at month t+1, conditioned on EDISABL, WPFINWGT, and 240 Fay-BRR replicate weights with perturbation factor 0.5.",
+      "uncertainty": "Earnings and hours use separate valid pair universes. Directional movement is descriptive and does not identify desired hours, job quality, accommodation, care response, or causality.",
+      "subgroup": "Reported work-limiting condition, stratified by four resource bands; comparison to non-limiting cells remains in the source record.",
+      "counterinterpretation": "Higher-resource respondents can show more earnings movement in both directions because earnings have more room to move or because job composition differs. Stable hours do not prove stable welfare.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:4068d913e44a0d2b411cfed7024858d2e7f718b1b1f6fae0a932cfeeacd55db0",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; child-care payment/help/work prevention by tenure and income-to-poverty band",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight selected person-record/month rows; each care measure has its own official conditional universe", "value_type": "person_record_month_rows"},
+      "measures": {
+        "renter_vs_owner_work_prevention_below_1x": {"value": "renter 6.8%; owner/buyer 3.9%", "unit": "percent; displayed tenure × poverty cells", "value_type": "weighted_conditional_share"},
+        "renter_vs_owner_work_prevention_4x_plus": {"value": "renter 4.5%; owner/buyer 3.1%", "unit": "percent; displayed tenure × poverty cells", "value_type": "weighted_conditional_share"},
+        "payment_help_pattern": {"value": "help paying is higher in lower-income renter and owner cells than in the displayed 4x+ cells", "unit": "descriptive distribution", "value_type": "conditional_pattern"}
+      },
+      "method": "Person-weighted SIPP tenure × monthly income-to-poverty diagnostic using official child-care field universes, status flags, WPFINWGT, and 240 Fay-BRR replicate weights.",
+      "uncertainty": "This is a person-record distribution rather than an official household prevalence estimate. Tenure, income, payment, help, and work-prevention fields have different valid universes; the association is not causal.",
+      "subgroup": "ETENURE owner/buyer versus renter, crossed with four income-to-poverty bands; reference-parent child-care fields.",
+      "counterinterpretation": "Tenure may proxy for resources, stability, place, provider reach, family composition, or schedule flexibility; the screen does not identify which mechanism matters.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; stable SNAP November–December pairs conditioned on fall child-care work prevention",
+      "denominator": {"value": 351, "unit": "valid stable-SNAP person pairs across the 328 no-prevention and 23 prevention cells; hardship outcomes have separate valid universes", "value_type": "identified_person_pairs"},
+      "measures": {
+        "stable_snap_rent_hardship": {"value": "prevention 43.652% (95% CI 21.733–65.570); no prevention 12.014% (7.871–16.157)", "unit": "percent; following-month rent/mortgage hardship", "value_type": "weighted_conditional_share"},
+        "stable_snap_utility_hardship": {"value": "prevention 32.395% (95% CI 11.393–53.397); no prevention 19.432% (14.768–24.097)", "unit": "percent; following-month utility hardship", "value_type": "weighted_conditional_share"},
+        "stable_no_snap_utility_hardship": {"value": "prevention 16.863% (95% CI 7.574–26.152); no prevention 7.835% (6.364–9.305)", "unit": "percent; following-month utility hardship", "value_type": "weighted_conditional_share"}
+      },
+      "method": "Same-person November–December stable-SNAP pair with annual fall child-care work-prevention status attached to the following-month hardship outcome; 240 Fay-BRR replicate weights.",
+      "uncertainty": "The stable-SNAP prevention cell has 23 valid pairs and wide intervals. Annual care timing is not a dated episode, and the contrast is not causal.",
+      "subgroup": "Reference parents in stable SNAP-status pairs, split by child-care work prevention; stable no-SNAP comparison retained as a counter-surface.",
+      "counterinterpretation": "Household composition, income, employment, eligibility, care need, prior hardship, and unmeasured shocks may explain both prevention and later hardship.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; flags-slice:sha256:59bb128795146c85e1d9ee1565dabd93a85544b721e469ce48f237b3e7a96866; result:sha256:e5f2c86844a9db5a0fc676e08d758dfe4f7858af2e96fa8f415cc1d0ccae1d84",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-030.md", "claim": "The directional SIPP finding supplies the monthly earnings/hours result and its boundary.", "status": "related-finding"},
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-care-work-tenure-poverty-layer-v1.md", "claim": "The tenure × poverty layer supplies the child-care payment, help, and work-prevention comparison.", "status": "related-layer"},
+    {"source_url": "../../records/us-sipp-childcare-work-hardship-bridge-2024.json", "claim": "The stable-SNAP bridge supplies following-month hardship comparisons and small-cell uncertainty.", "status": "related-record"}
+  ],
+  "boundary": "This is a deliberately non-pooled SIPP synthesis. It connects directional work movement, tenure/care distributions, and a stable-SNAP following-hardship bridge without treating them as one household estimate. It does not establish a care, tenure, SNAP, hardship, earnings, or hours causal effect; the next conditional person-month rerun requires the raw SIPP slice and replicate archive. Recovery, trust, political action, and institutional remedy remain open."
+}

@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-work-tenure-following-2024",
+  "title": "Utility difficulty sits beside different work-change surfaces for renters and owners",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "2025 SIPP public-use file, 2024 reference year; identified person-month pairs with utility-payment difficulty and tenure at month t, followed by earnings or hours change at month t+1",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; utility difficulty and owned/bought tenure at month t",
+      "denominator": {"value": 11674, "unit": "eligible adjacent person-month pairs; earnings and hours retain separate valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 80.485, "unit": "person-weighted percent; valid pair n=4414; Fay-BRR SE 1.684 pp; 95% CI 77.184–83.785", "value_type": "conditional_share"},
+        "hours_changed_next_month": {"value": 7.610, "unit": "person-weighted percent; valid pair n=4508; Fay-BRR SE 0.707 pp; 95% CI 6.224–8.996", "value_type": "conditional_share"}
+      },
+      "method": "Same-person adjacent-month transition using EAWBGAS=1, ETENURE=1, WPFINWGT at month t, and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; THHLDSTATUS and AAWBGAS validity filters retained.",
+      "uncertainty": "The utility field is a reported household/reference-person condition and not a dated bill shock. Person-month rows repeat household fields; estimates are not household prevalence. The comparison is descriptive and outcome universes differ.",
+      "subgroup": "ETENURE code 1: owned or being bought.",
+      "counterinterpretation": "Utility difficulty may reflect income, health, season, household composition, local prices, or job conditions; tenure does not identify which mechanism explains the following-month movement.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:11804b0b43398fb24077ca5a73c7dce0cc4e96ce1d04ea0068a0e7d7608488e3; script:sha256:f53928b869c0b9372d5d99d86cf3ba05db575fd714868eed50c3b1f47c5a541f",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; utility difficulty and rented tenure at month t",
+      "denominator": {"value": 11871, "unit": "eligible adjacent person-month pairs; earnings and hours retain separate valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 82.461, "unit": "person-weighted percent; valid pair n=4638; Fay-BRR SE 1.429 pp; 95% CI 79.661–85.261", "value_type": "conditional_share"},
+        "hours_changed_next_month": {"value": 7.583, "unit": "person-weighted percent; valid pair n=4738; Fay-BRR SE 0.643 pp; 95% CI 6.322–8.844", "value_type": "conditional_share"}
+      },
+      "method": "Same-person adjacent-month transition using EAWBGAS=1, ETENURE=2, WPFINWGT at month t, and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; THHLDSTATUS and AAWBGAS validity filters retained.",
+      "uncertainty": "The estimate is a descriptive tenure-conditioned transition screen, not evidence that renting or utility difficulty caused work change. Person-month rows and separate outcome universes remain explicit.",
+      "subgroup": "ETENURE code 2: rented.",
+      "counterinterpretation": "The renter comparison may reflect different income, local prices, family composition, provider access, job mix, or seasonal exposure rather than a tenure mechanism.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:11804b0b43398fb24077ca5a73c7dce0cc4e96ce1d04ea0068a0e7d7608488e3; script:sha256:f53928b869c0b9372d5d99d86cf3ba05db575fd714868eed50c3b1f47c5a541f",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; no utility difficulty and owned/bought tenure at month t",
+      "denominator": {"value": 233998, "unit": "eligible adjacent person-month pairs; earnings and hours retain separate valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 84.372, "unit": "person-weighted percent; valid pair n=104742; Fay-BRR SE 0.291 pp; 95% CI 83.802–84.942", "value_type": "conditional_share"},
+        "hours_changed_next_month": {"value": 4.927, "unit": "person-weighted percent; valid pair n=105911; Fay-BRR SE 0.133 pp; 95% CI 4.666–5.188", "value_type": "conditional_share"}
+      },
+      "method": "Same-person adjacent-month transition using EAWBGAS=2, ETENURE=1, WPFINWGT at month t, and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; THHLDSTATUS and AAWBGAS validity filters retained.",
+      "uncertainty": "The no-difficulty group is a descriptive comparison surface; it does not provide a counterfactual for utility difficulty or control for job, season, health, or household differences.",
+      "subgroup": "ETENURE code 1: owned or being bought.",
+      "counterinterpretation": "Lower hours movement without reported utility difficulty may reflect job composition or selection rather than utility stability protecting work continuity.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:11804b0b43398fb24077ca5a73c7dce0cc4e96ce1d04ea0068a0e7d7608488e3; script:sha256:f53928b869c0b9372d5d99d86cf3ba05db575fd714868eed50c3b1f47c5a541f",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; no utility difficulty and rented tenure at month t",
+      "denominator": {"value": 81964, "unit": "eligible adjacent person-month pairs; earnings and hours retain separate valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_changed_next_month": {"value": 83.473, "unit": "person-weighted percent; valid pair n=38614; Fay-BRR SE 0.535 pp; 95% CI 82.424–84.522", "value_type": "conditional_share"},
+        "hours_changed_next_month": {"value": 5.960, "unit": "person-weighted percent; valid pair n=38801; Fay-BRR SE 0.241 pp; 95% CI 5.488–6.432", "value_type": "conditional_share"}
+      },
+      "method": "Same-person adjacent-month transition using EAWBGAS=2, ETENURE=2, WPFINWGT at month t, and 240 replicate weights with Fay BRR, G=240, perturbation factor 0.5; THHLDSTATUS and AAWBGAS validity filters retained.",
+      "uncertainty": "The comparison retains separate field universes and is not a causal tenure or utility estimate.",
+      "subgroup": "ETENURE code 2: rented.",
+      "counterinterpretation": "Renter and owner differences may reflect selection, work type, geography, resources, or household composition; unchanged hours do not identify desired hours or security.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary:sha256:0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:11804b0b43398fb24077ca5a73c7dce0cc4e96ce1d04ea0068a0e7d7608488e3; script:sha256:f53928b869c0b9372d5d99d86cf3ba05db575fd714868eed50c3b1f47c5a541f",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-utility-work-following-reproduction-audit-2026-09-14.json", "claim": "The unconditioned utility-to-following-work screen and its full-file reproduction are preserved as the parent comparison.", "status": "related-reproduction"},
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-fay-brr-tenure-resource-estimates-v1.md", "claim": "The tenure/resource layer supplies the housing and utility exposure context.", "status": "related-layer"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The official dictionary defines EAWBGAS, ETENURE, TPEARN, and TMWKHRS fields and status codes.", "status": "official-definition"}
+  ],
+  "boundary": "This is a same-person monthly descriptive transition conditioned on utility-payment difficulty and tenure. It does not establish a dated bill shock, a tenure effect, utility causation, desired hours, job quality, care substitution, recovery, trust, political action, or household prevalence. It is a conditional work-transition layer, not a complete housing/energy episode."
+}

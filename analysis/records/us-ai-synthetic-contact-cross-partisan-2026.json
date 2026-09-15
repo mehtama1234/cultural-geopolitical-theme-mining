@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-synthetic-contact-cross-partisan-2026",
+  "title": "Synthetic AI contact can lower the short-run barrier to cross-partisan engagement",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "platforms_data_attention", "unequal_exposure_status"],
+  "source_unit": "Five preregistered experiments with online U.S. partisan participants; study-specific participant, within-person, and behavioral-choice units are preserved",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026; Study 1 aversion experiment",
+      "denominator": {"value": 608, "unit": "U.S. partisan participants", "value_type": "reported_sample"},
+      "measures": {"mortality_reflection_equivalent_ai": {"value": 5.06, "unit": "minutes accepted as equally aversive to a three-minute AI outgroup conversation", "value_type": "experimental_mean"}, "mortality_reflection_equivalent_human": {"value": 9.65, "unit": "minutes accepted as equally aversive to a three-minute live-human outgroup conversation", "value_type": "experimental_mean"}, "cohens_d": {"value": 0.34, "unit": "standardized between-condition difference", "value_type": "reported_effect"}},
+      "method": "Between-subjects randomized comparison of an AI outgroup partner and a live human outgroup partner, with an incentive-compatible mortality-reflection alternative.",
+      "uncertainty": "This measures aversion to the experimental conversation, not ordinary political contact, general AI preference, or durable openness. The online sample and mortality-reflection task limit generalization.",
+      "subgroup": "Democrats and Republicans; the paper reports the comparison held across parties and extremity range.",
+      "counterinterpretation": "Participants may find an AI interaction less socially threatening without becoming more receptive to real people or opposing ideas outside the experiment.",
+      "source_url": "https://arxiv.org/abs/2607.02181",
+      "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Study 2 within-person contact experiment",
+      "denominator": {"value": 500, "unit": "U.S. partisan participants measured before and after a ten-minute outgroup-bot conversation", "value_type": "reported_sample"},
+      "measures": {"outgroup_warmth_change": {"value": 4.3, "unit": "points on a 0-100 outgroup warmth thermometer", "value_type": "within_person_change"}, "intervention_minutes": {"value": 10, "unit": "minutes of conversation", "value_type": "intervention_dose"}},
+      "method": "Within-person pre/post design in which participants conversed with a chatbot prompted to represent their political outgroup and then re-rated warmth and beliefs.",
+      "uncertainty": "Pre/post movement is not equivalent to a fully controlled between-person effect. It does not establish persistence, policy agreement, institutional trust, or real-world action.",
+      "subgroup": "Democrats and Republicans; topic was environmental-consumption attitudes.",
+      "counterinterpretation": "Repeated measurement, demand effects, novelty, or the structured research setting may contribute to immediate movement.",
+      "source_url": "https://arxiv.org/abs/2607.02181",
+      "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Study 3 three-arm warmth experiment",
+      "denominator": {"value": 679, "unit": "U.S. Democratic participants", "value_type": "reported_sample"},
+      "measures": {"outgroup_bot_vs_apolitical_chat_d": {"value": 0.58, "unit": "Cohen's d in outgroup warmth", "value_type": "reported_effect"}, "outgroup_bot_vs_game_d": {"value": 0.59, "unit": "Cohen's d in outgroup warmth", "value_type": "reported_effect"}, "p_value": {"value": "<.001", "unit": "reported significance level", "value_type": "reported_statistic"}},
+      "method": "Between-subjects randomized three-arm comparison of an outgroup-representing bot, an apolitical cats-versus-dogs chat, and Space Invaders.",
+      "uncertainty": "The study's main sample is Democrats and the measured outcome is warmth after one conversation. It does not show broad depolarization or prove that the bot's representation was accurate.",
+      "subgroup": "Democrats in the reported main design.",
+      "counterinterpretation": "The outgroup prompt, topic, or perceived informativeness may be unusually effective and may not generalize across parties, issues, or model versions.",
+      "source_url": "https://arxiv.org/abs/2607.02181",
+      "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Study 4 costly behavioral-choice experiment",
+      "denominator": {"value": 1069, "unit": "U.S. partisan participants", "value_type": "reported_sample"},
+      "measures": {"control_choose_real_outgroup_conversation": {"value": 61, "unit": "percent", "value_type": "experimental_share"}, "outgroup_bot_choose_real_outgroup_conversation": {"value": 67, "unit": "percent", "value_type": "experimental_share"}, "odds_ratio": {"value": 1.33, "unit": "outgroup-bot versus apolitical-chat control", "value_type": "reported_effect"}, "odds_ratio_ci": {"value": "1.04-1.71", "unit": "95% confidence interval", "value_type": "reported_interval"}},
+      "method": "Between-subjects randomized five-minute outgroup-bot versus apolitical-chat experiment followed by an incentive-compatible choice between a real three-minute outgroup conversation and mortality reflection.",
+      "uncertainty": "The choice is immediate and experimentally structured. It is closer to action than an attitude item but does not establish later conversation quality, cooperation, voting, turnout, or policy agreement.",
+      "subgroup": "Democrats and Republicans; the paper reports a significant Republican shift and no significant treatment-by-party interaction.",
+      "counterinterpretation": "A willingness to choose one short conversation may reflect curiosity or novelty and may not translate into sustained cross-partisan relationships.",
+      "source_url": "https://arxiv.org/abs/2607.02181",
+      "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Study 5 one-week persistence experiment",
+      "denominator": {"value": 1104, "unit": "U.S. Democratic participants assigned to outgroup-bot or apolitical-chat conditions", "value_type": "reported_sample"},
+      "measures": {"immediate_cohens_d": {"value": 0.46, "unit": "Cohen's d in outgroup warmth", "value_type": "reported_effect"}, "one_week_cohens_d": {"value": 0.05, "unit": "Cohen's d in preregistered mean model; not statistically significant", "value_type": "reported_effect"}, "one_week_p_value": {"value": 0.16, "unit": "reported p-value", "value_type": "reported_statistic"}},
+      "method": "Between-subjects randomized outgroup-bot versus apolitical-chat experiment with immediate and one-week warmth measures.",
+      "uncertainty": "The one-week mean result is imprecise and the paper also reports an exploratory pooled residual. Neither establishes durable cultural change. Attrition, floor-bunching, and model specification remain relevant.",
+      "subgroup": "Democrats in the main study; the paper discusses persistence concentrated among more extreme participants in pooled follow-up work.",
+      "counterinterpretation": "A short intervention may need repetition or real social reinforcement; rapid decay may indicate that the immediate response was situational rather than a changed identity or belief.",
+      "source_url": "https://arxiv.org/abs/2607.02181",
+      "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://zenodo.org/records/20971465", "claim": "The authors publish de-identified data and code that reproduce the released analyses; archive SHA-256 is preserved in the source record.", "status": "replication-package"},
+    {"source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7042278", "claim": "SSRN provides the provisional working-paper record, authorship, posting date, and abstract.", "status": "working-paper-record"}
+  ],
+  "boundary": "This record contains study-specific randomized evidence for aversion, warmth, belief accuracy, a costly immediate contact choice, and one-week persistence in online U.S. partisan samples. It does not establish durable depolarization, real-world cooperation, electoral behavior, institutional trust, population-scale cultural change, or safe governance. Preprint and replication-package status remain explicit.",
+  "retrieval_hash": "sha256:41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf"
+}

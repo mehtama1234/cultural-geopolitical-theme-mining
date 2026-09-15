@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-procurement-rich-subaward-ueis-locations-2026",
+  "title": "Richer USAspending subaward search exposes recipient UEIs and locations without proving production sites",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "Official USAspending award-search subaward records for one JASSM/LRASM parent award",
+  "geography": "United States recipient and reported performance-location fields",
+  "observations": [
+    {
+      "period": "2024-11-22; BAE selected subaward row",
+      "denominator": {"value": 1, "unit": "selected returned subaward row", "value_type": "record"},
+      "measures": {
+        "subaward_id": {"value": "4106451402", "unit": "USAspending subaward identifier", "value_type": "reported_identifier"},
+        "recipient_uei": {"value": "V7X9P6J9SUK1", "unit": "Sub-Recipient UEI", "value_type": "reported_identifier"},
+        "recipient_location": {"value": "Nashua, New Hampshire", "unit": "USAspending recipient location", "value_type": "reported_location"},
+        "amount": {"value": 210018575, "unit": "nominal US dollars", "value_type": "reported_amount"},
+        "description": {"value": "AP SYSTEM; RFS antenna and RF sensor procurement-control drawing", "unit": "subaward description", "value_type": "reported_text"}
+      },
+      "method": "Official USAspending award-search endpoint with subawards=true and subaward-specific identifier, location, amount, date, and description fields.",
+      "uncertainty": "Recipient location and primary place of performance are reporting fields; they do not identify a manufacturing facility, production quantity, acceptance, or delivery. The UEI is not yet reconciled to a retained DLA CAGE record for this action.",
+      "subgroup": "Largest BAE-named recipient row in the bounded JASSM/LRASM extract.",
+      "counterinterpretation": "Nashua may be an administrative or registered recipient location, while work may occur at another facility or through another supplier.",
+      "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "retrieval_hash": "sha256:c50d039040b6200ffb8a9e168058ce50ee6cf3de34769cdf09b339e8ec0e8e6d",
+      "status": "observed"
+    },
+    {
+      "period": "2024-12-10; General Dynamics-OTS selected subaward row",
+      "denominator": {"value": 1, "unit": "selected returned subaward row", "value_type": "record"},
+      "measures": {
+        "subaward_id": {"value": "4106475970", "unit": "USAspending subaward identifier", "value_type": "reported_identifier"},
+        "recipient_uei": {"value": "KZK8C85C1T94", "unit": "Sub-Recipient UEI", "value_type": "reported_identifier"},
+        "recipient_location": {"value": "Niceville, Florida", "unit": "USAspending recipient location", "value_type": "reported_location"},
+        "amount": {"value": 80550804.12, "unit": "nominal US dollars", "value_type": "reported_amount"},
+        "description": {"value": "Case assembly loaded-live; Lots 22 through 26", "unit": "subaward description", "value_type": "reported_text"}
+      },
+      "method": "Official USAspending award-search endpoint with subawards=true and subaward-specific identifier, location, amount, date, and description fields.",
+      "uncertainty": "Niceville is a reported recipient location, not proof of the production line or facility; the UEI is not yet assigned to one of the selected DLA CAGE facilities, and the row supplies no accepted quantity or delivery event.",
+      "subgroup": "General Dynamics-OTS comparison recipient row in the bounded JASSM/LRASM extract.",
+      "counterinterpretation": "The reported location may identify the contracting entity while manufacturing, loading, testing, or delivery occurs elsewhere under shared corporate control.",
+      "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "retrieval_hash": "sha256:c50d039040b6200ffb8a9e168058ce50ee6cf3de34769cdf09b339e8ec0e8e6d",
+      "status": "observed"
+    },
+    {
+      "period": "2024-10-23 through 2025-02-28; richer response coverage",
+      "denominator": {"value": 74, "unit": "returned subaward rows for one parent award", "value_type": "unweighted_record_count"},
+      "measures": {
+        "subrecipient_uei_coverage": {"value": 74, "unit": "rows with Sub-Recipient UEI", "value_type": "count"},
+        "recipient_location_coverage": {"value": 74, "unit": "rows with Sub-Recipient Location", "value_type": "count"},
+        "primary_place_coverage": {"value": 74, "unit": "rows with Sub-Award Primary Place of Performance", "value_type": "count"},
+        "facility_assignment": {"value": "not observed", "unit": "UEI/CAGE-to-production-site assignment", "value_type": "open"}
+      },
+      "method": "Field-completeness audit of the richer official USAspending award-search subaward response; all returned rows were checked for non-null identifier and location objects.",
+      "uncertainty": "The endpoint exposes recipient and performance-location fields but not necessarily the actual manufacturing site, workforce, production, acceptance, delivery, or maintenance location.",
+      "subgroup": "All returned rows in one bounded weapons-system procurement case.",
+      "counterinterpretation": "Complete fields in a reporting response can still be administratively assigned or normalized; coverage is not operational validation.",
+      "source_url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "retrieval_hash": "sha256:c50d039040b6200ffb8a9e168058ce50ee6cf3de34769cdf09b339e8ec0e8e6d",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-077.md", "claim": "The sparse subaward route did not expose UEI or location fields, motivating the richer endpoint test.", "status": "corrected-context"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-076.md", "claim": "DLA CAGE records provide a separate facility and parent hierarchy that is not automatically the USAspending recipient location.", "status": "related-finding"},
+    {"source_url": "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/api_contracts/contracts/v2/search/spending_by_award.md", "claim": "Official API contract documents Sub-Recipient UEI, location, performance place, amount, description, and subaward fields.", "status": "official-method"}
+  ],
+  "boundary": "This record closes the subaward-to-UEI and subaward-to-reported-location links for all 74 returned rows. It does not establish actual production location, accepted or delivered quantities, workforce, replaceability, readiness, or geopolitical response."
+}

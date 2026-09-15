@@ -1,0 +1,54 @@
+{
+  "record_type": "source-route-recheck-v1",
+  "source_family": "ILOSTAT",
+  "checked_at_utc": "2026-09-15T04:26:29Z",
+  "purpose": "Recheck the official catalog/API delivery route before promoting labor-comparison estimates",
+  "routes": [
+    {
+      "url": "https://rplumber.ilo.org/metadata/toc/indicator/",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149af4c8996fb92427ae41e464ca495991b7852b855",
+      "result": "delivery_failure"
+    },
+    {
+      "url": "https://rplumber.ilo.org/metadata/toc/indicator/?lang=en",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149af4c8996fb92427ae41e464ca495991b7852b855",
+      "result": "delivery_failure"
+    },
+    {
+      "url": "https://rplumber.ilo.org/__docs__/",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149af4c8996fb92427ae41e464ca495991b7852b855",
+      "result": "delivery_failure"
+    },
+    {
+      "url": "https://rplumber.ilo.org/files/indicator/UNE_TUNE_SEX_AGE_NB_A.rds",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149af4c8996fb92427ae41e464ca495991b7852b855",
+      "result": "delivery_failure"
+    },
+    {
+      "url": "https://rplumber.ilo.org/files/indicator/UNE_TUNE_SEX_AGE_NB_A.csv.gz",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149af4c8996fb92427ae41e464ca495991b7852b855",
+      "result": "delivery_failure"
+    }
+  ],
+  "evidence_boundary": "The official ILOSTAT documentation and route names are confirmed, but no indicator metadata or observations were delivered. This record does not establish that the indicator or underlying data are empty or unavailable. No ILOSTAT estimate is promoted.",
+  "documentation": [
+    "https://ilostat.github.io/Rilostat/reference/get_ilostat_toc.html",
+    "https://ilostat.github.io/Rilostat/reference/get_ilostat.html",
+    "https://ilostat.ilo.org/data/bulk/"
+  ]
+}

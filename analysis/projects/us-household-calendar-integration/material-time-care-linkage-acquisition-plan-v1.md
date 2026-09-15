@@ -71,9 +71,13 @@ longitudinal monthly income, employment, household, health-insurance, child-
 care, and food-security content. These are acquisition findings, not evidence
 that the sources can be joined to one another.
 
-The PSID candidate is **accepted only as a modular backbone pending a full
-variable audit**. Before acquisition, verify whether the selected main-study
-waves and supplements contain: a dated enough financial or care trigger;
+The PSID candidate is now **documented as a viable modular backbone after the
+2023 field audit**, while the estimate-level acquisition gate remains open.
+The official 2023 Family File confirms the planned work, housework, care,
+time-pressure, health, income, wealth, home-insurance, and utility fields, but
+the codebook also confirms routing, imputation, and family/person-unit
+boundaries. Before acquisition, verify whether the selected main-study waves
+and supplements contain: a dated enough financial or care trigger;
 repeated time-use and unpaid-care measures for the same adults; work
 schedule/control; health and material outcomes; and direct trust, meaning, or
 civic-action measures. The current documentation already indicates that the
@@ -89,12 +93,15 @@ interview sequence is biennial from 1999 through 2023, with earlier annual
 waves. This is substantial longitudinal population infrastructure, but
 individual availability varies with family membership and nonresponse.
 
-The packaged-data page exposes the 2023 main family and cross-year individual
-packages, plus CDS files through 2024, TAS through 2023, and DUST for 2009 and
-2013. The public ZIP route requires a registered PSID account and acceptance of
-the site's conditions of use. Until that account step is completed, the next
-safe action is documentation and variable-search work; no local PSID data
-extract is claimed.
+The packaged-data page exposes the 2019, 2021, and 2023 main Family Files and
+a 1968–2023 Cross-year Individual File, plus CDS files through 2024, TAS
+through 2023, and DUST for 2009 and 2013. The public ZIP route requires a
+registered PSID account and acceptance of the site's conditions of use. The
+cross-year individual package can cover the person-level side of the
+2019/2021/2023 structural gate; wave-specific family packages remain required
+for family-level resources, expenditure, composition, and weights. Until that
+account step is completed, the next safe action is documentation and
+variable-search work; no local PSID data extract is claimed.
 
 The detailed diary supplements must remain separate in the design. The PSID
 index lists child time diaries for 1997, 2002, and 2007, later child/adolescent
@@ -155,6 +162,12 @@ The planned first extract is specified in the [PSID material/time/care extract
 specification](psid-material-time-care-extract-spec-v1.md). It fixes the unit,
 candidate fields, comparison cells, arrow statuses, and quality gates before
 data access is available.
+
+The first executable post-download step is the [PSID wave-file audit
+protocol](psid-wave-file-audit-protocol-v1.md), which checks the three target
+wave files against the mapped variable surface and explicit merge keys. A
+passing structural audit is a readiness signal only; it does not waive the
+universe, missingness, retention, weighting, or comparability gates.
 
 ## Current access gate verification
 

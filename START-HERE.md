@@ -9,6 +9,18 @@ the [full broad-program reader map](site/us-broad-program-map.html), and the
 choosing a dataset.
 Then check the [current broad-program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 for the latest coverage and open arrows.
+The [program continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md)
+is the durable control record for the long-term objective, active lanes,
+acquisition gates, and session handoffs.
+The [server-visible program dashboard](site/us-program-dashboard.html) is the
+quick operating view of the 14 themes, source ecosystem, current evidence
+volume, active depth lane, acquisition gate, and open arrows.
+
+For the reader-facing writeup, open the [theme trends and insights page](site/theme-trends.html)
+after the reading room. For the active household-calendar dependency, see the
+[PSID acquisition gate](site/psid-acquisition-gate.html); it records exactly
+what is missing and prevents documentation from being mistaken for a completed
+panel estimate.
 
 Open the [connected HTML reading guide](site/us-theme-atlas.html) or its [Markdown edition](analysis/us-theme-atlas.md). Each topic has subthemes, sources, limits and explained connections. The editable relationship record is [us-theme-connections.json](manifests/us-theme-connections.json); rebuild both editions with `python3 scripts/build_us_theme_atlas.py`, then validate them with `python3 scripts/validate_us_theme_atlas.py`.
 
@@ -16,11 +28,36 @@ The [US source coverage index](site/us-source-coverage.html) shows the current p
 
 The [US evidence and map audit](site/us-evidence-audit.html) shows which topics have a specific evidence check, how many semantic links and reading paths reach each topic, and where the record is still opening-only.
 
+The [trend-observation registry](site/us-trend-observations.html) is the machine-readable evidence layer for recurring observations, with its [Markdown edition](analysis/us-trend-observations.md). Rebuild it with `python3 scripts/build_us_trend_observation_registry.py` and validate the records with `python3 scripts/validate_trend_observation_records.py`.
+
+The [cross-source trend synthesis](analysis/US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) is the current bridge across material, time/care, institutional, political, infrastructure, and geopolitical evidence. It distinguishes the partial end-to-end segments from the still-missing single-unit chain.
+
+The current program-level finding is [Unequal optionality is the recurring structure behind pressure, adaptation, and power](site/us-broad-program-unequal-optionality-path-001.html), with its [long-form Markdown record](analysis/findings/us-broad-program-unequal-optionality-path-001.md). It reads across the material, time/care, institutional, cultural, political, firm, infrastructure, and geopolitical layers while preserving the distinction between direct evidence and cross-source interpretation.
+
+The [trend-theme coverage view](site/us-trend-theme-coverage.html) groups machine-readable records by validated atlas theme and surfaces breadth gaps. Rebuild it with `python3 scripts/build_us_trend_theme_coverage.py`.
+
+Check that the continuity ledger and generated registries agree with their source files using `python3 scripts/validate_program_control_sync.py`.
+
+For the complete long-term publication gate, run `python3 scripts/validate_long_term_publication_gate.py`. It checks program synchronization, source coverage, provenance, observation records, finding Markdown/HTML parity, published links, local Markdown links, and whitespace integrity together.
+
 The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five reader umbrellas together, while the [full broad-program map](site/us-broad-program-map.html) covers the complete 14-theme scope. Together they show which links are supported, which are comparisons, and which still need a stronger test.
 
 The [matched-evidence index](site/us-matched-evidence.html) collects the deeper checks completed after the opening source packets and shows the open link in each one.
 
+The generated site can be checked for broken relative links with
+`python3 scripts/validate_published_site_links.py`; this validates the served
+HTML topology in addition to the source Markdown links.
+
+Run `python3 scripts/validate_trend_provenance.py` to check source URLs and
+retrieval-hash structure across the full trend registry.
+
 The newest plain-language reading pages are [bank fees and liquidity](site/us-bank-fee-credit-path-001.html), [benefit access and work cliffs](site/us-safety-net-access-path-001.html), [rideshare choice and safety](site/us-rideshare-price-search-path-001.html), and [care time and work](site/us-aging-care-work-path-001.html). They follow the same rule: make the household trade visible, then separate what is measured from what is inferred.
+
+The latest cross-source care pass is [Care time is a household price paid in work, money, and reachable places](site/us-care-time-hidden-price-matched-evidence-001.html). It joins ATUS, SHED, NHTS, and SIPP evidence while keeping their different units, samples, and open same-family links explicit.
+
+The latest SIPP quality pass is [SIPP material and food-security estimates survive a design-based uncertainty check](site/us-household-calendar-integration-002.html). It adds official universes, 240 Fay-BRR replicate weights, standard errors, and approximate confidence intervals while preserving the person-weighted and non-causal boundary.
+
+The current cross-source rotation adds five bounded reader paths: [income timing, outside help, and budget margin](site/us-household-financial-pressure-013.html), [energy cost and equipment risk](site/us-household-calendar-integration-034.html), [financial access from doorway to remedy](site/us-financial-intermediation-002.html), [business applications versus realized local capacity](site/us-local-business-place-011.html), and [global poverty, climate exposure, and data coverage as comparative context](site/ai-work-control-073.html). These pages are the newest frontier of the atlas; they sharpen separate stages without claiming one shared household or geopolitical causal chain.
 
 The first complete connected memo is [When household protection becomes a public feeling](site/us-household-cost-path-001.html), with its [Markdown record](analysis/findings/us-household-cost-path-001.md). It joins three source-backed observations while keeping the missing same-household evidence visible.
 
@@ -82,6 +119,11 @@ A finding must answer:
 Begin with **AI adoption, work, and the new middle layer of control**. This connects current HBS material on AI adoption and careers with NBER work on labor markets, productivity, firms, inequality, and technology. Do not assume AI is the cause. Test whether the real change is in task control, measurement, worker bargaining power, training, or ownership of the workflow.
 
 The initial project brief is [analysis/projects/ai-work-control/README.md](analysis/projects/ai-work-control/README.md).
+
+This is the entry point for the long-term atlas, not its scope limit. Continue to
+add and revisit themes involving cultural meaning, social life, consumer
+behavior, institutions, finance, firms, places, infrastructure, politics, and
+geopolitical power as new evidence becomes available.
 
 ## Next major project direction
 
@@ -185,7 +227,7 @@ The next short pass is [US small-business support and size rules](analysis/proje
 
 The next short pass is [US student-loan policy uncertainty](analysis/projects/us-student-loan-policy-uncertainty/README.md), with its [source search record](analysis/projects/us-student-loan-policy-uncertainty/source-search-2026-09-11.md). It tests how a debt promise changes household payments and spending before the policy is settled.
 
-The next short pass is [US trust in the Federal Reserve](analysis/projects/us-fed-partisan-trust/README.md), with its [source search record](analysis/projects/us-fed-partisan-trust/source-search-2026-09-11.md). It tests whether political identity changes how households hear an economic message.
+The first detailed pass on [US trust in the Federal Reserve](analysis/projects/us-fed-partisan-trust/findings/us-fed-partisan-trust-001.md) is now published. It tests whether political identity changes how households hear an economic message; the next step is realized household behavior after a dated communication and later political action.
 
 The next short pass is [US inflation cause beliefs](analysis/projects/us-inflation-cause-beliefs/README.md), with its [source search record](analysis/projects/us-inflation-cause-beliefs/source-search-2026-09-11.md). It tests how a household price becomes a story about responsibility and political action.
 

@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipri-military-expenditure-2025-state-capacity",
+  "title": "Global military spending rose while US spending fell and European capacity accelerated",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "SIPRI military-expenditure estimate by country, region, and alliance grouping",
+  "geography": "Global, national, regional, and NATO groupings",
+  "observations": [
+    {
+      "period": "2025 global military expenditure",
+      "denominator": {"value": 1, "unit": "global military-expenditure aggregate", "value_type": "global_aggregate"},
+      "measures": {
+        "world_spending": {"value": 2887, "unit": "US dollars billions at current prices", "value_type": "estimated_aggregate"},
+        "real_change": {"value": 2.9, "unit": "percent change from 2024 in constant 2024 US dollars", "value_type": "estimated_change"},
+        "decade_change": {"value": 41, "unit": "percent change from 2016 to 2025 in real terms", "value_type": "estimated_change"},
+        "military_burden": {"value": 2.5, "unit": "percent of global GDP", "value_type": "estimated_share"},
+        "spending_per_person": {"value": 352, "unit": "US dollars per person", "value_type": "estimated_per_capita"}
+      },
+      "method": "SIPRI estimates national and regional military expenditure from open sources, presents calendar-year figures in current and constant US dollars, and calculates GDP, government-expenditure, and per-capita shares using its Military Expenditure Database.",
+      "uncertainty": "Some country figures are estimated; financial-year and calendar-year conventions differ; open-source availability and national reporting quality vary. Global aggregates do not measure operational capability, readiness, procurement delivery, or welfare trade-offs.",
+      "subgroup": "World aggregate and regional/national military-spending units.",
+      "counterinterpretation": "A slower global growth rate can coexist with historically high spending; monetary totals do not show effectiveness, strategic intent, or how spending affects households and social programs.",
+      "source_url": "https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf",
+      "retrieval_hash": "sha256:ec29640e0985a46c380b0159a9bdefa7f6ddb16b2d8ae07b0ec37596ba56b631",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 top spenders and US-China comparison",
+      "denominator": {"value": 5, "unit": "top-five national military spenders in 2025", "value_type": "reported_group_count"},
+      "measures": {
+        "top_five_share": {"value": 58, "unit": "percent of world military spending", "value_type": "reported_share"},
+        "us_spending": {"value": 954, "unit": "US dollars billions", "value_type": "estimated_national_total"},
+        "us_change": {"value": -7.5, "unit": "percent real change from 2024", "value_type": "estimated_change"},
+        "china_spending": {"value": 336, "unit": "US dollars billions, estimated", "value_type": "estimated_national_total"},
+        "china_change": {"value": 7.4, "unit": "percent real change from 2024", "value_type": "estimated_change"},
+        "us_to_china_ratio": {"value": 2.8, "unit": "ratio of US to Chinese military spending in 2025", "value_type": "reported_ratio"}
+      },
+      "method": "SIPRI country estimates and rankings using current-price US-dollar totals and constant-dollar real-change calculations.",
+      "uncertainty": "China's figure is estimated; exchange rates, purchasing-power differences, classified spending, and assistance accounting affect comparisons. Spending is an input to capacity, not a direct measure of military output.",
+      "subgroup": "United States, China, Russia, Germany, and India; top-five aggregate.",
+      "counterinterpretation": "A falling US annual total can reflect a fall in supplemental overseas assistance rather than broad reductions in all US capabilities or procurement priorities.",
+      "source_url": "https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf",
+      "retrieval_hash": "sha256:ec29640e0985a46c380b0159a9bdefa7f6ddb16b2d8ae07b0ec37596ba56b631",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 regional and NATO spending",
+      "denominator": {"value": 32, "unit": "NATO member states", "value_type": "reported_group_count"},
+      "measures": {
+        "europe_spending": {"value": 864, "unit": "US dollars billions", "value_type": "estimated_regional_total"},
+        "europe_change": {"value": 14, "unit": "percent real change from 2024", "value_type": "estimated_change"},
+        "asia_oceania_spending": {"value": 681, "unit": "US dollars billions", "value_type": "estimated_regional_total"},
+        "asia_oceania_change": {"value": 8.1, "unit": "percent real change from 2024", "value_type": "estimated_change"},
+        "nato_spending": {"value": 1581, "unit": "US dollars billions", "value_type": "estimated_alliance_total"},
+        "nato_world_share": {"value": 55, "unit": "percent of world military spending", "value_type": "estimated_share"},
+        "european_nato_spending": {"value": 559, "unit": "US dollars billions", "value_type": "estimated_alliance_subtotal"},
+        "nato_members_at_least_two_percent_gdp": {"value": 23, "unit": "NATO members meeting at least 2.0% of GDP under SIPRI methodology", "value_type": "reported_count"}
+      },
+      "method": "SIPRI regional and alliance aggregation from national military-expenditure estimates.",
+      "uncertainty": "Alliance totals combine countries with different accounting, fiscal years, and estimates; the 2.0% threshold is a SIPRI calculation and does not measure readiness, burden-sharing quality, or political durability.",
+      "subgroup": "Europe, Asia and Oceania, NATO, and European NATO members.",
+      "counterinterpretation": "Higher allied spending may improve material options without producing interoperable capability, timely procurement, or stable public support; lower US spending may reflect aid-accounting changes.",
+      "source_url": "https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf",
+      "retrieval_hash": "sha256:ec29640e0985a46c380b0159a9bdefa7f6ddb16b2d8ae07b0ec37596ba56b631",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.sipri.org/publications/2026/sipri-fact-sheets/trends-world-military-expenditure-2025", "claim": "Official SIPRI metadata and replacement-vintage notice.", "status": "official-metadata"},
+    {"source_url": "https://www.sipri.org/databases/milex", "claim": "SIPRI Military Expenditure Database covering 1949–2025 and methodology.", "status": "official-database"},
+    {"source_url": "https://www.sipri.org/sites/default/files/2025-04/2504_fs_milex_2024.pdf", "claim": "Prior 2024 vintage retained for comparison; updated by the 2025 release.", "status": "prior-vintage"}
+  ],
+  "boundary": "This record measures SIPRI monetary estimates and shares of military expenditure through 2025. It does not establish operational capability, procurement realization, alliance behavior, state intent, household incidence, social-spending displacement, or geopolitical outcomes. The 2025 database replaces prior SIPRI military-spending data and should be treated as a new vintage."
+}

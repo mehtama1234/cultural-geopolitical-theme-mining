@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-world-bank-global-findex-financial-room-2011-2024",
+  "title": "Financial access is broadening, but digital reach and financial room remain different surfaces",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Global Findex 2025 country-level and demographic indicators; nationally representative adult survey aggregates",
+  "geography": "United States with selected country comparisons",
+  "observations": [
+    {
+      "period": "2011–2024; United States",
+      "denominator": {"value": null, "unit": "country-level Global Findex adult estimate; API does not expose a common respondent count in the country indicator response", "value_type": "not_disclosed"},
+      "measures": {
+        "account_ownership": {"value": "2011: 88.0%; 2014: 93.6%; 2017: 93.1%; 2021: 95.0%; 2024: 97.0%", "unit": "percent of adults ages 15+", "value_type": "country_time_series"},
+        "female_account_ownership": {"value": "2011: 84.1%; 2024: 97.1%", "unit": "percent of women ages 15+", "value_type": "demographic_time_comparison"},
+        "male_account_ownership": {"value": "2011: 92.0%; 2024: 96.9%", "unit": "percent of men ages 15+", "value_type": "demographic_time_comparison"},
+        "account_gender_gap": {"value": "7.9 percentage points in 2011; -0.2 points in 2024", "unit": "male minus female account-ownership percentage points", "value_type": "derived_gap"}
+      },
+      "method": "World Bank API source 14 extraction of Global Findex indicator account.t.d and its female/male variants for the five published survey years; gaps calculated from the returned percentages.",
+      "uncertainty": "These are country-level survey estimates with country-specific sampling error and survey weights. The series are repeated cross-sections, not a panel of the same adults; apparent change combines population composition, sampling, measurement, and real change.",
+      "subgroup": "United States overall, women, and men; gender categories and adult universe follow the World Bank indicator definitions.",
+      "counterinterpretation": "Near-universal account ownership does not show usable liquidity, affordable terms, payment security, remedy, or the ability to refuse a provider. A smaller gender gap in ownership can coexist with gaps in use, balances, credit, safety, or control.",
+      "source_url": "https://www.worldbank.org/en/publication/globalfindex/download-data",
+      "retrieval_hash": "extract:sha256:98bf2417442e42828b43fd90a32241ebcebd3a9f33de695096c764e6c4511613; catalog:sha256:2ac0136c16de258ac72abacf0275a58cd350936a5a6a88aebe0fb4d54adb9b5c",
+      "status": "compared"
+    },
+    {
+      "period": "2024; selected countries",
+      "denominator": {"value": null, "unit": "country-level Global Findex adult estimate; country-specific survey count not included in API response", "value_type": "not_disclosed"},
+      "measures": {
+        "account_ownership": {"value": "United States 97.0%; Canada 98.4%; Germany 98.3%; United Kingdom 99.3%; China 89.4%; India 89.0%; Brazil 86.4%; South Africa 81.1%; Mexico 53.0%", "unit": "percent of adults ages 15+", "value_type": "country_comparison"},
+        "mobile_phone_ownership": {"value": "United States 98.0%; Canada 89.4%; Germany 92.0%; United Kingdom 91.8%; China 96.6%; India 66.5%; Brazil 92.1%; South Africa 87.0%; Mexico 83.3%", "unit": "percent of adults ages 15+", "value_type": "country_comparison"},
+        "smartphone_ownership": {"value": "United States 92.6%; Canada 84.1%; Germany 84.5%; United Kingdom 85.4%; China 88.2%; India 42.0%; Brazil 71.8%; South Africa 67.5%; Mexico 64.5%", "unit": "percent of adults ages 15+", "value_type": "country_comparison"}
+      },
+      "method": "Identical World Bank API indicator extraction for account ownership, mobile-phone ownership, and smartphone ownership across nine selected economies; values are descriptive comparisons, not ranked welfare scores.",
+      "uncertainty": "Countries differ in survey mode, questionnaire routing, sampling, institutional context, and indicator availability. Cross-country percentages should not be read as causal country effects or as comparable service quality.",
+      "subgroup": "National adult estimates; no within-country income, age, gender, rural/urban, or wealth stratification in this observation.",
+      "counterinterpretation": "A country can have high account ownership but lower digital connectivity, or high connectivity but lower account ownership. Neither surface identifies whether people can access affordable credit, savings, protection, or an effective remedy.",
+      "source_url": "https://api.worldbank.org/v2/country/USA/indicator/account.t.d?format=json&per_page=100",
+      "retrieval_hash": "extract:sha256:98bf2417442e42828b43fd90a32241ebcebd3a9f33de695096c764e6c4511613; catalog:sha256:2ac0136c16de258ac72abacf0275a58cd350936a5a6a88aebe0fb4d54adb9b5c",
+      "status": "compared"
+    },
+    {
+      "period": "2014–2021; United States financial-use and resilience indicators",
+      "denominator": {"value": null, "unit": "country-level Global Findex adult estimate; indicator-specific valid universe", "value_type": "not_disclosed"},
+      "measures": {
+        "made_or_received_digital_payment": {"value": "2014: 92.0%; 2017: 91.1%; 2021: 93.0%; 2024: unavailable in the returned US series", "unit": "percent of adults ages 15+", "value_type": "country_time_series"},
+        "saved_any_money": {"value": "2014: 75.6%; 2017: 79.3%; 2021: 78.6%; 2024: unavailable in the returned US series", "unit": "percent of adults ages 15+", "value_type": "country_time_series"},
+        "borrowed_from_formal_financial_institution": {"value": "2014: 64.6%; 2017: 68.4%; 2021: 66.2%; 2024: unavailable in the returned US series", "unit": "percent of adults ages 15+", "value_type": "country_time_series"},
+        "could_raise_emergency_funds": {"value": "2014: 66.0%; 2017: 71.8%; 2021: 95.0%; 2024: unavailable in the returned US series", "unit": "percent of adults ages 15+; possible within 30 days", "value_type": "country_time_series"}
+      },
+      "method": "World Bank API extraction of the returned US Global Findex series for digital payments, saving, formal borrowing, and emergency-fund capacity. The 2024 values are retained as unavailable rather than interpreted from API zeros or missing observations.",
+      "uncertainty": "These are repeated country cross-sections with indicator-specific universes and substantial questionnaire differences across rounds. The large 2021 emergency-fund movement should not be interpreted as a causal improvement without checking wording, routing, and sampling documentation.",
+      "subgroup": "United States overall; no subgroup breakdown in this observation.",
+      "counterinterpretation": "Reported capacity to raise emergency funds is not liquid savings or a realized recovery path; digital payment use is not protection, affordability, or consumer control. The absence of a 2024 US value is a data-availability boundary, not evidence of no change.",
+      "source_url": "https://api.worldbank.org/v2/country/USA/indicator/g20.any?format=json&per_page=100",
+      "retrieval_hash": "extract:sha256:98bf2417442e42828b43fd90a32241ebcebd3a9f33de695096c764e6c4511613; catalog:sha256:2ac0136c16de258ac72abacf0275a58cd350936a5a6a88aebe0fb4d54adb9b5c",
+      "status": "reported"
+    },
+    {
+      "period": "2024; connectivity and account-access contrast",
+      "denominator": {"value": null, "unit": "country-level Global Findex adult estimate; indicator-specific country universe", "value_type": "not_disclosed"},
+      "measures": {
+        "us_account_minus_phone": {"value": -1.0, "unit": "percentage points; account ownership minus mobile-phone ownership", "value_type": "derived_gap"},
+        "us_phone_minus_smartphone": {"value": 5.4, "unit": "percentage points; mobile-phone ownership minus smartphone ownership", "value_type": "derived_gap"},
+        "mexico_account_minus_phone": {"value": -30.2, "unit": "percentage points; account ownership minus mobile-phone ownership", "value_type": "derived_gap"},
+        "india_phone_minus_smartphone": {"value": 24.5, "unit": "percentage points; mobile-phone ownership minus smartphone ownership", "value_type": "derived_gap"}
+      },
+      "method": "Derived contrasts from the 2024 country-level World Bank API estimates in the selected-country slice.",
+      "uncertainty": "The gaps are descriptive differences between separate indicators, not measures of a person's inability to use finance. Phone ownership, smartphone ownership, account ownership, and account use have different definitions and practical requirements.",
+      "subgroup": "Selected country-level adult estimates; comparisons are illustrative rather than a complete country ranking.",
+      "counterinterpretation": "A small aggregate gap can hide subgroup or geographic exclusions, and a large gap can reflect formal-account design, cash use, identity requirements, or survey interpretation rather than a single digital divide mechanism.",
+      "source_url": "https://www.worldbank.org/en/publication/globalfindex/report",
+      "retrieval_hash": "extract:sha256:98bf2417442e42828b43fd90a32241ebcebd3a9f33de695096c764e6c4511613; catalog:sha256:2ac0136c16de258ac72abacf0275a58cd350936a5a6a88aebe0fb4d54adb9b5c",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed.htm", "claim": "SHED supplies US household-level financial well-being, hardship, liquidity, and adaptation measures that country-level Findex indicators cannot replace.", "status": "comparison-context"},
+    {"source_url": "https://www.financialresearch.gov/", "claim": "OFR supplies financial-system and market-plumbing context at an institutional level rather than a household survey level.", "status": "comparison-context"},
+    {"source_url": "https://data.imf.org/Datasets/FAS", "claim": "IMF Financial Access Survey supplies provider-side financial-access context that complements Findex demand-side responses.", "status": "comparison-context"}
+  ],
+  "boundary": "The Global Findex 2025 adds a valuable cross-country demand-side layer: US account ownership rose from 88.0% in 2011 to 97.0% in 2024, and the measured gender ownership gap nearly disappeared. But access, connectivity, digital payment use, emergency resilience, formal borrowing, affordable terms, effective remedy, trust, and political action remain different surfaces. The 2024 high-income questionnaire does not return several US financial-use indicators; those missing values are not zeros. This record does not establish a causal digital-finance effect, household recovery, consumer welfare, or geopolitical leverage."
+}

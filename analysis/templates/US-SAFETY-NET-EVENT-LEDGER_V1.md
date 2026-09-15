@@ -46,6 +46,11 @@ template, not evidence that every episode follows the full chain.
 Record each outcome for the same episode and date window. Do not substitute
 participation or exit for any of them.
 
+For every outcome window, record two separate fields: **protected outcome**
+(what the household kept or avoided) and **sacrificed outcome** (what it lost,
+delayed, transferred, or put at risk). If neither is observed, write unknown;
+do not infer sacrifice from route burden or protection from continued receipt.
+
 - food quantity, variety, skipped meals, and food-security status;
 - work, hours, earnings, commute, missed shift, and job change;
 - debt, borrowing, late payment, savings, and family or community help;

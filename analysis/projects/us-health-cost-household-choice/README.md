@@ -17,7 +17,7 @@ price, bill, coverage, or payment rule
   -> who carries the cost and who can avoid it
 ```
 
-This is a short discovery pass. It will become a larger project only if the next sources connect the reported choice to later household or institutional outcomes.
+This is one durable lane in the long-term atlas. Its next sources should progressively connect reported choices to later household and institutional outcomes.
 
 ## Matched evidence pass
 
@@ -38,6 +38,12 @@ and work position combine into different adaptation menus.
 The [care and age distribution layer](shed-care-age-distribution-layer-v1.md)
 adds life-stage structure, showing that the care pattern is distributed across
 younger, midlife, and older respondents rather than being one age-neutral mean.
+
+The [care-cost, time, work, and family-security cross-source finding](../../findings/us-care-cost-time-work-currency-cross-source-001.md)
+now places the MEPS longitudinal layer beside the SIPP child-care/work
+constraint layer and the SHED unpaid-care adaptation layer. It treats money,
+time, work capacity, and family security as separate currencies and keeps the
+same-event household pathway open rather than pooling non-comparable samples.
 
 ## First working idea
 

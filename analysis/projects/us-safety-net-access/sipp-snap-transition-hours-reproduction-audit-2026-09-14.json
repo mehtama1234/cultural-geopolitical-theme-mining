@@ -1,0 +1,15 @@
+{
+  "audit_date": "2026-09-14",
+  "script": "scripts/analyze_sipp_snap_transition_context_fay_brr.py",
+  "primary_input": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
+  "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+  "replicate_input": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+  "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "positive_weight_transition_pairs_matched": 824,
+  "hours_field": "TMWKHRS, monthly average hours worked per week at all jobs held during the reference month; valid hours pairs: 119 for no-to-yes and 133 for yes-to-no",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "derived_output_sha256": "69ba0e2a62e107b3d9a1e0f8b050086be8e5ee2d9c3e8a2af09c786b50d3583b",
+  "reproduction": "The hours point estimates, standard errors, confidence intervals, valid-record counts, and transition weights reproduce the promoted hours observations."
+}

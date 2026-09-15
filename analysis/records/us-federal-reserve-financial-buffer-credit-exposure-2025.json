@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-financial-buffer-credit-exposure-2025",
+  "title": "Household financial exposure separates liquid buffers, revolving credit, and repayment strain",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; selected responses linked to credit-report data",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 SHED; emergency liquidity",
+      "denominator": {"value": 100, "unit": "published percentage base among adults", "value_type": "survey_population"},
+      "measures": {"would_cover_400_with_cash_or_equivalent": {"value": 63, "unit": "percent of adults", "value_type": "share"}, "would_be_unable_to_pay_400": {"value": 12, "unit": "percent of adults", "value_type": "share"}, "would_put_400_on_card_and_carry_balance": {"value": 15, "unit": "percent of adults; multiple-response table", "value_type": "share"}, "would_borrow_from_friend_or_family": {"value": 10, "unit": "percent of adults; multiple-response table", "value_type": "share"}},
+      "method": "Federal Reserve 2025 SHED published emergency-expense estimates; cash-equivalent and alternative-payment measures use different response paths, and alternative approaches are not mutually exclusive.",
+      "uncertainty": "These are hypothetical payment-capacity reports, not observed emergency transactions, balances, or subsequent repayment outcomes; preserving cash as a buffer can also produce a non-cash answer.",
+      "subgroup": "All adults.",
+      "counterinterpretation": "A non-cash response can reflect precautionary liquidity management rather than inability, while a cash-equivalent response does not establish a durable emergency fund.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm",
+      "retrieval_hash": "sha256:b88dcdd88a27029a79b82a2f179291eab78bc5e669e4f82fa40f2368a16cddb9",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; credit-card ownership and revolving use",
+      "denominator": {"value": 100, "unit": "published percentage base among adults; balance-carrying conditional on card ownership", "value_type": "survey_population"},
+      "measures": {"has_credit_card": {"value": 82, "unit": "percent of adults", "value_type": "share"}, "carried_credit_card_balance": {"value": 45, "unit": "percent of credit-card owners who carried a balance at least once in prior 12 months", "value_type": "conditional_share"}},
+      "method": "Federal Reserve 2025 SHED published credit-card ownership and usage estimates.",
+      "uncertainty": "The survey does not ask respondents for the dollar amount of their credit-card balances; carrying a balance is not itself evidence of delinquency, distress, or a rate-driven change.",
+      "subgroup": "All adults and credit-card owners.",
+      "counterinterpretation": "Some respondents may carry balances for timing, rewards, or convenience; the ownership and balance-carrying denominators must not be conflated.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "retrieval_hash": "sha256:bf9d29ef0bac4617962f43add86883847b360d9016cf21aa3c19a097785830a1",
+      "status": "reported"
+    },
+    {
+      "period": "2023 to 2025; SHED respondents linked to credit records",
+      "denominator": {"value": 63, "unit": "percent of 2025 SHED respondents consenting to credit-report matching; balance table is among linked respondents with credit cards", "value_type": "conditional_share"},
+      "measures": {"overall_average_credit_card_balance_change": {"value": 748, "unit": "US dollars, 2023 to 2025", "value_type": "reported_change"}, "overall_balance_change_percent": {"value": 11, "unit": "percent, 2023 to 2025", "value_type": "reported_change"}, "difficult_to_get_by_balance_change": {"value": 2530, "unit": "US dollars, 2023 to 2025", "value_type": "reported_change"}, "difficult_to_get_by_balance_change_percent": {"value": 37, "unit": "percent, 2023 to 2025", "value_type": "reported_change"}, "living_comfortably_balance_change": {"value": 59, "unit": "US dollars, 2023 to 2025", "value_type": "reported_change"}, "living_comfortably_balance_change_percent": {"value": 1, "unit": "percent, 2023 to 2025", "value_type": "reported_change"}},
+      "method": "Federal Reserve SHED responses linked to nationwide credit-report data; the same 2025 respondents' 2023 and 2025 balances are compared by self-reported financial well-being.",
+      "uncertainty": "The linked sample is consent-based and not the full adult population; the comparison is descriptive and does not identify whether balances rose because of rates, spending, income loss, refinancing, or other events.",
+      "subgroup": "Linked SHED respondents with credit cards, classified by reported financial well-being.",
+      "counterinterpretation": "Higher balances among hardship groups may reflect households using credit to smooth shocks, but the design does not establish that hardship caused the balance increase or measure repayment performance.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "retrieval_hash": "sha256:bf9d29ef0bac4617962f43add86883847b360d9016cf21aa3c19a097785830a1",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; student-loan repayment",
+      "denominator": {"value": 100, "unit": "published percentage base among adults with student loans who were required to make payments", "value_type": "conditional_share"},
+      "measures": {"adults_with_outstanding_student_loans": {"value": 16, "unit": "percent of all adults", "value_type": "share"}, "not_required_to_make_payment": {"value": 45, "unit": "percent of student-loan borrowers", "value_type": "conditional_share"}, "paid_full_required_payment": {"value": 73, "unit": "percent of borrowers required to make payments", "value_type": "conditional_share"}, "required_payers_with_recent_payment_difficulty": {"value": 41, "unit": "percent of borrowers required to make payments", "value_type": "conditional_share"}, "payment_difficulty_among_all_student_loan_adults": {"value": 23, "unit": "percent of adults with student-loan debt", "value_type": "conditional_share"}, "low_income_paid_full": {"value": 42, "unit": "percent of required payers with family income below $25,000", "value_type": "subgroup_share"}, "high_income_paid_full": {"value": 92, "unit": "percent of required payers with family income $100,000 or more", "value_type": "subgroup_share"}},
+      "method": "Federal Reserve 2025 SHED published student-loan estimates; repayment and difficulty questions use conditional borrower universes.",
+      "uncertainty": "Payment difficulty is self-reported and the record does not identify loan type, interest rate, balance, delinquency status, policy eligibility, or causal effects of repayment policy.",
+      "subgroup": "Adults with student loans, required payers, and family-income subgroups.",
+      "counterinterpretation": "Not being required to pay can reflect school enrollment, deferment, forbearance, or income-driven repayment and is not equivalent to repayment success.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm",
+      "retrieval_hash": "sha256:bf9d29ef0bac4617962f43add86883847b360d9016cf21aa3c19a097785830a1",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; non-retirement savings response to hardship",
+      "denominator": {"value": 100, "unit": "published percentage base among non-retired adults", "value_type": "conditional_share"},
+      "measures": {"borrowed_from_retirement_account": {"value": 5, "unit": "percent of non-retirees in prior 12 months", "value_type": "share"}, "cashed_out_retirement_funds": {"value": 4, "unit": "percent of non-retirees in prior 12 months", "value_type": "share"}, "reduced_retirement_contributions": {"value": 8, "unit": "percent of non-retirees in prior 12 months", "value_type": "share"}, "any_of_three_retirement_actions": {"value": 14, "unit": "percent of non-retirees in prior 12 months", "value_type": "share"}, "retirement_plan_on_track_overall": {"value": 35, "unit": "percent of non-retirees", "value_type": "share"}, "retirement_plan_on_track_after_cashing_out": {"value": 24, "unit": "percent of non-retirees who cashed out", "value_type": "conditional_share"}},
+      "method": "Federal Reserve 2025 SHED published savings and investments estimates; retirement actions are self-reported and may overlap.",
+      "uncertainty": "The cross-sectional association between tapping or reducing contributions and perceived retirement readiness does not establish that the action caused lower readiness; some contribution reductions may result from job changes.",
+      "subgroup": "Non-retired adults, with action-conditioned retirement-readiness comparisons.",
+      "counterinterpretation": "Tapping or reducing contributions may be an adaptive response that prevents immediate hardship, even while reducing longer-run financial security.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-savings-investments.htm",
+      "retrieval_hash": "sha256:b88dcdd88a27029a79b82a2f179291eab78bc5e669e4f82fa40f2368a16cddb9",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/microeconomics/hhdc", "claim": "The New York Fed household debt and credit series provides an aggregate credit-market context for the linked household balances.", "status": "context", "access_boundary": "Aggregate balances do not identify the same household-level hardship or repayment path."},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm", "claim": "The 2025 SHED income and price-adaptation module supplies related household budget-margin and borrowing context.", "status": "related", "access_boundary": "Price adaptation is not a direct measure of rate exposure or realized loan repayment."}
+  ],
+  "boundary": "This record identifies realized or reported household financial exposure through liquidity capacity, credit-card balances, student-loan repayment strain, and retirement-account actions. It does not establish a causal interest-rate shock, a representative panel of all borrowers and savers, lender pricing, delinquency or default, political response, or cultural meaning. Hypothetical capacity, survey self-reports, and linked credit records remain distinct evidence layers."
+}

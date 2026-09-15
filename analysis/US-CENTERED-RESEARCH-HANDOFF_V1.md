@@ -2,7 +2,7 @@
 
 ## Connected reading guide: current handoff
 
-Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighty-three topics now sit under five shared themes, with one hundred and sixty-five explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighty-four topics now sit under five shared themes, with one hundred and seventy-four explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
 
 Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
 
@@ -16,7 +16,9 @@ The current deepening pass has added fuller household paths to the Markdown reco
 
 The next publishing check is therefore page parity: compare every changed Markdown finding with its HTML page for the title, argument, evidence limits, deeper finding, unknowns, next test, reading rule, and source links. Mark a page `matched`, `HTML-valid-but-stale`, or `missing`. Do not call a finding complete until it is both evidence-checked and matched in the reader-facing page.
 
-The current run of `python3 scripts/validate_us_finding_parity.py` checks 63 finding pairs and passes all 63. The check confirms that “HTML parses” and “HTML matches the current finding” are different gates; keep this parity check in the publication gate whenever a finding changes.
+The current run of `python3 scripts/validate_us_finding_parity.py` checks 64 finding pairs and passes all 64. The check confirms that “HTML parses” and “HTML matches the current finding” are different gates; keep this parity check in the publication gate whenever a finding changes.
+
+The consolidated `python3 scripts/validate_long_term_publication_gate.py` now runs the program-control, source-coverage, provenance, observation-schema, finding parity, watchlist parity, published-link, local-link, and whitespace checks as one reproducible handoff gate.
 
 ## Where we are going
 
@@ -135,9 +137,9 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas has eighty-three topic records, five reader umbrellas, fourteen broad societal themes, one hundred and sixty-five connections, and eighty-five reading paths. All topics now have at least two graph links. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas maintains **219 validated trend records, 836 observations, 103 source-search packets, 14 broad program themes, 174 explained connections, 85 reading paths, and 454 link-validated HTML pages**. It currently carries one hundred and seventy-four connections, and eighty-five reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
-The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. The remaining end-to-end work is not more prose alone: synchronize the reader-facing HTML for the deepened pages, add the parity check to the publication gate, and then use the integrated household calendar to test the strongest cross-topic chains with actual joined records.
+The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. Reader-facing HTML is now published for the deepened routes, including the CMS-to-MEPS health-cost bridge and the recurrent-source watchlist. The remaining end-to-end work is not more prose alone: use the integrated household calendar and same-episode ledgers to test the strongest cross-topic chains with actual joined records, while preserving source-vintage controls and the missing event-level links.
 
 The first concrete design for that next study is [the household-calendar integration brief](US-HOUSEHOLD-CALENDAR-INTEGRATION_V1.md), with a [reader-facing HTML edition](../site/us-household-calendar-integration.html). It defines the twelve-month unit, event ledger, five linked tests, comparison design, privacy rules, and conditions that would change the working picture. It is a plan for evidence collection, not evidence of a national effect.
 

@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cdc-places-vintage-comparison-2024-2025",
+  "title": "CDC PLACES county vintages move across distinct health and social-need surfaces",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Same county FIPS in selected CDC PLACES 2024 and 2025 releases, with 2023 CBP health-establishment capacity quartiles",
+  "geography": "United States; 2,885 common county FIPS with capacity context",
+  "observations": [
+    {
+      "period": "PLACES 2024 release -> PLACES 2025 release; all common counties",
+      "denominator": {"value": 2885, "unit": "common county FIPS; social-needs measures available for 2,239 in 2024 and 2,255 in 2025", "value_type": "same_geography_vintage_comparison"},
+      "measures": {"transportation_insecurity_median": {"value": -0.3, "unit": "percentage-point median change", "value_type": "county_median_change"}, "food_insecurity_median": {"value": 1.0, "unit": "percentage-point median change", "value_type": "county_median_change"}, "housing_insecurity_median": {"value": -0.3, "unit": "percentage-point median change", "value_type": "county_median_change"}, "utility_shutoff_threat_median": {"value": -0.1, "unit": "percentage-point median change", "value_type": "county_median_change"}, "frequent_mental_distress_median": {"value": 0.0, "unit": "percentage-point median change", "value_type": "county_median_change"}, "lack_health_insurance_median": {"value": 0.9, "unit": "percentage-point median change", "value_type": "county_median_change"}, "routine_checkup_median": {"value": 1.3, "unit": "percentage-point median change", "value_type": "county_median_change"}},
+      "method": "FIPS intersection and unweighted county medians; PLACES 2024 uses primarily 2022 BRFSS inputs and PLACES 2025 uses primarily 2023 BRFSS inputs.",
+      "uncertainty": "Releases differ in BRFSS, Census population, ACS inputs, geography, measure definitions, and available county universes. This is not a same-resident panel or causal change estimate.",
+      "subgroup": "All common counties; no individual respondent or household linkage.",
+      "counterinterpretation": "Different measures move in different directions; a median change may reflect model/input/vintage differences rather than underlying local change.",
+      "source_url": "https://data.cdc.gov/d/swc5-untb",
+      "retrieval_hash": "sha256:3cfb08166b592fc9c89f83889a0851c67e7473783909c60fce16816a9df9ec31",
+      "status": "compared"
+    },
+    {
+      "period": "PLACES 2024 release -> PLACES 2025 release; low health-establishment-capacity quartile",
+      "denominator": {"value": 722, "unit": "common county FIPS in the lowest quartile of 2023 CBP health establishments per 10,000", "value_type": "capacity_conditioned_comparison"},
+      "measures": {"transportation_insecurity_median": {"value": -0.7, "unit": "percentage-point median change", "value_type": "county_median_change"}, "food_insecurity_median": {"value": -0.2, "unit": "percentage-point median change", "value_type": "county_median_change"}, "housing_insecurity_median": {"value": -0.95, "unit": "percentage-point median change", "value_type": "county_median_change"}, "utility_shutoff_threat_median": {"value": -0.4, "unit": "percentage-point median change", "value_type": "county_median_change"}, "frequent_mental_distress_median": {"value": -0.2, "unit": "percentage-point median change", "value_type": "county_median_change"}, "lack_health_insurance_median": {"value": 0.9, "unit": "percentage-point median change", "value_type": "county_median_change"}, "routine_checkup_median": {"value": 1.1, "unit": "percentage-point median change", "value_type": "county_median_change"}},
+      "method": "Capacity quartile defined on common counties; unweighted county medians compared across PLACES vintages.",
+      "uncertainty": "Capacity is employer stock, not usable care; social-needs availability differs between vintages and values are modeled small-area estimates.",
+      "subgroup": "Lower visible health-establishment-capacity counties; no resident linkage.",
+      "counterinterpretation": "The apparent improvement in several social-need medians does not establish recovery or a capacity effect; model/input changes and neighboring access remain possible.",
+      "source_url": "https://data.cdc.gov/d/fu4u-a9bh",
+      "retrieval_hash": "sha256:3cfb08166b592fc9c89f83889a0851c67e7473783909c60fce16816a9df9ec31",
+      "status": "compared"
+    },
+    {
+      "period": "PLACES 2024 release -> PLACES 2025 release; high health-establishment-capacity quartile",
+      "denominator": {"value": 722, "unit": "common county FIPS in the highest quartile of 2023 CBP health establishments per 10,000", "value_type": "capacity_conditioned_comparison"},
+      "measures": {"transportation_insecurity_median": {"value": -0.1, "unit": "percentage-point median change", "value_type": "county_median_change"}, "food_insecurity_median": {"value": 1.45, "unit": "percentage-point median change", "value_type": "county_median_change"}, "housing_insecurity_median": {"value": 0.15, "unit": "percentage-point median change", "value_type": "county_median_change"}, "utility_shutoff_threat_median": {"value": 0.3, "unit": "percentage-point median change", "value_type": "county_median_change"}, "frequent_mental_distress_median": {"value": 0.25, "unit": "percentage-point median change", "value_type": "county_median_change"}, "lack_health_insurance_median": {"value": 1.2, "unit": "percentage-point median change", "value_type": "county_median_change"}, "routine_checkup_median": {"value": 1.25, "unit": "percentage-point median change", "value_type": "county_median_change"}},
+      "method": "Capacity quartile defined on common counties; unweighted county medians compared across PLACES vintages.",
+      "uncertainty": "The high-capacity group is not a treatment group; observed movement can reflect population, insurance, survey, model, geography, or measure changes.",
+      "subgroup": "Higher visible health-establishment-capacity counties; no resident linkage.",
+      "counterinterpretation": "Higher food insecurity and insurance-loss medians despite greater establishment stock weaken a mechanical capacity-to-wellbeing interpretation.",
+      "source_url": "https://data.cdc.gov/d/swc5-untb",
+      "retrieval_hash": "sha256:3cfb08166b592fc9c89f83889a0851c67e7473783909c60fce16816a9df9ec31",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cdc.gov/places/current-release-notes/index.html", "claim": "CDC describes the 2024/2025 BRFSS, population, geography, and measure-vintage changes.", "status": "official-method"},
+    {"source_url": "https://www.cdc.gov/places/methodology/index.html", "claim": "CDC documents the PLACES small-area estimation method and limitations.", "status": "official-method"},
+    {"source_url": "data/places-vintage-comparison-summary.json", "claim": "Reproduction output for the same-county vintage comparison.", "status": "derived"}
+  ],
+  "boundary": "This is a descriptive vintage comparison of modeled county estimates. It does not estimate change for the same residents, local intervention effects, provider adequacy, patient access, household outcomes, trust, or political action."
+}

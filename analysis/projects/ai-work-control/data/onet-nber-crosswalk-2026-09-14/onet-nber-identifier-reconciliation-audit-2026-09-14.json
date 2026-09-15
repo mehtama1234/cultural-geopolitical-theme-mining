@@ -1,0 +1,169 @@
+{
+  "format": "onet-nber-identifier-reconciliation-audit-v1",
+  "status": "diagnostic-only",
+  "identifier_transform": "NBER I## and D## components converted to O*NET letter and integer components; structural probe, not asserted vintage crosswalk",
+  "levels": {
+    "DWA": {
+      "stats": {
+        "rows": 1655,
+        "unique_label_matches": 1653,
+        "ambiguous_label_matches": 0,
+        "unmatched_label_matches": 2,
+        "transformable_identifiers": 1655,
+        "transformed_identifier_exact_matches": 1510,
+        "transformed_id_agrees_with_unique_label": 1393,
+        "transformed_id_differs_from_unique_label": 260
+      },
+      "examples": [
+        {
+          "nber_id": "4.A.4.a.2.I09.D07",
+          "transformed_id": "4.A.4.a.2.i.7",
+          "label_match_onet_id": "4.A.4.a.2.h.7",
+          "title": "Collaborate with others to determine design specifications or details."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I15.D07",
+          "transformed_id": "4.A.2.b.2.o.7",
+          "label_match_onet_id": "4.A.2.b.2.l.7",
+          "title": "Develop strategies or programs for students with special needs."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I27.D02",
+          "transformed_id": "4.A.2.b.2.aa.2",
+          "label_match_onet_id": "4.A.2.b.2.v.2",
+          "title": "Develop organizational goals or objectives."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I07.D04",
+          "transformed_id": "4.A.4.b.4.g.4",
+          "label_match_onet_id": "4.A.4.b.4.f.4",
+          "title": "Manage human resources activities."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I12.D39",
+          "transformed_id": "4.A.4.b.4.l.39",
+          "label_match_onet_id": "4.A.4.b.4.j.39",
+          "title": "Direct organizational operations, projects, or services."
+        },
+        {
+          "nber_id": "4.A.2.b.4.I03.D09",
+          "transformed_id": "4.A.2.b.4.c.9",
+          "label_match_onet_id": "4.A.3.b.2.f.9",
+          "title": "Develop computer or information security policies or procedures."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I12.D12",
+          "transformed_id": "4.A.4.b.4.l.12",
+          "label_match_onet_id": "4.A.4.b.4.j.12",
+          "title": "Manage operations, research, or logistics projects."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I15.D10",
+          "transformed_id": "4.A.2.b.2.o.10",
+          "label_match_onet_id": "4.A.2.b.2.l.10",
+          "title": "Develop educational goals, standards, policies, or procedures."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I06.D04",
+          "transformed_id": "4.A.4.b.4.f.4",
+          "label_match_onet_id": "4.A.4.b.4.e.4",
+          "title": "Coordinate software or hardware installation."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I03.D02",
+          "transformed_id": "4.A.4.b.4.c.2",
+          "label_match_onet_id": "4.A.4.b.1.d.2",
+          "title": "Direct productions or performances."
+        }
+      ]
+    },
+    "IWA": {
+      "stats": {
+        "rows": 322,
+        "unique_label_matches": 322,
+        "ambiguous_label_matches": 0,
+        "unmatched_label_matches": 0,
+        "transformable_identifiers": 322,
+        "transformed_identifier_exact_matches": 305,
+        "transformed_id_agrees_with_unique_label": 269,
+        "transformed_id_differs_from_unique_label": 53
+      },
+      "examples": [
+        {
+          "nber_id": "4.A.2.b.2.I21",
+          "transformed_id": "4.A.2.b.2.u",
+          "label_match_onet_id": "4.A.3.b.2.d",
+          "title": "Develop models of systems, processes, or products."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I07",
+          "transformed_id": "4.A.4.b.4.g",
+          "label_match_onet_id": "4.A.4.b.4.f",
+          "title": "Manage human resources activities."
+        },
+        {
+          "nber_id": "4.A.2.b.4.I03",
+          "transformed_id": "4.A.2.b.4.c",
+          "label_match_onet_id": "4.A.3.b.2.f",
+          "title": "Develop operational or technical procedures or standards."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I07",
+          "transformed_id": "4.A.2.b.2.g",
+          "label_match_onet_id": "4.A.3.b.2.a",
+          "title": "Develop technical specifications for products or operations."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I06",
+          "transformed_id": "4.A.4.b.4.f",
+          "label_match_onet_id": "4.A.4.b.4.e",
+          "title": "Direct scientific or technical activities."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I27",
+          "transformed_id": "4.A.2.b.2.aa",
+          "label_match_onet_id": "4.A.2.b.2.v",
+          "title": "Develop organizational or program goals or objectives."
+        },
+        {
+          "nber_id": "4.A.4.a.2.I09",
+          "transformed_id": "4.A.4.a.2.i",
+          "label_match_onet_id": "4.A.4.a.2.h",
+          "title": "Communicate with others about specifications or project details."
+        },
+        {
+          "nber_id": "4.A.2.b.2.I12",
+          "transformed_id": "4.A.2.b.2.l",
+          "label_match_onet_id": "4.A.2.b.2.j",
+          "title": "Develop marketing or promotional materials."
+        },
+        {
+          "nber_id": "4.A.4.b.4.I03",
+          "transformed_id": "4.A.4.b.4.c",
+          "label_match_onet_id": "4.A.4.b.1.d",
+          "title": "Coordinate artistic or entertainment activities."
+        },
+        {
+          "nber_id": "4.A.4.a.2.I11",
+          "transformed_id": "4.A.4.a.2.k",
+          "label_match_onet_id": "4.A.4.b.1.c",
+          "title": "Coordinate activities with clients, agencies, or organizations."
+        }
+      ]
+    }
+  },
+  "release_comparison": {
+    "current_mapping": "gwas_to_iwas_to_dwas.csv",
+    "comparison_mapping": "gwas_to_iwas_to_dwas_30_3.csv",
+    "current_sha256": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
+    "comparison_sha256": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
+    "byte_identical": true,
+    "interpretation": "Byte identity means this comparison does not explain any NBER/O*NET disagreement; it does not prove that NBER used either O*NET release."
+  },
+  "source_hashes": {
+    "DWA.csv": "897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf",
+    "IWA.csv": "be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c",
+    "gwas_to_iwas_to_dwas.csv": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
+    "gwas_to_iwas_to_dwas_30_3.csv": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49"
+  }
+}

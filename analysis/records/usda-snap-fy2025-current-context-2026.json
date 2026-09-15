@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-snap-fy2025-current-context-2026",
+  "title": "SNAP remains a large, heterogeneous national support system with distinct scale and household layers",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action"],
+  "source_unit": "USDA ERS national SNAP program, participants, SNAP households, and research-summary context",
+  "geography": "United States; state range where reported",
+  "observations": [
+    {
+      "period": "FY2025; average monthly program scale",
+      "denominator": {"value": 42100000, "unit": "average monthly SNAP participants", "value_type": "reported_program_scale"},
+      "measures": {
+        "federal_spending": {"value": 101.7, "unit": "billion US dollars, FY2025", "value_type": "reported_program_scale"},
+        "average_benefit": {"value": 187.94, "unit": "US dollars per participant per month", "value_type": "reported_average"},
+        "share_of_us_residents": {"value": 12.3, "unit": "percent receiving SNAP in an average month", "value_type": "reported_share"},
+        "share_of_usda_food_assistance_spending": {"value": 69, "unit": "percent of USDA food and nutrition assistance spending", "value_type": "reported_share"}
+      },
+      "method": "Official USDA ERS program-statistics summary; current national totals and averages, not a new microdata estimate.",
+      "uncertainty": "The participant average and monthly average benefit are not a household benefit amount; program-scale figures do not identify eligibility, take-up, administrative burden, adequacy, or household outcomes.",
+      "subgroup": "National SNAP participants and US residents receiving SNAP in an average FY2025 month.",
+      "counterinterpretation": "A large program or high participation rate can coexist with incomplete take-up, persistent hardship, or uneven access; spending is not proof of benefit adequacy.",
+      "source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research",
+      "retrieval_hash": "sha256:e6018108ae2267fd297b9b2725d4516028a277a80e4f08dd9c47f15de94af96e",
+      "status": "reported"
+    },
+    {
+      "period": "FY2025; state participation range",
+      "denominator": {"value": 50, "unit": "US states; state range excludes the national aggregate", "value_type": "reported_geographic_scope"},
+      "measures": {
+        "highest_state_participation": {"value": 21.9, "unit": "percent of state residents receiving SNAP in an average month", "value_type": "reported_range_max"},
+        "lowest_state_participation": {"value": 4.7, "unit": "percent of state residents receiving SNAP in an average month", "value_type": "reported_range_min"},
+        "state_range": {"value": 17.2, "unit": "percentage-point spread between reported highest and lowest state shares", "value_type": "derived_range"}
+      },
+      "method": "Official USDA ERS state participation-rate summary.",
+      "uncertainty": "The page reports the range but does not by itself identify the roles of need, eligibility rules, administration, labor markets, demographics, or take-up in producing it.",
+      "subgroup": "US states, summarized by reported participation-rate minimum and maximum.",
+      "counterinterpretation": "State participation differences are not a ranking of program performance or household security; they may reflect different populations and policy environments.",
+      "source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research",
+      "retrieval_hash": "sha256:e6018108ae2267fd297b9b2725d4516028a277a80e4f08dd9c47f15de94af96e",
+      "status": "reported"
+    },
+    {
+      "period": "FY2024; SNAP household composition and benefit distribution",
+      "denominator": {"value": 100, "unit": "published percentage base among SNAP households", "value_type": "reported_percentage_base"},
+      "measures": {
+        "households_with_earned_income": {"value": 28, "unit": "percent of SNAP households", "value_type": "reported_share"},
+        "households_with_earned_income_children": {"value": 54, "unit": "percent of SNAP households with children", "value_type": "reported_share"},
+        "households_with_unearned_income": {"value": 62, "unit": "percent of SNAP households", "value_type": "reported_share"},
+        "households_with_no_reported_earned_or_unearned_income": {"value": 19, "unit": "percent of SNAP households", "value_type": "reported_share"},
+        "maximum_benefit": {"value": 37, "unit": "percent of SNAP households receiving the maximum benefit for household size", "value_type": "reported_share"},
+        "minimum_benefit": {"value": 9, "unit": "percent of SNAP households receiving the minimum benefit", "value_type": "reported_share"}
+      },
+      "method": "Official USDA ERS description of FY2024 SNAP household characteristics and benefit distribution.",
+      "uncertainty": "These composition shares describe participating households and are not estimates for all eligible households; categories may overlap and the page's reporting definitions govern interpretation.",
+      "subgroup": "SNAP households overall, SNAP households with children, and households by reported income and benefit categories.",
+      "counterinterpretation": "A household with earned income is not necessarily food secure, and a household with no reported income is not necessarily without other resources or support.",
+      "source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research",
+      "retrieval_hash": "sha256:e6018108ae2267fd297b9b2725d4516028a277a80e4f08dd9c47f15de94af96e",
+      "status": "reported"
+    },
+    {
+      "period": "Research-summary context; study-specific periods and populations",
+      "denominator": {"value": null, "unit": "USDA ERS research summaries with study-specific denominators; no single pooled denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "food_security_timing": {"value": "food security deteriorates before receipt and improves afterward", "unit": "official research-summary pattern", "value_type": "reported_pattern"},
+        "benefit_change_context": {"value": "past increases reduced food insecurity; later real-value decreases reduced food spending and raised food insecurity", "unit": "official research-summary pattern", "value_type": "reported_pattern"},
+        "countercyclical_link": {"value": "participation tends to track unemployment and poverty", "unit": "official research-summary pattern", "value_type": "reported_pattern"}
+      },
+      "method": "USDA ERS synthesis of multiple studies with distinct designs, periods, populations, and outcomes.",
+      "uncertainty": "This is a research gateway rather than one pooled causal estimate; individual study denominators and identification strategies must be read separately.",
+      "subgroup": "Study-specific low-income households, SNAP households, and economic periods summarized by USDA ERS.",
+      "counterinterpretation": "The research summary does not show that every participation change or administrative exit produced the same food-security outcome for a particular household.",
+      "source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research",
+      "retrieval_hash": "sha256:e6018108ae2267fd297b9b2725d4516028a277a80e4f08dd9c47f15de94af96e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/programs-surveys/sipp.html", "claim": "National SIPP transition and following-hardship context for SNAP receipt states.", "status": "official-companion"},
+    {"source_url": "https://www.nber.org/papers/w34529", "claim": "Study-specific office-access mechanism; participation is kept separate from USDA program scale and food-security summaries.", "status": "causal-companion"}
+  ],
+  "boundary": "This is current official USDA ERS program and research-summary context, not a new national causal estimate. It keeps scale, state range, household composition, benefit distribution, and research-summary patterns separate from NBER access studies and SIPP person-month hardship estimates. It does not establish benefit adequacy, same-household route burden, downstream security, trust, political action, or geopolitical consequence. The retrieval hash covers the committed source-specific layer."
+}

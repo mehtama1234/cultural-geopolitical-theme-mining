@@ -1,0 +1,28 @@
+{
+  "format": "onet-nber-unmatched-label-review-v1",
+  "checked": "2026-09-14",
+  "status": "manual-candidate-review-not-promoted-to-exact-crosswalk",
+  "source": "O*NET 31.0 gwas_to_iwas_to_dwas.csv and NBER W35677 DWA.csv",
+  "reviews": [
+    {
+      "nber_title": "Clean work areas or facilities.",
+      "nber_id": "4.A.3.a.1.c.9",
+      "onet_candidates": [
+        {"id": "4.A.3.a.1.c.9", "title": "Clean facilities or work areas."},
+        {"id": "4.A.3.a.1.c.5", "title": "Clean work areas."}
+      ],
+      "decision": "candidate-set",
+      "reason": "The O*NET archive contains both an inverted-wording equivalent and a narrower work-area title. The NBER wording does not identify which semantic scope should be selected, so no exact one-to-one match is promoted."
+    },
+    {
+      "nber_title": "Collect payments for good or services.",
+      "nber_id": "4.A.4.c.3.d.3",
+      "onet_candidates": [
+        {"id": "4.A.4.c.3.d.3", "title": "Collect payments for goods or services."}
+      ],
+      "decision": "probable-typographical-match",
+      "reason": "The wording differs only by singular 'good' versus plural 'goods', but the file does not document whether NBER preserved the O*NET wording or independently edited it. Retain as a probable match pending source-vintage/identifier confirmation."
+    }
+  ],
+  "boundary": "This review narrows the unmatched-label problem but does not establish that NBER and O*NET used identical taxonomy versions, sampling, or semantic definitions. It cannot support worker-control, adoption, pay, or outcome claims by itself."
+}

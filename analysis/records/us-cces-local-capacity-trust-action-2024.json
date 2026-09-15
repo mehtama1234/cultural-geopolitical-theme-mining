@@ -1,0 +1,229 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-local-capacity-trust-action-2024",
+  "title": "Local capacity and mobility cells carry different political-context patterns without a simple trust or action gradient",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "work"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "2024 Cooperative Election Study common-content post-election respondent with county FIPS, assigned to 2023 county CBP health-establishment and ACS zero-vehicle context cell",
+  "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
+  "observations": [
+    {
+      "period": "2024; CES county-keyed political context; high health capacity / high zero-vehicle share",
+      "denominator": {
+        "value": 16262,
+        "unit": "CES respondents; 188 counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.54,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 41.385,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 16262
+        },
+        "state_trust": {
+          "value": 55.539,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 16265
+        },
+        "civic_action": {
+          "value": 38.616,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 16294
+        },
+        "reported_voted": {
+          "value": 97.003,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 15578
+        }
+      },
+      "method": "Weighted descriptive CES common-content comparison after county-keyed assignment to CBP health-establishment/zero-vehicle four cells; health cut 28.312 establishments per 10,000 and zero-vehicle cut 5.606 percent are unweighted medians within the >=100,000-population frame.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; CES county FIPS supplies context but respondents are not a county probability sample, and the cell does not measure respondent-level capacity exposure.",
+      "subgroup": "CES respondents in the high health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Trust, action, and reported voting can reflect party identity, county composition, selection, local growth, and question universe; a capacity cell is not a service-use, belonging, or causal exposure measure.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county-keyed political context; high health capacity / low zero-vehicle share",
+      "denominator": {
+        "value": 7720,
+        "unit": "CES respondents; 122 counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.602,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 34.771,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7720
+        },
+        "state_trust": {
+          "value": 54.048,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7715
+        },
+        "civic_action": {
+          "value": 40.896,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7728
+        },
+        "reported_voted": {
+          "value": 97.585,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7438
+        }
+      },
+      "method": "Weighted descriptive CES common-content comparison after county-keyed assignment to CBP health-establishment/zero-vehicle four cells; health cut 28.312 establishments per 10,000 and zero-vehicle cut 5.606 percent are unweighted medians within the >=100,000-population frame.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; CES county FIPS supplies context but respondents are not a county probability sample, and the cell does not measure respondent-level capacity exposure.",
+      "subgroup": "CES respondents in the high health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Trust, action, and reported voting can reflect party identity, county composition, selection, local growth, and question universe; a capacity cell is not a service-use, belonging, or causal exposure measure.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county-keyed political context; low health capacity / high zero-vehicle share",
+      "denominator": {
+        "value": 6655,
+        "unit": "CES respondents; 122 counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.339,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 39.886,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 6655
+        },
+        "state_trust": {
+          "value": 51.573,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 6649
+        },
+        "civic_action": {
+          "value": 33.992,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 6669
+        },
+        "reported_voted": {
+          "value": 96.059,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 6301
+        }
+      },
+      "method": "Weighted descriptive CES common-content comparison after county-keyed assignment to CBP health-establishment/zero-vehicle four cells; health cut 28.312 establishments per 10,000 and zero-vehicle cut 5.606 percent are unweighted medians within the >=100,000-population frame.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; CES county FIPS supplies context but respondents are not a county probability sample, and the cell does not measure respondent-level capacity exposure.",
+      "subgroup": "CES respondents in the low health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Trust, action, and reported voting can reflect party identity, county composition, selection, local growth, and question universe; a capacity cell is not a service-use, belonging, or causal exposure measure.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES county-keyed political context; low health capacity / low zero-vehicle share",
+      "denominator": {
+        "value": 7980,
+        "unit": "CES respondents; 188 counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 4.483,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 36.515,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7980
+        },
+        "state_trust": {
+          "value": 56.101,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7982
+        },
+        "civic_action": {
+          "value": 35.446,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7991
+        },
+        "reported_voted": {
+          "value": 97.29,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 7587
+        }
+      },
+      "method": "Weighted descriptive CES common-content comparison after county-keyed assignment to CBP health-establishment/zero-vehicle four cells; health cut 28.312 establishments per 10,000 and zero-vehicle cut 5.606 percent are unweighted medians within the >=100,000-population frame.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; CES county FIPS supplies context but respondents are not a county probability sample, and the cell does not measure respondent-level capacity exposure.",
+      "subgroup": "CES respondents in the low health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Trust, action, and reported voting can reflect party identity, county composition, selection, local growth, and question universe; a capacity cell is not a service-use, belonging, or causal exposure measure.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "claim": "CES 2024 common-content public data supply county FIPS, trust, civic-action, vote, and commonpostweight fields.",
+      "status": "official-public-data"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip",
+      "claim": "2023 CBP health/social-assistance establishment counts used for capacity cell assignment.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+      "claim": "2023 ACS zero-vehicle-household counts used for mobility cell assignment.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "../../scripts/analyze_ces_local_capacity_trust_action.py",
+      "claim": "Reproduction script for county capacity-cell assignment, valid universes, and weighted endpoints.",
+      "status": "reproduction-script"
+    }
+  ],
+  "retrieval_hash": "cces:sha256:8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9; population:sha256:abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9; cbp:sha256:e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603; vehicle:sha256:71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b; output:sha256:9b5ce2164d49f1ab2760a0e51b743a73b8373048b65b377aece08f38aecc857a; script:sha256:bd2345ed02bd4c21bc72b3dc80aa53189df916a5467b2d5c8a3e33c6dfc5bfad",
+  "boundary": "This is a same-county contextual comparison, not a same-respondent causal exposure. It does not establish that local business/service capacity or vehicle constraints caused trust, civic action, or voting; it does not measure service destination, use, belonging, attribution, or political meaning. CES and county administrative/ACS layers retain separate denominators and uncertainty."
+}

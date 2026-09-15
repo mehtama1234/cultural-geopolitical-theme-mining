@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-fraud-recovery-subgroups-2024",
+  "title": "Household fraud recovery burden varies by age, income, and payment route",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "Weighted US adult SHED 2024 respondents reporting non-credit-card financial fraud or account-involved fraud",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; age and income subgroup screens",
+      "denominator": {"value": 12295, "unit": "SHED public-use adult respondent rows; conditional outcomes use non-credit-card fraud reporters", "value_type": "observed_rows"},
+      "measures": {
+        "other_fraud_exposure_age_18_29": {"value": 6.848, "unit": "percent of adults in age group", "value_type": "weighted_share"},
+        "other_fraud_exposure_age_45_59": {"value": 10.248, "unit": "percent of adults in age group", "value_type": "weighted_share"},
+        "other_fraud_unrecovered_income_10000_24999": {"value": 53.778, "unit": "percent of other-fraud reporters in income group", "value_type": "weighted_conditional_share"},
+        "other_fraud_unrecovered_income_100000_149999": {"value": 22.566, "unit": "percent of other-fraud reporters in income group", "value_type": "weighted_conditional_share"},
+        "account_fraud_p2p_unrecovered": {"value": 46.133, "unit": "percent of account-involved other-fraud cases marked P2P with some or all money unrecovered", "value_type": "weighted_conditional_share"},
+        "account_fraud_nonp2p_unrecovered": {"value": 28.826, "unit": "percent of account-involved other-fraud cases marked non-P2P with some or all money unrecovered", "value_type": "weighted_conditional_share"},
+        "account_fraud_p2p_10_or_more_hours": {"value": 43.76, "unit": "percent of account-involved other-fraud cases marked P2P", "value_type": "weighted_conditional_share"}
+      },
+      "method": "Mapped SHED codebook variables BK47_b, BK48, BK50, BK51, and BK52_b to the 2024 public CSV; calculated weighted shares using the 2024 main weight. Age and income condition exposure; loss, unrecovered money, and time condition on the non-credit-card fraud path; account-route comparisons condition on account-involved cases.",
+      "uncertainty": "No replicate weights or design-based variance fields are available in the public-use file. P2P cells are small and selected; self-report, recall, nonresponse, and survey skip patterns affect estimates.",
+      "subgroup": "Age, household income, and account-involved fraud by P2P indicator; language and disability were audited but not promoted as general subgroup estimates.",
+      "counterinterpretation": "The nonmonotonic income pattern and P2P difference may reflect account balances, fraud type, reporting, resources, selection, or payment-provider processes; they do not establish payment-route causation or verified recovery failure.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf",
+      "comparison_source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2024_(CSV).zip",
+      "retrieval_hash": "sha256:b455d02356a0c01a02d7f478c02d772515491564e905ce13db55f272f83567c1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm", "claim": "The Federal Reserve publishes the headline fraud, recovery, loss, and time-cost estimates and their source framing.", "status": "reported", "access_boundary": "Published tables do not provide all subgroup and route combinations calculated here."},
+    {"source_url": "data/shed-fraud-subgroups-2024.json", "claim": "Local output records subgroup definitions and weighted calculations.", "status": "derived", "access_boundary": "Public-use survey data do not verify provider outcomes or household records."}
+  ],
+  "boundary": "This record strengthens the household fraud exposure-to-recovery-burden path with age, income, and account-route conditioning. It does not establish causal payment-route effects, verified firm remedy, digital-access or disability gradients, later trust, switching, or exit."
+}

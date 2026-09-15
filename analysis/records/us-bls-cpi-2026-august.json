@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-cpi-2026-august",
+  "title": "August 2026 consumer prices rose with a gasoline-led energy contribution",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "housing_place_mobility", "political_judgment_action"],
+  "source_unit": "Bureau of Labor Statistics Consumer Price Index for All Urban Consumers (CPI-U), U.S. city average",
+  "geography": "United States city-average CPI-U; selected expenditure categories and national index aggregates",
+  "observations": [
+    {
+      "period": "August 2026 monthly CPI-U",
+      "denominator": {"value": null, "unit": "CPI-U U.S. city-average price index built from BLS price quotations and expenditure weights; release does not disclose a respondent or quotation-count denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "all_items": {"value": 0.4, "unit": "percent seasonally adjusted change from July 2026", "value_type": "official_rate"},
+        "core": {"value": 0.3, "unit": "percent seasonally adjusted change in all items less food and energy", "value_type": "official_rate"},
+        "food": {"value": 0.1, "unit": "percent seasonally adjusted change", "value_type": "official_rate"},
+        "energy": {"value": 2.1, "unit": "percent seasonally adjusted change", "value_type": "official_rate"}
+      },
+      "method": "BLS CPI-U monthly index and percent-change release; seasonally adjusted monthly changes are compared with the prior month.",
+      "uncertainty": "The CPI is a price index, not a household-cost or welfare estimate. It uses an urban consumer expenditure framework, category weights, and sampled prices; the release's aggregate rates do not disclose household-level exposure or design-based uncertainty for a particular subgroup.",
+      "subgroup": "All urban consumers nationally; this observation is not a household, income-group, race/ethnicity, tenure, or rural/urban estimate.",
+      "counterinterpretation": "A monthly index increase does not show that every household paid more, reduced quantities, substituted, borrowed, or lost financial room. Composition, timing, quality change, location, and household-specific baskets can produce different lived inflation.",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "retrieval_hash": "sha256:b102ddda1529aca0d21927f0389a8a85d0d35855af7e42e450de87d03c0b25d5",
+      "status": "observed"
+    },
+    {
+      "period": "August 2026 twelve-month CPI-U",
+      "denominator": {"value": null, "unit": "CPI-U U.S. city-average price index; release does not disclose a respondent or quotation-count denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "all_items": {"value": 3.4, "unit": "percent unadjusted change over 12 months ending August 2026", "value_type": "official_rate"},
+        "core": {"value": 2.4, "unit": "percent unadjusted change over 12 months ending August 2026", "value_type": "official_rate"},
+        "food": {"value": 2.7, "unit": "percent unadjusted change over 12 months ending August 2026", "value_type": "official_rate"},
+        "energy": {"value": 16.3, "unit": "percent unadjusted change over 12 months ending August 2026", "value_type": "official_rate"},
+        "shelter": {"value": 3.0, "unit": "percent unadjusted change over 12 months ending August 2026", "value_type": "official_rate"}
+      },
+      "method": "BLS CPI-U twelve-month percent changes from the unadjusted index; category rates are not a household-specific budget decomposition.",
+      "uncertainty": "Twelve-month rates combine monthly index movements and retain the CPI's urban population, weighting, sampling, and quality-adjustment boundaries. They do not measure real income, liquid assets, debt service, or affordability by household.",
+      "subgroup": "All urban consumers nationally and major CPI expenditure categories.",
+      "counterinterpretation": "The high energy rate is not evidence that energy was the dominant burden for every household; exposure depends on vehicle use, home energy, commuting, housing arrangements, contracts, and ability to substitute.",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "retrieval_hash": "sha256:b102ddda1529aca0d21927f0389a8a85d0d35855af7e42e450de87d03c0b25d5",
+      "status": "observed"
+    },
+    {
+      "period": "August 2026 gasoline and shelter monthly movements",
+      "denominator": {"value": null, "unit": "CPI-U U.S. city-average gasoline and shelter indexes; release does not disclose a household denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "gasoline": {"value": 3.9, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "energy_contribution": {"value": "over one third of the monthly all-items increase", "unit": "BLS qualitative contribution statement", "value_type": "official_contribution_statement"},
+        "shelter": {"value": 0.3, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "food_away_from_home": {"value": 0.3, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"}
+      },
+      "method": "BLS release decomposition of selected CPI-U expenditure categories and their contribution to the aggregate monthly movement.",
+      "uncertainty": "Contribution statements describe index arithmetic, not incidence. They do not identify which households experienced gasoline, shelter, or food-away-from-home changes, nor whether costs were passed through to wages, margins, debt, or public assistance.",
+      "subgroup": "Selected CPI-U expenditure categories; no household subgroup estimate.",
+      "counterinterpretation": "A gasoline-led aggregate movement can coexist with different regional prices, commuting needs, vehicle efficiency, housing contracts, and income buffers; the CPI category is not a direct measure of hardship or political reaction.",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "retrieval_hash": "sha256:b102ddda1529aca0d21927f0389a8a85d0d35855af7e42e450de87d03c0b25d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/cpi/", "claim": "BLS CPI program definitions, data access, and methodology context.", "status": "official-metadata"},
+    {"source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026", "claim": "BEA July 2026 income, PCE, outlays, and saving provide the aggregate income/spending comparison.", "status": "cross-source-context"},
+    {"source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/04-2026_ehi-national-full.pdf", "claim": "New York Fed EHI provides constructed group-specific inflation and spending context, with different methods and limitations.", "status": "distributional-context"}
+  ],
+  "boundary": "This record adds an official August 2026 CPI-U price-index checkpoint to the household-pressure atlas. It does not establish household-specific inflation, affordability, consumption response, debt or saving change, trust, political action, or a causal link from gasoline, shelter, or food prices to cultural or geopolitical outcomes. The extracted retrieval hash is for the committed release-fact summary; the official release URL remains the authoritative source."
+}

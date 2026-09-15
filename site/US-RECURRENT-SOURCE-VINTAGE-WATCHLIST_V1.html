@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recurrent-source vintage watchlist</title>
+  <style>
+    :root{--paper:#f5f3ed;--ink:#19322d;--muted:#5b6b66;--line:#d1d9d2;--card:#fffdf7;--green:#155f51;--gold:#b96722}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.65 system-ui,sans-serif}
+    main{max-width:1120px;margin:auto;padding:28px 22px 90px}a{color:var(--green);text-underline-offset:4px}
+    nav{font-size:.92rem;color:var(--muted)}h1,h2{font-family:Georgia,serif;font-weight:500;line-height:1.15}h1{font-size:clamp(2.8rem,7vw,5.5rem);max-width:900px;margin:52px 0 20px}h2{font-size:2rem;margin:54px 0 14px}
+    .lede{font:1.3rem/1.5 Georgia,serif;max-width:880px;color:#44534e}.note{border-left:5px solid var(--gold);padding:15px 20px;background:#fff8e9;max-width:920px}.small{color:var(--muted);font-size:.94rem}
+    table{width:100%;border-collapse:collapse;background:var(--card);margin:20px 0}th,td{text-align:left;vertical-align:top;border:1px solid var(--line);padding:12px}th{font-size:.78rem;text-transform:uppercase;color:var(--muted);letter-spacing:.05em}td:first-child{font-weight:600;color:var(--green)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}.card{background:var(--card);border:1px solid var(--line);padding:21px;border-radius:8px}.card p{margin:0;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:65px;padding-top:20px;color:var(--muted)}
+    @media(max-width:700px){main{padding:22px 16px 65px}body{font-size:16px}table{font-size:.9rem;display:block;overflow-x:auto;white-space:normal}}
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">Research home</a> · <a href="reading-room.html">Reading room</a> · <a href="us-source-method-map.html">Source method map</a> · <a href="us-program-dashboard.html">Program dashboard</a></nav>
+  <h1>Recurrent-source vintage watchlist</h1>
+  <p class="lede">A living control page for keeping the atlas current without mixing preliminary releases, revised estimates, broken definitions, or access-gated sources into one apparently stable trend.</p>
+  <p class="note"><strong>What this page is:</strong> a refresh queue, not a forecast and not evidence that a source closes an end-to-end cultural, political, or geopolitical arrow. When a new release arrives, preserve the old vintage and record what changed.</p>
+  <h2>Current refresh queue</h2>
+  <table>
+    <thead><tr><th>Source family</th><th>Latest usable atlas vintage</th><th>Next check</th><th>Boundary to preserve</th></tr></thead>
+    <tbody>
+      <tr><td>BEA national accounts</td><td>July 2026 personal income/outlays; Q2 2026 GDP second estimate</td><td>September 30 and October 29, 2026 releases</td><td>Aggregate national accounts are not household buffers, welfare, or worker control.</td></tr>
+      <tr><td>BLS prices, jobs, and earnings</td><td>August 2026 CPI/PPI and employment context; JOLTS through July</td><td>September 29–October 15, 2026 scheduled releases</td><td>Indexes, establishment rates, and sector means are not individual hardship or transition records.</td></tr>
+      <tr><td>Federal Reserve SHED</td><td>2025 annual survey and linked credit records</td><td>Next annual publication; date not fixed</td><td>Reported capacity, linked records, and hypothetical choices are distinct from transactions.</td></tr>
+      <tr><td>CMS NHEA</td><td>2024 historical accounts; 2025–2034 projections</td><td>Next annual NHE or projection update</td><td>National spending and sponsor shares are not household affordability, access, debt, time burden, or outcomes.</td></tr>
+      <tr><td>MEPS / Panel 27 and HC-256</td><td>2024 full-year HC-256 release; 2022–2023 Panel 27 longitudinal analysis</td><td>2023–2024 Panel 28 longitudinal file and next annual update</td><td>A newer file and structural scan are not yet a 2024 estimate or dated bill-to-care episode.</td></tr>
+      <tr><td>GSS / NORC</td><td>1972–2024 historical and 2024 financial-position/trust layers</td><td>Next annual or public-use release; date not fixed</td><td>Repeated cross-sections are not same-person exposure-to-action panels.</td></tr>
+      <tr><td>Census HTOPS/HPS</td><td>July 2026; corrected March/May PUFs; linked April–June 2025 panels</td><td>Monitor next public-use release</td><td>Repeated snapshots are not automatically same-person panels; preserve correction and replicate-weight notes.</td></tr>
+      <tr><td>CFPB complaint database</td><td>2025 annual; live API refresh September 14, 2026</td><td>Ongoing API refresh</td><td>Complaint visibility and response labels are not verified remedy or recovery rates.</td></tr>
+      <tr><td>SIPP and PSID</td><td>SIPP 2024 reference year; PSID remains pre-acquisition</td><td>Next SIPP public file; PSID when authenticated files arrive</td><td>Person, household, monthly, reference-period, and longitudinal fields require separate universes and weights.</td></tr>
+      <tr><td>IMF FAS and World Bank Enterprise Surveys</td><td>FAS 2025 release; WBES AI follow-up access-gated</td><td>Next annual release or authenticated microdata access</td><td>Provider capacity and catalog metadata are not household access, firm adoption, or welfare estimates.</td></tr>
+      <tr><td>SIPRI and defense procurement</td><td>2025 military-spending estimates; JASSM-ER public schedule/context</td><td>Next annual estimate or official acceptance/delivery event</td><td>Spending, contract, schedule, or facility context is not delivered capability, replaceability, or leverage.</td></tr>
+    </tbody>
+  </table>
+  <h2>How a refresh becomes evidence</h2>
+  <div class="grid">
+    <article class="card"><p><strong>1. Preserve the vintage.</strong><br>Record source URL, release date, retrieval date, file/page title, exact unit, geography, denominator, and artifact or page hash.</p></article>
+    <article class="card"><p><strong>2. Check comparability.</strong><br>Separate preliminary from revised values and record changes in definitions, coverage, weights, missingness, subgroup composition, and seasonality.</p></article>
+    <article class="card"><p><strong>3. Update cautiously.</strong><br>Promote a new substantive finding only when a release adds a changed measure, subgroup/place, reversal, institutional response, or stronger same-unit design.</p></article>
+  </div>
+  <h2>Current open dependencies</h2>
+  <ul>
+    <li><a href="psid-acquisition-gate.html">PSID authentication and file delivery</a> for the many-family material/time/care backbone.</li>
+    <li><a href="wbns-public-use-route-acquisition-audit-v1.html">WBNS public-use access</a> for respondent-level public-system route and security fields.</li>
+    <li><a href="world-bank-wbes-access-gate.html">World Bank Enterprise Surveys access</a> for firm-level AI adoption and adjustment.</li>
+    <li>Same-unit event records linking exposure, response, remedy/recovery, meaning, and exit.</li>
+  </ul>
+  <p class="small">Read the complete <a href="../analysis/US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md">Markdown watchlist</a>, the <a href="us-source-method-map.html">source method map</a>, and the <a href="US-CROSS-SOURCE-TREND-SYNTHESIS_V1.html">cross-source synthesis</a>.</p>
+  <footer><a href="reading-room.html">Return to the reading room</a> · <a href="US-BROAD-CURRENT-STATUS-AUDIT_V1.html">Open current status</a></footer>
+</main>
+</body>
+</html>

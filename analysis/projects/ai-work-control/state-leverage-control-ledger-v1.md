@@ -1,6 +1,6 @@
 # State-leverage control ledger v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-14
 **Status:** case-control ledger; no geopolitical leverage claim yet
 
 ## Purpose
@@ -42,6 +42,36 @@ external finance/technology
 ```
 
 ## Required retrieval before a leverage finding
+
+The [USAspending defense-award acquisition layer](usaspending-defense-award-acquisition-layer-v1.md)
+now supplies the first executable procurement route for the US side. Its
+FY2024 DoD retrieval is a bounded award-level page with a preserved request and
+response hash; it does not yet establish obligations, delivery, suppliers,
+ownership, local incidence, or capability.
+The [transaction profile](usaspending-defense-transaction-profile-v1.md) adds
+recipient, place, NAICS, and product/service concentration over the same 100-row
+page. It identifies cases for deeper audit but remains a retrieval-page
+diagnostic, not a supplier-share estimate.
+The [JASSM/LRASM award-detail case](usaspending-jassm-lrasm-award-detail-v1.md)
+adds one concrete award with a $7.202B obligation, 74 subawards, a 2024–2033
+performance period, noncompeted one-offer metadata, US ownership, and Florida
+recipient/performance location. These are contract facts, not proof of delivery,
+industrial capacity, or leverage.
+The linked subaward extract reports 51 subordinate recipients and $1.143B in
+subaward amounts; it supplies a supplier-structure lead, not a complete supply
+chain, ownership map, local-benefit estimate, or leverage finding.
+
+The Poland case now has a distinct implementation-stage update: official 2026
+records describe reciprocal buyer/seller access, regional Barracuda B500M
+co-production involving Poland, the United States, Estonia, and Latvia,
+assembly followed by planned production at Polish facilities, and a follow-up
+competence-building discussion. These records lengthen the procurement-to-
+capacity chain, but the current public audit still finds no verified plant
+commissioning, completed units, acceptance, measured local-content share,
+delivery, supplier switch, or external actor whose behavior changed because of
+the arrangement. The [resource-to-capability finding](findings/ai-work-control-048.md)
+and [Poland reciprocity finding](findings/ai-work-control-042.md) therefore
+remain bounded stage maps, not leverage findings.
 
 1. contracts, procurement awards, ownership, suppliers, customers, and renewal;
 2. operating capacity, outages, service levels, cost, data location, and audit;

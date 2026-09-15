@@ -1,0 +1,42 @@
+{
+  "format": "bls-ces-industry-earnings-annual-derivation-v1",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "request": {
+    "seriesid": [
+      "CES3000000003",
+      "CES6000000003",
+      "CES6500000003",
+      "CES7000000003"
+    ],
+    "startyear": "2022",
+    "endyear": "2026"
+  },
+  "raw_response_sha256": "CES3000000003:d6e9cbba46c650e18be2ff65262e463647474c09e9f08606379b2827b7c4db5a; CES6000000003:084664e5a0a7a31eaf3387142d476e8b34f7eb753470b542beff809145a9ded9; CES6500000003:7157548d3678073e161410b8b7556e19096ec542388f534243628d16c89efbc8; CES7000000003:7a9f6ef433037644390ce2e0113e5e05ed10879b581009a86989379c7995e66c",
+  "raw_series_page_sha256": {
+    "CES3000000003": "d6e9cbba46c650e18be2ff65262e463647474c09e9f08606379b2827b7c4db5a",
+    "CES6000000003": "084664e5a0a7a31eaf3387142d476e8b34f7eb753470b542beff809145a9ded9",
+    "CES6500000003": "7157548d3678073e161410b8b7556e19096ec542388f534243628d16c89efbc8",
+    "CES7000000003": "7a9f6ef433037644390ce2e0113e5e05ed10879b581009a86989379c7995e66c"
+  },
+  "series": {
+    "CES3000000003": "manufacturing",
+    "CES6000000003": "professional_and_business_services",
+    "CES6500000003": "education_and_health_services",
+    "CES7000000003": "leisure_and_hospitality"
+  },
+  "annual_mean_of_monthly_dollars_per_hour": {
+    "manufacturing": {
+      "2026": 36.625
+    },
+    "professional_and_business_services": {
+      "2026": 45.4337
+    },
+    "education_and_health_services": {
+      "2026": 36.2413
+    },
+    "leisure_and_hospitality": {
+      "2026": 23.5413
+    }
+  },
+  "method": "Arithmetic mean of available monthly, seasonally adjusted average hourly earnings of all employees for each selected private-industry series; the final year may be partial."
+}

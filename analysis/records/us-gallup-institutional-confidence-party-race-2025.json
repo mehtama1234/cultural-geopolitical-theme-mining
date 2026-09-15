@@ -1,0 +1,151 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-institutional-confidence-party-race-2025",
+  "title": "Institutional confidence is low overall but highly conditional on political and social position",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Poll Social Series respondent; U.S. adults asked confidence in named institutions",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "June 2–26, 2025; confidence in 18 institutions",
+      "denominator": {
+        "value": 18,
+        "unit": "institutions in the Gallup confidence battery; respondent sample size is not stated in the article text",
+        "value_type": "institution_count"
+      },
+      "measures": {
+        "majority_confidence_institutions": {
+          "value": 3,
+          "unit": "institutions with at least 50% saying a great deal or quite a lot of confidence",
+          "value_type": "count"
+        },
+        "small_business_confidence": {
+          "value": 70,
+          "unit": "percent of U.S. adults saying a great deal or quite a lot of confidence",
+          "value_type": "weighted_share"
+        },
+        "military_confidence": {
+          "value": 62,
+          "unit": "percent of U.S. adults saying a great deal or quite a lot of confidence",
+          "value_type": "weighted_share"
+        },
+        "science_confidence": {
+          "value": 61,
+          "unit": "percent of U.S. adults saying a great deal or quite a lot of confidence",
+          "value_type": "weighted_share"
+        },
+        "congress_confidence": {
+          "value": 10,
+          "unit": "percent of U.S. adults saying a great deal or quite a lot of confidence",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Gallup Poll Social Series confidence-in-institutions survey; respondents rated institutions on a four-category confidence question, with the published headline measure combining great deal and quite a lot.",
+      "uncertainty": "The official article and topline used here do not provide a locally reproducible respondent file in this repository. Sampling error, question order, nonresponse, wording, and the choice of institutions affect the estimates; confidence is not a direct measure of institutional performance or legitimacy.",
+      "subgroup": "National U.S. adults; institution-specific valid universes and demographic subgroup bases are not reproduced in this record.",
+      "counterinterpretation": "Low aggregate confidence can reflect polarization, salient political events, institutional experience, or survey response style. High confidence in small business, the military, or science does not establish effective performance, and low confidence in Congress does not establish political withdrawal.",
+      "source_url": "https://news.gallup.com/poll/692633/democrats-confidence-institutions-sinks-new-low.aspx",
+      "retrieval_hash": "article:sha256:ddf67ebc48efcd22006e6aa8b63222d3dff5b671ba7f7b4728627b7a0d522486; topline:sha256:f79c83c19319091952c47e46ebd1397ed8d6db01e553b3e8f11b50e2741a8b40",
+      "status": "reported"
+    },
+    {
+      "period": "June 2–26, 2025; nine institutions tracked consistently since 1979",
+      "denominator": {
+        "value": 9,
+        "unit": "institutions in the long-running comparison; respondent sample size is not stated in the article text",
+        "value_type": "institution_count"
+      },
+      "measures": {
+        "national_average_confidence": {
+          "value": 28,
+          "unit": "percent average across institutions saying a great deal or quite a lot of confidence",
+          "value_type": "average_share"
+        },
+        "democratic_average_confidence": {
+          "value": 26,
+          "unit": "percent average among Democrats",
+          "value_type": "average_share"
+        },
+        "republican_average_confidence": {
+          "value": 37,
+          "unit": "percent average among Republicans",
+          "value_type": "average_share"
+        },
+        "independent_average_confidence": {
+          "value": 25,
+          "unit": "percent average among independents",
+          "value_type": "average_share"
+        },
+        "republican_democrat_gap": {
+          "value": 11,
+          "unit": "percentage points; Republican minus Democrat average confidence",
+          "value_type": "derived_contrast"
+        }
+      },
+      "method": "Published Gallup comparison of the average great-deal/quite-a-lot confidence rating across the nine institutions measured consistently since 1979, split by party identification.",
+      "uncertainty": "The party comparison is descriptive and institution-specific ratings can move in opposite directions. Party identity, presidential control, prior beliefs, and current events are jointly related; the contrast is not an estimate of a treatment effect.",
+      "subgroup": "Democrats, Republicans, and independents as classified by Gallup’s survey instrument; exact subgroup sample sizes and standard errors are not included here.",
+      "counterinterpretation": "The party gap may reflect who controls the presidency and perceived authority over an institution rather than a general change in how well institutions perform. A partisan confidence shift can coexist with persistent low confidence among independents.",
+      "source_url": "https://news.gallup.com/poll/692633/democrats-confidence-institutions-sinks-new-low.aspx",
+      "retrieval_hash": "article:sha256:ddf67ebc48efcd22006e6aa8b63222d3dff5b671ba7f7b4728627b7a0d522486; topline:sha256:f79c83c19319091952c47e46ebd1397ed8d6db01e553b3e8f11b50e2741a8b40",
+      "status": "compared"
+    },
+    {
+      "period": "June 2–26, 2025; selected racial-group confidence comparisons",
+      "denominator": {
+        "value": 4,
+        "unit": "racial/ethnic groups shown in the Gallup topline: national, White, Black, and Hispanic adults",
+        "value_type": "group_count"
+      },
+      "measures": {
+        "police_confidence_white": {
+          "value": 52,
+          "unit": "percent of White adults saying a great deal or quite a lot of confidence",
+          "value_type": "subgroup_share"
+        },
+        "police_confidence_black": {
+          "value": 24,
+          "unit": "percent of Black adults saying a great deal or quite a lot of confidence",
+          "value_type": "subgroup_share"
+        },
+        "police_white_black_gap": {
+          "value": 28,
+          "unit": "percentage points; White minus Black confidence",
+          "value_type": "derived_contrast"
+        },
+        "presidency_confidence_white": {
+          "value": 37,
+          "unit": "percent of White adults saying a great deal or quite a lot of confidence",
+          "value_type": "subgroup_share"
+        },
+        "presidency_confidence_black": {
+          "value": 12,
+          "unit": "percent of Black adults saying a great deal or quite a lot of confidence",
+          "value_type": "subgroup_share"
+        }
+      },
+      "method": "Published Gallup topline subgroup comparison using the same confidence question and institution battery; subgroup percentages are descriptive.",
+      "uncertainty": "The record preserves published percentages but not subgroup standard errors or complete weighting details. Race/ethnicity is not a single mechanism and may stand for different exposure, experience, geography, party, age, and institutional histories.",
+      "subgroup": "Non-Hispanic White, non-Hispanic Black, and Hispanic adults as labeled in the Gallup topline.",
+      "counterinterpretation": "A group difference in stated confidence does not identify a shared group belief, a direct institutional encounter, or a causal effect of race; within-group variation and institution-specific histories may be large.",
+      "source_url": "https://news.gallup.com/file/poll/692660/2025_07_17_Confidence%20in%20Institutions%20Topline%20and%20Tabs.pdf",
+      "retrieval_hash": "topline:sha256:f79c83c19319091952c47e46ebd1397ed8d6db01e553b3e8f11b50e2741a8b40",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.brookings.edu/articles/extraordinary-or-not-so-extraordinary-times/",
+      "claim": "Brookings’ 30-year Gallup series interpretation places the 2025 institutional-confidence reading in a longer decline-and-polarization context.",
+      "status": "interpretive-comparison"
+    }
+  ],
+  "boundary": "This is a bounded reported Gallup confidence layer. It establishes institution-specific national, party, and racial-group confidence differences, not institutional performance, material causation, discrimination causation, political withdrawal, service use, legitimacy, or geopolitical/state capacity. The underlying respondent microdata are not locally archived in this pass."
+}

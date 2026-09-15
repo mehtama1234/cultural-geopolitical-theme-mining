@@ -1,0 +1,27 @@
+{
+  "format": "onet-nber-task-crosswalk-audit-v1",
+  "checked": "2026-09-13",
+  "onet_release": "31.0",
+  "onet_release_month": "August 2026",
+  "onet_archive_url": "https://www.onetcenter.org/dl_files/database/db_31_0_csv.zip",
+  "onet_archive_sha256": "55033fc68b4c13ec23e7f74dc6378660f6e854e75d55d6e333ae0a761d3987cd",
+  "onet_mapping_file": "gwas_to_iwas_to_dwas.csv",
+  "onet_mapping_sha256": "ae4e9f166187bfe8e6328a21470689ed188e7ed831090ace2a21c66cebb31a49",
+  "nber_index_urls": {
+    "DWA": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=416182935",
+    "IWA": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=1821519318",
+    "BWA": "https://docs.google.com/spreadsheets/d/17OI5xRALkN4lDZ1fHw2R9xPJUdDgWyFU/gviz/tq?tqx=out:csv&gid=646067329"
+  },
+  "nber_index_sha256": {
+    "DWA": "897209aacafd51dcadb4f830f07d9f431af3646710563f26b14d8289e9478aaf",
+    "IWA": "be41e67b1344d795bc27c77aad1021a32c42f583d8b96929c46ca3435472871c",
+    "BWA": "84660dd773d01ef72c17ac3667fb082704c6a396fc3b8115630127b42b0292e5"
+  },
+  "results": {
+    "DWA": {"nber_rows": 1655, "onet_exact_id_matches": 0, "onet_normalized_title_matches": 1653, "title_mismatches": ["Clean work areas or facilities.", "Collect payments for good or services."]},
+    "IWA": {"nber_rows": 322, "onet_exact_id_matches": 0, "onet_normalized_title_matches": 322},
+    "BWA": {"nber_rows": 9, "onet_exact_id_matches": 0, "onet_normalized_title_matches": 0, "onet_prefix_aggregation_matches": 9, "note": "NBER broad labels are an aggregation layer; all nine BWA IDs map to O*NET GWA prefix members, but not to exact O*NET GWA labels."}
+  },
+  "interpretation": "The NBER DWA/IWA identifiers do not exactly match O*NET 31.0 identifiers, but nearly all DWA and all IWA labels normalize to O*NET element names. All nine BWA IDs can be represented by O*NET GWA prefix members while retaining NBER's aggregation labels. This supports a provisional reconciliation artifact, not a validated semantic crosswalk.",
+  "boundary": "Metadata and label audit only; no worker-level linkage, adoption determinant, employer permission, pay, autonomy, bargaining, or outcome estimate is produced."
+}

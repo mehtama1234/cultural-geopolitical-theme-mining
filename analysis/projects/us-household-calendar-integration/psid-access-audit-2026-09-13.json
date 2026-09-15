@@ -1,0 +1,46 @@
+{
+  "audit_type": "psid-access-surface-audit-v1",
+  "checked": "2026-09-15",
+  "source_url": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
+  "source_status": "official package page lists target files",
+  "listed_targets": [
+    {"label": "2019 Main Study Family File", "official_link_id": 64, "download_route": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1211&mainurl=Y"},
+    {"label": "2021 Main Study Family File", "official_link_id": 65, "download_route": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1205&mainurl=Y"},
+    {"label": "2023 Main Study Family File", "official_link_id": 67, "download_route": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y"},
+    {"label": "1968-2023 Cross-year Individual File", "official_link_id": 68, "download_route": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1053&mainurl=Y"}
+  ],
+  "access_result": "download routes redirect to ZipWarnAccess.aspx because the account has not accepted the PSID Conditions of Use policy",
+  "local_data_files_present": false,
+  "workspace_recheck": {
+    "checked": "2026-09-14",
+    "search_scope": "/tmp and repository files for PSID wave/package data",
+    "target_data_files_found": false,
+    "non_data_artifacts_present": [
+      "/tmp/psid-q2023.pdf",
+      "manifests/us-psid-material-time-care-field-map-v1.json",
+      "scripts/audit_psid_wave_files.py"
+    ],
+    "interpretation": "Documentation and audit assets are present, but no 2019, 2021, or 2023 main Family File or cross-year individual data package is available for structural audit."
+  },
+  "route_recheck_2026_09_14": {
+    "checked": "2026-09-14",
+    "method": "Unauthenticated HTTPS GET with redirect following from the official packaged-data route",
+    "http_status": 403,
+    "response_indicator": "Cloudflare managed challenge; page requested JavaScript and cookies",
+    "interpretation": "The automated workspace probe cannot establish authenticated package access or retrieve a data file. This observation is a route-access condition, not evidence that the listed files are unavailable or that any substantive PSID relationship is absent."
+  },
+  "next_action": "An account holder must accept the official Conditions of Use policy and supply the four public-use packages; then run audit_psid_wave_files.py before merging or estimating.",
+  "boundary": "This audit confirms the official file listing and access condition only. It does not establish that the target files were downloaded, that fields are comparable, or that the longitudinal extract can be estimated.",
+  "official_route_recheck_2026_09_15": {
+    "checked": "2026-09-15",
+    "method": "Official PSID packaged-data page and direct 2023 package route reviewed in the public web surface",
+    "package_page_result": "The official page still lists the 2019, 2021, and 2023 Main Study Family Files and the 1968-2023 Cross-year Individual File.",
+    "direct_2023_route_result": "The 2023 package route redirects to ZipWarnAccess.aspx and states that an account must accept the Conditions of Use policy before generated carts and ZIP downloads are available.",
+    "interpretation": "The target package is listed and the route is live, but account registration and policy acceptance remain required before the workspace can download and hash the file. This is an access prerequisite, not a substantive null finding.",
+    "source_urls": [
+      "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
+      "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y",
+      "https://psidonline.isr.umich.edu/GettingStarted.aspx"
+    ]
+  }
+}

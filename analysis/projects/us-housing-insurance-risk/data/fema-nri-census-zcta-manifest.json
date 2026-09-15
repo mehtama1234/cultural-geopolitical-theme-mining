@@ -1,0 +1,19 @@
+{
+  "census-2020-zcta-county-relationship.txt": {
+    "url": "https://www2.census.gov/geo/docs/maps-data/data/rel2020/zcta520/tab20_zcta520_county20_natl.txt",
+    "sha256": "3ed41278d637dc249e0323306f68be8a6c234e3090f4de88ef328dee71aeaaaf",
+    "bytes": 6821287
+  },
+  "fema-nri-counties-0.json": {
+    "url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0/query",
+    "query": "all counties; offset 0; selected fields",
+    "sha256": "29c57aa33f333b9a143847fdd9ad3a2ffa883de8a7612a158b0174837560d28f",
+    "bytes": 323306
+  },
+  "fema-nri-counties-2000.json": {
+    "url": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0/query",
+    "query": "all counties; offset 2000; selected fields",
+    "sha256": "a4b5ce41f2a89b3e2281f88d3dca10f04735539cd7b110267c5564688f9c896b",
+    "bytes": 198788
+  }
+}

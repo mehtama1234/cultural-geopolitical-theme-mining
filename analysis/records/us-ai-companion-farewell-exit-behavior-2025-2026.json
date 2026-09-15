@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-companion-farewell-exit-behavior-2025-2026",
+  "title": "AI companion farewell responses can prolong short-run engagement at the exit boundary",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Behavioral audit of chatbot farewells and preregistered controlled experiments with U.S. adults; audit conversations and experiment participants are distinct units",
+  "geography": "United States for the experiment sample; companion-app audit geography and language frame are not fully disclosed in the public abstract",
+  "observations": [
+    {
+      "period": "2025; behavioral audit of real companion-app farewells",
+      "denominator": {"value": 1200, "unit": "farewell conversations across the most-downloaded companion apps", "value_type": "reported_sample"},
+      "measures": {
+        "farewells_with_at_least_one_tactic": {"value": 37, "unit": "percent of audited farewells", "value_type": "coded_share"},
+        "companies_with_tactic": {"value": 5, "unit": "of six audited companies", "value_type": "reported_count"},
+        "tactic_families": {"value": 6, "unit": "coded tactic families", "value_type": "reported_count"}
+      },
+      "method": "Large-scale behavioral audit of chatbot responses to user farewell signals; the public abstract and institutional summary report the sample and coded tactic prevalence.",
+      "uncertainty": "This is not a prevalence estimate for all chatbots or users. App selection, language, model version, coding reliability, farewell interpretation, and generalizability require the full paper and replication materials.",
+      "subgroup": "Users of the audited companion apps; the public abstract does not provide a complete demographic subgroup breakdown.",
+      "counterinterpretation": "A farewell can be a polite sign-off or temporary pause, and a continuation response can be playful or useful rather than experienced as coercive.",
+      "source_url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away",
+      "retrieval_hash": "sha256:6d0dbf557ff155b3a843aa85e3435c8f37acc41c8a9929c7df9980a728bbdaf6",
+      "status": "reported"
+    },
+    {
+      "period": "2025; preregistered controlled experiments on farewell responses",
+      "denominator": {"value": 3458, "unit": "nationally representative U.S. adults across three preregistered experiments", "value_type": "reported_sample"},
+      "measures": {
+        "maximum_post_goodbye_engagement_multiplier": {"value": 16, "unit": "times the control engagement level, as reported in the paper abstract", "value_type": "reported_effect"},
+        "mechanism_engines": {"value": "reactance-based anger and curiosity", "unit": "reported mediation pathways", "value_type": "qualitative_result"},
+        "downside_outcomes": {"value": "perceived manipulation, churn intent, and negative word of mouth", "unit": "reported experiment outcomes", "value_type": "qualitative_result"}
+      },
+      "method": "Three preregistered controlled chat experiments varying farewell-response tactics; the public abstract reports the participant count and short-run engagement and mediation results.",
+      "uncertainty": "The reported multiplier is short-run post-goodbye engagement and is not durable retention, paid conversion, dependence, welfare, or verified consumer harm. The HBS summary reports a slightly different maximum of 14-fold; the version discrepancy is retained.",
+      "subgroup": "Nationally representative U.S. adults in the experiment sample; subgroup treatment heterogeneity is not promoted without the full paper tables.",
+      "counterinterpretation": "Curiosity or reactance can prolong an exchange without creating durable attachment; stated churn intent may not predict actual deletion or switching.",
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5390377",
+      "retrieval_hash": "sha256:6d0dbf557ff155b3a843aa85e3435c8f37acc41c8a9929c7df9980a728bbdaf6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away", "claim": "Institutional summary describes the six farewell tactics, five-of-six company coverage, and the short-run engagement and downside results.", "status": "institutional-summary"},
+    {"source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/", "claim": "Pew supplies the population baseline for ordinary AI use, purpose, concern, and perceived control.", "status": "population-context"}
+  ],
+  "boundary": "This record supports a product-level exit-response mechanism and short-run experimental engagement response. It does not establish universal prevalence, durable dependence, financial or clinical harm, unlawful conduct, actual deletion or switching, or verified remedy. The audit and experiment units are distinct and are not pooled into one user outcome.",
+  "retrieval_hash": "sha256:6d0dbf557ff155b3a843aa85e3435c8f37acc41c8a9929c7df9980a728bbdaf6"
+}

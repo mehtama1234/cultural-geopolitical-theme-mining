@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-oecd-algorithmic-management-2024",
+  "title": "US firms report widespread algorithmic management alongside accountability and worker-protection concerns",
+  "theme_ids": ["work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "infrastructure_technology_dependency", "trust_identity_meaning", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "OECD employer-survey respondent reporting firm use and governance of software that instructs, monitors, or evaluates workers",
+  "geography": "France, Germany, Italy, Japan, Spain, and the United States; US-specific rates retained where reported",
+  "observations": [
+    {
+      "period": "June–August 2024; OECD employer survey frame",
+      "denominator": {"value": 6047, "unit": "firms with 20 or more employees across six countries; mid-level manager or supervisor respondent per firm", "value_type": "reported_sample"},
+      "measures": {"countries": {"value": 6, "unit": "survey countries", "value_type": "reported_frame"}, "firm_size_floor": {"value": 20, "unit": "employees", "value_type": "reported_eligibility"}},
+      "method": "Representative OECD employer survey of firms across all sectors; respondents reported whether their firms provided 15 algorithmic-management tools in instruction, monitoring, and evaluation categories, perceived impacts, concerns, and governance measures.",
+      "uncertainty": "Employer-side reports measure firm adoption and manager perceptions, not worker exposure, realized job quality, causal effects, or the exact number of US firms in each reported weighted rate.",
+      "subgroup": "Country, tool category, and firms with 20 or more employees; manager/supervisor respondent perspective.",
+      "counterinterpretation": "A firm may provide a tool without using it for consequential decisions; adoption is not intensity, worker exposure, or reduced autonomy.",
+      "source_url": "https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html",
+      "retrieval_hash": "sha256:3080f2d54ecc1ecf540cc7101280399b8a0a9d9b4a23a3ea5361ba23ab37a981",
+      "status": "reported"
+    },
+    {
+      "period": "June–August 2024; United States firm adoption",
+      "denominator": {"value": 1, "unit": "US weighted employer-survey rate; country-specific respondent count is not shown in the public summary", "value_type": "weighted_country_rate"},
+      "measures": {"at_least_one_algorithmic_management_tool": {"value": 90, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"}, "ten_or_more_tools": {"value": 76, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"}, "monitoring_tools": {"value": 90, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"}, "evaluation_tools": {"value": 90, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"}},
+      "method": "OECD weighted country estimates from the employer survey; tools cover software that instructs, monitors, or evaluates workers and are not necessarily AI-powered.",
+      "uncertainty": "These are firm-level manager reports, not worker-level exposure or verified system logs. The survey's algorithmic-management category is broader than generative AI.",
+      "subgroup": "United States firms with 20 or more employees; tool-category and intensity comparisons.",
+      "counterinterpretation": "High provision may reflect administrative or scheduling tools with limited worker consequence; it does not establish surveillance intensity, discipline, pay changes, or bargaining loss.",
+      "source_url": "https://www.oecd.org/en/publications/how-widespread-is-algorithmic-management-in-workplaces_cda7a114-en/full-report.html",
+      "retrieval_hash": "sha256:3080f2d54ecc1ecf540cc7101280399b8a0a9d9b4a23a3ea5361ba23ab37a981",
+      "status": "reported"
+    },
+    {
+      "period": "June–August 2024; monitoring content/tone in the United States",
+      "denominator": {"value": 1, "unit": "US weighted employer-survey rate; country-specific respondent count is not shown in the public summary", "value_type": "weighted_country_rate"},
+      "measures": {"monitor_conversation_call_email_content_or_tone": {"value": 55, "unit": "percent of US firms reported by managers", "value_type": "weighted_share"}, "european_comparator": {"value": 6, "unit": "percent average reported in France, Germany, Italy, and Spain", "value_type": "weighted_comparator"}, "japan_comparator": {"value": 8, "unit": "percent reported in Japan", "value_type": "weighted_comparator"}},
+      "method": "Country-weighted employer-survey comparison for one monitoring tool category; the category concerns content or tone of conversations, calls, or emails.",
+      "uncertainty": "The comparison is between firm-reported provision, not actual monitoring frequency, worker consent, data retention, or enforcement. Country legal and sector composition differ.",
+      "subgroup": "Country and monitoring-tool category.",
+      "counterinterpretation": "A reported tool may support quality or compliance work rather than discipline; the estimate does not reveal who can inspect, contest, or delete the resulting record.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/algorithmic-management-in-the-workplace_3c84ed6d/287c13c4-en.pdf",
+      "retrieval_hash": "sha256:3080f2d54ecc1ecf540cc7101280399b8a0a9d9b4a23a3ea5361ba23ab37a981",
+      "status": "reported"
+    },
+    {
+      "period": "June–August 2024; trustworthiness and governance among algorithmic-management users",
+      "denominator": {"value": 1, "unit": "algorithmic-management-using firms; item-specific valid universes across six countries", "value_type": "reported_item_universe"},
+      "measures": {"users_with_worker_impact_concern": {"value": "nearly two-thirds", "unit": "share of managers reporting at least one concern", "value_type": "reported_share"}, "most_common_concern": {"value": "unclear accountability for a wrong decision", "unit": "reported concern ranking", "value_type": "reported_pattern"}, "other_concerns": {"value": "difficulty following algorithmic logic and inadequate protection of physical and mental health", "unit": "reported concern categories", "value_type": "reported_pattern"}, "firms_with_at_least_one_governance_measure": {"value": "nearly 90", "unit": "percent of firms reported by managers", "value_type": "reported_share"}, "worker_consultation": {"value": "almost two-thirds", "unit": "share of firms reporting worker consultation as a governance measure", "value_type": "reported_share"}},
+      "method": "Descriptive employer-survey responses among firms using algorithmic-management tools; governance measures include assessments, audits, guidelines, ethics roles, whistleblower/complaint channels, and worker or representative consultation.",
+      "uncertainty": "Concern and governance measures are self-reported and do not establish effectiveness, worker awareness, remedy, or independent audit quality; rounded language in the policy summary is retained.",
+      "subgroup": "Algorithmic-management users across the six-country survey; concern and governance item universes differ.",
+      "counterinterpretation": "A governance policy can exist without meaningful worker power, enforcement, or a channel that changes a decision; concern can coexist with continued adoption.",
+      "source_url": "https://www.oecd.org/en/publications/how-widespread-is-algorithmic-management-in-workplaces_cda7a114-en.html",
+      "retrieval_hash": "sha256:3080f2d54ecc1ecf540cc7101280399b8a0a9d9b4a23a3ea5361ba23ab37a981",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/287c13c4-en", "claim": "OECD publication identifier for the employer survey study.", "status": "official-doi"},
+    {"source_url": "https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html", "claim": "Related OECD worker-consultation experiment; separate German manufacturing setting and outcome design.", "status": "related-evidence"}
+  ],
+  "boundary": "This record measures employer-reported provision, perceived managerial effects, trustworthiness concerns, and governance measures in a six-country survey. It does not establish worker exposure, job quality, pay, autonomy, bargaining power, health effects, enforcement, remedy, or US political action. Algorithmic management is broader than generative AI."
+}

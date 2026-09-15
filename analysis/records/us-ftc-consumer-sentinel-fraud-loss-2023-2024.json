@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-consumer-sentinel-fraud-loss-2023-2024",
+  "title": "Reported fraud losses rose while report volume stayed broadly stable, with loss incidence and severity split by age",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "FTC Consumer Sentinel Network administrative reports",
+  "geography": "United States reports and reports contributed by partner agencies and organizations",
+  "observations": [
+    {
+      "period": "2023–2024 annual Sentinel reports",
+      "denominator": {"value": 6471708, "unit": "2024 total Sentinel reports"},
+      "measures": {
+        "total_reports_2023": {"value": 6136404, "unit": "reports", "value_type": "count"},
+        "total_reports_2024": {"value": 6471708, "unit": "reports", "value_type": "count"},
+        "fraud_reports_2023": {"value": 2621649, "unit": "reports", "value_type": "count"},
+        "fraud_reports_2024": {"value": 2600678, "unit": "reports", "value_type": "count"},
+        "fraud_reports_indicating_loss_2023": {"value": 27, "unit": "percent of fraud reports", "value_type": "share"},
+        "fraud_reports_indicating_loss_2024": {"value": 38, "unit": "percent of fraud reports", "value_type": "share"},
+        "reported_fraud_losses_2024": {"value": 12537194708, "unit": "US dollars reported lost", "value_type": "reported_amount"},
+        "median_fraud_loss_2024": {"value": 497, "unit": "US dollars among reports with loss", "value_type": "median"}
+      },
+      "method": "FTC Consumer Sentinel Network annual administrative report counts and reported-loss summaries.",
+      "uncertainty": "Reports are unverified, not a population survey, and include multiple data contributors; totals and category definitions can change with late reports and revisions.",
+      "subgroup": "Fraud, identity-theft, and other Sentinel report types across annual report frames.",
+      "counterinterpretation": "A higher loss share can reflect reporting composition, contributor coverage, or changing scam severity rather than a population-wide incidence change; no denominator of all consumers is available.",
+      "source_url": "https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2024",
+      "retrieval_hash": "sha256:d0c743e0b7a9eeb8dc048bb25a78a389da7c1722e0b0f016f667ac2641dc12e1",
+      "status": "compared"
+    },
+    {
+      "period": "2024 fraud reports with usable age information",
+      "denominator": {"value": 1177005, "unit": "2024 fraud reports with usable age information"},
+      "measures": {
+        "age_20_29_reporting_loss": {"value": 44, "unit": "percent of age-20-to-29 fraud reports", "value_type": "share"},
+        "age_70_79_reporting_loss": {"value": 24, "unit": "percent of age-70-to-79 fraud reports", "value_type": "share"},
+        "age_20_29_median_loss": {"value": 417, "unit": "US dollars among age-20-to-29 reports with loss", "value_type": "median"},
+        "age_70_79_median_loss": {"value": 1650, "unit": "US dollars among age-70-to-79 reports with loss", "value_type": "median"}
+      },
+      "method": "FTC 2024 Consumer Sentinel age-conditioned fraud-loss table.",
+      "uncertainty": "Age is reported for only a subset of fraud reports; conditional medians describe reported losses, not age-specific population risk or total harm.",
+      "subgroup": "Reported fraud by age, especially ages 20–29 and 70–79.",
+      "counterinterpretation": "Different reporting propensity, scam mix, resources, and exposure can produce the incidence/severity split; the table does not measure digital skill or platform causation.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf",
+      "retrieval_hash": "sha256:d0c743e0b7a9eeb8dc048bb25a78a389da7c1722e0b0f016f667ac2641dc12e1",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is an administrative report and reported-loss layer, not a prevalence, verified-harm, recovery, or consumer-remedy estimate. It does not follow a person from platform or payment exposure through dispute, recovery, trust, or exit. The retrieval hash will cover the committed analysis memo."
+}

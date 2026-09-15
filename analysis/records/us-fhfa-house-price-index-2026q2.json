@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fhfa-house-price-index-2026q2",
+  "title": "House-price movement is geographically uneven and is not the same as household insurance room",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "household_room_consumption", "firm_sector_market_power"],
+  "source_unit": "Federal Housing Finance Agency House Price Index summary tables, seasonally adjusted purchase-only indexes, 2026Q2",
+  "geography": "United States; national, census-division, and state comparisons",
+  "observations": [
+    {
+      "period": "2026Q2; national FHFA purchase-only HPI",
+      "denominator": {"value": 1, "unit": "national FHFA seasonally adjusted purchase-only index", "value_type": "index_reference"},
+      "measures": {
+        "one_quarter_change": {"value": 0.35, "unit": "percent", "value_type": "reported_change"},
+        "one_year_change": {"value": 2.13, "unit": "percent", "value_type": "reported_change"},
+        "five_year_change": {"value": 33.41, "unit": "percent", "value_type": "reported_change"},
+        "since_1991_change": {"value": 335.69, "unit": "percent", "value_type": "reported_change"}
+      },
+      "method": "FHFA weighted repeat-sales purchase-only index using repeat mortgage transactions on single-family properties with mortgages purchased or securitized by Fannie Mae or Freddie Mac.",
+      "uncertainty": "The index measures price movement for its covered mortgage and property universe; it is not a median household price, rent, insurance premium, affordability, wealth, or realized sale result.",
+      "subgroup": "Single-family properties represented in the conforming mortgage transaction universe; national result.",
+      "counterinterpretation": "A positive price index can coexist with payment stress, limited liquidity, high insurance costs, underinsurance, or inability to move; price appreciation is not automatically household room.",
+      "source_url": "https://www.fhfa.gov/data/hpi/summary-tables",
+      "retrieval_hash": "fhfa-summary:sha256:7154d2b09d7c7d3983bf95dabcbc787368f4c471733a3abf9c0cddada30a7423",
+      "status": "reported"
+    },
+    {
+      "period": "2026Q2; state FHFA purchase-only HPI one-year comparison",
+      "denominator": {"value": 51, "unit": "states and District of Columbia in FHFA state table", "value_type": "reported_universe"},
+      "measures": {
+        "highest_one_year_change_state": {"value": 8.30, "unit": "percent; Alaska", "value_type": "reported_share"},
+        "lowest_one_year_change_state": {"value": -1.25, "unit": "percent; New Mexico", "value_type": "reported_change"},
+        "state_range": {"value": 9.55, "unit": "percentage points; derived highest-minus-lowest one-year change", "value_type": "derived_difference"},
+        "california_one_year_change": {"value": -0.20, "unit": "percent", "value_type": "reported_change"},
+        "florida_one_year_change": {"value": 0.96, "unit": "percent", "value_type": "reported_change"},
+        "texas_one_year_change": {"value": 0.45, "unit": "percent", "value_type": "reported_change"}
+      },
+      "method": "FHFA state summary table; seasonally adjusted, purchase-only index; rankings based on one-year HPI change.",
+      "uncertainty": "The state spread is descriptive, not a causal comparison. State averages combine different local markets, property types, loan coverage, hazard exposure, insurance regimes, and migration patterns.",
+      "subgroup": "States and District of Columbia, with selected state examples relevant to insurance and hazard comparisons.",
+      "counterinterpretation": "A state-level price change can reflect composition, transaction selection, interest rates, supply, demand, or refinancing patterns rather than a representative owner's equity or ability to sell.",
+      "source_url": "https://www.fhfa.gov/data/hpi/summary-tables",
+      "retrieval_hash": "fhfa-summary:sha256:7154d2b09d7c7d3983bf95dabcbc787368f4c471733a3abf9c0cddada30a7423",
+      "status": "reported"
+    },
+    {
+      "period": "1975Q1–2026Q2; FHFA coverage and index design",
+      "denominator": {"value": 1, "unit": "FHFA HPI data system", "value_type": "study_artifact"},
+      "measures": {
+        "historical_start": {"value": "1975Q1", "unit": "index coverage start for expanded-data US series", "value_type": "reported_coverage"},
+        "geographic_levels": {"value": "national, census division, state, metro, county, ZIP, and census tract options across FHFA datasets", "unit": "geographic coverage categories", "value_type": "qualitative_inventory"},
+        "property_scope": {"value": "single-family properties represented in FHFA mortgage and related transaction data", "unit": "index scope", "value_type": "qualitative_scope"}
+      },
+      "method": "FHFA data-system and methodology description, including weighted repeat-sales construction and downloadable geographic datasets.",
+      "uncertainty": "Coverage and index construction vary by release and dataset. Fine geographic estimates remain index measures and do not supply household-level insurance, debt, income, or mobility outcomes.",
+      "subgroup": "Geographies and property/transaction universes defined by the selected FHFA dataset.",
+      "counterinterpretation": "More geographic detail does not automatically provide a valid household join; local price movement and local insurance pressure may be measured for different units and clocks.",
+      "source_url": "https://www.fhfa.gov/data/hpi/datasets",
+      "retrieval_hash": "fhfa-datasets:sha256:9a352a4cc3f4599d8571681314038cec112014dd09ea44e2e737007d3ea4f6c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.cbo.gov/publication/60674", "claim": "CBO supplies modeled disaster-loss and federally backed mortgage exposure that should not be merged with FHFA price movement.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-housing.htm", "claim": "Federal Reserve SHED supplies household insurance status and affordability pressure for a separate household-level layer.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.nber.org/papers/w32579", "claim": "NBER property-insurance research supplies risk and premium evidence for testing whether price and protection move together or apart.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "FHFA HPI adds an observed asset-price layer. It does not establish household affordability, insurance adequacy, premium changes, mortgage distress, repair, sale, move, or political meaning. Its central program use is to keep asset value, cost of protection, and recovery capacity as separate but joinable stages.",
+  "retrieval_hash": "fhfa-summary:sha256:7154d2b09d7c7d3983bf95dabcbc787368f4c471733a3abf9c0cddada30a7423; fhfa-datasets:sha256:9a352a4cc3f4599d8571681314038cec112014dd09ea44e2e737007d3ea4f6c4"
+}

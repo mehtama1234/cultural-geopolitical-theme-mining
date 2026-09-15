@@ -1,0 +1,98 @@
+{
+  "format": "bls-jolts-2026-ytd-html-derivation-v1",
+  "source_urls": {
+    "JTS000000000000000JOR": "https://data.bls.gov/timeseries/JTS000000000000000JOR",
+    "JTS000000000000000HIR": "https://data.bls.gov/timeseries/JTS000000000000000HIR",
+    "JTS000000000000000QUR": "https://data.bls.gov/timeseries/JTS000000000000000QUR",
+    "JTS000000000000000LDR": "https://data.bls.gov/timeseries/JTS000000000000000LDR",
+    "JTS000000000000000TSR": "https://data.bls.gov/timeseries/JTS000000000000000TSR"
+  },
+  "retrieval_hashes": {
+    "JTS000000000000000JOR": "6aa701c1de7884bd3c5bb4162031581a51ad5b2e949bc1a4fc43edfcfb768cc1",
+    "JTS000000000000000HIR": "bcf7001c37744df3ece2b96f6056ef82067ca04424024f78f5cf39b76ecf4e40",
+    "JTS000000000000000QUR": "1eb5783ba15d29272134f6ffae1529940e080af48243951d1206d9112f144769",
+    "JTS000000000000000LDR": "c09bedda69e8d2d19ab7c17f5411f29df57eac921b514301251cc9d29ee3253a",
+    "JTS000000000000000TSR": "288e9f8e0938c4e0a2b5bb7819f6f2eb469bc6057e6d0db80bb8764aeec4c845"
+  },
+  "months_observed": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul"
+  ],
+  "monthly_rates_percent": {
+    "job_openings_rate": {
+      "Jan": 4.4,
+      "Feb": 4.2,
+      "Mar": 4.2,
+      "Apr": 4.6,
+      "May": 4.5,
+      "Jun": 4.3,
+      "Jul": 4.4
+    },
+    "hires_rate": {
+      "Jan": 3.4,
+      "Feb": 3.1,
+      "Mar": 3.5,
+      "Apr": 3.3,
+      "May": 3.3,
+      "Jun": 3.4,
+      "Jul": 3.2
+    },
+    "quits_rate": {
+      "Jan": 2.0,
+      "Feb": 1.9,
+      "Mar": 2.0,
+      "Apr": 1.9,
+      "May": 2.0,
+      "Jun": 2.0,
+      "Jul": 1.9
+    },
+    "layoffs_and_discharges_rate": {
+      "Jan": 1.0,
+      "Feb": 1.1,
+      "Mar": 1.2,
+      "Apr": 1.0,
+      "May": 1.1,
+      "Jun": 1.1,
+      "Jul": 1.0
+    },
+    "total_separations_rate": {
+      "Jan": 3.2,
+      "Feb": 3.2,
+      "Mar": 3.4,
+      "Apr": 3.2,
+      "May": 3.3,
+      "Jun": 3.4,
+      "Jul": 3.2
+    }
+  },
+  "preliminary_months": {
+    "job_openings_rate": [
+      "Jul"
+    ],
+    "hires_rate": [
+      "Jul"
+    ],
+    "quits_rate": [
+      "Jul"
+    ],
+    "layoffs_and_discharges_rate": [
+      "Jul"
+    ],
+    "total_separations_rate": [
+      "Jul"
+    ]
+  },
+  "ytd_mean_of_monthly_rates_percent": {
+    "job_openings_rate": 4.3714,
+    "hires_rate": 3.3143,
+    "quits_rate": 1.9571,
+    "layoffs_and_discharges_rate": 1.0714,
+    "total_separations_rate": 3.2714
+  },
+  "method": "Arithmetic mean of the seven available January-July 2026 seasonally adjusted national JOLTS rates; July is marked preliminary on the BLS series pages. This is a partial-year context measure, not a 2026 annual estimate or individual transition probability."
+}

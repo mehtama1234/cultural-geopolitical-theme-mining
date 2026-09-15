@@ -65,3 +65,7 @@ The ANES cross-tabs address only the first three, and only descriptively. The ne
 ## Reproduction boundary
 
 The underlying panel download endpoint returned the publisher’s web-challenge HTML in this environment, so these estimates were obtained through the official SDA interface rather than a locally reproduced microdata script. Preserve the SDA query settings and archive the panel file when direct retrieval is available. Until then, treat this as a recorded official descriptive result, not a fully auditable local replication.
+
+The two panel comparisons are preserved in the machine-readable [trend
+record](../../records/us-anes-panel-worry-trust-vote-2024.json), retaining the
+valid cross-tab denominators and the non-monotonic/counteridentity boundaries.

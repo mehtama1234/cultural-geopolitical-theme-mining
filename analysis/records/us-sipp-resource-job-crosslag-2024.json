@@ -1,0 +1,40 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-resource-job-crosslag-2024",
+  "title": "Monthly resource-band changes and job-count changes are distinct adjacent-month pathways",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "work_control_bargaining", "unequal_exposure_status"],
+  "source_unit": "identified SIPP person record across adjacent reference months, with explicitly monthly income-to-poverty and job-count fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; resource band at month t to job-count change at month t+1",
+      "denominator": {"value": 297846, "unit": "valid adjacent person-month pairs with monthly resource band at t and job count at t+1; resource-band cells retain their own pair universes", "value_type": "person_month_pairs"},
+      "measures": {"below_1x_next_job_count_changes": {"value": 2.513, "unit": "percent; Fay-BRR SE 0.152 percentage points; approximate 95% CI 2.214–2.811", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.152, "approx_95_ci_percentage_points": [2.214, 2.811]}, "1_to_2x_next_job_count_changes": {"value": 1.626, "unit": "percent; Fay-BRR SE 0.103 percentage points; approximate 95% CI 1.425–1.828", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.103, "approx_95_ci_percentage_points": [1.425, 1.828]}, "2_to_4x_next_job_count_changes": {"value": 1.621, "unit": "percent; Fay-BRR SE 0.066 percentage points; approximate 95% CI 1.491–1.751", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.066, "approx_95_ci_percentage_points": [1.491, 1.751]}, "4x_or_more_next_job_count_changes": {"value": 1.615, "unit": "percent; Fay-BRR SE 0.054 percentage points; approximate 95% CI 1.510–1.721", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.054, "approx_95_ci_percentage_points": [1.510, 1.721]}},
+      "method": "Same-person adjacent-month cross-lag using first-month WPFINWGT and 240 replicate weights; THINCPOV is classified below 1x, 1–2x, 2–4x, and 4x-or-more monthly income-to-poverty ratio, and RMNUMJOBS change is any category change at the following month.",
+      "uncertainty": "Fay-BRR intervals quantify design-based sampling uncertainty for the person-record cross-lag. The result is descriptive and does not establish that resource position caused a job-count change.",
+      "subgroup": "Identified SIPP persons with valid monthly income-to-poverty band at t and valid job counts at t and t+1; cells use separate valid pair universes.",
+      "counterinterpretation": "The lower-resource group has a somewhat higher next-month job-count-change share, but the comparison may reflect household composition, earnings, transfers, job quality, hours, or selection; job count is not work intensity or income recovery.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; job count at month t to resource-band change at month t+1",
+      "denominator": {"value": 297846, "unit": "valid adjacent person-month pairs with monthly job count at t and resource band at t+1; job-count cells retain their own pair universes", "value_type": "person_month_pairs"},
+      "measures": {"zero_jobs_next_resource_band_changes": {"value": 2.987, "unit": "percent; Fay-BRR SE 0.100 percentage points; approximate 95% CI 2.792–3.183", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.100, "approx_95_ci_percentage_points": [2.792, 3.183]}, "one_job_next_resource_band_changes": {"value": 3.745, "unit": "percent; Fay-BRR SE 0.118 percentage points; approximate 95% CI 3.512–3.977", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.118, "approx_95_ci_percentage_points": [3.512, 3.977]}, "two_jobs_next_resource_band_changes": {"value": 4.998, "unit": "percent; Fay-BRR SE 0.323 percentage points; approximate 95% CI 4.365–5.630", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 0.323, "approx_95_ci_percentage_points": [4.365, 5.630]}, "three_jobs_next_resource_band_changes": {"value": 5.176, "unit": "percent; Fay-BRR SE 1.209 percentage points; approximate 95% CI 2.807–7.546", "value_type": "weighted_crosslag_share", "standard_error_percentage_points": 1.209, "approx_95_ci_percentage_points": [2.807, 7.546]}},
+      "method": "Same-person adjacent-month cross-lag using first-month WPFINWGT and 240 replicate weights; RMNUMJOBS is the number of jobs in month t, and THINCPOV band change is evaluated at t+1.",
+      "uncertainty": "The smallest high-job-count cells are imprecise; job count and income-to-poverty ratio have different meanings and neither captures hours, pay, care, schedule control, or a specific shock.",
+      "subgroup": "Identified SIPP persons with valid monthly job count at t and valid income-to-poverty bands at t and t+1.",
+      "counterinterpretation": "More jobs can coexist with resource-band movement because earnings, household income, transfers, and costs also change; a resource-band change is not necessarily an employment response.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official monthly field definitions and universes for THINCPOV and RMNUMJOBS.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive used for Fay-BRR uncertainty.", "status": "official-replicate-weights"}
+  ],
+  "boundary": "This is a same-person monthly descriptive cross-lag for explicitly monthly SIPP fields. It does not establish causality, household-weighted prevalence, exact bill or care events, hours, pay, schedule control, health, institutional remedy, trust, political action, or geopolitical consequence. Annual/reference-period hardship fields are not promoted into this monthly event measure."
+}

@@ -106,6 +106,13 @@ and utility hardship remains similar to the entry group. This is a descriptive
 selection pattern, not a SNAP effect. The transition record still lacks notice,
 effort, amount, remedy, interpretation, and action.
 
+The [SNAP stable-state child-care bridge](sipp-snap-stable-state-childcare-bridge-v1.md)
+adds a same-person November-to-December status comparison to annual fall
+child-care fields. Continued receipt has higher reported child-care assistance
+and work prevention but lower paid child care than stable nonreceipt. This is a
+composition-sensitive care/work boundary, not evidence that receipt caused the
+constraint; entry and exit cells are too sparse for promotion.
+
 The [SNAP administrative-burden paper scan](snap-administrative-burden-paper-scan-v1.md)
 adds route-level evidence from experiments, administrative records, and
 quasi-experimental office changes. Flexible interviews, office proximity,

@@ -1,0 +1,30 @@
+{
+  "format": "oecd-worker-consultation-experiment-acquisition-v1",
+  "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/07/exploring-win-win-outcomes-of-algorithmic-management_88216705/84b59397-en.pdf",
+  "landing_url": "https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html",
+  "retrieved_at": "2026-09-14",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "response_bytes": 2791165,
+  "retrieval_hash": "sha256:8563ab4da9355b31e474e45dc1e299d4c27fcba69dce2dbf9b75e1baf245cd52",
+  "page_count": 33,
+  "publication": {
+    "title": "Exploring win-win outcomes of algorithmic management: Lessons from a laboratory experiment on worker consultation",
+    "author": "Anna Milanez",
+    "series": "OECD Artificial Intelligence Papers No. 43",
+    "publication_date": "2025-07-31",
+    "doi": "10.1787/84b59397-en"
+  },
+  "study_design": {
+    "geography": "Germany",
+    "firms": 3,
+    "sector": "manufacturing",
+    "participants": 16,
+    "unit": "worker participants in firm-level group discussions with managers and works council representatives",
+    "design": "within-subject laboratory experiment using simulated algorithmic-management variants followed by group discussion",
+    "features": 8,
+    "outcome_type": "agreement, design modification, disagreement, and participant expectations"
+  },
+  "extraction_method": "Fetched the official OECD PDF and reviewed the abstract, executive summary, methodology, tables, and results pages using PDF text extraction.",
+  "evidence_boundary": "The experiment observes consultation and expected effects in a small German laboratory setting. It does not observe a production deployment, realized worker outcomes, long-run enforcement, or a US population effect."
+}

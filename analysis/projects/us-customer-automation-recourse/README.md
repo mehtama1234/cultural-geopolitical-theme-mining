@@ -17,7 +17,7 @@ firm cost or growth goal
   -> who has a real way to challenge the result
 ```
 
-This is a short discovery pass. Go deeper only if records show what the system did and what happened to customers afterward.
+This is one durable lane in the long-term atlas. Its depth increases as records show what the system did and what happened to customers afterward.
 
 ## First working idea
 
@@ -48,6 +48,61 @@ extracts recurring meanings from the complaint narratives and product summaries:
 identity and data control, access to essential money, rule legibility, human
 reach, timing, dependence, exit, and explanation versus repair. These are
 themes to measure, not representative cultural frequencies.
+
+The [2026-09-13 CFPB aggregation refresh](cfpb-2024-aggregation-refresh-2026-09-13.md)
+updates the current API metadata and records a reusable aggregate-only fetch
+route. It keeps this institutional-response lane current while preserving the
+open verified-remedy, repeat-effort, trust, and exit arrows.
+
+The [2020–2025 annual response trend](cfpb-annual-response-trend-2020-2025-v1.md)
+adds time to the complaint-system layer. It shows a changing recorded endpoint
+mix, while preserving the product-taxonomy and publication-rule breaks that
+prevent a direct consumer-remedy trend claim.
+
+The [2024 case-route sample](cfpb-case-route-sample-2024-v1.md) adds the next
+institutional handoff: case-level time from CFPB receipt to company routing,
+submission channel, narrative visibility, public-response visibility, and
+product-conditioned response labels. It is a capped retrieval-order sample,
+so it does not estimate population route rates or verified remedy. The durable
+open arrow remains contact/notice → effort → decision → remedy → repeat effort,
+trust, switching, and exit.
+
+The [consumer loss and complaint visibility finding](findings/us-customer-automation-recourse-018.md)
+now places that institutional handoff beside Federal Reserve/SHED household
+fraud and recovery evidence. It preserves the distinct denominators and makes
+the missing same-customer remedy and exit link explicit.
+
+The [consumer-outcome field audit](cfpb-consumer-outcome-field-audit-v1.md)
+records a fixed public-API probe showing that the current fields do not provide
+a usable consumer-dispute, verified-correction, repeat-effort, recovery,
+switching, trust, or exit outcome. Response categories therefore remain
+institutional endpoints rather than remedy rates.
+
+The [2026-09-14 public event-ledger acquisition audit](cfpb-public-event-ledger-acquisition-audit-2026-09-14.md)
+turns 25 public 2024 student-loan records into a validated, de-identified
+administrative route ledger. It observes receipt, routing, channel, narrative
+visibility, timeliness, and response labels, while explicitly leaving verified
+remedy, repeat effort, trust, switching, and exit open.
+The same memo is available as the [published HTML reading page](../../../site/cfpb-public-event-ledger-acquisition-audit-2026-09-14.html).
+The [committed de-identified event ledger](data/cfpb-student-loan-event-ledger-2024-25.json)
+preserves the 25-case route extract for direct contract validation and later
+reproduction.
+
+The [bounded event-ledger finding](findings/us-customer-automation-recourse-019.md)
+promotes this route-stage evidence into the canonical reading set. It records
+what the public API can hold constant on a case while keeping the capped
+retrieval-order denominator, response-label boundary, and missing verified
+remedy, repeat effort, trust, switching, and exit fields explicit.
+
+The [2026-09-14 API vintage refresh](cfpb-api-vintage-refresh-2026-09-14.md)
+confirms that the 2025 route facets are unchanged while the database index
+metadata advanced by one day and 8,030 records.
+
+The reader-facing [consumer-recourse visibility and remedy synthesis](consumer-recourse-visibility-remedy-synthesis-v1.md)
+connects household fraud/loss evidence to CFPB complaint visibility, product
+response labels, routing clocks, API schema changes, and the still-unobserved
+customer endpoint: verified correction, repeat effort, trust, switching, and
+exit.
 
 ## Scope
 

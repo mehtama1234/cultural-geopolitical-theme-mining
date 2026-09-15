@@ -102,3 +102,8 @@ BDS](https://www.census.gov/programs-surveys/bds.html).
 Related: [BFS–BDS complete sector profile](bfs-bds-complete-sector-profile-v1.md),
 [firm and market power distribution layer](firm-market-power-distribution-layer-v1.md),
 and the [broad evidence matrix](../../US-BROAD-EVIDENCE-MATRIX_V1.md).
+
+The eight selected sector observations are preserved in the machine-readable
+[trend record](../../records/us-bfs-bds-sector-dynamics-2023.json) for
+cross-source comparison. It retains application denominators and explicitly
+labels the ratios as comparisons rather than conversion rates.

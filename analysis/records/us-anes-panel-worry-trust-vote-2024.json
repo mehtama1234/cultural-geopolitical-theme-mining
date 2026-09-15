@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-anes-panel-worry-trust-vote-2024",
+  "title": "Financial worry reaches trust and vote through a non-monotonic, identity-laden panel path",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "ANES 2016-2020-2024 panel respondent retained in the 2024 panel subset",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 pre-election; financial worry × federal-government trust",
+      "denominator": {"value": 2154, "unit": "valid weighted panel observations in cross-tab"},
+      "measures": {
+        "extremely_worried_some_or_never_trust": {"value": 70.3, "unit": "percent within extremely-worried row", "value_type": "row_share"},
+        "not_at_all_worried_some_or_never_trust": {"value": 51.9, "unit": "percent within not-at-all-worried row", "value_type": "row_share"}
+      },
+      "method": "Official ANES 2024 Full Release SDA weighted descriptive cross-tab, filtered to the 2016-2020-2024 panel subset; trust categories combine some-of-the-time and never rows.",
+      "uncertainty": "Complex-design standard errors are reported in the source table but no formal contrast test is reproduced here; panel retention, political identity, information, and prior beliefs remain confounders.",
+      "subgroup": "Financial-worry rows; federal-government trust outcome.",
+      "counterinterpretation": "The pattern is non-monotonic and does not support a simple more-worry/less-trust law; worry is not a direct bill or price measure.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:e132f873841f6cfcd434886c29b65f167b9caf0347a31744f9b46546f587b518",
+      "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; financial worry × reported presidential vote",
+      "denominator": {"value": 1699, "unit": "valid weighted panel observations in cross-tab"},
+      "measures": {
+        "very_worried_trump_report": {"value": 68.9, "unit": "percent within very-worried row", "value_type": "row_share"},
+        "very_worried_harris_report": {"value": 29.9, "unit": "percent within very-worried row", "value_type": "row_share"},
+        "not_at_all_worried_trump_report": {"value": 32.0, "unit": "percent within not-at-all-worried row", "value_type": "row_share"},
+        "not_at_all_worried_harris_report": {"value": 66.5, "unit": "percent within not-at-all-worried row", "value_type": "row_share"}
+      },
+      "method": "Official ANES 2024 Full Release SDA weighted descriptive cross-tab, with pre-election worry and post-election reported candidate choice in the 2016-2020-2024 panel subset.",
+      "uncertainty": "Complex-design standard errors are reported in the source table but no formal contrast or causal model is reproduced; candidate self-report is not independently validated here and prior party identity is a major alternative explanation.",
+      "subgroup": "Financial-worry rows; post-election reported presidential vote.",
+      "counterinterpretation": "Temporal ordering does not establish that worry caused vote choice; worry, identity, retrospective judgment, information, and candidate preference may jointly shape both.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:e132f873841f6cfcd434886c29b65f167b9caf0347a31744f9b46546f587b518",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is an official SDA descriptive ANES panel comparison, not a causal economic-voting estimate, representative full-cross-section result, direct price or hardship measure, trust mechanism, or proof that material worry produced a vote. The retrieval hash covers the committed analysis memo because direct panel microdata download was not locally reproducible."
+}

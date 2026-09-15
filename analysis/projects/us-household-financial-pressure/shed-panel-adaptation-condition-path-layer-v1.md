@@ -1,6 +1,6 @@
 # SHED panel adaptation by financial-condition path v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Unit:** recontacted SHED respondent, 2024 to 2025  
 **Panel:** 4,419 records with a shared `shedid` and nonmissing 2025
 `panel_weight`  
@@ -31,7 +31,7 @@ adaptation.
 |---|---:|---:|---:|
 | Switched to cheaper products | 86.9% | 75.9% | 68.8% |
 | Used less or stopped using products | 84.8% | 72.6% | 66.1% |
-| Reduced savings | 75.2% | 65.9% | 56.6% |
+| Reduced savings | 71.0% | 58.7% | 55.0% |
 | Increased borrowing | 65.1% | 52.0% | 45.0% |
 | Delayed a major purchase | 75.2% | 65.9% | 56.6% |
 
@@ -85,8 +85,10 @@ support, or alternative became available.
 
 ## Limits and counterexamples required
 
-- `panel_weight` supports a descriptive recontact estimate, but this pass has
-  no replicate-weight standard errors.
+- `panel_weight` supports a descriptive recontact estimate, but the [weight
+  surface audit](shed-panel-weight-audit-layer-v1.md) confirms that the
+  public-use files contain no replicate-weight or variance fields for
+  design-based standard errors.
 - SHED responses refer to a preceding period and are not linked here to a
   dated purchase, bill, firm, policy, or price series.
 - Financial-condition categories are broad. A one-category move can contain
@@ -110,7 +112,6 @@ python3 scripts/analyze_shed_panel_adaptation_condition_path.py \
   --output /tmp/shed-adaptation-condition-path.json
 ```
 
-The calculation uses the official [SHED data releases](https://www.federalreserve.gov/consumerscommunities/shed_data.htm). The raw files and JSON output are not committed.
+The calculation uses the official [SHED data releases](https://www.federalreserve.gov/consumerscommunities/shed_data.htm). The raw files and JSON output are not committed. The 2026-09-13 rerun against the official 2024 and 2025 CSV archives is recorded in the [reproduction audit](shed-panel-reproduction-audit-2026-09-13.json); it corrected the reduced-savings and re-entry cells to the values above.
 
 Related: [SHED panel persistence layer](shed-2024-2025-panel-persistence-layer-v1.md), [2025 SHED price-adaptation layer](shed-2025-price-adaptation-layer-v1.md), [economic adaptation, perception, and public action layer](../us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md), and the [broad event ledger](../../templates/US-BROAD-EVENT-LEDGER_V1.md).
-

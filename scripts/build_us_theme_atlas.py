@@ -3,6 +3,7 @@ import json
 import re
 from html import escape as e
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "manifests/us-theme-connections.json").read_text())
@@ -25,7 +26,7 @@ for path in paths:
     assert all(topic in nodes for topic in path["topics"])
     assert all(frozenset(pair) in edge_pairs for pair in zip(path["topics"], path["topics"][1:]))
 
-intro = "Short research passes, connected through everyday choices. These are early readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
+intro = "A living research atlas, expanded through recurring evidence passes and connected through everyday choices. These are current readings of the collected sources. The map helps us find related questions; it does not prove that one trend causes another."
 big = "Across the packets, a recurring question is what disappears when a household keeps its spending under control: insurance cover, a medical visit, savings or free time. A second question is whether people can get help or leave when a service fails them. These are proposed themes. We have not established that they are worsening together, affect the same households, or explain political behavior."
 md = ["# US life: the connections", "", intro, "", "## The bigger picture", "", big, ""]
 md += ["[Read the big-picture synthesis](../analysis/us-big-picture-synthesis.md)", ""]
@@ -45,6 +46,7 @@ for path in paths:
     path_cards.append(f'<article class="path"><h3>{e(path["title"])}</h3><p>{e(path["meaning"])}</p><ol>{steps}</ol><p class="limit"><strong>Still missing:</strong> {e(path["limit"])}</p>{memo}</article>')
 paths_html = ('<section aria-labelledby="paths-title"><h2 id="paths-title">Follow a question across topics</h2><p>Reading paths, not proven chains of cause and effect.</p><div class="paths">' + "".join(path_cards) + '</div></section>') if paths else ""
 parts = []
+source_domains = set()
 for theme in data["themes"]:
     md += ["## " + theme["title"], "", theme["meaning"], ""]
     cards = []
@@ -53,6 +55,8 @@ for theme in data["themes"]:
             continue
         text = (ROOT / n["source_record"]).read_text()
         sources = list(dict.fromkeys(re.findall(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", text)))
+        node_source_domains = sorted({urlsplit(url).netloc.lower().removeprefix("www.") for _, url in sources})
+        source_domains.update(node_source_domains)
         related = [x for x in data["edges"] if n["id"] in (x["from"], x["to"])]
         check_html = ""
         check = n.get("evidence_check")
@@ -81,7 +85,7 @@ for theme in data["themes"]:
             links.append(f'<li><span class="tag">{label}</span><a href="#{other["id"]}">{e(x["relation"])}</a><p>{e(x["limit"])}</p></li>')
         md += [""]
         source_html = "".join(f'<li><a href="{e(url, quote=True)}">{e(label)}</a></li>' for label, url in sources)
-        cards.append(f'''<article id="{n["id"]}" class="card" tabindex="-1" data-theme="{n["theme"]}">
+        cards.append(f'''<article id="{n["id"]}" class="card" tabindex="-1" data-theme="{n["theme"]}" data-sources="{" ".join(node_source_domains)}">
 <p class="eyebrow">{e(n["status"])}</p><h3>{e(n["title"])}</h3>
 <p class="summary">{e(n["summary"])}</p><p><strong>{e(n["question"])}</strong></p>
 <p class="sub">{e(" · ".join(n["subthemes"]))}</p><p class="limit"><strong>What remains uncertain:</strong> {e(n["limit"])}</p>
@@ -101,7 +105,7 @@ header>p{max-width:760px}.eyebrow{font-size:.75rem;letter-spacing:.12em;text-tra
 .big{background:#193f36;color:#f7f6ef;padding:28px;border-radius:12px;margin:32px 0}.big h2{margin:0 0 14px}.big p{max-width:900px}
 .controls{position:sticky;top:0;z-index:5;padding:16px 0;border-bottom:1px solid var(--line);display:flex;gap:18px;flex-wrap:wrap;background:var(--paper)}
 .theme-nav{display:flex;gap:10px;overflow-x:auto;padding:14px 0 4px;scrollbar-width:thin}.theme-nav a{white-space:nowrap;border:1px solid var(--line);border-radius:999px;padding:7px 14px;text-decoration:none;background:#fffefa;font-size:.9rem}.theme-nav a:hover{border-color:var(--accent);background:#edf4ef}
-label{display:flex;flex-direction:column;gap:6px;flex:1;min-width:220px;font-size:.9rem}
+label{display:flex;flex-direction:column;gap:6px;flex:1;min-width:220px;font-size:.9rem}.clear-filters{align-self:end;font:inherit;padding:13px;border:1px solid var(--accent);border-radius:6px;background:var(--accent);color:white;cursor:pointer}.clear-filters:hover{background:#104b40}
 input,select{font:inherit;padding:13px;border:1px solid #78938a;border-radius:6px;background:white;color:var(--ink);width:100%}
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:#fffefa;border:1px solid var(--line);border-radius:10px;padding:28px;overflow-wrap:anywhere;scroll-margin-top:24px}
 .paths{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:22px}.path{border-top:3px solid var(--accent);padding:20px 0;min-width:0}.path h3{font-size:1.4rem}.path ol{padding-left:24px}
@@ -116,29 +120,32 @@ li{margin:12px 0}.connections{list-style:none;padding:0}.connections p{font-size
 @media print{.controls{display:none}.grid{display:block}.card{break-inside:avoid;margin-bottom:18px}body{background:white}}
 """
 script = """
-const search=document.querySelector('#search'), select=document.querySelector('#filter');
+const search=document.querySelector('#search'), select=document.querySelector('#filter'), source=document.querySelector('#source-filter'), clear=document.querySelector('#clear-filters');
 const cards=[...document.querySelectorAll('.card')], status=document.querySelector('#count');
 function filter(){
  const words=search.value.toLowerCase().trim().split(/\\s+/).filter(Boolean);
  let count=0;
  cards.forEach(card=>{
-  card.hidden=!(words.every(w=>card.textContent.toLowerCase().includes(w)) && (!select.value||card.dataset.theme===select.value));
+  card.hidden=!(words.every(w=>card.textContent.toLowerCase().includes(w)) && (!select.value||card.dataset.theme===select.value) && (!source.value||card.dataset.sources.split(' ').includes(source.value)));
   if(!card.hidden)count++;
  });
  document.querySelectorAll('.theme').forEach(section=>section.hidden=![...section.querySelectorAll('.card')].some(c=>!c.hidden));
  status.textContent=count+' of '+cards.length+' topics shown'+(count?'':'. Try fewer words or choose all themes.');
 }
-search.addEventListener('input',filter);select.addEventListener('change',filter);
+search.addEventListener('input',filter);select.addEventListener('change',filter);source.addEventListener('change',filter);
+clear.addEventListener('click',()=>{search.value='';select.value='';source.value='';filter();search.focus()});
 function reveal(){
  const id=decodeURIComponent(location.hash.slice(1)), target=document.getElementById(id);
  if(target?.classList.contains('card')){
-  search.value='';select.value='';filter();
+  search.value='';select.value='';source.value='';filter();
   requestAnimationFrame(()=>{target.scrollIntoView();target.focus({preventScroll:true});});
  }
 }
 window.addEventListener('hashchange',reveal);reveal();
 """
 options = "".join(f'<option value="{t["id"]}">{e(t["title"])}</option>' for t in data["themes"])
+source_labels = {"nber.org": "NBER", "bea.gov": "BEA", "bls.gov": "BLS", "census.gov": "US Census", "federalreserve.gov": "Federal Reserve", "newyorkfed.org": "New York Fed", "financialresearch.gov": "OFR", "worldbank.org": "World Bank", "imf.org": "IMF", "ilo.org": "ILO", "oecd.org": "OECD", "ers.usda.gov": "USDA ERS", "consumerfinance.gov": "CFPB", "ftc.gov": "FTC", "sipri.org": "SIPRI"}
+source_options = "".join(f'<option value="{e(source)}">{e(source_labels.get(source, source))}</option>' for source in sorted(source_domains))
 theme_nav = "".join(f'<a href="#theme-{t["id"]}">{e(t["title"])}</a>' for t in data["themes"])
 html = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -148,7 +155,9 @@ html = f'''<!doctype html>
 <header><p class="eyebrow">A connected reading guide · First pass</p><h1>What people pay.<br>What people give up.</h1><p>{e(intro)}</p></header>
 <aside class="big"><h2>The bigger picture</h2><p>{e(big)}</p><p><a href="us-big-picture-synthesis.html">Read the big-picture synthesis</a></p><p><a href="../analysis/US-BROAD-THEME-INVENTORY_V1.md">Read the canonical broad theme inventory and recovery brief</a></p></aside>
 <div class="controls"><label>Find a topic or connection<input id="search" type="search" placeholder="Try care, time, trust or insurance"></label>
-<label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label></div>
+<label>Read by theme<select id="filter"><option value="">All themes</option>{options}</select></label>
+<label>Read by source<select id="source-filter"><option value="">All sources</option>{source_options}</select></label>
+<button class="clear-filters" id="clear-filters" type="button">Clear filters</button></div>
 <p id="count" role="status" aria-live="polite">{len(nodes)} of {len(nodes)} topics shown</p>
 <nav class="theme-nav" aria-label="Jump to a theme">{theme_nav}</nav>
 <noscript><p>All topics, connections and sources are readable below. Search requires JavaScript.</p></noscript>

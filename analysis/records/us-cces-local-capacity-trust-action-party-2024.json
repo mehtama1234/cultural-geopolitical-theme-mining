@@ -1,0 +1,781 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-local-capacity-trust-action-party-2024",
+  "title": "Capacity-cell political context varies sharply by party identity as well as place",
+  "theme_ids": [
+    "voice",
+    "cost",
+    "work"
+  ],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "2024 Cooperative Election Study common-content post-election respondent with county FIPS and pid7, assigned to 2023 county CBP health-establishment and ACS zero-vehicle context cell",
+  "geography": "United States; 620 counties with at least 100,000 residents and valid 2020/2023 population estimates",
+  "observations": [
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / high zero-vehicle share; Democratic-leaning (pid7 1\u20133)",
+      "denominator": {
+        "value": 9407,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.54,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 49.53,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9407
+        },
+        "state_trust": {
+          "value": 61.953,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9411
+        },
+        "civic_action": {
+          "value": 43.872,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9426
+        },
+        "reported_voted": {
+          "value": 97.526,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 9170
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Democratic-leaning (pid7 1\u20133) and the high health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / high zero-vehicle share; Independent (pid7 4)",
+      "denominator": {
+        "value": 1932,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.54,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 27.475,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 1932
+        },
+        "state_trust": {
+          "value": 42.656,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 1929
+        },
+        "civic_action": {
+          "value": 22.716,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 1933
+        },
+        "reported_voted": {
+          "value": 91.851,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 1674
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Independent (pid7 4) and the high health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / high zero-vehicle share; Other/unknown",
+      "denominator": {
+        "value": 187,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.54,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 26.423,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 187
+        },
+        "state_trust": {
+          "value": 35.854,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 184
+        },
+        "civic_action": {
+          "value": 9.115,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 187
+        },
+        "reported_voted": {
+          "value": 78.299,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 136
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Other/unknown and the high health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / high zero-vehicle share; Republican-leaning (pid7 5\u20137)",
+      "denominator": {
+        "value": 4736,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.54,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 34.188,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 4736
+        },
+        "state_trust": {
+          "value": 51.078,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 4741
+        },
+        "civic_action": {
+          "value": 37.896,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 4748
+        },
+        "reported_voted": {
+          "value": 98.279,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 4598
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Republican-leaning (pid7 5\u20137) and the high health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / low zero-vehicle share; Democratic-leaning (pid7 1\u20133)",
+      "denominator": {
+        "value": 3754,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.602,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 43.633,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3754
+        },
+        "state_trust": {
+          "value": 63.265,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3754
+        },
+        "civic_action": {
+          "value": 47.917,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3757
+        },
+        "reported_voted": {
+          "value": 98.462,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3668
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Democratic-leaning (pid7 1\u20133) and the high health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / low zero-vehicle share; Independent (pid7 4)",
+      "denominator": {
+        "value": 899,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.602,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 23.596,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 899
+        },
+        "state_trust": {
+          "value": 34.889,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 899
+        },
+        "civic_action": {
+          "value": 22.565,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 900
+        },
+        "reported_voted": {
+          "value": 94.4,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 801
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Independent (pid7 4) and the high health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / low zero-vehicle share; Other/unknown",
+      "denominator": {
+        "value": 107,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.602,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 36.278,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 107
+        },
+        "state_trust": {
+          "value": 49.274,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 106
+        },
+        "civic_action": {
+          "value": 12.336,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 107
+        },
+        "reported_voted": {
+          "value": 67.53,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 81
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Other/unknown and the high health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; high health capacity / low zero-vehicle share; Republican-leaning (pid7 5\u20137)",
+      "denominator": {
+        "value": 2960,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 2.602,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 29.041,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2960
+        },
+        "state_trust": {
+          "value": 50.752,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2956
+        },
+        "civic_action": {
+          "value": 41.091,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2964
+        },
+        "reported_voted": {
+          "value": 98.761,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2888
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Republican-leaning (pid7 5\u20137) and the high health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / high zero-vehicle share; Democratic-leaning (pid7 1\u20133)",
+      "denominator": {
+        "value": 3471,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.339,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 46.617,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3471
+        },
+        "state_trust": {
+          "value": 60.983,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3468
+        },
+        "civic_action": {
+          "value": 41.524,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3479
+        },
+        "reported_voted": {
+          "value": 96.525,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3354
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Democratic-leaning (pid7 1\u20133) and the low health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / high zero-vehicle share; Independent (pid7 4)",
+      "denominator": {
+        "value": 907,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.339,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 31.082,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 907
+        },
+        "state_trust": {
+          "value": 35.387,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 909
+        },
+        "civic_action": {
+          "value": 21.654,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 910
+        },
+        "reported_voted": {
+          "value": 90.395,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 767
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Independent (pid7 4) and the low health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / high zero-vehicle share; Other/unknown",
+      "denominator": {
+        "value": 99,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.339,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 56.576,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 99
+        },
+        "state_trust": {
+          "value": 56.173,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 99
+        },
+        "civic_action": {
+          "value": 7.644,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 99
+        },
+        "reported_voted": {
+          "value": 58.429,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 71
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Other/unknown and the low health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / high zero-vehicle share; Republican-leaning (pid7 5\u20137)",
+      "denominator": {
+        "value": 2178,
+        "unit": "CES respondents; 122 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 0.339,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 34.059,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2178
+        },
+        "state_trust": {
+          "value": 46.572,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2173
+        },
+        "civic_action": {
+          "value": 31.937,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2181
+        },
+        "reported_voted": {
+          "value": 98.595,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 2109
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Republican-leaning (pid7 5\u20137) and the low health capacity / high zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / low zero-vehicle share; Democratic-leaning (pid7 1\u20133)",
+      "denominator": {
+        "value": 3292,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 4.483,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 47.839,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3292
+        },
+        "state_trust": {
+          "value": 55.083,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3294
+        },
+        "civic_action": {
+          "value": 40.126,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3296
+        },
+        "reported_voted": {
+          "value": 98.621,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3193
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Democratic-leaning (pid7 1\u20133) and the low health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / low zero-vehicle share; Independent (pid7 4)",
+      "denominator": {
+        "value": 999,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 4.483,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 25.462,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 999
+        },
+        "state_trust": {
+          "value": 48.329,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 998
+        },
+        "civic_action": {
+          "value": 24.384,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 999
+        },
+        "reported_voted": {
+          "value": 90.038,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 865
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Independent (pid7 4) and the low health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / low zero-vehicle share; Other/unknown",
+      "denominator": {
+        "value": 116,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 4.483,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 29.562,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 116
+        },
+        "state_trust": {
+          "value": 33.717,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 117
+        },
+        "civic_action": {
+          "value": 9.653,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 117
+        },
+        "reported_voted": {
+          "value": 79.699,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 76
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Other/unknown and the low health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    },
+    {
+      "period": "2024; CES capacity/mobility context; low health capacity / low zero-vehicle share; Republican-leaning (pid7 5\u20137)",
+      "denominator": {
+        "value": 3573,
+        "unit": "CES respondents; 188 capacity-frame counties; population frame counties >=100,000",
+        "value_type": "respondent_count"
+      },
+      "measures": {
+        "median_population_change_pct": {
+          "value": 4.483,
+          "unit": "percent county population change, 2020\u20132023; median within capacity cell",
+          "value_type": "place_context_median"
+        },
+        "federal_trust": {
+          "value": 30.947,
+          "unit": "percent trusting federal government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3573
+        },
+        "state_trust": {
+          "value": 59.967,
+          "unit": "percent trusting state government a great deal or fair amount; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3573
+        },
+        "civic_action": {
+          "value": 35.896,
+          "unit": "percent reporting at least one selected civic action; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3579
+        },
+        "reported_voted": {
+          "value": 98.207,
+          "unit": "percent reporting definitely voted in November 2024; commonpostweight",
+          "value_type": "weighted_share",
+          "valid_n": 3453
+        }
+      },
+      "method": "Weighted descriptive CES comparison within broad pid7 party groups after county-keyed assignment to CBP health-establishment/ACS zero-vehicle cells; party groups code pid7 1\u20133 as Democratic-leaning, 4 as Independent, and 5\u20137 as Republican-leaning; health cut 28.312 and zero-vehicle cut 5.606.",
+      "uncertainty": "No complex-survey standard errors or county-representative estimates; party identity is a descriptive conditioning variable, not a pre-exposure causal control here, and smaller other/unknown cells are especially unstable.",
+      "subgroup": "CES respondents in Republican-leaning (pid7 5\u20137) and the low health capacity / low zero-vehicle share capacity/mobility context cell.",
+      "counterinterpretation": "Party identity, selection, county composition, local growth, and question universe can structure trust and action; subgroup differences do not show that capacity or mobility caused political response.",
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "retrieval_hash": "sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.7910/DVN/X11EP6",
+      "claim": "CES 2024 common-content public data supply county FIPS, pid7, trust, civic-action, vote, and commonpostweight fields.",
+      "status": "official-public-data"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/cbp/datasets/2023/cbp23co.zip",
+      "claim": "2023 CBP health/social-assistance establishment counts used for capacity cell assignment.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+      "claim": "2023 ACS zero-vehicle-household counts used for mobility cell assignment.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "../../scripts/analyze_ces_local_capacity_trust_action_party.py",
+      "claim": "Reproduction script for party-conditioned county capacity cells and weighted endpoints.",
+      "status": "reproduction-script"
+    }
+  ],
+  "retrieval_hash": "cces:sha256:8a5e9fbc982961ad910bad9aed8d521fa0a85e85cded43fb308cce0ab22ba5d9; population:sha256:abcc8720d669e793bbfdcd440eeec37a78db3b452adbe4ccd1eadf7c72b522b9; cbp:sha256:e9539e96ceb91608ad44ab1cfc651d7c1ff9b88bddfe7a8ff64134ccde6e9603; vehicle:sha256:71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b; output:sha256:e49062c99b97261db2d4ab1716be498f02998bab12af5a238b81ed82cda8549d; party_script:sha256:c9425115d4b56510c212e4aa630f0814a0bd409d8a9e22eaed5a0cb4e1d1d809; base_script:sha256:bd2345ed02bd4c21bc72b3dc80aa53189df916a5467b2d5c8a3e33c6dfc5bfad",
+  "boundary": "This is a same-county contextual subgroup comparison, not a same-respondent causal exposure. It does not establish that local business/service capacity or vehicle constraints caused trust, civic action, or voting; party groups are descriptive, and CES/county administrative/ACS layers retain separate denominators and uncertainty."
+}

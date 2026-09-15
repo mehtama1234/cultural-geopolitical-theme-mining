@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-ppi-2026-august",
+  "title": "August 2026 producer prices rose at the final-demand and upstream energy surfaces",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "Bureau of Labor Statistics Producer Price Indexes for domestic producers",
+  "geography": "United States; national producer price indexes for final and intermediate demand",
+  "observations": [
+    {
+      "period": "August 2026 final-demand PPI",
+      "denominator": {"value": null, "unit": "BLS producer-price index sample and weighting system; release does not disclose a single respondent or transaction-count denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "final_demand": {"value": 0.4, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "final_demand_year_over_year": {"value": 5.4, "unit": "percent unadjusted increase over 12 months", "value_type": "official_rate"},
+        "final_demand_goods": {"value": 1.1, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "final_demand_services": {"value": 0.1, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "final_demand_less_food_energy_trade": {"value": 0.3, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"}
+      },
+      "method": "BLS PPI release comparing seasonally adjusted producer price indexes with the prior month and unadjusted indexes over 12 months.",
+      "uncertainty": "PPI measures seller-side price change and includes revisions, sample design, weighting, quality adjustment, and category coverage boundaries. It is not a direct measure of retailer margins, consumer prices, firm profitability, or household burden.",
+      "subgroup": "Final-demand goods, services, and aggregate final-demand categories; no household or individual-firm subgroup estimate.",
+      "counterinterpretation": "Producer-price movement may be absorbed by margins, passed through with delay, offset by productivity or contracts, or concentrated in firms and products not purchased by a particular household. It does not establish incidence or bargaining power.",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+      "retrieval_hash": "sha256:3ea4764209ef9325a5ab79f31f9d2bbed30f40843c782614ae9fc36ea8f1d6e7",
+      "status": "observed"
+    },
+    {
+      "period": "August 2026 final-demand energy and diesel movement",
+      "denominator": {"value": null, "unit": "BLS final-demand and product-group producer price indexes; release does not disclose a single transaction-count denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "final_demand_energy": {"value": 4.2, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "diesel_fuel": {"value": 24.1, "unit": "percent monthly increase in the detailed final-demand goods index", "value_type": "official_rate"},
+        "final_demand_goods_energy_contribution": {"value": "over three-fourths of the broad-based goods rise", "unit": "BLS qualitative contribution statement", "value_type": "official_contribution_statement"}
+      },
+      "method": "BLS product-detail and contribution statements for final-demand goods and energy components.",
+      "uncertainty": "The product detail is an index movement and contribution decomposition, not a measure of a particular firm's cost, a contract pass-through, or a household's fuel bill. April–July values were revised for late reports and corrections.",
+      "subgroup": "Final-demand goods and selected fuel/product categories.",
+      "counterinterpretation": "A sharp diesel index movement can affect transport, agriculture, logistics, and prices differently depending on contracts, inventories, fuel intensity, route, and market power; downstream timing and incidence remain open.",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+      "retrieval_hash": "sha256:3ea4764209ef9325a5ab79f31f9d2bbed30f40843c782614ae9fc36ea8f1d6e7",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026 intermediate-demand PPI",
+      "denominator": {"value": null, "unit": "BLS processed and unprocessed intermediate-demand indexes; release does not disclose a single transaction-count denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "processed_goods_intermediate_12m": {"value": 11.5, "unit": "percent unadjusted increase over 12 months", "value_type": "official_rate"},
+        "unprocessed_goods_intermediate_12m": {"value": 12.8, "unit": "percent unadjusted increase over 12 months", "value_type": "official_rate"},
+        "processed_goods_intermediate_monthly": {"value": 0.5, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"},
+        "unprocessed_goods_intermediate_monthly": {"value": 1.1, "unit": "percent seasonally adjusted monthly increase", "value_type": "official_rate"}
+      },
+      "method": "BLS intermediate-demand stage-of-processing indexes, with separate processed and unprocessed goods measures.",
+      "uncertainty": "Intermediate-demand indexes describe upstream price stages and cannot be added mechanically to CPI or final-demand rates. Revision, stage coverage, quality, timing, and pass-through assumptions remain material.",
+      "subgroup": "Processed and unprocessed goods for intermediate demand.",
+      "counterinterpretation": "Upstream inflation can coexist with stable downstream prices if margins, substitution, inventories, contracts, or productivity absorb it; conversely, delayed pass-through can produce later consumer or firm effects.",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_09102026.htm",
+      "retrieval_hash": "sha256:3ea4764209ef9325a5ab79f31f9d2bbed30f40843c782614ae9fc36ea8f1d6e7",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/ppi/", "claim": "BLS PPI definitions, databases, and methodological context.", "status": "official-metadata"},
+    {"source_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm", "claim": "August 2026 CPI provides the downstream consumer-price comparison.", "status": "cross-source-context"},
+    {"source_url": "https://bea.gov/news/2026/personal-income-and-outlays-july-2026", "claim": "BEA income, PCE, and outlays provide aggregate demand and saving context.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record adds an official August 2026 producer-price checkpoint to the household, firm, and infrastructure atlas. It does not establish consumer pass-through, firm margins, profits, household costs, bargaining power, policy causality, trust, political action, or geopolitical consequences. The extracted retrieval hash is for the committed release-fact summary; the official release URL remains authoritative."
+}

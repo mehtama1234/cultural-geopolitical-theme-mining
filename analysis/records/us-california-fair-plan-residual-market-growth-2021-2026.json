@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-fair-plan-residual-market-growth-2021-2026",
+  "title": "California's last-resort insurance pool expanded sharply in policies and insured exposure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "California FAIR Plan Association total policies in force and total insured exposure",
+  "geography": "California; residential, commercial, and business-owner lines in the five-year county reports, with current quarterly total",
+  "observations": [
+    {
+      "period": "September 30 fiscal year ends, 2021-2025; total policies in force",
+      "denominator": {"value": 1, "unit": "California FAIR Plan policies in force across residential, commercial, and business-owner lines", "value_type": "stock"},
+      "measures": {
+        "policies_in_force_2021": {"value": 242440, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_2022": {"value": 273346, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_2023": {"value": 330265, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_2024": {"value": 463159, "unit": "policies", "value_type": "reported_count"},
+        "policies_in_force_2025": {"value": 642010, "unit": "policies", "value_type": "reported_count"},
+        "growth_2021_to_2025": {"value": 164.8, "unit": "percent, calculated from reported counts", "value_type": "calculated_change"}
+      },
+      "method": "Extraction from the FAIR Plan five-year county report; total row covers residential, commercial, and business-owner lines and uses fiscal-year-end stocks.",
+      "uncertainty": "Policy growth is not a direct count of households denied private insurance; lines of business are combined, policies may reflect changing coverage or insurer mix, and the series does not identify duplicate, replacement, or voluntarily selected policies.",
+      "subgroup": "California FAIR Plan total across the published lines of business; county-level detail is available in the source PDF.",
+      "counterinterpretation": "A growing residual pool can reflect new risk, prices, underwriting changes, policy changes, or transparency/reporting changes; it does not by itself prove private-market withdrawal or household displacement.",
+      "source_url": "https://www.cfpnet.com/wp-content/uploads/2025/11/CFP-5-yr-PIF-County-FY25-All-251114.pdf",
+      "retrieval_hash": "sha256:7c3b4286b2acfe21c525ce2fa9ec3348aac5c076b32a4efa48ecaf0ec9feb229",
+      "status": "reported"
+    },
+    {
+      "period": "September 30 fiscal year ends, 2021-2025; total insured exposure",
+      "denominator": {"value": 1, "unit": "California FAIR Plan total insured exposure across published lines", "value_type": "stock"},
+      "measures": {
+        "exposure_2021": {"value": 160556622391, "unit": "dollars of insured exposure", "value_type": "reported_total"},
+        "exposure_2022": {"value": 210278307795, "unit": "dollars of insured exposure", "value_type": "reported_total"},
+        "exposure_2023": {"value": 284064942611, "unit": "dollars of insured exposure", "value_type": "reported_total"},
+        "exposure_2024": {"value": 458024035951, "unit": "dollars of insured exposure", "value_type": "reported_total"},
+        "exposure_2025": {"value": 693964308706, "unit": "dollars of insured exposure", "value_type": "reported_total"},
+        "growth_2021_to_2025": {"value": 332.1, "unit": "percent, calculated from reported totals", "value_type": "calculated_change"}
+      },
+      "method": "Extraction from the FAIR Plan five-year county report total row; exposure is the published total insured value measure, not realized loss.",
+      "uncertainty": "Exposure is a limit or insured-value stock, not an expected loss, claim payment, replacement cost, or household wealth measure; changes may reflect policy mix, limits, valuation, and line-of-business composition.",
+      "subgroup": "California FAIR Plan total across residential, commercial, and business-owner lines.",
+      "counterinterpretation": "Exposure can grow faster than policy count if higher-value properties enter the pool; it should not be read as equivalent to policyholder burden or state fiscal loss.",
+      "source_url": "https://www.cfpnet.com/wp-content/uploads/2025/11/CFP-5-yr-TIV-County-FY25-All-251114.pdf",
+      "retrieval_hash": "sha256:4942539f88159b8e79d23e1f8a2a6d8b46625f8e77b85d0619b60f6aed5272a1",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; current quarterly FAIR Plan headline",
+      "denominator": {"value": 1, "unit": "California FAIR Plan total dwelling and commercial policies/exposure headline", "value_type": "stock"},
+      "measures": {
+        "policies_in_force": {"value": 696562, "unit": "policies", "value_type": "reported_count"},
+        "total_exposure": {"value": 768000000000, "unit": "dollars, approximate", "value_type": "reported_total"},
+        "written_premium": {"value": 2040000000, "unit": "dollars, approximate", "value_type": "reported_total"},
+        "policy_change_from_september_2022": {"value": 157, "unit": "percent increase in total policies in force", "value_type": "reported_change"},
+        "exposure_change_from_september_2022": {"value": 250, "unit": "percent increase in total exposure", "value_type": "reported_change"}
+      },
+      "method": "Extraction from the FAIR Plan quarterly key-statistics page, current through June 2026; scope differs slightly in the page headline from the five-year fiscal-year report labels.",
+      "uncertainty": "The current page is a later point-in-time update, not a continuous annual panel; headline scope, fiscal timing, and line-of-business definitions must be checked before calculating a precise long-run rate.",
+      "subgroup": "California FAIR Plan total dwelling and commercial headline; detailed category PDFs are separate.",
+      "counterinterpretation": "A larger FAIR Plan pool can be a designed public backstop response and does not alone identify whether coverage is more or less affordable, adequate, or available in the voluntary market.",
+      "source_url": "https://www.cfpnet.com/key-statistics-data/",
+      "retrieval_hash": "sha256:3919e4e7d297cf0a39450e6b54032120228ac579344c6afd21db26adc98bfd94",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Sustainable-Insurance-Strategy.cfm", "claim": "California Department of Insurance describes state distress-area and voluntary-market exposure metrics and FAIR Plan transparency requirements.", "status": "reported", "access_boundary": "State distress metrics are not equivalent to FAIR Plan enrollment or private-market denial."},
+    {"source_url": "data/california-fair-plan-key-statistics.html", "claim": "Local archive preserves the current FAIR Plan headline page used for the June 2026 point.", "status": "derived", "access_boundary": "The archive captures the page text and linked source references, not every linked chart image."}
+  ],
+  "boundary": "This record establishes rapid growth in California's residual-market policy count and insured exposure, plus a current premium/exposure headline. It does not establish private-market nonrenewal causation, individual affordability, claims adequacy, repairs, household mobility, or political response."
+}

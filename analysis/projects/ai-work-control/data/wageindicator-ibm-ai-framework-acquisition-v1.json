@@ -1,0 +1,21 @@
+{
+  "format": "wageindicator-ibm-ai-framework-acquisition-v1",
+  "source_url": "https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence",
+  "retrieved_at": "2026-09-14",
+  "http_status": 200,
+  "content_type": "text/html",
+  "response_bytes": 681137,
+  "retrieval_hash": "sha256:37d16c3e02a17a4698d5d3a23ae608829b5f1f1e0ecdfef32db8470c15d2e6d3",
+  "page_title": "Germany - Konzernbetriebsvereinbarung über die Einführung und den Einsatz von Systemen der Künstlichen Intelligenz / Artificial Intelligence - 2020",
+  "document_identity": {
+    "employer": "IBM Central Holding GmbH",
+    "worker_representative": "Konzernbetriebsrat der IBM Central Holding GmbH",
+    "agreement_version": "2020-06-25",
+    "signature_date": "2020-07-30",
+    "geography": "Germany",
+    "scope_note": "Group-level agreement as identified in the archived text; not a representative sample of German workplaces"
+  },
+  "extraction_method": "Fetched the official WageIndicator page with curl; converted the rendered HTML to plain text with pandoc for manual section-level review. No claim is made from the catalog fields unless separately noted.",
+  "evidence_boundary": "The acquisition verifies the archived page and agreement text. It does not verify implementation, compliance, coverage of every IBM system, worker outcomes, or enforcement.",
+  "source_record": "../german-ai-works-council-source-record-v1.md"
+}

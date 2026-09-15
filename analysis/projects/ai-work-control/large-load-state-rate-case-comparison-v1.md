@@ -31,6 +31,39 @@ large-load request
 
 ## What the comparison supports
 
+## Implementation-status check: 2026-09-14
+
+The Virginia record has advanced, but not to realized customer incidence. The
+SCC's September 2026 facts page identifies **PUR-2026-00131** as the new
+supplemental proceeding for the detailed Dominion line-extension amendments
+needed to assign direct-connect transmission costs to new or expanding
+large-load customers. This is an implementation route and a stronger
+institutional checkpoint than the earlier framework alone; the detailed filed
+terms, payments, completed facilities, and recovery are still open.
+
+The September 1, 2026 Rider T1 application makes the stage boundary especially
+important. Dominion filed a proposed $1.539 billion transmission revenue
+requirement for the September 2026–August 2027 rate year, including a proposed
+$998.5 million Rider T1 increment and a $540.4 million base-rate forecast. Its
+$2.90 monthly illustration for a typical 1,000-kWh residential customer is a
+filed projection. It is not an observed bill and is not a data-center-only
+burden. The SCC facts page's $0.94 comparison is the approved-method modeled
+counterfactual; the two figures must not be presented as a before/after
+household panel.
+
+Georgia's official PSC index also confirms a September 16, 2025 large-load
+contract filing in Docket 44280, with a public ZIP attachment. The index
+confirms the filing exists. The attached notice identifies it as a second,
+unexecuted contract submitted for Commission Staff review before execution and
+states that the contract and all supporting documents are trade secret in their
+entirety. This is a concrete transparency boundary: the filing demonstrates a
+regulatory review route, but it does not expose customer identity, load,
+minimum bill, term, collateral, RIM analysis, or realized cost recovery.
+The detailed Georgia request for forecast and actual hourly load, customer
+baseline load, monthly minimum bills, contract duration, and cost-of-service
+data therefore remains an acquisition and disclosure test rather than an
+observed outcome.
+
 ### Virginia supplies a first incidence signal, but not a household outcome
 
 The SCC reports that its approved amended transmission cost-allocation method,
@@ -138,3 +171,6 @@ the records show who actually paid, benefited, switched, or changed behavior.
 Related: [large-load rate-risk control layer](large-load-rate-risk-control-layer-v1.md),
 [US data-center energy-load baseline](us-data-center-energy-load-baseline-v1.md),
 and [state-leverage control ledger](state-leverage-control-ledger-v1.md).
+
+The bounded comparison is preserved in the [machine-readable trend record](../../records/us-large-load-state-rate-governance-2025-2026.json)
+for the shared registry and coverage builds.

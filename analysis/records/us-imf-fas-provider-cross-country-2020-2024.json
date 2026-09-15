@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-imf-fas-provider-cross-country-2020-2024",
+  "title": "US provider contraction is widespread across the comparison set, but not universal",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "IMF Financial Access Survey annual provider-reported country series; selected economy comparison",
+  "geography": "United States, Canada, Germany, United Kingdom, China, India, Brazil, South Africa, and Mexico",
+  "observations": [
+    {
+      "period": "2020–2024; commercial-bank counts across selected economies",
+      "denominator": {"value": null, "unit": "country provider count; no common customer or population denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "commercial_bank_count_2020": {"value": "USA 4,344; CAN 79; DEU 257; GBR 313; CHN 192; IND 151; BRA 121; ZAF 34; MEX 50", "unit": "number of commercial banks", "value_type": "country_comparison"},
+        "commercial_bank_count_2024": {"value": "USA 3,912; CAN 75; DEU 234; GBR 273; CHN 183; IND 141; BRA 152; ZAF 30; MEX 51", "unit": "number of commercial banks", "value_type": "country_comparison"},
+        "change_2020_to_2024": {"value": "USA -9.9%; CAN -5.1%; DEU -8.9%; GBR -12.8%; CHN -4.7%; IND -6.6%; BRA +25.6%; ZAF -11.8%; MEX +2.0%", "unit": "percent change in reported provider count", "value_type": "derived_country_comparison"}
+      },
+      "method": "Same IMF FAS COMBANK series and 2020/2024 endpoints for nine selected economies; changes calculated from returned country values.",
+      "uncertainty": "Provider counts are administrative/reporting measures. Country definitions, consolidation, licensing, reporting coverage, and institutional classification differ; counts are not market shares, branch access, competition, or customer welfare.",
+      "subgroup": "Country/provider-level comparison; no customer, income, geographic, gender, or rurality subgroup.",
+      "counterinterpretation": "Brazil and Mexico show increases in reported commercial-bank counts while most selected economies decline, demonstrating that the US pattern is not universal. An increase can still coexist with concentration, weak access, or poor terms.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "summary:sha256:1f9c2acaf2539ea5af995f667a03d46bf1d6e64276dc159a27f19214945e79b4",
+      "status": "compared"
+    },
+    {
+      "period": "2020–2024; commercial-bank branch density across selected economies",
+      "denominator": {"value": null, "unit": "commercial-bank branches per 100,000 adults; country-specific adult denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "branch_density_2020": {"value": "USA 29.51; CAN 20.18; DEU 9.36; CHN 8.76; IND 14.55; BRA 18.31; ZAF 8.81; MEX 13.03", "unit": "branches per 100,000 adults; GBR not available in returned series", "value_type": "country_comparison"},
+        "branch_density_2024": {"value": "USA 25.74; CAN 18.05; DEU 4.90; CHN 8.72; IND 14.62; BRA 15.84; ZAF 7.98; MEX 12.04", "unit": "branches per 100,000 adults; GBR not available in returned series", "value_type": "country_comparison"},
+        "density_change_2020_to_2024": {"value": "USA -12.8%; CAN -10.6%; DEU -47.6%; CHN -0.5%; IND +0.5%; BRA -13.5%; ZAF -9.4%; MEX -7.6%", "unit": "percent change in adult-normalized branch density", "value_type": "derived_country_comparison"}
+      },
+      "method": "Same IMF FAS FA26N series selected with UNIT=NUM and adult-normalized PHTADLT_NUM transformation; countries with no returned series are retained as unavailable, not zero.",
+      "uncertainty": "Density does not measure travel, branch hours, cash availability, digital substitution, service quality, or human remedy. Country reporting and adult-population denominators may differ.",
+      "subgroup": "Country/provider-level comparison; no place or customer subgroup.",
+      "counterinterpretation": "China and India show near-flat density in this slice while Brazil, Germany, and the US decline; this weakens a single global branch-contraction narrative but does not identify why routes differ.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "summary:sha256:1f9c2acaf2539ea5af995f667a03d46bf1d6e64276dc159a27f19214945e79b4",
+      "status": "compared"
+    },
+    {
+      "period": "2020–2024; country data-availability and balance-ratio contrast",
+      "denominator": {"value": null, "unit": "country-specific IMF FAS indicator universe; balance ratios use GDP, not households", "value_type": "not_disclosed"},
+      "measures": {
+        "household_deposit_ratio_change": {"value": "USA -23.6%; DEU +0.5%; GBR -11.4%; IND -9.7%; ZAF +1.2%; other selected economies unavailable in returned series", "unit": "percent change in household commercial-bank deposits as percent of GDP", "value_type": "derived_country_comparison"},
+        "household_loan_ratio_change": {"value": "USA -15.6%; DEU -12.8%; GBR -18.4%; IND +11.1%; ZAF -5.2%; MEX +12.2%; BRA 2020 unavailable and 2024 27.65%; other selected economies unavailable", "unit": "percent change in household commercial-bank loans as percent of GDP where both endpoints exist", "value_type": "derived_country_comparison"}
+      },
+      "method": "Same OUTD_COMBANK_S14 and OUTL_COMBANK_S14 series where both country-year endpoints were returned; unavailable country-year cells are not imputed.",
+      "uncertainty": "Ratios to GDP combine financial balances and macro denominators and are not comparable to household liquidity, debt burden, approval, affordability, or welfare without additional data.",
+      "subgroup": "Commercial-bank household-sector balance aggregates; no individual or household subgroup.",
+      "counterinterpretation": "India's loan ratio rises while its bank count falls and branch density is stable; South Africa's deposit ratio is nearly stable while its bank and branch counts decline. This shows why no single provider metric can stand for access or room.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "summary:sha256:1f9c2acaf2539ea5af995f667a03d46bf1d6e64276dc159a27f19214945e79b4",
+      "status": "compared"
+    },
+    {
+      "period": "2020–2024; US-centered cross-source interpretation",
+      "denominator": {"value": null, "unit": "separate provider aggregates and adult-survey aggregates; no common person or account denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "us_commercial_bank_count_change": {"value": -9.9, "unit": "percent; IMF FAS", "value_type": "provider_change"},
+        "us_branch_density_change": {"value": -12.8, "unit": "percent; IMF FAS", "value_type": "provider_change"},
+        "us_account_ownership_change": {"value": 2.1, "unit": "percentage points; World Bank Findex 2021–2024", "value_type": "separate_user_change"},
+        "cross_country_counterexample": {"value": "India: commercial-bank count -6.6%, branch density +0.5%, household loan ratio +11.1%", "unit": "separate IMF FAS provider and balance indicators", "value_type": "counterexample"}
+      },
+      "method": "Descriptive alignment of the IMF FAS nine-country provider comparison with the World Bank Findex US account-ownership series; no pooled or causal estimate.",
+      "uncertainty": "Sources differ in unit, timing, collection design, definitions, missingness, and denominator. The comparison identifies measurement divergence and counterexamples, not a mechanism.",
+      "subgroup": "US-centered comparison with selected economies; no aligned household or customer subgroup.",
+      "counterinterpretation": "Digital channels, nonbanks, mergers, policy, macro growth, and reporting changes may explain different provider/user movements. Findex account ownership cannot be used as a direct outcome of branch contraction.",
+      "source_url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,FAS,5.0.0/USA?startPeriod=2020&endPeriod=2024",
+      "retrieval_hash": "summary:sha256:1f9c2acaf2539ea5af995f667a03d46bf1d6e64276dc159a27f19214945e79b4",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.imf.org/Datasets/FAS", "claim": "IMF FAS is the provider-side annual financial-access source and documents the indicator family and methodology context.", "status": "primary-context"},
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/download-data", "claim": "World Bank Findex supplies adult-reported demand-side account and connectivity measures for comparison.", "status": "comparison-context"}
+  ],
+  "boundary": "The selected-country comparison shows that US provider contraction is widespread but not universal: Brazil and Mexico report increases in commercial-bank counts, China and India show near-flat branch density, and balance ratios move differently across countries. The result identifies heterogeneous institutional paths, not a global digital-finance mechanism or a household welfare effect. Missing country indicators remain missing, and provider aggregates are not silently converted into user outcomes."
+}

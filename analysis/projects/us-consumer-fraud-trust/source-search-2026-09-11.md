@@ -30,6 +30,10 @@ trusted name, account, platform, or payment route
 
 The Fed measures household exposure and direct losses. FTC measures reported market patterns. CFPB records the search for an institutional response. The missing link is what happened to the same person after the loss and response.
 
+The [FTC 2025 extension](ftc-consumer-sentinel-2025-extension-v1.md) now
+adds an official congressional-testimony artifact for the next administrative
+time point. It remains a report frame, not a same-person follow-up.
+
 ## Matched evidence result
 
 The first pass separates exposure, payment route, gross loss, recovery, complaint, and institutional response. The trust question begins after the loss: whether the customer receives money, access, clarity, and a fair path to appeal. Current sources do not yet measure that later trust directly.

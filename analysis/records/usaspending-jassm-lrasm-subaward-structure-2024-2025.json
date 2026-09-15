@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usaspending-jassm-lrasm-subaward-structure-2024-2025",
+  "title": "A major standoff-missile award exposes a concentrated but component-diverse subordinate supplier structure",
+  "theme_ids": ["cost", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "USAspending subaward records linked to one DoD JASSM/LRASM parent contract",
+  "geography": "United States parent award; subordinate recipient locations are not supplied in this extract",
+  "observations": [
+    {
+      "period": "2024-10-23 through 2025-02-28; 74 returned subaward records",
+      "denominator": {"value": 74, "unit": "returned subaward records"},
+      "measures": {
+        "reported_subaward_amount": {"value": 1142661458.64, "unit": "US dollars, nominal reported amount", "value_type": "reported"},
+        "reported_recipient_count": {"value": 51, "unit": "distinct recipient names in returned records", "value_type": "count"},
+        "largest_reported_recipient_amount": {"value": 210018575.0, "unit": "US dollars, nominal reported amount", "value_type": "reported"},
+        "largest_recipient_share_of_extract": {"value": 18.3798, "unit": "percent of returned-record amount", "value_type": "share"}
+      },
+      "method": "Single parent-award POST retrieval from the official USAspending subawards endpoint with page size 100; recipient amounts summed across returned records and duplicate recipient names aggregated.",
+      "uncertainty": "The extract is bounded to one parent award and the endpoint's returned records. Recipient names are not an independently reconciled ownership or legal-entity master; subordinate tiers, locations, unreported records, amendments, and timing outside the returned action dates are not established.",
+      "subgroup": "Reported subordinate recipients, compared by extract amount; the largest is BAE Systems Information and Electronic Systems Integration Inc., followed by L3Harris Cincinnati Electronics Corporation and Chemring Energetic Devices Inc.",
+      "counterinterpretation": "A 51-recipient extract may indicate distributed component sourcing, but it can also reflect prime-contract reporting conventions, repeated lots, or incomplete visibility; it does not establish supplier competition, resilience, domestic self-sufficiency, or local economic benefit.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+      "status": "reported"
+    },
+    {
+      "period": "2024-10-23 through 2025-02-28; descriptions attached to returned subaward records",
+      "denominator": {"value": 74, "unit": "returned subaward records with free-text descriptions"},
+      "measures": {
+        "component_and_assembly_terms_present": {"value": 74, "unit": "records with one or more component/assembly descriptions", "value_type": "reported"},
+        "examples_of_reported_system_elements": {"value": "warhead cases; inertial measurement units; antennas; engines; mission-control processors; fuzing/electronics; wings, tails, and structural covers; optics; power supplies and connectors", "unit": "qualitative description classes", "value_type": "reported"}
+      },
+      "method": "Qualitative coding of the returned description strings; examples are retained as text-visible categories and are not a parts list or bill of materials.",
+      "uncertainty": "Descriptions are abbreviated procurement text, sometimes repeated across lots and options, with no quantities, acceptance status, manufacturing location, input provenance, worker count, or delivery confirmation.",
+      "subgroup": "Reported component and assembly descriptions within one JASSM/LRASM parent-award subaward extract.",
+      "counterinterpretation": "Component terms show what was reported as procured, not that the component was manufactured, integrated, delivered, or available at the implied scale; the same description can cover testing, support, options, or recurring lots.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This case record links one parent defense award to reported subordinate recipients, amounts, dates, and description-visible component classes. It does not establish a complete supply chain, ownership, geography, production, delivery, workforce, readiness, resilience, local incidence, or geopolitical leverage."
+}

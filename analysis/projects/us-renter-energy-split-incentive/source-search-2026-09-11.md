@@ -13,6 +13,10 @@
 | DOE-RENTERS | [DOE renter energy guidance](https://www.energy.gov/save/renters) | Renters can use some low-cost measures and may qualify for incentives, but building type and property control affect what is possible. | Guidance does not measure uptake or savings. |
 | ENERGY-STAR-UTILITY | [ENERGY STAR inclusive utility investment](https://www.energystar.gov/products/inclusive_utility_investment) | On-bill investment can tie upgrade cost to the property and bill so renters and landlords can share benefits. | Program model; actual savings and rent effects vary. |
 
+## Working question
+
+When a renter pays the energy bill but a landlord controls the building, which institution can make an upgrade reachable and keep the savings with the household?
+
 ## First pattern to test
 
 ```text

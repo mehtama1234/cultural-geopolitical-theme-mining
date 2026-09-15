@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-news-platform-civic-engagement-2025",
+  "title": "Platform-mediated news and civic life divide into distinct attention, trust, and action routes",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "consumer_power_recourse"],
+  "source_unit": "Pew Research Center US adult surveys and selected public social-media news-influencer accounts",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Late 2025; 19-measure news, political, civic, religious, and attention typology",
+      "denominator": {"value": 100, "unit": "published percent of US adults"},
+      "measures": {
+        "mobilizers": {"value": 9, "unit": "percent of US adults", "value_type": "share"},
+        "connectors": {"value": 28, "unit": "percent of US adults", "value_type": "share"},
+        "outsiders_2024_voted": {"value": 41, "unit": "percent of Outsiders", "value_type": "share"},
+        "mobilizers_2024_voted": {"value": 87, "unit": "percent of Mobilizers", "value_type": "share"},
+        "mobilizers_contacted_official": {"value": 65, "unit": "percent of Mobilizers", "value_type": "share"},
+        "outsiders_contacted_official": {"value": 3, "unit": "percent of Outsiders", "value_type": "share"}
+      },
+      "method": "Pew Research Center cluster-based descriptive typology using 19 measures of political activity, civic involvement, religious attendance, and news attention.",
+      "uncertainty": "One-time cluster analysis; group labels are descriptive types, not permanent identities or causal classes. Published percentages are not reproduced here with a design-based contrast test.",
+      "subgroup": "US adults grouped as Mobilizers, Connectors, Spectators, and Outsiders.",
+      "counterinterpretation": "Different participation styles can reflect prior identity, resources, institutions, or measurement choices; they do not establish that platform exposure caused action or withdrawal.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:0b0242f85f60532a411fbf4fd8a5f0de5a23ef9d5b80055cd92696ea618cc7a0",
+      "status": "reported"
+    },
+    {
+      "period": "March 2025; news-source familiarity, use, trust, and distrust survey",
+      "denominator": {"value": 9482, "unit": "US adult survey respondents"},
+      "measures": {
+        "news_sources_asked_about": {"value": 30, "unit": "named news sources", "value_type": "count"},
+        "partisan_source_ecosystems": {"value": 2, "unit": "descriptive partisan-aligned ecosystem patterns", "value_type": "count"}
+      },
+      "method": "Pew Research Center survey asking US adults which of 30 news sources they knew, used regularly, trusted, or distrusted.",
+      "uncertainty": "Source list and wording changed relative to the 2019 comparison; trust and use are self-reported and do not measure accuracy, persuasion, or platform causation.",
+      "subgroup": "Democratic-leaning and Republican-leaning adults, with source-specific use and trust patterns.",
+      "counterinterpretation": "Partisan differences may reflect prior identity, selective exposure, or source positioning rather than a platform changing beliefs; the record does not estimate causal effects.",
+      "source_url": "https://www.pewresearch.org/journalism/2025/06/10/the-political-gap-in-americans-news-sources/",
+      "retrieval_hash": "sha256:0b0242f85f60532a411fbf4fd8a5f0de5a23ef9d5b80055cd92696ea618cc7a0",
+      "status": "reported"
+    },
+    {
+      "period": "2025; social-media news-influencer exposure and perceived informational difference",
+      "denominator": {"value": 100, "unit": "published percent of US adults or influencer-news users"},
+      "measures": {
+        "regularly_get_news_from_social_media_influencers": {"value": 21, "unit": "percent of US adults", "value_type": "share"},
+        "under_30_regularly_get_news_from_influencers": {"value": 37, "unit": "percent of adults under 30", "value_type": "share"},
+        "influencer_news_users_better_understand_current_events": {"value": 65, "unit": "percent of influencer-news users", "value_type": "share"},
+        "influencer_news_users_news_different_elsewhere": {"value": 70, "unit": "percent of influencer-news users", "value_type": "share"}
+      },
+      "method": "Pew survey of US adults combined with content analysis of selected large social-media news-influencer accounts.",
+      "uncertainty": "The influencer analysis is not a census of creators or posts; survey use, perceived understanding, and perceived difference are not measured persuasion or civic outcomes.",
+      "subgroup": "US adults, adults under 30, and adults who regularly receive news from social-media influencers.",
+      "counterinterpretation": "People may choose influencers because of pre-existing interests or identity; perceived difference from other news does not establish greater accuracy, polarization, or dependence.",
+      "source_url": "https://www.pew.org/en/trust/archive/summer-2025/who-are-social-medias-news-influencers",
+      "retrieval_hash": "sha256:0b0242f85f60532a411fbf4fd8a5f0de5a23ef9d5b80055cd92696ea618cc7a0",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record measures distinct population engagement styles, partisan news-source ecosystems, and social-media news-influencer exposure. It does not join respondents across studies, establish platform causation, measure actual content accuracy, or infer that attention, trust, sharing, or continued use equals informed control or political influence. The retrieval hash covers the committed Pew synthesis memo."
+}

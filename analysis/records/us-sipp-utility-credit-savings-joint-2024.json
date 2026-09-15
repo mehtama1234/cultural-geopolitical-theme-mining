@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-credit-savings-joint-2024",
+  "title": "Utility-payment difficulty coexists with more balance carrying and less savings, but access differs by resources",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "2025 SIPP public-use file, 2024 reference year; person records by reference month",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; joint utility, credit, and savings universe",
+      "denominator": {"value": 377945, "unit": "valid person-record/month rows with valid household status and utility-payment field", "value_type": "person_month_rows"},
+      "measures": {"utility_difficulty_group_carried_credit_balance": {"value": 35.209, "unit": "person-weighted percent among utility-difficulty rows with nonblank credit field", "value_type": "conditional_share", "standard_error_percentage_points": 1.506, "approx_95_ci_percentage_points": [32.257, 38.161]}, "no_utility_difficulty_group_carried_credit_balance": {"value": 26.901, "unit": "person-weighted percent among no-difficulty rows with nonblank credit field", "value_type": "conditional_share", "standard_error_percentage_points": 0.364, "approx_95_ci_percentage_points": [26.187, 27.614]}, "utility_difficulty_group_owned_savings_account": {"value": 46.438, "unit": "person-weighted percent among utility-difficulty rows with nonblank savings field", "value_type": "conditional_share", "standard_error_percentage_points": 1.605, "approx_95_ci_percentage_points": [43.293, 49.584]}, "no_utility_difficulty_group_owned_savings_account": {"value": 64.901, "unit": "person-weighted percent among no-difficulty rows with nonblank savings field", "value_type": "conditional_share", "standard_error_percentage_points": 0.416, "approx_95_ci_percentage_points": [64.085, 65.717]}},
+      "method": "Weighted joint diagnostic using WPFINWGT and 240 replicate weights with Census Fay-BRR (G=240, perturbation factor 0.5); EAWBGAS code 1 versus 2 within the valid official utility universe, with EDEBT_CC and EOWN_SAV each retaining their nonblank field universes.",
+      "uncertainty": "Approximate Fay-BRR intervals quantify sampling-design uncertainty for the person-record diagnostic. Person records repeat household fields, so the result is not a household-prevalence estimate and cannot establish timing or causality.",
+      "subgroup": "Person-record/month rows reporting utility-payment difficulty versus no reported difficulty.",
+      "counterinterpretation": "Higher balance carrying among utility-difficulty rows is consistent with credit smoothing, but lower savings may also limit credit access; the joint pattern does not identify the direction of the relationship.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; utility-difficulty subgroup by monthly income-to-poverty ratio",
+      "denominator": {"value": 26545, "unit": "utility-difficulty person-record/month rows with positive weight; subgroup cells retain their own nonblank denominators", "value_type": "person_month_rows"},
+      "measures": {"below_1x_carried_credit_balance": {"value": 22.352, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 2.554, "approx_95_ci_percentage_points": [17.347, 27.358]}, "1_to_2x_carried_credit_balance": {"value": 35.092, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 2.601, "approx_95_ci_percentage_points": [29.993, 40.190]}, "2_to_4x_carried_credit_balance": {"value": 38.021, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 2.911, "approx_95_ci_percentage_points": [32.315, 43.727]}, "4x_or_more_carried_credit_balance": {"value": 44.751, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 2.891, "approx_95_ci_percentage_points": [39.086, 50.417]}, "below_1x_owned_savings_account": {"value": 29.331, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 2.527, "approx_95_ci_percentage_points": [24.378, 34.285]}, "4x_or_more_owned_savings_account": {"value": 61.337, "unit": "person-weighted percent", "value_type": "conditional_share", "standard_error_percentage_points": 3.268, "approx_95_ci_percentage_points": [54.932, 67.742]}},
+      "method": "WPFINWGT joint diagnostic among valid utility-difficulty rows, stratified by THINCPOV bands, with 240 replicate weights and Census Fay-BRR variance; credit and savings outcomes use their own nonblank denominators.",
+      "uncertainty": "Approximate Fay-BRR intervals quantify sampling-design uncertainty for the person-record cells; income-to-poverty ratio is monthly and does not equal liquid cash, debt capacity, or a dated bill shock.",
+      "subgroup": "Utility-difficulty rows below 1x, 1–1.99x, 2–3.99x, and 4x-or-more monthly income-to-poverty ratio.",
+      "counterinterpretation": "The higher balance-carrying share at higher resources within the utility-difficulty group is a counterexample to reading balance carrying as a simple deprivation scale; lower-resource respondents may have less access to revolving credit.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official field labels, status flags, and universe documentation.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive available for the next variance pass.", "status": "official-replicate-weights"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm", "claim": "Federal Reserve household and linked-credit context for balance carrying and hardship.", "status": "related-context"}
+  ],
+  "boundary": "This is a person-weighted SIPP joint diagnostic, not a household-weighted causal estimate. It shows co-occurrence of utility-payment difficulty, credit-card balance carrying, savings-account ownership, and resource bands within the selected monthly records. It does not identify a dated bill, rate, lender decision, payment outcome, remedy, trust, political action, or the same household's full trajectory."
+}

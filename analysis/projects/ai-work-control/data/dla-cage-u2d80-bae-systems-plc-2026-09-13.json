@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:10:16.624649+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=U2D80",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=21236239",
+  "cage_query": "U2D80",
+  "response_sha256": "fcdc00ef231ea106d121f4db8648dd807d775f6efca9fbb05f5a4f7631177789",
+  "record": {
+    "legal_business_name": "BAE SYSTEMS PLC",
+    "address": "6 CARLTON GARDENS LONDON, GREATER LONDON SW1Y 5AD UNITED KINGDOM",
+    "cage": "U2D80",
+    "uei": null,
+    "status": "Active",
+    "cage_update_date": "05/30/2025",
+    "cage_expiration": null,
+    "parent_cage": null,
+    "parent_company_name": null
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

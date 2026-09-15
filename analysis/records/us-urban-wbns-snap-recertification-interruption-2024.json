@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-wbns-snap-recertification-interruption-2024",
+  "title": "Reported SNAP interruptions expose notice, time, paperwork, and interview route failures",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "time_hidden_price", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "Urban Institute December 2024 Well-Being and Basic Needs Survey analysis of adults ages 18–64 in families receiving SNAP",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "December 2024 survey; prior-year SNAP experience",
+      "denominator": {"value": null, "unit": "working-age adults ages 18–64 in families receiving SNAP; brief reports a nationally representative sample of more than 7,500 adults but does not disclose the exact analytic denominator for these published shares", "value_type": "not_disclosed"},
+      "measures": {
+        "involuntary_stop_or_interruption": {"value": 24, "unit": "percent of target adults", "value_type": "weighted_survey_estimate"},
+        "unable_to_recertify_on_time": {"value": 13, "unit": "percent of target adults", "value_type": "weighted_survey_estimate"},
+        "told_no_longer_eligible": {"value": 8, "unit": "percent of target adults", "value_type": "weighted_survey_estimate"},
+        "other_reason": {"value": 3, "unit": "percent of target adults", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Urban Institute analysis of weighted December 2024 WBNS responses; respondents reported whether their or their family's SNAP benefits were stopped or interrupted during the year and whether the last event was involuntary.",
+      "uncertainty": "Retrospective self-report; exact analytic denominator and event duration are not disclosed in the brief. Reason categories are not mutually exclusive and do not establish agency fault, eligibility, or causal food-security effects.",
+      "subgroup": "Adults ages 18–64 in families receiving SNAP in the target period.",
+      "counterinterpretation": "A reported interruption may reflect eligibility change, household choice not fully captured by the question, notice or paperwork failure, interview access, or another process; the survey does not verify the administrative case file.",
+      "source_url": "https://www.urban.org/sites/default/files/2025-09/SNAP-Experiences-Summary.pdf",
+      "retrieval_hash": "sha256:1da08a50357c3430a6e06038ab78f8c8677f734c6f9334565902d0a4d8801abf",
+      "status": "reported"
+    },
+    {
+      "period": "December 2024 survey; subgroup comparisons",
+      "denominator": {"value": null, "unit": "published subgroup target populations; exact analytic denominators not disclosed in the brief", "value_type": "not_disclosed"},
+      "measures": {
+        "any_involuntary_interruption_age_18_34": {"value": 28, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "any_involuntary_interruption_age_55_64": {"value": 16, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "any_involuntary_interruption_with_children": {"value": 29, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "any_involuntary_interruption_without_children": {"value": 19, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "any_involuntary_interruption_workers": {"value": 32, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "any_involuntary_interruption_nonworkers": {"value": 18, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted subgroup estimates from the same WBNS analysis; subgroup contrasts retain the source's reference groups and significance notation in the detailed layer.",
+      "uncertainty": "Cross-sectional subgroup differences do not identify causal effects; age, work, children, certification length, income volatility, eligibility, notice reach, and documentation needs are correlated.",
+      "subgroup": "Age, children-in-family, and employment-status subgroups of working-age adults in SNAP families.",
+      "counterinterpretation": "Higher interruption among workers or families with children may reflect schedule conflict, but may also reflect different certification periods, earnings reporting, case composition, or eligibility changes.",
+      "source_url": "https://www.urban.org/research/publication/paperwork-burdens-cost-one-eight-working-age-snap-recipients-their-benefits",
+      "retrieval_hash": "sha256:1da08a50357c3430a6e06038ab78f8c8677f734c6f9334565902d0a4d8801abf",
+      "status": "compared"
+    },
+    {
+      "period": "December 2024 survey; reason-specific barrier report",
+      "denominator": {"value": 182, "unit": "respondents reporting benefit loss/interruption because they could not recertify on time", "value_type": "respondent_count"},
+      "measures": {
+        "not_enough_time_after_notice": {"value": 40, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "did_not_receive_notice": {"value": 32, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "paperwork_too_difficult": {"value": 22, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "could_not_participate_in_interview": {"value": 16, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "office_lost_paperwork": {"value": 15, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "did_not_know_how_to_recertify": {"value": 10, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "other_reason": {"value": 8, "unit": "percent; multiple-response reason", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted multiple-response estimates among the 182 respondents in the reason-specific subgroup.",
+      "uncertainty": "Small reason-specific subgroup; estimates are limited in precision, categories do not sum to 100, and reported reasons are not independently verified administrative events.",
+      "subgroup": "Working-age adults reporting a SNAP interruption because they could not recertify on time.",
+      "counterinterpretation": "The same interruption can involve several barriers; a reported notice or paperwork problem does not by itself establish whether the agency, household, channel, or deadline caused the failure.",
+      "source_url": "https://www.urban.org/sites/default/files/2025-09/SNAP-Experiences-Summary.pdf",
+      "retrieval_hash": "sha256:1da08a50357c3430a6e06038ab78f8c8677f734c6f9334565902d0a4d8801abf",
+      "status": "reported"
+    },
+    {
+      "period": "December 2024 survey; recertification difficulty and assistance",
+      "denominator": {"value": null, "unit": "published WBNS respondent universes for adults who recertified or whose families received SNAP in the prior 12 months; exact denominators not disclosed in the brief", "value_type": "not_disclosed"},
+      "measures": {
+        "recertification_difficult_or_very_difficult": {"value": 21, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "recertification_difficulty_workers": {"value": 27, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "recertification_difficulty_nonworkers": {"value": 17, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "help_from_snap_office": {"value": 27, "unit": "percent; source of application/recertification help", "value_type": "weighted_survey_estimate"},
+        "help_from_food_provider": {"value": 5, "unit": "percent; source of application/recertification help", "value_type": "weighted_survey_estimate"},
+        "help_from_community_organization": {"value": 5, "unit": "percent; source of application/recertification help", "value_type": "weighted_survey_estimate"},
+        "help_from_health_provider": {"value": 4, "unit": "percent; source of application/recertification help", "value_type": "weighted_survey_estimate"},
+        "help_from_someone_else": {"value": 7, "unit": "percent; source of application/recertification help", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted WBNS estimates; help-source categories describe contact, not successful resolution or prevention of interruption.",
+      "uncertainty": "The source is retrospective and cross-sectional. It does not observe whether help changed the decision, amount, timing, interruption, appeal, or later security.",
+      "subgroup": "Adults who recertified or whose families received SNAP in the published item-specific prior-year universes.",
+      "counterinterpretation": "Seeking help may identify more difficult cases rather than represent a protective resource; the percentages cannot be read as success rates.",
+      "source_url": "https://www.urban.org/sites/default/files/2025-09/SNAP-Experiences-Summary.pdf",
+      "retrieval_hash": "sha256:1da08a50357c3430a6e06038ab78f8c8677f734c6f9334565902d0a4d8801abf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.urban.org/research/publication/paperwork-burdens-cost-one-eight-working-age-snap-recipients-their-benefits", "claim": "Urban brief summary and survey universe.", "status": "primary-analysis"},
+    {"source_url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey", "claim": "WBNS survey program context.", "status": "survey-program"},
+    {"source_url": "https://www.fna.usda.gov/snap/qc/timeliness/rpt-fy25", "claim": "Administrative recertification timeliness context; different universe from WBNS.", "status": "official-companion"}
+  ],
+  "boundary": "This is a respondent-reported, retrospective interruption and route-burden layer. It does not link to administrative case files, identify exact notice or benefit dates, measure benefit amounts or gap days, verify agency responsibility, observe appeals/corrections, or estimate downstream food security, health, trust, political action, or return to SNAP. It is complementary to—not interchangeable with—the USDA/FNA state route-performance layer and SIPP transition layers."
+}

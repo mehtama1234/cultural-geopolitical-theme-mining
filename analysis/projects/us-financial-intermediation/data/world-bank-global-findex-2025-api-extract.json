@@ -1,0 +1,1449 @@
+{
+  "format": "world-bank-global-findex-2025-api-extract-v1",
+  "release": "Global Findex Database 2025; survey fielded 2024",
+  "api_source": "World Bank API source 14",
+  "retrieved": "2026-09-15",
+  "indicator_definitions": {
+    "account.t.d": "Account (% age 15+)",
+    "account.t.d.1": "Account, female (% age 15+)",
+    "account.t.d.2": "Account, male (% age 15+)",
+    "con1": "Own a mobile phone  (% age 15+)",
+    "con1.1": "Own a mobile phone, women (% age 15+)",
+    "con1.2": "Own a mobile phone, men (% age 15+)",
+    "con9a": "Main mobile phone is a smartphone  (% age 15+)",
+    "fin22a": "Borrowed from a formal bank or similar financial institution  (% age 15+)",
+    "fin24aN": "Coming up with emergency funds in 30 days: not possible  (% age 15+)",
+    "fin24aP": "Coming up with emergency funds in 30 days: possible  (% age 15+)",
+    "fin26a": "Used a mobile phone or the internet to pay bills  (% age 15+)",
+    "g20.any": "Made or received a digital payment  (% age 15+)",
+    "save.any.t.d": "Saved any money  (% age 15+)"
+  },
+  "responses": {
+    "USA/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "d1ea3d8c6da90db104667213a0dccdc2521007d25a391aeddd89241a9c002f3f",
+      "lastupdated": "2025-10-06"
+    },
+    "USA/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "fb86a7df9215ff88ef2de574c9c3eded53226b4e06a751b9b5a47b7e446e7d56",
+      "lastupdated": "2025-10-06"
+    },
+    "USA/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "a0d4dedf932c8b4b57e2a18c945eff50ea0f3b8e8adf1d5d46d0153f40f6e26a",
+      "lastupdated": "2025-10-06"
+    },
+    "USA/con1": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/con1?format=json&per_page=100",
+      "sha256": "cf4eca85060283bf07f8339f53d08007633d185f911ffe1501dffaf9b4d023c1",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/con1.1?format=json&per_page=100",
+      "sha256": "6c916de1aec512d658dbf61f5d9e0601ed4a06754b4d38f3a88d7cf3bba3f332",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/con1.2?format=json&per_page=100",
+      "sha256": "cb0d1dd98c4353f72a433d15231fe0596ed72d280b9d9976522d074664be8a3f",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/con9a": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/con9a?format=json&per_page=100",
+      "sha256": "1abaad15105f519b226611626fe41f53dd8386ca82aa0f85bc6cb3d459463f72",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/g20.any?format=json&per_page=100",
+      "sha256": "16b760035aff15c3c05bd961300b776e6eb16ead49369fce77955ce013330798",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "e0aadc1f74dffaf5f0526064e7d5426a0709b0569cef72bf1c6b030e75bf8367",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "b37be991d8828e280b3bf0306c9366ad4081cfce524b9074311dbf3553f3a20b",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "f1bb83074fa395009a413625cbd25677a0bef19e24cd3cbcf88e54069709c003",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/fin26a?format=json&per_page=100",
+      "sha256": "10c002176be3f07ebc9f360f8a0334a0a525c9f3658e0a51a4d4bb5d0368f8f4",
+      "lastupdated": "2026-07-22"
+    },
+    "USA/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/USA/indicator/fin22a?format=json&per_page=100",
+      "sha256": "d063fd7a2523b6bb7186c8172b0bdc5af8232d8034e0a1447cc06bc413167a38",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "40b095249b4e42d66dea107515ba674d9a416060d923314162cf870b473b8a12",
+      "lastupdated": "2025-10-06"
+    },
+    "CAN/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "cf471ab07c016734b7aa8848baaf2294b5615ccef98ea93f3c76debb849265e6",
+      "lastupdated": "2025-10-06"
+    },
+    "CAN/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "c85e405dbfcf2c6ec50542a9333f4e0669304394490648eac763439284db39be",
+      "lastupdated": "2025-10-06"
+    },
+    "CAN/con1": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/con1?format=json&per_page=100",
+      "sha256": "d64ff94ef3f35b6a01e7f48ba60276c7ec40d55aa09811bd4f445d5e09e60bef",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/con1.1?format=json&per_page=100",
+      "sha256": "61bc69a5609ea96c3d80aea36e4916988f647055d2f1b6ebe01b608c8b63114b",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/con1.2?format=json&per_page=100",
+      "sha256": "849ec8706c3d0c8fe3127bbf8ced070a2a0b731adba2427fc60b69f5bf897b30",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/con9a": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/con9a?format=json&per_page=100",
+      "sha256": "b3664470aad1a33faaec3c7f08c0fd97273668e5ed09b6b0d358749c7ffb3f53",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/g20.any?format=json&per_page=100",
+      "sha256": "cc91f2c82b20b38effaed8515882953c168e88f9eee0788d3d77497efca48d4c",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "4525ed446774c50c1c5c4f178f2a86c7b1bc67cba80cb3cb582115a440b2cba0",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "2c125e8f816413992440307c7cff70a9167d1f217e7598b90c9ec90668c20388",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "279998cd5af8ee31ce9f64ed7c94424a33e5fbc21eaa7803b7ae7d814793b754",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/fin26a?format=json&per_page=100",
+      "sha256": "e1201c2cb59865e7457c635e4df7c2fea6b5a08dc31f9ac6eb02796220986d5a",
+      "lastupdated": "2026-07-22"
+    },
+    "CAN/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/CAN/indicator/fin22a?format=json&per_page=100",
+      "sha256": "fc8fc09a36489b1735f294097f26cf50fab857e5322f4512848e4247558d675e",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "3de5be5b418651c4ddb1439d9a7c051d4814ea896f8dd4ad24806220bfc0f8a1",
+      "lastupdated": "2025-10-06"
+    },
+    "DEU/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "8b521e80051a821a45e82f9a944236e4f99327f689a0477386c9c1fd60dfdcea",
+      "lastupdated": "2025-10-06"
+    },
+    "DEU/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "6f47085a31d4c0cfc8a2dd5166ec27db65e8776924bcc62c03b7de5be66026c7",
+      "lastupdated": "2025-10-06"
+    },
+    "DEU/con1": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/con1?format=json&per_page=100",
+      "sha256": "46ff7c1d7f8f258b4295eba9ac90f45723f00b7f502d02e809c79aa9b6f38c88",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/con1.1?format=json&per_page=100",
+      "sha256": "cfaabecee0ecefe2267910a9c477e76e2b34a665b0c5f7327208175daccdd633",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/con1.2?format=json&per_page=100",
+      "sha256": "681b80f030b1331e08a89c49723a3ba9b3aa579457bb8108ae09177c26db37af",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/con9a": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/con9a?format=json&per_page=100",
+      "sha256": "930c1da56f2c70eb40a9c35c96d00a7327d733ce144c8ada82f246e2c80dbb93",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/g20.any?format=json&per_page=100",
+      "sha256": "56aa731e5b3a7c05c3e2cb492d42d5cdba3d15746bf872f7c1c9a57e18ba2600",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "ec3c643b4fb2e4889776741109f43f8113635402c3f6a3ea96421ccee80f3e5c",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "269fc2a9e50ce557623fee5662d1d6002f7d2b8a06617a8f4a73d1fe91aafd41",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "6d1a958af7107335cfd6262d1bc08cab55d09ffdc953a4a4bea27bd367959564",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/fin26a?format=json&per_page=100",
+      "sha256": "99b85addb205c7bd905c6f7ddbc1ad9c8d9c09917486916e1e142d06bb3511db",
+      "lastupdated": "2026-07-22"
+    },
+    "DEU/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/DEU/indicator/fin22a?format=json&per_page=100",
+      "sha256": "c75e6b49f9cc0af3f804fb2a8b9d08d4dad656d7a4b5c185fe368ba38ef514a7",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "a63016fda3c79916c3511f7bd10d6565b13d7ab9dbf95885eb06ec07c2519677",
+      "lastupdated": "2025-10-06"
+    },
+    "CHN/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "fa98cd0cb2946cc6582d49cdd87f5bb0364c7f9d87e7fccffb68e8a33574f3f3",
+      "lastupdated": "2025-10-06"
+    },
+    "CHN/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "0052330c2b36a21be6db9779f7a9074434e062e3a08525c3b098f18cad82635f",
+      "lastupdated": "2025-10-06"
+    },
+    "CHN/con1": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/con1?format=json&per_page=100",
+      "sha256": "6d54a64c1569707b724fa794946ab2c16cd77d40fe25dea93d8a71af9e267cd8",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/con1.1?format=json&per_page=100",
+      "sha256": "40838d97fbec535a3f6607a4db7951170014d0dbe86ffe47eb88003a3946a06b",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/con1.2?format=json&per_page=100",
+      "sha256": "c81f7ab6609b06d163a8f000de4dc6240bacd0ee3a6b9939fe5997c5d7891a12",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/con9a": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/con9a?format=json&per_page=100",
+      "sha256": "7fb35d1e43da27a764f4b021cfdd8bd7390789b35312eb83918824d00599ba3e",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/g20.any?format=json&per_page=100",
+      "sha256": "71608e04b0f2013235c01d7177abafc1cf4f0a8bb73e36a2b4879345a2e0e9a4",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "d079dc035369e95e32372018c36723df876da714299660898d9988990213fff1",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "e542e0e8d8e2e8cb91f3746fffed4f98e6559cb8cb71d0b8f7a0848d65e9cfc0",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "c05a91b98acbba343ebf3487e391fc4d6dcfe8ca8cb9f519674ef891eedd7e75",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/fin26a?format=json&per_page=100",
+      "sha256": "5b9c38e51c27ba51b0ed3f96fbf859ad5f3500705375e073c1caedb99e0a0bc9",
+      "lastupdated": "2026-07-22"
+    },
+    "CHN/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/CHN/indicator/fin22a?format=json&per_page=100",
+      "sha256": "55dd9de34da6b1d199a5baffee3d8f3aa5c4e464076541a4ec88681a96b5cbd3",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "20c28db55f18335becf5f7e56927f3f2b2738232a3373c8d2a31f2f6b69c1a4d",
+      "lastupdated": "2025-10-06"
+    },
+    "IND/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "efdef83644b8b23fc17ef6e4c9446c746d443aafa71f8999e8d623237ad412de",
+      "lastupdated": "2025-10-06"
+    },
+    "IND/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "f59c2d1ddec2ad931f605a66d2ab768d050c2dbabcb91f64ce41edfc49459b5e",
+      "lastupdated": "2025-10-06"
+    },
+    "IND/con1": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/con1?format=json&per_page=100",
+      "sha256": "e47521794c6dae3428057805e2103567ed20bd7f89a860305a00c3767232dd48",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/con1.1?format=json&per_page=100",
+      "sha256": "09b63e335fc83745444bf36c96617900bb54da8785fa8e8b076994503900238c",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/con1.2?format=json&per_page=100",
+      "sha256": "4f29b061ff3810bbf40909a396a5add203b1ee3b10082612567722b4141d84b9",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/con9a": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/con9a?format=json&per_page=100",
+      "sha256": "00d1e007036b97ca56698912b69d0d25961ec8330fd4b33b42909f4d67a50c5e",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/g20.any?format=json&per_page=100",
+      "sha256": "f81de2eaa491c50658b820fdaf7f92ca19aecbbe8f016bd0c3ee38b905e95ff9",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "d634aa8e11fe74395c5cfc078d57a9884f34d3ecc03cd65d4203916f922ea470",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "d700f4278c0f822a8c4c828a4766b4c9f78d7dce0d23a31fd3ff93f978c49b4a",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "5f4a50c827eeddc27b91cc793ca89c585e9ee925587f734b0dcd4e367e42f685",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/fin26a?format=json&per_page=100",
+      "sha256": "058adae4c5eeca16fa68736a48f032add85526011196a22d42702683ca73a73a",
+      "lastupdated": "2026-07-22"
+    },
+    "IND/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/IND/indicator/fin22a?format=json&per_page=100",
+      "sha256": "9cb9a161bf4804e16619e724a48945cd170e3eaef09ba56ebce969117d01fd50",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "62c59ce63d9877e583bda1cdc91ad74ae9de10484070cebdf431ddc491bce71c",
+      "lastupdated": "2025-10-06"
+    },
+    "ZAF/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "eb875dba64bcb677dc1bcbf543fddf1e8b3d3aef8035d02d6a4ae92fdd4be93d",
+      "lastupdated": "2025-10-06"
+    },
+    "ZAF/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "de88b36216f80ccad6c8c7fc0d915e42913220b3a559096bde3432fb994b1ec6",
+      "lastupdated": "2025-10-06"
+    },
+    "ZAF/con1": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/con1?format=json&per_page=100",
+      "sha256": "b70adbfad2c72d9dd51a67bdd6560b223e0f44e14b4c1630e407d5b854265028",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/con1.1?format=json&per_page=100",
+      "sha256": "95eacc5ec678e296315f7c4d66ac5ec78c4ff2c4d6cb77712b683b8887649a35",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/con1.2?format=json&per_page=100",
+      "sha256": "d7d2b09fc34ef2da2a6eca88ec9ce52b4f70f242e150769d2e508b5065f46184",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/con9a": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/con9a?format=json&per_page=100",
+      "sha256": "ccc1a5f9227bf64670fa7f94bf792b156fc0b4534b22cc3e023dba21defe2df9",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/g20.any?format=json&per_page=100",
+      "sha256": "1234587ae2a19ee6362a633080d7f63c38f69e767561830c00fcd2153b21c75c",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "e2c3addcf16650b7def649cc107a1b78e38b466c8b87d64186b211d64be8b914",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "4302d47e7f1bfc7181a91d302c6047c0628fbd5e73017f4bf84cbfddc2017e27",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "57248a1842b5ca46f32e3fb6c66f30a2ea7355f9baa140be3503f775191c3377",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/fin26a?format=json&per_page=100",
+      "sha256": "dcace3170965c6fe8adc6dc4fd875afac882f79a9e32ee6dc9aaa60ce17af1d2",
+      "lastupdated": "2026-07-22"
+    },
+    "ZAF/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/ZAF/indicator/fin22a?format=json&per_page=100",
+      "sha256": "760f8893d837105d85bad53d3019c63835ef4a68b02f8bb70c659084e94f5679",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "6e01d00c83ff0915d7c02be8be3a45df7adf87b8c006908b771db6ea2168f4d6",
+      "lastupdated": "2025-10-06"
+    },
+    "MEX/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "b1cd699ecded22cd97f42e8b93679f5125dc39f40056591a4c142cbc7ae98982",
+      "lastupdated": "2025-10-06"
+    },
+    "MEX/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "c1924d66ddf287fc170264a01518be42a8534c98a03e93ca27361e53c3c133c0",
+      "lastupdated": "2025-10-06"
+    },
+    "MEX/con1": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/con1?format=json&per_page=100",
+      "sha256": "c924de78ec21f3ef5a0988eef9f3a55934967bc62cf53a9c50818e4725cf5c1b",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/con1.1?format=json&per_page=100",
+      "sha256": "0ef1ca7ee1ccb3784c76bf08a61fc776a7f39418e99fdeba0c9b34c434f5d8d2",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/con1.2?format=json&per_page=100",
+      "sha256": "4b178dfef33048fe172f5f6d8b8a33ada9c8fd72a7319859b2c5102915e0ee54",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/con9a": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/con9a?format=json&per_page=100",
+      "sha256": "16c9bb4a196a70a4604795e7027b9d732962653c82c693e37e6eb99b437e48d3",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/g20.any?format=json&per_page=100",
+      "sha256": "7f23a30cc43e7a46fe99eadb5b92402e3bd19fd46851147eb1de91007044cda1",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "a14a6484b55ffefee5a86f49b45c37695400ecfcf2eb3428b7cc370c844ca591",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "bd99ca2210e0a716d8e8259db707c5f20474873d56eac15137e5930ae0180462",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "3d56d652d9cf030c76819f81360058ab71f41899575006deb36f94caff0374f4",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/fin26a?format=json&per_page=100",
+      "sha256": "a77fb5addb7e1651e696d61a0b8cdee9bb17a8a7c596c3fa5a01d69c700ff009",
+      "lastupdated": "2026-07-22"
+    },
+    "MEX/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/MEX/indicator/fin22a?format=json&per_page=100",
+      "sha256": "adba14f96d0efb57f0e674f2a33be2e7fb6f5409e0d144372e460c05bb596f51",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "719bd202816f6b867969f69c1c30761bddd6c6c2e1e9b99bc8219a6441a28506",
+      "lastupdated": "2025-10-06"
+    },
+    "BRA/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "f3291ebc2471023926b3776d61d770efab7a4d97a7c5f630c849e3f7a05157cc",
+      "lastupdated": "2025-10-06"
+    },
+    "BRA/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "293426b9863b3258301ecb3cf64ffa629c065e35deb21f8978524c9dff861f9d",
+      "lastupdated": "2025-10-06"
+    },
+    "BRA/con1": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/con1?format=json&per_page=100",
+      "sha256": "d85bd1f6184e57678df3cd37235811492c3be41fc680b57e38dde9efb261dd5a",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/con1.1?format=json&per_page=100",
+      "sha256": "e44b667624efe3cfe4abf3791722adf3f36ad72297c6c2b36a86c6158c7dc2d5",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/con1.2?format=json&per_page=100",
+      "sha256": "2e5252bd49f99c36bd624c9f7936f7e5e6f222dab2a1b3e1e619947bf1627141",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/con9a": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/con9a?format=json&per_page=100",
+      "sha256": "9e3d07e6dd70006a791d7e9692538749f9f2d9dd67bc1f2105fd57c5434fceae",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/g20.any?format=json&per_page=100",
+      "sha256": "5bcb56867d94e6431ed2a69e2d0f588d11a5cb0dee8d989f25224d8a346cf68b",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "7a69e3511647385c3a5cf6dd2364037eb2962f3581479397e4d604f0a55f5291",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "1576046a4ef3515830a665f8b6a539aeae5bf8d1fc71fad48eb28b8f6699adad",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "950caf3ebc0a407f4d0cb7429c9e621996ba85e3bcb35ab7b534ee344f8dbd51",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/fin26a?format=json&per_page=100",
+      "sha256": "aa129e67146363addb3069567acd34aa5900ae2b1d24742f6f08ca18f1fd5f1a",
+      "lastupdated": "2026-07-22"
+    },
+    "BRA/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/BRA/indicator/fin22a?format=json&per_page=100",
+      "sha256": "4b1678b83877049303c5f0499c61df958550421b8e72a8abbef88fe94535d724",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/account.t.d": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/account.t.d?format=json&per_page=100",
+      "sha256": "a165f908b75b8e23623bff7c5ab0ecbaf317f1db5f65d1e588076f847d7ce836",
+      "lastupdated": "2025-10-06"
+    },
+    "GBR/account.t.d.1": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/account.t.d.1?format=json&per_page=100",
+      "sha256": "85b2a47e4be49e6608712b60bcc054899efdf66e0c88de0d0c81bf8c802fde9e",
+      "lastupdated": "2025-10-06"
+    },
+    "GBR/account.t.d.2": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/account.t.d.2?format=json&per_page=100",
+      "sha256": "8a0be1b9bdc96ffd874592e8d89714126c97a758cf7f5baa143a173c5a987bf9",
+      "lastupdated": "2025-10-06"
+    },
+    "GBR/con1": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/con1?format=json&per_page=100",
+      "sha256": "786c821814b2afbb7671476b4fec1f4cb5787a10acf368085609075dd75223fd",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/con1.1": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/con1.1?format=json&per_page=100",
+      "sha256": "f76a7fb74341bdd8ddcd07fa63bb721a910d16adf71c4bebbde4533ca1fc9f5d",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/con1.2": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/con1.2?format=json&per_page=100",
+      "sha256": "ee1b20587642ce5f0e533f5cf7233bb1a92adbccc4f218185733de85ddd4053e",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/con9a": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/con9a?format=json&per_page=100",
+      "sha256": "76065651567ebc79e795bbee5ed81ff35dc08c50b6ecd1bd87762bd5aef9b9bb",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/g20.any": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/g20.any?format=json&per_page=100",
+      "sha256": "0a76ec0bc049e432ac0150c4d60dd54d0fff8492b7bb0ac36bd3b7b1c11c9446",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/fin24aP": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/fin24aP?format=json&per_page=100",
+      "sha256": "2084c242e44ecb656dae1d49a5b6e67166cece65f1046df9cfaccf6e0996cbfd",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/fin24aN": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/fin24aN?format=json&per_page=100",
+      "sha256": "625f2ad3d37f8bbebfef4149be0bb35fed48e92feb94dea5eb2ade54379e333f",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/save.any.t.d": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/save.any.t.d?format=json&per_page=100",
+      "sha256": "548c713cd9ab9c364094589322e1647d2320b4aa770c8a875dfd9c68cbece272",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/fin26a": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/fin26a?format=json&per_page=100",
+      "sha256": "9b091b9f2a25e7849ec0d9902121e42a4a3c8a291a0006d9ac7862361c7c80af",
+      "lastupdated": "2026-07-22"
+    },
+    "GBR/fin22a": {
+      "url": "https://api.worldbank.org/v2/country/GBR/indicator/fin22a?format=json&per_page=100",
+      "sha256": "50e18e582afcc92789aa1c41cb21c00b7ff971e5449bd0e5f6c2fbe72c56f8a8",
+      "lastupdated": "2026-07-22"
+    }
+  },
+  "values": {
+    "USA": {
+      "account.t.d": {
+        "2024": 97.0230983290589,
+        "2021": 94.9532296473716,
+        "2017": 93.1221843138765,
+        "2014": 93.5838007921263,
+        "2011": 87.9578658638029
+      },
+      "account.t.d.1": {
+        "2024": 97.1092143262693,
+        "2021": 96.7918915249746,
+        "2017": 92.6862456595629,
+        "2014": 94.7977101824712,
+        "2011": 84.0690581399157
+      },
+      "account.t.d.2": {
+        "2024": 96.9368554605958,
+        "2021": 93.0887141747744,
+        "2017": 93.5703395175217,
+        "2014": 92.3612617236252,
+        "2011": 91.9819404591238
+      },
+      "con1": {
+        "2024": 98.0130725290211,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 98.6150004590769,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 97.4102578026322,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 92.6365860934691,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": null,
+        "2021": 92.9663801012284,
+        "2017": 91.1061646060365,
+        "2014": 92.0131349860559,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 0,
+        "2021": 94.9924687529748,
+        "2017": 71.827475776525,
+        "2014": 66.0200556354219,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 0,
+        "2021": 5.00753124702525,
+        "2017": 28.172524223475,
+        "2014": 33.9799443645782,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": null,
+        "2021": 78.6137285755362,
+        "2017": 79.3441565095185,
+        "2014": 75.6395699818152,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": null,
+        "2021": 65.789994083524,
+        "2017": 64.3078284324616,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": null,
+        "2021": 66.2001156887503,
+        "2017": 68.3592693484001,
+        "2014": 64.5777264591562,
+        "2011": null
+      }
+    },
+    "CAN": {
+      "account.t.d": {
+        "2024": 98.4047126063262,
+        "2021": 99.6346150066946,
+        "2017": 99.7268801898825,
+        "2014": 99.1033280339593,
+        "2011": 95.8046424525372
+      },
+      "account.t.d.1": {
+        "2024": 98.7513672334689,
+        "2021": 99.50555299801,
+        "2017": 99.8528003696063,
+        "2014": 99.1964836629437,
+        "2011": 97.2331641337487
+      },
+      "account.t.d.2": {
+        "2024": 98.0567378578269,
+        "2021": 99.7677886528327,
+        "2017": 99.5923036211936,
+        "2014": 99.003207420253,
+        "2011": 94.2752247657323
+      },
+      "con1": {
+        "2024": 89.4378063520212,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 86.9623424295141,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 91.9226972734358,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 84.0638388929034,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": null,
+        "2021": 98.3481469545198,
+        "2017": 97.8546568287087,
+        "2014": 96.9400709216685,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 0,
+        "2021": 94.6914180517075,
+        "2017": 83.276986060532,
+        "2014": 78.8063753635495,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 0,
+        "2021": 5.30858194829249,
+        "2017": 16.723013939468,
+        "2014": 21.1936246364505,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": null,
+        "2021": 78.1481853589159,
+        "2017": 80.0662788610123,
+        "2014": 82.2096845393872,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": null,
+        "2021": 75.4919583899106,
+        "2017": 72.0617758855716,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": null,
+        "2021": 81.0056953446041,
+        "2017": 82.8257839775563,
+        "2014": 76.4652492709613,
+        "2011": null
+      }
+    },
+    "DEU": {
+      "account.t.d": {
+        "2024": 98.2983235670699,
+        "2021": 99.9765938161833,
+        "2017": 99.14118600163,
+        "2014": 98.7604066823874,
+        "2011": 98.1336173269525
+      },
+      "account.t.d.1": {
+        "2024": 98.873065264332,
+        "2021": 100,
+        "2017": 99.1992475872443,
+        "2014": 99.4417995852574,
+        "2011": 98.7045340200252
+      },
+      "account.t.d.2": {
+        "2024": 97.6782654275893,
+        "2021": 99.9519787809101,
+        "2017": 99.0789317482543,
+        "2014": 98.0492498717625,
+        "2011": 97.5362233643903
+      },
+      "con1": {
+        "2024": 91.9605140243591,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 89.8519060258324,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 94.2353786438719,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 84.5275362910769,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": null,
+        "2021": 99.4807324065067,
+        "2017": 97.7581710174011,
+        "2014": 95.7971990362501,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 0,
+        "2021": 87.8829869647468,
+        "2017": 86.436231463761,
+        "2014": 82.4629009926847,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 0,
+        "2021": 12.1170130352532,
+        "2017": 13.5637685362389,
+        "2014": 17.5370990073153,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": null,
+        "2021": 85.5970356773176,
+        "2017": 75.7163987812214,
+        "2014": 79.8410894838139,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": null,
+        "2021": 57.434271567944,
+        "2017": 57.930635951312,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": null,
+        "2021": 54.6749660319965,
+        "2017": 54.6274956751436,
+        "2014": 45.7755197741171,
+        "2011": null
+      }
+    },
+    "CHN": {
+      "account.t.d": {
+        "2024": 89.3830319754266,
+        "2021": 88.7090216844445,
+        "2017": 79.5313410701405,
+        "2014": 78.9652608494559,
+        "2011": 63.8173128563221
+      },
+      "account.t.d.1": {
+        "2024": 89.2021200745424,
+        "2021": 87.3449018911007,
+        "2017": 75.6557719927572,
+        "2014": 76.4173378243648,
+        "2011": 60.008675441337
+      },
+      "account.t.d.2": {
+        "2024": 89.5550580073499,
+        "2021": 89.9227937995507,
+        "2017": 83.361786363876,
+        "2014": 81.444677603225,
+        "2011": 67.5847964414684
+      },
+      "con1": {
+        "2024": 96.6465220877568,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 96.8457778814917,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 96.4570531619074,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 88.2364817308287,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": 88.7201133472321,
+        "2021": 86.1900701715971,
+        "2017": 66.5941826956011,
+        "2014": 49.0737371876233,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 95.1017041907626,
+        "2021": 92.4457863723008,
+        "2017": 56.1891703160362,
+        "2014": 75.258099842445,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 4.89829580923735,
+        "2021": 7.55421362769915,
+        "2017": 43.8108296839638,
+        "2014": 24.7419001575551,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": 75.532827989666,
+        "2021": 60.7884068299188,
+        "2017": 49.7439615040441,
+        "2014": 72.0672847135728,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": 74.2932031659157,
+        "2021": 60.0385559148342,
+        "2017": 37.8574242427942,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": 40.7472418772859,
+        "2021": 39.1809521904255,
+        "2017": 21.6719302470595,
+        "2014": 20.0490660635636,
+        "2011": null
+      }
+    },
+    "IND": {
+      "account.t.d": {
+        "2024": 89.0248224502547,
+        "2021": 77.5291370626274,
+        "2017": 79.8753284971461,
+        "2014": 53.1415500480136,
+        "2011": 35.2318385316409
+      },
+      "account.t.d.1": {
+        "2024": 89.2482328079147,
+        "2021": 77.552612718915,
+        "2017": 76.6396327822793,
+        "2014": 43.1326096683799,
+        "2011": 26.4905002133377
+      },
+      "account.t.d.2": {
+        "2024": 88.8052472379392,
+        "2021": 77.5072324191018,
+        "2017": 83.0089957378931,
+        "2014": 62.7633660713873,
+        "2011": 43.7370735535776
+      },
+      "con1": {
+        "2024": 66.4735530008512,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 54.2993422264873,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 78.4387767422829,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 41.9687442877314,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": 48.4579645683561,
+        "2021": 34.9317299044962,
+        "2017": 28.6926378173926,
+        "2014": 22.2408154552412,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 95.183754576573,
+        "2021": 83.9868566261998,
+        "2017": 45.338400795294,
+        "2014": 47.7851247480912,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 4.81624542342697,
+        "2021": 16.0131433738002,
+        "2017": 54.661599204706,
+        "2014": 52.2148752519088,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": 38.6467659405482,
+        "2021": 23.5476677855107,
+        "2017": 33.5566782430159,
+        "2014": 38.2760407672641,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": 15.1684158839488,
+        "2021": 9.87036738303656,
+        "2017": 2.70083039564412,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": 14.4943733924118,
+        "2021": 11.7806198315268,
+        "2017": 8.14600412294811,
+        "2014": 9.11633111638162,
+        "2011": null
+      }
+    },
+    "ZAF": {
+      "account.t.d": {
+        "2024": 81.1259662052011,
+        "2021": 85.378111952418,
+        "2017": 69.2184941645761,
+        "2014": 70.3174554981439,
+        "2011": 53.6450756317438
+      },
+      "account.t.d.1": {
+        "2024": 80.9924154358395,
+        "2021": 86.1807916848531,
+        "2017": 69.9898100072638,
+        "2014": 70.3621796047968,
+        "2011": 51.0233654425798
+      },
+      "account.t.d.2": {
+        "2024": 81.2787434862317,
+        "2021": 84.5623928616066,
+        "2017": 68.3953270719118,
+        "2014": 70.2676028219972,
+        "2011": 56.3800355322416
+      },
+      "con1": {
+        "2024": 86.9732627120313,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 88.1778045025538,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 85.5953101886312,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 67.5103796489982,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": 67.1721775440991,
+        "2021": 80.8057747566285,
+        "2017": 60.107091504045,
+        "2014": 65.7682191067576,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 68.2040882668341,
+        "2021": 75.8449995554811,
+        "2017": 28.6451817774393,
+        "2014": 40.2538276538027,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 31.7959117331658,
+        "2021": 24.1550004445189,
+        "2017": 71.3548182225608,
+        "2014": 59.7461723461973,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": 53.4028526247774,
+        "2021": 62.2913556235407,
+        "2017": 59.3297297376042,
+        "2014": 66.3642859333145,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": 20.8100487221205,
+        "2021": 27.6136557776129,
+        "2017": 10.1248959063959,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": 12.3502420599932,
+        "2021": 18.2124322043513,
+        "2017": 13.5039677120329,
+        "2014": 18.907406211775,
+        "2011": null
+      }
+    },
+    "MEX": {
+      "account.t.d": {
+        "2024": 53.0320833316729,
+        "2021": null,
+        "2017": 36.0417666941178,
+        "2014": 39.1408431572041,
+        "2011": 27.4293831561048
+      },
+      "account.t.d.1": {
+        "2024": 47.4017009910959,
+        "2021": null,
+        "2017": 32.8661862616389,
+        "2014": 38.8981842866508,
+        "2011": 21.9658799677223
+      },
+      "account.t.d.2": {
+        "2024": 59.1387643464686,
+        "2021": null,
+        "2017": 39.5818529586562,
+        "2014": 39.4000760623419,
+        "2011": 33.1920930160886
+      },
+      "con1": {
+        "2024": 83.262550312035,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 81.8863773550988,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 84.7551397599368,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 64.5087436459905,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": 41.3942010922307,
+        "2021": null,
+        "2017": 31.0371126041139,
+        "2014": 34.5472153454467,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 92.5130245427112,
+        "2021": null,
+        "2017": 25.4456072294643,
+        "2014": 47.5816675763169,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 7.48697545728882,
+        "2021": null,
+        "2017": 74.5543927705356,
+        "2014": 52.4183324236831,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": 48.3414025531199,
+        "2021": null,
+        "2017": 39.8746185320367,
+        "2014": 58.3820777274016,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": 17.3743197102634,
+        "2021": null,
+        "2017": 8.93303389949052,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": 14.8405890779026,
+        "2021": null,
+        "2017": 11.6727653097762,
+        "2014": 18.2875496637096,
+        "2011": null
+      }
+    },
+    "BRA": {
+      "account.t.d": {
+        "2024": 86.3811782311541,
+        "2021": 84.0357458977852,
+        "2017": 70.0439481477435,
+        "2014": 68.123158518616,
+        "2011": 55.860384771673
+      },
+      "account.t.d.1": {
+        "2024": 82.2763902255203,
+        "2021": 80.8668081422269,
+        "2017": 67.5146495479498,
+        "2014": 64.7733123964089,
+        "2011": 51.0178475183944
+      },
+      "account.t.d.2": {
+        "2024": 90.853585329865,
+        "2021": 87.0474203748402,
+        "2017": 72.847544446556,
+        "2014": 71.6884249453533,
+        "2011": 61.0977359193099
+      },
+      "con1": {
+        "2024": 92.0532857544974,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 91.9290651943913,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 92.1886313348445,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 71.755760554717,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": 77.3629526226757,
+        "2021": 76.5156576066863,
+        "2017": 57.8598131115031,
+        "2014": 58.9885011971905,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 92.0183854009521,
+        "2021": 91.8794518390638,
+        "2017": 45.6126921948413,
+        "2014": 35.4750780328195,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 7.98161459904787,
+        "2021": 8.12054816093625,
+        "2017": 54.3873078051587,
+        "2014": 64.5249219671805,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": 46.7473184324535,
+        "2021": 46.2406479297613,
+        "2017": 32.494730526808,
+        "2014": 27.9722786403952,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": 54.7830275033222,
+        "2021": 42.6332657849985,
+        "2017": 11.2717422162459,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": 45.9230137622557,
+        "2021": 40.7479345614052,
+        "2017": 26.2928699499509,
+        "2014": 33.7942616642314,
+        "2011": null
+      }
+    },
+    "GBR": {
+      "account.t.d": {
+        "2024": 99.2843092777584,
+        "2021": 99.7632738299911,
+        "2017": 96.366318852125,
+        "2014": 98.9310547976756,
+        "2011": 97.201284899645
+      },
+      "account.t.d.1": {
+        "2024": 99.2689870562959,
+        "2021": 99.9090517704621,
+        "2017": 96.0734367415868,
+        "2014": 98.6527309133106,
+        "2011": 97.651985620265
+      },
+      "account.t.d.2": {
+        "2024": 99.3005630735761,
+        "2021": 99.6127612541258,
+        "2017": 96.6740866065722,
+        "2014": 99.2217005433475,
+        "2011": 96.7070356040732
+      },
+      "con1": {
+        "2024": 91.7809314624709,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.1": {
+        "2024": 93.2309266431341,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con1.2": {
+        "2024": 90.2427781561243,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "con9a": {
+        "2024": 85.441884051974,
+        "2021": null,
+        "2017": null,
+        "2014": null,
+        "2011": null
+      },
+      "g20.any": {
+        "2024": null,
+        "2021": 99.1693969813959,
+        "2017": 95.6050462891251,
+        "2014": 97.1211167994435,
+        "2011": null
+      },
+      "fin24aP": {
+        "2024": 0,
+        "2021": 92.1954024324476,
+        "2017": 78.5388836918217,
+        "2014": 76.94819658214,
+        "2011": null
+      },
+      "fin24aN": {
+        "2024": 0,
+        "2021": 7.80459756755236,
+        "2017": 21.4611163081783,
+        "2014": 23.05180341786,
+        "2011": null
+      },
+      "save.any.t.d": {
+        "2024": null,
+        "2021": 81.7614129391173,
+        "2017": 73.9541328567749,
+        "2014": 71.2824583889315,
+        "2011": null
+      },
+      "fin26a": {
+        "2024": null,
+        "2021": 52.3808772373803,
+        "2017": 61.7013560808934,
+        "2014": null,
+        "2011": null
+      },
+      "fin22a": {
+        "2024": null,
+        "2021": 54.9742236670152,
+        "2017": 64.7493719571175,
+        "2014": 62.3644536209921,
+        "2011": null
+      }
+    }
+  },
+  "catalog_url": "https://api.worldbank.org/v2/indicator?format=json&per_page=2000&source=14",
+  "catalog_hash": "sha256:2ac0136c16de258ac72abacf0275a58cd350936a5a6a88aebe0fb4d54adb9b5c"
+}

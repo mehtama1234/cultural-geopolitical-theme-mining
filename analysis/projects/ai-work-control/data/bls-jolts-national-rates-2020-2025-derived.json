@@ -1,0 +1,61 @@
+{
+  "format": "bls-jolts-annual-rate-derivation-v1",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "request": {
+    "seriesid": [
+      "JTS000000000000000JOR",
+      "JTS000000000000000HIR",
+      "JTS000000000000000QUR",
+      "JTS000000000000000LDR",
+      "JTS000000000000000TSR"
+    ],
+    "startyear": "2020",
+    "endyear": "2025"
+  },
+  "raw_response_sha256": "07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+  "annual_mean_of_monthly_rates_percent": {
+    "2020": {
+      "job_openings_rate": 4.2833,
+      "hires_rate": 4.2583,
+      "quits_rate": 2.0833,
+      "layoffs_and_discharges_rate": 2.4,
+      "total_separations_rate": 4.7333
+    },
+    "2021": {
+      "job_openings_rate": 6.375,
+      "hires_rate": 4.3417,
+      "quits_rate": 2.7083,
+      "layoffs_and_discharges_rate": 0.9667,
+      "total_separations_rate": 3.9083
+    },
+    "2022": {
+      "job_openings_rate": 6.85,
+      "hires_rate": 4.2,
+      "quits_rate": 2.7583,
+      "layoffs_and_discharges_rate": 0.9583,
+      "total_separations_rate": 3.9583
+    },
+    "2023": {
+      "job_openings_rate": 5.625,
+      "hires_rate": 3.7583,
+      "quits_rate": 2.3667,
+      "layoffs_and_discharges_rate": 1.0667,
+      "total_separations_rate": 3.6333
+    },
+    "2024": {
+      "job_openings_rate": 4.65,
+      "hires_rate": 3.4167,
+      "quits_rate": 2.0667,
+      "layoffs_and_discharges_rate": 1.0583,
+      "total_separations_rate": 3.3333
+    },
+    "2025": {
+      "job_openings_rate": 4.275,
+      "hires_rate": 3.3167,
+      "quits_rate": 2.0167,
+      "layoffs_and_discharges_rate": 1.1167,
+      "total_separations_rate": 3.2917
+    }
+  },
+  "method": "Arithmetic mean of the twelve monthly, seasonally adjusted national JOLTS rates returned for each calendar year; no annual rate is interpreted as a stock or individual transition probability."
+}

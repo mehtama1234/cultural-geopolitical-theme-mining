@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-anes-immigration-meaning-action-2024",
+  "title": "Immigration judgments are multidimensional and politically aligned without becoming one attitude",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "public_systems_feedback", "housing_place_mobility"],
+  "source_unit": "ANES 2024 Time Series Study post-election respondent with complex-design weighted cross-tabs",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; desired immigration level by perceived economic meaning",
+      "denominator": {"value": 4685, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"extremely_good_for_economy_and_increase_a_lot": {"value": 17.6, "unit": "row percent", "value_type": "share"}, "extremely_good_for_economy_and_same": {"value": 49.1, "unit": "row percent", "value_type": "share"}, "extremely_bad_for_economy_and_decrease_a_lot": {"value": 73.0, "unit": "row percent", "value_type": "share"}, "standard_error_extremely_bad_decrease_a_lot": {"value": 4.44, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab using ANES 2024 post-election weight V240107b, complex stratified-cluster Taylor-series standard errors, and V242227 desired immigration level.",
+      "uncertainty": "Descriptive cross-tab with complex-design standard errors; no regression, causal timing, measured local economic exposure, or multiple-comparison correction is claimed.",
+      "subgroup": "Rows defined by perceived economic effect of immigrants; pooled post-election respondents.",
+      "counterinterpretation": "Economic evaluations and desired immigration level may reflect prior party identity, ideology, information, or other beliefs rather than measured local economic conditions.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    },
+    {
+      "period": "2024; desired immigration level by perceived job competition",
+      "denominator": {"value": 4697, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"extremely_likely_job_competition_and_decrease_a_lot": {"value": 53.5, "unit": "row percent", "value_type": "share"}, "not_at_all_likely_job_competition_and_increase_a_lot": {"value": 11.8, "unit": "row percent", "value_type": "share"}, "standard_error_extremely_likely_decrease_a_lot": {"value": 2.63, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab using ANES 2024 post-election weight V240107b and complex-design Taylor-series standard errors.",
+      "uncertainty": "Perceived labor competition is not a labor-market estimate; cross-tab direction and magnitude do not establish a causal economic pathway.",
+      "subgroup": "Rows defined by perceived likelihood that recent immigration takes jobs from people already here.",
+      "counterinterpretation": "Respondents can oppose immigration based on perceived distributional harm without the survey measuring their wages, occupation, local competition, or actual labor-market exposure.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    },
+    {
+      "period": "2024; desired immigration level by conditional citizenship pathway",
+      "denominator": {"value": 4692, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"favor_citizenship_path_and_same_level": {"value": 41.9, "unit": "row percent", "value_type": "share"}, "favor_citizenship_path_and_decrease_a_lot": {"value": 15.8, "unit": "row percent", "value_type": "share"}, "oppose_citizenship_path_and_decrease_a_lot": {"value": 49.3, "unit": "row percent", "value_type": "share"}, "standard_error_favor_path_same": {"value": 1.24, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab using ANES 2024 post-election weight V240107b and complex-design Taylor-series standard errors.",
+      "uncertainty": "Legal inclusion and desired immigration scale are separate items with different missingness; the result is descriptive and not a policy-effect estimate.",
+      "subgroup": "Rows defined by favor, oppose, or neither for a conditional citizenship pathway for unauthorized immigrants.",
+      "counterinterpretation": "A respondent can favor legal inclusion while preferring no increase or a decrease in immigration levels; one policy response cannot stand in for a general cultural camp.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    },
+    {
+      "period": "2024; desired immigration level by reported presidential vote",
+      "denominator": {"value": 3654, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"reported_harris_and_increase_a_lot": {"value": 9.2, "unit": "row percent", "value_type": "share"}, "reported_harris_and_same": {"value": 47.4, "unit": "row percent", "value_type": "share"}, "reported_trump_and_decrease_a_lot": {"value": 43.3, "unit": "row percent", "value_type": "share"}, "standard_error_reported_trump_decrease_a_lot": {"value": 1.84, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab using ANES 2024 post-election weight V240107b and complex-design Taylor-series standard errors; candidate rows are reported vote categories retained as action measures.",
+      "uncertainty": "The vote table has substantial missingness and excludes other candidate reports; reported vote is not a causal immigration effect or complete political-action measure.",
+      "subgroup": "Rows defined by reported presidential candidate choice among valid reports.",
+      "counterinterpretation": "Party identity, ideology, race, religion, media, candidate evaluation, and other issues may jointly structure both immigration preference and vote.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    },
+    {
+      "period": "2024; desired immigration level by federal-government trust",
+      "denominator": {"value": 4882, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"decrease_a_lot_and_trust_some_of_time": {"value": 43.9, "unit": "row percent", "value_type": "share"}, "decrease_a_lot_and_never_trust": {"value": 25.6, "unit": "row percent", "value_type": "share"}, "increase_a_lot_and_trust_some_of_time": {"value": 36.0, "unit": "row percent", "value_type": "share"}, "standard_error_decrease_a_lot_some": {"value": 1.91, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab using ANES 2024 post-election weight V240107b and complex-design Taylor-series standard errors.",
+      "uncertainty": "General federal-government trust is not immigration-specific trust; cross-tab ordering cannot identify whether trust shaped policy preference or the reverse.",
+      "subgroup": "Rows defined by desired immigration level; columns defined by frequency of trusting the federal government.",
+      "counterinterpretation": "Prior identity, information, ideology, and perceived government competence may jointly produce both trust and immigration judgments.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full",
+      "retrieval_hash": "sha256:b36b76cd0a57bb268eaa91bad95268e7adaf2f8cfe876ef6c425ded104ea2bd1",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a complex-design weighted descriptive ANES 2024 respondent record. It preserves separate economic, job-competition, legal-inclusion, vote, and trust cross-tabs with valid denominators and selected standard errors. It does not establish local exposure, causal direction, a latent pro/anti-immigration scale, or that immigration attitudes caused the reported vote. The retrieval hash covers the committed SDA cross-tab memo."
+}

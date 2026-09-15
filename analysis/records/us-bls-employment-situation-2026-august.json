@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-employment-situation-2026-august",
+  "title": "August 2026 labor-market conditions combine steady unemployment with uneven establishment growth",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "BLS August 2026 Employment Situation: Current Population Survey household measures and Current Employment Statistics establishment measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "August 2026; August establishment estimate preliminary",
+      "denominator": {"value": null, "unit": "total nonfarm establishment payroll jobs, not unique workers; exact level not used in this release extraction", "value_type": "not_disclosed"},
+      "measures": {"total_nonfarm_payroll_change": {"value": 162, "unit": "thousands of jobs, change from July 2026", "value_type": "reported_change"}, "three_month_average_change": {"value": 71, "unit": "thousands of jobs, June–August 2026 average monthly change", "value_type": "reported_change"}},
+      "method": "BLS seasonally adjusted Current Employment Statistics estimate from the August 2026 Employment Situation release.",
+      "uncertainty": "August is preliminary and the establishment series is revised; payroll jobs are not unique people and the survey does not identify job quality, control, or AI exposure.",
+      "subgroup": "Total nonfarm establishments; no worker demographic, occupation, or firm-size subgroup.",
+      "counterinterpretation": "A positive payroll change can coexist with weak worker bargaining power, unequal access to jobs, involuntary part-time work, or poor job quality.",
+      "source_url": "https://www.bls.gov/news.release/empsit.b.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    },
+    {
+      "period": "August 2026",
+      "denominator": {"value": 169777, "unit": "thousands of civilian labor force participants age 16 and over, CPS household survey", "value_type": "labor_force_denominator"},
+      "measures": {"unemployment_rate": {"value": 4.1, "unit": "percent, seasonally adjusted", "value_type": "reported_rate"}, "unemployed_people": {"value": 7000, "unit": "thousands of people, seasonally adjusted", "value_type": "reported_count"}},
+      "method": "BLS seasonally adjusted Current Population Survey household estimate.",
+      "uncertainty": "The measure identifies people without a job who meet BLS unemployment criteria; it does not measure underemployment, job quality, control, or all people who want work.",
+      "subgroup": "All civilians age 16 and over in the CPS labor-force denominator; selected race, age, sex, and education subgroup rates are published separately.",
+      "counterinterpretation": "An unchanged unemployment rate can conceal shifts in participation, long-term unemployment, involuntary part-time work, or uneven conditions across groups and places.",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    },
+    {
+      "period": "August 2026",
+      "denominator": {"value": 275415, "unit": "thousands of civilian noninstitutional population age 16 and over, CPS household survey", "value_type": "population_denominator"},
+      "measures": {"labor_force_participation_rate": {"value": 61.6, "unit": "percent, seasonally adjusted", "value_type": "reported_rate"}, "employment_population_ratio": {"value": 59.1, "unit": "percent, seasonally adjusted", "value_type": "reported_rate"}},
+      "method": "BLS seasonally adjusted Current Population Survey household estimate.",
+      "uncertainty": "Participation and employment-population ratios are population rates, not measures of schedule control, pay adequacy, worker voice, or household security.",
+      "subgroup": "All civilians age 16 and over; the release reports separate demographic tables.",
+      "counterinterpretation": "Participation can move for demographic, schooling, care, health, retirement, migration, or discouraged-worker reasons; it should not be read as a single labor-demand signal.",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    },
+    {
+      "period": "August 2026; July and August establishment estimates preliminary where marked",
+      "denominator": {"value": null, "unit": "private nonfarm establishment-survey employees/jobs; exact level not used in this release extraction", "value_type": "not_disclosed"},
+      "measures": {"average_hourly_earnings": {"value": 37.75, "unit": "US dollars per hour, seasonally adjusted", "value_type": "reported_level"}, "month_over_month_earnings_change": {"value": 0.3, "unit": "percent", "value_type": "reported_change"}, "year_over_year_earnings_change": {"value": 3.1, "unit": "percent", "value_type": "reported_change"}, "average_weekly_hours": {"value": 34.4, "unit": "hours per week, seasonally adjusted", "value_type": "reported_level"}, "average_weekly_earnings": {"value": 1298.60, "unit": "US dollars per week, seasonally adjusted", "value_type": "reported_level"}},
+      "method": "BLS seasonally adjusted Current Employment Statistics hours-and-earnings estimates for all employees on private nonfarm payrolls.",
+      "uncertainty": "Average earnings are not a worker panel or real-wage measure and do not reveal distribution, benefits, hours across individuals, job security, monitoring, discretion, or bargaining.",
+      "subgroup": "All employees on private nonfarm payrolls; production and nonsupervisory employees and industry sectors are reported separately.",
+      "counterinterpretation": "Nominal average pay can rise while purchasing power, hours, benefits, stability, or control worsen; composition and premium-pay changes can move the aggregate.",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    },
+    {
+      "period": "August 2026; seasonally adjusted over-the-month establishment changes",
+      "denominator": {"value": null, "unit": "establishment-survey payroll jobs by selected industry; exact industry levels not used in this release extraction", "value_type": "not_disclosed"},
+      "measures": {"information": {"value": -23, "unit": "thousands of jobs", "value_type": "reported_change"}, "financial_activities": {"value": -11, "unit": "thousands of jobs", "value_type": "reported_change"}, "health_care_and_social_assistance": {"value": 28.4, "unit": "thousands of jobs", "value_type": "reported_change"}, "leisure_and_hospitality": {"value": 62, "unit": "thousands of jobs", "value_type": "reported_change"}, "manufacturing": {"value": 16, "unit": "thousands of jobs", "value_type": "reported_change"}},
+      "method": "BLS seasonally adjusted CES selected-industry payroll changes from Summary table B.",
+      "uncertainty": "Industry changes are preliminary where marked and do not show worker transitions, hours, pay distribution, AI exposure, or whether jobs are new, retained, or filled by different workers.",
+      "subgroup": "Selected private industries; no occupation, worker demographic, establishment-size, union, or geography subgroup in this observation.",
+      "counterinterpretation": "A sector increase or decrease can reflect seasonality, sampling and benchmark revisions, industry composition, churn, or reclassification rather than a uniform experience for workers in that sector.",
+      "source_url": "https://www.bls.gov/news.release/empsit.b.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    },
+    {
+      "period": "August 2026",
+      "denominator": {"value": 7000, "unit": "thousands of unemployed people, CPS seasonally adjusted", "value_type": "unemployed_denominator"},
+      "measures": {"long_term_unemployed": {"value": 1900, "unit": "thousands of people unemployed 27 weeks or more", "value_type": "reported_count"}, "long_term_share_of_unemployed": {"value": 27.0, "unit": "percent", "value_type": "reported_rate"}},
+      "method": "BLS seasonally adjusted Current Population Survey duration-of-unemployment estimate.",
+      "uncertainty": "Duration is not a measure of cumulative financial loss, benefit receipt, household coping, or future job quality; the August estimate can change with later revisions.",
+      "subgroup": "Unemployed people age 16 and over; demographic and prior-industry cuts are available in separate tables.",
+      "counterinterpretation": "Long-term unemployment can have different meanings across age, occupation, health, place, household support, and prior industry; the aggregate share does not identify the mechanism.",
+      "source_url": "https://www.bls.gov/news.release/empsit.htm",
+      "retrieval_hash": "sha256:1c3d438d64d43e386e08d6249525fccd27af17f5e221476a712e03b906b9aeb8",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.bls.gov/timeseries/JTS000000000000000JOR", "claim": "JOLTS supplies a separate establishment-based openings context through July 2026.", "status": "official-comparison-context"},
+    {"source_url": "https://data.bls.gov/timeseries/CES3000000003", "claim": "CES series pages supply selected-industry average-hourly-earnings context through August 2026.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This record places CPS labor-force conditions beside CES payroll, hours, earnings, and industry changes. The household and establishment surveys have different universes; the observations do not identify the same workers, a worker-level causal effect, AI exposure, bargaining power, job quality, household security, or political response. August is a current preliminary publication vintage and should be revisited after revisions."
+}

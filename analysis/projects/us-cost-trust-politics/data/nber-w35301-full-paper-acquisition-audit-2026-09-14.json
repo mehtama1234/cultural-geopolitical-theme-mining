@@ -1,0 +1,43 @@
+{
+  "audit_type": "nber-full-paper-acquisition-audit-v1",
+  "paper": "NBER Working Paper 35301, Do Voters Punish Inflation or Pay Cuts? Inflation and Real Wages in U.S. Elections",
+  "official_metadata_url": "https://www.nber.org/papers/w35301",
+  "nber_pdf_route": "https://www.nber.org/system/files/working_papers/w35301/w35301.pdf",
+  "nber_pdf_status": "HTTP 403 Cloudflare/access page in the current environment",
+  "alternate_author_pdf": "https://ftrebbi.com/research/InflationPocketvotingUS.pdf",
+  "alternate_author_pdf_sha256": "sha256:dae8990a05d2d9da6dda97cac322d99cc673db0808a291553b12975724a9a274",
+  "alternate_author_pdf_pages": 94,
+  "paper_version": "May 28, 2026 version shown in the acquired author PDF",
+  "design": {
+    "primary_unit": "county",
+    "county_sample": 3102,
+    "county_period": "2020 and 2024 presidential elections; 2021 to 2024 local cost and wage changes",
+    "price_source": "Economic Policy Institute Family Budget Calculator, seven categories; county cost-of-living measure rather than a fixed CPI basket",
+    "wage_source": "BLS Quarterly Census of Employment and Wages covered wages and average pay",
+    "election_source": "MIT Election Data and Science Lab county returns",
+    "controls": "Census/ACS, USDA, and BEA socioeconomic controls; urbanization, density, age, education, real GDP, and demographic composition",
+    "inference": "heteroskedasticity-robust standard errors and 100-replication state-cluster block bootstrap standard errors",
+    "fixed_effects": "state fixed effects"
+  },
+  "preferred_total_gap_results": {
+    "republican_vote_share_change": {"real_wage_growth_coefficient": -0.0517, "robust_se": 0.0208, "bootstrap_se": 0.0311, "observations": 3102},
+    "republican_vote_margin_change": {"real_wage_growth_coefficient": -0.0477, "robust_se": 0.0181, "bootstrap_se": 0.0248, "observations": 3102},
+    "presidential_turnout_change": {"real_wage_growth_coefficient": 0.0987, "robust_se": 0.0489, "bootstrap_se": 0.0618, "observations": 3102},
+    "republican_vote_share_inflation_coefficient": {"value": -0.1205, "robust_se": 0.0275, "bootstrap_se": 0.0386, "observations": 3102},
+    "presidential_turnout_inflation_coefficient": {"value": 0.0703, "robust_se": 0.0406, "bootstrap_se": 0.0516, "observations": 3102}
+  },
+  "district_check": {
+    "all_districts_turnout_observations": 1257,
+    "competitive_district_turnout_observations": 227,
+    "safe_district_turnout_observations": 1030,
+    "competitive_definition": "absolute two-party Republican margin below 10 percentage points in the 2020 House race",
+    "boundary": "competitive-district estimates are small and imprecise; district aggregation adds measurement error"
+  },
+  "audit_notes": [
+    "The paper explicitly states that county-level results cannot identify individual voter behavior and may reflect compositional changes in the electorate.",
+    "The EPI Family Budget Calculator is a cost-of-living measure for a defined family structure, not a direct household expenditure panel.",
+    "The preferred regression is descriptive conditional on state effects and controls; the paper discusses the need for additional design elements to identify shocks.",
+    "The author PDF was acquired for method/table audit; no paper replication code or county microdata were added to the repository."
+  ],
+  "checked": "2026-09-14"
+}

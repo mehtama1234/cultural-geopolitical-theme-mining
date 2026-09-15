@@ -1,0 +1,21 @@
+{
+  "format": "wbns-39691-catalog-metadata-v1",
+  "study_id": "ICPSR 39691",
+  "title": "Well-Being and Basic Needs Survey, United States, 2024",
+  "version": "V1",
+  "version_date": "2026-06-04",
+  "collection_period": "2024-12",
+  "geography": "United States",
+  "unit": "individual",
+  "universe": "household population ages 18-64",
+  "design": "cross-sectional, web-based survey using a stratified random sample from the probability-based KnowledgePanel",
+  "approximate_sample": 7500,
+  "weighting": "KnowledgePanel selection probability and post-stratification to CPS/ACS benchmarks for age by gender, race/ethnicity, education, children, region, metro status, homeownership, family income/FPL, family composition, primary language, and internet access by age",
+  "response_rate_note": "ICPSR describes the cumulative response rate as roughly 3–4% each round",
+  "topics": ["SNAP", "food security", "housing", "employment", "income", "financial security", "health", "disability", "discrimination"],
+  "route_fields_to_verify": ["Q53A", "Q110", "Q110A", "Q110B", "Q110C", "Q54", "Q54N", "Q54O", "Q54P", "Q54Q", "Q54R"],
+  "catalog_status": "ICPSR search lists the study as curated, partially restricted, and with simple-crosstab/online-analysis availability; data-file access in the current workspace remains unauthenticated",
+  "official_study_url": "https://www.icpsr.umich.edu/web/HMCA/studies/39691/versions/V1",
+  "access_guidance_url": "https://www.icpsr.umich.edu/sites/hmca/find-data",
+  "evidence_boundary": "Catalog metadata verifies study identity, design, universe, weighting, and topic coverage. It does not verify that the current workspace can retrieve the respondent file, that the mapped route fields are present in the public-use file, or that any route/outcome cross-tab has been computed."
+}

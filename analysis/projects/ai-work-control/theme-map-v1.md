@@ -82,6 +82,15 @@ Owning or buying a frontier model is only one layer of capability. Local languag
 
 Cloud migration and data-centre investment may expand public and private capacity while creating new commitments to operators, equipment, contracts, and power systems. The test is whether local skills, data control, provider choice, and public oversight grow with the asset. [Finding 014](findings/ai-work-control-014.md)
 
+### 16. Adoption is broad, but shallow and uneven within work
+
+Generative AI is spreading across occupations and tasks, but fewer than half of
+workers adopt within most comparable occupation/task groups. Field experiments
+also show that access can save time or raise productivity without automatically
+changing task composition. The next question is whether organizational rules
+turn uneven access into differences in discretion, evaluation, pay, status, and
+trust. [Finding 015](findings/ai-work-control-015.md)
+
 ### 10. Workplace rules become a cross-border power issue
 
 Large platforms supply the infrastructure, identity, data, and governance layers used across countries. The European Commission describes cross-border platform work as raising questions of transparency, human oversight, safety, accountability, and access to information; its Platform Work Directive entered into force in December 2024 and must be transposed by Member States by December 2026. [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en)

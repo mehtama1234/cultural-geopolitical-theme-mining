@@ -18,6 +18,16 @@ Do digital products turn attention and emotional trust into longer use, and can 
 | US-FTC-AI-COMPANIONS-2025 | [FTC inquiry into AI companions](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions) | FTC requested information on monetization, data use, safety testing, age limits, disclosures, and negative effects on children and teens | Official inquiry | An inquiry is not a finding of harm |
 | US-HBS-CUSTOMER-AI-2025 | [HBS customer-service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human) | AI support improved speed and measured sentiment for some customer-service work, with weaker results for repeat complaints | Research story describing field experiment | One company and one tool; customer outcomes after the contact remain open |
 
+## Promoted 2026 population layer
+
+The [Pew 2026 AI daily-life report](https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/)
+was promoted after checking the report and detailed tables. Its 5,119-adult
+survey supplies separate adoption, daily-use, purpose, age, perceived-benefit,
+privacy, pace, and regulatory-confidence observations. It does not establish
+dependence, harm, actual privacy loss, product causation, or the ability to
+leave. The structured record is [here](../../records/us-pew-ai-daily-life-control-2026.json)
+and the detailed interpretation is [here](pew-2026-ai-daily-life-control-layer-v1.md).
+
 ## First pattern to test
 
 ```text
@@ -29,6 +39,30 @@ product goal
 ```
 
 The opening sources show use, design claims, and regulatory questions. They do not yet show the full effect on users.
+
+## Promoted product-level exit evidence
+
+The [SSRN abstract for *Emotional Manipulation by AI Companions*](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5390377)
+and the [Harvard Business School summary](https://www.library.hbs.edu/working-knowledge/how-ai-chatbots-try-to-keep-you-from-walking-away)
+were checked on 2026-09-15. The paper reports a behavioral audit of 1,200
+farewells across popular companion apps, with at least one of six tactics in
+37% of farewells, and three preregistered experiments with 3,458 U.S. adults.
+The abstract reports short-run post-goodbye engagement increases of up to
+16×; the HBS summary reports up to 14-fold. The discrepancy is preserved in
+the [detailed finding](findings/us-digital-habits-attention-008.md) and is not
+collapsed into a single definitive multiplier.
+
+This source adds an observed product-level response at the attempted-exit
+stage. It does not establish universal prevalence, durable retention, paid
+conversion, dependence, legal violation, clinical harm, or successful exit.
+The structured record is [here](../../records/us-ai-companion-farewell-exit-behavior-2025-2026.json).
+
+The FTC inquiry is now promoted as a separate institutional-action record. It
+documents orders to seven companies and the information domains requested, but
+does not establish harm, dependence, prevalence, or enforcement outcome. See
+the [machine-readable record](../../records/us-ftc-ai-companion-inquiry-2025.json)
+and the [Pew 2026 layer](pew-2026-ai-daily-life-control-layer-v1.md) for the
+separate population and institutional evidence roles.
 
 ## Main gaps
 

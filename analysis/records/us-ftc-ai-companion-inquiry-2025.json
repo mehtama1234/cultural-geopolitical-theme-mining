@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-ai-companion-inquiry-2025",
+  "title": "The FTC opened an information-gathering response to AI companion risks without establishing harm",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "Federal Trade Commission Section 6(b) inquiry orders to seven AI companion chatbot companies",
+  "geography": "United States federal consumer-protection institution; companies and users are not a population sample",
+  "observations": [
+    {
+      "period": "September 11, 2025; FTC AI companion inquiry launch",
+      "denominator": {"value": 7, "unit": "companies receiving FTC Section 6(b) orders", "value_type": "institutional_action_count"},
+      "measures": {
+        "companies_ordered": {"value": 7, "unit": "companies", "value_type": "reported_count"},
+        "information_domains_requested": {"value": "monetization, data use, safety testing, age limits, disclosures, and effects on children and teens", "unit": "inquiry domains", "value_type": "reported_inventory"},
+        "action_type": {"value": "information-gathering inquiry", "unit": "FTC Section 6(b) action", "value_type": "institutional_action"}
+      },
+      "method": "Official FTC press release describing orders issued to seven companies and the information requested about consumer-facing AI chatbots acting as companions.",
+      "uncertainty": "An inquiry is not a finding of violation, prevalence, causation, or harm. The press release does not provide company-level responses, user denominators, outcome rates, or a completed enforcement decision.",
+      "subgroup": "Children and teens are a stated risk focus; the inquiry also concerns general users of consumer-facing AI companions.",
+      "counterinterpretation": "The agency may be testing governance and disclosure questions before concluding that products cause harm; scrutiny alone does not establish that users formed relationships or lost practical control.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions",
+      "retrieval_hash": "sha256:9ee1a366a26ffe5fae02a071009bec09a10eddd9a98aa19c762665863cdccda1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/", "claim": "Pew supplies a separate population baseline for chatbot use, emotional support, companionship, privacy concern, and perceived control.", "status": "reported", "access_boundary": "The Pew survey and FTC inquiry use different units and cannot be pooled into a harm or dependence rate."}
+  ],
+  "boundary": "This record captures a federal institutional response to the possibility that AI chatbots may act as companions and create consumer or child-safety risks. It does not establish actual harm, dependence, manipulation, data misuse, regulatory effectiveness, or a completed remedy. It should be connected to company responses, product terms, user outcomes, complaints, and any later FTC action only after those records are obtained."
+}

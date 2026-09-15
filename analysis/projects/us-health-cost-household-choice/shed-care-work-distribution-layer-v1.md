@@ -77,6 +77,9 @@ PYTHONPATH=scripts python3 scripts/analyze_shed_care_work_distribution.py \
 
 The analysis uses the official [Federal Reserve SHED data release](https://www.federalreserve.gov/consumerscommunities/shed_data.htm). Raw files and generated JSON are not committed.
 
+The bounded results are preserved in the [machine-readable trend record](../../records/us-shed-care-work-adaptation-2024.json)
+for the shared registry and theme-coverage builds.
+
 Related: [SHED 2024 care/health adaptation layer](shed-2024-care-health-adaptation-layer-v1.md),
 [2025 care/health adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md),
 and the [aging, care, and social-capacity bridge](../us-aging-care-strain/aging-care-system-capacity-bridge-v1.md).

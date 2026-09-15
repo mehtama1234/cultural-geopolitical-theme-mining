@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-food-pressure-adaptation-2024-2025",
+  "title": "Food insufficiency remains income-graded while households adapt to price pressure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "SHED adult respondent reporting on household food, family income, price effects, and coping actions",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; prior-month food insufficiency",
+      "denominator": {"value": 100, "unit": "published percentage base among adults"},
+      "measures": {"household_food_insufficiency": {"value": 7, "unit": "percent of adults", "value_type": "share"}, "marginal_food_sufficiency": {"value": 27, "unit": "percent of adults", "value_type": "share"}},
+      "method": "Federal Reserve SHED 2024 published table/report estimate; food insufficiency means household members sometimes or often did not have enough to eat in the prior month.",
+      "uncertainty": "Published rounded survey estimates; the reference period differs from USDA's annual food-security measure and no interval is reproduced in this record.",
+      "subgroup": "All adults reporting on household food sufficiency.",
+      "counterinterpretation": "A one-month household report is not the USDA annual food-security classification and does not identify the cause or response sequence.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-us-households-in-2024-income-and-expenses.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    },
+    {
+      "period": "2025; prior-month food insufficiency",
+      "denominator": {"value": 100, "unit": "published percentage base among adults"},
+      "measures": {"household_food_insufficiency": {"value": 8, "unit": "percent of adults", "value_type": "share"}, "price_changes_worsened_financial_situation": {"value": 58, "unit": "percent of adults", "value_type": "share"}, "did_not_pay_all_bills_in_full": {"value": 16, "unit": "percent of adults", "value_type": "share"}},
+      "method": "Federal Reserve SHED 2025 published report estimates; food and bill measures refer to the prior month, while price effects refer to changes in prices paid compared with the prior year.",
+      "uncertainty": "Published rounded survey estimates; food insufficiency, bill payment, and price-effect measures have different reference periods and are not a same-respondent causal sequence in this record.",
+      "subgroup": "All adults reporting on household hardship and price effects.",
+      "counterinterpretation": "The 2024-to-2025 overall movement is not evidence of a statistically significant trend or of price causation.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; food insufficiency by family income",
+      "denominator": {"value": 100, "unit": "published percentage base within income group"},
+      "measures": {"income_under_25000": {"value": 19, "unit": "percent reporting household food insufficiency", "value_type": "conditional_share"}, "income_100000_or_more": {"value": 2, "unit": "percent reporting household food insufficiency", "value_type": "conditional_share"}},
+      "method": "Federal Reserve SHED 2024 Table 19; income groups are reported family-income categories and the food measure is among adults.",
+      "uncertainty": "Rounded descriptive subgroup estimates; income is reported in ranges and the measure does not establish that income caused food insufficiency.",
+      "subgroup": "Adults with family income below $25,000 versus $100,000 or more.",
+      "counterinterpretation": "Income is a strong conditioning dimension in this table, but household composition, health, access, prices, benefits, and reporting may also differ across groups.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-us-households-in-2024-income-and-expenses.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    },
+    {
+      "period": "2025; food insufficiency by family income",
+      "denominator": {"value": 100, "unit": "published percentage base within income group"},
+      "measures": {"income_under_25000": {"value": 21, "unit": "percent reporting household food insufficiency", "value_type": "conditional_share"}, "income_100000_or_more": {"value": 1, "unit": "percent reporting household food insufficiency", "value_type": "conditional_share"}},
+      "method": "Federal Reserve SHED 2025 Table 21; income groups are reported family-income categories and the food measure is among adults.",
+      "uncertainty": "Rounded descriptive subgroup estimates; the one-year movement in a subgroup is not a causal effect and no interval is reproduced in this record.",
+      "subgroup": "Adults with family income below $25,000 versus $100,000 or more.",
+      "counterinterpretation": "The widening displayed income gradient may reflect composition or sampling variation as well as differences in resources; it cannot be read as a price elasticity.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    },
+    {
+      "period": "2024; actions in response to higher prices",
+      "denominator": {"value": 100, "unit": "published percentage base among adults"},
+      "measures": {"switched_to_cheaper_products": {"value": 63, "unit": "percent of adults", "value_type": "share"}, "used_less_or_stopped_product": {"value": 61, "unit": "percent of adults", "value_type": "share"}, "delayed_major_purchase": {"value": 46, "unit": "percent of adults", "value_type": "share"}, "reduced_savings": {"value": 43, "unit": "percent of adults", "value_type": "share"}, "increased_borrowing": {"value": 16, "unit": "percent of adults", "value_type": "share"}, "worked_more_or_got_another_job": {"value": 18, "unit": "percent of adults", "value_type": "share"}, "took_any_action": {"value": 79, "unit": "percent of adults", "value_type": "share"}},
+      "method": "Federal Reserve SHED 2024 Table 16; respondents could select multiple actions taken in response to higher prices during the prior 12 months.",
+      "uncertainty": "Multiple-response rounded survey estimates; the actions are not food-specific, not ordered in time, and not linked here to a particular household's food-security status.",
+      "subgroup": "All adults reporting actions in response to higher prices.",
+      "counterinterpretation": "Action prevalence shows adaptation, not whether the adaptation protected food, health, care, savings, or political agency.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-economic-well-being-us-households-in-2024-income-and-expenses.htm",
+      "retrieval_hash": "sha256:d286942d845d7d58a90094eee926034a6a82443fe1e9d1198d25b67dbea363ec",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This is a pair of official SHED population snapshots with income conditioning and a price-adaptation layer. It does not merge 2024 and 2025 respondents, identify a household-specific food-price shock, establish food insecurity causation, or measure benefit adequacy, care displacement, health, trust, political action, or recovery. The food question's prior-month reference period differs from USDA's annual food-security measure."
+}

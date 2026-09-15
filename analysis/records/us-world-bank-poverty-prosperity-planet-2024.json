@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-world-bank-poverty-prosperity-planet-2024",
+  "title": "Global poverty reduction has stalled while climate and inequality risks remain geographically concentrated",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "infrastructure_technology_dependency", "geopolitical_state_consequences"],
+  "source_unit": "World Bank global poverty, prosperity, inequality, climate-risk, and data-coverage assessment",
+  "geography": "Global, with regional and country-income-group comparisons",
+  "observations": [
+    {
+      "period": "2024; global poverty estimates",
+      "denominator": {"value": 1, "unit": "global population poverty estimate using World Bank international poverty lines", "value_type": "global_estimate_frame"},
+      "measures": {"extreme_poverty": {"value": 8.5, "unit": "percent of global population living below $2.15 per day; almost 700 million people", "value_type": "estimated_share"}, "poverty_685": {"value": 44, "unit": "percent of global population living below $6.85 per day; around 3.5 billion people", "value_type": "estimated_share"}, "low_income_poverty_direction": {"value": "poverty rates in low-income countries are higher than before the pandemic", "unit": "reported comparison", "value_type": "reported_pattern"}},
+      "method": "World Bank Poverty, Prosperity, and Planet Report 2024 synthesis using household-survey-based global poverty and consumption/income estimates.",
+      "uncertainty": "Global estimates depend on survey coverage, purchasing-power adjustments, poverty-line definitions, interpolation, and country data availability; they are not US household estimates.",
+      "subgroup": "Global population, low-income countries, and the higher $6.85-per-day reference group.",
+      "counterinterpretation": "Aggregate poverty thresholds do not capture multidimensional wellbeing, informal support, public services, or within-country variation.",
+      "source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet",
+      "retrieval_hash": "sha256:4dacd41d28680e1648379898d5730cdc3e18bf10a62ab13c8d748f3e172dd350",
+      "status": "reported"
+    },
+    {
+      "period": "2024 and 2030; regional and fragility concentration",
+      "denominator": {"value": 1, "unit": "global extreme-poverty population and World Bank regional/fragility classifications", "value_type": "global_estimate_frame"},
+      "measures": {"sub_saharan_africa_population_share": {"value": 16, "unit": "percent of world population", "value_type": "reported_share"}, "sub_saharan_africa_extreme_poverty_share": {"value": 67, "unit": "percent of people living in extreme poverty", "value_type": "reported_share"}, "fragile_conflict_affected_extreme_poverty_share": {"value": 75, "unit": "approximately percent of global extreme-poverty population when including fragile/conflict-affected countries", "value_type": "reported_share"}, "extreme_poverty_2030": {"value": 7.3, "unit": "percent of global population projected to remain below $2.15 per day in 2030; 622 million people", "value_type": "projection"}, "poverty_685_2030": {"value": 40, "unit": "nearly percent of global population projected below $6.85 per day in 2030; 3.4 billion people", "value_type": "projection"}},
+      "method": "World Bank report regional concentration and current-trajectory projection; 2030 figures assume the report's baseline trajectory.",
+      "uncertainty": "The projection is scenario-dependent and sensitive to growth, conflict, distribution, population, survey updates, and policy; regional shares do not identify causal mechanisms within countries.",
+      "subgroup": "Sub-Saharan Africa, fragile/conflict-affected countries, and global population under the two poverty lines.",
+      "counterinterpretation": "Regional concentration can coexist with improvement in particular countries or communities; aggregate share is not individual persistence.",
+      "source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet",
+      "retrieval_hash": "sha256:4dacd41d28680e1648379898d5730cdc3e18bf10a62ab13c8d748f3e172dd350",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; shared prosperity and inequality",
+      "denominator": {"value": 1, "unit": "World Bank global prosperity-gap and country inequality assessment", "value_type": "global_estimate_frame"},
+      "measures": {"prosperity_gap": {"value": "progress stalled since the pandemic", "unit": "Global Prosperity Gap relative to $25 per person per day", "value_type": "reported_pattern"}, "high_inequality_population": {"value": 20, "unit": "approximately percent of world population living in countries with high inequality", "value_type": "reported_share"}, "upper_middle_income_years_to_close_gap": {"value": 100, "unit": "years at current growth rates for a typical upper-middle-income country to close the Prosperity Gap", "value_type": "projection"}},
+      "method": "World Bank shared-prosperity framework and cross-country inequality comparison; the Prosperity Gap emphasizes the distance of poorer populations from a $25-per-day threshold.",
+      "uncertainty": "The gap is an aggregate country-level indicator, not a direct measure of mobility, dignity, political trust, or within-country household experience.",
+      "subgroup": "Countries grouped by inequality and income level, with high inequality concentrated in Sub-Saharan Africa and Latin America/Caribbean.",
+      "counterinterpretation": "A country can reduce inequality without reaching the threshold, or grow rapidly while leaving particular groups behind; the indicator does not identify the policy path.",
+      "source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet",
+      "retrieval_hash": "sha256:4dacd41d28680e1648379898d5730cdc3e18bf10a62ab13c8d748f3e172dd350",
+      "status": "reported"
+    },
+    {
+      "period": "2024; climate exposure and poverty-data coverage",
+      "denominator": {"value": 1, "unit": "World Bank global population risk and country household-survey availability frame", "value_type": "global_estimate_frame"},
+      "measures": {"lifetime_extreme_weather_risk": {"value": 20, "unit": "one in five people at risk of an extreme weather event in their lifetime", "value_type": "reported_share"}, "countries_with_recent_poverty_survey": {"value": "less than half", "unit": "share of countries with a household survey available for poverty monitoring in 2020 or later", "value_type": "reported_bound"}, "data_requirements": {"value": "income/consumption distribution, spatial climate-risk exposure, and multidimensional poverty data", "unit": "identified measurement requirements", "value_type": "reported_requirement"}},
+      "method": "World Bank report assessment of climate-risk exposure and the coverage/accessibility of household-survey data for poverty monitoring.",
+      "uncertainty": "Risk and data-coverage measures use different country and population frames; lack of a recent survey is not equivalent to poverty and reported exposure is not realized loss.",
+      "subgroup": "People exposed to extreme weather, countries with and without recent household surveys, and low-/middle-/high-income settings.",
+      "counterinterpretation": "Risk management, public services, social protection, and resilient assets can reduce realized livelihood loss even when hazard exposure is high.",
+      "source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet",
+      "retrieval_hash": "sha256:4dacd41d28680e1648379898d5730cdc3e18bf10a62ab13c8d748f3e172dd350",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://reproducibility.worldbank.org/catalog/168", "claim": "World Bank reproducibility material for poverty and inequality analysis.", "status": "official-reproducibility"}, {"source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet/brief/poverty-prosperity-and-planet-report-2024-figures", "claim": "World Bank overview figures and companion visualizations.", "status": "official-companion"}, {"source_url": "https://data.worldbank.org/", "claim": "Registered World Bank Open Data landing page for country-indicator context and coverage boundaries.", "status": "source-registry-context"}],
+  "boundary": "This record contributes global poverty, shared prosperity, inequality, climate-risk, and data-coverage context to a US-centered comparative atlas. It does not estimate US household poverty, causal conflict effects, climate losses, political unrest, migration, legitimacy, or geopolitical behavior. Poverty thresholds, projections, regional shares, and data-coverage findings remain separate evidence types."
+}

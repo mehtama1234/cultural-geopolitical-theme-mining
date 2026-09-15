@@ -13,6 +13,10 @@
 | DOE-LEAD-HEALTH | [DOE LEAD tool](https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool) | DOE connects weatherization with lower bills, indoor air quality, safety, comfort, and health. | Program description is not a causal health estimate. |
 | EIA-ENERGY-INSECURITY | [EIA energy insecurity](https://www.eia.gov/todayinenergy/detail.php?id=56640) | Energy insecurity includes unsafe temperatures, skipped necessities, disconnection notices, and inability to repair heating or cooling. | Survey measures household reports, not the effect of a specific upgrade. |
 
+## Working question
+
+Do weatherization upgrades produce measurable bill, comfort, safety, health, and household-security gains for the homes that receive them?
+
 ## First pattern to test
 
 ```text

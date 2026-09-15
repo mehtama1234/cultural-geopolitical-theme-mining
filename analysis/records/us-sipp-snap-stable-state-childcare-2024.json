@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-snap-stable-state-childcare-2024",
+  "title": "Stable SNAP receipt coexists with different annual child-care payment, assistance, and work-constraint profiles",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "care_health_reproduction", "time_hidden_price", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Identified SIPP person with November-to-December adjacent SNAP status and annual fall child-care fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; November no SNAP to December no SNAP; annual child-care fields",
+      "denominator": {"value": 2295, "unit": "valid person-transition records for care-prevented-work outcome; payment outcomes n=1783"},
+      "measures": {
+        "paid_childcare": {"value": 31.02, "unit": "weighted percent among 1783 valid records", "value_type": "share", "standard_error": 1.25, "approx_95_percent_ci": [28.57, 33.47]},
+        "childcare_assistance": {"value": 5.19, "unit": "weighted percent among 1783 valid records", "value_type": "share", "standard_error": 0.66, "approx_95_percent_ci": [3.90, 6.49]},
+        "care_prevented_work": {"value": 3.42, "unit": "weighted percent among 2295 valid records", "value_type": "share", "standard_error": 0.45, "approx_95_percent_ci": [2.54, 4.30]}
+      },
+      "method": "Official Census SIPP 2025 reference-year slice; November-to-December SNAP status transition paired to December-recorded annual fall child-care fields; November WPFINWGT and 240 replicate weights with Fay factor 0.5 used by scripts/analyze_sipp_snap_transition_childcare_bridge.py.",
+      "uncertainty": "Descriptive Fay-BRR estimates; each child-care field has its own valid universe. Annual fall fields are not monthly December outcomes and no causal program effect is estimated.",
+      "subgroup": "Persons with stable nonreceipt from November to December; records with invalid or out-of-universe child-care fields are excluded from that measure.",
+      "counterinterpretation": "Stable nonreceipt may reflect different household composition, eligibility, employment, income, care arrangements, or unobserved need rather than program protection.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:e10a7841234c9145379bc72d8a2af0b5bc08d24c9457a4612267ac0869da2e67; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; artifact:sha256:1f76c35b814bd6e242c5f0e42aee2c40a2161ad567b05288098ce96e84c271e3",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November SNAP to December SNAP; annual child-care fields",
+      "denominator": {"value": 351, "unit": "valid person-transition records for care-prevented-work outcome; payment outcomes n=259"},
+      "measures": {
+        "paid_childcare": {"value": 23.94, "unit": "weighted percent among 259 valid records", "value_type": "share", "standard_error": 3.11, "approx_95_percent_ci": [17.85, 30.03]},
+        "childcare_assistance": {"value": 14.64, "unit": "weighted percent among 259 valid records", "value_type": "share", "standard_error": 2.59, "approx_95_percent_ci": [9.57, 19.71]},
+        "care_prevented_work": {"value": 7.43, "unit": "weighted percent among 351 valid records", "value_type": "share", "standard_error": 1.88, "approx_95_percent_ci": [3.75, 11.11]}
+      },
+      "method": "Same SIPP transition and Fay-BRR procedure as the adjacent observation, for continued SNAP receipt.",
+      "uncertainty": "Descriptive Fay-BRR estimates with wider intervals in the smaller stable-receipt cell; annual fall fields are not monthly December outcomes and no causal program effect is estimated.",
+      "subgroup": "Persons with SNAP receipt in both November and December; records with invalid or out-of-universe child-care fields are excluded from that measure.",
+      "counterinterpretation": "Continued receipt may identify households with greater measured or unmeasured need, children, work constraints, or eligibility complexity; higher assistance/work-constraint shares cannot be read as effects of receipt.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:e10a7841234c9145379bc72d8a2af0b5bc08d24c9457a4612267ac0869da2e67; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; artifact:sha256:1f76c35b814bd6e242c5f0e42aee2c40a2161ad567b05288098ce96e84c271e3",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a same-person adjacent-month status comparison with annual fall child-care measures. The sparse November-to-December entry and exit cells are not promoted as reliable estimates. The result does not observe notice, route effort, benefit amount, child-care quality, exact monthly timing, trust, or political action."
+}

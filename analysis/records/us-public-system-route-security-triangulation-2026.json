@@ -1,0 +1,111 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-public-system-route-security-triangulation-2026",
+  "title": "SNAP route design can alter receipt while material security and meaning remain separate stages",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "time_hidden_price", "unequal_exposure_status", "political_judgment_action", "trust_identity_meaning"],
+  "source_unit": "Cross-source synthesis of USDA/FNA state aggregates, Urban WBNS respondents, NBER administrative/experimental studies, Census SIPP person-month transitions, and Urban WBNS charitable-food access",
+  "geography": "United States; source-specific geographies retained",
+  "observations": [
+    {
+      "period": "FY2025; USDA/FNA state route-performance context",
+      "denominator": {"value": 51, "unit": "states and DC common to participation, application timeliness, and recertification timeliness extraction", "value_type": "geographic_scope"},
+      "measures": {
+        "application_timeliness_range": {"value": "61.24–97.22", "unit": "percent across state/DC APT rates", "value_type": "distribution"},
+        "recertification_timeliness_range": {"value": "25.23–99.87", "unit": "percent across state/DC RPT rates", "value_type": "distribution"},
+        "participation_vs_application_timeliness": {"value": 0.033, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"},
+        "participation_vs_recertification_timeliness": {"value": 0.211, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "descriptive_screen"}
+      },
+      "method": "Cross-source synthesis of the committed USDA/FNA route-performance extraction; APT/RPT and participation retain their distinct quality-control and population denominators.",
+      "uncertainty": "Ecological state aggregates; no case-mix adjustment, causal identification, household effort, notice comprehension, or benefit-gap measurement.",
+      "subgroup": "50 states and DC.",
+      "counterinterpretation": "Near-zero aggregate correlation does not mean administrative performance is irrelevant; it means participation cannot be used as a route-quality proxy.",
+      "source_url": "https://www.fna.usda.gov/snap/qc/timeliness",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "compared"
+    },
+    {
+      "period": "December 2024; Urban WBNS lived-route context",
+      "denominator": {"value": 182, "unit": "respondents reporting interruption because they could not recertify on time; headline target denominator is not disclosed exactly", "value_type": "respondent_count"},
+      "measures": {
+        "involuntary_interruption": {"value": 24, "unit": "percent among working-age adults in SNAP families", "value_type": "weighted_survey_estimate"},
+        "recertification_interruption": {"value": 13, "unit": "percent among working-age adults in SNAP families", "value_type": "weighted_survey_estimate"},
+        "not_enough_time_after_notice": {"value": 40, "unit": "percent of n=182; multiple-response barrier", "value_type": "weighted_survey_estimate"},
+        "did_not_receive_notice": {"value": 32, "unit": "percent of n=182; multiple-response barrier", "value_type": "weighted_survey_estimate"},
+        "paperwork_too_difficult": {"value": 22, "unit": "percent of n=182; multiple-response barrier", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Cross-source synthesis of the Urban Institute December 2024 WBNS retrospective survey analysis; barriers are respondent-reported and may overlap.",
+      "uncertainty": "Retrospective self-report; no linked case file, exact date, gap length, amount, agency verification, correction, or appeal. Barrier estimates are limited-precision and not mutually exclusive.",
+      "subgroup": "Working-age adults ages 18–64 in families receiving SNAP, with reason-specific barriers among n=182 respondents.",
+      "counterinterpretation": "Reported interruption and barriers do not by themselves establish agency fault, ineligibility, or a downstream hardship effect.",
+      "source_url": "https://www.urban.org/sites/default/files/2025-09/SNAP-Experiences-Summary.pdf",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific NBER administrative and field evidence; 2018–2025 papers and settings",
+      "denominator": {"value": null, "unit": "study-specific administrative cases or applicants; counts and jurisdictions differ by paper and are not pooled", "value_type": "not_disclosed"},
+      "measures": {
+        "flexible_interview_approval_effect": {"value": 6, "unit": "approximately percentage points; Los Angeles field experiment", "value_type": "reported_effect"},
+        "flexible_interview_longer_term_participation": {"value": 2, "unit": "more than percentage points; study-specific longer-term participation effect", "value_type": "reported_effect"},
+        "office_closure_participation_change": {"value": "7–9", "unit": "percent reduction over two years in study-specific tract participation", "value_type": "reported_effect"},
+        "work_requirement_exit": {"value": 23, "unit": "percentage-point increase in exits after 18 months in study-specific incumbent population", "value_type": "reported_effect"}
+      },
+      "method": "Synthesis of distinct NBER field experiments, linked administrative studies, event-study, regression-discontinuity, and procedural-denial evidence; no cross-paper pooling.",
+      "uncertainty": "Settings, periods, populations, treatment definitions, and outcomes differ. Participation/exit changes do not establish food, housing, health, trust, or political consequences.",
+      "subgroup": "Paper-specific applicants, administrative cases, parents, incumbent participants, and office geographies.",
+      "counterinterpretation": "Route interventions can change observed participation without changing underlying need; work-requirement exits can reflect eligibility or reporting rules and should not automatically be called wrongful loss.",
+      "source_url": "https://www.nber.org/papers/w31239",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; Census SIPP adjacent person-month transitions",
+      "denominator": {"value": 346283, "unit": "valid adjacent transition pairs matched to replicate weights; transition cells retain their own valid-pair universes", "value_type": "person_month_pairs"},
+      "measures": {
+        "rent_hardship_no_to_yes": {"value": 16.4, "unit": "percent; valid following-month hardship among 437 entry pairs", "value_type": "weighted_fay_brr_estimate"},
+        "rent_hardship_yes_to_no": {"value": 11.53, "unit": "percent; valid following-month hardship among 387 exit pairs", "value_type": "weighted_fay_brr_estimate"},
+        "rent_hardship_yes_to_yes": {"value": 11.98, "unit": "percent; valid following-month hardship among 33,041 stable receipt pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_no_to_yes": {"value": 20.8, "unit": "percent; valid following-month hardship among 437 entry pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_yes_to_no": {"value": 20.83, "unit": "percent; valid following-month hardship among 387 exit pairs", "value_type": "weighted_fay_brr_estimate"},
+        "utility_hardship_yes_to_yes": {"value": 18.61, "unit": "percent; valid following-month hardship among 33,041 stable receipt pairs", "value_type": "weighted_fay_brr_estimate"}
+      },
+      "method": "Census SIPP person-month transition comparison using WPFINWGT and 240 Fay-BRR replicate weights; following-month hardship fields retain their own universes and reference-period boundaries.",
+      "uncertainty": "Descriptive transition comparison, not a program effect. Entry and exit cells are rare, hardship timing is field-specific, and notice, effort, amount, remedy, interpretation, and action are not observed for the same episode.",
+      "subgroup": "Valid adjacent person-month SNAP transition pairs in the SIPP slice; stable and transition groups are not compositionally equivalent.",
+      "counterinterpretation": "Exit can reflect higher income, renewal failure, noncollection, family change, or another shock; continued receipt can coexist with hardship. Neither transition is a recovery or failure score.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:d4745fab4a6a3087b8fa511ee299bf92d3d8982d3026877434ead7386483691d",
+      "status": "compared"
+    },
+    {
+      "period": "December 2019–December 2025; WBNS charitable-food route and unmet need",
+      "denominator": {"value": null, "unit": "source-specific adult and charitable-food participant universes; exact analytic denominators are not disclosed in the brief", "value_type": "not_disclosed"},
+      "measures": {
+        "working_age_charitable_food_2025": {"value": 16.7, "unit": "percent of adults ages 18–64 reporting household free groceries or meals in prior 12 months", "value_type": "weighted_survey_estimate"},
+        "food_insecure_charitable_food_2025": {"value": 39.5, "unit": "percent of adults in food-insecure households reporting charitable-food participation", "value_type": "weighted_survey_estimate"},
+        "food_insecure_unmet_charitable_food_2025": {"value": 28.8, "unit": "percent of adults in food-insecure households reporting unmet charitable-food need", "value_type": "weighted_survey_estimate"},
+        "charitable_food_participant_any_access_difficulty_2025": {"value": 51.6, "unit": "percent of charitable-food participants", "value_type": "weighted_survey_estimate"},
+        "unmet_need_reason_closed_when_available": {"value": 45.5, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "unmet_need_reason_did_not_know_where": {"value": 42.8, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"},
+        "unmet_need_reason_not_comfortable": {"value": 39.9, "unit": "percent of adults with unmet need; multiple-response reason", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted WBNS estimates of charitable-food receipt, access difficulty, and unmet need; the 2019–2025 series and 2025 route measures are read as a mixed public/private safety-net stage, not pooled with USDA, NBER, or SIPP universes.",
+      "uncertainty": "Cross-sectional retrospective self-report; exact analytic denominators and full variance tables are not disclosed in the brief. Access and unmet-need reasons overlap. Participation is not adequacy, and the data do not observe provider capacity, SNAP benefit amount, or same-episode timing.",
+      "subgroup": "Adults ages 18 and older, working-age adults ages 18–64, food-insecure adults, charitable-food participants, and adults reporting unmet charitable-food need, as specified by each item.",
+      "counterinterpretation": "Charitable-food use may supplement successful public assistance or respond to severe shortfall; nonreceipt may mean no need or an unserved need. Hours, awareness, comfort, variety, transport, safety, and prior treatment can be simultaneous constraints and do not establish generalized distrust or political action.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-05/Final_WBNS%20Charitable%20Food%20Receipt.pdf",
+      "retrieval_hash": "sha256:9573db3cd2a8bf37b850bbeed2304ee343d3b32ed5687b98a38de92fe604c0ee",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fna.usda.gov/snap/qc/timeliness", "claim": "USDA/FNA APT and RPT definitions and oversight context.", "status": "official-companion"},
+    {"source_url": "https://www.urban.org/research/publication/paperwork-burdens-cost-one-eight-working-age-snap-recipients-their-benefits", "claim": "Recipient-reported interruption and route barriers.", "status": "primary-analysis"},
+    {"source_url": "https://www.nber.org/papers/w31239", "claim": "Flexible interview field experiment.", "status": "primary-study"},
+    {"source_url": "https://www.nber.org/papers/w34529", "claim": "Office access and participation study.", "status": "primary-study"},
+    {"source_url": "https://www.census.gov/programs-surveys/sipp.html", "claim": "SIPP source program; committed analysis preserves the extracted person-month result.", "status": "official-companion"},
+    {"source_url": "https://www.urban.org/research/publication/charitable-food-participation-remained-high-2025-snap-cuts-unfold", "claim": "Charitable-food participation, access barriers, perceived treatment, and unmet need.", "status": "primary-analysis"}
+  ],
+  "boundary": "This is a deliberately non-pooled cross-source triangulation. It connects route design, recipient-reported barriers, charitable substitution and unmet need, participation changes, and following hardship as stages, but does not claim a common denominator, same-person causal chain, benefit adequacy, provider capacity, trust effect, political response, or geopolitical consequence. A linked or matched episode design remains required for those arrows."
+}

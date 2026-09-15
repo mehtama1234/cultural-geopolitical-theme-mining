@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-procurement-realization-milestones-2024-2026",
+  "title": "JASSM/LRASM production support, capacity investment, and integration testing precede delivered inventory",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "Official DoD and Lockheed Martin production-support, capacity, and flight-test records",
+  "geography": "United States defense-industrial and integration-test records",
+  "observations": [
+    {
+      "period": "2025-07-21; DoD production-support contract announcement",
+      "denominator": {"value": 1, "unit": "announced JASSM/LRASM IDIQ contract", "value_type": "contract_event"},
+      "measures": {
+        "contract_value": {"value": 999000000, "unit": "nominal US dollars; announced IDIQ value", "value_type": "reported_contract_value"},
+        "scope": {"value": "system upgrades, integration, production, sustainment, management, and logistics support for JASSM/LRASM and variants", "unit": "contract scope", "value_type": "reported_scope"},
+        "expected_completion": {"value": "2030-07-17", "unit": "date", "value_type": "reported_schedule"},
+        "funds_obligated_at_award": {"value": 0, "unit": "nominal US dollars", "value_type": "reported_at_award"},
+        "accepted_or_delivered_quantity": {"value": "not stated", "unit": "contract announcement", "value_type": "open"}
+      },
+      "method": "Official DoD contract announcement, retrieved through a text proxy after direct HTTP 403; scope and value are retained as announced, without converting an IDIQ ceiling/support contract into production output.",
+      "uncertainty": "The announcement does not provide awarded task-order obligations, accepted quantities, delivery, fielding, or inventory; expected completion is a schedule, not realization.",
+      "subgroup": "JASSM and LRASM production-support contract and variants.",
+      "counterinterpretation": "A broad support vehicle can carry engineering, sustainment, and logistics work without being a production-quantity record.",
+      "source_url": "https://www.defense.gov/News/Contracts/Contract/Article/4250988//",
+      "retrieval_hash": "sha256:ea25c2ee50832b404405380a5d0f2d55d8b195fc8d16bf98efd78a36211b1874",
+      "status": "reported"
+    },
+    {
+      "period": "2024-10-14; Lockheed Martin production-capacity context",
+      "denominator": {"value": 1, "unit": "official company production-capacity account", "value_type": "company_record"},
+      "measures": {
+        "capacity_action": {"value": "large-lot procurement/capacity expansion for JASSM and LRASM", "unit": "reported industrial action", "value_type": "reported_pattern"},
+        "facility": {"value": "225,000-square-foot intelligent factory brought online in 2022 alongside existing production facilities", "unit": "reported facility investment", "value_type": "reported_context"},
+        "annual_output": {"value": "not stated", "unit": "production capacity record", "value_type": "open"},
+        "delivered_quantity": {"value": "not stated", "unit": "production capacity record", "value_type": "open"}
+      },
+      "method": "Official Lockheed Martin account of JASSM/LRASM ramp-up and capacity investment; company-reported capacity language is kept separate from government acceptance and delivery records.",
+      "uncertainty": "Company account does not state actual line rate, utilization, unit output, variant allocation, or accepted/delivered quantity.",
+      "subgroup": "JASSM/LRASM production system and capacity investment.",
+      "counterinterpretation": "A new or automated facility can improve potential throughput while bottlenecks remain in inputs, testing, certification, workforce, or downstream acceptance.",
+      "source_url": "https://www.lockheedmartin.com/en-us/news/features/2024/lockheed-martins-jassm-and-lrasm-ramps-up-production.html",
+      "retrieval_hash": "sha256:790537ef6b33e8aa30dd13ad4ea87bfd8e35f8b230d045860dfe0753fabaeb94",
+      "status": "reported"
+    },
+    {
+      "period": "2026-06-10; LRASM F-35C integration test milestone",
+      "denominator": {"value": 1, "unit": "reported first-phase flight-science test program", "value_type": "test_event"},
+      "measures": {
+        "test_window": {"value": "September 2024 through April 2026", "unit": "flight-test period", "value_type": "reported_period"},
+        "milestone": {"value": "first phase of F-35C LRASM flight-science program completed", "unit": "integration test milestone", "value_type": "reported_event"},
+        "test_assets": {"value": "LRASM and JASSM test assets", "unit": "reported test inputs", "value_type": "reported_context"},
+        "operational_inventory": {"value": "not stated", "unit": "flight-test record", "value_type": "open"},
+        "customer_delivery": {"value": "not stated", "unit": "flight-test record", "value_type": "open"}
+      },
+      "method": "Official Lockheed Martin release describing the completed first phase and test window; integration testing is treated as a technical realization stage distinct from production acceptance and fielding.",
+      "uncertainty": "The release does not provide accepted missile quantities, operational availability, inventory location, delivery, or maintenance capacity.",
+      "subgroup": "LRASM F-35C flight-science integration; JASSM appears as part of the AGM-158 test-asset context.",
+      "counterinterpretation": "A successful flight-science phase may validate integration while the broader system remains in test, production, or certification stages.",
+      "source_url": "https://sustainability.lockheedmartin.com/en-us/news/features/2026/Enhancing-Capability-and-Integration-First-Phase-LRASM-F-35C-Flight-Science-Program-Complete.html",
+      "retrieval_hash": "sha256:9b13f97e959069e79f104d7057df981408501dc99bfd7e4b671904cfd10f0f81",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-048.md", "claim": "The earlier cross-source finding separates procurement, production plans, integration tests, delivery, and leverage.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-079.md", "claim": "Supplier locations have capability context but not specific work-package assignment.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/jassm-er-delivery-watchpoint-2026-09-13.md", "claim": "Poland's JASSM-ER delivered-quantity and acceptance arrow remains open.", "status": "watchpoint"},
+    {"source_url": "../../projects/ai-work-control/data/dod-jassm-production-support-2025-source-note.json", "claim": "Persists the extracted DoD announcement fields and proxy-retrieval boundary.", "status": "reproduction-note"}
+  ],
+  "boundary": "These records establish production-support commitment, capacity investment, and an integration-test milestone. They do not establish accepted production, customer delivery, fielding, maintenance, replaceability, or geopolitical leverage."
+}

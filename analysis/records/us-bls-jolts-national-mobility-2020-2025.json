@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-jolts-national-mobility-2020-2025",
+  "title": "National job openings and voluntary mobility cooled after 2022 while hiring remained lower",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "BLS Job Openings and Labor Turnover Survey national total-nonfarm establishment rates",
+  "geography": "United States, total nonfarm",
+  "observations": [
+    {
+      "period": "2020 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {
+        "job_openings_rate": {"value": 4.2833, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"},
+        "hires_rate": {"value": 4.2583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"},
+        "quits_rate": {"value": 2.0833, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"},
+        "layoffs_and_discharges_rate": {"value": 2.4, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"},
+        "total_separations_rate": {"value": 4.7333, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}
+      },
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates; rates retain their BLS-specific denominators and are not converted into individual probabilities.",
+      "uncertainty": "Establishment-survey estimates are subject to sampling error, revisions, seasonal-adjustment updates, and coverage limits; annual means summarize monthly rates rather than unique workers.",
+      "subgroup": "Total nonfarm establishments; no worker demographic or occupation subgroup in this national series.",
+      "counterinterpretation": "The 2020 average spans the pandemic labor-market shock and should not be read as a normal baseline or a direct measure of worker welfare.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    },
+    {
+      "period": "2021 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate": {"value": 6.375, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "hires_rate": {"value": 4.3417, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "quits_rate": {"value": 2.7083, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "layoffs_and_discharges_rate": {"value": 0.9667, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "total_separations_rate": {"value": 3.9083, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates.",
+      "uncertainty": "Annual means summarize establishment reports, not unique workers or worker welfare.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "A high openings rate can reflect recruiting difficulty or churn rather than worker power or good job quality.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    },
+    {
+      "period": "2022 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate": {"value": 6.85, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "hires_rate": {"value": 4.2, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "quits_rate": {"value": 2.7583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "layoffs_and_discharges_rate": {"value": 0.9583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "total_separations_rate": {"value": 3.9583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates.",
+      "uncertainty": "Rates do not identify which workers moved, why they moved, or whether moves improved security.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "The peak openings and quits rates can represent labor reallocation after reopening rather than a durable bargaining regime.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    },
+    {
+      "period": "2023 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate": {"value": 5.625, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "hires_rate": {"value": 3.7583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "quits_rate": {"value": 2.3667, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "layoffs_and_discharges_rate": {"value": 1.0667, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "total_separations_rate": {"value": 3.6333, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates.",
+      "uncertainty": "The series is aggregate and revised; no individual or household linkage is available.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "Cooling aggregate mobility can coexist with strong mobility or insecurity for particular occupations or demographic groups.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate": {"value": 4.65, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "hires_rate": {"value": 3.4167, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "quits_rate": {"value": 2.0667, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "layoffs_and_discharges_rate": {"value": 1.0583, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "total_separations_rate": {"value": 3.3333, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates.",
+      "uncertainty": "Aggregate rates do not establish individual job quality, control, pay, or household consequences.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "Lower quits may indicate reduced outside options, but may also reflect worker preference, retirement, sector composition, or measurement limits.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 calendar year",
+      "denominator": {"value": 12, "unit": "monthly seasonally adjusted JOLTS rate observations", "value_type": "time_series_mean"},
+      "measures": {"job_openings_rate": {"value": 4.275, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "hires_rate": {"value": 3.3167, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "quits_rate": {"value": 2.0167, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "layoffs_and_discharges_rate": {"value": 1.1167, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}, "total_separations_rate": {"value": 3.2917, "unit": "percent annual arithmetic mean of monthly rate", "value_type": "estimated_rate"}},
+      "method": "Arithmetic mean of 12 BLS seasonally adjusted monthly national JOLTS rates.",
+      "uncertainty": "2025 values may be revised; the aggregate does not identify who bore the adjustment or whether worker control changed.",
+      "subgroup": "Total nonfarm establishments.",
+      "counterinterpretation": "A lower quits rate is not alone evidence of worsening work conditions or a broad loss of bargaining power.",
+      "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "retrieval_hash": "sha256:07f74d5d0dfcf95502ac1802b238c8a14b3fb7e0e11cf10f5ad5efc9f604318c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/help/def/jt.htm", "claim": "BLS field definitions specify the meaning and rate denominators for JOLTS measures.", "status": "reported", "access_boundary": "Definitions do not provide worker-level motivations, outcomes, or household linkage."}
+  ],
+  "boundary": "This record establishes an aggregate establishment-based labor-market context. It does not establish worker bargaining power, job quality, pay, schedule control, household security, political meaning, or a causal effect of any labor-market condition."
+}

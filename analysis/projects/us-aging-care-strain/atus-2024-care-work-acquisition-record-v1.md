@@ -1,7 +1,7 @@
 # ATUS 2024 care/work acquisition record v1
 
 **Checked:** 2026-09-13
-**Status:** official source located; microdata download remains blocked by the host in this environment; published-table baseline is now recorded separately
+**Status:** official source located and 2024 respondent/activity/summary microdata extraction completed; eldercare-roster extension remains open
 
 ## Target files
 
@@ -21,13 +21,12 @@ variable names and universes before analysis.
 
 ## Access check
 
-On 2026-09-12 and again on 2026-09-13, direct requests to the BLS file URLs
-returned HTTP 403 (`AkamaiGHost`, access denied) from the working environment.
-The 2026-09-13 response included `HTTP/2 403`, `server: AkamaiGHost`, and no
-ZIP payload. The page itself is available and identifies the files, but the ZIP
-contents were not obtained in this pass. This is an acquisition issue, not
-evidence that the files do not exist or that care/work estimates are
-unavailable.
+The BLS page and file URLs remain official. Initial direct requests returned
+HTTP 403 from the working environment, but a browser-style request with a
+referer and cache-busting query obtained the respondent, activity, activity
+summary, and eldercare-roster ZIPs on 2026-09-13. The first extraction uses the
+respondent, activity, and activity-summary files; the eldercare-roster extension
+is retained for the next pass.
 
 The official published release remains usable while the ZIP route is blocked.
 The [2023–2024 published care/work layer](atus-2023-2024-published-care-work-layer-v1.md)
@@ -36,10 +35,19 @@ care frequency, and hours on care days. Those tables do not replace the
 microdata target because they do not retain the same respondent's full work,
 care, household, and follow-up fields.
 
-**Current decision:** keep the published tables as the active population-level
-care/work estimate, preserve the microdata comparison as an explicit
-acquisition step, and do not infer a respondent-level work-displacement result
-from published aggregates.
+**Current decision:** promote the weighted microdata estimates as a bounded
+population time-use layer, while keeping event causation, household totals,
+work displacement, and longitudinal recovery open.
+
+## 2024 microdata extraction
+
+The [machine-readable ATUS time/care record](../../records/us-atus-time-care-microdata-2024.json)
+and `scripts/analyze_atus_time_care_2024.py` aggregate 139,535 activity rows
+for 7,669 merged diary respondents. The extraction preserves primary household
+work, care for people, paid work, travel, and socializing/communication, plus
+secondary childcare and eldercare minutes. It also reports sex, age, and labor
+force comparisons. Archive SHA-256 values are stored in the record; no raw ZIP
+is committed.
 
 ## Planned bounded estimate
 

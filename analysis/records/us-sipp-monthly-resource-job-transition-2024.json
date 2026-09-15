@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-monthly-resource-job-transition-2024",
+  "title": "Monthly income-to-poverty position and job count move on different clocks",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "work_control_bargaining", "unequal_exposure_status"],
+  "source_unit": "identified SIPP person record across adjacent reference months, with monthly fields and first-month person weight",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; adjacent-month person transitions",
+      "denominator": {"value": 346160, "unit": "valid adjacent person-month pairs for THINCPOV; 346,283 available adjacent pairs before field-specific missingness", "value_type": "unweighted_valid_pair_count"},
+      "measures": {
+        "income_to_poverty_band_change": {"value": 3.67, "unit": "percent of valid THINCPOV adjacent pairs", "value_type": "weighted_transition_share"},
+        "job_count_band_change": {"value": 1.70, "unit": "percent of valid RMNUMJOBS adjacent pairs; valid-pair denominator 297,861", "value_type": "weighted_transition_share"},
+        "identified_persons": {"value": 31992, "unit": "identified people in selected SIPP slice", "value_type": "source_row_diagnostic"},
+        "persons_with_all_12_months": {"value": 31090, "unit": "identified people with all twelve reference months", "value_type": "source_row_diagnostic"}
+      },
+      "method": "Adjacent-month person comparison using key SSUID + SHHADID + PNUM, first-month WPFINWGT, THINCPOV bands below 1x/1–2x/2–4x/4x-or-more poverty, and monthly RMNUMJOBS categories. Separate valid-pair universes are retained.",
+      "uncertainty": "Descriptive weighted transition shares without Fay–BRR or other design-based variance in this diagnostic. The two change shares have different valid-pair denominators and are not a formal relative-volatility comparison.",
+      "subgroup": "All identified SIPP persons with valid adjacent values for the relevant monthly field; no household-weighted estimate.",
+      "counterinterpretation": "A stable job-count category can coexist with an income-band change through earnings, hours, transfers, household resources, or other components; a job-count change can occur without an income-band change. Neither field observes schedule control, job quality, or cause.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "The official dictionary defines THINCPOV and RMNUMJOBS as monthly/reference-month fields and documents their universes.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "The official 240-replicate archive remains available for a later design-based variance pass.", "status": "official-replicate-weights"},
+    {"source_url": "../../projects/us-household-calendar-integration/sipp-person-transition-reproduction-audit-2026-09-14.json", "claim": "The reproduction audit preserves the local derived-input hash, row counts, fields, and no-variance boundary.", "status": "reproduction-audit"}
+  ],
+  "boundary": "This is a same-person monthly descriptive diagnostic from the 2025 SIPP public-use file for the 2024 reference year. It does not establish causality, household-weighted volatility, exact bill or care events, hours, pay, schedule control, health, trust, political action, or geopolitical consequence. Annual/reference-period hardship fields appearing on monthly rows are not promoted into this monthly event measure."
+}

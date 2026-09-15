@@ -16,7 +16,7 @@ credit, rent, labor, customer, or market change
   -> local government, lenders, and residents respond
 ```
 
-This is a short discovery pass. Go deeper only if business records can be joined to a real change in local life.
+This is one durable lane in the long-term atlas. Continue deepening it as business records can be joined to real changes in local life.
 
 ## First working idea
 
@@ -44,6 +44,12 @@ extends this project across customers, workers, owners, places, public systems,
 and future state capacity. It asks where a firm decision moves price, time,
 data, risk, and control, and keeps cultural and political interpretation as a
 separate later arrow.
+
+The [New York Fed small-business capacity layer](nyfed-small-business-capacity-layer-v1.md)
+adds a current firm-side comparator: reported profitability, revenue
+expectations, employment, pricing power, financing, and debt diverge by firm
+size. It does not treat firm health as local service access or household
+security.
 
 The [BFS annual county data-quality boundary](bfs-annual-county-data-quality-boundary-v1.md)
 records the 2026 release's differential-privacy noise and an exploratory
@@ -116,3 +122,42 @@ The [CBP–HRSA primary-care shortage bridge](cbp-hrsa-primary-care-shortage-bri
 adds an institutional adequacy measure. It shows that health-sector
 establishments can coexist with designated shortage components, so visible
 capacity is not equivalent to usable or sufficient care.
+
+The new [local capacity and reachability finding](findings/us-local-business-place-003.md)
+promotes the cross-source option-stack test into a reader-facing result. Its
+first 3,128-county screen separates high/low health-sector establishment
+capacity from high/low zero-vehicle-household context in a 3,006-county
+complete-input frame, while retaining HPSA,
+rurality, commute, commute mode, income, vacancy, rent, crowding,
+language-access, and QCEW wage context. It is a context screen, not resident
+access; the next pass must add
+service use, prices, hours, neighboring supply, permits or wages,
+work/care displacement, and local meaning.
+
+The [place-change and political-meaning bridge](findings/us-local-business-place-004.md)
+adds a county-keyed CES context layer: population-growth quartiles are placed
+beside federal/state trust, civic action, and reported voting. It is deliberately
+separate from the capacity cells because the CES respondent frame, place frame,
+and measures differ; it strengthens the political-context stage without claiming
+that local capacity or growth caused political response.
+
+The [capacity/mobility and political-context comparison](findings/us-local-business-place-005.md)
+now makes the county-keyed join directly: CES trust, civic action, and reported
+voting are compared across the four CBP/ACS capacity cells. The result is
+non-monotonic and remains contextual; the next design must measure respondent
+exposure, service use, attribution, and institutional response.
+
+The [party-conditioned place comparison](findings/us-local-business-place-006.md)
+adds the required identity subgroup check. CES federal trust and civic action
+vary sharply by broad `pid7` group inside every capacity cell, while local
+within-party differences remain. This prevents the place screen from being
+read as a political cause and keeps identity, place context, and action as
+separate measured stages.
+
+The reader-facing synthesis [What “capacity” means in a place: from business
+formation to lived access](place-capacity-access-meaning-synthesis-v1.md)
+connects the firm, service, mobility, HPSA, PLACES, household, cultural, and
+political layers into one long-term research chain. It makes the central
+interpretive rule explicit: applications are not durable firms, establishments
+are not access, shortage designations are not patient episodes, and place
+conditions are not political meaning without measured exposure and attribution.

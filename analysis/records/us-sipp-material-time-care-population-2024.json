@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-material-time-care-population-2024",
+  "title": "SIPP shows material pressure, care constraints, and work structure in separate universes",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "work_control_bargaining", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "SIPP person record by reference month using the final person weight, with household fields repeated on person records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year in the 2025 SIPP public-use file",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight selected person-record/month rows; 379,215 selected rows were read", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {
+        "owned_or_being_bought": {"value": 67.23, "unit": "percent among selected nonblank person-weighted records with ETENURE code 1", "value_type": "weighted_conditional_share"},
+        "unable_to_pay_utility_bills": {"value": 7.06, "unit": "percent among selected nonblank person-weighted records with EAWBGAS code 1", "value_type": "weighted_conditional_share"},
+        "high_or_marginal_food_security": {"value": 88.56, "unit": "percent among selected person-weighted records with RFOODS code 1", "value_type": "weighted_share"},
+        "owned_savings_account": {"value": 63.72, "unit": "percent among selected nonblank person-weighted records with EOWN_SAV code 1", "value_type": "weighted_conditional_share"},
+        "carried_credit_card_balance": {"value": 27.43, "unit": "percent among selected nonblank person-weighted records with EDEBT_CC code 1", "value_type": "weighted_conditional_share"},
+        "paid_for_childcare": {"value": 30.08, "unit": "percent among selected nonblank person-weighted records with EPAY code 1", "value_type": "weighted_conditional_share"},
+        "childcare_prevented_more_work": {"value": 3.88, "unit": "percent among selected nonblank person-weighted records with EWORKMORE code 1", "value_type": "weighted_conditional_share"},
+        "one_job": {"value": 54.20, "unit": "percent among selected nonblank person-weighted records with RMNUMJOBS code 1", "value_type": "weighted_conditional_share"}
+      },
+      "method": "Selected SIPP 2025 public-use fields were verified against the official data dictionary and weighted with WPFINWGT. Household and person fields were kept separate; field-specific nonblank universes were retained for conditional shares.",
+      "uncertainty": "This is a person-weighted descriptive diagnostic, not an official household-prevalence table. Fields have different universes, blank shares, reference persons, and status rules; no design-based standard errors were computed for this scan.",
+      "subgroup": "Person, household, tenure, food-security, financial, child-care, and job-count fields; detailed subgroup estimates require the field-specific universe and replicate-weight plan.",
+      "counterinterpretation": "A higher utility-payment difficulty share than rent/mortgage difficulty does not mean the same people experienced both; child-care payment and work-prevention fields do not show that payment caused a work choice; person weights do not count households once.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "Monthly diagnostic ranges across 2024 reference months",
+      "denominator": {"value": 12, "unit": "reference months in the 2025 SIPP file; each field's person-record universe and positive-weight count varies", "value_type": "reported_month_count"},
+      "measures": {
+        "unable_to_pay_rent_or_mortgage_range": {"value": "4.61%–4.69%", "unit": "monthly weighted conditional scan range for EAWBMORT code 1", "value_type": "weighted_diagnostic_range"},
+        "unable_to_pay_utility_bills_range": {"value": "7.03%–7.09%", "unit": "monthly weighted conditional scan range for EAWBGAS code 1", "value_type": "weighted_diagnostic_range"},
+        "high_or_marginal_food_security_range": {"value": "88.45%–88.63%", "unit": "monthly weighted scan range for RFOODS code 1", "value_type": "weighted_diagnostic_range"},
+        "one_job_range": {"value": "54.05%–54.32%", "unit": "monthly weighted conditional scan range for RMNUMJOBS code 1", "value_type": "weighted_diagnostic_range"}
+      },
+      "method": "Weighted month-by-month diagnostic using the final person weight; monthly variation is reported as a range rather than a trend estimate.",
+      "uncertainty": "The narrow ranges are not evidence of true population stability without survey-design variance and field-specific universe construction. They may reflect repeated household fields on person records and the selected extraction.",
+      "subgroup": "Reference month; fields have distinct person or household universes.",
+      "counterinterpretation": "A stable descriptive range can conceal changes within subgroups or offsetting entry/exit; it does not identify a shock, bill date, or recovery path.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/pu2025_schema.json", "claim": "Official 2025 SIPP pipe-file schema.", "status": "official-schema"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official variable labels and universe documentation.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive for subsequent variance estimates.", "status": "official-replicate-weights"}
+  ],
+  "boundary": "This record is a 2024-reference-year person-weighted diagnostic from selected SIPP fields. It does not establish a household-weighted national prevalence, causal event, exact price or bill, service route, firm decision, time displacement, health outcome, trust change, political action, or geopolitical consequence. Household fields repeated on person records are not counted as households once."
+}

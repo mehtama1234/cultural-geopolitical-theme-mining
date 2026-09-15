@@ -20,6 +20,8 @@ source
 
 The writing rule is simple: use ordinary words, show the causal steps, name the evidence, separate fact from inference, and say what would prove us wrong.
 
+For a synchronized handoff check, run `python3 scripts/validate_long_term_publication_gate.py`.
+
 ## The broad program
 
 The project is explicitly not a one-household study. It maps 14 connected
@@ -31,6 +33,9 @@ records the current cross-source interpretation.
 The [current-status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 records the 14-theme coverage, recent depth, open arrows, and next queue in one
 place.
+The [recurrent-source vintage watchlist](analysis/US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
+keeps release dates, refresh actions, revision boundaries, and account-gated
+acquisition dependencies visible across research cycles.
 
 The common question is:
 
@@ -75,3 +80,17 @@ site/         published HTML pages
 ```
 
 Start with [START-HERE.md](START-HERE.md). The governing specification is [END_TO_END_GOAL_V1.md](END_TO_END_GOAL_V1.md). The working method is in [RESEARCH-METHOD.md](RESEARCH-METHOD.md), and the first topic queue is in [analysis/seed-topic-queue.md](analysis/seed-topic-queue.md).
+
+To read the generated publication locally, run `python3 -m http.server 8000`
+from the repository root and open `http://localhost:8000/site/index.html`.
+Serve from the repository root (rather than using `--directory site`) so the
+published pages can also link to their source Markdown, machine-readable
+records, and audit documents under `analysis/`.
+After rebuilding pages, run `python3 scripts/validate_published_site_links.py`
+to check the published relative-link topology.
+Run `python3 scripts/validate_trend_provenance.py` to verify that every trend
+observation retains an HTTP(S) source URL and a structurally valid SHA-256
+retrieval token.
+Run `python3 scripts/audit_source_registry_coverage.py` to distinguish source
+families that are merely registered from those referenced in the analysis
+corpus; its report is `analysis/US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md`.

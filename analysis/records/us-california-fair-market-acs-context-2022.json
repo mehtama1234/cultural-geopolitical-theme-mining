@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-fair-market-acs-context-2022",
+  "title": "California ZIP nonrenewal and FAIR-share differences vary with place income and housing structure",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "California ZIP-level FAIR/private-market crosswalk joined to ACS 2022 ZCTA income and structure context",
+  "geography": "California ZIP/ZCTA approximations",
+  "observations": [
+    {
+      "period": "2022; equal-count ZIP quartiles by ACS place context",
+      "denominator": {"value": 1591, "unit": "FAIR ZIP rows with voluntary decisions and usable ACS ZCTA context", "value_type": "observed_rows"},
+      "measures": {
+        "lowest_income_quartile_nonrenewal_rate": {"value": 12.335, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "highest_income_quartile_nonrenewal_rate": {"value": 9.804, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "lowest_income_quartile_mean_fair_share": {"value": 8.961, "unit": "percent of residential structures, mean of ZIP percentages", "value_type": "mean"},
+        "highest_income_quartile_mean_fair_share": {"value": 4.553, "unit": "percent of residential structures, mean of ZIP percentages", "value_type": "mean"},
+        "lowest_detached_share_quartile_nonrenewal_rate": {"value": 10.056, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"},
+        "highest_detached_share_quartile_nonrenewal_rate": {"value": 11.684, "unit": "percent among voluntary renewed plus nonrenewed decisions", "value_type": "calculated_share"}
+      },
+      "method": "Matched FAIR ZIP rows and 2022 voluntary-market decisions to ACS 2022 5-year ZCTA median household income and units-in-structure estimates; compared equal-count quartiles using voluntary nonrenewed/(renewed+nonrenewed).",
+      "uncertainty": "ACS ZCTAs approximate ZIP geography and are five-year place estimates. FAIR and voluntary measures have different universes; quartiles are unweighted and context is not an individual insured-household measure.",
+      "subgroup": "FAIR ZIP rows with valid income, structure, and 2022 voluntary decision context.",
+      "counterinterpretation": "Income and detached-home share may proxy hazard, property value, insurer mix, urban/rural composition, or reporting differences; this does not show that income or structure caused nonrenewal or FAIR enrollment.",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b19013.dat",
+      "comparison_source_url": "https://www.insurance.ca.gov/01-consumers/200-wrr/DataAnalysisOnWildfiresAndInsurance.cfm",
+      "retrieval_hash": "sha256:54dc9c5f15146d861080919372c1dde3f8b51c7bc3f8c175d97b60f2d1c6b85b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2022/table-based-SF/data/5YRData/acsdt5y2022-b25024.dat", "claim": "ACS supplies units-in-structure estimates used for detached-home and mobile-home context.", "status": "reported", "access_boundary": "These are five-year ZCTA estimates, not insured-property records."},
+    {"source_url": "data/california-fair-market-acs-context-2022-join.json", "claim": "Local output records the join and quartile calculations.", "status": "derived", "access_boundary": "The join is descriptive and denominator-mismatched."}
+  ],
+  "boundary": "This record adds income and housing-structure place context to the California FAIR/private-market ZIP screen. It does not establish causality, household affordability, coverage adequacy, repairs, moves, or political response."
+}

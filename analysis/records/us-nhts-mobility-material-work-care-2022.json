@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nhts-mobility-material-work-care-2022",
+  "title": "Mobility pressure is jointly patterned by place, household resources, and trip purpose",
+  "theme_ids": ["time", "cost", "work"],
+  "program_theme_ids": ["housing_place_mobility", "time_hidden_price", "unequal_exposure_status", "care_health_reproduction", "political_judgment_action"],
+  "source_unit": "2022 NHTS household, person, and travel-day trip records joined by HOUSEID and grouped by URBRUR and HHFAMINC bands",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2022; urban households; HHFAMINC 01-03 (under $35k)",
+      "denominator": {"value": 100, "unit": "weighted household percentage base; trip measures use weighted recorded trips"},
+      "measures": {"zero_vehicle_households": {"value": 35.23, "unit": "percent", "value_type": "share"}, "work_trips_30_minutes_or_more": {"value": 31.46, "unit": "percent of recorded work trips", "value_type": "share"}, "shopping_trip_mean_minutes": {"value": 34.01, "unit": "minutes", "value_type": "mean"}},
+      "method": "Weighted descriptive cell using WTHHFIN for household measures and WTTRDFIN for travel-day trip measures. Work trips are WHYTRP90=01; shopping trips are TRIPPURP=04.",
+      "uncertainty": "No design-based interval is reproduced; the low-income urban cell contains 774 household records and 448 shopping-trip records. HHFAMINC bands are broad and household income is categorical.",
+      "subgroup": "Urban households with HHFAMINC codes 01-03.",
+      "counterinterpretation": "High zero-vehicle prevalence does not prove unmet work or care access; the travel-day trip file does not observe all trips, fares, cancellations, or household coping.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; urban households; HHFAMINC 06-08 ($75k or more)",
+      "denominator": {"value": 100, "unit": "weighted household percentage base; trip measures use weighted recorded trips"},
+      "measures": {"zero_vehicle_households": {"value": 3.54, "unit": "percent", "value_type": "share"}, "work_trips_30_minutes_or_more": {"value": 40.82, "unit": "percent of recorded work trips", "value_type": "share"}, "shopping_trip_mean_minutes": {"value": 20.71, "unit": "minutes", "value_type": "mean"}},
+      "method": "Same weighted cell method as the companion low-income urban observation.",
+      "uncertainty": "No design-based interval is reproduced; the high-income urban cell contains 2,681 household records and 2,532 shopping-trip records. Income is not a measure of liquid cash or transport affordability.",
+      "subgroup": "Urban households with HHFAMINC codes 06-08.",
+      "counterinterpretation": "More vehicles and higher income can coexist with long work commutes and high time burdens; recorded trip time does not establish whether the burden is voluntary or constrained.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; rural households; HHFAMINC 01-03 (under $35k)",
+      "denominator": {"value": 100, "unit": "weighted household percentage base; trip measures use weighted recorded trips"},
+      "measures": {"zero_vehicle_households": {"value": 12.79, "unit": "percent", "value_type": "share"}, "work_trips_30_minutes_or_more": {"value": 13.92, "unit": "percent of recorded work trips", "value_type": "share"}, "shopping_trip_mean_minutes": {"value": 29.65, "unit": "minutes", "value_type": "mean"}},
+      "method": "Same weighted cell method as the companion urban observations.",
+      "uncertainty": "No design-based interval is reproduced; the low-income rural cell contains 235 household records and 126 shopping-trip records. Small cells and broad rural classification limit precision.",
+      "subgroup": "Rural households with HHFAMINC codes 01-03.",
+      "counterinterpretation": "Lower recorded work-trip time than other cells does not establish better access; selection into observed trips and unobserved missed or substituted trips remain unknown.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    },
+    {
+      "period": "2022; rural households; HHFAMINC 06-08 ($75k or more)",
+      "denominator": {"value": 100, "unit": "weighted household percentage base; trip measures use weighted recorded trips"},
+      "measures": {"zero_vehicle_households": {"value": 0.71, "unit": "percent", "value_type": "share"}, "work_trips_30_minutes_or_more": {"value": 53.40, "unit": "percent of recorded work trips", "value_type": "share"}, "shopping_trip_mean_minutes": {"value": 26.31, "unit": "minutes", "value_type": "mean"}},
+      "method": "Same weighted cell method as the companion urban observations.",
+      "uncertainty": "No design-based interval is reproduced; the high-income rural cell contains 721 household records and 807 shopping-trip records. Long-trip estimates may be sensitive to the travel-day sample and extreme values.",
+      "subgroup": "Rural households with HHFAMINC codes 06-08.",
+      "counterinterpretation": "Vehicle availability does not remove geographic distance or make long commutes cheap in time, fuel, maintenance, or risk.",
+      "source_url": "https://nhts.ornl.gov/media/2022/download/csv.zip",
+      "retrieval_hash": "sha256:64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a descriptive 2022 cross-sectional screen, not a causal estimate or a complete care-access measure. Household income, vehicle count, work status, and recorded trip time are distinct variables; they do not jointly identify affordability, necessity, unmet trips, or welfare. Work and shopping trips are used as daily-life proxies, while care, medical, childcare, and social obligations require a dedicated linked calendar layer. The raw NHTS archive is externally retrieved and hash-identified; derived slices are temporary and not committed."
+}

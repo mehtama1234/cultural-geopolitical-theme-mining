@@ -1,0 +1,1337 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="US broad program current-status audit v1"><title>US broad program current-status audit v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#coverage-finding">Coverage finding</a></li><li><a href="#the-14-themes-in-plain-language">The 14 themes, in plain language</a></li><li><a href="#recent-depth-added">Recent depth added</a></li><li><a href="#current-evidence-control-health">Current evidence-control health</a></li><li><a href="#the-shared-end-to-end-model">The shared end-to-end model</a></li><li><a href="#what-we-should-pursue-next">What we should pursue next</a></li><li><a href="#stop-conditions">Stop conditions</a></li><li><a href="#canonical-navigation">Canonical navigation</a></li></ul></nav></div><article id="finding" class="memo"><h1>US broad program current-status audit v1</h1>
+<p><strong>Checked:</strong> 2026-09-15
+<strong>Scope:</strong> the full 14-theme societal, cultural, consumer, institutional,
+financial, political, firm, infrastructure, and geopolitical program</p>
+<p><strong>Current registry state:</strong> 219 machine-readable records, 836 observations,
+103 source packets, and 14 program themes. The published link-validated site
+currently has 454 HTML pages; these counts describe coverage and publication, not completion
+of the end-to-end causal arrows.</p>
+<p>This is a recovery and decision document. It records what is covered, what has
+been deepened, and what still prevents an end-to-end claim. The program is not
+defined by the latest SIPP, SHED, CFPB, SNAP, or AI-infrastructure pass.</p>
+<p>The <a href="US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.html">recurrent-source vintage watchlist</a>
+now records latest usable releases, expected rechecks, revision handling, and
+the PSID/World Bank access dependencies. It is a continuity control, not a
+substitute for new evidence or a claim that scheduled releases will preserve
+comparability.</p>
+<p>The current continuation target is the material/time/care lane: connect a
+dated pressure or care event to alternatives, schedule control, money and
+time substitution, protected and sacrificed outcomes, recovery, trust, and
+action. Existing annual and panel evidence can establish distributions,
+persistence, reversal, and subgroup differences; it cannot by itself join all
+of those stages for the same person or household.</p>
+<p>The new <a href="../analysis/projects/us-household-calendar-integration/recs-energy-burden-household-layer-v1.md">2020 RECS household energy-burden layer</a>
+adds same-household modeled energy expenditure, income-band affordability,
+assistance, and equipment-repair hardship. It strengthens the material-pressure
+and public-assistance arrows, but the income-midpoint burden is a proxy and the
+survey remains cross-sectional; timing, bill shocks, health, adaptation, trust,
+and action remain open.</p>
+<p>The new <a href="us-safety-net-access-013.html">safety-net route-and-buffer synthesis</a>
+adds the WBNS lived-route and charitable-food layers to the existing SNAP,
+SIPP, and Federal Reserve buffer evidence. It makes public receipt,
+interruption, cash/credit coping, supplemental food, and unmet need explicit
+stages without pooling their incompatible universes. The WBNS public-use
+microdata gate remains open: catalog metadata are verified, but local
+retrieval routes remain authentication/transport constrained.</p>
+<p>The <a href="../analysis/projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md">MEPS Panel 27 longitudinal health-cost layer</a>
+adds repeated 2022–2023 person-level expenditure, out-of-pocket, coverage, and
+perceived-health fields. It shows meaningful simultaneous health improvement and
+worsening in the paired sample and separates total spending from out-of-pocket
+movement. It does not identify a causal bill, insurer, employer, or policy
+effect, and it still lacks the time/care, trust, and political-action endpoints.
+The <a href="us-health-cost-household-choice-001.html">MEPS non-synchronization finding</a>
+promotes that result into a bounded interpretation: total health spending,
+out-of-pocket protection, coverage, and perceived-health direction can diverge.
+The next bridge remains treatment continuity, unpaid time, employment, and
+household security in the same person or family.</p>
+<p>The new <a href="us-health-cost-household-choice-002.html">MEPS expenditure-conditioned finding</a>
+adds a same-panel distributional test: baseline 2022 expenditure bands have
+different perceived-health and employment-continuity profiles. It preserves
+the key boundary that expenditure is also a need and composition marker, not a
+household-burden score or causal work-loss measure.</p>
+<p>The new <a href="us-safety-net-access-014.html">public-system route-to-judgment synthesis</a>
+rotates the active lane toward public-system meaning. It keeps USDA/FNA route
+performance, WBNS recipient barriers, SIPP following hardship, and Gallup
+institution-specific confidence as separate stages, making the trust/action
+boundary more explicit while leaving the same-case episode and remedy gate
+open.</p>
+<p>The new <a href="us-customer-automation-recourse-021.html">CFPB route-vintage audit</a>
+adds a consumer-power measurement control: <code>timely</code> is kept separate from
+elapsed routing, response labels are kept separate from remedy, and an omitted
+<code>has_narrative</code> field is recorded as unavailable rather than zero. This
+prevents API-vintage changes from being misread as a consumer trend.</p>
+<p>The new <a href="ai-work-control-072.html">USAspending supplier-concentration finding</a>
+rotates the state-capacity lane from supplier-name breadth to financial
+concentration. In one JASSM/LRASM subaward extract, 51 reported recipients
+coexist with 49.50% of returned amount in the top five and 74.60% in the top
+ten. This sharpens the replaceability question without claiming production,
+readiness, or geopolitical leverage.</p>
+<p>The new <a href="us-household-calendar-integration-033.html">multi-clock material/time/care synthesis</a>
+puts MEPS beside SIPP monthly resource/work transitions and SHED/ATUS care and
+time measures. It is the current reader-facing statement of the program's
+end-to-end boundary: material, work, health, and time evidence now connect as
+an articulated chain, but they do not yet form one dated same-household event
+record with a measured recovery, trust, or political-action endpoint.</p>
+<p>The <a href="../analysis/projects/us-cost-trust-politics/gss-2024-financial-position-trust-politics-layer-v1.md">2024 GSS financial-position and trust/politics layer</a>
+adds a same-respondent meaning/action screen: financial dissatisfaction
+coexists with lower generalized trust and fairness expectations, while reported
+financial worsening coexists with a different presidential vote-intention
+profile. This is cross-sectional and module-specific; it is not an economic-
+voting causal estimate or a harmonized historical trend.
+The <a href="us-cost-trust-politics-012.html">financial dissatisfaction/trust finding</a>
+keeps the political interpretation bounded: financial position can coincide
+with fairness and trust judgments before any vote mechanism is established.
+The next evidence must add timing, prior identity, attribution, and direct
+action or institutional-response outcomes.</p>
+<p>The <a href="us-cost-trust-politics-015.html">regional EHI price-and-firm-capacity finding</a>
+now gives the April 2026 Second District layer a detailed published reading:
+regional price and transport exposure, lower-income real-gasoline adjustment,
+and weaker small-firm employment expectations are kept as distinct measures.
+The place-level household-to-firm-to-service and political-response arrows
+remain open.</p>
+<p>The latest cross-source rotation is now synchronized across the registry,
+project records, findings, and published pages. It adds four bounded tests:
+AI task adoption beside sector mobility/representation/pay; household fraud
+loss and recovery burden beside CFPB complaint visibility; county
+growth/nativity/service-capacity beside local immigration attitudes; and
+California ZIP-level insurance-risk/income sensitivity. These tests extend
+time, place, denominator, and counterexample coverage, but they remain
+separate units rather than a single causal chain.</p>
+<p>The <a href="../analysis/projects/us-cost-trust-politics/gss-financial-trust-historical-layer-v1.md">historical GSS financial/trust layer</a>
+now tests that association across anchor years from 1972 through 2024. The
+financial-satisfaction contrast persists but changes in level and gap, which
+strengthens the meaning arrow while ruling out a simple timeless one-direction
+interpretation. Variable availability, weights, survey mode, and the 2024
+design change remain explicit harmonization limits.</p>
+<p>In parallel, the consumer-power lane received a current CFPB API refresh on
+2026-09-13. The official aggregate snapshot reproduces 2,739,722 published
+complaints received in 2024 and records the current 17,729,722-record index
+metadata. This keeps response-route evidence current; it does not close the
+same-case verified-remedy, repeat-effort, trust, or exit arrow.</p>
+<p>The follow-up <a href="../analysis/projects/us-customer-automation-recourse/cfpb-annual-response-trend-2020-2025-v1.md">2020–2025 CFPB annual response trend</a>
+adds time to that institutional layer. Its visible response mix changes
+sharply, but product taxonomy, routing, and publication changes are retained as
+counterinterpretations rather than converted into a consumer-remedy trend.
+Its five annual observations are now also preserved in the machine-readable
+<a href="../analysis/records/us-cfpb-annual-response-trend-2020-2025.json">trend record</a>, under the
+shared trend-observation validation contract.</p>
+<p>The <a href="../analysis/projects/us-customer-automation-recourse/cfpb-case-route-sample-2024-v1.md">2024 CFPB case-route sample</a>
+now measures the receipt-to-company-routing handoff and product-conditioned
+visibility in a bounded case-level diagnostic. Mortgage and student-loan
+samples have materially longer upper routing tails than credit reporting, while
+same-day routing remains common; response labels still do not verify remedy.
+This closes a routing-observation gap but leaves the same-case outcome chain,
+including effort, adequacy, repeat contact, trust, switching, and exit, open.</p>
+<p>The <a href="../analysis/records/us-pew-news-platform-civic-engagement-2025.json">Pew news/platform/civic-engagement record</a>
+now promotes the undercovered platforms/data/attention lane into the shared
+trend registry. It preserves distinct engagement styles, partisan source-use
+and trust patterns, and influencer-news exposure, while keeping platform
+causation, accuracy, persuasion, and practical exit open.</p>
+<p>The <a href="../analysis/records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json">FTC Consumer Sentinel fraud/loss record</a>
+adds a separate administrative consumer-loss layer: report volume, reported
+loss incidence, dollar severity, and age-conditioned incidence versus median
+loss. Because Sentinel contains unverified reports from multiple contributors,
+this strengthens the exposure/loss arrow without becoming prevalence, verified
+harm, recovery, or trust evidence.</p>
+<p>The <a href="../analysis/records/us-federal-reserve-household-fraud-recovery-2024.json">Federal Reserve household fraud and recovery record</a>
+adds a distinct weighted household-survey layer: 21% of adults reported
+financial fraud or scams involving their money, while the non-credit-card
+subset supplies conditional loss, recovery, estimated net-loss, and recovery
+time measures. It strengthens the household exposure-to-loss-to-effort arrow
+and age comparison, but does not establish verified incidence, firm remedy,
+later trust, financial exit, or political action. Its dollar frame must remain
+separate from FTC administrative reported losses.</p>
+<p>The <a href="../analysis/records/us-ftc-consumer-sentinel-2025-extension.json">FTC 2025 extension</a>
+adds a later administrative comparison from official congressional testimony:
+approximately 3 million fraud reports and $15.9B in reported losses, including
+more than $3.5B in imposter-scam losses and more than $7.9B in investment-scam
+losses. This extends category and time coverage, but reporting propensity,
+coverage, definitions, and high-value cases remain live counterinterpretations;
+it does not establish population incidence, recovery, or trust change.
+The <a href="us-consumer-fraud-trust-002.html">fraud reporting-to-recovery finding</a>
+now places the 2025 administrative frame beside SHED household burden and
+CFPB response routes, with same-case remedy, trust, and exit still open.</p>
+<p>The <a href="../analysis/records/us-federal-reserve-price-adaptation-judgment-2025.json">Federal Reserve 2025 price-adaptation and judgment record</a>
+adds current household measures of price-related worsening, adaptive action,
+bill and food hardship, personal financial well-being, and national economic
+assessment. It strengthens the material-to-meaning bridge while preserving
+the distinct question universes and leaving attribution, trust, voting, and
+recovery open.</p>
+<p>The <a href="../analysis/records/us-census-htops-hps-material-trust-july-2026.json">July 2026 Census HTOPS/HPS record</a>
+adds a newer current pulse with weighted expense/price pressure, energy and
+food routes, anxiety/loneliness, and institutional-trust measures in one
+respondent sample. It improves same-round alignment without closing the
+event, attribution, longitudinal, replicate-precision, or political-action
+arrows. The accompanying <a href="us-cost-trust-politics-016.html">detailed finding</a>
+keeps those boundaries visible.</p>
+<p>The <a href="../analysis/records/us-census-htops-hps-material-trust-crosswave-2026.json">March–May–July 2026 Census cross-wave record</a>
+adds replicate-weighted subgroup and period comparisons from the corrected
+March and May files and July. The detailed <a href="us-cost-trust-politics-017.html">comparison finding</a>
+preserves the 2025-longitudinal versus 2026-cross-sectional design break and
+does not interpret snapshot movement as household recovery or trust formation.</p>
+<p>The <a href="../analysis/records/us-census-htops-material-trust-panel-april-june-2025.json">April–June 2025 HTOPS linked-panel record</a>
+adds 6,564 same-<code>SCRAMID</code> respondent links across material pressure, food,
+energy, work, and institutional measures. Its <a href="htops-2025-panel-linkage-audit-v1.html">linkage audit</a>
+preserves the selected-retention and weight boundary: transitions are
+descriptive for the retained sample, not nationally attrition-adjusted or
+causal.</p>
+<p>The <a href="../analysis/projects/us-cost-trust-politics/data/htops-2025-panel-attrition-audit.json">attrition audit</a>
+shows lower retention in several material-pressure cells, while the
+<a href="../analysis/projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json">cross-lagged audit</a>
+shows materially higher later food, energy, and job-loss shares among baseline
+expense-difficulty respondents, without a parallel Congress-confidence
+difference. These are selected-panel associations, not causal or population
+transition estimates.</p>
+<p>The <a href="../analysis/records/us-sipri-military-expenditure-state-capacity-2015-2024.json">SIPRI military-expenditure record</a>
+adds a geopolitical resource-allocation baseline: global, US, and NATO spending
+levels, growth, burden, and alliance concentration. It strengthens the
+state-capacity context but does not establish readiness, industrial realization,
+domestic incidence, alliance cohesion, deterrence, or leverage.</p>
+<p>The <a href="../analysis/projects/ai-work-control/usaspending-defense-award-acquisition-layer-v1.md">USAspending defense-award acquisition layer</a>
+now opens the next procurement gate. A reproducible FY2024 DoD award-level API
+retrieval returned 100 records with preserved request and response hash. This
+is procurement visibility, not total obligations, delivery, production,
+readiness, supplier concentration, or local/state benefit.
+The follow-up <a href="../analysis/projects/ai-work-control/usaspending-defense-transaction-profile-v1.md">transaction profile</a>
+now computes the visible page's recipient, performance-state, NAICS, and
+product/service concentration: 100 transactions, $69.67B page amount, and 34
+named recipients. It is a case-selection diagnostic, not a market-share or
+delivered-capability estimate.
+The <a href="../analysis/projects/ai-work-control/usaspending-jassm-lrasm-award-detail-v1.md">JASSM/LRASM award-detail case</a>
+then traces one high-value transaction to a $7.202B obligation, 74 subawards,
+a 2024–2033 performance window, one-offer/noncompeted metadata, US ownership,
+and Florida location. Delivery, production, workforce, inputs, and strategic
+response remain open.
+Its 19-action history now adds time-ordered modifications through April 2026,
+including zero-dollar actions and later positive funding actions; this prevents
+the initial award amount from being mistaken for a complete production or
+delivery history.
+The persisted subaward extract now returns 74 records across 51 reported
+recipients totaling $1.143B; this opens a supplier-structure lead, while still
+not establishing tier completeness, ownership, inputs, workforce, delivery, or
+local incidence.
+An official DLA CAGE lookup now reconciles the largest recipient's exact legal
+name to CAGE 81J97, UEI SL2KEMFACM69, an active Merrimack, NH facility, and a
+linked BAE Systems, Inc. parent CAGE. Because the USAspending subaward row does
+not carry that identifier, facility-level attribution remains unverified.
+The parent CAGE resolves one level further to BAE Systems plc, preserving a
+three-level entity hierarchy (group, US subsidiary, reported Merrimack entity)
+without treating corporate hierarchy as facility output or local benefit.
+The BAE parent CAGE now resolves to an active London, UK BAE Systems plc
+record, completing the public entity chain from the reported Merrimack entity
+through BAE Systems, Inc. to the group parent. The chain remains contextual;
+production, delivery, and control-rights effects are not established.
+The comparison pass adds General Dynamics-OTS: a $80.55M reported subaward
+with a case-assembly description, while three active DLA CAGE records under the
+same parent point to Hampton, AR; Colchester, VT; and Saco, ME. This reinforces
+that legal-name matching cannot assign a subaward to a specific plant.
+The General Dynamics parent CAGE now resolves to an active Reston, VA record,
+so both comparison suppliers have a documented parent-to-multiple-facility
+structure. Neither case yet supplies a facility-bearing subaward or delivery
+record.
+The new production/integration realization record adds a reported October 2024
+capacity-expansion action and a March 2025 initial LRASM–F-35B integration
+flight test, with a DoD Lot 22/FMS contract notice retained as corroborative
+context. These milestones advance the realization arrow but do not establish
+output, acceptance, inventory, or operational readiness.
+The geopolitical realization branch now adds Poland's May 2024 Ministry of
+National Defence agreement for approximately $735M in JASSM-ER, with planned
+2026–2030 deliveries and an explicitly stated inventory/security rationale.
+The later December 2024 Polish MOD modernization briefing states 2028–2030 in
+its JASSM discussion, creating a schedule-vintage conflict without a visible
+contract amendment; neither source supplies a delivery or acceptance event.
+The same record now preserves a separate January 2017 Polish Ministry
+announcement that the first guided JASSM missiles had been delivered to the
+Poznań-Krzesiny F-16 base. This establishes an earlier completed delivery
+stage, useful as a historical comparator, but it does not convert the 2024
+JASSM-ER schedule into observed delivery or operational availability. The
+current arrow therefore remains procurement intent → planned delivery →
+acceptance/integration/inventory → realized external or political response;
+deterrence, alliance cohesion, and changed adversary behavior remain open.</p>
+<p>The SHED 2024–2025 financial-path health/care comparison is also preserved as
+six validated conditional trend observations, keeping the health and adult-care
+entry universes separate rather than pooling them into one stress index.
+The ATUS 2023–2024 published care/work layer is now also represented as a
+validated population trend record, adding eldercare prevalence, care-day
+intensity, employment and age conditioning, and household/nonhousehold
+counterexamples to the shared trend registry.
+The BLS union and bargaining-room layer is now represented as a validated
+2024–2025 national representation record, adding formal workplace voice as a
+conditioning variable while preserving the 2025 collection-break warning.
+The CPS 2024 turnout/participation-friction layer is now represented as a
+validated political-voice record, preserving the distinct reported-barrier
+categories and the nonvoter denominator rather than reducing participation to
+one disengagement measure.
+The SIPP SNAP transition × following-hardship layer is now represented as a
+validated public-system record with transition-specific denominators and
+Fay-BRR intervals for rent/mortgage and utility hardship.
+The LBNL data-center energy baseline is now represented as a validated national
+infrastructure record, retaining historical use, modeled reference demand,
+sensitivity range, and the distinction between load projection and local or
+state incidence.
+The Romania–Malaysia AI-infrastructure comparison is now represented as a
+validated case-level record, preserving public and private project milestones
+while keeping realized capability, replaceability, and geopolitical leverage
+open.
+The BFS–BDS sector-divergence layer is now represented as a validated firm/place
+record, preserving application denominators, realized establishment/job flows,
+and the sector counterexample where entry coexists with negative net-job
+creation.
+The ANES 2024 panel judgment/action layer is now represented as a validated
+political-meaning record, preserving the two valid cross-tab denominators and
+the non-monotonic trust/vote interpretation boundary.
+The USDA 2024 food-security layer is now represented as a validated household-
+security record, preserving low versus very low severity, child-household
+shielding, and assistance-participation universes.
+The BLS food-at-home CPI layer now supplies a validated 2020–2024 national
+price-pressure record beside it, preserving the distinction between slower
+inflation and a lower price level.
+The 2024–2025 SHED food-pressure record adds annual household snapshots,
+income conditioning, and multiple price-response actions, while explicitly
+retaining the non-panel and non-food-specific boundary.
+The AI work/control finding is now represented as a validated cross-source
+record, preserving adoption, productivity, time, and task-performance units
+without promoting them to a general worker-control or employment trend.
+The OECD employer-survey record now adds a distinct institutional exposure
+layer: US managers report widespread instruction, monitoring, and evaluation
+tools alongside worker-impact concerns and governance measures. It does not
+observe worker exposure, discretion, appeal, health, bargaining, or household
+outcomes, so the worker-control arrow remains open.
+The NBER W35677 public DWA/IWA/BWA task indexes are now included in that
+registry with retrieval hashes and suppression rules; worker-level subgroup,
+crosswalk-version, and workplace-outcome links remain open.
+The follow-up O<em>NET 31.0 audit finds unique normalized-label matches for 1,653
+of 1,655 DWA rows and all 322 IWA rows, but no exact identifier matches; all
+nine BWA IDs now have transparent O</em>NET GWA prefix members while semantic
+aggregation remains open. This is metadata evidence, not evidence of worker
+control or downstream outcomes.
+The published <a href="../analysis/projects/ai-work-control/rapid-adoption-published-evidence-layer-v1.md">Management Science rapid-adoption layer</a>
+adds a separate late-2024 broad adoption and assisted-hour anchor; its
+replication files are access-limited, so the estimate is not merged into the
+W35677 task-index series.
+The <a href="../analysis/records/us-bis-household-monetary-policy-beliefs-2026.json">BIS household monetary-policy record</a>
+adds a dated randomized expectations-to-spending layer, with financial-literacy
+and Federal Reserve-knowledge heterogeneity. It remains a survey treatment and
+intended/short-run behavior result, not an actual-rate-to-household-to-politics
+panel.
+The <a href="../analysis/records/us-nber-fed-partisan-trust-2024.json">NBER Federal Reserve partisan-trust record</a>
+and <a href="us-fed-partisan-trust-001.html">detailed finding</a>
+add perceived institutional alignment, trust, information demand, and
+expectation updating. This sharpens the long-term program's legitimacy question
+but does not merge units with BIS, SHED, or political-outcome data.
+The IMF April 2026 WEO layer adds conditional global and US macro projections
+plus cross-country defense/conflict fiscal trade-offs; household incidence,
+social legitimacy, and alliance or external-behavior outcomes remain open.
+The World Bank Poverty, Prosperity, and Planet layer adds global poverty,
+shared-prosperity, climate-risk, and data-coverage context, preserving its
+comparative rather than US-household scope.
+The new <a href="ai-work-control-026.html">macro-to-legitimacy synthesis</a>
+connects these international layers to SIPRI, Federal Reserve, and ANES as a
+bounded end-to-end research route; it does not pool their units or claim the
+downstream exposure-to-action arrows are established.
+The new <a href="ai-work-control-031.html">AI capability/shared-control synthesis</a>
+consolidates the NBER, BIS, BEA, IMF, OFR, and World Bank layers around a
+different open arrow: measured productivity or capability does not establish
+shared ownership, worker discretion, household benefit, public oversight, or
+state replaceability. It keeps firm, account, modeled, institutional, and
+country units separate and makes the next compatible panels explicit.
+The <a href="world-bank-wbes-ai-access-recheck-2026-09-14.html">World Bank Enterprise Surveys AI access recheck</a>
+reconfirms the US firm follow-up survey and the authenticated microdata gate;
+no firm adoption or employment estimate is inferred from the public metadata.
+The new <a href="ai-work-control-063.html">public US firm-capacity baseline</a>
+adds the official 2024 profile's size-conditioned training, employment-growth,
+outage, finance, and obstacle measures. It strengthens firm-context coverage
+without turning the public baseline into an AI estimate or a worker-control
+claim; the authenticated AI follow-up remains the next firm gate.
+The <a href="ai-work-control-064.html">firm-to-worker comparison</a>
+places firm complements beside NBER task adoption, BLS representation, and
+JOLTS mobility. It sharpens the four-gate boundary—capacity, use, voice, and
+exit—without pooling their denominators or claiming an end-to-end worker
+outcome.
+The new <a href="ai-work-control-071.html">OFR institutional-finance finding</a>
+extends that four-gate logic into public financial capacity. OFR's 2022–2025
+annual reports show data-gap pilots, cloud and analytics infrastructure, new
+repo-market visibility, AI workflow use, and a reported FY2025 workforce/budget
+contraction. This strengthens the public-capacity middle between financial
+infrastructure and household/firm exposure, but it is an institutional
+self-report and does not establish AI productivity, financial stability,
+consumer protection, or household recovery. The next test is a time-aligned
+institutional-to-household chronology linking collection milestones to firm,
+account, complaint, payment, remedy, trust, and exit evidence without treating
+the source units as the same cases.
+The <a href="../analysis/records/us-bls-jolts-national-mobility-2020-2025.json">BLS JOLTS national mobility record</a>
+adds a seasonally adjusted 2020–2025 establishment-rate context: job openings
+and quits peaked in 2022 and were lower by 2025, alongside lower hiring. This
+helps locate the work/control lane in a cooling mobility environment, but it
+does not identify worker-level control, job quality, pay, household effects,
+or bargaining power.
+The <a href="../analysis/records/us-bls-jolts-national-mobility-2026-ytd.json">2026 partial-year JOLTS refresh</a>
+extends the public series through July: openings sit slightly above the 2025
+annual mean while hires are similar and quits remain lower. The <a href="ai-work-control-037.html">detailed
+finding</a> preserves
+the preliminary July and establishment-versus-worker boundary.</p>
+<p>The <a href="../analysis/records/us-bls-ces-industry-earnings-2026-ytd.json">2026 CES earnings record</a>
+adds a separate January–August pay context for four selected industries. The
+<a href="ai-work-control-038.html">detailed finding</a>
+keeps CES establishment averages distinct from JOLTS rates and does not
+interpret rising partial-year pay as worker control, bargaining power, or an
+AI effect.
+The <a href="../analysis/records/us-bls-employment-situation-2026-august.json">August 2026 Employment Situation record</a>
+adds a current CPS/CES layer: unemployment, participation, pay, hours, payroll
+growth, long-term unemployment, and selected industry changes. The <a href="ai-work-control-039.html">detailed
+finding</a> keeps
+household and establishment universes separate and does not promote a positive
+payroll month into worker security, control, or an AI effect.
+The follow-up <a href="ai-work-control-040.html">labor-to-household-room finding</a>
+connects that current labor surface to SIPP same-person resource/job timing,
+Federal Reserve liquidity and repayment measures, and New York Fed aggregate
+credit exposure. It strengthens the material-to-work-control bridge while
+explicitly leaving the same-worker causal and political-action arrows open.</p>
+<p>The <a href="../analysis/records/us-bea-personal-income-outlays-2026-july.json">BEA July 2026 income-and-outlays record</a>
+adds a current national-accounts benchmark for personal income, disposable
+income, PCE, services-versus-goods composition, outlays, and saving. The
+<a href="us-household-financial-pressure-007.html">household-pressure finding</a>
+keeps those aggregate flows separate from household buffers, debt stress, and
+consumer remedy; the September 30 annual update remains a required vintage
+recheck.
+The <a href="../analysis/records/us-bea-gdp-corporate-profits-2026q2.json">BEA Q2 2026 growth/profits record</a>
+adds real GDP, private domestic demand, price indexes, and corporate profits as
+a separate macro-firm layer. The <a href="ai-work-control-041.html">detailed finding</a>
+keeps output and profit growth distinct from worker control, household benefit,
+and AI causality; the September 30 annual update remains a required vintage
+check.</p>
+<p>The <a href="../analysis/records/us-bls-cpi-2026-august.json">August 2026 BLS CPI record</a> adds the
+dated aggregate price checkpoint: gasoline and energy contributed materially
+to the monthly movement while shelter and food remained separate category
+surfaces. CPI does not identify household incidence, substitution, hardship,
+or political response; the next test remains a same-unit or matched-place
+exposure design.</p>
+<p>The <a href="../analysis/records/us-bls-ppi-2026-august.json">August 2026 BLS PPI record</a> adds the
+upstream seller-side layer: final demand, energy, diesel, and intermediate
+goods moved on distinct scales. PPI is a transmission surface rather than
+consumer pass-through, firm-margin, household-burden, or political-response
+evidence; the next test is a named product or sector with a traceable path.</p>
+<p>The <a href="../analysis/records/us-bls-jolts-selected-industry-mobility-2022-2025.json">selected-industry JOLTS record</a>
+conditions that baseline on manufacturing, professional/business services,
+education/health services, and leisure/hospitality. The 2022-to-2025 endpoint
+comparison shows uneven cooling across sectors, strengthening the
+heterogeneity warning; it still does not identify worker-level control, job
+quality, pay, or household consequences.
+The <a href="../analysis/records/us-bls-jolts-union-industry-context-2025.json">JOLTS/union industry context record</a>
+now places 2025 sector mobility beside CPS formal membership for the same four
+named sectors. This identifies comparison cells for worker-level research,
+while retaining different sampling frames, denominators, and the CPS 2025
+October collection break. It is not evidence of a union effect or worker
+control.
+The <a href="../analysis/records/us-bls-jolts-union-earnings-industry-context-2025.json">JOLTS/union/earnings context record</a>
+adds CES average hourly earnings to the same four-sector mobility and
+representation map. This supplies pay context for worker-level comparison,
+while preserving that CES, JOLTS, and CPS use different units and frames; it
+does not establish job quality, control, or a union effect.
+The <a href="us-cost-trust-politics-011.html">worker-power finding</a>
+turns these three records into a bounded interpretation: mobility, formal
+voice, and pay are separate surfaces of optionality. A cooling aggregate labor
+market therefore cannot be translated into one cultural or political meaning
+of worker power.
+The NHTS mobility comparison is now represented as a validated place/mobility
+record, preserving separate household, person, and work-trip denominators and
+the prior-run raw-archive reproducibility boundary.
+The SHED care/work distribution is now represented as a validated six-cell
+record, preserving care status, employment position, adaptation outcomes, and
+the absence of care-hour or causal identification.
+The large-load state-rate comparison is now represented as a validated
+policy-stage record, preserving approved, proposed, evidentiary, modeled, and
+public-participation units without calling them realized incidence.
+The Chicagoland immigration-attitude case is now represented as a validated
+local meaning record, preserving area samples, margins of error, field dates,
+and separate legal-inclusion policy measures without nationalizing the result.
+The ANES immigration meaning/action cross-tabs are now represented as a
+validated national respondent record, preserving complex-design uncertainty,
+distinct interpretation domains, trust, and reported vote.</p>
+<p>The SHED panel adaptation condition-path layer has now been rerun against the
+official 2024 and 2025 CSV archives. The corrected output confirms 4,419 paired
+records and preserves path-specific persistence for cheaper products, reduced
+use, saving cuts, borrowing, and delayed purchases. The <a href="../analysis/records/us-shed-panel-adaptation-condition-path-2024-2025.json">machine-readable
+record</a> and
+<a href="../analysis/projects/us-household-financial-pressure/shed-panel-reproduction-audit-2026-09-13.json">reproduction audit</a>
+make the raw-file checksums, output hash, and metric-specific denominators
+durable; causal event timing and political meaning remain open.</p>
+<p>The ATUS time/care lane has moved past its prior download gate. The official
+2024 respondent, activity, and activity-summary ZIPs were obtained and the
+<a href="../analysis/records/us-atus-time-care-microdata-2024.json">microdata record</a> now covers
+7,669 diary respondents with weighted work, household labor, care, travel,
+socializing, secondary-childcare, and eldercare measures. This strengthens the
+time-distribution evidence; it remains a one-day diary and does not close the
+same-event or same-household causal arrow.</p>
+<p>The 2025 ATUS files now extend that layer into an annual comparison. The
+<a href="atus-time-care-annual-comparison-2024-2025-v1.html">2024–2025 comparison</a>
+preserves separate annual samples, replicate-weight errors, and the boundary
+between population movement and individual change; it does not convert ATUS
+into a panel.</p>
+<p>The new <a href="us-household-calendar-integration-011.html">eldercare roster comparison</a>
+adds the relational boundary that aggregate care minutes miss: about 79.0% of
+2024 provider respondents and 80.0% of 2025 provider respondents had at least
+one listed non-household recipient, while listed-recipient multiplicity rose
+from 1.326 to 1.434 per provider. Household and non-household indicators can
+overlap, and recipient rows are not independently weighted. This establishes
+care's cross-household reach, not burden, travel, work displacement, or a
+longitudinal trend.</p>
+<p>The follow-up <a href="us-household-calendar-integration-012.html">provider-time comparison</a>
+uses the same ATUS diary/activity frame to compare providers with respondents
+without a roster record. Providers averaged more household work and travel and
+less paid work and socializing in both annual samples, with design-based
+replicate standard errors. This is a descriptive profile, not a matched or
+causal care effect; age, health, employment, family composition, recipient need,
+and diary timing remain unadjusted.</p>
+<p>The <a href="us-household-calendar-integration-013.html">standardized provider-time comparison</a>
+now addresses the first composition concern by standardizing to supported
+age-band × sex × labor-force-status cells and propagating the ATUS replicate
+weights. The household-work, travel, and socializing profile persists in both
+years; the paid-work difference is smaller and imprecise. Health, family,
+recipient, occupation, schedule, and dated-care selection remain open.</p>
+<p>The <a href="us-household-calendar-integration-014.html">richer standardized comparison</a>
+adds household-child status and broad education. Care, household-work, and
+travel differences remain in both years; the 2024 social-time contrast is
+stronger than the 2025 one, and the paid-work contrast is not stable enough to
+call a work-loss effect. This is a robustness result with annual variation,
+not a causal care estimate.</p>
+<p>The consumer-recourse lane now extends the official CFPB aggregate trend
+through 2025 in <a href="us-customer-automation-recourse-015.html">the visible endpoint finding</a>.
+The 2025 published-record mix shifts toward explanation and away from
+non-monetary and monetary response labels, while published narrative presence
+falls. The current index includes an in-progress category and a larger product
+mix; this is a change in the institutional record, not a verified change in
+consumer remedy, trust, or exit.</p>
+<p>The consumer-finance lane now has a full-paper NBER pass in the <a href="../analysis/projects/us-household-financial-pressure/nber-w35067-payment-incidence-layer-v1.md">payment-
+incidence layer</a>.
+Working Paper 35067 reports approximately $30 billion in annual modeled
+redistribution from cash/debit users to credit-card users, with consumer
+sorting and merchant fee heterogeneity reducing the estimate by 25%; an
+estimated $9.2 billion is associated with the reported income split. The new
+<a href="../analysis/records/us-nber-payment-rewards-redistribution-2026.json">trend record</a>
+preserves merchant coverage, period, model status, PDF hash, and the boundary
+between merchant incidence and household welfare. The merchant raw data,
+same-household exposure, and later financial or political outcomes remain
+open.</p>
+<p>The companion <a href="../analysis/projects/us-household-financial-pressure/cfpb-credit-card-market-2025-layer-v1.md">CFPB 2025 credit-card market layer</a>
+adds the market-side conditions: 2024 balances above $1.2 trillion, an
+average reported APR of 25.2%, $160 billion in interest assessed, $31.3
+billion in fees assessed, and $9.8 billion in disputed charges. Its multiple
+metric-specific universes, credit-tier conditioning, and distinction between
+assessed and paid amounts remain explicit. This strengthens the payment-cost
+and recourse context without turning market totals into household welfare or
+verified remedy.</p>
+<p>The <a href="../analysis/projects/us-household-financial-pressure/cfpb-tccp-card-terms-2025-layer-v1.md">CFPB Terms of Credit Card Plans product layer</a>
+now adds the upstream offer surface for July–December 2025: 663 product rows
+from 195 named institutions, 625 purchase-APR offers, 396 rows reporting
+credit-tier APR variation, and separate promotion, fee, and rewards fields.
+The product-row counts are not approval, account, or market-share measures;
+the new <a href="../analysis/records/us-cfpb-tccp-card-terms-2025.json">trend record</a> retains the
+spreadsheet hash and missing-field boundaries.</p>
+<p>The <a href="../analysis/projects/us-household-financial-pressure/cfpb-tccp-terms-trend-2024-2025-layer-v1.md">CFPB TCCP 2024–2025 comparison</a>
+now adds time to the product-offer surface. Reported product rows rose from
+566 to 663 and named institutions from 145 to 195, while the product-level
+median purchase APR moved from 25.74% to 24.49%. Because the files are not a
+linked product or account panel and their field surfaces differ slightly,
+these are offer-surface changes, not market growth or cheaper credit for a
+borrower. The <a href="../analysis/records/us-cfpb-tccp-terms-trend-2024-2025.json">trend record</a>
+preserves both hashes and the comparison boundary.
+The <a href="us-household-financial-pressure-004.html">card-offer surface finding</a>
+now interprets the comparison alongside NBER modeled payment incidence and
+Federal Reserve household adaptation, without promoting visible offer changes
+to borrower-weighted cost or practical access.</p>
+<p>The <a href="../analysis/projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md">material/time/care acquisition plan</a>
+now records the minimum same-unit fields, existing-source fit, acquisition
+routes, and go/no-go rules for this continuation pass.</p>
+<p>The first source audit changes the acquisition decision: PSID is a promising
+repeated economic, employment, health, and family backbone, but its detailed
+time-use material is supplemental and population-specific. It is not yet a
+complete all-adult material/time/care panel; the full end-to-end claim remains
+open until the relevant waves and supplements are verified.</p>
+<p>The <a href="../analysis/projects/us-digital-habits-attention/pew-teens-social-ai-2025-layer-v1.md">Pew teen social-media and chatbot layer</a>
+adds a defined adolescent pathway: a 1,458-teen survey reports 64% chatbot
+use, 28% daily use, and frequent TikTok, Instagram, Snapchat, and YouTube use,
+with age, income, and race/ethnicity differences. The <a href="../analysis/records/us-pew-teens-social-ai-2025.json">teen trend record</a>
+preserves the dyad sample, subgroup universes, PDF hash, and self-report
+boundary. It strengthens the platforms/data/attention lane without proving
+dependence, harm, persuasion, or costly exit.
+The new <a href="us-digital-habits-attention-005.html">digital-life synthesis</a>
+places the adult, teen, chatbot, news, and civic-engagement records on one
+bounded map. It shows that platform exposure splits by life stage and purpose;
+reach, frequency, trust, action, and practical exit remain separate endpoints.</p>
+<p>The deeper file-structure check confirms a large longitudinal base—9,152
+families and 85,536 persons reported for the 2023 PSID family and cross-year
+individual files. A codebook audit then verified wave-specific fields for
+repeated typical-week housework, personal care, shopping, child/adult care,
+volunteering, leisure, social interaction, rushed-time, family meals, health,
+life satisfaction, and family longitudinal weights;
+the questionnaire audit also found repeated typical-week work,
+family-meal, child-care spending, and health fields
+in 2019, 2021, and 2023. This makes PSID viable for a bounded many-family
+material/time/care comparison, while DUST/CDS/TAS remain targeted supplements.
+The next acquisition step is still a wave-level overlap, retention, weight,
+and missingness audit; these fields do not automatically establish a dated
+causal trigger or political-meaning outcome.</p>
+<p>The codebook pass also identifies a bounded subjective endpoint: the 2023
+Family File includes life satisfaction, alongside family-composition change,
+interview mode, and a family longitudinal weight. This can test whether
+material/time/care patterns co-occur with reported wellbeing across many
+families; it is not a substitute for same-event attribution, trust, political
+action, or voting.</p>
+<p>The <a href="../analysis/projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md">PSID material/time/care extract specification</a>
+now fixes the first many-family unit, candidate fields, comparison cells, and
+quality gates for that acquisition.</p>
+<p>The official PSID packaged-data route was rechecked on 2026-09-13. The 2019,
+2021, and 2023 main Family Files and a 1968–2023 Cross-year Individual File are
+listed, but an unauthenticated download redirects to the ZIP warning requiring
+a registered account and accepted Conditions of Use. The cross-year individual
+package can cover the person-level side of the structural gate, while the
+wave-specific Family Files remain needed for family-level fields. No PSID
+microdata are present locally; the material/time/care result remains an
+acquisition target, not an executed panel estimate.</p>
+<h2 id="coverage-finding">Coverage finding</h2>
+<p>All 14 themes in the <a href="US-BROAD-THEME-INVENTORY_V1.html">broad theme inventory</a>
+have a current evidence anchor, an identified measurement level, and a named
+missing arrow in the <a href="US-BROAD-THEME-COVERAGE-MATRIX_V1.html">coverage matrix</a>.
+The matrix currently contains 14 theme rows and 105 local or external evidence
+links; the local-link audit found no missing targets on 2026-09-12.</p>
+<p>Coverage means “there is a source and a bounded question.” It does not mean
+that a theme has been demonstrated as a single trend or that its arrows have
+been causally joined.</p>
+<h2 id="the-14-themes-in-plain-language">The 14 themes, in plain language</h2>
+<table>
+<thead>
+<tr>
+<th>Theme</th>
+<th>What is currently measurable</th>
+<th>Main missing arrow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. Household room and consumption</td>
+<td>Prices, financial condition, substitution, delay, borrowing, food, debt, and repeated adaptation</td>
+<td>Exact price/payment event → sacrificed or protected need → recovery</td>
+</tr>
+<tr>
+<td>2. Time as a hidden price</td>
+<td>Paid work, care, travel, multiple jobs, household labor, and service effort</td>
+<td>Waiting/paperwork/travel → displaced work, care, or social time</td>
+</tr>
+<tr>
+<td>3. Consumer power and recourse</td>
+<td>Complaint access, response timing, response categories, narrative visibility, review, and switching signals</td>
+<td>Contact → verified remedy → repeat contact, trust, or exit</td>
+</tr>
+<tr>
+<td>4. Platforms, data, and attention</td>
+<td>Source ecosystems, news use, ranking/privacy/identity findings, and civic engagement types</td>
+<td>Platform exposure → interpretation → durable belief or action</td>
+</tr>
+<tr>
+<td>5. Work, control, and bargaining</td>
+<td>AI system functions, work transitions, job lock, schedule, productivity, and worker voice</td>
+<td>Tool/rule exposure → decision rights, pay, health, and bargaining</td>
+</tr>
+<tr>
+<td>6. Care, health, and social reproduction</td>
+<td>Care costs, delayed care, unpaid support, health debt, work loss, and family time</td>
+<td>Dated care event → household, work, health, and dignity recovery</td>
+</tr>
+<tr>
+<td>7. Housing, place, and mobility</td>
+<td>Rent, insurance, energy, transport, disaster, business, repair, and move/stay conditions</td>
+<td>Place risk/bill → same-place repair, health, service, or mobility outcome</td>
+</tr>
+<tr>
+<td>8. Unequal exposure and status</td>
+<td>Race, resource, tenure, disability, children, migration, age, place, and access comparisons</td>
+<td>Exposure difference → mechanism, remedy, and downstream outcome</td>
+</tr>
+<tr>
+<td>9. Trust, identity, and cultural meaning</td>
+<td>Financial worry, government trust, perceived capture/waste, source trust, dignity, belonging, and status</td>
+<td>Experience → attribution, identity, and meaning in the same respondent/case</td>
+</tr>
+<tr>
+<td>10. Public systems and policy feedback</td>
+<td>Eligibility, administrative burden, receipt, interruption, SNAP transitions, and recorded reasons</td>
+<td>Notice/route/decision → security, interpretation, action, and later demand</td>
+</tr>
+<tr>
+<td>11. Political judgment and collective action</td>
+<td>Economic judgment, trust, vote reports, news environments, discussion, contact, volunteering, turnout, registration, and reported nonvoting barriers</td>
+<td>Measured exposure → blame/information → action or vote</td>
+</tr>
+<tr>
+<td>12. Firm, sector, and market power</td>
+<td>Pricing, complaints, business formation, ownership, productivity, and risk-transfer records</td>
+<td>Firm decision → recipient cost/control → market or public response</td>
+</tr>
+<tr>
+<td>13. Infrastructure, technology, and dependency</td>
+<td>AI/cloud, energy, capital, skills, ownership, capacity, and provider dependence</td>
+<td>Capacity → local learning, replaceability, and public control</td>
+</tr>
+<tr>
+<td>14. Geopolitical and state consequences</td>
+<td>Trade, migration, finance, infrastructure, industrial capacity, and country/firm dependence</td>
+<td>Domestic capability/distribution → bargaining, alliance, or external leverage</td>
+</tr>
+</tbody>
+</table>
+<h2 id="recent-depth-added">Recent depth added</h2>
+<ul>
+<li><strong>Public-system financial context:</strong> the new <a href="us-safety-net-access-012.html">SIPP SNAP buffer-and-credit
+  bridge</a>
+  places receipt transitions, following hardship, and work/resource clocks
+  beside Federal Reserve liquidity and credit-exposure layers. The units are
+  deliberately not pooled; same-episode notice, benefit amount, financial
+  coping, household outcome, trust, and action remain open.</li>
+<li><strong>Household-unit control:</strong> the SIPP reference-person selection diagnostic
+  now includes a hashed 5,203-variable schema audit. Only <code>WPFINWGT</code> appears as
+  a weight-related variable in the current surface, so selected household
+  records remain a sensitivity route and not an official household-weighted
+  estimate.</li>
+<li>
+<p><strong>Geopolitical fiscal bridge:</strong> the capacity-to-leverage finding now adds the
+  IMF April 2026 WEO defense-boom estimates for financing, debt, and
+  social-spending trade-offs. They define the macro middle of the chain but do
+  not establish US household incidence or realized external leverage.</p>
+</li>
+<li>
+<p><strong>Consumer and financial persistence:</strong> the SHED 2024–2025 panel follows
+  4,419 recontacted respondents, measuring financial-condition transitions and
+  repeated price adaptations. The new condition-path comparison shows a
+  descriptive persistence/re-entry gradient by worsening, same, or improving
+  financial path, but no exact bill cause or political consequence.</p>
+</li>
+<li><strong>Reproducible panel depth:</strong> the available SHED 2024–2025 files reproduce
+  the 4,419-person condition-path persistence/re-entry comparison. This adds
+  same-respondent depth to the broad consumer trend, but does not remove
+  recontact selection, nonresponse, or the missing dated price/event cause.</li>
+<li><strong>Distributional adaptation depth:</strong> SHED 2025 now has a recorded weighted
+  subgroup layer across income, age, ethnicity, and employment. It shows
+  different combinations of substitution, reduced use, saving cuts, borrowing,
+  delayed purchases, and emergency capacity; subgroup mechanisms and
+  uncertainty intervals remain open.</li>
+<li><strong>Intersectional panel depth:</strong> the SHED panel now has a reproducible
+  income-band × financial-condition-path comparison for 4,419 respondents.
+  It sharpens the resource/trajectory question while retaining non-monotonic
+  cells, recontact selection, and the absence of a dated event or variance
+  estimate.</li>
+<li><strong>Environmental cost and political meaning:</strong> the NBER policy-belief study
+  is now placed beside EIA and DOE energy-burden evidence. Expected cost,
+  actual household burden, fairness, protection, policy support, and
+  environmental results are explicitly separate; the same-respondent
+  bill-to-belief-to-action path remains open.</li>
+<li><strong>Money-to-time transfer:</strong> SHED adaptation, ATUS work/care/social time,
+  care-cost, and CPS participation-friction layers are now organized into a
+  single bridge. Extra work, unpaid care, travel, waiting, and civic loss are
+  kept separate; the same-person displacement path remains open.</li>
+<li><strong>Care/health distribution:</strong> SHED 2025 now has weighted adaptation cuts by
+  medical-cost concern, unpaid adult care, self-rated health, and outside
+  medical help. Major medical concern and poorer health align with more
+  reduced use, borrowing, and lower buffers; exact event causation and recovery
+  remain open.</li>
+<li><strong>Care/work and life-stage distribution:</strong> SHED 2024 now compares care-linked
+  adaptations by employment status and age. Caregivers report more reduced use,
+  borrowing, and savings cuts within each subgroup; care hours, recipient need,
+  paid replacement, and causal work effects remain open.</li>
+<li><strong>Panel recovery and reversal:</strong> improving-condition respondents show both
+  endings and persistence of prior adaptations. This prevents “financial
+  improvement” from being treated as complete recovery or persistent behavior
+  from being treated as proof that conditions did not improve.</li>
+<li><strong>Housing/insurance distribution:</strong> SHED 2025 now records owner coverage,
+  premium affordability, desired additional coverage, lender requirements, and
+  shopping by income band. Lower-income owners show greater coverage and
+  affordability pressure; renewal, claim, repair, move/stay, and political
+ consequences remain open.
+The <a href="../analysis/records/us-federal-reserve-housing-insurance-risk-2025.json">Federal Reserve 2025 housing and insurance risk record</a>
+adds renter arrears and homeowner coverage/affordability differences to this
+lane. It strengthens the income and place distribution while keeping claims,
+repair, insurer decisions, move/stay, health, debt, and political consequences
+open.
+The <a href="../analysis/projects/us-housing-insurance-risk/treasury-fio-homeowners-insurance-market-layer-v1.md">Treasury FIO market layer</a>
+now adds 2018–2022 ZIP-code market evidence: the highest climate-risk group
+had premiums 82% above the lowest-risk group and approximately 80% higher
+nonrenewal rates. Household affordability, coverage loss, repairs, moves, and
+local political response remain unlinked.
+The <a href="../analysis/projects/us-housing-insurance-risk/treasury-fio-census-zcta-context-layer-v1.md">Treasury × Census ZCTA context layer</a>
+matches 98.0% of the 2022 market rows to income, poverty, and tenure context.
+It shows higher mean premiums in higher-income places but somewhat higher mean
+nonrenewal in lower-income places, a useful counterexample to a single wealth
+gradient. The join remains descriptive and ZIP/ZCTA-approximate.
+The <a href="../analysis/projects/us-housing-insurance-risk/treasury-fio-fema-nri-hazard-context-layer-v1.md">Treasury × FEMA NRI hazard layer</a>
+now adds modeled county expected-loss ratings to 99.0% of the 2022 market rows.
+Premium and nonrenewal profiles differ across ratings but are not monotonic;
+the new <a href="us-housing-insurance-risk-001.html">housing-payment/coverage synthesis</a>
+keeps renter arrears, homeowner coverage gaps, market availability, residual
+backstops, and modeled hazard as separate risk stages. It makes the next
+household/property panel explicit: coverage adequacy, claims, repairs, and
+move/stay—not just premium or arrears prevalence.
+the county assignment, modeled-risk vintage, asset mix, and insurer mechanisms
+remain limitations.
+The <a href="../analysis/projects/us-housing-insurance-risk/gao-homeowners-insurance-2019-2024-layer-v1.md">GAO 2019–2024 homeowners-insurance layer</a>
+extends the market window: national real premiums rose 3%, while some southern
+coastal areas rose at least 25% above inflation; GAO also adds risk-model and
+state filing-process evidence. Estimated prices and institutional process
+measures still do not identify household outcomes.
+GAO also records 35 states operating FAIR or beach plans as of August 2025,
+adding a public backstop and risk-allocation stage. Plan presence is not
+enrollment, adequacy, or proof of private-market failure; the distribution of
+cost and deficit risk remains open.
+The <a href="../analysis/projects/us-housing-insurance-risk/california-fair-plan-residual-market-layer-v1.md">California FAIR Plan residual-market layer</a>
+adds a state time series: policies in force rose 164.8% and insured exposure
+332.1% from September 2021 to September 2025, with a June 2026 headline update.
+This measures backstop growth, not household displacement or private-market
+failure, and the burden/claims/repair consequences remain open.
+The <a href="../analysis/projects/us-housing-insurance-risk/california-fair-private-market-crosswalk-layer-v1.md">California FAIR/private-market crosswalk</a>
+matches 99.9% of the 2022 FAIR-share ZIP rows and finds higher voluntary
+nonrenewal among the highest FAIR-share quartile (12.40% versus 9.89%). The
+denominators differ and the result is a ZIP-level association, not a causal
+market-transition or household result.</li>
+<li><strong>Consumer-pressure synthesis:</strong> BLS, SHED, USDA, ATUS, SIPP, local-capacity,
+  and political layers are now compared as a societal adaptation map. It shows
+  that pressure can appear as spending substitution, reduced use, delay, lost
+  savings, borrowing, extra work, unpaid help, or basic-security loss; the
+  same-person links between those stages remain open.</li>
+<li><strong>Institutional recourse:</strong> the 2024 CFPB snapshot separates web access,
+  narrative presence, timely response, monetary/non-monetary relief,
+  explanation, and public-response visibility. It does not measure verified
+  remedy or trust restoration. The 2025 CFPB report adds complaint screening,
+  routing, administrative response, and data-production scale as separate
+  institutional stages.</li>
+<li><strong>Product/place recourse depth:</strong> product-filtered 2024 CFPB slices now
+  normalize published complaints by Census population for credit cards,
+  checking/savings, mortgages, debt collection, student loans, and vehicle
+  loans. Rates differ by product and place, but remain visibility measures;
+  account denominators, residence validation, verified remedy, and exit remain
+  open.</li>
+<li><strong>Firm-capacity/recourse bridge:</strong> a CBP 2023 finance-sector state stock is
+  now placed beside those CFPB product rates. The quartile screen is
+  non-monotonic, so establishment density is not promoted as a proxy for
+  protection, harm, or consumer power; product exposure, access, and account
+  denominators remain missing.</li>
+<li><strong>Product-conditioned response depth:</strong> six CFPB product slices now expose
+  monetary relief, non-monetary relief, explanation, and untimely-response
+  shares. The route is clearly product-shaped, but recorded response is not
+  verified remedy, and account exposure, repeat effort, switching, dependence,
+  and later trust remain unobserved.</li>
+<li><strong>Product-conditioned visibility depth:</strong> the same six CFPB slices now expose
+  narrative presence and submission channel. Web use dominates all products,
+  while phone/referral shares and narrative presence vary by product. This is
+  a visibility and institutional-route comparison, not a measure of digital
+  access, harm, narrative quality, or remedy adequacy.</li>
+<li><strong>Consumer power and exit:</strong> CFPB product and cultural layers are now
+  consolidated with consumer-culture and firm-power evidence. The program
+  explicitly treats visibility, response, remedy, continued use, switching,
+  trust, and practical exit as different outcomes; same-case verification is
+  still open.</li>
+<li><strong>Public administration:</strong> SIPP SNAP transition and reason layers add
+  person-month entry/exit, resource and job context, recorded reason, and
+  Fay-BRR uncertainty. About half of transitions have a classified reason.</li>
+<li><strong>Compound public-system security:</strong> the reason comparison now also measures
+  simultaneous rent/mortgage and utility hardship in the following record. It
+  shows that both entry and exit routes can retain joint housing insecurity;
+  it remains adjacent-month descriptive evidence, not a benefit-effect or
+  same-episode remedy estimate.</li>
+<li><strong>Cultural and political meaning:</strong> SHED, ANES, and Pew are aligned as
+  separate population layers for consumer adaptation, economic judgment,
+  trust, source environment, civic action, turnout, and participation barriers.
+  They are not falsely joined.</li>
+<li><strong>Respondent-level meaning/action depth:</strong> the 2024 CCES common file now
+  supplies a weighted descriptive comparison of gig work and student-loan
+  responsibility with federal/state trust and any civic action for 23,530
+  valid proxy/trust respondents. The joint pattern is non-monotonic and useful
+  as a counterexample, but no timing, attribution, complex-design variance, or
+  causal turnout claim is promoted.</li>
+<li><strong>Subgroup meaning/action depth:</strong> a follow-up CCES screen conditions the
+  material/work proxy comparison by ordered income-code bands and race groups,
+  retaining 21,560 valid records across 48 cells. Federal trust, state trust,
+  and civic action show different subgroup ranges, so the pooled pattern is not
+  promoted as one class response. The screen remains descriptive and does not
+  supply timing, attribution, or complex-design variance.</li>
+<li><strong>Political identity-conditioned depth:</strong> an official ANES SDA controlled
+  table now conditions pre-election financial worry and post-election reported
+  presidential vote on prior party identity. Strong partisan vote choice is
+  highly concentrated within identity across worry categories, while
+  independents show more visible variation. This is weighted descriptive output
+  without design-based standard errors, so it separates political identity as
+  a mechanism to investigate rather than proving an economic-voting effect.</li>
+<li><strong>Source environment to civic action:</strong> the Pew crosswalk now places source
+  ecosystem, influencer exposure, attention, trust, civic style, direct action,
+  and voting in separate stages, preserving the missing same-respondent links.</li>
+<li><strong>Cross-source connector:</strong> the material-to-participation bridge now states
+  the full comparison contract and ranks the next same-respondent, same-case,
+  and matched-place designs needed to connect exposure to political action.</li>
+<li><strong>Political-output synchronization:</strong> a new cross-source synthesis keeps
+  personal/national economic judgment, trust/fairness, vote preference, and
+  civic action as separate outputs. SHED, GSS, ANES, and CCES provide anchors
+  for the distinction, while dated attribution, institutional response, and
+  recovery remain open.</li>
+<li><strong>Migration and local-demand depth:</strong> the matched-place stream now has a
+  reproducible 12-county screen using 2020–2023 population change, ACS
+  foreign-born share and arrival timing, rent, crowding, language-access need,
+  CBP sector capacity, HRSA shortage status, BFS application intensity, and
+  state-context BDS entry, exit, and net-job rates. These are separate stocks,
+  flows, proxies, and contextual measures—not a migration causal estimate.</li>
+<li><strong>Migration and political meaning:</strong> a dedicated measurement layer now
+  specifies direct evidence for belonging, fairness, attribution, trust,
+  identity, and civic or policy action. It preserves the cultural-political
+  endpoint instead of inferring meaning from demographic or housing statistics.</li>
+<li><strong>Aging and care-system depth:</strong> a new bridge organizes BLS eldercare scale,
+  ATUS time, NBER earnings evidence, employer accounts, HHS caregiver policy,
+  and HRSA capacity into recipient, caregiver, family, employer, provider,
+  agency, and public-meaning units. It identifies the missing same-family
+  record that would connect a recurring care need to work, health, security,
+  recipient outcomes, and political response.</li>
+<li><strong>ATUS acquisition control:</strong> the official 2024 and 2025 respondent,
+  activity, summary, replicate-weight, and eldercare-roster files are now
+  obtained with exact URLs and promoted into weighted microdata records; same-
+  event and same-household linkage remain open.</li>
+<li><strong>Care/work distributional depth:</strong> a 2025 SIPP person-weighted screen now
+  crosses child-care payment, payment help, and reported work constraint with
+  tenure and income-to-poverty bands. Renter records show higher reported work
+  constraint across the displayed bands, while paid-care incidence and payment
+  help follow different distributions. The fields are conditional, the screen
+  has no replicate-weight variance, and provider reliability, care hours,
+  schedule control, and dated work loss remain open.</li>
+<li><strong>Public-system meaning/action boundary:</strong> SIPP now supplies reason-coded
+  transition and material-context evidence with Fay-BRR uncertainty, while a
+  dedicated gap record preserves the missing same-episode notice, effort,
+  interpretation, remedy, trust, and political-action fields.</li>
+<li><strong>Infrastructure/state-leverage control:</strong> Romania and Malaysia now have a
+  compact ledger separating realized assets, ownership transition, local
+  incidence, portability, exit, and observed external behavior. The cases do
+  not yet establish sovereignty or bargaining power.</li>
+<li><strong>Time and civic availability:</strong> ATUS time allocation is now explicitly
+  compared with CPS schedule and health barriers, while the dated
+  time-to-turnout link remains open.</li>
+<li><strong>Infrastructure and state power:</strong> Romania and Malaysia cases now separate
+  planned capacity, realized milestones, ownership change, local distribution,
+  and provider/state exit. ADR's September 2026 announcement verifies a
+  completed Romanian cloud-infrastructure stage, while application migration,
+  service quality, portability, and citizen outcomes remain unverified.</li>
+<li><strong>Local infrastructure incidence:</strong> a Prince William County public GIS
+  snapshot adds 246 building records and 75 campus records with status, gross
+  floor area, and planning-district concentration. It establishes a local
+  pipeline and targeting frame, not actual electricity/water load, ratepayer
+  cost, employment, or community benefit.</li>
+<li>The county's reported fiscal series now adds 13 Tax Year 2012–2024
+  observations, rising from $6.5 million to a preliminary $293.7 million, plus
+  a separately sourced TY2025 extension at $465.9 million (59% year-over-year)
+  and a $4.15 computer-equipment rate. This establishes local
+  pipeline/operation-to-public-revenue visibility, not net benefit, household
+  incidence, or service-cost recovery.</li>
+<li>The same snapshot now reports the district planned-GFA concentration directly:
+  Brentsville and Gainesville hold 43.1% and 42.2%, with a four-district HHI
+  of 0.381; only 5.2% of planned campus GFA is in completed projects. These
+  figures target the next records to collect and do not measure incidence.</li>
+<li>The <a href="../analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md">fiscal-capacity bridge</a>
+  now places TY2025 revenue beside reported capacity expansion and the local
+  GIS pipeline. This is a matched-place context only; the next missing stages
+  are utility/load, water, local service cost, jobs/wages, household exposure,
+  and resident or political response.</li>
+<li>The <a href="../analysis/projects/ai-work-control/virginia-large-load-governance-reliability-layer-v1.md">Virginia large-load governance layer</a>
+  adds an institutional-response stage: the SCC's GS-5 framework and reported
+  Dominion load-drop events. This advances infrastructure dependence into
+  observable state response, but actual cost allocation, household bills,
+  local effects, and public legitimacy remain unmeasured.</li>
+<li>The same layer now records the SCC's projected Rider T1 comparison ($2.90 to
+  $0.94 per month for a typical 1,000-kWh residential customer) and Dominion's
+  filed initial GS-5 account mix (139 total, 131 data centers). These are a
+  modeled allocation comparison and a filing snapshot, respectively—not
+  observed household bills, payments, or a complete current roster.</li>
+<li><strong>Domestic-to-state bridge:</strong> household/firm affordability, sector capacity,
+  infrastructure ownership, and external dependence are now organized into a
+  relational state-leverage test. Strategic leverage remains open until the
+  program observes alternatives, switching/refusal, and an external actor's
+  changed behavior.</li>
+<li><strong>Defense state-capacity refresh:</strong> the capacity-versus-leverage synthesis
+  now incorporates the SIPRI 2025 allocation vintage and the USAspending/DLA
+  three-facility General Dynamics-OTS footprint. Budget growth and corporate
+  geography remain distinct from plant-assigned production, readiness,
+  replaceability, and changed external behavior.</li>
+<li><strong>Firm, sector, and place dynamics:</strong> BDS now adds realized establishment
+  openings/closings and job flows between BFS applications and CBP employer
+  stocks. State and sector bridges show why application volume, turnover, net
+  jobs, and everyday service capacity must be analyzed separately; the links
+  to ownership, quality, access, local identity, and political response remain
+  open.</li>
+<li><strong>Complete sector breadth:</strong> the BFS–BDS profile now covers all 19 national
+  sectors, preserving negative net-job outcomes and the non-conversion meaning
+  of the application/opening ratio before selecting local service or political
+  cases.</li>
+<li><strong>Sector-flow divergence depth:</strong> a follow-up BFS–BDS metric layer now
+  compares openings and net jobs per 100 applications across all 19 sectors.
+  Retail has high application volume but modest net-job intensity, while health
+  care/social assistance and accommodation/food are much higher; administrative/
+  support has positive establishment entry minus exit but negative net jobs.
+  These are national flow contrasts, not firm survival, service access, wage,
+  or worker-power estimates.</li>
+<li><strong>State archetype depth:</strong> a follow-up state screen groups all 51 matched
+  states/DC records by application intensity and compares BDS entry, exit, and
+  net-job rates. Higher application quartiles have higher medians, but the top
+  group contains high-churn and contrasting job outcomes; low-application/
+  high-net-job counterexamples remain visible. State composition, service
+  access, ownership, job quality, and local political response remain open.</li>
+<li><strong>Firm scale and care adequacy:</strong> CBP now adds employees per establishment by
+  sector and rurality; the CBP–HRSA bridge also shows that establishment
+  presence and rough employment scale do not resolve primary-care adequacy.</li>
+<li><strong>Place access and care adequacy:</strong> county capacity is now normalized by
+  population, stratified by USDA metro/nonmetro status, and placed beside NHTS
+  mobility evidence. A CBP–HRSA bridge further shows that health-sector
+  establishments can coexist with designated primary-care shortage components.
+  Travel, appointment access, quality, price, unmet need, and household
+  outcomes remain open.</li>
+<li><strong>Many-family material/time/care backbone:</strong> PSID 2019, 2021, and 2023
+  codebook work now adds repeated family money income and constructed wealth
+  measures to the mapped utility, home-insurance, paid-work, commute, care,
+  health, wellbeing, and family-routine fields. This creates a bounded
+  resource → time/care → health/family/wellbeing comparison across many
+  families, subject to acquisition, universe, retention, missingness, and
+  weight checks. It is not a one-household case and does not close the
+  price/institution → meaning/action arrow.</li>
+<li><strong>Published care/work population layer:</strong> BLS's combined 2023–2024 ATUS
+  tables add 38.2 million reported eldercare providers age 15+, with age,
+  sex, employment, recipient, and care-frequency gradients. Employed providers
+  averaged 2.84 hours on days they provided care; the table establishes care
+  scale and time intensity, not that care displaced work or caused civic or
+  political withdrawal. The next microdata gate remains open.</li>
+<li><strong>Eldercare network boundary:</strong> the 2024–2025 ATUS roster comparison finds
+  roughly four in five provider respondents with a listed non-household
+  recipient and about 1.3–1.4 listed recipients per provider. This makes the
+  care network visible beyond the provider's household, while leaving care
+  intensity, distance, shared support, work displacement, and recovery open.</li>
+<li><strong>Eldercare time profile:</strong> the ATUS provider/nonprovider comparison finds
+  higher household-work and travel minutes and lower paid-work and
+  socializing/communication minutes among provider respondents in both annual
+  samples. Replicate uncertainty is preserved, but selection and composition
+  remain open; this is a measured association rather than a burden or causal
+  displacement estimate.</li>
+<li><strong>Eldercare composition control:</strong> standardizing the provider contrast to
+  supported age-band × sex × labor-force-status cells preserves roughly +9 to
+  +15 household-work minutes, +8 to +12 travel minutes, and −19 to −24
+  socializing minutes. The paid-work contrast is about −8 minutes with wide
+  uncertainty. This strengthens the descriptive time profile while leaving
+  health, family, recipient need, schedule control, and causal timing open.</li>
+<li><strong>Eldercare richer composition control:</strong> adding household-child status and
+  broad education leaves +7 to +17 household-work minutes, +8 to +10 travel
+  minutes, and +12 to +15 care-for-people minutes. The paid-work contrast is
+  −19.7 minutes in 2024 and −14.5 in 2025, with wide 2025 uncertainty; the
+  social-time contrast weakens in 2025. The profile is more robust than a raw
+  cross-tab but remains an annual, noncausal association.</li>
+<li><strong>CFPB visible endpoint refresh:</strong> the 2025 official aggregate contains
+  5.452 million published records versus 2.740 million in 2024. Explanation
+  rises from 49.014% to 58.706%, non-monetary relief falls from 50.062% to
+  40.633%, monetary relief from 0.869% to 0.480%, and narrative presence from
+  29.778% to 22.426%. These are institutional-record shifts with product,
+  routing, publication, coding, and index-timing alternatives—not remedy or
+  harm rates.</li>
+<li><strong>CFPB product-route conditioning:</strong> six matched product slices show that the
+  pooled shift is not uniform. Mortgage remains about 95% explanation in both
+  years; checking/savings and credit-card explanation shares rise; and
+  student-loan records show a 15.924% untimely label in 2025 versus 0.333% in
+  2024. The student-loan jump is an institutional timing signal requiring
+  field/taxonomy and case-level review, not proof of borrower harm or failed
+  relief.</li>
+<li><strong>CFPB student-loan timing-field audit:</strong> the separate <code>timely = No</code> field is
+  5.638% in 2024 and 30.404% in 2025, while the narrower
+  <code>company_response = Untimely response</code> category is 0.334% and 15.924%.
+  The API fields are not interchangeable; the 2025 annual report's rounded
+  roughly 31% no-timely/no-response context aligns with the former. This
+  corrects the route interpretation and preserves the field-definition,
+  servicing, case-sequence, and borrower-outcome gaps.</li>
+<li><strong>Public-system transition-to-hardship depth:</strong> the 2025 SIPP person-month
+  slice now compares SNAP entry, exit, and stable states with rent/mortgage and
+  utility hardship in the recorded following month using Fay-BRR intervals.
+  Entry pairs show higher hardship than stable nonreceipt, while exit pairs do
+  not return to that baseline. This adds a material downstream stage but not a
+  program effect, because notices, effort, benefit amounts, field universes,
+  and same-episode interpretation remain unobserved.</li>
+<li><strong>Public-system administrative-route structure:</strong> the structured <a href="../analysis/records/us-snap-administrative-access-2026.json">SNAP
+  administrative-access record</a>
+  now keeps the NBER flexible-interview, office-access, work-requirement,
+  procedural-denial, and recertification evidence as separate study-specific
+  observations. It adds causal route evidence around the SIPP result without
+  pooling unlike states, periods, units, or downstream household outcomes.</li>
+<li><strong>Public-system scale context:</strong> the official <a href="../analysis/records/usda-snap-fy2025-current-context-2026.json">USDA FY2025 SNAP context
+  record</a> adds current
+  national participation, spending, average-benefit, state-range, household-
+  composition, and research-summary layers. It anchors institutional scale but
+  does not turn participation or spending into benefit adequacy or a household
+  outcome.</li>
+<li><strong>Public-system state distribution:</strong> the <a href="../analysis/records/usda-snap-fy2025-state-participation-2026.json">USDA FY2025 state participation
+  record</a> preserves all
+  51 state/DC rates rather than only the published minimum and maximum. Its
+  unweighted distribution summaries are descriptive; state need, eligibility,
+  administration, and take-up mechanisms remain unjoined.</li>
+<li><strong>Public-system state crosswalk:</strong> the <a href="us-safety-net-access-001.html">USDA–ACS crosswalk finding</a>
+  matches the 51 rates to 2024 ACS state median-income, vehicle, and commute
+  context. SNAP participation is non-monotonic across income quartiles and the
+  mobility measures diverge; the result is ecological context, not a causal
+  or household-level explanation.</li>
+<li><strong>Public-system route-performance layer:</strong> the <a href="us-safety-net-access-002.html">SNAP route-performance finding</a>
+  joins the same 51 state/DC participation rates to official FY2025 application
+  and recertification timeliness plus the 2023 Program Access Index. Application
+  timeliness is nearly uncorrelated with participation in the descriptive
+  screen (r=0.033), which preserves the distinction between population receipt,
+  route handling, renewal continuity, and low-income access. The next missing
+  stage is still same-episode notice, effort, amount, remedy, and action.</li>
+<li><strong>Public-system lived-route layer:</strong> the <a href="us-safety-net-access-003.html">WBNS recertification finding</a>
+  adds respondent-reported notice, time, paperwork, interview, lost-document,
+  interruption, subgroup, and help-channel measures. It makes the route burden
+  visible from the recipient side without pretending that a retrospective survey
+  is a linked case record. Exact benefit gaps, corrections, appeals, trust, and
+  later action remain open.</li>
+<li><strong>Public-system end-to-end triangulation:</strong> the <a href="us-safety-net-access-004.html">route-to-security synthesis</a>
+  now reads USDA/FNA route performance, WBNS lived barriers, NBER route
+  interventions, and SIPP following hardship as one staged mechanism while
+  preserving their different units and designs. It supports route-to-receipt
+  and receipt-to-security boundaries, but not a same-person causal chain or the
+  downstream trust/political-action arrows.</li>
+<li><strong>Public-system microdata acquisition:</strong> the <a href="wbns-public-use-route-acquisition-audit-v1.html">WBNS public-use route audit</a>
+  confirms ICPSR 39691's 2024 public-use study and maps Q53A/Q110/Q110A/Q110B/
+  Q110C/Q54/Q54N/Q54O/Q54P/Q54Q/Q54R to the episode ledger. The questionnaire
+  is hashed and the extraction contract is explicit; estimates are intentionally
+  held until the public-use file and codebook are downloaded and validated.</li>
+<li><strong>Public-system reason-to-hardship bridge:</strong> the same SIPP transition pairs
+  now connect classified entry and exit reasons to following rent and utility
+  hardship. Job loss, other income loss, disability, family change, and
+  administrative routes show different profiles, but only 217 of 437 entry
+  pairs and 188 of 387 exit pairs have classified reasons. This deepens the
+  mechanism arrow without supplying notice, route effort, remedy, or meaning.</li>
+<li><strong>Public-system intersectional depth:</strong> a follow-up SIPP Fay-BRR run adds
+  race to work limitation × children × SNAP transition, producing 64 weighted
+  cells from 294,814 adjacent-month pairs. Stable-state hardship patterns are
+  not reducible to one receipt or demographic average; rare entry/exit cells
+  remain too sparse for ranking. The episode-level notice, effort, remedy,
+  interpretation, and action fields remain open.</li>
+<li><strong>Same-respondent material/care depth:</strong> the SHED 2024–2025 panel now
+  compares financial-condition paths with health direction and unpaid adult-
+  care entry/exit for 4,419 respondents. Most health categories remain stable
+  across paths, which is a counterexample to synchronized hardship; care entry
+  is higher in the worsening path. Care hours, triggers, schedule control,
+  attribution, and political meaning remain open.
+  The detailed <a href="us-household-financial-pressure-002.html">paired health/care finding</a>
+  now records the separate entry and exit universes and preserves the finding
+  that financial improvement does not guarantee health improvement.
+  The follow-on <a href="us-household-financial-pressure-011.html">panel work/health/care synthesis</a>
+  adds work-more, borrowing, and reduced-use persistence beside those health
+  and care paths. It strengthens the same-respondent adaptation bridge while
+  leaving hours, schedule control, dated triggers, recipient outcomes, and
+  meaning/action open.</li>
+<li><strong>SIPP care-time depth:</strong> the 2025 SIPP person-month slice now adds
+  child-care work prevention and reported time-loss type to the November-to-
+  December SNAP comparison. Stable SNAP respondents show 7.43% work prevention
+  versus 3.42% among stable non-SNAP respondents, but the valid time-loss cells
+  are only 23 and 71 cases. A current full-slice rerun reads 379,215 rows,
+  matches 31,335 replicate pairs, and reproduces all committed estimates and
+  standard errors. The <a href="us-household-calendar-integration-018.html">published finding</a>
+  makes the same-person timing and annual fall-field boundary explicit; this
+  remains a bridge, not a program effect or a dated care episode.</li>
+<li><strong>Trust/action separation:</strong> the 2024 CCES joint-outcome layer now measures
+  trust and civic action quadrants across gig-work/student-debt proxy cells.
+  It supplies a counterexample to treating low trust as political withdrawal;
+  the smallest proxy cell has the highest joint high-trust/action share, while
+  the low-trust/action share is not highest there. No causal or variance claim
+  is made.</li>
+<li><strong>SIPP care-to-material-hardship depth:</strong> a same-person bridge now conditions
+  following rent/mortgage and utility hardship on child-care work prevention.
+  Stable SNAP respondents reporting work prevention show 43.65% and 32.39%
+  hardship, compared with 12.01% and 19.43% without it. The small cell and
+  wide Fay-BRR intervals make this a mechanism signal, not a causal or program
+  effect.</li>
+<li><strong>SIPP design-based material/time quality:</strong> the first official-universe
+  Fay-BRR pass adds standard errors and approximate 95% intervals for five
+  hardship, food, and job measures. The estimates remain person-weighted;
+  care-field variance and an explicit one-record-per-household rule remain
+  open.</li>
+<li><strong>SIPP household-unit sensitivity:</strong> a new executable diagnostic selects one
+  ERP-preferred record per household-month and matches the selection to all 240
+  replicate weights by the available person-month key. Utility-payment,
+  rent/mortgage, and food-security point estimates shift relative to the
+  person-record view, proving that unit construction is material. The selected
+  view still reuses a person weight and is not an official household estimate;
+  a household-weight route or documented estimator remains open.</li>
+<li><strong>SIPP intersectional material/time depth:</strong> the work-limitation × children ×
+  resources Fay-BRR layer is now promoted as a canonical three-way record. It
+  shows distinct utility, food, and job distributions while retaining sparse
+  counter-patterns; child presence is not treated as care burden and work
+  limitation is not treated as a causal disability effect. Care time, schedule,
+  benefit route, and follow-up remain open.</li>
+<li><strong>SIPP care/work design-based quality:</strong> a follow-up Fay-BRR pass applies the
+  official child-care status flags and conditional universes to payment,
+  assistance, work prevention, and time lost. The time-lost estimate has only
+  1,119 valid records and a wide interval, so it remains a precision-limited
+  diagnostic rather than a population-wide care burden estimate.</li>
+<li><strong>SIPP income-stratified care quality:</strong> paid care, assistance, and work
+  prevention now have Fay-BRR estimates across four monthly household
+  income-to-poverty bands. Paid care is higher and assistance lower in the
+  highest band, while work prevention is highest below poverty; this is a
+  descriptive person-record comparison, not an unmet-need or causal estimate.</li>
+<li><strong>SIPP race-group care quality:</strong> the released race recode now has
+  official-universe Fay-BRR estimates for the four care/work measures. Black- and
+  White-alone contrasts are more populated; Asian and residual time-lost cells
+  are imprecise and are not fine-ranked. Race remains a descriptive recode, not
+  a culture or discrimination measure.</li>
+<li><strong>SIPP disability-status care quality:</strong> work-limiting-condition records show
+  lower paid-care use but no clear work-prevention separation from the
+  reference group. The conditional time-lost cell has only 96 valid records;
+  accommodation, care need, and causal interpretation remain open.</li>
+<li><strong>SIPP regional care quality:</strong> paid-care use is broadly similar across the
+  four Census regions, while reported work prevention is highest in the
+  Midwest and lowest in the Northeast. The regional average does not identify
+  provider supply, prices, travel, employer practice, or local causation.</li>
+<li><strong>SIPP child-presence universe quality:</strong> the child-presence screen reveals
+  valid care fields in a sparse no-under-18 subgroup because household-member
+  presence and reference-parent/fall child-care universes differ. This is now
+  an explicit audit target, not a parent-versus-nonparent result.</li>
+<li><strong>SIPP reference-parent universe audit:</strong> the monthly under-18 versus <code>ERP</code>
+  cross-tab confirms that the sparse no-under-18 care records reflect different
+  clocks and universes. Parent-status estimates are held open until December,
+  fall, and child-age fields are aligned.</li>
+<li><strong>SIPP tenure-stratified care quality:</strong> owner/buyer, renter, and no-rent
+  cells now have official-universe Fay-BRR estimates. Renters show higher
+  assistance and work prevention but lower paid-care use than owners/buyers;
+  the sparse no-rent cells are not ranked and housing causation remains open.</li>
+<li><strong>Public-system route mechanism:</strong> a new paper scan records experimental and
+  quasi-experimental evidence that flexible interviews, office proximity,
+  recertification timing, and work-documentation rules alter SNAP approval,
+  participation, procedural denial, and churn. This deepens the route →
+  participation arrow across institutional settings without treating those
+  studies as the same SIPP respondents or as proof of political meaning.</li>
+<li><strong>Joint migration/place conditioning:</strong> the 620-county screen now conditions
+  sector capacity on both 2020–2023 population-growth quartile and 2023
+  foreign-born-share quartile. Health/social-assistance employment is lower in
+  every high-growth cell, while the foreign-born axis is non-monotonic. This
+  separates demographic proxies and adds a place counterexample without calling
+  population change a migration effect.</li>
+<li><strong>Growth and shortage conditioning:</strong> a follow-up 620-county screen adds
+  HPSA status to the growth/capacity comparison. Among HPSA counties, median
+  health employment per 10,000 falls from 724.25 in the lowest-growth quartile
+  to 460.75 in the highest-growth quartile. HPSA and CBP stocks still do not
+  measure travel, appointments, prices, quality, or unmet need.</li>
+<li><strong>Housing/capacity option stack:</strong> the selected migration-place screen now
+  adds official ACS vacancy to rent, crowding, language-access, sector-capacity,
+  and HPSA fields. Higher-growth counties have higher median rent and lower
+  median vacancy in this selected set, but individual fast-growth places vary
+  sharply. Vacancy, provider presence, and lived access remain distinct.</li>
+<li><strong>Practical access option stack:</strong> local capacity, mobility, and HRSA
+  designation layers are now consolidated into a four-cell matched-place
+  design. The first 3,128-county screen shows a high-capacity/high-zero-
+  vehicle-share cell with 96.96% population-weighted HPSA representation,
+  preserving a concrete counterexample to equating nominal supply with usable
+  access. Nominal supply, reachability, provider adequacy, price, time,
+  quality, and replaceability are explicitly separate; resident-level service
+  use and downstream cultural or political response remain open.</li>
+<li><strong>County capacity-to-outcome screen:</strong> the new <a href="us-local-business-place-007.html">CDC PLACES/CBP/HRSA place
+  diagnostic</a>
+  adds modeled county transportation, food, housing, utility, mental-distress,
+  insurance, and routine-care measures. The lowest health-establishment
+  capacity quartile has higher median social-need measures than the highest
+  quartile, while routine-checkup medians are nearly unchanged. This is an
+  ecological, cross-vintage alignment—not a provider-adequacy or causal health
+  result; travel, wait, quality, price, use, and household response remain open.</li>
+<li><strong>PLACES vintage comparability:</strong> the follow-up <a href="us-local-business-place-008.html">same-county PLACES vintage
+  finding</a>
+  compares 2,885 common county FIPS across the 2024 and 2025 releases. Routine
+  checkups and modeled insurance measures move differently from food,
+  transportation, housing, utility, and mental-distress measures, while social-
+  needs availability changes across releases. Changed BRFSS, population, ACS,
+  geography, and measure inputs make this a vintage diagnostic, not a resident
+  trend or intervention effect.</li>
+<li><strong>HPSA component specificity:</strong> the <a href="us-local-business-place-009.html">component-level HRSA/PLACES diagnostic</a>
+  decomposes the shortage flag into geographic, population, facility/site,
+  tract, low-income, and migrant/seasonal categories. Population and low-income
+  categories have higher modeled social-need medians than geographic categories,
+  while the migrant/seasonal group is a counterexample. The groups overlap and
+  the PLACES denominator is not the designated population; component boundaries,
+  travel, wait, provider acceptance, and actual use remain open.</li>
+<li><strong>HPSA operational-field audit:</strong> the <a href="us-local-business-place-010.html">HRSA designation-field finding</a>
+  audits FTE, designated population, estimated underserved population, score,
+  shortage, and missingness across 20,905 designated primary-care rows. FTE and
+  shortage are unavailable for roughly one-fifth of rows, underserved
+  population is unavailable for more, formal ratio is absent in this extract,
+  and facility/site rows have especially sparse operational fields. These are
+  designation metadata, not active hours, appointments, reach, or patient
+  outcomes; overlapping components cannot be summed.</li>
+<li><strong>Mobility cross-source synthesis:</strong> NHTS and ACS layers are now written as a
+  bounded comparison showing that vehicle scarcity, commute time, shopping
+  time, income, race, and urban/rural context do not form one monotonic burden
+  scale. The synthesis preserves different units and weights; fares,
+  reliability, missed activity, care/medical trips, and later meaning remain
+  open.</li>
+<li><strong>Care-capacity institutional check:</strong> the HRSA bridge finds 2,785 counties
+  represented by a designated primary-care HPSA component among the 3,072
+  counties with usable CBP health rows. This is a component overlap diagnostic,
+  not a county-wide shortage or care-adequacy estimate; the HRSA file is a
+  current-vintage download and must be time-aligned for longitudinal analysis.</li>
+</ul>
+<h2 id="current-evidence-control-health">Current evidence-control health</h2>
+<p>The latest control pass confirms that the atlas is internally publishable at
+the current checkpoint: 219 trend records and 836 observations pass the
+structural and provenance validators; all 103 source-search packets pass their
+record checks; the source registry represents all 114 registered source
+families; 946 local Markdown files and 454 published HTML pages pass link
+validation; and the program-control synchronization reports 14 themes, 174
+connections, 85 paths, 25 public episode events, and 2 episode arrows. The
+simulated broad event ledger also passes as explicitly labeled test data. These
+are reproducibility and coverage controls, not evidence that the open
+material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
+arrows have been closed.</p>
+<h2 id="the-shared-end-to-end-model">The shared end-to-end model</h2>
+<pre><code class="language-text">condition / price / rule / technology / shock
+  -&gt; money, time, access, control, status, health, or security changes
+  -&gt; people, consumers, workers, firms, agencies, and places adapt
+  -&gt; the next actor responds and redistributes cost, risk, data, or power
+  -&gt; trust, identity, culture, public demand, political action, firm exposure,
+     sector capacity, or geopolitical leverage changes
+</code></pre>
+<p>For every arrow, record the unit, date, geography, source, weight, method,
+uncertainty, and status: observed, reported, estimated, compared, inferred, or
+open. A cross-source pattern is useful context; it is not a same-person or
+same-firm join unless the identifiers and design support that claim.</p>
+<h2 id="what-we-should-pursue-next">What we should pursue next</h2>
+<ol>
+<li>Execute the material/time/care linkage pass: acquire or identify a same-unit
+   design with a dated bill, care need, or work change, alternatives and
+   schedule control, paid/unpaid time response, and follow-up outcomes.</li>
+<li>Follow one dated consumer or public-program case from first contact through
+   effort, response, remedy, abandonment, and later trust or exit.</li>
+<li>Use SHED panel variables that genuinely repeat to test whether adaptation
+   reverses after financial improvement, and preserve the nonresponse limits.</li>
+<li>Add a matched place or firm comparison for ownership, local distribution,
+   service quality, and practical replaceability.</li>
+<li>Build a longitudinal political instrument that measures exposure,
+   attribution, source, identity, trust, consumer action, civic action, and
+   vote separately.</li>
+<li>Seek counterexamples: households that recover without the predicted loss of
+   trust, agencies that switch providers, firms whose gains diffuse locally,
+   and places where infrastructure adds capability without dependence.</li>
+</ol>
+<h2 id="stop-conditions">Stop conditions</h2>
+<ul>
+<li>Do not treat one household or one current dataset as the program.</li>
+<li>Do not call a complaint response a remedy without a verified outcome.</li>
+<li>Do not call consumer adaptation political action without measuring meaning
+  and action.</li>
+<li>Do not infer culture, polarization, or distrust from hardship alone.</li>
+<li>Do not call planned infrastructure operational or sovereign.</li>
+<li>Do not join separate surveys by matching geography and call them the same
+  respondents.</li>
+</ul>
+<h2 id="canonical-navigation">Canonical navigation</h2>
+<ul>
+<li><a href="../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md">Recovery brief</a></li>
+<li><a href="US-BROAD-THEME-INVENTORY_V1.html">14-theme inventory</a></li>
+<li><a href="US-BROAD-THEME-COVERAGE-MATRIX_V1.html">Coverage matrix</a></li>
+<li><a href="US-BROAD-EVIDENCE-MATRIX_V1.html">Arrow-level evidence matrix</a></li>
+<li><a href="US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.html">Trend-extraction protocol</a></li>
+<li><a href="US-BROAD-COUNTEREXAMPLE-REGISTER_V1.html">Counterexample register</a></li>
+<li><a href="../analysis/US-BROAD-RESEARCH-PASS_V1.md">Broad research pass</a></li>
+<li><a href="../analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md">Next-pass queue</a></li>
+<li><a href="us-broad-program-map.html">Public reader map</a></li>
+</ul></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

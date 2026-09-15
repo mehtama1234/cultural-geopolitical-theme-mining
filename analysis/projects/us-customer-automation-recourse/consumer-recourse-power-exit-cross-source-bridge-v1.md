@@ -1,6 +1,6 @@
 # Consumer recourse, institutional power, and practical exit cross-source bridge v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Scope:** US consumer-facing financial and service institutions  
 **Status:** compared administrative and cultural layers; no same-customer causal estimate
 
@@ -23,6 +23,12 @@ The current sources measure the middle stages much better than the final
 customer outcome. That asymmetry is itself a societal finding about what
 institutions make visible and what they leave unmeasured.
 
+The [2024–2025 CFPB response synthesis](findings/us-customer-automation-recourse-020.md)
+now consolidates the administrative evidence: the pooled response mix shifted
+toward explanation, but product routes diverged and the student-loan timing
+fields are distinct. This is a change in recorded institutional endpoints, not
+a consumer-remedy or trust trend.
+
 ## Source comparison
 
 | Source layer | Unit | What is measured | What remains outside the record |
@@ -31,6 +37,7 @@ institutions make visible and what they leave unmeasured.
 | [CFPB 2025 process-scale layer](cfpb-2025-process-scale-shift-layer-v1.md) | Received, screened, routed complaint | Intake, screening, referral, company routing, response capacity, and visible workload | Population harm rate, authentic-complaint share, and later recovery |
 | [CFPB 2025 product-response layer](cfpb-2025-product-response-asymmetry-layer-v1.md) | Complaint sent to company by product | Product-specific explanation, non-monetary relief, monetary relief, prior contact, and no-timely-response categories | Account denominator, customer constraints, verified remedy, switching, and non-complainants |
 | [CFPB cultural-themes layer](cfpb-2025-consumer-financial-cultural-themes-layer-v1.md) | Complaint narrative/theme | Identity, essential access, rule legibility, human reach, time, dependence, and repair meanings | Theme prevalence in the population, measured attribution, dignity, trust change, and action |
+| [SHED household fraud layers](../us-consumer-fraud-trust/shed-fraud-subgroup-layer-v1.md) and [annual comparison](../us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md) | Weighted adult respondent; separate annual samples | Fraud exposure, direct loss, unrecovered money, recovery time, age/income conditioning, and a 2024 payment-route screen | Verified account outcome, provider response, panel-level trust or exit, and a common denominator with CFPB/FTC |
 | [Consumer culture layer](../us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Customer/respondent, review, report, transaction | Search, privacy, help-seeking, reporting, reviews, status, trust, and practical use | Same-case linkage from experience to remedy and later exit |
 | [Firm/market power layer](../us-local-business-place/firm-market-power-distribution-layer-v1.md) | Firm, market, customer, worker, place | How terms, data, access, risk, and control may be distributed | A named case joining firm decision, customer burden, alternatives, remedy, and public response |
 
@@ -78,12 +85,25 @@ trapped, exposed, or forced to spend time proving an identity. They do not show
 which meaning a customer adopted. A follow-up must ask what happened, who was
 blamed, whether dignity or trust changed, and whether the person acted later.
 
+### 6. Household loss and institutional visibility are different denominators
+
+The SHED layers add a household-side exposure and burden frame that the CFPB
+and FTC records cannot supply. Across the 2024 and 2025 annual samples, the
+income-conditioned unrecovered-money pattern remains nonmonotonic, while the
+age exposure ordering changes between years. This is a weakening test for
+subgroup narratives, not a population trend or a bridge to complaint records.
+FTC reports remain administrative reports of loss; CFPB records remain
+published complaint and response traces. Their alignment locates a broader
+problem space, but cannot estimate the probability that a harmed household
+complains, receives a remedy, or exits.
+
 ## Arrow ledger
 
 | Arrow | Current status | Safe conclusion | Required depth test |
 |---|---|---|---|
 | Problem → complaint-channel access | Compared / Open | Digital and offline routes are not equally visible; published records are selected | Measure attempted contacts, failed access, language/disability/time constraints, and nonusers |
 | Contact → institutional effort | Reported / Compared | Prior contact, routing, screening, narrative, and timeliness are observable stages | Capture number of contacts, transfers, documents, wait days, and worker authority |
+| Household fraud/loss → institutional response | Compared / Open | SHED measures self-reported loss and recovery burden; CFPB/FTC measure selected administrative visibility | Link a lawful payment/account case to provider response, verified recovery, repeat effort, and later use |
 | Response → remedy | Open | Monetary, non-monetary, explanation, and administrative labels are different company/agency records | Independently verify account correction, money, restored access, quality, and timing |
 | Remedy/failure → future consumer choice | Open | Continued use cannot be interpreted as loyalty without alternatives | Follow repeat contact, closure, provider switch, non-use, and essential-service loss |
 | Encounter → trust, identity, and dignity | Open / partly measured | Complaint themes identify meanings worth testing | Same-customer follow-up with attribution, trust, dignity, and perceived fairness |

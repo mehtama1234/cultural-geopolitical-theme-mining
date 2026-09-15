@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-digital-attention-exit-control-crosssource-2025-2026",
+  "title": "Digital reach, AI use, civic attention, and institutional scrutiny remain separate control surfaces",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "consumer_power_recourse", "firm_sector_market_power"],
+  "source_unit": "Bounded cross-source comparison of Pew adult and teen surveys, Pew news/civic analysis, and an FTC information-gathering inquiry; units are preserved rather than pooled",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; adult platform reach and daily frequency",
+      "denominator": {"value": 5022, "unit": "US adults in Pew/SSRS survey; frequency comparison uses a separate Pew adult survey", "value_type": "reported_sample"},
+      "measures": {"youtube_ever_use": {"value": 84, "unit": "percent of US adults", "value_type": "weighted_share"}, "facebook_ever_use": {"value": 71, "unit": "percent of US adults", "value_type": "weighted_share"}, "instagram_ever_use": {"value": 50, "unit": "percent of US adults", "value_type": "weighted_share"}, "tiktok_daily": {"value": 24, "unit": "percent of US adults", "value_type": "weighted_share"}},
+      "method": "Pew adult social-media survey comparison; estimates are self-reported reach or frequency and come from separate question universes where noted.",
+      "uncertainty": "Reach and frequency do not measure content, recommendation exposure, persuasion, spending, dependence, privacy loss, or ability to leave. Platform estimates are not a common attention index.",
+      "subgroup": "US adults, with platform-specific age and demographic differences in the source record.",
+      "counterinterpretation": "Broad reach can reflect useful, replaceable, or brief use and does not by itself imply concentrated control over users.",
+      "source_url": "https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/",
+      "retrieval_hash": "sha256:80b714a2bfdd7052caf635bb0682b8f5e27c5a0a7a77f2d337fd5f64e8f99e3b",
+      "status": "compared"
+    },
+    {
+      "period": "2025; teen social-platform and chatbot use",
+      "denominator": {"value": 1458, "unit": "US teens ages 13-17 in completed Pew/Ipsos KnowledgePanel dyads", "value_type": "reported_sample"},
+      "measures": {"chatbot_ever_use": {"value": 64, "unit": "percent of US teens", "value_type": "weighted_share"}, "chatbot_daily_use": {"value": 28, "unit": "percent of US teens", "value_type": "weighted_share"}, "almost_constant_platform_use": {"value": 36, "unit": "percent using at least one of five measured platforms almost constantly", "value_type": "weighted_share"}, "daily_tiktok": {"value": 61, "unit": "percent of teens", "value_type": "weighted_share"}},
+      "method": "Pew/Ipsos survey of US teens; platform and chatbot estimates use question-specific valid response universes.",
+      "uncertainty": "The survey does not identify whether use is school-mediated, socially necessary, beneficial, harmful, monitored, monetized, or difficult to stop. It does not follow exit attempts or later outcomes.",
+      "subgroup": "Teens ages 13-17, with age, income, and race/ethnicity differences in chatbot use reported separately.",
+      "counterinterpretation": "High teen use can be instrumental, socially useful, and reversible; lower use can reflect access constraints rather than autonomy.",
+      "source_url": "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025/",
+      "retrieval_hash": "sha256:6d2c3552c715b990607d68b970d8f495f28f88b81839751d2307f031563643e1",
+      "status": "compared"
+    },
+    {
+      "period": "February 17-23, 2026; adult chatbot use, purpose, privacy, and governance concern",
+      "denominator": {"value": 5119, "unit": "US adult survey respondents; work-use items use an employed-adult universe", "value_type": "reported_sample"},
+      "measures": {"ever_use_ai_chatbots": {"value": 49, "unit": "percent of US adults", "value_type": "share"}, "daily_use_ai_chatbots": {"value": 24, "unit": "percent of US adults", "value_type": "share"}, "information_search": {"value": 42, "unit": "percent of US adults", "value_type": "share"}, "expect_personal_information_less_secure": {"value": 70, "unit": "percent of US adults", "value_type": "share"}, "little_or_no_confidence_government_regulate_ai_effectively": {"value": 67, "unit": "percent of US adults", "value_type": "share"}},
+      "method": "Pew nationally representative survey of US adults; self-reported chatbot use, purposes, expectations, and regulatory confidence.",
+      "uncertainty": "Reported use is not telemetry, reliance, accuracy, dependence, actual privacy loss, or observed regulatory performance. Purpose categories may overlap.",
+      "subgroup": "US adults, with work-task, age, and other subgroup estimates in the source record.",
+      "counterinterpretation": "Practical usefulness and concern can coexist; concern about privacy or pace does not prove a particular product caused loss of control.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:d383217a793da1a9a622def0e6d1da6ab0e6a4bf718fab3e817dc1ab07241452",
+      "status": "compared"
+    },
+    {
+      "period": "2025; news-source ecosystems, influencer exposure, and civic-action typology",
+      "denominator": {"value": 9482, "unit": "US adult survey respondents for news-source items; other results use published subgroup percentages", "value_type": "reported_sample"},
+      "measures": {"regularly_get_news_from_social_media_influencers": {"value": 21, "unit": "percent of US adults", "value_type": "share"}, "under_30_regularly_get_news_from_influencers": {"value": 37, "unit": "percent of adults under 30", "value_type": "share"}, "connectors": {"value": 28, "unit": "percent of US adults in published engagement typology", "value_type": "share"}, "mobilizers": {"value": 9, "unit": "percent of US adults in published engagement typology", "value_type": "share"}},
+      "method": "Pew survey and typology combining news, political, civic, religious, and attention measures; source ecosystems and civic actions are described separately.",
+      "uncertainty": "Influencer exposure, source trust, civic style, and voting/contacting officials are not a causal sequence. Prior identity, resources, organizations, and offline institutions may explain observed differences.",
+      "subgroup": "US adults, adults under 30, influencer-news users, and published civic-engagement groups.",
+      "counterinterpretation": "A person may use social news without being persuaded, or participate civically because of pre-existing identity or institutions rather than platform exposure.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:0b0242f85f60532a411fbf4fd8a5f0de5a23ef9d5b80055cd92696ea618cc7a0",
+      "status": "compared"
+    },
+    {
+      "period": "September 11, 2025; FTC AI companion inquiry launch",
+      "denominator": {"value": 7, "unit": "companies receiving FTC Section 6(b) orders", "value_type": "institutional_action_count"},
+      "measures": {"companies_ordered": {"value": 7, "unit": "companies", "value_type": "reported_count"}, "action_type": {"value": "information-gathering inquiry", "unit": "FTC Section 6(b) action", "value_type": "institutional_action"}, "information_domains_requested": {"value": "monetization, data use, safety testing, age limits, disclosures, and effects on children and teens", "unit": "inquiry domains", "value_type": "reported_inventory"}},
+      "method": "FTC institutional action record; the inquiry requested information from companies and did not itself adjudicate harm.",
+      "uncertainty": "An inquiry establishes scrutiny and information demand, not verified injury, unlawful conduct, causation, remedy, or successful exit.",
+      "subgroup": "Consumer-facing AI companion users, with children and teens named as a risk focus.",
+      "counterinterpretation": "Institutional attention may produce learning and safeguards without establishing that the underlying product effects are widespread or severe.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-issues-orders-seven-companies-seeking-information-ai-companion-chatbots",
+      "retrieval_hash": "sha256:9ee1a366a26ffe5fae02a071009bec09a10eddd9a98aa19c762665863cdccda1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/legal-library/browse/federal-register-notices/ai-companion-chatbots", "claim": "FTC inquiry materials define the institutional information-gathering context and requested risk domains.", "status": "institutional-context"},
+    {"source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/", "claim": "Pew adult AI findings provide the current use, purpose, privacy, and governance comparison.", "status": "primary-comparison"}
+  ],
+  "boundary": "This is a deliberately non-pooled cross-source record. It establishes distinct reach, use, purpose, attention, civic, and institutional-scrutiny signals, but does not establish a common digital exposure, platform causation, dependence, privacy loss, political persuasion, consumer spending effect, harm, remedy, or exit cost. A linked respondent panel, product telemetry, terms/data audit, complaint and remedy records, and longitudinal switching outcomes are still required to test the end-to-end mechanism."
+}

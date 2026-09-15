@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-student-loan-timing-field-audit-2024-2025",
+  "title": "CFPB student-loan timing fields measure different institutional endpoints",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "firm_sector_market_power"],
+  "source_unit": "published CFPB student-loan complaint record in product-filtered API aggregations, grouped by calendar year received",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; student-loan timing field audit",
+      "denominator": {"value": 14685, "unit": "published student-loan complaint records"},
+      "measures": {
+        "company_response_untimely": {"value": 0.3337, "unit": "percent of product-filtered records", "value_type": "share"},
+        "timely_field_no": {"value": 5.6384, "unit": "percent of product-filtered records", "value_type": "share"},
+        "company_response_in_progress": {"value": 0.0, "unit": "percent of product-filtered records", "value_type": "share"}
+      },
+      "method": "Official CFPB product-filtered API aggregation for student-loan complaints received in 2024; compare the company_response bucket with the separate timely bucket.",
+      "uncertainty": "No sampling standard error; fields are administrative classifications. This audit does not infer elapsed days, borrower harm, or remedy.",
+      "subgroup": "Student-loan complaints.",
+      "counterinterpretation": "The two fields may represent different processing stages or coding rules; their difference cannot be interpreted as a contradiction or a causal delay without field-level and case-level review.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "sha256:f6d188c253774f4d0d2d27f01da8aef56dd27ba33538d44d47711aa7dd3ed87d",
+      "status": "observed"
+    },
+    {
+      "period": "2025; student-loan timing field audit",
+      "denominator": {"value": 21333, "unit": "published student-loan complaint records"},
+      "measures": {
+        "company_response_untimely": {"value": 15.9237, "unit": "percent of product-filtered records", "value_type": "share"},
+        "timely_field_no": {"value": 30.4036, "unit": "percent of product-filtered records", "value_type": "share"},
+        "company_response_in_progress": {"value": 0.9094, "unit": "percent of product-filtered records", "value_type": "share"}
+      },
+      "method": "Official CFPB product-filtered API aggregation for student-loan complaints received in 2025; compare the company_response bucket with the separate timely bucket. The CFPB 2025 Consumer Response Annual Report provides an external rounded context of approximately 31% no timely response or no response for student loans.",
+      "uncertainty": "No sampling standard error; the year-over-year field movement may reflect servicing, routing, publication, coding, taxonomy, or index changes. The API field distinction is not itself an elapsed-time or borrower-outcome measure.",
+      "subgroup": "Student-loan complaints.",
+      "counterinterpretation": "The increase may be a processing or classification change rather than a uniform deterioration in student-loan servicing; case-level notices, servicing transfer dates, payment status, and verified remedy are not present.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/",
+      "retrieval_hash": "sha256:863d362c500b6bd33134f30de60087b4349cd0ac90b231f35082fcb4b1ec9ec5; report:sha256:5364f19086de5a0ede17c11933c1b69d528dd2a3271700e34217634bb32230e0",
+      "status": "observed"
+    }
+  ],
+  "boundary": "This is a field-definition and administrative-endpoint audit. It does not estimate student-loan borrower harm, elapsed response days, remedy adequacy, payment interruption, trust, switching, or causal servicing effects. The separate company_response and timely fields must be retained rather than collapsed."
+}

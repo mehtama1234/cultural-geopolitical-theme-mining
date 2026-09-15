@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-gdp-corporate-profits-2026q2",
+  "title": "Second-quarter 2026 output, private demand, prices, and corporate profits move on different scales",
+  "theme_ids": ["cost", "work", "energy"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "unequal_exposure_status", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "BEA second-estimate quarterly National Income and Product Accounts and corporate-profits estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026 Q2; April–June; second estimate",
+      "denominator": {"value": 1, "unit": "aggregate US national-accounts series; quarterly percent changes shown at annual rates", "value_type": "aggregate_account"},
+      "measures": {"real_gdp_growth": {"value": 1.5, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"}, "real_gdi_growth": {"value": 2.2, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"}, "real_final_sales_private_domestic_purchasers_growth": {"value": 4.2, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"}},
+      "method": "BEA seasonally adjusted second estimate; quarterly percent changes are displayed at annual rates.",
+      "uncertainty": "The second estimate is revised as additional source data arrive; aggregate output and private-demand measures do not identify firms, workers, households, or distribution.",
+      "subgroup": "Aggregate US economy and private domestic purchasers; no industry, firm-size, worker, or household subgroup.",
+      "counterinterpretation": "Private final-sales growth can coexist with unequal household purchasing power, imported input dependence, or weak conditions for particular firms and workers.",
+      "source_url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "retrieval_hash": "sha256:2a0afce2c96c4ba383d382de93747e5b5da7d49f8fff923cda089285184b185e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Q2; April–June; second estimate",
+      "denominator": {"value": 1, "unit": "aggregate US price-index series; quarterly changes shown at annual rates", "value_type": "aggregate_account"},
+      "measures": {"gross_domestic_purchases_price_index": {"value": 5.8, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"}, "pce_price_index": {"value": 5.3, "unit": "percent annual rate from 2026 Q1", "value_type": "reported_rate"}, "core_pce_price_index": {"value": 3.6, "unit": "percent annual rate from 2026 Q1; excludes food and energy", "value_type": "reported_rate"}},
+      "method": "BEA seasonally adjusted quarterly price-index estimates in the second-estimate release.",
+      "uncertainty": "Price indexes are aggregate measures and do not reproduce any household's basket; the release is a current vintage subject to revision.",
+      "subgroup": "Aggregate US domestic purchases and personal-consumption price indexes; no household or income subgroup.",
+      "counterinterpretation": "An aggregate price increase can be experienced differently by households depending on housing, energy, health, food, transportation, and substitution options.",
+      "source_url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "retrieval_hash": "sha256:2a0afce2c96c4ba383d382de93747e5b5da7d49f8fff923cda089285184b185e",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Q2; April–June; second estimate",
+      "denominator": {"value": 1, "unit": "aggregate US corporate-profits-from-current-production series", "value_type": "aggregate_account"},
+      "measures": {"corporate_profits_current_production_change": {"value": 400.9, "unit": "billions of current US dollars from 2026 Q1", "value_type": "reported_change"}, "prior_quarter_change": {"value": 74.4, "unit": "billions of current US dollars from 2025 Q4 to 2026 Q1", "value_type": "reported_change"}},
+      "method": "BEA profits from current production, with inventory valuation and capital consumption adjustments, from the second-estimate release.",
+      "uncertainty": "Corporate profits are aggregate national-account estimates and do not identify profit distribution, firm market power, tax treatment, reinvestment, wages, employment, or worker control.",
+      "subgroup": "Aggregate US corporate sector; no industry, firm-size, ownership, worker, or household subgroup.",
+      "counterinterpretation": "Profit growth can reflect prices, margins, composition, inventory and capital-consumption adjustments, or sector concentration rather than broad productive or social benefit.",
+      "source_url": "https://bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-2nd-quarter-2026",
+      "retrieval_hash": "sha256:2a0afce2c96c4ba383d382de93747e5b5da7d49f8fff923cda089285184b185e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bea.gov/news/2026/personal-income-and-outlays-july-2026", "claim": "BEA July personal income and outlays provide a later household-flow context, with a September 30 annual update scheduled.", "status": "official-comparison-context"},
+    {"source_url": "https://www.bls.gov/news.release/empsit.htm", "claim": "BLS August labor-market measures provide a separate worker and establishment context.", "status": "official-comparison-context"},
+    {"source_url": "https://www.newyorkfed.org/microeconomics/hhdc", "claim": "New York Fed aggregate household-debt measures provide a separate credit-exposure context.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This record separates real output, private domestic demand, price indexes, and corporate profits. It does not establish household welfare, worker bargaining power, firm-level market power, AI productivity, political meaning, or geopolitical leverage. Quarterly annual-rate changes, monthly national accounts, labor-market surveys, household surveys, and credit records remain different units."
+}

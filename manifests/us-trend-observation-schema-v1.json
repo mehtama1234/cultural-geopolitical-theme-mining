@@ -1,0 +1,44 @@
+{
+  "format": "cultural-geopolitical-theme-mining-trend-observation-schema-v1",
+  "required_record_fields": [
+    "trend_id",
+    "title",
+    "theme_ids",
+    "program_theme_ids",
+    "source_unit",
+    "geography",
+    "observations",
+    "boundary"
+  ],
+  "required_observation_fields": [
+    "period",
+    "denominator",
+    "measures",
+    "method",
+    "uncertainty",
+    "subgroup",
+    "counterinterpretation",
+    "source_url",
+    "retrieval_hash"
+  ],
+  "denominator_contract": "Use a positive numeric value when the study reports a usable count. If the count is not disclosed or not available in the committed extraction, use value null, value_type not_disclosed, and a unit that states what the denominator is and why its count is unavailable; never fabricate a count.",
+  "measure_contract": "Every measure must name its unit and value_type. Values must not be compared across periods without recording taxonomy, universe, routing, or definition changes.",
+  "status_values": ["observed", "reported", "estimated", "compared", "inferred", "open"],
+  "theme_id_values": ["cost", "time", "voice", "work", "energy"],
+  "program_theme_catalog": [
+    {"id":"household_room_consumption","title":"Household room and consumption"},
+    {"id":"time_hidden_price","title":"Time as a hidden price"},
+    {"id":"consumer_power_recourse","title":"Consumer power and recourse"},
+    {"id":"platforms_data_attention","title":"Platforms, data, and attention"},
+    {"id":"work_control_bargaining","title":"Work, control, and bargaining"},
+    {"id":"care_health_reproduction","title":"Care, health, and social reproduction"},
+    {"id":"housing_place_mobility","title":"Housing, place, and mobility"},
+    {"id":"unequal_exposure_status","title":"Unequal exposure and status"},
+    {"id":"trust_identity_meaning","title":"Trust, identity, and cultural meaning"},
+    {"id":"public_systems_feedback","title":"Public systems and policy feedback"},
+    {"id":"political_judgment_action","title":"Political judgment and collective action"},
+    {"id":"firm_sector_market_power","title":"Firm, sector, and market power"},
+    {"id":"infrastructure_technology_dependency","title":"Infrastructure, technology, and dependency"},
+    {"id":"geopolitical_state_consequences","title":"Geopolitical and state consequences"}
+  ]
+}

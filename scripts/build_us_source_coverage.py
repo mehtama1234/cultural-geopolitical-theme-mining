@@ -78,7 +78,9 @@ assert records
 md = ["# US source coverage", "", f"{len(records)} project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.", ""]
 md += ["**Source families recorded:** " + "; ".join(f"{name}: {count}" for name, count in sorted(families.items())), ""]
 for record in records:
-    md += [f"## {record['title']}", "", f"**Project:** `{record['project']}`", "", f"**Status:** {record['status']}", "", f"**Question:** {record['question']}", "", f"**Sources recorded:** {len(record['sources'])}", ""]
+    status = f" {record['status']}" if record["status"] else ""
+    question = f" {record['question']}" if record["question"] else ""
+    md += [f"## {record['title']}", "", f"**Project:** `{record['project']}`", "", f"**Status:**{status}", "", f"**Question:**{question}", "", f"**Sources recorded:** {len(record['sources'])}", ""]
     md += [f"- [{s['label']}]({s['url']})" for s in record["sources"]]
     if record["gaps"]:
         md += ["", "**Open gaps:**"] + [f"- {gap}" for gap in record["gaps"]]

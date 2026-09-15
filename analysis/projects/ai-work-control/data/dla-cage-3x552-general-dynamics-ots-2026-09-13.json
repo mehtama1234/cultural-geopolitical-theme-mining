@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:07:16.563540+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=3X552",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=801040",
+  "cage_query": "3X552",
+  "response_sha256": "61291d39f23c0d460069b4a3d20e7af6a9e50d0ddb9d2dd261d08ca350a622dc",
+  "record": {
+    "legal_business_name": "GENERAL DYNAMICS-OTS, INC.",
+    "address": "6345 AR 203 HWY HAMPTON, AR 71744 9427 UNITED STATES OF AMERICA",
+    "cage": "3X552",
+    "uei": "JCUNVL6B1QJ8",
+    "status": "Active",
+    "cage_update_date": "07/23/2026",
+    "cage_expiration": "07/23/2031",
+    "parent_cage": "95403",
+    "parent_company_name": "GENERAL DYNAMICS CORP"
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

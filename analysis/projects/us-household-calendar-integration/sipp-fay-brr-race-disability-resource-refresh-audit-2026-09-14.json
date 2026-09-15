@@ -1,0 +1,20 @@
+{
+  "audit_type": "sipp-fay-brr-race-disability-resource-refresh-v1",
+  "checked": "2026-09-14",
+  "source_year": 2025,
+  "primary_path": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
+  "replicate_path": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+  "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+  "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "output_sha256": "a4065bdf24dce13c3a634fafd1532f00c06e1b3d40323dc86aeab70432df027f",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "grouping": "ERACE_EDISABL_THINCPOV",
+  "fields": ["EAWBMORT", "EAWBGAS", "RFOODS", "EFOOD6", "RMNUMJOBS"],
+  "replicate_count": 240,
+  "fay_perturbation_factor": 0.5,
+  "official_universes": true,
+  "comparison": "The current-v16 estimates are directionally consistent with the earlier v10 layer but are not identical in every displayed cell; the refresh is retained as a dated vintage result rather than overwriting the earlier table without a full source-vintage reconciliation.",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/sipp-race-disability-resource-v16.json --fields EAWBMORT EAWBGAS RFOODS EFOOD6 RMNUMJOBS --group-by ERACE_EDISABL_THINCPOV --official-universes",
+  "boundary": "Person-weighted descriptive estimates; EDISABL is a work-limiting-condition measure, not a complete disability taxonomy. The result does not establish causality, household-weighted incidence, discrimination, accommodation, health, trust, political action, or firm response."
+}

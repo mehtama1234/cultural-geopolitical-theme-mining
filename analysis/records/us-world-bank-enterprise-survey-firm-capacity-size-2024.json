@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-world-bank-enterprise-survey-firm-capacity-size-2024",
+  "title": "US firm capacity is a size-stratified bundle of training, growth, infrastructure, and constraint",
+  "theme_ids": ["work", "energy", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "World Bank Enterprise Survey country profile; 2,589 US establishments interviewed May 2024–April 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 survey fieldwork; establishment size profile",
+      "denominator": {"value": 2589, "unit": "interviewed US establishments; official country-profile sample", "value_type": "survey_sample"},
+      "measures": {
+        "average_workers_small": {"value": 7.4, "unit": "workers per establishment; 5–19 employee stratum", "value_type": "mean"},
+        "average_workers_medium": {"value": 33.0, "unit": "workers per establishment; 20–99 employee stratum", "value_type": "mean"},
+        "average_workers_large": {"value": 193.7, "unit": "workers per establishment; 100+ employee stratum", "value_type": "mean"},
+        "employment_growth_small": {"value": 4.2, "unit": "percent; latest fiscal year relative to two years earlier", "value_type": "reported_share_or_rate"},
+        "employment_growth_medium": {"value": 6.4, "unit": "percent; latest fiscal year relative to two years earlier", "value_type": "reported_share_or_rate"},
+        "employment_growth_large": {"value": 12.6, "unit": "percent; latest fiscal year relative to two years earlier", "value_type": "reported_share_or_rate"}
+      },
+      "method": "Official World Bank Enterprise Survey US country-profile table; establishment-size strata are reported separately and are not pooled into a synthetic firm-capacity score.",
+      "uncertainty": "The public country profile reports point values but not the full standard-error, variance, weighting, nonresponse, or common-universe documentation needed for a precision comparison here; employment growth is a reported survey measure, not a causal estimate.",
+      "subgroup": "Small (5–19 employees), medium (20–99), and large (100+) establishments.",
+      "counterinterpretation": "Higher reported employment growth among large establishments may reflect composition, sector, age, sampling, or scale differences; it does not establish that large firms provide better jobs or greater worker control.",
+      "source_url": "https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/United-States-2024.pdf",
+      "retrieval_hash": "sha256:0c60bf0882027a5fdcd6e8ee63505d1a636c61928d246e387e4d8173c1426ee0",
+      "status": "reported"
+    },
+    {
+      "period": "2024 survey fieldwork; training, infrastructure, and finance by establishment size",
+      "denominator": {"value": 2589, "unit": "interviewed US establishments; size-conditioned country-profile indicators", "value_type": "survey_sample"},
+      "measures": {
+        "formal_training_small": {"value": 29.1, "unit": "percent of small establishments offering formal training", "value_type": "share"},
+        "formal_training_medium": {"value": 59.1, "unit": "percent of medium establishments offering formal training", "value_type": "share"},
+        "formal_training_large": {"value": 78.9, "unit": "percent of large establishments offering formal training", "value_type": "share"},
+        "electrical_outages_small": {"value": 21.0, "unit": "percent of small establishments experiencing electrical outages", "value_type": "share"},
+        "electrical_outages_medium": {"value": 23.2, "unit": "percent of medium establishments experiencing electrical outages", "value_type": "share"},
+        "electrical_outages_large": {"value": 36.2, "unit": "percent of large establishments experiencing electrical outages", "value_type": "share"},
+        "bank_financed_investment_small": {"value": 19.2, "unit": "percent of small establishments using banks to finance investments", "value_type": "share"},
+        "bank_financed_investment_medium": {"value": 15.0, "unit": "percent of medium establishments using banks to finance investments", "value_type": "share"},
+        "bank_financed_investment_large": {"value": 33.9, "unit": "percent of large establishments using banks to finance investments", "value_type": "share"}
+      },
+      "method": "Official World Bank Enterprise Survey country-profile indicators, shown by establishment size; each percentage retains its own indicator universe.",
+      "uncertainty": "The indicators are not a common firm-level panel and the public profile does not provide the complete variance surface; outage experience, training offer, and bank-finance use are separate measures.",
+      "subgroup": "Small, medium, and large establishments.",
+      "counterinterpretation": "Large firms report both more formal training and more outage exposure; the pattern is compatible with greater infrastructure exposure or more complex operations, not simply greater capability or vulnerability.",
+      "source_url": "https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/United-States-2024.pdf",
+      "retrieval_hash": "sha256:0c60bf0882027a5fdcd6e8ee63505d1a636c61928d246e387e4d8173c1426ee0",
+      "status": "reported"
+    },
+    {
+      "period": "2024 survey fieldwork; leading business obstacles by establishment size",
+      "denominator": {"value": 2589, "unit": "interviewed US establishments; obstacle-selection profile", "value_type": "survey_sample"},
+      "measures": {
+        "inadequately_educated_workforce_small": {"value": 28.1, "unit": "percent naming an inadequately educated workforce as the biggest obstacle; small establishments", "value_type": "share"},
+        "inadequately_educated_workforce_medium": {"value": 28.2, "unit": "percent; medium establishments", "value_type": "share"},
+        "inadequately_educated_workforce_large": {"value": 19.6, "unit": "percent; large establishments", "value_type": "share"},
+        "tax_rates_small": {"value": 22.3, "unit": "percent naming tax rates as the biggest obstacle; small establishments", "value_type": "share"},
+        "tax_rates_medium": {"value": 16.3, "unit": "percent; medium establishments", "value_type": "share"},
+        "tax_rates_large": {"value": 14.4, "unit": "percent; large establishments", "value_type": "share"},
+        "labor_regulations_small": {"value": 6.6, "unit": "percent naming labor regulations as the biggest obstacle; small establishments", "value_type": "share"},
+        "labor_regulations_medium": {"value": 10.3, "unit": "percent; medium establishments", "value_type": "share"},
+        "labor_regulations_large": {"value": 22.8, "unit": "percent; large establishments", "value_type": "share"}
+      },
+      "method": "Top-obstacle question from the official country profile; respondents selected one biggest business-environment obstacle from the survey list.",
+      "uncertainty": "These are manager-reported perceptions, not independently verified constraints or causal effects; categories are mutually selected for the biggest-obstacle question but do not measure the intensity of all other obstacles.",
+      "subgroup": "Small, medium, and large establishments.",
+      "counterinterpretation": "Small and large firms name different constraint mixes: workforce adequacy and tax rates are more prominent for small firms, while labor regulations are more prominent for large firms; this is not evidence that one size group faces less total constraint.",
+      "source_url": "https://www.enterprisesurveys.org/content/dam/enterprisesurveys/documents/country/United-States-2024.pdf",
+      "retrieval_hash": "sha256:0c60bf0882027a5fdcd6e8ee63505d1a636c61928d246e387e4d8173c1426ee0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.enterprisesurveys.org/en/data/data-updates", "claim": "The World Bank released a separate US AI-focused follow-up survey in May 2026.", "status": "access-boundary", "access_boundary": "The AI follow-up microdata and documentation remain behind the authenticated portal; this 2024 country profile is not an AI adoption estimate."},
+    {"source_url": "https://www.enterprisesurveys.org/en/data/custom-query", "claim": "The public WBES indicator layer supports economy/subgroup indicators and can include standard errors and observation counts.", "status": "context", "access_boundary": "The present record uses the official country-profile PDF values; it does not reconstruct a variance estimate from the public page."}
+  ],
+  "boundary": "This record establishes a bounded 2024 US firm baseline in which size is associated with different reported training, employment-growth, infrastructure, finance, and obstacle profiles. It does not estimate AI adoption, productivity causality, worker outcomes, firm survival, household incidence, or geopolitical leverage; the establishment survey size cells, indicator universes, and manager perceptions remain distinct evidence surfaces."
+}

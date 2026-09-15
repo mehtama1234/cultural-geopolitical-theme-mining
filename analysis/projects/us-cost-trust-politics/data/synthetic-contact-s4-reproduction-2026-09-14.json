@@ -1,0 +1,17 @@
+{
+  "format": "reproduction-audit-v1",
+  "study": "Synthetic Contact with AI Reduces Cross-Partisan Animosity, Study 4",
+  "checked": "2026-09-14",
+  "archive": {"url": "https://zenodo.org/records/20971465", "file": "synthetic-contact-public.zip", "bytes": 3829540, "sha256": "41841857b5684f5fb427fd18db8f899ac38f01e27afa30a88e129b047c993abf"},
+  "input": "release/data/s4.parquet",
+  "source_loader": "release/code/s4__load.R",
+  "filters_reproduced": ["line == Blue Line", "math_correct == 1 and animal_correct == 1", "Q_RecaptchaScore missing or >= 0.5", "tabSwitchCountBot missing or <= 2", "duration at least mean minus three standard deviations", "has_conversation is present and true and user_turn_count > 0", "mortality_time == 3", "participantRole in D or R", "in_botcheck is false or bot_pass is true", "preregistered is true"],
+  "result": {
+    "analysis_n": 1069,
+    "control_condition": {"treatment_num": 2, "n": 548, "outgroup_chat_n": 332, "outgroup_chat_share_percent": 60.583942},
+    "outgroup_bot_condition": {"treatment_num": 1, "n": 521, "outgroup_chat_n": 350, "outgroup_chat_share_percent": 67.178503},
+    "paper_rounded_result": "61% control versus 67% outgroup-bot",
+    "agreement": "reproduced"
+  },
+  "boundary": "This reproduces descriptive treatment shares from the released de-identified analysis-ready Study 4 file. It does not independently reproduce the paper's logistic regression, raw-data cleaning, withheld bot-check inputs, or chatbot transcripts. The result remains an experiment-specific immediate choice, not evidence of durable political action or population-scale depolarization."
+}

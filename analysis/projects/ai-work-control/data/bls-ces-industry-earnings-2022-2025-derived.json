@@ -1,0 +1,48 @@
+{
+  "format": "bls-ces-industry-earnings-annual-derivation-v1",
+  "source_url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "request": {
+    "seriesid": [
+      "CES3000000003",
+      "CES6000000003",
+      "CES6500000003",
+      "CES7000000003"
+    ],
+    "startyear": "2022",
+    "endyear": "2025"
+  },
+  "raw_response_sha256": "3444b358cab149acb24f45e31da88fa8cfe874fdf5eeb13f969aebe78cc42602",
+  "series": {
+    "CES3000000003": "manufacturing",
+    "CES6000000003": "professional_and_business_services",
+    "CES6500000003": "education_and_health_services",
+    "CES7000000003": "leisure_and_hospitality"
+  },
+  "annual_mean_of_monthly_dollars_per_hour": {
+    "manufacturing": {
+      "2022": 30.9358,
+      "2023": 32.3992,
+      "2024": 33.9783,
+      "2025": 35.45
+    },
+    "professional_and_business_services": {
+      "2022": 38.7667,
+      "2023": 40.4967,
+      "2024": 42.2742,
+      "2025": 44.2625
+    },
+    "education_and_health_services": {
+      "2022": 31.88,
+      "2023": 33.1408,
+      "2024": 34.3433,
+      "2025": 35.5917
+    },
+    "leisure_and_hospitality": {
+      "2022": 20.125,
+      "2023": 21.1942,
+      "2024": 22.03,
+      "2025": 22.84
+    }
+  },
+  "method": "Arithmetic mean of 12 monthly, seasonally adjusted average hourly earnings of all employees for each selected private-industry series."
+}

@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyfed-economic-heterogeneity-2025",
+  "title": "Household inflation, earnings, and consumption diverge across US groups",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "New York Fed Economic Heterogeneity Indicator for demographic, economic, and geographic group consumption baskets and outcomes",
+  "geography": "United States national indicators, with metro, regional, demographic, and urban/rural groupings",
+  "observations": [
+    {
+      "period": "December 2025 national inflation indicators",
+      "denominator": {"value": 23, "unit": "major US metropolitan areas used in the demographic-CPI construction, with smaller cities and towns assigned by census region", "value_type": "reported_method_universe"},
+      "measures": {
+        "hispanic_inflation_gap": {"value": -0.39, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"},
+        "under_25_inflation_gap": {"value": -0.29, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"},
+        "south_inflation_gap": {"value": -0.51, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"},
+        "northeast_inflation_gap": {"value": 0.57, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"},
+        "west_inflation_gap": {"value": 0.23, "unit": "percentage-point difference from national inflation", "value_type": "estimated_group_gap"}
+      },
+      "method": "Demographic expenditure shares from BLS Consumer Expenditure Survey microdata are combined with category and metro CPI inflation; group contributions are aggregated to demographic inflation indexes and compared with overall inflation.",
+      "uncertainty": "Demographic inflation is an author-constructed estimate, not an official BLS demographic CPI. It assumes people within a metro area face the same category prices and uses expenditure shares from the prior available CEX year; rural estimates use urban regional prices.",
+      "subgroup": "Race/ethnicity, income, age, education, census region, and urban/rural status.",
+      "counterinterpretation": "A group inflation gap reflects both expenditure composition and assigned prices; it does not by itself show different realized prices paid by every household or identify a causal policy shock.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/12-2025_ehi_national_full.pdf?hash=9ED1DF9F83095FAE63BA1946341924C9&sc_lang=en",
+      "retrieval_hash": "sha256:27f0c348ea901c692af36e167bd910451ea0be52bf5a564e92f966a3817afcb4",
+      "status": "estimated"
+    },
+    {
+      "period": "December 2025 national earnings indicators",
+      "denominator": {"value": 1, "unit": "reported comparison benchmark for each earnings-ratio series", "value_type": "ratio_benchmark"},
+      "measures": {
+        "black_to_white_earnings": {"value": 78.7, "unit": "percent of white workers' earnings", "value_type": "reported_group_ratio"},
+        "hispanic_to_white_earnings": {"value": 77.5, "unit": "percent of white workers' earnings", "value_type": "reported_group_ratio"},
+        "noncollege_to_college_earnings": {"value": 57.4, "unit": "percent of workers with a college degree's earnings", "value_type": "reported_group_ratio"},
+        "women_to_men_earnings": {"value": 81.1, "unit": "percent of men's earnings", "value_type": "reported_group_ratio"},
+        "rural_to_urban_earnings": {"value": 86.7, "unit": "percent of urban workers' earnings", "value_type": "reported_group_ratio"}
+      },
+      "method": "National EHI earnings ratios calculated for employed worker groups using BLS-based earnings measures; ratios compare group average earnings to a named benchmark.",
+      "uncertainty": "Ratios describe earnings among employed workers and do not capture differential employment, hours, occupation, or selection into work. The release is an indicator publication, not a causal decomposition.",
+      "subgroup": "Race/ethnicity, education, sex, and urban/rural status.",
+      "counterinterpretation": "A changing earnings ratio may reflect composition, hours, occupations, employment selection, or labor-market composition rather than a change in bargaining power alone.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/12-2025_ehi_national_full.pdf?hash=9ED1DF9F83095FAE63BA1946341924C9&sc_lang=en",
+      "retrieval_hash": "sha256:27f0c348ea901c692af36e167bd910451ea0be52bf5a564e92f966a3817afcb4",
+      "status": "reported"
+    },
+    {
+      "period": "2023 through November 2025 national consumer-spending indicators",
+      "denominator": {"value": 200000, "unit": "balanced Numerator household panel used for receipt-level retail spending indicators", "value_type": "reported_panel_scale"},
+      "measures": {
+        "real_high_income_consumption": {"value": "increased", "unit": "direction of real retail-consumption change since 2023", "value_type": "reported_direction"},
+        "real_middle_income_consumption": {"value": "remained flat", "unit": "direction of real retail-consumption change since 2023", "value_type": "reported_direction"},
+        "real_low_income_consumption": {"value": "decreased by November 2025", "unit": "direction of real retail-consumption change since 2023", "value_type": "reported_direction"}
+      },
+      "method": "Receipt-level Numerator retail spending is aggregated by demographic group, deflated using demographic-specific inflation indexes, and seasonally adjusted; retail excludes automobiles in the national measure.",
+      "uncertainty": "Numerator is a market-research receipt and permissioned-email panel rather than a government probability survey. The reported directions are aggregate group trends, not within-household causal changes or evidence that inflation alone caused the divergence.",
+      "subgroup": "Income, education, race/ethnicity, age, urban status, and census region.",
+      "counterinterpretation": "Different consumption growth may reflect wealth, income, employment, credit, household composition, product mix, panel composition, or unobserved price and quantity changes.",
+      "source_url": "https://www.newyorkfed.org/medialibrary/research/interactives/data/economic-heterogeneity-indicators/downloads/12-2025_ehi_national_full.pdf?hash=9ED1DF9F83095FAE63BA1946341924C9&sc_lang=en",
+      "retrieval_hash": "sha256:27f0c348ea901c692af36e167bd910451ea0be52bf5a564e92f966a3817afcb4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.newyorkfed.org/research/economic-heterogeneity-indicators", "claim": "New York Fed EHI landing page, methodology, updates, and downloadable national/regional data.", "status": "official-metadata"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm", "claim": "Related Federal Reserve household price-adaptation and financial-room evidence.", "status": "related-evidence"}
+  ],
+  "boundary": "This record measures constructed demographic inflation, employed-worker earnings ratios, and aggregate receipt-based retail-consumption directions through December/November 2025. It does not establish household-specific prices, policy causality, trust, political action, or a same-household cost-to-behavior chain. The EHI indicators are not official estimates of the Federal Reserve System or FOMC."
+}

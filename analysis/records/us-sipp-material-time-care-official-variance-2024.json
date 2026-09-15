@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-material-time-care-official-variance-2024",
+  "title": "SIPP material and food-security diagnostics retain Fay-BRR uncertainty",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "SIPP person record by reference month using final person and Fay-BRR replicate weights; household fields remain repeated on person records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year in the 2025 SIPP public-use file",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight selected person-record/month rows; 379,215 rows read", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {
+        "unable_to_pay_rent_or_mortgage": {"value": 4.636, "unit": "percent among 377,945 valid person-record/month records", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 0.251, "ci95_percentage_points": [4.144, 5.129]},
+        "unable_to_pay_utility_bills": {"value": 7.069, "unit": "percent among 377,945 valid person-record/month records", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 0.322, "ci95_percentage_points": [6.437, 7.701]},
+        "high_or_marginal_food_security": {"value": 88.978, "unit": "percent among 321,883 valid age-15-plus person-record/month records", "value_type": "weighted_share", "standard_error_percentage_points": 0.365, "ci95_percentage_points": [88.263, 89.694]},
+        "hungry_but_did_not_eat_because_of_money": {"value": 25.597, "unit": "percent among 62,808 valid food-screen person-record/month records", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 1.176, "ci95_percentage_points": [23.293, 27.901]},
+        "one_job": {"value": 54.751, "unit": "percent among 321,883 valid age-15-plus person-record/month records", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 0.312, "ci95_percentage_points": [54.138, 55.363]}
+      },
+      "method": "Selected fields were screened with their official status flags and documented age/food-screen universes. Full estimates use WPFINWGT; 240 replicate estimates use REPWGT1–REPWGT240 and Census Fay-BRR variance with G=240 and perturbation factor 0.5.",
+      "uncertainty": "The reported intervals are design-based Fay-BRR approximations; field universe, reference-period, nonresponse, and person-record limitations remain. Household fields are not household-weighted.",
+      "subgroup": "Official field universes: rent/mortgage and utility hardship; age-15-plus food-security and job measures; food-screen universe for hunger.",
+      "counterinterpretation": "The utility and rent hardship shares need not describe the same people; food security and hunger have different universes; one job is not employment quality or schedule control; none of these estimates identifies a dated bill, care event, institutional cause, or political response.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official field labels, status flags, and universes.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/rw2025_dictionary.txt", "claim": "Official replicate-weight keys and fields.", "status": "official-replicate-dictionary"}
+  ],
+  "boundary": "This is a person-weighted, design-based descriptive layer. It does not establish household prevalence, causal effects, exact event timing, time displacement, remedy, trust, political action, or a complete material-to-time-to-care chain."
+}

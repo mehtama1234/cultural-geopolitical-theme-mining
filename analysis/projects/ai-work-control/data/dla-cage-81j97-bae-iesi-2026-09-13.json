@@ -1,0 +1,20 @@
+{
+  "format": "dla-cage-detail-v1",
+  "retrieved_at": "2026-09-13T20:04:40.772420+00:00",
+  "search_endpoint": "https://cage.dla.mil/Search/Results?page=1&q=81J97",
+  "detail_endpoint": "https://cage.dla.mil/Search/Details?id=10332512",
+  "cage_query": "81J97",
+  "response_sha256": "e223bc206df27e18c2be794589c4166450ceb71225567a194b4582562debdcc7",
+  "record": {
+    "legal_business_name": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+    "address": "21 CONTINENTAL BLVD MERRIMACK, NH 03054 4303 UNITED STATES OF AMERICA",
+    "cage": "81J97",
+    "uei": "SL2KEMFACM69",
+    "status": "Active",
+    "cage_update_date": "08/10/2026",
+    "cage_expiration": "06/10/2031",
+    "parent_cage": "1BNT5",
+    "parent_company_name": "BAE SYSTEMS, INC"
+  },
+  "boundary": "Public DLA CAGE detail record for one CAGE identifier; it establishes the displayed entity identity, address, status, UEI, and linked parent fields at retrieval time, not the location of every subaward action, ownership rights beyond displayed relationships, workforce, production, delivery, or local incidence."
+}

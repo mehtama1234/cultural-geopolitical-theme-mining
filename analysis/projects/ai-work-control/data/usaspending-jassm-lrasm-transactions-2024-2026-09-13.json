@@ -1,0 +1,238 @@
+{
+  "format": "usaspending-award-transaction-history-v1",
+  "retrieved_at": "2026-09-13T19:48:41.401032+00:00",
+  "endpoint": "https://api.usaspending.gov/api/v2/search/spending_by_transaction/",
+  "request": {
+    "filters": {
+      "award_ids": [
+        "FA868224CB001"
+      ],
+      "award_type_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "fields": [
+      "Award ID",
+      "Transaction Amount",
+      "Action Date",
+      "Transaction Description",
+      "Mod",
+      "Award Type"
+    ],
+    "page": 1,
+    "limit": 100,
+    "subawards": false,
+    "sort": "Action Date",
+    "order": "asc"
+  },
+  "response_sha256": "f0821352c57aff37ac78fbb51c3e404235e414b072a815e034b267a59f5c4cd0",
+  "response": {
+    "limit": 100,
+    "results": [
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 2423365242.0,
+        "Action Date": "2024-09-27",
+        "Transaction Description": "LONG RANGE ANTI-SHIP MISSILE/JOINT AIR-TO-SURFACE STANDOFF MISSILE LARGE LOT PROCUREMENT",
+        "Mod": "0",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": -19.0,
+        "Action Date": "2024-12-09",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00001",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 24000000.0,
+        "Action Date": "2025-01-27",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00002",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 0.0,
+        "Action Date": "2025-01-29",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "A00001",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 1444408054.5,
+        "Action Date": "2025-03-13",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00003",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 9950001.0,
+        "Action Date": "2025-04-03",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00004",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 0.0,
+        "Action Date": "2025-04-30",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00005",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 3660974.01,
+        "Action Date": "2025-07-24",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00006",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 1407266218.5,
+        "Action Date": "2025-07-31",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "PZ0007",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 24752000.0,
+        "Action Date": "2025-09-17",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00008",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 8945621.0,
+        "Action Date": "2025-09-25",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00009",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 255548081.82,
+        "Action Date": "2025-10-30",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00010",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 83866868.39,
+        "Action Date": "2025-11-18",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00011",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 8700039.0,
+        "Action Date": "2026-02-12",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00012",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 9765529.81,
+        "Action Date": "2026-03-03",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00013",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 0.0,
+        "Action Date": "2026-03-10",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00014",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 1244739412.19,
+        "Action Date": "2026-03-20",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00015",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 253520000.0,
+        "Action Date": "2026-03-31",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00016",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      },
+      {
+        "Award ID": "FA868224CB001",
+        "Transaction Amount": 0.0,
+        "Action Date": "2026-04-27",
+        "Transaction Description": "JOINT AIR-TO-SURFACE STANDOFF MISSILE/LONG RANGE ANTI-SHIP MISSILE - LARGE LOT PROCUREMENT",
+        "Mod": "P00017",
+        "Award Type": "DEFINITIVE CONTRACT",
+        "generated_internal_id": "CONT_AWD_FA868224CB001_9700_-NONE-_-NONE-",
+        "internal_id": 298582152
+      }
+    ],
+    "page_metadata": {
+      "page": 1,
+      "next": null,
+      "previous": null,
+      "hasNext": false,
+      "hasPrevious": false
+    },
+    "messages": [
+      "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+    ]
+  },
+  "boundary": "One award transaction history from USAspending; not delivered capability, production, readiness, supplier market share, local benefit, or geopolitical leverage."
+}

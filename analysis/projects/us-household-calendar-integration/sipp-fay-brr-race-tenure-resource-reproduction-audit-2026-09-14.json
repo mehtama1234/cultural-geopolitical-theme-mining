@@ -1,0 +1,20 @@
+{
+  "audit_type": "sipp-fay-brr-race-tenure-resource-reproduction-v1",
+  "checked": "2026-09-14",
+  "source_year": 2025,
+  "primary_path": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
+  "replicate_path": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+  "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+  "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+  "output_sha256": "eecd820d5c0101dd6901a07a79cfd21add25b55426cd71f062c2250e0522143b",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "grouping": "ERACE_ETENURE_THINCPOV",
+  "fields": ["EAWBMORT", "EAWBGAS", "RFOODS", "EFOOD6", "RMNUMJOBS"],
+  "replicate_count": 240,
+  "fay_perturbation_factor": 0.5,
+  "official_universes": true,
+  "reproduction": "The current v16 extract reproduces the promoted race-by-tenure-by-resource point estimates, standard errors, confidence intervals, and valid-record counts; no new estimand or trend observation is promoted.",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/sipp-race-tenure-resource-v16.json --fields EAWBMORT EAWBGAS RFOODS EFOOD6 RMNUMJOBS --group-by ERACE_ETENURE_THINCPOV --official-universes",
+  "boundary": "Person-weighted descriptive estimates; household outcomes repeat across person records. This audit does not establish causality, household-weighted incidence, or downstream repair, health, trust, political-action, or firm-response effects."
+}

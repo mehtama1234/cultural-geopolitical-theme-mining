@@ -1,0 +1,38 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-jolts-national-mobility-2026-ytd",
+  "title": "National JOLTS mobility remains cool in January–July 2026, with July preliminary",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "BLS Job Openings and Labor Turnover Survey national total-nonfarm establishment rates from public series pages",
+  "geography": "United States, total nonfarm",
+  "observations": [
+    {
+      "period": "January–July 2026; July preliminary",
+      "denominator": {"value": 7, "unit": "available monthly seasonally adjusted JOLTS rate observations", "value_type": "partial_year_time_series_mean"},
+      "measures": {
+        "job_openings_rate_ytd": {"value": 4.3714, "unit": "percent arithmetic mean of January–July monthly rate", "value_type": "estimated_rate"},
+        "hires_rate_ytd": {"value": 3.3143, "unit": "percent arithmetic mean of January–July monthly rate", "value_type": "estimated_rate"},
+        "quits_rate_ytd": {"value": 1.9571, "unit": "percent arithmetic mean of January–July monthly rate", "value_type": "estimated_rate"},
+        "layoffs_and_discharges_rate_ytd": {"value": 1.0714, "unit": "percent arithmetic mean of January–July monthly rate", "value_type": "estimated_rate"},
+        "total_separations_rate_ytd": {"value": 3.2714, "unit": "percent arithmetic mean of January–July monthly rate", "value_type": "estimated_rate"},
+        "monthly_rates": {"value": "openings 4.4, 4.2, 4.2, 4.6, 4.5, 4.3, 4.4; hires 3.4, 3.1, 3.5, 3.3, 3.3, 3.4, 3.2; quits 2.0, 1.9, 2.0, 1.9, 2.0, 2.0, 1.9; layoffs 1.0, 1.1, 1.2, 1.0, 1.1, 1.1, 1.0; separations 3.2, 3.2, 3.4, 3.2, 3.3, 3.4, 3.2", "unit": "percent monthly seasonally adjusted rates, January through July", "value_type": "reported_series"}
+      },
+      "method": "Arithmetic mean of seven BLS seasonally adjusted monthly national JOLTS rates retrieved from the BLS public series pages; July is marked preliminary. Rates retain BLS establishment-based denominators and are not converted into individual transition probabilities.",
+      "uncertainty": "The partial-year values may be revised; July is preliminary; establishment rates summarize employer reports rather than unique workers, motivations, job quality, or household welfare. The public page vintage was extracted 2026-09-14.",
+      "subgroup": "Total nonfarm establishments; no worker demographic or occupation subgroup in this national series.",
+      "counterinterpretation": "Low quits can reflect reduced outside options, worker preference, retirement, sector composition, or measurement limits; stable openings can coexist with unequal mobility across occupations and groups.",
+      "source_url": "https://data.bls.gov/timeseries/JTS000000000000000JOR",
+      "retrieval_hash": "sha256:6aa701c1de7884bd3c5bb4162031581a51ad5b2e949bc1a4fc43edfcfb768cc1; sha256:bcf7001c37744df3ece2b96f6056ef82067ca04424024f78f5cf39b76ecf4e40; sha256:1eb5783ba15d29272134f6ffae1529940e080af48243951d1206d9112f144769; sha256:c09bedda69e8d2d19ab7c17f5411f29df57eac921b514301251cc9d29ee3253a; sha256:288e9f8e0938c4e0a2b5bb7819f6f2eb469bc6057e6d0db80bb8764aeec4c845",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.bls.gov/timeseries/JTS000000000000000HIR", "claim": "BLS hires-rate public series page used for the 2026 refresh.", "status": "official-series"},
+    {"source_url": "https://data.bls.gov/timeseries/JTS000000000000000QUR", "claim": "BLS quits-rate public series page used for the 2026 refresh.", "status": "official-series"},
+    {"source_url": "https://data.bls.gov/timeseries/JTS000000000000000LDR", "claim": "BLS layoffs-and-discharges public series page used for the 2026 refresh.", "status": "official-series"},
+    {"source_url": "https://data.bls.gov/timeseries/JTS000000000000000TSR", "claim": "BLS total-separations public series page used for the 2026 refresh.", "status": "official-series"},
+    {"source_url": "https://download.bls.gov/pub/time.series/jt/jt.txt", "claim": "BLS JOLTS definitions and series context.", "status": "official-definition"}
+  ],
+  "boundary": "This record extends the establishment-based JOLTS context through July 2026 using a partial-year public-page vintage. It does not establish worker bargaining power, individual job movement, job quality, pay, schedule control, household security, political meaning, or a causal effect of labor-market conditions. It must not be averaged with the complete 2026 annual mean because the year is incomplete and July is preliminary."
+}

@@ -101,6 +101,12 @@ python3 scripts/analyze_sipp_snap_transition_outcomes_fay_brr.py \
 The raw files and derived JSON remain outside the repository. The reusable
 analysis script is [analyze_sipp_snap_transition_outcomes_fay_brr.py](../../../scripts/analyze_sipp_snap_transition_outcomes_fay_brr.py).
 
+The four transition observations are preserved in the machine-readable [trend
+record](../../records/us-sipp-snap-transition-following-hardship-2024.json),
+including Fay-BRR standard errors and 95% intervals for both hardship measures.
+The retrieval hash covers this committed analysis memo because the raw SIPP
+files and derived JSON are not committed.
+
 ## Next event-level test
 
 For a valid same-episode design, add notice date and channel, effort, deadline,

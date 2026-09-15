@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-firm-ai-expectations-2026",
+  "title": "Firm-reported AI effects remain limited in retrospect but expand in expectation",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "firm_sector_market_power", "infrastructure_technology_dependency", "household_room_consumption"],
+  "source_unit": "senior business executives and firms",
+  "geography": "United States, United Kingdom, Germany, and Australia",
+  "observations": [
+    {
+      "period": "2026; executive firm survey covering prior three years and next three years",
+      "denominator": {"value": 6000, "unit": "senior business executives (nearly 6000) at firms in the United States, United Kingdom, Germany, and Australia"},
+      "measures": {
+        "firms_actively_using_ai": {"value": 69, "unit": "percent of firms", "value_type": "reported_share"},
+        "executives_regularly_using_ai": {"value": "more than two thirds", "unit": "share of executives", "value_type": "reported_share"},
+        "executive_ai_use_intensity": {"value": 1.5, "unit": "hours per week on average", "value_type": "reported_average"},
+        "no_past_three_year_firm_employment_or_productivity_impact": {"value": 90, "unit": "percent of executives reporting no impact", "value_type": "reported_share"},
+        "expected_next_three_year_productivity_change": {"value": 1.4, "unit": "percent average expected increase at own firm", "value_type": "forward_expectation"},
+        "expected_next_three_year_output_change": {"value": 0.8, "unit": "percent average expected increase at own firm", "value_type": "forward_expectation"},
+        "expected_next_three_year_employment_change_employers": {"value": -0.7, "unit": "percent average expected change at own firm", "value_type": "forward_expectation"},
+        "expected_next_three_year_employment_change_employees": {"value": 0.5, "unit": "percent average expected change at own firm", "value_type": "forward_expectation"}
+      },
+      "method": "Executive survey reported in NBER Working Paper 34836, with firm AI use, retrospective own-firm effects, and forward expectations measured in a common instrument; the survey covers firms in four countries.",
+      "uncertainty": "The source reports executive perceptions and expectations, not linked administrative outcomes or a randomized firm treatment. The four-country sample is not a US-only estimate, expected changes may not be realized, and the page does not by itself identify occupation, worker subgroup, implementation rule, pay, hours, or bargaining effects.",
+      "subgroup": "Younger and more productive firms report higher usage; employer and employee expectations are compared as distinct respondent perspectives.",
+      "counterinterpretation": "A gap between employer and employee expectations can reflect different information, incentives, or definitions of employment rather than a realized conflict. Low retrospective impact can coexist with impending reorganization, and expected productivity gains need not reach workers or households.",
+      "source_url": "https://www.nber.org/papers/w34836",
+      "retrieval_hash": "sha256:0da65c4ed604a58b8cc95a52cc7c7795c65effadfc621b286d950e1b1377f410",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This is a firm-expectations layer for the AI-at-work program. It distinguishes current adoption, low reported retrospective effects, and expected future productivity/output/employment changes. It does not establish realized employment loss, worker control, pay, household security, cultural meaning, political response, or geopolitical power, and it must not be pooled with worker-level telemetry without a common unit and period."
+}

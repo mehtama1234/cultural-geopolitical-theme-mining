@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-tccp-terms-trend-2024-2025",
+  "title": "The public card-plan offer surface changed across 2024 and 2025 without establishing consumer exposure",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "CFPB Terms of Credit Card Plans product rows and reported issuer fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024-07-01 to 2024-12-31",
+      "denominator": {"value": 566, "unit": "TCCP product rows after metadata/header rows", "value_type": "observed_product_rows"},
+      "measures": {"columns": {"value": 149, "unit": "spreadsheet columns", "value_type": "observed_count"}, "unique_institutions": {"value": 145, "unit": "named institutions", "value_type": "derived_count"}, "unique_products": {"value": 529, "unit": "named products", "value_type": "derived_count"}, "purchase_apr_offered": {"value": 551, "unit": "rows marked Yes", "value_type": "derived_count"}, "credit_tier_apr_variation": {"value": 346, "unit": "rows marked Yes", "value_type": "derived_count"}, "intro_apr_offered": {"value": 133, "unit": "rows marked Yes", "value_type": "derived_count"}, "balance_transfer_offered": {"value": 210, "unit": "rows marked Yes", "value_type": "derived_count"}, "late_fees_offered": {"value": 556, "unit": "rows marked Yes", "value_type": "derived_count"}, "cashback_rewards": {"value": 227, "unit": "rows whose Rewards text includes cashback", "value_type": "derived_count"}, "purchase_apr_median_percent": {"value": 25.74, "unit": "percent; median of numeric product purchase-APR median fields", "value_type": "derived_descriptive_median"}, "annual_fee_median_dollars": {"value": 95, "unit": "US dollars among 121 numeric annual-fee rows", "value_type": "derived_descriptive_median"}},
+      "method": "TCCP spreadsheet header-row and product-row audit; descriptive counts and medians with no account or volume weights.",
+      "uncertainty": "Product rows are not cardholders, approvals, transactions, or market shares; field definitions and participation may differ across periods.",
+      "subgroup": "Product offers and named institutions in the 2024 H2 file.",
+      "counterinterpretation": "The reported product surface can change through participation, naming, reporting, or survey-field changes rather than consumer market change.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:4791f20e20ab294fc8ab4588637b74e5e19f7686b419ec2b26122efd777862f1",
+      "status": "observed"
+    },
+    {
+      "period": "2025-07-01 to 2025-12-31",
+      "denominator": {"value": 663, "unit": "TCCP product rows after metadata/header rows", "value_type": "observed_product_rows"},
+      "measures": {"columns": {"value": 148, "unit": "spreadsheet columns", "value_type": "observed_count"}, "unique_institutions": {"value": 195, "unit": "named institutions", "value_type": "derived_count"}, "unique_products": {"value": 602, "unit": "named products", "value_type": "derived_count"}, "purchase_apr_offered": {"value": 625, "unit": "rows marked Yes", "value_type": "derived_count"}, "credit_tier_apr_variation": {"value": 396, "unit": "rows marked Yes", "value_type": "derived_count"}, "intro_apr_offered": {"value": 149, "unit": "rows marked Yes", "value_type": "derived_count"}, "balance_transfer_offered": {"value": 236, "unit": "rows marked Yes", "value_type": "derived_count"}, "late_fees_offered": {"value": 654, "unit": "rows marked Yes", "value_type": "derived_count"}, "cashback_rewards": {"value": 235, "unit": "rows whose Rewards text includes cashback", "value_type": "derived_count"}, "purchase_apr_median_percent": {"value": 24.49, "unit": "percent; median of numeric product purchase-APR median fields", "value_type": "derived_descriptive_median"}, "annual_fee_median_dollars": {"value": 95, "unit": "US dollars among 113 numeric annual-fee rows", "value_type": "derived_descriptive_median"}},
+      "method": "TCCP spreadsheet header-row and product-row audit; descriptive counts and medians with no account or volume weights.",
+      "uncertainty": "Product rows are not cardholders, approvals, transactions, or market shares; field definitions and participation may differ across periods.",
+      "subgroup": "Product offers and named institutions in the 2025 H2 file.",
+      "counterinterpretation": "The reported product surface can change through participation, naming, reporting, or survey-field changes rather than consumer market change.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:44a418a8e520f58150f818890c8e05d4ef02497e6808ad9e274e691d6255db1a",
+      "status": "observed"
+    },
+    {
+      "period": "2024 H2 to 2025 H2; descriptive product-surface comparison",
+      "denominator": {"value": 2, "unit": "TCCP reporting-period files compared; product rows are not linked longitudinally", "value_type": "comparison_base"},
+      "measures": {"product_row_change": {"value": 17.1, "unit": "percent change in reported product rows, 566 to 663", "value_type": "derived_descriptive_change"}, "named_institution_change": {"value": 34.5, "unit": "percent change in named institutions, 145 to 195", "value_type": "derived_descriptive_change"}, "purchase_apr_median_change": {"value": -1.25, "unit": "percentage points, 25.74% to 24.49%", "value_type": "derived_descriptive_change"}, "credit_tier_apr_variation_change": {"value": 50, "unit": "additional product rows marked Yes, 346 to 396", "value_type": "derived_descriptive_change"}, "annual_fee_median_change": {"value": 0, "unit": "US dollars, $95 to $95 among numeric rows", "value_type": "derived_descriptive_change"}},
+      "method": "Cross-file descriptive comparison produced by scripts/analyze_cfpb_tccp_terms_trend.py; no claim that rows represent the same products or that changes are consumer-weighted.",
+      "uncertainty": "The two files differ slightly in column count and product/institution participation. Product-level median APRs are not borrower-weighted realized rates and do not establish cheaper credit.",
+      "subgroup": "Reported product offers across the two TCCP periods; credit-tier and field-specific subgroups retain their own universes.",
+      "counterinterpretation": "Offer-surface changes may reflect survey redesign, issuer participation, product entry/exit, naming, eligibility, or missingness rather than changes in access or cost for consumers.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:4791f20e20ab294fc8ab4588637b74e5e19f7686b419ec2b26122efd777862f1; sha256:44a418a8e520f58150f818890c8e05d4ef02497e6808ad9e274e691d6255db1a",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [{"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_tccp-data_2024-12-31_uYJ9Krf.xlsx", "claim": "2024 H2 TCCP file.", "status": "primary"}, {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_tccp-data_2025-12-31.xlsx", "claim": "2025 H2 TCCP file.", "status": "primary"}],
+  "boundary": "This is a two-file product-offer comparison. It does not establish a linked product panel, consumer exposure, approval, realized APR, fees paid, rewards received, market growth, or household financial outcome."
+}

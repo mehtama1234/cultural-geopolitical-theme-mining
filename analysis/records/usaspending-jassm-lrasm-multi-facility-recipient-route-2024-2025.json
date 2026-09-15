@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usaspending-jassm-lrasm-multi-facility-recipient-route-2024-2025",
+  "title": "A named missile-system subaward recipient can map to multiple active facilities under one corporate parent",
+  "theme_ids": ["cost", "work"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "work_control_bargaining", "geopolitical_state_consequences"],
+  "source_unit": "USAspending subaward record and DLA CAGE detail records for one reported General Dynamics-OTS recipient",
+  "geography": "United States; DLA CAGE facilities in Arkansas, Vermont, and Maine",
+  "observations": [
+    {
+      "period": "2024-10-23 through 2025-02-28; one returned JASSM/LRASM subaward record",
+      "denominator": {"value": 1142661458.64, "unit": "US dollars, total returned subaward extract amount"},
+      "measures": {
+        "general_dynamics_ots_reported_amount": {"value": 80550804.12, "unit": "US dollars, nominal reported subaward amount", "value_type": "reported"},
+        "general_dynamics_ots_share_of_extract": {"value": 7.0494, "unit": "percent of returned subaward amount", "value_type": "share"},
+        "reported_description": {"value": "CASE ASSY LOADED-LIVE; repeated lots 22–26", "unit": "USAspending free-text description", "value_type": "reported"}
+      },
+      "method": "Matched the exact USAspending recipient name to the returned subaward profile and retained the associated description text; no facility assignment was made.",
+      "uncertainty": "USAspending supplies a recipient name but no CAGE, UEI, plant, or performance-location field for this subaward row. The description may cover repeated lots or multiple production/support actions.",
+      "subgroup": "One General Dynamics-OTS recipient record within the JASSM/LRASM subaward extract.",
+      "counterinterpretation": "The reported amount and case-assembly description do not establish manufacture, loading, delivery, acceptance, or which General Dynamics facility performed the work.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+      "status": "reported"
+    },
+    {
+      "period": "DLA CAGE records retrieved 2026-09-13; active records displayed at retrieval",
+      "denominator": {"value": 3, "unit": "selected active DLA CAGE records for the exact/similar General Dynamics-OTS legal name"},
+      "measures": {
+        "facility_count": {"value": 3, "unit": "active CAGE facilities", "value_type": "count"},
+        "facility_locations": {"value": "Hampton, Arkansas; Colchester, Vermont; Saco, Maine", "unit": "facility city/state list", "value_type": "reported"},
+        "shared_parent_cage": {"value": "95403", "unit": "DLA CAGE parent identifier", "value_type": "reported"}
+      },
+      "method": "Three public DLA CAGE detail lookups selected from the legal-name's public CAGE record set; identifiers, addresses, UEIs, status, and parent fields are preserved in separate raw JSON artifacts.",
+      "uncertainty": "Multiple facilities under one legal name do not indicate which facility performed a particular subaward action. The records may represent divisions, separate registrations, or distinct operating locations; the USAspending row lacks the identifier needed to resolve this.",
+      "subgroup": "General Dynamics-OTS CAGE 3X552, 05606, and 26978, each displayed as active and linked to parent CAGE 95403 (General Dynamics Corp).",
+      "counterinterpretation": "A multi-facility corporate footprint may increase geographic redundancy, or it may simply reflect registration structure; it does not establish production resilience, workforce distribution, or replaceability.",
+      "source_url": "https://cage.dla.mil/Search/Details?id=801040",
+      "retrieval_hash": "sha256:61291d39f23c0d460069b4a3d20e7af6a9e50d0ddb9d2dd261d08ca350a622dc; sha256:80ad92da8e564ea6b08cda1a0eb30cedf0c19924540bacb311c38081cb260e9b; sha256:5a2a8cfdaaecddb439abd6350343c09abd5a15961beaefc04f9fd5b317e2fd4a",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record establishes a reported General Dynamics-OTS subaward and a multi-facility DLA entity footprint under one parent. It does not assign the subaward to a plant, establish production or delivery, measure workforce or local incidence, or show resilience, replaceability, or geopolitical leverage."
+}

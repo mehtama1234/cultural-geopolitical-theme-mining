@@ -1,0 +1,504 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gss-financial-trust-historical-1972-2024",
+  "title": "Financial dissatisfaction and generalized trust show a persistent but non-causal historical association",
+  "related_finding": "../projects/us-cost-trust-politics/findings/us-cost-trust-politics-024.md",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "work"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "GSS cumulative cross-sectional respondent with positive WTSSPS weight",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "1972",
+      "denominator": {
+        "value": 1608,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 21.9259,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1608,
+          "weighted_denominator": 1608.74
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 39.4459,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 362,
+          "weighted_denominator": 349.92
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 49.6035,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 514,
+          "weighted_denominator": 523.48
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 53.0998,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 363,
+          "weighted_denominator": 350.36
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 63.6214,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 513,
+          "weighted_denominator": 522.4
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "1980",
+      "denominator": {
+        "value": 1462,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 28.2838,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1462,
+          "weighted_denominator": 1463.25
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 34.8282,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 390,
+          "weighted_denominator": 410.83
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 50.6869,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 414,
+          "weighted_denominator": 390.78
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 48.2789,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 386,
+          "weighted_denominator": 408.65
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 68.7759,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 411,
+          "weighted_denominator": 387.93
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "1990",
+      "denominator": {
+        "value": 1367,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 27.1526,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 1367,
+          "weighted_denominator": 1367.29
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 26.6687,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 248,
+          "weighted_denominator": 243.18
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 44.2978,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 270,
+          "weighted_denominator": 271.17
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 44.4497,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 247,
+          "weighted_denominator": 242.08
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 65.997,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 266,
+          "weighted_denominator": 266.94
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2000",
+      "denominator": {
+        "value": 2803,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 22.9227,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 2803,
+          "weighted_denominator": 2804.1
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 23.596,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 457,
+          "weighted_denominator": 423.83
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 42.327,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 573,
+          "weighted_denominator": 607.29
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 37.0655,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 453,
+          "weighted_denominator": 422.27
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 62.6841,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 567,
+          "weighted_denominator": 600.33
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2010",
+      "denominator": {
+        "value": 2038,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 31.3088,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 2038,
+          "weighted_denominator": 2038.66
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 24.2326,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 441,
+          "weighted_denominator": 445.54
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 40.5401,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 336,
+          "weighted_denominator": 334.13
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 44.7041,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 439,
+          "weighted_denominator": 444.5
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 63.9192,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 336,
+          "weighted_denominator": 333.98
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2014",
+      "denominator": {
+        "value": 2532,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 26.3951,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 2532,
+          "weighted_denominator": 2529.33
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 18.9748,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 452,
+          "weighted_denominator": 435.94
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 38.0966,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 467,
+          "weighted_denominator": 461.36
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 35.2673,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 453,
+          "weighted_denominator": 436.31
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 63.7065,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 465,
+          "weighted_denominator": 458.09
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2018",
+      "denominator": {
+        "value": 2338,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 21.4083,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 2338,
+          "weighted_denominator": 2338.12
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 25.535,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 366,
+          "weighted_denominator": 341.7
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 44.0155,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 507,
+          "weighted_denominator": 530.43
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 37.646,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 361,
+          "weighted_denominator": 337.2
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 65.6232,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 508,
+          "weighted_denominator": 535.04
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2022",
+      "denominator": {
+        "value": 3526,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 30.1587,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 3526,
+          "weighted_denominator": 3528.69
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 11.5305,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 354,
+          "weighted_denominator": 422.73
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 39.7803,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 328,
+          "weighted_denominator": 393.15
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 27.9855,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 354,
+          "weighted_denominator": 421.07
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 57.0049,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 325,
+          "weighted_denominator": 391.51
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    },
+    {
+      "period": "2024",
+      "denominator": {
+        "value": 3291,
+        "unit": "GSS respondents with valid financial-satisfaction category and positive WTSSPS",
+        "value_type": "unweighted_respondent_count"
+      },
+      "measures": {
+        "not_satisfied_at_all": {
+          "value": 30.935,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 3291,
+          "weighted_denominator": 3287.89
+        },
+        "trust_most_people_among_not_satisfied": {
+          "value": 14.947,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 305,
+          "weighted_denominator": 284.03
+        },
+        "trust_most_people_among_pretty_well_satisfied": {
+          "value": 32.8989,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 228,
+          "weighted_denominator": 192.68
+        },
+        "people_try_to_be_fair_among_not_satisfied": {
+          "value": 23.6563,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 302,
+          "weighted_denominator": 285.17
+        },
+        "people_try_to_be_fair_among_pretty_well_satisfied": {
+          "value": 58.8709,
+          "unit": "percent of valid weighted respondents",
+          "value_type": "weighted_share",
+          "unweighted_n": 226,
+          "weighted_denominator": 190.24
+        }
+      },
+      "method": "Historical GSS cumulative file; WTSSPS person post-stratification weight; year-specific valid universes retained for financial satisfaction, trust, and fairness. Anchor years are reported to keep the comparison readable.",
+      "uncertainty": "Weighted descriptive trend screen without design-based standard errors. GSS question routing, survey mode, sampling, nonresponse, and variable availability differ across years; this is not a harmonized causal trend estimate.",
+      "subgroup": "All respondents with valid financial-satisfaction category; trust and fairness measures are conditional on their own valid fields.",
+      "counterinterpretation": "The repeated association may reflect cohort, education, age, race, health, party identity, survey mode, changing question administration, or broad changes in social trust rather than financial satisfaction itself.",
+      "source_url": "https://gss.norc.org/get-the-data.html",
+      "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe; dta:sha256:a7622e03d9130e25968943b6f022f44dc0087baf0aa6b5cef150871152827344",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://gss.norc.org/content/dam/gss/get-documentation/pdf/codebook/GSS%202024%20Codebook%20R3.pdf",
+      "claim": "NORC documents the historical variables, question wording, response codes, and 2024 design changes.",
+      "status": "official-definition"
+    },
+    {
+      "source_url": "https://gss.norc.org/get-the-data/stata.html",
+      "claim": "NORC provides the cumulative 1972\u20132024 Stata file used for this screen.",
+      "status": "official-data"
+    }
+  ],
+  "boundary": "This is an anchor-year descriptive screen from the cumulative GSS file. It does not establish that financial dissatisfaction causes declining trust or fairness judgments, nor does it provide a consistent unbroken annual series. Several years lack comparable field coverage; the 2024 multi-mode/design change and the use of WTSSPS rather than the 2024 nonresponse-adjusted WTSSNRPS weight require separate harmonization before formal trend inference.",
+  "retrieval_hash": "sha256:d4fd4e5057d53d6023e55d5114685430321c3ab00ef2bc11099c2358efc65dfe"
+}

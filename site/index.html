@@ -11,24 +11,45 @@
     h1 { max-width:760px; font-size:clamp(2.4rem,6vw,5rem); line-height:1.02; font-weight:500; margin:18px 0 24px; } h2 { margin-top:50px; font-size:1.8rem; font-weight:500; }
     .lead { max-width:720px; font-size:1.3rem; color:#41474b; } .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:24px; }
     .card { background:var(--card); border:1px solid var(--line); padding:20px; } .card h3 { margin:0 0 8px; font-size:1.15rem; font-weight:600; } .card p { margin:0; color:#50575b; }
+    .site-nav { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-bottom:22px; font:13px/1.3 Arial,sans-serif; }
+    .site-nav a { color:var(--accent); text-decoration:none; padding:7px 10px; border:1px solid var(--line); border-radius:999px; background:rgba(255,253,248,.55); }
+    .site-nav a:hover,.site-nav a:focus-visible { background:var(--card); outline:3px solid #c49b72; outline-offset:2px; }
+    .reader-label { color:var(--muted); text-transform:uppercase; letter-spacing:.08em; font-size:11px; margin-right:2px; }
     .memo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:24px; } .memo { background:#193f36; color:#f7f6ef; padding:22px; } .memo h3 { margin:0 0 10px; font:1.35rem/1.2 Georgia,serif; } .memo p { margin:0 0 15px; color:#e6eee9; } .memo a { color:#fff; }
     a { color:var(--accent); } footer { border-top:1px solid var(--line); margin-top:60px; padding-top:18px; color:var(--muted); font:13px/1.5 Arial,sans-serif; }
   </style>
 </head>
 <body>
   <main>
+    <nav class="site-nav" aria-label="Reader navigation"><span class="reader-label">Reader route</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="us-source-coverage.html">Sources</a><a href="us-evidence-audit.html">Evidence controls</a></nav>
     <div class="eyebrow">Research workspace · v1</div>
     <h1>Find the forces beneath the visible story.</h1>
     <p class="lead">We mine research, data, company evidence, and public records to understand how changes in work, money, culture, institutions, and state power connect.</p>
     <h2>Read across the US themes</h2>
+    <p><a href="reading-room.html">Open the reading room</a>: a guided path through the big picture, cross-source synthesis, theme trails, detailed findings, and evidence controls.</p>
+    <p><a href="theme-trends.html">Read the theme trends and insights</a>: the long-form, plain-language writeup of what is changing, why it matters, what the evidence says, and what remains open.</p>
     <p><a href="us-theme-atlas.html">Explore the connected reading guide</a>: household costs, care, time, customer help, local life and political trust.</p>
     <p><a href="us-broad-program-map.html">Read the full broad-program map</a>: the 14 societal, cultural, consumer, political, firm, infrastructure, and geopolitical themes.</p>
     <p><a href="us-source-coverage.html">Browse source coverage</a>: see the project packets, sources recorded and open gaps.</p>
+    <p><a href="us-program-dashboard.html">Open the long-term program dashboard</a>: see the 14-theme scope, source ecosystem, evidence volume, active lane, and open arrows.</p>
+    <p><a href="US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.html">Open the source-registry coverage audit</a>: verify which registered source families are represented in the evidence corpus and which still need deeper acquisition.</p>
     <p><a href="us-big-picture-synthesis.html">Read the big-picture synthesis</a>: see how household money, time, access, work, and public judgment fit together.</p>
     <p><a href="us-evidence-audit.html">Open the evidence and map audit</a>: see which links have a specific check and which still need deeper work.</p>
     <p><a href="us-matched-evidence.html">Read the matched-evidence passes</a>: follow the strongest checked routes beyond the opening source search.</p>
+    <h2>Latest evidence cycle</h2>
+    <p>The program is continuously extended with new source packets, bounded findings, and explicit gates where the next result depends on authenticated or respondent-level data.</p>
+    <div class="grid">
+      <article class="card"><h3><a href="oecd-worker-consultation-experiment-source-record-v1.html">Worker consultation and system design</a></h3><p>An OECD/Fraunhofer experiment shows how discussion changed algorithmic-management feature design, while autonomy conflicts remained unresolved in two groups.</p></article>
+      <article class="card"><h3><a href="atus-time-care-annual-comparison-2024-2025-v1.html">Time, care, and work in the 2025 ATUS vintage</a></h3><p>A current BLS release and microdata comparison tracks modest annual movement in work, care, travel, and socializing without turning diary averages into causal claims.</p></article>
+      <article class="card"><h3><a href="ai-work-control-061.html">Macro growth is not household room</a></h3><p>BEA income, spending, saving, BLS prices and labor, and Federal Reserve household measures are aligned as distinct clocks rather than one welfare index.</p></article>
+      <article class="card"><h3><a href="ai-work-control-075.html">AI access changes time before authority</a></h3><p>A randomized NBER field experiment finds narrower email and after-hours effects without detectable task redesign from individual access.</p></article>
+      <article class="card"><h3><a href="wbns-public-use-route-acquisition-audit-v1.html">Safety-net route data: what is ready</a></h3><p>The WBNS catalog and respondent-level field map are documented; the authenticated public-use file remains a deliberate acquisition gate.</p></article>
+      <article class="card"><h3><a href="imf-fas-provider-side-access-audit-2026-09-15.html">Financial access has a provider-side layer</a></h3><p>The IMF Financial Access Survey adds banks, branches, transactions, and balances to the household-facing access and remedy story.</p></article>
+      <article class="card"><h3><a href="US-BROAD-CURRENT-STATUS-AUDIT_V1.html">Current program status</a></h3><p>See the live counts, validation controls, published pages, active lanes, open arrows, and unresolved evidence boundaries.</p></article>
+    </div>
     <h2>Read the first connected memos</h2>
     <div class="memo-grid">
+      <article class="memo"><h3>The living cross-source atlas</h3><p>The current end-to-end synthesis: how household room, time, care, institutions, firms, infrastructure, politics, and state power connect—and where the arrows remain open.</p><a href="US-CROSS-SOURCE-TREND-SYNTHESIS_V1.html">Read the synthesis →</a></article>
       <article class="memo"><h3>Household protection and public feeling</h3><p>Insurance costs, payment burdens and economic views.</p><a href="us-household-cost-path-001.html">Read the memo →</a></article>
       <article class="memo"><h3>Faster service and longer use</h3><p>Worker AI access, customer resolution and the ability to leave.</p><a href="us-work-service-attention-path-001.html">Read the memo →</a></article>
       <article class="memo"><h3>Health costs and family time</h3><p>Medical costs, unpaid care, paid work and debt.</p><a href="us-health-care-time-path-001.html">Read the memo →</a></article>
@@ -40,6 +61,12 @@
     </div>
     <h2>Latest deeper reading</h2>
     <p>These newer pages turn the map into clear arguments about ordinary choices, hidden tradeoffs, and who controls the next step.</p>
+    <p><a href="us-care-time-hidden-price-matched-evidence-001.html">Care time is a household price paid in work, money, and reachable places</a>: a cross-source pass through care, work, transport, and material adaptation.</p>
+    <p><a href="cfpb-public-event-ledger-acquisition-audit-2026-09-14.html">CFPB administrative route ledger</a>: a validated public episode extract that records receipt, routing, and response labels while keeping verified remedy and later trust open.</p>
+    <p><a href="ai-work-control-062.html">Safety-net transitions and household room</a>: SIPP follows SNAP entry into resource, earnings, hours, job-count, and hardship surfaces without treating receipt as recovery.</p>
+    <p><a href="us-safety-net-access-012.html">Public-system transitions inside household buffer and credit constraints</a>: SIPP transition and hardship evidence read beside Federal Reserve liquidity and credit exposure, with the units kept separate.</p>
+    <p><a href="us-local-business-place-007.html">Local capacity is not automatically usable care</a>: CDC PLACES, Census, and HRSA evidence shows why establishments, shortage designations, modeled need, and patient access must remain separate.</p>
+    <p><a href="ai-work-control-023.html">Capacity is not leverage until an actor can refuse, switch, or impose a cost</a>: defense, infrastructure, fiscal, and ownership stages kept distinct from observed geopolitical leverage.</p>
     <div class="memo-grid">
       <article class="memo"><h3>Bank fees and liquidity</h3><p>A fee can disappear while the cash shortage remains.</p><a href="us-bank-fee-credit-path-001.html">Read the memo →</a></article>
       <article class="memo"><h3>Benefit access and work cliffs</h3><p>A benefit can disappear while the need remains.</p><a href="us-safety-net-access-path-001.html">Read the memo →</a></article>

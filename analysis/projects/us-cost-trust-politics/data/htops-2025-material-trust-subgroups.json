@@ -1,0 +1,41 @@
+{
+  "format": "htops-2025-material-trust-subgroup-audit-v1",
+  "period": "April 15–29 to June 16–25, 2025",
+  "linked_ids": 6564,
+  "weight": "April PWEIGHT0 and 80 April successive-difference replicate weights among linked respondents",
+  "outcome": "June TRUST2_CONGRESS: high confidence = a great deal or quite a lot",
+  "exposure": "April EXPNS_DIF: any difficulty = a little, somewhat, or very difficult",
+  "estimates": [
+    {"dimension":"RFAM_INCOME","group":"under_25k","baseline_expense":"not_difficult","weighted_share":26.0871,"standard_error":2.1708,"unweighted_n":257},
+    {"dimension":"RFAM_INCOME","group":"under_25k","baseline_expense":"any_difficulty","weighted_share":27.0939,"standard_error":1.9933,"unweighted_n":429},
+    {"dimension":"RFAM_INCOME","group":"25k_34k","baseline_expense":"not_difficult","weighted_share":22.065,"standard_error":3.2217,"unweighted_n":116},
+    {"dimension":"RFAM_INCOME","group":"25k_34k","baseline_expense":"any_difficulty","weighted_share":15.6381,"standard_error":2.2023,"unweighted_n":186},
+    {"dimension":"RFAM_INCOME","group":"35k_49k","baseline_expense":"not_difficult","weighted_share":12.9431,"standard_error":1.6715,"unweighted_n":233},
+    {"dimension":"RFAM_INCOME","group":"35k_49k","baseline_expense":"any_difficulty","weighted_share":14.4266,"standard_error":1.6055,"unweighted_n":259},
+    {"dimension":"RFAM_INCOME","group":"50k_74k","baseline_expense":"not_difficult","weighted_share":16.4284,"standard_error":1.1435,"unweighted_n":553},
+    {"dimension":"RFAM_INCOME","group":"50k_74k","baseline_expense":"any_difficulty","weighted_share":16.0795,"standard_error":1.2756,"unweighted_n":481},
+    {"dimension":"RFAM_INCOME","group":"75k_99k","baseline_expense":"not_difficult","weighted_share":20.771,"standard_error":1.9645,"unweighted_n":520},
+    {"dimension":"RFAM_INCOME","group":"75k_99k","baseline_expense":"any_difficulty","weighted_share":13.5471,"standard_error":1.6686,"unweighted_n":348},
+    {"dimension":"RFAM_INCOME","group":"100k_149k","baseline_expense":"not_difficult","weighted_share":13.7725,"standard_error":1.3343,"unweighted_n":845},
+    {"dimension":"RFAM_INCOME","group":"100k_149k","baseline_expense":"any_difficulty","weighted_share":11.7518,"standard_error":0.9661,"unweighted_n":442},
+    {"dimension":"RFAM_INCOME","group":"150k_plus","baseline_expense":"not_difficult","weighted_share":14.8788,"standard_error":0.6785,"unweighted_n":1375},
+    {"dimension":"RFAM_INCOME","group":"150k_plus","baseline_expense":"any_difficulty","weighted_share":14.9696,"standard_error":2.3413,"unweighted_n":402},
+    {"dimension":"RRACETH1","group":"white_alone","baseline_expense":"not_difficult","weighted_share":15.8775,"standard_error":0.6507,"unweighted_n":2895},
+    {"dimension":"RRACETH1","group":"white_alone","baseline_expense":"any_difficulty","weighted_share":12.7738,"standard_error":0.7183,"unweighted_n":1643},
+    {"dimension":"RRACETH1","group":"hispanic","baseline_expense":"not_difficult","weighted_share":21.884,"standard_error":2.5591,"unweighted_n":186},
+    {"dimension":"RRACETH1","group":"hispanic","baseline_expense":"any_difficulty","weighted_share":26.742,"standard_error":2.3488,"unweighted_n":249},
+    {"dimension":"RRACETH1","group":"black_alone","baseline_expense":"not_difficult","weighted_share":12.6349,"standard_error":1.7046,"unweighted_n":287},
+    {"dimension":"RRACETH1","group":"black_alone","baseline_expense":"any_difficulty","weighted_share":19.9387,"standard_error":1.9002,"unweighted_n":278},
+    {"dimension":"RRACETH1","group":"asian_alone","baseline_expense":"not_difficult","weighted_share":26.1619,"standard_error":2.0756,"unweighted_n":357},
+    {"dimension":"RRACETH1","group":"asian_alone","baseline_expense":"any_difficulty","weighted_share":35.5449,"standard_error":3.0686,"unweighted_n":175},
+    {"dimension":"RRACETH1","group":"other","baseline_expense":"not_difficult","weighted_share":18.2948,"standard_error":3.1765,"unweighted_n":227},
+    {"dimension":"RRACETH1","group":"other","baseline_expense":"any_difficulty","weighted_share":7.0332,"standard_error":1.1165,"unweighted_n":229}
+  ],
+  "input_sha256": {
+    "baseline_topical": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "followup_topical": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+    "baseline_replicates": "sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c",
+    "result": "sha256:d4d2f88d0a5be4f41f69fc46a4f02d00a98864671110b7a497ecdfaa5076c037"
+  },
+  "boundary": "Subgroup cross-lags are descriptive among the selected linked panel. April weights are not documented as attrition-adjusted longitudinal weights; results do not establish that expense difficulty caused confidence, identify attribution, or measure civic/political action."
+}

@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-tccp-card-terms-2025",
+  "title": "Publicly offered card terms vary across products in APR, credit-tier pricing, fees, and rewards",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US credit-card product and issuer records in the CFPB Terms of Credit Card Plans survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025-07-01 to 2025-12-31; data collected January-April 2026",
+      "denominator": {"value": 663, "unit": "product rows in the CFPB TCCP spreadsheet after the metadata/header rows", "value_type": "observed_product_rows"},
+      "measures": {
+        "unique_issuers": {"value": 195, "unit": "unique institution names among product rows", "value_type": "derived_count"},
+        "unique_products": {"value": 602, "unit": "unique product names among product rows", "value_type": "derived_count"},
+        "top_25_issuer_rows": {"value": 410, "unit": "product rows marked as issued by a top-25 institution", "value_type": "derived_count"},
+        "purchase_apr_offered": {"value": 625, "unit": "product rows marked Yes among 663 rows", "value_type": "derived_count"},
+        "credit_tier_apr_variation": {"value": 396, "unit": "product rows marked Yes for purchase APR varying by credit tier", "value_type": "derived_count"}
+      },
+      "method": "Reproducible spreadsheet inspection with header row 10 selected, product-row counts, unique institution/product counts, and categorical field tabulation; no weighting or population inference.",
+      "uncertainty": "Rows are product offers submitted to the statutory survey, not transactions, approvals, cardholders, or market shares. Institution/product names may not be unique economic entities; missing fields are retained and counts describe the file surface only.",
+      "subgroup": "Products marked top-25 versus other institutions; card products with and without credit-tier-varying purchase APR.",
+      "counterinterpretation": "A broad product menu does not imply equal availability: eligibility, geography, credit score, income, underwriting, and actual take-up can narrow the options presented to a household.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:44a418a8e520f58150f818890c8e05d4ef02497e6808ad9e274e691d6255db1a",
+      "status": "observed"
+    },
+    {
+      "period": "2025-07-01 to 2025-12-31; advertised purchase APR fields",
+      "denominator": {"value": 625, "unit": "product rows with purchase APR offered Yes", "value_type": "observed_product_rows"},
+      "measures": {
+        "median_purchase_apr": {"value": 24.49, "unit": "percent; median of numeric purchase APR median field", "value_type": "derived_descriptive_median"},
+        "median_purchase_apr_min": {"value": 18.49, "unit": "percent; median of numeric purchase APR minimum field", "value_type": "derived_descriptive_median"},
+        "median_purchase_apr_max": {"value": 27.49, "unit": "percent; median of numeric purchase APR maximum field", "value_type": "derived_descriptive_median"},
+        "apr_zero_values": {"value": "some rows report zero or promotional/conditional values", "unit": "field-value boundary", "value_type": "reported_boundary"}
+      },
+      "method": "Descriptive tabulation of numeric CFPB TCCP purchase-APR fields; percentages converted from spreadsheet decimal representation and rows with nonnumeric/missing fields excluded from each statistic.",
+      "uncertainty": "These are advertised plan terms, not realized APRs paid by account holders. The product-level median is not a market-weighted or borrower-weighted average; credit-tier, balance, promotion, and eligibility conditions matter.",
+      "subgroup": "Products with a purchase APR offer; many products separately report APR variation by credit tier.",
+      "counterinterpretation": "A lower advertised minimum may be available only to stronger applicants, while a higher maximum may never be assigned; the range is not a within-person price change.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:44a418a8e520f58150f818890c8e05d4ef02497e6808ad9e274e691d6255db1a",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-07-01 to 2025-12-31; product fees, promotions, and rewards",
+      "denominator": {"value": 663, "unit": "TCCP product rows; each field retains its own nonmissing universe", "value_type": "observed_product_rows"},
+      "measures": {
+        "intro_apr_offered": {"value": 149, "unit": "product rows marked Yes", "value_type": "derived_count"},
+        "balance_transfer_offered": {"value": 236, "unit": "product rows marked Yes", "value_type": "derived_count"},
+        "late_fees_offered": {"value": 654, "unit": "product rows marked Yes", "value_type": "derived_count"},
+        "annual_fee_reported": {"value": 113, "unit": "product rows with a numeric annual-fee value", "value_type": "derived_count"},
+        "median_annual_fee": {"value": 95, "unit": "US dollars among numeric annual-fee values", "value_type": "derived_descriptive_median"},
+        "rewards_missing_or_unreported": {"value": 177, "unit": "product rows with missing Rewards field", "value_type": "derived_count"},
+        "cashback_rewards": {"value": 235, "unit": "product rows whose Rewards text includes cashback rewards", "value_type": "derived_count"}
+      },
+      "method": "Descriptive tabulation of categorical, numeric, and text fields; reward count searches the product-level Rewards field and is not a measure of reward value or take-up.",
+      "uncertainty": "Some fields are blank, textual, conditional, or product-specific. Reward presence does not measure generosity; a late-fee offer does not show a fee paid; and an annual-fee value does not establish total cost.",
+      "subgroup": "Product offers with introductory APR, balance transfer, late-fee, annual-fee, and rewards fields; top-25 status is retained in the file.",
+      "counterinterpretation": "Fees can fund services or rewards, promotions can provide short-run liquidity, and consumers can avoid or repay some charges. Product terms alone do not establish household burden or issuer conduct.",
+      "source_url": "https://www.consumerfinance.gov/data-research/credit-card-data/terms-credit-card-plans-survey/",
+      "retrieval_hash": "sha256:44a418a8e520f58150f818890c8e05d4ef02497e6808ad9e274e691d6255db1a",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_tccp-data_2025-12-31.xlsx", "claim": "Direct CFPB TCCP spreadsheet for the July-December 2025 reporting period.", "status": "primary"},
+    {"source_url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/", "claim": "CFPB market report provides aggregate 2024 card cost and balance context.", "status": "related-evidence"}
+  ],
+  "boundary": "This record is a product-offer surface, not a cardholder, transaction, approval, or market-share estimate. Product terms can condition access and future cost, but the record does not establish which household received which term, what was paid, or whether a consumer could switch or obtain a remedy."
+}

@@ -1,0 +1,436 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-prince-william-data-center-fiscal-revenue-2012-2024",
+  "title": "Prince William data-center tax revenue rose sharply alongside a changing tax rate",
+  "theme_ids": [
+    "cost",
+    "voice",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Prince William County data-center industry aggregate",
+  "geography": "Prince William County, Virginia, United States",
+  "observations": [
+    {
+      "period": "Tax Year 2012",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 6.5,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2013",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 7.8,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 21,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2014",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 11.7,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 50,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2015",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 17.4,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 48,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2016",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 22.9,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 32,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2017",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 27.9,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 22,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2018",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 36.7,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 31,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2019",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 53.2,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 45,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.25,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2020",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 65.4,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 23,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.35,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2021",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 85.9,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 31,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.5,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2022",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 110.8,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 29,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 1.65,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2023",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 166.4,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 50,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 2.15,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    },
+    {
+      "period": "Tax Year 2024",
+      "denominator": {
+        "value": 1,
+        "unit": "Prince William County data-center industry aggregate",
+        "value_type": "reported_aggregate"
+      },
+      "measures": {
+        "data_center_tax_revenue": {
+          "value": 293.7,
+          "unit": "USD millions",
+          "value_type": "reported_total"
+        },
+        "year_over_year_growth": {
+          "value": 77,
+          "unit": "percent",
+          "value_type": "reported_rate"
+        },
+        "computer_equipment_tax_rate": {
+          "value": 3.7,
+          "unit": "USD per $100 assessed value",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "Transcribed from Table 9 (tax revenue contributions) and the historical computer-equipment tax-rate table in the official county TY2024 report.",
+      "uncertainty": "County-reported aggregate; TY2024 is marked preliminary and recognized in FY2025. It is not a household incidence estimate. Historical values are not independently reconstructed from parcel or tax ledgers here.",
+      "subgroup": "Data-center industry aggregate; revenue categories and tax-rate policy are retained as separate measures.",
+      "counterinterpretation": "Revenue growth reflects development, assessed values, equipment cycles, tax-rate changes, and classification; it does not by itself establish net public benefit, household affordability, jobs, or environmental cost.",
+      "source_url": "https://www.pwcva.gov/assets/2025-06/Prince%20William%20County%202024%20Data%20Center%20Revenue%20Report.pdf",
+      "retrieval_hash": "sha256:ac77d43d5df548b834a67810123e90645bcf93dba5deb0dd6fd6bc8a570cd70c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "../../projects/ai-work-control/prince-william-data-center-gis-incidence-layer-v1.md",
+      "claim": "Local GIS pipeline and planning concentration supply physical context for the fiscal series.",
+      "status": "context",
+      "access_boundary": "GIS status and GFA are not tax revenue, load, or household incidence."
+    }
+  ],
+  "boundary": "This is a reported local fiscal-revenue time series. It strengthens the physical pipeline-to-public-revenue arrow, while leaving utility cost allocation, household bills, public-service cost, jobs/wages, water, environmental burden, legitimacy, and geopolitical leverage open. The 2024 value is preliminary and the 2020\u20132024 computer-equipment rate changes are an explicit confounder."
+}

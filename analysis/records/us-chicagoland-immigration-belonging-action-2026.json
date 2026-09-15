@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-chicagoland-immigration-belonging-action-2026",
+  "title": "A local immigration meaning case combines broad welcome with conditional inclusion",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "adults surveyed in Chicago, suburban Cook County, and Lake County",
+  "geography": "Chicago, suburban Cook County, and Lake County, Illinois, United States",
+  "observations": [
+    {
+      "period": "April 13-23, 2026; conditional citizenship pathway; Chicago",
+      "denominator": {"value": 758, "unit": "unweighted Chicago survey respondents"},
+      "measures": {"favor_citizenship_path_for_undocumented_immigrants": {"value": 66, "unit": "percent of Chicago respondents", "value_type": "share"}, "margin_of_error": {"value": 3.6, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate; reported weighting adjusted for gender, age, race/ethnicity, education, PUMA, and 2024 presidential vote.",
+      "uncertainty": "Reported margin of error is ±3.6 percentage points for the Chicago sample; nonresponse, mode, question wording, and subgroup limits remain.",
+      "subgroup": "Chicago adults surveyed in English or Spanish.",
+      "counterinterpretation": "Support for a citizenship pathway does not imply support for every immigration level, admission rule, or local policy, and does not measure later political action.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "April 13-23, 2026; conditional citizenship pathway; suburban Cook County",
+      "denominator": {"value": 742, "unit": "unweighted suburban Cook County survey respondents"},
+      "measures": {"favor_citizenship_path_for_undocumented_immigrants": {"value": 52, "unit": "percent of suburban Cook County respondents", "value_type": "share"}, "margin_of_error": {"value": 3.6, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate; reported weighting adjusted for gender, age, race/ethnicity, education, PUMA, and 2024 presidential vote.",
+      "uncertainty": "Reported margin of error is ±3.6 percentage points for the suburban Cook County sample; nonresponse, mode, question wording, and subgroup limits remain.",
+      "subgroup": "Suburban Cook County adults surveyed in English or Spanish.",
+      "counterinterpretation": "The lower support relative to Chicago is a local descriptive difference, not evidence that suburban material conditions caused the policy view.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "April 13-23, 2026; conditional citizenship pathway; Lake County",
+      "denominator": {"value": 400, "unit": "unweighted Lake County survey respondents"},
+      "measures": {"favor_citizenship_path_for_undocumented_immigrants": {"value": 61, "unit": "percent of Lake County respondents", "value_type": "share"}, "margin_of_error": {"value": 4.9, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate; reported weighting adjusted for gender, age, race/ethnicity, education, PUMA, and 2024 presidential vote.",
+      "uncertainty": "Reported margin of error is ±4.9 percentage points for the Lake County sample; the smaller sample is not used for fine-grained subgroup claims.",
+      "subgroup": "Lake County adults surveyed in English or Spanish.",
+      "counterinterpretation": "Lake County support is not a county-wide causal estimate and cannot be inferred to the broader Chicago metropolitan area.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "April 13-23, 2026; Dreamer permanent legal status; Chicago",
+      "denominator": {"value": 758, "unit": "unweighted Chicago survey respondents"},
+      "measures": {"favor_dreamer_permanent_legal_status": {"value": 79, "unit": "percent of Chicago respondents", "value_type": "share"}, "margin_of_error": {"value": 3.6, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate from the same local survey; policy item is kept separate from the citizenship-path item.",
+      "uncertainty": "Reported margin of error is ±3.6 percentage points; support for one legal-status policy does not establish broader immigration approval or action.",
+      "subgroup": "Chicago adults surveyed in English or Spanish.",
+      "counterinterpretation": "High support for Dreamer status can coexist with different views on immigration levels, border policy, admission criteria, and local service allocation.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "April 13-23, 2026; Dreamer permanent legal status; suburban Cook County",
+      "denominator": {"value": 742, "unit": "unweighted suburban Cook County survey respondents"},
+      "measures": {"favor_dreamer_permanent_legal_status": {"value": 72, "unit": "percent of suburban Cook County respondents", "value_type": "share"}, "margin_of_error": {"value": 3.6, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate from the same local survey; policy item is kept separate from the citizenship-path item.",
+      "uncertainty": "Reported margin of error is ±3.6 percentage points; this is a local attitude estimate, not a service, labor, housing, or political-action outcome.",
+      "subgroup": "Suburban Cook County adults surveyed in English or Spanish.",
+      "counterinterpretation": "A majority policy response does not identify the material or cultural experience producing it, nor whether it translates into participation.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    },
+    {
+      "period": "April 13-23, 2026; Dreamer permanent legal status; Lake County",
+      "denominator": {"value": 400, "unit": "unweighted Lake County survey respondents"},
+      "measures": {"favor_dreamer_permanent_legal_status": {"value": 72, "unit": "percent of Lake County respondents", "value_type": "share"}, "margin_of_error": {"value": 4.9, "unit": "percentage points", "value_type": "uncertainty"}},
+      "method": "Weighted mixed-mode local survey estimate from the same local survey; policy item is kept separate from the citizenship-path item.",
+      "uncertainty": "Reported margin of error is ±4.9 percentage points; the smaller sample is not used for fine-grained partisan, race, or education claims.",
+      "subgroup": "Lake County adults surveyed in English or Spanish.",
+      "counterinterpretation": "Similar Dreamer-status support in suburban Cook and Lake County does not erase differences in rent, vacancy, population trajectory, language access, or health capacity.",
+      "source_url": "https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey",
+      "retrieval_hash": "sha256:d57abd64ea6dca8cc14b303aa1ba1fb4355608768aeb67045b27da3e58c3b188",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This is a direct local-attitude case for three Illinois areas fielded April 13-23, 2026. It measures reported policy attitudes and legal-inclusion meaning, not observed political action, service use, labor outcomes, migration flows, or causal effects of local conditions. The ACS/CBP/HRSA context in the companion memo is not a respondent-level join, and the sample is not a national estimate. The retrieval hash covers the committed analysis memo."
+}

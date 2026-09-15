@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-new-york-fed-household-debt-credit-2026q2",
+  "title": "Aggregate household debt expands while delinquency remains a distinct exposure layer",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "New York Fed Quarterly Report on Household Debt and Credit dashboard snapshot",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026 Q2; total household debt and delinquency",
+      "denominator": {"value": 1, "unit": "aggregate US household debt reported on consumer credit records", "value_type": "aggregate"},
+      "measures": {"total_household_debt": {"value": 18.8, "unit": "trillion US dollars", "value_type": "level"}, "quarterly_total_debt_change": {"value": -13, "unit": "billion US dollars from 2026 Q1", "value_type": "reported_change"}, "debt_in_some_stage_of_delinquency": {"value": 4.7, "unit": "percent of outstanding debt", "value_type": "share"}},
+      "method": "New York Fed Household Debt and Credit dashboard summary; aggregate balances and delinquency shares based on consumer credit-report data.",
+      "uncertainty": "Aggregate balances are not household trajectories, and the dashboard summary does not identify income, liquid assets, rate type, payment burden, hardship, or the distribution of delinquency across borrowers.",
+      "subgroup": "Aggregate US household debt and outstanding-debt delinquency.",
+      "counterinterpretation": "A lower aggregate balance can coexist with rising balances or stress for particular products or borrower groups; delinquency share is not a household welfare or default-loss measure.",
+      "source_url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "retrieval_hash": "sha256:0744a9ba8650dd51fbb26a053e1173a46c3bb49b772d66ae8d711be90d927d53",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Q2; product balances",
+      "denominator": {"value": 1, "unit": "aggregate US balances reported on consumer credit records", "value_type": "aggregate"},
+      "measures": {"mortgage_balance": {"value": 13.1, "unit": "trillion US dollars", "value_type": "level"}, "mortgage_quarterly_change": {"value": -74, "unit": "billion US dollars from 2026 Q1", "value_type": "reported_change"}, "home_equity_line_balance": {"value": 459, "unit": "billion US dollars", "value_type": "level"}, "credit_card_balance": {"value": 1.26, "unit": "trillion US dollars", "value_type": "level"}, "auto_loan_balance": {"value": 1.71, "unit": "trillion US dollars", "value_type": "level"}},
+      "method": "New York Fed aggregate product-balance snapshot for 2026 Q2.",
+      "uncertainty": "Product balances measure outstanding credit, not new borrowing, payment difficulty, rates, utilization, or household-level exposure; the mortgage decline is described as affected by a temporary servicing-reporting gap.",
+      "subgroup": "Mortgage, HELOC, credit-card, and auto-loan aggregate balances.",
+      "counterinterpretation": "Growth in credit-card or auto balances can reflect spending, refinancing, price levels, or credit supply as well as financial distress; product totals cannot resolve the mechanism.",
+      "source_url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "retrieval_hash": "sha256:0744a9ba8650dd51fbb26a053e1173a46c3bb49b772d66ae8d711be90d927d53",
+      "status": "reported"
+    },
+    {
+      "period": "2026 Q2; non-housing debt movement",
+      "denominator": {"value": 1, "unit": "aggregate non-housing debt reported on consumer credit records", "value_type": "aggregate"},
+      "measures": {"non_housing_debt_quarterly_change": {"value": 48, "unit": "billion US dollars from 2026 Q1", "value_type": "reported_change"}, "non_housing_debt_percent_change": {"value": 0.9, "unit": "percent from 2026 Q1", "value_type": "reported_change"}, "auto_loan_quarterly_change": {"value": 28, "unit": "billion US dollars", "value_type": "reported_change"}, "credit_card_quarterly_change": {"value": 21, "unit": "billion US dollars", "value_type": "reported_change"}, "other_balance": {"value": 568, "unit": "billion US dollars", "value_type": "level"}},
+      "method": "New York Fed summary of quarter-over-quarter product movements; other balances include retail cards and consumer-finance loans.",
+      "uncertainty": "The aggregate movement has no household-level denominator and cannot be mapped directly to the SHED hardship-linked balance growth without a common respondent or microdata bridge.",
+      "subgroup": "Aggregate non-housing credit products.",
+      "counterinterpretation": "Non-housing balance growth can be consistent with demand, inflation, vehicle purchases, credit access, or distress; the dashboard does not distinguish these explanations.",
+      "source_url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "retrieval_hash": "sha256:0744a9ba8650dd51fbb26a053e1173a46c3bb49b772d66ae8d711be90d927d53",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm", "claim": "Federal Reserve SHED provides household-level self-reports and linked credit-record comparisons by financial well-being.", "status": "context", "access_boundary": "SHED and New York Fed aggregates use different units, samples, and time periods and are not a matched panel."},
+    {"source_url": "https://www.newyorkfed.org/medialibrary/interactives/householdcredit/", "claim": "The New York Fed household debt and credit project provides historical dashboard and report context.", "status": "context", "access_boundary": "Historical dashboard context does not supply household-level causal exposure."}
+  ],
+  "boundary": "This record establishes a current aggregate credit-market snapshot. It does not join aggregate debt to particular households, establish a causal interest-rate effect, identify who bears balances or delinquency, measure lender pricing or remedy, or infer political, cultural, or geopolitical consequences. Aggregate debt, household survey responses, and linked credit records remain separate evidence layers."
+}

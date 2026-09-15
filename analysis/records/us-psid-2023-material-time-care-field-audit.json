@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-psid-2023-material-time-care-field-audit",
+  "title": "PSID 2023 documents a viable material, work, time, care, health, and household-room backbone",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "work_control_bargaining", "care_health_reproduction", "unequal_exposure_status"],
+  "source_unit": "PSID 2023 Family File user guide, file-structure documentation, and official codebook field audit",
+  "geography": "United States; PSID family and person panel structure",
+  "observations": [
+    {
+      "period": "2023 Family File documentation release; user guide released 2025",
+      "denominator": {"value": 9152, "unit": "2023 PSID Family File records", "value_type": "documented_file_base"},
+      "measures": {
+        "family_file_variables": {"value": 3812, "unit": "documented variables", "value_type": "reported"},
+        "paid_work_field": {"value": "ER82434 BC60A", "unit": "Reference Person typical-week paid-work hours", "value_type": "documented_field"},
+        "housework_field": {"value": "ER82788 F1A", "unit": "Reference Person typical-week housework hours", "value_type": "documented_field"},
+        "time_pressure_field": {"value": "ER82800 F1K", "unit": "frequency of feeling rushed or pressed for time", "value_type": "documented_field"},
+        "health_fields": {"value": "ER84520 and ER84521", "unit": "general health and change versus two years earlier", "value_type": "documented_field"}
+      },
+      "method": "Official user-guide and codebook field audit; documented availability is kept separate from an executed data extract.",
+      "uncertainty": "The file base is not the final analytic denominator; routing, family/person unit, missingness, imputation, attrition, and weights require separate checks.",
+      "subgroup": "2023 PSID Family File Reference Person and family-level documentation surfaces.",
+      "counterinterpretation": "A documented field may not be comparable or sufficiently populated across 2019, 2021, and 2023 after merge and universe checks.",
+      "source_url": "https://psidonline.isr.umich.edu/data/Documentation/UserGuide2023.pdf",
+      "retrieval_hash": "source-note:sha256:2ce7448529db458e662cd9de15b7f91cf2f3ed3c3015ad9a81e3e9a8c33ef7e7",
+      "status": "reported"
+    },
+    {
+      "period": "2023 Family File codebook; field and coding audit",
+      "denominator": {"value": 1, "unit": "official PSID 2023 Family File codebook", "value_type": "documentation_unit"},
+      "measures": {
+        "care_and_time_fields": {"value": "ER82790–ER82792, ER82800", "unit": "personal care, shopping, child care, and time-pressure fields", "value_type": "documented_field_group"},
+        "material_room_fields": {"value": "ER85629, ER85692, ER85710, ER85712", "unit": "income, wealth, home insurance, and utility expenditure fields", "value_type": "documented_field_group"},
+        "imputation_or_missingness_visible": {"value": true, "unit": "codebook accuracy/routing documentation", "value_type": "documented_boundary"},
+        "cross_wave_concept_mapping": {"value": "BC60A, F1A, and F1K concepts retained in 2019, 2021, and 2023", "unit": "official codebook comparison", "value_type": "documented_comparability_lead"},
+        "displayed_family_file_bases": {"value": "2019: 9,569; 2021: 9,207; 2023: 9,152", "unit": "codebook distribution bases", "value_type": "reported_file_context"}
+      },
+      "method": "Field-label, question-text, universe, and code-category inspection in the official 2023 codebook.",
+      "uncertainty": "Generated and imputed measures require a separate estimate-level audit; codebook availability does not reveal cross-wave cell size.",
+      "subgroup": "Reference Person and family expenditure/material fields with documented routing and accuracy categories.",
+      "counterinterpretation": "The same named concept can have different universe or coding behavior across waves.",
+      "source_url": "https://psidonline.isr.umich.edu/documents/psid/codebook/FAM2023ER_codebook.pdf",
+      "retrieval_hash": "source-note:sha256:2ce7448529db458e662cd9de15b7f91cf2f3ed3c3015ad9a81e3e9a8c33ef7e7",
+      "status": "compared"
+    },
+    {
+      "period": "2026-09-14 package-access recheck",
+      "denominator": {"value": 4, "unit": "planned PSID public-use packages: 2019, 2021, 2023 Family Files and 1968–2023 Cross-year Individual File", "value_type": "access_inventory"},
+      "measures": {
+        "official_packages_listed": {"value": 4, "unit": "official packaged-data routes", "value_type": "listed"},
+        "microdata_obtained_in_workspace": {"value": false, "unit": "local package presence", "value_type": "access_status"},
+        "account_conditions_use_required": {"value": true, "unit": "official download route", "value_type": "access_requirement"},
+        "estimate_published": {"value": false, "unit": "program output", "value_type": "boundary"}
+      },
+      "method": "Official package-page inspection plus unauthenticated route recheck; access condition is recorded separately from data absence.",
+      "uncertainty": "The workspace cannot establish whether an authorized account holder can download the packages; the redirect is not evidence that the files are unavailable.",
+      "subgroup": "Planned 2019/2021/2023 PSID material/time/care acquisition.",
+      "counterinterpretation": "A registered user who accepts the Conditions of Use may obtain the packages through the same official routes.",
+      "source_url": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
+      "retrieval_hash": "source-note:sha256:2ce7448529db458e662cd9de15b7f91cf2f3ed3c3015ad9a81e3e9a8c33ef7e7",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md", "claim": "Defines the proposed 2019/2021/2023 merge, fields, quality gates, and first comparison cells.", "status": "related-specification"},
+    {"source_url": "../../projects/us-household-calendar-integration/psid-acquisition-gate-v1.md", "claim": "Tracks the prior PSID acquisition and access boundary.", "status": "related-gate"}
+  ],
+  "boundary": "This record documents PSID field availability and panel structure; it does not contain estimates, a valid cross-wave merge, a dated trigger, causal attribution, trust/action outcomes, or an end-to-end household-to-political result."
+}

@@ -1,0 +1,66 @@
+{
+  "format": "htops-cross-lagged-panel-audit-v1",
+  "period": "April 15\u201329 to June 16\u201325, 2025",
+  "linked_ids": 6564,
+  "measures": {
+    "baseline_expense_difficulty_food_insufficiency": {
+      "value": 12.3,
+      "standard_error": 1.43,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2582
+    },
+    "baseline_expense_not_difficult_food_insufficiency": {
+      "value": 1.1,
+      "standard_error": 0.42,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3957
+    },
+    "baseline_expense_difficulty_unable_to_pay_energy_bill": {
+      "value": 21.4,
+      "standard_error": 1.36,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2580
+    },
+    "baseline_expense_not_difficult_unable_to_pay_energy_bill": {
+      "value": 2.2,
+      "standard_error": 0.45,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3961
+    },
+    "baseline_expense_difficulty_recent_household_job_loss": {
+      "value": 11.7,
+      "standard_error": 1.16,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2582
+    },
+    "baseline_expense_not_difficult_recent_household_job_loss": {
+      "value": 2.9,
+      "standard_error": 0.36,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3960
+    },
+    "baseline_expense_difficulty_high_confidence_in_congress": {
+      "value": 17.2,
+      "standard_error": 1.38,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2574
+    },
+    "baseline_expense_not_difficult_high_confidence_in_congress": {
+      "value": 16.9,
+      "standard_error": 1.03,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3952
+    }
+  },
+  "baseline_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+  "followup_puf_sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+  "boundary": "Baseline expense exposure is self-reported and the follow-up cells are descriptive among selected linked respondents. April weights and replicate weights are not documented as attrition-adjusted longitudinal weights; cells are associative and do not establish a dated causal effect."
+}

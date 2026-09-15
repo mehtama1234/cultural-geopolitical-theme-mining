@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-household-monetary-policy-beliefs-2026",
+  "title": "Households interpret monetary tightening through expected costs and inflation",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power"],
+  "source_unit": "US household survey respondent with randomized hypothetical-rate and information treatments",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "November 11–24, 2024; first survey wave",
+      "denominator": {"value": 26968, "unit": "retained US residents ages 25–70 after quality and plausibility filters", "value_type": "reported_sample"},
+      "measures": {"survey_design": {"value": "quota-based online survey with weights matching age, gender, and region; respondents report consumption, expectations, debt, assets, and policy responses", "unit": "study design", "value_type": "reported_method"}, "follow_up_wave": {"value": 4461, "unit": "first-wave respondents participating in February 9–21, 2025 follow-up", "value_type": "reported_count"}},
+      "method": "Large-scale Cint household survey with demographic quotas, survey weights, hypothetical federal-funds-rate scenarios, randomized information treatments, and a three-month follow-up.",
+      "uncertainty": "The online quota sample is weighted to selected demographics but is not a simple random sample. Several reported measures are hypothetical or intended behavior; cleaning rules replace extreme responses with missing values, and the follow-up is smaller.",
+      "subgroup": "US residents ages 25–70; study also reports heterogeneity by age, gender, income, education, debt, wealth, financial literacy, and Federal Reserve knowledge.",
+      "counterinterpretation": "Reported expectations and intended actions may not become realized spending, debt, employment, or portfolio changes; demographic weighting does not remove nonresponse, selection, or comprehension differences.",
+      "source_url": "https://www.bis.org/publications/working-paper-1354-monetary-policy-according-households-perceptions-reactions-and-channels.pdf",
+      "retrieval_hash": "sha256:38147ee8acbd9c5d428fb40a93960b4237210e53de9bf73547cd148c419f2dad",
+      "status": "reported"
+    },
+    {
+      "period": "2024 hypothetical one-percentage-point federal-funds-rate increase",
+      "denominator": {"value": 26968, "unit": "first-wave survey respondents; regression-specific valid universes may be smaller", "value_type": "reported_sample"},
+      "measures": {"overall_spending": {"value": "less than 0.1", "unit": "percentage-point change in reported spending response per 1 percentage-point FFR increase", "value_type": "estimated_effect"}, "durable_goods_spending": {"value": -0.13, "unit": "percentage-point change in reported durable-goods spending response per 1 percentage-point FFR increase", "value_type": "estimated_effect"}},
+      "method": "Weighted Huber-adjusted regression of hypothetical spending response on randomized hypothetical FFR change, with demographic and socioeconomic controls.",
+      "uncertainty": "The effects are economically small, hypothetical, and regression-specific; the overall estimate is reported as less than 0.1 percentage point in the paper text. This is not an observed contract-rate or transaction response.",
+      "subgroup": "All valid first-wave respondents, with heterogeneity by financial literacy, Federal Reserve knowledge, income, education, debt, and other characteristics.",
+      "counterinterpretation": "Respondents may understand or answer hypothetical policy questions differently from how they act when a real rate changes; borrowers, savers, renters, and owners face different pass-through.",
+      "source_url": "https://www.bis.org/publications/working-paper-1354-monetary-policy-according-households-perceptions-reactions-and-channels.pdf",
+      "retrieval_hash": "sha256:38147ee8acbd9c5d428fb40a93960b4237210e53de9bf73547cd148c419f2dad",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 randomized information treatment and three-month follow-up",
+      "denominator": {"value": 4461, "unit": "follow-up respondents participating in both survey waves; treatment-specific valid universes vary", "value_type": "reported_sample"},
+      "measures": {"durable_spending_pass_through": {"value": -0.05, "unit": "percentage-point change in durable consumption per 1 percentage-point higher-than-expected FFR information surprise among financially literate/Fed-knowledgeable respondents", "value_type": "estimated_effect"}, "rate-cut_durable_spending": {"value": 0.08, "unit": "percentage-point increase in durable consumption per 1 percentage-point lower-than-expected FFR information surprise", "value_type": "estimated_effect"}, "follow_up_scale": {"value": 4, "unit": "approximate percent of hypothetical-scenario sample represented by randomized information-treatment follow-up analysis", "value_type": "reported_share"}},
+      "method": "Randomized information about the federal funds rate, comparison of prior beliefs with post-treatment expectations, and regression of three-month spending change on positive or negative forecast surprises; sampling weights and controls used.",
+      "uncertainty": "The randomized information result has lower precision because the follow-up is much smaller than the hypothetical sample. The durable-spending estimate is a partial-equilibrium, short-horizon treatment result and not a full macroeconomic rate-shock estimate.",
+      "subgroup": "Especially financially literate respondents who recognize the Federal Reserve's role; the paper reports weaker or imprecise responses among other respondents.",
+      "counterinterpretation": "The treatment may change reported expectations without changing durable purchases for many households; observed responses can depend on liquidity, existing contracts, and the timing of a purchase.",
+      "source_url": "https://www.bis.org/publications/working-paper-1354-monetary-policy-according-households-perceptions-reactions-and-channels.pdf",
+      "retrieval_hash": "sha256:38147ee8acbd9c5d428fb40a93960b4237210e53de9bf73547cd148c419f2dad",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 expectation-channel decomposition",
+      "denominator": {"value": 26968, "unit": "first-wave survey respondents; instrument-specific valid universes vary", "value_type": "reported_sample"},
+      "measures": {"inflation_expectations_channel": {"value": "predominant relative to other measured expectations in the paper's decomposition", "unit": "relative contribution to perceived spending response", "value_type": "reported_model_result"}, "income_expectations": {"value": "FFR changes have little effect on expected income", "unit": "reported expectation response", "value_type": "reported_model_result"}, "portfolio_direction": {"value": "higher perceived rates shift intended allocation away from stocks toward bank deposits", "unit": "reported intended portfolio response", "value_type": "reported_pattern"}},
+      "method": "Consumption and portfolio equations using randomized information treatments as instruments for revisions in inflation, income, rates, asset prices, and other expectations.",
+      "uncertainty": "The decomposition identifies treatment-induced expectation pass-through within the survey design; it is not a complete general-equilibrium estimate and does not measure actual realized portfolios for every respondent.",
+      "subgroup": "Survey respondents with reported financial, demographic, and political characteristics; subgroup effects vary by financial knowledge and household position.",
+      "counterinterpretation": "The cost-channel interpretation may reflect the survey framing or contemporaneous macro context; other households may respond through income, credit access, housing, or employment channels not dominant in this design.",
+      "source_url": "https://www.bis.org/publications/working-paper-1354-monetary-policy-according-households-perceptions-reactions-and-channels.pdf",
+      "retrieval_hash": "sha256:38147ee8acbd9c5d428fb40a93960b4237210e53de9bf73547cd148c419f2dad",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35127", "claim": "NBER Working Paper 35127 record for the same study and authors.", "status": "official-metadata"},
+    {"source_url": "https://www.federalreserve.gov/monetarypolicy.htm", "claim": "Federal Reserve monetary-policy institutional context.", "status": "institutional-context"}
+  ],
+  "boundary": "This record measures household perceptions, intended responses, randomized information effects, and expectation channels around hypothetical or perceived federal-funds-rate changes. It does not establish the general-equilibrium effect of an actual rate decision, realized household spending or portfolios for all respondents, effects on trust or voting, or a causal cultural or political response. The source is a BIS working paper and the survey is quota-based online data; preserve its draft and sampling boundaries."
+}

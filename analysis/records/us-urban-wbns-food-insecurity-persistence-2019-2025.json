@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-wbns-food-insecurity-persistence-2019-2025",
+  "title": "Food insecurity remained elevated after the pandemic support cycle, with sharper exposure among families with children and lower incomes",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Urban Institute December Well-Being and Basic Needs Survey: nationally representative adults, with working-age trend series for 2019–2025 and an expanded older-adult sample in 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "December 2019–December 2025; annual working-age series",
+      "denominator": {"value": null, "unit": "adults ages 18–64; exact annual analytic denominators not disclosed in the published brief", "value_type": "not_disclosed"},
+      "measures": {
+        "food_insecurity_2019": {"value": 24.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2020": {"value": 20.4, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2021": {"value": 19.9, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2022": {"value": 24.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2023": {"value": 27.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2024": {"value": 27.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_2025": {"value": 27.7, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Urban Institute weighted estimates from the six-item short form of the USDA Household Food Security Survey Module using a 12-month reference period. Estimates in this brief are unadjusted for sample-composition differences; weights are poststratified to CPS and ACS benchmarks.",
+      "uncertainty": "The source marks selected differences from December 2025 as statistically significant but does not provide a full machine-readable table of standard errors in the brief. The 2025 methodology update means earlier published values may differ slightly; survey weighting mitigates but does not eliminate nonresponse and panel-conditioning concerns.",
+      "subgroup": "Working-age adults ages 18–64 in each annual WBNS round.",
+      "counterinterpretation": "The series is consistent with changes in prices, pandemic supports, labor-market conditions, household composition, and survey composition; it does not identify which factor caused any annual movement or establish that the 2025 policy changes caused 2025 hardship.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "retrieval_hash": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; working-age adults by household and income context",
+      "denominator": {"value": null, "unit": "adults ages 18–64 in the published subgroup universe; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "food_insecurity_with_children_under_18": {"value": 32.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "very_low_food_security_with_children_under_18": {"value": 16.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_family_income_below_200_fpl": {"value": 51.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_family_income_200_to_400_fpl": {"value": 34.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_family_income_400_fpl_or_more": {"value": 9.3, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_black_adults": {"value": 39.0, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_hispanic_adults": {"value": 38.8, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_adults_with_disabilities": {"value": 52.1, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted cross-sectional subgroup estimates from December 2025 WBNS; income is family income as a percentage of the federal poverty level, and food insecurity is household-level but reported through the adult respondent.",
+      "uncertainty": "Subgroup estimates have different precision and overlapping characteristics. The published brief provides significance annotations for selected year comparisons but not full subgroup confidence intervals in the text; the disability estimate is reported as an estimate, not a causal effect.",
+      "subgroup": "Children, family-income, race/ethnicity, and disability subgroups among adults ages 18–64.",
+      "counterinterpretation": "Higher hardship in a subgroup may reflect income, wealth, health, employment, household size, geography, food prices, or program access rather than a single group characteristic; household food insecurity does not mean every household member experienced the same severity.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "retrieval_hash": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "status": "compared"
+    },
+    {
+      "period": "December 2025; age expansion",
+      "denominator": {"value": null, "unit": "all adults ages 18+ in the expanded 2025 WBNS; exact analytic denominators not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "food_insecurity_all_adults": {"value": 24.2, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_adults_18_to_64": {"value": 27.7, "unit": "percent", "value_type": "weighted_survey_estimate"},
+        "food_insecurity_adults_65_or_older": {"value": 12.7, "unit": "percent", "value_type": "weighted_survey_estimate"}
+      },
+      "method": "Published weighted 2025 WBNS estimates; 2025 added approximately 2,500 adults ages 65 and older to the more than 7,500 working-age respondents.",
+      "uncertainty": "The age comparison is cross-sectional and the older-adult sample was newly added in 2025, so it is not a continuation of the 2019–2024 working-age trend. Age, income, health, household structure, and social insurance are jointly patterned.",
+      "subgroup": "Adults ages 18–64 versus adults ages 65 and older.",
+      "counterinterpretation": "Lower reported food insecurity among older adults may reflect Social Security, pensions, housing tenure, household composition, or survey-response differences; it should not be read as proof of uniformly secure older households.",
+      "source_url": "https://www.urban.org/sites/default/files/2026-03/Food%20Insecurity%20Remained%20High%20in%202025%2C%20As%20Safety%20Net%20Cuts%20Loom%20.pdf",
+      "retrieval_hash": "sha256:8c099a3ca11f3130613ad51035eaf5f18cf99652940c48b42459cada84e8f16f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.urban.org/research/publication/charitable-food-participation-remained-high-2025-snap-cuts-unfold", "claim": "Companion WBNS 2019–2025 charitable-food access and unmet-need evidence.", "status": "primary-analysis"},
+    {"source_url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey", "claim": "WBNS survey program, sample, and domain context.", "status": "survey-program"},
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/definitions-of-food-security", "claim": "USDA food-security classification context referenced by the WBNS methods.", "status": "official-method-context"}
+  ],
+  "boundary": "This is a published, weighted, respondent-level cross-sectional trend layer. It shows persistent and unequal food hardship and supplies a baseline for monitoring later policy implementation; it does not estimate the causal effect of the OBBBA, SNAP receipt, food prices, or charitable food on any household, nor does it link the same people to benefit amounts, administrative routes, health, political judgment, or later action. The working-age series also contains a 2025 methodology change and should be read as a bounded trend rather than a seamless causal time series."
+}

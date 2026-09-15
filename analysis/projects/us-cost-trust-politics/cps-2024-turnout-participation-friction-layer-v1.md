@@ -186,3 +186,8 @@ or exit polls because of nonresponse, vote misreporting, question wording, and
 survey administration. The table is cross-sectional for the 2024 election;
 it does not follow the same respondent from a cost or institutional event to a
 later vote.
+
+The turnout and barrier observations are preserved in the machine-readable
+[trend record](../../records/us-cps-voting-participation-friction-2024.json),
+with the distinct nonvoter denominator and a transparent percentage-base note
+for the published overall rates.

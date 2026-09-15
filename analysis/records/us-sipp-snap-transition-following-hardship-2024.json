@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-snap-transition-following-hardship-2024",
+  "title": "SNAP receipt transitions do not map cleanly onto following-month material security",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "SIPP identified person, adjacent reference-month pair",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; SNAP No->No",
+      "denominator": {"value": 312418, "unit": "valid adjacent person-month pairs"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 3.86, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 0.24, "ci95_percentage_points": [3.39, 4.33]},
+        "utility_hardship": {"value": 5.86, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 0.31, "ci95_percentage_points": [5.25, 6.46]}
+      },
+      "method": "Weighted descriptive comparison from the 2025 SIPP public-use file using month-t SNAP state and month-t+1 hardship; 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Fay-BRR standard errors and 95% intervals are retained for both hardship measures; transition selection and field reference periods remain sources of non-sampling uncertainty.",
+      "subgroup": "SNAP nonreceipt at both adjacent months.",
+      "counterinterpretation": "Stable nonreceipt is a reference state, not proof of security or a counterfactual for receipt transitions.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:2d80d2d67640b0795fc8ade12a71d39f4385a698eb2a54c5f9a7ea4534515a76",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP No->Yes",
+      "denominator": {"value": 437, "unit": "valid adjacent person-month pairs"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 16.40, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 3.61, "ci95_percentage_points": [9.32, 23.48]},
+        "utility_hardship": {"value": 20.80, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 3.49, "ci95_percentage_points": [13.96, 27.63]}
+      },
+      "method": "Weighted descriptive comparison from the 2025 SIPP public-use file using month-t SNAP state and month-t+1 hardship; 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Fay-BRR standard errors and 95% intervals are retained; the entry transition is rare and selected, and the hardship fields have their own universes and reference periods.",
+      "subgroup": "SNAP entry between adjacent months.",
+      "counterinterpretation": "Higher following-month hardship is consistent with entry amid need, not evidence that SNAP caused hardship.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:2d80d2d67640b0795fc8ade12a71d39f4385a698eb2a54c5f9a7ea4534515a76",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP Yes->No",
+      "denominator": {"value": 387, "unit": "valid adjacent person-month pairs"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 11.53, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 3.14, "ci95_percentage_points": [5.38, 17.69]},
+        "utility_hardship": {"value": 20.83, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 4.41, "ci95_percentage_points": [12.19, 29.46]}
+      },
+      "method": "Weighted descriptive comparison from the 2025 SIPP public-use file using month-t SNAP state and month-t+1 hardship; 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Fay-BRR standard errors and 95% intervals are retained; the exit transition is rare and selected, and the hardship fields have their own universes and reference periods.",
+      "subgroup": "SNAP exit between adjacent months.",
+      "counterinterpretation": "Exit remains compatible with following hardship; it cannot be read as restored security without observing notice, reason, amount, remedy, and later outcomes.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:2d80d2d67640b0795fc8ade12a71d39f4385a698eb2a54c5f9a7ea4534515a76",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; SNAP Yes->Yes",
+      "denominator": {"value": 33041, "unit": "valid adjacent person-month pairs"},
+      "measures": {
+        "rent_mortgage_hardship": {"value": 11.98, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 1.13, "ci95_percentage_points": [9.76, 14.20]},
+        "utility_hardship": {"value": 18.61, "unit": "percent of valid pairs", "value_type": "weighted_share", "standard_error_percentage_points": 1.38, "ci95_percentage_points": [15.90, 21.32]}
+      },
+      "method": "Weighted descriptive comparison from the 2025 SIPP public-use file using month-t SNAP state and month-t+1 hardship; 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Fay-BRR standard errors and 95% intervals are retained; receipt persistence is selected and hardship fields have their own universes and reference periods.",
+      "subgroup": "SNAP receipt at both adjacent months.",
+      "counterinterpretation": "Continued receipt can coexist with rent, mortgage, or utility hardship; receipt and material protection are separate stages.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "retrieval_hash": "sha256:2d80d2d67640b0795fc8ade12a71d39f4385a698eb2a54c5f9a7ea4534515a76",
+      "status": "estimated"
+    }
+  ],
+  "boundary": "This is a Fay-BRR weighted descriptive SIPP transition comparison, not a SNAP program-effect estimate, complete household benefit spell, notice/effort/remedy record, or measure of trust, political meaning, or later recovery. The retrieval hash covers the committed analysis memo."
+}

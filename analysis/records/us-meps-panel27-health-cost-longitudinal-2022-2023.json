@@ -1,0 +1,521 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-panel27-health-cost-longitudinal-2022-2023",
+  "title": "Health expenditure and out-of-pocket cost add a longitudinal material-pressure layer",
+  "theme_ids": [
+    "cost",
+    "work",
+    "time"
+  ],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "MEPS Panel 27 longitudinal person in the civilian noninstitutionalized U.S. population",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2022",
+      "denominator": {
+        "value": 8226,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure": {
+          "value": 6971.7365,
+          "unit": "dollars per person in calendar year",
+          "value_type": "weighted_estimate",
+          "standard_error": 296.7395,
+          "ci95_low": 6390.1271,
+          "ci95_high": 7553.3459,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure": {
+          "value": 961.3229,
+          "unit": "dollars per person in calendar year",
+          "value_type": "weighted_estimate",
+          "standard_error": 65.5044,
+          "ci95_low": 832.9343,
+          "ci95_high": 1089.7115,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "uninsured_any_time": {
+          "value": 6.8878,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.4987,
+          "ci95_low": 5.9103,
+          "ci95_high": 7.8653,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "continuous_coverage": {
+          "value": 56.3462,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.1871,
+          "ci95_low": 54.0195,
+          "ci95_high": 58.6729,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis.",
+      "subgroup": "Panel 27 persons with valid annual expenditure fields",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2023",
+      "denominator": {
+        "value": 8175,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure": {
+          "value": 7328.5473,
+          "unit": "dollars per person in calendar year",
+          "value_type": "weighted_estimate",
+          "standard_error": 265.4626,
+          "ci95_low": 6808.2406,
+          "ci95_high": 7848.854,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure": {
+          "value": 970.5705,
+          "unit": "dollars per person in calendar year",
+          "value_type": "weighted_estimate",
+          "standard_error": 59.8731,
+          "ci95_low": 853.2192,
+          "ci95_high": 1087.9218,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "uninsured_any_time": {
+          "value": 5.9212,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.5082,
+          "ci95_low": 4.9251,
+          "ci95_high": 6.9173,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "continuous_coverage": {
+          "value": 56.9924,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.2246,
+          "ci95_low": 54.5922,
+          "ci95_high": 59.3926,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis.",
+      "subgroup": "Panel 27 persons with valid annual expenditure fields",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; all-five-round participation and valid paired fields",
+      "denominator": {
+        "value": 7812,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 630.8299,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 245.7742,
+          "ci95_low": 149.1125,
+          "ci95_high": 1112.5473,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": -50.4979,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 63.3195,
+          "ci95_low": -174.6041,
+          "ci95_high": 73.6083,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 21.0089,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.6638,
+          "ci95_low": 19.7079,
+          "ci95_high": 22.3099,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 22.8489,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.7643,
+          "ci95_low": 21.3509,
+          "ci95_high": 24.3469,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_unchanged": {
+          "value": 56.1422,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8104,
+          "ci95_low": 54.5538,
+          "ci95_high": 57.7306,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. The paired cell is conditional on valid fields and full-round participation; health direction uses ordinal perceived-health codes and is not a clinical outcome.",
+      "subgroup": "Panel 27 longitudinal persons with ALL5RDS=1 and valid paired expenditure/health fields",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; baseline family income-to-poverty category: poor/negative income",
+      "denominator": {
+        "value": 1191,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 803.2077,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 744.1191,
+          "ci95_low": -655.2657,
+          "ci95_high": 2261.6811,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": 4.8521,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 60.4993,
+          "ci95_low": -113.7265,
+          "ci95_high": 123.4307,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 23.49,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.5814,
+          "ci95_low": 20.3905,
+          "ci95_high": 26.5895,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 27.0258,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 2.1447,
+          "ci95_low": 22.8222,
+          "ci95_high": 31.2294,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. Baseline material position is the official five-category family income-to-poverty measure.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Poverty-category cells are descriptive and do not adjust for age, health, insurance, or composition.",
+      "subgroup": "Panel 27 longitudinal persons with baseline 2022 poverty category poor/negative income",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; baseline family income-to-poverty category: near-poor income",
+      "denominator": {
+        "value": 372,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 639.0179,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 662.0279,
+          "ci95_low": -658.5568,
+          "ci95_high": 1936.5926,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": -433.023,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 379.598,
+          "ci95_low": -1177.0351,
+          "ci95_high": 310.9891,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 21.1536,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 2.6084,
+          "ci95_low": 16.0411,
+          "ci95_high": 26.2661,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 19.0604,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 3.1075,
+          "ci95_low": 12.9697,
+          "ci95_high": 25.1511,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. Baseline material position is the official five-category family income-to-poverty measure.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Poverty-category cells are descriptive and do not adjust for age, health, insurance, or composition.",
+      "subgroup": "Panel 27 longitudinal persons with baseline 2022 poverty category near-poor income",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; baseline family income-to-poverty category: low income",
+      "denominator": {
+        "value": 1093,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 664.2604,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 632.7681,
+          "ci95_low": -575.9651,
+          "ci95_high": 1904.4859,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": 39.5139,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 101.7747,
+          "ci95_low": -159.9645,
+          "ci95_high": 238.9923,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 23.6565,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.7927,
+          "ci95_low": 20.1428,
+          "ci95_high": 27.1702,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 24.2474,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.5921,
+          "ci95_low": 21.1269,
+          "ci95_high": 27.3679,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. Baseline material position is the official five-category family income-to-poverty measure.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Poverty-category cells are descriptive and do not adjust for age, health, insurance, or composition.",
+      "subgroup": "Panel 27 longitudinal persons with baseline 2022 poverty category low income",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; baseline family income-to-poverty category: middle income",
+      "denominator": {
+        "value": 2179,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 1005.7822,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 369.266,
+          "ci95_low": 282.0208,
+          "ci95_high": 1729.5436,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": 47.4397,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 102.382,
+          "ci95_low": -153.229,
+          "ci95_high": 248.1084,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 22.1877,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.2923,
+          "ci95_low": 19.6548,
+          "ci95_high": 24.7206,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 23.0145,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.4368,
+          "ci95_low": 20.1984,
+          "ci95_high": 25.8306,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. Baseline material position is the official five-category family income-to-poverty measure.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Poverty-category cells are descriptive and do not adjust for age, health, insurance, or composition.",
+      "subgroup": "Panel 27 longitudinal persons with baseline 2022 poverty category middle income",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; baseline family income-to-poverty category: high income",
+      "denominator": {
+        "value": 2977,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "total_health_expenditure_change": {
+          "value": 322.1871,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 443.3228,
+          "ci95_low": -546.7256,
+          "ci95_high": 1191.0998,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "out_of_pocket_expenditure_change": {
+          "value": -125.0526,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 134.0063,
+          "ci95_low": -387.7049,
+          "ci95_high": 137.5997,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_improved": {
+          "value": 18.7399,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.0704,
+          "ci95_low": 16.6419,
+          "ci95_high": 20.8379,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "health_status_worsened": {
+          "value": 21.4734,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 1.1114,
+          "ci95_low": 19.2951,
+          "ci95_high": 23.6517,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. Baseline material position is the official five-category family income-to-poverty measure.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Poverty-category cells are descriptive and do not adjust for age, health, insurance, or composition.",
+      "subgroup": "Panel 27 longitudinal persons with baseline 2022 poverty category high income",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    },
+    {
+      "period": "2022\u21922023; employment status and wage-income continuity",
+      "denominator": {
+        "value": 6442,
+        "unit": "MEPS Panel 27 persons with positive longitudinal weight",
+        "value_type": "unweighted_person_count"
+      },
+      "measures": {
+        "employed_both_rounds": {
+          "value": 62.0815,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.8572,
+          "ci95_low": 60.4014,
+          "ci95_high": 63.7616,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "employed_to_not_employed": {
+          "value": 2.7732,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.2748,
+          "ci95_low": 2.2346,
+          "ci95_high": 3.3118,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "not_employed_to_employed": {
+          "value": 5.0496,
+          "unit": "percent of valid persons",
+          "value_type": "weighted_estimate",
+          "standard_error": 0.3998,
+          "ci95_low": 4.266,
+          "ci95_high": 5.8332,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        },
+        "wage_income_change": {
+          "value": 2012.3459,
+          "unit": "2023 minus 2022 dollars per person",
+          "value_type": "weighted_estimate",
+          "standard_error": 524.1202,
+          "ci95_low": 985.0703,
+          "ci95_high": 3039.6215,
+          "variance_method": "Taylor linearization using LONGWT, VARSTR, and VARPSU"
+        }
+      },
+      "method": "MEPS Panel 27 Longitudinal PUF; final LONGWT used for weighted person estimates; annual 2022 and 2023 fields are taken from the released longitudinal file. EMPST3/EMPST5 are round-specific employment-status fields; WAGEPY1X/WAGEPY2X are annual person wage-income fields. Employment and wage measures use distinct valid universes.",
+      "uncertainty": "Taylor-linearized standard errors and normal-approximation 95% intervals use LONGWT, VARSTR, and VARPSU; AHRQ documents these as the longitudinal estimation variables. Estimates remain descriptive and retain valid-field denominators. Expenditure distributions are skewed, so intervals should not be read as a complete robustness analysis. Employment status is not a job-quality, hours, schedule-control, or causal health-cost measure. Wage-income change is conditional on nonnegative paired wage fields and does not measure household income.",
+      "subgroup": "Panel 27 longitudinal persons with ALL5RDS=1 and valid EMPST3/EMPST5 status; wage-income change uses its separate valid paired wage universe",
+      "counterinterpretation": "Medical expenditure and payment patterns reflect health need, age, insurance, employment, income, provider prices, and reporting; they do not identify a single bill, institutional decision, or cultural response.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-252",
+      "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e; sas-layout:sha256:e2eae9d86e8a83eac242cbc8dd748a05e3fb406004bd921c8dc49fd885c8ad26",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://meps.ahrq.gov/data_stats/download_data/pufs/h252/h252doc.shtml",
+      "claim": "AHRQ documents the Panel 27 longitudinal file, LONGWT, panel retention, annual expenditure and health fields, and the VARSTR/VARPSU variance structure for longitudinal estimates.",
+      "status": "official-method"
+    },
+    {
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/h252/h252cb.pdf",
+      "claim": "The official codebook defines the longitudinal variables and valid coding.",
+      "status": "official-definition"
+    }
+  ],
+  "boundary": "This layer tests longitudinal health-cost and health-status co-movement for one MEPS panel. It does not establish that expenditure caused health change, identify a specific price or institutional actor, measure time/care allocation, or connect health costs to trust, politics, consumer exit, or geopolitical consequences. The paired analysis is conditional on valid fields and full-round participation. Taylor-linearized precision uses the released variance units; normal intervals do not resolve expenditure skewness, nonresponse, attrition, or subgroup composition.",
+  "retrieval_hash": "sha256:1914e93ef11de514681b2dcaeccbc2eaa81378bc67687556cf0e08c31162f24e"
+}

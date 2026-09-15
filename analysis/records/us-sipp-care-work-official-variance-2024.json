@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-care-work-official-variance-2024",
+  "title": "SIPP care and work constraints carry different universes and uncertainty",
+  "theme_ids": ["time", "work"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "SIPP person record by reference month using final person and Fay-BRR replicate weights",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year in the 2025 SIPP public-use file",
+      "denominator": {"value": 378291, "unit": "positive-final-person-weight selected person-record/month rows; 379,215 rows read", "value_type": "unweighted_positive_weight_rows"},
+      "measures": {
+        "paid_for_childcare": {"value": 30.083, "unit": "percent among 24,549 valid person-record/month records in the child-care-use universe", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 1.168, "ci95_percentage_points": [27.795, 32.371]},
+        "received_childcare_payment_assistance": {"value": 6.379, "unit": "percent among 24,549 valid person-record/month records in the child-care-use universe", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 0.698, "ci95_percentage_points": [5.010, 7.748]},
+        "childcare_prevented_work_or_more_work": {"value": 3.877, "unit": "percent among 31,788 valid person-record/month records in the reference-parent child universe", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 0.466, "ci95_percentage_points": [2.963, 4.792]},
+        "reported_time_lost_from_work_due_to_childcare": {"value": 16.992, "unit": "percent among 1,119 valid records conditional on reported child-care work prevention", "value_type": "weighted_conditional_share", "standard_error_percentage_points": 4.289, "ci95_percentage_points": [8.585, 25.398]}
+      },
+      "method": "Care and work fields were screened with their official status flags (APAY, APAYHELP, AWORKMORE, ATIMELOST) and the released conditional universes. Full estimates use WPFINWGT; 240 replicate estimates use REPWGT1–REPWGT240 and Census Fay-BRR variance with G=240 and perturbation factor 0.5.",
+      "uncertainty": "Fay-BRR standard errors and approximate 95% intervals are reported. The time-lost measure is conditional on reported work prevention and has a small valid record count; nonresponse, recall, and reference-period uncertainty remain.",
+      "subgroup": "Reference-parent child-care-use universe for payment and assistance; reference-parent child universe for work prevention; conditional work-prevention universe for time lost.",
+      "counterinterpretation": "Payment, assistance, work prevention, and time lost are distinct questions and do not form a causal sequence. They do not identify a dated care event, provider shortage, employer decision, schedule control, paid/unpaid substitution, health outcome, trust change, or political action.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official child-care field labels, status flags, and universes.", "status": "official-dictionary"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/rw2025_dictionary.txt", "claim": "Official replicate-weight keys and fields.", "status": "official-replicate-dictionary"}
+  ],
+  "boundary": "This is a person-weighted, design-based descriptive layer. It does not establish household prevalence, causal care or work effects, household time substitution, remedy, recovery, trust, political action, or a complete material-to-time-to-care chain."
+}

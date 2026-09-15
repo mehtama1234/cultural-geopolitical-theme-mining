@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-fraud-annual-comparison-2024-2025",
+  "title": "Household fraud burden subgroup patterns vary across annual SHED samples",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "Separate weighted US adult SHED annual respondent samples",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024",
+      "denominator": {"value": 12295, "unit": "SHED public-use adult respondent rows; conditional outcomes use non-credit-card fraud reporters", "value_type": "observed_rows"},
+      "measures": {"exposure_age_18_29": {"value": 6.848, "unit": "percent", "value_type": "weighted_share"}, "exposure_age_45_59": {"value": 10.248, "unit": "percent", "value_type": "weighted_share"}, "unrecovered_income_10000_24999": {"value": 53.778, "unit": "percent of fraud reporters", "value_type": "weighted_conditional_share"}, "unrecovered_income_100000_149999": {"value": 22.566, "unit": "percent of fraud reporters", "value_type": "weighted_conditional_share"}},
+      "method": "Codebook-backed BK47_b, BK48, BK50, ppagect4, and ppinc7 weighted with the main weight; metric-specific nonmissing denominators.",
+      "uncertainty": "Annual descriptive survey estimates without reproduced replicate-weight variance; self-report, nonresponse, and selection remain relevant.",
+      "subgroup": "Age and household-income categories.",
+      "counterinterpretation": "The subgroup ordering can reflect composition, reporting, fraud type, and resources rather than an age or income causal effect.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf",
+      "comparison_source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2024_(CSV).zip",
+      "retrieval_hash": "sha256:b455d02356a0c01a02d7f478c02d772515491564e905ce13db55f272f83567c1",
+      "status": "compared"
+    },
+    {
+      "period": "2025",
+      "denominator": {"value": 12934, "unit": "SHED public-use adult respondent rows; conditional outcomes use non-credit-card fraud reporters", "value_type": "observed_rows"},
+      "measures": {"exposure_age_18_29": {"value": 7.125, "unit": "percent", "value_type": "weighted_share"}, "exposure_age_45_59": {"value": 8.383, "unit": "percent", "value_type": "weighted_share"}, "unrecovered_income_10000_24999": {"value": 50.671, "unit": "percent of fraud reporters", "value_type": "weighted_conditional_share"}, "unrecovered_income_100000_149999": {"value": 28.288, "unit": "percent of fraud reporters", "value_type": "weighted_conditional_share"}},
+      "method": "Same definitions and weighted procedure applied to the 2025 public-use CSV.",
+      "uncertainty": "Annual descriptive survey estimates without reproduced replicate-weight variance; separate sample, not a panel.",
+      "subgroup": "Age and household-income categories.",
+      "counterinterpretation": "The changed age ordering does not establish a population trend; survey composition and coding or reporting differences may contribute.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "comparison_source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_public_use_data_2025_(CSV).zip",
+      "retrieval_hash": "sha256:a4ab3f7d042f16d63626b1af9aeb6f0b8a0b39e412fa94b87265bc67fe26de14",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [{"source_url": "data/shed-fraud-annual-comparison-2024-2025.json", "claim": "Local reproduction output preserves annual subgroup measures and available-field differences.", "status": "derived", "access_boundary": "2025 lacks the account-route fields used in the 2024 P2P comparison."}],
+  "boundary": "This adds a separate annual comparison to household fraud exposure and recovery burden. It does not establish a panel trend, causal subgroup effect, verified provider remedy, digital-access or disability gradient, later trust, switching, or exit."
+}

@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-defense-procurement-recipient-identifier-ambiguity-2026",
+  "title": "Recipient-name searches do not identify the facility performing a defense subaward",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "Official USAspending recipient search responses compared with retained JASSM/LRASM subaward rows and official DLA CAGE facility records",
+  "geography": "United States defense-recipient and facility records",
+  "observations": [
+    {
+      "period": "2026-09-14; BAE exact-name recipient search",
+      "denominator": {"value": 17, "unit": "USAspending recipient rows returned for the exact BAE displayed name", "value_type": "endpoint_rows"},
+      "measures": {
+        "distinct_uei_count": {"value": 10, "unit": "distinct UEIs in returned recipient rows", "value_type": "count"},
+        "dla_facility_uei": {"value": "SL2KEMFACM69", "unit": "UEI displayed by DLA CAGE 81J97", "value_type": "official_facility_identifier"},
+        "exact_subaward_join": {"value": "not observed", "unit": "subaward row to UEI/CAGE assignment", "value_type": "open"}
+      },
+      "method": "Exact-name POST to the official USAspending recipient endpoint, counted by returned UEI and compared with the official DLA CAGE facility record and the retained subaward response.",
+      "uncertainty": "The recipient endpoint is a broad search across aggregate recipient records and parent/child levels, not an award-specific subaward join; the retained subaward rows do not expose UEI or CAGE.",
+      "subgroup": "Largest named BAE recipient in the bounded JASSM/LRASM subaward extract.",
+      "counterinterpretation": "Non-overlap can reflect identifier vintage, normalization, historical records, or different legal-entity records; it does not establish missing registration, foreign control, or absent production.",
+      "source_url": "https://api.usaspending.gov/api/v2/recipient/",
+      "retrieval_hash": "sha256:b8cece8ac32a6a821c4a10daf19953355faf3c2a30e2598b83334c02299d28df",
+      "status": "compared"
+    },
+    {
+      "period": "2026-09-14; General Dynamics-OTS exact-name recipient search",
+      "denominator": {"value": 3, "unit": "USAspending recipient rows returned for the exact General Dynamics-OTS displayed name", "value_type": "endpoint_rows"},
+      "measures": {
+        "usa_spending_ueis": {"value": "Q9SBTF8ELUP4; KZK8C85C1T94; KGF2CHWGJRK8", "unit": "UEIs in returned recipient rows", "value_type": "identifier_set"},
+        "dla_selected_facility_ueis": {"value": "JCUNVL6B1QJ8; Q9SBTF8ELUP4; C9JJM67GNFZ1", "unit": "UEIs displayed by three selected DLA CAGE facility records", "value_type": "identifier_set"},
+        "overlap": {"value": 1, "unit": "UEI appearing in both selected sets", "value_type": "set_intersection_count"},
+        "exact_subaward_join": {"value": "not observed", "unit": "subaward row to facility assignment", "value_type": "open"}
+      },
+      "method": "Exact-name POST to the official USAspending recipient endpoint, compared with three selected DLA CAGE facility records under General Dynamics Corp.",
+      "uncertainty": "The one overlapping UEI is an identifier intersection, not proof that the $80.55 million JASSM/LRASM subaward was performed at that facility; endpoint populations and dates differ.",
+      "subgroup": "General Dynamics-OTS comparison recipient in the bounded JASSM/LRASM extract.",
+      "counterinterpretation": "Multiple identifiers may represent facility, historical, parent/child, or data-normalization differences; they do not by themselves show independent capacity or fragmentation.",
+      "source_url": "https://api.usaspending.gov/api/v2/recipient/",
+      "retrieval_hash": "sha256:e71faf1ac823779ba0c5bc2bee3fa6dab2afd62916d75ccabeb642345c5ea765",
+      "status": "compared"
+    },
+    {
+      "period": "2024-10-23 through 2025-02-28; retained subaward field boundary",
+      "denominator": {"value": 74, "unit": "returned subaward rows linked to one JASSM/LRASM parent award", "value_type": "unweighted_record_count"},
+      "measures": {
+        "identifier_fields_present": {"value": "recipient_name, description, action_date, amount, subaward_number, row id", "unit": "retained response fields", "value_type": "field_inventory"},
+        "uei_or_cage_present": {"value": false, "unit": "boolean in retained subaward response", "value_type": "observed"},
+        "facility_assignment": {"value": "not observed", "unit": "subaward-to-facility linkage", "value_type": "open"}
+      },
+      "method": "Field inventory of the retained official USAspending subaward response, compared with the recipient and DLA identifier routes.",
+      "uncertainty": "The absence is specific to the retained endpoint response and should not be generalized to all USAspending views or contractor records.",
+      "subgroup": "One bounded weapons-system procurement case.",
+      "counterinterpretation": "A separate transaction, downloadable file, award attachment, or contractor record may expose the missing identifier and close the join.",
+      "source_url": "https://api.usaspending.gov/api/v2/subawards/",
+      "retrieval_hash": "sha256:6be094c968aafc34770d57d863c473d0a9485a487b4a643a0d0bd1b912f8eba8",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-076.md", "claim": "DLA CAGE records establish displayed parent and facility structures for the comparison routes.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-072.md", "claim": "The bounded subaward extract establishes the name/amount surface but not identifiers.", "status": "related-finding"},
+    {"source_url": "https://github.com/fedspendingtransparency/usaspending-api/blob/master/usaspending_api/api_contracts/contracts/v2/recipient.md", "claim": "Official API contract documents recipient search fields and aggregate endpoint behavior.", "status": "official-method"}
+  ],
+  "boundary": "This record audits identifier discoverability and ambiguity. It does not assign a subaward to a facility, establish production or delivery, estimate supplier independence, or infer geopolitical leverage."
+}

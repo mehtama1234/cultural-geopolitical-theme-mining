@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-snap-acs-state-crosswalk-2026",
+  "title": "SNAP participation is non-monotonic across state income contexts and coexists with distinct mobility exposures",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "time_hidden_price"],
+  "source_unit": "Matched USDA SNAP state/DC rate and 2024 ACS state/DC aggregate context",
+  "geography": "United States; 50 states and District of Columbia",
+  "observations": [
+    {
+      "period": "2024 ACS / FY2025 USDA; matched state-income quartile 1",
+      "denominator": {"value": 13, "unit": "matched states/DC in ACS median-household-income quartile", "value_type": "geographic_group"},
+      "measures": {"mean_snap_participation": {"value": 13.10, "unit": "percent; unweighted mean of state participation rates", "value_type": "compared"}, "zero_vehicle_households": {"value": 6.56, "unit": "percent; ACS table-total pooled state households", "value_type": "compared"}, "commute_30_plus": {"value": 33.29, "unit": "percent; ACS table-total pooled workers not working from home", "value_type": "compared"}, "median_income_range": {"value": "$59,127–$72,350", "unit": "US dollars; ACS B19013 state median household income range", "value_type": "context_range"}},
+      "method": "USDA FY2025 state chart rates joined by state name to 2024 ACS state context; 51 matched states/DC sorted by ACS B19013 and split into four near-equal groups; SNAP means unweighted across states, ACS mobility measures pooled by table totals.",
+      "uncertainty": "Ecological comparison without margin-of-error propagation, population weighting of the SNAP mean, or causal identification; ACS and USDA years differ.",
+      "subgroup": "Matched states/DC in the lowest ACS median-household-income quartile.",
+      "counterinterpretation": "A higher participation rate in Q1 may reflect need, eligibility, take-up, composition, or administration; it does not identify any one mechanism.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:84f7c4706d1e0338111b6c1a879453e0e3c42f800af20b0113d8c83b3f126bb2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 ACS / FY2025 USDA; matched state-income quartile 2",
+      "denominator": {"value": 13, "unit": "matched states/DC in ACS median-household-income quartile", "value_type": "geographic_group"},
+      "measures": {"mean_snap_participation": {"value": 9.80, "unit": "percent; unweighted mean of state participation rates", "value_type": "compared"}, "zero_vehicle_households": {"value": 6.84, "unit": "percent; ACS table-total pooled state households", "value_type": "compared"}, "commute_30_plus": {"value": 35.11, "unit": "percent; ACS table-total pooled workers not working from home", "value_type": "compared"}, "median_income_range": {"value": "$72,389–$77,871", "unit": "US dollars; ACS B19013 state median household income range", "value_type": "context_range"}},
+      "method": "Same matched-state crosswalk method as quartile 1.",
+      "uncertainty": "Ecological comparison without margin-of-error propagation, population weighting of the SNAP mean, or causal identification; ACS and USDA years differ.",
+      "subgroup": "Matched states/DC in the second ACS median-household-income quartile.",
+      "counterinterpretation": "The lower Q2 participation mean does not establish lower need or better access than Q1.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:84f7c4706d1e0338111b6c1a879453e0e3c42f800af20b0113d8c83b3f126bb2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 ACS / FY2025 USDA; matched state-income quartile 3",
+      "denominator": {"value": 13, "unit": "matched states/DC in ACS median-household-income quartile", "value_type": "geographic_group"},
+      "measures": {"mean_snap_participation": {"value": 12.22, "unit": "percent; unweighted mean of state participation rates", "value_type": "compared"}, "zero_vehicle_households": {"value": 11.13, "unit": "percent; ACS table-total pooled state households", "value_type": "compared"}, "commute_30_plus": {"value": 41.40, "unit": "percent; ACS table-total pooled workers not working from home", "value_type": "compared"}, "median_income_range": {"value": "$79,721–$92,090", "unit": "US dollars; ACS B19013 state median household income range", "value_type": "context_range"}},
+      "method": "Same matched-state crosswalk method as quartile 1.",
+      "uncertainty": "Ecological comparison without margin-of-error propagation, population weighting of the SNAP mean, or causal identification; ACS and USDA years differ.",
+      "subgroup": "Matched states/DC in the third ACS median-household-income quartile.",
+      "counterinterpretation": "The high zero-vehicle and commute context may reflect urban form and labor-market geography rather than unmet mobility or public-system access.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:84f7c4706d1e0338111b6c1a879453e0e3c42f800af20b0113d8c83b3f126bb2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 ACS / FY2025 USDA; matched state-income quartile 4",
+      "denominator": {"value": 12, "unit": "matched states/DC in ACS median-household-income quartile", "value_type": "geographic_group"},
+      "measures": {"mean_snap_participation": {"value": 10.91, "unit": "percent; unweighted mean of state participation rates", "value_type": "compared"}, "zero_vehicle_households": {"value": 8.36, "unit": "percent; ACS table-total pooled state households", "value_type": "compared"}, "commute_30_plus": {"value": 42.47, "unit": "percent; ACS table-total pooled workers not working from home", "value_type": "compared"}, "median_income_range": {"value": "$95,665–$109,707", "unit": "US dollars; ACS B19013 state median household income range", "value_type": "context_range"}},
+      "method": "Same matched-state crosswalk method as quartile 1.",
+      "uncertainty": "Ecological comparison without margin-of-error propagation, population weighting of the SNAP mean, or causal identification; ACS and USDA years differ.",
+      "subgroup": "Matched states/DC in the highest ACS median-household-income quartile.",
+      "counterinterpretation": "Higher state income and longer commute exposure do not establish household welfare, schedule control, or lower need.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:84f7c4706d1e0338111b6c1a879453e0e3c42f800af20b0113d8c83b3f126bb2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 ACS / FY2025 USDA; all 51 matched states/DC",
+      "denominator": {"value": 51, "unit": "matched state/DC aggregate observations", "value_type": "geographic_scope"},
+      "measures": {"snap_income_correlation": {"value": -0.110, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "screen"}, "snap_zero_vehicle_correlation": {"value": 0.425, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "screen"}, "snap_long_commute_correlation": {"value": 0.485, "unit": "unweighted Pearson correlation across state/DC aggregates", "value_type": "screen"}},
+      "method": "Unweighted Pearson screens over the 51 matched state/DC aggregates using USDA participation, ACS median household income, ACS zero-vehicle household rate, and ACS long-commute rate.",
+      "uncertainty": "Correlations are descriptive ecological screens with no inferential uncertainty, population weighting, or causal design; common state-level confounding and measurement differences remain.",
+      "subgroup": "All matched states and DC.",
+      "counterinterpretation": "The correlations cannot identify direction, household-level relationships, or whether need, place, eligibility, administration, or mobility causes any observed association.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:84f7c4706d1e0338111b6c1a879453e0e3c42f800af20b0113d8c83b3f126bb2",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b19013.dat", "claim": "ACS B19013 median household income state context.", "status": "official-companion"},
+    {"source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b08201.dat", "claim": "ACS B08201 vehicle-availability state context.", "status": "official-companion"},
+    {"source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b08303.dat", "claim": "ACS B08303 commute-time state context.", "status": "official-companion"}
+  ],
+  "boundary": "This is a descriptive ecological crosswalk of 51 USDA FY2025 participation rates and 2024 ACS state aggregates. It does not establish individual or household relationships, causal direction, administrative performance, eligible nonparticipation, benefit adequacy, food security, or political meaning. The state-income quartiles are recomputed over matched states/DC and the ACS mobility measures retain their distinct table universes. The retrieval hash covers the committed crosswalk layer."
+}

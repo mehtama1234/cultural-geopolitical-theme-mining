@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fred-consumer-confidence-price-labor-2024-2026",
+  "title": "Consumer confidence weakened while the aggregate price level rose and unemployment stayed comparatively low",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Monthly US aggregate FRED series: University of Michigan consumer sentiment, CPI for all urban consumers, and civilian unemployment rate",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "January 2024",
+      "denominator": {"value": 1, "unit": "monthly aggregate observation", "value_type": "time_series_point"},
+      "measures": {
+        "consumer_sentiment": {"value": 79.0, "unit": "UMCSENT index", "value_type": "index"},
+        "consumer_price_index": {"value": 309.698, "unit": "CPIAUCSL index, 1982–84=100", "value_type": "index"},
+        "unemployment_rate": {"value": 3.7, "unit": "percent of civilian labor force", "value_type": "rate"}
+      },
+      "method": "FRED graph CSV extraction of UMCSENT, CPIAUCSL, and UNRATE at monthly frequency; January 2024 is the comparison baseline.",
+      "uncertainty": "FRED republishes source series and revisions; the three series have different constructions and populations. Aggregate indexes do not measure a common household, lived inflation, purchasing power, or political response.",
+      "subgroup": "US aggregate; no household, income, age, race, geography, or political subgroup.",
+      "counterinterpretation": "Sentiment may reflect expectations, politics, financial markets, or events in addition to current prices and employment. A baseline point cannot identify the cause of later movement.",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT,CPIAUCSL,UNRATE",
+      "retrieval_hash": "csv:sha256:06ac7af0383019469af2b0248980cd574879e967a45668bdd18c9311c1fb03a1",
+      "status": "reported"
+    },
+    {
+      "period": "December 2024",
+      "denominator": {"value": 1, "unit": "monthly aggregate observation", "value_type": "time_series_point"},
+      "measures": {
+        "consumer_sentiment": {"value": 74.0, "unit": "UMCSENT index", "value_type": "index"},
+        "consumer_price_index": {"value": 317.604, "unit": "CPIAUCSL index, 1982–84=100", "value_type": "index"},
+        "unemployment_rate": {"value": 4.1, "unit": "percent of civilian labor force", "value_type": "rate"},
+        "sentiment_change_from_jan_2024": {"value": -6.3, "unit": "UMCSENT index points", "value_type": "derived_change"},
+        "cpi_change_from_jan_2024": {"value": 2.6, "unit": "percent change in CPIAUCSL", "value_type": "derived_change"}
+      },
+      "method": "Monthly FRED levels with changes calculated against the January 2024 observation from the same downloaded series.",
+      "uncertainty": "The changes are descriptive co-movement, not a causal estimate. CPI is an aggregate price index and sentiment is a survey index; neither supplies the household-specific basket or financial buffer.",
+      "subgroup": "US aggregate; no subgroup breakdown.",
+      "counterinterpretation": "A modest index-level price increase can feel very different across households, and sentiment can move for reasons unrelated to the measured CPI level.",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT,CPIAUCSL,UNRATE",
+      "retrieval_hash": "csv:sha256:06ac7af0383019469af2b0248980cd574879e967a45668bdd18c9311c1fb03a1",
+      "status": "compared"
+    },
+    {
+      "period": "December 2025",
+      "denominator": {"value": 1, "unit": "monthly aggregate observation", "value_type": "time_series_point"},
+      "measures": {
+        "consumer_sentiment": {"value": 52.9, "unit": "UMCSENT index", "value_type": "index"},
+        "consumer_price_index": {"value": 326.031, "unit": "CPIAUCSL index, 1982–84=100", "value_type": "index"},
+        "unemployment_rate": {"value": 4.4, "unit": "percent of civilian labor force", "value_type": "rate"},
+        "sentiment_change_from_jan_2024": {"value": -26.1, "unit": "UMCSENT index points", "value_type": "derived_change"},
+        "cpi_change_from_jan_2024": {"value": 5.3, "unit": "percent change in CPIAUCSL", "value_type": "derived_change"}
+      },
+      "method": "Monthly FRED levels with changes calculated against January 2024.",
+      "uncertainty": "The series do not share a respondent or household denominator. The unemployment rate is a labor-market aggregate, not a measure of job quality, hours, income adequacy, or household room.",
+      "subgroup": "US aggregate; no subgroup breakdown.",
+      "counterinterpretation": "The sentiment decline may incorporate expected future conditions, political interpretation, or other shocks; its timing alone does not identify price causation.",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT,CPIAUCSL,UNRATE",
+      "retrieval_hash": "csv:sha256:06ac7af0383019469af2b0248980cd574879e967a45668bdd18c9311c1fb03a1",
+      "status": "compared"
+    },
+    {
+      "period": "July 2026",
+      "denominator": {"value": 1, "unit": "monthly aggregate observation", "value_type": "time_series_point"},
+      "measures": {
+        "consumer_sentiment": {"value": 55.2, "unit": "UMCSENT index", "value_type": "index"},
+        "consumer_price_index": {"value": 332.813, "unit": "CPIAUCSL index, 1982–84=100", "value_type": "index"},
+        "unemployment_rate": {"value": 4.1, "unit": "percent of civilian labor force", "value_type": "rate"},
+        "sentiment_change_from_jan_2024": {"value": -23.8, "unit": "UMCSENT index points", "value_type": "derived_change"},
+        "cpi_change_from_jan_2024": {"value": 7.5, "unit": "percent change in CPIAUCSL", "value_type": "derived_change"}
+      },
+      "method": "Monthly FRED levels with changes calculated against January 2024; July 2026 is the latest month with a non-missing UMCSENT value in the retrieved file.",
+      "uncertainty": "Later observations are subject to revision and the August 2026 sentiment value was missing in the retrieved file. No causal, household-level, or political-behavior inference is made.",
+      "subgroup": "US aggregate; no subgroup breakdown.",
+      "counterinterpretation": "Sentiment partially recovered from December 2025 while remaining below January 2024; that recovery cautions against treating the series as a one-way response to prices.",
+      "source_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UMCSENT,CPIAUCSL,UNRATE",
+      "retrieval_hash": "csv:sha256:06ac7af0383019469af2b0248980cd574879e967a45668bdd18c9311c1fb03a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/consumerscommunities/shed.htm", "claim": "Federal Reserve SHED provides household-level economic well-being and adaptation measures that aggregate sentiment cannot supply.", "status": "comparison-context"},
+    {"source_url": "https://www.bea.gov/resources/learning-center", "claim": "BEA national accounts provide income, spending, and price-flow context at a different aggregation level.", "status": "comparison-context"}
+  ],
+  "boundary": "This is a descriptive FRED aggregate time-series layer. It supports a timing comparison among consumer sentiment, the aggregate price index, and unemployment; it does not establish inflation causation, household hardship, purchasing power, consumer choice, political attribution, or trust. The FRED CSV was downloaded for this pass but the raw file is not committed; the query URL and retrieval hash preserve the captured input identity."
+}

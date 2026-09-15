@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usda-snap-fy2025-state-participation-2026",
+  "title": "FY2025 SNAP participation varies widely across states and DC",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "political_judgment_action"],
+  "source_unit": "USDA ERS state and District of Columbia population participation-rate observations",
+  "geography": "United States; 50 states and District of Columbia",
+  "observations": [
+    {
+      "period": "FY2025; state and DC participation-rate distribution",
+      "denominator": {"value": 51, "unit": "state and District of Columbia observations", "value_type": "reported_geographic_scope"},
+      "measures": {
+        "minimum_state_rate": {"value": 4.7, "unit": "percent of state/DC population receiving SNAP; Wyoming", "value_type": "reported_range_min"},
+        "maximum_state_rate": {"value": 21.9, "unit": "percent of state/DC population receiving SNAP; New Mexico", "value_type": "reported_range_max"},
+        "median_state_rate": {"value": 11.3, "unit": "percent; unweighted median of 51 state/DC rates", "value_type": "derived_summary"},
+        "mean_state_rate": {"value": 11.5196, "unit": "percent; unweighted mean of 51 state/DC rates", "value_type": "derived_summary"},
+        "p25_state_rate": {"value": 8.5, "unit": "percent; simple order-statistic 25th percentile", "value_type": "derived_summary"},
+        "p75_state_rate": {"value": 14.7, "unit": "percent; simple order-statistic 75th percentile", "value_type": "derived_summary"},
+        "state_rate_range": {"value": 17.2, "unit": "percentage-point spread from minimum to maximum", "value_type": "derived_range"}
+      },
+      "method": "Direct transcription of the USDA ERS FY2025 chart-data workbook; summaries calculated across 50 states and DC without population weighting.",
+      "uncertainty": "The official chart supplies rates but not a comparable state-level decomposition of need, eligibility, administration, office/channel access, or take-up. The mean, median, and quartiles summarize the listed state observations rather than the US population.",
+      "subgroup": "State and District of Columbia population participation-rate observations; exact state values are preserved in the committed source layer.",
+      "counterinterpretation": "A high participation rate may reflect higher need or better take-up, while a low rate may reflect lower need or underaccess; state rates are not program-performance rankings or food-security measures.",
+      "source_url": "https://www.ers.usda.gov/media/29462/55416-chart-data-file.xlsx?v=68216",
+      "retrieval_hash": "sha256:86afb9e6904a55468de53cfc19213a979004e1c0faa347152b794dd49263740d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research", "claim": "USDA ERS page hosting the FY2025 state chart and national SNAP context.", "status": "official-companion"},
+    {"source_url": "https://www.census.gov/programs-surveys/acs", "claim": "Potential compatible state economic and demographic context for a future matched comparison; not joined in this record.", "status": "next-test-source"}
+  ],
+  "boundary": "This record is a descriptive transcription and summary of 51 FY2025 state/DC participation rates. It does not establish why rates differ, whether eligible nonparticipants differ, state administrative performance, benefit adequacy, food security, household outcomes, trust, political action, or causal effects. Population-weighted national estimates and state-level need/eligibility/administrative decomposition remain open. The retrieval hash covers the committed state-specific layer."
+}

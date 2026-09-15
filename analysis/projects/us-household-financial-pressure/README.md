@@ -56,6 +56,18 @@ The final account must distinguish a fee from a price, access from affordability
 
 Some consumer systems advertise one visible price while moving the real cost through fees, interest, data, reduced choice, or cross-subsidy. The burden may fall most on people with the fewest ways to avoid the system, while rewards or convenience flow to people with more liquidity and better access. This is a hypothesis to test, not the finding.
 
+The [payment-system incidence finding](findings/us-household-financial-pressure-003.md)
+now connects the NBER merchant/model layer to the separate Federal Reserve and
+SHED household-pressure layers. It treats payment-system redistribution as a
+mechanism and keeps modeled incidence, observed adaptation, and household
+welfare as distinct stages.
+
+The [card-offer surface finding](findings/us-household-financial-pressure-004.md)
+adds the CFPB 2024–2025 Terms of Credit Card Plans comparison. It shows why a
+larger visible product surface and lower product-level median APR do not prove
+cheaper realized credit, broader practical access, or better household
+financial room.
+
 ## Scope
 
 ### In scope
@@ -111,3 +123,62 @@ Some consumer systems advertise one visible price while moving the real cost thr
 ## Completion rule
 
 The project is not complete when it has many sources. It is complete for one bounded question when the central mechanism is supported by at least two independent source families, a serious challenge has been tested, distribution is visible, and every important sentence is either directly sourced, clearly labeled as inference, or left as an open question.
+The [aggregate-credit comparison](findings/us-household-financial-pressure-005.md)
+now places the New York Fed 2026 Q2 household-debt snapshot beside the
+Federal Reserve 2025 SHED household and linked-credit layers. It keeps
+aggregate balances, survey capacity, and hardship-conditioned balance growth
+as separate units and leaves the dated borrower-to-payment-to-trust path open.
+
+The [SIPP utility-credit-savings finding](findings/us-household-financial-pressure-006.md)
+adds a same-month person-record joint diagnostic: utility-payment difficulty
+coexists with more balance carrying and less savings-account ownership, while
+the resource-stratified cells show that credit access is not a simple
+deprivation scale. Fay-BRR precision and household-level temporal ordering
+remain the next gates.
+
+The [BEA July 2026 income-and-outlays finding](findings/us-household-financial-pressure-007.md)
+adds a current aggregate macro benchmark for personal income, disposable
+income, consumption, services-versus-goods composition, outlays, and saving.
+It keeps national accounts separate from household buffers, SIPP person-month
+records, and New York Fed credit aggregates; it does not treat rising income
+or PCE as evidence of equal household room.
+
+The [August 2026 CPI finding](findings/us-household-financial-pressure-008.md)
+adds the adjacent official price checkpoint: all-items CPI rose 0.4% in the
+month and 3.4% over the year, with gasoline and energy contributing materially
+to the movement. The CPI provides a dated aggregate price surface, not
+household incidence, affordability, substitution, hardship, or political
+meaning. The next test is a valid household or matched-place exposure design
+that connects category-specific prices to alternatives, response, and recovery.
+
+The [August 2026 PPI finding](findings/us-household-financial-pressure-009.md)
+adds the upstream seller-side layer: final demand rose 0.4% monthly and 5.4%
+over the year, while energy, diesel, and intermediate-goods indexes moved more
+sharply. PPI is a possible transmission surface, not evidence of consumer
+pass-through, firm margin change, household burden, or political response. The
+next test is a named product or sector with a traceable price, contract/margin,
+customer, and recovery or exit path.
+
+The [current macro cross-source synthesis](findings/us-household-financial-pressure-010.md)
+puts August labor, August CPI, August PPI, and July BEA income/outlays beside
+one another. It makes the calendar alignment useful as a conditioning surface
+while preserving the missing joins among worker, firm, product, household,
+trust, and political-action units.
+
+The [SHED panel reproduction audit](shed-panel-reproduction-audit-2026-09-13.json)
+was rechecked on 2026-09-14 against the locally retained official archives.
+The adaptation-condition and health/care outputs reproduced their prior hashes
+and all 4,419 paired respondents. This confirms the descriptive panel layer;
+it does not add replicate-weight uncertainty or causal identification.
+
+The [panel work/health/care synthesis](findings/us-household-financial-pressure-011.md)
+now places work-more, borrowing, reduced-use persistence beside health
+direction and unpaid adult-care entry/exit. It strengthens the same-respondent
+material-to-adaptation-to-care bridge while preserving the missing event,
+hours, schedule-control, recipient-outcome, trust, and political-action links.
+
+The reader-facing [financial-pressure, adaptation, and recovery synthesis](financial-pressure-adaptation-recovery-synthesis-v1.md)
+connects the same-respondent persistence and re-entry tables to the
+non-synchronized health and unpaid-care paths. It keeps the actual numbers,
+conditional denominators, counterexamples, and public-use weight boundary
+visible while explaining what the next dated event design must add.

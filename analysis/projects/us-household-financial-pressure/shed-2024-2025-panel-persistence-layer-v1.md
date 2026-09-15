@@ -1,6 +1,6 @@
 # SHED 2024–2025 panel persistence layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-13
 **Unit:** recontacted SHED respondent, 2024 to 2025  
 **Panel:** 4,419 records with a shared `shedid` and nonmissing 2025
 `panel_weight`  
@@ -166,5 +166,12 @@ python3 scripts/analyze_shed_panel_price_persistence.py \
 ```
 
 The calculation uses the official [SHED data releases](https://www.federalreserve.gov/consumerscommunities/shed_data.htm), the 2024 [codebook](https://www.federalreserve.gov/consumerscommunities/files/SHED_2024codebook.pdf), and the 2025 codebook. The raw files and JSON output are not committed.
+
+On 2026-09-13 the official 2024 and 2025 CSV archives were downloaded and
+parsed successfully. The [reproduction audit](shed-panel-reproduction-audit-2026-09-13.json)
+records their URLs, SHA-256 checksums, archive members, row counts, completed
+script output hashes, and one auxiliary script timeout that was not promoted.
+The price-persistence and health/care outputs reproduced the committed
+headline counts and percentages.
 
 Related: [2025 SHED price-adaptation layer](shed-2025-price-adaptation-layer-v1.md), [economic adaptation, perception, and public action layer](../us-cost-trust-politics/economic-adaptation-perception-action-layer-v1.md), and the [broad event ledger](../../templates/US-BROAD-EVENT-LEDGER_V1.md).

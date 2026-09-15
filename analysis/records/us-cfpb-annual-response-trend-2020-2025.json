@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-published-response-endpoint-2020-2025",
+  "title": "The visible CFPB complaint-response endpoint changed over time",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "trust_identity_meaning", "firm_sector_market_power"],
+  "source_unit": "published CFPB complaint record grouped by calendar year received",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2020",
+      "denominator": {"value": 444837, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 90.7135, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 6.1845, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 2.9103, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 39.2377, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2020-01-01, date_received_max=2021-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection and coding uncertainty remain.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "Later-year response shares may reflect product, routing, publication, and coding changes rather than improved or worsened consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "c662900969b397a1c0158d3ccf2452ac13a85899ce30e6e0fc2839704d87dcaa",
+      "status": "observed"
+    },
+    {
+      "period": "2021",
+      "denominator": {"value": 496474, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 88.0713, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 8.8969, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 2.8586, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 41.0493, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2021-01-01, date_received_max=2022-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection and coding uncertainty remain.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "Later-year response shares may reflect product, routing, publication, and coding changes rather than improved or worsened consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "a9124ddbb3b27e4b83fdfb50aea8e7413ac77c528c26488868e9dd08661f19b0",
+      "status": "observed"
+    },
+    {
+      "period": "2022",
+      "denominator": {"value": 801453, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 65.1613, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 32.6624, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 2.1048, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 42.141, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2022-01-01, date_received_max=2023-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection and coding uncertainty remain.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "Later-year response shares may reflect product, routing, publication, and coding changes rather than improved or worsened consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "7ef5691222e110fafd5fa4f73279f6d3df951de97b66c3d1cf617a085e90a03b",
+      "status": "observed"
+    },
+    {
+      "period": "2023",
+      "denominator": {"value": 1293802, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 56.2267, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 42.1425, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 1.5754, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 37.7133, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2023-01-01, date_received_max=2024-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection and coding uncertainty remain.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "Later-year response shares may reflect product, routing, publication, and coding changes rather than improved or worsened consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "27ae9df7cac35016dbd8b2830da9fdab543b7888ed709da03e369dddd7fd1bb8",
+      "status": "observed"
+    },
+    {
+      "period": "2024",
+      "denominator": {"value": 2739722, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 49.0144, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 50.0616, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 0.8686, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 29.7775, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2024-01-01, date_received_max=2025-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection and coding uncertainty remain.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "Later-year response shares may reflect product, routing, publication, and coding changes rather than improved or worsened consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "e8a179e7c2ed21936d61725ce38466495d661265eb59fccca758b903ff994f8c",
+      "status": "observed"
+    },
+    {
+      "period": "2025",
+      "denominator": {"value": 5452107, "unit": "published complaint records"},
+      "measures": {
+        "explanation": {"value": 58.706, "unit": "percent of published records", "value_type": "share"},
+        "non_monetary_relief": {"value": 40.6325, "unit": "percent of published records", "value_type": "share"},
+        "monetary_relief": {"value": 0.48, "unit": "percent of published records", "value_type": "share"},
+        "narrative_present": {"value": 22.4255, "unit": "percent of published records", "value_type": "share"}
+      },
+      "method": "Official CFPB API aggregate query for date_received_min=2025-01-01, date_received_max=2026-01-01, size=0",
+      "uncertainty": "No sampling standard error estimated; published-record selection, coding, current-index timing, and the addition of an in-progress response category remain relevant uncertainty.",
+      "subgroup": "none; all published products pooled",
+      "counterinterpretation": "The 2025 shift toward explanation and away from non-monetary or monetary response categories may reflect product mix, routing, publication, coding, or index changes rather than a change in verified consumer remedies.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "retrieval_hash": "786208fcb8c3149a68fa35f7984cab994afb9019e16b59775d729d414bcd710f",
+      "status": "observed"
+    }
+  ],
+  "boundary": "This is a trend in published complaint-system records. It is not a representative consumer sample, account-denominated harm rate, verified remedy rate, trust measure, switching measure, or causal estimate."
+}

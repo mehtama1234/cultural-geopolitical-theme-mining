@@ -585,12 +585,14 @@
     {
       "id": "service",
       "evidence_check": {
-        "title": "Faster work does not mean a large jump in solved problems",
-        "finding": "In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%. The share of chats marked resolved rose by only 1.3 percentage points, while customer satisfaction did not change in a meaningful way.",
-        "meaning": "Working interpretation: measure the answer customers got, not only the speed or number of chats handled. A firm can serve more contacts without making each difficult problem much easier to fix.",
-        "limit": "The tool supported human agents and was rolled out within one company. The resolution measure and customer-satisfaction measure have limits, and this study does not test appeals, repeat complaints or whether a person could overturn a decision.",
-        "source": "https://www.nber.org/papers/w31161",
-        "location": "Brynjolfsson, Li and Raymond, Generative AI at Work, NBER Working Paper 31161; NBER Digest summary and revised paper checked 2026-09-11."
+        "title": "A quicker reply may still leave a problem open",
+        "finding": "In a study of about 5,000 customer-support agents at a US software company, an AI helper raised issues solved per hour by 13.8%, while the share of chats marked resolved rose by only 1.3 percentage points and customer satisfaction did not change meaningfully. In the CFPB complaint system, the recorded endpoint also changed over time: explanations fell from 90.7% of published complaints received in 2020 to 49.0% in 2024, while non-monetary relief rose from 6.2% to 50.1%.",
+        "meaning": "Working interpretation: response speed and administrative closure are not the same as a customer's problem being repaired. Institutional response categories need to be tracked over time, alongside the customer's ability to verify a remedy, repeat contact, switch, or leave.",
+        "counterpoint": "The CFPB annual pattern is not a clean improvement or deterioration trend: product labels, complaint routing, publication rules, complaint mix, and response coding changed across the period. Non-monetary relief may be effective, while an explanation may be appropriate.",
+        "counterpoint_source": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+        "limit": "The AI study uses one company and measures productivity, resolution marking, and satisfaction. The CFPB series uses published complaints rather than all consumers or accounts, and neither source verifies remedy adequacy, later financial security, trust, switching, or political action.",
+        "source": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+        "location": "CFPB Consumer Complaint Database annual aggregate snapshots for 2020–2024; annual trend record checked 2026-09-13. AI comparison: Brynjolfsson, Li and Raymond, NBER Working Paper 31161."
       },
       "project": "us-customer-automation-recourse",
       "title": "A quicker reply may still leave a problem open",
@@ -654,11 +656,11 @@
       "id": "work",
       "evidence_check": {
         "title": "AI use is spreading widely but remains uneven at work",
-        "finding": "A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools.",
+        "finding": "A nationally representative US worker survey finds that generative AI is used across many occupations and tasks, but in most of them fewer than half of workers use it. Workers doing similar work therefore may be using very different tools. Separate experiments find that AI access can improve productivity or reduce work time, with effects varying by worker experience and education.",
         "meaning": "Working interpretation: the first divide may be inside the same job, between workers who have access, training or permission and those who do not. Study the work rules around the tool, not only the tool itself.",
-        "counterpoint": "In a separate randomized field experiment across 66 firms, workers who used an AI tool spent about two fewer hours per week on email and less time working after hours, but researchers did not detect a change in the amount or mix of tasks.",
+        "counterpoint": "The evidence is not uniformly stratifying: a randomized task experiment found larger performance gains for lower-education participants and narrowed the measured education gap, while a field experiment across 66 firms found time savings without a detectable change in task quantity or composition.",
         "counterpoint_source": "https://www.nber.org/papers/w33795",
-        "limit": "The paper measures reported use and task exposure, not whether AI raised pay, reduced jobs or changed worker power. It is an early national measure, so later surveys may revise the picture.",
+        "limit": "The studies measure different units and outcomes: reported adoption, task performance, and time use. They do not yet show whether AI raised pay, reduced jobs, changed worker power, or altered cultural and political meaning.",
         "source": "https://www.nber.org/papers/w35677",
         "location": "Bick, Blandin, Deming and Schumacher, What Work Does Generative AI Do?, NBER Working Paper 35677, August 2026 abstract. Checked 2026-09-11."
       },
@@ -1951,6 +1953,32 @@
       "theme": "voice",
       "status": "Early reading",
       "source_record": "analysis/projects/us-consumer-discrimination-competition/source-search-2026-09-11.md"
+    },
+    {
+      "id": "defense_industrial_reciprocity",
+      "evidence_check": {
+        "title": "A defense relationship can move from buying capability toward building reciprocal industrial room",
+        "finding": "Polish official releases describe a US-linked UAS/C-UAS cooperation arrangement that allows potential buyer and seller roles, followed by a Poland-US-Estonia-Latvia agreement for planned regional Barracuda B500M production with Poland as the intended main European production center.",
+        "meaning": "Working interpretation: strategic autonomy may be pursued through reciprocal access and production networks, not only through ownership of finished equipment.",
+        "counterpoint": "Agreement-stage reciprocity may improve interoperability while leaving design authority, components, approvals, finance, and demand externally dependent.",
+        "counterpoint_source": "https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu",
+        "limit": "The current releases do not establish commissioned plants, output, delivery, local incidence, switching capacity, public reception, or bargaining leverage.",
+        "source": "https://www.gov.pl/web/obrona-narodowa/informacja-na-temat-podpisanego-porozumienia-z-usa",
+        "location": "Polish Ministry of National Defence and Ministry of State Assets announcements, checked 2026-09-14."
+      },
+      "project": "ai-work-control",
+      "title": "A defense relationship can move from buying capability toward building reciprocal industrial room",
+      "summary": "Procurement can be followed by reciprocal access and planned regional co-production without yet proving autonomy or leverage.",
+      "question": "When does buying allied capability become the ability to produce, supply, or refuse?",
+      "limit": "The current evidence stops at official agreement-stage response; realization and external behavior remain open.",
+      "subthemes": [
+        "Reciprocal access",
+        "Regional co-production",
+        "Industrial autonomy"
+      ],
+      "theme": "voice",
+      "status": "Developing",
+      "source_record": "analysis/projects/ai-work-control/findings/ai-work-control-042.md"
     }
   ],
   "reading_paths": [
@@ -3870,6 +3898,87 @@
       "relation": "Being heard or ignored at work can shape how a person judges power and rules outside work",
       "limit": "The current evidence does not show the same worker's workplace voice, wider trust and political action.",
       "type": "open"
+    },
+    {
+      "id": "link-168",
+      "from": "transfer_design",
+      "to": "politics",
+      "relation": "A salient public transfer can create electoral reward or punishment separately from its consumption effect",
+      "limit": "The strongest current mechanism evidence is an Italian comparison; US receipt, attribution, trust, and vote must be measured in a valid same-person or same-case design.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md"
+    },
+    {
+      "id": "link-169",
+      "from": "economic_voting",
+      "to": "money",
+      "relation": "Electoral response can distinguish lost purchasing power from price growth and from the household's actual budget response",
+      "limit": "The NBER county study does not identify the same household's bill, adaptation, attribution, or vote; county and respondent evidence remain separate.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md"
+    },
+    {
+      "id": "link-170",
+      "from": "work",
+      "to": "care",
+      "relation": "Monthly work and resource movement can coexist with a separate care-time and health-cost burden",
+      "limit": "SIPP, ATUS, and MEPS measure complementary stages but do not follow the same person through a dated care or health event, recovery, trust, or action.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-027.md"
+    },
+    {
+      "id": "link-171",
+      "from": "place",
+      "to": "politics",
+      "relation": "Population-change context can coincide with different federal trust while civic action and reported voting remain comparatively stable",
+      "limit": "The CES county context does not identify the respondent's business/service exposure, belonging, attribution, or a causal place-to-political pathway; its frame is separate from the capacity cells.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-local-business-place/findings/us-local-business-place-004.md"
+    },
+    {
+      "id": "link-172",
+      "from": "place",
+      "to": "politics",
+      "relation": "The same-county capacity and mobility cells carry non-monotonic trust and civic-action patterns rather than one political response",
+      "limit": "The CES join does not observe respondent service use, local meaning, attribution, or causal exposure; the four cells are sampling context, not political causes.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-local-business-place/findings/us-local-business-place-005.md"
+    },
+    {
+      "id": "link-173",
+      "from": "politics",
+      "to": "place",
+      "relation": "Party identity conditions how the same place-capacity context appears in trust and civic-action measures",
+      "limit": "The subgroup comparison is descriptive and does not identify whether identity, place experience, information, selection, or another factor produced the difference.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-local-business-place/findings/us-local-business-place-006.md"
+    },
+    {
+      "id": "link-174",
+      "from": "utility_shutoff_timing",
+      "to": "benefit_cliff_work_choice",
+      "relation": "A utility-payment or assistance screen can precede a different next-month work surface without identifying a work-loss cause",
+      "limit": "The SIPP transition observes reported monthly utility/assistance status and numeric earnings or hours change, not a dated bill, provider action, desired hours, care substitution, recovery, or causal effect.",
+      "type": "comparison",
+      "source": "../analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md"
+    },
+    {
+      "id": "link-175",
+      "from": "defense_industrial_reciprocity",
+      "to": "politics",
+      "relation": "A buyer-side defense relationship can become a political claim about reciprocal access and regional industrial autonomy",
+      "limit": "The official agreements show institutional intent, not realized production, public reception, supplier replaceability, bargaining leverage, or changed external behavior.",
+      "type": "comparison",
+      "source": "../analysis/projects/ai-work-control/findings/ai-work-control-042.md"
+    },
+    {
+      "id": "link-176",
+      "from": "defense_industrial_reciprocity",
+      "to": "work",
+      "relation": "Regional co-production can turn an alliance purchase into a claim about domestic industrial work and technical skill",
+      "limit": "The agreement does not establish plant commissioning, jobs, wages, skills transfer, production, or who controls critical inputs and design authority.",
+      "type": "comparison",
+      "source": "../analysis/projects/ai-work-control/findings/ai-work-control-042.md"
     }
   ]
 }

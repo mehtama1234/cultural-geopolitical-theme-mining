@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-credit-card-market-2025",
+  "title": "Credit-card cost, access, rewards, and dispute exposure differ across the US market",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback"],
+  "source_unit": "US credit-card market, issuer account, cardholder credit-tier, and dispute measures",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; credit-card market snapshot",
+      "denominator": {"value": 1, "unit": "national market report snapshot; measures use metric-specific account, balance, purchase-volume, or issuer universes", "value_type": "market_snapshot"},
+      "measures": {
+        "credit_card_balances": {"value": 1200000000000, "unit": "US dollars; consumer credit-card balances exceeded $1.2 trillion", "value_type": "reported_market_total"},
+        "average_balance_per_cardholder": {"value": 5300, "unit": "US dollars per cardholder; approximate average monthly balance", "value_type": "reported_average"},
+        "average_apr": {"value": 25.2, "unit": "percent annual percentage rate", "value_type": "reported_average"},
+        "interest_assessed": {"value": 160000000000, "unit": "US dollars in interest charges assessed", "value_type": "reported_market_total"},
+        "fees_assessed": {"value": 31300000000, "unit": "US dollars in fees assessed", "value_type": "reported_market_total"}
+      },
+      "method": "CFPB 2025 Consumer Credit Card Market Report using multiple data sources as of the end of 2024, including de-identified credit records and issuer-reported data.",
+      "uncertainty": "Market totals and averages use different account, issuer, balance, and reporting universes. The report distinguishes interest or fees assessed from amounts necessarily paid; nominal totals are not household welfare measures.",
+      "subgroup": "Market-wide 2024 measures; the report separately conditions many measures on credit-score tier and product type.",
+      "counterinterpretation": "Higher balances and charges can reflect increased cardholding, inflation, credit demand, or account composition as well as greater household pressure; aggregate totals do not identify who ultimately bears a merchant fee.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/",
+      "retrieval_hash": "sha256:b5b1d4b2a62b8afe1283428504f16cb9421aae182d1ab9c25d1d37ad4f364949",
+      "status": "reported"
+    },
+    {
+      "period": "2024; purchase volume, credit tier, and promotional pricing",
+      "denominator": {"value": 3600000000000, "unit": "US dollars in 2024 purchase volume for CFPB Y-14+ issuer universe", "value_type": "reported_market_total"},
+      "measures": {
+        "purchase_volume_growth": {"value": 5, "unit": "percent annual growth in credit-card spending", "value_type": "reported_growth"},
+        "prime_plus_growth_share": {"value": "virtually all purchase-volume growth", "unit": "reported credit-tier pattern", "value_type": "reported_pattern"},
+        "introductory_apr_purchase_volume": {"value": 899000000000, "unit": "US dollars in purchase volume on cards with a zero-percent introductory APR promotion", "value_type": "reported_market_total"},
+        "introductory_apr_balances": {"value": 352000000000, "unit": "US dollars in year-end balances on cards with an introductory promotion", "value_type": "reported_market_total"},
+        "introductory_share": {"value": 33, "unit": "approximate percent of purchase volume and outstanding balances on introductory promotional-rate cards", "value_type": "reported_share"}
+      },
+      "method": "CFPB analysis of issuer and credit-record data, reported by credit-score tier and promotional-rate product.",
+      "uncertainty": "The report states that purchase volume and balance measures have different universes and that promotional rates temporarily reduce revolving-credit cost; later balances can be higher for promotional accounts. The tier comparison is not a causal treatment effect.",
+      "subgroup": "Prime-plus and lower-score cardholders; cards with zero-percent introductory APR promotions versus other cards.",
+      "counterinterpretation": "Prime-plus growth may reflect account mix, credit access, or spending capacity rather than a reward-driven transfer; promotional borrowing can smooth a shock or defer a larger future balance.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/",
+      "retrieval_hash": "sha256:b5b1d4b2a62b8afe1283428504f16cb9421aae182d1ab9c25d1d37ad4f364949",
+      "status": "reported"
+    },
+    {
+      "period": "2024; credit-card transaction disputes",
+      "denominator": {"value": 9800000000, "unit": "US dollars in disputed credit-card charges", "value_type": "reported_market_total"},
+      "measures": {
+        "disputed_charges": {"value": 9800000000, "unit": "US dollars in disputed charges", "value_type": "reported_market_total"},
+        "recurring_transaction_share": {"value": 40, "unit": "percent of disputes involving cancelled recurring transactions such as subscriptions, memberships, and utility bills", "value_type": "reported_share"},
+        "below_prime_balance_concentration": {"value": 56, "unit": "percent of below-prime balances held by issuers with less than $100 billion in assets", "value_type": "reported_share"}
+      },
+      "method": "CFPB report analysis of issuer/credit-record and transaction-dispute data; dispute categories are administrative market measures.",
+      "uncertainty": "A dispute is not equivalent to an erroneous charge, successful refund, or verified consumer harm. The below-prime issuer concentration is a balance distribution, not a measure of approval, price, or remedy quality.",
+      "subgroup": "Cardholders with below-prime credit scores and consumers disputing recurring transactions; issuer-size categories.",
+      "counterinterpretation": "Recurring-transaction disputes may reflect ordinary cancellation friction, merchant billing systems, or consumer confusion; the report does not make this share a measure of platform wrongdoing or household loss.",
+      "source_url": "https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market-2025/",
+      "retrieval_hash": "sha256:b5b1d4b2a62b8afe1283428504f16cb9421aae182d1ab9c25d1d37ad4f364949",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_consumer-credit-card-market-report_2025.pdf", "claim": "Official CFPB December 2025 report PDF.", "status": "primary"},
+    {"source_url": "https://www.nber.org/papers/w35067", "claim": "Merchant-level modeled payment-incidence comparator.", "status": "related-evidence"}
+  ],
+  "boundary": "This record describes CFPB market, account, credit-tier, and dispute measures as of 2024. It does not establish a same-household burden, causal effect of rewards or APRs, successful dispute remedy, or the size of the NBER-modeled merchant transfer. Market totals, balances, fees, and disputed charges retain separate universes and meanings."
+}

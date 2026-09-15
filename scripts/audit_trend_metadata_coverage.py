@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""Report provenance and context-field coverage across trend records."""
+
+from __future__ import annotations
+
+import json
+from collections import Counter
+from datetime import date
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "analysis/US-TREND-METADATA-COVERAGE-AUDIT_V1.md"
+SCHEMA = json.loads((ROOT / "manifests/us-trend-observation-schema-v1.json").read_text())
+records = [json.loads(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "analysis/records").glob("*.json"))]
+
+required_record = SCHEMA["required_record_fields"]
+required_observation = SCHEMA["required_observation_fields"]
+record_field_counts = Counter()
+observation_field_counts = Counter()
+status_counts = Counter()
+source_urls = set()
+geographies = Counter()
+source_units = Counter()
+missing_record_fields = Counter()
+missing_observation_fields = Counter()
+observation_count = 0
+
+for record in records:
+    geographies[record.get("geography", "<missing>")] += 1
+    source_units[record.get("source_unit", "<missing>")] += 1
+    for field in required_record + ["related_sources", "retrieval_hash", "reproduction_audit"]:
+        if field in record and record[field] not in (None, "", []):
+            record_field_counts[field] += 1
+        else:
+            missing_record_fields[field] += 1
+    for observation in record.get("observations", []):
+        observation_count += 1
+        status_counts[observation.get("status", "<missing>")] += 1
+        url = observation.get("source_url")
+        if url:
+            source_urls.add(url)
+        for field in required_observation + ["comparison_source_url", "universe_note"]:
+            if field in observation and observation[field] not in (None, "", []):
+                observation_field_counts[field] += 1
+            else:
+                missing_observation_fields[field] += 1
+
+def pct(n: int, d: int) -> str:
+    return f"{(100 * n / d):.1f}%" if d else "n/a"
+
+lines = [
+    "# Trend-record metadata coverage audit v1",
+    "",
+    f"**Checked:** {date.today().isoformat()}  ",
+    "**Status:** control report; not a substantive finding",
+    "",
+    "This audit distinguishes the fields required for promotion from useful",
+    "context fields that are not present in every record. A passing trend-record",
+    "validator proves structural validity; this report shows where provenance",
+    "and contextual depth are stronger or thinner across the atlas.",
+    "",
+    f"- Trend records: **{len(records)}**",
+    f"- Observations: **{observation_count}**",
+    f"- Distinct observation source URLs: **{len(source_urls)}**",
+    "",
+    "## Required-field coverage",
+    "",
+    "| Level | Field | Present | Coverage |",
+    "|---|---|---:|---:|",
+]
+for field in required_record:
+    n = record_field_counts[field]
+    lines.append(f"| record | `{field}` | {n} | {pct(n, len(records))} |")
+for field in required_observation:
+    n = observation_field_counts[field]
+    lines.append(f"| observation | `{field}` | {n} | {pct(n, observation_count)} |")
+
+lines += [
+    "",
+    "## Context-field coverage",
+    "",
+    "These fields add interpretive depth but are not required for every record.",
+    "Missing context is retained as an acquisition or documentation target; it",
+    "is not converted into a zero or a stronger causal claim.",
+    "",
+    "| Level | Field | Present | Coverage |",
+    "|---|---|---:|---:|",
+]
+for field in ["related_sources", "retrieval_hash", "reproduction_audit"]:
+    n = record_field_counts[field]
+    lines.append(f"| record | `{field}` | {n} | {pct(n, len(records))} |")
+for field in ["comparison_source_url", "universe_note"]:
+    n = observation_field_counts[field]
+    lines.append(f"| observation | `{field}` | {n} | {pct(n, observation_count)} |")
+
+lines += [
+    "",
+    "## Observation status",
+    "",
+    "| Status | Observations |",
+    "|---|---:|",
+]
+for status, count in sorted(status_counts.items()):
+    lines.append(f"| `{status}` | {count} |")
+
+lines += [
+    "",
+    "## Interpretation and next control",
+    "",
+    f"All {observation_count} observations are expected to carry the required",
+    "period, denominator, measures, method, uncertainty, subgroup,",
+    "counterinterpretation, source URL, and retrieval hash fields. Record-level",
+    "related sources and reproduction audits are uneven by design: older or",
+    "published-table records may have a sufficient observation hash without a",
+    "separate local reproduction audit. Those records remain valid but should be",
+    "prioritized when a new source vintage or replication pass is available.",
+    "",
+    "The report does not assess the truth of a source claim, causal validity, or",
+    "comparability across records. Those judgments remain in the record boundary,",
+    "method, uncertainty, subgroup, and counterinterpretation fields.",
+    "",
+    "Generated by `scripts/audit_trend_metadata_coverage.py`.",
+]
+OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+print(f"AUDITED {len(records)} records and {observation_count} observations; {len(source_urls)} source URLs")

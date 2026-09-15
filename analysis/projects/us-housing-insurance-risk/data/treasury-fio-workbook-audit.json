@@ -1,0 +1,108 @@
+{
+  "format": "treasury-fio-workbook-audit-v1",
+  "input": "treasury-fio-homeowners-insurance-2018-2022.xlsx",
+  "sheet": "Supporting Underlying Metrics",
+  "headers": [
+    "ZIP Code",
+    "Year",
+    "Policy Decile Grouping",
+    "Claim Frequency",
+    "Claim Severity",
+    "Loss Ratio",
+    "Premiums Per Policy",
+    "Nonrenewal Rate",
+    "Nonpayment Cancellation Rate",
+    "Other than Nonpayment Cancellation Rate"
+  ],
+  "data_rows": 127965,
+  "skipped_rows_missing_zip_or_year": 0,
+  "years": {
+    "2018": 25593,
+    "2019": 25593,
+    "2020": 25593,
+    "2021": 25593,
+    "2022": 25593
+  },
+  "unique_zip_codes_by_year": {
+    "2018": 25593,
+    "2019": 25593,
+    "2020": 25593,
+    "2021": 25593,
+    "2022": 25593
+  },
+  "policy_count_decile_rows_by_year": {
+    "2018": {
+      "1": 2892,
+      "10": 2272,
+      "2": 2620,
+      "3": 2606,
+      "4": 2552,
+      "5": 2543,
+      "6": 2506,
+      "7": 2532,
+      "8": 2532,
+      "9": 2538
+    },
+    "2019": {
+      "1": 2732,
+      "10": 2420,
+      "2": 2609,
+      "3": 2603,
+      "4": 2543,
+      "5": 2554,
+      "6": 2520,
+      "7": 2506,
+      "8": 2559,
+      "9": 2547
+    },
+    "2020": {
+      "1": 2511,
+      "10": 2582,
+      "2": 2591,
+      "3": 2598,
+      "4": 2518,
+      "5": 2569,
+      "6": 2568,
+      "7": 2521,
+      "8": 2571,
+      "9": 2564
+    },
+    "2021": {
+      "1": 2294,
+      "10": 2737,
+      "2": 2539,
+      "3": 2544,
+      "4": 2577,
+      "5": 2571,
+      "6": 2603,
+      "7": 2602,
+      "8": 2562,
+      "9": 2564
+    },
+    "2022": {
+      "1": 2208,
+      "10": 2788,
+      "2": 2516,
+      "3": 2492,
+      "4": 2613,
+      "5": 2567,
+      "6": 2616,
+      "7": 2630,
+      "8": 2572,
+      "9": 2591
+    }
+  },
+  "nonnull_cells_by_field": {
+    "ZIP Code": 127965,
+    "Year": 127965,
+    "Policy Decile Grouping": 127965,
+    "Claim Frequency": 127965,
+    "Claim Severity": 127965,
+    "Loss Ratio": 127965,
+    "Premiums Per Policy": 127965,
+    "Nonrenewal Rate": 127965,
+    "Nonpayment Cancellation Rate": 127965,
+    "Other than Nonpayment Cancellation Rate": 127965
+  },
+  "interpretive_note": "Policy Decile Grouping is a relative grouping by number of policies in a ZIP code. It is not the climate-risk quintile used in Treasury's headline premium and nonrenewal comparisons."
+}

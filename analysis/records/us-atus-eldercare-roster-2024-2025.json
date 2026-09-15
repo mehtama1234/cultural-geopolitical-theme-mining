@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-eldercare-roster-2024-2025",
+  "title": "Eldercare providers commonly link to non-household recipients, but annual samples cannot show burden or displacement",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "ATUS respondent age 15+ with at least one eldercare-roster record and final respondent weight",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; provider respondents with at least one listed recipient",
+      "denominator": {"value": 1319, "unit": "provider respondents with 1,738 eldercare-roster records"},
+      "measures": {
+        "listed_recipients_per_provider": {"value": 1.3263, "unit": "weighted mean listed recipient records per provider respondent", "value_type": "estimate"},
+        "provider_with_household_recipient": {"value": 22.7081, "unit": "weighted percent of provider respondents", "value_type": "share"},
+        "provider_with_nonhousehold_recipient": {"value": 79.0242, "unit": "weighted percent of provider respondents", "value_type": "share"}
+      },
+      "method": "Eldercare roster records linked to the 2024 ATUS respondent/activity frame by TUCASEID; provider-level indicators weighted by respondent final weight. Recipient records are not independently weighted.",
+      "uncertainty": "Descriptive weighted annual estimate; no replicate-weight standard errors are reproduced for the roster indicators. Roster reporting and recipient multiplicity remain relevant limits.",
+      "subgroup": "ATUS respondents with at least one eldercare-roster record in 2024.",
+      "counterinterpretation": "A listed non-household recipient does not measure distance, care hours, burden, relationship quality, or whether support was shared with other caregivers.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2024.htm",
+      "retrieval_hash": "sha256:0e9a9b0061ab0aafa763c23d3a64f7487ae17d0a4594e6445c0f79b8ce74e085; sha256:25e070308c103946b7e1f7368526ca494373e35034f75cbdfa8c21c82cafd4e2; sha256:b9d4a06482f6ac3a248fee87740537df13b9129ceb799f0d098fb27886153d2a; sha256:2460aad355be543c57069ccc8b15f189e6138828c4eb5cc0899a9aca3d5d1f98; artifact:sha256:dfcb3cd93b2257ea7d96a9e3d3743788ed9aa612d86d737745b76fd90d23950e",
+      "status": "compared"
+    },
+    {
+      "period": "2025; provider respondents with at least one listed recipient",
+      "denominator": {"value": 1016, "unit": "provider respondents with 1,429 eldercare-roster records"},
+      "measures": {
+        "listed_recipients_per_provider": {"value": 1.4338, "unit": "weighted mean listed recipient records per provider respondent", "value_type": "estimate"},
+        "provider_with_household_recipient": {"value": 21.2877, "unit": "weighted percent of provider respondents", "value_type": "share"},
+        "provider_with_nonhousehold_recipient": {"value": 79.9918, "unit": "weighted percent of provider respondents", "value_type": "share"}
+      },
+      "method": "Same TUCASEID linkage and respondent-weighted provider indicators as the 2024 observation, applied to the 2025 ATUS files.",
+      "uncertainty": "Descriptive weighted annual comparison; 2024 and 2025 are separate annual samples, not the same respondents, and no roster-specific replicate-weight standard errors are reproduced.",
+      "subgroup": "ATUS respondents with at least one eldercare-roster record in 2025.",
+      "counterinterpretation": "The small annual movement in listed-recipient multiplicity or recipient type may reflect sample composition, reporting, or roster structure; it does not establish a trend in care burden or work displacement.",
+      "source_url": "https://www.bls.gov/tus/data/datafiles-2025.htm",
+      "retrieval_hash": "sha256:77566d2864f1b96412a46ceeee9ea53709bc191b092f3573af04c17b2d409873; sha256:a45c4edf1b7e0cd5ecf622bc5a57e4fe6fe27281add92b26c29605cfac193359; sha256:664314e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; sha256:f7c024e9f0c7373534f10bb1450a1dfc2b50d04c7932ecfea090ff4a1c65bca3; artifact:sha256:d4ae219ecda174be926a233294b60914ab9a7b7515bf17a1edd1ccd4efc3e253",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This is a repeated annual population comparison, not a panel of the same providers or recipients. It separates household and non-household recipient links but does not measure care intensity, travel, paid or unpaid substitution, schedule control, recipient outcomes, recovery, trust, political action, or causality. Recipient rows are not independently weighted."
+}

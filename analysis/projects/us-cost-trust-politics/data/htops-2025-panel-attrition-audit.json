@@ -1,0 +1,131 @@
+{
+  "format": "htops-panel-attrition-audit-v1",
+  "baseline": "April 15\u201329, 2025",
+  "followup": "June 16\u201325, 2025",
+  "baseline_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+  "followup_puf_sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+  "linked_ids": 6564,
+  "cells": {
+    "all": {
+      "baseline_unweighted_n": 8850,
+      "linked_unweighted_n": 6564,
+      "unweighted_retention_percent": 74.2,
+      "baseline_weighted_retention_percent": 72.4
+    },
+    "income_under_50k": {
+      "baseline_unweighted_n": 2147,
+      "linked_unweighted_n": 1492,
+      "unweighted_retention_percent": 69.5,
+      "baseline_weighted_retention_percent": 68.8
+    },
+    "income_100k_plus": {
+      "baseline_unweighted_n": 4012,
+      "linked_unweighted_n": 3077,
+      "unweighted_retention_percent": 76.7,
+      "baseline_weighted_retention_percent": 75.5
+    },
+    "female": {
+      "baseline_unweighted_n": 4899,
+      "linked_unweighted_n": 3637,
+      "unweighted_retention_percent": 74.2,
+      "baseline_weighted_retention_percent": 72.2
+    },
+    "male": {
+      "baseline_unweighted_n": 3951,
+      "linked_unweighted_n": 2927,
+      "unweighted_retention_percent": 74.1,
+      "baseline_weighted_retention_percent": 72.6
+    },
+    "children_in_household": {
+      "baseline_unweighted_n": 2766,
+      "linked_unweighted_n": 2012,
+      "unweighted_retention_percent": 72.7,
+      "baseline_weighted_retention_percent": 70.4
+    },
+    "no_children_in_household": {
+      "baseline_unweighted_n": 6084,
+      "linked_unweighted_n": 4552,
+      "unweighted_retention_percent": 74.8,
+      "baseline_weighted_retention_percent": 73.6
+    },
+    "food_insufficient": {
+      "baseline_unweighted_n": 324,
+      "linked_unweighted_n": 204,
+      "unweighted_retention_percent": 63.0,
+      "baseline_weighted_retention_percent": 70.1
+    },
+    "food_sufficient_or_preferred": {
+      "baseline_unweighted_n": 8511,
+      "linked_unweighted_n": 6350,
+      "unweighted_retention_percent": 74.6,
+      "baseline_weighted_retention_percent": 72.6
+    },
+    "expense_difficulty": {
+      "baseline_unweighted_n": 3657,
+      "linked_unweighted_n": 2589,
+      "unweighted_retention_percent": 70.8,
+      "baseline_weighted_retention_percent": 70.5
+    },
+    "expense_not_difficult": {
+      "baseline_unweighted_n": 5179,
+      "linked_unweighted_n": 3965,
+      "unweighted_retention_percent": 76.6,
+      "baseline_weighted_retention_percent": 74.4
+    },
+    "census_division_1": {
+      "baseline_unweighted_n": 740,
+      "linked_unweighted_n": 541,
+      "unweighted_retention_percent": 73.1,
+      "baseline_weighted_retention_percent": 69.2
+    },
+    "census_division_2": {
+      "baseline_unweighted_n": 1084,
+      "linked_unweighted_n": 808,
+      "unweighted_retention_percent": 74.5,
+      "baseline_weighted_retention_percent": 74.9
+    },
+    "census_division_3": {
+      "baseline_unweighted_n": 1245,
+      "linked_unweighted_n": 929,
+      "unweighted_retention_percent": 74.6,
+      "baseline_weighted_retention_percent": 71.7
+    },
+    "census_division_4": {
+      "baseline_unweighted_n": 593,
+      "linked_unweighted_n": 460,
+      "unweighted_retention_percent": 77.6,
+      "baseline_weighted_retention_percent": 77.9
+    },
+    "census_division_5": {
+      "baseline_unweighted_n": 2089,
+      "linked_unweighted_n": 1542,
+      "unweighted_retention_percent": 73.8,
+      "baseline_weighted_retention_percent": 70.4
+    },
+    "census_division_6": {
+      "baseline_unweighted_n": 402,
+      "linked_unweighted_n": 289,
+      "unweighted_retention_percent": 71.9,
+      "baseline_weighted_retention_percent": 70.2
+    },
+    "census_division_7": {
+      "baseline_unweighted_n": 1076,
+      "linked_unweighted_n": 783,
+      "unweighted_retention_percent": 72.8,
+      "baseline_weighted_retention_percent": 70.0
+    },
+    "census_division_8": {
+      "baseline_unweighted_n": 559,
+      "linked_unweighted_n": 421,
+      "unweighted_retention_percent": 75.3,
+      "baseline_weighted_retention_percent": 73.8
+    },
+    "census_division_9": {
+      "baseline_unweighted_n": 1062,
+      "linked_unweighted_n": 791,
+      "unweighted_retention_percent": 74.5,
+      "baseline_weighted_retention_percent": 74.5
+    }
+  },
+  "boundary": "Retention is descriptive. Baseline person weights are not documented as attrition-adjusted longitudinal weights; weighted retention is a diagnostic, not a population panel estimate."
+}

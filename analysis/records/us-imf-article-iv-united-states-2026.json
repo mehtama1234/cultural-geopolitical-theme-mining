@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-imf-article-iv-united-states-2026",
+  "title": "US macro resilience coexists with fiscal, external, and financial-stability tail risks",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "public_systems_feedback", "geopolitical_state_consequences", "trust_identity_meaning", "work_control_bargaining"],
+  "source_unit": "IMF 2026 Article IV consultation for the United States; staff estimates, projections, and Executive Board assessment",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; IMF retrospective macroeconomic assessment",
+      "denominator": {"value": 1, "unit": "IMF Article IV country consultation and selected-indicator framework", "value_type": "study_artifact"},
+      "measures": {
+        "real_gdp_growth_q4_q4": {"value": 2.0, "unit": "percent, 2025 Q4/Q4", "value_type": "reported_estimate"},
+        "federal_fiscal_balance": {"value": -5.9, "unit": "percent of GDP, fiscal year 2025", "value_type": "reported_estimate"},
+        "general_government_gross_debt": {"value": 123.9, "unit": "percent of GDP, 2025", "value_type": "reported_estimate"},
+        "current_account_balance": {"value": -3.7, "unit": "percent of GDP, 2025", "value_type": "reported_estimate"},
+        "unemployment_rate_q4": {"value": 4.5, "unit": "percent, Q4 2025 average", "value_type": "reported_estimate"},
+        "interpretive_assessment": {"value": "strong broad-based productivity and policy adaptation alongside elevated debt, current-account deficit, tariff uncertainty, and slower employment growth", "unit": "IMF staff and Board assessment", "value_type": "qualitative_synthesis"}
+      },
+      "method": "IMF bilateral Article IV consultation using national accounts, labor, fiscal, external, financial, and policy information; report completed March 17 and discussed by the Executive Board April 1, 2026.",
+      "uncertainty": "The figures are IMF staff estimates or source-based assessments, not a household survey or firm-level causal design. Q4/Q4 growth, fiscal-year balances, general-government debt, and current-account measures have distinct periods and definitions; the government shutdown and policy changes complicate interpretation.",
+      "subgroup": "US macroeconomic, fiscal, labor, external, and financial-system aggregates; no household or worker subgroup estimate is supplied in this record.",
+      "counterinterpretation": "Strong aggregate growth and productivity can coexist with uneven household experience, slower employment growth, or higher financial vulnerability. A high debt ratio is a state-finance risk indicator, not a direct measure of household debt or political legitimacy.",
+      "source_url": "https://www.imf.org/en/news/articles/2026/04/01/pr-26102-usa-imf-executive-board-concludes-2026-article-iv-consult",
+      "retrieval_hash": "metadata:sha256:96eac1f638aba1f754d002efae82765f1b23cd41aeca7e91279c68cf661122dc",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2031; IMF Article IV baseline projections",
+      "denominator": {"value": 6, "unit": "projection years 2026-2031 in the selected-indicator table", "value_type": "projection_years"},
+      "measures": {
+        "real_gdp_growth_q4_q4": {"value": "2.4% in 2026; 2.1% in 2027-2028; 1.8% in 2029-2031", "unit": "percent annual Q4/Q4 growth", "value_type": "projection"},
+        "unemployment_rate_q4": {"value": "4.3% in 2026; 4.1% in 2027; 3.9% in 2028-2031", "unit": "percent Q4 average", "value_type": "projection"},
+        "core_pce_inflation_q4_q4": {"value": "2.6% in 2026; 2.0% in 2027-2031", "unit": "percent", "value_type": "projection"},
+        "general_government_gross_debt": {"value": "125.8% of GDP in 2026 rising to 141.5% in 2031", "unit": "percent of GDP", "value_type": "projection"},
+        "policy_risks": {"value": "tariff passthrough, energy prices, fiscal imbalance, short-maturity debt, external rebalancing, nonbank visibility, and financial-regulatory change", "unit": "IMF identified risk categories", "value_type": "qualitative_risk_inventory"}
+      },
+      "method": "IMF staff baseline projection and Executive Board policy assessment in the 2026 United States Article IV report; projections use information available at the consultation date.",
+      "uncertainty": "Projections are conditional scenarios rather than realized outcomes. They are sensitive to tariffs, energy prices, fiscal legislation, immigration flows, monetary policy, financial conditions, and geopolitical developments; revisions should be preserved as later vintages arrive.",
+      "subgroup": "US aggregate macroeconomic and public-finance outlook; distributional effects, household incidence, and state-level variation are not estimated here.",
+      "counterinterpretation": "A projected unemployment rate near 4% does not imply equal job access or worker control, and projected debt growth does not identify which programs, households, or generations bear adjustment costs.",
+      "source_url": "https://www.imf.org/en/publications/cr/issues/2026/04/01/united-states-2026-article-iv-consultation-press-release-staff-report-and-statement-by-the-575120",
+      "retrieval_hash": "metadata:sha256:96eac1f638aba1f754d002efae82765f1b23cd41aeca7e91279c68cf661122dc",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.5089/9798229042826.002", "claim": "IMF eLibrary citation and publication metadata for United States Country Report No. 2026/076.", "status": "official-publication"},
+    {"source_url": "https://www.imf.org/en/publications/weo/issues/2026/04/14/world-economic-outlook-april-2026", "claim": "IMF WEO April 2026 supplies the global defense, conflict, tariff, and fiscal trade-off comparison.", "status": "official-companion"},
+    {"source_url": "https://www.bea.gov/", "claim": "BEA is among the source agencies underlying selected US national-account indicators.", "status": "underlying-statistical-source"}
+  ],
+  "boundary": "This record adds an IMF country-surveillance layer to the US atlas. It distinguishes retrospective aggregate conditions from conditional projections and policy assessment. It does not estimate household welfare, worker control, cultural meaning, political response, firm-level incidence, or geopolitical leverage; those arrows require compatible micro, institutional, and state-response evidence."
+}
