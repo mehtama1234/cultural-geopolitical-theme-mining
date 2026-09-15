@@ -87,6 +87,14 @@ smaller and less precise. The direction is similar in both coverage groups,
 but this remains descriptive: insurance status does not identify plan
 adequacy, a bill, or a care decision.
 
+The health-condition control was also applied to the post-election policy
+endpoint, with 4,602 valid cases. Among respondents with no condition
+mentioned, support for increased government help was 57.6% in the not-at-all-
+concerned row and 57.9% in the extremely concerned row. Among respondents
+mentioning a condition, the corresponding shares were 58.4% and 72.1%.
+The latter extreme-concern cell is small and imprecise; it is evidence for
+stratified testing, not proof that a health need caused policy demand.
+
 ### Health-condition conditioning
 
 Controlling the trust table by the reported health-related condition indicator
@@ -133,4 +141,4 @@ health-cost-to-legitimacy chain.
 - [Health-condition-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241574a&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 - [Income-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 
-**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`; condition-conditioned trust query HTML `sha256:b4e6a92dde5d17752d7a01b54cf3b50607a26255e27a7c95cc7c8113f46d500f`; income-conditioned trust query HTML `sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11`.
+**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`; condition-conditioned trust query HTML `sha256:b4e6a92dde5d17752d7a01b54cf3b50607a26255e27a7c95cc7c8113f46d500f`; income-conditioned trust query HTML `sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11`; condition-conditioned policy query HTML `sha256:618d6b7ae7671e05300a822ed42250b704b29831f4849ce9bd65bd49a5a29c9c`.

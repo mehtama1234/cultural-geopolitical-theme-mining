@@ -78,6 +78,18 @@
       "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a",
       "retrieval_hash": "sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11",
       "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; health-care payment concern × health-insurance help, controlled by health-related condition",
+      "denominator": {"value": 4602, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"no_condition_not_at_all_increase_help": {"value": 57.6, "unit": "percent within condition and concern row", "value_type": "row_share"}, "no_condition_extremely_increase_help": {"value": 57.9, "unit": "percent within condition and concern row", "value_type": "row_share"}, "condition_mentioned_not_at_all_increase_help": {"value": 58.4, "unit": "percent within condition and concern row", "value_type": "row_share"}, "condition_mentioned_extremely_increase_help": {"value": 72.1, "unit": "percent within condition and concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage controlled cross-tab; row V241573, column V242351, control V241574a, post-election panel weight V240107b, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Temporal descriptive association; the condition-mentioned extreme-concern cell is small and imprecise. Policy preference is not remedy receipt or direct political action.",
+      "subgroup": "Health-cost-concern rows within respondents with or without a reported health-related condition.",
+      "counterinterpretation": "Health status, party identity, income, insurance, and prior policy views may jointly shape concern and policy demand; the larger gradient is not causal evidence.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241574a&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
+      "retrieval_hash": "sha256:618d6b7ae7671e05300a822ed42250b704b29831f4849ce9bd65bd49a5a29c9c",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
