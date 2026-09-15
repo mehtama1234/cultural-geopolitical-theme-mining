@@ -169,7 +169,7 @@ and 19.2% none of these. Official contact was 26.3% for respondents selecting
 federal-government attribution and 21.5% for those selecting bad-luck
 attribution; protest was 11.1% versus 5.4%.
 
-This cross-check points in the same directional direction as 2020 for
+This cross-check points in the same direction as 2020 for
 government-attribution contact and protest, but it is not a clean replication:
 the 2018 categories permit multiple selections, while 2020 reports one
 attribution category, and the question wording/context differ. The two years
