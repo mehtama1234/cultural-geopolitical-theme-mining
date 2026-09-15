@@ -119,6 +119,12 @@ not supply a dated bill, care decision, remedy effort, or episode attribution.
 It is therefore a promising concern-to-judgment layer, not yet a completed
 MEPS/SHED-to-legitimacy join.
 
+The [ANES health-cost concern, trust, and policy-demand layer](anes-health-cost-concern-trust-policy-layer-v1.md)
+now executes the first two SDA tests. Health-care payment concern is compared
+with federal-government trust and with post-election demand for government help
+paying health-insurance costs. These are same-survey descriptive results, not
+evidence that a medical bill caused distrust or political action.
+
 The [MEPS event payment-band screen](meps-2024-event-payment-bands-v1.md)
 adds a payment-stratified counterexample: self/family payment and later
 bill/health/work context do not form a monotonic burden scale within the first

@@ -11,7 +11,7 @@ or proof that every source item was read in full.
 - Registered source entries: **114**
 - Entries with a domain reference anywhere in analysis: **114**
 - Entries with a domain reference outside source-search packets: **114**
-- Entries with an exact source URL in a machine record: **68**
+- Entries with an exact source URL in a machine record: **69**
 - Entries with an exact registered-URL reference: **106**
 - Registered entries with no analysis-domain hit: **0**
 
@@ -77,7 +77,7 @@ or proof that every source item was read in full.
 | [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 17 | 440 | 167 | 0 | evidence-bearing |
 | [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 204 | 66 | 3 | evidence-bearing; machine-record URL |
 | [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 789 | 193 | 49 | evidence-bearing; machine-record URL |
-| [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 14 | 6 | 0 | evidence-bearing |
+| [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 17 | 8 | 1 | evidence-bearing; machine-record URL |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 2 | 2 | 0 | evidence-bearing |
 | [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 20 | 251 | 78 | 20 | evidence-bearing; machine-record URL |
 | [Medical Expenditure Panel Survey](https://meps.ahrq.gov/mepsweb/) | US health conditions, care use, medical spending, insurance, employment, and household burden | 1 | 99 | 26 | 50 | evidence-bearing; machine-record URL |
@@ -115,7 +115,7 @@ or proof that every source item was read in full.
 | [Prince William County, Virginia](https://www.pwcva.gov/) | local fiscal, land-use, data-center, revenue, tax, and public-capacity records | 0 | 19 | 5 | 14 | evidence-bearing; machine-record URL |
 | [California Department of Insurance](https://www.insurance.ca.gov/) | California insurance regulation, wildfire risk, market availability, FAIR Plan, and consumer protection records | 0 | 14 | 7 | 13 | evidence-bearing; machine-record URL |
 | [Lawrence Berkeley National Laboratory energy analysis](https://eta-publications.lbl.gov/) | US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis | 0 | 10 | 6 | 5 | evidence-bearing; machine-record URL |
-| [Berkeley Social Sciences Data Laboratory](https://sda.berkeley.edu/) | public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons | 0 | 15 | 9 | 11 | evidence-bearing; machine-record URL |
+| [Berkeley Social Sciences Data Laboratory](https://sda.berkeley.edu/) | public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons | 0 | 20 | 11 | 13 | evidence-bearing; machine-record URL |
 | [Inter-university Consortium for Political and Social Research](https://www.icpsr.umich.edu/) | archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials | 0 | 11 | 2 | 0 | evidence-bearing |
 | [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 9 | 5 | 0 | evidence-bearing |
 | [O*NET Resource Center](https://www.onetcenter.org/database.html) | US occupation, task, work-activity, skill, and taxonomy metadata for crosswalking labor-market evidence | 0 | 5 | 3 | 0 | evidence-bearing |

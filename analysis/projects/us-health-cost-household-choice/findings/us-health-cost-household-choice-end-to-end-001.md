@@ -15,6 +15,13 @@ opposite directions across separate population surveys. The final conversion
 from burden to trust, political action, switching, or exit therefore remains a
 bounded inference and an open acquisition target.
 
+The first ANES health-cost tables now provide a same-survey descriptive bridge:
+concern about paying health-care expenses is compared with federal-government
+trust and with post-election demand for more government help paying for health
+insurance. The trust and policy gradients are modest and non-monotonic. This
+extends the endpoint evidence, but still does not identify a bill, care choice,
+remedy, or direct attribution.
+
 The current ANES codebook sharpens that acquisition target: it includes concern
 about paying health-care expenses, insurance-loss concern, chronic-condition
 context, and later health-policy judgments alongside repeated trust and vote

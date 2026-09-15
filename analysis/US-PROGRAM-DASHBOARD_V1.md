@@ -11,15 +11,15 @@ finding, or session is the completion condition.
 ## Current scale
 
 - **14** program themes
-- **239** validated machine-readable trend records
-- **915** period-specific observations
+- **240** validated machine-readable trend records
+- **917** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem
 
 | Family | Sources |
 |---|---|
-| Household and time | SIPP, SHED, PSID, ATUS, MEPS, RECS, CE, NHTS, CMS NHEA |
+| Household and time | SIPP, SHED, PSID, ATUS, MEPS, RECS, CE, NHTS |
 | Economic and financial | BEA, BLS, Federal Reserve, OFR, NBER |
 | Public systems and firms | CFPB, FTC, USAspending, DLA, company filings |
 | Opinion, culture, and politics | Pew, Gallup, ANES, GSS, CCES, local attitude studies |

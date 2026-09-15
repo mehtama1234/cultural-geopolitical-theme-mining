@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-anes-health-cost-concern-trust-policy-2024",
+  "title": "Health-care payment concern reaches trust and health-policy demand through a descriptive panel bridge",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "ANES 2016-2020-2024 panel respondent in official 2024 Full Release SDA tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 pre-election; health-care payment concern × federal-government trust",
+      "denominator": {"value": 5189, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"not_at_all_concerned_some_or_never_trust": {"value": 53.3, "unit": "percent within concern row", "value_type": "row_share"}, "extremely_concerned_some_or_never_trust": {"value": 63.1, "unit": "percent within concern row", "value_type": "row_share"}, "extremely_concerned_always_trust": {"value": 4.4, "unit": "percent within concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab; row V241573, column V241229, pre-election panel weight V240107a, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Descriptive association; health-cost concern is forward-looking and not a bill or care event. Panel selection, party identity, health, income, insurance, and prior trust remain alternative explanations.",
+      "subgroup": "Rows defined by concern about paying health-care expenses; columns defined by federal-government trust.",
+      "counterinterpretation": "The trust pattern is not monotonic, and composition or prior institutional orientation may shape both concern and trust.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a",
+      "retrieval_hash": "sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd",
+      "status": "compared"
+    },
+    {
+      "period": "2024 pre-election to post-election; health-care payment concern × government help paying for health insurance",
+      "denominator": {"value": 4650, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"not_at_all_concerned_increase_help": {"value": 57.5, "unit": "percent within concern row", "value_type": "row_share"}, "very_concerned_increase_help": {"value": 62.3, "unit": "percent within concern row", "value_type": "row_share"}, "extremely_concerned_increase_help": {"value": 61.3, "unit": "percent within concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage cross-tab; row V241573, column V242351, post-election panel weight V240107b, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Temporal ordering does not identify causality. Policy preference is not remedy receipt, attribution, or direct political action; post-election missingness and panel retention remain relevant.",
+      "subgroup": "Rows defined by pre-election concern about paying health-care expenses; columns defined by post-election preferred change in government spending to help pay for health insurance.",
+      "counterinterpretation": "The modest, non-monotonic policy gradient may reflect ideology, party identity, existing insurance status, health needs, or general views about government spending.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V242351&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107b",
+      "retrieval_hash": "sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
+  "boundary": "This is a same-survey descriptive ANES bridge from forward-looking health-care payment concern to trust and post-election health-policy demand. It does not join MEPS or SHED respondents and does not establish that a dated bill, care decision, institutional remedy, or health-cost episode caused trust, policy preference, vote, switching, or exit. Retrieval hashes cover the two SDA query outputs used in the memo."
+}
