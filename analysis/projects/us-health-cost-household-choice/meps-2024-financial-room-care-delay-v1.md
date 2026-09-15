@@ -35,6 +35,19 @@ also preserves every reported medical-debt amount band from no debt through
 $20,001 or more, so a positive “any debt” contrast is not mistaken for a
 linear debt-dose relationship.
 
+The output also retains the MEPS three-way insurance-coverage categories
+(any private, public only, and uninsured). This is a distribution check, not a
+coverage-effect estimate: insurance status can change the practical menu, but
+the public-use file does not supply a plan-adequacy measure or a valid
+counterfactual for each care decision.
+
+The coverage split is directionally distinct: cost-related medical-care delay
+was 5.87% among people with any private coverage, 5.39% with public-only
+coverage, and 17.63% among uninsured people. Inability to afford medical care
+was 2.72%, 3.06%, and 12.18%, respectively. The uninsured contrast is a
+distributional signal, not proof that coverage alone caused the difference;
+need, age, employment, access, and selection remain alternative explanations.
+
 That distinction matters in the extracted results. Cost-related medical-care
 delay was 4.57% with no medical debt, 13.70% with $0–$500, 19.31% with
 $2,001–$5,000, 14.53% with $5,001–$10,000, 24.26% with $10,001–$20,000, and

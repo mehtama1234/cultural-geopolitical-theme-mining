@@ -43,6 +43,29 @@
       "records": 11883
     }
   },
+  "coverage_groups": {
+    "any_private": {
+      "could_not_afford_medical_care_percent": 2.7227092855799317,
+      "could_not_afford_prescription_percent": 1.9863775354670612,
+      "delayed_medical_care_for_cost_percent": 5.8687049324888525,
+      "delayed_prescription_for_cost_percent": 2.6279416371584756,
+      "records": 10832
+    },
+    "public_only": {
+      "could_not_afford_medical_care_percent": 3.060644057162162,
+      "could_not_afford_prescription_percent": 3.2631925652434197,
+      "delayed_medical_care_for_cost_percent": 5.392983715590559,
+      "delayed_prescription_for_cost_percent": 3.603305577271561,
+      "records": 6645
+    },
+    "uninsured": {
+      "could_not_afford_medical_care_percent": 12.178005965537057,
+      "could_not_afford_prescription_percent": 5.981661554120862,
+      "delayed_medical_care_for_cost_percent": 17.63237870816769,
+      "delayed_prescription_for_cost_percent": 7.062730209252487,
+      "records": 1206
+    }
+  },
   "financial_room_labels": {
     "1": "not_at_all_confident",
     "2": "not_too_confident",
