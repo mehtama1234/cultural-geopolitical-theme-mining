@@ -66,6 +66,10 @@ The [MEPS event-context association](meps-2024-event-context-association-v1.md)
 adds weighted same-person comparisons of event presence with medical-bill
 problems, health, and employment while retaining the non-causal boundary.
 
+The [coverage-conditioned MEPS comparison](meps-2024-event-context-by-coverage-v1.md)
+tests whether the acute-event pattern persists within private, public-only,
+and uninsured under-65 groups, retaining small-cell and selection limits.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
