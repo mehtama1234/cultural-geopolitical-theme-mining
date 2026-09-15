@@ -265,6 +265,23 @@ confidence intervals. The model should not collapse blame into a single
 “trust” score: blaming government, blaming economic conditions, and blaming
 oneself imply different legitimacy and remedy pathways.
 
+## VOTER companion-file boundary check
+
+The replication package also distributes `VOTER_2019vv_crisis.tab`, a 9,548-row
+Democracy Fund VOTER Survey panel extract with institutional-confidence and
+government-trust variables. A metadata audit of the pinned public file found
+no `crisis_medexp` field and no medical-expense hardship field under an
+equivalent name. The file therefore cannot produce a same-respondent
+medical-hardship-to-trust estimate, despite containing useful general trust
+and confidence measures.
+
+This negative result matters for the end-to-end boundary: the CES module
+extracts support hardship-to-action and hardship-to-attribution links, while
+the VOTER extract supports a separate trust context. Combining them would be
+a cross-source bridge, not matched evidence. The episode-level chain
+`medical bill -> care/payment adaptation -> institutional remedy -> trust or
+exit` remains open.
+
 ## Limits and next action
 
 - The 1,000-row extracts are public module extracts, not the full CES files;
@@ -281,6 +298,8 @@ oneself imply different legitimacy and remedy pathways.
   as stable without a larger design-based replication.
 - The adjusted extension uses model-robust rather than CES design-based
   uncertainty; its intervals are screening diagnostics only.
+- The VOTER companion extract does not contain the medical-expense hardship
+  item needed to match its trust variables to the CES medical-cost exposure.
 - The result does not observe a bill amount, care delayed, payment plan,
   collections, insurer/provider remedy, or institutional response.
 
