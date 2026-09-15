@@ -179,6 +179,8 @@ not establish wave alignment, item co-occurrence, or a usable episode.
 The merge audit normalizes only an unambiguous trailing `.0` on integral IDs,
 so ordinary CSV/Stata numeric formatting differences do not create false
 non-overlap while leading-zero identifiers remain unchanged.
+It also records each file's distinct wave count and observed wave values, making
+temporal coverage inspectable before respondent overlap is interpreted.
 
 ## Promotion rule
 

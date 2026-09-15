@@ -70,6 +70,8 @@ def main() -> int:
         merge_record = json.loads(merge_output.read_text(encoding="utf-8"))
         assert merge_record["status"] == "ready_for_wave_and_item_audit"
         assert merge_record["overlap"]["first__second"]["intersection_unique_persons"] == 2
+        assert merge_record["files"][0]["unique_waves"] == 2
+        assert merge_record["files"][1]["wave_values"] == ["1"]
 
         followup = run(str(FOLLOWUP), str(valid_path), "--output", str(root / "followup.json"))
         assert followup.returncode == 0, followup.stderr

@@ -46,19 +46,22 @@ def columns(path: Path) -> list[str]:
     return list(pd.read_csv(path, nrows=0).columns)
 
 
-def read_ids(path: Path, available: list[str]) -> tuple[set[str] | None, str | None, str | None]:
+def read_ids(
+    path: Path, available: list[str]
+) -> tuple[set[str] | None, str | None, str | None, set[str]]:
     lookup = {name.lower(): name for name in available}
     key = lookup.get("uasid")
     wave = lookup.get("wave")
     if key is None:
-        return None, None, wave
+        return None, None, wave, set()
     selected = [key] + ([wave] if wave else [])
     if path.suffix.lower() in {".dta", ".tab"}:
         frame, _ = pyreadstat.read_dta(path, usecols=selected, encoding="latin1")
     else:
         frame = pd.read_csv(path, usecols=selected)
     values = frame[key].dropna().map(normalize_id)
-    return set(values), key, wave
+    wave_values = set(frame[wave].dropna().map(lambda value: str(value).strip())) if wave else set()
+    return set(values), key, wave, wave_values
 
 
 def normalize_id(value: object) -> str:
@@ -72,7 +75,7 @@ def audit(name: str, path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"name": name, "path": str(path), "status": "missing"}
     available = columns(path)
-    ids, key, wave = read_ids(path, available)
+    ids, key, wave, wave_values = read_ids(path, available)
     result: dict[str, Any] = {
         "name": name,
         "path": str(path),
@@ -84,6 +87,8 @@ def audit(name: str, path: Path) -> dict[str, Any]:
         "uasid_column": key,
         "wave_column": wave,
         "unique_persons": len(ids) if ids is not None else None,
+        "unique_waves": len(wave_values) if wave else None,
+        "wave_values": sorted(wave_values) if wave else [],
     }
     return result
 
@@ -99,7 +104,7 @@ def main() -> int:
         id_sets: dict[str, set[str]] = {}
         for name, path in files:
             if path.is_file():
-                ids, _, _ = read_ids(path, columns(path))
+                ids, _, _, _ = read_ids(path, columns(path))
                 if ids is not None:
                     id_sets[name] = ids
     except (OSError, ValueError, pd.errors.ParserError) as exc:
