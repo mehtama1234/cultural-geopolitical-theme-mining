@@ -92,13 +92,16 @@ def main() -> int:
     frame, metadata_info = read_file(args.monthly_file, columns)
     if frame["uasid"].isna().any():
         parser.error("uasid contains missing values; cannot establish respondent continuity")
-    duplicate_key = frame.duplicated(subset=["uasid", "wave"], keep=False)
+    frame["_wave_num"] = pd.to_numeric(frame["wave"], errors="coerce")
+    if frame["_wave_num"].isna().any():
+        parser.error("wave contains missing or nonnumeric values; cannot order follow-up")
+    duplicate_key = frame.duplicated(subset=["uasid", "_wave_num"], keep=False)
     if duplicate_key.any():
         parser.error(
-            "duplicate uasid-wave rows detected; resolve respondent-wave uniqueness "
+            "duplicate uasid-wave rows detected after numeric normalization; resolve "
+            "respondent-wave uniqueness "
             f"before running a longitudinal follow-up ({int(duplicate_key.sum())} rows)"
         )
-    frame["_wave_num"] = pd.to_numeric(frame["wave"], errors="coerce")
     frame["_weight"] = pd.to_numeric(frame["final_weight"], errors="coerce")
     frame = frame.sort_values(["uasid", "_wave_num"], kind="stable").reset_index(drop=True)
     frame["_next_wave"] = frame.groupby("uasid", sort=False)["_wave_num"].shift(-1)
