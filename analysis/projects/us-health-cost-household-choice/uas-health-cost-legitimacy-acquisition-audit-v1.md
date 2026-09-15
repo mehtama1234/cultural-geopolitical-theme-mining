@@ -91,6 +91,23 @@ between households. A valid household analysis must therefore use `survhhid`
 only for the contemporaneous household and must not treat it as a permanent
 household identity.
 
+The repository contains a first-pass inventory tool at
+`scripts/audit_uas_health_cost_legitimacy_files.py`. After registration and
+download, run it once per acquired file (the names are analyst-chosen):
+
+```text
+python3 scripts/audit_uas_health_cost_legitimacy_files.py \
+  --file monthly=/path/to/monthly_panel_latest.dta \
+  --file uas537=/path/to/uas537.dta \
+  --file uas698=/path/to/uas698.dta \
+  --output /tmp/uas-health-cost-legitimacy-audit.json
+```
+
+The tool records SHA-256 hashes, format, row/column counts, candidate field
+names and labels, key and wave uniqueness, missingness, and value-domain
+counts. It is deliberately an acquisition audit; its output cannot by itself
+support a causal or longitudinal estimate.
+
 ## Promotion rule
 
 Promote a UAS result into the health-cost end-to-end finding only if one
