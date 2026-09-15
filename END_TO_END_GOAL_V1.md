@@ -170,6 +170,68 @@ source
 
 Every important sentence must be traceable to a source, marked as an inference, or marked as an open question.
 
+## Current focal pursuit: health cost to household choice to public legitimacy
+
+The next deep end-to-end pursuit is to determine how an American health need
+becomes a household choice under financial, time, coverage, and access
+constraints, and whether that choice produces durable effects beyond the
+medical encounter. The project should not stop at national spending, an
+observed utilization event, or a survey share saying that care was skipped.
+It should reconstruct the strongest defensible chain from a dated need or
+system condition to the feasible choices available to a person or household,
+the outcome protected and the outcome sacrificed, the institutional response,
+and any later change in trust, switching, political judgment, or public
+capacity.
+
+The working chain is:
+
+```text
+health need, illness, price, coverage rule, or provider constraint
+  -> person/household exposure and practical access
+  -> quoted price, payment obligation, deductible, travel, waiting, or time cost
+  -> available alternatives: pay, delay, substitute, borrow, seek help, or go without
+  -> care received, changed, delayed, or forgone
+  -> money, debt, work, unpaid care, food, housing, medication, or rest trade-off
+  -> treatment continuity, health, function, work, family security, or recovery
+  -> provider, insurer, employer, regulator, legal, or public-program response
+  -> correction, denial, burden transfer, exit, switching, complaint, or organizing
+  -> trust, legitimacy, identity, political action, state capacity, and dependency
+```
+
+The current evidence establishes only layers of this chain. CMS establishes
+system scale and payer architecture. MEPS establishes observed service
+channels, event timing, payment, annual resources, coverage, and bill-problem
+context, while showing that an observed payment is not the same thing as a
+household burden. SHED establishes population-level cost-related care
+foregoing, its distribution by income and insurance, medical debt, and
+longitudinal adaptation/health patterns. The 2024-to-2025 SHED care-foregoing
+comparison is useful as a repeated annual comparison, but it is not a linked
+respondent panel and must not be described as individual recovery.
+
+The decisive next objective is a selection-aware episode design that joins,
+for the same person or household where possible: a dated need or bill;
+coverage and benefit design; liquid resources and feasible alternatives;
+whether care was received, delayed, substituted, or abandoned; the amount
+owed and payment timing; a protected and a sacrificed household outcome; a
+follow-up health or functional measure; and a later remedy, complaint,
+switch, trust judgment, political action, or exit. The design must preserve
+non-users and counterexamples, including uninsured people who obtained care,
+insured people who still went without, people who paid without later harm,
+and people whose hardship arose from access, time, network, transportation,
+or administrative failure rather than price alone.
+
+The pursuit is complete for a particular arrow only when the evidence names
+the unit, date, denominator, missingness, weighting or uncertainty, subgroup,
+alternative explanation, source retrieval, and stopping rule. Until then,
+the output must label the arrow as observed, reported, compared,
+longitudinally associated, inferred across sources, or open. The deliverable
+is a maintained health-cost-to-choice atlas that makes the missing joins
+visible and identifies the smallest next data acquisition capable of closing
+one of them. Its final value is not a universal health-burden score; it is a
+reproducible explanation of who can absorb a health-cost shock, who must
+trade away care or security, which institutions repair or redistribute the
+loss, and how repeated experiences can alter social and state legitimacy.
+
 ## Why this project exists
 
 Many public stories show the final surface of a change: a new policy, a new tool, a price move, a conflict, a company decision, or a shift in public opinion. The deeper cause is often spread across several fields and institutions.
