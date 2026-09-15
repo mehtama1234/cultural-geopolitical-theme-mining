@@ -42,6 +42,18 @@
       "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a",
       "retrieval_hash": "sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3",
       "status": "compared"
+    },
+    {
+      "period": "2024 pre-election; health-care payment concern × federal-government trust, controlled by insurance status",
+      "denominator": {"value": 5182, "unit": "valid unweighted cross-tab cases"},
+      "measures": {"insured_not_at_all_some_or_never_trust": {"value": 53.6, "unit": "percent within coverage and concern row", "value_type": "row_share"}, "insured_extremely_some_or_never_trust": {"value": 64.0, "unit": "percent within coverage and concern row", "value_type": "row_share"}, "uninsured_not_at_all_some_or_never_trust": {"value": 49.4, "unit": "percent within coverage and concern row", "value_type": "row_share"}, "uninsured_extremely_some_or_never_trust": {"value": 61.3, "unit": "percent within coverage and concern row", "value_type": "row_share"}},
+      "method": "Official UC Berkeley SDA weighted row-percentage controlled cross-tab; row V241573, column V241229, control V241571, pre-election panel weight V240107a, complex stratified-cluster Taylor-series standard errors.",
+      "uncertainty": "Controlled descriptive association; uninsured cells are small and imprecise. Insurance status does not measure plan adequacy, affordability, network access, or a dated medical episode.",
+      "subgroup": "Health-cost-concern rows within insured and uninsured pre-election respondents.",
+      "counterinterpretation": "Similar directional gradients within coverage groups do not prove that health-cost concern changes trust; health, income, party identity, and prior trust may explain both.",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241571&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a",
+      "retrieval_hash": "sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/", "claim": "Official merged panel design, wave count, case counts, and weighting guidance.", "status": "official-method"}],
