@@ -45,6 +45,10 @@ constraint layer and the SHED unpaid-care adaptation layer. It treats money,
 time, work capacity, and family security as separate currencies and keeps the
 same-event household pathway open rather than pooling non-comparable samples.
 
+The [MEPS 2024 reproducibility audit](meps-2024-reproducibility-audit-v1.md)
+re-acquires the official HC-256 and HC-036BRR archives, reproduces the
+headline person-level estimates, and records the remaining event-linkage gap.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
