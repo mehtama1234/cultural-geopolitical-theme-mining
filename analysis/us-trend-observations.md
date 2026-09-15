@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-234 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+235 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -589,6 +589,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | OFR reports a changing public financial-visibility and institutional-capacity sequence | cost, voice, work | public_systems_feedback, infrastructure_technology_dependency, work_control_bargaining, firm_sector_market_power, geopolitical_state_consequences, trust_identity_meaning | Office of Financial Research annual report to Congress; institutional self-report | United States federal financial-stability institution and financial system | 4 | FY2022; report data generally through 2022-09-30; FY2023; report data generally through 2023-09-30; FY2024; report data generally through 2024-09-30; FY2025; report data generally through 2025-09-30 | reported | [open](records/us-ofr-institutional-finance-capacity-2022-2025.json) |
 
 **Boundary:** This record captures a four-vintage OFR institutional chronology. It does not establish that AI caused staffing changes, that data collection improved financial stability, that public visibility became consumer protection, or that any household or firm experienced a linked outcome. Institutional, market, firm, account, household, and respondent units remain separate.
+
+| Randomized Medicaid access reduces financial exposure and expands care use while health and work outcomes separate | cost, time, voice | care_health_reproduction, household_room_consumption, public_systems_feedback, unequal_exposure_status | Low-income uninsured Oregon adults selected or not selected by Medicaid lottery | Oregon, United States | 4 | 2008 lottery; first-year coverage and care-use follow-up; 2008 lottery; first-year financial follow-up; 2008 lottery; approximately two-year health follow-up; 2008 lottery; labor-market follow-up | estimated | [open](records/us-oregon-medicaid-lottery-coverage-route-2008-2010.json) |
+
+**Boundary:** The Oregon lottery identifies selected coverage effects for a historical low-income uninsured population; it does not complete the same-person bill-to-care-choice-to-household-adaptation-to-trust chain.
 
 | Adult platform reach is broad, increasingly diversified, and patterned by age and social position | time, voice | platforms_data_attention, unequal_exposure_status, trust_identity_meaning, consumer_power_recourse | US adult survey respondent, with platform-use and frequency reports | United States | 4 | 2025-02-05 to 2025-06-18; 2021 to 2025; 2025; frequency survey 2025-02-24 to 2025-03-02; 2025; subgroup comparisons | compared; observed | [open](records/us-pew-adult-social-media-2025.json) |
 
