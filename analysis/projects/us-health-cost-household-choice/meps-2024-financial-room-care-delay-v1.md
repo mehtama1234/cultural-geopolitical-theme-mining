@@ -102,6 +102,21 @@ This is now a supported same-respondent association arrow. The missing links
 remain dated need, quoted price, alternative, care completion, payment timing,
 household substitution, institutional remedy, and later trust/action.
 
+The machine record also profiles the financial context of respondents who did
+and did not report cost-related care delay. This creates a same-respondent
+adaptation screen for medical debt, missed credit payments, debt collection,
+rent, utilities, and unexpected-expense confidence. It remains a co-occurrence
+profile because the fields do not establish which came first.
+
+The care-delay group profiles show the household cascade that the end-to-end
+goal is designed to detect. Among respondents reporting medical-care delay due
+to cost, medical debt was 39.76%, debt-collector contact 38.09%, missed
+loan/credit payment 29.89%, and inability to pay utilities 29.44%. Among those
+not reporting medical-care delay, the corresponding shares were 13.50%,
+11.31%, 8.57%, and 9.44%. These are not effects of delay: debt, missed payment,
+illness, and access may precede the reported care choice or share a common
+cause.
+
 ## Reproduction
 
 ```text

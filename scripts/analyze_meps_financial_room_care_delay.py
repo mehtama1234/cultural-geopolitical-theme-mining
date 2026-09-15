@@ -31,6 +31,12 @@ def summarize(frame: pd.DataFrame) -> dict[str, object]:
         "could_not_afford_medical_care_percent": weighted_share(frame, "COULD_NOT_AFFORD_MEDICAL_CARE"),
         "delayed_prescription_for_cost_percent": weighted_share(frame, "DELAYED_PRESCRIPTION"),
         "could_not_afford_prescription_percent": weighted_share(frame, "COULD_NOT_AFFORD_PRESCRIPTION"),
+        "unexpected_expense_not_confident_percent": weighted_share(frame, "UNEXPECTED_NOT_CONFIDENT"),
+        "missed_loan_or_credit_payment_percent": weighted_share(frame, "MISSED_PAYMENT"),
+        "debt_collector_contact_percent": weighted_share(frame, "DEBT_COLLECTOR"),
+        "medical_debt_any_percent": weighted_share(frame, "MEDICAL_DEBT_ANY"),
+        "late_or_unable_rent_percent": weighted_share(frame, "LATE_RENT"),
+        "unable_utility_percent": weighted_share(frame, "UNABLE_UTILITY"),
     }
 
 
@@ -39,12 +45,18 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "FWCRED42", "FWDEBT42", "FWRENT42", "FWUTIL42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
     frame["DELAYED_PRESCRIPTION"] = frame["DLAYPM42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_PRESCRIPTION"] = frame["AFRDPM42"].eq(1).astype(float)
+    frame["UNEXPECTED_NOT_CONFIDENT"] = frame["FWUNEXP42"].isin([1, 2]).astype(float)
+    frame["MISSED_PAYMENT"] = frame["FWCRED42"].eq(1).astype(float) if "FWCRED42" in frame else 0.0
+    frame["DEBT_COLLECTOR"] = frame["FWDEBT42"].eq(1).astype(float) if "FWDEBT42" in frame else 0.0
+    frame["MEDICAL_DEBT_ANY"] = frame["MEDDEBT42"].between(1, 7).astype(float)
+    frame["LATE_RENT"] = frame["FWRENT42"].eq(1).astype(float) if "FWRENT42" in frame else 0.0
+    frame["UNABLE_UTILITY"] = frame["FWUTIL42"].eq(1).astype(float) if "FWUTIL42" in frame else 0.0
     output: dict[str, object] = {
         "schema": "us-meps-2024-financial-room-care-delay-v1",
         "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",
@@ -109,6 +121,12 @@ def main() -> int:
             "not_confident": summarize(frame.loc[~frame["EMPST42"].isin([1, 2, 3]) & frame["EMPST42"].notna() & frame["FWUNEXP42"].isin([1, 2])]),
             "confident": summarize(frame.loc[~frame["EMPST42"].isin([1, 2, 3]) & frame["EMPST42"].notna() & frame["FWUNEXP42"].isin([3, 4])]),
         },
+    }
+    output["care_delay_groups"] = {
+        "medical_care_delayed_for_cost": summarize(frame.loc[frame["DELAYED_MEDICAL_CARE"].eq(1)]),
+        "medical_care_not_delayed_for_cost": summarize(frame.loc[frame["DELAYED_MEDICAL_CARE"].eq(0)]),
+        "prescription_delayed_for_cost": summarize(frame.loc[frame["DELAYED_PRESCRIPTION"].eq(1)]),
+        "prescription_not_delayed_for_cost": summarize(frame.loc[frame["DELAYED_PRESCRIPTION"].eq(0)]),
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")

@@ -1,46 +1,136 @@
 {
+  "care_delay_groups": {
+    "medical_care_delayed_for_cost": {
+      "could_not_afford_medical_care_percent": 41.84218056188052,
+      "could_not_afford_prescription_percent": 21.231383021915796,
+      "debt_collector_contact_percent": 38.086168688881386,
+      "delayed_medical_care_for_cost_percent": 100.0,
+      "delayed_prescription_for_cost_percent": 24.476448659548655,
+      "late_or_unable_rent_percent": 23.717361630543127,
+      "medical_debt_any_percent": 39.76150486479066,
+      "missed_loan_or_credit_payment_percent": 29.892645599034275,
+      "records": 1249,
+      "unable_utility_percent": 29.439475962716426,
+      "unexpected_expense_not_confident_percent": 29.223656812234132
+    },
+    "medical_care_not_delayed_for_cost": {
+      "could_not_afford_medical_care_percent": 0.7651657916906398,
+      "could_not_afford_prescription_percent": 1.3205766584682481,
+      "debt_collector_contact_percent": 11.306875107084851,
+      "delayed_medical_care_for_cost_percent": 0.0,
+      "delayed_prescription_for_cost_percent": 1.7187743906201713,
+      "late_or_unable_rent_percent": 6.805098051071097,
+      "medical_debt_any_percent": 13.501981744069383,
+      "missed_loan_or_credit_payment_percent": 8.574733193474986,
+      "records": 17434,
+      "unable_utility_percent": 9.44317132761278,
+      "unexpected_expense_not_confident_percent": 12.315995829705876
+    },
+    "prescription_delayed_for_cost": {
+      "could_not_afford_medical_care_percent": 38.030880230170325,
+      "could_not_afford_prescription_percent": 65.26318017899041,
+      "debt_collector_contact_percent": 39.29019761456759,
+      "delayed_medical_care_for_cost_percent": 49.71953257485985,
+      "delayed_prescription_for_cost_percent": 100.0,
+      "late_or_unable_rent_percent": 28.886627143182714,
+      "medical_debt_any_percent": 34.543719644131535,
+      "missed_loan_or_credit_payment_percent": 31.809404897039332,
+      "records": 675,
+      "unable_utility_percent": 33.35590551078491,
+      "unexpected_expense_not_confident_percent": 35.194944139447806
+    },
+    "prescription_not_delayed_for_cost": {
+      "could_not_afford_medical_care_percent": 2.2898449385510515,
+      "could_not_afford_prescription_percent": 0.5447021191314094,
+      "debt_collector_contact_percent": 12.17905708813117,
+      "delayed_medical_care_for_cost_percent": 5.065630519582498,
+      "delayed_prescription_for_cost_percent": 0.0,
+      "late_or_unable_rent_percent": 7.210338743309267,
+      "medical_debt_any_percent": 14.568509588954074,
+      "missed_loan_or_credit_payment_percent": 9.23739989930468,
+      "records": 18008,
+      "unable_utility_percent": 9.994803760461952,
+      "unexpected_expense_not_confident_percent": 12.694597305553476
+    }
+  },
   "confidence_groups": {
     "confident_combined": {
       "could_not_afford_medical_care_percent": 2.338122434105267,
       "could_not_afford_prescription_percent": 1.727740435851411,
+      "debt_collector_contact_percent": 9.828194543176567,
       "delayed_medical_care_for_cost_percent": 5.359305181630134,
       "delayed_prescription_for_cost_percent": 2.4146323486899,
-      "records": 15508
+      "late_or_unable_rent_percent": 4.842145904342683,
+      "medical_debt_any_percent": 13.719768630694643,
+      "missed_loan_or_credit_payment_percent": 6.861245040069949,
+      "records": 15508,
+      "unable_utility_percent": 6.83371096022676,
+      "unexpected_expense_not_confident_percent": 0.0
     },
     "not_at_all_confident": {
       "could_not_afford_medical_care_percent": 12.285069259830182,
       "could_not_afford_prescription_percent": 10.78171078797604,
+      "debt_collector_contact_percent": 40.617475429333126,
       "delayed_medical_care_for_cost_percent": 16.42129848453637,
       "delayed_prescription_for_cost_percent": 10.402670041980006,
-      "records": 1629
+      "late_or_unable_rent_percent": 33.042306346828596,
+      "medical_debt_any_percent": 29.22259988253451,
+      "missed_loan_or_credit_payment_percent": 34.620208427387375,
+      "records": 1629,
+      "unable_utility_percent": 42.79144782741341,
+      "unexpected_expense_not_confident_percent": 100.0
     },
     "not_confident_combined": {
       "could_not_afford_medical_care_percent": 10.54986001747425,
       "could_not_afford_prescription_percent": 8.406254040800059,
+      "debt_collector_contact_percent": 34.482048806384235,
       "delayed_medical_care_for_cost_percent": 14.145723313316747,
       "delayed_prescription_for_cost_percent": 8.3867220212801,
-      "records": 2943
+      "late_or_unable_rent_percent": 28.081166104690077,
+      "medical_debt_any_percent": 26.01044203758221,
+      "missed_loan_or_credit_payment_percent": 30.511265088682382,
+      "records": 2943,
+      "unable_utility_percent": 36.31951277032513,
+      "unexpected_expense_not_confident_percent": 100.0
     },
     "not_too_confident": {
       "could_not_afford_medical_care_percent": 8.66981966691426,
       "could_not_afford_prescription_percent": 5.83252723789455,
+      "debt_collector_contact_percent": 27.83452219260088,
       "delayed_medical_care_for_cost_percent": 11.680214809675544,
       "delayed_prescription_for_cost_percent": 6.2025107278907745,
-      "records": 1314
+      "late_or_unable_rent_percent": 22.705938949177863,
+      "medical_debt_any_percent": 22.530177978661623,
+      "missed_loan_or_credit_payment_percent": 26.059364368950344,
+      "records": 1314,
+      "unable_utility_percent": 29.307390683533114,
+      "unexpected_expense_not_confident_percent": 100.0
     },
     "somewhat_confident": {
       "could_not_afford_medical_care_percent": 4.870671287933743,
       "could_not_afford_prescription_percent": 3.2462117803648716,
+      "debt_collector_contact_percent": 20.004530622509876,
       "delayed_medical_care_for_cost_percent": 9.349442234004126,
       "delayed_prescription_for_cost_percent": 3.923506531460662,
-      "records": 3625
+      "late_or_unable_rent_percent": 14.530154874590403,
+      "medical_debt_any_percent": 23.144543791688058,
+      "missed_loan_or_credit_payment_percent": 16.941880294965237,
+      "records": 3625,
+      "unable_utility_percent": 20.148465410433342,
+      "unexpected_expense_not_confident_percent": 0.0
     },
     "very_confident": {
       "could_not_afford_medical_care_percent": 1.5854791354005668,
       "could_not_afford_prescription_percent": 1.27646887202926,
+      "debt_collector_contact_percent": 6.803908893603143,
       "delayed_medical_care_for_cost_percent": 4.173484063572443,
       "delayed_prescription_for_cost_percent": 1.9662129468157046,
-      "records": 11883
+      "late_or_unable_rent_percent": 1.9629852444307636,
+      "medical_debt_any_percent": 10.918837917750285,
+      "missed_loan_or_credit_payment_percent": 3.865400533531107,
+      "records": 11883,
+      "unable_utility_percent": 2.876724821263501,
+      "unexpected_expense_not_confident_percent": 0.0
     }
   },
   "coverage_by_confidence": {
@@ -48,48 +138,84 @@
       "confident": {
         "could_not_afford_medical_care_percent": 2.0697619072029214,
         "could_not_afford_prescription_percent": 1.4359545143873715,
+        "debt_collector_contact_percent": 9.361587957347975,
         "delayed_medical_care_for_cost_percent": 4.928231584302345,
         "delayed_prescription_for_cost_percent": 2.1059566712487525,
-        "records": 9903
+        "late_or_unable_rent_percent": 3.776936034301235,
+        "medical_debt_any_percent": 14.650784291016056,
+        "missed_loan_or_credit_payment_percent": 6.819967642992393,
+        "records": 9903,
+        "unable_utility_percent": 5.299316054548751,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 11.171243652025987,
         "could_not_afford_prescription_percent": 9.210977301871587,
+        "debt_collector_contact_percent": 41.96575227445086,
         "delayed_medical_care_for_cost_percent": 18.286884175068277,
         "delayed_prescription_for_cost_percent": 9.574409239405115,
-        "records": 837
+        "late_or_unable_rent_percent": 32.951645764977066,
+        "medical_debt_any_percent": 40.74717406600136,
+        "missed_loan_or_credit_payment_percent": 39.27467991820814,
+        "records": 837,
+        "unable_utility_percent": 36.810516200150516,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "public_only": {
       "confident": {
         "could_not_afford_medical_care_percent": 1.8571762333395927,
         "could_not_afford_prescription_percent": 2.1459128707087323,
+        "debt_collector_contact_percent": 10.297192386359079,
         "delayed_medical_care_for_cost_percent": 4.458425266682752,
         "delayed_prescription_for_cost_percent": 2.7486139790921125,
-        "records": 4750
+        "late_or_unable_rent_percent": 7.012010240747422,
+        "medical_debt_any_percent": 10.743760672566419,
+        "missed_loan_or_credit_payment_percent": 6.937978430095729,
+        "records": 4750,
+        "unable_utility_percent": 10.154763798061579,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 6.639355721113335,
         "could_not_afford_prescription_percent": 6.7719688825345985,
+        "debt_collector_contact_percent": 30.078787173499023,
         "delayed_medical_care_for_cost_percent": 8.397396228094047,
         "delayed_prescription_for_cost_percent": 6.368283004535384,
-        "records": 1787
+        "late_or_unable_rent_percent": 25.298354649419743,
+        "medical_debt_any_percent": 17.951752002113217,
+        "missed_loan_or_credit_payment_percent": 25.874192780057946,
+        "records": 1787,
+        "unable_utility_percent": 36.77179653833885,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "uninsured": {
       "confident": {
         "could_not_afford_medical_care_percent": 7.838214662455247,
         "could_not_afford_prescription_percent": 3.520424606748365,
+        "debt_collector_contact_percent": 13.583613757693206,
         "delayed_medical_care_for_cost_percent": 14.765222574066547,
         "delayed_prescription_for_cost_percent": 4.79340387892315,
-        "records": 855
+        "late_or_unable_rent_percent": 8.524369351747332,
+        "medical_debt_any_percent": 15.304769375803168,
+        "missed_loan_or_credit_payment_percent": 7.036637045209179,
+        "records": 855,
+        "unable_utility_percent": 11.268167151979084,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 26.902215113722246,
         "could_not_afford_prescription_percent": 13.601732186359428,
+        "debt_collector_contact_percent": 32.50021568946998,
         "delayed_medical_care_for_cost_percent": 28.479672564624263,
         "delayed_prescription_for_cost_percent": 14.220807617910816,
-        "records": 319
+        "late_or_unable_rent_percent": 26.40519249869091,
+        "medical_debt_any_percent": 19.255833411681866,
+        "missed_loan_or_credit_payment_percent": 25.771655675711525,
+        "records": 319,
+        "unable_utility_percent": 32.73606542865522,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     }
   },
@@ -97,23 +223,41 @@
     "any_private": {
       "could_not_afford_medical_care_percent": 2.7227092855799317,
       "could_not_afford_prescription_percent": 1.9863775354670612,
+      "debt_collector_contact_percent": 11.637389807276561,
       "delayed_medical_care_for_cost_percent": 5.8687049324888525,
       "delayed_prescription_for_cost_percent": 2.6279416371584756,
-      "records": 10832
+      "late_or_unable_rent_percent": 5.845468724109279,
+      "medical_debt_any_percent": 16.39584794058012,
+      "missed_loan_or_credit_payment_percent": 9.099152315749217,
+      "records": 10832,
+      "unable_utility_percent": 7.557546287783317,
+      "unexpected_expense_not_confident_percent": 7.195147385833538
     },
     "public_only": {
       "could_not_afford_medical_care_percent": 3.060644057162162,
       "could_not_afford_prescription_percent": 3.2631925652434197,
+      "debt_collector_contact_percent": 15.152044299780517,
       "delayed_medical_care_for_cost_percent": 5.392983715590559,
       "delayed_prescription_for_cost_percent": 3.603305577271561,
-      "records": 6645
+      "late_or_unable_rent_percent": 11.47078068103259,
+      "medical_debt_any_percent": 12.382923362334308,
+      "missed_loan_or_credit_payment_percent": 11.58078795094939,
+      "records": 6645,
+      "unable_utility_percent": 16.664622529849243,
+      "unexpected_expense_not_confident_percent": 24.998785664539913
     },
     "uninsured": {
       "could_not_afford_medical_care_percent": 12.178005965537057,
       "could_not_afford_prescription_percent": 5.981661554120862,
+      "debt_collector_contact_percent": 17.72772528417472,
       "delayed_medical_care_for_cost_percent": 17.63237870816769,
       "delayed_prescription_for_cost_percent": 7.062730209252487,
-      "records": 1206
+      "late_or_unable_rent_percent": 12.562074301611439,
+      "medical_debt_any_percent": 15.91563196496764,
+      "missed_loan_or_credit_payment_percent": 11.320143905887866,
+      "records": 1206,
+      "unable_utility_percent": 16.154551146521694,
+      "unexpected_expense_not_confident_percent": 23.912419885768426
     }
   },
   "employment_by_confidence": {
@@ -121,32 +265,56 @@
       "confident": {
         "could_not_afford_medical_care_percent": 3.1520416953845602,
         "could_not_afford_prescription_percent": 1.8727500773827872,
+        "debt_collector_contact_percent": 10.233186149399202,
         "delayed_medical_care_for_cost_percent": 6.942998656584224,
         "delayed_prescription_for_cost_percent": 2.7305338338735,
-        "records": 7867
+        "late_or_unable_rent_percent": 5.172075433984393,
+        "medical_debt_any_percent": 15.127688232063626,
+        "missed_loan_or_credit_payment_percent": 7.765610183582369,
+        "records": 7867,
+        "unable_utility_percent": 6.995935061204081,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 15.302435292384633,
         "could_not_afford_prescription_percent": 12.053889971157107,
+        "debt_collector_contact_percent": 36.64056884440314,
         "delayed_medical_care_for_cost_percent": 21.417437529883802,
         "delayed_prescription_for_cost_percent": 11.731524552323624,
-        "records": 1058
+        "late_or_unable_rent_percent": 30.82337092903935,
+        "medical_debt_any_percent": 29.190888877961196,
+        "missed_loan_or_credit_payment_percent": 35.85978599678876,
+        "records": 1058,
+        "unable_utility_percent": 37.94691143541295,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "not_employed": {
       "confident": {
         "could_not_afford_medical_care_percent": 1.3415235642853691,
         "could_not_afford_prescription_percent": 1.550184194417818,
+        "debt_collector_contact_percent": 9.332304844714784,
         "delayed_medical_care_for_cost_percent": 3.4201605976825125,
         "delayed_prescription_for_cost_percent": 2.027828548748408,
-        "records": 7641
+        "late_or_unable_rent_percent": 4.438165544123257,
+        "medical_debt_any_percent": 11.995849379396658,
+        "missed_loan_or_credit_payment_percent": 5.7539002175474225,
+        "records": 7641,
+        "unable_utility_percent": 6.63507657057313,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 7.178099543651756,
         "could_not_afford_prescription_percent": 5.81840346685948,
+        "debt_collector_contact_percent": 32.950665898139135,
         "delayed_medical_care_for_cost_percent": 8.986735363816832,
         "delayed_prescription_for_cost_percent": 6.013719530093543,
-        "records": 1885
+        "late_or_unable_rent_percent": 26.135682382069685,
+        "medical_debt_any_percent": 23.75404328002949,
+        "missed_loan_or_credit_payment_percent": 26.716705224145294,
+        "records": 1885,
+        "unable_utility_percent": 35.16493905466778,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     }
   },
@@ -154,16 +322,28 @@
     "employed": {
       "could_not_afford_medical_care_percent": 4.436301477920349,
       "could_not_afford_prescription_percent": 2.9388868161189126,
+      "debt_collector_contact_percent": 12.98083951266332,
       "delayed_medical_care_for_cost_percent": 8.455298635378657,
       "delayed_prescription_for_cost_percent": 3.668191200812571,
-      "records": 8971
+      "late_or_unable_rent_percent": 7.858186829163713,
+      "medical_debt_any_percent": 16.556720986786264,
+      "missed_loan_or_credit_payment_percent": 10.70834468607267,
+      "records": 8971,
+      "unable_utility_percent": 10.262535219000805,
+      "unexpected_expense_not_confident_percent": 10.55550167473116
     },
     "not_employed": {
       "could_not_afford_medical_care_percent": 2.3118254487269305,
       "could_not_afford_prescription_percent": 2.250119245043979,
+      "debt_collector_contact_percent": 13.117961586766805,
       "delayed_medical_care_for_cost_percent": 4.303054413917321,
       "delayed_prescription_for_cost_percent": 2.6699411694685615,
-      "records": 9712
+      "late_or_unable_rent_percent": 7.953441631737664,
+      "medical_debt_any_percent": 13.700762767405205,
+      "missed_loan_or_credit_payment_percent": 9.122538446513923,
+      "records": 9712,
+      "unable_utility_percent": 11.276055615320644,
+      "unexpected_expense_not_confident_percent": 16.60356411865671
     }
   },
   "financial_room_labels": {
@@ -178,74 +358,134 @@
     "$0-$500": {
       "could_not_afford_medical_care_percent": 8.042419878363544,
       "could_not_afford_prescription_percent": 6.599383336463472,
+      "debt_collector_contact_percent": 20.516408079946018,
       "delayed_medical_care_for_cost_percent": 13.695406076130269,
       "delayed_prescription_for_cost_percent": 6.6810144952723585,
-      "records": 509
+      "late_or_unable_rent_percent": 9.773508858115095,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 16.641939516297157,
+      "records": 509,
+      "unable_utility_percent": 20.405176529882674,
+      "unexpected_expense_not_confident_percent": 17.211367658920352
     },
     "$1,001-$2,000": {
       "could_not_afford_medical_care_percent": 8.80073204233975,
       "could_not_afford_prescription_percent": 4.097907475589054,
+      "debt_collector_contact_percent": 36.53442596239751,
       "delayed_medical_care_for_cost_percent": 15.267026823324315,
       "delayed_prescription_for_cost_percent": 5.366601333597446,
-      "records": 472
+      "late_or_unable_rent_percent": 14.058342394490502,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 23.639603397820686,
+      "records": 472,
+      "unable_utility_percent": 21.378045367279626,
+      "unexpected_expense_not_confident_percent": 20.736718435230628
     },
     "$10,001-$20,000": {
       "could_not_afford_medical_care_percent": 16.691340705288493,
       "could_not_afford_prescription_percent": 13.36475941895987,
+      "debt_collector_contact_percent": 54.56618070230698,
       "delayed_medical_care_for_cost_percent": 24.25843301185035,
       "delayed_prescription_for_cost_percent": 15.155548232688359,
-      "records": 107
+      "late_or_unable_rent_percent": 28.2742070059622,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 25.93272547741981,
+      "records": 107,
+      "unable_utility_percent": 30.007523803195507,
+      "unexpected_expense_not_confident_percent": 19.262450229043353
     },
     "$2,001-$5,000": {
       "could_not_afford_medical_care_percent": 10.198532193543675,
       "could_not_afford_prescription_percent": 6.935450065456701,
+      "debt_collector_contact_percent": 37.96817118926861,
       "delayed_medical_care_for_cost_percent": 19.309699007688508,
       "delayed_prescription_for_cost_percent": 7.4939973063958165,
-      "records": 688
+      "late_or_unable_rent_percent": 17.698774600098723,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 31.564835300640702,
+      "records": 688,
+      "unable_utility_percent": 24.565239146410764,
+      "unexpected_expense_not_confident_percent": 26.77551977154302
     },
     "$20,001+": {
       "could_not_afford_medical_care_percent": 18.037430276160194,
       "could_not_afford_prescription_percent": 6.0787439314787575,
+      "debt_collector_contact_percent": 38.30442178786161,
       "delayed_medical_care_for_cost_percent": 22.512043623968992,
       "delayed_prescription_for_cost_percent": 8.424930168141307,
-      "records": 165
+      "late_or_unable_rent_percent": 22.64554295325223,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 32.47117906334289,
+      "records": 165,
+      "unable_utility_percent": 39.56869003198691,
+      "unexpected_expense_not_confident_percent": 30.57703324800654
     },
     "$5,001-$10,000": {
       "could_not_afford_medical_care_percent": 6.598478062162513,
       "could_not_afford_prescription_percent": 5.823087884692156,
+      "debt_collector_contact_percent": 43.387210535530926,
       "delayed_medical_care_for_cost_percent": 14.530914485948129,
       "delayed_prescription_for_cost_percent": 7.075872069794641,
-      "records": 330
+      "late_or_unable_rent_percent": 17.25192021206064,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 33.93397787608906,
+      "records": 330,
+      "unable_utility_percent": 28.968160216327547,
+      "unexpected_expense_not_confident_percent": 15.689589161154254
     },
     "$501-$1,000": {
       "could_not_afford_medical_care_percent": 10.320666322484556,
       "could_not_afford_prescription_percent": 8.171765534790591,
+      "debt_collector_contact_percent": 34.82531339781676,
       "delayed_medical_care_for_cost_percent": 16.74845273167542,
       "delayed_prescription_for_cost_percent": 7.197963149692662,
-      "records": 425
+      "late_or_unable_rent_percent": 16.19673145951589,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 19.53396290814333,
+      "records": 425,
+      "unable_utility_percent": 21.6284957104325,
+      "unexpected_expense_not_confident_percent": 30.133060708522265
     },
     "no_medical_debt": {
       "could_not_afford_medical_care_percent": 2.2418942423687813,
       "could_not_afford_prescription_percent": 1.8603625684442435,
+      "debt_collector_contact_percent": 8.679089175325315,
       "delayed_medical_care_for_cost_percent": 4.5716763097673425,
       "delayed_prescription_for_cost_percent": 2.4367903047524875,
-      "records": 15588
+      "late_or_unable_rent_percent": 6.27423410085047,
+      "medical_debt_any_percent": 0.0,
+      "missed_loan_or_credit_payment_percent": 6.910605429828016,
+      "records": 15588,
+      "unable_utility_percent": 8.160742809105264,
+      "unexpected_expense_not_confident_percent": 11.531632522528236
     }
   },
   "medical_debt_groups": {
     "any_medical_debt": {
       "could_not_afford_medical_care_percent": 9.841018554036154,
       "could_not_afford_prescription_percent": 6.647673549393909,
+      "debt_collector_contact_percent": 35.58031957718124,
       "delayed_medical_care_for_cost_percent": 16.977031471109658,
       "delayed_prescription_for_cost_percent": 7.260882509270357,
-      "records": 2696
+      "late_or_unable_rent_percent": 16.09769857271675,
+      "medical_debt_any_percent": 100.0,
+      "missed_loan_or_credit_payment_percent": 25.796295754687787,
+      "records": 2696,
+      "unable_utility_percent": 24.47960196362499,
+      "unexpected_expense_not_confident_percent": 22.943310029378907
     },
     "no_medical_debt": {
       "could_not_afford_medical_care_percent": 2.2418942423687813,
       "could_not_afford_prescription_percent": 1.8603625684442435,
+      "debt_collector_contact_percent": 8.679089175325315,
       "delayed_medical_care_for_cost_percent": 4.5716763097673425,
       "delayed_prescription_for_cost_percent": 2.4367903047524875,
-      "records": 15588
+      "late_or_unable_rent_percent": 6.27423410085047,
+      "medical_debt_any_percent": 0.0,
+      "missed_loan_or_credit_payment_percent": 6.910605429828016,
+      "records": 15588,
+      "unable_utility_percent": 8.160742809105264,
+      "unexpected_expense_not_confident_percent": 11.531632522528236
     }
   },
   "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",
@@ -254,80 +494,140 @@
       "confident": {
         "could_not_afford_medical_care_percent": 1.4244390748688247,
         "could_not_afford_prescription_percent": 1.1807393312714627,
+        "debt_collector_contact_percent": 7.130344352912372,
         "delayed_medical_care_for_cost_percent": 4.0437138764791385,
         "delayed_prescription_for_cost_percent": 1.8833346744845607,
-        "records": 7315
+        "late_or_unable_rent_percent": 2.059624785801019,
+        "medical_debt_any_percent": 11.928508278610648,
+        "missed_loan_or_credit_payment_percent": 4.8746184150547185,
+        "records": 7315,
+        "unable_utility_percent": 3.555441570892152,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 10.887065728310683,
         "could_not_afford_prescription_percent": 7.43672847322102,
+        "debt_collector_contact_percent": 29.58779893917894,
         "delayed_medical_care_for_cost_percent": 15.558542577043886,
         "delayed_prescription_for_cost_percent": 7.3103123657823605,
-        "records": 268
+        "late_or_unable_rent_percent": 17.35936637028896,
+        "medical_debt_any_percent": 24.75676942934286,
+        "missed_loan_or_credit_payment_percent": 31.677268171540785,
+        "records": 268,
+        "unable_utility_percent": 31.70178667484121,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "low_income": {
       "confident": {
         "could_not_afford_medical_care_percent": 3.8084820246761173,
         "could_not_afford_prescription_percent": 2.4492084863181103,
+        "debt_collector_contact_percent": 13.629839122376284,
         "delayed_medical_care_for_cost_percent": 6.155090162764002,
         "delayed_prescription_for_cost_percent": 3.305635996761242,
-        "records": 1609
+        "late_or_unable_rent_percent": 11.017391157112469,
+        "medical_debt_any_percent": 14.513172554887163,
+        "missed_loan_or_credit_payment_percent": 10.548632755254614,
+        "records": 1609,
+        "unable_utility_percent": 12.485393669260493,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 8.469990447877427,
         "could_not_afford_prescription_percent": 7.243131986788642,
+        "debt_collector_contact_percent": 37.02874557749088,
         "delayed_medical_care_for_cost_percent": 11.326426705201646,
         "delayed_prescription_for_cost_percent": 6.891511081748939,
-        "records": 645
+        "late_or_unable_rent_percent": 31.071669324737123,
+        "medical_debt_any_percent": 26.40093077104303,
+        "missed_loan_or_credit_payment_percent": 27.605522121890402,
+        "records": 645,
+        "unable_utility_percent": 33.70971489024118,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "middle_income": {
       "confident": {
         "could_not_afford_medical_care_percent": 3.242150686575261,
         "could_not_afford_prescription_percent": 2.281272671271205,
+        "debt_collector_contact_percent": 12.67142956972443,
         "delayed_medical_care_for_cost_percent": 6.986372811207504,
         "delayed_prescription_for_cost_percent": 2.895922847552821,
-        "records": 4285
+        "late_or_unable_rent_percent": 6.118552380268842,
+        "medical_debt_any_percent": 18.00712084593072,
+        "missed_loan_or_credit_payment_percent": 8.53619911014189,
+        "records": 4285,
+        "unable_utility_percent": 8.05803718057362,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 12.091442447968312,
         "could_not_afford_prescription_percent": 9.45766978331712,
+        "debt_collector_contact_percent": 43.10750390306295,
         "delayed_medical_care_for_cost_percent": 18.690807243760986,
         "delayed_prescription_for_cost_percent": 10.154886145743188,
-        "records": 681
+        "late_or_unable_rent_percent": 32.79109411704306,
+        "medical_debt_any_percent": 38.11054735028162,
+        "missed_loan_or_credit_payment_percent": 42.978629759885415,
+        "records": 681,
+        "unable_utility_percent": 41.37613665327898,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "near_poor": {
       "confident": {
         "could_not_afford_medical_care_percent": 4.469661067961804,
         "could_not_afford_prescription_percent": 2.987919922332248,
+        "debt_collector_contact_percent": 13.272781686737096,
         "delayed_medical_care_for_cost_percent": 8.086538479260343,
         "delayed_prescription_for_cost_percent": 4.447235751883985,
-        "records": 519
+        "late_or_unable_rent_percent": 6.658447845391606,
+        "medical_debt_any_percent": 12.348332745938192,
+        "missed_loan_or_credit_payment_percent": 10.74743102280375,
+        "records": 519,
+        "unable_utility_percent": 10.700779827889463,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 10.219842452994104,
         "could_not_afford_prescription_percent": 4.681010216299589,
+        "debt_collector_contact_percent": 31.23612471236563,
         "delayed_medical_care_for_cost_percent": 12.232072309958777,
         "delayed_prescription_for_cost_percent": 4.413210945004082,
-        "records": 250
+        "late_or_unable_rent_percent": 30.50997430015826,
+        "medical_debt_any_percent": 19.98399616144445,
+        "missed_loan_or_credit_payment_percent": 18.904919730554,
+        "records": 250,
+        "unable_utility_percent": 43.98922474106161,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     },
     "poor_or_negative": {
       "confident": {
         "could_not_afford_medical_care_percent": 2.4381321939300693,
         "could_not_afford_prescription_percent": 1.941637381221512,
+        "debt_collector_contact_percent": 11.116544973534861,
         "delayed_medical_care_for_cost_percent": 6.086941083689901,
         "delayed_prescription_for_cost_percent": 2.3200980060805385,
-        "records": 1780
+        "late_or_unable_rent_percent": 9.730397576812551,
+        "medical_debt_any_percent": 9.61001230066351,
+        "missed_loan_or_credit_payment_percent": 7.736120193592141,
+        "records": 1780,
+        "unable_utility_percent": 14.938146891548055,
+        "unexpected_expense_not_confident_percent": 0.0
       },
       "not_confident": {
         "could_not_afford_medical_care_percent": 10.802037721400824,
         "could_not_afford_prescription_percent": 10.037176637675232,
+        "debt_collector_contact_percent": 26.51901528685976,
         "delayed_medical_care_for_cost_percent": 11.901314269629673,
         "delayed_prescription_for_cost_percent": 9.705655893013201,
-        "records": 1099
+        "late_or_unable_rent_percent": 24.910989490122805,
+        "medical_debt_any_percent": 15.479093019201716,
+        "missed_loan_or_credit_payment_percent": 23.214608868342616,
+        "records": 1099,
+        "unable_utility_percent": 33.31362564359427,
+        "unexpected_expense_not_confident_percent": 100.0
       }
     }
   },
@@ -335,37 +635,67 @@
     "high_income": {
       "could_not_afford_medical_care_percent": 1.7862724519804645,
       "could_not_afford_prescription_percent": 1.4089362481078966,
+      "debt_collector_contact_percent": 7.920400089224963,
       "delayed_medical_care_for_cost_percent": 4.465319661370269,
       "delayed_prescription_for_cost_percent": 2.0726429904618255,
-      "records": 7647
+      "late_or_unable_rent_percent": 2.626043103455755,
+      "medical_debt_any_percent": 12.315844075091306,
+      "missed_loan_or_credit_payment_percent": 5.854139662722389,
+      "records": 7647,
+      "unable_utility_percent": 4.6149371171590525,
+      "unexpected_expense_not_confident_percent": 3.8376782270884138
     },
     "low_income": {
       "could_not_afford_medical_care_percent": 5.120141317390046,
       "could_not_afford_prescription_percent": 3.766202262377283,
+      "debt_collector_contact_percent": 20.134442109840023,
       "delayed_medical_care_for_cost_percent": 7.547944999565938,
       "delayed_prescription_for_cost_percent": 4.275464568478271,
-      "records": 2293
+      "late_or_unable_rent_percent": 16.408943214362367,
+      "medical_debt_any_percent": 17.64298319418095,
+      "missed_loan_or_credit_payment_percent": 15.116997455688333,
+      "records": 2293,
+      "unable_utility_percent": 18.179358104746434,
+      "unexpected_expense_not_confident_percent": 27.693768662763794
     },
     "middle_income": {
       "could_not_afford_medical_care_percent": 4.397426318132334,
       "could_not_afford_prescription_percent": 3.2137518964924525,
+      "debt_collector_contact_percent": 16.610053603503967,
       "delayed_medical_care_for_cost_percent": 8.50701506820879,
       "delayed_prescription_for_cost_percent": 3.8341859532615317,
-      "records": 5004
+      "late_or_unable_rent_percent": 9.604135310718014,
+      "medical_debt_any_percent": 20.54328036728836,
+      "missed_loan_or_credit_payment_percent": 13.06490703095462,
+      "records": 5004,
+      "unable_utility_percent": 12.495462142287142,
+      "unexpected_expense_not_confident_percent": 13.260824036330257
     },
     "near_poor": {
       "could_not_afford_medical_care_percent": 6.045088905903421,
       "could_not_afford_prescription_percent": 3.3736047305486183,
+      "debt_collector_contact_percent": 18.446490274176654,
       "delayed_medical_care_for_cost_percent": 8.99485000940661,
       "delayed_prescription_for_cost_percent": 4.228698750568086,
-      "records": 799
+      "late_or_unable_rent_percent": 13.968761208891106,
+      "medical_debt_any_percent": 14.170611766392499,
+      "missed_loan_or_credit_payment_percent": 12.966006321885004,
+      "records": 799,
+      "unable_utility_percent": 20.750611040438336,
+      "unexpected_expense_not_confident_percent": 31.03301499340274
     },
     "poor_or_negative": {
       "could_not_afford_medical_care_percent": 5.1677895601795685,
       "could_not_afford_prescription_percent": 4.63024747426429,
+      "debt_collector_contact_percent": 15.897448965131279,
       "delayed_medical_care_for_cost_percent": 7.857384211228283,
       "delayed_prescription_for_cost_percent": 4.7662766728149375,
-      "records": 2940
+      "late_or_unable_rent_percent": 14.444604227322378,
+      "medical_debt_any_percent": 11.278588523072495,
+      "missed_loan_or_credit_payment_percent": 12.600387414923608,
+      "records": 2940,
+      "unable_utility_percent": 20.597641099297885,
+      "unexpected_expense_not_confident_percent": 32.74227885206027
     }
   },
   "schema": "us-meps-2024-financial-room-care-delay-v1"
