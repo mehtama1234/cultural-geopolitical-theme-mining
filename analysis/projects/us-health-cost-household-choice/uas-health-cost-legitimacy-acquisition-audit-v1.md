@@ -17,6 +17,20 @@ gated, and the public documentation does not by itself establish the final
 usable overlap, response timing, or weight availability. Those are acquisition
 checks, not assumptions.
 
+## Access verification (2026-09-15)
+
+The official UAS access pages confirm that non-registered users can explore
+survey and variable metadata but cannot view or download the data. The Monthly
+Panel page labels the dataset download as registration required, and the UAS
+data-access guidance requires a data-user account and submitted agreement.
+Accordingly, there is no public-file substitute to add to this repository at
+present. The next operational step is to register through the [UAS data
+access page](https://uasdata.usc.edu/index.php?pid=Types+Of+Data&type=3), accept
+the conditions of use, and then acquire the [Monthly Panel
+Dataset](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3), UAS 537,
+and UAS 698 files. This is an access prerequisite, not evidence for any
+health-cost result.
+
 ## Documented source architecture
 
 USC describes the UAS Comprehensive File and Comprehensive Panel Dataset as
