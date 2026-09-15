@@ -32,6 +32,11 @@ observed payment through care choice, household substitution, recovery,
 institutional remedy, and trust/action, while naming the evidence and the next
 required join.
 
+The [SHED 2025 care-skipping and medical-debt layer](shed-2025-care-skipping-choice-layer-v1.md)
+adds the reported population-level care-choice stage that observed MEPS event
+files cannot see: going without treatment because of cost, the types of care
+skipped, income and insurance differences, and medical debt.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
