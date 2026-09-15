@@ -49,6 +49,12 @@ def summarize(frame: pd.DataFrame) -> dict[str, object]:
         "bill_problem_followup_percent": share(frame["BILL_PROBLEM"], weights),
         "fair_poor_health_followup_percent": share(frame["FAIR_POOR_HEALTH"], weights),
         "not_employed_followup_percent": share(frame["NOT_EMPLOYED"], weights),
+        "unexpected_expense_not_confident_percent": share(frame["UNEXPECTED_NOT_CONFIDENT"], weights),
+        "missed_loan_or_credit_payment_percent": share(frame["MISSED_PAYMENT"], weights),
+        "debt_collector_contact_percent": share(frame["DEBT_COLLECTOR"], weights),
+        "medical_debt_any_percent": share(frame["MEDICAL_DEBT_ANY"], weights),
+        "late_or_unable_rent_percent": share(frame["LATE_RENT"], weights),
+        "unable_utility_percent": share(frame["UNABLE_UTILITY"], weights),
     }
 
 
@@ -61,18 +67,24 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
-    person = read(args.hc256_file, ["DUPERSID", "PANEL", "PERWT24F", "RTHLTH42", "EMPST42", "PROBPY42"])
+    person = read(args.hc256_file, ["DUPERSID", "PANEL", "PERWT24F", "RTHLTH42", "EMPST42", "PROBPY42", "FWUNEXP42", "FWCRED42", "FWDEBT42", "MEDDEBT42", "FWRENT42", "FWUTIL42"])
     person["PERSON_KEY"] = person_key(person)
     person["BILL_PROBLEM"] = person["PROBPY42"].eq(1).astype(float)
     person["FAIR_POOR_HEALTH"] = person["RTHLTH42"].isin([4, 5]).astype(float)
     person["NOT_EMPLOYED"] = (~person["EMPST42"].isin([1, 2, 3])).astype(float)
+    person["UNEXPECTED_NOT_CONFIDENT"] = person["FWUNEXP42"].isin([1, 2]).astype(float)
+    person["MISSED_PAYMENT"] = person["FWCRED42"].eq(1).astype(float)
+    person["DEBT_COLLECTOR"] = person["FWDEBT42"].eq(1).astype(float)
+    person["MEDICAL_DEBT_ANY"] = person["MEDDEBT42"].between(1, 7).astype(float)
+    person["LATE_RENT"] = person["FWRENT42"].eq(1).astype(float)
+    person["UNABLE_UTILITY"] = person["FWUTIL42"].eq(1).astype(float)
 
     output: dict[str, object] = {
         "schema": "us-meps-2024-first-event-payment-bands-v1",
-        "method": "Within each event family, retain the first valid dated event per DUPERSID+PANEL, join HC-256 follow-up fields, and report weighted outcome shares by self/family payment band.",
+        "method": "Within each event family, retain the first valid dated event per DUPERSID+PANEL, join HC-256 round 4/2 health, work, bill-problem, and financial-well-being fields, and report weighted context shares by self/family payment band.",
         "payment_bands": ["$0", "$1-$99", "$100-$499", "$500-$1,999", "$2,000+"],
         "events": {},
-        "limitation": "Payment is event-family self/family payment, not a complete bill or household burden. The first event may follow an earlier need, and follow-up annual fields do not identify causation, care foregoing, alternatives, debt, remedy, trust, or action.",
+        "limitation": "Payment is event-family self/family payment, not a complete bill or household burden. Financial-well-being fields are round 4/2 context and are not event-specific; the first event may follow an earlier need. No causation, care foregoing, alternatives, remedy, trust, or action is identified.",
     }
     for name, path in {"office": args.office_file, "emergency_room": args.emergency_room_file, "inpatient": args.inpatient_file}.items():
         year_field, month_field, payment_field = EVENTS[name]

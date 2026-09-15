@@ -10,7 +10,7 @@ The first valid office, emergency-room, or inpatient event for a person can be
 linked exactly to the MEPS 2024 person file and divided by self/family payment
 band. This adds resolution to the existing event ledger: it tests whether a
 larger recorded event payment corresponds to a larger follow-up bill-problem,
-health, or work-context share within the same event family.
+health, work, or practical-financial-room share within the same event family.
 
 The result is still not an affordability estimate. Event payment excludes
 unobserved premiums, deductibles, unpaid family time, transport, denied care,
@@ -37,10 +37,27 @@ event population may differ sharply in severity, age, disability, or prior
 condition. They do not show that paying more improved health or that paying
 nothing removed household burden.
 
+The HC-256 file also carries round 4/2 financial-well-being context. The
+payment-band output reports confidence paying an unexpected expense, missed
+loan/credit payments, debt-collector contact, medical debt, late rent, and
+unpaid utilities. These fields make the practical-room stage more explicit,
+but they remain temporally broader than the first event and should not be read
+as consequences of that event.
+
+In the emergency-room first-event universe, 24.65% of the zero-payment band
+was not at all or not too confident about paying an unexpected expense,
+compared with 4.32% of the $2,000+ band. Medical debt moved in the opposite
+direction in this comparison: 20.68% versus 32.99%. The two measures together
+are a useful counterexample to a single burden interpretation. Zero payment
+can coexist with less financial room, while a high payment band can contain
+people with greater medical debt but more capacity to meet an unexpected bill.
+Both patterns may be driven by selection, payer protection, severity, and
+resources rather than the displayed event payment.
+
 ```text
 first dated event
   -> self/family payment band
-  -> bounded bill, health, and employment context
+  -> bounded bill, health, work, and financial-room context
 ```
 
 The missing arrows remain care continuation or foregoing, feasible alternative,
