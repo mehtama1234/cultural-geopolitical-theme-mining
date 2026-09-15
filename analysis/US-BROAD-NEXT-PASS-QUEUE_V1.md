@@ -6,8 +6,8 @@
 
 **Coverage checkpoint (2026-09-15):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 219 records and
-836 observations.
+have exact registered-URL references. The trend registry holds 220 records and
+839 observations.
 The reverse audit shows 28 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -766,6 +766,13 @@ the material-to-wellbeing bridge while preserving the counterexample that
 financial improvement does not guarantee health improvement. The next step is
 care intensity, schedule control, dated trigger, and later meaning/action—not
 another pooled stress index.
+
+The [SHED adaptation-by-health-direction layer](projects/us-household-financial-pressure/shed-panel-adaptation-health-path-layer-v1.md)
+now conditions adaptation persistence and entry on 2024→2025 self-rated-health
+direction. Improved health does not automatically unwind borrowing or delayed
+purchases, while reduced-savings persistence is lower in the improved-health
+path. This advances the recovery arrow but remains descriptive: annual health
+categories do not identify a dated bill, treatment decision, or causal ordering.
 
 The [ATUS care/work trend record](records/us-atus-eldercare-work-time-2023-2024.json)
 adds a population-scale time/care source to the registry: 38.192 million
