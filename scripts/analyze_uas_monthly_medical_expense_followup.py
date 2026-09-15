@@ -90,6 +90,14 @@ def main() -> int:
         parser.error("missing required UAS fields: " + ", ".join(missing))
     columns = [field for field in requested if field in available]
     frame, metadata_info = read_file(args.monthly_file, columns)
+    if frame["uasid"].isna().any():
+        parser.error("uasid contains missing values; cannot establish respondent continuity")
+    duplicate_key = frame.duplicated(subset=["uasid", "wave"], keep=False)
+    if duplicate_key.any():
+        parser.error(
+            "duplicate uasid-wave rows detected; resolve respondent-wave uniqueness "
+            f"before running a longitudinal follow-up ({int(duplicate_key.sum())} rows)"
+        )
     frame["_wave_num"] = pd.to_numeric(frame["wave"], errors="coerce")
     frame["_weight"] = pd.to_numeric(frame["final_weight"], errors="coerce")
     frame = frame.sort_values(["uasid", "_wave_num"], kind="stable").reset_index(drop=True)

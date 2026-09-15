@@ -150,6 +150,13 @@ pain, and meaning when present, records the input hash and exposure codes, and
 does not claim design-based uncertainty. The comparison is a bounded
 transition screen, not a bill-level causal estimate.
 
+The follow-up script refuses to analyze a file with missing `uasid` values or
+duplicate `uasid`-`wave` rows. This is a validity gate: a duplicate
+respondent-wave record can make the apparent “next wave” depend on row order
+rather than survey time. The file inventory audit should be run first so any
+such problem is preserved as an acquisition finding rather than dropped during
+analysis.
+
 ## Promotion rule
 
 Promote a UAS result into the health-cost end-to-end finding only if one
