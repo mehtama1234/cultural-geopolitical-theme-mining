@@ -189,6 +189,27 @@ def attribution(frame: pd.DataFrame) -> dict[str, object]:
     return {"hardship_records": int(len(hardship)), "groups": result}
 
 
+def timing(frame: pd.DataFrame) -> dict[str, object]:
+    if "UTK315" not in frame:
+        return {}
+    hardship = frame[frame.crisis_medexp == 1].dropna(subset=["UTK315", "teamweight"])
+    total_weight = float(hardship.teamweight.sum())
+    labels = {
+        1: "before_2020", 2: "jan_feb_2020", 3: "mar_apr_2020",
+        4: "jun_jul_2020", 5: "aug_sep_2020", 6: "after_sep_2020",
+    }
+    groups: dict[str, object] = {}
+    for code, group in hardship.groupby("UTK315"):
+        label = labels.get(int(code), str(code))
+        groups[label] = {
+            "records": int(len(group)),
+            "weighted_share_percent": float(100 * group.teamweight.sum() / total_weight),
+            "contact_percent": weighted_mean(group, "part_contact") * 100,
+            "protest_percent": weighted_mean(group, "part_protest") * 100,
+        }
+    return {"hardship_records": int(len(hardship)), "groups": groups}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input-2018", type=Path, required=True)
@@ -211,6 +232,7 @@ def main() -> None:
             "descriptive": descriptive(frame),
             "adjusted_screen": adjusted_screen(frame),
             "attribution": attribution(frame),
+            "timing": timing(frame),
         }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(outputs, indent=2, sort_keys=True) + "\n", encoding="utf-8")

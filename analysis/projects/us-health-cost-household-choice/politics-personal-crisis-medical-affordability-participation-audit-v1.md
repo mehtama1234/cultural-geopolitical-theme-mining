@@ -175,6 +175,18 @@ the 2018 categories permit multiple selections, while 2020 reports one
 attribution category, and the question wording/context differ. The two years
 therefore support an attribution-aware test design, not a pooled estimate.
 
+### Timing sensitivity inside 2020
+
+The 2020 timing item also argues against treating the year as one homogeneous
+shock. Among hardship respondents, the weighted official-contact rate was
+27.6% for expenses reported before 2020, 11.9% for January–February 2020, and
+31.1% for March 2020 or later. The corresponding protest rates were 10.1%,
+0.0%, and 9.7%. The post-March group represents 54.9% of the hardship
+group's weight and contains 93 unweighted respondents. These timing cells are
+descriptive and not comparable event cohorts: the question asks about a broad
+prior period, the election-year action window differs from the hardship window,
+and pandemic conditions may alter both need and political opportunity.
+
 ## Basic adjusted extension
 
 As a sensitivity screen, I fit separate weighted logistic models for validated

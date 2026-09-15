@@ -54,7 +54,12 @@
         "federal_attribution_protest": {"value": 23.6, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
         "bad_luck_attribution_protest": {"value": 4.0, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
         "adjusted_contact_odds_ratio": {"value": 1.799, "unit": "odds ratio; 95% model interval 1.023–3.164", "value_type": "weighted_logistic_screen"},
-        "adjusted_sign_odds_ratio": {"value": 0.510, "unit": "odds ratio; 95% model interval 0.268–0.971", "value_type": "weighted_logistic_screen"}
+        "adjusted_sign_odds_ratio": {"value": 0.510, "unit": "odds ratio; 95% model interval 0.268–0.971", "value_type": "weighted_logistic_screen"},
+        "before_2020_contact_official": {"value": 27.6, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
+        "jan_feb_2020_contact_official": {"value": 11.9, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
+        "march_2020_or_later_contact_official": {"value": 31.1, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
+        "before_2020_protest": {"value": 10.1, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"},
+        "march_2020_or_later_protest": {"value": 9.7, "unit": "percent weighted mean", "value_type": "weighted_timing_group_mean"}
       },
       "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
       "uncertainty": "No reproduced design-based standard errors are claimed. A basic weighted logistic screening extension gives contact OR 1.799 (model-robust 95% interval 1.023–3.164) and sign OR 0.510 (0.268–0.971); these are not survey-design intervals. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",
