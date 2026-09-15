@@ -45,6 +45,14 @@ This makes the action arrow directly observed within a respondent, but the
 extract still lacks a dated bill, remedy, design-based medical-specific
 uncertainty, and a later trust or recovery measure.
 
+The HRS 2019 Health Survey supplies an older-adult context check from its
+published codebook: 8.34% reported delaying care because of cost, 5.87% needed
+care but could not afford it, and 14.14% were somewhat or very dissatisfied
+with health-care cost. These are unweighted codebook frequencies, not a
+longitudinal estimate. HRS 2020 documentation adds non-cost delay reasons and
+trust targets for Medicare/Medicaid and insurers, but module overlap and panel
+timing still require microdata verification.
+
 ## Evidence chain
 
 | Link in the chain | What the evidence shows | Classification |
@@ -68,6 +76,7 @@ uncertainty, and a later trust or recovery measure.
 | Institutional visibility → credit constraint | CFPB analysis found medical collections concentrated in lower-income communities; small-balance tradelines were common, and a collection was associated with a credit-score decline. | Official reported / compared |
 | Remedy → downstream outcome | Randomized medical-debt relief produced modest credit-access improvements where counterfactual reporting was active, but no detected average health, utilization, or financial-wellness repair. | Randomized estimate |
 | Burden → legitimacy/action | ANES compares health-care payment concern with trust and policy demand; CES medical-expense hardship is observed alongside political action and responsibility attribution; Census adds an expense-difficulty/confidence contrast. Together these separate judgment and action routes, but none follows the same dated bill through remedy to later legitimacy. | Same-survey descriptive bridges / inferred across sources / open |
+| Older-adult cost baseline → trust acquisition | HRS 2019 codebook frequencies establish cost-related delay and cost dissatisfaction; HRS 2020 documentation identifies unaffordability reasons and Medicare/Medicaid and insurer trust targets. | Unweighted published frequencies / official acquisition route / panel sequence open |
 
 ## Arrow-by-arrow boundary
 
@@ -129,6 +138,7 @@ missingness, uncertainty, counterexamples, and a clear follow-up window.
 - [Medical-debt relief outcome separation](../medical-debt-relief-rct-outcome-separation-v1.md)
 - [Health-cost institutional-legitimacy bridge](../health-cost-institutional-legitimacy-bridge-v1.md)
 - [CES medical-affordability political-action finding](../../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
+- [HRS health-cost and institutional-trust acquisition audit](../hrs-health-cost-trust-acquisition-audit-v1.md)
 
 **Evidence status:** an auditable layered bridge is established; the same-unit
 bill-to-choice-to-adaptation-to-remedy-to-legitimacy chain remains open.
