@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-237 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+238 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -505,6 +505,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Observed event payment is not a monotonic measure of annual medical-bill problems | cost, time | household_room_consumption, care_health_reproduction, unequal_exposure_status | 2024 MEPS event records linked to HC-256 annual person context | United States | 4 | Calendar year 2024; office-visit events; Calendar year 2024; emergency-room events; Calendar year 2024; inpatient-stay events; Calendar year 2024; prescription-purchase events | compared | [open](records/us-meps-2024-event-payment-bill-context.json) |
 
 **Boundary:** This joins observed event payments to annual person context, not a specific bill or causal event sequence. It does not observe forgone care, debt, payment timing, borrowing, savings draw, recovery, trust, or action.
+
+| MEPS 2024 financial room and medical debt align with cost-related care delay measures | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person-level financial-room, medical-debt, and cost-related care-access fields | United States | 1 | 2024; round 4/2 financial room, medical debt, and cost-related care access | compared | [open](records/us-meps-2024-financial-room-care-delay-2024.json) |
+
+**Boundary:** This is a same-respondent cross-sectional association between financial room/medical debt and cost-related care access. It does not identify a dated episode, causal effect, household adaptation, remedy, trust, political action, or geopolitical consequence.
 
 | MEPS 2024 full-year file supplies a newer design-based health-cost vintage | cost, time, work | care_health_reproduction, household_room_consumption, work_control_bargaining, public_systems_feedback | AHRQ MEPS Household Component 2024 Full-Year Consolidated Public Use File release and 2026 release schedule | United States; civilian noninstitutionalized population | 9 | Calendar year 2024; full-year consolidated PUF release; 2026 MEPS release schedule; September checkpoint; Calendar year 2024; all HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; poverty-category subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; full-year insurance coverage subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; HC-254G office-based medical provider event layer; Calendar year 2024; HC-254A prescribed-medicine purchase event layer; Calendar year 2024; HC-254E emergency-room visit event layer; Calendar year 2024; HC-254D hospital inpatient-stay event layer | estimated; reported | [open](records/us-meps-2024-full-year-release-gate.json) |
 

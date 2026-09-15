@@ -117,6 +117,12 @@ alternatives, care choice, obligation, protected and sacrificed outcomes,
 institutional remedy, and later trust/action with explicit promotion and
 failure rules.
 
+The [MEPS financial-room/care-delay layer](meps-2024-financial-room-care-delay-v1.md)
+adds a same-respondent comparison between confidence paying an unexpected
+expense or medical debt and cost-related delay or inability to afford care and
+prescriptions. It is a stronger practical-room association, but not a dated
+bill-level causal result.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional

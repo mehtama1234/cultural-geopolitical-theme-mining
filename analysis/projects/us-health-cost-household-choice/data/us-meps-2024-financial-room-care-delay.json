@@ -1,0 +1,72 @@
+{
+  "confidence_groups": {
+    "confident_combined": {
+      "could_not_afford_medical_care_percent": 2.338122434105267,
+      "could_not_afford_prescription_percent": 1.727740435851411,
+      "delayed_medical_care_for_cost_percent": 5.359305181630134,
+      "delayed_prescription_for_cost_percent": 2.4146323486899,
+      "records": 15508
+    },
+    "not_at_all_confident": {
+      "could_not_afford_medical_care_percent": 12.285069259830182,
+      "could_not_afford_prescription_percent": 10.78171078797604,
+      "delayed_medical_care_for_cost_percent": 16.42129848453637,
+      "delayed_prescription_for_cost_percent": 10.402670041980006,
+      "records": 1629
+    },
+    "not_confident_combined": {
+      "could_not_afford_medical_care_percent": 10.54986001747425,
+      "could_not_afford_prescription_percent": 8.406254040800059,
+      "delayed_medical_care_for_cost_percent": 14.145723313316747,
+      "delayed_prescription_for_cost_percent": 8.3867220212801,
+      "records": 2943
+    },
+    "not_too_confident": {
+      "could_not_afford_medical_care_percent": 8.66981966691426,
+      "could_not_afford_prescription_percent": 5.83252723789455,
+      "delayed_medical_care_for_cost_percent": 11.680214809675544,
+      "delayed_prescription_for_cost_percent": 6.2025107278907745,
+      "records": 1314
+    },
+    "somewhat_confident": {
+      "could_not_afford_medical_care_percent": 4.870671287933743,
+      "could_not_afford_prescription_percent": 3.2462117803648716,
+      "delayed_medical_care_for_cost_percent": 9.349442234004126,
+      "delayed_prescription_for_cost_percent": 3.923506531460662,
+      "records": 3625
+    },
+    "very_confident": {
+      "could_not_afford_medical_care_percent": 1.5854791354005668,
+      "could_not_afford_prescription_percent": 1.27646887202926,
+      "delayed_medical_care_for_cost_percent": 4.173484063572443,
+      "delayed_prescription_for_cost_percent": 1.9662129468157046,
+      "records": 11883
+    }
+  },
+  "financial_room_labels": {
+    "1": "not_at_all_confident",
+    "2": "not_too_confident",
+    "3": "somewhat_confident",
+    "4": "very_confident"
+  },
+  "financial_room_measure": "FWUNEXP42: confidence paying an unexpected expense",
+  "limitation": "Same-round associations do not identify event timing, causation, a specific bill, alternatives, care completion, or later recovery, trust, or action. Financial-room and care-access fields may refer to different needs.",
+  "medical_debt_groups": {
+    "any_medical_debt": {
+      "could_not_afford_medical_care_percent": 9.841018554036154,
+      "could_not_afford_prescription_percent": 6.647673549393909,
+      "delayed_medical_care_for_cost_percent": 16.977031471109658,
+      "delayed_prescription_for_cost_percent": 7.260882509270357,
+      "records": 2696
+    },
+    "no_medical_debt": {
+      "could_not_afford_medical_care_percent": 2.2418942423687813,
+      "could_not_afford_prescription_percent": 1.8603625684442435,
+      "delayed_medical_care_for_cost_percent": 4.5716763097673425,
+      "delayed_prescription_for_cost_percent": 2.4367903047524875,
+      "records": 15588
+    }
+  },
+  "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",
+  "schema": "us-meps-2024-financial-room-care-delay-v1"
+}

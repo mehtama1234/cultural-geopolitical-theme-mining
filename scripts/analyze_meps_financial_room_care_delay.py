@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+"""Cross-tab MEPS 2024 financial room and cost-related care delay."""
+
+from __future__ import annotations
+
+import argparse
+import json
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import pyreadstat
+
+
+def weighted_share(frame: pd.DataFrame, field: str) -> float | None:
+    weight = pd.to_numeric(frame["PERWT24F"], errors="coerce")
+    value = pd.to_numeric(frame[field], errors="coerce")
+    valid = weight.gt(0) & value.notna()
+    if not valid.any() or weight[valid].sum() == 0:
+        return None
+    return float(100 * np.average(value[valid], weights=weight[valid]))
+
+
+def summarize(frame: pd.DataFrame) -> dict[str, object]:
+    weight = pd.to_numeric(frame["PERWT24F"], errors="coerce")
+    valid = weight.gt(0)
+    frame = frame.loc[valid]
+    return {
+        "records": int(len(frame)),
+        "delayed_medical_care_for_cost_percent": weighted_share(frame, "DELAYED_MEDICAL_CARE"),
+        "could_not_afford_medical_care_percent": weighted_share(frame, "COULD_NOT_AFFORD_MEDICAL_CARE"),
+        "delayed_prescription_for_cost_percent": weighted_share(frame, "DELAYED_PRESCRIPTION"),
+        "could_not_afford_prescription_percent": weighted_share(frame, "COULD_NOT_AFFORD_PRESCRIPTION"),
+    }
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("hc256_file", type=Path)
+    parser.add_argument("--output", type=Path, required=True)
+    args = parser.parse_args()
+    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
+    frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
+    frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
+    frame["DELAYED_PRESCRIPTION"] = frame["DLAYPM42"].eq(1).astype(float)
+    frame["COULD_NOT_AFFORD_PRESCRIPTION"] = frame["AFRDPM42"].eq(1).astype(float)
+    output: dict[str, object] = {
+        "schema": "us-meps-2024-financial-room-care-delay-v1",
+        "method": "Use positive PERWT24F and valid round 4/2 financial-room, medical-debt, and cost-related care-access fields from HC-256; report weighted cross-sectional shares.",
+        "financial_room_measure": "FWUNEXP42: confidence paying an unexpected expense",
+        "financial_room_labels": {"1": "not_at_all_confident", "2": "not_too_confident", "3": "somewhat_confident", "4": "very_confident"},
+        "confidence_groups": {},
+        "medical_debt_groups": {},
+        "limitation": "Same-round associations do not identify event timing, causation, a specific bill, alternatives, care completion, or later recovery, trust, or action. Financial-room and care-access fields may refer to different needs.",
+    }
+    confidence = {1: "not_at_all_confident", 2: "not_too_confident", 3: "somewhat_confident", 4: "very_confident"}
+    for code, label in confidence.items():
+        output["confidence_groups"][label] = summarize(frame.loc[frame["FWUNEXP42"].eq(code)])
+    output["confidence_groups"]["not_confident_combined"] = summarize(frame.loc[frame["FWUNEXP42"].isin([1, 2])])
+    output["confidence_groups"]["confident_combined"] = summarize(frame.loc[frame["FWUNEXP42"].isin([3, 4])])
+    output["medical_debt_groups"]["no_medical_debt"] = summarize(frame.loc[frame["MEDDEBT42"].eq(0)])
+    output["medical_debt_groups"]["any_medical_debt"] = summarize(frame.loc[frame["MEDDEBT42"].between(1, 7)])
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(output, indent=2, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
