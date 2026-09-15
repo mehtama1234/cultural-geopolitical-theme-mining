@@ -48,7 +48,7 @@ monthly health/financial event or special-module medical-cost experience
 |---|---|---|---|
 | UAS 698 health-cost module | Health-care costs in the last two years, out-of-pocket amount, outside help with medical costs/insurance/long-term care, overall satisfaction with quality/cost/convenience, needed-but-not-received care, and reasons including unaffordability, scheduling, transportation, and waiting | Bill/payment burden, alternatives, care foregoing, support route, and satisfaction in the same respondent | Exact field names, dates/recall windows, module-to-core overlap, weights, missingness, and whether trust/action is in the linked wave |
 | UAS 537 future-of-health-care module | Recent health-care visits and billing, unaffordable care since March 2020, current ability to afford services, transportation access, household medical bill that was unaffordable or disputed, provider-organization rating, and trust in hospitals and insurers after hospitalization | Direct bill/affordability, access alternative, provider experience, and institution-specific trust | The pandemic-recall window is broad; trust is conditional on hospitalization; verify usable overlap and survey weights |
-| UAS Monthly Panel, October 2023–present | Previous-month health, financial, employment, life satisfaction, pain, stress, and meaning/purpose events | A genuinely dated monthly exposure-to-subsequent-outcome backbone | Documentation does not guarantee a medical-bill or trust item in every wave; acquire codebook and enumerate wave coverage |
+| UAS Monthly Panel, October 2023–present | Previous-month health, financial, employment, life satisfaction, pain, stress, and meaning/purpose events; `fin3s4` identifies significant medical or dental expenses and `fin1_when_*` dates the financial change | A dated medical-expense-shock-to-subsequent-health/work/wellbeing backbone | The monthly core does not document bill amount, care choice, payment obligation, remedy, or trust; use UAS 537/698 for those fields and enumerate wave coverage |
 | UAS Older Ages Monthly Events, June 2019–September 2023 | Previous-month medical expenditures, work hours/earnings, health, life satisfaction, and pain for age 50+ panel members | Monthly medical-spending-to-health/work/meaning timing for an older-age subsample | No documented same-file political-trust endpoint in the public summary; link to core/special modules and retain age restriction |
 
 The questionnaire pages expose additional field-level anchors for the
@@ -61,6 +61,21 @@ expenses), `N235` (overall satisfaction with health-care quality, cost, and
 convenience), `N492` (needed medical care but did not get it), `N493` (reasons
 for that gap), and `N295` (whether care preferences were taken into account).
 These names are acquisition targets, not yet verified local columns.
+
+The September 1, 2026 monthly-panel codebook adds a particularly useful
+time-ordering anchor: `fin3s4` is the reported cause “significant medical or
+dental care expenses for me or a family member,” while `fin1_when_month`,
+`fin1_when_day`, and `fin1_when_year` record the date of the financial change.
+The same codebook lists `le_hrs001_when_*` for illness timing and repeated
+outcomes including `le_hrs_s1` (life satisfaction), `le_hrs_srh1` (overall
+health), `le_hrs_p1` (pain), employment-shock fields, and
+`meaningthetas_*` (meaning and purpose). This supports a bounded temporal
+screen, but “significant medical or dental expense” remains a reported
+financial shock—not a linked bill, treatment choice, or verified remedy.
+The retrieved PDF was 521,561 bytes with SHA-256
+`97af909996e341e99125ca8acd0a7258208a8b5afefeaf4df14ae4968c8af9f5`;
+the hash identifies the documentation vintage used for this audit, not a
+microdata release.
 
 ## Required acquisition and merge test
 
@@ -130,11 +145,12 @@ codebook confirms the relevant medical-cost and later judgment fields.
 ## Current conclusion
 
 UAS is the smallest credible next acquisition capable of closing more than
-one remaining arrow at once. It can potentially add dated or bounded cost,
-care choice, alternatives, downstream well-being, and institution-specific
-trust while preserving respondent identity. Until registration-gated files and
-codebooks are acquired, the correct status is **verified acquisition route**,
-not completed evidence.
+one remaining arrow at once. The monthly panel can test a dated reported
+medical-expense shock against subsequent wellbeing and work; UAS 537/698 can
+add bounded cost, care choice, alternatives, provider experience, and
+institution-specific trust while preserving respondent identity. Until the
+registration-gated microdata are acquired and the overlap is measured, the
+correct status is **verified acquisition route**, not completed evidence.
 
 ## Official sources
 
