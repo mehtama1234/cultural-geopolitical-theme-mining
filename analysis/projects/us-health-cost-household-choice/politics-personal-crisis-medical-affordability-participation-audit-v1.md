@@ -119,6 +119,45 @@ nearly equal. The cross-year contrast is useful: a medical-cost hardship does
 not map to one universal political response, and the action channel may be
 more targeted than general electoral participation.
 
+## 2020 attribution mechanism screen
+
+Among the 152 respondents reporting medical-expense hardship, the responsibility
+item (`UTK356`) distributes as follows. Percentages use `teamweight`; counts
+are unweighted and are shown so sparse cells remain visible.
+
+| Attribution | Unweighted n | Weighted share |
+|---|---:|---:|
+| Bad luck | 23 | 14.9% |
+| Personal choices | 14 | 8.7% |
+| The economy | 44 | 25.4% |
+| Federal government | 32 | 22.4% |
+| State government | 15 | 14.1% |
+| Local government | 1 | 0.2% |
+| None of these | 23 | 14.4% |
+
+The attribution split changes the political interpretation of the hardship
+signal. Weighted contact with a public official was 42.7% among the federal-
+government attribution group and 13.4% among the bad-luck group. Protest was
+23.6% versus 4.0%, respectively. These are raw within-hardship contrasts,
+not mediation estimates: the federal-government cell has only 32 unweighted
+respondents, the bad-luck cell has 23, and attribution is itself a respondent
+judgment that can be shaped by ideology, prior participation, question order,
+and the surrounding 2020 context.
+
+The result is still useful for the end-to-end architecture because it
+distinguishes generalized hardship from institution-targeted response:
+
+```text
+medical affordability problem
+  -> responsibility assigned to federal government
+  -> higher observed contact/protest in this small cell
+  -> candidate route toward pressure or legitimacy judgment
+```
+
+The final arrow remains open. The data do not measure whether contact or
+protest produced a remedy, improved affordability, changed trust, or caused
+political exit.
+
 ## What the published paper establishes
 
 The paper analyzes CES Common Content/Module data from 2018 and 2020, along
@@ -166,6 +205,9 @@ oneself imply different legitimacy and remedy pathways.
   not the medical-affordability item alone.
 - The 2018 and 2020 questions refer to the prior year, so the temporal link to
   the participation measures is broad rather than event dated.
+- Attribution categories are sparse in the 2020 hardship group, especially
+  local-government attribution; no category-level ranking should be treated
+  as stable without a larger design-based replication.
 - The result does not observe a bill amount, care delayed, payment plan,
   collections, insurer/provider remedy, or institutional response.
 

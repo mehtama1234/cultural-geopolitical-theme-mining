@@ -39,12 +39,18 @@
         "protest_no_crisis": {"value": 5.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "protest_medical_expense_crisis": {"value": 9.1, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "campaign_work_no_crisis": {"value": 3.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
-        "campaign_work_medical_expense_crisis": {"value": 1.0, "unit": "percent weighted mean", "value_type": "weighted_group_mean"}
+        "campaign_work_medical_expense_crisis": {"value": 1.0, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "federal_government_attribution_share_within_hardship": {"value": 22.4, "unit": "percent weighted share", "value_type": "weighted_attribution_share"},
+        "economy_attribution_share_within_hardship": {"value": 25.4, "unit": "percent weighted share", "value_type": "weighted_attribution_share"},
+        "federal_attribution_contact_official": {"value": 42.7, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
+        "bad_luck_attribution_contact_official": {"value": 13.4, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
+        "federal_attribution_protest": {"value": 23.6, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
+        "bad_luck_attribution_protest": {"value": 4.0, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"}
       },
       "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
       "uncertainty": "No reproduced design-based standard errors are claimed. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",
       "subgroup": "Rows reporting versus not reporting trouble affording medical expenses.",
-      "counterinterpretation": "The 2020 pattern may reflect pandemic-era context, other crises, health, income, insurance insecurity, prior turnout, or selection; targeted contact/protest is not proof of institutional attribution.",
+      "counterinterpretation": "The 2020 pattern may reflect pandemic-era context, other crises, health, income, insurance insecurity, prior turnout, ideology, or selection; attribution cells are sparse and targeted contact/protest is not proof of institutional remedy or legitimacy change.",
       "source_url": "https://dataverse.harvard.edu/api/access/datafile/8961293?format=original",
       "retrieval_hash": "sha256:10fe9927942f345b9b39f58b4c07daa130baa997537f4cecfe76e6d7c024cd1e",
       "status": "inferred"
