@@ -86,6 +86,27 @@ amount owed for the care that was skipped. They apply only to respondents who
 reported an unexpected major medical expense and share the same prior-year
 recall frame; they cannot be interpreted as the causal price of foregoing.
 
+## The care channel changes the burden profile
+
+The same cross-tab can be resolved by care type. The table reports current
+medical debt and unexpected major medical expense among respondents who did
+and did not report foregoing each type because of cost:
+
+| Care type forgone because of cost | Medical debt: yes | Medical debt: no | Unexpected major expense: yes | Unexpected major expense: no |
+|---|---:|---:|---:|---:|
+| Prescription medicine | 53.17% | 14.84% | 43.73% | 19.05% |
+| Doctor or specialist | 50.81% | 12.70% | 40.93% | 17.90% |
+| Mental-health care/counseling | 47.37% | 15.16% | 39.83% | 19.28% |
+| Dental care | 44.03% | 12.80% | 35.89% | 18.16% |
+| Follow-up care | 54.06% | 14.49% | 44.93% | 18.76% |
+
+These are channel-specific distributions, not a ranking of clinical harm.
+Each care type has its own respondent universe and can overlap with every
+other type. The higher debt and expense shares among people reporting a
+specific skipped type are consistent with a financial constraint pathway, but
+they could also reflect greater illness, greater utilization, different
+coverage, or a need that is more likely to generate debt.
+
 ## Next decisive join
 
 The next step is to separate timing and mechanism: identify whether the

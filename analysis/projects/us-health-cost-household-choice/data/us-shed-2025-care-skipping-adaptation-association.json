@@ -6,6 +6,768 @@
     "E1_d",
     "E1_e"
   ],
+  "care_type_groups": {
+    "E1_a": {
+      "no": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 11808,
+            "percent": 42.144,
+            "weighted_denominator": 11765.824
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 11808,
+            "percent": 13.348,
+            "weighted_denominator": 11765.824
+          },
+          "medical_debt": {
+            "nonmissing_rows": 11808,
+            "percent": 14.836,
+            "weighted_denominator": 11765.824
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 11808,
+            "percent": 38.082,
+            "weighted_denominator": 11765.824
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 11808,
+            "percent": 57.729,
+            "weighted_denominator": 11765.824
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 11808,
+            "percent": 19.052,
+            "weighted_denominator": 11765.824
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 11808,
+            "percent": 57.112,
+            "weighted_denominator": 11765.824
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 11808,
+            "percent": 14.705,
+            "weighted_denominator": 11765.824
+          }
+        },
+        "rows": 11808,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 355,
+              "percent": 15.015
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 482,
+              "percent": 20.46
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 567,
+              "percent": 23.461
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 346,
+              "percent": 14.887
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 449,
+              "percent": 19.047
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 162,
+              "percent": 7.13
+            }
+          },
+          "nonmissing_rows": 2361,
+          "weighted_denominator": 2241.661
+        }
+      },
+      "yes": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 1126,
+            "percent": 80.26,
+            "weighted_denominator": 1168.163
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 1126,
+            "percent": 41.777,
+            "weighted_denominator": 1168.163
+          },
+          "medical_debt": {
+            "nonmissing_rows": 1126,
+            "percent": 53.174,
+            "weighted_denominator": 1168.163
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 1126,
+            "percent": 70.75,
+            "weighted_denominator": 1168.163
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 1126,
+            "percent": 24.918,
+            "weighted_denominator": 1168.163
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 1126,
+            "percent": 43.727,
+            "weighted_denominator": 1168.163
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 1126,
+            "percent": 85.904,
+            "weighted_denominator": 1168.163
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 1126,
+            "percent": 40.581,
+            "weighted_denominator": 1168.163
+          }
+        },
+        "rows": 1126,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 100,
+              "percent": 20.533
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 77,
+              "percent": 14.535
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 92,
+              "percent": 18.353
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 71,
+              "percent": 14.068
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 113,
+              "percent": 23.793
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 46,
+              "percent": 8.719
+            }
+          },
+          "nonmissing_rows": 499,
+          "weighted_denominator": 510.798
+        }
+      }
+    },
+    "E1_b": {
+      "no": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 11116,
+            "percent": 39.732,
+            "weighted_denominator": 11034.375
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 11116,
+            "percent": 11.89,
+            "weighted_denominator": 11034.375
+          },
+          "medical_debt": {
+            "nonmissing_rows": 11116,
+            "percent": 12.701,
+            "weighted_denominator": 11034.375
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 11116,
+            "percent": 36.394,
+            "weighted_denominator": 11034.375
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 11116,
+            "percent": 59.488,
+            "weighted_denominator": 11034.375
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 11116,
+            "percent": 17.897,
+            "weighted_denominator": 11034.375
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 11116,
+            "percent": 55.194,
+            "weighted_denominator": 11034.375
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 11116,
+            "percent": 13.388,
+            "weighted_denominator": 11034.375
+          }
+        },
+        "rows": 11116,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 324,
+              "percent": 15.496
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 421,
+              "percent": 20.146
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 503,
+              "percent": 23.523
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 307,
+              "percent": 14.725
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 398,
+              "percent": 18.943
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 144,
+              "percent": 7.168
+            }
+          },
+          "nonmissing_rows": 2097,
+          "weighted_denominator": 1974.867
+        }
+      },
+      "yes": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 1818,
+            "percent": 79.593,
+            "weighted_denominator": 1899.611
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 1818,
+            "percent": 39.3,
+            "weighted_denominator": 1899.611
+          },
+          "medical_debt": {
+            "nonmissing_rows": 1818,
+            "percent": 50.811,
+            "weighted_denominator": 1899.611
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 1818,
+            "percent": 67.977,
+            "weighted_denominator": 1899.611
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 1818,
+            "percent": 27.33,
+            "weighted_denominator": 1899.611
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 1818,
+            "percent": 40.934,
+            "weighted_denominator": 1899.611
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 1818,
+            "percent": 85.96,
+            "weighted_denominator": 1899.611
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 1818,
+            "percent": 38.264,
+            "weighted_denominator": 1899.611
+          }
+        },
+        "rows": 1818,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 131,
+              "percent": 17.42
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 138,
+              "percent": 17.365
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 156,
+              "percent": 19.948
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 110,
+              "percent": 14.762
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 164,
+              "percent": 22.43
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 64,
+              "percent": 8.075
+            }
+          },
+          "nonmissing_rows": 763,
+          "weighted_denominator": 777.592
+        }
+      }
+    },
+    "E1_c": {
+      "no": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 11748,
+            "percent": 41.825,
+            "weighted_denominator": 11675.18
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 11748,
+            "percent": 13.156,
+            "weighted_denominator": 11675.18
+          },
+          "medical_debt": {
+            "nonmissing_rows": 11748,
+            "percent": 15.164,
+            "weighted_denominator": 11675.18
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 11748,
+            "percent": 37.907,
+            "weighted_denominator": 11675.18
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 11748,
+            "percent": 57.46,
+            "weighted_denominator": 11675.18
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 11748,
+            "percent": 19.281,
+            "weighted_denominator": 11675.18
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 11748,
+            "percent": 56.778,
+            "weighted_denominator": 11675.18
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 11748,
+            "percent": 14.158,
+            "weighted_denominator": 11675.18
+          }
+        },
+        "rows": 11748,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 368,
+              "percent": 15.432
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 469,
+              "percent": 19.654
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 576,
+              "percent": 23.684
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 342,
+              "percent": 14.46
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 454,
+              "percent": 19.305
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 171,
+              "percent": 7.464
+            }
+          },
+          "nonmissing_rows": 2380,
+          "weighted_denominator": 2251.102
+        }
+      },
+      "yes": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 1186,
+            "percent": 80.47,
+            "weighted_denominator": 1258.806
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 1186,
+            "percent": 41.509,
+            "weighted_denominator": 1258.806
+          },
+          "medical_debt": {
+            "nonmissing_rows": 1186,
+            "percent": 47.372,
+            "weighted_denominator": 1258.806
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 1186,
+            "percent": 70.019,
+            "weighted_denominator": 1258.806
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 1186,
+            "percent": 29.774,
+            "weighted_denominator": 1258.806
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 1186,
+            "percent": 39.828,
+            "weighted_denominator": 1258.806
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 1186,
+            "percent": 86.929,
+            "weighted_denominator": 1258.806
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 1186,
+            "percent": 43.788,
+            "weighted_denominator": 1258.806
+          }
+        },
+        "rows": 1186,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 87,
+              "percent": 18.765
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 90,
+              "percent": 18.041
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 83,
+              "percent": 17.255
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 75,
+              "percent": 15.971
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 108,
+              "percent": 22.722
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 37,
+              "percent": 7.246
+            }
+          },
+          "nonmissing_rows": 480,
+          "weighted_denominator": 501.358
+        }
+      }
+    },
+    "E1_d": {
+      "no": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 10678,
+            "percent": 39.306,
+            "weighted_denominator": 10657.671
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 10678,
+            "percent": 11.529,
+            "weighted_denominator": 10657.671
+          },
+          "medical_debt": {
+            "nonmissing_rows": 10678,
+            "percent": 12.803,
+            "weighted_denominator": 10657.671
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 10678,
+            "percent": 35.88,
+            "weighted_denominator": 10657.671
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 10678,
+            "percent": 60.712,
+            "weighted_denominator": 10657.671
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 10678,
+            "percent": 18.161,
+            "weighted_denominator": 10657.671
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 10678,
+            "percent": 54.543,
+            "weighted_denominator": 10657.671
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 10678,
+            "percent": 13.509,
+            "weighted_denominator": 10657.671
+          }
+        },
+        "rows": 10678,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 301,
+              "percent": 14.536
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 410,
+              "percent": 20.367
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 491,
+              "percent": 23.604
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 312,
+              "percent": 15.608
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 388,
+              "percent": 18.902
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 136,
+              "percent": 6.983
+            }
+          },
+          "nonmissing_rows": 2038,
+          "weighted_denominator": 1935.588
+        }
+      },
+      "yes": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 2256,
+            "percent": 74.989,
+            "weighted_denominator": 2276.316
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 2256,
+            "percent": 36.452,
+            "weighted_denominator": 2276.316
+          },
+          "medical_debt": {
+            "nonmissing_rows": 2256,
+            "percent": 44.028,
+            "weighted_denominator": 2276.316
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 2256,
+            "percent": 65.154,
+            "weighted_denominator": 2276.316
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 2256,
+            "percent": 26.922,
+            "weighted_denominator": 2276.316
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 2256,
+            "percent": 35.886,
+            "weighted_denominator": 2276.316
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 2256,
+            "percent": 83.915,
+            "weighted_denominator": 2276.316
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 2256,
+            "percent": 33.585,
+            "weighted_denominator": 2276.316
+          }
+        },
+        "rows": 2256,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 154,
+              "percent": 19.602
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 149,
+              "percent": 16.975
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 168,
+              "percent": 19.927
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 105,
+              "percent": 12.667
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 174,
+              "percent": 22.358
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 72,
+              "percent": 8.471
+            }
+          },
+          "nonmissing_rows": 822,
+          "weighted_denominator": 816.872
+        }
+      }
+    },
+    "E1_e": {
+      "no": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 11739,
+            "percent": 41.673,
+            "weighted_denominator": 11689.074
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 11739,
+            "percent": 12.911,
+            "weighted_denominator": 11689.074
+          },
+          "medical_debt": {
+            "nonmissing_rows": 11739,
+            "percent": 14.489,
+            "weighted_denominator": 11689.074
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 11739,
+            "percent": 37.775,
+            "weighted_denominator": 11689.074
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 11739,
+            "percent": 57.82,
+            "weighted_denominator": 11689.074
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 11739,
+            "percent": 18.762,
+            "weighted_denominator": 11689.074
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 11739,
+            "percent": 56.872,
+            "weighted_denominator": 11689.074
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 11739,
+            "percent": 14.536,
+            "weighted_denominator": 11689.074
+          }
+        },
+        "rows": 11739,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 354,
+              "percent": 15.243
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 463,
+              "percent": 20.145
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 561,
+              "percent": 23.674
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 335,
+              "percent": 14.6
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 445,
+              "percent": 19.143
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 161,
+              "percent": 7.194
+            }
+          },
+          "nonmissing_rows": 2319,
+          "weighted_denominator": 2193.085
+        }
+      },
+      "yes": {
+        "outcomes": {
+          "delayed_major_purchase": {
+            "nonmissing_rows": 1195,
+            "percent": 82.334,
+            "weighted_denominator": 1244.913
+          },
+          "increased_borrowing": {
+            "nonmissing_rows": 1195,
+            "percent": 44.129,
+            "weighted_denominator": 1244.913
+          },
+          "medical_debt": {
+            "nonmissing_rows": 1195,
+            "percent": 54.064,
+            "weighted_denominator": 1244.913
+          },
+          "reduced_savings": {
+            "nonmissing_rows": 1195,
+            "percent": 71.616,
+            "weighted_denominator": 1244.913
+          },
+          "three_month_emergency_funds": {
+            "nonmissing_rows": 1195,
+            "percent": 26.078,
+            "weighted_denominator": 1244.913
+          },
+          "unexpected_major_medical_expense": {
+            "nonmissing_rows": 1195,
+            "percent": 44.933,
+            "weighted_denominator": 1244.913
+          },
+          "used_less_or_stopped_products": {
+            "nonmissing_rows": 1195,
+            "percent": 86.38,
+            "weighted_denominator": 1244.913
+          },
+          "worked_more_or_got_job": {
+            "nonmissing_rows": 1195,
+            "percent": 40.575,
+            "weighted_denominator": 1244.913
+          }
+        },
+        "rows": 1195,
+        "unexpected_medical_expense_amount_band": {
+          "categories": {
+            "$1 to $499": {
+              "nonmissing_rows": 101,
+              "percent": 19.163
+            },
+            "$1,000 to $1,999": {
+              "nonmissing_rows": 96,
+              "percent": 16.282
+            },
+            "$2,000 to $4,999": {
+              "nonmissing_rows": 98,
+              "percent": 17.961
+            },
+            "$5,000 or higher": {
+              "nonmissing_rows": 82,
+              "percent": 15.265
+            },
+            "$500 to $999": {
+              "nonmissing_rows": 117,
+              "percent": 23.003
+            },
+            "Don\u2019t know": {
+              "nonmissing_rows": 47,
+              "percent": 8.327
+            }
+          },
+          "nonmissing_rows": 541,
+          "weighted_denominator": 559.374
+        }
+      }
+    }
+  },
   "complete_care_foregoing_rows": 12934,
   "format": "us-shed-2025-care-skipping-adaptation-association-v1",
   "groups": {

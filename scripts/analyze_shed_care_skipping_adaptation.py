@@ -117,6 +117,20 @@ def main() -> int:
             "unexpected_medical_expense_amount_band": weighted_distribution(subset, AMOUNT_FIELD),
         }
 
+    result["care_type_groups"] = {}
+    for field in CARE_FIELDS:
+        result["care_type_groups"][field] = {}
+        for group in ["Yes", "No"]:
+            subset = [row for row in rows if clean(row.get(field)) == group]
+            result["care_type_groups"][field][group.lower()] = {
+                "rows": len(subset),
+                "outcomes": {
+                    name: weighted_share(subset, outcome_field, yes_values)
+                    for name, (outcome_field, yes_values) in METRICS.items()
+                },
+                "unexpected_medical_expense_amount_band": weighted_distribution(subset, AMOUNT_FIELD),
+            }
+
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, sort_keys=True))
