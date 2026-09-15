@@ -62,6 +62,10 @@ The [MEPS round-timing audit](meps-2024-round-timing-audit-v1.md) tests the
 available R3/1, R4/2, R5/3, and full-year reference boundaries and keeps them
 as temporal context rather than incorrectly calling them event follow-up.
 
+The [MEPS event-context association](meps-2024-event-context-association-v1.md)
+adds weighted same-person comparisons of event presence with medical-bill
+problems, health, and employment while retaining the non-causal boundary.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

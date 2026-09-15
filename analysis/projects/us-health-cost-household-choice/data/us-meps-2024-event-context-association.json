@@ -1,0 +1,25 @@
+{
+  "schema": "us-meps-2024-event-context-association-v1",
+  "method": "Person-level descriptive shares use PERWT24F; standard BRR uses BRR1-BRR128 * 2 * PERWT24F. Event presence is annual event count > 0.",
+  "records": 19140,
+  "positive_weight_records": 18683,
+  "event_presence_weighted_percent": {"office": 73.9457727, "emergency_room": 13.9951690, "inpatient": 6.3382897},
+  "comparisons": {
+    "medical_bill_problem_yes": {
+      "office": {"present": {"share_percent": 7.6330886, "se": 0.4824065, "valid_records": 14114}, "absent": {"share_percent": 7.4718306, "se": 0.7328545, "valid_records": 4372}},
+      "emergency_room": {"present": {"share_percent": 13.1712124, "se": 0.8808832, "valid_records": 2836}, "absent": {"share_percent": 6.6840066, "se": 0.4637003, "valid_records": 15650}},
+      "inpatient": {"present": {"share_percent": 10.6005494, "se": 0.9523127, "valid_records": 1363}, "absent": {"share_percent": 7.3913294, "se": 0.4877080, "valid_records": 17123}}
+    },
+    "fair_or_poor_perceived_health": {
+      "office": {"present": {"share_percent": 12.2968075, "se": 0.6973383, "valid_records": 14099}, "absent": {"share_percent": 6.3533473, "se": 0.4450875, "valid_records": 4355}},
+      "emergency_room": {"present": {"share_percent": 26.4126161, "se": 1.1001968, "valid_records": 2787}, "absent": {"share_percent": 8.2696054, "se": 0.2926215, "valid_records": 15667}},
+      "inpatient": {"present": {"share_percent": 34.8322344, "se": 1.7887276, "valid_records": 1309}, "absent": {"share_percent": 9.2287529, "se": 0.2996839, "valid_records": 17145}}
+    },
+    "not_employed_round_5_3": {
+      "office": {"present": {"share_percent": 37.7195447, "se": 0.6973383, "valid_records": 11819}, "absent": {"share_percent": 25.9809314, "se": 0.9650523, "valid_records": 3477}},
+      "emergency_room": {"present": {"share_percent": 47.6706871, "se": 1.3961939, "valid_records": 2454}, "absent": {"share_percent": 32.5073569, "se": 0.5713954, "valid_records": 12842}},
+      "inpatient": {"present": {"share_percent": 59.5441813, "se": 2.1518540, "valid_records": 1257}, "absent": {"share_percent": 32.8502557, "se": 0.5542712, "valid_records": 14039}}
+    }
+  },
+  "limitation": "Same-year event presence and reported context are associated observations, not event-triggered outcomes or causal estimates. Event indicators do not identify delayed or forgone care, and annual fields do not provide a post-event window."
+}
