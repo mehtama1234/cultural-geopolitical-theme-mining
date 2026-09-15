@@ -77,6 +77,18 @@ The retrieved PDF was 521,561 bytes with SHA-256
 the hash identifies the documentation vintage used for this audit, not a
 microdata release.
 
+## Public aggregate-explorer boundary
+
+USC also provides a public Interactive Monthly Panel Data Explorer. Its
+published monthly variable inventory includes broad financial-shock and
+health/wellbeing measures such as `cornegfinshock`, overall health, pain, life
+satisfaction, and meaning. The published dropdown inventory does not expose
+`fin3s4`, the medical-expense component required for the focal exposure. The
+explorer can therefore provide context or broad time trends, but it cannot
+produce the medical-expense-specific transition needed here. This check rules
+out aggregate visualization as a substitute for the registration-gated
+microdata acquisition.
+
 ## Required acquisition and merge test
 
 After registration, acquire the relevant codebooks and data descriptions before
@@ -172,5 +184,6 @@ correct status is **verified acquisition route**, not completed evidence.
 - [UAS Comprehensive File and Panel Dataset](https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3)
 - [UAS Monthly Surveys data page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3)
 - [UAS Monthly Panel Survey Dataset description and codebook, updated September 1, 2026](https://uasdata.usc.edu/index.php?r=eNodzEEKwjAQQNGrDDlAwVwiXCLTlditIJQeYJoZtZjOhCZRinh3W3d_8fiENX4S7tFFuotrEtbHtcsQRl-x-TKJZsqjKdtbgxFvZuVK058fduj6UwcX0_wIC1xcSSVAV-aXLNBSpiQZWkl-HuO2AVKGs7EMZs8q8s013x-3cS3L)
+- [UAS Interactive Monthly Panel Data Explorer](https://uasvis.usc.edu/monthly/monthlyvisualization.php)
 - [UAS 537 future-of-health-care questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKydTYHCZYChE0tFIyVLKuBVwwx5cXVA%2C%2C)
 - [UAS 698 health-cost questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKyczSAiZYChE0tFIyUbKuBVwwyGMXXw%2C%2C)
