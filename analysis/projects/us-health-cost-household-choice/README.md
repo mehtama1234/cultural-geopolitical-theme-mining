@@ -106,6 +106,12 @@ household adaptation, institutional response, remedy, and the still-open
 legitimacy endpoint. It is deliberately a layered synthesis rather than a
 single causal estimate.
 
+The [MEPS legitimacy-endpoint audit](meps-2024-legitimacy-endpoint-audit-v1.md)
+records the structural boundary: HC-256 contains burden, adaptation, and
+institutional-friction fields but no trust, attribution, complaint, switching,
+vote, or organizing endpoint. The legitimacy arrow therefore remains an
+explicit acquisition target.
+
 The [MEPS event payment-band screen](meps-2024-event-payment-bands-v1.md)
 adds a payment-stratified counterexample: self/family payment and later
 bill/health/work context do not form a monotonic burden scale within the first
