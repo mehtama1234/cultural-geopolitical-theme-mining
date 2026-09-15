@@ -1,0 +1,35 @@
+{
+  "schema": "us-meps-2024-round-timing-audit-v1",
+  "method": "Event month is compared with HC-256 round reference-period end month after exact DUPERSID + PANEL linkage. This is temporal context, not interview-date or causal follow-up.",
+  "person_records": 19140,
+  "rounds": {
+    "R3_1": {"valid_date_records": 18799, "valid_date_percent": 98.218391, "year_min": 2024, "year_max": 2024, "employment_field": "EMPST31", "health_field": "RTHLTH31"},
+    "R4_2": {"valid_date_records": 18944, "valid_date_percent": 98.975967, "year_min": 2024, "year_max": 2024, "employment_field": "EMPST42", "health_field": "RTHLTH42"},
+    "R5_3": {"valid_date_records": 18979, "valid_date_percent": 99.15883, "year_min": 2024, "year_max": 2025, "employment_field": "EMPST53", "health_field": "RTHLTH53"},
+    "FULL_YEAR": {"valid_date_records": 19140, "valid_date_percent": 100.0, "year_min": 2024, "year_max": 2024, "employment_field": "EMPST53", "health_field": "RTHLTH53"}
+  },
+  "events": {
+    "office": {
+      "event_records": 145818, "unique_event_keys": 145818, "valid_event_date_records": 145818,
+      "R3_1": {"both": 145038, "before": 26504, "same_month": 12534, "after": 106000},
+      "R4_2": {"both": 145627, "before": 94482, "same_month": 13200, "after": 37945},
+      "R5_3": {"both": 145391, "before": 139737, "same_month": 5654, "after": 0},
+      "FULL_YEAR": {"both": 145818, "before": 134466, "same_month": 11352, "after": 0}
+    },
+    "emergency_room": {
+      "event_records": 4351, "unique_event_keys": 4351, "valid_event_date_records": 4351,
+      "R3_1": {"both": 4304, "before": 883, "same_month": 404, "after": 3017},
+      "R4_2": {"both": 4322, "before": 2957, "same_month": 383, "after": 982},
+      "R5_3": {"both": 4257, "before": 4081, "same_month": 176, "after": 0},
+      "FULL_YEAR": {"both": 4351, "before": 3924, "same_month": 427, "after": 0}
+    },
+    "inpatient": {
+      "event_records": 1912, "unique_event_keys": 1912, "valid_event_date_records": 1912,
+      "R3_1": {"both": 1884, "before": 363, "same_month": 172, "after": 1349},
+      "R4_2": {"both": 1887, "before": 1285, "same_month": 166, "after": 436},
+      "R5_3": {"both": 1820, "before": 1750, "same_month": 70, "after": 0},
+      "FULL_YEAR": {"both": 1912, "before": 1747, "same_month": 164, "after": 1}
+    }
+  },
+  "limitation": "Round reference-period end dates do not establish an interview date, event-trigger date, or post-event outcome window."
+}

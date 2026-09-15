@@ -58,6 +58,10 @@ now joins dated office, emergency-room, and inpatient events to annual
 coverage, resource, work, health, and bill-problem context in an aggregate-only
 record.
 
+The [MEPS round-timing audit](meps-2024-round-timing-audit-v1.md) tests the
+available R3/1, R4/2, R5/3, and full-year reference boundaries and keeps them
+as temporal context rather than incorrectly calling them event follow-up.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.
