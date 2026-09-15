@@ -5,7 +5,8 @@
   "inputs": {
     "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
-    "script_sha256": "744a36ac0b0eb9a06bedc3e56ae5f9a3d088ed1c15bfc86f51797133c93438a3"
+    "script_sha256": "744a36ac0b0eb9a06bedc3e56ae5f9a3d088ed1c15bfc86f51797133c93438a3",
+    "extractor_sha256": "4330a7831574b3226c6ad46063d75d7b1724c9b2b473e371f3b979d997bc26b6"
   },
   "output": {
     "sha256": "97f89b652d2327f208a207006f5dfa31ede35e0273f726130c0017709ef6e5c1",
@@ -14,6 +15,12 @@
     "positive_weight_rows_matched": 378291,
     "official_universes": true,
     "group_by": "ETENURE_THINCPOV"
+  },
+  "tenure_universe_integrity": {
+    "ATENURE_counts": {"1": 379143, "3": 72},
+    "missing_or_zero_ATENURE_rows": 0,
+    "rows_checked": 379215,
+    "interpretation": "The corrected slice carries a nonmissing official tenure-universe flag on every extracted row; ATENURE is a universe/status flag, not the ETENURE tenure category itself."
   },
   "headline_cells": {
     "owned_below_1x": {
