@@ -39,7 +39,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
@@ -52,6 +52,7 @@ def main() -> int:
         "financial_room_labels": {"1": "not_at_all_confident", "2": "not_too_confident", "3": "somewhat_confident", "4": "very_confident"},
         "confidence_groups": {},
         "medical_debt_groups": {},
+        "coverage_groups": {},
         "limitation": "Same-round associations do not identify event timing, causation, a specific bill, alternatives, care completion, or later recovery, trust, or action. Financial-room and care-access fields may refer to different needs.",
     }
     confidence = {1: "not_at_all_confident", 2: "not_too_confident", 3: "somewhat_confident", 4: "very_confident"}
@@ -75,6 +76,9 @@ def main() -> int:
         label: summarize(frame.loc[frame["MEDDEBT42"].isin(codes)])
         for label, codes in debt_amounts.items()
     }
+    coverage = {1: "any_private", 2: "public_only", 3: "uninsured"}
+    for code, label in coverage.items():
+        output["coverage_groups"][label] = summarize(frame.loc[frame["INSCOV24"].eq(code)])
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, indent=2, sort_keys=True))
