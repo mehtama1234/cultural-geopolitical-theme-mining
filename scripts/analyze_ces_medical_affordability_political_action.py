@@ -95,6 +95,7 @@ def read_extract(path: Path, year: str) -> tuple[pd.DataFrame, dict[str, str]]:
 
 def descriptive(frame: pd.DataFrame) -> dict[str, object]:
     valid = frame.dropna(subset=["crisis_medexp", "teamweight"])
+    hardship = valid[valid["crisis_medexp"] == 1]
     groups: dict[str, object] = {}
     for code, group in valid.groupby("crisis_medexp"):
         key = "medical_expense_crisis" if int(code) == 1 else "no_medical_expense_crisis"
@@ -106,7 +107,12 @@ def descriptive(frame: pd.DataFrame) -> dict[str, object]:
                 for outcome in OUTCOMES
             },
         }
-    return {"records": int(len(valid)), "groups": groups}
+    return {
+        "records": int(len(valid)),
+        "medical_expense_crisis_unweighted_percent": float(100 * len(hardship) / len(valid)) if len(valid) else None,
+        "medical_expense_crisis_weighted_percent": float(100 * hardship.teamweight.sum() / valid.teamweight.sum()) if valid.teamweight.sum() else None,
+        "groups": groups,
+    }
 
 
 def adjusted_screen(frame: pd.DataFrame) -> dict[str, object]:

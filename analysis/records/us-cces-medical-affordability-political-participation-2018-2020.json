@@ -11,7 +11,7 @@
       "period": "2018 CES crisis module",
       "denominator": {"value": 1000, "unit": "valid module rows"},
       "measures": {
-        "medical_expense_crisis_share": {"value": 25.7, "unit": "percent of valid rows", "value_type": "weighted_indicator_share"},
+        "medical_expense_crisis_share": {"value": 27.673, "unit": "percent weighted share; 25.7% unweighted rows", "value_type": "weighted_indicator_share"},
         "validated_turnout_no_crisis": {"value": 57.2, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "validated_turnout_medical_expense_crisis": {"value": 41.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "contact_official_no_crisis": {"value": 21.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
@@ -38,7 +38,7 @@
       "period": "2020 CES crisis module",
       "denominator": {"value": 1000, "unit": "valid module rows"},
       "measures": {
-        "medical_expense_crisis_share": {"value": 15.2, "unit": "percent of valid rows", "value_type": "weighted_indicator_share"},
+        "medical_expense_crisis_share": {"value": 14.308, "unit": "percent weighted share; 15.2% unweighted rows", "value_type": "weighted_indicator_share"},
         "validated_turnout_no_crisis": {"value": 62.3, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "validated_turnout_medical_expense_crisis": {"value": 61.2, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "contact_official_no_crisis": {"value": 17.9, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
