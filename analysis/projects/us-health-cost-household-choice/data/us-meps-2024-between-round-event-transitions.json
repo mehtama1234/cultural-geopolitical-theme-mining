@@ -1,0 +1,11 @@
+{
+  "schema": "us-meps-2024-between-round-event-transitions-v1",
+  "method": "First event month strictly between R3/1 and R4/2 endpoint months; R3/1 is baseline and R4/2 follow-up. Same-month boundary cases are excluded. Standard BRR uses 128 replicate flags.",
+  "person_records": 19140,
+  "results": {
+    "office": {"event_window_people": 3216, "fair_or_poor_health_baseline": {"event": 9.34, "no_event": 12.19}, "fair_or_poor_health_followup": {"event": 9.26, "no_event": 10.84}, "health_worsened": {"event": 24.34, "no_event": 21.86}, "health_improved": {"event": 19.82, "no_event": 22.19}, "not_employed_baseline": {"event": 36.32, "no_event": 36.20}, "not_employed_followup": {"event": 32.73, "no_event": 33.39}, "medical_bill_problem_followup": {"event": 8.01, "no_event": 7.52}},
+    "emergency_room": {"event_window_people": 1101, "fair_or_poor_health_baseline": {"event": 24.29, "no_event": 11.01}, "fair_or_poor_health_followup": {"event": 27.05, "no_event": 9.66}, "health_worsened": {"event": 29.02, "no_event": 21.92}, "health_improved": {"event": 20.30, "no_event": 21.87}, "not_employed_baseline": {"event": 49.49, "no_event": 35.41}, "not_employed_followup": {"event": 47.30, "no_event": 32.43}, "medical_bill_problem_followup": {"event": 15.14, "no_event": 7.19}},
+    "inpatient": {"event_window_people": 545, "fair_or_poor_health_baseline": {"event": 28.99, "no_event": 11.27}, "fair_or_poor_health_followup": {"event": 33.67, "no_event": 10.00}, "health_worsened": {"event": 31.42, "no_event": 22.06}, "health_improved": {"event": 18.24, "no_event": 21.87}, "not_employed_baseline": {"event": 62.44, "no_event": 35.44}, "not_employed_followup": {"event": 60.13, "no_event": 32.48}, "medical_bill_problem_followup": {"event": 11.13, "no_event": 7.52}}
+  },
+  "limitation": "Month-level event ordering excludes boundary ambiguity but does not identify exact day, care choice, alternatives, or causal effects. Event-window groups already differ at baseline."
+}
