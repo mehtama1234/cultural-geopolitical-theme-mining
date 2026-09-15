@@ -183,6 +183,9 @@ It also records each file's distinct wave count and observed wave values, making
 temporal coverage inspectable before respondent overlap is interpreted.
 Pairwise overlap includes the retained share of each file's unique respondents,
 so module attrition is visible rather than hidden behind an intersection count.
+When both files expose waves, it also reports shared respondent-wave keys and
+their shares. This separates same-person overlap from same-period overlap,
+which is the minimum temporal check before a module-to-panel sequence is built.
 
 ## Promotion rule
 

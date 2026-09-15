@@ -72,6 +72,8 @@ def main() -> int:
         assert merge_record["overlap"]["first__second"]["intersection_unique_persons"] == 2
         assert abs(merge_record["overlap"]["first__second"]["intersection_share_of_left"] - 1.0) < 1e-12
         assert abs(merge_record["overlap"]["first__second"]["intersection_share_of_right"] - 1.0) < 1e-12
+        assert merge_record["overlap"]["first__second"]["intersection_unique_person_wave_keys"] == 2
+        assert abs(merge_record["overlap"]["first__second"]["person_wave_intersection_share_of_left"] - 2 / 3) < 1e-12
         assert merge_record["files"][0]["unique_waves"] == 2
         assert merge_record["files"][1]["wave_values"] == ["1"]
 

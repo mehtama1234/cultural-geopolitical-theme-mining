@@ -48,12 +48,12 @@ def columns(path: Path) -> list[str]:
 
 def read_ids(
     path: Path, available: list[str]
-) -> tuple[set[str] | None, str | None, str | None, set[str]]:
+) -> tuple[set[str] | None, str | None, str | None, set[str], set[tuple[str, str]]]:
     lookup = {name.lower(): name for name in available}
     key = lookup.get("uasid")
     wave = lookup.get("wave")
     if key is None:
-        return None, None, wave, set()
+        return None, None, wave, set(), set()
     selected = [key] + ([wave] if wave else [])
     if path.suffix.lower() in {".dta", ".tab"}:
         frame, _ = pyreadstat.read_dta(path, usecols=selected, encoding="latin1")
@@ -61,7 +61,14 @@ def read_ids(
         frame = pd.read_csv(path, usecols=selected)
     values = frame[key].dropna().map(normalize_id)
     wave_values = set(frame[wave].dropna().map(lambda value: str(value).strip())) if wave else set()
-    return set(values), key, wave, wave_values
+    person_wave_keys: set[tuple[str, str]] = set()
+    if wave:
+        valid = frame[[key, wave]].dropna()
+        person_wave_keys = {
+            (normalize_id(person), normalize_id(wave_value))
+            for person, wave_value in zip(valid[key], valid[wave])
+        }
+    return set(values), key, wave, wave_values, person_wave_keys
 
 
 def normalize_id(value: object) -> str:
@@ -75,7 +82,7 @@ def audit(name: str, path: Path) -> dict[str, Any]:
     if not path.is_file():
         return {"name": name, "path": str(path), "status": "missing"}
     available = columns(path)
-    ids, key, wave, wave_values = read_ids(path, available)
+    ids, key, wave, wave_values, person_wave_keys = read_ids(path, available)
     result: dict[str, Any] = {
         "name": name,
         "path": str(path),
@@ -89,6 +96,7 @@ def audit(name: str, path: Path) -> dict[str, Any]:
         "unique_persons": len(ids) if ids is not None else None,
         "unique_waves": len(wave_values) if wave else None,
         "wave_values": sorted(wave_values) if wave else [],
+        "unique_person_wave_keys": len(person_wave_keys) if wave else None,
     }
     return result
 
@@ -102,11 +110,13 @@ def main() -> int:
         files = parse_files(args.file)
         audits = [audit(name, path) for name, path in files]
         id_sets: dict[str, set[str]] = {}
+        person_wave_sets: dict[str, set[tuple[str, str]]] = {}
         for name, path in files:
             if path.is_file():
-                ids, _, _, _ = read_ids(path, columns(path))
+                ids, _, _, _, person_wave_keys = read_ids(path, columns(path))
                 if ids is not None:
                     id_sets[name] = ids
+                    person_wave_sets[name] = person_wave_keys
     except (OSError, ValueError, pd.errors.ParserError) as exc:
         parser.error(str(exc))
 
@@ -117,12 +127,22 @@ def main() -> int:
             left_count = len(id_sets[left])
             right_count = len(id_sets[right])
             intersection = len(id_sets[left] & id_sets[right])
+            left_person_waves = person_wave_sets.get(left, set())
+            right_person_waves = person_wave_sets.get(right, set())
+            person_wave_intersection = len(left_person_waves & right_person_waves)
             overlap[f"{left}__{right}"] = {
                 "left_unique_persons": left_count,
                 "right_unique_persons": right_count,
                 "intersection_unique_persons": intersection,
                 "intersection_share_of_left": intersection / left_count if left_count else None,
                 "intersection_share_of_right": intersection / right_count if right_count else None,
+                "intersection_unique_person_wave_keys": person_wave_intersection,
+                "person_wave_intersection_share_of_left": (
+                    person_wave_intersection / len(left_person_waves) if left_person_waves else None
+                ),
+                "person_wave_intersection_share_of_right": (
+                    person_wave_intersection / len(right_person_waves) if right_person_waves else None
+                ),
                 "left_only_unique_persons": left_count - intersection,
                 "right_only_unique_persons": right_count - intersection,
             }
