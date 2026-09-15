@@ -163,6 +163,21 @@ def main() -> int:
             },
         }
 
+    result["amount_band_groups"] = {}
+    amount_rows = [row for row in care_rows if clean(row.get(AMOUNT_FIELD))]
+    amount_categories = sorted({clean(row.get(AMOUNT_FIELD)) for row in amount_rows})
+    for amount_band in amount_categories:
+        subset = [row for row in amount_rows if clean(row.get(AMOUNT_FIELD)) == amount_band]
+        result["amount_band_groups"][amount_band] = {
+            "rows": len(subset),
+            "care_skipped_any": weighted_share(subset, "care_skipped_any", {"Yes"}),
+            "insured": weighted_share(subset, "insurance_status", {"insured"}),
+            "outcomes": {
+                name: weighted_share(subset, field, yes_values)
+                for name, (field, yes_values) in METRICS.items()
+            },
+        }
+
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2, sort_keys=True))

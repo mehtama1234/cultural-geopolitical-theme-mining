@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-226 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+227 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -657,6 +657,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Care type skipped because of cost has distinct concurrent debt and expense distributions | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | US adult SHED 2025 respondent | United States | 5 | 2025; prescription medicine skipped because of cost; 2025; doctor or specialist skipped because of cost; 2025; mental health care skipped because of cost; 2025; dental care skipped because of cost; 2025; follow-up care skipped because of cost | compared | [open](records/us-shed-2025-care-type-burden-association.json) |
 
 **Boundary:** Care-type-specific same-respondent comparisons do not establish a dated bill, causal direction, clinical consequence, alternative, remedy, trust, or political action.
+
+| Unexpected medical-expense amount bands separate care foregoing from debt and household adaptation | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | US adult SHED 2025 respondent with observed unexpected-expense amount | United States | 6 | 2025; unexpected expense $1 to $499; 2025; unexpected expense $500 to $999; 2025; unexpected expense $1,000 to $1,999; 2025; unexpected expense $2,000 to $4,999; 2025; unexpected expense $5,000 or higher; 2025; unexpected expense amount don’t know | compared | [open](records/us-shed-2025-unexpected-expense-amount-care-choice-association.json) |
+
+**Boundary:** Amount-conditioned same-respondent associations do not establish bill timing, treatment effect, payment obligation, alternative choice, recovery, institutional remedy, trust, or political action.
 
 | Unpaid adult care changes the adaptation menu across employment positions | time, cost, work, voice | care_health_reproduction, time_hidden_price, work_control_bargaining, household_room_consumption, unequal_exposure_status | 2024 SHED adult respondent grouped by regular unpaid adult care and employment status | United States | 6 | 2024; no regular unpaid adult care; not working; 2024; no regular unpaid adult care; working part-time; 2024; no regular unpaid adult care; working full-time; 2024; regular unpaid adult care; not working; 2024; regular unpaid adult care; working part-time; 2024; regular unpaid adult care; working full-time | compared | [open](records/us-shed-care-work-adaptation-2024.json) |
 

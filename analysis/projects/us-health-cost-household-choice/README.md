@@ -51,6 +51,11 @@ The same layer now records outside-household help for medical expenses, debt,
 or health insurance as a possible support route; it does not show transfer
 size, timing, conditions, or whether help prevented foregoing or resolved debt.
 
+The [unexpected-expense amount and care-choice association](shed-2025-unexpected-expense-amount-care-choice-association-v1.md)
+then conditions that bridge on reported expense amount. It shows that smaller
+expense bands can coincide with more care foregoing, while the largest band
+has the highest medical-debt share; amount alone does not identify the route.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
