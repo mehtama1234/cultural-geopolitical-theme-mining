@@ -27,6 +27,15 @@ The intervals are wide, and the comparison is not adjusted for household
 composition, income, employment, eligibility, or care need. It is therefore a
 mechanism signal, not a program-effect estimate.
 
+## Fresh reproduction (2026-09-15)
+
+The bridge was rerun from the reacquired full SIPP slice and official 240-
+replicate archive. The run read 379,215 rows and matched 2,646 replicate pairs;
+the displayed percentages and Fay-BRR intervals reproduce the committed layer,
+including the stable-SNAP work-prevention cell with only 23 valid records. The
+[dated reproduction audit](sipp-childcare-work-hardship-reproduction-audit-2026-09-15.json)
+preserves the archive, input, output, and script hashes.
+
 The child-care variables refer to the annual fall reference period, while
 hardship is measured in the following December record. This creates a useful
 same-person timing bridge but not a dated care episode. Entry/exit transitions
