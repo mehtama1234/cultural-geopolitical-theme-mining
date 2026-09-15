@@ -162,6 +162,21 @@ The inventory output separately records `unique_person_wave_keys` and
 are expected in a panel; repeated `uasid`-`wave` pairs are the structural issue
 that must be resolved before a follow-up transition is interpretable.
 
+After the individual file audits, run
+`scripts/audit_uas_health_cost_legitimacy_merge.py` across the acquired files:
+
+```text
+python3 scripts/audit_uas_health_cost_legitimacy_merge.py \
+  --file monthly=/path/to/monthly_panel_latest.dta \
+  --file uas537=/path/to/uas537.dta \
+  --file uas698=/path/to/uas698.dta \
+  --output /tmp/uas-health-cost-legitimacy-merge.json
+```
+
+This records hashes, unique respondent counts, and pairwise `uasid` overlap
+before any module merge. Overlap is only an acquisition prerequisite; it does
+not establish wave alignment, item co-occurrence, or a usable episode.
+
 ## Promotion rule
 
 Promote a UAS result into the health-cost end-to-end finding only if one

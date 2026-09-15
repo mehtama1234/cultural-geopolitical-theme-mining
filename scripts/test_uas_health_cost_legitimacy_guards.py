@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / "scripts/audit_uas_health_cost_legitimacy_files.py"
+MERGE = ROOT / "scripts/audit_uas_health_cost_legitimacy_merge.py"
 FOLLOWUP = ROOT / "scripts/analyze_uas_monthly_medical_expense_followup.py"
 FIELDS = ["uasid", "wave", "final_weight", "fin3s4"]
 
@@ -51,6 +52,23 @@ def main() -> int:
         record = json.loads(audit_output.read_text(encoding="utf-8"))["files"][0]
         assert record["unique_person_wave_keys"] == 3
         assert record["duplicate_person_wave_rows"] == 0
+
+        second_path = root / "second.csv"
+        write_csv(second_path, [valid[0], valid[2]])
+        merge_output = root / "merge.json"
+        merge = run(
+            str(MERGE),
+            "--file",
+            f"first={valid_path}",
+            "--file",
+            f"second={second_path}",
+            "--output",
+            str(merge_output),
+        )
+        assert merge.returncode == 0, merge.stderr
+        merge_record = json.loads(merge_output.read_text(encoding="utf-8"))
+        assert merge_record["status"] == "ready_for_wave_and_item_audit"
+        assert merge_record["overlap"]["first__second"]["intersection_unique_persons"] == 2
 
         followup = run(str(FOLLOWUP), str(valid_path), "--output", str(root / "followup.json"))
         assert followup.returncode == 0, followup.stderr
