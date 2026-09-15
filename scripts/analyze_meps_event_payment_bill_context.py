@@ -19,6 +19,7 @@ EVENTS = {
 }
 FLAGS = [f"BRR{i}" for i in range(1, 129)]
 COVERAGE = {1: "under65_private", 2: "under65_public_only", 3: "under65_uninsured"}
+POVERTY = {1: "poor_negative", 2: "near_poor", 3: "low_income", 4: "middle_income", 5: "high_income"}
 
 
 def estimate(frame: pd.DataFrame, payment: pd.Series, mask: pd.Series) -> dict[str, float | int | None]:
@@ -66,7 +67,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
-    person, _ = pyreadstat.read_dta(args.hc256, usecols=["DUPERSID", "PANEL", "PROBPY42", "INSURC24"])
+    person, _ = pyreadstat.read_dta(args.hc256, usecols=["DUPERSID", "PANEL", "PROBPY42", "INSURC24", "POVCAT24"])
     brr, _ = pyreadstat.read_dta(args.brr, usecols=["DUPERSID", "PANEL", *FLAGS])
     for frame in [person, brr]:
         add_key(frame)
@@ -91,7 +92,7 @@ def main() -> None:
         events = read_event(path, total_field, family_field)
         for frame in [events]:
             add_key(frame)
-        merged = events.merge(person[["KEY", "PROBPY42", "INSURC24", *FLAGS]], on="KEY", how="left", validate="many_to_one")
+        merged = events.merge(person[["KEY", "PROBPY42", "INSURC24", "POVCAT24", *FLAGS]], on="KEY", how="left", validate="many_to_one")
         total = pd.to_numeric(merged[total_field], errors="coerce")
         family = pd.to_numeric(merged[family_field], errors="coerce")
         bill = pd.to_numeric(merged["PROBPY42"], errors="coerce")
@@ -107,12 +108,20 @@ def main() -> None:
                     "self_family_payment": estimate(merged, family, positive & coverage & (bill == 2)),
                 },
             }
+        by_poverty: dict[str, object] = {}
+        for code, label in POVERTY.items():
+            poverty = merged["POVCAT24"].eq(code)
+            by_poverty[label] = {
+                "problem_reported": {"self_family_payment": estimate(merged, family, positive & poverty & (bill == 1))},
+                "no_problem_reported": {"self_family_payment": estimate(merged, family, positive & poverty & (bill == 2))},
+            }
         output["events"][event_name] = {
             "event_file_records": len(events),
             "positive_weight_events": int(positive.sum()),
             "person_context_link_missing": int(merged["PROBPY42"].isna().sum()),
             "payment_fields": {"total": total_field, "self_family": family_field},
             "under65_by_coverage_and_bill_problem": by_coverage,
+            "by_poverty_and_bill_problem": by_poverty,
             "by_bill_problem": {
                 "problem_reported": {
                     "total_payment": estimate(merged, total, positive & (bill == 1)),

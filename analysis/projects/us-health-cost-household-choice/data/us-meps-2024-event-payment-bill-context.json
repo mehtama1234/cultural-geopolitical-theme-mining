@@ -40,6 +40,118 @@
           }
         }
       },
+      "by_poverty_and_bill_problem": {
+        "high_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 21.108,
+              "brr_valid_replicates": 128,
+              "ci95_high": 216.2056,
+              "ci95_low": 133.4624,
+              "valid_events": 1209,
+              "weighted_mean_dollars": 174.834
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 257.136,
+              "brr_valid_replicates": 128,
+              "ci95_high": 884.7122,
+              "ci95_low": -123.2608,
+              "valid_events": 82,
+              "weighted_mean_dollars": 380.7257
+            }
+          }
+        },
+        "low_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 10.6511,
+              "brr_valid_replicates": 128,
+              "ci95_high": 65.6661,
+              "ci95_low": 23.9136,
+              "valid_events": 522,
+              "weighted_mean_dollars": 44.7898
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 16.2416,
+              "brr_valid_replicates": 128,
+              "ci95_high": 73.7003,
+              "ci95_low": 10.0333,
+              "valid_events": 148,
+              "weighted_mean_dollars": 41.8668
+            }
+          }
+        },
+        "middle_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 22.5802,
+              "brr_valid_replicates": 128,
+              "ci95_high": 162.1636,
+              "ci95_low": 73.6491,
+              "valid_events": 925,
+              "weighted_mean_dollars": 117.9063
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 37.2951,
+              "brr_valid_replicates": 128,
+              "ci95_high": 200.4784,
+              "ci95_low": 54.2814,
+              "valid_events": 178,
+              "weighted_mean_dollars": 127.3799
+            }
+          }
+        },
+        "near_poor": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 7.5995,
+              "brr_valid_replicates": 128,
+              "ci95_high": 31.3234,
+              "ci95_low": 1.5332,
+              "valid_events": 190,
+              "weighted_mean_dollars": 16.4283
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 8.7923,
+              "brr_valid_replicates": 128,
+              "ci95_high": 26.5326,
+              "ci95_low": -7.9332,
+              "valid_events": 44,
+              "weighted_mean_dollars": 9.2997
+            }
+          }
+        },
+        "poor_negative": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 10.0093,
+              "brr_valid_replicates": 128,
+              "ci95_high": 43.5346,
+              "ci95_low": 4.2981,
+              "valid_events": 758,
+              "weighted_mean_dollars": 23.9163
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 7.5985,
+              "brr_valid_replicates": 128,
+              "ci95_high": 29.1673,
+              "ci95_low": -0.6189,
+              "valid_events": 158,
+              "weighted_mean_dollars": 14.2742
+            }
+          }
+        }
+      },
       "event_file_records": 4351,
       "payment_fields": {
         "self_family": "ERFSF24X",
@@ -152,6 +264,118 @@
             "ci95_low": 13430.8438,
             "valid_events": 238,
             "weighted_mean_dollars": 16013.8626
+          }
+        }
+      },
+      "by_poverty_and_bill_problem": {
+        "high_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 145.918,
+              "brr_valid_replicates": 128,
+              "ci95_high": 1175.0287,
+              "ci95_low": 603.03,
+              "valid_events": 511,
+              "weighted_mean_dollars": 889.0293
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 218.5262,
+              "brr_valid_replicates": 128,
+              "ci95_high": 795.9246,
+              "ci95_low": -60.698,
+              "valid_events": 32,
+              "weighted_mean_dollars": 367.6133
+            }
+          }
+        },
+        "low_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 87.9368,
+              "brr_valid_replicates": 128,
+              "ci95_high": 454.0175,
+              "ci95_low": 109.3051,
+              "valid_events": 240,
+              "weighted_mean_dollars": 281.6613
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 3560.6395,
+              "brr_valid_replicates": 128,
+              "ci95_high": 11788.107,
+              "ci95_low": -2169.5997,
+              "valid_events": 51,
+              "weighted_mean_dollars": 4809.2537
+            }
+          }
+        },
+        "middle_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 254.9416,
+              "brr_valid_replicates": 128,
+              "ci95_high": 1355.7934,
+              "ci95_low": 356.4223,
+              "valid_events": 398,
+              "weighted_mean_dollars": 856.1079
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 261.2357,
+              "brr_valid_replicates": 128,
+              "ci95_high": 1200.2002,
+              "ci95_low": 176.1562,
+              "valid_events": 87,
+              "weighted_mean_dollars": 688.1782
+            }
+          }
+        },
+        "near_poor": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 37.1532,
+              "brr_valid_replicates": 128,
+              "ci95_high": 148.9763,
+              "ci95_low": 3.3357,
+              "valid_events": 92,
+              "weighted_mean_dollars": 76.156
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 0.0,
+              "brr_valid_replicates": 128,
+              "ci95_high": 0.0,
+              "ci95_low": 0.0,
+              "valid_events": 8,
+              "weighted_mean_dollars": 0.0
+            }
+          }
+        },
+        "poor_negative": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 43.4186,
+              "brr_valid_replicates": 128,
+              "ci95_high": 202.263,
+              "ci95_low": 32.0622,
+              "valid_events": 366,
+              "weighted_mean_dollars": 117.1626
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 74.6711,
+              "brr_valid_replicates": 128,
+              "ci95_high": 270.3517,
+              "ci95_low": -22.3589,
+              "valid_events": 60,
+              "weighted_mean_dollars": 123.9964
+            }
           }
         }
       },
@@ -270,6 +494,118 @@
           }
         }
       },
+      "by_poverty_and_bill_problem": {
+        "high_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 5.7731,
+              "brr_valid_replicates": 128,
+              "ci95_high": 85.5642,
+              "ci95_low": 62.9338,
+              "valid_events": 67141,
+              "weighted_mean_dollars": 74.249
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 8.3564,
+              "brr_valid_replicates": 128,
+              "ci95_high": 72.0518,
+              "ci95_low": 39.2948,
+              "valid_events": 2901,
+              "weighted_mean_dollars": 55.6733
+            }
+          }
+        },
+        "low_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 8.4292,
+              "brr_valid_replicates": 128,
+              "ci95_high": 54.8122,
+              "ci95_low": 21.7696,
+              "valid_events": 12137,
+              "weighted_mean_dollars": 38.2909
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 28.1724,
+              "brr_valid_replicates": 128,
+              "ci95_high": 114.0474,
+              "ci95_low": 3.6115,
+              "valid_events": 2320,
+              "weighted_mean_dollars": 58.8295
+            }
+          }
+        },
+        "middle_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 3.6236,
+              "brr_valid_replicates": 128,
+              "ci95_high": 52.6004,
+              "ci95_low": 38.3961,
+              "valid_events": 30722,
+              "weighted_mean_dollars": 45.4983
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 6.2103,
+              "brr_valid_replicates": 128,
+              "ci95_high": 58.3352,
+              "ci95_low": 33.9909,
+              "valid_events": 4656,
+              "weighted_mean_dollars": 46.1631
+            }
+          }
+        },
+        "near_poor": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 11.5829,
+              "brr_valid_replicates": 128,
+              "ci95_high": 52.2765,
+              "ci95_low": 6.8713,
+              "valid_events": 4285,
+              "weighted_mean_dollars": 29.5739
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 5.5888,
+              "brr_valid_replicates": 128,
+              "ci95_high": 28.6536,
+              "ci95_low": 6.7456,
+              "valid_events": 661,
+              "weighted_mean_dollars": 17.6996
+            }
+          }
+        },
+        "poor_negative": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 4.2717,
+              "brr_valid_replicates": 128,
+              "ci95_high": 30.4489,
+              "ci95_low": 13.7039,
+              "valid_events": 16406,
+              "weighted_mean_dollars": 22.0764
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 17.3064,
+              "brr_valid_replicates": 128,
+              "ci95_high": 72.8267,
+              "ci95_low": 4.9858,
+              "valid_events": 2568,
+              "weighted_mean_dollars": 38.9062
+            }
+          }
+        }
+      },
       "event_file_records": 145818,
       "payment_fields": {
         "self_family": "OBSF24X",
@@ -382,6 +718,118 @@
             "ci95_low": 132.6292,
             "valid_events": 23375,
             "weighted_mean_dollars": 209.0015
+          }
+        }
+      },
+      "by_poverty_and_bill_problem": {
+        "high_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1.2817,
+              "brr_valid_replicates": 128,
+              "ci95_high": 22.9124,
+              "ci95_low": 17.888,
+              "valid_events": 71269,
+              "weighted_mean_dollars": 20.4002
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 6.5751,
+              "brr_valid_replicates": 128,
+              "ci95_high": 36.3207,
+              "ci95_low": 10.5463,
+              "valid_events": 3248,
+              "weighted_mean_dollars": 23.4335
+            }
+          }
+        },
+        "low_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1.842,
+              "brr_valid_replicates": 128,
+              "ci95_high": 15.8623,
+              "ci95_low": 8.6416,
+              "valid_events": 22086,
+              "weighted_mean_dollars": 12.2519
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 3.3795,
+              "brr_valid_replicates": 128,
+              "ci95_high": 18.1992,
+              "ci95_low": 4.9514,
+              "valid_events": 5352,
+              "weighted_mean_dollars": 11.5753
+            }
+          }
+        },
+        "middle_income": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 3.9061,
+              "brr_valid_replicates": 128,
+              "ci95_high": 28.5034,
+              "ci95_low": 13.1916,
+              "valid_events": 43821,
+              "weighted_mean_dollars": 20.8475
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 2.1585,
+              "brr_valid_replicates": 128,
+              "ci95_high": 18.5031,
+              "ci95_low": 10.042,
+              "valid_events": 7768,
+              "weighted_mean_dollars": 14.2725
+            }
+          }
+        },
+        "near_poor": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 3.6295,
+              "brr_valid_replicates": 128,
+              "ci95_high": 16.9452,
+              "ci95_low": 2.7176,
+              "valid_events": 9785,
+              "weighted_mean_dollars": 9.8314
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 2.1141,
+              "brr_valid_replicates": 128,
+              "ci95_high": 10.5695,
+              "ci95_low": 2.2825,
+              "valid_events": 1857,
+              "weighted_mean_dollars": 6.426
+            }
+          }
+        },
+        "poor_negative": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1.8641,
+              "brr_valid_replicates": 128,
+              "ci95_high": 11.0057,
+              "ci95_low": 3.6983,
+              "valid_events": 31989,
+              "weighted_mean_dollars": 7.352
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 0.9321,
+              "brr_valid_replicates": 128,
+              "ci95_high": 7.5009,
+              "ci95_low": 3.8469,
+              "valid_events": 5150,
+              "weighted_mean_dollars": 5.6739
+            }
           }
         }
       },

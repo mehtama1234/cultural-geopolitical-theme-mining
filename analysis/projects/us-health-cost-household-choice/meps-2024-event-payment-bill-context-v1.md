@@ -58,6 +58,29 @@ small and variable to promote as headline comparisons. These results still
 cannot tell whether coverage caused the bill problem, whether the bill came
 from the displayed event, or who never entered the observed-event universe.
 
+## Resource-conditioned check
+
+The same surface was also split by the five MEPS poverty categories. This
+changes the question from “does payment differ by bill status?” to “does that
+comparison hold at different levels of annual household resources?” Selected
+self/family payment means (bill-problem / no-problem) are:
+
+| Resource category | Office visit | Prescription purchase | Inpatient stay |
+|---|---:|---:|---:|
+| Poor/negative | $38.91 / $22.08 | $5.67 / $7.35 | $124.00 / $117.16 |
+| Near poor | $17.70 / $29.57 | $6.43 / $9.83 | $0.00 / $76.16 |
+| Low income | $58.83 / $38.29 | $11.58 / $12.25 | $4,809.25 / $281.66 |
+| Middle income | $46.16 / $45.50 | $14.27 / $20.85 | $688.18 / $856.11 |
+| High income | $55.67 / $74.25 | $23.43 / $20.40 | $367.61 / $889.03 |
+
+The resource split is not a monotonic affordability law. Office and
+prescription differences change sign across categories, and the low-income
+inpatient bill-problem cell is highly variable (51 valid events; BRR SE
+$3,560.64). Poverty category is an annual resource context, not liquid cash at
+the event, deductible exposure, or a measure of the amount owed. The table is
+therefore a conditioning diagnostic and not a claim that poorer people pay
+less or that higher event payments create bill problems.
+
 ```text
 observed care event + payment
   -> annual bill-problem context
