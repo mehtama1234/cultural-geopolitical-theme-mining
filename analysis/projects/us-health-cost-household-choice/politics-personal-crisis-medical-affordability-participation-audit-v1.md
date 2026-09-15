@@ -253,3 +253,13 @@ each political action as a separate outcome; and attribution categories as
 mediator/heterogeneity candidates. Preserve the raw contrasts above as the
 descriptive baseline and do not promote the extension into the atlas until
 its design-based uncertainty and exact coding are validated.
+
+The current screening implementation is preserved in
+`scripts/analyze_ces_medical_affordability_political_action.py`:
+
+```text
+python3 scripts/analyze_ces_medical_affordability_political_action.py \
+  --input-2018 /path/to/CCES18_crisis_vv.tab \
+  --input-2020 /path/to/CCES20_crisis_vv.tab \
+  --output /tmp/ces-medical-affordability-action.json
+```
