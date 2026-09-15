@@ -158,6 +158,39 @@ The final arrow remains open. The data do not measure whether contact or
 protest produced a remedy, improved affordability, changed trust, or caused
 political exit.
 
+## Basic adjusted extension
+
+As a sensitivity screen, I fit separate weighted logistic models for validated
+turnout and each participation act. The focal indicator is `crisis_medexp`;
+the models also include `total_crises - crisis_medexp`, prior validated turnout,
+sex, Black indicator, Hispanic indicator, other-race indicator, age, education,
+income, marital status, church attendance, and presence of a child under 18.
+The supplied `teamweight` is used as a frequency weight. Standard errors are
+HC1 model-robust standard errors, not CES Taylor-series design estimates.
+
+The table reports the odds ratio for medical-expense hardship, with a model
+95% interval in parentheses. Each outcome uses its own complete-case sample;
+2018 models use 883 rows and 2020 models use 888 rows.
+
+| Outcome | 2018 OR (95% model interval) | 2020 OR (95% model interval) |
+|---|---:|---:|
+| Validated turnout | 0.93 (0.52–1.65) | 1.22 (0.66–2.26) |
+| Attend local meeting | 0.75 (0.40–1.43) | 1.36 (0.53–3.46) |
+| Put up political sign | 1.27 (0.74–2.19) | 0.51 (0.27–0.97) |
+| Work for campaign | 0.73 (0.34–1.53) | 0.22 (0.03–1.61) |
+| Attend protest | 1.15 (0.60–2.22) | 1.28 (0.53–3.12) |
+| Contact public official | 1.69 (1.11–2.59) | 1.80 (1.02–3.16) |
+| Donate | 1.15 (0.68–1.95) | 1.05 (0.58–1.92) |
+
+The most stable-looking result in this exploratory screen is the contact
+outcome: the medical-hardship indicator is positively associated with official
+contact in both years after basic adjustment. The 2020 sign estimate points
+downward, while turnout and most other actions remain imprecise or cross one.
+This supports a targeted-pressure hypothesis more than a universal
+disengagement hypothesis, but the model is not a causal estimate and the
+intervals are not design-based. The contact result should therefore be treated
+as a candidate for a properly weighted survey-design replication.
+
 ## What the published paper establishes
 
 The paper analyzes CES Common Content/Module data from 2018 and 2020, along
@@ -208,6 +241,8 @@ oneself imply different legitimacy and remedy pathways.
 - Attribution categories are sparse in the 2020 hardship group, especially
   local-government attribution; no category-level ranking should be treated
   as stable without a larger design-based replication.
+- The adjusted extension uses model-robust rather than CES design-based
+  uncertainty; its intervals are screening diagnostics only.
 - The result does not observe a bill amount, care delayed, payment plan,
   collections, insurer/provider remedy, or institutional response.
 

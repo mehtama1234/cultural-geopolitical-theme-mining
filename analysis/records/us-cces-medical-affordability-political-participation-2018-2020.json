@@ -17,10 +17,11 @@
         "contact_official_no_crisis": {"value": 21.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "contact_official_medical_expense_crisis": {"value": 23.3, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
         "donate_no_crisis": {"value": 17.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
-        "donate_medical_expense_crisis": {"value": 10.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"}
+        "donate_medical_expense_crisis": {"value": 10.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "adjusted_contact_odds_ratio": {"value": 1.694, "unit": "odds ratio; 95% model interval 1.106–2.593", "value_type": "weighted_logistic_screen"}
       },
       "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
-      "uncertainty": "No reproduced design-based standard errors are claimed. The published paper models total crisis count rather than a standalone medical-expense coefficient; this is an exploratory same-respondent extension.",
+      "uncertainty": "No reproduced design-based standard errors are claimed. A basic weighted logistic screening extension gives contact OR 1.694 (model-robust 95% interval 1.106–2.593); this is not a survey-design interval. The published paper models total crisis count rather than a standalone medical-expense coefficient; this is an exploratory same-respondent extension.",
       "subgroup": "Rows reporting versus not reporting trouble affording medical expenses.",
       "counterinterpretation": "Medical-expense hardship may proxy health, income, insurance insecurity, prior turnout, employment, or other crises; the contrast is not causal.",
       "source_url": "https://dataverse.harvard.edu/api/access/datafile/8961297?format=original",
@@ -45,10 +46,12 @@
         "federal_attribution_contact_official": {"value": 42.7, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
         "bad_luck_attribution_contact_official": {"value": 13.4, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
         "federal_attribution_protest": {"value": 23.6, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
-        "bad_luck_attribution_protest": {"value": 4.0, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"}
+        "bad_luck_attribution_protest": {"value": 4.0, "unit": "percent weighted mean", "value_type": "weighted_attribution_group_mean"},
+        "adjusted_contact_odds_ratio": {"value": 1.799, "unit": "odds ratio; 95% model interval 1.023–3.164", "value_type": "weighted_logistic_screen"},
+        "adjusted_sign_odds_ratio": {"value": 0.510, "unit": "odds ratio; 95% model interval 0.268–0.971", "value_type": "weighted_logistic_screen"}
       },
       "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
-      "uncertainty": "No reproduced design-based standard errors are claimed. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",
+      "uncertainty": "No reproduced design-based standard errors are claimed. A basic weighted logistic screening extension gives contact OR 1.799 (model-robust 95% interval 1.023–3.164) and sign OR 0.510 (0.268–0.971); these are not survey-design intervals. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",
       "subgroup": "Rows reporting versus not reporting trouble affording medical expenses.",
       "counterinterpretation": "The 2020 pattern may reflect pandemic-era context, other crises, health, income, insurance insecurity, prior turnout, ideology, or selection; attribution cells are sparse and targeted contact/protest is not proof of institutional remedy or legitimacy change.",
       "source_url": "https://dataverse.harvard.edu/api/access/datafile/8961293?format=original",
