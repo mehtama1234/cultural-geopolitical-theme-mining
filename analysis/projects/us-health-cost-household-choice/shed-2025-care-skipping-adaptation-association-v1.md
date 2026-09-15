@@ -129,6 +129,22 @@ unexpected-expense share among insured skippers is also a warning against a
 simple uninsured-versus-insured burden ranking: insurance, illness, care
 seeking, plan design, and realized expense selection are entangled.
 
+## Outside help is a support route, not proof of resolution
+
+Among respondents with complete care-foregoing fields, **12.59%** of those
+reporting any care skipped also reported that someone outside the household
+helped pay medical expenses, medical debt, or health insurance in the prior 12
+months. The corresponding share among respondents reporting no listed care
+foregoing was **4.10%**. Within the insured group the comparison was 13.42% vs
+4.08%; within the uninsured group it was 8.26% vs 4.39%.
+
+This adds an observable alternative/support route to the chain: family,
+friends, or another outside source may help a household absorb medical costs.
+It does not reveal the transfer amount, date, giver, conditions, whether the
+help prevented foregoing, or whether the recipient’s own care, debt, work, or
+other needs improved. A transfer can be protection and evidence of residual
+exposure at the same time.
+
 ## Next decisive join
 
 The next step is to separate timing and mechanism: identify whether the

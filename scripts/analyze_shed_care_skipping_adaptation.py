@@ -15,6 +15,7 @@ INSURANCE_FIELDS = ["E4_a", "E4_b", "E4_c", "E4_d", "E4_e", "E4_f"]
 METRICS = {
     "medical_debt": ("E2B", {"Yes"}),
     "unexpected_major_medical_expense": ("E2", {"Yes"}),
+    "outside_help_medical_expenses_debt_insurance": ("FS21_c", {"Yes"}),
     "three_month_emergency_funds": ("EF1", {"Yes"}),
     "used_less_or_stopped_products": ("INF3_b", {"Yes"}),
     "reduced_savings": ("INF3_c", {"Yes"}),

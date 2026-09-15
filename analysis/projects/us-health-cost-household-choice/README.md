@@ -47,6 +47,9 @@ The associated [coverage-conditioned layer](shed-2025-care-skipping-adaptation-a
 tests insured and uninsured routes within the same respondent architecture.
 It preserves the counterexample that coverage lowers reported care foregoing
 overall but does not eliminate medical debt among people who still skip care.
+The same layer now records outside-household help for medical expenses, debt,
+or health insurance as a possible support route; it does not show transfer
+size, timing, conditions, or whether help prevented foregoing or resolved debt.
 
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).

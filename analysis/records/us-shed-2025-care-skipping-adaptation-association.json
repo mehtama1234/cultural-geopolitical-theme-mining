@@ -13,6 +13,7 @@
       "measures": {
         "medical_debt": {"value": 42.182, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
         "unexpected_major_medical_expense": {"value": 36.033, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "outside_help_medical_expenses_debt_insurance": {"value": 12.588, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
         "three_month_emergency_funds": {"value": 31.454, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
         "used_less_or_stopped_products": {"value": 82.764, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
         "reduced_savings": {"value": 64.045, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
@@ -25,7 +26,7 @@
       "subgroup": "Respondents reporting any of five care types skipped because of cost.",
       "counterinterpretation": "Shared need, prior financial scarcity, health, coverage, access, or reverse timing may produce both care foregoing and adaptation.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "retrieval_hash": "sha256:bba26f6e8bf44cd8b495b0c5f8ff1571713e15d4f399d0858b556ee819d2e0e8",
       "status": "reported"
     },
     {
@@ -34,6 +35,7 @@
       "measures": {
         "medical_debt": {"value": 10.031, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
         "unexpected_major_medical_expense": {"value": 16.174, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "outside_help_medical_expenses_debt_insurance": {"value": 4.099, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
         "three_month_emergency_funds": {"value": 62.835, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
         "used_less_or_stopped_products": {"value": 51.732, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
         "reduced_savings": {"value": 33.066, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
@@ -46,7 +48,7 @@
       "subgroup": "Respondents reporting no listed care type skipped because of cost.",
       "counterinterpretation": "No reported foregoing does not prove no unmet need, affordability, or absence of other financial pressure.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "retrieval_hash": "sha256:bba26f6e8bf44cd8b495b0c5f8ff1571713e15d4f399d0858b556ee819d2e0e8",
       "status": "compared"
     },
     {
@@ -65,7 +67,7 @@
       "subgroup": "Respondents reporting any of five care types skipped because of cost and a nonmissing E12_a response.",
       "counterinterpretation": "The amount may concern an unexpected expense unrelated to the skipped care and does not identify the price of care not obtained.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "retrieval_hash": "sha256:bba26f6e8bf44cd8b495b0c5f8ff1571713e15d4f399d0858b556ee819d2e0e8",
       "status": "reported"
     },
     {
@@ -84,7 +86,7 @@
       "subgroup": "Respondents reporting no listed care type skipped because of cost and a nonmissing E12_a response.",
       "counterinterpretation": "No reported care foregoing does not prove the unexpected expense was affordable or that it did not affect other care decisions.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "retrieval_hash": "sha256:bba26f6e8bf44cd8b495b0c5f8ff1571713e15d4f399d0858b556ee819d2e0e8",
       "status": "compared"
     }
   ],
