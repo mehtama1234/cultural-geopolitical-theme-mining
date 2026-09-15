@@ -6,6 +6,7 @@
         "no_problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 11.5603,
+            "brr_valid_replicates": 128,
             "ci95_high": 132.5116,
             "ci95_low": 87.1952,
             "valid_events": 3604,
@@ -13,6 +14,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 78.7587,
+            "brr_valid_replicates": 128,
             "ci95_high": 1605.7931,
             "ci95_low": 1297.0592,
             "valid_events": 3604,
@@ -22,6 +24,7 @@
         "problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 43.3272,
+            "brr_valid_replicates": 128,
             "ci95_high": 203.1366,
             "ci95_low": 33.2938,
             "valid_events": 610,
@@ -29,6 +32,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 103.4244,
+            "brr_valid_replicates": 128,
             "ci95_high": 1389.818,
             "ci95_low": 984.3942,
             "valid_events": 610,
@@ -42,13 +46,82 @@
         "total": "ERXP24X"
       },
       "person_context_link_missing": 0,
-      "positive_weight_events": 4261
+      "positive_weight_events": 4261,
+      "under65_by_coverage_and_bill_problem": {
+        "under65_private": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 27.8968,
+              "brr_valid_replicates": 128,
+              "ci95_high": 284.0906,
+              "ci95_low": 174.7352,
+              "valid_events": 1044,
+              "weighted_mean_dollars": 229.4129
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 34.3548,
+              "brr_valid_replicates": 128,
+              "ci95_high": 224.1898,
+              "ci95_low": 89.5189,
+              "valid_events": 214,
+              "weighted_mean_dollars": 156.8544
+            }
+          }
+        },
+        "under65_public_only": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 6.244,
+              "brr_valid_replicates": 128,
+              "ci95_high": 27.4619,
+              "ci95_low": 2.9852,
+              "valid_events": 962,
+              "weighted_mean_dollars": 15.2235
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 6.0152,
+              "brr_valid_replicates": 128,
+              "ci95_high": 22.9646,
+              "ci95_low": -0.6148,
+              "valid_events": 204,
+              "weighted_mean_dollars": 11.1749
+            }
+          }
+        },
+        "under65_uninsured": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 75.1668,
+              "brr_valid_replicates": 128,
+              "ci95_high": 381.7589,
+              "ci95_low": 87.1051,
+              "valid_events": 73,
+              "weighted_mean_dollars": 234.432
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1127.6182,
+              "brr_valid_replicates": 128,
+              "ci95_high": 3118.0862,
+              "ci95_low": -1302.1772,
+              "valid_events": 22,
+              "weighted_mean_dollars": 907.9545
+            }
+          }
+        }
+      }
     },
     "inpatient": {
       "by_bill_problem": {
         "no_problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 88.088,
+            "brr_valid_replicates": 128,
             "ci95_high": 784.8687,
             "ci95_low": 439.5637,
             "valid_events": 1607,
@@ -56,6 +129,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 968.854,
+            "brr_valid_replicates": 128,
             "ci95_high": 21277.9191,
             "ci95_low": 17480.0115,
             "valid_events": 1607,
@@ -65,6 +139,7 @@
         "problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 658.3731,
+            "brr_valid_replicates": 128,
             "ci95_high": 2623.6936,
             "ci95_low": 42.8712,
             "valid_events": 238,
@@ -72,6 +147,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 1317.8667,
+            "brr_valid_replicates": 128,
             "ci95_high": 18596.8814,
             "ci95_low": 13430.8438,
             "valid_events": 238,
@@ -85,13 +161,82 @@
         "total": "IPXP24X"
       },
       "person_context_link_missing": 0,
-      "positive_weight_events": 1881
+      "positive_weight_events": 1881,
+      "under65_by_coverage_and_bill_problem": {
+        "under65_private": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 188.6364,
+              "brr_valid_replicates": 128,
+              "ci95_high": 1451.6559,
+              "ci95_low": 712.2012,
+              "valid_events": 352,
+              "weighted_mean_dollars": 1081.9285
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1753.4004,
+              "brr_valid_replicates": 128,
+              "ci95_high": 5707.2416,
+              "ci95_low": -1166.0879,
+              "valid_events": 79,
+              "weighted_mean_dollars": 2270.5768
+            }
+          }
+        },
+        "under65_public_only": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 34.4802,
+              "brr_valid_replicates": 128,
+              "ci95_high": 132.7349,
+              "ci95_low": -2.4273,
+              "valid_events": 354,
+              "weighted_mean_dollars": 65.1538
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 164.9664,
+              "brr_valid_replicates": 128,
+              "ci95_high": 541.6856,
+              "ci95_low": -104.9827,
+              "valid_events": 58,
+              "weighted_mean_dollars": 218.3515
+            }
+          }
+        },
+        "under65_uninsured": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 206.4473,
+              "brr_valid_replicates": 128,
+              "ci95_high": 603.3013,
+              "ci95_low": -205.9722,
+              "valid_events": 18,
+              "weighted_mean_dollars": 198.6645
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 0.0,
+              "brr_valid_replicates": 96,
+              "ci95_high": 0.0,
+              "ci95_low": 0.0,
+              "valid_events": 2,
+              "weighted_mean_dollars": 0.0
+            }
+          }
+        }
+      }
     },
     "office": {
       "by_bill_problem": {
         "no_problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 3.5528,
+            "brr_valid_replicates": 128,
             "ci95_high": 65.2752,
             "ci95_low": 51.3483,
             "valid_events": 130691,
@@ -99,6 +244,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 7.7346,
+            "brr_valid_replicates": 128,
             "ci95_high": 322.6316,
             "ci95_low": 292.3119,
             "valid_events": 130691,
@@ -108,6 +254,7 @@
         "problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 5.8236,
+            "brr_valid_replicates": 128,
             "ci95_high": 60.3687,
             "ci95_low": 37.5401,
             "valid_events": 13106,
@@ -115,6 +262,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 28.8054,
+            "brr_valid_replicates": 128,
             "ci95_high": 373.048,
             "ci95_low": 260.1309,
             "valid_events": 13106,
@@ -128,13 +276,82 @@
         "total": "OBXP24X"
       },
       "person_context_link_missing": 0,
-      "positive_weight_events": 144206
+      "positive_weight_events": 144206,
+      "under65_by_coverage_and_bill_problem": {
+        "under65_private": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 5.5375,
+              "brr_valid_replicates": 128,
+              "ci95_high": 88.2584,
+              "ci95_low": 66.5514,
+              "valid_events": 56825,
+              "weighted_mean_dollars": 77.4049
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 5.22,
+              "brr_valid_replicates": 128,
+              "ci95_high": 69.4048,
+              "ci95_low": 48.9424,
+              "valid_events": 5798,
+              "weighted_mean_dollars": 59.1736
+            }
+          }
+        },
+        "under65_public_only": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1.4249,
+              "brr_valid_replicates": 128,
+              "ci95_high": 13.9184,
+              "ci95_low": 8.3327,
+              "valid_events": 19103,
+              "weighted_mean_dollars": 11.1256
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 16.9582,
+              "brr_valid_replicates": 128,
+              "ci95_high": 65.0321,
+              "ci95_low": -1.4442,
+              "valid_events": 3828,
+              "weighted_mean_dollars": 31.7939
+            }
+          }
+        },
+        "under65_uninsured": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 27.2772,
+              "brr_valid_replicates": 128,
+              "ci95_high": 151.7015,
+              "ci95_low": 44.775,
+              "valid_events": 1163,
+              "weighted_mean_dollars": 98.2382
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 114.9615,
+              "brr_valid_replicates": 128,
+              "ci95_high": 442.6965,
+              "ci95_low": -7.9524,
+              "valid_events": 262,
+              "weighted_mean_dollars": 217.3721
+            }
+          }
+        }
+      }
     },
     "prescription": {
       "by_bill_problem": {
         "no_problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 1.3155,
+            "brr_valid_replicates": 128,
             "ci95_high": 20.0291,
             "ci95_low": 14.8723,
             "valid_events": 178950,
@@ -142,6 +359,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 14.9649,
+            "brr_valid_replicates": 128,
             "ci95_high": 266.3127,
             "ci95_low": 207.6504,
             "valid_events": 178950,
@@ -151,6 +369,7 @@
         "problem_reported": {
           "self_family_payment": {
             "brr_se_dollars": 1.5221,
+            "brr_valid_replicates": 128,
             "ci95_high": 16.2906,
             "ci95_low": 10.324,
             "valid_events": 23375,
@@ -158,6 +377,7 @@
           },
           "total_payment": {
             "brr_se_dollars": 38.9655,
+            "brr_valid_replicates": 128,
             "ci95_high": 285.3739,
             "ci95_low": 132.6292,
             "valid_events": 23375,
@@ -171,7 +391,75 @@
         "total": "RXXP24X"
       },
       "person_context_link_missing": 0,
-      "positive_weight_events": 202902
+      "positive_weight_events": 202902,
+      "under65_by_coverage_and_bill_problem": {
+        "under65_private": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 2.7745,
+              "brr_valid_replicates": 128,
+              "ci95_high": 27.7635,
+              "ci95_low": 16.8875,
+              "valid_events": 53843,
+              "weighted_mean_dollars": 22.3255
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 2.6441,
+              "brr_valid_replicates": 128,
+              "ci95_high": 23.3114,
+              "ci95_low": 12.9466,
+              "valid_events": 8136,
+              "weighted_mean_dollars": 18.129
+            }
+          }
+        },
+        "under65_public_only": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 0.7066,
+              "brr_valid_replicates": 128,
+              "ci95_high": 5.3411,
+              "ci95_low": 2.5712,
+              "valid_events": 32480,
+              "weighted_mean_dollars": 3.9561
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 1.0619,
+              "brr_valid_replicates": 128,
+              "ci95_high": 6.8088,
+              "ci95_low": 2.646,
+              "valid_events": 7688,
+              "weighted_mean_dollars": 4.7274
+            }
+          }
+        },
+        "under65_uninsured": {
+          "no_problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 19.2683,
+              "brr_valid_replicates": 128,
+              "ci95_high": 100.5476,
+              "ci95_low": 25.0157,
+              "valid_events": 1961,
+              "weighted_mean_dollars": 62.7817
+            }
+          },
+          "problem_reported": {
+            "self_family_payment": {
+              "brr_se_dollars": 9.5797,
+              "brr_valid_replicates": 128,
+              "ci95_high": 43.3554,
+              "ci95_low": 5.8028,
+              "valid_events": 535,
+              "weighted_mean_dollars": 24.5791
+            }
+          }
+        }
+      }
     }
   },
   "format": "us-meps-2024-event-payment-bill-context-v1",

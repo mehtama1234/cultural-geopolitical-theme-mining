@@ -36,6 +36,28 @@ on the observed event. Direct payment, total allowed/payment, coverage,
 deductibles, prior balances, unpaid amounts, household resources, and forgone
 care are distinct surfaces.
 
+## Coverage-conditioned check
+
+The same event records were split by the under-65 `INSURC24` categories to
+test whether the national comparison was merely a coverage mix. The table
+shows self/family payment per event; each cell is an event-weighted mean with
+the valid event count in parentheses.
+
+| Event | Private: bill problem / no problem | Public-only: bill problem / no problem | Uninsured: bill problem / no problem |
+|---|---:|---:|---:|
+| Office visit | $59.17 (5,798) / $77.40 (56,825) | $31.79 (3,828) / $11.13 (19,103) | $217.37 (262) / $98.24 (1,163) |
+| Emergency room | $156.85 (214) / $229.41 (1,044) | $11.17 (204) / $15.22 (962) | $907.95 (22) / $234.43 (73) |
+| Inpatient stay | $2,270.58 (79) / $1,081.93 (352) | $218.35 (58) / $65.15 (354) | $0.00 (2) / $198.66 (18) |
+| Prescription purchase | $18.13 (8,136) / $22.33 (53,843) | $4.73 (7,688) / $3.96 (32,480) | $24.58 (535) / $62.78 (1,961) |
+
+Coverage changes the pattern rather than removing the ambiguity. The private
+and public-only inpatient cells are directionally consistent with greater
+observed direct payment among bill-problem reporters, but the private
+inpatient uncertainty is large. The uninsured ER and inpatient cells are too
+small and variable to promote as headline comparisons. These results still
+cannot tell whether coverage caused the bill problem, whether the bill came
+from the displayed event, or who never entered the observed-event universe.
+
 ```text
 observed care event + payment
   -> annual bill-problem context
@@ -66,8 +88,11 @@ payment definitions. The annual `PROBPY42` field is person-level context, not an
 event-level bill key. Payment fields are MEPS edited/imputed expenditure
 measures; they do not reveal debt, unpaid balance, payment timing, borrowing,
 savings draw, skipped care, or household tradeoffs. Standard errors use the
-event files' 128 BRR indicators, but this remains descriptive and subject to
-event selection, health need, coverage, and item-specific missingness.
+event files' 128 BRR indicators. A few small coverage cells have zero-sum
+replicate weights; their uncertainty calculation retains only valid replicates
+and they are not promoted as headline results. The analysis remains descriptive
+and subject to event selection, health need, coverage, and item-specific
+missingness.
 
 ## Reproduction
 

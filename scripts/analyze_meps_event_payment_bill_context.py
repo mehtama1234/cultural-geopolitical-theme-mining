@@ -18,6 +18,7 @@ EVENTS = {
     "prescription": ("RXXP24X", "RXSF24X"),
 }
 FLAGS = [f"BRR{i}" for i in range(1, 129)]
+COVERAGE = {1: "under65_private", 2: "under65_public_only", 3: "under65_uninsured"}
 
 
 def estimate(frame: pd.DataFrame, payment: pd.Series, mask: pd.Series) -> dict[str, float | int | None]:
@@ -30,14 +31,16 @@ def estimate(frame: pd.DataFrame, payment: pd.Series, mask: pd.Series) -> dict[s
     replicate = []
     for flag in FLAGS:
         replicate_weights = weights[valid] * 2 * pd.to_numeric(frame.loc[valid, flag], errors="coerce").to_numpy(float)
-        replicate.append(float(np.average(values[valid], weights=replicate_weights)))
-    se = float(np.sqrt(np.mean((np.asarray(replicate) - point) ** 2)))
+        replicate.append(float(np.average(values[valid], weights=replicate_weights)) if replicate_weights.sum() > 0 else np.nan)
+    usable_replicates = np.asarray(replicate)[np.isfinite(replicate)]
+    se = float(np.sqrt(np.mean((usable_replicates - point) ** 2))) if usable_replicates.size else None
     return {
         "valid_events": int(valid.sum()),
         "weighted_mean_dollars": round(point, 4),
-        "brr_se_dollars": round(se, 4),
-        "ci95_low": round(point - 1.96 * se, 4),
-        "ci95_high": round(point + 1.96 * se, 4),
+        "brr_valid_replicates": int(usable_replicates.size),
+        "brr_se_dollars": round(se, 4) if se is not None else None,
+        "ci95_low": round(point - 1.96 * se, 4) if se is not None else None,
+        "ci95_high": round(point + 1.96 * se, 4) if se is not None else None,
     }
 
 
@@ -63,7 +66,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
-    person, _ = pyreadstat.read_dta(args.hc256, usecols=["DUPERSID", "PANEL", "PROBPY42"])
+    person, _ = pyreadstat.read_dta(args.hc256, usecols=["DUPERSID", "PANEL", "PROBPY42", "INSURC24"])
     brr, _ = pyreadstat.read_dta(args.brr, usecols=["DUPERSID", "PANEL", *FLAGS])
     for frame in [person, brr]:
         add_key(frame)
@@ -88,16 +91,28 @@ def main() -> None:
         events = read_event(path, total_field, family_field)
         for frame in [events]:
             add_key(frame)
-        merged = events.merge(person[["KEY", "PROBPY42", *FLAGS]], on="KEY", how="left", validate="many_to_one")
+        merged = events.merge(person[["KEY", "PROBPY42", "INSURC24", *FLAGS]], on="KEY", how="left", validate="many_to_one")
         total = pd.to_numeric(merged[total_field], errors="coerce")
         family = pd.to_numeric(merged[family_field], errors="coerce")
         bill = pd.to_numeric(merged["PROBPY42"], errors="coerce")
         positive = pd.to_numeric(merged["PERWT24F"], errors="coerce") > 0
+        by_coverage: dict[str, object] = {}
+        for code, label in COVERAGE.items():
+            coverage = merged["INSURC24"].eq(code)
+            by_coverage[label] = {
+                "problem_reported": {
+                    "self_family_payment": estimate(merged, family, positive & coverage & (bill == 1)),
+                },
+                "no_problem_reported": {
+                    "self_family_payment": estimate(merged, family, positive & coverage & (bill == 2)),
+                },
+            }
         output["events"][event_name] = {
             "event_file_records": len(events),
             "positive_weight_events": int(positive.sum()),
             "person_context_link_missing": int(merged["PROBPY42"].isna().sum()),
             "payment_fields": {"total": total_field, "self_family": family_field},
+            "under65_by_coverage_and_bill_problem": by_coverage,
             "by_bill_problem": {
                 "problem_reported": {
                     "total_payment": estimate(merged, total, positive & (bill == 1)),
