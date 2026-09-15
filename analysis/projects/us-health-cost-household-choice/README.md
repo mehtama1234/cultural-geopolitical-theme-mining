@@ -146,6 +146,13 @@ promotes that benchmark into the connected atlas. It preserves the adjusted
 contact screen, the 2018/2020 attribution-format difference, and the missing
 bill-to-remedy-to-legitimacy join.
 
+The [UAS health-cost and legitimacy acquisition audit](uas-health-cost-legitimacy-acquisition-audit-v1.md)
+identifies the strongest next route: USC's registration-gated UAS links
+health-cost and unmet-care modules, monthly health/financial events, and
+institution-specific trust or satisfaction through `uasid`. It is a verified
+acquisition design, not yet a result; overlap, timing, weights, and missingness
+must be established after access.
+
 Party identity, insurance status, health-condition status, and household
 income are now included as conditioning tests. They show that trust levels
 and gradients vary by prior identity and health/coverage composition; annual

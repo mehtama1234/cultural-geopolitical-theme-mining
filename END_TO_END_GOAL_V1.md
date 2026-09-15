@@ -246,6 +246,16 @@ same-person health-cost episode with alternatives, remedy effort, and a later
 trust or action measure. The missing join is a documented boundary, not an
 implicit causal claim.
 
+The next acquisition route is now concrete: USC's Understanding America Study
+(UAS) documents a respondent-level `uasid` link across core, special-topic,
+and monthly panel files. Its health-cost modules include affordability, bills,
+out-of-pocket costs, unmet care, reasons, support, provider experience, and
+trust in hospitals or insurers; its monthly panels can provide previous-month
+health, financial, work, pain, and meaning measures. Registration-gated access
+and codebook inspection remain required before any estimate is promoted. The
+planned gate is a same-respondent ordered sequence with reported overlap,
+retention, weights, missingness, timing, uncertainty, and counterexamples.
+
 ## Why this project exists
 
 Many public stories show the final surface of a change: a new policy, a new tool, a price move, a conflict, a company decision, or a shift in public opinion. The deeper cause is often spread across several fields and institutions.
