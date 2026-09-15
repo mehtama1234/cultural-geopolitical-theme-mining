@@ -1,6 +1,6 @@
 # Medical-cost hardship can become targeted political contact
 
-## The bounded finding
+## The argument
 
 A respondent can experience trouble affording medical expenses without
 responding through one universal political channel. In public 2018 and 2020

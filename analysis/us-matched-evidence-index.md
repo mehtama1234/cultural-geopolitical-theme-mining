@@ -304,7 +304,17 @@ Knowing who sold a product is not the same as having a remedy. The INFORM Consum
 
 [Read the HTML page](../site/us-marketplace-seller-identity-recourse-matched-evidence-001.html) · [Read the Markdown memo](findings/us-marketplace-seller-identity-recourse-matched-evidence-001.md)
 
-### 31. When removing medical debt repairs the record but not the illness
+### 31. Medical-cost hardship can become targeted political contact
+
+**Theme:** US map
+**Route:** connected evidence
+**Still open:** next test
+
+A respondent can experience trouble affording medical expenses without responding through one universal political channel. In public 2018 and 2020 Cooperative Election Study (CES) crisis-module extracts, medical-expense hardship is measured for the same respondents as validated turnout and six past-year political activities. Responsibility attribution is also measured.  The most consistent action signal in the exploratory extension is targeted contact with a public official: the adjusted odds ratio is 1.69 in 2018 and 1.80 in 2020 after controlling for other crises, prior validated turnout, and the supplied demographic covariates. This is a candidate mechanism, not a causal estimate. The public extracts do not contain a dated bill, a remedy, or CES design variables sufficient for a reproduced design-based medical-specific standard error.
+
+[Read the HTML page](../site/us-medical-affordability-political-action-matched-evidence-001.html) · [Read the Markdown memo](findings/us-medical-affordability-political-action-matched-evidence-001.md)
+
+### 32. When removing medical debt repairs the record but not the illness
 
 **Theme:** Cost / health / voice
 **Route:** illness → bill → debt record → relief
@@ -314,7 +324,7 @@ Knowing who sold a product is not the same as having a remedy. The INFORM Consum
 
 [Read the HTML page](../site/us-medical-debt-relief-matched-evidence-001.html) · [Read the Markdown memo](findings/us-medical-debt-relief-matched-evidence-001.md)
 
-### 32. Reviews can reveal quality and distort choice at the same time
+### 33. Reviews can reveal quality and distort choice at the same time
 
 **Theme:** US map
 **Route:** connected evidence
@@ -324,7 +334,7 @@ Reviews are a substitute for examining a product or meeting a seller. That makes
 
 [Read the HTML page](../site/us-online-reviews-trust-matched-evidence-001.html) · [Read the Markdown memo](findings/us-online-reviews-trust-matched-evidence-001.md)
 
-### 33. One cash pool can protect a family by shrinking a business
+### 34. One cash pool can protect a family by shrinking a business
 
 **Theme:** Work / cost
 **Route:** family bill → business cash → firm and local life
@@ -334,7 +344,7 @@ For some US small-business owners, family money and business money are close eno
 
 [Read the HTML page](../site/us-owner-household-business-matched-evidence-001.html) · [Read the Markdown memo](findings/us-owner-household-business-matched-evidence-001.md)
 
-### 34. Payment choice changes who carries the price
+### 35. Payment choice changes who carries the price
 
 **Theme:** Cost
 **Route:** payment fees → price → household money
@@ -344,7 +354,7 @@ The price on a shelf is not always the whole price of buying. A merchant may pay
 
 [Read the HTML page](../site/us-payment-fee-matched-evidence-001.html) · [Read the Markdown memo](findings/us-payment-fee-matched-evidence-001.md)
 
-### 35. When seller visibility becomes a customer cost
+### 36. When seller visibility becomes a customer cost
 
 **Theme:** Cost / customer / finance
 **Route:** ad auction → seller visibility cost → seller price → customer price
@@ -354,7 +364,7 @@ On a marketplace, advertising can be the price a seller pays to be seen. The cus
 
 [Read the HTML page](../site/us-platform-ad-visibility-cost-matched-evidence-001.html) · [Read the Markdown memo](findings/us-platform-ad-visibility-cost-matched-evidence-001.md)
 
-### 36. Equal data access can open the market and weaken the data supply
+### 37. Equal data access can open the market and weaken the data supply
 
 **Theme:** Voice / customer / finance
 **Route:** data rule → seller access → data supply → customer outcome
@@ -364,7 +374,7 @@ When a platform controls data that sellers need, equal access may help outside s
 
 [Read the HTML page](../site/us-platform-data-neutrality-matched-evidence-001.html) · [Read the Markdown memo](findings/us-platform-data-neutrality-matched-evidence-001.md)
 
-### 37. A useful product can still sit inside a power problem
+### 38. A useful product can still sit inside a power problem
 
 **Theme:** Customer / voice / finance
 **Route:** platform product → search choice → seller dependence
@@ -374,7 +384,7 @@ A platform’s own product can help a customer by fitting a need and reducing se
 
 [Read the HTML page](../site/us-platform-owned-products-matched-evidence-001.html) · [Read the Markdown memo](findings/us-platform-owned-products-matched-evidence-001.md)
 
-### 38. Privacy protection can open the door to more sharing
+### 39. Privacy protection can open the door to more sharing
 
 **Theme:** Voice / customer / finance
 **Route:** privacy rule → trust → data sharing → firm knowledge
@@ -384,7 +394,7 @@ A privacy rule can make people feel safer and share more. That may mean a cleare
 
 [Read the HTML page](../site/us-privacy-trust-data-sharing-matched-evidence-001.html) · [Read the Markdown memo](findings/us-privacy-trust-data-sharing-matched-evidence-001.md)
 
-### 39. A recall succeeds only when the household can act
+### 40. A recall succeeds only when the household can act
 
 **Theme:** Health / cost / voice
 **Route:** hazard → notice → household action → remedy
@@ -394,7 +404,7 @@ A recall notice is a public event. A safe household is a private result. The gap
 
 [Read the HTML page](../site/us-product-recall-response-matched-evidence-001.html) · [Read the Markdown memo](findings/us-product-recall-response-matched-evidence-001.md)
 
-### 40. A rent-guarantee claim is a process, not a rescue payment
+### 41. A rent-guarantee claim is a process, not a rescue payment
 
 **Theme:** Cost / housing / voice
 **Route:** default → claim process → landlord payment → tenant recovery risk
@@ -404,7 +414,7 @@ A guarantee does not make rent trouble vanish. It sets a sequence of conditions:
 
 [Read the HTML page](../site/us-rent-guarantee-claim-mechanics-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-claim-mechanics-matched-evidence-001.md)
 
-### 41. When four states make rent guarantee a different deal
+### 42. When four states make rent guarantee a different deal
 
 **Theme:** Cost / housing / voice
 **Route:** state rule → policy form → claim → tenant duty
@@ -414,7 +424,7 @@ A renter may be told that a rent guarantee replaces a large deposit or a co-sign
 
 [Read the HTML page](../site/us-rent-guarantee-four-state-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-four-state-matched-evidence-001.md)
 
-### 42. Rent protection can start before the crisis, but the hardest question is who can buy it
+### 43. Rent protection can start before the crisis, but the hardest question is who can buy it
 
 **Theme:** Cost / housing / finance
 **Route:** rent risk → pre-shock insurance → housing security
@@ -424,7 +434,7 @@ Rent protection is most useful before a missed payment becomes a court case. A r
 
 [Read the HTML page](../site/us-rent-guarantee-insurance-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-insurance-matched-evidence-001.md)
 
-### 43. A rent guarantee can open more leases and still leave the housing market unchanged
+### 44. A rent guarantee can open more leases and still leave the housing market unchanged
 
 **Theme:** Cost / housing / finance
 **Route:** lease screen → guarantee premium → tenant repayment risk
@@ -434,7 +444,7 @@ A rent guarantee changes the proof a renter gives a landlord. Instead of showing
 
 [Read the HTML page](../site/us-rent-guarantee-market-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-market-matched-evidence-001.md)
 
-### 44. When rent guarantee is not one product
+### 45. When rent guarantee is not one product
 
 **Theme:** Cost / housing / finance
 **Route:** provider screen → paid guarantee → landlord protection → tenant debt
@@ -444,7 +454,7 @@ TheGuarantors, Rhino, and Leap describe tools that help a landlord accept a rent
 
 [Read the HTML page](../site/us-rent-guarantee-provider-comparison-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-provider-comparison-matched-evidence-001.md)
 
-### 45. The same rent guarantee can mean different things in different states
+### 46. The same rent guarantee can mean different things in different states
 
 **Theme:** Cost / housing / voice
 **Route:** provider → state filing → policy terms → tenant risk
@@ -454,7 +464,7 @@ A renter comparing guarantee products may see one brand, one logo, and one month
 
 [Read the HTML page](../site/us-rent-guarantee-state-terms-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rent-guarantee-state-terms-matched-evidence-001.md)
 
-### 46. Rent aid can buy time; a lawyer can change the case
+### 47. Rent aid can buy time; a lawyer can change the case
 
 **Theme:** Cost / housing / voice
 **Route:** rent shock → aid or counsel → housing case
@@ -464,7 +474,7 @@ Rent trouble has two separate parts. One is a money gap: rent is due and cash is
 
 [Read the HTML page](../site/us-rental-assistance-eviction-matched-evidence-001.html) · [Read the Markdown memo](findings/us-rental-assistance-eviction-matched-evidence-001.md)
 
-### 47. The person paying the bill may not control the fix
+### 48. The person paying the bill may not control the fix
 
 **Theme:** Energy / housing / cost
 **Route:** renter bill → landlord control → upgrade or delay
@@ -474,7 +484,7 @@ Renters often pay for energy while landlords control major building and applianc
 
 [Read the HTML page](../site/us-renter-energy-split-incentive-matched-evidence-001.html) · [Read the Markdown memo](findings/us-renter-energy-split-incentive-matched-evidence-001.md)
 
-### 48. Repeated help is a signal, not yet a diagnosis
+### 49. Repeated help is a signal, not yet a diagnosis
 
 **Theme:** Energy / cost / housing / public power
 **Route:** first crisis → intervention → next bill and repeat need
@@ -484,7 +494,7 @@ A second energy crisis can mean several different things: a short income gap, a 
 
 [Read the HTML page](../site/us-repeat-energy-crises-matched-evidence-001.html) · [Read the Markdown memo](findings/us-repeat-energy-crises-matched-evidence-001.md)
 
-### 49. Replacement is a second price after repair fails
+### 50. Replacement is a second price after repair fails
 
 **Theme:** Cost / customer / energy
 **Route:** repair failure → replacement → waste or reuse
@@ -494,7 +504,7 @@ Replacement can look like an ordinary customer choice while hiding a forced deci
 
 [Read the HTML page](../site/us-replacement-e-waste-household-cost-matched-evidence-001.html) · [Read the Markdown memo](findings/us-replacement-e-waste-household-cost-matched-evidence-001.md)
 
-### 50. The cost of a bad choice begins after the review
+### 51. The cost of a bad choice begins after the review
 
 **Theme:** Customer / cost / voice
 **Route:** review and search → purchase → return or complaint
@@ -504,7 +514,7 @@ Reviews and search reduce the work of choosing. The real customer cost appears a
 
 [Read the HTML page](../site/us-review-outcomes-returns-matched-evidence-001.html) · [Read the Markdown memo](findings/us-review-outcomes-returns-matched-evidence-001.md)
 
-### 51. Repair access is part of a product’s real price
+### 52. Repair access is part of a product’s real price
 
 **Theme:** Cost / customer / work
 **Route:** product break → repair access → household choice
@@ -514,7 +524,7 @@ The price of a product includes what happens when it breaks. A phone, car, appli
 
 [Read the HTML page](../site/us-right-to-repair-household-cost-matched-evidence-001.html) · [Read the Markdown memo](findings/us-right-to-repair-household-cost-matched-evidence-001.md)
 
-### 52. A safe temperature can compete with food and medicine
+### 53. A safe temperature can compete with food and medicine
 
 **Theme:** Energy / health / cost / housing
 **Route:** energy cost or equipment failure → unsafe temperature or sacrifice
@@ -524,7 +534,7 @@ Energy insecurity is not simply an unpaid bill. It is the moment a household has
 
 [Read the HTML page](../site/us-safe-temperature-energy-insecurity-matched-evidence-001.html) · [Read the Markdown memo](findings/us-safe-temperature-energy-insecurity-matched-evidence-001.md)
 
-### 53. A benefit can be lost without the need going away
+### 54. A benefit can be lost without the need going away
 
 **Theme:** Cost / time / voice
 **Route:** need → rule and access → benefit kept or lost
@@ -534,7 +544,7 @@ Eligibility is not access. A household can qualify for food or health help and s
 
 [Read the HTML page](../site/us-safety-net-access-matched-evidence-001.html) · [Read the Markdown memo](findings/us-safety-net-access-matched-evidence-001.md)
 
-### 54. A recovery loan can keep a local option open—and create another bill
+### 55. A recovery loan can keep a local option open—and create another bill
 
 **Theme:** Work / cost / place
 **Route:** disaster → recovery credit → firm and local options
@@ -544,7 +554,7 @@ After a disaster, a small firm may need cash before customers return or insuranc
 
 [Read the HTML page](../site/us-small-business-disaster-liquidity-matched-evidence-001.html) · [Read the Markdown memo](findings/us-small-business-disaster-liquidity-matched-evidence-001.md)
 
-### 55. When a wider small-business rule crowds out the smallest firms
+### 56. When a wider small-business rule crowds out the smallest firms
 
 **Theme:** Work / cost / voice
 **Route:** eligibility rule → public demand → firm survival
@@ -554,7 +564,7 @@ When a public program lets larger firms qualify as “small,” it can reach mor
 
 [Read the HTML page](../site/us-small-business-support-size-cutoff-matched-evidence-001.html) · [Read the Markdown memo](findings/us-small-business-support-size-cutoff-matched-evidence-001.md)
 
-### 56. A tariff reaches the household through a chain, not one price
+### 57. A tariff reaches the household through a chain, not one price
 
 **Theme:** Cost / customer / voice / work
 **Route:** trade rule → import cost → retail price → household choice
@@ -564,7 +574,7 @@ A tariff does not move straight from a government announcement to one checkout p
 
 [Read the HTML page](../site/us-tariff-price-pass-through-matched-evidence-001.html) · [Read the Markdown memo](findings/us-tariff-price-pass-through-matched-evidence-001.md)
 
-### 57. The same dollar can do different work depending on how it arrives
+### 58. The same dollar can do different work depending on how it arrives
 
 **Theme:** Cost / time / voice
 **Route:** aid form → spending choice → household security
@@ -574,7 +584,7 @@ A dollar of public aid is not experienced as the same dollar when it is food or 
 
 [Read the HTML page](../site/us-transfer-design-household-matched-evidence-001.html) · [Read the Markdown memo](findings/us-transfer-design-household-matched-evidence-001.md)
 
-### 58. A manageable yearly cost can still fail at the due date
+### 59. A manageable yearly cost can still fail at the due date
 
 **Theme:** Energy / cost / finance / housing
 **Route:** rate design and season → monthly bill → cash gap or arrears
@@ -584,7 +594,7 @@ An annual energy average can hide the month that breaks a household. EIA shows t
 
 [Read the HTML page](../site/us-utility-bill-timing-rate-design-matched-evidence-001.html) · [Read the Markdown memo](findings/us-utility-bill-timing-rate-design-matched-evidence-001.md)
 
-### 59. An old utility balance can make the next move more expensive
+### 60. An old utility balance can make the next move more expensive
 
 **Theme:** Energy / cost / finance / housing
 **Route:** old utility debt → collections or utility record → next deposit or connection
@@ -594,7 +604,7 @@ An unpaid utility bill does not necessarily end when a household leaves an addre
 
 [Read the HTML page](../site/us-utility-debt-mobility-matched-evidence-001.html) · [Read the Markdown memo](findings/us-utility-debt-mobility-matched-evidence-001.md)
 
-### 60. The cost of entering utility service can become a credit gate
+### 61. The cost of entering utility service can become a credit gate
 
 **Theme:** Energy / cost / finance / voice
 **Route:** new account or past debt → deposit or credit screen → service access
@@ -604,7 +614,7 @@ Utility service can carry a credit test before the first bill. CFPB says a utili
 
 [Read the HTML page](../site/us-utility-entry-cost-credit-screening-matched-evidence-001.html) · [Read the Markdown memo](findings/us-utility-entry-cost-credit-screening-matched-evidence-001.md)
 
-### 61. When a smoother utility bill moves the problem instead of ending it
+### 62. When a smoother utility bill moves the problem instead of ending it
 
 **Theme:** Energy / cost / finance / voice
 **Route:** payment plan → smoother bill → true-up or stable service
@@ -614,7 +624,7 @@ Budget billing changes when a household pays, not necessarily how much it owes. 
 
 [Read the HTML page](../site/us-utility-payment-plans-budget-billing-matched-evidence-001.html) · [Read the Markdown memo](findings/us-utility-payment-plans-budget-billing-matched-evidence-001.md)
 
-### 62. A shutoff rule changes the time a household has to recover
+### 63. A shutoff rule changes the time a household has to recover
 
 **Theme:** Energy / cost / housing / public power
 **Route:** missed payment → protection or shutoff → reconnection and later arrears
@@ -624,7 +634,7 @@ After a missed utility payment, the most important question may be how much time
 
 [Read the HTML page](../site/us-utility-shutoff-reconnection-rules-matched-evidence-001.html) · [Read the Markdown memo](findings/us-utility-shutoff-reconnection-rules-matched-evidence-001.md)
 
-### 63. When a car repair protects access but takes away other room
+### 64. When a car repair protects access but takes away other room
 
 **Theme:** Cost / work / time
 **Route:** repair bill → cash timing → access
@@ -634,7 +644,7 @@ A car repair is not just a transport bill. For a household with little cash, it 
 
 [Read the HTML page](../site/us-vehicle-repair-household-matched-evidence-001.html) · [Read the Markdown memo](findings/us-vehicle-repair-household-matched-evidence-001.md)
 
-### 64. Efficiency savings are real but smaller than the promise
+### 65. Efficiency savings are real but smaller than the promise
 
 **Theme:** Energy / health / cost
 **Route:** weatherization → actual savings → comfort and health
