@@ -73,6 +73,16 @@ def read_extract(path: Path, year: str) -> tuple[pd.DataFrame, dict[str, str]]:
     fields = ["crisis_medexp", "total_crises", "teamweight", *OUTCOMES, *CONTROLS]
     if year == "2020":
         fields += ["UTK315", "UTK356"]
+    else:
+        fields += [
+            "resp_medexp_badluck",
+            "resp_medexp_choices",
+            "resp_medexp_economy",
+            "resp_medexp_federal",
+            "resp_medexp_state",
+            "resp_medexp_local",
+            "resp_medexp_none",
+        ]
     frame, _ = pyreadstat.read_dta(
         path, usecols=sorted(set(fields)), apply_value_formats=False, encoding="latin1"
     )
@@ -138,7 +148,27 @@ def adjusted_screen(frame: pd.DataFrame) -> dict[str, object]:
 
 def attribution(frame: pd.DataFrame) -> dict[str, object]:
     if "UTK356" not in frame:
-        return {}
+        result: dict[str, object] = {}
+        hardship = frame[frame.crisis_medexp == 1]
+        total_weight = float(hardship.teamweight.sum())
+        flags = {
+            "bad_luck": "resp_medexp_badluck",
+            "choices": "resp_medexp_choices",
+            "economy": "resp_medexp_economy",
+            "federal_government": "resp_medexp_federal",
+            "state_government": "resp_medexp_state",
+            "local_government": "resp_medexp_local",
+            "none_of_these": "resp_medexp_none",
+        }
+        for label, field in flags.items():
+            selected = hardship[hardship[field] == 1]
+            result[label] = {
+                "records": int(len(selected)),
+                "weighted_flag_share_percent": float(100 * selected.teamweight.sum() / total_weight),
+                "contact_percent": weighted_mean(selected, "part_contact") * 100,
+                "protest_percent": weighted_mean(selected, "part_protest") * 100,
+            }
+        return {"hardship_records": int(len(hardship)), "multiple_response_flags": True, "groups": result}
     hardship = frame[frame.crisis_medexp == 1].dropna(subset=["UTK356", "teamweight"])
     total_weight = float(hardship.teamweight.sum())
     result: dict[str, object] = {}

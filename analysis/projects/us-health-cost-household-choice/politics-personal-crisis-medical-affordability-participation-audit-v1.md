@@ -158,6 +158,23 @@ The final arrow remains open. The data do not measure whether contact or
 protest produced a remedy, improved affordability, changed trust, or caused
 political exit.
 
+### 2018 attribution cross-check
+
+The 2018 questionnaire uses separate yes/no attribution flags rather than the
+2020 single-choice `UTK356` item, so categories can overlap and their shares
+must not be summed. Among the 257 hardship respondents, the weighted flag
+shares were 24.9% bad luck, 13.1% personal choices, 29.1% the economy, 27.6%
+the federal government, 21.0% the state government, 9.1% local government,
+and 19.2% none of these. Official contact was 26.3% for respondents selecting
+federal-government attribution and 21.5% for those selecting bad-luck
+attribution; protest was 11.1% versus 5.4%.
+
+This cross-check points in the same directional direction as 2020 for
+government-attribution contact and protest, but it is not a clean replication:
+the 2018 categories permit multiple selections, while 2020 reports one
+attribution category, and the question wording/context differ. The two years
+therefore support an attribution-aware test design, not a pooled estimate.
+
 ## Basic adjusted extension
 
 As a sensitivity screen, I fit separate weighted logistic models for validated
