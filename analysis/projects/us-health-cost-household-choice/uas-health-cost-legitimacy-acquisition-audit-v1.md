@@ -123,6 +123,21 @@ names and labels, key and wave uniqueness, missingness, and value-domain
 counts. It is deliberately an acquisition audit; its output cannot by itself
 support a causal or longitudinal estimate.
 
+Once the monthly panel file is acquired, the bounded follow-up screen is
+available at `scripts/analyze_uas_monthly_medical_expense_followup.py`:
+
+```text
+python3 scripts/analyze_uas_monthly_medical_expense_followup.py \
+  /path/to/monthly_panel_latest.dta \
+  --output /tmp/uas-monthly-medical-expense-followup.json
+```
+
+It compares `fin3s4=1` with `fin3s4=2` only when a later observed wave exists,
+reports baseline and next-wave weighted means for health, life satisfaction,
+pain, and meaning when present, records the input hash and exposure codes, and
+does not claim design-based uncertainty. The comparison is a bounded
+transition screen, not a bill-level causal estimate.
+
 ## Promotion rule
 
 Promote a UAS result into the health-cost end-to-end finding only if one
