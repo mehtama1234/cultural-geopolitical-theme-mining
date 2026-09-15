@@ -100,6 +100,12 @@ financial exposure and expanded care use, while depression, self-reported
 health, objective physical health, and labor outcomes moved on different
 scales.
 
+The consolidated [end-to-end finding](findings/us-health-cost-household-choice-end-to-end-001.md)
+now carries the evidence chain from care cost and coverage through care choice,
+household adaptation, institutional response, remedy, and the still-open
+legitimacy endpoint. It is deliberately a layered synthesis rather than a
+single causal estimate.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional

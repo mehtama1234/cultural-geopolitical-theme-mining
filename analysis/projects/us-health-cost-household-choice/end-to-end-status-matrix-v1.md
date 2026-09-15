@@ -39,6 +39,11 @@ next join required to close the chain.
 
 ## Current strongest findings
 
+The consolidated [end-to-end finding](findings/us-health-cost-household-choice-end-to-end-001.md)
+is the current handoff artifact for this lane. It makes the supported,
+compared, randomized, inferred, and open arrows explicit without pooling
+incompatible denominators.
+
 1. **Observed care payment is not household burden.** Event payment differs by
    channel and by coverage/resource context, but the annual bill-problem field
    is not an event-specific obligation.
