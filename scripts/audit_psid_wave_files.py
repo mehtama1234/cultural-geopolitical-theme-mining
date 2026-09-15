@@ -104,10 +104,12 @@ def main() -> int:
                         help="identifier column expected in every supplied file; repeat as needed")
     parser.add_argument("--out", type=Path, help="write JSON audit report to this path")
     args = parser.parse_args()
-    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    manifest_bytes = MANIFEST.read_bytes()
+    manifest = json.loads(manifest_bytes.decode("utf-8"))
     report = {
         "format": "us-psid-wave-file-audit-v1",
         "manifest": str(MANIFEST.relative_to(ROOT)),
+        "manifest_sha256": hashlib.sha256(manifest_bytes).hexdigest(),
         "status": "pass",
         "waves": [],
         "required_identifiers": args.identifier,
