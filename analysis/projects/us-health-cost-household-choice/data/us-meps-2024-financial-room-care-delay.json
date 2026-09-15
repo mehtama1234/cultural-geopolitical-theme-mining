@@ -116,6 +116,56 @@
       "records": 1206
     }
   },
+  "employment_by_confidence": {
+    "employed": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 3.1520416953845602,
+        "could_not_afford_prescription_percent": 1.8727500773827872,
+        "delayed_medical_care_for_cost_percent": 6.942998656584224,
+        "delayed_prescription_for_cost_percent": 2.7305338338735,
+        "records": 7867
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 15.302435292384633,
+        "could_not_afford_prescription_percent": 12.053889971157107,
+        "delayed_medical_care_for_cost_percent": 21.417437529883802,
+        "delayed_prescription_for_cost_percent": 11.731524552323624,
+        "records": 1058
+      }
+    },
+    "not_employed": {
+      "confident": {
+        "could_not_afford_medical_care_percent": 1.3415235642853691,
+        "could_not_afford_prescription_percent": 1.550184194417818,
+        "delayed_medical_care_for_cost_percent": 3.4201605976825125,
+        "delayed_prescription_for_cost_percent": 2.027828548748408,
+        "records": 7641
+      },
+      "not_confident": {
+        "could_not_afford_medical_care_percent": 7.178099543651756,
+        "could_not_afford_prescription_percent": 5.81840346685948,
+        "delayed_medical_care_for_cost_percent": 8.986735363816832,
+        "delayed_prescription_for_cost_percent": 6.013719530093543,
+        "records": 1885
+      }
+    }
+  },
+  "employment_groups": {
+    "employed": {
+      "could_not_afford_medical_care_percent": 4.436301477920349,
+      "could_not_afford_prescription_percent": 2.9388868161189126,
+      "delayed_medical_care_for_cost_percent": 8.455298635378657,
+      "delayed_prescription_for_cost_percent": 3.668191200812571,
+      "records": 8971
+    },
+    "not_employed": {
+      "could_not_afford_medical_care_percent": 2.3118254487269305,
+      "could_not_afford_prescription_percent": 2.250119245043979,
+      "delayed_medical_care_for_cost_percent": 4.303054413917321,
+      "delayed_prescription_for_cost_percent": 2.6699411694685615,
+      "records": 9712
+    }
+  },
   "financial_room_labels": {
     "1": "not_at_all_confident",
     "2": "not_too_confident",

@@ -68,6 +68,17 @@ low financial room visible among middle- and high-income respondents and avoids
 using poverty category as a substitute for liquid cash, deductible exposure,
 or a household affordability model.
 
+The output also retains employed versus not-employed respondent groups and
+repeats the confidence split within each. Employment status is only a coarse
+work endpoint: it does not measure hours, leave, schedule control, job lock,
+unpaid care, or whether a care delay changed employment.
+
+Among employed respondents, cost-related medical-care delay was 21.42% in the
+not-confident group versus 6.94% in the confident group. Among respondents not
+employed, the corresponding shares were 8.99% and 3.42%. This is compatible
+with a work-linked practical-room difference, but employment status is not
+hours, schedule control, leave access, or a causal mediator.
+
 Among respondents not confident paying an unexpected expense, cost-related
 medical-care delay was 11.90% in the poor/negative category, 18.69% in the
 middle-income category, and 15.56% in the high-income category. The cells are

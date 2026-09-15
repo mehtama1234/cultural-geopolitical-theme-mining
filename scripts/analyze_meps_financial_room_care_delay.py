@@ -39,7 +39,7 @@ def main() -> int:
     parser.add_argument("hc256_file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
-    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "POVCAT24", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
+    fields = ["PERWT24F", "FWUNEXP42", "MEDDEBT42", "INSCOV24", "POVCAT24", "EMPST42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"]
     frame, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields)
     frame["DELAYED_MEDICAL_CARE"] = frame["DLAYCA42"].eq(1).astype(float)
     frame["COULD_NOT_AFFORD_MEDICAL_CARE"] = frame["AFRDCA42"].eq(1).astype(float)
@@ -96,6 +96,20 @@ def main() -> int:
             "not_confident": summarize(frame.loc[resource_mask & frame["FWUNEXP42"].isin([1, 2])]),
             "confident": summarize(frame.loc[resource_mask & frame["FWUNEXP42"].isin([3, 4])]),
         }
+    output["employment_groups"] = {
+        "employed": summarize(frame.loc[frame["EMPST42"].isin([1, 2, 3])]),
+        "not_employed": summarize(frame.loc[~frame["EMPST42"].isin([1, 2, 3]) & frame["EMPST42"].notna()]),
+    }
+    output["employment_by_confidence"] = {
+        "employed": {
+            "not_confident": summarize(frame.loc[frame["EMPST42"].isin([1, 2, 3]) & frame["FWUNEXP42"].isin([1, 2])]),
+            "confident": summarize(frame.loc[frame["EMPST42"].isin([1, 2, 3]) & frame["FWUNEXP42"].isin([3, 4])]),
+        },
+        "not_employed": {
+            "not_confident": summarize(frame.loc[~frame["EMPST42"].isin([1, 2, 3]) & frame["EMPST42"].notna() & frame["FWUNEXP42"].isin([1, 2])]),
+            "confident": summarize(frame.loc[~frame["EMPST42"].isin([1, 2, 3]) & frame["EMPST42"].notna() & frame["FWUNEXP42"].isin([3, 4])]),
+        },
+    }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(output, indent=2, sort_keys=True))
