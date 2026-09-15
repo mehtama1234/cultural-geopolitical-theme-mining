@@ -56,6 +56,12 @@ then conditions that bridge on reported expense amount. It shows that smaller
 expense bands can coincide with more care foregoing, while the largest band
 has the highest medical-debt share; amount alone does not identify the route.
 
+The [SHED panel care-foregoing persistence layer](shed-panel-care-foregoing-persistence-v1.md)
+links the same respondents across 2024 and 2025. Entry and persistence of
+reported care foregoing coincide with higher 2025 debt and adaptation, while
+exit still carries residual financial strain; this is longitudinal description,
+not proof of recovery or causation.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional

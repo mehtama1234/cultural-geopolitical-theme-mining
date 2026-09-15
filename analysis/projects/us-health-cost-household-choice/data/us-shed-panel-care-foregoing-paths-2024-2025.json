@@ -1,0 +1,199 @@
+{
+  "care_foregoing_fields": [
+    "E1_a",
+    "E1_b",
+    "E1_c",
+    "E1_d",
+    "E1_e"
+  ],
+  "causal_estimation": false,
+  "format": "us-shed-panel-care-foregoing-paths-v1",
+  "limitation": "Annual recontact identifies persistence, entry, and exit of reported care foregoing but not a dated bill, clinical need, amount, alternative, treatment continuity, or causal order. Panel attrition and item-specific valid universes remain relevant.",
+  "method": "Link 2024 and 2025 public-use records by shedid; require complete Yes/No answers on all five listed cost-related care fields in both years; any Yes defines care foregoing; use 2025 panel_weight.",
+  "paired_rows_with_care_path": 4419,
+  "paths": {
+    "no_to_no": {
+      "outcomes_2025": {
+        "delayed_major_purchase_2025": {
+          "pairs": 2976,
+          "percent": 31.964,
+          "weighted_denominator": 2919.32
+        },
+        "increased_borrowing_2025": {
+          "pairs": 2976,
+          "percent": 7.516,
+          "weighted_denominator": 2919.32
+        },
+        "insured_2025": {
+          "pairs": 2976,
+          "percent": 95.278,
+          "weighted_denominator": 2919.32
+        },
+        "medical_debt_2025": {
+          "pairs": 2976,
+          "percent": 7.192,
+          "weighted_denominator": 2919.32
+        },
+        "outside_help_2025": {
+          "pairs": 2976,
+          "percent": 3.211,
+          "weighted_denominator": 2919.32
+        },
+        "reduced_savings_2025": {
+          "pairs": 2976,
+          "percent": 28.734,
+          "weighted_denominator": 2919.32
+        },
+        "unexpected_major_medical_expense_2025": {
+          "pairs": 2976,
+          "percent": 15.197,
+          "weighted_denominator": 2919.32
+        },
+        "worked_more_or_got_job_2025": {
+          "pairs": 2976,
+          "percent": 8.407,
+          "weighted_denominator": 2919.32
+        }
+      },
+      "pairs": 2976
+    },
+    "no_to_yes": {
+      "outcomes_2025": {
+        "delayed_major_purchase_2025": {
+          "pairs": 327,
+          "percent": 62.952,
+          "weighted_denominator": 335.014
+        },
+        "increased_borrowing_2025": {
+          "pairs": 327,
+          "percent": 22.754,
+          "weighted_denominator": 335.014
+        },
+        "insured_2025": {
+          "pairs": 327,
+          "percent": 85.744,
+          "weighted_denominator": 335.014
+        },
+        "medical_debt_2025": {
+          "pairs": 327,
+          "percent": 30.366,
+          "weighted_denominator": 335.014
+        },
+        "outside_help_2025": {
+          "pairs": 327,
+          "percent": 6.461,
+          "weighted_denominator": 335.014
+        },
+        "reduced_savings_2025": {
+          "pairs": 327,
+          "percent": 59.665,
+          "weighted_denominator": 335.014
+        },
+        "unexpected_major_medical_expense_2025": {
+          "pairs": 327,
+          "percent": 29.665,
+          "weighted_denominator": 335.014
+        },
+        "worked_more_or_got_job_2025": {
+          "pairs": 327,
+          "percent": 26.297,
+          "weighted_denominator": 335.014
+        }
+      },
+      "pairs": 327
+    },
+    "yes_to_no": {
+      "outcomes_2025": {
+        "delayed_major_purchase_2025": {
+          "pairs": 444,
+          "percent": 51.988,
+          "weighted_denominator": 461.694
+        },
+        "increased_borrowing_2025": {
+          "pairs": 444,
+          "percent": 20.254,
+          "weighted_denominator": 461.694
+        },
+        "insured_2025": {
+          "pairs": 444,
+          "percent": 85.223,
+          "weighted_denominator": 461.694
+        },
+        "medical_debt_2025": {
+          "pairs": 444,
+          "percent": 19.116,
+          "weighted_denominator": 461.694
+        },
+        "outside_help_2025": {
+          "pairs": 444,
+          "percent": 7.049,
+          "weighted_denominator": 461.694
+        },
+        "reduced_savings_2025": {
+          "pairs": 444,
+          "percent": 44.497,
+          "weighted_denominator": 461.694
+        },
+        "unexpected_major_medical_expense_2025": {
+          "pairs": 444,
+          "percent": 17.772,
+          "weighted_denominator": 461.694
+        },
+        "worked_more_or_got_job_2025": {
+          "pairs": 444,
+          "percent": 21.421,
+          "weighted_denominator": 461.694
+        }
+      },
+      "pairs": 444
+    },
+    "yes_to_yes": {
+      "outcomes_2025": {
+        "delayed_major_purchase_2025": {
+          "pairs": 672,
+          "percent": 76.442,
+          "weighted_denominator": 702.972
+        },
+        "increased_borrowing_2025": {
+          "pairs": 672,
+          "percent": 36.389,
+          "weighted_denominator": 702.972
+        },
+        "insured_2025": {
+          "pairs": 672,
+          "percent": 85.41,
+          "weighted_denominator": 702.972
+        },
+        "medical_debt_2025": {
+          "pairs": 672,
+          "percent": 41.783,
+          "weighted_denominator": 702.972
+        },
+        "outside_help_2025": {
+          "pairs": 672,
+          "percent": 14.302,
+          "weighted_denominator": 702.972
+        },
+        "reduced_savings_2025": {
+          "pairs": 672,
+          "percent": 65.334,
+          "weighted_denominator": 702.972
+        },
+        "unexpected_major_medical_expense_2025": {
+          "pairs": 672,
+          "percent": 35.561,
+          "weighted_denominator": 702.972
+        },
+        "worked_more_or_got_job_2025": {
+          "pairs": 672,
+          "percent": 31.574,
+          "weighted_denominator": 702.972
+        }
+      },
+      "pairs": 672
+    }
+  },
+  "source_unit": "SHED respondent recontact panel, 2024 to 2025",
+  "variance_estimation": false,
+  "weight": "2025 panel_weight"
+}

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-227 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+228 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -689,6 +689,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Financial adaptations persist across health direction and do not define recovery alone | cost, work, time | household_room_consumption, care_health_reproduction, time_hidden_price, unequal_exposure_status | Recontacted SHED adult respondent, paired 2024 and 2025 waves | United States | 3 | 2024->2025; health worsened; 2024->2025; health unchanged; 2024->2025; health improved | compared | [open](records/us-shed-panel-adaptation-health-path-2024-2025.json) |
 
 **Boundary:** Descriptive same-respondent panel comparison. It does not establish causality, a dated health or price shock, care intensity, payment burden, or later trust, remedy, or political action.
+
+| Care foregoing entry, exit, and persistence coincide with distinct 2025 adaptation surfaces | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status | SHED respondent recontact panel, 2024 to 2025 | United States | 4 | 2024 to 2025; no listed cost-related care foregoing to no listed care foregoing; 2024 to 2025; no listed cost-related care foregoing to any listed care foregoing; 2024 to 2025; any listed cost-related care foregoing to no listed care foregoing; 2024 to 2025; any listed cost-related care foregoing to any listed care foregoing | compared | [open](records/us-shed-panel-care-foregoing-paths-2024-2025.json) |
+
+**Boundary:** The panel transition does not establish the bill, need, amount, alternative, care continuity, payment timing, recovery, institutional remedy, trust, or political action.
 
 | SIPP care/work measures retain distinct child-presence and reference-parent universes | time, work, cost | time_hidden_price, care_health_reproduction, work_control_bargaining, household_room_consumption, unequal_exposure_status | SIPP person record by reference month, stratified by household members under 18 recode, using final person and Fay-BRR replicate weights | United States | 2 | 2024 reference year; no household members under 18; 2024 reference year; one or more household members under 18 | estimated | [open](records/us-sipp-care-work-children-official-variance-2024.json) |
 
