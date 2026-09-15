@@ -62,6 +62,11 @@ reported care foregoing coincide with higher 2025 debt and adaptation, while
 exit still carries residual financial strain; this is longitudinal description,
 not proof of recovery or causation.
 
+The companion [health/work path layer](shed-panel-care-foregoing-health-work-paths-v1.md)
+shows that persistent foregoing also aligns with a higher fair/poor-health
+surface, while employment status moves differently and cannot serve as a single
+burden proxy.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional

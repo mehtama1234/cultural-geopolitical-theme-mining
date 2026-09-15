@@ -13,6 +13,8 @@ from pathlib import Path
 CARE_FIELDS = ["E1_a", "E1_b", "E1_c", "E1_d", "E1_e"]
 INSURANCE_FIELDS = ["E4_a", "E4_b", "E4_c", "E4_d", "E4_e", "E4_f"]
 OUTCOMES = {
+    "fair_poor_health_2025": ("pph10001", {"Fair", "Poor"}),
+    "not_working_2025": ("ppemploy", {"Not working"}),
     "medical_debt_2025": ("E2B", {"Yes"}),
     "unexpected_major_medical_expense_2025": ("E2", {"Yes"}),
     "outside_help_2025": ("FS21_c", {"Yes"}),
@@ -111,7 +113,7 @@ def main() -> None:
             for name, (field, yes_values) in OUTCOMES.items():
                 def selector(item, field=field, yes_values=yes_values):
                     value = clean(item[1].get(field))
-                    return None if value not in {"Yes", "No"} else value in yes_values
+                    return None if not value else value in yes_values
                 entry["outcomes_2025"][name] = weighted_share(path_pairs, selector)
             insured_valid = [item for item in path_pairs if insured_status(item[1]) is not None]
             entry["outcomes_2025"]["insured_2025"] = weighted_share(
