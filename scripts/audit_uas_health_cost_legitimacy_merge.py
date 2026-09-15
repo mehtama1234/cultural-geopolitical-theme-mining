@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 from typing import Any
 
@@ -56,8 +57,15 @@ def read_ids(path: Path, available: list[str]) -> tuple[set[str] | None, str | N
         frame, _ = pyreadstat.read_dta(path, usecols=selected, encoding="latin1")
     else:
         frame = pd.read_csv(path, usecols=selected)
-    values = frame[key].dropna().astype(str)
+    values = frame[key].dropna().map(normalize_id)
     return set(values), key, wave
+
+
+def normalize_id(value: object) -> str:
+    """Make integral numeric IDs comparable across CSV and Stata imports."""
+    text = str(value).strip()
+    match = re.fullmatch(r"([+-]?\d+)\.0+", text)
+    return match.group(1) if match else text
 
 
 def audit(name: str, path: Path) -> dict[str, Any]:

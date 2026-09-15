@@ -176,6 +176,9 @@ python3 scripts/audit_uas_health_cost_legitimacy_merge.py \
 This records hashes, unique respondent counts, and pairwise `uasid` overlap
 before any module merge. Overlap is only an acquisition prerequisite; it does
 not establish wave alignment, item co-occurrence, or a usable episode.
+The merge audit normalizes only an unambiguous trailing `.0` on integral IDs,
+so ordinary CSV/Stata numeric formatting differences do not create false
+non-overlap while leading-zero identifiers remain unchanged.
 
 ## Promotion rule
 

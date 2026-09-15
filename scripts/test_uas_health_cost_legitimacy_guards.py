@@ -37,9 +37,9 @@ def run(*args: str) -> subprocess.CompletedProcess[str]:
 
 def main() -> int:
     valid = [
-        {"uasid": "a", "wave": "1", "final_weight": "1", "fin3s4": "1"},
-        {"uasid": "a", "wave": "2", "final_weight": "1", "fin3s4": "2"},
-        {"uasid": "b", "wave": "1", "final_weight": "1", "fin3s4": "2"},
+        {"uasid": "1", "wave": "1", "final_weight": "1", "fin3s4": "1"},
+        {"uasid": "1", "wave": "2", "final_weight": "1", "fin3s4": "2"},
+        {"uasid": "2", "wave": "1", "final_weight": "1", "fin3s4": "2"},
     ]
     with tempfile.TemporaryDirectory(prefix="uas-guards-") as directory:
         root = Path(directory)
@@ -54,7 +54,8 @@ def main() -> int:
         assert record["duplicate_person_wave_rows"] == 0
 
         second_path = root / "second.csv"
-        write_csv(second_path, [valid[0], valid[2]])
+        second_rows = [{**valid[0], "uasid": "1.0"}, {**valid[2], "uasid": "2.0"}]
+        write_csv(second_path, second_rows)
         merge_output = root / "merge.json"
         merge = run(
             str(MERGE),
