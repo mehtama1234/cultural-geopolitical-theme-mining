@@ -27,6 +27,18 @@ This does not mean income is “more volatile” in a universal sense: the valid
 
 The directional SIPP pass adds another necessary correction. Among people reporting a work-limiting condition, hours were unchanged in most adjacent valid pairs: 83.1% below one poverty threshold and 92.4% at four times the threshold or more. Earnings could rise or fall in the same cells. “Work limitation” therefore cannot be translated into “hours loss,” and an earnings change cannot be translated into improved or worsened security without the surrounding resource and time fields.
 
+The follow-up conditioning pass shows why that surrounding context matters.
+Within the below-1×, work-limited cell, next-month hours were unchanged for
+84.772% of people without children under 18 versus 79.000% with children, and
+for 85.039% of people with high or marginal food security versus 70.770% with
+very low food security. Tenure was comparatively flat (84.876% owners/buyers
+versus 83.698% renters), while SNAP recipients were lower than nonrecipients
+(81.005% versus 84.036%). These are conditioned descriptive surfaces with
+separate valid-pair counts and no causal interpretation; they strengthen the
+case that a single resource gradient hides different household option stacks.
+See the [SIPP conditioning finding](us-household-calendar-integration-038.md)
+for cell sizes, intervals, and the full boundary.
+
 ### 2. Annual health spending and health experience can diverge
 
 MEPS Panel 27 follows the same panel people across 2022 and 2023. Weighted mean total health expenditure rose from $6,971.74 to $7,328.55 per person. In the paired valid sample, total expenditure increased by $630.83, while paired out-of-pocket spending changed by −$50.50; the out-of-pocket interval includes zero. In that same paired health-status universe, 21.01% reported improved perceived health, 22.85% worsened, and 56.14% were unchanged.

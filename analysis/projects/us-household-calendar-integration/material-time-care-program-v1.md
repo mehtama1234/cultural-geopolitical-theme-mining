@@ -73,6 +73,16 @@ point estimates and intervals. This confirms the computation and provenance;
 it does not strengthen the causal interpretation or close the dated-bill,
 care-substitution, recovery, or political-meaning links.
 
+The new [conditioned work-stability finding](findings/us-household-calendar-integration-038.md)
+extends the directional result across household composition and practical-room
+markers. Among below-1×, work-limited person-month pairs, next-month hours were
+unchanged for 84.772% without children under 18 versus 79.000% with children,
+and 85.039% with high or marginal food security versus 70.770% with very low
+food security. Owners/buyers and renters were closer (84.876% versus 83.698%),
+preserving a useful counterexample to a universal tenure gradient. The
+comparisons use separate valid-pair universes and Fay-BRR intervals; they are
+conditioning evidence, not causal effects or household-level estimates.
+
 ### 3. Time is a real currency, not a residual category
 
 ATUS measures household work, paid work, travel, childcare, eldercare,
