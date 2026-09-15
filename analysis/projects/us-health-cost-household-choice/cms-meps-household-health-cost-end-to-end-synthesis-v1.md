@@ -163,8 +163,9 @@ protected outcome and time horizon before it can be called resilience.
 
 For the reader, the practical rule is: **treat MEPS as evidence about observed
 care and payment, SIPP/SHED/ATUS as evidence about possible household room and
-substitution, and a same-household episode as the still-open test that would
-connect them.** See the atlas’s [multi-clock household synthesis](../us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
+substitution, and the new [first-event MEPS ledger](meps-2024-bounded-episode-ledger-v1.md)
+as a bounded identity/payment/context bridge—not as the missing household
+choice episode.** See the atlas’s [multi-clock household synthesis](../us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 and [layered household-room finding](../us-household-calendar-integration/findings/us-household-calendar-integration-032.md)
 for the source-specific denominators and limitations.
 
@@ -177,18 +178,25 @@ for the source-specific denominators and limitations.
 - A decline in observed out-of-pocket spending does not establish improved access; it can coexist with coverage changes, service mix, or foregone care.
 - Neither source by itself shows trust, political action, provider accountability, insurer remedy, or geopolitical consequence.
 
-## The next end-to-end acquisition
+## The bounded bridge now completed
 
-The next strong test is an event-oriented linkage within the available public survey architecture. The reusable [health-cost event ledger](../../templates/US-HEALTH-COST-EVENT-LEDGER_V1.md) defines the fields and promotion rules before any new join is attempted:
+The event-oriented linkage has now been implemented as a first-event ledger
+within the available public survey architecture. It uses the reusable
+[health-cost event ledger](../../templates/US-HEALTH-COST-EVENT-LEDGER_V1.md)
+fields and keeps one first valid dated event per person/event family:
 
-1. identify a dated health need, service use, coverage change, bill, or payment problem;
-2. retain the person and household expenditure, insurance, income, work, and health fields for the same observation window;
-3. identify care delayed, changed, or foregone and the reason reported;
-4. add time, unpaid-care, debt, credit, or work-loss measures where the source supports them;
-5. separately inspect provider, insurer, regulator, complaint, or policy response;
-6. compare whether the route ended in care, substitution, debt, recovery, switching, trust loss, or political action.
+1. identify a dated observed service event and event-specific payment;
+2. retain exact person-panel identity and annual coverage, work, health, and bill-problem fields;
+3. classify event timing against the R4/2 month-level reference boundary;
+4. report baseline and follow-up context without calling it a causal outcome;
+5. keep same-month ambiguity and after-boundary events visible.
 
-The decisive improvement is not another national total. It is a same-household episode with a preserved date, denominator, reason, and outcome. Until that exists, the atlas should describe the evidence as a set of connected scales—not as one completed causal chain.
+This closes the identity/payment/context segment, not the end-to-end episode.
+The next acquisition must add a dated reason for seeking or not seeking care,
+available alternatives, amount owed and payment timing, a household money or
+time response, and a follow-up outcome. Until those fields exist in the same
+unit, the atlas should describe the evidence as connected scales—not as one
+completed causal chain.
 
 ## Reading rule
 

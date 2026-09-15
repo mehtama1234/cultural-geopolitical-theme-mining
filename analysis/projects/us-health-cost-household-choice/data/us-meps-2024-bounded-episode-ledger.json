@@ -1,0 +1,123 @@
+{
+  "events": {
+    "emergency_room": {
+      "first_event_people": 2717,
+      "payment_field": "ERFSF24X",
+      "source_event_records": 3962,
+      "source_file": "/tmp/cgtm-meps-2024/events/h254e.dta",
+      "timing_groups": {
+        "after_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 19.269855086620034,
+          "fair_or_poor_health_followup_percent": 14.466744053626579,
+          "medical_bill_problem_followup_percent": 6.43606227396755,
+          "not_employed_baseline_percent": 59.40199164944101,
+          "not_employed_followup_percent": 55.841149718980965,
+          "records": 340,
+          "weighted_self_family_payment_mean": 90.57587838284199,
+          "zero_self_family_payment_percent": 71.8037432536215
+        },
+        "before_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 27.491146671222438,
+          "fair_or_poor_health_followup_percent": 26.147543316683414,
+          "medical_bill_problem_followup_percent": 14.395016293556742,
+          "not_employed_baseline_percent": 57.026619213036625,
+          "not_employed_followup_percent": 54.873818550627306,
+          "records": 2128,
+          "weighted_self_family_payment_mean": 148.86534880318155,
+          "zero_self_family_payment_percent": 73.06190185999489
+        },
+        "same_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 21.25800619238911,
+          "fair_or_poor_health_followup_percent": 19.589852905111528,
+          "medical_bill_problem_followup_percent": 14.73013339350354,
+          "not_employed_baseline_percent": 57.91231984369761,
+          "not_employed_followup_percent": 54.57371302606637,
+          "records": 204,
+          "weighted_self_family_payment_mean": 104.2331229516027,
+          "zero_self_family_payment_percent": 71.60988342442089
+        }
+      }
+    },
+    "inpatient": {
+      "first_event_people": 1337,
+      "payment_field": "IPFSF24X",
+      "source_event_records": 1786,
+      "source_file": "/tmp/cgtm-meps-2024/events/h254d.dta",
+      "timing_groups": {
+        "after_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 20.300106937264257,
+          "fair_or_poor_health_followup_percent": 24.087678109882255,
+          "medical_bill_problem_followup_percent": 3.9122424528652493,
+          "not_employed_baseline_percent": 66.01243644465512,
+          "not_employed_followup_percent": 62.3059861424028,
+          "records": 226,
+          "weighted_self_family_payment_mean": 796.4812500173135,
+          "zero_self_family_payment_percent": 66.30523941260597
+        },
+        "before_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 35.357681606172605,
+          "fair_or_poor_health_followup_percent": 33.79689316335087,
+          "medical_bill_problem_followup_percent": 11.873466317124526,
+          "not_employed_baseline_percent": 63.93062914809994,
+          "not_employed_followup_percent": 61.197631174788825,
+          "records": 988,
+          "weighted_self_family_payment_mean": 838.0915707591254,
+          "zero_self_family_payment_percent": 68.9517790076851
+        },
+        "same_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 27.81506569512563,
+          "fair_or_poor_health_followup_percent": 36.91970129212218,
+          "medical_bill_problem_followup_percent": 9.891445703097776,
+          "not_employed_baseline_percent": 77.51044788527611,
+          "not_employed_followup_percent": 77.84555109769661,
+          "records": 101,
+          "weighted_self_family_payment_mean": 597.2642085551427,
+          "zero_self_family_payment_percent": 67.36298769945518
+        }
+      }
+    },
+    "office": {
+      "first_event_people": 14181,
+      "payment_field": "OBSF24X",
+      "source_event_records": 134506,
+      "source_file": "/tmp/cgtm-meps-2024/events/h254g.dta",
+      "timing_groups": {
+        "after_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 6.788199044848491,
+          "fair_or_poor_health_followup_percent": 5.57358835564858,
+          "medical_bill_problem_followup_percent": 6.259651347343014,
+          "not_employed_baseline_percent": 52.62186476597712,
+          "not_employed_followup_percent": 49.630934484878736,
+          "records": 614,
+          "weighted_self_family_payment_mean": 64.03754434194674,
+          "zero_self_family_payment_percent": 61.28914926514779
+        },
+        "before_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 13.738185793533628,
+          "fair_or_poor_health_followup_percent": 12.221494074752739,
+          "medical_bill_problem_followup_percent": 7.728061253627401,
+          "not_employed_baseline_percent": 51.50452278203672,
+          "not_employed_followup_percent": 49.02609111641985,
+          "records": 12865,
+          "weighted_self_family_payment_mean": 65.41340181641738,
+          "zero_self_family_payment_percent": 48.519162301575896
+        },
+        "same_r4_endpoint_month": {
+          "fair_or_poor_health_baseline_percent": 10.032699089887076,
+          "fair_or_poor_health_followup_percent": 8.656392438149053,
+          "medical_bill_problem_followup_percent": 4.4175596699215935,
+          "not_employed_baseline_percent": 57.258427289308344,
+          "not_employed_followup_percent": 54.57637905926747,
+          "records": 506,
+          "weighted_self_family_payment_mean": 38.797743408288355,
+          "zero_self_family_payment_percent": 64.51786154948414
+        }
+      }
+    }
+  },
+  "limitation": "The first observed event is not necessarily the triggering need, bill, or first care contact. Annual/round health, work, and bill-problem fields are contextual and may include the event month. No care decision, alternative, debt, unpaid care, remedy, trust, or action field is observed.",
+  "method": "One first valid dated event per person/event family is joined exactly by DUPERSID+PANEL to HC-256. Event month is classified before, same month as, or after the R4/2 reference-period endpoint. Payment and round fields are weighted descriptive summaries; no standard errors or causal effect is claimed.",
+  "person_positive_weight_records": 18683,
+  "person_records": 19140,
+  "schema": "us-meps-2024-bounded-episode-ledger-v1"
+}

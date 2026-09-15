@@ -25,7 +25,7 @@ next join required to close the chain.
 |---|---|---|---|---|---|
 | System scale → payer architecture | [CMS NHE household layer](cms-national-health-expenditure-system-household-layer-v1.md) | Observed / reported | National spending, sponsor, and payer scale | A typical household bill or welfare effect | Map a defined payer/benefit rule to a person-level episode |
 | Person → health-cost exposure | [MEPS Panel 27 longitudinal layer](../us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md) and [2024 HC-256 audit](meps-2024-reproducibility-audit-v1.md) | Longitudinal / estimated | Total and out-of-pocket expenditure, coverage, health, work, and utilization move on person-level annual clocks | A dated bill, choice, debt, or forgone-care event | Preserve a dated need/bill and full-round household context |
-| Care channel → event payment | [MEPS bounded episode surface](meps-2024-bounded-episode-surface-v1.md) | Observed / estimated | Office, ER, inpatient, and prescription event records carry dates or bounded timing and payment fields | Non-users, delayed care, payment timing, or a household total | Add a bill/claim identifier and payment/obligation timing |
+| Care channel → event payment | [MEPS bounded episode surface](meps-2024-bounded-episode-surface-v1.md) and [first-event ledger](meps-2024-bounded-episode-ledger-v1.md) | Observed / estimated | Office, ER, and inpatient first-event records carry exact person identity, month-level timing, payment, and annual health/work/bill context | Non-users, delayed care, payment timing, or a household total | Add a bill/claim identifier and payment/obligation timing |
 | Event payment → annual bill problem | [MEPS event-payment/bill-context layer](meps-2024-event-payment-bill-context-v1.md) | Compared / Taylor-estimated | Observed payment is not monotonic with annual bill-problem status; coverage and poverty conditioning change the pattern | That the displayed event caused the bill problem or was unaffordable | Link the specific event to an amount owed, balance, due date, and remedy |
 | Coverage/resources → practical room | [MEPS coverage/resource conditioning](meps-2024-event-payment-bill-context-v1.md) and [SHED adaptation layers](shed-2025-care-health-price-adaptation-layer-v1.md) | Compared / reported | Coverage, annual resources, liquidity, and adaptations describe different response menus | Liquid cash at the event, deductible exposure, alternatives, or ability to exit | Observe benefit design, cash/credit room, and alternatives in the same episode |
 | Health direction → financial adaptation | [SHED panel adaptation-health layer](../us-household-financial-pressure/shed-panel-adaptation-health-path-layer-v1.md) | Longitudinal descriptive | Improved health does not automatically reverse borrowing or delayed purchases; adaptation types differ in persistence | Whether health caused adaptation or recovery, or which need was protected | Add dated health/cost trigger and adaptation timing |
@@ -47,6 +47,10 @@ next join required to close the chain.
    dated bill or need, coverage and alternatives, payment obligation, care
    decision, money/time substitution, protected and sacrificed outcomes, and
    follow-up remedy or recovery.
+4. **The bounded event bridge is now assembled.** The first-event ledger joins
+   exact person-panel identity, event payment, month-level timing, and annual
+   health/work/bill context; it still does not observe the household choice or
+   adaptation that follows.
 
 ## Stopping rule for the next pass
 

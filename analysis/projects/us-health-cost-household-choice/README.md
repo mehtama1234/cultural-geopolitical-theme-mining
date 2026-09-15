@@ -69,6 +69,12 @@ now joins dated office, emergency-room, and inpatient events to annual
 coverage, resource, work, health, and bill-problem context in an aggregate-only
 record.
 
+The [first-event MEPS ledger](meps-2024-bounded-episode-ledger-v1.md) now
+combines one first dated event per person/event family with weighted
+self/family payment and month-level baseline/follow-up context. It closes the
+identity/payment/context bridge while preserving the missing care-choice and
+household-adaptation fields.
+
 The [MEPS round-timing audit](meps-2024-round-timing-audit-v1.md) tests the
 available R3/1, R4/2, R5/3, and full-year reference boundaries and keeps them
 as temporal context rather than incorrectly calling them event follow-up.
