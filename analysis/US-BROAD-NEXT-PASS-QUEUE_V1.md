@@ -8,11 +8,25 @@
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 241 records and
 926 observations.
-The reverse audit shows 28 observed domains outside registered families; these
+The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
 This confirms breadth coverage, not that every source has closed its open
 behavior, meaning, institutional, or geopolitical arrow.
+
+### Health-cost legitimacy acquisition gate
+
+The immediate health-cost pass now has two executable registration-gated
+routes. The [UAS audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md)
+and its monthly follow-up script target a reported medical-expense shock
+(`fin3s4`) followed by later health, work, pain, life-satisfaction, or meaning
+outcomes, with UAS 537/698 supplying richer care, satisfaction, and trust
+fields. The [HRS audit](projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md)
+provides an age-50-plus re-test using unaffordable-care reasons and trust in
+Medicare/Medicaid and insurers. The first acquired-file gate is structural:
+hashes, person keys, module overlap, eligibility, weights, timing, and
+missingness. Only after that gate can a same-person health-cost-to-trust or
+recovery result enter the atlas.
 
 The [program continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md) is
 the durable long-term control record. This queue selects the next empirical

@@ -874,6 +874,11 @@ market-transition or household result.
   trust/confidence fields but no matching medical-expense hardship exposure.
   It is retained as context only; the episode-level bill-to-trust join remains
   an explicit acquisition target.
+- **Health-cost acquisition routes:** USC UAS now has a run-ready monthly
+  medical-expense-shock follow-up audit, while HRS 2020 supplies an age-50-plus
+  parallel with unaffordable-care reasons and Medicare/Medicaid and insurer
+  trust targets. Both remain registration-gated until keys, module overlap,
+  timing, weights, and missingness are verified.
 - **Migration and local-demand depth:** the matched-place stream now has a
   reproducible 12-county screen using 2020–2023 population change, ACS
   foreign-born share and arrival timing, rent, crowding, language-access need,
