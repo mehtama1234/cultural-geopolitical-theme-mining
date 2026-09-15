@@ -17,7 +17,6 @@ EVENTS = {
     "inpatient": ("IPXP24X", "IPFSF24X"),
     "prescription": ("RXXP24X", "RXSF24X"),
 }
-FLAGS = [f"BRR{i}" for i in range(1, 129)]
 COVERAGE = {1: "under65_private", 2: "under65_public_only", 3: "under65_uninsured"}
 POVERTY = {1: "poor_negative", 2: "near_poor", 3: "low_income", 4: "middle_income", 5: "high_income"}
 
@@ -27,21 +26,28 @@ def estimate(frame: pd.DataFrame, payment: pd.Series, mask: pd.Series) -> dict[s
     values = pd.to_numeric(payment, errors="coerce").to_numpy(float)
     valid = mask.to_numpy(bool) & np.isfinite(weights) & (weights > 0) & np.isfinite(values)
     if not valid.any():
-        return {"valid_events": 0, "weighted_mean_dollars": None, "brr_se_dollars": None, "ci95_low": None, "ci95_high": None}
+        return {"valid_events": 0, "weighted_mean_dollars": None, "taylor_se_dollars": None, "ci95_low": None, "ci95_high": None}
     point = float(np.average(values[valid], weights=weights[valid]))
-    replicate = []
-    for flag in FLAGS:
-        replicate_weights = weights[valid] * 2 * pd.to_numeric(frame.loc[valid, flag], errors="coerce").to_numpy(float)
-        replicate.append(float(np.average(values[valid], weights=replicate_weights)) if replicate_weights.sum() > 0 else np.nan)
-    usable_replicates = np.asarray(replicate)[np.isfinite(replicate)]
-    se = float(np.sqrt(np.mean((usable_replicates - point) ** 2))) if usable_replicates.size else None
+    linearized = weights[valid] * (values[valid] - point)
+    design = pd.DataFrame({
+        "stratum": frame.loc[valid, "VARSTR"].to_numpy(),
+        "psu": frame.loc[valid, "VARPSU"].to_numpy(),
+        "linearized": linearized,
+    })
+    psu = design.groupby(["stratum", "psu"], as_index=False)["linearized"].sum()
+    variance_numerator = 0.0
+    for _, group in psu.groupby("stratum"):
+        count = len(group)
+        if count > 1:
+            variance_numerator += count / (count - 1) * float(((group["linearized"] - group["linearized"].mean()) ** 2).sum())
+    denominator = weights[valid].sum()
+    se = float(np.sqrt(variance_numerator) / denominator)
     return {
         "valid_events": int(valid.sum()),
         "weighted_mean_dollars": round(point, 4),
-        "brr_valid_replicates": int(usable_replicates.size),
-        "brr_se_dollars": round(se, 4) if se is not None else None,
-        "ci95_low": round(point - 1.96 * se, 4) if se is not None else None,
-        "ci95_high": round(point + 1.96 * se, 4) if se is not None else None,
+        "taylor_se_dollars": round(se, 4),
+        "ci95_low": round(point - 1.96 * se, 4),
+        "ci95_high": round(point + 1.96 * se, 4),
     }
 
 
@@ -59,7 +65,6 @@ def add_key(frame: pd.DataFrame) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--hc256", type=Path, required=True)
-    parser.add_argument("--brr", type=Path, required=True)
     parser.add_argument("--office", type=Path, required=True)
     parser.add_argument("--emergency-room", type=Path, required=True)
     parser.add_argument("--inpatient", type=Path, required=True)
@@ -68,19 +73,13 @@ def main() -> None:
     args = parser.parse_args()
 
     person, _ = pyreadstat.read_dta(args.hc256, usecols=["DUPERSID", "PANEL", "PROBPY42", "INSURC24", "POVCAT24"])
-    brr, _ = pyreadstat.read_dta(args.brr, usecols=["DUPERSID", "PANEL", *FLAGS])
-    for frame in [person, brr]:
-        add_key(frame)
+    add_key(person)
     person = person.drop_duplicates("KEY")
-    brr = brr.drop_duplicates("KEY")
-    person = person.merge(brr.drop(columns=["DUPERSID", "PANEL"]), on="KEY", how="left", validate="one_to_one")
-    if person["BRR1"].isna().any():
-        raise SystemExit("HC-256 to HC-036BRR merge has missing replicate flags")
 
     output: dict[str, object] = {
         "format": "us-meps-2024-event-payment-bill-context-v1",
         "source_unit": "2024 MEPS event records linked to HC-256 annual person context",
-        "weight": "event PERWT24F with event-file BRR1-BRR128",
+        "weight": "event PERWT24F with event-file VARSTR/VARPSU Taylor design",
         "variance_estimation": True,
         "causal_estimation": False,
         "person_bill_problem_definition": "PROBPY42=1 reports a medical bill problem; PROBPY42=2 reports no problem; other codes excluded.",
@@ -92,7 +91,7 @@ def main() -> None:
         events = read_event(path, total_field, family_field)
         for frame in [events]:
             add_key(frame)
-        merged = events.merge(person[["KEY", "PROBPY42", "INSURC24", "POVCAT24", *FLAGS]], on="KEY", how="left", validate="many_to_one")
+        merged = events.merge(person[["KEY", "PROBPY42", "INSURC24", "POVCAT24"]], on="KEY", how="left", validate="many_to_one")
         total = pd.to_numeric(merged[total_field], errors="coerce")
         family = pd.to_numeric(merged[family_field], errors="coerce")
         bill = pd.to_numeric(merged["PROBPY42"], errors="coerce")
