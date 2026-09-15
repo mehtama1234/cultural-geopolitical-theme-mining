@@ -623,10 +623,14 @@ gate remains open. It shows why utility, food, savings, debt, child-care, and
 job fields cannot be collapsed into one stress score. The next SIPP pass is
 field-specific replicate-weight variance and explicitly defined household
 selection for joint outcomes. The [official-universe variance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-002.md)
-now completes the first five-field Fay-BRR check; the remaining care, work,
-and household-selection cells are still queued. The [care/work variance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-003.md)
+now completes the first five-field Fay-BRR check; the [care/work variance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-003.md)
 now applies the same gate to four child-care measures, with the small
 conditional time-lost universe retained as a precision warning.
+The refreshed [tenure/resource care-work extension](projects/us-household-calendar-integration/findings/us-household-calendar-integration-031.md)
+now applies official universes and Fay-BRR uncertainty to paid care, assistance,
+work prevention, and time loss within tenure/resource cells. It strengthens the
+distributional mechanism layer but leaves the dated care episode, schedule
+control, institutional remedy, and later meaning/action links open.
 The follow-up [income-band comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-004.md)
 shows paid care, assistance, and work prevention diverge across poverty-ratio
 bands; further stratification remains contingent on cell precision.
