@@ -73,6 +73,22 @@ module, and psychosocial module for eligible respondents, then link to the
 nearest prior and subsequent core waves. The unit should remain the HRS
 respondent; spouse and household measures must not be silently substituted.
 
+The repository includes a run-ready structural audit at
+`scripts/audit_hrs_health_cost_trust_files.py`:
+
+```text
+python3 scripts/audit_hrs_health_cost_trust_files.py \
+  --file health=/path/to/hrs-health-file.dta \
+  --file covid=/path/to/hrs-covid-file.dta \
+  --file trust=/path/to/hrs-psychosocial-file.dta \
+  --output /tmp/hrs-health-cost-trust-audit.json
+```
+
+It records hashes, candidate HRS fields and labels, direct or composite
+`HHIDPN`/`HHID`+`PN` keys, unique-respondent counts, and pairwise overlap. It
+does not treat key overlap as evidence of common timing, valid module weights,
+or a causal health-cost-to-trust sequence.
+
 ```text
 prior trust / health / financial context
   -> delayed or forgone care, reason, cost satisfaction, or out-of-pocket field
