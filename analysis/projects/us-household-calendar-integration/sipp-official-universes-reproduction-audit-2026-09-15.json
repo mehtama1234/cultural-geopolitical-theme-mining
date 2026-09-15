@@ -1,0 +1,30 @@
+{
+  "format": "sipp-official-universes-reproduction-audit-v1",
+  "checked": "2026-09-15",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/official-universes-all.json --official-universes",
+  "inputs": {
+    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "3f291fa04a9da0bd09a15c39181beaa370fa46ad23b34427a0ce0a5c103556db"
+  },
+  "output": {
+    "sha256": "b97efa0f225890e46242e3ec4bcbf7f85e9ef8ef60009e454aee241566ae948c",
+    "rows_read": 379215,
+    "replicate_rows_read": 378291,
+    "positive_weight_rows_matched": 378291,
+    "official_universes": true
+  },
+  "headline_cells": {
+    "EAWBMORT": {"estimate_percent": 4.636496950253733, "valid_record_count": 377945},
+    "EAWBGAS": {"estimate_percent": 7.06861333233932, "valid_record_count": 377945},
+    "RFOODS": {"estimate_percent": 88.97827700337331, "valid_record_count": 321883},
+    "EFOOD6": {"estimate_percent": 25.59740844756697, "valid_record_count": 62808},
+    "RMNUMJOBS": {"estimate_percent": 54.75067673804449, "valid_record_count": 321883},
+    "EPAY": {"estimate_percent": 30.082966773782456, "valid_record_count": 24549},
+    "EPAYHELP": {"estimate_percent": 6.379321750323047, "valid_record_count": 24549},
+    "EWORKMORE": {"estimate_percent": 3.877468891283107, "valid_record_count": 31788},
+    "ETIMELOST": {"estimate_percent": 16.991681808676866, "valid_record_count": 1119}
+  },
+  "comparison": "Fresh full-slice official-universe Fay-BRR reproduction; headline cells match the current promoted SIPP official-universe layer after rounding.",
+  "boundary": "Person-weighted descriptive estimates with field-specific universes; no household weight, causal estimate, dated bill, institutional remedy, trust, political action, or geopolitical consequence is identified."
+}

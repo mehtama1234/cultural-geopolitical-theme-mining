@@ -1,12 +1,12 @@
 # SIPP material and food-security estimates survive a design-based uncertainty check
 
-**Status:** official-universe Fay-BRR population-layer finding · **Checked:** 2026-09-13
+**Status:** official-universe Fay-BRR population-layer finding · **Checked:** 2026-09-15
 
 ## The bounded finding
 
 The earlier SIPP material/time/care scan was useful but point-only. Re-running
-five measures against the official field-status flags and 240 replicate weights
-gives a stronger descriptive layer: the estimates carry field-specific
+the selected field set against the official field-status flags and 240 replicate
+weights gives a stronger descriptive layer: the estimates carry field-specific
 denominators, standard errors, and approximate 95% intervals rather than being
 presented as exact population facts.
 
@@ -64,8 +64,8 @@ The full estimate uses `WPFINWGT`. Each replicate uses `REPWGT1` through
 `REPWGT240`, with Census's Fay modified-BRR formula (`G=240`, perturbation
 factor `0.5`). Official status flags and age/food-screen universes were
 applied. The raw files and generated calculation output remain outside the
-repository; the machine-readable result preserves the source hashes and
-reported denominators.
+repository; the [dated reproduction audit](../sipp-official-universes-reproduction-audit-2026-09-15.json)
+preserves the source, script, and output hashes and reported denominators.
 
 The estimates are not a causal SNAP, price, utility, employer, or care effect.
 They do not identify a particular bill, notice, remedy, firm decision, time
