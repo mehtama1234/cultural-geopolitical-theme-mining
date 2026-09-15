@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import re
 import sys
@@ -20,6 +21,15 @@ from collections import defaultdict
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "manifests/us-psid-material-time-care-field-map-v1.json"
 TOKEN_RE = re.compile(r"^(ER\d+)-(ER\d+)$")
+
+
+def file_sha256(path: Path) -> str:
+    """Return a streaming SHA-256 digest for an inspected source file."""
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def expand_token(token: str) -> list[str]:
@@ -126,6 +136,7 @@ def main() -> int:
                 continue
             try:
                 columns, reader = read_columns(path)
+                digest = file_sha256(path)
             except (OSError, RuntimeError, ValueError, StopIteration) as exc:
                 failures.append(f"{year}: could not inspect {path}: {exc}")
                 entry["status"] = "fail"
@@ -136,6 +147,8 @@ def main() -> int:
             identifier_union.update(set(args.identifier) & columns)
             entry.update({
                 "reader": reader,
+                "size_bytes": path.stat().st_size,
+                "sha256": digest,
                 "observed_column_count": len(columns),
                 "observed_columns": sorted(columns),
             })
