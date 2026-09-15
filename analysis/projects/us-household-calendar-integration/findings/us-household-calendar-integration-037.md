@@ -124,6 +124,19 @@ children, tenure, SNAP, and hardship cells. No estimate should be promoted
 until the raw SIPP slice and replicate archive are present and their hashes
 match the existing reproduction audit.
 
+## Fresh reproduction (2026-09-15)
+
+The full public-use archive and 240-replicate archive were reacquired from the
+official Census routes. The existing directional analysis was rerun from a
+fresh full slice: 379,215 rows, 31,992 identified people, and 156,561 matched
+adjacent-month rows. Its output hash and headline estimates match the
+promoted machine-readable record exactly. This confirms computational
+reproducibility for the existing layer; it does not add a new sample vintage
+or change the interpretation boundary.
+
+The dated [reproduction audit](../sipp-resource-worklimitation-direction-reproduction-audit-2026-09-15.json)
+preserves the archive, slice, replicate, script, and output hashes.
+
 ## Sources and reproduction
 
 - [SIPP directional earnings/hours record](../../../records/us-sipp-resource-worklimitation-direction-2024.json)

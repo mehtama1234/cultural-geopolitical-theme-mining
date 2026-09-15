@@ -1,0 +1,27 @@
+{
+  "format": "sipp-resource-worklimitation-direction-reproduction-audit-v1",
+  "checked": "2026-09-15",
+  "command": "python3 scripts/analyze_sipp_resource_worklimitation_direction.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/resource-worklimitation-direction.json",
+  "inputs": {
+    "public_use_archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "be24a94c7399eeb60065c808ea486b8fccbbb6745c3abe7d67e82f9b8d88ad63"
+  },
+  "output": {
+    "sha256": "4068d913e44a0d2b411cfed7024858d2e7f718b1b1f6fae0a932cfeeacd55db0",
+    "rows_read": 379215,
+    "identified_persons": 31992,
+    "replicate_rows_read": 378291,
+    "matched_pair_rows": 156561
+  },
+  "reproduced_claims": {
+    "work_limited_below_1x_earnings_increase_percent": 37.410,
+    "work_limited_below_1x_hours_same_percent": 83.118,
+    "work_limited_4x_plus_earnings_decrease_percent": 44.060,
+    "work_limited_4x_plus_hours_same_percent": 92.391
+  },
+  "comparison": "The output hash and headline estimates match the promoted us-sipp-resource-worklimitation-direction-2024 record. No new trend record is created.",
+  "method": "Same-person monthly cross-lag from THINCPOV at month t to direction of valid nonnegative TPEARN and TMWKHRS at month t+1, conditioned on EDISABL, using WPFINWGT and 240 Census replicate weights with Fay BRR, perturbation factor 0.5.",
+  "boundary": "This is a reproduction audit, not a causal estimate. Earnings and hours retain separate valid-pair universes; the screen does not establish desired hours, job quality, accommodation, household prevalence, care substitution, recovery, trust, political action, or institutional remedy. Primary and replicate files remain outside Git."
+}
