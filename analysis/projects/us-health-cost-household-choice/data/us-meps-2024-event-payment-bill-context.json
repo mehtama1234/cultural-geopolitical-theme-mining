@@ -1,0 +1,182 @@
+{
+  "causal_estimation": false,
+  "events": {
+    "emergency_room": {
+      "by_bill_problem": {
+        "no_problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 11.5603,
+            "ci95_high": 132.5116,
+            "ci95_low": 87.1952,
+            "valid_events": 3604,
+            "weighted_mean_dollars": 109.8534
+          },
+          "total_payment": {
+            "brr_se_dollars": 78.7587,
+            "ci95_high": 1605.7931,
+            "ci95_low": 1297.0592,
+            "valid_events": 3604,
+            "weighted_mean_dollars": 1451.4261
+          }
+        },
+        "problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 43.3272,
+            "ci95_high": 203.1366,
+            "ci95_low": 33.2938,
+            "valid_events": 610,
+            "weighted_mean_dollars": 118.2152
+          },
+          "total_payment": {
+            "brr_se_dollars": 103.4244,
+            "ci95_high": 1389.818,
+            "ci95_low": 984.3942,
+            "valid_events": 610,
+            "weighted_mean_dollars": 1187.1061
+          }
+        }
+      },
+      "event_file_records": 4351,
+      "payment_fields": {
+        "self_family": "ERFSF24X",
+        "total": "ERXP24X"
+      },
+      "person_context_link_missing": 0,
+      "positive_weight_events": 4261
+    },
+    "inpatient": {
+      "by_bill_problem": {
+        "no_problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 88.088,
+            "ci95_high": 784.8687,
+            "ci95_low": 439.5637,
+            "valid_events": 1607,
+            "weighted_mean_dollars": 612.2162
+          },
+          "total_payment": {
+            "brr_se_dollars": 968.854,
+            "ci95_high": 21277.9191,
+            "ci95_low": 17480.0115,
+            "valid_events": 1607,
+            "weighted_mean_dollars": 19378.9653
+          }
+        },
+        "problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 658.3731,
+            "ci95_high": 2623.6936,
+            "ci95_low": 42.8712,
+            "valid_events": 238,
+            "weighted_mean_dollars": 1333.2824
+          },
+          "total_payment": {
+            "brr_se_dollars": 1317.8667,
+            "ci95_high": 18596.8814,
+            "ci95_low": 13430.8438,
+            "valid_events": 238,
+            "weighted_mean_dollars": 16013.8626
+          }
+        }
+      },
+      "event_file_records": 1912,
+      "payment_fields": {
+        "self_family": "IPFSF24X",
+        "total": "IPXP24X"
+      },
+      "person_context_link_missing": 0,
+      "positive_weight_events": 1881
+    },
+    "office": {
+      "by_bill_problem": {
+        "no_problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 3.5528,
+            "ci95_high": 65.2752,
+            "ci95_low": 51.3483,
+            "valid_events": 130691,
+            "weighted_mean_dollars": 58.3117
+          },
+          "total_payment": {
+            "brr_se_dollars": 7.7346,
+            "ci95_high": 322.6316,
+            "ci95_low": 292.3119,
+            "valid_events": 130691,
+            "weighted_mean_dollars": 307.4718
+          }
+        },
+        "problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 5.8236,
+            "ci95_high": 60.3687,
+            "ci95_low": 37.5401,
+            "valid_events": 13106,
+            "weighted_mean_dollars": 48.9544
+          },
+          "total_payment": {
+            "brr_se_dollars": 28.8054,
+            "ci95_high": 373.048,
+            "ci95_low": 260.1309,
+            "valid_events": 13106,
+            "weighted_mean_dollars": 316.5895
+          }
+        }
+      },
+      "event_file_records": 145818,
+      "payment_fields": {
+        "self_family": "OBSF24X",
+        "total": "OBXP24X"
+      },
+      "person_context_link_missing": 0,
+      "positive_weight_events": 144206
+    },
+    "prescription": {
+      "by_bill_problem": {
+        "no_problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 1.3155,
+            "ci95_high": 20.0291,
+            "ci95_low": 14.8723,
+            "valid_events": 178950,
+            "weighted_mean_dollars": 17.4507
+          },
+          "total_payment": {
+            "brr_se_dollars": 14.9649,
+            "ci95_high": 266.3127,
+            "ci95_low": 207.6504,
+            "valid_events": 178950,
+            "weighted_mean_dollars": 236.9816
+          }
+        },
+        "problem_reported": {
+          "self_family_payment": {
+            "brr_se_dollars": 1.5221,
+            "ci95_high": 16.2906,
+            "ci95_low": 10.324,
+            "valid_events": 23375,
+            "weighted_mean_dollars": 13.3073
+          },
+          "total_payment": {
+            "brr_se_dollars": 38.9655,
+            "ci95_high": 285.3739,
+            "ci95_low": 132.6292,
+            "valid_events": 23375,
+            "weighted_mean_dollars": 209.0015
+          }
+        }
+      },
+      "event_file_records": 204550,
+      "payment_fields": {
+        "self_family": "RXSF24X",
+        "total": "RXXP24X"
+      },
+      "person_context_link_missing": 0,
+      "positive_weight_events": 202902
+    }
+  },
+  "format": "us-meps-2024-event-payment-bill-context-v1",
+  "person_bill_problem_definition": "PROBPY42=1 reports a medical bill problem; PROBPY42=2 reports no problem; other codes excluded.",
+  "source_unit": "2024 MEPS event records linked to HC-256 annual person context",
+  "variance_estimation": true,
+  "weight": "event PERWT24F with event-file BRR1-BRR128"
+}

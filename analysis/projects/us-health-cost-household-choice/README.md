@@ -79,6 +79,11 @@ The [inter-round MEPS transition screen](meps-2024-between-round-event-transitio
 uses events strictly between R3/1 and R4/2 endpoints, retaining baseline
 selection differences before interpreting the R4/2 context.
 
+The [MEPS event-payment and bill-context layer](meps-2024-event-payment-bill-context-v1.md)
+conditions event-level payments on the linked person's annual bill-problem
+report. It demonstrates why observed payment is not interchangeable with
+household burden or affordability.
+
 ## First working idea
 
 Health costs may act like a quiet income cut: people can protect the bill today by giving up care, savings, work time, or another household need. The burden may be hard to see because the choice happens inside the family before it appears in spending or employment data. This is a working idea, not a conclusion.

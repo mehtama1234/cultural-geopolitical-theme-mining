@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-event-payment-bill-context",
+  "title": "Observed event payment is not a monotonic measure of annual medical-bill problems",
+  "theme_ids": ["cost", "time"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "unequal_exposure_status"],
+  "source_unit": "2024 MEPS event records linked to HC-256 annual person context",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Calendar year 2024; office-visit events",
+      "denominator": {"value": 143797, "unit": "positive-weight office events with valid annual bill-problem context and payment"},
+      "measures": {"self_family_payment_bill_problem": {"value": 48.9544, "unit": "dollars per event; BRR SE 5.8236", "value_type": "event_weighted_mean"}, "self_family_payment_no_problem": {"value": 58.3117, "unit": "dollars per event; BRR SE 3.5528", "value_type": "event_weighted_mean"}},
+      "method": "HC-254G event PERWT24F and BRR1-BRR128; event payment conditioned on HC-256 PROBPY42 annual person context.",
+      "uncertainty": "No causal estimate; annual context is not an event-level bill key and event users are a selected population.",
+      "subgroup": "Office events split by whether the linked person reported a 2024 medical bill problem.",
+      "counterinterpretation": "Lower event self/family payment among bill-problem reporters may reflect coverage, event mix, prior bills, or other selection rather than protection.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254G&prfricon=yes",
+      "retrieval_hash": "sha256:99432e436c40c6af74436fb0ef26aafdeff5908639bc8266ced070e885f4e135",
+      "status": "compared"
+    },
+    {
+      "period": "Calendar year 2024; emergency-room events",
+      "denominator": {"value": 4214, "unit": "positive-weight ER events with valid annual bill-problem context and payment"},
+      "measures": {"self_family_payment_bill_problem": {"value": 118.2152, "unit": "dollars per event; BRR SE 43.3272", "value_type": "event_weighted_mean"}, "self_family_payment_no_problem": {"value": 109.8534, "unit": "dollars per event; BRR SE 11.5603", "value_type": "event_weighted_mean"}},
+      "method": "HC-254E event PERWT24F and BRR1-BRR128; event payment conditioned on HC-256 PROBPY42 annual person context.",
+      "uncertainty": "No causal estimate; annual context is not an event-level bill key, and positive-payment/weighted event universes are selected.",
+      "subgroup": "Emergency-room events split by whether the linked person reported a 2024 medical bill problem.",
+      "counterinterpretation": "The small difference does not establish that the ER event caused the bill problem or that payment captures burden.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254E&prfricon=yes",
+      "retrieval_hash": "sha256:99432e436c40c6af74436fb0ef26aafdeff5908639bc8266ced070e885f4e135",
+      "status": "compared"
+    },
+    {
+      "period": "Calendar year 2024; inpatient-stay events",
+      "denominator": {"value": 1845, "unit": "positive-weight inpatient events with valid annual bill-problem context and payment"},
+      "measures": {"self_family_payment_bill_problem": {"value": 1333.2824, "unit": "dollars per stay; BRR SE 658.3731", "value_type": "event_weighted_mean"}, "self_family_payment_no_problem": {"value": 612.2162, "unit": "dollars per stay; BRR SE 88.0880", "value_type": "event_weighted_mean"}},
+      "method": "HC-254D event PERWT24F and BRR1-BRR128; event payment conditioned on HC-256 PROBPY42 annual person context.",
+      "uncertainty": "No causal estimate; annual context is not an event-level bill key, and the bill-problem cell has only 238 valid event records.",
+      "subgroup": "Inpatient events split by whether the linked person reported a 2024 medical bill problem.",
+      "counterinterpretation": "The higher mean is compatible with burden but cannot separate event severity, coverage, prior balances, or other causes.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254D&prfricon=yes",
+      "retrieval_hash": "sha256:99432e436c40c6af74436fb0ef26aafdeff5908639bc8266ced070e885f4e135",
+      "status": "compared"
+    },
+    {
+      "period": "Calendar year 2024; prescription-purchase events",
+      "denominator": {"value": 202325, "unit": "positive-weight prescription events with valid annual bill-problem context and payment"},
+      "measures": {"self_family_payment_bill_problem": {"value": 13.3073, "unit": "dollars per purchase; BRR SE 1.5221", "value_type": "event_weighted_mean"}, "self_family_payment_no_problem": {"value": 17.4507, "unit": "dollars per purchase; BRR SE 1.3155", "value_type": "event_weighted_mean"}},
+      "method": "HC-254A event PERWT24F and BRR1-BRR128; event payment conditioned on HC-256 PROBPY42 annual person context.",
+      "uncertainty": "No causal estimate; purchase events exclude non-purchasers and annual context is not an event-level bill key.",
+      "subgroup": "Prescription purchases split by whether the linked person reported a 2024 medical bill problem.",
+      "counterinterpretation": "Lower observed payment among bill-problem reporters may reflect medication mix, coverage, subsidies, or selection into observed purchases.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254A&prfricon=yes",
+      "retrieval_hash": "sha256:99432e436c40c6af74436fb0ef26aafdeff5908639bc8266ced070e885f4e135",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This joins observed event payments to annual person context, not a specific bill or causal event sequence. It does not observe forgone care, debt, payment timing, borrowing, savings draw, recovery, trust, or action."
+}
