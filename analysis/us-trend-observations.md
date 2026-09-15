@@ -638,7 +638,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is a 2020 cross-sectional household energy-vulnerability layer. It does not establish causal effects, monthly payment shocks, health outcomes, political attitudes, or consumer behavior. The energy-burden measure is a midpoint-of-income-band proxy; modeled annual energy expenditures should not be read as observed bills.
 
-| Cost-related care foregoing co-occurs with household financial adaptation | cost, time, voice | care_health_reproduction, household_room_consumption, time_hidden_price, unequal_exposure_status | US adult SHED 2025 respondent | United States | 2 | 2025; any cost-related care foregoing and household adaptation; 2025; no cost-related care foregoing and household adaptation | compared; reported | [open](records/us-shed-2025-care-skipping-adaptation-association.json) |
+| Cost-related care foregoing co-occurs with household financial adaptation | cost, time, voice | care_health_reproduction, household_room_consumption, time_hidden_price, unequal_exposure_status | US adult SHED 2025 respondent | United States | 4 | 2025; any cost-related care foregoing and household adaptation; 2025; no cost-related care foregoing and household adaptation; 2025; unexpected medical-expense amount among care-foregoing respondents; 2025; unexpected medical-expense amount among no-care-foregoing respondents | compared; reported | [open](records/us-shed-2025-care-skipping-adaptation-association.json) |
 
 **Boundary:** Same-respondent cross-sectional co-occurrence does not establish a dated medical episode, causal direction, exact bill, alternative, care outcome, remedy, trust, or political action.
 

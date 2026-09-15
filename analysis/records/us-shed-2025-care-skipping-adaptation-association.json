@@ -25,7 +25,7 @@
       "subgroup": "Respondents reporting any of five care types skipped because of cost.",
       "counterinterpretation": "Shared need, prior financial scarcity, health, coverage, access, or reverse timing may produce both care foregoing and adaptation.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:3617689bd058062007db457a8010a4f030e90a161937a2737e1459960fcc475d",
+      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
       "status": "reported"
     },
     {
@@ -46,7 +46,45 @@
       "subgroup": "Respondents reporting no listed care type skipped because of cost.",
       "counterinterpretation": "No reported foregoing does not prove no unmet need, affordability, or absence of other financial pressure.",
       "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
-      "retrieval_hash": "sha256:3617689bd058062007db457a8010a4f030e90a161937a2737e1459960fcc475d",
+      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "status": "compared"
+    },
+    {
+      "period": "2025; unexpected medical-expense amount among care-foregoing respondents",
+      "denominator": {"value": 1657, "unit": "any-care-foregoing respondents with nonmissing E12_a amount band"},
+      "measures": {
+        "amount_1_to_499": {"value": 13.764, "unit": "percent", "value_type": "weighted_share"},
+        "amount_500_to_999": {"value": 17.821, "unit": "percent", "value_type": "weighted_share"},
+        "amount_1000_to_1999": {"value": 21.032, "unit": "percent", "value_type": "weighted_share"},
+        "amount_2000_to_4999": {"value": 24.245, "unit": "percent", "value_type": "weighted_share"},
+        "amount_5000_or_more": {"value": 15.806, "unit": "percent", "value_type": "weighted_share"},
+        "amount_dont_know": {"value": 7.332, "unit": "percent", "value_type": "weighted_share"}
+      },
+      "method": "Weighted distribution of E12_a among respondents classified as any-care-foregoing; amount question is asked for unexpected major medical expenses.",
+      "uncertainty": "Amount is a categorical recalled range, not an exact bill or event amount; no replicate-weight standard errors in this pass.",
+      "subgroup": "Respondents reporting any of five care types skipped because of cost and a nonmissing E12_a response.",
+      "counterinterpretation": "The amount may concern an unexpected expense unrelated to the skipped care and does not identify the price of care not obtained.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
+      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
+      "status": "reported"
+    },
+    {
+      "period": "2025; unexpected medical-expense amount among no-care-foregoing respondents",
+      "denominator": {"value": 1203, "unit": "no-care-foregoing respondents with nonmissing E12_a amount band"},
+      "measures": {
+        "amount_1_to_499": {"value": 18.989, "unit": "percent", "value_type": "weighted_share"},
+        "amount_500_to_999": {"value": 22.66, "unit": "percent", "value_type": "weighted_share"},
+        "amount_1000_to_1999": {"value": 17.193, "unit": "percent", "value_type": "weighted_share"},
+        "amount_2000_to_4999": {"value": 20.268, "unit": "percent", "value_type": "weighted_share"},
+        "amount_5000_or_more": {"value": 13.347, "unit": "percent", "value_type": "weighted_share"},
+        "amount_dont_know": {"value": 7.544, "unit": "percent", "value_type": "weighted_share"}
+      },
+      "method": "Weighted distribution of E12_a among respondents classified as no-care-foregoing; amount question is asked for unexpected major medical expenses.",
+      "uncertainty": "Amount is a categorical recalled range, not an exact bill or event amount; no replicate-weight standard errors in this pass.",
+      "subgroup": "Respondents reporting no listed care type skipped because of cost and a nonmissing E12_a response.",
+      "counterinterpretation": "No reported care foregoing does not prove the unexpected expense was affordable or that it did not affect other care decisions.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
+      "retrieval_hash": "sha256:ee8175c3ca7c80a17cd9746e62aa3c3cd8107dde5cb9b5824d14d1848882f4ad",
       "status": "compared"
     }
   ],

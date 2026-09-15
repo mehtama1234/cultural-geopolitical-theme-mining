@@ -53,6 +53,36 @@
         }
       },
       "rows": 9662,
+      "unexpected_medical_expense_amount_band": {
+        "categories": {
+          "$1 to $499": {
+            "nonmissing_rows": 234,
+            "percent": 13.764
+          },
+          "$1,000 to $1,999": {
+            "nonmissing_rows": 342,
+            "percent": 21.032
+          },
+          "$2,000 to $4,999": {
+            "nonmissing_rows": 413,
+            "percent": 24.245
+          },
+          "$5,000 or higher": {
+            "nonmissing_rows": 257,
+            "percent": 15.806
+          },
+          "$500 to $999": {
+            "nonmissing_rows": 297,
+            "percent": 17.821
+          },
+          "Don\u2019t know": {
+            "nonmissing_rows": 114,
+            "percent": 7.332
+          }
+        },
+        "nonmissing_rows": 1657,
+        "weighted_denominator": 1553.998
+      },
       "weighted_share_of_complete_care_foregoing_sample": 74.285
     },
     "care_skipped_any_yes": {
@@ -99,6 +129,36 @@
         }
       },
       "rows": 3272,
+      "unexpected_medical_expense_amount_band": {
+        "categories": {
+          "$1 to $499": {
+            "nonmissing_rows": 221,
+            "percent": 18.989
+          },
+          "$1,000 to $1,999": {
+            "nonmissing_rows": 217,
+            "percent": 17.193
+          },
+          "$2,000 to $4,999": {
+            "nonmissing_rows": 246,
+            "percent": 20.268
+          },
+          "$5,000 or higher": {
+            "nonmissing_rows": 160,
+            "percent": 13.347
+          },
+          "$500 to $999": {
+            "nonmissing_rows": 265,
+            "percent": 22.66
+          },
+          "Don\u2019t know": {
+            "nonmissing_rows": 94,
+            "percent": 7.544
+          }
+        },
+        "nonmissing_rows": 1203,
+        "weighted_denominator": 1198.462
+      },
       "weighted_share_of_complete_care_foregoing_sample": 25.715
     }
   },

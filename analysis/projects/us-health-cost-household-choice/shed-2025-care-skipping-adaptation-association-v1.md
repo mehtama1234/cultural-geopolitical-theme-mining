@@ -69,12 +69,29 @@ who skipped care but had stable savings and no debt, or a person with medical
 debt who obtained all needed care through insurance, family help, public
 coverage, or payment arrangements.
 
+## Expense amount is observed, but not as a bill-to-choice sequence
+
+The 2025 file also records an amount band for unexpected major medical
+expenses (`E12_a`). Among respondents reporting any cost-related care
+foregoing, the weighted distribution among the 1,657 nonmissing amount
+responses was: $1–$499 **13.76%**, $500–$999 **17.82%**, $1,000–$1,999
+**21.03%**, $2,000–$4,999 **24.25%**, and $5,000 or more **15.81%**; **7.33%**
+selected “Don’t know.” Among respondents reporting no care foregoing, the
+corresponding 1,203-response distribution was $1–$499 **18.99%**, $500–$999
+**22.66%**, $1,000–$1,999 **17.19%**, $2,000–$4,999 **20.27%**, and $5,000 or
+more **13.35%**, with **7.54%** selecting “Don’t know.”
+
+These amount bands sharpen the payment mechanism but do not identify the
+amount owed for the care that was skipped. They apply only to respondents who
+reported an unexpected major medical expense and share the same prior-year
+recall frame; they cannot be interpreted as the causal price of foregoing.
+
 ## Next decisive join
 
 The next step is to separate timing and mechanism: identify whether the
-respondent had an unexpected medical expense, which care type was forgone,
-whether insurance or outside help was available, and which financial response
-was contemporaneous. The strongest eventual design would retain a dated need,
+respondent had an unexpected medical expense and its amount band, which care
+type was forgone, whether insurance or outside help was available, and which
+financial response was contemporaneous. The strongest eventual design would retain a dated need,
 coverage and alternatives, amount owed, care decision, household trade-off,
 and follow-up health/work/debt outcome in one unit. Until then, this result
 should be promoted as a same-respondent association, not an end-to-end causal

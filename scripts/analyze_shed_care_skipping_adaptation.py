@@ -21,6 +21,7 @@ METRICS = {
     "delayed_major_purchase": ("INF3_e", {"Yes"}),
     "worked_more_or_got_job": ("INF3_f", {"Yes"}),
 }
+AMOUNT_FIELD = "E12_a"
 
 
 def clean(value: str | None) -> str:
@@ -47,13 +48,35 @@ def weighted_share(rows: list[dict[str, str]], field: str, yes_values: set[str])
     }
 
 
+def weighted_distribution(rows: list[dict[str, str]], field: str) -> dict[str, object]:
+    valid = [row for row in rows if clean(row.get(field))]
+    denominator = sum(float(row.get("weight") or 0) for row in valid)
+    categories: dict[str, float] = {}
+    counts: dict[str, int] = {}
+    for row in valid:
+        category = clean(row.get(field))
+        categories[category] = categories.get(category, 0.0) + float(row.get("weight") or 0)
+        counts[category] = counts.get(category, 0) + 1
+    return {
+        "weighted_denominator": round(denominator, 3),
+        "nonmissing_rows": len(valid),
+        "categories": {
+            category: {
+                "percent": round(100 * total / denominator, 3) if denominator else None,
+                "nonmissing_rows": counts[category],
+            }
+            for category, total in sorted(categories.items())
+        },
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     rows = read_rows(args.input)
-    required = {"shedid", "weight", *CARE_FIELDS} | {field for field, _ in METRICS.values()}
+    required = {"shedid", "weight", AMOUNT_FIELD, *CARE_FIELDS} | {field for field, _ in METRICS.values()}
     missing = sorted(required - set(rows[0] if rows else {}))
     if missing:
         raise ValueError("missing required fields: " + ", ".join(missing))
@@ -91,6 +114,7 @@ def main() -> int:
                 name: weighted_share(subset, field, yes_values)
                 for name, (field, yes_values) in METRICS.items()
             },
+            "unexpected_medical_expense_amount_band": weighted_distribution(subset, AMOUNT_FIELD),
         }
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
