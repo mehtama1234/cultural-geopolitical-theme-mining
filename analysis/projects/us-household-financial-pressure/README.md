@@ -32,6 +32,11 @@ persist on a worsening financial-condition path than on an improving path, with
 borrowing, reduced use, saving cuts, and delayed purchases kept separate. This
 is descriptive population evidence, not a causal estimate.
 
+The [SHED panel adaptation by health direction layer](shed-panel-adaptation-health-path-layer-v1.md)
+tests whether those adaptations persist or newly appear across 2024→2025
+self-rated-health paths. It shows why improved health cannot be treated as
+complete financial recovery.
+
 ## Meaty end-to-end goal
 
 Build a source-traceable account of how a financial condition becomes a lived consumer experience and then a shift in company behavior, household choices, institutional trust, and political demand.

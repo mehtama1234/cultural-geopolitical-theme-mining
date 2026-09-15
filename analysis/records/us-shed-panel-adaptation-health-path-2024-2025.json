@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-panel-adaptation-health-path-2024-2025",
+  "title": "Financial adaptations persist across health direction and do not define recovery alone",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "time_hidden_price", "unequal_exposure_status"],
+  "source_unit": "Recontacted SHED adult respondent, paired 2024 and 2025 waves",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024->2025; health worsened",
+      "denominator": {"value": 671, "unit": "paired respondents with valid health direction and 2025 panel weight"},
+      "measures": {"borrowing_persistence": {"value": 59.016, "unit": "weighted percent among 2024 borrowers", "value_type": "share"}, "delayed_purchase_persistence": {"value": 69.292, "unit": "weighted percent among 2024 delayers", "value_type": "share"}, "reduced_savings_persistence": {"value": 62.701, "unit": "weighted percent among 2024 savers-cutters", "value_type": "share"}},
+      "method": "Weighted same-respondent SHED panel transition; 2025 Yes share conditional on 2024 Yes, by ordinal self-rated-health direction.",
+      "subgroup": "Respondents with worsened self-rated health; adaptation-specific 2024 adopter universe.",
+      "uncertainty": "No design-based standard errors; annual self-report, recontact selection, and metric-specific valid denominators apply.",
+      "counterinterpretation": "Health worsening may reflect or share causes with financial adaptation; persistence is not a health effect.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:bd0341c50523dda2f1b736e0e7eff6b8463eb3d5529bb923ff93285b182758e7",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; health unchanged",
+      "denominator": {"value": 3000, "unit": "paired respondents with valid health direction and 2025 panel weight"},
+      "measures": {"borrowing_persistence": {"value": 50.511, "unit": "weighted percent among 2024 borrowers", "value_type": "share"}, "delayed_purchase_persistence": {"value": 64.699, "unit": "weighted percent among 2024 delayers", "value_type": "share"}, "reduced_savings_persistence": {"value": 60.34, "unit": "weighted percent among 2024 savers-cutters", "value_type": "share"}},
+      "method": "Weighted same-respondent SHED panel transition; 2025 Yes share conditional on 2024 Yes, by ordinal self-rated-health direction.",
+      "subgroup": "Respondents with unchanged self-rated health; adaptation-specific 2024 adopter universe.",
+      "uncertainty": "No design-based standard errors; unchanged health does not mean unchanged illness, care, prices, income, or debt.",
+      "counterinterpretation": "Stable self-rated health can coexist with changing financial conditions and adaptations.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:bd0341c50523dda2f1b736e0e7eff6b8463eb3d5529bb923ff93285b182758e7",
+      "status": "compared"
+    },
+    {
+      "period": "2024->2025; health improved",
+      "denominator": {"value": 492, "unit": "paired respondents with valid health direction and 2025 panel weight"},
+      "measures": {"borrowing_persistence": {"value": 56.389, "unit": "weighted percent among 2024 borrowers", "value_type": "share"}, "delayed_purchase_persistence": {"value": 66.344, "unit": "weighted percent among 2024 delayers", "value_type": "share"}, "reduced_savings_persistence": {"value": 56.945, "unit": "weighted percent among 2024 savers-cutters", "value_type": "share"}},
+      "method": "Weighted same-respondent SHED panel transition; 2025 Yes share conditional on 2024 Yes, by ordinal self-rated-health direction.",
+      "subgroup": "Respondents with improved self-rated health; adaptation-specific 2024 adopter universe.",
+      "uncertainty": "No design-based standard errors; improved self-rated health is not a dated treatment or financial recovery measure.",
+      "counterinterpretation": "Health improvement can coexist with persistent debt, delayed consumption, care obligations, or other constraints.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "retrieval_hash": "sha256:bd0341c50523dda2f1b736e0e7eff6b8463eb3d5529bb923ff93285b182758e7",
+      "status": "compared"
+    }
+  ],
+  "boundary": "Descriptive same-respondent panel comparison. It does not establish causality, a dated health or price shock, care intensity, payment burden, or later trust, remedy, or political action."
+}

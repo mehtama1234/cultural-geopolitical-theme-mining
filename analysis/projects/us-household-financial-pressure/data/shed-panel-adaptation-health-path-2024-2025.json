@@ -1,0 +1,241 @@
+{
+  "format": "us-shed-panel-adaptation-health-path-v1",
+  "source_unit": "SHED respondent recontact panel, 2024 to 2025",
+  "weight": "2025 panel_weight",
+  "paired_rows_with_health_path": 4163,
+  "variance_estimation": false,
+  "causal_estimation": false,
+  "health_paths": {
+    "worsened": {
+      "paired_rows": 671,
+      "adaptations": {
+        "cheaper_products": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 416,
+            "weighted_denominator": 433.102,
+            "share_yes_2025_percent": 75.08
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 255,
+            "weighted_denominator": 255.992,
+            "share_yes_2025_percent": 35.92
+          }
+        },
+        "used_less_or_stopped": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 423,
+            "weighted_denominator": 443.128,
+            "share_yes_2025_percent": 74.301
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 248,
+            "weighted_denominator": 245.966,
+            "share_yes_2025_percent": 36.361
+          }
+        },
+        "reduced_savings": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 288,
+            "weighted_denominator": 301.044,
+            "share_yes_2025_percent": 62.701
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 383,
+            "weighted_denominator": 388.051,
+            "share_yes_2025_percent": 28.547
+          }
+        },
+        "increased_borrowing": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 108,
+            "weighted_denominator": 115.976,
+            "share_yes_2025_percent": 59.016
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 563,
+            "weighted_denominator": 573.118,
+            "share_yes_2025_percent": 8.914
+          }
+        },
+        "delayed_major_purchase": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 311,
+            "weighted_denominator": 325.035,
+            "share_yes_2025_percent": 69.292
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 360,
+            "weighted_denominator": 364.06,
+            "share_yes_2025_percent": 27.874
+          }
+        },
+        "worked_more_or_got_job": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 130,
+            "weighted_denominator": 136.856,
+            "share_yes_2025_percent": 39.311
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 541,
+            "weighted_denominator": 552.239,
+            "share_yes_2025_percent": 11.104
+          }
+        }
+      }
+    },
+    "unchanged": {
+      "paired_rows": 3000,
+      "adaptations": {
+        "cheaper_products": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 1804,
+            "weighted_denominator": 1820.446,
+            "share_yes_2025_percent": 76.829
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 1196,
+            "weighted_denominator": 1154.726,
+            "share_yes_2025_percent": 30.852
+          }
+        },
+        "used_less_or_stopped": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 1728,
+            "weighted_denominator": 1746.315,
+            "share_yes_2025_percent": 72.852
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 1272,
+            "weighted_denominator": 1228.858,
+            "share_yes_2025_percent": 31.2
+          }
+        },
+        "reduced_savings": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 1145,
+            "weighted_denominator": 1161.763,
+            "share_yes_2025_percent": 60.34
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 1855,
+            "weighted_denominator": 1813.409,
+            "share_yes_2025_percent": 22.215
+          }
+        },
+        "increased_borrowing": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 382,
+            "weighted_denominator": 389.967,
+            "share_yes_2025_percent": 50.511
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 2618,
+            "weighted_denominator": 2585.206,
+            "share_yes_2025_percent": 7.045
+          }
+        },
+        "delayed_major_purchase": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 1293,
+            "weighted_denominator": 1307.324,
+            "share_yes_2025_percent": 64.699
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 1707,
+            "weighted_denominator": 1667.848,
+            "share_yes_2025_percent": 23.224
+          }
+        },
+        "worked_more_or_got_job": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 438,
+            "weighted_denominator": 439.335,
+            "share_yes_2025_percent": 45.456
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 2562,
+            "weighted_denominator": 2535.837,
+            "share_yes_2025_percent": 7.977
+          }
+        }
+      }
+    },
+    "improved": {
+      "paired_rows": 492,
+      "adaptations": {
+        "cheaper_products": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 316,
+            "weighted_denominator": 324.969,
+            "share_yes_2025_percent": 78.014
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 176,
+            "weighted_denominator": 173.266,
+            "share_yes_2025_percent": 35.501
+          }
+        },
+        "used_less_or_stopped": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 298,
+            "weighted_denominator": 305.953,
+            "share_yes_2025_percent": 74.931
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 194,
+            "weighted_denominator": 192.282,
+            "share_yes_2025_percent": 36.737
+          }
+        },
+        "reduced_savings": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 229,
+            "weighted_denominator": 239.435,
+            "share_yes_2025_percent": 56.945
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 263,
+            "weighted_denominator": 258.8,
+            "share_yes_2025_percent": 22.826
+          }
+        },
+        "increased_borrowing": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 93,
+            "weighted_denominator": 107.199,
+            "share_yes_2025_percent": 56.389
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 399,
+            "weighted_denominator": 391.036,
+            "share_yes_2025_percent": 9.827
+          }
+        },
+        "delayed_major_purchase": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 234,
+            "weighted_denominator": 245.508,
+            "share_yes_2025_percent": 66.344
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 258,
+            "weighted_denominator": 252.726,
+            "share_yes_2025_percent": 29.071
+          }
+        },
+        "worked_more_or_got_job": {
+          "persistence_among_2024_yes": {
+            "valid_pairs": 87,
+            "weighted_denominator": 86.08,
+            "share_yes_2025_percent": 48.805
+          },
+          "entry_among_2024_no": {
+            "valid_pairs": 405,
+            "weighted_denominator": 412.155,
+            "share_yes_2025_percent": 12.788
+          }
+        }
+      }
+    }
+  }
+}
