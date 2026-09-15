@@ -255,6 +255,10 @@ health, financial, work, pain, and meaning measures. Registration-gated access
 and codebook inspection remain required before any estimate is promoted. The
 planned gate is a same-respondent ordered sequence with reported overlap,
 retention, weights, missingness, timing, uncertainty, and counterexamples.
+HRS 2020 is now recorded as a parallel age-50-plus re-test: its official
+documentation supplies unaffordable delayed-care reasons and trust targets for
+Medicare/Medicaid and insurers, but its module assignment and panel timing
+must be verified before it can be promoted.
 
 ## Why this project exists
 

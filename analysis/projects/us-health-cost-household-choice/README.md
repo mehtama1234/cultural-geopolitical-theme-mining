@@ -153,6 +153,13 @@ institution-specific trust or satisfaction through `uasid`. It is a verified
 acquisition design, not yet a result; overlap, timing, weights, and missingness
 must be established after access.
 
+The [HRS health-cost and institutional-trust acquisition audit](hrs-health-cost-trust-acquisition-audit-v1.md)
+defines a parallel older-adult route. HRS 2020 documents unaffordable delayed
+care, non-cost delay reasons, health-care cost satisfaction, and trust in
+Medicare/Medicaid and insurance companies. Its module sampling, age-50-plus
+universe, timing, identifiers, and weights must be verified before promotion;
+it is a replication/counterexample route, not a substitute for the UAS join.
+
 Party identity, insurance status, health-condition status, and household
 income are now included as conditioning tests. They show that trust levels
 and gradients vary by prior identity and health/coverage composition; annual
