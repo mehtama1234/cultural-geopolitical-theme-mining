@@ -141,6 +141,12 @@ def inspect_rows(path: Path, columns: list[str], groups: dict[str, list[str]]) -
     if wave:
         result["unique_waves"] = int(frame[wave].dropna().nunique())
         result["wave_values_sample"] = [str(value) for value in frame[wave].dropna().drop_duplicates().head(25)]
+    if key and wave:
+        person_wave = frame[[key, wave]].dropna()
+        result["unique_person_wave_keys"] = int(len(person_wave.drop_duplicates()))
+        result["duplicate_person_wave_rows"] = int(
+            person_wave.duplicated(subset=[key, wave], keep=False).sum()
+        )
     return result
 
 

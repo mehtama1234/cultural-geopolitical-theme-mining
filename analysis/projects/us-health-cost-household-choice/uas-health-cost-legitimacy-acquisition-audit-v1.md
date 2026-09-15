@@ -157,6 +157,11 @@ rather than survey time. The file inventory audit should be run first so any
 such problem is preserved as an acquisition finding rather than dropped during
 analysis.
 
+The inventory output separately records `unique_person_wave_keys` and
+`duplicate_person_wave_rows`. Repeated `uasid` values across different waves
+are expected in a panel; repeated `uasid`-`wave` pairs are the structural issue
+that must be resolved before a follow-up transition is interpretable.
+
 ## Promotion rule
 
 Promote a UAS result into the health-cost end-to-end finding only if one
