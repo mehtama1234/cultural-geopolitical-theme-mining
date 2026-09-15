@@ -26,6 +26,12 @@ This is one durable lane in the long-term atlas. Its next sources should progres
 
 ## Population depth
 
+The [end-to-end status matrix](end-to-end-status-matrix-v1.md) is the current
+control surface for this lane. It maps each stage from system scale and
+observed payment through care choice, household substitution, recovery,
+institutional remedy, and trust/action, while naming the evidence and the next
+required join.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
