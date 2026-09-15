@@ -869,6 +869,11 @@ market-transition or household result.
   action layer, including an exploratory adjusted contact screen and a timing
   sensitivity. It complements the ANES trust/policy bridge; the dated bill,
   remedy, trust change, and recovery join remain open.
+- **Health-cost trust acquisition boundary:** the companion Democracy Fund
+  VOTER crisis extract was checked for a same-respondent extension and contains
+  trust/confidence fields but no matching medical-expense hardship exposure.
+  It is retained as context only; the episode-level bill-to-trust join remains
+  an explicit acquisition target.
 - **Migration and local-demand depth:** the matched-place stream now has a
   reproducible 12-county screen using 2020–2023 population change, ACS
   foreign-born share and arrival timing, rent, crowding, language-access need,

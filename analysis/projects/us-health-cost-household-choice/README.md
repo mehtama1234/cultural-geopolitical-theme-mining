@@ -135,6 +135,12 @@ extracts do not provide a dated bill, remedy, or reproduced design-based
 medical-specific uncertainty. It is therefore an action benchmark and
 acquisition bridge, not a completed health-cost-to-legitimacy effect.
 
+The same audit now records a negative companion-file result: the public
+`VOTER_2019vv_crisis.tab` extract contains trust and institutional-confidence
+variables but no medical-expense hardship field that can be matched to the CES
+exposure. Trust context therefore remains a cross-source layer, not a
+same-respondent medical-hardship-to-trust estimate.
+
 The [reader-facing CES finding](../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
 promotes that benchmark into the connected atlas. It preserves the adjusted
 contact screen, the 2018/2020 attribution-format difference, and the missing
