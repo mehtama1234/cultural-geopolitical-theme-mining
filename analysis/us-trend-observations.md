@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-222 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+223 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -637,6 +637,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Energy expenditure and assistance vulnerability vary sharply across household income bands | cost, energy | household_room_consumption, unequal_exposure_status, care_health_reproduction, public_systems_feedback | occupied U.S. household responding to the 2020 Residential Energy Consumption Survey | United States | 11 | 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year; 2020 survey year | compared | [open](records/us-recs-energy-burden-income-assistance-2020.json) |
 
 **Boundary:** This is a 2020 cross-sectional household energy-vulnerability layer. It does not establish causal effects, monthly payment shocks, health outcomes, political attitudes, or consumer behavior. The energy-burden measure is a midpoint-of-income-band proxy; modeled annual energy expenditures should not be read as observed bills.
+
+| Cost-related care foregoing co-occurs with household financial adaptation | cost, time, voice | care_health_reproduction, household_room_consumption, time_hidden_price, unequal_exposure_status | US adult SHED 2025 respondent | United States | 2 | 2025; any cost-related care foregoing and household adaptation; 2025; no cost-related care foregoing and household adaptation | compared; reported | [open](records/us-shed-2025-care-skipping-adaptation-association.json) |
+
+**Boundary:** Same-respondent cross-sectional co-occurrence does not establish a dated medical episode, causal direction, exact bill, alternative, care outcome, remedy, trust, or political action.
 
 | Cost-related care foregoing is a population-level choice stage absent from observed-care files | cost, time, voice | care_health_reproduction, household_room_consumption, unequal_exposure_status, time_hidden_price | US adult respondent; 2025 Federal Reserve SHED published report | United States | 6 | 2025; any medical treatment skipped because of cost; 2025; care type skipped because of cost; 2025; care skipped because of cost by family income; 2025; care skipped because of cost by insurance status; 2025; medical debt; 2024->2025; annual SHED care-foregoing comparison | compared; reported | [open](records/us-shed-2025-care-skipping-choice.json) |
 

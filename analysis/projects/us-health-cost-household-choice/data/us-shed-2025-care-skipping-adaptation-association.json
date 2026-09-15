@@ -1,0 +1,111 @@
+{
+  "care_foregoing_fields": [
+    "E1_a",
+    "E1_b",
+    "E1_c",
+    "E1_d",
+    "E1_e"
+  ],
+  "complete_care_foregoing_rows": 12934,
+  "format": "us-shed-2025-care-skipping-adaptation-association-v1",
+  "groups": {
+    "care_skipped_any_no": {
+      "outcomes": {
+        "delayed_major_purchase": {
+          "nonmissing_rows": 9662,
+          "percent": 35.644,
+          "weighted_denominator": 9607.986
+        },
+        "increased_borrowing": {
+          "nonmissing_rows": 9662,
+          "percent": 9.644,
+          "weighted_denominator": 9607.986
+        },
+        "medical_debt": {
+          "nonmissing_rows": 9662,
+          "percent": 10.031,
+          "weighted_denominator": 9607.986
+        },
+        "reduced_savings": {
+          "nonmissing_rows": 9662,
+          "percent": 33.066,
+          "weighted_denominator": 9607.986
+        },
+        "three_month_emergency_funds": {
+          "nonmissing_rows": 9662,
+          "percent": 62.835,
+          "weighted_denominator": 9607.986
+        },
+        "unexpected_major_medical_expense": {
+          "nonmissing_rows": 9662,
+          "percent": 16.174,
+          "weighted_denominator": 9607.986
+        },
+        "used_less_or_stopped_products": {
+          "nonmissing_rows": 9662,
+          "percent": 51.732,
+          "weighted_denominator": 9607.986
+        },
+        "worked_more_or_got_job": {
+          "nonmissing_rows": 9662,
+          "percent": 11.522,
+          "weighted_denominator": 9607.986
+        }
+      },
+      "rows": 9662,
+      "weighted_share_of_complete_care_foregoing_sample": 74.285
+    },
+    "care_skipped_any_yes": {
+      "outcomes": {
+        "delayed_major_purchase": {
+          "nonmissing_rows": 3272,
+          "percent": 74.307,
+          "weighted_denominator": 3326.001
+        },
+        "increased_borrowing": {
+          "nonmissing_rows": 3272,
+          "percent": 34.03,
+          "weighted_denominator": 3326.001
+        },
+        "medical_debt": {
+          "nonmissing_rows": 3272,
+          "percent": 42.182,
+          "weighted_denominator": 3326.001
+        },
+        "reduced_savings": {
+          "nonmissing_rows": 3272,
+          "percent": 64.045,
+          "weighted_denominator": 3326.001
+        },
+        "three_month_emergency_funds": {
+          "nonmissing_rows": 3272,
+          "percent": 31.454,
+          "weighted_denominator": 3326.001
+        },
+        "unexpected_major_medical_expense": {
+          "nonmissing_rows": 3272,
+          "percent": 36.033,
+          "weighted_denominator": 3326.001
+        },
+        "used_less_or_stopped_products": {
+          "nonmissing_rows": 3272,
+          "percent": 82.764,
+          "weighted_denominator": 3326.001
+        },
+        "worked_more_or_got_job": {
+          "nonmissing_rows": 3272,
+          "percent": 32.987,
+          "weighted_denominator": 3326.001
+        }
+      },
+      "rows": 3272,
+      "weighted_share_of_complete_care_foregoing_sample": 25.715
+    }
+  },
+  "limitation": "Care foregoing, debt, medical expense, and price adaptations share a prior-12-month or current cross-sectional frame. The data do not identify the same bill, clinical need, timing, alternative, payment obligation, or whether care foregoing caused the financial outcome.",
+  "method": "All five E1 care-foregoing fields must be observed; any Yes defines cost-related care foregoing. Outcomes are weighted same-respondent cross-sectional comparisons, not dated bill outcomes or causal estimates.",
+  "rows": 12934,
+  "source_file": "/tmp/cgtm-shed/shed2025.zip",
+  "source_unit": "US adult SHED 2025 respondent",
+  "weight": "weight (single-year cross-section)"
+}

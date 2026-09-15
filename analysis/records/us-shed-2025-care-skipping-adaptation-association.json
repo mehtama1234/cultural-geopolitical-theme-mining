@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-shed-2025-care-skipping-adaptation-association",
+  "title": "Cost-related care foregoing co-occurs with household financial adaptation",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "time_hidden_price", "unequal_exposure_status"],
+  "source_unit": "US adult SHED 2025 respondent",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; any cost-related care foregoing and household adaptation",
+      "denominator": {"value": 12934, "unit": "respondents with complete E1_a-E1_e care-foregoing fields"},
+      "measures": {
+        "medical_debt": {"value": 42.182, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "unexpected_major_medical_expense": {"value": 36.033, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "three_month_emergency_funds": {"value": 31.454, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "used_less_or_stopped_products": {"value": 82.764, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "reduced_savings": {"value": 64.045, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "increased_borrowing": {"value": 34.03, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "delayed_major_purchase": {"value": 74.307, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"},
+        "worked_more_or_got_job": {"value": 32.987, "unit": "percent among any-care-foregoing respondents", "value_type": "weighted_share"}
+      },
+      "method": "Any Yes among E1_a-E1_e defines cost-related care foregoing; outcomes are weighted single-year cross-sectional shares using weight.",
+      "uncertainty": "No replicate-weight standard errors in this pass; outcome fields have separate nonmissing universes.",
+      "subgroup": "Respondents reporting any of five care types skipped because of cost.",
+      "counterinterpretation": "Shared need, prior financial scarcity, health, coverage, access, or reverse timing may produce both care foregoing and adaptation.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
+      "retrieval_hash": "sha256:3617689bd058062007db457a8010a4f030e90a161937a2737e1459960fcc475d",
+      "status": "reported"
+    },
+    {
+      "period": "2025; no cost-related care foregoing and household adaptation",
+      "denominator": {"value": 12934, "unit": "respondents with complete E1_a-E1_e care-foregoing fields"},
+      "measures": {
+        "medical_debt": {"value": 10.031, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "unexpected_major_medical_expense": {"value": 16.174, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "three_month_emergency_funds": {"value": 62.835, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "used_less_or_stopped_products": {"value": 51.732, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "reduced_savings": {"value": 33.066, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "increased_borrowing": {"value": 9.644, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "delayed_major_purchase": {"value": 35.644, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"},
+        "worked_more_or_got_job": {"value": 11.522, "unit": "percent among no-care-foregoing respondents", "value_type": "weighted_share"}
+      },
+      "method": "Any No across E1_a-E1_e defines no reported cost-related care foregoing; outcomes are weighted single-year cross-sectional shares using weight.",
+      "uncertainty": "No replicate-weight standard errors in this pass; outcome fields have separate nonmissing universes.",
+      "subgroup": "Respondents reporting no listed care type skipped because of cost.",
+      "counterinterpretation": "No reported foregoing does not prove no unmet need, affordability, or absence of other financial pressure.",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/files/SHED_2025codebook.pdf",
+      "retrieval_hash": "sha256:3617689bd058062007db457a8010a4f030e90a161937a2737e1459960fcc475d",
+      "status": "compared"
+    }
+  ],
+  "boundary": "Same-respondent cross-sectional co-occurrence does not establish a dated medical episode, causal direction, exact bill, alternative, care outcome, remedy, trust, or political action."
+}

@@ -37,6 +37,12 @@ adds the reported population-level care-choice stage that observed MEPS event
 files cannot see: going without treatment because of cost, the types of care
 skipped, income and insurance differences, and medical debt.
 
+The [SHED care-skipping/adaptation association](shed-2025-care-skipping-adaptation-association-v1.md)
+now joins those care decisions to same-respondent medical debt, unexpected
+medical expenses, emergency funds, borrowing, savings, consumption, purchase,
+and work adaptations. It is a weighted cross-sectional bridge, not a dated
+bill or causal outcome.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
