@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-medical-affordability-political-participation-2018-2020",
+  "title": "Medical-expense hardship reaches turnout and targeted political participation in CES module extracts",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "political_judgment_action", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "CES 2018 and 2020 public crisis-module Stata extracts in the Politics of Personal Crisis replication package",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2018 CES crisis module",
+      "denominator": {"value": 1000, "unit": "valid module rows"},
+      "measures": {
+        "medical_expense_crisis_share": {"value": 25.7, "unit": "percent of valid rows", "value_type": "weighted_indicator_share"},
+        "validated_turnout_no_crisis": {"value": 57.2, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "validated_turnout_medical_expense_crisis": {"value": 41.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "contact_official_no_crisis": {"value": 21.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "contact_official_medical_expense_crisis": {"value": 23.3, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "donate_no_crisis": {"value": 17.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "donate_medical_expense_crisis": {"value": 10.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"}
+      },
+      "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
+      "uncertainty": "No reproduced design-based standard errors are claimed. The published paper models total crisis count rather than a standalone medical-expense coefficient; this is an exploratory same-respondent extension.",
+      "subgroup": "Rows reporting versus not reporting trouble affording medical expenses.",
+      "counterinterpretation": "Medical-expense hardship may proxy health, income, insurance insecurity, prior turnout, employment, or other crises; the contrast is not causal.",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/8961297?format=original",
+      "retrieval_hash": "sha256:c61ccc59c7f9232cbb7abd420654b907cb0997433c80ce0efe391d4f257d3d58",
+      "status": "inferred"
+    },
+    {
+      "period": "2020 CES crisis module",
+      "denominator": {"value": 1000, "unit": "valid module rows"},
+      "measures": {
+        "medical_expense_crisis_share": {"value": 15.2, "unit": "percent of valid rows", "value_type": "weighted_indicator_share"},
+        "validated_turnout_no_crisis": {"value": 62.3, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "validated_turnout_medical_expense_crisis": {"value": 61.2, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "contact_official_no_crisis": {"value": 17.9, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "contact_official_medical_expense_crisis": {"value": 28.3, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "protest_no_crisis": {"value": 5.4, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "protest_medical_expense_crisis": {"value": 9.1, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "campaign_work_no_crisis": {"value": 3.7, "unit": "percent weighted mean", "value_type": "weighted_group_mean"},
+        "campaign_work_medical_expense_crisis": {"value": 1.0, "unit": "percent weighted mean", "value_type": "weighted_group_mean"}
+      },
+      "method": "Analyst-produced weighted descriptive contrasts from the public Stata module extract; crisis_medexp is the exposure, outcomes are validated turnout and past-year political acts, and teamweight is the supplied module weight.",
+      "uncertainty": "No reproduced design-based standard errors are claimed. The medical-expense-crisis group has 152 unweighted rows; the published paper models total crisis count rather than a standalone medical-expense coefficient.",
+      "subgroup": "Rows reporting versus not reporting trouble affording medical expenses.",
+      "counterinterpretation": "The 2020 pattern may reflect pandemic-era context, other crises, health, income, insurance insecurity, prior turnout, or selection; targeted contact/protest is not proof of institutional attribution.",
+      "source_url": "https://dataverse.harvard.edu/api/access/datafile/8961293?format=original",
+      "retrieval_hash": "sha256:10fe9927942f345b9b39f58b4c07daa130baa997537f4cecfe76e6d7c024cd1e",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://link.springer.com/article/10.1007/s11109-024-09933-x", "claim": "Published study design and broader total-crisis-to-participation findings.", "status": "primary-publication"},
+    {"source_url": "https://doi.org/10.7910/DVN/PJQ57U", "claim": "Public replication package, scripts, and crisis-module data files.", "status": "primary-replication"}
+  ],
+  "boundary": "This record establishes a same-respondent descriptive acquisition layer from medical-expense hardship to political participation. It does not establish a causal medical-specific effect, a design-based confidence interval, a bill-to-remedy pathway, or a trust/legitimacy outcome. Attribution variables are present in the source files but are not analyzed here."
+}

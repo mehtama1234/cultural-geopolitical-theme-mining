@@ -155,12 +155,12 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **28**
-- Review queue shown: **28** highest-frequency domains
+- Observed domains outside registered families: **30**
+- Review queue shown: **30** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
-| `doi.org` | 56 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
+| `doi.org` | 58 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `support.sayrhino.com` | 9 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `btq-kassel.de` | 8 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/ai-work-control/claims-ledger-v1.md` |
@@ -182,6 +182,8 @@ family that will be acquired, compared, or maintained over time.
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
+| `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
+| `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
 | `cbp.gov` | 1 | `analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
@@ -220,6 +222,8 @@ without a recurring acquisition need and source-specific metadata.
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
+| `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
