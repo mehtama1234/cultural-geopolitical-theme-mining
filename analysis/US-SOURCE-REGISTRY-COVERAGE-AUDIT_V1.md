@@ -155,8 +155,8 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **31**
-- Review queue shown: **31** highest-frequency domains
+- Observed domains outside registered families: **32**
+- Review queue shown: **32** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
@@ -191,6 +191,7 @@ family that will be acquired, compared, or maintained over time.
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
 | `open.gsa.gov` | 1 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md` |
+| `uasvis.usc.edu` | 1 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -232,6 +233,7 @@ without a recurring acquisition need and source-specific metadata.
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
+| `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
 
