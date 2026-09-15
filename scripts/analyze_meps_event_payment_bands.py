@@ -55,6 +55,10 @@ def summarize(frame: pd.DataFrame) -> dict[str, object]:
         "medical_debt_any_percent": share(frame["MEDICAL_DEBT_ANY"], weights),
         "late_or_unable_rent_percent": share(frame["LATE_RENT"], weights),
         "unable_utility_percent": share(frame["UNABLE_UTILITY"], weights),
+        "delayed_medical_care_for_cost_percent": share(frame["DELAYED_MEDICAL_CARE"], weights),
+        "could_not_afford_medical_care_percent": share(frame["COULD_NOT_AFFORD_MEDICAL_CARE"], weights),
+        "delayed_prescription_for_cost_percent": share(frame["DELAYED_PRESCRIPTION"], weights),
+        "could_not_afford_prescription_percent": share(frame["COULD_NOT_AFFORD_PRESCRIPTION"], weights),
     }
 
 
@@ -67,7 +71,7 @@ def main() -> int:
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
-    person = read(args.hc256_file, ["DUPERSID", "PANEL", "PERWT24F", "RTHLTH42", "EMPST42", "PROBPY42", "FWUNEXP42", "FWCRED42", "FWDEBT42", "MEDDEBT42", "FWRENT42", "FWUTIL42"])
+    person = read(args.hc256_file, ["DUPERSID", "PANEL", "PERWT24F", "RTHLTH42", "EMPST42", "PROBPY42", "FWUNEXP42", "FWCRED42", "FWDEBT42", "MEDDEBT42", "FWRENT42", "FWUTIL42", "DLAYCA42", "AFRDCA42", "DLAYPM42", "AFRDPM42"])
     person["PERSON_KEY"] = person_key(person)
     person["BILL_PROBLEM"] = person["PROBPY42"].eq(1).astype(float)
     person["FAIR_POOR_HEALTH"] = person["RTHLTH42"].isin([4, 5]).astype(float)
@@ -78,13 +82,17 @@ def main() -> int:
     person["MEDICAL_DEBT_ANY"] = person["MEDDEBT42"].between(1, 7).astype(float)
     person["LATE_RENT"] = person["FWRENT42"].eq(1).astype(float)
     person["UNABLE_UTILITY"] = person["FWUTIL42"].eq(1).astype(float)
+    person["DELAYED_MEDICAL_CARE"] = person["DLAYCA42"].eq(1).astype(float)
+    person["COULD_NOT_AFFORD_MEDICAL_CARE"] = person["AFRDCA42"].eq(1).astype(float)
+    person["DELAYED_PRESCRIPTION"] = person["DLAYPM42"].eq(1).astype(float)
+    person["COULD_NOT_AFFORD_PRESCRIPTION"] = person["AFRDPM42"].eq(1).astype(float)
 
     output: dict[str, object] = {
         "schema": "us-meps-2024-first-event-payment-bands-v1",
-        "method": "Within each event family, retain the first valid dated event per DUPERSID+PANEL, join HC-256 round 4/2 health, work, bill-problem, and financial-well-being fields, and report weighted context shares by self/family payment band.",
+        "method": "Within each event family, retain the first valid dated event per DUPERSID+PANEL, join HC-256 round 4/2 health, work, bill-problem, financial-well-being, and cost-related care-access fields, and report weighted context shares by self/family payment band.",
         "payment_bands": ["$0", "$1-$99", "$100-$499", "$500-$1,999", "$2,000+"],
         "events": {},
-        "limitation": "Payment is event-family self/family payment, not a complete bill or household burden. Financial-well-being fields are round 4/2 context and are not event-specific; the first event may follow an earlier need. No causation, care foregoing, alternatives, remedy, trust, or action is identified.",
+        "limitation": "Payment is event-family self/family payment, not a complete bill or household burden. Financial-well-being and cost-related care-access fields are round 4/2 context and are not event-specific; the first event may follow an earlier need. No causation, care foregoing, alternatives, remedy, trust, or action is identified.",
     }
     for name, path in {"office": args.office_file, "emergency_room": args.emergency_room_file, "inpatient": args.inpatient_file}.items():
         year_field, month_field, payment_field = EVENTS[name]

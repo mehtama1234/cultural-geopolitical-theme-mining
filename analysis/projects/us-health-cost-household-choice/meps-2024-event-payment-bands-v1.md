@@ -40,9 +40,11 @@ nothing removed household burden.
 The HC-256 file also carries round 4/2 financial-well-being context. The
 payment-band output reports confidence paying an unexpected expense, missed
 loan/credit payments, debt-collector contact, medical debt, late rent, and
-unpaid utilities. These fields make the practical-room stage more explicit,
-but they remain temporally broader than the first event and should not be read
-as consequences of that event.
+unpaid utilities. The same output now carries MEPS cost-related delay and
+affordability fields for medical care and prescribed medicines. These fields
+make the practical-room and care-choice stages more explicit, but they remain
+temporally broader than the first event and should not be read as consequences
+of that event.
 
 In the emergency-room first-event universe, 24.65% of the zero-payment band
 was not at all or not too confident about paying an unexpected expense,
@@ -53,6 +55,14 @@ can coexist with less financial room, while a high payment band can contain
 people with greater medical debt but more capacity to meet an unexpected bill.
 Both patterns may be driven by selection, payer protection, severity, and
 resources rather than the displayed event payment.
+
+The access fields add a bounded link toward care choice. Among first-event ER
+records, cost-related medical-care delay was 8.69% in the zero-payment band and
+22.40% in the $2,000+ band; cost-related inability to afford medical care was
+5.74% and 13.94%, respectively. The high-payment cells are small (28 people)
+and the access measures are round-level rather than event-specific, so this is
+a signal for follow-up—not evidence that the ER event caused the delay or that
+the displayed payment caused the affordability report.
 
 ```text
 first dated event
