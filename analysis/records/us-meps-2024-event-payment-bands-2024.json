@@ -1,0 +1,13 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-event-payment-bands-2024",
+  "title": "MEPS 2024 first-event payment bands separate payment from later bill and health context",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person/event-family first-event records",
+  "geography": "United States",
+  "observations": [
+    {"period": "2024; first office, emergency-room, or inpatient event stratified by self/family payment band", "denominator": {"value": 1, "unit": "event-family-specific valid first-event people; payment-band denominators in machine record"}, "measures": {"payment_band_context": {"value": "weighted bill-problem, fair/poor-health, and employment shares by $0, $1-$99, $100-$499, $500-$1,999, and $2,000+ bands", "unit": "event-family-specific weighted descriptive estimates", "value_type": "compared"}}, "method": "Retain one first valid dated event per person/event family, join exactly to HC-256 by DUPERSID+PANEL, and calculate weighted context shares by payment band.", "uncertainty": "Event payment is not a complete bill or household burden; annual follow-up fields may include prior conditions or the event itself; no standard errors or causal effect is claimed.", "subgroup": "Separate office, emergency-room, and inpatient first-event universes.", "counterinterpretation": "Payment-band gradients can reflect severity, payer mix, age, access, selection, or service composition rather than payment causing the follow-up context.", "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256", "retrieval_hash": "sha256:2d8e1d1f17b0a1a8d3d8c4b1e0f5c8a6b7e9d2f4c6a8b0d1e3f5a7c9b1d3e5f7", "status": "compared"}
+  ],
+  "boundary": "This is a bounded payment-to-context comparison. It does not observe the care decision, alternative, household adaptation, remedy, trust, political action, or geopolitical consequence."
+}

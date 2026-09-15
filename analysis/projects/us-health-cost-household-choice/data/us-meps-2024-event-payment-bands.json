@@ -1,0 +1,152 @@
+{
+  "events": {
+    "emergency_room": {
+      "first_event_people": 2717,
+      "payment_bands": {
+        "$0": {
+          "bill_problem_followup_percent": 14.52211367827462,
+          "fair_poor_health_followup_percent": 27.449526803706732,
+          "not_employed_followup_percent": 60.51918891813539,
+          "records": 2011,
+          "weighted_payment_mean": 0.0,
+          "zero_payment_percent": 100.0
+        },
+        "$1-$99": {
+          "bill_problem_followup_percent": 7.59824724155937,
+          "fair_poor_health_followup_percent": 19.775778496552114,
+          "not_employed_followup_percent": 50.2443908404454,
+          "records": 182,
+          "weighted_payment_mean": 47.33089109017468,
+          "zero_payment_percent": 0.0
+        },
+        "$100-$499": {
+          "bill_problem_followup_percent": 12.29871708592672,
+          "fair_poor_health_followup_percent": 17.47817530748884,
+          "not_employed_followup_percent": 41.36096099469633,
+          "records": 301,
+          "weighted_payment_mean": 220.6275523530823,
+          "zero_payment_percent": 0.0
+        },
+        "$2,000+": {
+          "bill_problem_followup_percent": 12.46926356531147,
+          "fair_poor_health_followup_percent": 13.337155158886677,
+          "not_employed_followup_percent": 34.1481474145266,
+          "records": 28,
+          "weighted_payment_mean": 3860.9966689666526,
+          "zero_payment_percent": 0.0
+        },
+        "$500-$1,999": {
+          "bill_problem_followup_percent": 10.474459499384462,
+          "fair_poor_health_followup_percent": 8.519586263877551,
+          "not_employed_followup_percent": 28.060677885001837,
+          "records": 150,
+          "weighted_payment_mean": 952.4742609828998,
+          "zero_payment_percent": 0.0
+        }
+      },
+      "payment_field": "ERFSF24X"
+    },
+    "inpatient": {
+      "first_event_people": 1337,
+      "payment_bands": {
+        "$0": {
+          "bill_problem_followup_percent": 11.144578587028114,
+          "fair_poor_health_followup_percent": 35.250840351878466,
+          "not_employed_followup_percent": 68.53996940858445,
+          "records": 921,
+          "weighted_payment_mean": 0.0,
+          "zero_payment_percent": 100.0
+        },
+        "$1-$99": {
+          "bill_problem_followup_percent": 9.646002123947788,
+          "fair_poor_health_followup_percent": 36.54444007798966,
+          "not_employed_followup_percent": 55.00032784483749,
+          "records": 66,
+          "weighted_payment_mean": 39.30331040019857,
+          "zero_payment_percent": 0.0
+        },
+        "$100-$499": {
+          "bill_problem_followup_percent": 10.205312525373763,
+          "fair_poor_health_followup_percent": 18.94641782912019,
+          "not_employed_followup_percent": 63.46680171459064,
+          "records": 119,
+          "weighted_payment_mean": 253.64127060739156,
+          "zero_payment_percent": 0.0
+        },
+        "$2,000+": {
+          "bill_problem_followup_percent": 7.492664897783992,
+          "fair_poor_health_followup_percent": 26.542529106097547,
+          "not_employed_followup_percent": 41.39322077890927,
+          "records": 93,
+          "weighted_payment_mean": 7966.145193082428,
+          "zero_payment_percent": 0.0
+        },
+        "$500-$1,999": {
+          "bill_problem_followup_percent": 7.20216607358705,
+          "fair_poor_health_followup_percent": 25.752617047857147,
+          "not_employed_followup_percent": 42.22347720693788,
+          "records": 116,
+          "weighted_payment_mean": 1142.4991301002874,
+          "zero_payment_percent": 0.0
+        }
+      },
+      "payment_field": "IPFSF24X"
+    },
+    "office": {
+      "first_event_people": 14181,
+      "payment_bands": {
+        "$0": {
+          "bill_problem_followup_percent": 7.78170674721626,
+          "fair_poor_health_followup_percent": 14.51430928970622,
+          "not_employed_followup_percent": 60.9954456402251,
+          "records": 7443,
+          "weighted_payment_mean": 0.0,
+          "zero_payment_percent": 100.0
+        },
+        "$1-$99": {
+          "bill_problem_followup_percent": 7.490737877551867,
+          "fair_poor_health_followup_percent": 9.37561515310244,
+          "not_employed_followup_percent": 38.87725572854309,
+          "records": 4730,
+          "weighted_payment_mean": 36.00017231592022,
+          "zero_payment_percent": 0.0
+        },
+        "$100-$499": {
+          "bill_problem_followup_percent": 6.9995010568643,
+          "fair_poor_health_followup_percent": 7.813975963299207,
+          "not_employed_followup_percent": 34.666805157071416,
+          "records": 1573,
+          "weighted_payment_mean": 195.58595823600632,
+          "zero_payment_percent": 0.0
+        },
+        "$2,000+": {
+          "bill_problem_followup_percent": 1.5793884824833646,
+          "fair_poor_health_followup_percent": 11.02900329535374,
+          "not_employed_followup_percent": 46.298940068380176,
+          "records": 38,
+          "weighted_payment_mean": 4607.801171497024,
+          "zero_payment_percent": 0.0
+        },
+        "$500-$1,999": {
+          "bill_problem_followup_percent": 6.161302788911959,
+          "fair_poor_health_followup_percent": 11.50491653214285,
+          "not_employed_followup_percent": 29.65989121304975,
+          "records": 201,
+          "weighted_payment_mean": 873.7882665906632,
+          "zero_payment_percent": 0.0
+        }
+      },
+      "payment_field": "OBSF24X"
+    }
+  },
+  "limitation": "Payment is event-family self/family payment, not a complete bill or household burden. The first event may follow an earlier need, and follow-up annual fields do not identify causation, care foregoing, alternatives, debt, remedy, trust, or action.",
+  "method": "Within each event family, retain the first valid dated event per DUPERSID+PANEL, join HC-256 follow-up fields, and report weighted outcome shares by self/family payment band.",
+  "payment_bands": [
+    "$0",
+    "$1-$99",
+    "$100-$499",
+    "$500-$1,999",
+    "$2,000+"
+  ],
+  "schema": "us-meps-2024-first-event-payment-bands-v1"
+}

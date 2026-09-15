@@ -106,6 +106,11 @@ household adaptation, institutional response, remedy, and the still-open
 legitimacy endpoint. It is deliberately a layered synthesis rather than a
 single causal estimate.
 
+The [MEPS event payment-band screen](meps-2024-event-payment-bands-v1.md)
+adds a payment-stratified counterexample: self/family payment and later
+bill/health/work context do not form a monotonic burden scale within the first
+office, emergency-room, or inpatient event universes.
+
 The [2025 care, health, and price-adaptation layer](shed-2025-care-health-price-adaptation-layer-v1.md)
 is now paired with a [2024 comparison layer](shed-2024-care-health-adaptation-layer-v1.md).
 Both are cross-sectional weighted descriptions; they test directional
