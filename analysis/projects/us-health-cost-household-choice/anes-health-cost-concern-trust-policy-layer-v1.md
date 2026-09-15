@@ -87,6 +87,26 @@ smaller and less precise. The direction is similar in both coverage groups,
 but this remains descriptive: insurance status does not identify plan
 adequacy, a bill, or a care decision.
 
+### Health-condition conditioning
+
+Controlling the trust table by the reported health-related condition indicator
+(`V241574a`) produced 5,126 valid cases. For respondents with no condition
+mentioned, “some/never” trust was 53.1% among those not at all concerned and
+60.6% among those extremely concerned. Among respondents mentioning a
+condition, the corresponding shares were 52.4% and 74.4%. The extreme-
+concern condition cell is small, so the larger gradient is a signal for a
+health-need mechanism, not a causal estimate.
+
+### Household-income conditioning
+
+Controlling the trust table by the six-category household-income summary
+(`V241567x`) produced 4,945 valid cases. The “some/never” trust share among
+respondents not at all concerned versus extremely concerned was 50.5% versus
+63.8% below $10,000, 53.9% versus 67.7% at $100,000–$249,999, and 42.1%
+versus 66.0% at $250,000 or more. The highest-income extreme-concern cell has
+only six unweighted cases; income is annual and does not measure liquid room,
+deductible exposure, or a medical bill.
+
 ## Interpretation and limits
 
 These tables establish a directly measured same-survey bridge from health-care
@@ -110,5 +130,7 @@ health-cost-to-legitimacy chain.
 - [ANES merged panel documentation](https://electionstudies.org/data-center/2016-2020-2024-panel-merged-study/)
 - [Party-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241227x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 - [Insurance-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241571&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
+- [Health-condition-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241574a&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
+- [Income-conditioned trust table query](https://sda.berkeley.edu/sdaweb/analysis/exec?cflevel=95&ch_color=yes&control=V241567x&rowpct=on&dataset=anes2024full&decdeft=3&decpcts=1&decse=1&decstats=2&decwn=1&design=complex&formid=tbf&row=V241573&column=V241229&sdaprog=tables&se=on&unweightedn=on&weightedn=on&weightlist=V240107a)
 
-**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`.
+**Retrieval hashes:** trust query HTML `sha256:6997ea1080f7e585ec3c5da5e4e7646bbc939361c792a415c94d82d5948cb4bd`; policy query HTML `sha256:95c22e3bfa69bd701ee3fe12a6440150aa3d93a7ee40b1e145663cfb42559c4a`; party-conditioned trust query HTML `sha256:e7ab61b4096f960853b6197f658f8f860d012faa1d32d6c97f9992087e11eec3`; insurance-conditioned trust query HTML `sha256:3675e34518b109b00eefa210a82f6cc83e460433766fd6ca31640c1f12f11b36`; condition-conditioned trust query HTML `sha256:b4e6a92dde5d17752d7a01b54cf3b50607a26255e27a7c95cc7c8113f46d500f`; income-conditioned trust query HTML `sha256:8d6f9fb98e04cd561aae6d1436feebdffa31ca5b992298c448bc7660bb6b5d11`.

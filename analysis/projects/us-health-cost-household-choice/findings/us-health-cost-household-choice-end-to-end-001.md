@@ -22,6 +22,13 @@ insurance. The trust and policy gradients are modest and non-monotonic. This
 extends the endpoint evidence, but still does not identify a bill, care choice,
 remedy, or direct attribution.
 
+Conditioning sharpens the counterexample: party identity sets much of the
+trust baseline; insurance status leaves a similar descriptive gradient; a
+reported health condition is associated with a larger extreme-concern gap; and
+income-tail cells are too small to replace a measure of liquid room. These
+results support stratified acquisition and caution against a universal
+health-cost legitimacy law.
+
 The current ANES codebook sharpens that acquisition target: it includes concern
 about paying health-care expenses, insurance-loss concern, chronic-condition
 context, and later health-policy judgments alongside repeated trust and vote
