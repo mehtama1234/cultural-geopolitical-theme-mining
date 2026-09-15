@@ -125,6 +125,16 @@ with federal-government trust and with post-election demand for government help
 paying health-insurance costs. These are same-survey descriptive results, not
 evidence that a medical bill caused distrust or political action.
 
+The [CES medical-affordability participation audit](politics-personal-crisis-medical-affordability-participation-audit-v1.md)
+adds a direct same-respondent action surface. Public 2018 and 2020 crisis
+module extracts connect trouble affording medical expenses to validated turnout,
+contact, protest, campaign work, signs, meetings, and donations, and include
+responsibility attribution. The cross-year screen points more consistently to
+targeted official contact than to universal disengagement, but the module
+extracts do not provide a dated bill, remedy, or reproduced design-based
+medical-specific uncertainty. It is therefore an action benchmark and
+acquisition bridge, not a completed health-cost-to-legitimacy effect.
+
 Party identity, insurance status, health-condition status, and household
 income are now included as conditioning tests. They show that trust levels
 and gradients vary by prior identity and health/coverage composition; annual
