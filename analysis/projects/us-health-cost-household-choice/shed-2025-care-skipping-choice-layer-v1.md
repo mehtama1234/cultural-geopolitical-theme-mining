@@ -47,6 +47,21 @@ person delayed, substituted, or permanently abandoned treatment, what bill or
 condition was involved, what alternative was available, or what outcome
 followed.
 
+## Annual comparison, not a panel
+
+The comparable [2024 Federal Reserve report](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-income-and-expenses.htm) records **28%** of adults going
+without some medical care because of cost, versus **26%** in 2025. The type
+shares also moved modestly: dental care 19%→18%, doctor/specialist care
+16%→15%, prescription medicine 11%→9%, follow-up care 11%→10%, and mental
+health care 9%→10%. The income comparison moved from 41%→38% below $25,000
+and 14%→13% at $100,000 or more; the insurance comparison moved from 45%→45%
+among uninsured adults and 26%→24% among insured adults.
+
+This is a repeated annual comparison, not a 2024→2025 respondent panel. The
+small overall decline should not be read as individual recovery, lower need,
+or improved access. Question wording, sample composition, prices, coverage,
+illness, and access can all contribute to year-to-year movement.
+
 ## Relation to the MEPS and SHED panel layers
 
 | Evidence layer | What it adds | What it cannot supply |
