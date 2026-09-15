@@ -135,6 +135,11 @@ extracts do not provide a dated bill, remedy, or reproduced design-based
 medical-specific uncertainty. It is therefore an action benchmark and
 acquisition bridge, not a completed health-cost-to-legitimacy effect.
 
+The [reader-facing CES finding](../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
+promotes that benchmark into the connected atlas. It preserves the adjusted
+contact screen, the 2018/2020 attribution-format difference, and the missing
+bill-to-remedy-to-legitimacy join.
+
 Party identity, insurance status, health-condition status, and household
 income are now included as conditioning tests. They show that trust levels
 and gradients vary by prior identity and health/coverage composition; annual
