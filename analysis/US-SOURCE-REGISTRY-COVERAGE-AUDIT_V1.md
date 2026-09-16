@@ -41,7 +41,7 @@ or proof that every source item was read in full.
 | [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 789 | 193 | 0 | evidence-bearing |
 | [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 5 | 4 | 2 | evidence-bearing; machine-record URL |
 | [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 43 | 12 | 3 | evidence-bearing; machine-record URL |
-| [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 4 | 3 | 0 | evidence-bearing |
+| [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 5 | 3 | 0 | evidence-bearing |
 | [Whoz official product and company materials](https://www.whoz.com/en/) | small AI-forward firm and workforce-allocation product evidence | 0 | 2 | 1 | 0 | evidence-bearing |
 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | customer/operator evidence on AI adoption, training, workforce redesign, and delivery economics | 1 | 6 | 4 | 0 | evidence-bearing |
 | [Brookings Institution](https://www.brookings.edu/topics/) | policy research and competing interpretations | 0 | 3 | 3 | 0 | evidence-bearing |
