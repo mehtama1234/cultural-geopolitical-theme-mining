@@ -1853,6 +1853,14 @@ monthly event. Prevention-positive cells show lower hours stability and mixed
 earnings direction; the next gate remains a measured care/time-loss amount,
 schedule control, and later protected or sacrificed outcome.
 
+The new [child-care time-loss amount finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md)
+adds the direct `ETIMELOST` currency to the care/work lane. After official
+conditional-universe gates, 560 records remain; selected means are 8.43 hours
+below poverty and 24.40 hours at 4× poverty or more, with wide uncertainty and
+no valid no-prevention amount universe. The next gate is desired/actual hours,
+schedule control, paid/unpaid care, provider or price information, and a dated
+follow-up outcome.
+
 The [intersectional material-room finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-022.md)
 now promotes the race × tenure × monthly-resource comparison into a detailed
 reader-facing memo. A current-vintage SIPP rerun reproduces the prior

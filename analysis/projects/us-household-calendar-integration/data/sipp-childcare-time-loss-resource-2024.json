@@ -1,0 +1,25 @@
+{
+  "record_id": "us-sipp-childcare-time-loss-resource-2024",
+  "source_family": "SIPP/Census",
+  "reference_year": 2024,
+  "unit": "valid reference-parent person-month",
+  "measure": "weighted mean ETIMELOST hours among EWORKMORE=1 records with valid ATIMELOST, by THINCPOV endpoint",
+  "weight": "WPFINWGT; REPWGT1-REPWGT240",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "inputs": {
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "49d9a4d708fdd8ec57154862de6978cd752d9c211497fa7764da0c958ad74497",
+    "output_sha256": "d901be3cf19e7e28e7486b9e25c2f6f56f50b8373c299d4fd8988620ec0fee30"
+  },
+  "rows_read": 379215,
+  "selected_records_before_replicate_match": 560,
+  "replicate_rows_read": 378291,
+  "matched_selected_rows": 560,
+  "results": {
+    "below_1x": {"valid_record_n": 170, "weighted_mean_hours": 8.426970, "standard_error_hours": 1.696846, "approx_95_ci_hours": [5.101151, 11.752788]},
+    "4x_or_more": {"valid_record_n": 390, "weighted_mean_hours": 24.403458, "standard_error_hours": 7.254777, "approx_95_ci_hours": [10.184095, 38.622821]}
+  },
+  "status": "conditional_descriptive_endpoint; no new trend record",
+  "boundary": "ETIMELOST is conditional on EWORKMORE=1 and valid ATIMELOST. It is a fall-reference-year childcare-related work-time-loss amount, not a monthly loss or population care burden. Person weights are not household weights; no causal, recovery, trust, political-action, or exit claim is made."
+}

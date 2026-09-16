@@ -57,6 +57,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [SIPP utility difficulty and reported childcare time lost](analysis/projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md)
 - [SIPP resources, work limitation, and children direction finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-041.md)
 - [SIPP child-care work-prevention and following earnings/hours finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-042.md)
+- [SIPP child-care time-loss amount by resource endpoint](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md)
 
 ### Consumer power and recourse
 
