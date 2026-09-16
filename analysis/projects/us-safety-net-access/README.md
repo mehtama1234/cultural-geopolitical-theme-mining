@@ -138,6 +138,14 @@ The same audit now records the 2023 ICPSR 39462 fallback check: it supplies a
 potential second cross-sectional round, but its file/SDA route also requires
 authenticated access and has not been treated as retrieved evidence.
 
+The [WBNS 2025 age/care/material-security layer](wbns-2025-age-care-material-security-layer-v1.md)
+adds the expanded older-adult frame as a separate current-vintage context.
+Published estimates show unmet assistance coexisting with food, medical,
+housing, and utility hardship, while roughly 18 percent of adults age 60 and
+older report regularly helping an adult relative or friend. These are
+cross-sectional co-occurrences, not a causal Medicaid, caregiving, or recovery
+estimate; the route, alternative, remedy, trust, and action arrows remain open.
+
 The [WBNS food-insecurity persistence layer](wbns-food-insecurity-persistence-layer-v1.md)
 adds a published 2019–2025 material-security series and 2025 subgroup context.
 It gives the route program a visible material endpoint while preserving the

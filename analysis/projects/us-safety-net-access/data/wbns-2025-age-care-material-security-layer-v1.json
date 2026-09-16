@@ -1,0 +1,40 @@
+{
+  "format": "wbns-2025-age-care-material-security-layer-v1",
+  "checked": "2026-09-16",
+  "source_unit": "published December 2025 WBNS estimates; adults and family outcomes, with older-adult subgroup definitions preserved",
+  "vintage": "2025",
+  "estimates": {
+    "older_adults_with_disabilities_unmet_personal_assistance_percent": 24.0,
+    "older_adults_with_disabilities_unmet_personal_care_percent": 7.7,
+    "older_adults_with_disabilities_unmet_household_task_assistance_percent": 22.9,
+    "all_older_adults_unmet_personal_assistance_percent": 11.3,
+    "daily_activity_difficulty_unmet_assistance_percent": 33.1,
+    "other_functional_limitation_unmet_assistance_percent": 6.9,
+    "unmet_assistance_food_insecurity_percent": 39.3,
+    "unmet_assistance_forgone_health_care_cost_percent": 44.4,
+    "unmet_assistance_rent_or_mortgage_problem_percent": 9.6,
+    "unmet_assistance_heating_electricity_problem_percent": 14.5,
+    "unmet_assistance_utility_shutoff_percent": 5.1,
+    "older_adults_regularly_help_adult_relative_or_friend_percent": 18.0,
+    "dual_medicare_medicaid_unmet_assistance_percent": 24.8,
+    "medicare_only_unmet_assistance_percent": 9.9
+  },
+  "sample_boundary": "The brief uses December 2025 WBNS data. Older-adult estimates exclude institutional settings; subgroup comparisons reflect different need and disability composition.",
+  "interpretation": "Unmet assistance co-occurs with food, health-care, housing, and utility hardship, but the published cross-sectional estimates do not identify a dated service episode, alternatives, causal direction, remedy, recovery, trust, or action.",
+  "vintage_boundary": "The WBNS sample expanded to include approximately 2,500 adults age 65 and older in 2025; do not pool all-age 2025 estimates with 2017–2024 working-age estimates without harmonization.",
+  "sources": [
+    {
+      "url": "https://howhousingmatters.org/research/publication/one-four-older-adults-disabilities-had-unmet-needs-personal-assistance-2025",
+      "role": "primary_published_brief"
+    },
+    {
+      "url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey",
+      "role": "survey_vintage_and_design_context"
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/web/HMCA/studies/39691",
+      "role": "study_metadata_and_older_working_age_boundary"
+    }
+  ],
+  "storage_boundary": "Uses published web text and existing local metadata; no microdata or bulk file downloaded."
+}

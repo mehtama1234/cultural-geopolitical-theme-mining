@@ -245,6 +245,7 @@ def main():
     # Publish the WBNS/ICPSR acquisition gate so the strongest next public-
     # system route is readable with its access boundary and no-estimate rule.
     memos.append(ROOT / "analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md")
+    memos.append(ROOT / "analysis/projects/us-safety-net-access/wbns-2025-age-care-material-security-layer-v1.md")
     # Publish the durable continuity and current-status records so the
     # long-term program state is inspectable from the same server.
     memos.append(ROOT / "analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md")
