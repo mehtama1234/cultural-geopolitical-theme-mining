@@ -69,6 +69,13 @@ or control reasons.
 - A public comment or expert filing shows attribution and contestation, not
   representative public opinion.
 
+The [Golden-Mars public-input comparator](data/virginia-golden-mars-public-input-source-note.md)
+shows how a related Virginia transmission case can produce visible public
+contestation: the SCC reports more than 600 registered speakers and hundreds
+of pages of comments concerning undergrounding, home value, landscape, and
+health. This is a useful meaning/participation comparator, not evidence about
+data-center attribution or Prince William household outcomes.
+
 ## Next decisive test
 
 Join one public utility case to one named facility or account and one place:

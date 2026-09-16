@@ -151,6 +151,21 @@
       "boundary": "Docket testimony is not a causal household-burden estimate; it does not identify the facility, counterfactual bill, data-center share, payment hardship, or later household behavior."
     },
     {
+      "event_id": "virginia-golden-mars-public-input-comparator-2025",
+      "event_type": "comparator",
+      "event_date": "2025-09/2025-12",
+      "date_precision": "month_range",
+      "actor": "Loudoun County residents and public participants",
+      "recipient": "Virginia State Corporation Commission transmission-case process",
+      "object": "Public contestation around the Golden-Mars transmission project",
+      "measures": {"registered_public_speakers": {"value": 600, "unit": "more than people"}, "written_comment_volume": {"value": "hundreds", "unit": "pages"}, "reported_concerns": ["undergrounding", "home-value loss", "landscape and appearance", "possible health effects"]},
+      "status": "observed_comparator",
+      "source_locator": "Virginia SCC facts page, Golden-Mars Transmission Case Decision summary",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "local_source": "data/virginia-golden-mars-public-input-source-note.md",
+      "boundary": "This comparator does not establish data-center attribution, representative opinion, household bills, health effects, or the outcome of Prince William transmission cases."
+    },
+    {
       "event_id": "data-center-household-capability-join-open-2026-09-15",
       "event_type": "non_observation",
       "event_date": "2026-09-15",
