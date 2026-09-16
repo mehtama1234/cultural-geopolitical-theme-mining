@@ -23,6 +23,7 @@ dated material event and responsible actor
 | CCES 2024 | Gig work and student-loan responsibility proxies | Federal/state trust | Six civic-action indicators | Same-wave joint cells; no dated shock |
 | CES 2018/2020 medical affordability | Medical-expense hardship | Responsibility attribution | Targeted political participation | Module-year comparison; no bill/remedy follow-up |
 | ANES 2016–2020–2024 panel subset | Pre-election financial worry | Federal trust and party-conditioned judgment | Post-election reported vote | Temporal ordering, but no direct material episode or actor |
+| ANES health-cost panel layer | Health-care payment concern | Federal trust and responsibility context | Post-election preference for more government help with health insurance | Adds policy demand with panel ordering; no verified bill, alternative, remedy, or causal action path |
 
 ## What this means for the broad goal
 
@@ -44,6 +45,6 @@ does not rerun or extend their estimates.
 python3 scripts/validate_material_meaning_action_endpoint_audit.py
 ```
 
-The validator checks that all four committed source records exist and that each
+The validator checks that all five committed source records exist and that each
 coverage row states its unit, surfaces, timing, actor boundary, and limitation.
 No data is downloaded.

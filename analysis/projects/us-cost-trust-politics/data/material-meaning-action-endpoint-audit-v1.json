@@ -43,9 +43,19 @@
       "time_order": "pre-election worry to post-election vote",
       "event_actor": "not identified",
       "boundary": "temporally ordered descriptive panel contrast; no direct material exposure, attributed actor, remedy, or broader action endpoint"
+    },
+    {
+      "source": "analysis/records/us-anes-health-cost-concern-trust-policy-2024.json",
+      "unit": "panel_respondent_and_controlled_subgroups",
+      "material_surface": "pre-election health-care payment concern",
+      "meaning_surface": "federal-government trust and responsibility attribution context",
+      "action_surface": "post-election reported preference for increased government help paying for health insurance",
+      "time_order": "pre-election concern to post-election policy-preference measure",
+      "event_actor": "government responsibility is measured as a judgment, not a verified bill or provider episode",
+      "boundary": "panel/controlled descriptive tables add a policy-demand endpoint but not a dated health-cost event, alternative, remedy, or causal action path"
     }
   ],
-  "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; CCES and CES supply action or attribution but not a dated event; ANES supplies worry-to-vote ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
+  "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; CCES and CES supply action or attribution but not a dated event; ANES supplies worry-to-vote and health-cost-concern-to-policy-preference ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
   "next_test": "Use a lawful repeated-respondent or event-compatible design that records dated exposure, responsible actor, alternatives, attribution, prior judgment, distinct action, remedy, and later recovery or exit.",
   "storage_boundary": "Uses committed local trend records only; no raw-data acquisition or new estimate."
 }
