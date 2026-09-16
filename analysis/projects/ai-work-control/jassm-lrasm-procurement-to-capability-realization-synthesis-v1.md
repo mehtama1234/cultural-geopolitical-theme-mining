@@ -38,7 +38,7 @@ whether an announced investment has become an option that a state can use.
 | Production support | DoD's $999 million JASSM/LRASM production-support IDIQ | A formal support route exists; award ceiling is not delivered output |
 | Capacity investment | Lockheed reports large-lot and factory-capacity investment | Intended or built capacity is visible; actual throughput remains open |
 | Integration testing | Lockheed reports completion of an LRASM F-35C flight-science phase | A technical milestone is visible; it is not fielded inventory |
-| Customer realization | Polish official sources provide a 2026–2030 or 2028–2030 planning window | Delivery and acceptance of the 2024 JASSM-ER order are not publicly observed in the reviewed record |
+| Customer realization | Polish official sources provide a 2026–2030 planning window for the 2024 order; a separate Senate response lists JASSM-ER among equipment delivered since February 2022 | The broad prior-delivery list has no quantity, date, unit, acceptance record, or order linkage, so it cannot establish realization of the 2024 order |
 | Geopolitical consequence | No dated external behavior change tied to realized inventory was located | Leverage remains open |
 
 The supplier and facility rows should remain separate. A USAspending recipient
@@ -96,6 +96,16 @@ or software dependency.
 - FMS accounting and physical realization can be asynchronous, so settlement
   records must not be used as a substitute for shipment or acceptance records.
 
+## Baseline-versus-current-order boundary
+
+A Polish Senate response lists JASSM-ER among equipment delivered since
+February 24, 2022. That is useful evidence that Poland had at least some
+prior delivery of the missile family, but the response is a broad equipment
+list: it does not supply a quantity, date, receiving unit, acceptance record,
+or a link to the May 2024 JASSM-ER agreement. The atlas therefore carries two
+separate propositions: prior family-level delivery is observed, while
+realization of the current order remains open.
+
 ## Smallest decisive next test
 
 Retrieve one identifier-bearing, dated realization record tied to a JASSM/LRASM
@@ -117,4 +127,3 @@ stage and do not promote a capability or leverage claim.
 - [FMS timing-asynchrony finding](findings/ai-work-control-083.md)
 - [State-leverage control ledger](state-leverage-control-ledger-v1.md)
 - [Recipient-identity and facility records](data/usaspending-jassm-lrasm-rich-subaward-search-2026-09-14.json)
-

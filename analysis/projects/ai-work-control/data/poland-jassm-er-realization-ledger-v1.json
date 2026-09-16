@@ -1,7 +1,7 @@
 {
   "schema": "strategic-capability-realization-ledger-v1",
   "case_id": "poland-jassm-er-2024-order",
-  "checked": "2026-09-15",
+  "checked": "2026-09-16",
   "scope": "Public-source realization ledger for Poland's May 2024 JASSM-ER order; comparator rows are explicitly not direct case events.",
   "events": [
     {
@@ -100,6 +100,21 @@
       "boundary": "This bounded public-source non-observation is not proof that no delivery occurred. It only prevents promotion to realized operational capability on the reviewed evidence."
     },
     {
+      "event_id": "jassm-er-prior-equipment-delivery-since-2022-comparator",
+      "event_type": "comparator",
+      "event_date": "2022-03-01/2026-02-03",
+      "date_precision": "open_range",
+      "actor": "Polish Ministry of National Defence / Polish Senate response",
+      "recipient": "Polish Armed Forces",
+      "object": "JASSM-ER listed among equipment delivered since February 24, 2022",
+      "quantity": null,
+      "quantity_unit": null,
+      "status": "observed_comparator",
+      "source_locator": "Senate response BPS/043-57-2065/23, equipment-delivery list",
+      "source_url": "https://www.senat.gov.pl/download/gfx/senat/pl/senatoswiadczenia/4507/10_057_2065_1_odp.pdf",
+      "boundary": "The response confirms only that JASSM-ER appears in a broad delivered-equipment list; it gives no quantity, date, customer unit, acceptance record, or linkage to the May 2024 order. It is baseline/comparator evidence, not current-order realization evidence."
+    },
+    {
       "event_id": "f35-fms-timing-comparator-2024-2025",
       "event_type": "comparator",
       "event_date": "2024-12-01/2025-01-31",
@@ -125,6 +140,7 @@
     "acceptance": "not_observed",
     "training_or_fielding": "not_observed",
     "inventory_or_operational_availability": "not_observed",
+    "prior_baseline_jassm_er_delivery": "observed_as_broad_official_list_entry",
     "external_response_or_geopolitical_leverage": "open"
   },
   "boundary": "This ledger separates direct case evidence, bounded non-observation, and comparator evidence. It is not a readiness score, delivery estimate, inventory count, or geopolitical-leverage measure."
