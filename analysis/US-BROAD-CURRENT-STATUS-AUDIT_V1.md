@@ -35,6 +35,15 @@ action. Existing annual and panel evidence can establish distributions,
 persistence, reversal, and subgroup differences; it cannot by itself join all
 of those stages for the same person or household.
 
+The [SHED coverage-transition route](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md)
+now strengthens that middle with a verified 4,419-person recontact panel:
+coverage path is conditioned alongside care entry/persistence, medical debt,
+reduced savings, delayed purchases, and perceived health. Stable insurance and
+persistent uninsurance remain distinct descriptive pathways; the result does
+not identify plan adequacy, a dated bill, treatment continuity, or recovery.
+Its [reproduction audit](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
+records that the estimates were regenerated from existing local artifacts.
+
 The new [SNAP reason × following-food-security finding](projects/us-safety-net-access/findings/us-safety-net-access-015.md)
 extends the public-system route with a direct food-security endpoint. It
 preserves the classified-reason gap and smaller food-valid universes: distinct
