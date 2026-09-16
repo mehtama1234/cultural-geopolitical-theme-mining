@@ -13,6 +13,10 @@ This is a recovery and decision document. It records what is covered, what has
 been deepened, and what still prevents an end-to-end claim. The program is not
 defined by the latest SIPP, SHED, CFPB, SNAP, or AI-infrastructure pass.
 
+All new external-data work follows the [acquisition resource policy](../ACQUISITION-RESOURCE-POLICY_V1.md);
+large archives are not retrieved by default, and existing local artifacts are
+checked before any new acquisition.
+
 The [recurrent-source vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
 now records latest usable releases, expected rechecks, revision handling, and
 the PSID/World Bank access dependencies. It is a continuity control, not a
