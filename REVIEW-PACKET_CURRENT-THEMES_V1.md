@@ -26,6 +26,7 @@ turning adjacent evidence into one causal story.
 - [Institutional response and remedy route](analysis/projects/us-household-constraint-cascade/institutional-response-remedy-route-v1.md): complaint/denial visibility is separated from verified correction, recovery, trust, and exit.
 - [Medical-debt relief causal benchmark](analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md): downstream randomized debt relief improves selected credit access without establishing health, care, or broad household recovery.
 - [Next acquisition decision](analysis/projects/us-household-constraint-cascade/next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go route; no new microdata are downloaded in the current pass.
+- [Household cascade end-to-end status matrix](analysis/projects/us-household-constraint-cascade/end-to-end-status-matrix-v1.md): an explicit completion audit distinguishing observed, benchmarked, partial, and still-missing arrows.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
