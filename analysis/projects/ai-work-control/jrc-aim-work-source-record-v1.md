@@ -87,6 +87,8 @@ machine-readable record](data/jrc-aim-work-table2-full-v1.json); the five-outcom
 review.
 **Figure 1/6 qualitative extraction:** completed for the reported
 sector/occupation/country categories in [the machine-readable record](data/jrc-aim-work-figure1-6-qualitative-v1.json).
+The [PDF acquisition audit](jrc-aim-work-pdf-acquisition-audit-v1.md) records
+the checksum, page map, and figure-rendering boundary.
 **Country/sector table extraction with denominators, standard errors, and
 uncertainty:** still open.
 

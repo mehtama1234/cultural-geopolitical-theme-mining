@@ -151,6 +151,7 @@ have documented voice, correction, or refusal rights.
 - [Official JRC AIM-WORK analysis record](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
 - [Full Table 2 transcription](data/jrc-aim-work-table2-full-v1.json)
 - [Figure 1/6 qualitative extraction](data/jrc-aim-work-figure1-6-qualitative-v1.json)
+- [JRC AIM-WORK PDF acquisition audit](jrc-aim-work-pdf-acquisition-audit-v1.md)
 - [Core Table 2 transcription](data/jrc-aim-work-table2-core-v1.json)
 - [AIM-WORK methodology and source record](jrc-aim-work-source-record-v1.md)
 - [Official JRC methodology PDF](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143933/JRC143933_01.pdf)
