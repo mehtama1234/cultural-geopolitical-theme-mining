@@ -1,0 +1,1721 @@
+{
+  "checked": "2026-09-16",
+  "contract": "practical-exit-observation-contract-v1",
+  "coverage": {
+    "alternatives": "unknown_for_all_records",
+    "effort": "unknown_or_unmeasured_for_all_records",
+    "followup_switching_non_use_exit_trust_action": "unknown_for_all_records",
+    "remedy_receipt_and_durability": "unknown_for_all_records",
+    "trigger_exposure_route_decision_counterexample_denominator": "observed"
+  },
+  "episodes": [
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-48012e04738105c0",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "TX",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=No; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-61a2bab11e957753",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "CA",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=No; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-453c9ad93638746e",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "AZ",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-5f5e80d9c86d55d6",
+      "event_date": "2024-09-04",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "CA",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-65f164a411935870",
+      "event_date": "2024-09-04",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "CA",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with non-monetary relief; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-1ec2cecf25bc1b46",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "AR",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with non-monetary relief; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-8ac1dcdf8e480b6c",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "KS",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with non-monetary relief; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-3d3b472df743b7e8",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "AR",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with non-monetary relief; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-63b42ae61708e412",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "TX",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-6a0f5eadf1b8a785",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NC",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-d3bf2f8d89232f8a",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NH",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-399accf0e7cba63d",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "PA",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-f8a300daddb120ba",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "FL",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-d1d53a48e0e1c25d",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "AR",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-88844ba5c9b5900d",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NH",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-9c9b461ea8aa60e2",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "TN",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=False"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-5afc473f215e1774",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "FL",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-a1839596a133b004",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NY",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-17c37c70fa4ad347",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "MN",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-7112e7b8f34bac99",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NV",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-46c0185e39276633",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "TX",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-c98d410c9b267d5d",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "FL",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-0a760381a3e2aaaa",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "KY",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-b2b95bf67e0a074a",
+      "event_date": "2024-09-03",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "OH",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=False"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Complaint submitted via Web; narrative_present=True"
+      },
+      "counterexample": {
+        "evidence_status": "observed",
+        "value": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples"
+      },
+      "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
+      "decision": {
+        "evidence_status": "observed",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "25-record capped retrieval-order sample; product=Student loan; received 2024"
+      },
+      "domain": "consumer_financial_recourse",
+      "effort": {
+        "evidence_status": "observed",
+        "value": "Customer effort, financial loss, and time cost are not measured in this record"
+      },
+      "episode_id": "CFPB-ddaf204a6e91c7d3",
+      "event_date": "2024-09-02",
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "unknown: verified correction, recovery, repeat effort, switching, trust, and exit are not in the public record"
+      },
+      "geography": "NC",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown: narrative presence is not a coded meaning or attribution measure"
+      },
+      "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "Not observed in the public complaint record"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "receipt_verified": "unknown",
+        "value": "company_response=Closed with explanation; timely=Yes; public_response_present=True"
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "observed",
+        "value": "Customer time, money, access, or security outcome not observed"
+      },
+      "source_and_uncertainty": {
+        "evidence_status": "observed",
+        "value": "CFPB public complaint API; raw_sha256=4695d731bf3fb27bbf043742d2bf720b48d54c672877d6fb6ade0752ea3814cc; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate"
+      },
+      "threatened_resource": {
+        "evidence_status": "observed",
+        "value": "Published CFPB complaint in product route Student loan; issue and sub-product retained only as coarse labels"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "service_failure"
+      },
+      "unit": "case"
+    }
+  ],
+  "format": "cfpb-practical-exit-contract-dry-run-v1",
+  "post_event_status_counts": {
+    "unknown": 25
+  },
+  "promotion_rule_result": "No practical_exit labels are assigned: the ledger has no same-customer post-event status plus documented alternative, relevant cost or constraint, and protected or sacrificed outcome.",
+  "source_ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
+  "source_record_count": 25,
+  "status": "coverage_audit_only"
+}

@@ -335,6 +335,13 @@ and protected or sacrificed outcomes are not documented at the same-unit
 level. The machine-readable [coverage audit](projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json)
 preserves this boundary.
 
+The same contract was then tested against the 25-record CFPB student-loan
+event ledger in the [CFPB dry-run](projects/us-customer-automation-recourse/cfpb-practical-exit-contract-dry-run-v1.md).
+All 25 rows retain observed route/response visibility but `unknown` post-event
+status; no same-customer alternative, remedy receipt, recovery, switching,
+non-use, trust, or action is established. This sharpens the next collection
+requirement without requiring a larger download.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

@@ -72,6 +72,11 @@ contract: 27 local records yield 8 explicit access-restored labels and 19
 unknown post-event statuses, with alternatives, effort, receipt, durability,
 and protected/sacrificed outcomes still open. This is an observability result,
 not a practical-exit rate.
+The companion CFPB student-loan event-ledger dry-run keeps all 25 rows at
+`unknown` for post-event status. It confirms a second boundary: complaint
+receipt, routing, response labels, and administrative visibility are observed,
+but same-customer alternatives, remedy receipt, recovery, continued use,
+switching, non-use, trust, and action are not.
 The new [program-wide theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md)
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
