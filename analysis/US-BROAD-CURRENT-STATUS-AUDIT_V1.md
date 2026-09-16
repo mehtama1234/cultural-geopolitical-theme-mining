@@ -41,6 +41,13 @@ preserves the classified-reason gap and smaller food-valid universes: distinct
 entry and exit routes remain visible, but notice, benefit amount, remedy,
 recovery, and same-case interpretation remain open.
 
+The new [route-specific health-friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md)
+adds a counterexample to a uniform institutional-friction story: prescription
+affordability delay and denial/prior-authorization delay show different
+perceived-health direction screens. They remain separate longitudinal
+descriptive comparisons until a same-episode treatment, payment, remedy, and
+household-adaptation record is available.
+
 The new [2020 RECS household energy-burden layer](projects/us-household-calendar-integration/recs-energy-burden-household-layer-v1.md)
 adds same-household modeled energy expenditure, income-band affordability,
 assistance, and equipment-repair hardship. It strengthens the material-pressure
