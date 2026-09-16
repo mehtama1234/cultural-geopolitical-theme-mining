@@ -117,6 +117,10 @@ def main() -> int:
         "errors": errors,
     }
     print(json.dumps(result, indent=2, sort_keys=True))
+    if errors:
+        print(f"INVALID realization ledger: {len(errors)} error(s)")
+    else:
+        print(f"VALID realization ledger: {result['events']} events")
     return 0 if not errors else 1
 
 

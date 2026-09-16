@@ -12,6 +12,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 CHECKS = [
     ("program control sync", ["scripts/validate_program_control_sync.py"]),
+    (
+        "strategic realization ledger",
+        [
+            "scripts/validate_realization_ledger.py",
+            "analysis/projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json",
+        ],
+    ),
     ("source registry coverage", ["scripts/audit_source_registry_coverage.py"]),
     ("source-search records", ["scripts/validate_source_search_records.py"]),
     ("trend provenance", ["scripts/validate_trend_provenance.py"]),
