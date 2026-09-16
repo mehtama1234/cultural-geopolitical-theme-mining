@@ -43,6 +43,7 @@ the parties and not proof that an unlocated document does not exist.
 | Warraich, `UDE2025/108` | The Commission ordered reactivation and directed the parties to confer on lost remuneration; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, recurrence |
 | Khan, `UDE2025/185` | The Commission ordered reactivation and directed the parties to confer on lost-pay quantum; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, process change |
 | Rehman, `UDE2025/384` | The Commission ordered reactivation and `$7,096.96` gross lost remuneration | Formal reactivation and amount observed; receipt/durability open | Payment, continued access, background-check correction, recurrence |
+| Waheed, `UDE2025/160` | [2026] FWC 1801 found unfair deactivation, ordered reactivation within 7 days, and ordered lost remuneration in principle; quantum deferred | Merits, reactivation order, and pay entitlement observed; amount/receipt/access open | Quantum directions, payment, actual access, recurrence |
 
 ## Evidence notes
 
@@ -73,6 +74,12 @@ The exact-order search also located Mansoor's PR792727 order, requiring
 requiring reinstatement on prior terms by 31 October 2025. The Al Hussein order
 does not quantify the later lost-pay amount in the located document. Neither
 order establishes receipt or durable access.
+
+The subsequent Waheed merits decision is a primary upgrade to the census. It
+found that warnings and notices were insufficiently particular, required
+further inquiry was not made, and previously “resolved” complaints were later
+relied upon. It ordered reactivation and lost remuneration in principle, but
+left the amount to further directions.
 
 ## Coding consequence
 

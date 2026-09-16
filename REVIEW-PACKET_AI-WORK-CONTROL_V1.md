@@ -134,6 +134,12 @@ then adds primary order artifacts for Mansoor and Al Hussein. Mansoor has a
 $6,073.23 order and payment deadline; Al Hussein has a reinstatement deadline
 but an unresolved pay calculation. Neither order is a receipt.
 
+The [Waheed merits and remedy record](analysis/projects/ai-work-control/uber-waheed-merits-remedy-record-v1.md)
+adds a 2026 merits decision: insufficiently particular notices, missing further
+inquiry, and previously resolved complaints later reused as deactivation
+reasons. Reactivation and lost-pay entitlement were ordered, but the amount is
+still open.
+
 ## Themes to test while reviewing
 
 1. **Legibility before benefit.** Who gains the ability to see and classify
