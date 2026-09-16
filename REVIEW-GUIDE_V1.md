@@ -81,6 +81,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Amazon Flex / Bandameeda deactivation remedy](analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md)
 - [Uber Eats / Kumar merits dismissal](analysis/projects/ai-work-control/uber-kumar-merits-dismissal-record-v1.md)
 - [Uber Eats / Khan reactivation and lost-pay record](analysis/projects/ai-work-control/uber-khan-reactivation-lost-pay-record-v1.md)
+- [Uber / Rehman formal reactivation and lost-remuneration record](analysis/projects/ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md)
 - [Uber / Warraich unfair-deactivation record](analysis/projects/ai-work-control/uber-warraich-unfair-deactivation-record-v1.md)
 - [Uber / Bakar deactivation jurisdiction](analysis/projects/ai-work-control/uber-bakar-revoked-deactivation-record-v1.md)
 - [Kenya Ziada human-review platform record](analysis/projects/ai-work-control/kenya-ziada-human-review-record-v1.md)
