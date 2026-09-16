@@ -645,13 +645,16 @@ The new findings also sharpen a second weak bridge: firm or public success versu
 
 ## The first broad bridge pass
 
-The project has now converted the five umbrella themes into five cross-domain research bridges. These are synthesis records built from the existing topic findings; they are not claims that each full chain has been proven.
+The project has now converted the broad umbrella themes into six cross-domain
+research bridges. These are synthesis records built from the existing topic
+findings; they are not claims that each full chain has been proven.
 
 - [Price and payment → household room](bridges/us-price-payment-household-room-v1.md): payment method, credit, price level, substitution, buying power, and political interpretation.
 - [Service and platform rules → recourse, trust, and exit](bridges/us-service-platform-recourse-trust-v1.md): first response, final remedy, customer effort, data exchange, trust, and abandonment.
 - [Work rules and tools → control, household security, and local power](bridges/us-work-control-household-power-v1.md): benefits, multiple jobs, fit, output, autonomy, employer dependence, and civic voice.
 - [Housing, energy, and insurance → health, mobility, and place](bridges/us-housing-energy-insurance-place-v1.md): burden, safety, coverage, repairs, home value, staying, moving, and recovery.
 - [Public aid and rules → interpretation and political response](bridges/us-public-aid-interpretation-political-response-v1.md): exposure, take-up, material outcome, blame, trust, public action, turnout, and vote.
+- [Consumer participation → practical power, trust, and exit](projects/us-consumer-culture/consumer-participation-trust-power-cross-source-synthesis-v1.md): money, time, privacy, status, attention, recovery, non-use, reporting, switching, and the institutional response to participation.
 
 The execution queue and source-unit rules are recorded in the [US broad research pass](US-BROAD-RESEARCH-PASS_V1.md). The next stage is to attach valid population-, market-, firm-, place-, or institution-level data to these bridges. A household panel is one possible tool for missing longitudinal links, not the definition of the overall project.
 

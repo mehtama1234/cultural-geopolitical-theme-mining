@@ -59,7 +59,7 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The eleven routes below concentrate on the strongest current bridges: material
+The twelve routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing
