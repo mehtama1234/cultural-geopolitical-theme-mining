@@ -40,7 +40,8 @@ then the [child-care work-prevention finding](analysis/projects/us-household-cal
 the [reported time-loss finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md),
 its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json),
 and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json),
-and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md).
+and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md),
+with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
 
 **Theme:** households do not experience resources only as dollars. Work,
 care, household labor, leisure, and perceived time pressure are competing

@@ -44,7 +44,7 @@ is not converted into a zero or a stronger causal claim.
 |---|---|---:|---:|
 | record | `related_sources` | 194 | 76.7% |
 | record | `retrieval_hash` | 24 | 9.5% |
-| record | `reproduction_audit` | 6 | 2.4% |
+| record | `reproduction_audit` | 8 | 3.2% |
 | observation | `comparison_source_url` | 13 | 1.3% |
 | observation | `universe_note` | 6 | 0.6% |
 
