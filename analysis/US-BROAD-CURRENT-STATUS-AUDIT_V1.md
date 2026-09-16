@@ -17,6 +17,11 @@ All new external-data work follows the [acquisition resource policy](../ACQUISIT
 large archives are not retrieved by default, and existing local artifacts are
 checked before any new acquisition.
 
+For a compact reader route through the current evidence, use the [current
+themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links six
+representative paths from household pressure through institutional, political,
+and geopolitical consequences.
+
 The [recurrent-source vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
 now records latest usable releases, expected rechecks, revision handling, and
 the PSID/World Bank access dependencies. It is a continuity control, not a
