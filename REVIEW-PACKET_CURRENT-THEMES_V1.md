@@ -52,6 +52,8 @@ Read the [MEPS non-synchronization finding](analysis/projects/us-health-cost-hou
 the [expenditure-conditioned finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-002.md),
 the [same-round prescription-delay finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-009.md)
 and its [canonical record](analysis/records/us-meps-2024-prescription-delay-outcomes.json),
+the [inter-round payment-band finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-004.md)
+and its [reproduction audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
 the [institutional-friction follow-up](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md),
 and the [route-specific friction comparison](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md).
 

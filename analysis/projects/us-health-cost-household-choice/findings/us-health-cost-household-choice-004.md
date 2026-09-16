@@ -52,6 +52,7 @@ the later bill or health context, nor that zero payment meant zero burden.
 
 ## Reproduction
 
+- [Reproduction audit](../meps-2024-interround-payment-reproduction-audit-2026-09-16.md)
 - [Canonical machine record](../../../records/us-meps-2024-interround-payment-followup.json)
 - [MEPS inter-round transition layer](../meps-2024-between-round-event-transitions-v1.md)
 - [Analysis script](../../../../scripts/analyze_meps_interround_payment_followup.py)
