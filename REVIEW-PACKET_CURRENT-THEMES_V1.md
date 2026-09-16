@@ -235,6 +235,17 @@ and unavailable narrative fields are measured with their API-vintage limits.
 The existing de-identified student-loan route artifact also passes the broad
 event-ledger validator with 25 case events and 2 arrow records.
 
+**Concrete recourse-visibility anchors:** the [consumer visibility, attention,
+remedy, and exit record](analysis/records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json)
+shows the published CFPB explanation label falling from 90.71% of records in
+2020 to 58.71% in 2025, while the monetary-relief label falls from 2.91% to
+0.48% and narrative presence from 39.24% to 22.43%; non-monetary relief rises
+from 6.18% to 40.63%. In the separate SHED fraud layer, 32% of adults
+experiencing non-credit-card fraud reported some money unrecovered and 30%
+spent at least ten hours recovering or dealing with it. These are visibility,
+reported loss, effort, and response-label measures—not proof that remedies
+were inadequate, firms were liable, or customers exited.
+
 **Open arrow:** the same account or person must be followed from exposure
 through effort, correction adequacy, repeat contact, switching, exit, and
 judgment.
