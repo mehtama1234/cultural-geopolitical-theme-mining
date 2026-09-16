@@ -18,9 +18,12 @@ large archives are not retrieved by default, and existing local artifacts are
 checked before any new acquisition.
 
 For a compact reader route through the current evidence, use the [current
-themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links six
-representative paths from household pressure through institutional, political,
-and geopolitical consequences.
+themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links eleven
+representative routes from household pressure through institutional, political,
+and geopolitical consequences. Its new [14-theme coverage index](../REVIEW-PACKET_CURRENT-THEMES_V1.md)
+maps every governing theme to one or more of the eleven representative routes;
+the packet remains a navigation layer rather than a claim that any route is
+causally complete.
 
 The [recurrent-source vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
 now records latest usable releases, expected rechecks, revision handling, and
