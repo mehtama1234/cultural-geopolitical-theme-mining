@@ -77,6 +77,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Platform-work remedy case ledger](analysis/projects/ai-work-control/platform-remedy-case-ledger-v1.md)
 - [Platform-remedy stage coding specification](analysis/projects/ai-work-control/platform-remedy-stage-coding-spec-v1.md)
 - [Australian platform-deactivation case census](analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md)
+- [Australian remedy implementation acquisition audit](analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md)
 - [Australian platform-deactivation cross-case synthesis](analysis/projects/ai-work-control/australian-platform-deactivation-cross-case-synthesis-v1.md)
 - [Amazon Flex / Bandameeda deactivation remedy](analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md)
 - [Uber Eats / Kumar merits dismissal](analysis/projects/ai-work-control/uber-kumar-merits-dismissal-record-v1.md)

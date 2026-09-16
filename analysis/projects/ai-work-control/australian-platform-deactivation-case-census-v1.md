@@ -105,6 +105,10 @@ therefore measurable events, not invisible non-cases.
 - This is a published-bulletin inventory, not a filing-level export.
 - Subsequent orders for Hotak, Al Hussein, and Warraich should be searched for
   lost-pay quantum and payment evidence.
+- The [implementation acquisition audit](australian-remedy-implementation-acquisition-audit-2026-09-15.md)
+  records the 2026-09-15 public search boundary: Rehman has a public
+  `$7,096.96` order, while payment, access, and later orders remain unverified
+  across the restoration cases.
 - “Reactivation ordered” does not establish actual access, earnings recovery,
   rating correction, or protection from retaliation.
 - Deduplication is by matter number where known, not by PDF count.
