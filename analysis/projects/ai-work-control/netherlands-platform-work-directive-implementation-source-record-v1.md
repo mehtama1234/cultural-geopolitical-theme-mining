@@ -39,6 +39,16 @@ The official directive implementation page still labels the directive “not
 yet fully implemented,” with a 2 December 2026 deadline and no validated
 implementation date.
 
+## Post-consultation checkpoint
+
+The Dutch legislative calendar, checked after the consultation closed, still
+places the bill in the preparation phase. Its listed sequence remains
+preparation, Council of State, Tweede Kamer, Eerste Kamer, and publication;
+the calendar records the consultation start and end dates but does not list a
+Council of State referral, parliamentary introduction, enactment, or effective
+date. This is a time-stamped public-status observation, not proof that no
+internal step occurred or that no later document exists elsewhere.
+
 ## Coding
 
 | Field | Current evidence |
@@ -52,7 +62,7 @@ implementation date.
 | Worker voice | Information, consultation, and expert-advice provisions proposed; operational practice not yet observed |
 | Review/remedy route | Not yet established from an enacted measure or case |
 | Enforcement/case record | No directive-specific enforcement or worker remedy record identified |
-| Implementation status | Official Dutch tracker says not yet fully implemented |
+| Implementation status | Official Dutch tracker says not yet fully implemented; legislative calendar still shows preparation after consultation |
 
 ## What this adds to the atlas
 
