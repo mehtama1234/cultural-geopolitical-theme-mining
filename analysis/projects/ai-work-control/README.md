@@ -282,6 +282,13 @@ formal rights, requests, review, correction, repayment, and anti-retaliation
 must be coded as separate stages; none of the current cases proves the full
 chain.
 
+The [Amazon Flex / Bandameeda record](amazon-bandameeda-deactivation-remedy-record-v1.md)
+adds the first complete individual remedy chain currently visible: an
+adjudicated finding of unfair, Code-inconsistent deactivation followed by
+reactivation on prior terms and a $12,126.31 lost-remuneration order. It is
+kept separate from an AI-specific case because the decision establishes
+platform-mediated procedural failure, not autonomous algorithmic causation.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite

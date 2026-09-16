@@ -18,7 +18,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Philippines, Cambodia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, wider Southeast Asia beyond Malaysia, Philippines, and Cambodia, wider Africa outside Kenya/Uganda case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
-| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda and Cambodia worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations, Cambodian state dispute authority named in an ILO diagnostic | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian or Cambodian review outcomes, candidate-level recruitment correction |
+| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda and Cambodia worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations, Cambodian state dispute authority named in an ILO diagnostic, Australian Fair Work Commission adjudicated reactivation and lost-remuneration order | actual enforcement at scale, bargaining, public-sector rules, verified AI-specific remedies, exercised Malaysian or Cambodian review outcomes, payment receipt and durability after the Australian order, candidate-level recruitment correction |
 | Power | data, profiles, allocation, monitoring, responsibility, platform dependence, employment-status recognition | ownership, correction, override, exit, bargaining, and state leverage; no direct case yet shows explanation-to-correction or compensation after an automated platform decision |
 
 ## Evidence count
@@ -131,6 +131,13 @@ These are not errors to smooth away. They may reflect different tools, populatio
   low reported resolution, plus ratings, penalties, suspension, injury, and
   social-security/classification context. It remains a diagnostic: no verified
   correction, compensation, or state dispute outcome is shown.
+- The Australian Fair Work Commission's *Bandameeda* decision and subsequent
+  order close the individual remedy chain for one Amazon Flex worker: unfair
+  deactivation, deficient platform review, reactivation on prior terms, and
+  $12,126.31 in lost remuneration ordered. The amount is restoration rather
+  than compensation; receipt, durability, recurrence prevention, and
+  anti-retaliation remain open, and autonomous algorithmic causation is not
+  established.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

@@ -151,6 +151,14 @@ workers can change platform rules or obtain recovery after a decision. This
 extends the theme from “rights exist or do not exist” to the thickness of the
 route between access, review, correction, and durable protection.
 
+The [Amazon Flex / Bandameeda record](amazon-bandameeda-deactivation-remedy-record-v1.md)
+shows that the missing chain can close for one worker: the Fair Work
+Commission reviewed a deactivation, found the platform's human-review process
+deficient, ordered reactivation, and ordered restoration of lost remuneration.
+The case raises the next question rather than ending the theme: can this
+outcome be repeated, monitored after payment, and extended to decisions made
+through more explicitly automated ranking or allocation systems?
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |

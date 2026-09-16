@@ -19,7 +19,8 @@
   "implementation_stage_vocabulary": {
     "formal_institutions_reported_established": "An official source reports that the responsible dispute institution has been constituted; this does not establish use or outcome.",
     "implementation_artifacts_visible": "A public portal, regulation, or guidance route is visible; this does not establish institutional exercise.",
-    "case_hearing_reported": "A public report identifies a proceeding or hearing; the primary record or final outcome is not yet available."
+    "case_hearing_reported": "A public report identifies a proceeding or hearing; the primary record or final outcome is not yet available.",
+    "adjudicated_remedy_and_payment_order": "A primary adjudicative record establishes a remedy and a payment or lost-remuneration order; receipt and durability may remain open."
   },
   "records": [
     {
@@ -159,6 +160,18 @@
       "stages": {"explanation": "observed_self_report", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
       "evidence_strength": "medium_for_survey_findings_high_for_publication_low_for_individual_outcome",
       "boundary": "The ILO diagnostic reports widespread complaint access but approximately two-thirds of complainants said issues were seldom resolved; no verified correction, restoration, payment, or state dispute outcome located."
+    },
+    {
+      "id": "PR-013",
+      "place": "Australia",
+      "population": "Gopal Bandameeda and Amazon Flex",
+      "source_type": "Fair_Work_Commission_primary_decision_and_payment_order",
+      "decision_surface": ["customer_complaint", "suspension", "permanent_deactivation", "conflicting_delivery_rules"],
+      "worker_route": "Worker response, request for human discussion, statutory unfair-deactivation application",
+      "implementation_stage": "adjudicated_remedy_and_payment_order",
+      "stages": {"explanation": "observed_adjudicated", "human_review": "observed_adjudicated_external_review_platform_review_found_absent", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "observed_adjudicated_lost_remuneration_ordered_not_compensation", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_decision_and_order_low_for_payment_receipt_durability_and_generalization",
+      "boundary": "The Commission found the deactivation unfair and Code-inconsistent, ordered reactivation on prior terms, and a subsequent order required $12,126.31 in lost remuneration. Payment receipt, continued access, recurrence prevention, and anti-retaliation remain unverified."
     }
   ]
 }

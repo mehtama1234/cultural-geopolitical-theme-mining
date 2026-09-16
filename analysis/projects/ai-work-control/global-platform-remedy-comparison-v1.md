@@ -33,6 +33,7 @@ verified worker outcome.
 | Philippines Fairwork assessment | Philippines; Oxford/De La Salle comparative platform audit | Platform management, contracts, conditions, and representation assessed across nine platforms | Formal appeal process evidenced at two platforms; no platform evidence of collective representation | Appeal use, reviewer authority, correction, compensation, and worker organization outcomes |
 | Philippines DOLE governance action | Philippines; official labor-department dialogue and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, announced 24/7 complaint unit, and bounded safety action | Binding rule, complaint-unit operation, algorithmic review, correction, compensation, and case outcomes |
 | Cambodia ILO diagnostic | Cambodia; official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, suspension, complaints, classification, social security, and injury | Platform complaint access widely reported; approximately two-thirds of complainants reported issues were seldom resolved; state dispute authority named | Verified explanation, independent review, correction, restoration, payment, and state case outcomes |
+| Australia Amazon Flex / Bandameeda | Australia; Fair Work Commission primary decision and payment order | Customer complaint, suspension, permanent deactivation, and conflicting delivery rules | External adjudication found the platform process deficient; reactivation on prior terms and $12,126.31 lost-remuneration restoration ordered | Payment receipt, continued access, recurrence prevention, and anti-retaliation |
 | Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
 | UK ICO recruitment review | United Kingdom; regulator review of ordinary recruitment AI | CV scoring, ranking, filtering, and possible pre-human rejection | Regulator recommendations, contestability expectations, and organizational commitments | Candidate-level human review, changed decision, or compensation |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
@@ -131,6 +132,17 @@ shows why algorithmic remedy cannot be separated from classification and
 social protection: independent-contractor status limits labour-law coverage,
 while voluntary healthcare enrollment does not by itself establish injury,
 pension, or compensation protection.
+
+The Australian *Bandameeda* decision supplies the first complete individual
+remedy chain in the current packet. The Commission found that Amazon failed to
+provide a real representative discussion, failed to show that a human
+representative considered the response, and failed to make further inquiries.
+It ordered reactivation on the worker's prior terms; a subsequent order
+required $12,126.31 in lost remuneration. This is outcome evidence, but not
+proof of payment receipt, durable process change, or protection against
+retaliation. It also is not proof that an autonomous algorithm made the
+decision, so the case is coded as platform-mediated deactivation rather than
+an AI-specific ruling.
 
 ## Contradictions preserved
 
