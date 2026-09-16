@@ -306,6 +306,18 @@ realized establishment and job flows. The same-person SIPP layer adds a monthly
 resource/job transition conditioned on reported work limitation and tenure. The
 units and clocks remain separate.
 
+**Concrete work/control anchors:** formal training rises from 29.1% of small
+establishments to 78.9% of large establishments, while reported employment
+growth rises from 4.2% to 12.6% across the same size profile in the [firm
+capacity and worker-control record](analysis/records/us-firm-capacity-ai-adoption-worker-control-crosssource-2024-2026.json).
+The record also reports 2024–2025 union membership near 9.9%–10.0% and
+representation near 11.1%–11.2%, while worker-reported AI adoption varies
+substantially across occupations and tasks. In the same-person SIPP screen,
+below-1x-resource respondents with a reported work-limiting condition had a
+1.07% following-month job-count change share versus 3.25% among those without
+the condition; the resource/job movement is descriptive and not a measure of
+accommodation, job quality, or voluntary mobility.
+
 **Open arrow:** no current source follows the same worker or workplace from
 implementation through monitoring, review, discretion, pay or schedule,
 grievance, remedy, household consequence, bargaining, and exit. Training is
