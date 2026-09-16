@@ -14,18 +14,25 @@ particular health event.
 
 ## Results
 
-| 2024 → 2025 coverage path | Pairs | No→No care | No→Yes entry | Yes→No exit | Yes→Yes persistence | 2025 debt | 2025 fair/poor health |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Insured → insured | 3,964 | 69.12% | 6.74% | 9.61% | 14.53% | 15.12% | 16.13% |
-| Insured → uninsured | 158 | 41.18% | 13.01% | 26.28% | 19.53% | 18.13% | 20.93% |
-| Uninsured → insured | 115 | 48.40% | 17.22% | 11.89% | 22.50% | 20.16% | 19.02% |
-| Uninsured → uninsured | 182 | 36.36% | 13.76% | 12.53% | 37.35% | 22.57% | 20.69% |
+| 2024 → 2025 coverage path | Pairs | No→No care | No→Yes entry | Yes→No exit | Yes→Yes persistence | 2025 debt | Reduced savings | Delayed purchase | 2025 fair/poor health |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Insured → insured | 3,964 | 69.12% | 6.74% | 9.61% | 14.53% | 15.12% | 38.23% | 43.13% | 16.13% |
+| Insured → uninsured | 158 | 41.18% | 13.01% | 26.28% | 19.53% | 18.13% | 37.35% | 41.99% | 20.93% |
+| Uninsured → insured | 115 | 48.40% | 17.22% | 11.89% | 22.50% | 20.16% | 40.85% | 54.05% | 19.02% |
+| Uninsured → uninsured | 182 | 36.36% | 13.76% | 12.53% | 37.35% | 22.57% | 44.77% | 45.04% | 20.69% |
 
 Stable insurance is associated with the largest no-foregoing share and the
 lowest persistent-foregoing share in this selected panel universe. Remaining
 uninsured is associated with the highest persistence share. Coverage loss and
 gain both have smaller cells and elevated entry or persistence relative to the
 insured-to-insured path.
+
+The same 2025 endpoint also shows adaptation differences: reduced savings is
+38.23% for insured-to-insured respondents and 44.77% for those uninsured in
+both years, while delayed major purchase is highest in the uninsured-to-insured
+cell at 54.05%. These are conditional household responses, not proof that a
+coverage transition caused the adaptation; need, income, employment, and
+selection can move with coverage.
 
 This is evidence that “insured” is not a complete or fixed protection state.
 Coverage transitions may mark employment, age, income, eligibility, family,
