@@ -20,6 +20,11 @@ def main() -> None:
     parser.add_argument("--date-max", required=True)
     parser.add_argument("--product", action="append", default=[])
     parser.add_argument("--sub-product", action="append", default=[])
+    parser.add_argument(
+        "--expect-total",
+        type=int,
+        help="fail after writing the snapshot if the API returns a different total",
+    )
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--insecure-tls", action="store_true",
                         help="use only when the local CA store is unavailable")
@@ -37,6 +42,15 @@ def main() -> None:
     with urlopen(request, timeout=120, context=context) as response:
         raw = response.read()
     payload = json.loads(raw)
+    total_records = payload.get("hits", {}).get("total", {})
+    returned_total = total_records.get("value") if isinstance(total_records, dict) else total_records
+    filter_check = None
+    if args.expect_total is not None:
+        filter_check = {
+            "expected_total": args.expect_total,
+            "returned_total": returned_total,
+            "status": "matched" if returned_total == args.expect_total else "mismatch",
+        }
     output = {
         "format": "us-cfpb-complaint-aggregation-snapshot-v1",
         "request_url": url,
@@ -46,13 +60,19 @@ def main() -> None:
         "sub_product_filters": args.sub_product,
         "retrieved_sha256": hashlib.sha256(raw).hexdigest(),
         "api_metadata": payload.get("_meta", {}),
-        "total_records": payload.get("hits", {}).get("total", {}),
+        "total_records": total_records,
         "aggregations": payload.get("aggregations", {}),
         "boundary": "Aggregate published complaint records are not a representative sample, account-denominated harm rate, verified remedy, switching, or trust measure.",
     }
+    if filter_check is not None:
+        output["expected_total_check"] = filter_check
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({"output": str(args.output), "total_records": output["total_records"], "sha256": output["retrieved_sha256"]}, indent=2))
+    if filter_check and filter_check["status"] == "mismatch":
+        raise SystemExit(
+            f"expected {args.expect_total} records but API returned {returned_total}"
+        )
 
 
 if __name__ == "__main__":

@@ -67,11 +67,14 @@ product's response profile.</p>
 <pre><code class="language-text">python3 scripts/fetch_cfpb_complaint_aggregation.py \
   --date-min 2025-01-01 --date-max 2026-01-01 \
   --product 'Debt collection' --sub-product 'Medical debt' \
+  --expect-total 8861 \
   --output /tmp/cfpb-medical-debt-routes.json
 </code></pre>
-<p>The next acquisition route must use record-level retrieval or another endpoint
-whose returned total and response fields demonstrably respect the sub-product
-constraint. Until then, the medical-specific layer remains visibility-only.</p>
+<p>The command writes the returned snapshot and exits nonzero when the expected
+medical-debt total is not returned. The next acquisition route must use
+record-level retrieval or another endpoint whose returned total and response
+fields demonstrably respect the sub-product constraint. Until then, the
+medical-specific layer remains visibility-only.</p>
 <h2 id="reproduction">Reproduction</h2>
 <pre><code class="language-text">python3 scripts/analyze_cfpb_medical_debt_visibility.py \
   analysis/projects/us-customer-automation-recourse/data/cfpb-2025-aggregation-snapshot-2026-09-14.json \
