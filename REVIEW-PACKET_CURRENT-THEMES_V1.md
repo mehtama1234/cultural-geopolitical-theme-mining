@@ -31,6 +31,7 @@ turning adjacent evidence into one causal story.
 - [Next acquisition decision](analysis/projects/us-household-constraint-cascade/next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go route; no new microdata are downloaded in the current pass.
 - [Household cascade end-to-end status matrix](analysis/projects/us-household-constraint-cascade/end-to-end-status-matrix-v1.md): an explicit completion audit distinguishing observed, benchmarked, partial, and still-missing arrows.
 - [Household cascade current themes brief](analysis/projects/us-household-constraint-cascade/current-themes-review-brief-v1.md): a compact review route through practical room, institutional friction, uneven remedies, and later recovery/legitimacy clocks.
+- [Migration, place, and belonging finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md): a 620-county capacity context kept separate from Chicagoland and national direct meaning/action evidence.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -39,7 +40,7 @@ episode.
 
 ## Scope of this review route
 
-These six routes are the current deepest reading paths, not a replacement for
+These seven routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -50,9 +51,10 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The six routes below concentrate on the strongest current bridges: material
+The seven routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
-financial meaning and politics; and domestic capacity and geopolitical power.
+financial meaning and politics; domestic capacity and geopolitical power; and
+migration, place, and belonging.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -191,6 +193,31 @@ or recipient count as replaceability or geopolitical power.
 **Open arrow:** identifier-bearing evidence must connect production,
 acceptance, delivery, inventory or use, substitution capacity, and an
 external response before leverage is claimed.
+
+## Route 7: place change becomes belonging and political meaning
+
+Read the [local capacity and immigration meaning finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md),
+the [migration, local demand, housing, services, and belonging layer](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md),
+the [migration belonging and political-meaning specification](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md),
+and the [non-pooled place-capacity/belonging/action record](analysis/records/us-place-capacity-growth-belonging-action-crosssource-2024-2026.json).
+
+**Theme:** population change, local capacity, resident experience, belonging,
+trust, and political action are connected questions, but they are not one
+automatic place gradient.
+
+**What is established:** in the bounded 620-county context, growth and
+foreign-born share are distinct axes and sector capacity is non-monotonic. A
+separate Chicagoland survey reports meaningful geographic differences in
+support for conditional citizenship and Dreamer legal status, while ANES
+cross-tabs show that perceived economic meaning, job competition, legal
+inclusion, desired immigration level, trust, and reported vote are distinct
+dimensions.
+
+**Open arrow:** the current evidence does not join the same resident to a
+dated local exposure, housing/service experience, attribution, belonging,
+trust, action, institutional response, and ability to stay or move. Population
+growth is not migration, a county capacity measure is not lived access, and an
+attitude is not observed political action.
 
 ## How to challenge any route
 
