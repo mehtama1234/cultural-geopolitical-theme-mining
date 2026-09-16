@@ -196,6 +196,15 @@ eldercare, with archive hashes and subgroup denominators. The next depth test
 is replicate-weight uncertainty plus the eldercare roster and a dated event;
 the one-day diary is not a longitudinal household result.
 
+The new [eldercare network and time-capacity synthesis](projects/us-aging-care-strain/atus-eldercare-network-time-capacity-synthesis-v1.md)
+closes that immediate roster-interpretation step: the 2024–2025 extraction
+shows that about four in five rostered providers list a non-household
+recipient, while preserving separate annual samples, respondent-level weights,
+and recipient-record limits. This strengthens the care-network exposure map;
+it does not establish distance, intensity, work displacement, recipient
+outcomes, or recovery. The next test remains a repeated provider/household
+design with schedule control and replacement support.
+
 The same extraction now runs on the official 2025 ATUS files, adding a
 2024–2025 annual comparison with replicate-weight uncertainty. This provides
 time-order at the population level while explicitly retaining separate annual

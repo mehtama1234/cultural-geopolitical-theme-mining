@@ -357,6 +357,13 @@ now controls the first composition surface—age, sex, and labor-force status—
 within supported cells. Household work, travel, and social-time differences
 persist, while paid-work differences are imprecise. The next test is richer
 health/family/recipient adjustment or a repeated-unit dated-care design.
+The new [eldercare network and time-capacity synthesis](projects/us-aging-care-strain/atus-eldercare-network-time-capacity-synthesis-v1.md)
+adds the network interpretation: roughly four in five rostered providers list
+a non-household recipient in each annual sample, so a household-only care
+frame would omit a large part of the observed network. This does not establish
+burden or work displacement; the next test is a repeated provider/household
+design with distance, frequency, replacement support, schedule control, and
+recovery.
 The [richer standardized comparison](projects/us-household-calendar-integration/findings/us-household-calendar-integration-014.md)
 adds household-child status and broad education. Care, household-work, and
 travel differences remain, but social-time ordering varies by year and the
