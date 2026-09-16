@@ -144,6 +144,14 @@ layers. The next test remains a matched property or household episode linking
 notice, claim or repair, assistance, payment/borrowing, health or work
 trade-offs, and stay, move, or recovery.
 
+The eleventh rotation advances the institutional-mediation lane through
+[route-specific institutional friction](projects/us-household-constraint-cascade/institutional-friction-route-specific-outcomes-cross-domain-synthesis-v1.md).
+It separates prescription delay, authorization denial, benefit interruption,
+complaint routing, and downstream debt remedies rather than treating them as
+one friction measure. The next test is a same-case ledger with the route
+object, timing, alternatives, effort, verified remedy, protected/sacrificed
+outcome, and later trust, action, switching, or exit.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
