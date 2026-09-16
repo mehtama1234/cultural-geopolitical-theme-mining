@@ -124,6 +124,11 @@ protection. Its central warning is that proceduralization can increase
 legibility without producing recovery: institutional events and worker
 outcomes require separate evidence.
 
+The new [Hotak access-restoration follow-up](analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md)
+adds the first public Australian evidence of continued work after restoration:
+the Commission recorded more than 150 trips after voluntary reactivation. It
+still does not establish lost-pay receipt or durable protection.
+
 ## Themes to test while reviewing
 
 1. **Legibility before benefit.** Who gains the ability to see and classify

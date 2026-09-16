@@ -3,8 +3,9 @@
 **Checked:** 2026-09-15
 **Scope:** public follow-on evidence after reactivation or lost-remuneration
 orders in the bounded Australian platform-deactivation census
-**Result:** one additional public amount confirmed; no public receipt,
-continued-access, recurrence-prevention, or anti-retaliation evidence located
+**Result:** one additional public amount confirmed and one continued-access
+follow-up confirmed; no public receipt, recurrence-prevention, or
+anti-retaliation evidence located
 
 ## Question
 
@@ -37,7 +38,7 @@ the parties and not proof that an unlocated document does not exist.
 
 | Matter | Public follow-on result | Implementation status | Remaining gap |
 |---|---|---|---|
-| Hotak, `UDE2025/53` | The Full Bench ordered reactivation and directed the parties to confer on lost-pay quantum | Formal reactivation observed; amount/receipt not observed | Later quantum order, payment, access, profile correction, recurrence |
+| Hotak, `UDE2025/53` | Uber voluntarily reactivated access on 19 May 2025; the Full Bench recorded more than 150 trips afterward and later ordered formal reactivation | Continued access/work activity observed after voluntary reactivation; amount/receipt not observed | Lost-pay quantum/order follow-up, payment, later access, profile correction, recurrence |
 | Al Hussein, `UDE2025/134` | Primary merits record reports reactivation; no later public payment record located in the search frame | Formal reactivation observed; payment open | Quantum, receipt, access, process change |
 | Warraich, `UDE2025/108` | The Commission ordered reactivation and directed the parties to confer on lost remuneration; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, recurrence |
 | Khan, `UDE2025/185` | The Commission ordered reactivation and directed the parties to confer on lost-pay quantum; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, process change |
@@ -45,10 +46,13 @@ the parties and not proof that an unlocated document does not exist.
 
 ## Evidence notes
 
-The Hotak Full Bench decision states that voluntary reactivation does not
-remove the Commission's authority to decide the application and that the
-parties must confer on lost-pay quantum. The later Bulletin summary for Hotak
-also records the reactivation order and the open quantum route.
+The Hotak Full Bench record states that Uber restored access on 19 May 2025,
+that the worker recommenced work, and that he completed more than 150 trips.
+The later merits decision states that voluntary reactivation did not remove the
+Commission's authority, made a formal reactivation order, and left lost-pay
+quantum to be determined. This is the first public continued-access/work
+follow-up in the current Australian packet; it is not payment or durability
+evidence.
 
 Warraich's official Bulletin summary records deficient particulars, weak
 evidence, inadequate human involvement, unfair deactivation, reactivation,
@@ -75,8 +79,8 @@ voluntary restoration      != formal restoration to prior position
 no public follow-on record != proof of non-payment or non-restoration
 ```
 
-This audit therefore changes the machine-readable ledger only for Rehman,
-whose public amount is confirmed. It does not downgrade the other cases to
+This audit changes the machine-readable records for Hotak's continued access
+and Rehman's public amount. It does not downgrade the other cases to
 “no remedy”; it marks the implementation fields as open.
 
 ## Decisive next acquisition
@@ -93,6 +97,7 @@ whose public amount is confirmed. It does not downgrade the other cases to
 
 - [FWC decision and order search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
 - [Hotak, [2025] FWCFB 214](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf)
+- [Hotak, [2025] FWCFB 151 — agreed facts and subsequent trips](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf)
 - [FWC Bulletin Volume 10/25 — Hotak](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm)
 - [FWC Bulletin Volume 12/25 — Warraich](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm)
 - [Khan, [2026] FWC 48](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf)

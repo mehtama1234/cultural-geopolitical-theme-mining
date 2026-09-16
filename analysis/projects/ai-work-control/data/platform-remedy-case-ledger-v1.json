@@ -162,6 +162,18 @@
       "boundary": "The ILO diagnostic reports widespread complaint access but approximately two-thirds of complainants said issues were seldom resolved; no verified correction, restoration, payment, or state dispute outcome located."
     },
     {
+      "id": "PR-019",
+      "place": "Australia",
+      "population": "Mohammad Shareef Hotak and Uber Driver Platform",
+      "source_type": "Fair_Work_Commission_primary_full_bench_and_merits_decisions",
+      "decision_surface": ["safety_incident", "account_deactivation", "platform_access", "lost_remuneration"],
+      "worker_route": "Worker response, statutory unfair-deactivation application, Full Bench review",
+      "implementation_stage": "continued_access_observed_after_voluntary_reactivation_formal_order_lost_pay_open",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_and_continued_work", "payment_compensation": "open_lost_remuneration_quantum", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_access_and_reactivation_low_for_payment_receipt_durability_and_generalization",
+      "boundary": "The Full Bench recorded voluntary reactivation on 2025-05-19 and more than 150 subsequent trips; a later merits decision ordered formal reactivation and left lost-pay quantum open. Payment, later access, recurrence prevention, and anti-retaliation are not observed."
+    },
+    {
       "id": "PR-013",
       "place": "Australia",
       "population": "Gopal Bandameeda and Amazon Flex",
