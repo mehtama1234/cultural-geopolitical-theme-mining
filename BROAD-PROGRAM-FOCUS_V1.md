@@ -159,18 +159,25 @@ dependence, switching, non-use, staying, moving, and exit. The decisive
 boundary remains that alternatives, remedy receipt, protected/sacrificed
 outcomes, and later same-unit action are sparse; no pooled exit rate is made.
 
-The next active rotation is **capacity → dependence → public and geopolitical
-consequence**. Use the existing US data-center and Poland JASSM-ER realization
-ledgers to test whether commitment becomes operating capability, who controls
-the critical input, who bears the public or partner-side cost, what substitutes
-exist, and whether an external actor actually changes behavior. Keep local
-fiscal capacity, utility governance, defense procurement, delivery, and
-geopolitical response as separate dated stages.
+The capacity/dependence rotation has completed its local realization and
+supplier-control audit. Existing US data-center, Virginia utility, USAspending,
+and Poland JASSM-ER records now separate commitment, capacity, governance,
+supplier identity, planned delivery, operational stress, and external response;
+accepted output, replaceability, public/partner incidence, and changed behavior
+remain open.
 
-No large acquisition is required for this rotation. If the local realization
-ledgers cannot provide accepted output, replaceability, or changed external
-behavior, publish that gap and specify the smallest identifier-bearing local or
-official event needed to observe it.
+The next active rotation is **same-respondent material change → meaning and
+action**. Use the existing April→June 2025 HTOPS linked panel, its attrition
+audit, and the ANES/CCES political layers to test whether material persistence,
+entry, or recovery sits alongside institutional judgment, attribution, trust,
+and distinct civic action. Preserve the panel's selected-linkage and timing
+boundaries: a later confidence measure is not a dated actor response, vote
+effect, or causal political translation.
+
+No large acquisition is required for this rotation. If the local panel cannot
+provide attribution or an action endpoint, publish that gap and specify the
+smallest lawful repeated-respondent or event-compatible test needed to observe
+the responsible actor, prior judgment, action, remedy, and recovery.
 
 The latest local SIPP buffer gate found zero adjacent-month credit or savings
 state changes. Treat that as a field-timing boundary, not as evidence that

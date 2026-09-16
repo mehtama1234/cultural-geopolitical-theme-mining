@@ -130,14 +130,21 @@ staying, moving, and exit, while preserving the missing alternative, remedy
 receipt, protected/sacrificed outcome, and later action fields. No pooled exit
 rate is promoted.
 
-The next active rotation is **capacity → dependence → public and geopolitical
-consequence**, using the existing [capacity-without-exit synthesis](projects/ai-work-control/capacity-without-exit-cross-domain-synthesis-v1.md),
-[data-center realization ledger](projects/ai-work-control/data/us-data-center-realization-ledger-v1.json),
-and [Poland JASSM-ER realization ledger](projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json).
-The test is whether commitments become accepted/operating capability, who
-controls continuation and replacement, who bears public or partner-side cost,
-and whether an external actor changes behavior. No large acquisition is
-required before this realization-stage audit.
+The capacity/dependence rotation has completed its local realization and
+supplier-control audit through the [capacity/dependence stage audit](projects/ai-work-control/capacity-dependence-realization-audit-v1.md)
+and [JASSM/LRASM subaward control surface](projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md).
+The ledgers now separate commitment, capacity, governance, supplier identity,
+planned delivery, operational stress, and external response; accepted output,
+replaceability, public/partner incidence, and changed behavior remain open.
+
+The next active rotation is **same-respondent material change → meaning and
+action**, using the [HTOPS linked panel](projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md),
+[cross-lagged audit](projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json),
+and existing ANES/CCES political layers. The test is whether material
+persistence, entry, or recovery sits alongside institutional judgment,
+attribution, trust, and distinct civic action. Keep selected linkage, wave
+timing, attrition, and the distinction between confidence, vote, contact,
+complaint, action, and withdrawal explicit. No large acquisition is required.
 
 ### ILOSTAT comparison gate
 
