@@ -1313,6 +1313,15 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 
+The platform-work remedy lane now has a focused [restoration and dependence
+synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md).
+Its 27-record case ledger shows restoration or access resumption in 9 records
+and ordered or recognized lost remuneration in 3, while durable recurrence
+prevention and post-remedy worker exit remain unobserved. Continued platform
+use after reactivation is preserved as its own endpoint; it cannot be read as
+autonomy, dependence, or successful remedy without alternatives, receipt,
+follow-up, and worker-reported reason.
+
 ## The shared end-to-end model
 
 ```text

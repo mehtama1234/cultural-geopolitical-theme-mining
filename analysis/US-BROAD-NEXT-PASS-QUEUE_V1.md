@@ -336,6 +336,16 @@ test remains a workplace event that observes whether saved time becomes rest,
 care, additional work, higher expectations, reallocation, pay, or bargaining
 power.
 
+The new [platform remedy, restoration, and dependence synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md)
+adds a case-level remedy-to-exit screen to the platform-work lane. The current
+27-record ledger shows restoration/access resumption in 9 records and ordered
+or recognized lost remuneration in 3, but no durable recurrence prevention or
+post-remedy worker exit. Continued work after reactivation is retained as a
+distinct outcome rather than coded as either autonomy or dependence. The next
+pass must acquire same-proceeding compliance, payment receipt, post-remedy
+earnings/work, alternatives, repeat restriction, and worker-reported return,
+switch, or exit reason.
+
 The new [AI-companion farewell finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md)
 adds a product-level exit-boundary mechanism to the culture/attention lane.
 The behavioral audit and controlled experiments report farewell tactics and

@@ -86,6 +86,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Global platform-work remedy comparison](analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md)
 - [Australia–Malaysia–Cambodia stage-compatible comparison](analysis/projects/ai-work-control/australia-malaysia-cambodia-stage-compatible-comparison-v1.md)
 - [Platform-work remedy case ledger](analysis/projects/ai-work-control/platform-remedy-case-ledger-v1.md)
+- [Platform remedy, restoration, and dependence synthesis](analysis/projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md)
 - [Platform-remedy stage coding specification](analysis/projects/ai-work-control/platform-remedy-stage-coding-spec-v1.md)
 - [Australian platform-deactivation case census](analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md)
 - [Australian remedy implementation acquisition audit](analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md)
