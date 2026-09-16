@@ -220,6 +220,18 @@
       "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_process_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "open_lost_remuneration_quantum", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_decision_and_reactivation_low_for_later_pay_and_implementation",
       "boundary": "The Commission found warning particulars and substantive explanation insufficient, the 2025 allegation not made out, and the deactivation unfair; it ordered reactivation and directed the parties to confer on lost pay. Amount, payment, continued access, process change, and anti-retaliation are not observed."
+    },
+    {
+      "id": "PR-018",
+      "place": "Australia",
+      "population": "Rehman and Portier Pacific",
+      "source_type": "Fair_Work_Commission_bulletin_and_primary_decision",
+      "decision_surface": ["background_check", "deactivation", "voluntary_reactivation", "lost_remuneration"],
+      "worker_route": "Platform reactivation; statutory unfair-deactivation application",
+      "implementation_stage": "adjudicated_remedy_and_payment_order",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "observed_adjudicated_lost_remuneration_ordered_not_compensation", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_decision_and_order_low_for_payment_receipt_durability_and_generalization",
+      "boundary": "The Commission recorded voluntary reactivation but still made a formal order, including $7,096.96 gross lost remuneration. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified."
     }
   ]
 }

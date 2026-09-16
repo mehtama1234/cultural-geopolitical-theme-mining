@@ -44,7 +44,7 @@ adverse platform decision
 | Reason/explanation | Detailed notices and their defects were tested in merits decisions | Statutory disclosure and written-reason architecture exists; use in the GrabCar case is unknown | Workers can report complaints, but specific decision reasons are not independently observed | Formal explanation rules and usable explanations are distinct variables |
 | Contest channel | FWC application plus platform response/discussion routes | Tribunal hearing, conciliation, and statutory complaint routes exist; first hearing reported | Platform complaint channel reported by 78% of tuk-tuk, 88% of delivery, and 96% of taxi workers; use was 50%, 52%, and 36% | Access is observable in all three, but channel use has different evidence designs |
 | Review | FWC directly evaluated platform inquiry; findings range from inadequate inquiry to sufficient human Community Operations review | Tribunal hearing reportedly included evidence and additional witness examination | Independent human review is not observed; approximately two-thirds of complainants said issues were seldom resolved | A hearing or complaint channel is not proof that a reviewer could change the decision |
-| Correction/restoration | Multiple reactivation orders; Bandameeda and Mansoor include public lost-pay orders | No award or correction located | No verified correction, restoration, or payment located | Australia reaches adjudicated remedy; the other two remain open at or before outcome |
+| Correction/restoration | Multiple reactivation orders; Bandameeda, Mansoor, and Rehman include public lost-pay orders | No award or correction located | No verified correction, restoration, or payment located | Australia reaches adjudicated remedy; the other two remain open at or before outcome |
 | Receipt/durability | Payment receipt, continued access, recurrence prevention, and anti-retaliation generally open | Enforcement and worker receipt open | Resolution quality and state enforcement open | The final practical-remedy stages are missing across the comparison |
 
 ## Australia: adjudicated remedy depth
@@ -66,6 +66,9 @@ dismissal, and merits-level reactivation. The FWC primary record confirms:
   were accepted; the claim was dismissed.
 - Hotak (`UDE2025/53`): later voluntary reactivation did not extinguish the
   Commission's jurisdiction, preserving scrutiny of the original loss.
+- Rehman (`UDE2025/384`): a background-check deactivation was followed by
+  voluntary reactivation, but the Commission still made a formal remedy order,
+  including `$7,096.96` gross lost remuneration.
 
 The Australian contribution is therefore outcome depth and reasoned
 institutional findings. It still does not show how common these outcomes are

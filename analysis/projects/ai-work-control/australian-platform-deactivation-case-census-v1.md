@@ -45,7 +45,7 @@ is counted once despite preliminary and merits/order stages.
 | AU-12 | Mohammed v Rasier Pacific | UDE2025/205; [2026] FWC 365 | Merits | `dismissal_after_compliant_process` — five complaints, valid reason established, Code compliance found, application dismissed | Later appeal, correction, and downstream effects |
 | AU-13 | Abdalla v Rasier Pacific | UDE2025/152; [2026] FWC 217 | Merits | `dismissal_despite_code_noncompliance` — Code non-compliance found, but deactivation not unfair; application dismissed | Later appeal, correction, and downstream effects |
 | AU-14 | Dar v Portier Pacific | UDE2025/231; [2026] FWC 76 | Merits | `rating_based_dismissal` — low-satisfaction-rating deactivation application dismissed | Rating correction, review quality, and downstream effects |
-| AU-15 | Rehman v Portier Pacific | UDE2025/384; [2026] FWC 953 | Merits and remedy | `reactivation_plus_pay_open` — background-check deactivation; later voluntary reactivation did not eliminate formal remedy analysis; parties directed to confer on lost pay | Lost-pay quantum/receipt, continued access, process change |
+| AU-15 | Rehman v Portier Pacific | UDE2025/384; [2026] FWC 953 | Merits and remedy | `reactivation_plus_7096_96_lost_remuneration` — background-check deactivation; later voluntary reactivation did not eliminate formal remedy analysis; `$7,096.96` gross lost remuneration ordered | Receipt, continued access, process change |
 
 Bandameeda's `UDE2025/62` matter number is now confirmed by the primary
 decision and the Commission's bulletin index. The remaining Bandameeda gap is
@@ -72,10 +72,10 @@ applications. It must not be reduced to a single “success percentage.”
 
 ### Restoration is no longer a one-case curiosity
 
-The frame contains seven merits-level reactivation outcomes, with two public
-lost-pay amounts ($12,126.31 in Bandameeda and $6,073.23 in Mansoor) and three
-matters where lost pay remained to be determined (Hotak, Al Hussein, Warraich,
-Khan, Rehman).
+The frame contains seven merits-level reactivation outcomes, with three public
+lost-pay amounts ($12,126.31 in Bandameeda, $6,073.23 in Mansoor, and
+$7,096.96 gross in Rehman) and four matters where lost pay remained to be
+determined (Hotak, Al Hussein, Warraich, Khan).
 This strengthens the claim that the Code can produce restoration while leaving
 implementation and durability unverified.
 
