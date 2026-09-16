@@ -1439,6 +1439,16 @@ use after reactivation is preserved as its own endpoint; it cannot be read as
 autonomy, dependence, or successful remedy without alternatives, receipt,
 follow-up, and worker-reported reason.
 
+The latest AI/work-control endpoint audit adds a storage-light stage check across
+local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.
+It finds evidence at exposure, adoption, organizational implementation,
+consultation, and some rule/design-change stages, but not a same-workplace chain
+from worker control to enforcement, workload/pace, pay, schedule, health,
+bargaining, household security, or exit. This is a coverage audit, not an AI
+productivity or worker-power estimate. The next test is one named workplace
+system followed through notice, override/appeal, realized exposure, and worker
+and household outcomes, with a differently governed comparison.
+
 ## The shared end-to-end model
 
 ```text

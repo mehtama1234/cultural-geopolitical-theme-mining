@@ -604,6 +604,14 @@ series. The new layer strengthens access and connectivity coverage, but leaves
 usable liquidity, terms, safety, remedy, trust, and exit as separate
 same-person or same-account tests.
 
+The current rotation also adds the [AI/work-control endpoint audit](projects/ai-work-control/ai-work-control-endpoint-audit-v1.md).
+Using only committed local records, it separates AI exposure and adoption from
+organizational implementation, worker consultation, rule/design change, and
+realized worker control. The local evidence is strongest before the
+same-workplace outcome stage; the next test is a named system with notice,
+override or appeal, enforcement, workload/pace, pay, schedule, health,
+bargaining, and household-security fields plus a differently governed comparison.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

@@ -1,0 +1,43 @@
+{
+  "format": "ai-work-control-endpoint-audit-v1",
+  "status": "coverage_audit_only",
+  "checked": "2026-09-16",
+  "purpose": "Separate AI exposure, implementation, worker voice, control, and realized worker outcomes in the broad trend atlas.",
+  "sources": [
+    {
+      "source": "analysis/records/us-ai-work-adoption-control-2024-2026.json",
+      "unit": "worker_task_workplace_experiment_and_survey_units",
+      "exposure_or_implementation": "AI task adoption, customer-support and knowledge-worker experiments, and education/task performance comparisons",
+      "worker_voice_or_control": "not directly observed",
+      "worker_outcome": "issues resolved, email time, task adoption, and experimental performance; pay, discretion, bargaining, and household security remain open",
+      "boundary": "separate study units and designs; adoption or measured productivity does not establish worker control or distribution"
+    },
+    {
+      "source": "analysis/records/us-ai-management-bargaining-voice-crosssource-2024-2026.json",
+      "unit": "firms_workers_executives_and_union_context_units",
+      "exposure_or_implementation": "algorithmic-management tools, employer monitoring, reported AI use, executive expectations, and union representation",
+      "worker_voice_or_control": "governance measures and formal representation are reported, but worker decision rights are not linked to adoption",
+      "worker_outcome": "reported productivity/employment expectations and formal representation rates; no same-workplace worker outcome",
+      "boundary": "cross-source comparison with incompatible units, periods, and denominators; no causal workplace chain"
+    },
+    {
+      "source": "analysis/records/us-ai-worker-voice-control-comparative-2024-2026.json",
+      "unit": "EU_worker_survey_and_ILO_case_set",
+      "exposure_or_implementation": "work-related AI use and algorithmic-management practices",
+      "worker_voice_or_control": "collective bargaining, works-council review, data access, public action, and legal challenge",
+      "worker_outcome": "reported rule changes including consent/pay, monitoring limits, human oversight, and restored discretion; unresolved cases remain",
+      "boundary": "comparative EU and qualitative case evidence, not a US population estimate or realized average effect"
+    },
+    {
+      "source": "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
+      "unit": "named_company_deployment_and_works_council_process",
+      "exposure_or_implementation": "controlled Copilot and Places rollout, tolerance phase, approval, training, permissions, DLP, and dashboards",
+      "worker_voice_or_control": "works-council concerns reached product engineering; Places country targeting and default opt-out are company-reported",
+      "worker_outcome": "not independently observed; no worker-level productivity, workload, privacy, pay, stress, or enforcement outcome",
+      "boundary": "company-reported implementation account; consultation and product change are not proof of worker acceptance or durable control"
+    }
+  ],
+  "program_result": "AI/work evidence is strongest at exposure, adoption, organizational implementation, and consultation/design stages. It is weaker at same-workplace worker control, enforcement, distributional outcomes, household security, and bargaining change.",
+  "next_test": "Follow one named workplace system from implementation through worker notice, negotiated rule, actual exposure, override/appeal, workload/pace, pay, schedule control, health, bargaining, and household outcome, with a comparable non-exposed or differently governed workplace.",
+  "storage_boundary": "Uses committed local records and one committed local implementation memo; no raw-data acquisition or new estimate."
+}

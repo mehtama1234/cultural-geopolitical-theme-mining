@@ -2121,6 +2121,17 @@ household room, provider expansion can coexist with unusable access, and public
 monitoring capacity is not itself a customer outcome. The same-unit dated
 financial event remains the next empirical gate.
 
+### Latest storage-light checkpoint: AI/work-control endpoint audit
+
+The [AI/work-control endpoint audit](projects/ai-work-control/ai-work-control-endpoint-audit-v1.md)
+uses four committed local source layers and downloads nothing. It establishes
+that the program can observe AI exposure, adoption, implementation,
+consultation, and some rule/design changes as separate stages. It does not
+establish same-workplace worker control, enforcement, distributional effects,
+household security, or exit. The next pass should follow one named workplace
+system through those missing endpoints and include a differently governed
+comparison; do not add another generic adoption cross-tab.
+
 ## Sequencing rule
 
 Run the next passes in four rotating lanes so breadth is preserved:
