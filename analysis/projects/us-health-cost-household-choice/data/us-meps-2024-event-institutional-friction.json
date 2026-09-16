@@ -3,6 +3,164 @@
   "events": {
     "emergency_room": {
       "dated_event_people": 2923,
+      "friction_by_coverage": {
+        "any_private": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 23.771632732888488,
+              "debt_collector_contact": 26.467882230378688,
+              "medical_bill_problem": 24.22444136962754,
+              "medical_debt": 31.09446360256009
+            },
+            "records": 179,
+            "weighted_denominator": 3197061.252686
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 8.674189051511927,
+              "debt_collector_contact": 15.220153229804767,
+              "medical_bill_problem": 9.47996326429312,
+              "medical_debt": 22.219284179916496
+            },
+            "records": 679,
+            "weighted_denominator": 12123400.325114
+          }
+        },
+        "public_only": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 14.716419581233083,
+              "debt_collector_contact": 25.70678867109289,
+              "medical_bill_problem": 26.002731609714786,
+              "medical_debt": 23.704554864848777
+            },
+            "records": 204,
+            "weighted_denominator": 2920959.5546540003
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 5.109358129559478,
+              "debt_collector_contact": 14.404996791521866,
+              "medical_bill_problem": 7.4981012986447295,
+              "medical_debt": 13.686225188459009
+            },
+            "records": 709,
+            "weighted_denominator": 8992657.017969
+          }
+        },
+        "uninsured": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 0.0,
+              "debt_collector_contact": 7.91162982133574,
+              "medical_bill_problem": 31.997792210374605,
+              "medical_debt": 7.91162982133574
+            },
+            "records": 6,
+            "weighted_denominator": 147878.82697
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 38.50528726464507,
+              "debt_collector_contact": 37.617046469637714,
+              "medical_bill_problem": 40.25849076268966,
+              "medical_debt": 47.65552115929664
+            },
+            "records": 20,
+            "weighted_denominator": 353939.631761
+          }
+        }
+      },
+      "friction_by_financial_room": {
+        "not_at_all_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 33.43123374012861,
+              "debt_collector_contact": 55.025330484333324,
+              "medical_bill_problem": 52.30024469972058,
+              "medical_debt": 41.35500479578622
+            },
+            "records": 79,
+            "weighted_denominator": 1178499.6631790004
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 11.361630958807261,
+              "debt_collector_contact": 41.069338601511554,
+              "medical_bill_problem": 23.238600231108784,
+              "medical_debt": 26.907299989492067
+            },
+            "records": 170,
+            "weighted_denominator": 2050001.295531
+          }
+        },
+        "not_too_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 19.97745383687151,
+              "debt_collector_contact": 42.440007797341636,
+              "medical_bill_problem": 42.20859768767327,
+              "medical_debt": 24.159835806832675
+            },
+            "records": 38,
+            "weighted_denominator": 577443.4029329999
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 8.978660144595679,
+              "debt_collector_contact": 28.114056604282737,
+              "medical_bill_problem": 16.50258536112116,
+              "medical_debt": 22.087333183856614
+            },
+            "records": 112,
+            "weighted_denominator": 1673527.083542
+          }
+        },
+        "somewhat_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 20.323736879082887,
+              "debt_collector_contact": 31.184508108795733,
+              "medical_bill_problem": 26.198751187334345,
+              "medical_debt": 37.806234022850965
+            },
+            "records": 81,
+            "weighted_denominator": 1368235.826066
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 12.619596345847356,
+              "debt_collector_contact": 20.58142065657739,
+              "medical_bill_problem": 13.324596048031273,
+              "medical_debt": 29.826097857477592
+            },
+            "records": 265,
+            "weighted_denominator": 4297604.9846749995
+          }
+        },
+        "very_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 12.80929276253579,
+              "debt_collector_contact": 9.184806173357721,
+              "medical_bill_problem": 11.546786666049206,
+              "medical_debt": 17.635326943158375
+            },
+            "records": 191,
+            "weighted_denominator": 3141720.742132
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 5.337872882531105,
+              "debt_collector_contact": 8.036036646984158,
+              "medical_bill_problem": 4.815528816824217,
+              "medical_debt": 14.116474703152788
+            },
+            "records": 847,
+            "weighted_denominator": 13308150.837308
+          }
+        }
+      },
       "groups": {
         "denial_or_prior_authorization_delay": {
           "outcomes_percent": {
@@ -29,6 +187,164 @@
     },
     "inpatient": {
       "dated_event_people": 1415,
+      "friction_by_coverage": {
+        "any_private": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 15.410855794669395,
+              "debt_collector_contact": 17.67453987413245,
+              "medical_bill_problem": 20.89050764961065,
+              "medical_debt": 30.312855440955914
+            },
+            "records": 93,
+            "weighted_denominator": 1738025.901447
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 4.3878931557346075,
+              "debt_collector_contact": 12.638929651806158,
+              "medical_bill_problem": 3.949751447832868,
+              "medical_debt": 16.664626525674503
+            },
+            "records": 318,
+            "weighted_denominator": 5440210.599477001
+          }
+        },
+        "public_only": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 16.09530988887279,
+              "debt_collector_contact": 21.131549210756337,
+              "medical_bill_problem": 22.10249362388482,
+              "medical_debt": 24.751921434595015
+            },
+            "records": 105,
+            "weighted_denominator": 1578816.747975
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 5.241818057278824,
+              "debt_collector_contact": 10.59889697767422,
+              "medical_bill_problem": 6.49614142728428,
+              "medical_debt": 10.868399929824394
+            },
+            "records": 406,
+            "weighted_denominator": 5214128.650869
+          }
+        },
+        "uninsured": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 0.0,
+              "debt_collector_contact": 0.0,
+              "medical_bill_problem": 38.21158274487048,
+              "medical_debt": 0.0
+            },
+            "records": 3,
+            "weighted_denominator": 93213.449547
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 61.80846234438262,
+              "debt_collector_contact": 20.417032894614998,
+              "medical_bill_problem": 0.0,
+              "medical_debt": 20.417032894614998
+            },
+            "records": 4,
+            "weighted_denominator": 52837.978836999995
+          }
+        }
+      },
+      "friction_by_financial_room": {
+        "not_at_all_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 38.138098196419904,
+              "debt_collector_contact": 53.41414771733245,
+              "medical_bill_problem": 55.92392777547194,
+              "medical_debt": 43.64090117657064
+            },
+            "records": 35,
+            "weighted_denominator": 504206.56551
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 8.151878885355512,
+              "debt_collector_contact": 32.16922789718744,
+              "medical_bill_problem": 19.68489936512615,
+              "medical_debt": 18.716492397396294
+            },
+            "records": 84,
+            "weighted_denominator": 895614.4531189998
+          }
+        },
+        "not_too_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 6.688308751666884,
+              "debt_collector_contact": 35.75642626738744,
+              "medical_bill_problem": 48.80686903903981,
+              "medical_debt": 24.505378707931435
+            },
+            "records": 16,
+            "weighted_denominator": 189067.632499
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 13.810713903058696,
+              "debt_collector_contact": 21.408526107607248,
+              "medical_bill_problem": 11.53485394551037,
+              "medical_debt": 17.617938776055293
+            },
+            "records": 61,
+            "weighted_denominator": 820209.977863
+          }
+        },
+        "somewhat_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 13.401282068583942,
+              "debt_collector_contact": 24.53090742952965,
+              "medical_bill_problem": 22.835183143219034,
+              "medical_debt": 38.33103730925534
+            },
+            "records": 39,
+            "weighted_denominator": 691913.604866
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 10.375765456520043,
+              "debt_collector_contact": 21.367064335499105,
+              "medical_bill_problem": 6.95297487132475,
+              "medical_debt": 21.562534450446364
+            },
+            "records": 130,
+            "weighted_denominator": 1989981.318653
+          }
+        },
+        "very_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 11.076996859779348,
+              "debt_collector_contact": 6.625732896544487,
+              "medical_bill_problem": 10.638163162440078,
+              "medical_debt": 19.06509526889638
+            },
+            "records": 111,
+            "weighted_denominator": 2024868.2960940003
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 2.1913617342471117,
+              "debt_collector_contact": 5.223089550453193,
+              "medical_bill_problem": 2.0816824140484584,
+              "medical_debt": 10.71503943980968
+            },
+            "records": 447,
+            "weighted_denominator": 6932769.35454
+          }
+        }
+      },
       "groups": {
         "denial_or_prior_authorization_delay": {
           "outcomes_percent": {
@@ -55,6 +371,164 @@
     },
     "office": {
       "dated_event_people": 14402,
+      "friction_by_coverage": {
+        "any_private": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 15.787371749585914,
+              "debt_collector_contact": 19.072289513936333,
+              "medical_bill_problem": 13.329337036369848,
+              "medical_debt": 25.014030533755992
+            },
+            "records": 878,
+            "weighted_denominator": 16201406.675129998
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 6.0061220707302665,
+              "debt_collector_contact": 8.415099363119111,
+              "medical_bill_problem": 5.531820859363743,
+              "medical_debt": 14.177760539890173
+            },
+            "records": 4504,
+            "weighted_denominator": 81047580.092293
+          }
+        },
+        "public_only": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 14.465855373005724,
+              "debt_collector_contact": 22.553892480996428,
+              "medical_bill_problem": 21.607399141631916,
+              "medical_debt": 24.257263398573517
+            },
+            "records": 559,
+            "weighted_denominator": 7718460.47137
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 4.738834825658604,
+              "debt_collector_contact": 10.881656865386859,
+              "medical_bill_problem": 6.351260598946258,
+              "medical_debt": 11.148305647061626
+            },
+            "records": 2683,
+            "weighted_denominator": 34760732.550074995
+          }
+        },
+        "uninsured": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 32.83768466865828,
+              "debt_collector_contact": 32.14381430729634,
+              "medical_bill_problem": 32.14381430729634,
+              "medical_debt": 32.14381430729634
+            },
+            "records": 15,
+            "weighted_denominator": 318900.021995
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 19.00283253933612,
+              "debt_collector_contact": 20.67294650737769,
+              "medical_bill_problem": 18.037429682290206,
+              "medical_debt": 21.19446885199871
+            },
+            "records": 62,
+            "weighted_denominator": 1115276.837894
+          }
+        }
+      },
+      "friction_by_financial_room": {
+        "not_at_all_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 35.11650555921534,
+              "debt_collector_contact": 59.64655204787962,
+              "medical_bill_problem": 48.78920740214098,
+              "medical_debt": 45.878044587367825
+            },
+            "records": 192,
+            "weighted_denominator": 2672736.0550619997
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 16.314617918149317,
+              "debt_collector_contact": 36.66918336248076,
+              "medical_bill_problem": 23.76784604475028,
+              "medical_debt": 30.494508329087438
+            },
+            "records": 494,
+            "weighted_denominator": 6254473.187372999
+          }
+        },
+        "not_too_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 26.163455679931445,
+              "debt_collector_contact": 49.09256621892003,
+              "medical_bill_problem": 34.97996958501165,
+              "medical_debt": 35.58040591594074
+            },
+            "records": 99,
+            "weighted_denominator": 1426887.916283
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 12.60388180229359,
+              "debt_collector_contact": 29.117585808104256,
+              "medical_bill_problem": 17.873838555182505,
+              "medical_debt": 25.376760953397614
+            },
+            "records": 370,
+            "weighted_denominator": 5597870.575243
+          }
+        },
+        "somewhat_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 21.768611736418325,
+              "debt_collector_contact": 27.664808283270116,
+              "medical_bill_problem": 22.76790517748775,
+              "medical_debt": 35.738778617156605
+            },
+            "records": 276,
+            "weighted_denominator": 4519446.177557999
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 10.156652993498886,
+              "debt_collector_contact": 16.71435732015098,
+              "medical_bill_problem": 11.723457833324797,
+              "medical_debt": 22.74324399683462
+            },
+            "records": 1072,
+            "weighted_denominator": 17399900.093064
+          }
+        },
+        "very_confident": {
+          "denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 9.413469546194609,
+              "debt_collector_contact": 8.935365798797276,
+              "medical_bill_problem": 6.931494406195787,
+              "medical_debt": 17.10472069239362
+            },
+            "records": 882,
+            "weighted_denominator": 15537272.973781
+          },
+          "no_denial_or_prior_authorization_delay": {
+            "outcomes_percent": {
+              "cost_related_medical_care_delay": 3.6687775412069668,
+              "debt_collector_contact": 4.565738313346672,
+              "medical_bill_problem": 2.704623637305258,
+              "medical_debt": 9.537110973454551
+            },
+            "records": 5272,
+            "weighted_denominator": 87088616.54680401
+          }
+        }
+      },
       "groups": {
         "denial_or_prior_authorization_delay": {
           "outcomes_percent": {
@@ -98,8 +572,7 @@
       "sha256": "19e81a7f816ea8bf518dd0a47ac6087bb747f5f0feffb3dd64d36c250864cda4"
     }
   },
-  "limitation": "EQDENY53 has no claim identifier, decision date, appeal, or resolution. It is collected in the annual person file and is not shown to precede the observed event; event presence is selected and outcomes are same-round context, not post-event effects.",
-  "method": "Select the first dated event per person and event family, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 denial/prior-authorization-delay groups using positive PERWT24F.",
+  "limitation": "EQDENY53 has no claim identifier, decision date, appeal, or resolution. It is collected in the annual person file and is not shown to precede the observed event; event presence is selected and outcomes are same-round context, not post-event effects. Coverage and unexpected-expense confidence are also annual/person-level context, not event-specific plan or cash measures.",
+  "method": "Select the first dated event per person and event family, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 denial/prior-authorization-delay groups using positive PERWT24F; retain coverage and unexpected-expense confidence strata as descriptive intersections.",
   "schema": "us-meps-2024-event-institutional-friction-v1"
 }
-

@@ -19,6 +19,15 @@ shares; counts are unweighted and outcome-specific valid rows can differ.
 Debt-collector contact follows the same direction: 20.35% versus 9.27% for
 office, 25.68% versus 15.25% for ER, and 18.79% versus 11.68% for inpatient.
 
+The contrast also survives a private-coverage check. Among privately covered
+first-event people, care delay was 15.79% versus 6.01% for office events,
+23.77% versus 8.67% for ER events, and 15.41% versus 4.39% for inpatient
+events, comparing denial/delay with no denial/delay. Medical debt was
+25.01% versus 14.18%, 31.09% versus 22.22%, and 30.31% versus 16.66% in the
+same three channels. This is a practical-room robustness screen, not a plan-
+adequacy or insurance effect estimate. Uninsured friction cells are small and
+are not interpreted as stable subgroup estimates.
+
 ## What this adds
 
 ```text
@@ -41,6 +50,10 @@ resolution. It is not shown to precede the observed event. Event presence is
 selected, and the outcomes are same-round context rather than post-event
 effects. A denial may be a marker of complex care or prior severity rather than
 the source of the later context.
+
+Coverage and financial-room intersections do not solve those boundaries. The
+annual coverage field is not plan generosity, and confidence paying an
+unexpected expense is not liquid cash or deductible exposure.
 
 The result does not connect one claim to a care decision, available alternative,
 amount owed, payment timing, household substitution, remedy, trust, political

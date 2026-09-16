@@ -185,7 +185,9 @@ bill-level causal result.
 The [MEPS event-channel institutional-friction comparison](meps-2024-event-institutional-friction-v1.md)
 stratifies the denial/prior-authorization association across first dated
 office, emergency-room, and inpatient event people. The pattern persists in
-each channel, but annual denial timing and claim-level remedy remain open.
+each channel, including within the privately covered stratum. The uninsured
+friction cells are small, and annual denial timing and claim-level remedy
+remain open.
 
 The [MEPS care-delay/adaptation layer](meps-2024-care-delay-adaptation-v1.md)
 adds ESAQ payment strategies, sacrificed spending and savings, work/leave

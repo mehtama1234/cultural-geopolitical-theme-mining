@@ -12,11 +12,12 @@
       "denominator": {"value": 8701, "unit": "valid friction-group people among first dated office-event people; outcome-specific valid rows vary"},
       "measures": {"denial_delay_care_delay": {"value": 15.5908796295, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_care_delay": {"value": 5.7533338783, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_medical_debt": {"value": 24.8668535345, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_medical_debt": {"value": 13.3440494002, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_bill_problem": {"value": 16.2128926178, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_bill_problem": {"value": 5.8947206102, "unit": "percent; weighted share", "value_type": "weighted_share"}},
       "method": "Select first valid dated office event per person, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 groups using positive PERWT24F.",
+      "conditional_context": {"any_private_coverage": {"denial_delay_care_delay": 15.7873717496, "no_denial_delay_care_delay": 6.0061220707, "denial_delay_medical_debt": 25.0140305338, "no_denial_delay_medical_debt": 14.1777605399, "denial_delay_bill_problem": 13.3293370364, "no_denial_delay_bill_problem": 5.5318208594, "denial_delay_records": 878, "no_denial_delay_records": 4504}},
       "uncertainty": "EQDENY53 is annual and has no claim identifier, decision date, appeal, or resolution; denial timing relative to the office event is unknown. Same-round outcomes are context, not effects.",
       "subgroup": "First dated office-event people with valid denial/delay status.",
       "counterinterpretation": "Complex care, health severity, coverage, prior debt, and service selection may generate both friction and the observed context.",
       "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
-      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:19e81a7f816ea8bf518dd0a47ac6087bb747f5f0feffb3dd64d36c250864cda4; script:sha256:02bf14d10fd6317a144f53cfa64c6c9bade8f3e8aaf044bcb1007cfc29b23a35; result:sha256:354126cb75d95d0456cb9a3d3f7dd90832f473d0f1c7000f5bcdf406ad816688",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:19e81a7f816ea8bf518dd0a47ac6087bb747f5f0feffb3dd64d36c250864cda4; script:sha256:f428079b13743d0e34afb5e257b4b91f02aec4fa13cebdac3b56ccac1f3a369f; result:sha256:1011e19b20403ceb6ced65f3e7ca408adb104ac07aa140687faced4cb3d677d0",
       "status": "compared"
     },
     {
@@ -24,11 +25,12 @@
       "denominator": {"value": 1797, "unit": "valid friction-group people among first dated emergency-room-event people; outcome-specific valid rows vary"},
       "measures": {"denial_delay_care_delay": {"value": 18.9893613453, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_care_delay": {"value": 7.6728431307, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_medical_debt": {"value": 27.1023992127, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_medical_debt": {"value": 19.0645571181, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_bill_problem": {"value": 25.2368782489, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_bill_problem": {"value": 9.1572587836, "unit": "percent; weighted share", "value_type": "weighted_share"}},
       "method": "Select first valid dated emergency-room event per person, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 groups using positive PERWT24F.",
+      "conditional_context": {"any_private_coverage": {"denial_delay_care_delay": 23.7716327329, "no_denial_delay_care_delay": 8.6741890515, "denial_delay_medical_debt": 31.0944636026, "no_denial_delay_medical_debt": 22.2192841799, "denial_delay_bill_problem": 24.2244413696, "no_denial_delay_bill_problem": 9.4799632643, "denial_delay_records": 179, "no_denial_delay_records": 679}},
       "uncertainty": "EQDENY53 is annual and has no claim identifier, decision date, appeal, or resolution; denial timing relative to the emergency-room event is unknown. Same-round outcomes are context, not effects.",
       "subgroup": "First dated emergency-room-event people with valid denial/delay status.",
       "counterinterpretation": "Complex care, health severity, coverage, prior debt, and service selection may generate both friction and the observed context.",
       "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
-      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_er:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:02bf14d10fd6317a144f53cfa64c6c9bade8f3e8aaf044bcb1007cfc29b23a35; result:sha256:354126cb75d95d0456cb9a3d3f7dd90832f473d0f1c7000f5bcdf406ad816688",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_er:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:f428079b13743d0e34afb5e257b4b91f02aec4fa13cebdac3b56ccac1f3a369f; result:sha256:1011e19b20403ceb6ced65f3e7ca408adb104ac07aa140687faced4cb3d677d0",
       "status": "compared"
     },
     {
@@ -36,11 +38,12 @@
       "denominator": {"value": 929, "unit": "valid friction-group people among first dated inpatient-event people; outcome-specific valid rows vary"},
       "measures": {"denial_delay_care_delay": {"value": 15.3064963848, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_care_delay": {"value": 5.0870934168, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_medical_debt": {"value": 26.9096089171, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_medical_debt": {"value": 13.8605259724, "unit": "percent; weighted share", "value_type": "weighted_share"}, "denial_delay_bill_problem": {"value": 21.9251125979, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_denial_delay_bill_problem": {"value": 5.1702886431, "unit": "percent; weighted share", "value_type": "weighted_share"}},
       "method": "Select first valid dated inpatient event per person, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 groups using positive PERWT24F.",
+      "conditional_context": {"any_private_coverage": {"denial_delay_care_delay": 15.4108557947, "no_denial_delay_care_delay": 4.3878931557, "denial_delay_medical_debt": 30.312855795, "no_denial_delay_medical_debt": 16.6646265257, "denial_delay_bill_problem": 20.8905076496, "no_denial_delay_bill_problem": 3.9497514478, "denial_delay_records": 93, "no_denial_delay_records": 318}},
       "uncertainty": "EQDENY53 is annual and has no claim identifier, decision date, appeal, or resolution; denial timing relative to the inpatient event is unknown. Same-round outcomes are context, not effects.",
       "subgroup": "First dated inpatient-event people with valid denial/delay status.",
       "counterinterpretation": "Complex care, health severity, coverage, prior debt, and service selection may generate both friction and the observed context.",
       "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
-      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_inpatient:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; script:sha256:02bf14d10fd6317a144f53cfa64c6c9bade8f3e8aaf044bcb1007cfc29b23a35; result:sha256:354126cb75d95d0456cb9a3d3f7dd90832f473d0f1c7000f5bcdf406ad816688",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_inpatient:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb2a943c7abccdc13cb464; script:sha256:f428079b13743d0e34afb5e257b4b91f02aec4fa13cebdac3b56ccac1f3a369f; result:sha256:1011e19b20403ceb6ced65f3e7ca408adb104ac07aa140687faced4cb3d677d0",
       "status": "compared"
     }
   ],
@@ -48,5 +51,5 @@
     {"source_url": "../projects/us-health-cost-household-choice/meps-2024-event-institutional-friction-v1.md", "claim": "The method note defines the event-family join and the claim-level timing/remedy boundary.", "status": "method-note"},
     {"source_url": "../projects/us-health-cost-household-choice/data/us-meps-2024-event-institutional-friction.json", "claim": "The machine output preserves input hashes, event-family denominators, and weighted group outcomes.", "status": "machine-output"}
   ],
-  "boundary": "This is a same-round event-family stratification of institutional-friction associations. It does not show that denial preceded the event, caused care delay or debt, or produced a remedy, trust change, political action, or exit."
+  "boundary": "This is a same-round event-family stratification of institutional-friction associations, with descriptive coverage and financial-room intersections. It does not show that denial preceded the event, caused care delay or debt, or produced a remedy, trust change, political action, or exit; small uninsured cells are not stable subgroup estimates."
 }
