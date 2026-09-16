@@ -34,6 +34,7 @@ CHECKS = [
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
     ("published site links", ["scripts/validate_published_site_links.py"]),
     ("local Markdown links", ["scripts/validate_local_markdown_links.py"]),
+    ("acquisition resource policy", ["scripts/test_acquisition_resource_policy.py"]),
     ("diff whitespace", ["git", "diff", "--check"]),
 ]
 
