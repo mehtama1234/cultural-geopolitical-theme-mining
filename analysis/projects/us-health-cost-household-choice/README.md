@@ -247,6 +247,11 @@ The [inter-round MEPS transition screen](meps-2024-between-round-event-transitio
 uses events strictly between R3/1 and R4/2 endpoints, retaining baseline
 selection differences before interpreting the R4/2 context.
 
+The [strict inter-round event transition finding](findings/us-health-cost-household-choice-003.md)
+promotes that timing screen into the atlas: acute-event groups were already
+different before the event, so later health and bill contrasts remain selected
+descriptive context rather than event effects.
+
 The [strict inter-round payment-band follow-up](findings/us-health-cost-household-choice-004.md)
 conditions that window on event-level family payment. It shows why a recorded
 payment cannot stand in for the household obligation: zero-payment acute events

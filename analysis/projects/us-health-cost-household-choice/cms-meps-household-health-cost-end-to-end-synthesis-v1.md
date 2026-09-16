@@ -169,6 +169,13 @@ choice episode.** See the atlas’s [multi-clock household synthesis](../us-hous
 and [layered household-room finding](../us-household-calendar-integration/findings/us-household-calendar-integration-032.md)
 for the source-specific denominators and limitations.
 
+The strict [MEPS inter-round event finding](findings/us-health-cost-household-choice-003.md)
+adds a month-ordered baseline screen: acute-event groups already had worse
+health before the event. The companion [payment-band follow-up](findings/us-health-cost-household-choice-004.md)
+shows that event-level family payment does not restore a monotonic burden
+gradient. Together they strengthen the timing and payment boundaries without
+closing the care-choice or household-obligation arrow.
+
 ## What the current evidence does not prove
 
 - CMS’s 18.0% GDP share does not estimate household affordability or clinical value.
