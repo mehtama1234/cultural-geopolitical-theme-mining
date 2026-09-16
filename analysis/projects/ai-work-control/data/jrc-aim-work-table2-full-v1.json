@@ -1,0 +1,45 @@
+{
+  "schema": "jrc-aim-work-table2-full-v1",
+  "checked": "2026-09-15",
+  "source": {
+    "title": "Algorithmic management and working conditions in Europe. Evidence from the AIM-WORK Survey",
+    "jrc_reference": "JRC147505",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+    "table": "Table 2, pp. 19-20",
+    "retrieval_note": "Transcribed from the publicly readable full text; the official JRC repository record is the canonical publication locator."
+  },
+  "unit": "employees in all 27 EU Member States",
+  "model": "ordered logistic regression; average marginal effects shown in the published table",
+  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "workplace size", "industry", "occupation"],
+  "significance": "*** p<0.01; ** p<0.05; * p<0.10; no marker means not statistically significant",
+  "outcome_order": ["aut_order", "aut_methods", "aut_speed", "stress", "breaks", "com_manager", "com_peers", "flextime", "wnight", "wsunday", "wsaturday", "w10hplus", "plw_clients", "plw_vehicle", "plw_outside", "plw_home"],
+  "outcome_labels": {
+    "aut_order": "autonomy to decide task order",
+    "aut_methods": "autonomy to decide work methods",
+    "aut_speed": "autonomy to decide task speed",
+    "stress": "work stress",
+    "breaks": "capacity to take breaks autonomously",
+    "com_manager": "communication with managers",
+    "com_peers": "communication with peers",
+    "flextime": "ability to set work schedule autonomously",
+    "wnight": "work at night",
+    "wsunday": "work on Sundays",
+    "wsaturday": "work on Saturdays",
+    "w10hplus": "work more than 10 hours per day",
+    "plw_clients": "work at clients' premises",
+    "plw_vehicle": "work in a car or other vehicle",
+    "plw_outside": "work at an outside site",
+    "plw_home": "work from home"
+  },
+  "estimates": [
+    {"practice": "amtime", "aut_order": "-0.072*", "aut_methods": "-0.057", "aut_speed": "-0.058", "stress": "0.038", "breaks": "-0.134***", "com_manager": "-0.020", "com_peers": "-0.071", "flextime": "-0.055", "wnight": "0.160***", "wsunday": "0.117***", "wsaturday": "0.148***", "w10hplus": "0.019", "plw_clients": "0.085**", "plw_vehicle": "0.016", "plw_outside": "-0.005", "plw_home": "0.046"},
+    {"practice": "amact", "aut_order": "-0.006", "aut_methods": "-0.064*", "aut_speed": "-0.042", "stress": "0.096***", "breaks": "0.003", "com_manager": "-0.048", "com_peers": "-0.038", "flextime": "0.028", "wnight": "0.188***", "wsunday": "0.105***", "wsaturday": "0.051", "w10hplus": "0.080**", "plw_clients": "0.200***", "plw_vehicle": "0.040", "plw_outside": "0.045", "plw_home": "0.098**"},
+    {"practice": "amspeed", "aut_order": "-0.231***", "aut_methods": "-0.115*", "aut_speed": "-0.227***", "stress": "-0.056", "breaks": "-0.154**", "com_manager": "-0.057", "com_peers": "-0.077", "flextime": "-0.030", "wnight": "0.268***", "wsunday": "0.273***", "wsaturday": "-0.021", "w10hplus": "0.068", "plw_clients": "0.009", "plw_vehicle": "0.278***", "plw_outside": "-0.698***", "plw_home": "0.427***"},
+    {"practice": "amdir", "aut_order": "-0.033", "aut_methods": "-0.151***", "aut_speed": "-0.191***", "stress": "0.108**", "breaks": "-0.094*", "com_manager": "-0.058", "com_peers": "-0.031", "flextime": "-0.103*", "wnight": "0.336***", "wsunday": "0.312***", "wsaturday": "0.054", "w10hplus": "-0.195***", "plw_clients": "-0.297***", "plw_vehicle": "0.130*", "plw_outside": "-0.362***", "plw_home": "-0.018"},
+    {"practice": "perfrank", "aut_order": "-0.116**", "aut_methods": "-0.116**", "aut_speed": "-0.007", "stress": "0.018", "breaks": "-0.080*", "com_manager": "-0.066", "com_peers": "-0.117**", "flextime": "-0.091*", "wnight": "0.086", "wsunday": "0.051", "wsaturday": "0.118**", "w10hplus": "-0.061", "plw_clients": "-0.012", "plw_vehicle": "0.117*", "plw_outside": "-0.161***", "plw_home": "-0.042"},
+    {"practice": "perfpoints", "aut_order": "0.095**", "aut_methods": "-0.079*", "aut_speed": "-0.066", "stress": "-0.106**", "breaks": "-0.012", "com_manager": "-0.004", "com_peers": "0.027", "flextime": "0.025", "wnight": "0.075", "wsunday": "0.025", "wsaturday": "0.089**", "w10hplus": "-0.035", "plw_clients": "-0.043", "plw_vehicle": "-0.080", "plw_outside": "-0.188***", "plw_home": "0.085*"},
+    {"practice": "ratingtasks", "aut_order": "0.107", "aut_methods": "-0.010", "aut_speed": "-0.014", "stress": "0.128*", "breaks": "-0.074", "com_manager": "-0.044", "com_peers": "-0.064", "flextime": "0.159**", "wnight": "0.266***", "wsunday": "0.550***", "wsaturday": "0.236***", "w10hplus": "0.293***", "plw_clients": "-0.372***", "plw_vehicle": "0.188*", "plw_outside": "-0.420***", "plw_home": "0.355***"},
+    {"practice": "perfcancel", "aut_order": "-0.078", "aut_methods": "-0.144**", "aut_speed": "-0.033", "stress": "0.023", "breaks": "-0.075", "com_manager": "-0.006", "com_peers": "-0.098", "flextime": "-0.038", "wnight": "0.095", "wsunday": "0.035", "wsaturday": "0.181***", "w10hplus": "0.121**", "plw_clients": "0.124*", "plw_vehicle": "0.048", "plw_outside": "-0.055", "plw_home": "0.108*"}
+  ],
+  "boundary": "The published cells are associations from a cross-sectional worker survey. This record does not include standard errors, sample counts per cell, full outcome category frequencies, country-specific estimates, or sector-specific estimates. Signs must be interpreted with the paper's ordinal coding; estimates are not percentage-point changes in a population outcome."
+}

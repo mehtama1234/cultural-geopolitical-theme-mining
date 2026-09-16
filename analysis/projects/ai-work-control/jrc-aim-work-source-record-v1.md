@@ -80,10 +80,12 @@ The survey and analysis support associations along this path. They do not identi
 **Methodology:** reviewed and promoted to the evidence record.
 **Practice/outcome and qualitative country-map extraction:** completed in the
 [practice and country map](jrc-aim-work-practice-country-map-v1.md).
-**Core Table 2 transcription:** completed for the five central outcomes in
-[the machine-readable record](data/jrc-aim-work-table2-core-v1.json).
-**Full coefficient/table transcription with denominators, standard errors, and
-country/sector uncertainty:** still open.
+**Full Table 2 transcription:** completed for all 16 outcomes in [the
+machine-readable record](data/jrc-aim-work-table2-full-v1.json); the five-outcome
+[core record](data/jrc-aim-work-table2-core-v1.json) remains available for quick
+review.
+**Country/sector table extraction with denominators, standard errors, and
+uncertainty:** still open.
 **Microdata or code replication:** not established from the public publication
 record; the JRC analysis page lists no public dataset or source-code link in
 the accessible metadata.
