@@ -1,6 +1,6 @@
 # Material, time, care, and political meaning: the household-room program
 
-**Status:** reader synthesis of the current evidence lane · **Checked:** 2026-09-15  
+**Status:** reader synthesis of the current evidence lane · **Checked:** 2026-09-16
 **Scope:** US households, workers, caregivers, health-cost exposure, public routes, and the open path to meaning and action
 
 ## The question this lane is trying to answer
@@ -67,9 +67,10 @@ safe conclusion is a timing and design result: routine monthly work change
 must be separated from a dated utility episode before a work-displacement
 claim is made.
 
-The [2026-09-14 reproduction audit](sipp-utility-work-following-reproduction-audit-2026-09-14.json)
-re-ran the full primary and 240-replicate inputs and reproduced the promoted
-point estimates and intervals. This confirms the computation and provenance;
+The [utility-to-work reproduction audit](sipp-utility-work-following-reproduction-audit-2026-09-14.json)
+was rechecked on 2026-09-16 against the current local `full-v18` slice and
+reproduced the promoted point estimates and intervals. This confirms the
+computation and provenance;
 it does not strengthen the causal interpretation or close the dated-bill,
 care-substitution, recovery, or political-meaning links.
 
@@ -137,6 +138,12 @@ that tenure caused the difference. The annual `EWORKMORE` field and December
 utility/tenure fields run on mixed clocks, so the missing middle remains a
 dated bill or service event, available alternatives, care-time substitution,
 and follow-up recovery.
+
+The companion [utility/tenure/child-care reproduction audit](sipp-utility-tenure-childcare-reproduction-audit-2026-09-16.json)
+independently reproduces the four annual work-prevention cells from the same
+local v18 slice. Together these audits support a reproducible conditional
+material/time/care surface while leaving the dated utility event and causal
+ordering open.
 
 The [conditional time-loss endpoint](findings/us-household-calendar-integration-043.md)
 puts a quantity on one sacrificed currency: among reference parents who
