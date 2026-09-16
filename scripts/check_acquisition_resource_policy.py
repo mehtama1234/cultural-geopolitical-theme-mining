@@ -58,6 +58,13 @@ def main() -> int:
         "ask": sum(row["status"] == "ask" for row in rows),
         "block": sum(row["status"] == "block" for row in rows),
     }
+    report["total_bytes"] = sum(row["bytes"] for row in rows)
+    report["total_megabytes"] = round(report["total_bytes"] / MB, 3)
+    report["largest_files"] = sorted(
+        ({"path": row["path"], "bytes": row["bytes"], "status": row["status"]} for row in rows),
+        key=lambda row: row["bytes"],
+        reverse=True,
+    )[:5]
     print(json.dumps(report, indent=2))
     return 1 if report["counts"]["block"] else 0
 

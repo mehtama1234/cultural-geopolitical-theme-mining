@@ -42,7 +42,9 @@ python3 scripts/check_acquisition_resource_policy.py /tmp/acquisition-dir
 ```
 
 It reports `allow`, `ask`, and `block` files and exits nonzero only when a file
-exceeds the blocking threshold.
+exceeds the blocking threshold. For directory checks it also reports total
+bytes and the five largest files, so a collection can be reviewed for storage
+impact even when no individual file crosses the blocking threshold.
 
 ## Evidence and cleanup record
 
