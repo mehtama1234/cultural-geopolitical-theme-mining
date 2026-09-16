@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "66c56d6f5c3e79e1889c7fa2c5681c91f18692b5dfb86dd70616a1671c5699fb",
+  "matrix_sha256": "0089633c258067cfd01040abc908eac8b4d5e14145feee9172118f9ec008c6a8",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -14,7 +14,7 @@
   "themes": [
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 9,
+      "evidence_anchor_count": 10,
       "measurement_level": "Person, consumer unit, product, household record",
       "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit.",
       "same_unit_end_to_end_link": false,
@@ -40,7 +40,7 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 11,
       "measurement_level": "Customer case, complaint, firm, state, sector",
       "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; product-conditioned response and visibility are now visible, but adequacy, account exposure, failed attempts, and later behavior remain open.",
       "same_unit_end_to_end_link": false,
@@ -53,7 +53,7 @@
     },
     {
       "current_status": "Reported / Compared / Inferred",
-      "evidence_anchor_count": 3,
+      "evidence_anchor_count": 4,
       "measurement_level": "User, respondent, account, transaction, platform, seller, source ecosystem",
       "next_required_test": "Verify encounter, interpretation, action, data use, agency, and exit effects with independent platform or transaction records.",
       "same_unit_end_to_end_link": false,
@@ -106,7 +106,7 @@
     },
     {
       "current_status": "Compared / Open",
-      "evidence_anchor_count": 9,
+      "evidence_anchor_count": 10,
       "measurement_level": "Person, household, place, customer, worker, program episode",
       "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
       "same_unit_end_to_end_link": true,
@@ -119,7 +119,7 @@
     },
     {
       "current_status": "Reported / Compared / Open",
-      "evidence_anchor_count": 9,
+      "evidence_anchor_count": 10,
       "measurement_level": "Respondent, customer, survey wave, community, source ecosystem",
       "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; the CCES layer now adds subgroup heterogeneity, but remains a descriptive joint-proxy screen, not a causal bridge.",
       "same_unit_end_to_end_link": true,
