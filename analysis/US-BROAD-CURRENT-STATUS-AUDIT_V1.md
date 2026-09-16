@@ -1464,6 +1464,15 @@ configuration, actual worker take-up, consequence-free refusal, enforcement,
 or lived privacy/work outcomes; the historical council-to-change arrow remains
 company-reported and partly corroborated at product level.
 
+The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
+tests the shared open middle across consumer, public-system, household,
+health, and political routes. Five local source surfaces cover different
+stages—route handling, adaptation, person-level timing, selected remedy, or
+institutional confidence—but no source supplies the full sequence from dated
+actor and alternatives through verified remedy, meaning/action, recovery, and
+exit. This is a program-wide measurement boundary, not evidence that those
+outcomes did not occur.
+
 ## The shared end-to-end model
 
 ```text

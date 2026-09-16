@@ -1,0 +1,107 @@
+{
+  "format": "broad-same-case-episode-availability-audit-v1",
+  "status": "stage_availability_audit",
+  "checked": "2026-09-16",
+  "purpose": "Identify which committed local source surfaces can follow one episode from exposure through alternatives, response, meaning/action, recovery, and exit.",
+  "required_stages": [
+    "dated_event_or_exposure",
+    "responsible_actor",
+    "alternative_or_nonuse",
+    "effort_money_or_time_tradeoff",
+    "adaptation_or_protected_sacrificed_outcome",
+    "institutional_or_firm_response",
+    "verified_remedy",
+    "meaning_trust_or_action",
+    "recovery_persistence_or_exit"
+  ],
+  "sources": [
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
+      "unit": "student_loan_public_event_rows",
+      "records": 25,
+      "stage_status": {
+        "dated_event_or_exposure": "partial",
+        "responsible_actor": "partial",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_route",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "Public complaint/event routing is visible, but recipient-level alternatives, remedy receipt, recovery, trust, and exit are not linked."
+    },
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json",
+      "unit": "adjudicated_platform_remedy_episodes",
+      "records": 27,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_or_reported",
+        "responsible_actor": "partial",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial",
+        "adaptation_or_protected_sacrificed_outcome": "partial",
+        "institutional_or_firm_response": "observed",
+        "verified_remedy": "partial",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "unknown"
+      },
+      "boundary": "Some reactivation and lost-remuneration orders are visible, but the dry-run assigns 19 of 27 post-event statuses as unknown and assigns no practical-exit label."
+    },
+    {
+      "source": "analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json",
+      "unit": "recontacted_adult_respondents",
+      "records": 4419,
+      "stage_status": {
+        "dated_event_or_exposure": "open_or_reference_period",
+        "responsible_actor": "open",
+        "alternative_or_nonuse": "observed_adaptation",
+        "effort_money_or_time_tradeoff": "partial",
+        "adaptation_or_protected_sacrificed_outcome": "observed_descriptive",
+        "institutional_or_firm_response": "open",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "partial_persistence"
+      },
+      "boundary": "The panel follows selected financial and care paths, not a dated bill or actor-specific service episode; no remedy, trust, action, or exit chain is observed."
+    },
+    {
+      "source": "analysis/records/us-census-htops-material-trust-panel-april-june-2025.json",
+      "unit": "linked_selected_panel_respondents",
+      "records": 6564,
+      "stage_status": {
+        "dated_event_or_exposure": "reference_period_exposure",
+        "responsible_actor": "open",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_material_outcomes",
+        "adaptation_or_protected_sacrificed_outcome": "observed_descriptive",
+        "institutional_or_firm_response": "open",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "partial_institutional_confidence",
+        "recovery_persistence_or_exit": "partial_transition"
+      },
+      "boundary": "The selected linkage establishes timing between material and confidence measures but not a dated actor, attribution, action, remedy, or recovery."
+    },
+    {
+      "source": "analysis/projects/us-health-cost-household-choice/data/us-meps-2024-bounded-episode-ledger.json",
+      "unit": "identified_person_health_event_records",
+      "records": 3,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_round_order",
+        "responsible_actor": "partial_route_context",
+        "alternative_or_nonuse": "partial_payment_or_care_choice",
+        "effort_money_or_time_tradeoff": "observed_payment_context",
+        "adaptation_or_protected_sacrificed_outcome": "partial_health_work_bill_context",
+        "institutional_or_firm_response": "partial_friction_context",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "partial_later_panel_status"
+      },
+      "boundary": "MEPS supplies identified event and later status fields, but not a complete same-episode actor, alternative, remedy, trust/action, or practical-exit record."
+    }
+  ],
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger for response/remedy and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
+  "storage_boundary": "Uses five committed local records; no raw-data acquisition or new estimate."
+}

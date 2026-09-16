@@ -627,6 +627,14 @@ Update view inspectable. This corroborates available product controls, not the
 historical council causal claim, tenant configuration, worker understanding,
 enforcement, or worker/household outcomes.
 
+The [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
+now compares five committed local surfaces: CFPB student-loan events,
+platform remedies, the SHED recontact panel, the HTOPS linked panel, and the
+MEPS bounded event ledger. No surface closes all nine required episode stages.
+The next broad step is therefore to select one lawful stable episode key and
+measure stage-specific missingness instead of pooling these complementary
+records.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

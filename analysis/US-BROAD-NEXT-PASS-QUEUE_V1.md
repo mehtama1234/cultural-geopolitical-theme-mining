@@ -884,6 +884,13 @@ measures are not available for this path in the public file. The next step is
 still a linked payment/account case with verified firm response and later trust
 or exit.
 
+The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
+now ranks the local episode surfaces by stage coverage. The immediate
+selection rule is to choose one lawful source with a stable episode key and
+add the missing actor, alternative, effort, protected/sacrificed outcome,
+verified remedy, meaning/action, recovery, and exit fields; if those fields
+are unavailable, record the gap and rotate to another theme.
+
 The new [consumer-loss/recourse/recovery bridge](projects/ai-work-control/findings/ai-work-control-054.md)
 places Federal Reserve household burden beside FTC administrative loss and CFPB
 response/timing fields. It clarifies that reporting, routing, explanation,
