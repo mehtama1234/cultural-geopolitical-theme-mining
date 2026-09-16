@@ -51,6 +51,7 @@ that hardship caused political action.
 - [Medical-debt relief causal benchmark](../us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md): a downstream randomized remedy result that improves selected credit access without establishing health, care, or broad household recovery.
 - [Household cascade ledger contract](../../../manifests/us-household-constraint-cascade-ledger-v1.json) and [validator](../../../scripts/validate_household_constraint_cascade_ledger.py): machine-readable stage requirements plus a simulated two-episode fixture for structural testing.
 - [MEPS staged-ledger audit](meps-staged-ledger-audit-v1.md): 18,457 local, keyed-hash event rows populate the observed context fields while preserving unknown choice, remedy, and recovery stages outside Git.
+- [Next acquisition decision](next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go sequence; no new microdata are downloaded in the current pass.
 - [SHED coverage-to-care machine record](../../records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
 - [SHED coverage-to-care reproduction audit](../us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
 - [SIPP utility-to-work machine record](../../records/us-sipp-utility-work-following-2024.json)
