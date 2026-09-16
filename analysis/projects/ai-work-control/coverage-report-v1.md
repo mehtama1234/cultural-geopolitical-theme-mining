@@ -102,6 +102,9 @@ These are not errors to smooth away. They may reflect different tools, populatio
   deactivation explanations, a hearing right, and conciliation/Tribunal routes.
   The Ministry's e-complaint and implementation portals are visible, but
   case-level exercise and enforcement outcomes remain unobserved.
+- The [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
+  now puts the court, worker-survey, statutory, and status-recognition records
+  on one staged remedy chain without pooling unlike outcomes.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

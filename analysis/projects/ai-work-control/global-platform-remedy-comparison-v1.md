@@ -1,0 +1,143 @@
+# Global platform-work remedy comparison v1
+
+**Status:** cross-source synthesis; outcome verification remains open
+
+**Checked:** 2026-09-15
+
+## Central claim
+
+The global platform-work remedy problem is not a simple absence or presence of
+rights. Different institutional layers make different parts of the remedy chain
+visible:
+
+```text
+algorithmic exposure
+  -> adverse work decision
+  -> worker notices / contests it
+  -> explanation or review
+  -> correction, restoration, repayment, compensation
+  -> durable accountability and non-retaliation
+```
+
+The current evidence shows the first four layers in different places, but no
+single record yet establishes the full chain from automated decision through a
+verified worker outcome.
+
+## Comparison table
+
+| Case | Place and source type | Decision/exposure observed | Remedy stage observed | Strongest missing link |
+|---|---|---|---|---|
+| Uber/Ola drivers | Netherlands court; London drivers; appellate judicial record | Deactivation, trip allocation, fares, and fraud-probability scores | Court-ordered information about factors and reasons; rectification became actionable | Completed correction, reinstatement, compensation, or anti-retaliation |
+| Uganda platform workers | Uganda; ILO–Makerere cross-sectional worker survey | Ratings, allocation, refusal penalties, monitoring, and deactivation | Workers reported appeals and favorable resolutions; complaints and positive outcomes were also reported | Administrative or platform records identifying what was corrected or paid |
+| Malaysia Act 872 | Malaysia; enacted statute and implementing regulations | Automated monitoring/decision systems and deactivation are legally recognized | Disclosure, non-automated review, written explanation, hearing, conciliation, and Tribunal architecture in force | First public complaint, review, Tribunal, enforcement, or worker outcome |
+| EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
+| Netherlands Deliveroo / Finland Wolt | Netherlands and Finland; court/administrative status cases | Platform direction, monitoring, control, and contractual dependence | Employment/status and tax consequences | Automated-decision explanation, review, correction, or compensation |
+
+## What can be compared safely
+
+### 1. The decision surface
+
+All three focal records concern decisions that can alter access to work or
+income, but they expose different system functions. Uber/Ola makes the decision
+logic itself litigable. Uganda shows how ratings, acceptance, cancellation,
+GPS, and deactivation are experienced in daily work. Malaysia names the same
+functions prospectively in law and attaches review duties to them.
+
+This supports a cross-source mechanism claim: platform power is exercised not
+only through final termination, but through the repeated allocation, rating,
+monitoring, and payment decisions that shape future access to work.
+
+### 2. The remedy surface
+
+The records show three different routes:
+
+```text
+court route       -> information about an already disputed decision
+worker route      -> appeal or complaint reported by the worker
+statutory route   -> required disclosure, review, hearing, and adjudication
+```
+
+These routes should not be pooled as if they measure the same success. A court
+order is independently adjudicated but may stop at information. A survey
+captures workers' experience at scale but does not verify case files. A statute
+creates enforceable design features but may not yet have generated public
+outcomes.
+
+### 3. The accountability surface
+
+The strongest common gap is not the absence of a formal right. It is the missing
+observed link between a remedy request and a durable change in the worker's
+position. The current packet cannot yet answer:
+
+- Was an account restored?
+- Was a rating or profile corrected?
+- Was withheld pay returned?
+- Was a model or rule changed to prevent recurrence?
+- Could the worker use the remedy without retaliation?
+- Did collective worker voice affect the system beyond an individual case?
+
+## Theme interpretation
+
+The evidence suggests a global transition from opaque platform management toward
+proceduralized contestability. The transition is uneven:
+
+- The Netherlands court route makes information about automated control
+  contestable before a dedicated platform-work directive is operational.
+- Uganda shows that workers may already use informal or platform-level appeal
+  channels, but the result is difficult to audit from outside the platform.
+- Malaysia turns several elements of contestability into a statutory service
+  condition and creates public dispute institutions, yet the outcome record is
+  still young.
+- The EU framework is broader and more rights-dense, but national enactment and
+  exercised remedies remain staged and incomplete in the current evidence.
+
+The important cultural and geopolitical theme is therefore not “the West has
+rights and the Global South lacks them.” A more defensible interpretation is
+that different places are institutionalizing different pieces of contestability:
+judicial disclosure, worker self-help, statutory review, collective voice, or
+status recognition. The power question is which layer can produce a timely,
+verifiable change in work access and income.
+
+## Contradictions preserved
+
+1. A worker can report a favorable appeal outcome without the research record
+   identifying whether pay, ratings, access, or explanation changed.
+2. A court can require explanation without ordering reinstatement or
+   compensation.
+3. A statute can create a non-automated review mechanism while public evidence
+   of actual use remains absent.
+4. Employment-status recognition can expand legal protection while leaving the
+   platform's automated decision process uncorrected.
+5. Informal worker groups can share information and solve problems without
+   possessing formal bargaining or anti-retaliation protection.
+
+These are different endpoints, not inconsistent findings.
+
+## Decisive next acquisition
+
+Build a case-level remedy ledger with one row per disputed decision and the
+following fields:
+
+```text
+place / platform / worker or representative
+decision type / date / stated reason
+automated function alleged or documented
+request made / channel / response deadline
+explanation received / human review / correction
+account or payment outcome / compensation
+recurrence prevention / retaliation concern
+source type / verification strength / public-access boundary
+```
+
+The first priority is Malaysia's new e-Aduan, conciliation, and Tribunal
+systems. The second is a Ugandan platform or worker-organization record that
+defines the survey's “favorable” appeal outcome. The third is any post-order
+Uber/Ola record showing whether information led to rectification.
+
+## Boundary
+
+This is an interpretive synthesis, not a pooled estimate, legal opinion, or
+ranking of national systems. The cases have different dates, units, legal
+orders, and evidence strengths. The synthesis supports a comparative mechanism
+and an acquisition design; it does not establish that any one jurisdiction has
+achieved effective algorithmic-management accountability.
