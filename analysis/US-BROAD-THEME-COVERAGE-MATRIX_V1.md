@@ -33,6 +33,13 @@ crosses child-care payment, payment help, and reported work constraint with
 tenure and income-to-poverty bands. It deepens themes 2, 6, and 8 while keeping
 conditional universes and missing care intensity explicit.
 
+**Latest utility/care/work conditioning:** [SIPP utility/tenure/care/work
+option-stack synthesis](projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
+places utility difficulty beside housing tenure, same-person next-month work
+movement, resource/job transitions, and annual child-care work prevention. It
+deepens themes 1, 2, 6, and 8 while keeping the monthly/annual clock split and
+the missing dated bill, care intensity, and recovery fields explicit.
+
 **Latest political conditioning:** [ANES party-conditioned worry/vote layer](projects/us-cost-trust-politics/anes-panel-worry-vote-party-conditioned-layer-v1.md)
 conditions a financial-worry/vote comparison on prior party identity. It
 deepens themes 9 and 11 by showing that material concern enters political

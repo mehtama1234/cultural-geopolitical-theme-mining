@@ -1860,6 +1860,12 @@ without reported difficulty. The difficulty cells are small and the measure is
 annual rather than a monthly bill response; this is a bounded descriptive
 bridge, not a utility, tenure, or care causal result. The next decisive test
 remains a dated bill/service event or the authenticated PSID backbone.
+The [utility/tenure/care/work option-stack synthesis](projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
+now consolidates these component screens. It makes the option-stack
+interpretation explicit while keeping utility difficulty, work movement,
+resource movement, and annual child-care prevention on their distinct clocks.
+The next test is a dated bill, shutoff, reconnection, or assistance event with
+one-, three-, and six-month work, care, housing, health, and recovery measures.
 
 The new [CDC PLACES/CBP/HRSA place diagnostic](projects/us-local-business-place/findings/us-local-business-place-007.md)
 adds modeled county social-need outcomes to the capacity and mobility lane. The

@@ -227,6 +227,15 @@ The available SIPP household-selection diagnostic was tightened with a hashed
 5,203-variable surface; one-record household results therefore remain
 sensitivity diagnostics rather than official household prevalence estimates.
 
+The [SIPP utility/tenure/care/work option-stack synthesis](projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
+now consolidates the available 2025 full-file fallback: utility difficulty,
+housing tenure, next-month work movement, adjacent resource/job transitions,
+and annual child-care work prevention. This advances the same-person
+material/time/care conditioning map while preserving mixed clocks, small-cell
+uncertainty, and the absence of a dated bill or shutoff event. The next test
+remains a dated service event followed through work, care, housing, health,
+and recovery.
+
 The geopolitical/procurement lane now includes a machine-readable
 [JASSM/LRASM subaward-structure record](records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json).
 It adds one bounded case observation linking a parent award to 74 returned
