@@ -203,6 +203,15 @@ non-monotonic surfaces. The next test remains a dated obligation with
 deductible or balance, payment timing, borrowing or substitution, foregone
 care, verified remedy, and recovery.
 
+The eighteenth rotation sharpens the practical-room counterexample through the
+[MEPS event payment-band screen](projects/us-health-cost-household-choice/meps-2024-event-payment-bands-v1.md).
+Within event families, zero payment can coexist with lower confidence in
+covering an unexpected expense, while higher payment can coexist with more
+medical debt. These are selection and payer-protection patterns, not payment
+effects; the next test remains a same-household obligation and liquidity
+episode with timing, substitution, debt, care continuation, remedy, and
+recovery.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
