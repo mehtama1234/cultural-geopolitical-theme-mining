@@ -43,6 +43,79 @@
       "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
       "status": "compared"
     }
+    ,
+    {
+      "period": "2024; first emergency-room event in R4/2 endpoint month",
+      "denominator": {"value": 207, "unit": "people with a first ER event in the endpoint month; exact event day unavailable", "value_type": "ambiguous_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 14.73, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 20.31, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 45.26, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Retain first events in the person-specific R4/2 endpoint month as a separate group; compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "Same-month event day and outcome ordering are unknown; this group cannot be interpreted as pre- or post-event.",
+      "subgroup": "People with a first emergency-room event in the endpoint month.",
+      "counterinterpretation": "The event and outcome may reflect the same underlying need or reference-period condition.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_er:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first inpatient event in R4/2 endpoint month",
+      "denominator": {"value": 103, "unit": "people with a first inpatient event in the endpoint month; exact event day unavailable", "value_type": "ambiguous_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 9.89, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 41.19, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 73.55, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Retain first events in the person-specific R4/2 endpoint month as a separate group; compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "Same-month event day and outcome ordering are unknown; this group cannot be interpreted as pre- or post-event.",
+      "subgroup": "People with a first inpatient event in the endpoint month.",
+      "counterinterpretation": "The event and outcome may reflect the same underlying need or reference-period condition.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_inpatient:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first office event in R4/2 endpoint month",
+      "denominator": {"value": 533, "unit": "people with a first office event in the endpoint month; exact event day unavailable", "value_type": "ambiguous_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 4.44, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 8.68, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 34.45, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Retain first events in the person-specific R4/2 endpoint month as a separate group; compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "Same-month event day and outcome ordering are unknown; this group cannot be interpreted as pre- or post-event.",
+      "subgroup": "People with a first office event in the endpoint month.",
+      "counterinterpretation": "Office-event purpose and continuity may differ from acute care, and the event/outcome may share a common cause.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first emergency-room event after R4/2 endpoint month",
+      "denominator": {"value": 551, "unit": "people with a first ER event after the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 6.97, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 19.03, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 47.06, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly after the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The event follows the measured R4/2 context, so it is not a post-event outcome; it is retained as a temporal counterpoint.",
+      "subgroup": "People with a first emergency-room event after the endpoint month.",
+      "counterinterpretation": "Later event presence may reflect earlier unmeasured need or access conditions.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_er:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first inpatient event after R4/2 endpoint month",
+      "denominator": {"value": 308, "unit": "people with a first inpatient event after the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 6.21, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 25.8, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 53.43, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly after the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The event follows the measured R4/2 context, so it is not a post-event outcome; it is retained as a temporal counterpoint.",
+      "subgroup": "People with a first inpatient event after the endpoint month.",
+      "counterinterpretation": "Later event presence may reflect earlier unmeasured need or access conditions.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_inpatient:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first office event after R4/2 endpoint month",
+      "denominator": {"value": 867, "unit": "people with a first office event after the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 7.88, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 5.77, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 26.54, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly after the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The event follows the measured R4/2 context, so it is not a post-event outcome; it is retained as a temporal counterpoint.",
+      "subgroup": "People with a first office event after the endpoint month.",
+      "counterinterpretation": "Later event presence may reflect earlier unmeasured need, preventive care, or access conditions.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    }
   ],
   "related_sources": [
     {"source_url": "../projects/us-health-cost-household-choice/meps-2024-month-ordered-event-followup-v1.md", "claim": "The method note defines before, same-month, after, and no-event groups and preserves the timing boundary.", "status": "method-note"},
