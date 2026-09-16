@@ -22,6 +22,9 @@ SCHEMA = json.loads(
 )
 OPEN_STATUSES = {"unknown", "open", "simulated_test_data"}
 REQUIRED_STAGES = tuple(SCHEMA["stage_fields"])
+EVIDENCE_STATUSES = set(SCHEMA["evidence_status"])
+STAGE_STATUSES = set(SCHEMA["controlled_values"]["stage_status"])
+UNITS = set(SCHEMA["controlled_values"]["unit"])
 
 
 def nonempty(value: object) -> bool:
@@ -36,7 +39,10 @@ def audit(path: Path) -> dict[str, object]:
 
     if data.get("schema") != SCHEMA["format"]:
         failures.append("schema does not match the household cascade contract")
-    if data.get("evidence_class") == "simulated_test_data":
+    evidence_class = data.get("evidence_class")
+    if evidence_class not in EVIDENCE_STATUSES:
+        failures.append(f"invalid or missing evidence class: {evidence_class!r}")
+    elif evidence_class == "simulated_test_data":
         failures.append("ledger is explicitly simulated test data")
     if not isinstance(events, list) or not events:
         failures.append("events must be a non-empty list")
@@ -56,6 +62,10 @@ def audit(path: Path) -> dict[str, object]:
             failures.append(f"{label}: episode_id missing or duplicated")
         else:
             event_ids.add(episode_id)
+        if event.get("unit") not in UNITS:
+            failures.append(f"{label}: invalid unit")
+        if event.get("evidence_status") not in EVIDENCE_STATUSES or event.get("evidence_status") == "simulated_test_data":
+            failures.append(f"{label}: invalid or simulated evidence status")
         try:
             date.fromisoformat(event["event_date"])
         except (KeyError, TypeError, ValueError):
@@ -73,7 +83,9 @@ def audit(path: Path) -> dict[str, object]:
                 failures.append(f"{label}/{stage_name}: stage is not an object")
                 continue
             status = stage.get("status")
-            if status in OPEN_STATUSES or not nonempty(status):
+            if status not in STAGE_STATUSES:
+                failures.append(f"{label}/{stage_name}: invalid stage status {status!r}")
+            elif status in OPEN_STATUSES:
                 failures.append(f"{label}/{stage_name}: stage remains {status or 'missing'}")
             if not nonempty(stage.get("observation")) or not nonempty(stage.get("source")):
                 failures.append(f"{label}/{stage_name}: observation and source are required")
@@ -90,7 +102,9 @@ def audit(path: Path) -> dict[str, object]:
         for field in ("from", "to", "evidence", "remaining_gap"):
             if not nonempty(arrow.get(field)):
                 failures.append(f"{label}: {field} is empty")
-        if arrow.get("status") in OPEN_STATUSES:
+        if arrow.get("status") not in EVIDENCE_STATUSES:
+            failures.append(f"{label}: invalid arrow status {arrow.get('status')!r}")
+        elif arrow.get("status") in OPEN_STATUSES:
             failures.append(f"{label}: arrow remains {arrow['status']}")
 
     return {
