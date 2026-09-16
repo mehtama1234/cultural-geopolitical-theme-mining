@@ -2,7 +2,7 @@
 
 103 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 37; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 38; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -12,7 +12,7 @@
 
 **Question:** When firms adopt AI, does the main change come from better tools, tighter measurement, new supervision, or a shift in who owns the work process?
 
-**Sources recorded:** 40
+**Sources recorded:** 41
 
 - [Generative AI at Work](https://www.nber.org/papers/w31161)
 - [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
@@ -23,6 +23,7 @@
 - [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
 - [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
 - [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html)
 - [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
 - [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
 - [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)

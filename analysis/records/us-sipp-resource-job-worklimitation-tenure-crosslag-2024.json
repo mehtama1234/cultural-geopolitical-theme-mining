@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-resource-job-worklimitation-tenure-crosslag-2024",
+  "title": "Housing tenure changes the monthly resource-and-job transition surface under work limitation",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "housing_place_mobility", "time_hidden_price"],
+  "source_unit": "Identified 2025 SIPP person, adjacent reference-month pair, conditioned on first-month tenure and work-limiting status",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; month t resource band to month t+1 job-count change; work-limited",
+      "denominator": {"value": 9624, "unit": "selected valid owner/buyer and renter adjacent person-month pairs below 1x poverty", "value_type": "person_month_pairs"},
+      "measures": {"owned_or_being_bought": {"value": 1.111, "unit": "percent; Fay-BRR SE 0.255 percentage points; n=3,920", "value_type": "weighted_crosslag_share"}, "rented": {"value": 0.951, "unit": "percent; Fay-BRR SE 0.218 percentage points; n=5,704", "value_type": "weighted_crosslag_share"}},
+      "method": "Same-person monthly descriptive cross-lag using THINCPOV and RMNUMJOBS, conditioned on EDISABL=1 and first-month ETENURE; valid ATENURE required; WPFINWGT and 240 replicate weights with Fay BRR.",
+      "uncertainty": "Tenure cells differ in composition and the contrast is not standardized; reported work limitation is not a diagnosis or causal exposure.",
+      "subgroup": "Persons below 1x poverty reporting a work-limiting condition",
+      "counterinterpretation": "A small owner/renter difference can reflect health, job access, household composition, reporting, or tenure selection rather than housing tenure itself.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:7df7a2d31b40069f67a544eca3c2761bd492a5f8cad28d483597acd2db691297",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; month t resource band to month t+1 job-count change; work-limited",
+      "denominator": {"value": 15892, "unit": "selected valid owner/buyer and renter adjacent person-month pairs at 4x poverty or more", "value_type": "person_month_pairs"},
+      "measures": {"owned_or_being_bought": {"value": 1.452, "unit": "percent; Fay-BRR SE 0.180 percentage points; n=13,350", "value_type": "weighted_crosslag_share"}, "rented": {"value": 1.392, "unit": "percent; Fay-BRR SE 0.312 percentage points; n=2,542", "value_type": "weighted_crosslag_share"}},
+      "method": "Same-person monthly descriptive cross-lag using THINCPOV and RMNUMJOBS, conditioned on EDISABL=1 and first-month ETENURE; valid ATENURE required; WPFINWGT and 240 replicate weights with Fay BRR.",
+      "uncertainty": "The high-resource renter cell is much smaller than the owner cell; this is not a standardized or causal contrast.",
+      "subgroup": "Persons at 4x poverty or more reporting a work-limiting condition",
+      "counterinterpretation": "Near-equal point estimates do not imply equal room, job quality, hours, pay, or schedule control.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:7df7a2d31b40069f67a544eca3c2761bd492a5f8cad28d483597acd2db691297",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; month t job-count category to month t+1 resource-band change; one job; work-limited",
+      "denominator": {"value": 10679, "unit": "selected valid owner/buyer and renter adjacent person-month pairs with one job", "value_type": "person_month_pairs"},
+      "measures": {"owned_or_being_bought": {"value": 4.771, "unit": "percent; Fay-BRR SE 0.409 percentage points; n=7,194", "value_type": "weighted_crosslag_share"}, "rented": {"value": 6.122, "unit": "percent; Fay-BRR SE 0.575 percentage points; n=3,485", "value_type": "weighted_crosslag_share"}},
+      "method": "Reverse same-person monthly descriptive cross-lag from RMNUMJOBS to THINCPOV, conditioned on EDISABL=1 and first-month ETENURE; valid ATENURE required; WPFINWGT and 240 replicate weights with Fay BRR.",
+      "uncertainty": "The comparison is descriptive and composition-sensitive; resource-band change has no welfare direction by itself.",
+      "subgroup": "Work-limited persons with one job in the first month",
+      "counterinterpretation": "Greater resource-band movement among renters may reflect income, hours, transfers, prices, household change, or tenure selection.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:7df7a2d31b40069f67a544eca3c2761bd492a5f8cad28d483597acd2db691297",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; month t job-count category to month t+1 resource-band change; two jobs; work-limited",
+      "denominator": {"value": 822, "unit": "selected valid owner/buyer and renter adjacent person-month pairs with two jobs", "value_type": "person_month_pairs"},
+      "measures": {"owned_or_being_bought": {"value": 3.526, "unit": "percent; Fay-BRR SE 0.931 percentage points; n=495", "value_type": "weighted_crosslag_share"}, "rented": {"value": 7.369, "unit": "percent; Fay-BRR SE 1.940 percentage points; n=327", "value_type": "weighted_crosslag_share"}},
+      "method": "Reverse same-person monthly descriptive cross-lag from RMNUMJOBS to THINCPOV, conditioned on EDISABL=1 and first-month ETENURE; valid ATENURE required; WPFINWGT and 240 replicate weights with Fay BRR.",
+      "uncertainty": "Both tenure cells are small and imprecise; the contrast should not be generalized.",
+      "subgroup": "Work-limited persons with two jobs in the first month",
+      "counterinterpretation": "The point difference may be sampling variation or composition, and does not identify voluntary mobility or insecurity.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; result:sha256:7df7a2d31b40069f67a544eca3c2761bd492a5f8cad28d483597acd2db691297",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "../../projects/us-household-calendar-integration/findings/us-household-calendar-integration-039.md", "claim": "The unconditioned work-limitation cross-lag establishes the broader transition surface before tenure conditioning.", "status": "related-layer"}],
+  "boundary": "Same-person monthly descriptive cross-lag conditioned on official tenure category and reported work-limiting status; it does not establish a tenure effect, household prevalence, disability diagnosis, accommodation, job quality, pay, care, trust, political action, or recovery."
+}
