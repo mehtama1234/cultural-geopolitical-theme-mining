@@ -132,6 +132,10 @@ accepted. Script SHA-256: `c3ea8eb349779df0cb2ca2f8403058bff1fb35a50f14640bed76d
 The compact output SHA-256 is
 `bbbc61faa729ef0050df07456d5ac3a27a5786793ae1b57c10c57b060d578afa`.
 
+The synthetic regression guard [test_meps_dated_friction_cascade_guards.py](../../../scripts/test_meps_dated_friction_cascade_guards.py)
+passes the positive-weight, strict-window, friction-group, and private-coverage
+conditioning invariants using temporary files only.
+
 **Evidence status:** strict-window same-person descriptive comparison; not a
 claim-level episode, causal estimate, remedy result, recovery measure, or
 trust/action result.
