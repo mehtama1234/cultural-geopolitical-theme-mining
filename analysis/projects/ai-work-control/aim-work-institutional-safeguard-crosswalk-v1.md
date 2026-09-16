@@ -22,6 +22,7 @@ workplaces appear in both records.
 | `perfrank`: ranking or comparative evaluation | IBM framework transparency, bias/data-quality inspection, and category-5 restriction; BTQ implementation interview | Visibility into data and purpose, challenge to false or discriminatory recommendations, and a stated limit on personnel decisions | Direct agreement plus representative interview | Actual ranking system, worker challenge, retaliation, promotion/discipline consequence, or enforcement |
 | `perfpoints` / `perfcancel`: incentives or performance-linked withdrawal | IBM framework correction and human-review rules; risk classification | A route to correct false outputs and prevent automatic personnel action without substantial workforce benefit/harm reduction | Direct rule record | Whether points or cancellation affected pay, hours, access to work, stress, or exit |
 | Employee-data monitoring and profiling adjacent to AM | Deutsche Telekom AI manifesto; IBM works-council inspection rights | Data-purpose review, transparency, bias analysis, algorithm/data-quality inspection | Company/union/agreement record | Data inventory, audit result, worker understanding, correction time, or privacy outcome |
+| Platform task allocation, evaluation, earnings, status, or account restriction | EU Platform Work Directive 2024/2831, Articles 7–11 | Data limits, impact assessment, worker/representative views, written explanations, human override, review within two weeks, correction or remedy | Direct legal rule; platform scope | National implementation, compliance, review success, retaliation, earnings recovery, or system discontinuation |
 | Digital replica or synthetic substitution: a related control/replaceability case | SAG-AFTRA 2023 agreement and union guidance | Notice, consent, compensation, bargaining, and bounded use of a worker’s voice/likeness/performance | Direct collective-bargaining rule | Producer compliance, refusal consequences, hiring effects, substitution rate, or performer outcome |
 
 ## What the crosswalk establishes
@@ -76,6 +77,7 @@ or workplace.
 - [JRC AIM-WORK practice and country map](jrc-aim-work-practice-country-map-v1.md)
 - [German works-council AI source record](german-ai-works-council-source-record-v1.md)
 - [SAG-AFTRA digital-replica source record](sag-aftra-digital-replica-source-record-v1.md)
+- [EU Platform Work Directive algorithmic-management source record](eu-platform-work-directive-algorithmic-management-source-record-v1.md)
 - [Worker/workplace event ledger specification](worker-workplace-event-ledger-v1.md)
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 

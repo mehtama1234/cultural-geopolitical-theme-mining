@@ -155,8 +155,8 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **34**
-- Review queue shown: **34** highest-frequency domains
+- Observed domains outside registered families: **35**
+- Review queue shown: **35** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
@@ -189,6 +189,7 @@ family that will be acquired, compared, or maintained over time.
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
 | `cbp.gov` | 1 | `analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json` |
 | `ec.europa.eu` | 1 | `analysis/projects/ai-work-control/jrc-aim-work-pdf-acquisition-audit-v1.md` |
+| `eur-lex.europa.eu` | 1 | `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
@@ -233,6 +234,7 @@ without a recurring acquisition need and source-specific metadata.
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
