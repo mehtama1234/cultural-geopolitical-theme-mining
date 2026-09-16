@@ -69,6 +69,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Uganda platform-work algorithmic remedy record](analysis/projects/ai-work-control/uganda-platform-work-algorithmic-remedy-record-v1.md)
 - [Malaysia Gig Workers Act algorithmic-remedy record](analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
 - [Global platform-work remedy comparison](analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md)
+- [Platform-work remedy case ledger](analysis/projects/ai-work-control/platform-remedy-case-ledger-v1.md)
 - [National implementation comparison](analysis/projects/ai-work-control/platform-work-directive-national-implementation-comparison-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 

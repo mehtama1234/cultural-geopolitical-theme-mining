@@ -105,6 +105,9 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - The [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
   now puts the court, worker-survey, statutory, and status-recognition records
   on one staged remedy chain without pooling unlike outcomes.
+- The [platform-work remedy case ledger](platform-remedy-case-ledger-v1.md)
+  now provides a row-level schema for explanation, review, correction,
+  restoration, payment, and anti-retaliation outcomes.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an
