@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **47**
+- Observed domains outside registered families: **48**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -183,6 +183,7 @@ family that will be acquired, compared, or maintained over time.
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
 | `support.leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
+| `uitspraken.rechtspraak.nl` | 4 | `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md` |
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `finlex.fi` | 1 | `analysis/projects/ai-work-control/finland-wolt-platform-work-court-consequence-record-v1.md` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
-| `kho.fi` | 1 | `analysis/projects/ai-work-control/finland-wolt-platform-work-court-consequence-record-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -233,6 +233,7 @@ without a recurring acquisition need and source-specific metadata.
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |
 | `support.leapeasy.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
+| `uitspraken.rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
@@ -253,9 +254,9 @@ without a recurring acquisition need and source-specific metadata.
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
+| `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `uitspraken.rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
