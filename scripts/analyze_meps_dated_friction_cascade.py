@@ -71,7 +71,7 @@ def main() -> int:
 
     fields = [
         "DUPERSID", "PANEL", "PERWT24F", "ENDRFY31", "ENDRFM31", "ENDRFY42", "ENDRFM42",
-        "EQDENY53", *[field for field, _, _ in OUTCOMES.values()],
+        "EQDENY53", "INSCOV24", "FWUNEXP42", *[field for field, _, _ in OUTCOMES.values()],
     ]
     person, _ = pyreadstat.read_dta(args.hc256_file, usecols=fields, apply_value_formats=False, encoding="latin1")
     person["KEY"] = key(person)
@@ -116,14 +116,25 @@ def main() -> int:
             "event_window_people": int(len(window)),
             "event_window_payment_field": payment_field,
             "friction_groups": {},
+            "conditioned_strata": {},
         }
-        for group_name, code in (("denial_or_delay", 1), ("no_denial_or_delay", 2)):
-            group = window.loc[friction.eq(code)].copy()
-            group_output: dict[str, object] = {"records": int(len(group)), "outcomes": {}}
-            for outcome, (field, positive, valid_field) in OUTCOMES.items():
-                numeric = pd.to_numeric(group[field], errors="coerce")
-                group_output["outcomes"][outcome] = estimate(group, positive(numeric).where(valid_field(numeric)))
-            family_output["friction_groups"][group_name] = group_output
+        strata = {
+            "any_private_coverage": window["INSCOV24"].eq(1),
+            "not_confident_paying_unexpected_expense": window["FWUNEXP42"].isin([1, 2]),
+        }
+        for stratum_name, stratum_mask in [("all_event_window", pd.Series(True, index=window.index)), *strata.items()]:
+            stratum_output: dict[str, object] = {}
+            for group_name, code in (("denial_or_delay", 1), ("no_denial_or_delay", 2)):
+                group = window.loc[stratum_mask & friction.eq(code)].copy()
+                group_output: dict[str, object] = {"records": int(len(group)), "outcomes": {}}
+                for outcome, (field, positive, valid_field) in OUTCOMES.items():
+                    numeric = pd.to_numeric(group[field], errors="coerce")
+                    group_output["outcomes"][outcome] = estimate(group, positive(numeric).where(valid_field(numeric)))
+                stratum_output[group_name] = group_output
+            if stratum_name == "all_event_window":
+                family_output["friction_groups"] = stratum_output
+            else:
+                family_output["conditioned_strata"][stratum_name] = stratum_output
         output["events"][family] = family_output
 
     args.output.parent.mkdir(parents=True, exist_ok=True)

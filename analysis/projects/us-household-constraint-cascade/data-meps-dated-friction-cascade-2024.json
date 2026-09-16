@@ -1,6 +1,176 @@
 {
   "events": {
     "emergency_room": {
+      "conditioned_strata": {
+        "any_private_coverage": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  19.149590066558517,
+                  43.175086565749744
+                ],
+                "brr_se_percentage_points": 6.12895318856919,
+                "share_percent": 31.16233831615413,
+                "valid_records": 80
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  19.520898706697995,
+                  43.904822557097845
+                ],
+                "brr_se_percentage_points": 6.220388737346902,
+                "share_percent": 31.71286063189792,
+                "valid_records": 79
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  22.742204804959442,
+                  45.25533213144756
+                ],
+                "brr_se_percentage_points": 5.743144726144927,
+                "share_percent": 33.9987684682035,
+                "valid_records": 80
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  21.25890381722347,
+                  47.858771448840756
+                ],
+                "brr_se_percentage_points": 6.785680518269716,
+                "share_percent": 34.55883763303211,
+                "valid_records": 78
+              }
+            },
+            "records": 80
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  2.123056047747889,
+                  8.261492523635049
+                ],
+                "brr_se_percentage_points": 1.565927672420194,
+                "share_percent": 5.192274285691469,
+                "valid_records": 257
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  8.804775696569038,
+                  19.963008462066174
+                ],
+                "brr_se_percentage_points": 2.8464879503819227,
+                "share_percent": 14.383892079317606,
+                "valid_records": 253
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  5.034449839290969,
+                  13.292210448688113
+                ],
+                "brr_se_percentage_points": 2.1065715840298838,
+                "share_percent": 9.16333014398954,
+                "valid_records": 253
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  17.536976243729054,
+                  30.83882721421831
+                ],
+                "brr_se_percentage_points": 3.3933293292064426,
+                "share_percent": 24.18790172897368,
+                "valid_records": 251
+              }
+            },
+            "records": 257
+          }
+        },
+        "not_confident_paying_unexpected_expense": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  17.880354875396424,
+                  51.257524662744984
+                ],
+                "brr_se_percentage_points": 8.514584129425652,
+                "share_percent": 34.5689397690707,
+                "valid_records": 48
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  44.87513786408612,
+                  77.26158186534505
+                ],
+                "brr_se_percentage_points": 8.261847959504827,
+                "share_percent": 61.06835986471558,
+                "valid_records": 46
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  37.79742612125409,
+                  71.1711662833545
+                ],
+                "brr_se_percentage_points": 8.513709225025611,
+                "share_percent": 54.48429620230429,
+                "valid_records": 48
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  28.00379622796344,
+                  62.222162636001634
+                ],
+                "brr_se_percentage_points": 8.729175104091375,
+                "share_percent": 45.11297943198254,
+                "valid_records": 45
+              }
+            },
+            "records": 48
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  4.832253568601333,
+                  18.401528045527108
+                ],
+                "brr_se_percentage_points": 3.4615496114606565,
+                "share_percent": 11.61689080706422,
+                "valid_records": 113
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  26.025357007415664,
+                  45.695570786908405
+                ],
+                "brr_se_percentage_points": 5.017911678442027,
+                "share_percent": 35.860463897162035,
+                "valid_records": 112
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  12.382466793219708,
+                  31.692330044952357
+                ],
+                "brr_se_percentage_points": 4.925985523401185,
+                "share_percent": 22.03739841908603,
+                "valid_records": 112
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  15.503546141445453,
+                  35.545337389210374
+                ],
+                "brr_se_percentage_points": 5.112701848919623,
+                "share_percent": 25.524441765327914,
+                "valid_records": 111
+              }
+            },
+            "records": 113
+          }
+        }
+      },
       "event_window_payment_field": "ERFSF24X",
       "event_window_people": 1096,
       "friction_groups": {
@@ -90,6 +260,176 @@
       "valid_first_event_people": 2923
     },
     "inpatient": {
+      "conditioned_strata": {
+        "any_private_coverage": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  -0.181436266522903,
+                  17.156425060568722
+                ],
+                "brr_se_percentage_points": 4.422923807931537,
+                "share_percent": 8.487494397022909,
+                "valid_records": 36
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  3.840713327739767,
+                  41.228517612701836
+                ],
+                "brr_se_percentage_points": 9.53770517473522,
+                "share_percent": 22.5346154702208,
+                "valid_records": 35
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  15.090114935808774,
+                  52.215477514432905
+                ],
+                "brr_se_percentage_points": 9.470755759853095,
+                "share_percent": 33.65279622512084,
+                "valid_records": 36
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  10.096346414754983,
+                  49.24953543326655
+                ],
+                "brr_se_percentage_points": 9.988058423089686,
+                "share_percent": 29.672940924010767,
+                "valid_records": 35
+              }
+            },
+            "records": 36
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  -0.42359575379497993,
+                  2.114782070369074
+                ],
+                "brr_se_percentage_points": 0.6475453633071566,
+                "share_percent": 0.8455931582870471,
+                "valid_records": 133
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  4.190099582138359,
+                  18.322040919714826
+                ],
+                "brr_se_percentage_points": 3.605087075912364,
+                "share_percent": 11.256070250926593,
+                "valid_records": 131
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  -0.007255394990659081,
+                  5.951539914211914
+                ],
+                "brr_se_percentage_points": 1.52010084418433,
+                "share_percent": 2.9721422596106275,
+                "valid_records": 131
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  7.882410005315863,
+                  19.972086328299298
+                ],
+                "brr_se_percentage_points": 3.084101102801897,
+                "share_percent": 13.927248166807582,
+                "valid_records": 129
+              }
+            },
+            "records": 133
+          }
+        },
+        "not_confident_paying_unexpected_expense": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  7.444782018165807,
+                  65.57866544760125
+                ],
+                "brr_se_percentage_points": 14.83007230342741,
+                "share_percent": 36.51172373288353,
+                "valid_records": 23
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  18.983875036887888,
+                  73.3752093648483
+                ],
+                "brr_se_percentage_points": 13.87534038978582,
+                "share_percent": 46.17954220086809,
+                "valid_records": 22
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  24.75072033814242,
+                  75.15514913604764
+                ],
+                "brr_se_percentage_points": 12.858272652526841,
+                "share_percent": 49.95293473709503,
+                "valid_records": 23
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  12.563666999317583,
+                  67.51144672400926
+                ],
+                "brr_se_percentage_points": 14.017290746094817,
+                "share_percent": 40.037556861663425,
+                "valid_records": 21
+              }
+            },
+            "records": 23
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  0.03458176706385352,
+                  18.42703109738079
+                ],
+                "brr_se_percentage_points": 4.6919513597747295,
+                "share_percent": 9.230806432222323,
+                "valid_records": 56
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  15.393652548134137,
+                  45.59213294974423
+                ],
+                "brr_se_percentage_points": 7.703693980002575,
+                "share_percent": 30.492892748939184,
+                "valid_records": 55
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  3.4973981993848735,
+                  27.343945616158955
+                ],
+                "brr_se_percentage_points": 6.0833029124423685,
+                "share_percent": 15.420671907771915,
+                "valid_records": 55
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  3.3953285630512884,
+                  27.26146014640591
+                ],
+                "brr_se_percentage_points": 6.088298873304751,
+                "share_percent": 15.3283943547286,
+                "valid_records": 54
+              }
+            },
+            "records": 56
+          }
+        }
+      },
       "event_window_payment_field": "IPFSF24X",
       "event_window_people": 545,
       "friction_groups": {
@@ -179,6 +519,176 @@
       "valid_first_event_people": 1415
     },
     "office": {
+      "conditioned_strata": {
+        "any_private_coverage": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  8.96605000180569,
+                  21.910961368643562
+                ],
+                "brr_se_percentage_points": 3.3022733078668045,
+                "share_percent": 15.438505685224627,
+                "valid_records": 131
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  16.562153011353352,
+                  33.64315099464487
+                ],
+                "brr_se_percentage_points": 4.357397444717223,
+                "share_percent": 25.10265200299911,
+                "valid_records": 128
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  11.847627797414816,
+                  28.921470460738277
+                ],
+                "brr_se_percentage_points": 4.355572107990679,
+                "share_percent": 20.384549129076547,
+                "valid_records": 131
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  17.486024751815247,
+                  37.217710693861264
+                ],
+                "brr_se_percentage_points": 5.033593352562758,
+                "share_percent": 27.351867722838254,
+                "valid_records": 129
+              }
+            },
+            "records": 131
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  4.473322368955182,
+                  7.740810762320551
+                ],
+                "brr_se_percentage_points": 0.8335429574911655,
+                "share_percent": 6.107066565637867,
+                "valid_records": 1000
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  7.48484011686894,
+                  11.704010747650349
+                ],
+                "brr_se_percentage_points": 1.076319038464645,
+                "share_percent": 9.594425432259644,
+                "valid_records": 994
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  4.837856088576427,
+                  9.17517870527439
+                ],
+                "brr_se_percentage_points": 1.10645985119846,
+                "share_percent": 7.006517396925409,
+                "valid_records": 999
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  12.03683898584821,
+                  18.755478178502553
+                ],
+                "brr_se_percentage_points": 1.7139385695546794,
+                "share_percent": 15.396158582175381,
+                "valid_records": 996
+              }
+            },
+            "records": 1001
+          }
+        },
+        "not_confident_paying_unexpected_expense": {
+          "denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  21.088957840246948,
+                  60.727742459013385
+                ],
+                "brr_se_percentage_points": 10.111934851726131,
+                "share_percent": 40.90835014963017,
+                "valid_records": 47
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  42.00060361401727,
+                  78.06197532354767
+                ],
+                "brr_se_percentage_points": 9.199329517737349,
+                "share_percent": 60.031289468782475,
+                "valid_records": 46
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  45.2389628176517,
+                  76.75305825728138
+                ],
+                "brr_se_percentage_points": 8.039310061130022,
+                "share_percent": 60.99601053746654,
+                "valid_records": 47
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  39.41767238190873,
+                  75.88954863491605
+                ],
+                "brr_se_percentage_points": 9.304050064542682,
+                "share_percent": 57.65361050841239,
+                "valid_records": 46
+              }
+            },
+            "records": 47
+          },
+          "no_denial_or_delay": {
+            "outcomes": {
+              "cost_related_care_delay": {
+                "approx_95_ci_percentage_points": [
+                  10.352301650037493,
+                  20.512586451617004
+                ],
+                "brr_se_percentage_points": 2.5919093881580384,
+                "share_percent": 15.432444050827248,
+                "valid_records": 198
+              },
+              "debt_collector_contact": {
+                "approx_95_ci_percentage_points": [
+                  25.467730601813336,
+                  42.48923305607921
+                ],
+                "brr_se_percentage_points": 4.342220013843334,
+                "share_percent": 33.97848182894627,
+                "valid_records": 196
+              },
+              "medical_bill_problem": {
+                "approx_95_ci_percentage_points": [
+                  13.981591284580354,
+                  28.172345524503704
+                ],
+                "brr_se_percentage_points": 3.620090367327386,
+                "share_percent": 21.07696840454203,
+                "valid_records": 198
+              },
+              "medical_debt": {
+                "approx_95_ci_percentage_points": [
+                  20.50053493505021,
+                  37.62474041653679
+                ],
+                "brr_se_percentage_points": 4.36841976568535,
+                "share_percent": 29.0626376757935,
+                "valid_records": 196
+              }
+            },
+            "records": 198
+          }
+        }
+      },
       "event_window_payment_field": "OBSF24X",
       "event_window_people": 3227,
       "friction_groups": {

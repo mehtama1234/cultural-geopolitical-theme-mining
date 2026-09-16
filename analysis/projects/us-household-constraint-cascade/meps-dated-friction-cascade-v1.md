@@ -38,6 +38,27 @@ event-window populations are 3,227 office, 1,096 ER, and 545 inpatient people;
 records with codes other than `EQDENY53=1` or `EQDENY53=2` are not assigned to
 either friction comparison group.
 
+## Practical-room conditioning
+
+The pooled contrast is not the whole mechanism. Two pre-specified conditioning
+surfaces test whether it remains visible among people with any private coverage
+and among people who report low confidence paying an unexpected expense:
+
+| Event family / stratum | Denial/delay: care delay; medical debt | No denial/delay: care delay; medical debt |
+|---|---:|---:|
+| Office / any private coverage | 15.44%; 27.35% (n=131) | 6.11%; 15.40% (n=1,001) |
+| ER / any private coverage | 31.16%; 34.56% (n=80) | 5.19%; 24.19% (n=257) |
+| Inpatient / any private coverage | 8.49%; 29.67% (n=36) | 0.85%; 13.93% (n=133) |
+| Office / not confident paying unexpected expense | 40.91%; 57.65% (n=47) | 15.43%; 29.06% (n=198) |
+| ER / not confident paying unexpected expense | 34.57%; 45.11% (n=48) | 11.62%; 25.52% (n=113) |
+| Inpatient / not confident paying unexpected expense | 36.51%; 40.04% (n=23) | 9.23%; 15.33% (n=56) |
+
+These intersections are descriptive robustness screens, not separate causal
+estimates. Inpatient and friction/room cells are small; the practical-room
+variables are annual/person-level measures, not liquid cash or event-specific
+deductibles. The result is best read as evidence that nominal coverage does
+not erase reported room heterogeneity, not as a plan-generosity effect.
+
 ## What this adds
 
 The friction contrast is visible across all three event families. In the
@@ -82,9 +103,9 @@ python3 scripts/analyze_meps_dated_friction_cascade.py \
 
 The [analysis script](../../../scripts/analyze_meps_dated_friction_cascade.py)
 was corrected for a pandas index-alignment issue before this output was
-accepted. Script SHA-256: `a2d6c0fb4df0c750e539c13610b7db5df0f06130e29a0e9edcc48dbdfc99b357`.
+accepted. Script SHA-256: `2b9692f8db7166e2d57d4ce315e25eb2d2b489a979e2a22d00d0c2c8c91970b9`.
 The compact output SHA-256 is
-`17457e38949194cc8a39614216d3ff4c6099efaef1cce1fe8a94b697d007865d`.
+`034f3b88bd43fa3ae08d9662f8b089fb70779dd10f655c2ac716be27b7a40fa8`.
 
 **Evidence status:** strict-window same-person descriptive comparison; not a
 claim-level episode, causal estimate, remedy result, recovery measure, or
