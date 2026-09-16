@@ -31,6 +31,12 @@ Remers](https://www.btq-kassel.de/interview_frank_remers/). The local
 [German works-council source record](german-ai-works-council-source-record-v1.md)
 preserves acquisition details and hashes.
 
+A peer-reviewed comparative article independently describes the 2020 IBM
+agreement as a joint works-council, HR, and expert project and identifies its
+human-final-decision principle and AI Ethics Council. This corroborates the
+governance architecture, while still not supplying a live intervention or
+worker outcome.
+
 ## Governance matrix
 
 | Control stage | What the record provides | What remains open |
@@ -112,6 +118,7 @@ measured effect on work, pay, mobility, or stress.
 
 - [WageIndicator transcription of the IBM AI framework](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence)
 - [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
+- [Peer-reviewed study on German union strategies for workplace AI](https://doi.org/10.1177/10242589221142273)
 - [German works-council AI source record](german-ai-works-council-source-record-v1.md)
 - [AIM-WORK exposure to institutional safeguard crosswalk](aim-work-institutional-safeguard-crosswalk-v1.md)
 
