@@ -95,6 +95,12 @@ acceptance, fielding, training, or inventory change for that order. The
 settlement documentation can be incomplete, while the <a href="ai-work-control-083.html">FMS timing
 finding</a> shows that schedule, physical
 delivery, acceptance, and accounting settlement can sit on different clocks.</p>
+<p>The reusable <a href="../analysis/projects/ai-work-control/realization-ledger-protocol-v1.md">strategic capability realization ledger protocol</a>
+turns that distinction into an event contract. It requires separate rows for
+authorization, agreement, production, shipment, acceptance, training,
+inventory, operational use, and external response, with source locators,
+date precision, quantities, actors, and bounded non-observation. It is the
+promotion gate for the next delivery or leverage claim.</p>
 <p>This is not a contradiction. It is a more precise realization ledger:</p>
 <pre><code class="language-text">award / agreement
   -&gt; production support and capacity investment       [observed]

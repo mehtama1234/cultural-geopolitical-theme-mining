@@ -117,6 +117,13 @@ settlement documentation can be incomplete, while the [FMS timing
 finding](findings/ai-work-control-083.md) shows that schedule, physical
 delivery, acceptance, and accounting settlement can sit on different clocks.
 
+The reusable [strategic capability realization ledger protocol](realization-ledger-protocol-v1.md)
+turns that distinction into an event contract. It requires separate rows for
+authorization, agreement, production, shipment, acceptance, training,
+inventory, operational use, and external response, with source locators,
+date precision, quantities, actors, and bounded non-observation. It is the
+promotion gate for the next delivery or leverage claim.
+
 This is not a contradiction. It is a more precise realization ledger:
 
 ```text
