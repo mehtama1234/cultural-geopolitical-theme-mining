@@ -62,7 +62,7 @@ Every link must be labeled as observed, reported, estimated, inferred, compared,
 
 The arrow-by-arrow source assignment is maintained in the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md). It is the operational companion to this theme inventory.
 
-The active program starts with five cross-domain bridges, each requiring
+The active program starts with six cross-domain bridges, each requiring
 population-, market-, firm-, place-, institution-, and political evidence where
 available. These are priority routes through the 14-theme program, not a
 replacement for the full societal scope:
@@ -72,6 +72,7 @@ replacement for the full societal scope:
 3. **Work rule/tool -> control, security, and bargaining -> household and local power.**
 4. **Housing/energy/insurance -> health, mobility, and place -> staying, moving, or recovery.**
 5. **Public aid/rule -> exposure and take-up -> material result, interpretation, and political response.**
+6. **Consumer participation -> money, time, privacy, status, and recovery cost -> trust, practical exit, and public or market response.**
 
 The next work is to attach valid data to these bridges, preserve source and
 method limits, apply the [trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md),
