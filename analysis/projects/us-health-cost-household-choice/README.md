@@ -176,6 +176,11 @@ alternatives, care choice, obligation, protected and sacrificed outcomes,
 institutional remedy, and later trust/action with explicit promotion and
 failure rules.
 
+The [CFPB event-ledger health-cost bridge](cfpb-event-ledger-health-cost-bridge-v1.md)
+maps the public complaint ledger onto that protocol. It demonstrates a usable
+receipt-to-response event contract while keeping verified medical remedy,
+household recovery, repeat effort, switching, and trust as unobserved fields.
+
 The [MEPS financial-room/care-delay layer](meps-2024-financial-room-care-delay-v1.md)
 adds a same-respondent comparison between confidence paying an unexpected
 expense or medical debt and cost-related delay or inability to afford care and

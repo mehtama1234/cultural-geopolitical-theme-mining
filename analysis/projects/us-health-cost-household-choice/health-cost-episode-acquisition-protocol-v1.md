@@ -104,3 +104,9 @@ supported. The [MEPS bounded event ledger](meps-2024-bounded-episode-ledger-v1.m
 provides exact person/event linkage and payment context, but not care choice,
 household adaptation, remedy, trust, or action. This protocol defines the
 additional acquisition required to close those arrows.
+
+The [CFPB event-ledger health-cost bridge](cfpb-event-ledger-health-cost-bridge-v1.md)
+provides an implementation template for the institutional middle: receipt,
+route, handoff, and response can be recorded as events, while verified remedy,
+recovery, repeat effort, switching, and trust remain separate fields that must
+be acquired rather than inferred.

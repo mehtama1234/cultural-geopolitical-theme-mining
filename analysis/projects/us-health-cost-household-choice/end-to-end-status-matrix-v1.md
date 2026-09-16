@@ -44,6 +44,13 @@ Medicare/Medicaid and insurer-trust targets. It remains an acquisition and
 replication route until module overlap, timing, weights, and identifiers are
 verified in the released files.
 
+The [CFPB event-ledger health-cost bridge](cfpb-event-ledger-health-cost-bridge-v1.md)
+adds an implementation-level institutional route: complaint receipt, routing,
+and response can be structured as events, but the public administrative record
+does not verify medical remedy, household recovery, repeat effort, switching,
+or trust. It is therefore a contract for the missing middle, not a completed
+health-cost result.
+
 ## Current strongest findings
 
 The consolidated [end-to-end finding](findings/us-health-cost-household-choice-end-to-end-001.md)
