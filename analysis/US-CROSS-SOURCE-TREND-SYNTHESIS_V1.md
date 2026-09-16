@@ -21,6 +21,7 @@ is compared across sources, and which stage remains an open test?**
 | How institutions shape practical options | [The public-system and consumer route findings](projects/us-safety-net-access/findings/us-safety-net-access-014.md) and [CFPB route findings](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md) | A complaint, notice, or benefit receipt is an institutional route, not by itself a remedy, recovered security, trust change, or exit. |
 | How local economies and infrastructure matter | [The firm/place finding](projects/us-local-business-place/findings/us-local-business-place-011.md) and [infrastructure/state-capacity bridge](projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md) | Applications, openings, jobs, capacity, revenue, ownership, and replaceability are separate stages; entry or investment is not automatically broad prosperity or leverage. |
 | How meaning, politics, and geopolitics enter | [The cost/trust/politics program](projects/us-cost-trust-politics/README.md) and [comparative capability context](projects/ai-work-control/findings/ai-work-control-073.md) | Surveys and international comparisons identify meaning, confidence, capability, and context; they do not by themselves prove attribution, collective action, or external behavior change. |
+| How consumer participation becomes social power | [Consumer culture, trust, status, and everyday power](projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md) and [consumer recourse visibility/remedy](projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md) | Buying, sharing, reporting, help-seeking, switching, and staying are distinct participation surfaces; trust, visibility, remedy, dignity, and practical exit must not be substituted for one another. |
 
 The rest of this page moves in four passes: the joint proposition, the
 evidence by arrow, the segments that are genuinely end-to-end, and the next
@@ -32,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-twenty-five estimates of one phenomenon:
+twenty-six estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -61,10 +62,11 @@ twenty-five estimates of one phenomenon:
 | 23. Firm capacity and worker control | [Firm capacity, AI adoption, and labor mobility](projects/ai-work-control/findings/ai-work-control-064.md) | Firm complements, task-level adoption, formal voice, and aggregate mobility are successive gates; none alone measures worker discretion or control | Dated workplace implementation, monitoring, review, schedule/pay effects, grievance/remedy, household response, bargaining, and exit |
 | 24. Housing risk and practical mobility | [Place risk, housing security, mobility, and local life](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md) | Payment, insurance, hazard, energy, transport, business, and public-backstop surfaces can compound while remaining distinct | Same property/household shock, protection, repair, assistance, time/care/work trade-off, stay/move, recovery, trust, and political response |
 | 25. Financial access and recourse | [The financial route is part of the social outcome](projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md) | Provider capacity, formal access, alternative transaction/credit routes, complaint visibility, public fiscal room, and household meaning are successive stages | Same financial episode, alternatives, terms, effort, correction, recovery, switching, trust, and political action |
+| 26. Consumer culture, trust, status, and everyday power | [Consumer culture, trust, status, and everyday power](projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Consumer participation can express trust, independence, stigma, fairness, and perceived exit capacity while also generating firm/platform information; concrete trend records remain separate surfaces | Same-customer dated need/exposure, information and social-signaling conditions, cost, response authority, verified remedy, recovery, switching/abandonment, and later trust or political demand |
 
 ### The common pattern
 
-Across the twenty-five rotations, the strongest recurring theme is **unequal
+Across the twenty-six rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
