@@ -160,7 +160,7 @@ family that will be acquired, compared, or maintained over time.
 
 | Domain | References | Example evidence files |
 |---|---:|---|
-| `doi.org` | 59 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
+| `doi.org` | 60 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
 | `fwc.gov.au` | 42 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |

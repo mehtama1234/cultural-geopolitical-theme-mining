@@ -12,8 +12,15 @@
 4. [ver.di: Auch die KI macht Fehler](https://publik.verdi.de/ausgabe-202503/auch-die-ki-macht-fehler/), accessed 2026-09-11.
 5. [WageIndicator transcription of IBM Central Holding GmbH / Group Works Council AI framework, version 25 June 2020](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence), accessed 2026-09-11.
 6. [BTQ Kassel interview with IBM Group Works Council representative Frank Remers](https://www.btq-kassel.de/interview_frank_remers/), 10 March 2022 interview, accessed 2026-09-11.
+7. [Krzywdzinski, Gerst, and Butollo, “Promoting human-centred AI in the workplace”](https://doi.org/10.1177/10242589221142273), accessed 2026-09-15.
 
 These records are published by the company, the union, and WageIndicator. The WageIndicator page reproduces the IBM framework text and identifies IBM Central Holding GmbH, its Group Works Council, and a 30 July 2020 signature date. It is an accessible archive of the agreement, not the original IBM document host. None of these records independently shows compliance, worker coverage outside the named German entities, or effects on pay, productivity, or stress.
+
+The peer-reviewed study independently describes the IBM agreement as a joint
+works-council, HR, and expert project, including its human-final-decision
+principle and AI Ethics Council. It corroborates the architecture and
+development pathway, but does not add a worker-level outcome or audited
+deployment record.
 
 The WageIndicator acquisition is preserved in the [machine-readable acquisition
 record](data/wageindicator-ibm-ai-framework-acquisition-v1.json). The fetched
