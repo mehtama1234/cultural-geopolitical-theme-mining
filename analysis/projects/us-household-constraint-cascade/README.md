@@ -1,0 +1,70 @@
+# US household constraint cascade
+
+## Governing end-to-end objective
+
+Determine whether housing and coverage instability jointly produce a recurring
+household constraint cascade:
+
+```text
+housing / coverage / utility pressure
+  -> care foregone, reduced room, or borrowing
+  -> work, childcare, food, or time adaptation
+  -> persistence or recovery on a later clock
+  -> firm, agency, insurer, lender, or public-program response
+  -> trust, legitimacy, collective action, or exit
+```
+
+The project must preserve the unit and clock of every source. It is not allowed
+to turn separate population surveys into one synthetic causal estimate.
+
+## Current bounded result
+
+The existing evidence supports a layered cascade hypothesis:
+
+1. Coverage transitions are associated with different care-foregoing paths and
+   different 2025 financial-adaptation surfaces in the SHED recontact panel.
+2. Utility-payment difficulty sits beside next-month earnings and hours movement
+   in SIPP, with tenure producing a useful moderator rather than one universal
+   housing mechanism.
+3. Utility difficulty also sits beside an annual child-care work-prevention
+   measure; the contrast is larger among owners than renters, but the small
+   difficulty cells are imprecise and the clock is mixed.
+4. Housing insurance pressure adds a second protection problem: ownership does
+   not guarantee affordable or adequate coverage, especially for lower-income
+   owners.
+5. Financial adaptations persist for many SHED respondents even when broad
+   financial condition improves, while some improving respondents end an
+   adaptation. Recovery therefore has to be measured separately from exposure.
+
+These observations make the cascade a strong research target. They do not show
+that a utility bill caused a care decision, that coverage loss caused debt, or
+that hardship caused political action.
+
+## Evidence routes
+
+- [Constraint-cascade cross-source bridge](constraint-cascade-cross-source-bridge-v1.md)
+- [SHED coverage-to-care machine record](../../records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
+- [SHED coverage-to-care reproduction audit](../us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
+- [SIPP utility-to-work machine record](../../records/us-sipp-utility-work-following-2024.json)
+- [SIPP utility × tenure → work machine record](../../records/us-sipp-utility-work-tenure-following-2024.json)
+- [SIPP utility × tenure → childcare machine record](../../records/us-sipp-utility-tenure-childcare-2024.json)
+- [SHED financial persistence layer](../us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
+- [SHED homeowners-insurance pressure layer](../us-housing-insurance-affordability/shed-2025-home-insurance-pressure-layer-v1.md)
+
+## Definition of done
+
+The project is complete only when a dated person or household episode records:
+
+- the housing, coverage, utility, health, or care trigger;
+- the amount, obligation, coverage rule, and feasible alternatives;
+- the protected need and the sacrificed, delayed, borrowed, or transferred need;
+- paid work, unpaid care, childcare, food, health, housing, and debt outcomes;
+- the response from the relevant firm, agency, insurer, lender, employer, or
+  family member;
+- a later remedy, persistence, recovery, trust, action, switching, or exit
+  outcome; and
+- denominator, missingness, weights, uncertainty, counterexamples, and source
+  hashes sufficient for independent reproduction.
+
+Until then, publish this project as a bridge and acquisition target, not as a
+completed causal chain.
