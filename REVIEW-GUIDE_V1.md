@@ -23,8 +23,9 @@ Read these in order if you want the most developed end-to-end chain:
 1. [Consolidated health-cost finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 2. [Month-ordered MEPS event timing](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md)
 3. [Institutional friction across event channels](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
-4. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
-5. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
+4. [CFPB event-ledger bridge for the remedy gap](analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md)
+5. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
+6. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
 
 The central conclusion is deliberately qualified: the project can connect
 health-cost exposure, care choices, household adaptation, institutional
@@ -47,6 +48,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 
 - [Customer-service automation and recourse](analysis/findings/us-customer-automation-matched-evidence-001.md)
 - [Consumer loss, recovery, and recourse](analysis/findings/us-consumer-fraud-trust-matched-evidence-001.md)
+- [Public complaint route and response ledger](analysis/projects/us-customer-automation-recourse/cfpb-public-event-ledger-acquisition-audit-2026-09-14.md)
 
 ### Work, control, and bargaining
 
