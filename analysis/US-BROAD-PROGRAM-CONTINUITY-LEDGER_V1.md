@@ -212,6 +212,14 @@ effects; the next test remains a same-household obligation and liquidity
 episode with timing, substitution, debt, care continuation, remedy, and
 recovery.
 
+The nineteenth rotation adds coverage-conditioned event context through the
+[MEPS acute-event coverage screen](projects/us-health-cost-household-choice/meps-2024-event-context-by-coverage-v1.md).
+It shows that acute-event health and bill-problem surfaces differ across
+private, public-only, and uninsured groups, while preserving coverage as a
+condition rather than an explanation. The next test remains plan adequacy,
+event bill timing, care alternatives, delayed or foregone care, treatment
+continuity, remedy, and household outcome.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-eighteen estimates of one phenomenon:
+nineteen estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -54,10 +54,11 @@ eighteen estimates of one phenomenon:
 | 16. Institutional friction and later persistence | [MEPS friction to later-panel screen](projects/us-household-constraint-cascade/meps-friction-later-panel-v1.md) | Route-specific denial/prior-authorization reports sit beside later same-person health/work transitions, with health persistence clearer than employment movement | Claim date, appeal, treatment continuity, verified remedy, household adaptation, trust, action, and exit |
 | 17. Payment and household burden | [MEPS event payment and bill context](projects/us-health-cost-household-choice/meps-2024-event-payment-bill-context-v1.md) | Observed event payment, annual bill-problem status, coverage, resources, and care access are distinct and non-monotonic surfaces | Dated obligation, deductible/balance, payment timing, borrowing, foregone care, household trade-off, remedy, and recovery |
 | 18. Payment bands and practical room | [MEPS event payment bands](projects/us-health-cost-household-choice/meps-2024-event-payment-bands-v1.md) | Zero payment can coexist with lower emergency-payment confidence while high payment can coexist with more medical debt; event selection and payer protection matter | Household obligation, liquid room, payment timing, care continuation/foregoing, debt, remedy, and recovery |
+| 19. Coverage-conditioned event context | [MEPS acute-event context by coverage](projects/us-health-cost-household-choice/meps-2024-event-context-by-coverage-v1.md) | Acute-event health and bill-problem surfaces differ by private, public-only, and uninsured coverage; coverage conditions the comparison but does not explain it | Plan adequacy, event bill, care alternative, delayed/foregone care, treatment continuity, remedy, and household outcome |
 
 ### The common pattern
 
-Across the eighteen rotations, the strongest recurring theme is **unequal
+Across the nineteen rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
