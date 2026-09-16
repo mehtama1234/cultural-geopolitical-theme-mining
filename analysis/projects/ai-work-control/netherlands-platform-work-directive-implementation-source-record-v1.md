@@ -87,6 +87,11 @@ assessment, transparency, portability, trained human oversight, two-week
 review and correction windows, anti-retaliation, reporting, supervision, and
 administrative penalties. These remain draft provisions, not operative rights.
 
+The [Deliveroo status case](netherlands-deliveroo-algorithmic-status-case-record-v1.md)
+adds a pre-directive national court comparator. It establishes a final employment-
+status decision in a digitally organized delivery system, but not a remedy under
+the future statute or a worker-level automated-decision review.
+
 ## Sources
 
 - [Dutch legislative calendar: Wet platformwerk](https://wetgevingskalender.overheid.nl/Regeling/WGK026385).

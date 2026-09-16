@@ -46,6 +46,10 @@ The current records establish the first two stages in all three countries. The
 Netherlands also establishes a public consultation stage. None of the three
 records yet establishes the final four stages.
 
+The Netherlands now has one adjacent outcome-bearing comparator: the 2023
+Deliveroo judgment. It is a national court status outcome under pre-existing
+law, not evidence that the future directive or draft Act has been applied.
+
 ## Theme 1: the same EU rule creates different national observability
 
 Germany is visible through parliamentary questions and ministry statements.
@@ -78,6 +82,11 @@ The current packet contains no dated worker-level case showing that a platform
 worker obtained an explanation, human review, correction, compensation, or
 protection from retaliation under these national implementation processes.
 That absence is a research gap, not evidence of failure.
+
+The Deliveroo case narrows that statement rather than eliminating it: a court
+recognized an employment relationship in a platform setting, but the record
+does not show an automated-decision explanation, account restoration, rating
+correction, or remedy under the new algorithmic-management architecture.
 
 The end-to-end claim must therefore remain conditional:
 
@@ -147,6 +156,7 @@ outcome.
 - [Country implementation ledger](data/eu-platform-work-directive-country-implementation-ledger-v1.json)
 - [Germany record](germany-platform-work-directive-implementation-source-record-v1.md)
 - [Netherlands record](netherlands-platform-work-directive-implementation-source-record-v1.md)
+- [Netherlands Deliveroo status case](netherlands-deliveroo-algorithmic-status-case-record-v1.md)
 - [France record](france-platform-work-directive-implementation-source-record-v1.md)
 - [JRC AIM-WORK practice and country map](jrc-aim-work-practice-country-map-v1.md)
 

@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **42**
+- Observed domains outside registered families: **44**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -189,6 +189,7 @@ family that will be acquired, compared, or maintained over time.
 | `wetgevingskalender.overheid.nl` | 3 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
+| `hogeraad.nl` | 2 | `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md`; `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md` |
 | `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `rijksoverheid.nl` | 2 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `legifrance.gouv.fr` | 1 | `analysis/projects/ai-work-control/france-platform-work-directive-implementation-source-record-v1.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
-| `open.gsa.gov` | 1 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -239,6 +239,7 @@ without a recurring acquisition need and source-specific metadata.
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
@@ -252,6 +253,7 @@ without a recurring acquisition need and source-specific metadata.
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `uitspraken.rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
 
