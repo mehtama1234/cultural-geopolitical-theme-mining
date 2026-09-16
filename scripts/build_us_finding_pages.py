@@ -312,6 +312,8 @@ def main():
     memos.append(material_meaning_action_audit)
     ai_work_control_endpoint_audit = ROOT / "analysis/projects/ai-work-control/ai-work-control-endpoint-audit-v1.md"
     memos.append(ai_work_control_endpoint_audit)
+    named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"
+    memos.append(named_workplace_system_stage_ledger)
     # Give the household-finance lane a stable reader route across prices,
     # buffers, credit, firm terms, adaptation, and political meaning.
     household_finance_readme = ROOT / "analysis/projects/us-household-financial-pressure/README.md"
@@ -478,6 +480,7 @@ def main():
         jassm_control_surface_audit: "jassm-subaward-control-surface-audit-v1.html",
         material_meaning_action_audit: "material-meaning-action-endpoint-audit-v1.html",
         ai_work_control_endpoint_audit: "ai-work-control-endpoint-audit-v1.html",
+        named_workplace_system_stage_ledger: "named-workplace-system-stage-ledger-v1.html",
         household_finance_readme: "household-financial-pressure-program.html",
         household_pressure_synthesis: "financial-pressure-adaptation-recovery-synthesis-v1.html",
         aging_care_readme: "aging-care-strain-program.html",
