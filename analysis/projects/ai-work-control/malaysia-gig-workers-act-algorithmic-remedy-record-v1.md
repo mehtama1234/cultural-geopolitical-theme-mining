@@ -29,6 +29,7 @@ that a platform complied, or that a Tribunal awarded a remedy.
 - [Ministry Act 872 FAQ](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/faq.pdf)
 - [JTKSM Act 872 enforcement page](https://jtksm.mohr.gov.my/ms/penguatkuasaan-akta-pekerja-gig-2025-jtksm)
 - [JTKSM 2025 annual report](https://jtksm.mohr.gov.my/sites/default/files/2026-04/LAPORAN%20TAHUNAN%202025%20V2.pdf)
+- [Ministry announcement establishing the Gig Workers Tribunal and Gig Consultation Council, 3 April 2026](https://www.mohr.gov.my/pdf/2026/KSM.%20100-2-1-1%20JLD%205%20%2874%29.pdf)
 
 The Act received Royal Assent on 16 December 2025 and was gazetted on 31
 December 2025. The Ministry's 31 March 2026 notice states that enforcement
@@ -99,10 +100,20 @@ institutional routes:
 - a Ministry [Act 872 enforcement and downloads portal](https://www.mohr.gov.my/aktapekerjagig2025/download.html), including the conciliation and Tribunal regulations;
 - a public [Act 872 information portal](https://www.mohr.gov.my/aktapekerjagig2025/infokit.html) linking dispute-resolution and Tribunal information.
 
+The Ministry's 3 April 2026 announcement adds an important implementation-stage
+fact: the Gig Workers Tribunal and Gig Consultation Council were formally
+established and their members received appointment certificates. JTKSM's
+enforcement page was still maintained and marked updated on 15 September 2026.
+These facts upgrade the institutional-stage code from “rules and portal
+visible” to “formal institutions reported established and implementation page
+maintained.” They do not show that a worker filed a complaint, that the
+Tribunal heard a matter, or that an automated-decision remedy was delivered.
+
 These are observed implementation artifacts, not evidence that a worker has
-obtained a remedy. The current public search found no case-level complaint
-register, conciliation settlement, Tribunal award, or enforcement decision
-identifying an automated-monitoring or automated-decision dispute. The next
+obtained a remedy. The current public search found no published complaint
+count, case-level complaint register, conciliation settlement, Tribunal award,
+or enforcement decision identifying an automated-monitoring or
+automated-decision dispute. The next
 acquisition should test whether those records are non-public, newly emerging,
 or available through a formal information request.
 

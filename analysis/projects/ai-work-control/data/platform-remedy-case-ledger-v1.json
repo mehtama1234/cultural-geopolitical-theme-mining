@@ -12,6 +12,10 @@
     "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
   },
   "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
+  "implementation_stage_vocabulary": {
+    "formal_institutions_reported_established": "An official source reports that the responsible dispute institution has been constituted; this does not establish use or outcome.",
+    "implementation_artifacts_visible": "A public portal, regulation, or guidance route is visible; this does not establish institutional exercise."
+  },
   "records": [
     {
       "id": "PR-001",
@@ -42,6 +46,7 @@
       "source_type": "enacted_statute_and_implementation_materials",
       "decision_surface": ["automated_monitoring", "automated_decision_systems", "deactivation", "payment"],
       "worker_route": "Non-automated review, hearing, internal grievance, conciliation, Tribunal",
+      "implementation_stage": "formal_institutions_reported_established",
       "stages": {"explanation": "observed_rule", "human_review": "observed_rule", "correction_restoration": "not_observed", "payment_compensation": "observed_rule", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_statutory_architecture_low_for_exercised_outcome",
       "boundary": "Complaint infrastructure is visible; no public automated-decision case outcome located."
