@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-interround-payment-followup",
+  "title": "MEPS event payment bands do not form a monotonic later-health or bill gradient",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person records with first ER or inpatient event strictly between R3/1 and R4/2, conditioned on event-level family-paid amount",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; first emergency-room event in strict inter-round window, by family-paid amount band",
+      "denominator": {"value": 1108, "unit": "event-window people; outcome-specific valid denominators vary", "value_type": "event_window_people"},
+      "measures": {
+        "zero_payment_event_window_people": {"value": 765, "unit": "people", "value_type": "count"},
+        "zero_payment_baseline_fair_or_poor_health": {"value": 28.51, "unit": "percent; weighted share; BRR SE 1.85 pp", "value_type": "weighted_share"},
+        "zero_payment_followup_fair_or_poor_health": {"value": 30.34, "unit": "percent; weighted share; BRR SE 1.99 pp", "value_type": "weighted_share"},
+        "zero_payment_followup_bill_problem": {"value": 14.28, "unit": "percent; weighted share; BRR SE 1.80 pp", "value_type": "weighted_share"},
+        "positive_under_100_followup_bill_problem": {"value": 11.35, "unit": "percent; weighted share; BRR SE 3.65 pp", "value_type": "weighted_share"},
+        "100_or_more_followup_bill_problem": {"value": 18.11, "unit": "percent; weighted share; BRR SE 2.89 pp", "value_type": "weighted_share"},
+        "100_or_more_family_payment_mean": {"value": 789.54, "unit": "2024 dollars; weighted event-person mean", "value_type": "weighted_mean"}
+      },
+      "method": "First event month strictly after R3/1 and strictly before R4/2 endpoint month; payment band is zero, positive under $100, or $100 and above using event-level family-paid amount; outcomes use PERWT24F and 128 BRR replicates.",
+      "uncertainty": "Family-paid amount is not a complete bill, balance, or household burden. Payment bands inherit event severity, payer, coverage, and selection differences; the small positive-under-$100 cell is imprecise.",
+      "subgroup": "First emergency-room event in the strict inter-round window.",
+      "counterinterpretation": "Zero payment may reflect public or private coverage, imputation, payer mix, or an event with no recorded family payment rather than low burden; higher payment may mark severity rather than unaffordability.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; event:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; script:sha256:f1436fdcf39f71550f901e626c06e5e2209080db0b0e937221b9383b371c5fcf; result:sha256:aec459167f21c42baad9aa74632106c996cefc85cb46e032bfdb2e0cb7316695",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first inpatient event in strict inter-round window, by family-paid amount band",
+      "denominator": {"value": 552, "unit": "event-window people; outcome-specific valid denominators vary", "value_type": "event_window_people"},
+      "measures": {
+        "zero_payment_event_window_people": {"value": 343, "unit": "people", "value_type": "count"},
+        "zero_payment_baseline_fair_or_poor_health": {"value": 33.37, "unit": "percent; weighted share; BRR SE 3.15 pp", "value_type": "weighted_share"},
+        "zero_payment_followup_fair_or_poor_health": {"value": 36.08, "unit": "percent; weighted share; BRR SE 3.46 pp", "value_type": "weighted_share"},
+        "zero_payment_followup_bill_problem": {"value": 11.77, "unit": "percent; weighted share; BRR SE 2.34 pp", "value_type": "weighted_share"},
+        "positive_under_100_followup_bill_problem": {"value": 11.47, "unit": "percent; weighted share; BRR SE 5.32 pp", "value_type": "weighted_share"},
+        "100_or_more_followup_bill_problem": {"value": 9.58, "unit": "percent; weighted share; BRR SE 2.47 pp", "value_type": "weighted_share"},
+        "100_or_more_family_payment_mean": {"value": 2474.99, "unit": "2024 dollars; weighted event-person mean", "value_type": "weighted_mean"}
+      },
+      "method": "First event month strictly after R3/1 and strictly before R4/2 endpoint month; payment band is zero, positive under $100, or $100 and above using event-level family-paid amount; outcomes use PERWT24F and 128 BRR replicates.",
+      "uncertainty": "Payment is event-level family contribution, not a full obligation; the positive-under-$100 inpatient cell has 34 people and wide intervals. Baseline selection and event severity remain.",
+      "subgroup": "First inpatient event in the strict inter-round window.",
+      "counterinterpretation": "A lower bill-problem share at higher payment can reflect coverage, payer mix, severity, payment capacity, or reporting rather than lower burden.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; event:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:f1436fdcf39f71550f901e626c06e5e2209080db0b0e937221b9383b371c5fcf; result:sha256:aec459167f21c42baad9aa74632106c996cefc85cb46e032bfdb2e0cb7316695",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-health-cost-household-choice/meps-2024-between-round-event-transitions-v1.md", "claim": "The strict event window preserves baseline selection before follow-up.", "status": "related-layer"},
+    {"source_url": "../../projects/us-health-cost-household-choice/meps-2024-bounded-episode-ledger-v1.md", "claim": "The first-event ledger defines payment as event-level family/self payment and preserves its household-burden boundary.", "status": "related-layer"}
+  ],
+  "boundary": "This is a payment-band conditioned descriptive transition. It does not identify a complete bill, payment obligation, care choice, alternative, household adaptation, remedy, trust, political action, or geopolitical consequence."
+}

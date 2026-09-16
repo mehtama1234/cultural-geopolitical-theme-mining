@@ -355,7 +355,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 243 machine-readable records, 933 observations,
+The current registry contains 244 machine-readable records, 935 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 197 records describe the same people or that one
 mechanism explains all domains. The counterexamples are part of the
