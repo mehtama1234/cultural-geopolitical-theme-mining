@@ -1,0 +1,106 @@
+# Review guide: themes and representative writeups
+
+This is a curated entry point into the living atlas. It is not a replacement
+for the source records or the full registry. Each path below starts with a
+plain-language writeup, then points to the evidence boundary and the next test.
+
+## Start here
+
+1. [End-to-end program goal](END_TO_END_GOAL_V1.md) — the broad research
+   question and the chain from condition to household, institution, and state
+   consequence.
+2. [Cross-source synthesis](analysis/US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) —
+   how the 14 themes are read together without pooling incompatible units.
+3. [Reader-facing theme atlas](site/us-theme-atlas.html) — browse topics,
+   connections, and reading paths.
+4. [Current program dashboard](analysis/US-PROGRAM-DASHBOARD_V1.md) — the
+   current registry and source-coverage checkpoint.
+
+## The current deep lane: health cost → choice → legitimacy
+
+Read these in order if you want the most developed end-to-end chain:
+
+1. [Consolidated health-cost finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
+2. [Month-ordered MEPS event timing](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md)
+3. [Institutional friction across event channels](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
+4. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
+5. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
+
+The central conclusion is deliberately qualified: the project can connect
+health-cost exposure, care choices, household adaptation, institutional
+friction, and separate trust/action surfaces. It cannot yet follow one dated
+bill through alternatives, remedy, recovery, and later legitimacy.
+
+## Representative theme paths
+
+### Household room and consumption
+
+- [Household cost pressure and adaptation](analysis/findings/us-household-cost-path-001.md)
+- [Household room across resources, tenure, liquidity, and credit](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-032.md)
+
+### Time as a hidden price
+
+- [Care, time, work, and family security](analysis/findings/us-care-cost-time-work-currency-cross-source-001.md)
+- [Care time as a hidden household price](analysis/findings/us-care-time-hidden-price-matched-evidence-001.md)
+
+### Consumer power and recourse
+
+- [Customer-service automation and recourse](analysis/findings/us-customer-automation-matched-evidence-001.md)
+- [Consumer loss, recovery, and recourse](analysis/findings/us-consumer-fraud-trust-matched-evidence-001.md)
+
+### Work, control, and bargaining
+
+- [AI, work control, and worker voice](analysis/projects/ai-work-control/theme-map-v1.md)
+- [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
+
+### Housing, place, and mobility
+
+- [Housing payment, insurance, and mobility](analysis/findings/us-home-insurance-affordability-path-001.md)
+- [Transportation access and household choice](analysis/findings/us-transportation-access-path-001.md)
+
+### Unequal exposure and status
+
+- [Unequal exposure, status, and consumer treatment](analysis/findings/us-consumer-discrimination-competition-matched-evidence-001.md)
+- [Aging care strain and work](analysis/findings/us-aging-care-work-path-001.md)
+
+### Trust, identity, and cultural meaning
+
+- [Financial position, trust, fairness, and politics](analysis/findings/us-cost-trust-politics-path-001.md)
+- [Online reviews and trust](analysis/findings/us-online-reviews-trust-matched-evidence-001.md)
+
+### Public systems and policy feedback
+
+- [Safety-net access and household security](analysis/findings/us-safety-net-access-path-001.md)
+- [Public help, route quality, and judgment](analysis/findings/us-safety-net-access-matched-evidence-001.md)
+
+### Political judgment and collective action
+
+- [Medical affordability and targeted political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
+- [Family care, money, and political meaning](analysis/findings/us-family-care-money-politics-path-001.md)
+
+### Infrastructure, technology, and dependency
+
+- [Capability, dependency, and local power](analysis/projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md)
+- [Data-center capacity, revenue, and governance](analysis/projects/ai-work-control/large-load-rate-risk-control-layer-v1.md)
+
+### Geopolitical and state consequences
+
+- [State capacity and geopolitical leverage program](analysis/projects/ai-work-control/state-capacity-geopolitical-program-v1.md)
+- [Geopolitical AI infrastructure comparison](analysis/projects/ai-work-control/state-capacity-geopolitical-program-v1.md)
+
+## How to review a writeup
+
+For each piece, check five things:
+
+1. **Unit:** Is it a person, household, event, firm, place, institution, or
+   country?
+2. **Clock:** What period or event window does it actually measure?
+3. **Mechanism:** What choice, constraint, adaptation, or institutional route
+   is directly observed?
+4. **Boundary:** Which arrow is compared or inferred rather than identified?
+5. **Next test:** What smallest acquisition or design would close the missing
+   arrow?
+
+The [trend-observation registry](analysis/us-trend-observations.md) and
+[source registry](site/source-registry.html) provide the underlying records,
+methods, hashes, and source links for every promoted claim.
