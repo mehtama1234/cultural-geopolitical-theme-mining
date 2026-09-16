@@ -60,6 +60,11 @@ The current project has evidence for the first stage and a dated process record
 for the second. It does not yet have a national implementation sample or a
 worker-level remedy ledger for the third and fourth stages.
 
+The [country implementation ledger](data/eu-platform-work-directive-country-implementation-ledger-v1.json)
+defines the fields and preserves all 27 Member States as an explicit pending
+baseline. A `not_yet_audited` row is an acquisition state, not a finding that
+the country has taken no implementation action.
+
 ## Decisive next acquisition
 
 Build a country-by-country implementation ledger after the 2 December 2026
