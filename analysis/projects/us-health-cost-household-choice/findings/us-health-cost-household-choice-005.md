@@ -10,19 +10,27 @@ unconditioned event cross-tab because it preserves a person-specific month
 ordering. It still does not establish that the event caused the later-looking
 outcome.
 
-## Before-endpoint event groups
+## Full timing surface
 
-| First event family before endpoint | Bill problem | Fair/poor health | Not employed | No-event bill problem |
-|---|---:|---:|---:|---:|
-| Office (n=13,002) | 7.74% | 12.26% | 37.39% | 7.47% |
-| Emergency room (n=2,165) | 14.50% | 26.53% | 46.66% | 6.68% |
-| Inpatient (n=1,004) | 11.96% | 34.61% | 58.29% | 7.39% |
+| First event family | Timing | n | Bill problem | Fair/poor health | Not employed |
+|---|---|---:|---:|---:|---:|
+| Office | Before endpoint | 13,002 | 7.74% | 12.26% | 37.39% |
+| Office | Same endpoint month | 533 | 4.44% | 8.68% | 34.45% |
+| Office | After endpoint | 867 | 7.88% | 5.77% | 26.54% |
+| Emergency room | Before endpoint | 2,165 | 14.50% | 26.53% | 46.66% |
+| Emergency room | Same endpoint month | 207 | 14.73% | 20.31% | 45.26% |
+| Emergency room | After endpoint | 551 | 6.97% | 19.03% | 47.06% |
+| Inpatient | Before endpoint | 1,004 | 11.96% | 34.61% | 58.29% |
+| Inpatient | Same endpoint month | 103 | 9.89% | 41.19% | 73.55% |
+| Inpatient | After endpoint | 308 | 6.21% | 25.80% | 53.43% |
 
 Percentages are weighted shares; outcome-specific valid denominators differ.
-The no-event column is a broad comparison group, not a causal counterfactual.
-The acute-event groups show markedly worse health and employment context, while
-the office-event bill contrast is nearly flat. That office counterexample is
-important: utilization does not map uniformly onto household payment trouble.
+The same-month cells cannot establish event-before-outcome ordering. The
+after-event cells describe R4/2 context before the later event, not recovery.
+For reference, no-event groups are 7.47% bill-problem/7.07% fair-poor-health
+for office, 6.68%/8.26% for emergency-room, and 7.39%/9.07% for inpatient.
+The near-flat office bill contrast remains a counterexample: utilization does
+not map uniformly onto household payment trouble.
 
 ## What the timing adds
 
