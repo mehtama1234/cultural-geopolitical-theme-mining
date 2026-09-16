@@ -40,6 +40,33 @@ uncertainty. Their convergence justifies a research priority; it does not
 justify adding their percentages or calling the result a consumer welfare
 index.
 
+## Compact quantitative scorecard
+
+These figures make the theme reviewable while preserving each source's own
+denominator:
+
+- In the FRED aggregate layer, Michigan sentiment fell from 79.0 in January
+  2024 to 52.9 in December 2025 while CPI rose 5.3% from the same baseline;
+  sentiment recovered to 55.2 by July 2026. This is aggregate co-movement,
+  not household inflation causation.
+- The NBER payment study models an approximately $30 billion annual transfer
+  from cash/debit users to credit-card users, including $9.2 billion toward
+  households above $150,000 income, under its incidence assumptions. These are
+  modeled transfers, not observed individual bills or welfare effects.
+- Pew's late-2025 typology classifies 9% of US adults as Mobilizers and 28% as
+  Connectors; 87% of Mobilizers versus 41% of Outsiders reportedly voted in
+  2024, and 65% versus 3% contacted an official. These are descriptive styles,
+  not platform-caused political conversion.
+- Urban's 2025 WBNS layer reports charitable-food receipt for 16.7% of working-
+  age adults, while 39.9% of adults with unmet need said they were not
+  comfortable getting help and 35.2% cited transportation. Multiple reasons
+  overlap; nonreceipt is not equivalent to no need.
+- The digital-recourse layer reports that 21% of SHED adults experienced any
+  financial fraud in 2024, with an estimated $63 billion in direct consumer
+  losses; among 2025 published CFPB complaints, 0.48% carried a monetary-relief
+  label and 22.43% had a narrative present. Neither pair establishes the
+  underlying incident rate or verified remedy.
+
 ## What the combined evidence changes
 
 ### 1. Participation can be costly even when the money price is low
