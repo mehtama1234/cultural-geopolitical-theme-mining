@@ -33,6 +33,7 @@ turning adjacent evidence into one causal story.
 - [Household cascade current themes brief](analysis/projects/us-household-constraint-cascade/current-themes-review-brief-v1.md): a compact review route through practical room, institutional friction, uneven remedies, and later recovery/legitimacy clocks.
 - [Migration, place, and belonging finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md): a 620-county capacity context kept separate from Chicagoland and national direct meaning/action evidence.
 - [Firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md): establishment complements, task adoption, formal voice, and mobility kept separate from worker control.
+- [Place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): housing payment, insurance, hazard, energy, transport, and local business surfaces kept separate from stay/move outcomes.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -41,7 +42,7 @@ episode.
 
 ## Scope of this review route
 
-These eight routes are the current deepest reading paths, not a replacement for
+These nine routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -52,10 +53,11 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The seven routes below concentrate on the strongest current bridges: material
+The nine routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
-migration, place, and belonging; and firm capacity and worker control.
+migration, place, and belonging; firm capacity and worker control; and housing
+risk and practical mobility.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -239,6 +241,28 @@ implementation through monitoring, review, discretion, pay or schedule,
 grievance, remedy, household consequence, bargaining, and exit. Training is
 not worker control, adoption is not employer implementation, and lower quits
 are not automatically better retention.
+
+## Route 9: housing risk becomes practical mobility
+
+Read the [place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md),
+the [cost of staying put synthesis](analysis/projects/us-housing-insurance-risk/cost-of-staying-put-synthesis-v1.md),
+and the [housing payment/coverage/mobility record](analysis/records/us-housing-insurance-payment-coverage-mobility-crosssource-2021-2026.json).
+
+**Theme:** rent or mortgage, insurance, hazard, energy, transport, business,
+and public backstops can shape the feasible option set without producing one
+automatic move, recovery, or political response.
+
+**What is established:** household rent arrears and insurance gaps, place-level
+premiums and nonrenewals, FEMA hazard context, California residual-market
+stocks, energy-burden estimates, and transport/business layers occupy distinct
+stages. Income and place condition the room left after fixed costs, but the
+current records do not follow one property or household through the event.
+
+**Open arrow:** a matched property/household episode is still needed to link
+notice, renewal, claim, repair, assistance, payment or reduced use, time/care/
+work trade-offs, recovery, and stay/move outcomes, followed by trust or
+political demand. Occupancy is not secure staying, a premium is not coverage
+adequacy, and a move is not voluntary mobility.
 
 ## How to challenge any route
 

@@ -28,7 +28,7 @@ the PSID/World Bank access dependencies. It is a continuity control, not a
 substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
-The current continuation mode is a broad rotation across the twenty-three priority
+The current continuation mode is a broad rotation across the twenty-four priority
 bridges recorded in the [canonical cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
 The first cycle covered consumer practical exit, AI/platform optionality,
 public-system route divergence, firm/infrastructure capacity,
@@ -45,6 +45,8 @@ action separate.
 The current breadth cycle also includes firm capacity and worker control,
 keeping establishment complements, task adoption, formal voice, mobility, and
 worker discretion as separate stages.
+The latest breadth move adds housing risk, insurance protection, transport,
+energy, and practical mobility as a combined place-security surface.
 
 The material/time/care lane remains active, but it is not a program-wide gate.
 Existing annual and panel evidence can establish distributions, persistence,

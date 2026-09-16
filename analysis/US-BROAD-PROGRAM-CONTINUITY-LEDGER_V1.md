@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 23 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 24 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -254,6 +254,15 @@ formal representation, and aggregate mobility separate. The next test is a
 dated workplace implementation record with monitoring, review, schedule/pay,
 grievance, remedy, household, bargaining, and exit outcomes; the present
 evidence does not claim worker control or an AI effect.
+
+The twenty-fourth rotation advances housing and place security through the
+[place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md).
+It keeps rent/mortgage, insurance, hazard, energy, transport, business, and
+public-backstop evidence separate while asking who can stay safely, who can
+move, and who absorbs the next loss. The next test remains a matched
+property/household event with protection, repair, assistance, time/care/work
+trade-offs, recovery, and resident meaning; no move or political effect is
+claimed from the current place-level surfaces.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
