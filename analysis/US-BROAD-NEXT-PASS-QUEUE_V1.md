@@ -272,6 +272,13 @@ adds a cross-program clock: NIK says FMS schedules are estimates and records
 four F-35 deliveries before the related settlement forms arrived. This does not
 close the JASSM-ER arrow, but it changes the acquisition design: search
 separately for shipment, acceptance, settlement, fielding, training, and use.
+The [JASSM/LRASM procurement-to-capability realization synthesis](projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md)
+consolidates that rule into the geopolitical reading route. It moves the case
+from scattered award, supplier, facility, capacity, and test records to an
+explicit realization clock, while keeping accepted quantity, customer
+delivery, operational inventory, replaceability, and external response open.
+The next pass must locate one identifier-bearing realization event rather than
+another procurement or capacity announcement.
 
 The new [comparative worker-control finding](projects/ai-work-control/findings/ai-work-control-068.md)
 adds the worker-side JRC survey and ILO social-dialogue case layer to the US

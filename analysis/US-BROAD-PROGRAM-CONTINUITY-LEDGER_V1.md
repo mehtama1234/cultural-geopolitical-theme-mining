@@ -247,6 +247,15 @@ It treats resources, commitments, operating milestones, ownership,
 replaceability, and external response as separate stages; no leverage claim is
 promoted without an observed state or external behavior change.
 
+The [JASSM/LRASM procurement-to-capability realization synthesis](projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md)
+now provides the reader-facing control route for the procurement case. It
+separates award, supplier/UEI, facility, capacity, production support,
+integration testing, acceptance, delivery, fielding, inventory, maintenance,
+replaceability, and external response. The public record currently supports
+only the earlier and middle stages; the next acquisition is a dated
+identifier-bearing realization event, not a stronger inference from contract
+value or factory capacity.
+
 The Prince William data-center lane now adds a county-reported 2012–2024 tax-
 revenue series plus a county-linked TY2025 extension alongside the physical GIS
 pipeline. The TY2025 report records $465.9 million, up 59% year over year, with
