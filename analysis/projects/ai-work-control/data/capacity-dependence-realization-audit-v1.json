@@ -1,0 +1,230 @@
+{
+  "cases": [
+    {
+      "case_id": "us-data-center-capacity-revenue-governance-2023-2027",
+      "event_count": 13,
+      "events": [
+        {
+          "boundary": "A national estimate cannot be assigned to a county, customer, feeder, household bill, or realized AI capability.",
+          "event_date": "2023",
+          "event_id": "lbnl-data-center-load-2023-estimate",
+          "event_type": "capacity",
+          "source_status": "estimated",
+          "stage": "capacity_or_operation"
+        },
+        {
+          "boundary": "A scenario is not observed demand, an approved interconnection, a residential surcharge, or proof of strategic capability.",
+          "event_date": "2030",
+          "event_id": "lbnl-data-center-load-2030-reference",
+          "event_type": "capacity",
+          "source_status": "estimated",
+          "stage": "capacity_or_operation"
+        },
+        {
+          "boundary": "Reported revenue and capacity do not establish net public benefit, service costs, household incidence, water burden, ownership, or realized compute capability.",
+          "event_date": "2025",
+          "event_id": "prince-william-data-center-ty2025-capacity-revenue",
+          "event_type": "capacity",
+          "source_status": "observed",
+          "stage": "capacity_or_operation"
+        },
+        {
+          "boundary": "Policy terms and filings do not establish realized bills, defaults, enforcement, household fairness, or durable bargaining power.",
+          "event_date": "2025/2026",
+          "event_id": "virginia-large-load-governance-2025-2026",
+          "event_type": "external_response",
+          "source_status": "observed",
+          "stage": "governance_or_external_response"
+        },
+        {
+          "boundary": "The events do not identify facility exposure, duration-by-site, household service loss, independent causality, or long-run resilience.",
+          "event_date": "2024-07/2025-02",
+          "event_id": "virginia-large-load-drop-events-2024-2025",
+          "event_type": "operational_use",
+          "source_status": "observed",
+          "stage": "delivery_or_operation"
+        },
+        {
+          "boundary": "The report does not identify which named facility used which response, event duration by site, household effect, customer cost, or the causal role of equipment or contract terms.",
+          "event_date": "2024-07/2025-02",
+          "event_id": "virginia-large-load-customer-response-2024-2025",
+          "event_type": "operational_use",
+          "source_status": "observed",
+          "stage": "delivery_or_operation"
+        },
+        {
+          "boundary": "A filing/recommended stipulation is not proof of final adoption, customer acceptance, facility-level load, event participation, billed cost, cost recovery, or household incidence.",
+          "event_date": "2025-08-29",
+          "event_id": "virginia-high-load-customer-terms-filing-2025-08-29",
+          "event_type": "external_response",
+          "source_status": "observed",
+          "stage": "governance_or_external_response"
+        },
+        {
+          "boundary": "The proposal does not establish construction, energization, facility-specific load, customer causation, cost recovery, reliability improvement, or household benefit.",
+          "event_date": "2025-03",
+          "event_id": "hornbaker-devlin-transmission-proposal-2025-03",
+          "event_type": "capacity",
+          "source_status": "planned",
+          "stage": "capacity_or_operation"
+        },
+        {
+          "boundary": "The values are a modeled incidence illustration, not an observed bill or payment; implementation, account-level allocation, enforcement, and public response remain open.",
+          "event_date": "2026-08-25",
+          "event_id": "virginia-direct-assignment-policy-2026-08-25",
+          "event_type": "external_response",
+          "source_status": "observed",
+          "stage": "governance_or_external_response"
+        },
+        {
+          "boundary": "Docket testimony is not a causal household-burden estimate; it does not identify the facility, counterfactual bill, data-center share, payment hardship, or later household behavior.",
+          "event_date": "not independently verified",
+          "event_id": "virginia-rider-t1-household-attribution-record-date-unverified",
+          "event_type": "external_response",
+          "source_status": "observed",
+          "stage": "governance_or_external_response"
+        },
+        {
+          "boundary": "This comparator does not establish data-center attribution, representative opinion, household bills, health effects, or the outcome of Prince William transmission cases.",
+          "event_date": "2025-09/2025-12",
+          "event_id": "virginia-golden-mars-public-input-comparator-2025",
+          "event_type": "comparator",
+          "source_status": "observed_comparator",
+          "stage": "counterexample"
+        },
+        {
+          "boundary": "Published service guidance is an institutional mechanism, not proof of a named customer's load, interconnection approval, construction, bill, cost recovery, or strategic compute capability.",
+          "event_date": "not independently verified",
+          "event_id": "dominion-data-center-service-staging-rule-current",
+          "event_type": "capacity",
+          "source_status": "observed",
+          "stage": "capacity_or_operation"
+        },
+        {
+          "boundary": "This bounded non-observation is not proof that the effects do not exist; it records that the current sources do not support the join.",
+          "event_date": "2026-09-15",
+          "event_id": "data-center-household-capability-join-open-2026-09-15",
+          "event_type": "non_observation",
+          "source_status": "not_observed",
+          "stage": "missing_stage"
+        }
+      ],
+      "promotion_status": {
+        "geopolitical_leverage": "open",
+        "household_incidence": "open",
+        "institutional_response": "observed_policy_stage",
+        "local_capacity_and_revenue": "observed_aggregate",
+        "national_load": "estimated",
+        "operational_stress": "observed_event_stage",
+        "ownership_and_replaceability": "open",
+        "realized_strategic_capability": "open"
+      },
+      "source_ledger": "analysis/projects/ai-work-control/data/us-data-center-realization-ledger-v1.json",
+      "stage_counts": {
+        "capacity_or_operation": 5,
+        "counterexample": 1,
+        "delivery_or_operation": 2,
+        "governance_or_external_response": 4,
+        "missing_stage": 1
+      },
+      "status_counts": {
+        "estimated": 2,
+        "not_observed": 1,
+        "observed": 8,
+        "observed_comparator": 1,
+        "planned": 1
+      }
+    },
+    {
+      "case_id": "poland-jassm-er-2024-order",
+      "event_count": 7,
+      "events": [
+        {
+          "boundary": "A possible-sale authorization is not a signed order, production record, delivery, acceptance, or operational availability.",
+          "event_date": "2024-03-12",
+          "event_id": "jassm-er-authorization-2024-03-12",
+          "event_type": "authorization",
+          "source_status": "observed",
+          "stage": "commitment"
+        },
+        {
+          "boundary": "The public announcement does not state the purchased quantity, acceptance, shipment, fielding, training, inventory change, or operational use.",
+          "event_date": "2024-05-28",
+          "event_id": "jassm-er-agreement-2024-05-28",
+          "event_type": "agreement",
+          "source_status": "observed",
+          "stage": "commitment"
+        },
+        {
+          "boundary": "The notification does not establish a signed order modification, changed quantity, shipment, acceptance, fielding, training, inventory, operational use, or geopolitical response.",
+          "event_date": "2026-07-22",
+          "event_id": "jassm-er-congressional-enhancement-2026-07-22",
+          "event_type": "modification",
+          "source_status": "observed",
+          "stage": "commitment"
+        },
+        {
+          "boundary": "A planned window is not evidence that any shipment or delivery occurred.",
+          "event_date": "2026-01-01/2030-12-31",
+          "event_id": "jassm-er-planned-delivery-2026-2030",
+          "event_type": "delivery",
+          "source_status": "planned",
+          "stage": "delivery_or_operation"
+        },
+        {
+          "boundary": "The audit documents missing numeric support and unreliable advance recording in the cited settlement context; it does not establish production, delay, non-delivery, acceptance, or fielding for the 2024 order.",
+          "event_date": "2022-01-01/2022-09-30",
+          "event_id": "jassm-er-control-gap-2022-audit",
+          "event_type": "audit_control",
+          "source_status": "observed",
+          "stage": "control_or_replaceability"
+        },
+        {
+          "boundary": "This bounded public-source non-observation is not proof that no delivery occurred. It only prevents promotion to realized operational capability on the reviewed evidence.",
+          "event_date": "2026-09-15",
+          "event_id": "jassm-er-realization-non-observation-2026-09-15",
+          "event_type": "non_observation",
+          "source_status": "not_observed",
+          "stage": "missing_stage"
+        },
+        {
+          "boundary": "The comparator shows that schedule, physical delivery, and settlement can occur on different clocks; it is not evidence about the JASSM-ER order.",
+          "event_date": "2024-12-01/2025-01-31",
+          "event_id": "f35-fms-timing-comparator-2024-2025",
+          "event_type": "comparator",
+          "source_status": "observed_comparator",
+          "stage": "counterexample"
+        }
+      ],
+      "promotion_status": {
+        "acceptance": "not_observed",
+        "agreement": "observed",
+        "authorization": "observed",
+        "external_response_or_geopolitical_leverage": "open",
+        "inventory_or_operational_availability": "not_observed",
+        "planned_delivery": "observed_as_plan",
+        "production_or_capacity_for_specific_polish_order": "not_observed",
+        "shipment": "not_observed",
+        "training_or_fielding": "not_observed"
+      },
+      "source_ledger": "analysis/projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json",
+      "stage_counts": {
+        "commitment": 3,
+        "control_or_replaceability": 1,
+        "counterexample": 1,
+        "delivery_or_operation": 1,
+        "missing_stage": 1
+      },
+      "status_counts": {
+        "not_observed": 1,
+        "observed": 4,
+        "observed_comparator": 1,
+        "planned": 1
+      }
+    }
+  ],
+  "checked": "2026-09-16",
+  "cross_case_boundary": "The ledgers show commitment, selected capacity, governance, and operational-stress stages, but do not establish complete accepted/operating capability, replaceability, household/partner incidence, or changed external behavior.",
+  "format": "capacity-dependence-realization-audit-v1",
+  "status": "stage_coverage_audit_only"
+}
