@@ -2139,6 +2139,13 @@ artifact that joins a specific concern to a dated rule change and then to
 actual exposure, appeal, workload, pay, health, bargaining, household
 security, or exit. Keep a differently governed workplace in the design.
 
+The targeted Microsoft Places documentation check now supplies a current
+technical-control layer for consent, override, geographic administration, and
+location-history limits. The next step remains a worker-side or administrative
+record that verifies the actual tenant/country configuration and joins it to
+worker exposure, refusal consequences, enforcement, workload, privacy,
+bargaining, household security, or exit.
+
 ## Sequencing rule
 
 Run the next passes in four rotating lanes so breadth is preserved:

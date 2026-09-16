@@ -41,6 +41,8 @@
       "household_outcome": "Not observed: care, time, resources, or household-security outcome",
       "exit_or_collective_action": "Opt-out design reported; actual opt-out, refusal consequence, switching, or collective action not observed",
       "source": "analysis/projects/ai-work-control/data/microsoft-places-works-council-intervention-event-v1.json",
+      "technical_control_surface": "Current official product documentation describes administrator enablement, geographic policy scope, user consent, manual override/clear, Inform/Ask/Off modes, and no historical Automatic Update location view",
+      "technical_control_surface_source": "analysis/projects/ai-work-control/data/microsoft-places-technical-control-surface-source-note-v1.md",
       "boundary": "A company-reported product change is not independent proof of enforceable worker choice or improved welfare."
     },
     {

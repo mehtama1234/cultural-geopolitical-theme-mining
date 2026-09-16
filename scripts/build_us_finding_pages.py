@@ -222,6 +222,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/uber-ali-code-noncompliance-no-unfairness-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/data/microsoft-places-technical-control-surface-source-note-v1.md",
         ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md",
         ROOT / "analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md",
         ROOT / "analysis/projects/ai-work-control/australia-malaysia-cambodia-stage-compatible-comparison-v1.md",

@@ -46,6 +46,9 @@ def main() -> int:
         source = root / record["source"]
         if not source.exists():
             raise FileNotFoundError(source)
+        technical_source = record.get("technical_control_surface_source")
+        if technical_source and not (root / technical_source).exists():
+            raise FileNotFoundError(root / technical_source)
     print(f"VALID named workplace system stage ledger: {len(records)} local records")
     return 0
 

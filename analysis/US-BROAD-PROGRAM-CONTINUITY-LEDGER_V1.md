@@ -619,6 +619,14 @@ stage for each case and keeps enforcement, actual worker exposure, worker and
 household outcomes, and exit as explicit unknowns. This is a local-record
 stage comparison, not a worker-power estimate.
 
+The named-system comparison now has a targeted [Microsoft Places technical
+control-surface note](projects/ai-work-control/data/microsoft-places-technical-control-surface-source-note-v1.md).
+Current official documentation makes consent, manual override/clear,
+geography-specific policy, Inform/Ask/Off modes, and no historical Automatic
+Update view inspectable. This corroborates available product controls, not the
+historical council causal claim, tenant configuration, worker understanding,
+enforcement, or worker/household outcomes.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

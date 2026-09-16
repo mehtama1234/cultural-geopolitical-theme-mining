@@ -1456,6 +1456,14 @@ reach anticipatory governance, controlled deployment, and one company-reported
 product-design change, respectively, but none reaches independently observed
 enforcement, worker welfare, household security, or practical exit.
 
+Targeted official Microsoft Learn documentation now corroborates the existence
+of a technical control surface for Places: consent, user override and clear,
+geography-specific administration, Inform/Ask/Off modes, and stated limits on
+historical location visibility. It does not identify Microsoft's Germany
+configuration, actual worker take-up, consequence-free refusal, enforcement,
+or lived privacy/work outcomes; the historical council-to-change arrow remains
+company-reported and partly corroborated at product level.
+
 ## The shared end-to-end model
 
 ```text

@@ -31,7 +31,7 @@ named system and owner
 | Named system | Highest supported stage | What remains open |
 |---|---|---|
 | IBM Germany AI framework | Anticipatory governance rules and representative architecture | Live exposure, intervention, enforcement, worker/household outcomes, exit |
-| Microsoft Places | Company-reported product change: country targeting and default opt-out | Actual exposure, opt-out consequence, enforceability, privacy/work outcomes, household effects |
+| Microsoft Places | Company-reported product change: country targeting and default opt-out; current official docs specify consent, override, policy scope, and Inform/Ask/Off controls | Actual tenant mode, exposure, opt-out consequence, enforceability, privacy/work outcomes, household effects |
 | Microsoft 365 Copilot | Company-reported controlled rollout and representative feedback loop | Specific feature change, review enforcement, worker outcomes, household security, exit |
 
 ## Interpretation
@@ -51,10 +51,19 @@ household or changed staying, switching, quitting, or organizing. A differently
 governed workplace is required to avoid converting a named company account into
 a general societal trend.
 
+The Microsoft Places technical-control note adds a limited corroboration layer:
+official product documentation makes user override, administrator geography,
+consent, and historical-data boundaries inspectable. That moves the case beyond
+a purely narrative claim about what the product can do. It does not show which
+setting Microsoft Germany used, whether workers actually opted out, or whether
+the controls changed lived privacy, schedule control, workload, or bargaining
+power.
+
 ## Reproduction
 
 ```text
 python3 scripts/validate_named_workplace_system_stage_ledger.py
 ```
 
-The validator checks three committed local records and downloads nothing.
+The validator checks three committed local records plus the linked technical
+source note and downloads nothing.
