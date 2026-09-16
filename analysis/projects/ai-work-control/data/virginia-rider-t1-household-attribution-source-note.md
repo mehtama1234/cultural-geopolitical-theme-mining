@@ -5,7 +5,8 @@
 
 ## Observation
 
-The filing states that grid improvements needed to serve a large data-center
+The filing, identified in the public docket as document `241240049`, states
+that grid improvements needed to serve a large data-center
 customer were being recovered through Rider T1 from all customers. It reports
 the Rider T1 charge as $9.69 on a typical residential customer’s 1,000-kWh
 monthly bill, or more than $116 annually, and argues that direct assignment to
@@ -21,3 +22,7 @@ caused by data centers, or show actual payment, hardship, public opinion, or
 later behavior. The value must not be combined with the SCC’s separate modeled
 $2.90-to-$0.94 illustration as if they measured the same rate component or
 time period.
+
+The exact filing date was not independently verified from the public PDF
+metadata in this environment; the ledger therefore records the date as
+unverified rather than interpreting the document number as a year.
