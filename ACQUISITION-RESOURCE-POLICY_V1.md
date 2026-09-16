@@ -33,6 +33,17 @@ If a server does not expose a reliable size, treat the transfer as unknown and
 do not follow it beyond a small probe. A partial or interrupted archive is not
 an analysis input and must not be presented as a valid dataset.
 
+The read-only checker
+[`scripts/check_acquisition_resource_policy.py`](scripts/check_acquisition_resource_policy.py)
+can inspect a file or temporary directory before analysis:
+
+```bash
+python3 scripts/check_acquisition_resource_policy.py /tmp/acquisition-dir
+```
+
+It reports `allow`, `ask`, and `block` files and exits nonzero only when a file
+exceeds the blocking threshold.
+
 ## Evidence and cleanup record
 
 For every retained external artifact, record its official URL, retrieval date,
