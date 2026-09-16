@@ -184,6 +184,11 @@ The public high-load filing adds named industry participants and a proposed
 actor map, but remains a filing-stage record rather than a facility-level
 customer, load, or bill observation.
 
+The proposed Hornbaker–Devlin 230 kV line and switching station adds a named
+Prince William utility-planning event. It strengthens the place and
+infrastructure layer, but remains planned rather than energized or linked to a
+specific data-center customer or household outcome.
+
 ## The stage map
 
 | Stage | Current evidence | Safe interpretation | Missing evidence |
