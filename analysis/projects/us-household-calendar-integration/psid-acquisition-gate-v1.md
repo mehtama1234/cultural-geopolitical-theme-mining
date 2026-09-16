@@ -1,6 +1,6 @@
 # PSID acquisition gate
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
 ## What is available
@@ -38,6 +38,13 @@ merge, or trend claim should be written from the documentation alone.
 
 This is an access prerequisite, not a null finding and not evidence that the
 planned relationship is absent.
+
+The current official [PSID documentation page](https://psidonline.isr.umich.edu/Guide/documents.aspx)
+continues to expose 2023 Main Study documentation and links to the Data Center
+and registration routes. The official [Getting Started page](https://psidonline.isr.umich.edu/GettingStarted.aspx)
+states that public-use data require researcher registration and agreement to
+the Conditions of Use. This recheck confirms that the route is live; it does
+not change the local-data gate or establish package retrieval.
 
 ## Required next handoff
 

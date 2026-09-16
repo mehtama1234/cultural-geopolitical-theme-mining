@@ -1,6 +1,6 @@
 {
   "audit_type": "psid-access-surface-audit-v1",
-  "checked": "2026-09-15",
+  "checked": "2026-09-16",
   "source_url": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
   "source_status": "official package page lists target files",
   "listed_targets": [
@@ -41,6 +41,18 @@
       "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
       "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y",
       "https://psidonline.isr.umich.edu/GettingStarted.aspx"
+    ]
+  },
+  "official_documentation_recheck_2026_09_16": {
+    "checked": "2026-09-16",
+    "method": "Official PSID documentation and Getting Started pages reviewed in the public web surface",
+    "documentation_result": "The official documentation page currently exposes 2023 Main Study documentation and links to the Data Center and registration/Conditions-of-Use routes.",
+    "access_result": "The official Getting Started page states that public-use data are available after researchers register and agree to the Conditions of Use; no unauthenticated package download was established.",
+    "interpretation": "The documentation and account-controlled access route remain live, but this recheck does not alter the local-data gate: no target microdata were downloaded or estimated.",
+    "source_urls": [
+      "https://psidonline.isr.umich.edu/Guide/documents.aspx",
+      "https://psidonline.isr.umich.edu/GettingStarted.aspx",
+      "https://simba.isr.umich.edu/Zips/ZipMain.aspx"
     ]
   }
 }
