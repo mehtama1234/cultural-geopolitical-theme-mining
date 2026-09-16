@@ -64,6 +64,7 @@ still require microdata verification.
 | Care choice → adaptation | Respondents reporting any care skipped had higher same-respondent medical debt, unexpected medical expense, borrowing, reduced savings, delayed purchases, work adaptation, and outside-household help. | Compared association |
 | Care choice → persistence | In the 2024–2025 SHED recontact panel, persistent foregoing had 41.783% medical debt, 65.334% reduced savings, 36.389% increased borrowing, and 76.442% delayed major purchases; entry and exit retained distinct strain surfaces. | Longitudinal descriptive |
 | Payment → practical room and care choice | In MEPS 2024 first-event records, ER zero-payment respondents were less confident paying an unexpected expense than the $2,000+ band, while medical debt and cost-related care-delay shares were higher in the high-payment band. | Compared; selection-sensitive |
+| Strict event timing/payment → later context | In the strict R3/1-to-R4/2 MEPS window, ER and inpatient groups already differed in baseline health; conditioning on event-level family payment produced no monotonic later-health or bill pattern. Zero-payment acute events had worse health context, while higher-payment ER events had more bill problems. | Month-ordered compared; selection-sensitive |
 | Practical room/debt → care delay | In same-respondent MEPS 2024 fields, cost-related medical-care delay was 14.15% among respondents not confident paying an unexpected expense versus 5.36% among confident respondents; it was 16.98% with medical debt versus 4.57% without, with a non-monotonic amount-band pattern. | Compared association |
 | Coverage → care-delay distribution | In MEPS 2024, cost-related medical-care delay was 17.63% among uninsured respondents versus 5.87% with any private coverage and 5.39% with public-only coverage. | Compared association; selection-sensitive |
 | Coverage × practical room → care delay | Within private coverage, cost-related medical-care delay was 18.29% among respondents not confident paying an unexpected expense versus 4.93% among confident respondents; coverage does not erase financial-room heterogeneity. | Compared association; selection-sensitive |
@@ -140,6 +141,8 @@ missingness, uncertainty, counterexamples, and a clear follow-up window.
 - [CFPB medical-collections credit response](../cfpb-medical-collections-credit-response-layer-v1.md)
 - [Medical-debt relief outcome separation](../medical-debt-relief-rct-outcome-separation-v1.md)
 - [Health-cost institutional-legitimacy bridge](../health-cost-institutional-legitimacy-bridge-v1.md)
+- [MEPS strict inter-round event transition](us-health-cost-household-choice-003.md)
+- [MEPS inter-round payment-band follow-up](us-health-cost-household-choice-004.md)
 - [CES medical-affordability political-action finding](../../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
 - [HRS health-cost and institutional-trust acquisition audit](../hrs-health-cost-trust-acquisition-audit-v1.md)
 

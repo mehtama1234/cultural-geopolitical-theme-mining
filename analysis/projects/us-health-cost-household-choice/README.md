@@ -247,6 +247,13 @@ The [inter-round MEPS transition screen](meps-2024-between-round-event-transitio
 uses events strictly between R3/1 and R4/2 endpoints, retaining baseline
 selection differences before interpreting the R4/2 context.
 
+The [strict inter-round payment-band follow-up](findings/us-health-cost-household-choice-004.md)
+conditions that window on event-level family payment. It shows why a recorded
+payment cannot stand in for the household obligation: zero-payment acute events
+can have worse health context, while higher-payment ER events can have more
+reported bill problems. This remains a selected descriptive transition, not a
+causal affordability or recovery estimate.
+
 The [MEPS event-payment and bill-context layer](meps-2024-event-payment-bill-context-v1.md)
 conditions event-level payments on the linked person's annual bill-problem
 report. It demonstrates why observed payment is not interchangeable with
