@@ -90,6 +90,21 @@
       "boundary": "The report does not identify which named facility used which response, event duration by site, household effect, customer cost, or the causal role of equipment or contract terms."
     },
     {
+      "event_id": "virginia-high-load-customer-terms-filing-2025-08-29",
+      "event_type": "external_response",
+      "event_date": "2025-08-29",
+      "date_precision": "day",
+      "actor": "Dominion Energy Virginia and supporting parties in SCC Case PUR-2025-00058",
+      "recipient": "High-load customers and other Virginia rate classes",
+      "object": "Proposed high-load customer terms and account-aggregation rules",
+      "measures": {"contract_capacity_threshold": {"value": 50, "unit": "MW"}, "named_supporting_organizations": ["Amazon Data Services", "CloudHQ", "Data Center Coalition", "Google", "Iron Mountain Data Centers", "Microsoft", "STACK Infrastructure"], "aggregation_conditions": ["common ownership", "contiguous property", "shared substation"]},
+      "status": "observed",
+      "source_locator": "Virginia SCC Joint High Load Proposal and Recommended Stipulation, Case PUR-2025-00058",
+      "source_url": "https://www.scc.virginia.gov/docketsearch/DOCS/87_%4001%21.PDF",
+      "local_source": "data/virginia-high-load-customer-terms-source-note.md",
+      "boundary": "A filing/recommended stipulation is not proof of final adoption, customer acceptance, facility-level load, event participation, billed cost, cost recovery, or household incidence."
+    },
+    {
       "event_id": "data-center-household-capability-join-open-2026-09-15",
       "event_type": "non_observation",
       "event_date": "2026-09-15",
