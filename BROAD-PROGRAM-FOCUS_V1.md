@@ -145,10 +145,22 @@ without narrowing the program to one dataset or one household lane.
 
 ## Current resumption move
 
-The first active rotation is the existing consumer-power evidence: CFPB
-complaint visibility and response labels, household fraud/loss and recovery
-burden, CPSC recall and takedown intervention, and platform-worker restoration
-cases. The question is whether a person can move from a problem to a usable
-remedy and a real alternative—not merely whether an institution recorded a
-complaint, issued a recall, or ordered restoration. This pass uses local
-artifacts already in the repository and does not require bulk acquisition.
+The active rotation is **material/time/care linkage**. Use the existing local
+SIPP full-file slice and replicate archive to deepen the route from household
+condition to practical alternatives, work movement, care constraint, and
+protected or sacrificed household room. Preserve the distinction between the
+monthly utility/tenure/work surfaces and the annual child-care fields; they are
+compatible layers, not one dated bill-to-care episode.
+
+The immediate question is whether the current evidence can identify a stronger
+bounded transition—ideally a dated bill, shutoff, assistance, or service
+episode followed by work, care, food, housing, health, or recovery. If the
+existing local files cannot supply that event, record the acquisition gap and
+advance the strongest descriptive bridge without manufacturing timing or
+causality. The authenticated PSID route remains the stronger next test, but it
+is not a reason to download large new archives or pause the broader atlas.
+
+The consumer-power route remains a completed recent rotation and a reusable
+comparison case: complaint visibility, response labels, fraud/loss, recovery
+burden, and remedy remain separate endpoints until a linked consumer episode
+is available.
