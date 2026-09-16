@@ -161,6 +161,16 @@ satisfaction threshold compliant, and dismissed the application. This prevents
 the remedy ledger from treating every review as institutional success or every
 non-restoration as procedural failure.
 
+The expanded Australian census sharpens that counterexample set. Mohamed adds
+another compliant low-rating process; Ali shows Code non-compliance without a
+finding of substantive unfairness; Singh shows an eligibility dismissal before
+merits; Phillipps-Lewis shows eligibility accepted through a recurring work
+pattern below illustrative thresholds; and Kyei shows a timing extension based
+on internal review and an arguable process issue. These cases make the
+cross-country comparison more precise: a formal review route can fail at
+eligibility, timing, process, substantive unfairness, or implementation, and
+those failures should not be collapsed into one remedy outcome.
+
 ## Contradictions preserved
 
 1. A worker can report a favorable appeal outcome without the research record

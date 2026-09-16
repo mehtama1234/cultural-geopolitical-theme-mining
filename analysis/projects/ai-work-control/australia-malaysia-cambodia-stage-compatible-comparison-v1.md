@@ -16,7 +16,7 @@ as a successful remedy.
 
 | Jurisdiction | Unit of evidence | Strongest observed stage | What the unit cannot establish |
 |---|---|---|---|
-| Australia | 15 identifiable FWC proceeding surfaces in a bounded official-bulletin and targeted document-search frame | Eligibility decisions, merits findings, reactivation orders, and lost-remuneration orders | Prevalence, actual payment/access after orders, and system-wide reform |
+| Australia | 20 identifiable FWC proceeding surfaces in a bounded official-bulletin and targeted document-search frame | Eligibility decisions, timing extensions, merits findings, reactivation orders, and lost-remuneration orders | Prevalence, actual payment/access after orders, and system-wide reform |
 | Malaysia | Act 872, Tribunal architecture, and one publicly reported GrabCar hearing | Formal institution and a case reaching a hearing with evidence/witness examination reportedly pending | Claim details, legal reasoning, award, payment, correction, or enforcement |
 | Cambodia | Official ILO mixed-method diagnostic: 1,237 surveys, 29 worker interviews, 10 key informants | Worker-reported complaint access, complaint use, and low reported resolution; state authority named | Individual case files, reviewer authority, corrected decisions, payment, or state caseload |
 
@@ -49,7 +49,7 @@ adverse platform decision
 
 ## Australia: adjudicated remedy depth
 
-The bounded Australian census identifies fifteen proceeding surfaces. The cases
+The bounded Australian census identifies twenty proceeding surfaces. The cases
 include eligibility failure, settlement/revocation, timing review, a merits
 dismissal, and merits-level reactivation. The FWC primary record confirms:
 
@@ -69,6 +69,16 @@ dismissal, and merits-level reactivation. The FWC primary record confirms:
 - Rehman (`UDE2025/384`): a background-check deactivation was followed by
   voluntary reactivation, but the Commission still made a formal remedy order,
   including `$7,096.96` gross lost remuneration.
+- Singh (`UDE2025/293`): the statutory six-month protection gate was not met;
+  the Commission did not reach the deactivation merits.
+- Phillipps-Lewis (`UDE2025/94`): a recurring weekend pattern qualified as
+  regular work below the Code's illustrative numerical thresholds, but the
+  remaining issues were stayed and no later public final outcome was located.
+- Kyei (`UDE2025/105`): a late application received an extension because the
+  worker pursued internal review and raised an arguable Code-process issue.
+- Mohamed (`UDE2025/120`) and Ali (`UDE2025/122`) add rating countercases:
+  Mohamed's process was found compliant, while Ali's process was found
+  non-compliant but the deactivation was not unfair in the circumstances.
 
 The Australian contribution is therefore outcome depth and reasoned
 institutional findings. It still does not show how common these outcomes are
@@ -175,7 +185,8 @@ convert contact into resolution.
 2. Cambodia: obtain Notification No. 1107 and any Ministry caseload or decision
    records; identify one complaint with a documented platform or state outcome.
 3. Australia: locate the post-order payment and access evidence for Bandameeda,
-   Mansoor, Hotak, Al Hussein, and Warraich.
+   Mansoor, Hotak, Al Hussein, Warraich, and the later indexed matters; search
+   Kyei and Phillipps-Lewis for final relisting outcomes.
 4. Normalize all future records with the same fields: decision surface,
    reason, contest channel, reviewer, correction, payment, recurrence, and
    retaliation.
