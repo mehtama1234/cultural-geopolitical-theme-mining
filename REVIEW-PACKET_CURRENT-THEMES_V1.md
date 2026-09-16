@@ -150,6 +150,21 @@ security is 26.12% after classified entry and 18.87% after classified exit.
 Reason-specific cells are useful mechanism detail, but their smaller
 denominators make them unsuitable for fine ranking.
 
+**Concrete route anchors:** the [public-system route/security
+record](analysis/records/us-public-system-route-security-triangulation-2026.json)
+shows FY2025 state/DC application-timeliness rates ranging from 61.24% to
+97.22% and recertification-timeliness rates from 25.23% to 99.87%; these
+administrative aggregates do not translate directly into household access. In
+the WBNS lived-route layer, 24% of working-age adults in SNAP families
+reported involuntary interruption, with 40% of the relevant respondents
+citing insufficient time after notice and 32% reporting that they did not
+receive a notice. In the SIPP same-person screen, 26.12% of the classified
+entry pairs and 18.87% of classified exit pairs were in low or very low food
+security the following month, with Fay–BRR intervals preserved in the source
+record. Together these measures show route performance, lived friction, and
+following security as distinct stages—not that a notice or receipt caused a
+food-security outcome.
+
 **Open arrow:** the data do not yet show notice comprehension, benefit amount
 or gap days, appeal/remedy, substitution, recovery, or whether the route
 changed institutional trust or action.
