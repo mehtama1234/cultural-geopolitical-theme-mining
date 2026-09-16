@@ -138,6 +138,17 @@ utility/tenure fields run on mixed clocks, so the missing middle remains a
 dated bill or service event, available alternatives, care-time substitution,
 and follow-up recovery.
 
+The [conditional time-loss endpoint](findings/us-household-calendar-integration-043.md)
+puts a quantity on one sacrificed currency: among reference parents who
+already reported child-care-related work prevention and a valid time-loss
+response, the weighted mean was 8.43 hours below 1x poverty and 24.40 hours at
+4x poverty or more. The difference is not a care-burden ranking—the selected
+cells use different reporting types and arrangements, and the measure refers
+to the fall reference year rather than a dated monthly episode. The
+[canonical record](../../records/us-sipp-childcare-time-loss-resource-2024.json)
+preserves the denominators, Fay-BRR uncertainty, hashes, and open downstream
+arrows.
+
 The adjacent SIPP option-set diagnostic adds two important qualifications.
 Among valid utility-difficulty person-month rows, 35.21% carried a credit-card
 or store-card balance and 46.44% reported a savings account, compared with
