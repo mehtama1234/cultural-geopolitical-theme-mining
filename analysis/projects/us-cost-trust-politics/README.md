@@ -154,6 +154,12 @@ route. It shows material follow-up without automatic political translation and
 defines the next event-level fields needed for attribution, action, remedy, and
 recovery.
 
+The [political-action menu synthesis](political-action-menu-not-ladder-synthesis-v1.md)
+advances the next broad-program rotation. It keeps voting, contacting,
+volunteering, information exposure, complaint, organizing, switching, and
+withdrawal as distinct political responses with different resource and time
+requirements.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.

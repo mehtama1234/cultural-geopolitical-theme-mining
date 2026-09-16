@@ -111,6 +111,11 @@ It compares subgroup-conditioned material and time surfaces with the HTOPS
 political counterexample, keeping exposure, practical alternatives,
 interpretation, trust, and action as separate stages.
 
+The seventh rotation advances political judgment and collective action through
+the [political-action menu synthesis](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md).
+It treats voting, contact, volunteering, complaint, organizing, switching,
+and withdrawal as distinct actions rather than one engagement ladder.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
