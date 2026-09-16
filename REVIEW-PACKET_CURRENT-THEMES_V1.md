@@ -284,6 +284,7 @@ mobility.
 
 Read the [place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md),
 the [cost of staying put synthesis](analysis/projects/us-housing-insurance-risk/cost-of-staying-put-synthesis-v1.md),
+the [housing-security/backstop finding](analysis/projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-003.md),
 and the [housing payment/coverage/mobility record](analysis/records/us-housing-insurance-payment-coverage-mobility-crosssource-2021-2026.json).
 
 **Theme:** rent or mortgage, insurance, hazard, energy, transport, business,
@@ -294,7 +295,10 @@ automatic move, recovery, or political response.
 premiums and nonrenewals, FEMA hazard context, California residual-market
 stocks, energy-burden estimates, and transport/business layers occupy distinct
 stages. Income and place condition the room left after fixed costs, but the
-current records do not follow one property or household through the event.
+current records do not follow one property or household through the event. The
+California comparison also shows that a growing public backstop does not by
+itself establish affordable, adequate coverage or a household's ability to
+stay.
 
 **Open arrow:** a matched property/household episode is still needed to link
 notice, renewal, claim, repair, assistance, payment or reduced use, time/care/
