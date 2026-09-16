@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-childcare-time-loss-resource-2024",
+  "title": "Reported child-care work-time loss varies by resource endpoint within a selected care-prevention universe",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "identified SIPP reference-parent person-month record with EWORKMORE=1 and valid ETIMELOST",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; below 1x poverty endpoint",
+      "denominator": {"value": 170, "unit": "valid selected reference-parent person records with valid reported time-loss amount", "value_type": "unweighted_valid_records"},
+      "measures": {
+        "mean_reported_work_time_lost": {"value": 8.426970, "unit": "hours; Fay-BRR SE 1.696846; approximate 95% CI 5.101151–11.752788", "value_type": "weighted_mean"},
+        "reported_time_loss_type_hours": {"value": 24.864, "unit": "percent of selected valid records", "value_type": "weighted_share"},
+        "reported_time_loss_type_days": {"value": 54.139, "unit": "percent of selected valid records", "value_type": "weighted_share"},
+        "reported_time_loss_type_weeks": {"value": 20.997, "unit": "percent of selected valid records", "value_type": "weighted_share"}
+      },
+      "method": "Conditional descriptive mean and type shares using WPFINWGT and all 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "The estimate conditions on valid EWORKMORE=1 and ATIMELOST responses; it is not a population care-burden estimate. The fall-reference-year time-loss measure is attached to a SIPP person-month record.",
+      "subgroup": "Reference parents below 1x poverty with child-care arrangements reported to prevent working or working more and a valid time-loss amount.",
+      "counterinterpretation": "Resource endpoint may be associated with job schedule, care arrangement, reporting unit, ability to avoid time loss, and selection into the reference-parent universe; it does not show resources caused the amount.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:58d5b1788ec395d2c65651867e3e065c925044578b193d4f1a56242dcd5b271b",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; 4x poverty or more endpoint",
+      "denominator": {"value": 390, "unit": "valid selected reference-parent person records with valid reported time-loss amount", "value_type": "unweighted_valid_records"},
+      "measures": {
+        "mean_reported_work_time_lost": {"value": 24.403458, "unit": "hours; Fay-BRR SE 7.254777; approximate 95% CI 10.184095–38.622821", "value_type": "weighted_mean"},
+        "reported_time_loss_type_hours": {"value": 55.687, "unit": "percent of selected valid records", "value_type": "weighted_share"},
+        "reported_time_loss_type_days": {"value": 40.388, "unit": "percent of selected valid records", "value_type": "weighted_share"},
+        "reported_time_loss_type_weeks": {"value": 3.925, "unit": "percent of selected valid records", "value_type": "weighted_share"}
+      },
+      "method": "Conditional descriptive mean and type shares using WPFINWGT and all 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "The estimate conditions on valid EWORKMORE=1 and ATIMELOST responses; the high-resource point estimate has a wide interval and should not be ranked as a stable burden difference. The fall-reference-year time-loss measure is attached to a SIPP person-month record.",
+      "subgroup": "Reference parents at 4x poverty or more with child-care arrangements reported to prevent working or working more and a valid time-loss amount.",
+      "counterinterpretation": "The higher reported mean may reflect reporting in hours rather than days or weeks, job and care arrangements, schedule flexibility, and selection; it is not evidence of greater care burden.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:58d5b1788ec395d2c65651867e3e065c925044578b193d4f1a56242dcd5b271b",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md", "claim": "Reader-facing interpretation of the conditional time-loss amount and its timing boundary.", "status": "finding"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official definitions and universes for EWORKMORE, ETIMELOST, and time-loss type fields.", "status": "official-definition"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-09-16",
+    "script": "scripts/analyze_sipp_childcare_time_loss_resource.py",
+    "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "replicate_input": "/tmp/rw2025_csv.zip",
+    "rows_read": 379215,
+    "selected_records_before_replicate_match": 560,
+    "matched_selected_rows": 560,
+    "result": "The committed conditional means and time-loss type shares reproduce the v18 local output for both displayed resource endpoints.",
+    "interpretation": "Reproduction confirms a descriptive conditional layer, not a causal care, resource, earnings, recovery, trust, or political-action estimate. Raw inputs remain outside the repository."
+  },
+  "boundary": "This record measures reported child-care-related work-time loss only after work prevention and valid time-loss response gates. It does not establish a dated bill or provider event, actual care minutes, schedule control, earnings effect, protected or sacrificed household outcome, recovery, remedy, trust, political action, or exit."
+}

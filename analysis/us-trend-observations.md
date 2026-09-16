@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-248 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+249 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -801,6 +801,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | SIPP monthly child presence and reference-parent care universes are different | time, work | time_hidden_price, care_health_reproduction, household_room_consumption, unequal_exposure_status | SIPP positive-weight person record by reference month | United States | 1 | 2024 reference year; monthly RHNUMU18=0 records | reported | [open](records/us-sipp-child-presence-reference-parent-audit-2024.json) |
 
 **Boundary:** This record documents a source-universe mismatch and does not estimate child-care prevalence, household prevalence, causal care effects, or cultural/political meaning.
+
+| Reported child-care work-time loss varies by resource endpoint within a selected care-prevention universe | cost, time, voice | household_room_consumption, time_hidden_price, care_health_reproduction, public_systems_feedback, political_judgment_action | identified SIPP reference-parent person-month record with EWORKMORE=1 and valid ETIMELOST | United States | 2 | 2024 reference year; below 1x poverty endpoint; 2024 reference year; 4x poverty or more endpoint | estimated | [open](records/us-sipp-childcare-time-loss-resource-2024.json) |
+
+**Boundary:** This record measures reported child-care-related work-time loss only after work prevention and valid time-loss response gates. It does not establish a dated bill or provider event, actual care minutes, schedule control, earnings effect, protected or sacrificed household outcome, recovery, remedy, trust, political action, or exit.
 
 | Child-care work prevention co-occurs with higher following housing and utility hardship | cost, time | household_room_consumption, time_hidden_price, care_health_reproduction, public_systems_feedback, unequal_exposure_status | identified person with November-to-December stable SNAP pair, child-care work-prevention status, and December hardship fields | United States | 4 | 2024 reference year; stable no-SNAP; child care did not prevent work/more work; 2024 reference year; stable no-SNAP; child care prevented work/more work; 2024 reference year; stable SNAP; child care did not prevent work/more work; 2024 reference year; stable SNAP; child care prevented work/more work | compared | [open](records/us-sipp-childcare-work-hardship-bridge-2024.json) |
 
