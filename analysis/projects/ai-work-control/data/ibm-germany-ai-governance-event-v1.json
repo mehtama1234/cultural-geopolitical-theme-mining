@@ -1,0 +1,57 @@
+{
+  "schema_version": "workplace-ai-governance-event-v1",
+  "checked": "2026-09-15",
+  "record_type": "anticipatory_workplace_governance",
+  "event": {
+    "event_id": "DE-IBM-AI-2020-FRAMEWORK",
+    "event_type": "works_council_ai_framework",
+    "organization": "IBM Central Holding GmbH",
+    "place": "Germany",
+    "agreement_date": "2020-07-30",
+    "implementation_date": null,
+    "affected_tasks": ["skill_recommendation", "training_and_career_recommendation", "call_center_systems", "personnel_recommendation_and_monitoring_controls"],
+    "rule_owner": "joint_company_and_group_works_council",
+    "timing": "before_wider_routine_workplace_effect_reported"
+  },
+  "representation": {
+    "worker_representative": "IBM Group Works Council",
+    "other_participants": ["HR representatives", "AI experts", "AI Ethics Council"],
+    "participation_status": "observed_agreement_and_reported_development_process"
+  },
+  "controls": {
+    "risk_classification": "observed_rule",
+    "transparency_explainability": "observed_rule",
+    "human_final_decision": "observed_rule",
+    "data_algorithm_quality_checks": "observed_rule",
+    "correction_route": "observed_rule",
+    "works_council_inspection": "observed_rule",
+    "ethics_council_escalation": "observed_rule",
+    "high_risk_personnel_limit": "observed_rule",
+    "retraining_or_equivalent_job": "observed_rule"
+  },
+  "exposure": {
+    "named_systems_reported_in_use": ["skill_recommendation", "call_center_systems", "training_and_career_recommendation"],
+    "named_systems_reported_not_used_in_germany_at_interview_time": ["manager_salary_increase_recommender", "voluntary_resignation_probability_system"],
+    "worker_level_exposure": "not_observed",
+    "deployment_inventory": "not_observed"
+  },
+  "voice_and_remedy": {
+    "notice": "observed_rule",
+    "consultation": "observed_group_works_council",
+    "appeal_or_correction": "observed_rule",
+    "representative_intervention_episode": "not_observed",
+    "system_changed_or_stopped": "not_observed",
+    "worker_outcome": "not_observed",
+    "pay_time_health_or_security_outcome": "not_observed",
+    "anti_retaliation": "not_observed"
+  },
+  "evidence": {
+    "evidence_class": ["archived_agreement_text", "union_and_institutional_account", "peer_reviewed_corroboration"],
+    "source_urls": ["https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence", "https://www.btq-kassel.de/interview_frank_remers/", "https://doi.org/10.1177/10242589221142273"],
+    "source_boundary": "The agreement and interview establish governance architecture and reported implementation signals; they do not establish complete coverage, compliance, enforcement, or worker-level effects."
+  },
+  "next_join": {
+    "required": ["named_system_risk_classification", "implementation_date", "affected_workplace_or_worker_population", "notice_and_training", "works_council_or_ethics_council_intervention", "correction_or_non_deployment_decision", "post_event_work_pay_health_or_security_outcome"],
+    "promotion_rule": "Do not promote from anticipatory governance to effective worker control without a dated live deployment and an observed intervention or worker outcome."
+  }
+}

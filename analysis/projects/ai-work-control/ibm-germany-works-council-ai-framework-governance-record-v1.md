@@ -31,6 +31,11 @@ Remers](https://www.btq-kassel.de/interview_frank_remers/). The local
 [German works-council source record](german-ai-works-council-source-record-v1.md)
 preserves acquisition details and hashes.
 
+The normalized event is available in
+[machine-readable form](data/ibm-germany-ai-governance-event-v1.json), using
+the worker/workplace ledger fields for event timing, representation, exposure,
+voice, remedy, and the next required join.
+
 A peer-reviewed comparative article independently describes the 2020 IBM
 agreement as a joint works-council, HR, and expert project and identifies its
 human-final-decision principle and AI Ethics Council. This corroborates the
