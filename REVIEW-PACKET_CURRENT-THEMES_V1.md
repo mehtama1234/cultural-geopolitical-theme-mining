@@ -22,6 +22,7 @@ turning adjacent evidence into one causal story.
 - [New household constraint-cascade bridge](analysis/projects/us-household-constraint-cascade/constraint-cascade-cross-source-bridge-v1.md), with its [governing project README](analysis/projects/us-household-constraint-cascade/README.md): a bounded synthesis of coverage, utility, tenure, care, work, childcare, insurance, food, adaptation persistence, and the still-open episode/remedy bridge.
 - [Unified SIPP same-person cascade screen](analysis/projects/us-household-constraint-cascade/sipp-constraint-cascade-screen-v1.md): 2,600 November–December pairs keeping utility, tenure, childcare prevention, work, housing, food, and resource endpoints in one reproducible frame.
 - [MEPS dated health-cost episode spine](analysis/projects/us-household-constraint-cascade/meps-dated-event-spine-v1.md): existing local event files add month-level event/payment/person-panel context and a precise specification for the missing household-choice/remedy join.
+- [MEPS dated event-to-household-response screen](analysis/projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md): first inter-round events are placed beside same-person care delay, bill problems, medical debt, and collector contact without mixing ESAQ weights into the event variance design.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
