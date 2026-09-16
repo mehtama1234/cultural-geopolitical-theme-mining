@@ -218,10 +218,11 @@ context, while showing that an observed payment is not the same thing as a
 household burden. SHED establishes population-level cost-related care
 foregoing, its distribution by income and insurance, medical debt, and
 longitudinal adaptation/health patterns. The 2024-to-2025 SHED care-foregoing
-comparison is a linked annual respondent panel: it follows recontacted people
-by `shedid` and distinguishes entry, exit, and persistence. It still is not a
-dated clinical or bill episode and must not be described as individual
-recovery. Its coverage-transition extension conditions care paths alongside
+comparison is a [linked annual respondent panel](analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json): it follows recontacted people
+by `shedid` and distinguishes entry, exit, and persistence. Its [coverage-transition extension](analysis/records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
+is independently rerun in a [local reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md).
+It still is not a dated clinical or bill episode and must not be described as
+individual recovery. The coverage extension conditions care paths alongside
 medical debt, reduced savings, borrowing, delayed purchases, and perceived
 health across stable coverage, coverage loss, coverage gain, and persistent
 uninsurance.
