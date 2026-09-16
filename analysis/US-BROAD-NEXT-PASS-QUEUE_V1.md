@@ -905,6 +905,13 @@ remedy, and follow-up fields; if they are absent, preserve the audit as the
 boundary and move to the CFPB/platform remedy counterexample or another broad
 theme rather than inferring recovery.
 
+The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
+confirms the counterexample route: route and decision are observed in all 27
+episodes, but alternatives, effort, follow-up, receipt, durability,
+protected/sacrificed outcomes, and meaning/action are unknown in all 27. The
+next remedy pass must add a defined post-decision window and actual alternative
+before using `access_restored` as anything beyond a source-coded status.
+
 The new [consumer-loss/recourse/recovery bridge](projects/ai-work-control/findings/ai-work-control-054.md)
 places Federal Reserve household burden beside FTC administrative loss and CFPB
 response/timing fields. It clarifies that reporting, routing, explanation,

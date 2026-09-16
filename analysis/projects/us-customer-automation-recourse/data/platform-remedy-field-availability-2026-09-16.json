@@ -1,0 +1,40 @@
+{
+  "format": "platform-remedy-field-availability-audit-v1",
+  "status": "field_availability_audit",
+  "checked": "2026-09-16",
+  "source_unit": "local platform-remedy practical-exit dry-run episodes",
+  "episodes": 27,
+  "observed_route_count": 27,
+  "observed_decision_count": 27,
+  "field_status_counts": {
+    "alternatives": {
+      "unknown": 27
+    },
+    "effort": {
+      "unknown": 27
+    },
+    "followup_window": {
+      "unknown": 27
+    },
+    "meaning_and_action": {
+      "unknown": 27
+    },
+    "protected_outcome": {
+      "unknown": 27
+    },
+    "sacrificed_outcome": {
+      "unknown": 27
+    }
+  },
+  "remedy_verification_status_counts": {
+    "observed": 10,
+    "unknown": 17
+  },
+  "post_event_status_counts": {
+    "access_restored": 8,
+    "unknown": 19
+  },
+  "result": "All 27 episodes have observed attempted routes and decisions. Ten have observed remedy-related records and eight have access_restored post-event labels, but all 27 have unknown alternatives, effort, follow-up window, remedy receipt, durability, protected/sacrificed outcomes, and meaning/action.",
+  "boundary": "This is a field-availability audit of an existing source-coded dry-run, not a representative platform-worker sample, remedy receipt rate, welfare estimate, or practical-exit rate.",
+  "source": "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json"
+}

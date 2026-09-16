@@ -304,6 +304,7 @@ def main():
     exit_cfpb_dry_run = ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-practical-exit-contract-dry-run-v1.md"
     memos.append(exit_ledger_implementation)
     memos.append(exit_platform_dry_run)
+    memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md")
     memos.append(exit_cfpb_dry_run)
     capacity_dependence_audit = ROOT / "analysis/projects/ai-work-control/capacity-dependence-realization-audit-v1.md"
     memos.append(capacity_dependence_audit)
@@ -481,6 +482,7 @@ def main():
         exit_observability_audit: "practical-exit-observability-audit-v1.html",
         exit_ledger_implementation: "practical-exit-ledger-implementation-v1.html",
         exit_platform_dry_run: "practical-exit-platform-ledger-dry-run-v1.html",
+        ROOT / "analysis/projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md": "platform-remedy-field-availability-audit-v1.html",
         exit_cfpb_dry_run: "cfpb-practical-exit-contract-dry-run-v1.html",
         capacity_dependence_audit: "capacity-dependence-realization-audit-v1.html",
         jassm_control_surface_audit: "jassm-subaward-control-surface-audit-v1.html",

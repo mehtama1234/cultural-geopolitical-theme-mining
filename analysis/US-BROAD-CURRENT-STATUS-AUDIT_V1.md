@@ -1490,6 +1490,14 @@ remedy, meaning/action, or usable geography. MEPS is therefore the strongest
 event scaffold, but the audit confirms an acquisition boundary rather than a
 closed bill-to-recovery result.
 
+The companion [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
+now verifies the remedy counterexample across all 27 local episodes: every row
+has an observed attempted route and decision; 10 have observed remedy-related
+records and 8 have `access_restored` labels. All 27 still have unknown
+alternatives, effort, follow-up window, remedy receipt, durability,
+protected/sacrificed outcomes, and meaning/action. Restoration or adjudication
+therefore cannot be promoted to lived recovery or practical exit.
+
 ## The shared end-to-end model
 
 ```text

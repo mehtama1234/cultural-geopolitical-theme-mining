@@ -651,6 +651,14 @@ remedy, meaning/action, or usable geography. The route remains primary for a
 targeted acquisition or linkage; it must not be promoted as a causal recovery
 chain.
 
+The remedy counterexample is now field-audited in the [platform-remedy
+availability note](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md).
+All 27 episodes have route and decision records, but none has a documented
+alternative, effort, follow-up window, remedy receipt, durability,
+protected/sacrificed outcome, or meaning/action; 8 carry `access_restored` and
+10 carry observed remedy-related records. This preserves the distinction
+between institutional action and lived recovery/exit.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,
