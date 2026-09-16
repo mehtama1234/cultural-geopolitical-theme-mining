@@ -170,6 +170,14 @@ test remains a timed design that measures the responsible actor, prior
 judgment, information environment, direct action, remedy, and later
 legitimacy.
 
+The fourteenth rotation advances time, care, work, and political availability
+through the [time-and-care political-availability bridge](projects/us-cost-trust-politics/time-care-to-political-availability-bridge-v1.md).
+It keeps work schedules, care, travel, illness, registration barriers, formal
+representation, civic action, and withdrawal as distinct resources. The next
+test remains a same-person work or care event with schedule control,
+information, trust, attribution, voting or organizing, and employer/agency
+response measured over time.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
