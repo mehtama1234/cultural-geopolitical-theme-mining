@@ -27,9 +27,11 @@ of Uber, Amazon, or the Australian system. The three cases have different
 platforms, decision surfaces, evidence, and procedural endpoints.
 
 The subsequent [bounded Australian case census](australian-platform-deactivation-case-census-v1.md)
-identifies nine proceedings or linked proceeding surfaces in the FWC Bulletin
-Volumes 6/25–1/26 search frame. The census expands the denominator; this
-document remains the compact mechanism synthesis.
+identifies twenty proceedings or linked proceeding surfaces in the FWC Bulletin
+Volumes 6/25–12/25 and 1/26–6/26 search frame, supplemented by targeted primary
+decision searches. The census is still not a complete database export, but it
+now tests the mechanism sample against a much wider set of eligibility, timing,
+merits, and restoration endpoints.
 
 ## Cross-case matrix
 
@@ -38,6 +40,11 @@ document remains the compact mechanism synthesis.
 | Bandameeda | Customer complaint; alleged entry into a home; permanent deactivation | Response, request for human discussion, statutory application | Commission found no real representative discussion, no demonstrated human consideration, and inadequate further inquiry | Reactivation on prior terms; $12,126.31 lost remuneration ordered | Receipt, continued access, recurrence prevention, anti-retaliation |
 | Kumar | Customer-satisfaction rating below 85% threshold | Written response, platform review, statutory application | Commission identified a human Community Operations review and found notice, timing, inquiry, and rating threshold compliant | Application dismissed; no restoration or payment | Individual rating accuracy, correction route, downstream worker effects |
 | Bakar | Uber/Uber Eats deactivation; six-month eligibility and platform-operator identity | Statutory application and threshold hearing | Eligibility initially recognized, then decision revoked by consent after settlement | No public merits outcome or remedy | Settlement terms, responsible entity, enforceability, merits fairness |
+| Singh | Pre-commencement delivery work; later messages suggesting a different Uber service | Statutory eligibility application | Six-month protection and platform/entity boundary tested | Dismissed before merits | Whether later messages changed delivery-platform access |
+| Phillipps-Lewis | Temporary driver-platform access loss; recurring weekend work | Jurisdictional objection and statutory application | Regular-work objection dismissed; case stayed | No final merits or pay outcome located | Deactivation status, relisting, lost pay |
+| Kyei | Alleged deactivation and late filing after internal review | Extension request and statutory application | Filing period extended; arguable Code issue preserved | Relisted with directions; merits open | Final Code/merits and remedy outcome |
+| Mohamed | Persistent sub-85% satisfaction ratings | Warning, response, human review, statutory application | Code compliance and reasonable grounds accepted | Dismissed | Rating accuracy, correction, downstream effects |
+| Ali | Low-rating deactivation | Statutory merits application | Code non-compliance found | Deactivation nevertheless not unfair; dismissed | Appeal, correction, downstream effects |
 
 ## What varies across the cases
 
@@ -79,15 +86,36 @@ receipt, continued access, changed platform rules, or protection from
 retaliation. Outcome depth must therefore be carried forward into a post-order
 follow-up design.
 
+### 5. Process failure and substantive unfairness can diverge
+
+Ali shows that a Code breach does not mechanically require restoration. The
+Commission found the process inconsistent with the Code but still held the
+deactivation was not unfair in the circumstances. Mohamed supplies the opposite
+configuration: the process and human consideration were accepted as compliant,
+and the application was dismissed. These cases keep process compliance,
+substantive unfairness, and remedy as separate axes.
+
+### 6. Access to merits is itself distributed
+
+The expanded census contains five eligibility or threshold endpoints and one
+timing/case-management endpoint. Singh failed at the protection gate;
+Phillipps-Lewis passed the regular-work objection through a recurring pattern;
+Kyei received an extension despite delay; and Bakar’s public eligibility path
+was later revoked after settlement. The observed legal outcome is therefore
+partly a function of when a worker enters the route, how the platform/entity is
+identified, and how the law interprets regularity—not only the underlying
+deactivation event.
+
 ## Provisional finding
 
 The Australian cases support a narrow mechanism claim:
 
 > A platform-deactivation remedy becomes materially effective only when worker
-> eligibility, respondent identity, notice, human review, evidentiary inquiry,
-> and remedial authority align. The same statutory framework can produce
-> restoration, a reasoned refusal, or no public merits outcome depending on
-> those conditions.
+> eligibility, respondent identity, timing, notice, human review, evidentiary
+> inquiry, substantive unfairness, and remedial authority align. The same
+> statutory framework can produce restoration, a reasoned refusal, a process
+> breach without restoration, or no public merits outcome depending on those
+> conditions.
 
 The claim is stronger than “regulation works” and narrower than “workers are
 protected.” It identifies the institutional joins that should be tested in
@@ -95,8 +123,9 @@ other countries and later Australian cases.
 
 ## Next decisive test
 
-Build a larger Australian case census from the Commission's document search,
-not a convenience set. For every identified application, code filing date,
+Search the remaining uncoded and later indexed Australian applications from the
+Commission's document search, not a convenience set. For every identified
+application, code filing date,
 deactivation date, platform entity, eligibility, notice, response, human
 review, Code compliance, merits result, reactivation, lost remuneration,
 settlement, and post-order evidence. Report the denominator and exclusions.

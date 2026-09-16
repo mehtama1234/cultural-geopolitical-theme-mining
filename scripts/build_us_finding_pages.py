@@ -204,6 +204,7 @@ def main():
     memos.append(review_packet)
     ai_work_synthesis = ROOT / "analysis/projects/ai-work-control/anticipatory-to-remedial-worker-control-synthesis-v1.md"
     memos.append(ai_work_synthesis)
+    memos.append(ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-cross-case-synthesis-v1.md")
     ai_work_reader_records = [
         ROOT / "analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-kumar-merits-dismissal-record-v1.md",
