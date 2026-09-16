@@ -313,6 +313,15 @@ respondent, person-month, and conditional-credit denominators. The result is
 stronger evidence for incomplete protection and route substitution, not a
 same-household causal chain or a political-trust finding.
 
+The [SNAP reason-to-food-security record](records/us-sipp-snap-transition-reason-following-food-security-2024.json)
+adds a narrower same-person adjacent-month arrow: classified entry and exit
+reasons lead to distinct following-month low/very-low food-security profiles,
+with 26.12% after entry and 18.87% after exit in the aggregate classified
+comparison. It strengthens the route-to-material-condition stage while
+preserving the missing notice, effort, benefit amount, gap-day, remedy, and
+recovery fields. Exit is therefore not treated as restored security, and the
+reason cells are not ranked as program performance.
+
 The [care-cost/time/work cross-source finding](findings/us-care-cost-time-work-currency-cross-source-001.md)
 extends the care/health row by putting MEPS, SIPP, and SHED beside one another
 without merging their samples. The layers jointly support a bounded social-
