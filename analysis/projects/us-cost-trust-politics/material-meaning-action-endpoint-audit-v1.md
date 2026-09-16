@@ -25,6 +25,21 @@ dated material event and responsible actor
 | ANES 2016–2020–2024 panel subset | Pre-election financial worry | Federal trust and party-conditioned judgment | Post-election reported vote | Temporal ordering, but no direct material episode or actor |
 | ANES health-cost panel layer | Health-care payment concern | Federal trust and responsibility context | Post-election preference for more government help with health insurance | Adds policy demand with panel ordering; no verified bill, alternative, remedy, or causal action path |
 
+## Policy-demand checkpoint
+
+In the committed ANES record, the share preferring increased government help
+with health-insurance costs is 57.5% among respondents not at all concerned
+about paying health-care costs and 61.3% among those extremely concerned—a
+3.8-point descriptive difference in a 4,650-case valid cross-tab. The concern
+gradient is not universal: among strong Democrats the corresponding values are
+84.6% and 71.2%, among strong Republicans 30.7% and 50.0%, and among
+independents 49.0% and 55.4%.
+
+These cells show that policy demand is an identity-conditioned endpoint, not a
+simple monotonic translation of payment concern. They do not identify the
+respondent's bill, responsible actor, alternative, or a causal effect of
+health-cost exposure.
+
 ## What this means for the broad goal
 
 Material pressure does not translate through one universal political channel.

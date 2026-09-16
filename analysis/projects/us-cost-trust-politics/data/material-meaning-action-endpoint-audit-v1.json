@@ -56,6 +56,20 @@
     }
   ],
   "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; CCES and CES supply action or attribution but not a dated event; ANES supplies worry-to-vote and health-cost-concern-to-policy-preference ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
+  "quantitative_checkpoint": {
+    "anes_health_cost_concern_to_policy_preference": {
+      "not_at_all_concerned_increase_help_percent": 57.5,
+      "extremely_concerned_increase_help_percent": 61.3,
+      "raw_difference_percentage_points": 3.8,
+      "valid_unweighted_cross_tab_cases": 4650,
+      "party_conditioned_contrasts": {
+        "strong_democrat_not_at_all_to_extremely": [84.6, 71.2],
+        "strong_republican_not_at_all_to_extremely": [30.7, 50.0],
+        "independent_not_at_all_to_extremely": [49.0, 55.4]
+      },
+      "interpretation": "Descriptive policy-preference contrast; party-conditioned values show why concern is not a universal demand gradient."
+    }
+  },
   "next_test": "Use a lawful repeated-respondent or event-compatible design that records dated exposure, responsible actor, alternatives, attribution, prior judgment, distinct action, remedy, and later recovery or exit.",
   "storage_boundary": "Uses committed local trend records only; no raw-data acquisition or new estimate."
 }

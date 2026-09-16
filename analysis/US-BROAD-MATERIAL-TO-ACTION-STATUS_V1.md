@@ -72,6 +72,12 @@ The current numbers sharpen the boundary without creating a pooled effect:
   trust plus action was 16.11% in the former cell versus 18.66% in the latter.
   The non-monotonic pattern is precisely why low trust cannot be equated with
   withdrawal or proxy conditions with causation.
+- In the ANES health-cost layer, preference for increased government help with
+  health-insurance costs was 57.5% among respondents not at all concerned about
+  paying health-care costs and 61.3% among those extremely concerned (4,650
+  valid cases). Party-conditioned values ran 84.6% to 71.2% among strong
+  Democrats and 30.7% to 50.0% among strong Republicans, showing that policy
+  demand is identity-conditioned rather than a universal concern gradient.
 
 These figures are intentionally reported by source and denominator. Their
 convergence supports prioritizing an event-compatible design; it does not
