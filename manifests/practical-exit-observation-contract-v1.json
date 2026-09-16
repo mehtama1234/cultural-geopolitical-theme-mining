@@ -1,0 +1,45 @@
+{
+  "format": "practical-exit-observation-contract-v1",
+  "purpose": "Reusable de-identified episode contract for observing practical exit across consumer, public-system, household, worker, housing, and place domains",
+  "status": "research-design",
+  "valid_units": ["person", "household", "consumer", "worker", "case", "property", "firm", "place"],
+  "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "unknown"],
+  "privacy": {
+    "direct_identifiers": false,
+    "pseudonymous_episode_ids": true,
+    "linkage_basis_required": true,
+    "location_precision": "coarse_place_or_coarser"
+  },
+  "required_episode_fields": [
+    "episode_id", "unit", "domain", "event_date", "date_precision", "geography",
+    "trigger", "threatened_resource", "alternatives", "attempted_route", "effort",
+    "decision", "remedy_verification", "followup_window", "post_event_status",
+    "protected_outcome", "sacrificed_outcome", "meaning_and_action", "counterexample",
+    "denominator", "missingness", "source_and_uncertainty", "evidence_status"
+  ],
+  "post_event_status_values": [
+    "continued_use", "stayed", "switched", "non_use", "abandoned", "moved",
+    "refused", "institutional_exit", "access_restored", "unknown"
+  ],
+  "required_arrow_fields": [
+    "arrow_id", "from", "to", "unit_held_constant", "time_order_valid",
+    "status", "evidence", "remaining_gap"
+  ],
+  "minimum_alternative_fields": [
+    "alternative_type", "available", "reachable", "usable", "cost_money",
+    "cost_time", "switching_cost", "eligibility_or_access_constraint", "source",
+    "evidence_status"
+  ],
+  "minimum_remedy_fields": [
+    "remedy_type", "decision_date", "authority", "correction_or_restoration",
+    "amount_or_access_received", "receipt_verified", "recurrence_observed",
+    "evidence_status"
+  ],
+  "minimum_followup_fields": [
+    "measurement_date", "followup_status", "continued_use_or_exit_reason",
+    "alternative_used", "protected_outcome", "sacrificed_outcome", "trust_or_action",
+    "source", "missing_code", "evidence_status"
+  ],
+  "promotion_rule": "Do not label an episode practical_exit unless the same unit has an observed or reported post_event_status plus at least one documented alternative, the relevant cost or constraint, and a protected or sacrificed outcome. Institutional exit, access restoration, continued use, and market movement remain separate labels.",
+  "boundary": "This is a research contract, not a dataset or estimate. It does not authorize linkage, collection, or inference without a documented lawful basis, source design, denominator, and retention rule. Unknown is preferred to an inferred exit or remedy."
+}

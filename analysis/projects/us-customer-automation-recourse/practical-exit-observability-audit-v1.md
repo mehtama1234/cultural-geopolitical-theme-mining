@@ -121,5 +121,6 @@ consumer, public, and household outcome—whether the actor could leave without
 an unacceptable sacrifice—remains sparsely observed.
 
 See the [practical-exit synthesis](practical-exit-cross-domain-synthesis-v1.md)
-for the full mechanism and the [broad next-pass queue](../../US-BROAD-NEXT-PASS-QUEUE_V1.md)
+for the full mechanism, the [practical-exit ledger contract](practical-exit-ledger-implementation-v1.md),
+and the [broad next-pass queue](../../US-BROAD-NEXT-PASS-QUEUE_V1.md)
 for the acquisition boundary.
