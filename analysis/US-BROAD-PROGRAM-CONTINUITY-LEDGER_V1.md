@@ -187,6 +187,14 @@ boundary that later status is not verified recovery: claim identity,
 treatment continuity, alternatives, remedy, household trade-offs, trust, and
 exit remain open.
 
+The sixteenth rotation deepens the institutional-response arrow through the
+[MEPS friction-to-later-panel screen](projects/us-household-constraint-cascade/meps-friction-later-panel-v1.md).
+It carries route-specific denial or prior-authorization reports on the strict
+event/person frame into later same-person health and employment transitions.
+The health persistence signal is clearer than the employment pattern, but
+neither is verified recovery or remedy; claim timing, appeal, treatment
+continuity, household adaptation, trust, action, and exit remain open.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

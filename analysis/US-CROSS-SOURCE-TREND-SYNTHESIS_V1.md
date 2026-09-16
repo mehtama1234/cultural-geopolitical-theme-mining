@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-fifteen estimates of one phenomenon:
+sixteen estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -51,10 +51,11 @@ fifteen estimates of one phenomenon:
 | 13. Material pressure and political meaning | [When material pressure reaches political meaning](projects/us-cost-trust-politics/material-pressure-to-political-meaning-synthesis-v1.md) | Material difficulty can persist into later food, energy, and work outcomes while institutional confidence, attribution, and action move differently | Dated actor attribution, prior identity, source environment, direct action, remedy, and later legitimacy |
 | 14. Time, care, work, and political availability | [Time and care as a political-availability bridge](projects/us-cost-trust-politics/time-care-to-political-availability-bridge-v1.md) | Work, care, travel, illness, and service effort can constrain public availability, while formal representation and political action remain separate resources | Same-person schedule/care event linked to information, trust, voting, organizing, employer/agency response, and durable action |
 | 15. Dated health event and later status | [MEPS event to later-panel follow-up](projects/us-household-constraint-cascade/meps-event-six-month-followup-v1.md) | A strict-window office, ER, or inpatient event can be placed before later same-person health and employment outcomes; level differences exceed many change differences | Claim/bill identity, treatment continuity, alternatives, remedy, household trade-off, recovery, trust, and exit |
+| 16. Institutional friction and later persistence | [MEPS friction to later-panel screen](projects/us-household-constraint-cascade/meps-friction-later-panel-v1.md) | Route-specific denial/prior-authorization reports sit beside later same-person health/work transitions, with health persistence clearer than employment movement | Claim date, appeal, treatment continuity, verified remedy, household adaptation, trust, action, and exit |
 
 ### The common pattern
 
-Across the fifteen rotations, the strongest recurring theme is **unequal
+Across the sixteen rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
