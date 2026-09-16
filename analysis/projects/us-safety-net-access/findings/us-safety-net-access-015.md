@@ -71,6 +71,8 @@ outcome.
 
 ## Reproduction
 
+- [Reproduction audit](../sipp-snap-reason-outcome-reproduction-audit-2026-09-16.md)
+
 The [machine-readable output](../data/us-sipp-snap-reason-following-food-hardship.json)
 preserves the 379,215 primary rows, 378,291 replicate rows, 405 matched
 classified transition pairs, classified-reason aggregate summaries, valid

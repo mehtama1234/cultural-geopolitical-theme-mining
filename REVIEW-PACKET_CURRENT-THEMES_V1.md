@@ -57,8 +57,9 @@ and later recovery for the same person or family.
 
 ## Route 2: public help is a route, not simply receipt
 
-Read the [public-help route-to-judgment synthesis](analysis/projects/us-safety-net-access/findings/us-safety-net-access-014.md)
-and the [SNAP reason × following-food-security finding](analysis/projects/us-safety-net-access/findings/us-safety-net-access-015.md).
+Read the [public-help route-to-judgment synthesis](analysis/projects/us-safety-net-access/findings/us-safety-net-access-014.md),
+the [SNAP reason × following-food-security finding](analysis/projects/us-safety-net-access/findings/us-safety-net-access-015.md),
+and its [reproduction audit](analysis/projects/us-safety-net-access/sipp-snap-reason-outcome-reproduction-audit-2026-09-16.md).
 
 **Theme:** administrative access can be experienced as a sequence of notice,
 effort, delay, receipt or interruption, food security, and judgment.
