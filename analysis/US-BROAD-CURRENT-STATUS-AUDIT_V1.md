@@ -28,7 +28,7 @@ the PSID/World Bank access dependencies. It is a continuity control, not a
 substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
-The current continuation mode is a broad rotation across the eight priority
+The current continuation mode is a broad rotation across the nine priority
 bridges: consumer practical exit; AI/platform optionality; public-system route
 divergence; firm/infrastructure capacity and replaceability; material/time/care
 substitution; unequal optionality and cultural meaning; and political action as

@@ -127,6 +127,15 @@ test remains a dated resident route or place-time episode with attempted use,
 fallback, protected/sacrificed outcome, and later stay, switching, movement, or
 action.
 
+The ninth rotation advances financial capacity and household room through the
+[macro-to-household financial-capacity synthesis](projects/us-financial-intermediation/macro-to-household-financial-capacity-synthesis-v1.md).
+It keeps national growth, financial-system capacity, provider supply, user
+access, household liquidity, debt, public monitoring, and political meaning as
+separate stages. The key conclusion is that aggregate or provider capacity is
+not automatically usable household room; the next test remains a dated
+obligation or account event with alternatives, payment/record consequences,
+remedy, later security, trust, or exit.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
