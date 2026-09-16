@@ -20,6 +20,11 @@ and historical comparisons, and distinguish directly measured trends from
 cross-source interpretation and open questions.
 
 The reading experience must connect findings, subthemes and larger themes by meaning. Explain each link, distinguish supported results from open questions, and let readers move from the big picture to related findings and their sources. Maintain matching Markdown and HTML from one shared record where practical. HTML must be easy to search, navigate and read on a phone as well as a desktop. The current starting point is the [connected reading guide](site/us-theme-atlas.html).
+That guide currently presents five reader-facing umbrellas; the authoritative
+trend registry and [broad theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
+govern the complete 14-theme program. The five-umbrella reading layer is a
+navigation and synthesis surface, not evidence that the program has only five
+themes or that every arrow is closed.
 
 For a curated route through representative writeups and themes, use the
 [review guide](REVIEW-GUIDE_V1.md). It begins with the current health-cost

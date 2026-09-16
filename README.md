@@ -24,7 +24,7 @@ For a synchronized handoff check, run `python3 scripts/validate_long_term_public
 
 ## The broad program
 
-The project is explicitly not a one-household study. It maps 14 connected
+The project is explicitly not a one-household study. It maps 14 program
 themes across people, consumers, workers, households, firms, places,
 institutions, infrastructure, and states. The [full broad-program reader map](site/us-broad-program-map.html)
 is the simplest overview. The [end-to-end recovery brief](END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md)
