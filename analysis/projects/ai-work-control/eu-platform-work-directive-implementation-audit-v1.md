@@ -71,6 +71,12 @@ ongoing intergovernmental coordination, but the reviewed record does not yet
 establish a final transposition measure, effective date, operational remedy
 route, or directive-specific enforcement outcome.
 
+The second country pass is the [Netherlands](netherlands-platform-work-directive-implementation-source-record-v1.md).
+Its official tracker and consultation record expose a named draft bill and a
+closed public consultation, while still labeling the directive not fully
+implemented. The proposal is therefore evidence of institutional design under
+formation, not enacted rights or exercised remedies.
+
 ## Decisive next acquisition
 
 Build a country-by-country implementation ledger after the 2 December 2026

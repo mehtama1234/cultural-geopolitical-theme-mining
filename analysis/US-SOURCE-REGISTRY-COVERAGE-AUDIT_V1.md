@@ -155,8 +155,8 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **37**
-- Review queue shown: **37** highest-frequency domains
+- Observed domains outside registered families: **40**
+- Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
@@ -189,13 +189,16 @@ family that will be acquired, compared, or maintained over time.
 | `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
+| `wetgevingskalender.overheid.nl` | 2 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `cbp.gov` | 1 | `analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json` |
 | `denkfabrik-bmas.de` | 1 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `ec.europa.eu` | 1 | `analysis/projects/ai-work-control/jrc-aim-work-pdf-acquisition-audit-v1.md` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
+| `internetconsultatie.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
 | `open.gsa.gov` | 1 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md` |
+| `rijksoverheid.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `uasvis.usc.edu` | 1 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
 
 ## Reverse-audit decisions
@@ -236,13 +239,16 @@ without a recurring acquisition need and source-specific metadata.
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
+| `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
+| `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
+| `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule

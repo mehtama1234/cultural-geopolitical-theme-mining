@@ -8,6 +8,7 @@
   "status_vocabulary": [
     "not_yet_audited",
     "official_preparation_record",
+    "official_consultation_record",
     "official_measure_found",
     "official_measure_effective",
     "official_enforcement_or_case_found",
@@ -52,7 +53,7 @@
     {"member_state":"Lithuania","iso2":"LT","transposition_status":"not_yet_audited"},
     {"member_state":"Luxembourg","iso2":"LU","transposition_status":"not_yet_audited"},
     {"member_state":"Malta","iso2":"MT","transposition_status":"not_yet_audited"},
-    {"member_state":"Netherlands","iso2":"NL","transposition_status":"not_yet_audited"},
+    {"member_state":"Netherlands","iso2":"NL","transposition_status":"official_consultation_record","evidence_checked":["../netherlands-platform-work-directive-implementation-source-record-v1.md"]},
     {"member_state":"Poland","iso2":"PL","transposition_status":"not_yet_audited"},
     {"member_state":"Portugal","iso2":"PT","transposition_status":"not_yet_audited"},
     {"member_state":"Romania","iso2":"RO","transposition_status":"not_yet_audited"},
