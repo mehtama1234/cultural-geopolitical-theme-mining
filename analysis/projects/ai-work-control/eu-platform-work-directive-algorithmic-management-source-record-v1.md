@@ -65,6 +65,9 @@ institutional practice must be checked separately.
 
 The directive supplies the strongest formal benchmark currently in this lane
 for the difference between a stated safeguard and an executable remedy. The
-next test is to find a dated platform decision, review request, correction, or
+The [implementation-boundary audit](eu-platform-work-directive-implementation-audit-v1.md)
+records the national-law deadline and keeps EU-level rules separate from
+transposition, enforcement, and exercised remedies. The next test is to find a
+dated national measure or platform decision, review request, correction, or
 system change and connect it to the affected person’s work, earnings, health,
 and exit options.
