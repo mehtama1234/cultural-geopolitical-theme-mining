@@ -192,6 +192,19 @@ shows that prescription-delay respondents also occupy a markedly different
 health/employment context, but it does not establish what happened after a
 dated delay.
 
+**Concrete care/health anchors:** in the [SHED care-foregoing panel
+record](analysis/records/us-shed-panel-care-foregoing-health-work-paths-2024-2025.json),
+fair/poor health in 2025 was 30.62% among respondents with care foregoing in
+both 2024 and 2025, versus 12.06% among respondents with no listed foregoing
+in either year; the corresponding not-working shares were 35.04% and 36.32%,
+showing that health and work do not move as one outcome. In the [MEPS event
+payment-band record](analysis/records/us-meps-2024-event-payment-bands-2024.json),
+among strict-window emergency-room events, 24.65% of the zero-payment group
+were not confident they could cover a $2,000 unexpected expense versus 4.32%
+of the $2,000-plus group, while medical debt was 20.68% versus 32.99%.
+Payment, financial room, care access, and health are therefore distinct and
+selection-sensitive surfaces, not a single burden gradient.
+
 **Open arrow:** a dated care or billing event, treatment continuity, unpaid
 care/time, debt, remedy, and later trust or political response remain
 unobserved in one same-case record.
