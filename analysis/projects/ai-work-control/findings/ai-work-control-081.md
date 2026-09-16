@@ -1,6 +1,6 @@
 # Poland’s JASSM-ER order still has a schedule, not a public delivery record
 
-**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-14
+**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-15
 
 ## The finding
 
@@ -14,7 +14,10 @@ $735 million agreement and deliveries planned for 2026–2030. A separate
 December 2024 modernization briefing states 2028–2030 in its JASSM discussion.
 Neither source reports a delivered quantity, acceptance event, fielding or
 integration milestone for the 2024 JASSM-ER order, training, or inventory
-change.
+change. A fresh 2026-09-15 search of official Polish and US defense-release
+routes found no additional realization notice. This remains a public-source
+non-observation, not proof that no delivery has occurred outside the reviewed
+releases.
 
 This is a **public-source non-observation**, not a claim that no delivery has
 occurred. It means the reviewed official record does not support promoting the

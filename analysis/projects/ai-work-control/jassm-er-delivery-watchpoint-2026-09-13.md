@@ -1,4 +1,4 @@
-# JASSM-ER delivery watchpoint — 2026-09-14
+# JASSM-ER delivery watchpoint — 2026-09-15
 
 The JASSM-ER geopolitical case was revisited against the current official
 Polish Ministry of National Defence page. The page still describes the May
@@ -9,12 +9,13 @@ schedule-vintage conflict, not a verified amendment. Neither page reports a deli
 operational availability, training milestone, or inventory change for that
 agreement.
 
-On 2026-09-14, a fresh official-source search and browser-readable recheck
-found no separate Polish or US government notice reporting a delivered
-quantity, acceptance event, fielding/integration milestone, training event, or
-inventory change for the 2024 order. The Ministry page continues to state the
-2026–2030 planned window. This is a current-source non-observation, not proof
-that no delivery has occurred outside the reviewed public releases.
+On 2026-09-15, a fresh official-source search and browser-readable recheck of
+Polish Ministry and US defense-release routes found no separate government
+notice reporting a delivered quantity, acceptance event, fielding/integration
+milestone, training event, or inventory change for the 2024 order. The Ministry
+page continues to state the 2026–2030 planned window. This is a current-source
+non-observation, not proof that no delivery has occurred outside the reviewed
+public releases.
 
 This is a time-indexed non-observation of the next required arrow, not proof
 that no delivery has occurred. It means the current public source does not
@@ -39,9 +40,15 @@ and [DSCA possible-sale notice](https://www.dsca.mil/sites/default/files/mas/Pre
 remain separate sources: a possible-sale approval, a signed agreement, a
 delivery schedule, and a completed delivery are different stages.
 
-## Next check
+## Search boundary and next check
 
-Search Polish and US defense releases, contract modifications, acceptance or
-fielding notices, and official inventory/training records for a dated 2026
-delivery event. Do not infer it from the agreement, the historical 2017 event,
-or the existence of a production milestone.
+The recheck searched official Polish Ministry JASSM-ER and modernization pages
+and official US defense-release results for order, delivery, acceptance,
+fielding, training, and inventory terms. It did not treat the 2017 JASSM
+delivery, a general JASSM/LRASM production milestone, or a non-Polish FMS
+comparator as evidence for this order.
+
+Continue checking Polish and US defense releases, contract modifications,
+acceptance or fielding notices, and official inventory/training records for a
+dated 2026 delivery event. Do not infer it from the agreement, the historical
+2017 event, or the existence of a production milestone.
