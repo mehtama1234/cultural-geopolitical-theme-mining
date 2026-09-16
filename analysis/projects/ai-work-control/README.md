@@ -1,5 +1,12 @@
 # Project: AI, work, and control
 
+The current remedy synthesis, [Remedy spectrum: from explanation to collective
+control](remedy-spectrum-cross-domain-synthesis-v1.md), compares judicial
+disclosure, worker appeals, statutory review, institutional mediation,
+regulator contestability, collective bargaining, and workplace co-governance.
+It makes the central open question explicit: whether procedural rights produce
+verified recovery of access, income, identity, or control.
+
 The [BLS JOLTS national mobility layer](bls-jolts-national-mobility-layer-v1.md)
 adds a 2020–2025 establishment-based labor-market context: openings and quits
 peaked in 2022 and cooled afterward, while hiring remained lower. It is a

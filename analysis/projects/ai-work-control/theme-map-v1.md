@@ -113,6 +113,13 @@ worker ever reaches a workplace appeal route. Regulator expectations about
 notice, challenge, and meaningful human review are observed; candidate-level
 correction remains open.
 
+The [remedy-spectrum cross-domain synthesis](remedy-spectrum-cross-domain-synthesis-v1.md)
+places these records beside collective bargaining over digital replicas and
+workplace co-governance. The emerging theme is proceduralization without
+yet-proven recovery: systems are becoming easier to describe and contest, but
+the evidence still rarely shows restored access, corrected data, repayment, or
+prevention of recurrence.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |
