@@ -25,6 +25,13 @@ ultimately ordered.
 | Dispute objects | GrabCar platform operation, Saver Trips, cashback incentives, and Advance Booking | The reports do not establish whether the dispute is algorithmic under section 8, a deactivation matter under section 14, a payment claim, or another Act 872 route |
 | Procedural stage | Hearing held; further date set for evidence and additional witness examination | No award, settlement, dismissal, or final finding is reported |
 
+The Ministry also stated, as reported in the same coverage, that the Tribunal
+had received other filings involving account deactivation or suspension, loss
+of income, account reactivation, platform-service issues, and payment claims by
+non-platform gig workers. This expands the observed scope of institutional use,
+but does not provide a count, case identifier, claimant, claim amount, or
+outcome for any of those filings.
+
 ## Source hierarchy
 
 1. **Official legal and institutional baseline:** Act 872 and the Ministry's
@@ -43,6 +50,7 @@ ultimately ordered.
 ```text
 institution established       observed_official
 case reached Tribunal hearing observed_case_report
+additional filings reported    observed_official_attributed
 decision explained            not_observed
 human merits review completed not_observed
 correction or restoration     not_observed

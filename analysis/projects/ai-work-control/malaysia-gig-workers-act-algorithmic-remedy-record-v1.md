@@ -113,6 +113,14 @@ visible” to “formal institutions reported established and implementation pag
 maintained.” They do not show that a worker filed a complaint, that the
 Tribunal heard a matter, or that an automated-decision remedy was delivered.
 
+Follow-up reporting quoting the Ministry adds that the Tribunal has received
+other filings concerning account deactivation or suspension, loss of income,
+account reactivation, platform-service issues, and payment claims by
+non-platform gig workers. This is evidence that the institution has a broader
+reported intake than the single GrabCar proceeding, but no public count,
+case identifier, pleading, award, or worker outcome is available for those
+filings.
+
 These are observed implementation artifacts, not evidence that a worker has
 obtained a remedy. A first Tribunal hearing is now reported in secondary
 coverage that attributes the facts to KESUMA, but no primary award or final

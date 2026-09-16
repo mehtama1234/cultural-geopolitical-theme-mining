@@ -40,6 +40,10 @@ routes, with a public record of the resulting decision?
 7. Secondary reports attributing facts to KESUMA identify a first Tribunal
    hearing on 1 September 2026 involving an e-hailing worker and GrabCar Sdn
    Bhd; the matter reportedly returned for evidence and witness examination.
+8. The Ministry is reported to have said the Tribunal received other filings
+   involving account deactivation or suspension, loss of income, account
+   reactivation, platform-service issues, and payment claims by non-platform
+   gig workers.
 
 ## What is not observed
 
@@ -56,6 +60,8 @@ routes, with a public record of the resulting decision?
   institutional establishment;
 - the primary case identifier, pleadings, hearing record, award, or final
   finding for the reported GrabCar matter;
+- the number, identifiers, decision types, or outcomes of the additional
+  filings reported by the Ministry;
 - recurrence prevention or anti-retaliation outcomes.
 
 The absence of a public record is not evidence that no complaints or outcomes
