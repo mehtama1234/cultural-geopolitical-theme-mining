@@ -6,13 +6,13 @@
     "bulletins": "Volumes 6/25-12/25 and 1/26-6/26",
     "supplemental_queries_checked": "2026-09-15",
     "unit": "identifiable proceeding or linked proceeding surface",
-    "denominator": 18,
+    "denominator": 19,
     "not_a_complete_database_export": true
   },
   "stage_counts": {
     "eligibility_threshold_endpoint": 5,
     "timing_case_management_endpoint": 1,
-    "merits_dismissal": 4,
+    "merits_dismissal": 5,
     "full_bench_plus_merits_restoration": 1,
     "merits_reactivation": 7
   },
@@ -34,6 +34,7 @@
     {"id":"AU-15","case":"Rehman v Portier Pacific","matter":"UDE2025/384","decision":"[2026] FWC 953","platform_entity":"Portier Pacific / Uber","stage":"merits_and_remedy","outcome":"reactivation_plus_7096_96_lost_remuneration","explanation":"adjudicated_insufficient","human_review":"adjudicated_insufficient","correction_restoration":"reactivation_ordered","payment":"7096.96_ordered","post_order":"not_observed","evidence":"adjudicated","open":"receipt, continued access, process change"},
     {"id":"AU-16","case":"Singh v Portier Pacific","matter":"UDE2025/293","decision":"[2026] FWC 409","platform_entity":"Portier Pacific / Uber delivery platform","stage":"eligibility","outcome":"eligibility_dismissal","explanation":"not_observed","human_review":"not_observed","correction_restoration":"not_observed","payment":"not_observed","post_order":"not_applicable","evidence":"adjudicated","open":"merits and platform process"},
     {"id":"AU-17","case":"Phillipps-Lewis v Rasier Pacific","matter":"UDE2025/94","decision":"[2025] FWC 2398; PR790745","platform_entity":"Rasier Pacific / Uber Driver Platform","stage":"eligibility_and_stay","outcome":"eligibility_objection_dismissed_merits_stayed","explanation":"not_observed","human_review":"not_observed","correction_restoration":"not_observed","payment":"not_observed","post_order":"stay_and_relisting_observed","evidence":"adjudicated","open":"deactivation status, merits, lost-pay claim, later orders"},
-    {"id":"AU-18","case":"Kyei v Rasier Pacific","matter":"UDE2025/105","decision":"[2025] FWC 2269","platform_entity":"Rasier Pacific / Uber Driver Platform","stage":"timing_and_case_management","outcome":"within_time_case_proceeds","explanation":"not_observed","human_review":"not_observed","correction_restoration":"not_observed","payment":"not_observed","post_order":"relisted_with_directions","evidence":"adjudicated","open":"merits, Code compliance, restoration, payment"}
+    {"id":"AU-18","case":"Kyei v Rasier Pacific","matter":"UDE2025/105","decision":"[2025] FWC 2269","platform_entity":"Rasier Pacific / Uber Driver Platform","stage":"timing_and_case_management","outcome":"within_time_case_proceeds","explanation":"not_observed","human_review":"not_observed","correction_restoration":"not_observed","payment":"not_observed","post_order":"relisted_with_directions","evidence":"adjudicated","open":"merits, Code compliance, restoration, payment"},
+    {"id":"AU-19","case":"Mohamed v Portier Pacific","matter":"UDE2025/120","decision":"[2025] FWC 2337","platform_entity":"Portier Pacific / Uber Eats","stage":"merits","outcome":"dismissal_after_compliant_process","explanation":"adjudicated_sufficient","human_review":"adjudicated_sufficient","correction_restoration":"not_observed","payment":"not_observed","post_order":"not_applicable","evidence":"adjudicated","open":"rating correction, review quality, downstream effects"}
   ]
 }

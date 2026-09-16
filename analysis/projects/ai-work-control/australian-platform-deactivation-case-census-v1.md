@@ -22,7 +22,7 @@ Commission decision PDFs. It captures decisions published from 5 June 2025
 through the checked date; it is not a search of every FWC filing, unpublished
 direction, order, or later decision after the checked date.
 
-**Inventory denominator:** 18 identifiable proceedings or linked proceeding
+**Inventory denominator:** 19 identifiable proceedings or linked proceeding
 surfaces. Hotak is counted once despite multiple Full Bench decisions. Bakar
 is counted once despite the eligibility and revocation decisions. Bandameeda
 is counted once despite preliminary and merits/order stages.
@@ -49,6 +49,7 @@ is counted once despite preliminary and merits/order stages.
 | AU-16 | Singh v Portier Pacific | UDE2025/293; [2026] FWC 409 | Eligibility | `eligibility_dismissal` — the Commission found the statutory six-month regular-work protection was not met; pre-26 August 2024 work could not be counted | Merits, process, and underlying deactivation evidence |
 | AU-17 | Phillipps-Lewis v Rasier Pacific | UDE2025/94; [2025] FWC 2398; PR790745 | Eligibility objection, then stay | `eligibility_objection_dismissed_merits_stayed` — recurring weekend work qualified as a regular pattern even below the Code’s illustrative thresholds; proceedings were stayed pending the Hotak Full Bench | Deactivation status, merits, lost-pay claim, later orders |
 | AU-18 | Kyei v Rasier Pacific | UDE2025/105; [2025] FWC 2269 | Timing and case management | `within_time_case_proceeds` — extension granted despite a 60-day delay because the worker sought internal review and the merits case was arguable; matter was relisted with directions | Merits, Code compliance, restoration, payment |
+| AU-19 | Mohamed v Portier Pacific | UDE2025/120; [2025] FWC 2337 | Merits | `dismissal_after_compliant_process` — persistent low satisfaction ratings, warning, notice, opportunity to respond, and human consideration were found sufficient under the Code | Rating correction, review quality, downstream effects |
 
 Bandameeda's `UDE2025/62` matter number is now confirmed by the primary
 decision and the Commission's bulletin index. The remaining Bandameeda gap is
@@ -57,13 +58,13 @@ receipt of payment or durable restoration.
 
 ## Stage distribution
 
-The eighteen-row inventory is not a remedy rate because the stages are mixed:
+The nineteen-row inventory is not a remedy rate because the stages are mixed:
 
 ```text
-18 identified proceeding surfaces
+19 identified proceeding surfaces
   ├─ 5 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis)
   ├─ 1 timing / case-management endpoint (Kyei)
-  ├─ 4 merits dismissals (Kumar, Mohammed, Abdalla, Dar)
+  ├─ 5 merits dismissals (Kumar, Mohamed, Mohammed, Abdalla, Dar)
   ├─ 1 Full Bench + merits restoration (Hotak)
   └─ 6 merits restoration matters (Bandameeda, Mansoor, Al Hussein, Warraich, Khan, Rehman)
 ```
@@ -109,6 +110,13 @@ Kyei shows a separate gate: a late application can still proceed where the
 Commission finds exceptional circumstances, including an internal review route
 and an arguable case about Code compliance. Timing is therefore not clerical
 noise; it can determine whether a worker reaches the merits.
+Mohamed supplies a merits counterweight to the restoration cases. The
+Commission accepted a persistent low-rating process, a worker response, and a
+human representative’s consideration as Code-compliant, while distinguishing
+the Code’s “reasonable grounds” test from the fact-finding standard used in
+other unfair-work proceedings. A human review label is therefore not a remedy
+by itself, but neither is it automatically nominal; its legal effect depends on
+the governing test and the evidence presented.
 Bakar shows that settlement and respondent identity can erase a public merits
 path. Waheed shows that the date a worker reasonably became aware of
 deactivation can determine whether a case proceeds.
@@ -158,6 +166,7 @@ therefore measurable events, not invisible non-cases.
 - [Singh primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc409.pdf)
 - [Phillipps-Lewis primary eligibility decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2398.pdf)
 - [Kyei primary timing decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2269.pdf)
+- [Mohamed primary merits decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2337.pdf)
 
 ## Next decisive acquisition
 

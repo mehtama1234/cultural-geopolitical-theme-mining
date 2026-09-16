@@ -60,6 +60,18 @@
       "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. The decision did not determine unfairness, restoration, payment, or later access."
     },
     {
+      "id": "PR-026",
+      "place": "Australia",
+      "population": "Mohamed Mohamed and Portier Pacific / Uber Eats",
+      "source_type": "Fair_Work_Commission_primary_merits_decision",
+      "decision_surface": ["satisfaction_rating", "deactivation_warning", "platform_access", "human_response_review"],
+      "worker_route": "Worker response, internal platform process, statutory unfair-deactivation merits proceeding",
+      "implementation_stage": "adjudicated_code_compliant_merits_dismissal",
+      "stages": {"explanation": "observed_adjudicated_sufficient", "human_review": "observed_adjudicated_sufficient", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_code_compliance_and_dismissal_low_for_rating_accuracy_downstream_effects_and_generalization",
+      "boundary": "[2025] FWC 2337 found the warning, preliminary notice, worker response, human consideration, and reasonable grounds for a persistent low-rating reason sufficient under the Code. No rating correction, restoration, payment, continued access, or downstream outcome is established."
+    },
+    {
       "id": "PR-022",
       "place": "Australia",
       "population": "Musharaf Waheed and Uber Driver Platform",
