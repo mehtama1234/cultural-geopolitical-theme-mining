@@ -92,6 +92,12 @@ entry, disability and family routes, and several exit routes show distinct but
 uncertain following food-security profiles. Receipt entry or exit still does
 not establish a benefit effect, food recovery, remedy, or later trust/action.
 
+The [SNAP route-divergence synthesis](snap-route-divergence-food-security-political-feedback-synthesis-v1.md)
+advances the public-systems rotation. It compares administrative timeliness,
+lived interruption, SIPP reason-specific food security, and institution-specific
+confidence while keeping receipt, recovery, trust, blame, and political action
+as separate outcomes.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
 
 The [same-episode event-ledger design](same-episode-event-ledger-design-v1.md)

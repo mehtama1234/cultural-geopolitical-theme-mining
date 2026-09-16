@@ -45,7 +45,7 @@ never the completion condition.
 | Trend-to-atlas linkage | Every machine-readable trend/case record is tagged to validated atlas umbrella themes | `theme_ids` in trend schema and [published registry](../site/us-trend-observations.html) |
 | Theme breadth control | Trend records are grouped by umbrella theme and missing-record themes are surfaced | [Trend-theme coverage](../site/us-trend-theme-coverage.html), `build_us_trend_theme_coverage.py` |
 | Control synchronization | Registry, theme coverage, source-packet count, HTML edition, and this ledger are checked against current source files | `validate_program_control_sync.py` |
-| Active depth lane | Broad rotation resumed; first pass is consumer power, recourse, remedy, switching, and practical exit, followed by AI/platform agency and public-system feedback | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
+| Active depth lane | Broad rotation resumed; consumer power and AI/platform agency passes completed; current pass is public-system access, material security, political meaning, and feedback | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
 | Hard acquisition dependency | PSID main waves and/or an equivalent same-unit event design | [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md), [wave-file audit protocol](projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md) |
 
 ## Broad-goal resumption checkpoint
@@ -86,6 +86,12 @@ The second rotation now advances AI/platform agency through the [AI optionality
 and control-conversion synthesis](projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md).
 It preserves the distinction between adoption, immediate time or engagement
 effects, captured benefit, dependence, correction, trust, and practical exit.
+
+The third rotation advances public-system feedback through the [SNAP
+route-divergence synthesis](projects/us-safety-net-access/snap-route-divergence-food-security-political-feedback-synthesis-v1.md).
+It keeps administrative handling, benefit transition, food security, trust,
+blame, and political action as separate stages and uses the new reproducible
+reason-specific food-security layer without claiming a benefit effect.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
