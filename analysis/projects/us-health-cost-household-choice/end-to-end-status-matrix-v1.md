@@ -44,6 +44,12 @@ Medicare/Medicaid and insurer-trust targets. It remains an acquisition and
 replication route until module overlap, timing, weights, and identifiers are
 verified in the released files.
 
+The [route-specific friction comparison](findings/us-health-cost-household-choice-012.md)
+adds a counterexample to the institutional-route interpretation: prescription
+affordability delay and denial/prior-authorization delay have different
+perceived-health direction screens and must not be pooled as one friction
+mechanism.
+
 The [CFPB event-ledger health-cost bridge](cfpb-event-ledger-health-cost-bridge-v1.md)
 adds an implementation-level institutional route: complaint receipt, routing,
 and response can be structured as events, but the public administrative record

@@ -1,0 +1,25 @@
+{
+  "format": "us-meps-friction-route-direction-comparison-v1",
+  "source_unit": "two separate MEPS 2024 HC-256 person-level longitudinal descriptive screens",
+  "comparison": {
+    "prescription_delay": {
+      "exposure": "round-4/2 prescription affordability or access delay",
+      "followup": "round-4/2 to round-5/3 perceived-health direction",
+      "yes": {"valid_records": 674, "health_improved_percent": 24.62, "health_worsened_percent": 19.12},
+      "no": {"valid_records": 17683, "health_improved_percent": 20.42, "health_worsened_percent": 22.11}
+    },
+    "denial_or_prior_authorization_delay": {
+      "exposure": "round-5/3 reported insurance denial or prior-authorization delay",
+      "followup": "round-4/2 to round-5/3 perceived-health direction",
+      "yes": {"valid_records": 1574, "health_improved_percent": 19.04, "health_worsened_percent": 25.11},
+      "no": {"valid_records": 8591, "health_improved_percent": 20.29, "health_worsened_percent": 21.74}
+    }
+  },
+  "variance_method": "standard MEPS BRR within each source screen; 128 replicate flags",
+  "inputs": {
+    "prescription_record_sha256": "931e392b6a146263a92ee25d77bc9e806bfaa11dc9b984a5052876fdec4bcc71",
+    "institutional_friction_record_sha256": "f2f0a6c1d60191ec475eabdb66f21415874b221ea588f1ef87b1823d99f77634"
+  },
+  "boundary": "The screens use different exposure definitions and timing: prescription delay is reported at round 4/2, while denial or prior-authorization delay is reported at round 5/3. The contrast is not a pooled estimate or a test that one friction route causes improvement or worsening. It motivates a same-episode claim, treatment-continuity, payment, remedy, and household-adaptation design.",
+  "causal_estimation": false
+}

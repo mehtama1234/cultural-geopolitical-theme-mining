@@ -32,6 +32,11 @@ observed payment through care choice, household substitution, recovery,
 institutional remedy, and trust/action, while naming the evidence and the next
 required join.
 
+The new [route-specific friction comparison](findings/us-health-cost-household-choice-012.md)
+keeps prescription affordability delay separate from denial/prior-authorization
+delay. Their perceived-health direction screens point differently, so
+“institutional friction” cannot be treated as one uniform mechanism.
+
 The [SHED 2025 care-skipping and medical-debt layer](shed-2025-care-skipping-choice-layer-v1.md)
 adds the reported population-level care-choice stage that observed MEPS event
 files cannot see: going without treatment because of cost, the types of care

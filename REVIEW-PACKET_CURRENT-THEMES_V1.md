@@ -48,14 +48,17 @@ changed institutional trust or action.
 
 Read the [MEPS non-synchronization finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-001.md),
 the [expenditure-conditioned finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-002.md),
-and the [institutional-friction follow-up](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md).
+the [institutional-friction follow-up](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md),
+and the [route-specific friction comparison](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md).
 
 **Theme:** total spending, out-of-pocket exposure, coverage, perceived health,
 and employment continuity can move in different directions.
 
 **What is established:** repeated MEPS records support bounded longitudinal
 comparisons, including a denial/delay screen followed by more perceived
-health worsening but similar employment transitions.
+health worsening but similar employment transitions. The route comparison
+shows that prescription delay and authorization/denial friction do not point
+in one uniform perceived-health direction.
 
 **Open arrow:** a dated care or billing event, treatment continuity, unpaid
 care/time, debt, remedy, and later trust or political response remain
