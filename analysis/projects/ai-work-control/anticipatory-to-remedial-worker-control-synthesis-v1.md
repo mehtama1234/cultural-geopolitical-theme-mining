@@ -26,7 +26,7 @@ whether the actor can change the decision.
 | Moment | Record | What is visible | What is not yet visible |
 |---|---|---|---|
 | Before deployment | IBM Germany works-council framework | Risk classification, inspection, explainability, human final decision, correction, escalation, limits on high-risk personnel systems, retraining/equivalent-job commitments | A named live intervention that changed or stopped a system; worker-level benefit |
-| During deployment | Microsoft Germany Copilot rollout | Council participation in a controlled tolerance phase, concerns about ranking and sensitive inference, feedback to engineering, staged rollout, training, permissions and monitoring controls | Specific feature change attributable to council input; enforceable veto; independent worker outcome |
+| During deployment | Microsoft Germany Copilot and Places rollouts | Council participation in a controlled tolerance phase; concerns about ranking, sensitive inference, and location visibility; feedback to engineering; a reported Places update with country-level targeting and default opt-out | Council minutes, technical diff, enforceable veto, and independent worker outcome |
 | After harm | Australian Fair Work proceedings | Notices, responses, human-review findings, external merits review, reactivation, and lost-remuneration orders in selected cases | Payment receipt, continued access, recurrence prevention, non-retaliation, population-level prevalence |
 
 This is not a maturity ladder in which one country is simply ahead of another.
@@ -45,9 +45,9 @@ cases begin later, when access or income has already been affected. Earlier
 intervention can shape the decision surface; later intervention must reconstruct
 facts and restore a counterfactual position.
 
-This does not make ex-ante governance automatically effective. IBM and
-Microsoft establish rules, participation, and reported implementation, not a
-changed worker outcome. Post-harm adjudication should not be treated as a
+This does not make ex-ante governance automatically effective. IBM establishes
+rules; Microsoft reports participation and one concrete Places product change,
+but neither establishes an independently verified worker outcome. Post-harm adjudication should not be treated as a
 substitute for prevention when the decision is repeated at scale.
 
 ### 2. Human involvement is not human authority
@@ -133,8 +133,9 @@ feature, deployment boundary, or review practice; (5) affected worker or
 workforce outcome; and (6) implementation, payment, access, and
 non-retaliation follow-up.
 
-The immediate queue is to obtain a primary German artifact naming a concrete
-Copilot/AI change, recover the next Australian payment/access follow-up, and
+The immediate queue is to corroborate the reported Places change with a
+works-council or technical artifact, recover the next Australian
+payment/access follow-up, and
 recover the Malaysian Tribunal case record. Until then, preserve these three
 moments as complementary evidence classes rather than forcing them into one
 outcome measure.
@@ -143,6 +144,7 @@ outcome measure.
 
 - [IBM Germany works-council AI framework governance record](ibm-germany-works-council-ai-framework-governance-record-v1.md)
 - [Microsoft Germany works-council Copilot deployment record](microsoft-germany-works-council-copilot-deployment-record-v1.md)
+- [Microsoft Places works-council intervention event](data/microsoft-places-works-council-intervention-event-v1.json)
 - [Australian platform-deactivation cross-case synthesis](australian-platform-deactivation-cross-case-synthesis-v1.md)
 - [Australian remedy implementation acquisition audit](australian-remedy-implementation-acquisition-audit-2026-09-15.md)
 - [Global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)

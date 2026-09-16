@@ -1,0 +1,41 @@
+{
+  "schema_version": "workplace-ai-governance-event-v1",
+  "checked": "2026-09-15",
+  "record_type": "deployment_stage_worker_representation_intervention",
+  "event": {
+    "event_id": "DE-MS-PLACES-2025-COUNTRY-TARGETING",
+    "event_type": "works_council_privacy_intervention",
+    "organization": "Microsoft Digital",
+    "place": "Microsoft works-council countries; country-level controls",
+    "product": "Microsoft Places",
+    "reported_date": "2025-05-08",
+    "deployment_phase": "before_global_deployment_and_after_initial_internal_testing",
+    "decision_surface": ["location_sharing", "cross_country_visibility", "workplace_scheduling"],
+    "rule_owner": "Microsoft Digital product group with works-council approval conditions"
+  },
+  "representation": {
+    "worker_representative": "works councils in multiple countries",
+    "concern": "collaborators could see each other's locations across country boundaries before all councils had approved that exposure",
+    "participation_status": "observed_company_report"
+  },
+  "intervention": {
+    "initial_condition": "cross_country_location_visibility_not_approved_by_all_works_councils",
+    "response": "product_update_and_release_targeting_change",
+    "specific_change": ["country_level_feature_on_off_controls", "default_opt_out_for_employee_location_sharing"],
+    "authority_boundary": "The account reports product incorporation of council feedback and approval-linked rollout; it does not establish a statutory veto or independent audit."
+  },
+  "outcome": {
+    "system_changed": "observed_company_report",
+    "worker_privacy_or_choice_change": "observed_company_report",
+    "worker_level_effect": "not_observed",
+    "pay_time_health_or_security_outcome": "not_observed",
+    "anti_retaliation": "not_observed",
+    "durability_and_enforcement": "not_observed"
+  },
+  "evidence": {
+    "evidence_class": ["official_company_deployment_account"],
+    "source_urls": ["https://www.microsoft.com/insidetrack/blog/deploying-microsoft-places-at-microsoft-with-our-works-councils/"],
+    "source_boundary": "Microsoft reports the concern, product update, country targeting, and opt-out design; the account does not provide council minutes, technical diff, usage data, or independent worker outcomes."
+  },
+  "promotion_rule": "Promote system_changed only as company_reported until a council artifact, product documentation, or independent record corroborates the intervention. Do not infer worker welfare or enforceability from the product change."
+}

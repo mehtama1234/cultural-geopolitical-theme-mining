@@ -1,8 +1,8 @@
 # Microsoft Germany works-council Copilot deployment record v1
 
 **Status:** company-reported live deployment and works-council review;
-controlled rollout and product-feedback loop observed; independent worker
-outcomes and enforceability remain open
+controlled rollout and one related product intervention reported; independent
+worker outcomes and enforceability remain open
 **Checked:** 2026-09-15
 
 ## Why this record matters
@@ -106,17 +106,43 @@ organizational data, but they also create new administrative visibility into
 employee use. The public account does not show who can inspect those logs,
 whether workers can challenge them, or how the data are used in evaluation.
 
+## Concrete related intervention: Microsoft Places
+
+Microsoft's official 8 May 2025 account of the AI-enabled Microsoft Places
+rollout supplies a more specific deployment-stage intervention than the
+Copilot account. Works councils raised concern that collaborators could see
+one another's locations across country boundaries before all councils had
+approved that exposure. Microsoft reports that it updated Places to support
+country-level feature targeting—allowing the feature to be enabled or disabled
+by country based on works-council approvals—and moved location sharing to a
+default opt-out model.
+
+This closes one part of the control chain as a company-reported system change:
+
+```text
+privacy concern -> council review -> product update
+                -> country-level targeting + default opt-out
+                -> worker-level effect / enforceability [open]
+```
+
+It should not be silently treated as a Copilot feature change or as independent
+proof of improved worker privacy. The named product is Places, the source is a
+Microsoft implementation account, and council minutes, a technical diff,
+usage data, and worker outcomes remain unavailable. The normalized event is in
+[the Microsoft Places works-council intervention record](data/microsoft-places-works-council-intervention-event-v1.json).
+
 ## Decisive next acquisition
 
-Acquire the internal deployment guide, council approval record, or a worker-
-side account for Copilot that identifies: the German review conditions,
-training and monitoring limits, prohibited uses, feedback changes, opt-out
-route, and any measured effect on work, privacy, evaluation, or stress.
+Acquire a works-council artifact, technical release note, or worker-side account
+that corroborates the Places change and identifies the German Copilot review
+conditions, training and monitoring limits, prohibited uses, feedback changes,
+opt-out route, and any measured effect on work, privacy, evaluation, or stress.
 
 ## Sources
 
 - [Microsoft Inside Track: AI-first Frontier Firm in partnership with works councils](https://www.microsoft.com/insidetrack/blog/transforming-into-an-ai-first-frontier-firm-in-partnership-with-our-works-councils/)
 - [Microsoft Inside Track: Deploying Microsoft 365 Copilot in five chapters](https://www.microsoft.com/insidetrack/blog/deploying-microsoft-365-copilot-in-five-chapters/)
+- [Microsoft Inside Track: Deploying Microsoft Places with works councils](https://www.microsoft.com/insidetrack/blog/deploying-microsoft-places-at-microsoft-with-our-works-councils/)
 - [IBM Germany works-council AI framework governance record](ibm-germany-works-council-ai-framework-governance-record-v1.md)
 - [AIM-WORK exposure to institutional safeguard crosswalk](aim-work-institutional-safeguard-crosswalk-v1.md)
 
