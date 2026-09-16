@@ -64,6 +64,33 @@ AI use, work, contact, and exit; and financial access and recourse.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
+### 14-theme coverage index
+
+The review routes cover the governing inventory as follows. This is a navigation
+map, not a strength score or a claim that any route is causally complete.
+
+| Governing theme | Review route(s) |
+|---|---|
+| Household room and consumption | 1, 3, 4, 9, 11 |
+| Time as a hidden price | 1, 2, 3, 4, 8 |
+| Consumer power and recourse | 4, 10, 11 |
+| Platforms, data, and attention | 4, 8, 10 |
+| Work, control, and bargaining | 1, 3, 8, 10 |
+| Care, health, and social reproduction | 1, 2, 3, 9 |
+| Housing, place, and mobility | 1, 2, 6, 7, 9, 11 |
+| Unequal exposure and status | 1, 2, 3, 5, 7, 9, 11 |
+| Trust, identity, and cultural meaning | 2, 4, 5, 7, 10, 11 |
+| Public systems and policy feedback | 2, 3, 4, 6, 9, 11 |
+| Political judgment and collective action | 2, 4, 5, 7, 8, 10, 11 |
+| Firm, market, and ownership power | 4, 6, 8, 9, 11 |
+| Infrastructure, technology, and dependency | 6, 7, 8, 9, 10, 11 |
+| Geopolitical and state consequences | 6, 7, 9, 10, 11 |
+
+This index makes the broad focus operational: the packet is a set of
+representative reading paths, while the [full theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
+and [coverage matrix](analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md) remain the
+authoritative breadth controls.
+
 ## Route 1: material pressure becomes time pressure
 
 Read the [multi-clock material/time/care synthesis](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md),
