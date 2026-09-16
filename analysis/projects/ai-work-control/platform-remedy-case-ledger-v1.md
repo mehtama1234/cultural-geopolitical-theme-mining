@@ -40,6 +40,7 @@ occurred.
 | PR-014 | Australia; Uber App, Mian Abu Bakar, and Rasier Pacific | Fair Work Commission eligibility decision and revocation decision | Uber/Uber Eats deactivation; six-month protection threshold; platform-operator identity | Unfair-deactivation application; threshold adjudication; settlement and discontinuance | `observed_adjudicated_then_revoked` at eligibility stage | `not_observed` on merits | `not_observed` | `not_observed` — settlement terms unavailable | `not_observed` | High for revocation and corporate-identity concern; low for settlement outcome | Eligibility finding was revoked by consent; no public merits decision or remedy; operator identity and enforceability remained open |
 | PR-015 | Brisbane, Australia; Uber Eats and Rahul Kumar | Fair Work Commission primary merits decision | Customer-satisfaction rating threshold and continued app access | Written response; platform review; unfair-deactivation application | `observed_adjudicated` — written warnings and reasoned notice found compliant | `observed_adjudicated` — human Community Operations review found performed and sufficient | `not_observed` | `not_observed` | `not_observed` | High for decision and process findings; low for rating-system generalization and downstream effects | Protected worker's application dismissed because the Commission found the rating rule and Code process compliant |
 | PR-016 | Perth, Australia; Sajid Saleem Warraich and Uber | Fair Work Commission primary merits decision | Five rider complaints, suspension, and complaint-based deactivation | Worker responses, requested discussion, statutory unfair-deactivation application | `observed_adjudicated` — warning and complaint particulars found insufficient | `observed_adjudicated` — nominal internal review did not establish meaningful inquiry | `observed_adjudicated` — reactivation ordered | `open` — parties directed to confer; amount and payment not observed | `not_observed` | High for decision and reactivation; low for later pay and implementation | Commission found Code non-compliance, no valid reason, and unfair deactivation; lost remuneration was left for later determination |
+| PR-017 | Sydney, Australia; Zeeshan Aslam Khan and Uber Eats | Fair Work Commission primary merits decision (UDE2025/185) | Repeated sexual-misconduct complaints, temporary holds, warnings, and final deactivation | Written response, support calls, statutory unfair-deactivation application | `observed_adjudicated` — warning particulars and substantive explanation found insufficient | `observed_adjudicated` — platform contacts occurred but did not establish adequate inquiry | `observed_adjudicated` — reactivation ordered | `open` — parties directed to confer on quantum | `not_observed` | High for decision and reactivation; low for later pay and implementation | Commission found the 2025 allegation unproven, the process Code-inconsistent, and deactivation unfair; payment amount and receipt remain open |
 
 ## Cross-row findings
 
@@ -94,6 +95,13 @@ PR-016 adds a second merits-level Australian contrast. In Warraich, the
 Commission found that a generic complaint notice, limited particulars, and an
 inadequately evidenced internal review did not satisfy the Code or procedural
 fairness. Reactivation was ordered, but the lost-pay amount was deferred.
+
+PR-017 adds a 2026 Uber Eats case with an escalation pattern: an earlier
+temporary hold and warning was followed by a second complaint, another hold,
+and final deactivation. The Commission found the warning and explanation
+insufficient, distinguished partly corroborated earlier conduct from the
+conduct supplying a valid current reason, ordered reactivation, and directed
+the parties to calculate lost pay.
 
 ### Formal remedy and practical remedy are separate variables
 
@@ -152,6 +160,7 @@ For each new case, add:
 - [Uber / Bakar deactivation-jurisdiction record](uber-bakar-revoked-deactivation-record-v1.md)
 - [Uber Eats / Kumar merits-dismissal record](uber-kumar-merits-dismissal-record-v1.md)
 - [Uber / Warraich unfair-deactivation record](uber-warraich-unfair-deactivation-record-v1.md)
+- [Uber Eats / Khan reactivation and lost-pay record](uber-khan-reactivation-lost-pay-record-v1.md)
 
 ## Boundary
 

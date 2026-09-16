@@ -305,6 +305,10 @@ The [Australian platform-deactivation case census](australian-platform-deactivat
 expands the original mechanism sample into a bounded nine-proceeding
 official-bulletin inventory with explicit denominator and stage boundaries.
 
+The [Uber Eats / Khan case record](uber-khan-reactivation-lost-pay-record-v1.md)
+adds a 2026 merits case showing how repeated temporary holds, limited warning
+particulars, formal reactivation, and lost-pay assessment interact.
+
 The [Australia–Malaysia–Cambodia stage-compatible comparison](australia-malaysia-cambodia-stage-compatible-comparison-v1.md)
 compares adjudicated remedy depth, institutional hearing use, and worker-
 reported resolution without pooling unlike outcomes.

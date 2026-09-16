@@ -208,6 +208,18 @@
       "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_nominal_process_disputed", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "open_lost_remuneration_to_be_determined", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_decision_and_reactivation_low_for_later_pay_and_implementation",
       "boundary": "The Commission found the warning and complaint evidence insufficient, the Code process non-compliant, and the deactivation unfair; it ordered reactivation and directed the parties to confer about lost remuneration. Amount, payment, continued access, process change, and anti-retaliation are not observed."
+    },
+    {
+      "id": "PR-017",
+      "place": "Australia",
+      "population": "Zeeshan Aslam Khan and Uber Eats",
+      "source_type": "Fair_Work_Commission_primary_merits_decision",
+      "decision_surface": ["repeated_complaints", "temporary_holds", "warnings", "complaint_based_deactivation"],
+      "worker_route": "Written response, support calls, statutory unfair-deactivation application",
+      "implementation_stage": "adjudicated_unfair_deactivation_reactivation_order_lost_pay_open",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_process_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "open_lost_remuneration_quantum", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_decision_and_reactivation_low_for_later_pay_and_implementation",
+      "boundary": "The Commission found warning particulars and substantive explanation insufficient, the 2025 allegation not made out, and the deactivation unfair; it ordered reactivation and directed the parties to confer on lost pay. Amount, payment, continued access, process change, and anti-retaliation are not observed."
     }
   ]
 }
