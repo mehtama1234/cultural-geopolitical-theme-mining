@@ -152,6 +152,15 @@ one friction measure. The next test is a same-case ledger with the route
 object, timing, alternatives, effort, verified remedy, protected/sacrificed
 outcome, and later trust, action, switching, or exit.
 
+The twelfth rotation advances domestic capability, dependence, and state
+leverage through the [domestic capacity and state-leverage bridge](projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md).
+It keeps domestic affordability, firm and infrastructure capacity, ownership,
+supplier choice, procurement, production, delivery, alliance implementation,
+and external behavior as separate stages. The promotion rule is explicit:
+spending, agreement, or capacity is not leverage until an observed refusal,
+switch, negotiation, regulatory response, or changed external behavior shows
+that another actor's options or conduct changed.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

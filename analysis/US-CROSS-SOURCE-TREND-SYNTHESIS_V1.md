@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-eleven estimates of one phenomenon:
+twelve estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -47,10 +47,11 @@ eleven estimates of one phenomenon:
 | 9. Financial capacity and household room | [From national growth to household room](projects/us-financial-intermediation/macro-to-household-financial-capacity-synthesis-v1.md) | Macro growth, provider infrastructure, public monitoring, credit, and household room are different stages; capacity can expand while practical access narrows | Dated obligation, alternatives, payment/record/fee route, household consequence, remedy, trust, and exit |
 | 10. Housing security and cost of staying | [The cost of staying put](projects/us-housing-insurance-risk/cost-of-staying-put-synthesis-v1.md) | Payment, coverage, hazard, energy, and public backstops can compound without being interchangeable | Matched property/household episode with notice, claim/repair, assistance, mobility, recovery, and stay/move outcome |
 | 11. Route-specific institutional friction | [Institutional friction is route-specific](projects/us-household-constraint-cascade/institutional-friction-route-specific-outcomes-cross-domain-synthesis-v1.md) | Prescription delay, authorization denial, benefit interruption, complaint routing, and debt remedies have different objects and downstream currencies | Same-case route, alternatives, verified remedy, protected/sacrificed outcome, and later trust/action/exit |
+| 12. Domestic capability and geopolitical leverage | [Domestic capacity, dependence, and state leverage](projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md) | Spending, contracts, infrastructure, ownership, production, and alliance plans are distinct stages; capability and dependence can rise together | Verified production/delivery, replaceability, observed refusal/switching, negotiation, retaliation, or changed external behavior |
 
 ### The common pattern
 
-Across the eleven rotations, the strongest recurring theme is **unequal
+Across the twelve rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
