@@ -4,6 +4,13 @@
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
 
+The current material-exposure → political-meaning/action checkpoint is tracked
+in the [focused status ledger](US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md). It
+confirms that the program already has judgment, trust, action, turnout, and
+panel-persistence surfaces; the next decisive addition is a dated event with
+attribution, action route, response, and recovery—not another unaligned
+sentiment cross-tab.
+
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 254 records and

@@ -116,7 +116,8 @@ dated event or condition
 
 Use existing local artifacts first and keep acquisition storage-aware. The next
 pass should strengthen one bridge that can change the atlas while preserving
-the broader scope and explicitly stating what remains open.
+the broader scope and explicitly stating what remains open. The current bridge
+status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
 
 Related operating records: [broad program focus](BROAD-PROGRAM-FOCUS_V1.md),
 [end-to-end goal](END_TO_END_GOAL_V1.md), [continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md),

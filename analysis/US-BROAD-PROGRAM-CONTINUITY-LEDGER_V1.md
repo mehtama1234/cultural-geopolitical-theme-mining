@@ -7,6 +7,9 @@ Mining program
 
 The current concise governing statement is the [broader goal restatement](../BROAD-GOAL-RESTATEMENT_V1.md).
 
+The current focused bridge checkpoint is the [material-to-action status
+ledger](US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
+
 This ledger keeps the program moving across sessions. It is not a progress
 report that can be closed by completing one analysis. A research pass changes
 one or more evidence rows; the program remains active until the user changes
