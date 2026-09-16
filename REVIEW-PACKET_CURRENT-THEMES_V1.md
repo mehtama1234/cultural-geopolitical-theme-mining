@@ -260,6 +260,7 @@ attitude is not observed political action.
 Read the [firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md),
 the [AI task adoption and sector mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-035.md),
 the [work-limitation/resource/job-transition finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-039.md),
+the [business-applications versus realized-capacity finding](analysis/projects/us-local-business-place/findings/us-local-business-place-011.md),
 and the [machine-readable firm-to-worker record](analysis/records/us-firm-capacity-ai-adoption-worker-control-crosssource-2024-2026.json).
 
 **Theme:** firm resources, tool adoption, formal representation, mobility, and
@@ -268,7 +269,8 @@ worker control are successive gates, not interchangeable indicators.
 **What is established:** the World Bank enterprise layer measures size,
 training, employment growth, outages, and constraints; NBER measures worker-
 task AI use and a randomized time-use endpoint; BLS measures union coverage and
-aggregate establishment mobility. The same-person SIPP layer adds a monthly
+aggregate establishment mobility; and BFS/BDS separates business intent from
+realized establishment and job flows. The same-person SIPP layer adds a monthly
 resource/job transition conditioned on reported work limitation and tenure. The
 units and clocks remain separate.
 
