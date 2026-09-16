@@ -55,6 +55,30 @@ the drivers were not heard before account-removal decisions were made.
 | Anti-retaliation protection | `not_observed` | No such outcome is reported |
 | Trade-secret boundary | `observed` | Full algorithm disclosure was not required, but complete refusal was rejected |
 
+## What happened after the decision?
+
+The public case record does not show a completed correction outcome. In the
+underlying Uber proceedings, drivers asked Uber to reverse the deactivations
+and allow them to resume work; Uber stated that it would not reverse the
+decisions. The appellate ruling then addressed access to personal data and
+information about automated decision-making. Its remedy was disclosure, not an
+order restoring the accounts.
+
+The current acquisition pass searched the three appellate ECLI records, the
+Amsterdam Court of Appeal's official summary, and the linked lower-court Uber
+proceeding for a later rectification, reinstatement, compensation, or
+anti-retaliation outcome. No such official follow-on outcome was located. This
+is a bounded non-observation, not evidence that no later request or settlement
+exists.
+
+| Follow-on question | Current status |
+|---|---|
+| Did Uber/Ola provide the ordered information? | The public appellate record establishes the order; delivery details are not coded here |
+| Did a driver obtain rectification? | Not located in the official records searched |
+| Was an account restored? | Not located in the official records searched |
+| Was compensation awarded? | Not located in the official records searched |
+| Was retaliation or adverse treatment addressed? | Not located in the official records searched |
+
 ## Interpretation
 
 The case supports a narrower and more useful proposition than “workers won
@@ -70,7 +94,7 @@ automated platform decision
   -> material effect on income/licensing position
   -> court-ordered information about factors and reasons
   -> ability to exercise rectification rights [supported]
-  -> successful correction, restoration, compensation, or anti-retaliation [open]
+  -> successful correction, restoration, compensation, or anti-retaliation [not observed]
 ```
 
 This is a stronger remedy record than the Deliveroo and Wolt status cases,
