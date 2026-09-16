@@ -24,6 +24,22 @@ This is a candidate route, not current evidence. The repository contains no
 local UAS microdata, and the public aggregate explorer does not expose the
 medical-expense component needed for the focal transition.
 
+## Documentation-only reconnaissance
+
+The small documentation gate has now been exercised without acquiring raw
+microdata. The existing temporary cache contains the September 1, 2026 UAS
+monthly-panel codebook at
+`/tmp/uas-monthly-panel-codebook-20260901.pdf` (521,561 bytes; SHA-256
+`97af909996e341e99125ca8acd0a7258208a8b5afefeaf4df14ae4968c8af9f5`). It
+confirms the useful monthly anchors `fin3s4` (significant medical/dental
+expense shock), `fin1_when_month/day/year` (financial-change timing), and
+later health, employment, pain, life-satisfaction, and meaning fields.
+
+This satisfies documentation reconnaissance only. No local UAS respondent
+file, `uasid` overlap, weight validation, module eligibility, remedy field, or
+same-case estimate exists. The codebook therefore sharpens the next audit but
+does not change the no-download decision.
+
 ## Storage invariant checked
 
 On 2026-09-16 the project directory was approximately 152 KB and contained no
@@ -36,11 +52,13 @@ boundary for the next acquisition as well.
 
 Proceed in this order:
 
-1. **No-download inventory:** confirm registration/access and inspect the
-   official codebook or questionnaire pages for exact field names, wave dates,
-   recall windows, weights, and file sizes.
-2. **Small documentation acquisition:** retain only the relevant codebooks and
-   access metadata outside Git or in the smallest permitted artifact location.
+1. **No-download inventory:** retain only the relevant official codebook or
+   questionnaire pages and confirm exact field names, wave dates, recall
+   windows, weights, and file sizes. This documentation step is now recorded
+   above; the raw-file checks remain open.
+2. **Small documentation acquisition:** if a newer codebook is needed, retain
+   only the relevant documentation outside Git or in the smallest permitted
+   artifact location.
 3. **Overlap feasibility:** acquire or receive only the minimum files needed to
    test `uasid` overlap: monthly panel plus UAS 537/698. Run the existing
    inventory and merge audits before any analysis.
@@ -72,10 +90,10 @@ show:
 
 ## Current status and next action
 
-Current status is **verified acquisition route**, not completed evidence. No new
-bulk download is authorized by this design pass. The next safe action is a
-user-initiated or already-authorized access step that supplies the relevant UAS
-documentation or files; then run the three existing audits before selecting
-columns or producing a finding. Until that happens, the MEPS, SIPP, SHED, CFPB,
-and randomized debt-relief layers remain separate benchmarks rather than one
-synthetic person-level chain.
+Current status is **documentation-verified acquisition route**, not completed
+evidence. No new bulk download is authorized by this design pass. The next safe
+action is a user-initiated or already-authorized access step that supplies the
+relevant UAS respondent files; then run the three existing audits before
+selecting columns or producing a finding. Until that happens, the MEPS, SIPP,
+SHED, CFPB, and randomized debt-relief layers remain separate benchmarks
+rather than one synthetic person-level chain.
