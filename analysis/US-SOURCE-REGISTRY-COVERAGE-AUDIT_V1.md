@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **40**
+- Observed domains outside registered families: **42**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -168,9 +168,9 @@ family that will be acquired, compared, or maintained over time.
 | `uasdata.usc.edu` | 7 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
 | `cage.report` | 6 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-079.md` |
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
+| `eur-lex.europa.eu` | 6 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md` |
 | `hrs.isr.umich.edu` | 6 | `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md` |
 | `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
-| `eur-lex.europa.eu` | 5 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
@@ -196,10 +196,10 @@ family that will be acquired, compared, or maintained over time.
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
 | `internetconsultatie.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
+| `legifrance.gouv.fr` | 1 | `analysis/projects/ai-work-control/france-platform-work-directive-implementation-source-record-v1.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
 | `open.gsa.gov` | 1 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md` |
 | `rijksoverheid.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
-| `uasvis.usc.edu` | 1 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -218,9 +218,9 @@ without a recurring acquisition need and source-specific metadata.
 | `uasdata.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cage.report` | delivery/lookup host | Do not register; use official DLA CAGE records as the authoritative identity source. |
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
+| `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrs.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
-| `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
@@ -246,9 +246,11 @@ without a recurring acquisition need and source-specific metadata.
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
 | `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
+| `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule

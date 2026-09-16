@@ -77,6 +77,12 @@ closed public consultation, while still labeling the directive not fully
 implemented. The proposal is therefore evidence of institutional design under
 formation, not enacted rights or exercised remedies.
 
+The third country pass is [France](france-platform-work-directive-implementation-source-record-v1.md).
+The reviewed official record documents participation in the EU transposition
+group and the deadline, but it is older and does not establish a later French
+draft or enacted measure. It is retained as a lower-confidence coordination
+record and is queued for a fresher national-law search.
+
 ## Decisive next acquisition
 
 Build a country-by-country implementation ledger after the 2 December 2026

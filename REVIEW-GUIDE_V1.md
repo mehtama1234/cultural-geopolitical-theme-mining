@@ -60,6 +60,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [EU Platform Work Directive implementation-boundary audit](analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md)
 - [Germany Platform Work Directive implementation record](analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md)
 - [Netherlands Platform Work Directive implementation record](analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md)
+- [France Platform Work Directive implementation record](analysis/projects/ai-work-control/france-platform-work-directive-implementation-source-record-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
 ### Housing, place, and mobility
