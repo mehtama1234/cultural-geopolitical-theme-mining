@@ -58,7 +58,9 @@ companion-exit, and governance synthesis without treating those settings as
 one causal user history. The consumer-culture layer now makes trust, status,
 privacy, reporting, help-seeking, switching, and non-use explicit outcomes and
 missingness questions rather than treating participation as satisfaction or
-free choice.
+free choice. Its new cross-source synthesis frames confidence, payment,
+platform attention, charitable-food access, and digital recourse as distinct
+currencies of participation under unequal optionality.
 The new [program-wide theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md)
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
@@ -1393,7 +1395,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 254 trend records and 971 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,122 local Markdown links and 510 published HTML pages pass link
+families; 1,123 local Markdown links and 510 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

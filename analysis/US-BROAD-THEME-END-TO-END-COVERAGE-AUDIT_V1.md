@@ -23,15 +23,15 @@ end-to-end completion.
 
 | Theme | Current matrix status | Evidence anchors | Explicit open status |
 |---|---|---:|---|
-| Household room and consumption | Compared / Reported | 9 | No |
+| Household room and consumption | Compared / Reported | 10 | No |
 | Time as a hidden price | Reported / Compared | 5 | No |
-| Consumer power and recourse | Compared / Reported | 10 | No |
-| Platforms, data, and attention | Reported / Compared / Inferred | 3 | No |
+| Consumer power and recourse | Compared / Reported | 11 | No |
+| Platforms, data, and attention | Reported / Compared / Inferred | 4 | No |
 | Work, control, and bargaining | Compared / Reported | 3 | No |
 | Care, health, and social reproduction | Reported / Compared | 8 | No |
 | Housing, place, and mobility | Compared / Reported | 12 | No |
-| Unequal exposure and status | Compared / Open | 9 | Yes |
-| Trust, identity, and cultural meaning | Reported / Compared / Open | 9 | Yes |
+| Unequal exposure and status | Compared / Open | 10 | Yes |
+| Trust, identity, and cultural meaning | Reported / Compared / Open | 10 | Yes |
 | Public systems and policy feedback | Compared / Reported | 10 | No |
 | Political judgment and collective action | Compared / Open | 11 | Yes |
 | Firm, sector, and market power | Reported / Compared / Inferred | 11 | No |
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`66c56d6f5c3e79e1889c7fa2c5681c91f18692b5dfb86dd70616a1671c5699fb`.
+`0089633c258067cfd01040abc908eac8b4d5e14145feee9172118f9ec008c6a8`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
