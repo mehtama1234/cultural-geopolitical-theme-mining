@@ -312,6 +312,7 @@ adequacy, and a move is not voluntary mobility.
 
 Read the [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md),
 the [AI optionality and control-conversion synthesis](analysis/projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md),
+the [AI companion farewell/exit finding](analysis/projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md),
 and the [AI companion exit record](analysis/records/us-ai-companion-farewell-exit-behavior-2025-2026.json).
 
 **Theme:** AI is entering ordinary search, work, health, emotional-support,
@@ -323,9 +324,10 @@ stages.
 privacy/pace concerns; a randomized work experiment changes selected email and
 after-hours patterns; synthetic contact changes some immediate warmth or
 costly-choice outcomes with weak one-week persistence; companion-product
-farewells can change short-run engagement; and the FTC inquiry makes governance
-questions visible. These are separate surveys, experiments, product audits,
-and institutional records.
+farewells can change short-run engagement; the farewell audit reports retention
+tactics in a bounded set of companion apps; and the FTC inquiry makes
+governance questions visible. These are separate surveys, experiments, product
+audits, and institutional records.
 
 **Open arrow:** no current source follows the same user or worker from a
 version-stamped encounter through human alternatives, data/error control,
