@@ -38,6 +38,11 @@ def main() -> int:
     for arrow in eligible["arrows"]:
         arrow["status"] = "reported"
         arrow["time_order_valid"] = True
+    malformed = copy.deepcopy(eligible)
+    malformed["events"][0]["stages"]["remedy_verification"]["status"] = "bogus"
+    malformed_result = write_and_audit(malformed)
+    assert malformed_result["eligible"] is False
+    assert any("invalid stage status" in failure for failure in malformed_result["failures"])
     accepted = write_and_audit(eligible)
     assert accepted["eligible"] is True, accepted["failures"]
     print("PASS household cascade promotion guard: rejects open fixture and accepts complete synthetic ledger")
