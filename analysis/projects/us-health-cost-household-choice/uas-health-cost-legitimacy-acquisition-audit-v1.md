@@ -19,10 +19,23 @@ checks, not assumptions.
 
 ## Access verification (2026-09-15)
 
-The official UAS access pages confirm that non-registered users can explore
-survey and variable metadata but cannot view or download the data. The Monthly
-Panel page labels the dataset download as registration required, and the UAS
-data-access guidance requires a data-user account and submitted agreement.
+The official UAS pages were rechecked on 2026-09-15. USC describes UAS as a
+probability-based panel of approximately 15,000 U.S. residents and provides a
+public metadata/explorer route. The [data-access
+page](https://uasdata.usc.edu/index.php?pid=Data+Access&type=3) states that
+downloadable survey files are available to registered data users, while the
+[access conditions](https://uasdata.usc.edu/index.php?pid=Terms+and+conditions&type=3)
+require an account and the applicable data-use agreement. The [Monthly Panel
+page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3) continues to
+label the file download as registration required. The current [UAS home
+page](https://uasdata.usc.edu/index.php) also distinguishes the public
+Interactive Data Explorer from research-file access.
+
+This recheck confirms that public metadata and visualization are available,
+but it does not create a public microdata substitute. The UAS terms page is
+marked updated 07/09/2026, so the repository records the current access
+condition rather than relying on an older description. The UAS data-access
+guidance requires a data-user account and submitted agreement.
 Accordingly, there is no public-file substitute to add to this repository at
 present. The next operational step is to register through the [UAS data
 access page](https://uasdata.usc.edu/index.php?pid=Types+Of+Data&type=3), accept
