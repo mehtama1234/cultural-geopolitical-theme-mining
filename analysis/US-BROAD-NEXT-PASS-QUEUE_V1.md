@@ -6,8 +6,8 @@
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 248 records and
-951 observations.
+have exact registered-URL references. The trend registry holds 251 records and
+959 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -174,7 +174,8 @@ estimate. A separate `RFOODS` outcome layer now tests food security on the
 same records without pooling it with mortgage hardship; the next test is a
 dated bill or assistance event.
 
-The new [SIPP adjacent-month utility/care/outcome bridge](projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md)
+The new [SIPP adjacent-month utility/care/outcome bridge](projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md),
+preserved as the [canonical renter-layer record](records/us-sipp-utility-care-following-outcomes-2024.json),
 orders November utility difficulty and tenure beside December care-related
 work prevention, mortgage hardship, and food insecurity. It matches 2,600
 positive-weight pairs to all 240 replicates and therefore strengthens the
@@ -192,6 +193,8 @@ tests the more direct `ETIMELOST` endpoint conditional on `EWORKMORE=1`. Only
 all 27 match the replicate archive. This is a useful time-sacrifice boundary,
 not a care-burden estimate; the next acquisition must observe both protected
 and time-lost cases around a dated utility or provider event.
+The broader resource-conditioned time-loss comparison is also preserved in the
+[canonical time-loss record](records/us-sipp-childcare-time-loss-resource-2024.json).
 
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,
