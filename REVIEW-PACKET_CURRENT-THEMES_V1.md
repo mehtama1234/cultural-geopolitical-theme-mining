@@ -14,6 +14,17 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+## Latest local evidence to review
+
+- [SHED coverage-transition route and adaptation table](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md), with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md): four coverage paths, care entry/persistence, debt, saving, delayed purchases, and health.
+- [SIPP utility × tenure → following-month work layer](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-following-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-reproduction-audit-2026-09-16.json): utility difficulty conditioned by housing tenure with Fay-BRR uncertainty.
+- [SIPP utility × tenure → annual child-care work-prevention layer](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-reproduction-audit-2026-09-16.json): a mixed-clock care/work endpoint with small-cell limits.
+
+These are the most recent local reruns. They strengthen the material/time/care
+middle but still do not observe a dated bill, plan adequacy, treatment
+continuity, verified remedy, recovery, trust, or political action for the same
+episode.
+
 ## Scope of this review route
 
 These six routes are the current deepest reading paths, not a replacement for
