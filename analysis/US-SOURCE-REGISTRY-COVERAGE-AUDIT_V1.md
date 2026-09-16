@@ -178,6 +178,7 @@ family that will be acquired, compared, or maintained over time.
 | `github.com` | 4 | `analysis/projects/ai-work-control/findings/ai-work-control-078.md`; `analysis/projects/ai-work-control/findings/ai-work-control-077.md`; `analysis/records/us-defense-procurement-recipient-identifier-ambiguity-2026.json` |
 | `help.theguarantors.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `ilostat.github.io` | 4 | `analysis/us-theme-atlas.md`; `analysis/projects/ai-work-control/source-search-2026-09-11.md`; `analysis/projects/ai-work-control/ilostat-access-audit-2026-09-15.md` |
+| `internetconsultatie.nl` | 4 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
@@ -185,21 +186,20 @@ family that will be acquired, compared, or maintained over time.
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
+| `wetgevingskalender.overheid.nl` | 3 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
+| `rijksoverheid.nl` | 2 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
-| `wetgevingskalender.overheid.nl` | 2 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `cbp.gov` | 1 | `analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json` |
 | `denkfabrik-bmas.de` | 1 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `ec.europa.eu` | 1 | `analysis/projects/ai-work-control/jrc-aim-work-pdf-acquisition-audit-v1.md` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
-| `internetconsultatie.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `legifrance.gouv.fr` | 1 | `analysis/projects/ai-work-control/france-platform-work-directive-implementation-source-record-v1.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
 | `open.gsa.gov` | 1 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md` |
-| `rijksoverheid.nl` | 1 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -228,6 +228,7 @@ without a recurring acquisition need and source-specific metadata.
 | `github.com` | code/reproducibility host | Do not register; preserve repository, release, commit, and upstream institution separately. |
 | `help.theguarantors.com` | commercial support host | Do not register; treat as product documentation under the commercial case source. |
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
+| `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `leapeasy.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |
@@ -235,21 +236,20 @@ without a recurring acquisition need and source-specific metadata.
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
+| `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
-| `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
-| `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
-| `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 

@@ -71,6 +71,12 @@ The consultation record is evidence about proposed institutional design, not
 evidence that the proposal was enacted, that platforms complied, or that
 workers used the proposed rights.
 
+The [draft control matrix](netherlands-platform-work-directive-draft-control-matrix-v1.md)
+transcribes the proposed operational architecture: data prohibitions, impact
+assessment, transparency, portability, trained human oversight, two-week
+review and correction windows, anti-retaliation, reporting, supervision, and
+administrative penalties. These remain draft provisions, not operative rights.
+
 ## Sources
 
 - [Dutch legislative calendar: Wet platformwerk](https://wetgevingskalender.overheid.nl/Regeling/WGK026385).
