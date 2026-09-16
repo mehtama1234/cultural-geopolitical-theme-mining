@@ -18,7 +18,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Philippines, Cambodia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, wider Southeast Asia beyond Malaysia, Philippines, and Cambodia, wider Africa outside Kenya/Uganda case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
-| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda and Cambodia worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations, Cambodian state dispute authority named in an ILO diagnostic, Australian Fair Work Commission adjudicated reactivation and lost-remuneration order, Australian eligibility/revocation record exposing platform-operator identity | actual enforcement at scale, bargaining, public-sector rules, verified AI-specific remedies, exercised Malaysian or Cambodian review outcomes, payment receipt and durability after the Australian order, settlement terms and responsible-entity enforceability in the Bakar proceeding, candidate-level recruitment correction |
+| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda and Cambodia worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations, Cambodian state dispute authority named in an ILO diagnostic, Australian Fair Work Commission adjudicated reactivation and lost-remuneration order, Australian eligibility/revocation record exposing platform-operator identity, Australian merits dismissal accepting a human platform review | actual enforcement at scale, bargaining, public-sector rules, verified AI-specific remedies, exercised Malaysian or Cambodian review outcomes, payment receipt and durability after the Australian order, settlement terms and responsible-entity enforceability in Bakar, rating correction and downstream effects in Kumar, candidate-level recruitment correction |
 | Power | data, profiles, allocation, monitoring, responsibility, platform dependence, employment-status recognition | ownership, correction, override, exit, bargaining, and state leverage; no direct case yet shows explanation-to-correction or compensation after an automated platform decision |
 
 ## Evidence count
@@ -143,6 +143,10 @@ These are not errors to smooth away. They may reflect different tools, populatio
   the public record raised whether the named Australian respondent or Uber
   Technologies was the platform operator. No merits remedy or settlement terms
   are public.
+- The Kumar merits decision adds a negative outcome: Uber's warning, human
+  review, rating threshold, and deactivation process were found compliant, so
+  the application was dismissed without correction or payment. The finding is
+  case-specific and does not establish universal rating accuracy.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

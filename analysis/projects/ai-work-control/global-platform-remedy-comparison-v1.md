@@ -35,6 +35,7 @@ verified worker outcome.
 | Cambodia ILO diagnostic | Cambodia; official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, suspension, complaints, classification, social security, and injury | Platform complaint access widely reported; approximately two-thirds of complainants reported issues were seldom resolved; state dispute authority named | Verified explanation, independent review, correction, restoration, payment, and state case outcomes |
 | Australia Amazon Flex / Bandameeda | Australia; Fair Work Commission primary decision and payment order | Customer complaint, suspension, permanent deactivation, and conflicting delivery rules | External adjudication found the platform process deficient; reactivation on prior terms and $12,126.31 lost-remuneration restoration ordered | Payment receipt, continued access, recurrence prevention, and anti-retaliation |
 | Australia Uber / Bakar | Australia; Fair Work Commission eligibility and revocation decisions | Uber/Uber Eats deactivation, six-month threshold, and platform-operator identity | Eligibility initially recognized, then revoked by consent after settlement and discontinuance | Settlement terms, merits review, remedy, responsible entity, and enforceability |
+| Australia Uber Eats / Kumar | Australia; Fair Work Commission primary merits decision | Customer-satisfaction rating threshold and continued app access | Written warnings, worker response, human platform review, and compliant process adjudicated; application dismissed | Rating correction, compensation, downstream impact, and generalizability |
 | Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
 | UK ICO recruitment review | United Kingdom; regulator review of ordinary recruitment AI | CV scoring, ranking, filtering, and possible pre-human rejection | Regulator recommendations, contestability expectations, and organizational commitments | Candidate-level human review, changed decision, or compensation |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
@@ -152,6 +153,13 @@ or Uber Technologies was the platform operator and did not expose settlement
 terms or any merits remedy. Procedural access therefore depends not only on a
 right and a review body, but also on naming and serving the entity capable of
 providing relief.
+
+The Kumar decision adds a true merits-level negative outcome. The worker was
+protected and responded to a preliminary notice; the Commission found Uber's
+warnings, timing, human Community Operations review, and 85 percent customer-
+satisfaction threshold compliant, and dismissed the application. This prevents
+the remedy ledger from treating every review as institutional success or every
+non-restoration as procedural failure.
 
 ## Contradictions preserved
 

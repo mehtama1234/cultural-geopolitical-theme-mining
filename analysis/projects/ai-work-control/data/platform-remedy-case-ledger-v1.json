@@ -184,6 +184,18 @@
       "stages": {"explanation": "not_observed", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed_settlement_terms_unavailable", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_revocation_and_corporate_identity_concern_low_for_settlement_outcome",
       "boundary": "The initial eligibility finding was revoked by consent after settlement and discontinuance. No public merits decision or remedy is shown; the platform-operator identity and enforceability questions remain open."
+    },
+    {
+      "id": "PR-015",
+      "place": "Australia",
+      "population": "Rahul Kumar and Uber Eats",
+      "source_type": "Fair_Work_Commission_primary_merits_decision",
+      "decision_surface": ["customer_satisfaction_rating_threshold", "continued_app_access", "deactivation"],
+      "worker_route": "Written response, platform review, unfair-deactivation application",
+      "implementation_stage": "adjudicated_merits_dismissal",
+      "stages": {"explanation": "observed_adjudicated", "human_review": "observed_adjudicated_human_Community_Operations_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_decision_and_process_findings_low_for_rating_system_generalization_and_downstream_effects",
+      "boundary": "The Commission found Uber's warnings, notice, timing, human review, and 85 percent rating threshold compliant and dismissed the application. No correction, reactivation, payment, compensation, or later appeal outcome is shown."
     }
   ]
 }

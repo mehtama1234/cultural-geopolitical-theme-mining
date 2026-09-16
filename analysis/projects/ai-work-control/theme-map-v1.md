@@ -167,6 +167,12 @@ adds corporate identity and enforceability to the map of platform power:
 cross-border ownership can affect not only who sets the rule, but who can be
 made to answer for it.
 
+The [Uber Eats / Kumar record](uber-kumar-merits-dismissal-record-v1.md) adds
+the opposite merits outcome to Bandameeda. A human platform review and a
+known, objectively reasonable rating threshold were accepted, and the claim
+was dismissed. The theme therefore turns on review quality and evidentiary
+reasoning, not on the simple presence or absence of automation.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |

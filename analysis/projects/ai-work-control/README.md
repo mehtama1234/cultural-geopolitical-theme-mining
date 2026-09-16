@@ -295,6 +295,12 @@ consent after settlement, while the responsible platform entity and settlement
 terms remained opaque. This keeps access, enforceability, merits review, and
 worker outcome as separate stages.
 
+The [Uber Eats / Kumar record](uber-kumar-merits-dismissal-record-v1.md)
+adds a merits-level counterexample: the Fair Work Commission found the written
+notice, human platform review, rating threshold, and deactivation process
+compliant, so the claim was dismissed without restoration. The contrast helps
+test whether the regime distinguishes defensible refusal from unreviewed harm.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite
