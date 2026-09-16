@@ -143,7 +143,7 @@ def main() -> None:
             bucket = (transition_name, reason)
             outcomes = {field: valid(after.get(field, ""), after.get("A" + field[1:], ""))
                         for field in OUTCOMES}
-            outcomes[COMPOUND_OUTCOME] = all(outcomes.values())
+            outcomes[COMPOUND_OUTCOME] = outcomes["EAWBMORT"] and outcomes["EAWBGAS"]
             key = person + (str(month),)
             pair_map[key] = (bucket, outcomes, after)
             for outcome, is_valid in outcomes.items():
