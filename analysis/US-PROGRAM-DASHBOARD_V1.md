@@ -1,6 +1,6 @@
 # US program dashboard v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** active long-term program control view
 
 The program maintains a US-centered, cross-source living atlas of cultural,

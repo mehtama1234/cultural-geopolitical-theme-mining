@@ -1,10 +1,10 @@
 # US broad program next-pass queue v1
 
-**Checked:** 2026-09-15
+**Checked:** 2026-09-16
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
 
-**Coverage checkpoint (2026-09-15):** the source-registry audit now finds all
+**Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 247 records and
 949 observations.

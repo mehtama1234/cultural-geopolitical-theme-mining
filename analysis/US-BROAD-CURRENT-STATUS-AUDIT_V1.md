@@ -1,6 +1,6 @@
 # US broad program current-status audit v1
 
-**Checked:** 2026-09-15
+**Checked:** 2026-09-16
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 

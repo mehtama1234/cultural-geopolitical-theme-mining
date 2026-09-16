@@ -1,6 +1,6 @@
 # US broad program continuity ledger v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** active long-term program control record  
 **Scope:** the complete 14-theme Cultural, Social, and Geopolitical Theme
 Mining program
