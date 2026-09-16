@@ -21,15 +21,17 @@ contestability, bias testing, and documentation.
 ## Official sources
 
 - [ICO: automated recruitment decisions](https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/here-s-what-jobseekers-need-to-know-about-automated-recruitment-decisions/)
+- [ICO: AI tools used in recruitment — audit overview](https://cy.ico.org.uk/action-weve-taken/audits-and-overview-reports/2024/11/ai-tools-used-in-recruitment/)
 - [ICO AI in Recruitment Outcomes Report](https://ico.org.uk/media2/migrated/4031620/ai-in-recruitment-outcomes-report.pdf)
 - [ICO Article 22 fairness guidance](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/)
+- [ICO: automated decision-making rights](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/)
 
 ## Evidence matrix
 
 | Stage | Official record supports | Boundary |
 |---|---|---|
 | Decision surface | AI can analyze CVs, score/rank applications, filter candidates, and reject below a threshold before human review | The public materials do not identify each employer's production decision path |
-| Regulator visibility | ICO spoke to more than 30 employers and reviewed recruitment AI practices | Participants are not a representative sample of all UK employers |
+| Regulator visibility | ICO carried out consensual audit engagements with developers and providers, and separately spoke to more than 30 employers | This is upstream monitoring and a non-representative sample, not a public case register |
 | Organizational response | ICO wrote to 16 organizations and says they committed to act on recommendations | A commitment is not a completed remediation audit |
 | Transparency expectation | Candidates should be told when automated decision-making is used and how it affects the application process | No candidate-level notice or explanation is documented |
 | Contestability | Candidates can challenge a decision, express their view, and request a real person to review it | No individual challenge outcome is reported |
@@ -70,9 +72,12 @@ score is not the same as a reviewer with authority to change the actual outcome.
 
 ## Decisive next acquisition
 
-Acquire an ICO follow-up audit, an enforcement/decision notice, or a consented
-candidate case showing whether an organization disclosed the automated process,
-provided review, changed the decision, or compensated the affected person.
+The 2026-09-15 official-site search did not locate a public ICO follow-up audit,
+enforcement/decision notice, or consented candidate case tied to a particular
+recruitment decision. Keep this row at regulator-level evidence until one of
+those artifacts is found. The decisive acquisition would show whether an
+organization disclosed the automated process, provided review, changed the
+decision, or compensated the affected person.
 
 ## Boundary
 
