@@ -83,6 +83,12 @@ The next useful artifact is a compact, de-identified episode ledger. It should
 not attempt to join unrelated survey respondents. Each row should preserve the
 same case or account key across the following fields:
 
+The executable contract is the [household cascade ledger manifest](../../../manifests/us-household-constraint-cascade-ledger-v1.json),
+and its structural check is [validate_household_constraint_cascade_ledger.py](../../../scripts/validate_household_constraint_cascade_ledger.py).
+The [two-episode fixture](data/household-constraint-cascade-ledger-fixture-v1.json)
+is simulated test data only: it exercises a lower-room/borrowing case beside a
+higher-room/payment case and deliberately leaves remedy and follow-up unknown.
+
 1. trigger type and date: bill, renewal, coverage loss, denial, shutoff threat,
    care need, repair, benefit interruption, or disputed account;
 2. obligation and rule: amount owed, deductible or balance, due date, benefit

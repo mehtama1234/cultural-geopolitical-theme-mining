@@ -1,0 +1,84 @@
+{
+  "evidence_class": "simulated_test_data",
+  "schema": "us-household-constraint-cascade-ledger-v1",
+  "events": [
+    {
+      "episode_id": "SIM-HC-001",
+      "unit": "household",
+      "event_date": "2026-01-15",
+      "geography": "fictional coarse US place; no real geography",
+      "trigger": "fictional utility-payment pressure",
+      "practical_room_and_alternatives": "fictional household has limited savings and one additional payment channel; alternatives are not measured",
+      "choice_and_tradeoff": "fictional household reports borrowing to preserve food; no real choice is observed",
+      "institutional_route": "fictional utility contact recorded with a response date; no real institution is represented",
+      "remedy_verification": "unknown in fixture; response is not treated as repair",
+      "followup_outcomes": "unknown in fixture",
+      "meaning_and_action": "unknown in fixture",
+      "denominator": "two simulated household episodes; not a population estimate",
+      "date_precision": "day; fictional",
+      "missingness": "remedy, follow-up, meaning, and action are deliberately unknown",
+      "counterexample": "SIM-HC-002 has the same fictional trigger with a different fictional room and no recorded borrowing",
+      "source_and_uncertainty": "fictional fixture for validator testing only",
+      "evidence_status": "simulated_test_data",
+      "stages": {
+        "trigger": {"status": "simulated_test_data", "observation": "fictional pressure", "source": "fixture"},
+        "practical_room_and_alternatives": {"status": "simulated_test_data", "observation": "fictional limited savings", "source": "fixture"},
+        "choice_and_tradeoff": {"status": "simulated_test_data", "observation": "fictional borrowing", "source": "fixture"},
+        "institutional_route": {"status": "simulated_test_data", "observation": "fictional contact", "source": "fixture"},
+        "remedy_verification": {"status": "unknown", "observation": "not measured", "source": "fixture"},
+        "followup_outcomes": {"status": "unknown", "observation": "not measured", "source": "fixture"},
+        "meaning_and_action": {"status": "unknown", "observation": "not measured", "source": "fixture"}
+      }
+    },
+    {
+      "episode_id": "SIM-HC-002",
+      "unit": "household",
+      "event_date": "2026-01-15",
+      "geography": "fictional coarse US place; no real geography",
+      "trigger": "fictional utility-payment pressure",
+      "practical_room_and_alternatives": "fictional household has emergency savings and the same fictional payment alternatives",
+      "choice_and_tradeoff": "fictional household pays without recorded borrowing; no real choice is observed",
+      "institutional_route": "fictional utility contact recorded with a response date; no real institution is represented",
+      "remedy_verification": "unknown in fixture; response is not treated as repair",
+      "followup_outcomes": "unknown in fixture",
+      "meaning_and_action": "unknown in fixture",
+      "denominator": "two simulated household episodes; not a population estimate",
+      "date_precision": "day; fictional",
+      "missingness": "remedy, follow-up, meaning, and action are deliberately unknown",
+      "counterexample": "SIM-HC-001 has the same fictional trigger with less fictional room and recorded borrowing",
+      "source_and_uncertainty": "fictional fixture for validator testing only",
+      "evidence_status": "simulated_test_data",
+      "stages": {
+        "trigger": {"status": "simulated_test_data", "observation": "fictional pressure", "source": "fixture"},
+        "practical_room_and_alternatives": {"status": "simulated_test_data", "observation": "fictional emergency savings", "source": "fixture"},
+        "choice_and_tradeoff": {"status": "simulated_test_data", "observation": "fictional payment without borrowing", "source": "fixture"},
+        "institutional_route": {"status": "simulated_test_data", "observation": "fictional contact", "source": "fixture"},
+        "remedy_verification": {"status": "unknown", "observation": "not measured", "source": "fixture"},
+        "followup_outcomes": {"status": "unknown", "observation": "not measured", "source": "fixture"},
+        "meaning_and_action": {"status": "unknown", "observation": "not measured", "source": "fixture"}
+      }
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "SIM-HC-A01",
+      "from": "trigger and practical room",
+      "to": "choice and trade-off",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "status": "simulated_test_data",
+      "evidence": "fixture declaration",
+      "remaining_gap": "real dated episode and observed alternatives"
+    },
+    {
+      "arrow_id": "SIM-HC-A02",
+      "from": "institutional response",
+      "to": "verified remedy and follow-up",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "status": "simulated_test_data",
+      "evidence": "fixture intentionally leaves remedy unknown",
+      "remaining_gap": "same-case remedy verification and later recovery"
+    }
+  ]
+}

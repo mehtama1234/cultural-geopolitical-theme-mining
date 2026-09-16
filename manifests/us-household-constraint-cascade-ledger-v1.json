@@ -1,0 +1,29 @@
+{
+  "format": "us-household-constraint-cascade-ledger-v1",
+  "purpose": "Dated household constraint episodes from trigger and practical room through trade-off, institutional response, verified remedy, follow-up, and meaning/action",
+  "status": "research-design",
+  "valid_units": ["person", "household", "case"],
+  "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "simulated_test_data"],
+  "privacy": {
+    "direct_identifiers": false,
+    "pseudonymous_episode_ids": true,
+    "consent_or_lawful_basis_for_linkage": true,
+    "location_precision": "coarse_place_or_coarser"
+  },
+  "required_event_fields": [
+    "episode_id", "unit", "geography", "trigger", "practical_room_and_alternatives",
+    "choice_and_tradeoff", "institutional_route", "remedy_verification",
+    "followup_outcomes", "meaning_and_action", "denominator", "date_precision",
+    "missingness", "counterexample", "source_and_uncertainty", "evidence_status"
+  ],
+  "required_arrow_fields": ["arrow_id", "from", "to", "unit_held_constant", "time_order_valid", "status", "evidence", "remaining_gap"],
+  "stage_fields": [
+    "trigger", "practical_room_and_alternatives", "choice_and_tradeoff",
+    "institutional_route", "remedy_verification", "followup_outcomes", "meaning_and_action"
+  ],
+  "controlled_values": {
+    "unit": ["person", "household", "case"],
+    "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "simulated_test_data"],
+    "stage_status": ["observed", "reported", "estimated", "compared", "inferred", "unknown", "open", "simulated_test_data"]
+  }
+}
