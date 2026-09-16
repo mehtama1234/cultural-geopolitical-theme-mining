@@ -11,6 +11,9 @@ reads the existing HC-256 person file and HC-254 office, emergency-room, and
 inpatient files. It keeps one first valid event per positive-weight person and
 event family, joins round context exactly by `DUPERSID + PANEL`, replaces the
 person key with a keyed hash, and writes JSONL outside Git.
+It also records whether the first event falls strictly between the R3/1 and
+R4/2 endpoint months, preserving the month-ordering rule used by the dated
+event screen.
 
 The staged row is deliberately broader than the evidence currently supports:
 observed event month, event family, self/family payment, coverage/poverty
@@ -32,9 +35,13 @@ rows:
 | Inpatient | 1,391 |
 | **Total** | **18,457** |
 
+Of the 18,457 rows, 4,868 fall inside the strict inter-round event window and
+13,589 do not. This is a timing flag, not proof that the event caused the
+round-level outcomes.
+
 The output was written to `/tmp/cgtm-meps-2024/household-constraint-cascade-staged-ledger.jsonl`
 and passed the ledger validator in events-only mode. The exact local output
-hash was `9f19ddcb2234890ecfa6cf7ebba5960225fccaa397c09fc44e4c53217527fa88`.
+hash was `8ebaf499e161e8f7f034f6661ae35ad94de6a6e02c8baaae1c30c7e12803f320`.
 The keyed salt is intentionally not committed or recorded, so a rerun with a
 different ephemeral salt will have a different row hash.
 

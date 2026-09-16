@@ -26,6 +26,7 @@ EVENTS = {
 PERSON_FIELDS = [
     "DUPERSID", "PANEL", "PERWT24F", "INSURC24", "POVCAT24", "EMPST53",
     "RTHLTH53", "PROBPY42", "DLAYCA42", "MEDDEBT42", "FWDEBT42", "EQDENY53",
+    "ENDRFY31", "ENDRFM31", "ENDRFY42", "ENDRFM42",
 ]
 
 
@@ -90,13 +91,18 @@ def main() -> int:
             context = person_lookup.loc[record.PERSON_KEY]
             stable_key = hash_key(str(record.PERSON_KEY), args.salt)
             event_date = f"{int(record.YEAR):04d}-{int(record.MONTH):02d}-01"
+            event_month = int(record.YEAR) * 12 + int(record.MONTH)
+            r3_month = pd.to_numeric(context.ENDRFY31, errors="coerce") * 12 + pd.to_numeric(context.ENDRFM31, errors="coerce")
+            r4_month = pd.to_numeric(context.ENDRFY42, errors="coerce") * 12 + pd.to_numeric(context.ENDRFM42, errors="coerce")
+            in_interround_window = bool(pd.notna(r3_month) and pd.notna(r4_month) and r4_month > r3_month and event_month > r3_month and event_month < r4_month)
+            window_status = "yes" if in_interround_window else ("no" if pd.notna(r3_month) and pd.notna(r4_month) else "unknown")
             source = f"MEPS 2024 {family} event file + HC-256 person file"
             rows.append({
                 "episode_id": f"MEPS24-{family}-{stable_key}",
                 "unit": "person",
                 "event_date": event_date,
                 "geography": "not included in staged local ledger",
-                "trigger": f"first observed {family} event; underlying need is not identified",
+                "trigger": f"first observed {family} event; underlying need is not identified; strict R3/1-to-R4/2 event window={window_status}",
                 "practical_room_and_alternatives": (
                     f"self/family payment={clean(record.PAYMENT)}; insurance code={clean(context.INSURC24)}; "
                     f"poverty category={clean(context.POVCAT24)}; alternatives not observed"
@@ -123,7 +129,7 @@ def main() -> int:
                 "source_and_uncertainty": f"exact DUPERSID+PANEL join before keyed-hash removal; {source}; weighted context not estimated in this row-level stage",
                 "evidence_status": "observed",
                 "stages": {
-                    "trigger": {"status": "observed", "observation": f"first dated {family} event", "source": source},
+                    "trigger": {"status": "observed", "observation": f"first dated {family} event; strict inter-round window={window_status}", "source": source},
                     "practical_room_and_alternatives": {"status": "observed", "observation": f"payment={clean(record.PAYMENT)} and round context; alternatives unknown", "source": source},
                     "choice_and_tradeoff": {"status": "reported", "observation": f"round care-delay code={clean(context.DLAYCA42)}; event-specific choice unknown", "source": source},
                     "institutional_route": {"status": "reported", "observation": f"round denial/prior-authorization code={clean(context.EQDENY53)}; response unknown", "source": source},
