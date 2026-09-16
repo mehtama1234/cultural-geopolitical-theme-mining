@@ -31,6 +31,7 @@ whether it observes the alternatives that make the branch meaningful.
 | Platform work | 27-case public proceeding inventory; practical-exit contract dry-run | 8 records have explicit access-restoration language; 19 remain unknown; 0 are promoted to practical exit; broader inventory also has lost-remuneration orders | Reactivation is not autonomy; a lost-pay order is not payment; continued trips are not proof of free choice | Post-remedy account status, payment receipt, alternative platform/work, recurrence, and documented return/switch/exit reason |
 | Consumer fraud | SHED adult respondent and incident-level conditional outcomes | 21% reported financial fraud; among non-credit-card incidents, 32% reported some money unrecovered and 30% spent at least 10 hours dealing with it | Non-reporting is not satisfaction; recovery effort is not switching; continued product use is unobserved | Provider/account identity, attempted contacts, verified recovery, replacement route, continued use, and switching/non-use |
 | Consumer finance recourse | CFPB published complaint records, 5,452,107 in 2025; 25-record student-loan event-ledger dry-run | Complaint submission, routing, response labels, explanation, and relief labels; all 25 dry-run rows remain unknown for post-event status | A published complaint is not the full exposed customer population, verified remedy, account closure, or exit | Account-level exposure, repeat contact, correction, remedy receipt, closure/switch, and non-complainant denominator |
+| Consumer price adaptation | SHED 2024→2025 recontact panel; 4,419 respondents with shared IDs and panel weights | Same-respondent persistence of cheaper-product switching, reduced use, savings reduction, borrowing, and delayed purchases; persistence is higher on worsening financial-condition paths | Adaptation is not necessarily exit, free choice, or recovery; cheaper purchasing does not identify the substitute or its quality | Named product/provider, exact price or need, alternative reachability and cost, protected/sacrificed outcome, and later return or non-use |
 | Housing and insurance | State residual-market and insurer/place records | California FAIR Plan policies rose from 242,440 in September 2021 to 696,562 in June 2026; nonrenewal and backstop channels are visible | A policy-market shift is not a household move, voluntary insurer switch, affordability improvement, or safe staying | Property/household notice, premium/payment, claim/repair, alternative coverage, move/stay decision, and recovery |
 | Local service capacity | Firm, provider, establishment, shortage, mobility, and place records | Nominal presence, entry, exit, travel context, public route, and neighboring capacity | Establishment count is not reachable service, completed use, replacement, or resident exit | Dated resident attempt, wait/travel/price, successful substitute, non-use, restored access, and stay/switch/move |
 
@@ -49,6 +50,14 @@ may have applied, paperwork may have failed, a household may have moved, or a
 person may have stopped using a benefit while need continued. The observed
 following resource decline is a direct counterexample to treating exit as a
 security endpoint.
+
+The SHED recontact panel supplies a different endpoint: the same respondent
+can report a behavior again in 2025. Among prior adopters, cheaper-product
+switching persisted at 86.9% on a worsening financial-condition path, 75.9%
+on a same-condition path, and 68.8% on an improving path; reduced use
+persisted at 84.8%, 72.6%, and 66.1%. These are consumer-adaptation paths, not
+provider exit: the panel does not identify the substitute's usability, cost,
+quality, or what the behavior protected or sacrificed.
 
 ### 2. Formal remedy can restore access without revealing exit
 
