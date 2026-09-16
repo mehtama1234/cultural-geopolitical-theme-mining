@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 248 machine-readable records, 951 observations,
+**Current registry state:** 251 machine-readable records, 959 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 510 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1253,6 +1253,12 @@ market-transition or household result.
   fields may repeat across months. The same bridge now adds upward, downward,
   and any income-to-poverty-band movement as threshold screens, not dollar
   recovery measures.
+- **SIPP utility/care security bridge:** the selected renter layer now keeps
+  utility difficulty and annual child-care work prevention beside following
+  mortgage hardship, food insecurity, and resource-band movement. The
+  prevention cell has 12 pairs, so this is a joint-constraint diagnostic, not
+  a causal utility or care result; the canonical record preserves the timing
+  and denominator boundary.
 - **SIPP childcare time-loss endpoint:** the conditional `ETIMELOST` gate
   yields only 27 positive-weight November–December pairs, with complete
   replicate matching. It adds a direct reported-hours surface but is too
@@ -1333,10 +1339,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 248 trend records and 951 observations pass the
+the current checkpoint: 251 trend records and 959 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,073 local Markdown links and 498 published HTML pages pass link
+families; 1,089 local Markdown links and 510 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
