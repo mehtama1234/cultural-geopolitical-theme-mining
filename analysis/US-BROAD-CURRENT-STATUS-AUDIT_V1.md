@@ -1473,6 +1473,14 @@ actor and alternatives through verified remedy, meaning/action, recovery, and
 exit. This is a program-wide measurement boundary, not evidence that those
 outcomes did not occur.
 
+The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
+chooses the existing MEPS 2024 staged ledger as the primary local depth route:
+18,457 privacy-minimized person/event rows with exact event-to-person linkage
+and payment, coverage, health, employment, and bill context. CFPB/platform
+records remain the remedy counterexample, while SHED and HTOPS remain panel
+context. The selection is conditional on finding event-level need, alternatives,
+payment, remedy, and follow-up fields; otherwise it returns an acquisition gap.
+
 ## The shared end-to-end model
 
 ```text

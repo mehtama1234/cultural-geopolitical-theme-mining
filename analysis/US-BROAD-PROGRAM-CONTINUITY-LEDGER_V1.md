@@ -635,6 +635,14 @@ The next broad step is therefore to select one lawful stable episode key and
 measure stage-specific missingness instead of pooling these complementary
 records.
 
+The [ranked next-episode selection](broad-next-episode-selection-v1.md) makes
+the next local depth route executable. MEPS is primary because its staged
+ledger has 18,457 exact person/event rows with dated first-event families and
+payment, coverage, health, employment, and bill context. CFPB/platform remains
+the remedy counterexample; SHED and HTOPS remain non-pooled persistence and
+meaning context. The MEPS route must stop at an acquisition gap if event-level
+alternatives, remedy, or follow-up are absent.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

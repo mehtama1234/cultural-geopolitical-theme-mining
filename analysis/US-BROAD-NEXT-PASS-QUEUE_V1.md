@@ -891,6 +891,13 @@ add the missing actor, alternative, effort, protected/sacrificed outcome,
 verified remedy, meaning/action, recovery, and exit fields; if those fields
 are unavailable, record the gap and rotate to another theme.
 
+The ranked [next-episode selection](../analysis/broad-next-episode-selection-v1.md)
+chooses MEPS as the primary local route because its staged ledger contains
+18,457 exact person/event rows with payment, coverage, health, employment, and
+bill context. Use CFPB/platform as the remedy counterexample and SHED/HTOPS as
+non-pooled panel context. The MEPS pass must stop if event-level need,
+alternatives, remedy, or follow-up fields are absent.
+
 The new [consumer-loss/recourse/recovery bridge](projects/ai-work-control/findings/ai-work-control-054.md)
 places Federal Reserve household burden beside FTC administrative loss and CFPB
 response/timing fields. It clarifies that reporting, routing, explanation,

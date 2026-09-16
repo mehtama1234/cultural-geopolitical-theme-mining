@@ -1,0 +1,43 @@
+{
+  "format": "broad-next-episode-selection-v1",
+  "status": "ranked_local_route_decision",
+  "checked": "2026-09-16",
+  "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
+  "selection_rule": "Prefer the largest privacy-minimized same-person event surface with a dated trigger and exact linkage, then retain a route-specific remedy counterexample and panel context without pooling them.",
+  "ranked_routes": [
+    {
+      "rank": 1,
+      "route": "MEPS 2024 bounded event ledger",
+      "source": "analysis/projects/us-health-cost-household-choice/data/us-meps-2024-bounded-episode-ledger.json",
+      "local_input": "/tmp/cgtm-meps-2024/household-constraint-cascade-staged-ledger.jsonl",
+      "local_input_size_bytes": 54337825,
+      "records": 18457,
+      "why_selected": "Largest local person/event surface with dated first event-family rows and exact person linkage to payment, coverage, health, employment, and bill context.",
+      "strongest_stages": ["dated_event_or_exposure", "effort_money_or_time_tradeoff", "adaptation_or_protected_sacrificed_outcome", "recovery_persistence_or_exit"],
+      "next_fields": ["initiating_need", "usable_alternatives", "care_choice_or_delay", "payment_timing", "institutional_response", "verified_remedy", "unpaid_care_or_work_tradeoff", "trust_action_or_exit"],
+      "promotion_boundary": "Event ordering and payment/context are not a causal bill-to-recovery result; round-level context is not event-specific remedy or meaning/action."
+    },
+    {
+      "rank": 2,
+      "route": "CFPB/platform practical-exit ledgers",
+      "source": "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json",
+      "records": 27,
+      "why_selected": "Best local counterexample for adjudication, access restoration, lost-remuneration orders, and explicit post-event unknowns.",
+      "strongest_stages": ["institutional_or_firm_response", "verified_remedy"],
+      "next_fields": ["documented_alternative", "remedy_receipt", "durability", "continued_use_reason", "switching_or_nonuse", "worker/customer_trust_or_action"],
+      "promotion_boundary": "A restoration or order is not a verified lived remedy or practical exit without receipt, follow-up, alternatives, and protected/sacrificed outcomes."
+    },
+    {
+      "rank": 3,
+      "route": "SHED and HTOPS panel context",
+      "source": "analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json",
+      "records": 4419,
+      "why_selected": "Useful same-respondent persistence and adaptation context for a future event-linked household follow-up.",
+      "strongest_stages": ["adaptation_or_protected_sacrificed_outcome", "recovery_persistence_or_exit", "meaning_trust_or_action"],
+      "next_fields": ["dated_event", "responsible_actor", "alternative", "effort", "remedy", "attribution", "direct_action_or_exit"],
+      "promotion_boundary": "Panel persistence and adaptation do not identify a dated bill, actor, remedy, or causal political translation."
+    }
+  ],
+  "next_action": "Run the next local depth pass against the MEPS staged ledger only if the required event-level need, alternative, payment, remedy, and follow-up fields are present; otherwise use the CFPB/platform route for a small remedy-focused acquisition or record the gap.",
+  "storage_boundary": "No new acquisition. The 54 MB MEPS staged ledger remains outside Git; only the selection metadata and committed bounded output are retained."
+}

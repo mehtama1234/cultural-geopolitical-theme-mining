@@ -317,6 +317,8 @@ def main():
     memos.append(named_workplace_system_stage_ledger)
     broad_same_case_episode_availability_audit = ROOT / "analysis/broad-same-case-episode-availability-audit-v1.md"
     memos.append(broad_same_case_episode_availability_audit)
+    broad_next_episode_selection = ROOT / "analysis/broad-next-episode-selection-v1.md"
+    memos.append(broad_next_episode_selection)
     # Give the household-finance lane a stable reader route across prices,
     # buffers, credit, firm terms, adaptation, and political meaning.
     household_finance_readme = ROOT / "analysis/projects/us-household-financial-pressure/README.md"
@@ -485,6 +487,7 @@ def main():
         ai_work_control_endpoint_audit: "ai-work-control-endpoint-audit-v1.html",
         named_workplace_system_stage_ledger: "named-workplace-system-stage-ledger-v1.html",
         broad_same_case_episode_availability_audit: "broad-same-case-episode-availability-audit-v1.html",
+        broad_next_episode_selection: "broad-next-episode-selection-v1.html",
         household_finance_readme: "household-financial-pressure-program.html",
         household_pressure_synthesis: "financial-pressure-adaptation-recovery-synthesis-v1.html",
         aging_care_readme: "aging-care-strain-program.html",

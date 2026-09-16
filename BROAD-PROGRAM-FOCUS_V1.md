@@ -189,6 +189,14 @@ comparison case: complaint visibility, response labels, fraud/loss, recovery
 burden, and remedy remain separate endpoints until a linked consumer episode
 is available.
 
+The ranked [next-episode selection](analysis/broad-next-episode-selection-v1.md)
+chooses the existing MEPS 2024 staged ledger as the next primary local depth
+route because it contains 18,457 exact person/event rows with dated event,
+payment, coverage, health, employment, and bill context. CFPB/platform remains
+the remedy counterexample, while SHED and HTOPS remain non-pooled panel
+context. The MEPS pass must stop at an acquisition gap if event-level need,
+alternatives, remedy, or follow-up fields are absent.
+
 The latest AI/work-control rotation is now also a completed stage checkpoint,
 not a completed societal outcome. The [named workplace system stage ledger](analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md)
 compares IBM Germany AI governance, Microsoft Places, and Microsoft 365
