@@ -18,10 +18,10 @@ large archives are not retrieved by default, and existing local artifacts are
 checked before any new acquisition.
 
 For a compact reader route through the current evidence, use the [current
-themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links eleven
+themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links twelve
 representative routes from household pressure through institutional, political,
 and geopolitical consequences. Its new [14-theme coverage index](../REVIEW-PACKET_CURRENT-THEMES_V1.md)
-maps every governing theme to one or more of the eleven representative routes;
+maps every governing theme to one or more of the twelve representative routes;
 the packet remains a navigation layer rather than a claim that any route is
 causally complete.
 
@@ -55,7 +55,10 @@ The latest breadth move adds housing risk, insurance protection, transport,
 energy, and practical mobility as a combined place-security surface.
 The AI/platform lane has also been refreshed with a unified use, work, contact,
 companion-exit, and governance synthesis without treating those settings as
-one causal user history.
+one causal user history. The consumer-culture layer now makes trust, status,
+privacy, reporting, help-seeking, switching, and non-use explicit outcomes and
+missingness questions rather than treating participation as satisfaction or
+free choice.
 The new [program-wide theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md)
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
@@ -1390,7 +1393,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 254 trend records and 971 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,089 local Markdown links and 510 published HTML pages pass link
+families; 1,122 local Markdown links and 510 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

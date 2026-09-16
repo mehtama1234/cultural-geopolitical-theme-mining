@@ -294,6 +294,18 @@ dated account/payment episode with alternatives, terms, effort, response,
 remedy, recovery, and exit; the current cross-source layers do not establish
 a household financial causal or trust effect.
 
+The twenty-sixth rotation advances the consumer-culture, trust, status, and
+everyday-power lane through the [consumer culture, trust, status, and everyday
+power layer](projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md).
+It treats buying, searching, sharing data, seeking help, reviewing, reporting,
+switching, and staying as distinct participation surfaces that can carry
+meaning and generate institutional information. The next test remains a
+same-customer dated episode linking need or exposure, social-signaling and
+information conditions, cost, response authority, verified remedy, recovery,
+switching or abandonment, and later trust or political demand. Participation
+is not satisfaction, trust is not consent, and staying is not free choice
+without a practical alternative.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

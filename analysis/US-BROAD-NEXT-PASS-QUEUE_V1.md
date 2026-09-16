@@ -77,16 +77,19 @@ and migration, place, and infrastructure/state dependence. These passes are
 cross-source comparisons and bounded same-respondent analyses where the data
 permit. They do not yet establish a single population-wide causal chain.
 
-The latest breadth rotation is the migration/place/belonging layer. It is an
-explicit cross-source comparison of new residents as workers, customers,
-neighbors, entrepreneurs, and public-system users. It does not infer cultural
-meaning or political action from population change, rent, jobs, or service
-capacity; those require direct resident-level measures aligned to place and
-time.
+The latest breadth rotations are the migration/place/belonging layer and the
+consumer-culture/trust/status layer. The former is an explicit cross-source
+comparison of new residents as workers, customers, neighbors, entrepreneurs,
+and public-system users. The latter treats buying, searching, sharing,
+reporting, help-seeking, switching, and staying as social and institutional
+acts. Neither infers cultural meaning or political action from population
+change, participation, trust, or service capacity; those require direct
+resident/customer-level measures aligned to place, episode, and time.
 
 The reader layer now has dedicated routes for material/time/care linkage,
 political meaning across scales, AI use/work/contact/exit, public help and
-judgment, and housing/insurance/energy pressure. These routes are presentation
+judgment, housing/insurance/energy pressure, and consumer culture/trust/status.
+These routes are presentation
 artifacts built from the validated records; they do not add new estimates or
 close the same-unit event arrows. The authenticated PSID package remains
 absent, while the 2025 SIPP archive, replicate-weight archive, and derived
