@@ -196,6 +196,18 @@
       "stages": {"explanation": "observed_adjudicated", "human_review": "observed_adjudicated_human_Community_Operations_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_decision_and_process_findings_low_for_rating_system_generalization_and_downstream_effects",
       "boundary": "The Commission found Uber's warnings, notice, timing, human review, and 85 percent rating threshold compliant and dismissed the application. No correction, reactivation, payment, compensation, or later appeal outcome is shown."
+    },
+    {
+      "id": "PR-016",
+      "place": "Australia",
+      "population": "Sajid Saleem Warraich and Uber",
+      "source_type": "Fair_Work_Commission_primary_merits_decision",
+      "decision_surface": ["rider_complaints", "suspension", "complaint_based_deactivation", "discrimination_allegations"],
+      "worker_route": "Worker responses, requested discussion, statutory unfair-deactivation application",
+      "implementation_stage": "adjudicated_unfair_deactivation_reactivation_order",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_nominal_process_disputed", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "open_lost_remuneration_to_be_determined", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_decision_and_reactivation_low_for_later_pay_and_implementation",
+      "boundary": "The Commission found the warning and complaint evidence insufficient, the Code process non-compliant, and the deactivation unfair; it ordered reactivation and directed the parties to confer about lost remuneration. Amount, payment, continued access, process change, and anti-retaliation are not observed."
     }
   ]
 }

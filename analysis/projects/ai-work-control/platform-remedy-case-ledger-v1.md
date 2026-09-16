@@ -39,6 +39,7 @@ occurred.
 | PR-013 | Melbourne, Australia; Amazon Flex and Gopal Bandameeda | Fair Work Commission primary decision and lost-remuneration order | Customer complaint, platform suspension, permanent deactivation, and conflicting delivery rules | Worker response; request for human discussion; statutory unfair-deactivation application | `observed_adjudicated` including finding that platform process lacked meaningful consideration and further inquiry | `observed_adjudicated` as external review; platform human review found absent | `observed_adjudicated` — reactivation on prior terms ordered | `observed_adjudicated` — $12,126.31 lost remuneration ordered; restoration, not compensation | `not_observed` | High for decision and order; low for payment receipt, durability, and generalization | One complete individual remedy chain is visible; recurrence prevention, receipt, and anti-retaliation remain open |
 | PR-014 | Australia; Uber App, Mian Abu Bakar, and Rasier Pacific | Fair Work Commission eligibility decision and revocation decision | Uber/Uber Eats deactivation; six-month protection threshold; platform-operator identity | Unfair-deactivation application; threshold adjudication; settlement and discontinuance | `observed_adjudicated_then_revoked` at eligibility stage | `not_observed` on merits | `not_observed` | `not_observed` — settlement terms unavailable | `not_observed` | High for revocation and corporate-identity concern; low for settlement outcome | Eligibility finding was revoked by consent; no public merits decision or remedy; operator identity and enforceability remained open |
 | PR-015 | Brisbane, Australia; Uber Eats and Rahul Kumar | Fair Work Commission primary merits decision | Customer-satisfaction rating threshold and continued app access | Written response; platform review; unfair-deactivation application | `observed_adjudicated` — written warnings and reasoned notice found compliant | `observed_adjudicated` — human Community Operations review found performed and sufficient | `not_observed` | `not_observed` | `not_observed` | High for decision and process findings; low for rating-system generalization and downstream effects | Protected worker's application dismissed because the Commission found the rating rule and Code process compliant |
+| PR-016 | Perth, Australia; Sajid Saleem Warraich and Uber | Fair Work Commission primary merits decision | Five rider complaints, suspension, and complaint-based deactivation | Worker responses, requested discussion, statutory unfair-deactivation application | `observed_adjudicated` — warning and complaint particulars found insufficient | `observed_adjudicated` — nominal internal review did not establish meaningful inquiry | `observed_adjudicated` — reactivation ordered | `open` — parties directed to confer; amount and payment not observed | `not_observed` | High for decision and reactivation; low for later pay and implementation | Commission found Code non-compliance, no valid reason, and unfair deactivation; lost remuneration was left for later determination |
 
 ## Cross-row findings
 
@@ -88,6 +89,11 @@ rating threshold as reasonable, and dismissed the unfair-deactivation claim.
 The record shows that review can produce a reasoned refusal; it does not prove
 that individual ratings were accurate in every case or that no later appeal or
 correction occurred.
+
+PR-016 adds a second merits-level Australian contrast. In Warraich, the
+Commission found that a generic complaint notice, limited particulars, and an
+inadequately evidenced internal review did not satisfy the Code or procedural
+fairness. Reactivation was ordered, but the lost-pay amount was deferred.
 
 ### Formal remedy and practical remedy are separate variables
 
@@ -145,6 +151,7 @@ For each new case, add:
 - [Amazon Flex / Bandameeda deactivation remedy record](amazon-bandameeda-deactivation-remedy-record-v1.md)
 - [Uber / Bakar deactivation-jurisdiction record](uber-bakar-revoked-deactivation-record-v1.md)
 - [Uber Eats / Kumar merits-dismissal record](uber-kumar-merits-dismissal-record-v1.md)
+- [Uber / Warraich unfair-deactivation record](uber-warraich-unfair-deactivation-record-v1.md)
 
 ## Boundary
 
