@@ -168,3 +168,6 @@ This is a research ledger, not a legal database or estimate of the prevalence
 of effective remedies. The rows have different units and evidence designs and
 must not be pooled without a compatible denominator, time window, and outcome
 definition.
+
+The [platform-remedy stage coding specification](platform-remedy-stage-coding-spec-v1.md)
+defines the shared fields and denominator discipline used for future expansion.

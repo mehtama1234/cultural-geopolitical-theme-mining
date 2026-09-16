@@ -313,6 +313,10 @@ The [Australia–Malaysia–Cambodia stage-compatible comparison](australia-mala
 compares adjudicated remedy depth, institutional hearing use, and worker-
 reported resolution without pooling unlike outcomes.
 
+The [platform-remedy stage coding specification](platform-remedy-stage-coding-spec-v1.md)
+defines the shared unit, evidence classes, outcome ladder, denominator rules,
+and publication quality gates for future country inventories.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite
