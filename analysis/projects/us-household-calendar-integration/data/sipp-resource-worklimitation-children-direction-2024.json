@@ -1,0 +1,38 @@
+{
+  "record_id": "us-sipp-resource-worklimitation-children-direction-2024",
+  "source_family": "SIPP/Census",
+  "reference_year": 2024,
+  "release": "2025 SIPP public-use file",
+  "unit": "identified person-month and adjacent person-month pair",
+  "measure": "direction of valid nonnegative TPEARN and TMWKHRS at month t+1, conditioned on THINCPOV endpoint, EDISABL, and RHNUMU18",
+  "groups": ["below_1x", "4x_or_more"],
+  "statuses": ["work_limitation_yes", "work_limitation_no", "children_under_18_yes", "children_under_18_no"],
+  "weight": "WPFINWGT; REPWGT1-REPWGT240",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "inputs": {
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "0eb3a468aa9b1c0911247f20c23e9a3b60a36ce7bf0a6b635deccec0e6c435e5",
+    "output_sha256": "47698b13bd07158cda081a7969f6ce44350b439ec9ede49ecbf5e408857da173"
+  },
+  "rows_read": 379215,
+  "identified_persons": 31992,
+  "replicate_rows_read": 378291,
+  "matched_pair_rows": 26427,
+  "selected_cells": {
+    "hours_same_below_1x": {
+      "work_limitation_yes_children_yes": {"estimate_percent": 63.056, "se_percentage_points": 10.828, "valid_pair_n": 55},
+      "work_limitation_yes_children_no": {"estimate_percent": 83.005, "se_percentage_points": 7.579, "valid_pair_n": 93},
+      "work_limitation_no_children_yes": {"estimate_percent": 85.781, "se_percentage_points": 1.945, "valid_pair_n": 778},
+      "work_limitation_no_children_no": {"estimate_percent": 85.927, "se_percentage_points": 2.346, "valid_pair_n": 794}
+    },
+    "earnings_direction_4x_or_more": {
+      "work_limitation_yes_children_yes": {"increase_percent": 42.250, "decrease_percent": 44.630, "valid_pair_n": 619},
+      "work_limitation_yes_children_no": {"increase_percent": 40.405, "decrease_percent": 37.936, "valid_pair_n": 299},
+      "work_limitation_no_children_yes": {"increase_percent": 44.282, "decrease_percent": 43.208, "valid_pair_n": 13179},
+      "work_limitation_no_children_no": {"increase_percent": 43.803, "decrease_percent": 42.915, "valid_pair_n": 10518}
+    }
+  },
+  "status": "descriptive_reproduction; no new trend record",
+  "boundary": "RHNUMU18 is household composition, not care responsibility. Person weights do not produce household prevalence. The transition screen does not establish causality, job quality, accommodation, recovery, trust, political action, or exit."
+}

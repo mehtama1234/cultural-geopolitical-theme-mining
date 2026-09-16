@@ -55,6 +55,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Utility difficulty, care-related work prevention, and housing hardship](analysis/projects/us-household-calendar-integration/sipp-utility-care-mortgage-three-way-diagnostic-v1.md)
 - [Utility difficulty to following-month care and household-security outcomes](analysis/projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md)
 - [SIPP utility difficulty and reported childcare time lost](analysis/projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md)
+- [SIPP resources, work limitation, and children direction finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-041.md)
 
 ### Consumer power and recourse
 

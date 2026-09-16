@@ -1837,6 +1837,14 @@ protected/sacrificed outcome. The next gate remains monthly hours, earnings,
 care/time loss, and a following hardship or recovery outcome in a same-unit
 design.
 
+The new [children-conditioned earnings/hours direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-041.md)
+adds household composition to the same-person monthly transition screen. It
+shows a sparse low-resource hours contrast while preserving a high-resource
+counterexample in which earnings rise and fall among work-limited people with
+children. `RHNUMU18` is not a care-hours measure, so the next gate remains an
+actual care or child-care constraint with desired hours, schedule control,
+paid/unpaid care, and a later material or health outcome.
+
 The [intersectional material-room finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-022.md)
 now promotes the race × tenure × monthly-resource comparison into a detailed
 reader-facing memo. A current-vintage SIPP rerun reproduces the prior
