@@ -306,6 +306,21 @@ cross-tabs show that perceived economic meaning, job competition, legal
 inclusion, desired immigration level, trust, and reported vote are distinct
 dimensions.
 
+**Concrete place/meaning anchors:** in the [place-capacity, growth, belonging,
+and action record](analysis/records/us-place-capacity-growth-belonging-action-crosssource-2024-2026.json),
+median county population change ranges from -1.023% to 6.749% across growth
+quartiles, while federal trust ranges from 35.25% to 41.93% and selected civic
+action from 37.27% to 38.11%; growth is therefore not a simple trust or action
+gradient. The [Chicagoland local-attitude record](analysis/records/us-chicagoland-immigration-belonging-action-2026.json)
+reports support for a citizenship path at 66% in Chicago, 52% in suburban Cook,
+and 61% in Lake County, while support for permanent Dreamer status is 79%,
+72%, and 72%, respectively. The [ANES immigration record](analysis/records/us-anes-immigration-meaning-action-2024.json)
+shows 73.0% of respondents who said immigration was extremely bad for the
+economy favored decreasing it a lot, compared with 17.6% among those saying it
+was extremely good for the economy and favoring an increase. These are
+place- and meaning-specific contrasts, not evidence that population change
+caused attitudes or action.
+
 **Open arrow:** the current evidence does not join the same resident to a
 dated local exposure, housing/service experience, attribution, belonging,
 trust, action, institutional response, and ability to stay or move. Population
