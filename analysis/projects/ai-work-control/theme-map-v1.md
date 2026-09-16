@@ -131,8 +131,10 @@ The [Philippines DOLE platform-governance record](philippines-dole-platform-gove
 adds the state response: DOLE named algorithmic-management protections and
 effective remedies in a July 2026 government–platform dialogue, requested
 platform position papers, and directed a dedicated complaint route. This is
-official institutional action, not yet a binding platform-work rule or verified
-automated-decision correction.
+official institutional action; a general DOLE Hotline 1349 is listed as
+available, but the dedicated gig-specific unit is not yet verified as operating,
+and there is no binding platform-work rule or verified automated-decision
+correction.
 
 The same record separates an international labor standard's adoption from its
 domestic force: the Philippines voted for ILO Convention No. 193, but the

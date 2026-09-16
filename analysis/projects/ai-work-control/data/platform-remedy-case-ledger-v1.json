@@ -12,6 +12,7 @@
     "observed_case_report": "A public report identifies a specific proceeding or hearing, but the primary adjudicative record or final outcome is not yet available.",
     "observed_comparative_audit": "A structured country or platform assessment documents a formal process or standard; it does not establish that an individual used it or obtained a remedy.",
     "observed_official_action": "An official institution took a documented dialogue, directive, inspection, or capacity-building action; this does not establish a binding rule or worker outcome.",
+    "observed_official_service": "An official public service is listed as operational; scope, specialized use, and outcomes must still be measured.",
     "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
   },
   "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
@@ -142,6 +143,7 @@
       "decision_surface": ["platform_labor_standards", "algorithmic_management_policy", "data_privacy", "worker_safety", "complaint_access"],
       "worker_route": "Announced 24/7 DOLE complaint unit; government–platform dialogue",
       "implementation_stage": "official_action_and_policy_dialogue",
+      "service_status": "general_DOLE_hotline_listed_operational_gig_specific_unit_not_observed",
       "stages": {"explanation": "not_observed", "human_review": "not_observed_as_automated_decision_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "observed_official_action_in_separate_safety_episode"},
       "evidence_strength": "high_for_official_action_low_for_ADM_remedy",
       "boundary": "DOLE named algorithmic-management protections and effective remedies as agenda items, requested platform position papers, and announced complaint capacity; no binding rule or corrected automated decision shown."
