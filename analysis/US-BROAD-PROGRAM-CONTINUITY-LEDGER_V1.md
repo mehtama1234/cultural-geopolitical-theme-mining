@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 21 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 22 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -236,6 +236,16 @@ reported round proxies, and remedy plus meaning/action are unknown. This is a
 depth-control artifact, not a new causal estimate. The next broad pass should
 use the same stage vocabulary when advancing another household, consumer,
 political, place, institutional, or geopolitical lane.
+
+The twenty-second rotation returns to the cultural and political side of place
+through the [migration, local demand, housing, services, and belonging
+layer](projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md).
+It treats new residents as workers, customers, neighbors, entrepreneurs, and
+public-system users simultaneously, while keeping local capacity, unequal
+incidence, belonging, attribution, trust, action, and mobility as separate
+evidence stages. The existing layer is a cross-source design and not a local
+causal estimate; the next pass needs matched place exposure and direct resident
+meaning/action measures.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

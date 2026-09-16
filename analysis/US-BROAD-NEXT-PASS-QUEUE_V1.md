@@ -62,6 +62,13 @@ and migration, place, and infrastructure/state dependence. These passes are
 cross-source comparisons and bounded same-respondent analyses where the data
 permit. They do not yet establish a single population-wide causal chain.
 
+The latest breadth rotation is the migration/place/belonging layer. It is an
+explicit cross-source comparison of new residents as workers, customers,
+neighbors, entrepreneurs, and public-system users. It does not infer cultural
+meaning or political action from population change, rent, jobs, or service
+capacity; those require direct resident-level measures aligned to place and
+time.
+
 The reader layer now has dedicated routes for material/time/care linkage,
 political meaning across scales, AI use/work/contact/exit, public help and
 judgment, and housing/insurance/energy pressure. These routes are presentation
