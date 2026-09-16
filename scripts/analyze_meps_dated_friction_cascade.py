@@ -121,6 +121,7 @@ def main() -> int:
         strata = {
             "any_private_coverage": window["INSCOV24"].eq(1),
             "not_confident_paying_unexpected_expense": window["FWUNEXP42"].isin([1, 2]),
+            "confident_paying_unexpected_expense": window["FWUNEXP42"].isin([3, 4]),
         }
         for stratum_name, stratum_mask in [("all_event_window", pd.Series(True, index=window.index)), *strata.items()]:
             stratum_output: dict[str, object] = {}

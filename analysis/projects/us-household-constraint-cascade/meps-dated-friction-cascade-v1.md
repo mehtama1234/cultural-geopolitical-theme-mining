@@ -53,6 +53,15 @@ and among people who report low confidence paying an unexpected expense:
 | ER / not confident paying unexpected expense | 34.57%; 45.11% (n=48) | 11.62%; 25.52% (n=113) |
 | Inpatient / not confident paying unexpected expense | 36.51%; 40.04% (n=23) | 9.23%; 15.33% (n=56) |
 
+For comparison, among respondents confident paying an unexpected expense, the
+contrast is smaller but remains present in the two larger event families:
+
+| Event family / stratum | Denial/delay: care delay; medical debt | No denial/delay: care delay; medical debt |
+|---|---:|---:|
+| Office / confident | 10.62%; 21.31% (n=179) | 5.05%; 12.91% (n=1,353) |
+| ER / confident | 18.62%; 28.17% (n=118) | 4.98%; 17.38% (n=437) |
+| Inpatient / confident | 10.61%; 22.61% (n=57) | 2.41%; 9.93% (n=248) |
+
 These intersections are descriptive robustness screens, not separate causal
 estimates. Inpatient and friction/room cells are small; the practical-room
 variables are annual/person-level measures, not liquid cash or event-specific
@@ -119,9 +128,9 @@ python3 scripts/analyze_meps_dated_friction_cascade.py \
 
 The [analysis script](../../../scripts/analyze_meps_dated_friction_cascade.py)
 was corrected for a pandas index-alignment issue before this output was
-accepted. Script SHA-256: `2b9692f8db7166e2d57d4ce315e25eb2d2b489a979e2a22d00d0c2c8c91970b9`.
+accepted. Script SHA-256: `c3ea8eb349779df0cb2ca2f8403058bff1fb35a50f14640bed76d4f0486a3e84`.
 The compact output SHA-256 is
-`034f3b88bd43fa3ae08d9662f8b089fb70779dd10f655c2ac716be27b7a40fa8`.
+`bbbc61faa729ef0050df07456d5ac3a27a5786793ae1b57c10c57b060d578afa`.
 
 **Evidence status:** strict-window same-person descriptive comparison; not a
 claim-level episode, causal estimate, remedy result, recovery measure, or
