@@ -161,7 +161,7 @@ family that will be acquired, compared, or maintained over time.
 | Domain | References | Example evidence files |
 |---|---:|---|
 | `doi.org` | 58 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
-| `fwc.gov.au` | 28 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
+| `fwc.gov.au` | 31 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
 | `support.sayrhino.com` | 9 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
@@ -198,8 +198,8 @@ family that will be acquired, compared, or maintained over time.
 | `bwc.dole.gov.ph` | 2 | `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
 | `cy.ico.org.uk` | 2 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-recruitment-follow-up-acquisition-audit-2026-09-15.md` |
 | `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
+| `dms-uat.fwc.gov.au` | 2 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `dosh.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
-| `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -248,6 +248,7 @@ without a recurring acquisition need and source-specific metadata.
 | `bwc.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cy.ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dms-uat.fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dosh.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -260,7 +261,6 @@ without a recurring acquisition need and source-specific metadata.
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `dms-uat.fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |

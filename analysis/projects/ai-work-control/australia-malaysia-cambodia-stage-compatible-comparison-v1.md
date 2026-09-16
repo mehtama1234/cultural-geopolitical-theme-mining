@@ -16,7 +16,7 @@ as a successful remedy.
 
 | Jurisdiction | Unit of evidence | Strongest observed stage | What the unit cannot establish |
 |---|---|---|---|
-| Australia | 9 identifiable FWC proceeding surfaces in a bounded official-bulletin frame | Eligibility decisions, merits findings, reactivation orders, and lost-remuneration orders | Prevalence, actual payment/access after orders, and system-wide reform |
+| Australia | 11 identifiable FWC proceeding surfaces in a bounded official-bulletin frame | Eligibility decisions, merits findings, reactivation orders, and lost-remuneration orders | Prevalence, actual payment/access after orders, and system-wide reform |
 | Malaysia | Act 872, Tribunal architecture, and one publicly reported GrabCar hearing | Formal institution and a case reaching a hearing with evidence/witness examination reportedly pending | Claim details, legal reasoning, award, payment, correction, or enforcement |
 | Cambodia | Official ILO mixed-method diagnostic: 1,237 surveys, 29 worker interviews, 10 key informants | Worker-reported complaint access, complaint use, and low reported resolution; state authority named | Individual case files, reviewer authority, corrected decisions, payment, or state caseload |
 
@@ -49,7 +49,7 @@ adverse platform decision
 
 ## Australia: adjudicated remedy depth
 
-The bounded Australian census identifies nine proceeding surfaces. The cases
+The bounded Australian census identifies eleven proceeding surfaces. The cases
 include eligibility failure, settlement/revocation, timing review, a merits
 dismissal, and merits-level reactivation. The FWC primary record confirms:
 
