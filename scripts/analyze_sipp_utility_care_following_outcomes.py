@@ -261,13 +261,19 @@ def main() -> None:
         "no_difficulty__owner_buyer__prevented_minus_not_prevented": (
             "no_difficulty__prevented__owner_buyer", "no_difficulty__not_prevented__owner_buyer"),
     }
+    outcome_pairs = {
+        "mortgage_hardship": "mortgage",
+        "food_insecurity": "food",
+        "resource_band_changed": "resource_changed",
+        "resource_band_improved": "resource_improved",
+        "resource_band_worsened": "resource_worsened",
+    }
     contrasts = {}
     for name, (higher, lower) in contrast_pairs.items():
         contrasts[name] = {}
-        for outcome, rep_name in (("mortgage_hardship", "mortgage"),
-                                  ("food_insecurity", "food")):
-            high_share = results[higher][outcome]["share_percent"] / 100
-            low_share = results[lower][outcome]["share_percent"] / 100
+        for outcome, rep_name in outcome_pairs.items():
+            high = results[higher][outcome]["share_percent"] / 100
+            low = results[lower][outcome]["share_percent"] / 100
             high_rep = np.divide(rep_num[rep_name][higher], rep_den[rep_name][higher],
                                  out=np.full(REPLICATES, np.nan),
                                  where=rep_den[rep_name][higher] != 0)
@@ -276,8 +282,7 @@ def main() -> None:
                                 where=rep_den[rep_name][lower] != 0)
             if np.isnan(high_rep).any() or np.isnan(low_rep).any():
                 raise ValueError(f"incomplete replicate contrast for {name}/{outcome}")
-            contrasts[name][outcome] = contrast_summary(high_share, low_share,
-                                                        high_rep, low_rep)
+            contrasts[name][outcome] = contrast_summary(high, low, high_rep, low_rep)
     output = {
         "format": "us-sipp-utility-care-following-outcomes-fay-brr-v1",
         "source_unit": "identified November-to-December person pairs; utility difficulty and tenure at month t, child-care work prevention and outcomes at month t+1",

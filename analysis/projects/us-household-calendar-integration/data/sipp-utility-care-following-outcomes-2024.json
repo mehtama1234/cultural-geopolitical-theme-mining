@@ -442,6 +442,30 @@
           -18.355003449159558,
           47.22039201297558
         ]
+      },
+      "resource_band_changed": {
+        "difference_percentage_points": 13.392248326212943,
+        "standard_error_percentage_points": 15.952044905295727,
+        "approx_95_percent_ci": [
+          -17.873759688166682,
+          44.65825634059257
+        ]
+      },
+      "resource_band_improved": {
+        "difference_percentage_points": -3.0934109851101823,
+        "standard_error_percentage_points": 1.7722549056384167,
+        "approx_95_percent_ci": [
+          -6.567030600161479,
+          0.3802086299411145
+        ]
+      },
+      "resource_band_worsened": {
+        "difference_percentage_points": 16.485659311323126,
+        "standard_error_percentage_points": 15.846345435556483,
+        "approx_95_percent_ci": [
+          -14.57317774236758,
+          47.54449636501383
+        ]
       }
     },
     "difficulty__owner_buyer__prevented_minus_not_prevented": {
@@ -459,6 +483,30 @@
         "approx_95_percent_ci": [
           0.13225098506758926,
           56.16849560293424
+        ]
+      },
+      "resource_band_changed": {
+        "difference_percentage_points": 5.7220709886328525,
+        "standard_error_percentage_points": 9.149689407155307,
+        "approx_95_percent_ci": [
+          -12.21132024939155,
+          23.655462226657257
+        ]
+      },
+      "resource_band_improved": {
+        "difference_percentage_points": 0.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_percent_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "resource_band_worsened": {
+        "difference_percentage_points": 5.7220709886328525,
+        "standard_error_percentage_points": 9.149689407155307,
+        "approx_95_percent_ci": [
+          -12.21132024939155,
+          23.655462226657257
         ]
       }
     },
@@ -478,6 +526,30 @@
           -8.16420181050065,
           23.610074915467038
         ]
+      },
+      "resource_band_changed": {
+        "difference_percentage_points": 7.627809099894234,
+        "standard_error_percentage_points": 6.847971049003249,
+        "approx_95_percent_ci": [
+          -5.794214156152133,
+          21.0498323559406
+        ]
+      },
+      "resource_band_improved": {
+        "difference_percentage_points": 1.4122310533247313,
+        "standard_error_percentage_points": 4.6165448259634525,
+        "approx_95_percent_ci": [
+          -7.636196805563635,
+          10.460658912213098
+        ]
+      },
+      "resource_band_worsened": {
+        "difference_percentage_points": 6.215578046569498,
+        "standard_error_percentage_points": 5.56406248515988,
+        "approx_95_percent_ci": [
+          -4.689984424343867,
+          17.121140517482864
+        ]
       }
     },
     "no_difficulty__owner_buyer__prevented_minus_not_prevented": {
@@ -495,6 +567,30 @@
         "approx_95_percent_ci": [
           -2.287576655860992,
           18.031263201172834
+        ]
+      },
+      "resource_band_changed": {
+        "difference_percentage_points": -2.979188538826385,
+        "standard_error_percentage_points": 1.2536656230535537,
+        "approx_95_percent_ci": [
+          -5.43637316001135,
+          -0.52200391764142
+        ]
+      },
+      "resource_band_improved": {
+        "difference_percentage_points": -1.5344636263565767,
+        "standard_error_percentage_points": 1.2030132615950093,
+        "approx_95_percent_ci": [
+          -3.892369619082795,
+          0.8234423663696415
+        ]
+      },
+      "resource_band_worsened": {
+        "difference_percentage_points": -1.4447249124698103,
+        "standard_error_percentage_points": 0.3955506884425812,
+        "approx_95_percent_ci": [
+          -2.2200042618172695,
+          -0.6694455631223512
         ]
       }
     }

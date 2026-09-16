@@ -130,6 +130,23 @@ amount, or reason for movement. The resource surface therefore adds a
 possible sacrificed-outcome screen while preserving both upward and downward
 counterexamples.
 
+The replicate-level prevention contrasts sharpen that boundary:
+
+| Utility at *t* | Tenure at *t* | Resource outcome | Prevention minus no prevention | SE | Approx. 95% CI |
+|---|---|---|---:|---:|---:|
+| Difficulty | Renter | Any band change | +13.392 pp | 15.952 | −17.874 to +44.658 |
+| Difficulty | Renter | Upward change | −3.093 pp | 1.772 | −6.567 to +0.380 |
+| Difficulty | Renter | Downward change | +16.486 pp | 15.846 | −14.573 to +47.544 |
+| Difficulty | Owner/buyer | Any band change | +5.722 pp | 9.150 | −12.211 to +23.655 |
+| No difficulty | Renter | Any band change | +7.628 pp | 6.848 | −5.794 to +21.050 |
+| No difficulty | Owner/buyer | Any band change | −2.979 pp | 1.254 | −5.436 to −0.522 |
+
+The central renter/difficulty changes are not distinguishable from zero. In the
+no-difficulty owner/buyer counter-surface, childcare prevention is associated
+with less band movement, illustrating why the available data do not support a
+single directional resource-loss story. These contrasts are descriptive and
+should not be read as adjusted effects.
+
 ## What this adds
 
 The bridge advances the end-to-end map by adding an explicit adjacent-month
