@@ -5,12 +5,19 @@
     "title": "Algorithmic management and working conditions in Europe. Evidence from the AIM-WORK Survey",
     "jrc_reference": "JRC147505",
     "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+    "direct_pdf": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC147505/JRC147505_01.pdf",
     "table": "Table 2, pp. 19-20",
     "retrieval_note": "Transcribed from the publicly readable full text; the official JRC repository record is the canonical publication locator."
   },
   "unit": "employees in all 27 EU Member States",
-  "model": "ordered logistic regression; average marginal effects shown in the published table",
-  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "workplace size", "industry", "occupation"],
+  "model": "Table 2 note: ordered logistic regression; average marginal effects shown",
+  "analysis_methods_section": "The methods section describes multinomial logit models as the primary specification and OLS as a robustness test.",
+  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "country fixed effects", "sector fixed effects", "occupation fixed effects", "workplace size", "digital tools used", "trade union or staff representative presence"],
+  "model_audit": {
+    "internal_specification_difference": true,
+    "description": "The methods section (p. 16) identifies multinomial logit as primary, while the Table 2 note (p. 19) labels the displayed estimates ordered logistic. This record preserves both statements and does not resolve the paper's internal wording difference.",
+    "country_model": "Country analysis uses OLS because limited observations in some countries prevented model convergence; Figure 6 uses normalized dependent variables and crosses cells with fewer than 30 independent-variable observations."
+  },
   "significance": "*** p<0.01; ** p<0.05; * p<0.10; no marker means not statistically significant",
   "outcome_order": ["aut_order", "aut_methods", "aut_speed", "stress", "breaks", "com_manager", "com_peers", "flextime", "wnight", "wsunday", "wsaturday", "w10hplus", "plw_clients", "plw_vehicle", "plw_outside", "plw_home"],
   "outcome_labels": {

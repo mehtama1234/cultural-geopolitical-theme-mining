@@ -5,12 +5,15 @@
     "title": "Algorithmic management and working conditions in Europe. Evidence from the AIM-WORK Survey",
     "jrc_reference": "JRC147505",
     "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+    "direct_pdf": "https://publications.jrc.ec.europa.eu/repository/bitstream/JRC147505/JRC147505_01.pdf",
     "table": "Table 2, pp. 19-20",
     "retrieval_note": "Core cells transcribed from the publicly readable full text; official JRC repository record is the canonical publication locator."
   },
   "unit": "employees in all 27 EU Member States",
-  "model": "ordered logistic regression; average marginal effects shown in the published table",
-  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "workplace size", "industry", "occupation"],
+  "model": "Table 2 note: ordered logistic regression; average marginal effects shown",
+  "analysis_methods_section": "The methods section describes multinomial logit models as the primary specification and OLS as a robustness test.",
+  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "country fixed effects", "sector fixed effects", "occupation fixed effects", "workplace size", "digital tools used", "trade union or staff representative presence"],
+  "model_audit": "The methods section and Table 2 note use different model labels; the compact record preserves this unresolved wording difference.",
   "outcomes": ["aut_order", "aut_methods", "aut_speed", "stress", "breaks"],
   "outcome_labels": {
     "aut_order": "autonomy to decide task order",

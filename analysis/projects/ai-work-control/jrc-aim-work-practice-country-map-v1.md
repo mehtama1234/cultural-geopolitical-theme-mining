@@ -158,3 +158,9 @@ have documented voice, correction, or refusal rights.
 The analysis is a weighted, cross-sectional worker survey. It is not a causal
 experiment, a firm implementation audit, or evidence that AI alone—rather than
 algorithmic management more broadly—produced a worker outcome.
+
+The [source record's model audit](jrc-aim-work-source-record-v1.md#analysis-model-audit)
+also preserves an internal estimator-label difference in the publication: the
+methods section describes multinomial logit as primary, while the Table 2 note
+labels its displayed estimates ordered logistic. This is a reproducibility
+qualification, not a reason to merge the table with a different estimand.

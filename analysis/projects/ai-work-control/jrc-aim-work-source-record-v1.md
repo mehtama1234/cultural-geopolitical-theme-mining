@@ -10,6 +10,7 @@
 2. [Methodology of the AIM-WORK survey, JRC143933](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933), accessed 2026-09-11.
    [Direct PDF](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143933/JRC143933_01.pdf), reviewed 2026-09-15.
 3. [Algorithmic management and working conditions in Europe: Evidence from the AIM-WORK Survey, JRC147505](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505), 6 July 2026, accessed 2026-09-11.
+   [Direct PDF](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC147505/JRC147505_01.pdf), reviewed 2026-09-15.
 4. [Digital Monitoring, Algorithmic Management and the Platformisation of Work in Europe, JRC143072](https://publications.jrc.ec.europa.eu/repository/handle/JRC143072), 13 October 2025, accessed 2026-09-11.
 
 ## Design and coverage
@@ -88,6 +89,28 @@ review.
 sector/occupation/country categories in [the machine-readable record](data/jrc-aim-work-figure1-6-qualitative-v1.json).
 **Country/sector table extraction with denominators, standard errors, and
 uncertainty:** still open.
+
+## Analysis-model audit
+
+The official PDF exposes a specification detail that must remain visible. In
+the methods section (p. 16), the authors describe multinomial logit models as
+the primary specification and OLS as a robustness test. The note beneath Table
+2 (p. 19) labels the displayed estimates “ordered logistic regression” and
+average marginal effects. The machine-readable Table 2 records preserve both
+statements rather than silently choosing one label.
+
+The methods section also reports controls and fixed effects beyond the compact
+headline description: age-sex categories, income, tenure, education, country,
+sector, occupation, workplace size, digital tools used, and the presence of
+trade unions or staff representatives. The country analysis switches to OLS
+because some country cells did not converge under the preferred approach; its
+figure uses normalized dependent variables and excludes cells with fewer than
+30 independent-variable observations.
+
+This audit does not invalidate the published associations. It narrows what can
+be claimed from a transcription: the exact estimator, table-specific marginal
+effect interpretation, country exclusions, and uncertainty must be carried
+forward into any replication or cross-country comparison.
 **Microdata or code replication:** not established from the public publication
 record; the JRC analysis page lists no public dataset or source-code link in
 the accessible metadata.
