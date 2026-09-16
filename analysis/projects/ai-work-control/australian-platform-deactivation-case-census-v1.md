@@ -33,15 +33,16 @@ is counted once despite preliminary and merits/order stages.
 | AU-02 | Bakar v Rasier Pacific | UDE2025/59; [2025] FWC 1874; revocation [2025] FWC 2278 | Eligibility, then settlement/discontinuance | `revoked_after_settlement` — protection initially found, decision later revoked by consent | Settlement terms, merits, responsible operator, payment, restoration |
 | AU-03 | Kumar v Portier Pacific | UDE2025/68; [2025] FWC 2275 | Merits | `dismissal_after_compliant_process` — rating threshold and review upheld | Rating correction, downstream impact, generalizability |
 | AU-04 | Hotak v Rasier Pacific | UDE2025/53; [2025] FWCFB 151 and [2025] FWCFB 214 | Full Bench procedural and merits | `reactivation_plus_pay_open` — later reactivation did not extinguish jurisdiction; unfair deactivation; formal reactivation ordered | Lost-pay quantum/receipt, durability, negative-review correction |
-| AU-05 | Bandameeda v Amazon Commercial Services | [2025] FWCFB 182; [2025] FWC 3842 | Preliminary jurisdiction, merits, remedy | `reactivation_plus_12126_31_lost_remuneration` | Payment receipt, continued access, recurrence prevention, anti-retaliation |
+| AU-05 | Bandameeda v Amazon Commercial Services | UDE2025/62; [2025] FWCFB 182; [2025] FWC 3842 | Preliminary jurisdiction, merits, remedy | `reactivation_plus_12126_31_lost_remuneration` | Payment receipt, continued access, recurrence prevention, anti-retaliation |
 | AU-06 | Waheed v Rasier Pacific | UDE2025/160; [2025] FWC 2787 | Timing / case management | `within_time_case_proceeds` — 17 June 2025 date accepted; matter proceeded to case management | Merits, Code compliance, restoration, payment |
 | AU-07 | Mansoor v Rasier Pacific | UDE2025/141; [2025] FWC 3111 | Merits and remedy | `reactivation_plus_6073_23_lost_pay` — allegations not proven; notice deficient; reactivation and $6,073.23 ordered | Payment receipt, continued access, recurrence prevention |
 | AU-08 | Al Hussein v Rasier Pacific | UDE2025/134; [2025] FWC 3176 | Merits and remedy | `reactivation_plus_pay_open` — serious-misconduct theory not proven; Code non-compliance; reactivation ordered | Lost-pay quantum/receipt, continued access, process change |
 | AU-09 | Warraich v Rasier Pacific | UDE2025/108; [2025] FWC 3338 | Merits and remedy | `reactivation_plus_pay_open` — vague warning, weak evidence, inadequate inquiry; reactivation ordered | Lost-pay quantum/receipt, continued access, process change |
 
-Bandameeda's `UDE` matter number is intentionally unresolved rather than
-guessed. The case is definitely in the frame, but its matter number was not
-captured in the current source packet. That is a census-quality gap to repair.
+Bandameeda's `UDE2025/62` matter number is now confirmed by the primary
+decision and the Commission's bulletin index. The remaining Bandameeda gap is
+implementation evidence: the public order establishes the amount ordered, not
+receipt of payment or durable restoration.
 
 ## Stage distribution
 
@@ -93,7 +94,6 @@ therefore measurable events, not invisible non-cases.
 ## Data-quality flags
 
 - This is a published-bulletin inventory, not a filing-level export.
-- Bandameeda's `UDE` number must be recovered from its primary documents.
 - Subsequent orders for Hotak, Al Hussein, and Warraich should be searched for
   lost-pay quantum and payment evidence.
 - “Reactivation ordered” does not establish actual access, earnings recovery,
@@ -113,6 +113,7 @@ therefore measurable events, not invisible non-cases.
 - [Warraich primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3338.pdf)
 - [FWC Bulletin Volume 12/25 — Warraich](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm)
 - [FWC Bulletin Volume 1/26 — Bandameeda](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-12-31.htm)
+- [Bandameeda primary decision and matter number](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3842.pdf)
 
 ## Next decisive acquisition
 
