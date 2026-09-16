@@ -119,6 +119,11 @@ watchpoint](findings/ai-work-control-081.md), [NIK control finding](findings/ai-
 and [FMS timing comparison](findings/ai-work-control-083.md) remain separate
 ledger inputs.
 
+The applied machine-readable ledger is the [Poland JASSM-ER realization
+ledger](data/poland-jassm-er-realization-ledger-v1.json). It keeps the F-35
+timing row marked as a comparator and records the reviewed non-observation
+separately from the observed agreement and planned window.
+
 The next decisive acquisition must therefore identify event type before
 content: a delivery notice is not an acceptance record, an acceptance record
 is not an operational-use record, and none of these alone is geopolitical
