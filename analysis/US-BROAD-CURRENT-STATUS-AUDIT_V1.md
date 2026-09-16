@@ -135,6 +135,13 @@ institution-specific confidence as separate stages, making the trust/action
 boundary more explicit while leaving the same-case episode and remedy gate
 open.
 
+The latest [CES medical-affordability/action reproduction audit](projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md)
+reruns the existing 2018/2020 crisis-module screen from the already acquired
+local files. It reproduces the reported action-specific and attribution
+results, strengthening the material-to-action evidence boundary without adding
+a causal estimate or closing the dated bill, remedy, recovery, trust, or exit
+links. This is a reproducibility advance, not a new trend record.
+
 The new [CFPB route-vintage audit](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md)
 adds a consumer-power measurement control: `timely` is kept separate from
 elapsed routing, response labels are kept separate from remedy, and an omitted

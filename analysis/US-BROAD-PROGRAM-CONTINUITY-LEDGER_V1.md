@@ -10,6 +10,12 @@ The current concise governing statement is the [broader goal restatement](../BRO
 The current focused bridge checkpoint is the [material-to-action status
 ledger](US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
 
+The latest reproducibility checkpoint is the [CES medical-affordability/action
+audit](projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md):
+the existing local 2018/2020 module files reproduce the committed
+hardship/attribution/action screen, while the episode-level remedy, recovery,
+trust, and exit arrows remain open.
+
 This ledger keeps the program moving across sessions. It is not a progress
 report that can be closed by completing one analysis. A research pass changes
 one or more evidence rows; the program remains active until the user changes
