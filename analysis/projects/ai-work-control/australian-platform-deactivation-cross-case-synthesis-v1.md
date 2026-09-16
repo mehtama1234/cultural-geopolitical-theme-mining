@@ -1,6 +1,6 @@
 # Australian platform-deactivation cross-case synthesis v1
 
-**Status:** bounded primary-decision comparison; not a representative sample  
+**Status:** bounded primary-decision comparison with expanded census link; not a representative sample
 **Checked:** 2026-09-15
 
 ## Question
@@ -25,6 +25,11 @@ because together they expose different stages and outcomes:
 This is a mechanism sample, not a case rate, prevalence estimate, or ranking
 of Uber, Amazon, or the Australian system. The three cases have different
 platforms, decision surfaces, evidence, and procedural endpoints.
+
+The subsequent [bounded Australian case census](australian-platform-deactivation-case-census-v1.md)
+identifies nine proceedings or linked proceeding surfaces in the FWC Bulletin
+Volumes 6/25–1/26 search frame. The census expands the denominator; this
+document remains the compact mechanism synthesis.
 
 ## Cross-case matrix
 
@@ -100,6 +105,8 @@ Cambodia's worker-reported complaint outcomes using stage-compatible measures,
 not a single “remedy rate.”
 
 ## Sources
+
+- [Bounded Australian platform-deactivation case census](australian-platform-deactivation-case-census-v1.md)
 
 - [Bandameeda primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3842.pdf)
 - [Kumar primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2275.pdf)

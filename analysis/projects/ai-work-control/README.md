@@ -301,6 +301,10 @@ notice, human platform review, rating threshold, and deactivation process
 compliant, so the claim was dismissed without restoration. The contrast helps
 test whether the regime distinguishes defensible refusal from unreviewed harm.
 
+The [Australian platform-deactivation case census](australian-platform-deactivation-case-census-v1.md)
+expands the original mechanism sample into a bounded nine-proceeding
+official-bulletin inventory with explicit denominator and stage boundaries.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite
