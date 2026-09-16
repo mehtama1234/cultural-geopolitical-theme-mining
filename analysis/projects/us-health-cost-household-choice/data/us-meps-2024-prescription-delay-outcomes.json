@@ -1,0 +1,23 @@
+{
+  "format": "us-meps-prescription-delay-outcomes-v1",
+  "source_unit": "MEPS 2024 HC-256 person with valid prescription-delay field and same-round perceived health/employment outcomes",
+  "variance_method": "standard BRR; replicate weight = BRR flag * 2 * PERWT24F",
+  "hc256_records": 19140,
+  "inputs": {
+    "hc256_archive_sha256": "653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+    "brr_archive_sha256": "0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd",
+    "script_sha256": "1b588b27258e25e08c645ae4e20dc9693e6dceb371ae6b55434c7c0f228b2af2",
+    "output_sha256": "67917c3a65079b3de56e5cbbf53bcf91cc9217c20e4becd8178de5ca37300f51"
+  },
+  "results": {
+    "delay_yes": {
+      "poor_or_fair_health": {"valid_records": 675, "estimate_percent": 31.843048, "brr_se_percentage_points": 1.956289, "ci95_percent": [28.008722, 35.677374]},
+      "employed_at_round_5_or_3": {"valid_records": 675, "estimate_percent": 55.060014, "brr_se_percentage_points": 2.156418, "ci95_percent": [50.833434, 59.286594]}
+    },
+    "delay_no": {
+      "poor_or_fair_health": {"valid_records": 17799, "estimate_percent": 10.021055, "brr_se_percentage_points": 0.321018, "ci95_percent": [9.391859, 10.650250]},
+      "employed_at_round_5_or_3": {"valid_records": 17799, "estimate_percent": 49.320287, "brr_se_percentage_points": 0.505229, "ci95_percent": [48.330038, 50.310536]}
+    }
+  },
+  "boundary": "Same-round delay/outcome comparisons are descriptive and selection-sensitive. They do not establish that prescription delay caused health or employment change, and do not observe dated medication need, adherence, treatment continuity, recovery, trust, or political action. Person weights are not household weights."
+}
