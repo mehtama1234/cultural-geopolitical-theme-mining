@@ -153,7 +153,7 @@ def render(memo: Path) -> str:
     body = rewrite_published_links(body, memo)
     body, toc = add_heading_ids_and_toc(body)
     guide = f'''<div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div>{toc}</div>'''
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{escape(title)}"><title>{escape(title)}</title><style>{STYLE}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header>{guide}<article id="finding" class="memo">{body}</article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{escape(title)}"><title>{escape(title)}</title><style>{STYLE}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header>{guide}<article id="finding" class="memo">{body}</article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>'''
 
 
 def main():
@@ -192,6 +192,10 @@ def main():
     # Keep the atlas-level cross-source synthesis readable from the server as
     # well as from the repository control records.
     memos.append(ROOT / "analysis/US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md")
+    # Publish the curated review route so readers can move from the broad goal
+    # to representative writeups without first learning the repository tree.
+    review_guide = ROOT / "REVIEW-GUIDE_V1.md"
+    memos.append(review_guide)
     # Publish the capability/dependence bridge and its World Bank capability
     # layer so the geopolitical route is readable without leaving the server.
     memos.append(ROOT / "analysis/projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md")
@@ -411,6 +415,7 @@ def main():
         macro_financial_capacity: "macro-to-household-financial-capacity-synthesis-v1.html",
         oecd_worker_consultation: "oecd-worker-consultation-experiment-source-record-v1.html",
         atus_annual_comparison: "atus-time-care-annual-comparison-2024-2025-v1.html",
+        review_guide: "review-guide.html",
     }
     for memo in sorted(memos):
         page = ROOT / "site" / output_names.get(memo, f"{memo.stem}.html")
