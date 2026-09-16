@@ -269,6 +269,11 @@ formal rights, requests, review, correction, repayment, and anti-retaliation
 must be coded as separate stages; none of the current cases proves the full
 chain.
 
+The [UK ICO automated-recruitment record](uk-ico-automated-recruitment-remedy-record-v1.md)
+extends the same test to ordinary hiring. It shows regulator review and
+employer commitments around disclosure, contestability, and meaningful human
+review, while preserving the missing candidate-level correction outcome.
+
 ## Question
 
 When firms adopt AI, does the main change come from better tools, tighter measurement, new forms of supervision, or a shift in who owns the work process?

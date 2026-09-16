@@ -106,12 +106,19 @@ stages, not interchangeable proof of effective correction. The [platform-work
 remedy case ledger](platform-remedy-case-ledger-v1.md) keeps explanation,
 review, restoration, payment, compensation, and anti-retaliation separate.
 
+The [UK ICO automated-recruitment record](uk-ico-automated-recruitment-remedy-record-v1.md)
+shows that the same contestability question appears before employment begins.
+Recruitment scoring, ranking, and filtering can shape access to work before a
+worker ever reaches a workplace appeal route. Regulator expectations about
+notice, challenge, and meaningful human review are observed; candidate-level
+correction remains open.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |
 |---|---|---|---|
 | Material | time and output are measured and reallocated | NBER productivity and time-use studies | pay, margins, workload, long-run output |
-| Social | skill, status, trust, and autonomy are re-ranked | worker learning, mobility, surveillance concerns | worker voice by class, age, gender, disability, migration |
+| Social | skill, status, trust, autonomy, and access to work are re-ranked | worker learning, mobility, surveillance concerns, recruitment filtering | worker voice by class, age, gender, disability, migration; candidate-level correction |
 | Institution | firms and regulators set the rules for use and remedy | OECD governance concerns; EU rules; Malaysia Act 872; Uganda complaint reports | actual enforcement, review quality, correction, and workplace practice |
 | Power | visibility and decision rights move toward system owners unless contestability is usable | platform ratings, allocation, deactivation, court information orders, worker appeals, statutory review routes | ownership, bargaining, verified correction, repayment, anti-retaliation, exit, and state dependence |
 
