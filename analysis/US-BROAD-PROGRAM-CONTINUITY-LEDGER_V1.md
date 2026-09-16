@@ -643,6 +643,14 @@ the remedy counterexample; SHED and HTOPS remain non-pooled persistence and
 meaning context. The MEPS route must stop at an acquisition gap if event-level
 alternatives, remedy, or follow-up are absent.
 
+The selected MEPS route has been field-audited across all 18,457 staged rows in
+the [MEPS event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md).
+It has complete hashed ID and month-date scaffolding plus round-level context,
+but no initiating need, alternatives, event-specific choice/response, verified
+remedy, meaning/action, or usable geography. The route remains primary for a
+targeted acquisition or linkage; it must not be promoted as a causal recovery
+chain.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

@@ -1,0 +1,53 @@
+{
+  "format": "meps-event-field-availability-audit-v1",
+  "status": "field_availability_audit",
+  "checked": "2026-09-16",
+  "source_unit": "privacy-minimized MEPS 2024 first-event-family JSONL rows",
+  "rows": 18457,
+  "event_family_counts": {
+    "emergency_room": 2868,
+    "inpatient": 1391,
+    "office": 14198
+  },
+  "timing_window_counts": {
+    "in_window": 4868,
+    "outside_window": 13589
+  },
+  "coverage_counts": {
+    "event_date_month_precision": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    },
+    "hashed_episode_id": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    },
+    "round_care_delay_context_present": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    },
+    "round_denial_context_present": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    },
+    "round_followup_context_present": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    },
+    "round_payment_context_present": {
+      "available_rows": 18457,
+      "share_percent": 100.0
+    }
+  },
+  "exact_text_counts": {
+    "evidence_status": {
+      "observed": 18457
+    },
+    "unit": {
+      "person": 18457
+    }
+  },
+  "result": "The ledger has complete hashed episode/date scaffolding and round-level payment/follow-up context, but no row-level initiating need, alternative, event-specific choice, institutional response, verified remedy, meaning/action, or geography.",
+  "boundary": "This audits text-coded availability in an existing staged ledger; it does not infer that a field was absent from the original MEPS files beyond the staged record, and it does not estimate a causal or population outcome.",
+  "input": "/tmp/cgtm-meps-2024/household-constraint-cascade-staged-ledger.jsonl"
+}

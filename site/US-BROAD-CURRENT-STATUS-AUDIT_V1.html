@@ -1471,6 +1471,14 @@ and payment, coverage, health, employment, and bill context. CFPB/platform
 records remain the remedy counterexample, while SHED and HTOPS remain panel
 context. The selection is conditional on finding event-level need, alternatives,
 payment, remedy, and follow-up fields; otherwise it returns an acquisition gap.</p>
+<p>The MEPS selection has now been tested against the full 18,457-row staged
+ledger in the <a href="../analysis/projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md">event-field availability audit</a>.
+All rows contain hashed episode IDs, month-level dates, and round-level
+payment, care-delay, denial/authorization, and follow-up context. None contains
+an initiating need, alternative, event-specific choice or response, verified
+remedy, meaning/action, or usable geography. MEPS is therefore the strongest
+event scaffold, but the audit confirms an acquisition boundary rather than a
+closed bill-to-recovery result.</p>
 <h2 id="the-shared-end-to-end-model">The shared end-to-end model</h2>
 <pre><code class="language-text">condition / price / rule / technology / shock
   -&gt; money, time, access, control, status, health, or security changes

@@ -197,6 +197,13 @@ the remedy counterexample, while SHED and HTOPS remain non-pooled panel
 context. The MEPS pass must stop at an acquisition gap if event-level need,
 alternatives, remedy, or follow-up fields are absent.
 
+The selected MEPS route has now been audited at the field level across all
+18,457 staged rows. It supplies a strong dated person/event scaffold and
+round-level payment and health/work context, but the staged representation
+does not contain the initiating need, alternatives, event-specific response,
+verified remedy, meaning/action, or usable geography. This is the next
+acquisition boundary, not a reason to claim a medical-bill recovery effect.
+
 The latest AI/work-control rotation is now also a completed stage checkpoint,
 not a completed societal outcome. The [named workplace system stage ledger](analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md)
 compares IBM Germany AI governance, Microsoft Places, and Microsoft 365

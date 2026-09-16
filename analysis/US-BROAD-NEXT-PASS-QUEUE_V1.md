@@ -898,6 +898,13 @@ bill context. Use CFPB/platform as the remedy counterexample and SHED/HTOPS as
 non-pooled panel context. The MEPS pass must stop if event-level need,
 alternatives, remedy, or follow-up fields are absent.
 
+The [MEPS event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md)
+has now tested the primary route across all 18,457 staged rows. The next MEPS
+pass is conditional: seek event-level need, alternatives, choice, response,
+remedy, and follow-up fields; if they are absent, preserve the audit as the
+boundary and move to the CFPB/platform remedy counterexample or another broad
+theme rather than inferring recovery.
+
 The new [consumer-loss/recourse/recovery bridge](projects/ai-work-control/findings/ai-work-control-054.md)
 places Federal Reserve household burden beside FTC administrative loss and CFPB
 response/timing fields. It clarifies that reporting, routing, explanation,

@@ -418,6 +418,7 @@ def main():
     memos.append(cfpb_medical_visibility)
     meps_2024_gate = ROOT / "analysis/projects/us-health-cost-household-choice/meps-2024-full-year-acquisition-gate-v1.md"
     memos.append(meps_2024_gate)
+    memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md")
     # Publish the financial-power layer as a long-form reader route. It
     # connects liquidity, payment rails, credit records, institutional terms,
     # and exit while keeping the same-household event gap explicit.
