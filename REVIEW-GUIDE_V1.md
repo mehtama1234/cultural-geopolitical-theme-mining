@@ -53,6 +53,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Eldercare as a distributed time network](analysis/projects/us-aging-care-strain/atus-eldercare-network-time-capacity-synthesis-v1.md)
 - [Utility pressure, housing, work, and care option stack](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
 - [Utility difficulty, care-related work prevention, and housing hardship](analysis/projects/us-household-calendar-integration/sipp-utility-care-mortgage-three-way-diagnostic-v1.md)
+- [Utility difficulty to following-month care and household-security outcomes](analysis/projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md)
 
 ### Consumer power and recourse
 

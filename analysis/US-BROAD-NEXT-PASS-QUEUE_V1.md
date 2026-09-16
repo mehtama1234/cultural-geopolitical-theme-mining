@@ -167,6 +167,14 @@ estimate. A separate `RFOODS` outcome layer now tests food security on the
 same records without pooling it with mortgage hardship; the next test is a
 dated bill or assistance event.
 
+The new [SIPP adjacent-month utility/care/outcome bridge](projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md)
+orders November utility difficulty and tenure beside December care-related
+work prevention, mortgage hardship, and food insecurity. It matches 2,600
+positive-weight pairs to all 240 replicates and therefore strengthens the
+temporal screen, while preserving the warning that SIPP reference-period
+fields may repeat across months. It remains descriptive; the next decisive
+test is a dated bill, shutoff, payment-plan, or assistance event with follow-up.
+
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,
 MEPS annual health-cost and health-status transitions, and SHED/ATUS care and

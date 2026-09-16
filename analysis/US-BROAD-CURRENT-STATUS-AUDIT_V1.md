@@ -1214,6 +1214,12 @@ market-transition or household result.
   a promoted trend estimate. A separate food-security outcome layer keeps
   `RFOODS` distinct from mortgage hardship; dated bills, assistance, care
   intensity, and follow-up recovery remain open.
+- **SIPP adjacent-month outcome bridge:** November utility difficulty and
+  tenure are ordered beside December care-related work prevention, mortgage
+  hardship, and food insecurity for 2,600 positive-weight person pairs, with
+  complete 240-replicate matching. This strengthens temporal screening but
+  does not prove a newly occurring bill or care event because reference-period
+  fields may repeat across months.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,

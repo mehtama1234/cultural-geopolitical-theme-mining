@@ -1,0 +1,190 @@
+{
+  "format": "us-sipp-utility-care-following-outcomes-fay-brr-v1",
+  "source_unit": "identified November-to-December person pairs; utility difficulty and tenure at month t, child-care work prevention and outcomes at month t+1",
+  "reference_period": "2024 reference year in 2025 SIPP public-use file",
+  "weight": "WPFINWGT from month t; REPWGT1-REPWGT240 from month t for variance",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "identified_pairs": 2600,
+  "replicate_pairs_matched": 2600,
+  "results": {
+    "difficulty__not_prevented__renter": {
+      "mortgage_hardship": {
+        "records": 134,
+        "weighted_denominator": 1626295.1461074,
+        "share_percent": 57.98849187344991,
+        "standard_error_percentage_points": 5.085526866884818,
+        "approx_95_percent_ci": [
+          48.02085921435567,
+          67.95612453254415
+        ]
+      },
+      "food_insecurity": {
+        "records": 134,
+        "weighted_denominator": 1626295.1461074,
+        "share_percent": 50.20933155710687,
+        "standard_error_percentage_points": 4.8974047636426254,
+        "approx_95_percent_ci": [
+          40.61041822036732,
+          59.80824489384642
+        ]
+      }
+    },
+    "no_difficulty__not_prevented__owner_buyer": {
+      "mortgage_hardship": {
+        "records": 1635,
+        "weighted_denominator": 18528313.0291694,
+        "share_percent": 0.7920498163667888,
+        "standard_error_percentage_points": 0.1942201963792115,
+        "approx_95_percent_ci": [
+          0.4113782314635343,
+          1.1727214012700433
+        ]
+      },
+      "food_insecurity": {
+        "records": 1635,
+        "weighted_denominator": 18528313.0291694,
+        "share_percent": 4.599101735290039,
+        "standard_error_percentage_points": 0.5843745037435635,
+        "approx_95_percent_ci": [
+          3.4537277079526545,
+          5.744475762627423
+        ]
+      }
+    },
+    "no_difficulty__prevented__owner_buyer": {
+      "mortgage_hardship": {
+        "records": 42,
+        "weighted_denominator": 542147.9428802,
+        "share_percent": 2.1440852951034097,
+        "standard_error_percentage_points": 2.1983273385720605,
+        "approx_95_percent_ci": [
+          0.0,
+          6.452806878704648
+        ]
+      },
+      "food_insecurity": {
+        "records": 42,
+        "weighted_denominator": 542147.9428802,
+        "share_percent": 12.470945007945959,
+        "standard_error_percentage_points": 5.212838373654016,
+        "approx_95_percent_ci": [
+          2.2537817955840875,
+          22.688108220307832
+        ]
+      }
+    },
+    "no_difficulty__not_prevented__renter": {
+      "mortgage_hardship": {
+        "records": 642,
+        "weighted_denominator": 8268189.036266801,
+        "share_percent": 2.9577276264503247,
+        "standard_error_percentage_points": 0.7073343125628808,
+        "approx_95_percent_ci": [
+          1.5713523738270783,
+          4.344102879073571
+        ]
+      },
+      "food_insecurity": {
+        "records": 642,
+        "weighted_denominator": 8268189.036266801,
+        "share_percent": 18.024867748851143,
+        "standard_error_percentage_points": 1.773612823120836,
+        "approx_95_percent_ci": [
+          14.548586615534305,
+          21.501148882167982
+        ]
+      }
+    },
+    "difficulty__not_prevented__owner_buyer": {
+      "mortgage_hardship": {
+        "records": 95,
+        "weighted_denominator": 1037412.1072192,
+        "share_percent": 38.222070923606175,
+        "standard_error_percentage_points": 5.741593550435238,
+        "approx_95_percent_ci": [
+          26.96854756475311,
+          49.47559428245924
+        ]
+      },
+      "food_insecurity": {
+        "records": 95,
+        "weighted_denominator": 1037412.1072192,
+        "share_percent": 49.34994615024527,
+        "standard_error_percentage_points": 6.955387702191929,
+        "approx_95_percent_ci": [
+          35.717386253949094,
+          62.98250604654145
+        ]
+      }
+    },
+    "difficulty__prevented__renter": {
+      "mortgage_hardship": {
+        "records": 12,
+        "weighted_denominator": 144641.48059599998,
+        "share_percent": 72.80280338668777,
+        "standard_error_percentage_points": 13.253346591611864,
+        "approx_95_percent_ci": [
+          46.82624406712851,
+          98.77936270624703
+        ]
+      },
+      "food_insecurity": {
+        "records": 12,
+        "weighted_denominator": 144641.48059599998,
+        "share_percent": 64.64202583901488,
+        "standard_error_percentage_points": 15.696225508202561,
+        "approx_95_percent_ci": [
+          33.87742384293786,
+          95.4066278350919
+        ]
+      }
+    },
+    "no_difficulty__prevented__renter": {
+      "mortgage_hardship": {
+        "records": 30,
+        "weighted_denominator": 432707.5257793001,
+        "share_percent": 12.098451517920045,
+        "standard_error_percentage_points": 7.202135372612199,
+        "approx_95_percent_ci": [
+          0.0,
+          26.214636848239955
+        ]
+      },
+      "food_insecurity": {
+        "records": 30,
+        "weighted_denominator": 432707.5257793001,
+        "share_percent": 25.747804301334337,
+        "standard_error_percentage_points": 8.182933791354777,
+        "approx_95_percent_ci": [
+          9.709254070278973,
+          41.7863545323897
+        ]
+      }
+    },
+    "difficulty__prevented__owner_buyer": {
+      "mortgage_hardship": {
+        "records": 10,
+        "weighted_denominator": 107531.86639360001,
+        "share_percent": 25.313804027138215,
+        "standard_error_percentage_points": 16.125133500374364,
+        "approx_95_percent_ci": [
+          0.0,
+          56.919065687871964
+        ]
+      },
+      "food_insecurity": {
+        "records": 10,
+        "weighted_denominator": 107531.86639360001,
+        "share_percent": 77.50031944424619,
+        "standard_error_percentage_points": 12.688618679308458,
+        "approx_95_percent_ci": [
+          52.63062683280161,
+          100.0
+        ]
+      }
+    }
+  },
+  "causal_estimation": false,
+  "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, and annual fall child-care measures can be reference-period or repeated fields; this is not a dated bill shock, causal care effect, or household-weighted estimate."
+}
