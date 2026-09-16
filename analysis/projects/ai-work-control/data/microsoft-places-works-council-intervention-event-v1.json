@@ -33,9 +33,10 @@
     "durability_and_enforcement": "not_observed"
   },
   "evidence": {
-    "evidence_class": ["official_company_deployment_account"],
-    "source_urls": ["https://www.microsoft.com/insidetrack/blog/deploying-microsoft-places-at-microsoft-with-our-works-councils/"],
-    "source_boundary": "Microsoft reports the concern, product update, country targeting, and opt-out design; the account does not provide council minutes, technical diff, usage data, or independent worker outcomes."
+    "evidence_class": ["two_official_company_deployment_accounts"],
+    "source_urls": ["https://www.microsoft.com/insidetrack/blog/deploying-microsoft-places-at-microsoft-with-our-works-councils/", "https://www.microsoft.com/insidetrack/blog/enhancing-hybrid-work-with-ai-how-were-using-microsoft-places-to-empower-our-employees/"],
+    "corroboration_status": "same_company_source_family_not_independent",
+    "source_boundary": "Two Microsoft Inside Track accounts establish the product, internal pilot, governance review, feature controls, and opt-out design; they do not provide council minutes, technical diff, usage data, or independent worker outcomes."
   },
   "promotion_rule": "Promote system_changed only as company_reported until a council artifact, product documentation, or independent record corroborates the intervention. Do not infer worker welfare or enforceability from the product change."
 }
