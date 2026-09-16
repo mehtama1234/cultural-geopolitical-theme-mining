@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 247 machine-readable records, 949 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 459 HTML pages; these counts describe coverage and publication, not completion
+currently has 498 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
