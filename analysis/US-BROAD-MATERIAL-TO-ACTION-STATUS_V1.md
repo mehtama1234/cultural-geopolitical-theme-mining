@@ -78,6 +78,13 @@ The current numbers sharpen the boundary without creating a pooled effect:
   valid cases). Party-conditioned values ran 84.6% to 71.2% among strong
   Democrats and 30.7% to 50.0% among strong Republicans, showing that policy
   demand is identity-conditioned rather than a universal concern gradient.
+- In the CES medical-affordability modules, hardship coincided with different
+  action surfaces by year: 2018 turnout was 41.7% versus 57.2% without the
+  crisis while official contact was 23.3% versus 21.4%; in 2020 turnout was
+  61.2% versus 62.3% while official contact was 28.3% versus 17.9%. Federal
+  attribution-conditioned contact and protest were 26.3%/11.1% in 2018 and
+  42.7%/23.6% in 2020. This is a reported hardship/attribution/action bridge,
+  not a causal bill-to-politics result.
 
 These figures are intentionally reported by source and denominator. Their
 convergence supports prioritizing an event-compatible design; it does not

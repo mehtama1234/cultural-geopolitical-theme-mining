@@ -68,6 +68,28 @@
         "independent_not_at_all_to_extremely": [49.0, 55.4]
       },
       "interpretation": "Descriptive policy-preference contrast; party-conditioned values show why concern is not a universal demand gradient."
+    },
+    "ces_medical_affordability_to_action": {
+      "2018": {
+        "medical_expense_crisis_share_percent": 27.673,
+        "turnout_crisis_vs_no_crisis_percent": [41.7, 57.2],
+        "official_contact_crisis_vs_no_crisis_percent": [23.3, 21.4],
+        "federal_attribution_share_within_hardship_percent": 27.6,
+        "federal_attribution_contact_percent": 26.3,
+        "federal_attribution_protest_percent": 11.1,
+        "valid_module_rows": 1000
+      },
+      "2020": {
+        "medical_expense_crisis_share_percent": 14.308,
+        "turnout_crisis_vs_no_crisis_percent": [61.2, 62.3],
+        "official_contact_crisis_vs_no_crisis_percent": [28.3, 17.9],
+        "federal_attribution_share_within_hardship_percent": 22.4,
+        "federal_attribution_contact_percent": 42.7,
+        "federal_attribution_protest_percent": 23.6,
+        "valid_module_rows": 1000
+      },
+      "adjusted_contact_odds_ratio_2018_2020": [1.694, 1.799],
+      "interpretation": "Medical-expense hardship and attribution are observed alongside distinct political acts; year-specific module and model boundaries prevent a pooled causal claim."
     }
   },
   "next_test": "Use a lawful repeated-respondent or event-compatible design that records dated exposure, responsible actor, alternatives, attribution, prior judgment, distinct action, remedy, and later recovery or exit.",
