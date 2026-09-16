@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 19 rotating bridges plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 21 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -227,6 +227,15 @@ route, complaint routing, and response labels as distinct denominators. The
 next test remains a same-customer financial-service case with attempted and
 unsubmitted contacts, verified correction or recovery, repeat effort, trust,
 switching, and exit.
+
+The twenty-first rotation makes the open middle executable through the [MEPS
+staged-ledger stage-coverage audit](projects/us-household-constraint-cascade/meps-staged-ledger-stage-coverage-audit-v1.md).
+The existing 18,457-row local frame now has a machine-readable coverage report:
+trigger and payment/context are observed, choice/route/follow-up are only
+reported round proxies, and remedy plus meaning/action are unknown. This is a
+depth-control artifact, not a new causal estimate. The next broad pass should
+use the same stage vocabulary when advancing another household, consumer,
+political, place, institutional, or geopolitical lane.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

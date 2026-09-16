@@ -1,0 +1,150 @@
+{
+  "evidence_status": {
+    "observed": {
+      "count": 18457,
+      "percent_of_rows": 100.0
+    }
+  },
+  "family_counts": {
+    "emergency_room": 2868,
+    "inpatient": 1391,
+    "office": 14198
+  },
+  "input_jsonl": "/tmp/cgtm-meps-2024/household-constraint-cascade-staged-ledger.jsonl",
+  "input_sha256": "8ebaf499e161e8f7f034f6661ae35ad94de6a6e02c8baaae1c30c7e12803f320",
+  "interpretation": "This is an evidence-boundary audit, not a population estimate or causal finding. Observed event/payment context and reported round proxies do not establish an event-specific household cascade.",
+  "limitations": [
+    "The underlying need, alternatives, event-specific choice, and household trade-off are not observed.",
+    "Institutional route fields are round-level denial/prior-authorization proxies, not responses or appeals.",
+    "Verified remedy, event-specific recovery, trust, action, switching, and exit are not observed.",
+    "The strict inter-round flag is temporal context, not proof of causation."
+  ],
+  "rows": 18457,
+  "schema": "us-household-constraint-cascade-stage-coverage-audit-v1",
+  "stage_coverage": {
+    "choice_and_tradeoff": {
+      "reported": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "followup_outcomes": {
+      "reported": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "institutional_route": {
+      "reported": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "meaning_and_action": {
+      "unknown": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "practical_room_and_alternatives": {
+      "observed": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "remedy_verification": {
+      "unknown": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    },
+    "trigger": {
+      "observed": {
+        "count": 18457,
+        "percent_of_rows": 100.0
+      }
+    }
+  },
+  "stage_coverage_by_family": {
+    "emergency_room": {
+      "choice_and_tradeoff": {
+        "reported": 2868
+      },
+      "followup_outcomes": {
+        "reported": 2868
+      },
+      "institutional_route": {
+        "reported": 2868
+      },
+      "meaning_and_action": {
+        "unknown": 2868
+      },
+      "practical_room_and_alternatives": {
+        "observed": 2868
+      },
+      "remedy_verification": {
+        "unknown": 2868
+      },
+      "trigger": {
+        "observed": 2868
+      }
+    },
+    "inpatient": {
+      "choice_and_tradeoff": {
+        "reported": 1391
+      },
+      "followup_outcomes": {
+        "reported": 1391
+      },
+      "institutional_route": {
+        "reported": 1391
+      },
+      "meaning_and_action": {
+        "unknown": 1391
+      },
+      "practical_room_and_alternatives": {
+        "observed": 1391
+      },
+      "remedy_verification": {
+        "unknown": 1391
+      },
+      "trigger": {
+        "observed": 1391
+      }
+    },
+    "office": {
+      "choice_and_tradeoff": {
+        "reported": 14198
+      },
+      "followup_outcomes": {
+        "reported": 14198
+      },
+      "institutional_route": {
+        "reported": 14198
+      },
+      "meaning_and_action": {
+        "unknown": 14198
+      },
+      "practical_room_and_alternatives": {
+        "observed": 14198
+      },
+      "remedy_verification": {
+        "unknown": 14198
+      },
+      "trigger": {
+        "observed": 14198
+      }
+    }
+  },
+  "status": "local_staging_only",
+  "strict_interround_window": {
+    "no": {
+      "count": 13589,
+      "percent_of_rows": 73.6252
+    },
+    "yes": {
+      "count": 4868,
+      "percent_of_rows": 26.3748
+    }
+  }
+}
