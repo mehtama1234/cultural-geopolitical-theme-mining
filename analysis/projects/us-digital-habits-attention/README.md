@@ -103,6 +103,12 @@ exit-boundary mechanism, but does not establish durable dependence, consumer
 harm, or a verified remedy. Its [machine-readable record](../../records/us-ai-companion-farewell-exit-behavior-2025-2026.json)
 keeps the audit conversations and U.S. experiment participants separate.
 
+The [AI optionality and control-conversion synthesis](ai-optionality-control-conversion-synthesis-v1.md)
+advances the next broad-program rotation. It asks whether usefulness and
+measured time or engagement changes become durable human control, rather than
+assuming that adoption, productivity, or continued use means empowerment or
+dependence.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.

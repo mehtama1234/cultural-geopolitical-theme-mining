@@ -58,7 +58,7 @@ program. The household constraint and health-cost work remains an evidence
 lane, but its unavailable UAS/PSID respondent files do not pause the atlas or
 define its success condition.
 
-The first rotating pass uses already acquired local evidence and requires no
+The first rotating pass used already acquired local evidence and required no
 bulk download. It will read the CFPB complaint and response layers, household
 fraud and recovery estimates, CPSC safety intervention records, and platform
 remedy cases as one bounded comparison of **practical exit**:
@@ -81,6 +81,11 @@ later lane rather than a program-wide gate.
 
 The completed first-pass artifact is the [practical-exit cross-domain
 synthesis](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md).
+
+The second rotation now advances AI/platform agency through the [AI optionality
+and control-conversion synthesis](projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md).
+It preserves the distinction between adoption, immediate time or engagement
+effects, captured benefit, dependence, correction, trust, and practical exit.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
