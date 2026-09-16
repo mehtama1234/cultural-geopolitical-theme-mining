@@ -75,6 +75,21 @@
       "boundary": "The events do not identify facility exposure, duration-by-site, household service loss, independent causality, or long-run resilience."
     },
     {
+      "event_id": "virginia-large-load-customer-response-2024-2025",
+      "event_type": "operational_use",
+      "event_date": "2024-07/2025-02",
+      "date_precision": "month_range",
+      "actor": "Virginia large-load data-center customers",
+      "recipient": "Virginia electric grid operating system",
+      "object": "Customer response modes during the reported large-load drop events",
+      "measures": {"observed_response_modes": ["ride-through using UPS or controller feedback", "full trip offline after reclosing cycles"]},
+      "status": "observed",
+      "source_locator": "Virginia SCC SB1239 report, Dominion large-load event discussion, p. 8",
+      "source_url": "https://www.scc.virginia.gov/media/sccvirginiagov-home/regulated-industries/utility-regulation/responsibilities/scc-report--sb1239.pdf",
+      "local_source": "data/virginia-large-load-event-response-source-note.md",
+      "boundary": "The report does not identify which named facility used which response, event duration by site, household effect, customer cost, or the causal role of equipment or contract terms."
+    },
+    {
       "event_id": "data-center-household-capability-join-open-2026-09-15",
       "event_type": "non_observation",
       "event_date": "2026-09-15",

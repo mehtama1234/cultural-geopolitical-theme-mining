@@ -173,6 +173,12 @@ capacity and revenue, utility governance terms, and operational load-drop
 events are recorded separately, while household incidence, ownership,
 replaceability, and realized strategic capability remain open.
 
+The Virginia SCC event record adds a narrower operational-response signal:
+some large-load customers reportedly rode through faults with UPS or controller
+feedback while others tripped offline. Because the report does not identify
+the facilities, durations, costs, or household effects, this strengthens the
+operational stage without closing the local-incidence or resilience arrows.
+
 ## The stage map
 
 | Stage | Current evidence | Safe interpretation | Missing evidence |
