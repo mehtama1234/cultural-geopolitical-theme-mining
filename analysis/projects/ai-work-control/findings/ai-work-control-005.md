@@ -1,7 +1,7 @@
 # Finding 005: Work can become easier and more controlled at the same time
 
 **Status:** provisional  
-**Last checked:** 2026-09-11  
+**Last checked:** 2026-09-15
 **Project:** AI, work, and control
 
 ## Finding
@@ -55,7 +55,9 @@ Most of the worker-side evidence is survey-based and reports associations. Worke
 
 ## Next tests
 
-1. Read the JRC AIM-WORK tables and methodology, including country and sector differences.
+1. Extract the JRC AIM-WORK country and sector tables, preserving each table’s
+   denominator, routing, weights, and uncertainty; the methodology has now
+   been reviewed, but the full table extraction remains open.
 2. Compare AI assistance with automated evaluation and automated task direction as separate treatments.
 3. Add worker evidence by age, gender, disability, migration, contract type, and occupation.
 4. Compare actual workplace safeguards with reported stress and autonomy.
