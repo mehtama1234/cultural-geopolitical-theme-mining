@@ -160,6 +160,11 @@ advance the strongest descriptive bridge without manufacturing timing or
 causality. The authenticated PSID route remains the stronger next test, but it
 is not a reason to download large new archives or pause the broader atlas.
 
+The latest local SIPP buffer gate found zero adjacent-month credit or savings
+state changes. Treat that as a field-timing boundary, not as evidence that
+households did not borrow, save, repay, or recover. Do not rerun this route
+unless a genuine event-compatible field or panel becomes available.
+
 The consumer-power route remains a completed recent rotation and a reusable
 comparison case: complaint visibility, response labels, fraud/loss, recovery
 burden, and remedy remain separate endpoints until a linked consumer episode
