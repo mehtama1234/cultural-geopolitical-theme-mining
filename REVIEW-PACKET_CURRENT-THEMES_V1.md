@@ -21,6 +21,7 @@ turning adjacent evidence into one causal story.
 - [SIPP utility × tenure → annual child-care work-prevention layer](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-reproduction-audit-2026-09-16.json): a mixed-clock care/work endpoint with small-cell limits.
 - [New household constraint-cascade bridge](analysis/projects/us-household-constraint-cascade/constraint-cascade-cross-source-bridge-v1.md), with its [governing project README](analysis/projects/us-household-constraint-cascade/README.md): a bounded synthesis of coverage, utility, tenure, care, work, childcare, insurance, food, adaptation persistence, and the still-open episode/remedy bridge.
 - [Unified SIPP same-person cascade screen](analysis/projects/us-household-constraint-cascade/sipp-constraint-cascade-screen-v1.md): 2,600 November–December pairs keeping utility, tenure, childcare prevention, work, housing, food, and resource endpoints in one reproducible frame.
+- [MEPS dated health-cost episode spine](analysis/projects/us-household-constraint-cascade/meps-dated-event-spine-v1.md): existing local event files add month-level event/payment/person-panel context and a precise specification for the missing household-choice/remedy join.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
