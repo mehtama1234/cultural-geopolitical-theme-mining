@@ -9,6 +9,9 @@ plain-language writeup, then points to the evidence boundary and the next test.
 0. [AI, work, and control review packet](REVIEW-PACKET_AI-WORK-CONTROL_V1.md)
    — a short route through the strongest writeups, themes, evidence boundaries,
    and next tests.
+0a. [Current themes review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md)
+    — six representative routes from material/time/care through public systems,
+    health, consumer recourse, political meaning, and geopolitical capacity.
 1. [End-to-end program goal](END_TO_END_GOAL_V1.md) — the broad research
    question and the chain from condition to household, institution, and state
    consequence.
