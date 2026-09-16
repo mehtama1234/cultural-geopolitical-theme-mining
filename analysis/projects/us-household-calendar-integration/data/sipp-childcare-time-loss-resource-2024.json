@@ -9,16 +9,16 @@
   "inputs": {
     "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
-    "script_sha256": "49d9a4d708fdd8ec57154862de6978cd752d9c211497fa7764da0c958ad74497",
-    "output_sha256": "d901be3cf19e7e28e7486b9e25c2f6f56f50b8373c299d4fd8988620ec0fee30"
+    "script_sha256": "58d5b1788ec395d2c65651867e3e065c925044578b193d4f1a56242dcd5b271b",
+    "output_sha256": "6559d069aa5a0856d265611bf939f3a9e7b91c5eeb59fc308ab8611b8024bb8a"
   },
   "rows_read": 379215,
   "selected_records_before_replicate_match": 560,
   "replicate_rows_read": 378291,
   "matched_selected_rows": 560,
   "results": {
-    "below_1x": {"valid_record_n": 170, "weighted_mean_hours": 8.426970, "standard_error_hours": 1.696846, "approx_95_ci_hours": [5.101151, 11.752788]},
-    "4x_or_more": {"valid_record_n": 390, "weighted_mean_hours": 24.403458, "standard_error_hours": 7.254777, "approx_95_ci_hours": [10.184095, 38.622821]}
+    "below_1x": {"valid_record_n": 170, "weighted_mean_hours": 8.426970, "standard_error_hours": 1.696846, "approx_95_ci_hours": [5.101151, 11.752788], "type_share_percent": {"hours": 24.864, "days": 54.139, "weeks": 20.997}},
+    "4x_or_more": {"valid_record_n": 390, "weighted_mean_hours": 24.403458, "standard_error_hours": 7.254777, "approx_95_ci_hours": [10.184095, 38.622821], "type_share_percent": {"hours": 55.687, "days": 40.388, "weeks": 3.925}}
   },
   "status": "conditional_descriptive_endpoint; no new trend record",
   "boundary": "ETIMELOST is conditional on EWORKMORE=1 and valid ATIMELOST. It is a fall-reference-year childcare-related work-time-loss amount, not a monthly loss or population care burden. Person weights are not household weights; no causal, recovery, trust, political-action, or exit claim is made."

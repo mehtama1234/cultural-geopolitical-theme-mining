@@ -23,6 +23,19 @@ differ in care arrangements, job schedules, reporting, ability to absorb or
 avoid time loss, and the type of reference parent represented. The wide
 high-resource interval is part of the result.
 
+The reporting type also changes across the two endpoints. The lower-resource
+selected records are predominantly reported in days (54.1%), while the
+higher-resource selected records are more often reported in hours (55.7%).
+Weeks account for 21.0% and 3.9%, respectively. These are shares of the same
+conditional time-loss universe, not evidence that one group experienced more
+care burden; reporting scale, recall, work arrangements, and selection may all
+contribute.
+
+| Resource endpoint | Hours | Days | Weeks |
+|---|---:|---:|---:|
+| Below 1× poverty | 24.9% (SE 8.4) | 54.1% (SE 10.5) | 21.0% (SE 7.8) |
+| 4× poverty or more | 55.7% (SE 9.3) | 40.4% (SE 8.9) | 3.9% (SE 2.8) |
+
 ## What this adds
 
 Compared with the binary `EWORKMORE` screen, `ETIMELOST` makes the sacrificed

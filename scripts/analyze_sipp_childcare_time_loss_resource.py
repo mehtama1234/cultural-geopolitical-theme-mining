@@ -7,6 +7,7 @@ import numpy as np
 
 KEYS=("SSUID","PNUM","SPANEL","SWAVE","MONTHCODE"); REPS=240; FAY=.5
 GROUPS=("below_1x","4x_or_more")
+TYPES={"1":"hours","2":"days","3":"weeks"}
 def band(v):
     try: v=float(v)
     except (TypeError,ValueError): return None
@@ -24,22 +25,25 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--primary",type=Path,required=True); ap.add_argument("--replicate-zip",type=Path,required=True); ap.add_argument("--output",type=Path,required=True); args=ap.parse_args()
     rows=0; selected={};
     with args.primary.open(encoding="utf-8",newline="") as f:
-        rd=csv.DictReader(f); required=set(KEYS)|{"WPFINWGT","THINCPOV","ETIMELOST","ATIMELOST","EWORKMORE","AWORKMORE","THHLDSTATUS","AHINCPOV"}; missing=sorted(required-set(rd.fieldnames or []))
+        rd=csv.DictReader(f); required=set(KEYS)|{"WPFINWGT","THINCPOV","ETIMELOST","ETIMELOST_TP","ATIMELOST","ATIMELOST_TP","EWORKMORE","AWORKMORE","THHLDSTATUS","AHINCPOV"}; missing=sorted(required-set(rd.fieldnames or []))
         if missing: raise ValueError("primary slice missing: "+", ".join(missing))
         for r in rd:
             rows+=1
             try: w=float(r["WPFINWGT"])
             except (TypeError,ValueError): continue
             h=hours(r["ETIMELOST"]); g=band(r["THINCPOV"])
-            if w<=0 or not g or r["THHLDSTATUS"] not in {"1","2","3","4"} or r["AHINCPOV"] in {"","0"} or r["EWORKMORE"]!="1" or r["AWORKMORE"] in {"","0"} or r["ATIMELOST"] in {"","0"} or h is None: continue
-            key=tuple(r[k] for k in KEYS); selected[key]=(g,w,h)
-    num={g:0. for g in GROUPS}; den={g:0. for g in GROUPS}; count={g:0 for g in GROUPS}; rn={g:np.zeros(REPS) for g in GROUPS}; rd={g:np.zeros(REPS) for g in GROUPS}; rep_rows=matched=0
+            if w<=0 or not g or r["THHLDSTATUS"] not in {"1","2","3","4"} or r["AHINCPOV"] in {"","0"} or r["EWORKMORE"]!="1" or r["AWORKMORE"] in {"","0"} or r["ATIMELOST"] in {"","0"} or r["ETIMELOST_TP"] not in TYPES or r["ATIMELOST_TP"] in {"","0"} or h is None: continue
+            key=tuple(r[k] for k in KEYS); selected[key]=(g,w,h,r["ETIMELOST_TP"])
+    num={g:0. for g in GROUPS}; den={g:0. for g in GROUPS}; count={g:0 for g in GROUPS}; type_num={g:{t:0. for t in TYPES.values()} for g in GROUPS}; rn={g:np.zeros(REPS) for g in GROUPS}; rd={g:np.zeros(REPS) for g in GROUPS}; type_rn={g:{t:np.zeros(REPS) for t in TYPES.values()} for g in GROUPS}; rep_rows=matched=0
     with zipfile.ZipFile(args.replicate_zip) as z, z.open("rw2025.csv") as raw:
         reader=csv.DictReader(io.TextIOWrapper(raw,encoding="utf-8",newline=""),delimiter="|")
         for r in reader:
             rep_rows+=1; item=selected.get(tuple(r[k.lower()] for k in KEYS))
             if item is None: continue
-            matched+=1; g,w,h=item; weights=np.fromiter((float(r[f"repwgt{i}"]) for i in range(1,REPS+1)),dtype=float,count=REPS); num[g]+=w*h; den[g]+=w; count[g]+=1; rn[g]+=weights*h; rd[g]+=weights
-    output={"format":"us-sipp-childcare-time-loss-resource-v1","source_unit":"valid SIPP reference-parent person-month with EWORKMORE=1 and numeric ETIMELOST, grouped by THINCPOV endpoint","reference_period":"2024","weight":"WPFINWGT; REPWGT1-REPWGT240","variance_method":"Fay BRR, G=240, perturbation factor 0.5","rows_read":rows,"selected_records":len(selected),"replicate_rows_read":rep_rows,"matched_selected_rows":matched,"results":{g:valid_num(num[g],den[g],rn[g],rd[g],count[g]) for g in GROUPS},"boundary":"ETIMELOST is conditional on EWORKMORE=1 and reports fall-reference-year childcare-related work time lost; it is not a monthly loss, population care burden, or causal effect of resources. Person weights are not household weights."}
+            matched+=1; g,w,h,typ=item; weights=np.fromiter((float(r[f"repwgt{i}"]) for i in range(1,REPS+1)),dtype=float,count=REPS); num[g]+=w*h; den[g]+=w; count[g]+=1; type_num[g][TYPES[typ]]+=w; rn[g]+=weights*h; rd[g]+=weights; type_rn[g][TYPES[typ]]+=weights
+    def type_share(n,d,rn,rd,count):
+        ratios=np.divide(rn,rd,out=np.full(REPS,np.nan),where=rd!=0); p=100*n/d if d else None; se=float(np.sqrt(np.nansum((ratios-(p/100))**2)/(REPS*FAY**2))*100) if p is not None else None
+        return {"valid_record_n":count,"share_percent":p,"standard_error_percentage_points":se,"approx_95_ci_percentage_points":[max(0,p-1.96*se),min(100,p+1.96*se)] if se is not None else None}
+    output={"format":"us-sipp-childcare-time-loss-resource-v1","source_unit":"valid SIPP reference-parent person-month with EWORKMORE=1 and numeric ETIMELOST, grouped by THINCPOV endpoint","reference_period":"2024","weight":"WPFINWGT; REPWGT1-REPWGT240","variance_method":"Fay BRR, G=240, perturbation factor 0.5","rows_read":rows,"selected_records":len(selected),"replicate_rows_read":rep_rows,"matched_selected_rows":matched,"results":{g:{**valid_num(num[g],den[g],rn[g],rd[g],count[g]),"type_share":{t:type_share(type_num[g][t],den[g],type_rn[g][t],rd[g],count[g]) for t in TYPES.values()}} for g in GROUPS},"boundary":"ETIMELOST is conditional on EWORKMORE=1 and reports fall-reference-year childcare-related work time lost; it is not a monthly loss, population care burden, or causal effect of resources. Person weights are not household weights."}
     args.output.parent.mkdir(parents=True,exist_ok=True); args.output.write_text(json.dumps(output,indent=2)+"\n",encoding="utf-8"); print(json.dumps({k:output[k] for k in ("rows_read","selected_records","replicate_rows_read","matched_selected_rows")},indent=2)); print(json.dumps(output["results"],indent=2))
 if __name__=="__main__": main()
