@@ -135,6 +135,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 ### Geopolitical and state consequences
 
 - [State capacity and geopolitical leverage program](analysis/projects/ai-work-control/state-capacity-geopolitical-program-v1.md)
+- [JASSM/LRASM procurement-to-capability realization clock](analysis/projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md)
 - [Geopolitical AI infrastructure comparison](analysis/projects/ai-work-control/romania-malaysia-ai-infrastructure-case-record-v1.md)
 - [Strategic capability realization ledger protocol](analysis/projects/ai-work-control/realization-ledger-protocol-v1.md)
 

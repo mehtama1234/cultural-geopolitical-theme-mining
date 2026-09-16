@@ -276,6 +276,8 @@ def main():
     # the allocation -> procurement -> realization -> response distinctions.
     state_capacity_program = ROOT / "analysis/projects/ai-work-control/state-capacity-geopolitical-program-v1.md"
     memos.append(state_capacity_program)
+    jassm_realization_synthesis = ROOT / "analysis/projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md"
+    memos.append(jassm_realization_synthesis)
     # Give the safety-net lane a stable reader route across program scale,
     # administrative handling, lived barriers, and the same-episode design.
     safety_net_readme = ROOT / "analysis/projects/us-safety-net-access/README.md"
