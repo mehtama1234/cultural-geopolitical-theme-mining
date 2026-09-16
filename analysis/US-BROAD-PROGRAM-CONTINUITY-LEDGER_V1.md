@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 24 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 25 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -272,6 +272,15 @@ reviewable mechanism map while preserving their separate units and clocks. The
 open arrow remains conversion into durable control: data portability, error
 correction, captured benefit, worker/consumer alternatives, trust, and later
 exit are not jointly observed.
+
+The twenty-fifth rotation advances the financial-access and recourse lane
+through [the financial route is part of the social outcome](projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md).
+It keeps provider capacity, household account status, nonbank routes, credit
+visibility, complaint correction, public fiscal room, household security,
+trust, switching, and political judgment separate. The next test remains a
+dated account/payment episode with alternatives, terms, effort, response,
+remedy, recovery, and exit; the current cross-source layers do not establish
+a household financial causal or trust effect.
 
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB

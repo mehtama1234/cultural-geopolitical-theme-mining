@@ -35,6 +35,7 @@ turning adjacent evidence into one causal story.
 - [Firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md): establishment complements, task adoption, formal voice, and mobility kept separate from worker control.
 - [Place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): housing payment, insurance, hazard, energy, transport, and local business surfaces kept separate from stay/move outcomes.
 - [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md): everyday adoption, work-time change, synthetic contact, companion exit, and governance inquiry kept separate from durable control.
+- [Financial access and recourse synthesis](analysis/projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md): provider capacity, formal access, alternative routes, credit visibility, complaint correction, and household meaning kept separate.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -43,7 +44,7 @@ episode.
 
 ## Scope of this review route
 
-These ten routes are the current deepest reading paths, not a replacement for
+These eleven routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -54,12 +55,12 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The ten routes below concentrate on the strongest current bridges: material
+The eleven routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing
 risk and practical mobility.
-AI use, work, contact, and exit.
+AI use, work, contact, and exit; and financial access and recourse.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -289,6 +290,29 @@ and institutional records.
 version-stamped encounter through human alternatives, data/error control,
 captured benefit, employer/platform response, stop/delete/export/switch or
 remedy, and later work, household, civic, trust, or welfare outcomes.
+
+## Route 11: financial access becomes household and civic room
+
+Read [the financial route is part of the social outcome](analysis/projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md),
+the [FDIC access and alternative-route finding](analysis/projects/us-financial-intermediation/fdic-access-credit-alternative-routes-layer-v1.md),
+and the [public financial-capacity/household-room record](analysis/records/us-public-financial-capacity-household-room-crosssource-2025-2026.json).
+
+**Theme:** provider capacity, account ownership, nonbank transaction routes,
+credit visibility, complaint/recourse, public fiscal room, household security,
+trust, switching, and political judgment are successive stages.
+
+**What is established:** FDIC shows that formal account status, underbanked
+use, and mainstream-credit visibility are distinct household surfaces; IMF,
+OFR, Federal Reserve, and state-fiscal records add provider and institutional
+capacity; CFPB and New York DFS make complaint routes visible; and SHED,
+Findex, GSS, Gallup, and ANES provide separate household or meaning measures.
+These sources are complementary but not one household episode.
+
+**Open arrow:** no current record follows the same household from a dated
+obligation or payment failure through alternatives, terms, effort, provider or
+regulator response, correction, recovery, future room, trust, switching, and
+political action. Account ownership is not usable liquidity, and complaint
+closure or recovery is not automatically restored security.
 
 ## How to challenge any route
 
