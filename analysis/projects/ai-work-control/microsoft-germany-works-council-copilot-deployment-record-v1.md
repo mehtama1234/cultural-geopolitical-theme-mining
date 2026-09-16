@@ -19,8 +19,9 @@ account, not an independent audit of worker experience or a causal evaluation.
 
 ## Source and scope
 
-Microsoft Digital's official Inside Track account, published 5 February 2026,
-describes its works-council approval process across Europe. It reports that
+Microsoft Digital's official Inside Track accounts, published 5 February 2026
+and 29 January 2026, describe its works-council approval process and internal
+Copilot rollout across Europe. They report that
 German councils questioned whether Copilot could be used to evaluate individual
 performance or infer sensitive characteristics, including a possible request
 to rank employee performance during a meeting. Microsoft says early versions
@@ -30,7 +31,11 @@ lacked guardrails, and that Germany, France, and the Netherlands entered a
 Microsoft reports that some works-council members participated in the first
 Copilot deployment wave, that their feedback was sent to product engineering,
 and that the tolerance phase ended in spring 2025, after which Copilot was
-approved for Microsoft employees worldwide.
+approved for Microsoft employees worldwide. The companion deployment guide
+reports a phased rollout to more than 300,000 employees and external staff,
+with works councils included in a validation/approval phase, and describes
+data-labeling, DLP, training, controlled feature rollout, usage dashboards,
+listening sessions, and satisfaction surveys.
 
 ## Deployment and governance matrix
 
@@ -43,6 +48,8 @@ approved for Microsoft employees worldwide.
 | Feedback | Council members joined the first wave and feedback was channeled to product engineering | Specific feedback, resulting code changes, and rejected features are not disclosed |
 | Approval | Microsoft reports global approval after the tolerance phase | Approval is not proof of worker acceptance, safety, or absence of monitoring |
 | Scalable governance | A single request process links councils, product, legal, and HR; sensitive agents require approval | Actual review logs, response time, appeals, and enforcement are not public |
+| Data controls | Sensitivity labels, permissions, DLP, quarantine, lifecycle management, and audit/usage tooling are described | Configuration quality, false-positive/negative rates, and worker privacy effects are not independently tested |
+| Organizational rollout | Phased licensing, pilot groups, employee champions, localized training, controlled feature rollout, and usage/feedback dashboards are described | No worker-level comparison, productivity design, workload measure, or distributional outcome is supplied |
 
 ## Mechanism
 
@@ -92,6 +99,13 @@ or obtain a remedy for a worker. The next evidentiary step is a review artifact
 that names a concern, the decision taken, the feature or rule changed, and the
 affected worker or workplace outcome.
 
+The rollout guide also reveals a second power surface: governance is partly
+implemented through access permissions, labels, DLP policies, licensing groups,
+and monitoring dashboards. These controls can reduce inappropriate exposure of
+organizational data, but they also create new administrative visibility into
+employee use. The public account does not show who can inspect those logs,
+whether workers can challenge them, or how the data are used in evaluation.
+
 ## Decisive next acquisition
 
 Acquire the internal deployment guide, council approval record, or a worker-
@@ -102,6 +116,7 @@ route, and any measured effect on work, privacy, evaluation, or stress.
 ## Sources
 
 - [Microsoft Inside Track: AI-first Frontier Firm in partnership with works councils](https://www.microsoft.com/insidetrack/blog/transforming-into-an-ai-first-frontier-firm-in-partnership-with-our-works-councils/)
+- [Microsoft Inside Track: Deploying Microsoft 365 Copilot in five chapters](https://www.microsoft.com/insidetrack/blog/deploying-microsoft-365-copilot-in-five-chapters/)
 - [IBM Germany works-council AI framework governance record](ibm-germany-works-council-ai-framework-governance-record-v1.md)
 - [AIM-WORK exposure to institutional safeguard crosswalk](aim-work-institutional-safeguard-crosswalk-v1.md)
 
