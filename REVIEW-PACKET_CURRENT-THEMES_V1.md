@@ -39,6 +39,7 @@ turning adjacent evidence into one causal story.
 - [Place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): housing payment, insurance, hazard, energy, transport, and local business surfaces kept separate from stay/move outcomes.
 - [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md): everyday adoption, work-time change, synthetic contact, companion exit, and governance inquiry kept separate from durable control.
 - [Financial access and recourse synthesis](analysis/projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md): provider capacity, formal access, alternative routes, credit visibility, complaint correction, and household meaning kept separate.
+- [Consumer culture, trust, status, and everyday power layer](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md): buying, searching, sharing, reporting, help-seeking, switching, stigma, and recovery kept separate from trust and welfare claims.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -47,7 +48,7 @@ episode.
 
 ## Scope of this review route
 
-These eleven routes are the current deepest reading paths, not a replacement for
+These twelve routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -63,7 +64,8 @@ pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing
 risk and practical mobility.
-AI use, work, contact, and exit; and financial access and recourse.
+AI use, work, contact, and exit; financial access and recourse; and consumer
+culture, trust, status, and everyday power.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -74,19 +76,19 @@ map, not a strength score or a claim that any route is causally complete.
 
 | Governing theme | Review route(s) |
 |---|---|
-| Household room and consumption | 1, 3, 4, 9, 11 |
+| Household room and consumption | 1, 3, 4, 9, 11, 12 |
 | Time as a hidden price | 1, 2, 3, 4, 8 |
-| Consumer power and recourse | 4, 10, 11 |
-| Platforms, data, and attention | 4, 8, 10 |
+| Consumer power and recourse | 4, 10, 11, 12 |
+| Platforms, data, and attention | 4, 8, 10, 12 |
 | Work, control, and bargaining | 1, 3, 8, 10 |
 | Care, health, and social reproduction | 1, 2, 3, 9 |
 | Housing, place, and mobility | 1, 2, 6, 7, 9, 11 |
-| Unequal exposure and status | 1, 2, 3, 5, 7, 9, 11 |
-| Trust, identity, and cultural meaning | 2, 4, 5, 7, 10, 11 |
-| Public systems and policy feedback | 2, 3, 4, 6, 9, 11 |
-| Political judgment and collective action | 2, 4, 5, 7, 8, 10, 11 |
-| Firm, market, and ownership power | 4, 6, 8, 9, 11 |
-| Infrastructure, technology, and dependency | 6, 7, 8, 9, 10, 11 |
+| Unequal exposure and status | 1, 2, 3, 5, 7, 9, 11, 12 |
+| Trust, identity, and cultural meaning | 2, 4, 5, 7, 10, 11, 12 |
+| Public systems and policy feedback | 2, 3, 4, 6, 9, 11, 12 |
+| Political judgment and collective action | 2, 4, 5, 7, 8, 10, 11, 12 |
+| Firm, market, and ownership power | 4, 6, 8, 9, 11, 12 |
+| Infrastructure, technology, and dependency | 6, 7, 8, 9, 10, 11, 12 |
 | Geopolitical and state consequences | 6, 7, 9, 10, 11 |
 
 This index makes the broad focus operational: the packet is a set of
@@ -356,6 +358,34 @@ obligation or payment failure through alternatives, terms, effort, provider or
 regulator response, correction, recovery, future room, trust, switching, and
 political action. Account ownership is not usable liquidity, and complaint
 closure or recovery is not automatically restored security.
+
+## Route 12: consumer participation becomes trust, status, and everyday power
+
+Read the [consumer culture, trust, status, and everyday power layer](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md),
+alongside the [consumer recourse visibility/remedy synthesis](analysis/projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md)
+and the [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md).
+
+**Theme:** buying, searching, sharing data, seeking help, reviewing,
+reporting, switching, and staying are social and institutional acts—not merely
+preferences. They can express trust, independence, stigma, fairness, status,
+and perceived ability to exit while also generating information and leverage
+for firms and platforms.
+
+**What is established:** the consumer-culture layer organizes bounded evidence
+across fraud and recovery, privacy and data sharing, reviews and rankings,
+discrimination and competition, help-seeking, older consumers, and recourse.
+The combined route supports a disciplined distinction between participation,
+trust, data disclosure, complaint visibility, remedy, and welfare. It also
+identifies non-reporting and non-use as potentially informative missingness,
+not proof of satisfaction or lack of need.
+
+**Open arrow:** no current record follows the same customer from a dated need
+or exposure through information and social-signaling conditions, purchase or
+avoidance, data disclosure or complaint, money/time/privacy/dignity cost,
+response authority, verified remedy, recovery, switching or abandonment, and
+later trust, identity, dependence, or political demand. A purchase is not
+satisfaction, trust is not consent, and staying is not free choice without a
+practical alternative.
 
 ## How to challenge any route
 
