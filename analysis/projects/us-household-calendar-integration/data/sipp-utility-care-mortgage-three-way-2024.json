@@ -1,0 +1,94 @@
+{
+  "format": "us-sipp-utility-care-mortgage-three-way-fay-brr-v1",
+  "source_unit": "December identified person records with valid utility difficulty, annual fall child-care work-prevention status, tenure, and rent/mortgage hardship",
+  "reference_period": "2024 reference year in 2025 SIPP public-use file",
+  "weight": "WPFINWGT; REPWGT1-REPWGT240 for variance",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "identified_records": 2601,
+  "replicate_rows_matched": 2601,
+  "results": {
+    "difficulty__not_prevented__renter": {
+      "records": 134,
+      "weighted_denominator": 1632259.2495017007,
+      "share_percent": 58.580182024455056,
+      "standard_error_percentage_points": 5.046874700171517,
+      "approx_95_percent_ci": [
+        48.688307612118884,
+        68.47205643679123
+      ]
+    },
+    "no_difficulty__not_prevented__owner_buyer": {
+      "records": 1635,
+      "weighted_denominator": 18558810.183814496,
+      "share_percent": 0.7805890992211466,
+      "standard_error_percentage_points": 0.19192266321863719,
+      "approx_95_percent_ci": [
+        0.4044206793126177,
+        1.1567575191296755
+      ]
+    },
+    "no_difficulty__prevented__owner_buyer": {
+      "records": 42,
+      "weighted_denominator": 541758.5493060001,
+      "share_percent": 2.1802645743442413,
+      "standard_error_percentage_points": 2.2285898259989017,
+      "approx_95_percent_ci": [
+        0.0,
+        6.548300633302089
+      ]
+    },
+    "no_difficulty__not_prevented__renter": {
+      "records": 643,
+      "weighted_denominator": 8255253.540147601,
+      "share_percent": 2.9590319293250005,
+      "standard_error_percentage_points": 0.7068161675260216,
+      "approx_95_percent_ci": [
+        1.573672240973998,
+        4.344391617676003
+      ]
+    },
+    "difficulty__not_prevented__owner_buyer": {
+      "records": 95,
+      "weighted_denominator": 1040357.9741221003,
+      "share_percent": 38.05739846167909,
+      "standard_error_percentage_points": 5.765674263478344,
+      "approx_95_percent_ci": [
+        26.75667690526154,
+        49.35812001809664
+      ]
+    },
+    "difficulty__prevented__renter": {
+      "records": 12,
+      "weighted_denominator": 144442.3719732,
+      "share_percent": 72.80708484371353,
+      "standard_error_percentage_points": 13.299999907959418,
+      "approx_95_percent_ci": [
+        46.739085024113066,
+        98.87508466331398
+      ]
+    },
+    "no_difficulty__prevented__renter": {
+      "records": 30,
+      "weighted_denominator": 435375.7273862,
+      "share_percent": 12.015571053550229,
+      "standard_error_percentage_points": 7.227989700753698,
+      "approx_95_percent_ci": [
+        0.0,
+        26.182430867027477
+      ]
+    },
+    "difficulty__prevented__owner_buyer": {
+      "records": 10,
+      "weighted_denominator": 107295.09011090001,
+      "share_percent": 25.164606410966663,
+      "standard_error_percentage_points": 16.045334900562402,
+      "approx_95_percent_ci": [
+        0.0,
+        56.613462816068974
+      ]
+    }
+  },
+  "causal_estimation": false,
+  "boundary": "Utility difficulty and rent/mortgage hardship are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate."
+}

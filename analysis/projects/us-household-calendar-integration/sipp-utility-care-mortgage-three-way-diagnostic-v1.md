@@ -1,7 +1,7 @@
 # Utility difficulty, care-related work prevention, and housing hardship: a three-way SIPP diagnostic
 
 **Checked:** 2026-09-15  
-**Status:** same-record weighted diagnostic; not a promoted trend estimate
+**Status:** same-record replicate-weighted diagnostic; not a promoted trend estimate
 
 ## Why this diagnostic exists
 
@@ -30,31 +30,34 @@ December record. That mixed clock is the central interpretation boundary.
 ## Same-record result
 
 The table uses the 2025 SIPP public-use full-file slice for the 2024 reference
-period. It retains `WPFINWGT` for weighted descriptive shares and requires
-valid status flags for utility difficulty, child-care work prevention, tenure,
-and rent/mortgage hardship. The displayed `n` is the unweighted identified
-record count; the weighted denominator is not a population estimate because
-the slice has no locally available replicate-weight archive for this new
-three-way cross-tab.
+period. It retains `WPFINWGT` for weighted descriptive shares, matches all
+identified records to the official `rw2025.csv` archive, and uses the 240
+replicate weights for Fay-BRR uncertainty. Valid status flags are required for
+utility difficulty, child-care work prevention, tenure, and rent/mortgage
+hardship. The displayed `n` is the unweighted identified record count; the
+weighted denominator is the denominator for the conditional person-record
+estimate, not a household count.
 
 | Utility condition | Child-care work prevention | Tenure | n | Weighted denominator | Rent/mortgage hardship |
 |---|---|---|---:|---:|---:|
-| Difficulty | No | Owner/buyer | 95 | 1,040,358.0 | 38.057% |
-| Difficulty | No | Renter | 134 | 1,632,259.2 | 58.580% |
-| Difficulty | Yes | Owner/buyer | 10 | 107,295.1 | 25.165% |
-| Difficulty | Yes | Renter | 12 | 144,442.4 | 72.807% |
-| No difficulty | No | Owner/buyer | 1,635 | 18,558,810.2 | 0.781% |
-| No difficulty | No | Renter | 643 | 8,255,253.5 | 2.959% |
-| No difficulty | Yes | Owner/buyer | 42 | 541,758.5 | 2.180% |
-| No difficulty | Yes | Renter | 30 | 435,375.7 | 12.016% |
+| Difficulty | No | Owner/buyer | 95 | 1,040,358.0 | 38.057% (SE 5.766; 95% CI 26.757–49.358) |
+| Difficulty | No | Renter | 134 | 1,632,259.2 | 58.580% (SE 5.047; 95% CI 48.688–68.472) |
+| Difficulty | Yes | Owner/buyer | 10 | 107,295.1 | 25.165% (SE 16.045; 95% CI 0–56.613) |
+| Difficulty | Yes | Renter | 12 | 144,442.4 | 72.807% (SE 13.300; 95% CI 46.739–98.875) |
+| No difficulty | No | Owner/buyer | 1,635 | 18,558,810.2 | 0.781% (SE 0.192; 95% CI 0.404–1.157) |
+| No difficulty | No | Renter | 643 | 8,255,253.5 | 2.959% (SE 0.707; 95% CI 1.574–4.344) |
+| No difficulty | Yes | Owner/buyer | 42 | 541,758.5 | 2.180% (SE 2.229; 95% CI 0–6.548) |
+| No difficulty | Yes | Renter | 30 | 435,375.7 | 12.016% (SE 7.228; 95% CI 0–26.182) |
 
 The sharpest descriptive pattern is not a single care effect. Within the
 utility-difficulty records, renters with reported child-care work prevention
 have a higher weighted mortgage-hardship share than renters without that
-report (72.807% versus 58.580%), while the corresponding owner/buyer cells are
-small and move in the opposite direction (25.165% versus 38.057%). The
-child-care-prevention cells contain only 10 owner/buyer and 12 renter records,
-so their point estimates must not be ranked or generalized.
+report (72.807% versus 58.580%), but the difference is imprecise: the
+approximate intervals are 46.739–98.875% and 48.688–68.472%, respectively. The
+corresponding owner/buyer cells are small and move in the opposite direction
+(25.165% versus 38.057%), with very wide intervals. The child-care-prevention
+cells contain only 10 owner/buyer and 12 renter records, so their point
+estimates must not be ranked or generalized.
 
 The no-utility-difficulty rows provide a useful counter-surface: mortgage
 hardship is low but not absent, and the renter child-care-prevention cell is
@@ -101,9 +104,9 @@ an unmeasured resource protected or destabilized the household.
 - Tenure is an arrangement, not a treatment. Renters and owners/buyers may
   differ in income, family structure, geography, health, employment, and
   access to help.
-- The work-prevention cells are sparse. The weighted percentages have no
-  replicate-weight standard errors in this diagnostic and must not be used to
-  fine-rank groups or claim population precision.
+- The work-prevention cells are sparse. Replicate-weight intervals are
+  reported, but their width means the cells must not be fine-ranked or treated
+  as precise population differences.
 - A household with no reported utility difficulty can still report care
   constraints and mortgage hardship. Conversely, reported utility difficulty
   need not produce care-related work prevention when savings, assistance,
@@ -111,9 +114,7 @@ an unmeasured resource protected or destabilized the household.
 
 ## Decisive next test
 
-The next defensible version should rerun this exact cross-tab with the
-official 240 replicate-weight archive and preserve Fay-BRR uncertainty. The
-stronger design would then identify a dated bill, shutoff warning, payment
+The stronger design would identify a dated bill, shutoff warning, payment
 plan, or assistance decision and follow the same person/family at one-,
 three-, and six-month windows. It should add care hours and provider/payment
 fields, work schedule and earnings, food and housing outcomes, health, and a
@@ -134,10 +135,13 @@ The slice contains 379,215 rows and 13,670 distinct sample units. Its SHA-256
 is `4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda`.
 The calculation retains the fields `MONTHCODE`, `WPFINWGT`, `ETENURE`,
 `EAWBGAS`, `AAWBGAS`, `EWORKMORE`, `AWORKMORE`, `EAWBMORT`, and `AAWBMORT`.
-The raw slice is not committed to the repository. This memo is a diagnostic
-extension of the [utility/tenure/care/work option-stack synthesis](sipp-utility-tenure-care-work-option-stack-synthesis-v1.md),
-not a replacement for its design-based component outputs.
+All 2,601 identified records matched the replicate archive. The archive is
+not committed to the repository. The [machine-readable output](data/sipp-utility-care-mortgage-three-way-2024.json)
+and [reproduction script](../../../scripts/analyze_sipp_utility_care_mortgage_three_way.py)
+preserve the estimator inputs and result. This memo is a diagnostic extension
+of the [utility/tenure/care/work option-stack synthesis](sipp-utility-tenure-care-work-option-stack-synthesis-v1.md),
+not a replacement for its component outputs.
 
-**Evidence status:** same-record weighted descriptive diagnostic with sparse
-cells and no replicate-weight uncertainty; no causal, population-trend,
+**Evidence status:** same-record Fay-BRR descriptive diagnostic with sparse
+cells and wide uncertainty; no causal, population-trend,
 recovery, trust, political-action, or exit claim.

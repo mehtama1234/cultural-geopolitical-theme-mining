@@ -160,10 +160,10 @@ The new [SIPP utility/care/mortgage three-way diagnostic](projects/us-household-
 places utility difficulty, annual child-care work prevention, tenure, and
 December rent/mortgage hardship on the same identified person records. It
 adds a joint-constraint screen and a useful no-utility-difficulty counter-
-surface, but the care field is on an annual fall clock and the local slice
-does not include the replicate archive. It is therefore a diagnostic memo,
-not a promoted trend estimate; the next test is the same cross-tab with
-Fay-BRR uncertainty and then a dated bill or assistance event.
+surface, but the care field is on an annual fall clock and the prevention
+cells are sparse. The official 240-replicate rerun now supplies Fay-BRR
+intervals, but it remains a diagnostic memo rather than a promoted trend
+estimate; the next test is a dated bill or assistance event.
 
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,
