@@ -322,6 +322,8 @@ def main():
     memos.append(sipp_three_way_diagnostic)
     sipp_following_outcomes_bridge = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md"
     memos.append(sipp_following_outcomes_bridge)
+    sipp_time_loss_gate = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md"
+    memos.append(sipp_time_loss_gate)
     # Give the local-place lane a reader route from firm formation and stocks
     # through practical reachability, belonging, and political context.
     local_business_readme = ROOT / "analysis/projects/us-local-business-place/README.md"

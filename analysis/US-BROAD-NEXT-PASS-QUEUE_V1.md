@@ -179,6 +179,13 @@ movement as threshold outcomes. These are movement screens rather than dollar
 recovery measures; the next test must observe the actual bill/resource event
 and its later reversal or persistence.
 
+The [SIPP childcare time-loss gate](projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md)
+tests the more direct `ETIMELOST` endpoint conditional on `EWORKMORE=1`. Only
+27 positive-weight November–December pairs survive the official universe and
+all 27 match the replicate archive. This is a useful time-sacrifice boundary,
+not a care-burden estimate; the next acquisition must observe both protected
+and time-lost cases around a dated utility or provider event.
+
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,
 MEPS annual health-cost and health-status transitions, and SHED/ATUS care and

@@ -1,0 +1,54 @@
+{
+  "format": "us-sipp-utility-time-loss-following-fay-brr-v1",
+  "source_unit": "positive-weight November-to-December person pairs; utility difficulty and tenure at month t, EWORKMORE and ETIMELOST at month t+1",
+  "reference_period": "2024 reference year in 2025 SIPP public-use file",
+  "weight": "WPFINWGT from month t; REPWGT1-REPWGT240 from month t for variance",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "identified_pairs": 27,
+  "replicate_pairs_matched": 27,
+  "results": {
+    "no_difficulty__owner_buyer": {
+      "records": 12,
+      "weighted_denominator": 144491.430647,
+      "mean_hours": 1.2321260764898958,
+      "standard_error_hours": 0.1181578097302338,
+      "approx_95_percent_ci_hours": [
+        1.0005367694186376,
+        1.463715383561154
+      ]
+    },
+    "difficulty__owner_buyer": {
+      "records": 4,
+      "weighted_denominator": 57912.4914777,
+      "mean_hours": 1.0,
+      "standard_error_hours": 0.0,
+      "approx_95_percent_ci_hours": [
+        1.0,
+        1.0
+      ]
+    },
+    "difficulty__renter": {
+      "records": 3,
+      "weighted_denominator": 24595.2915724,
+      "mean_hours": 1.5150805855953429,
+      "standard_error_hours": 0.3149732463960543,
+      "approx_95_percent_ci_hours": [
+        0.8977330226590765,
+        2.1324281485316092
+      ]
+    },
+    "no_difficulty__renter": {
+      "records": 8,
+      "weighted_denominator": 76722.78072529999,
+      "mean_hours": 1.486686190774194,
+      "standard_error_hours": 0.18515370908156825,
+      "approx_95_percent_ci_hours": [
+        1.1237849209743203,
+        1.8495874605740676
+      ]
+    }
+  },
+  "causal_estimation": false,
+  "boundary": "ETIMELOST is conditional on EWORKMORE=1 and reports a fall-reference-year childcare-related work time-loss amount; it is not a monthly loss caused by utility difficulty. No no-prevention comparison is defined."
+}

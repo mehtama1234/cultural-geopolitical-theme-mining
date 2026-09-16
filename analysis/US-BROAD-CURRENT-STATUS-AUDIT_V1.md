@@ -1222,6 +1222,10 @@ market-transition or household result.
   fields may repeat across months. The same bridge now adds upward, downward,
   and any income-to-poverty-band movement as threshold screens, not dollar
   recovery measures.
+- **SIPP childcare time-loss endpoint:** the conditional `ETIMELOST` gate
+  yields only 27 positive-weight November–December pairs, with complete
+  replicate matching. It adds a direct reported-hours surface but is too
+  sparse for ranking and is not defined for the no-work-prevention group.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,
