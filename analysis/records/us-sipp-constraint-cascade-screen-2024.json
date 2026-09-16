@@ -1,0 +1,1008 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-constraint-cascade-screen-2024",
+  "title": "Utility difficulty, tenure, and childcare prevention beside next-month work and household-security outcomes",
+  "theme_ids": [
+    "cost",
+    "time",
+    "work",
+    "energy"
+  ],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "identified November-to-December SIPP person pairs; utility and tenure at month t, childcare status and outcomes at month t+1",
+  "geography": "United States",
+  "reference_period": "2024 reference year in 2025 SIPP public-use file",
+  "weight": "WPFINWGT from November; REPWGT1-REPWGT240 for Fay-BRR variance",
+  "variance_method": "Fay BRR, 240 replicate weights, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "identified_pairs": 2600,
+  "replicate_rows_read": 378291,
+  "replicate_pairs_matched": 2600,
+  "observations": [
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 10,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 100.0,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 9,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_ci_percentage_points": [
+            100.0,
+            100.0
+          ]
+        },
+        "hours_changed": {
+          "value": 26.148527276295408,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 9,
+          "standard_error_percentage_points": 15.171151646469196,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            55.88398450337503
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 25.313804027138215,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 10,
+          "standard_error_percentage_points": 16.125133500374364,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            56.919065687871964
+          ]
+        },
+        "food_insecurity": {
+          "value": 77.50031944424619,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 10,
+          "standard_error_percentage_points": 12.688618679308458,
+          "approx_95_ci_percentage_points": [
+            52.63062683280161,
+            100.0
+          ]
+        },
+        "resource_band_changed": {
+          "value": 8.445970736578364,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 10,
+          "standard_error_percentage_points": 9.014248723031349,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            26.11389823371981
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "difficulty__owner_buyer__care_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 95,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 86.5787574212164,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 60,
+          "standard_error_percentage_points": 4.532795364471543,
+          "approx_95_ci_percentage_points": [
+            77.69447850685216,
+            95.46303633558063
+          ]
+        },
+        "hours_changed": {
+          "value": 0.9309464345302492,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 62,
+          "standard_error_percentage_points": 0.8930736241354672,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            2.681370737835765
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 38.222070923606175,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 95,
+          "standard_error_percentage_points": 5.741593550435238,
+          "approx_95_ci_percentage_points": [
+            26.96854756475311,
+            49.47559428245924
+          ]
+        },
+        "food_insecurity": {
+          "value": 49.34994615024527,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 95,
+          "standard_error_percentage_points": 6.955387702191929,
+          "approx_95_ci_percentage_points": [
+            35.717386253949094,
+            62.98250604654145
+          ]
+        },
+        "resource_band_changed": {
+          "value": 2.7238997479455107,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 95,
+          "standard_error_percentage_points": 1.703418143634155,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            6.062599309468454
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "difficulty__owner_buyer__care_not_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 12,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 90.07115099517672,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 8,
+          "standard_error_percentage_points": 9.802341667991502,
+          "approx_95_ci_percentage_points": [
+            70.85856132591337,
+            100.0
+          ]
+        },
+        "hours_changed": {
+          "value": 34.95311143238784,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 10,
+          "standard_error_percentage_points": 18.40563856556615,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            71.0281630208975
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 72.80280338668777,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 12,
+          "standard_error_percentage_points": 13.253346591611864,
+          "approx_95_ci_percentage_points": [
+            46.82624406712851,
+            98.77936270624703
+          ]
+        },
+        "food_insecurity": {
+          "value": 64.64202583901488,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 12,
+          "standard_error_percentage_points": 15.696225508202561,
+          "approx_95_ci_percentage_points": [
+            33.87742384293786,
+            95.4066278350919
+          ]
+        },
+        "resource_band_changed": {
+          "value": 18.955559773741854,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 12,
+          "standard_error_percentage_points": 15.778540182489312,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            49.8814985314209
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "difficulty__renter__care_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 134,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 89.40520692798944,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 82,
+          "standard_error_percentage_points": 4.056673740574985,
+          "approx_95_ci_percentage_points": [
+            81.45412639646247,
+            97.35628745951641
+          ]
+        },
+        "hours_changed": {
+          "value": 10.356046908900383,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 84,
+          "standard_error_percentage_points": 4.459891809881052,
+          "approx_95_ci_percentage_points": [
+            1.6146589615335216,
+            19.097434856267245
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 57.98849187344991,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 134,
+          "standard_error_percentage_points": 5.085526866884818,
+          "approx_95_ci_percentage_points": [
+            48.02085921435567,
+            67.95612453254415
+          ]
+        },
+        "food_insecurity": {
+          "value": 50.20933155710687,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 134,
+          "standard_error_percentage_points": 4.8974047636426254,
+          "approx_95_ci_percentage_points": [
+            40.61041822036732,
+            59.80824489384642
+          ]
+        },
+        "resource_band_changed": {
+          "value": 5.56331144752891,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 134,
+          "standard_error_percentage_points": 2.1836417737569374,
+          "approx_95_ci_percentage_points": [
+            1.2833735709653125,
+            9.843249324092508
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "difficulty__renter__care_not_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 42,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 89.72423146212873,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 38,
+          "standard_error_percentage_points": 5.5518766738874765,
+          "approx_95_ci_percentage_points": [
+            78.84255318130927,
+            100.0
+          ]
+        },
+        "hours_changed": {
+          "value": 3.965467884603741,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 38,
+          "standard_error_percentage_points": 3.310069895652,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            10.45320488008166
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 2.1440852951034097,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 42,
+          "standard_error_percentage_points": 2.1983273385720605,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            6.452806878704648
+          ]
+        },
+        "food_insecurity": {
+          "value": 12.470945007945959,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 42,
+          "standard_error_percentage_points": 5.212838373654016,
+          "approx_95_ci_percentage_points": [
+            2.2537817955840875,
+            22.688108220307832
+          ]
+        },
+        "resource_band_changed": {
+          "value": 1.0513544899421527,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 42,
+          "standard_error_percentage_points": 1.1384807160395212,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            3.2827766933796143
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "no_difficulty__owner_buyer__care_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 1635,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 91.44006402468757,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 1163,
+          "standard_error_percentage_points": 1.0204946269891761,
+          "approx_95_ci_percentage_points": [
+            89.43989455578878,
+            93.44023349358636
+          ]
+        },
+        "hours_changed": {
+          "value": 5.011344030502034,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 1167,
+          "standard_error_percentage_points": 0.7683567456315842,
+          "approx_95_ci_percentage_points": [
+            3.505364809064129,
+            6.5173232519399384
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 0.7920498163667888,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 1635,
+          "standard_error_percentage_points": 0.1942201963792115,
+          "approx_95_ci_percentage_points": [
+            0.4113782314635343,
+            1.1727214012700433
+          ]
+        },
+        "food_insecurity": {
+          "value": 4.599101735290039,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 1635,
+          "standard_error_percentage_points": 0.5843745037435635,
+          "approx_95_ci_percentage_points": [
+            3.4537277079526545,
+            5.744475762627423
+          ]
+        },
+        "resource_band_changed": {
+          "value": 4.0305430287685375,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 1635,
+          "standard_error_percentage_points": 0.6770463307062426,
+          "approx_95_ci_percentage_points": [
+            2.703532220584302,
+            5.357553836952773
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "no_difficulty__owner_buyer__care_not_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 30,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 100.0,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 21,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_ci_percentage_points": [
+            100.0,
+            100.0
+          ]
+        },
+        "hours_changed": {
+          "value": 6.018618377943282,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 21,
+          "standard_error_percentage_points": 5.404474713093164,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            16.611388815605885
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 12.098451517920045,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 30,
+          "standard_error_percentage_points": 7.202135372612199,
+          "approx_95_ci_percentage_points": [
+            0.0,
+            26.214636848239955
+          ]
+        },
+        "food_insecurity": {
+          "value": 25.747804301334337,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 30,
+          "standard_error_percentage_points": 8.182933791354777,
+          "approx_95_ci_percentage_points": [
+            9.709254070278973,
+            41.7863545323897
+          ]
+        },
+        "resource_band_changed": {
+          "value": 13.4232617882928,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 30,
+          "standard_error_percentage_points": 6.709254654170355,
+          "approx_95_ci_percentage_points": [
+            0.2731226661189048,
+            26.573400910466695
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "no_difficulty__renter__care_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December",
+      "denominator": {
+        "value": 642,
+        "unit": "identified person pairs in utility/tenure/childcare cell",
+        "value_type": "person_pairs"
+      },
+      "measures": {
+        "earnings_changed": {
+          "value": 88.7863947867334,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 382,
+          "standard_error_percentage_points": 2.0252212158716807,
+          "approx_95_ci_percentage_points": [
+            84.8169612036249,
+            92.7558283698419
+          ]
+        },
+        "hours_changed": {
+          "value": 6.211055799171656,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 383,
+          "standard_error_percentage_points": 1.3784011556801021,
+          "approx_95_ci_percentage_points": [
+            3.5093895340386556,
+            8.912722064304656
+          ]
+        },
+        "mortgage_hardship": {
+          "value": 2.9577276264503247,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 642,
+          "standard_error_percentage_points": 0.7073343125628808,
+          "approx_95_ci_percentage_points": [
+            1.5713523738270783,
+            4.344102879073571
+          ]
+        },
+        "food_insecurity": {
+          "value": 18.024867748851143,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 642,
+          "standard_error_percentage_points": 1.773612823120836,
+          "approx_95_ci_percentage_points": [
+            14.548586615534305,
+            21.501148882167982
+          ]
+        },
+        "resource_band_changed": {
+          "value": 5.7954526883985675,
+          "unit": "person-weighted percent",
+          "value_type": "conditional_share",
+          "valid_records": 642,
+          "standard_error_percentage_points": 1.3291096907033437,
+          "approx_95_ci_percentage_points": [
+            3.190397694620014,
+            8.400507682177121
+          ]
+        }
+      },
+      "method": "Same-person adjacent-month comparison using November WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Outcome-specific valid records and approximate Fay-BRR intervals are retained; cells with childcare prevention and utility difficulty are sparse.",
+      "subgroup": "no_difficulty__renter__care_not_prevented",
+      "counterinterpretation": "Utility, tenure, childcare, work, housing, food, and resource fields are observational and may reflect shared selection, season, health, family composition, or reporting.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "compared"
+    }
+  ],
+  "group_definitions": {
+    "utility": "EAWBGAS code 1 versus 2 with valid AAWBGAS",
+    "tenure": "ETENURE code 1 (owned/bought) versus 2 (rented)",
+    "care": "December EWORKMORE code 1 versus 2 with valid AWORKMORE; annual fall childcare-work-prevention report",
+    "earnings_hours": "numeric nonnegative TPEARN/TMWKHRS change from November to December",
+    "mortgage": "December EAWBMORT code 1 versus 2 with valid AAWBMORT",
+    "food": "December RFOODS code 2 or 3 among valid RFOODS/AFOODS",
+    "resource": "any November-to-December THINCPOV four-band crossing"
+  },
+  "results": {
+    "difficulty__owner_buyer__care_prevented": {
+      "pairs": 10,
+      "earnings_changed": {
+        "valid_records": 9,
+        "share_percent": 100.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_ci_percentage_points": [
+          100.0,
+          100.0
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 9,
+        "share_percent": 26.148527276295408,
+        "standard_error_percentage_points": 15.171151646469196,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          55.88398450337503
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 10,
+        "share_percent": 25.313804027138215,
+        "standard_error_percentage_points": 16.125133500374364,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          56.919065687871964
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 10,
+        "share_percent": 77.50031944424619,
+        "standard_error_percentage_points": 12.688618679308458,
+        "approx_95_ci_percentage_points": [
+          52.63062683280161,
+          100.0
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 10,
+        "share_percent": 8.445970736578364,
+        "standard_error_percentage_points": 9.014248723031349,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          26.11389823371981
+        ]
+      }
+    },
+    "difficulty__owner_buyer__care_not_prevented": {
+      "pairs": 95,
+      "earnings_changed": {
+        "valid_records": 60,
+        "share_percent": 86.5787574212164,
+        "standard_error_percentage_points": 4.532795364471543,
+        "approx_95_ci_percentage_points": [
+          77.69447850685216,
+          95.46303633558063
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 62,
+        "share_percent": 0.9309464345302492,
+        "standard_error_percentage_points": 0.8930736241354672,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          2.681370737835765
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 95,
+        "share_percent": 38.222070923606175,
+        "standard_error_percentage_points": 5.741593550435238,
+        "approx_95_ci_percentage_points": [
+          26.96854756475311,
+          49.47559428245924
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 95,
+        "share_percent": 49.34994615024527,
+        "standard_error_percentage_points": 6.955387702191929,
+        "approx_95_ci_percentage_points": [
+          35.717386253949094,
+          62.98250604654145
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 95,
+        "share_percent": 2.7238997479455107,
+        "standard_error_percentage_points": 1.703418143634155,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          6.062599309468454
+        ]
+      }
+    },
+    "difficulty__renter__care_prevented": {
+      "pairs": 12,
+      "earnings_changed": {
+        "valid_records": 8,
+        "share_percent": 90.07115099517672,
+        "standard_error_percentage_points": 9.802341667991502,
+        "approx_95_ci_percentage_points": [
+          70.85856132591337,
+          100.0
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 10,
+        "share_percent": 34.95311143238784,
+        "standard_error_percentage_points": 18.40563856556615,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          71.0281630208975
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 12,
+        "share_percent": 72.80280338668777,
+        "standard_error_percentage_points": 13.253346591611864,
+        "approx_95_ci_percentage_points": [
+          46.82624406712851,
+          98.77936270624703
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 12,
+        "share_percent": 64.64202583901488,
+        "standard_error_percentage_points": 15.696225508202561,
+        "approx_95_ci_percentage_points": [
+          33.87742384293786,
+          95.4066278350919
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 12,
+        "share_percent": 18.955559773741854,
+        "standard_error_percentage_points": 15.778540182489312,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          49.8814985314209
+        ]
+      }
+    },
+    "difficulty__renter__care_not_prevented": {
+      "pairs": 134,
+      "earnings_changed": {
+        "valid_records": 82,
+        "share_percent": 89.40520692798944,
+        "standard_error_percentage_points": 4.056673740574985,
+        "approx_95_ci_percentage_points": [
+          81.45412639646247,
+          97.35628745951641
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 84,
+        "share_percent": 10.356046908900383,
+        "standard_error_percentage_points": 4.459891809881052,
+        "approx_95_ci_percentage_points": [
+          1.6146589615335216,
+          19.097434856267245
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 134,
+        "share_percent": 57.98849187344991,
+        "standard_error_percentage_points": 5.085526866884818,
+        "approx_95_ci_percentage_points": [
+          48.02085921435567,
+          67.95612453254415
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 134,
+        "share_percent": 50.20933155710687,
+        "standard_error_percentage_points": 4.8974047636426254,
+        "approx_95_ci_percentage_points": [
+          40.61041822036732,
+          59.80824489384642
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 134,
+        "share_percent": 5.56331144752891,
+        "standard_error_percentage_points": 2.1836417737569374,
+        "approx_95_ci_percentage_points": [
+          1.2833735709653125,
+          9.843249324092508
+        ]
+      }
+    },
+    "no_difficulty__owner_buyer__care_prevented": {
+      "pairs": 42,
+      "earnings_changed": {
+        "valid_records": 38,
+        "share_percent": 89.72423146212873,
+        "standard_error_percentage_points": 5.5518766738874765,
+        "approx_95_ci_percentage_points": [
+          78.84255318130927,
+          100.0
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 38,
+        "share_percent": 3.965467884603741,
+        "standard_error_percentage_points": 3.310069895652,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          10.45320488008166
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 42,
+        "share_percent": 2.1440852951034097,
+        "standard_error_percentage_points": 2.1983273385720605,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          6.452806878704648
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 42,
+        "share_percent": 12.470945007945959,
+        "standard_error_percentage_points": 5.212838373654016,
+        "approx_95_ci_percentage_points": [
+          2.2537817955840875,
+          22.688108220307832
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 42,
+        "share_percent": 1.0513544899421527,
+        "standard_error_percentage_points": 1.1384807160395212,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          3.2827766933796143
+        ]
+      }
+    },
+    "no_difficulty__owner_buyer__care_not_prevented": {
+      "pairs": 1635,
+      "earnings_changed": {
+        "valid_records": 1163,
+        "share_percent": 91.44006402468757,
+        "standard_error_percentage_points": 1.0204946269891761,
+        "approx_95_ci_percentage_points": [
+          89.43989455578878,
+          93.44023349358636
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 1167,
+        "share_percent": 5.011344030502034,
+        "standard_error_percentage_points": 0.7683567456315842,
+        "approx_95_ci_percentage_points": [
+          3.505364809064129,
+          6.5173232519399384
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 1635,
+        "share_percent": 0.7920498163667888,
+        "standard_error_percentage_points": 0.1942201963792115,
+        "approx_95_ci_percentage_points": [
+          0.4113782314635343,
+          1.1727214012700433
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 1635,
+        "share_percent": 4.599101735290039,
+        "standard_error_percentage_points": 0.5843745037435635,
+        "approx_95_ci_percentage_points": [
+          3.4537277079526545,
+          5.744475762627423
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 1635,
+        "share_percent": 4.0305430287685375,
+        "standard_error_percentage_points": 0.6770463307062426,
+        "approx_95_ci_percentage_points": [
+          2.703532220584302,
+          5.357553836952773
+        ]
+      }
+    },
+    "no_difficulty__renter__care_prevented": {
+      "pairs": 30,
+      "earnings_changed": {
+        "valid_records": 21,
+        "share_percent": 100.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_ci_percentage_points": [
+          100.0,
+          100.0
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 21,
+        "share_percent": 6.018618377943282,
+        "standard_error_percentage_points": 5.404474713093164,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          16.611388815605885
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 30,
+        "share_percent": 12.098451517920045,
+        "standard_error_percentage_points": 7.202135372612199,
+        "approx_95_ci_percentage_points": [
+          0.0,
+          26.214636848239955
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 30,
+        "share_percent": 25.747804301334337,
+        "standard_error_percentage_points": 8.182933791354777,
+        "approx_95_ci_percentage_points": [
+          9.709254070278973,
+          41.7863545323897
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 30,
+        "share_percent": 13.4232617882928,
+        "standard_error_percentage_points": 6.709254654170355,
+        "approx_95_ci_percentage_points": [
+          0.2731226661189048,
+          26.573400910466695
+        ]
+      }
+    },
+    "no_difficulty__renter__care_not_prevented": {
+      "pairs": 642,
+      "earnings_changed": {
+        "valid_records": 382,
+        "share_percent": 88.7863947867334,
+        "standard_error_percentage_points": 2.0252212158716807,
+        "approx_95_ci_percentage_points": [
+          84.8169612036249,
+          92.7558283698419
+        ]
+      },
+      "hours_changed": {
+        "valid_records": 383,
+        "share_percent": 6.211055799171656,
+        "standard_error_percentage_points": 1.3784011556801021,
+        "approx_95_ci_percentage_points": [
+          3.5093895340386556,
+          8.912722064304656
+        ]
+      },
+      "mortgage_hardship": {
+        "valid_records": 642,
+        "share_percent": 2.9577276264503247,
+        "standard_error_percentage_points": 0.7073343125628808,
+        "approx_95_ci_percentage_points": [
+          1.5713523738270783,
+          4.344102879073571
+        ]
+      },
+      "food_insecurity": {
+        "valid_records": 642,
+        "share_percent": 18.024867748851143,
+        "standard_error_percentage_points": 1.773612823120836,
+        "approx_95_ci_percentage_points": [
+          14.548586615534305,
+          21.501148882167982
+        ]
+      },
+      "resource_band_changed": {
+        "valid_records": 642,
+        "share_percent": 5.7954526883985675,
+        "standard_error_percentage_points": 1.3291096907033437,
+        "approx_95_ci_percentage_points": [
+          3.190397694620014,
+          8.400507682177121
+        ]
+      }
+    }
+  },
+  "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+  "related_sources": [
+    "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf",
+    "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip"
+  ],
+  "causal_estimation": false,
+  "boundary": "This is a same-person adjacent-month descriptive screen. It does not identify a dated utility bill, shutoff, childcare event, causal effect, household-weighted prevalence, desired work, care hours, recovery, remedy, trust, political action, or exit. The annual fall childcare field and several household fields may be reference-period or repeated measures."
+}

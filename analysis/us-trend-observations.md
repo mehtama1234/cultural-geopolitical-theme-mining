@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-253 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+254 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -813,6 +813,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Child-care work prevention co-occurs with higher following housing and utility hardship | cost, time | household_room_consumption, time_hidden_price, care_health_reproduction, public_systems_feedback, unequal_exposure_status | identified person with November-to-December stable SNAP pair, child-care work-prevention status, and December hardship fields | United States | 4 | 2024 reference year; stable no-SNAP; child care did not prevent work/more work; 2024 reference year; stable no-SNAP; child care prevented work/more work; 2024 reference year; stable SNAP; child care did not prevent work/more work; 2024 reference year; stable SNAP; child care prevented work/more work | compared | [open](records/us-sipp-childcare-work-hardship-bridge-2024.json) |
 
 **Boundary:** This is a descriptive same-person bridge from annual fall child-care work prevention to following-month rent/mortgage and utility hardship within stable SNAP-status comparisons. It does not establish causation, benefit effects, exact event timing, care quality, household recovery, trust, or political action. Small cells and separate outcome universes remain explicit.
+
+| Utility difficulty, tenure, and childcare prevention beside next-month work and household-security outcomes | cost, time, work, energy | household_room_consumption, time_hidden_price, housing_place_mobility, work_control_bargaining, care_health_reproduction, unequal_exposure_status | identified November-to-December SIPP person pairs; utility and tenure at month t, childcare status and outcomes at month t+1 | United States | 8 | 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December | compared | [open](records/us-sipp-constraint-cascade-screen-2024.json) |
+
+**Boundary:** This is a same-person adjacent-month descriptive screen. It does not identify a dated utility bill, shutoff, childcare event, causal effect, household-weighted prevalence, desired work, care hours, recovery, remedy, trust, political action, or exit. The annual fall childcare field and several household fields may be reference-period or repeated measures.
 
 | SIPP material and food-security diagnostics retain Fay-BRR uncertainty | cost, time, work | household_room_consumption, time_hidden_price, care_health_reproduction, work_control_bargaining, unequal_exposure_status, public_systems_feedback | SIPP person record by reference month using final person and Fay-BRR replicate weights; household fields remain repeated on person records | United States | 1 | 2024 reference year in the 2025 SIPP public-use file | estimated | [open](records/us-sipp-material-time-care-official-variance-2024.json) |
 

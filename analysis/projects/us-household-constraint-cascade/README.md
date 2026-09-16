@@ -43,6 +43,8 @@ that hardship caused political action.
 ## Evidence routes
 
 - [Constraint-cascade cross-source bridge](constraint-cascade-cross-source-bridge-v1.md)
+- [SIPP same-person constraint-cascade screen](sipp-constraint-cascade-screen-v1.md), with its [machine-readable output](../../records/us-sipp-constraint-cascade-screen-2024.json): utility, tenure, childcare prevention, work, housing, food, and resource endpoints in one adjacent-month frame.
+- [SIPP cascade-screen script](../../../scripts/analyze_sipp_constraint_cascade_screen.py)
 - [SHED coverage-to-care machine record](../../records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
 - [SHED coverage-to-care reproduction audit](../us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
 - [SIPP utility-to-work machine record](../../records/us-sipp-utility-work-following-2024.json)
