@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-246 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+247 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -233,6 +233,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Linked HTOPS respondents show material and institutional measures changing on different paths | cost, voice, energy, work | household_room_consumption, unequal_exposure_status, care_health_reproduction, trust_identity_meaning, work_control_bargaining, political_judgment_action | US Census Bureau HTOPS April and June 2025 linked public-use person respondents | United States | 1 | April 15–29 to June 16–25, 2025; linked respondent transitions | compared | [open](records/us-census-htops-material-trust-panel-april-june-2025.json) |
 
 **Boundary:** This record is the first same-respondent April-to-June 2025 HTOPS linkage. It measures descriptive transitions among linked respondents and preserves the absence of a longitudinal attrition-adjusted weight; it does not estimate national causal effects, household recovery, trust formation, or political action.
+
+| Medical debt becomes a visible CFPB complaint category | cost, voice | household_room_consumption, consumer_power_recourse, public_systems_feedback, care_health_reproduction | published CFPB complaint record represented in a 2025 product/sub-product aggregate snapshot | United States | 1 | 2025 complaints received; CFPB aggregate snapshot | observed | [open](records/us-cfpb-2025-medical-debt-visibility.json) |
+
+**Boundary:** This is complaint-system visibility, not medical-debt prevalence, harm incidence, a rate among debtors, verified remedy, money recovered, care restoration, trust, switching, or exit. No CFPB record is joined to a MEPS person or household.
 
 | The visible CFPB complaint-response endpoint changed over time | voice, cost | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, firm_sector_market_power | published CFPB complaint record grouped by calendar year received | United States | 6 | 2020; 2021; 2022; 2023; 2024; 2025 | observed | [open](records/us-cfpb-annual-response-trend-2020-2025.json) |
 
@@ -516,7 +520,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 | MEPS denial and prior-authorization friction persists across observed care channels | cost, time, voice | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, unequal_exposure_status | MEPS 2024 people with a first dated office, emergency-room, or inpatient event joined to annual institutional-friction and household-context fields | United States | 3 | 2024; first office event × insurance denial or prior-authorization delay; 2024; first emergency-room event × insurance denial or prior-authorization delay; 2024; first inpatient event × insurance denial or prior-authorization delay | compared | [open](records/us-meps-2024-event-institutional-friction.json) |
 
-**Boundary:** This is a same-round event-family stratification of institutional-friction associations. It does not show that denial preceded the event, caused care delay or debt, or produced a remedy, trust change, political action, or exit.
+**Boundary:** This is a same-round event-family stratification of institutional-friction associations, with descriptive coverage and financial-room intersections. It does not show that denial preceded the event, caused care delay or debt, or produced a remedy, trust change, political action, or exit; small uninsured cells are not stable subgroup estimates.
 
 | MEPS 2024 first-event payment bands separate payment from later bill and health context | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person/event-family first-event records | United States | 1 | 2024; first office, emergency-room, or inpatient event stratified by self/family payment band | compared | [open](records/us-meps-2024-event-payment-bands-2024.json) |
 

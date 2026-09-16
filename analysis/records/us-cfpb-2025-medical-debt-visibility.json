@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-2025-medical-debt-visibility",
+  "title": "Medical debt becomes a visible CFPB complaint category",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "public_systems_feedback", "care_health_reproduction"],
+  "source_unit": "published CFPB complaint record represented in a 2025 product/sub-product aggregate snapshot",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 complaints received; CFPB aggregate snapshot",
+      "denominator": {"value": 5452107, "unit": "all published complaint records represented in the snapshot"},
+      "measures": {
+        "medical_debt_records": {"value": 8861, "unit": "published complaint records; Debt collection -> Medical debt", "value_type": "count"},
+        "debt_collection_records": {"value": 283828, "unit": "published complaint records; Debt collection parent product", "value_type": "count"},
+        "medical_debt_share_of_all_published": {"value": 0.1625243232, "unit": "percent", "value_type": "descriptive_share"},
+        "medical_debt_share_of_debt_collection": {"value": 3.1219611878, "unit": "percent", "value_type": "descriptive_share"}
+      },
+      "method": "Read the nested Debt collection -> Medical debt bucket and divide by the snapshot total and Debt collection parent bucket; no record-level deduplication or outcome inference.",
+      "uncertainty": "The aggregate is a published administrative record, not a probability sample. Product/subproduct selection, complaint propensity, screening, publication rules, and API aggregation shape the count.",
+      "subgroup": "2025 published CFPB complaint records represented in the aggregate snapshot.",
+      "counterinterpretation": "A low or high visible count may reflect route access, coding, publication, product use, or reporting behavior rather than the underlying prevalence or severity of medical debt.",
+      "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
+      "retrieval_hash": "snapshot:sha256:2b9ddffb9fd3b44afbec0e55f4e233087706bcfa55638c3e17c846aa8b4c9b39; script:sha256:2127ee139d975ebca5d40521a1ebc68dd4a9c6ca647a43519e803043c3922b91; result:sha256:86f11b0689932da88151663fa6563ac948dea1a1620155bfd242d977dd3f9cbf",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-health-cost-household-choice/cfpb-2025-medical-debt-visibility-v1.md", "claim": "The method note defines the nested product/subproduct extraction and visibility boundary.", "status": "method-note"},
+    {"source_url": "../projects/us-health-cost-household-choice/data/us-cfpb-2025-medical-debt-visibility.json", "claim": "The machine output preserves counts, shares, input hash, and limits.", "status": "machine-output"},
+    {"source_url": "../projects/us-customer-automation-recourse/data/cfpb-2025-aggregation-snapshot-2026-09-14.json", "claim": "The official API snapshot contains the parent and nested subproduct buckets.", "status": "source-artifact"}
+  ],
+  "boundary": "This is complaint-system visibility, not medical-debt prevalence, harm incidence, a rate among debtors, verified remedy, money recovered, care restoration, trust, switching, or exit. No CFPB record is joined to a MEPS person or household."
+}

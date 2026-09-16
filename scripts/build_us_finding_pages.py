@@ -339,6 +339,8 @@ def main():
     memos.append(cms_meps_synthesis)
     cfpb_health_bridge = ROOT / "analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md"
     memos.append(cfpb_health_bridge)
+    cfpb_medical_visibility = ROOT / "analysis/projects/us-health-cost-household-choice/cfpb-2025-medical-debt-visibility-v1.md"
+    memos.append(cfpb_medical_visibility)
     meps_2024_gate = ROOT / "analysis/projects/us-health-cost-household-choice/meps-2024-full-year-acquisition-gate-v1.md"
     memos.append(meps_2024_gate)
     # Publish the financial-power layer as a long-form reader route. It
@@ -419,6 +421,7 @@ def main():
         atus_annual_comparison: "atus-time-care-annual-comparison-2024-2025-v1.html",
         review_guide: "review-guide.html",
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
+        cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",
     }
     for memo in sorted(memos):
         page = ROOT / "site" / output_names.get(memo, f"{memo.stem}.html")

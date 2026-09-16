@@ -11,8 +11,8 @@ finding, or session is the completion condition.
 ## Current scale
 
 - **14** program themes
-- **246** validated machine-readable trend records
-- **948** period-specific observations
+- **247** validated machine-readable trend records
+- **949** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem
@@ -40,4 +40,4 @@ The active depth lane is the material/time/care backbone. The immediate PSID
 2019/2021/2023 acquisition gate is documented, but account-controlled; no PSID
 result is promoted as downloaded evidence before the gate is passed.
 
-Read the [review guide](../REVIEW-GUIDE_V1.md), [HTML dashboard](../site/us-program-dashboard.html), [continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md), [current status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md), [source-registry audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), and [cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
+Read the [HTML dashboard](../site/us-program-dashboard.html), [continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md), [current status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md), [source-registry audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), and [cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).

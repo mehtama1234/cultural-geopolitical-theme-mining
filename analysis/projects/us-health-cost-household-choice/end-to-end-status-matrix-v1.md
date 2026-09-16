@@ -51,6 +51,11 @@ does not verify medical remedy, household recovery, repeat effort, switching,
 or trust. It is therefore a contract for the missing middle, not a completed
 health-cost result.
 
+The [CFPB 2025 medical-debt visibility layer](cfpb-2025-medical-debt-visibility-v1.md)
+adds a bounded observed category within that route: 8,861 published records
+are coded `Debt collection -> Medical debt` in the 2025 aggregate snapshot.
+The count is not a debt prevalence, complaint incidence, or remedy estimate.
+
 ## Current strongest findings
 
 The consolidated [end-to-end finding](findings/us-health-cost-household-choice-end-to-end-001.md)

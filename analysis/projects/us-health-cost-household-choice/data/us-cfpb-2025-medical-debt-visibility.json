@@ -1,0 +1,23 @@
+{
+  "boundary": "This is complaint-system visibility, not medical-debt prevalence, harm incidence, a rate among debtors, verified remedy, money recovered, care restoration, trust, switching, or exit. Product/sub-product selection and publication rules shape the count.",
+  "counts": {
+    "all_published_records": 5452107,
+    "debt_collection_records": 283828,
+    "medical_debt_records": 8861
+  },
+  "input": {
+    "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-2025-aggregation-snapshot-2026-09-14.json",
+    "sha256": "2b9ddffb9fd3b44afbec0e55f4e233087706bcfa55638c3e17c846aa8b4c9b39"
+  },
+  "method": "Read the nested Debt collection -> Medical debt bucket and divide by the snapshot total and Debt collection parent bucket; no record-level deduplication or outcome inference.",
+  "schema": "us-cfpb-medical-debt-visibility-v1",
+  "shares_percent": {
+    "medical_debt_of_all_published": 0.16252432316533774,
+    "medical_debt_of_debt_collection": 3.121961187761602
+  },
+  "source_unit": "published CFPB complaint record represented in a 2025 product/sub-product aggregate snapshot",
+  "window": {
+    "date_received_max": "2026-01-01",
+    "date_received_min": "2025-01-01"
+  }
+}

@@ -181,6 +181,12 @@ maps the public complaint ledger onto that protocol. It demonstrates a usable
 receipt-to-response event contract while keeping verified medical remedy,
 household recovery, repeat effort, switching, and trust as unobserved fields.
 
+The [CFPB 2025 medical-debt visibility layer](cfpb-2025-medical-debt-visibility-v1.md)
+now adds a medical-specific institutional surface: 8,861 published records in
+the `Debt collection -> Medical debt` subproduct, or 3.122% of published Debt
+collection records in the snapshot. This is complaint-system visibility, not
+medical-debt prevalence or a remedy rate.
+
 The [MEPS financial-room/care-delay layer](meps-2024-financial-room-care-delay-v1.md)
 adds a same-respondent comparison between confidence paying an unexpected
 expense or medical debt and cost-related delay or inability to afford care and
