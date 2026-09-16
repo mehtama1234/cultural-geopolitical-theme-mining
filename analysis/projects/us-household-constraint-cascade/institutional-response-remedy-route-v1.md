@@ -54,6 +54,29 @@ financial context, but without an episode-level claim key and dates we cannot
 say that the denial caused the later debt or that a subsequent payment repaired
 the problem.
 
+## A bounded causal remedy benchmark
+
+The health-cost lane already contains a randomized downstream remedy result in
+the [medical-debt relief response layer](../us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md).
+Two experiments relieved collection-stage medical debt for 83,401 people. The
+result is useful here because it tests a remedy, rather than merely recording an
+institutional response:
+
+| Remedy outcome | Bounded result | Interpretation for this cascade |
+|---|---:|---|
+| Credit score where the debt would otherwise be reported | +3.4 points | Relief can restore a credit-access surface when reporting exposure is active |
+| Credit-limit change in that reporting subexperiment | +$340 | Access to borrowing can move separately from health or care |
+| Another unpaid medical bill sent to collections | +1.1 percentage points | Payment behavior can move in a different direction from credit access |
+| Mental/physical health, care utilization, financial wellness | No average effect detected | Debt relief is not evidence of automatic health, care, or broad-room recovery |
+
+This is the strongest local causal benchmark for the remedy stage, but it does
+not complete the household cascade. It begins with selected downstream debt in
+collection portfolios, not a dated care need or coverage decision; it does not
+measure the original care choice, food/housing/unpaid-care substitution,
+provider or insurer response, trust, or political action. Its lesson is
+methodological: remedy must be evaluated currency by currency, with the
+counterfactual and reporting regime made explicit.
+
 ## Smallest decisive ledger
 
 The next useful artifact is a compact, de-identified episode ledger. It should

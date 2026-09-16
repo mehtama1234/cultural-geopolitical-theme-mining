@@ -45,6 +45,12 @@ boundary is that complaint receipt, routing, timeliness, denial, or company
 response labels establish institutional visibility—not verified correction,
 coverage restoration, financial recovery, trust, or exit.
 
+The local [medical-debt relief randomized response layer](../us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md)
+provides a causal benchmark for one downstream remedy: credit access improves
+under active reporting, while average health, care utilization, and financial
+wellness do not. It should be read as a remedy-specific result, not as closure
+of the same-household cascade.
+
 ## What the comparison says now
 
 ### 1. Protection is a condition of choice, not a binary status

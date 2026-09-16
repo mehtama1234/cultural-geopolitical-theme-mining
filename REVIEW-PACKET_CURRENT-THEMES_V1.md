@@ -24,6 +24,7 @@ turning adjacent evidence into one causal story.
 - [MEPS dated health-cost episode spine](analysis/projects/us-household-constraint-cascade/meps-dated-event-spine-v1.md): existing local event files add month-level event/payment/person-panel context and a precise specification for the missing household-choice/remedy join.
 - [MEPS dated event-to-household-response screen](analysis/projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md): first inter-round events are placed beside same-person care delay, bill problems, medical debt, and collector contact without mixing ESAQ weights into the event variance design.
 - [Institutional response and remedy route](analysis/projects/us-household-constraint-cascade/institutional-response-remedy-route-v1.md): complaint/denial visibility is separated from verified correction, recovery, trust, and exit.
+- [Medical-debt relief causal benchmark](analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md): downstream randomized debt relief improves selected credit access without establishing health, care, or broad household recovery.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
