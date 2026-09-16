@@ -11,8 +11,8 @@ finding, or session is the completion condition.
 ## Current scale
 
 - **14** program themes
-- **245** validated machine-readable trend records
-- **945** period-specific observations
+- **246** validated machine-readable trend records
+- **948** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem

@@ -1,0 +1,105 @@
+{
+  "causal_estimation": false,
+  "events": {
+    "emergency_room": {
+      "dated_event_people": 2923,
+      "groups": {
+        "denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 18.9893613453326,
+            "debt_collector_contact": 25.675146847898063,
+            "medical_bill_problem": 25.236878248914607,
+            "medical_debt": 27.102399212655225
+          },
+          "records": 389,
+          "weighted_denominator": 6265899.63431
+        },
+        "no_denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 7.672843130654281,
+            "debt_collector_contact": 15.247946707425125,
+            "medical_bill_problem": 9.157258783560145,
+            "medical_debt": 19.064557118065174
+          },
+          "records": 1408,
+          "weighted_denominator": 21469996.974844
+        }
+      },
+      "valid_friction_people": 1797
+    },
+    "inpatient": {
+      "dated_event_people": 1415,
+      "groups": {
+        "denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 15.306496384848622,
+            "debt_collector_contact": 18.791964132606065,
+            "medical_bill_problem": 21.925112597914385,
+            "medical_debt": 26.909608917121275
+          },
+          "records": 201,
+          "weighted_denominator": 3410056.098969
+        },
+        "no_denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 5.087093416847845,
+            "debt_collector_contact": 11.683868075680087,
+            "medical_bill_problem": 5.170288643118325,
+            "medical_debt": 13.86052597242981
+          },
+          "records": 728,
+          "weighted_denominator": 10707177.229183
+        }
+      },
+      "valid_friction_people": 929
+    },
+    "office": {
+      "dated_event_people": 14402,
+      "groups": {
+        "denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 15.590879629467736,
+            "debt_collector_contact": 20.352929086344748,
+            "medical_bill_problem": 16.212892617751912,
+            "medical_debt": 24.86685353453249
+          },
+          "records": 1452,
+          "weighted_denominator": 24238767.168495
+        },
+        "no_denial_or_prior_authorization_delay": {
+          "outcomes_percent": {
+            "cost_related_medical_care_delay": 5.753333878313403,
+            "debt_collector_contact": 9.265314782437283,
+            "medical_bill_problem": 5.894720610227673,
+            "medical_debt": 13.34404940019041
+          },
+          "records": 7249,
+          "weighted_denominator": 116923589.48026201
+        }
+      },
+      "valid_friction_people": 8701
+    }
+  },
+  "inputs": {
+    "emergency_room": {
+      "path": "/tmp/cgtm-meps-2024/events/h254e.dta",
+      "sha256": "23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723"
+    },
+    "hc256": {
+      "path": "/tmp/cgtm-meps-2024/h256/h256.dta",
+      "sha256": "b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5"
+    },
+    "inpatient": {
+      "path": "/tmp/cgtm-meps-2024/events/h254d.dta",
+      "sha256": "5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464"
+    },
+    "office": {
+      "path": "/tmp/cgtm-meps-2024/events/h254g.dta",
+      "sha256": "19e81a7f816ea8bf518dd0a47ac6087bb747f5f0feffb3dd64d36c250864cda4"
+    }
+  },
+  "limitation": "EQDENY53 has no claim identifier, decision date, appeal, or resolution. It is collected in the annual person file and is not shown to precede the observed event; event presence is selected and outcomes are same-round context, not post-event effects.",
+  "method": "Select the first dated event per person and event family, exact-join to HC-256 by DUPERSID+PANEL, and compare EQDENY53 denial/prior-authorization-delay groups using positive PERWT24F.",
+  "schema": "us-meps-2024-event-institutional-friction-v1"
+}
+
