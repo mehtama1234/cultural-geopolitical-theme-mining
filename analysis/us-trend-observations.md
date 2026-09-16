@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-242 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+243 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -505,6 +505,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Randomized medical-debt relief changes credit access without average health, care-use, or financial-wellness repair | cost, voice, time | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | Participants in two randomized medical-debt relief experiments | United States | 4 | 2018 to 2020; randomized medical-debt relief scale; Credit-reporting subexperiment; 2018 to 2020; Hospital-debt experiment; follow-up; Hospital-debt experiment survey follow-up | estimated; reported | [open](records/us-medical-debt-relief-rct-outcome-separation-2018-2020.json) |
 
 **Boundary:** This randomized remedy evidence begins with downstream medical debt and does not complete the chain from health need or care choice to household adaptation, trust, political action, or legitimacy.
+
+| MEPS inter-round acute events retain baseline selection in later health and bill context | cost, time, work | care_health_reproduction, household_room_consumption, work_control_bargaining, unequal_exposure_status | MEPS 2024 person records with a first office, emergency-room, or inpatient event strictly between the R3/1 and R4/2 reference-period endpoint months | United States | 3 | 2024; first emergency-room event strictly between R3/1 and R4/2 endpoints; 2024; first inpatient event strictly between R3/1 and R4/2 endpoints; 2024; first office event strictly between R3/1 and R4/2 endpoints | compared | [open](records/us-meps-2024-between-round-event-transitions.json) |
+
+**Boundary:** This is a month-ordered descriptive transition layer. It does not identify the triggering need or bill, available alternatives, care delay or foregoing, household adaptation, remedy, trust, political action, or geopolitical consequence.
 
 | MEPS 2024 care delay connects to payment strategy, sacrifice, work constraints, and family care context | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person-level care-delay and ESAQ adaptation fields | United States | 1 | 2024; R4/2 cost-related care delay compared with R5/3 ESAQ adaptation | compared | [open](records/us-meps-2024-care-delay-adaptation-2024.json) |
 

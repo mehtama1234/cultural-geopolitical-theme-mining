@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-between-round-event-transitions",
+  "title": "MEPS inter-round acute events retain baseline selection in later health and bill context",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person records with a first office, emergency-room, or inpatient event strictly between the R3/1 and R4/2 reference-period endpoint months",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; first emergency-room event strictly between R3/1 and R4/2 endpoints",
+      "denominator": {"value": 1101, "unit": "people in the event window; outcome-specific valid denominators vary", "value_type": "event_window_people"},
+      "measures": {
+        "fair_or_poor_health_baseline": {"value": 24.29, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_followup": {"value": 27.05, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_no_event_window_followup": {"value": 9.66, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened": {"value": 29.02, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened_no_event_window": {"value": 21.92, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_followup": {"value": 15.14, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_no_event_window": {"value": 7.19, "unit": "percent; weighted share", "value_type": "weighted_share"}
+      },
+      "method": "First valid event month strictly after the person-specific R3/1 endpoint month and strictly before the R4/2 endpoint month; compare R3/1 baseline and R4/2 follow-up fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The event-window group already has substantially worse baseline health and employment context. Month ordering excludes boundary ambiguity but not exact event day, severity, access, coverage, or selection; estimates are descriptive and not causal.",
+      "subgroup": "People with a first emergency-room event in the inter-round window.",
+      "counterinterpretation": "The event may mark pre-existing need or severity rather than cause the later health or bill context; the broad no-event-window group is not a causal control.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; event_office:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; event_er:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; event_inpatient:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; event_aux:sha256:19e81a7f816ea8bf518dd0a47ac6087bb747f5f0feffb3dd64d36c250864cda4; script:sha256:a2c69e373e5f24aa5f0a0d8e0cad4c5062334e7c6c9ac20e83c0fc955635466b; result:sha256:50a5667ccfa963cc9bf51fbd7ea02f034d59977804e430e9b6f9f3a59bfc2b6b",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first inpatient event strictly between R3/1 and R4/2 endpoints",
+      "denominator": {"value": 545, "unit": "people in the event window; outcome-specific valid denominators vary", "value_type": "event_window_people"},
+      "measures": {
+        "fair_or_poor_health_baseline": {"value": 28.99, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_followup": {"value": 33.67, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_no_event_window_followup": {"value": 10.0, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened": {"value": 31.42, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened_no_event_window": {"value": 22.06, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_followup": {"value": 11.13, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_no_event_window": {"value": 7.52, "unit": "percent; weighted share", "value_type": "weighted_share"}
+      },
+      "method": "First valid event month strictly after the person-specific R3/1 endpoint month and strictly before the R4/2 endpoint month; compare R3/1 baseline and R4/2 follow-up fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The inpatient event-window group has worse baseline health and employment than the comparison group, and the event may reflect prior severity. The measure does not identify a bill, care choice, alternative, or remedy.",
+      "subgroup": "People with a first inpatient event in the inter-round window.",
+      "counterinterpretation": "Persistent differences may reflect pre-existing illness, age, coverage, access, or event severity rather than an event effect.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; result:sha256:50a5667ccfa963cc9bf51fbd7ea02f034d59977804e430e9b6f9f3a59bfc2b6b",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first office event strictly between R3/1 and R4/2 endpoints",
+      "denominator": {"value": 3216, "unit": "people in the event window; outcome-specific valid denominators vary", "value_type": "event_window_people"},
+      "measures": {
+        "fair_or_poor_health_baseline": {"value": 9.34, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_followup": {"value": 9.26, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "fair_or_poor_health_no_event_window_followup": {"value": 10.84, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened": {"value": 24.34, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "health_worsened_no_event_window": {"value": 21.86, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_followup": {"value": 8.01, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "medical_bill_problem_no_event_window": {"value": 7.52, "unit": "percent; weighted share", "value_type": "weighted_share"}
+      },
+      "method": "First valid event month strictly after the person-specific R3/1 endpoint month and strictly before the R4/2 endpoint month; compare R3/1 baseline and R4/2 follow-up fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The office-event surface is a counterexample to a universal event-to-burden gradient. It remains descriptive and does not identify treatment need, payment obligation, access, or causality.",
+      "subgroup": "People with a first office event in the inter-round window.",
+      "counterinterpretation": "Office visits differ in severity, continuity, coverage, and purpose; a small follow-up contrast cannot be generalized to acute events.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; result:sha256:50a5667ccfa963cc9bf51fbd7ea02f034d59977804e430e9b6f9f3a59bfc2b6b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-health-cost-household-choice/meps-2024-between-round-event-transitions-v1.md", "claim": "The source note explains the strict month window, baseline selection, counterexample, and missing episode links.", "status": "method-note"},
+    {"source_url": "../../projects/us-health-cost-household-choice/data/us-meps-2024-between-round-event-transitions.json", "claim": "The machine output preserves the event-window counts and weighted transition estimates.", "status": "machine-output"}
+  ],
+  "boundary": "This is a month-ordered descriptive transition layer. It does not identify the triggering need or bill, available alternatives, care delay or foregoing, household adaptation, remedy, trust, political action, or geopolitical consequence."
+}
