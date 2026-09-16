@@ -33,6 +33,10 @@ records the current cross-source interpretation.
 The [current-status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 records the 14-theme coverage, recent depth, open arrows, and next queue in one
 place.
+The [broad program focus brief](BROAD-PROGRAM-FOCUS_V1.md) is the short
+restart document: it keeps societal, cultural, political, consumer, firm,
+institutional, infrastructure, and geopolitical trend mining as the governing
+goal, with household work treated as one evidence lane.
 For a compact review of the writeups and active themes, use the [current themes
 review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md), then open the [trend
 observations index](site/us-trend-observations.html) for the underlying records.
