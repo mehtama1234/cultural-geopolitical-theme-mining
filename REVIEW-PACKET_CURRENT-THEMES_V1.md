@@ -12,8 +12,9 @@ turning adjacent evidence into one causal story.
 ## Route 1: material pressure becomes time pressure
 
 Read the [multi-clock material/time/care synthesis](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md),
-then the [child-care work-prevention finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-042.md)
-and the [reported time-loss finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md).
+then the [child-care work-prevention finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-042.md),
+the [reported time-loss finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md),
+and its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json).
 
 **Theme:** households do not experience resources only as dollars. Work,
 care, household labor, leisure, and perceived time pressure are competing
