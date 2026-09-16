@@ -99,6 +99,13 @@ and [medical-affordability participation audit](../us-health-cost-household-choi
 define the exact remaining join: episode, remedy, prior trust/identity, later
 action, and response.
 
+The 2026-09-16 local-cache check found no CES/ANES raw microdata in the
+temporary acquisition directories. The committed compact records and writeups
+remain reviewable, but a rerun of the underlying action/trust estimates would
+require a new, separately approved acquisition. This preserves the same
+storage boundary as the UAS decision and prevents a benchmark from being
+mistaken for a currently rerunnable person-level chain.
+
 ## Review questions
 
 For every proposed headline, ask:
