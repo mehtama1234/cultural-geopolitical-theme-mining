@@ -1,6 +1,6 @@
 # WBNS public-use route acquisition audit v1
 
-**Checked:** 2026-09-15; browser-capable ICPSR metadata and access guidance rechecked during continuation pass  
+**Checked:** 2026-09-16; browser-capable ICPSR metadata, Urban catalog, and access guidance rechecked during continuation pass
 **Status:** public-use acquisition identified and metadata independently verified; data-file access still requires an authenticated free account; no new estimates promoted yet  
 **Purpose:** prepare a reproducible 2024 WBNS extraction that joins lived SNAP route experience to food, housing, work, health, and financial-security measures.
 
@@ -95,6 +95,24 @@ It fixes the study identity, version date, collection month, individual unit,
 rate note, and route fields that still require file-level verification. The
 record intentionally does not promote the catalog's availability labels into
 a successful local download or an estimate.
+
+## Current-vintage universe boundary
+
+The current [Urban WBNS project description](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey)
+states that the 2017–2024 rounds sampled more than 7,500 adults ages 18–64
+per round, while the 2025 round expanded the sample to approximately 2,500
+adults age 65 and older. The [Urban Data Catalog](https://datacatalog.urban.org/dataset/well-being-and-basic-needs-survey)
+also exposes published WBNS tables through 2025, including 2025 material-
+hardship and unmet-personal-assistance tables. These are useful current context
+but do not establish that a 2025 respondent-level route file, identical
+question universe, or comparable weight is available.
+
+The age-frame expansion is now a mandatory harmonization control: do not pool
+2025 with 2017–2024 or describe a change as a time trend until age eligibility,
+sampling frame, route-field availability, weights, and question wording are
+verified. For the immediate route-ledger gate, the 2024 ICPSR 39691 file
+remains the primary target and its 18–64 universe remains separate from the
+2025 expansion.
 
 ICPSR's public study search also exposes an **online-analysis** filter and
 indexes variable-level documentation across its holdings. The search result

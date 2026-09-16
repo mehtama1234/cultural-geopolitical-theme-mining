@@ -46,6 +46,10 @@ interruption, cash/credit coping, supplemental food, and unmet need explicit
 stages without pooling their incompatible universes. The WBNS public-use
 microdata gate remains open: catalog metadata are verified, but local
 retrieval routes remain authentication/transport constrained.
+The current WBNS description also reports a 2025 expansion to approximately
+2,500 adults age 65+, so 2025 must not be pooled with the 2017–2024 working-age
+rounds until respondent-level eligibility, route fields, weights, and wording
+are verified.
 
 The [MEPS Panel 27 longitudinal health-cost layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 adds repeated 2022–2023 person-level expenditure, out-of-pocket, coverage, and

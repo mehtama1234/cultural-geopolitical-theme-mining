@@ -479,6 +479,10 @@ download ICPSR 39691, verify its codebook and weights, and test the documented
 route variables against food, housing, work, health, and financial-security
 fields. That will not replace a linked administrative episode, but it can add
 exact respondent denominators and aligned cross-sectional route/outcome cells.
+The current-vintage recheck records that WBNS expanded to include approximately
+2,500 adults age 65+ in 2025, while 2017–2024 rounds remain centered on ages
+18–64. The 2025 tables and age-frame change must be kept separate until a
+respondent-level route file, weights, and question universes are verified.
 The new [WBNS food-insecurity persistence layer](projects/us-safety-net-access/wbns-food-insecurity-persistence-layer-v1.md)
 adds the published material endpoint while that acquisition gate remains open:
 working-age household food insecurity was 27.7% in December 2025 after rising
