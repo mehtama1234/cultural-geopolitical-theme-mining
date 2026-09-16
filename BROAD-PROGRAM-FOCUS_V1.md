@@ -188,3 +188,21 @@ The consumer-power route remains a completed recent rotation and a reusable
 comparison case: complaint visibility, response labels, fraud/loss, recovery
 burden, and remedy remain separate endpoints until a linked consumer episode
 is available.
+
+The latest AI/work-control rotation is now also a completed stage checkpoint,
+not a completed societal outcome. The [named workplace system stage ledger](analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md)
+compares IBM Germany AI governance, Microsoft Places, and Microsoft 365
+Copilot. A targeted [Microsoft Places technical-control note](analysis/projects/ai-work-control/data/microsoft-places-technical-control-surface-source-note-v1.md)
+adds official documentation of consent, user override/clear, geography-specific
+administration, Inform/Ask/Off modes, and location-history limits. These records
+make governance and product-control stages inspectable while leaving actual
+tenant configuration, worker exposure, enforcement, household security, and
+exit open.
+
+The next broad rotation should therefore return to the common open middle:
+find one same-case consumer, public-system, household, or political episode
+with a dated actor, an alternative route, effort and money/time trade-offs,
+attribution, response, remedy, recovery, trust/action, and exit. If no local
+record supplies those fields, preserve the acquisition gap and advance a
+different theme rather than treating AI, health cost, or household pressure as
+the definition of the program.
