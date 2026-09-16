@@ -7,6 +7,7 @@
   "scope": "EU Member State transposition, implementation, enforcement, and remedy evidence",
   "status_vocabulary": [
     "not_yet_audited",
+    "official_preparation_record",
     "official_measure_found",
     "official_measure_effective",
     "official_enforcement_or_case_found",
@@ -42,7 +43,7 @@
     {"member_state":"Estonia","iso2":"EE","transposition_status":"not_yet_audited"},
     {"member_state":"Finland","iso2":"FI","transposition_status":"not_yet_audited"},
     {"member_state":"France","iso2":"FR","transposition_status":"not_yet_audited"},
-    {"member_state":"Germany","iso2":"DE","transposition_status":"not_yet_audited"},
+    {"member_state":"Germany","iso2":"DE","transposition_status":"official_preparation_record","evidence_checked":["../germany-platform-work-directive-implementation-source-record-v1.md"]},
     {"member_state":"Greece","iso2":"EL","transposition_status":"not_yet_audited"},
     {"member_state":"Hungary","iso2":"HU","transposition_status":"not_yet_audited"},
     {"member_state":"Ireland","iso2":"IE","transposition_status":"not_yet_audited"},

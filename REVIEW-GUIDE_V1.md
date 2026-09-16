@@ -58,6 +58,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [AIM-WORK exposure to institutional safeguard crosswalk](analysis/projects/ai-work-control/aim-work-institutional-safeguard-crosswalk-v1.md)
 - [EU Platform Work Directive algorithmic-management safeguards](analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md)
 - [EU Platform Work Directive implementation-boundary audit](analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md)
+- [Germany Platform Work Directive implementation record](analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
 ### Housing, place, and mobility

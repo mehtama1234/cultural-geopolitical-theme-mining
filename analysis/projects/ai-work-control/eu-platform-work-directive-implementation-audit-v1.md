@@ -65,6 +65,12 @@ defines the fields and preserves all 27 Member States as an explicit pending
 baseline. A `not_yet_audited` row is an acquisition state, not a finding that
 the country has taken no implementation action.
 
+The first country pass is [Germany](germany-platform-work-directive-implementation-source-record-v1.md).
+Official German parliamentary records show BMAS preparation of a draft bill and
+ongoing intergovernmental coordination, but the reviewed record does not yet
+establish a final transposition measure, effective date, operational remedy
+route, or directive-specific enforcement outcome.
+
 ## Decisive next acquisition
 
 Build a country-by-country implementation ledger after the 2 December 2026
