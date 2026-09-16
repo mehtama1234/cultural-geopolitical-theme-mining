@@ -1258,7 +1258,7 @@ market-transition or household result.
   mortgage hardship, food insecurity, and resource-band movement. The
   prevention cell has 12 pairs, so this is a joint-constraint diagnostic, not
   a causal utility or care result; the canonical record preserves the timing
-  and denominator boundary.
+  and denominator boundary in the [trend registry](records/us-sipp-utility-care-following-outcomes-2024.json).
 - **SIPP childcare time-loss endpoint:** the conditional `ETIMELOST` gate
   yields only 27 positive-weight November–December pairs, with complete
   replicate matching. It adds a direct reported-hours surface but is too
