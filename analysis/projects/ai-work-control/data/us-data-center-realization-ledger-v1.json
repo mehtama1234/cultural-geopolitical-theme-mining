@@ -1,0 +1,101 @@
+{
+  "schema": "strategic-capability-realization-ledger-v1",
+  "case_id": "us-data-center-capacity-revenue-governance-2023-2027",
+  "checked": "2026-09-15",
+  "scope": "Non-pooled realization ledger for national modeled load, Prince William fiscal/physical reporting, and Virginia large-load governance and stress records.",
+  "events": [
+    {
+      "event_id": "lbnl-data-center-load-2023-estimate",
+      "event_type": "capacity",
+      "event_date": "2023",
+      "date_precision": "year",
+      "actor": "Lawrence Berkeley National Laboratory",
+      "recipient": "US data-center electricity system",
+      "object": "Historical US data-center electricity use estimate",
+      "measures": {"electricity_use": {"value": 176, "unit": "TWh"}, "share": {"value": 4.4, "unit": "percent"}},
+      "status": "estimated",
+      "source_locator": "LBNL United States Data Center Energy Usage Report: 2025 Update, historical estimate",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "boundary": "A national estimate cannot be assigned to a county, customer, feeder, household bill, or realized AI capability."
+    },
+    {
+      "event_id": "lbnl-data-center-load-2030-reference",
+      "event_type": "capacity",
+      "event_date": "2030",
+      "date_precision": "year",
+      "actor": "Lawrence Berkeley National Laboratory model",
+      "recipient": "US data-center electricity system",
+      "object": "Reference-case modeled data-center electricity use",
+      "measures": {"electricity_use": {"value": 649, "unit": "TWh"}, "sensitivity_range": {"value": "521-843", "unit": "TWh"}},
+      "status": "estimated",
+      "source_locator": "LBNL United States Data Center Energy Usage Report: 2025 Update, 2030 reference and sensitivity cases",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "boundary": "A scenario is not observed demand, an approved interconnection, a residential surcharge, or proof of strategic capability."
+    },
+    {
+      "event_id": "prince-william-data-center-ty2025-capacity-revenue",
+      "event_type": "capacity",
+      "event_date": "2025",
+      "date_precision": "tax_year",
+      "actor": "Prince William County, Virginia",
+      "recipient": "County fiscal system and data-center industry aggregate",
+      "object": "Reported data-center fiscal inflow and local physical-capacity additions",
+      "measures": {"tax_revenue": {"value": 465.9, "unit": "USD millions"}, "new_capacity": {"value": 621, "unit": "MW"}, "turnkey_capacity": {"value": 1483, "unit": "MW"}, "facilities": {"value": 55, "unit": "facilities"}},
+      "status": "observed",
+      "source_locator": "Prince William County TY2025 Data Center Revenue Report",
+      "source_url": "https://www.flipsnack.com/B8877D99E8C/2025-data-center-revenue-report.html",
+      "boundary": "Reported revenue and capacity do not establish net public benefit, service costs, household incidence, water burden, ownership, or realized compute capability."
+    },
+    {
+      "event_id": "virginia-large-load-governance-2025-2026",
+      "event_type": "external_response",
+      "event_date": "2025/2026",
+      "date_precision": "year_range",
+      "actor": "Virginia State Corporation Commission and state utility governance system",
+      "recipient": "Covered large-load customers, utilities, and residential rate classes",
+      "object": "Large-load cost-allocation, minimum-charge, obligation, disclosure, and implementation response",
+      "measures": {"minimum_transmission_distribution_charge": {"value": 85, "unit": "percent"}, "minimum_contract_obligation": {"value": 14, "unit": "years"}},
+      "status": "observed",
+      "source_locator": "Virginia large-load governance and reliability record",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "boundary": "Policy terms and filings do not establish realized bills, defaults, enforcement, household fairness, or durable bargaining power."
+    },
+    {
+      "event_id": "virginia-large-load-drop-events-2024-2025",
+      "event_type": "operational_use",
+      "event_date": "2024-07/2025-02",
+      "date_precision": "month_range",
+      "actor": "Dominion large-load operating system",
+      "recipient": "Virginia electric grid and large-load customers",
+      "object": "Two separately reported large-load drop events",
+      "measures": {"reported_load_drop": {"value": "1551 and 1800", "unit": "MW in separate events"}},
+      "status": "observed",
+      "source_locator": "Virginia SCC SB1239 report summary of Dominion testimony",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "boundary": "The events do not identify facility exposure, duration-by-site, household service loss, independent causality, or long-run resilience."
+    },
+    {
+      "event_id": "data-center-household-capability-join-open-2026-09-15",
+      "event_type": "non_observation",
+      "event_date": "2026-09-15",
+      "date_precision": "day",
+      "actor": "Atlas acquisition audit",
+      "recipient": "Public cross-source record",
+      "object": "Same-place join from data-center capacity and governance to actual household bills, service outcomes, water/land burden, ownership, or realized AI capability",
+      "status": "not_observed",
+      "source_locator": "Cross-source data-center findings ai-work-control-033 and -049",
+      "boundary": "This bounded non-observation is not proof that the effects do not exist; it records that the current sources do not support the join."
+    }
+  ],
+  "promotion_status": {
+    "national_load": "estimated",
+    "local_capacity_and_revenue": "observed_aggregate",
+    "institutional_response": "observed_policy_stage",
+    "operational_stress": "observed_event_stage",
+    "household_incidence": "open",
+    "ownership_and_replaceability": "open",
+    "realized_strategic_capability": "open",
+    "geopolitical_leverage": "open"
+  },
+  "boundary": "National modeled demand, county aggregate reporting, policy terms, and utility events remain separate units. This ledger is not a household burden estimate, reliability causal estimate, or geopolitical-leverage measure."
+}

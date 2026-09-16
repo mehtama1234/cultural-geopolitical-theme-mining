@@ -127,6 +127,11 @@ ledger](data/poland-jassm-er-realization-ledger-v1.json). It keeps the F-35
 timing row marked as a comparator and records the reviewed non-observation
 separately from the observed agreement and planned window.
 
+The same contract is also applied to the [US data-center capacity, revenue,
+governance, and operational-stress ledger](data/us-data-center-realization-ledger-v1.json).
+That second case keeps national modeled demand, county aggregate capacity,
+utility policy response, and reported load-drop events as separate stages.
+
 Validate it with:
 
 ```text

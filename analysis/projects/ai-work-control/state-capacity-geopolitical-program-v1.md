@@ -167,6 +167,12 @@ capacity, who bears interruption risk, and who can inspect or renegotiate the
 terms. Public benefit and state leverage remain open until customer, utility,
 provider-control, and observed policy-response evidence are joined.
 
+The [data-center realization ledger](data/us-data-center-realization-ledger-v1.json)
+now applies the same event contract: modeled national load, reported county
+capacity and revenue, utility governance terms, and operational load-drop
+events are recorded separately, while household incidence, ownership,
+replaceability, and realized strategic capability remain open.
+
 ## The stage map
 
 | Stage | Current evidence | Safe interpretation | Missing evidence |
