@@ -94,10 +94,19 @@ Separately test whether voluntary NSSF enrollment reaches platform workers in
 practice and whether injury claims or occupational-risk coverage generate a
 formal payment or restoration route.
 
+As of 15 September 2026, a targeted search of the MLVT public portal and the
+ILO publication trail did not locate a public copy of Notification No. 1107 or
+a platform-worker dispute register. This is a retrieval gap, not evidence that
+the notification or disputes do not exist. The next acquisition should use a
+Khmer-language request or direct ministry/ILO document contact, then verify
+the notification number, issuing date, covered parties, forum, filing route,
+and any published decisions.
+
 ## Sources
 
 - [ILO publication page: Diagnostic review of working conditions and social security coverage of digital platform workers in Cambodia](https://www.ilo.org/publications/diagnostic-review-working-conditions-and-social-security-coverage-digital)
 - [ILO report PDF](https://www.ilo.org/sites/default/files/2026-09/ILO-REPORT_Diagnostic-Review-KH2sep2026-sm.pdf)
+- [Cambodia Ministry of Labour public portal](https://mlvt.gov.kh/index.php/en/)
 
 ## Boundary
 

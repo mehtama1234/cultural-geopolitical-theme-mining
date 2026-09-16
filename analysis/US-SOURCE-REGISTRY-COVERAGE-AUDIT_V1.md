@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **63**
+- Observed domains outside registered families: **64**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -267,6 +267,7 @@ without a recurring acquisition need and source-specific metadata.
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `kho.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `mlvt.gov.kh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
 | `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
