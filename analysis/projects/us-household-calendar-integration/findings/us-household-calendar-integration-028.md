@@ -66,7 +66,7 @@ or `EWORKMORE` into a generic following-month time-displacement outcome.
 - [Analysis script](../../../../scripts/analyze_sipp_utility_work_following.py)
 - [2025 SIPP public-use data](https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html)
 - [Official SIPP replicate-weight archive](https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip)
-- [2026-09-14 reproduction audit](../sipp-utility-work-following-reproduction-audit-2026-09-14.json)
+- [SIPP utility-to-work reproduction audit (rechecked 2026-09-16)](../sipp-utility-work-following-reproduction-audit-2026-09-14.json)
 
 **Evidence status:** same-person descriptive monthly transition with Fay-BRR
 uncertainty; not a causal utility-to-work estimate.

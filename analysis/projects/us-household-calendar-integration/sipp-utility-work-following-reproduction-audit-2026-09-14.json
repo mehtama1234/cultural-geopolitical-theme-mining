@@ -1,13 +1,14 @@
 {
   "format": "sipp-utility-work-following-reproduction-audit-v1",
-  "checked": "2026-09-14",
-  "command": "python3 scripts/analyze_sipp_utility_work_following.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v16/utility-work-following-refresh.json",
+  "checked": "2026-09-16",
+  "command": "python3 scripts/analyze_sipp_utility_work_following.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/sipp-utility-work-following-v18.json",
   "input_files": {
-    "primary": "/tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv",
-    "primary_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
-    "replicate_archive": "/tmp/us-broad-sipp-2025/rw2025_csv.zip",
+    "primary": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "primary_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive": "/tmp/rw2025_csv.zip",
     "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6"
   },
+  "script_sha256": "2b91a4222c2bdca37a748afc3e7df1d09a34bc5d4ccd2f14844af3b67c94da15",
   "output_sha256": "efcd0c8e0491ab147429191a63f7bbb3d09d6c28cc987af1bc7d305638210f70",
   "rows_read": 379215,
   "replicate_rows_read": 378291,
