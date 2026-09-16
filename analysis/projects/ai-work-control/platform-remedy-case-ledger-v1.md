@@ -35,6 +35,7 @@ occurred.
 | PR-009 | Kuching, Malaysia; e-hailing worker and GrabCar Sdn Bhd | Media reports attributing facts to KESUMA / Gig Workers Tribunal | Saver trips, cashback incentives, and advance booking | Tribunal hearing; matter reportedly returned for evidence and witness examination | `observed_case_report` | `observed_case_report` | `not_observed` | `not_observed` | `not_observed` | Medium for existence and subject of first hearing; low for outcome | A first hearing is reported; no award, correction, payment, or final finding located |
 | PR-010 | Philippines platform economy | Oxford/De La Salle Fairwork comparative audit | Platform management, contracts, conditions, and worker representation | Formal appeal process evidenced at 2 of 9 assessed platforms | `observed_comparative_audit` | `not_observed` as exercised review | `not_observed` | `not_observed` | `not_observed_as_platform_evidence` | High for published assessment; low for individual remedy | Assessment found formal appeal evidence at GrabCar and GrabFood/Express; no appeal outcome or collective representation evidenced |
 | PR-011 | Philippines platform economy | Official DOLE dialogue, complaint-capacity, and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, 24/7 complaint unit directive, and bounded safety inspection action | `not_observed` as automated-decision review | `not_observed` | `not_observed` | `observed_official_action` only in separate safety episode; not an ADM remedy | High for official actions; low for algorithmic-remedy outcome | Algorithmic-management and remedy issues entered the official agenda; no binding rule or corrected automated decision shown |
+| PR-012 | Cambodia platform economy | Official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, temporary suspension, complaints, classification, social security, and injury | Platform complaint channel; state dispute authority named in Notification No. 1107 | `observed_self_report` for platform complaint access; specific explanation `not_observed` | `not_observed` | `not_observed` | `not_observed` | Medium for survey findings; high for publication and reported notification; low for individual outcome | Most complainants reported seldom-resolved issues; no verified correction, restoration, payment, or state case outcome located |
 
 ## Cross-row findings
 
@@ -51,6 +52,14 @@ It closes the “institution created -> case reached a hearing” link, but not 
 “hearing -> award or worker outcome” link. It is intentionally coded as a
 reported proceeding rather than an adjudicated remedy because the available
 report describes an evidentiary hearing still in progress.
+
+PR-012 adds an official Cambodia diagnostic with a worker-level resolution
+signal: complaint access is widely reported, but approximately two-thirds of
+workers who complained said their issue was seldom resolved. This is stronger
+than a generic statement that recourse is weak, but it remains survey evidence,
+not a verified correction or adjudicated refusal. The report also links the
+remedy gap to independent-contractor classification, social-security coverage,
+and occupational risk.
 
 ### Formal remedy and practical remedy are separate variables
 
@@ -104,6 +113,7 @@ For each new case, add:
 - [Malaysia GrabCar first-hearing case record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
 - [Philippines Fairwork platform-management record](philippines-fairwork-platform-management-record-v1.md)
 - [Philippines DOLE platform-governance record](philippines-dole-platform-governance-record-v1.md)
+- [Cambodia platform-work diagnostic record](cambodia-platform-work-diagnostic-record-v1.md)
 
 ## Boundary
 

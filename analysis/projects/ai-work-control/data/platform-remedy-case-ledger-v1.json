@@ -147,6 +147,18 @@
       "stages": {"explanation": "not_observed", "human_review": "not_observed_as_automated_decision_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "observed_official_action_in_separate_safety_episode"},
       "evidence_strength": "high_for_official_action_low_for_ADM_remedy",
       "boundary": "DOLE named algorithmic-management protections and effective remedies as agenda items, requested platform position papers, and announced complaint capacity; no binding rule or corrected automated decision shown."
+    },
+    {
+      "id": "PR-012",
+      "place": "Cambodia",
+      "population": "Ride-hailing and food-delivery platform workers in Phnom Penh",
+      "source_type": "official_ILO_mixed_method_diagnostic",
+      "decision_surface": ["ratings", "allocation", "refusal_penalties", "temporary_suspension", "complaints", "classification", "social_security", "work_injury"],
+      "worker_route": "Platform complaint channel; state dispute authority named in Notification No. 1107",
+      "implementation_stage": "official_diagnostic_and_state_route_named",
+      "stages": {"explanation": "observed_self_report", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "medium_for_survey_findings_high_for_publication_low_for_individual_outcome",
+      "boundary": "The ILO diagnostic reports widespread complaint access but approximately two-thirds of complainants said issues were seldom resolved; no verified correction, restoration, payment, or state dispute outcome located."
     }
   ]
 }

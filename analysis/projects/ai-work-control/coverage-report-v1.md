@@ -15,10 +15,10 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Dimension | Present | Still missing |
 |---|---|---|
 | Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank, EU legal materials, national courts and administrations | More worker-led, union, legal, and non-Western sources; direct remedy records |
-| Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Philippines, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, wider Southeast Asia beyond Malaysia and the Philippines, wider Africa outside Kenya/Uganda case studies |
+| Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Philippines, Cambodia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, wider Southeast Asia beyond Malaysia, Philippines, and Cambodia, wider Africa outside Kenya/Uganda case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
-| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian review or Tribunal outcomes, candidate-level recruitment correction |
+| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda and Cambodia worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations, Cambodian state dispute authority named in an ILO diagnostic | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian or Cambodian review outcomes, candidate-level recruitment correction |
 | Power | data, profiles, allocation, monitoring, responsibility, platform dependence, employment-status recognition | ownership, correction, override, exit, bargaining, and state leverage; no direct case yet shows explanation-to-correction or compensation after an automated platform decision |
 
 ## Evidence count
@@ -126,6 +126,11 @@ These are not errors to smooth away. They may reflect different tools, populatio
   dialogue and readiness assessment, while NORMLEX does not list C193 among
   Philippine ratifications. This prevents international standard-setting from
   being mistaken for domestic legal effect.
+- The Cambodia ILO diagnostic adds 1,237 worker surveys, 29 worker interviews,
+  and 10 key-informant interviews. It records widespread complaint access but
+  low reported resolution, plus ratings, penalties, suspension, injury, and
+  social-security/classification context. It remains a diagnostic: no verified
+  correction, compensation, or state dispute outcome is shown.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

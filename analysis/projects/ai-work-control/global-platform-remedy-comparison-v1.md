@@ -32,6 +32,7 @@ verified worker outcome.
 | Malaysia Act 872 | Malaysia; enacted statute, implementing regulations, and formally established Tribunal/Council | Automated monitoring/decision systems and deactivation are legally recognized | Disclosure, non-automated review, written explanation, hearing, conciliation, and Tribunal architecture in force; first Kuching GrabCar hearing and additional filing categories reported | Primary case record, filing counts, Tribunal award, enforcement action, or worker outcome |
 | Philippines Fairwork assessment | Philippines; Oxford/De La Salle comparative platform audit | Platform management, contracts, conditions, and representation assessed across nine platforms | Formal appeal process evidenced at two platforms; no platform evidence of collective representation | Appeal use, reviewer authority, correction, compensation, and worker organization outcomes |
 | Philippines DOLE governance action | Philippines; official labor-department dialogue and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, announced 24/7 complaint unit, and bounded safety action | Binding rule, complaint-unit operation, algorithmic review, correction, compensation, and case outcomes |
+| Cambodia ILO diagnostic | Cambodia; official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, suspension, complaints, classification, social security, and injury | Platform complaint access widely reported; approximately two-thirds of complainants reported issues were seldom resolved; state dispute authority named | Verified explanation, independent review, correction, restoration, payment, and state case outcomes |
 | Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
 | UK ICO recruitment review | United Kingdom; regulator review of ordinary recruitment AI | CV scoring, ranking, filtering, and possible pre-human rejection | Regulator recommendations, contestability expectations, and organizational commitments | Candidate-level human review, changed decision, or compensation |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
@@ -122,6 +123,15 @@ change it—from a token human presence. The regulator's recommendations and
 organizational commitments are observable; a candidate-level changed decision
 is not.
 
+The Cambodia diagnostic adds a worker-experience comparator. It connects
+ratings, allocation, refusal penalties, and suspension to a platform complaint
+channel, but the reported chain breaks at resolution: approximately two-thirds
+of workers who complained said their issue was seldom resolved. The source also
+shows why algorithmic remedy cannot be separated from classification and
+social protection: independent-contractor status limits labour-law coverage,
+while voluntary healthcare enrollment does not by itself establish injury,
+pension, or compensation protection.
+
 ## Contradictions preserved
 
 1. A worker can report a favorable appeal outcome without the research record
@@ -157,6 +167,9 @@ The first priority is Malaysia's new e-Aduan, conciliation, and Tribunal
 systems. The second is a Ugandan platform or worker-organization record that
 defines the survey's “favorable” appeal outcome. The third is any post-order
 Uber/Ola record showing whether information led to rectification.
+The Cambodia priority is to obtain the text and caseload under Notification No.
+1107 and connect the survey-reported complaint route to an identified decision
+and outcome.
 
 ## Boundary
 
