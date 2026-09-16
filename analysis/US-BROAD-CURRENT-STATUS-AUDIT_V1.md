@@ -47,6 +47,9 @@ keeping establishment complements, task adoption, formal voice, mobility, and
 worker discretion as separate stages.
 The latest breadth move adds housing risk, insurance protection, transport,
 energy, and practical mobility as a combined place-security surface.
+The AI/platform lane has also been refreshed with a unified use, work, contact,
+companion-exit, and governance synthesis without treating those settings as
+one causal user history.
 
 The material/time/care lane remains active, but it is not a program-wide gate.
 Existing annual and panel evidence can establish distributions, persistence,

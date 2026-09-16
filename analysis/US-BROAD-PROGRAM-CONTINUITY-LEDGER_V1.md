@@ -264,6 +264,16 @@ property/household event with protection, repair, assistance, time/care/work
 trade-offs, recovery, and resident meaning; no move or political effect is
 claimed from the current place-level surfaces.
 
+The AI/platform lane is refreshed through the [AI use, work, contact, and exit
+synthesis](projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md).
+It puts ordinary AI adoption, randomized work-time change, synthetic-contact
+behavior, companion-product exit tactics, and regulatory inquiry in one
+reviewable mechanism map while preserving their separate units and clocks. The
+open arrow remains conversion into durable control: data portability, error
+correction, captured benefit, worker/consumer alternatives, trust, and later
+exit are not jointly observed.
+
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

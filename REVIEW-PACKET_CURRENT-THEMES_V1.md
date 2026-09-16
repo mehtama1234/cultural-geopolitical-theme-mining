@@ -34,6 +34,7 @@ turning adjacent evidence into one causal story.
 - [Migration, place, and belonging finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md): a 620-county capacity context kept separate from Chicagoland and national direct meaning/action evidence.
 - [Firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md): establishment complements, task adoption, formal voice, and mobility kept separate from worker control.
 - [Place risk, housing security, mobility, and local life layer](analysis/projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md): housing payment, insurance, hazard, energy, transport, and local business surfaces kept separate from stay/move outcomes.
+- [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md): everyday adoption, work-time change, synthetic contact, companion exit, and governance inquiry kept separate from durable control.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -42,7 +43,7 @@ episode.
 
 ## Scope of this review route
 
-These nine routes are the current deepest reading paths, not a replacement for
+These ten routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -53,11 +54,12 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The nine routes below concentrate on the strongest current bridges: material
+The ten routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing
 risk and practical mobility.
+AI use, work, contact, and exit.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -263,6 +265,30 @@ notice, renewal, claim, repair, assistance, payment or reduced use, time/care/
 work trade-offs, recovery, and stay/move outcomes, followed by trust or
 political demand. Occupancy is not secure staying, a premium is not coverage
 adequacy, and a move is not voluntary mobility.
+
+## Route 10: AI use becomes control—or dependence
+
+Read the [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md),
+the [AI optionality and control-conversion synthesis](analysis/projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md),
+and the [AI companion exit record](analysis/records/us-ai-companion-farewell-exit-behavior-2025-2026.json).
+
+**Theme:** AI is entering ordinary search, work, health, emotional-support,
+political-contact, and companionship routes, but usefulness, immediate
+behavioral change, employer/platform control, and practical exit are different
+stages.
+
+**What is established:** Pew reports widespread but uneven chatbot use and
+privacy/pace concerns; a randomized work experiment changes selected email and
+after-hours patterns; synthetic contact changes some immediate warmth or
+costly-choice outcomes with weak one-week persistence; companion-product
+farewells can change short-run engagement; and the FTC inquiry makes governance
+questions visible. These are separate surveys, experiments, product audits,
+and institutional records.
+
+**Open arrow:** no current source follows the same user or worker from a
+version-stamped encounter through human alternatives, data/error control,
+captured benefit, employer/platform response, stop/delete/export/switch or
+remedy, and later work, household, civic, trust, or welfare outcomes.
 
 ## How to challenge any route
 
