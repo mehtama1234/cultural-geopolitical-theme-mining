@@ -551,6 +551,11 @@ The current-vintage recheck records that WBNS expanded to include approximately
 2,500 adults age 65+ in 2025, while 2017–2024 rounds remain centered on ages
 18–64. The 2025 tables and age-frame change must be kept separate until a
 respondent-level route file, weights, and question universes are verified.
+The new [WBNS 2025 age/care/material-security layer](projects/us-safety-net-access/wbns-2025-age-care-material-security-layer-v1.md)
+adds published older-adult assistance, caregiving, and material-hardship
+context without microdata retrieval. Treat it as a current-vintage
+cross-sectional bridge; the next pass must identify paid/unpaid substitution,
+service alternatives, route burden, remedy, and later recovery or action.
 The new [WBNS food-insecurity persistence layer](projects/us-safety-net-access/wbns-food-insecurity-persistence-layer-v1.md)
 adds the published material endpoint while that acquisition gate remains open:
 working-age household food insecurity was 27.7% in December 2025 after rising

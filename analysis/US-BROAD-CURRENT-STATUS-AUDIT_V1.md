@@ -134,6 +134,15 @@ The current WBNS description also reports a 2025 expansion to approximately
 rounds until respondent-level eligibility, route fields, weights, and wording
 are verified.
 
+The new [WBNS 2025 age/care/material-security layer](projects/us-safety-net-access/wbns-2025-age-care-material-security-layer-v1.md)
+uses published December 2025 estimates to add the older-adult care bridge:
+unmet personal assistance coexists with food, medical, housing, and utility
+hardship, and about 18 percent of adults age 60+ report regularly helping an
+adult relative or friend. This is a current-vintage cross-sectional layer, not
+evidence of a Medicaid-policy effect, a same-family recovery path, or a trust/
+political-action outcome. The next stronger test remains route, substitution,
+remedy, and follow-up evidence.
+
 The [MEPS Panel 27 longitudinal health-cost layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 adds repeated 2022–2023 person-level expenditure, out-of-pocket, coverage, and
 perceived-health fields. It shows meaningful simultaneous health improvement and
