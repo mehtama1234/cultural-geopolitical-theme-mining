@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-nineteen estimates of one phenomenon:
+twenty estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -55,10 +55,11 @@ nineteen estimates of one phenomenon:
 | 17. Payment and household burden | [MEPS event payment and bill context](projects/us-health-cost-household-choice/meps-2024-event-payment-bill-context-v1.md) | Observed event payment, annual bill-problem status, coverage, resources, and care access are distinct and non-monotonic surfaces | Dated obligation, deductible/balance, payment timing, borrowing, foregone care, household trade-off, remedy, and recovery |
 | 18. Payment bands and practical room | [MEPS event payment bands](projects/us-health-cost-household-choice/meps-2024-event-payment-bands-v1.md) | Zero payment can coexist with lower emergency-payment confidence while high payment can coexist with more medical debt; event selection and payer protection matter | Household obligation, liquid room, payment timing, care continuation/foregoing, debt, remedy, and recovery |
 | 19. Coverage-conditioned event context | [MEPS acute-event context by coverage](projects/us-health-cost-household-choice/meps-2024-event-context-by-coverage-v1.md) | Acute-event health and bill-problem surfaces differ by private, public-only, and uninsured coverage; coverage conditions the comparison but does not explain it | Plan adequacy, event bill, care alternative, delayed/foregone care, treatment continuity, remedy, and household outcome |
+| 20. Consumer loss and recovery burden | [Consumer loss and complaint visibility](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md) | Fraud exposure, unrecovered money, recovery time, payment-route differences, and complaint visibility occupy different denominators | Same-customer loss, complaint, verified recovery, repeat effort, trust, switching, and exit |
 
 ### The common pattern
 
-Across the nineteen rotations, the strongest recurring theme is **unequal
+Across the twenty rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or

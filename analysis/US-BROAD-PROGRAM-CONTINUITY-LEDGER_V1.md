@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | Five priority bridges plus broader theme links | [Evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 19 rotating bridges plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -45,7 +45,7 @@ never the completion condition.
 | Trend-to-atlas linkage | Every machine-readable trend/case record is tagged to validated atlas umbrella themes | `theme_ids` in trend schema and [published registry](../site/us-trend-observations.html) |
 | Theme breadth control | Trend records are grouped by umbrella theme and missing-record themes are surfaced | [Trend-theme coverage](../site/us-trend-theme-coverage.html), `build_us_trend_theme_coverage.py` |
 | Control synchronization | Registry, theme coverage, source-packet count, HTML edition, and this ledger are checked against current source files | `validate_program_control_sync.py` |
-| Active depth lane | Broad rotation resumed; consumer power and AI/platform agency passes completed; current pass is public-system access, material security, political meaning, and feedback | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
+| Active depth lane | Second-cycle same-person and event-compatible depth: timing, persistence, payment, coverage, institutional route, remedy, and household-room boundaries | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
 | Hard acquisition dependency | PSID main waves and/or an equivalent same-unit event design | [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md), [wave-file audit protocol](projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md) |
 
 ## Broad-goal resumption checkpoint
@@ -219,6 +219,14 @@ private, public-only, and uninsured groups, while preserving coverage as a
 condition rather than an explanation. The next test remains plan adequacy,
 event bill timing, care alternatives, delayed or foregone care, treatment
 continuity, remedy, and household outcome.
+
+The twentieth rotation returns to consumer power through [consumer loss and
+complaint visibility](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md).
+It keeps household fraud exposure, unrecovered money, recovery time, payment
+route, complaint routing, and response labels as distinct denominators. The
+next test remains a same-customer financial-service case with attempted and
+unsubmitted contacts, verified correction or recovery, repeat effort, trust,
+switching, and exit.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
