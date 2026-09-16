@@ -183,18 +183,43 @@ source
 
 Every important sentence must be traceable to a source, marked as an inference, or marked as an open question.
 
-## Current focal pursuit: health cost to household choice to public legitimacy
+## Current governing focus: broad societal, cultural, political, and consumer trends
 
-The next deep end-to-end pursuit is to determine how an American health need
-becomes a household choice under financial, time, coverage, and access
-constraints, and whether that choice produces durable effects beyond the
-medical encounter. The project should not stop at national spending, an
-observed utilization event, or a survey share saying that care was skipped.
-It should reconstruct the strongest defensible chain from a dated need or
-system condition to the feasible choices available to a person or household,
-the outcome protected and the outcome sacrificed, the institutional response,
-and any later change in trust, switching, political judgment, or public
-capacity.
+The program does not have one permanent focal project. Its governing objective
+is to discover and explain recurring changes across the 14 themes, then rotate
+depth across the most important open bridges. Household health cost is one
+deep evidence lane, not the definition of the program and not a reason to stop
+work on consumer power, AI and work, public systems, culture and trust,
+housing and place, firm and infrastructure capacity, or geopolitical
+consequence.
+
+The immediate operating question is:
+
+> How do changing conditions in American life alter practical room to
+> maneuver, behavior, institutional legitimacy, cultural meaning, political
+> action, firm capacity, state capacity, and geopolitical leverage—and who
+> gains or loses alternatives along the way?
+
+Each rotation should take one bounded bridge in that question from measured
+condition toward consequence. It should record the unit, timing, denominator,
+mechanism, affected groups, counterexample, evidence status, and smallest next
+test. When a lane reaches an acquisition or identification boundary, continue
+the broader rotation rather than treating that boundary as a program-wide
+blocker.
+
+### Deep example: health cost to household choice to public legitimacy
+
+The health-cost lane remains a useful deep example because it asks how an
+American health need becomes a household choice under financial, time,
+coverage, and access constraints, and whether that choice produces durable
+effects beyond the medical encounter. It should not stop at national
+spending, an observed utilization event, or a survey share saying that care
+was skipped. It should reconstruct the strongest defensible chain from a dated
+need or system condition to feasible choices, the outcome protected and the
+outcome sacrificed, institutional response, and any later change in trust,
+switching, political judgment, or public capacity. Its unresolved links are
+important evidence about the limits of public data, but they do not replace
+the broader program goal.
 
 The working chain is:
 
