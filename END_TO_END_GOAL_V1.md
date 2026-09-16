@@ -96,7 +96,10 @@ counterexample, and a stopping rule. It should acquire and preserve the
 source before interpreting it; record the source’s population, denominator,
 measure, method, date, revision, and access limits; extract claims rather than
 copying prose; and retain the smallest evidence needed for another researcher
-to reproduce the result.
+to reproduce the result. All acquisition must follow the repository’s
+[storage-aware resource policy](ACQUISITION-RESOURCE-POLICY_V1.md): inspect
+existing local artifacts first, use small metadata or targeted extracts where
+possible, and require explicit approval before large archives are retrieved.
 
 The work should move through five linked layers:
 
