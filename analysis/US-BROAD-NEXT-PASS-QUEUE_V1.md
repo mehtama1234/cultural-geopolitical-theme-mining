@@ -121,12 +121,23 @@ The material/time/care pass has completed its local SIPP field-timing gate and
 is preserved as an open acquisition route in the
 [acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md)
 and [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md).
-The next active rotation is **practical exit across consumer and public
-systems**, using the existing [practical-exit synthesis](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md)
-and adjacent CFPB, SHED, CPSC, platform-remedy, SNAP, housing, and place
-records. The test is whether visibility, effort, remedy, dependence, staying,
-switching, non-use, moving, or exit is actually observed at the same-case or
-same-person level; no large acquisition is required before that audit.
+The practical-exit rotation has now completed its local observability audit,
+including the [platform dry-run](projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.md),
+[CFPB dry-run](projects/us-customer-automation-recourse/cfpb-practical-exit-contract-dry-run-v1.md),
+and SHED same-respondent adaptation evidence. It distinguishes visibility,
+access restoration, adaptation, continued dependence, switching, non-use,
+staying, moving, and exit, while preserving the missing alternative, remedy
+receipt, protected/sacrificed outcome, and later action fields. No pooled exit
+rate is promoted.
+
+The next active rotation is **capacity → dependence → public and geopolitical
+consequence**, using the existing [capacity-without-exit synthesis](projects/ai-work-control/capacity-without-exit-cross-domain-synthesis-v1.md),
+[data-center realization ledger](projects/ai-work-control/data/us-data-center-realization-ledger-v1.json),
+and [Poland JASSM-ER realization ledger](projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json).
+The test is whether commitments become accepted/operating capability, who
+controls continuation and replacement, who bears public or partner-side cost,
+and whether an external actor changes behavior. No large acquisition is
+required before this realization-stage audit.
 
 ### ILOSTAT comparison gate
 

@@ -152,18 +152,25 @@ month state changes. The authenticated PSID route or a dated bill, shutoff,
 assistance, or service episode remains the stronger test; do not manufacture a
 buffer or recovery arrow from repeated status fields.
 
-The next active rotation is **practical exit across consumer and public
-systems**. Use the existing CFPB, SHED fraud/recovery, CPSC, platform-remedy,
-SNAP, housing/insurance, and local-capacity artifacts to distinguish recorded
-visibility, attempted use, remedy, continued dependence, switching, non-use,
-staying, moving, and exit. The immediate question is which of these outcomes
-are actually observed for the same case or person and which are only inferred
-from institutional or place capacity.
+The practical-exit rotation has completed its storage-conscious observability
+pass. Existing CFPB, platform-remedy, and SHED artifacts now distinguish
+recorded visibility, access restoration, same-respondent adaptation, continued
+dependence, switching, non-use, staying, moving, and exit. The decisive
+boundary remains that alternatives, remedy receipt, protected/sacrificed
+outcomes, and later same-unit action are sparse; no pooled exit rate is made.
 
-No large acquisition is required for this rotation. If the local records cannot
-provide a same-case follow-up, publish that gap and specify the smallest lawful
-episode or account-linked test needed to observe remedy receipt, alternatives,
-and later exit or staying.
+The next active rotation is **capacity → dependence → public and geopolitical
+consequence**. Use the existing US data-center and Poland JASSM-ER realization
+ledgers to test whether commitment becomes operating capability, who controls
+the critical input, who bears the public or partner-side cost, what substitutes
+exist, and whether an external actor actually changes behavior. Keep local
+fiscal capacity, utility governance, defense procurement, delivery, and
+geopolitical response as separate dated stages.
+
+No large acquisition is required for this rotation. If the local realization
+ledgers cannot provide accepted output, replaceability, or changed external
+behavior, publish that gap and specify the smallest identifier-bearing local or
+official event needed to observe it.
 
 The latest local SIPP buffer gate found zero adjacent-month credit or savings
 state changes. Treat that as a field-timing boundary, not as evidence that
