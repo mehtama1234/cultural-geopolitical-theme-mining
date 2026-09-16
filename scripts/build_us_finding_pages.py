@@ -106,7 +106,7 @@ def should_rebuild(memo: Path, page: Path) -> bool:
     )
 
 
-def rewrite_published_links(body: str, memo: Path) -> str:
+def rewrite_published_links(body: str, memo: Path, published_outputs: dict[Path, str] | None = None) -> str:
     """Translate Markdown-relative links into links valid from ``site/``.
 
     A Markdown memo is authored relative to its own directory (usually
@@ -135,8 +135,9 @@ def rewrite_published_links(body: str, memo: Path) -> str:
         # server while leaving source files without a rendered counterpart
         # explicit in the source record.
         if source_target.suffix.lower() == ".md":
-            html_target = ROOT / "site" / f"{source_target.stem}.html"
-            if html_target.exists():
+            planned_name = (published_outputs or {}).get(source_target)
+            html_target = ROOT / "site" / (planned_name or f"{source_target.stem}.html")
+            if planned_name or html_target.exists():
                 published_target = os.path.relpath(html_target, ROOT / "site").replace(os.sep, "/")
                 return f"{prefix}{urlunsplit((parts.scheme, parts.netloc, published_target, parts.query, parts.fragment))}{suffix}"
         published_target = os.path.relpath(source_target, ROOT / "site").replace(os.sep, "/")
@@ -145,12 +146,12 @@ def rewrite_published_links(body: str, memo: Path) -> str:
     return pattern.sub(replace, body)
 
 
-def render(memo: Path) -> str:
+def render(memo: Path, published_outputs: dict[Path, str] | None = None) -> str:
     source = memo.read_text()
     title_match = re.search(r"^# (.+)$", source, re.M)
     title = title_match.group(1) if title_match else memo.stem
     body = markdown.markdown(source, extensions=["tables", "fenced_code", "sane_lists"])
-    body = rewrite_published_links(body, memo)
+    body = rewrite_published_links(body, memo, published_outputs)
     body, toc = add_heading_ids_and_toc(body)
     guide = f'''<div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div>{toc}</div>'''
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="{escape(title)}"><title>{escape(title)}</title><style>{STYLE}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header>{guide}<article id="finding" class="memo">{body}</article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>'''
@@ -442,11 +443,12 @@ def main():
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
         cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",
     }
+    published_outputs = {path.resolve(): name for path, name in output_names.items()}
     for memo in sorted(memos):
         page = ROOT / "site" / output_names.get(memo, f"{memo.stem}.html")
         checked += 1
         if should_rebuild(memo, page):
-            page.write_text(render(memo))
+            page.write_text(render(memo, published_outputs))
             rebuilt += 1
             print(f"BUILT {page.relative_to(ROOT)}")
     print(f"Checked {checked} finding pages; rebuilt {rebuilt}.")
