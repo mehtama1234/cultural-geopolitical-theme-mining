@@ -47,6 +47,33 @@ the missing join instead of presenting those layers as one causal story.
    they are the event, responsible actor, alternative, attribution, action
    route, response, and later recovery or exit.
 
+## Quantitative checkpoint from existing local records
+
+The current numbers sharpen the boundary without creating a pooled effect:
+
+- In the linked April→June 2025 HTOPS respondents, 41.8% remained in the
+  baseline “any expense difficulty” state and 7.5% moved from difficulty to no
+  difficulty. Among the same linked frame, 5.2% moved into high confidence in
+  Congress while 5.3% moved out of it. The panel demonstrates persistence and
+  change on different clocks; it does not identify the bill, actor, remedy, or
+  political cause.
+- In the ANES 2024 panel subset, 70.3% of the extremely worried row reported
+  some or never trusting the federal government versus 51.9% of the not-at-all
+  worried row. Reported presidential vote also differed: 68.9% of the very
+  worried row reported Trump versus 32.0% of the not-at-all worried row. These
+  are temporally ordered descriptive contrasts, not a causal economic-voting
+  estimate; worry is not a dated bill or payment shock.
+- In the CCES 2024 material/work proxy screen, federal trust plus any selected
+  civic action was 30.32% among respondents reporting both gig work and student
+  debt, compared with 16.42% among respondents reporting neither. Federal low
+  trust plus action was 16.11% in the former cell versus 18.66% in the latter.
+  The non-monotonic pattern is precisely why low trust cannot be equated with
+  withdrawal or proxy conditions with causation.
+
+These figures are intentionally reported by source and denominator. Their
+convergence supports prioritizing an event-compatible design; it does not
+support adding them into a material-to-action score.
+
 ## Next decisive test
 
 Prioritize one existing panel or event-compatible source that can observe a
