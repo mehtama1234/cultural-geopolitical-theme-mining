@@ -24,6 +24,18 @@
   },
   "records": [
     {
+      "id": "PR-023",
+      "place": "Australia",
+      "population": "Satbir Singh and Portier Pacific / Uber delivery platform",
+      "source_type": "Fair_Work_Commission_primary_eligibility_decision",
+      "decision_surface": ["platform_access", "service_entity_identity", "statutory_eligibility", "account_messages"],
+      "worker_route": "Platform messages and statutory unfair-deactivation application",
+      "implementation_stage": "adjudicated_eligibility_threshold_dismissal",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_eligibility_dismissal_and_platform_entity_boundary_low_for_underlying_deactivation_merits_and_later_access",
+      "boundary": "[2026] FWC 409 dismissed the application because the statutory six-month regular-work protection was not met. The decision did not determine whether the underlying access restriction was fair, and later account messages did not establish qualifying work or a services agreement with the separate Uber driver platform."
+    },
+    {
       "id": "PR-022",
       "place": "Australia",
       "population": "Musharaf Waheed and Uber Driver Platform",
