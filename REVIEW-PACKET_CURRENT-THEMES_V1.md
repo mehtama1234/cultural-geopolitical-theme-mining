@@ -346,6 +346,19 @@ California comparison also shows that a growing public backstop does not by
 itself establish affordable, adequate coverage or a household's ability to
 stay.
 
+**Concrete housing-security anchors:** the [housing payment/coverage/mobility
+record](analysis/records/us-housing-insurance-payment-coverage-mobility-crosssource-2021-2026.json)
+reports that 23% of renters were behind on rent in 2025, compared with 5% of
+renters at or above $100,000 income; 6% of homeowners reported no homeowners
+insurance, rising to 20% among homeowners below $50,000. The [GAO insurance
+record](analysis/records/us-gao-homeowners-insurance-premium-availability-2019-2024.json)
+reports a 3% real national premium increase from 2019 to 2024 and a modeled
+58% higher premium association for high-wind versus medium-wind areas. The
+California FAIR Plan stock rose from 242,440 policies in September 2021 to
+642,010 in September 2025 and 696,562 by June 2026. These figures show
+unequal payment and protection exposure, not a household-level move, repair,
+coverage-adequacy, or recovery effect.
+
 **Open arrow:** a matched property/household episode is still needed to link
 notice, renewal, claim, repair, assistance, payment or reduced use, time/care/
 work trade-offs, recovery, and stay/move outcomes, followed by trust or
