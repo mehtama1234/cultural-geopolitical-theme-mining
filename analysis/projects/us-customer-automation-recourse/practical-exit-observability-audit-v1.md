@@ -28,9 +28,9 @@ whether it observes the alternatives that make the branch meaningful.
 | Domain | Current unit and concrete evidence | What is genuinely observed | What “exit” cannot yet mean | Smallest missing field |
 |---|---|---|---|---|
 | SNAP/public assistance | SIPP adjacent-month person transitions; 437 entries and 387 exits, with 188 classified exits | A program-state transition and following material context; resource ratio declined after 69.46% of selected three-month exit sequences | Exit is not recovery, voluntary choice, work transition, or improved security | Notice, reason, amount, effort/appeal, alternatives, and later food/housing/security outcome in the same episode |
-| Platform work | 27-case public proceeding inventory | 9 restoration/access-resumption cases, 3 lost-remuneration orders, and 0 cases linking the episode to worker switching or exit | Reactivation is not autonomy; a lost-pay order is not payment; continued trips are not proof of free choice | Post-remedy account status, payment receipt, alternative platform/work, recurrence, and documented return/switch/exit reason |
+| Platform work | 27-case public proceeding inventory; practical-exit contract dry-run | 8 records have explicit access-restoration language; 19 remain unknown; 0 are promoted to practical exit; broader inventory also has lost-remuneration orders | Reactivation is not autonomy; a lost-pay order is not payment; continued trips are not proof of free choice | Post-remedy account status, payment receipt, alternative platform/work, recurrence, and documented return/switch/exit reason |
 | Consumer fraud | SHED adult respondent and incident-level conditional outcomes | 21% reported financial fraud; among non-credit-card incidents, 32% reported some money unrecovered and 30% spent at least 10 hours dealing with it | Non-reporting is not satisfaction; recovery effort is not switching; continued product use is unobserved | Provider/account identity, attempted contacts, verified recovery, replacement route, continued use, and switching/non-use |
-| Consumer finance recourse | CFPB published complaint records, 5,452,107 in 2025 | Complaint submission, routing, response labels, explanation, and relief labels | A published complaint is not the full exposed customer population, verified remedy, account closure, or exit | Account-level exposure, repeat contact, correction, remedy receipt, closure/switch, and non-complainant denominator |
+| Consumer finance recourse | CFPB published complaint records, 5,452,107 in 2025; 25-record student-loan event-ledger dry-run | Complaint submission, routing, response labels, explanation, and relief labels; all 25 dry-run rows remain unknown for post-event status | A published complaint is not the full exposed customer population, verified remedy, account closure, or exit | Account-level exposure, repeat contact, correction, remedy receipt, closure/switch, and non-complainant denominator |
 | Housing and insurance | State residual-market and insurer/place records | California FAIR Plan policies rose from 242,440 in September 2021 to 696,562 in June 2026; nonrenewal and backstop channels are visible | A policy-market shift is not a household move, voluntary insurer switch, affordability improvement, or safe staying | Property/household notice, premium/payment, claim/repair, alternative coverage, move/stay decision, and recovery |
 | Local service capacity | Firm, provider, establishment, shortage, mobility, and place records | Nominal presence, entry, exit, travel context, public route, and neighboring capacity | Establishment count is not reachable service, completed use, replacement, or resident exit | Dated resident attempt, wait/travel/price, successful substitute, non-use, restored access, and stay/switch/move |
 
@@ -65,6 +65,12 @@ show how a complaint is routed and labeled. Together they establish exposure,
 effort, and institutional visibility as distinct currencies. Neither source
 shows whether the person closed an account, changed provider, stopped using a
 service, or stayed because no safe alternative existed.
+
+The two contract dry-runs make this asymmetry measurable. The platform ledger
+can expose a narrow access-restored label in 8 of 27 records, while the CFPB
+event ledger exposes route and response stages in all 25 rows but no later
+status. These are coverage results from existing records, not comparable rates:
+the ledgers have different units, source designs, and outcome definitions.
 
 ### 4. Market movement is not household mobility
 
