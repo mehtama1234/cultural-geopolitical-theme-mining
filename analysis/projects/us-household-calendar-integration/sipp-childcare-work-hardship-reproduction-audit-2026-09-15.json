@@ -1,10 +1,10 @@
 {
   "format": "sipp-childcare-work-hardship-reproduction-audit-v1",
   "checked": "2026-09-15",
-  "command": "python3 scripts/analyze_sipp_childcare_work_hardship_bridge.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/childcare-work-hardship.json",
+  "command": "python3 scripts/analyze_sipp_childcare_work_hardship_bridge.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/childcare-work-hardship.json",
   "inputs": {
     "public_use_archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
-    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
     "script_sha256": "322d036a1932da6fd9499d8480af4617fb28470c47675bc7f39a076fa3597db4"
   },
@@ -20,7 +20,7 @@
     "stable_snap_care_prevented_yes_rent_mortgage_percent": 43.652,
     "stable_snap_care_prevented_yes_rent_mortgage_valid_n": 23
   },
-  "comparison": "The displayed percentages and Fay-BRR intervals match the committed child-care work-prevention and following-hardship layer. No new trend record is created.",
+  "comparison": "The displayed percentages and Fay-BRR intervals match the committed child-care work-prevention and following-hardship layer after rerunning on corrected v18. No new trend record is created.",
   "method": "November-to-December same-person stable-SNAP comparison, attaching annual fall reference-parent child-care work-prevention status to valid December rent/mortgage and utility hardship fields, using November WPFINWGT and 240 replicate weights with Fay BRR, perturbation factor 0.5.",
   "boundary": "This is a descriptive timing bridge, not a dated care episode or causal estimate. Child-care status and hardship outcomes have separate universes and status flags; the small prevention cell, annual fall recall, household/person distinction, recovery, trust, political action, and institutional remedy remain open."
 }
