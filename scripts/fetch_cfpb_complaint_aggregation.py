@@ -19,6 +19,7 @@ def main() -> None:
     parser.add_argument("--date-min", required=True)
     parser.add_argument("--date-max", required=True)
     parser.add_argument("--product", action="append", default=[])
+    parser.add_argument("--sub-product", action="append", default=[])
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--insecure-tls", action="store_true",
                         help="use only when the local CA store is unavailable")
@@ -26,6 +27,7 @@ def main() -> None:
     query = [("date_received_min", args.date_min),
              ("date_received_max", args.date_max), ("size", "0")]
     query.extend(("product", product) for product in args.product)
+    query.extend(("sub_product", sub_product) for sub_product in args.sub_product)
     url = BASE_URL + "?" + urlencode(query)
     request = Request(url, headers={
         "Accept": "application/json",
@@ -41,6 +43,7 @@ def main() -> None:
         "date_received_min": args.date_min,
         "date_received_max": args.date_max,
         "product_filters": args.product,
+        "sub_product_filters": args.sub_product,
         "retrieved_sha256": hashlib.sha256(raw).hexdigest(),
         "api_metadata": payload.get("_meta", {}),
         "total_records": payload.get("hits", {}).get("total", {}),
