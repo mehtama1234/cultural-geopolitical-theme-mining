@@ -1,0 +1,25 @@
+{
+  "format": "us-meps-prescription-delay-health-direction-v1",
+  "source_unit": "MEPS 2024 HC-256 person, round-4/2 prescription-delay report to round-5/3 perceived-health direction",
+  "variance_method": "standard BRR; replicate weight = BRR flag * 2 * PERWT24F",
+  "hc256_records": 19140,
+  "inputs": {
+    "hc256_archive_sha256": "653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40",
+    "brr_archive_sha256": "0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd",
+    "script_sha256": "f47945fc036b9bd045d0ae7585536d2225d3852240df86202c0b4d8b237fe838",
+    "output_sha256": "c57d5eaccbb78d853b6c7546cbd290b764d330fd12d33d327948956abbb7eb21"
+  },
+  "results": {
+    "delay_yes": {
+      "health_improved": {"valid_records": 674, "estimate_percent": 24.624925, "brr_se_percentage_points": 2.305922, "ci95_percent": [20.105318, 29.144533]},
+      "health_worsened": {"valid_records": 674, "estimate_percent": 19.118744, "brr_se_percentage_points": 1.983988, "ci95_percent": [15.230127, 23.007361]},
+      "health_unchanged": {"valid_records": 674, "estimate_percent": 56.256331, "brr_se_percentage_points": 2.521503, "ci95_percent": [51.314186, 61.198477]}
+    },
+    "delay_no": {
+      "health_improved": {"valid_records": 17683, "estimate_percent": 20.421832, "brr_se_percentage_points": 0.448028, "ci95_percent": [19.543697, 21.299966]},
+      "health_worsened": {"valid_records": 17683, "estimate_percent": 22.111121, "brr_se_percentage_points": 0.461947, "ci95_percent": [21.205705, 23.016537]},
+      "health_unchanged": {"valid_records": 17683, "estimate_percent": 57.467047, "brr_se_percentage_points": 0.535681, "ci95_percent": [56.417113, 58.516982]}
+    }
+  },
+  "boundary": "Perceived-health direction is an ordinal round-to-round descriptive association. Prescription delay may reflect underlying need and health; no causal, adherence, treatment-continuity, household-substitution, recovery, remedy, trust, or political-action claim is made."
+}

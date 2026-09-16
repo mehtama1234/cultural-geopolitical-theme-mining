@@ -30,6 +30,7 @@ Read these in order if you want the most developed end-to-end chain:
 - [MEPS prescription/person-context reproduction audit](analysis/projects/us-health-cost-household-choice/meps-2024-prescription-reproduction-audit-2026-09-16.md)
 - [Prescription purchase versus affordability-delay comparison](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-008.md)
 - [Prescription delay and health/work outcomes](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-009.md)
+- [Prescription delay and longitudinal health direction](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md)
 5. [CFPB event-ledger bridge for the remedy gap](analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md)
 6. [Medical-debt complaint visibility](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md)
 7. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
