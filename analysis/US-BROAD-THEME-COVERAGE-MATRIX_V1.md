@@ -33,6 +33,14 @@ crosses child-care payment, payment help, and reported work constraint with
 tenure and income-to-poverty bands. It deepens themes 2, 6, and 8 while keeping
 conditional universes and missing care intensity explicit.
 
+**Latest coverage/care conditioning:** the [SHED coverage-transition record](records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
+now carries care entry and persistence beside medical debt, reduced savings,
+borrowing, delayed purchases, and perceived health for four 2024→2025 coverage
+paths. Its [reproduction audit](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
+confirms the estimates from existing local artifacts. This deepens themes 6,
+8, and 10 while leaving plan adequacy, dated need, and treatment continuity
+open.
+
 **Latest utility/care/work conditioning:** [SIPP utility/tenure/care/work
 option-stack synthesis](projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
 places utility difficulty beside housing tenure, same-person next-month work
