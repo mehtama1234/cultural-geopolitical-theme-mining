@@ -79,6 +79,9 @@ AI/platform agency and work control, followed by public-system feedback and
 firm/infrastructure dependence, while material/time/care remains an active
 later lane rather than a program-wide gate.
 
+The completed first-pass artifact is the [practical-exit cross-domain
+synthesis](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md).
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

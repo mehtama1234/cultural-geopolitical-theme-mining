@@ -104,6 +104,12 @@ response labels, routing clocks, API schema changes, and the still-unobserved
 customer endpoint: verified correction, repeat effort, trust, switching, and
 exit.
 
+The [practical-exit cross-domain synthesis](practical-exit-cross-domain-synthesis-v1.md)
+advances this lane as the first broad-program rotation. It compares household
+fraud, CFPB recourse, CPSC product safety, and platform-worker remedy without
+pooling their units, and defines practical exit as the next consumer-power
+outcome to measure.
+
 ## Scope
 
 - US customers and firms;
