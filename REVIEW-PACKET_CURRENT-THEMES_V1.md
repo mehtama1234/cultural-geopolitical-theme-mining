@@ -228,6 +228,21 @@ acceptance, delivery, and operational use are different stages of capacity.
 record selected procurement-to-realization events without treating a contract
 or recipient count as replaceability or geopolitical power.
 
+**Concrete capacity anchors:** the [SIPRI state-capacity
+record](analysis/records/us-sipri-military-expenditure-state-capacity-2015-2024.json)
+reports 2025 global military spending of $2.887 trillion, US spending of $954
+billion, a 14% real increase in Europe, and a 55% NATO share of world spending.
+The [defense procurement and co-production
+record](analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json)
+places a reported $735 million Poland-US JASSM-ER agreement, a planned
+2026–2030 delivery window, and a named four-country Barracuda co-production
+scope beside a $1.143 billion returned US subaward extract. The [AI
+capability/dependence record](analysis/records/us-ai-capability-dependence-state-control-crosssource-2023-2026.json)
+adds a 176 TWh 2023 US data-center electricity estimate, a 649 TWh 2030 model
+reference, and a 14-year minimum-obligation policy term in one state rate
+context. These are spending, commitment, planned capacity, and governance
+stages—not proof of delivery, public benefit, sovereignty, or leverage.
+
 **Open arrow:** identifier-bearing evidence must connect production,
 acceptance, delivery, inventory or use, substitution capacity, and an
 external response before leverage is claimed.
