@@ -65,6 +65,13 @@ borrowing, reduced savings, or delayed purchases. CFPB shows that complaint
 receipt, routing, timeliness, and response labels are visible institutional
 events, but not verified correction, recovery, trust, switching, or exit.
 
+The new [MEPS later-panel follow-up](meps-event-six-month-followup-v1.md)
+extends the clock: strict-window events can be carried from R4/2 to R5/3
+health and employment levels and conditional transitions. ER and inpatient
+groups show lower health-resolution and higher health-onset point estimates
+than their comparison group, while employment transitions are mixed. This is
+longitudinal persistence/context, not proof of remedy or episode recovery.
+
 The [institutional response/remedy route](institutional-response-remedy-route-v1.md)
 and [storage-aware acquisition decision](next-acquisition-decision-v1.md)
 define the next decisive test: a same-case or compatible panel must preserve
