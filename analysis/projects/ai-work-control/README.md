@@ -282,6 +282,12 @@ formal rights, requests, review, correction, repayment, and anti-retaliation
 must be coded as separate stages; none of the current cases proves the full
 chain.
 
+The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
+adds worker-reported complaint access and low resolution, suspension and injury
+evidence, classification and social-security context, and a tripartite
+consultation record. It still does not provide a verified correction,
+compensation, or state dispute outcome.
+
 The [UK ICO automated-recruitment record](uk-ico-automated-recruitment-remedy-record-v1.md)
 extends the same test to ordinary hiring. It shows regulator review and
 employer commitments around disclosure, contestability, and meaningful human

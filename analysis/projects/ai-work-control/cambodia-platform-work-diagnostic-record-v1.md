@@ -32,6 +32,7 @@ prevalence estimate.
 | Complaint access | 78% of tuk-tuk drivers, 88% of delivery riders, and 96% of taxi drivers said they could file a platform complaint; 50%, 52%, and 36% respectively said they had used the service | Access is self-reported and does not identify reviewer authority or response deadlines |
 | Resolution quality | Approximately two-thirds of workers who complained said their issue was seldom resolved; minor technical or payment issues were more likely to be resolved than serious accidents or theft | The study does not verify individual corrections, restoration, compensation, or retaliation outcomes |
 | State route | The report notes Cambodia's 22 July 2026 Notification No. 1107 designating the Ministry of Labour and Vocational Training to settle disputes between platform companies and workers | The diagnostic does not establish caseload, processing, decision, enforcement, or worker outcome under that route |
+| Consultation | The ILO's 3 March 2026 tripartite validation workshop brought around 50 government, employer, platform, and worker-organization representatives together; participants called for a legal framework, social protection, recognized worker voice, transparency, and dispute-resolution mechanisms | Consultation and recommendations do not prove adoption, worker bargaining power, or later implementation |
 | Classification and protection | Platforms mostly classify workers as independent contractors or partners; the report links this to gaps in labour-law coverage, collective bargaining, trade unionization, and compulsory social security. About half reported some social-security benefit, mostly voluntary NSSF healthcare | Classification and coverage are contextual findings; they do not establish an individual legal entitlement or denial |
 | Safety | 34% of delivery riders, 21% of tuk-tuk drivers, and 13% of taxi drivers reported work-related injury | Injury is self-reported and does not itself prove platform liability |
 
@@ -47,7 +48,16 @@ correction or restoration          not_observed
 payment or compensation            not_observed
 anti-retaliation                   not_observed
 social-security access             observed_self_report / contextual rule
+tripartite consultation             observed_consultation
 ```
+
+The report also documents a boundary between participation and control. A
+tripartite workshop produced shared priorities, but the source does not show
+that workers could veto, amend, or later invoke the platform rules discussed.
+Likewise, one interviewed platform reported accident insurance that applied
+only while a worker was actively carrying out a task—not during waiting time or
+the trip to the pickup point—showing how a nominal protection can leave the
+highest-risk intervals outside the remedy surface.
 
 The central pattern is **procedural access without demonstrated recovery**.
 Workers can often contact the platform, but contact does not equal a meaningful

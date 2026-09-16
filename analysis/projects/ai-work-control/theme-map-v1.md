@@ -142,6 +142,15 @@ current official status record supports readiness assessment rather than
 ratification. International agenda-setting, national commitment, ratification,
 implementation, and worker remedy remain distinct stages.
 
+The [Cambodia platform-work diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
+adds a worker-experience and consultation comparator. Workers report that
+ratings, allocation, refusal penalties, and temporary suspension shape access
+to work; most complainants report that issues are seldom resolved. The March
+2026 tripartite workshop shows agenda-setting and social dialogue, but not that
+workers can change platform rules or obtain recovery after a decision. This
+extends the theme from “rights exist or do not exist” to the thickness of the
+route between access, review, correction, and durable protection.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |
