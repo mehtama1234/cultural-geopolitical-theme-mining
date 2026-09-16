@@ -1,5 +1,8 @@
 # Cultural, social, and geopolitical theme mining v1
 
+This long-form specification implements the concise [broader goal
+restatement](BROAD-GOAL-RESTATEMENT_V1.md).
+
 ## Governing goal
 
 Build and maintain a repeatable, US-centered research system that discovers,

@@ -1,5 +1,8 @@
 # Broad program focus: societal, cultural, political, and consumer trend mining
 
+For the shortest current restatement of the governing objective, start with
+the [broader goal](BROAD-GOAL-RESTATEMENT_V1.md).
+
 **Status:** governing focus reset; broad rotation resumed
 **Scope:** the full US-centered Cultural, Social, and Geopolitical Theme Mining
 program  
