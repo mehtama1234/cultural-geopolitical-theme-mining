@@ -11,6 +11,7 @@
     "observed_rule_or_expectation": "A regulator or guidance source states an expected right or safeguard.",
     "observed_case_report": "A public report identifies a specific proceeding or hearing, but the primary adjudicative record or final outcome is not yet available.",
     "observed_comparative_audit": "A structured country or platform assessment documents a formal process or standard; it does not establish that an individual used it or obtained a remedy.",
+    "observed_official_action": "An official institution took a documented dialogue, directive, inspection, or capacity-building action; this does not establish a binding rule or worker outcome.",
     "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
   },
   "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
@@ -132,6 +133,18 @@
       "stages": {"explanation": "not_observed", "human_review": "not_observed_as_exercised_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_published_assessment_low_for_individual_remedy",
       "boundary": "Fairwork found formal appeal evidence at 2 of 9 platforms and no platform evidence of collective representation; appeal use and outcomes were not observed."
+    },
+    {
+      "id": "PR-011",
+      "place": "Philippines",
+      "population": "Platform workers, platform companies, and DOLE institutions",
+      "source_type": "official_DOLE_dialogue_complaint_and_inspection_releases",
+      "decision_surface": ["platform_labor_standards", "algorithmic_management_policy", "data_privacy", "worker_safety", "complaint_access"],
+      "worker_route": "Announced 24/7 DOLE complaint unit; government–platform dialogue",
+      "implementation_stage": "official_action_and_policy_dialogue",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed_as_automated_decision_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "observed_official_action_in_separate_safety_episode"},
+      "evidence_strength": "high_for_official_action_low_for_ADM_remedy",
+      "boundary": "DOLE named algorithmic-management protections and effective remedies as agenda items, requested platform position papers, and announced complaint capacity; no binding rule or corrected automated decision shown."
     }
   ]
 }

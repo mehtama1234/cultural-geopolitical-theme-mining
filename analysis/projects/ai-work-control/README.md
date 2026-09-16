@@ -274,7 +274,9 @@ appeals in Uganda, Malaysia's enacted review architecture, EU safeguards, and
 status-recognition cases in the Netherlands and Finland. The Philippines
 Fairwork assessment adds a platform-level comparator in which two of nine
 assessed platforms evidenced formal appeals and none evidenced collective
-representation. The records show that
+representation. A separate DOLE record captures official dialogue, requested
+platform position papers on algorithmic-management protections and remedies,
+and a planned complaint route. The records show that
 formal rights, requests, review, correction, repayment, and anti-retaliation
 must be coded as separate stages; none of the current cases proves the full
 chain.

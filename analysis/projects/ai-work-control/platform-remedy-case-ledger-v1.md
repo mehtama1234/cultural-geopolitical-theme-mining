@@ -34,6 +34,7 @@ occurred.
 | PR-008 | UK jobseekers in automated recruitment | ICO regulator review and guidance | CV scoring, ranking, filtering, and possible pre-human rejection | Notice, contest, and request for meaningful human review | `observed_rule_or_expectation` | `observed_rule_or_expectation` | `not_observed` | `not_observed` | `not_observed` | High for regulator action; low for individual remedy | More than 30 employers reviewed; 16 organizations committed to recommendations; no candidate-level correction shown |
 | PR-009 | Kuching, Malaysia; e-hailing worker and GrabCar Sdn Bhd | Media reports attributing facts to KESUMA / Gig Workers Tribunal | Saver trips, cashback incentives, and advance booking | Tribunal hearing; matter reportedly returned for evidence and witness examination | `observed_case_report` | `observed_case_report` | `not_observed` | `not_observed` | `not_observed` | Medium for existence and subject of first hearing; low for outcome | A first hearing is reported; no award, correction, payment, or final finding located |
 | PR-010 | Philippines platform economy | Oxford/De La Salle Fairwork comparative audit | Platform management, contracts, conditions, and worker representation | Formal appeal process evidenced at 2 of 9 assessed platforms | `observed_comparative_audit` | `not_observed` as exercised review | `not_observed` | `not_observed` | `not_observed_as_platform_evidence` | High for published assessment; low for individual remedy | Assessment found formal appeal evidence at GrabCar and GrabFood/Express; no appeal outcome or collective representation evidenced |
+| PR-011 | Philippines platform economy | Official DOLE dialogue, complaint-capacity, and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, 24/7 complaint unit directive, and bounded safety inspection action | `not_observed` as automated-decision review | `not_observed` | `not_observed` | `observed_official_action` only in separate safety episode; not an ADM remedy | High for official actions; low for algorithmic-remedy outcome | Algorithmic-management and remedy issues entered the official agenda; no binding rule or corrected automated decision shown |
 
 ## Cross-row findings
 
@@ -102,6 +103,7 @@ For each new case, add:
 - [Malaysia Act 872 algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
 - [Malaysia GrabCar first-hearing case record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
 - [Philippines Fairwork platform-management record](philippines-fairwork-platform-management-record-v1.md)
+- [Philippines DOLE platform-governance record](philippines-dole-platform-governance-record-v1.md)
 
 ## Boundary
 

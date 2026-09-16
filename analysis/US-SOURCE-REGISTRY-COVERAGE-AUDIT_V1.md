@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **59**
+- Observed domains outside registered families: **60**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -189,17 +189,17 @@ family that will be acquired, compared, or maintained over time.
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `freemalaysiatoday.com` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
+| `ils.dole.gov.ph` | 3 | `analysis/projects/ai-work-control/philippines-fairwork-platform-management-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
 | `production.humanresourcesonline.net` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `wetgevingskalender.overheid.nl` | 3 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `cy.ico.org.uk` | 2 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-recruitment-follow-up-acquisition-audit-2026-09-15.md` |
 | `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
+| `dole.gov.ph` | 2 | `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
 | `dosh.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
 | `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `eaduan-gig.mohr.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
 | `fairwork.oii.ox.ac.uk` | 2 | `analysis/projects/ai-work-control/philippines-fairwork-platform-management-record-v1.md`; `analysis/projects/ai-work-control/philippines-fairwork-platform-management-record-v1.md` |
-| `hogeraad.nl` | 2 | `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md`; `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md` |
-| `jtksm.mohr.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -239,11 +239,13 @@ without a recurring acquisition need and source-specific metadata.
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
 | `freemalaysiatoday.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
+| `ils.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
 | `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cy.ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dosh.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -259,7 +261,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
-| `ils.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `kho.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |

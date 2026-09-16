@@ -127,6 +127,13 @@ representation. This separates the existence of an appeal channel from worker
 power to shape platform rules, and remains an assessment of platform evidence,
 not a measure of exercised remedies.
 
+The [Philippines DOLE platform-governance record](philippines-dole-platform-governance-record-v1.md)
+adds the state response: DOLE named algorithmic-management protections and
+effective remedies in a July 2026 government–platform dialogue, requested
+platform position papers, and directed a dedicated complaint route. This is
+official institutional action, not yet a binding platform-work rule or verified
+automated-decision correction.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |
