@@ -45,8 +45,39 @@ never the completion condition.
 | Trend-to-atlas linkage | Every machine-readable trend/case record is tagged to validated atlas umbrella themes | `theme_ids` in trend schema and [published registry](../site/us-trend-observations.html) |
 | Theme breadth control | Trend records are grouped by umbrella theme and missing-record themes are surfaced | [Trend-theme coverage](../site/us-trend-theme-coverage.html), `build_us_trend_theme_coverage.py` |
 | Control synchronization | Registry, theme coverage, source-packet count, HTML edition, and this ledger are checked against current source files | `validate_program_control_sync.py` |
-| Active depth lane | Material/time/care linkage across many families or a valid matched design | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
+| Active depth lane | Broad rotation resumed; first pass is consumer power, recourse, remedy, switching, and practical exit, followed by AI/platform agency and public-system feedback | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
 | Hard acquisition dependency | PSID main waves and/or an equivalent same-unit event design | [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md), [wave-file audit protocol](projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md) |
+
+## Broad-goal resumption checkpoint
+
+**Reset:** 2026-09-16
+
+The program is explicitly resumed as the full societal, cultural, political,
+consumer, institutional, firm, infrastructure, and geopolitical trend-mining
+program. The household constraint and health-cost work remains an evidence
+lane, but its unavailable UAS/PSID respondent files do not pause the atlas or
+define its success condition.
+
+The first rotating pass uses already acquired local evidence and requires no
+bulk download. It will read the CFPB complaint and response layers, household
+fraud and recovery estimates, CPSC safety intervention records, and platform
+remedy cases as one bounded comparison of **practical exit**:
+
+```text
+problem or restriction
+  -> visibility and route to a decision-maker
+  -> effort, waiting, review, correction, or compensation
+  -> restored access or usable alternative
+  -> continued use, switching, non-use, trust, or exit
+```
+
+The comparison is not a pooled consumer-outcome estimate. Each source keeps
+its own unit, denominator, clock, and evidence type. The deliverable is a
+cross-domain mechanism synthesis that identifies which middle stages are
+observed and which final outcomes remain open. The next rotation then moves to
+AI/platform agency and work control, followed by public-system feedback and
+firm/infrastructure dependence, while material/time/care remains an active
+later lane rather than a program-wide gate.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

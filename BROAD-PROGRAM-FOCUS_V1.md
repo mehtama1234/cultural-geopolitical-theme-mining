@@ -1,6 +1,6 @@
 # Broad program focus: societal, cultural, political, and consumer trend mining
 
-**Status:** governing focus reset  
+**Status:** governing focus reset; broad rotation resumed
 **Scope:** the full US-centered Cultural, Social, and Geopolitical Theme Mining
 program  
 **Relationship to deep projects:** household constraint, health cost, consumer
@@ -139,3 +139,13 @@ inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md), [evidence matrix](analysis/
 and [next-pass queue](analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md) as the operating
 specification. This brief is the short focus document for restarting work
 without narrowing the program to one dataset or one household lane.
+
+## Current resumption move
+
+The first active rotation is the existing consumer-power evidence: CFPB
+complaint visibility and response labels, household fraud/loss and recovery
+burden, CPSC recall and takedown intervention, and platform-worker restoration
+cases. The question is whether a person can move from a problem to a usable
+remedy and a real alternative—not merely whether an institution recorded a
+complaint, issued a recall, or ordered restoration. This pass uses local
+artifacts already in the repository and does not require bulk acquisition.
