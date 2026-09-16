@@ -239,6 +239,18 @@ institutional trust before it becomes a measured political action.
 recurring financial-satisfaction/trust gradients with changing levels and
 gap sizes across years.
 
+**Concrete financial-meaning anchors:** in the [GSS 2024 financial-position
+record](analysis/records/us-gss-financial-trust-politics-2024.json), the share
+saying most people can be trusted was 32.47% among respondents pretty well
+satisfied financially versus 14.90% among those not satisfied at all; the
+corresponding fairness shares were 58.71% and 24.15%. In the trajectory layer,
+50.08% of respondents saying their financial situation was worse reported or
+intended a Trump vote, compared with 29.85% among those saying it was better.
+The [historical GSS record](analysis/records/us-gss-financial-trust-historical-1972-2024.json)
+shows the within-year gradient recurring while overall levels and survey
+designs change. These are meaning and political-orientation contrasts, not a
+dated household shock or a causal economic-voting estimate.
+
 **Open arrow:** prior identity, event timing, attribution, direct civic
 action, institutional response, and recovery are needed before calling this
 economic voting or a causal political reaction.
@@ -420,6 +432,16 @@ OFR, Federal Reserve, and state-fiscal records add provider and institutional
 capacity; CFPB and New York DFS make complaint routes visible; and SHED,
 Findex, GSS, Gallup, and ANES provide separate household or meaning measures.
 These sources are complementary but not one household episode.
+
+**Concrete financial-room anchors:** the [public financial-capacity record](analysis/records/us-public-financial-capacity-household-room-crosssource-2025-2026.json)
+reports that 63% of adults could cover a $400 emergency with cash or its
+equivalent in 2025, while 12% could not; 45% of credit-card owners carried a
+balance at least once. Its linked panel context reports a $2,530 card-balance
+increase from 2023 to 2025 among respondents who said they were having
+difficulty getting by, while the New York Fed aggregate layer reports $18.8
+trillion in household debt in 2026 Q2. These figures establish different
+liquidity, revolving-credit, and aggregate-debt surfaces—not a single
+household financial trajectory or causal effect.
 
 **Open arrow:** no current record follows the same household from a dated
 obligation or payment failure through alternatives, terms, effort, provider or
