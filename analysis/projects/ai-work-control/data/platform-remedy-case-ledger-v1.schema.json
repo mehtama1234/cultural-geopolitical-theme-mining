@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "platform-remedy-case-ledger-v1.schema.json",
+  "title": "Platform remedy case ledger v1",
+  "type": "object",
+  "required": ["schema_version", "checked", "purpose", "coding", "stage_fields", "records"],
+  "properties": {
+    "schema_version": {"const": "platform-remedy-case-ledger-v1"},
+    "checked": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"},
+    "purpose": {"type": "string", "minLength": 1},
+    "coding": {"type": "object", "minProperties": 1},
+    "stage_fields": {
+      "type": "array",
+      "const": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"]
+    },
+    "implementation_stage_vocabulary": {"type": "object"},
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "place", "population", "source_type", "decision_surface", "worker_route", "stages", "evidence_strength", "boundary"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^PR-[0-9]{3}$"},
+          "place": {"type": "string", "minLength": 1},
+          "population": {"type": "string", "minLength": 1},
+          "source_type": {"type": "string", "minLength": 1},
+          "decision_surface": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+          "worker_route": {"type": "string", "minLength": 1},
+          "implementation_stage": {"type": "string", "minLength": 1},
+          "stages": {
+            "type": "object",
+            "required": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
+            "additionalProperties": false,
+            "properties": {
+              "explanation": {"type": "string", "minLength": 1},
+              "human_review": {"type": "string", "minLength": 1},
+              "correction_restoration": {"type": "string", "minLength": 1},
+              "payment_compensation": {"type": "string", "minLength": 1},
+              "anti_retaliation": {"type": "string", "minLength": 1}
+            }
+          },
+          "evidence_strength": {"type": "string", "minLength": 1},
+          "boundary": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}

@@ -317,6 +317,9 @@ The [platform-remedy stage coding specification](platform-remedy-stage-coding-sp
 defines the shared unit, evidence classes, outcome ladder, denominator rules,
 and publication quality gates for future country inventories.
 
+The machine ledger is checked with [validate_platform_remedy_ledger.py](../../../scripts/validate_platform_remedy_ledger.py)
+against its [JSON schema](data/platform-remedy-case-ledger-v1.schema.json).
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite
