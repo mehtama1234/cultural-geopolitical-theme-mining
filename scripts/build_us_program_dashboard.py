@@ -87,6 +87,7 @@ findings = [
 ("Housing security is split between making the payment and keeping the risk covered", "us-housing-insurance-risk-001.html", "Federal Reserve, Treasury FIO, FEMA, GAO, and residual-market records"),
 ("Digital life is not one platform trend", "us-digital-habits-attention-005.html", "Pew adult, teen, AI, news, and civic-engagement surveys"),
 ("Health spending can rise while household payment and health direction diverge", "us-health-cost-household-choice-001.html", "MEPS Panel 27 longitudinal health-cost file"),
+("Coverage transitions shape care and adaptation paths without an insurance effect estimate", "us-health-cost-household-choice-end-to-end-001.html", "SHED 2024–2025 coverage-transition panel and local reproduction audit"),
 ("Financial dissatisfaction is a trust signal before it is a vote mechanism", "us-cost-trust-politics-012.html", "GSS 2024 financial position, trust, fairness, and vote intention"),
 ("Material pressure enters politics through several unsynchronized channels", "us-cost-trust-politics-013.html", "Federal Reserve SHED, GSS, ANES panel, and CCES"),
 ("A benefit can be lost without the need going away", "us-safety-net-access-matched-evidence-001.html", "NBER, USDA, and Census SIPP transition/hardship evidence"),
