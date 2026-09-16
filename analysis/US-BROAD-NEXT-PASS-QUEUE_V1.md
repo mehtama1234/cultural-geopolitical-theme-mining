@@ -11,6 +11,14 @@ panel-persistence surfaces; the next decisive addition is a dated event with
 attribution, action route, response, and recovery—not another unaligned
 sentiment cross-tab.
 
+**Storage-aware selection decision (2026-09-16):** the local 2025 SIPP
+`pu2025.csv` and `rw2025.csv` archives already support the current resource,
+tenure, utility, work, care, food, and transition screens, including compatible
+Fay–BRR reruns. The next SIPP contribution should therefore be a dated bill,
+shutoff, assistance, or service episode—or the authenticated PSID family
+design—not another adjacent cross-tab. This preserves storage and keeps the
+program focused on closing an end-to-end arrow.
+
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 254 records and
