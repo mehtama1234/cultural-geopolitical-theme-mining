@@ -39,6 +39,12 @@ The sources below measure adjacent arrows on different samples and clocks.
 | Adaptation → persistence/recovery | SHED 2024–2025 persistence panel | Prior borrowing, saving cuts, delayed purchases, reduced use, and extra work often persist into 2025; improving respondents also sometimes end an adaptation. | Dated trigger, remedy, material recovery, and whether the same need remains unmet |
 | Household burden → institution → legitimacy/action | CFPB, public-system, ANES/CES/CPS, and institutional layers | Complaint, agency, trust, attribution, and action are separately measurable endpoints. | Same person/episode linkage from household burden through remedy to trust, action, switching, or exit |
 
+The institutional arrow is now documented separately in the [institutional
+response and remedy route](institutional-response-remedy-route-v1.md). Its key
+boundary is that complaint receipt, routing, timeliness, denial, or company
+response labels establish institutional visibility—not verified correction,
+coverage restoration, financial recovery, trust, or exit.
+
 ## What the comparison says now
 
 ### 1. Protection is a condition of choice, not a binary status

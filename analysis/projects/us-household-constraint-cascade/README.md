@@ -47,6 +47,7 @@ that hardship caused political action.
 - [SIPP cascade-screen script](../../../scripts/analyze_sipp_constraint_cascade_screen.py)
 - [MEPS dated health-cost episode spine](meps-dated-event-spine-v1.md): the existing local event/payment/person-panel route that supplies dated episode context without a new bulk acquisition.
 - [MEPS dated event-to-household-response screen](meps-dated-cascade-event-screen-v1.md), with its [compact output](data-meps-dated-cascade-event-screen-2024.json): inter-round event timing beside care delay, bill problems, debt, and collector contact using the valid PERWT/BRR route.
+- [Institutional response and remedy route](institutional-response-remedy-route-v1.md): the evidence map from household pressure through complaint/denial visibility to the still-missing verified remedy and recovery fields.
 - [SHED coverage-to-care machine record](../../records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
 - [SHED coverage-to-care reproduction audit](../us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
 - [SIPP utility-to-work machine record](../../records/us-sipp-utility-work-following-2024.json)
