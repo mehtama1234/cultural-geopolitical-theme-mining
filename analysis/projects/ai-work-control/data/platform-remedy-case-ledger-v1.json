@@ -10,6 +10,7 @@
     "observed_commitment": "An organization committed to a recommendation, without completed remediation proof.",
     "observed_rule_or_expectation": "A regulator or guidance source states an expected right or safeguard.",
     "observed_case_report": "A public report identifies a specific proceeding or hearing, but the primary adjudicative record or final outcome is not yet available.",
+    "observed_comparative_audit": "A structured country or platform assessment documents a formal process or standard; it does not establish that an individual used it or obtained a remedy.",
     "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
   },
   "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
@@ -119,6 +120,18 @@
       "stages": {"explanation": "observed_case_report", "human_review": "observed_case_report", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
       "evidence_strength": "medium_for_hearing_low_for_outcome",
       "boundary": "First hearing reported on 2026-09-01; matter reportedly returned for evidence and witness examination; no award or final finding located."
+    },
+    {
+      "id": "PR-010",
+      "place": "Philippines",
+      "population": "Nine assessed digital labour platforms",
+      "source_type": "Oxford_De_La_Salle_Fairwork_comparative_audit",
+      "decision_surface": ["platform_management", "contracts", "conditions", "worker_representation"],
+      "worker_route": "Formal platform appeal process where evidenced",
+      "implementation_stage": "comparative_platform_audit",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed_as_exercised_review", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_published_assessment_low_for_individual_remedy",
+      "boundary": "Fairwork found formal appeal evidence at 2 of 9 platforms and no platform evidence of collective representation; appeal use and outcomes were not observed."
     }
   ]
 }

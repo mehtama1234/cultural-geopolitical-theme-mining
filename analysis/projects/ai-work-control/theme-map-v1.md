@@ -120,6 +120,13 @@ yet-proven recovery: systems are becoming easier to describe and contest, but
 the evidence still rarely shows restored access, corrected data, repayment, or
 prevention of recurrence.
 
+The [Philippines Fairwork platform-management record](philippines-fairwork-platform-management-record-v1.md)
+adds a Southeast Asian platform-level contrast: two of nine assessed platforms
+could evidence a formal appeal process, while none evidenced collective worker
+representation. This separates the existence of an appeal channel from worker
+power to shape platform rules, and remains an assessment of platform evidence,
+not a measure of exercised remedies.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |

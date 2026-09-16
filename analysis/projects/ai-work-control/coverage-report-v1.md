@@ -15,7 +15,7 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Dimension | Present | Still missing |
 |---|---|---|
 | Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank, EU legal materials, national courts and administrations | More worker-led, union, legal, and non-Western sources; direct remedy records |
-| Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond Malaysia, India, and Indonesia, wider Africa outside Kenya/Uganda case studies |
+| Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Philippines, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, wider Southeast Asia beyond Malaysia and the Philippines, wider Africa outside Kenya/Uganda case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
 | Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian review or Tribunal outcomes, candidate-level recruitment correction |
@@ -117,6 +117,10 @@ These are not errors to smooth away. They may reflect different tools, populatio
   establishment from a reported first hearing: the case has reached a Tribunal
   proceeding, but the public record still does not show an award, correction,
   payment, or final finding.
+- The Philippines Fairwork assessment adds a Southeast Asian platform-level
+  comparator: only two of nine assessed platforms evidenced a formal appeal
+  process, and none evidenced collective worker representation. This is a
+  platform audit, not proof of exercised appeals or individual remedies.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an
