@@ -189,6 +189,12 @@ Prince William utility-planning event. It strengthens the place and
 infrastructure layer, but remains planned rather than energized or linked to a
 specific data-center customer or household outcome.
 
+The SCC's August 2026 direct-assignment framework adds a policy-response
+stage: its modeled Rider T1 illustration lowers the projected residential
+increase from $2.90 to $0.94 per 1,000 kWh under the amended methodology. This
+is meaningful cost-allocation evidence, but not an observed household bill or
+proof of facility-level payment and implementation.
+
 ## The stage map
 
 | Stage | Current evidence | Safe interpretation | Missing evidence |

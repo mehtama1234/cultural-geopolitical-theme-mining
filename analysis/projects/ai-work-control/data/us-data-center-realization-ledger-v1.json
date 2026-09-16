@@ -120,6 +120,22 @@
       "boundary": "The proposal does not establish construction, energization, facility-specific load, customer causation, cost recovery, reliability improvement, or household benefit."
     },
     {
+      "event_id": "virginia-direct-assignment-policy-2026-08-25",
+      "event_type": "external_response",
+      "event_date": "2026-08-25",
+      "date_precision": "day",
+      "actor": "Virginia State Corporation Commission",
+      "recipient": "Large-load customers, utilities, and residential rate classes",
+      "object": "Direct-assignment framework and amended transmission cost-allocation method for large-load growth",
+      "place": "Virginia",
+      "measures": {"projected_residential_rider_t1_change": {"from": 2.90, "to": 0.94, "unit": "USD/month at 1000 kWh"}, "projected_reduction": {"value": 67.5, "unit": "percent"}, "followup_docket": "PUR-2026-00131"},
+      "status": "observed",
+      "source_locator": "Virginia SCC facts page, posted September 3, 2026, direct-assignment and Rider T1 sections",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "local_source": "data/virginia-direct-assignment-policy-source-note.md",
+      "boundary": "The values are a modeled incidence illustration, not an observed bill or payment; implementation, account-level allocation, enforcement, and public response remain open."
+    },
+    {
       "event_id": "data-center-household-capability-join-open-2026-09-15",
       "event_type": "non_observation",
       "event_date": "2026-09-15",
