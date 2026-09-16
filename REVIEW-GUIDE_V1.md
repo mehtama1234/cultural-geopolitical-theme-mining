@@ -54,6 +54,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 ### Work, control, and bargaining
 
 - [AI, work control, and worker voice](analysis/projects/ai-work-control/theme-map-v1.md)
+- [JRC AIM-WORK practice and country map](analysis/projects/ai-work-control/jrc-aim-work-practice-country-map-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
 ### Housing, place, and mobility

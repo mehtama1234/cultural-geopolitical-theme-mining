@@ -10,6 +10,11 @@ Worker evidence adds a needed complication to the AI-at-work story. AI can remov
 
 The question is not whether AI is good or bad for workers in general. It is which use is being introduced, who controls it, and whether the worker can push back.
 
+The [JRC AIM-WORK practice and country map](../jrc-aim-work-practice-country-map-v1.md)
+now makes that distinction explicit: direct direction, evaluation, and bundles
+have different reported relationships with autonomy, breaks, stress, time, and
+place, while country patterns are heterogeneous.
+
 ## What we directly know
 
 - The European Commission’s JRC AIM-WORK survey collected responses from 70,316 people aged 16–65 across all 27 EU Member States during 2024–2025. [JRC AIM-WORK](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)

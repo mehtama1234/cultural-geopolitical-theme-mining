@@ -78,7 +78,10 @@ The survey and analysis support associations along this path. They do not identi
 ## Acquisition status
 
 **Methodology:** reviewed and promoted to the evidence record.
-**Full country/sector table extraction:** still open.
+**Practice/outcome and qualitative country-map extraction:** completed in the
+[practice and country map](jrc-aim-work-practice-country-map-v1.md).
+**Full coefficient/table transcription with denominators and uncertainty:**
+still open.
 **Microdata or code replication:** not established from the public publication
 record; the JRC analysis page lists no public dataset or source-code link in
 the accessible metadata.
