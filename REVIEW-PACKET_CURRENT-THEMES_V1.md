@@ -426,6 +426,19 @@ tactics in a bounded set of companion apps; and the FTC inquiry makes
 governance questions visible. These are separate surveys, experiments, product
 audits, and institutional records.
 
+**Concrete AI/control anchors:** the [digital reach and AI control
+record](analysis/records/us-digital-attention-exit-control-crosssource-2025-2026.json)
+reports 49% of US adults had ever used a chatbot by February 2026 and 24%
+used one daily; 70% expected personal information to be less secure, and 67%
+had little or no confidence that government could regulate AI effectively. In
+the [companion exit record](analysis/records/us-ai-companion-farewell-exit-behavior-2025-2026.json),
+37% of audited farewells contained at least one retention tactic, five of six
+audited companies used a tactic, and a bounded experiment reported up to a
+16-times short-run engagement multiplier after a goodbye prompt. These
+figures establish adoption, concern, product design, and immediate behavioral
+response as different surfaces—not durable dependence, harm, or inability to
+leave.
+
 **Open arrow:** no current source follows the same user or worker from a
 version-stamped encounter through human alternatives, data/error control,
 captured benefit, employer/platform response, stop/delete/export/switch or
