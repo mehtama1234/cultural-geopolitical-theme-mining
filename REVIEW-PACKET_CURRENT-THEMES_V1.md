@@ -43,6 +43,12 @@ and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-uti
 and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md),
 with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
 
+The companion [coverage-to-care-foregoing reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
+reruns the same local panel without a new download and reproduces the four
+coverage-transition cells. It keeps stable coverage, coverage loss, coverage
+gain, and persistent uninsurance separate, treating coverage as a route
+condition rather than a causal insurance estimate.
+
 **Theme:** households do not experience resources only as dollars. Work,
 care, household labor, leisure, and perceived time pressure are competing
 currencies.
