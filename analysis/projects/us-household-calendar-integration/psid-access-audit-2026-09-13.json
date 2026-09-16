@@ -54,5 +54,14 @@
       "https://psidonline.isr.umich.edu/GettingStarted.aspx",
       "https://simba.isr.umich.edu/Zips/ZipMain.aspx"
     ]
+  },
+  "direct_route_recheck_2026_09_16": {
+    "checked": "2026-09-16",
+    "method": "Unauthenticated HEAD request with redirect following to the official 2023 Main Study Family File route",
+    "http_status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "response_indicators": ["Cloudflare managed challenge", "cf-mitigated: challenge"],
+    "interpretation": "The automated workspace still cannot retrieve the package without an authenticated browser/session. This confirms the access boundary, not file absence or a substantive null result.",
+    "source_url": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y"
   }
 }

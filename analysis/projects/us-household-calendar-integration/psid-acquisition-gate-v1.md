@@ -44,7 +44,10 @@ continues to expose 2023 Main Study documentation and links to the Data Center
 and registration routes. The official [Getting Started page](https://psidonline.isr.umich.edu/GettingStarted.aspx)
 states that public-use data require researcher registration and agreement to
 the Conditions of Use. This recheck confirms that the route is live; it does
-not change the local-data gate or establish package retrieval.
+not change the local-data gate or establish package retrieval. The direct
+2026-09-16 route recheck returned HTTP 403 with HTML content and a Cloudflare
+managed-challenge indicator. This is recorded as an access condition, not as
+evidence that the file is absent or that the planned relationship is null.
 
 ## Required next handoff
 
