@@ -1921,9 +1921,9 @@ all groups, while the utility-difficulty hours estimate is imprecise; the
 assistance comparison is selected and non-causal. The next test is a dated bill
 or provider event linked to payment, assistance route, care/travel time, work,
 and later hardship or recovery—not another generic monthly cross-tab. Its
-2026-09-14 full-input reproduction audit confirms the published computation and
-hashes, so the next pass should advance the event key rather than repeat this
-screen.
+The reproduction audit, rechecked on 2026-09-16 against the current local
+`full-v18` slice, confirms the published computation and hashes, so the next
+pass should advance the event key rather than repeat this screen.
 
 The new [utility-difficulty × tenure following-work layer](projects/us-household-calendar-integration/sipp-utility-work-tenure-following-layer-v1.md)
 conditions that same-person monthly transition by owned/bought versus rented

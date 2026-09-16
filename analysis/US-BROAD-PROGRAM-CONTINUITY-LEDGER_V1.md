@@ -236,6 +236,12 @@ uncertainty, and the absence of a dated bill or shutoff event. The next test
 remains a dated service event followed through work, care, housing, health,
 and recovery.
 
+The linked [SIPP utility-to-work reproduction audit](projects/us-household-calendar-integration/sipp-utility-work-following-reproduction-audit-2026-09-14.json)
+was rechecked on 2026-09-16 using the current local `full-v18` slice. It
+reproduced the same matched-pair universe and estimates, with no new download;
+the dated filename is retained for continuity while its checked field records
+the refresh.
+
 The geopolitical/procurement lane now includes a machine-readable
 [JASSM/LRASM subaward-structure record](records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json).
 It adds one bounded case observation linking a parent award to 74 returned

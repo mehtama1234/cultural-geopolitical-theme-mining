@@ -529,6 +529,9 @@ assistance status at month *t* sits beside earnings and hours change at month
 difficulty hours estimate is imprecise and the assistance comparison is
 selected. This narrows the material-to-work arrow without turning a monthly
 utility screen into a dated bill shock, work-loss effect, or recovery result.
+The [2026-09-16 reproduction recheck](projects/us-household-calendar-integration/sipp-utility-work-following-reproduction-audit-2026-09-14.json)
+updates the local input provenance to the current `full-v18` slice while
+leaving the estimates unchanged.
 
 The [BEA July 2026 income-and-outlays record](records/us-bea-personal-income-outlays-2026-july.json)
 adds a current aggregate benchmark for income, disposable income, consumption,
