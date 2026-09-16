@@ -74,6 +74,8 @@ remedy, and changing data fields can change the apparent trend.
 
 **What is established:** complaint routes, response labels, elapsed routing,
 and unavailable narrative fields are measured with their API-vintage limits.
+The existing de-identified student-loan route artifact also passes the broad
+event-ledger validator with 25 case events and 2 arrow records.
 
 **Open arrow:** the same account or person must be followed from exposure
 through effort, correction adequacy, repeat contact, switching, exit, and

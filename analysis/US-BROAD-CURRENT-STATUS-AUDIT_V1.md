@@ -48,6 +48,11 @@ perceived-health direction screens. They remain separate longitudinal
 descriptive comparisons until a same-episode treatment, payment, remedy, and
 household-adaptation record is available.
 
+The public-system ledger control has one real de-identified implementation:
+the CFPB student-loan route artifact validates as 25 case events and 2 arrows.
+It demonstrates complaint receipt and routing structure, while leaving
+verified remedy, household outcome, recovery, trust, and exit unobserved.
+
 The new [2020 RECS household energy-burden layer](projects/us-household-calendar-integration/recs-energy-burden-household-layer-v1.md)
 adds same-household modeled energy expenditure, income-band affordability,
 assistance, and equipment-repair hardship. It strengthens the material-pressure
