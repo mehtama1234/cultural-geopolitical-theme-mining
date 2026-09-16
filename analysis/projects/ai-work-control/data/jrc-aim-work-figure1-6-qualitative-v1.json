@@ -1,0 +1,27 @@
+{
+  "schema": "jrc-aim-work-figure1-6-qualitative-v1",
+  "checked": "2026-09-15",
+  "source": {
+    "jrc_reference": "JRC147505",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+    "figures": ["Figure 1, p. 12", "Figure 6, p. 25"]
+  },
+  "unit": "employees in all 27 EU Member States",
+  "observations": [
+    {"figure": "Figure 1", "dimension": "industry", "category": "high-tech manufacturing", "finding": "highest overall algorithmic-management intensity"},
+    {"figure": "Figure 1", "dimension": "industry", "category": "low-knowledge-intensive services", "finding": "next-highest intensity, partly associated with transportation and retail"},
+    {"figure": "Figure 1", "dimension": "industry", "category": "knowledge-intensive services", "finding": "intermediate intensity, with financial-sector contribution noted"},
+    {"figure": "Figure 1", "dimension": "industry", "category": "low-tech manufacturing", "finding": "lowest of the four industry groupings described"},
+    {"figure": "Figure 1", "dimension": "occupation", "category": "operators", "finding": "highest exposure across nearly all indicators, including speed, instructions, and performance scoring"},
+    {"figure": "Figure 1", "dimension": "occupation", "category": "clerks and service workers", "finding": "multiple tools, especially ranking, points, and customer ratings"},
+    {"figure": "Figure 1", "dimension": "occupation", "category": "professionals and managers", "finding": "less exposure to automated direction and speed control but continued performance monitoring"},
+    {"figure": "Figure 1", "dimension": "occupation", "category": "agricultural and elementary occupations", "finding": "lowest overall exposure"},
+    {"figure": "Figure 6", "dimension": "country", "category": "Czechia, Poland, Slovenia, Slovakia", "finding": "most significant and consistent negative associations in the country analysis"},
+    {"figure": "Figure 6", "dimension": "country", "category": "Estonia and Lithuania", "finding": "less extensive but visible negative pattern"},
+    {"figure": "Figure 6", "dimension": "country", "category": "France, Italy, Portugal, Greece", "finding": "fewer, more isolated associations that generally indicate worse conditions"},
+    {"figure": "Figure 6", "dimension": "country", "category": "Germany, Ireland, Spain, Netherlands, Belgium, Finland, Sweden", "finding": "mixed pattern, including some favorable associations for selected evaluation practices"},
+    {"figure": "Figure 6", "dimension": "country", "category": "Austria", "finding": "described as a positive autonomy outlier"},
+    {"figure": "Figure 6", "dimension": "country", "category": "Denmark", "finding": "described as a predominantly negative outlier"}
+  ],
+  "boundary": "These are qualitative findings reported alongside the figures, not digitized plotted values. Exact prevalence, confidence intervals, standard errors, sample counts, and country-by-practice cells remain unextracted. The paper presents associations, not national-institution causal effects."
+}

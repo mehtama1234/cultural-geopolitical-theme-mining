@@ -101,6 +101,18 @@ technology implementation may mediate the same digital practice differently.
 The current survey does not identify which mechanism explains each country
 contrast.
 
+### 6. Exposure is also stratified by sector and occupation
+
+The paper describes high-tech manufacturing as the highest-intensity industry
+grouping, followed by low-knowledge-intensive services, knowledge-intensive
+services, and low-tech manufacturing. Operators show the highest exposure
+across nearly all practices; clerks and service workers show multiple
+evaluation exposures; professionals and managers see less direct speed and
+instruction control but continued performance monitoring; agricultural and
+elementary occupations show the lowest overall exposure. These are qualitative
+figure findings, preserved in the [Figure 1/6 machine record](data/jrc-aim-work-figure1-6-qualitative-v1.json),
+not digitized prevalence estimates.
+
 ## The bounded chain
 
 ```text
@@ -138,6 +150,7 @@ have documented voice, correction, or refusal rights.
 
 - [Official JRC AIM-WORK analysis record](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
 - [Full Table 2 transcription](data/jrc-aim-work-table2-full-v1.json)
+- [Figure 1/6 qualitative extraction](data/jrc-aim-work-figure1-6-qualitative-v1.json)
 - [Core Table 2 transcription](data/jrc-aim-work-table2-core-v1.json)
 - [AIM-WORK methodology and source record](jrc-aim-work-source-record-v1.md)
 - [Official JRC methodology PDF](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143933/JRC143933_01.pdf)

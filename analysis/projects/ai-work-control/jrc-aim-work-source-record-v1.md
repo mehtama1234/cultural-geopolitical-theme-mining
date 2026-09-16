@@ -84,6 +84,8 @@ The survey and analysis support associations along this path. They do not identi
 machine-readable record](data/jrc-aim-work-table2-full-v1.json); the five-outcome
 [core record](data/jrc-aim-work-table2-core-v1.json) remains available for quick
 review.
+**Figure 1/6 qualitative extraction:** completed for the reported
+sector/occupation/country categories in [the machine-readable record](data/jrc-aim-work-figure1-6-qualitative-v1.json).
 **Country/sector table extraction with denominators, standard errors, and
 uncertainty:** still open.
 **Microdata or code replication:** not established from the public publication
