@@ -39,6 +39,22 @@
       "boundary": "The public announcement does not state the purchased quantity, acceptance, shipment, fielding, training, inventory change, or operational use."
     },
     {
+      "event_id": "jassm-er-congressional-enhancement-2026-07-22",
+      "event_type": "modification",
+      "event_date": "2026-07-22",
+      "date_precision": "day",
+      "actor": "United States Department of State / Congress notification",
+      "recipient": "Government of Poland",
+      "object": "Enhancement or upgrade in sensitivity of technology/capability related to original JASSM-ER possible-sale case 24-33",
+      "quantity": 821,
+      "quantity_unit": "possible missiles ceiling repeated from original notification",
+      "status": "observed",
+      "source_locator": "Congressional Record, July 23, 2026, transmittal RSAT 0F-26",
+      "source_url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/pdf/CREC-2026-07-23-pt1-PgS4259-2.pdf",
+      "local_source": "data/jassm-er-2026-congressional-enhancement-source-note.md",
+      "boundary": "The notification does not establish a signed order modification, changed quantity, shipment, acceptance, fielding, training, inventory, operational use, or geopolitical response."
+    },
+    {
       "event_id": "jassm-er-planned-delivery-2026-2030",
       "event_type": "delivery",
       "event_date": "2026-01-01/2030-12-31",

@@ -124,6 +124,13 @@ inventory, operational use, and external response, with source locators,
 date precision, quantities, actors, and bounded non-observation. It is the
 promotion gate for the next delivery or leverage claim.
 
+The applied ledger now includes a July 2026 Congressional Record transmittal
+that references an enhancement in technology/capability sensitivity tied to
+the original Poland possible-sale case. This is a new procurement-stage
+observation, not a delivery update: the public record still does not provide
+an accepted quantity, Polish unit receipt, training, inventory, or operational
+response for the May 2024 order.
+
 This is not a contradiction. It is a more precise realization ledger:
 
 ```text
