@@ -1205,6 +1205,13 @@ market-transition or household result.
   cells now have official-universe Fay-BRR estimates. Renters show higher
   assistance and work prevention but lower paid-care use than owners/buyers;
   the sparse no-rent cells are not ranked and housing causation remains open.
+- **SIPP joint-constraint diagnostic:** a same-record December cross-tab now
+  places utility difficulty, annual child-care work prevention, tenure, and
+  rent/mortgage hardship together. It adds a joint-constraint screen and a
+  no-utility-difficulty counter-surface, but the care field has a mixed annual
+  clock and the local slice lacks replicate weights. It is not a promoted
+  trend estimate; dated bills, assistance, care intensity, and follow-up
+  recovery remain open.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,

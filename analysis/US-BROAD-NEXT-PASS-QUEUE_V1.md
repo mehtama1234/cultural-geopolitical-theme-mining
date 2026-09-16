@@ -156,6 +156,15 @@ income, wealth, insurance, and utilities. The next pass is no longer field
 discovery; it is the executed 2019/2021/2023 file audit with valid denominators,
 weights, attrition, imputation handling, and first descriptive cells.
 
+The new [SIPP utility/care/mortgage three-way diagnostic](projects/us-household-calendar-integration/sipp-utility-care-mortgage-three-way-diagnostic-v1.md)
+places utility difficulty, annual child-care work prevention, tenure, and
+December rent/mortgage hardship on the same identified person records. It
+adds a joint-constraint screen and a useful no-utility-difficulty counter-
+surface, but the care field is on an annual fall clock and the local slice
+does not include the replicate archive. It is therefore a diagnostic memo,
+not a promoted trend estimate; the next test is the same cross-tab with
+Fay-BRR uncertainty and then a dated bill or assistance event.
+
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,
 MEPS annual health-cost and health-status transitions, and SHED/ATUS care and

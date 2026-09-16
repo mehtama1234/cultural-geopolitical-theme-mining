@@ -316,6 +316,10 @@ def main():
     # with the small-cell and non-causal boundaries kept in the text.
     work_room_synthesis = ROOT / "analysis/projects/us-household-calendar-integration/work-stays-still-household-room-shrinks-synthesis-v1.md"
     memos.append(work_room_synthesis)
+    # Publish the same-record SIPP three-way diagnostic so the review route
+    # exposes the new joint-constraint screen and its no-variance boundary.
+    sipp_three_way_diagnostic = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-care-mortgage-three-way-diagnostic-v1.md"
+    memos.append(sipp_three_way_diagnostic)
     # Give the local-place lane a reader route from firm formation and stocks
     # through practical reachability, belonging, and political context.
     local_business_readme = ROOT / "analysis/projects/us-local-business-place/README.md"
