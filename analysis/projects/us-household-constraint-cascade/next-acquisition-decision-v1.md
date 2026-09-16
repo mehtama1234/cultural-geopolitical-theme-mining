@@ -73,6 +73,8 @@ The existing tools are [audit_uas_health_cost_legitimacy_files.py](../../../scri
 [audit_uas_health_cost_legitimacy_merge.py](../../../scripts/audit_uas_health_cost_legitimacy_merge.py),
 and [analyze_uas_monthly_medical_expense_followup.py](../../../scripts/analyze_uas_monthly_medical_expense_followup.py).
 Their regression guards pass via [test_uas_health_cost_legitimacy_guards.py](../../../scripts/test_uas_health_cost_legitimacy_guards.py).
+The [minimum episode-field manifest](data/uas-minimum-episode-field-manifest-v1.json)
+is the machine-readable version of the required fields and stop conditions.
 
 ## Required go/no-go evidence
 

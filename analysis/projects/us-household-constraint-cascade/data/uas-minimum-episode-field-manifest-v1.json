@@ -1,0 +1,68 @@
+{
+  "format": "us-household-constraint-cascade-uas-minimum-field-manifest-v1",
+  "checked": "2026-09-16",
+  "status": "documentation_only; no respondent microdata acquired",
+  "purpose": "Define the smallest UAS file and field package that could be tested for same-case cascade closure.",
+  "storage_policy": {
+    "raw_microdata_in_repository": false,
+    "raw_microdata_retention": "outside Git only after access and overlap gates pass",
+    "derived_output": "compact keyed extraction and aggregate records only"
+  },
+  "candidate_files": [
+    {
+      "role": "monthly_panel",
+      "access": "registration_gated",
+      "documented_candidates": {
+        "identity": ["uasid", "wave", "uashhid", "survhhid"],
+        "exposure": ["fin3s4"],
+        "exposure_timing": ["fin1_when_month", "fin1_when_day", "fin1_when_year"],
+        "later_outcomes": ["le_hrs_s1", "le_hrs_srh1", "le_hrs_p1", "meaningthetas_*"],
+        "work_or_event_timing": ["le_hrs001_when_*"]
+      },
+      "still_verify_after_access": ["wave_weight", "module_eligibility", "missing_codes", "duplicate_uasid_wave", "attrition_fields"]
+    },
+    {
+      "role": "uas537_healthcare_experience",
+      "access": "registration_gated",
+      "documented_candidates": {
+        "identity": ["uasid"],
+        "choice_and_access": ["avoidcare_cost", "afford_services"],
+        "obligation_or_dispute": ["hcb_ever"],
+        "institutional_meaning": ["hrsntrust_hosp", "hrsntrust_ins"]
+      },
+      "still_verify_after_access": ["field_wave", "recall_window", "weight", "module_overlap", "response_and_remedy_detail"]
+    },
+    {
+      "role": "uas698_health_cost",
+      "access": "registration_gated",
+      "documented_candidates": {
+        "outside_help": ["N215"],
+        "amount_or_obligation": ["N333"],
+        "quality_cost_convenience": ["N235"],
+        "choice_and_foregone_care": ["N492", "N493"],
+        "preference_or_alternative": ["N295"],
+        "identity": ["uasid"]
+      },
+      "still_verify_after_access": ["field_wave", "recall_window", "weight", "amount_units", "institutional_response", "remedy_fields"]
+    }
+  ],
+  "promotion_requirements": {
+    "identity_and_timing": ["stable_uasid", "unique_uasid_wave", "exposure_precedes_outcome", "documented_recall_window"],
+    "room_and_obligation": ["amount_or_rule", "payment_or_affordability", "outside_help_or_credit", "feasible_alternative"],
+    "choice_and_consequence": ["received_delayed_skipped_or_substituted_care", "stated_reason", "later_health_work_or_financial_outcome"],
+    "institutional_route": ["responsible_institution", "contact_or_decision", "response_date_or_order"],
+    "remedy_and_recovery": ["correction_refund_restoration_or_verified_no_remedy", "one_three_and_six_month_followup"],
+    "meaning_and_action": ["prior_trust_or_identity", "later_trust_attribution_action_switching_or_exit"],
+    "design": ["weight", "eligibility", "attrition", "missingness", "uncertainty", "counterexample", "source_hash"]
+  },
+  "stop_conditions": [
+    "missing_or_duplicate_uasid_wave_keys",
+    "no usable weight or unverifiable module eligibility",
+    "medical expense exposure cannot be ordered before the outcome",
+    "only aggregate cost or satisfaction without a choice or obligation field",
+    "no institutional route or remedy verification field",
+    "usable overlap too small to support the declared denominator",
+    "raw file would exceed the approved storage plan before column extraction"
+  ],
+  "current_evidence_boundary": "The codebook supports documented candidate fields only. No UAS respondent file, overlap, weight audit, remedy observation, or end-to-end estimate is present locally."
+}
