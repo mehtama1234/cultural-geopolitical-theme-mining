@@ -1,10 +1,11 @@
 {
   "format": "sipp-work-limitation-hours-earnings-reproduction-audit-v1",
-  "checked": "2026-09-14",
-  "command": "python3 scripts/analyze_sipp_resource_worklimitation_hours_earnings.py --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v16/resource-worklimitation-hours-earnings.json",
-  "primary_input": {"rows": 379215, "sha256": "ac7cf95ba404d4a4a99f7061e9dce31db12c77cd3612920ac7ff906c76d68497"},
+  "checked": "2026-09-15",
+  "command": "python3 scripts/analyze_sipp_resource_worklimitation_hours_earnings.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/resource-worklimitation-hours-earnings.json",
+  "primary_input": {"rows": 379215, "sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda"},
   "replicate_input": {"sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "replicates": 240},
   "output": {"rows_read": 379215, "identified_persons": 31992, "matched_pair_rows": 156561, "sha256": "dbf7016ed7001c94b0feb9640688c490e02c4c5705c81f1c973af141d57d2450"},
-  "method": "Person-level resource-band to next-month valid numeric TPEARN/TMWKHRS change, conditioned on EDISABL, using WPFINWGT and Census Fay BRR with G=240 and perturbation factor 0.5.",
+  "script_sha256": "aad3a99dbafc3bebdc9725ff3cb0cfb0d6d6da53fc7284cea978b97355604a90",
+  "method": "Person-level resource-band to next-month valid numeric TPEARN/TMWKHRS change, conditioned on EDISABL, using WPFINWGT and Census Fay BRR with G=240 and perturbation factor 0.5; corrected v18 slice is used.",
   "boundary": "Primary and replicate files remain outside Git. Earnings and hours have separate valid pair universes; neither field establishes desired hours, job quality, accommodation, household prevalence, causality, or downstream meaning/action."
 }
