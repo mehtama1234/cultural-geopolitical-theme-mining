@@ -1,0 +1,26 @@
+{
+  "format": "sipp-utility-tenure-childcare-reproduction-audit-v1",
+  "checked": "2026-09-16",
+  "status": "reproduced from existing local artifacts; no new download",
+  "command": "python3 scripts/analyze_sipp_utility_tenure_childcare.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/sipp-utility-tenure-childcare-v18.json",
+  "input_files": {
+    "primary": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "primary_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive": "/tmp/rw2025_csv.zip",
+    "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "c3daa8d5870a5030528f466c2d532690dd0a463247621af0e8aad0ca95d968ff"
+  },
+  "output_sha256": "ebbb8211d3e3def3d7dc99975b42cd551094005b479892a845663e6c0002b8be",
+  "rows_read": 379215,
+  "identified_records": 2601,
+  "replicate_rows_matched": 2601,
+  "reproduced_record": "../../records/us-sipp-utility-tenure-childcare-2024.json",
+  "comparison": {
+    "difficulty_owned_percent": 9.349088,
+    "difficulty_rented_percent": 8.129805,
+    "no_difficulty_owned_percent": 2.836348,
+    "no_difficulty_rented_percent": 5.009715
+  },
+  "method": "December utility condition and tenure conditioned on annual fall child-care work-prevention status in the reference-parent universe, using WPFINWGT and 240 Fay-BRR replicate weights.",
+  "boundary": "This is a descriptive conditional comparison, not a dated utility event, monthly care-time estimate, tenure effect, causal result, household prevalence estimate, recovery, trust, or political-action measure. Primary and replicate files remain outside Git."
+}

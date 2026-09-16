@@ -1,7 +1,7 @@
 # Utility difficulty, tenure, and child-care work prevention v1
 
 **Status:** bounded SIPP time/care conditional comparison  
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Source:** 2025 SIPP public-use file, 2024 reference period  
 **Unit:** identified reference-parent person record; annual fall child-care work-prevention report conditioned on December utility difficulty and tenure  
 **Method:** `WPFINWGT` with 240 Fay-BRR replicate weights, `G=240`, perturbation factor `0.5`
@@ -90,15 +90,16 @@ for a richer family-level design.
 
 ```text
 python3 scripts/analyze_sipp_utility_tenure_childcare.py \
-  --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv \
-  --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip \
-  --output /tmp/us-broad-sipp-2025/full-v16/utility-tenure-childcare.json
+  --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv \
+  --replicate-zip /tmp/rw2025_csv.zip \
+  --output /tmp/sipp-utility-tenure-childcare-v18.json
 ```
 
 The [machine-readable record](../../records/us-sipp-utility-tenure-childcare-2024.json)
 preserves the source, replicate, output, and script hashes. The [parent
 utility/tenure work layer](sipp-utility-work-tenure-following-layer-v1.md)
-preserves the adjacent-month work transition.
+preserves the adjacent-month work transition. The [reproduction audit](sipp-utility-tenure-childcare-reproduction-audit-2026-09-16.json)
+records the current v18 rerun and matching conditional cells.
 
 **Evidence status:** estimated descriptive conditional bridge with design-based
 uncertainty. No causal utility, tenure, care, household-security, health,
