@@ -32,6 +32,7 @@ Read these in order if you want the most developed end-to-end chain:
 7. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
 8. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
 9. [UAS health-cost legitimacy acquisition audit](analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md)
+10. [HRS older-adult health-cost and trust acquisition audit](analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md)
 
 The central conclusion is deliberately qualified: the project can connect
 health-cost exposure, care choices, household adaptation, institutional
