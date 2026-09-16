@@ -95,6 +95,17 @@ not a pooled household stress score. A complete dated trigger → alternative �
 protected/sacrificed outcome → recovery → meaning/action chain remains the
 program's acquisition target.
 
+The [SHED coverage-to-care-foregoing comparison](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md)
+adds an important condition inside that middle. In the recontact panel,
+stable insurance has the largest no-foregoing share (69.12%) and the lowest
+persistent-foregoing share (14.53%), while persistent uninsurance has the
+highest persistent-foregoing share (37.35%); coverage loss and gain remain
+smaller cells with different entry and exit profiles. The [reproduction audit](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
+confirms these cells from the existing local artifacts. This is a route
+condition, not an insurance effect: the annual fields do not observe plan
+adequacy, network access, a dated need or bill, treatment continuity, or
+recovery.
+
 The new [MEPS expenditure-conditioned finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-002.md)
 deepens the health-cost/work bridge without turning spending into a burden
 score. Baseline 2022 expenditure bands have different perceived-health and
