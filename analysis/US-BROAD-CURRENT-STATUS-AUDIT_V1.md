@@ -1449,6 +1449,13 @@ productivity or worker-power estimate. The next test is one named workplace
 system followed through notice, override/appeal, realized exposure, and worker
 and household outcomes, with a differently governed comparison.
 
+The follow-up [named workplace system stage ledger](projects/ai-work-control/named-workplace-system-stage-ledger-v1.md)
+now makes that open AI/work step comparable across three named systems: IBM's
+Germany AI framework, Microsoft Places, and Microsoft 365 Copilot. The cases
+reach anticipatory governance, controlled deployment, and one company-reported
+product-design change, respectively, but none reaches independently observed
+enforcement, worker welfare, household security, or practical exit.
+
 ## The shared end-to-end model
 
 ```text

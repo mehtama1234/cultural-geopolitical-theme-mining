@@ -612,6 +612,13 @@ same-workplace outcome stage; the next test is a named system with notice,
 override or appeal, enforcement, workload/pace, pay, schedule, health,
 bargaining, and household-security fields plus a differently governed comparison.
 
+The [named workplace system stage ledger](projects/ai-work-control/named-workplace-system-stage-ledger-v1.md)
+turns that next test into a controlled comparison of IBM Germany AI governance,
+Microsoft Places, and Microsoft 365 Copilot. It records the highest supported
+stage for each case and keeps enforcement, actual worker exposure, worker and
+household outcomes, and exit as explicit unknowns. This is a local-record
+stage comparison, not a worker-power estimate.
+
 The paired [IMF Financial Access Survey provider-side audit](projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md)
 now separates annual administrative/provider capacity from Findex's adult
 reports. A public SDMX query returned and preserved 566 US rows for 2020–2024,

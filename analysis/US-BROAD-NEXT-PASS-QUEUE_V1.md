@@ -2132,6 +2132,13 @@ household security, or exit. The next pass should follow one named workplace
 system through those missing endpoints and include a differently governed
 comparison; do not add another generic adoption cross-tab.
 
+The named-system follow-up now compares IBM Germany AI governance, Microsoft
+Places, and Microsoft 365 Copilot on one stage sequence. The next acquisition
+should be a worker-side, works-council, technical-release, or administrative
+artifact that joins a specific concern to a dated rule change and then to
+actual exposure, appeal, workload, pay, health, bargaining, household
+security, or exit. Keep a differently governed workplace in the design.
+
 ## Sequencing rule
 
 Run the next passes in four rotating lanes so breadth is preserved:
