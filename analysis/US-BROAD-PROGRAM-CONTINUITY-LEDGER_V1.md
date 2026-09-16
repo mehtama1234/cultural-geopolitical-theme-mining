@@ -110,6 +110,12 @@ through the [capacity-without-exit cross-domain synthesis](projects/ai-work-cont
 It keeps physical capacity, fiscal revenue, governance rules, local incidence,
 replaceability, and external response as separate stages rather than treating
 investment or an agreement as public benefit or leverage.
+The current realization-stage audit now makes the comparison executable across
+the US data-center and Poland JASSM-ER ledgers: the data-center case has 13
+dated records including governance and operational-stress events, while the
+JASSM-ER case has 7 records centered on authorization, agreement, planned
+delivery, and a control comparator. Accepted output, replaceability, public or
+partner incidence, and changed external behavior remain open.
 
 The fifth rotation returns to material/time/care through the [time-as-hidden-
 price cross-domain synthesis](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md).

@@ -379,6 +379,12 @@ JASSM-ER schedule into observed delivery or operational availability. The
 current arrow therefore remains procurement intent → planned delivery →
 acceptance/integration/inventory → realized external or political response;
 deterrence, alliance cohesion, and changed adversary behavior remain open.
+The new [capacity/dependence realization-stage audit](projects/ai-work-control/capacity-dependence-realization-audit-v1.md)
+formalizes this boundary across the US data-center and Poland JASSM-ER
+ledgers. It finds commitments and intermediate capacity or operational-stress
+signals, but no complete public/partner outcome, credible replaceability, or
+observed external behavior change. The cases are stage-comparable, not pooled
+capacity or leverage measures.
 
 The SHED 2024–2025 financial-path health/care comparison is also preserved as
 six validated conditional trend observations, keeping the health and adult-care
