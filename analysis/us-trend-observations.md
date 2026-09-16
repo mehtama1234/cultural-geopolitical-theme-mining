@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-247 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+248 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -533,6 +533,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | MEPS 2024 financial room and medical debt align with cost-related care delay measures | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person-level financial-room, medical-debt, cost-related care-access, and institutional-friction fields | United States | 2 | 2024; round 4/2 financial room, medical debt, and cost-related care access; 2024; round 4/2 institutional friction comparison | compared | [open](records/us-meps-2024-financial-room-care-delay-2024.json) |
 
 **Boundary:** These are same-respondent cross-sectional associations between financial room, medical debt, institutional friction, and cost-related care access. They do not identify a dated episode, causal effect, household adaptation timing, remedy, trust, political action, or geopolitical consequence.
+
+| MEPS health-direction patterns differ by institutional friction route | cost, voice | care_health_reproduction, public_systems_feedback, unequal_exposure_status | Two separate MEPS 2024 HC-256 person-level longitudinal descriptive screens: prescription delay and denial/prior-authorization delay | United States | 2 | 2024; round-4/2 prescription delay to round-5/3 perceived-health direction; 2024; round-5/3 denial or prior-authorization delay with round-4/2 to round-5/3 perceived-health direction | compared | [open](records/us-meps-2024-friction-route-direction-comparison.json) |
+
+**Boundary:** These are separate, non-pooled longitudinal descriptive screens with different exposure definitions and clocks. They show that institutional friction is not one uniform health-direction mechanism; they do not establish causality, clinical recovery, treatment continuity, household adaptation, remedy, trust, action, switching, exit, or geopolitical consequence.
 
 | MEPS 2024 full-year file supplies a newer design-based health-cost vintage | cost, time, work | care_health_reproduction, household_room_consumption, work_control_bargaining, public_systems_feedback | AHRQ MEPS Household Component 2024 Full-Year Consolidated Public Use File release and 2026 release schedule | United States; civilian noninstitutionalized population | 9 | Calendar year 2024; full-year consolidated PUF release; 2026 MEPS release schedule; September checkpoint; Calendar year 2024; all HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; poverty-category subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; full-year insurance coverage subgroup estimates among HC-256 records with positive PERWT24F and valid expenditure field; Calendar year 2024; HC-254G office-based medical provider event layer; Calendar year 2024; HC-254A prescribed-medicine purchase event layer; Calendar year 2024; HC-254E emergency-room visit event layer; Calendar year 2024; HC-254D hospital inpatient-stay event layer | estimated; reported | [open](records/us-meps-2024-full-year-release-gate.json) |
 

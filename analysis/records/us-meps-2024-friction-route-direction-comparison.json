@@ -1,0 +1,46 @@
+{
+  "format": "cultural-geopolitical-theme-mining-trend-observation-schema-v1",
+  "trend_id": "us-meps-2024-friction-route-direction-comparison",
+  "title": "MEPS health-direction patterns differ by institutional friction route",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "Two separate MEPS 2024 HC-256 person-level longitudinal descriptive screens: prescription delay and denial/prior-authorization delay",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; round-4/2 prescription delay to round-5/3 perceived-health direction",
+      "denominator": {"value": 674, "unit": "valid prescription-delay reporters with complete round-to-round perceived-health direction"},
+      "measures": {
+        "delay_group_health_improved": {"value": 24.62, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "delay_group_health_worsened": {"value": 19.12, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "no_delay_group_health_improved": {"value": 20.42, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "no_delay_group_health_worsened": {"value": 22.11, "unit": "percent; weighted share", "value_type": "weighted_share"}
+      },
+      "method": "MEPS HC-256 round-4/2 prescription-delay report compared with ordinal perceived-health direction through round 5/3; standard BRR with 128 replicate flags.",
+      "uncertainty": "Source record preserves BRR standard errors and intervals; the route has no claim identifier, fill/adherence, treatment-continuity, payment, or household-response field.",
+      "subgroup": "Valid round-4/2 prescription-delay and round-5/3 perceived-health records.",
+      "counterinterpretation": "Medication need, severity, coverage, age, selection, and regression toward the mean can affect both delay reporting and health direction.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "source-record:sha256:931e392b6a146263a92ee25d77bc9e806bfaa11dc9b984a5052876fdec4bcc71; comparison:sha256:b3bbacd7d7c6987d78e969d04d49dc296bfe7cda340bd7e9d09ad374a4089fad"
+    ,"status": "compared"
+    },
+    {
+      "period": "2024; round-5/3 denial or prior-authorization delay with round-4/2 to round-5/3 perceived-health direction",
+      "denominator": {"value": 1574, "unit": "valid denial/prior-authorization-delay reporters with complete round-to-round perceived-health direction"},
+      "measures": {
+        "friction_group_health_improved": {"value": 19.04, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "friction_group_health_worsened": {"value": 25.11, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "no_friction_group_health_improved": {"value": 20.29, "unit": "percent; weighted share", "value_type": "weighted_share"},
+        "no_friction_group_health_worsened": {"value": 21.74, "unit": "percent; weighted share", "value_type": "weighted_share"}
+      },
+      "method": "MEPS HC-256 round-5/3 denial or prior-authorization-delay report compared with ordinal perceived-health direction from round 4/2 to 5/3; standard BRR with 128 replicate flags.",
+      "uncertainty": "Source record preserves BRR standard errors and intervals; the round-5/3 report is not proven to occur after the round-4/2 health endpoint and has no claim identifier or remedy field.",
+      "subgroup": "Valid round-5/3 denial/prior-authorization-delay and round-to-round perceived-health records.",
+      "counterinterpretation": "Underlying illness, service need, coverage, access, employment, selection, and timing ambiguity can generate the observed association.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "source-record:sha256:f2f0a6c1d60191ec475eabdb66f21415874b221ea588f1ef87b1823d99f77634; comparison:sha256:b3bbacd7d7c6987d78e969d04d49dc296bfe7cda340bd7e9d09ad374a4089fad",
+      "status": "compared"
+    }
+  ],
+  "boundary": "These are separate, non-pooled longitudinal descriptive screens with different exposure definitions and clocks. They show that institutional friction is not one uniform health-direction mechanism; they do not establish causality, clinical recovery, treatment continuity, household adaptation, remedy, trust, action, switching, exit, or geopolitical consequence."
+}
