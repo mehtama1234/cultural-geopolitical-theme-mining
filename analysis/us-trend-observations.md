@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-250 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+251 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -881,6 +881,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Tenure and resources jointly shape reported household pressure | cost, time, voice | household_room_consumption, housing_place_mobility, unequal_exposure_status, care_health_reproduction, political_judgment_action | SIPP person record by reference month, stratified by tenure and monthly income-to-poverty band | United States | 4 | 2024 reference year; owned/bought, below 1.00x; 2024 reference year; rented, below 1.00x; 2024 reference year; owned/bought, 4.00x or more; 2024 reference year; rented, 4.00x or more | estimated | [open](records/us-sipp-tenure-resource-pressure-2024.json) |
 
 **Boundary:** Replicate-weighted descriptive person-record comparison. It does not estimate household prevalence, tenure causation, a dated bill response, health or work displacement, recovery, trust, political action, or geopolitical consequence.
+
+| Utility difficulty and child-care work prevention sit beside following-month renter insecurity | cost, time, voice | household_room_consumption, time_hidden_price, care_health_reproduction, public_systems_feedback, political_judgment_action | identified SIPP renter reference-parent person pair with utility condition at month t, annual child-care work-prevention status and following outcomes at month t+1 | United States | 2 | 2024 reference year; November-to-December; utility difficulty, renter, care not prevented; 2024 reference year; November-to-December; utility difficulty, renter, care prevented | compared | [open](records/us-sipp-utility-care-following-outcomes-2024.json) |
+
+**Boundary:** This selected renter layer places utility difficulty and tenure at month t beside annual fall child-care work prevention and following-month housing hardship, food insecurity, and resource-band movement. The care field is not newly observed in the following month; utility difficulty is not a bill or shutoff; the prevention cell is small. No causal, recovery, remedy, trust, political-action, or exit claim is made.
 
 | Utility-payment difficulty coexists with more balance carrying and less savings, but access differs by resources | cost, time, voice | household_room_consumption, unequal_exposure_status, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | 2025 SIPP public-use file, 2024 reference year; person records by reference month | United States | 2 | 2024 reference year; joint utility, credit, and savings universe; 2024 reference year; utility-difficulty subgroup by monthly income-to-poverty ratio | compared | [open](records/us-sipp-utility-credit-savings-joint-2024.json) |
 

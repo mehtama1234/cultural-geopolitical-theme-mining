@@ -1,0 +1,42 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-care-following-outcomes-2024",
+  "title": "Utility difficulty and child-care work prevention sit beside following-month renter insecurity",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "identified SIPP renter reference-parent person pair with utility condition at month t, annual child-care work-prevention status and following outcomes at month t+1",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; November-to-December; utility difficulty, renter, care not prevented",
+      "denominator": {"value": 134, "unit": "valid person pairs", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_mortgage_hardship": {"value": 57.9885, "unit": "percent; Fay-BRR SE 5.0855; approximate 95% CI 48.0209–67.9561", "value_type": "weighted_share"}, "following_food_insecurity": {"value": 50.2093, "unit": "percent; Fay-BRR SE 4.8974; approximate 95% CI 40.6104–59.8082", "value_type": "weighted_share"}, "resource_band_changed": {"value": 5.5633, "unit": "percent; Fay-BRR SE 2.1836; approximate 95% CI 1.2834–9.8432", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month descriptive comparison using November WPFINWGT and 240 Fay-BRR replicate weights; resource movement is any income-to-poverty-band crossing.",
+      "uncertainty": "Utility and care fields may be reference-period measures; separate valid outcome universes are retained and no dated bill is observed.",
+      "subgroup": "Renter reference-parent pairs with utility difficulty and no reported child-care work prevention.",
+      "counterinterpretation": "Housing, family, work, health, and material selection may explain the surface; no utility or care effect is estimated.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:faadd7cebfb07cda3b857ad393ee94c2705cf839ce034c4b21bc82c183fe4f2e; sha256:6ccf5246bdb8d853c6967473aaab8dd7dfbbf9cd940f94cce9f5f6f5413815f9",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; November-to-December; utility difficulty, renter, care prevented",
+      "denominator": {"value": 12, "unit": "valid person pairs", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_mortgage_hardship": {"value": 72.8028, "unit": "percent; Fay-BRR SE 13.2533; approximate 95% CI 46.8262–98.7794", "value_type": "weighted_share"}, "following_food_insecurity": {"value": 64.6420, "unit": "percent; Fay-BRR SE 15.6962; approximate 95% CI 33.8774–95.4066", "value_type": "weighted_share"}, "resource_band_changed": {"value": 18.9556, "unit": "percent; Fay-BRR SE 15.7785; approximate 95% CI 0–49.8815", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month descriptive comparison using November WPFINWGT and 240 Fay-BRR replicate weights; resource movement is any income-to-poverty-band crossing.",
+      "uncertainty": "Prevention cell has only 12 records and wide intervals; all outcomes are diagnostic rather than stable rankings.",
+      "subgroup": "Renter reference-parent pairs with utility difficulty and reported child-care work prevention.",
+      "counterinterpretation": "A joint-constraint screen cannot separate utilities, housing, care, work, or unobserved resources; it does not estimate a causal effect.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:faadd7cebfb07cda3b857ad393ee94c2705cf839ce034c4b21bc82c183fe4f2e; sha256:6ccf5246bdb8d853c6967473aaab8dd7dfbbf9cd940f94cce9f5f6f5413815f9",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md", "claim": "Defines the full 2,600-pair bridge, separate outcomes, and owner/buyer counter-surfaces.", "status": "method"},
+    {"source_url": "../projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md", "claim": "Places SIPP monthly work/care/resource fields beside complementary MEPS and ATUS clocks.", "status": "synthesis"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official definitions and universes for utility, tenure, care-prevention, food, hardship, and resource fields.", "status": "official-definition"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_sipp_utility_care_following_outcomes.py", "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv", "replicate_input": "/tmp/rw2025_csv.zip", "rows_read": 379215, "identified_pairs": 2600, "replicate_pairs_matched": 2600, "result": "The two selected renter observations reproduce the local bridge output; raw inputs remain outside the repository.", "interpretation": "This is an adjacent-month descriptive joint-constraint screen, not a dated bill event, causal effect, household prevalence estimate, recovery result, remedy result, trust result, or political-action result."},
+  "boundary": "This selected renter layer places utility difficulty and tenure at month t beside annual fall child-care work prevention and following-month housing hardship, food insecurity, and resource-band movement. The care field is not newly observed in the following month; utility difficulty is not a bill or shutoff; the prevention cell is small. No causal, recovery, remedy, trust, political-action, or exit claim is made."
+}
