@@ -159,6 +159,14 @@ The case raises the next question rather than ending the theme: can this
 outcome be repeated, monitored after payment, and extended to decisions made
 through more explicitly automated ranking or allocation systems?
 
+The [Uber / Bakar record](uber-bakar-revoked-deactivation-record-v1.md) shows
+how a remedy can stop before merits review. An initial protection finding was
+revoked after settlement and discontinuance, while the public record raised a
+question about whether the named respondent was the platform operator. This
+adds corporate identity and enforceability to the map of platform power:
+cross-border ownership can affect not only who sets the rule, but who can be
+made to answer for it.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |

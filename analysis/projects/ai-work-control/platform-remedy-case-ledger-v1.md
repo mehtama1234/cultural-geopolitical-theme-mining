@@ -37,6 +37,7 @@ occurred.
 | PR-011 | Philippines platform economy | Official DOLE dialogue, complaint-capacity, and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, 24/7 complaint unit directive, and bounded safety inspection action | `not_observed` as automated-decision review | `not_observed` | `not_observed` | `observed_official_action` only in separate safety episode; not an ADM remedy | High for official actions; low for algorithmic-remedy outcome | Algorithmic-management and remedy issues entered the official agenda; no binding rule or corrected automated decision shown |
 | PR-012 | Cambodia platform economy | Official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, temporary suspension, complaints, classification, social security, and injury | Platform complaint channel; state dispute authority named in Notification No. 1107 | `observed_self_report` for platform complaint access; specific explanation `not_observed` | `not_observed` | `not_observed` | `not_observed` | Medium for survey findings; high for publication and reported notification; low for individual outcome | Most complainants reported seldom-resolved issues; no verified correction, restoration, payment, or state case outcome located |
 | PR-013 | Melbourne, Australia; Amazon Flex and Gopal Bandameeda | Fair Work Commission primary decision and lost-remuneration order | Customer complaint, platform suspension, permanent deactivation, and conflicting delivery rules | Worker response; request for human discussion; statutory unfair-deactivation application | `observed_adjudicated` including finding that platform process lacked meaningful consideration and further inquiry | `observed_adjudicated` as external review; platform human review found absent | `observed_adjudicated` — reactivation on prior terms ordered | `observed_adjudicated` — $12,126.31 lost remuneration ordered; restoration, not compensation | `not_observed` | High for decision and order; low for payment receipt, durability, and generalization | One complete individual remedy chain is visible; recurrence prevention, receipt, and anti-retaliation remain open |
+| PR-014 | Australia; Uber App, Mian Abu Bakar, and Rasier Pacific | Fair Work Commission eligibility decision and revocation decision | Uber/Uber Eats deactivation; six-month protection threshold; platform-operator identity | Unfair-deactivation application; threshold adjudication; settlement and discontinuance | `observed_adjudicated_then_revoked` at eligibility stage | `not_observed` on merits | `not_observed` | `not_observed` — settlement terms unavailable | `not_observed` | High for revocation and corporate-identity concern; low for settlement outcome | Eligibility finding was revoked by consent; no public merits decision or remedy; operator identity and enforceability remained open |
 
 ## Cross-row findings
 
@@ -70,6 +71,14 @@ further inquiries. It ordered reactivation on the prior terms and a separate
 $12,126.31 order restoring lost remuneration. The amount is not coded as
 compensation, and payment receipt, continued access, recurrence prevention,
 and retaliation remain unverified.
+
+PR-014 supplies the contrasting procedural boundary. The Commission initially
+found that an Uber/Uber Eats worker met the six-month protection threshold, but
+later revoked that decision by consent after settlement and discontinuance.
+The public record raises whether the named respondent or Uber Technologies
+was the platform operator and leaves settlement terms, payment, reinstatement,
+and merits fairness unobserved. This is not coded as either a worker win or a
+worker loss on the underlying deactivation.
 
 ### Formal remedy and practical remedy are separate variables
 
@@ -125,6 +134,7 @@ For each new case, add:
 - [Philippines DOLE platform-governance record](philippines-dole-platform-governance-record-v1.md)
 - [Cambodia platform-work diagnostic record](cambodia-platform-work-diagnostic-record-v1.md)
 - [Amazon Flex / Bandameeda deactivation remedy record](amazon-bandameeda-deactivation-remedy-record-v1.md)
+- [Uber / Bakar deactivation-jurisdiction record](uber-bakar-revoked-deactivation-record-v1.md)
 
 ## Boundary
 

@@ -289,6 +289,12 @@ reactivation on prior terms and a $12,126.31 lost-remuneration order. It is
 kept separate from an AI-specific case because the decision establishes
 platform-mediated procedural failure, not autonomous algorithmic causation.
 
+The [Uber / Bakar record](uber-bakar-revoked-deactivation-record-v1.md)
+provides the contrasting boundary: an eligibility finding was later revoked by
+consent after settlement, while the responsible platform entity and settlement
+terms remained opaque. This keeps access, enforceability, merits review, and
+worker outcome as separate stages.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite

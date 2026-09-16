@@ -34,6 +34,7 @@ verified worker outcome.
 | Philippines DOLE governance action | Philippines; official labor-department dialogue and inspection releases | Platform labor standards, algorithmic-management policy, data privacy, safety, and complaint access | Government–platform dialogue, requested position papers, announced 24/7 complaint unit, and bounded safety action | Binding rule, complaint-unit operation, algorithmic review, correction, compensation, and case outcomes |
 | Cambodia ILO diagnostic | Cambodia; official ILO mixed-method diagnostic | Ratings, allocation, refusal penalties, suspension, complaints, classification, social security, and injury | Platform complaint access widely reported; approximately two-thirds of complainants reported issues were seldom resolved; state dispute authority named | Verified explanation, independent review, correction, restoration, payment, and state case outcomes |
 | Australia Amazon Flex / Bandameeda | Australia; Fair Work Commission primary decision and payment order | Customer complaint, suspension, permanent deactivation, and conflicting delivery rules | External adjudication found the platform process deficient; reactivation on prior terms and $12,126.31 lost-remuneration restoration ordered | Payment receipt, continued access, recurrence prevention, and anti-retaliation |
+| Australia Uber / Bakar | Australia; Fair Work Commission eligibility and revocation decisions | Uber/Uber Eats deactivation, six-month threshold, and platform-operator identity | Eligibility initially recognized, then revoked by consent after settlement and discontinuance | Settlement terms, merits review, remedy, responsible entity, and enforceability |
 | Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
 | UK ICO recruitment review | United Kingdom; regulator review of ordinary recruitment AI | CV scoring, ranking, filtering, and possible pre-human rejection | Regulator recommendations, contestability expectations, and organizational commitments | Candidate-level human review, changed decision, or compensation |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
@@ -143,6 +144,14 @@ proof of payment receipt, durable process change, or protection against
 retaliation. It also is not proof that an autonomous algorithm made the
 decision, so the case is coded as platform-mediated deactivation rather than
 an AI-specific ruling.
+
+The Bakar proceeding provides the needed contrast. A threshold decision initially
+recognized protection, but the Commission later revoked it by consent after
+settlement and discontinuance. The public record raised whether Rasier Pacific
+or Uber Technologies was the platform operator and did not expose settlement
+terms or any merits remedy. Procedural access therefore depends not only on a
+right and a review body, but also on naming and serving the entity capable of
+providing relief.
 
 ## Contradictions preserved
 
