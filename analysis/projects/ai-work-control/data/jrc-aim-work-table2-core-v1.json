@@ -1,0 +1,34 @@
+{
+  "schema": "jrc-aim-work-table2-core-v1",
+  "checked": "2026-09-15",
+  "source": {
+    "title": "Algorithmic management and working conditions in Europe. Evidence from the AIM-WORK Survey",
+    "jrc_reference": "JRC147505",
+    "url": "https://publications.jrc.ec.europa.eu/repository/handle/JRC147505",
+    "table": "Table 2, pp. 19-20",
+    "retrieval_note": "Core cells transcribed from the publicly readable full text; official JRC repository record is the canonical publication locator."
+  },
+  "unit": "employees in all 27 EU Member States",
+  "model": "ordered logistic regression; average marginal effects shown in the published table",
+  "controls_reported_by_paper": ["age-sex categories", "income", "tenure", "education", "workplace size", "industry", "occupation"],
+  "outcomes": ["aut_order", "aut_methods", "aut_speed", "stress", "breaks"],
+  "outcome_labels": {
+    "aut_order": "autonomy to decide task order",
+    "aut_methods": "autonomy to decide work methods",
+    "aut_speed": "autonomy to decide task speed",
+    "stress": "work stress",
+    "breaks": "capacity to take breaks autonomously"
+  },
+  "significance": "*** p<0.01; ** p<0.05; * p<0.10; no marker means not statistically significant",
+  "estimates": [
+    {"practice": "amtime", "aut_order": "-0.072*", "aut_methods": "-0.057", "aut_speed": "-0.058", "stress": "0.038", "breaks": "-0.134***"},
+    {"practice": "amact", "aut_order": "-0.006", "aut_methods": "-0.064*", "aut_speed": "-0.042", "stress": "0.096***", "breaks": "0.003"},
+    {"practice": "amspeed", "aut_order": "-0.231***", "aut_methods": "-0.115*", "aut_speed": "-0.227***", "stress": "-0.056", "breaks": "-0.154**"},
+    {"practice": "amdir", "aut_order": "-0.033", "aut_methods": "-0.151***", "aut_speed": "-0.191***", "stress": "0.108**", "breaks": "-0.094*"},
+    {"practice": "perfrank", "aut_order": "-0.116**", "aut_methods": "-0.116**", "aut_speed": "-0.007", "stress": "0.018", "breaks": "-0.080*"},
+    {"practice": "perfpoints", "aut_order": "0.095**", "aut_methods": "-0.079*", "aut_speed": "-0.066", "stress": "-0.106**", "breaks": "-0.012"},
+    {"practice": "ratingtasks", "aut_order": "0.107", "aut_methods": "-0.010", "aut_speed": "-0.014", "stress": "0.128*", "breaks": "-0.074"},
+    {"practice": "perfcancel", "aut_order": "-0.078", "aut_methods": "-0.144**", "aut_speed": "-0.033", "stress": "0.023", "breaks": "-0.075"}
+  ],
+  "boundary": "The published cells are associations from a cross-sectional worker survey. This compact record does not include standard errors, sample counts per cell, full outcome categories, country-specific estimates, or a causal estimand. Signs must be interpreted with the paper's ordinal coding; estimates are not percentage-point changes in a population outcome."
+}

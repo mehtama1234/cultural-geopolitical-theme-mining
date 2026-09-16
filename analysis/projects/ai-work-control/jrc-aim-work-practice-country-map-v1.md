@@ -23,6 +23,12 @@ The study treats all eight exposures as binary indicators: the worker reports
 whether the practice is present in their routine. This is a measure of exposure,
 not a vendor, software, employer, or implementation audit.
 
+The compact [core Table 2 transcription](data/jrc-aim-work-table2-core-v1.json)
+preserves the published estimates for the five most central outcomes. It keeps
+the paper's significance markers and model description, while explicitly
+omitting standard errors and cell counts that are not present in the compact
+table view.
+
 ## The outcome map
 
 The analysis uses 16 working-condition indicators in four families:
@@ -130,6 +136,7 @@ have documented voice, correction, or refusal rights.
 ## Sources and boundaries
 
 - [Official JRC AIM-WORK analysis record](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [Core Table 2 transcription](data/jrc-aim-work-table2-core-v1.json)
 - [AIM-WORK methodology and source record](jrc-aim-work-source-record-v1.md)
 - [Official JRC methodology PDF](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC143933/JRC143933_01.pdf)
 
