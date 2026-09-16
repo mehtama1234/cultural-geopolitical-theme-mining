@@ -1845,6 +1845,14 @@ children. `RHNUMU18` is not a care-hours measure, so the next gate remains an
 actual care or child-care constraint with desired hours, schedule control,
 paid/unpaid care, and a later material or health outcome.
 
+The new [child-care work-prevention direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-042.md)
+replaces household composition with the stronger `EWORKMORE` care/work proxy.
+It adds a same-person following earnings/hours screen with 240-replicate
+uncertainty, while preserving that the annual fall care measure is not a dated
+monthly event. Prevention-positive cells show lower hours stability and mixed
+earnings direction; the next gate remains a measured care/time-loss amount,
+schedule control, and later protected or sacrificed outcome.
+
 The [intersectional material-room finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-022.md)
 now promotes the race × tenure × monthly-resource comparison into a detailed
 reader-facing memo. A current-vintage SIPP rerun reproduces the prior

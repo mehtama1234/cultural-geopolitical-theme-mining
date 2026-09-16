@@ -1,0 +1,31 @@
+{
+  "record_id": "us-sipp-childcare-work-direction-2024",
+  "source_family": "SIPP/Census",
+  "reference_year": 2024,
+  "unit": "identified person-month and adjacent person-month pair",
+  "measure": "direction of valid nonnegative TPEARN and TMWKHRS at month t+1, conditioned on annual fall EWORKMORE and THINCPOV endpoint",
+  "weight": "WPFINWGT; REPWGT1-REPWGT240",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "inputs": {
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "48125cb0ebe317db930588e5eda8832d5e691fc9c89da677173ced94058b76c7",
+    "output_sha256": "77874a8085869908f64edcd4e8cc945c5389f252d12f32cf960469b238ef1030"
+  },
+  "rows_read": 379215,
+  "identified_persons": 31992,
+  "replicate_rows_read": 378291,
+  "matched_pair_rows": 10944,
+  "selected_cells": {
+    "below_1x": {
+      "care_work_prevented_yes": {"hours_same_percent": 74.53, "earnings_increase_percent": 34.82, "earnings_decrease_percent": 25.01, "valid_hours_pair_n": 71, "valid_earnings_pair_n": 70},
+      "care_work_prevented_no": {"hours_same_percent": 82.60, "earnings_increase_percent": 36.74, "earnings_decrease_percent": 28.93, "valid_hours_pair_n": 1186, "valid_earnings_pair_n": 1156}
+    },
+    "4x_or_more": {
+      "care_work_prevented_yes": {"hours_same_percent": 92.24, "earnings_increase_percent": 42.03, "earnings_decrease_percent": 40.84, "valid_hours_pair_n": 351, "valid_earnings_pair_n": 351},
+      "care_work_prevented_no": {"hours_same_percent": 95.50, "earnings_increase_percent": 43.16, "earnings_decrease_percent": 42.46, "valid_hours_pair_n": 9336, "valid_earnings_pair_n": 9283}
+    }
+  },
+  "status": "descriptive_reproduction; no new trend record",
+  "boundary": "EWORKMORE is an annual fall reference-parent child-care work-prevention measure, not a dated monthly care event. This screen does not establish causality, care hours, desired hours, job quality, household prevalence, recovery, trust, political action, or exit."
+}
