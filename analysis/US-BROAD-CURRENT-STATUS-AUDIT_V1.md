@@ -28,12 +28,18 @@ the PSID/World Bank access dependencies. It is a continuity control, not a
 substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
-The current continuation target is the material/time/care lane: connect a
-dated pressure or care event to alternatives, schedule control, money and
-time substitution, protected and sacrificed outcomes, recovery, trust, and
-action. Existing annual and panel evidence can establish distributions,
-persistence, reversal, and subgroup differences; it cannot by itself join all
-of those stages for the same person or household.
+The current continuation mode is a broad rotation across the seven priority
+bridges: consumer practical exit; AI/platform optionality; public-system route
+divergence; firm/infrastructure capacity and replaceability; material/time/care
+substitution; unequal optionality and cultural meaning; and political action as
+a menu of distinct responses. The [canonical cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md)
+now records that cycle as one map.
+
+The material/time/care lane remains active, but it is not a program-wide gate.
+Existing annual and panel evidence can establish distributions, persistence,
+reversal, and subgroup differences; it cannot by itself join trigger,
+alternatives, substitution, recovery, trust, and action for the same person or
+household.
 
 The [SHED coverage-transition route](projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md)
 now strengthens that middle with a verified 4,419-person recontact panel:

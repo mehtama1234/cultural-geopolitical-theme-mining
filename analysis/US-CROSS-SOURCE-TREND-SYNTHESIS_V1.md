@@ -1,6 +1,6 @@
 # US cross-source trend synthesis v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** living cross-source synthesis; no single causal chain claimed  
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
@@ -27,6 +27,48 @@ evidence by arrow, the segments that are genuinely end-to-end, and the next
 research cycle. Each section keeps a direct observation beside its limitation
 and next test so that a compelling theme does not silently become a causal
 claim.
+
+## Current broad-program rotations
+
+The latest rotation cycle deliberately moved across the full program rather
+than deepening one household lane. These artifacts are bounded syntheses, not
+seven estimates of one phenomenon:
+
+| Rotation | Cross-source artifact | What it adds | Arrow still open |
+|---|---|---|---|
+| 1. Consumer power | [Practical exit](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md) | CFPB, household loss, CPSC, and platform-remedy evidence show institutional visibility is easier to observe than recovery or exit | Verified remedy, switching, trust, and practical exit |
+| 2. AI/platform agency | [AI optionality and control](projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md) | Adoption and immediate time/engagement effects do not automatically become human control | Who captures the gain, who bears error, and who can stop or switch |
+| 3. Public systems | [SNAP route divergence](projects/us-safety-net-access/snap-route-divergence-food-security-political-feedback-synthesis-v1.md) | Entry, exit, food security, administrative ease, and institutional confidence diverge | Notice, amount, remedy, recovery, trust, and action in one episode |
+| 4. Firm/infrastructure/state capacity | [Capacity without exit](projects/ai-work-control/capacity-without-exit-cross-domain-synthesis-v1.md) | Physical capacity, fiscal revenue, and rules can grow before public benefit or replaceability is proven | Net incidence, portability, switching, legitimacy, and external response |
+| 5. Material/time/care | [Time as hidden price](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md) | Households can pay in unpaid care, waiting, extra work, debt, travel, or reduced use | Dated trigger, substitution, protected/sacrificed outcome, and recovery |
+| 6. Unequal exposure/meaning | [Unequal optionality](projects/us-cost-trust-politics/unequal-optionality-status-meaning-synthesis-v1.md) | Inequality is unequal room to absorb, contest, reinterpret, or leave—not exposure alone | Attribution, alternatives, trust, and action by the same unit |
+| 7. Political action | [Action is a menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md) | Voting, contact, volunteering, complaint, organizing, switching, and withdrawal have different barriers | Same-event action, institutional response, and later legitimacy |
+
+### The common pattern
+
+Across the seven rotations, the strongest recurring theme is **unequal
+optionality under institutional mediation**. A condition or capability changes
+the options available to people, consumers, workers, firms, places, or states;
+an institution then routes, prices, classifies, delays, corrects, funds, or
+governs the response. The visible endpoint is often not the human or public
+outcome but the institution's own record: a complaint label, a benefit
+transition, a time measure, a tax receipt, a policy filing, a vote, or a
+production milestone.
+
+The broad map therefore needs one discipline at every scale:
+
+```text
+observed condition or capability
+  -> available alternatives and control
+  -> adaptation and redistribution of money, time, risk, data, or power
+  -> institutional and firm response
+  -> meaning, trust, action, switching, or exit
+  -> sector, state, or geopolitical consequence
+```
+
+The rotations strengthen the middle of this chain and sharpen the open-arrow
+list. They do not prove one grand causal theory, and they do not make the
+unavailable PSID/UAS respondent files a program-wide dependency.
 
 This is the current end-to-end reading of the atlas. It is deliberately a
 bridge across different units, not a merge of respondents, households,
