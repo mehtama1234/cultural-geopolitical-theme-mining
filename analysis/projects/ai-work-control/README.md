@@ -305,6 +305,10 @@ The [Australian platform-deactivation case census](australian-platform-deactivat
 expands the original mechanism sample into a bounded nine-proceeding
 official-bulletin inventory with explicit denominator and stage boundaries.
 
+The [Australia–Malaysia–Cambodia stage-compatible comparison](australia-malaysia-cambodia-stage-compatible-comparison-v1.md)
+compares adjudicated remedy depth, institutional hearing use, and worker-
+reported resolution without pooling unlike outcomes.
+
 The [Cambodia ILO diagnostic](cambodia-platform-work-diagnostic-record-v1.md)
 adds worker-reported complaint access and low resolution, suspension and injury
 evidence, classification and social-security context, and a tripartite

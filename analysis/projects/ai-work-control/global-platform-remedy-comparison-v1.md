@@ -178,6 +178,11 @@ These are different endpoints, not inconsistent findings.
 
 ## Decisive next acquisition
 
+The [Australia–Malaysia–Cambodia stage-compatible comparison](australia-malaysia-cambodia-stage-compatible-comparison-v1.md)
+now provides the first explicit cross-country stage matrix. It keeps
+Australia's adjudicated orders, Malaysia's reported Tribunal hearing, and
+Cambodia's worker-reported complaint resolution as distinct evidence layers.
+
 Build a case-level remedy ledger with one row per disputed decision and the
 following fields:
 

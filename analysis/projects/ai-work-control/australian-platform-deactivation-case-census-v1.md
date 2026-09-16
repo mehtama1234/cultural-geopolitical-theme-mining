@@ -64,7 +64,7 @@ applications. It must not be reduced to a single “success percentage.”
 
 ### Restoration is no longer a one-case curiosity
 
-The frame contains four merits-level reactivation outcomes, with two public
+The frame contains five merits-level reactivation outcomes, with two public
 lost-pay amounts ($12,126.31 in Bandameeda and $6,073.23 in Mansoor) and three
 matters where lost pay remained to be determined (Hotak, Al Hussein, Warraich).
 This strengthens the claim that the Code can produce restoration while leaving
