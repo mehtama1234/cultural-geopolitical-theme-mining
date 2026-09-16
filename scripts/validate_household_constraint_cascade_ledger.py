@@ -23,8 +23,12 @@ def nonempty(value: object) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
 
-def validate(path: Path) -> tuple[int, int, str]:
-    data = json.loads(path.read_text(encoding="utf-8"))
+def validate(path: Path, events_only: bool = False) -> tuple[int, int, str]:
+    if events_only:
+        events = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+        data = {"schema": SCHEMA["format"], "events": events, "arrows": [], "evidence_class": ""}
+    else:
+        data = json.loads(path.read_text(encoding="utf-8"))
     if data.get("schema") != SCHEMA["format"]:
         raise ValueError("ledger schema does not match the household cascade contract")
     evidence_class = data.get("evidence_class", "")
@@ -67,7 +71,7 @@ def validate(path: Path) -> tuple[int, int, str]:
             if not nonempty(stage.get("observation")) or not nonempty(stage.get("source")):
                 raise ValueError(f"stage requires observation and source for {episode_id}/{stage_name}")
     arrows = data.get("arrows")
-    if not isinstance(arrows, list) or not arrows:
+    if not isinstance(arrows, list) or (not arrows and not events_only):
         raise ValueError("arrows must be a non-empty list")
     arrow_ids: set[str] = set()
     for arrow in arrows:
@@ -90,8 +94,9 @@ def validate(path: Path) -> tuple[int, int, str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ledger", type=Path)
+    parser.add_argument("--events-only", action="store_true", help="validate a JSONL staging file without requiring arrow records")
     args = parser.parse_args()
-    events, arrows, evidence_class = validate(args.ledger)
+    events, arrows, evidence_class = validate(args.ledger, events_only=args.events_only)
     print(f"VALID household cascade ledger: {events} event(s), {arrows} arrow(s), class={evidence_class}")
     return 0
 

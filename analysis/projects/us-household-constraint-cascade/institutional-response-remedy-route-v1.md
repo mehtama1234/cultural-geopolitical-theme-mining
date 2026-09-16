@@ -89,6 +89,11 @@ The [two-episode fixture](data/household-constraint-cascade-ledger-fixture-v1.js
 is simulated test data only: it exercises a lower-room/borrowing case beside a
 higher-room/payment case and deliberately leaves remedy and follow-up unknown.
 
+The first local population of the contract is documented in the [MEPS
+staged-ledger audit](meps-staged-ledger-audit-v1.md). It supplies 18,457
+keyed-hash event rows from existing local files, but deliberately leaves the
+same missing remedy and recovery stages open.
+
 1. trigger type and date: bill, renewal, coverage loss, denial, shutoff threat,
    care need, repair, benefit interruption, or disputed account;
 2. obligation and rule: amount owed, deductible or balance, due date, benefit
