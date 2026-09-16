@@ -103,6 +103,27 @@ identifying an automated-monitoring or automated-decision dispute. The next
 acquisition should test whether those records are non-public, newly emerging,
 or available through a formal information request.
 
+## Worker-voice boundary
+
+The Ministry's public Act portal reports **37 engagement sessions, 3,873
+participants, and 485 feedback items** during the Act's development. This is
+direct evidence that a policy-stage consultation process was reported by the
+responsible ministry. It is not evidence that participants controlled the
+automated-decision provisions, that gig-worker representatives were equally
+represented, or that the resulting rules are now being used in individual
+cases.
+
+The distinction is important for the broader atlas:
+
+```text
+policy participation -> statutory design -> complaint/review use -> worker outcome
+        observed             observed              infrastructure visible       open
+```
+
+The next worker-voice acquisition should obtain the consultation submissions,
+the identity and composition of participants, and any documented changes made
+to sections 8, 14, or the Tribunal design in response to feedback.
+
 ## Boundary
 
 This is a legal and administrative source record, not a finding that Malaysian

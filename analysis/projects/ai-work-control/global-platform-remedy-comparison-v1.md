@@ -98,6 +98,13 @@ judicial disclosure, worker self-help, statutory review, collective voice, or
 status recognition. The power question is which layer can produce a timely,
 verifiable change in work access and income.
 
+Malaysia also adds a policy-stage participation distinction: the Ministry's
+implementation portal reports 37 engagement sessions, 3,873 participants, and
+485 feedback items during Act development. Those figures show reported
+consultation activity, not proof that workers shaped the final algorithmic-
+management rules or can use them after harm. Participation before deployment
+and appeal after harm must remain separate variables.
+
 ## Contradictions preserved
 
 1. A worker can report a favorable appeal outcome without the research record
