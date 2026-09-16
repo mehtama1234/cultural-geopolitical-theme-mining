@@ -103,6 +103,9 @@ identifying an automated-monitoring or automated-decision dispute. The next
 acquisition should test whether those records are non-public, newly emerging,
 or available through a formal information request.
 
+The detailed search boundary is maintained in the [Malaysia Act 872 outcome
+acquisition audit](malaysia-act872-outcome-acquisition-audit-2026-09-15.md).
+
 ## Worker-voice boundary
 
 The Ministry's public Act portal reports **37 engagement sessions, 3,873

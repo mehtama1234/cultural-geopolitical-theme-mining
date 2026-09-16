@@ -68,6 +68,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Uber/Ola automated-decision remedy case](analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md)
 - [Uganda platform-work algorithmic remedy record](analysis/projects/ai-work-control/uganda-platform-work-algorithmic-remedy-record-v1.md)
 - [Malaysia Gig Workers Act algorithmic-remedy record](analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
+- [Malaysia Act 872 outcome acquisition audit](analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md)
 - [Global platform-work remedy comparison](analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md)
 - [Platform-work remedy case ledger](analysis/projects/ai-work-control/platform-remedy-case-ledger-v1.md)
 - [National implementation comparison](analysis/projects/ai-work-control/platform-work-directive-national-implementation-comparison-v1.md)
