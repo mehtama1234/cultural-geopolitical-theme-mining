@@ -1219,7 +1219,9 @@ market-transition or household result.
   hardship, and food insecurity for 2,600 positive-weight person pairs, with
   complete 240-replicate matching. This strengthens temporal screening but
   does not prove a newly occurring bill or care event because reference-period
-  fields may repeat across months.
+  fields may repeat across months. The same bridge now adds upward, downward,
+  and any income-to-poverty-band movement as threshold screens, not dollar
+  recovery measures.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,

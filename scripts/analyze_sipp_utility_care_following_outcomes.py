@@ -19,6 +19,20 @@ REPLICATES = 240
 FAY_FACTOR = 0.5
 
 
+def poverty_band(value: str) -> int | None:
+    try:
+        ratio = float(value)
+    except (TypeError, ValueError):
+        return None
+    if ratio < 1:
+        return 0
+    if ratio < 2:
+        return 1
+    if ratio < 4:
+        return 2
+    return 3
+
+
 def valid(value: str, flag: str) -> bool:
     return value in {"1", "2"} and flag not in {"", "0"}
 
@@ -67,7 +81,7 @@ def main() -> None:
     fields = {
         "SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE", "WPFINWGT",
         "ETENURE", "EAWBGAS", "AAWBGAS", "EWORKMORE", "AWORKMORE",
-        "EAWBMORT", "AAWBMORT", "RFOODS", "AFOODS",
+        "EAWBMORT", "AAWBMORT", "RFOODS", "AFOODS", "THINCPOV",
     }
     with args.primary.open(encoding="utf-8", newline="") as source:
         reader = csv.DictReader(source)
@@ -103,7 +117,10 @@ def main() -> None:
             continue
         mortgage_valid = valid(after["EAWBMORT"], after["AAWBMORT"])
         food_valid = after["RFOODS"] in {"1", "2", "3"} and after["AFOODS"] not in {"", "0"}
-        if not (mortgage_valid or food_valid):
+        before_band = poverty_band(before["THINCPOV"])
+        after_band = poverty_band(after["THINCPOV"])
+        resource_valid = before_band is not None and after_band is not None
+        if not (mortgage_valid or food_valid or resource_valid):
             continue
         group = "{}__{}__{}".format(
             "difficulty" if before["EAWBGAS"] == "1" else "no_difficulty",
@@ -113,13 +130,21 @@ def main() -> None:
         group_state.setdefault(group, {"mortgage_num": 0.0, "mortgage_den": 0.0,
                                        "food_num": 0.0, "food_den": 0.0, "records": 0})
         t_key = tuple(before[k] for k in MONTH_KEY)
-        pairs[t_key] = (group, after["EAWBMORT"] == "1" if mortgage_valid else False,
-                        after["RFOODS"] in {"2", "3"} if food_valid else False, weight)
+        pairs[t_key] = (
+            group,
+            after["EAWBMORT"] == "1" if mortgage_valid else False,
+            after["RFOODS"] in {"2", "3"} if food_valid else False,
+            before_band != after_band if resource_valid else False,
+            after_band > before_band if resource_valid else False,
+            after_band < before_band if resource_valid else False,
+            weight,
+        )
         # Store validity separately via sentinel group keys in the tuple is
         # needlessly opaque; the outcome-valid maps below are keyed by t_key.
 
     mortgage_valid_keys: set[tuple[str, ...]] = set()
     food_valid_keys: set[tuple[str, ...]] = set()
+    resource_valid_keys: set[tuple[str, ...]] = set()
     # Reconstruct validity from the person records without adding fields to
     # the compact pair tuple.
     for person, months in by_person.items():
@@ -133,11 +158,18 @@ def main() -> None:
             mortgage_valid_keys.add(t_key)
         if after["RFOODS"] in {"1", "2", "3"} and after["AFOODS"] not in {"", "0"}:
             food_valid_keys.add(t_key)
+        if poverty_band(before["THINCPOV"]) is not None and poverty_band(after["THINCPOV"]) is not None:
+            resource_valid_keys.add(t_key)
 
     full = {group: {"mortgage_num": 0.0, "mortgage_den": 0.0,
-                    "food_num": 0.0, "food_den": 0.0, "records": 0}
+                    "food_num": 0.0, "food_den": 0.0,
+                    "resource_changed_num": 0.0, "resource_changed_den": 0.0,
+                    "resource_improved_num": 0.0, "resource_improved_den": 0.0,
+                    "resource_worsened_num": 0.0, "resource_worsened_den": 0.0,
+                    "records": 0}
             for group in group_state}
-    for key, (group, mortgage_positive, food_positive, weight) in pairs.items():
+    for key, (group, mortgage_positive, food_positive, resource_changed,
+              resource_improved, resource_worsened, weight) in pairs.items():
         full[group]["records"] += 1
         if key in mortgage_valid_keys:
             full[group]["mortgage_den"] += weight
@@ -145,11 +177,20 @@ def main() -> None:
         if key in food_valid_keys:
             full[group]["food_den"] += weight
             full[group]["food_num"] += weight * food_positive
+        if key in resource_valid_keys:
+            full[group]["resource_changed_den"] += weight
+            full[group]["resource_changed_num"] += weight * resource_changed
+            full[group]["resource_improved_den"] += weight
+            full[group]["resource_improved_num"] += weight * resource_improved
+            full[group]["resource_worsened_den"] += weight
+            full[group]["resource_worsened_num"] += weight * resource_worsened
 
     rep_num = {outcome: {group: np.zeros(REPLICATES) for group in full}
-               for outcome in ("mortgage", "food")}
+               for outcome in ("mortgage", "food", "resource_changed",
+                               "resource_improved", "resource_worsened")}
     rep_den = {outcome: {group: np.zeros(REPLICATES) for group in full}
-               for outcome in ("mortgage", "food")}
+               for outcome in ("mortgage", "food", "resource_changed",
+                               "resource_improved", "resource_worsened")}
     matched = 0
     matched_keys: set[tuple[str, ...]] = set()
     with zipfile.ZipFile(args.replicate_zip) as archive:
@@ -162,7 +203,8 @@ def main() -> None:
                     continue
                 matched += 1
                 matched_keys.add(key)
-                group, mortgage_positive, food_positive, _ = item
+                (group, mortgage_positive, food_positive, resource_changed,
+                 resource_improved, resource_worsened, _) = item
                 weights = np.fromiter((float(row[f"repwgt{i}"]) for i in range(1, REPLICATES + 1)),
                                       dtype=np.float64, count=REPLICATES)
                 if key in mortgage_valid_keys:
@@ -173,6 +215,16 @@ def main() -> None:
                     rep_den["food"][group] += weights
                     if food_positive:
                         rep_num["food"][group] += weights
+                if key in resource_valid_keys:
+                    rep_den["resource_changed"][group] += weights
+                    rep_den["resource_improved"][group] += weights
+                    rep_den["resource_worsened"][group] += weights
+                    if resource_changed:
+                        rep_num["resource_changed"][group] += weights
+                    if resource_improved:
+                        rep_num["resource_improved"][group] += weights
+                    if resource_worsened:
+                        rep_num["resource_worsened"][group] += weights
 
     unmatched = sorted(set(pairs) - matched_keys)
     if unmatched:
@@ -183,6 +235,8 @@ def main() -> None:
 
     results = {}
     for group, values in full.items():
+        resource_records = sum(1 for key, item in pairs.items()
+                               if item[0] == group and key in resource_valid_keys)
         results[group] = {
             "mortgage_hardship": summarize(values["mortgage_num"], values["mortgage_den"],
                                              rep_num["mortgage"][group], rep_den["mortgage"][group],
@@ -190,6 +244,12 @@ def main() -> None:
             "food_insecurity": summarize(values["food_num"], values["food_den"],
                                            rep_num["food"][group], rep_den["food"][group],
                                            sum(1 for key, item in pairs.items() if item[0] == group and key in food_valid_keys)),
+            "resource_band_changed": summarize(values["resource_changed_num"], values["resource_changed_den"],
+                                                rep_num["resource_changed"][group], rep_den["resource_changed"][group], resource_records),
+            "resource_band_improved": summarize(values["resource_improved_num"], values["resource_improved_den"],
+                                                 rep_num["resource_improved"][group], rep_den["resource_improved"][group], resource_records),
+            "resource_band_worsened": summarize(values["resource_worsened_num"], values["resource_worsened_den"],
+                                                 rep_num["resource_worsened"][group], rep_den["resource_worsened"][group], resource_records),
         }
     contrast_pairs = {
         "difficulty__renter__prevented_minus_not_prevented": (
@@ -230,7 +290,7 @@ def main() -> None:
         "results": results,
         "contrasts": contrasts,
         "causal_estimation": False,
-        "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, and annual fall child-care measures can be reference-period or repeated fields; this is not a dated bill shock, causal care effect, or household-weighted estimate.",
+        "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, resource-band, and annual fall child-care measures can be reference-period or repeated fields; resource-band movement is not income recovery. This is not a dated bill shock, causal care effect, or household-weighted estimate.",
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")

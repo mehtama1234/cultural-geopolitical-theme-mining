@@ -174,6 +174,10 @@ positive-weight pairs to all 240 replicates and therefore strengthens the
 temporal screen, while preserving the warning that SIPP reference-period
 fields may repeat across months. It remains descriptive; the next decisive
 test is a dated bill, shutoff, payment-plan, or assistance event with follow-up.
+The same bridge now adds upward, downward, and any income-to-poverty-band
+movement as threshold outcomes. These are movement screens rather than dollar
+recovery measures; the next test must observe the actual bill/resource event
+and its later reversal or persistence.
 
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,

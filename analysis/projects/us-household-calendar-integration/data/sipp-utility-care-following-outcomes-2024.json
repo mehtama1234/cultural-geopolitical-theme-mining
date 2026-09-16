@@ -28,6 +28,36 @@
           40.61041822036732,
           59.80824489384642
         ]
+      },
+      "resource_band_changed": {
+        "records": 134,
+        "weighted_denominator": 1626295.1461074,
+        "share_percent": 5.56331144752891,
+        "standard_error_percentage_points": 2.1836417737569374,
+        "approx_95_percent_ci": [
+          1.2833735709653125,
+          9.843249324092508
+        ]
+      },
+      "resource_band_improved": {
+        "records": 134,
+        "weighted_denominator": 1626295.1461074,
+        "share_percent": 3.0934109851101823,
+        "standard_error_percentage_points": 1.772254905638417,
+        "approx_95_percent_ci": [
+          0.0,
+          6.5670306001614795
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 134,
+        "weighted_denominator": 1626295.1461074,
+        "share_percent": 2.469900462418728,
+        "standard_error_percentage_points": 1.4396685090104937,
+        "approx_95_percent_ci": [
+          0.0,
+          5.291650740079296
+        ]
       }
     },
     "no_difficulty__not_prevented__owner_buyer": {
@@ -49,6 +79,36 @@
         "approx_95_percent_ci": [
           3.4537277079526545,
           5.744475762627423
+        ]
+      },
+      "resource_band_changed": {
+        "records": 1635,
+        "weighted_denominator": 18528313.0291694,
+        "share_percent": 4.0305430287685375,
+        "standard_error_percentage_points": 0.6770463307062426,
+        "approx_95_percent_ci": [
+          2.703532220584302,
+          5.357553836952773
+        ]
+      },
+      "resource_band_improved": {
+        "records": 1635,
+        "weighted_denominator": 18528313.0291694,
+        "share_percent": 2.5858181162987295,
+        "standard_error_percentage_points": 0.5717260960391655,
+        "approx_95_percent_ci": [
+          1.4652349680619652,
+          3.7064012645354936
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 1635,
+        "weighted_denominator": 18528313.0291694,
+        "share_percent": 1.4447249124698103,
+        "standard_error_percentage_points": 0.3955506884425811,
+        "approx_95_percent_ci": [
+          0.6694455631223513,
+          2.2200042618172695
         ]
       }
     },
@@ -72,6 +132,36 @@
           2.2537817955840875,
           22.688108220307832
         ]
+      },
+      "resource_band_changed": {
+        "records": 42,
+        "weighted_denominator": 542147.9428802,
+        "share_percent": 1.0513544899421527,
+        "standard_error_percentage_points": 1.1384807160395212,
+        "approx_95_percent_ci": [
+          0.0,
+          3.2827766933796143
+        ]
+      },
+      "resource_band_improved": {
+        "records": 42,
+        "weighted_denominator": 542147.9428802,
+        "share_percent": 1.0513544899421527,
+        "standard_error_percentage_points": 1.1384807160395212,
+        "approx_95_percent_ci": [
+          0.0,
+          3.2827766933796143
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 42,
+        "weighted_denominator": 542147.9428802,
+        "share_percent": 0.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_percent_ci": [
+          0.0,
+          0.0
+        ]
       }
     },
     "no_difficulty__not_prevented__renter": {
@@ -93,6 +183,36 @@
         "approx_95_percent_ci": [
           14.548586615534305,
           21.501148882167982
+        ]
+      },
+      "resource_band_changed": {
+        "records": 642,
+        "weighted_denominator": 8268189.036266801,
+        "share_percent": 5.7954526883985675,
+        "standard_error_percentage_points": 1.3291096907033437,
+        "approx_95_percent_ci": [
+          3.190397694620014,
+          8.400507682177121
+        ]
+      },
+      "resource_band_improved": {
+        "records": 642,
+        "weighted_denominator": 8268189.036266801,
+        "share_percent": 3.408276121916508,
+        "standard_error_percentage_points": 1.0892386748036746,
+        "approx_95_percent_ci": [
+          1.2733683193013055,
+          5.543183924531711
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 642,
+        "weighted_denominator": 8268189.036266801,
+        "share_percent": 2.387176566482061,
+        "standard_error_percentage_points": 0.6110450008645772,
+        "approx_95_percent_ci": [
+          1.1895283647874897,
+          3.5848247681766323
         ]
       }
     },
@@ -116,6 +236,36 @@
           35.717386253949094,
           62.98250604654145
         ]
+      },
+      "resource_band_changed": {
+        "records": 95,
+        "weighted_denominator": 1037412.1072192,
+        "share_percent": 2.7238997479455107,
+        "standard_error_percentage_points": 1.703418143634155,
+        "approx_95_percent_ci": [
+          0.0,
+          6.062599309468454
+        ]
+      },
+      "resource_band_improved": {
+        "records": 95,
+        "weighted_denominator": 1037412.1072192,
+        "share_percent": 0.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_percent_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 95,
+        "weighted_denominator": 1037412.1072192,
+        "share_percent": 2.7238997479455107,
+        "standard_error_percentage_points": 1.703418143634155,
+        "approx_95_percent_ci": [
+          0.0,
+          6.062599309468454
+        ]
       }
     },
     "difficulty__prevented__renter": {
@@ -137,6 +287,36 @@
         "approx_95_percent_ci": [
           33.87742384293786,
           95.4066278350919
+        ]
+      },
+      "resource_band_changed": {
+        "records": 12,
+        "weighted_denominator": 144641.48059599998,
+        "share_percent": 18.955559773741854,
+        "standard_error_percentage_points": 15.778540182489312,
+        "approx_95_percent_ci": [
+          0.0,
+          49.8814985314209
+        ]
+      },
+      "resource_band_improved": {
+        "records": 12,
+        "weighted_denominator": 144641.48059599998,
+        "share_percent": 0.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_percent_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 12,
+        "weighted_denominator": 144641.48059599998,
+        "share_percent": 18.955559773741854,
+        "standard_error_percentage_points": 15.778540182489312,
+        "approx_95_percent_ci": [
+          0.0,
+          49.8814985314209
         ]
       }
     },
@@ -160,6 +340,36 @@
           9.709254070278973,
           41.7863545323897
         ]
+      },
+      "resource_band_changed": {
+        "records": 30,
+        "weighted_denominator": 432707.5257793001,
+        "share_percent": 13.4232617882928,
+        "standard_error_percentage_points": 6.709254654170355,
+        "approx_95_percent_ci": [
+          0.2731226661189048,
+          26.573400910466695
+        ]
+      },
+      "resource_band_improved": {
+        "records": 30,
+        "weighted_denominator": 432707.5257793001,
+        "share_percent": 4.820507175241239,
+        "standard_error_percentage_points": 4.532215510699878,
+        "approx_95_percent_ci": [
+          0.0,
+          13.703649576213
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 30,
+        "weighted_denominator": 432707.5257793001,
+        "share_percent": 8.602754613051559,
+        "standard_error_percentage_points": 5.513921669942517,
+        "approx_95_percent_ci": [
+          0.0,
+          19.410041086138893
+        ]
       }
     },
     "difficulty__prevented__owner_buyer": {
@@ -181,6 +391,36 @@
         "approx_95_percent_ci": [
           52.63062683280161,
           100.0
+        ]
+      },
+      "resource_band_changed": {
+        "records": 10,
+        "weighted_denominator": 107531.86639360001,
+        "share_percent": 8.445970736578364,
+        "standard_error_percentage_points": 9.014248723031349,
+        "approx_95_percent_ci": [
+          0.0,
+          26.113898233719805
+        ]
+      },
+      "resource_band_improved": {
+        "records": 10,
+        "weighted_denominator": 107531.86639360001,
+        "share_percent": 0.0,
+        "standard_error_percentage_points": 0.0,
+        "approx_95_percent_ci": [
+          0.0,
+          0.0
+        ]
+      },
+      "resource_band_worsened": {
+        "records": 10,
+        "weighted_denominator": 107531.86639360001,
+        "share_percent": 8.445970736578364,
+        "standard_error_percentage_points": 9.014248723031349,
+        "approx_95_percent_ci": [
+          0.0,
+          26.113898233719805
         ]
       }
     }
@@ -260,5 +500,5 @@
     }
   },
   "causal_estimation": false,
-  "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, and annual fall child-care measures can be reference-period or repeated fields; this is not a dated bill shock, causal care effect, or household-weighted estimate."
+  "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, resource-band, and annual fall child-care measures can be reference-period or repeated fields; resource-band movement is not income recovery. This is not a dated bill shock, causal care effect, or household-weighted estimate."
 }

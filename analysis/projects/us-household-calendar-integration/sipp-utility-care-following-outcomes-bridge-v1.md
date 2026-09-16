@@ -103,6 +103,33 @@ most defensible conclusion is that the temporal screen identifies a plausible
 joint-constraint hypothesis and a non-monotonic tenure counterexample, not a
 resolved care-to-hardship effect.
 
+### Resource-band movement at month *t+1*
+
+The same pair design also compares the November and December monthly
+income-to-poverty bands. `changed` means any four-band crossing; `improved`
+means an upward crossing and `worsened` a downward crossing. These are
+threshold movements, not continuous income changes or household recovery.
+
+| Utility at *t* | Care prevention at *t+1* | Tenure | n | Changed | Improved | Worsened |
+|---|---|---|---:|---:|---:|---:|
+| Difficulty | No | Owner/buyer | 95 | 2.724% (SE 1.703) | 0.000% (SE 0.000) | 2.724% (SE 1.703) |
+| Difficulty | No | Renter | 134 | 5.563% (SE 2.184) | 3.093% (SE 1.772) | 2.470% (SE 1.440) |
+| Difficulty | Yes | Owner/buyer | 10 | 8.446% (SE 9.014) | 0.000% (SE 0.000) | 8.446% (SE 9.014) |
+| Difficulty | Yes | Renter | 12 | 18.956% (SE 15.779) | 0.000% (SE 0.000) | 18.956% (SE 15.779) |
+| No difficulty | No | Owner/buyer | 1,635 | 4.031% (SE 0.677) | 2.586% (SE 0.572) | 1.445% (SE 0.396) |
+| No difficulty | No | Renter | 642 | 5.795% (SE 1.329) | 3.408% (SE 1.089) | 2.387% (SE 0.611) |
+| No difficulty | Yes | Owner/buyer | 42 | 1.051% (SE 1.138) | 1.051% (SE 1.138) | 0.000% (SE 0.000) |
+| No difficulty | Yes | Renter | 30 | 13.423% (SE 6.709) | 4.821% (SE 4.532) | 8.603% (SE 5.514) |
+
+The high renter/difficulty movement in the prevention cell is a useful
+follow-up question, not a recovery finding: its approximate 95% interval for
+any change is 0–49.881%, and every movement in that cell is downward. A
+threshold crossing can reflect a small change near a cutoff, reporting or
+annualization, and the SIPP slice does not expose the dated bill, dollar
+amount, or reason for movement. The resource surface therefore adds a
+possible sacrificed-outcome screen while preserving both upward and downward
+counterexamples.
+
 ## What this adds
 
 The bridge advances the end-to-end map by adding an explicit adjacent-month
@@ -113,7 +140,7 @@ ordering and two household-security endpoints to the joint-constraint screen:
 | Utility difficulty at *t* → next-month housing/food surface | Ordered descriptive screen | Reference-period fields may be repeated; no bill date or shock |
 | Care-related work prevention → next-month hardship | Co-observed on the following record | Annual fall care measure is not a new monthly event |
 | Tenure conditions the surface | Descriptive comparison | No composition adjustment; tenure is not a treatment |
-| Pressure → protected or sacrificed outcome | Open/diagnostic | No causal identification, detailed time substitution, or provider route |
+| Pressure → protected or sacrificed outcome | Open/diagnostic | No causal identification, detailed time substitution, provider route, or dollar-level recovery; resource-band movement is a threshold screen |
 | Outcome → recovery, trust, action, or exit | Open | No later follow-up or meaning/action measure |
 
 The useful result is not a new burden index. It is evidence that a bounded
