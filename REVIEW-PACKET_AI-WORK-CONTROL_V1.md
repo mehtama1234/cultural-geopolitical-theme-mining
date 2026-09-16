@@ -9,7 +9,7 @@ to organizations before they make work better for the people doing it. The
 central empirical question is who can see, change, contest, and ultimately bear
 the consequences of a decision.
 
-## The six-piece route
+## The seven-piece route
 
 ### 1. The theme map: the argument in outline
 
@@ -90,6 +90,20 @@ Australia currently shows the deepest public remedy record; Malaysia shows a
 route moving from formal architecture into use; Cambodia shows broad reported
 access with weak reported resolution. None verifies the full chain through
 durable, non-retaliatory system change.
+
+### 7. IBM Germany: control before harm
+
+[IBM Germany works-council AI framework](analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md)
+is the anticipatory counterpart to the platform cases. A Group Works Council
+agreement documents risk classification, inspection, explainability, human
+decision-making, correction, escalation, and limits on high-risk personnel
+systems. A representative account also reports systems used or not used in
+Germany.
+
+This is evidence of ex-ante governance architecture and reported practice, not
+proof of worker-level benefit. The decisive missing artifact is one named live
+deployment where a works-council intervention changed, constrained, or stopped
+the system.
 
 ## Themes to test while reviewing
 

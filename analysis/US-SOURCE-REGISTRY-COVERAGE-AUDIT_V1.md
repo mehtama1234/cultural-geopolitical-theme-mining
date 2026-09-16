@@ -53,7 +53,7 @@ or proof that every source item was read in full.
 | [ILOSTAT](https://ilostat.ilo.org/) | work, wages, informal activity, migration, and labor standards | 2 | 9 | 3 | 0 | evidence-bearing |
 | [International Labour Organization algorithmic management research](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics) | work organization, job quality, industrial relations, and worker-risk evidence | 4 | 41 | 15 | 0 | evidence-bearing |
 | [ILO Global case studies of social dialogue on AI and algorithmic management](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management) | worker-representative and social-dialogue evidence on workplace AI decisions | 4 | 41 | 15 | 1 | evidence-bearing; machine-record URL |
-| [WageIndicator worker-rights and collective-agreement archive](https://wageindicator.org/) | comparative worker-rights, collective-agreement, and workplace-governance text archive | 1 | 10 | 8 | 0 | evidence-bearing |
+| [WageIndicator worker-rights and collective-agreement archive](https://wageindicator.org/) | comparative worker-rights, collective-agreement, and workplace-governance text archive | 1 | 12 | 9 | 0 | evidence-bearing |
 | [European Commission Future of Work](https://employment-social-affairs.ec.europa.eu/policies-and-activities/rights-work/future-work_en) | official policy and rights evidence on algorithmic management, platform work, and worker protection | 0 | 6 | 4 | 0 | evidence-bearing |
 | [European Commission JRC AIM-WORK survey](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en) | EU-wide worker evidence on AI use, digital monitoring, algorithmic management, autonomy, and stress | 1 | 12 | 7 | 0 | evidence-bearing |
 | [Federal Reserve Economic Data](https://fred.stlouisfed.org/) | high-frequency US economic series and historical revisions | 1 | 11 | 5 | 4 | evidence-bearing; machine-record URL |
@@ -164,8 +164,8 @@ family that will be acquired, compared, or maintained over time.
 | `fwc.gov.au` | 42 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
+| `btq-kassel.de` | 10 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/ai-work-control/claims-ledger-v1.md` |
 | `support.sayrhino.com` | 9 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
-| `btq-kassel.de` | 8 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/ai-work-control/claims-ledger-v1.md` |
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `ico.org.uk` | 7 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md` |
 | `uasdata.usc.edu` | 7 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
@@ -214,8 +214,8 @@ without a recurring acquisition need and source-specific metadata.
 | `fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `theguarantors.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and treat the vendor material as case-specific evidence. |
 | `mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
+| `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasdata.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
