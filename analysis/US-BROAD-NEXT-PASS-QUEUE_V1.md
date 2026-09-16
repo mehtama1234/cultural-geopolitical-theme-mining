@@ -1663,6 +1663,11 @@ condition path. The next missing step is care intensity, schedule control,
 trigger attribution, and later meaning or action—not another broad condition
 cross-tab.
 
+The care-foregoing persistence result has also been directly reproduced from
+the local SHED 2024 and 2025 ZIPs in the [reproduction audit](projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
+That verification strengthens the annual adaptation layer; it does not close
+the dated bill, care-continuity, remedy, or recovery arrow.
+
 The place/public/politics lane has a distinct [CPS participation-friction
 baseline](projects/us-cost-trust-politics/cps-2024-turnout-participation-friction-layer-v1.md).
 It separates reported voting, registration, schedule, health, transport,
