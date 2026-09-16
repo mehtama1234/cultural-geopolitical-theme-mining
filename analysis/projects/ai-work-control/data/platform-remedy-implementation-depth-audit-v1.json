@@ -1,0 +1,80 @@
+{
+  "format": "platform-remedy-implementation-depth-audit-v1",
+  "checked": "2026-09-16",
+  "source": "analysis/projects/ai-work-control/data/platform-remedy-case-ledger-v1.json",
+  "source_unit": "27 coded platform-remedy case records; not a representative sample",
+  "record_count": 27,
+  "stage_counts": {
+    "formal_reactivation_or_restoration_order": 7,
+    "access_resumed_without_merits_remedy": 1,
+    "continued_work_after_restoration": 1,
+    "payment_or_lost_earnings_stage_observed": 23,
+    "payment_receipt_verified": 0,
+    "durable_access_or_non_retaliation_verified": 0
+  },
+  "correction_restoration_values": {
+    "not_observed": 17,
+    "observed_access_resumed_not_merits_remedy": 1,
+    "observed_adjudicated_reactivation_and_continued_work": 1,
+    "observed_adjudicated_reactivation_ordered": 7,
+    "observed_rule": 1
+  },
+  "payment_compensation_values": {
+    "not_observed": 15,
+    "not_observed_settlement_terms_unavailable": 1,
+    "observed_adjudicated_lost_earnings_ordered": 1,
+    "observed_adjudicated_lost_remuneration_in_principle_quantum_open": 1,
+    "observed_adjudicated_lost_remuneration_ordered_not_compensation": 2,
+    "observed_as_status_or_wage_consequence": 1,
+    "observed_rule": 2,
+    "open_lost_remuneration_quantum": 3,
+    "open_lost_remuneration_to_be_determined": 1
+  },
+  "named_stage_cases": {
+    "formal_reactivation_or_restoration_order": [
+      {
+        "id": "PR-022",
+        "population": "Musharaf Waheed and Uber Driver Platform"
+      },
+      {
+        "id": "PR-020",
+        "population": "Shahid Mansoor and Uber Driver Platform"
+      },
+      {
+        "id": "PR-021",
+        "population": "Anwar Kareem Al Hussein and Uber Driver Platform"
+      },
+      {
+        "id": "PR-013",
+        "population": "Gopal Bandameeda and Amazon Flex"
+      },
+      {
+        "id": "PR-016",
+        "population": "Sajid Saleem Warraich and Uber"
+      },
+      {
+        "id": "PR-017",
+        "population": "Zeeshan Aslam Khan and Uber Eats"
+      },
+      {
+        "id": "PR-018",
+        "population": "Rehman and Portier Pacific"
+      }
+    ],
+    "access_resumed_without_merits_remedy": [
+      {
+        "id": "PR-024",
+        "population": "Jai Phillipps-Lewis and Rasier Pacific / Uber Driver Platform"
+      }
+    ],
+    "continued_work_after_restoration": [
+      {
+        "id": "PR-019",
+        "population": "Mohammad Shareef Hotak and Uber Driver Platform"
+      }
+    ]
+  },
+  "result": "The ledger observes formal remedy stages more often than lived implementation. It contains orders and one continued-work record, but no verified payment receipt, durable access, or non-retaliation outcome.",
+  "boundary": "Stage strings are source-coded evidence labels, not case weights, remedy rates, worker-welfare estimates, or prevalence estimates. An order is not receipt and continued work in one case is not durable recovery.",
+  "storage_boundary": "Reads one committed JSON ledger and writes a compact JSON summary; no download or raw-data acquisition."
+}

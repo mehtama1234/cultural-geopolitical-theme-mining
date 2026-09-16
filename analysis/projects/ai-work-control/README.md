@@ -206,6 +206,13 @@ in the targeted Fair Work Commission search. The case therefore closes at a
 formal remedy order, not lived income recovery, continued access, switching,
 or exit.
 
+The [platform-remedy implementation-depth audit](platform-remedy-implementation-depth-audit-v1.md)
+now counts formal restoration orders, access resumption, continued work, and
+payment-stage records separately across the 27-case ledger. It finds seven
+formal reactivation/restoration orders, one continued-work record, and no
+verified payment receipt or durable non-retaliation outcome. These are coded
+stage counts, not remedy or recovery rates.
+
 The [facility-capability context finding](findings/ai-work-control-079.md)
 adds the next middle layer without overclaiming it. BAE's official quality
 certificate names 95 Canal Street, Nashua within a military-electronics
