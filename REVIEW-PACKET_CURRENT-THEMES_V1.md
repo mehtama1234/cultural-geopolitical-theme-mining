@@ -8,6 +8,9 @@ themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
 and [CFPB route recheck](analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md).
+The current cross-theme bridge checkpoint is the [material-to-action status
+ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md), with the latest
+CES action-path reproducibility result recorded in its [audit](analysis/projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md).
 
 This packet is a reading aid, not a new estimate. Each route starts with a
 bounded finding and then identifies the next missing observation. The atlas
