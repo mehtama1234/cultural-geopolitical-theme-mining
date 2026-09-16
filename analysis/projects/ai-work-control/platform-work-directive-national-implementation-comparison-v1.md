@@ -3,7 +3,7 @@
 **Status:** comparative implementation synthesis  
 **Checked:** 2026-09-15  
 **Unit:** national implementation record, not worker outcome  
-**Scope:** Germany, the Netherlands, and France
+**Scope:** Germany, the Netherlands, France, and Finland
 
 ## The question
 
@@ -13,7 +13,7 @@ information, health and safety, and remedy. The harder question is what happens
 between the EU rule and a worker's lived ability to challenge a platform
 decision.
 
-The first three country records show that “implementation” is not a binary
+The country records show that “implementation” is not a binary
 variable. It is a sequence of institutional stages, each with a different
 evidence burden.
 
@@ -24,6 +24,7 @@ evidence burden.
 | Germany | Official preparation | BMAS draft-bill preparation, stakeholder and EU coordination, unresolved design choices | Draft text, enacted law, effective date, authority, review route, enforcement, remedy |
 | Netherlands | Closed public consultation | Named Wet platformwerk proposal, consultation dates, detailed proposed rights, official tracker says not fully implemented | Consultation response, Council of State, parliamentary approval, effective law, remedy use |
 | France | Official coordination record | Participation in the Commission transposition group and the deadline | Current national draft, enacted measure, authority, operational rights, enforcement |
+| Finland | Court and administrative consequence | Supreme Administrative Court status ruling, rejected reopening attempt, and Tax Administration wage-treatment change | Directive transposition, automated-decision review, correction, and worker-level remedy |
 
 The Netherlands has the most detailed public design record in this packet. That
 does not make it the most effective system: proposal detail is not the same as
@@ -42,13 +43,20 @@ EU directive and deadline
   -> worker outcome, voice, or exit capacity
 ```
 
-The current records establish the first two stages in all three countries. The
-Netherlands also establishes a public consultation stage. None of the three
-records yet establishes the final four stages.
+The current implementation records establish the first two stages in Germany,
+the Netherlands, and France. The Netherlands also establishes a public
+consultation stage. Finland establishes an adjacent national court and
+administrative consequence, but not implementation of the EU directive's new
+automated-decision remedy architecture.
 
 The Netherlands now has one adjacent outcome-bearing comparator: the 2023
 Deliveroo judgment. It is a national court status outcome under pre-existing
 law, not evidence that the future directive or draft Act has been applied.
+
+Finland adds a second adjacent outcome-bearing comparator: the Wolt status
+decision, its rejected reopening attempt, and a subsequent tax-administration
+consequence. These are national consequences under existing law, not proof of
+EU-directive transposition or automated-decision remedy use.
 
 ## Theme 1: the same EU rule creates different national observability
 
@@ -81,7 +89,12 @@ correction, and protection from adverse treatment.
 The current packet contains no dated worker-level case showing that a platform
 worker obtained an explanation, human review, correction, compensation, or
 protection from retaliation under these national implementation processes.
-That absence is a research gap, not evidence of failure.
+That absence is a research gap, not evidence of failure. Finland narrows the
+gap for status and administrative consequences: a court recognized an
+employment relationship, a reopening attempt was rejected, and the Tax
+Administration announced changed wage-income treatment. It still does not show
+an automated-decision explanation, account restoration, rating correction, or
+remedy under the new directive architecture.
 
 The Deliveroo case narrows that statement rather than eliminating it: a court
 recognized an employment relationship in a platform setting, but the record
@@ -158,6 +171,7 @@ outcome.
 - [Netherlands record](netherlands-platform-work-directive-implementation-source-record-v1.md)
 - [Netherlands Deliveroo status case](netherlands-deliveroo-algorithmic-status-case-record-v1.md)
 - [France record](france-platform-work-directive-implementation-source-record-v1.md)
+- [Finland Wolt court consequence](finland-wolt-platform-work-court-consequence-record-v1.md)
 - [JRC AIM-WORK practice and country map](jrc-aim-work-practice-country-map-v1.md)
 
 ## Boundary

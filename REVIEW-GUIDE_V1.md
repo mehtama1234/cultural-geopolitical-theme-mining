@@ -63,6 +63,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Netherlands draft control matrix](analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md)
 - [Netherlands Deliveroo algorithmic-status case](analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md)
 - [France Platform Work Directive implementation record](analysis/projects/ai-work-control/france-platform-work-directive-implementation-source-record-v1.md)
+- [Finland Wolt court and administrative consequence](analysis/projects/ai-work-control/finland-wolt-platform-work-court-consequence-record-v1.md)
 - [National implementation comparison](analysis/projects/ai-work-control/platform-work-directive-national-implementation-comparison-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
