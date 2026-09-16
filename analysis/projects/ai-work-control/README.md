@@ -198,6 +198,14 @@ January 2025 whose advance settlement forms arrived in 2025. This is not a
 JASSM-ER delivery record; it shows why schedule, physical delivery, acceptance,
 settlement, and operational use must remain separate fields.
 
+The [Warraich remedy follow-up recheck](uber-warraich-remedy-followup-recheck-v1.md)
+extends the platform-remedy lane by checking whether the ordered reactivation
+and lost-pay direction became a public implementation or payment record. No
+subsequent public implementation, payment, or same-worker outcome was located
+in the targeted Fair Work Commission search. The case therefore closes at a
+formal remedy order, not lived income recovery, continued access, switching,
+or exit.
+
 The [facility-capability context finding](findings/ai-work-control-079.md)
 adds the next middle layer without overclaiming it. BAE's official quality
 certificate names 95 Canal Street, Nashua within a military-electronics

@@ -1,0 +1,37 @@
+{
+  "format": "platform-remedy-followup-recheck-v1",
+  "checked": "2026-09-16",
+  "case_id": "AU-09",
+  "matter": "UDE2025/108",
+  "order_reference": "PR793486",
+  "scope": "Targeted Fair Work Commission public-document recheck for the Warraich reactivation and lost-remuneration follow-up.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3338.pdf",
+      "role": "primary_merits_decision",
+      "result": "reactivation ordered; parties directed to confer about lost remuneration and report by 2025-11-20"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm",
+      "role": "official_bulletin",
+      "result": "summarizes reactivation order and open lost-pay quantum"
+    },
+    {
+      "url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "role": "official_search_route",
+      "result": "public decisions-and-orders search route confirmed; no subsequent Warraich implementation record located in targeted search"
+    }
+  ],
+  "stages": {
+    "unfair_deactivation": "observed_adjudicated",
+    "reactivation_order": "observed_adjudicated",
+    "actual_access_restoration": "not_observed",
+    "lost_pay_quantum": "not_observed",
+    "payment_receipt": "not_observed",
+    "continued_work_or_switching": "not_observed",
+    "household_outcome": "not_observed",
+    "platform_process_change": "not_observed"
+  },
+  "boundary": "A targeted public-document non-observation does not prove that private agreement, payment, account restoration, continued work, switching, or exit did not occur.",
+  "storage_boundary": "No bulk download or raw dataset acquisition; uses official web pages and the existing local case record only."
+}

@@ -209,6 +209,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-kumar-merits-dismissal-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-warraich-unfair-deactivation-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-warraich-remedy-followup-recheck-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-khan-reactivation-lost-pay-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md",
