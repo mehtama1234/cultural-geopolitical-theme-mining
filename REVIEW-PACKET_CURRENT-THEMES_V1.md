@@ -126,6 +126,18 @@ borrowing, delayed purchases, and outside help in 2025; reported exit still
 coexists with residual financial strain. This is a same-respondent annual
 transition, not a dated bill episode or proof of recovery.
 
+**Concrete time/care anchors:** the [SIPP child-care time-loss
+record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json)
+reports mean work time lost of 8.43 hours in the below-1x-poverty endpoint
+versus 24.40 hours in the 4x-or-more endpoint, within the selected universe
+that already reported child-care-related work prevention. The [ATUS eldercare
+record](analysis/records/us-atus-eldercare-provider-time-2024-2025.json)
+reports eldercare providers spent 68.68 primary-activity minutes per diary day
+on eldercare in 2024 and 66.85 in 2025; their paid-work time was 19.7 minutes
+lower than nonproviders in the 2024 standardized comparison. These measures
+show time allocation and selected sacrifice, not a general caregiving burden
+or proof that a particular cost caused work loss.
+
 **Open arrow:** a dated bill, provider constraint, employer rule, or care need
 must be linked to alternatives, schedule control, protected/sacrificed time,
 and later recovery for the same person or family.
