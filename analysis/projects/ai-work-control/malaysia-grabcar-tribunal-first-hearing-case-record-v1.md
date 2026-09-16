@@ -25,6 +25,22 @@ ultimately ordered.
 | Dispute objects | GrabCar platform operation, Saver Trips, cashback incentives, and Advance Booking | The reports do not establish whether the dispute is algorithmic under section 8, a deactivation matter under section 14, a payment claim, or another Act 872 route |
 | Procedural stage | Hearing held; further date set for evidence and additional witness examination | No award, settlement, dismissal, or final finding is reported |
 
+## Representation and access
+
+Act 872's primary text provides that parties generally cannot be represented by
+an advocate or solicitor before the Tribunal. A gig worker may appear personally
+or be represented by an authorized officer/member of a gig-workers association
+or a family member; a contracting entity may be represented by its authorized
+employee. The reported first hearing follows that design: the claimant appeared
+personally and GrabCar used an employee representative.
+
+This creates a testable institutional tradeoff. Excluding lawyers may lower
+cost and procedural complexity for small claims, but it does not by itself
+equalize access to evidence, technical knowledge, time, or organizational
+resources. The current record cannot determine whether the worker had access to
+platform data, assistance from an association, or equal ability to prepare and
+present the dispute.
+
 The Ministry also stated, as reported in the same coverage, that the Tribunal
 had received other filings involving account deactivation or suspension, loss
 of income, account reactivation, platform-service issues, and payment claims by

@@ -24,6 +24,7 @@ routes, with a public record of the resulting decision?
 | Ministry service description | e-Aduan intended resolution target of up to 21 working days depending on complexity | Service target observed; actual resolution-time distribution and remedy content not observed |
 | Public web search | Queries for Act 872, gig-worker Tribunal, complaints, deactivation, review, and enforcement | No publicly indexed case-level automated-decision outcome located |
 | Secondary case reporting | Human Resources Online and Free Malaysia Today reports attributing facts to KESUMA / the Tribunal | First hearing reported on 1 September 2026 in Kuching involving GrabCar; no award or final finding reported |
+| Primary Act representation rules | Act 872 section 36 and Tribunal information materials | Lawyers are generally excluded; worker and contracting-entity representation routes are specified; no evidence of equal access to technical records or assistance in the case |
 
 ## What is observed
 
@@ -62,6 +63,8 @@ routes, with a public record of the resulting decision?
   finding for the reported GrabCar matter;
 - the number, identifiers, decision types, or outcomes of the additional
   filings reported by the Ministry;
+- whether the GrabCar claimant received association, family, technical, or
+  data-access assistance under the Tribunal's low-cost representation design;
 - recurrence prevention or anti-retaliation outcomes.
 
 The absence of a public record is not evidence that no complaints or outcomes

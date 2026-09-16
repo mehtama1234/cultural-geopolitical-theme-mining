@@ -94,6 +94,13 @@ This prevents a contract over digital replicas from being treated as proof that
 an employment platform can correct a deactivation, while still recognizing
 both as evidence about who can govern work systems.
 
+Malaysia's first Tribunal hearing adds an access-to-justice test to the remedy
+chain. The Act's no-lawyer design may make a low-value dispute affordable, but
+the absence of lawyers does not prove parity between an individual worker and a
+platform employee with access to organizational records. Future case records
+should code representation, data access, preparation support, and technical
+assistance alongside the formal right to appear.
+
 ## Provisional theme
 
 The emerging cultural and geopolitical theme is **proceduralization without
