@@ -29,7 +29,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 22 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 23 rotating bridges/artifacts plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 254 machine-readable records; 971 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
@@ -246,6 +246,14 @@ incidence, belonging, attribution, trust, action, and mobility as separate
 evidence stages. The existing layer is a cross-source design and not a local
 causal estimate; the next pass needs matched place exposure and direct resident
 meaning/action measures.
+
+The twenty-third rotation advances the work and firm side through the [firm
+capacity, AI adoption, and labor mobility finding](projects/ai-work-control/findings/ai-work-control-064.md).
+It keeps establishment training and infrastructure, task-level adoption,
+formal representation, and aggregate mobility separate. The next test is a
+dated workplace implementation record with monitoring, review, schedule/pay,
+grievance, remedy, household, bargaining, and exit outcomes; the present
+evidence does not claim worker control or an AI effect.
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

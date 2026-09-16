@@ -32,6 +32,7 @@ turning adjacent evidence into one causal story.
 - [Household cascade end-to-end status matrix](analysis/projects/us-household-constraint-cascade/end-to-end-status-matrix-v1.md): an explicit completion audit distinguishing observed, benchmarked, partial, and still-missing arrows.
 - [Household cascade current themes brief](analysis/projects/us-household-constraint-cascade/current-themes-review-brief-v1.md): a compact review route through practical room, institutional friction, uneven remedies, and later recovery/legitimacy clocks.
 - [Migration, place, and belonging finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md): a 620-county capacity context kept separate from Chicagoland and national direct meaning/action evidence.
+- [Firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md): establishment complements, task adoption, formal voice, and mobility kept separate from worker control.
 
 These are the most recent local reruns. They strengthen the material/time/care
 middle but still do not observe a dated bill, plan adequacy, treatment
@@ -40,7 +41,7 @@ episode.
 
 ## Scope of this review route
 
-These seven routes are the current deepest reading paths, not a replacement for
+These eight routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -54,7 +55,7 @@ for the evidence inventory.
 The seven routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
-migration, place, and belonging.
+migration, place, and belonging; and firm capacity and worker control.
 Several other themes appear as linked context, but are not claimed to have a
 fully closed end-to-end chain here.
 
@@ -218,6 +219,26 @@ dated local exposure, housing/service experience, attribution, belonging,
 trust, action, institutional response, and ability to stay or move. Population
 growth is not migration, a county capacity measure is not lived access, and an
 attitude is not observed political action.
+
+## Route 8: firm capacity becomes worker control
+
+Read the [firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md),
+the [AI task adoption and sector mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-035.md),
+and the [machine-readable firm-to-worker record](analysis/records/us-firm-capacity-ai-adoption-worker-control-crosssource-2024-2026.json).
+
+**Theme:** firm resources, tool adoption, formal representation, mobility, and
+worker control are successive gates, not interchangeable indicators.
+
+**What is established:** the World Bank enterprise layer measures size,
+training, employment growth, outages, and constraints; NBER measures worker-
+task AI use and a randomized time-use endpoint; BLS measures union coverage and
+aggregate establishment mobility. The units and clocks remain separate.
+
+**Open arrow:** no current source follows the same worker or workplace from
+implementation through monitoring, review, discretion, pay or schedule,
+grievance, remedy, household consequence, bargaining, and exit. Training is
+not worker control, adoption is not employer implementation, and lower quits
+are not automatically better retention.
 
 ## How to challenge any route
 

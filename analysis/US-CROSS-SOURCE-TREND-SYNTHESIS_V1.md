@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-twenty-two estimates of one phenomenon:
+twenty-three estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -58,10 +58,11 @@ twenty-two estimates of one phenomenon:
 | 20. Consumer loss and recovery burden | [Consumer loss and complaint visibility](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md) | Fraud exposure, unrecovered money, recovery time, payment-route differences, and complaint visibility occupy different denominators | Same-customer loss, complaint, verified recovery, repeat effort, trust, switching, and exit |
 | 21. Stage coverage and the open middle | [MEPS staged ledger stage-coverage audit](projects/us-household-constraint-cascade/meps-staged-ledger-stage-coverage-audit-v1.md) | A privacy-minimized 18,457-row event frame makes observed trigger/payment context, reported round proxies, and unknown remedy/meaning stages explicit | Dated obligation, alternatives, event-specific choice, institutional response, verified remedy, recovery, trust, action, and exit |
 | 22. Migration, place, and belonging | [Migration, local demand, housing, services, and belonging](projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md) | New residents can change labor supply, customer demand, firms, housing, services, and local meaning at the same time; these are distinct stages rather than one migration effect | Matched resident/place exposure, practical access, attribution, belonging, trust, civic action, institutional response, and mobility |
+| 23. Firm capacity and worker control | [Firm capacity, AI adoption, and labor mobility](projects/ai-work-control/findings/ai-work-control-064.md) | Firm complements, task-level adoption, formal voice, and aggregate mobility are successive gates; none alone measures worker discretion or control | Dated workplace implementation, monitoring, review, schedule/pay effects, grievance/remedy, household response, bargaining, and exit |
 
 ### The common pattern
 
-Across the twenty-two rotations, the strongest recurring theme is **unequal
+Across the twenty-three rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
