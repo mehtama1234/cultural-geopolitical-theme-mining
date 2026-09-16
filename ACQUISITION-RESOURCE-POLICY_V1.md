@@ -45,6 +45,9 @@ It reports `allow`, `ask`, and `block` files and exits nonzero only when a file
 exceeds the blocking threshold. For directory checks it also reports total
 bytes and the five largest files, so a collection can be reviewed for storage
 impact even when no individual file crosses the blocking threshold.
+Use `--max-total-mb N` when a work session has a total storage budget; the
+checker then reports `total_status` and exits nonzero if the directory exceeds
+that ceiling.
 
 ## Evidence and cleanup record
 

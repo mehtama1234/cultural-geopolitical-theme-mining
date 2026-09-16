@@ -33,9 +33,13 @@ def main() -> int:
     parser.add_argument("path", nargs="+", type=Path)
     parser.add_argument("--warn-mb", type=float, default=25)
     parser.add_argument("--block-mb", type=float, default=100)
+    parser.add_argument("--max-total-mb", type=float, default=None,
+                        help="optional total footprint ceiling; exits nonzero when exceeded")
     args = parser.parse_args()
     if args.warn_mb <= 0 or args.block_mb <= args.warn_mb:
         parser.error("require 0 < --warn-mb < --block-mb")
+    if args.max_total_mb is not None and args.max_total_mb <= 0:
+        parser.error("require --max-total-mb > 0")
 
     missing = [str(path) for path in args.path if not path.exists()]
     if missing:
@@ -60,13 +64,18 @@ def main() -> int:
     }
     report["total_bytes"] = sum(row["bytes"] for row in rows)
     report["total_megabytes"] = round(report["total_bytes"] / MB, 3)
+    report["max_total_megabytes"] = args.max_total_mb
+    report["total_status"] = (
+        "block" if args.max_total_mb is not None
+        and report["total_bytes"] > args.max_total_mb * MB else "allow"
+    )
     report["largest_files"] = sorted(
         ({"path": row["path"], "bytes": row["bytes"], "status": row["status"]} for row in rows),
         key=lambda row: row["bytes"],
         reverse=True,
     )[:5]
     print(json.dumps(report, indent=2))
-    return 1 if report["counts"]["block"] else 0
+    return 1 if report["counts"]["block"] or report["total_status"] == "block" else 0
 
 
 if __name__ == "__main__":
