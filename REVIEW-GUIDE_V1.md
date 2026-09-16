@@ -6,6 +6,9 @@ plain-language writeup, then points to the evidence boundary and the next test.
 
 ## Start here
 
+0. [AI, work, and control review packet](REVIEW-PACKET_AI-WORK-CONTROL_V1.md)
+   — a short route through the strongest writeups, themes, evidence boundaries,
+   and next tests.
 1. [End-to-end program goal](END_TO_END_GOAL_V1.md) — the broad research
    question and the chain from condition to household, institution, and state
    consequence.
