@@ -9,6 +9,25 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+## Scope of this review route
+
+These six routes are the current deepest reading paths, not a replacement for
+the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
+covers household room; time; consumer power and recourse; platforms, data,
+and attention; work and bargaining; care and health; housing, place, and
+mobility; unequal exposure and status; trust and cultural meaning; public
+systems and policy feedback; political judgment and collective action; firm
+and market power; infrastructure and dependency; and geopolitical and state
+consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
+complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
+for the evidence inventory.
+
+The six routes below concentrate on the strongest current bridges: material
+pressure and time/care; public-system access; health cost; consumer recourse;
+financial meaning and politics; and domestic capacity and geopolitical power.
+Several other themes appear as linked context, but are not claimed to have a
+fully closed end-to-end chain here.
+
 ## Route 1: material pressure becomes time pressure
 
 Read the [multi-clock material/time/care synthesis](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md),
