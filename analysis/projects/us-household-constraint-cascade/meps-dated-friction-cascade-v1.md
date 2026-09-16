@@ -59,6 +59,22 @@ variables are annual/person-level measures, not liquid cash or event-specific
 deductibles. The result is best read as evidence that nominal coverage does
 not erase reported room heterogeneity, not as a plan-generosity effect.
 
+The corresponding denial/delay minus no-denial/delay gaps are:
+
+| Event family / stratum | Care-delay gap | Medical-debt gap |
+|---|---:|---:|
+| Office / any private coverage | +9.33 percentage points | +11.95 pp |
+| ER / any private coverage | +25.97 pp | +10.37 pp |
+| Inpatient / any private coverage | +7.64 pp | +15.74 pp |
+| Office / not confident | +25.48 pp | +28.59 pp |
+| ER / not confident | +22.95 pp | +19.59 pp |
+| Inpatient / not confident | +27.28 pp | +24.71 pp |
+
+These are differences between weighted descriptive shares, not treatment
+effects. The output retains BRR standard errors for each cell; the difference
+itself is not presented as a separately tested contrast, and no multiplicity
+adjustment or covariate adjustment is claimed.
+
 ## What this adds
 
 The friction contrast is visible across all three event families. In the
