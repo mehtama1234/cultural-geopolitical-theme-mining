@@ -1,0 +1,716 @@
+{
+  "format": "us-sipp-snap-reason-outcome-fay-brr-v1",
+  "source_unit": "identified person, adjacent reference-month transition pair",
+  "transition": "SNAP receipt in month t -> month t+1",
+  "reason": "recorded transition reason from the relevant SIPP month",
+  "outcome": "valid following-month rent/mortgage, utility, or low/very-low food-security report",
+  "weight": "WPFINWGT from month t; REPWGT1-REPWGT240 for variance",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "replicate_rows_read": 378291,
+  "classified_transition_pairs_matched": 405,
+  "all_transition_pairs": {
+    "no -> yes": 437,
+    "yes -> no": 387
+  },
+  "classified_transition_pairs": {
+    "no -> yes": 217,
+    "yes -> no": 188
+  },
+  "results": {
+    "no -> yes": {
+      "1": {
+        "reason": "new child/dependent or pregnancy",
+        "EAWBMORT": {
+          "records": 15,
+          "weight": 142504.822429,
+          "share_percent": 14.935967592678862,
+          "standard_error_percentage_points": 8.310067743482977,
+          "approx_95_percent_ci": [
+            0.0,
+            31.223700369905494
+          ]
+        },
+        "EAWBGAS": {
+          "records": 15,
+          "weight": 142504.822429,
+          "share_percent": 27.634901223725798,
+          "standard_error_percentage_points": 10.611702377796432,
+          "approx_95_percent_ci": [
+            6.83596456324479,
+            48.43383788420681
+          ]
+        },
+        "RFOODS": {
+          "records": 14,
+          "weight": 133617.94993149998,
+          "share_percent": 31.81982723211708,
+          "standard_error_percentage_points": 14.03821278909468,
+          "approx_95_percent_ci": [
+            4.3049301654915055,
+            59.33472429874266
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 14,
+          "weight": 133617.94993149998,
+          "share_percent": 15.929352386346002,
+          "standard_error_percentage_points": 8.777145860063223,
+          "approx_95_percent_ci": [
+            0.0,
+            33.13255827206992
+          ]
+        }
+      },
+      "2": {
+        "reason": "separation, divorce, or widowhood",
+        "EAWBMORT": {
+          "records": 4,
+          "weight": 23396.614703599997,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "EAWBGAS": {
+          "records": 4,
+          "weight": 23396.614703599997,
+          "share_percent": 15.886782655475692,
+          "standard_error_percentage_points": 16.525159236492573,
+          "approx_95_percent_ci": [
+            0.0,
+            48.27609475900113
+          ]
+        },
+        "RFOODS": {
+          "records": 3,
+          "weight": 19679.6453769,
+          "share_percent": 84.85522884828788,
+          "standard_error_percentage_points": 18.196700094154025,
+          "approx_95_percent_ci": [
+            49.18969666374599,
+            100.0
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 3,
+          "weight": 19679.6453769,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "3": {
+        "reason": "job loss/layoff or wages reduced",
+        "EAWBMORT": {
+          "records": 57,
+          "weight": 668820.9479573998,
+          "share_percent": 16.807361259199073,
+          "standard_error_percentage_points": 6.086498183871877,
+          "approx_95_percent_ci": [
+            4.877824818810195,
+            28.73689769958795
+          ]
+        },
+        "EAWBGAS": {
+          "records": 57,
+          "weight": 668820.9479573998,
+          "share_percent": 34.10766995456458,
+          "standard_error_percentage_points": 7.7917786289122635,
+          "approx_95_percent_ci": [
+            18.835783841896543,
+            49.37955606723261
+          ]
+        },
+        "RFOODS": {
+          "records": 50,
+          "weight": 572755.2330627999,
+          "share_percent": 22.93605057881613,
+          "standard_error_percentage_points": 6.37981780708151,
+          "approx_95_percent_ci": [
+            10.43160767693637,
+            35.44049348069589
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 50,
+          "weight": 572755.2330627999,
+          "share_percent": 13.711486613617582,
+          "standard_error_percentage_points": 6.427333325616308,
+          "approx_95_percent_ci": [
+            1.1139132954096187,
+            26.309059931825544
+          ]
+        }
+      },
+      "4": {
+        "reason": "loss or reduction of other income",
+        "EAWBMORT": {
+          "records": 35,
+          "weight": 349235.1081024999,
+          "share_percent": 16.907499294936244,
+          "standard_error_percentage_points": 7.462350869510494,
+          "approx_95_percent_ci": [
+            2.2812915906956768,
+            31.53370699917681
+          ]
+        },
+        "EAWBGAS": {
+          "records": 35,
+          "weight": 349235.1081024999,
+          "share_percent": 29.977115681930087,
+          "standard_error_percentage_points": 8.560588429086499,
+          "approx_95_percent_ci": [
+            13.198362360920548,
+            46.755869002939626
+          ]
+        },
+        "RFOODS": {
+          "records": 30,
+          "weight": 284438.82885019993,
+          "share_percent": 20.139311505275778,
+          "standard_error_percentage_points": 9.660053957648532,
+          "approx_95_percent_ci": [
+            1.205605748284654,
+            39.0730172622669
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 30,
+          "weight": 284438.82885019993,
+          "share_percent": 2.3892619423908243,
+          "standard_error_percentage_points": 2.266085918707133,
+          "approx_95_percent_ci": [
+            0.0,
+            6.830790343056805
+          ]
+        }
+      },
+      "5": {
+        "reason": "became disabled or otherwise unable to work",
+        "EAWBMORT": {
+          "records": 24,
+          "weight": 237121.89022930004,
+          "share_percent": 28.32854135779816,
+          "standard_error_percentage_points": 13.75722949820074,
+          "approx_95_percent_ci": [
+            1.364371541324708,
+            55.29271117427161
+          ]
+        },
+        "EAWBGAS": {
+          "records": 24,
+          "weight": 237121.89022930004,
+          "share_percent": 17.592799729312087,
+          "standard_error_percentage_points": 9.895982211521888,
+          "approx_95_percent_ci": [
+            0.0,
+            36.98892486389499
+          ]
+        },
+        "RFOODS": {
+          "records": 21,
+          "weight": 179115.0511978,
+          "share_percent": 31.725665085424144,
+          "standard_error_percentage_points": 14.512381765688948,
+          "approx_95_percent_ci": [
+            3.2813968246738057,
+            60.16993334617448
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 21,
+          "weight": 179115.0511978,
+          "share_percent": 9.345598880193718,
+          "standard_error_percentage_points": 9.166787258967956,
+          "approx_95_percent_ci": [
+            0.0,
+            27.31250190777091
+          ]
+        }
+      },
+      "6": {
+        "reason": "no change\u2014decided it was time",
+        "EAWBMORT": {
+          "records": 14,
+          "weight": 133511.2509774,
+          "share_percent": 13.89686178443545,
+          "standard_error_percentage_points": 12.540429359318933,
+          "approx_95_percent_ci": [
+            0.0,
+            38.47610332870056
+          ]
+        },
+        "EAWBGAS": {
+          "records": 14,
+          "weight": 133511.2509774,
+          "share_percent": 9.64625751554081,
+          "standard_error_percentage_points": 8.005219345407202,
+          "approx_95_percent_ci": [
+            0.0,
+            25.336487432538924
+          ]
+        },
+        "RFOODS": {
+          "records": 11,
+          "weight": 90765.4074374,
+          "share_percent": 55.66226274293384,
+          "standard_error_percentage_points": 18.097497988082903,
+          "approx_95_percent_ci": [
+            20.191166686291353,
+            91.13335879957633
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 11,
+          "weight": 90765.4074374,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "7": {
+        "reason": "no change\u2014heard about the program",
+        "EAWBMORT": {
+          "records": 7,
+          "weight": 77629.6425015,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "EAWBGAS": {
+          "records": 7,
+          "weight": 77629.6425015,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "RFOODS": {
+          "records": 5,
+          "weight": 31714.1914235,
+          "share_percent": 38.326317332477586,
+          "standard_error_percentage_points": 24.03899253458026,
+          "approx_95_percent_ci": [
+            0.0,
+            85.4427427002549
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 5,
+          "weight": 31714.1914235,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "8": {
+        "reason": "needed to recertify",
+        "EAWBMORT": {
+          "records": 11,
+          "weight": 71217.2572255,
+          "share_percent": 8.529146965414258,
+          "standard_error_percentage_points": 9.667212221346439,
+          "approx_95_percent_ci": [
+            0.0,
+            27.476882919253278
+          ]
+        },
+        "EAWBGAS": {
+          "records": 11,
+          "weight": 71217.2572255,
+          "share_percent": 35.81878843933659,
+          "standard_error_percentage_points": 14.554024774038469,
+          "approx_95_percent_ci": [
+            7.292899882221196,
+            64.344676996452
+          ]
+        },
+        "RFOODS": {
+          "records": 8,
+          "weight": 54333.1362862,
+          "share_percent": 28.637216646836443,
+          "standard_error_percentage_points": 16.641969440730676,
+          "approx_95_percent_ci": [
+            0.0,
+            61.255476750668564
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 8,
+          "weight": 54333.1362862,
+          "share_percent": 11.179594900437918,
+          "standard_error_percentage_points": 12.556707036255668,
+          "approx_95_percent_ci": [
+            0.0,
+            35.790740691499025
+          ]
+        }
+      },
+      "9": {
+        "reason": "other",
+        "EAWBMORT": {
+          "records": 50,
+          "weight": 518431.23428930005,
+          "share_percent": 8.74791296062079,
+          "standard_error_percentage_points": 5.1435366475994115,
+          "approx_95_percent_ci": [
+            0.0,
+            18.829244789915634
+          ]
+        },
+        "EAWBGAS": {
+          "records": 50,
+          "weight": 518431.23428930005,
+          "share_percent": 7.896047998538746,
+          "standard_error_percentage_points": 3.8933428697284755,
+          "approx_95_percent_ci": [
+            0.26509597387093375,
+            15.527000023206558
+          ]
+        },
+        "RFOODS": {
+          "records": 46,
+          "weight": 458119.11717830005,
+          "share_percent": 20.430421768946296,
+          "standard_error_percentage_points": 8.441573008171774,
+          "approx_95_percent_ci": [
+            3.884938672929618,
+            36.97590486496297
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 46,
+          "weight": 458119.11717830005,
+          "share_percent": 1.7184218486206617,
+          "standard_error_percentage_points": 1.7763911607744285,
+          "approx_95_percent_ci": [
+            0.0,
+            5.200148523738542
+          ]
+        }
+      }
+    },
+    "yes -> no": {
+      "1": {
+        "reason": "ineligible because income increased",
+        "EAWBMORT": {
+          "records": 63,
+          "weight": 663059.5255007001,
+          "share_percent": 13.735108078619081,
+          "standard_error_percentage_points": 4.631043232103926,
+          "approx_95_percent_ci": [
+            4.658263343695385,
+            22.811952813542778
+          ]
+        },
+        "EAWBGAS": {
+          "records": 63,
+          "weight": 663059.5255007001,
+          "share_percent": 27.620749744240964,
+          "standard_error_percentage_points": 5.982562210060668,
+          "approx_95_percent_ci": [
+            15.894927812522056,
+            39.34657167595987
+          ]
+        },
+        "RFOODS": {
+          "records": 53,
+          "weight": 565135.2715756,
+          "share_percent": 25.690543748830212,
+          "standard_error_percentage_points": 7.376023808163867,
+          "approx_95_percent_ci": [
+            11.233537084829031,
+            40.14755041283139
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 53,
+          "weight": 565135.2715756,
+          "share_percent": 4.870897246398043,
+          "standard_error_percentage_points": 2.555920095554445,
+          "approx_95_percent_ci": [
+            0.0,
+            9.880500633684756
+          ]
+        }
+      },
+      "2": {
+        "reason": "ineligible because of family changes",
+        "EAWBMORT": {
+          "records": 8,
+          "weight": 75035.4615038,
+          "share_percent": 17.336290865807786,
+          "standard_error_percentage_points": 12.90569912540587,
+          "approx_95_percent_ci": [
+            0.0,
+            42.63146115160329
+          ]
+        },
+        "EAWBGAS": {
+          "records": 8,
+          "weight": 75035.4615038,
+          "share_percent": 27.337331624676125,
+          "standard_error_percentage_points": 17.51620432799094,
+          "approx_95_percent_ci": [
+            0.0,
+            61.66909210753837
+          ]
+        },
+        "RFOODS": {
+          "records": 5,
+          "weight": 55296.880415199994,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 5,
+          "weight": 55296.880415199994,
+          "share_percent": 12.072165601886343,
+          "standard_error_percentage_points": 13.262390183309675,
+          "approx_95_percent_ci": [
+            0.0,
+            38.06645036117331
+          ]
+        }
+      },
+      "3": {
+        "reason": "still eligible but could not/chose not to collect",
+        "EAWBMORT": {
+          "records": 6,
+          "weight": 51856.0519242,
+          "share_percent": 27.2518398096656,
+          "standard_error_percentage_points": 23.396682103884253,
+          "approx_95_percent_ci": [
+            0.0,
+            73.10933673327874
+          ]
+        },
+        "EAWBGAS": {
+          "records": 6,
+          "weight": 51856.0519242,
+          "share_percent": 27.2518398096656,
+          "standard_error_percentage_points": 23.396682103884253,
+          "approx_95_percent_ci": [
+            0.0,
+            73.10933673327874
+          ]
+        },
+        "RFOODS": {
+          "records": 6,
+          "weight": 51856.0519242,
+          "share_percent": 15.718137469305121,
+          "standard_error_percentage_points": 13.346300696100933,
+          "approx_95_percent_ci": [
+            0.0,
+            41.87688683366295
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 6,
+          "weight": 51856.0519242,
+          "share_percent": 27.2518398096656,
+          "standard_error_percentage_points": 23.396682103884253,
+          "approx_95_percent_ci": [
+            0.0,
+            73.10933673327874
+          ]
+        }
+      },
+      "4": {
+        "reason": "requirements not met",
+        "EAWBMORT": {
+          "records": 8,
+          "weight": 72096.3662737,
+          "share_percent": 10.536642863887494,
+          "standard_error_percentage_points": 11.094054479780585,
+          "approx_95_percent_ci": [
+            0.0,
+            32.280989644257446
+          ]
+        },
+        "EAWBGAS": {
+          "records": 8,
+          "weight": 72096.3662737,
+          "share_percent": 10.536642863887494,
+          "standard_error_percentage_points": 11.094054479780585,
+          "approx_95_percent_ci": [
+            0.0,
+            32.280989644257446
+          ]
+        },
+        "RFOODS": {
+          "records": 7,
+          "weight": 49949.5726727,
+          "share_percent": 44.506270636525805,
+          "standard_error_percentage_points": 20.482670758064987,
+          "approx_95_percent_ci": [
+            4.360235950718433,
+            84.65230532233318
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 7,
+          "weight": 49949.5726727,
+          "share_percent": 15.208411655245044,
+          "standard_error_percentage_points": 15.146859998739334,
+          "approx_95_percent_ci": [
+            0.0,
+            44.896257252774134
+          ]
+        }
+      },
+      "5": {
+        "reason": "time limit reached",
+        "EAWBMORT": {
+          "records": 11,
+          "weight": 127031.46326339999,
+          "share_percent": 17.661193266096937,
+          "standard_error_percentage_points": 12.969807477769185,
+          "approx_95_percent_ci": [
+            0.0,
+            43.08201592252454
+          ]
+        },
+        "EAWBGAS": {
+          "records": 11,
+          "weight": 127031.46326339999,
+          "share_percent": 17.661193266096937,
+          "standard_error_percentage_points": 12.969807477769185,
+          "approx_95_percent_ci": [
+            0.0,
+            43.08201592252454
+          ]
+        },
+        "RFOODS": {
+          "records": 10,
+          "weight": 110962.5455044,
+          "share_percent": 23.278141967891102,
+          "standard_error_percentage_points": 14.249660657195987,
+          "approx_95_percent_ci": [
+            0.0,
+            51.20747685599524
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 10,
+          "weight": 110962.5455044,
+          "share_percent": 5.73739043905365,
+          "standard_error_percentage_points": 6.9497044220876285,
+          "approx_95_percent_ci": [
+            0.0,
+            19.3588111063454
+          ]
+        }
+      },
+      "6": {
+        "reason": "benefits not worth the trouble",
+        "EAWBMORT": {
+          "records": 4,
+          "weight": 43906.7367423,
+          "share_percent": 32.28917919864829,
+          "standard_error_percentage_points": 25.700194522086456,
+          "approx_95_percent_ci": [
+            0.0,
+            82.66156046193774
+          ]
+        },
+        "EAWBGAS": {
+          "records": 4,
+          "weight": 43906.7367423,
+          "share_percent": 32.28917919864829,
+          "standard_error_percentage_points": 25.700194522086456,
+          "approx_95_percent_ci": [
+            0.0,
+            82.66156046193774
+          ]
+        },
+        "RFOODS": {
+          "records": 1,
+          "weight": 9256.0701723,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 1,
+          "weight": 9256.0701723,
+          "share_percent": 0.0,
+          "standard_error_percentage_points": 0.0,
+          "approx_95_percent_ci": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "7": {
+        "reason": "other",
+        "EAWBMORT": {
+          "records": 88,
+          "weight": 1013703.4779407001,
+          "share_percent": 10.104174324613666,
+          "standard_error_percentage_points": 4.969769688353627,
+          "approx_95_percent_ci": [
+            0.3634257354405577,
+            19.844922913786775
+          ]
+        },
+        "EAWBGAS": {
+          "records": 88,
+          "weight": 1013703.4779407001,
+          "share_percent": 9.925153079339202,
+          "standard_error_percentage_points": 3.329195880907601,
+          "approx_95_percent_ci": [
+            3.3999291527603033,
+            16.4503770059181
+          ]
+        },
+        "RFOODS": {
+          "records": 78,
+          "weight": 909679.3903343002,
+          "share_percent": 14.199075775876647,
+          "standard_error_percentage_points": 4.397169419277475,
+          "approx_95_percent_ci": [
+            5.580623714092797,
+            22.8175278376605
+          ]
+        },
+        "BOTH_HARDSHIPS": {
+          "records": 78,
+          "weight": 909679.3903343002,
+          "share_percent": 2.7385126796975303,
+          "standard_error_percentage_points": 1.6208630875595555,
+          "approx_95_percent_ci": [
+            0.0,
+            5.915404331314259
+          ]
+        }
+      }
+    }
+  },
+  "causal_estimation": false,
+  "boundary": "Reason categories and following-month hardship/food-security measures are observed in an adjacent-month record but do not establish notice, effort, benefit amount, remedy, or program impact. RFOODS=2/3 is treated as low or very low food security; it is not a measure of hunger caused by the transition."
+}

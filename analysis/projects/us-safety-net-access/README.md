@@ -86,6 +86,12 @@ occupy one broader safety-net pathway while preserving every source's unit,
 denominator, and cross-sectional or retrospective boundary. It does not claim
 that any one household followed the full sequence.
 
+The [SNAP reason × following-food-security finding](findings/us-safety-net-access-015.md)
+adds `RFOODS` to the adjacent-month reason layer. Job-loss and income-loss
+entry, disability and family routes, and several exit routes show distinct but
+uncertain following food-security profiles. Receipt entry or exit still does
+not establish a benefit effect, food recovery, remedy, or later trust/action.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
 
 The [same-episode event-ledger design](same-episode-event-ledger-design-v1.md)

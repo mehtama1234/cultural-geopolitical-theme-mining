@@ -17,7 +17,8 @@ KEYS = ("SSUID", "PNUM", "SPANEL", "SWAVE", "MONTHCODE")
 REPLICATES = 240
 FAY_FACTOR = 0.5
 OUTCOMES = {"EAWBMORT": "unable to pay rent or mortgage",
-            "EAWBGAS": "unable to pay utility bills"}
+            "EAWBGAS": "unable to pay utility bills",
+            "RFOODS": "low or very low food security"}
 COMPOUND_OUTCOME = "BOTH_HARDSHIPS"
 START_REASONS = {
     "1": "new child/dependent or pregnancy",
@@ -87,8 +88,8 @@ def main() -> None:
 
     required = set(KEYS) | {
         "WPFINWGT", "RSNAP_MNYN", "ESNAP_BRSN", "ASNAP_BRSN",
-        "ESNAP_ERSN", "ASNAP_ERSN", "EAWBMORT", "EAWBGAS",
-        "AAWBMORT", "AAWBGAS",
+        "ESNAP_ERSN", "ASNAP_ERSN", "EAWBMORT", "EAWBGAS", "RFOODS",
+        "AAWBMORT", "AAWBGAS", "AFOODS",
     }
     people: dict[tuple[str, str, str, str], dict[int, dict[str, str]]] = defaultdict(dict)
     rows_read = 0
@@ -150,8 +151,11 @@ def main() -> None:
                     continue
                 records[(bucket, outcome)] += 1
                 full_den[(bucket, outcome)] += float(before["WPFINWGT"])
-                positive = (after[outcome] == "1" if outcome in OUTCOMES else
-                            after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1")
+                positive = (
+                    after[outcome] in {"2", "3"} if outcome == "RFOODS"
+                    else after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1"
+                    if outcome == COMPOUND_OUTCOME else after[outcome] == "1"
+                )
                 if positive:
                     full_num[(bucket, outcome)] += float(before["WPFINWGT"])
 
@@ -180,8 +184,11 @@ def main() -> None:
                     if not is_valid:
                         continue
                     rep_den[(bucket, outcome)] += weights
-                    positive = (after[outcome] == "1" if outcome in OUTCOMES else
-                                after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1")
+                    positive = (
+                        after[outcome] in {"2", "3"} if outcome == "RFOODS"
+                        else after["EAWBMORT"] == "1" and after["EAWBGAS"] == "1"
+                        if outcome == COMPOUND_OUTCOME else after[outcome] == "1"
+                    )
                     if positive:
                         rep_num[(bucket, outcome)] += weights
 
@@ -202,7 +209,7 @@ def main() -> None:
         "source_unit": "identified person, adjacent reference-month transition pair",
         "transition": "SNAP receipt in month t -> month t+1",
         "reason": "recorded transition reason from the relevant SIPP month",
-        "outcome": "valid code-1 rent/mortgage, utility, or simultaneous hardship report in month t+1",
+        "outcome": "valid following-month rent/mortgage, utility, or low/very-low food-security report",
         "weight": "WPFINWGT from month t; REPWGT1-REPWGT240 for variance",
         "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
         "rows_read": rows_read,
@@ -212,7 +219,7 @@ def main() -> None:
         "classified_transition_pairs": dict(classified_transitions),
         "results": results,
         "causal_estimation": False,
-        "boundary": "Reason categories and hardship are observed in an adjacent-month record but do not establish notice, effort, benefit amount, remedy, or program impact.",
+        "boundary": "Reason categories and following-month hardship/food-security measures are observed in an adjacent-month record but do not establish notice, effort, benefit amount, remedy, or program impact. RFOODS=2/3 is treated as low or very low food security; it is not a measure of hunger caused by the transition.",
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")

@@ -26,6 +26,12 @@ action. Existing annual and panel evidence can establish distributions,
 persistence, reversal, and subgroup differences; it cannot by itself join all
 of those stages for the same person or household.
 
+The new [SNAP reason × following-food-security finding](projects/us-safety-net-access/findings/us-safety-net-access-015.md)
+extends the public-system route with a direct food-security endpoint. It
+preserves the classified-reason gap and smaller food-valid universes: distinct
+entry and exit routes remain visible, but notice, benefit amount, remedy,
+recovery, and same-case interpretation remain open.
+
 The new [2020 RECS household energy-burden layer](projects/us-household-calendar-integration/recs-energy-burden-household-layer-v1.md)
 adds same-household modeled energy expenditure, income-band affordability,
 assistance, and equipment-repair hardship. It strengthens the material-pressure
