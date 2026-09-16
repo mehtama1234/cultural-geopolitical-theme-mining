@@ -1,6 +1,6 @@
 # Health costs travel through care choice, household adaptation, institutional response, and contested legitimacy
 
-**Status:** provisional layered end-to-end finding · **Checked:** 2026-09-15
+**Status:** provisional layered end-to-end finding · **Checked:** 2026-09-16
 
 ## The finding
 
@@ -68,6 +68,7 @@ still require microdata verification.
 | Practical room/debt → care delay | In same-respondent MEPS 2024 fields, cost-related medical-care delay was 14.15% among respondents not confident paying an unexpected expense versus 5.36% among confident respondents; it was 16.98% with medical debt versus 4.57% without, with a non-monotonic amount-band pattern. | Compared association |
 | Coverage → care-delay distribution | In MEPS 2024, cost-related medical-care delay was 17.63% among uninsured respondents versus 5.87% with any private coverage and 5.39% with public-only coverage. | Compared association; selection-sensitive |
 | Coverage × practical room → care delay | Within private coverage, cost-related medical-care delay was 18.29% among respondents not confident paying an unexpected expense versus 4.93% among confident respondents; coverage does not erase financial-room heterogeneity. | Compared association; selection-sensitive |
+| Coverage transition → care path and adaptation | In the SHED 2024–2025 recontact panel, insured-to-insured respondents had 6.74% care-foregoing entry and 14.53% persistence, versus 13.76% and 37.35% among respondents uninsured in both years; reduced savings was 38.23% and 44.77%, respectively. Coverage loss and gain were smaller cells with distinct profiles. | Longitudinal descriptive; small-cell and selection-sensitive |
 | Annual resources × practical room → care delay | Among not-confident respondents, medical-care delay was 11.90% in the poor/negative income category, 18.69% in middle income, and 15.56% in high income, showing annual income is not liquid capacity. | Compared association; composition-sensitive |
 | Work status × practical room → care delay | Among employed MEPS respondents, medical-care delay was 21.42% for the not-confident group versus 6.94% for the confident group; among not-employed respondents it was 8.99% versus 3.42%. | Compared association; work-status-sensitive |
 | Care delay → household cascade | Among MEPS respondents reporting medical-care delay due to cost, medical debt was 39.76%, debt-collector contact 38.09%, and missed loan/credit payments 29.89%, versus 13.50%, 11.31%, and 8.57% among those not reporting delay. | Compared association; temporal order open |
@@ -137,6 +138,7 @@ missingness, uncertainty, counterexamples, and a clear follow-up window.
 - [SHED care-skipping/adaptation association](../shed-2025-care-skipping-adaptation-association-v1.md)
 - [SHED panel persistence](../shed-panel-care-foregoing-persistence-v1.md)
 - [SHED coverage transitions](../shed-panel-coverage-care-foregoing-paths-v1.md)
+- [SHED coverage-transition reproduction audit](../shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
 - [Oregon Medicaid lottery route](../oregon-medicaid-lottery-coverage-route-v1.md)
 - [CFPB medical-collections credit response](../cfpb-medical-collections-credit-response-layer-v1.md)
 - [Medical-debt relief outcome separation](../medical-debt-relief-rct-outcome-separation-v1.md)
