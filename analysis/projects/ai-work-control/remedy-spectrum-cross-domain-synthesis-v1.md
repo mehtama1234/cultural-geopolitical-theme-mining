@@ -141,6 +141,7 @@ recurrence prevention, and retaliation evidence.
 - [UK ICO follow-up acquisition audit](uk-ico-recruitment-follow-up-acquisition-audit-2026-09-15.md)
 - [SAG-AFTRA digital-replica source record](sag-aftra-digital-replica-source-record-v1.md)
 - [IBM Germany works-council AI framework governance record](ibm-germany-works-council-ai-framework-governance-record-v1.md)
+- [Microsoft Germany works-council Copilot deployment record](microsoft-germany-works-council-copilot-deployment-record-v1.md)
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
 
 ## Boundary

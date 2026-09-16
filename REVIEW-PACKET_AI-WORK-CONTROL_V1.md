@@ -9,7 +9,7 @@ to organizations before they make work better for the people doing it. The
 central empirical question is who can see, change, contest, and ultimately bear
 the consequences of a decision.
 
-## The seven-piece route
+## The eight-piece route
 
 ### 1. The theme map: the argument in outline
 
@@ -104,6 +104,15 @@ This is evidence of ex-ante governance architecture and reported practice, not
 proof of worker-level benefit. The decisive missing artifact is one named live
 deployment where a works-council intervention changed, constrained, or stopped
 the system.
+
+### 8. Microsoft Germany: deployment-stage participation
+
+[Microsoft Germany's Copilot deployment record](analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md)
+adds a company-reported live rollout: councils participated in a controlled
+tolerance phase, raised concerns about ranking, sensitive inference, and
+guardrails, and supplied feedback to product engineering before broader
+approval. It is useful implementation evidence, but the public account does
+not identify a specific feature change, worker outcome, or enforceable veto.
 
 ## Themes to test while reviewing
 

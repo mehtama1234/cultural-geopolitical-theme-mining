@@ -63,6 +63,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [EU Platform Work Directive implementation-boundary audit](analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md)
 - [Germany Platform Work Directive implementation record](analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md)
 - [IBM Germany works-council AI framework governance record](analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md)
+- [Microsoft Germany works-council Copilot deployment record](analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md)
 - [Netherlands Platform Work Directive implementation record](analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md)
 - [Netherlands draft control matrix](analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md)
 - [Netherlands Deliveroo algorithmic-status case](analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md)
