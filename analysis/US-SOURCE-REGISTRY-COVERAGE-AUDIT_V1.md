@@ -104,7 +104,7 @@ or proof that every source item was read in full.
 | [Panel Study of Income Dynamics](https://psidonline.isr.umich.edu/) | US longitudinal household and individual evidence on income, wealth, employment, family, health, and mobility | 0 | 13 | 5 | 2 | evidence-bearing; machine-record URL |
 | [PSID packaged-data delivery route](https://simba.isr.umich.edu/Zips/ZipMain.aspx) | authenticated PSID packaged files, wave archives, and reproducible longitudinal-data acquisition | 0 | 14 | 6 | 1 | evidence-bearing; machine-record URL |
 | [European Commission Joint Research Centre](https://joint-research-centre.ec.europa.eu/) | comparative European evidence on algorithmic management, technology, labor, institutions, and public capacity | 1 | 12 | 7 | 0 | evidence-bearing |
-| [European Commission JRC Publications Repository](https://publications.jrc.ec.europa.eu/repository/) | primary publication and technical-report delivery route for JRC comparative research | 2 | 22 | 12 | 1 | evidence-bearing; machine-record URL |
+| [European Commission JRC Publications Repository](https://publications.jrc.ec.europa.eu/repository/) | primary publication and technical-report delivery route for JRC comparative research | 2 | 23 | 12 | 1 | evidence-bearing; machine-record URL |
 | [Chicago Council on Global Affairs](https://globalaffairs.org/) | US and comparative public-opinion and geopolitical context on migration, foreign policy, security, and international engagement | 0 | 11 | 5 | 8 | evidence-bearing; machine-record URL |
 | [US Department of Defense](https://www.defense.gov/) | US defense policy, force posture, procurement, industrial-base, alliance, and operational-capacity records | 0 | 3 | 3 | 2 | evidence-bearing; machine-record URL |
 | [Defense Security Cooperation Agency](https://www.dsca.mil/) | US foreign military sales, security cooperation notifications, partner procurement, and defense-transfer records | 0 | 4 | 4 | 2 | evidence-bearing; machine-record URL |
@@ -155,8 +155,8 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **33**
-- Review queue shown: **33** highest-frequency domains
+- Observed domains outside registered families: **34**
+- Review queue shown: **34** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
@@ -188,6 +188,7 @@ family that will be acquired, compared, or maintained over time.
 | `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `tse-fr.eu` | 2 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-022.md`; `analysis/records/us-nber-stimulus-transfer-electoral-incentives-italy-2014.json` |
 | `cbp.gov` | 1 | `analysis/records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json` |
+| `ec.europa.eu` | 1 | `analysis/projects/ai-work-control/jrc-aim-work-pdf-acquisition-audit-v1.md` |
 | `icpsr.github.io` | 1 | `analysis/projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md` |
 | `journals.uchicago.edu` | 1 | `analysis/us-theme-atlas.md` |
 | `nasbo.org` | 1 | `analysis/records/us-pew-state-rainy-day-capacity-fy2025.json` |
@@ -231,6 +232,7 @@ without a recurring acquisition need and source-specific metadata.
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
+| `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |

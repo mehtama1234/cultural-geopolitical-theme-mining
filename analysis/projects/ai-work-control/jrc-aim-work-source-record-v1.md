@@ -91,6 +91,10 @@ The [PDF acquisition audit](jrc-aim-work-pdf-acquisition-audit-v1.md) records
 the checksum, page map, and figure-rendering boundary.
 **Country/sector table extraction with denominators, standard errors, and
 uncertainty:** still open.
+**Underlying-data access:** no public file was found in the accessible JRC
+metadata; the project-page dataset link resolves to an EUSurvey request form.
+This is an acquisition boundary, not evidence that restricted data do not
+exist.
 
 ## Analysis-model audit
 

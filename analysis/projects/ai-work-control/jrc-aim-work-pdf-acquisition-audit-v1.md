@@ -37,6 +37,20 @@ numeric country-by-practice coefficient matrix. No values were inferred from
 bar widths or heatmap colors. The existing [qualitative Figure 1/6 record](data/jrc-aim-work-figure1-6-qualitative-v1.json)
 therefore remains the appropriate promotion level.
 
+## Underlying-data route audit
+
+| Route | Observed state | Promotion consequence |
+|---|---|---|
+| [JRC147505 publication metadata](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505) | The accessible record describes the paper but lists no dataset, dataset collection, script, or supporting-file URL | No public replication package is promoted from the repository record |
+| [JRC project-page dataset link](https://ec.europa.eu/eusurvey/runner/aim_work_data) | The link opens an EUSurvey “AIM Work Data” form with required fields; it does not directly return a data file in the accessible page | Treat as a request/access route, not as evidence that data were downloaded |
+| Author-hosted full text | Public PDF copy is available, but no underlying microdata or code was identified in the accessible publication route | Publication claims remain source-grounded; numeric figure reconstruction is not silently inferred |
+
+This is an access-state observation, not a claim that the underlying data do not
+exist or cannot be obtained by an eligible researcher. A valid next step would
+be a formal data request to the JRC/Ipsos research route, followed by a record
+of eligibility, files received, terms of use, variable dictionary, and any
+confidentiality or output-review restrictions.
+
 ## Next acquisition
 
 Seek the underlying AIM-WORK dataset, replication files, or a supplementary
