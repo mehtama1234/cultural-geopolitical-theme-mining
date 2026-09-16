@@ -32,6 +32,7 @@ occurred.
 | PR-006 | Finnish Wolt couriers | Administrative court and tax-administration record | Platform data used to direct, supervise, monitor, and control work | Status and tax treatment challenge | `not_observed` as a decision-specific explanation | `not_observed` | `not_observed` | `observed` as wage-treatment consequence, not compensation for an automated decision | `not_observed` | High for status/tax consequence; low for automated-remedy outcome | Employment relationship and wage treatment recognized; working-time and automated-remedy dimensions remain separate |
 | PR-007 | Kenya Ziada platform workers | ILO institutional case study | Client ratings and service-quality assessments in domestic, beauty, and personal services | Staff mediation and discussion after a low rating | `observed_practice` | `observed_practice` | `not_observed` | `not_observed` | `not_observed` | Medium; official case study, not a case file | Human mediation is reported; score correction, restoration, payment, and consistency remain open |
 | PR-008 | UK jobseekers in automated recruitment | ICO regulator review and guidance | CV scoring, ranking, filtering, and possible pre-human rejection | Notice, contest, and request for meaningful human review | `observed_rule_or_expectation` | `observed_rule_or_expectation` | `not_observed` | `not_observed` | `not_observed` | High for regulator action; low for individual remedy | More than 30 employers reviewed; 16 organizations committed to recommendations; no candidate-level correction shown |
+| PR-009 | Kuching, Malaysia; e-hailing worker and GrabCar Sdn Bhd | Media reports attributing facts to KESUMA / Gig Workers Tribunal | Saver trips, cashback incentives, and advance booking | Tribunal hearing; matter reportedly returned for evidence and witness examination | `observed_case_report` | `observed_case_report` | `not_observed` | `not_observed` | `not_observed` | Medium for existence and subject of first hearing; low for outcome | A first hearing is reported; no award, correction, payment, or final finding located |
 
 ## Cross-row findings
 
@@ -42,6 +43,12 @@ statutory review and explanation architecture. Neither establishes that a
 worker's access, rating, or pay was corrected. PR-002 supplies the first
 worker-level positive-resolution signal, but its survey design does not identify
 what changed.
+
+PR-009 now adds the first exercised Malaysian Tribunal proceeding to the map.
+It closes the “institution created -> case reached a hearing” link, but not the
+“hearing -> award or worker outcome” link. It is intentionally coded as a
+reported proceeding rather than an adjudicated remedy because the available
+report describes an evidentiary hearing still in progress.
 
 ### Formal remedy and practical remedy are separate variables
 
@@ -91,6 +98,7 @@ For each new case, add:
 - [Platform-work court comparator](platform-work-court-comparator-v1.md)
 - [Kenya Ziada human-review platform record](kenya-ziada-human-review-record-v1.md)
 - [UK ICO automated-recruitment remedy record](uk-ico-automated-recruitment-remedy-record-v1.md)
+- [Malaysia Act 872 algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
 
 ## Boundary
 

@@ -114,7 +114,8 @@ For each route, acquire one artifact that crosses the missing link:
 
 1. a post-order Uber/Ola record showing correction or restoration;
 2. a Ugandan platform or worker-organization record itemizing a favorable appeal;
-3. a Malaysia or EU case showing a review, correction, payment, or sanction;
+3. the primary record or award for Malaysia's reported first GrabCar Tribunal
+   hearing, or an EU case showing a review, correction, payment, or sanction;
 4. a Kenya Ziada case documenting authority to alter the rating or consequence;
 5. an ICO follow-up outcome with a defined candidate or organization denominator;
 6. a SAG-AFTRA enforcement or use record showing consent, payment, or refusal effects;

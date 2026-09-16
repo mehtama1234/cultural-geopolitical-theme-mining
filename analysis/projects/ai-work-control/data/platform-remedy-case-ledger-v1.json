@@ -9,12 +9,14 @@
     "observed_adjudicated": "A court or tribunal made a finding or order.",
     "observed_commitment": "An organization committed to a recommendation, without completed remediation proof.",
     "observed_rule_or_expectation": "A regulator or guidance source states an expected right or safeguard.",
+    "observed_case_report": "A public report identifies a specific proceeding or hearing, but the primary adjudicative record or final outcome is not yet available.",
     "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
   },
   "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
   "implementation_stage_vocabulary": {
     "formal_institutions_reported_established": "An official source reports that the responsible dispute institution has been constituted; this does not establish use or outcome.",
-    "implementation_artifacts_visible": "A public portal, regulation, or guidance route is visible; this does not establish institutional exercise."
+    "implementation_artifacts_visible": "A public portal, regulation, or guidance route is visible; this does not establish institutional exercise.",
+    "case_hearing_reported": "A public report identifies a proceeding or hearing; the primary record or final outcome is not yet available."
   },
   "records": [
     {
@@ -105,6 +107,18 @@
       "stages": {"explanation": "observed_rule_or_expectation", "human_review": "observed_rule_or_expectation", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
       "evidence_strength": "high_for_regulator_action_low_for_individual_remedy",
       "boundary": "More than 30 employers were reviewed and 16 organizations committed to recommendations; no candidate-level correction shown."
+    },
+    {
+      "id": "PR-009",
+      "place": "Kuching, Malaysia",
+      "population": "One e-hailing gig worker and GrabCar Sdn Bhd",
+      "source_type": "secondary_report_attributing_facts_to_KESUMA_Tribunal",
+      "decision_surface": ["saver_trips", "cashback_incentives", "advance_booking"],
+      "worker_route": "Gig Workers Tribunal hearing",
+      "implementation_stage": "case_hearing_reported",
+      "stages": {"explanation": "observed_case_report", "human_review": "observed_case_report", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "medium_for_hearing_low_for_outcome",
+      "boundary": "First hearing reported on 2026-09-01; matter reportedly returned for evidence and witness examination; no award or final finding located."
     }
   ]
 }

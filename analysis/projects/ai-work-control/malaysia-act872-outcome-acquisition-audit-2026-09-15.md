@@ -23,6 +23,7 @@ routes, with a public record of the resulting decision?
 | JTKSM enforcement page | Page updated 15 September 2026 with Act, regulations, determinations, and e-Aduan links | Implementation surface is maintained; no public case-level outcome register located |
 | Ministry service description | e-Aduan intended resolution target of up to 21 working days depending on complexity | Service target observed; actual resolution-time distribution and remedy content not observed |
 | Public web search | Queries for Act 872, gig-worker Tribunal, complaints, deactivation, review, and enforcement | No publicly indexed case-level automated-decision outcome located |
+| Secondary case reporting | Human Resources Online and Free Malaysia Today reports attributing facts to KESUMA / the Tribunal | First hearing reported on 1 September 2026 in Kuching involving GrabCar; no award or final finding reported |
 
 ## What is observed
 
@@ -36,6 +37,9 @@ routes, with a public record of the resulting decision?
    enforcement page updated 15 September 2026.
 6. The Ministry reports that the Gig Workers Tribunal and Gig Consultation
    Council were formally established on 3 April 2026.
+7. Secondary reports attributing facts to KESUMA identify a first Tribunal
+   hearing on 1 September 2026 involving an e-hailing worker and GrabCar Sdn
+   Bhd; the matter reportedly returned for evidence and witness examination.
 
 ## What is not observed
 
@@ -50,6 +54,8 @@ routes, with a public record of the resulting decision?
 - actual e-Aduan resolution times or outcome categories;
 - Tribunal hearings, awards, or aggregate referral counts after the reported
   institutional establishment;
+- the primary case identifier, pleadings, hearing record, award, or final
+  finding for the reported GrabCar matter;
 - recurrence prevention or anti-retaliation outcomes.
 
 The absence of a public record is not evidence that no complaints or outcomes
@@ -60,10 +66,11 @@ case-level data.
 ## Promotion rule
 
 Do not promote Malaysia from `official_measure_effective` to
-`official_enforcement_or_case_found` until an official record identifies at
-least one complaint, review, conciliation, Tribunal matter, enforcement action,
-or published aggregate outcome under Act 872. Do not code a portal, form, or
-regulation as a worker remedy outcome.
+`official_enforcement_or_case_found` based only on the secondary report. The
+report is sufficient to add `case_hearing_reported`, but an official case
+identifier, primary hearing record, award, or official aggregate outcome is
+still required for the enforcement/outcome promotion. Do not code a portal,
+form, regulation, or hearing-in-progress as a worker remedy outcome.
 
 ## Next acquisition
 
@@ -90,3 +97,5 @@ regulation as a worker remedy outcome.
 - [e-Aduan](https://eaduan-gig.mohr.gov.my/eaduan/login)
 - [Conciliation regulations](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA146_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28PROSIDING%20PENDAMAIAN%29.pdf)
 - [Tribunal regulations](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA144_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28TRIBUNAL%20PEKERJA%20GIG%29.pdf)
+- [Human Resources Online first-hearing report](https://production.humanresourcesonline.net/malaysia-s-gig-workers-tribunal-hears-first-case)
+- [Free Malaysia Today GrabCar report](https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/02/pertikaian-babit-grabcar-kes-pertama-didengar-tribunal-pekerja-gig)

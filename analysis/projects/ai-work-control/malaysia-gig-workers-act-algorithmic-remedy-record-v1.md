@@ -30,6 +30,8 @@ that a platform complied, or that a Tribunal awarded a remedy.
 - [JTKSM Act 872 enforcement page](https://jtksm.mohr.gov.my/ms/penguatkuasaan-akta-pekerja-gig-2025-jtksm)
 - [JTKSM 2025 annual report](https://jtksm.mohr.gov.my/sites/default/files/2026-04/LAPORAN%20TAHUNAN%202025%20V2.pdf)
 - [Ministry announcement establishing the Gig Workers Tribunal and Gig Consultation Council, 3 April 2026](https://www.mohr.gov.my/pdf/2026/KSM.%20100-2-1-1%20JLD%205%20%2874%29.pdf)
+- [Human Resources Online report on the first Tribunal hearing, 3 September 2026](https://production.humanresourcesonline.net/malaysia-s-gig-workers-tribunal-hears-first-case)
+- [Free Malaysia Today report on the GrabCar dispute, 2 September 2026](https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/02/pertikaian-babit-grabcar-kes-pertama-didengar-tribunal-pekerja-gig)
 
 The Act received Royal Assent on 16 December 2025 and was gazetted on 31
 December 2025. The Ministry's 31 March 2026 notice states that enforcement
@@ -70,6 +72,7 @@ audited count in this record.
 | Correction or account restoration completed | `not_observed` | No worker-level outcome acquired |
 | Compensation paid | `not_observed` | The statutory interim-payment rule is not evidence of payment in a case |
 | Tribunal or conciliation outcome | `not_observed` | Regulations are present; adjudicated outcomes remain open |
+| First exercised Tribunal proceeding | `observed_case_report` | Public reports attributed to KESUMA describe a 1 September 2026 Kuching hearing involving GrabCar; the matter reportedly returned for evidence and witness examination |
 
 ## Interpretation
 
@@ -110,9 +113,11 @@ maintained.” They do not show that a worker filed a complaint, that the
 Tribunal heard a matter, or that an automated-decision remedy was delivered.
 
 These are observed implementation artifacts, not evidence that a worker has
-obtained a remedy. The current public search found no published complaint
-count, case-level complaint register, conciliation settlement, Tribunal award,
-or enforcement decision identifying an automated-monitoring or
+obtained a remedy. A first Tribunal hearing is now reported in secondary
+coverage that attributes the facts to KESUMA, but no primary award or final
+finding has been located. The current public search found no published
+complaint count, case-level complaint register, conciliation settlement,
+Tribunal award, or enforcement decision identifying an automated-monitoring or
 automated-decision dispute. The next
 acquisition should test whether those records are non-public, newly emerging,
 or available through a formal information request.
