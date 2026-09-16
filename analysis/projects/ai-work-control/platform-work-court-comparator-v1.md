@@ -100,6 +100,24 @@ where platform direction is legally recognized
   -> matched country/sector/workplace evidence is still required
 ```
 
+## New remedy comparator
+
+The [Uber/Ola automated-decision remedy case](uber-ola-automated-decision-remedy-case-record-v1.md)
+adds a pre-Directive court outcome involving the missing middle directly. The
+Amsterdam Court of Appeal required information about factors behind account
+deactivation, trip allocation, fares, and internal scores, allowing drivers to
+exercise GDPR rights such as rectification. It records an information remedy,
+not completed correction, compensation, reinstatement, or anti-retaliation.
+
+The comparative pathway is now:
+
+```text
+Deliveroo/Wolt: status and control recognition
+Uber/Ola: information remedy for automated decisions
+Directive/national drafts: prospective review, correction, and compensation rules
+post-Directive case: still required to test exercised implementation
+```
+
 ## Decisive next test
 
 Find an official post-directive or transposition-period case involving a
@@ -112,6 +130,7 @@ treatment. That would test the new remedy architecture directly.
 
 - [Netherlands Deliveroo case](netherlands-deliveroo-algorithmic-status-case-record-v1.md)
 - [Finland Wolt case](finland-wolt-platform-work-court-consequence-record-v1.md)
+- [Uber/Ola automated-decision remedy case](uber-ola-automated-decision-remedy-case-record-v1.md)
 - [Netherlands draft control matrix](netherlands-platform-work-directive-draft-control-matrix-v1.md)
 - [National implementation comparison](platform-work-directive-national-implementation-comparison-v1.md)
 - [JRC AIM-WORK practice and country map](jrc-aim-work-practice-country-map-v1.md)

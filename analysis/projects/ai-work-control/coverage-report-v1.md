@@ -89,10 +89,10 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - Germany, the Netherlands, France, and Finland have bounded national records:
   preparation, consultation, coordination, and court/administrative consequence
   are coded as different stages rather than collapsed into implementation.
-- Dutch Deliveroo and Finnish Wolt now provide court comparators for the
-  status/control pathway. They do not yet provide evidence that a worker used
-  the Directive-style explanation, review, correction, compensation, or
-  anti-retaliation pathway.
+- Dutch Deliveroo and Finnish Wolt provide court comparators for the
+  status/control pathway. The Uber/Ola case now supplies a pre-Directive
+  information remedy for automated decisions, while completed correction,
+  compensation, and anti-retaliation remain unobserved.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an
