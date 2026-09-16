@@ -1,0 +1,27 @@
+{
+  "format": "sipp-utility-buffer-following-reproduction-audit-v1",
+  "checked": "2026-09-16",
+  "command": "python3 scripts/analyze_sipp_utility_buffer_following.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/utility-buffer-following.json",
+  "inputs": {
+    "primary": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "replicate": "/tmp/rw2025_csv.zip"
+  },
+  "script_sha256": "d0e250a9915f66c76cd9efb48c27e03f17d755731397743ef5a7aec5abdb734e",
+  "output_sha256": "509bcf31b7162c881723a6a57c1e44a8d7b0e6e3fabf9025b6eb35d63b62ef01",
+  "rows_read": 379215,
+  "identified_persons": 31874,
+  "replicate_rows_read": 378291,
+  "matched_pair_rows": 294145,
+  "eligible_pairs": {
+    "utility_difficulty": 24289,
+    "no_utility_difficulty": 321766
+  },
+  "valid_state_changes": {
+    "utility_difficulty_credit": 0,
+    "utility_difficulty_savings": 0,
+    "no_utility_difficulty_credit": 0,
+    "no_utility_difficulty_savings": 0
+  },
+  "result": "The local rerun reproduced a zero-change adjacent-month result. Credit and savings fields are not promoted as a monthly buffer transition; the committed memo records this as a field-timing gate.",
+  "raw_inputs": "remain outside the repository"
+}

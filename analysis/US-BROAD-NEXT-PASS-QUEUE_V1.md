@@ -108,6 +108,15 @@ gate is therefore a dated bill/service event or the stronger authenticated
 PSID acquisition, followed by explicit universe, retention, missingness,
 weighting, and timing checks.
 
+The local [utility-to-buffer transition gate](projects/us-household-calendar-integration/sipp-utility-buffer-following-gate-v1.md)
+was then run against the same v18 slice and 240-replicate archive. Credit and
+savings fields produced zero valid adjacent-month state changes, so they are
+not an event-compatible monthly buffer trajectory in this public-use extract.
+The next SIPP contribution must therefore use a dated bill, transaction,
+shutoff, assistance, or service episode—or the authenticated PSID route—rather
+than treating repeated account-status fields as borrowing, repayment, or
+recovery.
+
 The next active pass is **material/time/care linkage**, documented in the
 [acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md)
 and now operationalized by the [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md).

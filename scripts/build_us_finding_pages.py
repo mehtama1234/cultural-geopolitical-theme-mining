@@ -324,6 +324,11 @@ def main():
     memos.append(sipp_following_outcomes_bridge)
     sipp_time_loss_gate = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md"
     memos.append(sipp_time_loss_gate)
+    # Publish the local buffer-transition field-timing gate so the broad
+    # material/time/care route exposes the negative result and its acquisition
+    # boundary instead of implying monthly credit or savings movement.
+    sipp_buffer_following_gate = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-buffer-following-gate-v1.md"
+    memos.append(sipp_buffer_following_gate)
     # Give the local-place lane a reader route from firm formation and stocks
     # through practical reachability, belonging, and political context.
     local_business_readme = ROOT / "analysis/projects/us-local-business-place/README.md"
@@ -465,6 +470,7 @@ def main():
         nber_index_acquisition: "nber-w35677-index-acquisition-v1.html",
         sipp_utility_work_tenure: "sipp-utility-work-tenure-following-layer-v1.html",
         sipp_utility_tenure_childcare: "sipp-utility-tenure-childcare-layer-v1.html",
+        sipp_buffer_following_gate: "sipp-utility-buffer-following-gate-v1.html",
         imf_fas_access_audit: "imf-fas-provider-side-access-audit-2026-09-15.html",
         credit_liquidity_layer: "credit-liquidity-financial-power-layer-v1.html",
         macro_financial_capacity: "macro-to-household-financial-capacity-synthesis-v1.html",
