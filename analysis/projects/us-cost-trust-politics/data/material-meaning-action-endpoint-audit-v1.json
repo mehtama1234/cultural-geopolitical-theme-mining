@@ -1,0 +1,51 @@
+{
+  "format": "material-meaning-action-endpoint-audit-v1",
+  "status": "coverage_audit_only",
+  "checked": "2026-09-16",
+  "purpose": "Record which existing local source layers can support the material-to-meaning/action bridge without presenting separate units as one causal episode.",
+  "sources": [
+    {
+      "source": "analysis/records/us-census-htops-material-trust-panel-april-june-2025.json",
+      "unit": "selected_linked_respondent",
+      "material_surface": "baseline expense difficulty and later food, energy, job, price, and material transitions",
+      "meaning_surface": "June confidence in Congress and federal-statistics agreement",
+      "action_surface": "not observed in this record",
+      "time_order": "April baseline to June follow-up",
+      "event_actor": "not identified",
+      "boundary": "same-ID linkage and replicate-weight descriptive transitions; no dated bill, attribution, remedy, action, or attrition-adjusted population inference"
+    },
+    {
+      "source": "analysis/records/us-cces-trust-action-joint-material-proxies-2024.json",
+      "unit": "post_election_respondent",
+      "material_surface": "gig-work and student-loan responsibility proxies",
+      "meaning_surface": "federal and state trust",
+      "action_surface": "six civic-action indicators and any-action composite",
+      "time_order": "same survey wave; no dated shock",
+      "event_actor": "not identified",
+      "boundary": "joint proxy cells show coexistence and heterogeneity; no event, alternative, attribution, or causal ordering"
+    },
+    {
+      "source": "analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json",
+      "unit": "survey_respondent",
+      "material_surface": "reported medical-expense hardship",
+      "meaning_surface": "responsibility attribution",
+      "action_surface": "targeted political participation measures",
+      "time_order": "module-year comparison; not a same-event panel",
+      "event_actor": "attribution is reported but exact episode actor is not linked",
+      "boundary": "reported hardship, attribution, and action are separate survey surfaces; no dated bill, remedy, or recovery"
+    },
+    {
+      "source": "analysis/records/us-anes-panel-worry-trust-vote-2024.json",
+      "unit": "repeated_panel_respondent_subset",
+      "material_surface": "pre-election financial worry",
+      "meaning_surface": "federal trust and party-conditioned judgment",
+      "action_surface": "post-election reported presidential vote",
+      "time_order": "pre-election worry to post-election vote",
+      "event_actor": "not identified",
+      "boundary": "temporally ordered descriptive panel contrast; no direct material exposure, attributed actor, remedy, or broader action endpoint"
+    }
+  ],
+  "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; CCES and CES supply action or attribution but not a dated event; ANES supplies worry-to-vote ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
+  "next_test": "Use a lawful repeated-respondent or event-compatible design that records dated exposure, responsible actor, alternatives, attribution, prior judgment, distinct action, remedy, and later recovery or exit.",
+  "storage_boundary": "Uses committed local trend records only; no raw-data acquisition or new estimate."
+}

@@ -84,6 +84,14 @@ that capacity and supplier identity can be measured without accepted output or
 changed external behavior. These are parallel boundary findings, not one
 material-to-action dataset.
 
+The new [material-to-meaning/action endpoint audit](projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md)
+formalizes the four strongest local partial bridges: HTOPS supplies selected
+same-respondent material timing and institutional judgment; CCES supplies
+material/work proxies with trust and civic action; CES supplies hardship,
+attribution, and targeted participation; and ANES supplies worry-to-vote
+ordering. None supplies the full dated event, responsible actor, alternatives,
+meaning, action, remedy, and recovery chain.
+
 ## Next decisive test
 
 Prioritize one existing panel or event-compatible source that can observe a
