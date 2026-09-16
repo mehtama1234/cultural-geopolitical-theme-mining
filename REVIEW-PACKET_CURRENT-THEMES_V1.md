@@ -3,6 +3,11 @@
 **Checked:** 2026-09-16  
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
+**Registry checkpoint:** 253 canonical records, 963 observations, 14 program
+themes; the latest verification additions are the [SNAP reason-to-food-security
+record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
+[MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
+and [CFPB route recheck](analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md).
 
 This packet is a reading aid, not a new estimate. Each route starts with a
 bounded finding and then identifies the next missing observation. The atlas
