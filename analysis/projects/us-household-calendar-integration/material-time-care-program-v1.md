@@ -149,6 +149,13 @@ to the fall reference year rather than a dated monthly episode. The
 preserves the denominators, Fay-BRR uncertainty, hashes, and open downstream
 arrows.
 
+The [utility-conditioned follow-up record](../../records/us-sipp-utility-time-loss-following-2024.json)
+is the stricter counterexample: only 27 adjacent-month pairs survive the
+utility, tenure, work-prevention, and time-loss gates. Its four tenure/utility
+cells therefore document how quickly the apparent comparison becomes
+selection-limited; they do not establish that a utility problem produced the
+reported time loss.
+
 The adjacent SIPP option-set diagnostic adds two important qualifications.
 Among valid utility-difficulty person-month rows, 35.21% carried a credit-card
 or store-card balance and 46.44% reported a savings account, compared with
