@@ -87,6 +87,22 @@ another summary of the Act. It is a Malaysian complaint, conciliation record,
 Tribunal award, enforcement action, or platform-facing implementation document
 that shows whether section 8 or section 14 was used.
 
+## Implementation-stage check
+
+The Ministry's public implementation materials now expose three relevant
+institutional routes:
+
+- an [e-Aduan portal for gig-worker complaints](https://eaduan-gig.mohr.gov.my/eaduan/login);
+- a Ministry [Act 872 enforcement and downloads portal](https://www.mohr.gov.my/aktapekerjagig2025/download.html), including the conciliation and Tribunal regulations;
+- a public [Act 872 information portal](https://www.mohr.gov.my/aktapekerjagig2025/infokit.html) linking dispute-resolution and Tribunal information.
+
+These are observed implementation artifacts, not evidence that a worker has
+obtained a remedy. The current public search found no case-level complaint
+register, conciliation settlement, Tribunal award, or enforcement decision
+identifying an automated-monitoring or automated-decision dispute. The next
+acquisition should test whether those records are non-public, newly emerging,
+or available through a formal information request.
+
 ## Boundary
 
 This is a legal and administrative source record, not a finding that Malaysian

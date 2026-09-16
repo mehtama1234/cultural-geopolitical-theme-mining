@@ -100,7 +100,8 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - Malaysia Act 872 adds an enacted and effective non-European remedy
   architecture: automated-system disclosure, non-automated review, written
   deactivation explanations, a hearing right, and conciliation/Tribunal routes.
-  Exercise and enforcement of those rights remain unobserved.
+  The Ministry's e-complaint and implementation portals are visible, but
+  case-level exercise and enforcement outcomes remain unobserved.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an
