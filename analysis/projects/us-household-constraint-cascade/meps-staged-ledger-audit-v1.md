@@ -14,10 +14,11 @@ person key with a keyed hash, and writes JSONL outside Git.
 
 The staged row is deliberately broader than the evidence currently supports:
 observed event month, event family, self/family payment, coverage/poverty
-context, employment, perceived health, and bill-problem context are retained;
-care choice, alternatives, household trade-off, institutional route, verified
-remedy, trust, action, and recovery remain explicit unknowns or contextual
-fields.
+context, employment, perceived health, bill-problem, care-delay, medical-debt,
+collector-contact, and denial/prior-authorization context are retained;
+event-specific care choice, alternatives, household trade-off, institutional
+response, verified remedy, trust, action, and recovery remain explicit unknowns
+or contextual fields.
 
 ## Local run result
 
@@ -33,7 +34,7 @@ rows:
 
 The output was written to `/tmp/cgtm-meps-2024/household-constraint-cascade-staged-ledger.jsonl`
 and passed the ledger validator in events-only mode. The exact local output
-hash was `53d3606504bf849adea7b172f37b9922a88f7066299b7501e60d895bfea8dc43`.
+hash was `9f19ddcb2234890ecfa6cf7ebba5960225fccaa397c09fc44e4c53217527fa88`.
 The keyed salt is intentionally not committed or recorded, so a rerun with a
 different ephemeral salt will have a different row hash.
 

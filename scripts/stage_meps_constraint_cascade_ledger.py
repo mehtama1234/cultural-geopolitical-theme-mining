@@ -25,7 +25,7 @@ EVENTS = {
 }
 PERSON_FIELDS = [
     "DUPERSID", "PANEL", "PERWT24F", "INSURC24", "POVCAT24", "EMPST53",
-    "RTHLTH53", "PROBPY42",
+    "RTHLTH53", "PROBPY42", "DLAYCA42", "MEDDEBT42", "FWDEBT42", "EQDENY53",
 ]
 
 
@@ -101,12 +101,19 @@ def main() -> int:
                     f"self/family payment={clean(record.PAYMENT)}; insurance code={clean(context.INSURC24)}; "
                     f"poverty category={clean(context.POVCAT24)}; alternatives not observed"
                 ),
-                "choice_and_tradeoff": "care received/delayed/skipped and household trade-off are not observed",
-                "institutional_route": "provider/insurer/employer/agency route is not identified by this event extract",
+                "choice_and_tradeoff": (
+                    f"reported round cost-related-care-delay code={clean(context.DLAYCA42)}; "
+                    "event-specific care choice and household trade-off are not identified"
+                ),
+                "institutional_route": (
+                    f"reported round denial/prior-authorization code={clean(context.EQDENY53)}; "
+                    "provider/insurer response, appeal, and authority are not identified"
+                ),
                 "remedy_verification": "verified correction, payment arrangement, coverage restoration, or no remedy is unknown",
                 "followup_outcomes": (
                     f"round context: employment={clean(context.EMPST53)}, perceived health={clean(context.RTHLTH53)}, "
-                    f"medical bill problem={clean(context.PROBPY42)}; not event-specific recovery"
+                    f"medical bill problem={clean(context.PROBPY42)}, medical debt={clean(context.MEDDEBT42)}, "
+                    f"collector contact={clean(context.FWDEBT42)}; not event-specific recovery"
                 ),
                 "meaning_and_action": "trust, attribution, civic action, switching, and exit are not observed",
                 "denominator": "positive-weight persons with one valid first event in this event-family file; not a population estimate",
@@ -118,10 +125,10 @@ def main() -> int:
                 "stages": {
                     "trigger": {"status": "observed", "observation": f"first dated {family} event", "source": source},
                     "practical_room_and_alternatives": {"status": "observed", "observation": f"payment={clean(record.PAYMENT)} and round context; alternatives unknown", "source": source},
-                    "choice_and_tradeoff": {"status": "unknown", "observation": "not measured", "source": source},
-                    "institutional_route": {"status": "unknown", "observation": "not measured", "source": source},
+                    "choice_and_tradeoff": {"status": "reported", "observation": f"round care-delay code={clean(context.DLAYCA42)}; event-specific choice unknown", "source": source},
+                    "institutional_route": {"status": "reported", "observation": f"round denial/prior-authorization code={clean(context.EQDENY53)}; response unknown", "source": source},
                     "remedy_verification": {"status": "unknown", "observation": "not measured", "source": source},
-                    "followup_outcomes": {"status": "observed", "observation": "round context only; not event-specific recovery", "source": source},
+                    "followup_outcomes": {"status": "reported", "observation": f"round bill={clean(context.PROBPY42)}, debt={clean(context.MEDDEBT42)}, collector={clean(context.FWDEBT42)}; not event-specific recovery", "source": source},
                     "meaning_and_action": {"status": "unknown", "observation": "not measured", "source": source},
                 },
             })
