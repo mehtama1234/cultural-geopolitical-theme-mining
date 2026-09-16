@@ -4,6 +4,9 @@ This is a curated entry point into the living atlas. It is not a replacement
 for the source records or the full registry. Each path below starts with a
 plain-language writeup, then points to the evidence boundary and the next test.
 
+For external-data retrieval constraints and retention rules, see the
+[acquisition resource policy](ACQUISITION-RESOURCE-POLICY_V1.md).
+
 ## Start here
 
 0. [AI, work, and control review packet](REVIEW-PACKET_AI-WORK-CONTROL_V1.md)
