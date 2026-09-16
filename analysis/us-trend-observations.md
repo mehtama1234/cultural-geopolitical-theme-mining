@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-252 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+253 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -873,6 +873,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | SNAP receipt transitions do not map cleanly onto following-month material security | cost, voice, time | household_room_consumption, care_health_reproduction, unequal_exposure_status, public_systems_feedback, political_judgment_action | SIPP identified person, adjacent reference-month pair | United States | 4 | 2024 reference year; SNAP No->No; 2024 reference year; SNAP No->Yes; 2024 reference year; SNAP Yes->No; 2024 reference year; SNAP Yes->Yes | estimated | [open](records/us-sipp-snap-transition-following-hardship-2024.json) |
 
 **Boundary:** This is a Fay-BRR weighted descriptive SIPP transition comparison, not a SNAP program-effect estimate, complete household benefit spell, notice/effort/remedy record, or measure of trust, political meaning, or later recovery. The retrieval hash covers the committed analysis memo.
+
+| SNAP transition reasons lead to distinct following-month food-security paths | cost, time, voice | public_systems_feedback, household_room_consumption, time_hidden_price, care_health_reproduction, unequal_exposure_status, trust_identity_meaning, political_judgment_action | identified SIPP person, adjacent reference-month SNAP transition with a classified recorded reason and following-month food-security outcome | United States | 2 | 2024; classified SNAP no -> yes transition, recorded reason, following-month food security; 2024; classified SNAP yes -> no transition, recorded reason, following-month food security | compared | [open](records/us-sipp-snap-transition-reason-following-food-security-2024.json) |
+
+**Boundary:** This is a Fay-BRR weighted descriptive comparison of recorded SNAP transition reasons and following-month food security. It does not establish notice, effort, benefit amount, gap days, causal program protection, household recovery, remedy, trust, political action, or geopolitical consequence. Classified reason and food-security universes are smaller than all transition universes.
 
 | Reported reasons for monthly SNAP entry and exit are heterogeneous | cost, work, voice | household_room_consumption, work_control_bargaining, public_systems_feedback, unequal_exposure_status, political_judgment_action | identified SIPP person, adjacent reference-month SNAP transition with a classified recorded reason | United States | 2 | 2024; SNAP no -> yes; recorded entry reason; 2024; SNAP yes -> no; recorded exit reason | estimated | [open](records/us-sipp-snap-transition-reasons-2024.json) |
 

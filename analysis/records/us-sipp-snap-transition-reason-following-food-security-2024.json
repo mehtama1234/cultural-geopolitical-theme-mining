@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-snap-transition-reason-following-food-security-2024",
+  "title": "SNAP transition reasons lead to distinct following-month food-security paths",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "identified SIPP person, adjacent reference-month SNAP transition with a classified recorded reason and following-month food-security outcome",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; classified SNAP no -> yes transition, recorded reason, following-month food security",
+      "denominator": {"value": 188, "unit": "classified entry pairs with valid following-month RFOODS; reason-specific valid denominators vary", "value_type": "classified_person_month_pairs"},
+      "measures": {"low_or_very_low_food_security": {"value": 26.12, "unit": "percent; weighted share; Fay-BRR SE 3.82 pp; approximate 95% CI 18.64–33.60", "value_type": "weighted_share"}, "classified_entry_pairs": {"value": 217, "unit": "pairs", "value_type": "count"}, "all_entry_pairs": {"value": 437, "unit": "pairs", "value_type": "count"}},
+      "method": "Classify adjacent-month SNAP entry reasons, retain valid following-month RFOODS=2/3 with AFOODS validity, and estimate with WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Reason categories are observed for only 217 of 437 entry pairs; food-security valid records are smaller and reason cells are selected. The following month is record order, not proof of benefit or bill timing.",
+      "subgroup": "Persons entering reported SNAP receipt with a valid classified reason and following-month food-security response.",
+      "counterinterpretation": "Food insecurity may reflect prior need, income, health, household composition, timing, or another shock rather than SNAP entry or its reason.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary-v18:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; script:sha256:07afd9b96d5c844e4e0afb84ebb92f80acfe2590bd8a45c6ff1005f93c09c9c4",
+      "status": "compared"
+    },
+    {
+      "period": "2024; classified SNAP yes -> no transition, recorded reason, following-month food security",
+      "denominator": {"value": 160, "unit": "classified exit pairs with valid following-month RFOODS; reason-specific valid denominators vary", "value_type": "classified_person_month_pairs"},
+      "measures": {"low_or_very_low_food_security": {"value": 18.87, "unit": "percent; weighted share; Fay-BRR SE 3.51 pp; approximate 95% CI 11.99–25.74", "value_type": "weighted_share"}, "classified_exit_pairs": {"value": 188, "unit": "pairs", "value_type": "count"}, "all_exit_pairs": {"value": 387, "unit": "pairs", "value_type": "count"}},
+      "method": "Classify adjacent-month SNAP exit reasons, retain valid following-month RFOODS=2/3 with AFOODS validity, and estimate with WPFINWGT and 240 Fay-BRR replicate weights.",
+      "uncertainty": "Reason categories are observed for only 188 of 387 exit pairs; food-security valid records are smaller and reason cells are selected. Exit does not identify restored security or income.",
+      "subgroup": "Persons exiting reported SNAP receipt with a valid classified reason and following-month food-security response.",
+      "counterinterpretation": "Exit may reflect income, renewal, family change, noncollection, reporting, or another shock; food security is not a direct measure of program adequacy.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "primary-v18:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; script:sha256:07afd9b96d5c844e4e0afb84ebb92f80acfe2590bd8a45c6ff1005f93c09c9c4",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-safety-net-access/findings/us-safety-net-access-015.md", "claim": "The reader-facing finding supplies the reason-specific food-security cells and interpretation boundary.", "status": "finding"},
+    {"source_url": "../../projects/us-safety-net-access/sipp-snap-reason-outcome-reproduction-audit-2026-09-16.md", "claim": "The reproduction audit preserves row counts, matched pairs, hashes, and aggregate estimates.", "status": "reproduction-audit"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_sipp_snap_reason_outcome_fay_brr.py", "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv", "replicate_input": "/tmp/rw2025_csv.zip", "rows_read": 379215, "replicate_rows_read": 378291, "classified_transition_pairs_matched": 405, "result": "Aggregate entry and exit food-security estimates and selected reason cells reproduced to the displayed precision; raw inputs remain outside the repository.", "interpretation": "This is a same-person adjacent-month descriptive route comparison, not a causal program, recovery, remedy, trust, or political-action estimate."},
+  "boundary": "This is a Fay-BRR weighted descriptive comparison of recorded SNAP transition reasons and following-month food security. It does not establish notice, effort, benefit amount, gap days, causal program protection, household recovery, remedy, trust, political action, or geopolitical consequence. Classified reason and food-security universes are smaller than all transition universes."
+}
