@@ -47,12 +47,15 @@ Each row should contain, at minimum:
 | `production_support` | Support, sustainment, tooling, or capacity commitment | Accepted output |
 | `capacity` | Named plant, workforce, line, power, or service capability | Case-specific output or customer control |
 | `test` / `integration` | A dated test or integration milestone | Fielded readiness or combat availability |
+| `audit_control` | An audit finding about documentary, accounting, or implementation control | Production, delivery, or non-delivery of the capability |
 | `shipment` / `delivery` | Physical movement or receipt, if the source says so | Formal acceptance, training, or operational use |
 | `acceptance` | Customer or authority accepted a specified object or lot | Sustained readiness or external leverage |
 | `training` / `fielding` | Personnel or unit preparation and placement | Full inventory, maintenance, or mission performance |
 | `maintenance` / `inventory` | Support or recorded stock status | Effective operational availability unless stated |
 | `operational_use` | Observed use or exercise by a named operator | General strategic leverage or deterrence |
 | `external_response` | Another actor changed a decision, term, posture, or behavior after the capability event | A causal effect unless timing and alternative explanations are documented |
+| `non_observation` | A bounded search that did not locate a specified event | Proof that the event did not occur |
+| `comparator` | A separately identified case that tests timing, control, or realization interpretation | Evidence about the primary case |
 
 ## Promotion rules
 
@@ -123,6 +126,13 @@ The applied machine-readable ledger is the [Poland JASSM-ER realization
 ledger](data/poland-jassm-er-realization-ledger-v1.json). It keeps the F-35
 timing row marked as a comparator and records the reviewed non-observation
 separately from the observed agreement and planned window.
+
+Validate it with:
+
+```text
+python3 scripts/validate_realization_ledger.py \
+  analysis/projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json
+```
 
 The next decisive acquisition must therefore identify event type before
 content: a delivery notice is not an acceptance record, an acceptance record

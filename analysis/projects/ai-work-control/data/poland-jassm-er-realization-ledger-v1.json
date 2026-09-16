@@ -55,7 +55,7 @@
     },
     {
       "event_id": "jassm-er-control-gap-2022-audit",
-      "event_type": "search_result",
+      "event_type": "audit_control",
       "event_date": "2022-01-01/2022-09-30",
       "date_precision": "quarter_range",
       "actor": "Polish Supreme Audit Office",
@@ -71,7 +71,7 @@
     },
     {
       "event_id": "jassm-er-realization-non-observation-2026-09-15",
-      "event_type": "search_result",
+      "event_type": "non_observation",
       "event_date": "2026-09-15",
       "date_precision": "day",
       "actor": "Atlas acquisition audit",
@@ -85,7 +85,7 @@
     },
     {
       "event_id": "f35-fms-timing-comparator-2024-2025",
-      "event_type": "comparison",
+      "event_type": "comparator",
       "event_date": "2024-12-01/2025-01-31",
       "date_precision": "month_range",
       "actor": "Polish Armed Forces / FMS system",
