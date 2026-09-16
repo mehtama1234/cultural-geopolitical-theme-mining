@@ -244,6 +244,12 @@ self/family payment and month-level baseline/follow-up context. It closes the
 identity/payment/context bridge while preserving the missing care-choice and
 household-adaptation fields.
 
+The [prescription episode boundary memo](meps-2024-prescription-episode-boundary-v1.md)
+adds the HC-254A purchase/payment channel without treating a purchase as a
+complete dated medication episode. It keeps observed fills, restricted
+medication-start timing, and person-level affordability-delay reports as
+separate evidence surfaces.
+
 The [MEPS round-timing audit](meps-2024-round-timing-audit-v1.md) tests the
 available R3/1, R4/2, R5/3, and full-year reference boundaries and keeps them
 as temporal context rather than incorrectly calling them event follow-up.

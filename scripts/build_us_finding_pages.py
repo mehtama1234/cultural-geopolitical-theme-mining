@@ -369,6 +369,7 @@ def main():
     memos.append(cms_nhe_layer)
     cms_meps_synthesis = ROOT / "analysis/projects/us-health-cost-household-choice/cms-meps-household-health-cost-end-to-end-synthesis-v1.md"
     memos.append(cms_meps_synthesis)
+    memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/end-to-end-status-matrix-v1.md")
     memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/meps-2025-release-boundary-audit-2026-09-15.md")
     memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/meps-2024-prescription-episode-boundary-v1.md")
     cfpb_health_bridge = ROOT / "analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md"

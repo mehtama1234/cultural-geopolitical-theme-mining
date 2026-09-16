@@ -26,11 +26,11 @@ Read these in order if you want the most developed end-to-end chain:
 1. [Consolidated health-cost finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 2. [Month-ordered MEPS event timing](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md)
 3. [Institutional friction across event channels](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
-4. [CFPB event-ledger bridge for the remedy gap](analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md)
-5. [Medical-debt complaint visibility](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md)
-6. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
-7. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
-8. [Prescription purchase/payment boundary](analysis/projects/us-health-cost-household-choice/meps-2024-prescription-episode-boundary-v1.md)
+4. [Prescription purchase/payment boundary](analysis/projects/us-health-cost-household-choice/meps-2024-prescription-episode-boundary-v1.md)
+5. [CFPB event-ledger bridge for the remedy gap](analysis/projects/us-health-cost-household-choice/cfpb-event-ledger-health-cost-bridge-v1.md)
+6. [Medical-debt complaint visibility](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md)
+7. [Health-cost institutional-legitimacy bridge](analysis/projects/us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
+8. [Medical affordability and political action](analysis/findings/us-medical-affordability-political-action-matched-evidence-001.md)
 
 The central conclusion is deliberately qualified: the project can connect
 health-cost exposure, care choices, household adaptation, institutional
