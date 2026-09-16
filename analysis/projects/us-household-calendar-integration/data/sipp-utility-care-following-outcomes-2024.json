@@ -185,6 +185,80 @@
       }
     }
   },
+  "contrasts": {
+    "difficulty__renter__prevented_minus_not_prevented": {
+      "mortgage_hardship": {
+        "difference_percentage_points": 14.814311513237865,
+        "standard_error_percentage_points": 13.766175403869367,
+        "approx_95_percent_ci": [
+          -12.167392278346092,
+          41.79601530482182
+        ]
+      },
+      "food_insecurity": {
+        "difference_percentage_points": 14.43269428190801,
+        "standard_error_percentage_points": 16.728417209728352,
+        "approx_95_percent_ci": [
+          -18.355003449159558,
+          47.22039201297558
+        ]
+      }
+    },
+    "difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "mortgage_hardship": {
+        "difference_percentage_points": -12.908266896467962,
+        "standard_error_percentage_points": 17.075001992997173,
+        "approx_95_percent_ci": [
+          -46.37527080274242,
+          20.558737009806492
+        ]
+      },
+      "food_insecurity": {
+        "difference_percentage_points": 28.150373294000918,
+        "standard_error_percentage_points": 14.294960361700678,
+        "approx_95_percent_ci": [
+          0.13225098506758926,
+          56.16849560293424
+        ]
+      }
+    },
+    "no_difficulty__renter__prevented_minus_not_prevented": {
+      "mortgage_hardship": {
+        "difference_percentage_points": 9.140723891469719,
+        "standard_error_percentage_points": 7.201753127376668,
+        "approx_95_percent_ci": [
+          -4.974712238188552,
+          23.25616002112799
+        ]
+      },
+      "food_insecurity": {
+        "difference_percentage_points": 7.722936552483195,
+        "standard_error_percentage_points": 8.105682838257064,
+        "approx_95_percent_ci": [
+          -8.16420181050065,
+          23.610074915467038
+        ]
+      }
+    },
+    "no_difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "mortgage_hardship": {
+        "difference_percentage_points": 1.352035478736621,
+        "standard_error_percentage_points": 2.1971913741867777,
+        "approx_95_percent_ci": [
+          -2.9544596146694637,
+          5.6585305721427055
+        ]
+      },
+      "food_insecurity": {
+        "difference_percentage_points": 7.871843272655921,
+        "standard_error_percentage_points": 5.183377514549446,
+        "approx_95_percent_ci": [
+          -2.287576655860992,
+          18.031263201172834
+        ]
+      }
+    }
+  },
   "causal_estimation": false,
   "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, and annual fall child-care measures can be reference-period or repeated fields; this is not a dated bill shock, causal care effect, or household-weighted estimate."
 }

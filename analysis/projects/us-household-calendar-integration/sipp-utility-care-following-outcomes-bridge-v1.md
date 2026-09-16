@@ -81,6 +81,28 @@ prevention cell is 33.877–95.407%. The owner/buyer prevention cell is also
 small. These are not precise evidence of a childcare-related food-security
 difference.
 
+The within-stratum contrasts, calculated from the same replicate-level
+estimates, are:
+
+| Utility at *t* | Tenure at *t* | Outcome | Prevention minus no prevention | SE | Approx. 95% CI |
+|---|---|---|---:|---:|---:|
+| Difficulty | Renter | Mortgage hardship | +14.814 pp | 13.766 | −12.167 to +41.796 |
+| Difficulty | Renter | Food insecurity | +14.433 pp | 16.728 | −18.355 to +47.220 |
+| Difficulty | Owner/buyer | Mortgage hardship | −12.908 pp | 17.075 | −46.375 to +20.559 |
+| Difficulty | Owner/buyer | Food insecurity | +28.150 pp | 14.295 | +0.132 to +56.168 |
+| No difficulty | Renter | Mortgage hardship | +9.141 pp | 7.202 | −4.975 to +23.256 |
+| No difficulty | Renter | Food insecurity | +7.723 pp | 8.106 | −8.164 to +23.610 |
+| No difficulty | Owner/buyer | Mortgage hardship | +1.352 pp | 2.197 | −2.954 to +5.659 |
+| No difficulty | Owner/buyer | Food insecurity | +7.872 pp | 5.183 | −2.288 to +18.031 |
+
+The renter/difficulty contrasts both include zero. The owner/buyer/difficulty
+food contrast has a lower bound barely above zero, but it is based on only 10
+prevention records and a 14.295-point standard error; it should be treated as
+a sparse-cell diagnostic, not as a stable difference. Across outcomes, the
+most defensible conclusion is that the temporal screen identifies a plausible
+joint-constraint hypothesis and a non-monotonic tenure counterexample, not a
+resolved care-to-hardship effect.
+
 ## What this adds
 
 The bridge advances the end-to-end map by adding an explicit adjacent-month

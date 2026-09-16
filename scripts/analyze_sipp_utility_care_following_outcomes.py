@@ -41,6 +41,20 @@ def summarize(num: float, den: float, rep_num: np.ndarray, rep_den: np.ndarray, 
     }
 
 
+def contrast_summary(higher: float, lower: float,
+                     replicate_higher: np.ndarray,
+                     replicate_lower: np.ndarray) -> dict:
+    point = 100 * (higher - lower)
+    difference = 100 * (replicate_higher - replicate_lower)
+    se = float(np.sqrt(np.sum((difference - point) ** 2) /
+                       (REPLICATES * FAY_FACTOR**2)))
+    return {
+        "difference_percentage_points": point,
+        "standard_error_percentage_points": se,
+        "approx_95_percent_ci": [point - 1.96 * se, point + 1.96 * se],
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--primary", type=Path, required=True)
@@ -177,6 +191,33 @@ def main() -> None:
                                            rep_num["food"][group], rep_den["food"][group],
                                            sum(1 for key, item in pairs.items() if item[0] == group and key in food_valid_keys)),
         }
+    contrast_pairs = {
+        "difficulty__renter__prevented_minus_not_prevented": (
+            "difficulty__prevented__renter", "difficulty__not_prevented__renter"),
+        "difficulty__owner_buyer__prevented_minus_not_prevented": (
+            "difficulty__prevented__owner_buyer", "difficulty__not_prevented__owner_buyer"),
+        "no_difficulty__renter__prevented_minus_not_prevented": (
+            "no_difficulty__prevented__renter", "no_difficulty__not_prevented__renter"),
+        "no_difficulty__owner_buyer__prevented_minus_not_prevented": (
+            "no_difficulty__prevented__owner_buyer", "no_difficulty__not_prevented__owner_buyer"),
+    }
+    contrasts = {}
+    for name, (higher, lower) in contrast_pairs.items():
+        contrasts[name] = {}
+        for outcome, rep_name in (("mortgage_hardship", "mortgage"),
+                                  ("food_insecurity", "food")):
+            high_share = results[higher][outcome]["share_percent"] / 100
+            low_share = results[lower][outcome]["share_percent"] / 100
+            high_rep = np.divide(rep_num[rep_name][higher], rep_den[rep_name][higher],
+                                 out=np.full(REPLICATES, np.nan),
+                                 where=rep_den[rep_name][higher] != 0)
+            low_rep = np.divide(rep_num[rep_name][lower], rep_den[rep_name][lower],
+                                out=np.full(REPLICATES, np.nan),
+                                where=rep_den[rep_name][lower] != 0)
+            if np.isnan(high_rep).any() or np.isnan(low_rep).any():
+                raise ValueError(f"incomplete replicate contrast for {name}/{outcome}")
+            contrasts[name][outcome] = contrast_summary(high_share, low_share,
+                                                        high_rep, low_rep)
     output = {
         "format": "us-sipp-utility-care-following-outcomes-fay-brr-v1",
         "source_unit": "identified November-to-December person pairs; utility difficulty and tenure at month t, child-care work prevention and outcomes at month t+1",
@@ -187,6 +228,7 @@ def main() -> None:
         "identified_pairs": len(pairs),
         "replicate_pairs_matched": matched,
         "results": results,
+        "contrasts": contrasts,
         "causal_estimation": False,
         "boundary": "Adjacent-month ordering is descriptive. SIPP utility, food, mortgage, and annual fall child-care measures can be reference-period or repeated fields; this is not a dated bill shock, causal care effect, or household-weighted estimate.",
     }
