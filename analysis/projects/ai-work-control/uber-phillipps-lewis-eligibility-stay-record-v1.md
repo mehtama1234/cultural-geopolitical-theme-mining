@@ -74,7 +74,11 @@ identity, deactivation status, and remedy must be stored as separate events.
 
 Search UDE2025/94 after the Hotak decision for relisting, a final determination
 of deactivation status, lost-pay calculation, payment, and durable access. The
-current record ends at an eligibility decision and procedural stay.
+The [post-Hotak follow-up audit](uber-phillipps-lewis-post-hotak-followup-audit-v1.md)
+records the 2026-09-15 public-search boundary: no later public final outcome,
+lost-pay order, payment record, or durable-access record was located. The
+current record therefore ends at an eligibility decision and procedural stay;
+the non-observation is not evidence of private resolution or non-payment.
 
 ## Sources
 
