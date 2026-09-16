@@ -55,6 +55,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 
 - [AI, work control, and worker voice](analysis/projects/ai-work-control/theme-map-v1.md)
 - [JRC AIM-WORK practice and country map](analysis/projects/ai-work-control/jrc-aim-work-practice-country-map-v1.md)
+- [AIM-WORK exposure to institutional safeguard crosswalk](analysis/projects/ai-work-control/aim-work-institutional-safeguard-crosswalk-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
 ### Housing, place, and mobility
