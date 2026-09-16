@@ -161,6 +161,15 @@ spending, agreement, or capacity is not leverage until an observed refusal,
 switch, negotiation, regulatory response, or changed external behavior shows
 that another actor's options or conduct changed.
 
+The thirteenth rotation advances cultural and political conversion through
+[material pressure and political meaning](projects/us-cost-trust-politics/material-pressure-to-political-meaning-synthesis-v1.md).
+It preserves the same-respondent temporal evidence for later food, energy, and
+work outcomes while showing that institutional confidence, attribution,
+identity, and civic action do not move automatically with hardship. The next
+test remains a timed design that measures the responsible actor, prior
+judgment, information environment, direct action, remedy, and later
+legitimacy.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
