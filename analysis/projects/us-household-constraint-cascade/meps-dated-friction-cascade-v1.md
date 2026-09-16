@@ -1,0 +1,91 @@
+# MEPS dated event plus institutional-friction cascade v1
+
+**Checked:** 2026-09-16  
+**Status:** strict inter-round descriptive screen; not causal and not a remedy estimate  
+**Machine output:** [dated friction cascade data](data-meps-dated-friction-cascade-2024.json)
+
+## Question
+
+Among people with a first observed office, ER, or inpatient event strictly
+between the R3/1 and R4/2 endpoint months, do reported denial or
+prior-authorization delays co-occur with different same-person care-delay,
+bill, debt, and collector-contact context?
+
+```text
+first dated event in a strict inter-round window
+  + reported denial/prior-authorization friction
+  -> reported care delay, bill problem, debt, and collector contact
+```
+
+This is a sharper local test than comparing the event window with everyone
+outside it. It still does not identify the denial's date, the event's bill, or
+the direction of causation.
+
+## Results
+
+| Event family | Friction group (unweighted n) | Care delay | Bill problem | Medical debt | Collector contact |
+|---|---:|---:|---:|---:|---:|
+| Office | Denial/delay (227) | 15.62% (SE 2.77) | 23.21% (3.69) | 27.31% (4.07) | 22.01% (3.33) |
+| Office | No denial/delay (1,568) | 6.25% (0.73) | 6.95% (0.86) | 14.58% (1.30) | 10.55% (0.91) |
+| ER | Denial/delay (166) | 22.30% (4.12) | 30.78% (3.87) | 32.06% (4.52) | 30.58% (4.10) |
+| ER | No denial/delay (555) | 6.16% (1.10) | 9.11% (1.30) | 18.84% (2.05) | 14.80% (2.05) |
+| Inpatient | Denial/delay (80) | 16.27% (4.78) | 30.64% (5.95) | 26.30% (6.40) | 19.09% (5.37) |
+| Inpatient | No denial/delay (306) | 3.38% (1.17) | 5.02% (1.52) | 10.68% (1.88) | 11.31% (2.45) |
+
+Shares use `PERWT24F` and 128 HC-036BRR flags. Counts are unweighted and
+outcome-valid counts can differ slightly because of item missingness. The
+event-window populations are 3,227 office, 1,096 ER, and 545 inpatient people;
+records with codes other than `EQDENY53=1` or `EQDENY53=2` are not assigned to
+either friction comparison group.
+
+## What this adds
+
+The friction contrast is visible across all three event families. In the
+strict event window, reported denial/delay is accompanied by higher point
+estimates for all four household-response context measures, with the largest
+absolute separation for office and ER bill problems and care delay. The
+pattern is a useful mechanism signal: institutional friction and household
+financial/care pressure appear together on a temporally bounded person/event
+frame.
+
+It is not a finding that denial caused debt or delayed care. `EQDENY53` is a
+round-level report with no claim identifier or decision date, and a first
+observed event may follow an earlier need. Severity, coverage, access,
+baseline health, and socioeconomic position can affect both friction and the
+outcomes. The no-denial group is a comparison group, not a counterfactual.
+
+## Boundaries
+
+- The event date is month-level and the strict window only establishes bounded
+  month ordering relative to round endpoints.
+- `DLAYCA42`, `PROBPY42`, `MEDDEBT42`, and `FWDEBT42` are same-person round
+  context, not event-specific claims, bills, or treatment outcomes.
+- The screen does not observe amount owed, deductible, household payer,
+  alternative provider/treatment, appeal, institutional response, correction,
+  coverage restoration, or remedy.
+- Event-family universes include only people with an observed event; people who
+  never reached care are outside these rows.
+- Small inpatient friction cells have wide uncertainty and should not be
+  ranked against the larger office or ER cells.
+
+## Reproduction
+
+```bash
+python3 scripts/analyze_meps_dated_friction_cascade.py \
+  /tmp/cgtm-meps-2024/h256/h256.dta \
+  /tmp/cgtm-meps-2024/h36brr/h36brr24.dta \
+  --office-file /tmp/cgtm-meps-2024/events/h254g.dta \
+  --emergency-room-file /tmp/cgtm-meps-2024/events/h254e.dta \
+  --inpatient-file /tmp/cgtm-meps-2024/events/h254d.dta \
+  --output analysis/projects/us-household-constraint-cascade/data-meps-dated-friction-cascade-2024.json
+```
+
+The [analysis script](../../../scripts/analyze_meps_dated_friction_cascade.py)
+was corrected for a pandas index-alignment issue before this output was
+accepted. Script SHA-256: `a2d6c0fb4df0c750e539c13610b7db5df0f06130e29a0e9edcc48dbdfc99b357`.
+The compact output SHA-256 is
+`17457e38949194cc8a39614216d3ff4c6099efaef1cce1fe8a94b697d007865d`.
+
+**Evidence status:** strict-window same-person descriptive comparison; not a
+claim-level episode, causal estimate, remedy result, recovery measure, or
+trust/action result.
