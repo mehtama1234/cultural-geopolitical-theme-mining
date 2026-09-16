@@ -33,6 +33,9 @@ records the current cross-source interpretation.
 The [current-status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 records the 14-theme coverage, recent depth, open arrows, and next queue in one
 place.
+For a compact review of the writeups and active themes, use the [current themes
+review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md), then open the [trend
+observations index](site/us-trend-observations.html) for the underlying records.
 The [recurrent-source vintage watchlist](analysis/US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
 keeps release dates, refresh actions, revision boundaries, and account-gated
 acquisition dependencies visible across research cycles.

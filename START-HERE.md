@@ -16,6 +16,12 @@ The [server-visible program dashboard](site/us-program-dashboard.html) is the
 quick operating view of the 14 themes, source ecosystem, current evidence
 volume, active depth lane, acquisition gate, and open arrows.
 
+For a human review of what has actually been written and which themes are
+active, open the [current themes review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md)
+and then use the [trend observations index](site/us-trend-observations.html) to
+drill into the evidence records. The [acquisition resource policy](ACQUISITION-RESOURCE-POLICY_V1.md)
+records the storage-aware rule for future research passes.
+
 For the reader-facing writeup, open the [theme trends and insights page](site/theme-trends.html)
 after the reading room. For the active household-calendar dependency, see the
 [PSID acquisition gate](site/psid-acquisition-gate.html); it records exactly
