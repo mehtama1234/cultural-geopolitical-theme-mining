@@ -57,6 +57,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 ### Work, control, and bargaining
 
 - [AI, work control, and worker voice](analysis/projects/ai-work-control/theme-map-v1.md)
+- [Anticipatory-to-remedial worker control synthesis](analysis/projects/ai-work-control/anticipatory-to-remedial-worker-control-synthesis-v1.md)
 - [JRC AIM-WORK practice and country map](analysis/projects/ai-work-control/jrc-aim-work-practice-country-map-v1.md)
 - [AIM-WORK exposure to institutional safeguard crosswalk](analysis/projects/ai-work-control/aim-work-institutional-safeguard-crosswalk-v1.md)
 - [EU Platform Work Directive algorithmic-management safeguards](analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md)

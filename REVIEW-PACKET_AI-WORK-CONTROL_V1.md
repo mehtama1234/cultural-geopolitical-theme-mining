@@ -9,7 +9,7 @@ to organizations before they make work better for the people doing it. The
 central empirical question is who can see, change, contest, and ultimately bear
 the consequences of a decision.
 
-## The eight-piece route
+## The nine-piece route
 
 ### 1. The theme map: the argument in outline
 
@@ -113,6 +113,16 @@ tolerance phase, raised concerns about ranking, sensitive inference, and
 guardrails, and supplied feedback to product engineering before broader
 approval. It is useful implementation evidence, but the public account does
 not identify a specific feature change, worker outcome, or enforceable veto.
+
+### 9. The synthesis: from anticipation to remedy
+
+[Anticipatory to remedial worker control synthesis](analysis/projects/ai-work-control/anticipatory-to-remedial-worker-control-synthesis-v1.md)
+puts the preceding cases on one timeline: IBM before deployment, Microsoft
+during deployment, and the Australian cases after harm. It separates the
+powers of prevention, inspection, review, restoration, payment, and durable
+protection. Its central warning is that proceduralization can increase
+legibility without producing recovery: institutional events and worker
+outcomes require separate evidence.
 
 ## Themes to test while reviewing
 
