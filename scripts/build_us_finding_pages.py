@@ -299,7 +299,9 @@ def main():
     exit_observability_audit = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md"
     memos.append(exit_observability_audit)
     exit_ledger_implementation = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-ledger-implementation-v1.md"
+    exit_platform_dry_run = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.md"
     memos.append(exit_ledger_implementation)
+    memos.append(exit_platform_dry_run)
     # Give the household-finance lane a stable reader route across prices,
     # buffers, credit, firm terms, adaptation, and political meaning.
     household_finance_readme = ROOT / "analysis/projects/us-household-financial-pressure/README.md"
@@ -460,6 +462,7 @@ def main():
         consumer_recourse_synthesis: "consumer-recourse-visibility-remedy-synthesis-v1.html",
         exit_observability_audit: "practical-exit-observability-audit-v1.html",
         exit_ledger_implementation: "practical-exit-ledger-implementation-v1.html",
+        exit_platform_dry_run: "practical-exit-platform-ledger-dry-run-v1.html",
         household_finance_readme: "household-financial-pressure-program.html",
         household_pressure_synthesis: "financial-pressure-adaptation-recovery-synthesis-v1.html",
         aging_care_readme: "aging-care-strain-program.html",

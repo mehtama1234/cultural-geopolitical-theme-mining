@@ -326,6 +326,15 @@ local capacity beside one another without treating any as a common exit rate.
 The next test remains a same-unit episode with alternatives, remedy receipt,
 switching/non-use, move/stay, and later trust or action.
 
+The first small implementation test is now complete in the [platform-remedy
+ledger dry-run](projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.md).
+Across 27 existing local records, 8 can be labeled `access_restored` from
+explicit source language and 19 remain `unknown`; none can be promoted to
+practical exit because alternatives, relevant costs or constraints, follow-up,
+and protected or sacrificed outcomes are not documented at the same-unit
+level. The machine-readable [coverage audit](projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json)
+preserves this boundary.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

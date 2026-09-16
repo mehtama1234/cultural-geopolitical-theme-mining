@@ -1,0 +1,2148 @@
+{
+  "checked": "2026-09-16",
+  "contract": "practical-exit-observation-contract-v1",
+  "episodes": [
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Platform messages and statutory unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_eligibility_threshold_dismissal"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2026] FWC 409 dismissed the application because the statutory six-month regular-work protection was not met. The decision did not determine whether the underlying access restriction was fair, and later account messages did not establish qualifying work or a services agreement with the separate Uber driver platform.",
+        "value": "Fair_Work_Commission_primary_eligibility_decision"
+      },
+      "source_id": "PR-023",
+      "source_implementation_stage": "adjudicated_eligibility_threshold_dismissal",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "platform_access, service_entity_identity, statutory_eligibility, account_messages"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, statutory unfair-deactivation application, jurisdictional objection and stay"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "eligibility_objection_dismissed_merits_stayed"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_access_resumed_not_merits_remedy",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2025] FWC 2398 found a recurring weekend work pattern sufficient to reject Uber's six-month regular-work objection despite averages below the Code's illustrative thresholds. The remaining deactivation-status, merits, and lost-pay issues were stayed pending Hotak; no payment or durable restoration is established.",
+        "value": "Fair_Work_Commission_primary_eligibility_decision_and_order"
+      },
+      "source_id": "PR-024",
+      "source_implementation_stage": "eligibility_objection_dismissed_merits_stayed",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "platform_access, regular_work_pattern, eligibility_threshold, lost_pay_claim"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker challenge, internal review, statutory unfair-deactivation application and extension request"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "timing_extension_granted_merits_relisted"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. The decision did not determine unfairness, restoration, payment, or later access.",
+        "value": "Fair_Work_Commission_primary_timing_decision"
+      },
+      "source_id": "PR-025",
+      "source_implementation_stage": "timing_extension_granted_merits_relisted",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "deactivation_date, filing_deadline, internal_review, Code_process"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, internal platform process, statutory unfair-deactivation merits proceeding"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_code_compliant_merits_dismissal"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2025] FWC 2337 found the warning, preliminary notice, worker response, human consideration, and reasonable grounds for a persistent low-rating reason sufficient under the Code. No rating correction, restoration, payment, continued access, or downstream outcome is established.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-026",
+      "source_implementation_stage": "adjudicated_code_compliant_merits_dismissal",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "satisfaction_rating, deactivation_warning, platform_access, human_response_review"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, statutory unfair-deactivation merits proceeding"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_code_noncompliance_without_unfairness_remedy"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2025] FWC 3243 found the deactivation process inconsistent with the Code but concluded the deactivation was not unfair in the circumstances. The application was dismissed; no restoration, rating correction, payment, or durable access is established.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-027",
+      "source_implementation_stage": "adjudicated_code_noncompliance_without_unfairness_remedy",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "satisfaction_rating, platform_access, Code_compliance, unfairness"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker responses, union-supported application, statutory unfair-deactivation merits proceeding"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_unfair_deactivation_reactivation_and_lost_pay_entitlement_quantum_open"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "observed_adjudicated_lost_remuneration_in_principle_quantum_open",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "[2026] FWC 1801 found the Code process deficient and deactivation unfair, ordered reactivation within 7 days, and ordered lost remuneration in principle. Quantum, payment, actual access, recurrence prevention, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-022",
+      "source_implementation_stage": "adjudicated_unfair_deactivation_reactivation_and_lost_pay_entitlement_quantum_open",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "rider_complaints, warnings, platform_access, complaint_history, lost_remuneration"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "GDPR information request and court application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "United Kingdom / Netherlands court",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Information was ordered; no public follow-on correction, reinstatement, or compensation record located.",
+        "value": "court_record"
+      },
+      "source_id": "PR-001",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "account_deactivation, trip_allocation, fares, fraud_probability_scores"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Platform appeal or complaint"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Uganda",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Favorable resolution is reported but not itemized as correction, restoration, repayment, or explanation.",
+        "value": "ILO_Makerere_cross_sectional_survey"
+      },
+      "source_id": "PR-002",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "ratings, allocation, refusal_penalties, monitoring, deactivation"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Non-automated review, hearing, internal grievance, conciliation, Tribunal"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "formal_institutions_reported_established"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Malaysia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "observed_rule",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Complaint infrastructure is visible; no public automated-decision case outcome located.",
+        "value": "enacted_statute_and_implementation_materials"
+      },
+      "source_id": "PR-003",
+      "source_implementation_stage": "formal_institutions_reported_established",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "automated_monitoring, automated_decision_systems, deactivation, payment"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Explanation, human oversight, review, correction/compensation, dispute route"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "European Union",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_rule",
+          "durability": "unknown",
+          "payment_compensation": "observed_rule",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Transposition deadline is 2026-12-02; national implementation and exercised remedies remain staged.",
+        "value": "directive_and_national_preparation_records"
+      },
+      "source_id": "PR-004",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "algorithmic_management, high_impact_decisions"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Collective employment-status litigation"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Netherlands",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Employment relationship was recognized; no directive-style automated-decision remedy shown.",
+        "value": "civil_court_record"
+      },
+      "source_id": "PR-005",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "algorithmic_allocation, platform_control"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Status and tax-treatment challenge"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Finland",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "observed_as_status_or_wage_consequence",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Wage treatment is a status consequence, not compensation for a specific automated decision.",
+        "value": "administrative_court_and_tax_record"
+      },
+      "source_id": "PR-006",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "direction, supervision, monitoring, control"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Staff mediation and discussion after a low rating"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Kenya",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Human mediation is reported; authority to alter the score or consequence is not established.",
+        "value": "ILO_institutional_case_study"
+      },
+      "source_id": "PR-007",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "client_ratings, service_quality_assessment"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Notice, contest, and request for meaningful human review"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "not separately coded; see boundary"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "United Kingdom",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "More than 30 employers were reviewed and 16 organizations committed to recommendations; no candidate-level correction shown.",
+        "value": "ICO_regulator_review_and_guidance"
+      },
+      "source_id": "PR-008",
+      "source_implementation_stage": "not recorded",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "CV_scoring, ranking, filtering, pre_human_rejection"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Gig Workers Tribunal hearing"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "case_hearing_reported"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Kuching, Malaysia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "First hearing reported on 2026-09-01; matter reportedly returned for evidence and witness examination; no award or final finding located.",
+        "value": "secondary_report_attributing_facts_to_KESUMA_Tribunal"
+      },
+      "source_id": "PR-009",
+      "source_implementation_stage": "case_hearing_reported",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "saver_trips, cashback_incentives, advance_booking"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Formal platform appeal process where evidenced"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "comparative_platform_audit"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Philippines",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "Fairwork found formal appeal evidence at 2 of 9 platforms and no platform evidence of collective representation; appeal use and outcomes were not observed.",
+        "value": "Oxford_De_La_Salle_Fairwork_comparative_audit"
+      },
+      "source_id": "PR-010",
+      "source_implementation_stage": "comparative_platform_audit",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "platform_management, contracts, conditions, worker_representation"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Announced 24/7 DOLE complaint unit; government\u2013platform dialogue"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "official_action_and_policy_dialogue"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Philippines",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "DOLE named algorithmic-management protections and effective remedies as agenda items, requested platform position papers, and announced complaint capacity; no binding rule or corrected automated decision shown.",
+        "value": "official_DOLE_dialogue_complaint_and_inspection_releases"
+      },
+      "source_id": "PR-011",
+      "source_implementation_stage": "official_action_and_policy_dialogue",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "platform_labor_standards, algorithmic_management_policy, data_privacy, worker_safety, complaint_access"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Platform complaint channel; state dispute authority named in Notification No. 1107"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "official_diagnostic_and_state_route_named"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Cambodia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The ILO diagnostic reports widespread complaint access but approximately two-thirds of complainants said issues were seldom resolved; no verified correction, restoration, payment, or state dispute outcome located.",
+        "value": "official_ILO_mixed_method_diagnostic"
+      },
+      "source_id": "PR-012",
+      "source_implementation_stage": "official_diagnostic_and_state_route_named",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "ratings, allocation, refusal_penalties, temporary_suspension, complaints, classification, social_security, work_injury"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, statutory unfair-deactivation application, Full Bench review"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "continued_access_observed_after_voluntary_reactivation_formal_order_lost_pay_open"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_and_continued_work",
+          "durability": "unknown",
+          "payment_compensation": "open_lost_remuneration_quantum",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Full Bench recorded voluntary reactivation on 2025-05-19 and more than 150 subsequent trips; a later merits decision ordered formal reactivation and left lost-pay quantum open. Payment, later access, recurrence prevention, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_full_bench_and_merits_decisions"
+      },
+      "source_id": "PR-019",
+      "source_implementation_stage": "continued_access_observed_after_voluntary_reactivation_formal_order_lost_pay_open",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "safety_incident, account_deactivation, platform_access, lost_remuneration"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, statutory unfair-deactivation application, reactivation and payment order"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "payment_order_and_deadline_observed_receipt_open"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "observed_adjudicated_lost_earnings_ordered",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "PR792727 orders reactivation on prior terms and $6,073.23 gross less tax for lost earnings, payable within 14 days. Receipt, actual access, continued work, recurrence prevention, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_decision_and_order"
+      },
+      "source_id": "PR-020",
+      "source_implementation_stage": "payment_order_and_deadline_observed_receipt_open",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "complaint_based_deactivation, platform_access, lost_earnings"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, statutory unfair-deactivation application, reactivation and lost-pay direction"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "reactivation_order_and_deadline_observed_payment_quantum_open"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "open_lost_remuneration_quantum",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "PR792947 orders reactivation on prior terms by 2025-10-31 and the merits decision directs the parties to confer on lost-pay quantum. Payment, actual access, continued work, recurrence prevention, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_decision_and_order"
+      },
+      "source_id": "PR-021",
+      "source_implementation_stage": "reactivation_order_and_deadline_observed_payment_quantum_open",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "complaint_based_deactivation, platform_access, lost_pay"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker response, request for human discussion, statutory unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_remedy_and_payment_order"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "observed_adjudicated_lost_remuneration_ordered_not_compensation",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Commission found the deactivation unfair and Code-inconsistent, ordered reactivation on prior terms, and a subsequent order required $12,126.31 in lost remuneration. Payment receipt, continued access, recurrence prevention, and anti-retaliation remain unverified.",
+        "value": "Fair_Work_Commission_primary_decision_and_payment_order"
+      },
+      "source_id": "PR-013",
+      "source_implementation_stage": "adjudicated_remedy_and_payment_order",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "customer_complaint, suspension, permanent_deactivation, conflicting_delivery_rules"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Unfair-deactivation application; threshold adjudication; settlement and discontinuance"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "eligibility_finding_revoked_after_settlement"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed_settlement_terms_unavailable",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The initial eligibility finding was revoked by consent after settlement and discontinuance. No public merits decision or remedy is shown; the platform-operator identity and enforceability questions remain open.",
+        "value": "Fair_Work_Commission_eligibility_and_revocation_decisions"
+      },
+      "source_id": "PR-014",
+      "source_implementation_stage": "eligibility_finding_revoked_after_settlement",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "deactivation, six_month_protection_threshold, platform_operator_identity"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Written response, platform review, unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_merits_dismissal"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "unknown",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "unknown",
+        "value": {
+          "correction_or_restoration": "not_observed",
+          "durability": "unknown",
+          "payment_compensation": "not_observed",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Commission found Uber's warnings, notice, timing, human review, and 85 percent rating threshold compliant and dismissed the application. No correction, reactivation, payment, compensation, or later appeal outcome is shown.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-015",
+      "source_implementation_stage": "adjudicated_merits_dismissal",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "customer_satisfaction_rating_threshold, continued_app_access, deactivation"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Worker responses, requested discussion, statutory unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_unfair_deactivation_reactivation_order"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "open_lost_remuneration_to_be_determined",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Commission found the warning and complaint evidence insufficient, the Code process non-compliant, and the deactivation unfair; it ordered reactivation and directed the parties to confer about lost remuneration. Amount, payment, continued access, process change, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-016",
+      "source_implementation_stage": "adjudicated_unfair_deactivation_reactivation_order",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "rider_complaints, suspension, complaint_based_deactivation, discrimination_allegations"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Written response, support calls, statutory unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_unfair_deactivation_reactivation_order_lost_pay_open"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "open_lost_remuneration_quantum",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Commission found warning particulars and substantive explanation insufficient, the 2025 allegation not made out, and the deactivation unfair; it ordered reactivation and directed the parties to confer on lost pay. Amount, payment, continued access, process change, and anti-retaliation are not observed.",
+        "value": "Fair_Work_Commission_primary_merits_decision"
+      },
+      "source_id": "PR-017",
+      "source_implementation_stage": "adjudicated_unfair_deactivation_reactivation_order_lost_pay_open",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "repeated_complaints, temporary_holds, warnings, complaint_based_deactivation"
+      },
+      "unit": "case"
+    },
+    {
+      "alternatives": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "attempted_route": {
+        "evidence_status": "observed",
+        "value": "Platform reactivation; statutory unfair-deactivation application"
+      },
+      "counterexample": {
+        "evidence_status": "open",
+        "value": "not defined within this ledger"
+      },
+      "decision": {
+        "evidence_status": "observed",
+        "value": "adjudicated_remedy_and_payment_order"
+      },
+      "denominator": {
+        "evidence_status": "observed",
+        "value": "27 source-ledger records; not a representative sample"
+      },
+      "domain": "platform_work",
+      "effort": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "evidence_status": "observed",
+      "followup_window": {
+        "evidence_status": "unknown",
+        "value": "not specified in source ledger"
+      },
+      "geography": "Australia",
+      "meaning_and_action": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "missingness": [
+        "alternatives",
+        "costs_and_constraints",
+        "effort",
+        "receipt",
+        "durability",
+        "followup",
+        "same_unit_post_event_outcome"
+      ],
+      "post_event_status": "access_restored",
+      "protected_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "remedy_verification": {
+        "evidence_status": "observed",
+        "value": {
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "durability": "unknown",
+          "payment_compensation": "observed_adjudicated_lost_remuneration_ordered_not_compensation",
+          "receipt_verified": "unknown"
+        }
+      },
+      "sacrificed_outcome": {
+        "evidence_status": "unknown",
+        "value": "unknown"
+      },
+      "source_and_uncertainty": {
+        "boundary": "The Commission recorded voluntary reactivation but still made a formal order, including $7,096.96 gross lost remuneration. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified.",
+        "value": "Fair_Work_Commission_bulletin_and_primary_decision"
+      },
+      "source_id": "PR-018",
+      "source_implementation_stage": "adjudicated_remedy_and_payment_order",
+      "threatened_resource": {
+        "evidence_status": "inferred",
+        "value": "platform access, work opportunity, or remuneration"
+      },
+      "trigger": {
+        "evidence_status": "observed",
+        "value": "background_check, deactivation, voluntary_reactivation, lost_remuneration"
+      },
+      "unit": "case"
+    }
+  ],
+  "format": "practical-exit-platform-ledger-dry-run-v1",
+  "post_event_status_counts": {
+    "access_restored": 8,
+    "unknown": 19
+  },
+  "promotion_rule_result": "No practical_exit labels are assigned: the source ledger does not document a same-unit post-event exit plus a documented alternative, relevant cost or constraint, and protected or sacrificed outcome.",
+  "source_ledger": "analysis/projects/ai-work-control/data/platform-remedy-case-ledger-v1.json",
+  "source_record_count": 27,
+  "status": "coverage_audit_only"
+}
