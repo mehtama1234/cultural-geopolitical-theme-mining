@@ -12,7 +12,7 @@ finding, or session is the completion condition.
 
 - **14** program themes
 - **244** validated machine-readable trend records
-- **935** period-specific observations
+- **936** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem
