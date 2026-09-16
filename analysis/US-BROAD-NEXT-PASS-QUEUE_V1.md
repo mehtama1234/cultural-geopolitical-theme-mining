@@ -28,6 +28,13 @@ hashes, person keys, module overlap, eligibility, weights, timing, and
 missingness. Only after that gate can a same-person health-cost-to-trust or
 recovery result enter the atlas.
 
+The new [MEPS institutional-friction follow-up finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md)
+adds a bounded round-to-round screen while those acquisition gates remain open:
+reported denial or prior-authorization delay is followed by more perceived
+health worsening, but similar employment transitions. The result advances the
+health-to-outcome arrow without closing claim timing, remedy, treatment
+continuity, household adaptation, trust, or action.
+
 The [program continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md) is
 the durable long-term control record. This queue selects the next empirical
 pass; it does not narrow or complete the program.

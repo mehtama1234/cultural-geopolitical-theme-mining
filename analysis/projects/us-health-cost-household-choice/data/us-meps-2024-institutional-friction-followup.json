@@ -1,0 +1,241 @@
+{
+  "format": "us-meps-institutional-friction-followup-v1",
+  "source_unit": "MEPS 2024 HC-256 person with reported round-5/3 insurance denial or prior-approval delay and round-4/2 to round-5/3 endpoints",
+  "variance_method": "standard BRR; replicate weight = BRR flag * 2 * PERWT24F",
+  "hc256_records": 19140,
+  "results": {
+    "denial_or_delay_yes": {
+      "health_improved": {
+        "valid_records": 1574,
+        "estimate_percent": 19.04041157353294,
+        "brr_se_percentage_points": 1.1395152231292982,
+        "ci95_percent": [
+          16.806961736199515,
+          21.273861410866363
+        ]
+      },
+      "health_worsened": {
+        "valid_records": 1574,
+        "estimate_percent": 25.11426785988012,
+        "brr_se_percentage_points": 1.123511254336109,
+        "ci95_percent": [
+          22.912185801381344,
+          27.316349918378894
+        ]
+      },
+      "health_unchanged": {
+        "valid_records": 1574,
+        "estimate_percent": 55.84532056658694,
+        "brr_se_percentage_points": 1.187853976137304,
+        "ci95_percent": [
+          53.51712677335782,
+          58.17351435981606
+        ]
+      },
+      "employed_in_both_rounds": {
+        "valid_records": 1565,
+        "estimate_percent": 56.091530604649606,
+        "brr_se_percentage_points": 1.445598568371104,
+        "ci95_percent": [
+          53.25815741064224,
+          58.92490379865697
+        ]
+      },
+      "employed_to_not_employed": {
+        "valid_records": 1565,
+        "estimate_percent": 2.6066413950407337,
+        "brr_se_percentage_points": 0.48123301176813926,
+        "ci95_percent": [
+          1.6634246919751807,
+          3.5498580981062866
+        ]
+      },
+      "not_employed_to_employed": {
+        "valid_records": 1565,
+        "estimate_percent": 2.596328637047645,
+        "brr_se_percentage_points": 0.4770291318981447,
+        "ci95_percent": [
+          1.6613515385272812,
+          3.531305735568009
+        ]
+      },
+      "health_direction_by_baseline_health": {
+        "good_or_better_baseline": {
+          "health_improved": {
+            "valid_records": 1156,
+            "estimate_percent": 14.271686122920373,
+            "brr_se_percentage_points": 1.1934942498805698,
+            "ci95_percent": [
+              11.932437393154457,
+              16.61093485268629
+            ]
+          },
+          "health_worsened": {
+            "valid_records": 1156,
+            "estimate_percent": 29.415717469631254,
+            "brr_se_percentage_points": 1.4260190059020184,
+            "ci95_percent": [
+              26.620720218063298,
+              32.21071472119921
+            ]
+          },
+          "health_unchanged": {
+            "valid_records": 1156,
+            "estimate_percent": 56.31259640744837,
+            "brr_se_percentage_points": 1.2926859963431985,
+            "ci95_percent": [
+              53.7789318546157,
+              58.846260960281036
+            ]
+          }
+        },
+        "fair_or_poor_baseline": {
+          "health_improved": {
+            "valid_records": 418,
+            "estimate_percent": 34.398424786451834,
+            "brr_se_percentage_points": 2.894873464186851,
+            "ci95_percent": [
+              28.724472796645607,
+              40.07237677625806
+            ]
+          },
+          "health_worsened": {
+            "valid_records": 418,
+            "estimate_percent": 11.26114911244272,
+            "brr_se_percentage_points": 1.5533195138164573,
+            "ci95_percent": [
+              8.216642865362463,
+              14.305655359522977
+            ]
+          },
+          "health_unchanged": {
+            "valid_records": 418,
+            "estimate_percent": 54.340426101105436,
+            "brr_se_percentage_points": 3.0115951049383827,
+            "ci95_percent": [
+              48.437699695426204,
+              60.24315250678467
+            ]
+          }
+        }
+      }
+    },
+    "denial_or_delay_no": {
+      "health_improved": {
+        "valid_records": 8591,
+        "estimate_percent": 20.28957520434419,
+        "brr_se_percentage_points": 0.5605093424027726,
+        "ci95_percent": [
+          19.190976893234755,
+          21.388173515453623
+        ]
+      },
+      "health_worsened": {
+        "valid_records": 8591,
+        "estimate_percent": 21.74044907751899,
+        "brr_se_percentage_points": 0.5730771455812262,
+        "ci95_percent": [
+          20.617217872179786,
+          22.86368028285819
+        ]
+      },
+      "health_unchanged": {
+        "valid_records": 8591,
+        "estimate_percent": 57.96997571813682,
+        "brr_se_percentage_points": 0.5408234110929843,
+        "ci95_percent": [
+          56.90996183239457,
+          59.02998960387907
+        ]
+      },
+      "employed_in_both_rounds": {
+        "valid_records": 8543,
+        "estimate_percent": 57.28396915096491,
+        "brr_se_percentage_points": 0.8255415830810566,
+        "ci95_percent": [
+          55.66590764812604,
+          58.90203065380378
+        ]
+      },
+      "employed_to_not_employed": {
+        "valid_records": 8543,
+        "estimate_percent": 2.8930118664032087,
+        "brr_se_percentage_points": 0.20487293762525932,
+        "ci95_percent": [
+          2.4914609086577,
+          3.2945628241487173
+        ]
+      },
+      "not_employed_to_employed": {
+        "valid_records": 8543,
+        "estimate_percent": 2.5551632923993703,
+        "brr_se_percentage_points": 0.22148851524079388,
+        "ci95_percent": [
+          2.1210458025274144,
+          2.9892807822713263
+        ]
+      },
+      "health_direction_by_baseline_health": {
+        "good_or_better_baseline": {
+          "health_improved": {
+            "valid_records": 7454,
+            "estimate_percent": 17.103695282980176,
+            "brr_se_percentage_points": 0.540572226373108,
+            "ci95_percent": [
+              16.044173719288885,
+              18.163216846671467
+            ]
+          },
+          "health_worsened": {
+            "valid_records": 7454,
+            "estimate_percent": 23.574366747575322,
+            "brr_se_percentage_points": 0.6151365416977435,
+            "ci95_percent": [
+              22.368699125847744,
+              24.7800343693029
+            ]
+          },
+          "health_unchanged": {
+            "valid_records": 7454,
+            "estimate_percent": 59.321937969444505,
+            "brr_se_percentage_points": 0.5547103411015499,
+            "ci95_percent": [
+              58.23470570088547,
+              60.40917023800354
+            ]
+          }
+        },
+        "fair_or_poor_baseline": {
+          "health_improved": {
+            "valid_records": 1137,
+            "estimate_percent": 45.92083941166468,
+            "brr_se_percentage_points": 1.9326271464729723,
+            "ci95_percent": [
+              42.132890204577656,
+              49.708788618751704
+            ]
+          },
+          "health_worsened": {
+            "valid_records": 1137,
+            "estimate_percent": 6.9860862339996155,
+            "brr_se_percentage_points": 0.8751152270725489,
+            "ci95_percent": [
+              5.27086038893742,
+              8.701312079061811
+            ]
+          },
+          "health_unchanged": {
+            "valid_records": 1137,
+            "estimate_percent": 47.0930743543357,
+            "brr_se_percentage_points": 1.871304101176529,
+            "ci95_percent": [
+              43.4253183160297,
+              50.760830392641694
+            ]
+          }
+        }
+      }
+    }
+  },
+  "boundary": "This is a weighted longitudinal association, not a causal denial effect. EQDENY53 is a round-5/3 report without a claim identifier, decision date, appeal, remedy, or exact treatment episode; the round-4/2 values are a prior reference but may not predate the denial itself. Underlying need, severity, coverage, access, and selection can explain the transitions. The screen does not observe adherence, household substitution, recovery from a specific bill, trust, or political action."
+}

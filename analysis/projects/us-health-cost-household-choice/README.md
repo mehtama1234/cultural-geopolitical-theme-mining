@@ -200,6 +200,13 @@ each channel, including within the privately covered stratum. The uninsured
 friction cells are small, and annual denial timing and claim-level remedy
 remain open.
 
+The [MEPS institutional-friction follow-up finding](findings/us-health-cost-household-choice-011.md)
+extends that screen to the round-4/2 to round-5/3 health and employment
+transitions. Denial/delay reporters show more perceived-health worsening, but
+employment transitions are close and both health improvement and worsening are
+common. This remains a longitudinal association without claim timing, remedy,
+treatment continuity, or household adaptation.
+
 The [MEPS care-delay/adaptation layer](meps-2024-care-delay-adaptation-v1.md)
 adds ESAQ payment strategies, sacrificed spending and savings, work/leave
 constraints, and family-care substitution to the care-delay pathway. It is the
