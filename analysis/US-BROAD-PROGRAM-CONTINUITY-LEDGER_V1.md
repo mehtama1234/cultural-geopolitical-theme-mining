@@ -93,6 +93,12 @@ It keeps administrative handling, benefit transition, food security, trust,
 blame, and political action as separate stages and uses the new reproducible
 reason-specific food-security layer without claiming a benefit effect.
 
+The fourth rotation advances firm, infrastructure, and geopolitical capacity
+through the [capacity-without-exit cross-domain synthesis](projects/ai-work-control/capacity-without-exit-cross-domain-synthesis-v1.md).
+It keeps physical capacity, fiscal revenue, governance rules, local incidence,
+replaceability, and external response as separate stages rather than treating
+investment or an agreement as public benefit or leverage.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

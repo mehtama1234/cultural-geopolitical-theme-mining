@@ -101,6 +101,12 @@ research architecture rather than a pooled causal estimate and specifies the
 next matched-place ledger for actual load, cost recovery, household incidence,
 public legitimacy, and provider exit.
 
+The [capacity-without-exit cross-domain synthesis](capacity-without-exit-cross-domain-synthesis-v1.md)
+advances the next broad-program rotation. It compares data-center fiscal and
+utility capacity with strategic procurement and state leverage, asking whether
+new capacity creates usable public room or dependence before benefit,
+replaceability, and external response are observed.
+
 The [macro, infrastructure, and institutional AI context layer](macro-infrastructure-institutional-context-layer-v1.md)
 promotes the BIS, IMF, BEA, OFR, IEA, and World Bank evidence into the shared
 trend registry. It keeps firm estimates, inequality models, statistical
