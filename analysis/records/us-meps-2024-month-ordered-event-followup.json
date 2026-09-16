@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-month-ordered-event-followup",
+  "title": "MEPS month-ordered events sharpen health, work, and bill-context selection without identifying recovery",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person records with first office, emergency-room, or inpatient event classified relative to the R4/2 reference-period endpoint month",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; first emergency-room event before R4/2 endpoint month",
+      "denominator": {"value": 2165, "unit": "people with a first ER event before the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 14.5, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 26.53, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 46.66, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_event_bill_problem_comparison": {"value": 6.68, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_event_fair_or_poor_health_comparison": {"value": 8.26, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly before the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "Month ordering is not exact-day ordering; the outcome reference period may overlap the event, and event presence reflects prior need, severity, access, coverage, and selection. No causal or recovery estimate is claimed.",
+      "subgroup": "People with a first emergency-room event before the endpoint month; no-event comparison is the broad valid-person group without an event in the family.",
+      "counterinterpretation": "The event may mark pre-existing health or work constraints rather than cause the observed R4/2 context.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_er:sha256:5a71c7680f11ebb7dfc5e579ea8b63e6fb090b2ff2eb9a943c7abccdc13cb464; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first inpatient event before R4/2 endpoint month",
+      "denominator": {"value": 1004, "unit": "people with a first inpatient event before the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 11.96, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 34.61, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 58.29, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_event_bill_problem_comparison": {"value": 7.39, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_event_fair_or_poor_health_comparison": {"value": 9.07, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly before the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "Inpatient-event respondents already differ strongly in observed health and work context; this is a selected temporal comparison, not an event effect or recovery estimate.",
+      "subgroup": "People with a first inpatient event before the endpoint month.",
+      "counterinterpretation": "Pre-existing illness, age, employment, coverage, access, and event severity can account for the later-looking differences.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_inpatient:sha256:23071ad1ffa7a2abf46721f4388be6b462f2fc6413dbef8323282db276081723; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    },
+    {
+      "period": "2024; first office event before R4/2 endpoint month",
+      "denominator": {"value": 13002, "unit": "people with a first office event before the endpoint month; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {"medical_bill_problem": {"value": 7.74, "unit": "percent; weighted share", "value_type": "weighted_share"}, "fair_or_poor_health": {"value": 12.26, "unit": "percent; weighted share", "value_type": "weighted_share"}, "not_employed": {"value": 37.39, "unit": "percent; weighted share", "value_type": "weighted_share"}, "no_event_bill_problem_comparison": {"value": 7.47, "unit": "percent; weighted share", "value_type": "weighted_share"}},
+      "method": "Classify the first valid event month strictly before the person-specific R4/2 endpoint month and compare R4/2 context fields using PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "The near-equal office bill-problem contrast is a counterexample to a universal event-to-burden gradient; office visits differ in severity, continuity, coverage, and purpose.",
+      "subgroup": "People with a first office event before the endpoint month.",
+      "counterinterpretation": "Utilization type and continuity may explain the contrast; event presence does not identify a bill, care choice, alternative, or remedy.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "h256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; event_office:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:42bea54c3c5e4964efaef72aaa6af06eb8da24c7dd084f16ca3323f575ef3a29; result:sha256:8d016bb34681dfe256494f668c6046e2e5a6893fdf40c1d3f6686ea850a9346e",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-health-cost-household-choice/meps-2024-month-ordered-event-followup-v1.md", "claim": "The method note defines before, same-month, after, and no-event groups and preserves the timing boundary.", "status": "method-note"},
+    {"source_url": "../projects/us-health-cost-household-choice/data/us-meps-2024-month-ordered-event-followup.json", "claim": "The machine output preserves all event families, group counts, estimates, and standard errors.", "status": "machine-output"}
+  ],
+  "boundary": "This is a month-ordered descriptive transition layer. It does not identify the triggering need or bill, available alternatives, care delay or foregoing, household adaptation, remedy, trust, political action, or geopolitical consequence."
+}

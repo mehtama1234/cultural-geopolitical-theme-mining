@@ -143,6 +143,7 @@ missingness, uncertainty, counterexamples, and a clear follow-up window.
 - [Health-cost institutional-legitimacy bridge](../health-cost-institutional-legitimacy-bridge-v1.md)
 - [MEPS strict inter-round event transition](us-health-cost-household-choice-003.md)
 - [MEPS inter-round payment-band follow-up](us-health-cost-household-choice-004.md)
+- [MEPS month-ordered event follow-up](us-health-cost-household-choice-005.md)
 - [CES medical-affordability political-action finding](../../../findings/us-medical-affordability-political-action-matched-evidence-001.md)
 - [HRS health-cost and institutional-trust acquisition audit](../hrs-health-cost-trust-acquisition-audit-v1.md)
 

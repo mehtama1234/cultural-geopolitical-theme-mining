@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-244 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+245 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -533,6 +533,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | MEPS event payment bands do not form a monotonic later-health or bill gradient | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person records with first ER or inpatient event strictly between R3/1 and R4/2, conditioned on event-level family-paid amount | United States | 2 | 2024; first emergency-room event in strict inter-round window, by family-paid amount band; 2024; first inpatient event in strict inter-round window, by family-paid amount band | compared | [open](records/us-meps-2024-interround-payment-followup.json) |
 
 **Boundary:** This is a payment-band conditioned descriptive transition. It does not identify a complete bill, payment obligation, care choice, alternative, household adaptation, remedy, trust, political action, or geopolitical consequence.
+
+| MEPS month-ordered events sharpen health, work, and bill-context selection without identifying recovery | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person records with first office, emergency-room, or inpatient event classified relative to the R4/2 reference-period endpoint month | United States | 3 | 2024; first emergency-room event before R4/2 endpoint month; 2024; first inpatient event before R4/2 endpoint month; 2024; first office event before R4/2 endpoint month | compared | [open](records/us-meps-2024-month-ordered-event-followup.json) |
+
+**Boundary:** This is a month-ordered descriptive transition layer. It does not identify the triggering need or bill, available alternatives, care delay or foregoing, household adaptation, remedy, trust, political action, or geopolitical consequence.
 
 | Baseline health expenditure conditions paired health and work outcomes | cost, work, time | care_health_reproduction, household_room_consumption, work_control_bargaining, unequal_exposure_status | MEPS Panel 27 longitudinal person in the civilian noninstitutionalized US population | United States | 5 | 2022 baseline expenditure band: All valid paired persons; 2022 baseline expenditure band: Q1 lowest; 2022 baseline expenditure band: Q2; 2022 baseline expenditure band: Q3; 2022 baseline expenditure band: Q4 highest | compared | [open](records/us-meps-panel27-baseline-expenditure-outcomes-2022-2023.json) |
 

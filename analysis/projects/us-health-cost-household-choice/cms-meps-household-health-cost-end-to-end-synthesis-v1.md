@@ -171,7 +171,8 @@ for the source-specific denominators and limitations.
 
 The strict [MEPS inter-round event finding](findings/us-health-cost-household-choice-003.md)
 adds a month-ordered baseline screen: acute-event groups already had worse
-health before the event. The companion [payment-band follow-up](findings/us-health-cost-household-choice-004.md)
+health before the event. The [month-ordered finding](findings/us-health-cost-household-choice-005.md)
+preserves the timing and office-visit counterexample. The companion [payment-band follow-up](findings/us-health-cost-household-choice-004.md)
 shows that event-level family payment does not restore a monotonic burden
 gradient. Together they strengthen the timing and payment boundaries without
 closing the care-choice or household-obligation arrow.

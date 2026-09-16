@@ -243,6 +243,10 @@ uses each person’s first event month relative to the R4/2 endpoint and reports
 the resulting health, employment, and bill-problem associations as bounded
 temporal context.
 
+The [month-ordered MEPS finding](findings/us-health-cost-household-choice-005.md)
+promotes that screen into the reader-facing atlas while retaining the office-
+visit counterexample, same-month ambiguity, and selection boundary.
+
 The [inter-round MEPS transition screen](meps-2024-between-round-event-transitions-v1.md)
 uses events strictly between R3/1 and R4/2 endpoints, retaining baseline
 selection differences before interpreting the R4/2 context.
