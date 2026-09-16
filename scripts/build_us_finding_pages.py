@@ -423,6 +423,8 @@ def main():
     # utility/tenure work transition, keeping the mixed-clock boundary explicit.
     sipp_utility_tenure_childcare = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-layer-v1.md"
     memos.append(sipp_utility_tenure_childcare)
+    sipp_utility_option_stack = ROOT / "analysis/projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md"
+    memos.append(sipp_utility_option_stack)
     # Publish the remaining atlas control records so the theme scope,
     # comparison safeguards, and extraction method are inspectable together.
     memos.append(ROOT / "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md")
