@@ -71,6 +71,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Malaysia Act 872 outcome acquisition audit](analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md)
 - [Global platform-work remedy comparison](analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md)
 - [Platform-work remedy case ledger](analysis/projects/ai-work-control/platform-remedy-case-ledger-v1.md)
+- [Kenya Ziada human-review platform record](analysis/projects/ai-work-control/kenya-ziada-human-review-record-v1.md)
 - [National implementation comparison](analysis/projects/ai-work-control/platform-work-directive-national-implementation-comparison-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 

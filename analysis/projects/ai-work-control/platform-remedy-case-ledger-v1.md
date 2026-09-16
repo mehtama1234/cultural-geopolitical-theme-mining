@@ -26,6 +26,7 @@ occurred.
 | PR-004 | EU platform workers under Directive 2024/2831 | EU directive and national preparation records | Algorithmic management and high-impact decisions | Explanation, human oversight, review, correction/compensation, dispute route | `observed_rule` | `observed_rule` | `observed_rule` | `observed_rule` | `observed_rule` | High for EU rule; low for national exercise in current packet | Transposition deadline is 2 December 2026; national implementation and use remain staged |
 | PR-005 | Dutch Deliveroo couriers | Civil court record | Algorithmic allocation and platform control considered in employment-status analysis | Collective status litigation | `not_observed` as a decision-specific explanation | `not_observed` | `not_observed` | `not_observed` | `not_observed` | High for status outcome; low for algorithmic-remedy outcome | Employment relationship recognized; no Directive-style automated-decision remedy shown |
 | PR-006 | Finnish Wolt couriers | Administrative court and tax-administration record | Platform data used to direct, supervise, monitor, and control work | Status and tax treatment challenge | `not_observed` as a decision-specific explanation | `not_observed` | `not_observed` | `observed` as wage-treatment consequence, not compensation for an automated decision | `not_observed` | High for status/tax consequence; low for automated-remedy outcome | Employment relationship and wage treatment recognized; working-time and automated-remedy dimensions remain separate |
+| PR-007 | Kenya Ziada platform workers | ILO institutional case study | Client ratings and service-quality assessments in domestic, beauty, and personal services | Staff mediation and discussion after a low rating | `observed_practice` | `observed_practice` | `not_observed` | `not_observed` | `not_observed` | Medium; official case study, not a case file | Human mediation is reported; score correction, restoration, payment, and consistency remain open |
 
 ## Cross-row findings
 
@@ -83,6 +84,7 @@ For each new case, add:
 - [Uganda platform-work algorithmic remedy record](uganda-platform-work-algorithmic-remedy-record-v1.md)
 - [Malaysia Gig Workers Act algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
 - [Platform-work court comparator](platform-work-court-comparator-v1.md)
+- [Kenya Ziada human-review platform record](kenya-ziada-human-review-record-v1.md)
 
 ## Boundary
 

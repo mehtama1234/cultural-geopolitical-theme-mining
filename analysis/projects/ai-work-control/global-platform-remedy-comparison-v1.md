@@ -30,6 +30,7 @@ verified worker outcome.
 | Uber/Ola drivers | Netherlands court; London drivers; appellate judicial record | Deactivation, trip allocation, fares, and fraud-probability scores | Court-ordered information about factors and reasons; rectification became actionable | Completed correction, reinstatement, compensation, or anti-retaliation |
 | Uganda platform workers | Uganda; ILO–Makerere cross-sectional worker survey | Ratings, allocation, refusal penalties, monitoring, and deactivation | Workers reported appeals and favorable resolutions; complaints and positive outcomes were also reported | Administrative or platform records identifying what was corrected or paid |
 | Malaysia Act 872 | Malaysia; enacted statute and implementing regulations | Automated monitoring/decision systems and deactivation are legally recognized | Disclosure, non-automated review, written explanation, hearing, conciliation, and Tribunal architecture in force | First public complaint, review, Tribunal, enforcement, or worker outcome |
+| Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
 | Netherlands Deliveroo / Finland Wolt | Netherlands and Finland; court/administrative status cases | Platform direction, monitoring, control, and contractual dependence | Employment/status and tax consequences | Automated-decision explanation, review, correction, or compensation |
 
@@ -104,6 +105,12 @@ implementation portal reports 37 engagement sessions, 3,873 participants, and
 consultation activity, not proof that workers shaped the final algorithmic-
 management rules or can use them after harm. Participation before deployment
 and appeal after harm must remain separate variables.
+
+Kenya's Ziada case study adds a practice-level comparator: staff reportedly
+discuss low ratings with workers and clients rather than allowing the score to
+automatically determine discipline. This makes “human review” more concrete,
+but still leaves authority, timing, score correction, and protection from future
+penalty unverified.
 
 ## Contradictions preserved
 
