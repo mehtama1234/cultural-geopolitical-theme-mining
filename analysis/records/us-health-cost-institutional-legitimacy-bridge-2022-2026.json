@@ -14,7 +14,8 @@
   "related_sources": [
     {"source_url": "../../projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md", "claim": "SHED supplies same-respondent care-foregoing transitions and financial adaptation outcomes.", "status": "related-layer"},
     {"source_url": "../../projects/us-health-cost-household-choice/cfpb-medical-collections-credit-response-layer-v1.md", "claim": "CFPB supplies credit-system visibility, reporting response, and legal-response context.", "status": "related-layer"},
-    {"source_url": "../../records/us-census-htops-july-expense-trust-cross-tab-2026.json", "claim": "HTOPS supplies an institution-specific confidence contrast by contemporaneous expense difficulty.", "status": "related-record"}
+    {"source_url": "../../records/us-census-htops-july-expense-trust-cross-tab-2026.json", "claim": "HTOPS supplies an institution-specific confidence contrast by contemporaneous expense difficulty.", "status": "related-record"},
+    {"source_url": "../../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md", "claim": "MEPS supplies a month-ordered event-selection boundary across health, work, and bill context before interpreting downstream legitimacy.", "status": "related-boundary"}
   ],
   "boundary": "This is a non-pooled conversion hypothesis. It does not establish that a health-cost event caused a credit outcome, confidence judgment, trust change, political action, or legitimacy shift."
 }
