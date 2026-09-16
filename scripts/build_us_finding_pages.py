@@ -216,6 +216,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/uber-satbir-singh-eligibility-dismissal-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-phillipps-lewis-eligibility-stay-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-phillipps-lewis-post-hotak-followup-audit-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-kyei-timing-extension-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md",

@@ -22,7 +22,7 @@ Commission decision PDFs. It captures decisions published from 5 June 2025
 through the checked date; it is not a search of every FWC filing, unpublished
 direction, order, or later decision after the checked date.
 
-**Inventory denominator:** 17 identifiable proceedings or linked proceeding
+**Inventory denominator:** 18 identifiable proceedings or linked proceeding
 surfaces. Hotak is counted once despite multiple Full Bench decisions. Bakar
 is counted once despite the eligibility and revocation decisions. Bandameeda
 is counted once despite preliminary and merits/order stages.
@@ -48,6 +48,7 @@ is counted once despite preliminary and merits/order stages.
 | AU-15 | Rehman v Portier Pacific | UDE2025/384; [2026] FWC 953 | Merits and remedy | `reactivation_plus_7096_96_lost_remuneration` — background-check deactivation; later voluntary reactivation did not eliminate formal remedy analysis; `$7,096.96` gross lost remuneration ordered | Receipt, continued access, process change |
 | AU-16 | Singh v Portier Pacific | UDE2025/293; [2026] FWC 409 | Eligibility | `eligibility_dismissal` — the Commission found the statutory six-month regular-work protection was not met; pre-26 August 2024 work could not be counted | Merits, process, and underlying deactivation evidence |
 | AU-17 | Phillipps-Lewis v Rasier Pacific | UDE2025/94; [2025] FWC 2398; PR790745 | Eligibility objection, then stay | `eligibility_objection_dismissed_merits_stayed` — recurring weekend work qualified as a regular pattern even below the Code’s illustrative thresholds; proceedings were stayed pending the Hotak Full Bench | Deactivation status, merits, lost-pay claim, later orders |
+| AU-18 | Kyei v Rasier Pacific | UDE2025/105; [2025] FWC 2269 | Timing and case management | `within_time_case_proceeds` — extension granted despite a 60-day delay because the worker sought internal review and the merits case was arguable; matter was relisted with directions | Merits, Code compliance, restoration, payment |
 
 Bandameeda's `UDE2025/62` matter number is now confirmed by the primary
 decision and the Commission's bulletin index. The remaining Bandameeda gap is
@@ -56,12 +57,12 @@ receipt of payment or durable restoration.
 
 ## Stage distribution
 
-The seventeen-row inventory is not a remedy rate because the stages are mixed:
+The eighteen-row inventory is not a remedy rate because the stages are mixed:
 
 ```text
-17 identified proceeding surfaces
+18 identified proceeding surfaces
   ├─ 5 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis)
-  ├─ 0 timing / case-management endpoints (Waheed now has a merits decision)
+  ├─ 1 timing / case-management endpoint (Kyei)
   ├─ 4 merits dismissals (Kumar, Mohammed, Abdalla, Dar)
   ├─ 1 Full Bench + merits restoration (Hotak)
   └─ 6 merits restoration matters (Bandameeda, Mansoor, Al Hussein, Warraich, Khan, Rehman)
@@ -104,6 +105,10 @@ not meet the Code’s illustrative average of 60 hours per month or three days
 per week. Those thresholds are sufficient examples, not necessary preconditions.
 The case therefore shows that eligibility is a substantive interpretation of
 work pattern, not a mechanical hours test.
+Kyei shows a separate gate: a late application can still proceed where the
+Commission finds exceptional circumstances, including an internal review route
+and an arguable case about Code compliance. Timing is therefore not clerical
+noise; it can determine whether a worker reaches the merits.
 Bakar shows that settlement and respondent identity can erase a public merits
 path. Waheed shows that the date a worker reasonably became aware of
 deactivation can determine whether a case proceeds.
@@ -152,11 +157,12 @@ therefore measurable events, not invisible non-cases.
 - [FWC Bulletin Volume 4/26 — Rehman](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm)
 - [Singh primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc409.pdf)
 - [Phillipps-Lewis primary eligibility decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2398.pdf)
+- [Kyei primary timing decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2269.pdf)
 
 ## Next decisive acquisition
 
 Recover Bandameeda's matter number and search the FWC document system for
-every linked order in these seventeen matters. Then add a second country inventory
+every linked order in these eighteen matters. Then add a second country inventory
 using the same fields and compare Australia with Malaysia, where the evidence
 reaches a Tribunal hearing, and Cambodia, where it reaches worker-reported
 complaint use but not an adjudicated outcome.
