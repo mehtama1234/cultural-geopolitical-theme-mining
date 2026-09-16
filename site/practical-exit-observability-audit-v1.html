@@ -1,0 +1,175 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Practical exit observability audit v1"><title>Practical exit observability audit v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#the-question">The question</a></li><li><a href="#current-observability-matrix">Current observability matrix</a></li><li><a href="#what-the-matrix-establishes">What the matrix establishes</a></li><li class="toc-sub"><a href="#1-administrative-exit-is-the-most-visible-form">1. Administrative exit is the most visible form</a></li><li class="toc-sub"><a href="#2-formal-remedy-can-restore-access-without-revealing-exit">2. Formal remedy can restore access without revealing exit</a></li><li class="toc-sub"><a href="#3-recovery-burden-can-be-visible-while-choice-remains-invisible">3. Recovery burden can be visible while choice remains invisible</a></li><li class="toc-sub"><a href="#4-market-movement-is-not-household-mobility">4. Market movement is not household mobility</a></li><li><a href="#exit-status-vocabulary-for-the-atlas">Exit status vocabulary for the atlas</a></li><li><a href="#next-decisive-test">Next decisive test</a></li><li><a href="#relationship-to-the-broad-goal">Relationship to the broad goal</a></li></ul></nav></div><article id="finding" class="memo"><h1>Practical exit observability audit v1</h1>
+<p><strong>Status:</strong> cross-domain evidence audit; no pooled exit rate<br />
+<strong>Checked:</strong> 2026-09-16<br />
+<strong>Purpose:</strong> determine which forms of staying, switching, non-use, moving, and
+exit are actually visible in the current US-centered atlas</p>
+<h2 id="the-question">The question</h2>
+<p>The broad program treats exit as a practical power outcome, not a formal menu
+item. A person may remain with a provider, benefit, platform, insurer, home, or
+public route because it works—or because leaving would sacrifice money, time,
+care, housing, work, identity, safety, or eligibility.</p>
+<pre><code class="language-text">problem or exposure
+  -&gt; attempted route and effort
+  -&gt; remedy, restoration, denial, or continued burden
+  -&gt; stay, switch, non-use, move, or exit
+  -&gt; later security, trust, legitimacy, or bargaining power
+</code></pre>
+<p>This audit asks whether the current evidence observes the final branch and
+whether it observes the alternatives that make the branch meaningful.</p>
+<h2 id="current-observability-matrix">Current observability matrix</h2>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Current unit and concrete evidence</th>
+<th>What is genuinely observed</th>
+<th>What “exit” cannot yet mean</th>
+<th>Smallest missing field</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SNAP/public assistance</td>
+<td>SIPP adjacent-month person transitions; 437 entries and 387 exits, with 188 classified exits</td>
+<td>A program-state transition and following material context; resource ratio declined after 69.46% of selected three-month exit sequences</td>
+<td>Exit is not recovery, voluntary choice, work transition, or improved security</td>
+<td>Notice, reason, amount, effort/appeal, alternatives, and later food/housing/security outcome in the same episode</td>
+</tr>
+<tr>
+<td>Platform work</td>
+<td>27-case public proceeding inventory</td>
+<td>9 restoration/access-resumption cases, 3 lost-remuneration orders, and 0 cases linking the episode to worker switching or exit</td>
+<td>Reactivation is not autonomy; a lost-pay order is not payment; continued trips are not proof of free choice</td>
+<td>Post-remedy account status, payment receipt, alternative platform/work, recurrence, and documented return/switch/exit reason</td>
+</tr>
+<tr>
+<td>Consumer fraud</td>
+<td>SHED adult respondent and incident-level conditional outcomes</td>
+<td>21% reported financial fraud; among non-credit-card incidents, 32% reported some money unrecovered and 30% spent at least 10 hours dealing with it</td>
+<td>Non-reporting is not satisfaction; recovery effort is not switching; continued product use is unobserved</td>
+<td>Provider/account identity, attempted contacts, verified recovery, replacement route, continued use, and switching/non-use</td>
+</tr>
+<tr>
+<td>Consumer finance recourse</td>
+<td>CFPB published complaint records, 5,452,107 in 2025</td>
+<td>Complaint submission, routing, response labels, explanation, and relief labels</td>
+<td>A published complaint is not the full exposed customer population, verified remedy, account closure, or exit</td>
+<td>Account-level exposure, repeat contact, correction, remedy receipt, closure/switch, and non-complainant denominator</td>
+</tr>
+<tr>
+<td>Housing and insurance</td>
+<td>State residual-market and insurer/place records</td>
+<td>California FAIR Plan policies rose from 242,440 in September 2021 to 696,562 in June 2026; nonrenewal and backstop channels are visible</td>
+<td>A policy-market shift is not a household move, voluntary insurer switch, affordability improvement, or safe staying</td>
+<td>Property/household notice, premium/payment, claim/repair, alternative coverage, move/stay decision, and recovery</td>
+</tr>
+<tr>
+<td>Local service capacity</td>
+<td>Firm, provider, establishment, shortage, mobility, and place records</td>
+<td>Nominal presence, entry, exit, travel context, public route, and neighboring capacity</td>
+<td>Establishment count is not reachable service, completed use, replacement, or resident exit</td>
+<td>Dated resident attempt, wait/travel/price, successful substitute, non-use, restored access, and stay/switch/move</td>
+</tr>
+</tbody>
+</table>
+<p>The rows are deliberately not additive. Their units include program spells,
+proceedings, adult respondents, complaints, policies, properties, firms, and
+places. No denominator in one row can be divided by another to estimate
+consumer or resident exit.</p>
+<h2 id="what-the-matrix-establishes">What the matrix establishes</h2>
+<h3 id="1-administrative-exit-is-the-most-visible-form">1. Administrative exit is the most visible form</h3>
+<p>The SIPP SNAP route records a real change in program participation. That is
+valuable, but its meaning is underdetermined: income may have risen, a rule
+may have applied, paperwork may have failed, a household may have moved, or a
+person may have stopped using a benefit while need continued. The observed
+following resource decline is a direct counterexample to treating exit as a
+security endpoint.</p>
+<h3 id="2-formal-remedy-can-restore-access-without-revealing-exit">2. Formal remedy can restore access without revealing exit</h3>
+<p>The platform case inventory has unusually concrete adjudicated outcomes, yet
+none of its 27 cases links restoration or refusal to a later switch or exit.
+The public record can show a returned account, subsequent trips, or an ordered
+payment while leaving alternatives, payment receipt, and the reason for
+continued use unknown. This is contestability without an observed exit rate.</p>
+<h3 id="3-recovery-burden-can-be-visible-while-choice-remains-invisible">3. Recovery burden can be visible while choice remains invisible</h3>
+<p>SHED shows that fraud can consume money and substantial time. CFPB records
+show how a complaint is routed and labeled. Together they establish exposure,
+effort, and institutional visibility as distinct currencies. Neither source
+shows whether the person closed an account, changed provider, stopped using a
+service, or stayed because no safe alternative existed.</p>
+<h3 id="4-market-movement-is-not-household-mobility">4. Market movement is not household mobility</h3>
+<p>Insurance nonrenewal, residual-market growth, firm exit, and establishment
+entry are important changes in the option environment. They do not reveal
+whether a particular household could obtain replacement coverage, repair a
+home, move, or remain safely. “Market exit” and “household exit” must remain
+separate labels.</p>
+<h2 id="exit-status-vocabulary-for-the-atlas">Exit status vocabulary for the atlas</h2>
+<p>Every future record should use the narrowest available label:</p>
+<table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Minimum evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Institutional exit</strong></td>
+<td>A program, account, policy, platform, firm, or route changes state</td>
+</tr>
+<tr>
+<td><strong>Access restoration</strong></td>
+<td>A named case or account is documented as restored or reactivated</td>
+</tr>
+<tr>
+<td><strong>Continued use</strong></td>
+<td>Post-event use is observed in a defined follow-up window</td>
+</tr>
+<tr>
+<td><strong>Switching</strong></td>
+<td>The same unit is observed moving to an identified alternative</td>
+</tr>
+<tr>
+<td><strong>Non-use/abandonment</strong></td>
+<td>The same unit stops using or does not complete an attempted route, with the denominator defined</td>
+</tr>
+<tr>
+<td><strong>Household move/stay</strong></td>
+<td>A property or household panel observes relocation or continued residence</td>
+</tr>
+<tr>
+<td><strong>Practical exit</strong></td>
+<td>Switching, non-use, move, or refusal is observed together with alternatives, cost, and protected/sacrificed outcome</td>
+</tr>
+</tbody>
+</table>
+<p>The last label should be rare until the record contains the alternatives and
+the consequence of leaving. A lower caseload, complaint silence, account
+closure, policy termination, worker reactivation, or establishment exit is not
+enough by itself.</p>
+<h2 id="next-decisive-test">Next decisive test</h2>
+<p>The best storage-conscious next step is one small same-case ledger rather than
+another national aggregate. Preferred routes are:</p>
+<ol>
+<li>a public-benefit notice/interruption/appeal episode with amount and later
+   food or housing security;</li>
+<li>a platform remedy case with post-order account status, payment receipt, and
+   alternative work;</li>
+<li>a credit or deposit account event with correction, closure, replacement,
+   and later use; or</li>
+<li>a property/insurance notice with replacement coverage, repair, and
+   move/stay outcome.</li>
+</ol>
+<p>For each route, retain at least one comparable case with a usable alternative
+or a timely remedy. Stop at the observability boundary if the follow-up or
+denominator is unavailable; do not convert institutional capacity into lived
+exit.</p>
+<h2 id="relationship-to-the-broad-goal">Relationship to the broad goal</h2>
+<p>This audit strengthens the broad proposition that unequal practical
+optionality is a recurring structure behind pressure and power. The current
+atlas observes many conditions and institutional responses, but the decisive
+consumer, public, and household outcome—whether the actor could leave without
+an unacceptable sacrifice—remains sparsely observed.</p>
+<p>See the <a href="../analysis/projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md">practical-exit synthesis</a>
+for the full mechanism and the <a href="../analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md">broad next-pass queue</a>
+for the acquisition boundary.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

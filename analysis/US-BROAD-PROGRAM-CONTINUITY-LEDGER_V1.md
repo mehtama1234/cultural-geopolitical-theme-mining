@@ -318,6 +318,14 @@ dated customer or household episode with alternatives, non-use/non-reporting,
 attributed cause, institutional authority, verified remedy, recovery, trust,
 and switching or exit.
 
+The twenty-eighth rotation turns the exit question into an observability audit
+through the [practical exit observability matrix](projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md).
+It places observed SNAP program exits, platform restoration and continued-use
+cases, fraud recovery burden, CFPB visibility, insurance-market movement, and
+local capacity beside one another without treating any as a common exit rate.
+The next test remains a same-unit episode with alternatives, remedy receipt,
+switching/non-use, move/stay, and later trust or action.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
