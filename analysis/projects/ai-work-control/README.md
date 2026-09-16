@@ -259,6 +259,16 @@ events and a GS-5 tariff framework effective in 2027. It preserves the gap
 between policy design, actual cost allocation, household bills, and local
 legitimacy.
 
+The new [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
+and [platform-work remedy case ledger](platform-remedy-case-ledger-v1.md)
+follow the missing middle between algorithmic management and worker outcome.
+They compare court-ordered information in the Uber/Ola cases, worker-reported
+appeals in Uganda, Malaysia's enacted review architecture, EU safeguards, and
+status-recognition cases in the Netherlands and Finland. The records show that
+formal rights, requests, review, correction, repayment, and anti-retaliation
+must be coded as separate stages; none of the current cases proves the full
+chain.
+
 ## Question
 
 When firms adopt AI, does the main change come from better tools, tighter measurement, new forms of supervision, or a shift in who owns the work process?

@@ -97,14 +97,23 @@ Large platforms supply the infrastructure, identity, data, and governance layers
 
 This does not prove that platform owners control national labor systems. It shows why workplace software, labor rights, and state capacity belong in the same map.
 
+The [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
+now makes the accountability chain explicit across countries. Uber/Ola shows a
+court-ordered information remedy; Uganda shows worker-reported appeals and
+favorable resolutions; Malaysia shows an enacted disclosure, non-automated
+review, hearing, and Tribunal architecture. These are different evidence
+stages, not interchangeable proof of effective correction. The [platform-work
+remedy case ledger](platform-remedy-case-ledger-v1.md) keeps explanation,
+review, restoration, payment, compensation, and anti-retaliation separate.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |
 |---|---|---|---|
 | Material | time and output are measured and reallocated | NBER productivity and time-use studies | pay, margins, workload, long-run output |
 | Social | skill, status, trust, and autonomy are re-ranked | worker learning, mobility, surveillance concerns | worker voice by class, age, gender, disability, migration |
-| Institution | firms and regulators set the rules for use | OECD governance concerns; EU rules | actual enforcement and workplace practice |
-| Power | visibility and decision rights move toward system owners | Microsoft and Whoz product surfaces | ownership, bargaining, appeals, exit, and state dependence |
+| Institution | firms and regulators set the rules for use and remedy | OECD governance concerns; EU rules; Malaysia Act 872; Uganda complaint reports | actual enforcement, review quality, correction, and workplace practice |
+| Power | visibility and decision rights move toward system owners unless contestability is usable | platform ratings, allocation, deactivation, court information orders, worker appeals, statutory review routes | ownership, bargaining, verified correction, repayment, anti-retaliation, exit, and state dependence |
 
 ## Agreement and disagreement
 
@@ -128,7 +137,7 @@ Call this a **theme**, not a settled law. Upgrade confidence only when the next 
 
 ## Next tests
 
-1. Find direct worker evidence on correction, appeal, monitoring, and job quality.
+1. Find case-level evidence that identifies what a platform appeal or review actually changed.
 2. Compare platform-managed work with ordinary employment and unionized workplaces.
 3. Track who owns the data used in profiles and performance decisions.
 4. Compare AI systems that assist worker choice with systems that assign or discipline.
