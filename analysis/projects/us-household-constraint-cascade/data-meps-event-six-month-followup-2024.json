@@ -23,6 +23,22 @@
             "valid_records": 14027
           }
         },
+        "fair_or_poor_health_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 1.41607171882863,
+            "ci95_high": 14.334307883537285,
+            "ci95_low": 8.783306745729057,
+            "share_percent": 11.558807314633171,
+            "valid_records": 732
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.21284027222821778,
+            "ci95_high": 5.105900810722298,
+            "ci95_low": 4.271566943587684,
+            "share_percent": 4.688733877154991,
+            "valid_records": 15223
+          }
+        },
         "fair_or_poor_health_r4": {
           "event_window": {
             "brr_se_percentage_points": 1.465195101158398,
@@ -55,6 +71,22 @@
             "valid_records": 17200
           }
         },
+        "fair_or_poor_health_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 3.1342924610788034,
+            "ci95_high": 38.01462374013681,
+            "ci95_low": 25.7281972927079,
+            "share_percent": 31.871410516422355,
+            "valid_records": 334
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 1.3618267545357827,
+            "ci95_high": 43.3122470021365,
+            "ci95_low": 37.97388612435624,
+            "share_percent": 40.64306656324637,
+            "valid_records": 1948
+          }
+        },
         "health_worsened_r4_to_r5": {
           "event_window": {
             "brr_se_percentage_points": 1.762755732151569,
@@ -69,6 +101,38 @@
             "ci95_low": 21.017216087317998,
             "share_percent": 21.939807522465962,
             "valid_records": 17171
+          }
+        },
+        "nonemployment_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 1.191478195699553,
+            "ci95_high": 9.009212316708087,
+            "ci95_low": 4.33861778956584,
+            "share_percent": 6.673915053136964,
+            "valid_records": 546
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.4452138205285654,
+            "ci95_high": 8.188905299457268,
+            "ci95_low": 6.443667122985293,
+            "share_percent": 7.31628621122128,
+            "valid_records": 5683
+          }
+        },
+        "nonemployment_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 0.8949699984844272,
+            "ci95_high": 5.3347161904561515,
+            "ci95_low": 1.8264337963971975,
+            "share_percent": 3.5805749934266746,
+            "valid_records": 538
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.4483730305097967,
+            "ci95_high": 6.399407991131246,
+            "ci95_low": 4.641785711532843,
+            "share_percent": 5.520596851332044,
+            "valid_records": 5591
           }
         },
         "not_employed_r4": {
@@ -130,6 +194,22 @@
             "valid_records": 14489
           }
         },
+        "fair_or_poor_health_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 2.475802685895276,
+            "ci95_high": 19.114347409720995,
+            "ci95_low": 9.409200881011515,
+            "share_percent": 14.261774145366255,
+            "valid_records": 319
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.21314655078332465,
+            "ci95_high": 5.227590789916665,
+            "ci95_low": 4.392056310846032,
+            "share_percent": 4.809823550381348,
+            "valid_records": 15636
+          }
+        },
         "fair_or_poor_health_r4": {
           "event_window": {
             "brr_se_percentage_points": 2.941318954663619,
@@ -162,6 +242,22 @@
             "valid_records": 17746
           }
         },
+        "fair_or_poor_health_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 3.503762133186724,
+            "ci95_high": 35.60022122009949,
+            "ci95_low": 21.86547365800753,
+            "share_percent": 28.73284743905351,
+            "valid_records": 201
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 1.3972313457158634,
+            "ci95_high": 43.08061076566753,
+            "ci95_low": 37.60346389046134,
+            "share_percent": 40.342037328064436,
+            "valid_records": 2081
+          }
+        },
         "health_worsened_r4_to_r5": {
           "event_window": {
             "brr_se_percentage_points": 2.4316677886185483,
@@ -176,6 +272,38 @@
             "ci95_low": 21.123876630374305,
             "share_percent": 22.024839264294222,
             "valid_records": 17717
+          }
+        },
+        "nonemployment_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 1.7177645491896485,
+            "ci95_high": 9.710207101075932,
+            "ci95_low": 2.97657006825251,
+            "share_percent": 6.343388584664221,
+            "valid_records": 342
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.42756164008039915,
+            "ci95_high": 8.152314558910021,
+            "ci95_low": 6.476272929794856,
+            "share_percent": 7.3142937443524385,
+            "valid_records": 5887
+          }
+        },
+        "nonemployment_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 1.0506872788041932,
+            "ci95_high": 4.670214064182864,
+            "ci95_low": 0.5515199312704269,
+            "share_percent": 2.6108669977266454,
+            "valid_records": 335
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.43304827511904603,
+            "ci95_high": 6.360869884143264,
+            "ci95_low": 4.663320645676603,
+            "share_percent": 5.5120952649099335,
+            "valid_records": 5794
           }
         },
         "not_employed_r4": {
@@ -237,6 +365,22 @@
             "valid_records": 12463
           }
         },
+        "fair_or_poor_health_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 0.4996009936796867,
+            "ci95_high": 5.824734534189567,
+            "ci95_low": 3.8662986389651945,
+            "share_percent": 4.84551658657738,
+            "valid_records": 2847
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.23126584489611018,
+            "ci95_high": 5.463805842315808,
+            "ci95_low": 4.557243730323056,
+            "share_percent": 5.010524786319432,
+            "valid_records": 13108
+          }
+        },
         "fair_or_poor_health_r4": {
           "event_window": {
             "brr_se_percentage_points": 0.546687775851123,
@@ -269,6 +413,22 @@
             "valid_records": 15062
           }
         },
+        "fair_or_poor_health_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 3.120267254662946,
+            "ci95_high": 44.9749826699492,
+            "ci95_low": 32.74353503167045,
+            "share_percent": 38.85925885080982,
+            "valid_records": 357
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 1.4678535943462663,
+            "ci95_high": 42.43660286902549,
+            "ci95_low": 36.68261677918812,
+            "share_percent": 39.55960982410681,
+            "valid_records": 1925
+          }
+        },
         "health_worsened_r4_to_r5": {
           "event_window": {
             "brr_se_percentage_points": 0.8656092162346045,
@@ -283,6 +443,38 @@
             "ci95_low": 21.260642721215465,
             "share_percent": 22.207999429629506,
             "valid_records": 15033
+          }
+        },
+        "nonemployment_onset": {
+          "event_window": {
+            "brr_se_percentage_points": 1.3332867997518467,
+            "ci95_high": 11.60704952898367,
+            "ci95_low": 6.380565273956431,
+            "share_percent": 8.99380740147005,
+            "valid_records": 1059
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.43130933908094843,
+            "ci95_high": 7.757270090382647,
+            "ci95_low": 6.06653748118533,
+            "share_percent": 6.911903785783989,
+            "valid_records": 5170
+          }
+        },
+        "nonemployment_resolved": {
+          "event_window": {
+            "brr_se_percentage_points": 1.0562610752069552,
+            "ci95_high": 7.482390853958838,
+            "ci95_low": 3.3418474391475734,
+            "share_percent": 5.412119146553206,
+            "valid_records": 1025
+          },
+          "no_event_in_window": {
+            "brr_se_percentage_points": 0.4241147086003337,
+            "ci95_high": 6.185428981028785,
+            "ci95_low": 4.522899323315478,
+            "share_percent": 5.354164152172132,
+            "valid_records": 5104
           }
         },
         "not_employed_r4": {
@@ -323,7 +515,7 @@
     }
   },
   "limitation": "R5/3 is a later panel outcome, not verified recovery from the event. The no-event-in-window group is not a no-need control; event selection, baseline differences, exact event-day timing, treatment continuity, and attrition remain. Results are descriptive, not causal.",
-  "method": "Select each person's first valid event strictly after R3/1 and strictly before R4/2, then compare R4/2 and R5/3 health/work outcomes. Standard BRR uses 128 replicate flags.",
+  "method": "Select each person's first valid event strictly after R3/1 and strictly before R4/2, then compare R4/2 and R5/3 health/work levels and conditional transitions. Transition denominators are the valid baseline state for that transition. Standard BRR uses 128 replicate flags.",
   "person_records": 19140,
   "positive_weight_records": 18683,
   "round_order_valid_records": 18691,

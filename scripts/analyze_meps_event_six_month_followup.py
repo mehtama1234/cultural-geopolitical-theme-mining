@@ -87,6 +87,18 @@ def main() -> int:
         "employment_status_changed_r4_to_r5": (person["EMPST53"] != person["EMPST42"]).where(
             person["EMPST42"].isin([1, 2, 3, 4]) & person["EMPST53"].isin([1, 2, 3, 4])
         ),
+        "fair_or_poor_health_resolved": (
+            person["RTHLTH42"].isin([4, 5]) & person["RTHLTH53"].isin([1, 2, 3])
+        ).where(person["RTHLTH42"].isin([4, 5]) & person["RTHLTH53"].isin([1, 2, 3, 4, 5])),
+        "fair_or_poor_health_onset": (
+            person["RTHLTH42"].isin([1, 2, 3]) & person["RTHLTH53"].isin([4, 5])
+        ).where(person["RTHLTH42"].isin([1, 2, 3]) & person["RTHLTH53"].isin([1, 2, 3, 4, 5])),
+        "nonemployment_resolved": (
+            person["EMPST42"].eq(4) & person["EMPST53"].isin([1, 2, 3])
+        ).where(person["EMPST42"].eq(4) & person["EMPST53"].isin([1, 2, 3, 4])),
+        "nonemployment_onset": (
+            person["EMPST42"].isin([1, 2, 3]) & person["EMPST53"].eq(4)
+        ).where(person["EMPST42"].isin([1, 2, 3, 4]) & person["EMPST53"].eq(4)),
     }
     paths = {
         "office": args.office_file,
@@ -95,7 +107,7 @@ def main() -> int:
     }
     output: dict[str, object] = {
         "schema": "us-meps-2024-event-six-month-followup-v1",
-        "method": "Select each person's first valid event strictly after R3/1 and strictly before R4/2, then compare R4/2 and R5/3 health/work outcomes. Standard BRR uses 128 replicate flags.",
+        "method": "Select each person's first valid event strictly after R3/1 and strictly before R4/2, then compare R4/2 and R5/3 health/work levels and conditional transitions. Transition denominators are the valid baseline state for that transition. Standard BRR uses 128 replicate flags.",
         "person_records": int(len(person)),
         "positive_weight_records": int(pd.to_numeric(person["PERWT24F"], errors="coerce").gt(0).sum()),
         "round_order_valid_records": int(round_valid.sum()),
