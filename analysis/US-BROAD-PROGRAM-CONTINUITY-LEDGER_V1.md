@@ -99,6 +99,12 @@ It keeps physical capacity, fiscal revenue, governance rules, local incidence,
 replaceability, and external response as separate stages rather than treating
 investment or an agreement as public benefit or leverage.
 
+The fifth rotation returns to material/time/care through the [time-as-hidden-
+price cross-domain synthesis](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md).
+It uses existing SIPP, ATUS, MEPS, and SHED evidence without making the
+unavailable PSID/UAS acquisition a program-wide gate, and keeps money, time,
+care, health, recovery, trust, and political availability as distinct clocks.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
