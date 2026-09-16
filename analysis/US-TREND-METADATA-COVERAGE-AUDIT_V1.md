@@ -42,7 +42,7 @@ is not converted into a zero or a stronger causal claim.
 
 | Level | Field | Present | Coverage |
 |---|---|---:|---:|
-| record | `related_sources` | 188 | 75.8% |
+| record | `related_sources` | 189 | 76.2% |
 | record | `retrieval_hash` | 24 | 9.7% |
 | record | `reproduction_audit` | 1 | 0.4% |
 | observation | `comparison_source_url` | 13 | 1.4% |

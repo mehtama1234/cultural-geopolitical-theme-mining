@@ -42,5 +42,11 @@
       "status": "compared"
     }
   ],
+  "related_sources": [
+    {"source_url": "../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md", "claim": "The reader-facing finding explains the non-pooled route comparison and its causal boundary.", "status": "finding"},
+    {"source_url": "../projects/us-health-cost-household-choice/data/us-meps-2024-friction-route-direction-comparison.json", "claim": "The compact comparison artifact preserves the rounded source-screen values and source-record hashes.", "status": "machine-output"},
+    {"source_url": "../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md", "claim": "The prescription-delay source screen supplies the first comparison surface.", "status": "source-finding"},
+    {"source_url": "../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md", "claim": "The denial/prior-authorization source screen supplies the second comparison surface.", "status": "source-finding"}
+  ],
   "boundary": "These are separate, non-pooled longitudinal descriptive screens with different exposure definitions and clocks. They show that institutional friction is not one uniform health-direction mechanism; they do not establish causality, clinical recovery, treatment continuity, household adaptation, remedy, trust, action, switching, exit, or geopolitical consequence."
 }
