@@ -400,6 +400,8 @@ def main():
     # annual-sample boundary alongside the reported comparison.
     atus_annual_comparison = ROOT / "analysis/projects/us-household-calendar-integration/atus-time-care-annual-comparison-2024-2025-v1.md"
     memos.append(atus_annual_comparison)
+    atus_eldercare_network = ROOT / "analysis/projects/us-aging-care-strain/atus-eldercare-network-time-capacity-synthesis-v1.md"
+    memos.append(atus_eldercare_network)
     # Publish the O*NET/NBER acquisition gate so the task-taxonomy dependency
     # and its exact remaining semantic boundary are inspectable by readers.
     onet_metadata_gate = ROOT / "analysis/projects/ai-work-control/onet-release-metadata-gate-v1.md"

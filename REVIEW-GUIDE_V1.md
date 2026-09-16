@@ -50,6 +50,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 
 - [Care, time, work, and family security](analysis/findings/us-care-cost-time-work-currency-cross-source-001.md)
 - [Care time as a hidden household price](analysis/findings/us-care-time-hidden-price-matched-evidence-001.md)
+- [Eldercare as a distributed time network](analysis/projects/us-aging-care-strain/atus-eldercare-network-time-capacity-synthesis-v1.md)
 
 ### Consumer power and recourse
 
