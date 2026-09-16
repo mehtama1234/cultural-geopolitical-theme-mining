@@ -1,0 +1,204 @@
+{
+  "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
+  "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
+  "matrix_sha256": "66c56d6f5c3e79e1889c7fa2c5681c91f18692b5dfb86dd70616a1671c5699fb",
+  "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
+  "status": "control_audit",
+  "status_token_counts": {
+    "Compared": 14,
+    "Inferred": 3,
+    "Open": 4,
+    "Reported": 12
+  },
+  "theme_count": 14,
+  "themes": [
+    {
+      "current_status": "Compared / Reported",
+      "evidence_anchor_count": 9,
+      "measurement_level": "Person, consumer unit, product, household record",
+      "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 14,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Household room and consumption"
+    },
+    {
+      "current_status": "Reported / Compared",
+      "evidence_anchor_count": 5,
+      "measurement_level": "Person, diary day, trip, worker, household",
+      "next_required_test": "Measure waiting, travel, care, paperwork, and service effort against the time or money they displace; distinguish time spent, desired, controlled, and displaced.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 15,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Time as a hidden price"
+    },
+    {
+      "current_status": "Compared / Reported",
+      "evidence_anchor_count": 10,
+      "measurement_level": "Customer case, complaint, firm, state, sector",
+      "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; product-conditioned response and visibility are now visible, but adequacy, account exposure, failed attempts, and later behavior remain open.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 16,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Consumer power and recourse"
+    },
+    {
+      "current_status": "Reported / Compared / Inferred",
+      "evidence_anchor_count": 3,
+      "measurement_level": "User, respondent, account, transaction, platform, seller, source ecosystem",
+      "next_required_test": "Verify encounter, interpretation, action, data use, agency, and exit effects with independent platform or transaction records.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 17,
+      "status_tokens": [
+        "Reported",
+        "Compared",
+        "Inferred"
+      ],
+      "theme": "Platforms, data, and attention"
+    },
+    {
+      "current_status": "Compared / Reported",
+      "evidence_anchor_count": 3,
+      "measurement_level": "Worker, task, job, workplace, firm, respondent",
+      "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; proxies are not causal work measures.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 18,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Work, control, and bargaining"
+    },
+    {
+      "current_status": "Reported / Compared",
+      "evidence_anchor_count": 8,
+      "measurement_level": "Person, caregiver, household, health event, diary day, county, provider-shortage component, care-recipient roster",
+      "next_required_test": "Follow care or food need \u2192 price/coverage/travel \u2192 care, diet, and unpaid time \u2192 work, debt, health, family time, and unpaid support capacity; preserve household and non-household care networks as separate exposure routes.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 19,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Care, health, and social reproduction"
+    },
+    {
+      "current_status": "Compared / Reported",
+      "evidence_anchor_count": 12,
+      "measurement_level": "Home, person, trip, ZIP/year, disaster event, county, firm",
+      "next_required_test": "Build the matched place panel: population change \u2192 labor/demand \u2192 firms, housing, services \u2192 unequal access and mobility, with belonging and political response measured separately.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 20,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Housing, place, and mobility"
+    },
+    {
+      "current_status": "Compared / Open",
+      "evidence_anchor_count": 9,
+      "measurement_level": "Person, household, place, customer, worker, program episode",
+      "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
+      "same_unit_end_to_end_link": true,
+      "source_line": 21,
+      "status_tokens": [
+        "Compared",
+        "Open"
+      ],
+      "theme": "Unequal exposure and status"
+    },
+    {
+      "current_status": "Reported / Compared / Open",
+      "evidence_anchor_count": 9,
+      "measurement_level": "Respondent, customer, survey wave, community, source ecosystem",
+      "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; the CCES layer now adds subgroup heterogeneity, but remains a descriptive joint-proxy screen, not a causal bridge.",
+      "same_unit_end_to_end_link": true,
+      "source_line": 22,
+      "status_tokens": [
+        "Reported",
+        "Compared",
+        "Open"
+      ],
+      "theme": "Trust, identity, and cultural meaning"
+    },
+    {
+      "current_status": "Compared / Reported",
+      "evidence_anchor_count": 10,
+      "measurement_level": "Person, household, program spell, agency, place, census tract",
+      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; direct notices, effort, interpretation, remedy, and later action remain open.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 23,
+      "status_tokens": [
+        "Reported",
+        "Compared"
+      ],
+      "theme": "Public systems and policy feedback"
+    },
+    {
+      "current_status": "Compared / Open",
+      "evidence_anchor_count": 11,
+      "measurement_level": "Respondent, source ecosystem, program episode, county, election, campaign/event",
+      "next_required_test": "SHED, CCES, ANES, Pew, and CPS now separate consumer adaptation, economic judgment, trust, source environment, civic action, turnout, registration, and participation barriers; subgroup heterogeneity is now visible in CCES, but joint proxies do not establish causality, and migration-specific exposure, attribution, belonging, and causal action path remain open.",
+      "same_unit_end_to_end_link": true,
+      "source_line": 24,
+      "status_tokens": [
+        "Compared",
+        "Open"
+      ],
+      "theme": "Political judgment and collective action"
+    },
+    {
+      "current_status": "Reported / Compared / Inferred",
+      "evidence_anchor_count": 11,
+      "measurement_level": "Firm, product, market, worker, owner, community, state, county",
+      "next_required_test": "Record when a firm decision shifts price, waiting, access, risk, or data among customers, workers, owners, public systems, and future users\u2014and who can resist; the sector and state layers show that application volume, establishment flow, net-job intensity, entry, and exit diverge; the finance-capacity screen is contextual and non-causal, not a market-power estimate.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 25,
+      "status_tokens": [
+        "Reported",
+        "Compared",
+        "Inferred"
+      ],
+      "theme": "Firm, sector, and market power"
+    },
+    {
+      "current_status": "Reported / Compared / Inferred",
+      "evidence_anchor_count": 6,
+      "measurement_level": "Firm, defense award, datacenter, building, campus, grid, public system, sector, country",
+      "next_required_test": "Compare planned and realized capacity, ownership, power/water burden, data location, local skills, interoperability, provider switching, and realized public capability; defense procurement adds a separate acceptance/delivery clock; the local GIS layer measures incidence, not load, jobs, bills, or benefits.",
+      "same_unit_end_to_end_link": false,
+      "source_line": 26,
+      "status_tokens": [
+        "Reported",
+        "Compared",
+        "Inferred"
+      ],
+      "theme": "Infrastructure, technology, and dependency"
+    },
+    {
+      "current_status": "Reported / Compared / Open",
+      "evidence_anchor_count": 8,
+      "measurement_level": "Sector, commodity, firm, defense award, infrastructure project, country",
+      "next_required_test": "Trace realized capacity and ownership into local distribution, state dependence, alliance leverage, strategic choice, and external response without inventing a household-to-state join; retain procurement, acceptance, operational use, and leverage as separate stages.",
+      "same_unit_end_to_end_link": true,
+      "source_line": 27,
+      "status_tokens": [
+        "Reported",
+        "Compared",
+        "Open"
+      ],
+      "theme": "Geopolitical and state consequences"
+    }
+  ],
+  "themes_with_explicit_open_link": 4
+}
