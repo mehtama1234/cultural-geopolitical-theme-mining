@@ -691,6 +691,13 @@
       "status": "compared"
     }
   ],
+  "reproduction_audit": {
+    "checked": "2026-09-15",
+    "script": "scripts/analyze_cfpb_case_route_vintage_comparison.py",
+    "scope": "Four products across 2024 and 2025 date_received windows, size=500 per product-year",
+    "result": "Eight route observations and their raw-response hashes were rerun and reproduced; this is a capped retrieval-order diagnostic, not a representative complaint or remedy estimate.",
+    "interpretation": "Routing, timely, and company-response labels remain administrative endpoints. The recheck does not establish verified correction, money recovered, repeat contact, switching, trust, or exit."
+  },
   "related_sources": [
     {
       "source_url": "https://cfpb.github.io/api/ccdb/fields.html",

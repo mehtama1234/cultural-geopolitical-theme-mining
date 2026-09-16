@@ -108,7 +108,8 @@ unobserved in one same-case record.
 
 ## Route 4: consumer harm meets institutional visibility
 
-Read the [CFPB route-vintage audit](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md)
+Read the [CFPB route-vintage audit](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md),
+its [eight-slice reproduction recheck](analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md),
 and the [consumer recourse synthesis](analysis/projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md).
 
 **Theme:** an institution's visible response is not the same as a verified
