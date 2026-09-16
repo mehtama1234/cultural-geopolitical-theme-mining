@@ -163,7 +163,9 @@ adds a joint-constraint screen and a useful no-utility-difficulty counter-
 surface, but the care field is on an annual fall clock and the prevention
 cells are sparse. The official 240-replicate rerun now supplies Fay-BRR
 intervals, but it remains a diagnostic memo rather than a promoted trend
-estimate; the next test is a dated bill or assistance event.
+estimate. A separate `RFOODS` outcome layer now tests food security on the
+same records without pooling it with mortgage hardship; the next test is a
+dated bill or assistance event.
 
 The new [multi-clock material/time/care synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-033.md)
 adds the end-to-end reader frame: SIPP monthly resource/work transitions,

@@ -140,6 +140,32 @@ whose care and housing outcomes remain protected because of a documented
 payment intervention, flexible schedule, nearby care, family support, or
 provider substitute.
 
+## Food security as a separate protected-outcome surface
+
+The same 2,601 identified records can be evaluated against `RFOODS`, with
+`AFOODS` supplying its official status flag. Here, food insecurity means the
+low or very-low categories (`RFOODS=2` or `3`), not a claim about hunger on a
+particular day. This outcome has the same December person-record frame but a
+different substantive universe from rent/mortgage hardship.
+
+| Utility condition | Child-care work prevention | Tenure | n | Food insecurity (low or very low) |
+|---|---|---|---:|---:|
+| Difficulty | No | Owner/buyer | 95 | 49.647% (SE 6.977; 95% CI 35.972–63.321) |
+| Difficulty | No | Renter | 134 | 50.649% (SE 4.947; 95% CI 40.953–60.346) |
+| Difficulty | Yes | Owner/buyer | 10 | 77.542% (SE 12.663; 95% CI 52.723–100.000) |
+| Difficulty | Yes | Renter | 12 | 64.532% (SE 15.710; 95% CI 33.741–95.324) |
+| No difficulty | No | Owner/buyer | 1,635 | 4.539% (SE 0.570; 95% CI 3.423–5.656) |
+| No difficulty | No | Renter | 643 | 17.948% (SE 1.767; 95% CI 14.485–21.411) |
+| No difficulty | Yes | Owner/buyer | 42 | 12.801% (SE 5.327; 95% CI 2.360–23.241) |
+| No difficulty | Yes | Renter | 30 | 25.498% (SE 8.064; 95% CI 9.692–41.305) |
+
+The renter/difficulty prevention contrast is +13.883 percentage points (SE
+16.712; 95% CI −18.873 to +46.639). The owner/buyer/difficulty contrast is
+27.896 points (SE 14.275; 95% CI −0.083 to +55.874). These intervals do not
+support a settled difference. They do show that the joint surface reaches a
+second household-security outcome, while the sparse cells and mixed clocks
+still prevent causal interpretation.
+
 ## Reproduction boundary
 
 The calculation was run over the locally available slice:
@@ -156,6 +182,11 @@ and [reproduction script](../../../scripts/analyze_sipp_utility_care_mortgage_th
 preserve the estimator inputs and result. This memo is a diagnostic extension
 of the [utility/tenure/care/work option-stack synthesis](sipp-utility-tenure-care-work-option-stack-synthesis-v1.md),
 not a replacement for its component outputs.
+
+The separately estimated food-security output is
+[preserved here](data/sipp-utility-care-food-three-way-2024.json). It uses the
+same script with `--outcome food_insecurity` and keeps `RFOODS`/`AFOODS`
+separate from the mortgage-hardship fields.
 
 **Evidence status:** same-record Fay-BRR descriptive diagnostic with sparse
   cells and wide uncertainty; no causal, population-trend,

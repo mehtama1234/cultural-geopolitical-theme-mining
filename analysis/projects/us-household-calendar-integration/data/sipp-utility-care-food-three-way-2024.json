@@ -1,0 +1,129 @@
+{
+  "format": "us-sipp-utility-care-mortgage-three-way-fay-brr-v1-food_insecurity",
+  "outcome": "food_insecurity",
+  "source_unit": "December identified person records with valid utility difficulty, annual fall child-care work-prevention status, tenure, and the selected outcome",
+  "reference_period": "2024 reference year in 2025 SIPP public-use file",
+  "weight": "WPFINWGT; REPWGT1-REPWGT240 for variance",
+  "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
+  "rows_read": 379215,
+  "identified_records": 2601,
+  "replicate_rows_matched": 2601,
+  "results": {
+    "difficulty__not_prevented__renter": {
+      "records": 134,
+      "weighted_denominator": 1632259.2495017007,
+      "share_percent": 50.64938433051523,
+      "standard_error_percentage_points": 4.947175774210324,
+      "approx_95_percent_ci": [
+        40.952919813063,
+        60.34584884796747
+      ]
+    },
+    "no_difficulty__not_prevented__owner_buyer": {
+      "records": 1635,
+      "weighted_denominator": 18558810.183814496,
+      "share_percent": 4.539255248025014,
+      "standard_error_percentage_points": 0.569695193657252,
+      "approx_95_percent_ci": [
+        3.4226526684568,
+        5.655857827593227
+      ]
+    },
+    "no_difficulty__prevented__owner_buyer": {
+      "records": 42,
+      "weighted_denominator": 541758.5493060001,
+      "share_percent": 12.800536495092823,
+      "standard_error_percentage_points": 5.326636660539085,
+      "approx_95_percent_ci": [
+        2.360328640436217,
+        23.240744349749427
+      ]
+    },
+    "no_difficulty__not_prevented__renter": {
+      "records": 643,
+      "weighted_denominator": 8255253.540147601,
+      "share_percent": 17.9479737898469,
+      "standard_error_percentage_points": 1.7670578327865596,
+      "approx_95_percent_ci": [
+        14.484540437585242,
+        21.411407142108555
+      ]
+    },
+    "difficulty__not_prevented__owner_buyer": {
+      "records": 95,
+      "weighted_denominator": 1040357.9741221003,
+      "share_percent": 49.64667574278441,
+      "standard_error_percentage_points": 6.976635917298735,
+      "approx_95_percent_ci": [
+        35.97246934487889,
+        63.32088214068993
+      ]
+    },
+    "difficulty__prevented__renter": {
+      "records": 12,
+      "weighted_denominator": 144442.3719732,
+      "share_percent": 64.53243564422681,
+      "standard_error_percentage_points": 15.709733516775815,
+      "approx_95_percent_ci": [
+        33.74135795134622,
+        95.3235133371074
+      ]
+    },
+    "no_difficulty__prevented__renter": {
+      "records": 30,
+      "weighted_denominator": 435375.7273862,
+      "share_percent": 25.498345360448948,
+      "standard_error_percentage_points": 8.064375932292604,
+      "approx_95_percent_ci": [
+        9.692168533155444,
+        41.30452218774245
+      ]
+    },
+    "difficulty__prevented__owner_buyer": {
+      "records": 10,
+      "weighted_denominator": 107295.09011090001,
+      "share_percent": 77.54224086908883,
+      "standard_error_percentage_points": 12.662940283806897,
+      "approx_95_percent_ci": [
+        52.722877912827315,
+        100.0
+      ]
+    }
+  },
+  "contrasts": {
+    "difficulty__renter__prevented_minus_not_prevented": {
+      "difference_percentage_points": 13.883051313711569,
+      "standard_error_percentage_points": 16.712244872707043,
+      "approx_95_percent_ci": [
+        -18.872948636794234,
+        46.63905126421737
+      ]
+    },
+    "difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "difference_percentage_points": 27.895565126304422,
+      "standard_error_percentage_points": 14.274774369582802,
+      "approx_95_percent_ci": [
+        -0.08299263807786872,
+        55.874122890686714
+      ]
+    },
+    "no_difficulty__renter__prevented_minus_not_prevented": {
+      "difference_percentage_points": 7.550371570602049,
+      "standard_error_percentage_points": 8.012571612323418,
+      "approx_95_percent_ci": [
+        -8.15426878955185,
+        23.25501193075595
+      ]
+    },
+    "no_difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "difference_percentage_points": 8.26128124706781,
+      "standard_error_percentage_points": 5.293227009259381,
+      "approx_95_percent_ci": [
+        -2.113443691080576,
+        18.636006185216196
+      ]
+    }
+  },
+  "causal_estimation": false,
+  "boundary": "Utility difficulty and the selected outcome are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate."
+}

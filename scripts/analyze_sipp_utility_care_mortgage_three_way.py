@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Estimate a SIPP utility/care/tenure x mortgage-hardship cross-tab."""
+"""Estimate a SIPP utility/care/tenure cross-tab for a selected outcome."""
 
 from __future__ import annotations
 
@@ -92,6 +92,12 @@ def main() -> None:
     parser.add_argument("--primary", type=Path, required=True)
     parser.add_argument("--replicate-zip", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--outcome",
+        choices=("mortgage_hardship", "food_insecurity"),
+        default="mortgage_hardship",
+        help="Outcome to estimate; food insecurity means low or very low RFOODS.",
+    )
     args = parser.parse_args()
 
     groups = OrderedDict()
@@ -106,9 +112,11 @@ def main() -> None:
             "AAWBGAS",
             "EWORKMORE",
             "AWORKMORE",
-            "EAWBMORT",
-            "AAWBMORT",
         }
+        if args.outcome == "mortgage_hardship":
+            required |= {"EAWBMORT", "AAWBMORT"}
+        else:
+            required |= {"RFOODS", "AFOODS"}
         missing = sorted(required - set(reader.fieldnames or []))
         if missing:
             raise ValueError("primary slice is missing fields: " + ", ".join(missing))
@@ -122,8 +130,14 @@ def main() -> None:
                 continue
             if not row["ETENURE"] in {"1", "2"}:
                 continue
-            if not valid(row["EAWBMORT"], row["AAWBMORT"]):
-                continue
+            if args.outcome == "mortgage_hardship":
+                if not valid(row["EAWBMORT"], row["AAWBMORT"]):
+                    continue
+                positive = row["EAWBMORT"] == "1"
+            else:
+                if row["RFOODS"] not in {"1", "2", "3"} or row["AFOODS"] in {"", "0"}:
+                    continue
+                positive = row["RFOODS"] in {"2", "3"}
             try:
                 weight = float(row["WPFINWGT"])
             except (TypeError, ValueError):
@@ -139,7 +153,7 @@ def main() -> None:
             # double-counting an identified person-month.
             if key in records_by_key:
                 continue
-            records_by_key[key] = (group, row["EAWBMORT"], weight)
+            records_by_key[key] = (group, positive, weight)
 
     replicate_numerator = {group: np.zeros(REPLICATES) for group in groups}
     replicate_denominator = {group: np.zeros(REPLICATES) for group in groups}
@@ -162,20 +176,20 @@ def main() -> None:
                 if item is None:
                     continue
                 matched += 1
-                group, hardship, _ = item
+                group, positive, _ = item
                 weights = np.fromiter(
                     (float(row[f"repwgt{i}"]) for i in range(1, REPLICATES + 1)),
                     dtype=np.float64,
                     count=REPLICATES,
                 )
                 replicate_denominator[group] += weights
-                if hardship == "1":
+                if positive:
                     replicate_numerator[group] += weights
 
-    for group, hardship, weight in records_by_key.values():
+    for group, positive, weight in records_by_key.values():
         groups[group]["denominator"] += weight
         groups[group]["records"] += 1
-        if hardship == "1":
+        if positive:
             groups[group]["numerator"] += weight
 
     result_rows = {
@@ -226,8 +240,9 @@ def main() -> None:
     }
 
     output = {
-        "format": "us-sipp-utility-care-mortgage-three-way-fay-brr-v1",
-        "source_unit": "December identified person records with valid utility difficulty, annual fall child-care work-prevention status, tenure, and rent/mortgage hardship",
+        "format": f"us-sipp-utility-care-mortgage-three-way-fay-brr-v1-{args.outcome}",
+        "outcome": args.outcome,
+        "source_unit": "December identified person records with valid utility difficulty, annual fall child-care work-prevention status, tenure, and the selected outcome",
         "reference_period": "2024 reference year in 2025 SIPP public-use file",
         "weight": "WPFINWGT; REPWGT1-REPWGT240 for variance",
         "variance_method": "Fay BRR, G=240, perturbation factor 0.5",
@@ -237,7 +252,7 @@ def main() -> None:
         "results": result_rows,
         "contrasts": contrasts,
         "causal_estimation": False,
-        "boundary": "Utility difficulty and rent/mortgage hardship are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate.",
+        "boundary": "Utility difficulty and the selected outcome are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate.",
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(output, indent=2) + "\n", encoding="utf-8")

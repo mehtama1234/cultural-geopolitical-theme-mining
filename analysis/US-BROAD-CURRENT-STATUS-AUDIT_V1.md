@@ -1211,8 +1211,9 @@ market-transition or household result.
   no-utility-difficulty counter-surface; all 2,601 identified records now
   match the official 240-replicate archive and carry Fay-BRR intervals. The
   care field has a mixed annual clock and sparse prevention cells, so it is not
-  a promoted trend estimate; dated bills, assistance, care intensity, and
-  follow-up recovery remain open.
+  a promoted trend estimate. A separate food-security outcome layer keeps
+  `RFOODS` distinct from mortgage hardship; dated bills, assistance, care
+  intensity, and follow-up recovery remain open.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,
