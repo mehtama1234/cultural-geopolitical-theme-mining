@@ -379,6 +379,22 @@ trust, data disclosure, complaint visibility, remedy, and welfare. It also
 identifies non-reporting and non-use as potentially informative missingness,
 not proof of satisfaction or lack of need.
 
+**Concrete trend anchors:** the [consumer-confidence, price, and labor
+record](analysis/records/us-fred-consumer-confidence-price-labor-2024-2026.json)
+keeps felt economic confidence separate from the aggregate price level and
+labor context; the [payment-system redistribution
+record](analysis/records/us-nber-payment-rewards-redistribution-2026.json)
+shows how fees and rewards can move value across consumer payment routes; the
+[platform news, civic engagement, and trust
+record](analysis/records/us-pew-news-platform-civic-engagement-2025.json)
+separates attention, confidence, and action; the [charitable-food access
+record](analysis/records/us-urban-wbns-charitable-food-access-2019-2025.json)
+keeps receipt, access difficulty, stigma, and unmet need distinct; and the
+[digital consumer loss and recourse
+record](analysis/records/us-digital-consumer-loss-recourse-crosssource-2024-2025.json)
+keeps exposure, recovery, routing, and remedy separate. Together these are
+useful trend surfaces, not one longitudinal consumer panel.
+
 **Open arrow:** no current record follows the same customer from a dated need
 or exposure through information and social-signaling conditions, purchase or
 avoidance, data disclosure or complaint, money/time/privacy/dignity cost,
