@@ -10,6 +10,10 @@ This ledger prevents unlike evidence from being collapsed into a single
 “remedy” indicator. Each row identifies the decision surface, the worker's
 route, the institutional response, and the strongest outcome actually shown.
 
+The same rows are preserved in the machine-readable [platform-remedy case
+ledger JSON](data/platform-remedy-case-ledger-v1.json), which is the expansion
+surface for future cases and keeps the stage vocabulary stable.
+
 `observed_rule` means a legal or formal rule exists. `observed_self_report`
 means workers reported an experience or outcome. `observed_adjudicated` means a
 court or tribunal made a finding or order. `not_observed` means the current

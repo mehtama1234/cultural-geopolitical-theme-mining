@@ -1,0 +1,105 @@
+{
+  "schema_version": "platform-remedy-case-ledger-v1",
+  "checked": "2026-09-15",
+  "purpose": "Keep formal rights, reported practices, adjudicated orders, and verified worker outcomes separate.",
+  "coding": {
+    "observed_rule": "A law, directive, contract, or formal rule specifies the route.",
+    "observed_practice": "An institutional or operational practice is reported, without a case-level outcome.",
+    "observed_self_report": "Workers report an experience or outcome, without independent case-file verification.",
+    "observed_adjudicated": "A court or tribunal made a finding or order.",
+    "observed_commitment": "An organization committed to a recommendation, without completed remediation proof.",
+    "observed_rule_or_expectation": "A regulator or guidance source states an expected right or safeguard.",
+    "not_observed": "The current source packet does not establish the event; this is not proof that it never occurred."
+  },
+  "stage_fields": ["explanation", "human_review", "correction_restoration", "payment_compensation", "anti_retaliation"],
+  "records": [
+    {
+      "id": "PR-001",
+      "place": "United Kingdom / Netherlands court",
+      "population": "London Uber drivers; Uber/Ola proceedings in Amsterdam",
+      "source_type": "court_record",
+      "decision_surface": ["account_deactivation", "trip_allocation", "fares", "fraud_probability_scores"],
+      "worker_route": "GDPR information request and court application",
+      "stages": {"explanation": "observed_adjudicated", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_court_order_medium_for_downstream_outcome",
+      "boundary": "Information was ordered; no public follow-on correction, reinstatement, or compensation record located."
+    },
+    {
+      "id": "PR-002",
+      "place": "Uganda",
+      "population": "Taxi and delivery platform workers",
+      "source_type": "ILO_Makerere_cross_sectional_survey",
+      "decision_surface": ["ratings", "allocation", "refusal_penalties", "monitoring", "deactivation"],
+      "worker_route": "Platform appeal or complaint",
+      "stages": {"explanation": "not_observed", "human_review": "observed_self_reported_favorable_resolution", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "medium_for_reported_experience_low_for_remedy_content",
+      "boundary": "Favorable resolution is reported but not itemized as correction, restoration, repayment, or explanation."
+    },
+    {
+      "id": "PR-003",
+      "place": "Malaysia",
+      "population": "Gig workers under Act 872",
+      "source_type": "enacted_statute_and_implementation_materials",
+      "decision_surface": ["automated_monitoring", "automated_decision_systems", "deactivation", "payment"],
+      "worker_route": "Non-automated review, hearing, internal grievance, conciliation, Tribunal",
+      "stages": {"explanation": "observed_rule", "human_review": "observed_rule", "correction_restoration": "not_observed", "payment_compensation": "observed_rule", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_statutory_architecture_low_for_exercised_outcome",
+      "boundary": "Complaint infrastructure is visible; no public automated-decision case outcome located."
+    },
+    {
+      "id": "PR-004",
+      "place": "European Union",
+      "population": "Platform workers under Directive 2024/2831",
+      "source_type": "directive_and_national_preparation_records",
+      "decision_surface": ["algorithmic_management", "high_impact_decisions"],
+      "worker_route": "Explanation, human oversight, review, correction/compensation, dispute route",
+      "stages": {"explanation": "observed_rule", "human_review": "observed_rule", "correction_restoration": "observed_rule", "payment_compensation": "observed_rule", "anti_retaliation": "observed_rule"},
+      "evidence_strength": "high_for_EU_rule_low_for_national_exercise",
+      "boundary": "Transposition deadline is 2026-12-02; national implementation and exercised remedies remain staged."
+    },
+    {
+      "id": "PR-005",
+      "place": "Netherlands",
+      "population": "Deliveroo couriers",
+      "source_type": "civil_court_record",
+      "decision_surface": ["algorithmic_allocation", "platform_control"],
+      "worker_route": "Collective employment-status litigation",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_status_outcome_low_for_algorithmic_remedy",
+      "boundary": "Employment relationship was recognized; no directive-style automated-decision remedy shown."
+    },
+    {
+      "id": "PR-006",
+      "place": "Finland",
+      "population": "Wolt couriers",
+      "source_type": "administrative_court_and_tax_record",
+      "decision_surface": ["direction", "supervision", "monitoring", "control"],
+      "worker_route": "Status and tax-treatment challenge",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed", "correction_restoration": "not_observed", "payment_compensation": "observed_as_status_or_wage_consequence", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_status_tax_consequence_low_for_automated_remedy",
+      "boundary": "Wage treatment is a status consequence, not compensation for a specific automated decision."
+    },
+    {
+      "id": "PR-007",
+      "place": "Kenya",
+      "population": "Ziada domestic, beauty, and personal-service workers",
+      "source_type": "ILO_institutional_case_study",
+      "decision_surface": ["client_ratings", "service_quality_assessment"],
+      "worker_route": "Staff mediation and discussion after a low rating",
+      "stages": {"explanation": "observed_practice", "human_review": "observed_practice", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "medium",
+      "boundary": "Human mediation is reported; authority to alter the score or consequence is not established."
+    },
+    {
+      "id": "PR-008",
+      "place": "United Kingdom",
+      "population": "Jobseekers in automated recruitment",
+      "source_type": "ICO_regulator_review_and_guidance",
+      "decision_surface": ["CV_scoring", "ranking", "filtering", "pre_human_rejection"],
+      "worker_route": "Notice, contest, and request for meaningful human review",
+      "stages": {"explanation": "observed_rule_or_expectation", "human_review": "observed_rule_or_expectation", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_regulator_action_low_for_individual_remedy",
+      "boundary": "More than 30 employers were reviewed and 16 organizations committed to recommendations; no candidate-level correction shown."
+    }
+  ]
+}
