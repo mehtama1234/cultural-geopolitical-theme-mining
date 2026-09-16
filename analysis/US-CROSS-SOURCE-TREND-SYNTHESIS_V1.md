@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-nine estimates of one phenomenon:
+ten estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -45,10 +45,11 @@ nine estimates of one phenomenon:
 | 7. Political action | [Action is a menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md) | Voting, contact, volunteering, complaint, organizing, switching, and withdrawal have different barriers | Same-event action, institutional response, and later legitimacy |
 | 8. Place capacity and practical exit | [Local capacity is not practical exit](projects/us-local-business-place/place-capacity-practical-exit-cross-domain-synthesis-v1.md) | Establishments, providers, public routes, and infrastructure create alternatives only when they are reachable, usable, replaceable, and contestable | Dated resident route, attempted use, fallback, restored access, stay/switch/move, and local meaning |
 | 9. Financial capacity and household room | [From national growth to household room](projects/us-financial-intermediation/macro-to-household-financial-capacity-synthesis-v1.md) | Macro growth, provider infrastructure, public monitoring, credit, and household room are different stages; capacity can expand while practical access narrows | Dated obligation, alternatives, payment/record/fee route, household consequence, remedy, trust, and exit |
+| 10. Housing security and cost of staying | [The cost of staying put](projects/us-housing-insurance-risk/cost-of-staying-put-synthesis-v1.md) | Payment, coverage, hazard, energy, and public backstops can compound without being interchangeable | Matched property/household episode with notice, claim/repair, assistance, mobility, recovery, and stay/move outcome |
 
 ### The common pattern
 
-Across the nine rotations, the strongest recurring theme is **unequal
+Across the ten rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or

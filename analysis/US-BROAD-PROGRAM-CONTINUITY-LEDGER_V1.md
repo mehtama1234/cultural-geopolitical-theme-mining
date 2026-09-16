@@ -136,6 +136,14 @@ not automatically usable household room; the next test remains a dated
 obligation or account event with alternatives, payment/record consequences,
 remedy, later security, trust, or exit.
 
+The tenth rotation advances housing security and the cost of staying put
+through the [housing, insurance, hazard, and energy synthesis](projects/us-housing-insurance-risk/cost-of-staying-put-synthesis-v1.md).
+It keeps rent arrears, insurance gaps, premiums, nonrenewal, hazard, energy
+burden, repair, and public backstops as distinct but potentially compounding
+layers. The next test remains a matched property or household episode linking
+notice, claim or repair, assistance, payment/borrowing, health or work
+trade-offs, and stay, move, or recovery.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
