@@ -18,6 +18,9 @@ routes, with a public record of the resulting decision?
 | Conciliation regulations | P.U. (A) 146/2026 | Procedure, 60-day complaint timing, written settlement records, and Tribunal referral route confirmed |
 | Tribunal regulations | P.U. (A) 144/2026 | Referral, hearing notice, representation, hearing, and record-management procedure confirmed |
 | Ministry implementation notice | 31 March 2026 enforcement notice | Act commencement and institutional rollout confirmed |
+| Ministry FAQ and JTKSM annual report | Consultation groups, session structure, subsidiary-legislation workshops, and reported participation totals | Policy-stage participation is more specifically documented; clause-level influence remains open |
+| JTKSM enforcement page | Page updated 10 September 2026 with Act, regulations, determinations, and e-Aduan links | Implementation surface is maintained; no public case-level outcome register located |
+| Ministry service description | e-Aduan intended resolution target of up to 21 working days depending on complexity | Service target observed; actual resolution-time distribution and remedy content not observed |
 | Public web search | Queries for Act 872, gig-worker Tribunal, complaints, deactivation, review, and enforcement | No publicly indexed case-level automated-decision outcome located |
 
 ## What is observed
@@ -28,6 +31,8 @@ routes, with a public record of the resulting decision?
 3. The Ministry has published conciliation and Tribunal regulations.
 4. The legal system provides a path from platform decision to conciliation and
    potentially Tribunal adjudication.
+5. The Ministry publishes a stated e-Aduan service target and maintains an
+   enforcement page updated 10 September 2026.
 
 ## What is not observed
 
@@ -39,6 +44,7 @@ routes, with a public record of the resulting decision?
 - conciliation settlements;
 - Tribunal awards;
 - enforcement or compound-offence actions;
+- actual e-Aduan resolution times or outcome categories;
 - recurrence prevention or anti-retaliation outcomes.
 
 The absence of a public record is not evidence that no complaints or outcomes

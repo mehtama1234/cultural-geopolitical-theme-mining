@@ -26,6 +26,9 @@ that a platform complied, or that a Tribunal awarded a remedy.
 - [Ministry Act 872 information portal](https://www.mohr.gov.my/aktapekerjagig2025/jtksm.html)
 - [Gig Workers (Conciliation Proceedings) Regulations 2026](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA146_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28PROSIDING%20PENDAMAIAN%29.pdf)
 - [Gig Workers (Tribunal) Regulations 2026](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA144_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28TRIBUNAL%20PEKERJA%20GIG%29.pdf)
+- [Ministry Act 872 FAQ](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/faq.pdf)
+- [JTKSM Act 872 enforcement page](https://jtksm.mohr.gov.my/ms/penguatkuasaan-akta-pekerja-gig-2025-jtksm)
+- [JTKSM 2025 annual report](https://jtksm.mohr.gov.my/sites/default/files/2026-04/LAPORAN%20TAHUNAN%202025%20V2.pdf)
 
 The Act received Royal Assent on 16 December 2025 and was gazetted on 31
 December 2025. The Ministry's 31 March 2026 notice states that enforcement
@@ -106,6 +109,12 @@ or available through a formal information request.
 The detailed search boundary is maintained in the [Malaysia Act 872 outcome
 acquisition audit](malaysia-act872-outcome-acquisition-audit-2026-09-15.md).
 
+The Ministry implementation notice states that the e-Aduan system is intended
+to handle complaints about payment, account suspension, and agreement
+violations, with a target of resolution within a maximum of 21 working days
+depending on case complexity. This is a service target, not an observed
+resolution-time distribution or remedy outcome.
+
 ## Worker-voice boundary
 
 The Ministry's public Act portal reports **37 engagement sessions, 3,873
@@ -115,6 +124,15 @@ responsible ministry. It is not evidence that participants controlled the
 automated-decision provisions, that gig-worker representatives were equally
 represented, or that the resulting rules are now being used in individual
 cases.
+
+The Ministry FAQ further identifies the reported participation structure:
+special sessions with senior political leadership, 14 sessions with federal
+and state ministries/agencies, 13 sessions with platform providers,
+non-platform associations, and gig workers, and seven regional stakeholder and
+industry sessions. The annual report separately describes regional engagement
+milestones and workshops on subsidiary legislation. These records make the
+participation claim more specific, but they still do not show which feedback
+changed which statutory clause.
 
 The distinction is important for the broader atlas:
 
