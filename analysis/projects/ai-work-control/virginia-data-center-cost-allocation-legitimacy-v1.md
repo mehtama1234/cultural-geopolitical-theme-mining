@@ -31,6 +31,7 @@ The first five stages have records. The final stage remains open.
 | Stage | Evidence | Safe interpretation | Boundary |
 |---|---|---|---|
 | Physical and system pressure | LBNL national load estimates; Prince William capacity/revenue reporting; Virginia 1,551 MW and 1,800 MW load-drop events | Data-center growth is being handled as a physical and reliability governance problem | National modeling, county aggregates, and utility events do not share a household denominator |
+| Service-planning mechanism | Dominion publishes a staged process in which sites below 50 MW may often use existing distribution, while sites above 50 MW are likely to require transmission extension and/or a new substation | Customer scale is formally connected to the infrastructure pathway under review | General guidance does not identify a named customer, approved interconnection, or cause of any particular project |
 | Place and utility investment | Proposed Hornbaker–Devlin 230 kV line and switching station in Prince William County | A named utility-planning response is tied to a data-center growth zone | Proposed infrastructure is not construction, energization, or facility-specific service |
 | Customer governance | Virginia high-load filing names industry participants, a 50 MW threshold, and account-aggregation rules | Regulators and utilities are formalizing who counts as a large load and how accounts may be grouped | A filing/recommended stipulation is not final account-level implementation |
 | Cost attribution | SCC direct-assignment framework; 85% minimum transmission/distribution charge and 14-year obligations; a modeled Rider T1 illustration from $2.90 to $0.94 per 1,000 kWh | Policy is attempting to move some infrastructure risk toward the customers that create it | The illustration is modeled, not an observed bill or payment |
@@ -45,6 +46,14 @@ local revenue and large system requirements. The newer SCC materials make the
 distributional mechanism more explicit: separate rate classes, minimum
 charges, collateral, direct assignment, and a supplemental docket for line
 extension policy.
+
+Dominion's customer-facing service guidance supplies the missing mechanism
+between abstract growth and a proposed grid project: expected load and a
+site-specific power plan determine whether existing distribution may be enough
+or whether transmission extension and a new substation are likely. This helps
+explain how infrastructure pressure is administratively recognized, but it
+still does not join the rule to a named facility, an approved account, or a
+household outcome.
 
 That is a change in institutional design, not yet a measured change in lived
 burden. A rule can redistribute expected cost while leaving actual bills,
@@ -101,6 +110,7 @@ geopolitically empowering remains open.
 - [Virginia household-attribution source note](data/virginia-rider-t1-household-attribution-source-note.md)
 - [Virginia direct-assignment policy source note](data/virginia-direct-assignment-policy-source-note.md)
 - [Virginia large-load event-response source note](data/virginia-large-load-event-response-source-note.md)
+- [Dominion data-center service-staging source note](data/dominion-data-center-service-staging-source-note.md)
 - [Strategic capability realization cross-case bridge](strategic-capability-realization-cross-case-bridge-v1.md)
 
 **Evidence status:** observed and reported institutional stages plus bounded

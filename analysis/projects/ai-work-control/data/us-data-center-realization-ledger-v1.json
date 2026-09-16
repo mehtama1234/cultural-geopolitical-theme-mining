@@ -166,6 +166,22 @@
       "boundary": "This comparator does not establish data-center attribution, representative opinion, household bills, health effects, or the outcome of Prince William transmission cases."
     },
     {
+      "event_id": "dominion-data-center-service-staging-rule-current",
+      "event_type": "capacity",
+      "event_date": "not independently verified",
+      "date_precision": "unverified",
+      "actor": "Dominion Energy Virginia",
+      "recipient": "New data-center customers and Virginia electric-service planning process",
+      "object": "Published service-staging and site-specific power-planning rule for new data centers",
+      "place": "Virginia",
+      "measures": {"distribution_service_reference": "less than 50 MW often served from existing distribution", "transmission_service_reference": "more than 50 MW likely requires a transmission extension and/or new substation", "planning_requirement": "site-specific power plan and load profile"},
+      "status": "observed",
+      "source_locator": "Dominion Energy Virginia Data Center Requests page, service-planning guidance",
+      "source_url": "https://www.dominionenergy.com/virginia/large-business-services/data-center-requests",
+      "local_source": "data/dominion-data-center-service-staging-source-note.md",
+      "boundary": "Published service guidance is an institutional mechanism, not proof of a named customer's load, interconnection approval, construction, bill, cost recovery, or strategic compute capability."
+    },
+    {
       "event_id": "data-center-household-capability-join-open-2026-09-15",
       "event_type": "non_observation",
       "event_date": "2026-09-15",
