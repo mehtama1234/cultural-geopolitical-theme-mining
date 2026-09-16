@@ -66,6 +66,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Finland Wolt court and administrative consequence](analysis/projects/ai-work-control/finland-wolt-platform-work-court-consequence-record-v1.md)
 - [Platform-work court comparator](analysis/projects/ai-work-control/platform-work-court-comparator-v1.md)
 - [Uber/Ola automated-decision remedy case](analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md)
+- [Uganda platform-work algorithmic remedy record](analysis/projects/ai-work-control/uganda-platform-work-algorithmic-remedy-record-v1.md)
 - [National implementation comparison](analysis/projects/ai-work-control/platform-work-directive-national-implementation-comparison-v1.md)
 - [Employer political influence and worker power](analysis/findings/us-employer-political-influence-path-001.md)
 
