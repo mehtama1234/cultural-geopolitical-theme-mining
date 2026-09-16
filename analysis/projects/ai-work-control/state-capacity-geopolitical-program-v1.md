@@ -195,6 +195,13 @@ increase from $2.90 to $0.94 per 1,000 kWh under the amended methodology. This
 is meaningful cost-allocation evidence, but not an observed household bill or
 proof of facility-level payment and implementation.
 
+The ledger also retains a separate SCC docket attribution record describing a
+$9.69 monthly Rider T1 charge for a typical 1,000-kWh residential customer and
+the argument that socialized grid-upgrade costs can subsidize a large-load
+customer. This is evidence of public cost attribution in the regulatory record,
+not a causal household-burden estimate and not the same measure as the later
+$2.90-to-$0.94 modeled illustration.
+
 ## The stage map
 
 | Stage | Current evidence | Safe interpretation | Missing evidence |
