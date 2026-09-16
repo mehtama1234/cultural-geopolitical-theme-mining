@@ -1,0 +1,43 @@
+{
+  "format": "wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1",
+  "checked": "2026-09-16",
+  "source_unit": "Adults in immigrant families with children under 19; 1,036 respondents in the December 2025 WBNS analysis",
+  "period": "December 2025 survey; prior-12-month retrospective outcomes",
+  "estimates": {
+    "any_essential_activity_avoided_percent": 23.0,
+    "did_not_talk_to_police_percent": 14.0,
+    "did_not_drive_car_percent": 13.0,
+    "did_not_go_to_work_percent": 12.0,
+    "did_not_attend_religious_or_community_event_percent": 11.0,
+    "did_not_send_children_to_school_childcare_or_afterschool_percent": 10.0,
+    "did_not_visit_doctor_clinic_or_hospital_percent": 10.0,
+    "worried_about_enforcement_approach_percent": 47.0,
+    "worried_about_deportation_percent": 42.0,
+    "worried_about_performing_essential_activities_percent": 34.0,
+    "children_emotional_distress_percent": 15.0,
+    "mixed_status_children_emotional_distress_percent": 27.0,
+    "all_citizen_children_emotional_distress_percent": 8.0,
+    "green_card_citizen_children_emotional_distress_percent": 15.0,
+    "went_without_public_benefits_due_to_immigration_concerns_percent": 19.0,
+    "avoided_safety_net_due_to_information_sharing_concern_percent": 12.0,
+    "did_not_apply_or_stopped_noncash_program_due_to_green_card_concern_percent": 16.0,
+    "one_or_more_material_hardships_percent": 60.0
+  },
+  "sample_boundary": "Published Urban analysis of 1,036 adults in immigrant families with children; mixed-status and all-citizen categories are survey-defined family compositions, not adjudicated immigration-status records.",
+  "interpretation": "Reported immigration concerns coexist with avoidance of essential activities and public benefits, child emotional distress, and material hardship; the cross-sectional retrospective analysis does not establish causal ordering, eligibility, alternatives, remedy, or political action.",
+  "sources": [
+    {
+      "url": "https://www.urban.org/research/publication/immigration-concerns-disrupted-families-essential-activities-and-caused",
+      "role": "primary_published_brief"
+    },
+    {
+      "url": "https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey",
+      "role": "survey_design_and_2025_vintage_context"
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/web/HMCA/studies/39691",
+      "role": "related_2024_study_metadata_and_access_boundary"
+    }
+  ],
+  "storage_boundary": "Uses published official web text and existing local metadata; no respondent microdata or bulk file downloaded."
+}

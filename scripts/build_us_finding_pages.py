@@ -291,6 +291,7 @@ def main():
     # institution-specific confidence.
     public_help_route_synthesis = ROOT / "analysis/projects/us-safety-net-access/public-help-route-buffer-judgment-synthesis-v1.md"
     memos.append(public_help_route_synthesis)
+    memos.append(ROOT / "analysis/projects/us-immigration-local-demand/wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1.md")
     # Give the consumer-power lane a stable reader route from firm process to
     # visible complaint, response label, remedy, trust, and exit.
     consumer_recourse_readme = ROOT / "analysis/projects/us-customer-automation-recourse/README.md"

@@ -598,6 +598,14 @@ single local trust or pro/anti-immigration score; the next step remains a
 same-geography panel linking dated exposure, lived service access, belonging,
 action, and institutional response.
 
+The [WBNS 2025 immigration-concern and essential-activity layer](projects/us-immigration-local-demand/wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1.md)
+adds a storage-light national family screen: protective non-use of work,
+school, care, community, police, and public-benefit routes is visible alongside
+immigration worry, child distress, and material hardship. The next test is a
+dated encounter or repeated design with perceived risk, alternatives, actual
+route choice, institutional response, later trust, and collective action; do
+not treat reported avoidance as a causal enforcement estimate.
+
 The new [household-adaptation/recovery bridge](projects/ai-work-control/findings/ai-work-control-059.md)
 puts SHED panel persistence, health/care transitions, food-pressure responses,
 and fraud-recovery effort into one buffer architecture. It distinguishes

@@ -46,3 +46,11 @@ now places the county capacity screens beside the Chicagoland respondent
 survey. It keeps service stocks, local opinion, geography, and timing separate
 and defines the matched-place panel needed to test lived access and political
 meaning.
+
+The [WBNS 2025 immigration-concern and essential-activity layer](wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1.md)
+adds a current national family-level mechanism: reported immigration concerns
+coexist with avoided work, school, care, community, police, and public-benefit
+routes, child emotional distress, and material hardship. It treats protective
+non-use as an action with perceived risk rather than as apathy, while keeping
+the retrospective cross-sectional design, legal-status measurement boundary,
+alternative routes, remedy, and later political action open.

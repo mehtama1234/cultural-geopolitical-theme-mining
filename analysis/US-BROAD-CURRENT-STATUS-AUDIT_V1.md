@@ -223,6 +223,15 @@ California ZIP-level insurance-risk/income sensitivity. These tests extend
 time, place, denominator, and counterexample coverage, but they remain
 separate units rather than a single causal chain.
 
+The new [WBNS 2025 immigration-concern layer](projects/us-immigration-local-demand/wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1.md)
+adds a direct belonging-to-access mechanism: among adults in immigrant
+families with children, reported concern is associated in the published
+cross-sectional screen with avoidance of essential activities and public
+benefits, child emotional distress, and material hardship. This strengthens
+the migration, public-system, unequal-exposure, care, and political-meaning
+lanes, but does not establish causal policy effects, legal eligibility,
+alternatives, remedy, or later collective action.
+
 The [historical GSS financial/trust layer](projects/us-cost-trust-politics/gss-financial-trust-historical-layer-v1.md)
 now tests that association across anchor years from 1972 through 2024. The
 financial-satisfaction contrast persists but changes in level and gap, which
