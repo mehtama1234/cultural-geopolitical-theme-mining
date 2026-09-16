@@ -1,9 +1,9 @@
 {
   "format": "sipp-official-universes-reproduction-audit-v1",
   "checked": "2026-09-15",
-  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v17/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v17/official-universes-all.json --official-universes",
+  "command": "python3 scripts/analyze_sipp_fay_brr.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/us-broad-sipp-2025/full-v18/official-universes-all.json --official-universes",
   "inputs": {
-    "primary_slice_sha256": "0b6a86f3f4f186a24b1e3952e7041b27c3a8c134935ffd6250decb1989d98c25",
+    "primary_slice_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
     "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
     "script_sha256": "3f291fa04a9da0bd09a15c39181beaa370fa46ad23b34427a0ce0a5c103556db"
   },
