@@ -25,6 +25,9 @@ problem or exposure
 
 The [machine-readable contract](../../../manifests/practical-exit-observation-contract-v1.json)
 defines fields and controlled values; it contains no observations.
+The [validator](../../../scripts/validate_practical_exit_contract.py) is run
+against the [simulated fixture](../../samples/PRACTICAL-EXIT-LEDGER-SIMULATED_V1.json)
+to test the contract without presenting fictional data as evidence.
 
 ## Episode fields
 
@@ -118,3 +121,13 @@ return `unknown` and publish the gap.
 
 **Evidence status:** research-design specification; no new person-level data,
 linkage, causal estimate, or exit rate is claimed.
+
+## Contract check
+
+```text
+python3 scripts/validate_practical_exit_contract.py
+```
+
+The current check passes one simulated episode and confirms that the required
+episode fields, alternative fields, status vocabulary, and test-only evidence
+label are internally consistent.

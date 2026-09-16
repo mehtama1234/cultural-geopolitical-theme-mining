@@ -1,0 +1,44 @@
+{
+  "evidence_class": "simulated_test_data",
+  "contract": "practical-exit-observation-contract-v1",
+  "episodes": [
+    {
+      "episode_id": "SIM-EXIT-001",
+      "unit": "consumer",
+      "domain": "consumer_finance",
+      "event_date": "2026-01-15",
+      "date_precision": "day; fictional",
+      "geography": "fictional US county; no real geography",
+      "trigger": "fictional payment-route failure",
+      "threatened_resource": "access and time",
+      "alternatives": [
+        {
+          "alternative_type": "second_provider",
+          "available": true,
+          "reachable": true,
+          "usable": true,
+          "cost_money": "fictional fee",
+          "cost_time": "fictional one-hour setup",
+          "switching_cost": "fictional record-transfer effort",
+          "eligibility_or_access_constraint": "none measured",
+          "source": "fixture",
+          "evidence_status": "simulated_test_data"
+        }
+      ],
+      "attempted_route": "fictional phone and web contacts",
+      "effort": "fictional repeat-contact burden",
+      "decision": "fictional access restored after review",
+      "remedy_verification": "fictional test outcome; not a real remedy",
+      "followup_window": "fictional 30-day follow-up",
+      "post_event_status": "switched",
+      "protected_outcome": "fictional payment continuity",
+      "sacrificed_outcome": "fictional setup time",
+      "meaning_and_action": "fictional report and switch; no real respondent",
+      "counterexample": "fictional comparable customer retained the first provider",
+      "denominator": "one simulated episode; not a population estimate",
+      "missingness": "all substantive values are fictional test values",
+      "source_and_uncertainty": "fixture only",
+      "evidence_status": "simulated_test_data"
+    }
+  ]
+}

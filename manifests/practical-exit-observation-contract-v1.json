@@ -3,7 +3,7 @@
   "purpose": "Reusable de-identified episode contract for observing practical exit across consumer, public-system, household, worker, housing, and place domains",
   "status": "research-design",
   "valid_units": ["person", "household", "consumer", "worker", "case", "property", "firm", "place"],
-  "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "unknown"],
+  "evidence_status": ["observed", "reported", "estimated", "compared", "inferred", "open", "unknown", "simulated_test_data"],
   "privacy": {
     "direct_identifiers": false,
     "pseudonymous_episode_ids": true,
