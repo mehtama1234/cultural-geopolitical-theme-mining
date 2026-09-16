@@ -196,6 +196,24 @@ def main():
     # to representative writeups without first learning the repository tree.
     review_guide = ROOT / "REVIEW-GUIDE_V1.md"
     memos.append(review_guide)
+    # Publish the curated AI/work review packet and the representative case
+    # records it names, so the review route is usable from the site rather than
+    # requiring readers to navigate the repository tree.
+    review_packet = ROOT / "REVIEW-PACKET_AI-WORK-CONTROL_V1.md"
+    memos.append(review_packet)
+    ai_work_reader_records = [
+        ROOT / "analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-kumar-merits-dismissal-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-warraich-unfair-deactivation-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-khan-reactivation-lost-pay-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md",
+        ROOT / "analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md",
+        ROOT / "analysis/projects/ai-work-control/australia-malaysia-cambodia-stage-compatible-comparison-v1.md",
+    ]
+    memos.extend(ai_work_reader_records)
     # Publish the capability/dependence bridge and its World Bank capability
     # layer so the geopolitical route is readable without leaving the server.
     memos.append(ROOT / "analysis/projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md")
@@ -420,6 +438,7 @@ def main():
         oecd_worker_consultation: "oecd-worker-consultation-experiment-source-record-v1.html",
         atus_annual_comparison: "atus-time-care-annual-comparison-2024-2025-v1.html",
         review_guide: "review-guide.html",
+        review_packet: "review-packet-ai-work-control.html",
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
         cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",
     }
