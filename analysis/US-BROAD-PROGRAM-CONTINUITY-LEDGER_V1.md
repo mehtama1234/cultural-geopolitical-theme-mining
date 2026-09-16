@@ -195,6 +195,14 @@ The health persistence signal is clearer than the employment pattern, but
 neither is verified recovery or remedy; claim timing, appeal, treatment
 continuity, household adaptation, trust, action, and exit remain open.
 
+The seventeenth rotation advances the money-and-obligation stage through the
+[MEPS event payment and bill-context screen](projects/us-health-cost-household-choice/meps-2024-event-payment-bill-context-v1.md).
+It shows that observed self/family payment, total event payment, annual bill
+problems, coverage, resources, and care-access reports are separate and often
+non-monotonic surfaces. The next test remains a dated obligation with
+deductible or balance, payment timing, borrowing or substitution, foregone
+care, verified remedy, and recovery.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.
