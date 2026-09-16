@@ -72,6 +72,18 @@
       "boundary": "[2025] FWC 2337 found the warning, preliminary notice, worker response, human consideration, and reasonable grounds for a persistent low-rating reason sufficient under the Code. No rating correction, restoration, payment, continued access, or downstream outcome is established."
     },
     {
+      "id": "PR-027",
+      "place": "Australia",
+      "population": "Hasnain Ali and Portier Pacific / Uber Delivery Platform",
+      "source_type": "Fair_Work_Commission_primary_merits_decision",
+      "decision_surface": ["satisfaction_rating", "platform_access", "Code_compliance", "unfairness"],
+      "worker_route": "Worker response, statutory unfair-deactivation merits proceeding",
+      "implementation_stage": "adjudicated_code_noncompliance_without_unfairness_remedy",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_process_deficient", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_code_noncompliance_and_no_unfairness_finding_low_for_downstream_effects_and_generalization",
+      "boundary": "[2025] FWC 3243 found the deactivation process inconsistent with the Code but concluded the deactivation was not unfair in the circumstances. The application was dismissed; no restoration, rating correction, payment, or durable access is established."
+    },
+    {
       "id": "PR-022",
       "place": "Australia",
       "population": "Musharaf Waheed and Uber Driver Platform",
