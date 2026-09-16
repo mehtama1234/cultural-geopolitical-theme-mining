@@ -145,20 +145,25 @@ without narrowing the program to one dataset or one household lane.
 
 ## Current resumption move
 
-The active rotation is **material/time/care linkage**. Use the existing local
-SIPP full-file slice and replicate archive to deepen the route from household
-condition to practical alternatives, work movement, care constraint, and
-protected or sacrificed household room. Preserve the distinction between the
-monthly utility/tenure/work surfaces and the annual child-care fields; they are
-compatible layers, not one dated bill-to-care episode.
+The material/time/care rotation has completed its storage-conscious local gate:
+the existing SIPP slice supports utility/tenure/work and utility/care/food/
+housing screens, but its credit and savings fields produce no valid adjacent-
+month state changes. The authenticated PSID route or a dated bill, shutoff,
+assistance, or service episode remains the stronger test; do not manufacture a
+buffer or recovery arrow from repeated status fields.
 
-The immediate question is whether the current evidence can identify a stronger
-bounded transition—ideally a dated bill, shutoff, assistance, or service
-episode followed by work, care, food, housing, health, or recovery. If the
-existing local files cannot supply that event, record the acquisition gap and
-advance the strongest descriptive bridge without manufacturing timing or
-causality. The authenticated PSID route remains the stronger next test, but it
-is not a reason to download large new archives or pause the broader atlas.
+The next active rotation is **practical exit across consumer and public
+systems**. Use the existing CFPB, SHED fraud/recovery, CPSC, platform-remedy,
+SNAP, housing/insurance, and local-capacity artifacts to distinguish recorded
+visibility, attempted use, remedy, continued dependence, switching, non-use,
+staying, moving, and exit. The immediate question is which of these outcomes
+are actually observed for the same case or person and which are only inferred
+from institutional or place capacity.
+
+No large acquisition is required for this rotation. If the local records cannot
+provide a same-case follow-up, publish that gap and specify the smallest lawful
+episode or account-linked test needed to observe remedy receipt, alternatives,
+and later exit or staying.
 
 The latest local SIPP buffer gate found zero adjacent-month credit or savings
 state changes. Treat that as a field-timing boundary, not as evidence that

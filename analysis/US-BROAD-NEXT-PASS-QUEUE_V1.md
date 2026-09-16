@@ -117,9 +117,16 @@ shutoff, assistance, or service episode—or the authenticated PSID route—rath
 than treating repeated account-status fields as borrowing, repayment, or
 recovery.
 
-The next active pass is **material/time/care linkage**, documented in the
+The material/time/care pass has completed its local SIPP field-timing gate and
+is preserved as an open acquisition route in the
 [acquisition plan](projects/us-household-calendar-integration/material-time-care-linkage-acquisition-plan-v1.md)
-and now operationalized by the [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md).
+and [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md).
+The next active rotation is **practical exit across consumer and public
+systems**, using the existing [practical-exit synthesis](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md)
+and adjacent CFPB, SHED, CPSC, platform-remedy, SNAP, housing, and place
+records. The test is whether visibility, effort, remedy, dependence, staying,
+switching, non-use, moving, or exit is actually observed at the same-case or
+same-person level; no large acquisition is required before that audit.
 
 ### ILOSTAT comparison gate
 
