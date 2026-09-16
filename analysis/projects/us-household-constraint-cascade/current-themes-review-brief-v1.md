@@ -71,6 +71,34 @@ define the next decisive test: a same-case or compatible panel must preserve
 the trigger, obligation, alternatives, institutional action, verified remedy,
 and later household and meaning/action outcomes.
 
+## Theme 5: burden can route into targeted action, not one political reaction
+
+The existing CES medical-affordability module provides the strongest local
+same-respondent action benchmark. In 2018, respondents reporting trouble
+affording medical expenses had lower validated turnout (41.7% versus 57.2%)
+but slightly higher official contact (23.3% versus 21.4%). In 2020, turnout
+was nearly equal (61.2% versus 62.3%), while official contact (28.3% versus
+17.9%) and protest (9.1% versus 5.4%) were higher among hardship respondents.
+The exploratory adjusted contact odds ratio was above one in both years, but
+the module extracts do not provide final survey-design uncertainty for that
+extension.
+
+ANES supplies a complementary trust and policy-judgment layer: the combined
+“some of the time” or “never” federal-trust share rose from 53.3% among
+respondents not at all concerned about paying health-care expenses to 63.1%
+among those extremely concerned; support for increased government help also
+rose modestly but non-monotonically. These are concern-to-judgment and
+hardship-to-action benchmarks, not evidence that a dated bill or remedy caused
+political behavior.
+
+The useful theme is targeted translation: material pressure may produce
+contact, protest, policy demand, reduced turnout, or no measured action
+depending on prior identity, attribution, opportunity, and the institutional
+route. The [health-cost legitimacy bridge](../us-health-cost-household-choice/health-cost-institutional-legitimacy-bridge-v1.md)
+and [medical-affordability participation audit](../us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md)
+define the exact remaining join: episode, remedy, prior trust/identity, later
+action, and response.
+
 ## Review questions
 
 For every proposed headline, ask:
