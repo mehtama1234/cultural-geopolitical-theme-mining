@@ -86,6 +86,7 @@ bill through alternatives, remedy, recovery, and later legitimacy.
 - [Capability, dependency, and local power](analysis/projects/ai-work-control/domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md)
 - [Data-center capacity, revenue, and governance](analysis/projects/ai-work-control/large-load-rate-risk-control-layer-v1.md)
 - [Strategic capability realization across defense and digital infrastructure](analysis/projects/ai-work-control/strategic-capability-realization-cross-case-bridge-v1.md)
+- [Virginia data centers, cost allocation, and public legitimacy](analysis/projects/ai-work-control/virginia-data-center-cost-allocation-legitimacy-v1.md)
 
 ### Geopolitical and state consequences
 
