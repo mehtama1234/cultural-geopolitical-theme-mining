@@ -114,15 +114,16 @@ one-, three-, or six-month recovery window.
 
 ```text
 python3 scripts/analyze_sipp_utility_work_tenure.py \
-  --primary /tmp/us-broad-sipp-2025/full-v16/sipp-household-slice.csv \
-  --replicate-zip /tmp/us-broad-sipp-2025/rw2025_csv.zip \
-  --output /tmp/us-broad-sipp-2025/full-v16/utility-work-tenure.json
+  --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv \
+  --replicate-zip /tmp/rw2025_csv.zip \
+  --output /tmp/sipp-utility-work-tenure-v18.json
 ```
 
 The [machine-readable record](../../records/us-sipp-utility-work-tenure-following-2024.json)
 preserves the full-file and replicate-archive hashes. The [parent utility/work
 reproduction audit](sipp-utility-work-following-reproduction-audit-2026-09-14.json)
-preserves the unconditioned comparison.
+preserves the unconditioned comparison. The [tenure-layer reproduction audit](sipp-utility-work-tenure-reproduction-audit-2026-09-16.json)
+records the current v18 rerun and matching conditional cells.
 
 **Evidence status:** estimated same-person monthly conditional transition with
 design-based uncertainty. No causal utility, tenure, household-security,

@@ -1,0 +1,32 @@
+{
+  "format": "sipp-utility-work-tenure-reproduction-audit-v1",
+  "checked": "2026-09-16",
+  "status": "reproduced from existing local artifacts; no new download",
+  "command": "python3 scripts/analyze_sipp_utility_work_tenure.py --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv --replicate-zip /tmp/rw2025_csv.zip --output /tmp/sipp-utility-work-tenure-v18.json",
+  "input_files": {
+    "primary": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "primary_sha256": "4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda",
+    "replicate_archive": "/tmp/rw2025_csv.zip",
+    "replicate_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+    "script_sha256": "f53928b869c0b9372d5d99d86cf3ba05db575fd714868eed50c3b1f47c5a541f"
+  },
+  "output_sha256": "11804b0b43398fb24077ca5a73c7dce0cc4e96ce1d04ea0068a0e7d7608488e3",
+  "rows_read": 379215,
+  "identified_persons": 31271,
+  "replicate_rows_read": 378291,
+  "matched_pair_rows": 153979,
+  "reproduced_record": "../../records/us-sipp-utility-work-tenure-following-2024.json",
+  "comparison": {
+    "difficulty_owned_earnings_changed_percent": 80.484780,
+    "difficulty_rented_earnings_changed_percent": 82.460907,
+    "difficulty_owned_hours_changed_percent": 7.609990,
+    "difficulty_rented_hours_changed_percent": 7.582996,
+    "no_difficulty_owned_earnings_changed_percent": 84.371645,
+    "no_difficulty_rented_earnings_changed_percent": 83.472924,
+    "no_difficulty_owned_hours_changed_percent": 4.926688,
+    "no_difficulty_rented_hours_changed_percent": 5.960166
+  },
+  "method": "Same-person adjacent-month screen using WPFINWGT and 240 Census replicate weights with Fay BRR, perturbation factor 0.5; utility condition and tenure are measured at month t and earnings/hours movement at month t+1.",
+  "result": "The v18 rerun reproduces the promoted point estimates and uncertainty profiles in us-sipp-utility-work-tenure-following-2024.json.",
+  "boundary": "This is a reproduction audit, not a causal estimate. The screen does not establish a dated utility shock, tenure effect, job loss, desired-hours mismatch, household prevalence, care substitution, recovery, trust, or political action. Primary and replicate files remain outside Git."
+}
