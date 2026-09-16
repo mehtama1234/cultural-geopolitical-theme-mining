@@ -31,6 +31,7 @@ verified worker outcome.
 | Uganda platform workers | Uganda; ILO–Makerere cross-sectional worker survey | Ratings, allocation, refusal penalties, monitoring, and deactivation | Workers reported appeals and favorable resolutions; complaints and positive outcomes were also reported | Administrative or platform records identifying what was corrected or paid |
 | Malaysia Act 872 | Malaysia; enacted statute and implementing regulations | Automated monitoring/decision systems and deactivation are legally recognized | Disclosure, non-automated review, written explanation, hearing, conciliation, and Tribunal architecture in force | First public complaint, review, Tribunal, enforcement, or worker outcome |
 | Kenya Ziada | Kenya; ILO institutional case study | Client ratings and service-quality assessments | Staff mediation and contextual discussion before discipline | Whether ratings are corrected or future penalties prevented |
+| UK ICO recruitment review | United Kingdom; regulator review of ordinary recruitment AI | CV scoring, ranking, filtering, and possible pre-human rejection | Regulator recommendations, contestability expectations, and organizational commitments | Candidate-level human review, changed decision, or compensation |
 | EU Platform Work Directive | European Union; directive and national preparation records | Algorithmic management and high-impact platform decisions are formally recognized | Minimum architecture for transparency, human oversight, review, correction/compensation, and anti-retaliation | Nationally exercised remedy after transposition |
 | Netherlands Deliveroo / Finland Wolt | Netherlands and Finland; court/administrative status cases | Platform direction, monitoring, control, and contractual dependence | Employment/status and tax consequences | Automated-decision explanation, review, correction, or compensation |
 
@@ -111,6 +112,13 @@ discuss low ratings with workers and clients rather than allowing the score to
 automatically determine discipline. This makes “human review” more concrete,
 but still leaves authority, timing, score correction, and protection from future
 penalty unverified.
+
+The UK ICO recruitment review adds a regulator-level ordinary-employment
+comparator. It distinguishes a meaningful human review—after the automated
+decision, connected to the actual outcome, and performed by someone able to
+change it—from a token human presence. The regulator's recommendations and
+organizational commitments are observable; a candidate-level changed decision
+is not.
 
 ## Contradictions preserved
 

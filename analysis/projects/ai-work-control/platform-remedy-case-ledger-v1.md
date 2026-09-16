@@ -27,6 +27,7 @@ occurred.
 | PR-005 | Dutch Deliveroo couriers | Civil court record | Algorithmic allocation and platform control considered in employment-status analysis | Collective status litigation | `not_observed` as a decision-specific explanation | `not_observed` | `not_observed` | `not_observed` | `not_observed` | High for status outcome; low for algorithmic-remedy outcome | Employment relationship recognized; no Directive-style automated-decision remedy shown |
 | PR-006 | Finnish Wolt couriers | Administrative court and tax-administration record | Platform data used to direct, supervise, monitor, and control work | Status and tax treatment challenge | `not_observed` as a decision-specific explanation | `not_observed` | `not_observed` | `observed` as wage-treatment consequence, not compensation for an automated decision | `not_observed` | High for status/tax consequence; low for automated-remedy outcome | Employment relationship and wage treatment recognized; working-time and automated-remedy dimensions remain separate |
 | PR-007 | Kenya Ziada platform workers | ILO institutional case study | Client ratings and service-quality assessments in domestic, beauty, and personal services | Staff mediation and discussion after a low rating | `observed_practice` | `observed_practice` | `not_observed` | `not_observed` | `not_observed` | Medium; official case study, not a case file | Human mediation is reported; score correction, restoration, payment, and consistency remain open |
+| PR-008 | UK jobseekers in automated recruitment | ICO regulator review and guidance | CV scoring, ranking, filtering, and possible pre-human rejection | Notice, contest, and request for meaningful human review | `observed_rule_or_expectation` | `observed_rule_or_expectation` | `not_observed` | `not_observed` | `not_observed` | High for regulator action; low for individual remedy | More than 30 employers reviewed; 16 organizations committed to recommendations; no candidate-level correction shown |
 
 ## Cross-row findings
 
@@ -85,6 +86,7 @@ For each new case, add:
 - [Malaysia Gig Workers Act algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
 - [Platform-work court comparator](platform-work-court-comparator-v1.md)
 - [Kenya Ziada human-review platform record](kenya-ziada-human-review-record-v1.md)
+- [UK ICO automated-recruitment remedy record](uk-ico-automated-recruitment-remedy-record-v1.md)
 
 ## Boundary
 

@@ -15,10 +15,10 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 | Dimension | Present | Still missing |
 |---|---|---|
 | Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank, EU legal materials, national courts and administrations | More worker-led, union, legal, and non-Western sources; direct remedy records |
-| Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond Malaysia, India, and Indonesia, wider Africa outside Kenya/Uganda case studies |
+| Geography | United States, United Kingdom, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Uganda, Malaysia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond Malaysia, India, and Indonesia, wider Africa outside Kenya/Uganda case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
-| Institutions | firm rules, employer governance, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian review or Tribunal outcomes |
+| Institutions | firm rules, employer governance, UK regulator review, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes, Uganda worker-reported appeals and complaints, Malaysia Act 872 and implementing regulations | actual enforcement, bargaining, public-sector rules, verified automated-decision remedies, exercised Malaysian review or Tribunal outcomes, candidate-level recruitment correction |
 | Power | data, profiles, allocation, monitoring, responsibility, platform dependence, employment-status recognition | ownership, correction, override, exit, bargaining, and state leverage; no direct case yet shows explanation-to-correction or compensation after an automated platform decision |
 
 ## Evidence count
@@ -108,6 +108,9 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - The [platform-work remedy case ledger](platform-remedy-case-ledger-v1.md)
   now provides a row-level schema for explanation, review, correction,
   restoration, payment, and anti-retaliation outcomes.
+- The UK ICO automated-recruitment review adds an ordinary-employment
+  regulator comparator: disclosure, contestability, and meaningful human review
+  are specified, while candidate-level correction remains unobserved.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an
