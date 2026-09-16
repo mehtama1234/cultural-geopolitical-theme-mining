@@ -68,10 +68,14 @@ that an institution repaired anything.
 - [MEPS event six-month follow-up](meps-event-six-month-followup-v1.md)
 - [Same-case closure protocol](same-case-closure-protocol-v1.md)
 
+The machine-readable output records SHA-256 hashes and paths for the HC-256,
+BRR, and three event inputs, so the local source vintage is auditable without
+committing raw files.
+
 Primary HC-256 hash: `b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5`
 BRR hash: `44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e`
-Script hash: `c2b2b28b94ca32504f1925da76d9a78f74388363035111c5b9932e36cd04c8f7`
-Output hash: `0d13edb138759f68e0dbb958162c1d25b23a04476e20d1df53b8d621ca763401`
+Script hash: `1560b36d8cd7dbacd4a588e79c9ca652c6c3c4a1f32dc1c2a4ddc7f420472ba4`
+Output hash: `c60aa8a1443cd0bba9afeb3f65a2fb1147a333b241512c3bb5498704cb29b9fc`
 
 **Evidence status:** reproduced later-panel friction association; not a
 same-case response, remedy, recovery, trust, political-action, switching, or

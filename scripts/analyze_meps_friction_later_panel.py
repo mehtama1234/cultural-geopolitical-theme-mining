@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
@@ -19,6 +20,14 @@ EVENTS = {
     "inpatient": ("IPBEGYR", "IPBEGMM"),
 }
 GROUPS = {"denial_or_delay": 1, "no_denial_or_delay": 2}
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for block in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(block)
+    return digest.hexdigest()
 
 
 def key(frame: pd.DataFrame) -> pd.Series:
@@ -92,6 +101,18 @@ def main() -> int:
         "method": "Select first event strictly after R3/1 and before R4/2, retain EQDENY53=1 or 2, and compare R4/2 to R5/3 health/work levels and baseline-conditioned transitions. Standard BRR uses 128 replicate flags.",
         "person_records_positive_weight": int(len(person)),
         "round_order_valid_records": int(round_valid.sum()),
+        "inputs": {
+            "hc256": {"path": str(args.hc256_file), "sha256": sha256(args.hc256_file)},
+            "brr": {"path": str(args.brr_file), "sha256": sha256(args.brr_file)},
+            "events": {
+                name: {"path": str(path), "sha256": sha256(path)}
+                for name, path in {
+                    "office": args.office_file,
+                    "emergency_room": args.emergency_room_file,
+                    "inpatient": args.inpatient_file,
+                }.items()
+            },
+        },
         "events": {},
         "limitation": "EQDENY53 is a round-level report without claim ID, denial date, appeal, remedy, or treatment continuity. The event may follow the initiating need; friction groups are descriptive and the no-denial group is not a counterfactual. Later health/work transitions are not verified recovery.",
     }
