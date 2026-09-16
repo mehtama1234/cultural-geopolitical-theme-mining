@@ -1,7 +1,7 @@
 # Coverage report v1: AI, work, and control
 
-**Checked:** 2026-09-11  
-**Status:** open; not exhausted  
+**Checked:** 2026-09-15
+**Status:** open; not exhausted
 **Physical execution:** false
 
 ## What this report does
@@ -14,12 +14,12 @@ The machine-readable version is [`manifests/ai-work-control-coverage-v1.json`](.
 
 | Dimension | Present | Still missing |
 |---|---|---|
-| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank | More worker-led, union, legal, and non-Western sources |
+| Source families | HBS, NBER, OECD, European Commission/JRC, ILO, SAG-AFTRA, Microsoft, Capgemini, Whoz, IMF, BIS, BEA, IEA, OFR, World Bank, EU legal materials, national courts and administrations | More worker-led, union, legal, and non-Western sources; direct remedy records |
 | Geography | United States, Denmark, EU, France, Germany, Italy, Japan, Spain, India, South Africa, China, Indonesia, Latin America and the Caribbean, plus ILO cases across five world regions | Middle East, Southeast Asia beyond India and Indonesia, wider Africa outside case studies |
 | Material outcomes | productivity, time use, earnings, hours, mobility, training, restructuring | promotion, discipline, pay paths, health costs, household effects, long-run margins |
 | Social outcomes | trust, autonomy, stress, status, learning, entry barriers, disability inclusion, gendered access, safety | worker voice by age, migration, class, and contract type |
-| Institutions | firm rules, employer governance, EU platform-work rules, HR and delivery systems | actual enforcement, bargaining, appeals, public-sector rules, courts |
-| Power | data, profiles, allocation, monitoring, responsibility, platform dependence | ownership, correction, override, exit, bargaining, and state leverage |
+| Institutions | firm rules, employer governance, EU platform-work rules, HR and delivery systems, national implementation preparation and consultation, Dutch and Finnish court/administrative outcomes | enacted national measures, actual enforcement, bargaining, appeals, public-sector rules, exercised automated-decision remedies |
+| Power | data, profiles, allocation, monitoring, responsibility, platform dependence, employment-status recognition | ownership, correction, override, exit, bargaining, and state leverage; no direct case yet shows explanation-to-correction or compensation after an automated platform decision |
 
 ## Evidence count
 
@@ -70,8 +70,8 @@ These are not errors to smooth away. They may reflect different tools, populatio
 
 ## Required next tests
 
-1. Read the full JRC AIM-WORK tables and methodology.
-2. Add direct evidence on correction, appeal, promotion, and discipline.
+1. Acquire and code an official post-directive or transposition-period case involving a specific automated decision: account restriction, ranking, task allocation, payment refusal, or deactivation.
+2. Add direct evidence on explanation, human review, correction, compensation, anti-retaliation, promotion, and discipline; keep status-recognition outcomes separate from automated-decision remedies.
 3. Add worker evidence outside Europe and the United States.
 4. Compare small firms, contractors, unions, and public employers.
 5. Verify at least one company claim with an independent outcome source.
@@ -79,6 +79,24 @@ These are not errors to smooth away. They may reflect different tools, populatio
 7. Test whether infrastructure and outside options change the returns to AI exposure.
 8. Obtain the underlying agreements and legal records behind the ILO cases, then compare participation with actual system changes.
 9. Read the macro and infrastructure source packet, then test whether complementary capacity explains differences better than AI access alone.
+
+## Progress since the previous checkpoint
+
+- The JRC AIM-WORK report's full Table 2 and methodology have been acquired,
+  extracted, and recorded with their model and weighting boundaries.
+- The formal EU Platform Work Directive algorithmic-management safeguards are
+  now mapped to a 27-country implementation ledger.
+- Germany, the Netherlands, France, and Finland have bounded national records:
+  preparation, consultation, coordination, and court/administrative consequence
+  are coded as different stages rather than collapsed into implementation.
+- Dutch Deliveroo and Finnish Wolt now provide court comparators for the
+  status/control pathway. They do not yet provide evidence that a worker used
+  the Directive-style explanation, review, correction, compensation, or
+  anti-retaliation pathway.
+
+The next acquisition therefore targets the missing middle directly: an
+official record in which a concrete automated decision is connected to an
+individual request, institutional review, and an observed remedy or refusal.
 
 ## Exhaustion rule
 
