@@ -34,7 +34,8 @@ Read the [multi-clock material/time/care synthesis](analysis/projects/us-househo
 then the [child-care work-prevention finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-042.md),
 the [reported time-loss finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md),
 its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json),
-and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json).
+and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json),
+and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md).
 
 **Theme:** households do not experience resources only as dollars. Work,
 care, household labor, leisure, and perceived time pressure are competing
@@ -43,6 +44,12 @@ currencies.
 **What is established:** SIPP supplies same-person adjacent-month screens;
 the direct time-loss amount is observed only among reference parents who
 already report child-care-related work prevention and valid time-loss status.
+
+**Additional evidence:** among recontacted SHED respondents, care-foregoing
+entry and persistence coincide with more reported debt, reduced savings,
+borrowing, delayed purchases, and outside help in 2025; reported exit still
+coexists with residual financial strain. This is a same-respondent annual
+transition, not a dated bill episode or proof of recovery.
 
 **Open arrow:** a dated bill, provider constraint, employer rule, or care need
 must be linked to alternatives, schedule control, protected/sacrificed time,
