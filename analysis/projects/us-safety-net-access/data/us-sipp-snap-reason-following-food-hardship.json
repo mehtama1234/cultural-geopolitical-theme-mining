@@ -17,6 +17,92 @@
     "no -> yes": 217,
     "yes -> no": 188
   },
+  "classified_transition_summary": {
+    "no -> yes": {
+      "EAWBMORT": {
+        "records": 217,
+        "weight": 2221868.7684155,
+        "share_percent": 14.847669653260454,
+        "standard_error_percentage_points": 3.305421814068773,
+        "approx_95_percent_ci": [
+          8.36904289768566,
+          21.326296408835248
+        ]
+      },
+      "EAWBGAS": {
+        "records": 217,
+        "weight": 2221868.7684155,
+        "share_percent": 22.366210521658875,
+        "standard_error_percentage_points": 3.655253410913854,
+        "approx_95_percent_ci": [
+          15.201913836267721,
+          29.53050720705003
+        ]
+      },
+      "RFOODS": {
+        "records": 188,
+        "weight": 1824538.5607446,
+        "share_percent": 26.117575105873808,
+        "standard_error_percentage_points": 3.8163250239555504,
+        "approx_95_percent_ci": [
+          18.63757805892093,
+          33.597572152826686
+        ]
+      },
+      "BOTH_HARDSHIPS": {
+        "records": 217,
+        "weight": 2221868.7684155,
+        "share_percent": 10.59127869000647,
+        "standard_error_percentage_points": 2.598231540754653,
+        "approx_95_percent_ci": [
+          5.498744870127351,
+          15.683812509885591
+        ]
+      }
+    },
+    "yes -> no": {
+      "EAWBMORT": {
+        "records": 188,
+        "weight": 2046689.0831488003,
+        "share_percent": 12.940281893087366,
+        "standard_error_percentage_points": 3.245690981156458,
+        "approx_95_percent_ci": [
+          6.578727570020709,
+          19.301836216154022
+        ]
+      },
+      "EAWBGAS": {
+        "records": 188,
+        "weight": 2046689.0831488003,
+        "share_percent": 17.716759817589615,
+        "standard_error_percentage_points": 3.0886461327624346,
+        "approx_95_percent_ci": [
+          11.663013397375243,
+          23.770506237803986
+        ]
+      },
+      "RFOODS": {
+        "records": 160,
+        "weight": 1752135.7825987004,
+        "share_percent": 18.86634071486288,
+        "standard_error_percentage_points": 3.5094046259291014,
+        "approx_95_percent_ci": [
+          11.98790764804184,
+          25.744773781683918
+        ]
+      },
+      "BOTH_HARDSHIPS": {
+        "records": 188,
+        "weight": 2046689.0831488003,
+        "share_percent": 9.970223983926155,
+        "standard_error_percentage_points": 2.3665200593242326,
+        "approx_95_percent_ci": [
+          5.3318446676506595,
+          14.60860330020165
+        ]
+      }
+    }
+  },
   "results": {
     "no -> yes": {
       "1": {

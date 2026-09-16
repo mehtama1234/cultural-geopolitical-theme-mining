@@ -30,6 +30,13 @@ records are smaller still. The table is therefore most useful for preserving
 distinct routes and identifying the largest interpretable cells, not for
 ranking program performance.
 
+Pooling only the classified reason categories gives 26.12% low/very-low food
+security after entry (188 valid records; SE 3.82) and 18.87% after exit (160
+valid records; SE 3.51). This is not evidence that exit improved food
+security: the entry and exit groups have different composition, reason mixes,
+missingness, and unclassified-transition shares, and the food-security field
+does not measure change from the pre-transition month.
+
 ## What this adds to the end-to-end chain
 
 ```text
@@ -66,8 +73,8 @@ outcome.
 
 The [machine-readable output](../data/us-sipp-snap-reason-following-food-hardship.json)
 preserves the 379,215 primary rows, 378,291 replicate rows, 405 matched
-classified transition pairs, valid denominators, and 240-replicate Fay-BRR
-intervals. The [analysis script](../../../../scripts/analyze_sipp_snap_reason_outcome_fay_brr.py)
+classified transition pairs, classified-reason aggregate summaries, valid
+denominators, and 240-replicate Fay-BRR intervals. The [analysis script](../../../../scripts/analyze_sipp_snap_reason_outcome_fay_brr.py)
 also retains the prior rent/mortgage, utility, and compound-hardship outcomes;
 this pass adds `RFOODS` with `RFOODS=2/3` as the positive food-security outcome.
 

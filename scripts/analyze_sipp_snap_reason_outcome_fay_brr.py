@@ -193,8 +193,10 @@ def main() -> None:
                         rep_num[(bucket, outcome)] += weights
 
     results = {}
+    classified_summary = {}
     for transition_name, labels in labels_by_transition.items():
         results[transition_name] = {}
+        classified_summary[transition_name] = {}
         for code, reason_label in labels.items():
             results[transition_name][code] = {"reason": reason_label}
             for outcome in outcome_names:
@@ -203,6 +205,15 @@ def main() -> None:
                     full_num[(bucket, outcome)], full_den[(bucket, outcome)],
                     rep_num[(bucket, outcome)], rep_den[(bucket, outcome)],
                     records[(bucket, outcome)])
+        for outcome in outcome_names:
+            buckets_for_transition = [(transition_name, code) for code in labels]
+            classified_summary[transition_name][outcome] = summarize(
+                sum(full_num[(bucket, outcome)] for bucket in buckets_for_transition),
+                sum(full_den[(bucket, outcome)] for bucket in buckets_for_transition),
+                sum((rep_num[(bucket, outcome)] for bucket in buckets_for_transition), np.zeros(REPLICATES)),
+                sum((rep_den[(bucket, outcome)] for bucket in buckets_for_transition), np.zeros(REPLICATES)),
+                sum(records[(bucket, outcome)] for bucket in buckets_for_transition),
+            )
 
     result = {
         "format": "us-sipp-snap-reason-outcome-fay-brr-v1",
@@ -217,6 +228,7 @@ def main() -> None:
         "classified_transition_pairs_matched": matched,
         "all_transition_pairs": dict(all_transitions),
         "classified_transition_pairs": dict(classified_transitions),
+        "classified_transition_summary": classified_summary,
         "results": results,
         "causal_estimation": False,
         "boundary": "Reason categories and following-month hardship/food-security measures are observed in an adjacent-month record but do not establish notice, effort, benefit amount, remedy, or program impact. RFOODS=2/3 is treated as low or very low food security; it is not a measure of hunger caused by the transition.",
