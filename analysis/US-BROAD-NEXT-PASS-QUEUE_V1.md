@@ -1771,6 +1771,18 @@ to job-count change at *t+1*, and job count at *t* to resource-band change at
 *t+1*. The next material/work gate is monthly earnings, hours, SNAP status,
 care/time loss, and a following hardship or recovery outcome.
 
+The new [work-limitation cross-lag finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-039.md)
+conditions that transition surface on reported work limitation, and the
+[tenure-conditioned extension](projects/us-household-calendar-integration/findings/us-household-calendar-integration-040.md)
+adds first-month housing tenure using the corrected official `ATENURE`
+universe flag. Together they show that job movement and resource movement are
+different clocks, and that tenure differences are more visible in the reverse
+resource-transition direction among work-limited people with one or two jobs.
+They still do not provide a dated bill, care decision, work accommodation, or
+protected/sacrificed outcome. The next gate remains monthly hours, earnings,
+care/time loss, and a following hardship or recovery outcome in a same-unit
+design.
+
 The [intersectional material-room finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-022.md)
 now promotes the race × tenure × monthly-resource comparison into a detailed
 reader-facing memo. A current-vintage SIPP rerun reproduces the prior
