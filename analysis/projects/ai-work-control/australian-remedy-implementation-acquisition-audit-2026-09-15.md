@@ -3,7 +3,7 @@
 **Checked:** 2026-09-15
 **Scope:** public follow-on evidence after reactivation or lost-remuneration
 orders in the bounded Australian platform-deactivation census
-**Result:** one additional public amount confirmed and one continued-access
+**Result:** three public lost-pay amounts/orders and one continued-access
 follow-up confirmed; no public receipt, recurrence-prevention, or
 anti-retaliation evidence located
 
@@ -39,7 +39,7 @@ the parties and not proof that an unlocated document does not exist.
 | Matter | Public follow-on result | Implementation status | Remaining gap |
 |---|---|---|---|
 | Hotak, `UDE2025/53` | Uber voluntarily reactivated access on 19 May 2025; the Full Bench recorded more than 150 trips afterward and later ordered formal reactivation | Continued access/work activity observed after voluntary reactivation; amount/receipt not observed | Lost-pay quantum/order follow-up, payment, later access, profile correction, recurrence |
-| Al Hussein, `UDE2025/134` | Primary merits record reports reactivation; no later public payment record located in the search frame | Formal reactivation observed; payment open | Quantum, receipt, access, process change |
+| Al Hussein, `UDE2025/134` | PR792947 orders reactivation on prior terms by 31 October 2025; the located order does not quantify lost pay | Formal reactivation order observed; payment quantum/receipt open | Quantum order, payment, access, process change |
 | Warraich, `UDE2025/108` | The Commission ordered reactivation and directed the parties to confer on lost remuneration; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, recurrence |
 | Khan, `UDE2025/185` | The Commission ordered reactivation and directed the parties to confer on lost-pay quantum; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, process change |
 | Rehman, `UDE2025/384` | The Commission ordered reactivation and `$7,096.96` gross lost remuneration | Formal reactivation and amount observed; receipt/durability open | Payment, continued access, background-check correction, recurrence |
@@ -68,6 +68,12 @@ search: 9.5 weeks at `$747.05` average weekly earnings, producing an order for
 `$7,096.96` gross. The summary also distinguishes voluntary reactivation from
 formal restoration to the pre-deactivation position.
 
+The exact-order search also located Mansoor's PR792727 order, requiring
+`$6,073.23` gross less tax within 14 days, and Al Hussein's PR792947 order,
+requiring reinstatement on prior terms by 31 October 2025. The Al Hussein order
+does not quantify the later lost-pay amount in the located document. Neither
+order establishes receipt or durable access.
+
 ## Coding consequence
 
 The Australian census should retain the following distinction:
@@ -80,7 +86,7 @@ no public follow-on record != proof of non-payment or non-restoration
 ```
 
 This audit changes the machine-readable records for Hotak's continued access
-and Rehman's public amount. It does not downgrade the other cases to
+and the ordered amounts for Mansoor and Rehman. It does not downgrade the other cases to
 “no remedy”; it marks the implementation fields as open.
 
 ## Decisive next acquisition

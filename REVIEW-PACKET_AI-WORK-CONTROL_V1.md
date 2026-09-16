@@ -129,6 +129,11 @@ adds the first public Australian evidence of continued work after restoration:
 the Commission recorded more than 150 trips after voluntary reactivation. It
 still does not establish lost-pay receipt or durable protection.
 
+The [Australian lost-pay order follow-ups](analysis/projects/ai-work-control/australian-lost-pay-order-followups-v1.md)
+then adds primary order artifacts for Mansoor and Al Hussein. Mansoor has a
+$6,073.23 order and payment deadline; Al Hussein has a reinstatement deadline
+but an unresolved pay calculation. Neither order is a receipt.
+
 ## Themes to test while reviewing
 
 1. **Legibility before benefit.** Who gains the ability to see and classify

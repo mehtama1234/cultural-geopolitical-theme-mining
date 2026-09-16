@@ -211,6 +211,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/uber-khan-reactivation-lost-pay-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md",
+        ROOT / "analysis/projects/ai-work-control/australian-lost-pay-order-followups-v1.md",
         ROOT / "analysis/projects/ai-work-control/ibm-germany-works-council-ai-framework-governance-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md",
