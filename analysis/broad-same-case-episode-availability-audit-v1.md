@@ -29,6 +29,7 @@ separate.
 |---|---|---|
 | CFPB student-loan event ledger (25 rows) | Public route, complaint/event handling | Recipient alternatives, verified remedy, recovery, trust/action, exit |
 | Platform remedy dry-run (27 episodes) | Adjudication, reactivation, some lost-remuneration orders | Alternatives, remedy receipt/durability, post-event status, practical exit |
+| Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
@@ -41,7 +42,7 @@ different kinds of person-level timing or persistence. Those are useful
 complements, but they cannot be joined into one consumer or household story.
 
 The safe broad-program conclusion is therefore a measurement result: the atlas
-has substantial exposure, adaptation, route, and selected follow-up evidence,
+has substantial exposure, adaptation, route, formal remedy, and selected follow-up evidence,
 but not a closed same-case event chain. This explains why the program should
 prioritize an episode key and stage-specific missingness over additional
 cross-sectional pressure measures.

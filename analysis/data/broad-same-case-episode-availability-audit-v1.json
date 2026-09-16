@@ -50,6 +50,23 @@
       "boundary": "Some reactivation and lost-remuneration orders are visible, but the dry-run assigns 19 of 27 post-event statuses as unknown and assigns no practical-exit label."
     },
     {
+      "source": "analysis/projects/ai-work-control/data/uber-warraich-remedy-followup-recheck-v1.json",
+      "unit": "single_adjudicated_platform_remedy_case",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_adjudicated",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_lost_pay_direction",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_adjudicated",
+        "verified_remedy": "partial_reactivation_order",
+        "meaning_trust_or_action": "partial_statutory_challenge",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The public recheck verifies a formal reactivation order and a direction to confer about lost remuneration, but no public implementation, payment receipt, continued work, alternative work, household outcome, switching, or exit record."
+    },
+    {
       "source": "analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json",
       "unit": "recontacted_adult_respondents",
       "records": 4419,
@@ -101,7 +118,7 @@
       "boundary": "MEPS supplies identified event and later status fields, but not a complete same-episode actor, alternative, remedy, trust/action, or practical-exit record."
     }
   ],
-  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger for response/remedy and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger and Warraich follow-up for formal response/remedy, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
-  "storage_boundary": "Uses five committed local records; no raw-data acquisition or new estimate."
+  "storage_boundary": "Uses six committed local records; no raw-data acquisition or new estimate."
 }
