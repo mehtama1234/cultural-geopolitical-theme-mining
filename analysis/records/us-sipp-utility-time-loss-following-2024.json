@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-utility-time-loss-following-2024",
+  "title": "Utility difficulty and tenure sit beside a sparse child-care time-loss endpoint",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "positive-weight SIPP person pair with utility condition and tenure at month t, followed by conditional child-care work-prevention and time-loss fields",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; November-to-December; utility difficulty and owner/buyer",
+      "denominator": {"value": 4, "unit": "eligible person pairs with valid conditional time-loss amount", "value_type": "unweighted_valid_pairs"},
+      "measures": {"mean_reported_work_time_lost": {"value": 1.000000, "unit": "hours; Fay-BRR SE 0.000000; approximate 95% CI 1.000000–1.000000", "value_type": "weighted_mean"}},
+      "method": "Conditional descriptive mean using WPFINWGT and 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Only four eligible pairs contribute; zero replicate dispersion does not imply precision or representativeness. ETIMELOST is conditional on EWORKMORE=1 and a valid time-loss response.",
+      "subgroup": "Reference-parent person pairs with utility-payment difficulty, owner/buyer tenure, reported child-care work prevention, and valid time-loss amount.",
+      "counterinterpretation": "Utility difficulty is not a dated bill or shutoff, and tenure groups differ in composition, schedules, care arrangements, and ability to avoid reported time loss.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:cf4df35247cb7cd0788df68473c0b85c7e6e8f921515d46730af4e09f198ac36; sha256:0d10ec99d6788a015dee749d9f55e885ff32407a4d567f2ae70dc43928f13c3d",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; November-to-December; utility difficulty and renter",
+      "denominator": {"value": 3, "unit": "eligible person pairs with valid conditional time-loss amount", "value_type": "unweighted_valid_pairs"},
+      "measures": {"mean_reported_work_time_lost": {"value": 1.515081, "unit": "hours; Fay-BRR SE 0.314973; approximate 95% CI 0.897733–2.132428", "value_type": "weighted_mean"}},
+      "method": "Conditional descriptive mean using WPFINWGT and 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "Only three eligible pairs contribute. ETIMELOST is conditional on EWORKMORE=1 and a valid time-loss response, and the annual care measure is not a monthly December outcome.",
+      "subgroup": "Reference-parent person pairs with utility-payment difficulty, renter tenure, reported child-care work prevention, and valid time-loss amount.",
+      "counterinterpretation": "The estimate is too sparse for a renter-owner ranking; utility difficulty and tenure do not identify a causal pathway to time loss.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:cf4df35247cb7cd0788df68473c0b85c7e6e8f921515d46730af4e09f198ac36; sha256:0d10ec99d6788a015dee749d9f55e885ff32407a4d567f2ae70dc43928f13c3d",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; November-to-December; no utility difficulty and owner/buyer",
+      "denominator": {"value": 12, "unit": "eligible person pairs with valid conditional time-loss amount", "value_type": "unweighted_valid_pairs"},
+      "measures": {"mean_reported_work_time_lost": {"value": 1.232126, "unit": "hours; Fay-BRR SE 0.118157; approximate 95% CI 1.000536–1.463715", "value_type": "weighted_mean"}},
+      "method": "Conditional descriptive mean using WPFINWGT and 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "The comparison is within a selected EWORKMORE=1 universe; people without reported work prevention do not supply a comparable time-loss response.",
+      "subgroup": "Reference-parent person pairs without reported utility-payment difficulty, owner/buyer tenure, reported child-care work prevention, and valid time-loss amount.",
+      "counterinterpretation": "No-utility-difficulty status is not an absence of all material pressure, and the result does not establish that utility conditions change care or work time.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:cf4df35247cb7cd0788df68473c0b85c7e6e8f921515d46730af4e09f198ac36; sha256:0d10ec99d6788a015dee749d9f55e885ff32407a4d567f2ae70dc43928f13c3d",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; November-to-December; no utility difficulty and renter",
+      "denominator": {"value": 8, "unit": "eligible person pairs with valid conditional time-loss amount", "value_type": "unweighted_valid_pairs"},
+      "measures": {"mean_reported_work_time_lost": {"value": 1.486686, "unit": "hours; Fay-BRR SE 0.185153; approximate 95% CI 1.123785–1.849587", "value_type": "weighted_mean"}},
+      "method": "Conditional descriptive mean using WPFINWGT and 240 replicate weights with Fay BRR, perturbation factor 0.5.",
+      "uncertainty": "The comparison is within a selected EWORKMORE=1 universe; the annual care measure is not a monthly December outcome.",
+      "subgroup": "Reference-parent person pairs without reported utility-payment difficulty, renter tenure, reported child-care work prevention, and valid time-loss amount.",
+      "counterinterpretation": "The estimate describes selected respondents, not renter care burden or a utility effect; reporting scale and work/care arrangements may differ across cells.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; sha256:cf4df35247cb7cd0788df68473c0b85c7e6e8f921515d46730af4e09f198ac36; sha256:0d10ec99d6788a015dee749d9f55e885ff32407a4d567f2ae70dc43928f13c3d",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-household-calendar-integration/sipp-utility-time-loss-following-gate-v1.md", "claim": "Defines the utility/tenure-to-conditional-time-loss design and its 27-pair sparse boundary.", "status": "method"},
+    {"source_url": "../projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md", "claim": "Provides the broader resource-endpoint time-loss comparison and conditional interpretation.", "status": "related-finding"},
+    {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official definitions and universes for utility, tenure, work-prevention, and time-loss fields.", "status": "official-definition"}
+  ],
+  "reproduction_audit": {
+    "checked": "2026-09-16",
+    "script": "scripts/analyze_sipp_utility_time_loss.py",
+    "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv",
+    "replicate_input": "/tmp/rw2025_csv.zip",
+    "rows_read": 379215,
+    "identified_pairs": 27,
+    "replicate_pairs_matched": 27,
+    "result": "The four conditional means reproduce the committed local utility-time-loss output.",
+    "interpretation": "Reproduction confirms a sparse descriptive endpoint, not a causal utility, tenure, care, work, recovery, trust, or political-action estimate. Raw inputs remain outside the repository."
+  },
+  "boundary": "This is a 27-pair conditional timing screen. Utility difficulty is not a dated bill, shutoff, or assistance decision; ETIMELOST is conditional on reported work prevention and a valid fall-reference-year time-loss response. No no-prevention comparison, household prevalence, causal effect, downstream hardship, recovery, remedy, trust, political action, or exit is established."
+}
