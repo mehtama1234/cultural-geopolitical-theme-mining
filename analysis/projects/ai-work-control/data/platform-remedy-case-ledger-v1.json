@@ -36,6 +36,18 @@
       "boundary": "[2026] FWC 409 dismissed the application because the statutory six-month regular-work protection was not met. The decision did not determine whether the underlying access restriction was fair, and later account messages did not establish qualifying work or a services agreement with the separate Uber driver platform."
     },
     {
+      "id": "PR-024",
+      "place": "Australia",
+      "population": "Jai Phillipps-Lewis and Rasier Pacific / Uber Driver Platform",
+      "source_type": "Fair_Work_Commission_primary_eligibility_decision_and_order",
+      "decision_surface": ["platform_access", "regular_work_pattern", "eligibility_threshold", "lost_pay_claim"],
+      "worker_route": "Worker response, statutory unfair-deactivation application, jurisdictional objection and stay",
+      "implementation_stage": "eligibility_objection_dismissed_merits_stayed",
+      "stages": {"explanation": "not_observed", "human_review": "not_observed", "correction_restoration": "observed_access_resumed_not_merits_remedy", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_regular_work_finding_and_stay_low_for_deactivation_merits_lost_pay_and_durability",
+      "boundary": "[2025] FWC 2398 found a recurring weekend work pattern sufficient to reject Uber's six-month regular-work objection despite averages below the Code's illustrative thresholds. The remaining deactivation-status, merits, and lost-pay issues were stayed pending Hotak; no payment or durable restoration is established."
+    },
+    {
       "id": "PR-022",
       "place": "Australia",
       "population": "Musharaf Waheed and Uber Driver Platform",
