@@ -134,6 +134,12 @@ platform position papers, and directed a dedicated complaint route. This is
 official institutional action, not yet a binding platform-work rule or verified
 automated-decision correction.
 
+The same record separates an international labor standard's adoption from its
+domestic force: the Philippines voted for ILO Convention No. 193, but the
+current official status record supports readiness assessment rather than
+ratification. International agenda-setting, national commitment, ratification,
+implementation, and worker remedy remain distinct stages.
+
 ## Four-map synthesis
 
 | Map | Repeated mechanism | Current evidence | Main gap |

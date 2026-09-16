@@ -121,6 +121,11 @@ These are not errors to smooth away. They may reflect different tools, populatio
   comparator: only two of nine assessed platforms evidenced a formal appeal
   process, and none evidenced collective worker representation. This is a
   platform audit, not proof of exercised appeals or individual remedies.
+- The Philippines DOLE record now separates voting for adoption of ILO
+  Convention No. 193 from ratification: official sources show a national
+  dialogue and readiness assessment, while NORMLEX does not list C193 among
+  Philippine ratifications. This prevents international standard-setting from
+  being mistaken for domestic legal effect.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

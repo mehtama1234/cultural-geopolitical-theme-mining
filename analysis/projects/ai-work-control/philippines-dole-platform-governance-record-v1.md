@@ -17,6 +17,30 @@ These are meaningful institutional actions, but they are not the same as an
 enacted platform-work remedy, a completed inspection, or a corrected worker
 decision.
 
+## Convention No. 193 status check
+
+The ratification status must be kept separate from the policy dialogue. DOLE's
+15 June release says the Philippines voted in favor of adopting Convention No.
+193 at the International Labour Conference. The later DOLE Bureau of Working
+Conditions release describes the country as assessing its readiness to ratify
+and implement the Convention. The ILO's Philippines NORMLEX profile, checked
+15 September 2026, lists the country's ratifications but does not list C193.
+
+The defensible coding is therefore:
+
+```text
+ILO Convention No. 193 adopted internationally       observed
+Philippines voted in favor of adoption                observed
+Philippines ratified C193                             not_observed / not listed by NORMLEX
+Philippines assessing readiness and national framework observed_official_action
+```
+
+An earlier DOLE news release used “follows the ratification” language in
+describing the July dialogue. That wording conflicts with the Bureau of
+Working Conditions' readiness assessment and the ILO country profile. This
+record follows the more specific ratification-status sources and does not code
+the Philippines as a ratifying state.
+
 ## Official evidence
 
 | Date | Official action | What it establishes | What remains open |
@@ -64,9 +88,10 @@ case visibility, and verified outcome.
 
 ## Decisive next acquisition
 
-Acquire the platform position papers, the formal ILO Convention No. 193
-implementation or ratification instrument, evidence that the 24/7 complaint
-unit began operating, and any aggregate complaint/resolution report. For the
+Acquire the platform position papers, any Philippine ratification or
+implementation instrument for ILO Convention No. 193, evidence that the 24/7
+complaint unit began operating, and any aggregate complaint/resolution report.
+For the
 August safety episode, acquire the inspection disposition, assistance or
 compensation record, and any documented prevention measure, while retaining it
 as a safety/administrative comparator unless an algorithmic decision is shown.
@@ -74,6 +99,10 @@ as a safety/administrative comparator unless an algorithmic decision is shown.
 ## Sources
 
 - [DOLE: worker protection and rider-safety dialogue, 17 July 2026](https://dole.gov.ph/news/dole-prioritizes-worker-protection-tackles-safety-of-riders-in-dialogue-with-gig-companies/)
+- [DOLE: Philippines votes in favor of adopting Convention No. 193, 15 June 2026](https://dole.gov.ph/news/philippines-welcomes-the-adoption-of-ilo-convention-no-193-on-decent-work-in-the-platform-economy/)
+- [DOLE Bureau of Working Conditions: Convention No. 193 dialogue and readiness assessment, 17 July 2026](https://bwc.dole.gov.ph/dole-bwc-highlights-ilo-convention-no-193-at-bilateral-dialogue-with-platform-companies/)
+- [ILO NORMLEX Philippines ratification profile](https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A11110%3A0%3A%3ANO%3A%3AP11110_COUNTRY_ID%3A102970)
+- [ILO Convention No. 193 text and adoption record](https://www.ilo.org/resource/record-decisions/convention-concerning-decent-work-platform-economy-2026)
 - [DOLE: workplace inspections and platform-worker safety, 11 August 2026](https://dole.gov.ph/news/dole-steps-up-workplace-inspections-on-labor-standards-osh-to-protect-platform-workers/)
 - [DOLE Institute for Labor Studies: gig-governance research](https://ils.dole.gov.ph/2023-research-papers/evolving-a-governance-framework-for-workers-in-the-gig-economy)
 - [DOLE ILS: national meeting of trade unions and platform workers](https://ils.dole.gov.ph/policy-advocacies/media-resources/news/ils-studies-on-gig-and-platform-work-bolster-discussion-by-the-national-meeting-of-philippine-trade-unions-and-platform-workers)
