@@ -1,6 +1,6 @@
 # Health cost to household choice: end-to-end status matrix v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Purpose:** operationalize the project’s long-form end-to-end goal without
 collapsing incompatible sources into one causal estimate
 
