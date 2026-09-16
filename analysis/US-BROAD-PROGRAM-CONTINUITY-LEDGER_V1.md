@@ -306,6 +306,18 @@ switching or abandonment, and later trust or political demand. Participation
 is not satisfaction, trust is not consent, and staying is not free choice
 without a practical alternative.
 
+The twenty-seventh rotation turns that reader route into a cross-source
+proposition through the [consumer participation, trust, and practical power
+synthesis](projects/us-consumer-culture/consumer-participation-trust-power-cross-source-synthesis-v1.md).
+It places confidence, payment redistribution, platform-mediated civic
+attention, charitable-food access, and digital recourse beside one another
+without pooling their estimates. The resulting theme is unequal optionality
+under institutional mediation: participation can carry money, time, privacy,
+attention, safety, stigma, and recovery costs. The next test remains one
+dated customer or household episode with alternatives, non-use/non-reporting,
+attributed cause, institutional authority, verified remedy, recovery, trust,
+and switching or exit.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

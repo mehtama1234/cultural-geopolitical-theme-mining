@@ -86,6 +86,12 @@ acts. Neither infers cultural meaning or political action from population
 change, participation, trust, or service capacity; those require direct
 resident/customer-level measures aligned to place, episode, and time.
 
+The consumer lane now has a bounded cross-source synthesis that tests unequal
+optionality under institutional mediation across confidence, payment systems,
+platform civic attention, charitable-food access, and digital recourse. These
+surfaces establish a research proposition and concrete missing fields; they do
+not form a consumer welfare index or a same-customer causal chain.
+
 The reader layer now has dedicated routes for material/time/care linkage,
 political meaning across scales, AI use/work/contact/exit, public help and
 judgment, housing/insurance/energy pressure, and consumer culture/trust/status.

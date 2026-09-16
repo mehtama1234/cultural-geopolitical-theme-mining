@@ -361,7 +361,8 @@ closure or recovery is not automatically restored security.
 
 ## Route 12: consumer participation becomes trust, status, and everyday power
 
-Read the [consumer culture, trust, status, and everyday power layer](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md),
+Read the [consumer participation, trust, and practical power synthesis](analysis/projects/us-consumer-culture/consumer-participation-trust-power-cross-source-synthesis-v1.md),
+the [consumer culture, trust, status, and everyday power layer](analysis/projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md),
 alongside the [consumer recourse visibility/remedy synthesis](analysis/projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md)
 and the [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md).
 

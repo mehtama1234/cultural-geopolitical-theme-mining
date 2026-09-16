@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-twenty-six estimates of one phenomenon:
+twenty-seven estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -63,10 +63,11 @@ twenty-six estimates of one phenomenon:
 | 24. Housing risk and practical mobility | [Place risk, housing security, mobility, and local life](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md) | Payment, insurance, hazard, energy, transport, business, and public-backstop surfaces can compound while remaining distinct | Same property/household shock, protection, repair, assistance, time/care/work trade-off, stay/move, recovery, trust, and political response |
 | 25. Financial access and recourse | [The financial route is part of the social outcome](projects/us-financial-intermediation/financial-access-route-recourse-public-capacity-synthesis-v1.md) | Provider capacity, formal access, alternative transaction/credit routes, complaint visibility, public fiscal room, and household meaning are successive stages | Same financial episode, alternatives, terms, effort, correction, recovery, switching, trust, and political action |
 | 26. Consumer culture, trust, status, and everyday power | [Consumer culture, trust, status, and everyday power](projects/us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Consumer participation can express trust, independence, stigma, fairness, and perceived exit capacity while also generating firm/platform information; concrete trend records remain separate surfaces | Same-customer dated need/exposure, information and social-signaling conditions, cost, response authority, verified remedy, recovery, switching/abandonment, and later trust or political demand |
+| 27. Consumer participation and practical power | [Consumer participation, trust, and practical power](projects/us-consumer-culture/consumer-participation-trust-power-cross-source-synthesis-v1.md) | Confidence, payment, platform attention, public help, and digital recourse show different currencies of participation; unequal optionality is the cross-source proposition, not a pooled consumer index | Same-customer episode with alternatives, non-use/non-reporting, attributed cause, response authority, verified remedy, recovery, trust, and exit |
 
 ### The common pattern
 
-Across the twenty-six rotations, the strongest recurring theme is **unequal
+Across the twenty-seven rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
