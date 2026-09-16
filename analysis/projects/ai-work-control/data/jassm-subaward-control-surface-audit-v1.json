@@ -1,0 +1,246 @@
+{
+  "boundary": "The rich subaward extract makes recipient identity, descriptions, UEIs, and performance locations more visible for returned rows. It does not establish supplier ownership beyond separately resolved records, facility output, production quantity, delivered/accepted missiles, replaceability, workforce incidence, or geopolitical leverage.",
+  "checked": "2026-09-16",
+  "country_row_counts": {
+    "UNITED STATES": 74
+  },
+  "format": "jassm-subaward-control-surface-audit-v1",
+  "parent_award": "FA868224CB001",
+  "recipient_rows_with_descriptions": 74,
+  "recipient_rows_with_location": 74,
+  "recipient_rows_with_uei": 74,
+  "rich_row_count": 74,
+  "source": "analysis/projects/ai-work-control/data/usaspending-jassm-lrasm-rich-subaward-search-2026-09-14.json",
+  "state_row_counts": {
+    "CA": 9,
+    "CO": 2,
+    "CT": 1,
+    "FL": 5,
+    "GA": 1,
+    "IL": 2,
+    "KS": 3,
+    "MA": 1,
+    "MD": 2,
+    "ME": 1,
+    "MI": 2,
+    "MN": 1,
+    "NH": 3,
+    "NJ": 5,
+    "NY": 5,
+    "OH": 2,
+    "OR": 2,
+    "PA": 3,
+    "TX": 7,
+    "UT": 8,
+    "VA": 4,
+    "WA": 1,
+    "WI": 4
+  },
+  "status": "supplier_visibility_audit_only",
+  "top_5_share_percent": 49.5004,
+  "top_recipients": [
+    {
+      "amount": 210018575.0,
+      "locations": [
+        "NASHUA, NH"
+      ],
+      "recipient": "BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 18.3798,
+      "uei_count": 1
+    },
+    {
+      "amount": 98444161.72,
+      "locations": [
+        "MASON, OH"
+      ],
+      "recipient": "L3HARRIS CINCINNATI ELECTRONICS CORPORATION",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 8.6153,
+      "uei_count": 1
+    },
+    {
+      "amount": 95972397.0,
+      "locations": [
+        "DOWNERS GROVE, IL"
+      ],
+      "recipient": "CHEMRING ENERGETIC DEVICES INC",
+      "row_count": 2,
+      "share_of_rich_extract_percent": 8.399,
+      "uei_count": 1
+    },
+    {
+      "amount": 80636450.25,
+      "locations": [
+        "PONTIAC, MI"
+      ],
+      "recipient": "WILLIAMS INTERNATIONAL CO., L.L.C.",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 7.0569,
+      "uei_count": 1
+    },
+    {
+      "amount": 80550804.12,
+      "locations": [
+        "NICEVILLE, FL"
+      ],
+      "recipient": "GENERAL DYNAMICS-OTS, INC.",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 7.0494,
+      "uei_count": 1
+    },
+    {
+      "amount": 63276128.0,
+      "locations": [
+        "VERONA, WI"
+      ],
+      "recipient": "EXTREME ENGINEERING SOLUTIONS, INC.",
+      "row_count": 3,
+      "share_of_rich_extract_percent": 5.5376,
+      "uei_count": 1
+    },
+    {
+      "amount": 62816125.0,
+      "locations": [
+        "HOUSTON, TX"
+      ],
+      "recipient": "WYMAN-GORDON FORGINGS INC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 5.4974,
+      "uei_count": 1
+    },
+    {
+      "amount": 61023121.67,
+      "locations": [
+        "MONTVILLE, NJ"
+      ],
+      "recipient": "MAROTTA CONTROLS INC",
+      "row_count": 2,
+      "share_of_rich_extract_percent": 5.3404,
+      "uei_count": 1
+    },
+    {
+      "amount": 50401956.0,
+      "locations": [
+        "MINNEAPOLIS, MN"
+      ],
+      "recipient": "HONEYWELL INTERNATIONAL INC.",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 4.4109,
+      "uei_count": 1
+    },
+    {
+      "amount": 49228860.96,
+      "locations": [
+        "SALT LAKE CITY, UT"
+      ],
+      "recipient": "NAMMO COMPOSITE SOLUTIONS, LLC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 4.3083,
+      "uei_count": 1
+    },
+    {
+      "amount": 40772194.58,
+      "locations": [
+        "BRENHAM, TX"
+      ],
+      "recipient": "HDL RESEARCH LAB INC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 3.5682,
+      "uei_count": 1
+    },
+    {
+      "amount": 39867826.25,
+      "locations": [
+        "LINTHICUM HEIGHTS, MD"
+      ],
+      "recipient": "NORTHROP GRUMMAN SYSTEMS CORPORATION",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 3.489,
+      "uei_count": 1
+    },
+    {
+      "amount": 37384685.71,
+      "locations": [
+        "BRISTOL, PA",
+        "SALT LAKE CITY, UT"
+      ],
+      "recipient": "L3 TECHNOLOGIES, INC.",
+      "row_count": 2,
+      "share_of_rich_extract_percent": 3.2717,
+      "uei_count": 2
+    },
+    {
+      "amount": 36948149.44,
+      "locations": [
+        "CINCINNATI, OH"
+      ],
+      "recipient": "L3HARRIS FUZING AND ORDNANCE SYSTEMS, INC.",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 3.2335,
+      "uei_count": 1
+    },
+    {
+      "amount": 32389084.96,
+      "locations": [
+        "SPANISH FORK, UT"
+      ],
+      "recipient": "KLUNE INDUSTRIES, INC.",
+      "row_count": 2,
+      "share_of_rich_extract_percent": 2.8345,
+      "uei_count": 1
+    },
+    {
+      "amount": 27636284.0,
+      "locations": [
+        "BROOKSHIRE, TX"
+      ],
+      "recipient": "THOMAS INSTRUMENT, INCORPORATED",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 2.4186,
+      "uei_count": 1
+    },
+    {
+      "amount": 19824348.91,
+      "locations": [
+        "WESTMINSTER, CO"
+      ],
+      "recipient": "BALL AEROSPACE & TECHNOLOGIES CORP.",
+      "row_count": 2,
+      "share_of_rich_extract_percent": 1.7349,
+      "uei_count": 1
+    },
+    {
+      "amount": 15236293.73,
+      "locations": [
+        "KEENE, NH"
+      ],
+      "recipient": "JANOS TECHNOLOGY LLC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 1.3334,
+      "uei_count": 1
+    },
+    {
+      "amount": 12708262.98,
+      "locations": [
+        "SALT LAKE CITY, UT"
+      ],
+      "recipient": "ALBANY AEROSTRUCTURES COMPOSITES LLC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 1.1122,
+      "uei_count": 1
+    },
+    {
+      "amount": 6905753.04,
+      "locations": [
+        "ORCHARD PARK, NY"
+      ],
+      "recipient": "MISSION SYSTEMS ORCHARD PARK INC",
+      "row_count": 1,
+      "share_of_rich_extract_percent": 0.6044,
+      "uei_count": 1
+    }
+  ],
+  "total_rich_extract_amount": 1142661458.64,
+  "unique_recipient_name_count": 51
+}

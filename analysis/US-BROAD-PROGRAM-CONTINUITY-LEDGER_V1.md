@@ -116,6 +116,12 @@ dated records including governance and operational-stress events, while the
 JASSM-ER case has 7 records centered on authorization, agreement, planned
 delivery, and a control comparator. Accepted output, replaceability, public or
 partner incidence, and changed external behavior remain open.
+The supplier-control follow-up now audits the richer local USAspending response:
+74 returned subaward rows resolve to 51 named recipients, with descriptions,
+UEIs, and performance-location fields on the returned records; the top five
+recipients represent 49.5004% of returned amount. This identifies a traceable
+network and a concentration lead, not production output, delivery, market
+share, or replaceability.
 
 The fifth rotation returns to material/time/care through the [time-as-hidden-
 price cross-domain synthesis](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md).

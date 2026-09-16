@@ -306,6 +306,8 @@ def main():
     memos.append(exit_cfpb_dry_run)
     capacity_dependence_audit = ROOT / "analysis/projects/ai-work-control/capacity-dependence-realization-audit-v1.md"
     memos.append(capacity_dependence_audit)
+    jassm_control_surface_audit = ROOT / "analysis/projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md"
+    memos.append(jassm_control_surface_audit)
     # Give the household-finance lane a stable reader route across prices,
     # buffers, credit, firm terms, adaptation, and political meaning.
     household_finance_readme = ROOT / "analysis/projects/us-household-financial-pressure/README.md"
@@ -469,6 +471,7 @@ def main():
         exit_platform_dry_run: "practical-exit-platform-ledger-dry-run-v1.html",
         exit_cfpb_dry_run: "cfpb-practical-exit-contract-dry-run-v1.html",
         capacity_dependence_audit: "capacity-dependence-realization-audit-v1.html",
+        jassm_control_surface_audit: "jassm-subaward-control-surface-audit-v1.html",
         household_finance_readme: "household-financial-pressure-program.html",
         household_pressure_synthesis: "financial-pressure-adaptation-recovery-synthesis-v1.html",
         aging_care_readme: "aging-care-strain-program.html",

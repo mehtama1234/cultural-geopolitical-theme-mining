@@ -385,6 +385,11 @@ ledgers. It finds commitments and intermediate capacity or operational-stress
 signals, but no complete public/partner outcome, credible replaceability, or
 observed external behavior change. The cases are stage-comparable, not pooled
 capacity or leverage measures.
+The follow-on [JASSM/LRASM subaward control-surface audit](projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md)
+adds 74 returned rows, 51 named recipients, UEI/location fields, and $1.1427B
+in returned subaward amount. The top five recipients comprise 49.5004% of this
+extract, which is a supplier-visibility concentration lead—not a defense-
+industrial market-share, production, delivery, or replaceability estimate.
 
 The SHED 2024–2025 financial-path health/care comparison is also preserved as
 six validated conditional trend observations, keeping the health and adult-care
