@@ -35,6 +35,7 @@ CHECKS = [
     ("published site links", ["scripts/validate_published_site_links.py"]),
     ("local Markdown links", ["scripts/validate_local_markdown_links.py"]),
     ("acquisition resource policy", ["scripts/test_acquisition_resource_policy.py"]),
+    ("program control handoff counts", ["scripts/test_program_control_sync.py"]),
     ("diff whitespace", ["git", "diff", "--check"]),
 ]
 

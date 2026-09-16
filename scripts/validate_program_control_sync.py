@@ -29,6 +29,28 @@ def number_words(value: int) -> str:
     raise ValueError("prose count helper only supports counts below 1,000")
 
 
+def validate_handoff_counts(
+    current_status: str,
+    next_queue: str,
+    review_packet: str,
+    records: int,
+    observations: int,
+) -> None:
+    """Require the three human handoff documents to show current counts."""
+    expected_status = f"**Current registry state:** {records} machine-readable records, {observations} observations,"
+    if expected_status not in current_status:
+        raise ValueError("current-status audit registry count is stale")
+    expected_status_checkpoint = f"the current checkpoint: {records} trend records and {observations} observations pass the"
+    if expected_status_checkpoint not in current_status:
+        raise ValueError("current-status audit checkpoint count is stale")
+    expected_queue = f"The trend registry holds {records} records and\n{observations} observations."
+    if expected_queue not in next_queue:
+        raise ValueError("next-pass queue registry count is stale")
+    expected_review = f"**Registry checkpoint:** {records} canonical records, {observations} observations,"
+    if expected_review not in review_packet:
+        raise ValueError("current themes review packet registry count is stale")
+
+
 def main() -> int:
     records = [json.loads(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "analysis/records").glob("*.json"))]
     observations = sum(len(record.get("observations", [])) for record in records)
@@ -90,18 +112,10 @@ def main() -> int:
         raise SystemExit("research handoff state connection count is stale")
     if f"**{len(records)}** validated machine-readable trend records" not in dashboard or f"**{observations}** period-specific observations" not in dashboard:
         raise SystemExit("program dashboard registry count is stale")
-    expected_status = f"**Current registry state:** {len(records)} machine-readable records, {observations} observations,"
-    if expected_status not in current_status:
-        raise SystemExit("current-status audit registry count is stale")
-    expected_status_checkpoint = f"the current checkpoint: {len(records)} trend records and {observations} observations pass the"
-    if expected_status_checkpoint not in current_status:
-        raise SystemExit("current-status audit checkpoint count is stale")
-    expected_queue = f"The trend registry holds {len(records)} records and\n{observations} observations."
-    if expected_queue not in next_queue:
-        raise SystemExit("next-pass queue registry count is stale")
-    expected_review = f"**Registry checkpoint:** {len(records)} canonical records, {observations} observations,"
-    if expected_review not in review_packet:
-        raise SystemExit("current themes review packet registry count is stale")
+    try:
+        validate_handoff_counts(current_status, next_queue, review_packet, len(records), observations)
+    except ValueError as error:
+        raise SystemExit(str(error)) from error
     expected_big_picture = f"{edge_count} recorded cross-topic links"
     if expected_big_picture not in big_picture:
         raise SystemExit("big-picture synthesis connection count is stale")
