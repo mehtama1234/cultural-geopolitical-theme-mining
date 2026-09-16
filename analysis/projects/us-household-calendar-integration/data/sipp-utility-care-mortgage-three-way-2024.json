@@ -89,6 +89,40 @@
       ]
     }
   },
+  "contrasts": {
+    "difficulty__renter__prevented_minus_not_prevented": {
+      "difference_percentage_points": 14.22690281925847,
+      "standard_error_percentage_points": 13.774450690940162,
+      "approx_95_percent_ci": [
+        -12.771020534984245,
+        41.224826173501185
+      ]
+    },
+    "difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "difference_percentage_points": -12.892792050712432,
+      "standard_error_percentage_points": 17.003014741370325,
+      "approx_95_percent_ci": [
+        -46.21870094379827,
+        20.43311684237341
+      ]
+    },
+    "no_difficulty__renter__prevented_minus_not_prevented": {
+      "difference_percentage_points": 9.056539124225226,
+      "standard_error_percentage_points": 7.2321393473638365,
+      "approx_95_percent_ci": [
+        -5.118453996607892,
+        23.231532245058347
+      ]
+    },
+    "no_difficulty__owner_buyer__prevented_minus_not_prevented": {
+      "difference_percentage_points": 1.3996754751230949,
+      "standard_error_percentage_points": 2.2266521974277165,
+      "approx_95_percent_ci": [
+        -2.964562831835229,
+        5.763913782081419
+      ]
+    }
+  },
   "causal_estimation": false,
   "boundary": "Utility difficulty and rent/mortgage hardship are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate."
 }

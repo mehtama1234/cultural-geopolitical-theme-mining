@@ -62,6 +62,31 @@ def summary(
     }
 
 
+def contrast_summary(
+    higher: float,
+    lower: float,
+    replicate_higher: np.ndarray,
+    replicate_lower: np.ndarray,
+) -> dict:
+    """Return a percentage-point contrast with Fay-BRR variance."""
+    point = 100 * (higher - lower)
+    replicate_difference = 100 * (replicate_higher - replicate_lower)
+    standard_error = float(
+        np.sqrt(
+            np.sum((replicate_difference - point) ** 2)
+            / (REPLICATES * FAY_FACTOR**2)
+        )
+    )
+    return {
+        "difference_percentage_points": point,
+        "standard_error_percentage_points": standard_error,
+        "approx_95_percent_ci": [
+            point - 1.96 * standard_error,
+            point + 1.96 * standard_error,
+        ],
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--primary", type=Path, required=True)
@@ -153,6 +178,53 @@ def main() -> None:
         if hardship == "1":
             groups[group]["numerator"] += weight
 
+    result_rows = {
+        group: summary(
+            values["numerator"],
+            values["denominator"],
+            replicate_numerator[group],
+            replicate_denominator[group],
+            values["records"],
+        )
+        for group, values in groups.items()
+    }
+    replicate_shares = {
+        group: np.divide(
+            replicate_numerator[group],
+            replicate_denominator[group],
+            out=np.full(REPLICATES, np.nan),
+            where=replicate_denominator[group] != 0,
+        )
+        for group in groups
+    }
+    contrast_pairs = {
+        "difficulty__renter__prevented_minus_not_prevented": (
+            "difficulty__prevented__renter",
+            "difficulty__not_prevented__renter",
+        ),
+        "difficulty__owner_buyer__prevented_minus_not_prevented": (
+            "difficulty__prevented__owner_buyer",
+            "difficulty__not_prevented__owner_buyer",
+        ),
+        "no_difficulty__renter__prevented_minus_not_prevented": (
+            "no_difficulty__prevented__renter",
+            "no_difficulty__not_prevented__renter",
+        ),
+        "no_difficulty__owner_buyer__prevented_minus_not_prevented": (
+            "no_difficulty__prevented__owner_buyer",
+            "no_difficulty__not_prevented__owner_buyer",
+        ),
+    }
+    contrasts = {
+        name: contrast_summary(
+            result_rows[higher]["share_percent"] / 100,
+            result_rows[lower]["share_percent"] / 100,
+            replicate_shares[higher],
+            replicate_shares[lower],
+        )
+        for name, (higher, lower) in contrast_pairs.items()
+    }
+
     output = {
         "format": "us-sipp-utility-care-mortgage-three-way-fay-brr-v1",
         "source_unit": "December identified person records with valid utility difficulty, annual fall child-care work-prevention status, tenure, and rent/mortgage hardship",
@@ -162,16 +234,8 @@ def main() -> None:
         "rows_read": rows_read,
         "identified_records": len(records_by_key),
         "replicate_rows_matched": matched,
-        "results": {
-            group: summary(
-                values["numerator"],
-                values["denominator"],
-                replicate_numerator[group],
-                replicate_denominator[group],
-                values["records"],
-            )
-            for group, values in groups.items()
-        },
+        "results": result_rows,
+        "contrasts": contrasts,
         "causal_estimation": False,
         "boundary": "Utility difficulty and rent/mortgage hardship are December fields; EWORKMORE is an annual fall reference-parent measure. This is a descriptive same-record interaction, not a dated bill-to-care episode or causal estimate.",
     }

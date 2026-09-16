@@ -65,6 +65,20 @@ higher than the renter no-prevention cell (12.016% versus 2.959%). This is
 consistent with care constraints and housing exposure being related without
 utility difficulty being the sole route.
 
+The direct within-tenure contrasts make the uncertainty clearer:
+
+| Utility condition | Tenure | Prevention minus no prevention | SE | Approx. 95% CI |
+|---|---|---:|---:|---:|
+| Difficulty | Renter | +14.227 percentage points | 13.774 | −12.771 to +41.225 |
+| Difficulty | Owner/buyer | −12.893 percentage points | 17.003 | −46.219 to +20.433 |
+| No difficulty | Renter | +9.057 percentage points | 7.232 | −5.118 to +23.232 |
+| No difficulty | Owner/buyer | +1.400 percentage points | 2.227 | −2.965 to +5.764 |
+
+None of these approximate intervals excludes zero. The renter/difficulty
+contrast is therefore a useful hypothesis-generating pattern, not evidence of
+a resolved care-related housing-hardship difference. The owner/buyer reversal
+is a counterexample to a simple monotonic interpretation.
+
 ## What this adds to the end-to-end map
 
 The earlier component analyses established four separate facts:
@@ -77,7 +91,8 @@ The earlier component analyses established four separate facts:
 4. renters and owners/buyers occupy different resource and work-transition
    surfaces.
 
-This cross-tab adds a same-record **joint-constraint screen**. It shows why a
+This cross-tab adds a same-record **joint-constraint screen** and explicitly
+tests the within-tenure contrasts. It shows why a
 household can occupy several constrained positions at once: utility payment
 difficulty, limited care alternatives, rental exposure, and housing hardship.
 It still cannot tell us which constraint came first, whether a care problem
@@ -143,5 +158,5 @@ of the [utility/tenure/care/work option-stack synthesis](sipp-utility-tenure-car
 not a replacement for its component outputs.
 
 **Evidence status:** same-record Fay-BRR descriptive diagnostic with sparse
-cells and wide uncertainty; no causal, population-trend,
+  cells and wide uncertainty; no causal, population-trend,
 recovery, trust, political-action, or exit claim.
