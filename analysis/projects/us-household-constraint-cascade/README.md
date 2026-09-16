@@ -55,6 +55,7 @@ that hardship caused political action.
 - [MEPS staged-ledger audit](meps-staged-ledger-audit-v1.md): 18,457 local, keyed-hash event rows populate the observed context fields while preserving unknown choice, remedy, and recovery stages outside Git.
 - [Next acquisition decision](next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go sequence; no new microdata are downloaded in the current pass.
 - [End-to-end status matrix](end-to-end-status-matrix-v1.md): requirement-by-requirement audit showing the current partial arrows and the missing same-case fields.
+- [Same-case closure protocol](same-case-closure-protocol-v1.md): explicit promotion gates and the minimum dated episode package required to close the chain.
 - [Current themes review brief](current-themes-review-brief-v1.md): a compact reading route through practical room, institutional friction, uneven remedies, and later recovery/legitimacy clocks.
 - [SHED coverage-to-care machine record](../../records/us-shed-panel-coverage-care-foregoing-paths-2024-2025.json)
 - [SHED coverage-to-care reproduction audit](../us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
