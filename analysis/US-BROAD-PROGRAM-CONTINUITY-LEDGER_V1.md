@@ -116,6 +116,17 @@ the [political-action menu synthesis](projects/us-cost-trust-politics/political-
 It treats voting, contact, volunteering, complaint, organizing, switching,
 and withdrawal as distinct actions rather than one engagement ladder.
 
+The eighth rotation advances the place and local-capacity lane through [local
+capacity is not practical exit](projects/us-local-business-place/place-capacity-practical-exit-cross-domain-synthesis-v1.md).
+It reframes capacity as an option stack: presence must be joined to
+reachability, usability, replaceability, recourse, and practical exit before a
+place can be treated as protective. This uses existing local-business,
+health-capacity, mobility, housing/insurance, public-route, consumer-recourse,
+and place-meaning artifacts without pooling their incompatible units. The next
+test remains a dated resident route or place-time episode with attempted use,
+fallback, protected/sacrificed outcome, and later stay, switching, movement, or
+action.
+
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
 institutional-response evidence, not a verified consumer-outcome result.

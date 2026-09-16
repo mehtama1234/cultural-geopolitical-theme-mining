@@ -32,7 +32,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-seven estimates of one phenomenon:
+eight estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -43,10 +43,11 @@ seven estimates of one phenomenon:
 | 5. Material/time/care | [Time as hidden price](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md) | Households can pay in unpaid care, waiting, extra work, debt, travel, or reduced use | Dated trigger, substitution, protected/sacrificed outcome, and recovery |
 | 6. Unequal exposure/meaning | [Unequal optionality](projects/us-cost-trust-politics/unequal-optionality-status-meaning-synthesis-v1.md) | Inequality is unequal room to absorb, contest, reinterpret, or leave—not exposure alone | Attribution, alternatives, trust, and action by the same unit |
 | 7. Political action | [Action is a menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md) | Voting, contact, volunteering, complaint, organizing, switching, and withdrawal have different barriers | Same-event action, institutional response, and later legitimacy |
+| 8. Place capacity and practical exit | [Local capacity is not practical exit](projects/us-local-business-place/place-capacity-practical-exit-cross-domain-synthesis-v1.md) | Establishments, providers, public routes, and infrastructure create alternatives only when they are reachable, usable, replaceable, and contestable | Dated resident route, attempted use, fallback, restored access, stay/switch/move, and local meaning |
 
 ### The common pattern
 
-Across the seven rotations, the strongest recurring theme is **unequal
+Across the eight rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
