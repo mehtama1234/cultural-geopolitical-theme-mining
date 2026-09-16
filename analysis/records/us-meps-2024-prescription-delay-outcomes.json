@@ -1,0 +1,42 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-prescription-delay-outcomes",
+  "title": "Prescription-delay respondents show distinct same-round health and employment surfaces",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "care_health_reproduction", "public_systems_feedback", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 HC-256 person record with valid prescription-delay field and same-round perceived-health/employment outcomes",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; prescription delay reported",
+      "denominator": {"value": 675, "unit": "valid HC-256 person records for both displayed outcomes", "value_type": "unweighted_valid_records"},
+      "measures": {"poor_or_fair_health": {"value": 31.8430, "unit": "percent; standard BRR SE 1.9563; approximate 95% CI 28.0087–35.6774", "value_type": "weighted_share"}, "employed_at_round_5_or_3": {"value": 55.0600, "unit": "percent; standard BRR SE 2.1564; approximate 95% CI 50.8334–59.2866", "value_type": "weighted_share"}},
+      "method": "Same-round descriptive comparison using PERWT24F and 128 BRR replicate flags.",
+      "uncertainty": "The delay field and outcomes are same-round and may reflect illness severity, coverage, access, prior employment, and reporting; this is not a post-delay outcome estimate.",
+      "subgroup": "MEPS 2024 respondents reporting prescription delay with valid perceived-health and employment fields.",
+      "counterinterpretation": "Prescription delay may be a marker of underlying need or access complexity rather than the cause of health or employment status.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; sha256:caad6c3f96c44ece9b9862fae2dd6bc4f6cce4811e968b8a76fe066d456ee6d1; sha256:1b588b27258e25e08c645ae4e20dc9693e6dceb371ae6b55434c7c0f228b2af2",
+      "status": "compared"
+    },
+    {
+      "period": "2024; prescription delay not reported",
+      "denominator": {"value": 17799, "unit": "valid HC-256 person records for both displayed outcomes", "value_type": "unweighted_valid_records"},
+      "measures": {"poor_or_fair_health": {"value": 10.0211, "unit": "percent; standard BRR SE 0.3210; approximate 95% CI 9.3919–10.6503", "value_type": "weighted_share"}, "employed_at_round_5_or_3": {"value": 49.3203, "unit": "percent; standard BRR SE 0.5052; approximate 95% CI 48.3300–50.3105", "value_type": "weighted_share"}},
+      "method": "Same-round descriptive comparison using PERWT24F and 128 BRR replicate flags.",
+      "uncertainty": "No-delay is not a randomized comparison or proof of medication access; the outcome fields do not establish timing after a prescription episode.",
+      "subgroup": "MEPS 2024 respondents not reporting prescription delay with valid perceived-health and employment fields.",
+      "counterinterpretation": "Different health need, age, insurance, employment, and reporting composition can generate the contrast without a delay effect.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd; sha256:caad6c3f96c44ece9b9862fae2dd6bc4f6cce4811e968b8a76fe066d456ee6d1; sha256:1b588b27258e25e08c645ae4e20dc9693e6dceb371ae6b55434c7c0f228b2af2",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-009.md", "claim": "Reader-facing same-round prescription-delay health/work comparison and limits.", "status": "finding"},
+    {"source_url": "../projects/us-health-cost-household-choice/data/us-meps-2024-prescription-delay-outcomes.json", "claim": "Machine output preserves the 19,140-record input, field-specific valid counts, estimates, and BRR uncertainty.", "status": "machine-output"},
+    {"source_url": "../projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md", "claim": "Longitudinal prescription-delay direction record is a separate round-to-round design.", "status": "related-design"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_meps_prescription_delay_outcomes.py", "primary_input": "HC-256 local archive", "replicate_input": "HC-256 BRR archive", "hc256_records": 19140, "result": "The two same-round subgroup observations reproduce the committed local output; raw archives remain outside the repository.", "interpretation": "This record strengthens the exposure/context screen, not a causal prescription-delay, recovery, trust, political-action, or household-burden estimate."},
+  "boundary": "This is a same-round MEPS comparison. Prescription delay, perceived health, and employment are not linked as a dated medication episode; person weights are not household weights. No causal effect, treatment continuity, recovery, remedy, trust, political action, or exit claim is made."
+}

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-251 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+252 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -549,6 +549,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | MEPS month-ordered events sharpen health, work, and bill-context selection without identifying recovery | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person records with first office, emergency-room, or inpatient event classified relative to the R4/2 reference-period endpoint month | United States | 9 | 2024; first emergency-room event before R4/2 endpoint month; 2024; first inpatient event before R4/2 endpoint month; 2024; first office event before R4/2 endpoint month; 2024; first emergency-room event in R4/2 endpoint month; 2024; first inpatient event in R4/2 endpoint month; 2024; first office event in R4/2 endpoint month; 2024; first emergency-room event after R4/2 endpoint month; 2024; first inpatient event after R4/2 endpoint month; 2024; first office event after R4/2 endpoint month | compared | [open](records/us-meps-2024-month-ordered-event-followup.json) |
 
 **Boundary:** This is a month-ordered descriptive transition layer. It does not identify the triggering need or bill, available alternatives, care delay or foregoing, household adaptation, remedy, trust, political action, or geopolitical consequence.
+
+| Prescription-delay respondents show distinct same-round health and employment surfaces | cost, time, voice | household_room_consumption, care_health_reproduction, public_systems_feedback, political_judgment_action, unequal_exposure_status | MEPS 2024 HC-256 person record with valid prescription-delay field and same-round perceived-health/employment outcomes | United States | 2 | 2024; prescription delay reported; 2024; prescription delay not reported | compared | [open](records/us-meps-2024-prescription-delay-outcomes.json) |
+
+**Boundary:** This is a same-round MEPS comparison. Prescription delay, perceived health, and employment are not linked as a dated medication episode; person weights are not household weights. No causal effect, treatment continuity, recovery, remedy, trust, political action, or exit claim is made.
 
 | Baseline health expenditure conditions paired health and work outcomes | cost, work, time | care_health_reproduction, household_room_consumption, work_control_bargaining, unequal_exposure_status | MEPS Panel 27 longitudinal person in the civilian noninstitutionalized US population | United States | 5 | 2022 baseline expenditure band: All valid paired persons; 2022 baseline expenditure band: Q1 lowest; 2022 baseline expenditure band: Q2; 2022 baseline expenditure band: Q3; 2022 baseline expenditure band: Q4 highest | compared | [open](records/us-meps-panel27-baseline-expenditure-outcomes-2022-2023.json) |
 
