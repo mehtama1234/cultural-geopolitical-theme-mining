@@ -24,6 +24,14 @@ This is a candidate route, not current evidence. The repository contains no
 local UAS microdata, and the public aggregate explorer does not expose the
 medical-expense component needed for the focal transition.
 
+## Storage invariant checked
+
+On 2026-09-16 the project directory was approximately 152 KB and contained no
+Stata (`.dta`) or archive (`.zip`) source files. The MEPS source files and the
+18,457-row staged JSONL remain outside Git under `/tmp`; only scripts, compact
+derived output, hashes, and writeups are tracked. This is the intended storage
+boundary for the next acquisition as well.
+
 ## Storage-conscious gate
 
 Proceed in this order:
