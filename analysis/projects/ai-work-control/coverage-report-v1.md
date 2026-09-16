@@ -100,8 +100,10 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - Malaysia Act 872 adds an enacted and effective non-European remedy
   architecture: automated-system disclosure, non-automated review, written
   deactivation explanations, a hearing right, and conciliation/Tribunal routes.
-  The Ministry's e-complaint and implementation portals are visible, but
-  case-level exercise and enforcement outcomes remain unobserved.
+  The Ministry's e-complaint and implementation portals are visible, and
+  secondary reporting now identifies a first Tribunal hearing involving
+  GrabCar on 1 September 2026. The primary case record, award, and enforcement
+  outcome remain unobserved.
 - The [global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
   now puts the court, worker-survey, statutory, and status-recognition records
   on one staged remedy chain without pooling unlike outcomes.
@@ -111,6 +113,10 @@ These are not errors to smooth away. They may reflect different tools, populatio
 - The UK ICO automated-recruitment review adds an ordinary-employment
   regulator comparator: disclosure, contestability, and meaningful human review
   are specified, while candidate-level correction remains unobserved.
+- The Malaysia acquisition audit now distinguishes formal institutional
+  establishment from a reported first hearing: the case has reached a Tribunal
+  proceeding, but the public record still does not show an award, correction,
+  payment, or final finding.
 
 The next acquisition therefore targets the missing middle directly: an
 official record in which a concrete automated decision is connected to an

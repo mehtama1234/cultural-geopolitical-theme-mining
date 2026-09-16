@@ -24,7 +24,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 |---|---|---|---|
 | Judicial disclosure | Uber/Ola decisions affecting London drivers | A court ordered information about factors and reasons behind automated decisions, making rectification more actionable | Public proof that a driver obtained correction, reinstatement, repayment, or protection from retaliation |
 | Worker-reported appeal | Ugandan taxi and delivery platform workers | Survey respondents reported appeals and favorable resolutions | Administrative or platform records identifying what changed and whether the result was durable |
-| Statutory review architecture | Malaysia gig workers; EU platform workers | Disclosure, non-automated review, hearing, conciliation, Tribunal, correction, compensation, and anti-retaliation rules are formally specified at different stages | Exercised cases, resolution times, correction rates, compensation, and enforcement |
+| Statutory review architecture | Malaysia gig workers; EU platform workers | Disclosure, non-automated review, hearing, conciliation, Tribunal, correction, compensation, and anti-retaliation rules are formally specified at different stages; Malaysia's first Tribunal hearing is reported | Primary case records, awards, resolution times, correction rates, compensation, and enforcement |
 | Institutional mediation | Kenyan Ziada workers | Staff reportedly discuss low ratings with workers and clients rather than allowing automatic discipline to settle the matter | Authority to alter the rating or consequence, consistency across workers, and recurrence prevention |
 | Regulatory contestability | UK jobseekers facing recruitment scoring/filtering | ICO review, recommendations, employer commitments, and expectations for meaningful human review | A named or aggregated candidate outcome showing review changed a hiring decision or produced compensation |
 | Collective bargaining | SAG-AFTRA performers facing digital replicas | Advance notice, informed consent, bounded use, and compensation rules were negotiated before routine deployment | Compliance, refusal consequences, enforcement, and whether synthetic substitution shifts bargaining power |
@@ -48,8 +48,9 @@ system becomes visible
 ```
 
 Uber/Ola is strongest at the first institutional step. Malaysia and the EU
-write later steps into formal architecture, but their exercised outcomes are
-still being acquired. SAG-AFTRA and the workplace cases move earlier in time:
+write later steps into formal architecture. Malaysia has now crossed into a
+reported first hearing, but the primary case record and outcome are still being
+acquired. SAG-AFTRA and the workplace cases move earlier in time:
 they condition deployment itself through collective bargaining or co-governance.
 
 ### 2. Timing changes the power balance
