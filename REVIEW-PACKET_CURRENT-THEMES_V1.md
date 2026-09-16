@@ -59,6 +59,7 @@ and later recovery for the same person or family.
 
 Read the [public-help route-to-judgment synthesis](analysis/projects/us-safety-net-access/findings/us-safety-net-access-014.md),
 the [SNAP reason × following-food-security finding](analysis/projects/us-safety-net-access/findings/us-safety-net-access-015.md),
+its [canonical machine-readable record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 and its [reproduction audit](analysis/projects/us-safety-net-access/sipp-snap-reason-outcome-reproduction-audit-2026-09-16.md).
 
 **Theme:** administrative access can be experienced as a sequence of notice,
@@ -68,6 +69,11 @@ effort, delay, receipt or interruption, food security, and judgment.
 following-month food-security profiles in an official-universe, Fay–BRR
 comparison; the classified cells are smaller than the full transition
 universe.
+
+The aggregate layer is the stable comparison for the atlas: low/very-low food
+security is 26.12% after classified entry and 18.87% after classified exit.
+Reason-specific cells are useful mechanism detail, but their smaller
+denominators make them unsuitable for fine ranking.
 
 **Open arrow:** the data do not yet show notice comprehension, benefit amount
 or gap days, appeal/remedy, substitution, recovery, or whether the route
