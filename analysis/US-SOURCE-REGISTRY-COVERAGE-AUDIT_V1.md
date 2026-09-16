@@ -155,14 +155,14 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **56**
+- Observed domains outside registered families: **57**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
 |---|---:|---|
 | `doi.org` | 58 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
-| `mohr.gov.my` | 11 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
+| `mohr.gov.my` | 13 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
 | `support.sayrhino.com` | 9 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `btq-kassel.de` | 8 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/ai-work-control/claims-ledger-v1.md` |
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
@@ -187,19 +187,19 @@ family that will be acquired, compared, or maintained over time.
 | `support.leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `uitspraken.rechtspraak.nl` | 4 | `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md` |
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
+| `freemalaysiatoday.com` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
 | `investors.capgemini.com` | 3 | `analysis/projects/ai-work-control/claims-ledger-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md`; `analysis/projects/ai-work-control/company-bridge-capgemini-v1.md` |
+| `production.humanresourcesonline.net` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `wetgevingskalender.overheid.nl` | 3 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `cy.ico.org.uk` | 2 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-recruitment-follow-up-acquisition-audit-2026-09-15.md` |
 | `dataverse.harvard.edu` | 2 | `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
 | `dosh.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
 | `dserver.bundestag.de` | 2 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md` |
 | `eaduan-gig.mohr.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
-| `freemalaysiatoday.com` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
 | `hogeraad.nl` | 2 | `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md`; `analysis/projects/ai-work-control/netherlands-deliveroo-algorithmic-status-case-record-v1.md` |
 | `jtksm.mohr.gov.my` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
 | `link.springer.com` | 2 | `analysis/projects/us-health-cost-household-choice/politics-personal-crisis-medical-affordability-participation-audit-v1.md`; `analysis/records/us-cces-medical-affordability-political-participation-2018-2020.json` |
-| `production.humanresourcesonline.net` | 2 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md` |
 
 ## Reverse-audit decisions
 
@@ -237,21 +237,22 @@ without a recurring acquisition need and source-specific metadata.
 | `support.leapeasy.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `uitspraken.rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |
+| `freemalaysiatoday.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ftrebbi.com` | author/project host | Retain as a paper or author-data route; use the NBER record as the durable research family. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
+| `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cy.ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dosh.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `freemalaysiatoday.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
+| `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |

@@ -99,6 +99,7 @@ For each new case, add:
 - [Kenya Ziada human-review platform record](kenya-ziada-human-review-record-v1.md)
 - [UK ICO automated-recruitment remedy record](uk-ico-automated-recruitment-remedy-record-v1.md)
 - [Malaysia Act 872 algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
+- [Malaysia GrabCar first-hearing case record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
 
 ## Boundary
 

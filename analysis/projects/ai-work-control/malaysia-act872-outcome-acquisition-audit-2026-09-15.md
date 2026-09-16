@@ -87,6 +87,7 @@ form, regulation, or hearing-in-progress as a worker remedy outcome.
 ## Linked records
 
 - [Malaysia Act 872 algorithmic-remedy record](malaysia-gig-workers-act-algorithmic-remedy-record-v1.md)
+- [GrabCar first-hearing case record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
 - [Global platform-work remedy comparison](global-platform-remedy-comparison-v1.md)
 - [Platform-work remedy case ledger](platform-remedy-case-ledger-v1.md)
 

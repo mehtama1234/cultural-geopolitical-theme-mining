@@ -32,6 +32,7 @@ that a platform complied, or that a Tribunal awarded a remedy.
 - [Ministry announcement establishing the Gig Workers Tribunal and Gig Consultation Council, 3 April 2026](https://www.mohr.gov.my/pdf/2026/KSM.%20100-2-1-1%20JLD%205%20%2874%29.pdf)
 - [Human Resources Online report on the first Tribunal hearing, 3 September 2026](https://production.humanresourcesonline.net/malaysia-s-gig-workers-tribunal-hears-first-case)
 - [Free Malaysia Today report on the GrabCar dispute, 2 September 2026](https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/02/pertikaian-babit-grabcar-kes-pertama-didengar-tribunal-pekerja-gig)
+- [GrabCar first-hearing case record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
 
 The Act received Royal Assent on 16 December 2025 and was gazetted on 31
 December 2025. The Ministry's 31 March 2026 notice states that enforcement
