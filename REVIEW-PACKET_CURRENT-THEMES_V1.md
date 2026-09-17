@@ -808,6 +808,48 @@ later trust, identity, dependence, or political demand. A purchase is not
 satisfaction, trust is not consent, and staying is not free choice without a
 practical alternative.
 
+## Route 13: material pressure becomes meaning and political action
+
+The [material-to-meaning/action endpoint audit](site/material-meaning-action-endpoint-audit-v1.html)
+is the program's most direct review of the downstream cultural and political
+arrow. It does not claim one universal pathway. Instead, it places the best
+retained designs side by side and asks which stages are actually observed:
+
+| Evidence design | Material or exposure surface | Meaning surface | Action surface | Missing downstream link |
+|---|---|---|---|---|
+| HTOPS April→June 2025 linked respondents | Same selected respondent's material transitions | June Congress confidence and agreement that statistics are trustworthy | None in the retained linkage | Dated actor, attribution, and action |
+| CCES 2024 post-election respondents | Gig-work and student-loan-responsibility proxies, with income and race conditioning | Federal and state trust | Six civic-action indicators | Event timing, prior identity, and causal attribution |
+| CES 2018/2020 medical-affordability modules | Reported medical-expense crisis | Federal responsibility attribution | Turnout, official contact, and protest | Specific bill, remedy, and later recovery |
+| ANES 2016–2020–2024 panel subset | Pre-election financial worry | Federal-government judgment | Post-election reported vote | Direct material episode, actor, and causal action path |
+
+The CES modules show why political response must remain a menu rather than a
+single index. In 2018, weighted turnout was 41.7% among respondents reporting
+a medical-expense crisis versus 57.2% among those without one, while official
+contact was 23.3% versus 21.4%. In 2020, turnout was nearly equal at 61.2%
+versus 62.3%, while official contact was 28.3% versus 17.9%. Within hardship
+cases, federal attribution was reported by 27.6% in 2018 and 22.4% in 2020;
+attribution-conditioned official contact was 26.3% and 42.7%, and protest was
+11.1% and 23.6%, respectively. These are module-specific weighted
+comparisons, not evidence that one medical bill caused one political act.
+
+The ANES panel adds temporal ordering but not a causal explanation. Financial
+worry precedes the reported post-election vote in the panel subset, yet worry
+also carries prior party identity, retrospective judgment, information, and
+candidate preference. The recorded pattern is non-monotonic for institutional
+trust: the extremely worried group has 70.3% in “some” or “never” trusting
+categories, while the not-at-all-worried group has 51.9%. The correct reading
+is that interpretation is conditioned by identity and context, not that worry
+mechanically produces distrust or a particular vote.
+
+The route therefore supports a narrow but important broad-goal proposition:
+material pressure can coexist with trust, blame, non-use, contact, protest,
+turnout, or voting, but these endpoints are not interchangeable. The decisive
+next acquisition is a repeated-respondent or event-compatible record with a
+dated exposure, responsible actor, usable alternative, perceived fairness or
+blame, prior judgment, distinct action, institutional response, and later
+recovery or exit. Until that exists, “cultural reaction” and “political
+backlash” remain hypotheses assembled from separate observed surfaces.
+
 ## How to challenge any route
 
 For every writeup, ask:
