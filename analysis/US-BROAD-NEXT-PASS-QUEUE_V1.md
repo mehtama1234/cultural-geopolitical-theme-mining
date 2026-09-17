@@ -2753,3 +2753,11 @@ statutory alignment, qualified output, and foreign dependence. The next test is
 a project-year semiconductor ledger with ownership, public rights, workforce
 retention, local capacity, yield, customer delivery, and supplier switching;
 do not call disbursement or milestone progress strategic autonomy.
+
+The [DOE 2026 transmission-needs and large-load layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md)
+adds the grid-planning and local-governance stage. It separates announced,
+contracted, energized, and actual load; congestion hours; project approval and
+construction; cost allocation; reliability; rates; land/water burden; and
+political response. The next test is a region-hour-project ledger joining a
+large-load request to transmission constraints, project realization, customer
+incidence, and public response.

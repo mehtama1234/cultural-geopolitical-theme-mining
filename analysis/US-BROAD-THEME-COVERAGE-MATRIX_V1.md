@@ -95,6 +95,12 @@ alignment stages to themes 5, 12, 13, and 14. Facility progress and strategic
 autonomy remain separate; the project-year output, worker-retention, supplier-
 switching, and customer-delivery links are open.
 
+The [DOE transmission-needs and large-load layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md)
+adds grid demand, congestion, transmission planning, cost allocation, local
+burden, and public participation to themes 1, 7, 10, 13, and 14. Announced or
+approved load is not energized capacity, reliability, affordability, or local
+consent; the region-hour-project incidence test remains open.
+
 **Latest disaster-response rotation:** the [EDA economic-recovery outcomes
 layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
 adds federal economic-recovery coordination, infrastructure investment, local

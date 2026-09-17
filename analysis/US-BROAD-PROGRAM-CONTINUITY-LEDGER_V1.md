@@ -918,6 +918,15 @@ lanes while preserving the open links to qualified output, worker retention,
 local burden, customer supply, supplier switching, and reduced foreign
 dependence.
 
+The fifty-fifth rotation adds the [DOE transmission-needs and large-load
+layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md).
+It follows data-center, manufacturing, and electrification demand into
+transmission congestion, planning, reliability, cost allocation, local burden,
+and public participation. It strengthens the household-energy, infrastructure,
+and state-capacity lanes while leaving actual customer rates, energized
+capacity, land/water incidence, and political response to a region-hour-project
+ledger.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)

@@ -87,7 +87,7 @@ or proof that every source item was read in full.
 | [FEMA National Flood Insurance Program](https://www.fema.gov/flood-insurance) | US hazard exposure, flood insurance, claims, mitigation, and place-risk context | 0 | 3 | 2 | 0 | evidence-bearing |
 | [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 18 | 527 | 202 | 1 | evidence-bearing; machine-record URL |
 | [US Energy Information Administration](https://www.eia.gov/) | US energy prices, consumption, insecurity, electricity systems, and infrastructure context | 21 | 63 | 23 | 13 | evidence-bearing; machine-record URL |
-| [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 16 | 45 | 20 | 4 | evidence-bearing; machine-record URL |
+| [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 16 | 46 | 21 | 4 | evidence-bearing; machine-record URL |
 | [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 29 | 164 | 58 | 51 | evidence-bearing; machine-record URL |
 | [US Department of Health and Human Services](https://www.hhs.gov/) | US health, care, public benefit, medical access, and program administration evidence | 8 | 25 | 10 | 0 | evidence-bearing |
 | [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 11 | 5 | 4 | evidence-bearing; machine-record URL |

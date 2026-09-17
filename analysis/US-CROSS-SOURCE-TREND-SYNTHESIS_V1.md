@@ -754,6 +754,16 @@ research governance, operating output, and reduced foreign dependence are
 different currencies. The next test is a project-year ledger that follows
 qualification, workers, output, supplier switching, and customer delivery.
 
+The [DOE 2026 transmission-needs and large-load layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md)
+adds the physical-grid stage beneath AI and domestic manufacturing. DOE’s draft
+identifies pressing transmission needs from data centers, large industrial
+loads, electrification, and growth, while noting that most congestion is
+concentrated in roughly 5% of hours. The key societal question is allocation:
+which regions and customers pay for capacity, who receives reliability and
+jobs, and who bears land, water, construction, or rate pressure. Announced load,
+approved portfolios, energized capacity, and actual household incidence remain
+separate.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
