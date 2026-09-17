@@ -1,6 +1,6 @@
 # Material, time, and care linkage acquisition plan v1
 
-**Checked:** 2026-09-13
+**Checked:** 2026-09-17
 **Scope:** US societal trend program; material pressure, time transfer, care,
 recovery, and meaning  
 **Status:** acquisition and identification plan; no end-to-end result claimed
@@ -170,6 +170,16 @@ passing structural audit is a readiness signal only; it does not waive the
 universe, missingness, retention, weighting, or comparability gates.
 
 ## Current access gate verification
+
+**Fresh official recheck (2026-09-17):** the packaged-data page continues to
+list the 2019, 2021, and 2023 Main Study Family Files and the 1968–2023
+Cross-year Individual File. The unauthenticated ZIP route currently resolves
+to the official download warning, which says that generated data carts and
+ZIP downloads require an account that has accepted the Conditions of Use.
+The PSID getting-started page separately states that public-use data are free
+to researchers who register and agree to those conditions. This confirms an
+access prerequisite, not an analytical null and not a reason to download
+around the gate; no PSID microdata are added to the workspace in this pass.
 
 The official [PSID packaged-data page](https://simba.isr.umich.edu/Zips/ZipMain.aspx)
 currently lists the 2019, 2021, and 2023 main Family Files and the 1968–2023
