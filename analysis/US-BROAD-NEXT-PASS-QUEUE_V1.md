@@ -2670,6 +2670,14 @@ is a place-keyed project ledger linking award, disbursement, completion,
 service/firm function, jobs/wages, household access, and later trust or action;
 do not promote award volume or grantee reports into recovery.
 
+The companion [GAO 2026 disaster-assistance scams, information, and trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
+adds a consumer and legitimacy surface around the recovery system. GAO finds
+that prevalence and losses cannot be estimated from complaint data because of
+underreporting and reporting friction. The next test is a small lawful ledger
+of channel, verification burden, warning comprehension, suspicious contact,
+reporting, agency response, and later legitimate-aid use; do not turn warnings
+issued or complaints received into a fraud rate.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

@@ -345,6 +345,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/eia-2024-household-energy-insecurity-consequence-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

@@ -724,6 +724,15 @@ and resident outcomes. The bounded 55% no-jobs/private-investment result among
 292 analyzed grants is a warning about reported performance, not a 55% failure
 rate for the full portfolio.
 
+The [GAO 2026 disaster-assistance scams, information, and trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
+adds the consumer-information risk that surrounds disaster aid. GAO reports
+that scam prevalence and losses are unknown because many incidents go
+unreported due to shame, perceived futility, or lack of reporting awareness;
+education channels therefore cannot be treated as received protection. The
+next test is a privacy-preserving channel ledger that distinguishes warning
+availability, comprehension, verification, suspicious contact, report,
+response, loss, and later legitimate-aid use.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
