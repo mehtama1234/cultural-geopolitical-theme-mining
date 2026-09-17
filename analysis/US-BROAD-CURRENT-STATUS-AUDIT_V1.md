@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 303 machine-readable records, 1081 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 626 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 627 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1650,7 +1650,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 303 trend records and 1081 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,250 local Markdown links and 626 published HTML pages pass link
+families; 1,251 local Markdown links and 627 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1839,3 +1839,10 @@ social utility, and sleep/productivity tradeoffs to themes 1, 5, 9, 10, and 14.
 It separates device adoption from attention control and perceived well-being;
 logged behavior, dependence, clinical outcomes, platform design, and later
 consumer or political action remain open.
+
+The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
+adds national moral mood, perceived policy influence, public-role legitimacy,
+religious influence, and issue-specific acceptability to themes 9, 10, 11, and
+14. Shared pessimism coexists with disagreement over the remedy; personal
+conduct, policy exposure, causal attribution, voting, and social cohesion remain
+open.

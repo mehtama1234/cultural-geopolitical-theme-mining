@@ -221,3 +221,10 @@ connection utility, and sleep/productivity interpretation to themes 1, 5, 9,
 10, and 14. It strengthens the adoption-to-attention-and-meaning arrow while
 leaving observed use, platform mechanisms, health, privacy, switching, and
 political action open.
+
+The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
+adds national moral mood, government influence, public-role preference,
+religious influence, and issue-specific cultural acceptability to themes 9, 10,
+11, and 14. It strengthens the condition-to-attribution-to-legitimacy arrow
+while leaving personal conduct, policy exposure, action, and social cohesion
+open.

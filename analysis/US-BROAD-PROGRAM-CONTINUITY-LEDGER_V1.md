@@ -1101,3 +1101,8 @@ adds a consumer-attention stage between device availability and perceived
 well-being. It preserves open links from habitual use to utility, displacement,
 self-regulation, privacy, switching, measured outcomes, and later social or
 political action.
+
+The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
+adds a cultural-mood stage between perceived national conditions and public
+authority. It preserves open links from moral judgment to attribution, religious
+meaning, issue behavior, policy support, trust, and political action.

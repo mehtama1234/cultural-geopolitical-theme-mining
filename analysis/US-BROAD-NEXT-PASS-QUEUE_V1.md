@@ -2870,3 +2870,11 @@ cutback attempts, observed use, sleep/time displacement, privacy choice, and
 switching. Keep ownership, frequency, subjective excess, dependence, failed
 self-regulation, and measured outcomes separate; do not infer addiction or
 platform causality from survey self-reports.
+
+The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
+adds a cultural-mood and public-legitimacy test. The next pass should use
+compact repeated or event-linked evidence on policy exposure, religious and
+political identity, moral attribution, issue position, public action, trust, and
+policy support. Keep moral mood, perceived government influence, government
+legitimacy, religious influence, acceptability, and observed behavior separate;
+do not infer moral decline or political realignment from survey pessimism.

@@ -115,6 +115,10 @@ index or a claim that the same people appear in every source.
    help people stay informed and connected, but many users report excess time,
    incomplete cutback success, and sleep or productivity costs. Read the
    [smartphone time and well-being layer](site/pew-2026-smartphone-time-control-wellbeing-layer-v1.html).
+21. **Shared moral pessimism produces contested public solutions:** Americans
+   increasingly rate moral values as poor or worsening, yet divide over whether
+   government should promote values and over specific cultural issues. Read the
+   [moral values and government-role layer](site/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.html).
 
 ## Recent cross-theme additions
 
