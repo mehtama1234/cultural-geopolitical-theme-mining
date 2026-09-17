@@ -763,6 +763,46 @@ security, trust, political action, or exit. The next test remains a lawful
 worker-side episode design or a public implementation follow-up with stable
 claim/application identifiers.
 
+The thirty-ninth rotation returns to the migration/place and cultural-meaning
+lane through the [immigration concern and essential-activity non-use finding](projects/us-immigration-local-demand/findings/us-immigration-local-demand-002.md).
+Published WBNS subgroup evidence reports protective or delayed non-use across
+work, care, school, transport, police, community, and public-benefit routes
+when immigration or information-sharing concerns are present. This makes
+non-use a visible participation currency while keeping causal ordering, legal
+risk, alternatives, remedy, trust, and political action open.
+
+The fortieth rotation converts that layer into the [migration participation-
+currencies synthesis](projects/us-immigration-local-demand/findings/us-immigration-local-demand-003.md).
+It compares population presence, local capacity, institution-specific trust,
+civic action, voting, and safe institutional use without assigning county
+context to respondent experience. The result weakens any single integration or
+growth-to-withdrawal narrative; the next test is a place-linked repeated family
+or respondent episode with exposure, alternative, attribution, and follow-up.
+
+The forty-first rotation advances work and bargaining through the
+[worker-power channels synthesis](projects/us-employee-ownership-meaning/findings/us-employee-ownership-meaning-002.md).
+It separates financial stake, intelligible ownership communication,
+representative voice, technical control, recourse, monetary remedy, household
+security, and exit. The employee-ownership field experiment supplies a
+communication-to-retention mechanism, while named workplace and platform
+records show why documentation, reactivation, or a formal award is not the
+same as wealth or control.
+
+The forty-second rotation returns to material/time/care through the [care-time
+hidden-price synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-044.md).
+It places stable annual ATUS averages beside selected SIPP childcare-related
+work-time loss and following housing/utility hardship. This strengthens the
+distributional hidden-price concept while leaving care alternatives, earnings,
+schedule control, recovery, trust, and political availability open.
+
+The current four-rotation handoff therefore preserves breadth across meaning,
+place, worker power, and household time. The next substantive step is not
+another adjacent exposure cross-tab: it is a lawful, storage-light same-unit
+episode with an alternative, institutional response, verified remedy or
+recovery, and later action/exit field. If that route is unavailable, publish
+the exact acquisition gap and rotate to the next theme rather than implying
+completion.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.
