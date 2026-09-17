@@ -138,6 +138,22 @@ produce the medical-expense-specific transition needed here. This check rules
 out aggregate visualization as a substitute for the registration-gated
 microdata acquisition.
 
+### Live public-variable inventory probe (2026-09-16)
+
+A fresh request to the explorer page and its public dropdown endpoint returned
+HTTP-success responses without downloading survey microdata. The endpoint
+`https://uasvis.usc.edu/monthly/getdropdownsmonthly.php` listed
+`cornegfinshock`, `corhealthevent`, overall health, pain, food-security items,
+life satisfaction, and `meaningthetas_tscore_3_`, among other aggregate
+variables. It did not list `fin3s4` or a medical/dental-expense-specific
+equivalent. The retrieved dropdown script was 1,220 bytes with SHA-256
+`9fb4fa5bcb8ec168b216dc939535bb28a5ae796e41955688263d85286fc1be69`; the page
+was 18,736 bytes with SHA-256
+`f34f36f361ad57b007fa9d88fda0582d9a45ac9e3d2f35ced6a019675068b521`.
+This is a current public-inventory observation, not evidence that the
+registration-gated microdata lack the field. It confirms that the explorer
+cannot currently close the medical-expense-to-later-outcome arrow.
+
 ## Required acquisition and merge test
 
 After registration, acquire the relevant codebooks and data descriptions before
