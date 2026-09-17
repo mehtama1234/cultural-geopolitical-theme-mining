@@ -40,6 +40,10 @@ its unresolved arrows visible:
   [practical-exit synthesis](site/practical-exit-cross-domain-synthesis-v1.html):
   platform design, diner/driver/restaurant exposure, redress, and controls;
   group-specific recovery and exit remain open.
+- [Eight-route practical-exit qualification](site/us-customer-automation-recourse-002.html):
+  Doxo and Grubhub extend the remedy comparison with bill-payment friction and
+  aggregate redress; person-level alternatives, receipt, protected outcomes,
+  recovery, trust, switching, and exit remain unobserved.
 - [2025 SHED banking substitution and fraud recourse](site/us-financial-intermediation-003.html):
   unequal formal access, nonbank routes, overdraft, fraud recovery, provider
   contact, and reported switching are visible; dated account events, verified
