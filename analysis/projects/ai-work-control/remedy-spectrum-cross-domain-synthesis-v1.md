@@ -31,6 +31,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
 | Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
 | Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
+| Multi-sided platform redress | Grubhub drivers, diners, and restaurants | FTC reports more than $23.8m in payments to 640,038 affected consumers, alongside requirements for honest driver-pay advertising, blocked-account disputes, and restaurant consent | Group-specific payment and correction, implementation, continued dependence, alternatives, trust, and exit |
 
 ## What the comparison changes
 

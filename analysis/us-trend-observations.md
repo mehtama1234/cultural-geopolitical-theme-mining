@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-270 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+271 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -425,6 +425,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Reported fraud losses rose while report volume stayed broadly stable, with loss incidence and severity split by age | cost, voice, work | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | FTC Consumer Sentinel Network administrative reports | United States reports and reports contributed by partner agencies and organizations | 2 | 2023–2024 annual Sentinel reports; 2024 fraud reports with usable age information | compared | [open](records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json) |
 
 **Boundary:** This is an administrative report and reported-loss layer, not a prevalence, verified-harm, recovery, or consumer-remedy estimate. It does not follow a person from platform or payment exposure through dispute, recovery, trust, or exit. The retrieval hash will cover the committed analysis memo.
+
+| Platform redress can combine worker, consumer, and small-business controls without proving lived recovery | cost, work, voice | consumer_power_recourse, platforms_data_attention, work_control_bargaining, firm_sector_market_power, trust_identity_meaning | Federal Trade Commission Grubhub enforcement and refund-administration announcement; affected drivers, diners, and restaurants are distinct groups and not a representative sample | United States federal and Illinois consumer-protection enforcement involving Grubhub platform participants | 1 | December 2024 allegations and settlement; payment administration checked August-September 2026 | reported | [open](records/us-ftc-grubhub-multisided-remedy-2026.json) |
+
+**Boundary:** This record establishes a reported multi-sided platform-remedy program with aggregate payment distribution and prospective pay, account-contestability, and restaurant-consent requirements. It does not establish group-specific exposure, individual receipt, restored income or access, implementation quality, alternatives, switching, trust, collective action, or exit.
 
 | Digital health convenience can combine sensitive data exposure with recurring billing and exit friction | cost, time, voice | care_health_reproduction, platforms_data_attention, consumer_power_recourse, trust_identity_meaning, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status | Federal Trade Commission, Utah, and California complaint against Hims & Hers; named federal enforcement case, not a representative patient or customer sample | United States federal and state consumer-protection enforcement; Hims & Hers online telehealth and prescription-subscription service | 2 | July 29, 2026; FTC and state complaint filed; At least 2019 through early 2025; cancellation and refill mechanisms described in complaint | reported | [open](records/us-ftc-hims-hers-health-data-billing-cancellation-2026.json) |
 

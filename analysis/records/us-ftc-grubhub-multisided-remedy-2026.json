@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-grubhub-multisided-remedy-2026",
+  "title": "Platform redress can combine worker, consumer, and small-business controls without proving lived recovery",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission Grubhub enforcement and refund-administration announcement; affected drivers, diners, and restaurants are distinct groups and not a representative sample",
+  "geography": "United States federal and Illinois consumer-protection enforcement involving Grubhub platform participants",
+  "observations": [
+    {
+      "period": "December 2024 allegations and settlement; payment administration checked August-September 2026",
+      "denominator": {
+        "value": 640038,
+        "unit": "affected consumers identified for checks or PayPal payments; group composition not disclosed in the announcement",
+        "value_type": "reported_program_count"
+      },
+      "measures": {
+        "aggregate_payment_distribution": {
+          "value": 23800000,
+          "unit": "US dollars, more than",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "payment_recipients_identified": {
+          "value": 640038,
+          "unit": "affected consumers sent checks or PayPal payments",
+          "value_type": "reported_program_count"
+        },
+        "prospective_driver_pay_control": {
+          "value": "honestly advertise driver pay",
+          "unit": "settlement operational requirement",
+          "value_type": "reported_control_requirement"
+        },
+        "prospective_account_contestability": {
+          "value": "mechanism for users to dispute blocked accounts",
+          "unit": "settlement operational requirement",
+          "value_type": "reported_control_requirement"
+        },
+        "prospective_restaurant_consent": {
+          "value": "list restaurants only with consent",
+          "unit": "settlement operational requirement",
+          "value_type": "reported_control_requirement"
+        },
+        "individual_receipt_and_downstream_outcomes": {
+          "value": "not observed in the public announcement",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC enforcement/payment announcement and active refund-program list; the aggregate payment and recipient counts are retained as administrator-reported program measures, not as group-specific recovery rates.",
+      "uncertainty": "The announcement does not separate drivers, diners, and restaurants within the 640,038 count, disclose amounts by group, establish individual receipt or correction, or report continued platform use, alternatives, switching, trust, or exit.",
+      "subgroup": "Affected Grubhub drivers, diners, and restaurants; eligibility and program denominators are not separately published in the checked announcement.",
+      "counterinterpretation": "Aggregate payments may resolve some monetary loss while leaving account access, platform visibility, or worker income unchanged; prospective controls may exist formally without being used or enforced consistently.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-earnings-claims-other",
+      "retrieval_hash": "sha256:419738113e013dbef2f212b357b78bf4fe5b4ff14ac2a58866ddaedebc0f0f5b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "FTC lists Grubhub refunds as an active August 2026 refund program and identifies the administrator.",
+      "status": "official-refund-program-list"
+    }
+  ],
+  "boundary": "This record establishes a reported multi-sided platform-remedy program with aggregate payment distribution and prospective pay, account-contestability, and restaurant-consent requirements. It does not establish group-specific exposure, individual receipt, restored income or access, implementation quality, alternatives, switching, trust, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC Grubhub press-release HTML retrieved without retaining a repository copy",
+    "retrieval_hash": "sha256:419738113e013dbef2f212b357b78bf4fe5b4ff14ac2a58866ddaedebc0f0f5b",
+    "checked": "2026-09-17"
+  }
+}
