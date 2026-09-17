@@ -26,8 +26,8 @@ automatically evidence of receipt or durable change.
 
 - Fair Work Commission decision and order search, checked 2026-09-16.
 - Exact matter-number searches for `UDE2025/53`, `UDE2025/134`,
-  `UDE2025/108`, `UDE2025/185`, `UDE2025/384`, and Bandameeda's
-  `UDE2025/62`.
+  `UDE2025/108`, `UDE2025/160`, `UDE2025/185`, `UDE2025/384`, and
+  Bandameeda's `UDE2025/62`.
 - Exact party/order searches for `Gopal Bandameeda`, `PR795363`, and
   `$12,126.31`; the search returned the primary decision and the 23 December
   2025 lost-pay order, but no later receipt, compliance, or variation record.
@@ -91,6 +91,13 @@ found that warnings and notices were insufficiently particular, required
 further inquiry was not made, and previously “resolved” complaints were later
 relied upon. It ordered reactivation and lost remuneration in principle, but
 left the amount to further directions.
+
+The exact `UDE2025/160` and “Musharaf Waheed” search recheck located the
+18 September 2025 timing decision and the May 2026 merits decision, but no
+later public quantum order, payment confirmation, compliance filing, or
+post-order access record. This is the same bounded public-retrieval result as
+the other matters: absence from the searched public record is not evidence of
+non-payment or non-restoration.
 
 ## Coding consequence
 
