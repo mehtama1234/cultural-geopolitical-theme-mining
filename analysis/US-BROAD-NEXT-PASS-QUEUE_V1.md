@@ -249,6 +249,13 @@ not a causal aid-to-action result; the next route is a lawful same-resident
 link to verified aid, displacement, health/work recovery, and later civic
 behavior.
 
+The disaster-recovery synthesis now makes the cross-source architecture
+explicit: public credit, owner cash buffers, customer travel, and resident
+fairness judgments are separate currencies that can move in opposite
+directions. The next broad pass should return to a different lane and seek a
+same-unit event with verified remedy and action; no pooled resilience score is
+licensed by the current evidence.
+
 The small-business size-rule case adds an institutional-allocation counterpoint:
 expanding support eligibility toward larger firms is associated with lower
 revenue and more exits among the smallest firms, alongside lower wages and

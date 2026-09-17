@@ -80,6 +80,9 @@ its unresolved arrows visible:
 - [Small-business size-rule bridge](site/us-small-business-support-size-rule-001.html):
   expanding eligibility toward larger firms is associated with lower small-firm
   revenue, more exits, lower wages, and less patenting.
+- [Disaster-recovery end-to-end synthesis](site/us-disaster-recovery-policy-end-to-end-synthesis-001.html):
+  combines firm finance, owner cash flow, customer access, and resident
+  legitimacy into one explicitly non-pooled recovery architecture.
 - [CCES panel job-loss follow-up](site/us-cost-trust-politics-029.html):
   a prior job-loss screen precedes later Congress approval, contact, and action;
   action is lower while institution-specific approval is not uniformly lower.

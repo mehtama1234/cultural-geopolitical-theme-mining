@@ -31,3 +31,8 @@ adds a resident judgment layer: recovery progress coexisted with persistent
 disruption, unmet-help reports, and doubts that relief reached those most in
 need. It is descriptive survey evidence, not a causal aid-to-political-action
 estimate.
+
+The [end-to-end synthesis](findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md)
+now combines the firm, owner-household, customer, and resident-judgment layers.
+It treats recovery as redistribution across money, time, access, security, and
+legitimacy rather than as a single resilience score.
