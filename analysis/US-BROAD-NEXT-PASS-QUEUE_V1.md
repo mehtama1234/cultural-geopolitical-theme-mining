@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 273 records and
-1010 observations.
+1011 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2353,6 +2353,10 @@ surface: 50 records are marked resolved, 128 answered, 4 invalid, and 21 lack a
 usable disposition. Its strong BBB-channel concentration means this is a
 recourse-access and response-label observation, not a Hims customer prevalence
 rate or verified medical/privacy outcome.
+The channel-conditioned check shows that all nonblank dispositions occur in
+the dominant BBB CA Oakland channel; the seven other/source-blank records have
+blank dispositions. Treat the response pattern as intake/coding-selected, not
+as a cross-channel resolution comparison.
 
 ## Sequencing rule
 

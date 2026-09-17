@@ -60,6 +60,25 @@
       "source_url": "https://www.ftc.gov/system/files/ftc_gov/documents/2025-02172him-hers-consumer-complaints.xlsx",
       "retrieval_hash": "sha256:e0345bcdc8583937cae63520863d6e238cbd7238f9cf07dc17eea5ccf460a440",
       "status": "reported"
+    },
+    {
+      "period": "June 18 through September 10, 2025 complaint dates; source-channel conditioning of the April 2026 FOIA release checked September 17, 2026",
+      "denominator": {"value": 203, "unit": "released Hims & Hers complaint records in FTC FOIA workbook", "value_type": "released_record_count"},
+      "measures": {
+        "bbb_ca_oakland_records": {"value": 196, "unit": "released records attributed to BBB CA Oakland", "value_type": "coded_record_count"},
+        "bbb_ca_oakland_disposition_coverage": {"value": 178, "unit": "BBB CA Oakland records with RESOLVED, ANSWERED, or ADMIN INVALID disposition; 14 blank", "value_type": "coded_record_count"},
+        "bbb_ca_oakland_resolved": {"value": 50, "unit": "BBB CA Oakland records marked RESOLVED", "value_type": "coded_record_count"},
+        "bbb_ca_oakland_answered": {"value": 128, "unit": "BBB CA Oakland records marked ANSWERED", "value_type": "coded_record_count"},
+        "other_or_blank_source_records": {"value": 7, "unit": "records from FTC Online Complaints, BBB Scam Tracker, Federal Trade Commission, or blank source; all had blank disposition fields", "value_type": "coded_record_count"},
+        "channel_conditioning_result": {"value": "all nonblank disposition labels occur in the dominant BBB CA Oakland channel", "unit": "selection and missingness boundary", "value_type": "measured_boundary"}
+      },
+      "method": "Cross-tabulation of complaint source and normalized disposition labels from non-text workbook fields; no narrative text, names, addresses, contact fields, or raw workbook retained.",
+      "uncertainty": "The channel-conditioned pattern may reflect source-specific intake, coding, or release practices rather than different firm responses. It cannot be generalized across complaint channels, Hims customers, or health outcomes.",
+      "subgroup": "BBB CA Oakland complaints versus the small set of FTC, BBB Scam Tracker, Federal Trade Commission, and source-blank records in the released file.",
+      "counterinterpretation": "The absence of dispositions outside BBB CA Oakland may indicate incomplete fields or different administrative pipelines, not absence of resolution or response in those channels.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/documents/2025-02172him-hers-consumer-complaints.xlsx",
+      "retrieval_hash": "sha256:e0345bcdc8583937cae63520863d6e238cbd7238f9cf07dc17eea5ccf460a440",
+      "status": "reported"
     }
   ],
   "related_sources": [

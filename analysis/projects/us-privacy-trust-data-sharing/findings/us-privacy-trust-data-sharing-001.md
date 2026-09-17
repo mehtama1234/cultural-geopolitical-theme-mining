@@ -68,6 +68,13 @@ deletion, treatment-continuity, or durable compliance outcome. Still, it makes
 the response distinction concrete: an organization can answer a complaint
 without the public record showing that the complainant was satisfied.
 
+The channel check sharpens the limitation: all 50 `RESOLVED`, 128 `ANSWERED`,
+and 4 invalid labels occur within the 196 BBB CA Oakland records. The other
+seven records—FTC Online Complaints, BBB Scam Tracker, Federal Trade
+Commission, or source-blank—have blank disposition fields. The apparent
+response pattern is therefore inseparable from intake and coding selection;
+it is not a cross-channel resolution comparison.
+
 ## Evidence boundary
 
 | Surface | What the official case contributes | What remains unmeasured |
