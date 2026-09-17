@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-thirty-six estimates of one phenomenon:
+thirty-seven estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -74,10 +74,11 @@ thirty-six estimates of one phenomenon:
 | 34. Aggregate subscription relief and individual recovery | [Amazon Prime refund distribution](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md) | The FTC's Amazon case adds a court-entered $2.5B settlement, $1.5B refund pool, and reported refund/claims stages without exposing individual receipt or later household recovery | Eligibility, notice, claim, receipt, amount, delay, continued use, switching, trust, and remaining loss in the same account |
 | 35. Privacy, health data, and digital consumer power | [Digital health data-sharing enforcement](projects/us-privacy-trust-data-sharing/findings/us-privacy-trust-data-sharing-001.md) | A named telehealth enforcement case connects sensitive health-data sharing and billing/cancellation allegations to privacy, consent, and remedy questions | Data-use notice, authorization, deletion, billing correction, treatment continuity, trust, and practical exit |
 | 36. Time as the hidden digital price | [Time-intensive platform consumption](projects/us-time-intensive-platform-consumption/findings/us-time-intensive-platform-consumption-001.md) | Facebook/Instagram field experiments treat ad load, time share, and time cost as demand inputs, showing why a free service can still consume scarce household attention | Work, care, sleep, well-being, offline substitution, switching, and realized competition effects |
+| 37. Institutional voice and remedy clocks | [Political action menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md) and [consumer recourse synthesis](projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md) | Complaints, appeals, legal challenges, votes, contacts, and switching are distinct action channels; public routing, formal orders, payment/distribution, actual restoration, and exit run on separate clocks | Same-event attribution, action choice, remedy receipt, residual loss, durable trust, and practical exit |
 
 ### The common pattern
 
-Across the thirty-six rotations, the strongest recurring theme is **unequal
+Across the thirty-seven rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
