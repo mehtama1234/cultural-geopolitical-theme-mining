@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 294 machine-readable records, 1051 observations,
+The current registry contains 295 machine-readable records, 1054 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -744,6 +744,15 @@ security, and insurance coverage is not affordable or continuous care. The
 result strengthens the atlas proposition that aggregate improvement can
 coexist with unresolved distributional, health-access, and political-action
 questions.
+
+The [Census August 2026 retail-sales and consumer-activity layer](projects/us-household-financial-pressure/census-august-2026-retail-sales-consumer-activity-layer-v1.md)
+adds the adjacent behavior surface: national retail and food-services sales
+were $773.9 billion, up 1.2% from July and 6.0% from August 2025 in current
+dollars. Because the release is not price-adjusted, this does not establish
+more units purchased, greater household room, consumer confidence, or firm
+profit. It does, however, make the missing middle explicit between price and
+household experience: channel, category, quantity, payment, debt, substitution,
+and resource-group incidence remain the next tests.
 
 The [BEA Q2 2026 growth/profits record](records/us-bea-gdp-corporate-profits-2026q2.json)
 adds a separate macro-firm surface for real GDP, private domestic demand,

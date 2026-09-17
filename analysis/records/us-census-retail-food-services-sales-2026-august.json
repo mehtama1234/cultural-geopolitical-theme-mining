@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-retail-food-services-sales-2026-august",
+  "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "housing_place_mobility", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "Census Bureau Advance Monthly Sales for Retail and Food Services; seasonally adjusted establishment sales aggregate",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "August 2026; advance retail and food-services sales",
+      "denominator": {"value": null, "unit": "Census advance monthly retail and food-services sales aggregate; establishment frame and survey denominator are not represented as a single household respondent denominator", "value_type": "not_disclosed"},
+      "measures": {"sales": {"value": 773.9, "unit": "billions of current US dollars, seasonally adjusted; not price-adjusted", "value_type": "reported_level"}, "monthly_change": {"value": 1.2, "unit": "percent from July 2026, seasonally adjusted; margin of error ±0.4 percentage points", "value_type": "reported_change"}, "yearly_change": {"value": 6.0, "unit": "percent from August 2025, seasonally adjusted; margin of error ±0.5 percentage points", "value_type": "reported_change"}},
+      "method": "Census Advance Monthly Sales for Retail and Food Services release; sales are adjusted for seasonal variation and holiday/trading-day differences but explicitly not adjusted for price changes.",
+      "uncertainty": "Advance estimates are subject to revision and sampling/non-sampling error; nominal sales combine price, quantity, product mix, channel, establishment, and timing changes. The release does not identify household income, payment method, debt, substitution, or unit-level welfare.",
+      "subgroup": "National retail and food-services establishment aggregate; no household, income, place, race, age, or product-specific subgroup is used in this observation.",
+      "counterinterpretation": "Higher dollar sales can reflect higher prices, not more units or better household welfare. Households may sustain purchases through credit, depletion of buffers, substitution, reduced quality, or uneven access while other consumers increase spending.",
+      "source_url": "https://www.census.gov/retail/sales.html",
+      "retrieval_hash": "sha256:963c5eb39875c097d5e93f932aec491deec88e23ecdabad58389e7a490b792fa",
+      "status": "reported"
+    },
+    {
+      "period": "June-August 2026; three-month retail and food-services sales comparison",
+      "denominator": {"value": 3, "unit": "three monthly national aggregate sales periods in the June-August 2026 window compared with the same months one year earlier", "value_type": "time_window"},
+      "measures": {"three_month_yearly_change": {"value": 6.0, "unit": "percent from June-August 2025 to June-August 2026; margin of error ±0.5 percentage points", "value_type": "reported_change"}},
+      "method": "Census release's three-month comparison, retained as a window-level aggregate rather than treated as a household panel or a seasonal preference measure.",
+      "uncertainty": "A three-month dollar-sales comparison does not separate prices from quantities, nor does it measure durable demand, repeat customers, establishment survival, local access, or household financial strain.",
+      "subgroup": "National retail and food-services establishment aggregate over the stated three-month window.",
+      "counterinterpretation": "A positive sales window can coexist with reduced volume, lower-quality substitution, increased borrowing, or concentrated growth among higher-resource consumers and large channels.",
+      "source_url": "https://www.census.gov/retail/sales.html",
+      "retrieval_hash": "sha256:963c5eb39875c097d5e93f932aec491deec88e23ecdabad58389e7a490b792fa",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 revision reported in the August 2026 release",
+      "denominator": {"value": 1, "unit": "prior monthly aggregate estimate revised in the current release", "value_type": "revision_event"},
+      "measures": {"prior_month_change_original": {"value": -0.6, "unit": "percent June-to-July 2026 change originally reported", "value_type": "reported_revision_input"}, "prior_month_change_revised": {"value": -0.5, "unit": "percent June-to-July 2026 change revised in the August release; margin of error ±0.2 percentage points", "value_type": "reported_revision"}},
+      "method": "Census revision note in the August 2026 advance release; original and revised estimates are retained rather than silently overwriting the prior vintage.",
+      "uncertainty": "The revision shows that the current release is not a final behavioral estimate; later revisions and benchmark updates may change the magnitude without identifying the source of household or firm-level movement.",
+      "subgroup": "National retail and food-services aggregate; no establishment or household subgroup.",
+      "counterinterpretation": "A small revision should not be read as evidence of a turning point in consumer culture, confidence, or political judgment.",
+      "source_url": "https://www.census.gov/retail/sales.html",
+      "retrieval_hash": "sha256:963c5eb39875c097d5e93f932aec491deec88e23ecdabad58389e7a490b792fa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm", "claim": "BLS August 2026 CPI provides the price context needed before interpreting nominal retail sales as real volume or household welfare.", "status": "price-context"},
+    {"source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026", "claim": "BEA July 2026 personal income, consumption, outlays, and saving provide a separate aggregate accounts context.", "status": "income-context"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm", "claim": "Federal Reserve SHED 2025 provides household hardship and price-response context that is not observed in establishment sales.", "status": "household-context"}
+  ],
+  "boundary": "This record adds a current nominal retail and food-services activity checkpoint. It does not establish real consumption volume, household affordability, consumer confidence, firm profitability, local business survival, payment or debt response, trust, political action, or a causal link from prices or income to spending. Product, channel, geography, and household-level incidence remain open.",
+  "retrieval_hash": "sha256:963c5eb39875c097d5e93f932aec491deec88e23ecdabad58389e7a490b792fa"
+}

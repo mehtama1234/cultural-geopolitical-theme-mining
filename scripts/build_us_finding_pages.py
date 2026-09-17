@@ -338,6 +338,7 @@ def main():
     memos.append(material_meaning_action_audit)
     memos.append(ROOT / "analysis/projects/us-food-budget-security/usda-2024-food-security-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-2025-income-poverty-insurance-vintage-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-august-2026-retail-sales-consumer-activity-layer-v1.md")
     ai_work_control_endpoint_audit = ROOT / "analysis/projects/ai-work-control/ai-work-control-endpoint-audit-v1.md"
     memos.append(ai_work_control_endpoint_audit)
     named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"

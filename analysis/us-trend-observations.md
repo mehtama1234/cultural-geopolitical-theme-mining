@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-294 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+295 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -253,6 +253,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Census 2025 income, poverty, and insurance measures move on different household-security clocks | cost, work, voice | household_room_consumption, unequal_exposure_status, care_health_reproduction, public_systems_feedback, political_judgment_action | Census Current Population Survey Annual Social and Economic Supplement (CPS ASEC) national income, poverty, and health-insurance estimates | United States | 4 | 2025; real median household income; 2025; official poverty measure; 2025; Supplemental Poverty Measure; 2025; uninsured for the entire year | reported | [open](records/us-census-income-poverty-health-insurance-2025.json) |
 
 **Boundary:** This is a current national CPS ASEC release surface. It records income, official poverty, SPM poverty, and full-year uninsured estimates as separate measures. It does not establish household-specific purchasing power, a causal price or policy effect, benefit adequacy, medical access, trust, political action, or later recovery. No report PDF or microdata was acquired for this page-vintage record.
+
+| August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open | cost, voice, energy | household_room_consumption, consumer_power_recourse, unequal_exposure_status, housing_place_mobility, firm_sector_market_power, political_judgment_action | Census Bureau Advance Monthly Sales for Retail and Food Services; seasonally adjusted establishment sales aggregate | United States | 3 | August 2026; advance retail and food-services sales; June-August 2026; three-month retail and food-services sales comparison; July 2026 revision reported in the August 2026 release | reported | [open](records/us-census-retail-food-services-sales-2026-august.json) |
+
+**Boundary:** This record adds a current nominal retail and food-services activity checkpoint. It does not establish real consumption volume, household affordability, consumer confidence, firm profitability, local business survival, payment or debt response, trust, political action, or a causal link from prices or income to spending. Product, channel, geography, and household-level incidence remain open.
 
 | Medical debt becomes a visible CFPB complaint category | cost, voice | household_room_consumption, consumer_power_recourse, public_systems_feedback, care_health_reproduction | published CFPB complaint record represented in a 2025 product/sub-product aggregate snapshot | United States | 1 | 2025 complaints received; CFPB aggregate snapshot | observed | [open](records/us-cfpb-2025-medical-debt-visibility.json) |
 
