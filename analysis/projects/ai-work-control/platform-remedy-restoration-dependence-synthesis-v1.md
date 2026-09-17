@@ -1,7 +1,7 @@
 # Platform remedy, restoration, and dependence
 
 **Status:** provisional case-level synthesis  
-**Checked:** 2026-09-15
+**Checked:** 2026-09-16
 
 ## Research question
 
@@ -75,6 +75,15 @@ These are not pooled estimates. They are a deliberately small set of public
 case records whose unit is a proceeding or named worker, with uneven follow-up
 windows and different procedural postures.
 
+The [Azwar regular-work and time-control record](uber-azwar-regular-work-time-control-record-v1.md)
+adds an upstream eligibility and time-control boundary rather than another
+remedy outcome. The FWC treated logged-on standby availability as distinct
+from paid trip time for the hourly threshold, but accepted a recurring
+three-days-per-week paid-work pattern as sufficient for protection from unfair
+deactivation. This makes a hidden cost of access visible—time can be committed
+without being paid—while leaving income recovery, alternatives, and exit
+unobserved.
+
 ## The key mechanism distinction
 
 The evidence now supports four separate propositions:
@@ -92,7 +101,13 @@ The evidence now supports four separate propositions:
    autonomy.** A worker who returns and completes later trips has regained an
    income route, but the record does not identify alternatives, bargaining
    power, switching costs, or whether return was voluntary under household
-   constraints.
+  constraints.
+
+5. **Legal access to review does not measure the full cost of availability.**
+   Azwar shows that a worker can satisfy a patterned legal-work gate while the
+   time spent waiting for paid tasks remains outside the paid-hours measure.
+   Eligibility, paid time, opportunity cost, and household security must remain
+   separate variables.
 
 This yields a sharper theme than “platforms are contestable”:
 
@@ -129,6 +144,7 @@ any one of them.
 - [Uber / Hotak reactivation and lost-pay record](uber-hotak-access-restoration-followup-record-v1.md)
 - [Uber / Khan reactivation and lost-pay record](uber-khan-reactivation-lost-pay-record-v1.md)
 - [Uber / Waheed merits remedy record](uber-waheed-merits-remedy-record-v1.md)
+- [Uber / Azwar regular-work and time-control record](uber-azwar-regular-work-time-control-record-v1.md)
 
 ## Boundary
 

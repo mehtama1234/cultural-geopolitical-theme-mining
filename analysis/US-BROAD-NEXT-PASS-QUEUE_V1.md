@@ -165,6 +165,10 @@ preserving units and attrition boundaries. The targeted [Rehman platform
 remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md) now
 adds a formal reactivation and $7,096.96 gross lost-remuneration order, while
 keeping payment receipt, alternatives, durability, and practical exit open.
+The companion [Azwar time-control record](projects/ai-work-control/uber-azwar-regular-work-time-control-record-v1.md)
+adds an eligibility-stage distinction between logged-on standby availability,
+paid trip time, and a recurring work pattern; it does not add a remedy or exit
+outcome.
 
 ### ILOSTAT comparison gate
 
