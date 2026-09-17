@@ -1,6 +1,6 @@
 {
   "audit_type": "psid-access-surface-audit-v1",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "source_url": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
   "source_status": "official package page lists target files",
   "listed_targets": [
@@ -63,5 +63,12 @@
     "response_indicators": ["Cloudflare managed challenge", "cf-mitigated: challenge"],
     "interpretation": "The automated workspace still cannot retrieve the package without an authenticated browser/session. This confirms the access boundary, not file absence or a substantive null result.",
     "source_url": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y"
+  },
+  "workspace_recheck_2026_09_17": {
+    "checked": "2026-09-17",
+    "method": "Read-only filename search across /tmp and the repository for PSID/UAS-named files",
+    "target_data_files_found": false,
+    "non_data_artifacts_found": true,
+    "interpretation": "Only documentation, manifests, scripts, and small smoke-audit outputs were found; no target PSID package was downloaded or retained. This confirms the local acquisition boundary, not a substantive null result."
   }
 }

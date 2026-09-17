@@ -1,6 +1,6 @@
 # PSID acquisition gate
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
 ## What is available
@@ -38,6 +38,12 @@ merge, or trend claim should be written from the documentation alone.
 
 This is an access prerequisite, not a null finding and not evidence that the
 planned relationship is absent.
+
+The 2026-09-17 local workspace recheck searched `/tmp` and the repository for
+PSID/UAS-named files. It found only documentation, manifests, scripts, and
+small smoke-audit outputs; no target PSID package was present. No package was
+downloaded during this check, and the absence of a local package is not
+evidence that the substantive relationship is absent.
 
 The current official [PSID documentation page](https://psidonline.isr.umich.edu/Guide/documents.aspx)
 continues to expose 2023 Main Study documentation and links to the Data Center
