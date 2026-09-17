@@ -733,6 +733,18 @@ finding](projects/us-household-financial-pressure/findings/us-household-financia
 uses it to anchor the macro environment without imputing equal household room,
 real purchasing power, consumer choice, or political meaning.
 
+The [Census 2025 income, poverty, and insurance vintage layer](projects/us-household-financial-pressure/census-2025-income-poverty-insurance-vintage-layer-v1.md)
+adds a newer national household-security checkpoint without replacing the
+household-level evidence. Real median household income reached $87,460 and
+official poverty was 10.2%, while the Supplemental Poverty Measure (13.1%) and
+full-year uninsured rate (7.9%) were not statistically different from 2024 in
+the release summary. These are different universes and clocks: the median is
+not liquid room, official poverty is not post-tax or medical-cost-adjusted
+security, and insurance coverage is not affordable or continuous care. The
+result strengthens the atlas proposition that aggregate improvement can
+coexist with unresolved distributional, health-access, and political-action
+questions.
+
 The [BEA Q2 2026 growth/profits record](records/us-bea-gdp-corporate-profits-2026q2.json)
 adds a separate macro-firm surface for real GDP, private domestic demand,
 prices, and corporate profits. The [work-control finding](projects/ai-work-control/findings/ai-work-control-041.md)
