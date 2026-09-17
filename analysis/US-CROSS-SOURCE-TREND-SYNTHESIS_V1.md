@@ -712,6 +712,15 @@ say it makes no difference. Identity centrality, labels, treatment,
 opportunity meaning, and collective connection diverge by party, vote, and
 immigrant generation; none is a causal mobility or voting estimate.
 
+The [Census Vintage 2025 population slowdown and migration geography layer](projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md)
+adds a place-demography frame. US growth slowed to 0.5% from July 2024 to July
+2025; nine in ten counties had lower net international migration than the
+prior year, while counties with at least one million residents lost 637,634
+through domestic migration and smaller large counties gained 533,766. Metro
+growth still depended on 1,209,432 net international migrants despite a
+119,205 domestic-migration loss. These are aggregate components, not individual
+mover trajectories or service-capacity effects.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

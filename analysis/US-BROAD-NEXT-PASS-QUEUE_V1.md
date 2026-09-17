@@ -2644,6 +2644,14 @@ encounter joined to identity meaning, information, treatment, support-seeking,
 avoidance, organizing, or exit. Do not use identity centrality as a proxy for
 mobility, assimilation, consumption, or voting.
 
+The [Census Vintage 2025 population slowdown and migration geography layer](projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md)
+adds a place-level demographic reversal: national growth slowed, international
+migration fell in nearly all counties, and domestic migration moved people away
+from the very largest counties toward smaller ones. The next test is a
+county/metro panel joining migration components to housing, wages, services,
+transport, energy, identity, and political response. Do not read population
+growth or loss as a direct measure of local welfare or capacity.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
