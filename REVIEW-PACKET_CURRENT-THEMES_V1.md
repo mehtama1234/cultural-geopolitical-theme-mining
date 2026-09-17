@@ -115,6 +115,10 @@ its unresolved arrows visible:
   stable annual time averages can coexist with selected childcare-related work
   time loss and later household hardship; protected and sacrificed outcomes
   remain unjoined.
+- [SIPP resource/work direction by children and SNAP context](site/us-household-calendar-integration-045.html):
+  hours remain comparatively stable while low-resource earnings direction varies
+  by household context and high-resource patterns converge; this is a descriptive
+  subgroup reversal, not a causal child-care or SNAP effect.
 - [MEPS episode-field availability boundary](site/us-health-cost-household-choice-013.html):
   18,457 staged person/event rows provide month-ordered health-cost context,
   but alternatives, event-specific choice, verified remedy, and meaning/action
