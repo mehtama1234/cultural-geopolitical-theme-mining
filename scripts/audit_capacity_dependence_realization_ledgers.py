@@ -27,6 +27,7 @@ def main() -> int:
     root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path, default=root / "analysis/projects/ai-work-control/data/capacity-dependence-realization-audit-v1.json")
+    parser.add_argument("--checked", default="2026-09-17", help="date of this audit run (YYYY-MM-DD)")
     parser.add_argument("ledgers", nargs="*", type=Path, default=[
         root / "analysis/projects/ai-work-control/data/us-data-center-realization-ledger-v1.json",
         root / "analysis/projects/ai-work-control/data/poland-jassm-er-realization-ledger-v1.json",
@@ -58,7 +59,7 @@ def main() -> int:
     result = {
         "format": "capacity-dependence-realization-audit-v1",
         "status": "stage_coverage_audit_only",
-        "checked": "2026-09-16",
+        "checked": args.checked,
         "cases": cases,
         "cross_case_boundary": "The ledgers show commitment, selected capacity, governance, and operational-stress stages, but do not establish complete accepted/operating capability, replaceability, household/partner incidence, or changed external behavior.",
     }

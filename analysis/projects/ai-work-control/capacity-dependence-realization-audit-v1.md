@@ -1,7 +1,7 @@
 # Capacity and dependence realization-stage audit v1
 
 **Status:** stage-coverage audit; no capability, autonomy, or leverage estimate  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Cases:** US data-center capacity/governance and Poland JASSM-ER procurement  
 **Machine-readable audit:** [capacity/dependence realization audit](data/capacity-dependence-realization-audit-v1.json)
 
@@ -29,7 +29,7 @@ record as the same kind of realization.
 | Case | Observed or planned stages | Still not established |
 |---|---|---|
 | US data centers | Modeled national demand; local capacity/revenue; utility governance; two large-load drop events; customer-response records; comparator and non-observation records | Facility-level operating load tied to public cost, household/business incidence, ownership, replaceability, reliable service outcome, and public legitimacy |
-| Poland JASSM-ER | Possible-sale authorization; procurement agreement; planned 2026–2030 delivery; technology-sensitivity modification; audit/control comparator | Specific-order production, shipment, acceptance, Polish unit receipt, training/fielding, inventory, operational availability, substitution, and external response |
+| Poland JASSM-ER | Possible-sale authorization; procurement agreement; planned 2026–2030 delivery; technology-sensitivity modification; audit/control comparator; broad delivered-equipment comparator | Specific-order production, shipment, acceptance, Polish unit receipt, training/fielding, inventory, operational availability, substitution, and external response |
 
 The shared pattern is not “capacity failed” or “capacity succeeded.” It is
 that commitments and some intermediate realization signals are visible before
@@ -44,7 +44,7 @@ this classification is a reading aid, not a new source claim.
 | Case | Events | Commitment | Capacity/operation | Delivery/operation | Governance/external response | Missing-stage record |
 |---|---:|---:|---:|---:|---:|---:|
 | US data centers | 13 | 0 | 5 | 2 | 4 | 1 |
-| Poland JASSM-ER | 7 | 3 | 0 | 1 planned | 0 | 1 |
+| Poland JASSM-ER | 8 | 3 | 0 | 1 planned | 0 | 1 |
 
 The counts are not quantities, readiness scores, or comparable performance
 rates. The data-center ledger has operating-stress and customer-response

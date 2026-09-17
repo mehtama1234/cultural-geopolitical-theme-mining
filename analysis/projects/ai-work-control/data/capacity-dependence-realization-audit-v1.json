@@ -137,7 +137,7 @@
     },
     {
       "case_id": "poland-jassm-er-2024-order",
-      "event_count": 7,
+      "event_count": 8,
       "events": [
         {
           "boundary": "A possible-sale authorization is not a signed order, production record, delivery, acceptance, or operational availability.",
@@ -188,6 +188,14 @@
           "stage": "missing_stage"
         },
         {
+          "boundary": "The response confirms only that JASSM-ER appears in a broad delivered-equipment list; it gives no quantity, date, customer unit, acceptance record, or linkage to the May 2024 order. It is baseline/comparator evidence, not current-order realization evidence.",
+          "event_date": "2022-03-01/2026-02-03",
+          "event_id": "jassm-er-prior-equipment-delivery-since-2022-comparator",
+          "event_type": "comparator",
+          "source_status": "observed_comparator",
+          "stage": "counterexample"
+        },
+        {
           "boundary": "The comparator shows that schedule, physical delivery, and settlement can occur on different clocks; it is not evidence about the JASSM-ER order.",
           "event_date": "2024-12-01/2025-01-31",
           "event_id": "f35-fms-timing-comparator-2024-2025",
@@ -203,6 +211,7 @@
         "external_response_or_geopolitical_leverage": "open",
         "inventory_or_operational_availability": "not_observed",
         "planned_delivery": "observed_as_plan",
+        "prior_baseline_jassm_er_delivery": "observed_as_broad_official_list_entry",
         "production_or_capacity_for_specific_polish_order": "not_observed",
         "shipment": "not_observed",
         "training_or_fielding": "not_observed"
@@ -211,19 +220,19 @@
       "stage_counts": {
         "commitment": 3,
         "control_or_replaceability": 1,
-        "counterexample": 1,
+        "counterexample": 2,
         "delivery_or_operation": 1,
         "missing_stage": 1
       },
       "status_counts": {
         "not_observed": 1,
         "observed": 4,
-        "observed_comparator": 1,
+        "observed_comparator": 2,
         "planned": 1
       }
     }
   ],
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "cross_case_boundary": "The ledgers show commitment, selected capacity, governance, and operational-stress stages, but do not establish complete accepted/operating capability, replaceability, household/partner incidence, or changed external behavior.",
   "format": "capacity-dependence-realization-audit-v1",
   "status": "stage_coverage_audit_only"
