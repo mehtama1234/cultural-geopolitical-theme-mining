@@ -324,6 +324,18 @@ receipt, routing, channel, narrative presence, timeliness, and response labels;
 it explicitly does not turn a company label into verified correction, recovery,
 repeat effort, switching, trust, or exit.
 
+The [SNAP data-governance finding](projects/us-safety-net-access/findings/us-safety-net-access-016.md)
+extends the institutional route backward to control over the records that
+define eligibility, benefit levels, and program integrity. DOJ's 2026 lawsuit
+announcement reports a federal demand for five years of applicant data from
+four states after 29 jurisdictions reportedly shared data; the related 2025
+court order temporarily restrained threatened funding disallowance for most
+plaintiff states and noted that the record did not show significant fraud or
+eligibility errors in compliant states. This creates a useful two-sided
+governance stage—oversight authority versus privacy, statutory, and state
+control—without converting either agency claims or a temporary order into
+applicant-level benefit, food-security, or trust outcomes.
+
 The [SHED annual fraud comparison](projects/us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md)
 adds a second annual household sample to the consumer-power row. It preserves
 the income-conditioned recovery pattern while showing that age exposure
