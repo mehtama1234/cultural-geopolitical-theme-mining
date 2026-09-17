@@ -902,6 +902,23 @@ stage of the AI/work lane while leaving tool exposure, notice receipt,
 appeal/override, correction, compensation, durable compliance, trust,
 bargaining, and exit open.
 
+The latest broad-program pass adds a detailed [material-pressure to
+meaning/action route](../REVIEW-PACKET_CURRENT-THEMES_V1.md#route-13-material-pressure-becomes-meaning-and-political-action)
+to the main review packet. It places the retained HTOPS, CCES, CES
+medical-affordability, and ANES designs side by side, preserving their
+different respondent universes, clocks, and action definitions. The CES
+comparison shows that turnout, official contact, protest, and attribution can
+move differently across module years; the ANES panel supplies temporal order
+but remains confounded by identity and prior judgment. This strengthens the
+meaning/action bridge without claiming a universal hardship-to-backlash path.
+
+The current-themes packet is now also published as a [reader-facing HTML
+route](../site/review-packet-current-themes.html), linked from the review guide
+and current-status page. This makes the detailed writeups reviewable without
+requiring repository navigation. The publication gate passes, but the central
+same-unit gap remains: no retained record follows a dated material event
+through attribution, action, remedy, recovery, and later exit or trust.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.
