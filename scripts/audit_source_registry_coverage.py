@@ -120,6 +120,8 @@ review_classifications = {
     "open.gsa.gov": ("government API delivery host", "Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route."),
     "cbp.gov": ("federal delivery and border source", "Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane."),
     "nasbo.org": ("state-fiscal policy source", "Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared."),
+    "uasdata.usc.edu": ("official UAS data/documentation host", "Retain as the official UAS source family; respondent-file downloads remain registration-gated, and no microdata are promoted without the acquisition manifest plus key, weight, and missingness checks."),
+    "uasvis.usc.edu": ("official UAS visualization host", "Retain as a public metadata and aggregate-explorer route; do not treat the visualization as a substitute for registration-gated respondent microdata or as a medical-expense-specific estimate."),
 }
 
 lines = [

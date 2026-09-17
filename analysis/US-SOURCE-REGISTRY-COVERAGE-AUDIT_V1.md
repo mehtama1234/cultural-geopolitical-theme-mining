@@ -214,7 +214,7 @@ without a recurring acquisition need and source-specific metadata.
 | `doi.org` | citation/index host | Do not register; retain DOI as a source identifier and preserve the underlying publisher or institution separately. |
 | `theguarantors.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and treat the vendor material as case-specific evidence. |
 | `mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `uasdata.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `uasdata.usc.edu` | official UAS data/documentation host | Retain as the official UAS source family; respondent-file downloads remain registration-gated, and no microdata are promoted without the acquisition manifest plus key, weight, and missingness checks. |
 | `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
 | `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
@@ -258,7 +258,7 @@ without a recurring acquisition need and source-specific metadata.
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
-| `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `uasvis.usc.edu` | official UAS visualization host | Retain as a public metadata and aggregate-explorer route; do not treat the visualization as a substitute for registration-gated respondent microdata or as a medical-expense-specific estimate. |
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
