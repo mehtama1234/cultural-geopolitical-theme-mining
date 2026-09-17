@@ -8,6 +8,15 @@ societal, consumer, political, institutional, financial, firm, infrastructure,
 and geopolitical themes. Each pass adds or tests evidence; no one dataset,
 finding, or session is the completion condition.
 
+## Governing objective
+
+Explain how conditions and decisions become lived social, cultural, consumer,
+political, institutional, firm, and geopolitical consequences, while keeping
+the unit, date, denominator, source vintage, uncertainty, counterexample, and
+missing arrow visible. The execution charter is the [US broad research pass](US-BROAD-RESEARCH-PASS_V1.md),
+and the [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) assigns each arrow to
+a source and next test.
+
 ## Current scale
 
 - **14** program themes

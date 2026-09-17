@@ -184,6 +184,7 @@ html_doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta 
 <p class="eyebrow">Long-term program control · checked {date.today().isoformat()}</p><h1>A living atlas of how conditions become meaning, power, and consequence.</h1>
 <p class="lede">This is the operating view of the US-centered cultural, societal, consumer, political, institutional, financial, firm, infrastructure, and geopolitical program. It is a continuing research program: each pass adds or tests evidence; no single dataset or finding completes it.</p>
 <div class="callout"><p><strong>Governing question:</strong> What forces are changing how people in the United States live, spend, work, borrow, vote, and trust institutions—and how do those changes affect firms, finance, and state power?</p></div>
+<h2>Governing objective</h2><p>Explain how conditions and decisions become lived social, cultural, consumer, political, institutional, firm, and geopolitical consequences, while keeping the unit, date, denominator, source vintage, uncertainty, counterexample, and missing arrow visible.</p>
 <div class="metrics"><div class="metric"><strong>14</strong><span>program themes</span></div><div class="metric"><strong>{len(records)}</strong><span>validated trend records</span></div><div class="metric"><strong>{observations}</strong><span>period-specific observations</span></div><div class="metric"><strong>{source_packets}</strong><span>source-search packets</span></div></div>
 <h2>Source ecosystem</h2><p class="small">The program triangulates source families. A source contributes the unit and limit it can actually support; it is not silently promoted into evidence for a different stage of the chain.</p><div class="grid">{families}</div>
 <h2>Theme coverage</h2><table><thead><tr><th>Theme</th><th>Tagged records</th><th>Current state</th></tr></thead><tbody>{rows}</tbody></table>
@@ -202,6 +203,15 @@ The program maintains a US-centered, cross-source living atlas of cultural,
 societal, consumer, political, institutional, financial, firm, infrastructure,
 and geopolitical themes. Each pass adds or tests evidence; no one dataset,
 finding, or session is the completion condition.
+
+## Governing objective
+
+Explain how conditions and decisions become lived social, cultural, consumer,
+political, institutional, firm, and geopolitical consequences, while keeping
+the unit, date, denominator, source vintage, uncertainty, counterexample, and
+missing arrow visible. The execution charter is the [US broad research pass](US-BROAD-RESEARCH-PASS_V1.md),
+and the [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) assigns each arrow to
+a source and next test.
 
 ## Current scale
 
