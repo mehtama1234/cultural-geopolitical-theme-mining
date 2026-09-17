@@ -909,6 +909,15 @@ infrastructure/geopolitical lane while preserving the open stages: a dated
 disruption or export-control event, firm redesign or production response,
 local burden, supplier switching, and observed external leverage.
 
+The fifty-fourth rotation adds the [CHIPS R&D capacity and governance
+layer](projects/ai-work-control/gao-2026-chips-rd-capacity-governance-dependence-layer-v1.md).
+It follows public semiconductor incentives from awards and disbursements
+through milestones, workforce activity, R&D institutions, and statutory
+alignment. It strengthens the work, firm, infrastructure, and geopolitical
+lanes while preserving the open links to qualified output, worker retention,
+local burden, customer supply, supplier switching, and reduced foreign
+dependence.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)

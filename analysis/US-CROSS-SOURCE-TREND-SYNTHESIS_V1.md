@@ -743,6 +743,17 @@ dependence. This is a capability counterexample: domestic production or a
 factory announcement does not prove processing control, substitute performance,
 or geopolitical autonomy.
 
+The [GAO 2026 CHIPS R&D capacity and governance layer](projects/ai-work-control/gao-2026-chips-rd-capacity-governance-dependence-layer-v1.md)
+adds a public industrial-policy implementation stage above the mineral-input
+layer. Commerce had awarded 49 projects across 24 companies and disbursed $13.1
+billion by April 2026, while GAO also reports that about $7.8 billion of the
+$11 billion advanced-microelectronics R&D appropriation was canceled and that
+the replacement institutions lacked sufficiently detailed statutory-alignment
+plans. This is not a contradiction: facility milestones, workforce spending,
+research governance, operating output, and reduced foreign dependence are
+different currencies. The next test is a project-year ledger that follows
+qualification, workers, output, supplier switching, and customer delivery.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,

@@ -89,6 +89,12 @@ concentration, and strategic-control boundaries to themes 12, 13, and 14. It
 preserves the distinction between import reliance, technical potential,
 commercial maturity, realized capacity, and external leverage.
 
+The [CHIPS R&D capacity and governance layer](projects/ai-work-control/gao-2026-chips-rd-capacity-governance-dependence-layer-v1.md)
+adds award, disbursement, milestone, workforce, R&D-institution, and statutory-
+alignment stages to themes 5, 12, 13, and 14. Facility progress and strategic
+autonomy remain separate; the project-year output, worker-retention, supplier-
+switching, and customer-delivery links are open.
+
 **Latest disaster-response rotation:** the [EDA economic-recovery outcomes
 layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
 adds federal economic-recovery coordination, infrastructure investment, local

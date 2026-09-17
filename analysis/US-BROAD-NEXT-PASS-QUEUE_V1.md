@@ -2742,3 +2742,14 @@ the [coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md), the [trend register
 and the [broad trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md).
 The [recovery brief](../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md) remains the
 canonical end-to-end objective.
+a mineral-application event ledger linking disruption or export control to
+shipment, price, inventory, redesign, output, local burden, supplier switch,
+and external response; do not infer autonomy from domestic production value.
+
+The [GAO 2026 CHIPS R&D capacity and governance layer](projects/ai-work-control/gao-2026-chips-rd-capacity-governance-dependence-layer-v1.md)
+adds a second infrastructure/geopolitical test above critical minerals. It
+separates awards, disbursements, milestones, workforce activity, R&D governance,
+statutory alignment, qualified output, and foreign dependence. The next test is
+a project-year semiconductor ledger with ownership, public rights, workforce
+retention, local capacity, yield, customer delivery, and supplier switching;
+do not call disbursement or milestone progress strategic autonomy.
