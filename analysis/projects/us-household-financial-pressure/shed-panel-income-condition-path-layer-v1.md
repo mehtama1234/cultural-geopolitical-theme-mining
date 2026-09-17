@@ -1,9 +1,10 @@
 # SHED panel income × financial-condition path layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-16
 **Unit:** recontacted SHED respondent; 2024 to 2025  
 **Sample:** 4,419 recontacted respondents with a valid condition path and 2025 income band
 **Method:** descriptive weighted cross-tab using 2025 `panel_weight`; no variance estimate or causal model
+**Machine output:** [income × condition path data](data/shed-panel-adaptation-income-path-2024-2025.json)
 
 ## Why this layer matters
 
@@ -33,6 +34,10 @@ those reporting No in 2024.
 
 The file contains **4,419** respondents with both a valid condition path and a
 valid 2025 income band. Cell counts below are unweighted paired-record counts.
+
+The current storage-light rerun reproduced the 4,419-row frame and wrote the
+machine output linked above. It reads the two existing local SHED ZIP files and
+does not copy raw respondent rows into Git.
 
 ## Persistence among prior adopters
 
@@ -115,7 +120,7 @@ adaptation” story.
 python3 scripts/analyze_shed_panel_adaptation_income_path.py \
   --old /path/to/SHED_public_use_data_2024_(CSV).zip \
   --new /path/to/SHED_2025.csv.zip \
-  --output /tmp/shed-adaptation-income-path.json
+  --output analysis/projects/us-household-financial-pressure/data/shed-panel-adaptation-income-path-2024-2025.json
 ```
 
-The analysis uses the official [Federal Reserve SHED data releases](https://www.federalreserve.gov/consumerscommunities/shed_data.htm). Raw files and generated JSON are not committed.
+The analysis uses the official [Federal Reserve SHED data releases](https://www.federalreserve.gov/consumerscommunities/shed_data.htm). Raw files remain outside the repository; only aggregate JSON is committed.

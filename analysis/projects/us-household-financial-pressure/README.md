@@ -32,6 +32,12 @@ persist on a worsening financial-condition path than on an improving path, with
 borrowing, reduced use, saving cuts, and delayed purchases kept separate. This
 is descriptive population evidence, not a causal estimate.
 
+The [SHED income × financial-condition path layer](shed-panel-income-condition-path-layer-v1.md)
+now has a compact aggregate machine output for the same 4,419 recontacted
+respondents. It preserves income-conditioned persistence and re-entry while
+keeping 2025 income timing, recontact selection, and the missing price/bill,
+trust, action, and remedy links explicit.
+
 The [SHED panel adaptation by health direction layer](shed-panel-adaptation-health-path-layer-v1.md)
 tests whether those adaptations persist or newly appear across 2024→2025
 self-rated-health paths. It shows why improved health cannot be treated as
