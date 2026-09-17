@@ -733,6 +733,16 @@ next test is a privacy-preserving channel ledger that distinguishes warning
 availability, comprehension, verification, suspicious contact, report,
 response, loss, and later legitimate-aid use.
 
+The [GAO/USGS 2026 critical-minerals dependence layer](projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md)
+adds the material-input stage beneath batteries, semiconductors, defense,
+energy storage, and consumer electronics. USGS reports high import reliance for
+many critical minerals and major Chinese-source exposure, while GAO finds that
+battery recycling could reduce some reliance in roughly two to three years but
+that semiconductor substitution and recycling may not reduce short-term
+dependence. This is a capability counterexample: domestic production or a
+factory announcement does not prove processing control, substitute performance,
+or geopolitical autonomy.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,

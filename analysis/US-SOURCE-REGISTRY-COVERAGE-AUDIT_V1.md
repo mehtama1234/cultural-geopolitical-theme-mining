@@ -93,7 +93,7 @@ or proof that every source item was read in full.
 | [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 11 | 5 | 4 | evidence-bearing; machine-record URL |
 | [US Small Business Administration](https://www.sba.gov/) | US small-business programs, lending, disaster support, procurement, and firm access context | 2 | 9 | 7 | 1 | evidence-bearing; machine-record URL |
 | [US Department of the Treasury](https://home.treasury.gov/) | US financial policy, household finance, insurance, public spending, and fiscal context | 2 | 21 | 12 | 10 | evidence-bearing; machine-record URL |
-| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 8 | 31 | 18 | 4 | evidence-bearing; machine-record URL |
+| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 8 | 32 | 19 | 4 | evidence-bearing; machine-record URL |
 | [General Social Survey / NORC](https://gss.norc.org/) | US repeated cross-sectional evidence on social attitudes, trust, finance, institutions, and lived conditions | 0 | 28 | 6 | 18 | evidence-bearing; machine-record URL |
 | [National Household Travel Survey](https://nhts.ornl.gov/) | US household travel, vehicle access, mobility, work, care, and place-connection evidence | 0 | 23 | 10 | 11 | evidence-bearing; machine-record URL |
 | [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 20 | 5 | 3 | evidence-bearing; machine-record URL |
@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **78**
+- Observed domains outside registered families: **79**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -285,6 +285,7 @@ without a recurring acquisition need and source-specific metadata.
 | `mlvt.gov.kh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
+| `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |

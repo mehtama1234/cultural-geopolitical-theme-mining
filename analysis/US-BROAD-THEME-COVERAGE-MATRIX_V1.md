@@ -82,6 +82,13 @@ formal operational correction, and up to $120 million in consumer redress. It
 deepens themes 3, 4, 9, and 13 while preserving the missing individual receipt,
 repeat effort, recovery, trust, switching, and practical-exit fields.
 
+**Latest infrastructure/geopolitical rotation:** the [GAO/USGS critical-minerals
+dependence layer](projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md)
+adds mineral-application dependence, substitution, recycling, processing
+concentration, and strategic-control boundaries to themes 12, 13, and 14. It
+preserves the distinction between import reliance, technical potential,
+commercial maturity, realized capacity, and external leverage.
+
 **Latest disaster-response rotation:** the [EDA economic-recovery outcomes
 layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
 adds federal economic-recovery coordination, infrastructure investment, local

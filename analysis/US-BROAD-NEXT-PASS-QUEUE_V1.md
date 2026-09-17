@@ -2678,6 +2678,14 @@ of channel, verification burden, warning comprehension, suspicious contact,
 reporting, agency response, and later legitimate-aid use; do not turn warnings
 issued or complaints received into a fraud rate.
 
+The [GAO/USGS 2026 critical-minerals dependence layer](projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md)
+rotates the program into the infrastructure/geopolitical lane. It separates
+mineral import reliance, processing concentration, substitute performance,
+recycling feedstock, commercial maturity, and state leverage. The next test is
+a mineral-application event ledger linking disruption or export control to
+shipment, price, inventory, redesign, output, local burden, supplier switch,
+and external response; do not infer autonomy from domestic production value.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

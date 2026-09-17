@@ -900,6 +900,15 @@ community capacity and consumer legitimacy, while preserving the open fields:
 same-place counterfactuals, survivor or firm outcomes, warning comprehension,
 verified loss or remedy, trust change, and later political action.
 
+The fifty-third rotation adds the [GAO/USGS critical-minerals dependence
+layer](projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md).
+It places import reliance, processing concentration, substitute performance,
+recycling feedstock, and commercial maturity beneath battery, semiconductor,
+defense, energy-storage, and consumer-electronics systems. It strengthens the
+infrastructure/geopolitical lane while preserving the open stages: a dated
+disruption or export-control event, firm redesign or production response,
+local burden, supplier switching, and observed external leverage.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)
