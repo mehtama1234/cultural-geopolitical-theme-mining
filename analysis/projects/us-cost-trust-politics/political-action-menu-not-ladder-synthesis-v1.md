@@ -119,6 +119,35 @@ whose mechanism remains to be identified.
 The broad program should preserve nonparticipants and non-users as distinct
 cases, not discard them as missing political motivation.
 
+### 6. Institutional voice is an action channel of its own
+
+Complaint, appeal, and legal challenge occupy a different route from voting or
+public contact. They usually target a named firm, agency, platform, or account
+and require a reachable procedure, usable information, time, and some belief
+that the institution can change the outcome. They can therefore be politically
+meaningful without being electoral actions, while a vote can occur without a
+specific remedy demand.
+
+The current administrative and platform records make this distinction concrete:
+CFPB complaint rows show receipt, routing, and response labels; platform cases
+show worker challenges, procedural decisions, reactivation, and lost-pay
+orders. Neither source shows that the complainant or worker later voted,
+organized, switched, or trusted the institution. A formal challenge is an
+observed action and institutional route, not proof of political influence or
+successful empowerment.
+
+```text
+problem or burden
+  -> complaint, appeal, or legal challenge
+  -> institutional response or remedy
+  -> later trust, collective action, switching, or exit [open]
+```
+
+This also protects the interpretation of silence. No complaint may indicate
+resolution, another route, high effort, expected futility, fear, or exclusion;
+it cannot be coded as satisfaction or apathy without a defined denominator and
+follow-up.
+
 ## Mechanism ledger
 
 | Arrow | Status | Safe conclusion | Decisive next evidence |
@@ -176,6 +205,7 @@ hardship-to-vote effect, or causal political influence.
 - [Material-pressure political-meaning synthesis](material-pressure-to-political-meaning-synthesis-v1.md)
 - [Political-response measurement specification](political-response-measurement-spec-v1.md)
 - [Unequal-optionality and status/meaning synthesis](unequal-optionality-status-meaning-synthesis-v1.md)
+- [Consumer recourse, remedy, and practical-exit synthesis](../us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md)
 
 **Evidence status:** cross-source political-action and cultural-meaning
 synthesis; same-event attribution, action choice, institutional response, and
