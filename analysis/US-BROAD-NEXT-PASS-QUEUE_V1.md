@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 289 records and
-1032 observations.
+have exact registered-URL references. The trend registry holds 290 records and
+1036 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2487,6 +2487,15 @@ exit. This is a verified observability boundary, not evidence that no remedy
 or exit occurred. No bulk data was downloaded. The next qualifying pass must
 obtain one lawful small event ledger or valid panel with those missing fields;
 otherwise rotate to a subgroup/place reversal from retained data.
+
+The [subgroup-conditioned SIPP work-direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-045.md)
+now supplies that reversal from retained data. Across children-present,
+no-children-recorded, SNAP, and no-SNAP screens, hours remain mostly unchanged
+while low-resource earnings direction differs by household context and
+high-resource direction converges. The result is a descriptive subgroup and
+timing refinement, not a causal child, SNAP, care, or security effect; the
+next stronger arrow still requires a dated work/care or payment event with
+alternatives and follow-up.
 
 ## Sequencing rule
 

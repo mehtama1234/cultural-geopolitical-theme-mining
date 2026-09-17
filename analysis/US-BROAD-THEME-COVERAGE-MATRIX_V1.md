@@ -63,6 +63,12 @@ alternatives, choice, remedy, and meaning/action follow-up. These findings
 change the evidence map and its missing-arrow definitions; they do not create
 a pooled causal chain.
 
+The [subgroup-conditioned SIPP work-direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-045.md)
+adds a children/SNAP reversal: hours remain comparatively stable while
+earnings direction and low-resource composition differ across household
+contexts. It deepens themes 2, 5, 6, and 8 without converting household
+composition or program status into a causal work, care, or security effect.
+
 **Latest political conditioning:** [ANES party-conditioned worry/vote layer](projects/us-cost-trust-politics/anes-panel-worry-vote-party-conditioned-layer-v1.md)
 conditions a financial-worry/vote comparison on prior party identity. It
 deepens themes 9 and 11 by showing that material concern enters political

@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipp-resource-work-direction-subgroups-2024",
+  "title": "Hours remain more stable than earnings, but the direction pattern changes across children and SNAP contexts",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "time_hidden_price", "household_room_consumption", "unequal_exposure_status", "care_health_reproduction"],
+  "source_unit": "identified 2025 SIPP person, resource band at month t to direction of valid earnings/hours at month t+1, grouped by children and SNAP receipt at month t",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; monthly direction by resource band; children present at month t",
+      "denominator": {"value": 2760, "unit": "valid earnings person-month pairs; hours direction uses its own 2,859-pair universe and each resource band has its own denominator", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_direction_by_resource_band": {"value": "below 1x: increase 36.627% (SE 1.513), decrease 30.058% (1.255), same 33.315% (2.558); 1–1.99x: 42.390% (0.549), 40.080% (0.569), 17.531% (0.942); 2–3.99x: 42.415% (0.466), 40.991% (0.425), 16.594% (0.812); 4x+: 43.711% (0.270), 42.989% (0.263), 13.299% (0.473)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"},
+        "hours_direction_by_resource_band": {"value": "below 1x: increase 8.967% (SE 0.841), decrease 4.393% (0.505), same 86.641% (1.092); 1–1.99x: 3.682% (0.338), 3.535% (0.314), 92.782% (0.522); 2–3.99x: 2.754% (0.168), 2.584% (0.171), 94.662% (0.276); 4x+: 2.051% (0.137), 2.568% (0.141), 95.381% (0.243)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"}
+      },
+      "method": "Same-person monthly cross-lag from THINCPOV at month t to direction of nonnegative numeric TPEARN and TMWKHRS at month t+1, grouped by RHNUMU18 > 0; first-month WPFINWGT and 240 replicate weights with Census Fay BRR, G=240, perturbation factor 0.5.",
+      "uncertainty": "Earnings and hours use separate valid pair universes and each resource-band cell has its own denominator. Directional estimates are descriptive; children present is a household composition marker, not a care event or causal exposure. Approximate intervals are design-based Fay-BRR intervals.",
+      "subgroup": "SIPP person-month pairs with at least one child under 18 at month t; resource bands are THINCPOV categories.",
+      "counterinterpretation": "Stable hours can coexist with changing pay, schedule quality, unpaid care, or household substitution. Higher earnings movement at higher resources does not establish improved security or greater control.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:f92ce67acb6d3dcb0c0fba60531e1a2ccfc32ff373efb941aea55f911747ae6b; script:sha256:0c760f82ccd327d7715368640afe8e893f996ec8a163f5b8c70f4e1a9fa0b044",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; monthly direction by resource band; no children present at month t",
+      "denominator": {"value": 3126, "unit": "valid earnings person-month pairs; hours direction uses its own 3,565-pair universe and each resource band has its own denominator", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_direction_by_resource_band": {"value": "below 1x: increase 31.359% (SE 1.362), decrease 26.555% (1.514), same 42.085% (2.716); 1–1.99x: 38.790% (0.800), 35.678% (0.860), 25.532% (1.529); 2–3.99x: 42.757% (0.374), 40.866% (0.343), 16.377% (0.642); 4x+: 43.083% (0.177), 42.851% (0.169), 14.066% (0.308)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"},
+        "hours_direction_by_resource_band": {"value": "below 1x: increase 7.039% (SE 0.660), decrease 5.172% (0.595), same 87.788% (0.987); 1–1.99x: 4.562% (0.372), 3.377% (0.268), 92.061% (0.530); 2–3.99x: 3.154% (0.170), 2.943% (0.162), 93.903% (0.268); 4x+: 1.740% (0.074), 2.641% (0.105), 95.619% (0.159)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"}
+      },
+      "method": "Same-person monthly cross-lag as the children-present observation, grouped by RHNUMU18 = 0.",
+      "uncertainty": "Earnings and hours use separate valid pair universes; no household weight or causal adjustment is used. Children absent is not proof of no caregiving responsibility.",
+      "subgroup": "SIPP person-month pairs with no child under 18 recorded at month t; resource bands are THINCPOV categories.",
+      "counterinterpretation": "A larger same-earnings share in the lowest-resource cell can reflect measurement, composition, or constrained job movement; it is not evidence of stability or welfare.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:f92ce67acb6d3dcb0c0fba60531e1a2ccfc32ff373efb941aea55f911747ae6b; script:sha256:0c760f82ccd327d7715368640afe8e893f996ec8a163f5b8c70f4e1a9fa0b044",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; monthly direction by resource band; SNAP receipt at month t",
+      "denominator": {"value": 1123, "unit": "valid earnings person-month pairs; hours direction uses its own 1,167-pair universe and each resource band has its own denominator", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_direction_by_resource_band": {"value": "below 1x: increase 32.847% (SE 2.527), decrease 26.374% (2.361), same 40.779% (4.481); 1–1.99x: 40.776% (1.218), 38.288% (1.333), 20.936% (2.313); 2–3.99x: 39.357% (1.564), 37.619% (1.482), 23.024% (2.842); 4x+: 40.772% (1.511), 42.039% (1.403), 17.188% (2.601)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"},
+        "hours_direction_by_resource_band": {"value": "below 1x: increase 9.598% (SE 1.446), decrease 5.214% (0.967), same 85.188% (1.908); 1–1.99x: 3.618% (0.571), 4.664% (0.722), 91.718% (1.053); 2–3.99x: 3.907% (0.630), 3.895% (0.591), 92.198% (0.956); 4x+: 2.088% (0.494), 3.867% (0.837), 94.046% (1.159)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"}
+      },
+      "method": "Same-person monthly cross-lag as the children-present observation, grouped by RSNAP_MNYN = 1.",
+      "uncertainty": "SNAP receipt is a reported program-status marker, not benefit adequacy or a causal treatment. Earnings and hours have separate universes and the lower-resource cells are smaller.",
+      "subgroup": "SIPP person-month pairs reporting SNAP receipt at month t; resource bands are THINCPOV categories.",
+      "counterinterpretation": "Higher earnings decreases than increases in the highest SNAP/resource cell do not identify loss, and stable hours do not identify stable household room.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:f92ce67acb6d3dcb0c0fba60531e1a2ccfc32ff373efb941aea55f911747ae6b; script:sha256:0c760f82ccd327d7715368640afe8e893f996ec8a163f5b8c70f4e1a9fa0b044",
+      "status": "estimated"
+    },
+    {
+      "period": "2024 reference year; monthly direction by resource band; no SNAP receipt at month t",
+      "denominator": {"value": 4763, "unit": "valid earnings person-month pairs; hours direction uses its own 5,257-pair universe and each resource band has its own denominator", "value_type": "person_month_pairs"},
+      "measures": {
+        "earnings_direction_by_resource_band": {"value": "below 1x: increase 34.051% (SE 1.038), decrease 28.601% (1.054), same 37.349% (1.931); 1–1.99x: 40.712% (0.540), 37.999% (0.594), 21.290% (1.013); 2–3.99x: 42.748% (0.289), 41.072% (0.277), 16.180% (0.506); 4x+: 43.318% (0.154), 42.906% (0.154), 13.776% (0.274)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"},
+        "hours_direction_by_resource_band": {"value": "below 1x: increase 7.548% (SE 0.561), decrease 4.743% (0.439), same 87.709% (0.807); 1–1.99x: 4.170% (0.269), 3.269% (0.222), 92.561% (0.393); 2–3.99x: 2.930% (0.118), 2.730% (0.120), 94.340% (0.194); 4x+: 1.837% (0.067), 2.601% (0.086), 95.563% (0.136)", "unit": "percent; direction categories with Fay-BRR standard errors in percentage points, ordered increase/decrease/same", "value_type": "weighted_directional_shares"}
+      },
+      "method": "Same-person monthly cross-lag as the children-present observation, grouped by RSNAP_MNYN = 2.",
+      "uncertainty": "No SNAP receipt is a reported program-status marker, not absence of need. Earnings and hours have separate universes and no household weight or causal adjustment.",
+      "subgroup": "SIPP person-month pairs reporting no SNAP receipt at month t; resource bands are THINCPOV categories.",
+      "counterinterpretation": "The contrast with SNAP recipients may reflect eligibility, income, household composition, work, or selection; it does not estimate a SNAP effect.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed; primary:sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:f92ce67acb6d3dcb0c0fba60531e1a2ccfc32ff373efb941aea55f911747ae6b; script:sha256:0c760f82ccd327d7715368640afe8e893f996ec8a163f5b8c70f4e1a9fa0b044",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "../projects/us-household-calendar-integration/findings/us-household-calendar-integration-037.md", "claim": "The related synthesis defines the directional work, tenure, care, and hardship boundaries and the need for subgroup conditioning.", "status": "analysis-context"}],
+  "boundary": "This is a descriptive same-person monthly directional cross-lag, not a causal or household-weighted estimate. Children and SNAP status are month-t conditioning markers; they do not identify a care event, benefit effect, desired hours, job quality, remedy, trust, political action, or exit. Earnings and hours retain separate valid pair universes and all resource-band denominators are cell-specific."
+}
