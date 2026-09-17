@@ -32,7 +32,7 @@ or proof that every source item was read in full.
 
 | Source | Role | Search refs | Evidence refs | Evidence files | Record exact URL | State |
 |---|---|---:|---:|---:|---:|---|
-| [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) | research story and topic discovery | 51 | 206 | 68 | 3 | evidence-bearing; machine-record URL |
+| [Harvard Business School Working Knowledge](https://www.library.hbs.edu/working-knowledge) | research story and topic discovery | 51 | 207 | 69 | 3 | evidence-bearing; machine-record URL |
 | [SSRN research paper repository](https://papers.ssrn.com/) | public working-paper and preprint access for emerging social-science evidence | 2 | 11 | 9 | 2 | evidence-bearing; machine-record URL |
 | [arXiv research preprints](https://arxiv.org/) | open preprint access and versioned paper text for emerging research | 0 | 12 | 6 | 7 | evidence-bearing; machine-record URL |
 | [Zenodo research data archive](https://zenodo.org/) | versioned open research data and code archives | 0 | 5 | 4 | 1 | evidence-bearing; machine-record URL |
@@ -75,7 +75,7 @@ or proof that every source item was read in full.
 | [CFPB Consumer Complaint Database API documentation](https://cfpb.github.io/api/ccdb/api.html) | machine-access contract for CFPB complaint records, fields, filters, pagination, and public retrieval | 1 | 16 | 13 | 0 | evidence-bearing |
 | [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 20 | 254 | 80 | 63 | evidence-bearing; machine-record URL |
 | [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 18 | 507 | 192 | 0 | evidence-bearing |
-| [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 206 | 68 | 3 | evidence-bearing; machine-record URL |
+| [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 207 | 69 | 3 | evidence-bearing; machine-record URL |
 | [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 809 | 207 | 60 | evidence-bearing; machine-record URL |
 | [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 17 | 8 | 1 | evidence-bearing; machine-record URL |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 8 | 8 | 2 | evidence-bearing; machine-record URL |
