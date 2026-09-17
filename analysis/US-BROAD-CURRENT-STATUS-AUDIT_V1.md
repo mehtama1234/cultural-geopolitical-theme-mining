@@ -1509,6 +1509,13 @@ loss, event causation, or recovery estimates. The addition strengthens the
 material-to-work bridge while preserving the missing bill, alternative,
 remedy, household adaptation, meaning/action, and exit stages.
 
+The [MEPS event-to-work two-clock audit](projects/us-household-constraint-cascade/meps-event-work-two-clock-audit-v1.md)
+now aligns that R4/2 level with the existing R5/3 follow-up surface. Acute
+event groups remain more often nonemployed at R5/3, while conditional onset and
+resolution are mixed. Because the R5-valid universe is smaller, this is an
+event-rule-aligned synthesis rather than a row-level merged panel or recovery
+estimate.
+
 The MEPS selection has now been tested against the full 18,457-row staged
 ledger in the [event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md).
 All rows contain hashed episode IDs, month-level dates, and round-level

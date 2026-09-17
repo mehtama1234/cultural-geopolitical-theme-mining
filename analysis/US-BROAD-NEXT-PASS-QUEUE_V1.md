@@ -926,6 +926,14 @@ differences rather than job-loss or causal event estimates. Keep this result
 as context while the next decisive MEPS test remains claim/bill-level need,
 alternatives, response, remedy, and later recovery.
 
+The [MEPS event-to-work two-clock audit](projects/us-household-constraint-cascade/meps-event-work-two-clock-audit-v1.md)
+adds the next interpretive layer without new acquisition: R4/2 nonemployment
+levels are aligned by event family with R5/3 nonemployment, status change,
+onset, and resolution. Acute-event level differences persist, but transition
+directions are mixed and the follow-up universe is smaller. Preserve this as
+descriptive persistence/context; the missing claim, alternative, remedy,
+household recovery, meaning, action, and exit fields remain the next gate.
+
 The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
 confirms the counterexample route: route and decision are observed in all 27
 episodes, but alternatives, effort, follow-up, receipt, durability,

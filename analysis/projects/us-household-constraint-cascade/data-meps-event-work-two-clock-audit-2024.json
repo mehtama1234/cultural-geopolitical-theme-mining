@@ -1,0 +1,288 @@
+{
+  "alignment": "Event-family and month-rule alignment across two existing outputs; R5/3-valid records are not asserted to be the same row set as the R4/2 screen.",
+  "boundary": "The R4/2 endpoint is a level of valid EMPST42=4; the R5/3 outcomes add descriptive status-change, onset, and resolution screens. Neither identifies job loss cause, hours, earnings, schedule control, treatment continuity, remedy, household recovery, trust, political action, or exit.",
+  "event_families": {
+    "emergency_room": {
+      "comparison_people_r4": 17622,
+      "comparison_people_r5": 17598,
+      "event_window_people_r4": 1101,
+      "event_window_people_r5": 1093,
+      "r4_nonemployment": {
+        "complementary_round_valid": {
+          "approx_95_ci_percentage_points": [
+            31.8237330725612,
+            34.14384264890633
+          ],
+          "brr_se_percentage_points": 0.5918646878431442,
+          "share_percent": 32.98378786073376,
+          "valid_records": 14276
+        },
+        "event_window": {
+          "approx_95_ci_percentage_points": [
+            44.07002241725237,
+            51.162242495842115
+          ],
+          "brr_se_percentage_points": 1.809239815966774,
+          "share_percent": 47.61613245654724,
+          "valid_records": 987
+        }
+      },
+      "r4_nonemployment_onset": {
+        "event_window": {
+          "brr_se_percentage_points": 1.191478195699553,
+          "ci95_high": 9.009212316708087,
+          "ci95_low": 4.33861778956584,
+          "share_percent": 6.673915053136964,
+          "valid_records": 546
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.4452138205285654,
+          "ci95_high": 8.188905299457268,
+          "ci95_low": 6.443667122985293,
+          "share_percent": 7.31628621122128,
+          "valid_records": 5683
+        }
+      },
+      "r4_nonemployment_resolution": {
+        "event_window": {
+          "brr_se_percentage_points": 0.8949699984844272,
+          "ci95_high": 5.3347161904561515,
+          "ci95_low": 1.8264337963971975,
+          "share_percent": 3.5805749934266746,
+          "valid_records": 538
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.4483730305097967,
+          "ci95_high": 6.399407991131246,
+          "ci95_low": 4.641785711532843,
+          "share_percent": 5.520596851332044,
+          "valid_records": 5591
+        }
+      },
+      "r4_to_r5_status_change": {
+        "event_window": {
+          "brr_se_percentage_points": 1.1729260360504086,
+          "ci95_high": 13.787891180087547,
+          "ci95_low": 9.190021118769947,
+          "share_percent": 11.488956149428747,
+          "valid_records": 965
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.2603206861258548,
+          "ci95_high": 9.8553047261663,
+          "ci95_low": 8.834847636552949,
+          "share_percent": 9.345076181359625,
+          "valid_records": 14027
+        }
+      },
+      "r5_nonemployment": {
+        "event_window": {
+          "brr_se_percentage_points": 1.7438428113347575,
+          "ci95_high": 52.42590335768974,
+          "ci95_low": 45.59003953725749,
+          "share_percent": 49.007971447473615,
+          "valid_records": 971
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.5823355542023106,
+          "ci95_high": 34.98028833769654,
+          "ci95_low": 32.69753296522348,
+          "share_percent": 33.83891065146001,
+          "valid_records": 14195
+        }
+      }
+    },
+    "inpatient": {
+      "comparison_people_r4": 18178,
+      "comparison_people_r5": 18155,
+      "event_window_people_r4": 545,
+      "event_window_people_r5": 536,
+      "r4_nonemployment": {
+        "complementary_round_valid": {
+          "approx_95_ci_percentage_points": [
+            31.915857840606574,
+            34.1524082216958
+          ],
+          "brr_se_percentage_points": 0.5705485666043941,
+          "share_percent": 33.034133031151185,
+          "valid_records": 14741
+        },
+        "event_window": {
+          "approx_95_ci_percentage_points": [
+            54.83915697073031,
+            65.41348050501479
+          ],
+          "brr_se_percentage_points": 2.697531513848081,
+          "share_percent": 60.126318737872545,
+          "valid_records": 522
+        }
+      },
+      "r4_nonemployment_onset": {
+        "event_window": {
+          "brr_se_percentage_points": 1.7177645491896485,
+          "ci95_high": 9.710207101075932,
+          "ci95_low": 2.97657006825251,
+          "share_percent": 6.343388584664221,
+          "valid_records": 342
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.42756164008039915,
+          "ci95_high": 8.152314558910021,
+          "ci95_low": 6.476272929794856,
+          "share_percent": 7.3142937443524385,
+          "valid_records": 5887
+        }
+      },
+      "r4_nonemployment_resolution": {
+        "event_window": {
+          "brr_se_percentage_points": 1.0506872788041932,
+          "ci95_high": 4.670214064182864,
+          "ci95_low": 0.5515199312704269,
+          "share_percent": 2.6108669977266454,
+          "valid_records": 335
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.43304827511904603,
+          "ci95_high": 6.360869884143264,
+          "ci95_low": 4.663320645676603,
+          "share_percent": 5.5120952649099335,
+          "valid_records": 5794
+        }
+      },
+      "r4_to_r5_status_change": {
+        "event_window": {
+          "brr_se_percentage_points": 2.0089048955435596,
+          "ci95_high": 15.769134393387722,
+          "ci95_low": 7.894227202856969,
+          "share_percent": 11.831680798122346,
+          "valid_records": 503
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.2509359479442236,
+          "ci95_high": 9.889592208200478,
+          "ci95_low": 8.90592329225912,
+          "share_percent": 9.397757750229799,
+          "valid_records": 14489
+        }
+      },
+      "r5_nonemployment": {
+        "event_window": {
+          "brr_se_percentage_points": 3.0004288416981235,
+          "ci95_high": 68.05603588361895,
+          "ci95_low": 56.2943548241623,
+          "share_percent": 62.17519535389062,
+          "valid_records": 504
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.5648686285537478,
+          "ci95_high": 35.00506977945788,
+          "ci95_low": 32.79078475552719,
+          "share_percent": 33.897927267492534,
+          "valid_records": 14662
+        }
+      }
+    },
+    "office": {
+      "comparison_people_r4": 15507,
+      "comparison_people_r5": 15414,
+      "event_window_people_r4": 3216,
+      "event_window_people_r5": 3277,
+      "r4_nonemployment": {
+        "complementary_round_valid": {
+          "approx_95_ci_percentage_points": [
+            32.773809791212315,
+            35.048067592428154
+          ],
+          "brr_se_percentage_points": 0.5801678064326107,
+          "share_percent": 33.910938691820235,
+          "valid_records": 12718
+        },
+        "event_window": {
+          "approx_95_ci_percentage_points": [
+            31.057075405658505,
+            35.64563196615651
+          ],
+          "brr_se_percentage_points": 1.170550142984184,
+          "share_percent": 33.351353685907505,
+          "valid_records": 2545
+        }
+      },
+      "r4_nonemployment_onset": {
+        "event_window": {
+          "brr_se_percentage_points": 1.3332867997518467,
+          "ci95_high": 11.60704952898367,
+          "ci95_low": 6.380565273956431,
+          "share_percent": 8.99380740147005,
+          "valid_records": 1059
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.43130933908094843,
+          "ci95_high": 7.757270090382647,
+          "ci95_low": 6.06653748118533,
+          "share_percent": 6.911903785783989,
+          "valid_records": 5170
+        }
+      },
+      "r4_nonemployment_resolution": {
+        "event_window": {
+          "brr_se_percentage_points": 1.0562610752069552,
+          "ci95_high": 7.482390853958838,
+          "ci95_low": 3.3418474391475734,
+          "share_percent": 5.412119146553206,
+          "valid_records": 1025
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.4241147086003337,
+          "ci95_high": 6.185428981028785,
+          "ci95_low": 4.522899323315478,
+          "share_percent": 5.354164152172132,
+          "valid_records": 5104
+        }
+      },
+      "r4_to_r5_status_change": {
+        "event_window": {
+          "brr_se_percentage_points": 0.7529622720664894,
+          "ci95_high": 11.54745844586298,
+          "ci95_low": 8.595846339362339,
+          "share_percent": 10.071652392612659,
+          "valid_records": 2529
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.2825653415367568,
+          "ci95_high": 9.900891475014571,
+          "ci95_low": 8.793235336190484,
+          "share_percent": 9.347063405602528,
+          "valid_records": 12463
+        }
+      },
+      "r5_nonemployment": {
+        "event_window": {
+          "brr_se_percentage_points": 1.2199424806999384,
+          "ci95_high": 37.636000415206595,
+          "ci95_low": 32.853825890862836,
+          "share_percent": 35.244913153034716,
+          "valid_records": 2553
+        },
+        "no_event_in_window": {
+          "brr_se_percentage_points": 0.5751097032482541,
+          "ci95_high": 35.71961201552869,
+          "ci95_low": 33.465181978795535,
+          "share_percent": 34.59239699716211,
+          "valid_records": 12613
+        }
+      }
+    }
+  },
+  "format": "meps-event-work-two-clock-audit-v1",
+  "period": "2024 MEPS; strict R3/1-to-R4/2 event window with R4/2 and R5/3 work endpoints",
+  "source_outputs": {
+    "r4_screen": {
+      "path": "analysis/projects/us-household-constraint-cascade/data-meps-dated-cascade-event-screen-2024.json",
+      "sha256": "72808206961171c77774cc191bc9954e67a2d82db76f8b7543e77309f174fd38"
+    },
+    "r5_followup": {
+      "path": "analysis/projects/us-household-constraint-cascade/data-meps-event-six-month-followup-2024.json",
+      "sha256": "a6dead005a9cc9914309e3287ffe67318d81a14a008de2b7854f384ec0c8e321"
+    }
+  }
+}
