@@ -167,6 +167,9 @@ def main():
     # Program-level path memos use the same source-of-truth and reading layout
     # as matched evidence, while retaining a distinct filename and meaning.
     memos.extend((ROOT / "analysis/findings").glob("*-path-001.md"))
+    # Keep newer root-level findings visible even when their filenames use a
+    # domain-specific suffix rather than the older matched/path conventions.
+    memos.append(ROOT / "analysis/findings/us-doxo-bill-payment-hidden-fees-001.md")
     memos.extend((ROOT / "analysis/projects").glob("**/findings/*.md"))
     # A small number of project audits are reader-facing evidence memos even
     # though they are not findings. Keep them in this shared renderer so the
