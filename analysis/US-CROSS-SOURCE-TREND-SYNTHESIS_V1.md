@@ -632,6 +632,15 @@ institutional capacity, treatment, public judgment, and representation are
 separate currencies; none alone establishes safety, equal influence, or causal
 political behavior.
 
+The [BLS 2025 major-work-stoppage and collective-action boundary](projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md)
+adds an observed conflict event to the work/control lane. Thirty major
+stoppages began in 2025 and involved 306,800 workers, with 98% of involved
+workers in service-providing industries and 232,800 in state or local
+government stoppages. The comparison also shows why event count is not power:
+2023 involved 458,900 workers across 33 stoppages, versus 306,800 across 30 in
+2025. Stoppage, settlement, service incidence, worker security, and political
+meaning remain separate stages.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

@@ -184,6 +184,7 @@ same people appear in every route.
 - [Pew 2026 Latino American-dream, mobility, and cultural meaning layer](analysis/projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md): perceived intergenerational progress coexists with divided belief in dream attainability, with immigrant and US-born Latinos showing different mobility narratives.
 - [BLS 2026 Q2 productivity, compensation, and labor-share boundary](analysis/projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md): aggregate productivity rose while real compensation fell and labor share reached a reported series low, without identifying worker-level control or household incidence.
 - [Pew 2026 Muslim-American discrimination, capacity, and political-visibility layer](analysis/projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md): community population, mosques, and representation grew while negative public judgments, discrimination, and partisan polarization remained substantial.
+- [BLS 2025 major work stoppages and collective-action boundary](analysis/projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md): major stoppages provide an observed worker-action event, while count, scale, settlement, service incidence, and bargaining power remain distinct.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later

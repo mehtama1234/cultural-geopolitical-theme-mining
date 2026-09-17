@@ -2565,6 +2565,16 @@ test is a place- or person-level join to public-system use, safety, organizing,
 work, housing, or consumer behavior; the current survey and reported-incident
 surfaces do not establish those links.
 
+The [BLS 2025 major-work-stoppage and collective-action boundary](projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md)
+adds a concrete worker-action surface: 30 major stoppages began in 2025,
+involving 306,800 workers, with public-sector and service-sector concentration.
+It also supplies a reversal—33 stoppages involved 458,900 workers in 2023—so
+event count is not a labor-power index. Because BLS blocked local automated
+retrieval, this remains a detailed source-vintage memo rather than a canonical
+machine record. The next test is a named-stoppage ledger linking demands,
+settlement, employer response, service-user effects, worker security, and later
+organizing or political action.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

@@ -348,6 +348,7 @@ def main():
     memos.append(ai_work_control_endpoint_audit)
     memos.append(ROOT / "analysis/projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md")
     memos.append(ROOT / "analysis/projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md")
+    memos.append(ROOT / "analysis/projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md")
     named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"
     memos.append(named_workplace_system_stage_ledger)
     # Publish the newest storage-light AI/work enforcement follow-ups so the
