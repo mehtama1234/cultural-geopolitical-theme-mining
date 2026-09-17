@@ -4,6 +4,33 @@
 
 This is the execution queue for the broader societal, cultural, consumer, financial, institutional, and political program. It is not a one-household study. The household calendar is one possible longitudinal instrument; the main work compares populations, places, customers, workers, firms, markets, agencies, and political measures across source families.
 
+## Current restart checkpoint — 2026-09-17
+
+The broad program remains active across all 14 themes. The current audit finds
+evidence anchors in every theme, with `Compared` present in all 14 rows,
+`Reported` in 12, `Inferred` in 3, and an explicitly `Open` end-to-end link in
+4. These counts describe the evidence map; they do not imply that any theme
+has a completed same-unit causal chain.
+
+The highest-value unresolved bridge remains:
+
+```text
+dated material or institutional exposure
+  -> alternatives, effort, money, time, and control
+  -> attributed meaning, trust, and distinct action
+  -> institutional response and verified remedy
+  -> persistence, recovery, switching, non-use, or exit
+```
+
+The storage-aware next action is an authenticated PSID 2019/2021/2023
+structural extract, or one compact event-compatible public/administrative
+ledger that preserves a stable unit through the same stages. Existing SIPP,
+MEPS, SHED, CFPB, workplace, place, and geopolitical layers remain valuable
+context and counterexamples, but they must not be pooled into a fictitious
+same-person chain. No bulk download is authorized by this checkpoint; if the
+next candidate lacks timing, alternatives, remedy, or follow-up, record the
+gap and rotate to the next lane.
+
 Use the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) to assign each arrow to a source, unit, and next test before adding another topic packet.
 
 Apply the [broad trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
