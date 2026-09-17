@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doj-snap-data-access-federal-state-conflict-2026",
+  "title": "Federal-state control of SNAP applicant data becomes a governance and accountability conflict",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "political_judgment_action", "infrastructure_technology_dependency", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "US Department of Justice press release describing federal lawsuits against four state SNAP agencies",
+  "geography": "United States; Kentucky, Pennsylvania, Michigan, Minnesota, and other state SNAP agencies",
+  "observations": [
+    {
+      "period": "2026-06-26 DOJ lawsuit announcement; updated 2026-06-29",
+      "denominator": {"value": 33, "unit": "state and jurisdiction SNAP data-sharing positions described by DOJ", "value_type": "reported_case_context"},
+      "measures": {
+        "states_sued": {"value": 4, "unit": "state SNAP agencies named in federal lawsuits", "value_type": "reported"},
+        "jurisdictions_providing_data": {"value": 29, "unit": "states or jurisdictions DOJ says promptly provided requested data", "value_type": "reported"},
+        "requested_history": {"value": "five years of SNAP applicant data", "unit": "requested administrative-data window", "value_type": "reported_rule"},
+        "institutional_claim": {"value": "DOJ said the data were sought so USDA could assess administration and enforcement of SNAP eligibility and household benefit levels; DOJ also reported that data from compliant jurisdictions indicated billions of dollars per year in overpayments and fraud", "unit": "agency rationale and allegation", "value_type": "reported_claim"},
+        "response_route": {"value": "injunction lawsuits seeking compelled production of the requested data", "unit": "federal-state enforcement route", "value_type": "reported"}
+      },
+      "method": "Targeted review of one official DOJ press release; no state applicant file, USDA extract, court docket download, or bulk data retained.",
+      "uncertainty": "The press release reports DOJ allegations and procedural posture, not a judicial finding. It does not publish the underlying data, state-by-state error or fraud rates, eligibility denials, benefit interruptions, notice, applicant burden, privacy safeguards, remedy, or household outcomes. The 29-versus-4 comparison is the agency's reported data-sharing position, not a causal comparison of state administration.",
+      "subgroup": "SNAP applicants and recipients in the named states and jurisdictions; the public release does not provide an applicant-level denominator or subgroup outcome frame.",
+      "counterinterpretation": "A state may withhold or contest data access because of legal authority, privacy, security, or data-quality concerns rather than to conceal program abuse. Conversely, data transfer can improve federal oversight while also increasing surveillance or administrative burden; the press release cannot adjudicate either interpretation.",
+      "source_url": "https://www.justice.gov/opa/pr/justice-department-sues-states-failing-provide-snap-data-us-department-agriculture",
+      "retrieval_hash": "sha256:21c18fa3d6798b708edc582be53ac9412bf60516ab8744b62ba10802ce9cfcc7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.justice.gov/opa/pr/justice-department-sues-states-failing-provide-snap-data-us-department-agriculture", "claim": "DOJ reports the lawsuits, requested five-year applicant-data window, 29 compliant jurisdictions, four defendants, and agency rationale.", "status": "primary-federal-procedural-source"},
+    {"source_url": "../../../projects/us-safety-net-access/findings/us-safety-net-access-002.md", "claim": "The SNAP route-performance finding supplies the separate application and recertification timeliness context that this data-access conflict does not replace.", "status": "comparative-local-finding"},
+    {"source_url": "../../../projects/us-safety-net-access/findings/us-safety-net-access-003.md", "claim": "The recipient-side route layer supplies notice, time, paperwork, interview, and interruption boundaries absent from the DOJ release.", "status": "comparative-local-finding"}
+  ],
+  "boundary": "This is a dated federal-state information-governance and enforcement event. It does not establish fraud or overpayment prevalence, state administrative performance, applicant privacy risk, household benefit loss, remedy, trust, political action, or causal differences between data-sharing positions. Treat agency statements as reported claims until underlying data and court outcomes are available."
+}

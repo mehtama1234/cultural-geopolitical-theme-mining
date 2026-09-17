@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-264 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+265 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -250,7 +250,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is an API-vintage and route-field comparison, not a consumer-harm, remedy, or service-quality estimate. The 2025 response omits has_narrative in the returned sample, so it cannot be compared with 2024 narrative prevalence. Timely is not substituted for elapsed routing time, and routing is not remedy.
 
-| Student-loan servicing errors can shift tax access, payment burden, and credit information before a regulatory remedy | cost, voice, security | consumer_power_recourse, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | CFPB enforcement action and consent order against Citibank, N.A. | United States; private student-loan servicing | 1 | 2006-2013 servicing practices; 2017-11-21 enforcement action | reported | [open](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json) |
+| Student-loan servicing errors can shift tax access, payment burden, and credit information before a regulatory remedy | cost, voice | consumer_power_recourse, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | CFPB enforcement action and consent order against Citibank, N.A. | United States; private student-loan servicing | 1 | 2006-2013 servicing practices; 2017-11-21 enforcement action | reported | [open](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json) |
 
 **Boundary:** This is a named US student-loan servicing enforcement event. It demonstrates documented administrative failures, borrower exposure mechanisms, and an ordered remedy, but does not estimate population prevalence, establish individual causal loss, verify remedy receipt or adequacy, measure durable compliance, or close household, trust, action, switching, or exit consequences.
 
@@ -353,6 +353,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Recruitment-channel friction can become a measurable barrier with back-pay and access-restoration obligations | work, voice, cost | work_control_bargaining, unequal_exposure_status, public_systems_feedback, firm_sector_market_power, trust_identity_meaning, political_judgment_action | US Department of Justice Immigrant and Employee Rights Section settlement agreement with OpenAI OpCo, LLC and Statsig, Inc. | United States; OpenAI and Statsig PERM-related recruitment | 1 | 2023-06 through 2026-08-03; OpenAI/Statsig settlement effective 2026-08-03 | reported | [open](records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json) |
 
 **Boundary:** This is a named US recruitment-enforcement event that links a defined access burden to an official charge/investigation, a potential back-pay fund, access-restoration requirements, and oversight. It does not estimate discrimination prevalence, prove AI involvement in the OpenAI/Statsig process, establish individual payment or restored opportunity, or close later trust, switching, political, household, or geopolitical consequences.
+
+| Federal-state control of SNAP applicant data becomes a governance and accountability conflict | voice, cost | public_systems_feedback, political_judgment_action, infrastructure_technology_dependency, geopolitical_state_consequences, trust_identity_meaning | US Department of Justice press release describing federal lawsuits against four state SNAP agencies | United States; Kentucky, Pennsylvania, Michigan, Minnesota, and other state SNAP agencies | 1 | 2026-06-26 DOJ lawsuit announcement; updated 2026-06-29 | reported | [open](records/us-doj-snap-data-access-federal-state-conflict-2026.json) |
+
+**Boundary:** This is a dated federal-state information-governance and enforcement event. It does not establish fraud or overpayment prevalence, state administrative performance, applicant privacy risk, household benefit loss, remedy, trust, political action, or causal differences between data-sharing positions. Treat agency statements as reported claims until underlying data and court outcomes are available.
 
 | Energy efficiency turns a public label into a household-cost, market, and climate-choice infrastructure | cost, energy, voice | household_room_consumption, trust_identity_meaning, firm_sector_market_power, public_systems_feedback | EPA ENERGY STAR 2023 annual overview, program impacts, and 2024 Most Efficient criteria | United States; national program and consumer/product market frame | 3 | 2022–2023 program overview; household awareness and purchasing; 1992–2023; program-reported cumulative impact and cost-saving frame; 2024; ENERGY STAR Most Efficient criteria for selected residential products | reported | [open](records/us-energy-star-consumer-efficiency-program-2023-2024.json) |
 
