@@ -2480,7 +2480,7 @@ alternatives.
 
 The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
 and [reader-facing finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md)
-screen six retained routes: SNAP transitions, platform remedies, CFPB
+screen six original retained routes: SNAP transitions, platform remedies, CFPB
 student-loan complaints, SHED fraud/recovery, housing/insurance market
 records, and local service capacity. None satisfies the promotion rule requiring
 the same unit's dated trigger, alternative or non-use choice, institutional
@@ -2489,6 +2489,13 @@ exit. This is a verified observability boundary, not evidence that no remedy
 or exit occurred. No bulk data was downloaded. The next qualifying pass must
 obtain one lawful small event ledger or valid panel with those missing fields;
 otherwise rotate to a subgroup/place reversal from retained data.
+
+The detailed practical-exit finding extends this comparison to eight routes by
+adding the Doxo bill-payment enforcement case and Grubhub's aggregate remedy
+program. Those records improve coverage of formal consumer response and
+distribution, but remain open on person-level alternatives, payment success,
+remedy receipt, protected outcomes, trust, switching, and exit; they do not
+change the qualification result.
 
 The [subgroup-conditioned SIPP work-direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-045.md)
 now supplies that reversal from retained data. Across children-present,

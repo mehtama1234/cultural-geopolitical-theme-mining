@@ -40,7 +40,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 50 documented rotations across the priority bridges, plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 51 documented rotations across the priority bridges, plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
@@ -815,7 +815,7 @@ same-unit source with the missing fields, while the broad program continues
 through other lanes.
 
 The forty-fourth rotation applies the storage-light event-compatibility rule
-across six retained practical-exit routes. The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
+across the original six retained practical-exit routes. The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
 finds zero routes with all of the required stages: dated trigger, alternative
 or non-use choice, institutional response, verified protected or sacrificed
 outcome, and later meaning/action or exit. The accompanying [finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md)
@@ -878,6 +878,16 @@ use on one official population surface. The pattern sharpens the link between
 outside options and workplace control, but remains descriptive: causal AI
 displacement, productivity, pay, household welfare, trust, and political
 response remain open.
+
+The fifty-first rotation extends the practical-exit comparison with the
+[Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
+and [Grubhub remedy record](records/us-ftc-grubhub-multisided-remedy-2026.json).
+These cases add reported search-route confusion, alleged payment friction,
+aggregate remedy distribution, and prospective platform controls. They still
+do not expose the affected unit's usable alternative, payment or income
+outcome, remedy receipt, durability, trust, switching, or exit. The expanded
+eight-route finding therefore strengthens the institutional-response surface
+without closing the same-case practical-recovery arrow.
 
 ## Active research lanes
 
