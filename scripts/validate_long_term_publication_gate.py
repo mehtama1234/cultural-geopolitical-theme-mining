@@ -33,6 +33,7 @@ CHECKS = [
     ("finding Markdown/HTML parity", ["scripts/validate_us_finding_parity.py"]),
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
     ("broad counterexample register", ["scripts/validate_broad_counterexample_register.py"]),
+    ("broad-goal integrity", ["scripts/test_broad_goal_integrity.py"]),
     (
         "broad same-case availability guards",
         ["scripts/test_broad_same_case_episode_availability.py"],
