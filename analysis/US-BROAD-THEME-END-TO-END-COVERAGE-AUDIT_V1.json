@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "ae832c8922b416d4681373b0e4a89912f04809f579c1a640a230953638cec191",
+  "matrix_sha256": "ba0a0b65a50f54f163435a9b9b17350f90c0000aa4c4bdda3744c4ceb6bef7d5",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -133,9 +133,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 13,
+      "evidence_anchor_count": 14,
       "measurement_level": "Person, household, program spell, agency, place, census tract",
-      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; SIPP adds next-month food-security severity beside energy assistance and utility difficulty, while LIHEAP separates reach from reported restoration; WBNS adds perceived-risk public-benefit non-use in immigrant families, but not eligibility or a verified agency episode; durable recovery, direct notices, effort, interpretation, remedy, and later action remain open.",
+      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; SIPP adds next-month food-security severity beside energy assistance and utility difficulty, while LIHEAP separates reach from reported restoration; WBNS adds perceived-risk public-benefit non-use in immigrant families; the SNAP governance finding adds federal/state data-access conflict, database controls, and privacy-comment visibility, but not eligibility or a verified agency episode; durable recovery, direct notices, effort, interpretation, remedy, and later action remain open.",
       "same_unit_end_to_end_link": false,
       "source_line": 23,
       "status_tokens": [
