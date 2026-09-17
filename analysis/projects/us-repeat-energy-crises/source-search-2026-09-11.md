@@ -28,3 +28,13 @@ first energy crisis
 ```
 
 Repeat need should trigger a different question from first need: what remained unchanged after the first intervention?
+
+## Delivery recheck
+
+On 2026-09-16, targeted requests to the official LIHEAP performance-measure
+definition page and performance warehouse returned HTTP 502 responses from the
+staging host. This is recorded as a delivery/access failure, not an empty
+performance dataset and not evidence that any state or grant recipient had no
+reported restoration or prevention measure. The stable FY2024 annual-report
+spotlight remains the currently usable public aggregate; recipient-level
+performance extraction stays open until the official warehouse is reachable.
