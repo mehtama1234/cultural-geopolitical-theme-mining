@@ -9,7 +9,8 @@ lists the annual update and Q2 GDP third estimate/corporate profits for
 September 30, 2026, with September Personal Income and Outlays listed for
 October 29. The [BLS 2026 release calendar](https://www.bls.gov/schedule/2026/)
 lists August JOLTS for September 29, September Employment Situation for
-October 2, September CPI for October 14, and September PPI for October 15.
+October 2, September CPI for October 14, September PPI for October 15, and
+September import/export prices for October 16.
 These are scheduled checkpoints, not guarantees that the resulting vintage
 will be comparable or that a new causal claim will be warranted.
 
@@ -43,6 +44,7 @@ longitudinal-to-2026 cross-sectional design break remains a required boundary.
 | BLS Employment Situation | August 2026; establishment August preliminary | October 2, 2026 expected September release | Re-fetch CPS and CES separately; retain revisions to prior months | Household and establishment surveys have different universes |
 | BLS Consumer Price Index | August 2026; [record](records/us-bls-cpi-2026-august.json) | October 14, 2026 expected September release | Re-fetch CPI-U all-items, core, food, energy, gasoline, and shelter; preserve seasonal-adjustment status and category definitions | CPI-U is an aggregate urban price index, not household-specific hardship, affordability, or lived inflation |
 | BLS Producer Price Index | August 2026; [record](records/us-bls-ppi-2026-august.json) | October 15, 2026 expected September release | Re-fetch final/intermediate demand, energy, diesel, and revision notes; preserve seller-side versus consumer-side definitions | PPI is an upstream seller-side index, not automatic consumer pass-through, firm margin, or household burden |
+| BLS Import and Export Price Indexes | August 2026; official page rechecked September 17, 2026 | October 16, 2026 expected September release | Preserve import/export, fuel/nonfuel, locality, terms-of-trade, and revision fields; the current release reports import prices +7.0% year over year and export prices +8.6% | Cross-border price movement is an upstream trade and competitiveness signal, not a tariff incidence, consumer pass-through, firm margin, or geopolitical leverage estimate |
 | BLS CES selected earnings | January–August 2026; July/August preliminary | October 2, 2026 expected September data | Re-run series-page fetcher; preserve page hashes and partial-year denominator | Sector means are not worker wage trajectories or real purchasing power |
 | Federal Reserve SHED | 2025 annual survey and linked credit records | Next annual publication; date not yet fixed in this atlas | Preserve question wording, linked-sample consent, and subgroup denominators | Hypothetical capacity and linked records are distinct from transactions |
 | USDA ERS household food security | 2024 annual report; [machine record](records/usda-food-security-2024.json) | Next annual report; date not yet fixed in this atlas | Recheck the ERS report/media page, preserve CPS-FSS vintage, household denominator, severity definition, and statistical-significance notes; the media page was updated July 28, 2026 without a newer annual estimate | Annual household food security is not a dated grocery, benefit, price, health, trust, or political-action episode |
