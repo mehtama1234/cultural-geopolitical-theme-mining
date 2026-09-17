@@ -22,6 +22,34 @@ health vulnerability, data value, recurring payment, and practical exit. It is
 not evidence that every patient experienced all four, and the complaint is not
 a final adjudication.
 
+## Population context without false pooling
+
+The [HBS report on privacy regulation and data sharing](https://www.library.hbs.edu/working-knowledge/more-trust-more-data-the-upside-of-privacy-laws-for-companies)
+describes a separate six-month comparison of nearly 16,000 randomly selected
+customers of a receipt-and-reward app. After California and Virginia privacy
+laws took effect, the app users submitted 1.5 additional receipts per month,
+generated 5% more unique store visits, and shared 4% more retail categories.
+The report also says the largest increases came from customers who had been
+less inclined to share before the laws.
+
+That study supplies a population-behavior mechanism—privacy protections may
+reassure people and increase sharing—while the Hims case supplies a named
+downstream governance risk. They cannot be combined into a health-data
+exposure rate: the app's receipt-sharing users, the Hims patients, the state
+laws, the data types, and the outcomes are different. The safe bridge is:
+
+```text
+privacy protection or reassurance
+  -> more willingness to share in one consumer app
+  -> [open] what a health service collects and sends onward
+  -> [open] billing, treatment, deletion, correction, and exit outcome
+```
+
+More sharing is compatible with greater perceived safety and with greater firm
+knowledge at the same time. The Hims allegations make the later-use question
+especially consequential because the information may concern intimate health
+conditions.
+
 ## Evidence boundary
 
 | Surface | What the official case contributes | What remains unmeasured |

@@ -29,6 +29,13 @@ privacy rule and clearer permission
 
 The HBS account supports more sharing after the rules and points to trust as a mechanism. It does not show that the data are used fairly, that people read the notice, or that the extra sharing improves their outcomes.
 
+The new [Hims & Hers case finding](findings/us-privacy-trust-data-sharing-001.md)
+adds the downstream enforcement contrast: a pending complaint alleges health-
+data sharing, recurring prescription billing, and cancellation friction in a
+named telehealth service. It is deliberately not pooled with the nearly
+16,000-user receipt-app study; it supplies a governance-risk case, not a rate
+of health-data exposure or medical harm.
+
 The FTC sources sharpen the test: judge the arrangement by notice clarity, purpose, the ability to refuse or withdraw, and limits on later sharing. A person can choose to share more while still having little power over what happens next.
 
 ## Counterpoint to keep visible
