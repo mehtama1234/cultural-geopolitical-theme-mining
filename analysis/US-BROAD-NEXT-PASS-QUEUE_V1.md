@@ -2508,6 +2508,17 @@ receipt, restored income/access, remedy adequacy, continued use, switching, or
 exit. The next test remains a group-specific remedy ledger rather than another
 aggregate redress total.
 
+### Broad coverage control audit — 2026-09-17
+
+The [machine-readable coverage audit](data/us-broad-theme-end-to-end-coverage-audit-2026-09-17.json)
+rechecked the 14-theme matrix without acquiring data. It finds 14 themes with
+14 Compared, 12 Reported, 5 Open, and 3 Inferred status tokens; five themes
+explicitly declare an open same-unit end-to-end link. These are control counts,
+not pooled rates and not evidence that the other themes are complete. The next
+executable checkpoint remains the authenticated PSID wave-file gate, followed
+by a retention/missingness/weight audit; no PSID archive should be downloaded
+until account access is available.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
