@@ -16,6 +16,18 @@ REQUIRED = {
     "boundary",
 }
 
+REQUIRED_TOP_LEVEL = {
+    "format",
+    "status",
+    "checked",
+    "purpose",
+    "required_stages",
+    "sources",
+    "result",
+    "next_test",
+    "storage_boundary",
+}
+
 
 def main() -> int:
     root = Path(__file__).resolve().parents[1]
@@ -27,6 +39,9 @@ def main() -> int:
     )
     args = parser.parse_args()
     data = json.loads(args.audit.read_text(encoding="utf-8"))
+    missing_top_level = REQUIRED_TOP_LEVEL - set(data)
+    if missing_top_level:
+        raise ValueError(f"audit missing top-level fields: {sorted(missing_top_level)}")
     if data.get("status") != "stage_availability_audit":
         raise ValueError("audit must remain a stage availability audit")
     required_stages = set(data.get("required_stages", []))
@@ -39,10 +54,15 @@ def main() -> int:
         missing = REQUIRED - set(row)
         if missing:
             raise ValueError(f"{row.get('source')} missing {sorted(missing)}")
+        source = Path(row["source"])
+        if source.is_absolute() or ".." in source.parts:
+            raise ValueError(f"source must be a repository-relative path: {row['source']}")
+        if not isinstance(row["records"], int) or row["records"] < 0:
+            raise ValueError(f"{row['source']} records must be a nonnegative integer")
         if set(row["stage_status"]) != required_stages:
             raise ValueError(f"{row['source']} has incomplete stage status")
-        if not (root / row["source"]).exists():
-            raise FileNotFoundError(root / row["source"])
+        if not (root / source).is_file():
+            raise FileNotFoundError(root / source)
     print(f"VALID broad same-case episode availability audit: {len(rows)} local source surfaces")
     return 0
 
