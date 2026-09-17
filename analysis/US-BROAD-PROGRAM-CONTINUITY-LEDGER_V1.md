@@ -1035,3 +1035,10 @@ adds the institutional-usability stage: disability-related needs can encounter
 equipment, sensory, communication, digital, bias, and oversight barriers after
 coverage or capacity exists. It preserves the open arrows from accommodation
 to completed care, health/work consequence, correction, trust, and exit.
+
+The [GAO working adults and safety-net layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
+adds a labor–public-benefit bridge: millions of adults worked while connected
+to Medicaid or SNAP, with private-sector and occupational concentration plus
+selected-state repeated employers. It keeps open the arrows from hours, wages,
+benefits, and eligibility continuity to household security, worker mobility,
+and employer responsibility.

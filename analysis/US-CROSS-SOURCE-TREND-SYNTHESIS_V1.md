@@ -1321,6 +1321,16 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 working adults, Medicaid/SNAP, and employer reliance layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
+adds a labor–safety-net bridge. About 13.8 million Medicaid-enrolled adults and
+10.6 million adults in SNAP-receiving households worked at some point in 2024;
+about two-thirds of each group worked at least 35 hours per week, and 88% were
+in the private sector. Selected-state employer data show repeated large-
+employer concentration, but do not prove wage inadequacy, benefit shifting,
+employer intent, or causal employment effects. The next test is a lawful
+state-year worker–household–employer ledger with hours, weeks, wages, benefits,
+eligibility transitions, household need, and later security.
+
 The [GAO 2026 disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
 adds the usability stage after nominal coverage, facility capacity, or an
 appointment offer. GAO identifies physical, sensory, communication, digital,

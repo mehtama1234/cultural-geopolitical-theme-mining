@@ -2785,3 +2785,11 @@ accommodation requests, failed or delayed encounters, disability subgroup and
 place differences, provider implementation, and OCR/CMS correction. Keep
 coverage, appointment supply, accessibility, completed care, health outcome,
 and exit as separate stages; do not infer low harm from low complaint volume.
+
+The [GAO working adults and safety-net layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
+adds a work–public-benefit concentration test. The next pass should seek only
+compact official state tables or HTML evidence on hours, weeks, wages, employer
+benefits, eligibility churn, food/health security, and comparable firms. Keep
+individual work, household SNAP receipt, Medicaid enrollment, and employer
+presence as distinct universes; do not infer employer intent or “dependency”
+from co-occurrence.

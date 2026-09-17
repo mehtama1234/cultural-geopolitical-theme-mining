@@ -70,6 +70,11 @@ index or a claim that the same people appear in every source.
    sensory, communication, digital, bias, and oversight barriers can prevent
    formal health-care capacity from becoming a completed care episode. Read the
    [disability accessibility layer](site/gao-2026-disability-healthcare-accessibility-layer-v1.html).
+10. **Work and public benefits coexist at scale:** Medicaid and SNAP-connected
+   workers are concentrated in private-sector, lower-wage occupations and some
+   large employers, but work intensity, household receipt, benefit continuity,
+   and employer responsibility are separate questions. Read the [working
+   adults and safety-net layer](site/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.html).
 
 ## Recent cross-theme additions
 

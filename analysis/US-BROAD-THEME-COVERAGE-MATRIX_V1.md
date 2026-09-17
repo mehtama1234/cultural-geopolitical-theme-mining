@@ -148,6 +148,13 @@ readiness to themes 2, 5, 6, 7, and 10. It extends the household care-to-work
 bridge while preserving the nonrepresentative DOD setting and the open link
 from incentives to reliable access and parent outcomes.
 
+The [GAO working adults and safety-net layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
+adds work intensity, public health/food protection, occupational concentration,
+and selected-state employer concentration to themes 1, 2, 5, 6, and 10. It
+strengthens the work–security bridge while preserving the distinct universes
+for individual employment, household SNAP receipt, Medicaid enrollment, and
+selected employer records.
+
 The [GAO disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
 adds physical, sensory, communication, digital, bias, data, and civil-rights
 oversight conditions to themes 2, 5, 6, and 10. It strengthens the distinction
