@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "0d75c05cb30382f7d6f814d02247e002ac818cab1d4c52af2f840a34ed55079e",
+  "matrix_sha256": "bdad6d7bbf32800290211a3ea45bafe322ae4d806b24ed71d0be694dd2b6cf07",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -14,9 +14,9 @@
   "themes": [
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 13,
       "measurement_level": "Person, consumer unit, product, household record",
-      "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit.",
+      "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit; the new cross-source records keep aggregate macro conditions, household buffers, food routes, and recovery/time costs separate rather than building a welfare index.",
       "same_unit_end_to_end_link": false,
       "source_line": 14,
       "status_tokens": [
