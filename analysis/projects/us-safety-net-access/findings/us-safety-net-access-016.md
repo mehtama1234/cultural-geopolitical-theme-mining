@@ -61,6 +61,15 @@ the applicant-level consequences are resolved. It also adds an explicit
 counterexample to the agency narrative: the court record did not show
 significant fraud or eligibility errors in compliant states at that stage.
 
+The June 2026 Federal Register modification adds the data-system layer. USDA
+describes an electronic National SNAP Information Database hosted in a FedRAMP
+High cloud with need-to-know access, eAuthentication, encryption, and legally
+bounded routine uses. USDA also reports more than 450 unique public comments,
+including approximately 132 raising concerns about improper sharing, privacy,
+or mishandling, and says it revised the notice to clarify legal limits. These
+are documented design and public-comment stages—not proof of safe real-world
+use, no chilling effect, or improved benefit administration.
+
 ## Why it matters to the broader atlas
 
 The event extends the public-system chain backward to a stage often treated as
@@ -81,6 +90,8 @@ benefit episode unobserved.
   not a final judicial finding.
 - The related court order is temporary and does not decide the ultimate legal
   authority, data-use, privacy, or program-performance questions.
+- USDA's stated technical safeguards and response to public comments describe
+  controls and concerns, not observed privacy outcomes or applicant behavior.
 - The underlying applicant data and state-level comparisons are not published
   in the release.
 - “Billions” is an agency characterization of reported evidence, not an
@@ -103,10 +114,12 @@ and later action.
 
 - [DOJ lawsuit announcement](https://www.justice.gov/opa/pr/justice-department-sues-states-failing-provide-snap-data-us-department-agriculture)
 - [Related Northern District of California order](https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_25-cv-06310/pdf/USCOURTS-cand-3_25-cv-06310-0.pdf)
+- [USDA National SNAP Information Database Federal Register notice](https://www.govinfo.gov/content/pkg/FR-2026-06-15/pdf/FR-2026-06-15.pdf)
 - [SNAP route-performance finding](us-safety-net-access-002.md)
 - [Recipient-side route finding](us-safety-net-access-003.md)
 - [Machine-readable trend record](../../../records/us-doj-snap-data-access-federal-state-conflict-2026.json)
 
-**Storage boundary:** one official DOJ HTML page and one 18-page official court
-PDF were checked; no applicant file, court docket bundle, USDA extract, or bulk
-data was downloaded or retained.
+**Storage boundary:** one official DOJ HTML page, one 18-page official court
+PDF, and the relevant pages of one Federal Register PDF were checked; no
+applicant file, court docket bundle, USDA extract, or bulk data was downloaded
+or retained.

@@ -182,6 +182,7 @@ family that will be acquired, compared, or maintained over time.
 | `cambridge.org` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-economic-voting-real-wages/source-search-2026-09-11.md` |
 | `dole.gov.ph` | 4 | `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
 | `github.com` | 4 | `analysis/projects/ai-work-control/findings/ai-work-control-078.md`; `analysis/projects/ai-work-control/findings/ai-work-control-077.md`; `analysis/records/us-defense-procurement-recipient-identifier-ambiguity-2026.json` |
+| `govinfo.gov` | 4 | `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/records/us-doj-snap-data-access-federal-state-conflict-2026.json` |
 | `help.theguarantors.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `ilostat.github.io` | 4 | `analysis/us-theme-atlas.md`; `analysis/projects/ai-work-control/source-search-2026-09-11.md`; `analysis/projects/ai-work-control/ilostat-access-audit-2026-09-15.md` |
 | `internetconsultatie.nl` | 4 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `production.humanresourcesonline.net` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `wetgevingskalender.overheid.nl` | 3 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `bwc.dole.gov.ph` | 2 | `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
-| `cy.ico.org.uk` | 2 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-recruitment-follow-up-acquisition-audit-2026-09-15.md` |
 
 ## Reverse-audit decisions
 
@@ -232,6 +232,7 @@ without a recurring acquisition need and source-specific metadata.
 | `cambridge.org` | academic publisher | Retain the cited paper/publisher route; promote the specific research program only when it becomes a maintained acquisition lane. |
 | `dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `github.com` | code/reproducibility host | Do not register; preserve repository, release, commit, and upstream institution separately. |
+| `govinfo.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `help.theguarantors.com` | commercial support host | Do not register; treat as product documentation under the commercial case source. |
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
 | `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -255,7 +256,6 @@ without a recurring acquisition need and source-specific metadata.
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `govinfo.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
