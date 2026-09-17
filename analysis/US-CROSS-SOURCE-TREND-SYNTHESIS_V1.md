@@ -120,6 +120,46 @@ preference, support, constraint, or some mixture. The decisive missing fields
 remain the dated trigger, feasible alternatives, actor response, verified
 outcome, and later trust, action, recovery, or exit in the same unit.
 
+### Three currencies of everyday optionality
+
+The three latest SHED-based findings are useful together because they expose
+different forms of room to maneuver without pretending that the respondents
+or episodes are the same. The comparison is a mechanism map, not a pooled
+index:
+
+| Lane | Unit and measured surface | What the evidence supports | What it does not establish |
+|---|---|---|---|
+| Banking and fraud recourse | 2025 SHED adult respondents; formal account status, overdraft, nonbank transaction routes, reported fraud loss/recovery, provider contact, and reported switching | Formal entry can coexist with reliance on alternative payment routes and incomplete or uneven recourse; non-switching is an observed behavior, not proof of satisfaction | A dated account event, provider fault, quality of the alternative, verified dollar recovery, usable liquidity, trust change, or practical exit |
+| Care and living arrangements | 2025 SHED adult respondents; multigenerational living, paid and unpaid childcare, childcare cost relative to housing, adult caregiving, gendered caretaker roles, and caregiving-related employment status | Households may convert money pressure into co-residence or unpaid labor, and care responsibilities can coexist with employment differences; these are distinct resource and time allocations | A same-family care trigger, available substitute, schedule control, displaced work/time, employer or public response, recovery, or political meaning |
+| Employment and AI control | 2025 Federal Reserve SHED workers/adults; young-adult job-finding difficulty, layoffs, voluntary exits, new-job starts, work location/schedule variation, AI use, perceived time saving, education, and task-control differences | Outside mobility and workplace control are separate dimensions of the AI transition; adoption and perceived time saving can be distributed by education and decision latitude | Causal AI displacement or productivity, pay or benefit change, task-level implementation, worker bargaining, household welfare, trust, or political response |
+
+The common analytical point is that an alternative is not just a second
+product or a second place to live. It can be a payment channel, a family
+member's unpaid time, a schedule accommodation, a job change, or the ability
+to refuse a tool. Each alternative carries a different price in money, time,
+privacy, status, dependence, or future bargaining power. The available data
+show the surfaces separately; they do not tell us which option a particular
+person considered, whether it was genuinely usable, or what outcome it
+protected.
+
+This is why the atlas should code the following as distinct states:
+
+```text
+formal access       != usable access
+alternative route  != equivalent substitute
+continued use      != satisfaction
+AI adoption        != worker gain
+co-residence       != voluntary preference
+non-switching      != practical power
+```
+
+The next decisive design is therefore a same-unit event or repeated-person
+comparison that records the initiating need, the alternatives actually
+available, the choice and its money/time cost, the actor controlling the next
+step, and a protected or sacrificed outcome. Only then can the three lanes be
+connected to recovery, trust, action, or exit without converting population
+patterns into one synthetic household story.
+
 The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
 adds a named worker-remedy stage to the same distinction. The FTC publicly
 reports earlier payment rounds totaling more than $60.6 million and a current
