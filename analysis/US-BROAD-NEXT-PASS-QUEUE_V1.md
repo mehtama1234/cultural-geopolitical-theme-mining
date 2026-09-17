@@ -33,10 +33,12 @@ behavior, meaning, institutional, or geopolitical arrow.
 
 The immediate health-cost pass now has two executable registration-gated
 routes. The [UAS audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md)
-and its monthly follow-up script target a reported medical-expense shock
-(`fin3s4`) followed by later health, work, pain, life-satisfaction, or meaning
-outcomes, with UAS 537/698 supplying richer care, satisfaction, and trust
-fields. The [HRS audit](projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md)
+and its monthly follow-up scripts target a reported medical-expense shock or
+an Older Ages monthly event followed by later health, work, pain,
+life-satisfaction, or meaning outcomes, with UAS 537/698 supplying richer care,
+satisfaction, and trust fields. The Older Ages panel is the narrower,
+event-first route for adults 50+; the October 2023-present Monthly Panel is the
+broader adult route. The [HRS audit](projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md)
 provides an age-50-plus re-test using unaffordable-care reasons and trust in
 Medicare/Medicaid and insurers. The first acquired-file gate is structural:
 hashes, person keys, module overlap, eligibility, weights, timing, and

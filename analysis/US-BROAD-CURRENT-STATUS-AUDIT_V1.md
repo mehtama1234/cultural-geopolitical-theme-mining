@@ -1114,11 +1114,14 @@ market-transition or household result.
   trust/confidence fields but no matching medical-expense hardship exposure.
   It is retained as context only; the episode-level bill-to-trust join remains
   an explicit acquisition target.
-- **Health-cost acquisition routes:** USC UAS now has a run-ready monthly
-  medical-expense-shock follow-up audit, while HRS 2020 supplies an age-50-plus
-  parallel with unaffordable-care reasons and Medicare/Medicaid and insurer
-  trust targets. Both remain registration-gated until keys, module overlap,
-  timing, weights, and missingness are verified.
+- **Health-cost acquisition routes:** USC UAS now has run-ready follow-up
+  audits for the broad October 2023-present Monthly Panel and the narrower
+  Older Ages Monthly Events panel, whose 52 waves (June 2019–September 2023)
+  explicitly expose dated event blocks, medical expenditures, health, work,
+  and well-being for adults 50+. HRS 2020 supplies a parallel age-50-plus
+  route with unaffordable-care reasons and Medicare/Medicaid and insurer trust
+  targets. All remain registration-gated until keys, module overlap, timing,
+  weights, missingness, and event-date handling are verified.
 - **Migration and local-demand depth:** the matched-place stream now has a
   reproducible 12-county screen using 2020–2023 population change, ACS
   foreign-born share and arrival timing, rent, crowding, language-access need,
