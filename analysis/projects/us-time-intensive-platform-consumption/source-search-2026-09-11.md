@@ -26,6 +26,12 @@ free or low-money-price service
 
 The source supports time cost as part of customer demand. It does not establish the full welfare or policy result.
 
+The [time-price platform finding](findings/us-time-intensive-platform-consumption-001.md)
+is now promoted as a bounded field-experiment/model result. It adds a distinct
+consumer-cost mechanism to the digital-habits lane; long-run welfare,
+work/care/sleep substitution, switching, and actual competition effects remain
+open.
+
 ## Counterpoint to keep visible
 
 People may stay because the service is valuable, familiar or socially important. More ads can be a tolerable price for a service that remains free, and time spent is not automatically time lost.

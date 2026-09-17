@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-time-intensive-platform-consumption-2026",
+  "title": "For time-intensive platforms, attention and opportunity cost are part of the consumer price",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "time_hidden_price", "consumer_power_recourse", "firm_sector_market_power", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "Two Facebook/Instagram field experiments and an economic model reported in NBER Working Paper 34743; platform-user experiment, not a representative welfare panel",
+  "geography": "United States platform users and online/offline activity alternatives as described by the study",
+  "observations": [
+    {
+      "period": "2026; two field experiments on Facebook and Instagram",
+      "denominator": {"value": 2, "unit": "field experiments", "value_type": "experiment_count"},
+      "measures": {
+        "user_cost_manipulated": {"value": "ad load, described as the primary user cost in the setting", "unit": "experimental platform-cost treatment", "value_type": "reported_design"},
+        "ad_load_response": {"value": "low elasticity", "unit": "study-reported demand response", "value_type": "reported_result"},
+        "substitution_scope": {"value": "online activities and offline time use", "unit": "alternative activity domains", "value_type": "reported_outcome_scope"}
+      },
+      "method": "NBER working-paper abstract describing two field experiments; this record preserves the experiment count and qualitative result without reconstructing unreported cell-level estimates.",
+      "uncertainty": "Low response to ad load does not identify whether users value the service highly, lack close substitutes, tolerate ads, or bear a low welfare cost. The abstract does not provide long-run well-being, sleep, work, care, or household outcomes.",
+      "subgroup": "Users in the Facebook and Instagram field experiments; the public abstract does not provide a representative-population denominator or subgroup estimates.",
+      "counterinterpretation": "Time spent can be valuable leisure, social connection, or information rather than time lost. Low ad-load elasticity can coexist with high platform benefit or with constrained substitution.",
+      "source_url": "https://www.nber.org/papers/w34743",
+      "retrieval_hash": "sha256:0132a1c8cf844d2a01d4a8e75ea4e3894d85ccd1c444cc8a88cc67f344bb1ee1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; model and competition application in NBER Working Paper 34743",
+      "denominator": {"value": 1, "unit": "time-allocation demand model and Federal Trade Commission-proposed de-merger application", "value_type": "model_application"},
+      "measures": {
+        "time_share_and_time_cost": {"value": "significantly influence diversion ratios", "unit": "model result", "value_type": "reported_result"},
+        "competition_counterfactual": {"value": "potential separation of Facebook and Instagram is explored", "unit": "modeled policy counterfactual", "value_type": "reported_application"}
+      },
+      "method": "NBER abstract describing the Beckerian time-allocation model and its application to platform competition.",
+      "uncertainty": "A modeled diversion ratio or de-merger scenario is not an observed separation, price change, welfare realization, or political outcome. The authors disclose that they worked on behalf of Meta in connection with antitrust litigation; Meta did not provide financial support, and the paper states opinions/errors are the authors' own.",
+      "subgroup": "Model-defined platform activities and users represented in the field experiments; not a national household welfare estimate.",
+      "counterinterpretation": "Accounting for time can improve competition analysis without implying that a regulator should separate platforms or that users would choose an offline substitute under an actual structural change.",
+      "source_url": "https://www.nber.org/papers/w34743",
+      "retrieval_hash": "sha256:0132a1c8cf844d2a01d4a8e75ea4e3894d85ccd1c444cc8a88cc67f344bb1ee1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34743", "claim": "NBER identifies the authors, January 2026 issue date, May 2026 revision, field-experiment design, low ad-load elasticity, time-cost substitution, and de-merger application.", "status": "official-working-paper-record"},
+    {"source_url": "https://www.nber.org/papers/w11995", "claim": "Earlier NBER time-intensive-goods work supplies conceptual context for valuing time as part of product cost.", "status": "research-context", "access_boundary": "The older Internet valuation study is not pooled with the 2026 Facebook/Instagram experiments."}
+  ],
+  "boundary": "This record promotes a time-price mechanism for digital consumer demand. It observes experimental response and model application, but does not establish user well-being, household care/work displacement, dependence, practical exit, realized consumer surplus, or the effect of an actual platform separation. The next test is a consented time-use and substitution panel with platform exposure, ad load, content value, offline activity, work/care/sleep, switching, and later trust kept separate."
+}
