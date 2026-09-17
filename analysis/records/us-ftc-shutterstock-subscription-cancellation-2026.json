@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-shutterstock-subscription-cancellation-2026",
+  "title": "Subscription design can convert inattention into billing and make exit costly",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "platforms_data_attention", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Federal Trade Commission complaint and proposed order concerning Shutterstock Inc.; institutional enforcement case, not a population sample",
+  "geography": "United States federal consumer-protection enforcement; Shutterstock's online subscription and content-pack flows",
+  "observations": [
+    {
+      "period": "May 2026; FTC complaint and proposed settlement announcement",
+      "denominator": {"value": 1, "unit": "named company enforcement case", "value_type": "institutional_case_count"},
+      "measures": {
+        "proposed_consumer_relief": {"value": 35000000, "unit": "US dollars", "value_type": "proposed_relief_amount"},
+        "business": {"value": "online licensing platform for stock photos, graphics, videos, and music clips", "unit": "named business", "value_type": "case_description"},
+        "alleged_mechanisms": {"value": "inadequate renewal and cancellation disclosure, charges without express informed consent, and difficult cancellation", "unit": "FTC complaint allegations", "value_type": "alleged_practice"},
+        "relief_requirements": {"value": "clear material-term disclosure, express informed consent to charges, and simple cancellation mechanisms", "unit": "proposed-order controls", "value_type": "institutional_remedy_design"}
+      },
+      "method": "Official FTC press release summarizing the complaint and proposed order filed in the U.S. District Court for the Southern District of New York.",
+      "uncertainty": "The FTC describes allegations and a proposed settlement; this case does not estimate the prevalence of unwanted renewals, the share of customers who were inattentive, individual household loss, or whether every continued payment was unwanted. The proposed relief is not evidence that all customers failed to understand terms.",
+      "subgroup": "Consumers using Shutterstock annual paid-up-front, annual paid-monthly, or on-demand content-pack offerings; no representative consumer denominator is supplied.",
+      "counterinterpretation": "Automatic renewal can preserve useful continuity, and a customer who does not cancel may knowingly retain a low-frequency service. A difficult cancellation route is evidence about the exit mechanism, not by itself proof of consumer harm in every account.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
+      "retrieval_hash": "sha256:9415d14afd95810c01848762a032fd2146c8d7890f6bf2c4abe1bc9776fd1c95",
+      "status": "reported"
+    },
+    {
+      "period": "At least 2020 through early 2024; practices described in the FTC announcement",
+      "denominator": {"value": 1, "unit": "named company's subscription and content-pack enrollment/cancellation flows", "value_type": "case_scope"},
+      "measures": {
+        "one_time_project_pack_allegation": {"value": "on-demand packs advertised as no commitment but alleged to renew when the last download was used and, until early 2024, after one year", "unit": "FTC complaint allegation", "value_type": "reported_mechanism"},
+        "early_cancellation_route_allegation": {"value": "before 2024, consumers could not complete early cancellation online and had to contact support by phone, chat, or email", "unit": "FTC complaint allegation", "value_type": "reported_exit_friction"},
+        "cancellation_fee_disclosure_allegation": {"value": "annual paid-monthly plan page allegedly failed to clearly disclose renewal and early-cancellation fee terms", "unit": "FTC complaint allegation", "value_type": "reported_disclosure_issue"}
+      },
+      "method": "FTC's public description of the complaint; dates and mechanisms are retained as alleged case facts rather than independently generalized consumer outcomes.",
+      "uncertainty": "The source gives no account-level exposure denominator, observed cancellation completion rate, time-to-cancel distribution, chargeback rate, or later customer trust/switching outcome.",
+      "subgroup": "Users entering or holding the named plan types; plan and flow differences matter.",
+      "counterinterpretation": "A support-mediated cancellation path may be burdensome without being impossible, and changes made before the settlement may alter current experience; implementation and recurrence need separate verification.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
+      "retrieval_hash": "sha256:9415d14afd95810c01848762a032fd2146c8d7890f6bf2c4abe1bc9776fd1c95",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323034-shutterstock-inc", "claim": "FTC case docket and filings for the Shutterstock subscription matter.", "status": "official-case-record"},
+    {"source_url": "https://www.nber.org/papers/w31547", "claim": "Payment-card research supplies a separate observational mechanism for cancellation at card replacement and modeled revenue from inattention.", "status": "research-context", "access_boundary": "The NBER study is not pooled with the FTC case and does not measure Shutterstock customers."}
+  ],
+  "boundary": "This record promotes one current digital-subscription enforcement case into the broader atlas. It observes an alleged attention-to-billing and exit-friction mechanism plus proposed institutional controls; it does not establish national subscription burden, causal household hardship, consumer dependence, or whether the remedy prevents recurrence. The next test is same-case implementation and account-level follow-up with notice, charge, cancellation effort, refund/relief receipt, continued use, switching, and trust kept separate."
+}

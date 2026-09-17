@@ -1,6 +1,6 @@
 # US cross-source trend synthesis v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Status:** living cross-source synthesis; no single causal chain claimed  
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-twenty-seven estimates of one phenomenon:
+thirty-three estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -70,10 +70,11 @@ twenty-seven estimates of one phenomenon:
 | 30. Formal digital-payment remedy versus lived recovery | [CFPB Cash App fraud redress case record](projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md) | A named US enforcement action documents fraud/dispute-process failures, required operational changes, and up to $120 million in consumer redress; formal remedy is separated from individual receipt, correction, trust, and exit | Case-level loss, dispute effort, payment receipt, restored access, repeat contact, alternative provider, switching, trust, and practical exit |
 | 31. Administrative redress distribution versus individual recovery | [CFPB BrightSpeed redress distribution record](projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md) | A public case page identifies an eligible class, aggregate compensable harm, payment administrator, and ongoing distribution; aggregate distribution status is stronger than an order alone but is not a consumer recovery rate | Successful payment receipt, amount received, remaining loss, repeat effort, restored practical options, trust, switching, and exit |
 | 32. Compensation versus obligation restoration | [CFPB Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md) | The CFPB reports ongoing checks while explicitly stating that payments do not change or reduce affected student loans; compensation and restoration are separate endpoints | Payment receipt, loan-balance correction, repayment-plan change, remaining loss, servicing effort, trust, switching, and exit |
+| 33. Subscription attention and practical exit | [Recurring payment and consumer exit](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md) | The FTC's Shutterstock case connects alleged unclear renewal terms and difficult cancellation to a proposed disclosure/consent/simple-exit remedy, while leaving prevalence and household incidence open | Same-account notice, charge, customer intent, attempted cancellation, effort, relief receipt, continued use, switching, and trust |
 
 ### The common pattern
 
-Across the twenty-eight rotations, the strongest recurring theme is **unequal
+Across the thirty-three rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
@@ -469,9 +470,9 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 265 machine-readable records, 992 observations,
+The current registry contains 266 machine-readable records, 994 observations,
 and 103 source packets across 14 program themes. It does not claim that the
-265 records describe separate evidence units rather than the same people or that one
+266 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
 proposition: financial improvement can coexist with worse health; SNAP exit
 can coexist with hardship; continued receipt can coexist with utility burden;
@@ -505,6 +506,18 @@ improve institutional legibility without restoring money, access, or trust.
 The next test remains a lawful case-linked or diary-based episode design with
 contact, loss, effort, verified correction, switching, and later meaning/action
 in the same unit.
+
+The [subscription-inattention finding](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md)
+adds a more concrete consumer-exit mechanism to that culture/attention route.
+The FTC's Shutterstock case alleges that renewal terms, charges, and
+cancellation routes could require attention or support contact to stop
+payment, and proposes $35 million in consumer relief plus disclosure, consent,
+and simple-cancellation controls. This is evidence about one firm's alleged
+design and an institutional remedy, not a national unwanted-renewal rate:
+continued payment, unwanted payment, and failed practical exit remain separate
+states. The next test is implementation and same-account follow-up, including
+relief receipt, current cancellation effort, continued use, switching, and
+trust.
 
 The [AI synthetic-contact experiment](projects/us-cost-trust-politics/findings/us-cost-trust-politics-026.md)
 adds a rare causal middle step to this otherwise mostly descriptive political

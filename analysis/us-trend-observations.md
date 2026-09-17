@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-265 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+266 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -417,6 +417,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Reported fraud losses rose while report volume stayed broadly stable, with loss incidence and severity split by age | cost, voice, work | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | FTC Consumer Sentinel Network administrative reports | United States reports and reports contributed by partner agencies and organizations | 2 | 2023–2024 annual Sentinel reports; 2024 fraud reports with usable age information | compared | [open](records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json) |
 
 **Boundary:** This is an administrative report and reported-loss layer, not a prevalence, verified-harm, recovery, or consumer-remedy estimate. It does not follow a person from platform or payment exposure through dispute, recovery, trust, or exit. The retrieval hash will cover the committed analysis memo.
+
+| Subscription design can convert inattention into billing and make exit costly | cost, time, voice | household_room_consumption, time_hidden_price, consumer_power_recourse, platforms_data_attention, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | Federal Trade Commission complaint and proposed order concerning Shutterstock Inc.; institutional enforcement case, not a population sample | United States federal consumer-protection enforcement; Shutterstock's online subscription and content-pack flows | 2 | May 2026; FTC complaint and proposed settlement announcement; At least 2020 through early 2024; practices described in the FTC announcement | reported | [open](records/us-ftc-shutterstock-subscription-cancellation-2026.json) |
+
+**Boundary:** This record promotes one current digital-subscription enforcement case into the broader atlas. It observes an alleged attention-to-billing and exit-friction mechanism plus proposed institutional controls; it does not establish national subscription burden, causal household hardship, consumer dependence, or whether the remedy prevents recurrence. The next test is same-case implementation and account-level follow-up with notice, charge, cancellation effort, refund/relief receipt, continued use, switching, and trust kept separate.
 
 | Institutional confidence is low overall but highly conditional on political and social position | voice, cost | trust_identity_meaning, political_judgment_action, consumer_power_recourse, work_control_bargaining, unequal_exposure_status | Gallup Poll Social Series respondent; U.S. adults asked confidence in named institutions | United States | 3 | June 2–26, 2025; confidence in 18 institutions; June 2–26, 2025; nine institutions tracked consistently since 1979; June 2–26, 2025; selected racial-group confidence comparisons | compared; reported | [open](records/us-gallup-institutional-confidence-party-race-2025.json) |
 

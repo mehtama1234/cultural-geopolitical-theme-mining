@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 265 records and
-992 observations.
+have exact registered-URL references. The trend registry holds 266 records and
+994 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2286,6 +2286,17 @@ location-history limits. The next step remains a worker-side or administrative
 record that verifies the actual tenant/country configuration and joins it to
 worker exposure, refusal consequences, enforcement, workload, privacy,
 bargaining, household security, or exit.
+
+The [subscription-inattention finding](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md)
+now adds a named digital-consumer exit case: the FTC's Shutterstock complaint
+and proposed settlement allege unclear renewal/cancellation terms, charges
+without express informed consent, and difficult cancellation, with $35 million
+in proposed consumer relief and controls. It closes the named institutional
+response arrow but not prevalence, household burden, relief receipt, or
+recurrence. The next test must preserve account intent, notice, charge,
+cancellation effort, relief, continued use, switching, and trust; do not call
+continued payment an unwanted payment or a failed exit without customer-level
+evidence.
 
 ## Sequencing rule
 

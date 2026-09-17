@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States consumer market  
-**Status:** short discovery pass; no settled finding
+**Status:** promoted case finding; prevalence and implementation follow-up remain open
 
 ## Working question
 
