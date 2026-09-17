@@ -2592,6 +2592,14 @@ source-vintage memo rather than a canonical record. The next test is a local
 labor-market and household design joining work, housing, childcare, transport,
 service capacity, and later meaning or political action.
 
+The [BLS 2026 candy-price, supply-chain, and consumer-adaptation layer](projects/us-household-financial-pressure/bls-2026-candy-price-supply-chain-consumer-adaptation-layer-v1.md)
+adds a storage-light product case: confectionery materials, end products,
+imports, candy CPI, and package downsizing moved on different scales while
+holiday demand and consumer adaptation remained culturally salient. BLS
+retrieval is blocked, so this remains a detailed memo rather than a canonical
+record. The next consumer test is a product/household design joining price,
+quantity, income, channel, substitution, and ritual or non-purchase behavior.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

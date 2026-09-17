@@ -659,6 +659,14 @@ visible, but the release does not identify causal migration effects, worker
 displacement, household welfare, or public-service demand. BLS's shutdown-year
 comparability warning remains explicit.
 
+The [BLS 2026 candy-price, supply-chain, and consumer-adaptation layer](projects/us-household-financial-pressure/bls-2026-candy-price-supply-chain-consumer-adaptation-layer-v1.md)
+adds a bounded consumer route from global inputs to cultural purchase. From
+December 2019 to November 2024, BLS reports confectionery-material PPI up
+87.6%, end-product PPI up 13.9%, candy-and-chewing-gum CPI up 32.0%, and
+import prices for sugar/confectionery manufacturing up 73.3%; downsizing added
+a measured 2.1% price effect. The result is a price/quantity/ritual-adaptation
+case, not a general household-welfare or food-security estimate.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

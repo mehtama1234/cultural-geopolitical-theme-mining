@@ -187,6 +187,7 @@ same people appear in every route.
 - [BLS 2025 major work stoppages and collective-action boundary](analysis/projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md): major stoppages provide an observed worker-action event, while count, scale, settlement, service incidence, and bargaining power remain distinct.
 - [Pew 2026 press-freedom limits and public-information norms layer](analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md): broad support for press freedom coexists with conditional support for restrictions and a sharp partisan reversal in perceived freedom and concern.
 - [BLS 2025 foreign-born work, earnings, and labor-room boundary](analysis/projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md): foreign-born workers are a large labor-force component with distinct occupational, earnings, regional, gender, and care patterns, without a causal migration claim.
+- [BLS 2026 candy prices, supply chains, and consumer adaptation layer](analysis/projects/us-household-financial-pressure/bls-2026-candy-price-supply-chain-consumer-adaptation-layer-v1.md): global input shocks reach a culturally concentrated consumer category through prices, package quantity, channels, and holiday rituals.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later
