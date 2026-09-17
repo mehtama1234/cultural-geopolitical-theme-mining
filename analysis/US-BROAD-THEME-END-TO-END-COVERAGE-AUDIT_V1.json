@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "0089633c258067cfd01040abc908eac8b4d5e14145feee9172118f9ec008c6a8",
+  "matrix_sha256": "9cf0486fcb62d9acda930cecb1d2ab1cd52985b267b621f24c6bb2bf58488e16",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -67,9 +67,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 3,
+      "evidence_anchor_count": 4,
       "measurement_level": "Worker, task, job, workplace, firm, respondent",
-      "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; proxies are not causal work measures.",
+      "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the MEPS two-clock audit adds event-family-aligned R4/2 and R5/3 nonemployment levels and transitions; proxies are not causal work measures.",
       "same_unit_end_to_end_link": false,
       "source_line": 18,
       "status_tokens": [
@@ -106,9 +106,9 @@
     },
     {
       "current_status": "Compared / Open",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 11,
       "measurement_level": "Person, household, place, customer, worker, program episode",
-      "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
+      "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; WBNS adds immigrant-family perceived-risk non-use and material/child hardship contrasts; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
       "same_unit_end_to_end_link": true,
       "source_line": 21,
       "status_tokens": [
@@ -119,9 +119,9 @@
     },
     {
       "current_status": "Reported / Compared / Open",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 11,
       "measurement_level": "Respondent, customer, survey wave, community, source ecosystem",
-      "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; the CCES layer now adds subgroup heterogeneity, but remains a descriptive joint-proxy screen, not a causal bridge.",
+      "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; WBNS adds a bounded perceived-risk/non-use signal and family hardship context, but does not observe trust change or causal enforcement effects; the CCES layer remains a descriptive joint-proxy screen, not a causal bridge.",
       "same_unit_end_to_end_link": true,
       "source_line": 22,
       "status_tokens": [
@@ -133,9 +133,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 11,
       "measurement_level": "Person, household, program spell, agency, place, census tract",
-      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; direct notices, effort, interpretation, remedy, and later action remain open.",
+      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; WBNS adds perceived-risk public-benefit non-use in immigrant families, but not eligibility or a verified agency episode; direct notices, effort, interpretation, remedy, and later action remain open.",
       "same_unit_end_to_end_link": false,
       "source_line": 23,
       "status_tokens": [
@@ -146,9 +146,9 @@
     },
     {
       "current_status": "Compared / Open",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 12,
       "measurement_level": "Respondent, source ecosystem, program episode, county, election, campaign/event",
-      "next_required_test": "SHED, CCES, ANES, Pew, and CPS now separate consumer adaptation, economic judgment, trust, source environment, civic action, turnout, registration, and participation barriers; subgroup heterogeneity is now visible in CCES, but joint proxies do not establish causality, and migration-specific exposure, attribution, belonging, and causal action path remain open.",
+      "next_required_test": "SHED, CCES, ANES, Pew, and CPS now separate consumer adaptation, economic judgment, trust, source environment, civic action, turnout, registration, and participation barriers; WBNS adds protective non-use as an observed behavior under perceived immigration risk, not as civic action; subgroup heterogeneity is now visible in CCES, but joint proxies do not establish causality, and migration-specific exposure, attribution, belonging, and causal action path remain open.",
       "same_unit_end_to_end_link": true,
       "source_line": 24,
       "status_tokens": [

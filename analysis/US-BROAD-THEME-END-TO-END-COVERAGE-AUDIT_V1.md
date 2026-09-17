@@ -27,13 +27,13 @@ end-to-end completion.
 | Time as a hidden price | Reported / Compared | 5 | No |
 | Consumer power and recourse | Compared / Reported | 11 | No |
 | Platforms, data, and attention | Reported / Compared / Inferred | 4 | No |
-| Work, control, and bargaining | Compared / Reported | 3 | No |
+| Work, control, and bargaining | Compared / Reported | 4 | No |
 | Care, health, and social reproduction | Reported / Compared | 8 | No |
 | Housing, place, and mobility | Compared / Reported | 12 | No |
-| Unequal exposure and status | Compared / Open | 10 | Yes |
-| Trust, identity, and cultural meaning | Reported / Compared / Open | 10 | Yes |
-| Public systems and policy feedback | Compared / Reported | 10 | No |
-| Political judgment and collective action | Compared / Open | 11 | Yes |
+| Unequal exposure and status | Compared / Open | 11 | Yes |
+| Trust, identity, and cultural meaning | Reported / Compared / Open | 11 | Yes |
+| Public systems and policy feedback | Compared / Reported | 11 | No |
+| Political judgment and collective action | Compared / Open | 12 | Yes |
 | Firm, sector, and market power | Reported / Compared / Inferred | 11 | No |
 | Infrastructure, technology, and dependency | Reported / Compared / Inferred | 6 | No |
 | Geopolitical and state consequences | Reported / Compared / Open | 8 | Yes |
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`0089633c258067cfd01040abc908eac8b4d5e14145feee9172118f9ec008c6a8`.
+`9cf0486fcb62d9acda930cecb1d2ab1cd52985b267b621f24c6bb2bf58488e16`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
