@@ -87,6 +87,10 @@ index or a claim that the same people appear in every source.
    affects transit ridership, fare revenue, driving, housing, commercial real
    estate, and planning models on different clocks. Read the [telework and
    changing travel patterns layer](site/gao-2026-telework-travel-real-estate-planning-layer-v1.html).
+14. **Long-term care is a fragmented care-and-housing bundle:** Medicaid,
+   Medicare, room and board, waivers, family resources, and provider capacity
+   pay for different parts of assisted living. Read the [assisted-living
+   spending and coverage layer](site/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.html).
 
 ## Recent cross-theme additions
 

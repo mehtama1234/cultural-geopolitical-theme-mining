@@ -1321,6 +1321,15 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 assisted-living spending and Medicaid-coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
+adds a care-and-housing financing bridge. Medicaid and traditional Medicare
+spending for assisted-living services totaled at least $12 billion in 2024,
+but GAO says the floor is likely an undercount because the setting is not
+uniformly identified; 44 state Medicaid programs covered assisted-living
+services as of March 2025, including 29 through HCBS waivers. Coverage, slot
+availability, room/board affordability, quality, family substitution, and
+resident outcomes remain separate. The next test is a state-year episode ledger.
+
 The [GAO 2026 telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
 adds a collective-geography consequence to changing work arrangements. Average
 telework remained about twice 2019 levels; MPOs reported lower transit

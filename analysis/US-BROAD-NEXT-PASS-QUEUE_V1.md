@@ -2817,3 +2817,11 @@ office and housing demand, tax base, and MPO investment response. Keep worker
 flexibility, non-teleworker burden, mode shift, service finance, land-use
 change, and local welfare separate; do not infer urban decline or household
 benefit from ridership alone.
+
+The [GAO assisted-living spending and coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
+adds an aging-care financing test. The next pass should use compact official
+evidence on waiver enrollment, authorized slots, provider participation,
+room/board cost, service claims, staffing, quality, family substitution, and
+resident movement. Keep payer, service, housing, informal care, and outcome
+stages separate; do not treat a state coverage count or minimum spending total
+as usable access or resident welfare.

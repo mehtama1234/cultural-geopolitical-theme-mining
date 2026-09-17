@@ -178,3 +178,9 @@ adds telework frequency, trip geography, transit finance, vehicle use, housing,
 commercial real estate, MPO capacity, and investment response to themes 1, 5,
 7, 10, 12, and 14. It strengthens the work-to-place arrow while leaving causal
 household welfare, emissions, and local distribution open.
+
+The [GAO assisted-living spending and Medicaid-coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
+adds aging, disability, housing, Medicaid federalism, room/board, provider
+capacity, and family-care consequences to themes 1, 2, 5, 6, 7, and 10. It
+strengthens the care-finance-to-household arrow while leaving usable access,
+quality, resident outcomes, and family work effects open.

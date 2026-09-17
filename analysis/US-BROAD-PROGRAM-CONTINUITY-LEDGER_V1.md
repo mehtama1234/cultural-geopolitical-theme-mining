@@ -1060,3 +1060,9 @@ adds changed work geography between worker arrangements and collective place
 outcomes. It preserves open links from telework to trip timing, transit finance,
 vehicle use, real-estate demand, investment, distributional burden, and public
 response.
+
+The [GAO assisted-living spending and Medicaid-coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
+adds a mixed housing, health, and daily-care stage between need and household
+security. It preserves open links from federal/state coverage and spending to
+slots, room/board, provider capacity, family labor, resident safety, and later
+setting choice.
