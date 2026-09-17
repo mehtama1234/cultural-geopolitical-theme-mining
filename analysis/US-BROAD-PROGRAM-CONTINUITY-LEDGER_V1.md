@@ -927,6 +927,14 @@ and state-capacity lanes while leaving actual customer rates, energized
 capacity, land/water incidence, and political response to a region-hour-project
 ledger.
 
+The fifty-sixth rotation adds the [Census child-care challenges and work-
+adaptation layer](projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md).
+It directly measures paid-care expense, adequacy problems, lost workdays, and
+income-stratified adaptations including leave, reduced work, job exit, and
+non-search. It strengthens the material/time/care lane while leaving provider
+disruption, subsidy and employer access, wages, child wellbeing, and later
+recovery open.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)

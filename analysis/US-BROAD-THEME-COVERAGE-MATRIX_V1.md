@@ -101,6 +101,12 @@ burden, and public participation to themes 1, 7, 10, 13, and 14. Announced or
 approved load is not energized capacity, reliability, affordability, or local
 consent; the region-hour-project incidence test remains open.
 
+The [Census child-care challenges and work-adaptation layer](projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md)
+adds paid-care cost, care adequacy, lost work time, leave, hour cuts, job exit,
+and non-search responses to themes 1, 2, 5, 6, and 8. It directly strengthens
+the care-to-work bridge while preserving the retrospective household clock and
+the open provider, subsidy, employer, wage, and later-outcome links.
+
 **Latest disaster-response rotation:** the [EDA economic-recovery outcomes
 layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
 adds federal economic-recovery coordination, infrastructure investment, local

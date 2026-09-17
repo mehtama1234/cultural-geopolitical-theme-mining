@@ -2761,3 +2761,11 @@ construction; cost allocation; reliability; rates; land/water burden; and
 political response. The next test is a region-hour-project ledger joining a
 large-load request to transmission constraints, project realization, customer
 incidence, and public response.
+
+The [Census 2025 child-care challenges and work-adaptation layer](projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md)
+rotates the material/time/care lane into a directly measured household bridge:
+paid care, expense share, adequacy problems, lost workdays, leave, hour cuts,
+job exit, non-search, and work-plus-supervision. The next test is a dated
+care-event ledger with provider disruption, subsidy/leave access, schedule,
+informal support, work, earnings, and later care/work outcome; do not treat
+low paid-care spending as low care burden.

@@ -764,6 +764,15 @@ jobs, and who bears land, water, construction, or rate pressure. Announced load,
 approved portfolios, energized capacity, and actual household incidence remain
 separate.
 
+The [Census 2025 child-care challenges and work-adaptation layer](projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md)
+adds a direct household care-to-work bridge. In the 2025 CPS ASEC analysis of
+2024, 23.9% of households with children 13 or younger paid for care, spending
+about $10,520 on average, while households reporting problems obtaining
+adequate care lost an average of 65.8 workdays. Higher-income households more
+often used paid leave; lower-income households more often stayed away from the
+labor market. This is a measured adaptation menu, not a causal policy estimate,
+but it makes hidden time and labor-market costs visible.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
