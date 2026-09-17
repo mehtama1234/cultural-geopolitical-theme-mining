@@ -103,6 +103,16 @@ The rotations strengthen the middle of this chain and sharpen the open-arrow
 list. They do not prove one grand causal theory, and they do not make the
 unavailable PSID/UAS respondent files a program-wide dependency.
 
+The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
+adds a named worker-remedy stage to the same distinction. The FTC publicly
+reports earlier payment rounds totaling more than $60.6 million and a current
+Zelle route for eligible drivers who did not cash their checks. This is stronger
+than a compensation obligation or reserved fund, but it still does not provide
+the complete eligible-driver denominator, every individual's receipt or
+remaining loss, continued platform work, alternative work, household recovery,
+or bargaining and exit outcomes. The worker remedy is therefore coded as
+administrator-reported distribution with downstream lived recovery open.
+
 This is the current end-to-end reading of the atlas. It is deliberately a
 bridge across different units, not a merge of respondents, households,
 complaints, workers, places, or countries. The [machine-readable trend

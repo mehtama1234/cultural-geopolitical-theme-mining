@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 269 machine-readable records, 1000 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 537 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 539 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1616,7 +1616,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 269 trend records and 1000 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,169 local Markdown links and 537 published HTML pages pass link
+families; 1,170 local Markdown links and 539 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1632,6 +1632,14 @@ prevention and post-remedy worker exit remain unobserved. Continued platform
 use after reactivation is preserved as its own endpoint; it cannot be read as
 autonomy, dependence, or successful remedy without alternatives, receipt,
 follow-up, and worker-reported reason.
+
+The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
+adds a stronger payment-distribution comparator: the FTC reports more than
+$60.6 million returned through earlier rounds and a current Zelle route for
+eligible drivers who did not cash checks. This advances the remedy stage beyond
+an obligation or reserved fund, while leaving the complete eligible denominator,
+individual receipt, remaining loss, continued work, alternatives, household
+recovery, bargaining power, and exit open.
 
 The latest AI/work-control endpoint audit adds a storage-light stage check across
 local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.

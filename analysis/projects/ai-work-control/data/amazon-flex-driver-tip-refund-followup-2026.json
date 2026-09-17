@@ -1,0 +1,42 @@
+{
+  "format": "named-worker-remedy-followup-record-v1",
+  "checked": "2026-09-17",
+  "case": "FTC Amazon Flex driver tip withholding refund program",
+  "unit": "FTC-administered refund program and eligible Amazon Flex drivers; not a representative worker sample",
+  "stages": {
+    "underlying_practice": "FTC alleged Amazon withheld customer tips from Flex drivers between late 2016 and August 2019",
+    "formal_remedy": "$61,710,583 consent-order amount designated to compensate drivers",
+    "payment_distribution": "FTC reports an initial November 2021 payment round, a second May 2025 round, and a current round for people who did not cash their checks",
+    "aggregate_distribution": "more than $60.6 million reported returned through the earlier rounds",
+    "individual_receipt": "not fully observed; current page describes Zelle payments being sent but does not publish a complete recipient denominator or current-round success rate",
+    "continued_work": "not observed",
+    "alternative_or_switching": "not observed",
+    "household_recovery": "not observed",
+    "collective_or_political_action": "not observed"
+  },
+  "interpretation": "This is stronger than a payment obligation or reserved fund because the administrator reports completed distribution rounds and a current reissue route. It still does not establish that every eligible driver received the amount due, that withheld tips were the only income effect, or that payment restored work, bargaining power, household security, trust, or exit.",
+  "counterexamples": [
+    "A driver may have received payment and continued using Amazon Flex; receipt is not evidence of exit or dependence.",
+    "A driver who did not cash an earlier check may face address, payment-channel, or administrative friction rather than a refusal of the remedy.",
+    "The program amount and number of earlier payments do not identify the amount owed or received by each driver."
+  ],
+  "sources": [
+    {
+      "url": "https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers",
+      "role": "current FTC refund administration page",
+      "observation": "FTC reports earlier November 2021 and May 2025 payments totaling more than $60.6 million and a current Zelle round for eligible drivers who did not cash checks."
+    },
+    {
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-approves-final-administrative-consent-order-against-amazon-withholding-customer-tips-amazon-flex",
+      "role": "FTC consent-order announcement",
+      "observation": "The final order requires Amazon to pay $61,710,583 and prohibits misrepresentations about driver pay and changes to tip treatment without express informed consent."
+    },
+    {
+      "url": "https://consumer.ftc.gov/consumer-alerts/2021/11/ftc-returns-60-million-amazon-illegally-took-flex-drivers",
+      "role": "FTC payment distribution announcement",
+      "observation": "FTC reported 139,507 checks totaling $59,428,878 and 1,621 PayPal payments totaling $171,715 in the 2021 round."
+    }
+  ],
+  "next_test": "Obtain a lawful administrator or driver-side follow-up with eligible-driver denominator, payment status, amount, timing, continued platform work, alternative work, and household or bargaining outcomes.",
+  "storage_boundary": "Only public FTC pages were inspected; no driver file, payment roster, or bulk data was downloaded or retained."
+}
