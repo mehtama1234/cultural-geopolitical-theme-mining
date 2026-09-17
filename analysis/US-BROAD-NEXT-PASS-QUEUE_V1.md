@@ -2912,8 +2912,10 @@ vintage, person/household unit, reference periods, compatible denominators,
 standard errors, and PUF linkage; then retrieve only the minimum table or file
 needed for one pre-specified contrast such as expense difficulty × loneliness.
 
-The HTOPS social-connectedness route is currently access-blocked at the artifact
-level: the official page and its two relevant spreadsheet links returned 404 on
-the 2026-09-17 recheck. Preserve the gate and retry only after Census reposts or
-redirects the corrected tables; do not replace them with a staging copy or PUF
-without revalidating the vintage and variables.
+The HTOPS social-connectedness route remains table-artifact-blocked: the
+official index says corrected March tables will be reposted, and its two
+relevant spreadsheet links returned 404 on the 2026-09-17 recheck. Census now
+lists corrected March PUF files (the CSV is 19.2 MB), so the route is
+metadata-accessible but not storage-free and is cross-sectional rather than a
+longitudinal bridge. Preserve the gate; do not download or substitute the PUF
+without revalidating the vintage, dictionary, weights, and variables.

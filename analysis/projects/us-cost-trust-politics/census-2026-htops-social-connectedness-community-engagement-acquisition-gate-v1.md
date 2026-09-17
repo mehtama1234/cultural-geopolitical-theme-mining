@@ -5,11 +5,13 @@
 **Field window:** March 13–30, 2026
 **Status:** source-discovery and variable-availability gate; no estimates are promoted from the linked spreadsheets
 
-**Access recheck:** 2026-09-17; the canonical Census table URL returned an
-official page-not-found response, and the linked `health3a.xlsx` and
-`health3c.xlsx` URLs returned 404. The staging copy still exposes the table
-names, but it does not provide a usable replacement file. This route remains
-unacquired and must be rechecked before any estimate is made.
+**Access recheck:** 2026-09-17; the official Census table index says the
+corrected March 2026 tables will be reposted, and the linked `health3a.xlsx`
+and `health3c.xlsx` URLs return 404. Census now lists corrected March 2026
+PUF files updated September 10, including a 19.2 MB CSV plus SAS and
+replicate-weight files. The PUF is metadata-accessible but is not a small
+table substitute: it is cross-sectional, requires a variable/dictionary and
+weighting check, and was not downloaded in this storage-light pass.
 
 ## Why this source matters
 
@@ -45,8 +47,10 @@ acquisition must use the corrected vintage and preserve the user note.
 
 The table page provides detailed tables, standard-error tables, technical
 documentation, and data-quality material. Each listed spreadsheet is under
-1 MB, but the acquisition policy still requires variable and estimand checks
-before retrieval.
+1 MB, but the two relevant social-connectedness files remain unavailable. The
+corrected PUF is larger and must not be retrieved merely because it exists;
+the acquisition policy still requires variable, dictionary, estimand, and
+weight checks before retrieval.
 
 ## Why this could close an adjacent arrow
 
@@ -80,8 +84,10 @@ Before downloading even the small spreadsheets, confirm:
 
 If only separate aggregate tables are available, retain the result as a
 same-release comparison and do not call it a same-household bridge. If the PUF
-supports compatible records, acquire only the corrected PUF or the minimum
-table files needed for one specified contrast.
+supports compatible records, acquire only the corrected PUF—or a temporary
+minimum slice if it can be handled without a second durable copy—for one
+specified contrast. Do not assume that PUF availability closes a longitudinal
+bridge: March 2026 is cross-sectional.
 
 ## Boundary and storage note
 
@@ -91,10 +97,14 @@ the measures. HTOPS shifted from longitudinal collection in 2025 to a
 cross-sectional design beginning in March 2026. No spreadsheet, PUF, PDF, or
 bulk archive was downloaded in this pass.
 
-The current 404 condition is itself part of the provenance record: a source
-listing is not equivalent to an accessible data artifact. Do not substitute a
-staging URL, stale spreadsheet path, or corrected PUF without revalidating the
-release and table contents.
+The current table 404 condition is itself part of the provenance record: a
+source listing is not equivalent to an accessible table artifact. The PUF's
+corrected availability is a separate route, not permission to substitute it
+silently for the missing tables. Do not use a staging URL, stale spreadsheet
+path, or PUF without revalidating the release, dictionary, weighting note, and
+table contents.
 
 **Official table page:** <https://www.census.gov/data/tables/2026/demo/hhp/2603.html>
 **Official release note:** <https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html>
+**Official PUF page:** <https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html>
+**Corrected March PUF:** <https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2603_CSV.zip>
