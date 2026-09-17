@@ -918,6 +918,14 @@ remedy, and follow-up fields; if they are absent, preserve the audit as the
 boundary and move to the CFPB/platform remedy counterexample or another broad
 theme rather than inferring recovery.
 
+The dated [MEPS event-to-household-response screen](projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md)
+now carries a bounded R4/2 nonemployment endpoint alongside event payment,
+care delay, bill problems, debt, and collection context. The acute-event
+nonemployment contrasts deepen the work/security arrow, but remain level
+differences rather than job-loss or causal event estimates. Keep this result
+as context while the next decisive MEPS test remains claim/bill-level need,
+alternatives, response, remedy, and later recovery.
+
 The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
 confirms the counterexample route: route and decision are observed in all 27
 episodes, but alternatives, effort, follow-up, receipt, durability,

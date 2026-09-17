@@ -1499,6 +1499,16 @@ records remain the remedy counterexample, while SHED and HTOPS remain panel
 context. The selection is conditional on finding event-level need, alternatives,
 payment, remedy, and follow-up fields; otherwise it returns an acquisition gap.
 
+The [dated MEPS event-to-household-response screen](projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md)
+now adds an R4/2 work-status endpoint to that local event route. After a first
+ER event in the strict inter-round window, nonemployment is 47.62% versus
+32.98% in the complementary round-valid group; after an inpatient event it is
+60.13% versus 33.03%; the office comparison is 33.35% versus 33.91%. These
+are same-person level differences with field-specific BRR uncertainty, not job
+loss, event causation, or recovery estimates. The addition strengthens the
+material-to-work bridge while preserving the missing bill, alternative,
+remedy, household adaptation, meaning/action, and exit stages.
+
 The MEPS selection has now been tested against the full 18,457-row staged
 ledger in the [event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md).
 All rows contain hashed episode IDs, month-level dates, and round-level

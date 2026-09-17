@@ -44,6 +44,15 @@
               "brr_se_percentage_points": 0.6768512288748196,
               "share_percent": 15.101726544118948,
               "valid_records": 17147
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                31.8237330725612,
+                34.14384264890633
+              ],
+              "brr_se_percentage_points": 0.5918646878431442,
+              "share_percent": 32.98378786073376,
+              "valid_records": 14276
             }
           },
           "records": 17622
@@ -85,6 +94,15 @@
               "brr_se_percentage_points": 1.818378599328343,
               "share_percent": 24.117756742243778,
               "valid_records": 1067
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                44.07002241725237,
+                51.162242495842115
+              ],
+              "brr_se_percentage_points": 1.809239815966774,
+              "share_percent": 47.61613245654724,
+              "valid_records": 987
             }
           },
           "records": 1101
@@ -138,6 +156,15 @@
               "brr_se_percentage_points": 0.6810906669232066,
               "share_percent": 15.547612710433482,
               "valid_records": 17688
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                31.915857840606574,
+                34.1524082216958
+              ],
+              "brr_se_percentage_points": 0.5705485666043941,
+              "share_percent": 33.034133031151185,
+              "valid_records": 14741
             }
           },
           "records": 18178
@@ -179,6 +206,15 @@
               "brr_se_percentage_points": 1.8349183655291907,
               "share_percent": 16.60887450444804,
               "valid_records": 526
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                54.83915697073031,
+                65.41348050501479
+              ],
+              "brr_se_percentage_points": 2.697531513848081,
+              "share_percent": 60.126318737872545,
+              "valid_records": 522
             }
           },
           "records": 545
@@ -232,6 +268,15 @@
               "brr_se_percentage_points": 0.6732439304699732,
               "share_percent": 15.45185768388585,
               "valid_records": 15070
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                32.773809791212315,
+                35.048067592428154
+              ],
+              "brr_se_percentage_points": 0.5801678064326107,
+              "share_percent": 33.910938691820235,
+              "valid_records": 12718
             }
           },
           "records": 15507
@@ -273,6 +318,15 @@
               "brr_se_percentage_points": 1.2121425513958168,
               "share_percent": 16.16639965972106,
               "valid_records": 3144
+            },
+            "not_employed_followup": {
+              "approx_95_ci_percentage_points": [
+                31.057075405658505,
+                35.64563196615651
+              ],
+              "brr_se_percentage_points": 1.170550142984184,
+              "share_percent": 33.351353685907505,
+              "valid_records": 2545
             }
           },
           "records": 3216
@@ -293,8 +347,8 @@
       "sha256": "b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5"
     }
   },
-  "limitation": "A dated event is not necessarily the triggering need or the bill that caused the household response. Care delay, debt, bill, and ESAQ adaptations are same-person outcomes or context without a claim identifier, event-specific obligation, exact day, remedy, or causal identification. The complementary group is not a no-need control.",
-  "method": "Select each person's first valid event month strictly between R3/1 and R4/2 endpoints; compare the event-window group with the complementary round-valid group using PERWT24F and 128 HC-036BRR flags. The event window is dated at month level; outcomes are same-person R4/2 or ESAQ context.",
+  "limitation": "A dated event is not necessarily the triggering need or the bill that caused the household response. Care delay, debt, bill, and employment status are same-person outcomes or context without a claim identifier, event-specific obligation, exact day, remedy, or causal identification. The complementary group is not a no-need control; EMPST42 non-employment is not job loss, hours loss, or employment quality.",
+  "method": "Select each person's first valid event month strictly between R3/1 and R4/2 endpoints; compare the event-window group with the complementary round-valid group using PERWT24F and 128 HC-036BRR flags. The event window is dated at month level; outcomes are same-person R4/2 context, including a valid EMPST42 non-employment endpoint.",
   "person_records": 19140,
   "round_order_valid_records": 18723,
   "schema": "us-meps-dated-cascade-event-screen-v1"

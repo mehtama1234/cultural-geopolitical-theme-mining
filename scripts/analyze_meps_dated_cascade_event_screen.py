@@ -23,6 +23,7 @@ OUTCOMES = {
     "medical_bill_problem": ("PROBPY42", lambda s: s.eq(1), lambda s: s.isin([1, 2])),
     "medical_debt": ("MEDDEBT42", lambda s: s.between(1, 7), lambda s: s.between(0, 7)),
     "debt_collector_contact": ("FWDEBT42", lambda s: s.eq(1), lambda s: s.isin([1, 2])),
+    "not_employed_followup": ("EMPST42", lambda s: s.eq(4), lambda s: s.isin([1, 2, 3, 4])),
 }
 
 
@@ -87,7 +88,7 @@ def main() -> int:
 
     output: dict[str, object] = {
         "schema": "us-meps-dated-cascade-event-screen-v1",
-        "method": "Select each person's first valid event month strictly between R3/1 and R4/2 endpoints; compare the event-window group with the complementary round-valid group using PERWT24F and 128 HC-036BRR flags. The event window is dated at month level; outcomes are same-person R4/2 or ESAQ context.",
+        "method": "Select each person's first valid event month strictly between R3/1 and R4/2 endpoints; compare the event-window group with the complementary round-valid group using PERWT24F and 128 HC-036BRR flags. The event window is dated at month level; outcomes are same-person R4/2 context, including a valid EMPST42 non-employment endpoint.",
         "person_records": int(len(person)),
         "round_order_valid_records": int(round_valid.sum()),
         "inputs": {
@@ -95,7 +96,7 @@ def main() -> int:
             "brr": {"path": str(args.brr_file), "sha256": sha256(args.brr_file)},
         },
         "events": {},
-        "limitation": "A dated event is not necessarily the triggering need or the bill that caused the household response. Care delay, debt, bill, and ESAQ adaptations are same-person outcomes or context without a claim identifier, event-specific obligation, exact day, remedy, or causal identification. The complementary group is not a no-need control.",
+        "limitation": "A dated event is not necessarily the triggering need or the bill that caused the household response. Care delay, debt, bill, and employment status are same-person outcomes or context without a claim identifier, event-specific obligation, exact day, remedy, or causal identification. The complementary group is not a no-need control; EMPST42 non-employment is not job loss, hours loss, or employment quality.",
     }
 
     for name, path in {"office": args.office_file, "emergency_room": args.emergency_room_file, "inpatient": args.inpatient_file}.items():
