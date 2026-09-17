@@ -82,6 +82,26 @@ remains ready for the smallest authenticated acquisition: the Older Ages panel
 and codebook first, followed by the broader Monthly Panel or UAS 537/698 only
 if the structural key, timing, and candidate episode fields pass.
 
+### UAS 537 public metadata recheck — 2026-09-17
+
+The official [UAS 537 survey page](https://uasdata.usc.edu/index.php?r=eNpLtDKyqi62MrFSKkhMT1WyLrYytFwwskuTcjKT9VISSxL1ikuLylIrQTJARcXFmSkgprGVkqmxuZJ1LVwwjUMTrg%2C%2C)
+identifies the module as *Future of health care* and exposes separate
+utilization, billing, perceptions, satisfaction/access/health-status, and
+closing sections. It reports a selected sample of 1,233, 1,136 completed
+surveys, 3 started-but-incomplete surveys, 94 non-starts, a 92.13% response
+rate, English/Spanish administration, field dates of August 14–October 14,
+2023, and an average completion time of 16 minutes. The page also explicitly
+requires login to download the data.
+
+This strengthens the route specification in two ways: the module's public
+metadata confirms that billing, access, and institutional-perception surfaces
+coexist in one respondent-selected survey, and it supplies the response
+denominator needed for the later overlap audit. It still does not establish
+the exact usable microdata columns, module-to-panel linkage, weights,
+respondent-level dates, or a same-episode remedy/action result. The public
+metadata therefore advances acquisition readiness, not the health-cost or
+legitimacy finding itself. No file was downloaded.
+
 ### Older Ages Monthly Events: event-first alternative
 
 The official [Older Ages Monthly Events Panel description](https://uasdata.usc.edu/page/UAS+Monthly+Surveys)
