@@ -836,6 +836,16 @@ converges. The result deepens the money/time/care interpretation without
 promoting household composition or program status to a causal effect; remedy,
 recovery, trust, political action, and exit remain open.
 
+The forty-sixth rotation rechecks the consumer-remedy implementation lane
+through the [Grubhub finding](findings/us-grubhub-platform-remedy-001.md).
+The FTC now reports 640,038 checks or PayPal payments totaling more than
+$23.8 million and gives recipients defined cash-in or acceptance windows.
+This is stronger than a proposed remedy: aggregate distribution is observed,
+while individual receipt, restored income/access, adequacy, durability,
+continued use, switching, and exit remain open. It is a comparative
+counterexample to treating a settlement design and a distributed payment as
+the same evidence stage.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.

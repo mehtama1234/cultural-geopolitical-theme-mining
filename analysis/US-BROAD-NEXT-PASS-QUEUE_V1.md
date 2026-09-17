@@ -2499,6 +2499,15 @@ timing refinement, not a causal child, SNAP, care, or security effect; the
 next stronger arrow still requires a dated work/care or payment event with
 alternatives and follow-up.
 
+The [Grubhub platform-remedy finding](findings/us-grubhub-platform-remedy-001.md)
+now serves as the comparative implementation counterexample in the consumer
+lane: the FTC refund page reports 640,038 checks or PayPal payments totaling
+more than $23.8 million, with explicit cash-in/redemption windows. This closes
+an aggregate distribution stage beyond a settlement design, but not individual
+receipt, restored income/access, remedy adequacy, continued use, switching, or
+exit. The next test remains a group-specific remedy ledger rather than another
+aggregate redress total.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
