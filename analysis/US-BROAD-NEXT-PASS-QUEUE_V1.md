@@ -968,8 +968,9 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 11 local episode/remedy surfaces, including the OpenAI/Statsig
-potential-claimant settlement and Apple's reported back-pay implementation.
+now covers 14 local episode/remedy surfaces, including the OpenAI/Statsig
+potential-claimant settlement, Apple's reported back-pay implementation, and
+three named CFPB redress/distribution records.
 The immediate selection rule is to choose one lawful source with a stable
 episode key and add the missing actor, alternative, effort,
 protected/sacrificed outcome, verified remedy, meaning/action, recovery, and

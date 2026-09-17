@@ -1,7 +1,7 @@
 {
   "format": "broad-same-case-episode-availability-audit-v1",
   "status": "stage_availability_audit",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "purpose": "Identify which committed local source surfaces can follow one episode from exposure through alternatives, response, meaning/action, recovery, and exit.",
   "required_stages": [
     "dated_event_or_exposure",
@@ -31,6 +31,57 @@
         "recovery_persistence_or_exit": "open"
       },
       "boundary": "Public complaint/event routing is visible, but recipient-level alternatives, remedy receipt, recovery, trust, and exit are not linked."
+    },
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md",
+      "unit": "named_consumer_enforcement_remedy_event",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_reported_problem",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_dispute_process",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_enforcement",
+        "verified_remedy": "partial_redress_ceiling_and_controls",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The named enforcement record documents fraud/dispute-process failures, operational corrections, and up to $120 million in redress; individual loss, receipt, correction, trust, switching, and exit are not linked."
+    },
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md",
+      "unit": "named_consumer_redress_distribution_event",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_reported_problem",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "open",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_distribution_route",
+        "verified_remedy": "partial_aggregate_ongoing_distribution",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The public record identifies 122,507 eligible consumers, $53,885,244 in compensable harm, an administrator, and ongoing distribution; issuance, successful receipt, residual loss, trust, switching, and exit remain unobserved."
+    },
+    {
+      "source": "analysis/records/us-cfpb-navient-compensation-obligation-2026.json",
+      "unit": "named_consumer_compensation_record",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_case_record",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "open",
+        "adaptation_or_protected_sacrificed_outcome": "partial_underlying_obligation_unchanged",
+        "institutional_or_firm_response": "observed_distribution_route",
+        "verified_remedy": "partial_reported_check_status",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The official case page reports checks to affected consumers while stating that the underlying student-loan obligation is not reduced; person-level receipt, amount, correction, remaining loss, trust, switching, and exit are not observed."
     },
     {
       "source": "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json",
@@ -203,7 +254,7 @@
       "boundary": "A bounded parent-product response was locally filtered on returned product and sub-product fields; complaint routing and response labels are visible, but the underlying bill, alternatives, remedy receipt, recovery, trust, action, and exit are not linked."
     }
   ],
-  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the named CFPB redress/distribution records, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
-  "storage_boundary": "Uses eleven committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses fourteen committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
 }

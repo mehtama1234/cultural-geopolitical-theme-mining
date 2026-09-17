@@ -28,6 +28,9 @@ separate.
 | Local source surface | Strongest stages | Critical missing stages |
 |---|---|---|
 | CFPB student-loan event ledger (25 rows) | Public route, complaint/event handling | Recipient alternatives, verified remedy, recovery, trust/action, exit |
+| CFPB Cash App redress case (1 named enforcement event) | Fraud/dispute-process failure, formal redress ceiling, operational correction requirements | Individual loss, payment/receipt, correction time, repeat effort, alternative provider, trust, switching, exit |
+| CFPB BrightSpeed distribution (1 named ongoing distribution) | Eligible class, aggregate compensable harm, named administrator, ongoing distribution status | Issuance, successful receipt, amount, residual loss, repeat effort, trust, switching, exit |
+| CFPB Navient compensation (1 named ongoing payment record) | Official check/distribution status, named administrator, explicit non-reduction of underlying loan obligation | Person-level receipt, amount, balance/credit correction, remaining loss, effort, trust, switching, exit |
 | Platform remedy dry-run (27 episodes) | Adjudication, reactivation, some lost-remuneration orders | Alternatives, remedy receipt/durability, post-event status, practical exit |
 | OpenAI/Statsig PERM settlement (6 recruitment items) | Named recruitment-channel burden, claimant-identification route, potential back-pay, access-restoration controls, oversight | Applicant-level exposure, alternatives/effort, payment receipt, restored opportunity, durable compliance, trust/action, household recovery, exit |
 | Apple PERM implementation (1 settlement event) | Named recruitment-channel burden, individualized lost-income review, $18.25m back-pay processing/exhaustion, access-control requirements | Individual payment distribution/timing, restored opportunity, post-monitoring compliance, worker voice, trust/action, household recovery, exit |
@@ -41,6 +44,7 @@ separate.
 ## Result
 
 No current local source supplies all nine required stages. The platform ledger,
+the three CFPB named redress/distribution records,
 the OpenAI/Statsig and Apple recruitment-remedy events, and the Hotak follow-up
 come closest to a response/remedy/implementation surface;
 MEPS, SHED, and HTOPS provide different kinds of person-level timing or
@@ -70,4 +74,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses eleven committed local records and downloads nothing.
+The audit uses fourteen committed local records and downloads nothing.
