@@ -68,6 +68,35 @@ It does not follow the same person through the complete path. Frequency is not
 reliance, trust is not accuracy, civic action is not platform causation, and
 visibility is not remedy.
 
+## Time is a price, not just reach
+
+The NBER time-intensive platform study adds a missing constraint to this map.
+Using two Facebook/Instagram field experiments, it treats ad load as a user
+cost and reports low elasticity of use to that cost. Its model also shows that
+the time share or time cost of a platform changes how usage may be diverted
+across other online and offline activities, including when considering a
+possible separation of Facebook and Instagram. This is evidence about
+attention allocation and substitution, not a direct estimate of wellbeing,
+political persuasion, or civic participation.
+
+The safe cross-source connection is therefore:
+
+```text
+platform reach and use
+  -> time/ad-load cost and attention allocation
+  -> substitution among online, offline, news, work, care, and leisure
+  -> source encounter, trust, discussion, or civic action [open join]
+```
+
+The NBER experiments and model use platform-use, ad-load, and diversion
+quantities; the Pew news/civic layer uses survey respondents and analyzed
+news-influencer accounts. These are not pooled denominators. In particular,
+the evidence does not show that more platform time produces more news trust,
+less civic participation, or a particular vote. The next test is a respondent-
+level time diary or passive-measurement panel that records platform minutes,
+ad exposure, news encounters, offline alternatives, trust, discussion, and
+action together, with non-use and successful exit measured explicitly.
+
 ## What the comparison changes
 
 First, a platform can be socially central without being the main news source;
@@ -123,6 +152,8 @@ whose errors or complaints remain unresolved.
 - [Teen social/AI record](../../../records/us-pew-teens-social-ai-2025.json)
 - [Adult AI record](../../../records/us-pew-ai-daily-life-control-2026.json)
 - [News/civic engagement record](../../../records/us-pew-news-platform-civic-engagement-2025.json)
+- [NBER time-intensive platform record](../../../records/us-nber-time-intensive-platform-consumption-2026.json)
+- [NBER Working Paper 34743](https://www.nber.org/papers/w34743)
 
 **Evidence status:** multi-survey cultural/attention synthesis with separate
 respondent and question universes; content causation, dependence, privacy loss,
