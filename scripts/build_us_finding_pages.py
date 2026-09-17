@@ -229,6 +229,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md",
         ROOT / "analysis/projects/ai-work-control/australia-malaysia-cambodia-stage-compatible-comparison-v1.md",
         ROOT / "analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md",
+        ROOT / "analysis/projects/ai-work-control/remedy-spectrum-cross-domain-synthesis-v1.md",
     ]
     memos.extend(ai_work_reader_records)
     # Publish the capability/dependence bridge and its World Bank capability
