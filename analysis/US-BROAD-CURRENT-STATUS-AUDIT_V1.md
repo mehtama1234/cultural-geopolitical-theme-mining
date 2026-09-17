@@ -32,7 +32,8 @@ substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
 The current continuation mode is a broad rotation across the twenty-five priority
-bridges recorded in the [canonical cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
+bridges and 38 documented rotations recorded in the [canonical cross-source
+synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
 The first cycle covered consumer practical exit, AI/platform optionality,
 public-system route divergence, firm/infrastructure capacity,
 material/time/care substitution, unequal optionality, political action,
