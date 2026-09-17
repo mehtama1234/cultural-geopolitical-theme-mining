@@ -67,7 +67,11 @@ def main() -> int:
         "boundary": "The rich subaward extract makes recipient identity, descriptions, UEIs, and performance locations more visible for returned rows. It does not establish supplier ownership beyond separately resolved records, facility output, production quantity, delivered/accepted missiles, replaceability, workforce incidence, or geopolitical leverage.",
     }
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(f"WROTE {args.output.relative_to(root)}")
+    try:
+        output_label = args.output.relative_to(root)
+    except ValueError:
+        output_label = args.output
+    print(f"WROTE {output_label}")
     print(f"rows={len(rows)} recipients={len(recipients)} total={total:.2f} top5_share={result['top_5_share_percent']}%")
     return 0
 
