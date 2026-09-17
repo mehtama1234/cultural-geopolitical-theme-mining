@@ -32,6 +32,7 @@ CHECKS = [
     ("trend observation records", ["scripts/validate_trend_observation_records.py"]),
     ("finding Markdown/HTML parity", ["scripts/validate_us_finding_parity.py"]),
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
+    ("broad counterexample register", ["scripts/validate_broad_counterexample_register.py"]),
     ("published site links", ["scripts/validate_published_site_links.py"]),
     ("local Markdown links", ["scripts/validate_local_markdown_links.py"]),
     ("acquisition resource policy", ["scripts/test_acquisition_resource_policy.py"]),
