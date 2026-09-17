@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-press-government-media-legitimacy-2026",
+  "title": "Americans judge the press-government relationship as bad while disagreeing over media power and permissible criticism",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "platforms_data_attention", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center Pew-Knight Initiative surveys and focus groups on press freedom",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "June 22-28, 2026; perceived relationship between the Trump administration and US news media",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey; respondents who did not answer are not shown", "value_type": "published_percentage_base"},
+      "measures": {"bad_relationship": {"value": 71, "unit": "percent saying the relationship is very or somewhat bad", "value_type": "published_share"}, "good_relationship": {"value": 11, "unit": "percent saying the relationship is very or somewhat good", "value_type": "published_share"}, "neutral_relationship": {"value": 17, "unit": "percent saying the relationship is neutral", "value_type": "published_share"}},
+      "method": "Pew Research Center American Trends Panel survey; current 2026 result compared in the source with 2025, plus ten online focus groups used for illustrative qualitative context.",
+      "uncertainty": "The relationship judgment is a perception, not an independently coded measure of press freedom, censorship, institutional conduct, or news accuracy. Focus groups are illustrative and not representative of US adults.",
+      "subgroup": "US adults; the source reports age, news-following, press-freedom-importance, and partisan comparisons separately.",
+      "counterinterpretation": "People can agree that the relationship is bad while assigning responsibility to different actors or approving of the conflict; shared diagnosis does not imply shared legitimacy judgment.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/",
+      "retrieval_hash": "sha256:038e46c020ca48445005de0a71eff2eff6e4ca6b6382ee7c25bd2e78d25d40fa",
+      "status": "reported"
+    },
+    {
+      "period": "June 22-28, 2026; perceived political power of US news organizations",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey; respondents who did not answer are not shown", "value_type": "published_percentage_base"},
+      "measures": {"too_much_power_overall": {"value": 55, "unit": "percent saying news organizations have too much power and influence in politics", "value_type": "published_share"}, "too_much_power_republican": {"value": 69, "unit": "percent among Republicans and Republican leaners", "value_type": "published_share"}, "too_much_power_democratic": {"value": 43, "unit": "percent among Democrats and Democratic leaners", "value_type": "published_share"}, "partisan_contrast": {"value": 26, "unit": "percentage-point contrast, Republican/lean Republican minus Democratic/lean Democratic", "value_type": "derived_difference"}},
+      "method": "Pew partisan comparison of perceived news-organization power in politics; party groups include independents who lean toward each party as defined by the source.",
+      "uncertainty": "Perceived power is not a measure of audience reach, ownership concentration, agenda-setting effect, or actual institutional influence. The partisan contrast is descriptive and may reflect political identity, media use, and incumbent/opposition position.",
+      "subgroup": "US adults overall and party-identification groups.",
+      "counterinterpretation": "A respondent can view news organizations as powerful yet support press criticism, distrust particular outlets, or want more rather than less scrutiny; the item is not a single trust score.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/",
+      "retrieval_hash": "sha256:038e46c020ca48445005de0a71eff2eff6e4ca6b6382ee7c25bd2e78d25d40fa",
+      "status": "reported"
+    },
+    {
+      "period": "June 22-28, 2026; acceptability of public criticism between journalists and politicians",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey; respondents who did not answer are not shown", "value_type": "published_percentage_base"},
+      "measures": {"journalists_criticizing_politicians_acceptable": {"value": 68, "unit": "percent saying completely or somewhat acceptable", "value_type": "published_share"}, "politicians_criticizing_journalists_acceptable": {"value": 56, "unit": "percent saying completely or somewhat acceptable", "value_type": "published_share"}, "directional_contrast": {"value": 12, "unit": "percentage-point contrast favoring acceptability of journalist criticism of politicians", "value_type": "derived_difference"}},
+      "method": "Pew survey item on normative acceptability; the source also reports party and press-freedom-importance conditioning.",
+      "uncertainty": "Acceptability is a normative attitude, not observed speech, harassment, retaliation, censorship, editorial independence, or legal constraint. The two directions may invoke different standards for accountability and power.",
+      "subgroup": "US adults overall; party and press-freedom-importance subgroups are reported by Pew.",
+      "counterinterpretation": "A majority approval of criticism in either direction does not establish support for every tactic, tone, or institutional consequence, and it does not imply willingness to act politically.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/",
+      "retrieval_hash": "sha256:038e46c020ca48445005de0a71eff2eff6e4ca6b6382ee7c25bd2e78d25d40fa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/", "claim": "Pew's companion key-findings page defines the press-freedom study and its survey/focus-group design.", "status": "official-analysis"},
+    {"source_url": "https://www.pewresearch.org/journalism/2025/06/12/americans-views-of-the-news-media-and-government/", "claim": "Prior Pew news/government results provide historical context for the relationship measure.", "status": "historical-context"}
+  ],
+  "boundary": "This record measures perceptions and norms concerning press-government relations, media power, and reciprocal criticism. It does not measure actual censorship, news accuracy, ownership, audience exposure, institutional trust as a general construct, political participation, vote choice, or causal media effects. The focus groups are not representative and are not pooled with survey estimates.",
+  "retrieval_hash": "sha256:038e46c020ca48445005de0a71eff2eff6e4ca6b6382ee7c25bd2e78d25d40fa"
+}

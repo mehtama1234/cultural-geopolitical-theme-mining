@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 296 machine-readable records, 1057 observations,
+The current registry contains 297 machine-readable records, 1060 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -566,6 +566,17 @@ increased use in daily life, up from 37% in 2021; Democrats were at 56% versus
 partisan causal effect. They make the missing bridge sharper: link actual AI
 implementation and control to worker experience, attribution, policy demand,
 and later action.
+
+The [Pew 2026 press-government legitimacy layer](projects/us-digital-habits-attention/pew-2026-press-government-media-legitimacy-layer-v1.md)
+adds a complementary information-institution route. Seventy-one percent of
+adults described the administration-news relationship as bad, while 55% said
+news organizations have too much political power; that latter measure was 69%
+among Republicans and 43% among Democrats. At the same time, 68% said it was
+acceptable for journalists to criticize politicians and 56% said it was
+acceptable for politicians to criticize journalists. The pattern is not a
+single trust score: shared conflict perception coexists with partisan power
+attribution and asymmetric norms of criticism. Exposure, accuracy, censorship,
+subscription switching, and political action remain open.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
