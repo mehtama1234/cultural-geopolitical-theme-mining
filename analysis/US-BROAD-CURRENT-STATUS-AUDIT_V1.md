@@ -430,7 +430,8 @@ The General Dynamics parent CAGE now resolves to an active Reston, VA record,
 so both comparison suppliers have a documented parent-to-multiple-facility
 structure. Neither case yet supplies a facility-bearing subaward or delivery
 record.
-The new production/integration realization record adds a reported October 2024
+The [production-support and integration milestone finding](projects/ai-work-control/findings/ai-work-control-080.md)
+and its production/integration realization record add a reported October 2024
 capacity-expansion action and a March 2025 initial LRASM–F-35B integration
 flight test, with a DoD Lot 22/FMS contract notice retained as corroborative
 context. These milestones advance the realization arrow but do not establish
