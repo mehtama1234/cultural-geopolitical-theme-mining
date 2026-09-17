@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "63d2448d919bad1ea7ba22a8cf616ca9a2128ca5f6a3c32634f3456678431a96",
+  "matrix_sha256": "b852054326e0bf0a93dada23a734a2206b872fa04e0eca27437aff742fb531f2",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -40,7 +40,7 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 12,
       "measurement_level": "Customer case, complaint, firm, state, sector",
       "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; product-conditioned response and visibility are now visible, but adequacy, account exposure, failed attempts, and later behavior remain open.",
       "same_unit_end_to_end_link": false,
@@ -53,7 +53,7 @@
     },
     {
       "current_status": "Reported / Compared / Inferred",
-      "evidence_anchor_count": 4,
+      "evidence_anchor_count": 5,
       "measurement_level": "User, respondent, account, transaction, platform, seller, source ecosystem",
       "next_required_test": "Verify encounter, interpretation, action, data use, agency, and exit effects with independent platform or transaction records.",
       "same_unit_end_to_end_link": false,
@@ -67,7 +67,7 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 4,
+      "evidence_anchor_count": 5,
       "measurement_level": "Worker, task, job, workplace, firm, respondent",
       "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the MEPS two-clock audit adds event-family-aligned R4/2 and R5/3 nonemployment levels and transitions; proxies are not causal work measures.",
       "same_unit_end_to_end_link": false,
