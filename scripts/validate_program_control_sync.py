@@ -51,6 +51,13 @@ def validate_handoff_counts(
         raise ValueError("current themes review packet registry count is stale")
 
 
+def validate_local_markdown_count(current_status: str, markdown_files: int) -> None:
+    """Require the current-status audit to show the live Markdown-file count."""
+    expected = f"{markdown_files:,} local Markdown links and"
+    if expected not in current_status:
+        raise ValueError("current-status audit Markdown-file count is stale")
+
+
 def main() -> int:
     records = [json.loads(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "analysis/records").glob("*.json"))]
     observations = sum(len(record.get("observations", [])) for record in records)
@@ -114,6 +121,12 @@ def main() -> int:
         raise SystemExit("program dashboard registry count is stale")
     try:
         validate_handoff_counts(current_status, next_queue, review_packet, len(records), observations)
+        markdown_files = sum(
+            1
+            for path in ROOT.rglob("*.md")
+            if ".git" not in path.parts
+        )
+        validate_local_markdown_count(current_status, markdown_files)
     except ValueError as error:
         raise SystemExit(str(error)) from error
     expected_big_picture = f"{edge_count} recorded cross-topic links"
