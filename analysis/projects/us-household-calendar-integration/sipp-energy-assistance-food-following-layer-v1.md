@@ -73,6 +73,27 @@ need protection: assistance reaches households with greater underlying need,
 and receipt does not imply that food security was restored. This joint screen
 is a counterexample to interpreting the unconditioned assistance contrast as a
 program failure or effect.
+
+## Severity within the joint screen
+
+The broad food-insecurity indicator also separates the three observed food-
+security categories. The joint difficulty-and-assistance cell is not merely
+slightly more insecure: its weighted distribution is concentrated in the low
+and very-low categories.
+
+| Utility condition at *t* | Energy assistance at *t* | High or marginal | Low | Very low |
+|---|---|---:|---:|---:|
+| Difficulty | Yes | 38.27% (SE 5.66 pp) | 24.83% (SE 4.61 pp) | 36.89% (SE 5.70 pp) |
+| Difficulty | No | 46.19% (SE 2.79 pp) | 27.63% (SE 2.71 pp) | 26.18% (SE 2.34 pp) |
+| No difficulty | Yes | 79.01% (SE 2.71 pp) | 11.43% (SE 2.12 pp) | 9.55% (SE 1.72 pp) |
+| No difficulty | No | 86.92% (SE 0.54 pp) | 8.67% (SE 0.46 pp) | 4.40% (SE 0.33 pp) |
+
+The most decision-relevant descriptive contrast is the very-low category:
+36.89% in the difficulty-plus-assistance cell versus 4.40% in the neither-
+screen cell. This does not identify assistance as the cause of severity. It
+does establish that a broad assistance receipt flag should not be treated as
+evidence of restored household security; targeting, incomplete adequacy, and
+persistent material pressure remain live explanations.
 - Person-month rows repeat household fields and are not household-prevalence
   estimates; food-security validity is retained separately from exposure
   validity.
@@ -92,7 +113,7 @@ and health outcome, and a defined recovery follow-up.
 python3 scripts/analyze_sipp_energy_assistance_food_following.py \
   --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv \
   --replicate-zip /tmp/rw2025_csv.zip \
-  --output /tmp/sipp-energy-assistance-food-following-v18-joint.json
+  --output /tmp/sipp-energy-assistance-food-following-v18-severity.json
 ```
 
 - [Machine-readable record](../../records/us-sipp-energy-assistance-food-following-2024.json)

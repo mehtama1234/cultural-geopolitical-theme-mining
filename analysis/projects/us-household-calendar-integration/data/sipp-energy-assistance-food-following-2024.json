@@ -8,15 +8,343 @@
   "replicate_rows_read": 378291,
   "matched_exposure_rows": 729363,
   "cells": {
-    "utility_difficulty": {"eligible_pairs": 24297, "food_security_valid_pair_n": 24297, "food_insecurity": {"valid_pair_n": 24297, "share_percent": 51.128693418665506, "standard_error_percentage_points": 2.2694295687006276, "approx_95_ci_percentage_points": [46.68061146401227, 55.57677537331874]}},
-    "no_utility_difficulty": {"eligible_pairs": 321986, "food_security_valid_pair_n": 321986, "food_insecurity": {"valid_pair_n": 321986, "share_percent": 8.403370413690123, "standard_error_percentage_points": 0.32978082318037166, "approx_95_ci_percentage_points": [7.757000000256594, 9.049740827123651]}},
-    "energy_assistance": {"eligible_pairs": 13399, "food_security_valid_pair_n": 13399, "food_insecurity": {"valid_pair_n": 13399, "share_percent": 32.76263947628334, "standard_error_percentage_points": 2.9023459970856154, "approx_95_ci_percentage_points": [27.074041321995534, 38.45123763057114]}},
-    "no_energy_assistance": {"eligible_pairs": 178141, "food_security_valid_pair_n": 178141, "food_insecurity": {"valid_pair_n": 178141, "share_percent": 16.934355869347375, "standard_error_percentage_points": 0.6088336230758632, "approx_95_ci_percentage_points": [15.741041968118684, 18.127669770576066]}},
-    "utility_difficulty__energy_assistance": {"eligible_pairs": 3772, "food_security_valid_pair_n": 3772, "food_insecurity": {"valid_pair_n": 3772, "share_percent": 61.72514014191548, "standard_error_percentage_points": 5.664014308611496, "approx_95_ci_percentage_points": [50.62367209703695, 72.82660818679402]}},
-    "utility_difficulty__no_energy_assistance": {"eligible_pairs": 16879, "food_security_valid_pair_n": 16879, "food_insecurity": {"valid_pair_n": 16879, "share_percent": 53.810649695627, "standard_error_percentage_points": 2.7887879030790796, "approx_95_ci_percentage_points": [48.344625405592005, 59.27667398566199]}},
-    "no_utility_difficulty__energy_assistance": {"eligible_pairs": 9627, "food_security_valid_pair_n": 9627, "food_insecurity": {"valid_pair_n": 9627, "share_percent": 20.987279347696848, "standard_error_percentage_points": 2.7068971474019166, "approx_95_ci_percentage_points": [15.681760938789091, 26.292797756604607]}},
-    "no_utility_difficulty__no_energy_assistance": {"eligible_pairs": 161262, "food_security_valid_pair_n": 161262, "food_insecurity": {"valid_pair_n": 161262, "share_percent": 13.078251337938166, "standard_error_percentage_points": 0.5442798025489742, "approx_95_ci_percentage_points": [12.011462924942176, 14.145039750934156]}}
+    "utility_difficulty": {
+      "eligible_pairs": 24297,
+      "food_security_valid_pair_n": 24297,
+      "food_insecurity": {
+        "valid_pair_n": 24297,
+        "share_percent": 51.128693418665506,
+        "standard_error_percentage_points": 2.2694295687006276,
+        "approx_95_ci_percentage_points": [
+          46.68061146401227,
+          55.57677537331874
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 24297,
+          "share_percent": 48.87130658133394,
+          "standard_error_percentage_points": 2.2694295687005903,
+          "approx_95_ci_percentage_points": [
+            44.423224626680785,
+            53.319388535987095
+          ]
+        },
+        "low": {
+          "valid_pair_n": 24297,
+          "share_percent": 25.844709030078445,
+          "standard_error_percentage_points": 2.138709337089515,
+          "approx_95_ci_percentage_points": [
+            21.652838729382996,
+            30.036579330773893
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 24297,
+          "share_percent": 25.28398438858725,
+          "standard_error_percentage_points": 1.9580800960474962,
+          "approx_95_ci_percentage_points": [
+            21.44614740033416,
+            29.12182137684034
+          ]
+        }
+      }
+    },
+    "no_utility_difficulty": {
+      "eligible_pairs": 321986,
+      "food_security_valid_pair_n": 321986,
+      "food_insecurity": {
+        "valid_pair_n": 321986,
+        "share_percent": 8.403370413690123,
+        "standard_error_percentage_points": 0.32978082318037166,
+        "approx_95_ci_percentage_points": [
+          7.757000000256594,
+          9.049740827123651
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 321986,
+          "share_percent": 91.59662958631229,
+          "standard_error_percentage_points": 0.3297808231804191,
+          "approx_95_ci_percentage_points": [
+            90.95025917287867,
+            92.2429999997459
+          ]
+        },
+        "low": {
+          "valid_pair_n": 321986,
+          "share_percent": 5.646317835940744,
+          "standard_error_percentage_points": 0.28877587450747777,
+          "approx_95_ci_percentage_points": [
+            5.080317121906088,
+            6.2123185499754
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 321986,
+          "share_percent": 2.7570525777493873,
+          "standard_error_percentage_points": 0.17381923423183757,
+          "approx_95_ci_percentage_points": [
+            2.4163668786549857,
+            3.097738276843789
+          ]
+        }
+      }
+    },
+    "energy_assistance": {
+      "eligible_pairs": 13399,
+      "food_security_valid_pair_n": 13399,
+      "food_insecurity": {
+        "valid_pair_n": 13399,
+        "share_percent": 32.76263947628334,
+        "standard_error_percentage_points": 2.9023459970856154,
+        "approx_95_ci_percentage_points": [
+          27.074041321995534,
+          38.45123763057114
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 13399,
+          "share_percent": 67.23736052371633,
+          "standard_error_percentage_points": 2.902345997085576,
+          "approx_95_ci_percentage_points": [
+            61.5487623694286,
+            72.92595867800406
+          ]
+        },
+        "low": {
+          "valid_pair_n": 13399,
+          "share_percent": 15.30683009737222,
+          "standard_error_percentage_points": 2.088278631065673,
+          "approx_95_ci_percentage_points": [
+            11.213803980483501,
+            19.39985621426094
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 13399,
+          "share_percent": 17.455809378911148,
+          "standard_error_percentage_points": 2.280625631817471,
+          "approx_95_ci_percentage_points": [
+            12.985783140548905,
+            21.925835617273393
+          ]
+        }
+      }
+    },
+    "no_energy_assistance": {
+      "eligible_pairs": 178141,
+      "food_security_valid_pair_n": 178141,
+      "food_insecurity": {
+        "valid_pair_n": 178141,
+        "share_percent": 16.934355869347375,
+        "standard_error_percentage_points": 0.6088336230758632,
+        "approx_95_ci_percentage_points": [
+          15.741041968118683,
+          18.127669770576066
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 178141,
+          "share_percent": 83.06564413065223,
+          "standard_error_percentage_points": 0.6088336230757248,
+          "approx_95_ci_percentage_points": [
+            81.87233022942381,
+            84.25895803188065
+          ]
+        },
+        "low": {
+          "valid_pair_n": 178141,
+          "share_percent": 10.46921633042962,
+          "standard_error_percentage_points": 0.5135503461102326,
+          "approx_95_ci_percentage_points": [
+            9.462657652053565,
+            11.475775008805677
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 178141,
+          "share_percent": 6.465139538917788,
+          "standard_error_percentage_points": 0.40500151365560005,
+          "approx_95_ci_percentage_points": [
+            5.671336572152812,
+            7.258942505682764
+          ]
+        }
+      }
+    },
+    "utility_difficulty__energy_assistance": {
+      "eligible_pairs": 3772,
+      "food_security_valid_pair_n": 3772,
+      "food_insecurity": {
+        "valid_pair_n": 3772,
+        "share_percent": 61.72514014191548,
+        "standard_error_percentage_points": 5.664014308611496,
+        "approx_95_ci_percentage_points": [
+          50.62367209703695,
+          72.82660818679402
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 3772,
+          "share_percent": 38.27485985808474,
+          "standard_error_percentage_points": 5.664014308611471,
+          "approx_95_ci_percentage_points": [
+            27.173391813206255,
+            49.376327902963226
+          ]
+        },
+        "low": {
+          "valid_pair_n": 3772,
+          "share_percent": 24.830394342404137,
+          "standard_error_percentage_points": 4.614209794877511,
+          "approx_95_ci_percentage_points": [
+            15.786543144444215,
+            33.87424554036406
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 3772,
+          "share_percent": 36.894745799511405,
+          "standard_error_percentage_points": 5.70088987375813,
+          "approx_95_ci_percentage_points": [
+            25.72100164694547,
+            48.06848995207734
+          ]
+        }
+      }
+    },
+    "utility_difficulty__no_energy_assistance": {
+      "eligible_pairs": 16879,
+      "food_security_valid_pair_n": 16879,
+      "food_insecurity": {
+        "valid_pair_n": 16879,
+        "share_percent": 53.810649695627,
+        "standard_error_percentage_points": 2.7887879030790796,
+        "approx_95_ci_percentage_points": [
+          48.344625405592005,
+          59.27667398566199
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 16879,
+          "share_percent": 46.18935030437299,
+          "standard_error_percentage_points": 2.7887879030791547,
+          "approx_95_ci_percentage_points": [
+            40.72332601433784,
+            51.65537459440813
+          ]
+        },
+        "low": {
+          "valid_pair_n": 16879,
+          "share_percent": 27.62791299220824,
+          "standard_error_percentage_points": 2.7059374474397107,
+          "approx_95_ci_percentage_points": [
+            22.32427559522641,
+            32.93155038919007
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 16879,
+          "share_percent": 26.182736703418797,
+          "standard_error_percentage_points": 2.3392420927276203,
+          "approx_95_ci_percentage_points": [
+            21.597822201672663,
+            30.76765120516493
+          ]
+        }
+      }
+    },
+    "no_utility_difficulty__energy_assistance": {
+      "eligible_pairs": 9627,
+      "food_security_valid_pair_n": 9627,
+      "food_insecurity": {
+        "valid_pair_n": 9627,
+        "share_percent": 20.987279347696848,
+        "standard_error_percentage_points": 2.7068971474019166,
+        "approx_95_ci_percentage_points": [
+          15.681760938789091,
+          26.292797756604607
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 9627,
+          "share_percent": 79.01272065230339,
+          "standard_error_percentage_points": 2.7068971474019614,
+          "approx_95_ci_percentage_points": [
+            73.70720224339554,
+            84.31823906121123
+          ]
+        },
+        "low": {
+          "valid_pair_n": 9627,
+          "share_percent": 11.434809515045451,
+          "standard_error_percentage_points": 2.123005409033208,
+          "approx_95_ci_percentage_points": [
+            7.273718913340364,
+            15.595900116750538
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 9627,
+          "share_percent": 9.552469832651447,
+          "standard_error_percentage_points": 1.7207220177669513,
+          "approx_95_ci_percentage_points": [
+            6.179854677828223,
+            12.925084987474671
+          ]
+        }
+      }
+    },
+    "no_utility_difficulty__no_energy_assistance": {
+      "eligible_pairs": 161262,
+      "food_security_valid_pair_n": 161262,
+      "food_insecurity": {
+        "valid_pair_n": 161262,
+        "share_percent": 13.078251337938166,
+        "standard_error_percentage_points": 0.5442798025489742,
+        "approx_95_ci_percentage_points": [
+          12.011462924942176,
+          14.145039750934156
+        ]
+      },
+      "food_security_distribution": {
+        "high_or_marginal": {
+          "valid_pair_n": 161262,
+          "share_percent": 86.92174866206169,
+          "standard_error_percentage_points": 0.5442798025487016,
+          "approx_95_ci_percentage_points": [
+            85.85496024906624,
+            87.98853707505714
+          ]
+        },
+        "low": {
+          "valid_pair_n": 161262,
+          "share_percent": 8.674954459584827,
+          "standard_error_percentage_points": 0.46248955419771925,
+          "approx_95_ci_percentage_points": [
+            7.768474933357297,
+            9.581433985812357
+          ]
+        },
+        "very_low": {
+          "valid_pair_n": 161262,
+          "share_percent": 4.403296878353236,
+          "standard_error_percentage_points": 0.32964342029254096,
+          "approx_95_ci_percentage_points": [
+            3.757195774579855,
+            5.0493979821266155
+          ]
+        }
+      }
+    }
   },
-  "boundary": "Adjacent-file descriptive screen. SIPP utility and assistance fields may be reference-period or conditional household measures repeated on person-month rows; food security is not necessarily newly measured at t+1. The result does not establish a dated bill shock, assistance effect, food recovery, work/care substitution, trust, political action, or household prevalence.",
-  "source_hashes": {"primary": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda", "replicate": "sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "script": "sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2", "rerun_output": "sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568"}
+  "source_hashes": {"primary": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda", "replicate": "sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "script": "sha256:ef3f6615a43a25479e91c2eb8282e7f7f837acdb8ab6aef17fad284172415a41", "rerun_output": "sha256:5e3f5e2e348c13df79c285fa8c8ac1217ad4051a2366e8f61be4e19cd1452795"},
+  "boundary": "Adjacent-file descriptive screen. SIPP utility and assistance fields may be reference-period or conditional household measures repeated on person-month rows; food security is not necessarily newly measured at t+1. The result does not establish a dated bill shock, assistance effect, food recovery, work/care substitution, trust, political action, or household prevalence."
 }

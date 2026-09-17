@@ -67,8 +67,8 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
         "no_utility_difficulty__no_energy_assistance",
     )
     all_groups = groups + joint_groups
-    pairs: dict[tuple[str, ...], list[tuple[str, bool, float]]] = {}
-    cells = {group: {"pairs": 0, "food_valid_n": 0, "food_den": 0.0, "food_num": 0.0} for group in all_groups}
+    pairs: dict[tuple[str, ...], list[tuple[str, bool, str | None, float]]] = {}
+    cells = {group: {"pairs": 0, "food_valid_n": 0, "food_den": 0.0, "food_num": 0.0, "food_category_num": {"high_or_marginal": 0.0, "low": 0.0, "very_low": 0.0}} for group in all_groups}
     food_valid_keys: set[tuple[str, ...]] = set()
     for person, months in people.items():
         for month in range(1, 12):
@@ -97,15 +97,22 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
             food_valid = after.get("RFOODS", "") in {"1", "2", "3"} and after.get("AFOODS", "") not in {"", "0"}
             key = tuple(before[k] for k in KEYS)
             for group in exposure_groups:
-                pairs[key + (group,)] = [(group, after.get("RFOODS") in {"2", "3"}, weight)]
+                category = {
+                    "1": "high_or_marginal",
+                    "2": "low",
+                    "3": "very_low",
+                }.get(after.get("RFOODS", "")) if food_valid else None
+                pairs[key + (group,)] = [(group, after.get("RFOODS") in {"2", "3"}, category, weight)]
                 cells[group]["pairs"] += 1
                 if food_valid:
                     food_valid_keys.add(key + (group,))
                     cells[group]["food_valid_n"] += 1
                     cells[group]["food_den"] += weight
                     cells[group]["food_num"] += weight * (after["RFOODS"] in {"2", "3"})
+                    cells[group]["food_category_num"][category] += weight
 
     rep_num = {group: np.zeros(REPLICATES) for group in all_groups}
+    rep_category_num = {group: {category: np.zeros(REPLICATES) for category in ("high_or_marginal", "low", "very_low")} for group in all_groups}
     rep_den = {group: np.zeros(REPLICATES) for group in all_groups}
     replicate_rows = matched_rows = 0
     with zipfile.ZipFile(replicate_zip) as archive, archive.open("rw2025.csv") as raw:
@@ -124,6 +131,9 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
                 rep_den[group] += weights
                 if item[0][1]:
                     rep_num[group] += weights
+                category = item[0][2]
+                if category:
+                    rep_category_num[group][category] += weights
 
     return {
         "format": "us-sipp-energy-assistance-food-following-v1",
@@ -139,6 +149,10 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
                 "eligible_pairs": values["pairs"],
                 "food_security_valid_pair_n": values["food_valid_n"],
                 "food_insecurity": summarize(values["food_num"], values["food_den"], rep_num[group], rep_den[group], values["food_valid_n"]),
+                "food_security_distribution": {
+                    category: summarize(values["food_category_num"][category], values["food_den"], rep_category_num[group][category], rep_den[group], values["food_valid_n"])
+                    for category in ("high_or_marginal", "low", "very_low")
+                },
             }
             for group, values in cells.items()
         },
