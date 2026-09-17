@@ -118,6 +118,12 @@ adds a named US enforcement/remedy stage: formal operational requirements and
 up to $120 million in consumer redress are documented, while individual
 receipt, correction, recovery, trust, switching, and exit remain unobserved.
 
+The [CFPB BrightSpeed redress distribution record](cfpb-brightspeed-redress-distribution-record-v1.md)
+adds the comparison case: 122,507 eligible consumers, $53,885,244 in
+compensable harm, a named payment administrator, and an ongoing distribution
+are publicly documented, while successful individual receipt and recovery are
+not.
+
 ## Scope
 
 - US customers and firms;
