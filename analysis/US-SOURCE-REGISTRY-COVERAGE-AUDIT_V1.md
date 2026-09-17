@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **66**
+- Observed domains outside registered families: **67**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -263,6 +263,7 @@ without a recurring acquisition need and source-specific metadata.
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |

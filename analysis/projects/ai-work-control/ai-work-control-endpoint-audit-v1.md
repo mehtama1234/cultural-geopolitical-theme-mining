@@ -24,6 +24,7 @@ AI capability or management tool
 | JRC/ILO comparative evidence | Worker AI use and algorithmic-management practices | Consultation, bargaining, data access, legal/public challenge | Case-specific rule changes observed; US generalization and durability open |
 | Microsoft Germany implementation | Named Copilot/Places rollout, controls, training, dashboards | Company-reported works-council feedback and product changes | No independent worker-level welfare or enforcement outcome |
 | NYC AEDT regime | Bias-audit, public-summary, and employee/candidate-notice requirements | Complaint route; discrimination claims referred to NYC Commission on Human Rights | No named employer implementation, worker decision change, appeal, compensation, or defined complaint outcome |
+| DOL WHD federal guidance | FLSA guidance addresses AI/automated workplace surveillance, targeting, and analytics | Existing labor-standard and anti-retaliation obligations provide an enforcement route | No named implementation, worker exposure, enforcement disposition, correction, or compensation outcome |
 
 ## Broad-program interpretation
 

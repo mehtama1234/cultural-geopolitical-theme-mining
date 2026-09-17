@@ -43,6 +43,14 @@
       "worker_voice_or_control": "workers and candidates have a complaint route; discrimination claims are referred to the NYC Commission on Human Rights",
       "worker_outcome": "no named employer implementation, worker decision change, appeal, compensation, or workload/pay/health outcome located",
       "boundary": "official rule and access-route pages; no public case-level outcome or defined complaint denominator, so no compliance or welfare estimate"
+    },
+    {
+      "source": "analysis/projects/ai-work-control/dol-ai-automated-systems-federal-guidance-audit-2026-09-17.md",
+      "unit": "DOL_WHD_federal_guidance_unit",
+      "exposure_or_implementation": "FLSA guidance addresses AI and automated workplace systems including surveillance, targeting, and analytics within existing labor standards",
+      "worker_voice_or_control": "anti-retaliation and labor-standard obligations provide an enforcement vocabulary; worker decision rights are not directly observed",
+      "worker_outcome": "no named implementation, worker exposure, changed decision, enforcement disposition, correction, or compensation located",
+      "boundary": "federal interpretive guidance and public source surface; not an employer-use rate, worker outcome, or compliance estimate"
     }
   ],
   "program_result": "AI/work evidence is strongest at exposure, adoption, organizational implementation, and consultation/design stages. It is weaker at same-workplace worker control, enforcement, distributional outcomes, household security, and bargaining change.",
