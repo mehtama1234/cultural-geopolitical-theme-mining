@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 273 canonical records, 1005 observations, 14 program
+**Registry checkpoint:** 273 canonical records, 1006 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),

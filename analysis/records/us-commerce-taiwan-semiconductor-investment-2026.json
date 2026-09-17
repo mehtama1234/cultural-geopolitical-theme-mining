@@ -24,6 +24,25 @@
       "source_url": "https://www.commerce.gov/news/fact-sheets/2026/01/fact-sheet-restoring-american-semiconductor-manufacturing-leadership",
       "retrieval_hash": "sha256:d40ffafc42f82dd422dcbdb5b7825f8780c47a61fbf031c84337e4694ece9e6b",
       "status": "reported"
+    },
+    {
+      "period": "TSMC Arizona project status checked September 17, 2026; production and construction milestones through 2026",
+      "denominator": {"value": null, "unit": "TSMC Arizona project, workforce, and planned fab stages", "value_type": "not_disclosed"},
+      "measures": {
+        "first_fab_realization": {"value": "high-volume N4 production started in Q4 2024", "unit": "project milestone", "value_type": "reported_realization"},
+        "current_direct_employment": {"value": 3000, "unit": "employees at TSMC Arizona, more than", "value_type": "reported_employment_count"},
+        "second_fab_stage": {"value": "structure construction completed in 2025; N3 volume production targeted for second half of 2027", "unit": "project milestone and target", "value_type": "reported_stage"},
+        "third_and_fourth_fab_stage": {"value": "third fab broke ground in April 2025 and targets production by the end of the decade; fourth fab and first advanced-packaging fab entered initial construction in early 2026", "unit": "project milestones and targets", "value_type": "reported_stage"},
+        "technician_pipeline": {"value": 43, "unit": "Manufacturing Specialist Intensive Training Program graduates in August 2026; direct interviews offered", "value_type": "reported_training_count"},
+        "local_burden_and_supply_chain_replacement": {"value": "not observed in the company project page", "unit": "missing outcome endpoint", "value_type": "unmeasured"}
+      },
+      "method": "TSMC Arizona official project page and current local-news entries; production, employment, construction, target dates, and training are coded as separate company-reported stages rather than one completed-capacity estimate.",
+      "uncertainty": "Company-reported milestones and targets do not independently audit output, yield, uptime, full employment composition, public subsidy, water/power use, local wage effects, or reduction in US/Taiwan supply dependence.",
+      "subgroup": "TSMC Arizona employees, construction and technician trainees, Phoenix-area workers and community, US chip customers, and the broader allied semiconductor supply chain.",
+      "counterinterpretation": "A functioning first fab and expanding workforce pipeline demonstrate partial realization, but later fabs remain staged or targeted; local jobs and training can coexist with external ownership, imported tools/materials, resource burden, and continued dependency on the wider Taiwan-centered ecosystem.",
+      "source_url": "https://www.tsmc.com/static/abouttsmcaz/index.htm",
+      "retrieval_hash": "sha256:e9e0549219db13a9e7aa7b92cbec116bb344656ca04c75a8b046bffa16ee7fa1",
+      "status": "reported"
     }
   ],
   "related_sources": [

@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **70**
+- Observed domains outside registered families: **71**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -262,6 +262,7 @@ without a recurring acquisition need and source-specific metadata.
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
+| `tsmc.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `uasvis.usc.edu` | official UAS visualization host | Retain as a public metadata and aggregate-explorer route; do not treat the visualization as a substitute for registration-gated respondent microdata or as a medical-expense-specific estimate. |
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
