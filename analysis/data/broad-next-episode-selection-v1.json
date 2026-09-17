@@ -3,7 +3,7 @@
   "status": "ranked_local_route_decision",
   "checked": "2026-09-16",
   "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
-  "selection_rule": "Prefer the largest privacy-minimized same-person event surface with a dated trigger and exact linkage, then retain a route-specific remedy counterexample and panel context without pooling them.",
+  "selection_rule": "Use the largest privacy-minimized same-person event surface to complete the local stage gate; once its missing middle is verified, prioritize the smallest gated acquisition capable of adding the missing event, choice, remedy, and meaning/action links, while retaining route-specific counterexamples without pooling them.",
   "ranked_routes": [
     {
       "rank": 1,
@@ -38,6 +38,14 @@
       "promotion_boundary": "Panel persistence and adaptation do not identify a dated bill, actor, remedy, or causal political translation."
     }
   ],
-  "next_action": "Run the next local depth pass against the MEPS staged ledger only if the required event-level need, alternative, payment, remedy, and follow-up fields are present; otherwise use the CFPB/platform route for a small remedy-focused acquisition or record the gap.",
+  "next_gated_route": {
+    "route": "UAS health-cost episode and legitimacy acquisition",
+    "source": "analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md",
+    "why_selected": "Smallest identified respondent-level candidate that could join a reported medical-expense event to later health/work/well-being measures and add care choice, provider experience, and institution-specific trust through UAS 537/698.",
+    "next_fields": ["uasid_overlap", "wave_and_recall_alignment", "weights", "initiating_need", "usable_alternatives", "care_choice_or_delay", "payment_timing", "institutional_response", "verified_remedy", "trust_action_or_exit"],
+    "promotion_boundary": "Registration-gated documentation route only; no UAS respondent file, overlap, denominator, or result has been acquired or estimated.",
+    "access_status": "registration_required"
+  },
+  "next_action": "Do not rerun the completed MEPS stage gate. If authenticated UAS access becomes available, run the file inventory, overlap, timing, weights, and missingness gates before any estimate; otherwise use the CFPB/platform route for a small remedy-focused comparison and keep the UAS route explicitly open.",
   "storage_boundary": "No new acquisition. The 54 MB MEPS staged ledger remains outside Git; only the selection metadata and committed bounded output are retained."
 }

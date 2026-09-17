@@ -197,12 +197,15 @@ burden, and remedy remain separate endpoints until a linked consumer episode
 is available.
 
 The ranked [next-episode selection](analysis/broad-next-episode-selection-v1.md)
-chooses the existing MEPS 2024 staged ledger as the next primary local depth
-route because it contains 18,457 exact person/event rows with dated event,
-payment, coverage, health, employment, and bill context. CFPB/platform remains
-the remedy counterexample, while SHED and HTOPS remain non-pooled panel
-context. The MEPS pass must stop at an acquisition gap if event-level need,
-alternatives, remedy, or follow-up fields are absent.
+completed the existing MEPS 2024 staged-ledger gate. Its 18,457 exact
+person/event rows provide a dated event/payment/context scaffold, but the
+stage audit confirms that initiating need, alternatives, event-specific
+response, verified remedy, and meaning/action are absent. The next primary
+route is therefore the registration-gated UAS acquisition, whose monthly panel
+and UAS 537/698 modules may supply those missing respondent-level links. No UAS
+respondent files are retained or acquired. CFPB/platform remains the
+storage-light remedy counterexample and fallback, while SHED and HTOPS remain
+non-pooled panel context.
 
 The selected MEPS route has now been audited at the field level across all
 18,457 staged rows. It supplies a strong dated person/event scaffold and

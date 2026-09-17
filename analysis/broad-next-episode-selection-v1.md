@@ -1,20 +1,29 @@
 # Broad next-episode selection v1
 
-**Status:** ranked local-route decision; no new estimate
+**Status:** ranked route decision; local MEPS gate complete; no new estimate
 **Checked:** 2026-09-16
 **Machine record:** [next-episode selection](data/broad-next-episode-selection-v1.json)
 
 ## Decision
 
-Use the existing MEPS 2024 staged event ledger as the primary next depth route.
-Its local staged input is approximately 54 MB and contains 18,457
-privacy-minimized person/event rows with a dated first event-family record and
-exact person linkage to payment, coverage, health, employment, and bill context.
-It is the strongest available local surface for the material → care/health →
-household-security bridge.
+The existing MEPS 2024 staged event ledger was the primary local depth route.
+Its 18,457 privacy-minimized person/event rows provide a dated first
+event-family scaffold with payment, coverage, health, employment, and bill
+context. The completed stage audit shows that the local representation lacks
+the initiating need, usable alternatives, event-specific response, verified
+remedy, and meaning/action endpoint.
 
-Keep the CFPB/platform records as the remedy counterexample, not as a substitute
-for MEPS. They provide stronger institutional response and partial remedy
+The next primary route is therefore the registration-gated UAS acquisition
+specified in the [UAS health-cost episode audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md).
+UAS is the smallest identified candidate that could connect a reported
+medical-expense event to later health/work/well-being measures and, through
+UAS 537 or 698, add care choice, bill, provider-experience, and
+institution-specific trust fields. No UAS respondent files are currently
+retained or acquired.
+
+Keep the CFPB/platform records as the storage-light remedy counterexample and
+fallback, not as a substitute for the missing UAS/MEPS middle. They provide
+stronger institutional response and partial remedy
 evidence, but far fewer cases and sparse alternatives, receipt, durability,
 trust, and exit. Keep SHED and HTOPS as panel context; do not join any of these
 sources into one person or household story.
@@ -32,10 +41,11 @@ dated event
   -> later health, security, trust, action, switching, or exit
 ```
 
-If the fields are absent, the result is a verified acquisition gap—not a reason
-to infer a bill-to-recovery chain from round-level context. The platform route
-then becomes the next small remedy-focused comparison, while the broad 14-theme
-rotation continues through other lanes.
+If the UAS fields or overlap fail the acquisition gates, the result is a
+verified acquisition gap—not a reason to infer a bill-to-recovery chain from
+round-level context. The CFPB/platform route remains the next small
+remedy-focused comparison, while the broad 14-theme rotation continues through
+other lanes.
 
 ## Why this is the right broad-program move
 
