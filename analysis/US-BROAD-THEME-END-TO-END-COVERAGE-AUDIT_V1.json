@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "4e687dd75124aaa5b38ef66372a85235d7f6f41a49fd17d02af78fe4c1593d86",
+  "matrix_sha256": "a986e6a55971be260c3ad6d22c30b7c1960200d2e32179d176e30e71a2a5ba60",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -133,9 +133,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 13,
       "measurement_level": "Person, household, program spell, agency, place, census tract",
-      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; WBNS adds perceived-risk public-benefit non-use in immigrant families, but not eligibility or a verified agency episode; direct notices, effort, interpretation, remedy, and later action remain open.",
+      "next_required_test": "SNAP receipt is now compared with food security, work, race, disability, child presence, resources, adjacent-month transitions, recorded reasons, joint housing insecurity, and resource/job changes around transitions with uncertainty checks; SIPP adds next-month food-security severity beside energy assistance and utility difficulty, while LIHEAP separates reach from reported restoration; WBNS adds perceived-risk public-benefit non-use in immigrant families, but not eligibility or a verified agency episode; durable recovery, direct notices, effort, interpretation, remedy, and later action remain open.",
       "same_unit_end_to_end_link": false,
       "source_line": 23,
       "status_tokens": [
