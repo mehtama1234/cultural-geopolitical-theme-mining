@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-harvey-firm-turnover-consumer-welfare-2024",
+  "title": "Hurricane Harvey firm closures produced localized consumer travel and welfare losses despite higher-value entry",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "housing_place_mobility", "unequal_exposure_status", "infrastructure_technology_dependency", "public_systems_feedback", "consumer_power_recourse"],
+  "source_unit": "Hurricane Harvey case using payment-card transactions, store turnover, flood exposure, and a modeled consumer-demand panel across Houston, Corpus Christi, and Beaumont; author-hosted working paper",
+  "geography": "United States; Texas MSAs and neighborhoods affected by Hurricane Harvey",
+  "observations": [
+    {
+      "period": "August 2017 storm through December 2018 follow-up",
+      "denominator": {"value": null, "unit": "Payment-card, store, and consumer-demand analytical universes differ; exact counts are not exposed in the retained abstract/search evidence", "value_type": "not_disclosed"},
+      "measures": {
+        "firm_turnover": {"value": "About 1% of firms permanently exited and an additional 3% temporarily closed for at least two months", "unit": "percent of observed firms; case-specific estimate", "value_type": "reported_case_estimate"},
+        "consumer_distance": {"value": 15, "unit": "percent increase in travel distance after major store closures; same-chain transactions increased about 50%", "value_type": "reported_change"},
+        "store_consumer_surplus": {"value": "Exiting stores contribute 36% less consumer surplus than entrants and 51% less than surviving incumbents", "unit": "relative modeled store contribution", "value_type": "modeled_comparison"},
+        "localized_welfare_loss": {"value": "Houston MSA average loss about 0.29% of pre-storm retail expenditure; worst-hit tracts exceed 20% in the authors' summary", "unit": "modeled consumer welfare loss as percent of pre-storm expenditure; geography-sensitive", "value_type": "modeled_welfare_estimate"},
+        "price_path": {"value": "No meaningful medium- or long-term price effects beyond a short-lived landfall-week spike in the reported price appendix", "unit": "retail-price comparison", "value_type": "reported_null_effect"}
+      },
+      "method": "Use the authors' store-turnover and payment-card evidence plus their pre-storm demand model; retain closure, entry, distance, and welfare as separate outcomes and do not convert modeled surplus into observed household spending.",
+      "uncertainty": "This is a Hurricane Harvey case and not a population-wide causal estimate of all disasters. Payment-card users and observed merchants may not represent cash users or all local firms. Consumer welfare is model-based, tract and category sensitive, and depends on demand, distance, and substitution assumptions. The retained evidence does not measure income, disability, car access, worker pay, owner household recovery, political response, or public-service substitution.",
+      "subgroup": "Observed retail stores, payment-card holders, and neighborhoods in three Texas MSAs; 12 large store categories covering the paper's modeled brick-and-mortar categories.",
+      "counterinterpretation": "Higher-value entrants can improve average consumer welfare while leaving hard-hit neighborhoods with fewer nearby options. Small average price effects do not imply small travel, time, or access burdens for the most exposed households.",
+      "source_url": "https://benklopack.github.io/files/2024_12_11_Harvey.pdf",
+      "retrieval_hash": "source_packet:sha256:928a500d275c4d3b492f7b9938dae4ea0bf2e4c3b7515e6c406f63f21ce3371c",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md", "claim": "The committed source packet records the source, result, and coverage limits without retaining raw transactions.", "status": "repository-source-packet"},
+    {"source_url": "https://ssrn.com/abstract=5052831", "claim": "The public abstract reports the relative consumer-surplus comparisons and targeted-aid counterfactual boundary.", "status": "public-author-abstract"}
+  ],
+  "boundary": "This record closes a firm-turnover-to-customer-distance and modeled local-welfare arrow for Hurricane Harvey. It does not establish a general disaster effect, observed household welfare for every customer, price gouging, worker security, owner recovery, political legitimacy, or the net effect of subsidizing every damaged firm.",
+  "reproduction_audit": {"retrieval_hash_scope": "Existing local source-search packet and author-hosted working paper/abstract URLs; no PDF, raw transactions, code, or restricted data retained", "retrieval_hash": "source_packet:sha256:928a500d275c4d3b492f7b9938dae4ea0bf2e4c3b7515e6c406f63f21ce3371c", "checked": "2026-09-17"}
+}

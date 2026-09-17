@@ -19,3 +19,9 @@ Move on after one study measures a causal firm-credit effect, one source connect
 ## Matched evidence pass
 
 The first matched check is [A recovery loan can keep a local option open, but it creates another bill](../../findings/us-small-business-disaster-liquidity-matched-evidence-001.md), with its [HTML reading page](../../../site/us-small-business-disaster-liquidity-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms firm recovery effects while leaving worker, customer, owner-household, and repayment effects open.
+
+The [Harvey customer-welfare finding](findings/us-harvey-firm-turnover-consumer-welfare-001.md)
+adds a customer-side case: closure raised observed travel distance and created
+highly uneven modeled welfare losses even without durable aggregate price
+effects. It complements the loan result but does not measure aid receipt,
+worker security, or owner recovery.

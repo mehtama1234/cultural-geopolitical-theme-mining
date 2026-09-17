@@ -2,7 +2,7 @@
 
 103 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 39; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 40; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2012,11 +2012,12 @@
 
 **Question:** When a small firm survives a shock, who else keeps their options?
 
-**Sources recorded:** 3
+**Sources recorded:** 4
 
 - [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326)
 - [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
 - [After the Storm: Direct and Spillover Benefits from Disaster Loans to Small Businesses](https://afajof.org/management/viewp.php?n=42000)
+- [Rebuilding After the Storm: Firm Turnover and Consumer Welfare After Hurricane Harvey](https://benklopack.github.io/files/2024_12_11_Harvey.pdf)
 
 **Open gaps:**
 - damage, repair cost and insurance payment;
