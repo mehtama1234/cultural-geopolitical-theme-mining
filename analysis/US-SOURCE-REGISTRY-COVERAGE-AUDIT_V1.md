@@ -36,9 +36,9 @@ or proof that every source item was read in full.
 | [SSRN research paper repository](https://papers.ssrn.com/) | public working-paper and preprint access for emerging social-science evidence | 2 | 10 | 8 | 2 | evidence-bearing; machine-record URL |
 | [arXiv research preprints](https://arxiv.org/) | open preprint access and versioned paper text for emerging research | 0 | 12 | 6 | 7 | evidence-bearing; machine-record URL |
 | [Zenodo research data archive](https://zenodo.org/) | versioned open research data and code archives | 0 | 5 | 4 | 1 | evidence-bearing; machine-record URL |
-| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 808 | 206 | 60 | evidence-bearing; machine-record URL |
-| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 808 | 206 | 0 | evidence-bearing |
-| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 808 | 206 | 0 | evidence-bearing |
+| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 809 | 207 | 60 | evidence-bearing; machine-record URL |
+| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 809 | 207 | 0 | evidence-bearing |
+| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 809 | 207 | 0 | evidence-bearing |
 | [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 5 | 4 | 2 | evidence-bearing; machine-record URL |
 | [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 48 | 14 | 3 | evidence-bearing; machine-record URL |
 | [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 6 | 3 | 0 | evidence-bearing |
@@ -69,14 +69,14 @@ or proof that every source item was read in full.
 | [World Bank Research](https://www.worldbank.org/en/research) | development research, poverty, institutions, growth, climate, and country change | 4 | 78 | 33 | 0 | evidence-bearing |
 | [World Bank Enterprise Surveys](https://www.enterprisesurveys.org/en/data) | firm-level business environment, establishment capacity, finance, infrastructure, management, and performance evidence | 1 | 23 | 8 | 3 | evidence-bearing; machine-record URL |
 | [Federal Reserve Survey of Household Economics and Decisionmaking](https://www.federalreserve.gov/consumerscommunities/shed.htm) | US household financial well-being, hardship, credit, housing, and reported economic experience | 23 | 289 | 117 | 4 | evidence-bearing; machine-record URL |
-| [U.S. Census Bureau Survey of Income and Program Participation](https://www.census.gov/programs-surveys/sipp.html) | US monthly household and person resources, work, program participation, health, food security, and care constraints | 17 | 503 | 189 | 11 | evidence-bearing; machine-record URL |
+| [U.S. Census Bureau Survey of Income and Program Participation](https://www.census.gov/programs-surveys/sipp.html) | US monthly household and person resources, work, program participation, health, food security, and care constraints | 18 | 505 | 190 | 11 | evidence-bearing; machine-record URL |
 | [Federal Reserve Bank of New York Economic Heterogeneity Indicators](https://www.newyorkfed.org/research/economic-heterogeneity-indicators) | demographic, geographic, and business-size heterogeneity in inflation, earnings, employment, consumer spending, wealth, and small-business conditions | 2 | 59 | 29 | 5 | evidence-bearing; machine-record URL |
 | [Consumer Financial Protection Bureau consumer finance research](https://www.consumerfinance.gov/data-research/) | US consumer credit markets, complaints, fees, enforcement, and household financial protection | 20 | 181 | 69 | 59 | evidence-bearing; machine-record URL |
 | [CFPB Consumer Complaint Database API documentation](https://cfpb.github.io/api/ccdb/api.html) | machine-access contract for CFPB complaint records, fields, filters, pagination, and public retrieval | 1 | 16 | 13 | 0 | evidence-bearing |
 | [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 20 | 254 | 80 | 63 | evidence-bearing; machine-record URL |
-| [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 17 | 503 | 189 | 0 | evidence-bearing |
+| [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 18 | 505 | 190 | 0 | evidence-bearing |
 | [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 205 | 67 | 3 | evidence-bearing; machine-record URL |
-| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 808 | 206 | 60 | evidence-bearing; machine-record URL |
+| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 809 | 207 | 60 | evidence-bearing; machine-record URL |
 | [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 17 | 8 | 1 | evidence-bearing; machine-record URL |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 8 | 8 | 2 | evidence-bearing; machine-record URL |
 | [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 20 | 254 | 80 | 20 | evidence-bearing; machine-record URL |
@@ -85,7 +85,7 @@ or proof that every source item was read in full.
 | [HRSA Health Professional Shortage Areas](https://data.hrsa.gov/topics/health-workforce/shortage-areas) | US place-level provider-shortage and health-capacity context | 0 | 23 | 10 | 0 | evidence-bearing |
 | [CDC PLACES: Local Data for Better Health](https://www.cdc.gov/places/) | US county, place, tract, and ZCTA modeled health, preventive-care, and health-related social-needs context | 0 | 19 | 8 | 3 | evidence-bearing; machine-record URL |
 | [FEMA National Flood Insurance Program](https://www.fema.gov/flood-insurance) | US hazard exposure, flood insurance, claims, mitigation, and place-risk context | 0 | 3 | 2 | 0 | evidence-bearing |
-| [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 17 | 503 | 189 | 1 | evidence-bearing; machine-record URL |
+| [American Community Survey](https://www.census.gov/programs-surveys/acs) | US place-level population, housing, income, migration, language, commuting, and inequality context | 18 | 505 | 190 | 1 | evidence-bearing; machine-record URL |
 | [US Energy Information Administration](https://www.eia.gov/) | US energy prices, consumption, insecurity, electricity systems, and infrastructure context | 21 | 62 | 22 | 13 | evidence-bearing; machine-record URL |
 | [US Department of Energy](https://www.energy.gov/) | US energy policy, affordability tools, infrastructure, technology, and public investment context | 16 | 45 | 20 | 4 | evidence-bearing; machine-record URL |
 | [US Federal Trade Commission](https://www.ftc.gov/) | US consumer protection, competition, privacy, fraud, platform, and enforcement evidence | 29 | 161 | 57 | 51 | evidence-bearing; machine-record URL |
@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **77**
+- Observed domains outside registered families: **78**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -278,6 +278,7 @@ without a recurring acquisition need and source-specific metadata.
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |
+| `iza.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `kho.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |

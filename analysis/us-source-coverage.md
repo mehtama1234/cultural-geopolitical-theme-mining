@@ -2,7 +2,7 @@
 
 103 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 15; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 41; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 16; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 41; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
 
 ## AI, work, and control
 
@@ -2038,9 +2038,10 @@
 
 **Question:** Who gains when a program called small-business support reaches larger firms?
 
-**Sources recorded:** 1
+**Sources recorded:** 2
 
 - [How Big is Small? The Economic Effects of Access to Small Business Government Support](https://www.nber.org/papers/w35703)
+- [How Big is Small? CES-24-28 / IZA DP 17092](https://www.census.gov/library/working-papers/2024/adrm/CES-WP-24-28.html)
 
 **Open gaps:**
 - exact eligibility and program type;

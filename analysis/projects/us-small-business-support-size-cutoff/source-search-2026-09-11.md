@@ -13,6 +13,7 @@ Who gains when a program called small-business support reaches larger firms?
 | ID | Source | What it tells us | Status | Limit |
 |---|---|---|---|---|
 | US-NBER-SMALL-SUPPORT-SIZE | [How Big is Small? The Economic Effects of Access to Small Business Government Support](https://www.nber.org/papers/w35703) | A new NBER study uses Census data and changes in US eligibility rules. It finds that expanding access to larger firms reduced revenue for the smallest firms, shifted government contracts to larger firms, increased exits, and reduced wages and patenting. The effects were strongest for younger, more productive and financially constrained small firms. | NBER working paper, issued September 2026 | It does not show each owner's household result, customer prices, local services or the best balance between scale and access. |
+| US-CES-IZA-SIZE-EFFECT-SIZES | [How Big is Small? CES-24-28 / IZA DP 17092](https://www.census.gov/library/working-papers/2024/adrm/CES-WP-24-28.html) | Earlier version reports about +0.5 percentage points in the smallest firms' exit probability and +12.7% industry-wide exits after size-standard increases, with procurement reallocation toward larger firms. | Earlier-version effect-size source | Version-specific estimates; not assumed identical to NBER 35703 revision. |
 
 ## First pattern to test
 

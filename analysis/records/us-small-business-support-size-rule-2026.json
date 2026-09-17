@@ -22,7 +22,7 @@
       "subgroup": "Small firms, especially younger, more productive, and financially constrained firms, compared with larger firms gaining eligibility; exact subgroup universes remain paper-specific.",
       "counterinterpretation": "Larger firms may deliver scale, quality, resilience, or more jobs; contract reallocation is not automatically social harm. Lower small-firm revenue or exits can coexist with lower prices or better service, which the source does not measure.",
       "source_url": "https://www.nber.org/papers/w35703",
-      "retrieval_hash": "source_packet:sha256:a4842f76738db00a883f9c7bddba890428814063a611d71d26dc316f96abcdcb",
+      "retrieval_hash": "source_packet:sha256:a2c5ab4947ec7f4c07e934442f16e3f7065f4aafef0fdc410e862dc5a527249a",
       "status": "estimated"
     }
   ],
@@ -31,5 +31,5 @@
     {"source_url": "https://www.nber.org/papers/w35703", "claim": "The official NBER page provides the current abstract and citation for Working Paper 35703.", "status": "official-working-paper-page"}
   ],
   "boundary": "This record closes an eligibility-rule-to-firm-allocation and small-firm-outcome arrow for the studied US program setting. It does not establish customer welfare, worker security beyond the reported wage direction, owner-household recovery, public legitimacy, political action, or a general rule about support scale.",
-  "reproduction_audit": {"retrieval_hash_scope": "Existing local source-search packet and official NBER paper page; no working-paper PDF, code, administrative data, or microdata retained", "retrieval_hash": "source_packet:sha256:a4842f76738db00a883f9c7bddba890428814063a611d71d26dc316f96abcdcb", "checked": "2026-09-17"}
+  "reproduction_audit": {"retrieval_hash_scope": "Existing local source-search packet and official NBER paper page; no working-paper PDF, code, administrative data, or microdata retained", "retrieval_hash": "source_packet:sha256:a2c5ab4947ec7f4c07e934442f16e3f7065f4aafef0fdc410e862dc5a527249a", "checked": "2026-09-17"}
 }

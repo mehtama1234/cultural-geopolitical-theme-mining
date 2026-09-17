@@ -25,3 +25,8 @@ promotes the current NBER abstract into the canonical atlas. It preserves the
 causal revenue, procurement, exit, wage, and patenting directions while keeping
 program identity, effect sizes, customer welfare, owner households, and public
 legitimacy open.
+
+The [effect-size audit](effect-size-audit-v1.md) adds earlier-version scale:
+about +0.5 percentage points in the smallest firms' exit probability and
+ +12.7% industry-wide exits after size-standard increases. These remain
+version-labeled anchors pending recheck against the current NBER tables.
