@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-303 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+304 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -249,6 +249,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Linked HTOPS respondents show material and institutional measures changing on different paths | cost, voice, energy, work | household_room_consumption, unequal_exposure_status, care_health_reproduction, trust_identity_meaning, work_control_bargaining, political_judgment_action | US Census Bureau HTOPS April and June 2025 linked public-use person respondents | United States | 1 | April 15–29 to June 16–25, 2025; linked respondent transitions | compared | [open](records/us-census-htops-material-trust-panel-april-june-2025.json) |
 
 **Boundary:** This record is the first same-respondent April-to-June 2025 HTOPS linkage. It measures descriptive transitions among linked respondents and preserves the absence of a longitudinal attrition-adjusted weight; it does not estimate national causal effects, household recovery, trust formation, or political action.
+
+| Household expense difficulty tracks loneliness and support gaps more than contact frequency | cost, voice | household_room_consumption, time_hidden_price, care_health_reproduction, trust_identity_meaning, political_judgment_action | US Census Bureau March 2026 HTOPS/HPS public-use person respondent, conditioned on household expense difficulty | United States | 2 | March 13–30, 2026; all valid expense-difficulty groups; March 13–30, 2026; endpoint expense groups conditioned on respondent age | compared; reported | [open](records/us-census-htops-social-connection-expense-march-2026.json) |
+
+**Boundary:** This record documents a same-round descriptive bridge from household expense difficulty to respondent social-connection and food-sufficiency measures. It does not establish a dated bill, actor, practical help, remedy, recovery, trust change, community engagement, political action, or longitudinal causal pathway.
 
 | Census 2025 income, poverty, and insurance measures move on different household-security clocks | cost, work, voice | household_room_consumption, unequal_exposure_status, care_health_reproduction, public_systems_feedback, political_judgment_action | Census Current Population Survey Annual Social and Economic Supplement (CPS ASEC) national income, poverty, and health-insurance estimates | United States | 4 | 2025; real median household income; 2025; official poverty measure; 2025; Supplemental Poverty Measure; 2025; uninsured for the entire year | reported | [open](records/us-census-income-poverty-health-insurance-2025.json) |
 

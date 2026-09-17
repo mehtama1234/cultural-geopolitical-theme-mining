@@ -196,4 +196,6 @@ Sources:
 - [March 2026 HTOPS table listing](https://www.census.gov/data/tables/2026/demo/hhp/2603.html)
 - [March 2026 HTOPS release note and weighting correction](https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html)
 
+Machine-readable record: [`analysis/records/us-census-htops-social-connection-expense-march-2026.json`](../../../records/us-census-htops-social-connection-expense-march-2026.json).
+
 Reproduction script: [`scripts/analyze_htops_2026_social_connection.py`](../../../../scripts/analyze_htops_2026_social_connection.py), including the age-band check.

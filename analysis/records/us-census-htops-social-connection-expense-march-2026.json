@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-social-connection-expense-march-2026",
+  "title": "Household expense difficulty tracks loneliness and support gaps more than contact frequency",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "US Census Bureau March 2026 HTOPS/HPS public-use person respondent, conditioned on household expense difficulty",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "March 13–30, 2026; all valid expense-difficulty groups",
+      "denominator": {
+        "value": 11759,
+        "unit": "respondents with valid EXPENSE_DIFFICULT code; PUF total rows 12521",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "frequent_loneliness_not_difficult": {"value": 1.768, "unit": "weighted percent; SE 0.125 percentage points", "value_type": "share", "unweighted_n": 7061},
+        "frequent_loneliness_a_little_difficult": {"value": 5.780, "unit": "weighted percent; SE 0.712 percentage points", "value_type": "share", "unweighted_n": 2869},
+        "frequent_loneliness_somewhat_difficult": {"value": 8.783, "unit": "weighted percent; SE 1.404 percentage points", "value_type": "share", "unweighted_n": 1273},
+        "frequent_loneliness_very_difficult": {"value": 30.239, "unit": "weighted percent; SE 2.447 percentage points", "value_type": "share", "unweighted_n": 556},
+        "low_social_emotional_support_not_difficult": {"value": 14.017, "unit": "weighted percent; SE 0.606 percentage points", "value_type": "share", "unweighted_n": 7061},
+        "low_social_emotional_support_very_difficult": {"value": 40.872, "unit": "weighted percent; SE 3.019 percentage points", "value_type": "share", "unweighted_n": 556},
+        "frequent_phone_video_contact_not_difficult": {"value": 28.256, "unit": "weighted percent; SE 0.629 percentage points", "value_type": "share", "unweighted_n": 7061},
+        "frequent_phone_video_contact_very_difficult": {"value": 21.837, "unit": "weighted percent; SE 2.308 percentage points", "value_type": "share", "unweighted_n": 556},
+        "food_insufficiency_not_difficult": {"value": 0.746, "unit": "weighted percent; SE 0.160 percentage points", "value_type": "share", "unweighted_n": 7061},
+        "food_insufficiency_very_difficult": {"value": 33.578, "unit": "weighted percent; SE 2.438 percentage points", "value_type": "share", "unweighted_n": 556}
+      },
+      "method": "Corrected March 2026 HTOPS/HPS PUF; respondent PWEIGHT for point estimates and PWEIGHT1–PWEIGHT80 successive-difference replicate weights for standard errors. Outcome-specific valid codes and denominators apply.",
+      "uncertainty": "Descriptive cross-sectional conditional shares. Expense is household-reported, social outcomes are respondent-reported, clocks differ by item, and no causal or longitudinal interpretation is implied.",
+      "subgroup": "All valid expense-difficulty groups; social outcomes are frequent loneliness (SOC_LONELY 1/2), low social/emotional support (SOC_SUPPORT 4/5), frequent contact (SOC_TALK 4), and food insufficiency (FD_SUFF 3/4).",
+      "counterinterpretation": "Contact frequency can persist while perceived support worsens; some respondents without expense difficulty still report loneliness or low support; a common unmeasured health, work, housing, or relationship condition may shape both sides.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:7bcd56139bf3997901db78dbf75f20f0aeb0fa919b188c2d5b6ae9350df9c6d1",
+      "status": "reported"
+    },
+    {
+      "period": "March 13–30, 2026; endpoint expense groups conditioned on respondent age",
+      "denominator": {
+        "value": 7617,
+        "unit": "respondents in age-band × endpoint expense cells; age bands 25–44, 45–64, and 65+",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "25_44_not_difficult_frequent_loneliness": {"value": 1.903, "unit": "weighted percent; SE 0.288 percentage points", "value_type": "share", "unweighted_n": 1198},
+        "25_44_very_difficult_frequent_loneliness": {"value": 32.770, "unit": "weighted percent; SE 3.969 percentage points", "value_type": "share", "unweighted_n": 201},
+        "45_64_not_difficult_frequent_loneliness": {"value": 1.964, "unit": "weighted percent; SE 0.274 percentage points", "value_type": "share", "unweighted_n": 2272},
+        "45_64_very_difficult_frequent_loneliness": {"value": 26.465, "unit": "weighted percent; SE 3.017 percentage points", "value_type": "share", "unweighted_n": 243},
+        "65_plus_not_difficult_frequent_loneliness": {"value": 1.457, "unit": "weighted percent; SE 0.185 percentage points", "value_type": "share", "unweighted_n": 3591},
+        "65_plus_very_difficult_frequent_loneliness": {"value": 27.976, "unit": "weighted percent; SE 4.608 percentage points", "value_type": "share", "unweighted_n": 112},
+        "25_44_very_difficult_low_support": {"value": 37.921, "unit": "weighted percent; SE 4.120 percentage points", "value_type": "share", "unweighted_n": 201},
+        "45_64_very_difficult_low_support": {"value": 47.434, "unit": "weighted percent; SE 4.575 percentage points", "value_type": "share", "unweighted_n": 243},
+        "65_plus_very_difficult_low_support": {"value": 35.687, "unit": "weighted percent; SE 4.153 percentage points", "value_type": "share", "unweighted_n": 112}
+      },
+      "method": "Same corrected March 2026 PUF and 80 replicate weights; age bands are TAGE 25–44, 45–64, and 65+, with endpoint EXPENSE_DIFFICULT codes 1 and 4.",
+      "uncertainty": "Subgroup-conditioned descriptive shares; endpoint cells are smaller and have wider standard errors. No age interaction or causal moderation test is claimed.",
+      "subgroup": "Respondent age bands and no-difficulty versus very-difficult household expense groups.",
+      "counterinterpretation": "Persistence within age bands does not identify an expense effect; the different loneliness and support patterns may reflect health, work, household, or relationship composition.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:7bcd56139bf3997901db78dbf75f20f0aeb0fa919b188c2d5b6ae9350df9c6d1",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2603_CSV.zip",
+      "claim": "Corrected March 2026 HTOPS/HPS PUF, replicate-weight file, and data dictionary archive.",
+      "status": "primary"
+    }
+  ],
+  "boundary": "This record documents a same-round descriptive bridge from household expense difficulty to respondent social-connection and food-sufficiency measures. It does not establish a dated bill, actor, practical help, remedy, recovery, trust change, community engagement, political action, or longitudinal causal pathway."
+}
