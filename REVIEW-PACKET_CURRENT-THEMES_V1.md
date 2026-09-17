@@ -355,6 +355,7 @@ economic voting or a causal political reaction.
 ## Route 6: domestic capacity becomes state and geopolitical leverage
 
 Read the [supplier-concentration finding](analysis/projects/ai-work-control/findings/ai-work-control-072.md),
+the [richer award-search recipient-join finding](analysis/projects/ai-work-control/findings/ai-work-control-078.md),
 the [procurement-to-capability synthesis](analysis/projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md),
 the [production-support and integration milestone finding](analysis/projects/ai-work-control/findings/ai-work-control-080.md),
 the [facility-capability context finding](analysis/projects/ai-work-control/findings/ai-work-control-079.md),

@@ -411,6 +411,11 @@ The persisted subaward extract now returns 74 records across 51 reported
 recipients totaling $1.143B; this opens a supplier-structure lead, while still
 not establishing tier completeness, ownership, inputs, workforce, delivery, or
 local incidence.
+The [richer award-search recipient-join finding](projects/ai-work-control/findings/ai-work-control-078.md)
+now makes subaward-to-UEI and subaward-to-reported-location links observable
+for all 74 returned rows. This closes an identity/recipient bridge, not the
+facility, production, acceptance, delivery, or replaceability joins; recipient
+location and primary place of performance remain distinct fields.
 An official DLA CAGE lookup now reconciles the largest recipient's exact legal
 name to CAGE 81J97, UEI SL2KEMFACM69, an active Merrimack, NH facility, and a
 linked BAE Systems, Inc. parent CAGE. Because the USAspending subaward row does
