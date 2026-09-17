@@ -30,6 +30,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Collective bargaining | SAG-AFTRA performers facing digital replicas | Advance notice, informed consent, bounded use, and compensation rules were negotiated before routine deployment | Compliance, refusal consequences, enforcement, and whether synthetic substitution shifts bargaining power |
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
 | Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
+| Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
 
 ## What the comparison changes
 
@@ -75,6 +76,14 @@ administrative completion without closing the lived-recovery arrow. This is a
 cross-domain comparison, not a pooled remedy rate: the Apple record concerns
 employment-channel discrimination and back pay, while the platform cases
 concern access restoration, lost remuneration, and continued use.
+
+Amazon Flex adds a fourth observable point on the same spectrum: distribution
+has occurred and the administrator is still addressing uncashed payments. That
+is a stronger implementation record than an order alone, but it remains a
+program-level endpoint. Without the eligible-driver denominator and a
+driver-level follow-up, the record cannot tell us who received what, whether
+the remaining loss was resolved, or whether the payment changed work choices,
+trust, or collective power.
 
 ### 2. Timing changes the power balance
 
