@@ -1,7 +1,7 @@
 {
   "format": "broad-next-episode-selection-v1",
   "status": "ranked_local_route_decision",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
   "selection_rule": "Use the largest privacy-minimized same-person event surface to complete the local stage gate; once its missing middle is verified, prioritize the smallest gated acquisition capable of adding the missing event, choice, remedy, and meaning/action links, while retaining route-specific counterexamples without pooling them.",
   "ranked_routes": [
@@ -21,8 +21,13 @@
       "rank": 2,
       "route": "CFPB/platform practical-exit ledgers",
       "source": "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.json",
+      "supporting_sources": [
+        "analysis/projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md",
+        "analysis/projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md",
+        "analysis/records/us-cfpb-navient-compensation-obligation-2026.json"
+      ],
       "records": 27,
-      "why_selected": "Best local counterexample for adjudication, access restoration, lost-remuneration orders, and explicit post-event unknowns.",
+      "why_selected": "Best local remedy counterexample set: adjudication, access restoration, lost-remuneration orders, named redress/distribution routes, and explicit post-event unknowns.",
       "strongest_stages": ["institutional_or_firm_response", "verified_remedy"],
       "next_fields": ["documented_alternative", "remedy_receipt", "durability", "continued_use_reason", "switching_or_nonuse", "worker/customer_trust_or_action"],
       "promotion_boundary": "A restoration or order is not a verified lived remedy or practical exit without receipt, follow-up, alternatives, and protected/sacrificed outcomes."
@@ -46,6 +51,6 @@
     "promotion_boundary": "Registration-gated documentation route only; no UAS respondent file, overlap, denominator, or result has been acquired or estimated.",
     "access_status": "registration_required"
   },
-  "next_action": "Do not rerun the completed MEPS stage gate. If authenticated UAS access becomes available, run the file inventory, overlap, timing, weights, and missingness gates before any estimate; otherwise use the CFPB/platform route for a small remedy-focused comparison and keep the UAS route explicitly open.",
+  "next_action": "Do not rerun the completed MEPS stage gate. If authenticated UAS access becomes available, run the file inventory, overlap, timing, weights, and missingness gates before any estimate; otherwise use the CFPB/platform and named-redress routes for a small remedy-focused comparison and keep the UAS route explicitly open.",
   "storage_boundary": "No new acquisition. The 54 MB MEPS staged ledger remains outside Git; only the selection metadata and committed bounded output are retained."
 }

@@ -29,6 +29,14 @@ def main() -> int:
             raise FileNotFoundError(source)
         if not route.get("next_fields"):
             raise ValueError(f"{route['route']} has no next fields")
+        for supporting in route.get("supporting_sources", []):
+            supporting_path = Path(supporting)
+            if supporting_path.is_absolute() or ".." in supporting_path.parts:
+                raise ValueError(
+                    f"{route['route']} has unsafe supporting source: {supporting}"
+                )
+            if not (root / supporting_path).is_file():
+                raise FileNotFoundError(root / supporting_path)
     if "MEPS" not in routes[0]["route"]:
         raise ValueError("MEPS must remain the primary local route")
     print(f"VALID broad next-episode selection: {len(routes)} ranked local routes")

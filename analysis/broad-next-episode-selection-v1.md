@@ -1,7 +1,7 @@
 # Broad next-episode selection v1
 
 **Status:** ranked route decision; local MEPS gate complete; no new estimate
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Machine record:** [next-episode selection](data/broad-next-episode-selection-v1.json)
 
 ## Decision
@@ -21,12 +21,13 @@ UAS 537 or 698, add care choice, bill, provider-experience, and
 institution-specific trust fields. No UAS respondent files are currently
 retained or acquired.
 
-Keep the CFPB/platform records as the storage-light remedy counterexample and
-fallback, not as a substitute for the missing UAS/MEPS middle. They provide
-stronger institutional response and partial remedy
-evidence, but far fewer cases and sparse alternatives, receipt, durability,
-trust, and exit. Keep SHED and HTOPS as panel context; do not join any of these
-sources into one person or household story.
+Keep the CFPB/platform records and the named Cash App, BrightSpeed, and
+Navient redress records as storage-light remedy counterexamples and fallback,
+not as a substitute for the missing UAS/MEPS middle. They provide stronger
+institutional response and partial remedy or distribution evidence, but sparse
+alternatives, receipt, durability, trust, and exit. Keep SHED and HTOPS as
+panel context; do not join any of these sources into one person or household
+story.
 
 ## Required MEPS depth test
 
