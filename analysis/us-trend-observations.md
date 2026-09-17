@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-258 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+259 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -681,6 +681,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Local capacity, population change, belonging, trust, and civic action do not form a single place gradient | voice, cost, work | housing_place_mobility, trust_identity_meaning, political_judgment_action, unequal_exposure_status, care_health_reproduction, public_systems_feedback | Deliberately non-pooled county-context respondent cells, local-area attitude samples, and national respondent cross-tabs | United States; county contexts nationally and Chicago, suburban Cook County, and Lake County, Illinois | 4 | 2024; CES respondents grouped by county population change, 2020-2023; 2024; CES county capacity/mobility context cells; April 13-23, 2026; local immigration meaning and legal-inclusion attitudes; 2024; national immigration meaning, trust, and vote cross-tabs | compared; reported | [open](records/us-place-capacity-growth-belonging-action-crosssource-2024-2026.json) |
 
 **Boundary:** This is a non-pooled place-to-meaning comparison. It does not establish that growth, capacity, mobility, migration, or service access caused trust, belonging, immigration judgment, civic action, or vote. A same-geography panel linking dated exposure, material/service conditions, attribution, belonging, action, and institutional response remains open.
+
+| Platform review can restore access while leaving payment, durability, and exit unobserved | voice, time, cost, work | consumer_power_recourse, platforms_data_attention, work_control_bargaining, public_systems_feedback, firm_sector_market_power, trust_identity_meaning | 27 named platform-worker case or comparative records in a non-pooled public remedy ledger across Australia, the United Kingdom, the European Union, Malaysia, Uganda, Kenya, and the Philippines | Comparative platform-work cases; not a US population estimate | 1 | 2024-2026; public platform-worker remedy and review case ledger | compared | [open](records/us-platform-remedy-restoration-dependence-2024-2026.json) |
+
+**Boundary:** This comparative case layer makes institutional review, restoration, payment recognition, refusal, continued use, and missing exit visible. It does not estimate remedy probability, worker welfare, platform dependence, payment receipt, recurrence prevention, trust change, switching, or US population prevalence.
 
 | A Polish audit found a JASSM-ER settlement evidence gap without establishing missile delivery quantity | cost, voice, work | geopolitical_state_consequences, firm_sector_market_power, political_judgment_action | Polish Supreme Audit Office review of 2022 defence-budget execution and FMS settlement controls | Poland and US-origin JASSM-ER procurement/accounting relationship | 2 | Q4 2021–Q3 2022 settlement review; audit reported 2023; 2022 audit finding; separate sampled-contract comparator | compared; reported | [open](records/us-poland-jassm-er-audit-control-2022.json) |
 

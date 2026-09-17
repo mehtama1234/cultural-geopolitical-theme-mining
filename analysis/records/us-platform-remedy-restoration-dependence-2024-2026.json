@@ -1,0 +1,39 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-platform-remedy-restoration-dependence-2024-2026",
+  "title": "Platform review can restore access while leaving payment, durability, and exit unobserved",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "work_control_bargaining", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "27 named platform-worker case or comparative records in a non-pooled public remedy ledger across Australia, the United Kingdom, the European Union, Malaysia, Uganda, Kenya, and the Philippines",
+  "geography": "Comparative platform-work cases; not a US population estimate",
+  "observations": [
+    {
+      "period": "2024-2026; public platform-worker remedy and review case ledger",
+      "denominator": {"value": 27, "unit": "named case or comparative records; records have different jurisdictions, procedural postures, and follow-up windows", "value_type": "case_inventory"},
+      "measures": {
+        "restoration_or_access_resumption_observed": {"value": 9, "unit": "ledger records", "value_type": "case_count"},
+        "lost_remuneration_or_earnings_ordered_or_recognized": {"value": 3, "unit": "ledger records", "value_type": "case_count"},
+        "lost_remuneration_open_or_later_quantum": {"value": 5, "unit": "ledger records", "value_type": "case_count"},
+        "merits_refusal_or_dismissal_observed": {"value": 4, "unit": "ledger records", "value_type": "case_count"},
+        "durable_recurrence_prevention_observed": {"value": 0, "unit": "ledger records", "value_type": "case_count"},
+        "worker_exit_or_platform_switching_observed": {"value": 0, "unit": "ledger records", "value_type": "case_count"}
+      },
+      "method": "Manually code the committed case ledger's stage fields for explanation, human review, correction/restoration, payment/compensation, anti-retaliation, continued use, recurrence prevention, and exit. Counts overlap and are not summed into a success rate.",
+      "uncertainty": "This is a purposive public-record inventory with no common denominator, control group, uniform follow-up, or representative sampling. An adjudicated order does not establish compliance or receipt; recorded return does not establish free choice, dependence, or lack of alternatives; a merits dismissal does not validate every platform decision.",
+      "subgroup": "Named platform-worker proceedings, statutes, comparative audits, and official institutional records; primary and secondary source strengths differ by record.",
+      "counterinterpretation": "The same review architecture can produce reactivation, payment recognition, a reasoned refusal, eligibility dismissal, or no remedy. A worker's return can reflect restored access, constrained household options, or a preferred route; the ledger does not identify which.",
+      "source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "retrieval_hash": "ledger:sha256:31fbc22be046fabf92f05d23281aa2958e4d9b366346a14757d828c80f4ac834; synthesis:sha256:a96f612d5720f41ec73e32bd52f2d9426bc7c7169c4db5a2784a2d3162841b41",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/ai-work-control/data/platform-remedy-case-ledger-v1.json", "claim": "The machine ledger preserves the 27 case/comparative records and stage vocabulary used for the screen.", "status": "machine-output"},
+    {"source_url": "../projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md", "claim": "The synthesis explains overlapping outcome counts, named cases, and the distinction between restoration, payment, continued use, and exit.", "status": "method-note"},
+    {"source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders", "claim": "Fair Work Commission decision and order search used for the Australian primary case records.", "status": "official-source"},
+    {"source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf", "claim": "Primary Hotak decision and formal reactivation/lost-remuneration order cited in the synthesis.", "status": "official-case-record"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "artifact": "analysis/projects/ai-work-control/data/platform-remedy-case-ledger-v1.json", "result": "The case-stage counts are reproduced from the committed 27-record ledger; no raw-data acquisition or pooled effectiveness estimate is used."},
+  "boundary": "This comparative case layer makes institutional review, restoration, payment recognition, refusal, continued use, and missing exit visible. It does not estimate remedy probability, worker welfare, platform dependence, payment receipt, recurrence prevention, trust change, switching, or US population prevalence.",
+  "status": "compared"
+}
