@@ -28,6 +28,7 @@ the missing join instead of presenting those layers as one causal story.
 | Route | What is actually measured | Strongest supported link | What remains open |
 |---|---|---|---|
 | **HTOPS April→June panel** | Same selected respondent; baseline expense difficulty, later food insufficiency, energy-bill inability, job loss, and June congressional confidence | Material condition precedes later material outcomes; political confidence is a useful counterexample to mechanical translation | Dated bill/actor, attribution, remedy, prior identity, action, recovery, and attrition-adjusted inference |
+| **SHED 2024→2025 adaptation panel** | 4,419 recontacted respondents with valid financial-condition path and later income band; persistence and re-entry in cheaper purchases, reduced use, saving cuts, borrowing, delayed purchases, work, and emergency-fund use | Worsening paths generally carry more adaptation persistence or re-entry than improving paths, while behavior-specific cells are non-monotonic across income bands | Dated price/bill/firm event, displaced need, attribution, trust, civic/political action, remedy, recovery, and a causal or attrition-adjusted interpretation |
 | **CCES material/work proxy screen** | Same post-election respondent; gig work and student-loan responsibility crossed with federal/state trust and six civic actions | Trust and action differ across joint proxy cells and are not monotonic; low trust does not equal withdrawal | Dated shock, burden, reason, schedule control, prior trust, desired action, remedy, and causal uncertainty |
 | **CES medical-affordability module** | Same respondent; reported medical-expense hardship, responsibility attribution, and separate political actions in 2018/2020 | Local rerun reproduces the existing hardship → attribution/action screen, including distinct contact/protest patterns | A dated bill or care event, payment/choice, remedy, trust change, recovery, and design-based uncertainty; see the [reproduction audit](projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md) |
 | **ANES 2016–2020–2024 panel subset** | Repeated-panel respondent subset; pre-election financial worry crossed with federal trust and post-election reported vote | Worry is temporally ordered before reported vote, with non-monotonic trust and vote patterns | Direct material exposure, attribution, prior party identity in the causal design, action beyond vote, institutional response, and representative retention |
@@ -85,6 +86,14 @@ The current numbers sharpen the boundary without creating a pooled effect:
   attribution-conditioned contact and protest were 26.3%/11.1% in 2018 and
   42.7%/23.6% in 2020. This is a reported hardship/attribution/action bridge,
   not a causal bill-to-politics result.
+- In the SHED 2024→2025 panel, the later-income-band cells contain 4,419
+  recontacted respondents with valid condition paths. Among prior adopters in
+  worsening paths, persistence of cheaper-product use was 89.9% under $50,000,
+  87.4% at $50,000–$99,999, and 84.1% at $100,000-plus; persistence of
+  increased borrowing was 61.5%, 57.0%, and 76.9%, respectively. These cells
+  show that changing condition and resources jointly structure adaptation, but
+  they do not identify a dated cause, political meaning, or universal income
+  gradient.
 
 These figures are intentionally reported by source and denominator. Their
 convergence supports prioritizing an event-compatible design; it does not
