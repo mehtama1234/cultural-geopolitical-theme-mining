@@ -1,6 +1,6 @@
 # UAS health-cost episode and legitimacy acquisition audit v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Status:** official documentation route verified; registration-gated microdata not yet acquired; no estimate promoted
 
 ## Why this is the next acquisition
@@ -65,6 +65,22 @@ the conditions of use, and then acquire the [Monthly Panel
 Dataset](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3), UAS 537,
 and UAS 698 files. This is an access prerequisite, not evidence for any
 health-cost result.
+
+### Current access recheck (2026-09-17)
+
+The official Monthly Surveys and Data Access pages were fetched again on
+2026-09-17. Both returned HTTP 200 and continued to expose the Monthly Panel
+and Older Ages download links. The Monthly Panel dataset link redirected to
+the UAS login page and displayed “To complete this action please login first”;
+it did not return a data file. The public page still describes the Monthly
+Panel as October 2023 to the present and labels the dataset download
+registration-required. This is a direct access-boundary observation, not an
+empty-file result and not a reason to estimate from the public explorer.
+
+No respondent file was downloaded or retained in this recheck. The route
+remains ready for the smallest authenticated acquisition: the Older Ages panel
+and codebook first, followed by the broader Monthly Panel or UAS 537/698 only
+if the structural key, timing, and candidate episode fields pass.
 
 ### Older Ages Monthly Events: event-first alternative
 
