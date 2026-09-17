@@ -926,7 +926,7 @@ acquisition target, not an executed panel estimate.
 All 14 themes in the [broad theme inventory](US-BROAD-THEME-INVENTORY_V1.md)
 have a current evidence anchor, an identified measurement level, and a named
 missing arrow in the [coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md).
-The matrix currently contains 14 theme rows and 107 local or external evidence
+The matrix currently contains 14 theme rows and 108 local or external evidence
 links; the local-link audit found no missing targets on 2026-09-17.
 
 Coverage means “there is a source and a bounded question.” It does not mean
