@@ -1084,3 +1084,9 @@ adds external audiences and domestic partisan meaning between material state
 capacity and geopolitical consequence. It preserves open links from policy
 events to foreign trust, alliance cooperation, cultural/market reception,
 domestic consent, and later strategic response.
+
+The [Pew 2025 religious affiliation and cultural identity layer](projects/us-cost-trust-politics/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md)
+adds identity and community institutions between family transmission and public
+meaning. It preserves open links from affiliation or switching to practice,
+belonging, service, political interpretation, civic action, and later
+institutional continuity.

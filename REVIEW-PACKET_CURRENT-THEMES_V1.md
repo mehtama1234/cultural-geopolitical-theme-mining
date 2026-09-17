@@ -102,6 +102,10 @@ index or a claim that the same people appear in every source.
    partisans, and material-capability indicators can disagree about peace,
    respect, interests, interference, and reliability. Read the [U.S. global-role
    reception layer](site/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.html).
+18. **Religious identity is changing through multiple channels:** affiliation,
+   switching, spirituality, cultural/familial connection, practice, and party
+   alignment move on different paths. Read the [religious affiliation and
+   cultural identity layer](site/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.html).
 
 ## Recent cross-theme additions
 

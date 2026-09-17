@@ -202,3 +202,9 @@ adds foreign-public reception, domestic partisan interpretation, alliance
 legitimacy, and compromise/interference judgments to themes 9, 10, 13, and 14.
 It strengthens the material-capability-to-legitimacy arrow while leaving actual
 cooperation, reputation effects, and geopolitical leverage open.
+
+The [Pew 2025 religious affiliation and cultural identity layer](projects/us-cost-trust-politics/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md)
+adds affiliation, switching, spirituality, practice, family transmission,
+cultural connection, and religion–party intersections to themes 9, 10, 11, and
+14. It strengthens the identity-to-institution arrow while leaving causal
+political, family, charitable, and social-cohesion effects open.

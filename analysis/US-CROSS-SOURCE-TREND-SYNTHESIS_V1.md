@@ -1331,6 +1331,15 @@ are composition estimates, not turnout or coalition forecasts; the next test
 follows population through eligibility, registration, participation, meaning,
 and representation.
 
+The [Pew 2025 religious affiliation, switching, and cultural identity layer](projects/us-cost-trust-politics/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md)
+adds family transmission, spirituality, practice, and institutional belonging
+to the cultural lane. Pew’s nationally representative 2023–24 RLS finds 62%
+of adults identify as Christian, 29% as religiously unaffiliated, and 35% have
+switched religious identity since childhood; 53% describe themselves as both
+spiritual and religious. The long-run change has slowed recently, and cultural
+attachment is not identical to affiliation. The next test follows identity,
+practice, community, family, and political meaning in repeated units.
+
 The [Pew 2026 U.S. global-role, domestic-partisan, and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
 adds legitimacy and external reception to the material-capability lane. Across
 36 non-U.S. countries, a median 35% said the U.S. contributes to peace and

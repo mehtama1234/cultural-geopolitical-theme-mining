@@ -2841,6 +2841,14 @@ geography. Keep population, eligible voters, registered voters, validated
 voters, identity, and coalition as separate stages; do not infer party choice
 from demographic composition.
 
+The [Pew 2025 religious affiliation and cultural identity layer](projects/us-cost-trust-politics/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md)
+adds a meaning and community-institution test. The next pass should use compact
+official evidence on affiliation, switching, spirituality, attendance, cultural
+connection, family transmission, migration, race, age, party, charity, and
+community participation. Keep identity, practice, institution, belonging, and
+political behavior separate; do not infer secularization, social cohesion, or
+party realignment from affiliation alone.
+
 The [Pew 2026 U.S. global-role and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
 adds a geopolitical legitimacy test. The next pass should use compact official
 evidence on foreign-public reliability, peace, respect, interests, interference,
