@@ -51,6 +51,9 @@ def validate(path: Path) -> tuple[int, int, str]:
         if not nonempty(event_id) or event_id in event_ids:
             raise ValueError(f"event id missing or duplicated: {event_id!r}")
         event_ids.add(event_id)
+        for field in sorted(required):
+            if not nonempty(event[field]):
+                raise ValueError(f"empty required event field {field} for {event_id}")
         if event["unit"] not in units:
             raise ValueError(f"invalid unit for {event_id}")
         if event["actor_initiating_change"] not in actors:

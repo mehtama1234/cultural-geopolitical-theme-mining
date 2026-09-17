@@ -27,6 +27,9 @@ def main() -> int:
         missing = sorted(required - set(event))
         if missing:
             raise ValueError(f"missing event fields: {missing}")
+        for field in sorted(required):
+            if not isinstance(event[field], str) or not event[field].strip():
+                raise ValueError(f"empty event field: {field}")
         if event["event_id"] in seen_events:
             raise ValueError(f"duplicate event id: {event['event_id']}")
         seen_events.add(event["event_id"])
