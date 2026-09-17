@@ -32,11 +32,11 @@ assistance, or service record with follow-up, or the authenticated PSID
 as a monthly transition screen and leave recovery, alternatives, control,
 meaning, and action open.
 
-**Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
+**Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 293 records and
 1047 observations.
-The reverse audit shows 33 observed domains outside registered families; these
+The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
 This confirms breadth coverage, not that every source has closed its open
