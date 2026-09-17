@@ -2911,3 +2911,9 @@ is the next concrete bridge candidate. First verify the corrected March 2026
 vintage, person/household unit, reference periods, compatible denominators,
 standard errors, and PUF linkage; then retrieve only the minimum table or file
 needed for one pre-specified contrast such as expense difficulty × loneliness.
+
+The HTOPS social-connectedness route is currently access-blocked at the artifact
+level: the official page and its two relevant spreadsheet links returned 404 on
+the 2026-09-17 recheck. Preserve the gate and retry only after Census reposts or
+redirects the corrected tables; do not replace them with a staging copy or PUF
+without revalidating the vintage and variables.

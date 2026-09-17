@@ -5,6 +5,12 @@
 **Field window:** March 13–30, 2026
 **Status:** source-discovery and variable-availability gate; no estimates are promoted from the linked spreadsheets
 
+**Access recheck:** 2026-09-17; the canonical Census table URL returned an
+official page-not-found response, and the linked `health3a.xlsx` and
+`health3c.xlsx` URLs returned 404. The staging copy still exposes the table
+names, but it does not provide a usable replacement file. This route remains
+unacquired and must be rechecked before any estimate is made.
+
 ## Why this source matters
 
 The broad program has separate evidence on material pressure, neighborhood
@@ -84,6 +90,11 @@ a large sample, or a common field window does not prove a relationship among
 the measures. HTOPS shifted from longitudinal collection in 2025 to a
 cross-sectional design beginning in March 2026. No spreadsheet, PUF, PDF, or
 bulk archive was downloaded in this pass.
+
+The current 404 condition is itself part of the provenance record: a source
+listing is not equivalent to an accessible data artifact. Do not substitute a
+staging URL, stale spreadsheet path, or corrected PUF without revalidating the
+release and table contents.
 
 **Official table page:** <https://www.census.gov/data/tables/2026/demo/hhp/2603.html>
 **Official release note:** <https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html>
