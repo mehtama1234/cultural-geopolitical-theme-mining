@@ -2609,6 +2609,15 @@ household or community event and later participation, exit, purchase deferral,
 migration, or organizing. This layer does not establish that pessimism causes
 disengagement or political action.
 
+The [Pew 2026 political typology, values, and coalition layer](projects/us-cost-trust-politics/pew-2026-political-typology-values-coalitions-layer-v1.md)
+adds a richer political and geopolitical segmentation: nine value-based groups
+show cross-pressure inside both party coalitions, including a financially
+stressed group that feels politically ignored and a low-interest divided
+middle. The next test is a panel-linked, dated event design joining group
+membership to attribution, participation, switching, purchase, migration, or
+foreign-policy action. Do not treat the typology as a permanent identity or
+reduce it to a center-versus-extremes score.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

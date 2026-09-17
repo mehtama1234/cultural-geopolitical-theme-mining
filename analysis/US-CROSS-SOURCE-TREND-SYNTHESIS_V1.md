@@ -676,6 +676,16 @@ even while present-direction judgments are strongly president-linked. This
 separates national inheritance, personal affect, institutional expectation,
 and partisan alignment; it is not a forecast or a behavioral causal estimate.
 
+The [Pew 2026 political typology, values, and coalition layer](projects/us-cost-trust-politics/pew-2026-political-typology-values-coalitions-layer-v1.md)
+adds a value-based political segmentation surface. Nine groups built from 30
+questions reveal a large mixed center, a financially stressed and politically
+ignored left group, a low-attention tuned-out middle, and sharp cultural
+divides within each partisan direction. The typology also links domestic
+identity to geopolitical posture: 71% say US sole-superpower status is at least
+somewhat important while 62% say US policy should account for allies even when
+that requires compromise. These are coalition and value configurations, not
+fixed identities or causal vote estimates.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR
