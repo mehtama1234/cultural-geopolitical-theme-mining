@@ -36,6 +36,24 @@ AI, data-center, manufacturing, and defense load growth
   -> [open] local rate, outage, reliability, household, worker, and political effects
 ```
 
+## The first implementation and voice stage
+
+On September 9, 2026, DOE issued a Request for Information seeking practical,
+risk-informed, and administrable approaches to implementation. It invited
+utilities, equipment and software suppliers, investors, insurers, labor
+organizations, governments, consumer representatives, and other stakeholders
+to identify current practices, alternatives, quantitative evidence, and
+reliability, safety, cost, schedule, workforce, competition, and implementation
+considerations.
+
+This is meaningful institutional participation infrastructure, but it is not
+yet a rule, transaction determination, procurement change, or evidence that
+any participant influenced the final policy. The notice itself says responses
+are voluntary and planning-only. The next missing stage is therefore a public
+submission set or later rule that shows whose alternatives were incorporated,
+what burdens were assigned, and what changed in equipment, procurement,
+reliability, or cost.
+
 ## What the public record supplies
 
 | Stage | Observed evidence | Still open |
@@ -45,7 +63,7 @@ AI, data-center, manufacturing, and defense load growth
 | Authority | Energy may restrict qualifying transactions and set conditions on existing equipment after required determinations | Which transactions are restricted, enforcement, exemptions, and due process |
 | Capability response | Identification, monitoring, securing, disconnecting, replacing, and pre-qualifying equipment are authorized or contemplated | Procurement completion, secure replacement availability, interoperability, and realized reliability |
 | Distribution | The order requires consideration of reliability, safety, replacement availability, and essential-service continuity | Who pays, who waits, who benefits, and effects on rates, outages, jobs, and local investment |
-| Meaning/action | National-security and infrastructure dependence are made explicit policy objects | Public trust, state/federal conflict, local consent, political action, and geopolitical response |
+| Participation and meaning/action | DOE solicits input from utilities, suppliers, labor, governments, consumer representatives, and other stakeholders | Public trust, state/federal conflict, local consent, political action, influence on final rules, and geopolitical response |
 
 ## Why this matters to the broad atlas
 
@@ -61,6 +79,8 @@ that domestic equipment is safer, or that emergency authority improves public
 reliability. It is a policy and governance event. The missing empirical bridge
 is implementation: named equipment or transactions, replacement cost and
 timing, reliability outcomes, affected communities, and public response.
+The RFI adds a visible voice/consultation stage, but not evidence of influence
+or consensus.
 
 ## Coding consequence
 

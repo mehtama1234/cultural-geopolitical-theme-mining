@@ -24,6 +24,24 @@
       "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17843.pdf",
       "retrieval_hash": "sha256:3492b0c9049ee532e58719dedc070ae454d93b0070f71518282eec7ae0a39dbb",
       "status": "reported"
+    },
+    {
+      "period": "September 9, 2026 DOE Request for Information implementing Executive Order 14421",
+      "denominator": {"value": null, "unit": "voluntary public submissions from bulk-power stakeholders", "value_type": "not_disclosed"},
+      "measures": {
+        "implementation_stage": {"value": "DOE solicited views before developing measures to implement the order", "unit": "federal information-gathering stage", "value_type": "reported_policy_action"},
+        "stakeholder_scope": {"value": "utilities, generators, manufacturers, software and remote-access providers, suppliers, investors, insurers, labor organizations, governments, consumer representatives, and others", "unit": "invited respondent categories", "value_type": "reported_participation_scope"},
+        "requested_evidence": {"value": "current practices, alternatives, quantitative data, reliability, safety, security, competition, cost, schedule, workforce, and implementation considerations", "unit": "requested information categories", "value_type": "reported_evidence_request"},
+        "binding_effect": {"value": "request is informational and planning-only; it is not a proposed rule, order, directive, license, or vendor determination", "unit": "legal and administrative status", "value_type": "reported_limitation"},
+        "submissions_and_implementation_outcome": {"value": "not observed in the notice", "unit": "missing public-response endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Federal Register review of DOE's seven-page Request for Information; the notice is coded as an implementation and participation stage, not as a rule or realized equipment decision.",
+      "uncertainty": "The notice does not disclose who will submit information, how responses will be weighted, which measures will be adopted, or whether later rules, procurement changes, replacement actions, costs, or reliability effects will result.",
+      "subgroup": "Utilities, asset owners, manufacturers, software and service providers, suppliers, investors, insurers, labor organizations, governments, consumer representatives, and other voluntary respondents.",
+      "counterinterpretation": "Soliciting broad stakeholder input may improve administrability and surface alternatives, but public participation is not equal influence, and a planning notice does not establish a binding protection, implementation, or public consensus.",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-09-09/pdf/2026-18370.pdf",
+      "retrieval_hash": "sha256:f0bf0fe10b936b9d70f701fabdcb8203a2564ba43c5af6b5ff91c00a0cd4f8e2",
+      "status": "reported"
     }
   ],
   "related_sources": [
