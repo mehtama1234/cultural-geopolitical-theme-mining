@@ -405,6 +405,7 @@ same-person episode arrows or identify a causal enforcement effect.
 
 Read the [firm capacity, AI adoption, and labor mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-064.md),
 the [AI task adoption and sector mobility finding](analysis/projects/ai-work-control/findings/ai-work-control-035.md),
+the [AI assistance and algorithmic-control finding](analysis/projects/ai-work-control/findings/ai-work-control-005.md),
 the [work-limitation/resource/job-transition finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-039.md),
 the [business-applications versus realized-capacity finding](analysis/projects/us-local-business-place/findings/us-local-business-place-011.md),
 and the [machine-readable firm-to-worker record](analysis/records/us-firm-capacity-ai-adoption-worker-control-crosssource-2024-2026.json).
@@ -419,6 +420,13 @@ aggregate establishment mobility; and BFS/BDS separates business intent from
 realized establishment and job flows. The same-person SIPP layer adds a monthly
 resource/job transition conditioned on reported work limitation and tenure. The
 units and clocks remain separate.
+
+The JRC/OECD comparator adds an important control distinction: assistance that
+reduces task effort can coexist with monitoring or automated direction that
+changes pace, discretion, breaks, or stress. Its 2024–2025 EU survey evidence
+is a comparator rather than a US population estimate, and it does not follow
+the same worker from implementation through appeal, pay, health, bargaining,
+or exit.
 
 **Concrete work/control anchors:** formal training rises from 29.1% of small
 establishments to 78.9% of large establishments, while reported employment
