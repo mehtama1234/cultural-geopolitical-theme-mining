@@ -103,6 +103,13 @@ preserves the classified-reason gap and smaller food-valid universes: distinct
 entry and exit routes remain visible, but notice, benefit amount, remedy,
 recovery, and same-case interpretation remain open.
 
+The new [LIHEAP reach/restoration record](records/us-liheap-reach-restoration-fy2024.json)
+adds an official program-capacity endpoint: FY2024 reach and reported home-
+energy restoration are recorded separately. The result makes public reach and
+immediate service restoration visible without treating either as durable
+household stability; next-bill affordability, repeat crisis, protected or
+sacrificed outcomes, and same-household recovery remain open.
+
 The new [route-specific health-friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md)
 adds a counterexample to a uniform institutional-friction story: prescription
 affordability delay and denial/prior-authorization delay show different

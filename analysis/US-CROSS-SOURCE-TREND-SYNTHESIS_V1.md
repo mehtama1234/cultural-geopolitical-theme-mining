@@ -187,6 +187,14 @@ and Gallup measures institution-specific confidence. Together they support a
 layered route/buffer/judgment architecture; they do not show that one notice
 caused one hardship or changed one person's trust or political action.
 
+The [LIHEAP reach/restoration record](records/us-liheap-reach-restoration-fy2024.json)
+adds a public-capacity comparator to this route. HHS reports broad FY2024
+program reach and distinct restored-energy instances, but those aggregate
+endpoints do not reveal whether service remained on, whether the next bill was
+affordable, or which food, medicine, housing, health, or work trade-off was
+avoided. Program reach, restoration, and durable household recovery therefore
+remain separate stages.
+
 The new [CFPB route-vintage audit](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md)
 adds a measurement-integrity result to the consumer-power lane. In live
 2024/2025 product samples, `timely` does not substitute for elapsed routing
