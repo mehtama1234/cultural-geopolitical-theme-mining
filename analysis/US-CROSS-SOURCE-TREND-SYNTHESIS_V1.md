@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 297 machine-readable records, 1060 observations,
+The current registry contains 298 machine-readable records, 1063 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -577,6 +577,14 @@ acceptable for politicians to criticize journalists. The pattern is not a
 single trust score: shared conflict perception coexists with partisan power
 attribution and asymmetric norms of criticism. Exposure, accuracy, censorship,
 subscription switching, and political action remain open.
+
+The [Gallup 2026 institutional-confidence divergence layer](projects/us-cost-trust-politics/gallup-2026-institutional-confidence-divergence-layer-v1.md)
+adds a broader legitimacy benchmark. Average confidence across 14 core
+institutions is 27%, but large technology companies sit at 20% while small
+business is at 67%; Republicans report 13 points more average confidence than
+Democrats, with a 70-point presidency gap. The important result is divergence,
+not a single trust collapse: confidence, use, dependence, institution-specific
+performance, switching, and political action are separate surfaces.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

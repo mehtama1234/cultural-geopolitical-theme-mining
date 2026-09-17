@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 297 canonical records, 1060 observations, 14 program
+**Registry checkpoint:** 298 canonical records, 1063 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),
@@ -177,6 +177,7 @@ same people appear in every route.
 - [Census August 2026 retail-sales and consumer-activity layer](analysis/projects/us-household-financial-pressure/census-august-2026-retail-sales-consumer-activity-layer-v1.md): nominal retail and food-services sales rose year over year, but the release is not price-adjusted and does not identify quantity, payment, debt, channel, firm margin, household incidence, or consumer confidence.
 - [Pew 2026 AI concern, partisanship, and expected-jobs layer](analysis/projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md): AI concern and expected job loss are now more Democratic than Republican in the reported survey, adding a political-meaning endpoint while leaving actual exposure, control, displacement, policy attribution, and action open.
 - [Pew 2026 press-government legitimacy layer](analysis/projects/us-digital-habits-attention/pew-2026-press-government-media-legitimacy-layer-v1.md): Americans broadly describe the administration-news relationship as bad, but divide over media power and the acceptable direction of criticism; exposure, accuracy, censorship, switching, and political action remain open.
+- [Gallup 2026 institutional-confidence divergence layer](analysis/projects/us-cost-trust-politics/gallup-2026-institutional-confidence-divergence-layer-v1.md): average confidence remains near historic lows while small business, large technology companies, and presidency confidence move on sharply different legitimacy surfaces; use, dependence, switching, and action remain open.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later

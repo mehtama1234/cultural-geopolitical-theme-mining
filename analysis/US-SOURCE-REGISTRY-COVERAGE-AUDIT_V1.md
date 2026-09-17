@@ -45,7 +45,7 @@ or proof that every source item was read in full.
 | [Whoz official product and company materials](https://www.whoz.com/en/) | small AI-forward firm and workforce-allocation product evidence | 0 | 2 | 1 | 0 | evidence-bearing |
 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | customer/operator evidence on AI adoption, training, workforce redesign, and delivery economics | 1 | 6 | 4 | 0 | evidence-bearing |
 | [Brookings Institution](https://www.brookings.edu/topics/) | policy research and competing interpretations | 0 | 3 | 3 | 0 | evidence-bearing |
-| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 6 | 83 | 28 | 40 | evidence-bearing; machine-record URL |
+| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 6 | 84 | 29 | 41 | evidence-bearing; machine-record URL |
 | [World Bank Open Data](https://data.worldbank.org/) | country and development indicators | 0 | 5 | 5 | 3 | evidence-bearing; machine-record URL |
 | [OECD Data](https://data-explorer.oecd.org/) | comparable country data on work, firms, tax, education, and living conditions | 0 | 1 | 1 | 0 | evidence-bearing |
 | [OECD Algorithmic Management research](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | cross-country employer evidence on automated management, monitoring, evaluation, and governance | 2 | 24 | 12 | 1 | evidence-bearing; machine-record URL |
@@ -117,7 +117,7 @@ or proof that every source item was read in full.
 | [Lawrence Berkeley National Laboratory energy analysis](https://eta-publications.lbl.gov/) | US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis | 0 | 10 | 6 | 5 | evidence-bearing; machine-record URL |
 | [Berkeley Social Sciences Data Laboratory](https://sda.berkeley.edu/) | public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons | 0 | 33 | 11 | 20 | evidence-bearing; machine-record URL |
 | [Inter-university Consortium for Political and Social Research](https://www.icpsr.umich.edu/) | archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials | 0 | 14 | 5 | 0 | evidence-bearing |
-| [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 9 | 5 | 0 | evidence-bearing |
+| [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 14 | 7 | 0 | evidence-bearing |
 | [O*NET Resource Center](https://www.onetcenter.org/database.html) | US occupation, task, work-activity, skill, and taxonomy metadata for crosswalking labor-market evidence | 0 | 5 | 3 | 0 | evidence-bearing |
 | [INFORMS Management Science](https://pubsonline.informs.org/) | peer-reviewed operations, management, technology-adoption, firm, and workforce research | 0 | 1 | 1 | 0 | evidence-bearing |
 | [USDA Food and Nutrition](https://fna.usda.gov/) | US nutrition-assistance program rules, participation, application, recertification, state administration, and access records | 0 | 19 | 8 | 0 | evidence-bearing |

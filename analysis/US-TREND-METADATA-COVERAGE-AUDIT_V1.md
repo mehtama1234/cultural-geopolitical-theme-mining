@@ -8,31 +8,31 @@ context fields that are not present in every record. A passing trend-record
 validator proves structural validity; this report shows where provenance
 and contextual depth are stronger or thinner across the atlas.
 
-- Trend records: **297**
-- Observations: **1060**
-- Distinct observation source URLs: **324**
+- Trend records: **298**
+- Observations: **1063**
+- Distinct observation source URLs: **325**
 
 ## Required-field coverage
 
 | Level | Field | Present | Coverage |
 |---|---|---:|---:|
-| record | `trend_id` | 297 | 100.0% |
-| record | `title` | 297 | 100.0% |
-| record | `theme_ids` | 297 | 100.0% |
-| record | `program_theme_ids` | 297 | 100.0% |
-| record | `source_unit` | 297 | 100.0% |
-| record | `geography` | 297 | 100.0% |
-| record | `observations` | 297 | 100.0% |
-| record | `boundary` | 297 | 100.0% |
-| observation | `period` | 1060 | 100.0% |
-| observation | `denominator` | 1060 | 100.0% |
-| observation | `measures` | 1060 | 100.0% |
-| observation | `method` | 1060 | 100.0% |
-| observation | `uncertainty` | 1060 | 100.0% |
-| observation | `subgroup` | 1060 | 100.0% |
-| observation | `counterinterpretation` | 1060 | 100.0% |
-| observation | `source_url` | 1060 | 100.0% |
-| observation | `retrieval_hash` | 1060 | 100.0% |
+| record | `trend_id` | 298 | 100.0% |
+| record | `title` | 298 | 100.0% |
+| record | `theme_ids` | 298 | 100.0% |
+| record | `program_theme_ids` | 298 | 100.0% |
+| record | `source_unit` | 298 | 100.0% |
+| record | `geography` | 298 | 100.0% |
+| record | `observations` | 298 | 100.0% |
+| record | `boundary` | 298 | 100.0% |
+| observation | `period` | 1063 | 100.0% |
+| observation | `denominator` | 1063 | 100.0% |
+| observation | `measures` | 1063 | 100.0% |
+| observation | `method` | 1063 | 100.0% |
+| observation | `uncertainty` | 1063 | 100.0% |
+| observation | `subgroup` | 1063 | 100.0% |
+| observation | `counterinterpretation` | 1063 | 100.0% |
+| observation | `source_url` | 1063 | 100.0% |
+| observation | `retrieval_hash` | 1063 | 100.0% |
 
 ## Context-field coverage
 
@@ -42,8 +42,8 @@ is not converted into a zero or a stronger causal claim.
 
 | Level | Field | Present | Coverage |
 |---|---|---:|---:|
-| record | `related_sources` | 237 | 79.8% |
-| record | `retrieval_hash` | 27 | 9.1% |
+| record | `related_sources` | 238 | 79.9% |
+| record | `retrieval_hash` | 28 | 9.4% |
 | record | `reproduction_audit` | 31 | 10.4% |
 | observation | `comparison_source_url` | 13 | 1.2% |
 | observation | `universe_note` | 6 | 0.6% |
@@ -57,11 +57,11 @@ is not converted into a zero or a stronger causal claim.
 | `inferred` | 8 |
 | `observed` | 72 |
 | `open` | 1 |
-| `reported` | 335 |
+| `reported` | 338 |
 
 ## Interpretation and next control
 
-All 1060 observations are expected to carry the required
+All 1063 observations are expected to carry the required
 period, denominator, measures, method, uncertainty, subgroup,
 counterinterpretation, source URL, and retrieval hash fields. Record-level
 related sources and reproduction audits are uneven by design: older or

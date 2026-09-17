@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-297 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+298 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -505,6 +505,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Subscription design can convert inattention into billing and make exit costly | cost, time, voice | household_room_consumption, time_hidden_price, consumer_power_recourse, platforms_data_attention, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | Federal Trade Commission subscription-enforcement records concerning Shutterstock Inc. and Uber Technologies/Uber USA; institutional cases, not population samples | United States federal consumer-protection enforcement; online content, transportation, delivery, and membership subscription flows | 3 | May 2026; FTC complaint and proposed settlement announcement; At least 2020 through early 2024; practices described in the FTC announcement; December 15, 2025 amended complaint; FTC release rechecked September 17, 2026 | reported | [open](records/us-ftc-shutterstock-subscription-cancellation-2026.json) |
 
 **Boundary:** This record promotes one current digital-subscription enforcement case into the broader atlas. It observes an alleged attention-to-billing and exit-friction mechanism plus proposed institutional controls; it does not establish national subscription burden, causal household hardship, consumer dependence, or whether the remedy prevents recurrence. The next test is same-case implementation and account-level follow-up with notice, charge, cancellation effort, refund/relief receipt, continued use, switching, and trust kept separate.
+
+| Institutional confidence remains near historic lows while technology and small-business legitimacy diverge | voice, cost | trust_identity_meaning, political_judgment_action, public_systems_feedback, firm_sector_market_power, platforms_data_attention | Gallup annual Confidence in Institutions poll and long-running institution trend series | United States | 3 | June 1-15, 2026; average confidence in 14 core institutions; June 1-15, 2026; selected institution confidence; June 1-15, 2026; partisan difference in average institutional confidence | reported | [open](records/us-gallup-institutional-confidence-2026.json) |
+
+**Boundary:** This record measures reported confidence in institutions, not institutional performance, legitimacy, usage, compliance, switching, political action, or causal polarization. The 14-institution average mixes public and private entities and must not replace institution-specific analysis.
 
 | Institutional confidence is low overall but highly conditional on political and social position | voice, cost | trust_identity_meaning, political_judgment_action, consumer_power_recourse, work_control_bargaining, unequal_exposure_status | Gallup Poll Social Series respondent; U.S. adults asked confidence in named institutions | United States | 3 | June 2–26, 2025; confidence in 18 institutions; June 2–26, 2025; nine institutions tracked consistently since 1979; June 2–26, 2025; selected racial-group confidence comparisons | compared; reported | [open](records/us-gallup-institutional-confidence-party-race-2025.json) |
 
