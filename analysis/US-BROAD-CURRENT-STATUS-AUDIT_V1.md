@@ -414,6 +414,11 @@ JASSM-ER schedule into observed delivery or operational availability. The
 current arrow therefore remains procurement intent → planned delivery →
 acceptance/integration/inventory → realized external or political response;
 deterrence, alliance cohesion, and changed adversary behavior remain open.
+The dedicated [Poland JASSM-ER delivery/acceptance boundary finding](projects/ai-work-control/findings/ai-work-control-081.md)
+records the 2026-09-16 official-source recheck and keeps this a public-source
+non-observation: a scheduled agreement is not promoted to delivered or
+accepted capability without a dated quantity, fielding, training, or inventory
+event.
 The new [capacity/dependence realization-stage audit](projects/ai-work-control/capacity-dependence-realization-audit-v1.md)
 formalizes this boundary across the US data-center and Poland JASSM-ER
 ledgers. It finds commitments and intermediate capacity or operational-stress
