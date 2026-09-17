@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-income-poverty-health-insurance-2025",
+  "title": "Census 2025 income, poverty, and insurance measures move on different household-security clocks",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Census Current Population Survey Annual Social and Economic Supplement (CPS ASEC) national income, poverty, and health-insurance estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025; real median household income",
+      "denominator": {"value": null, "unit": "CPS ASEC household income universe; national estimate; release does not expose a single respondent denominator in the press summary", "value_type": "not_disclosed"},
+      "measures": {"real_median_household_income": {"value": 87460, "unit": "2025 dollars; median household income", "value_type": "reported_level"}},
+      "method": "Census 2025 Income, Poverty and Health Insurance release based on the 2026 CPS ASEC; the press release describes this as the highest real median household income in the series beginning in 1967.",
+      "uncertainty": "The press summary does not reproduce the full variance table or subgroup distribution. Median household income is not disposable income, liquid capacity, consumption, or equal household security.",
+      "subgroup": "All US households in the CPS ASEC income universe.",
+      "counterinterpretation": "A higher median can coexist with poverty, insurance gaps, unequal gains, taxes, debt, regional costs, and households below or above the median experiencing different changes.",
+      "source_url": "https://cdn.www.census.gov/newsroom/press-releases/2026/income-poverty-health-insurance-coverage.html",
+      "retrieval_hash": "census-press-page:sha256:8f07f76ae470162bd2da16106b80e7996f2194935bcd364e9c1a92484e6b1da7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; official poverty measure",
+      "denominator": {"value": null, "unit": "CPS ASEC official-poverty population universe; national estimate", "value_type": "not_disclosed"},
+      "measures": {"official_poverty_rate": {"value": 10.2, "unit": "percent of people", "value_type": "reported_rate"}, "official_poverty_population": {"value": 34.5, "unit": "million people", "value_type": "population_estimate"}, "child_official_poverty_rate": {"value": 13.4, "unit": "percent of children; reported historic low", "value_type": "reported_rate"}},
+      "method": "Census Poverty in the United States: 2025, official poverty measure; pretax money income compared with family-size thresholds.",
+      "uncertainty": "The official measure excludes noncash benefits and tax effects and does not reproduce the full subgroup standard errors here. A rate change is not a household event or causal explanation.",
+      "subgroup": "All people for the 10.2% measure; children for the 13.4% measure.",
+      "counterinterpretation": "A lower official poverty rate can coexist with higher post-tax or geographically adjusted hardship, medical costs, housing costs, or food insecurity for selected groups.",
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p60-290.html",
+      "retrieval_hash": "census-press-page:sha256:8f07f76ae470162bd2da16106b80e7996f2194935bcd364e9c1a92484e6b1da7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; Supplemental Poverty Measure",
+      "denominator": {"value": null, "unit": "CPS ASEC SPM population universe; national estimate", "value_type": "not_disclosed"},
+      "measures": {"supplemental_poverty_rate": {"value": 13.1, "unit": "percent of people", "value_type": "reported_rate"}},
+      "method": "Census 2025 SPM estimate incorporating taxes, noncash benefits, work expenses, medical expenses, and geographic housing-cost differences.",
+      "uncertainty": "Census reports the 2025 SPM rate was not statistically different from 2024; this record does not reproduce the full confidence interval or component contributions.",
+      "subgroup": "All people in the SPM universe.",
+      "counterinterpretation": "SPM and official poverty answer different questions; neither identifies a specific bill, benefit interaction, price, employer, or recovery path.",
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p60-290.html",
+      "retrieval_hash": "census-press-page:sha256:8f07f76ae470162bd2da16106b80e7996f2194935bcd364e9c1a92484e6b1da7",
+      "status": "reported"
+    },
+    {
+      "period": "2025; uninsured for the entire year",
+      "denominator": {"value": null, "unit": "CPS ASEC health-insurance coverage population universe; national estimate", "value_type": "not_disclosed"},
+      "measures": {"uninsured_full_year_rate": {"value": 7.9, "unit": "percent of people", "value_type": "reported_rate"}, "uninsured_full_year_population": {"value": 26.7, "unit": "million people", "value_type": "population_estimate"}},
+      "method": "Census 2025 Health Insurance Coverage estimate from the 2026 CPS ASEC; full-year uninsured status is kept separate from poverty and coverage-at-any-time measures.",
+      "uncertainty": "Census reports the 2025 full-year uninsured estimate was not statistically different from 2024; the press summary does not reproduce subgroup standard errors or coverage duration detail.",
+      "subgroup": "All people in the CPS ASEC health-insurance universe.",
+      "counterinterpretation": "A national full-year coverage rate does not show underinsurance, network access, medical debt, care delay, premium burden, or whether a person could obtain care when needed.",
+      "source_url": "https://cdn.www.census.gov/newsroom/press-releases/2026/income-poverty-health-insurance-coverage.html",
+      "retrieval_hash": "census-press-page:sha256:8f07f76ae470162bd2da16106b80e7996f2194935bcd364e9c1a92484e6b1da7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ers.usda.gov/publications/113622", "claim": "USDA annual food-security prevalence and severity are separate household-security outcomes and are not replaced by income or poverty measures.", "status": "official-comparison-context"},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-us-households-in-2025-economic-hardships.htm", "claim": "SHED supplies household-reported hardship and price-adaptation context that CPS ASEC national income and poverty measures do not identify.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This is a current national CPS ASEC release surface. It records income, official poverty, SPM poverty, and full-year uninsured estimates as separate measures. It does not establish household-specific purchasing power, a causal price or policy effect, benefit adequacy, medical access, trust, political action, or later recovery. No report PDF or microdata was acquired for this page-vintage record."
+}
