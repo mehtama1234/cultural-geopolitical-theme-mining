@@ -357,6 +357,7 @@ economic voting or a causal political reaction.
 Read the [supplier-concentration finding](analysis/projects/ai-work-control/findings/ai-work-control-072.md),
 the [procurement-to-capability synthesis](analysis/projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md),
 the [production-support and integration milestone finding](analysis/projects/ai-work-control/findings/ai-work-control-080.md),
+the [facility-capability context finding](analysis/projects/ai-work-control/findings/ai-work-control-079.md),
 the [strategic-capability realization bridge](analysis/projects/ai-work-control/strategic-capability-realization-cross-case-bridge-v1.md),
 the [JASSM-ER documentation-control finding](analysis/projects/ai-work-control/findings/ai-work-control-082.md),
 and the [FMS delivery/settlement timing finding](analysis/projects/ai-work-control/findings/ai-work-control-083.md).
@@ -389,6 +390,12 @@ training, and operational use can appear at different times. Its F-35 example
 does not establish delivery of Poland's JASSM-ER order, but it prevents a
 missing settlement or schedule timestamp from being treated as proof of
 non-delivery or operational readiness.
+
+The facility-context finding adds a geographic capability layer: selected
+USAspending recipient locations in Nashua and Niceville have independent
+quality or product-capability documentation. Geographic overlap makes the
+work-package assignment worth testing, but does not prove that either site
+performed the selected subaward, produced accepted output, or is replaceable.
 
 **Open arrow:** identifier-bearing evidence must connect production,
 acceptance, delivery, inventory or use, substitution capacity, and an

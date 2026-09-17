@@ -430,6 +430,12 @@ The General Dynamics parent CAGE now resolves to an active Reston, VA record,
 so both comparison suppliers have a documented parent-to-multiple-facility
 structure. Neither case yet supplies a facility-bearing subaward or delivery
 record.
+The [facility-capability context finding](projects/ai-work-control/findings/ai-work-control-079.md)
+adds independent capability documentation at the selected USAspending
+recipient locations in Nashua and Niceville. This strengthens the geographic
+context layer without assigning the JASSM/LRASM work package to either site or
+establishing facility-specific production, workforce, accepted output,
+replaceability, or delivery.
 The [production-support and integration milestone finding](projects/ai-work-control/findings/ai-work-control-080.md)
 and its production/integration realization record add a reported October 2024
 capacity-expansion action and a March 2025 initial LRASM–F-35B integration
