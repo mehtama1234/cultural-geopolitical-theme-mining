@@ -1,14 +1,19 @@
-# HTOPS/HPS 2026 vintage recheck — 2026-09-14
+# HTOPS/HPS 2026 vintage recheck — 2026-09-17
 
 **Status:** official release-state and correction check  
 **Scope:** March, May, and July 2026 HTOPS/HPS public-use files
 
 ## Result
 
-The Census Bureau's current public-use-file page lists July 2026 as the latest
-2026 HTOPS Household Pulse release. It also states that the March and May 2026
+The Census Bureau's current public-use-file page, rechecked on 2026-09-17,
+lists July 2026 as the latest 2026 HTOPS Household Pulse release. It also
+states that the March and May 2026
 PUFs were updated on September 10, 2026 to correct the weights. No August 2026
 PUF is listed on the current 2026 release page.
+
+The page still reports the July CSV package as 19.6 MB and the corrected March
+and May packages as separate releases. This is a release-state recheck only;
+the local July comparison and corrected-file hashes are unchanged.
 
 This confirms that the atlas's cross-wave comparison must continue to label May
 as **corrected** and must retain the July file as the latest available snapshot.
