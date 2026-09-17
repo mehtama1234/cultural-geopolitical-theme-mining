@@ -28,6 +28,45 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+## Themes worth reviewing now
+
+These are the most interesting recurring patterns in the current atlas. They
+are working hypotheses supported by multiple bounded layers, not one pooled
+index or a claim that the same people appear in every source.
+
+1. **Unequal optionality:** the same price, service, or work shock produces
+   different menus—trade down, delay, borrow, use outside help, work more, go
+   without, or exit—depending on cash, time, place, status, and alternatives.
+   Start with the [household adaptation and recovery map](analysis/records/us-household-adaptation-buffer-recovery-crosssource-2024-2025.json).
+2. **The interface is part of the outcome:** aid, benefits, complaints, and
+   remedies can exist at scale while waiting, confusing notices, verification
+   burdens, and missing follow-up determine who can use them. Read the [FEMA
+   delivery layer](site/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.html)
+   and [disaster-assistance information-risk layer](site/gao-2026-disaster-assistance-scams-information-trust-layer-v1.html).
+3. **Capacity and recovery diverge:** public investment, firms, facilities, or
+   infrastructure may be visible without validated proof of jobs, service
+   continuity, household security, or community recovery. Read the [EDA
+   outcomes layer](site/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.html).
+4. **Domestic capability is not autonomy:** factories and production value do
+   not by themselves remove imported mineral, processing, recycling, or
+   substitute-performance dependence. Read the [critical-minerals layer](site/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.html).
+5. **Identity changes the meaning of opportunity:** Hispanic identity, working-
+   class identity, Muslim-American visibility, and political typology do not
+   map cleanly onto one mobility, trust, or voting story. Read the [identity
+   and opportunity layers](site/pew-2026-hispanic-identity-advantage-barrier-layer-v1.html)
+   and [working-class meaning layer](site/pew-2026-working-class-identity-status-meaning-layer-v1.html).
+6. **AI adoption and worker power are different currencies:** use, time saved,
+   productivity, monitoring, discretion, representation, bargaining, pay, and
+   exit are measured at different levels and should not be collapsed.
+   Start with the [AI work-control route](site/us-cost-trust-politics-030.html).
+7. **Population movement redistributes demand before capacity catches up:**
+   migration components, housing, services, transport, local business, and
+   belonging move on different clocks. Read the [population and migration
+   geography layer](site/census-2025-population-slowdown-migration-geography-layer-v1.html).
+8. **Political response is not a single backlash channel:** affordability,
+   economic blame, trust, identity, turnout, contact, protest, and voting can
+   diverge across groups and time. Read the [material-to-action route](#route-13-material-pressure-becomes-meaning-and-political-action).
+
 ## Recent cross-theme additions
 
 These routes extend the broad chain while keeping each evidence unit and
