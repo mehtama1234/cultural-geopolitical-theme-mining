@@ -66,6 +66,40 @@ Dataset](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3), UAS 537,
 and UAS 698 files. This is an access prerequisite, not evidence for any
 health-cost result.
 
+### Older Ages Monthly Events: event-first alternative
+
+The official [Older Ages Monthly Events Panel description](https://uasdata.usc.edu/page/UAS+Monthly+Surveys)
+identifies a particularly useful lower-scope route. It covers 52 monthly waves
+from June 2019 through September 2023, asks about events in the preceding
+calendar month, and includes approximately 5,426 respondents aged 50 or older
+who completed at least one wave. The documented panel structure is one
+`uasid`-by-`wave` row with a stable respondent key, wave metadata, and a
+separate contemporaneous household identifier.
+
+Its event architecture is stronger than a generic annual recall screen: the
+description lists 17 monthly event blocks, date fields for event occurrence,
+repeat-event confirmation fields for selected events, and monthly measures of
+medical expenditures, health, pain, life satisfaction, hours worked, earnings,
+and employment changes. The documented medical-expenditure fields include
+out-of-pocket medical, hospital, doctor, dental, and other-medical amounts.
+This makes it the smallest identified candidate for an event-first screen such
+as:
+
+```text
+dated illness, financial setback, or medical expenditure
+  -> next-wave health, pain, work, earnings, or life satisfaction
+  -> linked trust, provider experience, remedy, or action module
+```
+
+The age restriction is substantive: this route cannot replace the broader
+October 2023–present Monthly Panel for working-age coverage. It also does not
+by itself document a provider/insurer trust or verified-remedy endpoint. The
+dataset and codebook remain registration-gated, so this is a documented
+acquisition priority, not a completed estimate. Once access exists, acquire
+only the Older Ages panel and its codebook first, run the key/wave/missingness/
+weight audit, and stop before adding UAS 537/698 unless the event and outcome
+fields pass.
+
 ## Documented source architecture
 
 USC describes the UAS Comprehensive File and Comprehensive Panel Dataset as
@@ -98,7 +132,7 @@ monthly health/financial event or special-module medical-cost experience
 | UAS 698 health-cost module | Health-care costs in the last two years, out-of-pocket amount, outside help with medical costs/insurance/long-term care, overall satisfaction with quality/cost/convenience, needed-but-not-received care, and reasons including unaffordability, scheduling, transportation, and waiting | Bill/payment burden, alternatives, care foregoing, support route, and satisfaction in the same respondent | Exact field names, dates/recall windows, module-to-core overlap, weights, missingness, and whether trust/action is in the linked wave |
 | UAS 537 future-of-health-care module | Recent health-care visits and billing, unaffordable care since March 2020, current ability to afford services, transportation access, household medical bill that was unaffordable or disputed, provider-organization rating, and trust in hospitals and insurers after hospitalization | Direct bill/affordability, access alternative, provider experience, and institution-specific trust | The pandemic-recall window is broad; trust is conditional on hospitalization; verify usable overlap and survey weights |
 | UAS Monthly Panel, October 2023–present | Previous-month health, financial, employment, life satisfaction, pain, stress, and meaning/purpose events; `fin3s4` identifies significant medical or dental expenses and `fin1_when_*` dates the financial change | A dated medical-expense-shock-to-subsequent-health/work/wellbeing backbone | The monthly core does not document bill amount, care choice, payment obligation, remedy, or trust; use UAS 537/698 for those fields and enumerate wave coverage |
-| UAS Older Ages Monthly Events, June 2019–September 2023 | Previous-month medical expenditures, work hours/earnings, health, life satisfaction, and pain for age 50+ panel members | Monthly medical-spending-to-health/work/meaning timing for an older-age subsample | No documented same-file political-trust endpoint in the public summary; link to core/special modules and retain age restriction |
+| UAS Older Ages Monthly Events, June 2019–September 2023 | 52 monthly waves; age-50+ respondents; 17 event blocks with event dates and selected repeat-event confirmation; previous-month medical expenditures, work hours/earnings, health, life satisfaction, pain, and employment change | Event-first medical-spending/illness/financial-setback timing to later health, work, and well-being, with a precisely defined older-age universe | No documented same-file political-trust or verified-remedy endpoint in the public summary; link to core/special modules and retain age restriction |
 
 The questionnaire pages expose additional field-level anchors for the
 acquisition script. In UAS 537 these include `avoidcare_cost` (needed care not
@@ -286,6 +320,8 @@ correct status is **verified acquisition route**, not completed evidence.
 - [UAS Comprehensive File and Panel Dataset](https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3)
 - [UAS Monthly Surveys data page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3)
 - [UAS Monthly Panel Survey Dataset description and codebook, updated September 1, 2026](https://uasdata.usc.edu/index.php?r=eNodzEEKwjAQQNGrDDlAwVwiXCLTlditIJQeYJoZtZjOhCZRinh3W3d_8fiENX4S7tFFuotrEtbHtcsQRl-x-TKJZsqjKdtbgxFvZuVK058fduj6UwcX0_wIC1xcSSVAV-aXLNBSpiQZWkl-HuO2AVKGs7EMZs8q8s013x-3cS3L)
+- [UAS Older Ages Monthly Surveys page and panel description](https://uasdata.usc.edu/page/UAS+Monthly+Surveys)
+- [UAS Older Ages Monthly Events Panel Dataset description and codebook](https://uasdata.usc.edu/index.php?r=eNpodzEEKwjAQheGrDDlAwVwiKOmqWJdSQTzANDPWYDoTmlQR8e6m7t7iez_a2n6S3VoTcWTTJFvvy16G4F1F6paJJWP2KqQvCYq0msIFpz_fbay5thfoA_EM7cgJTir5Ht5wfJYvnFE4QIcZE2foOLnZxzUIKAQHJR5UH1Wkm2m-P3nnMPY%2C)
 - [UAS Interactive Monthly Panel Data Explorer](https://uasvis.usc.edu/monthly/monthlyvisualization.php)
 - [UAS 537 future-of-health-care questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKydTYHCZYChE0tFIyVLKuBVwwx5cXVA%2C%2C)
 - [UAS 698 health-cost questionnaire](https://uasdata.usc.edu/output/paperversion/index.php?r=eNpLtDK2qi62MrFSKkhMT1WyLrYyBLFLk3Iyk_WK8ktLMvPSQaJAweLizBQQ09hKyczSAiZYChE0tFIyUbKuBVwwyGMXXw%2C%2C)

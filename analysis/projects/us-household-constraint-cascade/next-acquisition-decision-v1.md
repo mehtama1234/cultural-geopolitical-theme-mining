@@ -15,6 +15,10 @@ single respondent frame:
 
 - the monthly panel can place a reported medical or dental expense shock before
   later health, work, financial, and meaning outcomes;
+- the Older Ages Monthly Events panel supplies a narrower but stronger
+  event-first route for adults 50+, with 52 monthly waves, dated event blocks,
+  medical expenditures, and later health, work, pain, and life-satisfaction
+  measures;
 - UAS 537 can contribute bounded affordability, care access, disputed-bill,
   provider experience, and institution-specific trust items; and
 - UAS 698 can contribute health-cost amount bands, outside help, care
@@ -22,7 +26,10 @@ single respondent frame:
 
 This is a candidate route, not current evidence. The repository contains no
 local UAS microdata, and the public aggregate explorer does not expose the
-medical-expense component needed for the focal transition.
+medical-expense component needed for the focal transition. If access is
+obtained, the Older Ages panel should be acquired and audited first as the
+smallest event-compatible file; the broader Monthly Panel and UAS 537/698
+should follow only if that first gate passes.
 
 ## Documentation-only reconnaissance
 

@@ -164,7 +164,7 @@ family that will be acquired, compared, or maintained over time.
 | `doi.org` | 60 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
-| `uasdata.usc.edu` | 11 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
+| `uasdata.usc.edu` | 14 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
 | `btq-kassel.de` | 10 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/ai-work-control/claims-ledger-v1.md` |
 | `support.sayrhino.com` | 9 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md` |
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
@@ -258,6 +258,7 @@ without a recurring acquisition need and source-specific metadata.
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
+| `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -273,7 +274,6 @@ without a recurring acquisition need and source-specific metadata.
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
 | `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `uasvis.usc.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
