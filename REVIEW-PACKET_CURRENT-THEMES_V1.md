@@ -210,7 +210,7 @@ episode.
 
 ## Scope of this review route
 
-These twelve routes are the current deepest reading paths, not a replacement for
+These thirteen routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -221,7 +221,7 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The twelve routes below concentrate on the strongest current bridges: material
+The thirteen routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing

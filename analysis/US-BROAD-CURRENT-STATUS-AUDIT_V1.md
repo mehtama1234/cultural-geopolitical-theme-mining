@@ -21,7 +21,7 @@ For a compact reader route through the current evidence, use the [current
 themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links twelve
 representative routes from household pressure through institutional, political,
 and geopolitical consequences. Its new [14-theme coverage index](../REVIEW-PACKET_CURRENT-THEMES_V1.md)
-maps every governing theme to one or more of the twelve representative routes;
+maps every governing theme to one or more of the thirteen representative routes;
 the packet remains a navigation layer rather than a claim that any route is
 causally complete.
 
