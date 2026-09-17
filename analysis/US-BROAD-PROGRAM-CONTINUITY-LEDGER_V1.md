@@ -1102,6 +1102,12 @@ well-being. It preserves open links from habitual use to utility, displacement,
 self-regulation, privacy, switching, measured outcomes, and later social or
 political action.
 
+The [cross-source cultural-meaning synthesis](projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md)
+records a cross-theme synthesis rather than a new survey: common objects and
+conditions can carry divergent utility, cost, identity, fairness, and authority
+meanings. It preserves the need for a same-unit episode matrix before claiming
+behavioral or political conversion.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds a cultural-mood stage between perceived national conditions and public
 authority. It preserves open links from moral judgment to attribution, religious

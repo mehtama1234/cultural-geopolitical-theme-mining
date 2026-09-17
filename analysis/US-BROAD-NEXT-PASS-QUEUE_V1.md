@@ -2878,3 +2878,10 @@ political identity, moral attribution, issue position, public action, trust, and
 policy support. Keep moral mood, perceived government influence, government
 legitimacy, religious influence, acceptability, and observed behavior separate;
 do not infer moral decline or political realignment from survey pessimism.
+
+The [cross-source cultural-meaning synthesis](projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md)
+sets the next integration test: code unit, date, condition, identity,
+interpretation, action, institutional response, outcome, and missingness across
+existing artifacts, then seek one lawful repeated or event-compatible source
+that closes at least three adjacent stages. Do not join sources by date or
+geography and call them one longitudinal public.

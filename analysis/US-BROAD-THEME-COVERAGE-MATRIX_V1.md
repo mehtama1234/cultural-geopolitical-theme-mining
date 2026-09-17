@@ -41,6 +41,11 @@ confirms the estimates from existing local artifacts. This deepens themes 6,
 8, and 10 while leaving plan adequacy, dated need, and treatment continuity
 open.
 
+The [cross-source cultural-meaning synthesis](projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md)
+adds an integration layer across themes 1, 5, 9, 10, 11, and 14. It strengthens
+the shared-condition-to-group-meaning-to-authority arrow while explicitly
+leaving the same-unit action, response, recovery, and exit link open.
+
 **Latest utility/care/work conditioning:** [SIPP utility/tenure/care/work
 option-stack synthesis](projects/us-household-calendar-integration/sipp-utility-tenure-care-work-option-stack-synthesis-v1.md)
 places utility difficulty beside housing tenure, same-person next-month work

@@ -119,6 +119,10 @@ index or a claim that the same people appear in every source.
    increasingly rate moral values as poor or worsening, yet divide over whether
    government should promote values and over specific cultural issues. Read the
    [moral values and government-role layer](site/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.html).
+22. **Cultural meaning is broad but contested:** Americans often share an
+   object or concern while disagreeing about its meaning, responsible actor,
+   and legitimate response. Read the [cross-source cultural-meaning
+   synthesis](site/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.html).
 
 ## Recent cross-theme additions
 
