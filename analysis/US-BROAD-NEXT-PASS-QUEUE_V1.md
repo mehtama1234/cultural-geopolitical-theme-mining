@@ -978,6 +978,15 @@ exit fields; if those fields are unavailable, record the gap and rotate to
 another theme. The two worker records are remedy-stage comparators, not a
 worker prevalence or individual-recovery estimate.
 
+**Stage-bottleneck promotion gate (2026-09-17):** across those 14 surfaces,
+11 have an observed dated event/exposure and 11 have an observed institutional
+or firm response, but only 1 has an observed alternative/non-use stage, none
+has a fully observed verified remedy, and none has a fully observed
+meaning/trust/action or recovery/persistence/exit stage. The next substantive
+pass therefore qualifies only if it adds an episode-level alternative or
+non-use field and a receipt/outcome follow-up; another exposure, complaint
+volume, or aggregate remedy count alone does not qualify as end-to-end depth.
+
 The ranked [next-episode selection](../analysis/broad-next-episode-selection-v1.md)
 chooses MEPS as the primary local route because its staged ledger contains
 18,457 exact person/event rows with payment, coverage, health, employment, and
