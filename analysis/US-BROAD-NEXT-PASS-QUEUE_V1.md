@@ -2769,3 +2769,11 @@ job exit, non-search, and work-plus-supervision. The next test is a dated
 care-event ledger with provider disruption, subsidy/leave access, schedule,
 informal support, work, earnings, and later care/work outcome; do not treat
 low paid-care spending as low care burden.
+
+The [GAO 2026 military child-care workforce and capacity layer](projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md)
+adds the provider-supply and institutional-readiness stage. It separates
+workers, incentives, retention, fee discounts, staffed slots, waitlists,
+quality, family use, parent work, and military readiness. The next test is an
+installation-year ledger linking incentive changes to vacancies, staffed
+capacity, wait time, family work schedules, alternative providers, and later
+retention; do not treat bonuses or program scale as dependable access.

@@ -142,3 +142,8 @@ The [theme inventory](US-BROAD-THEME-INVENTORY_V1.md) defines the scope; the
 [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) assigns arrows and methods;
 the [recovery brief](../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md) preserves the
 objective after a crash.
+The [GAO military child-care workforce and capacity layer](projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md)
+adds provider labor, incentives, waitlists, staffed-slot capacity, and employer
+readiness to themes 2, 5, 6, 7, and 10. It extends the household care-to-work
+bridge while preserving the nonrepresentative DOD setting and the open link
+from incentives to reliable access and parent outcomes.

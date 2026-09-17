@@ -773,6 +773,16 @@ often used paid leave; lower-income households more often stayed away from the
 labor market. This is a measured adaptation menu, not a causal policy estimate,
 but it makes hidden time and labor-market costs visible.
 
+The [GAO 2026 military child-care workforce and capacity layer](projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md)
+adds the provider and institutional-supply side. DOD employed about 19,000
+child-care workers serving nearly 172,000 children in FY2024, yet recruitment
+and retention difficulty contributed to lengthy waitlists; the Air Force, Army,
+and Marine Corps reported 4,955 recruitment or retention incentives. This
+extends the household care-to-work finding into provider labor and employer
+readiness: incentives are not staffed slots, retention, quality, or preserved
+parent work. The military evidence is a capacity case, not a general-population
+estimate.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
