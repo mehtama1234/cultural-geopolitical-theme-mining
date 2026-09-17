@@ -92,6 +92,10 @@ for path, text in source_texts:
 reverse_rows = sorted(observed_hosts.items(), key=lambda item: (-item[1], item[0]))
 
 review_classifications = {
+    "fwc.gov.au": ("official labor tribunal", "Retain as an official comparative tribunal source; promote as a maintained family only when recurring decisions are actively acquired and versioned."),
+    "justice.gov": ("official US legal/enforcement source", "Retain as a public-record comparator; preserve the responsible DOJ component and case or settlement identifier for each claim."),
+    "mohr.gov.my": ("official Malaysian labor authority", "Retain as a comparative public-record source; preserve the responsible department, instrument, date, and implementation status for each claim."),
+    "govinfo.gov": ("official federal publication host", "Retain as an official publication route; preserve the issuing agency, document identifier, version, and source context rather than treating the delivery host as the whole evidence family."),
     "doi.org": ("citation/index host", "Do not register; retain DOI as a source identifier and preserve the underlying publisher or institution separately."),
     "theguarantors.com": ("commercial case source", "Do not register as a recurring family yet; preserve product terms and treat the vendor material as case-specific evidence."),
     "support.sayrhino.com": ("commercial support host", "Do not register; support content is a product-route citation, not an independent recurring evidence family."),

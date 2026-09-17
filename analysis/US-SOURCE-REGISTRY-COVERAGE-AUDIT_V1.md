@@ -210,14 +210,14 @@ without a recurring acquisition need and source-specific metadata.
 
 | Domain | Classification | Current decision |
 |---|---|---|
-| `fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `fwc.gov.au` | official labor tribunal | Retain as an official comparative tribunal source; promote as a maintained family only when recurring decisions are actively acquired and versioned. |
 | `doi.org` | citation/index host | Do not register; retain DOI as a source identifier and preserve the underlying publisher or institution separately. |
-| `justice.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `justice.gov` | official US legal/enforcement source | Retain as a public-record comparator; preserve the responsible DOJ component and case or settlement identifier for each claim. |
 | `theguarantors.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and treat the vendor material as case-specific evidence. |
-| `mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `mohr.gov.my` | official Malaysian labor authority | Retain as a comparative public-record source; preserve the responsible department, instrument, date, and implementation status for each claim. |
 | `uasdata.usc.edu` | official UAS data/documentation host | Retain as the official UAS source family; respondent-file downloads remain registration-gated, and no microdata are promoted without the acquisition manifest plus key, weight, and missingness checks. |
 | `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
-| `govinfo.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `govinfo.gov` | official federal publication host | Retain as an official publication route; preserve the issuing agency, document identifier, version, and source context rather than treating the delivery host as the whole evidence family. |
 | `support.sayrhino.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
