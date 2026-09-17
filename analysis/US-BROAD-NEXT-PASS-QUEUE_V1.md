@@ -2600,6 +2600,15 @@ retrieval is blocked, so this remains a detailed memo rather than a canonical
 record. The next consumer test is a product/household design joining price,
 quantity, income, channel, substitution, and ritual or non-purchase behavior.
 
+The [Pew 2026 national mood and future-expectations layer](projects/us-cost-trust-politics/pew-2026-national-mood-future-expectations-layer-v1.md)
+adds a distinct time-horizon test: dissatisfaction with the present and
+institutional pessimism coexist with personal hope, while both major partisan
+coalitions expect greater political division by 2050. The next test is a
+same-person or small-panel design joining national expectation to a dated
+household or community event and later participation, exit, purchase deferral,
+migration, or organizing. This layer does not establish that pessimism causes
+disengagement or political action.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

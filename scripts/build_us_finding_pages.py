@@ -339,6 +339,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/gallup-2026-institutional-confidence-divergence-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-working-class-identity-status-meaning-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-national-mood-future-expectations-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md")

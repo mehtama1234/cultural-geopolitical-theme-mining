@@ -667,6 +667,15 @@ import prices for sugar/confectionery manufacturing up 73.3%; downsizing added
 a measured 2.1% price effect. The result is a price/quantity/ritual-adaptation
 case, not a general household-welfare or food-security estimate.
 
+The [Pew 2026 national mood and future-expectations layer](projects/us-cost-trust-politics/pew-2026-national-mood-future-expectations-layer-v1.md)
+adds a temporal meaning surface. Current dissatisfaction (69%) and the view
+that the country's best years are behind it (59%) coexist with personal hope
+(68%), and 66% expect greater political division by 2050. Republicans and
+Democrats are close on that long-run division expectation (66% versus 65%)
+even while present-direction judgments are strongly president-linked. This
+separates national inheritance, personal affect, institutional expectation,
+and partisan alignment; it is not a forecast or a behavioral causal estimate.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR
