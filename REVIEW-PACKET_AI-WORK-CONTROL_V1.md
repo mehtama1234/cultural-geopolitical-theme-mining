@@ -9,7 +9,7 @@ to organizations before they make work better for the people doing it. The
 central empirical question is who can see, change, contest, and ultimately bear
 the consequences of a decision.
 
-## The nine-piece route
+## The ten-piece route
 
 ### 1. The theme map: the argument in outline
 
@@ -139,6 +139,27 @@ adds a 2026 merits decision: insufficiently particular notices, missing further
 inquiry, and previously resolved complaints later reused as deactivation
 reasons. Reactivation and lost-pay entitlement were ordered, but the amount is
 still open.
+
+### 10. US recruiting contestability: obligations without observed recovery
+
+The [Elegant settlement compliance follow-up](analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)
+rechecks a named DOJ/IER settlement involving AI-generated job advertisements.
+The public agreement supplies civil penalties, bilingual notices, policy
+revision, paid training, attendance records, inquiry authority, and a cure
+mechanism. The follow-up search found no public confirmation of payment,
+completed training or policy revision, monitoring, applicant-level back pay,
+or restored consideration.
+
+The [NYC AEDT enforcement follow-up](analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md)
+provides a city-level bias-audit, notice, complaint, and referral route under
+Local Law 144. It does not identify a named employer outcome, worker notice
+receipt, appeal, decision correction, compensation, or later work behavior.
+
+Together these US records add an important contrast to the Australian orders:
+formal contestability and prospective compliance powers are visible, but the
+public evidence stops before worker-level correction, durable compliance,
+trust, bargaining, or exit. They should not be converted into an AEDT
+compliance rate or a worker-welfare estimate.
 
 ## Themes to test while reviewing
 
