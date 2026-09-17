@@ -292,6 +292,7 @@ unobserved in one same-case record.
 
 Read the [CFPB route-vintage audit](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-021.md),
 its [eight-slice reproduction recheck](analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md),
+the [medical-debt complaint-visibility finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md),
 and the [consumer recourse synthesis](analysis/projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md).
 
 **Theme:** an institution's visible response is not the same as a verified
@@ -312,6 +313,12 @@ experiencing non-credit-card fraud reported some money unrecovered and 30%
 spent at least ten hours recovering or dealing with it. These are visibility,
 reported loss, effort, and response-label measures—not proof that remedies
 were inadequate, firms were liable, or customers exited.
+
+The medical-debt complaint finding adds a concrete institutional visibility
+layer between household health-cost burden and remedy: the CFPB snapshot
+contains a coded medical-debt subproduct within debt-collection complaints.
+That count is not medical-debt prevalence, complaint incidence, verified
+correction, money recovered, or restored care.
 
 **Open arrow:** the same account or person must be followed from exposure
 through effort, correction adequacy, repeat contact, switching, exit, and

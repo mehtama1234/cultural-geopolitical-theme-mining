@@ -226,6 +226,11 @@ adds a consumer-power measurement control: `timely` is kept separate from
 elapsed routing, response labels are kept separate from remedy, and an omitted
 `has_narrative` field is recorded as unavailable rather than zero. This
 prevents API-vintage changes from being misread as a consumer trend.
+The [medical-debt complaint-visibility finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md)
+adds a coded CFPB medical-debt subproduct as an institutional visibility layer.
+It is a published complaint-category count, not medical-debt prevalence,
+complaint incidence, remedy rate, recovery, or restored care; the person-level
+MEPS and administrative complaint records cannot be joined by person ID.
 
 The new [USAspending supplier-concentration finding](projects/ai-work-control/findings/ai-work-control-072.md)
 rotates the state-capacity lane from supplier-name breadth to financial
