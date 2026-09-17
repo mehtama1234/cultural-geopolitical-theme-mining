@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 284 records and
-1027 observations.
+have exact registered-URL references. The trend registry holds 285 records and
+1028 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -216,6 +216,14 @@ This source-vintage conflict is not a payout result. Individual receipt,
 amount, delay, continued use, switching, trust, and household recovery remain
 open; the next decisive artifact is still a dated distribution ledger or lawful
 account-level follow-up.
+
+The small-business disaster-liquidity source pass adds a causal firm-level
+middle layer: recovery loans reduce exit and bankruptcy while increasing
+employment, revenue, private credit, and reducing delinquency across a large
+multi-disaster design. The retained result is abstract-level and does not
+establish worker pay, customer prices/service continuity, owner-household
+recovery, or local political meaning; the next step is a compact full-paper
+effect-size and heterogeneity audit rather than a bulk download.
 
 ### ILOSTAT comparison gate
 

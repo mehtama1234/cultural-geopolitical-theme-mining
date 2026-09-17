@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-small-business-disaster-liquidity-causal-2024",
+  "title": "Emergency recovery loans reduce small-firm exit and bankruptcy after disasters while increasing employment, revenue, and private credit",
+  "theme_ids": ["cost", "work", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Over 167,000 US firm loan applications spanning about 1,900 disasters, merged to Census records and business credit reports; published causal firm-level research, not a household or customer panel",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Post-disaster firm follow-up over up to seven years; NBER Working Paper 32326, revised September 2026",
+      "denominator": {
+        "value": 167000,
+        "unit": "more than 167,000 firm loan applications across approximately 1,900 distinct disasters; paper reports approximate scale",
+        "value_type": "firm_application_universe"
+      },
+      "measures": {
+        "firm_survival": {
+          "value": "Government recovery loans reduce firm exit and bankruptcy",
+          "unit": "causal firm-level outcome over post-disaster follow-up",
+          "value_type": "causal_direction"
+        },
+        "employment_and_revenue": {
+          "value": "Recovery loans increase employment and revenue",
+          "unit": "causal firm-level outcomes",
+          "value_type": "causal_direction"
+        },
+        "credit_and_delinquency": {
+          "value": "Loans unlock private credit and reduce delinquency",
+          "unit": "causal firm-level financial outcomes",
+          "value_type": "causal_direction"
+        },
+        "local_spillover": {
+          "value": "No capital reallocation away from neighboring firms detected; some evidence of positive spillovers on local entry",
+          "unit": "neighboring-firm and local-entry outcomes",
+          "value_type": "reported_countereffect"
+        }
+      },
+      "method": "Use the NBER authors' merged application, Census, and business-credit design as reported on the official paper page; preserve the paper's causal firm-level scope and mechanism interpretation rather than reconstructing an estimate from the abstract.",
+      "uncertainty": "The local record retains abstract-level directional results, not effect sizes, code, firm identifiers, loan terms, disaster-specific treatment timing, or replication output. Firm survival and employment do not establish worker pay, job quality, owner-household recovery, customer prices, service continuity, or local political meaning. Loan access, viability, insurance, collateral, and disaster selection remain design-specific considerations.",
+      "subgroup": "Firms applying for or receiving government recovery loans after distinct disasters; exact treatment/control and subgroup universes remain in the paper's full design.",
+      "counterinterpretation": "Keeping firms open may preserve employment and local entry without proving that every borrower was viable, that workers gained security, or that customers retained affordable services. Positive aggregate firm outcomes can coexist with debt obligations, unequal loan access, or shifted costs.",
+      "source_url": "https://www.nber.org/papers/w32326",
+      "retrieval_hash": "source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.sba.gov/funding-programs/disaster-assistance",
+      "claim": "SBA disaster assistance provides the public-program context for repair, working-capital, and recovery financing routes.",
+      "status": "official-program-context"
+    },
+    {
+      "source_url": "projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md",
+      "claim": "The committed source packet records the NBER causal findings, limits, and next test without retaining the working paper or microdata.",
+      "status": "repository-source-packet"
+    }
+  ],
+  "boundary": "This record establishes a causal firm-level emergency-liquidity result as summarized by the official NBER paper page: loans improve selected firm survival, employment, revenue, credit, and delinquency outcomes after disasters. It does not establish worker household security, customer access or prices, owner recovery, local service continuity, trust, political action, or geopolitical consequences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Existing committed source-search packet and official NBER paper page; no working-paper PDF or microdata retained",
+    "retrieval_hash": "source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
+    "checked": "2026-09-17"
+  }
+}
