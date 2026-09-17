@@ -1,6 +1,6 @@
 # MEPS event channels and institutional friction v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** same-round descriptive event-family comparison; no causal claim  
 **Machine output:** [event/institutional-friction data](data/us-meps-2024-event-institutional-friction.json)
 
@@ -94,6 +94,12 @@ python3 scripts/analyze_meps_event_institutional_friction.py \
   --inpatient-file /tmp/cgtm-meps-2024/events/h254d.dta \
   --output analysis/projects/us-health-cost-household-choice/data/us-meps-2024-event-institutional-friction.json
 ```
+
+The 16 September 2026 storage-light rerun used `h254g.dta` for office events,
+`h254e.dta` for emergency-room events, and `h254d.dta` for inpatient events;
+the prescription file `h254a.dta` is not an office-event file. The rerun's
+aggregate JSON matched the committed output byte-for-byte
+(`sha256=1011e19b20403ceb6ced65f3e7ca408adb104ac07aa140687faced4cb3d677d0`).
 
 The output records input hashes and the analyst-script hash. No person-level
 identifiers are written to the committed output.
