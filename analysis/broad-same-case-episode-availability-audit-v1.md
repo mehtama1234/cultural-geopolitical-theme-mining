@@ -34,7 +34,6 @@ separate.
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
-| CFPB medical-debt route (25 cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
 
 ## Result
 
@@ -46,8 +45,9 @@ complements, but they cannot be joined into one consumer or household story.
 
 The safe broad-program conclusion is therefore a measurement result: the atlas
 has substantial exposure, adaptation, route, formal remedy, and selected follow-up evidence,
-but not a closed same-case event chain. The medical-debt query strengthens the
-institutional-route coverage without supplying the underlying household
+but not a closed same-case event chain. The attempted medical-debt query
+revealed an API sub-product filtering failure rather than a valid new route;
+it strengthens the acquisition-control layer but supplies no new household
 episode or verified remedy. This explains why the program should
 prioritize an episode key and stage-specific missingness over additional
 cross-sectional pressure measures.
