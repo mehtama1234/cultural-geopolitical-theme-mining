@@ -75,6 +75,13 @@ productivity estimate or generalized AI rule. The correction changes the
 firm’s obligations, but the public record does not prove that the affected
 opportunity was restored.
 
+A 17 September 2026 recheck of the DOJ settlement ledger, the executed
+agreement, and the exact investigation-number/company surface found no later
+public confirmation of payment, completed training or policy revision, IER
+monitoring or cure, applicant-level back pay, or restored consideration. This
+is a bounded non-observation: it does not establish non-payment or
+non-compliance. See the [compliance follow-up audit](../elegant-settlement-compliance-follow-up-audit-2026-09-17.md).
+
 ## Limits and counterexamples
 
 - The settlement summary does not say that the AI tool selected applicants or

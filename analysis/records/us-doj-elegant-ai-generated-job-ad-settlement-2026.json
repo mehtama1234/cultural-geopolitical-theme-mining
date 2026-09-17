@@ -45,6 +45,7 @@
   ],
   "related_sources": [
     {"source_url": "https://www.justice.gov/crt/settlements-and-lawsuits", "claim": "The DOJ settlement ledger identifies Elegant's February 2026 settlement terms and places it within the broader Protecting U.S. Workers enforcement series.", "status": "primary-case-ledger"},
+    {"source_url": "../../projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md", "claim": "A 2026-09-17 official-source recheck found no public payment confirmation, monitoring/cure result, or applicant-level restoration record; this is a bounded non-observation.", "status": "follow-up-audit"},
     {"source_url": "../../projects/ai-work-control/worker-workplace-event-ledger-v1.md", "claim": "The worker/workplace ledger defines the missing exposure, outcome, voice, household, and exit fields.", "status": "design-specification"}
   ],
   "boundary": "This is a named US AI-assisted recruiting enforcement event linking automated language to an alleged exclusion and dated institutional correction. It does not estimate AI discrimination prevalence, independently identify the model's role in the decision, establish applicant-level opportunity loss or recovery, or close later trust, switching, political action, household, or geopolitical consequences."
