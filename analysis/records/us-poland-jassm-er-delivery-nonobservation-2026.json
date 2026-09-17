@@ -8,7 +8,7 @@
   "geography": "Poland and US-origin JASSM-ER procurement relationship",
   "observations": [
     {
-      "period": "2024-05-28 agreement; current page rechecked 2026-09-14",
+      "period": "2024-05-28 agreement; current page rechecked 2026-09-16",
       "denominator": {"value": 1, "unit": "Polish Ministry of National Defence JASSM-ER agreement page", "value_type": "official_page"},
       "measures": {
         "agreement_value": {"value": 735, "unit": "US dollars millions, approximate reported value", "value_type": "reported"},
@@ -43,7 +43,7 @@
       "status": "compared"
     },
     {
-      "period": "2026-09-14 current-source non-observation",
+      "period": "2026-09-16 current-source non-observation",
       "denominator": {"value": 1, "unit": "reviewed official Polish and US source set for the 2024 order", "value_type": "source_audit"},
       "measures": {
         "delivery_notice_found": {"value": false, "unit": "boolean in reviewed source set", "value_type": "nonobservation"},
@@ -56,7 +56,7 @@
       "subgroup": "2024 JASSM-ER order, distinguished from earlier JASSM stock and other Polish missile programs.",
       "counterinterpretation": "Operational or logistical records may be unpublished, delayed, or labeled under a broader modernization or air-force program.",
       "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
-      "retrieval_hash": "sha256:5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6",
+      "retrieval_hash": "sha256:7c1b10d4365b6eed6274b239c1b9e957712e21dd507ed3a799c55f77768f5d52",
       "status": "compared"
     }
   ],

@@ -17,8 +17,10 @@ integration milestone for the 2024 JASSM-ER order, training, or inventory
 change. A fresh 2026-09-16 targeted recheck of the official Polish Ministry of
 National Defence page and Polish/US defense-release routes found no additional
 realization notice; the ministry page still carries the 2026–2030 delivery
-window for the 2024 agreement. This remains a public-source non-observation,
-not proof that no delivery has occurred outside the reviewed releases.
+window for the 2024 agreement. The current page capture hashes to
+`sha256:7c1b10d4365b6eed6274b239c1b9e957712e21dd507ed3a799c55f77768f5d52`.
+This remains a public-source non-observation, not proof that no delivery has
+occurred outside the reviewed releases.
 
 This is a **public-source non-observation**, not a claim that no delivery has
 occurred. It means the reviewed official record does not support promoting the
