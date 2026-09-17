@@ -3,7 +3,7 @@
 **Checked:** 2026-09-16  
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 256 canonical records, 981 observations, 14 program
+**Registry checkpoint:** 257 canonical records, 983 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
@@ -30,6 +30,7 @@ turning adjacent evidence into one causal story.
 - [MEPS event six-month follow-up](analysis/projects/us-household-constraint-cascade/meps-event-six-month-followup-v1.md): strict-window events carried to later R5/3 health and employment levels plus conditional onset/resolution transitions.
 - [MEPS event-to-work two-clock audit](analysis/projects/us-household-constraint-cascade/meps-event-work-two-clock-audit-v1.md): R4/2 nonemployment levels are aligned with the existing R5/3 status-change, onset, and resolution surfaces while retaining the smaller follow-up universe.
 - [MEPS friction-to-later-panel screen](analysis/projects/us-household-constraint-cascade/meps-friction-later-panel-v1.md): reported denial/prior-authorization friction carried to later health and employment transitions, with source hashes in the compact output.
+- [MEPS prescription-event six-month follow-up](analysis/projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md): a dated first prescription event is carried into later health and employment transitions, with mixed direction and explicit open treatment-continuity and remedy arrows.
 - [Institutional response and remedy route](analysis/projects/us-household-constraint-cascade/institutional-response-remedy-route-v1.md): complaint/denial visibility is separated from verified correction, recovery, trust, and exit.
 - [Medical-debt relief causal benchmark](analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md): downstream randomized debt relief improves selected credit access without establishing health, care, or broad household recovery.
 - [Next acquisition decision](analysis/projects/us-household-constraint-cascade/next-acquisition-decision-v1.md): a storage-conscious UAS go/no-go route; no new microdata are downloaded in the current pass.

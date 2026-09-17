@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-prescription-event-six-month-followup-2024",
+  "title": "A dated prescription event sits beside mixed later health and employment transitions",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status"],
+  "source_unit": "MEPS 2024 person records with a first HC-254A prescription event strictly inside the R3/1-to-R4/2 window and valid R3/1, R4/2, and R5/3 round ordering",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; first prescription event strictly inside R3/1-to-R4/2, followed from R4/2 to R5/3",
+      "denominator": {"value": 724, "unit": "people with a first valid prescription event in the window; outcome-specific valid denominators vary", "value_type": "event_timing_people"},
+      "measures": {
+        "fair_or_poor_health_r4": {"value": 9.2647441214, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.2385122073, "valid_records": 684},
+        "fair_or_poor_health_r5": {"value": 9.4683401091, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.3381624490, "valid_records": 684},
+        "health_worsened_r4_to_r5": {"value": 19.62475156699, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.7916000497, "valid_records": 684},
+        "employment_status_changed_r4_to_r5": {"value": 13.1521314304, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.6815487634, "valid_records": 493},
+        "nonemployment_onset": {"value": 12.8076739167, "unit": "percent among employed baseline respondents; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 3.6473251376, "valid_records": 140},
+        "nonemployment_resolved": {"value": 11.4290991047, "unit": "percent among nonemployed baseline respondents; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 3.1324261864, "valid_records": 143}
+      },
+      "method": "Identify the first valid HC-254A prescription event month strictly after R3/1 and strictly before R4/2; join the person to R3/1, R4/2, and R5/3 health and employment fields; calculate weighted shares with PERWT24F and 128 MEPS BRR replicates.",
+      "uncertainty": "This is a selected month-ordered comparison, not a prescription effect or recovery estimate. The event may reflect prior need, severity, access, coverage, or treatment initiation; exact event day, intended need, fill or nonfill, adherence, completion, and treatment continuity are not observed. Employment movement is not job loss, hours, earnings, control, or security.",
+      "subgroup": "People with a first valid prescription event in the window; health and employment transition denominators are field-specific.",
+      "counterinterpretation": "The mixed pattern—health worsening is not higher while employment movement, onset, and resolution are higher—can reflect selection, baseline differences, treatment initiation, seasonal timing, or common unmeasured conditions rather than an event-driven trajectory.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "hc256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; prescription:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:b9f8bd411ffe7394b7f4c6d1a5e0f676f501be9bcc4dcf40755a9f6105b976b1; result:sha256:16937969e6b1fffd0f27ad8d63e0a7f48c5f3acae04c04fc514cb547a11bd359",
+      "status": "compared"
+    },
+    {
+      "period": "2024; no prescription event strictly inside R3/1-to-R4/2, followed from R4/2 to R5/3",
+      "denominator": {"value": 17967, "unit": "people without a first valid prescription event in the window; outcome-specific valid denominators vary", "value_type": "comparison_people"},
+      "measures": {
+        "fair_or_poor_health_r4": {"value": 10.5212636755, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.3350762599, "valid_records": 17623},
+        "fair_or_poor_health_r5": {"value": 10.8524675601, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.3363966834, "valid_records": 17584},
+        "health_worsened_r4_to_r5": {"value": 22.16390835694, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.4554932733, "valid_records": 17553},
+        "employment_status_changed_r4_to_r5": {"value": 9.3225371933, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.2424724447, "valid_records": 14499},
+        "nonemployment_onset": {"value": 7.1073482700, "unit": "percent among employed baseline respondents; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.4116153477, "valid_records": 6089},
+        "nonemployment_resolved": {"value": 5.1918953953, "unit": "percent among nonemployed baseline respondents; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.4048130682, "valid_records": 5986}
+      },
+      "method": "Use the same valid round-order universe and outcome definitions as the event-window group, excluding people with a first valid prescription event strictly inside the R3/1-to-R4/2 window.",
+      "uncertainty": "This is not a no-need, untreated, or matched control group. Differences may reflect prior need, health, age, coverage, access, employment, attrition, or other selection; no causal or recovery estimate is claimed.",
+      "subgroup": "People without a first valid prescription event in the window; health and employment transition denominators are field-specific.",
+      "counterinterpretation": "The comparison group can include people with prescriptions outside the window and people with unmeasured care needs, so the contrast cannot establish that the event caused later outcomes.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256",
+      "retrieval_hash": "hc256:sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5; brr:sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e; prescription:sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5; script:sha256:b9f8bd411ffe7394b7f4c6d1a5e0f676f501be9bcc4dcf40755a9f6105b976b1; result:sha256:16937969e6b1fffd0f27ad8d63e0a7f48c5f3acae04c04fc514cb547a11bd359",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-household-constraint-cascade/data-meps-prescription-event-six-month-followup-2024.json", "claim": "The machine output preserves the event-window and comparison estimates, outcome-specific valid records, input hashes, and boundary.", "status": "machine-output"},
+    {"source_url": "../projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md", "claim": "The method note documents the same-person round ordering, interpretation, open arrows, and reproduction command.", "status": "method-note"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254A&prfricon=yes", "claim": "Official MEPS prescription-event public-use file source.", "status": "official-source"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_meps_event_six_month_followup.py", "primary_input": "HC-256 local archive", "replicate_input": "HC-036BRR local archive", "prescription_event_input": "HC-254A local archive", "result": "The local rerun produced 724 event-window people and 17,967 comparison people with BRR standard errors; raw archives remain outside the repository."},
+  "boundary": "This is a month-ordered descriptive transition layer. It does not establish a prescription effect, recovery, adherence, treatment continuity, household adaptation, remedy, trust, political action, switching, exit, or geopolitical consequence.",
+  "status": "compared"
+}
