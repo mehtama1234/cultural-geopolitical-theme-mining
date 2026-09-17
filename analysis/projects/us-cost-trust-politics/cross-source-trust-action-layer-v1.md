@@ -1,6 +1,6 @@
 # Cross-source trust, meaning, and action layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-16
 **Status:** cross-source societal synthesis; not a person-level join or causal estimate
 
 ## Why this layer exists
@@ -62,6 +62,14 @@ Three provisional patterns are visible:
    Mobilizers, Connectors, Spectators, and Outsiders show that civic action is
    multidimensional. The ability to act depends on time, money, information,
    social ties, rights, and the cost of exit.
+
+The SHED panel makes the material side more precise: financial-condition path
+and later income band jointly sort persistence and re-entry into cheaper
+purchases, reduced use, saving cuts, borrowing, delayed purchases, and
+emergency-fund use. The cells are not a single income ladder; they are a
+distribution of distinct adaptations. This sharpens the political bridge:
+which adaptation displaced what, who was blamed, and which forms of action—if
+any—followed?
 
 The broad working interpretation is therefore:
 
@@ -125,6 +133,12 @@ The strongest currently available design is to keep the source layers separate
 but align them by a common measurement schema: exposure, mechanism, actor,
 choice, outcome, distribution, and uncertainty. A valid individual link may be
 added only when the same respondent or case is actually observed across steps.
+
+The [SHED income × financial-condition path layer](../us-household-financial-pressure/shed-panel-income-condition-path-layer-v1.md)
+is therefore a richer material-adaptation input, not a bridge to ANES, Pew,
+CCES, or HTOPS political outcomes. Its 2025 income band is measured at the
+later wave, and its panel weights do not turn the descriptive cross-tab into a
+causal or longitudinally attrition-adjusted estimate.
 
 ## What would change the picture
 

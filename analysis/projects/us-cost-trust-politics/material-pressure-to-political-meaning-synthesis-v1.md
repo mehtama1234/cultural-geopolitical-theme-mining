@@ -1,6 +1,6 @@
 # When material pressure reaches political meaning—and when it does not
 
-**Status:** reader-facing synthesis of linked US survey evidence · **Checked:** 2026-09-15  
+**Status:** reader-facing synthesis of linked US survey evidence · **Checked:** 2026-09-16
 **Scope:** household expense pressure, food and energy security, work, institutional confidence, identity, attribution, and political action
 
 ## The question
@@ -42,6 +42,14 @@ also shows where the simple story breaks.
    April weights are not documented as longitudinal attrition-adjusted
    weights, and the survey does not identify the bill, actor, attribution,
    remedy, action, or recovery.
+
+The separate SHED 2024–2025 panel layer adds a useful distributional
+counterweight: among 4,419 recontacted respondents with valid condition paths
+and later income bands, worsening paths generally show more persistence or
+re-entry into price, use, saving, borrowing, and purchase-delay adaptations
+than improving paths. The pattern is behavior-specific and non-monotonic
+across income bands, so it strengthens the material-adaptation layer without
+supplying the missing attribution, trust, or political-action link.
 
 The evidence therefore strengthens the material-to-meaning research program by
 showing that later hardship and institutional judgment can separate. It does
@@ -164,6 +172,8 @@ The linked panel establishes a bounded architecture:
 ```text
 April expense condition
   → June food, energy, or work condition
+  → [separate SHED panel layer] adaptation persistence/re-entry by condition
+    path and later income band
   → June institutional confidence
   → [open] actor attribution, complaint, appeal, vote, organizing, or exit
   → [open] remedy, recovery, and later legitimacy
@@ -211,6 +221,7 @@ self-reported items and a short follow-up window.
 - [Baseline retention audit](data/htops-2025-panel-attrition-audit.json)
 - [Cross-lagged audit](data/htops-2025-cross-lagged-panel-audit.json)
 - [July expense-to-confidence finding](findings/us-cost-trust-politics-027.md)
+- [SHED income × financial-condition path layer](../us-household-financial-pressure/shed-panel-income-condition-path-layer-v1.md)
 - [Census HTOPS/HPS public-use data](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html)
 
 **Evidence status:** same-respondent descriptive panel synthesis with

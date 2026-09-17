@@ -1,6 +1,6 @@
 # Economic adaptation, perception, and public action layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-16
 **Status:** cross-source population synthesis; not a same-person join or causal estimate
 
 This layer addresses a central question in the broad program: how can
@@ -24,7 +24,7 @@ sequence is therefore a research model, not a completed causal chain.
 
 | Layer | Source and unit | What is measured | Result currently available | What it does not prove |
 |---|---|---|---|---|
-| Consumer adaptation | Federal Reserve 2025 SHED, US adults | Responses to higher prices and financial condition | 77% of adults reported at least one response, such as buying cheaper goods, using less, delaying purchases, saving less, borrowing, or working more. | Which price caused which response, or whether the response changed trust or politics. |
+| Consumer adaptation | Federal Reserve 2025 SHED, US adults; 2024–2025 recontacted respondent panel | Responses to higher prices and financial condition, including persistence and re-entry by later income band and condition path | 77% of adults reported at least one response. In the 4,419-person panel layer, worsening paths generally had more persistence and re-entry into cheaper purchases, reduced use, saving cuts, borrowing, and delayed purchases than improving paths, but the cells were not a universal income gradient. | Which price caused which response, or whether the response changed trust or politics. Later income band is not baseline wealth or liquid cash. |
 | Economic perception and institutional meaning | ANES 2024, eligible-voter respondent | Financial worry, national economic judgment, government trust, perceived concentrated interests/waste, party identity, and reported vote | 72.6% of the extremely worried said the national economy got worse, versus 44.5% of those not at all worried. Among the same groups, 67.7% versus 51.3% said they trusted the federal government only some of the time or never. | That a particular bill or price caused the judgment, trust response, or vote; party identity and information are alternative explanations. |
 | Civic and information action | Pew 2025, US adult respondent and public account analysis | Voting, volunteering, contacting officials, discussion, news attention, sharing, and source use | Pew identifies Mobilizers, Connectors, Spectators, and Outsiders. About 9% were Mobilizers, 28% Connectors, and 41% of Outsiders said they voted in 2024. | Permanent social types, platform causation, persuasion, polarization, or a universal participation decline. |
 
@@ -51,7 +51,10 @@ acting. These distinctions are necessary for identifying societal trends.
 
 1. **Adaptation is widespread but not uniform.** SHED shows that price pressure
    enters everyday life through a menu of consumer, financial, and labor
-   adjustments, not one hardship score.
+   adjustments, not one hardship score. The 2024–2025 panel also shows that
+   persistence and re-entry vary jointly with reported income band and changing
+   financial condition; borrowing, emergency-fund use, reduced use, and work
+   responses do not form one universal income gradient.
 2. **Personal experience and national judgment can diverge.** Federal Reserve
    SHED reports that 73% of adults said they were doing okay or living
    comfortably, while the national economic view was much less favorable. ANES
@@ -109,6 +112,7 @@ action.
 - [Federal Reserve 2025 overall financial well-being](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm)
 - [SHED price-adaptation layer](../us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
 - [SHED 2024–2025 panel persistence layer](../us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
+- [SHED income × financial-condition path layer](../us-household-financial-pressure/shed-panel-income-condition-path-layer-v1.md)
 - [ANES 2024 political judgment layer](anes-2024-political-judgment-layer-v1.md)
 - [Pew 2025 news and civic-engagement layer](../us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md)
 - [Cross-source trust, meaning, and action layer](cross-source-trust-action-layer-v1.md)
