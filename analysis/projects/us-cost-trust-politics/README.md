@@ -147,6 +147,14 @@ remain separate outcomes. The result is a cross-sectional association, not a
 dated bill-to-trust pathway; the reproduction audit preserves the public-use
 file hashes and successive-difference calculation.
 
+The companion [March-to-July social/institutional finding](findings/us-cost-trust-politics-033.md)
+keeps that confidence result separate from the corrected March social-
+connection gradient. Across retained releases, expense difficulty maps onto
+loneliness and support adequacy more sharply than contact frequency, while
+institution-specific confidence gaps differ in size. This is a cross-release
+comparison, not a respondent-linked sequence; a dated event, usable
+alternative, practical help, remedy, recovery, and later action remain open.
+
 The reader-facing [material-pressure to political-meaning synthesis](material-pressure-to-political-meaning-synthesis-v1.md)
 puts the linked-panel follow-up cells, subgroup counterexamples, attrition
 diagnostics, and institution-specific confidence boundary into one end-to-end
