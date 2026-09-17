@@ -332,6 +332,13 @@ assessment. It strengthens the material-to-meaning bridge while preserving
 the distinct question universes and leaving attribution, trust, voting, and
 recovery open.
 
+The [NBER real-wage and inflation electoral-signal finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md)
+adds a full-paper-audited county layer separating local price growth, nominal
+income, real purchasing power, and 2020–2024 electoral outcomes. Its preferred
+models are informative about county political-economy variation, but not
+individual attribution, household adaptation, causal economic voting, or the
+route from a specific bill to trust and action.
+
 The [July 2026 Census HTOPS/HPS record](records/us-census-htops-hps-material-trust-july-2026.json)
 adds a newer current pulse with weighted expense/price pressure, energy and
 food routes, anxiety/loneliness, and institutional-trust measures in one

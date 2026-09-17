@@ -302,8 +302,9 @@ judgment.
 ## Route 5: financial position becomes political meaning
 
 Read the [financial position, trust, fairness, and politics finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-012.md),
-the [July expense-difficulty and institutional-confidence finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-027.md),
-and the [historical GSS financial/trust finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-024.md).
+	the [July expense-difficulty and institutional-confidence finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-027.md),
+	the [real-wage and inflation electoral-signal finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md),
+	and the [historical GSS financial/trust finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-024.md).
 
 **Theme:** material position can coexist with judgments about fairness and
 institutional trust before it becomes a measured political action.
@@ -330,6 +331,12 @@ expense difficulty versus 43.9% among those reporting none, while high
 confidence in Congress was 13.8% versus 20.8%. These are same-round
 replicate-weighted associations, not evidence that a particular bill caused
 distrust or political action; the institutions must remain separate.
+
+The NBER county study adds an ecological political-economy layer: real-wage
+decline and inflation retain distinct associations with 2020–2024 county vote
+shares, margins, and turnout. It separates price growth from purchasing-power
+loss, but county averages do not identify the household that paid the cost, the
+adaptation it made, the actor it blamed, or the individual action taken.
 
 **Open arrow:** prior identity, event timing, attribution, direct civic
 action, institutional response, and recovery are needed before calling this
