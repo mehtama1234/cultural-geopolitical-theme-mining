@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 288 canonical records, 1031 observations, 14 program
+**Registry checkpoint:** 289 canonical records, 1032 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
@@ -77,6 +77,9 @@ its unresolved arrows visible:
 - [Harvey recovery-and-legitimacy bridge](site/us-harvey-recovery-aid-legitimacy-001.html):
   recovery progress coexisted with persistent disruption, unmet-help reports,
   and doubts that relief reached those most in need.
+- [Small-business size-rule bridge](site/us-small-business-support-size-rule-001.html):
+  expanding eligibility toward larger firms is associated with lower small-firm
+  revenue, more exits, lower wages, and less patenting.
 - [CCES panel job-loss follow-up](site/us-cost-trust-politics-029.html):
   a prior job-loss screen precedes later Congress approval, contact, and action;
   action is lower while institution-specific approval is not uniformly lower.

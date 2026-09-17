@@ -19,3 +19,9 @@ Move on after one study measures a size-rule change, one source measures firm su
 ## Matched evidence pass
 
 The first matched check is [A wider small-business rule can push the smallest firms out](../../findings/us-small-business-support-size-cutoff-matched-evidence-001.md), with its [HTML reading page](../../../site/us-small-business-support-size-cutoff-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms firm and procurement effects while leaving customer, worker, and owner-household effects open.
+
+The new [size-rule finding](findings/us-small-business-support-size-rule-001.md)
+promotes the current NBER abstract into the canonical atlas. It preserves the
+causal revenue, procurement, exit, wage, and patenting directions while keeping
+program identity, effect sizes, customer welfare, owner households, and public
+legitimacy open.

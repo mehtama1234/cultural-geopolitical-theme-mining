@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 288 records and
-1031 observations.
+have exact registered-URL references. The trend registry holds 289 records and
+1032 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -248,6 +248,13 @@ among more heavily affected groups. This is a descriptive legitimacy surface,
 not a causal aid-to-action result; the next route is a lawful same-resident
 link to verified aid, displacement, health/work recovery, and later civic
 behavior.
+
+The small-business size-rule case adds an institutional-allocation counterpoint:
+expanding support eligibility toward larger firms is associated with lower
+revenue and more exits among the smallest firms, alongside lower wages and
+patenting. It remains abstract-level evidence with customer prices, owner
+households, and program-specific effect sizes open; the next step is a compact
+threshold/table audit rather than a broad support-program aggregate.
 
 ### ILOSTAT comparison gate
 

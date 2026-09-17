@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 288 machine-readable records, 1031 observations,
+**Current registry state:** 289 machine-readable records, 1032 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 551 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1630,10 +1630,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 288 trend records and 1031 observations pass the
+the current checkpoint: 289 trend records and 1032 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,193 local Markdown links and 560 published HTML pages pass link
+families; 1,194 local Markdown links and 561 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
