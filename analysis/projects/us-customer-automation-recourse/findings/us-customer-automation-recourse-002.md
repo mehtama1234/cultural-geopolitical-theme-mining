@@ -6,7 +6,7 @@
 
 The current U.S.-centered atlas contains many measured pressures, institutional
 routes, administrative decisions, and some access-restoration or recovery
-signals. A systematic screen of six retained routes finds **zero** that meet
+signals. A systematic screen of eight retained routes finds **zero** that meet
 the program's stronger practical-optionality standard: the same unit must have
 a dated trigger, an observed alternative or non-use choice, an institutional
 response, a verified protected or sacrificed outcome, and a later behavior or
@@ -33,10 +33,13 @@ condition or restriction
 | SHED fraud/recovery | Adult respondent and incident; conditional survey estimates | Fraud exposure, recovery, and time/financial burden reports | Named account, verified remedy, replacement route, continued use/switching | No |
 | Housing/insurance market | Policy/property/place records | Nonrenewal and residual-market/backstop movement | Household notice, replacement, claim/repair, payment, move/stay | No |
 | Local service capacity | Resident/place/firm records | Presence, entry/exit, shortage, travel context, and public routes | Dated resident attempt, usable substitute, completed use, restoration, later action | No |
+| Doxo bill-payment enforcement | Named institutional case; 2 observations | Search-route confusion, alleged fees, subscription friction, and order-stage controls | Payment success, bill status, service continuity, remedy receipt, trust, switching/exit | No |
+| Grubhub multisided redress | Named platform program; 640,038 reported recipients | Aggregate checks/PayPal distribution and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit | No |
 
 The machine-readable [qualification register](../data/end-to-end-event-qualification-register-2026-09-17.json)
 preserves the route-level units, denominators, missing fields, and next
-minimum field for each screen. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
+minimum field for the original six-route screen. This finding extends that
+screen with the two newly retained consumer-remedy records. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
 is the broader cross-domain inventory; this finding applies its promotion rule
 to a smaller, explicit candidate set.
 
@@ -49,7 +52,10 @@ restored, a benefit state that changes, or a market that expands a backstop can
 all be important institutional events. None alone shows that a person regained
 security, could choose a substitute, or left without an unacceptable cost.
 
-The comparison identifies a recurring structural split:
+The comparison identifies a recurring structural split. The two newly included
+consumer-remedy cases sharpen it: even when an enforcement record names an
+operator and a formal control or payment distribution, it may still omit the
+affected unit's usable alternative and lived outcome.
 
 - **Visibility:** the problem enters a public, administrative, survey, or market
   record.
@@ -80,7 +86,7 @@ recovery, and market movement into household mobility.
   evidence, but they do not identify a provider-level remedy or later switching.
 - Insurance backstop growth and establishment counts describe the option
   environment, not a particular household's usable choice.
-- The six routes use different units, clocks, denominators, and selection
+- The eight routes use different units, clocks, denominators, and selection
   mechanisms. They cannot be pooled into a practical-exit rate.
 
 ## Next qualifying design
@@ -125,6 +131,8 @@ alternative → remedy/recovery → later meaning/action or exit**.
 - [CFPB practical-exit contract dry-run](../cfpb-practical-exit-contract-dry-run-v1.md)
 - [Platform-remedy field-availability audit](../platform-remedy-field-availability-audit-v1.md)
 - [Broad program next-pass queue](../../../US-BROAD-NEXT-PASS-QUEUE_V1.md)
+- [Doxo bill-payment record](../../../records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
+- [Grubhub remedy record](../../../records/us-ftc-grubhub-multisided-remedy-2026.json)
 
 This finding reads retained local records and audits only. It adds no bulk
 download and makes no population-level exit or remedy estimate.
