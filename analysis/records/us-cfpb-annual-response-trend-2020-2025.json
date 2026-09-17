@@ -108,6 +108,25 @@
       "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
       "retrieval_hash": "786208fcb8c3149a68fa35f7984cab994afb9019e16b59775d729d414bcd710f",
       "status": "observed"
+    },
+    {
+      "period": "2025 CFPB annual report; received → routed → company response",
+      "denominator": {"value": 6635400, "unit": "complaints received by CFPB in 2025; rounded report count as of 2026-03-02", "value_type": "administrative_count"},
+      "measures": {
+        "sent_to_companies": {"value": 5984100, "unit": "complaints; approximately 90% of received complaints", "value_type": "administrative_count"},
+        "referred_to_other_regulators": {"value": 3, "unit": "percent of received complaints", "value_type": "share"},
+        "not_actionable": {"value": 7, "unit": "percent of received complaints", "value_type": "share"},
+        "sent_to_company_within_one_day": {"value": 97, "unit": "percent of complaints sent to companies", "value_type": "share"},
+        "company_timely_response": {"value": 99, "unit": "percent of complaints sent to companies; more than 99%", "value_type": "share"},
+        "confirmed_relationship_closed": {"value": 5416600, "unit": "complaints closed with explanation or relief after company confirmed a commercial relationship; approximately", "value_type": "administrative_count"}
+      },
+      "method": "CFPB 2025 Consumer Response Annual Report, complaint data current as of 2026-03-02; annual intake, routing, and company-response administrative counts are kept separate from the published API snapshot.",
+      "uncertainty": "Report counts are rounded and exclude duplicates, whistleblower tips, and complaints found not actionable; received complaints are not unique consumers, and routing or timely response does not establish substantive correction, adequate relief, or household recovery.",
+      "subgroup": "Complaints received by the CFPB in calendar year 2025 across financial products; credit or consumer reporting complaints account for the dominant share.",
+      "counterinterpretation": "The gap between received, routed, and published/closed records reflects eligibility, identity, commercial-relationship, and administrative filters; the large credit-reporting volume also makes aggregate movement a data-integrity and system-use question, not a simple rise in consumer harm.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_2025-cr-annual-report_2026-03.pdf",
+      "retrieval_hash": "cfpb-2025-cr-annual-report:sha256:5364f19086de5a0ede17c11933c1b69d528dd2a3271700e34217634bb32230e0",
+      "status": "reported"
     }
   ],
   "boundary": "This is a trend in published complaint-system records. It is not a representative consumer sample, account-denominated harm rate, verified remedy rate, trust measure, switching measure, or causal estimate."

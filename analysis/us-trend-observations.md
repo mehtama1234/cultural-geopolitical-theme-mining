@@ -238,7 +238,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is complaint-system visibility, not medical-debt prevalence, harm incidence, a rate among debtors, verified remedy, money recovered, care restoration, trust, switching, or exit. No CFPB record is joined to a MEPS person or household.
 
-| The visible CFPB complaint-response endpoint changed over time | voice, cost | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, firm_sector_market_power | published CFPB complaint record grouped by calendar year received | United States | 6 | 2020; 2021; 2022; 2023; 2024; 2025 | observed | [open](records/us-cfpb-annual-response-trend-2020-2025.json) |
+| The visible CFPB complaint-response endpoint changed over time | voice, cost | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, firm_sector_market_power | published CFPB complaint record grouped by calendar year received | United States | 7 | 2020; 2021; 2022; 2023; 2024; 2025; 2025 CFPB annual report; received → routed → company response | observed; reported | [open](records/us-cfpb-annual-response-trend-2020-2025.json) |
 
 **Boundary:** This is a trend in published complaint-system records. It is not a representative consumer sample, account-denominated harm rate, verified remedy rate, trust measure, switching measure, or causal estimate.
 

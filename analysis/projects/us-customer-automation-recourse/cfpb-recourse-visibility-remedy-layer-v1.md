@@ -12,6 +12,24 @@ the consumer's narrative voice, and the public visibility of the company's
 position. None of these alone proves that the underlying problem was solved or
 that the consumer regained trust or exit power.
 
+## The 2025 intake denominator is larger than the published snapshot
+
+The CFPB's 2025 Consumer Response Annual Report provides a separate
+intake-to-response frame: approximately 6,635,400 complaints were received,
+5,984,100 (about 90%) were sent to companies, and approximately 5,416,600 were
+closed after a company confirmed a commercial relationship and provided an
+explanation or relief. The Bureau reports that 97% of complaints sent to
+companies were sent within a day or less and that companies gave timely
+responses to more than 99% of those sent for review.
+
+These counts cannot be substituted for the 5,452,107 published-record API
+denominator used elsewhere in this project. The annual report excludes or
+filters duplicates, non-actionable submissions, referrals, pending records,
+and other cases; its counts are rounded and current as of March 2, 2026.
+The gap is itself evidence about institutional visibility: received,
+routed, company-responded, published, and relief-coded records are different
+stages, and none is a verified consumer recovery rate.
+
 ## What the institution records
 
 | Recorded feature | Count | Share |

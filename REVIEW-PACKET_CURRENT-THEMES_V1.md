@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 275 canonical records, 1017 observations, 14 program
+**Registry checkpoint:** 275 canonical records, 1018 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
@@ -43,6 +43,9 @@ its unresolved arrows visible:
   an eligible consumer class, aggregate compensable harm, administrator, and
   ongoing distribution are visible; payment receipt, residual loss, trust,
   and exit remain unobserved.
+- [CFPB complaint intake and response boundary](site/consumer-recourse-visibility-remedy-synthesis-v1.html):
+  2025 received, routed, company-response, and published denominators diverge;
+  response timing is visible, but substantive correction and recovery are not.
 - [CPSC hazard, recall, and remedy layer](site/cpsc-hazard-recall-remedy-layer-v1.html):
   recalls, violation notices, import examinations, marketplace takedowns, and
   FY2024/FY2025 response measures show institutional interruption; notice

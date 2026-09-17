@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 275 machine-readable records, 1017 observations,
+**Current registry state:** 275 machine-readable records, 1018 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 547 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -787,7 +787,12 @@ The 2025 published-record mix shifts toward explanation and away from
 non-monetary and monetary response labels, while published narrative presence
 falls. The current index includes an in-progress category and a larger product
 mix; this is a change in the institutional record, not a verified change in
-consumer remedy, trust, or exit.
+consumer remedy, trust, or exit. The CFPB's 2025 annual report adds a separate
+intake frame—6.6354 million received, 5.9841 million sent to companies, and
+5.4166 million closed after a confirmed commercial relationship—while
+preserving the distinction from the 5.4521 million published API records.
+These stages expose routing and data-integrity filters; they do not create a
+consumer harm or recovery rate.
 
 The product-safety lane now adds a current CPSC institutional-capacity
 counterpoint: FY2024 recalls, violation notices, import examinations, and
@@ -1625,7 +1630,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 275 trend records and 1017 observations pass the
+the current checkpoint: 275 trend records and 1018 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
 families; 1,177 local Markdown links and 547 published HTML pages pass link
