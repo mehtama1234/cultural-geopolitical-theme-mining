@@ -190,3 +190,9 @@ adds family composition, grandparent disability/age, child needs, legal status,
 poverty, childcare, housing, and local-support variation to themes 1, 2, 6, 7,
 9, and 10. It strengthens the family-as-care-institution arrow while leaving
 caregiver burden, stability, and program effects open.
+
+The [Pew 2026 electorate racial and ethnic composition layer](projects/us-cost-trust-politics/pew-2026-electorate-racial-ethnic-composition-layer-v1.md)
+adds citizenship, age, nativity, state geography, and eligible-voter structure
+to themes 7, 9, 10, 11, and 14. It strengthens the population-to-political-
+voice arrow while leaving registration, turnout, issue meaning, coalition, and
+representation open.

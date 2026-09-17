@@ -95,6 +95,9 @@ index or a claim that the same people appear in every source.
    preserve continuity while reallocating housing, work, childcare, health, and
    education burdens across generations and legal statuses. Read the [kinship
    families layer](site/gao-2026-kinship-families-intergenerational-care-support-layer-v1.html).
+16. **Demography becomes politics through conversion stages:** population,
+   citizenship, age, eligible-voter status, registration, turnout, and coalition
+   meaning are distinct. Read the [changing electorate composition layer](site/pew-2026-electorate-racial-ethnic-composition-layer-v1.html).
 
 ## Recent cross-theme additions
 

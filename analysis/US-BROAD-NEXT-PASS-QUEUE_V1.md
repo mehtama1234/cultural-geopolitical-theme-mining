@@ -2832,3 +2832,11 @@ evidence on caregiver work, disability, housing, childcare, benefits, legal
 status, school/health needs, respite, and placement stability. Keep foster and
 non-foster routes distinct and do not treat family care, poverty correlation,
 or program availability as proof of sustainability or child outcome.
+
+The [Pew 2026 electorate racial and ethnic composition layer](projects/us-cost-trust-politics/pew-2026-electorate-racial-ethnic-composition-layer-v1.md)
+adds a demographic-to-political conversion test. The next pass should use
+compact official evidence on citizenship, age, nativity, registration access,
+turnout, campaign contact, language infrastructure, issue meaning, and state
+geography. Keep population, eligible voters, registered voters, validated
+voters, identity, and coalition as separate stages; do not infer party choice
+from demographic composition.

@@ -1072,3 +1072,9 @@ adds family recomposition between parental absence and child/household
 security. It preserves open links from caregiver capacity and legal status to
 housing, work, benefits, childcare, health, school continuity, respite, and
 later placement stability.
+
+The [Pew 2026 electorate racial and ethnic composition layer](projects/us-cost-trust-politics/pew-2026-electorate-racial-ethnic-composition-layer-v1.md)
+adds demographic structure between population change and political voice. It
+preserves open links from age, citizenship, nativity, and geography to
+registration, participation, identity meaning, coalition, representation, and
+policy response.
