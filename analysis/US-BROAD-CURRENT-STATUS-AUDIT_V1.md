@@ -137,6 +137,11 @@ inpatient events against the R4/2 endpoint. It sharpens temporal selection and
 retains the office bill counterexample, but same-month ambiguity and
 after-event pre-event context remain; this is not a recovery or treatment
 effect estimate.
+The [MEPS event-payment finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-004.md)
+adds a strict-window counterexample: zero-payment acute-event groups have
+worse baseline and later health context than the $100-plus groups, while ER
+bill-problem shares are higher in the $100-plus band. Event payment therefore
+cannot stand in for the household bill, affordability, or recovery outcome.
 
 The [cross-channel institutional-friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
 adds a robustness layer across office, emergency-room, and inpatient event
