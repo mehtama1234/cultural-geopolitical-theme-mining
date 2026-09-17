@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. The continuity ledger records 51 documented
-rotations; the 39 numbered entries below are the cross-source synthesis
+rotations; the 40 numbered entries below are the cross-source synthesis
 artifacts currently carried in this table. They are bounded syntheses, not
 estimates of one pooled phenomenon:
 
@@ -82,6 +82,7 @@ estimates of one pooled phenomenon:
 | 37. Institutional voice and remedy clocks | [Political action menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md) and [consumer recourse synthesis](projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md) | Complaints, appeals, legal challenges, votes, contacts, and switching are distinct action channels; public routing, formal orders, payment/distribution, actual restoration, and exit run on separate clocks | Same-event attribution, action choice, remedy receipt, residual loss, durable trust, and practical exit |
 | 38. Worker-channel remedy versus restored opportunity | [OpenAI/Statsig recruitment settlement](projects/ai-work-control/findings/ai-work-control-085.md) and [Apple PERM implementation](projects/ai-work-control/findings/ai-work-control-086.md) | Recruitment-channel rules can redistribute application effort and produce either a prospective claimant/remedy process or reported back-pay completion; institutional remedy is not the same as restored consideration, durable compliance, or household recovery | Applicant-level exposure, payment receipt/distribution, restored opportunity, recurrence, worker voice, trust, political action, and exit |
 | 39. Consumer-remedy visibility versus lived recovery | [Eight-route practical-exit qualification](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md) | Doxo adds bill-payment search confusion, alleged fees, and order-stage controls; Grubhub adds aggregate checks/PayPal distribution and prospective worker, account, and restaurant controls; both strengthen the formal-response surface without showing the affected unit's usable alternative or protected outcome | Payment or income success, individual remedy receipt, durability, residual loss, trust, switching, non-use, and exit |
+| 40. AI recruiting rules and worker contestability | [Elegant settlement compliance follow-up](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md) and [NYC AEDT enforcement follow-up](projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md) | A named federal settlement supplies prospective policy, training, penalty, notice, and monitoring powers, while a city rule supplies bias-audit, notice, complaint, and referral routes; both make institutional contestability visible without showing worker-level correction or recovery | Tool-level exposure, notice receipt, appeal/override, decision correction, compensation, monitoring result, recurrence, worker trust, bargaining, and exit |
 
 ### The common pattern
 

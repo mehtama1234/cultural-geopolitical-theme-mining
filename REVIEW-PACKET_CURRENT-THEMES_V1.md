@@ -53,6 +53,12 @@ its unresolved arrows visible:
   education/control-stratified AI use are visible together; same-worker causal
   effects, captured gains, household consequences, trust, and political
   response remain open.
+- [AI recruiting contestability follow-up](site/elegant-settlement-compliance-follow-up-2026-09-17.html)
+  and [NYC AEDT enforcement acquisition audit](site/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.html):
+  a named federal settlement and a city complaint/bias-audit regime make
+  prospective worker protections and institutional entry routes visible;
+  applicant notice, appeal, correction, compensation, monitoring, recurrence,
+  trust, and exit remain unobserved.
 - [SNAP data governance](site/us-snap-data-governance-accountability-001.html)
   and [public-help synthesis](site/public-help-route-buffer-judgment-synthesis-v1.html):
   benefit administration, data-access/privacy conflict, and institutional

@@ -889,6 +889,19 @@ outcome, remedy receipt, durability, trust, switching, or exit. The expanded
 eight-route finding therefore strengthens the institutional-response surface
 without closing the same-case practical-recovery arrow.
 
+The current worker-control follow-up adds two storage-light official-source
+audits without counting them as a new population estimate. The [Elegant AI
+recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)
+rechecks a named federal settlement and finds enforceable penalty, notice,
+training, policy, inquiry, and cure provisions but no public confirmation of
+implementation, applicant restoration, or later worker behavior. The [NYC AEDT
+follow-up audit](projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md)
+finds a bias-audit, notice, complaint, and referral route but no public named
+worker outcome. Together they strengthen the institutional contestability
+stage of the AI/work lane while leaving tool exposure, notice receipt,
+appeal/override, correction, compensation, durable compliance, trust,
+bargaining, and exit open.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.

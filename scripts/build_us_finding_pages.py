@@ -333,6 +333,13 @@ def main():
     memos.append(ai_work_control_endpoint_audit)
     named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"
     memos.append(named_workplace_system_stage_ledger)
+    # Publish the newest storage-light AI/work enforcement follow-ups so the
+    # worker-control route exposes both official obligations and the absence
+    # of public worker-level implementation or recovery evidence.
+    elegant_followup = ROOT / "analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md"
+    nyc_aedt_followup = ROOT / "analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md"
+    memos.append(elegant_followup)
+    memos.append(nyc_aedt_followup)
     broad_same_case_episode_availability_audit = ROOT / "analysis/broad-same-case-episode-availability-audit-v1.md"
     memos.append(broad_same_case_episode_availability_audit)
     broad_next_episode_selection = ROOT / "analysis/broad-next-episode-selection-v1.md"
@@ -507,6 +514,8 @@ def main():
         material_meaning_action_audit: "material-meaning-action-endpoint-audit-v1.html",
         ai_work_control_endpoint_audit: "ai-work-control-endpoint-audit-v1.html",
         named_workplace_system_stage_ledger: "named-workplace-system-stage-ledger-v1.html",
+        elegant_followup: "elegant-settlement-compliance-follow-up-2026-09-17.html",
+        nyc_aedt_followup: "nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.html",
         broad_same_case_episode_availability_audit: "broad-same-case-episode-availability-audit-v1.html",
         broad_next_episode_selection: "broad-next-episode-selection-v1.html",
         household_finance_readme: "household-financial-pressure-program.html",
