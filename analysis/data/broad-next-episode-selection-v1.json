@@ -4,6 +4,12 @@
   "checked": "2026-09-17",
   "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
   "selection_rule": "Use the largest privacy-minimized same-person event surface to complete the local stage gate; once its missing middle is verified, prioritize the smallest gated acquisition capable of adding the missing event, choice, remedy, and meaning/action links, while retaining route-specific counterexamples without pooling them.",
+  "promotion_gate": {
+    "required_additions": ["episode_level_alternative_or_nonuse", "remedy_receipt_or_outcome_followup"],
+    "qualifying_local_route": false,
+    "decision": "No retained local route qualifies for end-to-end promotion; UAS remains the next acquisition candidate, while CFPB/platform records remain remedy-stage comparators.",
+    "reason": "MEPS lacks alternatives and remedy follow-up; CFPB/platform records lack recipient-level receipt and durable outcome; SHED/HTOPS lack a dated actor-linked remedy episode; UAS is registration-gated and its public documentation does not establish a verified remedy field."
+  },
   "ranked_routes": [
     {
       "rank": 1,

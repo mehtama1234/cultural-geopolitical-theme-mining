@@ -1,6 +1,6 @@
 # Broad next-episode selection v1
 
-**Status:** ranked route decision; local MEPS gate complete; no new estimate
+**Status:** ranked route decision; promotion gate applied; no qualifying local end-to-end route
 **Checked:** 2026-09-17
 **Machine record:** [next-episode selection](data/broad-next-episode-selection-v1.json)
 
@@ -28,6 +28,24 @@ institutional response and partial remedy or distribution evidence, but sparse
 alternatives, receipt, durability, trust, and exit. Keep SHED and HTOPS as
 panel context; do not join any of these sources into one person or household
 story.
+
+## Promotion-gate result
+
+No currently retained route qualifies for promotion to a new end-to-end
+finding. The governing gate requires both (a) an episode-level alternative or
+non-use observation and (b) a receipt or outcome follow-up. MEPS fails both
+requirements in its staged rows. The CFPB/platform route supplies formal
+response and redress comparators, but not recipient-level receipt or a defined
+post-remedy outcome. SHED/HTOPS supply persistence or adaptation context, but
+not a dated actor-linked remedy episode. UAS is the best next acquisition
+candidate for a same-respondent health-cost route, but its files are not yet
+available and its documentation does not establish a verified remedy field.
+
+The next pass may be promoted only after an acquired or lawfully linked source
+demonstrates both gate fields, reports their denominators and missingness, and
+preserves the distinction between institutional response and lived outcome.
+Until then, the correct output is an acquisition boundary or route-specific
+comparator—not a new causal or pooled trend claim.
 
 ## Required MEPS depth test
 
