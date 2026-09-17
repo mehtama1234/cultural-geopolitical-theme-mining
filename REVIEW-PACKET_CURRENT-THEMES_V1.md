@@ -315,6 +315,7 @@ external response before leverage is claimed.
 Read the [local capacity and immigration meaning finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-001.md),
 the [migration, local demand, housing, services, and belonging layer](analysis/projects/us-immigration-local-demand/migration-demand-housing-services-belonging-layer-v1.md),
 the [migration belonging and political-meaning specification](analysis/projects/us-immigration-local-demand/migration-belonging-political-meaning-layer-v1.md),
+the [WBNS immigrant-family essential-activity and safety-net concern layer](analysis/projects/us-immigration-local-demand/wbns-2025-immigration-concerns-essential-activity-chilling-layer-v1.md),
 and the [non-pooled place-capacity/belonging/action record](analysis/records/us-place-capacity-growth-belonging-action-crosssource-2024-2026.json).
 
 **Theme:** population change, local capacity, resident experience, belonging,
@@ -348,7 +349,10 @@ caused attitudes or action.
 dated local exposure, housing/service experience, attribution, belonging,
 trust, action, institutional response, and ability to stay or move. Population
 growth is not migration, a county capacity measure is not lived access, and an
-attitude is not observed political action.
+attitude is not observed political action. The new WBNS layer adds a national,
+family-level report of perceived-risk non-use of essential activities and
+public benefits, plus material and child outcomes, but does not close those
+same-person episode arrows or identify a causal enforcement effect.
 
 ## Route 8: firm capacity becomes worker control
 
