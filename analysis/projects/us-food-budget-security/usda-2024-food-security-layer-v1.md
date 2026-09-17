@@ -1,6 +1,6 @@
 # USDA 2024 food-security and budget layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-17
 **Source:** USDA Economic Research Service, 2024 Food Security Supplement  
 **Unit:** US households, households with children, income/status groups  
 **Status:** national descriptive layer; not a causal price-to-food estimate
@@ -24,6 +24,18 @@ income, price, work, care, or resource constraint
 The USDA measure captures whether households had enough resources to obtain
 adequate food during the year. It does not identify which price, employer,
 policy, store, or individual event caused a household’s status.
+
+## Vintage recheck: 2026-09-17
+
+The [USDA ERS food-security media resources page](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/media-resources)
+was updated July 28, 2026 and continues to identify the 2024 report as the
+latest annual household estimate. It reports 13.7% food insecurity in 2024
+versus 13.5% in 2023, with no statistically significant difference, and 5.4%
+very low food security in 2024 versus 5.1% in 2023, also without a statistically
+significant difference. No newer annual estimate or raw file was acquired for
+this recheck. The local machine record and the 2024 CPS-FSS vintage therefore
+remain authoritative; the result should not be narrated as a newly accelerating
+food-security trend.
 
 ## What the 2024 evidence shows
 

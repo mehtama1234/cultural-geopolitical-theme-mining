@@ -336,6 +336,7 @@ def main():
     memos.append(jassm_control_surface_audit)
     material_meaning_action_audit = ROOT / "analysis/projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md"
     memos.append(material_meaning_action_audit)
+    memos.append(ROOT / "analysis/projects/us-food-budget-security/usda-2024-food-security-layer-v1.md")
     ai_work_control_endpoint_audit = ROOT / "analysis/projects/ai-work-control/ai-work-control-endpoint-audit-v1.md"
     memos.append(ai_work_control_endpoint_audit)
     named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"
