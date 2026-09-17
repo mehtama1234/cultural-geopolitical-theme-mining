@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-first-american-payment-processor-refunds-2026",
+  "title": "Payment processors can turn business exit fees into a measurable remedy while practical replaceability remains open",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission First American Payment Systems enforcement and refund-administration record; eligible small businesses are a remedy-program population, not a representative firm sample",
+  "geography": "United States federal consumer-protection enforcement involving small businesses enrolled with First American Payment Systems",
+  "observations": [
+    {
+      "period": "June 2017–April 2020 alleged enrollment/fees; February 2025 refund distribution; January 2026 claims review",
+      "denominator": {
+        "value": 5588,
+        "unit": "businesses sent checks by the FTC refund program",
+        "value_type": "reported_payment_recipients"
+      },
+      "measures": {
+        "aggregate_payment_distribution": {
+          "value": 2600000,
+          "unit": "US dollars, more than",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "alleged_fee_practice": {
+          "value": "hidden or unauthorized fees, including early-termination fees and zombie charges",
+          "unit": "reported enforcement allegation",
+          "value_type": "reported_harm"
+        },
+        "company_settlement_amount": {
+          "value": 4900000,
+          "unit": "US dollars paid to settle",
+          "value_type": "reported_settlement_amount"
+        },
+        "claim_status": {
+          "value": "FTC currently reviewing claims; refund amount depends partly on how many businesses file",
+          "unit": "administrator status",
+          "value_type": "reported_process"
+        },
+        "cash_receipt_and_business_exit": {
+          "value": "not observed in the public refund page",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC refund-program page checked September 17, 2026; retain checks sent, aggregate distribution, settlement amount, and claims-review status as separate administrator-reported measures, not as cashed-payment or business-recovery rates.",
+      "uncertainty": "The page does not publish individual amounts, check-cashing rate, failed-delivery count, claim denominator, fee incidence by business, switching costs, alternative processor access, revenue effects, or later business survival and exit.",
+      "subgroup": "Businesses enrolled with First American Payment Systems during the stated period and charged an early-termination fee; claimants, check recipients, nonclaimants, and businesses with prior credits are distinct groups.",
+      "counterinterpretation": "A refund can offset an unauthorized fee without restoring lost transaction capacity, time, or customer relationships; a processor’s exit fee may be costly precisely when a business has few practical alternatives.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/first-american-payment-systems-settlement",
+      "retrieval_hash": "sha256:fb9dd388a4917e84bf833f3c2f3597e64cbc6aa291bd6f5feea1b020cb61d6ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "FTC lists First American Payment Systems Settlement as an active January 2026 refund program.",
+      "status": "official-refund-program-list"
+    }
+  ],
+  "boundary": "This record establishes reported payment-processor fee allegations, recipient-counted checks, aggregate distribution, and claims-review status. It does not establish individual cashing, full restitution, processor switching, business survival, trust, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC First American Payment Systems refund HTML retrieved without retaining a repository copy",
+    "retrieval_hash": "sha256:fb9dd388a4917e84bf833f3c2f3597e64cbc6aa291bd6f5feea1b020cb61d6ee",
+    "checked": "2026-09-17"
+  }
+}
