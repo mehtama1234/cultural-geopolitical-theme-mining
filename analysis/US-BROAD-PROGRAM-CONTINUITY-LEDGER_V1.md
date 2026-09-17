@@ -1,6 +1,6 @@
 # US broad program continuity ledger v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Status:** active long-term program control record  
 **Scope:** the complete 14-theme Cultural, Social, and Geopolitical Theme
 Mining program
@@ -714,6 +714,19 @@ The official 2025 release also describes 163 reporting economies and 121
 series through 2024. The new US result is a provider-side measurement, not a
 household welfare or digital-substitution estimate; the next test is to join it
 carefully to user terms, place access, remedy, and household outcomes.
+
+The latest rotation advances the named AI/work-control lane through the
+[OpenAI/Statsig recruitment-enforcement event](projects/ai-work-control/findings/ai-work-control-085.md).
+The official DOJ/IER agreement records a dated US recruitment practice in
+which US workers were required to mail applications while other applicants
+could apply electronically, followed by a $1.2 million Treasury payment, a
+$2 million potential-back-pay set-aside, applicant identification and notice,
+electronic-application and ATS controls, training, reporting, and three years
+of oversight. This closes a concrete practice → institutional-remedy-design
+segment, while keeping individual applicant exposure, actual payment receipt,
+job access, recurrence prevention, worker voice, later trust, and exit open.
+The case is a named enforcement event, not a prevalence estimate for AI
+recruiting or a causal worker-outcome result.
 
 ## Active research lanes
 
