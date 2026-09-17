@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-invitation-homes-renter-refunds-2026",
+  "title": "Rent refund distribution makes fee opacity visible without proving restored housing security",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission Invitation Homes enforcement and refund-administration record; eligible renters receiving settlement checks are a remedy-program population, not a representative renter sample",
+  "geography": "United States federal consumer-protection enforcement involving Invitation Homes renters",
+  "observations": [
+    {
+      "period": "January 2021–September 2024 alleged charges; March 2026 refund distribution",
+      "denominator": {
+        "value": 444131,
+        "unit": "eligible people sent checks by the FTC refund program",
+        "value_type": "reported_payment_recipients"
+      },
+      "measures": {
+        "aggregate_payment_distribution": {
+          "value": 47200000,
+          "unit": "US dollars, more than",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "housing_price_opacity": {
+          "value": "advertised lease price differed from charges for undisclosed fees including smart-home technology and utility management",
+          "unit": "reported enforcement allegation",
+          "value_type": "reported_harm"
+        },
+        "move_out_charge_practices": {
+          "value": "charges included normal wear-and-tear, pre-existing damage, and renovations",
+          "unit": "reported enforcement allegation",
+          "value_type": "reported_harm"
+        },
+        "check_cashing_and_later_housing_outcomes": {
+          "value": "not observed in the public refund page",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC refund-program page checked September 17, 2026; retain checks sent and aggregate distribution as administrator-reported program measures, not as cashed-payment or renter-recovery rates.",
+      "uncertainty": "The page does not publish the amount distribution, check-cashing rate, failed-delivery count, prior credit/refund overlap beyond the stated eligibility rule, current rent burden, repairs, eviction exposure, housing alternatives, moving, switching, trust, or political action.",
+      "subgroup": "Eligible people who paid Invitation Homes for undisclosed fees or deceptive/unfair charges between January 2021 and September 2024; people already receiving a credit or refund are excluded from this settlement payment.",
+      "counterinterpretation": "A check can return money without restoring the housing security, time, or opportunity lost during the lease; renters may remain with the landlord because moving costs, supply, deposits, or local alternatives constrain practical exit.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/invitation-homes-settlement",
+      "retrieval_hash": "sha256:606a57ac6cd4d1d88dbb8d4e9c486400d0994f3c31e897603a02151108c9fde0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "FTC lists Invitation Homes Settlement as an active March 2026 refund program.",
+      "status": "official-refund-program-list"
+    }
+  ],
+  "boundary": "This record establishes reported housing-fee and move-out-charge allegations plus a large check distribution. It does not establish individual cashing, full restitution, restored housing security, repair, mobility, switching, trust, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC Invitation Homes refund HTML retrieved without retaining a repository copy",
+    "retrieval_hash": "sha256:606a57ac6cd4d1d88dbb8d4e9c486400d0994f3c31e897603a02151108c9fde0",
+    "checked": "2026-09-17"
+  }
+}
