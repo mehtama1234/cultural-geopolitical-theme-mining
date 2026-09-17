@@ -1,11 +1,15 @@
 # US trend-observation registry
 
-283 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+284 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
 | Trend record | Umbrella IDs | Program theme IDs | Source unit | Geography | Observations | Periods | Statuses | Record |
 |---|---|---|---|---|---:|---|---|---|
+| An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order | work, voice | work_control_bargaining, consumer_power_recourse, time_hidden_price, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One Australian platform worker and Fair Work Commission proceeding; adjudicated same-case remedy follow-up, not a population estimate | Australia | 1 | 2025-04-08 to 2025-09-23; deactivation, reactivation, post-reactivation work, and formal order | observed | [open](records/au-hotak-reactivation-continued-work-2025.json) |
+
+**Boundary:** This comparative Australian case closes voluntary access restoration and subsequent observed work activity before a formal access-restoration order. It does not close payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.
+
 | An Australian platform worker received formal access-restoration and lost-remuneration orders after deactivation | work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One employee-like platform worker and adjudicated Fair Work Commission case; comparative institutional remedy record, not a population estimate | Australia | 1 | 2025-12-15 to 2026-03-20 | observed | [open](records/au-rehman-platform-remedy-2026.json) |
 
 **Boundary:** This comparative Australian case closes a remedy-stage arrow from platform exclusion through worker application to access restoration and ordered lost remuneration. It does not establish payment receipt, net recovery, alternative choice, durable protection, trust change, political action, or practical exit.

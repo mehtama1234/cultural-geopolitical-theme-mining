@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-hotak-reactivation-continued-work-2025",
+  "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order",
+  "theme_ids": ["work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "One Australian platform worker and Fair Work Commission proceeding; adjudicated same-case remedy follow-up, not a population estimate",
+  "geography": "Australia",
+  "observations": [
+    {
+      "period": "2025-04-08 to 2025-09-23; deactivation, reactivation, post-reactivation work, and formal order",
+      "denominator": {
+        "value": 1,
+        "unit": "adjudicated platform-worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "access_restoration": {
+          "value": "Uber voluntarily reactivated access on 2025-05-19; the Full Bench later ordered reactivation",
+          "unit": "case events and dates",
+          "value_type": "adjudicated_event_sequence"
+        },
+        "continued_work": {
+          "value": "more than 150 trips completed after reactivation by 2025-07-21",
+          "unit": "post-reactivation platform trips",
+          "value_type": "observed_activity_threshold"
+        },
+        "financial_remedy": {
+          "value": "lost-remuneration quantum remained open and was directed for party consultation",
+          "unit": "formal remedy stage; payment not observed",
+          "value_type": "open_remedy_endpoint"
+        }
+      },
+      "method": "Read the primary Fair Work Commission Full Bench and merits records as a dated single-case sequence, preserving voluntary reactivation, subsequent trip activity, formal order, and the separate open lost-pay stage.",
+      "uncertainty": "The public record does not establish net earnings, expenses, payment receipt, account status after the trip count, profile or rating correction, alternative work, recurrence protection, anti-retaliation, household recovery, trust change, collective action, or exit. One Australian case cannot estimate platform incidence or typical remedy effectiveness.",
+      "subgroup": "Single case: Mohammad Shareef Hotak and Uber Driver Platform / Rasier Pacific",
+      "counterinterpretation": "More than 150 trips show operational return to work, not unconstrained choice, financial recovery, or durable protection. Continued platform use may reflect dependence or lack of alternatives; the later formal order shows voluntary reactivation did not settle the legal or financial remedy question.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf",
+      "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf",
+      "claim": "The Full Bench merits record preserves the formal reactivation order and open lost-remuneration stage.",
+      "status": "official-adjudicated-record"
+    },
+    {
+      "source_url": "projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md",
+      "claim": "The committed local memo records the dates, 150-plus trips, remedy stages, and boundary.",
+      "status": "repository-reproduction-audit"
+    }
+  ],
+  "boundary": "This comparative Australian case closes voluntary access restoration and subsequent observed work activity before a formal access-restoration order. It does not close payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Existing committed local Hotak follow-up memo and targeted official decision URLs; no bulk archive retained",
+    "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
+    "checked": "2026-09-17"
+  }
+}
