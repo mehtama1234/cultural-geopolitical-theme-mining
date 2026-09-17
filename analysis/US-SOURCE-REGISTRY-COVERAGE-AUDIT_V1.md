@@ -36,9 +36,9 @@ or proof that every source item was read in full.
 | [SSRN research paper repository](https://papers.ssrn.com/) | public working-paper and preprint access for emerging social-science evidence | 2 | 10 | 8 | 2 | evidence-bearing; machine-record URL |
 | [arXiv research preprints](https://arxiv.org/) | open preprint access and versioned paper text for emerging research | 0 | 12 | 6 | 7 | evidence-bearing; machine-record URL |
 | [Zenodo research data archive](https://zenodo.org/) | versioned open research data and code archives | 0 | 5 | 4 | 1 | evidence-bearing; machine-record URL |
-| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 802 | 202 | 56 | evidence-bearing; machine-record URL |
-| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 802 | 202 | 0 | evidence-bearing |
-| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 802 | 202 | 0 | evidence-bearing |
+| [National Bureau of Economic Research Working Papers](https://www.nber.org/papers) | primary research and paper discovery | 147 | 805 | 204 | 58 | evidence-bearing; machine-record URL |
+| [NBER Working Papers and Chapters Metadata](https://www.nber.org/research/data/nber-working-papers-and-chapters-metadata) | coverage and trend analysis | 147 | 805 | 204 | 0 | evidence-bearing |
+| [NBER Public Use Data Archive](https://www.nber.org/research/data) | replication and extension data discovery | 147 | 805 | 204 | 0 | evidence-bearing |
 | [American Economic Association RCT Registry](https://www.socialscienceregistry.org/) | pre-registration and design-plan evidence for randomized social-science experiments | 0 | 5 | 4 | 2 | evidence-bearing; machine-record URL |
 | [Urban Institute Well-Being and Basic Needs Survey](https://www.urban.org/policy-centers/health-policy-center/projects/well-being-and-basic-needs-survey) | US household food, housing, health, employment, safety-net access, material hardship, and financial-security evidence | 0 | 48 | 14 | 3 | evidence-bearing; machine-record URL |
 | [Microsoft Fiscal Year 2025 Annual Report](https://www.microsoft.com/investor/reports/ar25/) | company operating, workforce, infrastructure, and product evidence | 0 | 6 | 3 | 0 | evidence-bearing |
@@ -76,7 +76,7 @@ or proof that every source item was read in full.
 | [US Bureau of Labor Statistics consumer and household data](https://www.bls.gov/) | US prices, spending, income, employment, and household economic measures | 20 | 254 | 80 | 63 | evidence-bearing; machine-record URL |
 | [US Census Bureau household and economic data](https://www.census.gov/data.html) | US household, demographic, income, housing, business, and place-level evidence | 17 | 503 | 189 | 0 | evidence-bearing |
 | [Harvard Business School Working Knowledge consumer and finance research](https://www.library.hbs.edu/working-knowledge) | US consumer behavior, pricing, payments, finance, and firm-strategy topic discovery | 51 | 205 | 67 | 3 | evidence-bearing; machine-record URL |
-| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 802 | 202 | 56 | evidence-bearing; machine-record URL |
+| [NBER household finance and consumer behavior papers](https://www.nber.org/papers) | US household debt, financial stress, credit, consumption, labor, and macro transmission research | 147 | 805 | 204 | 58 | evidence-bearing; machine-record URL |
 | [American National Election Studies](https://electionstudies.org/) | US political attitudes, identity, trust, economic judgment, participation, and vote reports | 0 | 17 | 8 | 1 | evidence-bearing; machine-record URL |
 | [Cooperative Election Study](https://cces.gov.harvard.edu/) | large-sample US political, demographic, material-position, trust, and civic-action comparisons | 0 | 8 | 8 | 2 | evidence-bearing; machine-record URL |
 | [BLS American Time Use Survey](https://www.bls.gov/tus/) | US paid work, care, household labor, travel, rest, and social-time allocation | 20 | 254 | 80 | 20 | evidence-bearing; machine-record URL |

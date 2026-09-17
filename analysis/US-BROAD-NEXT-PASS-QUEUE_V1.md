@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 285 records and
-1028 observations.
+have exact registered-URL references. The trend registry holds 286 records and
+1029 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -224,6 +224,15 @@ multi-disaster design. The retained result is abstract-level and does not
 establish worker pay, customer prices/service continuity, owner-household
 recovery, or local political meaning; the next step is a compact full-paper
 effect-size and heterogeneity audit rather than a bulk download.
+
+The linked owner-household pass now supplies the adjacent household arrow:
+business revenue fell 40% in the first two months of COVID-19, while each dollar
+of lost revenue passed through as about 1.6 cents less owner consumption, with
+the muted average response persisting through 2021. This is a different shock
+and subsidy environment, so it is a cross-case bridge rather than a disaster-
+loan effect. The next test is owner buffers, business survival, worker/customer
+outcomes, and an aligned intervention/follow-up—not another aggregate
+consumption cross-tab.
 
 ### ILOSTAT comparison gate
 

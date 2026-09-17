@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-owner-business-revenue-consumption-covid-2020",
+  "title": "Small-business revenue losses passed only partially into linked owner-household consumption during COVID-19",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "Linked US small-business and owner-household financial-account data; revised NBER working-paper summary, not a general household survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "First two months after the March 2020 National Emergency; pass-through followed through 2021",
+      "denominator": {
+        "value": null,
+        "unit": "Linked small-business and owner-household account panel; exact analytical counts are not exposed on the official abstract page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "business_revenue_change": {
+          "value": -40,
+          "unit": "percent change in business revenues during the first two months",
+          "value_type": "reported_change"
+        },
+        "owner_consumption_pass_through": {
+          "value": -0.016,
+          "unit": "dollars of owner consumption per dollar of business-revenue loss",
+          "value_type": "estimated_pass_through"
+        },
+        "persistence": {
+          "value": "Muted revenue-to-consumption pass-through persisted through 2021, including after vaccines",
+          "unit": "follow-up result",
+          "value_type": "reported_persistence"
+        }
+      },
+      "method": "Use the revised NBER Working Paper 28151 abstract and its stated linked financial-account design; preserve the authors' interpretation that federal subsidies and pandemic restrictions on spending opportunities helped explain the limited pass-through.",
+      "uncertainty": "The official page does not expose exact panel counts, account-selection rules, standard errors, or full specification in the retained local artifact. COVID-19 combines a large business shock with subsidies and unusual limits on consumption opportunities. The result does not identify owner wealth buffers for each account, worker outcomes, customer access, firm survival, repayment, or political response.",
+      "subgroup": "Owners of small businesses observed in linked business and household financial accounts during the COVID-19 crisis; exact inclusion universe is paper-specific.",
+      "counterinterpretation": "A small average pass-through can reflect cash buffers, federal aid, payment timing, or unavailable spending opportunities rather than low household exposure. Consumption stability does not prove business health or worker security.",
+      "source_url": "https://www.nber.org/papers/w28151",
+      "retrieval_hash": "source_packet:sha256:e4b7f22749589b5d31679dbc8599c18bb06a06a8048dfb551b149d16e00f825a",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "projects/us-owner-household-business-tradeoff/source-search-2026-09-11.md",
+      "claim": "The committed project packet records the linked owner-household result and its boundary.",
+      "status": "repository-source-packet"
+    },
+    {
+      "source_url": "https://www.nber.org/papers/w28151",
+      "claim": "The current NBER page identifies the March 2025 revision and official abstract-level design and result.",
+      "status": "official-working-paper-page"
+    }
+  ],
+  "boundary": "This record closes a measured firm-revenue-to-linked-owner-consumption arrow for the early COVID-19 period, with persistent muted pass-through through 2021. It does not establish a natural-disaster recovery effect, business survival, worker conditions, customer welfare, household security for every owner, trust, political action, or geopolitical consequence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Existing local source-search packet and official NBER paper page; no paper PDF, account data, code, or data appendix retained",
+    "retrieval_hash": "source_packet:sha256:e4b7f22749589b5d31679dbc8599c18bb06a06a8048dfb551b149d16e00f825a",
+    "checked": "2026-09-17"
+  }
+}

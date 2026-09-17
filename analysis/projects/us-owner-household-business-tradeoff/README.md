@@ -19,3 +19,10 @@ Move on after one source follows business revenue and household spending togethe
 ## Matched evidence pass
 
 The first matched check is [One cash pool can protect a family by shrinking a business](../../findings/us-owner-household-business-matched-evidence-001.md), with its [HTML reading page](../../../site/us-owner-household-business-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms a linked household-firm tradeoff while leaving worker, customer, and closure effects open.
+
+The new [COVID owner-consumption finding](findings/us-owner-business-revenue-consumption-covid-001.md)
+promotes the NBER linked-account result into the canonical atlas: a 40% early
+revenue fall passed through at 1.6 cents per dollar of lost revenue, with the
+muted average response persisting through 2021. The result closes the
+firm-to-owner-household measurement arrow for this shock while leaving buffers,
+business survival, workers, customers, and political meaning open.

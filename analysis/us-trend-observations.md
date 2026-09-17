@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-285 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+286 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -757,6 +757,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Randomized Medicaid access reduces financial exposure and expands care use while health and work outcomes separate | cost, time, voice | care_health_reproduction, household_room_consumption, public_systems_feedback, unequal_exposure_status | Low-income uninsured Oregon adults selected or not selected by Medicaid lottery | Oregon, United States | 4 | 2008 lottery; first-year coverage and care-use follow-up; 2008 lottery; first-year financial follow-up; 2008 lottery; approximately two-year health follow-up; 2008 lottery; labor-market follow-up | estimated | [open](records/us-oregon-medicaid-lottery-coverage-route-2008-2010.json) |
 
 **Boundary:** The Oregon lottery identifies selected coverage effects for a historical low-income uninsured population; it does not complete the same-person bill-to-care-choice-to-household-adaptation-to-trust chain.
+
+| Small-business revenue losses passed only partially into linked owner-household consumption during COVID-19 | cost, work, voice | household_room_consumption, work_control_bargaining, firm_sector_market_power, unequal_exposure_status, public_systems_feedback, political_judgment_action | Linked US small-business and owner-household financial-account data; revised NBER working-paper summary, not a general household survey | United States | 1 | First two months after the March 2020 National Emergency; pass-through followed through 2021 | estimated | [open](records/us-owner-business-revenue-consumption-covid-2020.json) |
+
+**Boundary:** This record closes a measured firm-revenue-to-linked-owner-consumption arrow for the early COVID-19 period, with persistent muted pass-through through 2021. It does not establish a natural-disaster recovery effect, business survival, worker conditions, customer welfare, household security for every owner, trust, political action, or geopolitical consequence.
 
 | Adult platform reach is broad, increasingly diversified, and patterned by age and social position | time, voice | platforms_data_attention, unequal_exposure_status, trust_identity_meaning, consumer_power_recourse | US adult survey respondent, with platform-use and frequency reports | United States | 4 | 2025-02-05 to 2025-06-18; 2021 to 2025; 2025; frequency survey 2025-02-24 to 2025-03-02; 2025; subgroup comparisons | compared; observed | [open](records/us-pew-adult-social-media-2025.json) |
 
