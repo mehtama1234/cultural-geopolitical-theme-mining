@@ -41,6 +41,11 @@ The rerun output was written outside the repository at
 `2ac94160eda6f9c95b03d9f36ff21c3d290b7bec96b33109c59fe671bfa119d7`.
 No source file was downloaded during this audit.
 
+The reusable [reproduction validator](../../../scripts/validate_ces_medical_affordability_reproduction.py)
+now checks the key contact odds ratios, model intervals, and 1,000-row valid
+counts against the committed trend record. It is a consistency guard, not a
+survey-design variance estimator.
+
 ## Interpretation boundary
 
 This recheck strengthens reproducibility of a same-respondent descriptive
@@ -59,6 +64,9 @@ python3 scripts/analyze_ces_medical_affordability_political_action.py \
   --input-2018 /tmp/personal-crisis-rep/CCES18_crisis_vv.tab \
   --input-2020 /tmp/personal-crisis-rep/CCES20_crisis_vv.tab \
   --output /tmp/cgtm-ces-medical-affordability-action-recheck.json
+
+python3 scripts/validate_ces_medical_affordability_reproduction.py \
+  --rerun /tmp/cgtm-ces-medical-affordability-action-recheck.json
 ```
 
 Related: [CES political-action acquisition audit](politics-personal-crisis-medical-affordability-participation-audit-v1.md),
