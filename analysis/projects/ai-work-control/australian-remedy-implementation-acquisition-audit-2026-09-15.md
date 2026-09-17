@@ -1,6 +1,6 @@
 # Australian platform-remedy implementation acquisition audit
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Scope:** public follow-on evidence after reactivation or lost-remuneration
 orders in the bounded Australian platform-deactivation census
 **Result:** three public lost-pay amounts/orders and one continued-access
@@ -99,6 +99,12 @@ post-order access record. This is the same bounded public-retrieval result as
 the other matters: absence from the searched public record is not evidence of
 non-payment or non-restoration.
 
+The 17 September 2026 targeted official-web recheck returned the same
+boundary: current indexed results surfaced the existing Hotak decision/order,
+Rehman bulletin, and Bandameeda lost-remuneration order, but no later public
+receipt, compliance filing, or durable-access record. This is a search-surface
+recheck, not evidence that payment or restoration did not occur privately.
+
 ## Coding consequence
 
 The Australian census should retain the following distinction:
@@ -138,6 +144,6 @@ and the ordered amounts for Mansoor and Rehman. It does not downgrade the other 
 
 ## Boundary
 
-The result is a bounded public-retrieval finding as of 2026-09-16. It does
+The result is a bounded public-retrieval finding as of 2026-09-17. It does
 not establish whether any worker was paid, remained active, suffered later
 retaliation, or obtained correction outside the public records searched.
