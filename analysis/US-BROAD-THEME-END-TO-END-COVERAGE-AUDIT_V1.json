@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "f6906c2cdd2dc915835ce72e58fc1eb6466c6dcfb9c4782d417fa11cf6bbdb55",
+  "matrix_sha256": "04fe05f4713535f371fa045230c3488d03d69c9c63e76361d608bc66f624dcec",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -67,9 +67,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 5,
+      "evidence_anchor_count": 9,
       "measurement_level": "Worker, task, job, workplace, firm, respondent",
-      "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the MEPS two-clock audit adds event-family-aligned R4/2 and R5/3 nonemployment levels and transitions; proxies are not causal work measures.",
+      "next_required_test": "Pair system or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the new records distinguish adoption, saved time, algorithmic management, formal representation, worker voice, and job-quality association, while the MEPS two-clock audit adds event-family-aligned R4/2 and R5/3 nonemployment levels and transitions; proxies are not causal work measures.",
       "same_unit_end_to_end_link": false,
       "source_line": 18,
       "status_tokens": [
