@@ -1,6 +1,6 @@
 # Poland’s JASSM-ER order still has a schedule, not a public delivery record
 
-**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-15
+**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-16
 
 ## The finding
 
@@ -14,10 +14,11 @@ $735 million agreement and deliveries planned for 2026–2030. A separate
 December 2024 modernization briefing states 2028–2030 in its JASSM discussion.
 Neither source reports a delivered quantity, acceptance event, fielding or
 integration milestone for the 2024 JASSM-ER order, training, or inventory
-change. A fresh 2026-09-15 search of official Polish and US defense-release
-routes found no additional realization notice. This remains a public-source
-non-observation, not proof that no delivery has occurred outside the reviewed
-releases.
+change. A fresh 2026-09-16 targeted recheck of the official Polish Ministry of
+National Defence page and Polish/US defense-release routes found no additional
+realization notice; the ministry page still carries the 2026–2030 delivery
+window for the 2024 agreement. This remains a public-source non-observation,
+not proof that no delivery has occurred outside the reviewed releases.
 
 This is a **public-source non-observation**, not a claim that no delivery has
 occurred. It means the reviewed official record does not support promoting the
@@ -84,7 +85,7 @@ acceptance status separately.
 
 ## Sources and reproduction
 
-- [Polish MOD JASSM-ER agreement page](https://www.gov.pl/web/obrona-narodowa/jassm-er) · local capture [data/poland-jassm-er-official-2026-09-13.html](../data/poland-jassm-er-official-2026-09-13.html), SHA-256 `5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6`
+- [Polish MOD JASSM-ER agreement page](https://www.gov.pl/web/obrona-narodowa/jassm-er) · official page rechecked 2026-09-16 · local capture [data/poland-jassm-er-official-2026-09-13.html](../data/poland-jassm-er-official-2026-09-13.html), SHA-256 `5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6`
 - [Polish MOD modernization briefing](https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet)
 - [DSCA possible-sale notice](https://www.dsca.mil/sites/default/files/mas/Press%20Release%20-%20Poland%2024-33%20CN.pdf)
 - [Historical 2017 JASSM delivery announcement](https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2)
