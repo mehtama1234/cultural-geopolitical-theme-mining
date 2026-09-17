@@ -574,7 +574,7 @@ This advances the acquisition gate; no PSID estimate or same-unit end-to-end
 claim is implied until universe, missingness, retention, merge, and weight
 audits are run on authenticated files.
 
-The PSID access gate was rechecked on 2026-09-14: the official package routes
+The PSID access gate was rechecked on 2026-09-17: the official package routes
 remain account-controlled and no target microdata files are present locally.
 The available SIPP household-selection diagnostic was tightened with a hashed
 2025 schema scan showing `WPFINWGT` as the only weight-related variable in the

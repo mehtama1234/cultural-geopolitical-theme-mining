@@ -878,7 +878,7 @@ The [PSID material/time/care extract specification](projects/us-household-calend
 now fixes the first many-family unit, candidate fields, comparison cells, and
 quality gates for that acquisition.
 
-The official PSID packaged-data route was rechecked on 2026-09-13. The 2019,
+The official PSID packaged-data route was rechecked on 2026-09-17. The 2019,
 2021, and 2023 main Family Files and a 1968–2023 Cross-year Individual File are
 listed, but an unauthenticated download redirects to the ZIP warning requiring
 a registered account and accepted Conditions of Use. The cross-year individual
