@@ -2450,6 +2450,18 @@ the dominant BBB CA Oakland channel; the seven other/source-blank records have
 blank dispositions. Treat the response pattern as intake/coding-selected, not
 as a cross-channel resolution comparison.
 
+### Rotation decision after the UAS access gate — 2026-09-17
+
+The UAS public-metadata check strengthens the preferred same-respondent route,
+but the respondent files remain registration-gated. No UAS estimate, overlap,
+weight calculation, or episode result is therefore promoted. The program
+continues through the existing consumer/platform and place/public-system lanes
+while access remains pending. The next substantive pass must add a stage that
+changes the atlas—such as a stable complaint or service episode with an
+alternative/non-use field and verified follow-up—or a subgroup/place reversal
+from already retained data. Another exposure count, complaint volume, or
+aggregate settlement total does not qualify as end-to-end progress by itself.
+
 The [Doxo bill-payment finding](findings/us-doxo-bill-payment-hidden-fees-001.md)
 adds a household/public-payment bridge: an FTC complaint reports that about 30%
 of Doxo's surveyed heavy users falsely believed it was the only way to pay a
