@@ -335,6 +335,11 @@ eligibility errors in compliant states. This creates a useful two-sided
 governance stage—oversight authority versus privacy, statutory, and state
 control—without converting either agency claims or a temporary order into
 applicant-level benefit, food-security, or trust outcomes.
+The June 2026 USDA system-of-records notice adds the implementation surface:
+FedRAMP High hosting, need-to-know access, authentication, encryption, and
+legally bounded routine uses were specified after more than 450 public comments,
+including roughly 132 privacy or mishandling concerns. Those are stated
+controls and public concerns, not observed privacy safety or applicant behavior.
 
 The [SHED annual fraud comparison](projects/us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md)
 adds a second annual household sample to the consumer-power row. It preserves
