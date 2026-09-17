@@ -1,7 +1,7 @@
 # Remedy spectrum: from explanation to collective control
 
 **Status:** provisional cross-domain synthesis  
-**Checked:** 2026-09-15
+**Checked:** 2026-09-17
 
 ## Research question
 
@@ -29,6 +29,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Regulatory contestability | UK jobseekers facing recruitment scoring/filtering | ICO review, recommendations, employer commitments, and expectations for meaningful human review | A named or aggregated candidate outcome showing review changed a hiring decision or produced compensation |
 | Collective bargaining | SAG-AFTRA performers facing digital replicas | Advance notice, informed consent, bounded use, and compensation rules were negotiated before routine deployment | Compliance, refusal consequences, enforcement, and whether synthetic substitution shifts bargaining power |
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
+| Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
 
 ## What the comparison changes
 
@@ -52,6 +53,28 @@ write later steps into formal architecture. Malaysia has now crossed into a
 reported first hearing, but the primary case record and outcome are still being
 acquired. SAG-AFTRA and the workplace cases move earlier in time:
 they condition deployment itself through collective bargaining or co-governance.
+
+The Apple PERM settlement adds a distinct administrative-completion clock. DOJ's
+2026 implementation update reports that a defined back-pay fund was processed
+after individualized claimant and lost-income review. That is stronger than a
+reserved fund or a stated payment obligation, but it still does not establish
+that a worker received the assessed amount, regained the missed opportunity,
+or encountered durable compliance in later applications. The comparison makes
+three remedy states explicit:
+
+```text
+prospective obligation or reserved fund
+  -> payment ordered or claimant process defined
+  -> fund processed / payment completed in the administrator's record
+  -> worker receipt and lived opportunity restoration
+  -> durable prevention and later household or collective outcome
+```
+
+The public record can therefore advance from institutional promise to
+administrative completion without closing the lived-recovery arrow. This is a
+cross-domain comparison, not a pooled remedy rate: the Apple record concerns
+employment-channel discrimination and back pay, while the platform cases
+concern access restoration, lost remuneration, and continued use.
 
 ### 2. Timing changes the power balance
 
@@ -128,6 +151,9 @@ For each route, acquire one artifact that crosses the missing link:
 5. an ICO follow-up outcome with a defined candidate or organization denominator;
 6. a SAG-AFTRA enforcement or use record showing consent, payment, or refusal effects;
 7. a workplace agreement implementation record showing worker use and outcome.
+8. for an administratively completed fund, a claimant-level or audited
+   implementation artifact showing payment receipt, timing, deductions, and
+   whether the original opportunity or a comparable alternative was restored.
 
 The acquisition schema should preserve the intervention date, decision object,
 actor, reviewer authority, changed consequence, money or access restored,
