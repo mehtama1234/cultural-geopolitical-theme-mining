@@ -131,6 +131,14 @@ evidence of a forgone fill. This prevents the prescription event file from
 being treated as the full affordability-risk population or as a direct
 measure of adherence and recovery.
 
+The [cross-channel institutional-friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
+adds a robustness layer across office, emergency-room, and inpatient event
+families: denial or prior-authorization delay remains associated with care
+delay, medical debt, bill problems, and collector contact in each channel.
+Because the friction field is annual and event-selected, this is not a causal
+denial effect or a verified remedy-failure result; claim timing, appeal,
+correction, and resolution remain open.
+
 The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 now makes the broad health route reviewable in one place. It connects care
 foregoing, debt and savings adaptation, coverage and institutional response,

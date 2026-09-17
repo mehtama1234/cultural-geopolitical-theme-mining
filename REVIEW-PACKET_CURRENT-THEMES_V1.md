@@ -227,6 +227,7 @@ the [inter-round prescription-delay direction finding](analysis/projects/us-heal
 the [prescription-purchase selection finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-008.md),
 the [inter-round payment-band finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-004.md)
 and its [reproduction audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
+the [cross-channel institutional-friction finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md),
 the [institutional-friction follow-up](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md),
 and the [route-specific friction comparison](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md).
 
@@ -254,6 +255,13 @@ the affordability-risk population by themselves: people with a recorded
 prescription purchase were more likely to report delay or inability to afford,
 while the no-purchase group is a mixed absence-of-record universe rather than
 proof of a forgone fill.
+
+The cross-channel friction finding shows the denial/prior-authorization
+association alongside care delay, medical debt, bill problems, and collector
+contact across office, emergency-room, and inpatient event families. It adds
+robustness across care channels, not proof that denial caused the burden: the
+annual friction field does not identify a claim date, appeal, correction, or
+resolution.
 
 **Concrete care/health anchors:** in the [SHED care-foregoing panel
 record](analysis/records/us-shed-panel-care-foregoing-health-work-paths-2024-2025.json),
