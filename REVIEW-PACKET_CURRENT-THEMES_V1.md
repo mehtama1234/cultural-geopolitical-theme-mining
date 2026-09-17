@@ -145,6 +145,9 @@ index or a claim that the same people appear in every source.
    community engagement, arts, food, employment, expense, energy, and transport
    modules in one release. Read the [HTOPS social-connectedness acquisition
    gate](site/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.html).
+   The corrected March PUF is now listed by Census, but it is a 19.2 MB
+   cross-sectional file; the relevant spreadsheets remain unavailable and no
+   estimate has been promoted.
 
 ## Recent cross-theme additions
 
