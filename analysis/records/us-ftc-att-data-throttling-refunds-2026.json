@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-att-data-throttling-refunds-2026",
+  "title": "A service-quality remedy can return money while leaving individual access recovery unobserved",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission AT&T data-throttling enforcement and refund-administration record; eligible former unlimited-data customers are a remedy-program population, not a representative consumer sample",
+  "geography": "United States federal consumer-protection enforcement involving former AT&T unlimited-data customers",
+  "observations": [
+    {
+      "period": "April 2024 initial refund distribution; August 2026 reissue route",
+      "denominator": {
+        "value": null,
+        "unit": "eligible former AT&T customers; current page does not publish a recipient denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "initial_refund_distribution": {
+          "value": 5600000,
+          "unit": "US dollars, more than, refunded in April 2024",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "reissue_method": {
+          "value": "Zelle payments to people who did not cash a check or accept a PayPal payment",
+          "unit": "refund-administration route",
+          "value_type": "reported_process"
+        },
+        "service_harm": {
+          "value": "data speeds became so slow that common browsing and video streaming were difficult or impossible after a monthly threshold",
+          "unit": "reported enforcement allegation",
+          "value_type": "reported_harm"
+        },
+        "individual_receipt_and_restored_access": {
+          "value": "not observed in the public refund page",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC refund-program page checked September 17, 2026; retain the completed April 2024 aggregate refund total separately from the August 2026 reissue route and do not treat either as a recipient-level recovery rate.",
+      "uncertainty": "The page does not publish the eligible or paid recipient denominator, individual amounts, failed-delivery count, service restoration, substitute connectivity, continued AT&T use, switching, trust, or later action. The initial refund total is rounded and reported as more than $5.6 million.",
+      "subgroup": "Eligible former AT&T customers whose unlimited-data service was allegedly throttled; earlier recipients, uncashed-check or unaccepted-PayPal recipients, reissued-payment recipients, and unknown-status customers are distinct groups.",
+      "counterinterpretation": "A refund can compensate a past billing or service-quality injury without restoring the lost connectivity at the time it occurred; a reissue route can improve payment reach while leaving current provider choice and practical exit unchanged.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/att-data-throttling-refunds",
+      "retrieval_hash": "sha256:71c829b4847fa635241dd959982beeef581e9b202ef239a2330085028bf860cc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "FTC lists AT&T Data Throttling Refunds as an active August 2026 refund program and identifies the reissue route administrator.",
+      "status": "official-refund-program-list"
+    }
+  ],
+  "boundary": "This record establishes a reported service-quality allegation, aggregate refund distribution, and current reissue route. It does not establish individual exposure, receipt, restored connectivity, service substitution, switching, trust, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC AT&T data-throttling refund HTML retrieved without retaining a repository copy",
+    "retrieval_hash": "sha256:71c829b4847fa635241dd959982beeef581e9b202ef239a2330085028bf860cc",
+    "checked": "2026-09-17"
+  }
+}

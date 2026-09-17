@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-275 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+276 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -429,6 +429,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | A large subscription remedy can distribute refunds without closing the individual recovery chain | cost, time, voice | household_room_consumption, time_hidden_price, consumer_power_recourse, platforms_data_attention, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | Federal Trade Commission Amazon Prime ROSCA enforcement case and official refund administration page; case and refund-program records, not a representative household sample | United States federal consumer-protection enforcement and eligible Amazon Prime customers | 3 | September 25, 2025; court-entered Amazon Prime settlement described by FTC; January 2026 through late 2026; FTC refund administration update checked September 17, 2026; Amazon Prime settlement administrator FAQ checked September 17, 2026; FAQ content crawled August 2026 | reported | [open](records/us-ftc-amazon-prime-enrollment-refunds-2026.json) |
 
 **Boundary:** This record adds a large named subscription remedy to the consumer-attention atlas. It establishes aggregate remedy design and reported distribution stages, not the prevalence of unwanted enrollment, individual payment receipt, restored household room, time recovery, continued use, switching, trust, or practical exit. The next test is a de-identified account-level or authorized administrator follow-up preserving eligibility, notice, claim, receipt, amount, delay, continued use, switching, and later trust separately.
+
+| A service-quality remedy can return money while leaving individual access recovery unobserved | cost, voice | consumer_power_recourse, platforms_data_attention, firm_sector_market_power, trust_identity_meaning, public_systems_feedback | Federal Trade Commission AT&T data-throttling enforcement and refund-administration record; eligible former unlimited-data customers are a remedy-program population, not a representative consumer sample | United States federal consumer-protection enforcement involving former AT&T unlimited-data customers | 1 | April 2024 initial refund distribution; August 2026 reissue route | reported | [open](records/us-ftc-att-data-throttling-refunds-2026.json) |
+
+**Boundary:** This record establishes a reported service-quality allegation, aggregate refund distribution, and current reissue route. It does not establish individual exposure, receipt, restored connectivity, service substitution, switching, trust, collective action, or exit.
 
 | FTC administrative reports show higher reported fraud losses in 2025, led by investment and imposter categories | cost, voice, work | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | FTC consumer fraud reports summarized in congressional testimony | United States consumer reports received by the FTC | 2 | 2025 annual FTC report frame; 2020–2025; imposter-scam reported losses | compared; reported | [open](records/us-ftc-consumer-sentinel-2025-extension.json) |
 
