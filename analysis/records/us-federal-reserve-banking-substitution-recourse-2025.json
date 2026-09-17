@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-banking-substitution-recourse-2025",
+  "title": "Formal banking access coexists with unequal nonbank substitution and weak observed switching after fraud",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "unequal_exposure_status", "trust_identity_meaning", "firm_sector_market_power"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; published banking and fraud tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 SHED; bank account ownership and overdraft",
+      "denominator": {"value": 100, "unit": "published percentage base among all adults", "value_type": "survey_population"},
+      "measures": {
+        "unbanked_overall": {"value": 6, "unit": "percent of adults", "value_type": "share"},
+        "unbanked_under_25000": {"value": 21, "unit": "percent of adults with family income below $25,000", "value_type": "subgroup_share"},
+        "unbanked_100000_plus": {"value": 1, "unit": "percent of adults with family income of $100,000 or more", "value_type": "subgroup_share"},
+        "paid_overdraft_fee_banked": {"value": 12, "unit": "percent of adults with a bank account who paid an overdraft fee in the prior 12 months", "value_type": "conditional_share"},
+        "paid_overdraft_fee_low_income_banked": {"value": 17, "unit": "percent of banked adults with family income below $25,000", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published bank-account and overdraft estimates; subgroup denominators and banked-adult conditions are retained separately.",
+      "uncertainty": "Self-reported cross-sectional measures do not identify account quality, fees beyond overdraft, authentication access, balances, or whether formal account status provided usable payment access.",
+      "subgroup": "All adults; family-income groups; banked adults for overdraft measures.",
+      "counterinterpretation": "An unbanked status may reflect preference, household-spouse account structure, recent transition, or access constraints; an overdraft fee can reflect a short-term liquidity event rather than persistent account failure.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm",
+      "retrieval_hash": "sha256:79ba2c52fd63698d499232823387fb134321e7a1b7d44f1e7133a801661f54f8",
+      "status": "reported"
+    },
+    {
+      "period": "2019 to 2025; nonbank check-cashing or money-order use",
+      "denominator": {"value": 100, "unit": "published percentage base among all adults; banked/unbanked subgroup comparisons use all-adult groups", "value_type": "survey_population"},
+      "measures": {
+        "nonbank_use_overall_2025": {"value": 12, "unit": "percent of adults", "value_type": "share"},
+        "nonbank_use_banked_2025": {"value": 11, "unit": "percent of banked adults", "value_type": "conditional_share"},
+        "nonbank_use_unbanked_2025": {"value": 28, "unit": "percent of unbanked adults", "value_type": "conditional_share"},
+        "nonbank_use_overall_2019": {"value": 16, "unit": "percent of adults; pre-pandemic comparison", "value_type": "reported_comparison"},
+        "crypto_transaction_unbanked": {"value": 6, "unit": "percent of unbanked adults using cryptocurrency for a financial transaction", "value_type": "conditional_share"},
+        "crypto_transaction_banked": {"value": 2, "unit": "percent of banked adults using cryptocurrency for a financial transaction", "value_type": "conditional_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published nonbank transaction and cryptocurrency-use estimates, retaining account-status conditional universes and the 2019 comparison.",
+      "uncertainty": "Nonbank use is not a direct measure of exclusion or harm; the survey does not identify transaction price, travel/time burden, reliability, or whether a bank alternative was available.",
+      "subgroup": "All adults, banked adults, unbanked adults, and cryptocurrency users by account status.",
+      "counterinterpretation": "Nonbank providers may be convenient or chosen for a specific transaction; falling use since 2019 does not establish improved bank access or reduced need.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm",
+      "retrieval_hash": "sha256:79ba2c52fd63698d499232823387fb134321e7a1b7d44f1e7133a801661f54f8",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; non-credit-card fraud loss, recovery, and response",
+      "denominator": {"value": 100, "unit": "published conditional bases among adults experiencing non-credit-card fraud; method-specific items have separate valid universes", "value_type": "conditional_population"},
+      "measures": {
+        "lost_money": {"value": 65, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"},
+        "some_money_not_recovered": {"value": 35, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"},
+        "median_loss_before_recovery": {"value": 500, "unit": "US dollars among adults who lost money", "value_type": "median"},
+        "median_loss_after_recovery": {"value": 30, "unit": "US dollars among adults who lost money", "value_type": "median"},
+        "communicated_with_financial_provider": {"value": 67, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"},
+        "changed_bank_or_financial_provider": {"value": 12, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"},
+        "reported_to_authority_or_credit_bureau": {"value": 38, "unit": "percent of adults experiencing non-credit-card fraud", "value_type": "conditional_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published fraud-loss, recovery, provider-contact, reporting, and bank-change estimates; payment-method and recovery measures allow distinct valid-answer universes.",
+      "uncertainty": "The figures concern the most recent reported fraud and are self-reported; they do not identify provider liability, dispute success, timing, repeat use, or whether changing providers was feasible or protective.",
+      "subgroup": "Adults experiencing non-credit-card fraud, with payment-method and response-condition subgroups.",
+      "counterinterpretation": "A bank change may reflect ordinary life change or a preferred alternative rather than a remedy failure; contacting a provider can produce recovery without switching, while non-switching can reflect satisfaction, inertia, or lack of alternatives.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm",
+      "retrieval_hash": "sha256:79ba2c52fd63698d499232823387fb134321e7a1b7d44f1e7133a801661f54f8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-credit.htm", "claim": "The companion credit chapter supplies credit-card ownership, balance-carrying, and repayment context.", "status": "related", "access_boundary": "Credit use and bank-account access are distinct response surfaces."},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm", "claim": "The income-and-expenses chapter supplies price adaptation, outside support, and budget-margin context.", "status": "related", "access_boundary": "Budget adaptation does not identify a specific provider or fraud episode."}
+  ],
+  "boundary": "This record establishes unequal formal banking access, nonbank substitution, fraud recovery burden, provider contact, and reported switching in 2025. It does not establish a causal account or overdraft effect, provider responsibility, verified recovery, consumer welfare, trust change, or practical exit. Access, substitution, recovery, and switching remain separate stages."
+}

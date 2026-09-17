@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 290 records and
-1036 observations.
+have exact registered-URL references. The trend registry holds 291 records and
+1039 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2518,6 +2518,16 @@ not pooled rates and not evidence that the other themes are complete. The next
 executable checkpoint remains the authenticated PSID wave-file gate, followed
 by a retention/missingness/weight audit; no PSID archive should be downloaded
 until account access is available.
+
+The [2025 SHED banking-substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
+adds a new financial-power counterexample from a small official publication
+surface: formal account access remains sharply income-patterned, unbanked
+adults use nonbank transaction routes more often, and only a minority of
+non-credit-card fraud respondents report changing providers. It strengthens the
+access → substitution → loss/recovery → switching map without claiming that
+nonbank use is deprivation or that non-switching is satisfaction. The next test
+remains a dated account/case ledger with provider contact, verified recovery,
+alternative route, and reason for staying or leaving.
 
 ## Sequencing rule
 

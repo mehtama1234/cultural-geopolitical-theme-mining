@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-290 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+291 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -389,6 +389,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Financial access is widespread but transaction and credit routes remain stratified | cost, voice, time | household_room_consumption, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | FDIC 2023 National Survey of Unbanked and Underbanked Households, conducted with the Census Bureau as a CPS supplement | United States; nationally representative households, with state, MSA, regional, and demographic subgroup tables | 4 | 2023; household bank-account ownership; 2023; banked, underbanked, and fully banked household classification; 2023; mainstream-credit access; 2023; technology, trust, and alternative transaction routes | reported | [open](records/us-fdic-unbanked-underbanked-households-2023.json) |
 
 **Boundary:** FDIC adds a US household financial-access layer that distinguishes formal account ownership, underbanked use of specified nonbank services, mainstream-credit visibility, and digital/alternative transaction routes. It does not establish liquidity, affordability, remedy, trust change, consumer exit, or political behavior for the same households over time.
+
+| Formal banking access coexists with unequal nonbank substitution and weak observed switching after fraud | cost, voice, time | household_room_consumption, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, firm_sector_market_power | Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; published banking and fraud tables | United States | 3 | 2025 SHED; bank account ownership and overdraft; 2019 to 2025; nonbank check-cashing or money-order use; 2025 SHED; non-credit-card fraud loss, recovery, and response | compared; reported | [open](records/us-federal-reserve-banking-substitution-recourse-2025.json) |
+
+**Boundary:** This record establishes unequal formal banking access, nonbank substitution, fraud recovery burden, provider contact, and reported switching in 2025. It does not establish a causal account or overdraft effect, provider responsibility, verified recovery, consumer welfare, trust change, or practical exit. Access, substitution, recovery, and switching remain separate stages.
 
 | Household financial exposure separates liquid buffers, revolving credit, and repayment strain | cost, time, voice | household_room_consumption, unequal_exposure_status, firm_sector_market_power, trust_identity_meaning, political_judgment_action | Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; selected responses linked to credit-report data | United States | 5 | 2025 SHED; emergency liquidity; 2025 SHED; credit-card ownership and revolving use; 2023 to 2025; SHED respondents linked to credit records; 2025 SHED; student-loan repayment; 2025 SHED; non-retirement savings response to hardship | compared; reported | [open](records/us-federal-reserve-financial-buffer-credit-exposure-2025.json) |
 

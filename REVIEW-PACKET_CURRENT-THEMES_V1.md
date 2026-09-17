@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 290 canonical records, 1036 observations, 14 program
+**Registry checkpoint:** 291 canonical records, 1039 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),
@@ -40,6 +40,10 @@ its unresolved arrows visible:
   [practical-exit synthesis](site/practical-exit-cross-domain-synthesis-v1.html):
   platform design, diner/driver/restaurant exposure, redress, and controls;
   group-specific recovery and exit remain open.
+- [2025 SHED banking substitution and fraud recourse](site/us-financial-intermediation-003.html):
+  unequal formal access, nonbank routes, overdraft, fraud recovery, provider
+  contact, and reported switching are visible; dated account events, verified
+  recovery, alternative quality, and practical exit remain open.
 - [SNAP data governance](site/us-snap-data-governance-accountability-001.html)
   and [public-help synthesis](site/public-help-route-buffer-judgment-synthesis-v1.html):
   benefit administration, data-access/privacy conflict, and institutional

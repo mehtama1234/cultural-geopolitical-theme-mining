@@ -44,13 +44,13 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 4 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 290 machine-readable records; 1036 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 291 machine-readable records; 1039 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 290 records/1036 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 291 records/1039 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -854,6 +854,14 @@ control counts, not population rates or completed causal arrows. The result
 confirms that the next executable step is the authenticated PSID wave-file
 gate and subsequent retention, missingness, and weight checks; the workspace
 must not fetch the PSID archive before account access is available.
+
+The forty-eighth rotation adds the [2025 SHED banking-substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
+to the financial-access and consumer-recourse lanes. It records unequal
+unbanked and overdraft exposure, nonbank transaction substitution, fraud loss
+and recovery, provider contact, and reported bank switching from one official
+2025 publication. These are distinct conditional surfaces, not a causal
+account-to-loss sequence: the next missing fields are the dated account/case,
+verified recovery, alternative quality, and reason for staying or leaving.
 
 ## Active research lanes
 

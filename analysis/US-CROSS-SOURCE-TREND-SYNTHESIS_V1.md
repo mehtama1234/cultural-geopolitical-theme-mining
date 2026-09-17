@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-thirty-eight estimates of one phenomenon:
+forty-eight estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -68,6 +68,7 @@ thirty-eight estimates of one phenomenon:
 | 28. Practical exit observability | [Practical exit observability audit](projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md) | SNAP exit, platform restoration, fraud recovery burden, complaint visibility, insurance-market movement, and local capacity expose different forms of institutional or market movement; none is a common practical-exit rate | Same-unit alternatives, remedy receipt, switching/non-use, move/stay, protected or sacrificed outcome, and later trust/action |
 | 29. Consumer spending composition and unequal room | [BLS 2024 composition and quintile update](projects/us-household-financial-pressure/bls-ce-2024-overall-and-quintile-spending-update-v1.md) | The average consumer unit's budget is concentrated in housing, transportation, food, insurance/pensions, and healthcare, while income and expenditure changes diverge across income quintiles; spending is a distributional surface, not a welfare index | Dated price/payment event, available substitute, liquid room, protected or sacrificed need, debt/time response, recovery, trust, and action in the same unit |
 | 30. Formal digital-payment remedy versus lived recovery | [CFPB Cash App fraud redress case record](projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md) | A named US enforcement action documents fraud/dispute-process failures, required operational changes, and up to $120 million in consumer redress; formal remedy is separated from individual receipt, correction, trust, and exit | Case-level loss, dispute effort, payment receipt, restored access, repeat contact, alternative provider, switching, trust, and practical exit |
+| 31. Banking access, substitution, and fraud recourse | [2025 SHED banking-substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md) | Income-patterned unbanked status, overdraft exposure, nonbank transaction routes, fraud recovery, provider contact, and reported switching are visible as distinct stages | Dated account/case event, provider responsibility, verified recovery, alternative quality, trust, and practical exit |
 | 31. Administrative redress distribution versus individual recovery | [CFPB BrightSpeed redress distribution record](projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md) | A public case page identifies an eligible class, aggregate compensable harm, payment administrator, and ongoing distribution; aggregate distribution status is stronger than an order alone but is not a consumer recovery rate | Successful payment receipt, amount received, remaining loss, repeat effort, restored practical options, trust, switching, and exit |
 | 32. Compensation versus obligation restoration | [CFPB Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md) | The CFPB reports ongoing checks while explicitly stating that payments do not change or reduce affected student loans; compensation and restoration are separate endpoints | Payment receipt, loan-balance correction, repayment-plan change, remaining loss, servicing effort, trust, switching, and exit |
 | 33. Subscription attention and practical exit | [Recurring payment and consumer exit](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md) | The FTC's Shutterstock case connects alleged unclear renewal terms and difficult cancellation to a proposed disclosure/consent/simple-exit remedy, while leaving prevalence and household incidence open | Same-account notice, charge, customer intent, attempted cancellation, effort, relief receipt, continued use, switching, and trust |
@@ -485,7 +486,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 290 machine-readable records, 1036 observations,
+The current registry contains 291 machine-readable records, 1039 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the

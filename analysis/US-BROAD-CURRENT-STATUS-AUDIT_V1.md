@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 290 machine-readable records, 1036 observations,
+**Current registry state:** 291 machine-readable records, 1039 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 573 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 574 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -96,6 +96,14 @@ control counts, not population rates or completed causal arrows. The next
 executable step remains the authenticated PSID wave-file gate, followed by
 retention, missingness, and weight checks; no PSID archive is to be fetched
 before account access is available.
+
+The latest financial-access addition is the [2025 SHED banking-substitution
+finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md).
+It adds official subgroup and response surfaces for unbanked status, overdraft,
+nonbank transaction routes, fraud recovery, provider contact, and reported
+switching. The result strengthens the access-to-recourse map but does not
+identify a dated account event, provider liability, verified recovery, trust
+change, or practical exit.
 
 The material/time/care lane remains active, but it is not a program-wide gate.
 Existing annual and panel evidence can establish distributions, persistence,
@@ -1639,10 +1647,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 290 trend records and 1036 observations pass the
+the current checkpoint: 291 trend records and 1039 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,207 local Markdown links and 573 published HTML pages pass link
+families; 1,208 local Markdown links and 574 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
