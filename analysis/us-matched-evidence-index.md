@@ -663,3 +663,13 @@ Weatherization can lower energy use and improve safety and comfort. But projecte
 The Doxo record adds a bounded household-payment mechanism: a third-party bill route can make affiliation and total cost harder to understand, shifting money and recourse effort onto consumers before any downstream bill or service effect is observed. The FTC remedy makes institutional response visible, but the public evidence still cannot identify payment success, household incidence, service continuity, redress receipt, or later switching.
 
 [Read the HTML page](../site/us-doxo-bill-payment-hidden-fees-001.html) · [Read the Markdown memo](findings/us-doxo-bill-payment-hidden-fees-001.md)
+
+### 67. A platform remedy can reach workers and diners without proving lived recovery
+
+**Theme:** Cost / work / voice
+**Route:** platform design → multi-sided exposure → remedy → practical recovery or exit
+**Still open:** group-specific exposure, receipt, restored income/access, and switching
+
+The Grubhub record advances the broad program because it connects firm conduct to distinct consumer, worker, and small-business routes and then to both aggregate redress and operational controls. The FTC reports 640,038 checks or PayPal payments totaling more than $23.8 million to affected drivers and diners; the public program does not separate the groups or show individual receipt. The case therefore closes a visible institutional-response stage while leaving the lived recovery and exit stages open.
+
+[Read the HTML page](../site/us-grubhub-platform-remedy-001.html) · [Read the Markdown memo](findings/us-grubhub-platform-remedy-001.md)

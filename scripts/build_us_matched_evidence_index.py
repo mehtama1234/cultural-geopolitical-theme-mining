@@ -39,6 +39,7 @@ routes = {
     "us-consumer-credit-liquidity-matched-evidence-001": ("Cost / finance / voice", "bill shock → cash gap → credit → future room", "same-household repayment and later access"),
     "us-hidden-fees-price-salience-matched-evidence-001": ("Cost / customer / finance / voice", "headline price → late cost → choice → final burden", "same-household cost, quality, and repeat choice"),
     "us-doxo-bill-payment-hidden-fees-001": ("Cost / time / voice", "bill due → search route → intermediary fee or friction → public remedy", "payment success, bill status, service continuity, and remedy receipt"),
+    "us-grubhub-platform-remedy-001": ("Cost / work / voice", "platform design → multi-sided exposure → remedy → practical recovery or exit", "group-specific exposure, receipt, restored income/access, and switching"),
     "us-bank-fees-household-wellbeing-matched-evidence-001": ("Cost / finance / voice", "low account cash → fee or overdraft → later cost", "payment success and household recovery"),
     "us-bank-depositor-inertia-matched-evidence-001": ("Cost / finance / voice", "account habit → switching effort → lower return or stable funding", "customer net return and bank stability"),
     "us-benefit-cliff-work-choice-matched-evidence-001": ("Cost / work / voice", "earnings rise → aid changes → real household room", "same-family net resources and work outcome"),
@@ -72,6 +73,7 @@ routes = {
 }
 paths = sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md"))
 paths.append(ROOT / "analysis/findings/us-doxo-bill-payment-hidden-fees-001.md")
+paths.append(ROOT / "analysis/findings/us-grubhub-platform-remedy-001.md")
 for path in paths:
     text = path.read_text()
     title = re.search(r"^# (.+)$", text, re.M).group(1)
