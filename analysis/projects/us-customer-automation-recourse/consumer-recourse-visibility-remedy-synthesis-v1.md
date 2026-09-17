@@ -222,6 +222,14 @@ successfully delivered, or sufficient to repair each person's loss.
 | Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
 | BrightSpeed | Enforcement action against payment processing for fraudsters | 122,507 eligible consumers, $53.9M compensable harm, administrator, ongoing distribution | Issuance, delivery, amount received, residual loss, recovery, trust, exit |
 
+The closed American Debt Settlement Solutions case supplies a fourth
+distribution state. The CFPB says eligible consumers received compensation,
+records two distributions from May 2014 through June 2016, and states that the
+matter is closed and check reissue requests are no longer honored. This is
+evidence that a distribution can reach a documented closed state, but the page
+does not provide a person-level receipt file, payment amount distribution,
+remaining loss, or later financial behavior. See the [ADSS payment record](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/american-debt-solutions/).
+
 The comparison prevents a common error: reading an enforcement order,
 administrator listing, or aggregate harm amount as proof that a particular
 consumer recovered. The next public check should capture payment status and
