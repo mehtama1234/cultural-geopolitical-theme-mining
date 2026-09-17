@@ -24,6 +24,13 @@ a source and next test.
 - **1047** period-specific observations
 - **103** source-search packets
 
+**Latest bounded addition:** the [2025 SHED employment and AI-control
+finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-030.md)
+adds young-adult job-finding friction, labor mobility, work schedules, and
+education/control-stratified generative-AI use. It strengthens the work and
+optionality map without claiming causal displacement, productivity, household
+welfare, trust, or political response.
+
 ## Source ecosystem
 
 | Family | Sources |
