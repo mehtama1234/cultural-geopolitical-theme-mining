@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "a986e6a55971be260c3ad6d22c30b7c1960200d2e32179d176e30e71a2a5ba60",
+  "matrix_sha256": "e7ea0e862c673b5c3688bddff5551fc26a4118138ac222713fd7494e8b38881e",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -119,9 +119,9 @@
     },
     {
       "current_status": "Reported / Compared / Open",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 13,
       "measurement_level": "Respondent, customer, survey wave, community, source ecosystem",
-      "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; WBNS adds a bounded perceived-risk/non-use signal and family hardship context, but does not observe trust change or causal enforcement effects; the CCES layer remains a descriptive joint-proxy screen, not a causal bridge.",
+      "next_required_test": "Measure the interpretation between material experience and action: attribution, dignity, blame, belonging, institutional trust, and changing norms; HTOPS adds same-ID material-to-judgment timing but no action or attribution endpoint; WBNS adds a bounded perceived-risk/non-use signal and family hardship context, but does not observe trust change or causal enforcement effects; the CCES layer remains a descriptive joint-proxy screen, not a causal bridge.",
       "same_unit_end_to_end_link": true,
       "source_line": 22,
       "status_tokens": [
@@ -146,9 +146,9 @@
     },
     {
       "current_status": "Compared / Open",
-      "evidence_anchor_count": 12,
+      "evidence_anchor_count": 14,
       "measurement_level": "Respondent, source ecosystem, program episode, county, election, campaign/event",
-      "next_required_test": "SHED, CCES, ANES, Pew, and CPS now separate consumer adaptation, economic judgment, trust, source environment, civic action, turnout, registration, and participation barriers; WBNS adds protective non-use as an observed behavior under perceived immigration risk, not as civic action; subgroup heterogeneity is now visible in CCES, but joint proxies do not establish causality, and migration-specific exposure, attribution, belonging, and causal action path remain open.",
+      "next_required_test": "SHED, CCES, ANES, Pew, CPS, and HTOPS now separate consumer adaptation, economic judgment, trust, source environment, civic action, turnout, registration, and participation barriers; HTOPS supplies same-ID material-to-judgment timing but no action, attribution, remedy, or recovery endpoint; WBNS adds protective non-use as an observed behavior under perceived immigration risk, not as civic action; subgroup heterogeneity is now visible in CCES, but joint proxies do not establish causality, and migration-specific exposure, attribution, belonging, and causal action path remain open.",
       "same_unit_end_to_end_link": true,
       "source_line": 24,
       "status_tokens": [
