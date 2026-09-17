@@ -33,6 +33,7 @@ the missing join instead of presenting those layers as one causal story.
 | **LIHEAP reach → reported restoration** | Official FY2024 program aggregate; nearly 6 million individuals/families helped, about 5 million heating-assistance households, and 279,000 reported home-energy restoration instances | Public-system reach and restoration are separate observable capacity endpoints; immediate service restoration need not equal durable household stability | Same-household application, payment, restoration, next bill, repeat crisis, protected/sacrificed outcome, trust, political action, and exit remain open |
 | **CCES material/work proxy screen** | Same post-election respondent; gig work and student-loan responsibility crossed with federal/state trust and six civic actions | Trust and action differ across joint proxy cells and are not monotonic; low trust does not equal withdrawal | Dated shock, burden, reason, schedule control, prior trust, desired action, remedy, and causal uncertainty |
 | **CES medical-affordability module** | Same respondent; reported medical-expense hardship, responsibility attribution, and separate political actions in 2018/2020 | Local rerun reproduces the existing hardship → attribution/action screen, including distinct contact/protest patterns | A dated bill or care event, payment/choice, remedy, trust change, recovery, and design-based uncertainty; see the [reproduction audit](projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md) |
+| **CCES 2010–2014 job-loss panel** | 9,500 retained respondents; 2012 retrospective job-loss screen followed by 2014 Congress approval, congressional contact, and local political action | Same-panel ordering shows lower later local action after reported job loss, while institution-specific Congress approval is not uniformly lower; this is a direct counterexample to one hardship-to-withdrawal rule | Exact separation date, actor, involuntary status, income/time loss, alternatives, attribution, remedy, recovery, trust change, and exit; see the [panel audit](projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md) |
 | **ANES 2016–2020–2024 panel subset** | Repeated-panel respondent subset; pre-election financial worry crossed with federal trust and post-election reported vote | Worry is temporally ordered before reported vote, with non-monotonic trust and vote patterns | Direct material exposure, attribution, prior party identity in the causal design, action beyond vote, institutional response, and representative retention |
 | **CPS 2024 Voting Supplement** | Person/household survey; registration, voting, and reported participation barriers | Political participation and nonparticipation are distinct observed outcomes with social-position differences | Whether a specific material or administrative burden caused the reported barrier, plus trust, remedy, and later behavior |
 | **Public-system and consumer route designs** | Program/complaint/service records and proposed same-episode ledgers | Visibility, route, effort, response, and remedy can be specified as an episode | A linked recipient outcome showing attribution, trust, action, recovery, switching, or exit |
@@ -53,6 +54,9 @@ the missing join instead of presenting those layers as one causal story.
 4. The decisive missing variables are not another generic sentiment measure;
    they are the event, responsible actor, alternative, attribution, action
    route, response, and later recovery or exit.
+5. A retained CCES panel can place a prior work disruption before later
+   political outcomes, but lower action and non-uniform institutional approval
+   show that timing alone does not identify a shared meaning or mechanism.
 
 ## Quantitative checkpoint from existing local records
 
@@ -89,6 +93,14 @@ The current numbers sharpen the boundary without creating a pooled effect:
   attribution-conditioned contact and protest were 26.3%/11.1% in 2018 and
   42.7%/23.6% in 2020. This is a reported hardship/attribution/action bridge,
   not a causal bill-to-politics result.
+- In the retained CCES 2010–2014 panel, 829 respondents reported losing a job
+  during the prior two years. In 2014, any local political action was 23.93%
+  among that group versus 31.57% among 8,671 respondents reporting no job loss;
+  any congressional contact was 37.36% versus 39.14%. Favorable Congress
+  approval was 13.86% versus 10.06%, so institutional approval did not follow a
+  uniform distrust pattern. These weighted descriptive contrasts preserve the
+  same-panel timeline but do not identify a dated separation, causal effect,
+  blame, trust change, or recovery.
 - In the SHED 2024→2025 panel, the later-income-band cells contain 4,419
   recontacted respondents with valid condition paths. Among prior adopters in
   worsening paths, persistence of cheaper-product use was 89.9% under $50,000,
@@ -126,12 +138,14 @@ alone, but it remains a public remedy status rather than a measured recovery
 or political-action outcome.
 
 The new [material-to-meaning/action endpoint audit](projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md)
-formalizes the four strongest local partial bridges: HTOPS supplies selected
-same-respondent material timing and institutional judgment; CCES supplies
-material/work proxies with trust and civic action; CES supplies hardship,
-attribution, and targeted participation; and ANES supplies worry-to-vote
-ordering. None supplies the full dated event, responsible actor, alternatives,
-meaning, action, remedy, and recovery chain.
+formalizes the strongest local partial bridges: HTOPS supplies selected
+same-respondent material timing and institutional judgment; the CCES
+2010–2014 panel supplies a prior work-disruption screen and later approval,
+contact, and action; the newer CCES layer supplies material/work proxies with
+trust and civic action; CES supplies hardship, attribution, and targeted
+participation; and ANES supplies worry-to-vote ordering. None supplies the full
+dated event, responsible actor, alternatives, meaning, action, remedy, and
+recovery chain.
 
 The SNAP data-governance event adds a public-system counterexample to a simple
 “more oversight means more security” story. Federal demands, state resistance,
@@ -209,8 +223,9 @@ or non-remedy, and later meaning/action. The completed HTOPS endpoint audit
 already establishes that the retained panel output does not expose the full
 actor, attribution, remedy, recovery, or action chain. The raw PUFs are not
 currently retained locally, so no rerun or new panel estimate is claimed in
-this pass; if the required fields are unavailable, retain that acquisition gap
-and specify the smallest authenticated route.
+this pass; the CCES panel narrows the gap for work-to-action timing but still
+lacks a dated event and mechanism. If the required fields are unavailable,
+retain that acquisition gap and specify the smallest authenticated route.
 
 ## Promotion rule
 
