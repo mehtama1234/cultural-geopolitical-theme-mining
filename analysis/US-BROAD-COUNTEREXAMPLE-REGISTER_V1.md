@@ -1,6 +1,6 @@
 # US broad counterexample register v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Purpose:** keep the 14-theme program from turning recurring patterns into
 one-direction explanations.
 
@@ -61,6 +61,7 @@ same-unit causal chain.
 | 8 | Among older adults, unmet assistance is materially higher for people with disabilities than for the all-60-plus population (24.0% vs 11.3% for any personal assistance). | Older age alone is not protective against unmet care or material insecurity; disability changes exposure and available alternatives. | Published 2025 subgroup frames with different disability composition; no dated service episode, route effort, remedy, or later action. See the [WBNS age/care layer](projects/us-safety-net-access/wbns-2025-age-care-material-security-layer-v1.md). |
 | 9, 11 | In CCES 2024, the gig-work/student-loan proxy cell had the highest joint federal-trust/action share (30.32%), while the no-gig/no-debt reference cell was 16.42%; low federal trust with action was also observed (16.11% in the joint proxy cell). | Distrust is not equivalent to civic withdrawal, and material/work proxy cells do not map monotonically to one political meaning. | Weighted cross-sectional proxy comparison without complex-design variance; prior identity, attribution, selection, and dated exposure remain open. See the [CCES trust/action layer](projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md). |
 | 3, 9, 10 | The CFPB Navient record reports checks going to affected consumers while explicitly stating that the payments do not change or reduce the affected student loans. | Compensation is not automatically obligation restoration, reduced servicing dependence, trust repair, or practical exit. | Official case-level remedy description; payment receipt, balance correction, repayment-plan change, residual loss, repeat effort, trust, switching, and exit remain unobserved. See the [Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md). |
+| 1, 3, 12 | The 2025 SHED banking page shows higher nonbank check-cashing/money-order use among unbanked adults (28% versus 11% among banked adults), while only 12% of non-credit-card fraud respondents reported changing banks or financial companies. | Nonbank use is not automatically deprivation, and non-switching after a loss is not automatically satisfaction or successful recourse. | Official cross-sectional conditional estimates; price, alternative quality, provider responsibility, verified recovery, and reason for staying or leaving remain open. See the [banking substitution and recourse finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md). |
 
 ## How to use the register
 
