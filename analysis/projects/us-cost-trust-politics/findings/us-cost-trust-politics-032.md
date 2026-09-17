@@ -174,3 +174,5 @@ Sources:
 - [Corrected March 2026 PUF](https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2603_CSV.zip)
 - [March 2026 HTOPS table listing](https://www.census.gov/data/tables/2026/demo/hhp/2603.html)
 - [March 2026 HTOPS release note and weighting correction](https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html)
+
+Reproduction script: [`scripts/analyze_htops_2026_social_connection.py`](../../../../scripts/analyze_htops_2026_social_connection.py).
