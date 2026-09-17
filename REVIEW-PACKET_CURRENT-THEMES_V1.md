@@ -44,7 +44,7 @@ its unresolved arrows visible:
   unequal formal access, nonbank routes, overdraft, fraud recovery, provider
   contact, and reported switching are visible; dated account events, verified
   recovery, alternative quality, and practical exit remain open.
-- [2025 SHED employment and AI control](site/us-cost-trust-politics-017.html):
+- [2025 SHED employment and AI control](site/us-cost-trust-politics-030.html):
   young-adult job-finding friction, labor mobility, work schedules, and
   education/control-stratified AI use are visible together; same-worker causal
   effects, captured gains, household consequences, trust, and political

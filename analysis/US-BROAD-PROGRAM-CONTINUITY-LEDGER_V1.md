@@ -871,7 +871,7 @@ conditional surfaces, not a causal care-to-work or household-displacement
 estimate; same-family triggers, alternatives, schedule control, recovery,
 meaning, and political-action links remain open.
 
-The fiftieth rotation adds the [2025 SHED employment and AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-017.md).
+The fiftieth rotation adds the [2025 SHED employment and AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-030.md).
 It places young-adult job-finding friction, layoffs, voluntary mobility,
 workplace schedule organization, and education/control-stratified generative-AI
 use on one official population surface. The pattern sharpens the link between

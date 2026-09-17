@@ -2548,7 +2548,7 @@ rotate to a different theme. Do not add another exposure-only cross-tab to this
 checkpoint.
 
 The latest storage-light continuation adds the [2025 SHED employment and
-AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-017.md):
+AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-030.md):
 young-adult entry friction, layoffs, voluntary exits, new-job starts, work
 organization, and education/control-stratified AI use are visible as separate
 surfaces. It strengthens the labor-mobility and workplace-control bridge but

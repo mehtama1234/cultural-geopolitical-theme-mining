@@ -1,85 +1,131 @@
-# Finding 017: A softer labor market narrows mobility while AI access follows workplace control
+# Three 2026 Census pulse snapshots show movement without a single household story
 
-**Status:** provisional 2025 SHED employment-and-job-quality finding · **Checked:** 2026-09-17
+**Status:** provisional replicate-weighted cross-sectional comparison · **Checked:** 2026-09-14
 
 ## The bounded finding
 
-The Federal Reserve's 2025 household survey shows a labor market that remains
-active but gives workers less visible room to move. Among adults ages 18 to 29,
-the share not working because they could not find work rose from 11% in 2023 to
-15% in 2025; the combined reported difficulty of finding any or full-time work
-was 25% in 2025. Across all adults, layoffs rose from 6% to 7% between 2024 and
-2025, voluntary exits fell from 9% to 8%, and new-job starts fell from the 2022
-peak of 15% to 13%.
+Corrected March, corrected May, and July 2026 HTOPS/HPS public-use files show
+that household pressure, energy trade-offs, food insufficiency, and
+institutional judgment do not move as one block. The broad share reporting any
+difficulty with usual expenses was 51.2% in March, 49.8% in corrected May, and
+49.8% in July. Food insufficiency moved 6.5% → 8.3% → 7.4%; the share
+reporting that the household reduced or forgone basic necessities to pay an
+energy bill moved 12.8% → 14.9% → 12.7%. Trust in federal statistics moved
+52.1% → 49.7% → 51.5%, while high confidence in Congress moved 18.2% → 18.3%
+→ 17.3%.
 
-At the same time, generative-AI access was not evenly distributed. Twenty-five
-percent of workers used generative AI at work in the prior month, but use was
-10% among workers with a high-school degree or less versus 43% among workers
-with a graduate degree. Use was 30% among employees with high control over how
-to complete tasks versus 20% among those with less control.
+The meaningful result is the divergence: a broad expense measure was nearly
+flat from May to July while narrower food and energy measures changed, and
+institutional judgments moved on their own path. These are independent
+cross-sectional snapshots, not within-person changes. They do not establish a
+price cause, recovery, institutional blame, or a political response.
 
-The defensible trend is therefore narrower than “AI is replacing workers” or
-“the labor market is collapsing”:
+## Replicate-weighted comparison
 
-> As outside job options soften, the ability to convert new workplace tools
-> into time savings or career advantage is patterned by education and control
-> over how work is done.
+Values are weighted percentages; parentheses show the Census successive-
+difference replicate-weight standard error in percentage points. The files
+were released as public-use PUF, replicate-weight, and dictionary packages; the
+March and May files were the corrected versions identified in the Census user
+notes.
 
-## What the source reports
+| Measure | March 2026 | May 2026 corrected | July 2026 | Reading boundary |
+|---|---:|---:|---:|---|
+| Any difficulty paying usual expenses | 51.2 (1.25) | 49.8 (1.31) | 49.8 (1.14) | Broad household-room measure; not a bill amount |
+| Sometimes/often not enough food | 6.5 (0.84) | 8.3 (0.91) | 7.4 (1.12) | Seven-day food-sufficiency item; not annual food security |
+| Reduced/forgone basic needs to pay energy bill | 12.8 (0.83) | 14.9 (0.94) | 12.7 (1.18) | Two-month energy trade-off; no arrears duration or remedy |
+| Tends to trust federal statistics | 52.1 (1.36) | 49.7 (1.09) | 51.5 (1.12) | One institutional object; not generalized government trust |
+| Great deal/quite a lot confidence in Congress | 18.2 (0.91) | 18.3 (0.84) | 17.3 (0.89) | Confidence is not legitimacy, attribution, or political action |
 
-| Surface | 2025 published measure | Safe interpretation |
-|---|---:|---|
-| Young-adult entry friction | 15% of adults 18–29 were not working and said inability to find work contributed; 10% were working part time because they could not find more work | Entry and full-time opportunity are constrained for a visible subgroup; this is not a complete unemployment rate |
-| Exit and movement | 7% were laid off, 8% left voluntarily, and 13% started a new job | Layoff, voluntary exit, and job start are separate events; the pattern is consistent with less mobility but does not prove why |
-| Unequal AI access | 10% AI use among workers with high school or less versus 43% with graduate degrees | Tool exposure is education-stratified; it is not a productivity or wage estimate |
-| Control gradient | 30% AI use among employees with high task-completion control versus 20% with less control | Workplace discretion and adoption are associated; causality and employer permission remain open |
-| Work organization | 39% worked from home at least sometimes; 16% had employer-needs schedule variation versus 10% worker-requested variation | Location and schedule are distinct control surfaces, not a composite job-quality score |
+The full machine-readable record also preserves income, sex, children-present,
+and no-children domain estimates. The income contrast is persistent but not
+constant: any expense difficulty was 63.3%, 60.8%, and 64.2% among respondents
+in the under-$50,000 household-income bands, versus 36.9%, 35.1%, and 35.0%
+among respondents in the $100,000-plus bands. These are subgroup distributions,
+not an estimate of an income effect; composition, question nonresponse, and
+other household resources remain relevant.
 
-The source also reports that 60% of job changers said their new job was better,
-while 44% of all workers agreed generative AI would save time. Neither figure
-establishes durable security, actual productivity, or who captures the benefit.
+For a formal but deliberately limited contrast screen, the approximate 90%
+independent-snapshot interval for the March-to-May energy trade-off difference
+is 0.0 to 4.2 percentage points (difference +2.1); the corresponding May-to-
+July interval is -4.7 to 0.3 (difference -2.2). The March-to-May food
+insufficiency interval is -0.2 to 3.8 (difference +1.8), and the May-to-July
+interval is -3.3 to 1.5 (difference -0.9). These intervals are computed from
+the separate replicate-weight standard errors and are not a substitute for a
+design-aware pooled test or a same-person comparison. The record preserves the
+full contrast table, including the income domains and institutional measures.
 
-## Mechanism map
+## What the comparison changes
 
-```text
-weaker hiring / young-adult entry friction / layoff risk
-  -> fewer credible outside options
-  -> less voluntary movement and bargaining room
-  -> unequal access to AI, schedule, and task discretion
-  -> uneven time savings or replacement concern
-  -> changing trust in employers, technology, and policy
-  -> possible collective response or exit
-```
+### 1. “Household pressure” needs an endpoint
 
-This is a cross-sectional bridge, not a same-worker causal chain. The source
-does not follow a person from layoff or job-search failure through AI adoption,
-income, schedule change, trust, or political action.
+The broad expense question is comparatively stable while food insufficiency and
+energy trade-offs show larger period movement. A single pressure index would
+hide whether a household is reporting anticipated prices, payment difficulty,
+material sacrifice, or an immediate food endpoint. The atlas should keep these
+currencies separate until overlap and timing are measured.
 
-## Boundaries and counterexamples
+### 2. Income gradients persist without becoming a causal story
 
-- Lower voluntary exits can mean satisfaction, fewer attractive alternatives,
-  or both.
-- AI use can be higher because particular jobs fit the tool or because an
-  employer permits it; lower use is not evidence of lower ability.
-- Schedule variation driven by employer needs is not automatically harmful,
-  and fixed schedules are not automatically accessible or desirable.
-- A job reported as better may improve one characteristic while worsening
-  another; it is not a welfare or bargaining-power measure.
+The under-$50,000 domain is consistently more exposed on the broad expense
+measure than the $100,000-plus domain, and the gap remains visible in all three
+snapshots. This supports unequal exposure as a recurring descriptive pattern.
+It does not identify liquid assets, family support, housing costs, debt, local
+prices, or which alternative each household used.
 
-## Next test
+### 3. Trust is neither a simple lag nor a direct hardship response
 
-The decisive follow-up is a longitudinal worker-level design linking job loss,
-applications, employer AI policy, task control, schedule predictability, pay,
-benefits, hours, accommodations, and later job movement. Preserve non-users,
-non-movers, and people who leave the labor force so “no exit” is not mistaken
-for satisfaction.
+Federal-statistics trust falls in the corrected May snapshot and rises in July,
+while broad expense difficulty is nearly unchanged from May to July. That
+co-movement pattern is inconsistent with reading the trust measure as a simple
+mechanical lag of the broad expense item. It is still not evidence of a causal
+relationship: the survey does not measure the respondent's attributed event,
+messenger, news environment, or subsequent action.
 
-## Sources
+### 4. The survey design break matters
 
-- [Federal Reserve, Employment and Job Quality in the 2025 SHED report](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
-- [Machine-readable observation record](../../../records/us-federal-reserve-employment-ai-control-2025.json)
-- [Existing labor-mobility context](../findings/us-cost-trust-politics-011.md)
+The Census documentation says HTOPS used a longitudinal design throughout 2025
+and shifted to a cross-sectional HPS-focused design beginning in March 2026.
+Therefore the three 2026 files can be compared as repeated population
+snapshots, but not as a recontact panel. A 2026 movement cannot be described as
+the same households recovering or deteriorating without a valid identifier and
+panel design.
 
-**Evidence status:** official 2025 SHED published estimates; population-level
-comparisons and associations. No causal AI, welfare, trust, or political claim
-is made.
+## Counterexamples kept visible
+
+- A stable broad expense share can coexist with movement in food or energy
+  endpoints because the questions have different universes and reference
+  periods.
+- A persistent income gradient does not imply that income alone caused the
+  pressure; housing, health, debt, family help, and local prices can differ.
+- Trust in federal statistics can rise while confidence in Congress falls;
+  institutional objects and response scales differ.
+- A point change larger than its displayed standard error is not by itself a
+  complete difference test; independent-snapshot comparison, wording, design,
+  and nonresponse checks still matter.
+
+## Next end-to-end test
+
+Use the subgroup cells to select a dated event design: actual price or energy
+exposure, resource alternatives, immediate substitution, food/health/work
+outcome, and later trust or action. Pair the Census snapshots with SHED,
+WBNS, SIPP, and administrative route records only as complementary populations
+unless a valid person-level join exists. The next reproducible statistical
+extension is a formal independent-snapshot contrast table with confidence
+intervals and harmonized question-universe checks; the next substantive design
+is a same-person follow-up, not a larger aggregate index.
+
+## Sources and reproducibility
+
+- [Census HTOPS/HPS public-use files](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html)
+- [Census user notes](https://www.census.gov/programs-surveys/household-pulse-survey/technical-documentation/user-notes.html)
+- [Machine-readable March/May/July comparison](../../../records/us-census-htops-hps-material-trust-crosswave-2026.json)
+- [Replicate-weighted comparison builder](../../../../scripts/build_htops_hps_2026_crosswave_record.py)
+- [Question-harmonization audit](../htops-2026-question-harmonization-audit-v1.md)
+- [July 2026 detailed finding](us-cost-trust-politics-016.md)
+- [Federal Reserve 2025 price-adaptation and judgment record](../../../records/us-federal-reserve-price-adaptation-judgment-2025.json)
+- [WBNS route-to-security synthesis](../../us-safety-net-access/public-system-route-to-security-triangulation-v1.md)
+
+**Evidence status:** three corrected official cross-sectional public-use files,
+with 80-replicate successive-difference standard errors and explicit subgroup
+domains; no same-person sequence, causal exposure, attribution, recovery,
+trust mechanism, or political-action result is claimed.
