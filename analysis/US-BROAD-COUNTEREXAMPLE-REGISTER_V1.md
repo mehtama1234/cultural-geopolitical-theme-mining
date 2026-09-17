@@ -37,6 +37,24 @@ outcomes, and non-retaliation remain open. The case therefore weakens any
 simple rule that a formal remedy is either only a paper order or a complete
 recovery, while not establishing a population remedy rate.
 
+## Additional measured or bounded counterexamples already in the atlas
+
+The following examples were already validated in their source-specific
+writeups. They are promoted here so the program-wide register reflects the
+counterevidence that should constrain synthesis; none closes a complete
+same-unit causal chain.
+
+| Themes | Counterexample observed | What it rules out | Evidence boundary |
+|---|---|---|---|
+| 1, 10 | In the SIPP utility/assistance following-month screen, assistance receipt coexists with substantially more very-low food security in the difficulty-plus-assistance cell than in the neither-screen cell (36.89% vs 4.40%). | Assistance receipt is not equivalent to restored household security, and the unconditioned contrast is not a program effect. | Person-month descriptive comparison; targeting, adequacy, and exact bill/decision timing remain open. See the [SIPP energy-assistance layer](projects/us-household-calendar-integration/sipp-energy-assistance-food-following-layer-v1.md). |
+| 1, 6 | In the SHED recontact panel, improved self-rated health does not automatically unwind borrowing or delayed purchases; many respondents in the improved-health path retain those adaptations. | Health improvement is not interchangeable with financial recovery. | Same-respondent annual descriptive path; no dated bill or treatment counterfactual. See the [health-direction adaptation layer](projects/us-household-financial-pressure/shed-panel-adaptation-health-path-layer-v1.md). |
+| 3, 10 | SNAP exits can be followed by rent/mortgage and utility hardship, while continued receipt can coexist with hardship; exit is not uniformly recovery and receipt is not uniformly security. | Administrative status is not a sufficient welfare or route-quality outcome. | Weighted person-month transition comparison with composition and need differences. See the [public-system route triangulation](projects/us-safety-net-access/public-system-route-to-security-triangulation-v1.md). |
+| 4, 11 | The AI cross-partisan-contact experiment produced an immediate warmth effect, but the preregistered one-week effect was small and nonsignificant. | Short-run contact effects are not durable depolarization, voting change, or institutional-trust change. | Five-study experiment; generalization across topics and populations remains open. See the [AI contact experiment](projects/us-cost-trust-politics/findings/us-cost-trust-politics-026.md). |
+| 6, 11 | MEPS prescription-delay and denial/prior-authorization screens show different directions for later perceived-health improvement and worsening. | “Institutional friction” is not one uniform mechanism with one health consequence. | Separate route-specific descriptive screens with different rounds and selected populations; treatment continuity and remedy remain open. See the [route-specific friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-012.md). |
+| 7 | FEMA-bin premiums in the housing/insurance comparison are non-monotonic across risk/income contexts, and high-risk places can retain voluntary coverage. | Formal hazard exposure or broad premium level alone does not determine household coverage or ability to stay. | ZIP/place comparisons, not household property histories; mitigation, regulation, composition, repair, and move outcomes remain open. See the [housing/insurance finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-003.md). |
+| 12 | Retail has the largest application stream in the BFS–BDS sector profile but lower job-intensity comparison than several smaller application sectors. | Application volume is not a common scale for realized jobs, services, or firm capacity. | Separate national sector aggregates; firm survival, wages, service quality, and local incidence remain open. See the [local business/place finding](projects/us-local-business-place/findings/us-local-business-place-011.md). |
+| 13, 14 | Poland’s 2024 JASSM-ER order has a documented schedule and supplier route but no reviewed official record of accepted, fielded, trained, or inventoried missiles. | Contract, schedule, or supplier identity is not realized operational capability or geopolitical leverage. | Official-source non-observation; absence in the reviewed record is not proof that no delivery occurred. See the [JASSM-ER realization boundary](projects/ai-work-control/findings/ai-work-control-081.md). |
+
 ## How to use the register
 
 For each proposed trend, select the counterexample before writing the synthesis
