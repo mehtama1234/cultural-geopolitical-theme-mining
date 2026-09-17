@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 277 canonical records, 1020 observations, 14 program
+**Registry checkpoint:** 278 canonical records, 1021 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
@@ -49,6 +49,9 @@ its unresolved arrows visible:
 - [AT&T data-throttling refund implementation](site/us-customer-automation-recourse-022.html):
   aggregate refunds and a current reissue route are visible; individual receipt,
   restored connectivity, switching, and exit remain open.
+- [Credit Karma financial-access refund implementation](site/us-customer-automation-recourse-024.html):
+  “pre-approved” marketing, application time, and possible credit exposure are
+  linked to refunds; score repair, receipt, and restored opportunity remain open.
 - [CPSC hazard, recall, and remedy layer](site/cpsc-hazard-recall-remedy-layer-v1.html):
   recalls, violation notices, import examinations, marketplace takedowns, and
   FY2024/FY2025 response measures show institutional interruption; notice

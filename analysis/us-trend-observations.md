@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-277 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+278 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -441,6 +441,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Reported fraud losses rose while report volume stayed broadly stable, with loss incidence and severity split by age | cost, voice, work | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | FTC Consumer Sentinel Network administrative reports | United States reports and reports contributed by partner agencies and organizations | 2 | 2023–2024 annual Sentinel reports; 2024 fraud reports with usable age information | compared | [open](records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json) |
 
 **Boundary:** This is an administrative report and reported-loss layer, not a prevalence, verified-harm, recovery, or consumer-remedy estimate. It does not follow a person from platform or payment exposure through dispute, recovery, trust, or exit. The retrieval hash will cover the committed analysis memo.
+
+| Financial marketing can transfer cost into application time and credit exposure before a remedy becomes visible | cost, time, voice | household_room_consumption, time_hidden_price, consumer_power_recourse, firm_sector_market_power, trust_identity_meaning, public_systems_feedback | Federal Trade Commission Credit Karma enforcement and refund-administration record; valid-claim recipients are a remedy-program population, not a representative credit applicant sample | United States federal consumer-protection enforcement involving Credit Karma credit offers | 1 | October 2024 initial refund distribution; April 2026 payment reissue route | reported | [open](records/us-ftc-credit-karma-wasted-time-refunds-2026.json) |
+
+**Boundary:** This record establishes reported deceptive credit-offer allegations, time and possible score harm, aggregate refund distribution, and a current reissue route. It does not establish individual exposure, score correction, receipt, restored credit access, trust, collective action, or exit.
 
 | A bill-payment intermediary can turn search confusion and hidden fees into household payment friction | cost, voice, time | household_room_consumption, consumer_power_recourse, public_systems_feedback, platforms_data_attention, firm_sector_market_power, trust_identity_meaning, infrastructure_technology_dependency | Federal Trade Commission complaint and 2026 proposed stipulated order concerning Doxo, Inc.; institutional enforcement and internal-survey evidence, not a representative household sample | United States online bill payment for utility, car-loan, and other bills | 2 | April 25, 2024 FTC complaint; internal 2022 survey and complaint mechanisms reviewed September 17, 2026; August 17, 2026 FTC settlement announcement; implementation design checked September 17, 2026 | reported | [open](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json) |
 

@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-credit-karma-wasted-time-refunds-2026",
+  "title": "Financial marketing can transfer cost into application time and credit exposure before a remedy becomes visible",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission Credit Karma enforcement and refund-administration record; valid-claim recipients are a remedy-program population, not a representative credit applicant sample",
+  "geography": "United States federal consumer-protection enforcement involving Credit Karma credit offers",
+  "observations": [
+    {
+      "period": "October 2024 initial refund distribution; April 2026 payment reissue route",
+      "denominator": {
+        "value": null,
+        "unit": "people with valid claims who requested compensation; recipient denominator not published on the checked page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "aggregate_payment_distribution": {
+          "value": 2300000,
+          "unit": "US dollars, more than, refunded in October 2024",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "time_and_credit_harm": {
+          "value": "people received pre-approved offers, applied, were sometimes denied, wasted time, and sometimes saw credit scores drop",
+          "unit": "reported enforcement allegation",
+          "value_type": "reported_harm"
+        },
+        "reissue_method": {
+          "value": "Zelle payments to people who did not cash a check or accept PayPal",
+          "unit": "refund-administration route",
+          "value_type": "reported_process"
+        },
+        "individual_time_loss_and_credit_recovery": {
+          "value": "not observed in the public refund page",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC refund-program page checked September 17, 2026; retain the aggregate refund total and reissue process as administrator-reported measures, not as an individual time-loss, credit-repair, or recovery rate.",
+      "uncertainty": "The page does not publish the valid-claim denominator, amount distribution, check-cashing rate, failed-delivery count, individual application sequence, score change, correction, alternative credit access, switching, trust, or later action.",
+      "subgroup": "People who filed valid claims after applying to qualifying Credit Karma offers; applicants, denied applicants, claimants, earlier payment recipients, and reissue recipients are distinct groups.",
+      "counterinterpretation": "A payment can compensate some time or financial harm without reversing a credit inquiry, restoring an opportunity that was missed, or changing how consumers evaluate or use credit-marketing platforms.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/credit-karma-settlement",
+      "retrieval_hash": "sha256:9e46de5d6a629c45e737ae14c5d68fe06deca82ef47e85d4f0ce3105e07433b6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "FTC lists Credit Karma Settlement as an active April 2026 refund program.",
+      "status": "official-refund-program-list"
+    }
+  ],
+  "boundary": "This record establishes reported deceptive credit-offer allegations, time and possible score harm, aggregate refund distribution, and a current reissue route. It does not establish individual exposure, score correction, receipt, restored credit access, trust, collective action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC Credit Karma refund HTML retrieved without retaining a repository copy",
+    "retrieval_hash": "sha256:9e46de5d6a629c45e737ae14c5d68fe06deca82ef47e85d4f0ce3105e07433b6",
+    "checked": "2026-09-17"
+  }
+}
