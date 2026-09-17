@@ -33,6 +33,10 @@ ad-auction charge → seller visibility and cost → margin, price, quality, or 
 
 Source: [FTC and states sue Amazon over alleged ad surcharge scheme](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme).
 
+The machine-readable [Amazon ad-auction observation](../records/us-ftc-amazon-ad-auction-surcharge-2026.json)
+preserves the advertiser and consumer units, allegation status, source hash,
+and missing seller-to-receipt join.
+
 ## The deeper finding
 
 Visibility is part of the price system even when it is not printed on the receipt. A seller may pay for attention, and a customer may pay through a higher price or a narrower set of visible options. The seller may also absorb the cost or leave the auction. The real market effect depends on which response is common for small and large sellers.

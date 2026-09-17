@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 273 records and
-1012 observations.
+have exact registered-URL references. The trend registry holds 274 records and
+1013 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2338,6 +2338,14 @@ screens and 32 actions, alongside disputed savings and consent. This extends
 the mechanism to transportation and delivery, but remains a pending case
 allegation; customer incidence, realized savings, cancellation completion,
 refund, switching, and household mobility remain open.
+
+The [Amazon ad-visibility finding](findings/us-platform-ad-visibility-cost-matched-evidence-001.md)
+now has a machine-readable case record for the August 2026 FTC/state
+allegation: more than one million advertiser brands and sellers, including
+more than 500,000 small and medium businesses, are alleged to face hidden
+auction surcharges, with higher costs allegedly passed through to consumers.
+This is an institutional allegation, not a seller-price or household-price
+estimate; the next test remains an identifier-bearing auction-to-receipt join.
 
 The [time-intensive platform finding](projects/us-time-intensive-platform-consumption/findings/us-time-intensive-platform-consumption-001.md)
 now adds a distinct digital-consumer cost mechanism. NBER Working Paper 34743

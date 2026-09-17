@@ -1,0 +1,38 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-amazon-ad-auction-surcharge-2026",
+  "title": "Hidden auction surcharges can turn marketplace visibility into seller cost and a possible consumer-price channel",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "firm_sector_market_power", "platforms_data_attention", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Federal Trade Commission and 22 state attorneys general complaint against Amazon; institutional enforcement allegation, not a representative seller or consumer sample",
+  "geography": "United States online search advertising auctions on Amazon.com and its mobile application",
+  "observations": [
+    {
+      "period": "August 31, 2026 FTC/state complaint; official release checked September 17, 2026",
+      "denominator": {"value": 1, "unit": "named federal/state enforcement case", "value_type": "institutional_case_count"},
+      "measures": {
+        "government_plaintiffs": {"value": "FTC plus 22 states", "unit": "government plaintiffs", "value_type": "reported_institutional_scope"},
+        "alleged_advertiser_scope": {"value": "more than 1,000,000 brands and sellers", "unit": "Amazon advertising customers allegedly affected", "value_type": "alleged_scope"},
+        "alleged_small_business_scope": {"value": "more than 500,000 small- and medium-sized businesses", "unit": "advertising customers allegedly included", "value_type": "alleged_scope"},
+        "alleged_revenue_extraction": {"value": "tens of billions of dollars", "unit": "alleged revenue from undisclosed advertising surcharges", "value_type": "alleged_amount"},
+        "alleged_consumer_pass_through": {"value": "higher advertising costs were largely passed on to American consumers", "unit": "FTC allegation; no seller-to-receipt estimate supplied", "value_type": "alleged_mechanism"},
+        "alleged_auction_change": {"value": "Amazon represented second-price auctions but allegedly charged Sponsored Products advertisers their own winning bid close to 80% of the time by 2024", "unit": "alleged auction outcome", "value_type": "alleged_frequency"},
+        "historical_alleged_frequency": {"value": "approximately 30%-40% in 2021, 70% in 2022, and approximately 80% in 2024", "unit": "Sponsored Products advertisers allegedly paying their own bid", "value_type": "alleged_time_series"},
+        "case_status": {"value": "complaint filed in the U.S. District Court for the Western District of Washington; legal result pending", "unit": "institutional status", "value_type": "reported_case_status"}
+      },
+      "method": "Official FTC release review; advertiser scope, auction rule, alleged surcharge, and consumer pass-through are retained as allegations and not converted into observed seller prices or household inflation.",
+      "uncertainty": "The release reports complaint allegations, not adjudicated conduct. It does not provide auction logs, seller margins, product-level price changes, customer purchases, quality, returns, or a denominator for consumers allegedly paying a pass-through.",
+      "subgroup": "Amazon advertisers, small and medium businesses, brands and sellers, shoppers exposed to sponsored placements, and consumers purchasing advertised products; advertiser and consumer units are not interchangeable.",
+      "counterinterpretation": "Sellers may absorb the charge, reduce bids, change quality or assortment, use another channel, or continue because visibility generates value; higher ad cost need not raise every price, and sponsored placement may improve matching for some customers.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme",
+      "retrieval_hash": "sha256:baf7d73dd82e1432cca8c0e206c15febf82299bff6d35fbb3831b154e5482c64",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce", "claim": "Separate FTC and state Amazon marketplace case for the broader platform-control context; cases must not be pooled into one legal finding.", "status": "official-comparator"},
+    {"source_url": "https://www.nber.org/papers/w34135", "claim": "NBER field experiment supplies a separate short-run customer-choice comparison when Amazon-owned brands are hidden.", "status": "research-comparator"}
+  ],
+  "boundary": "This record adds a named marketplace-advertising allegation linking hidden auction pricing to seller cost, visibility, and a possible consumer-price channel. It does not establish illegal conduct, seller pass-through, consumer price change, small-business exit, product choice, or household harm. The next test is an identifier-bearing seller/product auction-to-receipt record with bids, charges, placement, price, margin, quality, purchase, return, and exit kept separate.",
+  "reproduction_audit": {"retrieval_hash_scope": "FTC press-release HTML retrieved without retaining a repository copy", "retrieval_hash": "sha256:baf7d73dd82e1432cca8c0e206c15febf82299bff6d35fbb3831b154e5482c64", "checked": "2026-09-17"}
+}
