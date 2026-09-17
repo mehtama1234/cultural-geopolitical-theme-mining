@@ -889,6 +889,17 @@ outcome, remedy receipt, durability, trust, switching, or exit. The expanded
 eight-route finding therefore strengthens the institutional-response surface
 without closing the same-case practical-recovery arrow.
 
+The fifty-second rotation adds two official disaster-recovery layers. The [EDA
+economic-recovery outcomes layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
+tracks federal coordination, infrastructure awards, readiness, funding delay,
+and the inability of current measures to validate broad economic outcomes. The
+[disaster-assistance scams and information-trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
+tracks verification, underreporting, education, and enforcement friction around
+urgent aid. Together they extend the disaster chain from assistance delivery to
+community capacity and consumer legitimacy, while preserving the open fields:
+same-place counterfactuals, survivor or firm outcomes, warning comprehension,
+verified loss or remedy, trust change, and later political action.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)

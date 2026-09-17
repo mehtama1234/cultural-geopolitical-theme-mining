@@ -82,6 +82,16 @@ formal operational correction, and up to $120 million in consumer redress. It
 deepens themes 3, 4, 9, and 13 while preserving the missing individual receipt,
 repeat effort, recovery, trust, switching, and practical-exit fields.
 
+**Latest disaster-response rotation:** the [EDA economic-recovery outcomes
+layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
+adds federal economic-recovery coordination, infrastructure investment, local
+capacity, and performance-measure validity to themes 7, 10, 12, 13, and 14.
+The [disaster-assistance scams and information-trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
+adds consumer verification, reporting friction, and institutional legitimacy
+to themes 3, 9, and 10. Both preserve the distinction between program activity,
+reported exposure, verified remedy, and protected recovery; neither supplies a
+same-place or same-survivor end-to-end estimate.
+
 ## How to use it
 
 Each new topic should be assigned to one or more rows, then tested across
