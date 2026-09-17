@@ -150,6 +150,13 @@ delay, medical debt, bill problems, and collector contact in each channel.
 Because the friction field is annual and event-selected, this is not a causal
 denial effect or a verified remedy-failure result; claim timing, appeal,
 correction, and resolution remain open.
+The [institutional-friction follow-up finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md)
+adds a round-to-round endpoint: reported denial or prior-authorization delay is
+followed by more perceived-health worsening, while employment retention and
+transitions are comparatively close. Improvement remains common in both
+groups, baseline health shapes the direction, and the annual friction field
+still does not establish claim timing, treatment continuity, remedy, or
+causation.
 
 The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 now makes the broad health route reviewable in one place. It connects care
