@@ -1659,12 +1659,16 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, and political routes. Five local source surfaces cover different
-stages—route handling, adaptation, person-level timing, selected remedy, or
-institutional confidence—but no source supplies the full sequence from dated
-actor and alternatives through verified remedy, meaning/action, recovery, and
-exit. This is a program-wide measurement boundary, not evidence that those
-outcomes did not occur.
+health, political, and worker routes. Eleven local source surfaces cover
+different stages—route handling, adaptation, person-level timing, selected
+remedy, aggregate payment implementation, or institutional confidence—but no
+source supplies the full sequence from dated actor and alternatives through
+verified remedy, meaning/action, recovery, and exit. The OpenAI/Statsig and
+Apple PERM records sharpen the worker-remedy comparison: a potential claimant
+fund and a reported exhausted back-pay fund are different remedy clocks, and
+neither is worker-level restored opportunity or household recovery. This is a
+program-wide measurement boundary, not evidence that those outcomes did not
+occur.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:

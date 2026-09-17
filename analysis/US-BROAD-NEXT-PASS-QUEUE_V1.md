@@ -968,11 +968,14 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now ranks the local episode surfaces by stage coverage. The immediate
-selection rule is to choose one lawful source with a stable episode key and
-add the missing actor, alternative, effort, protected/sacrificed outcome,
-verified remedy, meaning/action, recovery, and exit fields; if those fields
-are unavailable, record the gap and rotate to another theme.
+now covers 11 local episode/remedy surfaces, including the OpenAI/Statsig
+potential-claimant settlement and Apple's reported back-pay implementation.
+The immediate selection rule is to choose one lawful source with a stable
+episode key and add the missing actor, alternative, effort,
+protected/sacrificed outcome, verified remedy, meaning/action, recovery, and
+exit fields; if those fields are unavailable, record the gap and rotate to
+another theme. The two worker records are remedy-stage comparators, not a
+worker prevalence or individual-recovery estimate.
 
 The ranked [next-episode selection](../analysis/broad-next-episode-selection-v1.md)
 chooses MEPS as the primary local route because its staged ledger contains
