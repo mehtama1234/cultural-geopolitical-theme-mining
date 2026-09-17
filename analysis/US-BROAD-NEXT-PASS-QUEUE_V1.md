@@ -2801,3 +2801,11 @@ and technology access, outside-training barriers, service completion, placement,
 retention, and monitoring correction. Preserve voluntary non-disclosure and
 missingness; do not read a disability count, guidance document, or monitoring
 visit as successful employment access.
+
+The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
+adds a place-level mobility test. The next pass should use compact official
+evidence on route span, headway, fare, accessibility, shift fit, parking,
+transit benefits, completed trips, and congestion response at comparable
+airports. Keep route presence, practical availability, adoption, trip
+completion, labor access, and emissions separate; do not treat a map line or
+promotion as realized mobility.

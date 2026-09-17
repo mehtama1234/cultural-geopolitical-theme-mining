@@ -79,6 +79,10 @@ index or a claim that the same people appear in every source.
    eligibility, accommodation, technology, training completion, placement, and
    retention can diverge, especially when DOL cannot aggregate local monitoring.
    Read the [disability workforce-program access layer](site/gao-2026-disability-workforce-program-access-layer-v1.html).
+12. **Infrastructure availability is not practical mobility:** airport transit
+   can exist while time, accessibility, familiarity, cost, parking, and shift
+   fit determine whether passengers and workers can actually use it. Read the
+   [airport transit adoption layer](site/gao-2026-airport-transit-availability-adoption-layer-v1.html).
 
 ## Recent cross-theme additions
 

@@ -166,3 +166,9 @@ adds disability disclosure, accommodation, job-center and training access,
 service completion, employment outcomes, and DOL monitoring to themes 2, 5, 6,
 7, and 10. It strengthens the public-interface-to-work arrow while leaving
 causal barriers, provider differences, and durable employment effects open.
+
+The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
+adds airport service, passenger and worker adoption, accessibility, shift fit,
+demand management, congestion, and practical mobility to themes 1, 5, 7, 10,
+and 14. It strengthens the infrastructure-to-consumer-choice arrow while
+leaving causal ridership, worker access, and household-cost effects open.

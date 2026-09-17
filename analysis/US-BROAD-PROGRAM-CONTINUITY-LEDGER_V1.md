@@ -1048,3 +1048,9 @@ adds public employment infrastructure between disability-related need and labor
 market opportunity. It preserves the open links from voluntary disclosure and
 accommodation to completed service, placement, retention, household security,
 and local oversight correction.
+
+The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
+adds place-level transportation usability between infrastructure provision and
+passenger or worker mobility. It preserves open links from route availability
+to time, cost, accessibility, shift fit, completed trips, congestion, and
+demand-management outcomes.

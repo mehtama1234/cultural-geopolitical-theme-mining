@@ -1321,6 +1321,15 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
+adds a place and mobility conversion test. Nearly all of 51 reviewed airports
+had some transit service, yet passenger use ranged from 4% to 19% at the 12
+airports with usable reports and only about 4% of airport and airline employees
+nationwide used transit to commute. Travel time, accessibility, familiarity,
+parking, benefits, and shift timing separate route presence from practical use;
+the next test is a route-day-shift ledger linking service design to completed
+trips, work access, cost, congestion, and intervention response.
+
 The [GAO 2026 disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
 extends the accessibility thesis into labor-market entry. Seven percent of
 participants in selected DOL workforce programs reported disabilities, 43% of
