@@ -117,6 +117,16 @@ perceived-health direction screens. They remain separate longitudinal
 descriptive comparisons until a same-episode treatment, payment, remedy, and
 household-adaptation record is available.
 
+The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
+now makes the broad health route reviewable in one place. It connects care
+foregoing, debt and savings adaptation, coverage and institutional response,
+credit visibility, and same-survey legitimacy/action endpoints while labeling
+the links as reported, compared, randomized, inferred, or open. This is a
+mechanism map assembled from compatible but non-identical studies, not a
+same-person bill-to-choice-to-remedy-to-trust estimate; dated episode timing,
+alternative choice, verified correction, recovery, and later action remain the
+decisive missing fields.
+
 The public-system ledger control has one real de-identified implementation:
 the CFPB student-loan route artifact validates as 25 case events and 2 arrows.
 It demonstrates complaint receipt and routing structure, while leaving
