@@ -13,6 +13,10 @@ complementary round-valid population. It carries event payment and exact
 person-panel context alongside R4/2 care delay, medical-bill problems, medical
 debt, collector contact, and employment status.
 
+The screen now also accepts the optional HC-254A prescription event file; the
+new [prescription-event layer](meps-prescription-event-cascade-v1.md) records
+its results separately while leaving the prior three event families unchanged.
+
 ```text
 first dated event in an inter-round window
   -> event self/family payment
@@ -26,6 +30,7 @@ identify the event’s bill, claim, or remedy.
 
 | Event family | Event-window people | Complementary round-valid people | Event-window self/family payment | Cost-related care delay | Medical bill problem | Medical debt | Collector contact | Not employed at R4/2 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Prescription | 1,773 | 16,950 | $12.76 | 8.09% vs 6.45% | 8.82% vs 7.48% | 19.45% vs 15.17% | 15.03% vs 13.08% | 37.53% vs 33.42% |
 | Office | 3,216 | 15,507 | $66.87 | 6.41% vs 6.64% | 8.01% vs 7.52% | 16.17% vs 15.45% | 13.08% vs 13.30% | 33.35% vs 33.91% |
 | Emergency room | 1,101 | 17,622 | $155.52 | 9.59% vs 6.44% | 15.14% vs 7.19% | 24.12% vs 15.10% | 19.75% vs 12.90% | 47.62% vs 32.98% |
 | Inpatient | 545 | 18,178 | $733.03 | 6.82% vs 6.60% | 11.13% vs 7.52% | 16.61% vs 15.55% | 14.42% vs 13.23% | 60.13% vs 33.03% |

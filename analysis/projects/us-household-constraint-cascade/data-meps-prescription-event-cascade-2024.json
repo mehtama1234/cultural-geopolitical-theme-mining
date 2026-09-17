@@ -1,0 +1,37 @@
+{
+  "format": "us-meps-prescription-event-cascade-v1",
+  "source_unit": "MEPS 2024 HC-256 person records with a first HC-254A prescription event strictly inside the R3/1-to-R4/2 window",
+  "date_rule": "First valid RXBEGYRX/RXBEGMM event month strictly after R3/1 and before R4/2; complementary group is round-order-valid without such an in-window event.",
+  "person_records": 19140,
+  "round_order_valid_records": 18723,
+  "event_window_people": 1773,
+  "valid_dated_event_people": 9289,
+  "event_payment_field": "RXSF24X",
+  "event_window_weighted_self_family_payment_mean": 12.760471232549271,
+  "event_window_zero_self_family_payment_percent": 28.77616469206355,
+  "results": {
+    "event_window": {
+      "records": 1773,
+      "cost_related_care_delay": {"share_percent": 8.090199883356258, "brr_se_percentage_points": 0.7272642092190682, "valid_records": 1755},
+      "medical_bill_problem": {"share_percent": 8.822923193043945, "brr_se_percentage_points": 0.7395961236385269, "valid_records": 1758},
+      "medical_debt": {"share_percent": 19.448031638154745, "brr_se_percentage_points": 1.1382768954912539, "valid_records": 1743},
+      "debt_collector_contact": {"share_percent": 15.032822019293409, "brr_se_percentage_points": 1.2361676169080418, "valid_records": 1750},
+      "not_employed_followup": {"share_percent": 37.53224581290658, "brr_se_percentage_points": 1.7839501595901854, "valid_records": 1523}
+    },
+    "complementary_round_valid": {
+      "records": 16950,
+      "cost_related_care_delay": {"share_percent": 6.452196763166822, "brr_se_percentage_points": 0.293619022586244, "valid_records": 16633},
+      "medical_bill_problem": {"share_percent": 7.478629743779824, "brr_se_percentage_points": 0.49427050627767755, "valid_records": 16657},
+      "medical_debt": {"share_percent": 15.174229673951208, "brr_se_percentage_points": 0.6788164489226963, "valid_records": 16471},
+      "debt_collector_contact": {"share_percent": 13.07895703127311, "brr_se_percentage_points": 0.6714688952660959, "valid_records": 16609},
+      "not_employed_followup": {"share_percent": 33.41923987353019, "brr_se_percentage_points": 0.5945787732270195, "valid_records": 13740}
+    }
+  },
+  "input_hashes": {
+    "hc256_archive": "sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5",
+    "brr_archive": "sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e",
+    "prescription_event_file": "sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5"
+  },
+  "boundary": "The first prescription event is dated only at month level and may be a consequence of an earlier need. Round-level care, bill, debt, collector, and employment fields are same-person context, not event-specific claims or causal outcomes. The complementary group is not a no-need control; payment is not total burden; no adherence, treatment continuity, remedy, recovery, trust, political action, switching, or exit is observed.",
+  "status": "compared"
+}

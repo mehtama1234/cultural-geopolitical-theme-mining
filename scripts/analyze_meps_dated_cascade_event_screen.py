@@ -17,6 +17,7 @@ EVENTS = {
     "office": ("OBDATEYR", "OBDATEMM", "OBSF24X"),
     "emergency_room": ("ERDATEYR", "ERDATEMM", "ERFSF24X"),
     "inpatient": ("IPBEGYR", "IPBEGMM", "IPFSF24X"),
+    "prescription": ("RXBEGYRX", "RXBEGMM", "RXSF24X"),
 }
 OUTCOMES = {
     "cost_related_care_delay": ("DLAYCA42", lambda s: s.eq(1), lambda s: s.isin([1, 2])),
@@ -68,6 +69,7 @@ def main() -> int:
     parser.add_argument("--office-file", type=Path, required=True)
     parser.add_argument("--emergency-room-file", type=Path, required=True)
     parser.add_argument("--inpatient-file", type=Path, required=True)
+    parser.add_argument("--prescription-file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
@@ -99,7 +101,10 @@ def main() -> int:
         "limitation": "A dated event is not necessarily the triggering need or the bill that caused the household response. Care delay, debt, bill, and employment status are same-person outcomes or context without a claim identifier, event-specific obligation, exact day, remedy, or causal identification. The complementary group is not a no-need control; EMPST42 non-employment is not job loss, hours loss, or employment quality.",
     }
 
-    for name, path in {"office": args.office_file, "emergency_room": args.emergency_room_file, "inpatient": args.inpatient_file}.items():
+    event_files = {"office": args.office_file, "emergency_room": args.emergency_room_file, "inpatient": args.inpatient_file}
+    if args.prescription_file is not None:
+        event_files["prescription"] = args.prescription_file
+    for name, path in event_files.items():
         year_field, month_field, payment_field = EVENTS[name]
         event, _ = pyreadstat.read_dta(path, usecols=["DUPERSID", "PANEL", year_field, month_field, payment_field], apply_value_formats=False, encoding="latin1")
         event["KEY"] = key(event)

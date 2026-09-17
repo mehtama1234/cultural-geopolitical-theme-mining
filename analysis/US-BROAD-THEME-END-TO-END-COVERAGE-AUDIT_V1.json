@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "9cf0486fcb62d9acda930cecb1d2ab1cd52985b267b621f24c6bb2bf58488e16",
+  "matrix_sha256": "63d2448d919bad1ea7ba22a8cf616ca9a2128ca5f6a3c32634f3456678431a96",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -80,9 +80,9 @@
     },
     {
       "current_status": "Reported / Compared",
-      "evidence_anchor_count": 8,
+      "evidence_anchor_count": 9,
       "measurement_level": "Person, caregiver, household, health event, diary day, county, provider-shortage component, care-recipient roster",
-      "next_required_test": "Follow care or food need \u2192 price/coverage/travel \u2192 care, diet, and unpaid time \u2192 work, debt, health, family time, and unpaid support capacity; preserve household and non-household care networks as separate exposure routes.",
+      "next_required_test": "Follow care or food need \u2192 price/coverage/travel \u2192 care, diet, and unpaid time \u2192 work, debt, health, family time, and unpaid support capacity; preserve household and non-household care networks as separate exposure routes. The prescription-event cascade adds a month-ordered medication-event-to-household-context comparison, not claim-level continuity or recovery.",
       "same_unit_end_to_end_link": false,
       "source_line": 19,
       "status_tokens": [

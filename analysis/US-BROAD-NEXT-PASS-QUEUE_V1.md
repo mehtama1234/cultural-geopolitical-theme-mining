@@ -939,6 +939,15 @@ directions are mixed and the follow-up universe is smaller. Preserve this as
 descriptive persistence/context; the missing claim, alternative, remedy,
 household recovery, meaning, action, and exit fields remain the next gate.
 
+The [prescription-event cascade](projects/us-household-constraint-cascade/meps-prescription-event-cascade-v1.md)
+extends the dated event family without new acquisition: 1,773 first
+prescription events fall inside the R3/1-to-R4/2 window. Their later round
+context shows higher care delay, medical debt, collector contact, and
+nonemployment than the complementary round-valid group, but the event is not a
+claim-level need or treatment counterfactual. The next MEPS gate remains
+intended need, fill/adherence, treatment continuity, household substitution,
+remedy, and recovery.
+
 The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
 confirms the counterexample route: route and decision are observed in all 27
 episodes, but alternatives, effort, follow-up, receipt, durability,

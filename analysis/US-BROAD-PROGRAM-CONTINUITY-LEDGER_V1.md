@@ -373,6 +373,16 @@ dictionary-and-shared-ID check while preserving the distinction between a
 missing local artifact and a missing source variable; no large acquisition or
 new estimate was made.
 
+The thirty-first rotation extends the local MEPS event spine with the
+[prescription-event cascade](projects/us-household-constraint-cascade/meps-prescription-event-cascade-v1.md).
+Among 18,723 round-order-valid person records, 1,773 had a first prescription
+event inside the R3/1-to-R4/2 window. The event-window group has higher later
+care-delay, medical-debt, collector-contact, and nonemployment context than
+the complementary group. The result advances dated health-to-household
+coverage while retaining the missing claim-level need, fill/adherence,
+treatment continuity, remedy, recovery, trust, action, and exit arrows; no new
+data was downloaded.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

@@ -1516,6 +1516,13 @@ resolution are mixed. Because the R5-valid universe is smaller, this is an
 event-rule-aligned synthesis rather than a row-level merged panel or recovery
 estimate.
 
+The [MEPS prescription-event cascade](projects/us-household-constraint-cascade/meps-prescription-event-cascade-v1.md)
+adds 1,773 month-ordered first prescription events to the same local event
+spine. The event-window group has higher later care-delay, medical-debt,
+collector-contact, and nonemployment shares than the complementary round-valid
+group. This is a descriptive event-to-context comparison; intended medication
+need, fill/adherence, continuity, remedy, and recovery remain unobserved.
+
 The MEPS selection has now been tested against the full 18,457-row staged
 ledger in the [event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md).
 All rows contain hashed episode IDs, month-level dates, and round-level
