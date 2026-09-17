@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-272 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+273 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -289,6 +289,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | US health spending expands across payer, sponsor, service, and GDP accounts | cost, time, voice | household_room_consumption, care_health_reproduction, public_systems_feedback, firm_sector_market_power, unequal_exposure_status | CMS National Health Expenditure Accounts, historical 1960-2024 tables and fact sheet | United States; national health spending, sources of funds, sponsors, services, and GDP | 4 | Calendar year 2024; Calendar year 2024; source of funds; Calendar year 2024; sponsor distribution; 2025-2034 CMS projection window | estimated; reported | [open](records/us-cms-national-health-expenditure-2024.json) |
 
 **Boundary:** CMS NHEA establishes the scale, payer, sponsor, service, and projected GDP relationship of US health spending. It does not establish household affordability, unmet need, access, care quality, health outcomes, time burden, medical debt, or political response.
+
+| Allied semiconductor investment commitments convert supply dependence into a domestic-capacity promise | work, energy, voice | firm_sector_market_power, infrastructure_technology_dependency, geopolitical_state_consequences, public_systems_feedback, household_room_consumption | U.S. Department of Commerce Taiwan trade and investment fact sheet; policy commitment and historical capacity context, not a project-level production record | United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship | 1 | January 15, 2026 agreement; historical wafer-fabrication comparison through 2024 | reported | [open](records/us-commerce-taiwan-semiconductor-investment-2026.json) |
+
+**Boundary:** This record establishes a reported Taiwan-linked investment commitment and a historical US wafer-fabrication share comparison. It does not establish disbursement, construction, operating capacity, domestic ownership, jobs, prices, local burden, supply-chain replacement, or geopolitical leverage.
 
 | Consumer protection has visible routing but unresolved recovery, remedy, and trust gaps | cost, voice, time | consumer_power_recourse, trust_identity_meaning, platforms_data_attention, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status | Deliberately non-pooled comparison of Federal Reserve household fraud respondents, FTC reports, CFPB published complaints, and student-loan complaint timing fields | United States | 4 | 2024; Federal Reserve SHED household fraud and recovery; 2025; FTC consumer-fraud administrative report frame; 2020-2025; CFPB published complaint response endpoint; 2024-2025; CFPB student-loan complaint timing-field audit | estimated; observed; reported | [open](records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json) |
 

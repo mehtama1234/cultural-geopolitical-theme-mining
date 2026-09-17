@@ -233,6 +233,7 @@ def main():
         ROOT / "analysis/projects/ai-work-control/findings/ai-work-control-087.md",
         ROOT / "analysis/projects/ai-work-control/findings/ai-work-control-088.md",
         ROOT / "analysis/projects/ai-work-control/findings/ai-work-control-089.md",
+        ROOT / "analysis/projects/ai-work-control/findings/ai-work-control-090.md",
     ]
     memos.extend(ai_work_reader_records)
     # Publish the capability/dependence bridge and its World Bank capability

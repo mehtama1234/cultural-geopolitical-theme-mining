@@ -181,6 +181,13 @@ federal authority, not realized reliability or household benefit; vendor,
 replacement, rate, outage, local-consent, and public-response effects remain
 open.
 
+The January 2026 Taiwan semiconductor agreement adds the allied-industrial side
+of the same problem. Commerce reports at least $250 billion in direct
+investment commitments for U.S. semiconductor, energy, and AI capacity against
+a historical decline in the U.S. share of global wafer fabrication. This is a
+commitment-stage geopolitical signal, not proof of construction, operating
+output, domestic ownership, lower prices, or reduced strategic dependence.
+
 The next active rotation is now a **storage-light event-compatibility gate**:
 find one dated material or service episode that can be followed through the
 person or household's alternatives, money/time response, remedy or recovery,

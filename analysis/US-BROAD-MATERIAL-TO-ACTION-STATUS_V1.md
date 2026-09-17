@@ -140,6 +140,13 @@ visible, but does not observe local cost, outage, reliability, household,
 worker, trust, or political effects. It therefore advances the capacity-to-state
 power map while preserving the missing incidence and action join.
 
+The January 2026 Taiwan semiconductor agreement adds a commitment-versus-
+realization counterpoint: Commerce reports at least $250 billion in direct
+investment commitments for U.S. semiconductor, energy, and AI capacity, while
+the historical U.S. fabrication-share decline frames the strategic dependence.
+The commitment does not identify a built project, local burden, worker outcome,
+consumer-price change, ownership shift, or reduced geopolitical dependence.
+
 The [HTOPS local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
 confirms that the retained local panel record contains no represented
 attribution, distinct civic/political action, remedy, recovery, switching, or

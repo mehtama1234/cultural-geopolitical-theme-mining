@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-commerce-taiwan-semiconductor-investment-2026",
+  "title": "Allied semiconductor investment commitments convert supply dependence into a domestic-capacity promise",
+  "theme_ids": ["work", "energy", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "household_room_consumption"],
+  "source_unit": "U.S. Department of Commerce Taiwan trade and investment fact sheet; policy commitment and historical capacity context, not a project-level production record",
+  "geography": "United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship",
+  "observations": [
+    {
+      "period": "January 15, 2026 agreement; historical wafer-fabrication comparison through 2024",
+      "denominator": {"value": null, "unit": "reported investment commitments and global wafer-fabrication share", "value_type": "not_disclosed"},
+      "measures": {
+        "reported_direct_investment_commitment": {"value": 250000000000, "unit": "US dollars, at least; Taiwanese semiconductor and technology enterprises investing in US capacity", "value_type": "reported_commitment"},
+        "us_global_wafer_fabrication_share_1990": {"value": 37, "unit": "percent of global wafer fabrication", "value_type": "reported_historical_share"},
+        "us_global_wafer_fabrication_share_2024": {"value": 10, "unit": "percent of global wafer fabrication, less than", "value_type": "reported_historical_share"},
+        "targeted_capacity": {"value": "advanced semiconductor, energy, and artificial-intelligence production and innovation capacity in the United States", "unit": "policy investment target", "value_type": "reported_policy_objective"},
+        "realized_capacity_and_household_effect": {"value": "not observed in the fact sheet", "unit": "missing implementation endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official Commerce fact-sheet review; investment commitment, historical production share, tariff incentives, and realized-capacity outcomes are kept as separate stages.",
+      "uncertainty": "The fact sheet does not provide a project-level list, disbursement schedule, construction status, output, yield, ownership, workforce, energy/water burden, consumer prices, or measured dependence reduction.",
+      "subgroup": "Taiwanese semiconductor and technology enterprises, US semiconductor/energy/AI firms and workers, allied governments, consumers of chip-enabled products, and communities hosting capacity.",
+      "counterinterpretation": "Investment commitments may be delayed, reallocated, or dependent on market and policy conditions; domestic fabs can increase resilience while raising local resource demand or leaving critical equipment, materials, design, and customers externally dependent.",
+      "source_url": "https://www.commerce.gov/news/fact-sheets/2026/01/fact-sheet-restoring-american-semiconductor-manufacturing-leadership",
+      "retrieval_hash": "sha256:d40ffafc42f82dd422dcbdb5b7825f8780c47a61fbf031c84337e4694ece9e6b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.commerce.gov/news/press-releases/2024/04/biden-harris-administration-announces-preliminary-terms-tsmc-expanded", "claim": "Earlier TSMC Arizona preliminary terms provide a project-level comparison for domestic semiconductor expansion.", "status": "official-comparator"},
+    {"source_url": "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study", "claim": "DOE identifies transmission needs associated with data centers and expanding domestic manufacturing.", "status": "official-infrastructure-comparator"}
+  ],
+  "boundary": "This record establishes a reported Taiwan-linked investment commitment and a historical US wafer-fabrication share comparison. It does not establish disbursement, construction, operating capacity, domestic ownership, jobs, prices, local burden, supply-chain replacement, or geopolitical leverage.",
+  "reproduction_audit": {"retrieval_hash_scope": "Commerce fact-sheet HTML retrieved without retaining a repository copy", "retrieval_hash": "sha256:d40ffafc42f82dd422dcbdb5b7825f8780c47a61fbf031c84337e4694ece9e6b", "checked": "2026-09-17"}
+}
