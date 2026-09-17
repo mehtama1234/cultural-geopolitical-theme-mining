@@ -23,7 +23,7 @@ manual screen of the stage fields gives the following descriptive map:
 
 | Outcome surface | Records with the outcome visible | What that means |
 |---|---:|---|
-| Restoration or access resumption observed | 9 | An order or recorded resumption makes access visible in the case record; durability varies |
+| Restoration or access resumption observed | 8 | An order or recorded resumption makes access visible in the case record; durability varies |
 | Lost remuneration or earnings ordered / recognized | 3 | A formal monetary remedy is visible; receipt is not thereby established |
 | Lost remuneration left open or directed for later calculation | 5 | The entitlement or issue is visible, but amount or payment remains unresolved |
 | A merits-level refusal or dismissal observed | 4 | Review can produce a reasoned negative result; this is not proof the original system decision was accurate in general |

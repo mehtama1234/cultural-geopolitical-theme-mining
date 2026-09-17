@@ -465,7 +465,7 @@ power.
 
 The new [platform remedy, restoration, and dependence synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md)
 adds a case-level remedy-to-exit screen to the platform-work lane. The current
-27-record ledger shows restoration/access resumption in 9 records and ordered
+27-record ledger shows restoration/access resumption in 8 records and ordered
 or recognized lost remuneration in 3, but no durable recurrence prevention or
 post-remedy worker exit. Continued work after reactivation is retained as a
 distinct outcome rather than coded as either autonomy or dependence. The next
