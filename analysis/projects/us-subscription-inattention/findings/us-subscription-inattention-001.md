@@ -55,7 +55,11 @@ stopped. A seller can therefore capture value from both the service and the
 customer's failure to notice or act, while the public remedy attempts to
 restore informed choice.
 
-The next high-value evidence is implementation depth: a signed final order,
+The September 17, 2026 FTC docket recheck still lists the case as **pending**.
+It displays the complaint and a joint motion to enter a stipulated order, but
+the public docket check does not verify a signed final order, consumer-relief
+distribution, or implemented cancellation controls. The next high-value
+evidence is therefore implementation depth: a signed final order,
 refund or relief receipt, current enrollment and cancellation screens, support
 contact burden, repeat complaints, and account-level outcomes. Those should be
 paired with the NBER payment-card mechanism, but not merged into a single loss
@@ -66,7 +70,7 @@ switching.
 ## Source trail
 
 - [FTC Shutterstock complaint and proposed settlement announcement](https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices)
-- [FTC Shutterstock case docket](https://www.ftc.gov/legal-library/browse/cases-proceedings/2323034-shutterstock-inc)
+- [FTC Shutterstock case docket](https://www.ftc.gov/legal-library/browse/cases-proceedings/shutterstock-inc)
 - [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
 - [Machine-readable trend record](../../../records/us-ftc-shutterstock-subscription-cancellation-2026.json)
 

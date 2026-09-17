@@ -30,6 +30,11 @@ subscription starts
 
 The NBER study supports the link between forced action and cancellation. It does not prove why each customer waited, whether every continued payment was unwanted, or that the result changed political trust.
 
+The September 17, 2026 [FTC case-docket recheck](https://www.ftc.gov/legal-library/browse/cases-proceedings/shutterstock-inc)
+lists Shutterstock as pending and displays the complaint plus a joint motion to
+enter a stipulated order. The proposed remedy is therefore not yet treated as
+a verified signed-order or implementation outcome in this project.
+
 ## Counterpoint to keep visible
 
 Automatic renewal can be useful. It prevents a lapse in needed software, news, food, insurance or care, and some customers knowingly keep a service while using it only occasionally. A canceled card is also not a perfect test of lost value.
