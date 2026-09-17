@@ -441,6 +441,8 @@ def main():
     memos.append(cfpb_health_bridge)
     cfpb_medical_visibility = ROOT / "analysis/projects/us-health-cost-household-choice/cfpb-2025-medical-debt-visibility-v1.md"
     memos.append(cfpb_medical_visibility)
+    cfpb_medical_debt_audit = ROOT / "analysis/projects/us-health-cost-household-choice/cfpb-medical-debt-event-ledger-audit-v1.md"
+    memos.append(cfpb_medical_debt_audit)
     meps_2024_gate = ROOT / "analysis/projects/us-health-cost-household-choice/meps-2024-full-year-acquisition-gate-v1.md"
     memos.append(meps_2024_gate)
     memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md")
@@ -545,6 +547,7 @@ def main():
         ai_work_synthesis: "anticipatory-to-remedial-worker-control-synthesis-v1.html",
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
         cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",
+        cfpb_medical_debt_audit: "cfpb-medical-debt-event-ledger-audit-v1.html",
     }
     published_outputs = {path.resolve(): name for path, name in output_names.items()}
     for memo in sorted(memos):

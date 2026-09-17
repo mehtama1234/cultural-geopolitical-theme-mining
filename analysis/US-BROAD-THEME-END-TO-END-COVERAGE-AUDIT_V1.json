@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "448b42efa0157d1e37ce3114e02d9f50acb5d6445f7e3d69534be5ed0de10fb5",
+  "matrix_sha256": "e5b3b6d855ab15379503a4e6a1e7be4e317f74a5a3c96b4dd791822b5c5300dd",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -40,7 +40,7 @@
     },
     {
       "current_status": "Compared / Reported / Open",
-      "evidence_anchor_count": 17,
+      "evidence_anchor_count": 18,
       "measurement_level": "Customer case, complaint, firm, state, sector",
       "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; the new qualification screen finds zero retained routes with alternatives plus verified follow-up, so correction, repeat effort, receipt, durability, and exit fields remain open.",
       "same_unit_end_to_end_link": true,

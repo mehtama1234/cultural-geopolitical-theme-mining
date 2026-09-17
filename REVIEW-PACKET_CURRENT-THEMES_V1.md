@@ -147,6 +147,11 @@ its unresolved arrows visible:
   18,457 staged person/event rows provide month-ordered health-cost context,
   but alternatives, event-specific choice, verified remedy, and meaning/action
   follow-up are absent; the missing middle is an acquisition boundary.
+- [CFPB medical-debt event-ledger acquisition boundary](site/cfpb-medical-debt-event-ledger-audit-v1.html):
+  two small, locally filtered parent-product frames expose API-filter behavior,
+  route timing, and response labels; their capped retrieval order and missing
+  bill, remedy, recovery, trust, and exit fields prevent prevalence or remedy
+  claims.
 
 ## Latest local evidence to review
 

@@ -78,6 +78,14 @@ medical debt becomes a credit signal, how reporting changes remove or delay
 some signals, and how the 2025 federal rule was vacated; credit visibility is
 not the same as bill resolution or restored care.
 
+The [CFPB medical-debt event-ledger acquisition boundary](cfpb-medical-debt-event-ledger-audit-v1.md)
+adds a storage-light administrative route check. Locally filtered 2024 and
+2025 parent-product frames preserve the API's ignored sub-product behavior,
+retrieval caps, route timing, response labels, and missing downstream remedy
+fields. They are useful for studying institutional visibility and response
+coding, but they are not medical-debt prevalence samples, representative
+consumer panels, or verified recovery records.
+
 The [health-cost institutional-legitimacy bridge](health-cost-institutional-legitimacy-bridge-v1.md)
 places those household and institutional surfaces beside a Census
 expense-difficulty/confidence contrast. It labels the final legitimacy arrow
