@@ -31,6 +31,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
 | Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
 | Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
+| Adjudicated access and lost-pay remedy | Tanzeel Ur Rehman and Portier Pacific, Australia | Fair Work Commission records voluntary reactivation, a formal order restoring access, and A$7,096.96 gross lost remuneration ordered after deactivation | Payment receipt, net recovery, expenses, alternative work, durable access, recurrence protection, and practical exit |
 | Multi-sided platform redress | Grubhub drivers, diners, and restaurants | FTC reports more than $23.8m in payments to 640,038 affected consumers, alongside requirements for honest driver-pay advertising, blocked-account disputes, and restaurant consent | Group-specific payment and correction, implementation, continued dependence, alternatives, trust, and exit |
 
 ## What the comparison changes
@@ -85,6 +86,16 @@ program-level endpoint. Without the eligible-driver denominator and a
 driver-level follow-up, the record cannot tell us who received what, whether
 the remaining loss was resolved, or whether the payment changed work choices,
 trust, or collective power.
+
+The Rehman case adds a distinct adjudicated comparator between an order and
+lived recovery. The worker regained access voluntarily before the Commission's
+formal decision, yet the Commission still issued a concurrent reactivation
+order and ordered A$7,096.96 gross lost remuneration. Access restoration and
+financial restoration are therefore separate remedy outputs even within one
+case. The amount is not payment receipt or net household recovery; the decision
+also records no expense evidence and the public record does not establish
+alternative work, durable protection, or later exit. This makes the case useful
+for stage coding, not for estimating platform-wide fairness or worker welfare.
 
 ### 2. Timing changes the power balance
 
@@ -164,6 +175,9 @@ For each route, acquire one artifact that crosses the missing link:
 8. for an administratively completed fund, a claimant-level or audited
    implementation artifact showing payment receipt, timing, deductions, and
    whether the original opportunity or a comparable alternative was restored.
+9. for an adjudicated access-and-lost-pay order, a compliance or worker-side
+   follow-up showing payment receipt, net expenses, continued access, and
+   alternative work or exit.
 
 The acquisition schema should preserve the intervention date, decision object,
 actor, reviewer authority, changed consequence, money or access restored,
@@ -179,6 +193,8 @@ recurrence prevention, and retaliation evidence.
 - [IBM Germany works-council AI framework governance record](ibm-germany-works-council-ai-framework-governance-record-v1.md)
 - [Microsoft Germany works-council Copilot deployment record](microsoft-germany-works-council-copilot-deployment-record-v1.md)
 - [ILO social-dialogue case table](ilo-social-dialogue-case-table-v1.md)
+- [Rehman adjudicated platform-remedy record](uber-rehman-remedy-record-v1.md)
+- [Rehman canonical trend record](../../records/au-rehman-platform-remedy-2026.json)
 
 ## Boundary
 
