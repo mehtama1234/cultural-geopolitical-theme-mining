@@ -2,7 +2,7 @@
 
 **Status:** bounded public-document recheck; implementation and payment remain
 unobserved  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Case:** Sajid Saleem Warraich v Rasier Pacific Pty Ltd trading as Uber,
 UDE2025/108
 **Machine record:** [recheck record](data/uber-warraich-remedy-followup-recheck-v1.json)
@@ -28,7 +28,8 @@ The Fair Work Commission's public document-search page explains that decisions
 and orders are published through its search system. A targeted search using the
 case number, applicant name, order number PR793486, and the lost-pay terms did
 not locate a subsequent public order or implementation record in the sources
-reviewed here. This is a bounded non-observation, not proof that no private
+reviewed here. The same targeted search was rechecked on 2026-09-17 and yielded
+the same result. This is a bounded non-observation, not proof that no private
 agreement, payment, or account restoration occurred.
 
 ## Why this matters for the broad atlas
@@ -63,4 +64,3 @@ any of these from the reactivation order alone.
 - [Fair Work Commission primary decision, [2025] FWC 3338](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3338.pdf)
 - [Fair Work Commission Bulletin Volume 12/25](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm)
 - [Fair Work Commission decisions and orders search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
-

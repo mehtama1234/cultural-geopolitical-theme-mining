@@ -1,6 +1,6 @@
 {
   "format": "platform-remedy-followup-recheck-v1",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "case_id": "AU-09",
   "matter": "UDE2025/108",
   "order_reference": "PR793486",
@@ -19,7 +19,7 @@
     {
       "url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
       "role": "official_search_route",
-      "result": "public decisions-and-orders search route confirmed; no subsequent Warraich implementation record located in targeted search"
+      "result": "public decisions-and-orders search route confirmed; the 2026-09-17 targeted search still located no subsequent Warraich implementation record"
     }
   ],
   "stages": {
@@ -32,6 +32,6 @@
     "household_outcome": "not_observed",
     "platform_process_change": "not_observed"
   },
-  "boundary": "A targeted public-document non-observation does not prove that private agreement, payment, account restoration, continued work, switching, or exit did not occur.",
+  "boundary": "A targeted public-document non-observation as of 2026-09-17 does not prove that private agreement, payment, account restoration, continued work, switching, or exit did not occur.",
   "storage_boundary": "No bulk download or raw dataset acquisition; uses official web pages and the existing local case record only."
 }
