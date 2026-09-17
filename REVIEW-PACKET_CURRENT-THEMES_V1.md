@@ -1,9 +1,9 @@
 # Current themes review packet v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 262 canonical records, 989 observations, 14 program
+**Registry checkpoint:** 263 canonical records, 990 observations, 14 program
 themes; the latest verification additions are the [SNAP reason-to-food-security
 record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
@@ -11,6 +11,12 @@ and [CFPB route recheck](analysis/projects/us-customer-automation-recourse/cfpb-
 The current cross-theme bridge checkpoint is the [material-to-action status
 ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md), with the latest
 CES action-path reproducibility result recorded in its [audit](analysis/projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md).
+
+The newest work-control comparison is the [Apple back-pay implementation
+finding](analysis/projects/ai-work-control/findings/ai-work-control-086.md),
+which adds a reported completed monetary remedy to the OpenAI/Statsig
+prospective-fund case while keeping restored opportunity, durable compliance,
+worker voice, and later behavior open.
 
 This packet is a reading aid, not a new estimate. Each route starts with a
 bounded finding and then identifies the next missing observation. The atlas

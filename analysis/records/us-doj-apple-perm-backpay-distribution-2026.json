@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doj-apple-perm-backpay-distribution-2026",
+  "title": "Recruitment-channel discrimination can reach individualized back-pay completion without proving restored opportunity",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "US Department of Justice Civil Rights Division update on Apple PERM recruitment settlement implementation",
+  "geography": "United States; Apple PERM recruitment",
+  "observations": [
+    {
+      "period": "2023-11-09 settlement; 2026-05-21 distribution update",
+      "denominator": {"value": 1, "unit": "Apple settlement implementation event", "value_type": "case_count"},
+      "measures": {
+        "access_barrier": {"value": "Apple did not post PERM positions on its external job website and required paper applications by mail while allowing electronic applications for other positions; DOJ reported that the practices deterred protected workers", "unit": "recruitment-channel practice", "value_type": "reported"},
+        "settlement_scale": {"value": "$6.75 million civil penalty plus an $18.25 million back-pay fund under a $25 million agreement", "unit": "settlement dollars", "value_type": "reported_rule"},
+        "remedy_completion": {"value": "$18.25 million in back pay was processed; individualized review of thousands of potential claimants assessed lost income, and DOJ said the fund was exhausted and qualifying workers were compensated", "unit": "implemented monetary remedy", "value_type": "reported"},
+        "access_restoration": {"value": "External posting, electronic applications, applicant-tracking searchability, employee training, and three years of departmental monitoring were required; DOJ reported Apple had implemented some measures after investigation began", "unit": "recruitment-control requirement", "value_type": "reported_rule"}
+      },
+      "method": "Targeted review of two official DOJ press releases: the 2023 settlement announcement and the 2026 implementation/distribution update; no claimant file or bulk data retained.",
+      "uncertainty": "The public update does not provide the number of paid workers, individual payment distribution, restored consideration or hiring outcomes, recurrence results, worker narratives, or later household and political outcomes. DOJ's implementation statement is an agency report of settlement completion, not an independent worker follow-up survey.",
+      "subgroup": "US citizens, nationals, lawful permanent residents, and certain protected workers eligible under the Apple settlement's individualized claims process; the public update describes thousands of potential claimants but does not publish a complete claimant denominator.",
+      "counterinterpretation": "A fully exhausted back-pay fund demonstrates completed monetary administration under the settlement, but does not prove that every deterred worker recovered a comparable opportunity, that recruitment channels remained compliant after monitoring, or that compensation restored household security or trust.",
+      "source_url": "https://www.justice.gov/opa/pr/civil-rights-division-oversees-record-1825-million-back-pay-distribution-us-workers-harmed",
+      "retrieval_hash": "sha256:bf90c58fbcb1ec904c7c45c28216133146c0a6244ff1ec7926671c160794e1f8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.justice.gov/archives/opa/pr/justice-department-secures-25-million-landmark-agreement-apple-resolve-employment", "claim": "The 2023 Apple settlement announcement describes the recruitment barrier, $25 million agreement, access changes, training, and monitoring requirements.", "status": "primary-settlement"},
+    {"source_url": "https://www.justice.gov/crt/settlements-and-lawsuits", "claim": "The DOJ settlement ledger places the Apple implementation event within the broader worker-protection enforcement sequence.", "status": "primary-case-ledger"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-085.md", "claim": "The OpenAI/Statsig case supplies a prospective-fund comparator whose claimant payment and implementation outcomes remain open.", "status": "comparative-case"}
+  ],
+  "boundary": "This is a named US enforcement implementation event showing completed back-pay administration and required recruitment-channel controls. It does not estimate recruitment discrimination prevalence, establish AI involvement, prove restored job consideration or hiring, measure durable compliance or worker voice, or close household, trust, political, switching, or exit consequences."
+}

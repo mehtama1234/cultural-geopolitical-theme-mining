@@ -44,13 +44,13 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 4 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 262 machine-readable records; 989 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 263 machine-readable records; 990 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 262 records/989 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 263 records/990 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -727,6 +727,18 @@ segment, while keeping individual applicant exposure, actual payment receipt,
 job access, recurrence prevention, worker voice, later trust, and exit open.
 The case is a named enforcement event, not a prevalence estimate for AI
 recruiting or a causal worker-outcome result.
+
+The next named comparison is the [Apple PERM back-pay implementation
+event](projects/ai-work-control/findings/ai-work-control-086.md). DOJ reports
+that Apple's $18.25 million back-pay fund was processed and exhausted after
+individualized lost-income review of thousands of potential claimants, with
+external posting, electronic applications, ATS searchability, training, and
+monitoring required by the 2023 settlement. This strengthens the observed
+remedy-implementation stage relative to a merely reserved fund, while leaving
+individual payment distribution, restored job consideration, durable
+compliance, worker voice, household recovery, trust, and exit open. It is a
+named implementation event, not a prevalence estimate or causal worker-outcome
+result.
 
 ## Active research lanes
 
