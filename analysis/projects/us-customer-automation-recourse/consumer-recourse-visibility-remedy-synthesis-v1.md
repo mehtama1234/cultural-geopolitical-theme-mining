@@ -213,9 +213,12 @@ public distribution status and individual receipt are not established here.
 BrightSpeed supplies the contrasting visible distribution stage. The CFPB
 identifies 122,507 eligible consumers, $53,885,244 in compensable harm, Epiq
 Systems as payment administrator, and distribution ongoing from July 23,
-2024. This is stronger evidence of an administrative payment route than a
-formal order alone, but it still does not reveal how many checks were issued,
-successfully delivered, or sufficient to repair each person's loss.
+2024. A dated recheck on 2026-09-16 found that the case still appeared under
+ongoing cases in the official payment index, so the public status remains
+“ongoing distribution reported.” This is stronger evidence of an
+administrative payment route than a formal order alone, but it still does not
+reveal how many checks were issued, successfully delivered, or sufficient to
+repair each person's loss.
 
 | Case | Formal response | Public distribution surface | Still unknown |
 |---|---|---|---|

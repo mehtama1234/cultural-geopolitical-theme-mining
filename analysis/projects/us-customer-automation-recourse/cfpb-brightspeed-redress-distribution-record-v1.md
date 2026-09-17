@@ -1,6 +1,6 @@
 # CFPB BrightSpeed redress distribution record v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-16 (official page rechecked)
 **Status:** official aggregate compensation and distribution record; individual recovery remains unobserved
 
 ## Why this is a useful comparison
@@ -23,6 +23,20 @@ These facts establish an administrative compensation route, not a recovery
 rate. The page does not provide a respondent-level denominator of payments
 issued, successful delivery, returned payments, net recovery, remaining loss,
 repeat effort, or later trust and service use.
+
+## Dated status recheck
+
+The official CFPB page still lists BrightSpeed under ongoing cases in the
+payments-by-case index. Its case page still records **July 23, 2024 –
+Ongoing: Distribution**, and the case page reports that it was last modified
+July 23, 2024. The index was last modified August 24, 2026. This is a current
+administrative status observation, not evidence that every eligible consumer
+was paid or that distribution is progressing uniformly.
+
+The recheck therefore records “ongoing distribution still reported as of
+2026-09-16,” while leaving payment issuance, successful receipt, amount,
+residual loss, and later behavior unobserved. No administrator file or
+respondent data was downloaded.
 
 ## End-to-end stage map
 
