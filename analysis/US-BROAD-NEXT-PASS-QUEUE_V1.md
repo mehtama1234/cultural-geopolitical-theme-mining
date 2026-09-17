@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 300 records and
-1069 observations.
+have exact registered-URL references. The trend registry holds 301 records and
+1073 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2535,6 +2535,17 @@ access → substitution → loss/recovery → switching map without claiming tha
 nonbank use is deprivation or that non-switching is satisfaction. The next test
 remains a dated account/case ledger with provider contact, verified recovery,
 alternative route, and reason for staying or leaving.
+
+The [Pew Latino American-dream and mobility layer](projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md)
+adds a cultural-meaning reversal to the migration/place lane: perceived
+intergenerational progress coexists with divided belief in dream attainability,
+and immigrant versus US-born Latinos report different mobility narratives. It
+strengthens the distinction between material position, future expectation,
+belonging, and cultural judgment, but does not establish causal migration,
+income mobility, consumer behavior, or political action. The next test is a
+matched place or household design that joins meaning to housing/work exposure,
+actual economic change, and later civic or consumer behavior without inferring
+those links from the survey alone.
 
 ## Sequencing rule
 

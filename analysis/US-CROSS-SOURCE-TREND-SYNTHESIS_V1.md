@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 300 machine-readable records, 1069 observations,
+The current registry contains 301 machine-readable records, 1073 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -602,6 +602,16 @@ say “working class” describes them, including 50% of upper-income adults and
 Democrats. The identity therefore spans resources and occupations rather than
 mapping cleanly onto either. It is a cultural and political self-description,
 not proof of hardship, class position, class consciousness, or voting.
+
+The [Pew 2026 Latino American-dream and mobility layer](projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md)
+adds a second status-meaning reversal. Among Latino adults, 57% say their
+standard of living is better than their parents' and 53% expect their children
+to be better off, yet 18% say the American dream is out of reach and 27% say it
+does not exist. Immigrant Latinos report stronger retrospective and prospective
+mobility than US-born Latinos, while US-born Latinos are more likely to say the
+dream has become harder to achieve. This is a cultural and intergenerational
+meaning pattern, not an observed income-mobility, migration-causality, voting,
+or consumer-behavior result.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

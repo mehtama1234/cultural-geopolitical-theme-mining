@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-latino-american-dream-mobility-2026",
+  "title": "Latino Americans separate intergenerational progress from belief that the American dream is attainable",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["unequal_exposure_status", "trust_identity_meaning", "household_room_consumption", "political_judgment_action", "housing_place_mobility"],
+  "source_unit": "Pew Research Center National Survey of Latinos",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "October 6-16, 2025; American-dream position",
+      "denominator": {"value": 4923, "unit": "Latino adults in Pew National Survey of Latinos; weighted survey estimates", "value_type": "survey_respondents"},
+      "measures": {"achieved": {"value": 20, "unit": "percent", "value_type": "published_share"}, "on_way": {"value": 33, "unit": "percent", "value_type": "published_share"}, "out_of_reach": {"value": 18, "unit": "percent", "value_type": "published_share"}, "does_not_exist": {"value": 27, "unit": "percent", "value_type": "published_share"}},
+      "method": "Bilingual, nationally representative survey of Latino adults; respondents selected among achieved, on the way, out of reach, and does not exist.",
+      "uncertainty": "The categories measure reported cultural judgment, not a standardized mobility threshold or observed income/wealth trajectory.",
+      "subgroup": "US Latino adults",
+      "counterinterpretation": "A respondent can reject the dream while experiencing material progress, or view it as out of reach while improving relative to parents.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/",
+      "retrieval_hash": "sha256:8bdd8765449ad922f20bd5051aab4da823a92b1d557a57335bf0a0e238cc30aa",
+      "status": "reported"
+    },
+    {
+      "period": "October 6-16, 2025; intergenerational standard-of-living comparison",
+      "denominator": {"value": 4923, "unit": "Latino adults in Pew National Survey of Latinos; weighted survey estimates", "value_type": "survey_respondents"},
+      "measures": {"better_than_parents": {"value": 57, "unit": "percent saying own standard of living is better than parents' at same age", "value_type": "published_share"}, "worse_than_parents": {"value": 23, "unit": "percent", "value_type": "published_share"}, "children_better": {"value": 53, "unit": "percent expecting children's standard of living to be better than their own", "value_type": "published_share"}, "children_worse": {"value": 14, "unit": "percent", "value_type": "published_share"}},
+      "method": "Retrospective and prospective self-assessments in the same national survey; comparison is descriptive and not a linked income panel.",
+      "uncertainty": "Perceived standard of living may reflect expectations, reference groups, household composition, prices, migration histories, and memory as well as material change.",
+      "subgroup": "US Latino adults",
+      "counterinterpretation": "Positive family mobility assessments do not establish current affordability, wealth accumulation, housing access, or actual future outcomes.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/",
+      "retrieval_hash": "sha256:8bdd8765449ad922f20bd5051aab4da823a92b1d557a57335bf0a0e238cc30aa",
+      "status": "reported"
+    },
+    {
+      "period": "October 6-16, 2025; immigrant versus US-born Latino mobility and attainability judgments",
+      "denominator": {"value": 4923, "unit": "Latino adults; subgroup estimates by nativity", "value_type": "survey_respondents"},
+      "measures": {"immigrant_better_than_parents": {"value": 70, "unit": "percent", "value_type": "published_share"}, "us_born_better_than_parents": {"value": 49, "unit": "percent", "value_type": "published_share"}, "immigrant_children_better": {"value": 63, "unit": "percent", "value_type": "published_share"}, "us_born_children_better": {"value": 48, "unit": "percent", "value_type": "published_share"}, "immigrant_dream_harder": {"value": 35, "unit": "percent", "value_type": "published_share"}, "us_born_dream_harder": {"value": 48, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew nativity and generation subgroup comparison using source-defined immigrant and US-born categories.",
+      "uncertainty": "Nativity contrasts are descriptive; age, arrival cohort, legal status, language, family resources, place, and selection are jointly structured.",
+      "subgroup": "Latino immigrants versus US-born Latinos",
+      "counterinterpretation": "The contrast does not show that migration causes optimism or that nativity determines political or consumer behavior.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/how-immigrant-and-u-s-born-latinos-see-economic-mobility-and-the-american-dream/",
+      "retrieval_hash": "sha256:8bdd8765449ad922f20bd5051aab4da823a92b1d557a57335bf0a0e238cc30aa",
+      "status": "reported"
+    },
+    {
+      "period": "October 6-16, 2025; open-ended meaning of the American dream",
+      "denominator": {"value": 4923, "unit": "Latino adults; open-ended responses coded into overlapping themes", "value_type": "survey_respondents"},
+      "measures": {"financial_economic_homeownership": {"value": 60, "unit": "approximately percent mentioning financial security, economic opportunity, or homeownership", "value_type": "published_share"}, "good_life_self_family_community": {"value": 40, "unit": "approximately percent", "value_type": "published_share"}, "freedom": {"value": 18, "unit": "percent", "value_type": "published_share"}, "hard_work": {"value": 13, "unit": "percent", "value_type": "published_share"}, "equal_treatment": {"value": 11, "unit": "percent", "value_type": "published_share"}},
+      "method": "Open-ended response coding; categories can overlap and percentages do not sum to 100.",
+      "uncertainty": "Thematic coding reflects source categories and respondent language; it does not measure intensity, causal priority, or later action.",
+      "subgroup": "US Latino adults",
+      "counterinterpretation": "Material and relational meanings can coexist; no single coded theme is a complete definition of the dream.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/what-the-american-dream-means-to-u-s-latinos-in-their-own-words/",
+      "retrieval_hash": "sha256:8bdd8765449ad922f20bd5051aab4da823a92b1d557a57335bf0a0e238cc30aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/", "claim": "Working-class self-identification supplies a neighboring status-meaning comparison across income, education, work type, stress, and party.", "status": "cross-source-context"}, {"source_url": "https://www.pewresearch.org/politics/2026/07/23/americans-evaluations-of-the-economy-remain-negative/", "claim": "Current national economic evaluations provide a separate judgment context and should not be substituted for mobility meaning.", "status": "cross-source-context"}],
+  "boundary": "This record measures reported American-dream meaning, perceived intergenerational living-standard change, and nativity subgroup differences. It does not measure causal income mobility, wealth, housing purchase, legal status, voting, political action, consumer switching, or future outcomes.",
+  "retrieval_hash": "sha256:8bdd8765449ad922f20bd5051aab4da823a92b1d557a57335bf0a0e238cc30aa"
+}

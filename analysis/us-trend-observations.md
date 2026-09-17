@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-300 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+301 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -805,6 +805,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | AI use is becoming ordinary while control and social-impact concerns remain divided | voice, time, work, cost | platforms_data_attention, trust_identity_meaning, political_judgment_action, unequal_exposure_status, consumer_power_recourse, work_control_bargaining, household_room_consumption | Pew Research Center survey respondent; U.S. adults, with employed-adult and age subgroup universes where specified | United States | 5 | February 17-23, 2026; ever-use and frequency of AI chatbots; February 17-23, 2026; stated chatbot purposes; February 17-23, 2026; perceived personal and societal effects; February 17-23, 2026; pace, privacy, and regulatory confidence; 2023-2026; ChatGPT ever-use age comparison | reported | [open](records/us-pew-ai-daily-life-control-2026.json) |
 
 **Boundary:** This record adds a 2026 public-use, purpose, age, perceived-impact, privacy, pace, and regulatory-confidence layer. It does not establish chatbot dependence, actual privacy loss, product causation, emotional harm, changed political behavior, or unequal realized benefit. The 2024 and 2026 use measures have wording and universe changes; the age series is a descriptive brand-specific comparison.
+
+| Latino Americans separate intergenerational progress from belief that the American dream is attainable | cost, work, voice | unequal_exposure_status, trust_identity_meaning, household_room_consumption, political_judgment_action, housing_place_mobility | Pew Research Center National Survey of Latinos | United States | 4 | October 6-16, 2025; American-dream position; October 6-16, 2025; intergenerational standard-of-living comparison; October 6-16, 2025; immigrant versus US-born Latino mobility and attainability judgments; October 6-16, 2025; open-ended meaning of the American dream | reported | [open](records/us-pew-latino-american-dream-mobility-2026.json) |
+
+**Boundary:** This record measures reported American-dream meaning, perceived intergenerational living-standard change, and nativity subgroup differences. It does not measure causal income mobility, wealth, housing purchase, legal status, voting, political action, consumer switching, or future outcomes.
 
 | Platform-mediated news and civic life divide into distinct attention, trust, and action routes | voice, cost, work | platforms_data_attention, trust_identity_meaning, political_judgment_action, unequal_exposure_status, consumer_power_recourse | Pew Research Center US adult surveys and selected public social-media news-influencer accounts | United States | 3 | Late 2025; 19-measure news, political, civic, religious, and attention typology; March 2025; news-source familiarity, use, trust, and distrust survey; 2025; social-media news-influencer exposure and perceived informational difference | reported | [open](records/us-pew-news-platform-civic-engagement-2025.json) |
 
