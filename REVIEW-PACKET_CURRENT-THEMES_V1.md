@@ -106,6 +106,11 @@ index or a claim that the same people appear in every source.
    switching, spirituality, cultural/familial connection, practice, and party
    alignment move on different paths. Read the [religious affiliation and
    cultural identity layer](site/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.html).
+19. **Diversity has broad approval but contested institutional meaning:** most
+   Americans see racial and ethnic diversity as good for the country, while
+   partisan and racial/ethnic gaps widen around culture, workplace promotion,
+   and perceived fairness. Read the [racial diversity and workplace meaning
+   layer](site/pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.html).
 
 ## Recent cross-theme additions
 

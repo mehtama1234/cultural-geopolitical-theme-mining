@@ -208,3 +208,9 @@ adds affiliation, switching, spirituality, practice, family transmission,
 cultural connection, and religion–party intersections to themes 9, 10, 11, and
 14. It strengthens the identity-to-institution arrow while leaving causal
 political, family, charitable, and social-cohesion effects open.
+
+The [Pew 2026 racial diversity and workplace meaning layer](projects/us-cost-trust-politics/pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.md)
+adds national/cultural interpretation, workplace expectation, fairness
+judgment, partisan divergence, and race/ethnicity conditioning to themes 9,
+10, 11, and 14. It strengthens the population-to-meaning-to-institution arrow
+while leaving actual workplace treatment, opportunity, trust, and action open.

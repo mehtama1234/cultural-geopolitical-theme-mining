@@ -2855,3 +2855,10 @@ evidence on foreign-public reliability, peace, respect, interests, interference,
 U.S. party/age differences, alliance coordination, aid acceptance, and market
 or cultural signals. Keep capability, perception, preference, cooperation, and
 political action separate; do not treat approval or reputation as material power.
+
+The [Pew 2026 racial diversity and workplace meaning layer](projects/us-cost-trust-politics/pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.md)
+adds a cultural-consent and organizational-legitimacy test. The next pass
+should use compact repeated or linked evidence on workplace exposure, treatment,
+voice, fairness, correction, trust, and civic action. Keep demographic change,
+attitude, institutional practice, fairness interpretation, and observed outcome
+separate; do not infer workplace or political effects from approval alone.

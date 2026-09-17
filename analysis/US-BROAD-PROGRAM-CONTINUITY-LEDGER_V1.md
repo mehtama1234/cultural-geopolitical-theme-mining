@@ -1090,3 +1090,8 @@ adds identity and community institutions between family transmission and public
 meaning. It preserves open links from affiliation or switching to practice,
 belonging, service, political interpretation, civic action, and later
 institutional continuity.
+
+The [Pew 2026 racial diversity and workplace meaning layer](projects/us-cost-trust-politics/pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.md)
+adds the interpretive stage between population diversity and organizational
+legitimacy. It preserves open links from attitudes to actual workplace
+practice, fairness, voice, trust, civic action, and distributional outcome.
