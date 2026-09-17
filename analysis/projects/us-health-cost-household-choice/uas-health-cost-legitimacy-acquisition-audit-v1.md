@@ -82,6 +82,19 @@ remains ready for the smallest authenticated acquisition: the Older Ages panel
 and codebook first, followed by the broader Monthly Panel or UAS 537/698 only
 if the structural key, timing, and candidate episode fields pass.
 
+### Overall-workspace retention search — 2026-09-17
+
+Before treating registration-gated access as the only explanation for the
+missing file, a read-only filename search was run across
+`/home/mehtama1/git-repo` for retained UAS, Older Ages, Understanding America
+Study, and related health-cost data files. It returned no matching data-file
+paths. This is a bounded workspace-retention check, not evidence that no copy
+exists outside the workspace or under an unrelated filename; it does confirm
+that no obvious local substitute is available to the current program. No file
+was downloaded, copied, or changed. The acquisition boundary therefore remains
+registration/account access plus post-acquisition key, wave, weight, and
+missingness checks.
+
 ### UAS 537 public metadata recheck — 2026-09-17
 
 The official [UAS 537 survey page](https://uasdata.usc.edu/index.php?r=eNpLtDKyqi62MrFSKkhMT1WyLrYytFwwskuTcjKT9VISSxL1ikuLylIrQTJARcXFmSkgprGVkqmxuZJ1LVwwjUMTrg%2C%2C)
