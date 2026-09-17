@@ -33,6 +33,10 @@ CHECKS = [
     ("finding Markdown/HTML parity", ["scripts/validate_us_finding_parity.py"]),
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
     ("broad counterexample register", ["scripts/validate_broad_counterexample_register.py"]),
+    (
+        "broad same-case availability guards",
+        ["scripts/test_broad_same_case_episode_availability.py"],
+    ),
     ("UAS Older Ages follow-up guards", ["scripts/test_uas_older_ages_event_followup.py"]),
     ("UAS episode manifest", ["scripts/validate_uas_episode_manifest.py"]),
     ("published site links", ["scripts/validate_published_site_links.py"]),
