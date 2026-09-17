@@ -31,7 +31,7 @@ yet follow the same account or household through the final two arrows.
 | A person encounters institutional friction | MEPS `EQDENY53` layer and dated event screens | Annual denial/prior-authorization context and dated event-to-care/debt comparisons are measurable | No claim identifier, exact denial date, appeal, provider response, or resolution |
 | A consumer reaches a complaint route | CFPB case-level route sample | Receipt date, CFPB-to-company send date, submission channel, narrative presence, timeliness, and company-response fields are observable | Published complainants are a selected route population; attempted-but-unsubmitted contacts are absent |
 | An institution records a response | CFPB annual and case-level response layers | Explanation, non-monetary relief, monetary-relief labels, and public-response visibility can be compared by product and period | A response label is not independently verified money, correction, access restoration, or trust repair |
-| A household adapts after burden | SHED, SIPP, and MEPS screens | Borrowing, reduced savings, delayed purchases, care delay, work movement, food insecurity, debt, and collector contact are separate endpoints | They are not linked to one dated institutional case or remedy |
+| A household adapts after burden | SHED, SIPP, and MEPS screens | Borrowing, reduced savings, delayed purchases, care delay, work movement/nonemployment, food insecurity, debt, and collector contact are separate endpoints | They are not linked to one dated institutional case or remedy |
 
 Relevant local writeups are the [MEPS dated event-to-household-response
 screen](meps-dated-cascade-event-screen-v1.md), the [MEPS dated episode

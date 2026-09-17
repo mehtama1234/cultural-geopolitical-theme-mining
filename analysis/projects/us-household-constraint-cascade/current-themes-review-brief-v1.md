@@ -40,6 +40,12 @@ among people with any private coverage. This is consistent with two distinct
 mechanisms: institutional friction may add burden, while limited room may
 amplify the consequences.
 
+The companion [dated event-to-household-response screen](meps-dated-cascade-event-screen-v1.md)
+adds a work-security level endpoint: R4/2 nonemployment is substantially higher
+after the selected ER and inpatient event windows, while the office comparison
+is nearly flat. This extends the cascade into work without converting
+nonemployment into job loss or attributing it to the event.
+
 Read the [dated friction cascade](meps-dated-friction-cascade-v1.md) and its
 [completion-matrix row](end-to-end-status-matrix-v1.md). The screen remains
 descriptive: `EQDENY53` has no claim ID or denial date, and the outcomes are
