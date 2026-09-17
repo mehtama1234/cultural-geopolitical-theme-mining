@@ -1,6 +1,7 @@
 # Project: US household financial pressure and the price of access
 
 The [2024 Consumer Expenditure income-quintile layer](ce-2024-income-quintile-distribution-layer-v1.md)
+and [BLS 2024 composition and quintile update](bls-ce-2024-overall-and-quintile-spending-update-v1.md)
 adds a population spending distribution to the household-pressure branch. It
 shows that income and expenditure changes differed across quintiles, with the
 lowest-quintile increase concentrated in housing; it does not measure security,
