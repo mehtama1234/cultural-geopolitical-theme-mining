@@ -1425,6 +1425,13 @@ market-transition or household result.
   sharpens the unequal-protection signal without making assistance causal or
   converting reference-period fields into dated episodes; bill timing,
   adequacy, recovery, attribution, and action remain open.
+- **SIPP food-security/children work-stability conditioning:** the [bounded
+  finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-038.md)
+  shows lower following-month hours stability in selected very-low-food-
+  security and child-present low-resource/work-limited cells, while the
+  tenure contrast is comparatively flat. These are small, status-conditioned
+  Fay-BRR comparisons; stable hours are not stable security and the result is
+  not a food, child, or resource causal effect.
 - **SIPP utility/care security bridge:** the selected renter layer now keeps
   utility difficulty and annual child-care work prevention beside following
   mortgage hardship, food insecurity, and resource-band movement. The

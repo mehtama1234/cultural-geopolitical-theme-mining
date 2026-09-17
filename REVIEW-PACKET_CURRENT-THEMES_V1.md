@@ -35,6 +35,7 @@ same people appear in every route.
 - [Poland JASSM-ER delivery/acceptance boundary](analysis/projects/ai-work-control/findings/ai-work-control-081.md): the 2024 agreement and competing planned-delivery windows are observed, but the reviewed official record does not yet show quantity, acceptance, fielding, training, or changed external behavior.
 - [Material, care, time, and political-friction cross-source record](analysis/records/us-care-time-material-mobility-crosssource-2022-2025.json): money, unpaid time, mobility, care, and political availability are aligned as a research bridge without a same-household causal join.
 - [SIPP children × work-limitation directional finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-041.md): next-month earnings and hours directions are conditioned on resources, work limitation, and household member-under-18 status; sparse low-resource cells and the non-care meaning of `RHNUMU18` remain explicit.
+- [SIPP food-security/children work-stability conditioning finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-038.md): very-low food security and children are associated with lower hours stability in a selected low-resource/work-limited screen, while tenure is comparatively flat; small cells and status-selection limits remain explicit.
 - [Health-cost layered end-to-end finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md): care foregoing, household adaptation, institutional response, credit visibility, and legitimacy/action are now assembled as a reviewable mechanism map, while the same-episode bill-to-remedy-to-recovery chain remains open.
 
 The current next test is not another adjacent cross-tab. It is a dated,
@@ -129,6 +130,7 @@ the [reported time-loss finding](analysis/projects/us-household-calendar-integra
 its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json),
 and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json),
 the [utility-difficulty and assistance following-work finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md),
+and the [food-security and children work-stability finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-038.md),
 and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md),
 with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
 
