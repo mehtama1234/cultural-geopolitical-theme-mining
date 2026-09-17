@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-271 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+272 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -361,6 +361,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Energy efficiency turns a public label into a household-cost, market, and climate-choice infrastructure | cost, energy, voice | household_room_consumption, trust_identity_meaning, firm_sector_market_power, public_systems_feedback | EPA ENERGY STAR 2023 annual overview, program impacts, and 2024 Most Efficient criteria | United States; national program and consumer/product market frame | 3 | 2022–2023 program overview; household awareness and purchasing; 1992–2023; program-reported cumulative impact and cost-saving frame; 2024; ENERGY STAR Most Efficient criteria for selected residential products | reported | [open](records/us-energy-star-consumer-efficiency-program-2023-2024.json) |
 
 **Boundary:** ENERGY STAR adds a label, product-criteria, program-partner, and modeled-savings layer. It does not establish that a particular household purchased, installed, financed, or realized the claimed savings, nor that efficiency adoption changed health, trust, politics, or geopolitical outcomes.
+
+| Electricity infrastructure is governed as both strategic security and essential service | energy, work, voice | public_systems_feedback, firm_sector_market_power, infrastructure_technology_dependency, geopolitical_state_consequences, trust_identity_meaning | Executive Order 14421 as published in the Federal Register; federal policy and authority record, not an observed outage or household sample | United States bulk-power system and covered transactions involving foreign-produced or foreign-operated electric equipment | 1 | August 26, 2026 executive order; Federal Register publication August 31, 2026 | reported | [open](records/us-eo-14421-bulk-power-security-2026.json) |
+
+**Boundary:** This record establishes a federal policy event and reported security authority over bulk-power supply-chain transactions amid strategic electricity load growth. It does not establish an outage, vendor fault, realized replacement, household rate or reliability effect, local consent, public trust, political response, or geopolitical outcome.
 
 | Financial access is widespread but transaction and credit routes remain stratified | cost, voice, time | household_room_consumption, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | FDIC 2023 National Survey of Unbanked and Underbanked Households, conducted with the Census Bureau as a CPS supplement | United States; nationally representative households, with state, MSA, regional, and demographic subgroup tables | 4 | 2023; household bank-account ownership; 2023; banked, underbanked, and fully banked household classification; 2023; mainstream-credit access; 2023; technology, trust, and alternative transaction routes | reported | [open](records/us-fdic-unbanked-underbanked-households-2023.json) |
 

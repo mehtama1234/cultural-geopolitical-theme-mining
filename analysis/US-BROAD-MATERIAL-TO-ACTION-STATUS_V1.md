@@ -132,6 +132,14 @@ can all be documented before any applicant-level benefit or political outcome
 is observed. Data infrastructure is therefore part of the political meaning
 route, not a neutral prelude to it.
 
+The August 2026 Executive Order 14421 adds a parallel infrastructure-governance
+event: federal authority over bulk-power supply-chain transactions is justified
+through foreign-risk and rising AI/data-center/manufacturing/defense load
+dependence. The order makes security authority and possible replacement power
+visible, but does not observe local cost, outage, reliability, household,
+worker, trust, or political effects. It therefore advances the capacity-to-state
+power map while preserving the missing incidence and action join.
+
 The [HTOPS local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
 confirms that the retained local panel record contains no represented
 attribution, distinct civic/political action, remedy, recovery, switching, or

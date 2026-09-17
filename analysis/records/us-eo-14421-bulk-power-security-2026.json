@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eo-14421-bulk-power-security-2026",
+  "title": "Electricity infrastructure is governed as both strategic security and essential service",
+  "theme_ids": ["energy", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "Executive Order 14421 as published in the Federal Register; federal policy and authority record, not an observed outage or household sample",
+  "geography": "United States bulk-power system and covered transactions involving foreign-produced or foreign-operated electric equipment",
+  "observations": [
+    {
+      "period": "August 26, 2026 executive order; Federal Register publication August 31, 2026",
+      "denominator": {"value": null, "unit": "covered bulk-power transactions and equipment", "value_type": "not_disclosed"},
+      "measures": {
+        "policy_event": {"value": "Executive Order 14421 declares a national emergency concerning the U.S. bulk-power system", "unit": "federal policy event", "value_type": "reported_policy_action"},
+        "named_risk_surfaces": {"value": "foreign equipment, software, firmware, remote access, sabotage, cyber exploitation, and supply disruption", "unit": "policy-defined risk surfaces", "value_type": "reported_policy_scope"},
+        "strategic_load_context": {"value": "advanced manufacturing, data centers, artificial intelligence, and defense production increase dependence on abundant reliable electricity", "unit": "policy rationale", "value_type": "reported_policy_rationale"},
+        "authorized_control_surfaces": {"value": "restrict transactions; identify, isolate, monitor, secure, disconnect, replace, or remove equipment; pre-qualify vendors", "unit": "potential federal control actions", "value_type": "reported_authority"},
+        "realized_incidence_and_service_outcome": {"value": "not observed in the order", "unit": "missing implementation endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Federal Register primary-text review of Executive Order 14421, supplemented by the DOE implementation page; policy scope and authority are coded separately from implementation and outcome.",
+      "uncertainty": "The order does not identify affected vendors, transactions, equipment counts, replacement costs, outage changes, rate effects, local communities, employment, or public response. Authority is conditional on later determinations and consultation.",
+      "subgroup": "Bulk-power system owners, operators, equipment vendors, federal agencies, states, utilities, industrial and data-center loads, and communities dependent on essential electricity service.",
+      "counterinterpretation": "Security restrictions or replacement requirements could improve resilience, but they could also raise costs, reduce reliability during transition, or shift control without improving household service; domestic sourcing does not itself prove lower risk or better performance.",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17843.pdf",
+      "retrieval_hash": "sha256:3492b0c9049ee532e58719dedc070ae454d93b0070f71518282eec7ae0a39dbb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.energy.gov/ceser/declaring-national-emergency-secure-united-states-bulk-power-system-executive-order", "claim": "DOE describes the executive order's security rationale and scope.", "status": "official-agency-page"},
+    {"source_url": "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study", "claim": "DOE identifies transmission needs associated with data centers, domestic manufacturing, large industrial loads, and broader growth.", "status": "official-study-announcement"}
+  ],
+  "boundary": "This record establishes a federal policy event and reported security authority over bulk-power supply-chain transactions amid strategic electricity load growth. It does not establish an outage, vendor fault, realized replacement, household rate or reliability effect, local consent, public trust, political response, or geopolitical outcome.",
+  "reproduction_audit": {"retrieval_hash_scope": "Federal Register PDF for Executive Order 14421 retrieved without retaining a repository copy", "retrieval_hash": "sha256:3492b0c9049ee532e58719dedc070ae454d93b0070f71518282eec7ae0a39dbb", "checked": "2026-09-17"}
+}

@@ -173,6 +173,14 @@ supplier identity, planned delivery, operational stress, and external response;
 accepted output, replaceability, public/partner incidence, and changed behavior
 remain open.
 
+The August 2026 bulk-power security order adds a current state-power event to
+that lane. It treats foreign equipment, software, remote access, and supply
+disruption as security surfaces while linking the stakes to AI, data centers,
+manufacturing, and defense electricity demand. It establishes conditional
+federal authority, not realized reliability or household benefit; vendor,
+replacement, rate, outage, local-consent, and public-response effects remain
+open.
+
 The next active rotation is now a **storage-light event-compatibility gate**:
 find one dated material or service episode that can be followed through the
 person or household's alternatives, money/time response, remedy or recovery,
