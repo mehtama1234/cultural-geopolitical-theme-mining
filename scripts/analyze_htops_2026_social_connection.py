@@ -22,10 +22,25 @@ from pathlib import Path
 
 GROUPS = ("1", "2", "3", "4")
 OUTCOMES = ("lonely", "support", "talk", "food")
+AGE_BANDS = ("25_44", "45_64", "65_plus")
 
 
 def code(value: str) -> str:
     return value.split(".", 1)[0]
+
+
+def age_band(value: str) -> str | None:
+    try:
+        age = int(float(value))
+    except (TypeError, ValueError):
+        return None
+    if 25 <= age <= 44:
+        return "25_44"
+    if 45 <= age <= 64:
+        return "45_64"
+    if age >= 65:
+        return "65_plus"
+    return None
 
 
 def sha256(path: Path) -> str:
@@ -65,9 +80,7 @@ def main() -> None:
         duplicate_main = 0
         with archive.open(args.puf_member) as raw:
             reader = csv.DictReader(io.TextIOWrapper(raw, encoding="utf-8"))
-            required = {"SCRAMID", "PWEIGHT", "EXPENSE_DIFFICULT", *OUTCOMES}
-            # The source names are intentionally checked separately below.
-            required = {"SCRAMID", "PWEIGHT", "EXPENSE_DIFFICULT", "SOC_LONELY", "SOC_SUPPORT", "SOC_TALK", "FD_SUFF"}
+            required = {"SCRAMID", "PWEIGHT", "EXPENSE_DIFFICULT", "TAGE", "SOC_LONELY", "SOC_SUPPORT", "SOC_TALK", "FD_SUFF"}
             missing = required - set(reader.fieldnames or [])
             if missing:
                 raise SystemExit(f"PUF missing fields: {sorted(missing)}")
@@ -90,6 +103,9 @@ def main() -> None:
         point = empty_cells()
         replicate = [empty_cells() for _ in range(80)]
         n_by_group = {group: 0 for group in GROUPS}
+        age_point = {band: empty_cells() for band in AGE_BANDS}
+        age_replicate = {band: [empty_cells() for _ in range(80)] for band in AGE_BANDS}
+        age_n_by_group = {band: {group: 0 for group in GROUPS} for band in AGE_BANDS}
         seen: set[str] = set()
         duplicate_rep = 0
         extra_rep = 0
@@ -116,6 +132,9 @@ def main() -> None:
                 if sid in all_primary_weights:
                     max_weight_difference = max(max_weight_difference, abs(float(row["PWEIGHT0"]) - all_primary_weights[sid]))
                 n_by_group[group] += 1
+                band = age_band(source["TAGE"])
+                if band is not None:
+                    age_n_by_group[band][group] += 1
                 for name, (positive, valid) in outcomes(source).items():
                     if not valid:
                         continue
@@ -125,6 +144,12 @@ def main() -> None:
                         weight = float(row[f"PWEIGHT{index + 1}"])
                         replicate[index][group][name][0] += weight * positive
                         replicate[index][group][name][1] += weight
+                        if band is not None:
+                            age_replicate[band][index][group][name][0] += weight * positive
+                            age_replicate[band][index][group][name][1] += weight
+                    if band is not None:
+                        age_point[band][group][name][0] += base_weight * positive
+                        age_point[band][group][name][1] += base_weight
 
     estimates: dict[str, dict[str, object]] = {}
     for group in GROUPS:
@@ -144,6 +169,26 @@ def main() -> None:
                 "valid_weighted_n": round(denominator) if denominator else 0,
             }
 
+    age_estimates: dict[str, dict[str, dict[str, object]]] = {}
+    for band in AGE_BANDS:
+        age_estimates[band] = {}
+        for group in GROUPS:
+            age_estimates[band][group] = {"unweighted_n": age_n_by_group[band][group]}
+            for name in OUTCOMES:
+                numerator, denominator = age_point[band][group][name]
+                estimate = 100.0 * numerator / denominator if denominator else math.nan
+                replicate_estimates = []
+                for cells in age_replicate[band]:
+                    rep_num, rep_den = cells[group][name]
+                    replicate_estimates.append(100.0 * rep_num / rep_den if rep_den else math.nan)
+                valid_replicates = [value for value in replicate_estimates if math.isfinite(value)]
+                standard_error = math.sqrt(sum((value - estimate) ** 2 for value in valid_replicates) / 80.0) if valid_replicates else math.nan
+                age_estimates[band][group][name] = {
+                    "estimate_pct": round(estimate, 3) if math.isfinite(estimate) else None,
+                    "se_pct_points": round(standard_error, 3) if math.isfinite(standard_error) else None,
+                    "valid_weighted_n": round(denominator) if denominator else 0,
+                }
+
     result = {
         "format": "htops-2026-social-connection-screen-v1",
         "field_window": "March 13–30, 2026",
@@ -159,6 +204,7 @@ def main() -> None:
         },
         "weight": "PWEIGHT with PWEIGHT1–PWEIGHT80 successive-difference replicate weights",
         "estimates": estimates,
+        "age_band_estimates": age_estimates,
         "input_sha256": f"sha256:{sha256(args.zip)}",
         "boundary": "Descriptive same-round respondent-weighted conditional shares; expense is household-reported, social outcomes are respondent-reported, and March 2026 is cross-sectional. No causal, longitudinal, or household-level loneliness estimator is implied.",
     }

@@ -216,7 +216,9 @@ with household expense difficulty, while five-or-more weekly telephone/video
 contact is comparatively flat. Material pressure may therefore narrow the
 adequacy or experience of connection before it eliminates contact. The result
 is descriptive and cross-sectional; it does not identify who supplied help or
-whether connection changed later recovery or action. See the [full finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).
+whether connection changed later recovery or action. The direction persists
+within three age bands, but loneliness is highest among very-difficult younger
+respondents while low support peaks in the middle-age band. See the [full finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).
 
 ## 7. Population change reaches politics through conversion stages
 

@@ -2928,4 +2928,6 @@ gradients in frequent loneliness, low support, and food insufficiency while
 frequent telephone/video contact is comparatively flat. This is a descriptive
 same-round result, not a causal or longitudinal estimate. The raw 19 MB ZIP is
 temporary and not retained; the next test is a repeated/event design with
-actual help, alternatives, and later recovery or action.
+actual help, alternatives, and later recovery or action. The age-conditioned
+check reproduces the direction in 25–44, 45–64, and 65+ bands while showing
+that loneliness and support adequacy do not move identically by age.

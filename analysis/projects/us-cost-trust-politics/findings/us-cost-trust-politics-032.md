@@ -74,6 +74,27 @@ These are point-estimate gradients. The extraction does not present a formal
 joint model, pairwise contrast test, or causal effect. The very-difficult cell
 also has the smallest unweighted denominator, so its uncertainty is wider.
 
+## Age-conditioned check
+
+The pattern is not confined to one broad age composition. Conditioning the
+same screen on respondent age gives the following point estimates (standard
+errors in percentage points) for the two endpoint expense categories:
+
+| Age band | Expense difficulty | n | Frequent loneliness % (SE) | Low support % (SE) |
+|---|---|---:|---:|---:|
+| 25–44 | Not at all difficult | 1,198 | 1.903 (0.288) | 14.729 (1.346) |
+| 25–44 | Very difficult | 201 | 32.770 (3.969) | 37.921 (4.120) |
+| 45–64 | Not at all difficult | 2,272 | 1.964 (0.274) | 16.621 (0.789) |
+| 45–64 | Very difficult | 243 | 26.465 (3.017) | 47.434 (4.575) |
+| 65+ | Not at all difficult | 3,591 | 1.457 (0.185) | 10.984 (0.676) |
+| 65+ | Very difficult | 112 | 27.976 (4.608) | 35.687 (4.153) |
+
+The direction persists in all three age bands, while the relative downstream
+currency changes: frequent loneliness is highest in the 25–44 very-difficult
+cell, whereas low support is highest in the 45–64 very-difficult cell. The
+small endpoint cells have wider uncertainty. This is a subgroup-conditioned
+descriptive check, not evidence that age modifies a causal expense effect.
+
 ## What this adds to the broad atlas
 
 ### 1. Social connection has multiple currencies
@@ -175,4 +196,4 @@ Sources:
 - [March 2026 HTOPS table listing](https://www.census.gov/data/tables/2026/demo/hhp/2603.html)
 - [March 2026 HTOPS release note and weighting correction](https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html)
 
-Reproduction script: [`scripts/analyze_htops_2026_social_connection.py`](../../../../scripts/analyze_htops_2026_social_connection.py).
+Reproduction script: [`scripts/analyze_htops_2026_social_connection.py`](../../../../scripts/analyze_htops_2026_social_connection.py), including the age-band check.

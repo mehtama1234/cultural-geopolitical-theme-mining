@@ -156,7 +156,9 @@ insufficiency rise sharply with expense difficulty, while five-or-more weekly
 telephone/video contact is comparatively flat. This strengthens the claim that
 social connection has distinct contact, perceived-connection, and support-
 adequacy currencies; it remains cross-sectional and does not identify a bill,
-actor, remedy, or causal pathway.
+actor, remedy, or causal pathway. The gradient persists within 25–44, 45–64,
+and 65+ age bands, while the youngest endpoint has the highest loneliness and
+the middle-age endpoint the highest low-support share.
 
 ## Recent cross-theme additions
 
