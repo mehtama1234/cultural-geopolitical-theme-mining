@@ -50,6 +50,24 @@ knowledge at the same time. The Hims allegations make the later-use question
 especially consequential because the information may concern intimate health
 conditions.
 
+## Released complaint-response surface
+
+An FTC FOIA release adds a bounded observed recourse layer. The workbook
+contains 203 released Hims & Hers complaint records dated June 18 through
+September 10, 2025. Of these, 182 carry a disposition indicator: 50 are marked
+`RESOLVED`, whose label says the complainant verified resolution to their
+satisfaction, while 128 are marked `ANSWERED`, a label that includes cases in
+which the consumer was not heard from or remained dissatisfied. Four records
+are administratively invalid and 21 have no usable disposition.
+
+The file is not a customer denominator. One BBB channel accounts for 196 of the
+203 records, so the result measures access to and routing through this released
+complaint surface, not Hims-wide incidence, privacy exposure, cancellation
+failure, or medical harm. The disposition is also not a verified refund,
+deletion, treatment-continuity, or durable compliance outcome. Still, it makes
+the response distinction concrete: an organization can answer a complaint
+without the public record showing that the complainant was satisfied.
+
 ## Evidence boundary
 
 | Surface | What the official case contributes | What remains unmeasured |
@@ -59,6 +77,7 @@ conditions.
 | Refills | The complaint alleges refill processing and short cancellation deadlines could create unwanted charges or medication | Refill success, medication receipt, treatment interruption, disposal, or patient health outcome |
 | Exit | The complaint alleges customer-service hurdles before 2023 and a hidden multi-step online cancellation button afterward | Completion rate, time per cancellation, support burden, restored access, switching, or later use |
 | Governance | FTC, Utah, and California filed a pending federal lawsuit | Final finding, remedy, compliance, data deletion, refund distribution, or trust recovery |
+| Complaint response | FTC-released workbook contains 203 records; 50 marked resolved, 128 answered, 4 invalid, and 21 without usable disposition | Customer denominator, complaint representativeness, underlying exposure, refund/deletion, treatment outcome, and durable firm change |
 
 ## Why this matters
 
@@ -78,7 +97,10 @@ billing, treatment continuity, and exit must be measured as separate currencies.
 ## Next test
 
 The highest-value follow-up is a small authorized implementation or complaint
-ledger, not a large health-data download. For each de-identified episode,
+ledger, not a large health-data download. The released workbook now supplies a
+bounded aggregate response screen; the next lawful step is a de-identified
+episode ledger that preserves source channel and selection alongside:
+For each de-identified episode,
 preserve intake notice, billing consent, provider contact, prescription/refill,
 data-sharing authorization, cancellation attempt, deadline, charge, refund or
 correction, treatment continuity, alternative care route, and later trust.
@@ -91,8 +113,10 @@ privacy loss from the enforcement allegation alone.
 - [FTC and States Act Against Hims & Hers](https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices)
 - [FTC Hims complaint](https://www.ftc.gov/system/files/ftc_gov/pdf/Hims-Complaint-Redacted-E-Filed.pdf)
 - [FTC Hims & Hers case listing](https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers)
+- [FTC FOIA release page for Hims & Hers complaints](https://www.ftc.gov/legal-library/browse/frequently-requested-foia-records/hims-hers/foia-2025-02172-him-hers-consumer-complaints)
+- [Released Hims & Hers complaint workbook](https://www.ftc.gov/system/files/ftc_gov/documents/2025-02172him-hers-consumer-complaints.xlsx)
 - [Machine-readable trend record](../../../records/us-ftc-hims-hers-health-data-billing-cancellation-2026.json)
 
-**Evidence status:** official pending enforcement case; alleged mechanism is
-well specified, while individual exposure, health outcome, payment harm,
+**Evidence status:** official pending enforcement case plus a bounded released
+complaint-response file; individual exposure, health outcome, payment harm,
 remedy, data deletion, trust, and practical exit remain open.

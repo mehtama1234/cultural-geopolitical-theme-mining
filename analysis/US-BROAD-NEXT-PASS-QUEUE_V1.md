@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 273 records and
-1009 observations.
+1010 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2347,7 +2347,12 @@ alleged sensitive health-data sharing, prescription-subscription billing, and
 cancellation friction. The mechanism is specified, but individual exposure,
 medical outcome, refund, deletion, treatment continuity, trust, and exit are
 open. Keep the next test to a small authorized complaint/implementation ledger;
-do not infer patient harm from the case allegation or download health data.
+do not infer patient harm from the case allegation or download health data. The
+April 2026 FTC FOIA release now supplies a 203-record complaint-response
+surface: 50 records are marked resolved, 128 answered, 4 invalid, and 21 lack a
+usable disposition. Its strong BBB-channel concentration means this is a
+recourse-access and response-label observation, not a Hims customer prevalence
+rate or verified medical/privacy outcome.
 
 ## Sequencing rule
 

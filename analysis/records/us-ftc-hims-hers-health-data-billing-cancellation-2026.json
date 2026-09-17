@@ -39,12 +39,35 @@
       "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Hims-Complaint-Redacted-E-Filed.pdf",
       "retrieval_hash": "sha256:8ca85d04dfc6b2de367bc80f9a215d6b235751810b0c67ea91345d9d9f3ab7f3",
       "status": "reported"
+    },
+    {
+      "period": "June 18 through September 10, 2025 complaint dates; FTC FOIA release April 2026 checked September 17, 2026",
+      "denominator": {"value": 203, "unit": "released Hims & Hers consumer-complaint records in FTC FOIA workbook", "value_type": "released_record_count"},
+      "measures": {
+        "complaint_source_composition": {"value": "196 BBB CA Oakland; 2 FTC Online Complaints; 1 BBB Scam Tracker; 1 Federal Trade Commission; 3 source fields blank", "unit": "released complaint records", "value_type": "coded_record_count"},
+        "disposition_provided": {"value": 182, "unit": "released complaint records with a disposition indicator", "value_type": "coded_record_count"},
+        "resolved_disposition": {"value": 50, "unit": "released complaint records marked RESOLVED, with complainant verification stated in the disposition label", "value_type": "coded_record_count"},
+        "answered_not_confirmed_satisfactory": {"value": 128, "unit": "released complaint records marked ANSWERED, including cases where the consumer was not heard from or remained dissatisfied according to the disposition label", "value_type": "coded_record_count"},
+        "administratively_invalid": {"value": 4, "unit": "released complaint records marked ADMIN JUDGED INVALID", "value_type": "coded_record_count"},
+        "disposition_missing": {"value": 21, "unit": "released complaint records without a usable disposition label", "value_type": "coded_record_count"},
+        "geographic_spread": {"value": 37, "unit": "distinct nonblank consumer state codes represented; state is not a population denominator", "value_type": "coded_distinct_count"},
+        "complaint_response_outcome": {"value": "observed administrative response labels, not verified medical, privacy, financial, or treatment outcomes", "unit": "bounded complaint-response endpoint", "value_type": "measured_boundary"}
+      },
+      "method": "Aggregate coding of non-text workbook fields only: complaint date, source, state code, disposition, and record status. Raw workbook, narrative comments, names, addresses, contact fields, and other personal data were not retained.",
+      "uncertainty": "The FOIA release is a selected complaint file, not a representative Hims customer sample. The source composition is highly concentrated in one BBB channel; disposition labels do not establish the underlying allegation, compensation, data deletion, treatment continuity, or durable firm change. Blank fields and redactions limit interpretation.",
+      "subgroup": "People whose complaints entered the released FTC FOIA file, primarily through BBB CA Oakland; complainants with resolved, answered, invalid, and missing-disposition labels are distinct groups.",
+      "counterinterpretation": "A verified RESOLVED label may indicate a satisfactory resolution for that complainant without proving broader compliance, while an ANSWERED label can reflect either a response or unresolved dissatisfaction; complaint access and source channel shape who appears in the file.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/documents/2025-02172him-hers-consumer-complaints.xlsx",
+      "retrieval_hash": "sha256:e0345bcdc8583937cae63520863d6e238cbd7238f9cf07dc17eea5ccf460a440",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices", "claim": "FTC describes the lawsuit, alleged health-data sharing, billing, cancellation, and privacy practices.", "status": "official-press-release"},
     {"source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Hims-Complaint-Redacted-E-Filed.pdf", "claim": "Redacted complaint provides the alleged intake, refill, cancellation, and privacy-flow details.", "status": "official-complaint"},
-    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers", "claim": "FTC case listing reports the pending case status and matter context.", "status": "official-case-record"}
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers", "claim": "FTC case listing reports the pending case status and matter context.", "status": "official-case-record"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/frequently-requested-foia-records/hims-hers/foia-2025-02172-him-hers-consumer-complaints", "claim": "FTC FOIA page identifies the released Hims & Hers consumer-complaints workbook, its request number, release timing, and file size.", "status": "official-foia-release"},
+    {"source_url": "https://www.ftc.gov/system/files/ftc_gov/documents/2025-02172him-hers-consumer-complaints.xlsx", "claim": "Released workbook supplies coded complaint source, date, geography, disposition, and response-field observations.", "status": "official-released-workbook"}
   ],
   "boundary": "This record adds a named digital-health consumer-power case. It links alleged health-data disclosure, recurring prescription billing, and cancellation friction at the institutional case level, but does not establish actual individual data exposure, unauthorized payment, medical harm, treatment interruption, privacy loss, remedy, trust change, or practical exit. The next test is a lawful account/complaint or implementation ledger preserving notice, consent, refill, cancellation, data-sharing, correction, treatment continuity, relief, and later trust separately."
 }
