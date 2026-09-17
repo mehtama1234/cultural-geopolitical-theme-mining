@@ -23,6 +23,24 @@
       "source_url": "https://www.justice.gov/opa/pr/civil-rights-division-obtains-settlement-company-used-ai-generated-advertisements-excluded",
       "retrieval_hash": "sha256:5ff7ca0c4e45215c14b7d8a3a5d4359c047191c99b4dc92834dd8cd99bd4f490",
       "status": "reported"
+    },
+    {
+      "period": "2026-02-23 executed settlement agreement; three-year term from latest signature",
+      "denominator": {"value": 1, "unit": "redacted charging-party investigation; public agreement also identifies two discriminatory advertisements", "value_type": "case_record"},
+      "measures": {
+        "charge_and_investigation": {"value": "IER accepted a complete charge on 2025-12-01, opened an investigation on 2025-12-02, and found reasonable cause to believe discriminatory advertisements were posted", "unit": "DJ No. 197-79-638 case chronology", "value_type": "reported"},
+        "agreement_duration": {"value": "three years following the effective date", "unit": "settlement term", "value_type": "reported"},
+        "prospective_controls": {"value": "bilingual worker-rights posters, policy review/revision within 60 days, paid compliance training within 60 days, attendance records, and IER compliance inquiries", "unit": "required settlement controls", "value_type": "reported_rule"},
+        "enforcement_loop": {"value": "IER may request reports, inspect premises, interview personnel, and allow 30 days to cure a suspected violation before pursuing further enforcement", "unit": "settlement monitoring and cure mechanism", "value_type": "reported_rule"},
+        "individual_recovery": {"value": "no back pay or restored job consideration specified; individuals retain the right to file a charge", "unit": "public agreement boundary", "value_type": "not_disclosed"}
+      },
+      "method": "Targeted review of the redacted five-page official DOJ settlement agreement linked from the public settlements ledger; PDF retrieved for page-level inspection and hashed, but not retained in Git.",
+      "uncertainty": "The charging party and affected positions are redacted. The agreement does not disclose ad reach, applicant count, individual denial, whether the AI tool generated the restriction or received it from a human, completion of each control, or any later compliance finding.",
+      "subgroup": "One redacted charging party and potentially other applicants; the public agreement provides no complete affected-person denominator.",
+      "counterinterpretation": "A three-year monitoring and cure architecture is stronger than a one-time penalty, but a contractual right to inquire or file a charge is not proof that monitoring occurred, a violation was cured, or an applicant recovered an opportunity.",
+      "source_url": "https://www.justice.gov/crt/media/1432361/dl?inline=",
+      "retrieval_hash": "sha256:1f17f218c5a6f3081f1bb8facecc2434045d68162c9f7d6ebb63bb34ce7ff8fe",
+      "status": "reported"
     }
   ],
   "related_sources": [
