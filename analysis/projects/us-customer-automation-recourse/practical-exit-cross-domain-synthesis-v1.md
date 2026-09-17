@@ -1,8 +1,8 @@
 # Practical exit is the missing consumer-power outcome
 
 **Status:** provisional broad-program synthesis  
-**Checked:** 2026-09-16  
-**Scope:** US consumer finance, household fraud, product safety, and adjacent platform-remedy cases
+**Checked:** 2026-09-17
+**Scope:** US consumer finance, housing, connectivity, payment infrastructure, household fraud, product safety, and adjacent platform-remedy cases
 
 ## Research question
 
@@ -38,6 +38,10 @@ switching, trust change, or exit.
 | Product safety | CPSC administrative and surveillance systems | Injury-surveillance design, recalls, violation notices, import examinations, and platform takedowns | Product possession, recall awareness, return effort, remedy receipt, avoided injury, and household cost |
 | Platform-work remedy | Named proceeding or comparative case | Explanation rights, human review, reactivation, lost-pay orders, or merits refusal | Payment receipt, durable access, recurrence prevention, alternatives, and voluntary exit |
 | Multi-sided delivery platform | FTC/Illinois Grubhub enforcement and refund administration | Driver-pay controls, diner account contestability, restaurant consent, and aggregate redress | Group-specific exposure, payment receipt, restored income/access, listing recovery, switching, and exit |
+| Housing platform/landlord charges | Invitation Homes FTC refund program | Fee opacity, move-out charge allegations, 444,131 checks, and more than $47.2m distributed | Check cashing, residual housing loss, repairs, stability, moving, and landlord switching |
+| Connectivity service quality | AT&T FTC data-throttling refund program | Degraded unlimited-data service allegation, more than $5.6m initial refunds, and a reissue route | Individual service exposure, restored connectivity, substitute access, receipt, and provider switching |
+| Financial marketing | Credit Karma FTC refund program | “Pre-approved” offer allegation, wasted application time, possible score impact, and more than $2.3m refunded | Individual time loss, score correction, receipt, restored credit opportunity, and later borrowing |
+| Small-business payment infrastructure | First American Payment Systems FTC refund program | Hidden/unauthorized fees, early-termination and zombie charges, 5,588 checks, and more than $2.6m distributed | Claim completion, cashing, processor alternatives, transaction continuity, and practical exit |
 
 These layers are complementary, not poolable. A household loss estimate cannot
 be divided by CFPB complaints to create a remedy rate. A recall count cannot be
@@ -70,7 +74,39 @@ a restaurant recovered lost visibility. A platform can therefore distribute
 redress and change its rules without making the final option set equally
 observable for every side of the market.
 
-### 2. Institutional response is not practical remedy
+### 2. Fee opacity and reissue are cross-domain mechanisms
+
+The newer named records make the shared mechanism more precise without creating
+a pooled rate. Invitation Homes makes the housing case concrete: 444,131 checks
+were sent, but the public page does not establish cashing, remaining rent burden,
+or whether a renter could move. AT&T adds an infrastructure/service-quality case:
+the FTC reports more than $5.6 million returned in an earlier round and now uses
+a reissue route for people who did not accept the first payment channel. Credit
+Karma turns financial marketing into a time-and-record problem, where a denied
+application may have consumed time and affected a score before the refund route.
+First American shows the business-side version, where early-termination fees can
+make provider choice nominal rather than practical.
+
+Across these cases, the relevant pattern is not simply “firms were fined.” It is
+that the institution can often publish a settlement, a check count, a dollar total,
+or a reissue process before the affected person’s actual option set is observable:
+
+```text
+opaque price, promise, or service rule
+  -> money/time/access/record exposure
+  -> complaint or enforcement route
+  -> settlement, check, PayPal/Zelle payment, or reissue
+  -> [open] cashing, correction, restored capacity, substitute, trust, or exit
+```
+
+These cases also show why recipient counts must be handled carefully. A check
+sent is stronger evidence than a fund reserved, but it is not a check cashed;
+money received is not necessarily the restoration of connectivity, housing
+security, credit opportunity, or business replaceability. The different units—
+renter, telecom customer, credit applicant, and small business—must remain
+separate.
+
+### 3. Institutional response is not practical remedy
 
 The same vocabulary must not collapse distinct endpoints:
 
@@ -92,7 +128,7 @@ takedown can remove a listing while the item remains in a home or secondary
 market. A platform order can restore an account while payment, durability,
 retaliation, and alternative work remain unknown.
 
-### 3. Time is part of the remedy
+### 4. Time is part of the remedy
 
 The relevant outcome is not only whether a person eventually receives money or
 access. It is whether the remedy arrives before the threatened resource is
@@ -105,7 +141,7 @@ spent recovering from fraud, CFPB receipt-to-routing and administrative
 timeliness fields, recall and notice dates, and platform suspension-to-order
 intervals. A future episode ledger must preserve these clocks separately.
 
-### 4. Dependence changes the meaning of continued use
+### 5. Dependence changes the meaning of continued use
 
 Continued use is not a clean measure of satisfaction. It may indicate that the
 service is essential, that switching is expensive, that records cannot be
@@ -117,7 +153,7 @@ order, but not whether the worker could leave. The CFPB and household-loss
 layers similarly show contact and burden without a later account-level choice.
 The key outcome is therefore **practical exit**, not nominal choice.
 
-### 5. The cultural question is recognition versus abandonment
+### 6. The cultural question is recognition versus abandonment
 
 Across domains, the likely cultural meanings are not yet population estimates:
 
