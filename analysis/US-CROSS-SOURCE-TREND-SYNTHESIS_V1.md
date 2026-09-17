@@ -32,8 +32,10 @@ claim.
 ## Current broad-program rotations
 
 The latest rotation cycle deliberately moved across the full program rather
-than deepening one household lane. These artifacts are bounded syntheses, not
-forty-eight estimates of one phenomenon:
+than deepening one household lane. The continuity ledger records 51 documented
+rotations; the 39 numbered entries below are the cross-source synthesis
+artifacts currently carried in this table. They are bounded syntheses, not
+estimates of one pooled phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
