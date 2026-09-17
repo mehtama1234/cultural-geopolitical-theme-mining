@@ -203,6 +203,15 @@ next energy step is to connect this material vulnerability to dated bills,
 housing tenure, health/care use, work or time substitution, and later trust or
 political action; the 2020 RECS cross-section cannot establish those links.
 
+The [LIHEAP reach/restoration record](records/us-liheap-reach-restoration-fy2024.json)
+adds an official FY2024 public-capacity checkpoint: program reach and reported
+home-energy restoration are separate endpoints, not a durable-stability rate.
+The targeted LIHEAP performance-measure and warehouse recheck returned HTTP
+502 from the official staging host, so recipient-level prevention, restoration,
+and repeat-crisis variation remains an access gap rather than an empty-data
+finding. The next stronger energy test is still a same-household application,
+payment, restoration, next-bill, and repeat-use ledger.
+
 The [MEPS Panel 27 health-cost longitudinal layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 now supplies a repeated health-cost and coverage endpoint. The next material/
 health step is to join valid panel health-cost change to care/time allocation,
