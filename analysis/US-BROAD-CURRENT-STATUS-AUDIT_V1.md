@@ -1386,6 +1386,17 @@ market-transition or household result.
   yields only 27 positive-weight November–December pairs, with complete
   replicate matching. It adds a direct reported-hours surface but is too
   sparse for ranking and is not defined for the no-work-prevention group.
+- **SIPP care-specific directional endpoint:** the newer `EWORKMORE` screen
+  follows 10,944 matched pair rows after conditioning next-month earnings and
+  hours on reported child-care work prevention. Hours are less often unchanged
+  in prevention-positive cells, but earnings still move in both directions;
+  the annual fall reference-parent measure is not a dated care episode.
+- **SIPP direct care-time endpoint:** the newer `ETIMELOST` screen retains 560
+  valid reference-parent records after requiring reported child-care work
+  prevention and a valid time-loss response. The resource-conditioned means
+  and reporting-unit mix are design-based descriptive contrasts, not a care
+  burden ranking; paid versus unpaid time, schedule control, downstream
+  earnings, and recovery remain open.
 - **Public-system route mechanism:** a new paper scan records experimental and
   quasi-experimental evidence that flexible interviews, office proximity,
   recertification timing, and work-documentation rules alter SNAP approval,
