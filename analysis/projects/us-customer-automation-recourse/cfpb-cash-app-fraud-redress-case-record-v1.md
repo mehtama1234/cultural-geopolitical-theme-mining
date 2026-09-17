@@ -72,6 +72,24 @@ Until those fields are available, this is a verified formal-remedy stage and an
 explicit gap in lived recovery—not a consumer recovery rate or a claim about
 Cash App users as a whole.
 
+## Distribution-status check
+
+The CFPB's [payments-by-case lookup](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/)
+describes how ongoing and closed distributions are listed and distinguishes
+company-administered payments, Bureau-administered redress, and Civil Penalty
+Fund payments. A current page check did not locate Block or Cash App in the
+listed payment cases. This is a bounded administrative observation only: it
+does not prove that distribution has not begun, that no consumers have been
+paid, or that the order has not been implemented. The separate [Block case
+page](https://www.consumerfinance.gov/enforcement/actions/block-inc/) provides
+a redress contact route, but a contact route is not a receipt record.
+
+The smallest next public check is a dated recheck of the payment-by-case page
+and any official Block distribution notice. A stronger same-customer result
+would still require a privacy-approved payment or account-level follow-up with
+eligibility, amount, payment date, receipt, remaining loss, and later use or
+exit.
+
 ## Source
 
 The primary source is the [CFPB enforcement action against Block/Cash App](https://www.consumerfinance.gov/archive/newsroom/cfpb-orders-operator-of-cash-app-to-pay-175-million-and-fix-its-failures-on-fraud/).
