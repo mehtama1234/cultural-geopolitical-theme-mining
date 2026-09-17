@@ -1,7 +1,7 @@
 # AI/work-control endpoint audit v1
 
 **Status:** coverage audit only; no pooled adoption, productivity, or worker-power estimate  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Machine record:** [AI/work-control endpoint audit](data/ai-work-control-endpoint-audit-v1.json)
 
 ## Result
@@ -23,6 +23,7 @@ AI capability or management tool
 | OECD/employer + executive + union comparison | Employer tools, monitoring, AI use, expectations, representation | Governance measures and formal representation reported | No same-workplace worker outcome |
 | JRC/ILO comparative evidence | Worker AI use and algorithmic-management practices | Consultation, bargaining, data access, legal/public challenge | Case-specific rule changes observed; US generalization and durability open |
 | Microsoft Germany implementation | Named Copilot/Places rollout, controls, training, dashboards | Company-reported works-council feedback and product changes | No independent worker-level welfare or enforcement outcome |
+| NYC AEDT regime | Bias-audit, public-summary, and employee/candidate-notice requirements | Complaint route; discrimination claims referred to NYC Commission on Human Rights | No named employer implementation, worker decision change, appeal, compensation, or defined complaint outcome |
 
 ## Broad-program interpretation
 
@@ -32,6 +33,12 @@ workers' control over task order, monitoring, performance evaluation, data,
 pace, and job change is measured. Consultation is a conversion point: in the
 comparative cases it can surface objections and modify rules, but participation
 does not automatically equal veto power, enforcement, or improved welfare.
+
+The targeted NYC AEDT recheck adds a US public-rule and contestability surface:
+the city specifies pre-use audit, disclosure, notice, and complaint
+requirements, but the public pages checked do not identify a named employer,
+worker decision, correction, or remedy. This is an institutional access route,
+not evidence of compliance or lived control.
 
 The next decisive test is one named workplace system followed through actual
 worker exposure and a defined rule or feature change, with notice, override or
