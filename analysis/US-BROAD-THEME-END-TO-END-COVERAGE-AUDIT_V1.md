@@ -1,6 +1,6 @@
 # US broad theme end-to-end coverage audit v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Status:** program-control audit; not a new trend estimate  
 **Input:** [US broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md)
 
@@ -23,20 +23,20 @@ end-to-end completion.
 
 | Theme | Current matrix status | Evidence anchors | Explicit open status |
 |---|---|---:|---|
-| Household room and consumption | Compared / Reported | 10 | No |
-| Time as a hidden price | Reported / Compared | 5 | No |
-| Consumer power and recourse | Compared / Reported | 11 | No |
-| Platforms, data, and attention | Reported / Compared / Inferred | 4 | No |
-| Work, control, and bargaining | Compared / Reported | 4 | No |
-| Care, health, and social reproduction | Reported / Compared | 9 | No |
-| Housing, place, and mobility | Compared / Reported | 12 | No |
-| Unequal exposure and status | Compared / Open | 11 | Yes |
-| Trust, identity, and cultural meaning | Reported / Compared / Open | 11 | Yes |
-| Public systems and policy feedback | Compared / Reported | 11 | No |
-| Political judgment and collective action | Compared / Open | 12 | Yes |
-| Firm, sector, and market power | Reported / Compared / Inferred | 11 | No |
-| Infrastructure, technology, and dependency | Reported / Compared / Inferred | 6 | No |
-| Geopolitical and state consequences | Reported / Compared / Open | 8 | Yes |
+| Household room and consumption | Compared / Reported | 14 | No |
+| Time as a hidden price | Reported / Compared | 8 | No |
+| Consumer power and recourse | Compared / Reported | 15 | No |
+| Platforms, data, and attention | Reported / Compared / Inferred | 10 | No |
+| Work, control, and bargaining | Compared / Reported | 9 | No |
+| Care, health, and social reproduction | Reported / Compared | 12 | No |
+| Housing, place, and mobility | Compared / Reported | 15 | No |
+| Unequal exposure and status | Compared / Open | 13 | Yes |
+| Trust, identity, and cultural meaning | Reported / Compared / Open | 13 | Yes |
+| Public systems and policy feedback | Compared / Reported | 13 | No |
+| Political judgment and collective action | Compared / Open | 14 | Yes |
+| Firm, sector, and market power | Reported / Compared / Inferred | 16 | No |
+| Infrastructure, technology, and dependency | Reported / Compared / Inferred | 9 | No |
+| Geopolitical and state consequences | Reported / Compared / Open | 11 | Yes |
 
 “Evidence anchors” counts the linked Markdown anchors in each matrix row. It
 is a breadth indicator, not a quality score, sample size, or causal-strength
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`63d2448d919bad1ea7ba22a8cf616ca9a2128ca5f6a3c32634f3456678431a96`.
+`ae832c8922b416d4681373b0e4a89912f04809f579c1a640a230953638cec191`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
