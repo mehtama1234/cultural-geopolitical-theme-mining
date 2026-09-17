@@ -158,6 +158,13 @@ recorded visibility, access restoration, same-respondent adaptation, continued
 dependence, switching, non-use, staying, moving, and exit. The decisive
 boundary remains that alternatives, remedy receipt, protected/sacrificed
 outcomes, and later same-unit action are sparse; no pooled exit rate is made.
+The latest targeted Fair Work Commission implementation recheck adds a useful
+negative boundary to that route: Bandameeda's public record contains formal
+reactivation and a `$12,126.31` lost-remuneration order with a 35-day payment
+deadline, but the exact matter/order search found no public receipt, compliance
+filing, post-order access record, or anti-retaliation outcome. A payment order
+is therefore retained as an institutional remedy stage, not promoted to lived
+recovery or practical exit.
 
 The capacity/dependence rotation has completed its local realization and
 supplier-control audit. Existing US data-center, Virginia utility, USAspending,

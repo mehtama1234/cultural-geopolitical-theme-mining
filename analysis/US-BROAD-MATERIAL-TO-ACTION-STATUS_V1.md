@@ -117,6 +117,14 @@ and order gross lost remuneration after voluntary reactivation, while payment
 receipt, alternatives, net recovery, durability, and practical exit remain
 unobserved. The case is comparative Australian evidence, not a US estimate.
 
+The follow-on implementation audit now includes an exact public-record recheck
+of Bandameeda's `UDE2025/62` matter and `PR795363` order. The public record
+establishes a `$12,126.31` lost-remuneration obligation payable within 35 days,
+but the recheck found no later receipt, compliance filing, post-order access,
+or anti-retaliation record. This strengthens the distinction between formal
+institutional remedy and lived recovery without implying non-payment or
+non-restoration.
+
 ## Next decisive test
 
 Prioritize one existing panel or event-compatible source that can observe a
