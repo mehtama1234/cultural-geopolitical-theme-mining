@@ -948,6 +948,14 @@ claim-level need or treatment counterfactual. The next MEPS gate remains
 intended need, fill/adherence, treatment continuity, household substitution,
 remedy, and recovery.
 
+The [prescription-event six-month follow-up](projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md)
+now carries the 724 people with valid three-round ordering to R5/3. Health
+worsening is 19.62% in the event-window group versus 22.16% in the comparison,
+while employment status change is 13.15% versus 9.32%. Mixed directions and
+small transition cells reinforce the boundary: later status is not verified
+recovery, and the next gate remains adherence, continuity, remedy, and
+event-specific household recovery.
+
 The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
 confirms the counterexample route: route and decision are observed in all 27
 episodes, but alternatives, effort, follow-up, receipt, durability,

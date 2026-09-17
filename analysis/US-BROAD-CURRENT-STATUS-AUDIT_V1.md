@@ -1523,6 +1523,12 @@ collector-contact, and nonemployment shares than the complementary round-valid
 group. This is a descriptive event-to-context comparison; intended medication
 need, fill/adherence, continuity, remedy, and recovery remain unobserved.
 
+The [prescription-event six-month follow-up](projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md)
+ carries the valid event-window group to R5/3. Among 724 event-window people,
+health worsening is 19.62% versus 22.16% in the no-event-in-window group, while
+employment status change is 13.15% versus 9.32%. These are mixed, selected
+later-clock contexts, not recovery or causal estimates.
+
 The MEPS selection has now been tested against the full 18,457-row staged
 ledger in the [event-field availability audit](projects/us-health-cost-household-choice/meps-event-field-availability-audit-v1.md).
 All rows contain hashed episode IDs, month-level dates, and round-level

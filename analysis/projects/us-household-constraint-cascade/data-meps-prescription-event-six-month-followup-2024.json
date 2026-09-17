@@ -1,0 +1,42 @@
+{
+  "format": "us-meps-prescription-event-six-month-followup-v1",
+  "source_unit": "MEPS 2024 person records with a first HC-254A prescription event strictly inside the R3/1-to-R4/2 window and valid R3/1, R4/2, and R5/3 round ordering",
+  "date_rule": "First valid prescription event month strictly after R3/1 and strictly before R4/2; later outcomes compare R4/2 with R5/3.",
+  "person_records": 19140,
+  "round_order_valid_records": 18691,
+  "event_window_people": 724,
+  "comparison_people": 17967,
+  "results": {
+    "event_window": {
+      "fair_or_poor_health_r4": {"share_percent": 9.264744121398195, "brr_se_percentage_points": 1.2385122073428863, "valid_records": 684},
+      "fair_or_poor_health_r5": {"share_percent": 9.468340109090157, "brr_se_percentage_points": 1.3381624489679058, "valid_records": 684},
+      "health_worsened_r4_to_r5": {"share_percent": 19.624751566993556, "brr_se_percentage_points": 1.7916000497048714, "valid_records": 684},
+      "not_employed_r4": {"share_percent": 24.28723314199304, "brr_se_percentage_points": 2.152195503256668, "valid_records": 494},
+      "not_employed_r5": {"share_percent": 26.156902233930246, "brr_se_percentage_points": 2.2227887482080813, "valid_records": 501},
+      "employment_status_changed_r4_to_r5": {"share_percent": 13.152131430375658, "brr_se_percentage_points": 1.6815487634264412, "valid_records": 493},
+      "fair_or_poor_health_resolved": {"share_percent": 55.251045277793644, "brr_se_percentage_points": 7.054766565277703, "valid_records": 71},
+      "fair_or_poor_health_onset": {"share_percent": 5.865927092549925, "brr_se_percentage_points": 1.1464046968928838, "valid_records": 613},
+      "nonemployment_resolved": {"share_percent": 11.429099104726545, "brr_se_percentage_points": 3.1324261864444347, "valid_records": 143},
+      "nonemployment_onset": {"share_percent": 12.807673916732254, "brr_se_percentage_points": 3.647325137629831, "valid_records": 140}
+    },
+    "no_event_in_window": {
+      "fair_or_poor_health_r4": {"share_percent": 10.52126367553337, "brr_se_percentage_points": 0.33507625990852213, "valid_records": 17623},
+      "fair_or_poor_health_r5": {"share_percent": 10.852467560121628, "brr_se_percentage_points": 0.3363966833657639, "valid_records": 17584},
+      "health_worsened_r4_to_r5": {"share_percent": 22.163908356944333, "brr_se_percentage_points": 0.4554932733060975, "valid_records": 17553},
+      "not_employed_r4": {"share_percent": 33.958786216170914, "brr_se_percentage_points": 0.5872063480857875, "valid_records": 14570},
+      "not_employed_r5": {"share_percent": 35.03851016711591, "brr_se_percentage_points": 0.5952073891128875, "valid_records": 14665},
+      "employment_status_changed_r4_to_r5": {"share_percent": 9.322537193304196, "brr_se_percentage_points": 0.2424724446664584, "valid_records": 14499},
+      "fair_or_poor_health_resolved": {"share_percent": 38.83419268416064, "brr_se_percentage_points": 1.3576587119915062, "valid_records": 2211},
+      "fair_or_poor_health_onset": {"share_percent": 4.941747368257519, "brr_se_percentage_points": 0.2139928643111574, "valid_records": 15342},
+      "nonemployment_resolved": {"share_percent": 5.191895395318617, "brr_se_percentage_points": 0.40481306823061386, "valid_records": 5986},
+      "nonemployment_onset": {"share_percent": 7.107348270030747, "brr_se_percentage_points": 0.41161534772057423, "valid_records": 6089}
+    }
+  },
+  "input_hashes": {
+    "hc256_archive": "sha256:b4bde859b39f626345561c05570292bb7264dd92eb76ce0c1a14d6b89076aed5",
+    "brr_archive": "sha256:44f1e5a864c1d318327a0fbd3a0ff48a583c74c3a104aae357032cfbfaa5a32e",
+    "prescription_event_file": "sha256:f3c99c0f5908d3988c6267bf5af1ab49a205e55adf000eae7899d41ba49d17a5"
+  },
+  "boundary": "R5/3 is a later panel outcome, not verified recovery from the prescription event. The no-event-in-window group is not a no-need control; event selection, exact event-day timing, treatment continuity, and attrition remain. Transition denominators are outcome-specific valid baseline states. Results are descriptive, not causal.",
+  "status": "compared"
+}

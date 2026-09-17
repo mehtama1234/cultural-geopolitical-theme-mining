@@ -17,6 +17,7 @@ EVENTS = {
     "office": ("OBDATEYR", "OBDATEMM"),
     "emergency_room": ("ERDATEYR", "ERDATEMM"),
     "inpatient": ("IPBEGYR", "IPBEGMM"),
+    "prescription": ("RXBEGYRX", "RXBEGMM"),
 }
 GROUPS = ("event_window", "no_event_in_window")
 
@@ -52,6 +53,7 @@ def main() -> int:
     parser.add_argument("--office-file", type=Path, required=True)
     parser.add_argument("--emergency-room-file", type=Path, required=True)
     parser.add_argument("--inpatient-file", type=Path, required=True)
+    parser.add_argument("--prescription-file", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
@@ -105,6 +107,8 @@ def main() -> int:
         "emergency_room": args.emergency_room_file,
         "inpatient": args.inpatient_file,
     }
+    if args.prescription_file is not None:
+        paths["prescription"] = args.prescription_file
     output: dict[str, object] = {
         "schema": "us-meps-2024-event-six-month-followup-v1",
         "method": "Select each person's first valid event strictly after R3/1 and strictly before R4/2, then compare R4/2 and R5/3 health/work levels and conditional transitions. Transition denominators are the valid baseline state for that transition. Standard BRR uses 128 replicate flags.",

@@ -383,6 +383,15 @@ coverage while retaining the missing claim-level need, fill/adherence,
 treatment continuity, remedy, recovery, trust, action, and exit arrows; no new
 data was downloaded.
 
+The thirty-second rotation carries the prescription-event group to a later
+R5/3 clock through the [six-month follow-up](projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md).
+Of 18,691 round-order-valid people, 724 had an in-window prescription event.
+Health worsening is lower in the event-window group, while employment status
+change and both nonemployment onset and resolution are higher. The mixed
+directions are preserved as selected descriptive context; later status is not
+called recovery, and adherence, continuity, remedy, household recovery, trust,
+action, and exit remain open.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
