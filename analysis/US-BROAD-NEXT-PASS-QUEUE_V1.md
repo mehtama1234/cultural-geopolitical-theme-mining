@@ -1,6 +1,6 @@
 # US broad program next-pass queue v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
 
@@ -18,6 +18,19 @@ Fay–BRR reruns. The next SIPP contribution should therefore be a dated bill,
 shutoff, assistance, or service episode—or the authenticated PSID family
 design—not another adjacent cross-tab. This preserves storage and keeps the
 program focused on closing an end-to-end arrow.
+
+**Material/time recheck (2026-09-17):** the retained SIPP slice and existing
+240-replicate reproduction audit were revalidated as the current evidence
+base. The utility-to-following-work screen remains reproducible descriptive
+context, but `ETIMELOST`/`ATIMELOST` are conditional fall child-care fields
+and `EPAY`/`EPAYHELP` are care-payment/help fields; they do not supply a dated
+utility bill or service event with a general monthly time-displacement
+outcome. No redundant trend record is promoted. The next smallest aligned
+acquisition is therefore one event-compatible bill, shutoff, payment-plan,
+assistance, or service record with follow-up, or the authenticated PSID
+2019/2021/2023 structural extract. Until then, keep the SIPP result bounded
+as a monthly transition screen and leave recovery, alternatives, control,
+meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
