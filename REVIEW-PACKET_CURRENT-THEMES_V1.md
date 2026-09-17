@@ -301,7 +301,8 @@ judgment.
 
 ## Route 5: financial position becomes political meaning
 
-Read the [financial position, trust, fairness, and politics finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-012.md)
+Read the [financial position, trust, fairness, and politics finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-012.md),
+the [July expense-difficulty and institutional-confidence finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-027.md),
 and the [historical GSS financial/trust finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-024.md).
 
 **Theme:** material position can coexist with judgments about fairness and
@@ -322,6 +323,13 @@ The [historical GSS record](analysis/records/us-gss-financial-trust-historical-1
 shows the within-year gradient recurring while overall levels and survey
 designs change. These are meaning and political-orientation contrasts, not a
 dated household shock or a causal economic-voting estimate.
+
+The July HTOPS/HPS pulse adds institution-specific resolution: high confidence
+in federal statistical agencies was 28.8% among respondents reporting some
+expense difficulty versus 43.9% among those reporting none, while high
+confidence in Congress was 13.8% versus 20.8%. These are same-round
+replicate-weighted associations, not evidence that a particular bill caused
+distrust or political action; the institutions must remain separate.
 
 **Open arrow:** prior identity, event timing, attribution, direct civic
 action, institutional response, and recovery are needed before calling this

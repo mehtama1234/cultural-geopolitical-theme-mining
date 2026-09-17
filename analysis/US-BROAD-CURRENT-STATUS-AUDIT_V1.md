@@ -339,6 +339,12 @@ respondent sample. It improves same-round alignment without closing the
 event, attribution, longitudinal, replicate-precision, or political-action
 arrows. The accompanying [detailed finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-016.md)
 keeps those boundaries visible.
+The companion [expense-difficulty and institutional-confidence finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-027.md)
+adds institution-specific gradients within the same July pulse: confidence in
+federal statistical agencies and Congress both falls among respondents
+reporting expense difficulty, with a larger descriptive gap for statistical
+agencies. This remains cross-sectional and cannot identify the bill, blamed
+actor, prior confidence, complaint, vote, recovery, or causal direction.
 
 The [March–May–July 2026 Census cross-wave record](records/us-census-htops-hps-material-trust-crosswave-2026.json)
 adds replicate-weighted subgroup and period comparisons from the corrected
