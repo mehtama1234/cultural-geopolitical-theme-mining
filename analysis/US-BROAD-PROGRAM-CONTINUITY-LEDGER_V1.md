@@ -365,7 +365,8 @@ household recovery, meaning, action, and exit open.
 
 The thirtieth rotation audits the retained HTOPS panel record's endpoint
 observability through the [local endpoint audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md).
-The record exposes 36 timed material and institutional-judgment measures but
+The record exposes 36 retained measures (32 substantive material/judgment
+measures plus four sample/design fields) but
 does not represent attribution, distinct civic/political action, remedy,
 recovery, switching, or exit. This turns the next acquisition into a precise
 dictionary-and-shared-ID check while preserving the distinction between a

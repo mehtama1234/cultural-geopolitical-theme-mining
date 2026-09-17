@@ -156,7 +156,8 @@ recovery.
 
 The [HTOPS local endpoint observability audit](htops-2025-local-endpoint-observability-audit-v1.md)
 now makes the immediate acquisition boundary explicit: the retained local
-panel record exposes 36 material and judgment measures, but no attribution,
+panel record exposes 36 retained measures (32 substantive material/judgment
+measures plus four sample/design fields), but no attribution,
 distinct action, remedy, recovery, switching, or exit endpoint. This audits the
 local record only; it does not claim those fields are absent from the original
 Census PUFs.

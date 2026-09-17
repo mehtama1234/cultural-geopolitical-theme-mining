@@ -43,6 +43,15 @@ def main() -> int:
             for token in ("confidence", "statistics")
         )
     )
+    design = sorted(
+        key for key in measures
+        if key in {
+            "baseline_sample_n",
+            "followup_sample_n",
+            "linked_retention_from_baseline_percent",
+            "linked_retention_from_followup_percent",
+        }
+    )
     endpoint_status = [
         {
             "endpoint": "timed_material_condition_or_followup",
@@ -55,6 +64,12 @@ def main() -> int:
             "status": "exposed",
             "retained_measure_keys": judgment,
             "interpretation": "The retained record exposes confidence/agreement measures, which are judgment outcomes rather than attribution or action.",
+        },
+        {
+            "endpoint": "sample_and_linkage_design_metadata",
+            "status": "exposed",
+            "retained_measure_keys": design,
+            "interpretation": "The retained record exposes source-file sample counts and linked-retention metadata; these are design fields, not substantive outcomes.",
         },
         {
             "endpoint": "responsible_actor_or_attribution",

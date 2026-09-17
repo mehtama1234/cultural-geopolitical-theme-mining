@@ -6,7 +6,9 @@
 ## Result
 
 The retained local HTOPS panel record exposes 6,564 linked respondents, timed
-April-to-June material measures, and selected institutional-judgment measures.
+April-to-June material measures, selected institutional-judgment measures, and
+sample/linkage metadata. Of the 36 retained measures, 32 are substantive
+material or judgment measures and four describe the sample and linkage design.
 It does not expose the downstream fields needed to follow a complete
 material-to-action episode:
 
@@ -26,6 +28,7 @@ absent from the source files.
 |---|---|---|
 | Timed material condition/follow-up | Exposed | The linked record contains April-to-June expense, food, energy, price, work, and job-loss measures. |
 | Institutional judgment | Exposed | Congress confidence and federal-statistics agreement are recorded; they are not attribution or action. |
+| Sample/linkage design metadata | Exposed | Source-file sample counts and linked-retention shares are recorded; they are not substantive outcomes. |
 | Responsible actor/attribution | Not exposed in retained record | No local field identifies whether the respondent blamed a firm, employer, government, price, or another actor. |
 | Distinct civic/political action | Not exposed in retained record | No local vote, contact, complaint, appeal, organizing, volunteering, registration, or withdrawal field is represented. |
 | Remedy/recovery/switching/exit | Not exposed in retained record | No local later remedy, recovery, switching, non-use, or exit endpoint is represented. |

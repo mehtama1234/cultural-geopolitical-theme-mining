@@ -51,6 +51,17 @@
       "interpretation": "The retained record exposes confidence/agreement measures, which are judgment outcomes rather than attribution or action."
     },
     {
+      "endpoint": "sample_and_linkage_design_metadata",
+      "status": "exposed",
+      "retained_measure_keys": [
+        "baseline_sample_n",
+        "followup_sample_n",
+        "linked_retention_from_baseline_percent",
+        "linked_retention_from_followup_percent"
+      ],
+      "interpretation": "The retained record exposes source-file sample counts and linked-retention metadata; these are design fields, not substantive outcomes."
+    },
+    {
       "endpoint": "responsible_actor_or_attribution",
       "status": "not_exposed_in_retained_record",
       "retained_measure_keys": [],
