@@ -260,8 +260,11 @@ surface, but the care field is on an annual fall clock and the prevention
 cells are sparse. The official 240-replicate rerun now supplies Fay-BRR
 intervals, but it remains a diagnostic memo rather than a promoted trend
 estimate. A separate `RFOODS` outcome layer now tests food security on the
-same records without pooling it with mortgage hardship; the next test is a
-dated bill or assistance event.
+same records without pooling it with mortgage hardship; its severity extension
+shows 36.89% very-low food security in the joint utility-difficulty-plus-
+assistance cell versus 4.40% with neither screen. This sharpens the
+public-support/need boundary but does not close it; the next test is a dated
+bill or assistance event.
 
 The new [SIPP adjacent-month utility/care/outcome bridge](projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md),
 preserved as the [canonical renter-layer record](records/us-sipp-utility-care-following-outcomes-2024.json),

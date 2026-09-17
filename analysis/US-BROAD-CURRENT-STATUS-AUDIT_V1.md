@@ -1351,6 +1351,14 @@ market-transition or household result.
   fields may repeat across months. The same bridge now adds upward, downward,
   and any income-to-poverty-band movement as threshold screens, not dollar
   recovery measures.
+- **SIPP utility/assistance food-severity layer:** the full local SIPP rerun
+  now separates following food security into high-or-marginal, low, and
+  very-low categories across four marginal and four joint utility/assistance
+  cells with Fay-BRR uncertainty. The joint difficulty-plus-assistance cell
+  is 36.89% very-low versus 4.40% among pairs with neither screen. This
+  sharpens the unequal-protection signal without making assistance causal or
+  converting reference-period fields into dated episodes; bill timing,
+  adequacy, recovery, attribution, and action remain open.
 - **SIPP utility/care security bridge:** the selected renter layer now keeps
   utility difficulty and annual child-care work prevention beside following
   mortgage hardship, food insecurity, and resource-band movement. The
