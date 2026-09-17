@@ -121,9 +121,9 @@ status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MA
 
 ## Verified resumption checkpoint — 2026-09-17
 
-The publication gate currently passes all 19 checks: 289 canonical records,
-1,032 observations, 103 source packets, 14 themes, 562 published HTML pages,
-and 1,196 Markdown files are synchronized and locally linked. The broad
+The publication gate currently passes all 19 checks: 293 canonical records,
+1,047 observations, 103 source packets, 14 themes, 575 published HTML pages,
+and 1,209 Markdown files are synchronized and locally linked. The broad
 same-case episode audit confirms that the atlas has substantial exposure,
 adaptation, institutional-response, and selected follow-up evidence, but no
 retained source closes the complete sequence from dated exposure and usable
