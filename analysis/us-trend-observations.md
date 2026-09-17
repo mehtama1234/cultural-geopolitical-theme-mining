@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-298 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+299 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -813,6 +813,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Americans judge the press-government relationship as bad while disagreeing over media power and permissible criticism | voice, cost | trust_identity_meaning, platforms_data_attention, political_judgment_action, public_systems_feedback, unequal_exposure_status | Pew Research Center Pew-Knight Initiative surveys and focus groups on press freedom | United States | 3 | June 22-28, 2026; perceived relationship between the Trump administration and US news media; June 22-28, 2026; perceived political power of US news organizations; June 22-28, 2026; acceptability of public criticism between journalists and politicians | reported | [open](records/us-pew-press-government-media-legitimacy-2026.json) |
 
 **Boundary:** This record measures perceptions and norms concerning press-government relations, media power, and reciprocal criticism. It does not measure actual censorship, news accuracy, ownership, audience exposure, institutional trust as a general construct, political participation, vote choice, or causal media effects. The focus groups are not representative and are not pooled with survey estimates.
+
+| Public-life engagement forms distinct participation styles rather than one civic ladder | voice, time | political_judgment_action, trust_identity_meaning, platforms_data_attention, unequal_exposure_status, time_hidden_price | Pew Research Center Cross-Sectional Engagement Survey and American Trends Panel assignment to engagement groups | United States | 3 | July 9-December 5, 2025 survey; political interest by engagement group; September 8-14, 2025 panel; trust in federal government and news by engagement group; September 8-14, 2025 panel; perceived news fairness by engagement group | reported | [open](records/us-pew-public-life-engagement-groups-2025.json) |
+
+**Boundary:** This record describes engagement clusters and associated political, news, trust, and fairness judgments. It does not estimate a causal effect of civic participation, identify the same person's trigger-to-action path, measure objective news fairness, or establish that trust produces voting, organizing, switching, or non-use.
 
 | State fiscal cushions remain substantial but are beginning to lose operating capacity unevenly | cost, voice, time | public_systems_feedback, household_room_consumption, housing_place_mobility, unequal_exposure_status, political_judgment_action | Pew Charitable Trusts Fiscal 50 analysis of state-reported rainy day funds and ending balances, fiscal 2025 | United States; 50-state fiscal comparison | 4 | Fiscal 2025; state rainy day fund capacity; Fiscal 2025; cross-state rainy day capacity range; Fiscal 2025; state total balances; Fiscal 2023–2025; state revenue and fiscal-policy context | reported | [open](records/us-pew-state-rainy-day-capacity-fy2025.json) |
 

@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-public-life-engagement-groups-2025",
+  "title": "Public-life engagement forms distinct participation styles rather than one civic ladder",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "platforms_data_attention", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "Pew Research Center Cross-Sectional Engagement Survey and American Trends Panel assignment to engagement groups",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 9-December 5, 2025 survey; political interest by engagement group",
+      "denominator": {"value": 100, "unit": "percent within Pew engagement groups assigned from 19 measures of political activity, civic involvement, religious attendance, and news attention", "value_type": "published_percentage_base"},
+      "measures": {"mobilizers_high_interest": {"value": 58, "unit": "percent extremely or very interested in politics", "value_type": "published_share"}, "connectors_high_interest": {"value": 43, "unit": "percent extremely or very interested", "value_type": "published_share"}, "spectators_high_interest": {"value": 28, "unit": "percent extremely or very interested", "value_type": "published_share"}, "outsiders_high_interest": {"value": 9, "unit": "percent extremely or very interested", "value_type": "published_share"}},
+      "method": "Pew cluster analysis of the Cross-Sectional Engagement Survey, with American Trends Panel respondents assigned to the resulting four groups; descriptive group comparison, not a participation treatment.",
+      "uncertainty": "Cluster labels depend on the selected 19 measures and survey period; the activity questions mostly refer to the prior 12 months, including the 2024 presidential election. Group membership is not a fixed identity or causal exposure.",
+      "subgroup": "Mobilizers, Connectors, Spectators, and Outsiders as defined by Pew; group shares and composition are source-specific.",
+      "counterinterpretation": "Political interest may help produce engagement, be produced by it, or reflect common causes such as education, identity, resources, information, or life stage.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
+      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "status": "reported"
+    },
+    {
+      "period": "September 8-14, 2025 panel; trust in federal government and news by engagement group",
+      "denominator": {"value": 100, "unit": "percent within Pew engagement groups in the American Trends Panel; source-specific trust response categories", "value_type": "published_percentage_base"},
+      "measures": {"federal_trust_mobilizers": {"value": 22, "unit": "percent saying they can trust federal government just about always or most of the time", "value_type": "published_share"}, "federal_trust_connectors": {"value": 20, "unit": "percent", "value_type": "published_share"}, "federal_trust_spectators": {"value": 19, "unit": "percent", "value_type": "published_share"}, "federal_trust_outsiders": {"value": 17, "unit": "percent", "value_type": "published_share"}, "national_news_trust_mobilizers": {"value": 62, "unit": "percent saying they have a lot or some trust in national news information", "value_type": "published_share"}, "national_news_trust_outsiders": {"value": 45, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew American Trends Panel estimates after assigning respondents to engagement groups based on the cross-sectional cluster solution; federal-government and news trust are kept as separate measures.",
+      "uncertainty": "These are cross-sectional group comparisons, not evidence that participation creates trust. Different question wording, nonresponse, survey mode, and assignment uncertainty apply to the two source surveys.",
+      "subgroup": "Four Pew engagement groups; national news trust values for Connectors and Spectators are 64% and 57%, respectively, and are retained in the detailed memo.",
+      "counterinterpretation": "Federal-government trust is low across all four groups, while news trust varies more; engagement does not translate into a general trust hierarchy.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
+      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "status": "reported"
+    },
+    {
+      "period": "September 8-14, 2025 panel; perceived news fairness by engagement group",
+      "denominator": {"value": 100, "unit": "percent within Pew engagement groups answering whether news organizations deal fairly with all sides or favor one side", "value_type": "published_percentage_base"},
+      "measures": {"news_favors_one_side_mobilizers": {"value": 77, "unit": "percent saying news organizations tend to favor one side", "value_type": "published_share"}, "news_favors_one_side_connectors": {"value": 82, "unit": "percent", "value_type": "published_share"}, "news_favors_one_side_spectators": {"value": 75, "unit": "percent", "value_type": "published_share"}, "news_favors_one_side_outsiders": {"value": 72, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew engagement-group comparison of a normative/fairness judgment about news organizations; no objective content audit is implied.",
+      "uncertainty": "Perceived fairness is not news accuracy, bias coding, ownership, censorship, or exposure. The measure can reflect political identity, expectations, media use, and the distinction between watchdog and partisan roles.",
+      "subgroup": "Mobilizers, Connectors, Spectators, and Outsiders in the Pew panel assignment.",
+      "counterinterpretation": "High engagement can coexist with skepticism about fairness; distrust of news does not imply disengagement, and engagement does not imply institutional confidence.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
+      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/", "claim": "Current Pew press-government legitimacy findings provide a complementary institutional-power and criticism-norm layer.", "status": "cross-source-context"}, {"source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/", "claim": "Current Pew AI-attitude findings provide a technology-concern and anticipated-work-change comparison.", "status": "cross-source-context"}],
+  "boundary": "This record describes engagement clusters and associated political, news, trust, and fairness judgments. It does not estimate a causal effect of civic participation, identify the same person's trigger-to-action path, measure objective news fairness, or establish that trust produces voting, organizing, switching, or non-use.",
+  "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e"
+}

@@ -45,7 +45,7 @@ or proof that every source item was read in full.
 | [Whoz official product and company materials](https://www.whoz.com/en/) | small AI-forward firm and workforce-allocation product evidence | 0 | 2 | 1 | 0 | evidence-bearing |
 | [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/) | customer/operator evidence on AI adoption, training, workforce redesign, and delivery economics | 1 | 6 | 4 | 0 | evidence-bearing |
 | [Brookings Institution](https://www.brookings.edu/topics/) | policy research and competing interpretations | 0 | 3 | 3 | 0 | evidence-bearing |
-| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 6 | 84 | 29 | 41 | evidence-bearing; machine-record URL |
+| [Pew Research Center](https://www.pewresearch.org/) | public opinion, technology use, identity, and demographic change | 6 | 90 | 31 | 46 | evidence-bearing; machine-record URL |
 | [World Bank Open Data](https://data.worldbank.org/) | country and development indicators | 0 | 5 | 5 | 3 | evidence-bearing; machine-record URL |
 | [OECD Data](https://data-explorer.oecd.org/) | comparable country data on work, firms, tax, education, and living conditions | 0 | 1 | 1 | 0 | evidence-bearing |
 | [OECD Algorithmic Management research](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html) | cross-country employer evidence on automated management, monitoring, evaluation, and governance | 2 | 24 | 12 | 1 | evidence-bearing; machine-record URL |

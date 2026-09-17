@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 298 canonical records, 1063 observations, 14 program
+**Registry checkpoint:** 299 canonical records, 1066 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),
@@ -179,6 +179,7 @@ same people appear in every route.
 - [Pew 2026 press-government legitimacy layer](analysis/projects/us-digital-habits-attention/pew-2026-press-government-media-legitimacy-layer-v1.md): Americans broadly describe the administration-news relationship as bad, but divide over media power and the acceptable direction of criticism; exposure, accuracy, censorship, switching, and political action remain open.
 - [Gallup 2026 institutional-confidence divergence layer](analysis/projects/us-cost-trust-politics/gallup-2026-institutional-confidence-divergence-layer-v1.md): average confidence remains near historic lows while small business, large technology companies, and presidency confidence move on sharply different legitimacy surfaces; use, dependence, switching, and action remain open.
 - [Institutional legitimacy, power attribution, and practical dependence synthesis](analysis/projects/us-cost-trust-politics/institutional-legitimacy-power-attribution-cross-source-synthesis-v1.md): Pew and Gallup can be compared across power judgments, normative criticism, concern, and confidence, but not pooled into one trust score or causal political-action claim.
+- [Pew 2026 public-life engagement groups and action layer](analysis/projects/us-digital-habits-attention/pew-2026-public-life-engagement-groups-action-layer-v1.md): Mobilizers, Connectors, Spectators, and Outsiders separate political interest, civic participation, news trust, government trust, and fairness judgments rather than forming one engagement ladder.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later

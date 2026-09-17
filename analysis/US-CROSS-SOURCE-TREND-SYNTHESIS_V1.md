@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 298 machine-readable records, 1063 observations,
+The current registry contains 299 machine-readable records, 1066 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -585,6 +585,15 @@ business is at 67%; Republicans report 13 points more average confidence than
 Democrats, with a 70-point presidency gap. The important result is divergence,
 not a single trust collapse: confidence, use, dependence, institution-specific
 performance, switching, and political action are separate surfaces.
+
+The [Pew 2026 public-life engagement groups layer](projects/us-digital-habits-attention/pew-2026-public-life-engagement-groups-action-layer-v1.md)
+adds a structured action surface. Mobilizers report 58% extremely or very
+interested in politics versus 9% among Outsiders, yet federal-government trust
+is low across all four groups (17% to 22%). National-news trust ranges from
+45% among Outsiders to 64% among Connectors, while 72% to 82% say news tends
+to favor one side. The comparison shows that political interest, civic
+participation, source trust, government trust, and fairness judgments form
+different currencies; action is not a single ladder from trust to turnout.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

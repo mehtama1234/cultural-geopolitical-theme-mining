@@ -428,6 +428,7 @@ def main():
     ai_use_work_contact_exit = ROOT / "analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md"
     memos.append(ai_use_work_contact_exit)
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-government-media-legitimacy-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-public-life-engagement-groups-action-layer-v1.md")
     imf_fas_access_audit = ROOT / "analysis/projects/us-financial-intermediation/imf-fas-provider-side-access-audit-2026-09-15.md"
     memos.append(imf_fas_access_audit)
     fdic_access_layer = ROOT / "analysis/projects/us-financial-intermediation/fdic-access-credit-alternative-routes-layer-v1.md"
