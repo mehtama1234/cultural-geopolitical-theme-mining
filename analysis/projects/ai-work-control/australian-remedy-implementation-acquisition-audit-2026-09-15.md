@@ -1,6 +1,6 @@
 # Australian platform-remedy implementation acquisition audit
 
-**Checked:** 2026-09-15
+**Checked:** 2026-09-16
 **Scope:** public follow-on evidence after reactivation or lost-remuneration
 orders in the bounded Australian platform-deactivation census
 **Result:** three public lost-pay amounts/orders and one continued-access
@@ -24,9 +24,13 @@ automatically evidence of receipt or durable change.
 
 ## Search frame
 
-- Fair Work Commission decision and order search, checked 2026-09-15.
+- Fair Work Commission decision and order search, checked 2026-09-16.
 - Exact matter-number searches for `UDE2025/53`, `UDE2025/134`,
-  `UDE2025/108`, `UDE2025/185`, and `UDE2025/384`.
+  `UDE2025/108`, `UDE2025/185`, `UDE2025/384`, and Bandameeda's
+  `UDE2025/62`.
+- Exact party/order searches for `Gopal Bandameeda`, `PR795363`, and
+  `$12,126.31`; the search returned the primary decision and the 23 December
+  2025 lost-pay order, but no later receipt, compliance, or variation record.
 - Official FWC Bulletin summaries through Volume 6/26, with particular review
   of Volumes 10/25, 11/25, 12/25, 2/26, and 4/26.
 - Existing primary decisions and orders retained in the case records.
@@ -38,6 +42,7 @@ the parties and not proof that an unlocated document does not exist.
 
 | Matter | Public follow-on result | Implementation status | Remaining gap |
 |---|---|---|---|
+| Bandameeda, `UDE2025/62` | The Commission ordered reactivation on prior terms and a separate order required Amazon to pay `$12,126.31` within 35 days; the exact matter/order recheck returned no later public implementation record | Formal reactivation and payment obligation observed; worker search for work and financial/emotional impact recorded in the merits decision; receipt/durability open | Payment receipt, actual access, continued work, profile correction, recurrence, anti-retaliation |
 | Hotak, `UDE2025/53` | Uber voluntarily reactivated access on 19 May 2025; the Full Bench recorded more than 150 trips afterward and later ordered formal reactivation | Continued access/work activity observed after voluntary reactivation; amount/receipt not observed | Lost-pay quantum/order follow-up, payment, later access, profile correction, recurrence |
 | Al Hussein, `UDE2025/134` | PR792947 orders reactivation on prior terms by 31 October 2025; the located order does not quantify lost pay | Formal reactivation order observed; payment quantum/receipt open | Quantum order, payment, access, process change |
 | Warraich, `UDE2025/108` | The Commission ordered reactivation and directed the parties to confer on lost remuneration; no later amount located | Formal reactivation observed; amount/receipt not observed | Quantum order, payment, access, recurrence |
@@ -74,6 +79,12 @@ The exact-order search also located Mansoor's PR792727 order, requiring
 requiring reinstatement on prior terms by 31 October 2025. The Al Hussein order
 does not quantify the later lost-pay amount in the located document. Neither
 order establishes receipt or durable access.
+
+The 16 September exact search for Bandameeda's `UDE2025/62` matter and
+`PR795363` order returned the 23 December 2025 order requiring payment of
+`$12,126.31` within 35 days. It did not return a later payment confirmation,
+compliance filing, variation, or post-order access record. This is a bounded
+public-retrieval result: it does not establish non-payment or non-restoration.
 
 The subsequent Waheed merits decision is a primary upgrade to the census. It
 found that warnings and notices were insufficiently particular, required
@@ -115,9 +126,11 @@ and the ordered amounts for Mansoor and Rehman. It does not downgrade the other 
 - [FWC Bulletin Volume 12/25 — Warraich](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm)
 - [Khan, [2026] FWC 48](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf)
 - [FWC Bulletin Volume 4/26 — Rehman](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm)
+- [Bandameeda, [2025] FWC 3842](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3842.pdf)
+- [Bandameeda, PR795363 — lost-remuneration order](https://dms-uat.fwc.gov.au/document-view/secure/804211/1773028956.bf5ccb4e7690b0cd)
 
 ## Boundary
 
-The result is a bounded public-retrieval finding as of 2026-09-15. It does
+The result is a bounded public-retrieval finding as of 2026-09-16. It does
 not establish whether any worker was paid, remained active, suffered later
 retaliation, or obtained correction outside the public records searched.

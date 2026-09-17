@@ -160,7 +160,7 @@ family that will be acquired, compared, or maintained over time.
 
 | Domain | References | Example evidence files |
 |---|---:|---|
-| `fwc.gov.au` | 75 | `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md` |
+| `fwc.gov.au` | 76 | `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md` |
 | `doi.org` | 60 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-cost-trust-politics/cces-trust-action-joint-layer-v1.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
@@ -170,11 +170,11 @@ family that will be acquired, compared, or maintained over time.
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `ico.org.uk` | 7 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md` |
 | `cage.report` | 6 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-079.md` |
+| `dms-uat.fwc.gov.au` | 6 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
 | `eur-lex.europa.eu` | 6 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md` |
 | `hrs.isr.umich.edu` | 6 | `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md` |
 | `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
-| `dms-uat.fwc.gov.au` | 5 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
@@ -220,11 +220,11 @@ without a recurring acquisition need and source-specific metadata.
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cage.report` | delivery/lookup host | Do not register; use official DLA CAGE records as the authoritative identity source. |
+| `dms-uat.fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
 | `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrs.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
-| `dms-uat.fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
