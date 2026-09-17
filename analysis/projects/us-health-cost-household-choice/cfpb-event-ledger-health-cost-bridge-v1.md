@@ -8,11 +8,12 @@
 The health-cost lane needs an institutional middle between a household burden
 and a later recovery or legitimacy outcome. The CFPB public complaint ledger
 shows what a usable administrative event contract looks like. The [medical-
-debt query audit](cfpb-medical-debt-event-ledger-audit-v1.md) now records that
-the apparent `Debt collection` / `Medical debt` route does not apply the
-sub-product filter to returned rows. It is an acquisition boundary, not a
-medical-burden or remedy estimate, and must not be merged with MEPS
-respondents.
+debt query audit](cfpb-medical-debt-event-ledger-audit-v1.md) records that the
+apparent `Debt collection` / `Medical debt` route does not apply the
+sub-product filter to returned rows; the corrected builder locally verifies
+the returned fields and retains only qualifying rows. The resulting bounded
+route is not a medical-burden or remedy estimate and must not be merged with
+MEPS respondents.
 
 The bridge is useful because it separates three questions that are often
 collapsed:

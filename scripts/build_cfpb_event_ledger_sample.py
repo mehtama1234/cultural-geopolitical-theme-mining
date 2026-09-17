@@ -38,14 +38,39 @@ def sample_period(dates: list[str]) -> str:
     return years[0] if len(years) == 1 else f"{years[0]}–{years[-1]}"
 
 
-def build(input_path: Path) -> dict:
+def build(
+    input_path: Path,
+    required_product: str | None = None,
+    required_sub_product: str | None = None,
+) -> dict:
     raw = input_path.read_bytes()
     data = json.loads(raw)
-    hits = data.get("hits", {}).get("hits", [])
-    if not hits:
+    all_hits = data.get("hits", {}).get("hits", [])
+    if not all_hits:
         raise ValueError("input contains no complaint records")
+    hits = all_hits
+    if required_product is not None:
+        hits = [
+            hit for hit in hits
+            if hit.get("_source", {}).get("product") == required_product
+        ]
+    if required_sub_product is not None:
+        hits = [
+            hit for hit in hits
+            if hit.get("_source", {}).get("sub_product") == required_sub_product
+        ]
+    if not hits:
+        raise ValueError("no complaint records remain after local field filters")
     first = hits[0].get("_source", {})
     product = first.get("product") or "unknown product"
+    sub_product = first.get("sub_product")
+    filter_note = ""
+    if required_product is not None or required_sub_product is not None:
+        filter_note = (
+            f"; locally filtered from {len(all_hits)} returned records"
+            f"; required_product={required_product or 'any'}"
+            f"; required_sub_product={required_sub_product or 'any'}"
+        )
     dates = [h.get("_source", {}).get("date_received") for h in hits]
     dates = [d for d in dates if d]
     period = sample_period(dates)
@@ -66,11 +91,11 @@ def build(input_path: Path) -> dict:
             "actor_initiating_change": "consumer",
             "event_date": iso_date(row["date_received"]),
             "date_precision": "day from public API timestamp; route timestamp retained only as derived lag",
-            "denominator": f"{len(hits)}-record capped retrieval-order sample; product={product}; received {period}",
+            "denominator": f"{len(hits)}-record capped retrieval-order sample{filter_note}; product={product}; received {period}",
             "method": "Public CFPB complaint API record mapped to administrative route stages; no weighting or population estimation",
             "missingness": "Public record may omit narrative, public response, route timestamp, or later outcome; omitted fields are not zeros",
             "condition_or_decision": "service_failure",
-            "exposure": f"Published CFPB complaint in product route {product}; issue and sub-product retained only as coarse labels",
+            "exposure": f"Published CFPB complaint in product route {product}; sub-product={sub_product or 'unknown'}",
             "alternatives_before_action": "Not observed in the public complaint record",
             "immediate_burden_or_benefit": f"Administrative route observed; receipt-to-company-send lag hours={route_hours(row.get('date_received'), sent)}",
             "choice_or_response": f"Complaint submitted via {row.get('submitted_via') or 'unknown'}; narrative_present={bool(row.get('has_narrative'))}",
@@ -85,7 +110,7 @@ def build(input_path: Path) -> dict:
             "public_or_collective_response": "CFPB complaint submission recorded; no later civic or collective response measured",
             "counterexample": "Same sample contains timely and untimely route labels and records with/without narratives; these are administrative contrasts, not outcome counterexamples",
             "evidence_status": "observed",
-            "source_and_uncertainty": f"CFPB public complaint API; raw_sha256={sha256_bytes(raw)}; capped retrieval order; no account denominator, weighting, remedy verification, or causal estimate",
+            "source_and_uncertainty": f"CFPB public complaint API; raw_sha256={sha256_bytes(raw)}; capped retrieval order{filter_note}; no account denominator, weighting, remedy verification, or causal estimate",
         }
         events.append(event)
     arrows = [
@@ -127,8 +152,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("input", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument("--require-product")
+    parser.add_argument("--require-sub-product")
     args = parser.parse_args()
-    output = build(args.input)
+    output = build(
+        args.input,
+        required_product=args.require_product,
+        required_sub_product=args.require_sub_product,
+    )
     args.output.write_text(json.dumps(output, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps({"events": len(output["events"]), "arrows": len(output["arrows"]), "input_sha256": output["input_sha256"]}, indent=2))
 
