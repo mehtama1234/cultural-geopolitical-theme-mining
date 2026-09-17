@@ -157,11 +157,15 @@ same-case public, consumer, financial, or workplace episode ledger. A matched
 place or policy design is a third option, provided it measures action and
 attribution separately from aggregate turnout or sentiment.
 
-The immediate local test is to use the retained HTOPS panel output as a
-measurement audit: identify whether any shared respondent has a valid dated
-exposure, attributed actor, or action field before attempting another estimate.
-The raw PUFs are not currently retained locally, so no rerun or new panel
-estimate is claimed in this pass.
+The immediate local test is now a storage-light event-compatibility audit:
+inspect retained local records and official field metadata for one same-unit
+episode with a dated exposure, actor, alternatives, response, verified remedy
+or non-remedy, and later meaning/action. The completed HTOPS endpoint audit
+already establishes that the retained panel output does not expose the full
+actor, attribution, remedy, recovery, or action chain. The raw PUFs are not
+currently retained locally, so no rerun or new panel estimate is claimed in
+this pass; if the required fields are unavailable, retain that acquisition gap
+and specify the smallest authenticated route.
 
 ## Promotion rule
 
