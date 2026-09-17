@@ -58,7 +58,12 @@ companion-exit, and governance synthesis without treating those settings as
 one causal user history. The consumer-culture layer now makes trust, status,
 privacy, reporting, help-seeking, switching, and non-use explicit outcomes and
 missingness questions rather than treating participation as satisfaction or
-free choice. Its new cross-source synthesis frames confidence, payment,
+free choice. The [AI cross-partisan-contact experiment](projects/us-cost-trust-politics/findings/us-cost-trust-politics-026.md)
+adds a controlled short-run bridge from an outgroup-representing chatbot to
+warmth, belief accuracy, and willingness to choose real outgroup contact, with
+rapid one-week decay. It does not establish durable depolarization, voting,
+institutional trust, or safe generalization across topics and populations.
+Its new cross-source synthesis frames confidence, payment,
 platform attention, charitable-food access, and digital recourse as distinct
 currencies of participation under unequal optionality.
 The practical-exit observability audit now adds a cross-domain status

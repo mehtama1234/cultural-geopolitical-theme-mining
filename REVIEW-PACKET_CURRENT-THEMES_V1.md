@@ -551,6 +551,7 @@ adequacy, and a move is not voluntary mobility.
 
 Read the [AI use, work, contact, and exit synthesis](analysis/projects/us-digital-habits-attention/ai-use-work-contact-exit-synthesis-v1.md),
 the [AI optionality and control-conversion synthesis](analysis/projects/us-digital-habits-attention/ai-optionality-control-conversion-synthesis-v1.md),
+the [AI cross-partisan contact experiment](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-026.md),
 the [AI companion farewell/exit finding](analysis/projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md),
 and the [AI companion exit record](analysis/records/us-ai-companion-farewell-exit-behavior-2025-2026.json).
 
@@ -580,6 +581,13 @@ audited companies used a tactic, and a bounded experiment reported up to a
 figures establish adoption, concern, product design, and immediate behavioral
 response as different surfaces—not durable dependence, harm, or inability to
 leave.
+
+The cross-partisan-contact experiment adds a controlled political-contact
+bridge: an outgroup-representing chatbot increased immediate warmth and the
+choice of a subsequent real outgroup conversation over an aversive alternative,
+but the preregistered one-week warmth effect was small and nonsignificant.
+This is a short-run intervention result, not durable depolarization, changed
+voting, or institutional-legitimacy evidence.
 
 **Open arrow:** no current source follows the same user or worker from a
 version-stamped encounter through human alternatives, data/error control,
