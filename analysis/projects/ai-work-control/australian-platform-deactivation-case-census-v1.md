@@ -2,7 +2,7 @@
 
 **Status:** bounded official-bulletin inventory; not a complete FWC database
 export
-**Checked:** 2026-09-15
+**Checked:** 2026-09-16
 
 ## Purpose
 
@@ -15,14 +15,14 @@ and links them to primary decisions where the decision PDF is identified.
 ## Search frame and denominator
 
 The frame is FWC Bulletin Volumes 6/25 through 12/25 and Volumes 1/26 through
-6/26, supplemented by targeted FWC document-search queries checked on 15
+6/26, supplemented by targeted FWC document-search queries checked on 16
 September 2026, searched
 for “unfair deactivation” and linked `UDE` matter numbers, with direct checks of
 Commission decision PDFs. It captures decisions published from 5 June 2025
 through the checked date; it is not a search of every FWC filing, unpublished
 direction, order, or later decision after the checked date.
 
-**Inventory denominator:** 20 identifiable proceedings or linked proceeding
+**Inventory denominator:** 21 identifiable proceedings or linked proceeding
 surfaces. Hotak is counted once despite multiple Full Bench decisions. Bakar
 is counted once despite the eligibility and revocation decisions. Bandameeda
 is counted once despite preliminary and merits/order stages.
@@ -51,6 +51,7 @@ is counted once despite preliminary and merits/order stages.
 | AU-18 | Kyei v Rasier Pacific | UDE2025/105; [2025] FWC 2269 | Timing and case management | `within_time_case_proceeds` — extension granted despite a 60-day delay because the worker sought internal review and the merits case was arguable; matter was relisted with directions | Merits, Code compliance, restoration, payment |
 | AU-19 | Mohamed v Portier Pacific | UDE2025/120; [2025] FWC 2337 | Merits | `dismissal_after_compliant_process` — persistent low satisfaction ratings, warning, notice, opportunity to respond, and human consideration were found sufficient under the Code | Rating correction, review quality, downstream effects |
 | AU-20 | Ali v Portier Pacific | UDE2025/122; [2025] FWC 3243 | Merits | `dismissal_despite_code_noncompliance` — the Commission found the low-rating process inconsistent with the Code but held the deactivation was not unfair in the circumstances | Appeal, rating correction, downstream effects |
+| AU-21 | Azwar v Rasier Pacific | UDE2025/50; [2025] FWC 2370 | Eligibility | `eligibility_protection_found` — logged-on standby time was not counted as paid hours, but trip logs showed paid work on an average of 3 days per week over at least six months | Merits, process, restoration, payment, alternative work |
 
 Bandameeda's `UDE2025/62` matter number is now confirmed by the primary
 decision and the Commission's bulletin index. The remaining Bandameeda gap is
@@ -59,11 +60,11 @@ receipt of payment or durable restoration.
 
 ## Stage distribution
 
-The twenty-row inventory is not a remedy rate because the stages are mixed:
+The twenty-one-row inventory is not a remedy rate because the stages are mixed:
 
 ```text
-20 identified proceeding surfaces
-  ├─ 5 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis)
+21 identified proceeding surfaces
+  ├─ 6 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis, Azwar)
   ├─ 1 timing / case-management endpoint (Kyei)
   ├─ 6 merits dismissals (Kumar, Mohamed, Mohammed, Abdalla, Dar, Ali)
   ├─ 1 Full Bench + merits restoration (Hotak)
@@ -107,6 +108,13 @@ not meet the Code’s illustrative average of 60 hours per month or three days
 per week. Those thresholds are sufficient examples, not necessary preconditions.
 The case therefore shows that eligibility is a substantive interpretation of
 work pattern, not a mechanical hours test.
+Azwar supplies a complementary time-control boundary. The Commission rejected
+the worker's argument that all logged-on standby time should count as paid
+work, accepting trip-log hours for that measure, but found that an average of
+paid work on three days per week was enough to establish regular work over at
+least six months. Legal protection can therefore depend on a patterned work
+schedule even when unpaid availability and total paid hours point in different
+directions.
 Kyei shows a separate gate: a late application can still proceed where the
 Commission finds exceptional circumstances, including an internal review route
 and an arguable case about Code compliance. Timing is therefore not clerical
@@ -174,11 +182,12 @@ therefore measurable events, not invisible non-cases.
 - [Phillipps-Lewis primary eligibility decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2398.pdf)
 - [Kyei primary timing decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2269.pdf)
 - [Mohamed primary merits decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2337.pdf)
+- [Azwar primary eligibility decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2370.pdf)
 
 ## Next decisive acquisition
 
 Recover Bandameeda's matter number and search the FWC document system for
-every linked order in these eighteen matters. Then add a second country inventory
+every linked order in these twenty-one matters. Then add a second country inventory
 using the same fields and compare Australia with Malaysia, where the evidence
 reaches a Tribunal hearing, and Cambodia, where it reaches worker-reported
 complaint use but not an adjudicated outcome.

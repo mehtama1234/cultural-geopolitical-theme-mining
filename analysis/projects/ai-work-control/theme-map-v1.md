@@ -159,6 +159,12 @@ The case raises the next question rather than ending the theme: can this
 outcome be repeated, monitored after payment, and extended to decisions made
 through more explicitly automated ranking or allocation systems?
 
+The [Uber / Azwar time-control record](uber-azwar-regular-work-time-control-record-v1.md)
+adds an adjacent eligibility boundary. The Commission separated logged-on
+standby availability from paid trip time, but recognized a recurring paid-work
+pattern as sufficient for protection. Nominal availability, countable paid
+time, and legal access to review are therefore separate stages.
+
 The [Uber / Bakar record](uber-bakar-revoked-deactivation-record-v1.md) shows
 how a remedy can stop before merits review. An initial protection finding was
 revoked after settlement and discontinuance, while the public record raised a

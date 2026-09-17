@@ -310,6 +310,13 @@ reactivation on prior terms and a $12,126.31 lost-remuneration order. It is
 kept separate from an AI-specific case because the decision establishes
 platform-mediated procedural failure, not autonomous algorithmic causation.
 
+The [Uber / Azwar regular-work and time-control record](uber-azwar-regular-work-time-control-record-v1.md)
+adds the complementary access-time boundary: logged-on standby availability
+was not treated as paid hours for one legal threshold, while a recurring
+three-days-per-week paid-work pattern still established protection from unfair
+deactivation. It is an eligibility and time-control record, not a merits or
+remedy outcome.
+
 The [Uber / Bakar record](uber-bakar-revoked-deactivation-record-v1.md)
 provides the contrasting boundary: an eligibility finding was later revoked by
 consent after settlement, while the responsible platform entity and settlement
