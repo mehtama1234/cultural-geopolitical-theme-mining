@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "9804e9cf4b0fa10bf59cad8592f2564c239ff23f53bb7528c51501572c1dfcf1",
+  "matrix_sha256": "66b822e7b5eb1227dafb1ea237c6eb24094cbd1b85ea3caceee68fce1d9641dc",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -106,9 +106,9 @@
     },
     {
       "current_status": "Compared / Open",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 13,
       "measurement_level": "Person, household, place, customer, worker, program episode",
-      "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; WBNS adds immigrant-family perceived-risk non-use and material/child hardship contrasts; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
+      "next_required_test": "Three-way and four-way person-month comparisons now test distribution and persistence across resources, race, tenure, work-limiting condition, child presence, and financial condition; SIPP adds tenure-conditioned resource/job movement and WBNS adds material access gradients in charitable-food use; the CCES screen adds material/trust/action heterogeneity; direct caregiving, mechanism, remedy, and downstream outcomes remain open.",
       "same_unit_end_to_end_link": true,
       "source_line": 21,
       "status_tokens": [
