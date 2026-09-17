@@ -2825,3 +2825,10 @@ room/board cost, service claims, staffing, quality, family substitution, and
 resident movement. Keep payer, service, housing, informal care, and outcome
 stages separate; do not treat a state coverage count or minimum spending total
 as usable access or resident welfare.
+
+The [GAO kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
+adds a family-composition test. The next pass should use compact official
+evidence on caregiver work, disability, housing, childcare, benefits, legal
+status, school/health needs, respite, and placement stability. Keep foster and
+non-foster routes distinct and do not treat family care, poverty correlation,
+or program availability as proof of sustainability or child outcome.

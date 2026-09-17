@@ -1321,6 +1321,15 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
+adds family composition as an operating care institution. About 2.4 million
+children lived in kinship families in 2023; these families were more likely to
+be in poverty, and children in grandparent households more often had health or
+special-education needs. For every child in foster care, about 18 kinship
+children were not, while formal supports varied by legal status and community.
+The next test follows caregiver capacity, benefits, housing, work, and child
+stability in the same family episode.
+
 The [GAO 2026 assisted-living spending and Medicaid-coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
 adds a care-and-housing financing bridge. Medicaid and traditional Medicare
 spending for assisted-living services totaled at least $12 billion in 2024,

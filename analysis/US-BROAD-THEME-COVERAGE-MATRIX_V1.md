@@ -184,3 +184,9 @@ adds aging, disability, housing, Medicaid federalism, room/board, provider
 capacity, and family-care consequences to themes 1, 2, 5, 6, 7, and 10. It
 strengthens the care-finance-to-household arrow while leaving usable access,
 quality, resident outcomes, and family work effects open.
+
+The [GAO kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
+adds family composition, grandparent disability/age, child needs, legal status,
+poverty, childcare, housing, and local-support variation to themes 1, 2, 6, 7,
+9, and 10. It strengthens the family-as-care-institution arrow while leaving
+caregiver burden, stability, and program effects open.

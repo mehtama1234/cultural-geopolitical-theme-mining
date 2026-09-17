@@ -1066,3 +1066,9 @@ adds a mixed housing, health, and daily-care stage between need and household
 security. It preserves open links from federal/state coverage and spending to
 slots, room/board, provider capacity, family labor, resident safety, and later
 setting choice.
+
+The [GAO kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
+adds family recomposition between parental absence and child/household
+security. It preserves open links from caregiver capacity and legal status to
+housing, work, benefits, childcare, health, school continuity, respite, and
+later placement stability.

@@ -91,6 +91,10 @@ index or a claim that the same people appear in every source.
    Medicare, room and board, waivers, family resources, and provider capacity
    pay for different parts of assisted living. Read the [assisted-living
    spending and coverage layer](site/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.html).
+15. **Family is a care institution with unequal support:** kinship families
+   preserve continuity while reallocating housing, work, childcare, health, and
+   education burdens across generations and legal statuses. Read the [kinship
+   families layer](site/gao-2026-kinship-families-intergenerational-care-support-layer-v1.html).
 
 ## Recent cross-theme additions
 
