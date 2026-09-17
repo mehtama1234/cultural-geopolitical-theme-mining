@@ -131,6 +131,13 @@ evidence of a forgone fill. This prevents the prescription event file from
 being treated as the full affordability-risk population or as a direct
 measure of adherence and recovery.
 
+The [month-ordered MEPS event finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md)
+adds a person-specific before/same/after screen for first office, ER, and
+inpatient events against the R4/2 endpoint. It sharpens temporal selection and
+retains the office bill counterexample, but same-month ambiguity and
+after-event pre-event context remain; this is not a recovery or treatment
+effect estimate.
+
 The [cross-channel institutional-friction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md)
 adds a robustness layer across office, emergency-room, and inpatient event
 families: denial or prior-authorization delay remains associated with care

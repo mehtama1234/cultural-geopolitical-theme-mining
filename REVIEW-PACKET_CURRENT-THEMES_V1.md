@@ -225,6 +225,7 @@ the [same-round prescription-delay finding](analysis/projects/us-health-cost-hou
 and its [canonical record](analysis/records/us-meps-2024-prescription-delay-outcomes.json),
 the [inter-round prescription-delay direction finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md),
 the [prescription-purchase selection finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-008.md),
+the [month-ordered MEPS event finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-005.md),
 the [inter-round payment-band finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-004.md)
 and its [reproduction audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
 the [cross-channel institutional-friction finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-006.md),
@@ -255,6 +256,13 @@ the affordability-risk population by themselves: people with a recorded
 prescription purchase were more likely to report delay or inability to afford,
 while the no-purchase group is a mixed absence-of-record universe rather than
 proof of a forgone fill.
+
+The month-ordered event screen adds a timing safeguard: first office, ER, and
+inpatient events are classified before, during, or after the R4/2 endpoint.
+Those groups occupy different health, work, and bill contexts, but same-month
+records are ambiguous and after-event records are not recovery controls. The
+office bill pattern is a useful counterexample to treating utilization as a
+uniform household-payment burden.
 
 The cross-channel friction finding shows the denial/prior-authorization
 association alongside care delay, medical debt, bill problems, and collector
