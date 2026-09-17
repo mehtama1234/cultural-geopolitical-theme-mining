@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "66b822e7b5eb1227dafb1ea237c6eb24094cbd1b85ea3caceee68fce1d9641dc",
+  "matrix_sha256": "3751d6142e2328fd0eaa46f7288ae764cf3e3704d215aa56a243e917f6ef0f5a",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -14,9 +14,9 @@
   "themes": [
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 13,
+      "evidence_anchor_count": 14,
       "measurement_level": "Person, consumer unit, product, household record",
-      "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit; the new cross-source records keep aggregate macro conditions, household buffers, food routes, and recovery/time costs separate rather than building a welfare index.",
+      "next_required_test": "Follow repeated price adaptations and financial-condition changes, then join a defined price or payment shock to spending, food security, debt, and recovery where units permit; the new BLS update adds the overall budget-composition anchor and keeps consumer-unit averages separate from household liquidity, security, trust, and political action.",
       "same_unit_end_to_end_link": false,
       "source_line": 14,
       "status_tokens": [
