@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "b852054326e0bf0a93dada23a734a2206b872fa04e0eca27437aff742fb531f2",
+  "matrix_sha256": "1dc43ba132dcf1fb8658ab08cdab1aa174a2f7469dd5a36a7a97f1b7d61314bf",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -93,9 +93,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 12,
+      "evidence_anchor_count": 15,
       "measurement_level": "Home, person, trip, ZIP/year, disaster event, county, firm",
-      "next_required_test": "Build the matched place panel: population change \u2192 labor/demand \u2192 firms, housing, services \u2192 unequal access and mobility, with belonging and political response measured separately.",
+      "next_required_test": "Keep three clocks separate\u2014asset value, protection cost, recovery capacity\u2014then build the matched place panel: population change \u2192 labor/demand \u2192 firms, housing, services \u2192 unequal access and mobility \u2192 complaint/remedy, repair, staying, moving, or exit, with belonging and political response measured separately.",
       "same_unit_end_to_end_link": false,
       "source_line": 20,
       "status_tokens": [
