@@ -16,6 +16,17 @@ The mechanism proposed by the authors is that emergency liquidity resolves
 uncertainty about whether repairs are feasible, allowing firms that struggle to
 obtain private credit to continue operating.
 
+An earlier March 15, 2023 author version supplies scale for the result: the
+causal design reports a 13-percentage-point reduction in firm exit, a 5-point
+reduction in employer-to-nonemployer transition, an 18% employment increase in
+the full sample (about half a worker), and a 45% increase among employer firms
+(about five workers). It also reports revenue at roughly 200% of the mean,
+$18,000 more non-SBA private debt, a 3.8-point reduction in bankruptcy, and
+about eight additional local entrants. These figures are explicitly versioned
+and remain transcription anchors until rechecked against the September 2026
+NBER revision; they are not silently merged with the current abstract-level
+record.
+
 ## Event chain
 
 ```text
@@ -47,10 +58,11 @@ poor-quality work, raise prices, or remain inaccessible to households. The
 study therefore strengthens the firm/state/finance lane while making the
 worker, customer, owner-household, and meaning/action joins more precise.
 
-Because the current repository retains the official abstract-level result and
-not the working-paper data or code, the atlas does not claim effect sizes or
-reproduce the design. The canonical record is a directional evidence anchor
-and acquisition target for a later full-paper audit.
+Because the current repository retains no working-paper PDF, code, or
+restricted data, the atlas does not claim to reproduce the design. The
+version-labeled numbers are documented in the [effect-size audit](../effect-size-audit-v1.md)
+and remain acquisition targets for a table-level check against the current
+revision.
 
 ## Coding consequence
 
@@ -68,8 +80,8 @@ owner-household, trust, action, and geopolitical consequences open**.
 
 ## Next decisive test
 
-Obtain the smallest full-paper appendix or lawful replication artifact needed to
-record treatment timing, loan amount/terms, effect sizes, uncertainty, firm
+Obtain the smallest full-paper table or lawful supplementary artifact needed to
+recheck treatment timing, loan amount/terms, effect sizes, uncertainty, firm
 size/sector/place heterogeneity, and disaster severity. Then link firm outcomes
 to worker pay/quality, customer prices/service continuity, owner household
 spending, and local public capacity only where identifiers and dates permit.
@@ -79,7 +91,9 @@ spending, and local public capacity only where identifiers and dates permit.
 - [NBER Working Paper 32326](https://www.nber.org/papers/w32326)
 - [SBA disaster assistance context](https://www.sba.gov/funding-programs/disaster-assistance)
 - [Committed source packet](../source-search-2026-09-11.md)
+- [Effect-size audit](../effect-size-audit-v1.md)
 - [Machine-readable trend record](../../../records/us-small-business-disaster-liquidity-causal-2024.json)
 
-Only the official paper page and existing local source packet were used. No
+Only the official paper page, the authors' hosted earlier-version PDF as
+browser-readable evidence, and the existing local source packet were used. No
 working-paper PDF, code archive, or microdata was downloaded or retained.

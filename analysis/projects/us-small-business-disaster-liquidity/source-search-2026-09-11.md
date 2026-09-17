@@ -14,6 +14,7 @@ When a small firm survives a shock, who else keeps their options?
 |---|---|---|---|---|
 | US-NBER-FIRM-DISASTER-LIQUIDITY | [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326) | Government recovery loans reduced small-business exit and bankruptcy, increased employment and revenue, unlocked private credit and reduced delinquency. The authors connect the effects partly to resolving uncertainty about repairs and find some positive spillovers on local entry. | NBER working paper | It does not show the owner's household spending, job quality or which local customers lose access when a firm exits. |
 | US-NBER-OWNER-HOUSEHOLD | [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151) | Linked business and household accounts show that business revenue changes can affect the owner's household consumption. | NBER working paper | The COVID shock differs from a natural disaster and does not measure recovery loans or local workers. |
+| US-AFA-2023-FIRM-DISASTER-EFFECT-SIZES | [After the Storm: Direct and Spillover Benefits from Disaster Loans to Small Businesses](https://afajof.org/management/viewp.php?n=42000) | Earlier author version reports effect sizes for exit, deformalization, employment, revenue, private debt, bankruptcy, and local entry. | Effect-size transcription only | March 2023 version; estimates are not assumed identical to the current NBER revision. No PDF or restricted data retained. |
 
 ## First pattern to test
 
@@ -26,6 +27,13 @@ disaster damage
 ```
 
 The firm study supports a recovery effect for government credit. The broader worker, customer and household path remains open.
+
+The [effect-size audit](effect-size-audit-v1.md) adds version-labeled
+magnitudes from the authors' March 2023 version: a 13-point reduction in exit,
+an 18% employment increase in the full sample and 45% among employer firms,
+about $18,000 more private debt, and a 3.8-point reduction in bankruptcy. These
+are transcription anchors pending a table-level check against the current
+NBER revision, not pooled estimates.
 
 ## Counterpoint to keep visible
 

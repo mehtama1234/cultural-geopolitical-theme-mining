@@ -43,10 +43,15 @@
           "value": "No capital reallocation away from neighboring firms detected; some evidence of positive spillovers on local entry",
           "unit": "neighboring-firm and local-entry outcomes",
           "value_type": "reported_countereffect"
+        },
+        "version_labeled_effect_sizes": {
+          "value": "Earlier March 2023 author version reports -13 percentage points firm exit, -5 percentage points employer-to-nonemployer transition, +18% employment in the full sample, +45% employment among employer firms, approximately +200% of mean revenue, +$18,000 non-SBA private debt, -3.8 percentage points bankruptcy, and approximately +8 local entrants",
+          "unit": "version-specific causal estimates; outcome universes differ",
+          "value_type": "version_labeled_effect_size"
         }
       },
-      "method": "Use the NBER authors' merged application, Census, and business-credit design as reported on the official paper page; preserve the paper's causal firm-level scope and mechanism interpretation rather than reconstructing an estimate from the abstract.",
-      "uncertainty": "The local record retains abstract-level directional results, not effect sizes, code, firm identifiers, loan terms, disaster-specific treatment timing, or replication output. Firm survival and employment do not establish worker pay, job quality, owner-household recovery, customer prices, service continuity, or local political meaning. Loan access, viability, insurance, collateral, and disaster selection remain design-specific considerations.",
+      "method": "Use the NBER authors' merged application, Census, and business-credit design as reported on the official paper page; add separately labeled numerical estimates transcribed from the authors' March 2023 version hosted by the American Finance Association. Preserve causal firm-level scope and do not treat the earlier estimates as identical to the September 2026 NBER revision.",
+      "uncertainty": "The current NBER page supplies directional results; version-labeled effect sizes come from an earlier author version and require table-level rechecking against the revision. No code, firm identifiers, loan terms, standard errors, disaster-specific treatment timing, or replication output is retained. Firm survival and employment do not establish worker pay, job quality, owner-household recovery, customer prices, service continuity, or local political meaning. Loan access, viability, insurance, collateral, and disaster selection remain design-specific considerations.",
       "subgroup": "Firms applying for or receiving government recovery loans after distinct disasters; exact treatment/control and subgroup universes remain in the paper's full design.",
       "counterinterpretation": "Keeping firms open may preserve employment and local entry without proving that every borrower was viable, that workers gained security, or that customers retained affordable services. Positive aggregate firm outcomes can coexist with debt obligations, unequal loan access, or shifted costs.",
       "source_url": "https://www.nber.org/papers/w32326",
@@ -64,9 +69,14 @@
       "source_url": "projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md",
       "claim": "The committed source packet records the NBER causal findings, limits, and next test without retaining the working paper or microdata.",
       "status": "repository-source-packet"
+    },
+    {
+      "source_url": "https://afajof.org/management/viewp.php?n=42000",
+      "claim": "The authors' March 2023 version supplies version-labeled effect sizes and design details for the causal firm-level result.",
+      "status": "earlier-version-effect-size-source"
     }
   ],
-  "boundary": "This record establishes a causal firm-level emergency-liquidity result as summarized by the official NBER paper page: loans improve selected firm survival, employment, revenue, credit, and delinquency outcomes after disasters. It does not establish worker household security, customer access or prices, owner recovery, local service continuity, trust, political action, or geopolitical consequences.",
+  "boundary": "This record establishes a causal firm-level emergency-liquidity result as summarized by the official NBER paper page, with separately labeled effect-size anchors from an earlier author version. It does not establish worker household security, customer access or prices, owner recovery, local service continuity, trust, political action, or geopolitical consequences.",
   "reproduction_audit": {
     "retrieval_hash_scope": "Existing committed source-search packet and official NBER paper page; no working-paper PDF or microdata retained",
     "retrieval_hash": "source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
