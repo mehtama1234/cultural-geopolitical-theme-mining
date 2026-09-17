@@ -208,6 +208,8 @@ def main():
     # requiring readers to navigate the repository tree.
     review_packet = ROOT / "REVIEW-PACKET_AI-WORK-CONTROL_V1.md"
     memos.append(review_packet)
+    current_themes_packet = ROOT / "REVIEW-PACKET_CURRENT-THEMES_V1.md"
+    memos.append(current_themes_packet)
     ai_work_synthesis = ROOT / "analysis/projects/ai-work-control/anticipatory-to-remedial-worker-control-synthesis-v1.md"
     memos.append(ai_work_synthesis)
     memos.append(ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-cross-case-synthesis-v1.md")
@@ -546,6 +548,7 @@ def main():
         atus_annual_comparison: "atus-time-care-annual-comparison-2024-2025-v1.html",
         review_guide: "review-guide.html",
         review_packet: "review-packet-ai-work-control.html",
+        current_themes_packet: "review-packet-current-themes.html",
         ai_work_synthesis: "anticipatory-to-remedial-worker-control-synthesis-v1.html",
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
         cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",
