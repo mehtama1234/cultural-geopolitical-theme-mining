@@ -146,6 +146,9 @@ investment commitments for U.S. semiconductor, energy, and AI capacity, while
 the historical U.S. fabrication-share decline frames the strategic dependence.
 The commitment does not identify a built project, local burden, worker outcome,
 consumer-price change, ownership shift, or reduced geopolitical dependence.
+The NIST CHIPS award record and TSMC Arizona status then add partial project
+realization and workforce stages, but actual disbursement, output, job quality,
+resource burden, and supply-chain substitution remain open.
 
 The [HTOPS local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
 confirms that the retained local panel record contains no represented

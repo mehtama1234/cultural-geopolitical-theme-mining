@@ -187,6 +187,10 @@ investment commitments for U.S. semiconductor, energy, and AI capacity against
 a historical decline in the U.S. share of global wafer fabrication. This is a
 commitment-stage geopolitical signal, not proof of construction, operating
 output, domestic ownership, lower prices, or reduced strategic dependence.
+The NIST CHIPS award page and TSMC project page now add partial realization:
+milestone-based public funding, one operating fab, reported employment, and a
+technician pipeline—still without independent output, completed disbursement,
+local burden, or full supply-chain replacement evidence.
 
 The next active rotation is now a **storage-light event-compatibility gate**:
 find one dated material or service episode that can be followed through the

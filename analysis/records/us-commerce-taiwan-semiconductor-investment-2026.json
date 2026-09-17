@@ -43,6 +43,25 @@
       "source_url": "https://www.tsmc.com/static/abouttsmcaz/index.htm",
       "retrieval_hash": "sha256:e9e0549219db13a9e7aa7b92cbec116bb344656ca04c75a8b046bffa16ee7fa1",
       "status": "reported"
+    },
+    {
+      "period": "TSMC Arizona CHIPS award page checked September 17, 2026; final award record dated November 15, 2024",
+      "denominator": {"value": null, "unit": "CHIPS award and projected TSMC Arizona investment and employment", "value_type": "not_disclosed"},
+      "measures": {
+        "final_direct_funding_award": {"value": 6600000000, "unit": "US dollars, up to; CHIPS direct funding", "value_type": "government_award_amount"},
+        "available_loan": {"value": 5000000000, "unit": "US dollars, up to; proposed loan availability", "value_type": "government_financing_capacity"},
+        "expected_capital_expenditure": {"value": 65000000000, "unit": "US dollars, more than; three greenfield fabs", "value_type": "reported_project_expectation"},
+        "projected_jobs": {"value": "approximately 6,000 direct manufacturing jobs and more than 20,000 unique construction jobs", "unit": "projected employment", "value_type": "reported_projection"},
+        "milestone_accountability": {"value": "CHIPS direct funding disbursed based on completion of project milestones; financial and programmatic reports tracked", "unit": "award administration condition", "value_type": "reported_control"},
+        "realized_disbursement_and_local_outcomes": {"value": "not observed on the award page", "unit": "missing implementation endpoint", "value_type": "unmeasured"}
+      },
+      "method": "NIST/CHIPS official TSMC Arizona award page and archived award announcement; government award, projected investment/jobs, milestone conditions, and realized disbursement are kept separate.",
+      "uncertainty": "The award page reports projected investment and employment and does not disclose actual disbursement, project-level spending, completed job count, wage quality, subsidy return, water/power burden, output, or supply-chain substitution.",
+      "subgroup": "TSMC Arizona, CHIPS Program Office, Arizona workers and communities, construction and manufacturing workers, US chip customers, and taxpayers financing the public award.",
+      "counterinterpretation": "Milestone-based funding creates an accountability mechanism but does not prove milestones were completed or that projected jobs and capacity are additional; public subsidy can increase strategic capability while concentrating ownership or shifting local costs.",
+      "source_url": "https://www.nist.gov/chips/tsmc-arizona-phoenix",
+      "retrieval_hash": "sha256:acbcb37b17f85f3cec3558ed114831e1be57b33d8c05888a21530dc5e05ac7d9",
+      "status": "reported"
     }
   ],
   "related_sources": [

@@ -52,6 +52,21 @@ local resource burden, public subsidy, or replacement of Taiwan-centered inputs.
 The project therefore advances from commitment to partial realization without
 closing the capability or distribution chain.
 
+## Government award and accountability check
+
+The NIST CHIPS award page provides an independent government-side layer. It
+records up to $6.6 billion in direct funding, up to $5 billion in proposed loan
+availability, more than $65 billion in expected capital expenditure, and
+projected employment of approximately 6,000 direct manufacturing jobs and more
+than 20,000 unique construction jobs. The page states that direct funding is
+disbursed based on project milestones and that financial and programmatic
+reports are tracked.
+
+This is stronger evidence of public accountability architecture than a company
+investment announcement, but it remains a projected/award-stage record. The
+page does not show actual disbursement, completed employment, wage quality,
+output, subsidy return, water/power burden, or supply-chain replacement.
+
 ## What the public record supplies
 
 | Stage | Observed evidence | Still open |
@@ -59,7 +74,7 @@ closing the capability or distribution chain.
 | Baseline dependence | Commerce reports U.S. wafer-fabrication share below 10% in 2024, down from 37% in 1990 | Product-specific dependence, critical-node exposure, and substitutability |
 | Geopolitical mechanism | Agreement links Taiwan investment, tariff treatment, and domestic semiconductor capacity | Binding terms, enforcement, duration, and firm-level obligations |
 | Commitment | At least $250B in reported direct investments for semiconductor, energy, and AI production/innovation capacity | Disbursement, project list, construction, completion, and financing |
-| Domestic capability | TSMC reports first-fab high-volume N4 production, more than 3,000 employees, staged later fabs, and a 43-person technician-training cohort | Independent output, yield, uptime, job quality, suppliers, energy/water use, operating cost, and replacement of Taiwan-centered inputs |
+| Domestic capability | TSMC reports first-fab high-volume N4 production, more than 3,000 employees, staged later fabs, and a 43-person technician-training cohort; NIST records a milestone-based CHIPS award and projected jobs | Independent output, yield, uptime, completed employment, job quality, suppliers, energy/water use, operating cost, disbursement, and replacement of Taiwan-centered inputs |
 | Distribution | Potential jobs, technology access, supply resilience, and public strategic capacity are asserted policy benefits | Place-level jobs, wages, land/water/power burden, consumer prices, and who owns the gains |
 | Geopolitical consequence | Semiconductors are framed as industrial, technological, and military inputs | Reduced dependence, allied bargaining power, export controls, substitution, and external response |
 
@@ -102,6 +117,7 @@ the resilience or household-benefit claim.
 
 - [Commerce Taiwan semiconductor investment fact sheet](https://www.commerce.gov/news/fact-sheets/2026/01/fact-sheet-restoring-american-semiconductor-manufacturing-leadership)
 - [TSMC Arizona project and workforce status](https://www.tsmc.com/static/abouttsmcaz/index.htm)
+- [NIST/CHIPS TSMC Arizona award page](https://www.nist.gov/chips/tsmc-arizona-phoenix)
 
 Only the small official HTML fact sheet was checked and hashed; no investment
 database, project file, or industrial dataset was downloaded or retained.
