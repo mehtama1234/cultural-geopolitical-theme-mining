@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-255 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+256 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -485,6 +485,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Data-center electricity demand turns digital capability into infrastructure demand | energy, work, voice | work_control_bargaining, firm_sector_market_power, infrastructure_technology_dependency, geopolitical_state_consequences, housing_place_mobility | US data-center electricity use, historical estimate and LBNL scenario model | United States | 3 | 2023 historical estimate; 2030 reference case; 2030 scenario sensitivity | estimated | [open](records/us-lbnl-data-center-electricity-load-2023-2030.json) |
 
 **Boundary:** This is a national historical/model baseline. It does not establish local household or firm burden, utility cost allocation, water or land incidence, ownership, interoperability, replaceability, state leverage, or geopolitical consequence. Derived denominators are shown transparently because the committed memo recorded the source load and percentage rather than an independent total-electricity denominator. The retrieval hash covers the committed analysis memo.
+
+| LIHEAP reaches millions while reported restoration remains a distinct endpoint | energy, cost, time | household_room_consumption, time_hidden_price, housing_place_mobility, unequal_exposure_status, public_systems_feedback, political_judgment_action | HHS/ACF FY2024 LIHEAP annual-report aggregate | United States | 2 | FY2024; households or families receiving LIHEAP assistance; FY2024; reported restoration of home energy service | reported | [open](records/us-liheap-reach-restoration-fy2024.json) |
+
+**Boundary:** This record establishes official program reach and reported restoration as separate public-system endpoints. It does not estimate LIHEAP take-up, household prevalence, benefit adequacy, restoration duration, repeat crisis, protected or sacrificed outcomes, trust, political action, or durable energy security.
 
 | Current aggregate income, price, labor, and household-room signals move on different clocks | cost, work, voice | household_room_consumption, time_hidden_price, work_control_bargaining, unequal_exposure_status, consumer_power_recourse, political_judgment_action | Deliberately non-pooled BEA aggregate accounts, BLS consumer/producer prices and labor surveys, and Federal Reserve SHED household responses | United States | 6 | July 2026; BEA personal income and outlays; August 2026; CPI-U consumer price context; August 2026; PPI final and intermediate demand; August 2026; BLS Employment Situation; January-July 2026; JOLTS partial-year mobility context; 2025; SHED household hardship and price-response context | estimated; reported | [open](records/us-macro-price-income-labor-household-room-crosssource-2026.json) |
 

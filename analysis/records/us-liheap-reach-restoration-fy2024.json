@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-liheap-reach-restoration-fy2024",
+  "title": "LIHEAP reaches millions while reported restoration remains a distinct endpoint",
+  "theme_ids": ["energy", "cost", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "HHS/ACF FY2024 LIHEAP annual-report aggregate",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "FY2024; households or families receiving LIHEAP assistance",
+      "denominator": {"value": null, "unit": "HHS annual-report aggregate; source reports a rounded reach count rather than a disclosed survey denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "liheap_reach": {"value": "nearly 6 million", "unit": "individuals and families reported helped by LIHEAP", "value_type": "reported_bound"},
+        "heating_assistance_households": {"value": 5000000, "unit": "reported heating-assistance households", "value_type": "reported_count"},
+        "vulnerable_household_share": {"value": ">90", "unit": "percent of households served including a senior, young child, or person with a disability", "value_type": "reported_bound"}
+      },
+      "method": "Official HHS/ACF annual-report spotlight and fact-sheet summary; retain reported program counts without constructing a population rate.",
+      "uncertainty": "The annual-report counts are program aggregates with rounded language and do not identify the same household over time, benefit amount, timing, or the counterfactual service status.",
+      "subgroup": "LIHEAP-assisted individuals, families, and heating-assistance households in FY2024.",
+      "counterinterpretation": "Large reach can reflect substantial need and program capacity at the same time; it does not show that assistance removed the underlying bill or equipment constraint.",
+      "source_url": "https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights",
+      "retrieval_hash": "sha256:cd9c899aff8d2ae648e77a2d24a79067c5bece750498b5f39bb8db135de6de84",
+      "status": "reported"
+    },
+    {
+      "period": "FY2024; reported restoration of home energy service",
+      "denominator": {"value": null, "unit": "HHS annual-report aggregate; no household-level restoration denominator disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "restored_home_energy_instances": {"value": 279000, "unit": "reported instances of restored home energy", "value_type": "reported_count"}
+      },
+      "method": "Official HHS/ACF FY2024 annual-report performance summary; restoration is retained as a program-reported endpoint separate from reach and prevention.",
+      "uncertainty": "An instance of restoration does not establish duration, reconnection cost, next-bill affordability, safe temperature, food or medicine protection, work continuity, or repeat crisis.",
+      "subgroup": "Reported LIHEAP home-energy restoration instances in FY2024.",
+      "counterinterpretation": "Restoration may interrupt an immediate loss while leaving an inefficient home, arrears, equipment failure, or payment-timing problem unchanged; a restoration count is not a durable-stability rate.",
+      "source_url": "https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights",
+      "retrieval_hash": "sha256:cd9c899aff8d2ae648e77a2d24a79067c5bece750498b5f39bb8db135de6de84",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://ocsannualreport.acf.hhs.gov/annual-report-fy24/liheap-fact-sheet", "claim": "LIHEAP includes heating, cooling, crisis, and weatherization assistance and is intended to reduce health and safety risks.", "status": "official-definition"},
+    {"source_url": "https://stage.liheappm.acf.hhs.gov/what-are-pm/", "claim": "HHS performance measures separate energy burden, prevention of service loss, and restoration of home energy service.", "status": "official-definition"}
+  ],
+  "boundary": "This record establishes official program reach and reported restoration as separate public-system endpoints. It does not estimate LIHEAP take-up, household prevalence, benefit adequacy, restoration duration, repeat crisis, protected or sacrificed outcomes, trust, political action, or durable energy security."
+}
