@@ -74,6 +74,14 @@ computation and provenance;
 it does not strengthen the causal interpretation or close the dated-bill,
 care-substitution, recovery, or political-meaning links.
 
+The new [utility/energy-assistance to following-food layer](sipp-energy-assistance-food-following-layer-v1.md)
+adds a same-person adjacent-month food-security endpoint. It reports higher
+following food insecurity after both utility difficulty and energy assistance,
+but the latter is a targeted-support comparison and the fields may be
+reference-period measures repeated across person-month rows. It therefore
+strengthens the material/public-support branch without establishing an
+assistance effect, food recovery, or political meaning.
+
 The new [conditioned work-stability finding](findings/us-household-calendar-integration-038.md)
 extends the directional result across household composition and practical-room
 markers. Among below-1×, work-limited person-month pairs, next-month hours were

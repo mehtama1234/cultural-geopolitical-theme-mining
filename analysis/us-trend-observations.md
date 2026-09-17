@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-254 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+255 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -817,6 +817,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Utility difficulty, tenure, and childcare prevention beside next-month work and household-security outcomes | cost, time, work, energy | household_room_consumption, time_hidden_price, housing_place_mobility, work_control_bargaining, care_health_reproduction, unequal_exposure_status | identified November-to-December SIPP person pairs; utility and tenure at month t, childcare status and outcomes at month t+1 | United States | 8 | 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December; 2024 reference year; November-to-December | compared | [open](records/us-sipp-constraint-cascade-screen-2024.json) |
 
 **Boundary:** This is a same-person adjacent-month descriptive screen. It does not identify a dated utility bill, shutoff, childcare event, causal effect, household-weighted prevalence, desired work, care hours, recovery, remedy, trust, political action, or exit. The annual fall childcare field and several household fields may be reference-period or repeated measures.
+
+| Utility difficulty and energy assistance sit beside following-month food insecurity | cost, time, voice | household_room_consumption, care_health_reproduction, unequal_exposure_status, public_systems_feedback, political_judgment_action | identified SIPP person-month pairs; utility or energy-assistance status at month t and food-security status at month t+1 | United States | 4 | 2024 reference year; utility-payment difficulty at month t and food security at month t+1; 2024 reference year; no utility-payment difficulty at month t and food security at month t+1; 2024 reference year; energy assistance at month t and food security at month t+1; 2024 reference year; no energy assistance at month t and food security at month t+1 | compared | [open](records/us-sipp-energy-assistance-food-following-2024.json) |
+
+**Boundary:** This is an adjacent-month descriptive SIPP transition screen. Utility and energy-assistance fields may be reference-period or conditional household measures repeated on person-month rows, and food security is not necessarily newly measured at month t+1. No dated bill shock, assistance effect, food recovery, work/care substitution, trust, political action, or household prevalence claim is made.
 
 | SIPP material and food-security diagnostics retain Fay-BRR uncertainty | cost, time, work | household_room_consumption, time_hidden_price, care_health_reproduction, work_control_bargaining, unequal_exposure_status, public_systems_feedback | SIPP person record by reference month using final person and Fay-BRR replicate weights; household fields remain repeated on person records | United States | 1 | 2024 reference year in the 2025 SIPP public-use file | estimated | [open](records/us-sipp-material-time-care-official-variance-2024.json) |
 
