@@ -686,6 +686,15 @@ somewhat important while 62% say US policy should account for allies even when
 that requires compromise. These are coalition and value configurations, not
 fixed identities or causal vote estimates.
 
+The [Pew 2026 midterm economy and political-attribution layer](projects/us-cost-trust-politics/pew-2026-midterm-economy-political-attribution-layer-v1.md)
+adds a dated material-pressure-to-politics junction. Economy and affordability
+are the leading issue voters want candidates to discuss (29% and 15%), but
+neither party has a clear economic-policy advantage (37% Democratic versus 36%
+Republican); 51% say neither party represents them on AI policy. Presidential
+attribution and congressional legitimacy also diverge: 42% frame their vote as
+against Trump while 72% view Congress unfavorably. This identifies political
+salience and representation uncertainty, not a causal price-to-vote arrow.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

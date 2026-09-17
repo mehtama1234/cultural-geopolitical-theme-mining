@@ -2618,6 +2618,15 @@ membership to attribution, participation, switching, purchase, migration, or
 foreign-policy action. Do not treat the typology as a permanent identity or
 reduce it to a center-versus-extremes score.
 
+The [Pew 2026 midterm economy and political-attribution layer](projects/us-cost-trust-politics/pew-2026-midterm-economy-political-attribution-layer-v1.md)
+adds a dated material-to-politics bridge: affordability is the leading issue
+voters want candidates to address, economic party advantage is nearly even,
+and AI has a majority-neither-party representation gap. The next test is a
+same-respondent or valid panel link from price/job/AI exposure through
+information, blame, candidate evaluation, and validated participation. The
+cross-sectional survey does not establish that an observed price series caused
+a vote.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
