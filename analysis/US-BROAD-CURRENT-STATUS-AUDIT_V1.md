@@ -789,6 +789,15 @@ falls. The current index includes an in-progress category and a larger product
 mix; this is a change in the institutional record, not a verified change in
 consumer remedy, trust, or exit.
 
+The product-safety lane now adds a current CPSC institutional-capacity
+counterpoint: FY2024 recalls, violation notices, import examinations, and
+e-commerce takedowns make hazard interruption visible at product and market
+scale. They do not show whether a particular household received the notice,
+identified the item, stopped using it, obtained a repair/replacement/refund, or
+avoided injury. The [CPSC hazard/recall/remedy layer](projects/us-marketplace-product-safety/cpsc-hazard-recall-remedy-layer-v1.md)
+therefore strengthens the consumer-power and state-capacity map without
+becoming a recall-effectiveness or household-recovery rate.
+
 The consumer-finance lane now has a full-paper NBER pass in the [payment-
 incidence layer](projects/us-household-financial-pressure/nber-w35067-payment-incidence-layer-v1.md).
 Working Paper 35067 reports approximately $30 billion in annual modeled
