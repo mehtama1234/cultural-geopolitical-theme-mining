@@ -19,6 +19,24 @@ turning adjacent evidence into one causal story.
 
 ## Latest local evidence to review
 
+### Latest breadth rotation
+
+These six additions are the most recent cross-theme map updates. They are
+bounded records and synthesis links, not a pooled estimate or a claim that the
+same people appear in every route.
+
+- [Unequal exposure/status: SIPP resource/job/work-limitation/tenure cross-lag record](analysis/records/us-sipp-resource-job-worklimitation-tenure-crosslag-2024.json) and [WBNS charitable-food access record](analysis/records/us-urban-wbns-charitable-food-access-2019-2025.json): resource movement, tenure, work limitation, children, disability, and material-access gradients remain distributional and descriptive.
+- [Household adaptation, buffer, and recovery cross-source record](analysis/records/us-household-adaptation-buffer-recovery-crosssource-2024-2025.json): price adaptation, outside support, food, care, and financial room are kept on distinct clocks.
+- [Platform use, attention, and exit-control cross-source record](analysis/records/us-digital-attention-exit-control-crosssource-2025-2026.json): use, purpose, attention, privacy/control, companion exit, and governance are separate endpoints.
+- [Firm capacity, AI adoption, and worker-control cross-source record](analysis/records/us-ai-management-bargaining-voice-crosssource-2024-2026.json) and [AI utilization/output/mobility/control record](analysis/records/us-bea-ai-economic-accounts-utilization-costs-2026.json): firm adoption, output, mobility, formal voice, and worker discretion are not silently merged.
+- [Realized infrastructure and state-capability record](analysis/records/us-defense-procurement-realization-milestones-2024-2026.json) and [JASSM/LRASM production-integration realization record](analysis/records/us-jassm-lrasm-production-integration-realization-2024-2025.json): commitment, delivery, operation, supplier control, and external leverage remain distinct stages.
+- [Material, care, time, and political-friction cross-source record](analysis/records/us-care-time-material-mobility-crosssource-2022-2025.json): money, unpaid time, mobility, care, and political availability are aligned as a research bridge without a same-household causal join.
+
+The current next test is not another adjacent cross-tab. It is a dated,
+same-unit episode with alternatives, response, remedy or recovery, and later
+meaning or action; see the [broad next-episode selection](analysis/broad-next-episode-selection-v1.md)
+and [same-case episode availability audit](analysis/broad-same-case-episode-availability-audit-v1.md).
+
 - [SHED coverage-transition route and adaptation table](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md), with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md): four coverage paths, care entry/persistence, debt, saving, delayed purchases, and health.
 - [SIPP utility × tenure → following-month work layer](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-following-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-reproduction-audit-2026-09-16.json): utility difficulty conditioned by housing tenure with Fay-BRR uncertainty.
 - [SIPP utility × tenure → annual child-care work-prevention layer](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-tenure-childcare-reproduction-audit-2026-09-16.json): a mixed-clock care/work endpoint with small-cell limits.
