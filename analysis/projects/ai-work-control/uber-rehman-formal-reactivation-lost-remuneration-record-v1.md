@@ -3,7 +3,7 @@
 **Status:** official Fair Work Commission decision summary; formal
 reactivation and lost-remuneration order observed; payment receipt and
 durability remain open
-**Checked:** 2026-09-15
+**Checked:** 2026-09-17
 
 ## Why this record matters
 
@@ -49,6 +49,27 @@ background-check allegation
   -> $7,096.96 gross ordered
   -> payment, durability, and recurrence prevention open
 ```
+
+## Targeted public-record recheck (2026-09-17)
+
+The official Fair Work Commission Bulletin confirms that Portier offered the
+worker $5,500 in exchange for signing a settlement and discontinuing the
+proceeding. The Commission nevertheless ordered $7,096.96 gross lost
+remuneration and formal reactivation on terms intended to restore the
+pre-deactivation position. The difference is not evidence that either amount
+was paid; it is evidence that a voluntary settlement offer, platform
+eligibility, enforceable reactivation, and adjudicated lost-pay restoration are
+distinct remedy states.
+
+```text
+voluntary reactivation -> settlement offer -> formal order -> payment receipt
+       observed              observed          observed          open
+```
+
+The Bulletin still does not provide payment confirmation, post-order earnings,
+background-check correction, continued account status, or recurrence evidence.
+This recheck therefore strengthens the remedy-design arrow but does not close
+the lived-recovery or practical-exit arrow.
 
 The case makes the difference between functional access and formal restoration
 visible. The Commission's reasoning, as summarized in the Bulletin, treats a
