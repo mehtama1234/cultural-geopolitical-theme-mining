@@ -674,7 +674,17 @@ The Grubhub record advances the broad program because it connects firm conduct t
 
 [Read the HTML page](../site/us-grubhub-platform-remedy-001.html) · [Read the Markdown memo](findings/us-grubhub-platform-remedy-001.md)
 
-### 68. SNAP data control is a political and administrative consequence before it is a household outcome
+### 68. A named consumer distribution route still does not prove recovery
+
+**Theme:** Cost / voice
+**Route:** fraud-processing exposure → eligible class → ongoing distribution → recovery or exit
+**Still open:** payment issuance, successful delivery, residual loss, and later behavior
+
+The CFPB identifies 122,507 eligible consumers and $53,885,244 in compensable harm in the BrightSpeed case, names Epiq Systems as administrator, and lists distribution as ongoing from July 23, 2024. These observations advance the consumer power and public-systems routes because they show a concrete bridge from a documented fraud-processing practice to an administrative compensation channel. They do not establish a recovery rate, equal payment, successful delivery, or later consumer behavior.
+
+[Read the HTML page](../site/us-brightspeed-redress-distribution-001.html) · [Read the Markdown memo](findings/us-brightspeed-redress-distribution-001.md)
+
+### 69. SNAP data control is a political and administrative consequence before it is a household outcome
 
 **Theme:** Voice / cost
 **Route:** benefit administration → data access → oversight/privacy conflict → trust or non-use

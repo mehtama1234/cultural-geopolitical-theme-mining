@@ -39,6 +39,10 @@ its unresolved arrows visible:
   and [public-help synthesis](site/public-help-route-buffer-judgment-synthesis-v1.html):
   benefit administration, data-access/privacy conflict, and institutional
   response; applicant continuity, trust, and political action remain open.
+- [BrightSpeed compensation distribution](site/us-brightspeed-redress-distribution-001.html):
+  an eligible consumer class, aggregate compensable harm, administrator, and
+  ongoing distribution are visible; payment receipt, residual loss, trust,
+  and exit remain unobserved.
 - [Taiwan semiconductor capacity route](site/ai-work-control-090.html):
   strategic commitment and partial realization; independent output, local
   burden, replaceability, and reduced geopolitical dependence remain open.

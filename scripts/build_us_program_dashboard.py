@@ -60,6 +60,7 @@ findings = [
 ("Digital reach, loss, and remedy are different control surfaces", "us-digital-habits-attention-007.html", "Pew digital-life, FTC, Federal Reserve SHED, and CFPB route evidence"),
  ("Bill-payment convenience can become a hidden household cost", "us-doxo-bill-payment-hidden-fees-001.html", "FTC Doxo complaint, settlement proposal, and case record"),
  ("A platform remedy can reach workers and diners without proving lived recovery", "us-grubhub-platform-remedy-001.html", "FTC Grubhub enforcement and refund-program records"),
+ ("A named consumer distribution route still does not prove recovery", "us-brightspeed-redress-distribution-001.html", "CFPB BrightSpeed compensation and distribution record"),
  ("Practical exit is the missing consumer-power outcome", "practical-exit-cross-domain-synthesis-v1.html", "CFPB, CPSC, SHED, and platform-remedy comparisons"),
  ("SNAP data control is a political and administrative consequence before it is a household outcome", "us-snap-data-governance-accountability-001.html", "DOJ, federal court, and Federal Register records"),
 ("Capacity and mobility cells do not carry one political response", "us-local-business-place-005.html", "CBP/ACS/HRSA/NHTS place context and county-keyed CES trust/action"),
