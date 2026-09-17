@@ -1,6 +1,6 @@
 # CFPB BrightSpeed redress distribution record v1
 
-**Checked:** 2026-09-16 (official page rechecked)
+**Checked:** 2026-09-17 (official page rechecked)
 **Status:** official aggregate compensation and distribution record; individual recovery remains unobserved
 
 ## Why this is a useful comparison
@@ -34,7 +34,7 @@ administrative status observation, not evidence that every eligible consumer
 was paid or that distribution is progressing uniformly.
 
 The recheck therefore records “ongoing distribution still reported as of
-2026-09-16,” while leaving payment issuance, successful receipt, amount,
+2026-09-17,” while leaving payment issuance, successful receipt, amount,
 residual loss, and later behavior unobserved. No administrator file or
 respondent data was downloaded.
 

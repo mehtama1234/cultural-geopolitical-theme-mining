@@ -1,6 +1,6 @@
 # CFPB Cash App fraud redress and dispute-control case record v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Status:** official enforcement/remedy record; consumer receipt and practical exit remain unverified
 
 ## Why this case matters to the broad goal
@@ -82,7 +82,10 @@ listed payment cases. This is a bounded administrative observation only: it
 does not prove that distribution has not begun, that no consumers have been
 paid, or that the order has not been implemented. The separate [Block case
 page](https://www.consumerfinance.gov/enforcement/actions/block-inc/) provides
-a redress contact route, but a contact route is not a receipt record.
+a redress contact route, but a contact route is not a receipt record. The
+official index was rechecked on 2026-09-17 and still did not list Block or
+Cash App among the ongoing or closed payment cases; this is a
+non-observation of a public listing, not proof that no payment has occurred.
 
 The smallest next public check is a dated recheck of the payment-by-case page
 and any official Block distribution notice. A stronger same-customer result
