@@ -2652,6 +2652,14 @@ county/metro panel joining migration components to housing, wages, services,
 transport, energy, identity, and political response. Do not read population
 growth or loss as a direct measure of local welfare or capacity.
 
+The [GAO 2026 FEMA disaster-assistance delivery and capacity layer](projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
+adds a public-system response surface: large aggregate aid can coexist with
+helpline, letter, housing, digital-access, and state/local capacity bottlenecks.
+The next test is an identified-survivor ledger from disaster trigger through
+insurance, contact, eligibility, award, payment or placement, repair/housing,
+and later work, health, mobility, trust, complaint, or political action. Do not
+treat aid dollars or recipients as verified recovery.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

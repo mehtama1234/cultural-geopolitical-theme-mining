@@ -343,6 +343,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-political-typology-values-coalitions-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-midterm-economy-political-attribution-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/eia-2024-household-energy-insecurity-consequence-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

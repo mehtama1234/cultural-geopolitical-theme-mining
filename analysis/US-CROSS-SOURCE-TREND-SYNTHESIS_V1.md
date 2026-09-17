@@ -704,6 +704,14 @@ categories can overlap and do not establish a price cause, completed shutoff,
 assistance response, or health effect; they do show why service continuity,
 payment threat, substitution, equipment, and remedy must remain separate.
 
+The [GAO 2026 FEMA disaster-assistance delivery and capacity layer](projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
+adds the institutional-response stage. FEMA provided over $3 billion to 1.2
+million people and households across recent disasters, but GAO also reports
+long helpline waits, confusing eligibility letters, post-disaster housing
+bottlenecks, and access risks for older, disabled, rural, or offline survivors.
+The distinction between authorized support, reachability, receipt, and recovery
+is now explicit; aggregate assistance is not proof of a protected outcome.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
