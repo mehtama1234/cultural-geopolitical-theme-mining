@@ -1418,6 +1418,13 @@ market-transition or household result.
   prevention cell has 12 pairs, so this is a joint-constraint diagnostic, not
   a causal utility or care result; the canonical record preserves the timing
   and denominator boundary in the [trend registry](records/us-sipp-utility-care-following-outcomes-2024.json).
+- **SIPP utility-to-work timing screen:** the [bounded utility-difficulty and
+  assistance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md)
+  places payment difficulty or energy assistance beside the same person's
+  following-month earnings or hours change. Earnings changes are common in
+  every comparison group, while hours estimates are sparse or imprecise; the
+  screen does not observe a dated bill, shutoff, desired hours, employer
+  response, or recovery and is not a causal utility-to-work result.
 - **SIPP childcare time-loss endpoint:** the conditional `ETIMELOST` gate
   yields only 27 positive-weight November–December pairs, with complete
   replicate matching. It adds a direct reported-hours surface but is too

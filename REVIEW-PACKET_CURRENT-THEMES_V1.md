@@ -128,8 +128,15 @@ then the [child-care work-prevention finding](analysis/projects/us-household-cal
 the [reported time-loss finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-043.md),
 its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json),
 and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json),
+the [utility-difficulty and assistance following-work finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md),
 and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md),
 with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
+
+The utility/assistance screen places material strain beside, rather than
+inside, next-month work change: earnings movement is common across groups,
+hours movement is comparatively sparse and imprecise, and assistance status
+does not identify whether a bill, shutoff threat, or work response occurred.
+This is a same-person timing surface, not a utility-causes-work estimate.
 
 The companion [coverage-to-care-foregoing reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md)
 reruns the same local panel without a new download and reproduces the four
