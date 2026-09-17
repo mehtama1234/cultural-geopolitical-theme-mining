@@ -1212,6 +1212,18 @@ publishes the Romania–Malaysia milestone comparison. It adds a detailed
 operational/ownership boundary without promoting infrastructure completion to
 sovereignty or geopolitical leverage.
 
+The [Taiwan-linked semiconductor commitment finding](projects/ai-work-control/findings/ai-work-control-090.md)
+adds a parallel strategic-capacity route: Commerce reports at least $250
+billion in direct investment commitments alongside the historical decline in
+the US share of global wafer fabrication, while TSMC and NIST provide partial
+fabrication, workforce-training, and CHIPS-award milestones. The commitments
+and milestones do not yet establish independent output, yield, completed jobs,
+local resource burden, disbursed subsidy, replacement of Taiwan-centered
+inputs, or reduced geopolitical dependence. The next test is a project-year
+realization ledger joining award disbursement, production/acceptance, workforce
+quality, energy/water burden, ownership/control, and a measurable supply-chain
+or external-response outcome.
+
 The [SIPRI military-expenditure record](records/us-sipri-military-expenditure-state-capacity-2015-2024.json)
 adds aggregate state-capacity context: global and US spending growth, US/China
 scale, NATO concentration, and military burden. It is not a leverage finding.
