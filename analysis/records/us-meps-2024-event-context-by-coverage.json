@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-2024-event-context-by-coverage",
+  "title": "Acute-event health and bill context differs by coverage group, but not uniformly",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "MEPS 2024 under-65 person records grouped by INSURC24 coverage and annual presence of an emergency-room, inpatient, or office event",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Calendar year 2024; under-65 coverage-conditioned event presence and same-year context",
+      "denominator": {"value": 13733, "unit": "under-65 HC-256 person records across private, public-only, and uninsured coverage groups; event and outcome denominators are cell-specific", "value_type": "unweighted_person_count"},
+      "measures": {
+        "private_er_bill_problem_event_present": {"value": 14.43, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.96, "valid_records": 922},
+        "private_er_bill_problem_event_absent": {"value": 6.39, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.49, "valid_records": 7915},
+        "private_er_fair_poor_health_event_present": {"value": 16.49, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.18, "valid_records": 926},
+        "public_er_bill_problem_event_present": {"value": 15.07, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.58, "valid_records": 731},
+        "public_er_bill_problem_event_absent": {"value": 9.51, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.92, "valid_records": 2877},
+        "public_er_fair_poor_health_event_present": {"value": 35.35, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 2.52, "valid_records": 728},
+        "uninsured_er_bill_problem_event_present": {"value": 22.14, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 3.22, "valid_records": 83},
+        "uninsured_er_bill_problem_event_absent": {"value": 9.25, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.74, "valid_records": 1067},
+        "private_inpatient_fair_poor_health_event_present": {"value": 23.45, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 2.67, "valid_records": 348},
+        "public_inpatient_fair_poor_health_event_present": {"value": 44.82, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 3.31, "valid_records": 297},
+        "private_office_bill_problem_event_present": {"value": 7.29, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.59, "valid_records": 6865},
+        "private_office_bill_problem_event_absent": {"value": 7.03, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 0.94, "valid_records": 1972},
+        "public_office_bill_problem_event_present": {"value": 11.76, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.26, "valid_records": 2428},
+        "public_office_bill_problem_event_absent": {"value": 8.31, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.18, "valid_records": 1180},
+        "uninsured_office_bill_problem_event_present": {"value": 13.79, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 2.17, "valid_records": 350},
+        "uninsured_office_bill_problem_event_absent": {"value": 8.64, "unit": "percent; weighted share", "value_type": "weighted_share", "brr_se_percentage_points": 1.71, "valid_records": 800}
+      },
+      "method": "Classify annual event presence from HC-254A/254D/254E/254G event files, append under-65 INSURC24 coverage from HC-256 by DUPERSID and PANEL, and calculate person-weighted context shares using PERWT24F with standard BRR across 128 replicate flags.",
+      "uncertainty": "These are same-year descriptive associations, not insurance effects or event-triggered burden estimates. Event presence reflects need, severity, access, utilization, and selection; the no-event group is not a no-need control. The uninsured inpatient cell has 16 valid records and is omitted from promoted comparisons.",
+      "subgroup": "Under-65 private, public-only, and uninsured coverage groups; separate office, emergency-room, and inpatient event universes with outcome-specific valid denominators.",
+      "counterinterpretation": "The private-insurance office-event bill-problem shares are nearly identical (7.29% versus 7.03%) despite a health difference, showing that utilization, health status, and reported payment difficulty do not form one universal burden gradient.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-256&prfricon=yes",
+      "retrieval_hash": "data:sha256:3ed6d481c921daa99398d1b2fc3ee1851eb49f43670293ee37c74839b04e8db2; script:sha256:f2ea8aea980053e4a5c4518cbfa2b374d85615c45afb79b276528b4df89ccae8; hc256:sha256:653891861ec18574b07f576915e6f9e423263fc947610dc34e1bd176feff7b40; brr:sha256:0414ce196f10ef3d910e63dc4a3752e0c493884a410dd84bd2369041fc0929dd",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-health-cost-household-choice/meps-2024-event-context-by-coverage-v1.md", "claim": "The method note documents the coverage-conditioned event comparison, selected counterexample, and open episode fields.", "status": "method-note"},
+    {"source_url": "../projects/us-health-cost-household-choice/data/us-meps-2024-event-context-by-coverage.json", "claim": "The machine output preserves all coverage/event cells, standard errors, and valid counts.", "status": "machine-output"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254G&prfricon=yes", "claim": "Official MEPS office-event public-use file source used in the event-family layer.", "status": "official-source"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254E&prfricon=yes", "claim": "Official MEPS emergency-room event public-use file source used in the event-family layer.", "status": "official-source"},
+    {"source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-254D&prfricon=yes", "claim": "Official MEPS inpatient event public-use file source used in the event-family layer.", "status": "official-source"}
+  ],
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_meps_event_context_by_coverage.py", "inputs": "HC-256, HC-036BRR, and HC-254A/254D/254E/254G local artifacts", "result": "The committed local machine output contains coverage-conditioned person-weighted shares and standard-BRR uncertainty; raw archives remain outside the repository."},
+  "boundary": "This layer places coverage and observed event presence beside same-year health and bill-problem context. It does not identify a dated bill, care alternative, delayed or foregone care, borrowing, unpaid time, treatment continuity, remedy, recovery, trust, switching, political action, or geopolitical consequence.",
+  "status": "compared"
+}

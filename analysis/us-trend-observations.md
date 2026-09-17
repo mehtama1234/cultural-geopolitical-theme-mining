@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-257 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+258 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -521,6 +521,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | MEPS 2024 care delay connects to payment strategy, sacrifice, work constraints, and family care context | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status | MEPS 2024 person-level care-delay and ESAQ adaptation fields | United States | 1 | 2024; R4/2 cost-related care delay compared with R5/3 ESAQ adaptation | compared | [open](records/us-meps-2024-care-delay-adaptation-2024.json) |
 
 **Boundary:** This is a same-respondent cross-round association between cost-related care delay and adaptation. It does not identify a dated episode, causal mediation, institutional repair, trust, political action, or geopolitical consequence.
+
+| Acute-event health and bill context differs by coverage group, but not uniformly | cost, time, work | care_health_reproduction, household_room_consumption, unequal_exposure_status, public_systems_feedback | MEPS 2024 under-65 person records grouped by INSURC24 coverage and annual presence of an emergency-room, inpatient, or office event | United States | 1 | Calendar year 2024; under-65 coverage-conditioned event presence and same-year context | compared | [open](records/us-meps-2024-event-context-by-coverage.json) |
+
+**Boundary:** This layer places coverage and observed event presence beside same-year health and bill-problem context. It does not identify a dated bill, care alternative, delayed or foregone care, borrowing, unpaid time, treatment continuity, remedy, recovery, trust, switching, political action, or geopolitical consequence.
 
 | MEPS denial and prior-authorization friction persists across observed care channels | cost, time, voice | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, unequal_exposure_status | MEPS 2024 people with a first dated office, emergency-room, or inpatient event joined to annual institutional-friction and household-context fields | United States | 3 | 2024; first office event × insurance denial or prior-authorization delay; 2024; first emergency-room event × insurance denial or prior-authorization delay; 2024; first inpatient event × insurance denial or prior-authorization delay | compared | [open](records/us-meps-2024-event-institutional-friction.json) |
 
