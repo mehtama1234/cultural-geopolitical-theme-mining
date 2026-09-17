@@ -64,7 +64,11 @@ def main() -> int:
         "cross_case_boundary": "The ledgers show commitment, selected capacity, governance, and operational-stress stages, but do not establish complete accepted/operating capability, replaceability, household/partner incidence, or changed external behavior.",
     }
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(f"WROTE {args.output.relative_to(root)}")
+    try:
+        output_label = args.output.relative_to(root)
+    except ValueError:
+        output_label = args.output
+    print(f"WROTE {output_label}")
     for case in cases:
         print(case["case_id"], case["stage_counts"])
     return 0
