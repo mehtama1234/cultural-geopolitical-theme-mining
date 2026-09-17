@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "847c5a821f7ce4ed8dc1592a0b5f188529a0b1de5bebce4d35f087b4abe8c00f",
+  "matrix_sha256": "4e687dd75124aaa5b38ef66372a85235d7f6f41a49fd17d02af78fe4c1593d86",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -173,9 +173,9 @@
     },
     {
       "current_status": "Reported / Compared / Inferred",
-      "evidence_anchor_count": 6,
+      "evidence_anchor_count": 9,
       "measurement_level": "Firm, defense award, datacenter, building, campus, grid, public system, sector, country",
-      "next_required_test": "Compare planned and realized capacity, ownership, power/water burden, data location, local skills, interoperability, provider switching, and realized public capability; defense procurement adds a separate acceptance/delivery clock; the local GIS layer measures incidence, not load, jobs, bills, or benefits.",
+      "next_required_test": "Compare planned and realized capacity, ownership, power/water burden, data location, local skills, interoperability, provider switching, and realized public capability; the ledgers keep procurement, testing, acceptance, delivery, operation, and rate/governance response distinct; the local GIS layer measures incidence, not load, jobs, bills, or benefits.",
       "same_unit_end_to_end_link": false,
       "source_line": 26,
       "status_tokens": [
@@ -187,9 +187,9 @@
     },
     {
       "current_status": "Reported / Compared / Open",
-      "evidence_anchor_count": 8,
+      "evidence_anchor_count": 11,
       "measurement_level": "Sector, commodity, firm, defense award, infrastructure project, country",
-      "next_required_test": "Trace realized capacity and ownership into local distribution, state dependence, alliance leverage, strategic choice, and external response without inventing a household-to-state join; retain procurement, acceptance, operational use, and leverage as separate stages.",
+      "next_required_test": "Trace realized capacity and ownership into local distribution, state dependence, alliance leverage, strategic choice, and external response without inventing a household-to-state join; retain procurement, acceptance, operational use, governance response, and leverage as separate stages.",
       "same_unit_end_to_end_link": true,
       "source_line": 27,
       "status_tokens": [
