@@ -146,7 +146,27 @@ adequacy, food security, work quality, debt, care time, trust, or later action.
 
 See the [administrative access record](../../records/us-snap-administrative-access-2026.json).
 
-## 5. Confidence is institution-specific, not a single reservoir
+## 5. Data governance is part of the public-help route
+
+The SNAP federal-state data-access conflict adds a governance stage before an
+applicant can experience an administrative decision. DOJ reported four
+lawsuits and 29 jurisdictions that promptly provided requested data, while
+seeking five years of applicant records for federal oversight and enforcement.
+A related court order temporarily restrained threatened funding action for most
+plaintiff states. USDA's system-of-records notice described a National SNAP
+Information Database with need-to-know access, authentication, encryption, and
+bounded routine uses; USDA also reported more than 450 public comments, about
+132 raising privacy, sharing, or mishandling concerns.
+
+These facts do not establish that data sharing improved eligibility accuracy or
+that resistance protected applicants. They show that the route includes a
+contest over who can see the record and what the applicant may reasonably fear.
+The system design, court posture, and public comments are separate stages from
+notice, receipt, interruption, correction, trust, or political action. See the
+[SNAP data-governance finding](../../findings/us-snap-data-governance-accountability-001.md)
+and [machine record](../../records/us-doj-snap-data-access-federal-state-conflict-2026.json).
+
+## 6. Confidence is institution-specific, not a single reservoir
 
 Gallup's 2025 institution battery shows why “trust in government” is too broad
 for this program. Confidence is higher for some institutions—such as small
@@ -194,6 +214,7 @@ The strongest next instrument is a dated case or household ledger:
 notice / channel / language / deadline
   -> documents, effort, interview, transport, assistance
   -> decision, amount, timing, interruption, appeal, correction
+  -> data access, privacy concern, correction or misuse report
   -> food, housing, utility, work, debt, care, and time result
   -> fairness, competence, protection, blame, and confidence
   -> complaint, appeal, organizing, vote, switching, or withdrawal
@@ -212,6 +233,8 @@ pool them into “safety-net success” or “government distrust.”
 - [SIPP following-hardship record](../../records/us-sipp-snap-transition-following-hardship-2024.json)
 - [SIPP resource/job context record](../../records/us-sipp-snap-transition-resource-job-context-2024.json)
 - [Administrative access record](../../records/us-snap-administrative-access-2026.json)
+- [SNAP data-governance finding](../../findings/us-snap-data-governance-accountability-001.md)
+- [SNAP data-governance machine record](../../records/us-doj-snap-data-access-federal-state-conflict-2026.json)
 - [WBNS public-use acquisition audit](wbns-public-use-route-acquisition-audit-v1.md)
 - [Safety-net event-ledger design](same-episode-event-ledger-design-v1.md)
 
