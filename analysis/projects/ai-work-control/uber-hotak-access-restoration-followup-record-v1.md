@@ -64,6 +64,25 @@ account reopened -> work performed -> financial recovery -> durable protection
 
 The first two arrows should not be silently promoted into the latter two.
 
+## Targeted public-record recheck (2026-09-16)
+
+The official Fair Work Commission decision index and bulletin route were
+rechecked for `UDE2025/53`, `Hotak`, and a later lost-remuneration order. The
+recheck located the Full Bench procedural decision and the merits decision, both
+of which preserve the lost-remuneration question; it did not locate a later
+public filing that verifies payment receipt, net recovery, durable access, or
+non-retaliation. This is an indexed-public-record boundary, not evidence that
+payment did not occur or that the worker stopped working.
+
+The strongest currently observed chain remains:
+
+```text
+deactivation -> voluntary reactivation -> 150-plus trips -> formal order
+      observed            observed             observed        observed
+lost-pay amount/order -> payment receipt -> durable protection
+       partial/open          open              open
+```
+
 ## Interpretation
 
 Hotak demonstrates why implementation evidence needs a clock and a unit. A
