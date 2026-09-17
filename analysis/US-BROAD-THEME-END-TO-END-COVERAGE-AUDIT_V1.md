@@ -8,7 +8,7 @@
 
 The 14-theme matrix contains evidence anchors for every theme, but it does not
 show a completed end-to-end causal chain for any theme. The current matrix has
-14 `Compared` status tokens, 12 `Reported` tokens, 3 `Inferred` tokens, and 4
+14 `Compared` status tokens, 12 `Reported` tokens, 3 `Inferred` tokens, and 5
 rows whose declared current status explicitly includes `Open`. Every theme
 also carries a next-required-test description. The machine-readable audit
 records the exact matrix hash and row-level parsing output.
@@ -25,7 +25,7 @@ end-to-end completion.
 |---|---|---:|---|
 | Household room and consumption | Compared / Reported | 14 | No |
 | Time as a hidden price | Reported / Compared | 8 | No |
-| Consumer power and recourse | Compared / Reported | 15 | No |
+| Consumer power and recourse | Compared / Reported / Open | 16 | Yes |
 | Platforms, data, and attention | Reported / Compared / Inferred | 10 | No |
 | Work, control, and bargaining | Compared / Reported | 9 | No |
 | Care, health, and social reproduction | Reported / Compared | 12 | No |
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`ae832c8922b416d4681373b0e4a89912f04809f579c1a640a230953638cec191`.
+`fb729d163b785fdf0e70bb1f91651d4318bc7cc6d9eab10f301878b42b1ff85f`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
