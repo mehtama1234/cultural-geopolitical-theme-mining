@@ -2,7 +2,7 @@
 .toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#purpose">Purpose</a></li><li><a href="#search-frame-and-denominator">Search frame and denominator</a></li><li><a href="#inventory">Inventory</a></li><li><a href="#stage-distribution">Stage distribution</a></li><li><a href="#what-the-expanded-frame-changes">What the expanded frame changes</a></li><li class="toc-sub"><a href="#restoration-is-no-longer-a-one-case-curiosity">Restoration is no longer a one-case curiosity</a></li><li class="toc-sub"><a href="#complaint-evidence-is-a-recurring-bottleneck">Complaint evidence is a recurring bottleneck</a></li><li class="toc-sub"><a href="#eligibility-and-timing-are-substantive-remedy-gates">Eligibility and timing are substantive remedy gates</a></li><li class="toc-sub"><a href="#voluntary-restoration-does-not-erase-the-governance-event">Voluntary restoration does not erase the governance event</a></li><li><a href="#data-quality-flags">Data-quality flags</a></li><li><a href="#primary-source-index">Primary-source index</a></li><li><a href="#next-decisive-acquisition">Next decisive acquisition</a></li><li><a href="#boundary">Boundary</a></li></ul></nav></div><article id="finding" class="memo"><h1>Australian platform-deactivation case census v1</h1>
 <p><strong>Status:</strong> bounded official-bulletin inventory; not a complete FWC database
 export
-<strong>Checked:</strong> 2026-09-15</p>
+<strong>Checked:</strong> 2026-09-16</p>
 <h2 id="purpose">Purpose</h2>
 <p>The earlier Australian comparison deliberately used three mechanism cases. This
 inventory expands the denominator without pretending that a bulletin search is
@@ -11,13 +11,13 @@ platform-deactivation proceedings in Fair Work Commission published bulletins
 and links them to primary decisions where the decision PDF is identified.</p>
 <h2 id="search-frame-and-denominator">Search frame and denominator</h2>
 <p>The frame is FWC Bulletin Volumes 6/25 through 12/25 and Volumes 1/26 through
-6/26, supplemented by targeted FWC document-search queries checked on 15
+6/26, supplemented by targeted FWC document-search queries checked on 16
 September 2026, searched
 for “unfair deactivation” and linked <code>UDE</code> matter numbers, with direct checks of
 Commission decision PDFs. It captures decisions published from 5 June 2025
 through the checked date; it is not a search of every FWC filing, unpublished
 direction, order, or later decision after the checked date.</p>
-<p><strong>Inventory denominator:</strong> 20 identifiable proceedings or linked proceeding
+<p><strong>Inventory denominator:</strong> 21 identifiable proceedings or linked proceeding
 surfaces. Hotak is counted once despite multiple Full Bench decisions. Bakar
 is counted once despite the eligibility and revocation decisions. Bandameeda
 is counted once despite preliminary and merits/order stages.</p>
@@ -194,6 +194,14 @@ is counted once despite preliminary and merits/order stages.</p>
 <td><code>dismissal_despite_code_noncompliance</code> — the Commission found the low-rating process inconsistent with the Code but held the deactivation was not unfair in the circumstances</td>
 <td>Appeal, rating correction, downstream effects</td>
 </tr>
+<tr>
+<td>AU-21</td>
+<td>Azwar v Rasier Pacific</td>
+<td>UDE2025/50; [2025] FWC 2370</td>
+<td>Eligibility</td>
+<td><code>eligibility_protection_found</code> — logged-on standby time was not counted as paid hours, but trip logs showed paid work on an average of 3 days per week over at least six months</td>
+<td>Merits, process, restoration, payment, alternative work</td>
+</tr>
 </tbody>
 </table>
 <p>Bandameeda's <code>UDE2025/62</code> matter number is now confirmed by the primary
@@ -201,9 +209,9 @@ decision and the Commission's bulletin index. The remaining Bandameeda gap is
 implementation evidence: the public order establishes the amount ordered, not
 receipt of payment or durable restoration.</p>
 <h2 id="stage-distribution">Stage distribution</h2>
-<p>The twenty-row inventory is not a remedy rate because the stages are mixed:</p>
-<pre><code class="language-text">20 identified proceeding surfaces
-  ├─ 5 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis)
+<p>The twenty-one-row inventory is not a remedy rate because the stages are mixed:</p>
+<pre><code class="language-text">21 identified proceeding surfaces
+  ├─ 6 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis, Azwar)
   ├─ 1 timing / case-management endpoint (Kyei)
   ├─ 6 merits dismissals (Kumar, Mohamed, Mohammed, Abdalla, Dar, Ali)
   ├─ 1 Full Bench + merits restoration (Hotak)
@@ -238,6 +246,13 @@ not meet the Code’s illustrative average of 60 hours per month or three days
 per week. Those thresholds are sufficient examples, not necessary preconditions.
 The case therefore shows that eligibility is a substantive interpretation of
 work pattern, not a mechanical hours test.
+Azwar supplies a complementary time-control boundary. The Commission rejected
+the worker's argument that all logged-on standby time should count as paid
+work, accepting trip-log hours for that measure, but found that an average of
+paid work on three days per week was enough to establish regular work over at
+least six months. Legal protection can therefore depend on a patterned work
+schedule even when unpaid availability and total paid hours point in different
+directions.
 Kyei shows a separate gate: a late application can still proceed where the
 Commission finds exceptional circumstances, including an internal review route
 and an arguable case about Code compliance. Timing is therefore not clerical
@@ -302,10 +317,11 @@ therefore measurable events, not invisible non-cases.</p>
 <li><a href="https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2398.pdf">Phillipps-Lewis primary eligibility decision</a></li>
 <li><a href="https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2269.pdf">Kyei primary timing decision</a></li>
 <li><a href="https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2337.pdf">Mohamed primary merits decision</a></li>
+<li><a href="https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2370.pdf">Azwar primary eligibility decision</a></li>
 </ul>
 <h2 id="next-decisive-acquisition">Next decisive acquisition</h2>
 <p>Recover Bandameeda's matter number and search the FWC document system for
-every linked order in these eighteen matters. Then add a second country inventory
+every linked order in these twenty-one matters. Then add a second country inventory
 using the same fields and compare Australia with Malaysia, where the evidence
 reaches a Tribunal hearing, and Cambodia, where it reaches worker-reported
 complaint use but not an adjudicated outcome.</p>
