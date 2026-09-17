@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 301 machine-readable records, 1073 observations,
+The current registry contains 302 machine-readable records, 1078 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -621,6 +621,16 @@ are aggregate production and compensation surfaces, not worker-level control,
 household security, or causal firm behavior. The direct BLS page blocked local
 automated retrieval, so this remains a provenance-bounded memo rather than a
 canonical machine record until a reproducible small extract is available.
+
+The [Pew 2026 Muslim-American discrimination, capacity, and visibility layer](projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md)
+adds a long-run inclusion and legitimacy route. Muslim population and mosque
+capacity have grown and political representation is more visible, while 42%
+of US adults report a negative impact judgment, 59% of Muslim adults report a
+lot of discrimination, and the partisan gap on whether Islam encourages
+violence is 76% among Republicans versus 29% among Democrats. Presence,
+institutional capacity, treatment, public judgment, and representation are
+separate currencies; none alone establishes safety, equal influence, or causal
+political behavior.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

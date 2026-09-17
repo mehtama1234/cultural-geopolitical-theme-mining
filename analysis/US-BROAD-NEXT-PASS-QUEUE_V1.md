@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 301 records and
-1073 observations.
+have exact registered-URL references. The trend registry holds 302 records and
+1078 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2555,6 +2555,15 @@ is deliberately retained as a source-vintage memo rather than promoted to a
 machine record. The next labor-control test remains a reproducible sector or
 occupation join to compensation, schedules, ownership, bargaining, and later
 household or political outcomes.
+
+The [Pew Muslim-American discrimination, capacity, and visibility layer](projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md)
+adds a long-run inclusion counterexample: population, mosque capacity, and
+political representation grew while negative public judgments, reported
+discrimination, and partisan polarization persisted. The layer keeps presence,
+treatment, public judgment, identity, and representation separate. The next
+test is a place- or person-level join to public-system use, safety, organizing,
+work, housing, or consumer behavior; the current survey and reported-incident
+surfaces do not establish those links.
 
 ## Sequencing rule
 

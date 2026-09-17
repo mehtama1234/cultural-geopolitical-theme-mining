@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-muslim-americans-25-years-2026",
+  "title": "Muslim-American institutional presence grows while public suspicion, discrimination, and partisan polarization persist",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["unequal_exposure_status", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "housing_place_mobility"],
+  "source_unit": "Pew Research Center data essay with FBI Uniform Crime Reporting and mosque-count context",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 4-17, 2026; public judgments about Muslim Americans",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey", "value_type": "published_percentage_base"},
+      "measures": {"negative_country_impact": {"value": 42, "unit": "percent", "value_type": "published_share"}, "positive_country_impact": {"value": 17, "unit": "percent", "value_type": "published_share"}, "less_patriotic": {"value": 43, "unit": "percent saying Muslims are less patriotic than other Americans", "value_type": "published_share"}, "more_patriotic": {"value": 4, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew survey of US adults; neutral/unsure and no-answer categories are retained in the source but not shown in the headline contrasts.",
+      "uncertainty": "These are public judgments, not validated measures of national impact, patriotism, or policy conduct; subgroup sample and item wording details remain source-specific.",
+      "subgroup": "US adults; Muslim Americans as the judged group",
+      "counterinterpretation": "A negative judgment can reflect stereotype, political framing, personal experience, or other beliefs; the survey does not identify the mechanism.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202",
+      "status": "reported"
+    },
+    {
+      "period": "March 2002 and January 2026; public association of Islam with violence",
+      "denominator": {"value": 100, "unit": "percent of US adults in comparable Pew survey items; historical mode changes apply", "value_type": "published_percentage_base"},
+      "measures": {"total_2002": {"value": 25, "unit": "percent saying Islam is more likely than other religions to encourage violence", "value_type": "published_share"}, "total_2026": {"value": 51, "unit": "percent", "value_type": "published_share"}, "democratic_2002": {"value": 23, "unit": "percent", "value_type": "published_share"}, "republican_2002": {"value": 32, "unit": "percent", "value_type": "published_share"}, "democratic_2026": {"value": 29, "unit": "percent", "value_type": "published_share"}, "republican_2026": {"value": 76, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew historical survey series; 2002-2015 telephone surveys and 2016-2026 American Trends Panel surveys, with a documented wording note for 2021.",
+      "uncertainty": "Mode, wording, political context, and survey composition complicate level comparisons; no causal media, party, or event mechanism is identified.",
+      "subgroup": "US adults by party identification/leaning",
+      "counterinterpretation": "The change may reflect multiple political, security, media, and social factors rather than a single post-9/11 trajectory.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Muslim-American experiences of discrimination, unfair media portrayal, and support",
+      "denominator": {"value": 100, "unit": "percent of US Muslim adults in Pew American Trends Panel and supplemental panels", "value_type": "published_percentage_base"},
+      "measures": {"a_lot_of_discrimination": {"value": 59, "unit": "percent saying there is a lot of discrimination against Muslims", "value_type": "published_share"}, "unfair_media_portrayal": {"value": 59, "unit": "percent saying media portrayals are unfair", "value_type": "published_share"}, "received_religion_based_support": {"value": 34, "unit": "percent saying someone expressed support in past year because of their religion", "value_type": "published_share"}},
+      "method": "Pew 2026 American Trends Panel data supplemented by three nationally representative panels; source reports measures separately.",
+      "uncertainty": "The items measure perceived or recalled experience and are not a complete incident prevalence rate; subgroup and question wording details remain source-specific.",
+      "subgroup": "US Muslim adults",
+      "counterinterpretation": "Support and discrimination can coexist across people, settings, and time; the measures do not imply a uniform Muslim-American experience.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202",
+      "status": "reported"
+    },
+    {
+      "period": "1999-2025; FBI reported anti-Islamic hate-crime incidents",
+      "denominator": {"value": null, "unit": "reported incidents in participating law-enforcement agencies; not a population prevalence denominator", "value_type": "not_disclosed"},
+      "measures": {"incidents_2000": {"value": 28, "unit": "reported anti-Islamic incidents", "value_type": "reported_count"}, "incidents_2001": {"value": 481, "unit": "reported anti-Islamic incidents", "value_type": "reported_count"}, "incidents_2021": {"value": 95, "unit": "reported anti-Islamic incidents", "value_type": "reported_count"}, "incidents_2025": {"value": 205, "unit": "reported anti-Islamic incidents", "value_type": "reported_count"}},
+      "method": "FBI Uniform Crime Reporting Program hate-crime statistics as reproduced by Pew; category is anti-Islamic and excludes incidents with multiple bias motivations.",
+      "uncertainty": "Participation, reporting, category definitions, and the 2021 transition to NIBRS changed over time; counts are not total victimization or discrimination prevalence.",
+      "subgroup": "Reported incidents motivated by anti-Islamic bias",
+      "counterinterpretation": "Changes can reflect reporting and collection systems as well as underlying incidents.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2026; Muslim population, mosque counts, and political representation context",
+      "denominator": {"value": null, "unit": "source-specific population estimates, mosque counts, and officeholder counts; not one common denominator", "value_type": "not_disclosed"},
+      "measures": {"muslims_2007": {"value": 2400000, "unit": "estimated Muslims of all ages", "value_type": "estimated_count"}, "muslims_2026": {"value": 5500000, "unit": "estimated Muslims of all ages", "value_type": "estimated_count"}, "mosques_2000": {"value": 1200, "unit": "roughly counted US mosques", "value_type": "reported_count"}, "mosques_2020": {"value": 2800, "unit": "nearly counted US mosques", "value_type": "reported_count"}, "muslim_members_congress_2001": {"value": 0, "unit": "members of Congress", "value_type": "reported_count"}, "muslim_members_congress_2026": {"value": 4, "unit": "members of Congress", "value_type": "reported_count"}},
+      "method": "Pew population estimates combine survey and Census information; mosque counts come from the Cooperative Congregational Studies Partnership; representation is contextual reporting.",
+      "uncertainty": "These measures have different units, dates, definitions, and estimation methods; they should not be pooled into an institutional-capacity index.",
+      "subgroup": "US Muslim population and institutions",
+      "counterinterpretation": "Growth and officeholding do not establish equal access, safety, influence, policy success, or reduced discrimination.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/03/25-years-after-9-11-a-portrait-of-muslim-americans/",
+      "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/religion/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/", "claim": "The Latino mobility layer provides a neighboring migration, belonging, and cultural-meaning comparison.", "status": "cross-source-context"}, {"source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/", "claim": "The press-legitimacy layer provides a separate media-power and institutional-criticism context.", "status": "cross-source-context"}],
+  "boundary": "This record measures public attitudes, reported Muslim-American experiences, reported anti-Islamic hate-crime incidents, institutional presence, and political visibility. It does not establish causal effects of 9/11, party messaging, media, migration, mosque growth, individual voting, consumer behavior, service access, or total discrimination prevalence.",
+  "retrieval_hash": "sha256:33271b231fd4d51b328558947f8827700eee0e6dc69d30018bffe113c7427202"
+}

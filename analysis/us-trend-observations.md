@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-301 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+302 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -809,6 +809,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Latino Americans separate intergenerational progress from belief that the American dream is attainable | cost, work, voice | unequal_exposure_status, trust_identity_meaning, household_room_consumption, political_judgment_action, housing_place_mobility | Pew Research Center National Survey of Latinos | United States | 4 | October 6-16, 2025; American-dream position; October 6-16, 2025; intergenerational standard-of-living comparison; October 6-16, 2025; immigrant versus US-born Latino mobility and attainability judgments; October 6-16, 2025; open-ended meaning of the American dream | reported | [open](records/us-pew-latino-american-dream-mobility-2026.json) |
 
 **Boundary:** This record measures reported American-dream meaning, perceived intergenerational living-standard change, and nativity subgroup differences. It does not measure causal income mobility, wealth, housing purchase, legal status, voting, political action, consumer switching, or future outcomes.
+
+| Muslim-American institutional presence grows while public suspicion, discrimination, and partisan polarization persist | voice, work, cost | unequal_exposure_status, trust_identity_meaning, political_judgment_action, public_systems_feedback, housing_place_mobility | Pew Research Center data essay with FBI Uniform Crime Reporting and mosque-count context | United States | 5 | May 4-17, 2026; public judgments about Muslim Americans; March 2002 and January 2026; public association of Islam with violence; 2026; Muslim-American experiences of discrimination, unfair media portrayal, and support; 1999-2025; FBI reported anti-Islamic hate-crime incidents; 2000-2026; Muslim population, mosque counts, and political representation context | reported | [open](records/us-pew-muslim-americans-25-years-2026.json) |
+
+**Boundary:** This record measures public attitudes, reported Muslim-American experiences, reported anti-Islamic hate-crime incidents, institutional presence, and political visibility. It does not establish causal effects of 9/11, party messaging, media, migration, mosque growth, individual voting, consumer behavior, service access, or total discrimination prevalence.
 
 | Platform-mediated news and civic life divide into distinct attention, trust, and action routes | voice, cost, work | platforms_data_attention, trust_identity_meaning, political_judgment_action, unequal_exposure_status, consumer_power_recourse | Pew Research Center US adult surveys and selected public social-media news-influencer accounts | United States | 3 | Late 2025; 19-measure news, political, civic, religious, and attention typology; March 2025; news-source familiarity, use, trust, and distrust survey; 2025; social-media news-influencer exposure and perceived informational difference | reported | [open](records/us-pew-news-platform-civic-engagement-2025.json) |
 
