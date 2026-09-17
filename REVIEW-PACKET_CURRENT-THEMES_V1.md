@@ -111,6 +111,10 @@ index or a claim that the same people appear in every source.
    partisan and racial/ethnic gaps widen around culture, workplace promotion,
    and perceived fairness. Read the [racial diversity and workplace meaning
    layer](site/pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.html).
+20. **Digital adoption creates an attention-control tradeoff:** smartphones
+   help people stay informed and connected, but many users report excess time,
+   incomplete cutback success, and sleep or productivity costs. Read the
+   [smartphone time and well-being layer](site/pew-2026-smartphone-time-control-wellbeing-layer-v1.html).
 
 ## Recent cross-theme additions
 

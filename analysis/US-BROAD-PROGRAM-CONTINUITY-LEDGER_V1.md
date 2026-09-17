@@ -1095,3 +1095,9 @@ The [Pew 2026 racial diversity and workplace meaning layer](projects/us-cost-tru
 adds the interpretive stage between population diversity and organizational
 legitimacy. It preserves open links from attitudes to actual workplace
 practice, fairness, voice, trust, civic action, and distributional outcome.
+
+The [Pew 2026 smartphone time, self-control, and well-being layer](projects/us-digital-habits-attention/pew-2026-smartphone-time-control-wellbeing-layer-v1.md)
+adds a consumer-attention stage between device availability and perceived
+well-being. It preserves open links from habitual use to utility, displacement,
+self-regulation, privacy, switching, measured outcomes, and later social or
+political action.

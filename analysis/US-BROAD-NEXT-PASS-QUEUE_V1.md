@@ -2862,3 +2862,11 @@ should use compact repeated or linked evidence on workplace exposure, treatment,
 voice, fairness, correction, trust, and civic action. Keep demographic change,
 attitude, institutional practice, fairness interpretation, and observed outcome
 separate; do not infer workplace or political effects from approval alone.
+
+The [Pew 2026 smartphone time, self-control, and well-being layer](projects/us-digital-habits-attention/pew-2026-smartphone-time-control-wellbeing-layer-v1.md)
+adds an attention-control and digital-well-being test. The next pass should
+use compact repeated or logged evidence on notifications, obligation, utility,
+cutback attempts, observed use, sleep/time displacement, privacy choice, and
+switching. Keep ownership, frequency, subjective excess, dependence, failed
+self-regulation, and measured outcomes separate; do not infer addiction or
+platform causality from survey self-reports.

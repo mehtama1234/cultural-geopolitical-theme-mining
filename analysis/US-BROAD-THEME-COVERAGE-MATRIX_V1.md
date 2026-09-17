@@ -214,3 +214,10 @@ adds national/cultural interpretation, workplace expectation, fairness
 judgment, partisan divergence, and race/ethnicity conditioning to themes 9,
 10, 11, and 14. It strengthens the population-to-meaning-to-institution arrow
 while leaving actual workplace treatment, opportunity, trust, and action open.
+
+The [Pew 2026 smartphone time, self-control, and well-being layer](projects/us-digital-habits-attention/pew-2026-smartphone-time-control-wellbeing-layer-v1.md)
+adds device-use frequency, perceived excess, self-regulation, informational and
+connection utility, and sleep/productivity interpretation to themes 1, 5, 9,
+10, and 14. It strengthens the adoption-to-attention-and-meaning arrow while
+leaving observed use, platform mechanisms, health, privacy, switching, and
+political action open.
