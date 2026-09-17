@@ -7,9 +7,11 @@
 
 The health-cost lane needs an institutional middle between a household burden
 and a later recovery or legitimacy outcome. The CFPB public complaint ledger
-shows what a usable administrative event contract looks like, but the current
-committed extract is a bounded student-loan sample. It must not be relabeled as
-medical evidence or merged with MEPS respondents.
+shows what a usable administrative event contract looks like. The [medical-
+debt query audit](cfpb-medical-debt-event-ledger-audit-v1.md) now demonstrates
+that contract on the `Debt collection` / `Medical debt` route, using a bounded
+25-case retrieval sample. It is not a medical-burden or remedy estimate and
+must not be merged with MEPS respondents.
 
 The bridge is useful because it separates three questions that are often
 collapsed:
