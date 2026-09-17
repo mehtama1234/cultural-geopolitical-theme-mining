@@ -40,25 +40,27 @@ separate.
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
+| Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, order-stage controls | Person-level payment success, bill status, service continuity, remedy receipt, trust, switching/exit |
+| Grubhub multisided remedy program (1 reported program) | Aggregate checks/PayPal payments and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit |
 
 ## Stage-level coverage count
 
-The 14 surfaces can also be summarized without pooling their units. A status is
+The 16 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 11 | 1 | 2 |
-| Responsible actor | 7 | 5 | 2 |
-| Alternative or non-use | 1 | 3 | 10 |
-| Effort, money, or time trade-off | 1 | 9 | 4 |
-| Adaptation or protected/sacrificed outcome | 2 | 4 | 8 |
-| Institutional or firm response | 11 | 1 | 2 |
-| Verified remedy | 0 | 8 | 6 |
-| Meaning, trust, or action | 0 | 2 | 12 |
-| Recovery, persistence, or exit | 0 | 5 | 9 |
+| Dated event or exposure | 13 | 1 | 2 |
+| Responsible actor | 9 | 5 | 2 |
+| Alternative or non-use | 1 | 4 | 11 |
+| Effort, money, or time trade-off | 1 | 10 | 5 |
+| Adaptation or protected/sacrificed outcome | 2 | 4 | 10 |
+| Institutional or firm response | 13 | 1 | 2 |
+| Verified remedy | 0 | 10 | 6 |
+| Meaning, trust, or action | 0 | 2 | 14 |
+| Recovery, persistence, or exit | 0 | 5 | 11 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -69,7 +71,8 @@ received, or what happened to meaning, recovery, or exit.
 ## Result
 
 No current local source supplies all nine required stages. The platform ledger,
-the three CFPB named redress/distribution records,
+the CFPB named redress/distribution records, and the Doxo and Grubhub
+consumer-remedy records,
 the OpenAI/Statsig and Apple recruitment-remedy events, and the Hotak follow-up
 come closest to a response/remedy/implementation surface;
 MEPS, SHED, and HTOPS provide different kinds of person-level timing or
@@ -99,4 +102,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses fourteen committed local records and downloads nothing.
+The audit uses sixteen committed local records and downloads nothing.
