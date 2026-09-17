@@ -1406,6 +1406,12 @@ market-transition or household result.
   cells now have official-universe Fay-BRR estimates. Renters show higher
   assistance and work prevention but lower paid-care use than owners/buyers;
   the sparse no-rent cells are not ranked and housing causation remains open.
+- **SIPP tenure × resource pressure finding:** the [bounded pressure layer](projects/us-household-calendar-integration/findings/us-household-calendar-integration-031.md)
+  shows renters reporting more rent/mortgage, utility-payment, and food
+  hardship than owners within both low- and high-resource bands. The outcomes
+  have different universes and do not form a burden index; tenure is selected,
+  person records are not household prevalence, and bill timing, alternatives,
+  repair, mobility, and recovery remain open.
 - **SIPP tenure-conditioned work-transition finding:** among respondents with
   a reported work-limiting condition, owner/renter job-count movement is close
   at the displayed low- and high-resource endpoints, while renters with one or

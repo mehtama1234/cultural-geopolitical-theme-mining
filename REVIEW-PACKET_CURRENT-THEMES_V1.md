@@ -25,7 +25,7 @@ These six additions are the most recent cross-theme map updates. They are
 bounded records and synthesis links, not a pooled estimate or a claim that the
 same people appear in every route.
 
-- [Unequal exposure/status: SIPP resource/job/work-limitation/tenure cross-lag record](analysis/records/us-sipp-resource-job-worklimitation-tenure-crosslag-2024.json), its [tenure-conditioned finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-040.md), and the [WBNS charitable-food access record](analysis/records/us-urban-wbns-charitable-food-access-2019-2025.json): resource movement, tenure, work limitation, children, disability, and material-access gradients remain distributional and descriptive.
+- [Unequal exposure/status: SIPP resource/job/work-limitation/tenure cross-lag record](analysis/records/us-sipp-resource-job-worklimitation-tenure-crosslag-2024.json), its [tenure-conditioned finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-040.md), the [tenure × resource pressure finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-031.md), and the [WBNS charitable-food access record](analysis/records/us-urban-wbns-charitable-food-access-2019-2025.json): resource movement, tenure, work limitation, children, disability, and material-access gradients remain distributional and descriptive.
 - [Household adaptation, buffer, and recovery cross-source record](analysis/records/us-household-adaptation-buffer-recovery-crosssource-2024-2025.json): price adaptation, outside support, food, care, and financial room are kept on distinct clocks.
 - [Platform use, attention, and exit-control cross-source record](analysis/records/us-digital-attention-exit-control-crosssource-2025-2026.json): use, purpose, attention, privacy/control, companion exit, and governance are separate endpoints.
 - [Uber/Hotak access-restoration follow-up record](analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md): voluntary reactivation and more than 150 subsequent trips are observed, while payment receipt, net recovery, durability, and non-retaliation remain open.
@@ -130,6 +130,7 @@ the [reported time-loss finding](analysis/projects/us-household-calendar-integra
 its [canonical machine-readable record](analysis/records/us-sipp-childcare-time-loss-resource-2024.json),
 and the [utility-conditioned sparse counterexample](analysis/records/us-sipp-utility-time-loss-following-2024.json),
 the [utility-difficulty and assistance following-work finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md),
+the [tenure × resource pressure finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-031.md),
 and the [food-security and children work-stability finding](analysis/projects/us-household-calendar-integration/findings/us-household-calendar-integration-038.md),
 and the [SHED care-foregoing persistence finding](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-persistence-v1.md),
 with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-care-foregoing-reproduction-audit-2026-09-16.md).
