@@ -117,6 +117,13 @@ perceived-health direction screens. They remain separate longitudinal
 descriptive comparisons until a same-episode treatment, payment, remedy, and
 household-adaptation record is available.
 
+The [inter-round prescription-delay direction finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md)
+adds a second health-direction counterexample: delay reporters show both
+improvement and worsening at the next round. This is a selection-sensitive
+ordinal health comparison, not evidence that delay improves health or that
+non-delay protects it; medication fill, adherence, clinical continuity, and
+downstream household response remain unobserved.
+
 The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 now makes the broad health route reviewable in one place. It connects care
 foregoing, debt and savings adaptation, coverage and institutional response,

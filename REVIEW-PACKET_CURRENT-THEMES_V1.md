@@ -212,6 +212,7 @@ Read the [MEPS non-synchronization finding](analysis/projects/us-health-cost-hou
 the [expenditure-conditioned finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-002.md),
 the [same-round prescription-delay finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-009.md)
 and its [canonical record](analysis/records/us-meps-2024-prescription-delay-outcomes.json),
+the [inter-round prescription-delay direction finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-010.md),
 the [inter-round payment-band finding](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-004.md)
 and its [reproduction audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
 the [institutional-friction follow-up](analysis/projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md),
@@ -228,6 +229,13 @@ in one uniform perceived-health direction. The separate same-round record
 shows that prescription-delay respondents also occupy a markedly different
 health/employment context, but it does not establish what happened after a
 dated delay.
+
+The inter-round prescription-delay record adds a sharper counterexample: among
+delay reporters, perceived health both improved and worsened by the next round,
+so neither delay nor non-delay can be read as a universal health trajectory.
+The direction screen remains selection-sensitive and does not observe the
+intended medication, fill or non-fill, adherence, clinical continuity, or
+household response.
 
 **Concrete care/health anchors:** in the [SHED care-foregoing panel
 record](analysis/records/us-shed-panel-care-foregoing-health-work-paths-2024-2025.json),
