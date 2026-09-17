@@ -712,6 +712,18 @@ bottlenecks, and access risks for older, disabled, rural, or offline survivors.
 The distinction between authorized support, reachability, receipt, and recovery
 is now explicit; aggregate assistance is not proof of a protected outcome.
 
+The [GAO 2026 EDA disaster-economic recovery outcomes layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
+extends the response chain from survivor assistance to community economic
+capacity. EDA awarded about $2.1 billion in disaster-recovery grants across
+FY2014–FY2024 and coordinated 45 economic-recovery missions in 2013–2025, but
+GAO found that current measures cannot establish whether intended outcomes
+occurred and that grantee-reported performance data were not independently
+validated. This makes measurement capacity itself part of the trend: visible
+obligations and projects can coexist with uncertain firm, worker, customer,
+and resident outcomes. The bounded 55% no-jobs/private-investment result among
+292 analyzed grants is a warning about reported performance, not a 55% failure
+rate for the full portfolio.
+
 The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
 adds a cultural-belonging surface distinct from the Latino mobility layer.
 Sixty-one percent of Hispanic adults say Hispanic identity is highly important,

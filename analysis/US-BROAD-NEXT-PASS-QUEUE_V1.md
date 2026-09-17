@@ -2660,6 +2660,16 @@ insurance, contact, eligibility, award, payment or placement, repair/housing,
 and later work, health, mobility, trust, complaint, or political action. Do not
 treat aid dollars or recipients as verified recovery.
 
+The companion [GAO 2026 EDA disaster-economic recovery outcomes layer](projects/us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
+adds the community/federal investment stage: EDA grants, Economic Recovery
+Support Function missions, infrastructure composition, readiness, funding
+delay, and performance-measure validity. It records a bounded 55% no-jobs or
+private-investment report among 292 grants while preserving GAO's warning that
+the grantee data are not reliable for economic-effect estimates. The next test
+is a place-keyed project ledger linking award, disbursement, completion,
+service/firm function, jobs/wages, household access, and later trust or action;
+do not promote award volume or grantee reports into recovery.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
