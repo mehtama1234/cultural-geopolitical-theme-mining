@@ -1,0 +1,75 @@
+{
+  "format": "htops-material-vs-fraud-counterexample-v1",
+  "status": "within_panel_nonpooled_counterexample",
+  "checked": "2026-09-16",
+  "period": "April 15\u201329 to June 16\u201325, 2025",
+  "unit": "same HTOPS respondent across the two source-derived aggregate screens; no respondent rows are rejoined here",
+  "material_pressure_routes": {
+    "expense_difficulty": {
+      "food_insufficiency": 12.3,
+      "unable_to_pay_energy_bill": 21.4,
+      "recent_household_job_loss": 11.7
+    },
+    "expense_not_difficult": {
+      "food_insufficiency": 1.1,
+      "unable_to_pay_energy_bill": 2.2,
+      "recent_household_job_loss": 2.9
+    }
+  },
+  "fraud_routes": {
+    "not_exposed": {
+      "food_insufficiency": 9.3702,
+      "unable_to_pay_energy_bill": 16.8375,
+      "recent_household_job_loss": 9.2152
+    },
+    "exposed": {
+      "food_insufficiency": 6.121,
+      "unable_to_pay_energy_bill": 10.6566,
+      "recent_household_job_loss": 6.8622
+    },
+    "exposed_and_lost": {
+      "food_insufficiency": 23.8158,
+      "unable_to_pay_energy_bill": 43.8064,
+      "recent_household_job_loss": 8.3057
+    },
+    "lost_and_reported": {
+      "food_insufficiency": 12.2213,
+      "unable_to_pay_energy_bill": 44.8649,
+      "recent_household_job_loss": 11.5637
+    }
+  },
+  "group_counts": {
+    "material_linked_ids": 6564,
+    "fraud_linked_ids": 6564,
+    "fraud_not_exposed": 751,
+    "fraud_exposed": 5798,
+    "fraud_exposed_and_lost": 184,
+    "fraud_lost_and_reported": 51
+  },
+  "comparisons_percentage_points": {
+    "food_insufficiency": {
+      "expense_difficulty_minus_not_difficult_pp": 11.2,
+      "fraud_exposed_minus_not_exposed_pp": -3.2492,
+      "fraud_exposed_and_lost_minus_not_exposed_pp": 14.4456,
+      "loss_reported_minus_not_exposed_pp": 2.8511
+    },
+    "unable_to_pay_energy_bill": {
+      "expense_difficulty_minus_not_difficult_pp": 19.2,
+      "fraud_exposed_minus_not_exposed_pp": -6.1809,
+      "fraud_exposed_and_lost_minus_not_exposed_pp": 26.9689,
+      "loss_reported_minus_not_exposed_pp": 28.0274
+    },
+    "recent_household_job_loss": {
+      "expense_difficulty_minus_not_difficult_pp": 8.8,
+      "fraud_exposed_minus_not_exposed_pp": -2.353,
+      "fraud_exposed_and_lost_minus_not_exposed_pp": -0.9095,
+      "loss_reported_minus_not_exposed_pp": 2.3485
+    }
+  },
+  "interpretation": "The broad material-pressure route shows a consistent positive association with later food, energy, and job-loss outcomes. In the fraud route, exposure alone is not a monotonic marker: the exposed-minus-not-exposed contrast is negative for all three outcomes, while the exposure-plus-loss group is higher for food and energy. This is a counterexample to treating any retrospective scam exposure as equivalent to realized loss or to a general material-pressure state.",
+  "boundary": "The two screens use different April group definitions and selected valid outcome universes, although both use the April-to-June linked HTOPS panel and April weights. The comparison is descriptive and associative; it does not establish fraud, expense difficulty, or loss causation, and it does not compare individual-level rows. Reported-loss and recovery groups are sparse, with 51 and 11 linked respondents respectively. No trust or exit conclusion is drawn from this comparison.",
+  "source_records": [
+    "analysis/projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json",
+    "analysis/projects/us-cost-trust-politics/data/htops-2025-fraud-followup-2025-04-to-06.json"
+  ]
+}

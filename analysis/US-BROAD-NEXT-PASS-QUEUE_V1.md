@@ -156,8 +156,11 @@ joins 6,564 respondents and adds later food, energy, work-loss, and trust
 surfaces. Its candidate route is retrospective scam exposure →
 reporting/recovery → later household/institutional context; it remains
 associative, with an 11-person recovered subgroup, and must not be treated as
-a dated causal effect or practical-exit result. The next step is to compare
-this route against a non-fraud material shock or a remedy-observed case while
+a dated causal effect or practical-exit result. The [within-panel
+material-versus-fraud comparison](projects/us-cost-trust-politics/htops-material-vs-fraud-counterexample-v1.md)
+now records the counterexample: exposure alone is not equivalent to realized
+loss or general expense difficulty. The next priority is an observed
+remedy/alternative case that can test what happened after the burden, while
 preserving units and attrition boundaries.
 
 ### ILOSTAT comparison gate
