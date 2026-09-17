@@ -2636,6 +2636,14 @@ utility responsibility, assistance, repair/reconnection, protected or
 sacrificed needs, and later health, work, trust, or political action. Do not
 pool the overlapping RECS categories into one rate.
 
+The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
+adds a distinct meaning and belonging test to the migration lane: identity is
+often central, but its opportunity meaning and treatment differ by party, vote,
+and immigrant generation. The next test is a dated place or institutional
+encounter joined to identity meaning, information, treatment, support-seeking,
+avoidance, organizing, or exit. Do not use identity centrality as a proxy for
+mobility, assimilation, consumption, or voting.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

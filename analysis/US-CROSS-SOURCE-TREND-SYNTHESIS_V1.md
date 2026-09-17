@@ -704,6 +704,14 @@ categories can overlap and do not establish a price cause, completed shutoff,
 assistance response, or health effect; they do show why service continuity,
 payment threat, substitution, equipment, and remedy must remain separate.
 
+The [Pew 2026 Hispanic identity, advantage, and barrier layer](projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md)
+adds a cultural-belonging surface distinct from the Latino mobility layer.
+Sixty-one percent of Hispanic adults say Hispanic identity is highly important,
+while 33% say it hurts their ability to get ahead, 26% say it helps, and 40%
+say it makes no difference. Identity centrality, labels, treatment,
+opportunity meaning, and collective connection diverge by party, vote, and
+immigrant generation; none is a causal mobility or voting estimate.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR
