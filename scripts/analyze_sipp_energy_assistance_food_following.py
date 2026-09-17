@@ -60,8 +60,15 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
             people[tuple(row[k] for k in KEYS[:-1])][month] = row
 
     groups = ("utility_difficulty", "no_utility_difficulty", "energy_assistance", "no_energy_assistance")
+    joint_groups = (
+        "utility_difficulty__energy_assistance",
+        "utility_difficulty__no_energy_assistance",
+        "no_utility_difficulty__energy_assistance",
+        "no_utility_difficulty__no_energy_assistance",
+    )
+    all_groups = groups + joint_groups
     pairs: dict[tuple[str, ...], list[tuple[str, bool, float]]] = {}
-    cells = {group: {"pairs": 0, "food_valid_n": 0, "food_den": 0.0, "food_num": 0.0} for group in groups}
+    cells = {group: {"pairs": 0, "food_valid_n": 0, "food_den": 0.0, "food_num": 0.0} for group in all_groups}
     food_valid_keys: set[tuple[str, ...]] = set()
     for person, months in people.items():
         for month in range(1, 12):
@@ -75,10 +82,16 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
             if weight <= 0:
                 continue
             exposure_groups = []
-            if valid_binary(before.get("EAWBGAS", ""), before.get("AAWBGAS", "")):
-                exposure_groups.extend(["utility_difficulty" if before["EAWBGAS"] == "1" else "no_utility_difficulty"])
-            if valid_binary(before.get("EENERGY_ASST", "")):
-                exposure_groups.extend(["energy_assistance" if before["EENERGY_ASST"] == "1" else "no_energy_assistance"])
+            utility_valid = valid_binary(before.get("EAWBGAS", ""), before.get("AAWBGAS", ""))
+            assistance_valid = valid_binary(before.get("EENERGY_ASST", ""))
+            utility_group = "utility_difficulty" if before.get("EAWBGAS") == "1" else "no_utility_difficulty"
+            assistance_group = "energy_assistance" if before.get("EENERGY_ASST") == "1" else "no_energy_assistance"
+            if utility_valid:
+                exposure_groups.append(utility_group)
+            if assistance_valid:
+                exposure_groups.append(assistance_group)
+            if utility_valid and assistance_valid:
+                exposure_groups.append(f"{utility_group}__{assistance_group}")
             if not exposure_groups:
                 continue
             food_valid = after.get("RFOODS", "") in {"1", "2", "3"} and after.get("AFOODS", "") not in {"", "0"}
@@ -92,15 +105,15 @@ def analyze(primary: Path, replicate_zip: Path) -> dict[str, object]:
                     cells[group]["food_den"] += weight
                     cells[group]["food_num"] += weight * (after["RFOODS"] in {"2", "3"})
 
-    rep_num = {group: np.zeros(REPLICATES) for group in groups}
-    rep_den = {group: np.zeros(REPLICATES) for group in groups}
+    rep_num = {group: np.zeros(REPLICATES) for group in all_groups}
+    rep_den = {group: np.zeros(REPLICATES) for group in all_groups}
     replicate_rows = matched_rows = 0
     with zipfile.ZipFile(replicate_zip) as archive, archive.open("rw2025.csv") as raw:
         reader = csv.DictReader(io.TextIOWrapper(raw, encoding="utf-8", newline=""), delimiter="|")
         for row in reader:
             replicate_rows += 1
             base_key = tuple(row[k.lower()] for k in KEYS)
-            for group in groups:
+            for group in all_groups:
                 item = pairs.get(base_key + (group,))
                 if item is None:
                     continue

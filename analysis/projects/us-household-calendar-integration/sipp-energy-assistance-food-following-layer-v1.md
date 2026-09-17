@@ -54,6 +54,25 @@ therefore adjacent in the file, not a dated bill or assistance episode.
 - The assistance comparison is not a treatment/control design. Eligibility,
   need, geography, health, season, and household composition may explain the
   difference.
+
+## Joint burden and assistance screen
+
+Conditioning both screens together shows that assistance is concentrated in
+the higher-need surface rather than removing the food-security gradient:
+
+| Utility condition at *t* | Energy assistance at *t* | Eligible pairs | Following food insecurity | Fay-BRR SE | Approx. 95% CI |
+|---|---|---:|---:|---:|---:|
+| Difficulty | Yes | 3,772 | 61.73% | 5.66 pp | 50.62–72.83% |
+| Difficulty | No | 16,879 | 53.81% | 2.79 pp | 48.34–59.28% |
+| No difficulty | Yes | 9,627 | 20.99% | 2.71 pp | 15.68–26.29% |
+| No difficulty | No | 161,262 | 13.08% | 0.54 pp | 12.01–14.15% |
+
+Within both utility strata, the assistance group has higher following food
+insecurity. The most defensible reading is selection/targeting and incomplete
+need protection: assistance reaches households with greater underlying need,
+and receipt does not imply that food security was restored. This joint screen
+is a counterexample to interpreting the unconditioned assistance contrast as a
+program failure or effect.
 - Person-month rows repeat household fields and are not household-prevalence
   estimates; food-security validity is retained separately from exposure
   validity.
@@ -73,7 +92,7 @@ and health outcome, and a defined recovery follow-up.
 python3 scripts/analyze_sipp_energy_assistance_food_following.py \
   --primary /tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv \
   --replicate-zip /tmp/rw2025_csv.zip \
-  --output /tmp/sipp-energy-assistance-food-following-v18.json
+  --output /tmp/sipp-energy-assistance-food-following-v18-joint.json
 ```
 
 - [Machine-readable record](../../records/us-sipp-energy-assistance-food-following-2024.json)

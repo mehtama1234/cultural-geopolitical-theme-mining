@@ -8,13 +8,13 @@ from validate_program_control_sync import validate_handoff_counts
 
 def main() -> int:
     current = (
-        "**Current registry state:** 255 machine-readable records, 975 observations,\n"
-        "the current checkpoint: 255 trend records and 975 observations pass the\n"
+        "**Current registry state:** 255 machine-readable records, 979 observations,\n"
+        "the current checkpoint: 255 trend records and 979 observations pass the\n"
     )
-    queue = "The trend registry holds 255 records and\n975 observations."
-    review = "**Registry checkpoint:** 255 canonical records, 975 observations,"
+    queue = "The trend registry holds 255 records and\n979 observations."
+    review = "**Registry checkpoint:** 255 canonical records, 979 observations,"
 
-    validate_handoff_counts(current, queue, review, 255, 975)
+    validate_handoff_counts(current, queue, review, 255, 979)
     try:
         validate_handoff_counts(current, queue, review, 252, 961)
     except ValueError as error:

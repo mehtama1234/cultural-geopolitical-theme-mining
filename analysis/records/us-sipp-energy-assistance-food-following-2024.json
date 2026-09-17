@@ -60,12 +60,60 @@
       "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
       "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:ecf0702b70e3561c0502ff6574159225f7f6b1b25c38d86cde304c8a9d754b7d; script:sha256:6839c46d37f31c0f843381d12cb64634e81f014088512b0bb48604bd0813012b",
       "status": "compared"
+    },
+    {
+      "period": "2024 reference year; utility-payment difficulty and energy assistance at month t; food security at month t+1",
+      "denominator": {"value": 3772, "unit": "eligible person-month pairs; valid food-security pair n=3,772", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_food_insecurity": {"value": 61.7251, "unit": "person-weighted percent; Fay-BRR SE 5.6640 pp; approximate 95% CI 50.6237–72.8266", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month joint descriptive screen using valid utility and energy-assistance fields at month t, RFOODS/AFOODS at month t+1, WPFINWGT, and 240 Fay-BRR replicate weights.",
+      "uncertainty": "The joint cell is conditional and targeted; its higher following food insecurity is not an assistance effect.",
+      "subgroup": "Person-month pairs reporting utility-payment difficulty and energy assistance at month t.",
+      "counterinterpretation": "Assistance may be reaching households with greater underlying need or incomplete protection; persistent need, season, health, and composition remain alternatives.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568; script:sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; utility-payment difficulty and no energy assistance at month t; food security at month t+1",
+      "denominator": {"value": 16879, "unit": "eligible person-month pairs; valid food-security pair n=16,879", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_food_insecurity": {"value": 53.8106, "unit": "person-weighted percent; Fay-BRR SE 2.7888 pp; approximate 95% CI 48.3446–59.2767", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month joint descriptive comparison using the same SIPP fields, validity rules, weights, and Fay-BRR procedure as the assisted difficulty observation.",
+      "uncertainty": "The no-assistance cell is not a counterfactual; it differs in eligibility, need, and other composition.",
+      "subgroup": "Person-month pairs reporting utility-payment difficulty and no energy assistance at month t.",
+      "counterinterpretation": "The lower share may reflect less underlying need or different field selection rather than a protective effect of nonreceipt.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568; script:sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; no utility-payment difficulty and energy assistance at month t; food security at month t+1",
+      "denominator": {"value": 9627, "unit": "eligible person-month pairs; valid food-security pair n=9,627", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_food_insecurity": {"value": 20.9873, "unit": "person-weighted percent; Fay-BRR SE 2.7069 pp; approximate 95% CI 15.6818–26.2928", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month joint descriptive comparison using valid utility and energy-assistance fields at month t, RFOODS/AFOODS at month t+1, WPFINWGT, and 240 Fay-BRR replicate weights.",
+      "uncertainty": "The cell is conditional and does not identify why assistance was received despite no reported utility-payment difficulty.",
+      "subgroup": "Person-month pairs reporting no utility-payment difficulty and energy assistance at month t.",
+      "counterinterpretation": "The assistance status may reflect another energy or household need not captured by the utility-difficulty screen.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568; script:sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2",
+      "status": "compared"
+    },
+    {
+      "period": "2024 reference year; no utility-payment difficulty and no energy assistance at month t; food security at month t+1",
+      "denominator": {"value": 161262, "unit": "eligible person-month pairs; valid food-security pair n=161,262", "value_type": "unweighted_valid_pairs"},
+      "measures": {"following_food_insecurity": {"value": 13.0783, "unit": "person-weighted percent; Fay-BRR SE 0.5443 pp; approximate 95% CI 12.0115–14.1450", "value_type": "weighted_share"}},
+      "method": "Same-person adjacent-month joint descriptive comparison using valid utility and energy-assistance fields at month t, RFOODS/AFOODS at month t+1, WPFINWGT, and 240 Fay-BRR replicate weights.",
+      "uncertainty": "The comparison is conditional and is not a counterfactual food-security rate.",
+      "subgroup": "Person-month pairs reporting no utility-payment difficulty and no energy assistance at month t.",
+      "counterinterpretation": "The lower share may reflect lower baseline need or composition rather than a benefit of nonreceipt.",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "retrieval_hash": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda; replicate:sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6; output:sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568; script:sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2",
+      "status": "compared"
     }
   ],
   "related_sources": [
     {"source_url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2025/2025_SIPP_Data_Dictionary.pdf", "claim": "Official SIPP definitions, codes, universes, and status flags.", "status": "official-definition"},
     {"source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/rw2025_csv.zip", "claim": "Official 240-replicate-weight archive used for Fay-BRR variance.", "status": "official-replicate-weights"}
   ],
-  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_sipp_energy_assistance_food_following.py", "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv", "replicate_input": "/tmp/rw2025_csv.zip", "rows_read": 379215, "replicate_rows_read": 378291, "matched_exposure_rows": 537823, "result": "The full-file rerun reproduced all four output cells; raw inputs remain outside the repository."},
+  "reproduction_audit": {"checked": "2026-09-16", "script": "scripts/analyze_sipp_energy_assistance_food_following.py", "primary_input": "/tmp/us-broad-sipp-2025/full-v18/sipp-household-slice.csv", "replicate_input": "/tmp/rw2025_csv.zip", "rows_read": 379215, "replicate_rows_read": 378291, "matched_exposure_rows": 729363, "result": "The full-file rerun reproduced the four marginal and four joint output cells; raw inputs remain outside the repository."},
   "boundary": "This is an adjacent-month descriptive SIPP transition screen. Utility and energy-assistance fields may be reference-period or conditional household measures repeated on person-month rows, and food security is not necessarily newly measured at month t+1. No dated bill shock, assistance effect, food recovery, work/care substitution, trust, political action, or household prevalence claim is made."
 }

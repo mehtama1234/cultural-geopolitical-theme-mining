@@ -6,13 +6,17 @@
   "rows_read": 379215,
   "identified_persons": 31992,
   "replicate_rows_read": 378291,
-  "matched_exposure_rows": 537823,
+  "matched_exposure_rows": 729363,
   "cells": {
     "utility_difficulty": {"eligible_pairs": 24297, "food_security_valid_pair_n": 24297, "food_insecurity": {"valid_pair_n": 24297, "share_percent": 51.128693418665506, "standard_error_percentage_points": 2.2694295687006276, "approx_95_ci_percentage_points": [46.68061146401227, 55.57677537331874]}},
     "no_utility_difficulty": {"eligible_pairs": 321986, "food_security_valid_pair_n": 321986, "food_insecurity": {"valid_pair_n": 321986, "share_percent": 8.403370413690123, "standard_error_percentage_points": 0.32978082318037166, "approx_95_ci_percentage_points": [7.757000000256594, 9.049740827123651]}},
     "energy_assistance": {"eligible_pairs": 13399, "food_security_valid_pair_n": 13399, "food_insecurity": {"valid_pair_n": 13399, "share_percent": 32.76263947628334, "standard_error_percentage_points": 2.9023459970856154, "approx_95_ci_percentage_points": [27.074041321995534, 38.45123763057114]}},
-    "no_energy_assistance": {"eligible_pairs": 178141, "food_security_valid_pair_n": 178141, "food_insecurity": {"valid_pair_n": 178141, "share_percent": 16.934355869347375, "standard_error_percentage_points": 0.6088336230758634, "approx_95_ci_percentage_points": [15.741041968118684, 18.127669770576065]}}
+    "no_energy_assistance": {"eligible_pairs": 178141, "food_security_valid_pair_n": 178141, "food_insecurity": {"valid_pair_n": 178141, "share_percent": 16.934355869347375, "standard_error_percentage_points": 0.6088336230758632, "approx_95_ci_percentage_points": [15.741041968118684, 18.127669770576066]}},
+    "utility_difficulty__energy_assistance": {"eligible_pairs": 3772, "food_security_valid_pair_n": 3772, "food_insecurity": {"valid_pair_n": 3772, "share_percent": 61.72514014191548, "standard_error_percentage_points": 5.664014308611496, "approx_95_ci_percentage_points": [50.62367209703695, 72.82660818679402]}},
+    "utility_difficulty__no_energy_assistance": {"eligible_pairs": 16879, "food_security_valid_pair_n": 16879, "food_insecurity": {"valid_pair_n": 16879, "share_percent": 53.810649695627, "standard_error_percentage_points": 2.7887879030790796, "approx_95_ci_percentage_points": [48.344625405592005, 59.27667398566199]}},
+    "no_utility_difficulty__energy_assistance": {"eligible_pairs": 9627, "food_security_valid_pair_n": 9627, "food_insecurity": {"valid_pair_n": 9627, "share_percent": 20.987279347696848, "standard_error_percentage_points": 2.7068971474019166, "approx_95_ci_percentage_points": [15.681760938789091, 26.292797756604607]}},
+    "no_utility_difficulty__no_energy_assistance": {"eligible_pairs": 161262, "food_security_valid_pair_n": 161262, "food_insecurity": {"valid_pair_n": 161262, "share_percent": 13.078251337938166, "standard_error_percentage_points": 0.5442798025489742, "approx_95_ci_percentage_points": [12.011462924942176, 14.145039750934156]}}
   },
   "boundary": "Adjacent-file descriptive screen. SIPP utility and assistance fields may be reference-period or conditional household measures repeated on person-month rows; food security is not necessarily newly measured at t+1. The result does not establish a dated bill shock, assistance effect, food recovery, work/care substitution, trust, political action, or household prevalence.",
-  "source_hashes": {"primary": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda", "replicate": "sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "script": "sha256:6839c46d37f31c0f843381d12cb64634e81f014088512b0bb48604bd0813012b"}
+  "source_hashes": {"primary": "sha256:4fe7395d4ecdb2f1a3f2879a394f47d1e809c9bdef3960b60543919b79a61eda", "replicate": "sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6", "script": "sha256:ad7c31e53290d4904c353c1cd5c7b6a567110776884d30ea98105ee300ecb2a2", "rerun_output": "sha256:a5663c274569c3ab3e0a9cf3b2ff62d06a42fd75f34edb41a7793f4cf8467568"}
 }
