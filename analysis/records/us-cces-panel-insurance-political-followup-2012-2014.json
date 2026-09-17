@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-panel-insurance-political-followup-2012-2014",
+  "title": "Earlier health-insurance noncoverage is followed by lower political contact and action in a CCES panel",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "9,499 respondents in the retained 2010–2012–2014 Cooperative Congressional Election Study panel with valid 2012 health-insurance status; same-panel descriptive follow-up to 2014 political outcomes",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2012 health-insurance status followed by 2014 political outcomes",
+      "denominator": {
+        "value": 9499,
+        "unit": "panel respondents with valid 2012 health-insurance noncoverage item and supplied panel weight; Congress approval valid rows vary",
+        "value_type": "linked_panel_respondents"
+      },
+      "measures": {
+        "no_insurance_screen": {
+          "value": "912 no insurance (15.49% weighted); 8,587 with some insurance",
+          "unit": "2012 healthins_6 status; unweighted group counts and weighted population share",
+          "value_type": "weighted_panel_group_counts"
+        },
+        "congress_approval_favorable": {
+          "value": "11.51% after 2012 no insurance versus 10.23% among insured respondents",
+          "unit": "weighted share approving Congress somewhat or strongly in 2014; valid n=909 and 8,543",
+          "value_type": "weighted_followup_comparison"
+        },
+        "congress_approval_unfavorable": {
+          "value": "74.77% after 2012 no insurance versus 83.07% among insured respondents",
+          "unit": "weighted share disapproving Congress somewhat or strongly in 2014; valid n=909 and 8,543",
+          "value_type": "weighted_followup_comparison"
+        },
+        "any_congress_contact": {
+          "value": "31.75% after 2012 no insurance versus 40.29% among insured respondents",
+          "unit": "weighted share reporting any 2014 congressional contact route among visited/called/written/received/public-event/other fields",
+          "value_type": "weighted_followup_comparison"
+        },
+        "any_local_political_action": {
+          "value": "21.81% after 2012 no insurance versus 32.48% among insured respondents",
+          "unit": "weighted share reporting any 2014 local political meeting, political sign, campaign work, or political donation",
+          "value_type": "weighted_followup_comparison"
+        }
+      },
+      "method": "Classify 2012 healthins_6=1 as no insurance and =2 as some form of insurance in the retained panel; apply the supplied panel weight to 2014 outcome shares. Favorable Congress approval is codes 1–2 and unfavorable approval codes 3–4. Any congressional contact is any affirmative CC14_360x_2 through CC14_360x_8; any local political action is any affirmative CC14_417a_1 through CC14_417a_4.",
+      "uncertainty": "Health-insurance status is a survey status, not a dated coverage loss, bill, denial, care need, or causal exposure. The panel is selected and retained; the supplied weight's representativeness for this derived transition is not independently re-established. Prior political identity, health, income, employment, age, policy knowledge, local conditions, and other shocks remain. No replicate-weight or causal uncertainty estimate is claimed.",
+      "subgroup": "2012 no-insurance versus insured respondents in the retained three-wave panel; 2014 Congress-approval outcomes have separate valid-answer universes.",
+      "counterinterpretation": "Noncoverage may indicate age, employment, health, income, or other resource differences that also shape time and ability to participate. Lower contact and action do not prove withdrawal, distrust, or a health-policy mechanism; the near-similar favorable-approval shares show that action and institutional judgment can diverge.",
+      "source_url": "https://doi.org/10.7910/DVN/TOE8I1",
+      "retrieval_hash": "panel_dta:sha256:82c281acaa6a896a1e3071f457f64c68272a746fb43d34e8be50646f7fdc330b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://cces.gov.harvard.edu/frequently-asked-questions",
+      "claim": "The Cooperative Election Study identifies the 2010–2014 panel as a three-wave panel with 9,500 respondents re-interviewed in 2014.",
+      "status": "official-study-description"
+    },
+    {
+      "source_url": "projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md",
+      "claim": "The retained panel audit documents the local extract, field definitions, weight, and related work-to-politics screen.",
+      "status": "repository-reproduction-audit"
+    }
+  ],
+  "boundary": "This is a same-panel descriptive follow-up from 2012 health-insurance status to 2014 institutional approval, congressional contact, and local political action. It does not establish a dated coverage shock, causal health-cost effect, trust change, political withdrawal, remedy, recovery, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Retained local 9,500-row CCES panel Stata extract; raw panel file remains outside the repository",
+    "retrieval_hash": "panel_dta:sha256:82c281acaa6a896a1e3071f457f64c68272a746fb43d34e8be50646f7fdc330b",
+    "checked": "2026-09-17"
+  }
+}

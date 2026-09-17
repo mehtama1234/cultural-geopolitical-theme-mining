@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 282 records and
-1025 observations.
+have exact registered-URL references. The trend registry holds 283 records and
+1026 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -192,6 +192,12 @@ The companion [Azwar time-control record](projects/ai-work-control/uber-azwar-re
 adds an eligibility-stage distinction between logged-on standby availability,
 paid trip time, and a recurring work pattern; it does not add a remedy or exit
 outcome.
+The companion CCES insurance-status follow-up now places 2012 noncoverage before
+2014 approval, congressional contact, and local political action. Lower contact
+and action with near-similar favorable Congress approval reinforces the need to
+keep material security, institutional judgment, and political participation as
+separate currencies; a dated coverage event, attribution, remedy, and recovery
+remain open.
 The retained 2010–2014 CCES panel now adds a compact same-panel work-to-action
 screen: reported job loss precedes 2014 Congress approval, congressional
 contact, and local political action. Lower action with non-uniform approval is
