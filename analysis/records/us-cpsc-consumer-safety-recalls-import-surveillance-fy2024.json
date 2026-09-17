@@ -41,6 +41,22 @@
       "status": "reported"
     },
     {
+      "period": "Fiscal 2024; recall response-rate performance measure",
+      "denominator": {"value": 1, "unit": "CPSC FY2024 recall response-rate performance measure", "value_type": "performance_measure"},
+      "measures": {
+        "recall_response_rate": {"value": 51, "unit": "percent average correction/response rate reported for all consumer-product recalls", "value_type": "reported_performance_measure"},
+        "recall_response_target": {"value": 43, "unit": "percent FY2024 target", "value_type": "performance_target"},
+        "calculation_change": {"value": "During the FY2024 midyear review, CPSC approved a revised calculation method: an average correction rate for all consumer-product recalls, described as less variable and more representative than the prior measure.", "unit": "method note", "value_type": "reported_method_change"}
+      },
+      "method": "CPSC FY2024 Annual Performance Report key measure 2024KM2.3.1; the measure is a firm-reported correction/response performance indicator and not a household-level follow-up survey.",
+      "uncertainty": "The revised method limits direct comparison with earlier published response rates; the measure does not establish notice receipt, product identification, stop-use behavior, remedy adequacy, avoided injury, or equal response across products and households.",
+      "subgroup": "Consumer-product recalls covered by the CPSC FY2024 performance measure; product categories, recall sizes, and firm reporting vary.",
+      "counterinterpretation": "A higher reported correction rate can reflect the revised calculation, recall mix, firm reporting, remedy design, or consumer response; it is not evidence that all exposed households were reached or made whole.",
+      "source_url": "https://cpsc.gov/s3fs-public/FY-2024-APR-508-compliant.pdf",
+      "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7",
+      "status": "reported"
+    },
+    {
       "period": "Fiscal 2024; import surveillance",
       "denominator": {"value": 65000, "unit": "CPSC import examinations, over", "value_type": "administrative_count"},
       "measures": {

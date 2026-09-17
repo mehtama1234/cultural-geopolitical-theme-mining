@@ -6,7 +6,7 @@
 
 ## The bounded finding
 
-The CPSC evidence adds a consumer-safety chain that is distinct from complaint, insurance, and product-purchase data. In FY2024, CPSC reports negotiating and implementing 333 voluntary recalls involving approximately 41 million consumer-product units, sending 2,969 regulatory-violation notices, conducting more than 65,000 import examinations, and removing more than 58,000 products from e-commerce platforms after submitting more than 56,000 takedown requests.
+The CPSC evidence adds a consumer-safety chain that is distinct from complaint, insurance, and product-purchase data. In FY2024, CPSC reports negotiating and implementing 333 voluntary recalls involving approximately 41 million consumer-product units, sending 2,969 regulatory-violation notices, conducting more than 65,000 import examinations, and removing more than 58,000 products from e-commerce platforms after submitting more than 56,000 takedown requests. Its FY2024 performance report also reports a 51% recall response rate against a 43% target, but notes that CPSC revised the calculation method during the year; this is a bounded agency performance measure, not a directly comparable household response trend.
 
 These are real institutional actions, but they are not the same as consumer recovery. A recall can be issued after exposure, a takedown can remove a listing while the product remains in homes, and a remedy can be available without reaching every purchaser. The next end-to-end question is whether a hazard moves from detection to awareness, action, remedy, avoided injury, cost, trust, or exit for the same consumer or household.
 
@@ -15,6 +15,7 @@ These are real institutional actions, but they are not the same as consumer reco
 | Evidence unit | FY2024/current observation | What it makes visible | What remains open |
 |---|---:|---|---|
 | Voluntary recalls | 333 recalls; about 41M units, versus 308 recalls and 97M units in FY2023 | Negotiated firm/regulator intervention at product scale | Exposure, use, injury, notice reach, remedy receipt, and prevented harm |
+| Recall response measure | 51% FY2024 reported response/correction rate against a 43% target | A bounded performance signal that corrective action was reported at the recall-program level | Revised method limits comparison with earlier rates; notice receipt, stop-use, remedy adequacy, and avoided harm remain open |
 | Regulatory and platform action | 2,969 violation notices; >56,000 takedown requests; >58,000 products removed from platforms | Enforcement and e-commerce control points | Secondary-market availability, home inventory, consumer awareness, and replacement cost |
 | Import surveillance | >65,000 examinations, including nearly 14,000 de minimis products/shipments | A border and supply-chain intervention layer | Total unsafe flow, selection rates, origin-specific risk, and downstream exposure |
 | Injury surveillance | NEISS national probability sample of hospital emergency departments | A statistically designed product-injury estimation route | Non-ER injuries, exposure denominator, recall linkage, and household recovery |

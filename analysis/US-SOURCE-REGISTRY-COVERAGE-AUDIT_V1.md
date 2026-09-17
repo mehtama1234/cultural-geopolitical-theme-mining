@@ -96,7 +96,7 @@ or proof that every source item was read in full.
 | [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 8 | 28 | 15 | 4 | evidence-bearing; machine-record URL |
 | [General Social Survey / NORC](https://gss.norc.org/) | US repeated cross-sectional evidence on social attitudes, trust, finance, institutions, and lived conditions | 0 | 28 | 6 | 18 | evidence-bearing; machine-record URL |
 | [National Household Travel Survey](https://nhts.ornl.gov/) | US household travel, vehicle access, mobility, work, care, and place-connection evidence | 0 | 23 | 10 | 11 | evidence-bearing; machine-record URL |
-| [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 18 | 5 | 2 | evidence-bearing; machine-record URL |
+| [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 19 | 5 | 2 | evidence-bearing; machine-record URL |
 | [US Environmental Protection Agency](https://www.epa.gov/) | US environmental exposure, regulation, emissions, waste, household risk, and place-capacity evidence | 2 | 4 | 2 | 0 | evidence-bearing |
 | [USASpending.gov](https://www.usaspending.gov/) | US federal awards, procurement, grants, recipients, places, and public-resource routing evidence | 0 | 19 | 10 | 0 | evidence-bearing |
 | [US Securities and Exchange Commission](https://www.sec.gov/) | US public-company filings, risk disclosures, capital allocation, ownership, and firm-governance evidence | 1 | 4 | 4 | 0 | evidence-bearing |

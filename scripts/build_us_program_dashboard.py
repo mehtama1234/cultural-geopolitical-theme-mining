@@ -201,7 +201,7 @@ html_doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta 
 (ROOT / "site/us-program-dashboard.html").write_text(html_doc)
 md = f'''# US program dashboard v1
 
-**Checked:** {date.today().isoformat()}  
+**Checked:** {date.today().isoformat()}
 **Status:** active long-term program control view
 
 The program maintains a US-centered, cross-source living atlas of cultural,

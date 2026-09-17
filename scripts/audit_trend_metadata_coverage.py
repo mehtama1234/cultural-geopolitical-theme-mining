@@ -51,7 +51,7 @@ def pct(n: int, d: int) -> str:
 lines = [
     "# Trend-record metadata coverage audit v1",
     "",
-    f"**Checked:** {date.today().isoformat()}  ",
+    f"**Checked:** {date.today().isoformat()}",
     "**Status:** control report; not a substantive finding",
     "",
     "This audit distinguishes the fields required for promotion from useful",
