@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "1dc43ba132dcf1fb8658ab08cdab1aa174a2f7469dd5a36a7a97f1b7d61314bf",
+  "matrix_sha256": "847c5a821f7ce4ed8dc1592a0b5f188529a0b1de5bebce4d35f087b4abe8c00f",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -40,9 +40,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 12,
+      "evidence_anchor_count": 15,
       "measurement_level": "Customer case, complaint, firm, state, sector",
-      "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; product-conditioned response and visibility are now visible, but adequacy, account exposure, failed attempts, and later behavior remain open.",
+      "next_required_test": "Follow digital/offline access \u2192 narrative and effort \u2192 response \u2192 verified remedy or abandonment \u2192 switching, trust, or non-use in the same service episode; public API/schema and platform ledger audits now make the missing correction, repeat-effort, receipt, durability, and exit fields explicit; product-conditioned response and visibility are visible, but adequacy, account exposure, failed attempts, and later behavior remain open.",
       "same_unit_end_to_end_link": false,
       "source_line": 16,
       "status_tokens": [
