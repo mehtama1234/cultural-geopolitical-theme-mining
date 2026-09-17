@@ -792,7 +792,10 @@ consumer remedy, trust, or exit.
 The product-safety lane now adds a current CPSC institutional-capacity
 counterpoint: FY2024 recalls, violation notices, import examinations, and
 e-commerce takedowns make hazard interruption visible at product and market
-scale. They do not show whether a particular household received the notice,
+scale. The CPSC recall-response measure was 51% in FY2024 and 44.55% in
+FY2025, both above the 43% target, but the revised method and recall mix make
+this a bounded agency-performance comparison. These figures do not show
+whether a particular household received the notice,
 identified the item, stopped using it, obtained a repair/replacement/refund, or
 avoided injury. The [CPSC hazard/recall/remedy layer](projects/us-marketplace-product-safety/cpsc-hazard-recall-remedy-layer-v1.md)
 therefore strengthens the consumer-power and state-capacity map without
