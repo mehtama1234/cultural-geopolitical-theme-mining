@@ -1,6 +1,6 @@
 # US broad counterexample register v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-16
 **Purpose:** keep the 14-theme program from turning recurring patterns into
 one-direction explanations.
 
@@ -25,6 +25,17 @@ absent, reversed, or absorbed differently.
 | 12. Firm, sector, and market power | Firm growth, pricing, or entry transfers cost or control without equivalent public benefit | Similar firm or sector growth with durable local jobs, service quality, competition, worker gain, or lower recipient risk | Firm/sector/place; price, jobs, service, ownership, risk |
 | 13. Infrastructure, technology, and dependency | New capacity expands capability while increasing provider or input dependence | Similar investment with interoperability, domestic alternatives, local learning, public control, and credible exit | Asset/provider/state; capacity, ownership, portability, exit |
 | 14. Geopolitical and state consequences | Domestic exposure or dependence narrows state bargaining or strategic room | Similar external dependence with diversified suppliers, credible substitution, or no observed change in external behavior | State/firm/supply chain; alternatives, bargaining, action |
+
+## Measured counterexample now in the atlas
+
+The [Uber/Hotak access-restoration follow-up](projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md)
+is a bounded counterexample for themes 3 and 5. A platform-work exclusion was
+followed by observed account reactivation and more than 150 subsequent trips,
+so operational restoration and continued work activity are not merely assumed.
+Payment receipt, net recovery, durable access, alternatives, household
+outcomes, and non-retaliation remain open. The case therefore weakens any
+simple rule that a formal remedy is either only a paper order or a complete
+recovery, while not establishing a population remedy rate.
 
 ## How to use the register
 
