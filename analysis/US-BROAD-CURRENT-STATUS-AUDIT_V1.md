@@ -1306,6 +1306,16 @@ market-transition or household result.
   counter-patterns; child presence is not treated as care burden and work
   limitation is not treated as a causal disability effect. Care time, schedule,
   benefit route, and follow-up remain open.
+- **SIPP directional work-transition depth:** the same-person monthly direction
+  screen now conditions earnings and hours on resources, work limitation, and
+  household member-under-18 status across 26,427 matched pair rows. In the
+  below-1× work-limited cells, next-month hours were unchanged for 63.1% of
+  child-present pairs versus 83.0% without children, but the child-present
+  cell has only 55 valid pairs and a 10.8-point standard error. At 4× poverty
+  or more, work-limited child-present respondents still split between earnings
+  increases (42.3%) and decreases (44.6%). This sharpens heterogeneous work
+  transition evidence without treating household composition as care,
+  parenthood, or a causal earnings effect.
 - **SIPP care/work design-based quality:** a follow-up Fay-BRR pass applies the
   official child-care status flags and conditional universes to payment,
   assistance, work prevention, and time lost. The time-lost estimate has only
