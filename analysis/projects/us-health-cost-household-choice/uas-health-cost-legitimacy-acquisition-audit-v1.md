@@ -40,6 +40,19 @@ provider-experience, and institution-specific trust questions. These are
 documented candidate fields only; they do not establish that the files share a
 usable respondent-wave overlap, weights, or a complete episode.
 
+### Live endpoint access probe (2026-09-16)
+
+A small live probe of the official Monthly Surveys page returned HTTP 200 and
+reconfirmed the public metadata: the Monthly Panel covers October 2023 onward,
+uses one respondent-by-wave record, and describes prior-month employment,
+health, financial, life-satisfaction, pain, and meaning/purpose measures. The
+linked Monthly Panel dataset request returned the UAS login page (the page
+identifies itself as `/page/Login` and offers registration), rather than a
+data-file response. This is positive evidence that the documentation route is
+available and direct evidence that the respondent file remains
+registration-gated; it is not a zero-row or failed-data result. No dataset was
+downloaded during this probe.
+
 This recheck confirms that public metadata and visualization are available,
 but it does not create a public microdata substitute. The UAS terms page is
 marked updated 07/09/2026, so the repository records the current access
