@@ -1,7 +1,7 @@
 # Capacity can grow before replaceability or public benefit is proven
 
 **Status:** provisional broad-program synthesis  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-17
 **Scope:** data centers, large-load utility governance, local fiscal capacity, strategic procurement, and state leverage
 
 ## Research question
@@ -117,7 +117,11 @@ industrial or alliance commitments.
 The unresolved middle is operational: accepted quantity, delivery, training,
 maintenance, interoperability, local content, component control, and the
 ability to substitute or refuse. A signed agreement or production-support
-IDIQ can increase capability potential while leaving actual leverage open.
+IDIQ can increase capability potential while leaving actual leverage open. The
+current local realization audit contains 8 Poland/JASSM-ER events, including
+2 explicitly labeled comparator rows; the additional broad delivered-
+equipment comparator does not establish delivery or acceptance of the 2024
+Polish order.
 
 This is not a separate geopolitical story added after local economics. The
 same questions recur: who owns the critical input, who can inspect it, who can
