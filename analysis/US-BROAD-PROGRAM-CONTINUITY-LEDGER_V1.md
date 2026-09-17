@@ -803,6 +803,17 @@ recovery, and later action/exit field. If that route is unavailable, publish
 the exact acquisition gap and rotate to the next theme rather than implying
 completion.
 
+The forty-third rotation applies that rule to the [MEPS episode-field
+availability finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-013.md).
+The retained 18,457-row staged ledger has complete hashed event identity and
+month-date scaffolding plus round-level context, but no episode-level
+alternative, choice, verified remedy, or meaning/action follow-up. This is a
+verified acquisition boundary, not a failed analysis. The UAS respondent files
+remain absent and registration-gated; no large respondent archive is retrieved
+by default. The next qualifying health-cost result requires an authorized
+same-unit source with the missing fields, while the broad program continues
+through other lanes.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.

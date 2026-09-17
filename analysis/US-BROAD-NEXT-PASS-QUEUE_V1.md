@@ -2484,6 +2484,7 @@ The latest broad continuation added four bounded outputs:
 2. [Migration participation currencies](projects/us-immigration-local-demand/findings/us-immigration-local-demand-003.md): population presence, local capacity, institution-specific trust, civic action, voting, and safe use are distinct outcomes and are not pooled.
 3. [Worker-power channels](projects/us-employee-ownership-meaning/findings/us-employee-ownership-meaning-002.md): financial stake, meaning, voice, technical control, recourse, remedy, security, and exit are separate channels.
 4. [Care-time hidden price](projects/us-household-calendar-integration/findings/us-household-calendar-integration-044.md): stable annual averages can coexist with selected care-related work-time sacrifice and later hardship.
+5. [MEPS episode-field availability boundary](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-013.md): a large dated event scaffold is available, but alternatives, event-specific choice, verified remedy, and meaning/action follow-up are missing.
 
 These outputs change the map but do not close a same-unit end-to-end arrow. The
 next pass must either identify a lawful event-compatible record with an

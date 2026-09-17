@@ -115,6 +115,10 @@ its unresolved arrows visible:
   stable annual time averages can coexist with selected childcare-related work
   time loss and later household hardship; protected and sacrificed outcomes
   remain unjoined.
+- [MEPS episode-field availability boundary](site/us-health-cost-household-choice-013.html):
+  18,457 staged person/event rows provide month-ordered health-cost context,
+  but alternatives, event-specific choice, verified remedy, and meaning/action
+  follow-up are absent; the missing middle is an acquisition boundary.
 
 ## Latest local evidence to review
 
