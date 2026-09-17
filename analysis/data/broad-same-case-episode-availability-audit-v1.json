@@ -50,6 +50,40 @@
       "boundary": "Some reactivation and lost-remuneration orders are visible, but the dry-run assigns 19 of 27 post-event statuses as unknown and assigns no practical-exit label."
     },
     {
+      "source": "analysis/records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json",
+      "unit": "named_recruitment_enforcement_settlement_items",
+      "records": 6,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_practice",
+        "responsible_actor": "observed_named_operators",
+        "alternative_or_nonuse": "partial_electronic_route_comparator",
+        "effort_money_or_time_tradeoff": "partial_channel_burden",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_settlement",
+        "verified_remedy": "partial_potential_fund_and_controls",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The public settlement specifies a mail-versus-electronic recruitment burden, claimant-identification and potential back-pay procedures, access-restoration controls, and oversight; it does not identify affected applicants, payment recipients, restored opportunity, durable compliance, trust, or exit."
+    },
+    {
+      "source": "analysis/records/us-doj-apple-perm-backpay-distribution-2026.json",
+      "unit": "named_recruitment_settlement_implementation_event",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_named_practice",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "partial_electronic_route_comparator",
+        "effort_money_or_time_tradeoff": "partial_channel_burden",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_settlement_implementation",
+        "verified_remedy": "partial_aggregate_completion",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "partial_aggregate_payment_completion"
+      },
+      "boundary": "The public update reports individualized lost-income review, back-pay processing and fund exhaustion, plus access-control requirements; it does not provide individual payment distribution, restored job consideration, durable compliance, trust, household recovery, or exit."
+    },
+    {
       "source": "analysis/projects/ai-work-control/data/uber-warraich-remedy-followup-recheck-v1.json",
       "unit": "single_adjudicated_platform_remedy_case",
       "records": 1,
@@ -169,7 +203,7 @@
       "boundary": "A bounded parent-product response was locally filtered on returned product and sub-product fields; complaint routing and response labels are visible, but the underlying bill, alternatives, remedy receipt, recovery, trust, action, and exit are not linked."
     }
   ],
-  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
-  "storage_boundary": "Uses nine committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses eleven committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
 }

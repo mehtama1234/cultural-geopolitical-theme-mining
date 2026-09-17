@@ -1,7 +1,7 @@
 # Broad same-case episode availability audit v1
 
 **Status:** stage-availability audit; no synthetic episode or causal estimate
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Machine record:** [same-case episode availability audit](data/broad-same-case-episode-availability-audit-v1.json)
 
 ## Why this audit matters
@@ -29,6 +29,8 @@ separate.
 |---|---|---|
 | CFPB student-loan event ledger (25 rows) | Public route, complaint/event handling | Recipient alternatives, verified remedy, recovery, trust/action, exit |
 | Platform remedy dry-run (27 episodes) | Adjudication, reactivation, some lost-remuneration orders | Alternatives, remedy receipt/durability, post-event status, practical exit |
+| OpenAI/Statsig PERM settlement (6 recruitment items) | Named recruitment-channel burden, claimant-identification route, potential back-pay, access-restoration controls, oversight | Applicant-level exposure, alternatives/effort, payment receipt, restored opportunity, durable compliance, trust/action, household recovery, exit |
+| Apple PERM implementation (1 settlement event) | Named recruitment-channel burden, individualized lost-income review, $18.25m back-pay processing/exhaustion, access-control requirements | Individual payment distribution/timing, restored opportunity, post-monitoring compliance, worker voice, trust/action, household recovery, exit |
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
@@ -38,8 +40,9 @@ separate.
 
 ## Result
 
-No current local source supplies all nine required stages. The platform ledger
-and Hotak follow-up come closest to a response/remedy/implementation surface;
+No current local source supplies all nine required stages. The platform ledger,
+the OpenAI/Statsig and Apple recruitment-remedy events, and the Hotak follow-up
+come closest to a response/remedy/implementation surface;
 MEPS, SHED, and HTOPS provide different kinds of person-level timing or
 persistence, while Warraich supplies a formal-remedy boundary. These are useful
 complements, but they cannot be joined into one consumer or household story.
@@ -67,4 +70,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses seven committed local records and downloads nothing.
+The audit uses eleven committed local records and downloads nothing.
