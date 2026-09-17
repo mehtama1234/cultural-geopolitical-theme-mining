@@ -33,7 +33,7 @@ the missing join instead of presenting those layers as one causal story.
 | **ANES 2016–2020–2024 panel subset** | Repeated-panel respondent subset; pre-election financial worry crossed with federal trust and post-election reported vote | Worry is temporally ordered before reported vote, with non-monotonic trust and vote patterns | Direct material exposure, attribution, prior party identity in the causal design, action beyond vote, institutional response, and representative retention |
 | **CPS 2024 Voting Supplement** | Person/household survey; registration, voting, and reported participation barriers | Political participation and nonparticipation are distinct observed outcomes with social-position differences | Whether a specific material or administrative burden caused the reported barrier, plus trust, remedy, and later behavior |
 | **Public-system and consumer route designs** | Program/complaint/service records and proposed same-episode ledgers | Visibility, route, effort, response, and remedy can be specified as an episode | A linked recipient outcome showing attribution, trust, action, recovery, switching, or exit |
-| **Practical-exit contract dry-runs** | 27 platform-remedy cases and 25 CFPB student-loan event-ledger rows, plus SHED same-respondent adaptation | Access restoration, complaint routing, response labels, and repeated consumer adaptation are separately observable | Alternatives, remedy receipt, protected/sacrificed outcome, later trust/action, switching, non-use, and exit remain sparse or unknown; see the [cross-domain observability audit](projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md) |
+| **Practical-exit contract dry-runs** | 27 platform-remedy cases and 25 CFPB student-loan event-ledger rows, plus SHED same-respondent adaptation; the Rehman case adds a formal reactivation and lost-remuneration order | Access restoration, complaint routing, response labels, formal remedy, and repeated consumer adaptation are separately observable | Alternatives, remedy receipt, protected/sacrificed outcome, later trust/action, switching, non-use, and exit remain sparse or unknown; see the [cross-domain observability audit](projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md) and [Rehman remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md) |
 | **Capacity/dependence realization lane** | US data-center and Poland JASSM-ER ledgers; 74-row JASSM/LRASM supplier-control surface | Commitment, capacity, governance, supplier identity, planned delivery, and operational-stress stages are visible | Accepted output, replaceability, public/partner incidence, and changed external behavior; see the [realization-stage audit](projects/ai-work-control/capacity-dependence-realization-audit-v1.md) |
 | **SIPP material-to-buffer gate** | Existing local SIPP utility condition at month *t* followed by credit-balance and savings-account fields at month *t+1*; 294,145 pair keys matched to 240 replicate weights | The field-timing test found zero valid adjacent-month credit or savings state changes, so these fields cannot supply a monthly borrowing, repayment, or recovery arrow | Dated bill/transaction, shutoff or assistance event, genuine buffer movement, payment success, recovery, and later meaning/action; see the [gate memo](projects/us-household-calendar-integration/sipp-utility-buffer-following-gate-v1.md) |
 
@@ -110,6 +110,12 @@ confirms that the retained local panel record contains no represented
 attribution, distinct civic/political action, remedy, recovery, switching, or
 exit field. This is a local-artifact boundary, not evidence that the source
 PUFs lack those variables.
+
+The targeted [Rehman platform remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md)
+adds a useful institutional counterexample: a formal order can restore access
+and order gross lost remuneration after voluntary reactivation, while payment
+receipt, alternatives, net recovery, durability, and practical exit remain
+unobserved. The case is comparative Australian evidence, not a US estimate.
 
 ## Next decisive test
 
