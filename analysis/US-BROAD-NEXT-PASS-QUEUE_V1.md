@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 273 records and
-1008 observations.
+1009 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -188,6 +188,15 @@ The companion [Azwar time-control record](projects/ai-work-control/uber-azwar-re
 adds an eligibility-stage distinction between logged-on standby availability,
 paid trip time, and a recurring work pattern; it does not add a remedy or exit
 outcome.
+
+The storage-light Amazon Prime recheck adds an implementation-status
+counterpoint: the settlement administrator FAQ states a July 27, 2026 claims
+deadline and payments by September 2026, while the FTC page checked the same
+day still says claims payments are expected in late 2026 with no mailing date.
+This source-vintage conflict is not a payout result. Individual receipt,
+amount, delay, continued use, switching, trust, and household recovery remain
+open; the next decisive artifact is still a dated distribution ledger or lawful
+account-level follow-up.
 
 ### ILOSTAT comparison gate
 

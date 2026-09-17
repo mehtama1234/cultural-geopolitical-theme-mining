@@ -10,6 +10,15 @@ The FTC's refund page says automatic refunds were sent in November and December
 receive automatic refunds, and remaining claims payments were expected in late
 2026.
 
+The settlement administrator's FAQ introduces a source-timing discrepancy. It
+states that claims had to be submitted by July 27, 2026 and that claims-process
+payments would be made by September 2026; it also describes status and payment-
+reissue support. The FTC page checked on the same date still says claims
+payments are expected in late 2026 and that no mailing date is available.
+Neither page supplies a payout ledger or customer-level receipt. The
+discrepancy is therefore an implementation-status observation, not evidence of
+payment completion or noncompliance.
+
 ```text
 challenged enrollment or cancellation flow
   -> legal eligibility rule
@@ -31,7 +40,7 @@ that every refund restored the same amount of household room.
 |---|---|---|
 | Alleged enrollment/exit mechanism | FTC describes challenged enrollment flows and difficult cancellation allegations | The share of all Prime customers exposed, intent at enrollment, or each person's experience |
 | Aggregate remedy | $1.5B customer-refund pool, $1B civil penalty, maximum individual refund of $51 | Average payment, total customer count, or the amount any named customer received |
-| Distribution timing | Automatic refunds reported for November/December 2025; claim notices beginning January 2026; remaining payments expected late 2026 | Successful receipt, failed notice, claim denial, delay, or the eventual completed distribution |
+| Distribution timing | Automatic refunds reported for November/December 2025; claim notices beginning January 2026; FTC says remaining payments expected late 2026; administrator FAQ states payments by September 2026 and describes reissue support | Successful receipt, failed notice, claim denial, delay, source-vintage resolution, or the eventual completed distribution |
 | Post-remedy life | No public customer-level follow-up in the FTC refund page | Continued Prime use, cancellation, switching, renewed trust, time recovery, or reduced household strain |
 
 ## Why this matters for the broad goal
@@ -72,9 +81,11 @@ at the institutional stage and do not infer household recovery.
 - [FTC Amazon Prime case docket](https://www.ftc.gov/legal-library/browse/cases-proceedings/2123050-amazoncom-inc-rosca-ftc-v)
 - [FTC Amazon refunds page](https://www.ftc.gov/enforcement/refunds/amazon-refunds)
 - [FTC settlement announcement](https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon)
+- [Settlement administrator FAQ](https://www.subscriptionmembershipsettlement.com/frequently-asked-questions.aspx)
 - [Shutterstock companion finding](us-subscription-inattention-001.md)
 - [Machine-readable trend record](../../../records/us-ftc-amazon-prime-enrollment-refunds-2026.json)
 
-**Evidence status:** official case and refund-administration evidence with
-aggregate and timing stages; customer-level receipt, household recovery,
-continued use, switching, trust, and practical exit remain unobserved.
+**Evidence status:** official case, FTC administration, and settlement-
+administrator evidence with aggregate, timing, and source-vintage stages;
+customer-level receipt, household recovery, continued use, switching, trust,
+and practical exit remain unobserved.

@@ -41,12 +41,31 @@
       "source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds",
       "retrieval_hash": "sha256:0a4992d4f2d00f98b8bd868a9e9e52a2b41cf44105e4934b669fab0539d5a388",
       "status": "reported"
+    },
+    {
+      "period": "Amazon Prime settlement administrator FAQ checked September 17, 2026; FAQ content crawled August 2026",
+      "denominator": {"value": 1, "unit": "official settlement-administrator implementation page", "value_type": "institutional_case_count"},
+      "measures": {
+        "claims_deadline": {"value": "July 27, 2026", "unit": "claim-process deadline stated in administrator FAQ", "value_type": "reported_administration_date"},
+        "claims_payment_timing": {"value": "payments stated as made by September 2026", "unit": "administrator FAQ implementation expectation", "value_type": "reported_future_stage"},
+        "payment_status_support": {"value": "FAQ says claimants can seek status information and use a payment reissue route for an unredeemable check or electronic payment", "unit": "reported post-distribution support route", "value_type": "reported_process"},
+        "source_timing_conflict": {"value": "administrator FAQ says payments by September 2026, while FTC refund page checked the same date says late 2026 and gives no mailing date", "unit": "source-vintage implementation discrepancy", "value_type": "reported_conflict"},
+        "individual_receipt": {"value": "not observed", "unit": "missing customer-level payment, amount, delay, and household-recovery endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official settlement-administrator FAQ compared with the current FTC refund-administration page; deadline, payment-timing, support-route, and source-vintage conflict are retained separately from receipt.",
+      "uncertainty": "The administrator FAQ is a public process page rather than a payout ledger. It provides no number paid, amount distributed, approval or denial count, failed-notice count, unredeemed-payment count, or evidence that the stated September timing was met.",
+      "subgroup": "Automatic-payment recipients, claim-process applicants, approved claimants awaiting payment, recipients needing reissue, and customers with no observed notice or receipt.",
+      "counterinterpretation": "The timing difference may reflect a stale administrator FAQ, different payment cohorts, mailing/processing lag, or a later FTC update; it should not be interpreted as noncompliance or completed payment without a dated distribution record.",
+      "source_url": "https://www.subscriptionmembershipsettlement.com/frequently-asked-questions.aspx",
+      "retrieval_hash": "sha256:ece76d4985b9bf27b04fe72ea8783f3be8ee5328daa349abb5e91ba6bbff876a",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon", "claim": "FTC announcement of the Amazon Prime settlement and its monetary components.", "status": "official-press-release"},
     {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2123050-amazoncom-inc-rosca-ftc-v", "claim": "FTC case docket lists the court-entered stipulated order and current case status.", "status": "official-case-record"},
-    {"source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds", "claim": "FTC describes eligibility, automatic refunds, claims notices, refund cap, and expected later payment timing.", "status": "official-refund-administration"}
+    {"source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds", "claim": "FTC describes eligibility, automatic refunds, claims notices, refund cap, and expected later payment timing.", "status": "official-refund-administration"},
+    {"source_url": "https://www.subscriptionmembershipsettlement.com/frequently-asked-questions.aspx", "claim": "Settlement administrator FAQ states the claims deadline, payment timing, payment-support routes, and post-distribution reissue process.", "status": "official-settlement-administrator"}
   ],
   "boundary": "This record adds a large named subscription remedy to the consumer-attention atlas. It establishes aggregate remedy design and reported distribution stages, not the prevalence of unwanted enrollment, individual payment receipt, restored household room, time recovery, continued use, switching, trust, or practical exit. The next test is a de-identified account-level or authorized administrator follow-up preserving eligibility, notice, claim, receipt, amount, delay, continued use, switching, and later trust separately."
 }

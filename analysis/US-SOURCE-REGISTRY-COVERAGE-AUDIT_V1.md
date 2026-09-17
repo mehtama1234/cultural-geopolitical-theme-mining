@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **72**
+- Observed domains outside registered families: **73**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -250,6 +250,7 @@ without a recurring acquisition need and source-specific metadata.
 | `ils.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
 | `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `subscriptionmembershipsettlement.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bwc.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cy.ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
