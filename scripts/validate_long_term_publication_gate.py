@@ -34,6 +34,7 @@ CHECKS = [
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
     ("broad counterexample register", ["scripts/validate_broad_counterexample_register.py"]),
     ("UAS Older Ages follow-up guards", ["scripts/test_uas_older_ages_event_followup.py"]),
+    ("UAS episode manifest", ["scripts/validate_uas_episode_manifest.py"]),
     ("published site links", ["scripts/validate_published_site_links.py"]),
     ("local Markdown links", ["scripts/validate_local_markdown_links.py"]),
     ("acquisition resource policy", ["scripts/test_acquisition_resource_policy.py"]),
