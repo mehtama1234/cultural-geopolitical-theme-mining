@@ -337,6 +337,7 @@ def main():
     material_meaning_action_audit = ROOT / "analysis/projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md"
     memos.append(material_meaning_action_audit)
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/gallup-2026-institutional-confidence-divergence-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/institutional-legitimacy-power-attribution-cross-source-synthesis-v1.md")
     memos.append(ROOT / "analysis/projects/us-food-budget-security/usda-2024-food-security-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-2025-income-poverty-insurance-vintage-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-august-2026-retail-sales-consumer-activity-layer-v1.md")
