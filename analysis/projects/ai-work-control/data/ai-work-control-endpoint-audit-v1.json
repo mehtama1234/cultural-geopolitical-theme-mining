@@ -1,7 +1,7 @@
 {
   "format": "ai-work-control-endpoint-audit-v1",
   "status": "coverage_audit_only",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "purpose": "Separate AI exposure, implementation, worker voice, control, and realized worker outcomes in the broad trend atlas.",
   "sources": [
     {
@@ -51,6 +51,14 @@
       "worker_voice_or_control": "anti-retaliation and labor-standard obligations provide an enforcement vocabulary; worker decision rights are not directly observed",
       "worker_outcome": "no named implementation, worker exposure, changed decision, enforcement disposition, correction, or compensation located",
       "boundary": "federal interpretive guidance and public source surface; not an employer-use rate, worker outcome, or compliance estimate"
+    },
+    {
+      "source": "analysis/records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json",
+      "unit": "named_US_recruitment_enforcement_case",
+      "exposure_or_implementation": "OpenAI/Statsig PERM-related recruitment required US workers to mail applications while other applicants could apply electronically; six recruitment events are identified",
+      "worker_voice_or_control": "Four OpenAI charge-based investigations, one independent investigation, and one Statsig charge-based investigation created a claimant and enforcement route",
+      "worker_outcome": "Potential back-pay fund, electronic access restoration, applicant tracking, reports, and oversight are specified; payment, restored consideration, and later worker outcomes are not observed",
+      "boundary": "Named settlement agreement; OpenAI denies the allegations, terms are not an admission of liability, and no individual recovery or compliance completion is yet public"
     }
   ],
   "program_result": "AI/work evidence is strongest at exposure, adoption, organizational implementation, and consultation/design stages. It is weaker at same-workplace worker control, enforcement, distributional outcomes, household security, and bargaining change.",

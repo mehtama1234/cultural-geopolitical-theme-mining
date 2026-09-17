@@ -2,7 +2,7 @@
 
 **Status:** bounded stage comparison; no worker-welfare, household-security, or
 exit estimate
-**Checked:** 2026-09-16
+**Checked:** 2026-09-17
 **Machine record:** [named workplace system stage ledger](data/named-workplace-system-stage-ledger-v1.json)
 
 ## What this adds
@@ -33,6 +33,7 @@ named system and owner
 | IBM Germany AI framework | Anticipatory governance rules and representative architecture | Live exposure, intervention, enforcement, worker/household outcomes, exit |
 | Microsoft Places | Company-reported product change: country targeting and default opt-out; current official docs specify consent, override, policy scope, and Inform/Ask/Off controls | Actual tenant mode, exposure, opt-out consequence, enforceability, privacy/work outcomes, household effects |
 | Microsoft 365 Copilot | Company-reported controlled rollout and representative feedback loop | Specific feature change, review enforcement, worker outcomes, household security, exit |
+| OpenAI/Statsig PERM recruitment | DOJ settlement with potential back-pay fund, electronic-application restoration, claimant process, reporting, and three-year oversight | Actual claimant eligibility/payment, restored consideration, implementation logs, household effects, and later behavior |
 
 ## Interpretation
 
@@ -49,7 +50,11 @@ whether an override or appeal worked, what happened to pace, workload, pay,
 health, schedule control, and bargaining, and whether the effect reached the
 household or changed staying, switching, quitting, or organizing. A differently
 governed workplace is required to avoid converting a named company account into
-a general societal trend.
+a general societal trend. The OpenAI/Statsig case adds a US access-and-remedy
+route: a recruitment channel can impose unequal effort before a hiring
+decision, and enforcement can specify both potential compensation and
+technical access repair. The agreement still does not establish payment or
+restored opportunity.
 
 The Microsoft Places technical-control note adds a limited corroboration layer:
 official product documentation makes user override, administrator geography,
@@ -65,5 +70,5 @@ power.
 python3 scripts/validate_named_workplace_system_stage_ledger.py
 ```
 
-The validator checks three committed local records plus the linked technical
+The validator checks four committed local records plus the linked technical
 source note and downloads nothing.

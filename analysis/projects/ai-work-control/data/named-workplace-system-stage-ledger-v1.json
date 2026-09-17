@@ -58,6 +58,20 @@
       "exit_or_collective_action": "Participation in testing reported; opt-out, refusal consequence, transfer, quit, or later collective action not observed",
       "source": "analysis/projects/ai-work-control/microsoft-germany-works-council-copilot-deployment-record-v1.md",
       "boundary": "Company implementation reporting establishes a feedback loop, not a worker-level causal or representative result."
+    },
+    {
+      "event_id": "US-OPENAI-STATSiG-2026-PERM-RECRUITMENT",
+      "system_and_owner": "OpenAI OpCo, LLC and Statsig, Inc.; PERM recruitment and application systems",
+      "dated_implementation_or_rule": "OpenAI recruitment practice no later than 2023-06 through 2025-04; Statsig July 2025; settlement effective 2026-08-03",
+      "worker_exposure": "US workers were required to submit PERM applications by mail while other applicants could apply electronically; six PERM-related advertisements/recruitments identified",
+      "worker_voice": "Four OpenAI charge-based investigations plus an independent investigation and one Statsig charge-based investigation; individual charging parties and potential claimants are partly redacted",
+      "specific_control_or_rule_change": "$2 million potential back-pay fund; electronic posting/application; unique identifiers; applicant-tracking capture/searchability; good-faith qualification review; policy approval and training",
+      "enforcement_or_appeal": "IER claimant contact and eligibility process, semiannual reports, three-year inquiry/inspection authority, and 30-day cure route; implementation and exercise not yet observed",
+      "worker_outcome": "Potential back-pay liability is defined, but eligible claimant count, payment receipt, restored consideration, hiring, time/cost burden, and job outcome are not observed",
+      "household_outcome": "Not observed: resources, care, debt, housing, food, or recovery",
+      "exit_or_collective_action": "Individual charge rights remain; later job search, switching, organizing, trust, or political action not observed",
+      "source": "analysis/records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json",
+      "boundary": "Named US recruitment-enforcement case with access-restoration and potential-recovery obligations; agreement is not an admission of liability and does not prove individual recovery or later behavior."
     }
   ],
   "result": "The named cases reach governance and, for Microsoft Places, a reported product-design change. None currently reaches independently observed enforcement, worker welfare, household security, or practical exit.",
