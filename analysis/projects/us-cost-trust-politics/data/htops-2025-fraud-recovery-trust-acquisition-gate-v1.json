@@ -1,0 +1,36 @@
+{
+  "format": "htops-2025-fraud-recovery-trust-acquisition-gate-v1",
+  "status": "metadata_screened_acquisition_route",
+  "checked": "2026-09-16",
+  "raw_downloaded": false,
+  "route": "April HTOPS fraud exposure -> reporting/recovery -> trust, support, and life satisfaction",
+  "candidate_fields": {
+    "exposure": ["FRAUD1", "FRAUD7"],
+    "reporting_or_action": ["FRAUD2", "FRAUD3", "FRAUD8"],
+    "loss": ["FRAUD4", "FRAUD5"],
+    "recovery": ["FRAUD6"],
+    "meaning_context": ["OECD", "SOC1_first", "SOC2_first", "SOC3", "SOC4", "SOC5", "SOC6", "Trust1", "Trust2", "Trust3"]
+  },
+  "metadata_findings": {
+    "april_user_notes_list_fraud_module": true,
+    "april_user_notes_list_life_satisfaction_support_trust": true,
+    "june_user_notes_list_material_and_trust_fields": true,
+    "june_user_notes_list_fraud_module": false,
+    "official_release_components": ["public_use_file", "replicate_weight_file", "data_dictionary"]
+  },
+  "bounded_acquisition": {
+    "first_release": "HTOPS April 2025",
+    "compressed_download_budget_mb": 20,
+    "temporary_extract_only": true,
+    "raw_archive_retention": "delete after hashes and schema checks",
+    "second_release_condition": "only if April schema identifies a compatible shared identifier and a follow-up variable that changes the test"
+  },
+  "promotion_boundary": "Retrospective fraud questions do not identify a dated incident, named actor, alternatives, effort, remedy timing, or later trust change. Reporting, recovery, trust, and life satisfaction must remain separate outcomes; no causal panel effect or practical-exit claim is permitted.",
+  "stop_rules": ["missing dictionary", "missing replicate weights", "incompatible respondent key", "uninterpretable recovery coding", "undefined denominator"],
+  "sources": [
+    "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
+    "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2504_HTOPS_Household_Pulse_User_Notes.pdf",
+    "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2506_HTOPS_Household_Pulse_User_Notes_04232026.pdf"
+  ],
+  "boundary": "Metadata-only route selection; no raw HTOPS archive or estimate is retained."
+}

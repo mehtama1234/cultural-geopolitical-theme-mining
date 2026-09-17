@@ -150,6 +150,13 @@ confirms that the retained panel record does not expose attribution, distinct
 action, remedy, recovery, switching, or exit. If the PUFs return to the
 workspace, the next step is a dictionary-and-shared-ID audit for those fields
 before any new estimate; the local audit does not imply source-level absence.
+The storage-light next source screen is now the [HTOPS fraud, recovery, and
+trust acquisition gate](projects/us-cost-trust-politics/htops-2025-fraud-recovery-trust-acquisition-gate-v1.md):
+inspect only the April 2025 module metadata and, if the dictionary/schema gate
+passes, acquire one bounded PUF slice under a 20 MB budget. Its candidate
+route is retrospective scam exposure → reporting/recovery → trust and life
+satisfaction; it must not be treated as a dated causal or April-to-June panel
+effect.
 
 ### ILOSTAT comparison gate
 
