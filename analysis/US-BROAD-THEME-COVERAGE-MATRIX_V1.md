@@ -54,6 +54,13 @@ deepens themes 9 and 11 by showing that material concern enters political
 meaning through identity rather than one uniform population pathway; the
 weighted table remains descriptive and has no design-based standard errors.
 
+**Latest consumer-recourse conditioning:** the [CFPB Cash App fraud redress
+case record](projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md)
+adds a named US enforcement episode with documented dispute-process failure,
+formal operational correction, and up to $120 million in consumer redress. It
+deepens themes 3, 4, 9, and 13 while preserving the missing individual receipt,
+repeat effort, recovery, trust, switching, and practical-exit fields.
+
 ## How to use it
 
 Each new topic should be assigned to one or more rows, then tested across
