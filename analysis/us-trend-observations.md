@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-269 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+270 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -409,6 +409,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | The FTC opened an information-gathering response to AI companion risks without establishing harm | voice, time, cost | platforms_data_attention, consumer_power_recourse, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | Federal Trade Commission Section 6(b) inquiry orders to seven AI companion chatbot companies | United States federal consumer-protection institution; companies and users are not a population sample | 1 | September 11, 2025; FTC AI companion inquiry launch | reported | [open](records/us-ftc-ai-companion-inquiry-2025.json) |
 
 **Boundary:** This record captures a federal institutional response to the possibility that AI chatbots may act as companions and create consumer or child-safety risks. It does not establish actual harm, dependence, manipulation, data misuse, regulatory effectiveness, or a completed remedy. It should be connected to company responses, product terms, user outcomes, complaints, and any later FTC action only after those records are obtained.
+
+| Worker payment distribution can be visible without restored worker power | cost, work, voice | consumer_power_recourse, platforms_data_attention, work_control_bargaining, firm_sector_market_power, trust_identity_meaning | Federal Trade Commission Amazon Flex tip-refund program and eligible delivery drivers; named enforcement and refund-administration records, not a representative worker sample | United States federal consumer-protection enforcement and eligible Amazon Flex drivers | 1 | 2016 through August 2019 practice; payment administration checked September 17, 2026 | reported | [open](records/us-ftc-amazon-flex-driver-tip-refunds-2026.json) |
+
+**Boundary:** This record establishes administrator-reported worker payment distribution and a current reissue route. It does not establish individual receipt, average recovery, remaining loss, continued work, alternative work, household security, bargaining power, trust, collective action, or exit. It is not a representative worker trend or a causal estimate.
 
 | A large subscription remedy can distribute refunds without closing the individual recovery chain | cost, time, voice | household_room_consumption, time_hidden_price, consumer_power_recourse, platforms_data_attention, firm_sector_market_power, public_systems_feedback, trust_identity_meaning | Federal Trade Commission Amazon Prime ROSCA enforcement case and official refund administration page; case and refund-program records, not a representative household sample | United States federal consumer-protection enforcement and eligible Amazon Prime customers | 2 | September 25, 2025; court-entered Amazon Prime settlement described by FTC; January 2026 through late 2026; FTC refund administration update checked September 17, 2026 | reported | [open](records/us-ftc-amazon-prime-enrollment-refunds-2026.json) |
 

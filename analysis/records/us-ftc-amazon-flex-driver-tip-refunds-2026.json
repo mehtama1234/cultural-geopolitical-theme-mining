@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-amazon-flex-driver-tip-refunds-2026",
+  "title": "Worker payment distribution can be visible without restored worker power",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission Amazon Flex tip-refund program and eligible delivery drivers; named enforcement and refund-administration records, not a representative worker sample",
+  "geography": "United States federal consumer-protection enforcement and eligible Amazon Flex drivers",
+  "observations": [
+    {
+      "period": "2016 through August 2019 practice; payment administration checked September 17, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "refund program scope",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "formal_compensation_obligation": {
+          "value": 61710583,
+          "unit": "US dollars",
+          "value_type": "reported_consent_order_amount"
+        },
+        "earlier_distribution_total": {
+          "value": 60600000,
+          "unit": "US dollars, more than",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "earlier_payment_rounds": {
+          "value": "November 2021 and May 2025",
+          "unit": "FTC-reported payment rounds",
+          "value_type": "reported_distribution_stage"
+        },
+        "current_reissue_route": {
+          "value": "Zelle payments to eligible drivers who did not cash their checks",
+          "unit": "FTC-reported administration stage",
+          "value_type": "reported_followup_route"
+        },
+        "individual_receipt": {
+          "value": "not fully observed",
+          "unit": "missing outcome field",
+          "value_type": "unmeasured"
+        },
+        "continued_work_switching_household_recovery": {
+          "value": "not observed in public refund record",
+          "unit": "missing downstream endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "FTC official consent-order, payment-distribution announcement, and current refund-administration page; reported program terms and distribution stages are retained without treating them as a worker-level estimate.",
+      "uncertainty": "The current page does not publish the complete eligible-driver denominator, current-round success rate, individual amounts, failed delivery, remaining loss, continued work, alternative work, household recovery, or bargaining outcome. The formal amount and distribution total are not interchangeable.",
+      "subgroup": "Amazon Flex drivers eligible under the FTC refund program; earlier paid, uncashed, reissued, ineligible, and unknown-status drivers are distinct groups.",
+      "counterinterpretation": "Payment receipt may resolve a financial loss for some drivers without changing continued platform use or exit; failure to cash an earlier check may reflect address or payment-channel friction rather than refusal of the remedy.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers",
+      "retrieval_hash": "sha256:1ef5d398a210267b3be9d0300c76d918a69a154aa8d509a72a254b5dfed215ba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-approves-final-administrative-consent-order-against-amazon-withholding-customer-tips-amazon-flex",
+      "claim": "FTC consent-order amount and future pay/tip disclosure and consent requirements.",
+      "status": "official-press-release"
+    },
+    {
+      "source_url": "https://consumer.ftc.gov/consumer-alerts/2021/11/ftc-returns-60-million-amazon-illegally-took-flex-drivers",
+      "claim": "FTC reported initial check and PayPal distribution counts and amounts.",
+      "status": "official-payment-announcement"
+    }
+  ],
+  "boundary": "This record establishes administrator-reported worker payment distribution and a current reissue route. It does not establish individual receipt, average recovery, remaining loss, continued work, alternative work, household security, bargaining power, trust, collective action, or exit. It is not a representative worker trend or a causal estimate."
+}

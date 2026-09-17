@@ -485,9 +485,9 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 269 machine-readable records, 1000 observations,
+The current registry contains 270 machine-readable records, 1001 observations,
 and 103 source packets across 14 program themes. It does not claim that the
-269 records describe separate evidence units rather than the same people or that one
+270 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
 proposition: financial improvement can coexist with worse health; SNAP exit
 can coexist with hardship; continued receipt can coexist with utility burden;
