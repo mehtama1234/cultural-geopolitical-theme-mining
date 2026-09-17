@@ -201,6 +201,33 @@ person whole. The next same-case ledger should preserve the product/account
 identity, notice route, effort, remedy, delay, cost, and later exit across the
 relevant domain rather than treating a public intervention as the endpoint.
 
+## 7. Formal redress and distribution are separate stages
+
+Two named CFPB cases sharpen the remedy boundary. In the Cash App case, the
+Bureau documented fraud and dispute-process failures, required operational
+changes, and ordered at least $75 million—and up to $120 million—in consumer
+redress. A current payment-by-case check did not list Block/Cash App as an
+active distribution case. That absence does not prove nonpayment; it means the
+public distribution status and individual receipt are not established here.
+
+BrightSpeed supplies the contrasting visible distribution stage. The CFPB
+identifies 122,507 eligible consumers, $53,885,244 in compensable harm, Epiq
+Systems as payment administrator, and distribution ongoing from July 23,
+2024. This is stronger evidence of an administrative payment route than a
+formal order alone, but it still does not reveal how many checks were issued,
+successfully delivered, or sufficient to repair each person's loss.
+
+| Case | Formal response | Public distribution surface | Still unknown |
+|---|---|---|---|
+| Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
+| BrightSpeed | Enforcement action against payment processing for fraudsters | 122,507 eligible consumers, $53.9M compensable harm, administrator, ongoing distribution | Issuance, delivery, amount received, residual loss, recovery, trust, exit |
+
+The comparison prevents a common error: reading an enforcement order,
+administrator listing, or aggregate harm amount as proof that a particular
+consumer recovered. The next public check should capture payment status and
+administrator updates over time; the strongest eventual design remains a
+privacy-approved individual payment/account follow-up.
+
 ## What the current evidence supports
 
 The durable finding is institutional rather than psychological:
