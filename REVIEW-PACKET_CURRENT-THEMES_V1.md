@@ -23,6 +23,26 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+## Recent cross-theme additions
+
+These four routes extend the broad chain while keeping each evidence unit and
+its unresolved arrows visible:
+
+- [Doxo bill-payment friction](site/us-doxo-bill-payment-hidden-fees-001.html):
+  household payment route, fee/affiliation uncertainty, and proposed remedy;
+  bill success, continuity, remedy receipt, and switching remain open.
+- [Grubhub multi-sided remedy](site/us-grubhub-platform-remedy-001.html) and
+  [practical-exit synthesis](site/practical-exit-cross-domain-synthesis-v1.html):
+  platform design, diner/driver/restaurant exposure, redress, and controls;
+  group-specific recovery and exit remain open.
+- [SNAP data governance](site/us-snap-data-governance-accountability-001.html)
+  and [public-help synthesis](site/public-help-route-buffer-judgment-synthesis-v1.html):
+  benefit administration, data-access/privacy conflict, and institutional
+  response; applicant continuity, trust, and political action remain open.
+- [Taiwan semiconductor capacity route](site/ai-work-control-090.html):
+  strategic commitment and partial realization; independent output, local
+  burden, replaceability, and reduced geopolitical dependence remain open.
+
 ## Latest local evidence to review
 
 ### Latest breadth rotation
