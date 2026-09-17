@@ -69,6 +69,27 @@ counts describe the qualifying rows within the first 1,000 returned parent
 records for each year only. If a bounded response contains too few qualifying cases,
 increase the page cap only after measuring storage, or use a documented
 pagination strategy.
+
+### A narrow year-to-year surface comparison
+
+The retained ledgers permit one bounded comparison of how the administrative
+route was coded inside each retrieval frame:
+
+| Surface | 2024 frame | 2025 frame | Safe reading |
+|---|---:|---:|---|
+| Timely route label | 47/48 (97.9%) | 46/49 (93.9%) | The sampled route labels differ; this is not a response-time trend. |
+| Closed with non-monetary relief | 4/48 (8.3%) | 5/49 (10.2%) | Relief labels are administrative categories, not verified consumer recovery. |
+| Public response flag present | 19/48 (39.6%) | 15/49 (30.6%) | Publication visibility differs within the capped frames; it is not a remedy or disclosure rate. |
+
+The comparison is interesting because response coding and public visibility do
+not move as one surface: the later frame has slightly fewer timely labels and
+more non-monetary-relief labels, while its public-response flag is less common.
+But the frames cover different dates (a short August–September 2024 window
+versus October 2025–January 2026), different returned parent-product orders,
+and different state compositions. The denominators are 48 and 49 qualifying
+rows after local filtering, not all medical-debt complaints. Nothing here
+supports a change in consumer harm, remedy success, bill resolution, or trust.
+
 The route must still be treated as complaint-selected administrative evidence,
 not a population sample or verified remedy dataset.
 
