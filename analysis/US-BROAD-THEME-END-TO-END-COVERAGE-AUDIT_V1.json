@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "fb729d163b785fdf0e70bb1f91651d4318bc7cc6d9eab10f301878b42b1ff85f",
+  "matrix_sha256": "626f095877bb7326f56ca19a7b2246eb6ae191186c32cc45bd15b0c020f446cd",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -68,9 +68,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 10,
+      "evidence_anchor_count": 11,
       "measurement_level": "Worker, task, job, workplace, firm, respondent",
-      "next_required_test": "Pair system, ownership, or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the worker-power synthesis separates financial stake, meaning, voice, technical control, recourse, remedy, and exit; proxies are not causal work measures.",
+      "next_required_test": "Pair system, ownership, or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the worker-power synthesis separates financial stake, meaning, voice, technical control, recourse, remedy, and exit; the SHED employment bridge adds mobility, schedule, and education/control-stratified AI-use context without a same-worker causal link.",
       "same_unit_end_to_end_link": false,
       "source_line": 18,
       "status_tokens": [

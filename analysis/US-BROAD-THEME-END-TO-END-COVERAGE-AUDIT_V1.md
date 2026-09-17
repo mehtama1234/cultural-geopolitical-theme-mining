@@ -27,7 +27,7 @@ end-to-end completion.
 | Time as a hidden price | Reported / Compared | 8 | No |
 | Consumer power and recourse | Compared / Reported / Open | 16 | Yes |
 | Platforms, data, and attention | Reported / Compared / Inferred | 10 | No |
-| Work, control, and bargaining | Compared / Reported | 9 | No |
+| Work, control, and bargaining | Compared / Reported | 11 | No |
 | Care, health, and social reproduction | Reported / Compared | 12 | No |
 | Housing, place, and mobility | Compared / Reported | 15 | No |
 | Unequal exposure and status | Compared / Open | 13 | Yes |
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`fb729d163b785fdf0e70bb1f91651d4318bc7cc6d9eab10f301878b42b1ff85f`.
+`626f095877bb7326f56ca19a7b2246eb6ae191186c32cc45bd15b0c020f446cd`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
