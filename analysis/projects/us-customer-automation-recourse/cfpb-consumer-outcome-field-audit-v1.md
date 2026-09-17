@@ -1,6 +1,6 @@
 # CFPB consumer-outcome field audit v1
 
-**Checked:** 2026-09-14  
+**Checked:** 2026-09-16
 **Status:** public API field gap recorded; no remedy estimate promoted
 
 ## Purpose
@@ -24,17 +24,23 @@ https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/
   &size=3
 ```
 
-The three returned records exposed these fields:
+The 2026-09-16 probe returned three records (published query total: 21,474).
+The returned records exposed these fields:
 
 `company`, `company_public_response`, `company_response`, `complaint_id`,
-`complaint_what_happened`, `date_received`, `date_sent_to_company`,
-`has_narrative`, `issue`, `product`, `state`, `sub_issue`, `sub_product`,
-`submitted_via`, `tags`, `timely`, and `zip_code`.
+`date_received`, `date_sent_to_company`, `issue`, `product`, `state`,
+`sub_issue`, `sub_product`, `submitted_via`, `tags`, `timely`, and `zip_code`.
+
+Compared with the prior probe, this response did not include
+`complaint_what_happened` or `has_narrative`. That is a response-schema
+observation, not evidence that narratives or underlying consumer experiences
+do not exist elsewhere in the system.
 
 The probe did not expose a usable `consumer_disputed` value. In the returned
 records the key was absent rather than a documented yes/no outcome. It also did
 not expose a verified correction, amount returned, repeat contact, account
-change, switching event, or post-response consumer assessment.
+change, switching event, or post-response consumer assessment. The exact field
+inventory and retrieval hash are preserved in the [machine-readable audit](data/cfpb-consumer-outcome-field-audit-2026-09-16.json).
 
 ## Interpretation
 
@@ -75,7 +81,7 @@ claims.
 - [CFPB complaint database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
 - [CFPB API documentation](https://cfpb.github.io/api/ccdb/api.html)
 - [CFPB field reference](https://cfpb.github.io/api/ccdb/fields.html)
+- [2026-09-16 machine-readable probe](data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
 - [Existing recourse visibility layer](cfpb-recourse-visibility-remedy-layer-v1.md)
 - [Existing case-route sample](cfpb-case-route-sample-2024-v1.md)
 - [Consumer recourse bridge](consumer-recourse-power-exit-cross-source-bridge-v1.md)
-

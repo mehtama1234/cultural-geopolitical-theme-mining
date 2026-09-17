@@ -76,7 +76,10 @@ The [consumer-outcome field audit](cfpb-consumer-outcome-field-audit-v1.md)
 records a fixed public-API probe showing that the current fields do not provide
 a usable consumer-dispute, verified-correction, repeat-effort, recovery,
 switching, trust, or exit outcome. Response categories therefore remain
-institutional endpoints rather than remedy rates.
+institutional endpoints rather than remedy rates. The 2026-09-16 three-record
+recheck preserves the same downstream gap and found a narrower response field
+surface than the earlier probe; this is schema variation, not evidence of a
+consumer-outcome change.
 
 The [2026-09-14 public event-ledger acquisition audit](cfpb-public-event-ledger-acquisition-audit-2026-09-14.md)
 turns 25 public 2024 student-loan records into a validated, de-identified

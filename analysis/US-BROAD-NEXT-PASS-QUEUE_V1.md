@@ -887,6 +887,13 @@ and response labels. It does not create remedy, trust, switching, or exit
 outcomes; the next consumer-power test remains a lawful same-case or linked
 follow-up design.
 
+The [2026-09-16 CFPB schema recheck](projects/us-customer-automation-recourse/data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
+probed three mortgage records and found complaint receipt/routing/response
+fields but no verified correction, repeat effort, account change, switching,
+non-use, or post-response assessment. The response also omitted narrative
+fields seen in the earlier probe, so the field surface is treated as variable;
+the next step remains a lawful same-case follow-up with an outcome denominator.
+
 The [Federal Reserve household fraud and recovery layer](projects/us-consumer-fraud-trust/federal-reserve-household-fraud-recovery-layer-v1.md)
 now supplies the household side of that consumer-power chain: exposure,
 conditional direct loss, unrecovered money, and recovery time. It is a survey

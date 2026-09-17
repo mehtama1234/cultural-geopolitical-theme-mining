@@ -392,6 +392,15 @@ directions are preserved as selected descriptive context; later status is not
 called recovery, and adherence, continuity, remedy, household recovery, trust,
 action, and exit remain open.
 
+The thirty-third rotation rechecks the CFPB public complaint schema through a
+three-record mortgage probe documented in the [consumer-outcome field audit](projects/us-customer-automation-recourse/cfpb-consumer-outcome-field-audit-v1.md).
+The current response exposes receipt, routing, response, timeliness, and
+place/product fields but no verified correction, repeat effort, account change,
+switching, non-use, or post-response assessment; narrative-field visibility
+also differs from the earlier probe. This updates the schema boundary without
+turning response labels into remedy or exit evidence, and no bulk data was
+acquired.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
