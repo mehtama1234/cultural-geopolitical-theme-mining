@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-doxo-bill-payment-hidden-fees-2026",
+  "title": "A bill-payment intermediary can turn search confusion and hidden fees into household payment friction",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "public_systems_feedback", "platforms_data_attention", "firm_sector_market_power", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "Federal Trade Commission complaint and 2026 proposed stipulated order concerning Doxo, Inc.; institutional enforcement and internal-survey evidence, not a representative household sample",
+  "geography": "United States online bill payment for utility, car-loan, and other bills",
+  "observations": [
+    {
+      "period": "April 25, 2024 FTC complaint; internal 2022 survey and complaint mechanisms reviewed September 17, 2026",
+      "denominator": {"value": 1, "unit": "named bill-payment enforcement case", "value_type": "institutional_case_count"},
+      "measures": {
+        "payment_context": {"value": "Doxo third-party platform used for utility, car-loan, and other bill payments", "unit": "case-described service", "value_type": "reported_case_context"},
+        "official_channel_confusion": {"value": 30, "unit": "percent of 2022 Doxo heavy users making at least eight payments who falsely thought Doxo was the only way to pay their bills", "value_type": "reported_internal_survey_share"},
+        "consumer_contacts": {"value": "tens of thousands", "unit": "consumers who contacted Doxo about its payment process according to the complaint", "value_type": "reported_complaint_scope"},
+        "fee_mechanism": {"value": "extra delivery fees added to bills, including fees that were not clearly disclosed; the complaint alleges consumers paid millions in fees they would not have paid directly to billers", "unit": "alleged household payment mechanism", "value_type": "alleged_practice"},
+        "subscription_mechanism": {"value": "recurring subscription terms and fee waivers allegedly were not clearly disclosed", "unit": "alleged negative-option mechanism", "value_type": "alleged_practice"},
+        "consumer_outcome": {"value": "not observed", "unit": "missing person-level fee burden, payment success, bill status, hardship, remedy, and switching endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official FTC complaint review; the internal survey, complaint volume, fee mechanism, and payment-channel confusion are preserved as reported or alleged case evidence, not converted into a population estimate.",
+      "uncertainty": "The internal survey and complaint contacts are not representative of all Doxo users or bill payers. The complaint does not establish each consumer's intent, fee amount, payment outcome, biller relationship, hardship, or causal effect on arrears or service continuity.",
+      "subgroup": "Doxo users paying utility, car-loan, and other bills; heavy users in the cited internal survey; consumers reached through search ads; and households choosing direct biller payment or another intermediary.",
+      "counterinterpretation": "An intermediary may offer convenience or a usable payment route for some households, and a fee can be knowingly accepted; mistaken belief about official affiliation or payment necessity must be kept separate from actual payment failure or material hardship.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Doxo-Filed-Complaint.pdf",
+      "retrieval_hash": "sha256:ea398e000db2ea84e2fffadced456cbe0c2746b3e2ac0b616fe646d5fa3d7594",
+      "status": "reported"
+    },
+    {
+      "period": "August 17, 2026 FTC settlement announcement; implementation design checked September 17, 2026",
+      "denominator": {"value": 1, "unit": "named Doxo enforcement settlement", "value_type": "institutional_case_count"},
+      "measures": {
+        "proposed_consumer_redress": {"value": 2100000, "unit": "US dollars; proposed consumer redress", "value_type": "proposed_relief_amount"},
+        "formal_control_design": {"value": "prohibitions on misrepresenting biller affiliation, fees, total cost, negative-option terms, cancellation, and financial-information use; express informed consent required", "unit": "proposed stipulated order controls", "value_type": "institutional_remedy_design"},
+        "order_status": {"value": "proposed order; stipulated final orders have force of law when approved and signed by the district judge", "unit": "reported procedural status", "value_type": "reported_case_status"},
+        "redress_distribution": {"value": "not observed", "unit": "missing payment receipt, eligibility, distribution, and household recovery endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official FTC settlement announcement and case-page review; proposed redress and control design are separated from signed-order status and consumer distribution.",
+      "uncertainty": "The public release does not disclose affected-consumer count, allocation method, individual payments, refund claims, fee reversal, bill status, or recurrence-prevention audit.",
+      "subgroup": "Consumers allegedly charged add-on fees or recurring subscription charges, direct billers, Doxo, and households using online bill-payment search routes.",
+      "counterinterpretation": "A redress fund and disclosure controls can improve future informed choice without restoring prior time or money for every household; settlement terms are not evidence that every allegation or fee affected every user.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add",
+      "retrieval_hash": "sha256:113d4a9d2a5cf846e97f75b576ed595f9c71f7b6171b28295f16ca0058977520",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo", "claim": "FTC case page lists Doxo's complaint, summary-judgment opinion, and August 2026 stipulated-order timeline.", "status": "official-case-record"},
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-takes-action-against-bill-payment-company-doxo-misleading-consumers-tacking-millions-junk-fees", "claim": "Earlier FTC release describes the bill-payment impersonation and fee allegations at filing.", "status": "official-complaint-announcement"}
+  ],
+  "boundary": "This record links online search and bill-payment-channel confusion to alleged add-on fees, recurring charges, and a proposed institutional remedy. It does not estimate household fee incidence, payment failure, arrears, utility shutoff, biller relationship, consumer hardship, remedy receipt, or switching. The next test is an identifier-bearing bill-payment episode with search route, official affiliation belief, fee, payment success, bill status, correction/refund, service continuity, and alternative route.",
+  "reproduction_audit": {"retrieval_hash_scope": "FTC complaint PDF and settlement HTML retrieved without retaining repository copies", "complaint_retrieval_hash": "sha256:ea398e000db2ea84e2fffadced456cbe0c2746b3e2ac0b616fe646d5fa3d7594", "settlement_retrieval_hash": "sha256:113d4a9d2a5cf846e97f75b576ed595f9c71f7b6171b28295f16ca0058977520", "checked": "2026-09-17"}
+}

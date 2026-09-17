@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 274 records and
-1013 observations.
+have exact registered-URL references. The trend registry holds 275 records and
+1015 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2372,6 +2372,18 @@ The channel-conditioned check shows that all nonblank dispositions occur in
 the dominant BBB CA Oakland channel; the seven other/source-blank records have
 blank dispositions. Treat the response pattern as intake/coding-selected, not
 as a cross-channel resolution comparison.
+
+The [Doxo bill-payment finding](findings/us-doxo-bill-payment-hidden-fees-001.md)
+adds a household/public-payment bridge: an FTC complaint reports that about 30%
+of Doxo's surveyed heavy users falsely believed it was the only way to pay a
+bill, alongside alleged delivery fees, recurring-subscription friction, and
+tens of thousands of consumer contacts. The proposed 2026 order includes $2.1
+million in consumer redress and disclosure/consent controls, but does not show
+payment success, bill status, late fees, arrears, service continuity, remedy
+receipt, or switching. The next smallest test is an identifier-bearing,
+privacy-approved bill-payment episode ledger joining search route, affiliation
+belief, fee, payment outcome, biller status, correction/refund, and direct-biller
+alternatives.
 
 ## Sequencing rule
 

@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-274 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+275 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -437,6 +437,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Reported fraud losses rose while report volume stayed broadly stable, with loss incidence and severity split by age | cost, voice, work | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | FTC Consumer Sentinel Network administrative reports | United States reports and reports contributed by partner agencies and organizations | 2 | 2023–2024 annual Sentinel reports; 2024 fraud reports with usable age information | compared | [open](records/us-ftc-consumer-sentinel-fraud-loss-2023-2024.json) |
 
 **Boundary:** This is an administrative report and reported-loss layer, not a prevalence, verified-harm, recovery, or consumer-remedy estimate. It does not follow a person from platform or payment exposure through dispute, recovery, trust, or exit. The retrieval hash will cover the committed analysis memo.
+
+| A bill-payment intermediary can turn search confusion and hidden fees into household payment friction | cost, voice, time | household_room_consumption, consumer_power_recourse, public_systems_feedback, platforms_data_attention, firm_sector_market_power, trust_identity_meaning, infrastructure_technology_dependency | Federal Trade Commission complaint and 2026 proposed stipulated order concerning Doxo, Inc.; institutional enforcement and internal-survey evidence, not a representative household sample | United States online bill payment for utility, car-loan, and other bills | 2 | April 25, 2024 FTC complaint; internal 2022 survey and complaint mechanisms reviewed September 17, 2026; August 17, 2026 FTC settlement announcement; implementation design checked September 17, 2026 | reported | [open](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json) |
+
+**Boundary:** This record links online search and bill-payment-channel confusion to alleged add-on fees, recurring charges, and a proposed institutional remedy. It does not estimate household fee incidence, payment failure, arrears, utility shutoff, biller relationship, consumer hardship, remedy receipt, or switching. The next test is an identifier-bearing bill-payment episode with search route, official affiliation belief, fee, payment success, bill status, correction/refund, service continuity, and alternative route.
 
 | Platform redress can combine worker, consumer, and small-business controls without proving lived recovery | cost, work, voice | consumer_power_recourse, platforms_data_attention, work_control_bargaining, firm_sector_market_power, trust_identity_meaning | Federal Trade Commission Grubhub enforcement and refund-administration announcement; affected drivers, diners, and restaurants are distinct groups and not a representative sample | United States federal and Illinois consumer-protection enforcement involving Grubhub platform participants | 1 | December 2024 allegations and settlement; payment administration checked August-September 2026 | reported | [open](records/us-ftc-grubhub-multisided-remedy-2026.json) |
 
