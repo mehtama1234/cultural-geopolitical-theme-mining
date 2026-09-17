@@ -98,6 +98,10 @@ index or a claim that the same people appear in every source.
 16. **Demography becomes politics through conversion stages:** population,
    citizenship, age, eligible-voter status, registration, turnout, and coalition
    meaning are distinct. Read the [changing electorate composition layer](site/pew-2026-electorate-racial-ethnic-composition-layer-v1.html).
+17. **Geopolitical power has a legitimacy layer:** foreign publics, U.S.
+   partisans, and material-capability indicators can disagree about peace,
+   respect, interests, interference, and reliability. Read the [U.S. global-role
+   reception layer](site/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.html).
 
 ## Recent cross-theme additions
 

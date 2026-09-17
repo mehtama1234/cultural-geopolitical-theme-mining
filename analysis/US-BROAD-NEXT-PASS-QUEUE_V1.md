@@ -2840,3 +2840,10 @@ turnout, campaign contact, language infrastructure, issue meaning, and state
 geography. Keep population, eligible voters, registered voters, validated
 voters, identity, and coalition as separate stages; do not infer party choice
 from demographic composition.
+
+The [Pew 2026 U.S. global-role and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+adds a geopolitical legitimacy test. The next pass should use compact official
+evidence on foreign-public reliability, peace, respect, interests, interference,
+U.S. party/age differences, alliance coordination, aid acceptance, and market
+or cultural signals. Keep capability, perception, preference, cooperation, and
+political action separate; do not treat approval or reputation as material power.

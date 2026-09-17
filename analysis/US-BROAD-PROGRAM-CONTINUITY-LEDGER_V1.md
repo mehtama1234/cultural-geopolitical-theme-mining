@@ -1078,3 +1078,9 @@ adds demographic structure between population change and political voice. It
 preserves open links from age, citizenship, nativity, and geography to
 registration, participation, identity meaning, coalition, representation, and
 policy response.
+
+The [Pew 2026 U.S. global-role and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+adds external audiences and domestic partisan meaning between material state
+capacity and geopolitical consequence. It preserves open links from policy
+events to foreign trust, alliance cooperation, cultural/market reception,
+domestic consent, and later strategic response.

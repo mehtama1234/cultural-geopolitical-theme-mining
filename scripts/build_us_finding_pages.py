@@ -359,6 +359,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-electorate-racial-ethnic-composition-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

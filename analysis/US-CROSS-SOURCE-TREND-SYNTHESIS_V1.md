@@ -1331,6 +1331,16 @@ are composition estimates, not turnout or coalition forecasts; the next test
 follows population through eligibility, registration, participation, meaning,
 and representation.
 
+The [Pew 2026 U.S. global-role, domestic-partisan, and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+adds legitimacy and external reception to the material-capability lane. Across
+36 non-U.S. countries, a median 35% said the U.S. contributes to peace and
+stability, versus 57% of Americans; inside the U.S., Republicans were at 82%
+and Democrats at 35%. The same source finds 83% of Americans see U.S.
+interference in other countries, with majorities in both parties. These are
+perception measures, not capability or behavioral outcomes; the next test is
+an event-country-party ledger linking policy events to reputation, cooperation,
+market/cultural signals, and political response.
+
 The [GAO 2026 kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
 adds family composition as an operating care institution. About 2.4 million
 children lived in kinship families in 2023; these families were more likely to

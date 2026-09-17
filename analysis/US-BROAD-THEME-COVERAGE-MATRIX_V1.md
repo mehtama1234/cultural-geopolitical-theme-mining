@@ -196,3 +196,9 @@ adds citizenship, age, nativity, state geography, and eligible-voter structure
 to themes 7, 9, 10, 11, and 14. It strengthens the population-to-political-
 voice arrow while leaving registration, turnout, issue meaning, coalition, and
 representation open.
+
+The [Pew 2026 U.S. global-role and international-reception layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+adds foreign-public reception, domestic partisan interpretation, alliance
+legitimacy, and compromise/interference judgments to themes 9, 10, 13, and 14.
+It strengthens the material-capability-to-legitimacy arrow while leaving actual
+cooperation, reputation effects, and geopolitical leverage open.
