@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-rehman-platform-remedy-2026",
+  "title": "An Australian platform worker received formal access-restoration and lost-remuneration orders after deactivation",
+  "theme_ids": ["work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "One employee-like platform worker and adjudicated Fair Work Commission case; comparative institutional remedy record, not a population estimate",
+  "geography": "Australia",
+  "observations": [
+    {
+      "period": "2025-12-15 to 2026-03-20",
+      "denominator": {
+        "value": 1,
+        "unit": "adjudicated platform-worker case",
+        "value_type": "case_count"
+      },
+      "measures": {
+        "event_chain": {
+          "value": "Account deactivated after an alleged failed background check; application filed; voluntary reactivation communicated on 2026-02-20; Fair Work Commission issued concurrent formal reactivation and lost-remuneration orders on 2026-03-20.",
+          "unit": "case stages and dates",
+          "value_type": "adjudicated_event_sequence"
+        },
+        "ordered_lost_remuneration": {
+          "value": 7096.96,
+          "unit": "Australian dollars, gross, ordered lost remuneration",
+          "value_type": "ordered_amount"
+        },
+        "estimated_gap": {
+          "value": 9.5,
+          "unit": "weeks used in the average-weekly-earnings calculation",
+          "value_type": "calculation_input"
+        }
+      },
+      "method": "Primary adjudicated decision and official bulletin were read as a single-case event and remedy sequence; the Commission's average-weekly-earnings method and expense boundary are retained.",
+      "uncertainty": "The order is gross and does not verify payment, net earnings, avoided expenses, household recovery, alternative work, continued access, recurrence protection, trust change, collective action, or exit. The matter is one Australian case and cannot estimate platform-wide incidence.",
+      "subgroup": "Single case: Tanzeel Ur Rehman v Portier Pacific Pty Ltd, UDE2025/384",
+      "counterinterpretation": "Voluntary reactivation may have restored access before adjudication, and a formal order may not translate into realized payment or durable bargaining power. The case demonstrates remedy architecture, not typical platform practice or worker welfare.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc953.pdf",
+      "retrieval_hash": "local_record:sha256:8eae6d6c8e1f645620593e3e8fc46f6bc724dbfc6c18f0baad78d0a7b89ae202",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm",
+      "claim": "The official bulletin provides a concise public summary of the Commission matter and orders.",
+      "status": "official-case-summary"
+    },
+    {
+      "source_url": "projects/ai-work-control/uber-rehman-remedy-record-v1.md",
+      "claim": "The committed local record separates access restoration, ordered gross remuneration, payment, alternatives, durability, and exit.",
+      "status": "repository-reproduction-audit"
+    }
+  ],
+  "boundary": "This comparative Australian case closes a remedy-stage arrow from platform exclusion through worker application to access restoration and ordered lost remuneration. It does not establish payment receipt, net recovery, alternative choice, durable protection, trust change, political action, or practical exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Existing committed local case record and official decision/bulletin URLs; no bulk archive retained",
+    "retrieval_hash": "local_record:sha256:8eae6d6c8e1f645620593e3e8fc46f6bc724dbfc6c18f0baad78d0a7b89ae202",
+    "checked": "2026-09-17"
+  }
+}

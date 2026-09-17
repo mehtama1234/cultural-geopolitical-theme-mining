@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 280 records and
-1023 observations.
+have exact registered-URL references. The trend registry holds 281 records and
+1024 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -181,6 +181,10 @@ preserving units and attrition boundaries. The targeted [Rehman platform
 remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md) now
 adds a formal reactivation and $7,096.96 gross lost-remuneration order, while
 keeping payment receipt, alternatives, durability, and practical exit open.
+It is now promoted into the canonical comparative [remedy record](records/au-rehman-platform-remedy-2026.json)
+and [detailed finding](projects/ai-work-control/findings/ai-work-control-091.md),
+which preserves the one-case Australian boundary and separates access and
+financial remedies.
 The 2026-09-17 official Bulletin recheck also preserves the distinction
 between Portier's $5,500 settlement offer and the Commission's $7,096.96 gross
 order; neither is payment receipt.
