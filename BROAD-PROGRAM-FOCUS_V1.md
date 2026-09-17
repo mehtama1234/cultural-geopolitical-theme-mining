@@ -173,18 +173,20 @@ supplier identity, planned delivery, operational stress, and external response;
 accepted output, replaceability, public/partner incidence, and changed behavior
 remain open.
 
-The next active rotation is **same-respondent material change → meaning and
-action**. Use the existing April→June 2025 HTOPS linked panel, its attrition
-audit, and the ANES/CCES political layers to test whether material persistence,
-entry, or recovery sits alongside institutional judgment, attribution, trust,
-and distinct civic action. Preserve the panel's selected-linkage and timing
-boundaries: a later confidence measure is not a dated actor response, vote
-effect, or causal political translation.
+The next active rotation is now a **storage-light event-compatibility gate**:
+find one dated material or service episode that can be followed through the
+person or household's alternatives, money/time response, remedy or recovery,
+and later meaning or action. The HTOPS material-to-meaning map and the recent
+cross-theme rotations have already established the available descriptive
+surfaces; another adjacent cross-tab should not be promoted as an end-to-end
+advance.
 
-No large acquisition is required for this rotation. If the local panel cannot
-provide attribution or an action endpoint, publish that gap and specify the
-smallest lawful repeated-respondent or event-compatible test needed to observe
-the responsible actor, prior judgment, action, remedy, and recovery.
+Start with existing local artifacts and official field metadata. If they do not
+expose the responsible actor, alternatives, verified remedy, recovery, or
+distinct action for the same unit, record that as the result and specify the
+smallest authenticated PSID/UAS or other event-compatible acquisition needed.
+Do not download large respondent files by default, and do not turn a later
+confidence, vote, or service-status measure into a dated causal translation.
 
 The latest local SIPP buffer gate found zero adjacent-month credit or savings
 state changes. Treat that as a field-timing boundary, not as evidence that

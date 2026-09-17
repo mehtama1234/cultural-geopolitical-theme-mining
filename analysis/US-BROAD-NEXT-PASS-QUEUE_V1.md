@@ -137,19 +137,20 @@ The ledgers now separate commitment, capacity, governance, supplier identity,
 planned delivery, operational stress, and external response; accepted output,
 replaceability, public/partner incidence, and changed behavior remain open.
 
-The next active rotation is **same-respondent material change → meaning and
-action**, using the [HTOPS linked panel](projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md),
+The next active rotation is now a **storage-light event-compatibility gate**:
+identify one dated material or service episode that can be followed through
+alternatives, money/time response, remedy or recovery, and later meaning or
+action for the same unit. The [HTOPS linked panel](projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md),
 [cross-lagged audit](projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json),
-and existing ANES/CCES political layers. The test is whether material
-persistence, entry, or recovery sits alongside institutional judgment,
-attribution, trust, and distinct civic action. Keep selected linkage, wave
-timing, attrition, and the distinction between confidence, vote, contact,
-complaint, action, and withdrawal explicit. No large acquisition is required.
-The new [local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
-confirms that the retained panel record does not expose attribution, distinct
-action, remedy, recovery, switching, or exit. If the PUFs return to the
-workspace, the next step is a dictionary-and-shared-ID audit for those fields
-before any new estimate; the local audit does not imply source-level absence.
+and the recent cross-theme maps have already established the available
+descriptive surfaces; another adjacent cross-tab is not the next decisive
+advance. Start with local artifacts and official field metadata. If the
+responsible actor, alternatives, verified remedy, recovery, or distinct action
+are unavailable, publish that acquisition/identification gap and specify the
+smallest authenticated PSID/UAS or other event-compatible route. Keep selected
+linkage, timing, attrition, units, and the distinction between confidence,
+vote, contact, complaint, action, withdrawal, and recovery explicit. Do not
+download large respondent files by default.
 The storage-light HTOPS fraud/recovery route has now passed its dictionary,
 weight, and shared-ID checks. The [April-to-June follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md)
 joins 6,564 respondents and adds later food, energy, work-loss, and trust
