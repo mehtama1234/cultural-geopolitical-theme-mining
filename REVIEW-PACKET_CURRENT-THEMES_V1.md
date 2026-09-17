@@ -817,10 +817,10 @@ retained designs side by side and asks which stages are actually observed:
 
 | Evidence design | Material or exposure surface | Meaning surface | Action surface | Missing downstream link |
 |---|---|---|---|---|
-| HTOPS April→June 2025 linked respondents | Same selected respondent's material transitions | June Congress confidence and agreement that statistics are trustworthy | None in the retained linkage | Dated actor, attribution, and action |
-| CCES 2024 post-election respondents | Gig-work and student-loan-responsibility proxies, with income and race conditioning | Federal and state trust | Six civic-action indicators | Event timing, prior identity, and causal attribution |
-| CES 2018/2020 medical-affordability modules | Reported medical-expense crisis | Federal responsibility attribution | Turnout, official contact, and protest | Specific bill, remedy, and later recovery |
-| ANES 2016–2020–2024 panel subset | Pre-election financial worry | Federal-government judgment | Post-election reported vote | Direct material episode, actor, and causal action path |
+| [HTOPS April→June 2025 linked respondents](analysis/projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md) | Same selected respondent's material transitions | June Congress confidence and agreement that statistics are trustworthy | None in the retained linkage | Dated actor, attribution, and action |
+| [CCES 2024 post-election respondents](analysis/projects/us-cost-trust-politics/cces-material-trust-action-subgroup-layer-v1.md) | Gig-work and student-loan-responsibility proxies, with income and race conditioning | Federal and state trust | Six civic-action indicators | Event timing, prior identity, and causal attribution |
+| [CES 2018/2020 medical-affordability modules](analysis/projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md) | Reported medical-expense crisis | Federal responsibility attribution | Turnout, official contact, and protest | Specific bill, remedy, and later recovery |
+| [ANES 2016–2020–2024 panel subset](analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md) | Pre-election financial worry | Federal-government judgment | Post-election reported vote | Direct material episode, actor, and causal action path |
 
 The CES modules show why political response must remain a menu rather than a
 single index. In 2018, weighted turnout was 41.7% among respondents reporting

@@ -186,6 +186,9 @@ def main():
     memos.append(ROOT / "analysis/projects/ai-work-control/nber-w33795-shifting-work-patterns-source-record-v1.md")
     memos.append(ROOT / "analysis/projects/ai-work-control/chatham-house-data-trust-governance-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cces-material-trust-action-subgroup-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md")
     # Publish the material/time/care bridge itself, not only its matched
     # finding, so the cross-source comparison remains readable as a durable
     # program artifact.
