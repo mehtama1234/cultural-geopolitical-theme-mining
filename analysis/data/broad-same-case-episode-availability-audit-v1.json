@@ -135,6 +135,23 @@
       "boundary": "MEPS supplies identified event and later status fields, but not a complete same-episode actor, alternative, remedy, trust/action, or practical-exit record."
     },
     {
+      "source": "analysis/projects/us-health-cost-household-choice/data/cfpb-medical-debt-filtered-event-ledger-2024.json",
+      "unit": "locally_filtered_medical_debt_public_event_rows",
+      "records": 48,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_complaint",
+        "responsible_actor": "partial_route_context",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "open",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_route",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "A bounded parent-product response was locally filtered on returned product and sub-product fields; complaint routing and response labels are visible, but the underlying bill, alternatives, remedy receipt, recovery, trust, action, and exit are not linked."
+    },
+    {
       "source": "analysis/projects/us-health-cost-household-choice/data/cfpb-medical-debt-filtered-event-ledger-2025.json",
       "unit": "locally_filtered_medical_debt_public_event_rows",
       "records": 49,
@@ -154,5 +171,5 @@
   ],
   "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
-  "storage_boundary": "Uses eight committed local records; the raw 1,000-row parent-product response remains outside Git and only the 49-row de-identified filtered ledger is retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses nine committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
 }

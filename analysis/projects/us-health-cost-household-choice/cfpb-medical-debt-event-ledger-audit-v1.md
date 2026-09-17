@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17  
 **Status:** bounded locally filtered administrative route; no prevalence or remedy estimate
 
-**Machine record:** [49-row filtered event ledger](data/cfpb-medical-debt-filtered-event-ledger-2025.json)
+**Machine records:** [48-row 2024 filtered ledger](data/cfpb-medical-debt-filtered-event-ledger-2024.json) and [49-row 2025 filtered ledger](data/cfpb-medical-debt-filtered-event-ledger-2025.json)
 
 ## Result
 
@@ -21,18 +21,20 @@ card debt`, `Rental debt`, and one Medical debt row.
 The first-page results are an acquisition and API-behavior finding, not valid
 medical-debt evidence. The 2025 route was then re-run with a 1,000-record
 bounded parent-product response and locally filtered by both returned fields.
-That response yielded 49 qualifying Medical debt rows, which are retained in
-the [filtered de-identified ledger](data/cfpb-medical-debt-filtered-event-ledger-2025.json).
-The earlier unfiltered derived ledgers remain deleted. This corrected ledger
-is an administrative route sample, not a medical-debt prevalence or remedy
+That response yielded 49 qualifying Medical debt rows. The same corrected
+1,000-row method applied to 2024 yielded 48 qualifying rows. They are retained
+in the [2024 ledger](data/cfpb-medical-debt-filtered-event-ledger-2024.json)
+and [2025 ledger](data/cfpb-medical-debt-filtered-event-ledger-2025.json).
+The earlier unfiltered derived ledgers remain deleted. These corrected ledgers
+are administrative route samples, not a medical-debt prevalence or remedy
 estimate.
 
 ## What remains usable
 
 The nested aggregate snapshot still reports a Medical debt bucket under the
-Debt collection parent for the visibility-only record. The corrected 49-row
-ledger supplies bounded case-level route fields, but its 1,000-row retrieval
-frame is not random or weighted. The existing student-loan CFPB ledger remains
+Debt collection parent for the visibility-only record. The corrected 48- and
+49-row ledgers supply bounded case-level route fields, but their 1,000-row
+retrieval frames are not random or weighted. The existing student-loan CFPB ledger remains
 the general public administrative route contract.
 
 ```text
@@ -54,12 +56,17 @@ medical-debt sample must:
 4. preserve the raw-response hash, ordering, date span, and missingness; and
 5. retain only a de-identified derived ledger after the filter passes.
 
+The corrected 2024 response had dates from 2024-08-28 through 2024-09-04,
+covered 26 states, and contained 44 `Closed with explanation` and 4 `Closed
+with non-monetary relief` labels. Forty-seven rows were timely and one
+untimely; 19 had a public response flag and 29 did not.
+
 The corrected 2025 response had dates from 2025-10-09 through 2026-01-01,
 covered 27 states, and contained 43 `Closed with explanation`, 5 `Closed with
 non-monetary relief`, and 1 `Untimely response` label. Forty-six rows were
 timely and three untimely; 15 had a public response flag and 34 did not. These
-counts describe the 49 qualifying rows within the first 1,000 returned parent
-records only. If a bounded response contains too few qualifying cases,
+counts describe the qualifying rows within the first 1,000 returned parent
+records for each year only. If a bounded response contains too few qualifying cases,
 increase the page cap only after measuring storage, or use a documented
 pagination strategy.
 The route must still be treated as complaint-selected administrative evidence,
@@ -76,13 +83,17 @@ The corrected 2025 1,000-row response was 744,466 bytes with hash
 `e20e5908fcfbb3d34b80c32d3785ec9cd6c584513ab04eb2e75aedd0a2374ecd`; its
 filtered ledger hash is
 `8f9db3c3643a55ce44739a1f8169692ec2621beebdff4827ebcc96f6d415b7176`.
+The corrected 2024 1,000-row response was 726,578 bytes with hash
+`3108aa5da41c8389aeb3cfd831c946efe79e02cdfeb5fd12951ebc1d4e843f0a`; its
+filtered ledger hash is
+`fea28b658ac242ff33a40983f5338afdf1f9171acf06ba3631cc69288a21665a`.
 The first-page temporary derived ledgers were not retained after the filter
 failure.
 
 ```text
 curl --get 'https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/' \
-  --data-urlencode 'date_received_min=2024-01-01' \
-  --data-urlencode 'date_received_max=2025-01-01' \
+  --data-urlencode 'date_received_min=2025-01-01' \
+  --data-urlencode 'date_received_max=2026-01-01' \
   --data-urlencode 'product=Debt collection' \
   --data-urlencode 'sub_product=Medical debt' \
   --data-urlencode 'size=1000' \
