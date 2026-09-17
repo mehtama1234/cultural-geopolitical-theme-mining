@@ -1,0 +1,48 @@
+{
+  "format": "uber-rehman-remedy-record-v1",
+  "status": "primary_adjudicated_remedy_record",
+  "checked": "2026-09-16",
+  "case_id": "AU-REHMAN-UDE2025-384",
+  "matter": "Tanzeel Ur Rehman v Portier Pacific Pty Ltd",
+  "jurisdiction": "Australia",
+  "unit": "one employee-like platform worker/case",
+  "dates": {
+    "deactivation": "2025-12-15",
+    "application": "2025-12-30",
+    "voluntary_reactivation": "2026-02-20",
+    "decision_and_orders": "2026-03-20"
+  },
+  "stages": {
+    "deactivation": "observed_adjudicated",
+    "application_route": "observed_application",
+    "voluntary_access_restoration": "observed_communication",
+    "formal_access_restoration": "observed_order",
+    "lost_remuneration": {
+      "value": 7096.96,
+      "unit": "Australian dollars, gross, ordered lost remuneration",
+      "evidence_status": "observed_ordered_amount"
+    },
+    "payment_receipt": "not_observed",
+    "net_earnings": "not_observed",
+    "avoided_expenses": "not_observed",
+    "alternative_platform_or_work": "not_observed",
+    "continued_use_after_order": "not_observed",
+    "recurrence_or_anti_retaliation": "not_observed",
+    "household_outcome": "not_observed",
+    "trust_action_or_exit": "not_observed"
+  },
+  "route_detail": {
+    "reason_alleged": "failed background check",
+    "pre_deactivation_earnings": 13126.56,
+    "pre_deactivation_earnings_unit": "Australian dollars over 182 days according to respondent; not a net household measure",
+    "reported_average_weekly_earnings": 504.87,
+    "reactivation_terms": "same terms and conditions as immediately before deactivation; regular work deemed during the gap",
+    "lost_pay_method": "average weekly earnings method; approximately 9.5 weeks; no expense evidence submitted"
+  },
+  "boundary": "A formal reactivation and lost-remuneration order is not verified payment, net recovery, continued access, alternative work, durable protection, household security, trust change, or practical exit. The case is one Australian adjudicated matter and is not a population estimate.",
+  "sources": [
+    "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc953.pdf",
+    "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm",
+    "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
+  ]
+}

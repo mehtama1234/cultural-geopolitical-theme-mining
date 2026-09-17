@@ -161,7 +161,10 @@ material-versus-fraud comparison](projects/us-cost-trust-politics/htops-material
 now records the counterexample: exposure alone is not equivalent to realized
 loss or general expense difficulty. The next priority is an observed
 remedy/alternative case that can test what happened after the burden, while
-preserving units and attrition boundaries.
+preserving units and attrition boundaries. The targeted [Rehman platform
+remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md) now
+adds a formal reactivation and $7,096.96 gross lost-remuneration order, while
+keeping payment receipt, alternatives, durability, and practical exit open.
 
 ### ILOSTAT comparison gate
 
