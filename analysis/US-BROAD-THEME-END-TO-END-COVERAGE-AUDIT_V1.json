@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "b8b087954a3e5f27d8a94088a2d1f63de5df21be5c0193e401e033d97ed71d3f",
+  "matrix_sha256": "0d75c05cb30382f7d6f814d02247e002ac818cab1d4c52af2f840a34ed55079e",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -53,9 +53,9 @@
     },
     {
       "current_status": "Reported / Compared / Inferred",
-      "evidence_anchor_count": 5,
+      "evidence_anchor_count": 10,
       "measurement_level": "User, respondent, account, transaction, platform, seller, source ecosystem",
-      "next_required_test": "Verify encounter, interpretation, action, data use, agency, and exit effects with independent platform or transaction records.",
+      "next_required_test": "Verify encounter, interpretation, action, data use, agency, and exit effects with independent platform or transaction records; the new records distinguish reported use, attention frequency, perceived control/privacy, institutional inquiry, short-run engagement, and actual exit, which remains unobserved.",
       "same_unit_end_to_end_link": false,
       "source_line": 17,
       "status_tokens": [
