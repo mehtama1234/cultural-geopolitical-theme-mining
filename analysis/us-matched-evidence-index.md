@@ -673,3 +673,13 @@ The Doxo record adds a bounded household-payment mechanism: a third-party bill r
 The Grubhub record advances the broad program because it connects firm conduct to distinct consumer, worker, and small-business routes and then to both aggregate redress and operational controls. The FTC reports 640,038 checks or PayPal payments totaling more than $23.8 million to affected drivers and diners; the public program does not separate the groups or show individual receipt. The case therefore closes a visible institutional-response stage while leaving the lived recovery and exit stages open.
 
 [Read the HTML page](../site/us-grubhub-platform-remedy-001.html) · [Read the Markdown memo](findings/us-grubhub-platform-remedy-001.md)
+
+### 68. SNAP data control is a political and administrative consequence before it is a household outcome
+
+**Theme:** Voice / cost
+**Route:** benefit administration → data access → oversight/privacy conflict → trust or non-use
+**Still open:** applicant-level benefit continuity, privacy exposure, and political response
+
+The record advances the broad program by showing that data infrastructure is part of policy power, not a neutral back office. DOJ reported four lawsuits and 29 jurisdictions that promptly provided requested data, while seeking five years of SNAP applicant information for federal oversight and enforcement. A related court order temporarily restrained threatened funding action for most plaintiff states, and USDA’s system-of-records notice described a National SNAP Information Database with access, encryption, and routine-use controls. More than 450 public comments—about 132 raising sharing, privacy, or mishandling concerns—show a public-meaning and legitimacy surface. None of these facts is a measure of applicant-level harm, administrative accuracy, or political response.
+
+[Read the HTML page](../site/us-snap-data-governance-accountability-001.html) · [Read the Markdown memo](findings/us-snap-data-governance-accountability-001.md)

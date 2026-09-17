@@ -171,6 +171,7 @@ def main():
     # domain-specific suffix rather than the older matched/path conventions.
     memos.append(ROOT / "analysis/findings/us-doxo-bill-payment-hidden-fees-001.md")
     memos.append(ROOT / "analysis/findings/us-grubhub-platform-remedy-001.md")
+    memos.append(ROOT / "analysis/findings/us-snap-data-governance-accountability-001.md")
     memos.extend((ROOT / "analysis/projects").glob("**/findings/*.md"))
     # A small number of project audits are reader-facing evidence memos even
     # though they are not findings. Keep them in this shared renderer so the

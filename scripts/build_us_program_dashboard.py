@@ -61,6 +61,7 @@ findings = [
  ("Bill-payment convenience can become a hidden household cost", "us-doxo-bill-payment-hidden-fees-001.html", "FTC Doxo complaint, settlement proposal, and case record"),
  ("A platform remedy can reach workers and diners without proving lived recovery", "us-grubhub-platform-remedy-001.html", "FTC Grubhub enforcement and refund-program records"),
  ("Practical exit is the missing consumer-power outcome", "practical-exit-cross-domain-synthesis-v1.html", "CFPB, CPSC, SHED, and platform-remedy comparisons"),
+ ("SNAP data control is a political and administrative consequence before it is a household outcome", "us-snap-data-governance-accountability-001.html", "DOJ, federal court, and Federal Register records"),
 ("Capacity and mobility cells do not carry one political response", "us-local-business-place-005.html", "CBP/ACS/HRSA/NHTS place context and county-keyed CES trust/action"),
  ("Three 2026 Census pulse snapshots show movement without one household story", "us-cost-trust-politics-017.html", "Census HTOPS/HPS corrected March, May, and July PUFs with replicate weights"),
  ("Linked HTOPS respondents show material and institutional measures changing on different paths", "us-cost-trust-politics-018.html", "Census HTOPS April–June 2025 linked PUFs and replicate weights"),

@@ -1616,7 +1616,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 275 trend records and 1015 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,175 local Markdown links and 544 published HTML pages pass link
+families; 1,176 local Markdown links and 546 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
