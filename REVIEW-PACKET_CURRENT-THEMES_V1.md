@@ -43,6 +43,10 @@ its unresolved arrows visible:
   an eligible consumer class, aggregate compensable harm, administrator, and
   ongoing distribution are visible; payment receipt, residual loss, trust,
   and exit remain unobserved.
+- [CPSC hazard, recall, and remedy layer](site/cpsc-hazard-recall-remedy-layer-v1.html):
+  recalls, violation notices, import examinations, and marketplace takedowns
+  show institutional interruption; notice reach, household action, remedy,
+  and avoided harm remain open.
 - [Taiwan semiconductor capacity route](site/ai-work-control-090.html):
   strategic commitment and partial realization; independent output, local
   burden, replaceability, and reduced geopolitical dependence remain open.
