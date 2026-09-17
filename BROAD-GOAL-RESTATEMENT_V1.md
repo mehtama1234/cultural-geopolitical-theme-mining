@@ -119,6 +119,25 @@ pass should strengthen one bridge that can change the atlas while preserving
 the broader scope and explicitly stating what remains open. The current bridge
 status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
 
+## Verified resumption checkpoint — 2026-09-17
+
+The publication gate currently passes all 19 checks: 289 canonical records,
+1,032 observations, 103 source packets, 14 themes, 562 published HTML pages,
+and 1,196 Markdown files are synchronized and locally linked. The broad
+same-case episode audit confirms that the atlas has substantial exposure,
+adaptation, institutional-response, and selected follow-up evidence, but no
+retained source closes the complete sequence from dated exposure and usable
+alternatives through verified remedy, meaning/action, recovery, and exit.
+
+The active execution rule is therefore: use existing local artifacts first,
+make no bulk download, and advance one lawful same-unit or valid matched arrow
+at a time. The immediate test is to identify a compact episode source with a
+stable key that can observe actor, alternatives, effort or trade-off,
+protected/sacrificed outcome, remedy receipt, and later meaning, action,
+recovery, or exit. If a candidate lacks those fields, record the acquisition
+boundary and rotate to the next theme rather than promote a cross-source story
+into a causal result.
+
 Related operating records: [broad program focus](BROAD-PROGRAM-FOCUS_V1.md),
 [end-to-end goal](END_TO_END_GOAL_V1.md), [continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md),
 and [next-pass queue](analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md).
