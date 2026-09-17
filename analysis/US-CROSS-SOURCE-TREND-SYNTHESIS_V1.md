@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-thirty-four estimates of one phenomenon:
+thirty-five estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -72,10 +72,11 @@ thirty-four estimates of one phenomenon:
 | 32. Compensation versus obligation restoration | [CFPB Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md) | The CFPB reports ongoing checks while explicitly stating that payments do not change or reduce affected student loans; compensation and restoration are separate endpoints | Payment receipt, loan-balance correction, repayment-plan change, remaining loss, servicing effort, trust, switching, and exit |
 | 33. Subscription attention and practical exit | [Recurring payment and consumer exit](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md) | The FTC's Shutterstock case connects alleged unclear renewal terms and difficult cancellation to a proposed disclosure/consent/simple-exit remedy, while leaving prevalence and household incidence open | Same-account notice, charge, customer intent, attempted cancellation, effort, relief receipt, continued use, switching, and trust |
 | 34. Aggregate subscription relief and individual recovery | [Amazon Prime refund distribution](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md) | The FTC's Amazon case adds a court-entered $2.5B settlement, $1.5B refund pool, and reported refund/claims stages without exposing individual receipt or later household recovery | Eligibility, notice, claim, receipt, amount, delay, continued use, switching, trust, and remaining loss in the same account |
+| 35. Privacy, health data, and digital consumer power | [Digital health data-sharing enforcement](projects/us-privacy-trust-data-sharing/findings/us-privacy-trust-data-sharing-001.md) | A named telehealth enforcement case connects sensitive health-data sharing and billing/cancellation allegations to privacy, consent, and remedy questions | Data-use notice, authorization, deletion, billing correction, treatment continuity, trust, and practical exit |
 
 ### The common pattern
 
-Across the thirty-four rotations, the strongest recurring theme is **unequal
+Across the thirty-five rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
@@ -471,9 +472,9 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 267 machine-readable records, 996 observations,
+The current registry contains 268 machine-readable records, 998 observations,
 and 103 source packets across 14 program themes. It does not claim that the
-267 records describe separate evidence units rather than the same people or that one
+268 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
 proposition: financial improvement can coexist with worse health; SNAP exit
 can coexist with hardship; continued receipt can coexist with utility burden;

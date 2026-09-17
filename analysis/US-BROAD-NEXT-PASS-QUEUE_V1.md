@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 267 records and
-996 observations.
+have exact registered-URL references. The trend registry holds 268 records and
+998 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2306,6 +2306,14 @@ late 2026. This closes aggregate remedy distribution but not eligibility,
 receipt, remaining loss, continued use, switching, or trust. Keep the next
 pass at a small account/administrator ledger; do not download a broad customer
 file or infer individual recovery from the pool total.
+
+The [Hims & Hers digital-health finding](projects/us-privacy-trust-data-sharing/findings/us-privacy-trust-data-sharing-001.md)
+adds the next privacy/consumer bridge: a pending FTC/state complaint joins
+alleged sensitive health-data sharing, prescription-subscription billing, and
+cancellation friction. The mechanism is specified, but individual exposure,
+medical outcome, refund, deletion, treatment continuity, trust, and exit are
+open. Keep the next test to a small authorized complaint/implementation ledger;
+do not infer patient harm from the case allegation or download health data.
 
 ## Sequencing rule
 

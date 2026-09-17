@@ -13,6 +13,12 @@ Start with the HBS report on California and Virginia privacy rules. Keep legal c
 - [Privacy protection can open the door to more sharing](../../findings/us-privacy-trust-data-sharing-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-privacy-trust-data-sharing-matched-evidence-001.html)
 
+The [Hims & Hers digital-health finding](findings/us-privacy-trust-data-sharing-001.md)
+adds a named consumer case where sensitive health-data sharing, recurring
+prescription billing, and cancellation friction appear in the same pending
+enforcement action. It is an allegation-level bridge, not a patient-level
+privacy-loss or medical-harm estimate.
+
 ## Possible connection
 
 A privacy rule may work through reassurance rather than silence: people share more because they feel more protected. That can help consumers understand the deal, while also giving firms a richer record of behavior.

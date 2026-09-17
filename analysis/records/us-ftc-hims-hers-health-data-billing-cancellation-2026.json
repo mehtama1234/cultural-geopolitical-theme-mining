@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-hims-hers-health-data-billing-cancellation-2026",
+  "title": "Digital health convenience can combine sensitive data exposure with recurring billing and exit friction",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "platforms_data_attention", "consumer_power_recourse", "trust_identity_meaning", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status"],
+  "source_unit": "Federal Trade Commission, Utah, and California complaint against Hims & Hers; named federal enforcement case, not a representative patient or customer sample",
+  "geography": "United States federal and state consumer-protection enforcement; Hims & Hers online telehealth and prescription-subscription service",
+  "observations": [
+    {
+      "period": "July 29, 2026; FTC and state complaint filed",
+      "denominator": {"value": 1, "unit": "named telehealth enforcement case", "value_type": "institutional_case_count"},
+      "measures": {
+        "action_type": {"value": "FTC, Utah, and California lawsuit in the U.S. District Court for the Northern District of California", "unit": "institutional action", "value_type": "reported_action"},
+        "alleged_data_practice": {"value": "sharing consumers' health information with third-party advertising platforms including Meta and Snap despite privacy assurances", "unit": "FTC and state complaint allegation", "value_type": "alleged_practice"},
+        "alleged_billing_practice": {"value": "charging and enrolling many consumers in prescription treatment subscriptions shortly after intake submission without clearly disclosing the timing", "unit": "FTC and state complaint allegation", "value_type": "alleged_practice"},
+        "case_status_at_check": {"value": "pending", "unit": "FTC legal-library case status checked September 17, 2026", "value_type": "reported_case_status"}
+      },
+      "method": "Official FTC press release and complaint summary; allegations and filing status are preserved as institutional case facts rather than measured rates of data sharing, billing error, or patient harm.",
+      "uncertainty": "The complaint does not establish that every consumer's health data was shared, that each charge lacked consent, or that any medical outcome, privacy loss, or household hardship occurred. The case supplies no representative customer denominator or verified remedy.",
+      "subgroup": "Consumers completing Hims online intake and prescription-subscription flows; the complaint describes conditions and flow variants, not a population estimate.",
+      "counterinterpretation": "Online intake and recurring refills can reduce access barriers and preserve treatment continuity for some patients. A consumer may knowingly accept a data or billing exchange, and a lawsuit is not a final finding.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices",
+      "retrieval_hash": "sha256:51313a0d5466624b37081fb71c03ba360809a43d55098e7a384a6b27658a1e0d",
+      "status": "reported"
+    },
+    {
+      "period": "At least 2019 through early 2025; cancellation and refill mechanisms described in complaint",
+      "denominator": {"value": 1, "unit": "named company's online prescription-subscription flow", "value_type": "case_scope"},
+      "measures": {
+        "refill_deadline_allegation": {"value": "refills could be processed before the advertised cadence and consumers allegedly had to cancel before a short deadline to avoid the next charge", "unit": "FTC and state complaint allegation", "value_type": "reported_mechanism"},
+        "cancellation_route_allegation": {"value": "most consumers generally had to contact customer service before online cancellation was introduced in 2023; the FTC alleges the later online button was hidden behind multiple steps", "unit": "FTC and state complaint allegation", "value_type": "reported_exit_friction"},
+        "privacy_assurance_allegation": {"value": "privacy representations allegedly conveyed that medical records and sensitive information were accessed only by providers while health information was shared with advertising platforms", "unit": "FTC and state complaint allegation", "value_type": "reported_disclosure_issue"}
+      },
+      "method": "FTC complaint passages summarized in the official press release and complaint filing; historical dates are allegations about product flows, not current usability measurements.",
+      "uncertainty": "The public case materials do not provide cancellation completion rates, refund rates, refill denial or treatment interruption rates, account-level ad exposure, or later patient trust and switching outcomes.",
+      "subgroup": "Users of the company's intake, refill, and cancellation flows; mobile, web, state, and time-period differences require separate review.",
+      "counterinterpretation": "A multi-step flow may still be completed by some users, and a refill deadline can support medication continuity if clearly understood. Later design changes may alter current exposure; implementation remains open.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Hims-Complaint-Redacted-E-Filed.pdf",
+      "retrieval_hash": "sha256:8ca85d04dfc6b2de367bc80f9a215d6b235751810b0c67ea91345d9d9f3ab7f3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-states-act-against-hims-hers-deceptive-unlawful-privacy-practices", "claim": "FTC describes the lawsuit, alleged health-data sharing, billing, cancellation, and privacy practices.", "status": "official-press-release"},
+    {"source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Hims-Complaint-Redacted-E-Filed.pdf", "claim": "Redacted complaint provides the alleged intake, refill, cancellation, and privacy-flow details.", "status": "official-complaint"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/hims-hers", "claim": "FTC case listing reports the pending case status and matter context.", "status": "official-case-record"}
+  ],
+  "boundary": "This record adds a named digital-health consumer-power case. It links alleged health-data disclosure, recurring prescription billing, and cancellation friction at the institutional case level, but does not establish actual individual data exposure, unauthorized payment, medical harm, treatment interruption, privacy loss, remedy, trust change, or practical exit. The next test is a lawful account/complaint or implementation ledger preserving notice, consent, refill, cancellation, data-sharing, correction, treatment continuity, relief, and later trust separately."
+}
