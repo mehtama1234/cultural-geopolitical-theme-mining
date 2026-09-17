@@ -87,6 +87,22 @@
       "source_url": "https://www.cpsc.gov/Data",
       "retrieval_hash": "cpsc-data-page:sha256:aa8476d3e4ff6f653893cba58359d3ea7435b843296e62c7f401adf40389d0b8",
       "status": "reported"
+    },
+    {
+      "period": "Fiscal 2025; recall response-rate performance measure",
+      "denominator": {"value": 1, "unit": "CPSC FY2025 recall response-rate performance measure", "value_type": "performance_measure"},
+      "measures": {
+        "recall_response_rate": {"value": 44.55, "unit": "percent average correction/response rate reported for all consumer-product recalls", "value_type": "reported_performance_measure"},
+        "recall_response_target": {"value": 43, "unit": "percent FY2025 target", "value_type": "performance_target"},
+        "target_result": {"value": "exceeded", "unit": "performance-target status", "value_type": "reported_result"}
+      },
+      "method": "CPSC FY2025 Agency Performance Report key measure 2024KM2.3.1; the report describes the measure as recall response rate and carries forward the revised average-correction approach.",
+      "uncertainty": "The measure is a recall-program correction/response indicator, not a household follow-up survey; product mix, firm reporting, remedy design, and the prior-year method revision limit interpretation as a trend in consumer behavior.",
+      "subgroup": "Consumer-product recalls covered by the CPSC FY2025 performance measure; product categories, recall sizes, and firm reporting vary.",
+      "counterinterpretation": "A value below FY2024's revised 51% does not by itself mean weaker notice or action: recall composition and case closure timing can change the average, and the measure does not capture disposal, unreported action, or equal household reach.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/FY25-APR.pdf?VersionId=RKXtpEtxM3trCFy4u0SzDnBA43QJgbne",
+      "retrieval_hash": "cpsc-fy25-apr:sha256:56a0427909a5530ac5b1b724f3daf0fbb55502fcf471dd99650d1d82eff3ced6",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -95,5 +111,5 @@
     {"source_url": "https://www.cbp.gov/trade/basic-import-export/e-commerce", "claim": "CBP e-commerce/import context supplies a separate trade and border layer for interpreting CPSC import surveillance.", "status": "cross-source-comparator"}
   ],
   "boundary": "CPSC adds a consumer-safety institutional layer linking hazard detection, recalls, import screening, e-commerce takedowns, and injury surveillance. It does not establish product exposure, recall awareness, remedy receipt, injury prevention, firm liability, household cost, trust, or political response for the same consumer.",
-  "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7; cpsc-data-page:sha256:aa8476d3e4ff6f653893cba58359d3ea7435b843296e62c7f401adf40389d0b8; cpsc-recalls-page:sha256:4e5f50972e1c81e8983d012215c34d8808014112a378ca73242b0987319d7a1c"
+  "retrieval_hash": "cpsc-fy24-apr:sha256:97e37a73bc3d9c649e3caf704907eeae0da55bc9b24494462f92e50126b117e7; cpsc-fy25-apr:sha256:56a0427909a5530ac5b1b724f3daf0fbb55502fcf471dd99650d1d82eff3ced6; cpsc-data-page:sha256:aa8476d3e4ff6f653893cba58359d3ea7435b843296e62c7f401adf40389d0b8; cpsc-recalls-page:sha256:4e5f50972e1c81e8983d012215c34d8808014112a378ca73242b0987319d7a1c"
 }
