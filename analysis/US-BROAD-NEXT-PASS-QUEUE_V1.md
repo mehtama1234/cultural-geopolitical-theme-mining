@@ -150,13 +150,15 @@ confirms that the retained panel record does not expose attribution, distinct
 action, remedy, recovery, switching, or exit. If the PUFs return to the
 workspace, the next step is a dictionary-and-shared-ID audit for those fields
 before any new estimate; the local audit does not imply source-level absence.
-The storage-light next source screen is now the [HTOPS fraud, recovery, and
-trust acquisition gate](projects/us-cost-trust-politics/htops-2025-fraud-recovery-trust-acquisition-gate-v1.md):
-inspect only the April 2025 module metadata and, if the dictionary/schema gate
-passes, acquire one bounded PUF slice under a 20 MB budget. Its candidate
-route is retrospective scam exposure → reporting/recovery → trust and life
-satisfaction; it must not be treated as a dated causal or April-to-June panel
-effect.
+The storage-light HTOPS fraud/recovery route has now passed its dictionary,
+weight, and shared-ID checks. The [April-to-June follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md)
+joins 6,564 respondents and adds later food, energy, work-loss, and trust
+surfaces. Its candidate route is retrospective scam exposure →
+reporting/recovery → later household/institutional context; it remains
+associative, with an 11-person recovered subgroup, and must not be treated as
+a dated causal effect or practical-exit result. The next step is to compare
+this route against a non-fraud material shock or a remedy-observed case while
+preserving units and attrition boundaries.
 
 ### ILOSTAT comparison gate
 

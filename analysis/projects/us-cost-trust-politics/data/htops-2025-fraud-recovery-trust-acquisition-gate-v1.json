@@ -1,8 +1,10 @@
 {
   "format": "htops-2025-fraud-recovery-trust-acquisition-gate-v1",
-  "status": "metadata_screened_acquisition_route",
+  "status": "schema_screened_same_respondent_followup_completed",
   "checked": "2026-09-16",
   "raw_downloaded": true,
+  "raw_retained": false,
+  "followup_record": "analysis/projects/us-cost-trust-politics/data/htops-2025-fraud-followup-2025-04-to-06.json",
   "raw_retained": false,
   "screen_record": "analysis/projects/us-cost-trust-politics/data/htops-2025-fraud-recovery-screen-2025-04.json",
   "screen_status": "schema_and_replicate_weight_gate_passed; weighted_descriptive_screen_completed",
@@ -26,7 +28,8 @@
     "compressed_download_budget_mb": 20,
     "temporary_extract_only": true,
     "raw_archive_retention": "delete after hashes and schema checks",
-    "second_release_condition": "only if April schema identifies a compatible shared identifier and a follow-up variable that changes the test"
+    "second_release_condition": "met: April SCRAMID matches June SCRAMID and June retains material/trust follow-up fields",
+    "second_release": "HTOPS June 2025; acquired sequentially after the April schema gate"
   },
   "promotion_boundary": "Retrospective fraud questions do not identify a dated incident, named actor, alternatives, effort, remedy timing, or later trust change. Reporting, recovery, trust, and life satisfaction must remain separate outcomes; no causal panel effect or practical-exit claim is permitted.",
   "stop_rules": ["missing dictionary", "missing replicate weights", "incompatible respondent key", "uninterpretable recovery coding", "undefined denominator"],
@@ -35,5 +38,5 @@
     "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2504_HTOPS_Household_Pulse_User_Notes.pdf",
     "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2506_HTOPS_Household_Pulse_User_Notes_04232026.pdf"
   ],
-  "boundary": "The raw archive was used temporarily under the 20 MB budget, then removed; only hashes, schema checks, and aggregate output are retained. The screen is retrospective and descriptive, not a dated causal episode or practical-exit estimate."
+  "boundary": "The raw archives were used temporarily under individual 20 MB caps, then removed; only hashes, schema checks, and aggregate outputs are retained. The follow-up is associative, retrospective, and not a dated causal episode or practical-exit estimate."
 }

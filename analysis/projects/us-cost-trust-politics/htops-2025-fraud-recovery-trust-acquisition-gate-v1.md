@@ -4,6 +4,7 @@
 **Checked:** 2026-09-16
 **Machine record:** [HTOPS endpoint acquisition gate](data/htops-2025-fraud-recovery-trust-acquisition-gate-v1.json)
 **Screen output:** [April fraud/recovery screen](data/htops-2025-fraud-recovery-screen-2025-04.json)
+**Follow-up output:** [April-to-June follow-up](data/htops-2025-fraud-followup-2025-04-to-06.json)
 
 ## Why this route matters
 
@@ -55,9 +56,12 @@ checks are recorded:
 | Recovery | `FRAUD6` | whether recovery is any amount, actor, and timing |
 | Meaning/context | `OECD`, `SOC1_first`–`SOC6`, `Trust1`–`Trust3` | respondent unit, valid codes, weight and replicate-weight availability |
 
-Do not acquire the June PUF for this route unless the April schema shows a
-compatible shared identifier and a specific follow-up variable that changes
-the test. Do not interpret April retrospective fraud outcomes as a timed
+Acquire the June PUF only after the April schema shows a compatible shared
+identifier and a specific follow-up variable that changes the test. That
+condition has now been met: `SCRAMID` links 6,564 respondents and June retains
+material and trust fields. The follow-up remains associative because April
+fraud is retrospective and the public files do not document an
+attrition-adjusted longitudinal weight. Do not interpret it as a causal
 April-to-June panel effect.
 
 ## Promotion and stop rules
@@ -103,6 +107,7 @@ evidence that a dated scam caused a later change in trust or life satisfaction.
 - [April 2025 HTOPS user notes](https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2504_HTOPS_Household_Pulse_User_Notes.pdf)
 - [June 2025 HTOPS user notes](https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2506_HTOPS_Household_Pulse_User_Notes_04232026.pdf)
 
-The official notes and release page were inspected first. The single April
-archive was then used temporarily under the 20 MB budget; its raw files are
-not retained in the repository.
+The official notes and release page were inspected first. The April and June
+archives were then used sequentially under their individual 20 MB acquisition
+caps; raw files were removed after schema, ID, and hash checks. Only aggregate
+outputs are retained in the repository.

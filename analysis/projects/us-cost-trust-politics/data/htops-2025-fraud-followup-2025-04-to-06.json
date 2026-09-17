@@ -1,0 +1,230 @@
+{
+  "format": "htops-2025-fraud-followup-v1",
+  "status": "same_respondent_weighted_descriptive_followup",
+  "checked": "2026-09-16",
+  "period": "April 15\u201329 to June 16\u201325, 2025",
+  "linkage_key": "SCRAMID",
+  "april_rows": 8850,
+  "june_rows": 7485,
+  "linked_ids": 6564,
+  "group_unweighted_counts": {
+    "not_exposed": 751,
+    "exposed": 5798,
+    "exposed_and_lost": 184,
+    "exposed_and_reported": 539,
+    "lost_and_reported": 51,
+    "lost_reported_and_recovered": 11
+  },
+  "outcomes": [
+    "june_food_insufficiency",
+    "june_unable_to_pay_energy_bill",
+    "june_recent_household_job_loss",
+    "june_trust_federal_statistics_code_1",
+    "june_confidence_in_congress_code_1",
+    "june_statistics_policy_trust_code_1"
+  ],
+  "weight": "April PWEIGHT applied to linked respondents; April replicate file schema and exact IDs verified but replicate variance is not used because an attrition-adjusted longitudinal weight is not documented.",
+  "metrics": {
+    "not_exposed": {
+      "june_food_insufficiency": {
+        "weighted_percent": 9.3702,
+        "unweighted_valid_n": 749,
+        "weighted_denominator": 30076966.65
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 16.8375,
+        "unweighted_valid_n": 747,
+        "weighted_denominator": 29562022.7511
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 9.2152,
+        "unweighted_valid_n": 751,
+        "weighted_denominator": 30096263.6444
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 68.5987,
+        "unweighted_valid_n": 741,
+        "weighted_denominator": 29765747.0675
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 13.3484,
+        "unweighted_valid_n": 746,
+        "weighted_denominator": 29804335.9738
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 45.3261,
+        "unweighted_valid_n": 747,
+        "weighted_denominator": 29952326.398
+      }
+    },
+    "exposed": {
+      "june_food_insufficiency": {
+        "weighted_percent": 6.121,
+        "unweighted_valid_n": 5786,
+        "weighted_denominator": 158369375.312
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 10.6566,
+        "unweighted_valid_n": 5789,
+        "weighted_denominator": 158333961.7515
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 6.8622,
+        "unweighted_valid_n": 5786,
+        "weighted_denominator": 158287449.5646
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 72.4289,
+        "unweighted_valid_n": 5754,
+        "weighted_denominator": 157690815.8687
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 3.9261,
+        "unweighted_valid_n": 5775,
+        "weighted_denominator": 157884175.8064
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 58.5873,
+        "unweighted_valid_n": 5786,
+        "weighted_denominator": 156523730.8575
+      }
+    },
+    "exposed_and_lost": {
+      "june_food_insufficiency": {
+        "weighted_percent": 23.8158,
+        "unweighted_valid_n": 184,
+        "weighted_denominator": 5196022.6728
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 43.8064,
+        "unweighted_valid_n": 182,
+        "weighted_denominator": 5157201.9888
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 8.3057,
+        "unweighted_valid_n": 184,
+        "weighted_denominator": 5196022.6728
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 58.0706,
+        "unweighted_valid_n": 182,
+        "weighted_denominator": 5165528.1517
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 4.8426,
+        "unweighted_valid_n": 182,
+        "weighted_denominator": 5164822.2881
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 49.4474,
+        "unweighted_valid_n": 183,
+        "weighted_denominator": 5183580.1987
+      }
+    },
+    "exposed_and_reported": {
+      "june_food_insufficiency": {
+        "weighted_percent": 6.1914,
+        "unweighted_valid_n": 539,
+        "weighted_denominator": 13899772.1449
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 14.0444,
+        "unweighted_valid_n": 537,
+        "weighted_denominator": 13811088.6507
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 6.0141,
+        "unweighted_valid_n": 535,
+        "weighted_denominator": 13774790.6723
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 70.4605,
+        "unweighted_valid_n": 533,
+        "weighted_denominator": 13804127.5966
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 1.8136,
+        "unweighted_valid_n": 535,
+        "weighted_denominator": 13771387.9865
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 54.4667,
+        "unweighted_valid_n": 539,
+        "weighted_denominator": 13899772.1449
+      }
+    },
+    "lost_and_reported": {
+      "june_food_insufficiency": {
+        "weighted_percent": 12.2213,
+        "unweighted_valid_n": 51,
+        "weighted_denominator": 1613519.8578
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 44.8649,
+        "unweighted_valid_n": 50,
+        "weighted_denominator": 1610841.1531
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 11.5637,
+        "unweighted_valid_n": 51,
+        "weighted_denominator": 1613519.8578
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 70.1951,
+        "unweighted_valid_n": 51,
+        "weighted_denominator": 1613519.8578
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 0.8029,
+        "unweighted_valid_n": 50,
+        "weighted_denominator": 1591305.5826
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 63.7066,
+        "unweighted_valid_n": 51,
+        "weighted_denominator": 1613519.8578
+      }
+    },
+    "lost_reported_and_recovered": {
+      "june_food_insufficiency": {
+        "weighted_percent": 26.5658,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      },
+      "june_unable_to_pay_energy_bill": {
+        "weighted_percent": 78.8011,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      },
+      "june_recent_household_job_loss": {
+        "weighted_percent": 26.025,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      },
+      "june_trust_federal_statistics_code_1": {
+        "weighted_percent": 65.7022,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      },
+      "june_confidence_in_congress_code_1": {
+        "weighted_percent": 0.0,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      },
+      "june_statistics_policy_trust_code_1": {
+        "weighted_percent": 90.2759,
+        "unweighted_valid_n": 11,
+        "weighted_denominator": 698795.9957
+      }
+    }
+  },
+  "boundary": "This is an associative same-respondent follow-up, not a causal fraud effect. April fraud questions refer to the prior 12 months; June outcomes are later survey responses but the incident date, actor, alternatives, effort, remedy timing, and trust change are not observed. Linked retention and selective response can bias the descriptive cells. Code-1 trust measures are reported as coding screens, not substantive high-trust labels without the dictionary category interpretation.",
+  "source_files": {
+    "april_puf": "/tmp/cgtm-htops-followup/2504/TOPICAL_2504_PUF.csv",
+    "april_replicates": "/tmp/cgtm-htops-followup/2504/HTOPS_2504_repwgt_puf.csv",
+    "june_puf": "/tmp/cgtm-htops-followup/HTOPS_HPS_2506_PUF.csv",
+    "april_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "april_replicates_sha256": "sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c",
+    "june_puf_sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2"
+  }
+}
