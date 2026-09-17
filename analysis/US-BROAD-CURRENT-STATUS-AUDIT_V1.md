@@ -433,6 +433,13 @@ records the 2026-09-16 official-source recheck and keeps this a public-source
 non-observation: a scheduled agreement is not promoted to delivered or
 accepted capability without a dated quantity, fielding, training, or inventory
 event.
+The related [NIK documentation-control finding](projects/ai-work-control/findings/ai-work-control-082.md)
+and [FMS delivery/settlement timing finding](projects/ai-work-control/findings/ai-work-control-083.md)
+add a control counterexample: audited production or settlement language and
+physical delivery can sit on different clocks, and missing numeric settlement
+support is not a missile shortfall estimate. The F-35 comparator sharpens the
+search design but does not close Poland's JASSM-ER delivery, acceptance,
+fielding, or external-response arrows.
 The new [capacity/dependence realization-stage audit](projects/ai-work-control/capacity-dependence-realization-audit-v1.md)
 formalizes this boundary across the US data-center and Poland JASSM-ER
 ledgers. It finds commitments and intermediate capacity or operational-stress

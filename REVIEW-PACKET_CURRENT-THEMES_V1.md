@@ -329,7 +329,9 @@ economic voting or a causal political reaction.
 
 Read the [supplier-concentration finding](analysis/projects/ai-work-control/findings/ai-work-control-072.md),
 the [procurement-to-capability synthesis](analysis/projects/ai-work-control/jassm-lrasm-procurement-to-capability-realization-synthesis-v1.md),
-and the [strategic-capability realization bridge](analysis/projects/ai-work-control/strategic-capability-realization-cross-case-bridge-v1.md).
+the [strategic-capability realization bridge](analysis/projects/ai-work-control/strategic-capability-realization-cross-case-bridge-v1.md),
+the [JASSM-ER documentation-control finding](analysis/projects/ai-work-control/findings/ai-work-control-082.md),
+and the [FMS delivery/settlement timing finding](analysis/projects/ai-work-control/findings/ai-work-control-083.md).
 
 **Theme:** nominal supplier breadth, financial concentration, production,
 acceptance, delivery, and operational use are different stages of capacity.
@@ -352,6 +354,13 @@ adds a 176 TWh 2023 US data-center electricity estimate, a 649 TWh 2030 model
 reference, and a 14-year minimum-obligation policy term in one state rate
 context. These are spending, commitment, planned capacity, and governance
 stages—not proof of delivery, public benefit, sovereignty, or leverage.
+
+The NIK comparator adds a necessary realization-clock rule: production or
+settlement documentation, physical delivery, formal acceptance, fielding,
+training, and operational use can appear at different times. Its F-35 example
+does not establish delivery of Poland's JASSM-ER order, but it prevents a
+missing settlement or schedule timestamp from being treated as proof of
+non-delivery or operational readiness.
 
 **Open arrow:** identifier-bearing evidence must connect production,
 acceptance, delivery, inventory or use, substitution capacity, and an
