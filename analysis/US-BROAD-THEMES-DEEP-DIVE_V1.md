@@ -301,8 +301,9 @@ measured reversal. If none is available, the correct output is an explicit
 acquisition or identification gap—not another unlinked percentage.
 
 The current storage-light priority is the HTOPS social-connectedness route.
-Its March 2026 table listing appears promising because social connection,
-community engagement, and material-pressure modules are in one release, but
-the canonical table page and relevant spreadsheet links returned 404 at the
-last recheck. No estimates are promoted until the official artifact is
-reposted or a lawful, vintage-compatible replacement is verified.
+Its March 2026 release appears promising because social connection, community
+engagement, and material-pressure modules are listed together. The relevant
+official spreadsheets still return 404, while Census has posted a corrected
+19.2 MB PUF. That PUF is a cross-sectional route requiring a dictionary and
+weight audit, not an automatic longitudinal bridge; no estimates are promoted
+until the minimum artifact and estimand are verified.
