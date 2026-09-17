@@ -113,6 +113,11 @@ fraud, CFPB recourse, CPSC product safety, and platform-worker remedy without
 pooling their units, and defines practical exit as the next consumer-power
 outcome to measure.
 
+The [CFPB Cash App fraud redress case record](cfpb-cash-app-fraud-redress-case-record-v1.md)
+adds a named US enforcement/remedy stage: formal operational requirements and
+up to $120 million in consumer redress are documented, while individual
+receipt, correction, recovery, trust, switching, and exit remain unobserved.
+
 ## Scope
 
 - US customers and firms;
