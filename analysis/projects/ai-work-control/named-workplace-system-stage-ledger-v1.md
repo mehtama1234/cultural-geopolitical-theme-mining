@@ -34,6 +34,7 @@ named system and owner
 | Microsoft Places | Company-reported product change: country targeting and default opt-out; current official docs specify consent, override, policy scope, and Inform/Ask/Off controls | Actual tenant mode, exposure, opt-out consequence, enforceability, privacy/work outcomes, household effects |
 | Microsoft 365 Copilot | Company-reported controlled rollout and representative feedback loop | Specific feature change, review enforcement, worker outcomes, household security, exit |
 | OpenAI/Statsig PERM recruitment | DOJ settlement with potential back-pay fund, electronic-application restoration, claimant process, reporting, and three-year oversight | Actual claimant eligibility/payment, restored consideration, implementation logs, household effects, and later behavior |
+| Apple PERM recruitment | DOJ reports $18.25m back-pay fund processed and exhausted after individualized lost-income review; external/electronic recruitment controls and monitoring required | Individual payment distribution, restored consideration or hiring, post-monitoring compliance, household effects, and later behavior |
 
 ## Interpretation
 
@@ -56,7 +57,11 @@ decision, and enforcement can specify both potential compensation and
 technical access repair. The agreement still does not establish payment or
 restored opportunity.
 
-The Microsoft Places technical-control note adds a limited corroboration layer:
+The Apple event adds a remedy-completion comparator to the named-system set: a
+public implementation report can establish that a monetary fund was processed
+and exhausted, while leaving lived opportunity restoration and durable worker
+control unmeasured. The Microsoft Places technical-control note adds a limited
+corroboration layer:
 official product documentation makes user override, administrator geography,
 consent, and historical-data boundaries inspectable. That moves the case beyond
 a purely narrative claim about what the product can do. It does not show which
@@ -70,5 +75,5 @@ power.
 python3 scripts/validate_named_workplace_system_stage_ledger.py
 ```
 
-The validator checks four committed local records plus the linked technical
+The validator checks five committed local records plus the linked technical
 source note and downloads nothing.

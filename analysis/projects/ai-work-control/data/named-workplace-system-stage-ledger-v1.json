@@ -1,7 +1,7 @@
 {
   "format": "named-workplace-system-stage-ledger-v1",
   "status": "bounded_stage_comparison",
-  "checked": "2026-09-16",
+  "checked": "2026-09-17",
   "purpose": "Follow named workplace AI systems from governance or deployment through worker-control and household-outcome endpoints without pooling incompatible cases.",
   "required_stage_order": [
     "system_and_owner",
@@ -72,9 +72,23 @@
       "exit_or_collective_action": "Individual charge rights remain; later job search, switching, organizing, trust, or political action not observed",
       "source": "analysis/records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json",
       "boundary": "Named US recruitment-enforcement case with access-restoration and potential-recovery obligations; agreement is not an admission of liability and does not prove individual recovery or later behavior."
+    },
+    {
+      "event_id": "US-APPLE-2026-PERM-BACKPAY-IMPLEMENTATION",
+      "system_and_owner": "Apple Inc.; PERM recruitment and application systems",
+      "dated_implementation_or_rule": "Investigation opened 2019; settlement announced 2023-11-09; back-pay distribution update 2026-05-21",
+      "worker_exposure": "Apple did not post PERM positions on its external job website and required paper applications by mail while allowing electronic applications for other positions; DOJ reported deterrence of protected workers",
+      "worker_voice": "Individualized claims administration reviewed thousands of potential claimants and lost income; worker-level narratives and representative voice are not public",
+      "specific_control_or_rule_change": "External posting, electronic applications, applicant-tracking searchability, employee training, and three-year departmental monitoring required; DOJ reported some measures implemented during the investigation",
+      "enforcement_or_appeal": "DOJ reported that the $18.25 million back-pay fund was processed and exhausted after individualized review; post-monitoring findings and independent worker confirmation are not observed",
+      "worker_outcome": "Completed monetary remedy is reported, but individual payment distribution, restored consideration, hiring, and later job outcome are not observed",
+      "household_outcome": "Not observed: resources, care, debt, housing, food, or household recovery",
+      "exit_or_collective_action": "Claimant route and public enforcement are observed; later job search, switching, organizing, trust, or political action are not observed",
+      "source": "analysis/records/us-doj-apple-perm-backpay-distribution-2026.json",
+      "boundary": "Named US implementation event with reported completed back-pay administration; it does not prove restored opportunity, durable compliance, worker control, household recovery, or later behavior."
     }
   ],
-  "result": "The named cases reach governance and, for Microsoft Places, a reported product-design change. None currently reaches independently observed enforcement, worker welfare, household security, or practical exit.",
+  "result": "The named cases reach governance and, for Microsoft Places, a reported product-design change. Apple adds a reported completed monetary-remedy stage, but none currently reaches independently observed restored opportunity, worker welfare, household security, or practical exit.",
   "next_test": "Obtain one worker-side, works-council, technical-release, or administrative artifact that links a named concern to a dated rule change and then measures actual exposure, override/appeal, workload/pace, pay, health, bargaining, household security, and exit against a differently governed workplace.",
-  "storage_boundary": "Uses three committed local records; no raw-data acquisition or new estimate."
+  "storage_boundary": "Uses five committed local records and one linked technical source note; no raw-data acquisition or new estimate."
 }
