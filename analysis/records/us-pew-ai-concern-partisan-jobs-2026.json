@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-concern-partisan-jobs-2026",
+  "title": "AI concern and expected job loss have become more Democratic than Republican in 2026",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action", "infrastructure_technology_dependency"],
+  "source_unit": "Pew Research Center American Trends Panel survey of US adults",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2021 versus 2026; concern about increased AI use in daily life",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey; respondents who did not answer are not shown", "value_type": "published_percentage_base"},
+      "measures": {"overall_more_concerned_2021": {"value": 37, "unit": "percent more concerned than excited about increased AI use in daily life", "value_type": "published_share"}, "overall_more_concerned_2026": {"value": 52, "unit": "percent more concerned than excited", "value_type": "published_share"}, "overall_change": {"value": 15, "unit": "percentage-point change from 2021 to 2026", "value_type": "derived_difference"}},
+      "method": "Descriptive comparison of Pew American Trends Panel survey waves; the article reports weighted percentage estimates and excludes nonresponse from displayed categories.",
+      "uncertainty": "This is a repeated cross-sectional attitude comparison, not a matched-person panel estimate. Question wording, context, partisan composition, and survey mode can affect reported concern; it does not observe AI exposure or job outcomes.",
+      "subgroup": "All US adults represented by the Pew survey; party subgroups are reported separately in the current wave.",
+      "counterinterpretation": "Rising concern may reflect broader salience, public debate, or changing expectations rather than direct workplace experience or a stable cultural realignment.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/",
+      "retrieval_hash": "sha256:3539e58754b993c7e0c46475a17c79254d5177dc9dbabaff5b4908893291af0d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; concern about increased AI use in daily life by party identification",
+      "denominator": {"value": 100, "unit": "percent within Pew Republican/Republican-leaning and Democratic/Democratic-leaning adult groups; nonresponse not shown", "value_type": "published_percentage_base"},
+      "measures": {"republican_more_concerned": {"value": 49, "unit": "percent more concerned than excited", "value_type": "published_share"}, "democratic_more_concerned": {"value": 56, "unit": "percent more concerned than excited", "value_type": "published_share"}, "democratic_minus_republican": {"value": 7, "unit": "percentage-point contrast", "value_type": "derived_difference"}},
+      "method": "Pew 2026 American Trends Panel partisan comparison; party groups include independents who lean toward each party as defined by the source.",
+      "uncertainty": "Party-group differences are descriptive and do not establish that party identity caused AI concern. The comparison does not identify occupation, prior AI use, local labor-market exposure, ideology within parties, or policy information.",
+      "subgroup": "Republicans and Republican leaners versus Democrats and Democratic leaners among US adults.",
+      "counterinterpretation": "The seven-point contrast can reflect differences in age, education, occupation, media environment, ideology, or perceived policy stakes rather than a single partisan AI worldview.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/",
+      "retrieval_hash": "sha256:3539e58754b993c7e0c46475a17c79254d5177dc9dbabaff5b4908893291af0d",
+      "status": "reported"
+    },
+    {
+      "period": "2024 versus 2026; expected AI effect on US jobs over the next 20 years",
+      "denominator": {"value": 100, "unit": "percent of Pew survey respondents answering the future-jobs question; unsure/nonresponse categories are not shown", "value_type": "published_percentage_base"},
+      "measures": {"overall_fewer_jobs_2024": {"value": 64, "unit": "percent expecting AI to lead to fewer jobs", "value_type": "published_share"}, "overall_fewer_jobs_2026": {"value": 71, "unit": "percent expecting fewer jobs", "value_type": "published_share"}, "republican_fewer_jobs_2026": {"value": 68, "unit": "percent among Republicans and Republican leaners", "value_type": "published_share"}, "democratic_fewer_jobs_2026": {"value": 75, "unit": "percent among Democrats and Democratic leaners", "value_type": "published_share"}},
+      "method": "Pew two-wave comparison and 2026 partisan estimates for a question about expected US job effects over the next 20 years.",
+      "uncertainty": "Long-horizon expectations are not forecasts and cannot identify which jobs, workers, firms, places, or policy regimes are implicated. The 2024 and 2026 samples are not treated as the same respondents.",
+      "subgroup": "US adults overall and party-identification groups as reported by Pew.",
+      "counterinterpretation": "Expecting fewer jobs can coexist with individual optimism, productivity gains, job creation in other occupations, or support for particular AI uses; it does not measure realized displacement, wages, control, or remedy.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/",
+      "retrieval_hash": "sha256:3539e58754b993c7e0c46475a17c79254d5177dc9dbabaff5b4908893291af0d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/", "claim": "Pew reports survey field dates, party definitions, AI concern, and expected job effects.", "status": "official-analysis"},
+    {"source_url": "https://www.pewresearch.org/technology/2025/06/12/how-americans-view-ai-and-its-impact-on-people-and-society/", "claim": "Earlier Pew AI attitudes provide prior context for concern and excitement measures.", "status": "historical-context"}
+  ],
+  "boundary": "This record measures public attitudes and expectations about AI, not realized AI exposure, employment displacement, productivity, wages, workplace control, firm adoption, political action, regulation, or geopolitical capability. Party differences are descriptive; a same-worker implementation-to-outcome and policy-response chain remains open.",
+  "retrieval_hash": "sha256:3539e58754b993c7e0c46475a17c79254d5177dc9dbabaff5b4908893291af0d"
+}

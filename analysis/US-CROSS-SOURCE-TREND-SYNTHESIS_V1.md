@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 295 machine-readable records, 1054 observations,
+The current registry contains 296 machine-readable records, 1057 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -556,6 +556,16 @@ assistance participation can coexist with very low food security; adults and
 children can experience different food-security states; care can occur across
 work and financial paths; a reported response is not a verified remedy; and
 infrastructure scale is not state leverage.
+
+The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
+adds a current meaning-and-politics endpoint to the AI/work route. In the
+June 2026 survey, 52% of adults were more concerned than excited about AI's
+increased use in daily life, up from 37% in 2021; Democrats were at 56% versus
+49% of Republicans, and 75% versus 68% expected fewer US jobs over the next
+20 years. These are public expectations, not realized displacement or a
+partisan causal effect. They make the missing bridge sharper: link actual AI
+implementation and control to worker experience, attribution, policy demand,
+and later action.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

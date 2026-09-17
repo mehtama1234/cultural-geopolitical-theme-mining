@@ -341,6 +341,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-august-2026-retail-sales-consumer-activity-layer-v1.md")
     ai_work_control_endpoint_audit = ROOT / "analysis/projects/ai-work-control/ai-work-control-endpoint-audit-v1.md"
     memos.append(ai_work_control_endpoint_audit)
+    memos.append(ROOT / "analysis/projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md")
     named_workplace_system_stage_ledger = ROOT / "analysis/projects/ai-work-control/named-workplace-system-stage-ledger-v1.md"
     memos.append(named_workplace_system_stage_ledger)
     # Publish the newest storage-light AI/work enforcement follow-ups so the

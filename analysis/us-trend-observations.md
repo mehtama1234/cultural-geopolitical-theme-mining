@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-295 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+296 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -793,6 +793,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Adult platform reach is broad, increasingly diversified, and patterned by age and social position | time, voice | platforms_data_attention, unequal_exposure_status, trust_identity_meaning, consumer_power_recourse | US adult survey respondent, with platform-use and frequency reports | United States | 4 | 2025-02-05 to 2025-06-18; 2021 to 2025; 2025; frequency survey 2025-02-24 to 2025-03-02; 2025; subgroup comparisons | compared; observed | [open](records/us-pew-adult-social-media-2025.json) |
 
 **Boundary:** This record measures self-reported adult platform reach, frequency, change across repeated survey waves, and subgroup differences. It does not establish total attention time, content exposure, recommendation effects, political persuasion, consumer conversion, privacy loss, dependence, or causality.
+
+| AI concern and expected job loss have become more Democratic than Republican in 2026 | work, voice, cost | work_control_bargaining, trust_identity_meaning, unequal_exposure_status, political_judgment_action, infrastructure_technology_dependency | Pew Research Center American Trends Panel survey of US adults | United States | 3 | 2021 versus 2026; concern about increased AI use in daily life; 2026; concern about increased AI use in daily life by party identification; 2024 versus 2026; expected AI effect on US jobs over the next 20 years | reported | [open](records/us-pew-ai-concern-partisan-jobs-2026.json) |
+
+**Boundary:** This record measures public attitudes and expectations about AI, not realized AI exposure, employment displacement, productivity, wages, workplace control, firm adoption, political action, regulation, or geopolitical capability. Party differences are descriptive; a same-worker implementation-to-outcome and policy-response chain remains open.
 
 | AI use is becoming ordinary while control and social-impact concerns remain divided | voice, time, work, cost | platforms_data_attention, trust_identity_meaning, political_judgment_action, unequal_exposure_status, consumer_power_recourse, work_control_bargaining, household_room_consumption | Pew Research Center survey respondent; U.S. adults, with employed-adult and age subgroup universes where specified | United States | 5 | February 17-23, 2026; ever-use and frequency of AI chatbots; February 17-23, 2026; stated chatbot purposes; February 17-23, 2026; perceived personal and societal effects; February 17-23, 2026; pace, privacy, and regulatory confidence; 2023-2026; ChatGPT ever-use age comparison | reported | [open](records/us-pew-ai-daily-life-control-2026.json) |
 
