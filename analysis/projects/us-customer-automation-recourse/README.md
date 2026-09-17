@@ -131,6 +131,12 @@ This separates compensation from restoration of the underlying obligation and
 continued servicing dependence; individual receipt, balance correction,
 repeat effort, trust, switching, and exit remain open.
 
+The [Citibank student-loan servicing-remedy finding](findings/us-customer-automation-recourse-018.md)
+adds a named mechanism: misleading tax information, erroneous deferment
+termination, late fees, capitalized interest, overstated minimum payments, and
+incomplete co-signer notices. The CFPB ordered restitution and servicing
+controls, but public implementation and borrower-level recovery remain open.
+
 ## Scope
 
 - US customers and firms;

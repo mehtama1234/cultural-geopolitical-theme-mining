@@ -561,6 +561,14 @@ category. The 2025 annual-report context aligns with the broader timely field,
 not the narrower response label. The next step is servicing-transfer, notice,
 elapsed-days, payment-status, and verified-remedy evidence.
 
+The named [Citibank servicing-remedy case](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md)
+now supplies a historical mechanism and ordered correction comparator: account
+information and enrollment-status errors moved cost into tax access, fees,
+capitalized interest, and payment demands, followed by restitution and control
+requirements. It does not close individual receipt, adequacy, household
+recovery, trust, switching, or exit. Keep it separate from the 2024–2025
+complaint-field trend and from Navient's ongoing compensation status.
+
 The public-system lane now has a bounded transition-to-hardship estimate in
 the [SIPP SNAP outcome layer](projects/us-safety-net-access/sipp-snap-transition-outcome-fay-brr-layer-v1.md).
 The next missing public-system stage is the same-episode record of notice,

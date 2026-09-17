@@ -228,6 +228,16 @@ underlying obligation or an end to servicing dependence. The record still
 does not provide person-level receipt, balance correction, remaining loss,
 repeat effort, trust, switching, or exit. See the [Navient compensation and obligation record](cfpb-navient-compensation-obligation-record-v1.md).
 
+Citibank supplies the earlier mechanism behind a different student-loan
+failure: the CFPB found that account information and enrollment-status errors
+could move cost into foregone tax access, late fees, capitalized interest, and
+overstated payment demands. Its 2017 order required $3.75 million in consumer
+restitution, a $2.75 million penalty, and specific information and reversal
+controls. This is evidence of a named servicing mechanism and an ordered
+correction route, not evidence that each borrower received adequate restitution
+or recovered the missed tax, payment, credit, household, trust, or exit
+outcome. See the [Citibank servicing-remedy finding](findings/us-customer-automation-recourse-018.md).
+
 | Case | Formal response | Public distribution surface | Still unknown |
 |---|---|---|---|
 | Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
