@@ -83,6 +83,27 @@ Their regression guards pass via [test_uas_health_cost_legitimacy_guards.py](../
 The [minimum episode-field manifest](data/uas-minimum-episode-field-manifest-v1.json)
 is the machine-readable version of the required fields and stop conditions.
 
+## Decision after the 2026-09-17 public-metadata comparison
+
+UAS remains the primary acquisition route. The official UAS 537 metadata page
+identifies one health-care module with utilization, billing, perceptions, and
+satisfaction/access/health-status sections, reporting 1,233 selected cases and
+1,136 completed surveys (92.13% response) in English and Spanish. This makes
+the module a better first candidate for a same-respondent cost/access/
+institutional-perception overlap test than another aggregate benchmark. The
+page still requires login for data download, so these are route and denominator
+facts, not respondent estimates.
+
+HRS remains the age-50-plus fallback and replication route. Its public
+documentation exposes cost-related delay, non-cost delay reasons, health-care
+satisfaction, and trust in Medicare/Medicaid and insurers, but the trust block
+has a separate eligible module sample and the health-cost measures have broad
+recall windows. HRS should be used if UAS access fails or as an age-specific
+counterexample after the UAS structural gate; it should not be pooled with UAS
+or MEPS. The next operational action is still the smallest authenticated UAS
+file/codebook acquisition, followed by key, overlap, weight, timing, and
+missingness checks before any estimate.
+
 ## Required go/no-go evidence
 
 Do not promote a UAS result into the household cascade until the audit can
