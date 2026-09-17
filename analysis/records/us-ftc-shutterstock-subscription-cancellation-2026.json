@@ -4,8 +4,8 @@
   "title": "Subscription design can convert inattention into billing and make exit costly",
   "theme_ids": ["cost", "time", "voice"],
   "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "platforms_data_attention", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning"],
-  "source_unit": "Federal Trade Commission complaint and proposed order concerning Shutterstock Inc.; institutional enforcement case, not a population sample",
-  "geography": "United States federal consumer-protection enforcement; Shutterstock's online subscription and content-pack flows",
+  "source_unit": "Federal Trade Commission subscription-enforcement records concerning Shutterstock Inc. and Uber Technologies/Uber USA; institutional cases, not population samples",
+  "geography": "United States federal consumer-protection enforcement; online content, transportation, delivery, and membership subscription flows",
   "observations": [
     {
       "period": "May 2026; FTC complaint and proposed settlement announcement",
@@ -40,11 +40,33 @@
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices",
       "retrieval_hash": "sha256:9415d14afd95810c01848762a032fd2146c8d7890f6bf2c4abe1bc9776fd1c95",
       "status": "reported"
+    },
+    {
+      "period": "December 15, 2025 amended complaint; FTC release rechecked September 17, 2026",
+      "denominator": {"value": 1, "unit": "named Uber One federal subscription-enforcement case joined by 21 states and the District of Columbia", "value_type": "institutional_case_count"},
+      "measures": {
+        "subscription_service": {"value": "Uber One monthly or annual subscription marketed with delivery-fee and savings claims", "unit": "named transportation and delivery membership service", "value_type": "case_description"},
+        "alleged_savings_claim": {"value": 25, "unit": "US dollars per month advertised savings, without accounting for subscription cost according to the FTC allegation", "value_type": "alleged_marketing_claim"},
+        "subscription_cost_ceiling": {"value": 9.99, "unit": "US dollars per month, up to, according to the FTC allegation", "value_type": "reported_price_context"},
+        "cancellation_action_burden": {"value": "as many as 23 screens and 32 actions", "unit": "alleged online cancellation-flow burden", "value_type": "reported_exit_friction"},
+        "government_participation": {"value": "FTC, 21 states, and District of Columbia", "unit": "government plaintiffs in amended complaint", "value_type": "reported_institutional_scope"},
+        "case_status": {"value": "pending; second amended complaint listed May 4, 2026", "unit": "FTC case docket status", "value_type": "reported_case_status"},
+        "consumer_outcome": {"value": "not observed", "unit": "missing account-level enrollment, realized savings, cancellation, refund, switching, and household mobility endpoint", "value_type": "unmeasured"}
+      },
+      "method": "FTC amended-complaint press release review; alleged billing, savings, and cancellation mechanisms are coded separately from customer incidence, realized benefit, and remedy.",
+      "uncertainty": "The FTC release reports allegations and a pending case, not a representative consumer estimate or final adjudication. The number of screens/actions may vary by account, product version, device, or date; no cancellation completion rate, time cost, charge incidence, refund, or transport substitution is reported.",
+      "subgroup": "US Uber One customers, free-trial users, delivery and rideshare users, and consumers in the 21 states and District of Columbia joining the action; customer and plaintiff-state units are not interchangeable.",
+      "counterinterpretation": "A membership may produce real delivery or ride savings for some users, and a multi-step flow may still be completed; the alleged interface burden identifies a possible exit mechanism, not universal harm or dependence.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-states-file-amended-complaint-against-uber-deceptive-billing-cancellation-practices",
+      "retrieval_hash": "sha256:7ffb77cc01d821fe6670101f9ba30f59d8fb05d1e04e89f239f746afef0473fa",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/shutterstock-inc", "claim": "FTC case docket, pending status, complaint, and joint motion for the Shutterstock subscription matter.", "status": "official-case-record"},
-    {"source_url": "https://www.nber.org/papers/w31547", "claim": "Payment-card research supplies a separate observational mechanism for cancellation at card replacement and modeled revenue from inattention.", "status": "research-context", "access_boundary": "The NBER study is not pooled with the FTC case and does not measure Shutterstock customers."}
+    {"source_url": "https://www.nber.org/papers/w31547", "claim": "Payment-card research supplies a separate observational mechanism for cancellation at card replacement and modeled revenue from inattention.", "status": "research-context", "access_boundary": "The NBER study is not pooled with the FTC case and does not measure Shutterstock customers."},
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-states-file-amended-complaint-against-uber-deceptive-billing-cancellation-practices", "claim": "FTC describes the Uber One amended complaint, alleged savings and cancellation practices, and government-plaintiff scope.", "status": "official-comparator"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2423092-uber-ftc-v", "claim": "FTC case page lists Uber One complaint stages, pending status, and the second amended complaint.", "status": "official-case-record"}
   ],
   "boundary": "This record promotes one current digital-subscription enforcement case into the broader atlas. It observes an alleged attention-to-billing and exit-friction mechanism plus proposed institutional controls; it does not establish national subscription burden, causal household hardship, consumer dependence, or whether the remedy prevents recurrence. The next test is same-case implementation and account-level follow-up with notice, charge, cancellation effort, refund/relief receipt, continued use, switching, and trust kept separate."
 }

@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 273 records and
-1011 observations.
+1012 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2331,6 +2331,13 @@ late 2026. This closes aggregate remedy distribution but not eligibility,
 receipt, remaining loss, continued use, switching, or trust. Keep the next
 pass at a small account/administrator ledger; do not download a broad customer
 file or infer individual recovery from the pool total.
+
+The same subscription finding now includes Uber One as a service-dependence
+comparison: the FTC amended-complaint release alleges up to 23 cancellation
+screens and 32 actions, alongside disputed savings and consent. This extends
+the mechanism to transportation and delivery, but remains a pending case
+allegation; customer incidence, realized savings, cancellation completion,
+refund, switching, and household mobility remain open.
 
 The [time-intensive platform finding](projects/us-time-intensive-platform-consumption/findings/us-time-intensive-platform-consumption-001.md)
 now adds a distinct digital-consumer cost mechanism. NBER Working Paper 34743

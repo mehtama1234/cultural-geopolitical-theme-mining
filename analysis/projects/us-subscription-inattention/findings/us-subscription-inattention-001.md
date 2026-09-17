@@ -23,6 +23,22 @@ not give us a representative denominator, an observed unwanted-renewal rate,
 the time or money burden per customer, or proof that each continuing customer
 wanted to stop.
 
+## Transportation and delivery membership comparison
+
+The FTC's amended Uber One complaint supplies a second US case with a different
+service dependency. The FTC and 21 states plus the District of Columbia allege
+that Uber marketed monthly savings of $25 without accounting for a subscription
+cost of up to $9.99, charged some consumers without consent, failed to deliver
+promised savings, and made cancellation difficult. The release says some users
+could face as many as 23 screens and 32 actions to cancel.
+
+This comparison matters because the subscription is attached to rides and food
+delivery: an exit decision may involve transport, convenience, delivery access,
+and household scheduling, not only media or digital content. It remains a case
+allegation. The public record does not show how many customers encountered the
+flow, how many canceled, what savings were realized, whether refunds occurred,
+or whether users switched to other transport or delivery options.
+
 ## What the case contributes
 
 | Layer | Evidence | Boundary |
@@ -31,6 +47,7 @@ wanted to stop.
 | Exit | Before 2024, the FTC says early cancellation could require phone, chat, or email support; the complaint also alleges difficult-to-find terms | A burdensome route is not the same as an impossible exit, and the case does not report completion rates |
 | Remedy | Proposed $35M consumer relief and requirements for disclosure, consent, and simple cancellation | Proposed controls do not establish implementation, payment receipt, or recurrence prevention |
 | Household effect | The mechanism is plausibly connected to recurring cost and attention/time | The case does not measure budget strain, overdrafts, missed essentials, or trust change |
+| Cross-service comparison | Uber One extends the same alleged billing/exit mechanism to rides and delivery; up to 23 screens and 32 actions are reported in the amended complaint | Service-specific exposure, actual savings, cancellation completion, switching, refund, and household mobility outcomes |
 
 ## The key distinction
 
@@ -71,6 +88,8 @@ switching.
 
 - [FTC Shutterstock complaint and proposed settlement announcement](https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices)
 - [FTC Shutterstock case docket](https://www.ftc.gov/legal-library/browse/cases-proceedings/shutterstock-inc)
+- [FTC and states Uber One amended complaint announcement](https://www.ftc.gov/news-events/news/press-releases/2025/12/ftc-states-file-amended-complaint-against-uber-deceptive-billing-cancellation-practices)
+- [FTC Uber One case docket](https://www.ftc.gov/legal-library/browse/cases-proceedings/2423092-uber-ftc-v)
 - [NBER: Selling Subscriptions](https://www.nber.org/papers/w31547)
 - [Machine-readable trend record](../../../records/us-ftc-shutterstock-subscription-cancellation-2026.json)
 

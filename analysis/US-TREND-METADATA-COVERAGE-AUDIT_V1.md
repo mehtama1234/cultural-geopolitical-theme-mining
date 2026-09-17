@@ -9,8 +9,8 @@ validator proves structural validity; this report shows where provenance
 and contextual depth are stronger or thinner across the atlas.
 
 - Trend records: **273**
-- Observations: **1011**
-- Distinct observation source URLs: **298**
+- Observations: **1012**
+- Distinct observation source URLs: **299**
 
 ## Required-field coverage
 
@@ -24,15 +24,15 @@ and contextual depth are stronger or thinner across the atlas.
 | record | `geography` | 273 | 100.0% |
 | record | `observations` | 273 | 100.0% |
 | record | `boundary` | 273 | 100.0% |
-| observation | `period` | 1011 | 100.0% |
-| observation | `denominator` | 1011 | 100.0% |
-| observation | `measures` | 1011 | 100.0% |
-| observation | `method` | 1011 | 100.0% |
-| observation | `uncertainty` | 1011 | 100.0% |
-| observation | `subgroup` | 1011 | 100.0% |
-| observation | `counterinterpretation` | 1011 | 100.0% |
-| observation | `source_url` | 1011 | 100.0% |
-| observation | `retrieval_hash` | 1011 | 100.0% |
+| observation | `period` | 1012 | 100.0% |
+| observation | `denominator` | 1012 | 100.0% |
+| observation | `measures` | 1012 | 100.0% |
+| observation | `method` | 1012 | 100.0% |
+| observation | `uncertainty` | 1012 | 100.0% |
+| observation | `subgroup` | 1012 | 100.0% |
+| observation | `counterinterpretation` | 1012 | 100.0% |
+| observation | `source_url` | 1012 | 100.0% |
+| observation | `retrieval_hash` | 1012 | 100.0% |
 
 ## Context-field coverage
 
@@ -57,11 +57,11 @@ is not converted into a zero or a stronger causal claim.
 | `inferred` | 8 |
 | `observed` | 70 |
 | `open` | 1 |
-| `reported` | 306 |
+| `reported` | 307 |
 
 ## Interpretation and next control
 
-All 1011 observations are expected to carry the required
+All 1012 observations are expected to carry the required
 period, denominator, measures, method, uncertainty, subgroup,
 counterinterpretation, source URL, and retrieval hash fields. Record-level
 related sources and reproduction audits are uneven by design: older or
