@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "e7ea0e862c673b5c3688bddff5551fc26a4118138ac222713fd7494e8b38881e",
+  "matrix_sha256": "f6906c2cdd2dc915835ce72e58fc1eb6466c6dcfb9c4782d417fa11cf6bbdb55",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -27,9 +27,9 @@
     },
     {
       "current_status": "Reported / Compared",
-      "evidence_anchor_count": 5,
+      "evidence_anchor_count": 8,
       "measurement_level": "Person, diary day, trip, worker, household",
-      "next_required_test": "Measure waiting, travel, care, paperwork, and service effort against the time or money they displace; distinguish time spent, desired, controlled, and displaced.",
+      "next_required_test": "Measure waiting, travel, care, paperwork, and service effort against the time or money they displace; ATUS and NHTS now make separate time and trip currencies explicit, while the cross-source layer keeps political availability as a downstream open arrow; distinguish time spent, desired, controlled, and displaced.",
       "same_unit_end_to_end_link": false,
       "source_line": 15,
       "status_tokens": [
