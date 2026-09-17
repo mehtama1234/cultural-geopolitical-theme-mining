@@ -41,6 +41,31 @@ separate.
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
 
+## Stage-level coverage count
+
+The 14 surfaces can also be summarized without pooling their units. A status is
+classified as **observed** when it begins with `observed`, **partial** when it
+begins with `partial`, and **open/unknown** for all other labels (including
+reference-period and unknown statuses).
+
+| Required stage | Observed | Partial | Open/unknown |
+|---|---:|---:|---:|
+| Dated event or exposure | 11 | 1 | 2 |
+| Responsible actor | 7 | 5 | 2 |
+| Alternative or non-use | 1 | 3 | 10 |
+| Effort, money, or time trade-off | 1 | 9 | 4 |
+| Adaptation or protected/sacrificed outcome | 2 | 4 | 8 |
+| Institutional or firm response | 11 | 1 | 2 |
+| Verified remedy | 0 | 8 | 6 |
+| Meaning, trust, or action | 0 | 2 | 12 |
+| Recovery, persistence, or exit | 0 | 5 | 9 |
+
+This count is a stage-availability diagnostic, not a success rate or a common
+denominator. It identifies the sharpest broad-program bottleneck: records can
+show that an event occurred and that an institution responded, while they do
+not show what alternative the affected unit had, whether the remedy was
+received, or what happened to meaning, recovery, or exit.
+
 ## Result
 
 No current local source supplies all nine required stages. The platform ledger,

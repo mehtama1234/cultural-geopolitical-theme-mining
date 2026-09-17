@@ -22,6 +22,8 @@ REQUIRED_TOP_LEVEL = {
     "checked",
     "purpose",
     "required_stages",
+    "stage_summary_rule",
+    "stage_summary",
     "sources",
     "result",
     "next_test",
@@ -63,6 +65,22 @@ def main() -> int:
             raise ValueError(f"{row['source']} has incomplete stage status")
         if not (root / source).is_file():
             raise FileNotFoundError(root / source)
+    if set(data["stage_summary"]) != required_stages:
+        raise ValueError("stage summary must cover every required stage")
+    for stage in required_stages:
+        summary = data["stage_summary"][stage]
+        if set(summary) != {"observed", "partial", "open_or_unknown"}:
+            raise ValueError(f"{stage} has incomplete stage summary")
+        computed = {
+            "observed": sum(row["stage_status"][stage].startswith("observed") for row in rows),
+            "partial": sum(row["stage_status"][stage].startswith("partial") for row in rows),
+            "open_or_unknown": sum(
+                not row["stage_status"][stage].startswith(("observed", "partial"))
+                for row in rows
+            ),
+        }
+        if summary != computed:
+            raise ValueError(f"{stage} stage summary does not match source rows")
     print(f"VALID broad same-case episode availability audit: {len(rows)} local source surfaces")
     return 0
 

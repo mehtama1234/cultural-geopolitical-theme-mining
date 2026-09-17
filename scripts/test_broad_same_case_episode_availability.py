@@ -51,6 +51,12 @@ def main() -> int:
     assert rejected.returncode != 0
     assert "nonnegative integer" in rejected.stderr
 
+    mismatched_summary = copy.deepcopy(fixture)
+    mismatched_summary["stage_summary"]["verified_remedy"]["partial"] = 7
+    rejected = run(mismatched_summary)
+    assert rejected.returncode != 0
+    assert "does not match source rows" in rejected.stderr
+
     print("PASS broad same-case availability regression checks")
     return 0
 

@@ -14,6 +14,18 @@
     "meaning_trust_or_action",
     "recovery_persistence_or_exit"
   ],
+  "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
+  "stage_summary": {
+    "dated_event_or_exposure": {"observed": 11, "partial": 1, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 7, "partial": 5, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 1, "partial": 3, "open_or_unknown": 10},
+    "effort_money_or_time_tradeoff": {"observed": 1, "partial": 9, "open_or_unknown": 4},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 4, "open_or_unknown": 8},
+    "institutional_or_firm_response": {"observed": 11, "partial": 1, "open_or_unknown": 2},
+    "verified_remedy": {"observed": 0, "partial": 8, "open_or_unknown": 6},
+    "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 12},
+    "recovery_persistence_or_exit": {"observed": 0, "partial": 5, "open_or_unknown": 9}
+  },
   "sources": [
     {
       "source": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
