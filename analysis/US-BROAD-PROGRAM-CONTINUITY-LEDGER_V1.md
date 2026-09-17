@@ -354,6 +354,15 @@ status; no same-customer alternative, remedy receipt, recovery, switching,
 non-use, trust, or action is established. This sharpens the next collection
 requirement without requiring a larger download.
 
+The twenty-ninth rotation adds a second clock to the end-to-end household lane
+through the [MEPS event-to-work two-clock audit](projects/us-household-constraint-cascade/meps-event-work-two-clock-audit-v1.md).
+R4/2 nonemployment levels after strict-window events are aligned by event family
+with R5/3 nonemployment, status change, onset, and resolution. Acute-event level
+differences persist, but transition directions are mixed and the smaller R5
+universe is not row-merged with the R4 screen. This advances the material →
+work → later-status arrow while keeping claim identity, alternatives, remedy,
+household recovery, meaning, action, and exit open.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current
