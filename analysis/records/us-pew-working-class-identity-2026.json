@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-working-class-identity-2026",
+  "title": "Working-class identity spans income and education groups while carrying a strong partisan and financial-stress pattern",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action", "household_room_consumption"],
+  "source_unit": "Pew Research Center American Trends Panel survey and linked occupation context",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "January 20-26, 2026; working-class self-identification over time",
+      "denominator": {"value": 100, "unit": "percent of US adults in Pew survey; respondents saying the term describes them extremely or very well", "value_type": "published_percentage_base"},
+      "measures": {"working_class_2026": {"value": 60, "unit": "percent saying working class describes them well", "value_type": "published_share"}, "working_class_2024": {"value": 54, "unit": "percent saying working class describes them well", "value_type": "published_share"}, "change": {"value": 6, "unit": "percentage-point increase from 2024", "value_type": "derived_difference"}},
+      "method": "Pew American Trends Panel descriptive comparison across survey waves; self-identification is retained separately from income, education, occupation, and financial-stress variables.",
+      "uncertainty": "The comparison is repeated cross-sectional, not a same-person identity transition. Wording, political context, sample composition, and the meaning of working class can affect responses.",
+      "subgroup": "US adults; subgroup estimates are reported by income, education, party, race/ethnicity, occupation, and financial stress.",
+      "counterinterpretation": "A rise in self-identification may reflect changing political language or status meaning rather than worsening material position or occupational change.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:a09426ec93debfc2ec382bd33f9c134b43d57e977de14d1296514ddd2457d9d4",
+      "status": "reported"
+    },
+    {
+      "period": "January 20-26, 2026; working-class identity by party, income, education, and financial stress",
+      "denominator": {"value": 100, "unit": "percent within Pew US adult subgroup; self-identification response", "value_type": "published_percentage_base"},
+      "measures": {"republican_or_leaner": {"value": 67, "unit": "percent saying working class describes them well", "value_type": "published_share"}, "democratic_or_leaner": {"value": 55, "unit": "percent", "value_type": "published_share"}, "college_graduate": {"value": 50, "unit": "percent", "value_type": "published_share"}, "no_college_degree": {"value": 66, "unit": "percent", "value_type": "published_share"}, "upper_income": {"value": 50, "unit": "percent", "value_type": "published_share"}, "middle_income": {"value": 67, "unit": "percent", "value_type": "published_share"}, "lower_income": {"value": 57, "unit": "percent", "value_type": "published_share"}, "low_financial_stress": {"value": 50, "unit": "percent", "value_type": "published_share"}, "medium_financial_stress": {"value": 65, "unit": "percent", "value_type": "published_share"}, "high_financial_stress": {"value": 61, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew subgroup cross-tabulation; family income tiers use adjusted 2024 earnings and financial-stress categories are source-defined composites.",
+      "uncertainty": "Subgroup contrasts are descriptive and overlap across dimensions. Party, income, education, financial stress, race, age, and work type are jointly structured; the report's multivariate analysis does not turn identity into a causal outcome.",
+      "subgroup": "Party, education, income, and financial-stress groups as defined by Pew; subgroup margins and small-cell caveats remain source-specific.",
+      "counterinterpretation": "Working-class identity is not a direct proxy for low income, material hardship, blue-collar work, or political ideology; many respondents with comfortable finances adopt the label.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:a09426ec93debfc2ec382bd33f9c134b43d57e977de14d1296514ddd2457d9d4",
+      "status": "reported"
+    },
+    {
+      "period": "January 20-26, 2026; working-class identity by work type",
+      "denominator": {"value": 100, "unit": "percent within Pew worker subgroup; blue-collar definition combines physical/manual work with selected industrial sectors", "value_type": "published_percentage_base"},
+      "measures": {"blue_collar_workers": {"value": 77, "unit": "percent saying working class describes them well", "value_type": "published_share"}, "all_other_workers": {"value": 61, "unit": "percent", "value_type": "published_share"}, "worker_contrast": {"value": 16, "unit": "percentage-point contrast", "value_type": "derived_difference"}},
+      "method": "Pew links January 2026 identity responses to occupation and physical-labor information collected in an October 2024 American Trends Panel survey; blue-collar is source-defined.",
+      "uncertainty": "The linked occupation context is not a current employment trajectory or panel of identity change. The category includes selected sectors and manual/physical work and should not be generalized to all workers or job quality.",
+      "subgroup": "Blue-collar workers as defined by Pew versus all other workers.",
+      "counterinterpretation": "The 16-point contrast does not establish that occupation causes identity; status, culture, party, education, financial stress, and perceived social respect may all contribute.",
+      "source_url": "https://www.pewresearch.org/politics/2026/08/31/who-sees-themselves-as-working-class/",
+      "retrieval_hash": "sha256:a09426ec93debfc2ec382bd33f9c134b43d57e977de14d1296514ddd2457d9d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/politics/2025/09/04/how-americans-see-their-jobs-and-workplaces/", "claim": "Pew's prior work provides occupational and workplace-identity context for the current self-classification layer.", "status": "historical-context"}, {"source_url": "https://www.pewresearch.org/politics/2026/07/23/americans-evaluations-of-the-economy-remain-negative/", "claim": "Pew current economic evaluations provide a separate material and political-judgment context.", "status": "cross-source-context"}],
+  "boundary": "This record measures self-identified working-class status and descriptive subgroup associations. It does not measure objective class position, income mobility, occupation quality, material hardship, class consciousness, voting, policy preference, or causal political identity formation.",
+  "retrieval_hash": "sha256:a09426ec93debfc2ec382bd33f9c134b43d57e977de14d1296514ddd2457d9d4"
+}

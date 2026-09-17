@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-299 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+300 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -825,6 +825,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Teen digital life combines near-constant platform use with fast-growing chatbot adoption | time, voice | platforms_data_attention, unequal_exposure_status, trust_identity_meaning, care_health_reproduction, consumer_power_recourse | US teen-parent dyad survey respondent, age 13-17, with platform and chatbot use reports | United States | 4 | 2025-09-25 to 2025-10-09; 2025; platform frequency and change since 2022; 2025; chatbot adoption by age, income, and race/ethnicity; 2025; chatbot purpose and product mix | compared; observed | [open](records/us-pew-teens-social-ai-2025.json) |
 
 **Boundary:** This record measures self-reported teen platform and chatbot use, frequency, product choice, and subgroup differences. It does not establish attention minutes, dependence, harm, learning, mental health, privacy loss, political persuasion, or causal platform effects.
+
+| Working-class identity spans income and education groups while carrying a strong partisan and financial-stress pattern | work, voice, cost | work_control_bargaining, trust_identity_meaning, unequal_exposure_status, political_judgment_action, household_room_consumption | Pew Research Center American Trends Panel survey and linked occupation context | United States | 3 | January 20-26, 2026; working-class self-identification over time; January 20-26, 2026; working-class identity by party, income, education, and financial stress; January 20-26, 2026; working-class identity by work type | reported | [open](records/us-pew-working-class-identity-2026.json) |
+
+**Boundary:** This record measures self-identified working-class status and descriptive subgroup associations. It does not measure objective class position, income mobility, occupation quality, material hardship, class consciousness, voting, policy preference, or causal political identity formation.
 
 | Local capacity, population change, belonging, trust, and civic action do not form a single place gradient | voice, cost, work | housing_place_mobility, trust_identity_meaning, political_judgment_action, unequal_exposure_status, care_health_reproduction, public_systems_feedback | Deliberately non-pooled county-context respondent cells, local-area attitude samples, and national respondent cross-tabs | United States; county contexts nationally and Chicago, suburban Cook County, and Lake County, Illinois | 4 | 2024; CES respondents grouped by county population change, 2020-2023; 2024; CES county capacity/mobility context cells; April 13-23, 2026; local immigration meaning and legal-inclusion attitudes; 2024; national immigration meaning, trust, and vote cross-tabs | compared; reported | [open](records/us-place-capacity-growth-belonging-action-crosssource-2024-2026.json) |
 
