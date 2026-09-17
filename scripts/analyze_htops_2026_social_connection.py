@@ -59,6 +59,8 @@ def main() -> None:
 
     with zipfile.ZipFile(args.zip) as archive:
         primary: dict[str, tuple[str, dict[str, str], float]] = {}
+        all_main_ids: set[str] = set()
+        all_primary_weights: dict[str, float] = {}
         main_rows = 0
         duplicate_main = 0
         with archive.open(args.puf_member) as raw:
@@ -72,6 +74,7 @@ def main() -> None:
             for row in reader:
                 main_rows += 1
                 sid = row["SCRAMID"]
+                all_main_ids.add(sid)
                 if sid in primary:
                     duplicate_main += 1
                     continue
@@ -79,6 +82,7 @@ def main() -> None:
                     weight = float(row["PWEIGHT"])
                 except (TypeError, ValueError):
                     continue
+                all_primary_weights[sid] = weight
                 group = code(row["EXPENSE_DIFFICULT"])
                 if group in GROUPS:
                     primary[sid] = (group, row, weight)
@@ -103,12 +107,14 @@ def main() -> None:
                 if sid in seen:
                     duplicate_rep += 1
                 seen.add(sid)
+                if sid not in all_main_ids:
+                    extra_rep += 1
                 item = primary.get(sid)
                 if item is None:
-                    extra_rep += 1
                     continue
                 group, source, base_weight = item
-                max_weight_difference = max(max_weight_difference, abs(float(row["PWEIGHT0"]) - base_weight))
+                if sid in all_primary_weights:
+                    max_weight_difference = max(max_weight_difference, abs(float(row["PWEIGHT0"]) - all_primary_weights[sid]))
                 n_by_group[group] += 1
                 for name, (positive, valid) in outcomes(source).items():
                     if not valid:
@@ -147,7 +153,7 @@ def main() -> None:
         "alignment": {
             "duplicate_main_ids": duplicate_main,
             "duplicate_replicate_ids": duplicate_rep,
-            "missing_replicate_ids": len(set(primary) - seen),
+            "missing_replicate_ids": len(all_main_ids - seen),
             "extra_replicate_ids": extra_rep,
             "max_abs_primary_weight_difference": max_weight_difference,
         },
