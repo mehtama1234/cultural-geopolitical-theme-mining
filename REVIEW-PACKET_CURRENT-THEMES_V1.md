@@ -28,6 +28,10 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+For a longer thematic narrative, read the [detailed themes reading guide](analysis/US-BROAD-THEMES-DEEP-DIVE_V1.md).
+It explains the recurring mechanisms across the individual routes and keeps
+the observed, compared, inferred, and open portions of each theme explicit.
+
 ## Themes worth reviewing now
 
 These are the most interesting recurring patterns in the current atlas. They
