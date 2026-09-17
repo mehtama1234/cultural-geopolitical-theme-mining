@@ -2931,3 +2931,13 @@ temporary and not retained; the next test is a repeated/event design with
 actual help, alternatives, and later recovery or action. The age-conditioned
 check reproduces the direction in 25–44, 45–64, and 65+ bands while showing
 that loneliness and support adequacy do not move identically by age.
+
+The [interface-to-outcome conversion finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md)
+now rotates the map across airports, disability access, workforce programs,
+working Medicaid/SNAP households, and smartphone self-regulation. It records a
+shared but non-pooled boundary: nominal capacity, attempted use, completed
+use, protected outcome, and later recovery/exit are separate stages. The next
+decisive step is one stable-unit interface ledger with an offered route,
+usable alternative, effort or trade-off, completion/abandonment, and response
+after failure. This rotation adds a broad mechanism while preserving the rule
+against another exposure-only cross-tab.

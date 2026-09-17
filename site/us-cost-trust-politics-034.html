@@ -1,0 +1,230 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Finding 034: Availability is not use—the conversion cost sits at the interface"><title>Finding 034: Availability is not use—the conversion cost sits at the interface</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#the-bounded-finding">The bounded finding</a></li><li><a href="#evidence-comparison">Evidence comparison</a></li><li><a href="#the-conversion-stages">The conversion stages</a></li><li class="toc-sub"><a href="#1-presence-is-the-easiest-stage-to-measure">1. Presence is the easiest stage to measure</a></li><li class="toc-sub"><a href="#2-interface-fit-determines-practical-value">2. Interface fit determines practical value</a></li><li class="toc-sub"><a href="#3-attempted-use-and-completed-use-are-different-outcomes">3. Attempted use and completed use are different outcomes</a></li><li class="toc-sub"><a href="#4-unmeasured-conversion-costs-become-private-adaptation">4. Unmeasured conversion costs become private adaptation</a></li><li class="toc-sub"><a href="#5-the-downstream-consequence-can-move-from-person-to-firm-to-state">5. The downstream consequence can move from person to firm to state</a></li><li><a href="#what-this-adds-to-the-broad-atlas">What this adds to the broad atlas</a></li><li><a href="#counterexamples-and-limits">Counterexamples and limits</a></li><li><a href="#next-decisive-test">Next decisive test</a></li><li><a href="#provenance-and-storage-boundary">Provenance and storage boundary</a></li></ul></nav></div><article id="finding" class="memo"><h1>Finding 034: Availability is not use—the conversion cost sits at the interface</h1>
+<p><strong>Status:</strong> provisional cross-theme conversion synthesis · <strong>Checked:</strong> 2026-09-17</p>
+<h2 id="the-bounded-finding">The bounded finding</h2>
+<p>Retained evidence across five domains points to one of the atlas’s most
+important recurring patterns: formal availability is a weak proxy for usable
+opportunity. A rail connection can exist while only a small share of airport
+passengers or workers use transit. A health-care benefit or appointment can
+exist while equipment, communication, sensory, digital, or bias barriers make
+the encounter inaccessible. A workforce program can enroll participants while
+disclosure, interpretation, technology, or outside-training barriers weaken
+completion. Medicaid or SNAP can coexist with work while wages, schedules,
+household need, and administrative conditions determine whether employment
+produces security. A smartphone can provide information and connection while
+users report excess time, sleep costs, and incomplete self-regulation.</p>
+<p>These are not one pooled rate and do not describe the same people. They are
+separate evidence surfaces that converge on a useful mechanism:</p>
+<pre><code class="language-text">nominal capacity or access
+  -&gt; interface fit: time, price, information, physical usability,
+     schedule, disclosure, reliability, and alternatives
+  -&gt; attempted and completed use
+  -&gt; protected or sacrificed money, time, health, work, connection, or agency
+  -&gt; adaptation, complaint, redesign, switching, non-use, or dependence
+  -&gt; public, firm, and geopolitical consequences
+</code></pre>
+<p>The main empirical contribution is a conversion rule. Do not treat a route,
+program, regulation, device, benefit, or facility as an outcome merely because
+it exists. The relevant unit is whether a person or organization can use it
+reliably, safely, affordably, and with a workable alternative when it fails.</p>
+<h2 id="evidence-comparison">Evidence comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Nominal availability or capacity</th>
+<th>Observed use, friction, or outcome</th>
+<th>What remains open</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Airport transit</td>
+<td>All but two reviewed small airports had some bus/rail service; 23 of 31 large airports had rail, with 18 connecting on airport grounds or by dedicated air-train</td>
+<td>Passenger transit use ranged from 4% to 19% at 12 airports with usable reports; about 4% of airport and airline employees nationwide used transit to commute; two visited airports reported 17% and 19% employee use</td>
+<td>Route-level headway, fare, transfer, shift fit, completed trips, missed work, and causal effect of demand-management interventions</td>
+</tr>
+<tr>
+<td>Disability health-care access</td>
+<td>One in four U.S. adults reports a disability; federal health systems and accessibility rules provide formal coverage and oversight routes</td>
+<td>GAO identified physical, sensory, cognitive, communication, digital, and bias barriers; none of 12 HHS population-health surveys measured most accessibility barriers nationally</td>
+<td>Barrier prevalence, failed/avoided encounters, accommodation delivery, continuity, correction, and provider exit</td>
+</tr>
+<tr>
+<td>Disability workforce programs</td>
+<td>DOL workforce programs provide job centers, training, guidance, and accommodation obligations</td>
+<td>7% of participants in reviewed programs reported disabilities; 43% of those reporters did not provide a disability type; selected site visits found interpreter, outside-training, technology, monitoring, and guidance-awareness problems; participants reporting disabilities had worse employment outcomes</td>
+<td>Accommodation request and receipt, service completion, placement, retention, wage, and whether access cost shifted to the job seeker</td>
+</tr>
+<tr>
+<td>Work plus public benefits</td>
+<td>Medicaid and SNAP provide public health/food protection alongside labor-market participation</td>
+<td>About 13.8 million Medicaid-enrolled adults and 10.6 million adults in SNAP households worked at some point in 2024; about 88% in each group worked in the private sector; selected-state data found repeated large-employer concentration</td>
+<td>Wage adequacy, predictable hours, employer benefits, benefit churn/cliffs, household security, worker alternatives, and employer responsibility</td>
+</tr>
+<tr>
+<td>Smartphone self-regulation</td>
+<td>73% said smartphones help them stay informed and 51% said they help them feel connected</td>
+<td>53% said they spend too much time; 45% tried to cut back; only 25% of those trying reported being extremely or very successful; 41% said smartphones hurt sleep</td>
+<td>Logged behavior, notifications, obligation, replacement options, platform design, durable change, and later well-being or civic action</td>
+</tr>
+</tbody>
+</table>
+<p>The units differ: airport and health-care evidence is institution/place or
+stakeholder-based; workforce and benefits evidence combines selected program
+participants with national population estimates; smartphone evidence is a
+self-reported American Trends Panel survey. The comparison is therefore a
+mechanism synthesis, not a meta-analysis, index, or estimate of a single
+national conversion failure.</p>
+<h2 id="the-conversion-stages">The conversion stages</h2>
+<h3 id="1-presence-is-the-easiest-stage-to-measure">1. Presence is the easiest stage to measure</h3>
+<p>Administrative and infrastructure records are often strongest at the input
+stage. A map can show a rail station, a provider can report equipment, a
+program can count participants, a government can count enrollees, and a device
+can supply an information function. These records are valuable, but they
+answer only whether a capability is nominally present.</p>
+<p>The airport review makes the distinction unusually visible. Service existed at
+nearly every reviewed airport, but passenger use was available for only 12
+airports and ranged from 4% to 19%. The national airport/airline employee share
+was about 4%, while two visited airports reported 17% and 19%. Those values are
+not contradictory: they have different universes, designs, and local service
+conditions. They demonstrate why availability and use must not be collapsed.</p>
+<p>The same logic applies to health-care accessibility. “Covered,” “open,” or
+“offered” does not tell us whether a person can get onto the equipment,
+communicate with staff, tolerate the environment, use the check-in interface,
+receive an interpreter, or complete a safe encounter. The institution may
+possess capacity while the patient bears the conversion cost.</p>
+<h3 id="2-interface-fit-determines-practical-value">2. Interface fit determines practical value</h3>
+<p>The second stage is where unequal optionality appears. The conversion cost can
+be monetary, temporal, physical, cognitive, informational, social, or
+administrative:</p>
+<ul>
+<li>a transit route may not match an early or overnight shift;</li>
+<li>a transfer or fare may erase the nominal transportation benefit;</li>
+<li>a lift, exam table, kiosk, app, interpreter, or communication practice may
+  fail a disability-related need;</li>
+<li>a job center may have assistive technology but not an accessible external
+  training site;</li>
+<li>a worker may have a job but insufficient hours, employer coverage, or
+  predictable scheduling;</li>
+<li>a smartphone may be useful precisely because it carries information and
+  relationships, making cutback harder even when use feels excessive.</li>
+</ul>
+<p>The interface is not a neutral implementation detail. It determines who can
+convert formal access into a completed activity and who must supply the missing
+time, money, transport, family assistance, disclosure, or self-control.</p>
+<h3 id="3-attempted-use-and-completed-use-are-different-outcomes">3. Attempted use and completed use are different outcomes</h3>
+<p>The smartphone evidence provides a clean stage distinction. Concern is not an
+attempt, an attempt is not success, and success is not durable behavioral
+change. Among people who tried to cut back, only one-quarter reported being
+extremely or very successful, while most reported partial success. The device
+also supplies information and connection, so non-use is not costless. This is
+not proof of addiction or a particular platform effect; it is evidence that
+utility and burden can coexist and complicate exit.</p>
+<p>The same distinction is missing in other domains. A complaint is not a
+correction, an enrollment is not a usable service, an accommodation offer is
+not accommodation receipt, a transit route is not a completed trip, and a
+benefit-eligible worker is not a worker with durable household security.</p>
+<h3 id="4-unmeasured-conversion-costs-become-private-adaptation">4. Unmeasured conversion costs become private adaptation</h3>
+<p>When a system does not record the failed or abandoned conversion, the person
+or household often absorbs it privately. They may drive instead of ride,
+bring a family member, delay or avoid care, disclose less, abandon training,
+work around an unstable schedule, remain in a constrained job, or continue a
+device habit because the alternative is socially or informationally costly.</p>
+<p>The GAO disability-workforce review’s 43% missing disability-type share must be
+read carefully here. Non-disclosure may be a legitimate privacy choice, not
+simply a data failure. But without enough respectful information, institutions
+cannot see where needs cluster or whether service completion differs by need.
+The correct response is better voluntary measurement and protection, not
+assuming that missingness means no barrier.</p>
+<h3 id="5-the-downstream-consequence-can-move-from-person-to-firm-to-state">5. The downstream consequence can move from person to firm to state</h3>
+<p>A conversion failure is not only a service-quality issue. It can alter labor
+supply, household spending, public-benefit dependence, congestion, emissions,
+health continuity, firm retention, local legitimacy, and political judgment.
+The working-benefit evidence shows why employment alone cannot stand in for
+security: millions of working adults are connected to Medicaid or SNAP, and
+selected states show repeated large-employer concentration. The evidence does
+not prove employer intent or wage shifting, but it identifies a place where
+firm labor models and public capacity interact.</p>
+<p>At infrastructure scale, the same pattern can become state dependence. A
+country or region may possess a technology, facility, or supply route while
+actual throughput, reliability, replaceability, workforce, and public
+acceptance remain weak. The atlas should therefore carry the conversion rule
+from household interfaces up through firms, infrastructure, and geopolitical
+capability rather than infer power from announced capacity.</p>
+<h2 id="what-this-adds-to-the-broad-atlas">What this adds to the broad atlas</h2>
+<p>This finding connects five themes that are often analyzed separately:</p>
+<ol>
+<li>household room and consumer choice;</li>
+<li>health, disability, and care access;</li>
+<li>labor-market entry and public-benefit dependence;</li>
+<li>infrastructure, mobility, and local place capacity; and</li>
+<li>digital attention, self-regulation, and cultural agency.</li>
+</ol>
+<p>It also provides a common vocabulary for the end-to-end map:</p>
+<pre><code class="language-text">input or entitlement
+  != usable option
+usable option
+  != attempted use
+attempted use
+  != completed use
+completed use
+  != protected outcome
+protected outcome
+  != recovery, trust, action, or exit
+</code></pre>
+<p>This vocabulary prevents a common analytical error: interpreting institutional
+activity as lived benefit. The error can appear as a rail binary, a coverage
+count, a participant count, an enrollment total, a device adoption rate, a
+complaint response, or a policy announcement. Each is a real stage; none is
+the whole route.</p>
+<h2 id="counterexamples-and-limits">Counterexamples and limits</h2>
+<ul>
+<li>Low transit use can reflect preference, residential geography, parking,
+  shift timing, or poor service; it is not proof that transit supply failed.</li>
+<li>High use can reflect lack of alternatives rather than a high-quality or
+  freely chosen route.</li>
+<li>A reported disability does not specify functional need, accommodation, or
+  access failure; missing disability type may reflect privacy choice.</li>
+<li>Worse workforce outcomes among disability reporters do not identify whether
+  access barriers, health, prior work, local demand, or service mix caused the
+  difference.</li>
+<li>Working while receiving Medicaid or living in a SNAP household does not
+  prove low wages, employer shifting, or inadequate benefits; the national and
+  selected-state employer universes differ.</li>
+<li>Smartphone overuse is self-assessed, not logged behavior or a clinical
+  diagnosis; failed cutback does not establish platform coercion.</li>
+<li>These sources do not share respondents, cases, places, or time windows and
+  must not be joined into one causal societal episode.</li>
+</ul>
+<h2 id="next-decisive-test">Next decisive test</h2>
+<p>The smallest cross-domain measurement improvement is an interface-to-outcome
+ledger with a stable, privacy-preserving unit:</p>
+<pre><code class="language-text">need or entitlement
+  -&gt; offered route and responsible actor
+  -&gt; price, time, information, accessibility, schedule, and alternative
+  -&gt; attempted / completed / delayed / abandoned use
+  -&gt; protected or sacrificed outcome
+  -&gt; complaint, correction, payment, redesign, or recovery
+  -&gt; continued use, switching, non-use, trust, collective action, or exit
+</code></pre>
+<p>For a first implementation, choose one domain rather than build a universal
+index. A route-day-shift airport ledger, an encounter-level disability-care
+ledger, or a workforce-program service-to-retention ledger could test the
+conversion hypothesis directly. The decisive fields are the offered option,
+the usable alternative, the effort or trade-off, the completed outcome, and
+the response after failure. The strongest result is not more capacity on paper;
+it is lower conversion cost and a protected outcome for people who previously
+could not use the nominal option.</p>
+<h2 id="provenance-and-storage-boundary">Provenance and storage boundary</h2>
+<p>This synthesis uses retained official-source writeups and compact reported
+figures. No new report PDF, microdata archive, transit schedule archive,
+provider file, or device-use log was downloaded.</p>
+<p>Source layers:</p>
+<ul>
+<li><a href="gao-2026-airport-transit-availability-adoption-layer-v1.html">GAO airport transit availability and adoption</a></li>
+<li><a href="gao-2026-disability-healthcare-accessibility-layer-v1.html">GAO disability health-care accessibility</a></li>
+<li><a href="gao-2026-disability-workforce-program-access-layer-v1.html">GAO disability workforce-program access</a></li>
+<li><a href="gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.html">GAO working adults and Medicaid/SNAP employer reliance</a></li>
+<li><a href="pew-2026-smartphone-time-control-wellbeing-layer-v1.html">Pew smartphone time, self-control, and well-being</a></li>
+</ul></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
