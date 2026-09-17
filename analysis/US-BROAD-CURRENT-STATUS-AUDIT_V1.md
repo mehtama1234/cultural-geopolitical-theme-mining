@@ -124,6 +124,13 @@ ordinal health comparison, not evidence that delay improves health or that
 non-delay protects it; medication fill, adherence, clinical continuity, and
 downstream household response remain unobserved.
 
+The companion [prescription-purchase selection finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-008.md)
+keeps the event-selection boundary explicit: a recorded purchase can coexist
+with reported delay or inability to afford, while no recorded purchase is not
+evidence of a forgone fill. This prevents the prescription event file from
+being treated as the full affordability-risk population or as a direct
+measure of adherence and recovery.
+
 The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 now makes the broad health route reviewable in one place. It connects care
 foregoing, debt and savings adaptation, coverage and institutional response,
