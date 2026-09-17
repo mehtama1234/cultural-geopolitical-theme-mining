@@ -109,6 +109,14 @@ that capacity and supplier identity can be measured without accepted output or
 changed external behavior. These are parallel boundary findings, not one
 material-to-action dataset.
 
+The August 2026 FTC Grubhub record adds a current multi-sided platform case to
+that boundary: drivers, diners, and restaurants are named as affected groups,
+while aggregate payments and prospective pay, account-dispute, and restaurant-
+consent controls are reported. The public record still does not identify
+group-specific receipt, restored access or income, alternatives, switching,
+trust, or exit, so the case advances institutional remedy visibility without
+closing the same-unit material-to-action arrow.
+
 The new [material-to-meaning/action endpoint audit](projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md)
 formalizes the four strongest local partial bridges: HTOPS supplies selected
 same-respondent material timing and institutional judgment; CCES supplies

@@ -198,6 +198,14 @@ comparison case: complaint visibility, response labels, fraud/loss, recovery
 burden, and remedy remain separate endpoints until a linked consumer episode
 is available.
 
+The August 2026 FTC Grubhub implementation record extends that route across
+three platform sides: driver earnings claims, diner account/fund access, and
+restaurant listing consent. It reports aggregate payments and prospective
+control requirements, but leaves group-specific exposure, individual receipt,
+correction, alternatives, switching, trust, and exit open. It is therefore a
+multi-sided remedy-stage observation, not a recovered consumer or worker
+outcome.
+
 The ranked [next-episode selection](analysis/broad-next-episode-selection-v1.md)
 completed the existing MEPS 2024 staged-ledger gate. Its 18,457 exact
 person/event rows provide a dated event/payment/context scaffold, but the
