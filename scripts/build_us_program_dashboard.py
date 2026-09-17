@@ -128,6 +128,7 @@ findings = [
 ("A 2026 opening rate does not restore worker mobility", "ai-work-control-037.html", "BLS JOLTS January–July 2026 partial-year refresh"),
 ("Sector pay context does not restore worker control", "ai-work-control-038.html", "BLS CES January–August 2026 earnings and JOLTS mobility context"),
 ('A steady August labor market still leaves worker security and control unresolved', 'ai-work-control-039.html', 'BLS August 2026 CPS/CES Employment Situation and industry changes'),
+('A softer labor market narrows mobility while AI access follows workplace control', 'us-cost-trust-politics-030.html', 'Federal Reserve 2025 SHED employment, job movement, schedule, and generative-AI measures'),
 ('A steady labor market does not guarantee household room', 'ai-work-control-040.html', 'BLS, SIPP, Federal Reserve, and New York Fed cross-source bridge'),
 ('Growth and profits do not settle who gains control', 'ai-work-control-041.html', 'BEA Q2 2026 GDP, private demand, prices, and corporate profits'),
 ('Aggregate income growth does not identify household financial room', 'us-household-financial-pressure-007.html', 'BEA July 2026 income, PCE, outlays, saving, and household-pressure context'),
