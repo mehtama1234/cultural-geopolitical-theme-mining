@@ -117,6 +117,14 @@ group-specific receipt, restored access or income, alternatives, switching,
 trust, or exit, so the case advances institutional remedy visibility without
 closing the same-unit material-to-action arrow.
 
+The CFPB BrightSpeed distribution record adds a consumer-recourse comparison:
+122,507 eligible consumers, $53,885,244 in compensable harm, a named payment
+administrator, and an ongoing distribution status are visible. Payment
+issuance, successful delivery, residual loss, trust, switching, and exit are
+not. This is a stronger administrative distribution surface than an order
+alone, but it remains a public remedy status rather than a measured recovery
+or political-action outcome.
+
 The new [material-to-meaning/action endpoint audit](projects/us-cost-trust-politics/material-meaning-action-endpoint-audit-v1.md)
 formalizes the four strongest local partial bridges: HTOPS supplies selected
 same-respondent material timing and institutional judgment; CCES supplies
