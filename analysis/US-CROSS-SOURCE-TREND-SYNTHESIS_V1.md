@@ -613,6 +613,15 @@ dream has become harder to achieve. This is a cultural and intergenerational
 meaning pattern, not an observed income-mobility, migration-causality, voting,
 or consumer-behavior result.
 
+The [BLS 2026 Q2 productivity and labor-share boundary](projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md)
+adds a current macro-to-worker counterexample: reported productivity rose 1.4%
+annualized while real hourly compensation fell 3.3% in the quarter, and labor
+share was reported at 52.8%, the lowest in the series beginning in 1947. These
+are aggregate production and compensation surfaces, not worker-level control,
+household security, or causal firm behavior. The direct BLS page blocked local
+automated retrieval, so this remains a provenance-bounded memo rather than a
+canonical machine record until a reproducible small extract is available.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

@@ -2547,6 +2547,15 @@ matched place or household design that joins meaning to housing/work exposure,
 actual economic change, and later civic or consumer behavior without inferring
 those links from the survey alone.
 
+The [BLS 2026 Q2 productivity and labor-share boundary](projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md)
+adds a storage-light firm/work counterexample: productivity and output rose in
+the reported quarter while real hourly compensation fell and labor share was
+at a reported series low. Because BLS blocked local automated retrieval, this
+is deliberately retained as a source-vintage memo rather than promoted to a
+machine record. The next labor-control test remains a reproducible sector or
+occupation join to compensation, schedules, ownership, bargaining, and later
+household or political outcomes.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

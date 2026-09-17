@@ -182,6 +182,7 @@ same people appear in every route.
 - [Pew 2026 public-life engagement groups and action layer](analysis/projects/us-digital-habits-attention/pew-2026-public-life-engagement-groups-action-layer-v1.md): Mobilizers, Connectors, Spectators, and Outsiders separate political interest, civic participation, news trust, government trust, and fairness judgments rather than forming one engagement ladder.
 - [Pew 2026 working-class identity, status, and political meaning layer](analysis/projects/us-cost-trust-politics/pew-2026-working-class-identity-status-meaning-layer-v1.md): working-class self-identification crosses income, education, work type, financial stress, and party, making status meaning distinct from objective class position.
 - [Pew 2026 Latino American-dream, mobility, and cultural meaning layer](analysis/projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md): perceived intergenerational progress coexists with divided belief in dream attainability, with immigrant and US-born Latinos showing different mobility narratives.
+- [BLS 2026 Q2 productivity, compensation, and labor-share boundary](analysis/projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md): aggregate productivity rose while real compensation fell and labor share reached a reported series low, without identifying worker-level control or household incidence.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later
