@@ -1,6 +1,6 @@
 # US recurrent-source vintage watchlist v1
 
-**Checked:** 2026-09-15
+**Checked:** 2026-09-17
 **Status:** active refresh control; not a claim that any source closes an
 end-to-end arrow
 
@@ -24,6 +24,12 @@ that must be preserved when the source moves.
 The watchlist is a control surface, not a forecast. A scheduled release may be
 delayed, revised, or changed in definition. Every refresh must retain the old
 vintage where a later release supersedes it.
+
+**HTOPS/HPS page recheck (2026-09-17):** the Census public-use page continues
+to list the July 2026 PUF and identifies corrected March and May 2026 files.
+The local atlas already retains the July cross-sectional comparison and the
+corrected-file weighting audit, so no new PUF was acquired. The 2025
+longitudinal-to-2026 cross-sectional design break remains a required boundary.
 
 ## Current refresh queue
 
