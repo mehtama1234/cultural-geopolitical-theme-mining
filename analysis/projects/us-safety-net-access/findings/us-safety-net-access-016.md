@@ -20,6 +20,16 @@ The safe interpretation is:
 > establishes fraud prevalence, applicant harm, privacy consequences, benefit
 > interruption, or improved household security.
 
+A related Northern District of California order dated September 18, 2025
+provides a necessary counterweight. In the earlier multi-state case, the court
+temporarily restrained USDA from acting on formal warning letters, including
+SNAP-funding disallowance, for plaintiff states other than Nevada. The court
+also stated that the record did not show significant fraud by applicants or
+significant eligibility errors in states that had complied. This is a temporary
+procedural checkpoint, not a final merits resolution, but it prevents the
+federal agency's “billions” claim from being treated as an established rate or
+as proof that data-sharing states performed better.
+
 ## Event chain
 
 ```text
@@ -45,6 +55,12 @@ The 29-versus-4 figure should remain a procedural comparison. It is not a
 ranking of state SNAP quality, and it cannot show whether data-sharing states
 serve eligible households more accurately or quickly.
 
+The judicial record adds a second procedural clock: a data demand and threatened
+funding sanction can be temporarily restrained before the underlying merits or
+the applicant-level consequences are resolved. It also adds an explicit
+counterexample to the agency narrative: the court record did not show
+significant fraud or eligibility errors in compliant states at that stage.
+
 ## Why it matters to the broader atlas
 
 The event extends the public-system chain backward to a stage often treated as
@@ -61,8 +77,10 @@ benefit episode unobserved.
 
 ## Limits and counterexamples
 
-- DOJ's press release is a one-sided procedural account and reports allegations,
-  not a judicial finding.
+- DOJ's press release is an agency procedural account and reports allegations,
+  not a final judicial finding.
+- The related court order is temporary and does not decide the ultimate legal
+  authority, data-use, privacy, or program-performance questions.
 - The underlying applicant data and state-level comparisons are not published
   in the release.
 - “Billions” is an agency characterization of reported evidence, not an
@@ -84,10 +102,11 @@ and later action.
 ## Sources and reproduction
 
 - [DOJ lawsuit announcement](https://www.justice.gov/opa/pr/justice-department-sues-states-failing-provide-snap-data-us-department-agriculture)
+- [Related Northern District of California order](https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_25-cv-06310/pdf/USCOURTS-cand-3_25-cv-06310-0.pdf)
 - [SNAP route-performance finding](us-safety-net-access-002.md)
 - [Recipient-side route finding](us-safety-net-access-003.md)
 - [Machine-readable trend record](../../../records/us-doj-snap-data-access-federal-state-conflict-2026.json)
 
-**Storage boundary:** one official DOJ HTML page was checked; no applicant
-file, court docket bundle, USDA extract, or bulk data was downloaded or
-retained.
+**Storage boundary:** one official DOJ HTML page and one 18-page official court
+PDF were checked; no applicant file, court docket bundle, USDA extract, or bulk
+data was downloaded or retained.
