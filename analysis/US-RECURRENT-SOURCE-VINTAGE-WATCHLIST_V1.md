@@ -25,10 +25,12 @@ The watchlist is a control surface, not a forecast. A scheduled release may be
 delayed, revised, or changed in definition. Every refresh must retain the old
 vintage where a later release supersedes it.
 
-**HTOPS/HPS page recheck (2026-09-17):** the Census public-use page continues
-to list the July 2026 PUF and identifies corrected March and May 2026 files.
-The local atlas already retains the July cross-sectional comparison and the
-corrected-file weighting audit, so no new PUF was acquired. The 2025
+**HTOPS/HPS page recheck (2026-09-17):** the [Census public-use datasets
+page](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html)
+continues to list the July 2026 PUF and identifies corrected March and May
+2026 files. The page was revised September 4, 2026; no new PUF was acquired
+for this recheck. The local atlas already retains the July cross-sectional
+comparison and the corrected-file weighting audit. The 2025
 longitudinal-to-2026 cross-sectional design break remains a required boundary.
 
 ## Current refresh queue
