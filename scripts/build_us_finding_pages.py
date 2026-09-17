@@ -312,6 +312,8 @@ def main():
     memos.append(consumer_recourse_synthesis)
     exit_observability_audit = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md"
     memos.append(exit_observability_audit)
+    practical_exit_synthesis = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md"
+    memos.append(practical_exit_synthesis)
     exit_ledger_implementation = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-ledger-implementation-v1.md"
     exit_platform_dry_run = ROOT / "analysis/projects/us-customer-automation-recourse/practical-exit-platform-ledger-dry-run-v1.md"
     exit_cfpb_dry_run = ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-practical-exit-contract-dry-run-v1.md"
@@ -493,6 +495,7 @@ def main():
         consumer_recourse_readme: "consumer-recourse-program.html",
         consumer_recourse_synthesis: "consumer-recourse-visibility-remedy-synthesis-v1.html",
         exit_observability_audit: "practical-exit-observability-audit-v1.html",
+        practical_exit_synthesis: "practical-exit-cross-domain-synthesis-v1.html",
         exit_ledger_implementation: "practical-exit-ledger-implementation-v1.html",
         exit_platform_dry_run: "practical-exit-platform-ledger-dry-run-v1.html",
         ROOT / "analysis/projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md": "platform-remedy-field-availability-audit-v1.html",

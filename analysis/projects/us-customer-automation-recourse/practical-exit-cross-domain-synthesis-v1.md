@@ -37,6 +37,7 @@ switching, trust change, or exit.
 | Consumer-finance recourse | Published CFPB complaint record | Submission route, routing, response timing, explanation, monetary/non-monetary labels, and publication | Account-level harm, correction quality, restored access, repeat effort, switching, and non-complainants |
 | Product safety | CPSC administrative and surveillance systems | Injury-surveillance design, recalls, violation notices, import examinations, and platform takedowns | Product possession, recall awareness, return effort, remedy receipt, avoided injury, and household cost |
 | Platform-work remedy | Named proceeding or comparative case | Explanation rights, human review, reactivation, lost-pay orders, or merits refusal | Payment receipt, durable access, recurrence prevention, alternatives, and voluntary exit |
+| Multi-sided delivery platform | FTC/Illinois Grubhub enforcement and refund administration | Driver-pay controls, diner account contestability, restaurant consent, and aggregate redress | Group-specific exposure, payment receipt, restored income/access, listing recovery, switching, and exit |
 
 These layers are complementary, not poolable. A household loss estimate cannot
 be divided by CFPB complaints to create a remedy rate. A recall count cannot be
@@ -58,6 +59,16 @@ The absence of a public record is therefore not a zero. A person may lack
 time, language access, digital access, documentation, confidence, or a viable
 alternative. They may continue using an essential service because exit would
 threaten housing, payments, work, safety, or care.
+
+The Grubhub record adds a multi-sided platform version of the same problem. The
+FTC reports more than $23.8 million sent to 640,038 drivers and diners, while
+the settlement also imposes prospective rules affecting driver-pay claims,
+blocked-account disputes, and restaurant listings. The public announcement
+does not separate the payment pool by group or show whether a diner regained
+account or gift-card access, a driver regained durable earning opportunity, or
+a restaurant recovered lost visibility. A platform can therefore distribute
+redress and change its rules without making the final option set equally
+observable for every side of the market.
 
 ### 2. Institutional response is not practical remedy
 
