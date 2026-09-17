@@ -30,6 +30,7 @@ separate.
 | CFPB student-loan event ledger (25 rows) | Public route, complaint/event handling | Recipient alternatives, verified remedy, recovery, trust/action, exit |
 | Platform remedy dry-run (27 episodes) | Adjudication, reactivation, some lost-remuneration orders | Alternatives, remedy receipt/durability, post-event status, practical exit |
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
+| Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
@@ -37,8 +38,9 @@ separate.
 ## Result
 
 No current local source supplies all nine required stages. The platform ledger
-comes closest to a response/remedy surface; MEPS, SHED, and HTOPS provide
-different kinds of person-level timing or persistence. Those are useful
+and Hotak follow-up come closest to a response/remedy/implementation surface;
+MEPS, SHED, and HTOPS provide different kinds of person-level timing or
+persistence, while Warraich supplies a formal-remedy boundary. These are useful
 complements, but they cannot be joined into one consumer or household story.
 
 The safe broad-program conclusion is therefore a measurement result: the atlas
@@ -61,4 +63,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses committed local records and downloads nothing.
+The audit uses seven committed local records and downloads nothing.

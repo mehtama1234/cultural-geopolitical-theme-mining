@@ -67,6 +67,23 @@
       "boundary": "The public recheck verifies a formal reactivation order and a direction to confer about lost remuneration, but no public implementation, payment receipt, continued work, alternative work, household outcome, switching, or exit record."
     },
     {
+      "source": "analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md",
+      "unit": "single_adjudicated_platform_remedy_case",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_adjudicated",
+        "responsible_actor": "observed_named_operator",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_lost_pay_direction",
+        "adaptation_or_protected_sacrificed_outcome": "partial_continued_work_activity",
+        "institutional_or_firm_response": "observed_adjudicated",
+        "verified_remedy": "partial_access_restoration_and_order",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "partial_continued_work_activity"
+      },
+      "boundary": "The public record establishes voluntary reactivation and more than 150 subsequent trips, plus a formal reactivation order; payment receipt, net recovery, durable access, alternatives, and non-retaliation remain unverified."
+    },
+    {
       "source": "analysis/records/us-shed-panel-care-foregoing-paths-2024-2025.json",
       "unit": "recontacted_adult_respondents",
       "records": 4419,
@@ -118,7 +135,7 @@
       "boundary": "MEPS supplies identified event and later status fields, but not a complete same-episode actor, alternative, remedy, trust/action, or practical-exit record."
     }
   ],
-  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger and Warraich follow-up for formal response/remedy, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the platform remedy ledger, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
-  "storage_boundary": "Uses six committed local records; no raw-data acquisition or new estimate."
+  "storage_boundary": "Uses seven committed local records; no raw-data acquisition or new estimate."
 }
