@@ -2474,6 +2474,20 @@ privacy-approved bill-payment episode ledger joining search route, affiliation
 belief, fee, payment outcome, biller status, correction/refund, and direct-biller
 alternatives.
 
+### Storage-light event qualification screen — 2026-09-17
+
+The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
+and [reader-facing finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md)
+screen six retained routes: SNAP transitions, platform remedies, CFPB
+student-loan complaints, SHED fraud/recovery, housing/insurance market
+records, and local service capacity. None satisfies the promotion rule requiring
+the same unit's dated trigger, alternative or non-use choice, institutional
+response, verified protected/sacrificed outcome, and later meaning/action or
+exit. This is a verified observability boundary, not evidence that no remedy
+or exit occurred. No bulk data was downloaded. The next qualifying pass must
+obtain one lawful small event ledger or valid panel with those missing fields;
+otherwise rotate to a subgroup/place reversal from retained data.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17

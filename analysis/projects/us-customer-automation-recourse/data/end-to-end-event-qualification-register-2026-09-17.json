@@ -1,0 +1,92 @@
+{
+  "checked": "2026-09-17",
+  "purpose": "Storage-light qualification screen for a same-unit event that can be followed through alternatives, response, verified remedy or recovery, and later action or exit.",
+  "promotion_rule": "A route qualifies only when the same unit has a dated trigger, an observed alternative or non-use choice, a defined institutional response, a verified protected or sacrificed outcome, and a follow-up behavior or meaning/action endpoint.",
+  "storage_boundary": "Reads retained local audits and ledgers only; no respondent archive or bulk download.",
+  "routes": [
+    {
+      "route_id": "SNAP-adjacent-transition",
+      "domain": "public_assistance",
+      "unit": "person-program-spell",
+      "denominator": "SIPP adjacent-month transition screen; 437 entries, 387 exits, 188 classified exits",
+      "dated_trigger": "observed program-state transition",
+      "alternative_or_non_use_choice": "missing",
+      "institutional_response": "transition and recorded reason surfaces available",
+      "verified_remedy_or_recovery": "missing",
+      "later_action_or_exit": "institutional exit observed; meaning and voluntary choice unknown",
+      "qualifies": false,
+      "next_minimum_field": "notice/reason/amount plus same-person appeal, alternative route, and later food or housing security"
+    },
+    {
+      "route_id": "platform-remedy-ledger",
+      "domain": "platform_work",
+      "unit": "case",
+      "denominator": "27 source-ledger episodes; not representative",
+      "dated_trigger": "access restriction and attempted route observed",
+      "alternative_or_non_use_choice": "missing in all episodes",
+      "institutional_response": "decision observed; 8 episodes have source-coded access-restored status",
+      "verified_remedy_or_recovery": "receipt, payment, durability, and protected outcome missing",
+      "later_action_or_exit": "selected later activity exists in some cases; switching/exit and reason missing",
+      "qualifies": false,
+      "next_minimum_field": "post-decision account status, payment receipt, alternative work, recurrence, and return/switch/exit reason"
+    },
+    {
+      "route_id": "CFPB-student-loan",
+      "domain": "consumer_financial_recourse",
+      "unit": "de-identified complaint case",
+      "denominator": "25-record capped 2024 student-loan ledger",
+      "dated_trigger": "complaint receipt and route timing observed",
+      "alternative_or_non_use_choice": "missing",
+      "institutional_response": "company response label observed",
+      "verified_remedy_or_recovery": "response is not verified correction, payment, or account outcome",
+      "later_action_or_exit": "missing",
+      "qualifies": false,
+      "next_minimum_field": "account-level exposure, repeat contact, correction/receipt, substitute, closure/switch, and non-complainant denominator"
+    },
+    {
+      "route_id": "SHED-fraud-recovery",
+      "domain": "consumer_fraud",
+      "unit": "adult respondent and incident",
+      "denominator": "SHED respondent/incident conditional estimates",
+      "dated_trigger": "retrospective fraud exposure observed",
+      "alternative_or_non_use_choice": "provider/account and replacement route missing",
+      "institutional_response": "reporting and recovery effort surfaces observed",
+      "verified_remedy_or_recovery": "self-reported recovery, not verified account-level remedy",
+      "later_action_or_exit": "switching, continued use, and non-use missing",
+      "qualifies": false,
+      "next_minimum_field": "named provider/account, attempted contacts, verified recovery, replacement route, and later use"
+    },
+    {
+      "route_id": "housing-insurance-market",
+      "domain": "housing_insurance",
+      "unit": "policy/property/place",
+      "denominator": "state residual-market and insurer/place records",
+      "dated_trigger": "market-level nonrenewal/backstop change observed",
+      "alternative_or_non_use_choice": "household-level alternative coverage missing",
+      "institutional_response": "market and backstop response observed",
+      "verified_remedy_or_recovery": "claim/repair/payment outcome missing",
+      "later_action_or_exit": "household move/stay/switch missing",
+      "qualifies": false,
+      "next_minimum_field": "dated notice, premium/payment, claim or repair, replacement coverage, and move/stay outcome"
+    },
+    {
+      "route_id": "local-service-capacity",
+      "domain": "place_and_service_access",
+      "unit": "resident/place/firm",
+      "denominator": "firm, provider, shortage, mobility, and place records",
+      "dated_trigger": "capacity or establishment change observed",
+      "alternative_or_non_use_choice": "resident-level attempt and substitute missing",
+      "institutional_response": "nominal presence and public route observed",
+      "verified_remedy_or_recovery": "completed use/restoration missing",
+      "later_action_or_exit": "resident stay/switch/move/action missing",
+      "qualifies": false,
+      "next_minimum_field": "dated resident attempt, wait/travel/price, usable substitute, protected outcome, and later stay/switch/move"
+    }
+  ],
+  "result": {
+    "qualifying_routes": 0,
+    "screened_routes": 6,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data."
+  }
+}
