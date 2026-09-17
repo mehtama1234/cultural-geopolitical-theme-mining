@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-279 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+280 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -521,6 +521,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | HRSA HPSA operational fields are unevenly populated across designation categories | time, cost, voice | care_health_reproduction, housing_place_mobility, unequal_exposure_status, public_systems_feedback | Current designated primary-care HRSA HPSA row; operational fields grouped by overlapping designation/type/population categories | United States 50 states and DC; territories and Palau excluded; 20,905 rows and 2,888 counties | 5 | Current HRSA file; all designated primary-care rows; Current HRSA file; geographic HPSA type; Current HRSA file; population HPSA type; Current HRSA file; facility/site HPSA type; Current HRSA file; migrant/seasonal population code | compared; observed | [open](records/us-hrsa-hpsa-operational-fields-2026.json) |
 
 **Boundary:** This record audits current HRSA designation fields. It does not establish active provider capacity, patient access, quality, price, travel, household outcomes, trust, or political response; overlapping component rows must not be summed into national totals.
+
+| Retrospective fraud loss is followed by mixed material and institutional responses in a linked HTOPS panel | cost, voice | household_room_consumption, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, public_systems_feedback | April-to-June 2025 Census HTOPS public-use respondents linked by exact SCRAMID; same-respondent descriptive follow-up, not a representative incident sample or attrition-adjusted causal panel | United States HTOPS/HPS public-use panel | 1 | April 15–29 to June 16–25, 2025; retrospective fraud/loss groups followed to later material and institutional responses | compared | [open](records/us-htops-fraud-loss-following-trust-2025.json) |
+
+**Boundary:** This is an associative same-respondent follow-up, not a causal fraud effect or political-action estimate. It does not establish a dated incident, actor responsibility, trust change, remedy receipt, recovery, switching, or exit.
 
 | The linked material-to-Congress-confidence path varies by income and race/ethnicity | cost, voice, work | household_room_consumption, unequal_exposure_status, trust_identity_meaning, political_judgment_action | US Census HTOPS April and June 2025 linked public-use respondents; subgroup cross-lags among retained SCRAMID matches | United States | 1 | April 15–29 to June 16–25, 2025; subgroup cross-lag | compared | [open](records/us-htops-material-trust-subgroups-2025.json) |
 

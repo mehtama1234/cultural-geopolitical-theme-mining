@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-htops-fraud-loss-following-trust-2025",
+  "title": "Retrospective fraud loss is followed by mixed material and institutional responses in a linked HTOPS panel",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "April-to-June 2025 Census HTOPS public-use respondents linked by exact SCRAMID; same-respondent descriptive follow-up, not a representative incident sample or attrition-adjusted causal panel",
+  "geography": "United States HTOPS/HPS public-use panel",
+  "observations": [
+    {
+      "period": "April 15–29 to June 16–25, 2025; retrospective fraud/loss groups followed to later material and institutional responses",
+      "denominator": {
+        "value": 6564,
+        "unit": "exact SCRAMID-linked respondents across April and June files; outcome-specific valid denominators vary",
+        "value_type": "linked_respondents"
+      },
+      "measures": {
+        "linked_group_counts": {
+          "value": "no exposure 751; exposure 5,798; exposure plus money loss 184; loss plus report 51; loss, report, and agency recovery 11",
+          "unit": "unweighted linked respondents; groups are non-equivalent valid-answer universes",
+          "value_type": "reported_group_counts"
+        },
+        "later_material_context": {
+          "value": "June unable-to-pay-energy-bill share: no exposure 16.84%; exposure 10.66%; exposure plus loss 43.81%; loss plus report 44.86%; loss/report/recovery 78.80%",
+          "unit": "April-weighted descriptive percent among valid June outcomes",
+          "value_type": "weighted_followup_comparison"
+        },
+        "later_institutional_response": {
+          "value": "June code-1 share for federal-statistics trust: no exposure 68.60%; exposure 72.43%; exposure plus loss 58.07%; loss plus report 70.20%; loss/report/recovery 65.70%. June code-1 Congress confidence: 13.35%, 3.93%, 4.84%, 0.80%, and 0.00%, respectively.",
+          "unit": "April-weighted coded-response shares; code labels retained without translating code 1 into high trust",
+          "value_type": "weighted_followup_comparison"
+        },
+        "recovery_subgroup": {
+          "value": 11,
+          "unit": "linked respondents reporting loss, reporting, and agency recovery; descriptive boundary cell",
+          "value_type": "unweighted_subgroup_count"
+        }
+      },
+      "method": "Exact SCRAMID linkage between April 2025 fraud-module and June 2025 HTOPS files; April PWEIGHT applied to linked respondents; outcome-specific valid rows retained. Replicate variance is not used because an attrition-adjusted longitudinal weight is not documented.",
+      "uncertainty": "April fraud questions refer to the prior 12 months rather than a dated incident. The actor, alternatives, effort, remedy timing, prior trust, and political action are not observed. Linked retention is selective, outcome missingness varies, and the loss/report/recovery cell has only 11 respondents. Code-1 institutional measures remain dictionary-dependent coding screens.",
+      "subgroup": "Linked respondents grouped by reported April scam exposure, money loss, reporting, and agency recovery; groups are distinct valid-answer universes and are not a progression with equal denominators.",
+      "counterinterpretation": "Fraud exposure alone is not equivalent to realized loss, and realized loss is not equivalent to general expense difficulty. Mixed later trust patterns may reflect prior identity, institution-specific judgment, selection, reporting, or unrelated conditions rather than a fraud effect.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "april:sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; april_replicates:sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c; june:sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2; result:sha256:49ec10fccf87732a4005340458b030c8462ffa9f251b7bf7d0170f59b8e8e828",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "claim": "Census publishes the HTOPS/HPS public-use data and documentation route used for the April-to-June linked panel.",
+      "status": "official-public-use-data-route"
+    },
+    {
+      "source_url": "projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md",
+      "claim": "The committed linkage audit and result JSON document the exact SCRAMID intersection, groups, weights, outcomes, and boundary.",
+      "status": "repository-reproduction-audit"
+    }
+  ],
+  "boundary": "This is an associative same-respondent follow-up, not a causal fraud effect or political-action estimate. It does not establish a dated incident, actor responsibility, trust change, remedy receipt, recovery, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Existing committed HTOPS April/June input hashes and local result JSON; raw PUFs are not retained in the repository",
+    "retrieval_hash": "april:sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; april_replicates:sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c; june:sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2; result:sha256:49ec10fccf87732a4005340458b030c8462ffa9f251b7bf7d0170f59b8e8e828",
+    "checked": "2026-09-17"
+  }
+}
