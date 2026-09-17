@@ -22,6 +22,19 @@
       "still_verify_after_access": ["wave_weight", "module_eligibility", "missing_codes", "duplicate_uasid_wave", "attrition_fields"]
     },
     {
+      "role": "older_ages_monthly_events_panel",
+      "access": "registration_gated",
+      "universe": "UAS respondents aged 50 and older; 52 monthly waves covering June 2019 through September 2023; approximately 5,426 respondents completed at least one wave",
+      "documented_candidates": {
+        "identity_and_panel": ["uasid", "wave", "uashhid", "survhhid", "final_weight", "yrmo_covered", "yrmo_fielded"],
+        "dated_events": ["le001", "le011_1_", "le009", "le011_9_", "le001_followup", "le009_followup"],
+        "medical_expenditures": ["le_hrs_oopa1", "le_hrs_oopa2", "le_hrs_oopb", "le_hrs_oopc", "le_hrs_oopd", "oop_hosp", "oop_doc", "oop_dent", "oop_othmed"],
+        "later_health_wellbeing": ["le_hrs_srh1", "le_hrs_s1", "le_hrs_p1"],
+        "later_work_and_earnings": ["le_hrs_ia", "le_hrs_ib", "le_hrs_ic_total", "le_earn_m_full"]
+      },
+      "still_verify_after_access": ["exact_value_labels", "wave_weight", "event_date_precision", "missing_codes", "duplicate_uasid_wave", "attrition_fields", "linked_trust_or_remedy_module"]
+    },
+    {
       "role": "uas537_healthcare_experience",
       "access": "registration_gated",
       "documented_candidates": {
